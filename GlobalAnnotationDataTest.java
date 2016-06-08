@@ -1,4 +1,4 @@
-package net.debug;
+package net.minecraftforge.test;
 
 import com.google.common.collect.Maps;
 import net.minecraftforge.fml.common.Mod;
@@ -10,17 +10,19 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * A mod for debugging global annotation.
- * Adding Feature :
- * ---Type Annotation---
- * Class Type Annotation : Success
- * Field Type Annotation : Success
- * Method Type Annotation : Success
- * Method Parameter Type Annotation : Success
- * ---Method Parameter Annotation---
- * Method Parameter Annotation : Success
- * --- Local Variable ---
- * Local Variable : Success
+ * --------------------<br>
+ * A mod for testing global annotation.<br>
+ * Adding Feature :<br>
+ * ---Type Annotation---<br>
+ * Class Type Annotation : Success<br>
+ * Field Type Annotation : Success<br>
+ * Method Type Annotation : Success<br>
+ * Method Parameter Type Annotation : Success<br>
+ * ---Method Parameter Annotation---<br>
+ * Method Parameter Annotation : Success<br>
+ * --- Local Variable ---<br>
+ * Local Variable : Success<br>
+ * --------------------
  */
 @Mod(modid = "GlobalAnnotationDataTest", name = "Global Annotation Data Test", version = "1.0")
 @SuppressWarnings("unused")
@@ -68,7 +70,7 @@ public class GlobalAnnotationDataTest
         {
             public static Class<@TestAnnotation ? extends Annotation> methodAnnotationTest(@TestAnnotation Object object, @TestAnnotation Object object2)
             {
-                @TestAnnotation
+                @TestAnnotation2("Null")
                 String a = null;
                 @TestAnnotation
                 Class<@TestAnnotation ? extends Class<@TestAnnotation ?>> abc = null;
@@ -81,7 +83,16 @@ public class GlobalAnnotationDataTest
         @Target({ElementType.TYPE, ElementType.FIELD, ElementType.PARAMETER, ElementType.TYPE_PARAMETER, ElementType.TYPE_USE, ElementType.LOCAL_VARIABLE})
         public @interface TestAnnotation
         {
+            @TestAnnotation
+            String value() default "Null";
+        }
 
+        @Retention(RetentionPolicy.RUNTIME)
+        @Target({ElementType.TYPE, ElementType.FIELD, ElementType.PARAMETER, ElementType.TYPE_PARAMETER, ElementType.TYPE_USE, ElementType.LOCAL_VARIABLE})
+        public @interface TestAnnotation2
+        {
+            @TestAnnotation
+            String value();
         }
     }
 }
