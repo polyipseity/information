@@ -1,0 +1,67 @@
+object FormTaskA: TFormTaskA
+  Left = 480
+  Height = 540
+  Top = 270
+  Width = 960
+  Caption = 'Task A: Wealth Indicator for Face Mask'
+  ClientHeight = 540
+  ClientWidth = 960
+  Font.Height = -21
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object LabelTitle: TLabel
+    Left = 0
+    Height = 55
+    Top = 0
+    Width = 960
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Wealth Indicator for Face Mask'
+    Font.Height = -43
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelDescription: TLabel
+    Left = 0
+    Height = 52
+    Top = 55
+    Width = 960
+    Align = alTop
+    Caption = 'Calcuate your wealth by counting how many boxes of face mask you have! Type a number below and see the result instantly.'
+    ParentColor = False
+    WordWrap = True
+  end
+  object EditInput: TEdit
+    AnchorSideTop.Control = LabelDescription
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 34
+    Top = 207
+    Width = 312
+    BorderSpacing.Top = 100
+    OnChange = EditInputChange
+    TabOrder = 0
+    TextHint = 'Number of Boxes of Face Mask'
+  end
+  object LabelOutput: TLabel
+    Left = 0
+    Height = 26
+    Top = 248
+    Width = 227
+    Caption = 'Your level of wealth is...'
+    ParentColor = False
+  end
+  object ButtonBack: TButton
+    Left = 0
+    Height = 36
+    Top = 504
+    Width = 72
+    AutoSize = True
+    Cancel = True
+    Caption = 'Back'
+    OnClick = ButtonBackClick
+    TabOrder = 1
+  end
+end
