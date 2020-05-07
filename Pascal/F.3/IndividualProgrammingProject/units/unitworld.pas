@@ -19,7 +19,7 @@ type
 
   TEnumFacing = (FacingUp, FacingDown, FacingNorth, FacingEast, FacingSouth, FacingWest);
   TSetEnumFacing = set of TEnumFacing;
-  TWorldDataRange = {$IFDEF Debug}0..16{$ELSE}0..255{$ENDIF};
+  TWorldDataRange = {$IFDEF Debug}0..16{$ELSE}0..64{$ENDIF};
 
   { TGPosition }
 
