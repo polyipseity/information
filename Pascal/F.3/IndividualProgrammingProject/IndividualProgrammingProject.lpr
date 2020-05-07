@@ -12,7 +12,8 @@ uses
   heaptrc,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, lazopenglcontext, UnitFormMain;
+  Forms, lazopenglcontext,
+  UnitFormMain;
 
 {$R *.res}
 
@@ -21,12 +22,13 @@ begin
   //globalSkipIfNoLeaks:=true;
   {$endif}
   Randomize;
-  RequireDerivedFormResource:=True;
+  RequireDerivedFormResource:=true;
   with Application do
   begin
-    Scaled:=True;
+    Scaled:=true;
     Initialize;
     CreateForm(TFormMain, FormMain);
+    OnIdle:=@FormMain.ApplicationOnIdle;
     Run;
   end;
 end.
