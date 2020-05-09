@@ -41,8 +41,12 @@ type
   { TMatrixUtilities }
 
   TMatrixUtilities = class
-    class function Normalize(v: Tvector3_double): Tvector3_double; overload;
+    class function Normalize(const v: Tvector3_double): Tvector3_double;
   end;
+
+{ UnitUtilities }
+
+operator = (const Left, Right: Tvector3_double): boolean; overload;
 
 var
   ObjectUnused: TObject;
@@ -193,9 +197,16 @@ end;
 
 { TMatrixUtilities }
 
-class function TMatrixUtilities.Normalize(v: Tvector3_double): Tvector3_double;
+class function TMatrixUtilities.Normalize(const v: Tvector3_double): Tvector3_double;
 begin
   exit(v / v.Length);
+end;
+
+{ UnitUtilities }
+
+operator = (const Left, Right: Tvector3_double): boolean;
+begin
+  exit((Left.Data[v3x] = Right.Data[v3x]) and (Left.Data[v3y] = Right.Data[v3y]) and (Left.Data[v3z] = Right.Data[v3z]))
 end;
 
 initialization
