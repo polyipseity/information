@@ -1,0 +1,155 @@
+object FormMain: TFormMain
+  Left = 480
+  Height = 720
+  Top = 180
+  Width = 960
+  Caption = 'FormMain'
+  ClientHeight = 0
+  ClientWidth = 0
+  Font.Height = -16
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object OpenGLControlRender: TOpenGLControl
+    Left = 0
+    Height = 0
+    Top = 0
+    Width = 0
+    Align = alClient
+    AutoResizeViewport = True
+    MultiSampling = 4
+    OnClick = OpenGLControlRenderClick
+    OnExit = OpenGLControlRenderExit
+    OnKeyDown = OpenGLControlRenderKeyDown
+    OnKeyUp = OpenGLControlRenderKeyUp
+    OnMouseMove = OpenGLControlRenderMouseMove
+    OnPaint = OpenGLControlRenderDraw
+    OnResize = OpenGLControlRenderResize
+  end
+  object GroupBoxSettings: TGroupBox
+    Left = 0
+    Height = 0
+    Top = 0
+    Width = 105
+    Align = alLeft
+    AutoSize = True
+    Caption = 'Settings'
+    ClientHeight = 0
+    ClientWidth = 101
+    TabOrder = 1
+    object GroupBoxWorldSize: TGroupBox
+      Left = 0
+      Height = 56
+      Top = 0
+      Width = 101
+      AutoSize = True
+      Caption = 'World Size'
+      ClientHeight = 31
+      ClientWidth = 97
+      TabOrder = 0
+      object EditWorldSize: TEdit
+        AnchorSideRight.Control = UpDownWorldSize
+        Left = 0
+        Height = 31
+        Top = 0
+        Width = 80
+        Align = alLeft
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        MaxLength = 3
+        NumbersOnly = True
+        OnEditingDone = EditWorldSizeEditingDone
+        TabOrder = 0
+        Text = '16'
+        TextHint = 'World Size'
+      end
+      object UpDownWorldSize: TUpDown
+        Left = 80
+        Height = 31
+        Top = 0
+        Width = 17
+        Align = alRight
+        Associate = EditWorldSize
+        Max = 999
+        Min = 0
+        Position = 16
+        TabOrder = 1
+      end
+    end
+    object ButtonSettingsApply: TButton
+      Left = 0
+      Height = 30
+      Top = -30
+      Width = 101
+      Align = alBottom
+      AutoSize = True
+      Caption = 'Apply'
+      OnClick = ButtonSettingsApplyClick
+      TabOrder = 1
+    end
+  end
+  object GroupBoxInfo: TGroupBox
+    Left = 0
+    Height = 45
+    Top = 0
+    Width = 0
+    Align = alTop
+    AutoSize = True
+    Caption = 'Info'
+    ClientHeight = 20
+    ClientWidth = 0
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    TabOrder = 0
+    object LabelFPS: TLabel
+      Left = 0
+      Height = 20
+      Top = 0
+      Width = 38
+      Align = alLeft
+      BorderSpacing.Left = 10
+      BorderSpacing.Right = 10
+      Caption = '... fps'
+      ParentColor = False
+    end
+    object LabelMSPF: TLabel
+      Left = 0
+      Height = 20
+      Top = 0
+      Width = 38
+      Align = alLeft
+      BorderSpacing.Left = 10
+      BorderSpacing.Right = 10
+      Caption = '... ms'
+      ParentColor = False
+    end
+  end
+  object GroupBoxBenchmark: TGroupBox
+    Left = -105
+    Height = 0
+    Top = 0
+    Width = 105
+    Align = alRight
+    AutoSize = True
+    Caption = 'Benchmark'
+    TabOrder = 4
+  end
+  object ProgressBarLoading: TProgressBar
+    AnchorSideLeft.Control = OpenGLControlRender
+    AnchorSideTop.Control = OpenGLControlRender
+    AnchorSideRight.Control = OpenGLControlRender
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = OpenGLControlRender
+    AnchorSideBottom.Side = asrBottom
+    Left = 0
+    Height = 0
+    Top = 0
+    Width = 0
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Smooth = True
+    TabOrder = 2
+    Visible = False
+    BarShowText = True
+  end
+  object TimerSec: TTimer
+    OnTimer = TimerSecTimer
+  end
+end

@@ -47,22 +47,22 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="units\unitformmain.pas"/>
+        <Filename Value="units\unitutilities.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UnitUtilities"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="forms\unitformmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UnitFormMain"/>
-      </Unit1>
-      <Unit2>
-        <Filename Value="units\unitworld.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="UnitWorld"/>
       </Unit2>
       <Unit3>
-        <Filename Value="units\unitutilities.pas"/>
+        <Filename Value="units\unitgame.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="UnitUtilities"/>
+        <UnitName Value="UnitGame"/>
       </Unit3>
     </Units>
   </ProjectOptions>
@@ -74,7 +74,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="units"/>
+      <OtherUnitFiles Value="units;forms"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
