@@ -5,8 +5,8 @@ program IndividualProgrammingProject;
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
-  cmem,
   {$ENDIF}{$ENDIF}
+  //cmem,
   {$IFDEF Debug}
   {$DEFINE useHeapTrace}
   heaptrc,

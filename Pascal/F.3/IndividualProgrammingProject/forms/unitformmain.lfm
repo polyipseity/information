@@ -10,10 +10,10 @@ object FormMain: TFormMain
   OnCreate = FormCreate
   LCLVersion = '2.0.6.0'
   object OpenGLControlRender: TOpenGLControl
-    Left = 0
-    Height = 0
-    Top = 0
-    Width = 0
+    Left = 105
+    Height = 675
+    Top = 45
+    Width = 750
     Align = alClient
     AutoResizeViewport = True
     MultiSampling = 4
@@ -27,13 +27,13 @@ object FormMain: TFormMain
   end
   object GroupBoxSettings: TGroupBox
     Left = 0
-    Height = 0
-    Top = 0
+    Height = 675
+    Top = 45
     Width = 105
     Align = alLeft
     AutoSize = True
     Caption = 'Settings'
-    ClientHeight = 0
+    ClientHeight = 650
     ClientWidth = 101
     TabOrder = 1
     object GroupBoxWorldSize: TGroupBox
@@ -77,7 +77,7 @@ object FormMain: TFormMain
     object ButtonSettingsApply: TButton
       Left = 0
       Height = 30
-      Top = -30
+      Top = 620
       Width = 101
       Align = alBottom
       AutoSize = True
@@ -90,17 +90,17 @@ object FormMain: TFormMain
     Left = 0
     Height = 45
     Top = 0
-    Width = 0
+    Width = 960
     Align = alTop
     AutoSize = True
     Caption = 'Info'
     ClientHeight = 20
-    ClientWidth = 0
+    ClientWidth = 956
     DoubleBuffered = True
     ParentDoubleBuffered = False
     TabOrder = 0
     object LabelFPS: TLabel
-      Left = 0
+      Left = 58
       Height = 20
       Top = 0
       Width = 38
@@ -111,7 +111,7 @@ object FormMain: TFormMain
       ParentColor = False
     end
     object LabelMSPF: TLabel
-      Left = 0
+      Left = 10
       Height = 20
       Top = 0
       Width = 38
@@ -123,9 +123,9 @@ object FormMain: TFormMain
     end
   end
   object GroupBoxBenchmark: TGroupBox
-    Left = -105
-    Height = 0
-    Top = 0
+    Left = 855
+    Height = 675
+    Top = 45
     Width = 105
     Align = alRight
     AutoSize = True
@@ -139,10 +139,10 @@ object FormMain: TFormMain
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = OpenGLControlRender
     AnchorSideBottom.Side = asrBottom
-    Left = 0
-    Height = 0
-    Top = 0
-    Width = 0
+    Left = 105
+    Height = 675
+    Top = 45
+    Width = 750
     Anchors = [akTop, akLeft, akRight, akBottom]
     Smooth = True
     TabOrder = 2
