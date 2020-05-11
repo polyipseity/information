@@ -44,8 +44,20 @@ type
     class function Normalize(const v: Tvector3_double): Tvector3_double;
   end;
 
+  { TProcedurePointer }
+  TProcedurePointerProcedurePointer = procedure(Pointer: PtrInt);
+  TProcedurePointer = class
+    public
+      constructor Create(const Proc: TProcedurePointerProcedurePointer);
+      procedure Destroy(Pointer: PtrInt); overload;
+      procedure Run(Pointer: PtrInt);
+    public
+      Proc: TProcedurePointerProcedurePointer;
+  end;
+
 { UnitUtilities }
 
+operator mod(const a, b: double) c: double; inline;
 operator = (const Left, Right: Tvector3_double): boolean; overload;
 
 var
@@ -202,7 +214,27 @@ begin
   exit(v / v.Length);
 end;
 
+{ TProcedurePointerProcedurePointer }
+
+constructor TProcedurePointer.Create(const Proc: TProcedurePointerProcedurePointer);
+begin
+  Self.Proc:=Proc;
+end;
+procedure TProcedurePointer.Destroy(Pointer: PtrInt);
+begin
+  Destroy;
+end;
+procedure TProcedurePointer.Run(Pointer: PtrInt);
+begin
+  Proc(Pointer);
+end;
+
 { UnitUtilities }
+
+operator mod(const a, b: double) c: double; inline;
+begin
+  c:=a - b * int(a / b);
+end;
 
 operator = (const Left, Right: Tvector3_double): boolean;
 begin
