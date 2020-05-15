@@ -11,6 +11,9 @@ uses
   dglOpenGL;
 
 type
+  { Utilities }
+  TArrayDouble = specialize TArray<double>;
+
   { TQuaternionDouble }
 
   TQuaternionDouble = record
