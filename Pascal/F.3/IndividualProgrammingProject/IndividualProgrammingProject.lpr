@@ -1,34 +1,33 @@
 program IndividualProgrammingProject;
 
-{$mode objfpc}{$H+}
+{$mode objfpc}{$H+}{$A4}
 
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}
   cthreads,
   {$ENDIF}{$ENDIF}
   //cmem,
-  {$IFDEF Debug}
-  {$DEFINE useHeapTrace}
+  {$IFDEF useHeapTrace}
   heaptrc,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, lazopenglcontext,
+  Forms, LazOpenGLContext,
   UnitFormMain;
 
 {$R *.res}
 
 begin
-  {$if declared(useHeapTrace)}
+  {$IFDEF useHeapTrace}
   //globalSkipIfNoLeaks:=true;
-  {$endif}
+  {$ENDIF}
   Randomize;
   RequireDerivedFormResource:=true;
+  Application.Scaled:=True; // Lazarus cannot recognize with Application do.
   with Application do
   begin
-    Scaled:=true;
+    //Scaled:=true;
     Initialize;
     CreateForm(TFormMain, FormMain);
-    OnIdle:=@FormMain.ApplicationOnIdle;
     Run;
   end;
 end.
