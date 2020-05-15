@@ -10,9 +10,8 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls,
   {$IFDEF Debug}{$IFDEF Windows}Windows, GLWin32WGLContext,{$ENDIF}{$ENDIF}
-  OpenGLContext, LCLType, StdCtrls, ComCtrls,
-  dglOpenGL,
-  UnitGame;
+  OpenGLContext, TAGraph, TASeries, TASources, LCLType, StdCtrls, ComCtrls,
+  dglOpenGL;
 
 {$R *.lfm}
 
@@ -20,10 +19,24 @@ resourcestring
   ResStringInfoCaption = 'Info';
   ResStringInfoFPSCaptionSuffix = 'fps';
   ResStringInfoMSPFCaptionSuffix = 'ms';
+  ResStringInfoFrameNumberPrefix = 'Frame ';
   ResStringSettingsCaption = 'Settings';
   ResStringSettingsWorldSizeCaption = 'World Size';
   ResStringSettingsApply = 'Apply';
   ResStringBenchmarkCaption = 'Benchmark';
+  ResStringBenchmarkFPSCaption = 'FPS';
+  ResStringBenchmarkFPSCurrentCaptionPrefix = 'Current ';
+  ResStringBenchmarkFPSMeanCaptionPrefix = 'Mean ';
+  ResStringBenchmarkFPSMedianCaptionPrefix = 'Median ';
+  ResStringBenchmarkFPSMaxCaptionPrefix = 'Max ';
+  ResStringBenchmarkFPSMinCaptionPrefix = 'Min ';
+  ResStringBenchmarkFPSChartXCaption = 'Frame #';
+  ResStringBenchmarkFPSChartYCaption = 'FPS';
+  ResStringBenchmarkFPSChartCurrentLegendFormat = 'Current';
+  ResStringBenchmarkFPSChartMeanLegendFormat = 'Mean';
+  ResStringBenchmarkFPSChartMedianLegendFormat = 'Median';
+  ResStringBenchmarkFPSChartMaxLegendFormat = 'Max';
+  ResStringBenchmarkFPSChartMinLegendFormat = 'Min';
 
 type
 
@@ -31,13 +44,31 @@ type
 
   TFormMain = class(TForm)
     ButtonSettingsApply: TButton;
+    ChartFPS: TChart;
+    ChartFPSLineSeriesCurrent: TLineSeries;
+    ChartFPSLineSeriesMedian: TLineSeries;
+    ChartFPSLineSeriesMax: TLineSeries;
+    ChartFPSLineSeriesMin: TLineSeries;
+    ChartFPSLineSeriesMean: TLineSeries;
     EditWorldSize: TEdit;
+    GroupBoxFPS: TGroupBox;
     GroupBoxBenchmark: TGroupBox;
     GroupBoxInfo: TGroupBox;
     GroupBoxSettings: TGroupBox;
     GroupBoxWorldSize: TGroupBox;
+    LabelFPSCurrent: TLabel;
+    LabelFPSMean: TLabel;
+    LabelFPSMedian: TLabel;
+    LabelFPSMax: TLabel;
+    LabelFPSMin: TLabel;
+    LabelFrameNumber: TLabel;
     LabelFPS: TLabel;
     LabelMSPF: TLabel;
+    ListChartSourceFPSCurrent: TListChartSource;
+    ListChartSourceFPSMedian: TListChartSource;
+    ListChartSourceFPSMax: TListChartSource;
+    ListChartSourceFPSMin: TListChartSource;
+    ListChartSourceFPSMean: TListChartSource;
     OpenGLControlRender: TOpenGLControl;
     ProgressBarLoading: TProgressBar;
     TimerSec: TTimer;
@@ -47,6 +78,7 @@ type
 
     procedure EditWorldSizeEditingDone(const Sender: TEdit);
     procedure ButtonSettingsApplyClick(const Sender: TButton);
+    procedure LabelFPSMinClick(Sender: TObject);
 
     procedure OpenGLControlRenderResize(const Sender: TOpenGLControl);
     procedure OpenGLControlRenderDraw(const Sender: TOpenGLControl);
@@ -62,6 +94,8 @@ var
   FormMain: TFormMain;
 
 implementation
+uses
+  UnitGame;
 
 var
   WorldSize: Longint;
@@ -148,9 +182,16 @@ begin
   ButtonSettingsApply.Caption:=ResStringSettingsApply;
 
   GroupBoxBenchmark.Caption:=ResStringBenchmarkCaption;
+  GroupBoxFPS.Caption:=ResStringBenchmarkFPSCaption;
+  ChartFPS.BottomAxis.Title.Caption:=ResStringBenchmarkFPSChartXCaption;
+  ChartFPS.LeftAxis.Title.Caption:=ResStringBenchmarkFPSChartYCaption;
+  ChartFPSLineSeriesCurrent.Legend.Format:=ResStringBenchmarkFPSChartCurrentLegendFormat;
+  ChartFPSLineSeriesMean.Legend.Format:=ResStringBenchmarkFPSChartMeanLegendFormat;
+  ChartFPSLineSeriesMedian.Legend.Format:=ResStringBenchmarkFPSChartMedianLegendFormat;
+  ChartFPSLineSeriesMax.Legend.Format:=ResStringBenchmarkFPSChartMaxLegendFormat;
+  ChartFPSLineSeriesMin.Legend.Format:=ResStringBenchmarkFPSChartMinLegendFormat;
 
   OnCreate0(Sender);
-
   WorldSize:=StrToInt(EditWorldSize.Text);
   Apply1(OpenGLControlRender, WorldSize, ProgressBarLoading);
 end;
@@ -165,10 +206,14 @@ begin
   Apply1(OpenGLControlRender, WorldSize, ProgressBarLoading);
 end;
 
+procedure TFormMain.LabelFPSMinClick(Sender: TObject);
+begin
+
+end;
+
 procedure TFormMain.TimerSecTimer(const Sender: TTimer);
 begin
-  LabelFPS.Caption:=FloatToStrF(MSecsPerSec / TimeDeltaMills, ffNumber, 1, 1) + ResStringInfoFPSCaptionSuffix;
-  LabelMSPF.Caption:=FloatToStrF(TimeDeltaMills, ffNumber, 1, 1) + ResStringInfoMSPFCaptionSuffix;
+  OnTimer0(Self);
 end;
 
 procedure TFormMain.OpenGLControlRenderResize(const Sender: TOpenGLControl);
