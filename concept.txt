@@ -1,0 +1,25 @@
+Conceptualization
+We should get into the details.
+
+
+Transfer
+Firstly, relocation requires multiple locations.  Transfering items from oneself to oneself is not reloaction.
+In the process of relocation, the total amount of stuff should be kept the same.
+One simple way to achieve is to decrement the amount from the giver and increase the amount of the receiver.
+
+However, this is assuming that the giver and the receiver contains stuff at all,
+and that they can be decremented and incremeneted at will.
+Apart from that, the API is not suppose to care about the givers and the receivers at all except for the transfer.
+We can assume that the giver and the receiver will do the right things themselves when stuff are transfered by the API,
+since that is not our responability.
+
+Now, another problem, who gets to dictate the transfer?  The API itself is not supposed to activate itself for no reason, right?
+To the API, there is not really a way to tell who dictates the transfer (hence controller),
+and it should not really matter anyway as the controller does not participate in the transfer but activate the transfer.
+So that means, we will also assume that whoever using the API is also using it correctly.
+
+Therefore, the assumption is that the givers and the receivers will respond appropriately to the transfer API
+activated by an unknown trigger correctly.
+This also means that the givers and the receivers should not know about the trigger.
+The trigger, however, is allowed to know information of the givers and the receivers
+through the information of the transfer API.
