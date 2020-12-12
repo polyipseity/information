@@ -1,4 +1,4 @@
-Transfer API
+Definition
 The goal of a transfer API is to transfer stuff.
 
 
