@@ -23,3 +23,29 @@ activated by an unknown trigger correctly.
 This also means that the givers and the receivers should not know about the trigger.
 The trigger, however, is allowed to know information of the givers and the receivers
 through the information of the transfer API.
+
+
+Stuff
+Stuff is an arbitrary amount of instances of concrete type with arbitrary data.
+Refine it into properties of stuff.
+A stuff has
+- type (concrete)
+- amount
+- data
+Interactions between multiple stuff of the same type and data
+- Transfer API should not modify stuff.  That means we cannot modify the type and data,
+  which are intrinsic properties of stuff, meaning changing them will result in a different stuff.
+  Luckily, both of them are the same in this situation.
+  Amount, on the other hand, is an extrinstic property.
+  Changing it will not result in a different stuff.
+  You would not call 5 apples '1 apple, 1 apple, 2 apples, and 1 apple', even though they are both valid, right?
+  The same goes for the amount of stuff.  There are many ways to express the quantity,
+  but we should choose the simplest form.  This can be achieved by simply adding the amount together and getting 1 number.
+  This can be called 'merging'.
+Interaction between multiple stuff of different types or data
+- As they have different types or data, they have different intrinstic properties,
+  therefore merging is not possible as it would modify stuff.
+If we think back about the registries, our type is defined as a registered type.
+However, there are more than one registries, each corresponding to one group of types.
+We can call this 'type of type'.
+One thing to note that each type is present in only one registry, so there is always only one 'type of type'.
