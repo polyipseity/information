@@ -1,5 +1,5 @@
 Transfer API
-The goal of a transfer API is to transfer stuff.  Nothing more.
+The goal of a transfer API is to transfer stuff.
 
 
 Transfer
@@ -35,7 +35,7 @@ To make it not fixed, there needs to change in the data.
 That data should not be lost in our API as we should only transfer stuff, not modify stuff.
 Therefore, this should be a part of our definition of 'stuff'.
 
-This completes our definition of 'stuff'.  An arbitrary amount of instances of concrete type.
+This completes our definition of 'stuff'.  An arbitrary amount of instances of concrete type with arbitrary data.
 
 
 Conclusion
