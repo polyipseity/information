@@ -94,3 +94,9 @@ A participant have the following functions:
 
 ## Implementation
 (TODO: this will be about implementation, such as whether the amount should be a fraction, ect.)
+
+
+## Assumptions
+These, while seems to make sense, needs statistics to be proven.
+- It is much more likely that a constructed transferable does not have data rather than having data in all conditions.
+- It is much more likely that simulation is adequate for checking than not.
