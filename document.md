@@ -41,14 +41,10 @@ The API is designed with the following rules in mind:
 
 To respect the separation of concerns, each section should only describe one interface.
 Apart from that, accessibility rules will be designted below:
-|-------------------|--------------------------------------------------|
+
 |entity             |accessible entities in the API                    |
-|===================|==================================================|
+|-------------------|--------------------------------------------------|
 |API                |transferable, participants                        |
-|-------------------|--------------------------------------------------|
 |transferable       |(none)                                            |
-|-------------------|--------------------------------------------------|
 |participants       |transferable                                      |
-|-------------------|--------------------------------------------------|
 |controller         |API, transferable, participants                   |
-|-------------------|--------------------------------------------------|
