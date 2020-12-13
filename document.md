@@ -48,7 +48,7 @@ In that case, a compromise is needed.
 However, a best effort should be made to avoid conflicts and follow the rules strictly.
 
 To respect the separation of concerns, each section should only describe one interface.
-Apart from that, accessibility rules will be designted below:
+Apart from that, accessibility rules will be designated below:
 
 |entity             |accessible entities in the API                    |
 |-------------------|--------------------------------------------------|
@@ -56,6 +56,7 @@ Apart from that, accessibility rules will be designted below:
 |transferable       |(none)                                            |
 |participant        |transferable                                      |
 |controller         |API, transferable, participant                    |
+This means that the entity in the left column should only access entities in the right column.
 
 Note that API and controller will not have an interface.
 This is because the API is for describing the collection of interfaces,
@@ -84,6 +85,11 @@ Apart from that, this would break the type property optimization.
 Conversion functions could be added to the transferable, but that is of no concern to the API itself.
 However, this may be of concern to the implementors of participants.  Actually implementing is needed to figure out whether it is suitable for the API.
 
+
 ### Participant
 A participant have the following functions:
-- (TODO: simulate or transaction?)
+- (TODO: Simulation, transaction, mix of both, or other exotic methods?)
+
+
+## Implementation
+(TODO: this will be about implementation, such as whether the amount should be a fraction, ect.)
