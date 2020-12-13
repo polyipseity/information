@@ -18,11 +18,13 @@
 ### Rationale
 An API should only constrain things that are part of its goal.
 Anything out of scope of the goal should not be constrained.
+
 This ensures that independent systems can work together well without giving special treatments to other systems.
 Implementations can have a greater freedom when implementing the API.
+Maintability is high as there are less constraints, which could be violated through reasons such as the complex interactions between different systems, made by the API.
 
-To achieve this, only essential things are specified here.
-**Transfer** is the goal of this API and thus defined.
-**Transferable** represents the information being transferred.
-**Participant** represents the starting point(s) and ending point(s) of transfers.
-**Controller** represents the consumer of this API.
+To achieve this, only essential things are specified.
+- **Transfer** is a part of the goal of this API and thus defined.
+- **Transferable** represents the information being transferred in transfers.
+- **Participant** represents the starting point(s) and ending point(s) of transfers.
+- **Controller** represents the consumer of this API.
