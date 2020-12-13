@@ -90,6 +90,25 @@ However, this may be of concern to the implementors of participants.  Actually i
 ### Participant
 A participant have the following functions:
 - (TODO: Simulation, transaction, mix of both, or other exotic methods?)
+#### Merging insert and extract
+Insert and extract could be merged together into one function that allows for negative amount.
+However, this does not really offer much benefits.
+The disadvantage is that people may get confused over what negative values mean.
+#### Check transfer function
+##### No checking
+The simplest option.
+Provides no checking.
+If rolling back is needed, call the opposite transfer function.
+
+However, this only works
+if all possible actions can be reverted in all conditions.
+A interface that can be inserted but not extracted or vice versa cannot be rolled back like so.
+
+However, why do we need to roll back in the first place?
+
+##### Simulation
+Try whether an action is allowed first, then only act after it is true.
+##### Analysis
 
 
 ## Implementation
