@@ -56,6 +56,7 @@ Apart from that, accessibility rules will be designated below:
 |transferable       |(none)                                            |
 |participant        |transferable                                      |
 |controller         |API, transferable, participant                    |
+
 This means that the entity in the left column should only access entities in the right column.
 
 Note that API and controller will not have an interface.
