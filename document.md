@@ -1,5 +1,6 @@
 # Fabric: Transfer API
 
+This may be revised if there are problems with the API while implementing it.
 
 ## Goals
 - To facilitate the transfer of transferable between participants.
@@ -10,9 +11,9 @@
 
 ## Definitions
 - **Transfer**
-  the relocation of transferable between multiple participants
+  the relocation of an arbitrary amount of transferable between multiple participants
 - **Transferable**
-  an arbitrary amount of instances of an arbitrary type with arbitrary data that can be transferred
+  a instance of an arbitrary type with arbitrary data that can be transferred
 - **Participant**
   an arbitrary entity that can be involved in transfers
 - **Controller**
@@ -48,3 +49,24 @@ Apart from that, accessibility rules will be designted below:
 |transferable       |(none)                                            |
 |participants       |transferable                                      |
 |controller         |API, transferable, participants                   |
+
+### Transferable
+A transferable have the following properties:
+- type
+- data
+They are used together to determine whether multiple transferable are compatabile.
+It should be immutable.
+#### Data-only
+A transferable could be designed to have only one property, which is data.
+However, in Minecraft, there are registeries that are pretty much fixed.
+Apart from that, the API is much more likely to handle transferabale with no special data attached to it.
+This and the limited amount of types can be used to cache transferable to reduce memory allocation pressure.  Immutability is required to support this.
+The type property is used for such purposes.
+#### Amount property
+Amount is not included in transferable as it is an extrinsic property.
+Think of one item of type A and many items of type A.
+The properties of the one item and each item from the stash of item in isolation should be the same.
+Apart from that, this would break the type property optimization.
+#### Conversion functions
+Conversion functions could be added to the transferable, but that is of no concern to the API itself.
+However, this may be of concern to the implementors of participants.  Actually implementing is needed to figure out whether it is suitable for the API.
