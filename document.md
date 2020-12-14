@@ -102,7 +102,8 @@ If rolling back is needed, call the opposite transfer function.
 However, this only works if all possible actions can be reverted in all conditions.
 A interface that can be inserted but not extracted or vice versa cannot be rolled back like so.
 
-However, why do we need to rollback in the first place?
+However, why should rolling back (or similar mechanism) be supported in the first place?
+
 
 
 ## Implementation
