@@ -105,8 +105,17 @@ However, this may not always be possible.
 Check transfer functions allow for the execution of the transfer be dependent on the predicted execution of the transfer.
 ##### Check and transfer relationship
 In order to make the check transfer function useful, some constraints are required.
-Given the same state and the same input, the transfer function and the check transfer function should return the same result.
+Given the same state and the same input, the same output should be returned in all cases.
 This is to establish a relationship between checking and execution.
+##### Informal analysis
+Given that the API should handle transfers only, there are only 2 things matter to the API:
+- transfer: depends on state, changes state
+- check: depends on state, keeps state
+We can treat transfer as some sort of a barrier, i.e. once a transfer has occured, all previous checks are invalidated.
+This is due to the state changing, which invalidates all previous results of checks which depends on the previous state.
+This will be important in later sections.
+##### Multiple actions
+
 
 
 ## Implementation
