@@ -65,10 +65,12 @@ while the controller is just an alias for the consumer of the API of which the A
 
 ### Transferable
 A transferable have the following properties:
-- type
-- data
+- type, instance of category
+- data, arbitrary
+- category, class
 
 They are used together to determine whether multiple transferable are compatabile.
+Category is used to allow participants to quickly filter the type accepted.
 It should be immutable.
 
 #### Data-only
@@ -85,6 +87,11 @@ Apart from that, this would break the type property optimization.
 #### Conversion functions
 Conversion functions could be added to the transferable, but that is of no concern to the API itself.
 However, this may be of concern to the implementors of participants.  Actually implementing is needed to figure out whether it is suitable for the API.
+#### Category
+Implementations usually only handles a subset of types.
+This is true because transferable can contain anything, even things unexpected.
+Usually the types are instances of the same class.
+Category is used to provide the class of the type.
 
 
 ### Participant
