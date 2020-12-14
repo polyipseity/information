@@ -95,15 +95,18 @@ Insert and extract could be merged together into one function that allows for ne
 However, this does not really offer much benefits.
 The disadvantage is that people may get confused over what negative values mean.
 #### Check transfer function
+Check transfer functions allow for transfers that do not change the state of the participants.
 ##### Need for checking
-The simplest option is to provide no checking.
-If rolling back is needed, call the opposite transfer function.
+If only transfers that changes the state is allowed,
+if a less than desireable transfer happen such as not fulfilling the full amount,
+the only way to rollback is to call the opposite transfer method.
+However, this may not always be possible.
 
-However, this only works if all possible actions can be reverted in all conditions.
-A interface that can be inserted but not extracted or vice versa cannot be rolled back like so.
-
-However, why should rolling back (or similar mechanism) be supported in the first place?
-
+Check transfer functions allow for the execution of the transfer be dependent on the predicted execution of the transfer.
+##### Check and transfer relationship
+In order to make the check transfer function useful, some constraints are required.
+Given the same state and the same input, the transfer function and the check transfer function should return the same result.
+This is to establish a relationship between checking and execution.
 
 
 ## Implementation
