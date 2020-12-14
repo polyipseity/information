@@ -41,7 +41,7 @@ The API is designed with the following rules in mind:
 - The API should be generalized.  The zero-one-infinity rule can explain this.  Applied to this API, it means this API should not exist, should be extremely specialized for one and only one thing, or should be generalized for infinitely many cases (in the architectural aspect, we still need to respect constraints imposed by other aspects).  The fist case is...  inappropriate for obvious reasons.  Indeed, there may indeed be cases where all three of these does not make sense, such as booleans, but considering that transfer can be applied to a lot of things, the last case makes the most sense for this API.
 - Low allocation.  As the API is likely to be called frequently within a Minecraft tick, small allocations in the API may contrib significantly to the allocation pressure.  However, that does not mean allocation needs to be avoided completely as Java is designed to handle a large range of allocation pressure.
 - Performant.  As the API is likely to be called frequently within a Minecraft tick, there should be as little overhead when using the API.  Performance penalties that comes from the implementation should not be attributed to the API, though the API should be designed in such a way that it is easy to implement the API performantly.
-- Immutable data.  Immutability ensures correctness.  They also play well in multithreaded enviroments (just in case this API becomes multithreadable ;p).  As for allocation, profiling is needed.  The source of allocation of immutable objects comes from immutable objects is manipulation of state, while that of mutable objects comes from making defensive copies.  For generational garbage collectors, immutable objects are easier to collect than mutable objects as generational garbage collectors assume that most references are young objects pointing to young or old objects instead of old objects pointing to young objects.  Mutable objects can violate that due to the setter where it is possible to make a young object be referenced by the old mutable object.  This is not possible with immutable objects.
+- Immutable objects are preferred.  Immutability ensures correctness.  They also play well in multithreaded enviroments (just in case this API becomes multithreadable :p).  As for allocation, profiling is needed.  The source of allocation of immutable objects comes from immutable objects is manipulation of state, while that of mutable objects comes from making defensive copies.  For generational garbage collectors, immutable objects are easier to collect than mutable objects as generational garbage collectors assume that most references are young objects pointing to young or old objects instead of old objects pointing to young objects.  Mutable objects can violate that due to the setter where it is possible to make a young object be referenced by the old mutable object.  This is not possible with immutable objects.
 
 Note that we do not need to follow all the rules strictly - there may be conflicts among them.
 In that case, a compromise is needed.
@@ -95,27 +95,20 @@ Insert and extract could be merged together into one function that allows for ne
 However, this does not really offer much benefits.
 The disadvantage is that people may get confused over what negative values mean.
 #### Check transfer function
-##### No checking
-The simplest option.
-Provides no checking.
+##### Need for checking
+The simplest option is to provide no checking.
 If rolling back is needed, call the opposite transfer function.
 
-However, this only works
-if all possible actions can be reverted in all conditions.
+However, this only works if all possible actions can be reverted in all conditions.
 A interface that can be inserted but not extracted or vice versa cannot be rolled back like so.
 
-However, why do we need to roll back in the first place?
-
-##### Simulation
-Try whether an action is allowed first, then only act after it is true.
-##### Analysis
+However, why do we need to rollback in the first place?
 
 
 ## Implementation
 (TODO: this will be about implementation, such as whether the amount should be a fraction, ect.)
 
 
-## Assumptions
+## Conjectures
 These, while seems to make sense, needs statistics to be proven.
 - It is much more likely that a constructed transferable does not have data rather than having data in all conditions.
-- It is much more likely that simulation is adequate for checking than not.
