@@ -89,7 +89,8 @@ However, this may be of concern to the implementors of participants.  Actually i
 
 ### Participant
 A participant have the following functions:
-- (TODO: Simulation, transaction, mix of both, or other exotic methods?)
+- insert with context, type, and amount
+- extract with context, type, and amount
 #### Merging insert and extract
 Insert and extract could be merged together into one function that allows for negative amount.
 However, this does not really offer much benefits.
@@ -111,11 +112,30 @@ This is to establish a relationship between checking and execution.
 Given that the API should handle transfers only, there are only 2 things matter to the API:
 - transfer: depends on state, changes state
 - check: depends on state, keeps state
+
 We can treat transfer as some sort of a barrier, i.e. once a transfer has occured, all previous checks are invalidated.
 This is due to the state changing, which invalidates all previous results of checks which depends on the previous state.
 This will be important in later sections.
 ##### Multiple actions
+To reduce allocation, all functions in participants will not accept multiple actions.
+However, this poses a question.
 
+Some controllers may want to treat multiple actions as one atomic operation.
+This, however, will not work with check and transfer.
+
+This is due to the fact that transfer only accepts one action at a time, yet it invalidates all the previous checks.
+A new check could be made, but the operation will no longer be atomic, i.e., cannot always rollback.
+
+Checking multiple actions without changing the state is impossible here, yet we still need to somehow be able to rollback.
+Since we know nothing about participants, participants will have to provide their own rollback code.
+
+However, since multiple actions are controlled by the controller, the rollback code cannot be executed by the participants itself.  The controller will need to execute the code.
+
+Also, rollback code between multiple actions may involve multiple participants, so the rollback code should be stored in the controller instead.
+
+To sum it up, we need a mechanism for participants to pass their rollback code to the controller.  A context object is purposed to be used for such purposes.  The functions will be passed the context object, which allows the participants to manipulate the context object in ways allowed by the context object.
+#### Context
+(TODO)
 
 
 ## Implementation
@@ -125,3 +145,4 @@ This will be important in later sections.
 ## Conjectures
 These, while seems to make sense, needs statistics to be proven.
 - It is much more likely that a constructed transferable does not have data rather than having data in all conditions.
+- It is much more likely that an atomic transfer operation as defined by the controller consists of one and only mone action.
