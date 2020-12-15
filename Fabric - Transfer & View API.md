@@ -189,6 +189,14 @@ To support any participant state manipulation action, two `Runnable`s are accept
 A context may do anything with the provided two actions.
 
 
+### View
+A view have the following functions:
+- TODO
+
+A view should provide functions that allow consumers of the API to see their content in an organized way.  It should also support manipulation of the content.
+
+
+
 ## Compatibility
 ### Vanilla
 Vanilla transfers and views are simple, so it should be trivial to adapt them to the API.
