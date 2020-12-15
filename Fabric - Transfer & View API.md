@@ -179,13 +179,14 @@ Also, rollback code between multiple actions may involve multiple participants, 
 
 To sum it up, we need a mechanism for participants to pass their rollback code to the controller.  A context object is purposed to be used for such purposes.  The functions will be passed the context object, which allows the participants to manipulate the context object in ways allowed by the context object.
 #### Context
-A `Context` holds the context in which the transfer is executed in.
+A context holds the context in which the transfer is executed in.
 
-It is originally designed to store rollbacks.  Later, it is generalized into something that determines how the transfer should be run.
+It is originally designed to store rollbacks.
+Later, it is generalized into something that determines how the transfer should be run.
 
 The current design is that the context controls the mode of the transfer which is determined by the controller.
 To support any participant state manipulation action, two `Runnable`s are accepted, one is for the action and another one is for the rollback action.
-A `Context` may do anything with it.
+A context may do anything with the provided two actions.
 
 
 ## Compatibility
