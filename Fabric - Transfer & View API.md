@@ -49,6 +49,7 @@ The API is designed with the following rules in mind:
 - Low allocation.  As the API is likely to be called frequently within a Minecraft tick, small allocations in the API may contrib significantly to the allocation pressure.  However, that does not mean allocation needs to be avoided completely as Java is designed to handle a large range of allocation pressure.
 - Performant.  As the API is likely to be called frequently within a Minecraft tick, there should be as little overhead when using the API.  Performance penalties that comes from the implementation should not be attributed to the API, though the API should be designed in such a way that it is easy to implement the API performantly.
 - Immutable objects are preferred.  Immutability ensures correctness.  They also play well in multithreaded enviroments (just in case this API becomes multithreadable :p).  As for allocation, profiling is needed.  The source of allocation of immutable objects comes from immutable objects is manipulation of state, while that of mutable objects comes from making defensive copies.  For generational garbage collectors, immutable objects are easier to collect than mutable objects as generational garbage collectors assume that most references are young objects pointing to young or old objects instead of old objects pointing to young objects.  Mutable objects can violate that due to the setter where it is possible to make a young object be referenced by the old mutable object.  This is not possible with immutable objects.
+- Consistency.  The layout of the API should be structually equal for each cases that the API handles.
 
 Note that we do not need to follow all the rules strictly - there may be conflicts among them.
 In that case, a compromise is needed.
@@ -157,7 +158,24 @@ To sum it up, we need a mechanism for participants to pass their rollback code t
 
 
 ## Implementation
-(TODO: this will be about implementation, such as whether the amount should be a fraction, ect.)
+### Provider API
+The Provier API is recently introduced to Fabric.
+It allows consumers of the API to lookup an API object for an object.
+This can be used to provider transfer and view capability to the object.
+However, it is limited to blocks and items only, though custom lookups can be made.
+#### `ItemApiLookup` replacement
+The default `ItemApiLookup` provided by the provider API accepts `ItemStack` as its keys.
+However, the intention of `ItemApiLookup` seems to be about providing capability to an `Item` instead of an `ItemStack` as hinted by its name.
+Moreover, this is inconsistent with `BlockApiLookup`, where a `Block` is accepted instead.
+
+To improve consistency, a custom `ItemApiLookup` is provided which accepts `ItemConvertible` instead of `ItemStack` as its key.
+#### `XXXLookupContext`
+The provider API allows us to pass a context object to the API provider.
+In order to ensure easy transition consumers of the API for future changes, such as the addition of new data in context,
+a `XXXLookupContext` is created for each `XXXApiLookup`.
+Any addition or deletion of fields can be buffered against by keeping the old factory method for the context.  The old factory method can be marked as deprecated if needed.
+Whereas if the context object does not exist, addition of new fields requires breaking changes.
+For example, `BlockLookupContext` only has the `direction` property now, which means it could be replaced with `Direction` directly.  However if at a later date, a new field is desired, the context will not be `Direction` anymore, forcing the consumers of the API to update in order to work.
 
 
 ## Conjectures
