@@ -3,7 +3,7 @@
 This may be revised if there are problems with the API while implementing it.
 
 ## Goals
-- To facilitate the transfer of transferable between participants.
+- To facilitate the transfer of content between participants.
 - To provide an unified way to access view content.
 - To provide an unified way to manipuate view content.
 ### Non-goals
@@ -13,14 +13,17 @@ This may be revised if there are problems with the API while implementing it.
 
 
 ## Definitions
+- **Content**
+  a instance of an arbitrary type with arbitrary data that can be transferred or stored
 - **Transfer**
-  the relocation of an arbitrary amount of transferable between multiple participants
-- **Transferable**
-  a instance of an arbitrary type with arbitrary data that can be transferred
+  the relocation of an arbitrary amount of content between multiple participants
 - **Participant**
   an arbitrary entity that can be involved in transfers
 - **Controller**
   an arbitrary entity which executes the logic of transfers
+- **View**
+  an arbitrary entity that contains content
+
 ### Rationale
 An API should only constrain things that are part of its goal.
 Anything out of scope of the goal should not be constrained.
@@ -30,9 +33,10 @@ Implementations can have a greater freedom when implementing the API.
 Maintability is high as there are less constraints, which could be violated through reasons such as the complex interactions between different systems, made by the API.
 
 To achieve this, only essential things are specified.
+- **Content** represents the information being transferred in transfers and things stored in views.
 - **Transfer** is a part of the goal of this API and thus defined.
-- **Transferable** represents the information being transferred in transfers.
 - **Participant** represents the starting point(s) and ending point(s) of transfers.
+- **View** represents the storage of content.
 - **Controller** represents the consumer of this API.
 
 
@@ -55,10 +59,11 @@ Apart from that, accessibility rules will be designated below:
 
 |entity             |accessible entities in the API                    |
 |-------------------|--------------------------------------------------|
-|API                |transferable, participant                         |
-|transferable       |(none)                                            |
-|participant        |transferable                                      |
-|controller         |API, transferable, participant                    |
+|API                |content, participant, view                        |
+|content            |(none)                                            |
+|participant        |content                                           |
+|view               |content                                           |
+|controller         |API, content, participant, view                   |
 
 This means that the entity in the left column should only access entities in the right column.
 
@@ -66,33 +71,33 @@ Note that API and controller will not have an interface.
 This is because the API is for describing the collection of interfaces,
 while the controller is just an alias for the consumer of the API of which the API should not care.
 
-### Transferable
-A transferable have the following properties:
+### Content
+A content have the following properties:
 - type, instance of category
 - data, arbitrary
 - category, class
 
-They are used together to determine whether multiple transferable are compatabile.
+They are used together to determine whether multiple content are compatabile.
 Category is used to allow participants to quickly filter the type accepted.
 It should be immutable.
 
 #### Data-only
-A transferable could be designed to have only one property, which is data.
+A content could be designed to have only one property, which is data.
 However, in Minecraft, there are registeries that are pretty much fixed.
 Apart from that, the API is much more likely to handle transferabale with no special data attached to it.
-This and the limited amount of types can be used to cache transferable to reduce memory allocation pressure.  Immutability is required to support this.
+This and the limited amount of types can be used to cache content to reduce memory allocation pressure.  Immutability is required to support this.
 The type property is used for such purposes.
 #### Amount property
-Amount is not included in transferable as it is an extrinsic property.
+Amount is not included in content as it is an extrinsic property.
 Think of one item of type A and many items of type A.
 The properties of the one item and each item from the stash of item in isolation should be the same.
 Apart from that, this would break the type property optimization.
 #### Conversion functions
-Conversion functions could be added to the transferable, but that is of no concern to the API itself.
+Conversion functions could be added to the content, but that is of no concern to the API itself.
 However, this may be of concern to the implementors of participants.  Actually implementing is needed to figure out whether it is suitable for the API.
 #### Category
 Implementations usually only handles a subset of types.
-This is true because transferable can contain anything, even things unexpected.
+This is true because content can contain anything, even things unexpected.
 Usually the types are instances of the same class.
 Category is used to provide the class of the type.
 
@@ -157,5 +162,5 @@ To sum it up, we need a mechanism for participants to pass their rollback code t
 
 ## Conjectures
 These, while seems to make sense, needs statistics to be proven.
-- It is much more likely that a constructed transferable does not have data rather than having data in all conditions.
+- It is much more likely that a constructed content does not have data rather than having data in all conditions.
 - It is much more likely that an atomic transfer operation as defined by the controller consists of one and only mone action.
