@@ -256,15 +256,17 @@ Lastly, `long` is chosen because it can support a much larger range of numbers t
 #### `Context`
 For now, the API comes with 3 implementations:
 - `SimulationContext`<br>
-  It discards both the action and the rollback action.  Nothing occurs, can be used as a check for a single action.
+  It discards both the action and the rollback action.  Nothing occurs, can be used as a check for a single action.<br>
   Ignores `#close`.
+
 - `ExecutionContext`<br>
-  Executes the action, discards the rollback action.  This can be used to execute a single action.
+  Executes the action, discards the rollback action.  This can be used to execute a single action.<br>
   Ignores `#close`.
+
 - `TransactionContext`<br>
-  Executes the action, stores the rollback action.  It can be used to use the API with transactions, as hinted by its name.
-  Try-with-resources should be used.
-  The default action is to run the rollback actions in reverse order of which they are added, which restores the states of participants.
+  Executes the action, stores the rollback action.  It can be used to use the API with transactions, as hinted by its name.<br>
+  Try-with-resources should be used.<br>
+  The default action is to run the rollback actions in reverse order of which they are added, which restores the states of participants.<br>
   `#commit` clears the rollback action queue, which means the states of participants will not be restored.
 
 
