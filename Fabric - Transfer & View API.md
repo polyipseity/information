@@ -43,7 +43,8 @@ To achieve this, only essential things are specified.
 ## Design
 The API is designed with the following rules in mind:
 - Clear separation of concerns.<br>
-  Each interface should only handle one concern.  This allows selective implementation of capabilities.
+  Each interface should only handle one concern.  This allows selective implementation of capabilities.<br>
+  For this reason, the transfer API and the view API are separate interfaces.
 
 - Expose as much information as the consumer actually needed.<br>
   This reduces the implementation burden and avoids accidental violation of constraints due to the consumer.
@@ -177,11 +178,18 @@ However, since multiple actions are controlled by the controller, the rollback c
 Also, rollback code between multiple actions may involve multiple participants, so the rollback code should be stored in the controller instead.
 
 To sum it up, we need a mechanism for participants to pass their rollback code to the controller.  A context object is purposed to be used for such purposes.  The functions will be passed the context object, which allows the participants to manipulate the context object in ways allowed by the context object.
-#### Context
-(TODO)
 
 
-## Compatability
+## Compatibility
+### Vanilla
+Vanilla transfers and views are simple, so it should be trivial to adapt them to the API.
+
+The vanilla implementation is slightly inefficient, so adapters could optimize the implementations of the API for vanilla things.
+
+### Existing similar APIs
+The API should be compatible with most similar existing APIs reasonably well
+due to the low amount of constraints imposed by the API.
+Adapters should be made in order to achieve this.
 
 
 ## Implementation
