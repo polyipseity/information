@@ -145,6 +145,9 @@ To sum it up, we need a mechanism for participants to pass their rollback code t
 (TODO)
 
 
+## Compatability
+
+
 ## Implementation
 (TODO: this will be about implementation, such as whether the amount should be a fraction, ect.)
 
