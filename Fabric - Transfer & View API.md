@@ -225,6 +225,33 @@ Any addition or deletion of fields can be buffered against by keeping the old fa
 Whereas if the context object does not exist, addition of new fields requires breaking changes.
 For example, `BlockLookupContext` only has the `direction` property now, which means it could be replaced with `Direction` directly.  However if at a later date, a new field is desired, the context will not be `Direction` anymore, forcing the consumers of the API to update in order to work.
 
+### Type of amount
+In order to ensure that the allocation of object is low, the type of amount should be a numerical primitive.
+There are several choices:
+- `byte`
+- `short`
+- `char`
+- `int`
+- `long`
+- `float`
+- `double`
+
+Anything smaller than `int` is likely too small to represent the amount in potential cases.
+The advantage of `char` is that it is unsigned, but it is too small.
+
+This leaves us with `int`, `long`, `float`, and `double`.
+Floating point numbers are decided against due to their properties.  While they can represent way larger numbers than `int` and `long`, they do so at the cost of accuracy.
+
+Operations on floating point numbers may result in undeseriable results, such as large number adding a smaller number may return the large number itself.
+This does not happen with integers apart from overflowing and underflowing, which can be solved trivally using some utility functions.
+
+Apart from that, the numbers representable by them is likely too big.  If consumers of the API find themselves exceeding the integer limits, they should consider rescaling the amount instead.
+
+This leaves us with `int` and `long`.
+Problem is that they cannot represent decimals.  However, consumers of the API can get around that by dividing the amount by a constant value to get the decimal.
+
+Lastly, `long` is chosen because it can support a much larger range of numbers than `int`.  The larger range is also reasonably large, that is, not too large like floating point numbers.
+
 ### Built-in implementations
 #### `Context`
 For now, the API comes with 3 implementations:
