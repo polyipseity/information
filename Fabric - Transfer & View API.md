@@ -4,9 +4,12 @@ This may be revised if there are problems with the API while implementing it.
 
 ## Goals
 - To facilitate the transfer of transferable between participants.
+- To provide an unified way to access view content.
+- To provide an unified way to manipuate view content.
 ### Non-goals
 - To impose constraints on the logic of transfers.
 - To impose constraints on how participants store and represent their states.
+- To impose constraints on allowed content of views.
 
 
 ## Definitions
