@@ -1,4 +1,4 @@
-# Fabric: Transfer API
+# Fabric: Transfer & View API
 
 This may be revised if there are problems with the API while implementing it.
 
