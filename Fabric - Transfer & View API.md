@@ -42,14 +42,39 @@ To achieve this, only essential things are specified.
 
 ## Design
 The API is designed with the following rules in mind:
-- Clear separation of concerns. Each interface should only handle one concern.  This allows selective implementation of capabilities.
-- Expose as much information as the consumer actually needed. This reduces the implementation burden and avoids accidental violation of constraints due to the consumer.
-- The API should be abstract.  The API is unlikely to be able to accomdate everything - there are almost always special cases that does not work well with the API.  However, this does not mean we should try to accomdate as much as we can.  Abstraction can help with this by remove unneeded dependencies on any particular one or one set of implementation, but instead only rely on the necessary aspects of implementations.  There may still be special cases and unremovable-but-unnecessary dependencies, but with some careful designing, most or even all of them can be avoided.
-- The API should be generalized.  The zero-one-infinity rule can explain this.  Applied to this API, it means this API should not exist, should be extremely specialized for one and only one thing, or should be generalized for infinitely many cases (in the architectural aspect, we still need to respect constraints imposed by other aspects).  The fist case is...  inappropriate for obvious reasons.  Indeed, there may indeed be cases where all three of these does not make sense, such as booleans, but considering that transfer can be applied to a lot of things, the last case makes the most sense for this API.
-- Low allocation.  As the API is likely to be called frequently within a Minecraft tick, small allocations in the API may contrib significantly to the allocation pressure.  However, that does not mean allocation needs to be avoided completely as Java is designed to handle a large range of allocation pressure.
-- Performant.  As the API is likely to be called frequently within a Minecraft tick, there should be as little overhead when using the API.  Performance penalties that comes from the implementation should not be attributed to the API, though the API should be designed in such a way that it is easy to implement the API performantly.
-- Immutable objects are preferred.  Immutability ensures correctness.  They also play well in multithreaded enviroments (just in case this API becomes multithreadable :p).  As for allocation, profiling is needed.  The source of allocation of immutable objects comes from immutable objects is manipulation of state, while that of mutable objects comes from making defensive copies.  For generational garbage collectors, immutable objects are easier to collect than mutable objects as generational garbage collectors assume that most references are young objects pointing to young or old objects instead of old objects pointing to young objects.  Mutable objects can violate that due to the setter where it is possible to make a young object be referenced by the old mutable object.  This is not possible with immutable objects.
-- Consistency.  The layout of the API should be structually equal for each cases that the API handles.
+- Clear separation of concerns.<br>
+  Each interface should only handle one concern.  This allows selective implementation of capabilities.
+
+- Expose as much information as the consumer actually needed.<br>
+  This reduces the implementation burden and avoids accidental violation of constraints due to the consumer.
+
+- The API should be abstract.<br>
+  The API is unlikely to be able to accomdate everything - there are almost always special cases that does not work well with the API.<br>
+  However, this does not mean we should try to accomdate as much as we can.<br>
+  Abstraction can help with this by remove unneeded dependencies on any particular one or one set of implementation, but instead only rely on the necessary aspects of implementations.<br>
+  There may still be special cases and unremovable-but-unnecessary dependencies, but with some careful designing, most or even all of them can be avoided.
+
+- The API should be generalized.<br>
+  The zero-one-infinity rule can explain this.<br>
+  Applied to this API, it means this API should not exist, should be extremely specialized for one and only one thing, or should be generalized for infinitely many cases (in the architectural aspect, we still need to respect constraints imposed by other aspects).<br>
+  The fist case is...  inappropriate for obvious reasons.<br>
+  Indeed, there may indeed be cases where all three of these does not make sense, such as booleans, but considering that transfer can be applied to a lot of things, the last case makes the most sense for this API.
+
+- Low allocation.<br>
+  As the API is likely to be called frequently within a Minecraft tick, small allocations in the API may contrib significantly to the allocation pressure.<br>
+  However, that does not mean allocation needs to be avoided completely as Java is designed to handle a large range of allocation pressure.  This includes high allocation pressure that Minecraft is already applying.
+
+- Performant.<br>
+  As the API is likely to be called frequently within a Minecraft tick, there should be as little overhead when using the API.<br>
+  Performance penalties that comes from the implementation should not be attributed to the API, though the API should be designed in such a way that it is easy to implement the API performantly.
+
+- Immutable objects are preferred.<br>
+  Immutability ensures correctness.  They also play well in multithreaded enviroments (just in case this API becomes multithreadable :p).<br>
+  As for allocation, profiling is needed.  The source of allocation of immutable objects comes from immutable objects is manipulation of state, while that of mutable objects comes from making defensive copies.<br>
+  For generational garbage collectors, immutable objects are easier to collect than mutable objects as generational garbage collectors assume that most references are young objects pointing to young or old objects instead of old objects pointing to young objects.  Mutable objects can violate that due to the setter where it is possible to make a young object be referenced by the old mutable object.  This is not possible with immutable objects.
+
+- Consistency.<br>
+  The layout of the API should be structually equal for each cases that the API handles.
 
 Note that we do not need to follow all the rules strictly - there may be conflicts among them.
 In that case, a compromise is needed.
@@ -84,9 +109,11 @@ It should be immutable.
 
 #### Data-only
 A content could be designed to have only one property, which is data.
+
 However, in Minecraft, there are registeries that are pretty much fixed.
 Apart from that, the API is much more likely to handle transferabale with no special data attached to it.
 This and the limited amount of types can be used to cache content to reduce memory allocation pressure.  Immutability is required to support this.
+
 The type property is used for such purposes.
 #### Amount property
 Amount is not included in content as it is an extrinsic property.
@@ -162,6 +189,7 @@ To sum it up, we need a mechanism for participants to pass their rollback code t
 The Provier API is recently introduced to Fabric.
 It allows consumers of the API to lookup an API object for an object.
 This can be used to provider transfer and view capability to the object.
+
 However, it is limited to blocks and items only, though custom lookups can be made.
 #### `ItemApiLookup` replacement
 The default `ItemApiLookup` provided by the provider API accepts `ItemStack` as its keys.
@@ -171,9 +199,11 @@ Moreover, this is inconsistent with `BlockApiLookup`, where a `Block` is accepte
 To improve consistency, a custom `ItemApiLookup` is provided which accepts `ItemConvertible` instead of `ItemStack` as its key.
 #### `XXXLookupContext`
 The provider API allows us to pass a context object to the API provider.
+
 In order to ensure easy transition consumers of the API for future changes, such as the addition of new data in context,
 a `XXXLookupContext` is created for each `XXXApiLookup`.
 Any addition or deletion of fields can be buffered against by keeping the old factory method for the context.  The old factory method can be marked as deprecated if needed.
+
 Whereas if the context object does not exist, addition of new fields requires breaking changes.
 For example, `BlockLookupContext` only has the `direction` property now, which means it could be replaced with `Direction` directly.  However if at a later date, a new field is desired, the context will not be `Direction` anymore, forcing the consumers of the API to update in order to work.
 
