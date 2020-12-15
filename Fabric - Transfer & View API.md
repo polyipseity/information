@@ -178,6 +178,14 @@ However, since multiple actions are controlled by the controller, the rollback c
 Also, rollback code between multiple actions may involve multiple participants, so the rollback code should be stored in the controller instead.
 
 To sum it up, we need a mechanism for participants to pass their rollback code to the controller.  A context object is purposed to be used for such purposes.  The functions will be passed the context object, which allows the participants to manipulate the context object in ways allowed by the context object.
+#### Context
+A `Context` holds the context in which the transfer is executed in.
+
+It is originally designed to store rollbacks.  Later, it is generalized into something that determines how the transfer should be run.
+
+The current design is that the context controls the mode of the transfer which is determined by the controller.
+To support any participant state manipulation action, two `Runnable`s are accepted, one is for the action and another one is for the rollback action.
+A `Context` may do anything with it.
 
 
 ## Compatibility
@@ -193,6 +201,7 @@ Adapters should be made in order to achieve this.
 
 
 ## Implementation
+
 ### Provider API
 The Provier API is recently introduced to Fabric.
 It allows consumers of the API to lookup an API object for an object.
@@ -214,6 +223,21 @@ Any addition or deletion of fields can be buffered against by keeping the old fa
 
 Whereas if the context object does not exist, addition of new fields requires breaking changes.
 For example, `BlockLookupContext` only has the `direction` property now, which means it could be replaced with `Direction` directly.  However if at a later date, a new field is desired, the context will not be `Direction` anymore, forcing the consumers of the API to update in order to work.
+
+### Built-in implementations
+#### `Context`
+For now, the API comes with 3 implementations:
+- `SimulationContext`<br>
+  It discards both the action and the rollback action.  Nothing occurs, can be used as a check for a single action.
+  Ignores `#close`.
+- `ExecutionContext`<br>
+  Executes the action, discards the rollback action.  This can be used to execute a single action.
+  Ignores `#close`.
+- `TransactionContext`<br>
+  Executes the action, stores the rollback action.  It can be used to use the API with transactions, as hinted by its name.
+  Try-with-resources should be used.
+  The default action is to run the rollback actions in reverse order of which they are added, which restores the states of participants.
+  `#commit` clears the rollback action queue, which means the states of participants will not be restored.
 
 
 ## Conjectures
