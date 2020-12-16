@@ -191,9 +191,14 @@ A context may do anything with the provided two actions.
 
 ### View
 A view have the following functions:
-- TODO
+- get an efficient model of the view
 
 A view should provide functions that allow consumers of the API to see their content in an organized way.  It should also support manipulation of the content.
+
+A view contains arbitrary amount of arbitrary types.
+Therefore, any view can be expressed as a map from any arbitrary type to the amount of the type.
+
+However, this may not be the most efficient way to expose its state, so a function should be added to allow implementations to provide a more efficient way to access its states.
 
 
 
