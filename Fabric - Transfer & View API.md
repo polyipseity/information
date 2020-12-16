@@ -191,15 +191,27 @@ A context may do anything with the provided two actions.
 
 ### View
 A view have the following functions:
-- get an efficient model of the view
+- get an iterator of atoms
 
 A view should provide functions that allow consumers of the API to see their content in an organized way.  It should also support manipulation of the content.
 
 A view contains arbitrary amount of arbitrary types.
 Therefore, any view can be expressed as a map from any arbitrary type to the amount of the type.
 
-However, this may not be the most efficient way to expose its state, so a function should be added to allow implementations to provide a more efficient way to access its states.
+Something to note is that views are composable.  That is any views combined together will still result in a view.
+This also means views can be separated into smaller views as well.  With this, views can be separated into the simplest form of a view like how matter in the world is made up of atoms.
+#### Atom
+Atom is the simplest form of a view.
+All views are composed of atoms.
+The point of a view is to store content and to be manipulated.
+An atom should have the following functions:
+- get content
+- get amount
+- set content, return operation result
+- set amount, return operation result
 
+This ensures that an atom can be read and manipulated.
+The manipulation operations may fail.
 
 
 ## Compatibility
