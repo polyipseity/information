@@ -43,13 +43,7 @@ public final class GlobalTransferTransaction {
         @Override
         public void execute(Runnable action) {
             if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // inactive transaction
-            super.configure(action, reaction);
-        }
-
-        @Override
-        protected void commitReversibly(Runnable action) {
-            if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // inactive transaction
-            super.configure(action, reaction);
+            super.execute(action);
         }
 
         @Override
