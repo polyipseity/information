@@ -74,13 +74,15 @@ public final class GlobalTransferTransaction {
 
         @Override
         public void close() {
-            ensureActive(this);
-            GlobalTransferTransaction.close();
-            super.close();
-
-            INNER_LOCK.unlock();
-            if (!Thread.currentThread().equals(serverThread))
-                OUTER_LOCK.unlock();
+            try {
+                ensureActive(this);
+                GlobalTransferTransaction.close();
+                super.close();
+            } finally {
+                INNER_LOCK.unlock();
+                if (!Thread.currentThread().equals(serverThread))
+                    OUTER_LOCK.unlock();
+            }
         }
 
         protected static void ensureActive(GlobalTransactionImpl instance) {
