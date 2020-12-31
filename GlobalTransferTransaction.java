@@ -90,6 +90,8 @@ public final class GlobalTransferTransaction {
 
     private static class Example {
         static {
+            setServerThread(Thread.currentThread());
+
             try (Context outermost = open()) {
                 outermost.configure(() -> {}, () -> {});
 
