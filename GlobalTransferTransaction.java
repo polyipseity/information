@@ -28,6 +28,10 @@ public final class GlobalTransferTransaction {
             current.commitWith(parent);
     }
 
+    private static void close() {
+        DEQUE.pop();
+    }
+
     private static class GlobalTransactionImpl
             extends TransactionContext {
         public GlobalTransactionImpl(long estimatedActions) {
@@ -56,7 +60,7 @@ public final class GlobalTransferTransaction {
         @Override
         public void close() {
             ensureActive(this);
-            DEQUE.pop();
+            GlobalTransferTransaction.close();
             super.close();
         }
 
