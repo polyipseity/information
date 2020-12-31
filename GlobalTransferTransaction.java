@@ -1,14 +1,12 @@
 import dev.technici4n.fasttransferlib.api.context.Context;
 import dev.technici4n.fasttransferlib.impl.context.TransactionContext;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.NoSuchElementException;
-import java.util.Random;
+import java.util.*;
 
 public final class GlobalTransferTransaction {
+	private static final boolean CHECK = true;
     private static final Deque<GlobalTransactionImpl> DEQUE = new ArrayDeque<>(16);
-    
+
     private GlobalTransferTransaction() {
         throw new AssertionError();
     }
@@ -36,11 +34,23 @@ public final class GlobalTransferTransaction {
             super(estimatedActions);
         }
 
+	    @Override
+        public void configure(Runnable action, Runnable reaction) {
+		    if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // inactive
+        	super.configure(action, reaction);
+        }
+
+	    @Override
+	    public void execute(Runnable action) {
+		    if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // inactive
+		    super.configure(action, reaction);
+	    }
+
         @Override
         public void close() {
+	        boolean result = DEQUE.removeFirstOccurrence(this);
+	        if (CHECK && !result) throw new AssertionError(); // not on stack, automatically checks for closing multiple times
             super.close();
-            boolean result = DEQUE.removeFirstOccurrence(this);
-            assert result; // assert that this was on the stack
         }
     }
 
