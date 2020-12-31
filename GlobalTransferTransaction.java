@@ -36,27 +36,32 @@ public final class GlobalTransferTransaction {
 
         @Override
         public void configure(Runnable action, Runnable reaction) {
-            if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // inactive transaction
+            ensureActive(this);
             super.configure(action, reaction);
         }
 
         @Override
         public void execute(Runnable action) {
-            if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // inactive transaction
+            ensureActive(this);
             super.execute(action);
         }
 
         @Override
         protected void commitReversibly() {
+            ensureActive(this);
             if (CHECK && isCommitted()) throw new AssertionError(); // already committed
             super.commitReversibly();
         }
 
         @Override
         public void close() {
-            if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // already closed
+            ensureActive(this);
             DEQUE.pop();
             super.close();
+        }
+
+        protected static void ensureActive(GlobalTransactionImpl instance) {
+            if (CHECK && !instance.equals(DEQUE.poll())) throw new AssertionError(); // inactive, no modification allowed
         }
     }
 
