@@ -54,8 +54,8 @@ public final class GlobalTransferTransaction {
 
         @Override
         public void close() {
-            boolean result = DEQUE.removeFirstOccurrence(this);
-            if (CHECK && !result) throw new AssertionError(); // not on stack, automatically checks for closing multiple times
+            if (CHECK && !this.equals(DEQUE.poll())) throw new AssertionError(); // already closed
+            DEQUE.pop();
             super.close();
         }
     }
