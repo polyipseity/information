@@ -5,6 +5,13 @@
         "xiosbase": "cpp",
         "type_traits": "cpp",
         "xlocale": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "string": "cpp",
+        "xstring": "cpp",
+        "iosfwd": "cpp",
+        "xmemory0": "cpp",
+        "xtr1common": "cpp",
+        "ios": "cpp",
+        "xlocnum": "cpp"
     }
 }
