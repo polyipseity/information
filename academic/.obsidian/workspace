@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "e0c844c18d153308",
+    "id": "fd46492fc793f46b",
     "type": "split",
     "children": [
       {
-        "id": "b577c5a80db5a1e2",
+        "id": "0df1f70ba8274299",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -112,19 +112,27 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "a118d57a5f7c8347",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "b577c5a80db5a1e2",
+  "active": "0df1f70ba8274299",
   "lastOpenFiles": [
+    "test2.md",
+    "test.md",
     "2021-11-22T225706.018+0800.md",
     "2021-11-22.md",
-    "test.md",
     "211122224142555+0800.md"
   ]
 }
