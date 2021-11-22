@@ -1,0 +1,14 @@
+{
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "defaultViewMode": "preview",
+  "showLineNumber": true,
+  "tabSize": 2,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "promptDelete": false
+}
