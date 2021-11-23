@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "fd46492fc793f46b",
+    "id": "0b948ac5a480bbe7",
     "type": "split",
     "children": [
       {
-        "id": "0df1f70ba8274299",
+        "id": "06d3ece41cbccc8d",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -127,8 +127,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0df1f70ba8274299",
+  "active": "06d3ece41cbccc8d",
   "lastOpenFiles": [
+    "2021-11-23.md",
     "test2.md",
     "test.md",
     "2021-11-22T225706.018+0800.md",
