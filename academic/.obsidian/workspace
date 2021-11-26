@@ -7,8 +7,11 @@
         "id": "06d3ece41cbccc8d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "flashcards/Chinese/孝.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,13 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "flashcards/Chinese/孝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "flashcards/Chinese/孝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "flashcards/Chinese/孝.md"
+              }
             }
           },
           {
@@ -121,7 +128,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -129,6 +137,7 @@
   },
   "active": "06d3ece41cbccc8d",
   "lastOpenFiles": [
+    "flashcards/Chinese/孝.md",
     "2021-11-23.md",
     "test2.md",
     "test.md",
