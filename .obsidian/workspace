@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "academic/Chinese/孝.md",
+            "file": "academic/chemistry/ion.md",
             "mode": "preview",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "academic/Chinese/孝.md",
+                "file": "academic/chemistry/ion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "academic/Chinese/孝.md",
+                "file": "academic/chemistry/ion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "academic/Chinese/孝.md"
+                "file": "academic/chemistry/ion.md"
               }
             }
           },
@@ -138,14 +138,15 @@
   },
   "active": "06d3ece41cbccc8d",
   "lastOpenFiles": [
+    "academic/chemistry/ion.md",
     "academic/Chinese/孝.md",
+    "characters.md",
+    "academic/chemistry/Earth.md",
     "Recording 20220102163937.webm",
     "flashcards/Chinese/孝.md",
     "2021-11-23.md",
     "test2.md",
     "test.md",
-    "2021-11-22T225706.018+0800.md",
-    "2021-11-22.md",
-    "211122224142555+0800.md"
+    "2021-11-22T225706.018+0800.md"
   ]
 }
