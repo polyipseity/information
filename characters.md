@@ -1,0 +1,4 @@
+# characters
+
+* ←: `&LeftArrow;`
+* →: `&RightArrow;`
