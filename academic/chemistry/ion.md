@@ -132,7 +132,7 @@
 > sulfite ion | SO<sub>3</sub><sup>2-</sup> | 2- | colorless
 > carbonate ion | CO<sub>3</sub><sup>2-</sup> | 2- | colorless
 > chromate ion | CrO<sub>4</sub><sup>2-</sup> | 2- | <a style="color: yellow;">yellow</a>
-> dichromate ion | Cr<sub>2</sub>O<sub>4</sub><sup>2-</sup> | 2- | <a style="color: orange;">orange</a>
+> dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <a style="color: orange;">orange</a>
 > nitride ion | N<sup>3-</sup> | 3- |
 > phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless
 ### name–symbol
@@ -154,7 +154,7 @@
 16. sulfite ion:::SO<sub>3</sub><sup>2-</sup>
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup>
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup>
-19. dichromate ion:::Cr<sub>2</sub>O<sub>4</sub><sup>2-</sup>
+19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
 20. nitride ion:::N<sup>3-</sup>
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup>
 ### name–charge
