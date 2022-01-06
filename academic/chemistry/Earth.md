@@ -3,6 +3,7 @@
 # Earth
 
 ## atmosphere
+
 ### composition
 > 1. N<sub>2</sub>: 78.084%
 > 2. O<sub>2</sub>: 20.946%
@@ -17,6 +18,7 @@
 4. Ar&RightArrow;:::&LeftArrow;CO<sub>2</sub>
 5. CO<sub>2</sub>&RightArrow;:::&LeftArrow;_others_
 6. _others_&RightArrow;:::&LeftArrow;_(bottom)_
+
 #### percentages
 1. N<sub>2</sub>::78.084%
 2. O<sub>2</sub>::20.946%
