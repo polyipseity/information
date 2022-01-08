@@ -115,7 +115,7 @@
 11. lead(II) ion::colorless <!--SR:!2022-01-09,3,273-->
 12. iron(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-10,3,254-->
 13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-09,2,247-->
-14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-08,1,230-->
+14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-10,2,230-->
 15. zinc ion::colorless <!--SR:!2022-01-10,4,294-->
 16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-01-09,2,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
@@ -201,7 +201,7 @@
 18. chromate ion::2- <!--SR:!2022-01-10,4,279-->
 19. dichromate ion::2- <!--SR:!2022-01-09,3,270-->
 20. nitride ion::3- <!--SR:!2022-01-09,3,270-->
-21. phosphate ion::3- <!--SR:!2022-01-08,1,230-->
+21. phosphate ion::3- <!--SR:!2022-01-10,2,230-->
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-01-10,4,279-->
