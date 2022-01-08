@@ -13,9 +13,9 @@
 ## naming
 > * simple cation: name of metal + 'ion'
 >   * except: hydrogen ion, ammonium ion
->  * simple anion: name end in 'ide' + 'ion'
->  * ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
->  * polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
+> * simple anion: name end in 'ide' + 'ion'
+> * ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
+> * polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
 1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion) <!--SR:!2022-01-09,3,273-->
  <!--SR:!2022-01-07,1,234-->
 2. simple anion::name end in 'ide' + 'ion' <!--SR:!2022-01-10,4,293-->
