@@ -115,7 +115,7 @@
 11. lead(II) ion::colorless <!--SR:!2022-01-16,7,273-->
 12. iron(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-20,10,254-->
 13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-14,5,247-->
-14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-11,1,230-->
+14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-13,2,230-->
 15. zinc ion::colorless <!--SR:!2022-01-23,13,294-->
 16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-01-14,5,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
