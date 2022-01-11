@@ -12,12 +12,12 @@
 > 5. _others_
 
 #### rankings
-1. _(top)_&RightArrow;:::&LeftArrow;N<sub>2</sub>
-2. N<sub>2</sub>&RightArrow;:::&LeftArrow;O<sub>2</sub>
-3. O<sub>2</sub>&RightArrow;:::&LeftArrow;Ar
-4. Ar&RightArrow;:::&LeftArrow;CO<sub>2</sub>
-5. CO<sub>2</sub>&RightArrow;:::&LeftArrow;_others_
-6. _others_&RightArrow;:::&LeftArrow;_(bottom)_
+1. _(top)_→:::←N<sub>2</sub>
+2. N<sub>2</sub>→:::←O<sub>2</sub>
+3. O<sub>2</sub>→:::←Ar
+4. Ar→:::←CO<sub>2</sub>
+5. CO<sub>2</sub>→:::←_others_
+6. _others_→:::←_(bottom)_
 
 #### percentages
 1. N<sub>2</sub>::78.084%
