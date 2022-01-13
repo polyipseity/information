@@ -17,10 +17,8 @@
 > * ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
 > * polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
 1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion)
-
 2. simple anion::name end in 'ide' + 'ion'
 3. ions of a metal with different charges::name of metal(Roman number for the charge) + 'ion'
-
 4. polyatomic ion::end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
 
 ## cation
@@ -55,14 +53,11 @@
 4. copper(I) ion:::Cu<sup>+</sup>
 5. silver ion:::Ag<sup>+</sup>
 6. mercury(I) ion:::Hg<sup>+</sup>
-
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup>
 8. magnesium ion:::Mg<sup>2+</sup>
 9. calcium ion:::Ca<sup>2+</sup>
-
 10. barium ion:::Ba<sup>2+</sup>
 11. lead(II) ion:::Pb<sup>2+</sup>
-
 12. iron(II) ion:::Fe<sup>2+</sup>
 13. nickel(II) ion:::Ni<sup>2+</sup>
 14. copper(II) ion:::Cu<sup>2+</sup>
@@ -70,7 +65,6 @@
 16. manganese(II) ion:::Mn<sup>2+</sup>
 17. mercury(II) ion:::Hg<sup>2+</sup>
 18. cobalt(II) ion:::Co<sup>2+</sup>
-
 19. aluminium ion:::Al<sup>3+</sup>
 20. iron(III) ion:::Fe<sup>3+</sup>
 21. chromium(III) ion:::Cr<sup>3+</sup>
@@ -80,11 +74,9 @@
 2. sodium ion::1+
 3. potassium ion::1+
 4. copper(I) ion::1+
-
 5. silver ion::1+
 6. mercury(I) ion::1+
 7. ammonium ion::1+
-
 8. magnesium ion::2+
 9. calcium ion::2+
 10. barium ion::2+
@@ -110,7 +102,6 @@
 7. ammonium ion::colorless
 8. magnesium ion::colorless
 9. calcium ion::colorless
-
 10. barium ion::colorless
 11. lead(II) ion::colorless
 12. iron(II) ion::<a style="color: green;">green</a>
@@ -155,22 +146,17 @@
 3. chloride ion:::Cl<sup>-</sup>
 4. bromide ion:::Br<sup>-</sup>
 5. iodide ion:::I<sup>-</sup>
-
 6. hydroxide ion:::OH<sup>-</sup>
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup>
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup>
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup>
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup>
-
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup>
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup>
 13. oxide ion:::O<sup>2-</sup>
 14. sulfide ion:::S<sup>2-</sup>
-
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup>
-
 16. sulfite ion:::SO<sub>3</sub><sup>2-</sup>
-
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup>
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup>
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
@@ -185,17 +171,14 @@
 5. iodide ion::1-
 6. hydroxide ion::1-
 7. nitrate ion::1-
-
 8. nitrite ion::1-
 9. hydrogencarbonate ion::1-
 10. hydrogensulfite ion::1-
-
 11. hydrogensulfate ion::1-
 12. permanganate ion::1-
 13. oxide ion::2-
 14. sulfide ion::2-
 15. sulfate ion::2-
-
 16. sulfite ion::2-
 17. carbonate ion::2-
 18. chromate ion::2-
@@ -210,7 +193,6 @@
 4. bromide ion::colorless
 5. iodide ion::colorless
 6. hydroxide ion::colorless
-
 7. nitrate ion::colorless
 8. nitrite ion:<!-- flashcard disabled -->:
 9. hydrogencarbonate ion::colorless
@@ -220,12 +202,9 @@
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
 15. sulfate ion::colorless
-
 16. sulfite ion::colorless
-
 17. carbonate ion::colorless
 18. chromate ion::<a style="color: yellow;">yellow</a>
-
 19. dichromate ion::<a style="color: orange;">orange</a>
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless
