@@ -57,7 +57,7 @@
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2022-01-27,17,307!2022-01-15,6,270-->
  <!--SR:!2022-01-09,3,252-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-01-20,11,290!2022-01-19,10,273-->
-8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-01-13,4,247!2022-01-22,12,296-->
+8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-01-25,12,247!2022-01-22,12,296-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2022-01-27,17,310!2022-01-28,18,314-->
  <!--SR:!2022-01-09,3,252-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-01-19,9,250!2022-01-17,8,274-->
@@ -92,7 +92,7 @@
 12. iron(II) ion::2+ <!--SR:!2022-01-28,18,313-->
 13. nickel(II) ion::2+ <!--SR:!2022-01-26,16,292-->
 14. copper(II) ion::2+ <!--SR:!2022-01-26,16,312-->
-15. zinc ion::2+ <!--SR:!2022-01-13,4,244-->
+15. zinc ion::2+ <!--SR:!2022-01-25,12,244-->
 16. manganese(II) ion::2+ <!--SR:!2022-01-25,15,307-->
 17. mercury(II) ion::2+ <!--SR:!2022-01-26,16,314-->
 18. cobalt(II) ion::2+ <!--SR:!2022-01-25,15,312-->
@@ -115,14 +115,14 @@
 11. lead(II) ion::colorless <!--SR:!2022-01-16,7,273-->
 12. iron(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-20,10,254-->
 13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-14,5,247-->
-14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-13,2,230-->
+14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-18,5,230-->
 15. zinc ion::colorless <!--SR:!2022-01-23,13,294-->
 16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-01-14,5,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<a style="color: pink;">pink</a> <!--SR:!2022-01-14,5,239-->
 19. aluminium ion::colorless <!--SR:!2022-01-24,14,294-->
 20. iron(III) ion::dilute: <a style="color: yellow;">yellow</a>, concentrated: <a style="color: brown;">brown</a> <!--SR:!2022-01-17,7,252-->
-21. chromium(III) ion::<a style="color: green;">green</a> <!--SR:!2022-01-13,4,238-->
+21. chromium(III) ion::<a style="color: green;">green</a> <!--SR:!2022-01-24,11,238-->
 
 ## anion
 > name | symbol | charge | color
