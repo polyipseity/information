@@ -105,12 +105,12 @@
 10. barium ion::colorless <!--SR:!2022-01-19,10,274-->
 11. lead(II) ion::colorless <!--SR:!2022-01-16,7,273-->
 12. iron(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-20,10,254-->
-13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-14,5,247-->
+13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-01-28,14,247-->
 14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-18,5,230-->
 15. zinc ion::colorless <!--SR:!2022-01-23,13,294-->
-16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-01-14,5,239-->
+16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-01-27,13,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
-18. cobalt(II) ion::<a style="color: pink;">pink</a> <!--SR:!2022-01-14,5,239-->
+18. cobalt(II) ion::<a style="color: pink;">pink</a> <!--SR:!2022-01-28,14,239-->
 19. aluminium ion::colorless <!--SR:!2022-01-24,14,294-->
 20. iron(III) ion::dilute: <a style="color: yellow;">yellow</a>, concentrated: <a style="color: brown;">brown</a> <!--SR:!2022-01-17,7,252-->
 21. chromium(III) ion::<a style="color: green;">green</a> <!--SR:!2022-01-24,11,238-->
@@ -184,7 +184,7 @@
 18. chromate ion::2- <!--SR:!2022-01-19,9,279-->
 19. dichromate ion::2- <!--SR:!2022-01-22,13,290-->
 20. nitride ion::3- <!--SR:!2022-01-22,13,290-->
-21. phosphate ion::3- <!--SR:!2022-01-14,4,230-->
+21. phosphate ion::3- <!--SR:!2022-01-25,11,230-->
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-01-21,11,279-->
