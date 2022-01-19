@@ -12,7 +12,7 @@
 
 ## naming
 > * simple cation: name of metal + 'ion'
->   * except: hydrogen ion, ammonium ion
+> 	* except: hydrogen ion, ammonium ion
 > * simple anion: name end in 'ide' + 'ion'
 > * ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
 > * polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
