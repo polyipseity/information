@@ -12,5 +12,8 @@
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "useMarkdownLinks": true
 }
