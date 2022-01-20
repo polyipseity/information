@@ -1,21 +1,21 @@
 #flashcards/chemistry/ion
 
 # ion
-> * cation: positively charged ion
-> * anion: negatively charged ion
-> * simple ion: ion formed from one atom
-> * polyatomic ion: ion formed from more than one atom
+> - cation: positively charged ion
+> - anion: negatively charged ion
+> - simple ion: ion formed from one atom
+> - polyatomic ion: ion formed from more than one atom
 1. cation:::positively charged ion
 2. anion:::negatively charged ion
 3. simple ion:::ion formed from one atom
 4. polyatomic ion:::ion formed from more than one atom
 
 ## naming
-> * simple cation: name of metal + 'ion'
-> 	* except: hydrogen ion, ammonium ion
-> * simple anion: name end in 'ide' + 'ion'
-> * ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
-> * polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
+> - simple cation: name of metal + 'ion'
+> 	- except: hydrogen ion, ammonium ion
+> - simple anion: name end in 'ide' + 'ion'
+> - ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
+> - polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
 1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion)
 2. simple anion::name end in 'ide' + 'ion'
 3. ions of a metal with different charges::name of metal(Roman number for the charge) + 'ion'
