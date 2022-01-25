@@ -5,8 +5,8 @@
 > - anion: negatively charged ion
 > - simple ion: ion formed from one atom
 > - polyatomic ion: ion formed from more than one atom
-1. cation:::positively charged ion <!--SR:!2022-01-25,15,305!2022-01-27,17,310-->
-2. anion:::negatively charged ion <!--SR:!2022-01-25,15,292!2022-01-25,15,314-->
+1. cation:::positively charged ion <!--SR:!2022-04-02,67,325!2022-01-27,17,310-->
+2. anion:::negatively charged ion <!--SR:!2022-03-31,65,312!2022-04-04,69,334-->
 3. simple ion:::ion formed from one atom <!--SR:!2022-02-21,32,287!2022-01-28,18,312-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-02-14,27,267!2022-03-23,58,314-->
 
@@ -47,23 +47,23 @@
 > chromium(III) ion | Cr<sup>3+</sup> | 3+ | <a style="color: green;">green</a>
 
 ### name–symbol
-1. hydrogen ion:::H<sup>+</sup> <!--SR:!2022-03-13,49,292!2022-01-25,15,299-->
-2. sodium ion:::Na<sup>+</sup> <!--SR:!2022-01-25,15,310!2022-01-27,17,313-->
+1. hydrogen ion:::H<sup>+</sup> <!--SR:!2022-03-13,49,292!2022-03-28,62,319-->
+2. sodium ion:::Na<sup>+</sup> <!--SR:!2022-04-03,68,330!2022-01-27,17,313-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2022-01-28,18,299!2022-01-28,18,313-->
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2022-01-27,17,299!2022-03-21,56,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2022-03-05,41,294!2022-01-28,18,316-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2022-01-27,17,307!2022-02-10,26,290-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-03-03,42,310!2022-02-25,37,293-->
-8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-01-25,12,247!2022-03-16,52,316-->
+8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-02-26,32,247!2022-03-16,52,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2022-01-27,17,310!2022-01-28,18,314-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-02-14,26,250!2022-02-09,23,274-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2022-01-26,16,314!2022-03-17,53,314-->
-12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2022-01-25,15,299!2022-01-28,18,305-->
+12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2022-04-01,66,319!2022-01-28,18,305-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2022-01-28,18,299!2022-03-09,44,290-->
 14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2022-01-26,16,307!2022-03-07,45,314-->
 15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2022-02-16,28,273!2022-02-05,19,273-->
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2022-02-27,35,287!2022-02-15,26,253-->
-17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-01-25,15,290!2022-02-10,24,273-->
+17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-03-27,61,310!2022-02-10,24,273-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2022-01-26,16,307!2022-02-13,26,274-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-02-08,22,252!2022-03-25,60,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2022-01-26,16,310!2022-03-26,61,334-->
@@ -80,17 +80,17 @@
 8. magnesium ion::2+ <!--SR:!2022-02-03,17,253-->
 9. calcium ion::2+ <!--SR:!2022-02-19,31,272-->
 10. barium ion::2+ <!--SR:!2022-02-16,27,254-->
-11. lead(II) ion::2+ <!--SR:!2022-01-25,15,298-->
+11. lead(II) ion::2+ <!--SR:!2022-03-28,62,318-->
 12. iron(II) ion::2+ <!--SR:!2022-01-28,18,313-->
 13. nickel(II) ion::2+ <!--SR:!2022-01-26,16,292-->
 14. copper(II) ion::2+ <!--SR:!2022-01-26,16,312-->
-15. zinc ion::2+ <!--SR:!2022-01-25,12,244-->
-16. manganese(II) ion::2+ <!--SR:!2022-01-25,15,307-->
+15. zinc ion::2+ <!--SR:!2022-02-23,29,244-->
+16. manganese(II) ion::2+ <!--SR:!2022-03-30,64,327-->
 17. mercury(II) ion::2+ <!--SR:!2022-01-26,16,314-->
-18. cobalt(II) ion::2+ <!--SR:!2022-01-25,15,312-->
+18. cobalt(II) ion::2+ <!--SR:!2022-04-02,67,332-->
 19. aluminium ion::3+ <!--SR:!2022-03-13,51,312-->
-20. iron(III) ion::3+ <!--SR:!2022-01-25,15,305-->
-21. chromium(III) ion::3+ <!--SR:!2022-01-25,15,298-->
+20. iron(III) ion::3+ <!--SR:!2022-03-29,63,325-->
+21. chromium(III) ion::3+ <!--SR:!2022-04-01,66,318-->
 
 ### name–color
 1. hydrogen ion::colorless <!--SR:!2022-03-19,54,309-->
@@ -149,7 +149,7 @@
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2022-01-27,17,292!2022-01-26,16,314-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2022-03-08,46,292!2022-03-02,38,294-->
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2022-02-12,25,259!2022-03-02,38,290-->
-9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2022-02-27,37,279!2022-01-25,15,312-->
+9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2022-02-27,37,279!2022-03-11,45,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2022-02-07,21,270!2022-03-04,40,294-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2022-01-27,17,307!2022-01-27,17,310-->
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2022-01-30,15,273!2022-02-10,23,253-->
@@ -184,7 +184,7 @@
 18. chromate ion::2- <!--SR:!2022-02-16,28,279-->
 19. dichromate ion::2- <!--SR:!2022-03-03,39,290-->
 20. nitride ion::3- <!--SR:!2022-03-03,39,290-->
-21. phosphate ion::3- <!--SR:!2022-01-25,11,230-->
+21. phosphate ion::3- <!--SR:!2022-02-21,27,230-->
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-03-01,39,299-->
