@@ -198,7 +198,7 @@
 9. hydrogencarbonate ion::colorless <!--SR:!2022-03-20,56,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2022-02-06,20,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2022-02-10,24,270-->
-12. permanganate ion::<a style="color: darkPurple;">deep purple</a> <!--SR:!2022-01-29,14,270-->
+12. permanganate ion::<a style="color: darkPurple;">deep purple</a> <!--SR:!2022-03-11,41,270-->
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
 15. sulfate ion::colorless <!--SR:!2022-01-31,16,274-->
