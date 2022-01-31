@@ -106,7 +106,7 @@
 11. lead(II) ion::colorless <!--SR:!2022-02-08,22,273-->
 12. iron(II) ion::<a style="color: green;">green</a> <!--SR:!2022-02-17,28,254-->
 13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-03-04,35,247-->
-14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-01-30,9,250-->
+14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-02-23,23,250-->
 15. zinc ion::colorless <!--SR:!2022-03-17,53,314-->
 16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-02-27,31,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
@@ -152,7 +152,7 @@
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2022-02-27,37,279!2022-03-11,45,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2022-02-07,21,270!2022-03-04,40,294-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2022-04-13,76,327!2022-04-12,75,330-->
-12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2022-01-30,15,273!2022-02-10,23,253-->
+12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2022-03-14,42,273!2022-02-10,23,253-->
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2022-03-12,48,290!2022-02-14,27,273-->
 14. sulfide ion:::S<sup>2-</sup> <!--SR:!2022-02-09,23,267!2022-03-19,55,310-->
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2022-03-25,56,299!2022-04-09,72,325-->
@@ -201,10 +201,10 @@
 12. permanganate ion::<a style="color: darkPurple;">deep purple</a> <!--SR:!2022-03-11,41,270-->
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
-15. sulfate ion::colorless <!--SR:!2022-01-31,16,274-->
+15. sulfate ion::colorless <!--SR:!2022-03-13,41,274-->
 16. sulfite ion::colorless <!--SR:!2022-02-09,25,294-->
 17. carbonate ion::colorless <!--SR:!2022-02-08,22,272-->
 18. chromate ion::<a style="color: yellow;">yellow</a> <!--SR:!2022-02-04,18,258-->
 19. dichromate ion::<a style="color: orange;">orange</a> <!--SR:!2022-02-01,17,273-->
 20. nitride ion:<!-- flashcard disabled -->:
-21. phosphate ion::colorless <!--SR:!2022-01-31,16,273-->
+21. phosphate ion::colorless <!--SR:!2022-03-19,47,273-->
