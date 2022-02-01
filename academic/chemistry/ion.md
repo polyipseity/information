@@ -97,7 +97,7 @@
 2. sodium ion::colorless <!--SR:!2022-02-22,33,293-->
 3. potassium ion::colorless <!--SR:!2022-03-15,51,304-->
 4. copper(I) ion:<!-- flashcard disabled -->:
-5. silver ion::colorless <!--SR:!2022-02-01,17,259-->
+5. silver ion::colorless <!--SR:!2022-03-17,44,259-->
 6. mercury(I) ion:<!-- flashcard disabled -->:
 7. ammonium ion::colorless <!--SR:!2022-04-15,77,319-->
 8. magnesium ion::colorless <!--SR:!2022-02-19,31,274-->
@@ -205,6 +205,6 @@
 16. sulfite ion::colorless <!--SR:!2022-02-09,25,294-->
 17. carbonate ion::colorless <!--SR:!2022-02-08,22,272-->
 18. chromate ion::<a style="color: yellow;">yellow</a> <!--SR:!2022-02-04,18,258-->
-19. dichromate ion::<a style="color: orange;">orange</a> <!--SR:!2022-02-01,17,273-->
+19. dichromate ion::<a style="color: orange;">orange</a> <!--SR:!2022-03-21,48,273-->
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless <!--SR:!2022-03-19,47,273-->
