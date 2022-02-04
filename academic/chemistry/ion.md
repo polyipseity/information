@@ -77,7 +77,7 @@
 5. silver ion::1+ <!--SR:!2022-02-07,21,270-->
 6. mercury(I) ion::1+ <!--SR:!2022-04-09,73,334-->
 7. ammonium ion::1+ <!--SR:!2022-03-17,50,314-->
-8. magnesium ion::2+ <!--SR:!2022-02-03,17,253-->
+8. magnesium ion::2+ <!--SR:!2022-03-24,48,253-->
 9. calcium ion::2+ <!--SR:!2022-02-19,31,272-->
 10. barium ion::2+ <!--SR:!2022-02-16,27,254-->
 11. lead(II) ion::2+ <!--SR:!2022-03-28,62,318-->
@@ -112,7 +112,7 @@
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<a style="color: pink;">pink</a> <!--SR:!2022-03-02,33,239-->
 19. aluminium ion::colorless <!--SR:!2022-03-25,60,314-->
-20. iron(III) ion::dilute: <a style="color: yellow;">yellow</a>, concentrated: <a style="color: brown;">brown</a> <!--SR:!2022-02-04,18,252-->
+20. iron(III) ion::dilute: <a style="color: yellow;">yellow</a>, concentrated: <a style="color: brown;">brown</a> <!--SR:!2022-03-21,45,252-->
 21. chromium(III) ion::<a style="color: green;">green</a> <!--SR:!2022-02-22,29,238-->
 
 ## anion
@@ -204,7 +204,7 @@
 15. sulfate ion::colorless <!--SR:!2022-03-13,41,274-->
 16. sulfite ion::colorless <!--SR:!2022-02-09,25,294-->
 17. carbonate ion::colorless <!--SR:!2022-02-08,22,272-->
-18. chromate ion::<a style="color: yellow;">yellow</a> <!--SR:!2022-02-04,18,258-->
+18. chromate ion::<a style="color: yellow;">yellow</a> <!--SR:!2022-03-25,49,258-->
 19. dichromate ion::<a style="color: orange;">orange</a> <!--SR:!2022-03-21,48,273-->
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless <!--SR:!2022-03-19,47,273-->
