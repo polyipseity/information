@@ -67,7 +67,7 @@
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2022-04-07,71,327!2022-02-13,26,274-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-04-08,59,252!2022-03-25,60,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2022-04-05,69,330!2022-03-26,61,334-->
-21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2022-04-15,78,334!2022-02-11,25,274-->
+21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2022-04-15,78,334!2022-04-24,72,274-->
 
 ### name–charge
 1. hydrogen ion::1+ <!--SR:!2022-04-04,68,333-->
@@ -175,7 +175,7 @@
 9. hydrogencarbonate ion::1- <!--SR:!2022-03-09,44,290-->
 10. hydrogensulfite ion::1- <!--SR:!2022-04-10,73,319-->
 11. hydrogensulfate ion::1- <!--SR:!2022-03-01,37,284-->
-12. permanganate ion::1- <!--SR:!2022-02-11,25,272-->
+12. permanganate ion::1- <!--SR:!2022-04-20,68,272-->
 13. oxide ion::2- <!--SR:!2022-02-26,36,290-->
 14. sulfide ion::2- <!--SR:!2022-03-08,43,293-->
 15. sulfate ion::2- <!--SR:!2022-03-05,41,290-->
@@ -188,7 +188,7 @@
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-03-01,39,299-->
-2. fluoride ion::colorless <!--SR:!2022-02-11,25,274-->
+2. fluoride ion::colorless <!--SR:!2022-04-23,71,274-->
 3. chloride ion::colorless <!--SR:!2022-03-22,57,314-->
 4. bromide ion::colorless <!--SR:!2022-03-30,53,259-->
 5. iodide ion::colorless <!--SR:!2022-03-06,44,307-->
