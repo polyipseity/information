@@ -8,7 +8,7 @@
 1. cation:::positively charged ion <!--SR:!2022-04-02,67,325!2022-04-14,77,330-->
 2. anion:::negatively charged ion <!--SR:!2022-03-31,65,312!2022-04-04,69,334-->
 3. simple ion:::ion formed from one atom <!--SR:!2022-02-21,32,287!2022-04-19,81,332-->
-4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-02-14,27,267!2022-03-23,58,314-->
+4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-04-29,74,267!2022-03-23,58,314-->
 
 ## naming
 > - simple cation: name of metal + 'ion'
@@ -56,7 +56,7 @@
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-03-03,42,310!2022-02-25,37,293-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-02-26,32,247!2022-03-16,52,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2022-04-11,74,330!2022-04-16,78,334-->
-10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-02-14,26,250!2022-04-17,67,274-->
+10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-04-24,69,250!2022-04-17,67,274-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2022-04-05,69,334!2022-03-17,53,314-->
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2022-04-01,66,319!2022-04-16,78,325-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2022-04-14,76,319!2022-03-09,44,290-->
@@ -153,7 +153,7 @@
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2022-04-05,57,270!2022-03-04,40,294-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2022-04-13,76,327!2022-04-12,75,330-->
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2022-03-14,42,273!2022-04-09,58,253-->
-13. oxide ion:::O<sup>2-</sup> <!--SR:!2022-03-12,48,290!2022-02-14,27,273-->
+13. oxide ion:::O<sup>2-</sup> <!--SR:!2022-03-12,48,290!2022-05-27,102,293-->
 14. sulfide ion:::S<sup>2-</sup> <!--SR:!2022-04-14,64,267!2022-03-19,55,310-->
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2022-03-25,56,299!2022-04-09,72,325-->
 16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2022-03-06,42,293!2022-02-18,30,274-->
