@@ -129,7 +129,7 @@
 > hydrogencarbonate ion | HCO<sub>3</sub><sup>-</sup> | 1- | colorless
 > hydrogensulfite ion | HSO<sub>3</sub><sup>-</sup> | 1- | colorless
 > hydrogensulfate ion | HSO<sub>4</sub><sup>-</sup> | 1- | colorless
-> permanganate ion | MnO<sub>4</sub><sup>-</sup> | 1- | <span style="color: darkPurple;">deep purple</span>
+> permanganate ion | MnO<sub>4</sub><sup>-</sup> | 1- | <span style="color: darkViolet; background-color: white;">deep purple</span>
 > oxide ion | O<sup>2-</sup> | 2- |
 > sulfide ion | S<sup>2-</sup> | 2- |
 > sulfate ion | SO<sub>4</sub><sup>2-</sup> | 2- | colorless
@@ -198,7 +198,7 @@
 9. hydrogencarbonate ion::colorless
 10. hydrogensulfite ion::colorless
 11. hydrogensulfate ion::colorless
-12. permanganate ion::<span style="color: darkPurple;">deep purple</span>
+12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span>
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
 15. sulfate ion::colorless
