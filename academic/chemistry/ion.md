@@ -35,16 +35,16 @@
 > calcium ion | Ca<sup>2+</sup> | 2+ | colorless
 > barium ion | Ba<sup>2+</sup> | 2+ | colorless
 > lead(II) ion | Pb<sup>2+</sup> | 2+ | colorless
-> iron(II) ion | Fe<sup>2+</sup> | 2+ | <a style="color: green;">green</a>
-> nickel(II) ion | Ni<sup>2+</sup> | 2+ | <a style="color: green;">green</a>
-> copper(II) ion | Cu<sup>2+</sup> | 2+ | <a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a>
+> iron(II) ion | Fe<sup>2+</sup> | 2+ | <span style="color: green;">green</span>
+> nickel(II) ion | Ni<sup>2+</sup> | 2+ | <span style="color: green;">green</span>
+> copper(II) ion | Cu<sup>2+</sup> | 2+ | <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>
 > zinc ion | Zn<sup>2+</sup> | 2+ | colorless
-> manganese(II) ion | Mn<sup>2+</sup> | 2+ | <a style="color: lightPink;">very pale pink</a>
+> manganese(II) ion | Mn<sup>2+</sup> | 2+ | <span style="color: lightPink;">very pale pink</span>
 > mercury(II) ion | Hg<sup>2+</sup> | 2+ |
-> cobalt(II) ion | Co<sup>2+</sup> | 2+ | <a style="color: pink;">pink</a>
+> cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span>
 > aluminium ion | Al<sup>3+</sup> | 3+ | colorless
-> iron(III) ion | Fe<sup>3+</sup> | 3+ | dilute: <a style="color: yellow;">yellow</a>, concentrated: <a style="color: brown;">brown</a>
-> chromium(III) ion | Cr<sup>3+</sup> | 3+ | <a style="color: green;">green</a>
+> iron(III) ion | Fe<sup>3+</sup> | 3+ | dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span>
+> chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span>
 
 ### name–symbol
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2022-03-13,49,292!2022-03-28,62,319-->
@@ -104,16 +104,16 @@
 9. calcium ion::colorless <!--SR:!2022-04-16,66,272-->
 10. barium ion::colorless <!--SR:!2022-02-18,30,274-->
 11. lead(II) ion::colorless <!--SR:!2022-04-11,62,273-->
-12. iron(II) ion::<a style="color: green;">green</a> <!--SR:!2022-02-17,28,254-->
-13. nickel(II) ion::<a style="color: green;">green</a> <!--SR:!2022-03-04,35,247-->
-14. copper(II) ion::<a style="color: blue; background-color: white;">blue</a>/<a style="color: green;">green</a> <!--SR:!2022-02-23,23,250-->
+12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-02-17,28,254-->
+13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-03-04,35,247-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-02-23,23,250-->
 15. zinc ion::colorless <!--SR:!2022-03-17,53,314-->
-16. manganese(II) ion::<a style="color: lightPink;">very pale pink</a> <!--SR:!2022-02-27,31,239-->
+16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-02-27,31,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
-18. cobalt(II) ion::<a style="color: pink;">pink</a> <!--SR:!2022-03-02,33,239-->
+18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-03-02,33,239-->
 19. aluminium ion::colorless <!--SR:!2022-03-25,60,314-->
-20. iron(III) ion::dilute: <a style="color: yellow;">yellow</a>, concentrated: <a style="color: brown;">brown</a> <!--SR:!2022-03-21,45,252-->
-21. chromium(III) ion::<a style="color: green;">green</a> <!--SR:!2022-02-22,29,238-->
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-21,45,252-->
+21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-02-22,29,238-->
 
 ## anion
 > name | symbol | charge | color
@@ -129,14 +129,14 @@
 > hydrogencarbonate ion | HCO<sub>3</sub><sup>-</sup> | 1- | colorless
 > hydrogensulfite ion | HSO<sub>3</sub><sup>-</sup> | 1- | colorless
 > hydrogensulfate ion | HSO<sub>4</sub><sup>-</sup> | 1- | colorless
-> permanganate ion | MnO<sub>4</sub><sup>-</sup> | 1- | <a style="color: darkPurple;">deep purple</a>
+> permanganate ion | MnO<sub>4</sub><sup>-</sup> | 1- | <span style="color: darkPurple;">deep purple</span>
 > oxide ion | O<sup>2-</sup> | 2- |
 > sulfide ion | S<sup>2-</sup> | 2- |
 > sulfate ion | SO<sub>4</sub><sup>2-</sup> | 2- | colorless
 > sulfite ion | SO<sub>3</sub><sup>2-</sup> | 2- | colorless
 > carbonate ion | CO<sub>3</sub><sup>2-</sup> | 2- | colorless
-> chromate ion | CrO<sub>4</sub><sup>2-</sup> | 2- | <a style="color: yellow;">yellow</a>
-> dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <a style="color: orange;">orange</a>
+> chromate ion | CrO<sub>4</sub><sup>2-</sup> | 2- | <span style="color: yellow;">yellow</span>
+> dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <span style="color: orange;">orange</span>
 > nitride ion | N<sup>3-</sup> | 3- |
 > phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless
 
@@ -198,13 +198,13 @@
 9. hydrogencarbonate ion::colorless <!--SR:!2022-03-20,56,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2022-03-30,51,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2022-04-19,68,270-->
-12. permanganate ion::<a style="color: darkPurple;">deep purple</a> <!--SR:!2022-03-11,41,270-->
+12. permanganate ion::<span style="color: darkPurple;">deep purple</span> <!--SR:!2022-03-11,41,270-->
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
 15. sulfate ion::colorless <!--SR:!2022-03-13,41,274-->
 16. sulfite ion::colorless <!--SR:!2022-04-24,74,294-->
 17. carbonate ion::colorless <!--SR:!2022-04-13,64,272-->
-18. chromate ion::<a style="color: yellow;">yellow</a> <!--SR:!2022-03-25,49,258-->
-19. dichromate ion::<a style="color: orange;">orange</a> <!--SR:!2022-03-21,48,273-->
+18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-03-25,49,258-->
+19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2022-03-21,48,273-->
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless <!--SR:!2022-03-19,47,273-->
