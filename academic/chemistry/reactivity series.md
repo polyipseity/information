@@ -22,3 +22,16 @@ Reactivity decreases down the table.
 > Hg | ==heat== | ==none== | ==none== | ==none==
 > Ag | ==none== | ==none== | ==none== | ==none==
 > Au | ==none== | ==none== | ==none== | ==none==
+1. (highest)→:::←K
+2. K→:::←Na
+3. Na→:::←Ca
+4. Ca→:::←Mg
+5. Mg→:::←Al
+6. Al→:::←Zn
+7. Zn→:::←Fe
+8. Fe→:::←Pb
+9. Pb→:::←Cu
+10. Cu→:::←Hg
+11. Hg→:::←Ag
+12. Ag→:::←Au
+13. Au→:::←(lowest)
