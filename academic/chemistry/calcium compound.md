@@ -27,7 +27,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 3. calcium hydroxide (solid)::white solid
 
 ## reactions
-> - ==CaCO<sub>3</sub>(s)== $\overset{\text{heat}}{→}$ ==CaO(s) + CO<sub>2</sub>(g)==
+> - ==CaCO<sub>3</sub>(s)== $\xrightarrow{\text{heat}}$ ==CaO(s) + CO<sub>2</sub>(g)==
 > - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)==
 
 ### preparation of limewater
