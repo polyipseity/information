@@ -6,8 +6,9 @@ aliases: ["activity series"]
 
 # reactivity series
 
-## table
-Reactivity decreases down the table.
+## data
+> Reactivity decreases down the table.
+> 
 > metal | reaction with air | reaction with water | reaction with dilute HCl | reaction with dilute H<sub>2</sub>SO<sub>4</sub>
 > -|-|-|-|-
 > K | ==burn== | ==w/ water== | ==explosive== | ==explosive==
@@ -22,6 +23,8 @@ Reactivity decreases down the table.
 > Hg | ==heat== | ==none== | ==none== | ==none==
 > Ag | ==none== | ==none== | ==none== | ==none==
 > Au | ==none== | ==none== | ==none== | ==none==
+
+### rankings
 1. (highest)→:::←K
 2. K→:::←Na
 3. Na→:::←Ca
