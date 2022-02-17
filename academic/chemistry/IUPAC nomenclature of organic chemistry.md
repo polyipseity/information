@@ -9,27 +9,29 @@
 >     3. ==maximum length==
 >     4. ==maximum number of prefix substituents or branches==
 >     5. ==maximum number of single bonds==
-> 2. ==identification of the parent [functional group](#functional%20groups) of [highest group precedence](#order%20of%20precedence%20of%20groups)==
+> 2. ==identification of the parent functional group of highest group precedence==
 > 3. ==identification of the side-chains==
-> 4. ==identification of the remaining [functional groups](#functional%20groups)==
+> 4. ==identification of the remaining functional groups==
 > 5. ==identification of double and triple bonds==
 > 6. ==numbering of the chain==
->     1. ==lowest-numbered locant for the suffix [functional group](#functional%20groups)==
+>     1. ==lowest-numbered locant for the suffix functional group==
 >     2. ==lowest-numbered locant for multiple bonds==
 >     3. ==lowest-numbered locant for prefixes==
 > 7. ==numbering of the various substituents and bonds==
->     1. ==prepending of [prefix for numbers of a type](#prefix%20for%20numbers%20of%20a%20type)==
->         1. ==appending of "a" to the [prefix for number of carbons](#prefix%20for%20number%20of%20carbons) if the next group is prepended==
-> 8. arranging: ==side-chains and secondary [functional groups](#functional%20groups) in alphabetical order + [prefix for number of carbons](#prefix%20for%20number%20of%20carbons) + "ane"/(double bonds + triple bonds) + primary [functional group](#functional%20groups) suffix==
->     1. ==locant order: _N_ first, then numerically==
+>     1. ==prepending of [prefix for number of a type](#prefixes%20for%20number%20of%20a%20type)==
+> 8. arranging: ==prefixes + [prefix for number of carbons](#prefixes%20for%20number%20of%20carbons) + suffixes for bonds + suffix==
+>     1. ==prefix order: (alphabetical order ignoring prefixes for number of a type)==
+>     2. ==suffixes for bonds order: single bond, double bond, triple bond==
+>     3. ==locant order: _N_, (numerical order)==
 > 9. ==omittance of unnecessary numbering==
-> 10. ==adding of punctuation==
+> 10. ==[alternation of parts for pronunciation](#alternations%20of%20parts%20for%20pronunciation)==
+> 11. ==adding of punctuation==
 >     1. ==commas between locants==
 >     2. ==hyphens between a locant and a letter==
->     3. ==merge into one word==
-> 11. ==prepending of the notation for _cis_–_trans_ isomerism==
+>     3. ==merge parts==
+> 12. ==prepending of the notation for _cis_–_trans_ isomerism==
 
-## prefix for numbers of a type
+## prefixes for number of a type
 > number | prefix
 > -|-
 > 1 | ==(none)==
@@ -43,7 +45,7 @@
 > 9 | ==nona-==
 > 10 | ==deca-==
 
-## prefix for number of carbons
+## prefixes for number of carbons
 > number | prefix
 > -|-
 > 1 | ==meth-==
@@ -67,179 +69,46 @@
 > 19 | ==nonadec-==
 > 20 | ==icos-==
 
-## hydrocarbons
-> - ==alkane==: ==C-C==
-> - ==alkene==: ==C=C==
-> - ==alkynes==: ==C≡C==
-
-### alkanes (C-C)
-> - functional group name: ==(none)==
-> - name: ==suffix "-ane"==
->     - cyclic: ==prepend "cyclic-"==
-
-### alkenes (C=C)
-> - functional group name: ==carbon-carbon double bond==
-> - naming: ==suffix "-ene"==
->     - with [triple bonds](#alkynes): ==suffix "-en"==
-
-### alkynes (RC≡CR')
-> - functional group name: ==carbon-carbon triple bond==
-> - naming: ==suffix "-yne"==
-
 ## functional groups
-> - ==alkyl==: ==R==
-> - ==haloalkane & haloarene==: ==R-X==
-> - ==alcohol==: ==R-OH==
-> - ==ether==: ==R-O-R==
-> - ==aldehyde==: ==R-CHO==
-> - ==ketone==: ==R-CO-R==
-> - ==carboxylic acids==: ==R-CO-OH==
-> - ==carboxylate==: ==R-COO<sup>-</sup>==
-> - ==ester==: ==R-CO-O-R'==
-> - ==alkanoyl==: ==RCO-==
-> - ==acyl halide==: ==RCOX==
-> - ==organic acid anhydride==: ==RCO-O-COR'==
-> - ==amine==: ==R-NH<sub>2</sub>/R-NH-R/R-NR-R==
-> - ==amide==: ==R-CO-NH<sub>2</sub>/R-CO-NH-R'/R-CO-NR'-R"==
-> - ==nitrile==: ==RCN==
+> - usage
+>     - determine using suffix or prefix
+>         1. if this group is for bonds
+>             - add suffix
+>         2. if suffix is not in the form of "-suffix"
+>             - add prefix
+>         3. if suffix is available
+>             - add suffix
+>         4. add prefix
+>     - infix
+>         1. if target is unspecified
+>             - target is this group
+>         2. add infix to target
+> - chemical class | group | formula(s) | prefix(es) | suffix(es) | infix(es) | other(s)
+>   -|-|-|-|-|-|-
+>   ==alkane== | ==alkyl== | ==R(CH<sub>2</sub>)<sub>n</sub>H== | ==(prefix for number of carbons)yl-, alkyl-== | ==-ane== | ==(none), (position number)== | ==__cyclic__==: ==prefix: cyclo-==
+>   ==alkene== | ==alkenyl== | ==R<sub>2</sub>C=CR<sub>2</sub>== | ==(prefix for number of carbons)enyl-, alkenyl-== | ==-ene== | ==(position number)== | ==__cyclic__==: ==prefix: cyclo-==
+>   ==alkyne== | ==alkynyl== | ==RC≡CR'== | ==(prefix for number of carbons)ynyl-, alkynyl-== | ==-yne== | ==(position number)== | ==__cyclic__==: ==prefix: cyclo-==
+>   ==benzene derivative== | ==phenyl== | ==RC<sub>6</sub>H<sub>5</sub>/RPh== | ==phenyl-== | ==-benzene== | ==(none), (position number)== |
+>   ==haloalkane== | ==halo== | ==RX== | ==halo-== | ==halide== | ==(position number)== |
+>   ==([prefix for halogens](#affixes%20for%20halogens))alkane== | (prefix for halogens) | ==RX== | (prefix for halogens) | ([suffix for halogens](#affixes%20for%20halogens)) | ==(position number)== |
+>   ==alcohol== | ==hydroxyl== | ==ROH== | ==hydroxy-== | ==-ol== | ==(position number)== |
+>   ==ether== | ==ether== | ==ROR'== | ==__-OR'__==: ==(prefix for number of carbons)oxy-, alkoxy-==<p/>==__-O-__==: ==oxa-== | ==ether== | ==(position number)== |
+>   ==aldehyde== | ==aldehyde== | ==RCHO== | ==__=O__==: ==oxo-==<p/>==__-CHO__==: ==formyl-== | ==__=O__==: ==-al==<p/>==__-CHO__==: ==-carbaldehyde== | ==(position number)== |
+>   ==ketone== | ==carbonyl== | ==RCOR'== | ==__=O__==: ==oxo-==<p/>==__-COR'__==: ==(prefix for number of carbons)oyl-== | ==-one== | ==(position number)== |
+>   ==carboxylic acid== | ==carboxyl== | ==RCOOH== | ==carboxy-== | ==__-(=O)OH__==: ==-(o)ic acid==<p/>==__-COOH__==: ==-carboxylic acid== | ==(position number)== |
+>   ==carboxylate== | ==carboxylate== | ==RCOO<sup>-</sip>== | ==carboxy-== | ==-(o)ate== | ==(position number)== |
+>   ==alkanoyl== | ==acyl== | ==RCO== | | ==-(o)yl== | ==(position number)== |
+>   ==amine== | ==amino== | ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>== | ==__RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N__==: ==amino-==<p/>==__R<sub>4</sub>N<sup>+</sup>__==: ==ammonio-== | ==__RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N__==: ==-amine==<p/>==__R<sub>4</sub>N<sup>+</sup>__==: ==-ammonium== | ==(position number)==<p/>==__R', R", R<sub>3</sub>, R<sub>4</sub>__==: ==_N_== |
+>   ==amide== | ==amide== | ==RCONH<sub>2</sub>, RCONHR', RCONR'R"== | ==__-(=O)NX<sub>2</sub>__==: ==amido-==<p/>==__-CONX<sub>2</sub>__==: ==carbamoyl-== | ==__-(=O)NX<sub>2</sub>__==: ==-amide==<p/>==__-CONX<sub>2</sub>__==: ==-carboxamide== | ==(position number)==<p/>==__R', R"__==: ==_N_== |
+>   ==nitrile== | ==nitrile== | ==RCN== | ==cyano-== | ==__≡N__==: ==-(o)nitrile, -nitrile==<p/>==__-CN__==: ==-carbonitrile== | ==(position number)== |
 
-### alkyls (R)
-> - functional group name: ==alkyl group==
-> - naming
->     - ==derive from [alkanes](#alkanes%20C-C)==
->     - ==replace "-ane" with "-yl"==
-
-### haloalkanes & haloarenes (R-X)
-> - functional group name: ==(element name)==
-> - naming
->     - element | prefix
->       -|-
->       fluorine | ==fluoro-==
->       chlorine | ==chloro-==
->       bromine | ==bromo-==
->       iodine | ==iodo-==
-
-### alcohols (R-OH)
-> - functional group name: ==hydroxyl group==
-> - naming
->     1. ==if is the highest priority group==
->         - ==append "-ol"==
->         - ==remove "e" before "-ol" if only one group of this type exist==
->     2. ==prepend "hydroxy-"==
-
-### ethers (R-O-R)
-> - functional group name: ==ether group==
-> - naming
->     1. normal
->         - ==prepend "([alkane naming](#alkanes) with "-ane" replaced by "-oxy")"==
->     2. alternative
->         - ==consider the ether chain as an alkane in which carbons are replaced by oxygens==
->         - ==prepend "oxa", using the locants of replaced carbons==
-
-### aldehydes (R-CHO)
-> - functional group name: ==formyl group==
-> - naming
->     1. ==if is the highest priority group==
->         - ==append "-al"==
->         - ==remove "e" before "-al" if only one group of this type exist==
->     2. ==if the carbon can be included==
->         - ==prepend "oxo-"==
->     3. ==if attached to benzene and, with benzene, is a primary functional group==
->         - ==append "-benzaldehyde"==
->     4. ==append "-carbaldehyde"==/==prepend "formyl-"==
-
-### ketones (R-CO-R)
-> - functional group name: ==carbonyl group==
-> - naming
->     1. ==if is the highest priority group==
->         - ==append "-one"==
->         - ==remove "e" before "-one" if only one group of this type exist==
->     2. ==prepend "oxo-"==
-
-### carboxylic acids (R-CO-OH)
-> - functional group name: ==carboxyl group==
-> - naming
->     1. ==if is the highest priority group==
->         - ==append "-oic acid"==
->         - ==remove "e" before "-oic acid" if only one group of this type exist==
->     2. ==if the carbon is not part of the main chain==
->         - ==append "-carboxylic acid"==/==prepend "carboxy-"==
-
-### carboxylates (R-COO<sup>-</sup>)
-> - functional group name: ==carboxylate group==
-> - naming
->     - ==derive from [carboxylic acids](#carboxylic%20acids%20C%20O%20OH)==
->     - ==replace "-ic acid" with "-ate"==
-
-### ester (R-CO-O-R')
-> - functional group name: ==carboalkoxy group==
-> - naming
->     - for R-CO-O
->         - ==derive from [carboxylic acids](#carboxylic%20acids%20C%20O%20OH)==
->         - ==replace "-ic acid" with "-ate"==
->     - for R'
->         - ==derive from [alkyls](#alkyls%20R)==
->         - ==if not attached at the end of the chain==
->             - ==infix the locant of attachment before "-yl"==
-
-### alkanoyls (RCO-)
-> - functional group name: ==acyl group==
-> - naming
->     - ==derive from [carboxylic acids](#carboxylic%20acids%20C%20O%20OH)==
->     - ==replace "-ic" with "-yl"==
-
-### acyl halides (RCOX)
-> - functional group name: ==([halide prefix](#haloalkanes%20haloarenes%20R-X))formyl group==
-> - naming
->     - ==derive from [alkanoyls](#alkanoyls%20RCO-)==
->     - ==append " (halide name)"==
-
-### organic acid anhydrides (RCO-O-COR')
-> - functional group name: ==carboxylic anhydride group==
-> - naming
->     1. ==if R equals to R'==
->         - ==derive from [carboxylic acids](#carboxylic%20acids%20C%20O%20OH) for R==
->         - ==replace "acid" with "anhydride"==
->     2. otherwise
->         - ==derive from [carboxylic acids](#carboxylic%20acids%20C%20O%20OH) for both R and R'==
->         - ==remove "acid" from two words==
->         - ==concatenate two words with a " " delimiter in alphabetical order==
->         - ==append " anhydride"==
-
-### amines (R-NH<sub>2</sub>/R-NH-R/R-NR-R)
-> - functional group name: ==amino group==
-> - naming
->     - any amines
->         1. ==if is the highest priority group==
->             - ==append "-amine"==
->             - ==remove "e" before "-amine" if only one group of this type exist==
->         2. ==prepend "amino-"==
->     - secondary amines/tertiary amines
->         - ==add "_N_" as a locant to connected side chains==
-
-### amides (R-CO-NH<sub>2</sub>/R-CO-NH-R'/R-CO-NR'-R")
-> - functional group name: ==amide group==
-> - naming
->     - any amides
->         1. ==if is the highest priority group==
->             - ==append "-amide"==
->             - ==remove "e" before "-amine" if only one group of this type exist==
->         2. ==if the carbon is not part of the main chain==
->             - ==append "-carboxamide"==/==prepend "carbamoyl-"==/==prepend "amido-"==
->     - secondary amides/tertiary amides
->         - ==add "_N_" as a locant to connected side chains==
-
-### nitriles (RCN)
-> - functional group name: ==nitrile group==
-> - naming
->     1. ==if is the highest priority group==
->         1. ==if is [carboxylic acid](#carboxylic%20acids%20R-CO-OH)==
->             - ==replace "-oic acid"/"-ic acid" with "-onitrile"==
->         2. ==if the carbon is not part of the main chain==
->             - ==append "-carbonitrile"==
->         2. otherwise
->             - ==append "-nitrile"==
->     2. ==prepend "cyano-"==
+### affixes for halogens
+> element | prefix | suffix
+> -|-|-
+> fluorine | ==fluoro-== | ==fluoride==
+> chlorine | ==chloro-== | ==chloride==
+> bromine | ==bromo-== | ==bromoide==
+> iodine | ==iodo-== | ==iodide==
 
 ## order of precedence of groups
 > 1. cations
@@ -261,3 +130,9 @@
 8. alcohols→:::←hydroperoxides
 9. hydroperoxides→:::←mines
 10. amines→:::←_(lowest)_
+
+## alternations of parts for pronunciation
+> - if ==prefix for number of carbons is not followed by "-a" ignoring numbers and punctuations==
+>     - ==add "-a"==
+> - if ==suffix ends in "-e" and next suffix starts with a vowel==
+>     - ==drop "-e"==
