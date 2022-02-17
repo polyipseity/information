@@ -128,7 +128,7 @@
 6. aldehydes→:::←ketones
 7. ketones→:::←alcohols
 8. alcohols→:::←hydroperoxides
-9. hydroperoxides→:::←mines
+9. hydroperoxides→:::←amines
 10. amines→:::←_(lowest)_
 
 ## alternations of parts for pronunciation
