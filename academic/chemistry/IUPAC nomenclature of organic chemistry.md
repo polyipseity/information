@@ -132,7 +132,7 @@
 10. amines→:::←_(lowest)_
 
 ## alternations of parts for pronunciation
-> - if ==prefix for number of carbons is not followed by "-a" ignoring numbers and punctuations==
+> - if ==prefix for number of carbons is not followed by "-a"==
 >     - ==add "-a"==
 > - if ==suffix ends in "-e" and next suffix starts with a vowel==
 >     - ==drop "-e"==
