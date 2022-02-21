@@ -12,7 +12,7 @@
 > 2. ==identification of the parent functional group of highest group precedence==
 > 3. ==identification of the side-chains==
 > 4. ==identification of the remaining functional groups==
-> 5. ==identification of double and triple bonds==
+> 5. ==identification of multiple bonds==
 > 6. ==numbering of the chain==
 >     1. ==lowest-numbered locant for the suffix functional group==
 >     2. ==lowest-numbered locant for multiple bonds==
@@ -132,7 +132,7 @@
 10. amines→:::←_(lowest)_ <!--SR:!2022-03-03,10,256!2022-03-09,16,287-->
 
 ## alternations of parts for pronunciation
-> - if ==prefix for number of carbons is not followed by "-a"==
+> - if ==prefix for number of carbons is followed by a prefix for number of a type==
 >     - ==add "-a"==
 > - if ==suffix ends in "-e" and next suffix starts with a vowel==
 >     - ==drop "-e"== <!--SR:!2022-03-04,11,250!2022-02-28,7,261!2022-03-04,11,264!2022-03-04,11,267-->
