@@ -34,40 +34,40 @@
 ## prefixes for number of a type
 > number | prefix
 > -|-
-> 1 | ==(none)==
-> 2 | ==di-==
-> 3 | ==tri-==
-> 4 | ==tetra-==
-> 5 | ==penta-==
-> 6 | ==hexa-==
-> 7 | ==hepta-==
-> 8 | ==octa-==
-> 9 | ==nona-==
-> 10 | ==deca-==
+> ==1== | ==(none)==
+> ==2== | ==di-==
+> ==3== | ==tri-==
+> ==4== | ==tetra-==
+> ==5== | ==penta-==
+> ==6== | ==hexa-==
+> ==7== | ==hepta-==
+> ==8== | ==octa-==
+> ==9== | ==nona-==
+> ==10== | ==deca-==
 
 ## prefixes for number of carbons
 > number | prefix
 > -|-
-> 1 | ==meth-==
-> 2 | ==eth-==
-> 3 | ==prop-==
-> 4 | ==but-==
-> 5 | ==pent-==
-> 6 | ==hex-==
-> 7 | ==hept-==
-> 8 | ==oct-==
-> 9 | ==non-==
-> 10 | ==dec-==
-> 11 | ==undec-==
-> 12 | ==dodec-==
-> 13 | ==tricdec-==
-> 14 | ==tetradec-==
-> 15 | ==pentadec-==
-> 16 | ==hexadec-==
-> 17 | ==heptadec-==
-> 18 | ==octadec-==
-> 19 | ==nonadec-==
-> 20 | ==icos-==
+> ==1== | ==meth-==
+> ==2== | ==eth-==
+> ==3== | ==prop-==
+> ==4== | ==but-==
+> ==5== | ==pent-==
+> ==6== | ==hex-==
+> ==7== | ==hept-==
+> ==8== | ==oct-==
+> ==9== | ==non-==
+> ==10== | ==dec-==
+> ==11== | ==undec-==
+> ==12== | ==dodec-==
+> ==13== | ==tricdec-==
+> ==14== | ==tetradec-==
+> ==15== | ==pentadec-==
+> ==16== | ==hexadec-==
+> ==17== | ==heptadec-==
+> ==18== | ==octadec-==
+> ==19== | ==nonadec-==
+> ==20== | ==icos-==
 
 ## functional groups
 > - usage
