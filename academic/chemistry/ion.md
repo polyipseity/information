@@ -7,7 +7,7 @@
 > - polyatomic ion: ion formed from more than one atom
 1. cation:::positively charged ion <!--SR:!2022-04-02,67,325!2022-04-14,77,330-->
 2. anion:::negatively charged ion <!--SR:!2022-03-31,65,312!2022-04-04,69,334-->
-3. simple ion:::ion formed from one atom <!--SR:!2022-02-21,32,287!2022-04-19,81,332-->
+3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2022-04-19,81,332-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-04-29,74,267!2022-03-23,58,314-->
 
 ## naming
@@ -78,7 +78,7 @@
 6. mercury(I) ion::1+ <!--SR:!2022-04-09,73,334-->
 7. ammonium ion::1+ <!--SR:!2022-03-17,50,314-->
 8. magnesium ion::2+ <!--SR:!2022-03-24,48,253-->
-9. calcium ion::2+ <!--SR:!2022-02-19,31,272-->
+9. calcium ion::2+ <!--SR:!2022-05-19,87,272-->
 10. barium ion::2+ <!--SR:!2022-05-01,73,254-->
 11. lead(II) ion::2+ <!--SR:!2022-03-28,62,318-->
 12. iron(II) ion::2+ <!--SR:!2022-04-20,82,333-->
@@ -100,7 +100,7 @@
 5. silver ion::colorless <!--SR:!2022-03-17,44,259-->
 6. mercury(I) ion:<!-- flashcard disabled -->:
 7. ammonium ion::colorless <!--SR:!2022-04-15,77,319-->
-8. magnesium ion::colorless <!--SR:!2022-02-19,31,274-->
+8. magnesium ion::colorless <!--SR:!2022-05-20,88,274-->
 9. calcium ion::colorless <!--SR:!2022-04-16,66,272-->
 10. barium ion::colorless <!--SR:!2022-05-12,83,274-->
 11. lead(II) ion::colorless <!--SR:!2022-04-11,62,273-->
@@ -164,7 +164,7 @@
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2022-05-02,74,259!2022-05-07,81,276-->
 
 ### name–charge
-1. hydride ion::1- <!--SR:!2022-02-21,32,279-->
+1. hydride ion::1- <!--SR:!2022-06-25,124,299-->
 2. fluoride ion::1- <!--SR:!2022-04-17,64,252-->
 3. chloride ion::1- <!--SR:!2022-04-17,79,334-->
 4. bromide ion::1- <!--SR:!2022-05-07,79,273-->
@@ -179,12 +179,12 @@
 13. oxide ion::2- <!--SR:!2022-02-26,36,290-->
 14. sulfide ion::2- <!--SR:!2022-03-08,43,293-->
 15. sulfate ion::2- <!--SR:!2022-03-05,41,290-->
-16. sulfite ion::2- <!--SR:!2022-02-20,31,279-->
+16. sulfite ion::2- <!--SR:!2022-05-21,89,279-->
 17. carbonate ion::2- <!--SR:!2022-04-06,58,270-->
 18. chromate ion::2- <!--SR:!2022-05-09,81,279-->
 19. dichromate ion::2- <!--SR:!2022-03-03,39,290-->
 20. nitride ion::3- <!--SR:!2022-03-03,39,290-->
-21. phosphate ion::3- <!--SR:!2022-02-21,27,230-->
+21. phosphate ion::3- <!--SR:!2022-04-26,64,230-->
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-03-01,39,299-->
