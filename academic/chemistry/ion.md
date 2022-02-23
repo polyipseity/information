@@ -84,7 +84,7 @@
 12. iron(II) ion::2+ <!--SR:!2022-04-20,82,333-->
 13. nickel(II) ion::2+ <!--SR:!2022-04-01,65,312-->
 14. copper(II) ion::2+ <!--SR:!2022-04-09,73,332-->
-15. zinc ion::2+ <!--SR:!2022-02-23,29,244-->
+15. zinc ion::2+ <!--SR:!2022-05-05,71,244-->
 16. manganese(II) ion::2+ <!--SR:!2022-03-30,64,327-->
 17. mercury(II) ion::2+ <!--SR:!2022-04-06,70,334-->
 18. cobalt(II) ion::2+ <!--SR:!2022-04-02,67,332-->
@@ -94,7 +94,7 @@
 
 ### name–color
 1. hydrogen ion::colorless <!--SR:!2022-03-19,54,309-->
-2. sodium ion::colorless <!--SR:!2022-02-22,33,293-->
+2. sodium ion::colorless <!--SR:!2022-06-01,98,293-->
 3. potassium ion::colorless <!--SR:!2022-03-15,51,304-->
 4. copper(I) ion:<!-- flashcard disabled -->:
 5. silver ion::colorless <!--SR:!2022-03-17,44,259-->
@@ -106,14 +106,14 @@
 11. lead(II) ion::colorless <!--SR:!2022-04-11,62,273-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-04-30,72,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-03-04,35,247-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-02-23,23,250-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-03-09,14,230-->
 15. zinc ion::colorless <!--SR:!2022-03-17,53,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-02-27,31,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-03-02,33,239-->
 19. aluminium ion::colorless <!--SR:!2022-03-25,60,314-->
 20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-21,45,252-->
-21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-02-22,29,238-->
+21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
 
 ## anion
 > name | symbol | charge | color
@@ -170,7 +170,7 @@
 4. bromide ion::1- <!--SR:!2022-05-07,79,273-->
 5. iodide ion::1- <!--SR:!2022-03-23,49,259-->
 6. hydroxide ion::1- <!--SR:!2022-02-26,34,293-->
-7. nitrate ion::1- <!--SR:!2022-02-23,34,290-->
+7. nitrate ion::1- <!--SR:!2022-06-02,99,290-->
 8. nitrite ion::1- <!--SR:!2022-03-07,43,292-->
 9. hydrogencarbonate ion::1- <!--SR:!2022-03-09,44,290-->
 10. hydrogensulfite ion::1- <!--SR:!2022-04-10,73,319-->
