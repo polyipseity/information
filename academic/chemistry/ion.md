@@ -19,7 +19,7 @@
 1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion) <!--SR:!2022-04-15,65,273-->
 2. simple anion::name end in 'ide' + 'ion' <!--SR:!2022-06-13,105,293-->
 3. ions of a metal with different charges::name of metal(Roman number for the charge) + 'ion' <!--SR:!2022-03-20,55,310-->
-4. polyatomic ion::end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion' <!--SR:!2022-03-10,48,310-->
+4. polyatomic ion::end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion' <!--SR:!2022-08-06,149,310-->
 
 ## cation
 > name | symbol | charge | color
