@@ -19,7 +19,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 ## chemical formulas
 1. calcium carbonate:::CaCO<sub>3</sub>
 2. calcium oxide:::CaO <!--SR:!2022-03-19,13,270!2022-03-23,16,290-->
-3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-03-16,10,250-->
+3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-04-13,28,250-->
 
 ## descriptions
 1. calcium carbonate::white solid
