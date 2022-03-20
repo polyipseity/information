@@ -18,7 +18,7 @@
 > - polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
 1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion) <!--SR:!2022-04-15,65,273-->
 2. simple anion::name end in 'ide' + 'ion' <!--SR:!2022-06-13,105,293-->
-3. ions of a metal with different charges::name of metal(Roman number for the charge) + 'ion' <!--SR:!2022-03-20,55,310-->
+3. ions of a metal with different charges::name of metal(Roman number for the charge) + 'ion' <!--SR:!2022-09-11,175,310-->
 4. polyatomic ion::end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion' <!--SR:!2022-08-06,149,310-->
 
 ## cation
@@ -51,7 +51,7 @@
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2022-04-03,68,330!2022-04-11,74,333-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2022-04-17,79,319!2022-04-18,80,333-->
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2022-04-07,70,319!2022-03-21,56,310-->
-5. silver ion:::Ag<sup>+</sup> <!--SR:!2022-03-20,11,270!2022-04-17,79,336-->
+5. silver ion:::Ag<sup>+</sup> <!--SR:!2022-04-20,31,270!2022-04-17,79,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2022-04-13,76,327!2022-04-26,75,290-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-07-11,130,310!2022-06-20,112,293-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-05-24,85,247!2022-08-27,164,316-->
@@ -195,7 +195,7 @@
 6. hydroxide ion::colorless <!--SR:!2022-04-18,80,327-->
 7. nitrate ion::colorless <!--SR:!2022-08-14,152,299-->
 8. nitrite ion:<!-- flashcard disabled -->:
-9. hydrogencarbonate ion::colorless <!--SR:!2022-03-20,56,310-->
+9. hydrogencarbonate ion::colorless <!--SR:!2022-09-09,173,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2022-03-30,51,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2022-04-19,68,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2022-04-03,23,250-->
