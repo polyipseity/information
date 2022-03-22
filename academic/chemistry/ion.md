@@ -50,7 +50,7 @@
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2022-10-08,207,312!2022-03-28,62,319-->
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2022-04-03,68,330!2022-04-11,74,333-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2022-04-17,79,319!2022-04-18,80,333-->
-4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2022-04-07,70,319!2022-03-21,56,310-->
+4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2022-04-07,70,319!2022-09-12,174,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2022-04-20,31,270!2022-04-17,79,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2022-04-13,76,327!2022-04-26,75,290-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-07-11,130,310!2022-06-20,112,293-->
@@ -112,7 +112,7 @@
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-03-25,60,314-->
-20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-21,45,252-->
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-23,1,230-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
 
 ## anion
@@ -141,9 +141,9 @@
 > phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless
 
 ### name–symbol
-1. hydride ion:::H<sup>-</sup> <!--SR:!2022-03-24,59,314!2022-03-21,57,316-->
+1. hydride ion:::H<sup>-</sup> <!--SR:!2022-03-24,59,314!2022-11-30,253,336-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2022-08-25,162,310!2022-04-06,70,334-->
-3. chloride ion:::Cl<sup>-</sup> <!--SR:!2022-04-08,72,333!2022-03-21,53,314-->
+3. chloride ion:::Cl<sup>-</sup> <!--SR:!2022-04-08,72,333!2022-11-11,234,334-->
 4. bromide ion:::Br<sup>-</sup> <!--SR:!2022-03-29,50,253!2022-05-03,77,274-->
 5. iodide ion:::I<sup>-</sup> <!--SR:!2022-10-30,229,332!2022-06-07,103,293-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2022-04-06,69,312!2022-04-03,67,334-->
@@ -189,7 +189,7 @@
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-06-28,118,299-->
 2. fluoride ion::colorless <!--SR:!2022-04-23,71,274-->
-3. chloride ion::colorless <!--SR:!2022-03-22,57,314-->
+3. chloride ion::colorless <!--SR:!2022-09-16,178,314-->
 4. bromide ion::colorless <!--SR:!2022-03-30,53,259-->
 5. iodide ion::colorless <!--SR:!2022-07-18,134,307-->
 6. hydroxide ion::colorless <!--SR:!2022-04-18,80,327-->
@@ -205,6 +205,6 @@
 16. sulfite ion::colorless <!--SR:!2022-04-24,74,294-->
 17. carbonate ion::colorless <!--SR:!2022-04-13,64,272-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-03-25,49,258-->
-19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2022-03-21,48,273-->
+19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2022-08-01,132,273-->
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless <!--SR:!2022-07-25,128,273-->
