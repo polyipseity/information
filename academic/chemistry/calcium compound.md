@@ -18,7 +18,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 
 ## chemical formulas
 1. calcium carbonate:::CaCO<sub>3</sub>
-2. calcium oxide:::CaO <!--SR:!2022-05-06,48,290!2022-03-23,16,290-->
+2. calcium oxide:::CaO <!--SR:!2022-05-06,48,290!2022-06-03,71,310-->
 3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-04-13,28,250-->
 
 ## descriptions
@@ -34,7 +34,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
 > 2. Filter the solution to obtain the [filtrate](filtrate).
 1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-04-05,21,250-->
-2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-03-23,12,230-->
+2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230-->
 3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_
 
 ### test for [carbon dioxide](carbon%20dioxide)
