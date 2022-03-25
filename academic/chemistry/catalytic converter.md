@@ -5,7 +5,7 @@
 ## reactions
 
 ### [reduction](reduction)
-> - ==C + 2NO<sub>2</sub>== → ==CO<sub>2</sub> + N<sub>2</sub>2==
+> - ==C + 2NO<sub>2</sub>== → ==CO<sub>2</sub> + 2NO==
 > - ==CO + NO== → ==CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>==
 > - ==2CO + NO<sub>2</sub>== → ==2CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>==
 > - ==H<sub>2</sub> + NO== → ==H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>==
