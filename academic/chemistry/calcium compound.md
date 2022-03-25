@@ -11,31 +11,31 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - calcium hydroxide (solid: slaked lime, aqueous: limewater): Ca(OH)<sub>2</sub> - solid: white solid
 
 ## aliases
-1. calcium carbonate:::limestone
-2. calcium oxide:::quicklime
-3. calcium hydroxide (solid):::slaked lime
-4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-03-27,12,230-->
+1. calcium carbonate:::limestone <!--SR:!2022-03-28,3,258!2022-03-29,4,279-->
+2. calcium oxide:::quicklime <!--SR:!2022-03-26,1,238!2022-03-28,3,259-->
+3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-03-26,1,239!2022-03-28,3,259-->
+4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-03-27,12,230!2022-03-28,3,259-->
 
 ## chemical formulas
-1. calcium carbonate:::CaCO<sub>3</sub>
+1. calcium carbonate:::CaCO<sub>3</sub> <!--SR:!2022-03-29,4,277!2022-03-29,4,278-->
 2. calcium oxide:::CaO <!--SR:!2022-05-06,48,290!2022-06-03,71,310-->
-3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-04-13,28,250-->
+3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-04-13,28,250!2022-03-29,4,279-->
 
 ## descriptions
-1. calcium carbonate::white solid
-2. calcium oxide::white solid
-3. calcium hydroxide (solid)::white solid
+1. calcium carbonate::white solid <!--SR:!2022-03-28,3,258-->
+2. calcium oxide::white solid <!--SR:!2022-03-28,3,258-->
+3. calcium hydroxide (solid)::white solid <!--SR:!2022-03-28,3,259-->
 
 ## reactions
 > - ==CaCO<sub>3</sub>(s)== $\xrightarrow{\text{heat}}$ ==CaO(s) + CO<sub>2</sub>(g)==
-> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-04-09,25,250!2022-05-07,49,290-->
+> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-04-09,25,250!2022-05-07,49,290!2022-03-28,3,257!2022-03-29,4,279-->
 
 ### preparation of limewater
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
 > 2. Filter the solution to obtain the [filtrate](filtrate).
-1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-04-05,21,250-->
-2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230-->
-3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_
+1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-04-05,21,250!2022-03-29,4,278-->
+2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230!2022-03-28,3,261-->
+3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_ <!--SR:!2022-03-29,4,279!2022-03-28,3,259-->
 
 ### test for [carbon dioxide](carbon%20dioxide)
 ![](carbon%20dioxide.md#calcium%20carbonate%20calcium%2020compound%20md)
@@ -44,4 +44,4 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - ==CaCO<sub>3</sub>(s) + 2HCl(aq)== → ==CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)==
 > - test
 >     - ==calcium ion==: by ==[flame test](flame%20test)==, ==brick red flame== can be observed
->     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-04-22,34,270!2022-04-02,18,250-->
+>     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-04-22,34,270!2022-04-02,18,250!2022-03-28,3,258!2022-03-28,3,258!2022-03-28,3,258!2022-03-28,3,259!2022-03-28,3,259!2022-03-28,3,259!2022-03-29,4,279-->
