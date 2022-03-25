@@ -65,7 +65,7 @@
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2022-07-22,144,307!2022-04-25,69,253-->
 17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-03-27,61,310!2022-04-18,67,273-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2022-04-07,71,327!2022-04-27,73,274-->
-19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-04-08,59,252!2022-03-25,60,314-->
+19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-04-08,59,252!2022-09-28,187,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2022-04-05,69,330!2022-03-26,61,334-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2022-04-15,78,334!2022-04-24,72,274-->
 
@@ -111,7 +111,7 @@
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-05-14,75,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
-19. aluminium ion::colorless <!--SR:!2022-03-25,60,314-->
+19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
 20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-27,3,230-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
 
@@ -155,7 +155,7 @@
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2022-07-09,116,273!2022-04-09,58,253-->
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2022-10-07,206,310!2022-05-27,102,293-->
 14. sulfide ion:::S<sup>2-</sup> <!--SR:!2022-04-14,64,267!2022-09-07,172,310-->
-15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2022-03-25,56,299!2022-04-09,72,325-->
+15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2022-09-15,174,299!2022-04-09,72,325-->
 16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2022-07-10,126,293!2022-05-11,82,274-->
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2022-04-25,72,270!2022-08-09,151,313-->
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2022-04-16,65,258!2022-09-25,185,313-->
@@ -204,7 +204,7 @@
 15. sulfate ion::colorless <!--SR:!2022-07-07,114,274-->
 16. sulfite ion::colorless <!--SR:!2022-04-24,74,294-->
 17. carbonate ion::colorless <!--SR:!2022-04-13,64,272-->
-18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-03-25,49,258-->
+18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-07-29,126,258-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2022-08-01,132,273-->
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless <!--SR:!2022-07-25,128,273-->
