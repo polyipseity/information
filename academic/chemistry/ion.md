@@ -1,4 +1,4 @@
-#flashcards/chemistry/ion
+#flashcards/chemistry/ion #academic/chemistry 
 
 # ion
 > - cation: positively charged ion
