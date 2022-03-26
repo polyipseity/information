@@ -2,7 +2,7 @@
 aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime", "CaO", "calcium hydroxide", "Ca(OH)2", "slaked lime", "limewater"]
 ---
 
-#flashcards/chemistry/calcium_compound
+#flashcards/chemistry/calcium_compound #academic/chemistry 
 
 # [calcium](calcium) compound
 
