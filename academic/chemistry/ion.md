@@ -63,10 +63,10 @@
 14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2022-04-07,71,327!2022-09-18,195,334-->
 15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2022-05-08,80,273!2022-03-31,54,273-->
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2022-07-22,144,307!2022-04-25,69,253-->
-17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-03-27,61,310!2022-04-18,67,273-->
+17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-12-14,262,330!2022-04-18,67,273-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2022-04-07,71,327!2022-04-27,73,274-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-04-08,59,252!2022-09-28,187,314-->
-20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2022-04-05,69,330!2022-03-26,61,334-->
+20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2022-04-05,69,330!2023-01-06,285,354-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2022-04-15,78,334!2022-04-24,72,274-->
 
 ### name–charge
@@ -106,13 +106,13 @@
 11. lead(II) ion::colorless <!--SR:!2022-04-11,62,273-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-04-30,72,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-05-30,87,247-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-03-26,2,170-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-03-31,4,170-->
 15. zinc ion::colorless <!--SR:!2022-09-05,170,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-05-14,75,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
-20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-27,3,230-->
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-29,2,210-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
 
 ## anion
