@@ -1,8 +1,8 @@
-#flashcards/chemistry/solubility #academic/chemistry 
+#flashcards/chemistry/solubility #academic/chemistry
 
 # solubility
 
-## solubility charts 
+## solubility charts
 
 ### [ionic compounds](ionic%20compound) in [water](water)
 > compound(s) | solubility
