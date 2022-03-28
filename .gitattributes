@@ -1,3 +1,3 @@
 # Obsidian
-.obsidian/*  text eol=lf
-*.md         text eol=lf
+.obsidian/**  text eol=lf
+*.md          text eol=lf
