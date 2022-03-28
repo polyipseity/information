@@ -11,5 +11,6 @@
   "imageSettings": {
     "format": "image/png",
     "quality": 1
-  }
+  },
+  "themeable": true
 }
