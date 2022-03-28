@@ -2,7 +2,7 @@
 aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue litmus paper", "phenolphthalein"]
 ---
 
-#flashcards/chemistry/indicator #academic/chemistry 
+#flashcards/chemistry/indicator #academic/chemistry
 
 # indicator
 

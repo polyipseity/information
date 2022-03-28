@@ -2,13 +2,13 @@
 aliases: ["activity series"]
 ---
 
-#flashcards/chemistry/reactivity_series #academic/chemistry 
+#flashcards/chemistry/reactivity_series #academic/chemistry
 
 # reactivity series
 
 ## data
 > Reactivity decreases down the table.
-> 
+>
 > metal | reaction with air | reaction with water | reaction with dilute HCl | reaction with dilute H<sub>2</sub>SO<sub>4</sub>
 > -|-|-|-|-
 > K | ==burn== | ==w/ water== | ==explosive== | ==explosive==

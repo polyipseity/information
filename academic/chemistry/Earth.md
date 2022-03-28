@@ -1,4 +1,4 @@
-#flashcards/chemistry/Earth #academic/chemistry 
+#flashcards/chemistry/Earth #academic/chemistry
 
 # Earth
 
