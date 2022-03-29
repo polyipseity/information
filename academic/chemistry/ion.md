@@ -89,7 +89,7 @@
 17. mercury(II) ion::2+ <!--SR:!2022-04-06,70,334-->
 18. cobalt(II) ion::2+ <!--SR:!2022-04-02,67,332-->
 19. aluminium ion::3+ <!--SR:!2022-08-24,162,312-->
-20. iron(III) ion::3+ <!--SR:!2022-03-29,63,325-->
+20. iron(III) ion::3+ <!--SR:!2023-01-05,282,345-->
 21. chromium(III) ion::3+ <!--SR:!2022-04-01,66,318-->
 
 ### name–color
@@ -112,7 +112,7 @@
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
-20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-03-29,2,210-->
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-04-02,4,210-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
 
 ## anion
@@ -144,7 +144,7 @@
 1. hydride ion:::H<sup>-</sup> <!--SR:!2022-12-04,255,334!2022-11-30,253,336-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2022-08-25,162,310!2022-04-06,70,334-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2022-04-08,72,333!2022-11-11,234,334-->
-4. bromide ion:::Br<sup>-</sup> <!--SR:!2022-03-29,50,253!2022-05-03,77,274-->
+4. bromide ion:::Br<sup>-</sup> <!--SR:!2022-08-04,128,253!2022-05-03,77,274-->
 5. iodide ion:::I<sup>-</sup> <!--SR:!2022-10-30,229,332!2022-06-07,103,293-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2022-04-06,69,312!2022-04-03,67,334-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2022-07-20,134,292!2022-06-26,116,294-->
