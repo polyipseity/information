@@ -85,7 +85,7 @@
 13. nickel(II) ion::2+ <!--SR:!2022-04-01,65,312-->
 14. copper(II) ion::2+ <!--SR:!2022-04-09,73,332-->
 15. zinc ion::2+ <!--SR:!2022-05-05,71,244-->
-16. manganese(II) ion::2+ <!--SR:!2022-03-30,64,327-->
+16. manganese(II) ion::2+ <!--SR:!2023-01-13,289,347-->
 17. mercury(II) ion::2+ <!--SR:!2022-04-06,70,334-->
 18. cobalt(II) ion::2+ <!--SR:!2022-04-02,67,332-->
 19. aluminium ion::3+ <!--SR:!2022-08-24,162,312-->
@@ -190,13 +190,13 @@
 1. hydride ion::colorless <!--SR:!2022-06-28,118,299-->
 2. fluoride ion::colorless <!--SR:!2022-04-23,71,274-->
 3. chloride ion::colorless <!--SR:!2022-09-16,178,314-->
-4. bromide ion::colorless <!--SR:!2022-03-30,53,259-->
+4. bromide ion::colorless <!--SR:!2022-08-13,136,259-->
 5. iodide ion::colorless <!--SR:!2022-07-18,134,307-->
 6. hydroxide ion::colorless <!--SR:!2022-04-18,80,327-->
 7. nitrate ion::colorless <!--SR:!2022-08-14,152,299-->
 8. nitrite ion:<!-- flashcard disabled -->:
 9. hydrogencarbonate ion::colorless <!--SR:!2022-09-09,173,310-->
-10. hydrogensulfite ion::colorless <!--SR:!2022-03-30,51,250-->
+10. hydrogensulfite ion::colorless <!--SR:!2022-08-05,128,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2022-04-19,68,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2022-04-03,23,250-->
 13. oxide ion:<!-- flashcard disabled -->:
