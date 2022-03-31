@@ -6,7 +6,7 @@
 > - simple ion: ion formed from one atom
 > - polyatomic ion: ion formed from more than one atom
 1. cation:::positively charged ion <!--SR:!2022-04-02,67,325!2022-04-14,77,330-->
-2. anion:::negatively charged ion <!--SR:!2022-03-31,65,312!2022-04-04,69,334-->
+2. anion:::negatively charged ion <!--SR:!2023-01-07,282,332!2022-04-04,69,334-->
 3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2022-04-19,81,332-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-04-29,74,267!2022-12-05,256,334-->
 
@@ -61,7 +61,7 @@
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2022-04-01,66,319!2022-04-16,78,325-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2022-04-14,76,319!2022-07-15,128,290-->
 14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2022-04-07,71,327!2022-09-18,195,334-->
-15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2022-05-08,80,273!2022-03-31,54,273-->
+15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2022-05-08,80,273!2022-08-25,147,273-->
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2022-07-22,144,307!2022-04-25,69,253-->
 17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-12-14,262,330!2022-04-18,67,273-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2022-04-07,71,327!2022-04-27,73,274-->
@@ -106,7 +106,7 @@
 11. lead(II) ion::colorless <!--SR:!2022-04-11,62,273-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-04-30,72,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-05-30,87,247-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-03-31,4,170-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-04-02,2,150-->
 15. zinc ion::colorless <!--SR:!2022-09-05,170,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-05-14,75,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
