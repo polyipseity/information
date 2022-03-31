@@ -12,8 +12,8 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 
 ## aliases
 1. calcium carbonate:::limestone <!--SR:!2022-04-05,8,258!2022-04-16,18,299-->
-2. calcium oxide:::quicklime <!--SR:!2022-03-31,4,238!2022-03-31,3,250-->
-3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-03-31,4,239!2022-04-04,7,259-->
+2. calcium oxide:::quicklime <!--SR:!2022-04-12,12,238!2022-04-09,9,250-->
+3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-04-12,12,239!2022-04-04,7,259-->
 4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-04-24,28,230!2022-04-04,7,259-->
 
 ## chemical formulas
@@ -44,4 +44,4 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - ==CaCO<sub>3</sub>(s) + 2HCl(aq)== → ==CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)==
 > - test
 >     - ==calcium ion==: by ==[flame test](flame%20test)==, ==brick red flame== can be observed
->     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-04-22,34,270!2022-04-02,18,250!2022-04-03,6,258!2022-04-07,10,258!2022-04-07,10,258!2022-04-07,10,259!2022-04-03,6,259!2022-03-31,3,250!2022-04-09,11,279-->
+>     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-04-22,34,270!2022-04-02,18,250!2022-04-03,6,258!2022-04-07,10,258!2022-04-07,10,258!2022-04-07,10,259!2022-04-03,6,259!2022-04-10,10,250!2022-04-09,11,279-->
