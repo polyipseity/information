@@ -6,7 +6,7 @@
 > - simple ion: ion formed from one atom
 > - polyatomic ion: ion formed from more than one atom
 1. cation:::positively charged ion <!--SR:!2023-02-02,305,345!2022-04-14,77,330-->
-2. anion:::negatively charged ion <!--SR:!2023-01-07,282,332!2022-04-04,69,334-->
+2. anion:::negatively charged ion <!--SR:!2023-01-07,282,332!2023-02-16,318,354-->
 3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2022-04-19,81,332-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-04-29,74,267!2022-12-05,256,334-->
 
@@ -70,11 +70,11 @@
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2022-04-15,78,334!2022-04-24,72,274-->
 
 ### name–charge
-1. hydrogen ion::1+ <!--SR:!2022-04-04,68,333-->
+1. hydrogen ion::1+ <!--SR:!2023-02-10,312,353-->
 2. sodium ion::1+ <!--SR:!2022-09-03,168,310-->
 3. potassium ion::1+ <!--SR:!2022-06-05,97,272-->
 4. copper(I) ion::1+ <!--SR:!2022-04-19,81,332-->
-5. silver ion::1+ <!--SR:!2022-04-04,56,270-->
+5. silver ion::1+ <!--SR:!2022-09-01,150,270-->
 6. mercury(I) ion::1+ <!--SR:!2022-04-09,73,334-->
 7. ammonium ion::1+ <!--SR:!2022-08-26,160,314-->
 8. magnesium ion::2+ <!--SR:!2022-07-23,121,253-->
