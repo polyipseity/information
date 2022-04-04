@@ -13,8 +13,8 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 ## aliases
 1. calcium carbonate:::limestone <!--SR:!2022-04-05,8,258!2022-04-16,18,299-->
 2. calcium oxide:::quicklime <!--SR:!2022-04-12,12,238!2022-04-09,9,250-->
-3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-04-12,12,239!2022-04-04,7,259-->
-4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-04-24,28,230!2022-04-04,7,259-->
+3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-04-12,12,239!2022-04-23,19,259-->
+4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-04-24,28,230!2022-04-22,18,259-->
 
 ## chemical formulas
 1. calcium carbonate:::CaCO<sub>3</sub> <!--SR:!2022-04-13,15,297!2022-04-15,17,298-->
@@ -34,7 +34,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
 > 2. Filter the solution to obtain the [filtrate](filtrate).
 1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-04-05,21,250!2022-04-14,16,298-->
-2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230!2022-04-04,7,261-->
+2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230!2022-04-22,18,261-->
 3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_ <!--SR:!2022-04-15,17,299!2022-04-10,13,279-->
 
 ### test for [carbon dioxide](carbon%20dioxide)
