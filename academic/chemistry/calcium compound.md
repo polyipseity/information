@@ -11,7 +11,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - calcium hydroxide (solid: slaked lime, aqueous: limewater): Ca(OH)<sub>2</sub> - solid: white solid
 
 ## aliases
-1. calcium carbonate:::limestone <!--SR:!2022-04-05,8,258!2022-04-16,18,299-->
+1. calcium carbonate:::limestone <!--SR:!2022-04-25,20,258!2022-04-16,18,299-->
 2. calcium oxide:::quicklime <!--SR:!2022-04-12,12,238!2022-04-09,9,250-->
 3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-04-12,12,239!2022-04-23,19,259-->
 4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-04-24,28,230!2022-04-22,18,259-->
@@ -24,16 +24,16 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 ## descriptions
 1. calcium carbonate::white solid <!--SR:!2022-04-06,9,258-->
 2. calcium oxide::white solid <!--SR:!2022-04-06,9,258-->
-3. calcium hydroxide (solid)::white solid <!--SR:!2022-04-05,8,259-->
+3. calcium hydroxide (solid)::white solid <!--SR:!2022-04-26,21,259-->
 
 ## reactions
 > - ==CaCO<sub>3</sub>(s)== $\xrightarrow{\text{heat}}$ ==CaO(s) + CO<sub>2</sub>(g)==
-> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-04-09,25,250!2022-05-07,49,290!2022-04-05,8,257!2022-04-11,13,279-->
+> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-04-09,25,250!2022-05-07,49,290!2022-04-29,24,257!2022-04-11,13,279-->
 
 ### preparation of limewater
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
 > 2. Filter the solution to obtain the [filtrate](filtrate).
-1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-04-05,21,250!2022-04-14,16,298-->
+1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-05-26,51,250!2022-04-14,16,298-->
 2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230!2022-04-22,18,261-->
 3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_ <!--SR:!2022-04-15,17,299!2022-04-10,13,279-->
 

@@ -32,8 +32,8 @@
 9. carbonates (except group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-21,18,248-->
 10. sulfites (except group I and NH<sub>4</sub><sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-08,9,226-->
 11. phosphates (except group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>))::<span style="color: red;">insoluble</span> <!--SR:!2022-04-15,11,230-->
-12. hydroxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-05,6,230-->
-13. oxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-05,6,230-->
+12. hydroxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-20,15,230-->
+13. oxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-18,13,230-->
 14. sulfides (except group I, group II, and NH<sub>4</sub><sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-16,13,238-->
 
 #### exceptions
@@ -43,7 +43,7 @@
 4. bromides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-04-08,5,210-->
 5. iodides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-04-12,9,230-->
 6. sulfates::Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> <!--SR:!2022-04-06,2,190-->
-7. carbonates::group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> <!--SR:!2022-04-05,2,194-->
+7. carbonates::group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> <!--SR:!2022-04-09,4,194-->
 8. sulfites::group I and NH<sub>4</sub><sup>+</sup> <!--SR:!2022-04-06,2,210-->
 9. phosphates::group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>) <!--SR:!2022-04-06,6,230-->
 10. hydroxides::group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> <!--SR:!2022-04-06,2,230-->
