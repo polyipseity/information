@@ -19,4 +19,4 @@ Using chlorination of methane as an example.
 ## chain termination
 > - ==Cl· + ·Cl → Cl<sub>2</sub>==
 > - ==CH<sub>3</sub>· + ·Cl → CH<sub>3</sub>Cl==
-> - ==CH<sub>3</sub>· + ·CH<sub>3</sub> → C<sub>2</sub>H<sub>6</sub>== <!--SR:!2022-04-13,15,290!2022-04-07,10,252!2022-04-30,24,252-->
+> - ==CH<sub>3</sub>· + ·CH<sub>3</sub> → C<sub>2</sub>H<sub>6</sub>== <!--SR:!2022-04-13,15,290!2022-05-03,26,252!2022-04-30,24,252-->
