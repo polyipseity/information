@@ -22,9 +22,9 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 1~5 | <span style="color: red;">red</span>
 > 5~8 | <span style="color: purple; background-color: white;">purple</span>
 > 8~14 | <span style="color: blue; background-color:white;">blue</a>
-1. 1~5:::<span style="color: red;">red</span> <!--SR:!2022-04-11,13,270!2022-04-24,19,250-->
+1. 1~5:::<span style="color: red;">red</span> <!--SR:!2022-05-17,36,270!2022-04-24,19,250-->
 2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2022-04-15,9,230!2022-04-14,8,230-->
-3. 8~14:::<span style="color: blue; background-color:white;">blue</a> <!--SR:!2022-04-10,12,270!2022-04-11,3,250-->
+3. 8~14:::<span style="color: blue; background-color:white;">blue</a> <!--SR:!2022-05-14,33,270!2022-04-19,8,250-->
 
 ## phenolphthalein
 > pH | color
@@ -33,5 +33,5 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 8.3~10 | <span style="color: lightPink;">very pale pink</span>
 > 10~14 | <span style="color: pink;">pink</span>
 1. 1~8.3:::colorless <!--SR:!2022-04-13,6,230!2022-04-19,14,230-->
-2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-04-24,20,250!2022-04-11,4,210-->
+2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-04-24,20,250!2022-04-18,7,210-->
 3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2022-04-22,18,250!2022-05-02,24,230-->

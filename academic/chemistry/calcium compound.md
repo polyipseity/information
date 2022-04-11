@@ -28,14 +28,14 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 
 ## reactions
 > - ==CaCO<sub>3</sub>(s)== $\xrightarrow{\text{heat}}$ ==CaO(s) + CO<sub>2</sub>(g)==
-> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-06-13,65,250!2022-05-07,49,290!2022-04-29,24,257!2022-04-11,13,279-->
+> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-06-13,65,250!2022-05-07,49,290!2022-04-29,24,257!2022-05-20,39,279-->
 
 ### preparation of limewater
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
 > 2. Filter the solution to obtain the [filtrate](filtrate).
 1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-05-26,51,250!2022-04-14,16,298-->
 2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-04-22,29,230!2022-04-22,18,261-->
-3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_ <!--SR:!2022-04-15,17,299!2022-04-10,13,279-->
+3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_ <!--SR:!2022-04-15,17,299!2022-05-19,38,279-->
 
 ### test for [carbon dioxide](carbon%20dioxide)
 ![](carbon%20dioxide.md#calcium%20carbonate%20calcium%2020compound%20md)
@@ -44,4 +44,4 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - ==CaCO<sub>3</sub>(s) + 2HCl(aq)== → ==CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)==
 > - test
 >     - ==calcium ion==: by ==[flame test](flame%20test)==, ==brick red flame== can be observed
->     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-04-22,34,270!2022-05-19,46,250!2022-04-20,17,258!2022-05-06,29,258!2022-05-04,27,258!2022-05-03,26,259!2022-04-16,10,250!2022-04-10,10,250!2022-05-12,33,279-->
+>     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-04-22,34,270!2022-05-19,46,250!2022-04-20,17,258!2022-05-06,29,258!2022-05-04,27,258!2022-05-03,26,259!2022-04-16,10,250!2022-05-10,29,250!2022-05-12,33,279-->
