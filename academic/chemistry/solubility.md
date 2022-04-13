@@ -23,7 +23,7 @@
 > sulfides (except group I, group II, and NH<sub>4</sub><sup>+</sup>) | <span style="color: red;">insoluble</span>
 1. group I (except Li<sub>3</sub>PO<sub>4</sub>)::<span style="color: green;">soluble</span> <!--SR:!2022-04-30,19,210-->
 2. NH<sub>4</sub><sup>+</sup>::<span style="color: green;">soluble</span> <!--SR:!2022-05-21,40,262-->
-3. nitrates::<span style="color: green;">soluble</span> <!--SR:!2022-04-13,10,216-->
+3. nitrates::<span style="color: green;">soluble</span> <!--SR:!2022-05-08,25,216-->
 4. acetates (ethanoates) (except Ag<sup>+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-04-18,15,242-->
 5. chlorides (include ClO<sub>3</sub><sup>-</sup> and ClO<sub>4</sub><sup>-</sup>) (except Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-05-13,31,248-->
 6. bromides (except Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-04-20,17,246-->
