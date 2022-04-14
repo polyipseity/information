@@ -23,7 +23,7 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 5~8 | <span style="color: purple; background-color: white;">purple</span>
 > 8~14 | <span style="color: blue; background-color:white;">blue</a>
 1. 1~5:::<span style="color: red;">red</span> <!--SR:!2022-05-17,36,270!2022-04-24,19,250-->
-2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2022-04-15,9,230!2022-04-14,8,230-->
+2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2022-04-15,9,230!2022-05-02,18,230-->
 3. 8~14:::<span style="color: blue; background-color:white;">blue</a> <!--SR:!2022-05-14,33,270!2022-04-19,8,250-->
 
 ## phenolphthalein
