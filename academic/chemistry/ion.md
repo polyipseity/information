@@ -5,7 +5,7 @@
 > - anion: negatively charged ion
 > - simple ion: ion formed from one atom
 > - polyatomic ion: ion formed from more than one atom
-1. cation:::positively charged ion <!--SR:!2023-02-02,305,345!2022-04-14,77,330-->
+1. cation:::positively charged ion <!--SR:!2023-02-02,305,345!2023-03-30,350,350-->
 2. anion:::negatively charged ion <!--SR:!2023-01-07,282,332!2023-02-16,318,354-->
 3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2022-04-19,81,332-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-04-29,74,267!2022-12-05,256,334-->
@@ -59,7 +59,7 @@
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-04-24,69,250!2022-04-17,67,274-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2022-09-06,171,314-->
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2023-01-28,300,339!2022-04-16,78,325-->
-13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2022-04-14,76,319!2022-07-15,128,290-->
+13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2023-03-15,335,339!2022-07-15,128,290-->
 14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2023-02-19,318,347!2022-09-18,195,334-->
 15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2022-05-08,80,273!2022-08-25,147,273-->
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2022-07-22,144,307!2022-04-25,69,253-->
@@ -106,13 +106,13 @@
 11. lead(II) ion::colorless <!--SR:!2022-05-12,31,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-04-30,72,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-05-30,87,247-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-04-14,7,150-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-04-25,11,150-->
 15. zinc ion::colorless <!--SR:!2022-09-05,170,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-05-14,75,239-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
-20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-04-14,11,210-->
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-05-09,25,210-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
 
 ## anion
@@ -154,7 +154,7 @@
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2023-03-22,343,347!2022-12-16,248,330-->
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2022-07-09,116,273!2022-05-08,29,233-->
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2022-10-07,206,310!2022-05-27,102,293-->
-14. sulfide ion:::S<sup>2-</sup> <!--SR:!2022-04-14,64,267!2022-09-07,172,310-->
+14. sulfide ion:::S<sup>2-</sup> <!--SR:!2022-10-02,171,267!2022-09-07,172,310-->
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2022-09-15,174,299!2022-11-29,234,325-->
 16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2022-07-10,126,293!2022-05-11,82,274-->
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2022-04-25,72,270!2022-08-09,151,313-->
