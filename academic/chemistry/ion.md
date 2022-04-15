@@ -16,7 +16,7 @@
 > - simple anion: name end in 'ide' + 'ion'
 > - ions of a metal with different charges: name of metal(Roman number for the charge) + 'ion'
 > - polyatomic ion: end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion'
-1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion) <!--SR:!2022-04-15,65,273-->
+1. simple cation::name of metal + 'ion' (except: hydrogen ion, ammonium ion) <!--SR:!2022-10-11,179,273-->
 2. simple anion::name end in 'ide' + 'ion' <!--SR:!2022-06-13,105,293-->
 3. ions of a metal with different charges::name of metal(Roman number for the charge) + 'ion' <!--SR:!2022-09-11,175,310-->
 4. polyatomic ion::end in 'ite' (with less oxygen) or 'ate' (with more oxygen) + 'ion' <!--SR:!2022-08-06,149,310-->
@@ -67,7 +67,7 @@
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2023-02-20,319,347!2022-04-27,73,274-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-09-07,152,252!2022-09-28,187,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2023-01-06,285,354-->
-21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2022-04-15,78,334!2022-04-24,72,274-->
+21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2022-04-24,72,274-->
 
 ### name–charge
 1. hydrogen ion::1+ <!--SR:!2023-02-10,312,353-->
@@ -99,7 +99,7 @@
 4. copper(I) ion:<!-- flashcard disabled -->:
 5. silver ion::colorless <!--SR:!2022-07-14,117,259-->
 6. mercury(I) ion:<!-- flashcard disabled -->:
-7. ammonium ion::colorless <!--SR:!2022-04-15,77,319-->
+7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
 8. magnesium ion::colorless <!--SR:!2022-05-20,88,274-->
 9. calcium ion::colorless <!--SR:!2022-04-16,66,272-->
 10. barium ion::colorless <!--SR:!2022-05-12,83,274-->
