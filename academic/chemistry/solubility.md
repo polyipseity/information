@@ -31,7 +31,7 @@
 8. sulfates (except Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-04-17,14,241-->
 9. carbonates (except group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-21,18,248-->
 10. sulfites (except group I and NH<sub>4</sub><sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-05-01,23,226-->
-11. phosphates (except group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>))::<span style="color: red;">insoluble</span> <!--SR:!2022-04-15,11,230-->
+11. phosphates (except group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>))::<span style="color: red;">insoluble</span> <!--SR:!2022-05-13,28,230-->
 12. hydroxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-20,15,230-->
 13. oxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-18,13,230-->
 14. sulfides (except group I, group II, and NH<sub>4</sub><sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-16,13,238-->
