@@ -34,7 +34,7 @@
 11. phosphates (except group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>))::<span style="color: red;">insoluble</span> <!--SR:!2022-05-13,28,230-->
 12. hydroxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-20,15,230-->
 13. oxides (except group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-18,13,230-->
-14. sulfides (except group I, group II, and NH<sub>4</sub><sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-04-16,13,238-->
+14. sulfides (except group I, group II, and NH<sub>4</sub><sup>+</sup>)::<span style="color: red;">insoluble</span> <!--SR:!2022-05-21,35,238-->
 
 #### exceptions
 1. group I::Li<sub>3</sub>PO<sub>4</sub> <!--SR:!2022-04-18,10,230-->
