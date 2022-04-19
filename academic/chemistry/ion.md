@@ -7,7 +7,7 @@
 > - polyatomic ion: ion formed from more than one atom
 1. cation:::positively charged ion <!--SR:!2023-02-02,305,345!2023-03-30,350,350-->
 2. anion:::negatively charged ion <!--SR:!2023-01-07,282,332!2023-02-16,318,354-->
-3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2022-04-19,81,332-->
+3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2023-04-24,370,352-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-04-29,74,267!2022-12-05,256,334-->
 
 ## naming
@@ -73,7 +73,7 @@
 1. hydrogen ion::1+ <!--SR:!2023-02-10,312,353-->
 2. sodium ion::1+ <!--SR:!2022-09-03,168,310-->
 3. potassium ion::1+ <!--SR:!2022-06-05,97,272-->
-4. copper(I) ion::1+ <!--SR:!2022-04-19,81,332-->
+4. copper(I) ion::1+ <!--SR:!2023-04-25,371,352-->
 5. silver ion::1+ <!--SR:!2022-09-01,150,270-->
 6. mercury(I) ion::1+ <!--SR:!2023-03-11,336,354-->
 7. ammonium ion::1+ <!--SR:!2022-08-26,160,314-->
@@ -197,7 +197,7 @@
 8. nitrite ion:<!-- flashcard disabled -->:
 9. hydrogencarbonate ion::colorless <!--SR:!2022-09-09,173,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2022-08-05,128,250-->
-11. hydrogensulfate ion::colorless <!--SR:!2022-04-19,68,270-->
+11. hydrogensulfate ion::colorless <!--SR:!2022-10-20,184,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2022-06-01,59,250-->
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
