@@ -25,7 +25,7 @@ aliases: ["activity series"]
 > Au | ==none== | ==none== | ==none== | ==none==
 
 ### rankings
-1. (highest)→:::←K
+1. _(most reactive)_→:::←K
 2. K→:::←Na
 3. Na→:::←Ca
 4. Ca→:::←Mg
@@ -37,4 +37,4 @@ aliases: ["activity series"]
 10. Cu→:::←Hg
 11. Hg→:::←Ag
 12. Ag→:::←Au
-13. Au→:::←(lowest)
+13. Au→:::←_(least reactive)_
