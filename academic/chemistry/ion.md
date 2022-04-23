@@ -159,7 +159,7 @@
 16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2022-07-10,126,293!2022-05-11,82,274-->
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2022-04-25,72,270!2022-08-09,151,313-->
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2022-10-01,168,258!2022-09-25,185,313-->
-19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2022-04-23,69,258!2022-07-29,142,305-->
+19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2022-10-18,178,258!2022-07-29,142,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2022-09-27,168,267!2022-08-22,160,313-->
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2022-05-02,74,259!2022-05-07,81,276-->
 
@@ -188,7 +188,7 @@
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-06-28,118,299-->
-2. fluoride ion::colorless <!--SR:!2022-04-23,71,274-->
+2. fluoride ion::colorless <!--SR:!2022-11-02,193,274-->
 3. chloride ion::colorless <!--SR:!2022-09-16,178,314-->
 4. bromide ion::colorless <!--SR:!2022-08-13,136,259-->
 5. iodide ion::colorless <!--SR:!2022-07-18,134,307-->
