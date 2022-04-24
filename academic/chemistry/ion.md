@@ -56,7 +56,7 @@
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-07-11,130,310!2022-06-20,112,293-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-05-24,85,247!2022-08-27,164,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2023-03-14,337,350!2023-04-10,359,354-->
-10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-04-24,69,250!2023-01-03,260,294-->
+10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-10-14,173,250!2023-01-03,260,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2022-09-06,171,314-->
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2023-01-28,300,339!2023-04-01,350,345-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2023-03-15,335,339!2022-07-15,128,290-->
@@ -67,7 +67,7 @@
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2023-02-20,319,347!2022-04-27,73,274-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2022-09-07,152,252!2022-09-28,187,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2023-01-06,285,354-->
-21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2022-04-24,72,274-->
+21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2023-01-24,275,294-->
 
 ### name–charge
 1. hydrogen ion::1+ <!--SR:!2023-02-10,312,353-->
@@ -202,7 +202,7 @@
 13. oxide ion:<!-- flashcard disabled -->:
 14. sulfide ion:<!-- flashcard disabled -->:
 15. sulfate ion::colorless <!--SR:!2022-07-07,114,274-->
-16. sulfite ion::colorless <!--SR:!2022-04-24,74,294-->
+16. sulfite ion::colorless <!--SR:!2022-11-28,218,294-->
 17. carbonate ion::colorless <!--SR:!2022-05-15,32,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-07-29,126,258-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2022-08-01,132,273-->
