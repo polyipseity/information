@@ -11,8 +11,8 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - calcium hydroxide (solid: slaked lime, aqueous: limewater): Ca(OH)<sub>2</sub> - solid: white solid
 
 ## aliases
-1. calcium carbonate:::limestone <!--SR:!2022-04-25,20,258!2022-07-04,79,319-->
-2. calcium oxide:::quicklime <!--SR:!2022-05-11,29,238!2022-04-25,2,230-->
+1. calcium carbonate:::limestone <!--SR:!2022-06-20,56,258!2022-07-04,79,319-->
+2. calcium oxide:::quicklime <!--SR:!2022-05-11,29,238!2022-05-01,6,230-->
 3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-05-12,30,239!2022-06-13,51,259-->
 4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-06-27,64,230!2022-06-12,51,259-->
 
