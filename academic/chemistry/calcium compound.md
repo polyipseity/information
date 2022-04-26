@@ -24,7 +24,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 ## descriptions
 1. calcium carbonate::white solid <!--SR:!2022-04-30,24,258-->
 2. calcium oxide::white solid <!--SR:!2022-05-02,26,258-->
-3. calcium hydroxide (solid)::white solid <!--SR:!2022-04-26,21,259-->
+3. calcium hydroxide (solid)::white solid <!--SR:!2022-06-22,57,259-->
 
 ## reactions
 > - ==CaCO<sub>3</sub>(s)== $\xrightarrow{\text{heat}}$ ==CaO(s) + CO<sub>2</sub>(g)==
