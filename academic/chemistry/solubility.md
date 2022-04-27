@@ -39,7 +39,7 @@
 #### exceptions
 1. group I::Li<sub>3</sub>PO<sub>4</sub> <!--SR:!2022-05-14,26,230-->
 2. acetates (ethanoates)::Ag<sup>+</sup> <!--SR:!2022-05-02,14,230-->
-3. chlorides (include ClO<sub>3</sub><sup>-</sup> and ClO<sub>4</sub><sup>-</sup>)::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-04-27,16,210-->
+3. chlorides (include ClO<sub>3</sub><sup>-</sup> and ClO<sub>4</sub><sup>-</sup>)::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-31,34,210-->
 4. bromides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-05,12,190-->
 5. iodides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-03,21,230-->
 6. sulfates::Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> <!--SR:!2022-05-12,21,190-->
