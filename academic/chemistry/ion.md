@@ -184,7 +184,7 @@
 18. chromate ion::2- <!--SR:!2022-05-09,81,279-->
 19. dichromate ion::2- <!--SR:!2022-06-24,113,290-->
 20. nitride ion::3- <!--SR:!2022-06-25,114,290-->
-21. phosphate ion::3- <!--SR:!2022-04-28,1,210-->
+21. phosphate ion::3- <!--SR:!2022-04-30,2,210-->
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-06-28,118,299-->

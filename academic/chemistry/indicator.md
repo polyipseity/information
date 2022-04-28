@@ -14,7 +14,7 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 4.4~14 | <span style="color: yellow;">yellow</span>
 1. 1~3.1:::<span style="color: red;">red</span> <!--SR:!2022-05-01,25,250!2022-06-04,41,230-->
 2. 3.1~4.4:::<span style="color: orange;">orange</span> <!--SR:!2022-06-16,52,250!2022-05-02,24,230-->
-3. 4.4~14:::<span style="color: yellow;">yellow</span> <!--SR:!2022-05-02,26,250!2022-04-28,7,230-->
+3. 4.4~14:::<span style="color: yellow;">yellow</span> <!--SR:!2022-05-02,26,250!2022-05-16,18,230-->
 
 ## litmus
 > pH | color
