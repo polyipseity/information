@@ -12,7 +12,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 
 ## aliases
 1. calcium carbonate:::limestone <!--SR:!2022-06-20,56,258!2022-07-04,79,319-->
-2. calcium oxide:::quicklime <!--SR:!2022-05-11,29,238!2022-05-01,6,230-->
+2. calcium oxide:::quicklime <!--SR:!2022-05-11,29,238!2022-05-17,15,230-->
 3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-05-12,30,239!2022-06-13,51,259-->
 4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-06-27,64,230!2022-06-12,51,259-->
 
@@ -22,13 +22,13 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-07-20,98,270!2022-07-03,78,319-->
 
 ## descriptions
-1. calcium carbonate::white solid <!--SR:!2022-04-30,24,258-->
-2. calcium oxide::white solid <!--SR:!2022-05-02,26,258-->
+1. calcium carbonate::white solid <!--SR:!2022-08-04,94,278-->
+2. calcium oxide::white solid <!--SR:!2022-07-08,67,258-->
 3. calcium hydroxide (solid)::white solid <!--SR:!2022-06-22,57,259-->
 
 ## reactions
 > - ==CaCO<sub>3</sub>(s)== $\xrightarrow{\text{heat}}$ ==CaO(s) + CO<sub>2</sub>(g)==
-> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-06-13,65,250!2022-05-07,49,290!2022-04-29,24,257!2022-05-20,39,279-->
+> - ==CaO(s) + H<sub>2</sub>O(l)== → ==Ca(OH)<sub>2</sub>(s)== <!--SR:!2022-06-13,65,250!2022-05-07,49,290!2022-07-06,65,257!2022-05-20,39,279-->
 
 ### preparation of limewater
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
