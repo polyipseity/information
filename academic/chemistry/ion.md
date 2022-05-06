@@ -84,7 +84,7 @@
 12. iron(II) ion::2+ <!--SR:!2023-05-01,376,353-->
 13. nickel(II) ion::2+ <!--SR:!2023-01-17,289,332-->
 14. copper(II) ion::2+ <!--SR:!2023-03-09,334,352-->
-15. zinc ion::2+ <!--SR:!2022-05-05,71,244-->
+15. zinc ion::2+ <!--SR:!2022-10-30,176,244-->
 16. manganese(II) ion::2+ <!--SR:!2023-01-13,289,347-->
 17. mercury(II) ion::2+ <!--SR:!2023-02-21,321,354-->
 18. cobalt(II) ion::2+ <!--SR:!2023-02-08,311,352-->
@@ -113,7 +113,7 @@
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
 20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-05-09,25,210-->
-21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-05-04,70,238-->
+21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-10-23,169,238-->
 
 ## anion
 > name | symbol | charge | color
@@ -161,13 +161,13 @@
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2022-10-01,168,258!2022-09-25,185,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2022-10-18,178,258!2022-07-29,142,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2022-09-27,168,267!2022-08-22,160,313-->
-21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2022-06-08,37,239!2022-05-07,81,276-->
+21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2022-06-08,37,239!2022-12-17,224,276-->
 
 ### name–charge
 1. hydride ion::1- <!--SR:!2022-06-25,124,299-->
 2. fluoride ion::1- <!--SR:!2022-12-03,229,272-->
 3. chloride ion::1- <!--SR:!2023-04-21,368,354-->
-4. bromide ion::1- <!--SR:!2022-05-07,79,273-->
+4. bromide ion::1- <!--SR:!2022-12-08,215,273-->
 5. iodide ion::1- <!--SR:!2022-07-30,128,259-->
 6. hydroxide ion::1- <!--SR:!2022-06-11,103,293-->
 7. nitrate ion::1- <!--SR:!2022-06-02,99,290-->
