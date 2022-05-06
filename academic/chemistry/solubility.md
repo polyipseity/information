@@ -40,7 +40,7 @@
 1. group I::Li<sub>3</sub>PO<sub>4</sub> <!--SR:!2022-05-14,26,230-->
 2. acetates (ethanoates)::Ag<sup>+</sup> <!--SR:!2022-06-03,32,230-->
 3. chlorides (include ClO<sub>3</sub><sup>-</sup> and ClO<sub>4</sub><sup>-</sup>)::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-31,34,210-->
-4. bromides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-05,12,190-->
+4. bromides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-06-01,25,190-->
 5. iodides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-06-23,51,230-->
 6. sulfates::Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> <!--SR:!2022-05-12,21,190-->
 7. carbonates::group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-08,19,194-->
