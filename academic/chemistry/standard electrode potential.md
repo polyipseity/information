@@ -56,7 +56,7 @@ aliases: ["electrochemical series"]
 14. Fe:::Fe<sup>3+</sup> + e<sup>-</sup> ⇌ Fe<sup>2+</sup>
 15. N:::NO<sub>3</sub><sup>-</sup> + 2H<sup>+</sup> + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O<br/>NO<sub>3</sub><sup>-</sup> + 4H<sup>+</sup> + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O
 16. Ag:::Ag<sup>+</sup> + e<sup>-</sup> ⇌ Ag(s)
-17. Br:::Br<sub>2</sub> + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>
+17. Br:::Br<sub>2</sub>(aq) + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>
 18. Cr:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> + 14H<sup>+</sup> + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup> + 7H<sub>2</sub>O
 19. Cl:::Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>
 20. Mn:::MnO<sub>4</sub><sup>-</sup> + 8H<sup>+</sup> + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup> + 4H<sub>2</sub>O
