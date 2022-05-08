@@ -23,7 +23,7 @@
 > sulfides (except group I, group II, and NH<sub>4</sub><sup>+</sup>) | <span style="color: red;">insoluble</span>
 1. group I (except Li<sub>3</sub>PO<sub>4</sub>)::<span style="color: green;">soluble</span> <!--SR:!2022-06-17,46,210-->
 2. NH<sub>4</sub><sup>+</sup>::<span style="color: green;">soluble</span> <!--SR:!2022-05-21,40,262-->
-3. nitrates::<span style="color: green;">soluble</span> <!--SR:!2022-05-08,25,216-->
+3. nitrates::<span style="color: green;">soluble</span> <!--SR:!2022-06-30,53,216-->
 4. acetates (ethanoates) (except Ag<sup>+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-05-27,39,242-->
 5. chlorides (include ClO<sub>3</sub><sup>-</sup> and ClO<sub>4</sub><sup>-</sup>) (except Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-05-13,31,248-->
 6. bromides (except Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup>)::<span style="color: green;">soluble</span> <!--SR:!2022-06-04,45,246-->
@@ -43,7 +43,7 @@
 4. bromides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-06-01,25,190-->
 5. iodides::Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> <!--SR:!2022-06-23,51,230-->
 6. sulfates::Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> <!--SR:!2022-05-12,21,190-->
-7. carbonates::group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> <!--SR:!2022-05-08,19,194-->
+7. carbonates::group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> <!--SR:!2022-06-18,41,194-->
 8. sulfites::group I and NH<sub>4</sub><sup>+</sup> <!--SR:!2022-05-18,26,210-->
 9. phosphates::group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>) <!--SR:!2022-05-20,32,230-->
 10. hydroxides::group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> <!--SR:!2022-05-30,35,230-->
