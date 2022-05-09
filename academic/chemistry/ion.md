@@ -112,7 +112,7 @@
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
-20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-05-09,25,210-->
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span> <!--SR:!2022-05-20,11,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-10-23,169,238-->
 
 ## anion
@@ -181,10 +181,10 @@
 15. sulfate ion::2- <!--SR:!2022-07-02,119,290-->
 16. sulfite ion::2- <!--SR:!2022-05-21,89,279-->
 17. carbonate ion::2- <!--SR:!2022-09-10,157,270-->
-18. chromate ion::2- <!--SR:!2022-05-09,81,279-->
+18. chromate ion::2- <!--SR:!2022-12-21,226,279-->
 19. dichromate ion::2- <!--SR:!2022-06-24,113,290-->
 20. nitride ion::3- <!--SR:!2022-06-25,114,290-->
-21. phosphate ion::3- <!--SR:!2022-05-09,7,210-->
+21. phosphate ion::3- <!--SR:!2022-05-26,17,210-->
 
 ### name–color
 1. hydride ion::colorless <!--SR:!2022-06-28,118,299-->
