@@ -43,7 +43,7 @@
 > mercury(II) ion | Hg<sup>2+</sup> | 2+ |
 > cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span>
 > aluminium ion | Al<sup>3+</sup> | 3+ | colorless
-> iron(III) ion | Fe<sup>3+</sup> | 3+ | dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span>
+> iron(III) ion | Fe<sup>3+</sup> | 3+ | dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown; background-color: white;">brown</span>
 > chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span>
 
 ### name–symbol
@@ -112,7 +112,7 @@
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span>
 19. aluminium ion::colorless
-20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown;">brown</span>
+20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown; background-color: white;">brown</span>
 21. chromium(III) ion::<span style="color: green;">green</span>
 
 ## anion
