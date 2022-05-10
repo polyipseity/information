@@ -44,4 +44,4 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 > - ==CaCO<sub>3</sub>(s) + 2HCl(aq)== → ==CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)==
 > - test
 >     - ==calcium ion==: by ==[flame test](flame%20test)==, ==brick red flame== can be observed
->     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-07-22,91,270!2022-05-19,46,250!2022-06-06,47,258!2022-07-23,77,258!2022-07-20,74,258!2022-07-12,70,259!2022-05-14,28,250!2022-05-10,29,250!2022-05-12,33,279-->
+>     - ==carbonate ion==: by adding ==[dilute hydrochloric acid](dilute%20hydrochloric%20acid)== to the sample, ==colorless gas== is given out, which turns limewater ==milky== <!--SR:!2022-07-22,91,270!2022-05-19,46,250!2022-06-06,47,258!2022-07-23,77,258!2022-07-20,74,258!2022-07-12,70,259!2022-05-14,28,250!2022-07-25,76,250!2022-05-12,33,279-->
