@@ -24,7 +24,7 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 8~14 | <span style="color: blue; background-color:white;">blue</a>
 1. 1~5:::<span style="color: red;">red</span> <!--SR:!2022-05-17,36,270!2022-06-12,49,250-->
 2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2022-05-18,33,250!2022-06-12,41,230-->
-3. 8~14:::<span style="color: blue; background-color:white;">blue</a> <!--SR:!2022-05-14,33,270!2022-05-10,21,250-->
+3. 8~14:::<span style="color: blue; background-color:white;">blue</a> <!--SR:!2022-05-14,33,270!2022-07-05,56,250-->
 
 ## phenolphthalein
 > pH | color
