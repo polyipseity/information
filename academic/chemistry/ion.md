@@ -102,13 +102,13 @@
 7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
 8. magnesium ion::colorless <!--SR:!2022-05-20,88,274-->
 9. calcium ion::colorless <!--SR:!2022-10-13,180,272-->
-10. barium ion::colorless <!--SR:!2022-05-12,83,274-->
-11. lead(II) ion::colorless <!--SR:!2022-05-12,31,253-->
+10. barium ion::colorless <!--SR:!2022-12-30,230,274-->
+11. lead(II) ion::colorless <!--SR:!2022-08-03,81,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-11-08,190,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-05-30,87,247-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-05-11,9,130-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-05-30,16,130-->
 15. zinc ion::colorless <!--SR:!2022-09-05,170,314-->
-16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-05-14,75,239-->
+16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-05-15,1,230-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-05-20,79,239-->
 19. aluminium ion::colorless <!--SR:!2022-09-29,188,314-->
@@ -156,7 +156,7 @@
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2022-10-07,206,310!2022-05-27,102,293-->
 14. sulfide ion:::S<sup>2-</sup> <!--SR:!2022-10-02,171,267!2022-09-07,172,310-->
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2022-09-15,174,299!2022-11-29,234,325-->
-16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2022-07-10,126,293!2022-05-11,82,274-->
+16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2022-07-10,126,293!2022-06-26,43,254-->
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2022-11-07,196,270!2022-08-09,151,313-->
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2022-10-01,168,258!2022-09-25,185,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2022-10-18,178,258!2022-07-29,142,305-->
