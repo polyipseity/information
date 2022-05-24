@@ -7,7 +7,7 @@
 > - polyatomic ion: ion formed from more than one atom
 1. cation:::positively charged ion <!--SR:!2023-02-02,305,345!2023-03-30,350,350-->
 2. anion:::negatively charged ion <!--SR:!2023-01-07,282,332!2023-02-16,318,354-->
-3. simple ion:::ion formed from one atom <!--SR:!2022-05-24,92,287!2023-04-24,370,352-->
+3. simple ion:::ion formed from one atom <!--SR:!2023-02-24,276,287!2023-04-24,370,352-->
 4. polyatomic ion:::ion formed from more than one atom <!--SR:!2022-11-20,202,267!2022-12-05,256,334-->
 
 ## naming
@@ -54,7 +54,7 @@
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2022-07-16,87,270!2023-01-10,267,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2023-03-21,342,347!2023-02-23,303,310-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-07-11,130,310!2022-06-20,112,293-->
-8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-05-24,85,247!2022-08-27,164,316-->
+8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-12-20,210,247!2022-08-27,164,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2023-03-14,337,350!2023-04-10,359,354-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-10-14,173,250!2023-01-03,260,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2022-09-06,171,314-->
