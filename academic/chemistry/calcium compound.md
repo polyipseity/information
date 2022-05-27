@@ -33,7 +33,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 ### preparation of limewater
 > 1. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).
 > 2. Filter the solution to obtain the [filtrate](filtrate).
-1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-05-26,51,250!2022-06-19,66,318-->
+1. _(begin)_→:::←Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water). <!--SR:!2022-10-07,133,250!2022-06-19,66,318-->
 2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate). <!--SR:!2022-06-30,69,230!2022-06-11,50,261-->
 3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_ <!--SR:!2022-06-28,74,319!2022-09-07,109,279-->
 
