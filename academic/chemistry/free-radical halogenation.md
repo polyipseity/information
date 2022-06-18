@@ -14,7 +14,7 @@ Using chlorination of methane as an example.
 ## chain propagation
 > - (two steps)
 >     1. ==CH<sub>4</sub> + Cl· → CH<sub>3</sub>· + HCl==
->     2. ==CH<sub>3</sub>· + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl·== <!--SR:!2022-08-30,95,252!2022-06-14,52,252-->
+>     2. ==CH<sub>3</sub>· + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl·== <!--SR:!2022-08-30,95,252!2022-11-03,138,252-->
 
 ## chain termination
 > - ==Cl· + ·Cl → Cl<sub>2</sub>==
