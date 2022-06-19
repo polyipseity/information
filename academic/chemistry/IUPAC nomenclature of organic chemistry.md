@@ -134,5 +134,7 @@
 ## alternations of parts for pronunciation
 > - if ==prefix for number of carbons is followed by a prefix for number of a type==
 >     - ==add "-a"==
+> - if ==suffix for bonds is followed by a prefix for number of a type==
+>     - ==keep "-e"==
 > - if ==suffix ends in "-e" and next suffix starts with a vowel==
->     - ==drop "-e"== <!--SR:!2022-12-25,190,250!2022-08-26,115,261!2022-09-20,122,244!2022-07-01,87,267-->
+>     - ==drop "-e"== <!--SR:!2022-12-25,190,250!2022-08-26,115,261!2022-06-20,1,250!2022-06-20,1,250!2022-09-20,122,244!2022-07-01,87,267-->
