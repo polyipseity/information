@@ -134,5 +134,7 @@
 ## alternations of parts for pronunciation
 > - if ==prefix for number of carbons is followed by a prefix for number of a type==
 >     - ==add "-a"==
+> - if ==suffix for bonds is followed by a prefix for number of a type==
+>     - ==keep "-e"==
 > - if ==suffix ends in "-e" and next suffix starts with a vowel==
 >     - ==drop "-e"==
