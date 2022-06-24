@@ -17,7 +17,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-06-27,64,230!2023-01-21,217,279-->
 
 ## chemical formulas
-1. calcium carbonate:::CaCO<sub>3</sub> <!--SR:!2023-01-06,202,317!2022-06-24,70,318-->
+1. calcium carbonate:::CaCO<sub>3</sub> <!--SR:!2023-01-06,202,317!2023-02-02,223,318-->
 2. calcium oxide:::CaO <!--SR:!2022-11-17,194,310!2023-06-22,369,330-->
 3. calcium hydroxide:::Ca(OH)<sub>2</sub> <!--SR:!2022-07-20,98,270!2022-07-03,78,319-->
 

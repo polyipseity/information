@@ -34,4 +34,4 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 10~14 | <span style="color: pink;">pink</span>
 1. 1~8.3:::colorless <!--SR:!2022-07-03,57,250!2022-07-23,35,230-->
 2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-11-04,139,250!2022-09-10,84,230-->
-3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2022-06-24,4,230!2022-06-29,58,230-->
+3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2022-07-05,11,230!2022-06-29,58,230-->
