@@ -9,7 +9,7 @@ aliases: ["free radical halogenation"]
 Using chlorination of methane as an example.
 
 ## initiation
-> - ==Cl<sub>2</sub> $\xrightarrow{\text{ultraviolet radiation}}$ Cl· + Cl·== <!--SR:!2022-07-29,83,272-->
+> - ==Cl<sub>2</sub> $\xrightarrow{\text{ultraviolet radiation}}$ Cl· + Cl·== <!--SR:!2023-05-11,262,272-->
 
 ## chain propagation
 > - (two steps)
@@ -19,4 +19,4 @@ Using chlorination of methane as an example.
 ## chain termination
 > - ==Cl· + ·Cl → Cl<sub>2</sub>==
 > - ==CH<sub>3</sub>· + ·Cl → CH<sub>3</sub>Cl==
-> - ==CH<sub>3</sub>· + ·CH<sub>3</sub> → C<sub>2</sub>H<sub>6</sub>== <!--SR:!2022-09-26,122,290!2022-07-09,67,252!2022-07-05,64,252-->
+> - ==CH<sub>3</sub>· + ·CH<sub>3</sub> → C<sub>2</sub>H<sub>6</sub>== <!--SR:!2022-09-26,122,290!2023-04-02,223,252!2023-04-01,222,252-->
