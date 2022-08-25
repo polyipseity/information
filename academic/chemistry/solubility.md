@@ -45,7 +45,7 @@
 6. sulfates::Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> <!--SR:!2022-09-03,12,130-->
 7. carbonates::group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> <!--SR:!2022-11-26,96,250-->
 8. sulfites::group I and NH<sub>4</sub><sup>+</sup> <!--SR:!2022-08-28,6,230-->
-9. phosphates::group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>) <!--SR:!2022-08-24,2,230-->
+9. phosphates::group I and NH<sub>4</sub><sup>+</sup> (exclude Li<sup>+</sup>) <!--SR:!2022-09-01,7,230-->
 10. hydroxides::group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> <!--SR:!2022-10-22,61,230-->
 11. oxides::group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> <!--SR:!2022-09-04,13,250-->
 12. sulfides::group I, group II, and NH<sub>4</sub><sup>+</sup> <!--SR:!2022-09-17,26,210-->
