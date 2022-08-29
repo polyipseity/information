@@ -54,7 +54,7 @@
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2023-01-10,267,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2023-03-21,342,347!2023-02-23,303,310-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2022-10-16,55,250!2023-05-14,328,293-->
-8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-12-20,210,247!2022-08-27,164,316-->
+8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2022-12-20,210,247!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2023-03-14,337,350!2023-04-10,359,354-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2022-10-14,173,250!2023-01-03,260,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2022-09-06,171,314-->
@@ -76,7 +76,7 @@
 4. copper(I) ion::1+ <!--SR:!2023-04-25,371,352-->
 5. silver ion::1+ <!--SR:!2022-09-01,150,270-->
 6. mercury(I) ion::1+ <!--SR:!2023-03-11,336,354-->
-7. ammonium ion::1+ <!--SR:!2022-08-26,160,314-->
+7. ammonium ion::1+ <!--SR:!2024-01-21,509,314-->
 8. magnesium ion::2+ <!--SR:!2023-08-03,346,253-->
 9. calcium ion::2+ <!--SR:!2023-01-14,238,272-->
 10. barium ion::2+ <!--SR:!2022-10-28,179,254-->
@@ -177,7 +177,7 @@
 11. hydrogensulfate ion::1- <!--SR:!2023-04-18,304,284-->
 12. permanganate ion::1- <!--SR:!2022-10-21,184,272-->
 13. oxide ion::2- <!--SR:!2023-04-30,316,290-->
-14. sulfide ion::2- <!--SR:!2022-08-27,5,230-->
+14. sulfide ion::2- <!--SR:!2022-09-12,13,230-->
 15. sulfate ion::2- <!--SR:!2023-10-15,419,290-->
 16. sulfite ion::2- <!--SR:!2023-01-25,249,279-->
 17. carbonate ion::2- <!--SR:!2022-09-10,157,270-->
@@ -204,7 +204,7 @@
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2022-11-28,218,294-->
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
-18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-08-26,4,230-->
+18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2022-09-13,14,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
 20. nitride ion:<!-- flashcard disabled -->:
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
