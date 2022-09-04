@@ -71,10 +71,10 @@
 
 ### name–charge
 1. hydrogen ion::1+ <!--SR:!2023-02-10,312,353-->
-2. sodium ion::1+ <!--SR:!2022-09-03,168,310-->
+2. sodium ion::1+ <!--SR:!2024-02-08,522,310-->
 3. potassium ion::1+ <!--SR:!2023-08-10,418,292-->
 4. copper(I) ion::1+ <!--SR:!2023-04-25,371,352-->
-5. silver ion::1+ <!--SR:!2022-09-01,150,270-->
+5. silver ion::1+ <!--SR:!2023-10-18,409,270-->
 6. mercury(I) ion::1+ <!--SR:!2023-03-11,336,354-->
 7. ammonium ion::1+ <!--SR:!2024-01-21,509,314-->
 8. magnesium ion::2+ <!--SR:!2023-08-03,346,253-->
@@ -93,7 +93,7 @@
 21. chromium(III) ion::3+ <!--SR:!2023-01-27,299,338-->
 
 ### name–color
-1. hydrogen ion::colorless <!--SR:!2022-09-02,167,309-->
+1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion::colorless <!--SR:!2023-04-28,314,293-->
 3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
 4. copper(I) ion:<!-- flashcard disabled -->:
@@ -160,7 +160,7 @@
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2022-11-07,196,270!2023-12-28,493,313-->
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2022-10-01,168,258!2022-09-25,185,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2022-10-18,178,258!2023-12-05,470,305-->
-20. nitride ion:::N<sup>3-</sup> <!--SR:!2022-09-27,168,267!2022-09-04,10,250-->
+20. nitride ion:::N<sup>3-</sup> <!--SR:!2022-09-27,168,267!2022-10-09,35,270-->
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2022-09-23,97,239!2022-12-17,224,276-->
 
 ### name–charge
