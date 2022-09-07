@@ -129,7 +129,7 @@
 7. ketones→:::←alcohols <!--SR:!2022-09-09,83,250!2022-10-05,44,250-->
 8. alcohols→:::←hydroperoxides <!--SR:!2023-03-15,205,226!2022-10-10,139,272-->
 9. hydroperoxides→:::←amines <!--SR:!2022-09-24,137,264!2022-12-23,188,272-->
-10. amines→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-09-07,135,287-->
+10. amines→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-11-15,69,267-->
 
 ## alternations of parts for pronunciation
 > - if ==prefix for number of carbons is followed by a prefix for number of a type==
