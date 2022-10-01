@@ -8,6 +8,8 @@ from .. import globals as _globals
 
 
 class FileTextLocation:
+    __slots__ = '__file', '__id', '__start', '__end'
+
     def __init__(self, *, file: str = _os.devnull, id: str = '', **kwargs):
         self.__file = file
         self.__id = id
