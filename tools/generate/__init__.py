@@ -1,4 +1,4 @@
 from .parser import *
 from .writer import *
 
-from . import main
+from . import main as main
