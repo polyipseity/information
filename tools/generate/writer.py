@@ -1,90 +1,104 @@
 import\
     abc as _abc,\
-    collections as _collections,\
     contextlib as _contextlib,\
-    logging as _logging,\
     re as _re,\
     sys as _sys,\
     types as _types,\
     typing as _typing,\
     unicodedata as _unicodedata
-from .. import utils as _utils
-import collections.abc as _
-del _
+from .. import globals as _globals, utils as _utils
+from . import types as _types_0
 
-_default_delimiters = tuple(chr(char) for char in range(_sys.maxunicode)
-                            if _unicodedata.category(chr(char)).startswith('P'))
-_flashcard_regex = '<!--SR:.*?-->'
+_default_delimiters: _typing.Collection[str] = tuple(chr(char) for char in range(
+    _sys.maxunicode) if _unicodedata.category(chr(char)).startswith('P'))
 
 
-class Writer(_abc.ABC):
+class Writer(metaclass=_abc.ABCMeta):
     @_abc.abstractmethod
-    def __init__(self, data, *, bindings, **kwargs): ...
+    def __init__(self,
+                 data: _types_0.ParsedData,
+                 *,
+                 bindings: _typing.Dict[str, 'Writer'],
+                 **_: _typing.Any) -> None: ...
 
     @_abc.abstractmethod
-    def write(self): ...
+    def write(self) -> None: ...
 
     @property
     @_abc.abstractmethod
-    def location(self): ...
+    def location(self) -> _utils.FileTextLocation: ...
 
     @property
     @_abc.abstractmethod
-    def data(self): ...
+    def data(self) -> _typing.Any: ...
 
 
 class AffixableWriter:
-    def __init__(self, data, *, bindings, **kwargs):
-        self.__pretext = data.get('pretext', '')
-        self.__posttext = data.get('posttext', '')
+    def __init__(self,
+                 data: _types_0.ParsedData,
+                 *,
+                 bindings: _typing.Dict[str, Writer],
+                 **_: _typing.Any) -> None:
+        self.__pretext: str = data.get('pretext', '')
+        self.__posttext: str = data.get('posttext', '')
 
     @_contextlib.contextmanager
-    def affix(self, file):
+    def _affix(self, file: _typing.TextIO) -> _typing.Iterator[None]:
         file.write(self.__pretext)
         yield
         file.write(self.__posttext)
 
 
 class TextWriter(AffixableWriter):
-    def __init__(self, data, *, bindings, **kwargs):
-        super().__init__(data, bindings=bindings, **kwargs)
+    def __init__(self,
+                 data: _types_0.ParsedData,
+                 *,
+                 bindings: _typing.Dict[str, Writer],
+                 **_: _typing.Any) -> None:
+        super().__init__(data, bindings=bindings, **_)
         self.__location: _utils.FileTextLocation = data['location']
-        self.__text = data['text']
-        self.__prefix = data.get('prefix', '')
-        self.__suffix = data.get('suffix', '')
+        self.__text: str = data['text']
+        self.__prefix: str = data.get('prefix', '')
+        self.__suffix: str = data.get('suffix', '')
 
-    def write(self):
+    def write(self) -> None:
+        file: _typing.TextIO
         with self.__location.open() as file:
-            with self.affix(file):
+            with self._affix(file):
                 file.writelines(''.join(('' if index == 0 else '\n', self.__prefix, line, self.__suffix))
                                 for index, line in enumerate(self.__text.splitlines()))
             file.truncate()
 
     @property
-    def location(self): return self.__location
+    def location(self) -> _utils.FileTextLocation: return self.__location
 
     @property
-    def data(self): return self.__text
+    def data(self) -> str: return self.__text
 
 
 class TextChunkWriter(AffixableWriter):
-    format = '{number}. {pretext}→{next_hint}:::{prev_hint}←{posttext} {comment}'
+    format: str = '{number}. {pretext}→{next_hint}:::{prev_hint}←{posttext} {comment}'
 
-    def __init__(self, data, *, bindings, **kwargs):
-        super().__init__(data, bindings=bindings, **kwargs)
+    def __init__(self,
+                 data: _types_0.ParsedData,
+                 *,
+                 bindings: _typing.Dict[str, Writer],
+                 **_: _typing.Any) -> None:
+        super().__init__(data, bindings=bindings, **_)
         self.__location: _utils.FileTextLocation = data['location']
 
-        writer = bindings[data['writer']]
-        delimiters = data.get('delimiters', _default_delimiters)
-        scheme: _typing.Iterable[int | str | None] = data['scheme']
+        writer: Writer = bindings[data['writer']]
+        delimiters: _typing.Collection[str] = data.get(
+            'delimiters', _default_delimiters)
+        scheme: _typing.Iterable[int | str | _typing.Any] = data['scheme']
 
-        all_delimiters = '|'.join(map(_re.escape, delimiters))
-        raw_chunks = tuple(chunk for chunk in _re.split(
+        all_delimiters: str = '|'.join(map(_re.escape, delimiters))
+        raw_chunks: _typing.Sequence[str] = tuple(chunk for chunk in _re.split(
             f'(?<={all_delimiters})(?!{all_delimiters})', writer.data) if chunk)
-        _logging.info(f'Separated into {len(raw_chunks)} chunks')
 
-        def parse_scheme():
-            start = 0
+        def parse_scheme() -> _typing.Iterator[_typing.Sequence[str] | str]:
+            start: int = 0
+            chunk_scheme: int | str | _typing.Any
             for chunk_scheme in scheme:
                 if isinstance(chunk_scheme, int):
                     if chunk_scheme >= 0:
@@ -96,31 +110,40 @@ class TextChunkWriter(AffixableWriter):
                     yield chunk_scheme
                 else:
                     raise TypeError(chunk_scheme)
-            remain = raw_chunks[start:]
+            remain: _typing.Sequence[str] = raw_chunks[start:]
             if remain:
                 yield remain
-        self.__chunks = tuple(parse_scheme())
+        self.__chunks: _typing.Sequence[_typing.Sequence[str] | str] = tuple(
+            parse_scheme())
 
-    def write(self):
+    def write(self) -> None:
+        file: _typing.TextIO
         with self.__location.open() as file:
-            text = file.read()
-            comments: list[str] = _re.findall(_flashcard_regex, text)
+            text: str = file.read()
+            comments: _typing.Sequence[str] = _re.findall(
+                _globals.flashcard_regex, text)
             file.seek(0)
-            with self.affix(file):
+            with self._affix(file):
+                index: int
+                chunk: _typing.Sequence[str] | str
                 for index, chunk in enumerate(self.__chunks[:-1]):
-                    next_chunk = self.__chunks[index + 1]
+                    next_chunk: _typing.Sequence[str] | str = self.__chunks[index + 1]
+                    pretext: str
+                    prev_hint: str
+                    next_hint: str
+                    posttext: str
                     if isinstance(chunk, str):
                         pretext = chunk
                         prev_hint = ''
                     else:
                         pretext = ''.join(chunk)
-                        prev_hint = len(chunk)
+                        prev_hint = str(len(chunk))
                     if isinstance(next_chunk, str):
                         posttext = next_chunk
                         next_hint = ''
                     else:
                         posttext = ''.join(next_chunk)
-                        next_hint = len(next_chunk)
+                        next_hint = str(len(next_chunk))
                     if index != 0:
                         file.write('\n')
                     file.write(self.format.format(
@@ -135,34 +158,42 @@ class TextChunkWriter(AffixableWriter):
             file.truncate()
 
     @property
-    def location(self): return self.__location
+    def location(self) -> _utils.FileTextLocation: return self.__location
 
     @property
-    def data(self): return self.__chunks
+    def data(
+        self) -> _typing.Sequence[_typing.Sequence[str] | str]: return self.__chunks
 
 
 class SemanticsWriter(AffixableWriter):
     format = '{number}. {pretext}::{posttext} {comment}'
 
-    def __init__(self, data, *, bindings, **kwargs):
-        super().__init__(data, bindings=bindings, **kwargs)
+    def __init__(self,
+                 data: _types_0.ParsedData,
+                 *,
+                 bindings: _typing.Dict[str, Writer],
+                 **_: _typing.Any) -> None:
+        super().__init__(data, bindings=bindings, **_)
         self.__location: _utils.FileTextLocation = data['location']
 
-        writers = tuple(bindings[writer] for writer in data['writers'])
+        writers: _typing.Tuple[Writer, Writer] = tuple(
+            bindings[writer] for writer in data['writers'])
+        if len(writers) != 2:
+            raise ValueError(writers)
 
-        self.__semantics = tuple(filter(lambda sem: sem[0] and sem[1], ((
-            left if isinstance(
-                left, str) else ''.join(left),
-            right if isinstance(
-                right, str) else ''.join(right)
-        ) for left, right in zip(writers[0].data, writers[1].data, strict=True))))
+        self.__semantics: _typing.Sequence[_typing.Tuple[str, str]] = tuple(
+            filter(lambda sem: sem[0] and sem[1],
+                   map(lambda pair: tuple(ele if isinstance(ele, str) else ''.join(ele) for ele in pair),
+                       zip(writers[0].data, writers[1].data, strict=True))))
 
     def write(self):
+        file: _typing.TextIO
         with self.__location.open() as file:
-            text = file.read()
-            comments: list[str] = _re.findall(_flashcard_regex, text)
+            text: str = file.read()
+            comments: _typing.Sequence[str] = _re.findall(
+                _globals.flashcard_regex, text)
             file.seek(0)
-            with self.affix(file):
+            with self._affix(file):
                 file.writelines(('' if index == 0 else '\n') + self.format.format(
                     number=index + 1,
                     pretext=sem[0],
@@ -172,28 +203,30 @@ class SemanticsWriter(AffixableWriter):
                 file.truncate()
 
     @property
-    def location(self): return self.__location
+    def location(self) -> _utils.FileTextLocation: return self.__location
 
     @property
-    def data(self): return self.__semantics
+    def data(
+        self) -> _typing.Sequence[_typing.Tuple[str, str]]: return self.__semantics
 
 
 class Writers:
-    types = _types.MappingProxyType({
+    types: _typing.Dict[str, type] = {
         'text': TextWriter,
         'text_chunk': TextChunkWriter,
         'semantics': SemanticsWriter
-    })
+    }
 
-    def __init__(self):
-        self.__content = []
+    def __init__(self) -> None:
+        self.__content: _typing.MutableSequence[Writer] = []
 
-    def add_from(self, data):
-        if not isinstance(data, _collections.abc.Iterable):
+    def add_from(self, data: _types_0.ParsedData) -> None:
+        if not isinstance(data, _typing.Collection):
             data = (data,)
-        bindings = dict()
+        bindings: _typing.Dict[str, Writer] = dict()
+        datum: _types_0.ParsedData
         for datum in data:
-            writer = self.types[datum['type']](
+            writer: Writer = self.types[datum['type']](
                 datum, bindings=_types.MappingProxyType(bindings))
             try:
                 bindings[datum['name']] = writer
@@ -201,11 +234,13 @@ class Writers:
                 pass
             self.__content.append(writer)
 
-    def write(self):
+    def write(self) -> None:
+        writer: Writer
         for writer in tuple(self.__content):
             writer.write()
 
     @property
-    def content(self): return tuple(self.__content)
+    def content(self) -> _typing.Sequence[Writer]: return tuple(self.__content)
 
-    def __iter__(self): return tuple(self.__content).__iter__()
+    def __iter__(
+        self) -> _typing.Iterator[Writer]: return tuple(self.__content).__iter__()
