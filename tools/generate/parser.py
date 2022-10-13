@@ -4,9 +4,12 @@ import\
     pathlib as _pathlib,\
     sys as _sys,\
     typing as _typing
-from .. import globals as _globals, utils as _utils
-from . import types as _types_0
 import collections.abc as _
+
+from .. import globals as _globals
+from .. import utils as _utils
+from . import types as _types_0
+
 del _
 
 _md_start: str = f'%%<!--{_globals.uuid},generate,data-->\n```json'
