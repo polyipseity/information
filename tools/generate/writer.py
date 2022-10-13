@@ -6,7 +6,8 @@ import\
     types as _types,\
     typing as _typing,\
     unicodedata as _unicodedata
-from .. import globals as _globals, utils as _utils
+from .. import globals as _globals
+from .. import utils as _utils
 from . import types as _types_0
 
 _default_delimiters: _typing.Collection[str] = tuple(chr(char) for char in range(

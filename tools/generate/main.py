@@ -3,8 +3,11 @@ import\
     logging as _logging,\
     sys as _sys,\
     typing as _typing
-from .. import utils as _utils, globals as _globals
-from . import parser as _parser, types as _types_0, writer as _writer
+from .. import globals as _globals
+from .. import utils as _utils
+from . import parser as _parser
+from . import types as _types_0
+from . import writer as _writer
 
 
 def main(argv: _typing.Sequence[str]) -> None:
