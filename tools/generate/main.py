@@ -1,23 +1,21 @@
-import\
-    json as _json,\
-    logging as _logging,\
-    sys as _sys,\
-    typing as _typing
+import logging as _logging
+import os as _os
+import pathlib as _pathlib
+import typing as _typing
+
 from .. import globals as _globals
-from .. import utils as _utils
-from . import parser as _parser
-from . import types as _types_0
-from . import writer as _writer
+from . import read as _read
+from . import write as _write
 
 
 def main(argv: _typing.Sequence[str]) -> None:
     input: ParseArgvDict = parse_argv(argv)
-    writers: _writer.Writers = _writer.Writers()
-    path: _utils.Path | int
-    for path in input['paths']:
+    writers: _typing.MutableSequence[_write.Writer] = []
+    path: _pathlib.PurePath
+    for path in input.paths:
         try:
             file: _typing.TextIO = open(
-                path, mode='rt', **_globals.open_default_options)
+                path, mode='rt', **_globals.open_options)
         except OSError:
             _logging.exception(f'Cannot open file: {path}')
             continue
@@ -26,31 +24,28 @@ def main(argv: _typing.Sequence[str]) -> None:
             continue
         with file:
             try:
-                data_chunks: _typing.Sequence[_types_0.ParsedData] = _parser.parse_file(
-                    file)
-            except _json.decoder.JSONDecodeError:
-                _logging.exception(f'Invalid JSON data in file: {file.name}')
+                ext: str
+                _, ext = _os.path.splitext(path)
+                reader: _read.Reader = _read.Reader.registry[ext](
+                    path=path)
+                reader.read(file.read())
+                writers.extend(reader.pipe())
+            except BaseException:
+                _logging.exception(f'Exception reading file: {path}')
                 continue
-            except ValueError:
-                _logging.exception(f'Invalid file: {file.name}')
-                continue
-            data: _types_0.ParsedData
-            for data in data_chunks:
-                writers.add_from(data)
-    writer: _writer.Writer
+    writer: _write.Writer
     for writer in writers:
         try:
             writer.write()
         except:
             _logging.exception(f'Error while writing: {writer}')
+            continue
 
 
-class ParseArgvDict(_typing.TypedDict):
-    paths: _typing.Sequence[_utils.Path | int]
+@_typing.final
+class ParseArgvDict(_typing.NamedTuple):
+    paths: _typing.Sequence[_pathlib.PurePath]
 
 
 def parse_argv(argv: _typing.Sequence[str]) -> ParseArgvDict:
-    paths: _typing.Sequence[_utils.Path | int] = tuple(argv[1:])
-    if not paths:
-        paths = (_sys.stdin.fileno(),)
-    return {'paths': paths}
+    return ParseArgvDict(paths=tuple(_pathlib.PurePath(path) for path in argv[1:]))
