@@ -8,34 +8,37 @@ class Environment:
     __slots__ = ('__env', '__globals', '__locals')
 
     def __init__(self: _typing.Self, *,
-                 env: dict[str, _typing.Any] = {},
-                 globals: dict[str, _typing.Any] = globals(),
-                 locals: dict[str, _typing.Any] = locals()) -> None:
-        assert '__env__' not in locals
-        self.__env: dict[str, _typing.Any] = env.copy()
-        self.__globals: dict[str, _typing.Any] = globals.copy()
-        self.__locals: dict[str, _typing.Any] = locals.copy()
+                 env: _typing.Mapping[str, _typing.Any] = {},
+                 globals: _typing.Mapping[str, _typing.Any] = globals(),
+                 locals: _typing.Mapping[str, _typing.Any] = locals()) -> None:
+        self.__env: _typing.Mapping[str, _typing.Any] = _types.MappingProxyType(
+            dict(env))
+        self.__globals: _typing.Mapping[str, _typing.Any] = _types.MappingProxyType(
+            dict(globals))
+        self.__locals: _typing.Mapping[str, _typing.Any] = _types.MappingProxyType(
+            dict(locals))
+        assert '__env__' not in self.__locals
 
     def __repr__(self: _typing.Self) -> str:
         return f'{Environment.__qualname__}(env={self.__env!r}, globals={self.__globals!r}, locals={self.__locals!r})'
 
     @property
-    def env(self: _typing.Self) -> dict[str, _typing.Any]:
-        return self.__env.copy()
+    def env(self: _typing.Self) -> _typing.Mapping[str, _typing.Any]:
+        return self.__env
 
     @property
-    def globals(self: _typing.Self) -> dict[str, _typing.Any]:
-        return self.__globals.copy()
+    def globals(self: _typing.Self) -> _typing.Mapping[str, _typing.Any]:
+        return self.__globals
 
     @property
-    def locals(self: _typing.Self) -> dict[str, _typing.Any]:
-        return self.__locals.copy()
+    def locals(self: _typing.Self) -> _typing.Mapping[str, _typing.Any]:
+        return self.__locals
 
     def exec(self: _typing.Self, code: _typing.Any) -> _typing.Any:
         env = _types.SimpleNamespace()
         env.result = None
         env.__dict__.update(self.__env)
-        locals: dict[str, _typing.Any] = self.__locals.copy()
+        locals: _typing.MutableMapping[str, _typing.Any] = dict(self.__locals)
         locals['__env__'] = env
-        exec(code, self.__globals, locals)
+        exec(code, dict(self.__globals), locals)
         return locals['__env__'].result

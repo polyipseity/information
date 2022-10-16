@@ -82,7 +82,7 @@ class FileSection:
     class SectionFormat(_typing.NamedTuple):
         start: str
         stop: str
-    section_formats: dict[str, SectionFormat] = {
+    section_formats: _typing.Mapping[str, SectionFormat] = _types.MappingProxyType({
         '': SectionFormat(
             f'[{_globals.uuid},generate,{{section}}]',
             f'[{_globals.uuid},end]'
@@ -91,7 +91,7 @@ class FileSection:
             f'<!--{_globals.uuid} generate section="{{section}}"-->',
             f'<!--/{_globals.uuid}-->'
         ),
-    }
+    })
 
     def __init__(self: _typing.Self, *,
                  path: _pathlib.PurePath,
