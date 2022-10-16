@@ -64,8 +64,13 @@ class MarkdownReader:
             if stop == -1:
                 raise ValueError(f'Unenclosure at char {start}')
             self.__codes.append(
-                compile(text[start + len(self.start):stop], filename=self.__path,
-                        mode='exec', flags=_ast.PyCF_ALLOW_TOP_LEVEL_AWAIT, dont_inherit=True, optimize=0)
+                compile('\n' * text.count('\n', 0, start + len(self.start))
+                        + text[start + len(self.start):stop],
+                        filename=self.__path,
+                        mode='exec',
+                        flags=_ast.PyCF_ALLOW_TOP_LEVEL_AWAIT,
+                        dont_inherit=True,
+                        optimize=0)
             )
             start = text.find(self.start, stop + len(self.stop))
 
