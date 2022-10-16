@@ -53,7 +53,8 @@ class MarkdownReader:
                                 )
         return {
             'cwf': self.__path,
-            'cwf_section': cwf_section
+            'cwd': self.__path.parent,
+            'cwf_section': cwf_section,
         }
 
     def __init__(self: _typing.Self, *,
