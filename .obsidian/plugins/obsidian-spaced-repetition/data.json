@@ -1,5 +1,8 @@
 {
   "settings": {
+    "flashcardEasyText": "Easy",
+    "flashcardGoodText": "Good",
+    "flashcardHardText": "Hard",
     "flashcardTags": [
       "#flashcards"
     ],
@@ -32,6 +35,6 @@
     "maxLinkFactor": 1,
     "showDebugMessages": true
   },
-  "buryDate": "2022-03-28",
+  "buryDate": "2022-10-16",
   "buryList": []
 }
