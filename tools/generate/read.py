@@ -46,10 +46,14 @@ class MarkdownReader:
     stop: str = '```'
 
     def _env(self: _typing.Self) -> dict[str, _typing.Any]:
-        def relative_path(path: _util.StrPath) -> _pathlib.PurePath:
-            return self.__path / path
+        def cwf_section(section: str) -> _environment.util.Location:
+            return _typing.cast(_environment.util.Location,
+                                _environment.util.FileSection(
+                                    path=self.__path, section=section)
+                                )
         return {
-            'relative_path': relative_path,
+            'cwf': self.__path,
+            'cwf_section': cwf_section
         }
 
     def __init__(self: _typing.Self, *,
