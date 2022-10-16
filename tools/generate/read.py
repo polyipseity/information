@@ -20,6 +20,10 @@ class Reader(metaclass=_abc.ABCMeta):
     def __init__(self: _typing.Self, *,
                  path: _pathlib.PurePath) -> None: ...
 
+    @property
+    @_abc.abstractmethod
+    def path(self: _typing.Self) -> _pathlib.PurePath: ...
+
     @_abc.abstractmethod
     def read(self: _typing.Self, text: str, /) -> None: ...
 
@@ -31,9 +35,22 @@ class Reader(metaclass=_abc.ABCMeta):
         if cls is Reader:
             if any(all(p not in c.__dict__ or c.__dict__[p] is None
                        for c in subclass.__mro__)
-                   for p in (cls.read.__name__, cls.pipe.__name__)):
+                   for p in ('path', cls.read.__name__, cls.pipe.__name__)):
                 return False
         return NotImplemented
+
+
+def _Python_env(reader: Reader) -> dict[str, _typing.Any]:
+    def cwf_section(section: str) -> _environment.util.Location:
+        return _typing.cast(_environment.util.Location,
+                            _environment.util.FileSection(
+                                path=reader.path, section=section)
+                            )
+    return {
+        'cwf': reader.path,
+        'cwd': reader.path.parent,
+        'cwf_section': cwf_section,
+    }
 
 
 class MarkdownReader:
@@ -45,17 +62,8 @@ class MarkdownReader:
     start: str = f'```Python\n# {_globals.uuid} generate data'
     stop: str = '```'
 
-    def _env(self: _typing.Self) -> dict[str, _typing.Any]:
-        def cwf_section(section: str) -> _environment.util.Location:
-            return _typing.cast(_environment.util.Location,
-                                _environment.util.FileSection(
-                                    path=self.__path, section=section)
-                                )
-        return {
-            'cwf': self.__path,
-            'cwd': self.__path.parent,
-            'cwf_section': cwf_section,
-        }
+    @property
+    def path(self: _typing.Self) -> _pathlib.PurePath: return self.__path
 
     def __init__(self: _typing.Self, *,
                  path: _pathlib.PurePath) -> None:
@@ -84,7 +92,7 @@ class MarkdownReader:
         vars['__builtins__'] = {
             k: v for k, v in _builtins.__dict__.items() if k not in self.builtins_exclude}
         env: _venv.Environment = _venv.Environment(
-            env=self._env(), globals=vars, locals=vars)
+            env=_Python_env(_typing.cast(Reader, self)), globals=vars, locals=vars)
 
         def ret_gen() -> _typing.Iterator[_write.Writer]:
             code: _typing.Any
