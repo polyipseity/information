@@ -1,3 +1,4 @@
+import contextlib as _contextlib
 import logging as _logging
 import os as _os
 import pathlib as _pathlib
@@ -33,13 +34,21 @@ def main(argv: _typing.Sequence[str]) -> None:
             except BaseException:
                 _logging.exception(f'Exception reading file: {path}')
                 continue
-    writer: _write.Writer
-    for writer in writers:
+
+    writer_stack: _contextlib.ExitStack = _contextlib.ExitStack().__enter__()
+    try:
+        writer: _write.Writer
+        for writer in writers:
+            try:
+                writer_stack.enter_context(writer.write())
+            except:
+                _logging.exception(f'Error while validation: {writer}')
+                continue
+    finally:
         try:
-            writer.write()
+            writer_stack.close()
         except:
-            _logging.exception(f'Error while writing: {writer}')
-            continue
+            _logging.exception(f'Error while writing')
 
 
 @_typing.final

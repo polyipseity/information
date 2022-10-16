@@ -40,6 +40,7 @@ class Unit(_typing.Generic[_CoT]):
 
 class Location(metaclass=_abc.ABCMeta):
     __slots__ = ()
+
     @_abc.abstractmethod
     def open(self: _typing.Self) -> _typing.TextIO: ...
 
