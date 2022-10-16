@@ -18,6 +18,9 @@ class Tag(_enum.Enum):
     SEMANTICS = 'sem'
 
 
+TagStr: _typing.TypeAlias = Tag | str
+
+
 def affix_lines(text: str, /, *, prefix: str = '', suffix: str = '') -> str:
     def ret_gen() -> _typing.Iterator[str]:
         newline: str = ''
@@ -36,11 +39,11 @@ def split_by_punctuations(text: str) -> _typing.Sequence[str]:
 
 
 def code_to_strs(code: _text_code.TextCode, /, *,
-                 tag: Tag | str = Tag.COMMON) -> _typing.Iterator[str]:
+                 tag: TagStr = Tag.COMMON) -> _typing.Iterator[str]:
     tag_name: str = tag.value if isinstance(tag, Tag) else tag
     return (block.text for block in code.blocks if block.common or block.tag == tag_name)
 
 
 def code_to_str(code: _text_code.TextCode, /, *,
-                tag: Tag | str = Tag.COMMON) -> str:
+                tag: TagStr = Tag.COMMON) -> str:
     return ''.join(code_to_strs(code, tag=tag))
