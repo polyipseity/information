@@ -6,14 +6,13 @@ import types as _types
 import typing as _typing
 
 from .. import globals as _globals
-from .. import util as _util
 from . import environment as _environment
 from . import venv as _venv
 from . import write as _write
 
 
 class Reader(metaclass=_abc.ABCMeta):
-    registry: dict[str, type] = {}
+    registry: _typing.MutableMapping[str, type] = {}
     __slots__ = ()
 
     @_abc.abstractmethod
@@ -40,22 +39,22 @@ class Reader(metaclass=_abc.ABCMeta):
         return NotImplemented
 
 
-def _Python_env(reader: Reader) -> dict[str, _typing.Any]:
+def _Python_env(reader: Reader) -> _typing.Mapping[str, _typing.Any]:
     def cwf_section(section: str) -> _environment.util.Location:
         return _typing.cast(_environment.util.Location,
                             _environment.util.FileSection(
                                 path=reader.path, section=section)
                             )
-    return {
+    return _types.MappingProxyType({
         'cwf': reader.path,
         'cwd': reader.path.parent,
         'cwf_section': cwf_section,
-    }
+    })
 
 
 class MarkdownReader:
     __slots__ = ('__path', '__codes')
-    builtins_exclude: frozenset[str] = frozenset(
+    builtins_exclude: _typing.AbstractSet[str] = frozenset(
         # constants: https://docs.python.org/library/constants.html
         # functions: https://docs.python.org/library/functions.html
     )
@@ -88,7 +87,8 @@ class MarkdownReader:
             start = text.find(self.start, stop + len(self.stop))
 
     def pipe(self: _typing.Self) -> _typing.Collection[_write.Writer]:
-        vars: dict[str, _typing.Any] = _environment.__dict__.copy()
+        vars: _typing.MutableMapping[str,
+                                     _typing.Any] = _environment.__dict__.copy()
         vars['__builtins__'] = {
             k: v for k, v in _builtins.__dict__.items() if k not in self.builtins_exclude}
         env: _venv.Environment = _venv.Environment(
