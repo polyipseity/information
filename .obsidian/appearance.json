@@ -1,6 +1,9 @@
 {
   "baseFontSize": 20,
   "translucency": true,
-  "theme": "obsidian",
-  "accentColor": ""
+  "theme": "system",
+  "accentColor": "#ffaebd",
+  "interfaceFontFamily": "Calibri,Arial",
+  "textFontFamily": "Courier New,Courier,Arial",
+  "monospaceFontFamily": "Consolas,Arial"
 }

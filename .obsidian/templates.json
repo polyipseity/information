@@ -1,3 +1,4 @@
 {
-  "timeFormat": "HH:mm:ss.SSSZ"
+  "timeFormat": "HH:mm:ss.SSSZ",
+  "dateFormat": "YYYY-MM-DD"
 }
