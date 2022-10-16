@@ -7,7 +7,7 @@ from . import text_code as _text_code
 
 
 def quote_text(code: _text_code.TextCode, /, *,
-               tag: _misc.TagStr) -> str:
+               tag: _misc.TagStr = _misc.Tag.COMMON) -> str:
     return _util.Unit(code)\
         .map(lambda code: _misc.code_to_str(code, tag=tag))\
         .map(lambda text: _misc.affix_lines(text, prefix='> '))\
