@@ -68,7 +68,7 @@ def attach_flashcard_states(text: str, /, *, states: _typing.Iterable[str]) -> s
     return ''.join(ret_gen())
 
 
-def memorize_seq_linked(strs: _typing.Iterable[str], /, *,
+def memorize_linked_seq(strs: _typing.Iterable[str], /, *,
                         reversible: bool = True,
                         hinter: _typing.Callable[[int, str], tuple[str, str]] = lambda idx, str_: ('→', '←'))\
         -> _typing.Iterator[Flashcard]:
