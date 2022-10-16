@@ -1,4 +1,5 @@
 import itertools as _itertools
+import types as _types
 import typing as _typing
 from . import misc as _misc
 
@@ -11,12 +12,12 @@ class Flashcard:
     class SeparatorKey(_typing.NamedTuple):
         reversible: bool
         multiline: bool
-    separators: dict[SeparatorKey, str] = {
+    separators: _typing.Mapping[SeparatorKey, str] = _types.MappingProxyType({
         SeparatorKey(reversible=False, multiline=False): '::',
         SeparatorKey(reversible=True, multiline=False): ':::',
         SeparatorKey(reversible=False, multiline=True): '\n??\n',
         SeparatorKey(reversible=True, multiline=True): '\n???\n',
-    }
+    })
 
     def __init__(self: _typing.Self, left: str, right: str, *, reversible: bool = False) -> None:
         self.__left: str = left

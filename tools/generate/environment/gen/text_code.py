@@ -38,12 +38,14 @@ class TextCode:
 
     def __init__(self: _typing.Self, blocks: _typing.Iterable[Block]) -> None:
         self.__blocks: _typing.Sequence[TextCode.Block] = tuple(blocks)
-        by_tag: dict[str, _typing.MutableSequence[TextCode.ByTagValue]] = {}
+        by_tag: _typing.MutableMapping[str,
+                                       _typing.MutableSequence[TextCode.ByTagValue]] = {}
         for idx, block in enumerate(self.__blocks):
             by_tag.setdefault(block.tag, []).append(
                 TextCode.ByTagValue(idx=idx, block=block))
-        self.__by_tag: dict[str, _typing.Sequence[TextCode.ByTagValue]] = {
-            k: tuple(v) for k, v in by_tag.items()}
+        self.__by_tag: _typing.Mapping[str, _typing.Sequence[TextCode.ByTagValue]] = _types.MappingProxyType({
+            k: tuple(v) for k, v in by_tag.items()
+        })
 
     def __repr__(self: _typing.Self) -> str:
         return f'{TextCode.Block.__qualname__}(blocks={self.__blocks!r})'
@@ -53,8 +55,8 @@ class TextCode:
         self: _typing.Self) -> _typing.Sequence[Block]: return self.__blocks
 
     @property
-    def by_tag(self: _typing.Self) -> _types.MappingProxyType[str, _typing.Sequence[ByTagValue]]:
-        return _types.MappingProxyType(self.__by_tag)
+    def by_tag(self: _typing.Self) -> _typing.Mapping[str, _typing.Sequence[ByTagValue]]:
+        return self.__by_tag
 
     @staticmethod
     def compiler(code: str) -> _typing.Iterator[Block]:
