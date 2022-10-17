@@ -18,6 +18,7 @@ _punctuation_regex: _re.Pattern[str] = _re.compile(
 @_enum.unique
 class Tag(_enum.Enum):
     COMMON = ''
+    COMMENT = 'cmt'
     TEXT = 'text'
     MEMORIZE = 'mem'
     SEMANTICS = 'sem'
