@@ -27,16 +27,18 @@ class Writer(metaclass=_abc.ABCMeta):
 
 
 class PythonWriter:
-    __slots__ = ('__code', '__env')
+    __slots__ = ('__code', '__env', '__comment')
 
     def __init__(self: _typing.Self,
                  code: _typing.Any, /, *,
-                 env: _venv.Environment) -> None:
+                 env: _venv.Environment,
+                 comment: bool = True) -> None:
         self.__code: _typing.Any = code
         self.__env: _venv.Environment = env
+        self.__comment: bool = comment
 
     def __repr__(self: _typing.Self) -> str:
-        return f'{PythonWriter.__qualname__}({self.__code!r}, env={self.__env!r})'
+        return f'{PythonWriter.__qualname__}({self.__code!r}, env={self.__env!r}, comment={self.__comment!r})'
 
     @_contextlib.contextmanager
     def write(self: _typing.Self) -> _typing.Iterator[None]:
@@ -58,8 +60,9 @@ class PythonWriter:
             for result in results:
                 io: _typing.TextIO
                 with result.location.open() as io:
-                    io.write(_globals.generate_comment.format(
-                        now=_datetime.datetime.now().astimezone().isoformat()))
+                    if self.__comment:
+                        io.write(_globals.generate_comment.format(
+                            now=_datetime.datetime.now().astimezone().isoformat()))
                     io.write(result.text)
                     io.truncate()
 
