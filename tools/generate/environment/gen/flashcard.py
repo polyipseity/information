@@ -94,11 +94,12 @@ def semantics_seq_map(map: _typing.Iterable[tuple[str, str]], /, *,
         yield Flashcard(text, sem, reversible=reversible)
 
 
-def punctuation_hinter(hinted: _typing.Callable[[int], bool] = lambda _: True)\
+def punctuation_hinter(hinted: _typing.Callable[[int], bool] = lambda _: True, *,
+                       sanitizer: _typing.Callable[[str], str] = lambda str_: str_)\
         -> _typing.Callable[[int, str], tuple[str, str]]:
     def ret(index: int, str_: str) -> tuple[str, str]:
         if hinted(index):
-            count: int = len(_misc.split_by_punctuations(str_))
+            count: int = len(_misc.split_by_punctuations(sanitizer(str_)))
             return (f'→{count}', f'{count}←')
         return ('→', '←')
     return ret
