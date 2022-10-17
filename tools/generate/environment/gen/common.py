@@ -39,6 +39,7 @@ def quote_text(code: _text_code.TextCode, /, *,
     return _util.Unit(code)\
         .map(lambda code: _misc.code_to_str(code, tag=tag))\
         .map(lambda text: _misc.affix_lines(text, prefix='> '))\
+        .map(_misc.strip_lines)\
         .map('\n'.__add__)\
         .counit()
 
@@ -55,6 +56,7 @@ def memorize_linked_seq(code: _text_code.TextCode, /, *,
                                                          ))\
         .map(_flashcard.listify_flashcards)\
         .map(lambda text: _flashcard.attach_flashcard_states(text, states=states))\
+        .map(_misc.strip_lines)\
         .map('\n'.__add__)\
         .counit()
 
@@ -70,6 +72,7 @@ def semantics_seq_map(text: _text_code.TextCode, sem: _text_code.TextCode, *,
         .map(_flashcard.semantics_seq_map)\
         .map(_flashcard.listify_flashcards)\
         .map(lambda text: _flashcard.attach_flashcard_states(text, states=states))\
+        .map(_misc.strip_lines)\
         .map('\n'.__add__)\
         .counit()
 
