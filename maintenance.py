@@ -1,12 +1,14 @@
 import logging as _logging
 import os as _os
 import pathlib as _pathlib
+import sys as _sys
 import types as _types
 import typing as _typing
 import inspect as _inspect
 
 
 def main() -> None:
+    argv: _typing.Sequence[str] = tuple(_sys.argv)
     try:
         frame: _types.FrameType | None = _inspect.currentframe()
         if not frame:
@@ -25,7 +27,7 @@ def main() -> None:
                         yield _os.path.join(root, file)
         generate_args: _typing.Sequence[str] = tuple(generate_args0())
         print(f'Generating notes from {len(generate_args)} file(s)')
-        tools.generate.main.main(generate_args)
+        tools.generate.main.main(argv + generate_args)
     except:
         _logging.exception('Uncaught exception')
     finally:
