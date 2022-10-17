@@ -8,9 +8,9 @@ open_options: _typing.Mapping[str, _typing.Any] = _types.MappingProxyType({
     'encoding': 'UTF-8', 'errors': 'strict', 'newline': None
 })
 flashcard_regex: _re.Pattern[str] = _re.compile(r'<!--SR:.*?-->', flags=0)
-generate_comment: str = '<!-- Following content is generated at {now}. Any edits will be overridden! -->'
+generate_comment: str = '<!-- The following content is generated at {now}. Any edits will be overridden! -->'
 generate_comment_regex: _re.Pattern[str] = _re.compile(
-    r'^<!-- Following content is generated at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{6}\+\d{2}:\d{2}). Any edits will be overridden! -->',
+    r'^<!-- The following content is generated at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{6}\+\d{2}:\d{2}). Any edits will be overridden! -->',
     flags=0
 )
 assert generate_comment_regex.search(
