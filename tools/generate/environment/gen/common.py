@@ -35,7 +35,7 @@ _html_tag_regex: _re.Pattern[str] = _re.compile(r'<([^>]+)>', flags=0)
 
 
 def quote_text(code: _text_code.TextCode, /, *,
-               tag: _misc.TagStr = _misc.Tag.COMMON) -> str:
+               tag: _misc.TagStr = _misc.Tag.TEXT) -> str:
     return _util.Unit(code)\
         .map(lambda code: _misc.code_to_str(code, tag=tag))\
         .map(lambda text: _misc.affix_lines(text, prefix='> '))\
