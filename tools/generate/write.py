@@ -1,6 +1,7 @@
 import abc as _abc
 import contextlib as _contextlib
 import datetime as _datetime
+import re as _re
 import types as _types
 import typing as _typing
 
@@ -27,18 +28,18 @@ class Writer(metaclass=_abc.ABCMeta):
 
 
 class PythonWriter:
-    __slots__ = ('__code', '__env', '__comment')
+    __slots__ = ('__code', '__env', '__timestamp')
 
     def __init__(self: _typing.Self,
                  code: _typing.Any, /, *,
                  env: _venv.Environment,
-                 comment: bool = True) -> None:
+                 timestamp: bool = True) -> None:
         self.__code: _typing.Any = code
         self.__env: _venv.Environment = env
-        self.__comment: bool = comment
+        self.__timestamp: bool = timestamp
 
     def __repr__(self: _typing.Self) -> str:
-        return f'{PythonWriter.__qualname__}({self.__code!r}, env={self.__env!r}, comment={self.__comment!r})'
+        return f'{PythonWriter.__qualname__}({self.__code!r}, env={self.__env!r}, timestamp={self.__timestamp!r})'
 
     @_contextlib.contextmanager
     def write(self: _typing.Self) -> _typing.Iterator[None]:
@@ -60,9 +61,16 @@ class PythonWriter:
             for result in results:
                 io: _typing.TextIO
                 with result.location.open() as io:
-                    if self.__comment:
+                    if self.__timestamp:
                         io.write(_globals.generate_comment.format(
                             now=_datetime.datetime.now().astimezone().isoformat()))
+                    else:
+                        text: str = io.read()
+                        io.seek(0)
+                        timestamp: _re.Match[str] | None = _globals.generate_comment_regex.search(
+                            text)
+                        if timestamp:
+                            io.write(text[timestamp.start():timestamp.end()])
                     io.write(result.text)
                     io.truncate()
 

@@ -26,7 +26,7 @@ class Reader(metaclass=_abc.ABCMeta):
 
     @property
     @_abc.abstractmethod
-    def comment(self: _typing.Self) -> bool: ...
+    def timestamp(self: _typing.Self) -> bool: ...
 
     @_abc.abstractmethod
     def read(self: _typing.Self, text: str, /) -> None: ...
@@ -39,7 +39,7 @@ class Reader(metaclass=_abc.ABCMeta):
         if cls is Reader:
             if any(all(p not in c.__dict__ or c.__dict__[p] is None
                        for c in subclass.__mro__)
-                   for p in ('path', 'comment', cls.read.__name__, cls.pipe.__name__)):
+                   for p in ('path', 'timestamp', cls.read.__name__, cls.pipe.__name__)):
                 return False
         return NotImplemented
 
@@ -58,7 +58,7 @@ def _Python_env(reader: Reader) -> _typing.Mapping[str, _typing.Any]:
 
 
 class MarkdownReader:
-    __slots__ = ('__path', '__codes', '__comment')
+    __slots__ = ('__path', '__codes', '__timestamp')
     builtins_exclude: _typing.AbstractSet[str] = frozenset(
         # constants: https://docs.python.org/library/constants.html
         # functions: https://docs.python.org/library/functions.html
@@ -70,14 +70,14 @@ class MarkdownReader:
     def path(self: _typing.Self) -> _pathlib.PurePath: return self.__path
 
     @property
-    def comment(self: _typing.Self) -> bool: return self.__comment
+    def timestamp(self: _typing.Self) -> bool: return self.__timestamp
 
     def __init__(self: _typing.Self, *,
                  path: _pathlib.PurePath,
-                 comment: bool = True) -> None:
+                 timestamp: bool = True) -> None:
         self.__path: _pathlib.PurePath = path
         self.__codes: _typing.MutableSequence[_typing.Any] = []
-        self.__comment: bool = comment
+        self.__timestamp: bool = timestamp
 
     def read(self: _typing.Self, text: str, /) -> None:
         start: int = text.find(self.start)
@@ -108,7 +108,7 @@ class MarkdownReader:
             code: _typing.Any
             for code in self.__codes:
                 ret: _write.PythonWriter = _write.PythonWriter(
-                    code, env=env, comment=self.__comment)
+                    code, env=env, timestamp=self.__timestamp)
                 assert isinstance(ret, _write.Writer)
                 yield ret
         return tuple(ret_gen())
