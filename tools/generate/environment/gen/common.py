@@ -91,6 +91,10 @@ def markdown_sanitizer(text: str) -> str:
                 tags.add(tag0)
                 if stack and stack[-1][1] == tag0:
                     matches.extend((stack.pop(), match))
+            elif tag.endswith('/'):
+                tag0: str = tag[:-1]
+                tags.add(tag0)
+                matches.append(match)
             else:
                 tags.add(tag)
                 stack.append(match)
@@ -112,7 +116,9 @@ def markdown_sanitizer(text: str) -> str:
         (len(max(tags, key=lambda tag: len(tag), default='')) + 1)
     md_regex: _MarkdownRegex
     for md_regex in _markdown_regexes:
-        text = md_regex.regex.sub(
-            f'{md_regex.desugared[:-1]}{distingusher}>', text)
+        suffix: str = '/>' if md_regex.desugared.endswith('/>') else\
+            '>' if md_regex.desugared.endswith('>') else ''
+        text = md_regex.regex.sub(f'{md_regex.desugared[:-len(suffix)]}{distingusher}{suffix}',
+                                  text)
     text, _ = get_and_remove_html_tags(text)
     return text
