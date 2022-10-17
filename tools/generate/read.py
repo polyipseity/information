@@ -17,11 +17,16 @@ class Reader(metaclass=_abc.ABCMeta):
 
     @_abc.abstractmethod
     def __init__(self: _typing.Self, *,
-                 path: _pathlib.PurePath) -> None: ...
+                 path: _pathlib.PurePath,
+                 comment: bool = True) -> None: ...
 
     @property
     @_abc.abstractmethod
     def path(self: _typing.Self) -> _pathlib.PurePath: ...
+
+    @property
+    @_abc.abstractmethod
+    def comment(self: _typing.Self) -> bool: ...
 
     @_abc.abstractmethod
     def read(self: _typing.Self, text: str, /) -> None: ...
@@ -34,7 +39,7 @@ class Reader(metaclass=_abc.ABCMeta):
         if cls is Reader:
             if any(all(p not in c.__dict__ or c.__dict__[p] is None
                        for c in subclass.__mro__)
-                   for p in ('path', cls.read.__name__, cls.pipe.__name__)):
+                   for p in ('path', 'comment', cls.read.__name__, cls.pipe.__name__)):
                 return False
         return NotImplemented
 
@@ -53,7 +58,7 @@ def _Python_env(reader: Reader) -> _typing.Mapping[str, _typing.Any]:
 
 
 class MarkdownReader:
-    __slots__ = ('__path', '__codes')
+    __slots__ = ('__path', '__codes', '__comment')
     builtins_exclude: _typing.AbstractSet[str] = frozenset(
         # constants: https://docs.python.org/library/constants.html
         # functions: https://docs.python.org/library/functions.html
@@ -64,10 +69,15 @@ class MarkdownReader:
     @property
     def path(self: _typing.Self) -> _pathlib.PurePath: return self.__path
 
+    @property
+    def comment(self: _typing.Self) -> bool: return self.__comment
+
     def __init__(self: _typing.Self, *,
-                 path: _pathlib.PurePath) -> None:
+                 path: _pathlib.PurePath,
+                 comment: bool = True) -> None:
         self.__path: _pathlib.PurePath = path
         self.__codes: _typing.MutableSequence[_typing.Any] = []
+        self.__comment: bool = comment
 
     def read(self: _typing.Self, text: str, /) -> None:
         start: int = text.find(self.start)
@@ -97,7 +107,8 @@ class MarkdownReader:
         def ret_gen() -> _typing.Iterator[_write.Writer]:
             code: _typing.Any
             for code in self.__codes:
-                ret: _write.PythonWriter = _write.PythonWriter(code, env=env)
+                ret: _write.PythonWriter = _write.PythonWriter(
+                    code, env=env, comment=self.__comment)
                 assert isinstance(ret, _write.Writer)
                 yield ret
         return tuple(ret_gen())
