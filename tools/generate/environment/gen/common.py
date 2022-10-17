@@ -1,3 +1,4 @@
+from operator import le
 import re as _re
 import typing as _typing
 
@@ -6,7 +7,31 @@ from . import flashcard as _flashcard
 from . import misc as _misc
 from . import text_code as _text_code
 
-_html_tag_regex: _re.Pattern[str] = _re.compile(r'<([^>]+)>')
+
+class _MarkdownRegex(_typing.NamedTuple):
+    regex: _re.Pattern[str]
+    desugared: str
+
+
+_markdown_regexes: _typing.Sequence[_MarkdownRegex] = (
+    _MarkdownRegex(regex=_re.compile(r'\b__\B', flags=0),
+                   desugared='<b u>'),
+    _MarkdownRegex(regex=_re.compile(r'\B__(?:\b|$)', flags=0),
+                   desugared='</b u>'),
+    _MarkdownRegex(regex=_re.compile(r'\*\*\B', flags=0),
+                   desugared='<b s>'),
+    _MarkdownRegex(regex=_re.compile(r'\B\*\*', flags=0),
+                   desugared='</b s>'),
+    _MarkdownRegex(regex=_re.compile(r'\b_\B', flags=0),
+                   desugared='<i u>'),
+    _MarkdownRegex(regex=_re.compile(r'\B_(?:\b|$)', flags=0),
+                   desugared='</i u>'),
+    _MarkdownRegex(regex=_re.compile(r'\*\B', flags=0),
+                   desugared='<i s>'),
+    _MarkdownRegex(regex=_re.compile(r'\B\*', flags=0),
+                   desugared='</i s>'),
+)
+_html_tag_regex: _re.Pattern[str] = _re.compile(r'<([^>]+)>', flags=0)
 
 
 def quote_text(code: _text_code.TextCode, /, *,
@@ -50,24 +75,41 @@ def semantics_seq_map(text: _text_code.TextCode, sem: _text_code.TextCode, *,
 
 
 def markdown_sanitizer(text: str) -> str:
-    matches: _typing.MutableSequence[_re.Match[str]] = []
+    def get_and_remove_html_tags(text: str) -> tuple[str, _typing.AbstractSet[str]]:
+        tags: _typing.MutableSet[str] = set()
+        matches: _typing.MutableSequence[_re.Match[str]] = []
 
-    stack: _typing.MutableSequence[_re.Match[str]] = []
-    match: _re.Match[str]
-    for match in _html_tag_regex.finditer(text):
-        tag: str = match[1]
-        if tag.startswith('/'):
-            if stack and stack[-1][1] == tag[1:]:
-                matches.extend((stack.pop(), match))
-        else:
-            stack.append(match)
-    matches.sort(key=lambda match: match.start())
-
-    def ret_gen() -> _typing.Iterator[str]:
-        prev: int = 0
+        stack: _typing.MutableSequence[_re.Match[str]] = []
         match: _re.Match[str]
-        for match in matches:
-            yield text[prev:match.start()]
-            prev = match.end()
-        yield text[prev:]
-    return ''.join(ret_gen())
+        for match in _html_tag_regex.finditer(text):
+            tag: str = match[1]
+            if tag.startswith('/'):
+                tag0: str = tag[1:]
+                tags.add(tag0)
+                if stack and stack[-1][1] == tag0:
+                    matches.extend((stack.pop(), match))
+            else:
+                tags.add(tag)
+                stack.append(match)
+
+        matches.sort(key=lambda match: match.start())
+
+        def ret_gen() -> _typing.Iterator[str]:
+            prev: int = 0
+            match: _re.Match[str]
+            for match in matches:
+                yield text[prev:match.start()]
+                prev = match.end()
+            yield text[prev:]
+        return (''.join(ret_gen()), frozenset(tags))
+
+    tags: _typing.AbstractSet[str]
+    text, tags = get_and_remove_html_tags(text)
+    distingusher: str = '\0' * \
+        (len(max(tags, key=lambda tag: len(tag), default='')) + 1)
+    md_regex: _MarkdownRegex
+    for md_regex in _markdown_regexes:
+        text = md_regex.regex.sub(
+            f'{md_regex.desugared[:-1]}{distingusher}>', text)
+    text, _ = get_and_remove_html_tags(text)
+    return text
