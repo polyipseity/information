@@ -8,6 +8,11 @@ from . import text_code as _text_code
 
 _punctuations: _typing.Collection[str] = tuple(chr(char) for char in range(_sys.maxunicode)
                                                if _unicodedata.category(chr(char)).startswith('P'))
+_punctuation_regex: _re.Pattern[str] = _re.compile(
+    r'(?<={delims})(?!{delims})'.format(
+        delims=r'|'.join(map(_re.escape, _punctuations))),
+    flags=0
+)
 
 
 @_enum.unique
@@ -34,8 +39,7 @@ def affix_lines(text: str, /, *, prefix: str = '', suffix: str = '') -> str:
 
 
 def split_by_punctuations(text: str) -> _typing.Sequence[str]:
-    delims: str = '|'.join(map(_re.escape, _punctuations))
-    return tuple(chunk for chunk in _re.split(f'(?<={delims})(?!{delims})', text) if chunk)
+    return tuple(chunk for chunk in _punctuation_regex.split(text) if chunk)
 
 
 def code_to_strs(code: _text_code.TextCode, /, *,
