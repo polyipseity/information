@@ -38,6 +38,10 @@ def affix_lines(text: str, /, *, prefix: str = '', suffix: str = '') -> str:
     return ''.join(ret_gen())
 
 
+def strip_lines(text: str, /, *, chars: str | None = None) -> str:
+    return '\n'.join(line.strip(chars) for line in text.splitlines())
+
+
 def split_by_punctuations(text: str) -> _typing.Sequence[str]:
     return tuple(chunk for chunk in _punctuation_regex.split(text) if chunk)
 
