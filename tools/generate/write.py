@@ -61,18 +61,18 @@ class PythonWriter:
             for result in results:
                 io: _typing.TextIO
                 with result.location.open() as io:
-                    if self.__timestamp:
-                        io.write(_globals.generate_comment.format(
-                            now=_datetime.datetime.now().astimezone().isoformat()))
-                    else:
-                        text: str = io.read()
+                    text: str = io.read()
+                    timestamp: _re.Match[str] | None = _globals.generate_comment_regex.search(
+                        text)
+                    if result.text != (text[:timestamp.start()] + text[timestamp.end():] if timestamp else text):
                         io.seek(0)
-                        timestamp: _re.Match[str] | None = _globals.generate_comment_regex.search(
-                            text)
-                        if timestamp:
+                        if self.__timestamp:
+                            io.write(_globals.generate_comment.format(
+                                now=_datetime.datetime.now().astimezone().isoformat()))
+                        elif timestamp:
                             io.write(text[timestamp.start():timestamp.end()])
-                    io.write(result.text)
-                    io.truncate()
+                        io.write(result.text)
+                        io.truncate()
 
 
 Writer.register(PythonWriter)
