@@ -43,21 +43,21 @@ class PythonWriter:
 
     @_contextlib.contextmanager
     def write(self: _typing.Self) -> _typing.Iterator[None]:
-        def results_gen() -> _typing.Iterator[_environment.result.Result]:
+        def results_gen() -> _typing.Iterator[_environment.gen.Result]:
             result: _typing.Any = self.__env.exec(self.__code)
             if not isinstance(result, _typing.Iterable):
                 raise TypeError(result)
             ret: _typing.Any
             for ret in result:
-                if not isinstance(ret, _environment.result.Result):
+                if not isinstance(ret, _environment.gen.Result):
                     raise TypeError(ret)
                 yield ret
-        results: _typing.Collection[_environment.result.Result] = tuple(
+        results: _typing.Collection[_environment.gen.Result] = tuple(
             results_gen())
         try:
             yield
         finally:
-            result: _environment.result.Result
+            result: _environment.gen.Result
             for result in results:
                 io: _typing.TextIO
                 with result.location.open() as io:
