@@ -81,11 +81,13 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments | _typing.NoReturn:
                         )
     parser.add_argument('-t', '--timestamp',
                         action='store_true',
+                        default=True,
                         help='update or write timestamp (default)',
                         dest='timestamp',
                         )
     parser.add_argument('-T', '--no-timestamp',
                         action='store_false',
+                        default=False,
                         help='do not update or write timestamp',
                         dest='timestamp',
                         )
