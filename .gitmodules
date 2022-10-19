@@ -1,0 +1,4 @@
+[submodule "tools"]
+	path = tools
+	url = ../notes-tools.git
+	branch = main
