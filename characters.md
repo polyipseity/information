@@ -1,4 +1,0 @@
-# characters
-
-- ←: `&LeftArrow;`
-- →: `&RightArrow;`
