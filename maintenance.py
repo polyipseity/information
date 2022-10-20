@@ -26,7 +26,7 @@ def main() -> None:
                     if file.endswith('.md'):
                         yield _os.path.join(root, file)
         generate_args: _typing.Sequence[str] = tuple(generate_args0())
-        print(f'Generating notes from {len(generate_args)} file(s)')
+        print(f'Generating text from {len(generate_args)} input(s)')
         tools.generate.main.main(argv + generate_args)
     except:
         _logging.exception('Uncaught exception')
