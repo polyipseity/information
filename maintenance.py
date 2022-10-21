@@ -11,7 +11,7 @@ def main() -> None:
     argv: _typing.Sequence[str] = tuple(_sys.argv)
     try:
         frame: _types.FrameType | None = _inspect.currentframe()
-        if not frame:
+        if frame is None:
             raise ValueError(frame)
         filename: str = _inspect.getframeinfo(frame).filename
         folder: _pathlib.Path = _pathlib.Path(
