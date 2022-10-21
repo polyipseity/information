@@ -14,7 +14,8 @@ def main() -> None:
         if not frame:
             raise ValueError(frame)
         filename: str = _inspect.getframeinfo(frame).filename
-        folder: _pathlib.PurePath = _pathlib.PurePath(filename).parent
+        folder: _pathlib.Path = _pathlib.Path(
+            filename).parent.resolve(strict=True)
         import tools
 
         def generate_args0() -> _typing.Iterator[str]:
