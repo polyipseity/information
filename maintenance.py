@@ -28,7 +28,7 @@ def main() -> None:
         generate_args: _typing.Sequence[str] = tuple(generate_args0())
         print(f'Generating text from {len(generate_args)} input(s)')
         tools.generate.main.main(argv + generate_args)
-    except:
+    except Exception:
         _logging.exception('Uncaught exception')
     finally:
         input('Press <enter> to exit')
