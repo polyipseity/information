@@ -113,7 +113,7 @@
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-11-27,190,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::dilute: <span style="color: yellow;">yellow</span>, concentrated: <span style="color: brown; background-color: white;">brown</span> <!--SR:!2022-12-11,111,190-->
-21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2022-10-23,169,238-->
+21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
 
 ## anion
 > name | symbol | charge | color
