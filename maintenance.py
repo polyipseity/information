@@ -16,7 +16,7 @@ def main() -> None:
         filename: str = _inspect.getframeinfo(frame).filename
         folder: _pathlib.Path = _pathlib.Path(
             filename).parent.resolve(strict=True)
-        import tools
+        import tools.generate.main
 
         def generate_args0() -> _typing.Iterator[str]:
             root: str
