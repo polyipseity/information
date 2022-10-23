@@ -122,7 +122,7 @@
 > 9. amines
 1. _(highest)_→:::←cations <!--SR:!2023-02-02,251,324!2023-07-17,394,352-->
 2. cations→:::←carboxylic acids <!--SR:!2022-12-01,188,275!2023-07-19,331,276-->
-3. carboxylic acids→:::←carboxylic acid derivates <!--SR:!2022-10-24,170,306!2023-04-03,289,326-->
+3. carboxylic acids→:::←carboxylic acid derivates <!--SR:!2024-03-27,520,306!2023-04-03,289,326-->
 4. carboxylic acid derivates→:::←nitriles <!--SR:!2022-10-28,8,190!2023-01-29,219,267-->
 5. nitriles→:::←aldehydes <!--SR:!2022-11-18,153,250!2022-11-10,145,250-->
 6. aldehydes→:::←ketones <!--SR:!2022-12-02,167,252!2023-04-18,239,250-->
