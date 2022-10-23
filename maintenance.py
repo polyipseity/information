@@ -32,7 +32,8 @@ def main() -> None:
     except Exception:
         _logging.exception('Uncaught exception')
     finally:
-        input('Press <enter> to exit')
+        print('Press <enter> to exit')
+        input()
 
 
 if __name__ == '__main__':
