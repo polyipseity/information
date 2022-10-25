@@ -13,7 +13,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 ## aliases
 1. calcium carbonate:::limestone <!--SR:!2022-11-12,145,258!2023-04-02,164,299-->
 2. calcium oxide:::quicklime <!--SR:!2023-03-18,208,238!2023-01-22,153,230-->
-3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-10-26,4,230!2022-11-11,81,230-->
+3. calcium hydroxide (solid):::slaked lime <!--SR:!2022-11-05,10,230!2022-11-11,81,230-->
 4. calcium hydroxide (aqueous):::limewater <!--SR:!2022-11-03,14,210!2023-01-21,217,279-->
 
 ## chemical formulas
