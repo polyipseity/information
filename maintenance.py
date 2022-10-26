@@ -6,6 +6,9 @@ import types as _types
 import typing as _typing
 import inspect as _inspect
 
+_root_dir_excludes: _typing.AbstractSet[str] = frozenset(
+    {'.git', '.obsidian', 'templates', 'tools', })
+
 
 def main() -> None:
     argv: _typing.Sequence[str] = tuple(_sys.argv)
@@ -20,8 +23,16 @@ def main() -> None:
 
         def generate_args0() -> _typing.Iterator[str]:
             root: str
+            dirs: _typing.MutableSequence[str]
             files: _typing.Sequence[str]
-            for root, _, files in _os.walk(folder):
+            for root, dirs, files in _os.walk(folder):
+                if _pathlib.Path(root).resolve(strict=True) == folder:
+                    exclude: str
+                    for exclude in _root_dir_excludes:
+                        try:
+                            dirs.remove(exclude)
+                        except ValueError:
+                            pass
                 file: str
                 for file in files:
                     if file.endswith('.md'):
