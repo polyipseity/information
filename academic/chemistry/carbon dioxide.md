@@ -16,4 +16,4 @@ aliases: ["CO2"]
 >     - observation: ==The white precipitates dissolve to give a clear solution again.== <!--SR:!2022-11-15,137,230!2023-02-08,111,230!2023-01-19,150,206!2022-12-23,63,226!2023-08-31,312,246!2023-08-11,295,246!2022-12-20,61,226-->
 
 ### [hydrogencarbonate indicator](hydrogencarbonate%20indicator)
-> Add hydrogencarbonate indicator to the gas. If the gas is ==CO<sub>2</sub>==, the indicator could turn from ==red== to ==yellow==. <!--SR:!2023-05-09,260,270!2022-10-27,124,230!2022-10-30,134,246-->
+> Add hydrogencarbonate indicator to the gas. If the gas is ==CO<sub>2</sub>==, the indicator could turn from ==red== to ==yellow==. <!--SR:!2023-05-09,260,270!2023-08-11,288,230!2022-10-30,134,246-->
