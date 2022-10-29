@@ -13,7 +13,7 @@ aliases: ["methyl orange", "litmus", "litmus paper", "red litmus paper", "blue l
 > 3.1~4.4 | <span style="color: orange;">orange</span>
 > 4.4~14 | <span style="color: yellow;">yellow</span>
 1. 1~3.1:::<span style="color: red;">red</span> <!--SR:!2023-04-11,232,250!2023-07-05,258,230-->
-2. 3.1~4.4:::<span style="color: orange;">orange</span> <!--SR:!2022-10-29,133,250!2023-07-15,268,230-->
+2. 3.1~4.4:::<span style="color: orange;">orange</span> <!--SR:!2023-10-09,345,250!2023-07-15,268,230-->
 3. 4.4~14:::<span style="color: yellow;">yellow</span> <!--SR:!2023-01-07,79,230!2023-01-24,96,210-->
 
 ## litmus
