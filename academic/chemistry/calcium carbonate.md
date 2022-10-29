@@ -10,10 +10,10 @@ __Calcium carbonate__, also known as ==limestone==, is a solid [ionic compound](
 
 ## reactions
 
-Calcium carbonate ==decomposes under heating==:
+Calcium carbonate ==decomposes under heating==.
 > ==CaCO<sub>3</sub>(s) $\xrightarrow{\text{heat}}$ CaO(s) + CO<sub>2</sub>(g)== <!--SR:!2022-11-30,165,250!2024-01-01,438,290-->
 
-It also ==reacts with acids==:
+It also ==reacts with acids==.
 > ==CaCO<sub>3</sub>(s) + 2HCl(aq) → CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)== <!--SR:!2023-04-06,227,257!2023-10-21,366,279-->
 
 ### tests
