@@ -12,7 +12,7 @@ __Calcium hydroxide__, also known as ==slaked lime== in its solid state and ==li
 
 ### tests
 
-Calcium hydroxide can be used to test for ==[carbon dioxide](carbon%20dioxide.md)==.
+Calcium hydroxide can be used to test for ==[carbon dioxide](carbon%20dioxide.md)==. <!--SR:!2022-11-01,3,258-->
 
 ### preparation
 %%
