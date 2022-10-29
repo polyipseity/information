@@ -10,13 +10,13 @@ aliases: ["CO2"]
 
 ### tests
 
-Carbon dioxide can be tested using ==calcium compounds or [hydrogencarbonate indicator](hydrogencarbonate%20indicator.md)==.
+Carbon dioxide can be tested using ==calcium compounds or [hydrogencarbonate indicator](hydrogencarbonate%20indicator.md)==. <!--SR:!2022-10-31,2,242-->
 
 #### calcium compounds
 
 When carbon dioxide is ==passed into aqueous [calcium hydroxide](calcium%20hydroxide.md) solution==, ==solid [calcium carbonate](calcium%20carbonate.md) and [water](water.md)== is formed. ==Formation of white precipitates== can be observed. When ==excess== carbon dioxide is passed into the solution, ==calcium carbonate reacts with carbon dioxide and water== to give ==[calcium hydrogencarbonate](calcium%20hydrogencarbonate.md)==. ==Dissolution of white precipitates== can be observed.
 > 1. ==Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l)==
-> 2. ==CaCO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)== <!--SR:!2022-11-15,137,230!2023-02-08,111,230!2023-01-19,150,206!2022-12-23,63,226!2023-08-31,312,246!2023-08-11,295,246!2022-12-20,61,226-->
+> 2. ==CaCO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)== <!--SR:!2022-11-15,137,230!2023-02-08,111,230!2023-01-19,150,206!2022-12-23,63,226!2023-08-31,312,246!2023-08-11,295,246!2022-12-20,61,226!2022-10-31,2,242!2022-10-31,2,242-->
 
 ### hydrogencarbonate indicator
 
