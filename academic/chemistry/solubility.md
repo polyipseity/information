@@ -4,7 +4,7 @@
 
 ## solubility charts
 
-### [ionic compounds](ionic%20compound) in [water](water)
+### ionic compounds in water
 > compound(s) | solubility
 > -|-
 > group I (except Li<sub>3</sub>PO<sub>4</sub>) | <span style="color: green;">soluble</span>

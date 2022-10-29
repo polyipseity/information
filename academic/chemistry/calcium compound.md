@@ -4,7 +4,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 
 #flashcards/chemistry/calcium_compound #academic/chemistry
 
-# [calcium](calcium) compound
+# calcium compound
 
 > - calcium carbonate (limestone): CaCO<sub>3</sub> - white solid
 > - calcium oxide (quicklime): CaO - white solid
@@ -37,7 +37,7 @@ aliases: ["calcium carbonate", "limestone", "CaCO3", "calcium oxide", "quicklime
 2. Dissolve Ca(OH)<sub>2</sub>(s) in [deionized](deionized) [water](water).→:::←Filter the solution to obtain the [filtrate](filtrate).
 3. Filter the solution to obtain the [filtrate](filtrate).→:::←_(end)_
 
-### test for [carbon dioxide](carbon%20dioxide)
+### test for carbon dioxide
 ![](carbon%20dioxide.md#calcium%20carbonate%20calcium%2020compound%20md)
 
 ### calcium carbonate
