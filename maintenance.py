@@ -120,17 +120,22 @@ def main(argv: _typing.Sequence[str]) -> None:
                 mod_times.clear()
             generate_args: _typing.Sequence[str] = tuple(generate_args0())
             print(f'Generating text from {len(generate_args)} input(s)')
+            success: bool = True
             if generate_args:
-                tools.generate.main.main(
-                    tuple(_itertools.chain((args.prog,), args.arguments, generate_args)))
+                try:
+                    tools.generate.main.main(
+                        tuple(_itertools.chain((args.prog,), args.arguments, generate_args)))
+                except SystemExit as ex:
+                    success = ex.code == 0
 
-            finalizer: _typing.Callable[[], None]
-            for finalizer in finalizers:
-                finalizer()
-            generate_data.seek(0)
-            _json.dump(data, generate_data,
-                       ensure_ascii=False, sort_keys=True, indent=2)
-            generate_data.truncate()
+            if success:
+                finalizer: _typing.Callable[[], None]
+                for finalizer in finalizers:
+                    finalizer()
+                generate_data.seek(0)
+                _json.dump(data, generate_data,
+                           ensure_ascii=False, sort_keys=True, indent=2)
+                generate_data.truncate()
     except Exception:
         _logging.exception('Uncaught exception')
     finally:
@@ -139,6 +144,7 @@ def main(argv: _typing.Sequence[str]) -> None:
             input()
         except EOFError:
             pass
+    _sys.exit(0)
 
 
 def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
