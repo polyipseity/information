@@ -7,12 +7,63 @@ aliases: ["oxidation number"]
 # oxidation state
 
 ## simple approach
-> 1. ==element in a free form: 0==
-> 2. ==ionic compound or ion: charge==
-> 3. ==fluorine: -1==
-> 4. ==(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1==
-> 5. ==group I metals: +1==
-> 6. ==group II metals: +2==
-> 7. ==metallic hydride: -1==
-> 8. ==hydrogen: +1==
-> 9. ==(if not bonded to oxygen or fluorine) oxygen: -2== <!--SR:!2023-11-26,402,290!2023-10-05,350,270!2023-09-20,328,250!2023-06-26,249,230!2023-10-08,345,250!2023-02-13,116,230!2023-01-09,81,230!2023-09-02,315,250!2022-12-27,127,230-->
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+data: gen.TextCode = gen.common.seq_to_code((
+		r'element in a free form\: 0',
+		r'ionic compound or ion\: _charge_',
+		r'fluorine\: -1',
+		r'(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine\: -1',
+		r'group I metal\: +1',
+		r'group II metal\: +2',
+		r'metallic hydride\: -1',
+		r'hydrogen\: +1',
+		r'(if not bonded to oxygen or flourine) oxygen\: -2',
+	),
+	index=1,)
+data_affixed: gen.TextCode = gen.affix_code(data,
+	prefix='{mem:_(begin)_}', suffix='{mem:_(end)_}',)
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('2d99fe'),
+		text=gen.common.quote_text(data),
+	),
+	gen.Result(
+		location=__env__.cwf_section('341d9e'),
+		text=gen.common.memorize_linked_seq(data_affixed,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('341d9e')),
+		),
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2d99fe"--><!-- The following content is generated at 2022-10-30T12:53:17.410743+08:00. Any edits will be overridden! -->
+
+> 1. element in a free form: 0
+> 2. ionic compound or ion: _charge_
+> 3. fluorine: -1
+> 4. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1
+> 5. group I metal: +1
+> 6. group II metal: +2
+> 7. metallic hydride: -1
+> 8. hydrogen: +1
+> 9. (if not bonded to oxygen or flourine) oxygen: -2
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2022-10-30T12:53:17.417741+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←element in a free form: 0
+2. element in a free form: 0→:::←ionic compound or ion: _charge_
+3. ionic compound or ion: _charge_→:::←fluorine: -1
+4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1
+5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1
+6. group I metal: +1→:::←group II metal: +2
+7. group II metal: +2→:::←metallic hydride: -1
+8. metallic hydride: -1→:::←hydrogen: +1
+9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2
+10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
