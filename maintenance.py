@@ -1,9 +1,13 @@
 import appdirs as _appdirs
+import argparse as _argparse
+import dataclasses as _dataclasses
 import inspect as _inspect
+import itertools as _itertools
 import json as _json
 import logging as _logging
 import os as _os
 import pathlib as _pathlib
+import shutil as _shutil
 import sys as _sys
 import types as _types
 import typing as _typing
@@ -19,8 +23,27 @@ _local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
 )
 
 
-def main() -> None:
-    argv: _typing.Sequence[str] = tuple(_sys.argv)
+@_typing.final
+@_dataclasses.dataclass(init=True,
+                        repr=True,
+                        eq=True,
+                        order=False,
+                        unsafe_hash=False,
+                        frozen=True,
+                        match_args=True,
+                        kw_only=True,
+                        slots=True,)
+class Arguments:
+    cached: bool
+    arguments: _typing.Sequence[str]
+
+    def __post_init__(self: _typing.Self) -> None:
+        object.__setattr__(self, 'arguments', tuple(self.arguments))
+
+
+def main(argv: _typing.Sequence[str]) -> None:
+    args: Arguments = parse_argv(argv)
+
     try:
         frame: _types.FrameType | None = _inspect.currentframe()
         if frame is None:
@@ -30,6 +53,8 @@ def main() -> None:
             filename).parent.resolve(strict=True)
         local_data_folder: _pathlib.Path = _pathlib.Path(
             _local_app_dirs.user_data_dir)
+        if not args.cached and local_data_folder.exists():
+            _shutil.rmtree(local_data_folder, ignore_errors=False)
         local_data_folder.mkdir(parents=True, exist_ok=True)
         local_data_folder = local_data_folder.resolve(strict=True)
 
@@ -85,7 +110,8 @@ def main() -> None:
             generate_args: _typing.Sequence[str] = tuple(generate_args0())
             print(f'Generating text from {len(generate_args)} input(s)')
             if generate_args:
-                tools.generate.main.main(argv + generate_args)
+                tools.generate.main.main(
+                    tuple(_itertools.chain(args.arguments, generate_args)))
 
             finalizer: _typing.Callable[[], None]
             for finalizer in finalizers:
@@ -104,5 +130,36 @@ def main() -> None:
             pass
 
 
+def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
+    prog: str = argv[0]
+
+    parser: _argparse.ArgumentParser = _argparse.ArgumentParser(
+        prog=prog,
+        description='maintain notes',
+        add_help=True,
+        allow_abbrev=False,
+        exit_on_error=False,
+    )
+    parser.add_argument('-c', '--cached',
+                        action='store_true',
+                        default=True,
+                        help='use cache (default)',
+                        dest='cached',)
+    parser.add_argument('-C', '--no-cached',
+                        action='store_false',
+                        default=False,
+                        help='do not use cache',
+                        dest='cached',)
+    parser.add_argument('arguments',
+                        action='store',
+                        nargs=_argparse.ZERO_OR_MORE,
+                        help='sequence of argument(s) to pass through',)
+    input: _argparse.Namespace = parser.parse_args(argv[1:])
+    return Arguments(
+        cached=input.cached,
+        arguments=tuple(_itertools.chain((argv[0],), input.arguments)),
+    )
+
+
 if __name__ == '__main__':
-    main()
+    main(_sys.argv)
