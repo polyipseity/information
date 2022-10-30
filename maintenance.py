@@ -98,7 +98,10 @@ def main() -> None:
         _logging.exception('Uncaught exception')
     finally:
         print('Press <enter> to exit')
-        input()
+        try:
+            input()
+        except EOFError:
+            pass
 
 
 if __name__ == '__main__':
