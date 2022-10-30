@@ -35,6 +35,7 @@ _local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
                         kw_only=True,
                         slots=True,)
 class Arguments:
+    prog: str
     cached: bool
     arguments: _typing.Sequence[str]
 
@@ -121,7 +122,7 @@ def main(argv: _typing.Sequence[str]) -> None:
             print(f'Generating text from {len(generate_args)} input(s)')
             if generate_args:
                 tools.generate.main.main(
-                    tuple(_itertools.chain(args.arguments, generate_args)))
+                    tuple(_itertools.chain((args.prog,), args.arguments, generate_args)))
 
             finalizer: _typing.Callable[[], None]
             for finalizer in finalizers:
@@ -166,8 +167,9 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
                         help='sequence of argument(s) to pass through',)
     input: _argparse.Namespace = parser.parse_args(argv[1:])
     return Arguments(
+        prog=prog,
         cached=input.cached,
-        arguments=tuple(_itertools.chain((argv[0],), input.arguments)),
+        arguments=input.arguments,
     )
 
 
