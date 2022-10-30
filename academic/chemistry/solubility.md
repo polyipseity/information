@@ -88,11 +88,11 @@ __env__.result = gen.Results(
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262-->
+> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2022-11-02,3,249-->
 
 > nitrates
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_== <!--SR:!2023-07-09,254,216-->
+> - exception(s): ==_(none)_== <!--SR:!2023-07-09,254,216!2022-11-02,3,249-->
 
 > acetates (ethanoates)
 > - general solubility: ==<span style="color: green;">soluble</span>==
