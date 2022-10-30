@@ -56,14 +56,14 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2022-10-30T12:53:17.417741+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←element in a free form: 0
-2. element in a free form: 0→:::←ionic compound or ion: _charge_
-3. ionic compound or ion: _charge_→:::←fluorine: -1
-4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1
-5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1
-6. group I metal: +1→:::←group II metal: +2
-7. group II metal: +2→:::←metallic hydride: -1
-8. metallic hydride: -1→:::←hydrogen: +1
-9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2
-10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_
+1. _(begin)_→:::←element in a free form: 0 <!--SR:!2022-11-03,4,270!2022-11-03,4,270-->
+2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2022-11-02,3,250!2022-11-03,4,270-->
+3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2022-11-02,3,250!2022-11-02,3,250-->
+4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2022-11-02,3,250!2022-11-02,3,250-->
+5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2022-11-02,3,250!2022-11-02,3,250-->
+6. group I metal: +1→:::←group II metal: +2 <!--SR:!2022-11-02,3,250!2022-11-03,4,270-->
+7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2022-11-02,3,250!2022-11-02,3,250-->
+8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2022-11-03,4,270!2022-11-03,4,270-->
+9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2022-11-02,3,250!2022-11-02,3,250-->
+10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2022-11-03,4,270!2022-11-02,3,250-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
