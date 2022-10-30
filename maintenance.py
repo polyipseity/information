@@ -5,6 +5,7 @@ import inspect as _inspect
 import itertools as _itertools
 import json as _json
 import logging as _logging
+import operator as _operator
 import os as _os
 import pathlib as _pathlib
 import shutil as _shutil
@@ -51,6 +52,7 @@ def main(argv: _typing.Sequence[str]) -> None:
         filename: str = _inspect.getframeinfo(frame).filename
         folder: _pathlib.Path = _pathlib.Path(
             filename).parent.resolve(strict=True)
+
         local_data_folder: _pathlib.Path = _pathlib.Path(
             _local_app_dirs.user_data_dir)
         if not args.cached and local_data_folder.exists():
@@ -72,6 +74,14 @@ def main(argv: _typing.Sequence[str]) -> None:
                 print('Generate data is empty or corrupted so it will be regenerated')
             finalizers: _typing.MutableSequence[_typing.Callable[[], None]] = [
             ]
+
+            try:
+                old_args: _typing.Collection[str] = data['args']
+            except KeyError:
+                old_args = ()
+            diff_args: bool = any(_itertools.starmap(
+                _operator.ne, _itertools.zip_longest(args.arguments, old_args)))
+            data['args'] = args.arguments
 
             def generate_args0() -> _typing.Iterator[str]:
                 mod_times: _typing.MutableMapping[str, int] = data.setdefault(
@@ -98,7 +108,7 @@ def main(argv: _typing.Sequence[str]) -> None:
                         if file.endswith('.md'):
                             ret: str = _os.path.join(root, file)
                             try:
-                                if mod_times[ret] != _os.lstat(ret).st_mtime_ns:
+                                if diff_args or mod_times[ret] != _os.lstat(ret).st_mtime_ns:
                                     yield ret
                             except KeyError:
                                 yield ret
