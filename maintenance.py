@@ -80,7 +80,7 @@ def main(argv: _typing.Sequence[str]) -> None:
             except KeyError:
                 old_args = ()
             diff_args: bool = any(_itertools.starmap(
-                _operator.ne, _itertools.zip_longest(args.arguments, old_args)))
+                _operator.ne, _itertools.zip_longest(args.arguments, old_args, fillvalue=object())))
             data['args'] = args.arguments
 
             def generate_args0() -> _typing.Iterator[str]:
