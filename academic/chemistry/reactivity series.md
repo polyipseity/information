@@ -1,5 +1,5 @@
 ---
-aliases: ["activity series"]
+aliases: ['activity series',]
 ---
 
 #flashcards/chemistry/reactivity_series #academic/chemistry
