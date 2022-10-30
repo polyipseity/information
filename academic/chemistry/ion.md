@@ -84,7 +84,7 @@
 12. iron(II) ion::2+ <!--SR:!2023-05-01,376,353-->
 13. nickel(II) ion::2+ <!--SR:!2023-01-17,289,332-->
 14. copper(II) ion::2+ <!--SR:!2023-03-09,334,352-->
-15. zinc ion::2+ <!--SR:!2022-10-30,176,244-->
+15. zinc ion::2+ <!--SR:!2023-01-25,87,224-->
 16. manganese(II) ion::2+ <!--SR:!2023-01-13,289,347-->
 17. mercury(II) ion::2+ <!--SR:!2023-02-21,321,354-->
 18. cobalt(II) ion::2+ <!--SR:!2023-02-08,311,352-->
@@ -106,7 +106,7 @@
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2022-11-08,190,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-12-22,122,227-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-10-30,10,190-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-11-20,21,190-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-12-28,128,230-->
 17. mercury(II) ion:<!-- flashcard disabled -->:
@@ -145,7 +145,7 @@
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2023-02-22,322,354-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2023-03-04,330,353!2022-11-11,234,334-->
 4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2022-12-02,213,274-->
-5. iodide ion:::I<sup>-</sup> <!--SR:!2022-10-30,229,332!2023-05-02,318,293-->
+5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2023-05-02,318,293-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2023-01-29,298,332!2023-02-05,308,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-01-18,90,239!2023-05-05,319,290-->
@@ -175,7 +175,7 @@
 9. hydrogencarbonate ion::1- <!--SR:!2023-10-31,435,290-->
 10. hydrogensulfite ion::1- <!--SR:!2022-12-01,234,319-->
 11. hydrogensulfate ion::1- <!--SR:!2023-04-18,304,284-->
-12. permanganate ion::1- <!--SR:!2022-10-30,6,230-->
+12. permanganate ion::1- <!--SR:!2022-11-15,16,230-->
 13. oxide ion::2- <!--SR:!2023-04-30,316,290-->
 14. sulfide ion::2- <!--SR:!2022-12-30,71,230-->
 15. sulfate ion::2- <!--SR:!2023-10-15,419,290-->
