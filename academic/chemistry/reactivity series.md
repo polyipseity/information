@@ -95,7 +95,8 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a2994d'),
 		text=gen.common.cloze_text(text,
-			states=read.read_flashcard_states(__env__.cwf_section('a2994d'))),
+			states=read.read_flashcard_states(__env__.cwf_section('a2994d'))
+		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('299018'),
