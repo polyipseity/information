@@ -12,7 +12,7 @@ aliases: ['electrochemical series',]
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 import decimal, types, typing
-lf: str = '\n'
+bs: str = '\\'
 
 @typing.final
 class Redox(typing.NamedTuple):
@@ -57,17 +57,19 @@ for rdx in data:
 	data_by_element[rdx.element] = data_by_element.get(rdx.element, ()) + (rdx,)
 data_by_element = types.MappingProxyType(data_by_element)
 
-table: str = gen.affix_lines(fr'''
+table: str = gen.affix_lines(f''' 
 (lowest oxidizing power/highest reducing power)
 
-element | oxidant | ⇌ | reductant | $E^\ominus_\text{{red}}$/V | electrons
--|-:|:-:|:-|-|-
-{lf.join(f'{rdx.element} | {rdx.oxidant} | ⇌ | {rdx.reductant} | {rdx.potential} | {rdx.electrons}' for rdx in data)}
+{gen.common.rows_to_table(data,
+	names=('element', ('oxidant', 'right'), ('⇌', 'center'), ('reductant', 'left'), f'$E^{bs}ominus_{bs}text{{red}}$/V', 'electrons'),
+	values=lambda rdx: (rdx.element, rdx.oxidant, '⇌', rdx.reductant, rdx.potential, rdx.electrons),
+)}
 
 (highest oxidizing power/lowest reducing power)''',
 	prefix='> ',)
-potentials: gen.TextCode = gen.TextCode.compile(
-	'{}'.join(f'{gen.TextCode.escape(rdx.oxidant)} ⇌ {gen.TextCode.escape(rdx.reductant)}{{}}{gen.TextCode.escape(str(rdx.potential))}' for rdx in data)
+potentials: gen.TextCode = gen.common.two_columns_to_code(data,
+	left=lambda rdx: gen.TextCode.escape(rdx.equation),
+	right=lambda rdx: gen.TextCode.escape(str(rdx.potential))
 )
 elements: gen.TextCode = gen.TextCode.compile(
 	'{}'.join(f'{gen.TextCode.escape(ele)}{{}}{gen.TextCode.escape("<br/>".join(rdx.equation for rdx in data_by_element[ele]))}' for ele in sorted(data_by_element))
@@ -97,13 +99,13 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2022-10-31T00:06:26.530585+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2022-10-31T21:09:57.054409+08:00. Any edits will be overridden! -->
 
 >
 > (lowest oxidizing power/highest reducing power)
 >
 > element | oxidant | ⇌ | reductant | $E^\ominus_\text{red}$/V | electrons
-> -|-:|:-:|:-|-|-
+> - | -: | :-: | :- | - | -
 > K | K<sup>+</sup>(aq) + e<sup>-</sup> | ⇌ | K(s) | -2.931 | 1
 > Ca | Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> | ⇌ | Ca(s) | -2.868 | 2
 > Na | Na<sup>+</sup>(aq) + e<sup>-</sup> | ⇌ | Na(s) | -2.71 | 1
@@ -132,7 +134,7 @@ __env__.result = gen.Results(
 > (highest oxidizing power/lowest reducing power)
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2022-10-30T23:55:56.641901+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2022-10-31T21:56:40.068355+08:00. Any edits will be overridden! -->
 
 1. K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s)→::←-2.931 <!--SR:!2022-11-05,7,210-->
 2. Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)→::←-2.868 <!--SR:!2022-11-02,2,150-->
