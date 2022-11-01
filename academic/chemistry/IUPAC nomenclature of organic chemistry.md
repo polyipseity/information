@@ -37,7 +37,7 @@ id_parent: gen.TextCode = gen.common.seq_to_code((
 id_num_dir: gen.TextCode = gen.common.seq_to_code((
 		'smallest locant for the suffix functional group',
 		'smallest locant for multiple bonds',
-		'smallest locant of prefixes',
+		'smallest locant for prefixes',
 	),
 	index=1,
 	prefix='{mem:_(begin)_}',
@@ -192,19 +192,19 @@ The steps for naming an organic compound are:
 
 #### identify numbering direction
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10dacd"--><!-- The following content is generated at 2022-11-01T16:51:45.840618+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10dacd"--><!-- The following content is generated at 2022-11-02T00:11:35.155403+08:00. Any edits will be overridden! -->
 
 > 1. smallest locant for the suffix functional group
 > 2. smallest locant for multiple bonds
-> 3. smallest locant of prefixes
+> 3. smallest locant for prefixes
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-01T19:14:35.643065+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-02T00:11:35.170402+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2023-01-10,205,266-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2023-01-05,201,266-->
-3. smallest locant for multiple bonds→:::←smallest locant of prefixes <!--SR:!2023-12-06,410,266-->
-4. smallest locant of prefixes→:::←_(end)_
+3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266-->
+4. smallest locant for prefixes→:::←_(end)_
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### arrange
