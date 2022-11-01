@@ -12,9 +12,10 @@ data: gen.TextCode = gen.common.seq_to_code((
 	r'O<sub>2</sub>{text:\: 20.946%}',
 	r'Ar{text:\: 0.9340%}',
 	r'CO<sub>2</sub>{text:\: 0.0417% (2022-04-xx)}',
-	'{text:_others_}{mem:_others_}',), index=1)
-data_affixed: gen.TextCode = gen.affix_code(data,
-	prefix='{mem:_(begin)_}', suffix='{mem:_(end)_}',)
+	'{text:_others_}{mem:_others_}{mem lnk:_others_}',),
+	index=1,
+	prefix='{mem lnk:_(begin)_}',
+	suffix='{mem lnk:_(end)_}',)
 sem: gen.TextCode = gen.TextCode.compile(
 	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )
@@ -25,7 +26,8 @@ __env__.result = gen.Results(
 	),
 	gen.Result(
 		location=__env__.cwf_section('123480'),
-		text=gen.common.memorize_linked_seq(data_affixed,
+		text=gen.common.memorize_linked_seq(data,
+			tag='mem lnk',
 			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('123480')),
 		),
