@@ -19,7 +19,6 @@ class Ion(typing.NamedTuple):
 	symbol: str
 	charge: str
 	color: str
-ion: Ion
 cations: typing.Sequence[Ion] = (
 	Ion(name='hydrogen ion', symbol='H<sup>+</sup>', charge='1+', color='colorless'),
 	Ion(name='sodium ion', symbol='Na<sup>+</sup>', charge='1+', color='colorless'),
@@ -81,7 +80,7 @@ class Section(typing.NamedTuple):
 		return cls(
 			table=gen.affix_lines(gen.common.rows_to_table(rows,
 					names=('name', 'symbol', 'charage', 'color'),
-					values=lambda ion: ion,
+					values=util.identity,
 				),
 				prefix='> ',
 			),

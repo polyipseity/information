@@ -25,7 +25,6 @@ class Redox(typing.NamedTuple):
 	@property
 	def equation(self: typing.Self) -> str:
 		return f'{self.oxidant} ⇌ {self.reductant}'
-rdx: Redox
 data: typing.Sequence[Redox] = tuple(sorted((
 	Redox(element='K', oxidant='K<sup>+</sup>(aq) + e<sup>-</sup>', reductant='K(s)', potential=decimal.Decimal('-2.931'), electrons=1),
 	Redox(element='Ca', oxidant='Ca<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Ca(s)', potential=decimal.Decimal('-2.868'), electrons=2),
