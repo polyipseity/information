@@ -2,139 +2,699 @@
 
 # IUPAC nomenclature of organic chemistry
 
-## instructions
-> 1. ==identification of the parent hydrocarbon chain==
->     1. ==maximum number of substituents of the suffix [functional group](#functional%20groups) of [highest group precedence](#order%20of%20precedence%20of%20groups)==
->     2. ==maximum number of multiple bonds==
->     3. ==maximum length==
->     4. ==maximum number of prefix substituents or branches==
->     5. ==maximum number of single bonds==
-> 2. ==identification of the parent functional group of highest group precedence==
-> 3. ==identification of the side-chains==
-> 4. ==identification of the remaining functional groups==
-> 5. ==identification of multiple bonds==
-> 6. ==numbering of the chain==
->     1. ==lowest-numbered locant for the suffix functional group==
->     2. ==lowest-numbered locant for multiple bonds==
->     3. ==lowest-numbered locant for prefixes==
-> 7. ==numbering of the various substituents and bonds==
->     1. ==prepending of [prefix for number of a type](#prefixes%20for%20number%20of%20a%20type)==
-> 8. arranging: ==prefixes + [prefix for number of carbons](#prefixes%20for%20number%20of%20carbons) + suffixes for bonds + suffix==
->     1. ==prefix order: (alphabetical order ignoring prefixes for number of a type)==
->     2. ==suffixes for bonds order: single bond, double bond, triple bond==
->     3. ==locant order: _N_, (numerical order)==
-> 9. ==omittance of unnecessary numbering==
-> 10. ==[alternation of parts for pronunciation](#alternations%20of%20parts%20for%20pronunciation)==
-> 11. ==adding of punctuation==
->     1. ==commas between locants==
->     2. ==hyphens between a locant and a letter==
->     3. ==merge parts==
-> 12. ==prepending of the notation for _cis_–_trans_ isomerism==
+## principles
 
-## prefixes for number of a type
-> number | prefix
-> -|-
-> ==1== | ==(none)==
-> ==2== | ==di-==
-> ==3== | ==tri-==
-> ==4== | ==tetra-==
-> ==5== | ==penta-==
-> ==6== | ==hexa-==
-> ==7== | ==hepta-==
-> ==8== | ==octa-==
-> ==9== | ==nona-==
-> ==10== | ==deca-==
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+principles: gen.TextCode = gen.common.seq_to_code((
+		'[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)',
+		'identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)',
+		'identify side-chains',
+		'identify remaining functional groups',
+		'identify multiple bonds',
+		'[identify numbering direction](#identify%20numbering%20direction)',
+		'number and [prefix](#prefix%20for%20type%20count) substituents and bonds',
+		'[arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)',
+		'(optional) omit unnecessary locants',
+		'[modify words for pronunciation](#modify%20words%20for%20pronunciation)',
+		'[modify punctuations](#modify%20punctuations)',
+		'prefix notation for _cis_–_trans_ isomerism',
+	),
+	index=1,
+	prefix='{mem:_(begin)_}',
+	suffix='{mem:_(end)_}',)
+id_parent: gen.TextCode = gen.common.seq_to_code((
+		'most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)',
+		'most multiple bonds',
+		'maximum length',
+		'most prefixes',
+		'most single bonds',
+	),
+	index=1,
+	prefix='{mem:_(begin)_}',
+	suffix='{mem:_(end)_}',)
+id_num_dir: gen.TextCode = gen.common.seq_to_code((
+		'smallest locant for the suffix functional group',
+		'smallest locant for multiple bonds',
+		'smallest locant of prefixes',
+	),
+	index=1,
+	prefix='{mem:_(begin)_}',
+	suffix='{mem:_(end)_}',)
+arrange: gen.TextCode = gen.common.seq_to_code((
+		'prefix order: alphabetical order ignoring prefixes for type count',
+		'bond order: single bond, double bond, triple bond, ...',
+	),
+	index=1,
+	prefix='{mem:_(begin)_}',
+	suffix='{mem:_(end)_}',)
+pronuciations: gen.TextCode = gen.TextCode.compile(
+	r'''{text:- }suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u){text:\: }drop '-e'{text:
+- }bond suffix is followed by prefix for type count{text:\: }keep '-e'{text:
+- }prefix for carbon count is followed by prefix for type count{text:\: }add '-a'{}'''
+)
+punctuations: gen.TextCode = gen.common.seq_to_code((
+		'commas (,) between locants',
+		'hyphens (-) between word and locant',
+		'remove (most) spaces ( )',
+	),
+	index=1,
+	prefix='{mem:_(begin)_}',
+	suffix='{mem:_(end)_}',)
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('5193cd'),
+		text=gen.common.quote_text(principles),
+	),
+	gen.Result(
+		location=__env__.cwf_section('48dca2'),
+		text=gen.common.memorize_linked_seq(principles,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('48dca2')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('12cd9e'),
+		text=gen.common.quote_text(id_parent),
+	),
+	gen.Result(
+		location=__env__.cwf_section('920dca'),
+		text=gen.common.memorize_linked_seq(id_parent,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('920dca')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('10dacd'),
+		text=gen.common.quote_text(id_num_dir),
+	),
+	gen.Result(
+		location=__env__.cwf_section('abacdf'),
+		text=gen.common.memorize_linked_seq(id_num_dir,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('abacdf')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('ab93dd'),
+		text=gen.common.quote_text(arrange),
+	),
+	gen.Result(
+		location=__env__.cwf_section('828019'),
+		text=gen.common.memorize_linked_seq(arrange,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('828019')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('299372'),
+		text=gen.common.quote_text(pronuciations),
+	),
+	gen.Result(
+		location=__env__.cwf_section('19fc21'),
+		text=gen.common.memorize_two_sided(pronuciations,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('19fc21')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('a920de'),
+		text=gen.common.quote_text(punctuations),
+	),
+	gen.Result(
+		location=__env__.cwf_section('9293da'),
+		text=gen.common.memorize_linked_seq(punctuations,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('9293da')),
+		),
+	),
+)
+```
+%%
 
-## prefixes for number of carbons
-> number | prefix
-> -|-
-> ==1== | ==meth-==
-> ==2== | ==eth-==
-> ==3== | ==prop-==
-> ==4== | ==but-==
-> ==5== | ==pent-==
-> ==6== | ==hex-==
-> ==7== | ==hept-==
-> ==8== | ==oct-==
-> ==9== | ==non-==
-> ==10== | ==dec-==
-> ==11== | ==undec-==
-> ==12== | ==dodec-==
-> ==13== | ==tricdec-==
-> ==14== | ==tetradec-==
-> ==15== | ==pentadec-==
-> ==16== | ==hexadec-==
-> ==17== | ==heptadec-==
-> ==18== | ==octadec-==
-> ==19== | ==nonadec-==
-> ==20== | ==icos-==
+The steps for naming an organic compound are:
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5193cd"--><!-- The following content is generated at 2022-11-01T20:32:51.925064+08:00. Any edits will be overridden! -->
+
+> 1. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
+> 2. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
+> 3. identify side-chains
+> 4. identify remaining functional groups
+> 5. identify multiple bonds
+> 6. [identify numbering direction](#identify%20numbering%20direction)
+> 7. number and [prefix](#prefix%20for%20type%20count) substituents and bonds
+> 8. [arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)
+> 9. (optional) omit unnecessary locants
+> 10. [modify words for pronunciation](#modify%20words%20for%20pronunciation)
+> 11. [modify punctuations](#modify%20punctuations)
+> 12. prefix notation for _cis_–_trans_ isomerism
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-01T20:32:51.955064+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
+2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains
+4. identify side-chains→:::←identify remaining functional groups
+5. identify remaining functional groups→:::←identify multiple bonds
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction)
+7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds
+8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)
+9. [arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)→:::←(optional) omit unnecessary locants
+10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation)
+11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations)
+12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism
+13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### subprinciples
+
+#### identify parent hydrocarbon chain
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="12cd9e"--><!-- The following content is generated at 2022-11-01T20:32:51.977063+08:00. Any edits will be overridden! -->
+
+> 1. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
+> 2. most multiple bonds
+> 3. maximum length
+> 4. most prefixes
+> 5. most single bonds
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-01T20:32:51.998074+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
+2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds
+3. most multiple bonds→:::←maximum length
+4. maximum length→:::←most prefixes
+5. most prefixes→:::←most single bonds
+6. most single bonds→:::←_(end)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### identify numbering direction
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10dacd"--><!-- The following content is generated at 2022-11-01T16:51:45.840618+08:00. Any edits will be overridden! -->
+
+> 1. smallest locant for the suffix functional group
+> 2. smallest locant for multiple bonds
+> 3. smallest locant of prefixes
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-01T19:14:35.643065+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←smallest locant for the suffix functional group
+2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds
+3. smallest locant for multiple bonds→:::←smallest locant of prefixes
+4. smallest locant of prefixes→:::←_(end)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### arrange
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2022-11-01T16:51:45.864618+08:00. Any edits will be overridden! -->
+
+> 1. prefix order: alphabetical order ignoring prefixes for type count
+> 2. bond order: single bond, double bond, triple bond, ...
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-01T19:14:35.668066+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count
+2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ...
+3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### modify words for pronunciation
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299372"--><!-- The following content is generated at 2022-11-01T19:59:48.519787+08:00. Any edits will be overridden! -->
+
+> - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u): drop '-e'
+> - bond suffix is followed by prefix for type count: keep '-e'
+> - prefix for carbon count is followed by prefix for type count: add '-a'
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-01T19:59:48.531785+08:00. Any edits will be overridden! -->
+
+1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)→:::←drop '-e'
+2. bond suffix is followed by prefix for type count→:::←keep '-e'
+3. prefix for carbon count is followed by prefix for type count→:::←add '-a'
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### modify punctuations
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a920de"--><!-- The following content is generated at 2022-11-01T16:51:45.887616+08:00. Any edits will be overridden! -->
+
+> 1. commas (,) between locants
+> 2. hyphens (-) between word and locant
+> 3. remove (most) spaces ( )
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-01T19:14:35.693065+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←commas (,) between locants
+2. commas (,) between locants→:::←hyphens (-) between word and locant
+3. hyphens (-) between word and locant→:::←remove (most) spaces ( )
+4. remove (most) spaces ( )→:::←_(end)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### prefix for type count
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+text: gen.TextCode = gen.TextCode.compile(
+	r'''{text:- }1{text:\: }(none){text:
+- }2{text:\: }di-{text:
+- }3{text:\: }tri-{text:
+- }4/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
+)
+items: gen.TextCode = gen.common
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('ad83dc'),
+		text=gen.common.quote_text(text),
+	),
+	gen.Result(
+		location=__env__.cwf_section('19dcda'),
+		text=gen.common.memorize_two_sided(text,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('19dcda')),
+		),
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad83dc"--><!-- The following content is generated at 2022-11-01T22:15:18.017410+08:00. Any edits will be overridden! -->
+
+> - 1: (none)
+> - 2: di-
+> - 3: tri-
+> - 4/+: ([prefix for carbon count](#prefix%20for%20carbon%20count))a-
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-01T22:15:18.036421+08:00. Any edits will be overridden! -->
+
+1. 1→:::←(none)
+2. 2→:::←di-
+3. 3→:::←tri-
+4. 4/+→:::←([prefix for carbon count](#prefix%20for%20carbon%20count))a-
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### prefix for carbon count
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+text: gen.TextCode = gen.TextCode.compile(
+	r'''{text:- }1{text:\: }meth-{text:
+- }2{text:\: }eth-{text:
+- }3{text:\: }prop-{text:
+- }4{text:\: }but-{text:
+- }5{text:\: }pent-{text:
+- }6{text:\: }hex-{text:
+- }7{text:\: }hept-{text:
+- }8{text:\: }oct-{text:
+- }9{text:\: }non-{text:
+- }10{text:\: }dec-{text:
+- }11{text:\: }undec-{text:
+- }12{text:\: }dodec-{text:
+- }13{text:\: }tridec-{text:
+- }14{text:\: }tetradec-{text:
+- }15{text:\: }pentadec-{text:
+- }16{text:\: }hexadec-{text:
+- }17{text:\: }heptadec-{text:
+- }18{text:\: }octadec-{text:
+- }19{text:\: }nonadec-{text:
+- }20{text:\: }icos-'''
+)
+items: gen.TextCode = gen.common
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('1239c2'),
+		text=gen.common.quote_text(text),
+	),
+	gen.Result(
+		location=__env__.cwf_section('ca1123'),
+		text=gen.common.memorize_two_sided(text,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('ca1123')),
+		),
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1239c2"--><!-- The following content is generated at 2022-11-01T19:45:31.390338+08:00. Any edits will be overridden! -->
+
+> - 1: meth-
+> - 2: eth-
+> - 3: prop-
+> - 4: but-
+> - 5: pent-
+> - 6: hex-
+> - 7: hept-
+> - 8: oct-
+> - 9: non-
+> - 10: dec-
+> - 11: undec-
+> - 12: dodec-
+> - 13: tridec-
+> - 14: tetradec-
+> - 15: pentadec-
+> - 16: hexadec-
+> - 17: heptadec-
+> - 18: octadec-
+> - 19: nonadec-
+> - 20: icos-
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-01T19:45:31.403337+08:00. Any edits will be overridden! -->
+
+1. 1→:::←meth-
+2. 2→:::←eth-
+3. 3→:::←prop-
+4. 4→:::←but-
+5. 5→:::←pent-
+6. 6→:::←hex-
+7. 7→:::←hept-
+8. 8→:::←oct-
+9. 9→:::←non-
+10. 10→:::←dec-
+11. 11→:::←undec-
+12. 12→:::←dodec-
+13. 13→:::←tridec-
+14. 14→:::←tetradec-
+15. 15→:::←pentadec-
+16. 16→:::←hexadec-
+17. 17→:::←heptadec-
+18. 18→:::←octadec-
+19. 19→:::←nonadec-
+20. 20→:::←icos-
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## functional groups
-> - usage
->     - determine using suffix or prefix
->         1. if this group is for bonds
->             - add suffix
->         2. if suffix is not in the form of "-suffix"
->             - add prefix
->         3. if suffix is available
->             - add suffix
->         4. add prefix
->     - infix
->         1. if target is unspecified
->             - target is this group
->         2. add infix to target
-> - chemical class | group | formula(s) | prefix(es) | suffix(es) | infix(es) | other(s)
->   -|-|-|-|-|-|-
->   ==alkane== | ==alkyl== | ==R(CH<sub>2</sub>)<sub>n</sub>H== | ==(prefix for number of carbons)yl-, alkyl-== | ==-ane== | ==(none), (position number)== | ==__cyclic__==: ==prefix: cyclo-==
->   ==alkene== | ==alkenyl== | ==R<sub>2</sub>C=CR<sub>2</sub>== | ==(prefix for number of carbons)enyl-, alkenyl-== | ==-ene== | ==(position number)== | ==__cyclic__==: ==prefix: cyclo-==
->   ==alkyne== | ==alkynyl== | ==RC≡CR'== | ==(prefix for number of carbons)ynyl-, alkynyl-== | ==-yne== | ==(position number)== | ==__cyclic__==: ==prefix: cyclo-==
->   ==benzene derivative== | ==phenyl== | ==RC<sub>6</sub>H<sub>5</sub>/RPh== | ==phenyl-== | ==-benzene== | ==(none), (position number)== |
->   ==haloalkane== | ==halo== | ==RX== | ==halo-== | ==halide== | ==(position number)== |
->   ==([prefix for halogens](#affixes%20for%20halogens))alkane== | (prefix for halogens) | ==RX== | (prefix for halogens) | ([suffix for halogens](#affixes%20for%20halogens)) | ==(position number)== |
->   ==alcohol== | ==hydroxyl== | ==ROH== | ==hydroxy-== | ==-ol== | ==(position number)== |
->   ==ether== | ==ether== | ==ROR'== | ==__-OR'__==: ==(prefix for number of carbons)oxy-, alkoxy-==<p/>==__-O-__==: ==oxa-== | ==ether== | ==(position number)== |
->   ==aldehyde== | ==aldehyde== | ==RCHO== | ==__=O__==: ==oxo-==<p/>==__-CHO__==: ==formyl-== | ==__=O__==: ==-al==<p/>==__-CHO__==: ==-carbaldehyde== | ==(position number)== |
->   ==ketone== | ==carbonyl== | ==RCOR'== | ==__=O__==: ==oxo-==<p/>==__-COR'__==: ==(prefix for number of carbons)oyl-== | ==-one== | ==(position number)== |
->   ==carboxylic acid== | ==carboxyl== | ==RCOOH== | ==carboxy-== | ==__-(=O)OH__==: ==-(o)ic acid==<p/>==__-COOH__==: ==-carboxylic acid== | ==(position number)== |
->   ==carboxylate== | ==carboxylate== | ==RCOO<sup>-</sip>== | ==carboxy-== | ==-(o)ate== | ==(position number)== |
->   ==alkanoyl== | ==acyl== | ==RCO== | | ==-(o)yl== | ==(position number)== |
->   ==amine== | ==amino== | ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>== | ==__RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N__==: ==amino-==<p/>==__R<sub>4</sub>N<sup>+</sup>__==: ==ammonio-== | ==__RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N__==: ==-amine==<p/>==__R<sub>4</sub>N<sup>+</sup>__==: ==-ammonium== | ==(position number)==<p/>==__R', R", R<sub>3</sub>, R<sub>4</sub>__==: ==_N_== |
->   ==amide== | ==amide== | ==RCONH<sub>2</sub>, RCONHR', RCONR'R"== | ==__-(=O)NX<sub>2</sub>__==: ==amido-==<p/>==__-CONX<sub>2</sub>__==: ==carbamoyl-== | ==__-(=O)NX<sub>2</sub>__==: ==-amide==<p/>==__-CONX<sub>2</sub>__==: ==-carboxamide== | ==(position number)==<p/>==__R', R"__==: ==_N_== |
->   ==nitrile== | ==nitrile== | ==RCN== | ==cyano-== | ==__≡N__==: ==-(o)nitrile, -nitrile==<p/>==__-CN__==: ==-carbonitrile== | ==(position number)== |
 
-### affixes for halogens
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+import typing
+@typing.final
+class Group(typing.NamedTuple):
+	clazz: str
+	group: str
+	formula: str
+	prefix: str
+	suffix: str
+	infix: str
+	misc: typing.Mapping[str, str] = {}
+data: typing.Sequence[Group] = (
+	Group(clazz='alkane', group='alkyl', formula='R(CH<sub>2</sub>)<sub>n</sub>H', prefix='([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-', suffix='-ane', infix='(none), (locant)', misc={'cyclic prefix': 'cyclo-'},),
+	Group(clazz='alkene', group='alkenyl', formula='R<sub>2C=CR<sub>2</sub>', prefix='([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-', suffix='-ene', infix='(locant)', misc={'cyclic prefix': 'cyclo-'},),
+	Group(clazz='alkyne', group='alkynyl', formula='RC≡CR', prefix='([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-', suffix='-yne', infix='(locant)', misc={'cyclic prefix': 'cyclo-'},),
+	Group(clazz='benzene derivative', group='phenyl', formula='RC<sub>6</sub>H<sub>5</sub>/RPh', prefix='phenyl-', suffix='-benzene', infix='(locant)',),
+	Group(clazz='([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane', group='([prefix for halogen](#affixes%20for%20halogen)), halo', formula='RX', prefix='([prefix for halogen](#affixes%20for%20halogen))-, halo-', suffix='([suffix for halogen](#affixes%20for%20halogen))', infix='(locant)',),
+	Group(clazz='alcohol', group='hydroxyl', formula='ROH', prefix='hydroxy-', suffix='-ol', infix='(locant)',),
+	Group(clazz='ether', group='ether', formula='ROR\'', prefix='([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR\'), alkoxy- (-OR\'), oxa- (-O-)', suffix='ether', infix='(locant)',),
+	Group(clazz='aldehyde', group='aldehyde', formula='RCHO', prefix='oxo- (=O), formyl- (-CHO)', suffix='-al (=O), -carbaldehyde (-CHO)', infix='(locant)',),
+	Group(clazz='ketone', group='carbonyl', formula='RCOR\'', prefix='oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR\')', suffix='-one', infix='(locant)'),
+	Group(clazz='carboxylic acid', group='carboxyl', formula='RCOOH', prefix='carboxy-', suffix='-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)', infix='(locant)'),
+	Group(clazz='carboxylate', group='carboxylate', formula='RCOO<sup>-</sup>', prefix='carboxy-', suffix='-ate (retained), -oate', infix='(locant)',),
+	Group(clazz='alkanoyl', group='acyl', formula='RCO', prefix='(none)', suffix='-yl (retained), -oyl', infix='(locant)',),
+	Group(clazz='amine', group='amino', formula='RNH<sub>2</sub>, RR\'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>', prefix='amino- (RNH<sub>2</sub>/RR\'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)', suffix='-amine (RNH<sub>2</sub>/RR\'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)', infix='(locant) & _N_ (R\'/R\'\'/R<sub>3</sub>/R<sub>4</sub>)'),
+	Group(clazz='amide', group='amide', formula='RCONH<sub>2</sub>, RCONHR\', RCONR\'R\'\'', prefix='amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)', suffix='-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)', infix='(locant) & _N_ (R\', R\'\')'),
+	Group(clazz='nitrile', group='nitrile', formula='RCN', prefix='cyano-', suffix='-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)', infix='(locant)'),
+)
+map: typing.Mapping[str, typing.Mapping[str, str]] = {
+	group.clazz: {
+		'group': group.group,
+		'formula': group.formula,
+		'prefix': group.prefix,
+		'suffix': group.suffix,
+		'infix': group.infix,
+		**group.misc,
+	} for group in data
+}
+table: str = gen.affix_lines(
+	gen.common.rows_to_table(data,
+		names=('class', 'group', 'formula', 'prefix', 'suffix', 'infix', 'misc',),
+		values=lambda group: (group.clazz, group.group, group.formula, group.prefix, group.suffix, group.infix,
+			'\n'.join(f'- {key}: {value}' for key, value in group.misc.items()),
+		),
+	),
+	prefix='> ',
+)
+text: gen.TextCode = gen.common.maps_to_code(map,
+	name_cloze=True,)
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('28dcee'),
+		text=gen.common.text(table),
+	),
+	gen.Result(
+		location=__env__.cwf_section('a39fd2'),
+		text=gen.common.cloze_text(text,
+			states=read.read_flashcard_states(__env__.cwf_section('a39fd2')),
+		),
+	),
+)
+```
+%%
+
+Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bonds must use suffixes. Always add infixes.
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28dcee"--><!-- The following content is generated at 2022-11-01T22:49:16.108765+08:00. Any edits will be overridden! -->
+
+> class | group | formula | prefix | suffix | infix | misc
+> -|-|-|-|-|-|-
+> alkane | alkyl | R(CH<sub>2</sub>)<sub>n</sub>H | ([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl- | -ane | (none), (locant) | - cyclic prefix: cyclo-
+> alkene | alkenyl | R<sub>2C=CR<sub>2</sub> | ([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl- | -ene | (locant) | - cyclic prefix: cyclo-
+> alkyne | alkynyl | RC≡CR | ([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl- | -yne | (locant) | - cyclic prefix: cyclo-
+> benzene derivative | phenyl | RC<sub>6</sub>H<sub>5</sub>/RPh | phenyl- | -benzene | (locant) |
+> ([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane | ([prefix for halogen](#affixes%20for%20halogen)), halo | RX | ([prefix for halogen](#affixes%20for%20halogen))-, halo- | ([suffix for halogen](#affixes%20for%20halogen)) | (locant) |
+> alcohol | hydroxyl | ROH | hydroxy- | -ol | (locant) |
+> ether | ether | ROR' | ([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-) | ether | (locant) |
+> aldehyde | aldehyde | RCHO | oxo- (=O), formyl- (-CHO) | -al (=O), -carbaldehyde (-CHO) | (locant) |
+> ketone | carbonyl | RCOR' | oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR') | -one | (locant) |
+> carboxylic acid | carboxyl | RCOOH | carboxy- | -ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH) | (locant) |
+> carboxylate | carboxylate | RCOO<sup>-</sup> | carboxy- | -ate (retained), -oate | (locant) |
+> alkanoyl | acyl | RCO | (none) | -yl (retained), -oyl | (locant) |
+> amine | amino | RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup> | amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>) | -amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>) | (locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>) |
+> amide | amide | RCONH<sub>2</sub>, RCONHR', RCONR'R'' | amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>) | -amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>) | (locant) & _N_ (R', R'') |
+> nitrile | nitrile | RCN | cyano- | -nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN) | (locant) |
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-01T23:29:34.021362+08:00. Any edits will be overridden! -->
+
+> ==alkane==
+> - group: ==alkyl==
+> - formula: ==R(CH<sub>2</sub>)<sub>n</sub>H==
+> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-==
+> - suffix: ==-ane==
+> - infix: ==(none), (locant)==
+> - cyclic prefix: ==cyclo-==
+
+> ==alkene==
+> - group: ==alkenyl==
+> - formula: ==R<sub>2C=CR<sub>2</sub>==
+> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
+> - suffix: ==-ene==
+> - infix: ==(locant)==
+> - cyclic prefix: ==cyclo-==
+
+> ==alkyne==
+> - group: ==alkynyl==
+> - formula: ==RC≡CR==
+> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
+> - suffix: ==-yne==
+> - infix: ==(locant)==
+> - cyclic prefix: ==cyclo-==
+
+> ==benzene derivative==
+> - group: ==phenyl==
+> - formula: ==RC<sub>6</sub>H<sub>5</sub>/RPh==
+> - prefix: ==phenyl-==
+> - suffix: ==-benzene==
+> - infix: ==(locant)==
+
+> ==([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane==
+> - group: ==([prefix for halogen](#affixes%20for%20halogen)), halo==
+> - formula: ==RX==
+> - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
+> - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
+> - infix: ==(locant)==
+
+> ==alcohol==
+> - group: ==hydroxyl==
+> - formula: ==ROH==
+> - prefix: ==hydroxy-==
+> - suffix: ==-ol==
+> - infix: ==(locant)==
+
+> ==ether==
+> - group: ==ether==
+> - formula: ==ROR'==
+> - prefix: ==([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)==
+> - suffix: ==ether==
+> - infix: ==(locant)==
+
+> ==aldehyde==
+> - group: ==aldehyde==
+> - formula: ==RCHO==
+> - prefix: ==oxo- (=O), formyl- (-CHO)==
+> - suffix: ==-al (=O), -carbaldehyde (-CHO)==
+> - infix: ==(locant)==
+
+> ==ketone==
+> - group: ==carbonyl==
+> - formula: ==RCOR'==
+> - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
+> - suffix: ==-one==
+> - infix: ==(locant)==
+
+> ==carboxylic acid==
+> - group: ==carboxyl==
+> - formula: ==RCOOH==
+> - prefix: ==carboxy-==
+> - suffix: ==-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)==
+> - infix: ==(locant)==
+
+> ==carboxylate==
+> - group: ==carboxylate==
+> - formula: ==RCOO<sup>-</sup>==
+> - prefix: ==carboxy-==
+> - suffix: ==-ate (retained), -oate==
+> - infix: ==(locant)==
+
+> ==alkanoyl==
+> - group: ==acyl==
+> - formula: ==RCO==
+> - prefix: ==(none)==
+> - suffix: ==-yl (retained), -oyl==
+> - infix: ==(locant)==
+
+> ==amine==
+> - group: ==amino==
+> - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
+> - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
+> - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
+> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)==
+
+> ==amide==
+> - group: ==amide==
+> - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
+> - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
+> - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
+> - infix: ==(locant) & _N_ (R', R'')==
+
+> ==nitrile==
+> - group: ==nitrile==
+> - formula: ==RCN==
+> - prefix: ==cyano-==
+> - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
+> - infix: ==(locant)==
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### affixes for halogen
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+import typing
+@typing.final
+class Affixes(typing.NamedTuple):
+	element: str
+	prefix: str
+	suffix: str
+data: typing.Sequence[Affixes] = (
+	Affixes(element='fluorine', prefix='fluoro-', suffix='fluoride',),
+	Affixes(element='chlorine', prefix='chloro-', suffix='chloride',),
+	Affixes(element='bromine', prefix='bromo-', suffix='bromide',),
+	Affixes(element='iodine', prefix='iodo-', suffix='iodide',),
+)
+table: gen.TextCode = gen.TextCode.compile(gen.common.rows_to_table(data,
+		names=('element', 'prefix', 'suffix',),
+		values=lambda affixes: map(gen.TextCode.escape,
+			(affixes.element, f'=={affixes.prefix}==', f'=={affixes.suffix}==',)
+		),
+	))
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('adc061'),
+		text=gen.common.cloze_text(table,
+			states=read.read_flashcard_states(__env__.cwf_section('adc061')),
+		),
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="adc061"--><!-- The following content is generated at 2022-11-01T22:17:37.875906+08:00. Any edits will be overridden! -->
+
 > element | prefix | suffix
 > -|-|-
 > fluorine | ==fluoro-== | ==fluoride==
 > chlorine | ==chloro-== | ==chloride==
-> bromine | ==bromo-== | ==bromoide==
+> bromine | ==bromo-== | ==bromide==
 > iodine | ==iodo-== | ==iodide==
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-## order of precedence of groups
-> 1. cations
-> 2. carboxylic acids
-> 3. carboxylic acid derivates
-> 4. nitriles
-> 5. aldehydes
-> 6. ketones
-> 7. alcohols
-> 8. hydroperoxides
-> 9. amines
-1. _(highest)_→:::←cations
-2. cations→:::←carboxylic acids
-3. carboxylic acids→:::←carboxylic acid derivates
-4. carboxylic acid derivates→:::←nitriles
-5. nitriles→:::←aldehydes
-6. aldehydes→:::←ketones
-7. ketones→:::←alcohols
-8. alcohols→:::←hydroperoxides
-9. hydroperoxides→:::←amines
-10. amines→:::←_(lowest)_
+### precedence of functional groups
 
-## alternations of parts for pronunciation
-> - if ==prefix for number of carbons is followed by a prefix for number of a type==
->     - ==add "-a"==
-> - if ==suffix for bonds is followed by a prefix for number of a type==
->     - ==keep "-e"==
-> - if ==suffix ends in "-e" and next suffix starts with a vowel==
->     - ==drop "-e"==
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+text: gen.TextCode = gen.common.seq_to_code((
+	'cation',
+	'carboxylic acid',
+	'carboxylic acid derivate',
+	'nitrile',
+	'aldehyde',
+	'ketone',
+	'alcohol',
+	'hydroperoxide',
+	'amine',
+	),
+	index=1,
+	prefix='{mem:_(highest)_}',
+	suffix='{mem:_(lowest)_}',)
+__env__.result = gen.Results(
+	gen.Result(
+		location=__env__.cwf_section('19cfa2'),
+		text=gen.common.quote_text(text),
+	),
+	gen.Result(
+		location=__env__.cwf_section('ad92c1'),
+		text=gen.common.memorize_linked_seq(text,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('ad92c1')),
+		),
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2022-11-01T20:27:00.912887+08:00. Any edits will be overridden! -->
+
+> 1. cation
+> 2. carboxylic acid
+> 3. carboxylic acid derivate
+> 4. nitrile
+> 5. aldehyde
+> 6. ketone
+> 7. alcohol
+> 8. hydroperoxide
+> 9. amine
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2022-11-01T20:27:00.925894+08:00. Any edits will be overridden! -->
+
+1. _(highest)_→:::←cation
+2. cation→:::←carboxylic acid
+3. carboxylic acid→:::←carboxylic acid derivate
+4. carboxylic acid derivate→:::←nitrile
+5. nitrile→:::←aldehyde
+6. aldehyde→:::←ketone
+7. ketone→:::←alcohol
+8. alcohol→:::←hydroperoxide
+9. hydroperoxide→:::←amine
+10. amine→:::←_(lowest)_
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
