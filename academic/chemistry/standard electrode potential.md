@@ -98,13 +98,13 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2022-10-31T21:09:57.054409+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2022-11-01T23:30:11.207479+08:00. Any edits will be overridden! -->
 
 >
 > (lowest oxidizing power/highest reducing power)
 >
 > element | oxidant | ⇌ | reductant | $E^\ominus_\text{red}$/V | electrons
-> - | -: | :-: | :- | - | -
+> -|-:|:-:|:-|-|-
 > K | K<sup>+</sup>(aq) + e<sup>-</sup> | ⇌ | K(s) | -2.931 | 1
 > Ca | Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> | ⇌ | Ca(s) | -2.868 | 2
 > Na | Na<sup>+</sup>(aq) + e<sup>-</sup> | ⇌ | Na(s) | -2.71 | 1

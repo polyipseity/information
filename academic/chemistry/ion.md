@@ -163,10 +163,10 @@ __env__.result = gen.Results(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2022-10-31T21:51:04.541707+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2022-11-01T23:30:11.543479+08:00. Any edits will be overridden! -->
 
 > name | symbol | charage | color
-> - | - | - | -
+> -|-|-|-
 > hydrogen ion | H<sup>+</sup> | 1+ | colorless
 > sodium ion | Na<sup>+</sup> | 1+ | colorless
 > potassium ion | K<sup>+</sup> | 1+ | colorless
@@ -273,10 +273,10 @@ __env__.result = gen.Results(
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2022-10-31T21:51:04.594709+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2022-11-01T23:30:11.579477+08:00. Any edits will be overridden! -->
 
 > name | symbol | charage | color
-> - | - | - | -
+> -|-|-|-
 > hydride ion | H<sup>-</sup> | 1- | colorless
 > fluoride ion | F<sup>-</sup> | 1- | colorless
 > chloride ion | Cl<sup>-</sup> | 1- | colorless
