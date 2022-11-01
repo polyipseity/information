@@ -88,9 +88,9 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 }
 text: gen.TextCode = gen.common.maps_to_code(data)
 series: gen.TextCode = gen.common.seq_to_code(data.keys(),
-	index=1,)
-series_affixed: gen.TextCode = gen.affix_code(series,
-	prefix='{mem:_(most reactive)_}', suffix='{mem:_(least reactive)_}',)
+	index=1,
+	prefix='{mem:_(most reactive)_}',
+	suffix='{mem:_(least reactive)_}',)
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a2994d'),
@@ -100,7 +100,7 @@ __env__.result = gen.Results(
 	),
 	gen.Result(
 		location=__env__.cwf_section('299018'),
-		text=gen.common.memorize_linked_seq(series_affixed,
+		text=gen.common.memorize_linked_seq(series,
 			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('299018')),
 		),
