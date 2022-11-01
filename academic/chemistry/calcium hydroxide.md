@@ -21,17 +21,18 @@ Calcium hydroxide can be used to test for ==[carbon dioxide](carbon%20dioxide.md
 data: gen.TextCode = gen.common.seq_to_code((
 	'Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).',
 	'Filter the solution to obtain the [filtrate](filtrate.md).',
-	), index=1,)
-data_affixed: gen.TextCode = gen.affix_code(data,
-	prefix='{mem:_(begin)_}', suffix='{mem:_(end)_}',)
+	),
+	index=1,
+	prefix='{mem:_(begin)_}',
+	suffix='{mem:_(end)_}',)
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('12ff7a'),
-		text=gen.common.quote_text(data_affixed),
+		text=gen.common.quote_text(data),
 	),
 	gen.Result(
 		location=__env__.cwf_section('d7182f'),
-		text=gen.common.memorize_linked_seq(data_affixed,
+		text=gen.common.memorize_linked_seq(data,
 			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('d7182f')),
 		),
