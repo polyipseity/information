@@ -120,7 +120,7 @@ __env__.result = gen.Results(
 
 > sulfites
 > - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2022-11-21,91,206!2022-11-01,12,210-->
+> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2022-11-21,91,206!2022-11-28,27,210-->
 
 > phosphates
 > - general solubility: ==<span style="color: red;">insoluble</span>==
