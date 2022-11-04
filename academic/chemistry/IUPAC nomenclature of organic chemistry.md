@@ -15,7 +15,7 @@ principles: gen.TextCode = gen.common.seq_to_code((
 		'identify multiple bonds',
 		'[identify numbering direction](#identify%20numbering%20direction)',
 		'number and [prefix](#prefix%20for%20type%20count) substituents and bonds',
-		'[arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)',
+		'[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix',
 		'(optional) omit unnecessary locants',
 		'[modify words for pronunciation](#modify%20words%20for%20pronunciation)',
 		'[modify punctuations](#modify%20punctuations)',
@@ -134,7 +134,7 @@ __env__.result = gen.Results(
 %%
 
 The steps for naming an organic compound are:
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5193cd"--><!-- The following content is generated at 2022-11-01T20:32:51.925064+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5193cd"--><!-- The following content is generated at 2022-11-04T23:58:48.241859+08:00. Any edits will be overridden! -->
 
 > 1. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
 > 2. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
@@ -143,14 +143,14 @@ The steps for naming an organic compound are:
 > 5. identify multiple bonds
 > 6. [identify numbering direction](#identify%20numbering%20direction)
 > 7. number and [prefix](#prefix%20for%20type%20count) substituents and bonds
-> 8. [arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)
+> 8. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix
 > 9. (optional) omit unnecessary locants
 > 10. [modify words for pronunciation](#modify%20words%20for%20pronunciation)
 > 11. [modify punctuations](#modify%20punctuations)
 > 12. prefix notation for _cis_–_trans_ isomerism
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-01T20:32:51.955064+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-04T23:58:48.257858+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262-->
@@ -159,8 +159,8 @@ The steps for naming an organic compound are:
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2022-11-13,24,230-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-11-17,19,190-->
-8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange) <!--SR:!2023-02-01,221,267-->
-9. [arrange: prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix](#arrange)→:::←(optional) omit unnecessary locants <!--SR:!2022-12-07,159,250-->
+8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267-->
+9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2022-12-07,159,250-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2022-12-03,193,312-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273-->
