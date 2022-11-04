@@ -134,7 +134,7 @@ __env__.result = gen.Results(
 %%
 
 The steps for naming an organic compound are:
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5193cd"--><!-- The following content is generated at 2022-11-04T23:58:48.241859+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5193cd"--><!-- The following content is generated at 2022-11-05T00:24:43.599371+08:00. Any edits will be overridden! -->
 
 > 1. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
 > 2. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
@@ -148,9 +148,10 @@ The steps for naming an organic compound are:
 > 10. [modify words for pronunciation](#modify%20words%20for%20pronunciation)
 > 11. [modify punctuations](#modify%20punctuations)
 > 12. prefix notation for _cis_–_trans_ isomerism
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-04T23:58:48.257858+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-05T00:24:43.614369+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2022-11-09,4,305-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-11-09,4,305-->
@@ -165,22 +166,24 @@ The steps for naming an organic compound are:
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2022-12-03,193,312!2022-11-08,3,287-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2022-11-09,4,307-->
 13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2022-11-08,4,302!2022-11-09,4,307-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### subprinciples
 
 #### identify parent hydrocarbon chain
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="12cd9e"--><!-- The following content is generated at 2022-11-01T20:32:51.977063+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="12cd9e"--><!-- The following content is generated at 2022-11-05T00:24:43.629369+08:00. Any edits will be overridden! -->
 
 > 1. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
 > 2. most multiple bonds
 > 3. maximum length
 > 4. most prefixes
 > 5. most single bonds
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-01T20:32:51.998074+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-05T00:24:43.644368+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-01-01,197,256!2022-11-08,4,302-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2022-11-09,4,305-->
@@ -188,71 +191,80 @@ The steps for naming an organic compound are:
 4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2022-11-09,4,305-->
 5. most prefixes→:::←most single bonds <!--SR:!2022-12-27,192,261!2022-11-07,3,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2022-11-09,4,305!2022-11-09,4,305-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### identify numbering direction
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10dacd"--><!-- The following content is generated at 2022-11-02T00:11:35.155403+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10dacd"--><!-- The following content is generated at 2022-11-05T00:24:43.659370+08:00. Any edits will be overridden! -->
 
 > 1. smallest locant for the suffix functional group
 > 2. smallest locant for multiple bonds
 > 3. smallest locant for prefixes
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-02T00:11:35.170402+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-05T00:24:43.674371+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2023-01-10,205,266!2022-11-08,4,302-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2023-01-05,201,266!2022-11-08,4,302-->
 3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2022-11-09,4,305-->
 4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2022-11-08,4,302!2022-11-09,4,305-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### arrange
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2022-11-01T16:51:45.864618+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2022-11-05T00:24:43.690374+08:00. Any edits will be overridden! -->
 
 > 1. prefix order: alphabetical order ignoring prefixes for type count
 > 2. bond order: single bond, double bond, triple bond, ...
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-01T19:14:35.668066+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-05T00:24:43.706369+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2023-03-07,197,250!2022-11-08,4,302-->
 2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2023-08-30,314,292!2022-11-09,4,307-->
 3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2022-11-08,4,300!2022-11-08,4,302-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### modify words for pronunciation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299372"--><!-- The following content is generated at 2022-11-01T19:59:48.519787+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299372"--><!-- The following content is generated at 2022-11-05T00:24:43.721370+08:00. Any edits will be overridden! -->
 
 > - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u): drop '-e'
 > - bond suffix is followed by prefix for type count: keep '-e'
 > - prefix for carbon count is followed by prefix for type count: add '-a'
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-01T19:59:48.531785+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-05T00:24:43.736369+08:00. Any edits will be overridden! -->
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)→:::←drop '-e' <!--SR:!2022-12-24,65,224!2023-02-20,234,267-->
 2. bond suffix is followed by prefix for type count→:::←keep '-e' <!--SR:!2022-12-25,190,250!2023-03-23,145,241-->
 3. prefix for carbon count is followed by prefix for type count→:::←add '-a' <!--SR:!2022-11-07,13,230!2023-01-14,86,230-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### modify punctuations
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a920de"--><!-- The following content is generated at 2022-11-01T16:51:45.887616+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a920de"--><!-- The following content is generated at 2022-11-05T00:24:43.754371+08:00. Any edits will be overridden! -->
 
 > 1. commas (,) between locants
 > 2. hyphens (-) between word and locant
 > 3. remove (most) spaces ( )
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-01T19:14:35.693065+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-05T00:24:43.776371+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←commas (,) between locants <!--SR:!2023-01-21,252,332!2022-11-08,4,300-->
 2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2022-11-08,4,301-->
 3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2023-03-16,271,333!2022-11-08,4,302-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2022-11-09,4,307!2022-11-09,4,307-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### prefix for type count
@@ -283,20 +295,22 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad83dc"--><!-- The following content is generated at 2022-11-01T22:15:18.017410+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad83dc"--><!-- The following content is generated at 2022-11-05T00:24:43.569371+08:00. Any edits will be overridden! -->
 
 > - 1: (none)
 > - 2: di-
 > - 3: tri-
 > - 4/+: ([prefix for carbon count](#prefix%20for%20carbon%20count))a-
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-01T22:15:18.036421+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-05T00:24:43.583368+08:00. Any edits will be overridden! -->
 
 1. 1→:::←(none) <!--SR:!2024-05-18,635,330!2023-01-08,250,336-->
 2. 2→:::←di- <!--SR:!2023-10-04,408,310!2023-01-31,249,322-->
 3. 3→:::←tri- <!--SR:!2023-01-22,253,310!2023-02-04,253,324-->
 4. 4/+→:::←([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-02-16,240,286-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### prefix for carbon count
@@ -343,7 +357,7 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1239c2"--><!-- The following content is generated at 2022-11-01T19:45:31.390338+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1239c2"--><!-- The following content is generated at 2022-11-05T00:24:43.539371+08:00. Any edits will be overridden! -->
 
 > - 1: meth-
 > - 2: eth-
@@ -365,9 +379,10 @@ __env__.result = gen.Results(
 > - 18: octadec-
 > - 19: nonadec-
 > - 20: icos-
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-01T19:45:31.403337+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-05T00:24:43.553370+08:00. Any edits will be overridden! -->
 
 1. 1→:::←meth- <!--SR:!2024-02-20,481,290!2023-03-29,312,330-->
 2. 2→:::←eth- <!--SR:!2024-03-26,507,290!2023-11-08,384,256-->
@@ -389,6 +404,7 @@ __env__.result = gen.Results(
 18. 18→:::←octadec- <!--SR:!2022-11-17,180,312!2023-03-10,265,332-->
 19. 19→:::←nonadec- <!--SR:!2023-03-08,288,352!2022-11-26,26,210-->
 20. 20→:::←icos- <!--SR:!2022-11-07,3,280!2022-11-08,4,302-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## functional groups
@@ -629,7 +645,7 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="adc061"--><!-- The following content is generated at 2022-11-01T22:17:37.875906+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="adc061"--><!-- The following content is generated at 2022-11-05T00:24:43.494371+08:00. Any edits will be overridden! -->
 
 > element | prefix | suffix
 > -|-|-
@@ -637,6 +653,7 @@ __env__.result = gen.Results(
 > chlorine | ==chloro-== | ==chloride==
 > bromine | ==bromo-== | ==bromide==
 > iodine | ==iodo-== | ==iodide== <!--SR:!2024-01-24,520,301!2023-04-08,322,344!2023-12-25,490,304!2023-04-13,327,346!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2023-07-18,395,353-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### precedence of functional groups
@@ -674,7 +691,7 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2022-11-01T20:27:00.912887+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2022-11-05T00:24:43.463369+08:00. Any edits will be overridden! -->
 
 > 1. cation
 > 2. carboxylic acid
@@ -685,9 +702,10 @@ __env__.result = gen.Results(
 > 7. alcohol
 > 8. hydroperoxide
 > 9. amine
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2022-11-01T20:27:00.925894+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2022-11-05T00:24:43.478367+08:00. Any edits will be overridden! -->
 
 1. _(highest)_→:::←cation <!--SR:!2023-02-02,251,324!2023-07-17,394,352-->
 2. cation→:::←carboxylic acid <!--SR:!2022-12-01,188,275!2023-07-19,331,276-->
@@ -699,4 +717,5 @@ __env__.result = gen.Results(
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2022-12-23,188,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-11-15,69,267-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
