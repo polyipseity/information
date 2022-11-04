@@ -480,6 +480,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > amine | amino | RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup> | amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>) | -amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>) | (locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>) |
 > amide | amide | RCONH<sub>2</sub>, RCONHR', RCONR'R'' | amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>) | -amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>) | (locant) & _N_ (R', R'') |
 > nitrile | nitrile | RCN | cyano- | -nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN) | (locant) |
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-04T23:41:04.458936+08:00. Any edits will be overridden! -->
@@ -490,7 +491,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-==
 > - suffix: ==-ane==
 > - infix: ==(none), (locant)==
-> - cyclic prefix: ==cyclo-==
+> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308-->
 
 > ==alkene==
 > - group: ==alkenyl==
@@ -590,7 +591,8 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCN==
 > - prefix: ==cyano-==
 > - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)==
+> - infix: ==(locant)== <!--SR:!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-08,3,288!2022-11-09,4,308-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### affixes for halogen
