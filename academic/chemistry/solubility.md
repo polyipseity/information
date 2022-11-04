@@ -80,7 +80,7 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2022-10-30T20:16:38.550343+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
 
 > group I compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
@@ -137,4 +137,5 @@ __env__.result = gen.Results(
 > sulfides
 > - general solubility: ==<span style="color: red;">insoluble</span>==
 > - exception(s): ==group I, group II, and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2023-03-14,204,238!2022-11-07,18,190-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

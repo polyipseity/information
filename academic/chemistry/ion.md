@@ -163,7 +163,7 @@ __env__.result = gen.Results(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2022-11-01T23:30:11.543479+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2022-11-05T00:25:01.410870+08:00. Any edits will be overridden! -->
 
 > name | symbol | charage | color
 > -|-|-|-
@@ -188,11 +188,12 @@ __env__.result = gen.Results(
 > aluminium ion | Al<sup>3+</sup> | 3+ | colorless
 > iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)
 > chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span>
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-10-31T21:51:04.555706+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-05T00:25:01.420870+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion→:::←H<sup>+</sup> <!--SR:!2025-05-22,945,332!2022-12-26,273,339-->
 2. sodium ion→:::←Na<sup>+</sup> <!--SR:!2023-02-06,309,350!2023-03-17,340,353-->
@@ -215,11 +216,12 @@ __env__.result = gen.Results(
 19. aluminium ion→:::←Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion→:::←Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2023-01-06,285,354-->
 21. chromium(III) ion→:::←Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2023-01-24,275,294-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-10-31T21:51:04.571709+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-11-05T00:25:01.429868+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion→::←1+ <!--SR:!2023-02-10,312,353-->
 2. sodium ion→::←1+ <!--SR:!2024-02-08,522,310-->
@@ -242,11 +244,12 @@ __env__.result = gen.Results(
 19. aluminium ion→::←3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion→::←3+ <!--SR:!2023-01-05,282,345-->
 21. chromium(III) ion→::←3+ <!--SR:!2023-01-27,299,338-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2022-10-31T21:51:04.584709+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2022-11-05T00:25:01.439870+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion→::←colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion→::←colorless <!--SR:!2023-04-28,314,293-->
@@ -269,11 +272,12 @@ __env__.result = gen.Results(
 19. aluminium ion→::←colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion→::←<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2022-12-11,111,190-->
 21. chromium(III) ion→::←<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2022-11-01T23:30:11.579477+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2022-11-05T00:25:01.448870+08:00. Any edits will be overridden! -->
 
 > name | symbol | charage | color
 > -|-|-|-
@@ -298,11 +302,12 @@ __env__.result = gen.Results(
 > dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <span style="color: orange;">orange</span>
 > nitride ion | N<sup>3-</sup> | 3- | _(n/a)_
 > phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-10-31T21:51:04.604716+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-05T00:25:01.458869+08:00. Any edits will be overridden! -->
 
 1. hydride ion→:::←H<sup>-</sup> <!--SR:!2022-12-04,255,334!2022-11-30,253,336-->
 2. fluoride ion→:::←F<sup>-</sup> <!--SR:!2024-01-09,502,310!2023-02-22,322,354-->
@@ -325,11 +330,12 @@ __env__.result = gen.Results(
 19. dichromate ion→:::←Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
 20. nitride ion→:::←N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2023-04-13,175,290-->
 21. phosphate ion→:::←PO<sub>4</sub><sup>3-</sup> <!--SR:!2022-12-10,51,219!2022-12-17,224,276-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-10-31T21:51:04.620710+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-11-05T00:25:01.467869+08:00. Any edits will be overridden! -->
 
 1. hydride ion→::←1- <!--SR:!2023-06-30,370,299-->
 2. fluoride ion→::←1- <!--SR:!2022-12-03,229,272-->
@@ -352,11 +358,12 @@ __env__.result = gen.Results(
 19. dichromate ion→::←2- <!--SR:!2023-05-18,328,290-->
 20. nitride ion→::←3- <!--SR:!2023-05-22,331,290-->
 21. phosphate ion→::←3- <!--SR:!2022-12-31,131,210-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2022-10-31T21:51:04.630707+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2022-11-05T00:25:01.478869+08:00. Any edits will be overridden! -->
 
 1. hydride ion→::←colorless <!--SR:!2023-06-23,357,299-->
 2. fluoride ion→::←colorless <!--SR:!2024-04-19,532,274-->
@@ -379,4 +386,5 @@ __env__.result = gen.Results(
 19. dichromate ion→::←<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
 20. nitride ion→::←_(n/a)_ <!--SR:!2022-11-06,2,276-->
 21. phosphate ion→::←colorless <!--SR:!2023-09-14,388,273-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

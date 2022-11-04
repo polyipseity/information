@@ -111,7 +111,7 @@ __env__.result = gen.Results(
 
 Reactivity decreases down the table.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2022-10-30T19:04:07.246990+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
 
 > potassium
 > - reaction with air: ==burn==
@@ -184,9 +184,10 @@ Reactivity decreases down the table.
 > - reaction with H<sub>2</sub>O: ==none==
 > - reaction with dilute HCl: ==none==
 > - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none== <!--SR:!2023-08-27,311,268!2023-07-11,264,246!2023-06-29,252,246!2023-07-30,283,246-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-10-30T19:04:07.255990+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-05T00:25:01.043870+08:00. Any edits will be overridden! -->
 
 1. _(most reactive)_→:::←potassium <!--SR:!2022-11-23,93,250!2023-10-14,358,289-->
 2. potassium→:::←sodium <!--SR:!2023-04-27,174,230!2022-12-07,48,208-->
@@ -201,4 +202,5 @@ Reactivity decreases down the table.
 11. mercury→:::←silver <!--SR:!2022-12-18,118,250!2022-11-30,26,230-->
 12. silver→:::←gold <!--SR:!2023-04-17,238,290!2022-12-12,177,289-->
 13. gold→:::←_(least reactive)_ <!--SR:!2022-11-19,152,308!2023-11-16,451,324-->
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
