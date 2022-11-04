@@ -114,7 +114,9 @@ def main(argv: _typing.Sequence[str]) -> None:
                             except KeyError:
                                 yield ret
 
-                            def update(mod_times: _typing.MutableMapping[str, int] = mod_times, ret: str = ret):
+                            def update(mod_times: _typing.MutableMapping[str, int] = mod_times,
+                                       ret: str = ret
+                                       ) -> None:
                                 mod_times[ret] = _os.lstat(ret).st_mtime_ns
                             finalizers.append(update)
                 mod_times.clear()
