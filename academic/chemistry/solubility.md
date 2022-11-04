@@ -84,15 +84,15 @@ __env__.result = gen.Results(
 
 > group I compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Li<sub>3</sub>PO<sub>4</sub>== <!--SR:!2023-06-11,234,210!2022-11-03,14,210-->
+> - exception(s): ==Li<sub>3</sub>PO<sub>4</sub>== <!--SR:!2023-06-11,234,210!2022-12-03,29,210-->
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2022-11-02,3,249-->
+> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2022-11-13,9,249-->
 
 > nitrates
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_== <!--SR:!2023-07-09,254,216!2022-11-02,3,249-->
+> - exception(s): ==_(none)_== <!--SR:!2023-07-09,254,216!2022-11-16,12,249-->
 
 > acetates (ethanoates)
 > - general solubility: ==<span style="color: green;">soluble</span>==
@@ -124,7 +124,7 @@ __env__.result = gen.Results(
 
 > phosphates
 > - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)== <!--SR:!2023-03-02,192,230!2022-11-04,15,210-->
+> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)== <!--SR:!2023-03-02,192,230!2022-12-05,31,210-->
 
 > hydroxides
 > - general solubility: ==<span style="color: red;">insoluble</span>==

@@ -136,29 +136,29 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2022-10-31T21:56:40.068355+08:00. Any edits will be overridden! -->
 
 1. K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s)→::←-2.931 <!--SR:!2022-11-05,7,210-->
-2. Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)→::←-2.868 <!--SR:!2022-11-02,2,150-->
+2. Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)→::←-2.868 <!--SR:!2022-11-05,1,130-->
 3. Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s)→::←-2.71 <!--SR:!2022-11-07,11,130-->
-4. Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s)→::←-2.372 <!--SR:!2022-11-02,2,190-->
+4. Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s)→::←-2.372 <!--SR:!2022-11-11,7,190-->
 5. Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s)→::←-1.662 <!--SR:!2022-11-09,10,210-->
 6. Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)→::←-0.7618 <!--SR:!2022-11-09,13,150-->
 7. Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s)→::←-0.44 <!--SR:!2022-11-12,82,210-->
-8. Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s)→::←-0.126 <!--SR:!2022-11-02,9,230-->
+8. Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s)→::←-0.126 <!--SR:!2022-11-27,23,230-->
 9. 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g)→::←0 <!--SR:!2023-03-07,189,250-->
 10. HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)→::←0.16 <!--SR:!2022-11-07,18,190-->
 11. SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)→::←0.17 <!--SR:!2022-11-10,80,230-->
 12. Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s)→::←0.337 <!--SR:!2022-11-05,6,150-->
 13. O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq)→::←0.401 <!--SR:!2022-12-18,59,210-->
-14. I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq)→::←0.54 <!--SR:!2022-11-04,15,210-->
+14. I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq)→::←0.54 <!--SR:!2022-11-13,9,190-->
 15. Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq)→::←0.77 <!--SR:!2022-11-25,95,190-->
 16. Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s)→::←0.7996 <!--SR:!2022-11-30,41,210-->
-17. NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l)→::←0.8 <!--SR:!2022-11-04,11,230-->
+17. NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l)→::←0.8 <!--SR:!2022-12-01,27,230-->
 18. NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l)→::←0.958 <!--SR:!2022-11-18,20,210-->
 19. Br<sub>2</sub>(aq) + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>(aq)→::←1.0873 <!--SR:!2022-11-11,16,230-->
 20. Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l)→::←1.33 <!--SR:!2022-11-13,15,170-->
 21. Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq)→::←1.36 <!--SR:!2022-11-12,13,130-->
-22. MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l)→::←1.51 <!--SR:!2022-11-03,2,130-->
-23. S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq)→::←2.01 <!--SR:!2022-11-03,6,210-->
-24. F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq)→::←2.87 <!--SR:!2022-11-03,2,230-->
+22. MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l)→::←1.51 <!--SR:!2022-11-05,1,130-->
+23. S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq)→::←2.01 <!--SR:!2022-11-07,3,190-->
+24. F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq)→::←2.87 <!--SR:!2022-11-10,6,230-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab92dd"--><!-- The following content is generated at 2022-10-30T23:55:56.649900+08:00. Any edits will be overridden! -->

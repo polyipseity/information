@@ -51,10 +51,10 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d82740"--><!-- The following content is generated at 2022-10-30T09:54:55.783734+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←1~3.1 <!--SR:!2022-11-03,3,241!2022-11-02,3,261-->
-2. 1~3.1→:::←3.1~4.4 <!--SR:!2022-11-02,2,221!2022-11-07,6,241-->
-3. 3.1~4.4→:::←4.4~14 <!--SR:!2022-11-05,4,241!2022-11-02,2,221-->
-4. 4.4~14→:::←_(end)_ <!--SR:!2022-11-02,3,261!2022-11-07,6,241-->
+1. _(begin)_→:::←1~3.1 <!--SR:!2022-11-20,16,261!2022-11-22,18,281-->
+2. 1~3.1→:::←3.1~4.4 <!--SR:!2022-11-13,9,221!2022-11-07,6,241-->
+3. 3.1~4.4→:::←4.4~14 <!--SR:!2022-11-05,4,241!2022-11-13,9,221-->
+4. 4.4~14→:::←_(end)_ <!--SR:!2022-11-23,19,281!2022-11-07,6,241-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1389d0"--><!-- The following content is generated at 2022-10-30T09:54:55.790734+08:00. Any edits will be overridden! -->
@@ -113,17 +113,17 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2022-10-30T10:07:03.279181+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←1~5 <!--SR:!2022-11-05,4,241!2022-11-02,3,261-->
-2. 1~5→:::←5~8 <!--SR:!2022-11-06,5,241!2022-11-02,3,261-->
+1. _(begin)_→:::←1~5 <!--SR:!2022-11-05,4,241!2022-11-24,20,281-->
+2. 1~5→:::←5~8 <!--SR:!2022-11-06,5,241!2022-11-15,11,261-->
 3. 5~8→:::←8~14 <!--SR:!2022-11-07,6,241!2022-11-07,6,241-->
-4. 8~14→:::←_(end)_ <!--SR:!2022-11-02,3,261!2022-11-07,6,241-->
+4. 8~14→:::←_(end)_ <!--SR:!2022-11-22,18,281!2022-11-07,6,241-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29f820"--><!-- The following content is generated at 2022-10-30T10:07:03.286181+08:00. Any edits will be overridden! -->
 
 1. 1~5:::<span style="color: red;">red</span> <!--SR:!2023-06-13,282,270!2023-09-16,325,250-->
 2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-03-31,221,250!2023-07-03,256,230-->
-3. 8~14:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2023-05-12,263,270!2022-11-02,9,230-->
+3. 8~14:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2023-05-12,263,270!2022-11-08,4,210-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## phenolphthalein
@@ -175,15 +175,15 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="155d9a"--><!-- The following content is generated at 2022-10-30T10:07:03.251192+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←1~8.3 <!--SR:!2022-11-07,6,241!2022-11-02,3,261-->
+1. _(begin)_→:::←1~8.3 <!--SR:!2022-11-07,6,241!2022-11-24,20,281-->
 2. 1~8.3→:::←8.3~10 <!--SR:!2022-11-07,6,241!2022-11-06,5,241-->
 3. 8.3~10→:::←10~14 <!--SR:!2022-11-07,6,241!2022-11-07,6,241-->
-4. 10~14→:::←_(end)_ <!--SR:!2022-11-02,3,261!2022-11-07,6,241-->
+4. 10~14→:::←_(end)_ <!--SR:!2022-11-24,20,281!2022-11-07,6,241-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0245d8"--><!-- The following content is generated at 2022-10-30T10:07:03.258183+08:00. Any edits will be overridden! -->
 
 1. 1~8.3:::colorless <!--SR:!2022-11-10,21,210!2022-12-15,56,230-->
-2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-11-04,139,250!2022-11-08,14,230-->
+2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2022-11-08,14,230-->
 3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2022-12-10,51,230!2022-11-17,139,230-->
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
