@@ -98,7 +98,7 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2022-11-01T23:30:11.207479+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2022-11-05T00:25:01.009874+08:00. Any edits will be overridden! -->
 
 >
 > (lowest oxidizing power/highest reducing power)
@@ -131,9 +131,10 @@ __env__.result = gen.Results(
 > F | F<sub>2</sub>(g) + 2e<sup>-</sup> | ⇌ | 2F<sup>-</sup>(aq) | 2.87 | 2
 >
 > (highest oxidizing power/lowest reducing power)
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2022-10-31T21:56:40.068355+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2022-11-05T00:25:01.020868+08:00. Any edits will be overridden! -->
 
 1. K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s)→::←-2.931
 2. Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)→::←-2.868
@@ -159,9 +160,10 @@ __env__.result = gen.Results(
 22. MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l)→::←1.51
 23. S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq)→::←2.01
 24. F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq)→::←2.87
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab92dd"--><!-- The following content is generated at 2022-10-30T23:55:56.649900+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab92dd"--><!-- The following content is generated at 2022-11-05T00:25:01.032869+08:00. Any edits will be overridden! -->
 
 1. Ag→:::←Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s)
 2. Al→:::←Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s)
@@ -183,4 +185,5 @@ __env__.result = gen.Results(
 18. Pb→:::←Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s)
 19. S→:::←HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)
 20. Zn→:::←Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

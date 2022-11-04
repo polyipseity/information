@@ -41,7 +41,7 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2d99fe"--><!-- The following content is generated at 2022-10-30T12:53:17.410743+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2d99fe"--><!-- The following content is generated at 2022-11-05T00:25:01.101869+08:00. Any edits will be overridden! -->
 
 > 1. element in a free form: 0
 > 2. ionic compound or ion: _charge_
@@ -52,9 +52,10 @@ __env__.result = gen.Results(
 > 7. metallic hydride: -1
 > 8. hydrogen: +1
 > 9. (if not bonded to oxygen or flourine) oxygen: -2
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2022-10-30T12:53:17.417741+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2022-11-05T00:25:01.108868+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←element in a free form: 0
 2. element in a free form: 0→:::←ionic compound or ion: _charge_
@@ -66,4 +67,5 @@ __env__.result = gen.Results(
 8. metallic hydride: -1→:::←hydrogen: +1
 9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2
 10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_
+
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
