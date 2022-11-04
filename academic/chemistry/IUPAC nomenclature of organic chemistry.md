@@ -408,8 +408,8 @@ class Group(typing.NamedTuple):
 	misc: typing.Mapping[str, str] = {}
 data: typing.Sequence[Group] = (
 	Group(clazz='alkane', group='alkyl', formula='R(CH<sub>2</sub>)<sub>n</sub>H', prefix='([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-', suffix='-ane', infix='(none), (locant)', misc={'cyclic prefix': 'cyclo-'},),
-	Group(clazz='alkene', group='alkenyl', formula='R<sub>2C=CR<sub>2</sub>', prefix='([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-', suffix='-ene', infix='(locant)', misc={'cyclic prefix': 'cyclo-'},),
-	Group(clazz='alkyne', group='alkynyl', formula='RC≡CR', prefix='([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-', suffix='-yne', infix='(locant)', misc={'cyclic prefix': 'cyclo-'},),
+	Group(clazz='alkene', group='alkenyl', formula='R<sub>2</sub>C=CR<sub>2</sub>', prefix='([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-', suffix='-ene', infix='(locant)', misc={'cyclic prefix': 'cyclo-'},),
+	Group(clazz='alkyne', group='alkynyl', formula='RC≡CR\'', prefix='([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-', suffix='-yne', infix='(locant)', misc={'cyclic prefix': 'cyclo-'},),
 	Group(clazz='benzene derivative', group='phenyl', formula='RC<sub>6</sub>H<sub>5</sub>/RPh', prefix='phenyl-', suffix='-benzene', infix='(locant)',),
 	Group(clazz='([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane', group='([prefix for halogen](#affixes%20for%20halogen)), halo', formula='RX', prefix='([prefix for halogen](#affixes%20for%20halogen))-, halo-', suffix='([suffix for halogen](#affixes%20for%20halogen))', infix='(locant)',),
 	Group(clazz='alcohol', group='hydroxyl', formula='ROH', prefix='hydroxy-', suffix='-ol', infix='(locant)',),
@@ -461,13 +461,13 @@ __env__.result = gen.Results(
 
 Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bonds must use suffixes. Always add infixes.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28dcee"--><!-- The following content is generated at 2022-11-01T22:49:16.108765+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28dcee"--><!-- The following content is generated at 2022-11-04T23:41:04.443936+08:00. Any edits will be overridden! -->
 
 > class | group | formula | prefix | suffix | infix | misc
 > -|-|-|-|-|-|-
 > alkane | alkyl | R(CH<sub>2</sub>)<sub>n</sub>H | ([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl- | -ane | (none), (locant) | - cyclic prefix: cyclo-
-> alkene | alkenyl | R<sub>2C=CR<sub>2</sub> | ([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl- | -ene | (locant) | - cyclic prefix: cyclo-
-> alkyne | alkynyl | RC≡CR | ([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl- | -yne | (locant) | - cyclic prefix: cyclo-
+> alkene | alkenyl | R<sub>2</sub>C=CR<sub>2</sub> | ([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl- | -ene | (locant) | - cyclic prefix: cyclo-
+> alkyne | alkynyl | RC≡CR' | ([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl- | -yne | (locant) | - cyclic prefix: cyclo-
 > benzene derivative | phenyl | RC<sub>6</sub>H<sub>5</sub>/RPh | phenyl- | -benzene | (locant) |
 > ([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane | ([prefix for halogen](#affixes%20for%20halogen)), halo | RX | ([prefix for halogen](#affixes%20for%20halogen))-, halo- | ([suffix for halogen](#affixes%20for%20halogen)) | (locant) |
 > alcohol | hydroxyl | ROH | hydroxy- | -ol | (locant) |
@@ -482,7 +482,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > nitrile | nitrile | RCN | cyano- | -nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN) | (locant) |
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-01T23:29:34.021362+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-04T23:41:04.458936+08:00. Any edits will be overridden! -->
 
 > ==alkane==
 > - group: ==alkyl==
@@ -494,7 +494,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 > ==alkene==
 > - group: ==alkenyl==
-> - formula: ==R<sub>2C=CR<sub>2</sub>==
+> - formula: ==R<sub>2</sub>C=CR<sub>2</sub>==
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
 > - suffix: ==-ene==
 > - infix: ==(locant)==
@@ -502,7 +502,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 > ==alkyne==
 > - group: ==alkynyl==
-> - formula: ==RC≡CR==
+> - formula: ==RC≡CR'==
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
 > - suffix: ==-yne==
 > - infix: ==(locant)==
