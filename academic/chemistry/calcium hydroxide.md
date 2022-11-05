@@ -6,7 +6,7 @@ aliases: ['Ca(OH)2', 'slaked lime', 'limewater',]
 
 # calcium hydroxide
 
-__Calcium hydroxide__, also known as ==slaked lime== in its solid state and ==limewater== in its liquid state, is an [ionic compound](ionic%20compound.md). Its molecular formula is ==Ca(OH)<sub>2</sub>==. It looks like a ==white solid== in its solid form. <!--SR:!2022-11-05,10,230!2022-11-11,81,230!2023-06-19,301,270!2022-11-20,151,259-->
+__Calcium hydroxide__, also known as ==slaked lime== in its solid state and ==limewater== in its liquid state, is an [ionic compound](ionic%20compound.md). Its molecular formula is ==Ca(OH)<sub>2</sub>==. It looks like a ==white solid== in its solid form. <!--SR:!2022-11-29,24,230!2022-11-11,81,230!2023-06-19,301,270!2022-11-20,151,259-->
 
 ## reactions
 
@@ -52,7 +52,7 @@ Calcium hydroxide can be prepared in the following way:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d7182f"--><!-- The following content is generated at 2022-11-05T00:25:01.488869+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md). <!--SR:!2023-10-03,348,250!2023-04-04,289,338-->
-2. Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2022-12-08,160,230!2022-11-05,140,261-->
+2. Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2022-12-08,160,230!2023-11-05,365,261-->
 3. Filter the solution to obtain the [filtrate](filtrate.md).→:::←_(end)_ <!--SR:!2023-02-26,240,319!2022-12-02,28,239-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
