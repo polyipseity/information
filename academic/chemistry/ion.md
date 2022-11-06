@@ -108,7 +108,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('3928fd'),
 		text=gen.common.memorize_two_sided(cation_sect.symbols,
-			hinted=False,
 			reversible=True,
 			states=read.read_flashcard_states(__env__.cwf_section('3928fd')),
 		),
@@ -116,7 +115,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('8d8dee'),
 		text=gen.common.memorize_two_sided(cation_sect.charges,
-			hinted=False,
 			reversible=False,
 			states=read.read_flashcard_states(__env__.cwf_section('8d8dee')),
 		),
@@ -124,7 +122,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a5defa'),
 		text=gen.common.memorize_two_sided(cation_sect.colors,
-			hinted=False,
 			reversible=False,
 			states=read.read_flashcard_states(__env__.cwf_section('a5defa')),
 		),
@@ -136,7 +133,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('2fde12'),
 		text=gen.common.memorize_two_sided(anion_sect.symbols,
-			hinted=False,
 			reversible=True,
 			states=read.read_flashcard_states(__env__.cwf_section('2fde12')),
 		),
@@ -144,7 +140,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('8c7820'),
 		text=gen.common.memorize_two_sided(anion_sect.charges,
-			hinted=False,
 			reversible=False,
 			states=read.read_flashcard_states(__env__.cwf_section('8c7820')),
 		),
@@ -152,7 +147,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('104852'),
 		text=gen.common.memorize_two_sided(anion_sect.colors,
-			hinted=False,
 			reversible=False,
 			states=read.read_flashcard_states(__env__.cwf_section('104852')),
 		),
@@ -193,85 +187,85 @@ __env__.result = gen.Results(
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-05T00:25:01.420870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-06T20:13:24.273182+08:00. Any edits will be overridden! -->
 
-1. hydrogen ion→:::←H<sup>+</sup>
-2. sodium ion→:::←Na<sup>+</sup>
-3. potassium ion→:::←K<sup>+</sup>
-4. copper(I) ion→:::←Cu<sup>+</sup>
-5. silver ion→:::←Ag<sup>+</sup>
-6. mercury(I) ion→:::←Hg<sup>+</sup>
-7. ammonium ion→:::←NH<sub>4</sub><sup>+</sup>
-8. magnesium ion→:::←Mg<sup>2+</sup>
-9. calcium ion→:::←Ca<sup>2+</sup>
-10. barium ion→:::←Ba<sup>2+</sup>
-11. lead(II) ion→:::←Pb<sup>2+</sup>
-12. iron(II) ion→:::←Fe<sup>2+</sup>
-13. nickel(II) ion→:::←Ni<sup>2+</sup>
-14. copper(II) ion→:::←Cu<sup>2+</sup>
-15. zinc ion→:::←Zn<sup>2+</sup>
-16. manganese(II) ion→:::←Mn<sup>2+</sup>
-17. mercury(II) ion→:::←Hg<sup>2+</sup>
-18. cobalt(II) ion→:::←Co<sup>2+</sup>
-19. aluminium ion→:::←Al<sup>3+</sup>
-20. iron(III) ion→:::←Fe<sup>3+</sup>
-21. chromium(III) ion→:::←Cr<sup>3+</sup>
+1. hydrogen ion:::H<sup>+</sup>
+2. sodium ion:::Na<sup>+</sup>
+3. potassium ion:::K<sup>+</sup>
+4. copper(I) ion:::Cu<sup>+</sup>
+5. silver ion:::Ag<sup>+</sup>
+6. mercury(I) ion:::Hg<sup>+</sup>
+7. ammonium ion:::NH<sub>4</sub><sup>+</sup>
+8. magnesium ion:::Mg<sup>2+</sup>
+9. calcium ion:::Ca<sup>2+</sup>
+10. barium ion:::Ba<sup>2+</sup>
+11. lead(II) ion:::Pb<sup>2+</sup>
+12. iron(II) ion:::Fe<sup>2+</sup>
+13. nickel(II) ion:::Ni<sup>2+</sup>
+14. copper(II) ion:::Cu<sup>2+</sup>
+15. zinc ion:::Zn<sup>2+</sup>
+16. manganese(II) ion:::Mn<sup>2+</sup>
+17. mercury(II) ion:::Hg<sup>2+</sup>
+18. cobalt(II) ion:::Co<sup>2+</sup>
+19. aluminium ion:::Al<sup>3+</sup>
+20. iron(III) ion:::Fe<sup>3+</sup>
+21. chromium(III) ion:::Cr<sup>3+</sup>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-11-05T00:25:01.429868+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-11-06T20:13:24.309183+08:00. Any edits will be overridden! -->
 
-1. hydrogen ion→::←1+
-2. sodium ion→::←1+
-3. potassium ion→::←1+
-4. copper(I) ion→::←1+
-5. silver ion→::←1+
-6. mercury(I) ion→::←1+
-7. ammonium ion→::←1+
-8. magnesium ion→::←2+
-9. calcium ion→::←2+
-10. barium ion→::←2+
-11. lead(II) ion→::←2+
-12. iron(II) ion→::←2+
-13. nickel(II) ion→::←2+
-14. copper(II) ion→::←2+
-15. zinc ion→::←2+
-16. manganese(II) ion→::←2+
-17. mercury(II) ion→::←2+
-18. cobalt(II) ion→::←2+
-19. aluminium ion→::←3+
-20. iron(III) ion→::←3+
-21. chromium(III) ion→::←3+
+1. hydrogen ion::1+
+2. sodium ion::1+
+3. potassium ion::1+
+4. copper(I) ion::1+
+5. silver ion::1+
+6. mercury(I) ion::1+
+7. ammonium ion::1+
+8. magnesium ion::2+
+9. calcium ion::2+
+10. barium ion::2+
+11. lead(II) ion::2+
+12. iron(II) ion::2+
+13. nickel(II) ion::2+
+14. copper(II) ion::2+
+15. zinc ion::2+
+16. manganese(II) ion::2+
+17. mercury(II) ion::2+
+18. cobalt(II) ion::2+
+19. aluminium ion::3+
+20. iron(III) ion::3+
+21. chromium(III) ion::3+
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2022-11-05T00:25:01.439870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2022-11-06T20:13:24.330184+08:00. Any edits will be overridden! -->
 
-1. hydrogen ion→::←colorless
-2. sodium ion→::←colorless
-3. potassium ion→::←colorless
-4. copper(I) ion→::←_(n/a)_
-5. silver ion→::←colorless
-6. mercury(I) ion→::←_(n/a)_
-7. ammonium ion→::←colorless
-8. magnesium ion→::←colorless
-9. calcium ion→::←colorless
-10. barium ion→::←colorless
-11. lead(II) ion→::←colorless
-12. iron(II) ion→::←<span style="color: green;">green</span>
-13. nickel(II) ion→::←<span style="color: green;">green</span>
-14. copper(II) ion→::←<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>
-15. zinc ion→::←colorless
-16. manganese(II) ion→::←<span style="color: lightPink;">very pale pink</span>
-17. mercury(II) ion→::←_(n/a)_
-18. cobalt(II) ion→::←<span style="color: pink;">pink</span>
-19. aluminium ion→::←colorless
-20. iron(III) ion→::←<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)
-21. chromium(III) ion→::←<span style="color: green;">green</span>
+1. hydrogen ion::colorless
+2. sodium ion::colorless
+3. potassium ion::colorless
+4. copper(I) ion::_(n/a)_
+5. silver ion::colorless
+6. mercury(I) ion::_(n/a)_
+7. ammonium ion::colorless
+8. magnesium ion::colorless
+9. calcium ion::colorless
+10. barium ion::colorless
+11. lead(II) ion::colorless
+12. iron(II) ion::<span style="color: green;">green</span>
+13. nickel(II) ion::<span style="color: green;">green</span>
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>
+15. zinc ion::colorless
+16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span>
+17. mercury(II) ion::_(n/a)_
+18. cobalt(II) ion::<span style="color: pink;">pink</span>
+19. aluminium ion::colorless
+20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)
+21. chromium(III) ion::<span style="color: green;">green</span>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -307,84 +301,84 @@ __env__.result = gen.Results(
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-05T00:25:01.458869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-06T20:13:24.353184+08:00. Any edits will be overridden! -->
 
-1. hydride ion→:::←H<sup>-</sup>
-2. fluoride ion→:::←F<sup>-</sup>
-3. chloride ion→:::←Cl<sup>-</sup>
-4. bromide ion→:::←Br<sup>-</sup>
-5. iodide ion→:::←I<sup>-</sup>
-6. hydroxide ion→:::←OH<sup>-</sup>
-7. nitrate ion→:::←NO<sub>3</sub><sup>-</sup>
-8. nitrite ion→:::←NO<sub>2</sub><sup>-</sup>
-9. hydrogencarbonate ion→:::←HCO<sub>3</sub><sup>-</sup>
-10. hydrogensulfite ion→:::←HSO<sub>3</sub><sup>-</sup>
-11. hydrogensulfate ion→:::←HSO<sub>4</sub><sup>-</sup>
-12. permanganate ion→:::←MnO<sub>4</sub><sup>-</sup>
-13. oxide ion→:::←O<sup>2-</sup>
-14. sulfide ion→:::←S<sup>2-</sup>
-15. sulfate ion→:::←SO<sub>4</sub><sup>2-</sup>
-16. sulfite ion→:::←SO<sub>3</sub><sup>2-</sup>
-17. carbonate ion→:::←CO<sub>3</sub><sup>2-</sup>
-18. chromate ion→:::←CrO<sub>4</sub><sup>2-</sup>
-19. dichromate ion→:::←Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
-20. nitride ion→:::←N<sup>3-</sup>
-21. phosphate ion→:::←PO<sub>4</sub><sup>3-</sup>
+1. hydride ion:::H<sup>-</sup>
+2. fluoride ion:::F<sup>-</sup>
+3. chloride ion:::Cl<sup>-</sup>
+4. bromide ion:::Br<sup>-</sup>
+5. iodide ion:::I<sup>-</sup>
+6. hydroxide ion:::OH<sup>-</sup>
+7. nitrate ion:::NO<sub>3</sub><sup>-</sup>
+8. nitrite ion:::NO<sub>2</sub><sup>-</sup>
+9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup>
+10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup>
+11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup>
+12. permanganate ion:::MnO<sub>4</sub><sup>-</sup>
+13. oxide ion:::O<sup>2-</sup>
+14. sulfide ion:::S<sup>2-</sup>
+15. sulfate ion:::SO<sub>4</sub><sup>2-</sup>
+16. sulfite ion:::SO<sub>3</sub><sup>2-</sup>
+17. carbonate ion:::CO<sub>3</sub><sup>2-</sup>
+18. chromate ion:::CrO<sub>4</sub><sup>2-</sup>
+19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
+20. nitride ion:::N<sup>3-</sup>
+21. phosphate ion:::PO<sub>4</sub><sup>3-</sup>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-11-05T00:25:01.467869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-11-06T20:13:24.365182+08:00. Any edits will be overridden! -->
 
-1. hydride ion→::←1-
-2. fluoride ion→::←1-
-3. chloride ion→::←1-
-4. bromide ion→::←1-
-5. iodide ion→::←1-
-6. hydroxide ion→::←1-
-7. nitrate ion→::←1-
-8. nitrite ion→::←1-
-9. hydrogencarbonate ion→::←1-
-10. hydrogensulfite ion→::←1-
-11. hydrogensulfate ion→::←1-
-12. permanganate ion→::←1-
-13. oxide ion→::←2-
-14. sulfide ion→::←2-
-15. sulfate ion→::←2-
-16. sulfite ion→::←2-
-17. carbonate ion→::←2-
-18. chromate ion→::←2-
-19. dichromate ion→::←2-
-20. nitride ion→::←3-
-21. phosphate ion→::←3-
+1. hydride ion::1-
+2. fluoride ion::1-
+3. chloride ion::1-
+4. bromide ion::1-
+5. iodide ion::1-
+6. hydroxide ion::1-
+7. nitrate ion::1-
+8. nitrite ion::1-
+9. hydrogencarbonate ion::1-
+10. hydrogensulfite ion::1-
+11. hydrogensulfate ion::1-
+12. permanganate ion::1-
+13. oxide ion::2-
+14. sulfide ion::2-
+15. sulfate ion::2-
+16. sulfite ion::2-
+17. carbonate ion::2-
+18. chromate ion::2-
+19. dichromate ion::2-
+20. nitride ion::3-
+21. phosphate ion::3-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2022-11-05T00:25:01.478869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2022-11-06T20:13:24.378182+08:00. Any edits will be overridden! -->
 
-1. hydride ion→::←colorless
-2. fluoride ion→::←colorless
-3. chloride ion→::←colorless
-4. bromide ion→::←colorless
-5. iodide ion→::←colorless
-6. hydroxide ion→::←colorless
-7. nitrate ion→::←colorless
-8. nitrite ion→::←_(n/a)_
-9. hydrogencarbonate ion→::←colorless
-10. hydrogensulfite ion→::←colorless
-11. hydrogensulfate ion→::←colorless
-12. permanganate ion→::←<span style="color: darkViolet; background-color: white;">deep purple</span>
-13. oxide ion→::←_(n/a)_
-14. sulfide ion→::←_(n/a)_
-15. sulfate ion→::←colorless
-16. sulfite ion→::←colorless
-17. carbonate ion→::←colorless
-18. chromate ion→::←<span style="color: yellow;">yellow</span>
-19. dichromate ion→::←<span style="color: orange;">orange</span>
-20. nitride ion→::←_(n/a)_
-21. phosphate ion→::←colorless
+1. hydride ion::colorless
+2. fluoride ion::colorless
+3. chloride ion::colorless
+4. bromide ion::colorless
+5. iodide ion::colorless
+6. hydroxide ion::colorless
+7. nitrate ion::colorless
+8. nitrite ion::_(n/a)_
+9. hydrogencarbonate ion::colorless
+10. hydrogensulfite ion::colorless
+11. hydrogensulfate ion::colorless
+12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span>
+13. oxide ion::_(n/a)_
+14. sulfide ion::_(n/a)_
+15. sulfate ion::colorless
+16. sulfite ion::colorless
+17. carbonate ion::colorless
+18. chromate ion::<span style="color: yellow;">yellow</span>
+19. dichromate ion::<span style="color: orange;">orange</span>
+20. nitride ion::_(n/a)_
+21. phosphate ion::colorless
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -114,7 +114,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19fc21'),
 		text=gen.common.memorize_two_sided(pronuciations,
-			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('19fc21')),
 		),
 	),
@@ -240,11 +239,11 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-05T00:24:43.736369+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
-1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)→:::←drop '-e'
-2. bond suffix is followed by prefix for type count→:::←keep '-e'
-3. prefix for carbon count is followed by prefix for type count→:::←add '-a'
+1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e'
+2. bond suffix is followed by prefix for type count:::keep '-e'
+3. prefix for carbon count is followed by prefix for type count:::add '-a'
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -287,7 +286,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19dcda'),
 		text=gen.common.memorize_two_sided(text,
-			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('19dcda')),
 		),
 	),
@@ -304,12 +302,12 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-05T00:24:43.583368+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-06T20:13:23.980184+08:00. Any edits will be overridden! -->
 
-1. 1→:::←(none)
-2. 2→:::←di-
-3. 3→:::←tri-
-4. 4/+→:::←([prefix for carbon count](#prefix%20for%20carbon%20count))a-
+1. 1:::(none)
+2. 2:::di-
+3. 3:::tri-
+4. 4/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -349,7 +347,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('ca1123'),
 		text=gen.common.memorize_two_sided(text,
-			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('ca1123')),
 		),
 	),
@@ -382,28 +379,28 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-05T00:24:43.553370+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-06T20:13:23.930188+08:00. Any edits will be overridden! -->
 
-1. 1→:::←meth-
-2. 2→:::←eth-
-3. 3→:::←prop-
-4. 4→:::←but-
-5. 5→:::←pent-
-6. 6→:::←hex-
-7. 7→:::←hept-
-8. 8→:::←oct-
-9. 9→:::←non-
-10. 10→:::←dec-
-11. 11→:::←undec-
-12. 12→:::←dodec-
-13. 13→:::←tridec-
-14. 14→:::←tetradec-
-15. 15→:::←pentadec-
-16. 16→:::←hexadec-
-17. 17→:::←heptadec-
-18. 18→:::←octadec-
-19. 19→:::←nonadec-
-20. 20→:::←icos-
+1. 1:::meth-
+2. 2:::eth-
+3. 3:::prop-
+4. 4:::but-
+5. 5:::pent-
+6. 6:::hex-
+7. 7:::hept-
+8. 8:::oct-
+9. 9:::non-
+10. 10:::dec-
+11. 11:::undec-
+12. 12:::dodec-
+13. 13:::tridec-
+14. 14:::tetradec-
+15. 15:::pentadec-
+16. 16:::hexadec-
+17. 17:::heptadec-
+18. 18:::octadec-
+19. 19:::nonadec-
+20. 20:::icos-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
