@@ -107,18 +107,27 @@ def main(argv: _typing.Sequence[str]) -> None:
                     file: str
                     for file in files:
                         if file.endswith('.md'):
-                            ret: str = _os.path.join(root, file)
+                            path: str = _os.path.join(root, file)
                             try:
-                                if diff_args or mod_times[ret] != _os.lstat(ret).st_mtime_ns:
-                                    yield ret
+                                if diff_args or mod_times[path] != _os.lstat(path).st_mtime_ns:
+                                    yield path
                             except KeyError:
-                                yield ret
+                                yield path
 
-                            def update(mod_times: _typing.MutableMapping[str, int] = mod_times,
-                                       ret: str = ret
-                                       ) -> None:
-                                mod_times[ret] = _os.lstat(ret).st_mtime_ns
-                            finalizers.append(update)
+                            def finalize(*,
+                                         __mod_times: _typing.MutableMapping[str,
+                                                                             int] = mod_times,
+                                         __path: str = path,
+                                         ) -> None:
+                                file: _typing.TextIO
+                                with open(__path, mode='r+t', encoding='UTF-8', errors='strict', newline='') as file:
+                                    text: str = file.read()
+                                    file.seek(0)
+                                    file.write(text.replace(_os.linesep, '\n'))
+                                    file.truncate()
+                                __mod_times[__path] = _os.lstat(
+                                    __path).st_mtime_ns
+                            finalizers.append(finalize)
                 mod_times.clear()
             generate_args: _typing.Sequence[str] = tuple(generate_args0())
             print(f'Generating text from {len(generate_args)} input(s)')
