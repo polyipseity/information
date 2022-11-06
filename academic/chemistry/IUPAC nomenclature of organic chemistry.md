@@ -114,7 +114,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19fc21'),
 		text=gen.common.memorize_two_sided(pronuciations,
-			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('19fc21')),
 		),
 	),
@@ -240,11 +239,11 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-05T00:24:43.736369+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
-1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)→:::←drop '-e' <!--SR:!2022-12-24,65,224!2023-02-20,234,267-->
-2. bond suffix is followed by prefix for type count→:::←keep '-e' <!--SR:!2022-12-25,190,250!2023-03-23,145,241-->
-3. prefix for carbon count is followed by prefix for type count→:::←add '-a' <!--SR:!2022-11-07,13,230!2023-01-14,86,230-->
+1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2022-12-24,65,224!2023-02-20,234,267-->
+2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2022-12-25,190,250!2023-03-23,145,241-->
+3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2022-11-07,13,230!2023-01-14,86,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -287,7 +286,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19dcda'),
 		text=gen.common.memorize_two_sided(text,
-			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('19dcda')),
 		),
 	),
@@ -304,12 +302,12 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-05T00:24:43.583368+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-06T20:13:23.980184+08:00. Any edits will be overridden! -->
 
-1. 1→:::←(none) <!--SR:!2024-05-18,635,330!2023-01-08,250,336-->
-2. 2→:::←di- <!--SR:!2023-10-04,408,310!2023-01-31,249,322-->
-3. 3→:::←tri- <!--SR:!2023-01-22,253,310!2023-02-04,253,324-->
-4. 4/+→:::←([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-02-16,240,286-->
+1. 1:::(none) <!--SR:!2024-05-18,635,330!2023-01-08,250,336-->
+2. 2:::di- <!--SR:!2023-10-04,408,310!2023-01-31,249,322-->
+3. 3:::tri- <!--SR:!2023-01-22,253,310!2023-02-04,253,324-->
+4. 4/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-02-16,240,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -349,7 +347,6 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('ca1123'),
 		text=gen.common.memorize_two_sided(text,
-			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('ca1123')),
 		),
 	),
@@ -382,28 +379,28 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-05T00:24:43.553370+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca1123"--><!-- The following content is generated at 2022-11-06T20:13:23.930188+08:00. Any edits will be overridden! -->
 
-1. 1→:::←meth- <!--SR:!2024-02-20,481,290!2023-03-29,312,330-->
-2. 2→:::←eth- <!--SR:!2024-03-26,507,290!2023-11-08,384,256-->
-3. 3→:::←prop- <!--SR:!2023-09-10,384,290!2023-06-09,356,301-->
-4. 4→:::←but- <!--SR:!2023-06-28,310,270!2023-01-07,203,266-->
-5. 5→:::←pent- <!--SR:!2024-05-17,634,330!2024-01-10,447,286-->
-6. 6→:::←hex- <!--SR:!2023-09-06,380,290!2023-02-27,254,286-->
-7. 7→:::←hept- <!--SR:!2023-09-03,377,290!2023-08-06,349,286-->
-8. 8→:::←oct- <!--SR:!2023-09-13,387,290!2023-02-28,255,286-->
-9. 9→:::←non- <!--SR:!2023-06-20,367,310!2023-01-21,88,287-->
-10. 10→:::←dec- <!--SR:!2022-11-21,184,290!2023-02-10,237,287-->
-11. 11→:::←undec- <!--SR:!2022-12-13,178,250!2023-12-09,415,267-->
-12. 12→:::←dodec- <!--SR:!2023-07-03,315,270!2023-05-16,267,247-->
-13. 13→:::←tridec- <!--SR:!2023-07-02,314,270!2022-12-26,64,227-->
-14. 14→:::←tetradec- <!--SR:!2023-06-21,303,270!2023-01-07,203,267-->
-15. 15→:::←pentadec- <!--SR:!2023-03-27,282,332!2022-11-14,177,312-->
-16. 16→:::←hexadec- <!--SR:!2023-03-12,267,332!2023-01-14,205,272-->
-17. 17→:::←heptadec- <!--SR:!2024-03-12,509,312!2023-07-27,339,292-->
-18. 18→:::←octadec- <!--SR:!2022-11-17,180,312!2023-03-10,265,332-->
-19. 19→:::←nonadec- <!--SR:!2023-03-08,288,352!2022-11-26,26,210-->
-20. 20→:::←icos- <!--SR:!2022-11-07,3,280!2022-11-08,4,302-->
+1. 1:::meth- <!--SR:!2024-02-20,481,290!2023-03-29,312,330-->
+2. 2:::eth- <!--SR:!2024-03-26,507,290!2023-11-08,384,256-->
+3. 3:::prop- <!--SR:!2023-09-10,384,290!2023-06-09,356,301-->
+4. 4:::but- <!--SR:!2023-06-28,310,270!2023-01-07,203,266-->
+5. 5:::pent- <!--SR:!2024-05-17,634,330!2024-01-10,447,286-->
+6. 6:::hex- <!--SR:!2023-09-06,380,290!2023-02-27,254,286-->
+7. 7:::hept- <!--SR:!2023-09-03,377,290!2023-08-06,349,286-->
+8. 8:::oct- <!--SR:!2023-09-13,387,290!2023-02-28,255,286-->
+9. 9:::non- <!--SR:!2023-06-20,367,310!2023-01-21,88,287-->
+10. 10:::dec- <!--SR:!2022-11-21,184,290!2023-02-10,237,287-->
+11. 11:::undec- <!--SR:!2022-12-13,178,250!2023-12-09,415,267-->
+12. 12:::dodec- <!--SR:!2023-07-03,315,270!2023-05-16,267,247-->
+13. 13:::tridec- <!--SR:!2023-07-02,314,270!2022-12-26,64,227-->
+14. 14:::tetradec- <!--SR:!2023-06-21,303,270!2023-01-07,203,267-->
+15. 15:::pentadec- <!--SR:!2023-03-27,282,332!2022-11-14,177,312-->
+16. 16:::hexadec- <!--SR:!2023-03-12,267,332!2023-01-14,205,272-->
+17. 17:::heptadec- <!--SR:!2024-03-12,509,312!2023-07-27,339,292-->
+18. 18:::octadec- <!--SR:!2022-11-17,180,312!2023-03-10,265,332-->
+19. 19:::nonadec- <!--SR:!2023-03-08,288,352!2022-11-26,26,210-->
+20. 20:::icos- <!--SR:!2022-11-07,3,280!2022-11-08,4,302-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
