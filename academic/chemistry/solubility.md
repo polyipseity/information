@@ -100,7 +100,7 @@ __env__.result = gen.Results(
 
 > chlorides
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds== <!--SR:!2023-04-01,222,248!2022-11-08,78,190-->
+> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds== <!--SR:!2023-04-01,222,248!2023-04-05,148,190-->
 
 > bromides
 > - general solubility: ==<span style="color: green;">soluble</span>==
