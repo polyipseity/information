@@ -13,8 +13,15 @@ import sys as _sys
 import types as _types
 import typing as _typing
 
-_root_dir_excludes: _typing.AbstractSet[str] = frozenset(
-    {'.git', '.obsidian', 'templates', 'tools', })
+
+@_typing.final
+class _OpenOptions(_typing.TypedDict):
+    encoding: str
+    errors: _typing.Literal['strict', 'ignore', 'replace', 'surrogateescape',
+                            'xmlcharrefreplace', 'backslashreplace', 'namereplace', ]
+    newline: None | _typing.Literal['', '\n', '\r', '\r\n', ]
+
+
 _local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
     appname='9a27fc39-496b-4b4c-87a7-03b9e88fc6bc',
     appauthor='polyipseity',
@@ -22,6 +29,13 @@ _local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
     roaming=False,
     multipath=False,
 )
+open_options: _OpenOptions = _OpenOptions(
+    encoding='UTF-8',
+    errors='strict',
+    newline=None,
+)
+_root_dir_excludes: _typing.AbstractSet[str] = frozenset(
+    {'.git', '.obsidian', 'templates', 'tools', })
 
 
 @_typing.final
@@ -64,9 +78,10 @@ def main(argv: _typing.Sequence[str]) -> None:
         import tools.generate.main
         generate_data_path: _pathlib.Path = local_data_folder / 'generate.json'
         if not generate_data_path.exists():
-            generate_data_path.write_text('')
+            generate_data_path.write_text(
+                '', encoding='UTF-8', errors='strict', newline=None)
         generate_data: _typing.TextIO
-        with open(generate_data_path, mode='r+t', encoding='UTF-8', errors='strict', newline=None,) as generate_data:
+        with open(generate_data_path, mode='r+t', **open_options) as generate_data:
             try:
                 data: _typing.MutableMapping[str, _typing.Any] = _json.load(
                     generate_data)
@@ -120,7 +135,7 @@ def main(argv: _typing.Sequence[str]) -> None:
                                          __path: str = path,
                                          ) -> None:
                                 file: _typing.TextIO
-                                with open(__path, mode='r+t', encoding='UTF-8', errors='strict', newline='') as file:
+                                with open(__path, mode='r+t', **open_options) as file:
                                     text: str = file.read()
                                     file.seek(0)
                                     file.write(text.replace(_os.linesep, '\n'))
