@@ -150,21 +150,21 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-05T00:24:43.614369+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-09T18:05:20.993142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2022-11-09,4,305-->
-2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-11-09,4,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-11-09,4,305-->
+1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2022-11-26,17,325-->
+2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-11-20,11,305-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-11-11,2,285-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2022-11-19,11,287-->
-5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2022-11-13,24,230!2022-11-09,3,267-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2022-11-09,3,267-->
-7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-11-17,19,190!2022-11-09,4,305-->
+5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2022-11-13,24,230!2022-11-11,2,247-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2022-11-17,8,267-->
+7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-11-17,19,190!2022-11-20,11,305-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2022-11-10,2,267-->
-9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2022-12-07,159,250!2022-11-09,3,267-->
-10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-11-09,3,265-->
+9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2022-12-07,159,250!2022-11-17,8,267-->
+10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-11-18,9,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2022-12-03,193,312!2022-11-17,9,287-->
-12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2022-11-09,4,307-->
-13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2022-11-25,17,322!2022-11-09,4,307-->
+12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2022-11-21,12,307-->
+13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2022-11-25,17,322!2022-11-20,11,307-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -182,14 +182,14 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-05T00:24:43.644368+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-09T18:05:21.025142+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-01-01,197,256!2022-11-26,18,322-->
-2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2022-11-09,4,305-->
+2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2022-11-21,12,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2022-11-17,10,282-->
-4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2022-11-09,4,305-->
+4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2022-11-20,11,305-->
 5. most prefixes→:::←most single bonds <!--SR:!2022-12-27,192,261!2022-11-17,10,282-->
-6. most single bonds→:::←_(end)_ <!--SR:!2022-11-09,4,305!2022-11-09,4,305-->
+6. most single bonds→:::←_(end)_ <!--SR:!2022-11-28,19,325!2022-11-20,11,305-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -203,12 +203,12 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-05T00:24:43.674371+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-09T18:05:21.058142+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2023-01-10,205,266!2022-11-26,18,322-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2023-01-05,201,266!2022-11-26,18,322-->
-3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2022-11-09,4,305-->
-4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2022-11-25,17,322!2022-11-09,4,305-->
+3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2022-11-28,19,325-->
+4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2022-11-25,17,322!2022-11-21,12,305-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -221,10 +221,10 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-05T00:24:43.706369+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-09T18:05:21.087142+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2023-03-07,197,250!2022-11-21,13,302-->
-2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2023-08-30,314,292!2022-11-09,4,307-->
+2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2023-08-30,314,292!2022-11-21,12,307-->
 3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2022-11-26,18,320!2022-11-27,19,322-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -257,12 +257,12 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-05T00:24:43.776371+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-09T18:05:21.147143+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←commas (,) between locants <!--SR:!2023-01-21,252,332!2022-11-25,17,320-->
 2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2022-11-25,17,321-->
 3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2023-03-16,271,333!2022-11-27,19,322-->
-4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2022-11-09,4,307!2022-11-09,4,307-->
+4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2022-11-27,18,327!2022-11-27,18,327-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -504,7 +504,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-==
 > - suffix: ==-ane==
 > - infix: ==(none), (locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-28,19,328!2022-11-28,19,328!2022-11-24,15,328!2022-11-28,19,328!2022-11-28,19,328!2022-11-28,19,328!2022-11-27,18,328-->
 
 > ==alkene==
 > - group: ==alkenyl==
@@ -520,91 +520,91 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
 > - suffix: ==-yne==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-21,14,300!2022-11-09,3,260!2022-11-26,18,320!2022-11-17,10,281!2022-11-27,19,322!2022-11-25,17,322!2022-11-20,12,307-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-21,14,300!2022-11-22,13,280!2022-11-26,18,320!2022-11-17,10,281!2022-11-27,19,322!2022-11-25,17,322!2022-11-20,12,307-->
 
 > ==benzene derivative==
 > - group: ==phenyl==
 > - formula: ==RC<sub>6</sub>H<sub>5</sub>/RPh==
 > - prefix: ==phenyl-==
 > - suffix: ==-benzene==
-> - infix: ==(locant)== <!--SR:!2022-11-21,14,300!2022-11-21,14,300!2022-11-25,17,322!2022-11-20,13,302!2022-11-17,10,282!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-21,14,300!2022-11-21,14,300!2022-11-25,17,322!2022-11-20,13,302!2022-11-17,10,282!2022-11-27,18,327-->
 
 > ==([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane==
 > - group: ==([prefix for halogen](#affixes%20for%20halogen)), halo==
 > - formula: ==RX==
 > - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
 > - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
-> - infix: ==(locant)== <!--SR:!2022-11-22,14,300!2022-11-18,10,301!2022-11-27,19,322!2022-11-17,10,282!2022-11-21,13,305!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-22,14,300!2022-11-18,10,301!2022-11-27,19,322!2022-11-17,10,282!2022-11-21,13,305!2022-11-26,17,327-->
 
 > ==alcohol==
 > - group: ==hydroxyl==
 > - formula: ==ROH==
 > - prefix: ==hydroxy-==
 > - suffix: ==-ol==
-> - infix: ==(locant)== <!--SR:!2022-11-27,19,322!2022-11-26,18,322!2022-11-26,18,322!2022-11-09,4,305!2022-11-09,4,305!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-27,19,322!2022-11-26,18,322!2022-11-26,18,322!2022-11-28,19,325!2022-11-27,18,325!2022-11-28,19,327-->
 
 > ==ether==
 > - group: ==ether==
 > - formula: ==ROR'==
 > - prefix: ==([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)==
 > - suffix: ==ether==
-> - infix: ==(locant)== <!--SR:!2022-11-26,18,320!2022-11-27,19,322!2022-11-25,17,322!2022-11-09,3,262!2022-11-09,4,305!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-26,18,320!2022-11-27,19,322!2022-11-25,17,322!2022-11-17,8,262!2022-11-28,19,325!2022-11-25,16,327-->
 
 > ==aldehyde==
 > - group: ==aldehyde==
 > - formula: ==RCHO==
 > - prefix: ==oxo- (=O), formyl- (-CHO)==
 > - suffix: ==-al (=O), -carbaldehyde (-CHO)==
-> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-21,14,302!2022-11-09,3,265!2022-11-17,9,285!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-21,14,302!2022-11-11,2,245!2022-11-17,9,285!2022-11-25,16,327-->
 
 > ==ketone==
 > - group: ==carbonyl==
 > - formula: ==RCOR'==
 > - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
 > - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2022-11-15,8,280!2022-11-09,2,260!2022-11-25,17,321!2022-11-09,3,262!2022-11-26,18,322!2022-11-26,18,322-->
+> - infix: ==(locant)== <!--SR:!2022-11-15,8,280!2022-11-14,5,260!2022-11-25,17,321!2022-11-11,2,242!2022-11-26,18,322!2022-11-26,18,322-->
 
 > ==carboxylic acid==
 > - group: ==carboxyl==
 > - formula: ==RCOOH==
 > - prefix: ==carboxy-==
 > - suffix: ==-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)==
-> - infix: ==(locant)== <!--SR:!2022-11-20,13,300!2022-11-17,10,282!2022-11-26,18,322!2022-11-20,12,302!2022-11-09,4,305!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-20,13,300!2022-11-17,10,282!2022-11-26,18,322!2022-11-20,12,302!2022-11-25,16,325!2022-11-28,19,327-->
 
 > ==carboxylate==
 > - group: ==carboxylate==
 > - formula: ==RCOO<sup>-</sup>==
 > - prefix: ==carboxy-==
 > - suffix: ==-ate (retained), -oate==
-> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-27,19,322!2022-11-09,3,262!2022-11-17,10,282!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-27,19,322!2022-11-18,9,262!2022-11-17,10,282!2022-11-25,16,327-->
 
 > ==alkanoyl==
 > - group: ==acyl==
 > - formula: ==RCO==
 > - prefix: ==(none)==
 > - suffix: ==-yl (retained), -oyl==
-> - infix: ==(locant)== <!--SR:!2022-11-17,10,281!2022-11-22,14,302!2022-11-26,18,322!2022-11-09,3,262!2022-11-19,11,287!2022-11-09,4,307-->
+> - infix: ==(locant)== <!--SR:!2022-11-17,10,281!2022-11-22,14,302!2022-11-26,18,322!2022-11-11,2,242!2022-11-19,11,287!2022-11-28,19,327-->
 
 > ==amine==
 > - group: ==amino==
 > - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
 > - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
 > - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
-> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-09,4,305!2022-11-09,4,305!2022-11-09,4,305!2022-11-19,11,305!2022-11-18,10,287!2022-11-09,4,307-->
+> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-11-19,11,305!2022-11-18,10,287!2022-11-23,14,307-->
 
 > ==amide==
 > - group: ==amide==
 > - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
 > - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
 > - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2022-11-09,4,305!2022-11-09,4,305!2022-11-09,4,305!2022-11-16,8,285!2022-11-18,10,285!2022-11-09,4,307-->
+> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-11-16,8,285!2022-11-18,10,285!2022-11-27,18,327-->
 
 > ==nitrile==
 > - group: ==nitrile==
 > - formula: ==RCN==
 > - prefix: ==cyano-==
 > - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)== <!--SR:!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-09,4,308!2022-11-18,10,288!2022-11-09,4,308-->
+> - infix: ==(locant)== <!--SR:!2022-11-28,19,328!2022-11-26,17,328!2022-11-26,17,328!2022-11-23,14,308!2022-11-18,10,288!2022-11-26,17,328-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
