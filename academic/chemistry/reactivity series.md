@@ -187,7 +187,7 @@ Reactivity decreases down the table.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-05T00:25:01.043870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-09T18:05:20.837143+08:00. Any edits will be overridden! -->
 
 1. _(most reactive)_→:::←potassium
 2. potassium→:::←sodium
