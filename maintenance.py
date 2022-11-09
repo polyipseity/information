@@ -135,7 +135,7 @@ def main(argv: _typing.Sequence[str]) -> None:
                                          __path: str = path,
                                          ) -> None:
                                 file: _typing.TextIO
-                                with open(__path, mode='r+t', **open_options) as file:
+                                with open(__path, mode='r+t', **{**open_options, 'newline': ''}) as file:
                                     text: str = file.read()
                                     file.seek(0)
                                     file.write(text.replace(_os.linesep, '\n'))
