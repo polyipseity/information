@@ -187,18 +187,18 @@ Reactivity decreases down the table.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-05T00:25:01.043870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-09T18:05:20.837143+08:00. Any edits will be overridden! -->
 
 1. _(most reactive)_→:::←potassium <!--SR:!2022-11-23,93,250!2023-10-14,358,289-->
 2. potassium→:::←sodium <!--SR:!2023-04-27,174,230!2022-12-07,48,208-->
-3. sodium→:::←calcium <!--SR:!2022-11-09,20,188!2023-07-17,270,248-->
+3. sodium→:::←calcium <!--SR:!2022-12-21,42,188!2023-07-17,270,248-->
 4. calcium→:::←magnesium <!--SR:!2022-11-20,19,230!2022-12-06,29,186-->
 5. magnesium→:::←aluminium <!--SR:!2023-06-10,233,230!2022-12-10,51,209-->
 6. aluminium→:::←zinc <!--SR:!2022-12-04,45,168!2023-01-17,89,205-->
-7. zinc→:::←iron <!--SR:!2022-11-09,20,188!2022-12-08,49,206-->
+7. zinc→:::←iron <!--SR:!2022-12-17,38,188!2022-12-08,49,206-->
 8. iron→:::←lead <!--SR:!2022-12-06,47,209!2022-12-16,38,188-->
-9. lead→:::←copper <!--SR:!2022-11-09,79,230!2022-11-25,17,210-->
-10. copper→:::←mercury <!--SR:!2022-11-09,4,170!2022-11-18,29,230-->
+9. lead→:::←copper <!--SR:!2023-05-06,178,230!2022-11-25,17,210-->
+10. copper→:::←mercury <!--SR:!2022-11-17,8,170!2022-11-18,29,230-->
 11. mercury→:::←silver <!--SR:!2022-12-18,118,250!2022-11-30,26,230-->
 12. silver→:::←gold <!--SR:!2023-04-17,238,290!2022-12-12,177,289-->
 13. gold→:::←_(least reactive)_ <!--SR:!2022-11-19,152,308!2023-11-16,451,324-->
