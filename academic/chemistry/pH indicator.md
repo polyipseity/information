@@ -2,43 +2,109 @@
 
 # pH indicator
 
-## methyl orange
-
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-data: gen.TextCode = gen.TextCode.compile(
-	r'''{mem:_(begin)_}{text:pH | color
--|-
-}1~3.1{text: | <span style="color\: red;">red</span>
-}3.1~4.4{text: | <span style="color\: orange;">orange</span>
-}4.4~14{text: | <span style="color\: yellow;">yellow</span>}{mem:_(end)_}'''
-)
-sem: gen.TextCode = gen.TextCode.compile(
-	r'''<span style="color\: red;">red</span>{}<span style="color\: orange;">orange</span>{}<span style="color\: yellow;">yellow</span>'''
-)
+import typing
+@typing.final
+class pHRanges(typing.NamedTuple):
+	data: typing.Mapping[str, str]
+
+	@property
+	def table(self: typing.Self) -> str:
+		return gen.affix_lines(
+			gen.common.rows_to_table(self.data.items(),
+				names=('pH', 'color',),
+				values=util.identity,),
+			prefix='> ',
+		)
+
+	@property
+	def mem_ranges(self: typing.Self) -> gen.TextCode:
+		return gen.common.seq_to_code(self.data.keys(),
+			index=1,
+			prefix='{mem:_(acidic)_}',
+			suffix='{mem:_(basic)_}',
+			escape=True,)
+
+	@property
+	def mem_map(self: typing.Self) -> gen.TextCode:
+		return gen.common.two_columns_to_code(self.data.items(),
+			left=lambda item: gen.TextCode.escape(item[0]),
+			right=lambda item: gen.TextCode.escape(item[1]),)
+methyl_orange: pHRanges = pHRanges({
+	'1~3.1': '<span style="color: red;">red</span>',
+	'3.1~4.4': '<span style="color: orange;">orange</span>',
+	'4.4~14': '<span style="color: yellow;">yellow</span>',
+})
+litmus: pHRanges = pHRanges({
+	'1~5': '<span style="color: red;">red</span>',
+	'5~8': '<span style="color: purple; background-color: white;">purple</span>',
+	'8~14': '<span style="color: blue; background-color: white;">blue</span>',
+})
+phenolphthalein: pHRanges = pHRanges({
+	'1~8.3': 'colorless',
+	'8.3~10': '<span style="color: lightPink;">very pale pink</span>',
+	'10~14': '<span style="color: pink;">pink</span>',
+})
+
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a9208f'),
-		text=gen.common.quote_text(data),
+		text=gen.common.text(methyl_orange.table),
 	),
 	gen.Result(
 		location=__env__.cwf_section('d82740'),
-		text=gen.common.memorize_linked_seq(data,
+		text=gen.common.memorize_linked_seq(methyl_orange.mem_ranges,
 			hinted=False,
 			states=read.read_flashcard_states(__env__.cwf_section('d82740')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('1389d0'),
-		text=gen.common.semantics_seq_map(data, sem,
-			reversible=True,
+		text=gen.common.memorize_two_sided(methyl_orange.mem_map,
 			states=read.read_flashcard_states(__env__.cwf_section('1389d0')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('2acde1'),
+		text=gen.common.text(litmus.table),
+	),
+	gen.Result(
+		location=__env__.cwf_section('f25a99'),
+		text=gen.common.memorize_linked_seq(litmus.mem_ranges,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('f25a99')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('29f820'),
+		text=gen.common.memorize_two_sided(litmus.mem_map,
+			states=read.read_flashcard_states(__env__.cwf_section('29f820')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('5c8883'),
+		text=gen.common.text(phenolphthalein.table),
+	),
+	gen.Result(
+		location=__env__.cwf_section('155d9a'),
+		text=gen.common.memorize_linked_seq(phenolphthalein.mem_ranges,
+			hinted=False,
+			states=read.read_flashcard_states(__env__.cwf_section('155d9a')),
+		),
+	),
+	gen.Result(
+		location=__env__.cwf_section('0245d8'),
+		text=gen.common.memorize_two_sided(phenolphthalein.mem_map,
+			states=read.read_flashcard_states(__env__.cwf_section('0245d8')),
 		),
 	),
 )
 ```
 %%
+
+## methyl orange
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9208f"--><!-- The following content is generated at 2022-11-05T00:25:01.086869+08:00. Any edits will be overridden! -->
 
@@ -50,12 +116,12 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d82740"--><!-- The following content is generated at 2022-11-05T00:25:01.093869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d82740"--><!-- The following content is generated at 2022-11-09T19:01:32.632530+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←1~3.1 <!--SR:!2022-11-20,16,261!2022-11-22,18,281-->
+1. _(acidic)_→:::←1~3.1 <!--SR:!2022-11-20,16,261!2022-11-22,18,281-->
 2. 1~3.1→:::←3.1~4.4 <!--SR:!2022-11-13,9,221!2022-11-26,19,261-->
 3. 3.1~4.4→:::←4.4~14 <!--SR:!2022-11-20,15,261!2022-11-13,9,221-->
-4. 4.4~14→:::←_(end)_ <!--SR:!2022-11-23,19,281!2022-11-23,16,241-->
+4. 4.4~14→:::←_(basic)_ <!--SR:!2022-11-23,19,281!2022-11-23,16,241-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -69,42 +135,6 @@ __env__.result = gen.Results(
 
 ## litmus
 
-%%
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-data: gen.TextCode = gen.TextCode.compile(
-	r'''{mem:_(begin)_}{text:pH | color
--|-
-}1~5{text: | <span style="color\: red;">red</span>
-}5~8{text: | <span style="color\: purple; background-color\: white;">purple</span>
-}8~14{text: | <span style="color\: blue; background-color\: white;">blue</span>}{mem:_(end)_}'''
-)
-sem: gen.TextCode = gen.TextCode.compile(
-	r'''<span style="color\: red;">red</span>{}<span style="color\: purple; background-color\: white;">purple</span>{}<span style="color\: blue; background-color\: white;">blue</span>'''
-)
-__env__.result = gen.Results(
-	gen.Result(
-		location=__env__.cwf_section('2acde1'),
-		text=gen.common.quote_text(data),
-	),
-	gen.Result(
-		location=__env__.cwf_section('f25a99'),
-		text=gen.common.memorize_linked_seq(data,
-			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('f25a99')),
-		),
-	),
-	gen.Result(
-		location=__env__.cwf_section('29f820'),
-		text=gen.common.semantics_seq_map(data, sem,
-			reversible=True,
-			states=read.read_flashcard_states(__env__.cwf_section('29f820')),
-		),
-	),
-)
-```
-%%
-
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2acde1"--><!-- The following content is generated at 2022-11-05T00:25:01.064868+08:00. Any edits will be overridden! -->
 
 > pH | color
@@ -115,12 +145,12 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2022-11-05T00:25:01.071868+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2022-11-09T19:11:57.168670+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←1~5 <!--SR:!2022-11-21,16,261!2022-11-24,20,281-->
+1. _(acidic)_→:::←1~5 <!--SR:!2022-11-21,16,261!2022-11-24,20,281-->
 2. 1~5→:::←5~8 <!--SR:!2022-11-17,11,241!2022-11-15,11,261-->
 3. 5~8→:::←8~14 <!--SR:!2022-11-27,20,261!2022-11-22,15,241-->
-4. 8~14→:::←_(end)_ <!--SR:!2022-11-22,18,281!2022-11-22,15,241-->
+4. 8~14→:::←_(basic)_ <!--SR:!2022-11-22,18,281!2022-11-22,15,241-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -134,42 +164,6 @@ __env__.result = gen.Results(
 
 ## phenolphthalein
 
-%%
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-data: gen.TextCode = gen.TextCode.compile(
-	r'''{mem:_(begin)_}{text:pH | color
--|-
-}1~8.3{text: | colorless
-}8.3~10{text: | <span style="color\: lightPink;">very pale pink</span>
-}10~14{text: | <span style="color\: pink;">pink</span>}{mem:_(end)_}'''
-)
-sem: gen.TextCode = gen.TextCode.compile(
-	r'''colorless{}<span style="color\: lightPink;">very pale pink</span>{}<span style="color\: pink;">pink</span>'''
-)
-__env__.result = gen.Results(
-	gen.Result(
-		location=__env__.cwf_section('5c8883'),
-		text=gen.common.quote_text(data),
-	),
-	gen.Result(
-		location=__env__.cwf_section('155d9a'),
-		text=gen.common.memorize_linked_seq(data,
-			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('155d9a')),
-		),
-	),
-	gen.Result(
-		location=__env__.cwf_section('0245d8'),
-		text=gen.common.semantics_seq_map(data, sem,
-			reversible=True,
-			states=read.read_flashcard_states(__env__.cwf_section('0245d8')),
-		),
-	),
-)
-```
-%%
-
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c8883"--><!-- The following content is generated at 2022-11-05T00:25:01.044870+08:00. Any edits will be overridden! -->
 
 > pH | color
@@ -180,12 +174,12 @@ __env__.result = gen.Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="155d9a"--><!-- The following content is generated at 2022-11-05T00:25:01.050869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="155d9a"--><!-- The following content is generated at 2022-11-09T19:11:57.181670+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←1~8.3 <!--SR:!2022-11-22,15,241!2022-11-24,20,281-->
+1. _(acidic)_→:::←1~8.3 <!--SR:!2022-11-22,15,241!2022-11-24,20,281-->
 2. 1~8.3→:::←8.3~10 <!--SR:!2022-11-23,16,241!2022-11-24,18,261-->
 3. 8.3~10→:::←10~14 <!--SR:!2022-11-25,18,261!2022-11-23,16,241-->
-4. 10~14→:::←_(end)_ <!--SR:!2022-11-24,20,281!2022-11-23,16,241-->
+4. 10~14→:::←_(basic)_ <!--SR:!2022-11-24,20,281!2022-11-23,16,241-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
