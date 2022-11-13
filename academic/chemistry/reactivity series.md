@@ -159,7 +159,7 @@ Reactivity decreases down the table.
 > - reaction with air: ==heat==
 > - reaction with H<sub>2</sub>O: ==none==
 > - reaction with dilute HCl: ==slow==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==slow to none (covered by insoluble PbSO<sub>4</sub>)== <!--SR:!2023-08-02,286,250!2023-03-12,202,250!2022-11-10,14,190!2023-07-09,262,249-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==slow to none (covered by insoluble PbSO<sub>4</sub>)== <!--SR:!2023-08-02,286,250!2023-03-12,202,250!2022-12-16,33,190!2023-07-09,262,249-->
 
 > copper
 > - reaction with air: ==heat==

@@ -2,7 +2,7 @@
 
 # catalytic converter
 
-__Catalytic converter__ is a ==device that converts toxic pollutants into less-toxic pollutants== ==by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)==. <!--SR:!2022-11-30,21,257!2022-11-11,10,257-->
+__Catalytic converter__ is a ==device that converts toxic pollutants into less-toxic pollutants== ==by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)==. <!--SR:!2022-11-30,21,257!2022-12-14,31,257-->
 
 ## reactions
 

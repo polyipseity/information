@@ -88,7 +88,7 @@ __env__.result = gen.Results(
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2022-11-13,9,249-->
+> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2022-12-07,24,249-->
 
 > nitrates
 > - general solubility: ==<span style="color: green;">soluble</span>==
@@ -128,7 +128,7 @@ __env__.result = gen.Results(
 
 > hydroxides
 > - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds== <!--SR:!2023-07-20,273,230!2022-11-11,12,230-->
+> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds== <!--SR:!2023-07-20,273,230!2022-12-17,34,230-->
 
 > oxides
 > - general solubility: ==<span style="color: red;">insoluble</span>==
