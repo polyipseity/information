@@ -59,13 +59,13 @@ __env__.result = gen.Results(
 
 1. _(begin)_→:::←element in a free form: 0 <!--SR:!2022-11-16,12,270!2022-11-25,21,290-->
 2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2022-11-16,12,250!2022-11-17,13,270-->
-3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2022-11-26,13,230!2022-11-14,10,250-->
+3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2022-11-26,13,230!2022-12-12,28,250-->
 4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2022-11-18,5,230!2022-11-15,11,250-->
 5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2022-11-23,19,270!2022-11-19,6,230-->
 6. group I metal: +1→:::←group II metal: +2 <!--SR:!2022-11-24,20,270!2022-11-17,13,270-->
-7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2022-11-15,11,250!2022-11-14,10,250-->
+7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2022-11-15,11,250!2022-12-22,38,270-->
 8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2022-11-18,14,270!2022-11-16,12,270-->
 9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2022-11-16,12,250!2022-11-15,11,250-->
-10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2022-11-25,21,290!2022-11-14,10,250-->
+10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2022-11-25,21,290!2022-12-12,28,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
