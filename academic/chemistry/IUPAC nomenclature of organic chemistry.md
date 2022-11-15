@@ -562,7 +562,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCOR'==
 > - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
 > - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2022-11-15,8,280!2022-11-29,15,260!2022-11-25,17,321!2022-11-20,7,242!2022-11-26,18,322!2022-11-26,18,322-->
+> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2022-11-29,15,260!2022-11-25,17,321!2022-11-20,7,242!2022-11-26,18,322!2022-11-26,18,322-->
 
 > ==carboxylic acid==
 > - group: ==carboxyl==
@@ -713,6 +713,6 @@ __env__.result = gen.Results(
 7. ketone→:::←alcohol <!--SR:!2022-11-22,17,210!2022-11-16,27,230-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2022-12-23,188,272-->
-10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-11-15,69,267-->
+10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-12-24,39,247-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

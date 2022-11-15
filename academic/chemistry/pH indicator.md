@@ -148,7 +148,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2022-11-09T19:11:57.168670+08:00. Any edits will be overridden! -->
 
 1. _(acidic)_→:::←1~5 <!--SR:!2022-11-21,16,261!2022-11-24,20,281-->
-2. 1~5→:::←5~8 <!--SR:!2022-11-17,11,241!2022-11-15,11,261-->
+2. 1~5→:::←5~8 <!--SR:!2022-11-17,11,241!2022-12-28,43,281-->
 3. 5~8→:::←8~14 <!--SR:!2022-11-27,20,261!2022-11-22,15,241-->
 4. 8~14→:::←_(basic)_ <!--SR:!2022-11-22,18,281!2022-11-22,15,241-->
 
@@ -158,7 +158,7 @@ __env__.result = gen.Results(
 
 1. 1~5:::<span style="color: red;">red</span> <!--SR:!2023-06-13,282,270!2023-09-16,325,250-->
 2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-03-31,221,250!2023-07-03,256,230-->
-3. 8~14:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2023-05-12,263,270!2022-11-15,7,210-->
+3. 8~14:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2023-05-12,263,270!2022-12-02,17,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
