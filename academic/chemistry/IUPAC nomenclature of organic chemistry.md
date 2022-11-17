@@ -161,7 +161,7 @@ The steps for naming an organic compound are:
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-12-26,39,190!2022-11-20,11,305-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2022-11-21,5,247-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2022-12-07,159,250!2022-12-09,22,267-->
-10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-11-18,9,265-->
+10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-12-13,25,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2022-12-03,193,312!2022-12-16,29,287-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2022-11-21,12,307-->
 13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2022-11-25,17,322!2022-11-20,11,307-->
@@ -534,7 +534,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RX==
 > - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
 > - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
-> - infix: ==(locant)== <!--SR:!2022-11-22,14,300!2022-11-18,10,301!2022-11-27,19,322!2022-12-19,32,282!2022-11-21,13,305!2022-11-26,17,327-->
+> - infix: ==(locant)== <!--SR:!2022-11-22,14,300!2022-11-24,6,281!2022-11-27,19,322!2022-12-19,32,282!2022-11-21,13,305!2022-11-26,17,327-->
 
 > ==alcohol==
 > - group: ==hydroxyl==
@@ -576,7 +576,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCOO<sup>-</sup>==
 > - prefix: ==carboxy-==
 > - suffix: ==-ate (retained), -oate==
-> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-27,19,322!2022-11-18,9,262!2022-12-18,31,282!2022-11-25,16,327-->
+> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-27,19,322!2022-12-14,26,262!2022-12-18,31,282!2022-11-25,16,327-->
 
 > ==alkanoyl==
 > - group: ==acyl==
@@ -590,21 +590,21 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
 > - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
 > - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
-> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-11-19,11,305!2022-11-18,10,287!2022-11-23,14,307-->
+> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-11-19,11,305!2022-12-16,28,287!2022-11-23,14,307-->
 
 > ==amide==
 > - group: ==amide==
 > - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
 > - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
 > - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-12-12,26,285!2022-11-18,10,285!2022-11-27,18,327-->
+> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-12-12,26,285!2022-12-17,29,285!2022-11-27,18,327-->
 
 > ==nitrile==
 > - group: ==nitrile==
 > - formula: ==RCN==
 > - prefix: ==cyano-==
 > - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)== <!--SR:!2022-11-28,19,328!2022-11-26,17,328!2022-11-26,17,328!2022-11-23,14,308!2022-11-18,10,288!2022-11-26,17,328-->
+> - infix: ==(locant)== <!--SR:!2022-11-28,19,328!2022-11-26,17,328!2022-11-26,17,328!2022-11-23,14,308!2022-11-24,6,268!2022-11-26,17,328-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -708,7 +708,7 @@ __env__.result = gen.Results(
 2. cation→:::←carboxylic acid <!--SR:!2022-12-01,188,275!2023-07-19,331,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2023-04-03,289,326-->
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2022-12-30,46,210!2023-01-29,219,267-->
-5. nitrile→:::←aldehyde <!--SR:!2022-11-18,153,250!2023-11-12,364,250-->
+5. nitrile→:::←aldehyde <!--SR:!2023-02-03,77,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2022-12-02,167,252!2023-04-18,239,250-->
 7. ketone→:::←alcohol <!--SR:!2022-11-22,17,210!2022-12-02,16,210-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
