@@ -155,7 +155,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2022-11-26,17,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-11-20,11,305-->
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-11-24,11,285-->
-4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2022-11-19,11,287-->
+4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2022-11-26,7,267-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2022-11-22,9,247-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2022-12-10,23,267-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-12-26,39,190!2022-11-20,11,305-->
@@ -512,7 +512,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
 > - suffix: ==-ene==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-25,17,320!2022-11-27,19,322!2022-11-25,17,322!2022-12-13,27,282!2022-11-26,18,322!2022-11-27,19,322!2022-11-19,11,287-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-25,17,320!2022-11-27,19,322!2022-11-25,17,322!2022-12-13,27,282!2022-11-26,18,322!2022-11-27,19,322!2023-01-05,47,307-->
 
 > ==alkyne==
 > - group: ==alkynyl==
@@ -583,14 +583,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCO==
 > - prefix: ==(none)==
 > - suffix: ==-yl (retained), -oyl==
-> - infix: ==(locant)== <!--SR:!2022-11-22,5,261!2022-11-22,14,302!2022-11-26,18,322!2022-11-20,7,242!2022-11-19,11,287!2022-11-28,19,327-->
+> - infix: ==(locant)== <!--SR:!2022-11-22,5,261!2022-11-22,14,302!2022-11-26,18,322!2022-11-20,7,242!2022-12-25,36,287!2022-11-28,19,327-->
 
 > ==amine==
 > - group: ==amino==
 > - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
 > - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
 > - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
-> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-11-19,11,305!2022-12-16,28,287!2022-11-23,14,307-->
+> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2023-01-08,50,325!2022-12-16,28,287!2022-11-23,14,307-->
 
 > ==amide==
 > - group: ==amide==
