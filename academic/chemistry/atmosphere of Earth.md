@@ -66,7 +66,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1ad236"--><!-- The following content is generated at 2022-11-05T00:25:01.505868+08:00. Any edits will be overridden! -->
 
 1. N<sub>2</sub>::78.084% <!--SR:!2023-10-25,370,230-->
-2. O<sub>2</sub>::20.946% <!--SR:!2022-11-20,21,210-->
+2. O<sub>2</sub>::20.946% <!--SR:!2023-01-07,48,210-->
 3. Ar::0.9340% <!--SR:!2023-03-28,142,210-->
 4. CO<sub>2</sub>::0.0417% (2022-04-xx) <!--SR:!2023-01-04,76,207-->
 
