@@ -4,7 +4,7 @@
 
 An __ion__ is an atom or molecule with a net electrical charge. A ==__cation__== is a ==positively charged ion==, while an ==__anion__== is a ==negatively charged ion==.<!--SR:!2023-02-02,305,345!2023-03-30,350,350!2023-01-07,282,332!2023-02-16,318,354-->
 
-A ==simple ion== is an ==ion formed from only one atom==, while a ==polyatomic ion== is an ==ion formed from more than one atom==. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2022-11-20,202,267!2022-12-05,256,334-->
+A ==simple ion== is an ==ion formed from only one atom==, while a ==polyatomic ion== is an ==ion formed from more than one atom==. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2022-12-05,256,334-->
 
 ## data
 
@@ -258,7 +258,7 @@ __env__.result = gen.Results(
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-12-22,122,227-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2022-11-20,21,190-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-01-02,43,190-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-12-28,128,230-->
 17. mercury(II) ion::_(n/a)_ <!--SR:!2022-11-24,8,256-->
