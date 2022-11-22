@@ -156,7 +156,7 @@ The steps for naming an organic compound are:
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-12-28,38,305-->
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-11-24,11,285-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2022-11-26,7,267-->
-5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2022-11-22,9,247-->
+5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2022-11-28,6,227-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2022-12-10,23,267-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-12-26,39,190!2022-11-27,7,285-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2022-12-05,14,247-->
@@ -520,7 +520,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
 > - suffix: ==-yne==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2022-11-22,13,280!2022-11-26,18,320!2022-12-17,30,281!2022-11-27,19,322!2022-11-25,17,322!2023-01-11,52,327-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2022-11-26,18,320!2022-12-17,30,281!2022-11-27,19,322!2022-11-25,17,322!2023-01-11,52,327-->
 
 > ==benzene derivative==
 > - group: ==phenyl==
@@ -534,7 +534,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RX==
 > - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
 > - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
-> - infix: ==(locant)== <!--SR:!2022-11-22,14,300!2022-11-24,6,281!2022-11-27,19,322!2022-12-19,32,282!2022-11-30,9,285!2022-11-26,17,327-->
+> - infix: ==(locant)== <!--SR:!2023-01-05,44,300!2022-11-24,6,281!2022-11-27,19,322!2022-12-19,32,282!2022-11-30,9,285!2022-11-26,17,327-->
 
 > ==alcohol==
 > - group: ==hydroxyl==
@@ -583,7 +583,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCO==
 > - prefix: ==(none)==
 > - suffix: ==-yl (retained), -oyl==
-> - infix: ==(locant)== <!--SR:!2022-11-22,5,261!2022-11-22,14,302!2022-11-26,18,322!2022-12-07,17,242!2022-12-25,36,287!2022-11-28,19,327-->
+> - infix: ==(locant)== <!--SR:!2022-12-07,15,261!2023-01-06,45,302!2022-11-26,18,322!2022-12-07,17,242!2022-12-25,36,287!2022-11-28,19,327-->
 
 > ==amine==
 > - group: ==amino==
@@ -710,7 +710,7 @@ __env__.result = gen.Results(
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2022-12-30,46,210!2023-01-29,219,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-02-03,77,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2022-12-02,167,252!2023-04-18,239,250-->
-7. ketone→:::←alcohol <!--SR:!2022-11-22,17,210!2022-12-02,16,210-->
+7. ketone→:::←alcohol <!--SR:!2022-12-03,11,190!2022-12-02,16,210-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2022-12-23,188,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-12-24,39,247-->

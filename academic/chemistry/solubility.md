@@ -108,7 +108,7 @@ __env__.result = gen.Results(
 
 > iodides
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds== <!--SR:!2023-08-30,310,242!2022-11-22,92,210-->
+> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds== <!--SR:!2023-08-30,310,242!2023-06-03,193,210-->
 
 > sulfates
 > - general solubility: ==<span style="color: green;">soluble</span>==
