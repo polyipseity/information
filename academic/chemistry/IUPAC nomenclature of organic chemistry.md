@@ -590,21 +590,21 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
 > - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
 > - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
-> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2023-01-08,50,325!2022-12-16,28,287!2022-11-23,14,307-->
+> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2023-01-09,47,305!2023-01-08,50,325!2022-12-16,28,287!2023-01-24,62,327-->
 
 > ==amide==
 > - group: ==amide==
 > - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
 > - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
 > - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2022-11-23,14,305!2022-12-12,26,285!2022-12-17,29,285!2022-11-27,18,327-->
+> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2022-11-24,15,325!2022-11-28,19,325!2023-01-23,61,325!2022-12-12,26,285!2022-12-17,29,285!2022-11-27,18,327-->
 
 > ==nitrile==
 > - group: ==nitrile==
 > - formula: ==RCN==
 > - prefix: ==cyano-==
 > - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)== <!--SR:!2022-11-28,19,328!2022-11-26,17,328!2022-11-26,17,328!2022-11-23,14,308!2022-11-24,6,268!2022-11-26,17,328-->
+> - infix: ==(locant)== <!--SR:!2022-11-28,19,328!2022-11-26,17,328!2022-11-26,17,328!2023-01-22,60,328!2022-11-24,6,268!2022-11-26,17,328-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -189,7 +189,7 @@ Reactivity decreases down the table.
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-09T18:05:20.837143+08:00. Any edits will be overridden! -->
 
-1. _(most reactive)_→:::←potassium <!--SR:!2022-11-23,93,250!2023-10-14,358,289-->
+1. _(most reactive)_→:::←potassium <!--SR:!2023-10-15,326,270!2023-10-14,358,289-->
 2. potassium→:::←sodium <!--SR:!2023-04-27,174,230!2022-12-07,48,208-->
 3. sodium→:::←calcium <!--SR:!2022-12-21,42,188!2023-07-17,270,248-->
 4. calcium→:::←magnesium <!--SR:!2023-01-04,45,230!2022-12-06,29,186-->
