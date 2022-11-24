@@ -1,0 +1,19 @@
+---
+aliases: ['photoemission',]
+---
+
+#flashcards/physics/photoelectric_effect #academic/physics
+
+# photoelectric effect
+
+The __photoelectric effect__ is ==the ejection of [electrons](electron.md) from a material when [electromagnetic radiation](electromagnetic%20radiation.md) strikes it==.
+
+## observation
+
+A ==[photocell](photocell.md)== can be used to observe the effect. It consists of ==a photosensitive metal, the [cathode](cathode.md), curving around the [anode](anode.md) inside an [evacuated](vacuum.md) glass tube==. When the cathode is shone by light, ==emitted electrons escape to the anode, producing an [electric current](electric%20current.md)==. The current is called ==photoelectric current, a kind of [photocurrent](photocurrent.md)==.
+
+If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. If the light frequency is high enough, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission.
+
+## mechanism
+
+The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when ==continuous radiation passes through an electron==, ==the electron gains [kinetic energy](kinentic%20energy.md), vibrating with increasing amplitude==. When enough energy is accumulated, ==the electron is emitted==. The energy gain increases when ==light intensity increases==. However, ==[observations](#observation) disagree with said prediction==.
