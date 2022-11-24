@@ -14,6 +14,8 @@ A ==[photocell](photocell.md)== can be used to observe the effect. It consists o
 
 If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. If the light frequency is high enough, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission.
 
+Emitted electrons have ==different== initial kinetic energies.
+
 ## mechanism
 
 The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when ==continuous radiation passes through an electron==, ==the electron gains [kinetic energy](kinentic%20energy.md), vibrating with increasing amplitude==. When enough energy is accumulated, ==the electron is emitted==. The energy gain increases when ==light intensity increases==. However, ==[observations](#observation) disagree with said prediction==.
