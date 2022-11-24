@@ -261,7 +261,7 @@ __env__.result = gen.Results(
 14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-01-02,43,190-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-12-28,128,230-->
-17. mercury(II) ion::_(n/a)_ <!--SR:!2022-11-24,8,256-->
+17. mercury(II) ion::_(n/a)_ <!--SR:!2022-12-14,20,256-->
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-11-27,190,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2022-12-11,111,190-->
