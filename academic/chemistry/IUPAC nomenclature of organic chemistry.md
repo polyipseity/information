@@ -164,7 +164,7 @@ The steps for naming an organic compound are:
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-12-13,25,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2022-12-03,193,312!2022-12-16,29,287-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2023-01-01,41,307-->
-13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2022-11-25,17,322!2022-12-28,38,307-->
+13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2023-02-13,80,342!2022-12-28,38,307-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -208,7 +208,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2023-01-10,205,266!2022-11-26,18,322-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2023-01-05,201,266!2022-11-26,18,322-->
 3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2022-11-28,19,325-->
-4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2022-11-25,17,322!2023-01-01,41,305-->
+4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2023-02-11,78,342!2023-01-01,41,305-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -259,8 +259,8 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-09T18:05:21.147143+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←commas (,) between locants <!--SR:!2023-01-21,252,332!2022-11-25,17,320-->
-2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2022-11-25,17,321-->
+1. _(begin)_→:::←commas (,) between locants <!--SR:!2023-01-21,252,332!2023-01-22,58,320-->
+2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2023-01-20,56,321-->
 3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2023-03-16,271,333!2022-11-27,19,322-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2022-11-27,18,327!2022-11-27,18,327-->
 
@@ -512,7 +512,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
 > - suffix: ==-ene==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2022-11-25,17,320!2022-11-27,19,322!2022-11-25,17,322!2022-12-13,27,282!2022-11-26,18,322!2022-11-27,19,322!2023-01-05,47,307-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2023-02-10,77,340!2022-11-27,19,322!2023-01-23,59,322!2022-12-13,27,282!2022-11-26,18,322!2022-11-27,19,322!2023-01-05,47,307-->
 
 > ==alkyne==
 > - group: ==alkynyl==
@@ -520,14 +520,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
 > - suffix: ==-yne==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2022-11-26,18,320!2022-12-17,30,281!2022-11-27,19,322!2022-11-25,17,322!2023-01-11,52,327-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2022-11-26,18,320!2022-12-17,30,281!2022-11-27,19,322!2023-02-09,76,342!2023-01-11,52,327-->
 
 > ==benzene derivative==
 > - group: ==phenyl==
 > - formula: ==RC<sub>6</sub>H<sub>5</sub>/RPh==
 > - prefix: ==phenyl-==
 > - suffix: ==-benzene==
-> - infix: ==(locant)== <!--SR:!2023-01-03,43,300!2022-11-30,9,280!2022-11-25,17,322!2023-01-14,55,322!2022-12-29,42,302!2022-11-27,18,327-->
+> - infix: ==(locant)== <!--SR:!2023-01-03,43,300!2022-11-30,9,280!2023-02-13,80,342!2023-01-14,55,322!2022-12-29,42,302!2022-11-27,18,327-->
 
 > ==([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane==
 > - group: ==([prefix for halogen](#affixes%20for%20halogen)), halo==
@@ -548,35 +548,35 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==ROR'==
 > - prefix: ==([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)==
 > - suffix: ==ether==
-> - infix: ==(locant)== <!--SR:!2022-11-26,18,320!2022-11-27,19,322!2022-11-25,17,322!2022-12-03,12,242!2022-11-28,19,325!2022-11-25,16,327-->
+> - infix: ==(locant)== <!--SR:!2022-11-26,18,320!2022-11-27,19,322!2023-02-12,79,342!2022-12-03,12,242!2022-11-28,19,325!2023-02-04,71,347-->
 
 > ==aldehyde==
 > - group: ==aldehyde==
 > - formula: ==RCHO==
 > - prefix: ==oxo- (=O), formyl- (-CHO)==
 > - suffix: ==-al (=O), -carbaldehyde (-CHO)==
-> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2023-01-05,45,302!2022-12-11,20,245!2022-12-15,28,285!2022-11-25,16,327-->
+> - infix: ==(locant)== <!--SR:!2023-02-09,76,342!2022-11-27,19,322!2023-01-05,45,302!2022-12-11,20,245!2022-12-15,28,285!2023-02-05,72,347-->
 
 > ==ketone==
 > - group: ==carbonyl==
 > - formula: ==RCOR'==
 > - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
 > - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2022-11-29,15,260!2022-11-25,17,321!2022-12-07,17,242!2022-11-26,18,322!2022-11-26,18,322-->
+> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2022-11-29,15,260!2023-01-21,57,321!2022-12-07,17,242!2022-11-26,18,322!2022-11-26,18,322-->
 
 > ==carboxylic acid==
 > - group: ==carboxyl==
 > - formula: ==RCOOH==
 > - prefix: ==carboxy-==
 > - suffix: ==-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)==
-> - infix: ==(locant)== <!--SR:!2023-01-13,54,320!2022-12-30,43,302!2022-11-26,18,322!2022-12-30,40,302!2022-11-25,16,325!2022-11-28,19,327-->
+> - infix: ==(locant)== <!--SR:!2023-01-13,54,320!2022-12-30,43,302!2022-11-26,18,322!2022-12-30,40,302!2022-12-05,10,305!2022-11-28,19,327-->
 
 > ==carboxylate==
 > - group: ==carboxylate==
 > - formula: ==RCOO<sup>-</sup>==
 > - prefix: ==carboxy-==
 > - suffix: ==-ate (retained), -oate==
-> - infix: ==(locant)== <!--SR:!2022-11-25,17,322!2022-11-27,19,322!2022-11-27,19,322!2022-12-14,26,262!2022-12-18,31,282!2022-11-25,16,327-->
+> - infix: ==(locant)== <!--SR:!2023-02-08,75,342!2022-11-27,19,322!2022-11-27,19,322!2022-12-14,26,262!2022-12-18,31,282!2023-02-07,74,347-->
 
 > ==alkanoyl==
 > - group: ==acyl==
