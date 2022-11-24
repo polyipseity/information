@@ -4,6 +4,7 @@ aliases: ['EMR', 'electromagnetic wave', 'electromagnetic waves', 'EM wave', 'EM
 
 #flashcards/physics/electromagnetic_radiation #academic/physics
 
+# electromagnetic radiation
 
 __Electromagnetic radiation__ (__EMR__) is a ==wave of the [electromagnetic field](electromagnetic%20field.md)==.
 
