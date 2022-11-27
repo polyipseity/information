@@ -116,11 +116,11 @@ __env__.result = gen.Results(
 
 > carbonates
 > - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds== <!--SR:!2023-09-23,328,248!2022-11-26,96,250-->
+> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds== <!--SR:!2023-09-23,328,248!2023-07-28,242,250-->
 
 > sulfites
 > - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2023-06-05,196,206!2022-11-28,27,210-->
+> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2023-06-05,196,206!2023-01-24,57,210-->
 
 > phosphates
 > - general solubility: ==<span style="color: red;">insoluble</span>==

@@ -262,7 +262,7 @@ __env__.result = gen.Results(
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-12-28,128,230-->
 17. mercury(II) ion::_(n/a)_ <!--SR:!2022-12-14,20,256-->
-18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2022-11-27,190,239-->
+18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2024-03-03,461,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2022-12-11,111,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
@@ -374,7 +374,7 @@ __env__.result = gen.Results(
 13. oxide ion::_(n/a)_ <!--SR:!2022-12-03,20,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2022-11-30,17,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
-16. sulfite ion::colorless <!--SR:!2022-11-28,218,294-->
+16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-01-02,74,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->

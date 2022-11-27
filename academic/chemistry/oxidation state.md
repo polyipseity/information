@@ -59,7 +59,7 @@ __env__.result = gen.Results(
 
 1. _(begin)_→:::←element in a free form: 0 <!--SR:!2023-01-01,46,290!2023-02-18,85,310-->
 2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2022-12-20,34,250!2023-01-09,53,290-->
-3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2022-11-26,13,230!2022-12-12,28,250-->
+3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2022-12-07,9,210!2022-12-12,28,250-->
 4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2022-11-30,12,230!2022-12-17,32,250-->
 5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2023-01-17,55,270!2022-12-05,16,230-->
 6. group I metal: +1→:::←group II metal: +2 <!--SR:!2023-02-09,77,290!2023-01-07,51,290-->
