@@ -12,10 +12,10 @@ The __photoelectric effect__ is ==the ejection of [electrons](electron.md) from 
 
 A ==[photocell](photocell.md)== can be used to observe the effect. It consists of ==a photosensitive metal, the [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube==. When the photocathode is shone by light, ==emitted electrons escape to the anode, producing an [electric current](electric%20current.md)==. The current is called ==photoelectric current, a kind of [photocurrent](photocurrent.md)==.
 
-If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. If the light frequency is high enough, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission.
+If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. Otherwise, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission of a single electron. ==Light intensity== only affects the photoelectric current.
 
-Emitted electrons have ==different== initial kinetic energies.
+Emitted electrons have ==different== initial kinetic energies. The maximum kinetic energy of an electron ==increases with light frequency== given that the threshold frequency is exceeded.
 
 ## mechanism
 
-The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when ==continuous radiation passes through an electron==, ==the electron gains [kinetic energy](kinentic%20energy.md), vibrating with increasing amplitude==. When enough energy is accumulated, ==the electron is emitted==. The energy gain increases when ==light intensity increases==. However, ==[observations](#observation) disagree with said prediction==.
+The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when ==continuous radiation passes through an electron==, ==the electron gains [kinetic energy](kinentic%20energy.md), vibrating with increasing amplitude==. After ==some time==, when enough energy is accumulated, ==the electron is emitted==. The energy gain increases when ==light intensity increases==. However, ==[observations](#observation) disagree with said prediction==.
