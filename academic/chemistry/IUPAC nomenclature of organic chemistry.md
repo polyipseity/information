@@ -562,7 +562,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCOR'==
 > - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
 > - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2022-11-29,15,260!2023-01-21,57,321!2022-12-07,17,242!2023-03-01,93,342!2023-02-26,90,342-->
+> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2023-01-19,51,280!2023-01-21,57,321!2022-12-07,17,242!2023-03-01,93,342!2023-02-26,90,342-->
 
 > ==carboxylic acid==
 > - group: ==carboxyl==

@@ -6,7 +6,7 @@ aliases: ['photoelectric current', 'photovoltaic current',]
 
 # photocurrent
 
-__Photocurrent__ is ==the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)==. It may be caused by ==[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)==. <!--SR:!2022-11-29,1,230!2022-12-01,3,250-->
+__Photocurrent__ is ==the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)==. It may be caused by ==[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)==. <!--SR:!2022-12-01,2,230!2022-12-01,3,250-->
 
 ## calculation
 
@@ -20,6 +20,6 @@ By applying an external [voltage](voltage.md), the photocurrent can be ==changed
 
 An accelerating potential ==increases the photocurrent==, but only up to a point called ==saturation current $I_s$==. The potential ==attracts electrons to the anode==, ==increasing the number of captured electrons==, thus the photocurrent. The saturation current is reached when ==no more additional electrons can be captured==. <!--SR:!2022-12-01,3,250!2022-12-02,4,270!2022-12-01,3,250!2022-12-01,3,250!2022-12-01,3,250-->
 
-An retarding potential ==decreases the photocurrent==. By increasing the retarding potential, when the photocurrent ==just reach zero==, the potential at that point is called ==stopping potential or cut-off potential $V_0$==. The potential ==repels electrons==, ==preventing all but high-energy electrons from reaching the anode==, thus decreasing the photocurrent. When the stopping potential is reached, ==even the most energetic electron of kinetic energy $K_\mathrm{max}$ is stopped==, so the photocurrent is zero. In this case, the stopping potential is related by ==$\mathrm{e}V_0=K_\mathrm{max}$==. <!--SR:!2022-12-02,4,270!2022-12-01,3,250!2022-12-01,3,250!2022-12-01,3,250!2022-12-01,3,250!2022-11-29,1,230!2022-12-01,3,250-->
+An retarding potential ==decreases the photocurrent==. By increasing the retarding potential, when the photocurrent ==just reach zero==, the potential at that point is called ==stopping potential or cut-off potential $V_0$==. The potential ==repels electrons==, ==preventing all but high-energy electrons from reaching the anode==, thus decreasing the photocurrent. When the stopping potential is reached, ==even the most energetic electron of kinetic energy $K_\mathrm{max}$ is stopped==, so the photocurrent is zero. In this case, the stopping potential is related by ==$\mathrm{e}V_0=K_\mathrm{max}$==. <!--SR:!2022-12-02,4,270!2022-12-01,3,250!2022-12-01,3,250!2022-12-01,3,250!2022-12-01,3,250!2022-12-01,2,230!2022-12-01,3,250-->
 
 The resulting photocurrent-voltage curve is ==[sigmoidal](sigmoid%20function.md)==. <!--SR:!2022-12-02,4,270-->
