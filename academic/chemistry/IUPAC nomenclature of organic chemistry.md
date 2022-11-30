@@ -527,14 +527,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RC<sub>6</sub>H<sub>5</sub>/RPh==
 > - prefix: ==phenyl-==
 > - suffix: ==-benzene==
-> - infix: ==(locant)== <!--SR:!2023-01-03,43,300!2022-11-30,9,280!2023-02-13,80,342!2023-01-14,55,322!2022-12-29,42,302!2023-02-21,85,347-->
+> - infix: ==(locant)== <!--SR:!2023-01-03,43,300!2023-01-08,39,300!2023-02-13,80,342!2023-01-14,55,322!2022-12-29,42,302!2023-02-21,85,347-->
 
 > ==([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane==
 > - group: ==([prefix for halogen](#affixes%20for%20halogen)), halo==
 > - formula: ==RX==
 > - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
 > - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
-> - infix: ==(locant)== <!--SR:!2023-01-05,44,300!2022-12-19,25,301!2023-02-28,92,342!2022-12-19,32,282!2022-11-30,9,285!2023-02-24,88,347-->
+> - infix: ==(locant)== <!--SR:!2023-01-05,44,300!2022-12-19,25,301!2023-02-28,92,342!2022-12-19,32,282!2022-12-26,26,285!2023-02-24,88,347-->
 
 > ==alcohol==
 > - group: ==hydroxyl==

@@ -250,7 +250,7 @@ __env__.result = gen.Results(
 3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
 4. copper(I) ion::_(n/a)_ <!--SR:!2022-12-01,18,276-->
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
-6. mercury(I) ion::_(n/a)_ <!--SR:!2022-11-30,17,276-->
+6. mercury(I) ion::_(n/a)_ <!--SR:!2023-01-15,46,276-->
 7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
 8. magnesium ion::colorless <!--SR:!2023-01-17,241,274-->
 9. calcium ion::colorless <!--SR:!2024-03-02,499,272-->
@@ -303,7 +303,7 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-06T20:13:24.353184+08:00. Any edits will be overridden! -->
 
-1. hydride ion:::H<sup>-</sup> <!--SR:!2022-12-04,255,334!2022-11-30,253,336-->
+1. hydride ion:::H<sup>-</sup> <!--SR:!2022-12-04,255,334!2026-02-13,1171,356-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2023-02-22,322,354-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2023-03-04,330,353!2025-11-03,1086,354-->
 4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2022-12-02,213,274-->
@@ -372,7 +372,7 @@ __env__.result = gen.Results(
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2022-12-08,173,250-->
 13. oxide ion::_(n/a)_ <!--SR:!2022-12-03,20,276-->
-14. sulfide ion::_(n/a)_ <!--SR:!2022-11-30,17,276-->
+14. sulfide ion::_(n/a)_ <!--SR:!2023-01-16,47,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
