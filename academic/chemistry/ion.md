@@ -248,7 +248,7 @@ __env__.result = gen.Results(
 1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion::colorless <!--SR:!2023-04-28,314,293-->
 3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
-4. copper(I) ion::_(n/a)_ <!--SR:!2022-12-01,18,276-->
+4. copper(I) ion::_(n/a)_ <!--SR:!2023-01-20,50,276-->
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
 6. mercury(I) ion::_(n/a)_ <!--SR:!2023-01-15,46,276-->
 7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
@@ -340,7 +340,7 @@ __env__.result = gen.Results(
 7. nitrate ion::1- <!--SR:!2023-01-31,162,270-->
 8. nitrite ion::1- <!--SR:!2023-10-27,431,292-->
 9. hydrogencarbonate ion::1- <!--SR:!2023-10-31,435,290-->
-10. hydrogensulfite ion::1- <!--SR:!2022-12-01,234,319-->
+10. hydrogensulfite ion::1- <!--SR:!2024-12-16,746,319-->
 11. hydrogensulfate ion::1- <!--SR:!2023-04-18,304,284-->
 12. permanganate ion::1- <!--SR:!2022-12-25,40,230-->
 13. oxide ion::2- <!--SR:!2023-04-30,316,290-->
