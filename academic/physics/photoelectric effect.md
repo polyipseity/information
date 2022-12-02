@@ -23,6 +23,6 @@ The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts
 The ==threshold frequency $V_o$== is determined by ==the [work function](work%20function.md) ($\Phi$ or $\varphi$) of the surface of the material==:
 ==$$\begin{aligned}\Phi&=hV_o\\
 V_o&=\frac\Phi{h}\end{aligned}$$==
-where ==$h$ is the [Planck constant](Planck%20constant.md)==.
+where ==$h$ is the [Planck constant](Planck%20constant.md)==. <!--SR:!2022-12-05,3,262!2022-12-05,3,262!2022-12-05,3,262-->
 
-Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface, increasing photoemission, hence photoelectric current==.
+Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface, increasing photoemission, hence photoelectric current==. <!--SR:!2022-12-03,1,242-->
