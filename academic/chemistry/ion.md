@@ -306,7 +306,7 @@ __env__.result = gen.Results(
 1. hydride ion:::H<sup>-</sup> <!--SR:!2022-12-04,255,334!2026-02-13,1171,356-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2023-02-22,322,354-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2023-03-04,330,353!2025-11-03,1086,354-->
-4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2022-12-02,213,274-->
+4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2025-02-23,814,294-->
 5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2023-05-02,318,293-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2023-01-29,298,332!2023-02-05,308,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
@@ -378,7 +378,7 @@ __env__.result = gen.Results(
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-01-02,74,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
-20. nitride ion::_(n/a)_ <!--SR:!2022-12-02,19,276-->
+20. nitride ion::_(n/a)_ <!--SR:!2023-01-19,48,276-->
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
