@@ -50,7 +50,7 @@ arrange: gen.TextCode = gen.common.seq_to_code((
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
 pronuciations: gen.TextCode = gen.TextCode.compile(
-	r'''{text:- }suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u){text:\: }drop '-e'{text:
+	R'''{text:- }suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u){text:\: }drop '-e'{text:
 - }bond suffix is followed by prefix for type count{text:\: }keep '-e'{text:
 - }prefix for carbon count is followed by prefix for type count{text:\: }add '-a'{}'''
 )
@@ -272,7 +272,7 @@ The steps for naming an organic compound are:
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 text: gen.TextCode = gen.TextCode.compile(
-	r'''{text:- }1{text:\: }(none){text:
+	R'''{text:- }1{text:\: }(none){text:
 - }2{text:\: }di-{text:
 - }3{text:\: }tri-{text:
 - }4/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
@@ -317,7 +317,7 @@ __env__.result = gen.Results(
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 text: gen.TextCode = gen.TextCode.compile(
-	r'''{text:- }1{text:\: }meth-{text:
+	R'''{text:- }1{text:\: }meth-{text:
 - }2{text:\: }eth-{text:
 - }3{text:\: }prop-{text:
 - }4{text:\: }but-{text:

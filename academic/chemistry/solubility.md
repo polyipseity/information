@@ -12,59 +12,59 @@
 import typing
 data: typing.Mapping[str, typing.Mapping[str, str]] = {
 	'group I compounds': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': 'Li<sub>3</sub>PO<sub>4</sub>',
 	},
 	'NH<sub>4</sub><sup>+</sup> compounds': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': '_(none)_',
 	},
 	'nitrates': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': '_(none)_',
 	},
 	'acetates (ethanoates)': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': 'Ag<sup>+</sup> compounds',
 	},
 	'chlorides': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': 'Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds',
 	},
 	'bromides': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': 'Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds',
 	},
 	'iodides': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': 'Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds',
 	},
 	'sulfates': {
-		'general solubility': r'<span style="color\: green;">soluble</span>',
+		'general solubility': R'<span style="color\: green;">soluble</span>',
 		'exception(s)': 'Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds',
 	},
 	'carbonates': {
-		'general solubility': r'<span style="color\: red;">insoluble</span>',
+		'general solubility': R'<span style="color\: red;">insoluble</span>',
 		'exception(s)': 'group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds',
 	},
 	'sulfites': {
-		'general solubility': r'<span style="color\: red;">insoluble</span>',
+		'general solubility': R'<span style="color\: red;">insoluble</span>',
 		'exception(s)': 'group I and NH<sub>4</sub><sup>+</sup> compounds',
 	},
 	'phosphates': {
-		'general solubility': r'<span style="color\: red;">insoluble</span>',
+		'general solubility': R'<span style="color\: red;">insoluble</span>',
 		'exception(s)': 'group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)',
 	},
 	'hydroxides': {
-		'general solubility': r'<span style="color\: red;">insoluble</span>',
+		'general solubility': R'<span style="color\: red;">insoluble</span>',
 		'exception(s)': 'group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds',
 	},
 	'oxides': {
-		'general solubility': r'<span style="color\: red;">insoluble</span>',
+		'general solubility': R'<span style="color\: red;">insoluble</span>',
 		'exception(s)': 'group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds',
 	},
 	'sulfides': {
-		'general solubility': r'<span style="color\: red;">insoluble</span>',
+		'general solubility': R'<span style="color\: red;">insoluble</span>',
 		'exception(s)': 'group I, group II, and NH<sub>4</sub><sup>+</sup> compounds',
 	},
 }
