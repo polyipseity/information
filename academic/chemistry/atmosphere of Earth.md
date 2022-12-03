@@ -8,10 +8,10 @@
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 data: gen.TextCode = gen.common.seq_to_code((
-	r'N<sub>2</sub>{text:\: 78.084%}',
-	r'O<sub>2</sub>{text:\: 20.946%}',
-	r'Ar{text:\: 0.9340%}',
-	r'CO<sub>2</sub>{text:\: 0.0417% (2022-04-xx)}',
+	R'N<sub>2</sub>{text:\: 78.084%}',
+	R'O<sub>2</sub>{text:\: 20.946%}',
+	R'Ar{text:\: 0.9340%}',
+	R'CO<sub>2</sub>{text:\: 0.0417% (2022-04-xx)}',
 	'{text:_others_}{mem:_others_}{mem lnk:_others_}',),
 	index=1,
 	prefix='{mem lnk:_(begin)_}',
