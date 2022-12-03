@@ -84,7 +84,7 @@ __env__.result = gen.Results(
 
 > group I compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Li<sub>3</sub>PO<sub>4</sub>== <!--SR:!2023-06-11,234,210!2022-12-03,29,210-->
+> - exception(s): ==Li<sub>3</sub>PO<sub>4</sub>== <!--SR:!2023-06-11,234,210!2023-02-01,60,210-->
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==

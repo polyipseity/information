@@ -10,7 +10,7 @@ The __photoelectric effect__ is ==the ejection of [electrons](electron.md) from 
 
 ## observation
 
-A ==[photocell](photocell.md)== can be used to observe the effect. It consists of ==a photosensitive metal, the [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube==. When the photocathode is shone by light, ==emitted electrons escape to the anode, producing an [electric current](electric%20current.md)==. The current is called ==photoelectric current, a kind of [photocurrent](photocurrent.md)==. <!--SR:!2022-12-13,12,270!2022-12-08,7,250!2022-12-03,3,230!2022-12-14,13,270-->
+A ==[photocell](photocell.md)== can be used to observe the effect. It consists of ==a photosensitive metal, the [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube==. When the photocathode is shone by light, ==emitted electrons escape to the anode, producing an [electric current](electric%20current.md)==. The current is called ==photoelectric current, a kind of [photocurrent](photocurrent.md)==. <!--SR:!2022-12-13,12,270!2022-12-08,7,250!2022-12-11,8,230!2022-12-14,13,270-->
 
 If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. Otherwise, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission of a single electron. ==Light intensity== only affects the photoelectric current. <!--SR:!2022-12-18,16,290!2022-12-12,11,270!2022-12-14,13,270!2022-12-13,12,270!2022-12-12,11,270-->
 
@@ -29,4 +29,4 @@ The ==maximum kinetic energy $K_\mathrm{max}$== is determined by ==the frequency
 ==$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$==
 where ==$h$ is the Planck constant==. <!--SR:!2022-12-06,4,281!2022-12-06,4,281!2022-12-06,4,281!2022-12-06,4,281-->
 
-Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface, increasing photoemission, hence photoelectric current==. <!--SR:!2022-12-03,1,242-->
+Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface, increasing photoemission, hence photoelectric current==. <!--SR:!2022-12-04,1,222-->
