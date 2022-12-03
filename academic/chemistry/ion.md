@@ -332,7 +332,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-11-06T20:13:24.365182+08:00. Any edits will be overridden! -->
 
 1. hydride ion::1- <!--SR:!2023-06-30,370,299-->
-2. fluoride ion::1- <!--SR:!2022-12-03,229,272-->
+2. fluoride ion::1- <!--SR:!2025-04-20,869,292-->
 3. chloride ion::1- <!--SR:!2023-04-21,368,354-->
 4. bromide ion::1- <!--SR:!2022-12-08,215,273-->
 5. iodide ion::1- <!--SR:!2023-08-18,361,259-->
@@ -371,7 +371,7 @@ __env__.result = gen.Results(
 10. hydrogensulfite ion::colorless <!--SR:!2023-07-29,341,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2022-12-08,173,250-->
-13. oxide ion::_(n/a)_ <!--SR:!2022-12-03,20,276-->
+13. oxide ion::_(n/a)_ <!--SR:!2023-01-27,55,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2023-01-16,47,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
