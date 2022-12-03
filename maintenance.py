@@ -17,44 +17,59 @@ import typing as _typing
 @_typing.final
 class _OpenOptions(_typing.TypedDict):
     encoding: str
-    errors: _typing.Literal['strict', 'ignore', 'replace', 'surrogateescape',
-                            'xmlcharrefreplace', 'backslashreplace', 'namereplace', ]
-    newline: None | _typing.Literal['', '\n', '\r', '\r\n', ]
+    errors: _typing.Literal[
+        "strict",
+        "ignore",
+        "replace",
+        "surrogateescape",
+        "xmlcharrefreplace",
+        "backslashreplace",
+        "namereplace",
+    ]
+    newline: None | _typing.Literal["", "\n", "\r", "\r\n"]
 
 
 _local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
-    appname='9a27fc39-496b-4b4c-87a7-03b9e88fc6bc',
-    appauthor='polyipseity',
+    appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
+    appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
 open_options: _OpenOptions = _OpenOptions(
-    encoding='UTF-8',
-    errors='strict',
+    encoding="UTF-8",
+    errors="strict",
     newline=None,
 )
 _root_dir_excludes: _typing.AbstractSet[str] = frozenset(
-    {'.git', '.obsidian', 'templates', 'tools', })
+    {
+        ".git",
+        ".obsidian",
+        "templates",
+        "tools",
+    }
+)
 
 
 @_typing.final
-@_dataclasses.dataclass(init=True,
-                        repr=True,
-                        eq=True,
-                        order=False,
-                        unsafe_hash=False,
-                        frozen=True,
-                        match_args=True,
-                        kw_only=True,
-                        slots=True,)
+@_dataclasses.dataclass(
+    init=True,
+    repr=True,
+    eq=True,
+    order=False,
+    unsafe_hash=False,
+    frozen=True,
+    match_args=True,
+    kw_only=True,
+    slots=True,
+)
 class Arguments:
     prog: str
     cached: bool
     arguments: _typing.Sequence[str]
 
     def __post_init__(self: _typing.Self) -> None:
-        object.__setattr__(self, 'arguments', tuple(self.arguments))
+        object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
 def main(argv: _typing.Sequence[str]) -> None:
@@ -65,53 +80,63 @@ def main(argv: _typing.Sequence[str]) -> None:
         if frame is None:
             raise ValueError(frame)
         filename: str = _inspect.getframeinfo(frame).filename
-        folder: _pathlib.Path = _pathlib.Path(
-            filename).parent.resolve(strict=True)
+        folder: _pathlib.Path = _pathlib.Path(filename).parent.resolve(strict=True)
 
-        local_data_folder: _pathlib.Path = _pathlib.Path(
-            _local_app_dirs.user_data_dir)
+        local_data_folder: _pathlib.Path = _pathlib.Path(_local_app_dirs.user_data_dir)
         if not args.cached and local_data_folder.exists():
             _shutil.rmtree(local_data_folder, ignore_errors=False)
         local_data_folder.mkdir(parents=True, exist_ok=True)
         local_data_folder = local_data_folder.resolve(strict=True)
 
         import tools.generate.main
-        generate_data_path: _pathlib.Path = local_data_folder / 'generate.json'
+
+        generate_data_path: _pathlib.Path = local_data_folder / "generate.json"
         if not generate_data_path.exists():
             generate_data_path.write_text(
-                '', encoding='UTF-8', errors='strict', newline=None)
+                "", encoding="UTF-8", errors="strict", newline=None
+            )
         generate_data: _typing.TextIO
-        with open(generate_data_path, mode='r+t', **open_options) as generate_data:
+        with open(generate_data_path, mode="r+t", **open_options) as generate_data:
             try:
                 data: _typing.MutableMapping[str, _typing.Any] = _json.load(
-                    generate_data)
+                    generate_data
+                )
             except _json.decoder.JSONDecodeError:
                 data = {}
-                print('Generate data is empty or corrupted so it will be regenerated')
-            finalizers: _typing.MutableSequence[_typing.Callable[[], None]] = [
-            ]
+                print("Generate data is empty or corrupted so it will be regenerated")
+            finalizers: _typing.MutableSequence[_typing.Callable[[], None]] = []
 
             try:
-                old_args: _typing.Collection[str] = data['args']
+                old_args: _typing.Collection[str] = data["args"]
             except KeyError:
                 old_args = ()
-            diff_args: bool = any(_itertools.starmap(
-                _operator.ne, _itertools.zip_longest(args.arguments, old_args, fillvalue=object())))
-            data['args'] = args.arguments
+            diff_args: bool = any(
+                _itertools.starmap(
+                    _operator.ne,
+                    _itertools.zip_longest(
+                        args.arguments, old_args, fillvalue=object()
+                    ),
+                )
+            )
+            data["args"] = args.arguments
 
             def generate_args0() -> _typing.Iterator[str]:
                 mod_times: _typing.MutableMapping[str, int] = data.setdefault(
-                    'mod_times', {})
+                    "mod_times", {}
+                )
 
                 def on_error(err: OSError) -> None:
                     try:
                         raise err
                     except OSError:
-                        _logging.exception('Exception while walking folders')
+                        _logging.exception("Exception while walking folders")
+
                 root: str
                 dirs: _typing.MutableSequence[str]
                 files: _typing.Sequence[str]
-                for root, dirs, files in _os.walk(folder, topdown=True, onerror=on_error, followlinks=False):
+                for root, dirs, files in _os.walk(
+                    folder, topdown=True, onerror=on_error, followlinks=False
+                ):
                     if _pathlib.Path(root).resolve(strict=True) == folder:
                         exclude: str
                         for exclude in _root_dir_excludes:
@@ -121,36 +146,51 @@ def main(argv: _typing.Sequence[str]) -> None:
                                 pass
                     file: str
                     for file in files:
-                        if file.endswith('.md'):
+                        if file.endswith(".md"):
                             path: str = _os.path.join(root, file)
                             try:
-                                if diff_args or mod_times[path] != _os.lstat(path).st_mtime_ns:
+                                if (
+                                    diff_args
+                                    or mod_times[path] != _os.lstat(path).st_mtime_ns
+                                ):
                                     yield path
                             except KeyError:
                                 yield path
 
-                            def finalize(*,
-                                         __mod_times: _typing.MutableMapping[str,
-                                                                             int] = mod_times,
-                                         __path: str = path,
-                                         ) -> None:
+                            def finalize(
+                                *,
+                                __mod_times: _typing.MutableMapping[
+                                    str, int
+                                ] = mod_times,
+                                __path: str = path,
+                            ) -> None:
                                 file: _typing.TextIO
-                                with open(__path, mode='r+t', **{**open_options, 'newline': ''}) as file:
+                                with open(
+                                    __path,
+                                    mode="r+t",
+                                    **{**open_options, "newline": ""},
+                                ) as file:
                                     text: str = file.read()
                                     file.seek(0)
-                                    file.write(text.replace(_os.linesep, '\n'))
+                                    file.write(text.replace(_os.linesep, "\n"))
                                     file.truncate()
-                                __mod_times[__path] = _os.lstat(
-                                    __path).st_mtime_ns
+                                __mod_times[__path] = _os.lstat(__path).st_mtime_ns
+
                             finalizers.append(finalize)
                 mod_times.clear()
+
             generate_args: _typing.Sequence[str] = tuple(generate_args0())
-            print(f'Generating text from {len(generate_args)} input(s)')
+            print(f"Generating text from {len(generate_args)} input(s)")
             success: bool = True
             if generate_args:
                 try:
                     tools.generate.main.main(
-                        tuple(_itertools.chain((args.prog,), args.arguments, generate_args)))
+                        tuple(
+                            _itertools.chain(
+                                (args.prog,), args.arguments, generate_args
+                            )
+                        )
+                    )
                 except SystemExit as ex:
                     success = ex.code == 0
 
@@ -159,13 +199,14 @@ def main(argv: _typing.Sequence[str]) -> None:
                 for finalizer in finalizers:
                     finalizer()
                 generate_data.seek(0)
-                _json.dump(data, generate_data,
-                           ensure_ascii=False, sort_keys=True, indent=2)
+                _json.dump(
+                    data, generate_data, ensure_ascii=False, sort_keys=True, indent=2
+                )
                 generate_data.truncate()
     except Exception:
-        _logging.exception('Uncaught exception')
+        _logging.exception("Uncaught exception")
     finally:
-        print('Press <enter> to exit')
+        print("Press <enter> to exit")
         try:
             input()
         except EOFError:
@@ -178,25 +219,33 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
 
     parser: _argparse.ArgumentParser = _argparse.ArgumentParser(
         prog=prog,
-        description='maintain notes',
+        description="maintain notes",
         add_help=True,
         allow_abbrev=False,
         exit_on_error=False,
     )
-    parser.add_argument('-c', '--cached',
-                        action='store_true',
-                        default=True,
-                        help='use cache (default)',
-                        dest='cached',)
-    parser.add_argument('-C', '--no-cached',
-                        action='store_false',
-                        default=False,
-                        help='do not use cache',
-                        dest='cached',)
-    parser.add_argument('arguments',
-                        action='store',
-                        nargs=_argparse.ZERO_OR_MORE,
-                        help='sequence of argument(s) to pass through',)
+    parser.add_argument(
+        "-c",
+        "--cached",
+        action="store_true",
+        default=True,
+        help="use cache (default)",
+        dest="cached",
+    )
+    parser.add_argument(
+        "-C",
+        "--no-cached",
+        action="store_false",
+        default=False,
+        help="do not use cache",
+        dest="cached",
+    )
+    parser.add_argument(
+        "arguments",
+        action="store",
+        nargs=_argparse.ZERO_OR_MORE,
+        help="sequence of argument(s) to pass through",
+    )
     input: _argparse.Namespace = parser.parse_args(argv[1:])
     return Arguments(
         prog=prog,
@@ -205,5 +254,5 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
     )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main(_sys.argv)
