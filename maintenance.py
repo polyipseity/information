@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import appdirs as _appdirs
 import argparse as _argparse
 import dataclasses as _dataclasses
