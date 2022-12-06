@@ -23,10 +23,10 @@ The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts
 The ==threshold frequency $V_o$== is determined by ==the [work function](work%20function.md) $\Phi$ of the surface of the material==:
 ==$$\begin{aligned}\Phi&=hV_o\\
 V_o&=\frac\Phi{h}\end{aligned}$$==
-where ==$h$ is the [Planck constant](Planck%20constant.md)==. <!--SR:!2022-12-05,3,262!2022-12-05,3,262!2022-12-05,3,262-->
+where ==$h$ is the [Planck constant](Planck%20constant.md)==. <!--SR:!2022-12-15,9,262!2022-12-16,10,262!2022-12-21,15,282-->
 
 The ==maximum kinetic energy $K_\mathrm{max}$== is determined by ==the frequency $f$ of the incoming photon and the work function $\Phi$ of the surface of the material==:
 ==$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$==
-where ==$h$ is the Planck constant==. <!--SR:!2022-12-06,4,281!2022-12-06,4,281!2022-12-06,4,281!2022-12-06,4,281-->
+where ==$h$ is the Planck constant==. <!--SR:!2022-12-18,12,281!2022-12-17,11,281!2022-12-19,13,281!2022-12-24,18,301-->
 
-Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface, increasing photoemission, hence photoelectric current==. <!--SR:!2022-12-04,1,222-->
+Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface, increasing photoemission, hence photoelectric current==. <!--SR:!2022-12-10,4,222-->
