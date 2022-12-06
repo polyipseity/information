@@ -4,7 +4,7 @@
 
 An __ion__ is an atom or molecule with a net electrical charge. A ==__cation__== is a ==positively charged ion==, while an ==__anion__== is a ==negatively charged ion==.<!--SR:!2023-02-02,305,345!2023-03-30,350,350!2023-01-07,282,332!2023-02-16,318,354-->
 
-A ==simple ion== is an ==ion formed from only one atom==, while a ==polyatomic ion== is an ==ion formed from more than one atom==. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2022-12-05,256,334-->
+A ==simple ion== is an ==ion formed from only one atom==, while a ==polyatomic ion== is an ==ion formed from more than one atom==. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
 
 ## data
 
@@ -303,7 +303,7 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-06T20:13:24.353184+08:00. Any edits will be overridden! -->
 
-1. hydride ion:::H<sup>-</sup> <!--SR:!2022-12-04,255,334!2026-02-13,1171,356-->
+1. hydride ion:::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2026-02-13,1171,356-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2023-02-22,322,354-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2023-03-04,330,353!2025-11-03,1086,354-->
 4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2025-02-23,814,294-->
@@ -366,7 +366,7 @@ __env__.result = gen.Results(
 5. iodide ion::colorless <!--SR:!2023-11-30,465,307-->
 6. hydroxide ion::colorless <!--SR:!2023-01-02,259,327-->
 7. nitrate ion::colorless <!--SR:!2023-12-01,466,299-->
-8. nitrite ion::_(n/a)_ <!--SR:!2022-12-04,21,276-->
+8. nitrite ion::_(n/a)_ <!--SR:!2023-02-09,65,276-->
 9. hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2023-07-29,341,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->

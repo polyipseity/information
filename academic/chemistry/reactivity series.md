@@ -147,7 +147,7 @@ Reactivity decreases down the table.
 > - reaction with air: ==burn==
 > - reaction with H<sub>2</sub>O: ==steam==
 > - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate== <!--SR:!2022-12-06,47,230!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate== <!--SR:!2023-01-02,27,210!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
 
 > iron
 > - reaction with air: ==burn==
@@ -192,11 +192,11 @@ Reactivity decreases down the table.
 1. _(most reactive)_→:::←potassium <!--SR:!2023-10-15,326,270!2023-10-14,358,289-->
 2. potassium→:::←sodium <!--SR:!2023-04-27,174,230!2022-12-07,48,208-->
 3. sodium→:::←calcium <!--SR:!2022-12-21,42,188!2023-07-17,270,248-->
-4. calcium→:::←magnesium <!--SR:!2023-01-04,45,230!2022-12-06,29,186-->
+4. calcium→:::←magnesium <!--SR:!2023-01-04,45,230!2023-01-29,54,186-->
 5. magnesium→:::←aluminium <!--SR:!2023-06-10,233,230!2022-12-10,51,209-->
-6. aluminium→:::←zinc <!--SR:!2022-12-04,45,168!2023-01-17,89,205-->
+6. aluminium→:::←zinc <!--SR:!2023-02-21,77,168!2023-01-17,89,205-->
 7. zinc→:::←iron <!--SR:!2022-12-17,38,188!2022-12-08,49,206-->
-8. iron→:::←lead <!--SR:!2022-12-06,47,209!2022-12-16,38,188-->
+8. iron→:::←lead <!--SR:!2023-03-15,99,209!2022-12-16,38,188-->
 9. lead→:::←copper <!--SR:!2023-05-06,178,230!2023-01-03,39,210-->
 10. copper→:::←mercury <!--SR:!2022-12-12,9,150!2023-01-24,67,230-->
 11. mercury→:::←silver <!--SR:!2022-12-18,118,250!2023-02-02,64,230-->
