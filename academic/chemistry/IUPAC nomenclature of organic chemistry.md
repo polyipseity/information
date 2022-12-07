@@ -156,11 +156,11 @@ The steps for naming an organic compound are:
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-12-28,38,305-->
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-12-22,21,265-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2022-12-14,12,247-->
-5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2022-12-07,6,207-->
+5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2022-12-21,14,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2022-12-10,23,267-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-12-26,39,190!2022-12-15,13,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2023-01-14,39,247-->
-9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2022-12-07,159,250!2022-12-09,22,267-->
+9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-02-24,79,230!2022-12-09,22,267-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-12-13,25,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2022-12-16,29,287-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2023-01-01,41,307-->
@@ -243,7 +243,7 @@ The steps for naming an organic compound are:
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2022-12-24,65,224!2023-02-20,234,267-->
 2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2022-12-25,190,250!2023-03-23,145,241-->
-3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2022-12-07,21,210!2023-01-14,86,230-->
+3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-01-22,46,210!2023-01-14,86,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -562,7 +562,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCOR'==
 > - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
 > - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2023-01-19,51,280!2023-01-21,57,321!2022-12-07,17,242!2023-03-01,93,342!2023-02-26,90,342-->
+> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2023-01-19,51,280!2023-01-21,57,321!2023-01-19,43,242!2023-03-01,93,342!2023-02-26,90,342-->
 
 > ==carboxylic acid==
 > - group: ==carboxyl==
@@ -583,7 +583,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCO==
 > - prefix: ==(none)==
 > - suffix: ==-yl (retained), -oyl==
-> - infix: ==(locant)== <!--SR:!2022-12-07,15,261!2023-01-06,45,302!2023-02-28,92,342!2022-12-07,17,242!2022-12-25,36,287!2023-02-23,87,347-->
+> - infix: ==(locant)== <!--SR:!2023-01-18,42,261!2023-01-06,45,302!2023-02-28,92,342!2023-01-20,44,242!2022-12-25,36,287!2023-02-23,87,347-->
 
 > ==amine==
 > - group: ==amino==

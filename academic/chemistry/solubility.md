@@ -88,7 +88,7 @@ __env__.result = gen.Results(
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2022-12-07,24,249-->
+> - exception(s): ==_(none)_== <!--SR:!2023-06-07,276,262!2023-03-03,86,269-->
 
 > nitrates
 > - general solubility: ==<span style="color: green;">soluble</span>==
