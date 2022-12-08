@@ -52,7 +52,7 @@ Calcium hydroxide can be prepared in the following way:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d7182f"--><!-- The following content is generated at 2022-11-05T00:25:01.488869+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md). <!--SR:!2023-10-03,348,250!2023-04-04,289,338-->
-2. Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2022-12-08,160,230!2023-11-05,365,261-->
+2. Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2023-12-19,375,230!2023-11-05,365,261-->
 3. Filter the solution to obtain the [filtrate](filtrate.md).→:::←_(end)_ <!--SR:!2023-02-26,240,319!2023-02-11,71,239-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
