@@ -6,4 +6,4 @@ aliases: ['work functions',]
 
 # work function
 
-The __work function__ ==($\Phi$ or $\varphi$)== is ==the minimum amount of energy needed to remove an [electron](electron.md) from a solid==. <!--SR:!2022-12-23,17,290!2022-12-08,2,230-->
+The __work function__ ==($\Phi$ or $\varphi$)== is ==the minimum amount of energy needed to remove an [electron](electron.md) from a solid==. <!--SR:!2022-12-23,17,290!2022-12-20,11,250-->
