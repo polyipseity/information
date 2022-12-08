@@ -10,7 +10,7 @@ A __photon__ is ==a [quantum](quantum.md) of the [electromagnetic field](electro
 
 ## properties
 
-A photon ==cannot be subdivided and is [massless](massless%20particle.md)==. It carries ==[energy](energy.md) $E$ proportional to its [frequency](frequency.md) $f$==:
+A photon ==is [massless](massless%20particle.md)==. It carries ==[energy](energy.md) $E$ proportional to its [frequency](frequency.md) $f$==:
 ==$$E=hf$$==
 where ==$h$ is the [Planck constant](Planck%20constant.md)==.
 
