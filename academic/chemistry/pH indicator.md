@@ -187,6 +187,6 @@ __env__.result = gen.Results(
 
 1. 1~8.3:::colorless <!--SR:!2023-01-03,51,210!2022-12-15,56,230-->
 2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2022-12-26,17,210-->
-3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2022-12-10,51,230!2024-02-15,455,250-->
+3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2023-04-08,118,230!2024-02-15,455,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
