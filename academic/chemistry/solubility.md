@@ -136,6 +136,6 @@ __env__.result = gen.Results(
 
 > sulfides
 > - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, group II, and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2023-03-14,204,238!2022-12-10,33,190-->
+> - exception(s): ==group I, group II, and NH<sub>4</sub><sup>+</sup> compounds== <!--SR:!2023-03-14,204,238!2023-02-17,68,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

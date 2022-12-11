@@ -157,7 +157,7 @@ The steps for naming an organic compound are:
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-12-22,21,265-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2022-12-14,12,247-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2022-12-21,14,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2022-12-10,23,267-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2023-02-13,64,267-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-12-26,39,190!2022-12-15,13,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2023-01-14,39,247-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-02-24,79,230!2023-02-10,63,267-->
@@ -555,14 +555,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCHO==
 > - prefix: ==oxo- (=O), formyl- (-CHO)==
 > - suffix: ==-al (=O), -carbaldehyde (-CHO)==
-> - infix: ==(locant)== <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2022-12-11,20,245!2022-12-15,28,285!2023-02-05,72,347-->
+> - infix: ==(locant)== <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2022-12-22,11,225!2022-12-15,28,285!2023-02-05,72,347-->
 
 > ==ketone==
 > - group: ==carbonyl==
 > - formula: ==RCOR'==
 > - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
 > - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2022-12-10,25,280!2023-01-19,51,280!2023-01-21,57,321!2023-01-19,43,242!2023-03-01,93,342!2023-02-26,90,342-->
+> - infix: ==(locant)== <!--SR:!2023-02-23,74,280!2023-01-19,51,280!2023-01-21,57,321!2023-01-19,43,242!2023-03-01,93,342!2023-02-26,90,342-->
 
 > ==carboxylic acid==
 > - group: ==carboxyl==
@@ -710,7 +710,7 @@ __env__.result = gen.Results(
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2022-12-30,46,210!2023-01-29,219,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-02-03,77,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->
-7. ketone→:::←alcohol <!--SR:!2022-12-26,23,190!2022-12-10,8,190-->
+7. ketone→:::←alcohol <!--SR:!2022-12-26,23,190!2022-12-27,16,190-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2022-12-23,188,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-12-24,39,247-->
