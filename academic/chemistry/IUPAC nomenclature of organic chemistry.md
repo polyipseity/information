@@ -597,14 +597,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
 > - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
 > - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2023-01-27,64,345!2023-02-21,85,345!2023-01-23,61,325!2022-12-12,26,285!2022-12-17,29,285!2023-01-31,64,327-->
+> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2023-01-27,64,345!2023-02-21,85,345!2023-01-23,61,325!2023-02-27,77,285!2022-12-17,29,285!2023-01-31,64,327-->
 
 > ==nitrile==
 > - group: ==nitrile==
 > - formula: ==RCN==
 > - prefix: ==cyano-==
 > - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)== <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-01-22,60,328!2022-12-12,18,268!2023-02-22,86,348-->
+> - infix: ==(locant)== <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-01-22,60,328!2023-01-30,49,268!2023-02-22,86,348-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
