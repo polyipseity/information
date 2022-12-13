@@ -1,2 +1,1 @@
-#!/bin/sh
-python ./init.py "$@"
+init.sh
