@@ -225,7 +225,8 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
         allow_abbrev=False,
         exit_on_error=False,
     )
-    parser.add_argument(
+    c_group = parser.add_mutually_exclusive_group()
+    c_group.add_argument(
         "-c",
         "--cached",
         action="store_true",
@@ -233,7 +234,7 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
         help="use cache (default)",
         dest="cached",
     )
-    parser.add_argument(
+    c_group.add_argument(
         "-C",
         "--no-cached",
         action="store_false",
