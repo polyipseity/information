@@ -161,7 +161,7 @@ The steps for naming an organic compound are:
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2022-12-26,39,190!2022-12-15,13,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2023-01-14,39,247-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-02-24,79,230!2023-02-10,63,267-->
-10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2022-12-13,25,265-->
+10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2023-02-19,68,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2022-12-16,29,287-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2023-01-01,41,307-->
 13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2023-02-13,80,342!2022-12-28,38,307-->
@@ -391,7 +391,7 @@ __env__.result = gen.Results(
 8. 8:::oct- <!--SR:!2023-09-13,387,290!2023-02-28,255,286-->
 9. 9:::non- <!--SR:!2023-06-20,367,310!2023-01-21,88,287-->
 10. 10:::dec- <!--SR:!2023-02-21,92,270!2023-02-10,237,287-->
-11. 11:::undec- <!--SR:!2022-12-13,178,250!2023-12-09,415,267-->
+11. 11:::undec- <!--SR:!2023-03-11,88,230!2023-12-09,415,267-->
 12. 12:::dodec- <!--SR:!2023-07-03,315,270!2023-05-16,267,247-->
 13. 13:::tridec- <!--SR:!2023-07-02,314,270!2022-12-26,64,227-->
 14. 14:::tetradec- <!--SR:!2023-06-21,303,270!2023-01-07,203,267-->
@@ -512,7 +512,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
 > - suffix: ==-ene==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-02-10,77,340!2023-02-25,89,342!2023-01-23,59,322!2022-12-13,27,282!2023-02-26,90,342!2023-02-27,91,342!2023-01-05,47,307-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2023-02-10,77,340!2023-02-25,89,342!2023-01-23,59,322!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-01-05,47,307-->
 
 > ==alkyne==
 > - group: ==alkynyl==
