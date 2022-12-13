@@ -16,10 +16,12 @@
     "randomizeCardOrder": true,
     "convertHighlightsToClozes": true,
     "convertBoldTextToClozes": false,
-    "singlelineCardSeparator": "::",
-    "singlelineReversedCardSeparator": ":::",
+    "convertCurlyBracketsToClozes": false,
+    "singleLineCardSeparator": "::",
+    "singleLineReversedCardSeparator": ":::",
     "multilineCardSeparator": "??",
     "multilineReversedCardSeparator": "???",
+    "enableNoteReviewPaneOnStartup": true,
     "tagsToReview": [
       "#review"
     ],
@@ -28,13 +30,17 @@
     "autoNextNote": true,
     "disableFileMenuReviewOptions": false,
     "maxNDaysNotesReviewQueue": 36525,
+    "initiallyExpandAllSubdecksInTree": true,
     "baseEase": 250,
     "lapsesIntervalChange": 0.5,
     "easyBonus": 1.3,
     "maximumInterval": 36525,
     "maxLinkFactor": 1,
-    "showDebugMessages": true
+    "showDebugMessages": true,
+    "singlelineCardSeparator": "::",
+    "singlelineReversedCardSeparator": ":::"
   },
-  "buryDate": "2022-10-16",
-  "buryList": []
+  "buryDate": "2022-12-13",
+  "buryList": [],
+  "historyDeck": null
 }
