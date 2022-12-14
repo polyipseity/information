@@ -205,7 +205,7 @@ __env__.result = gen.Results(
 14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2023-02-19,318,347!2024-09-24,705,334-->
 15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2024-07-29,595,273!2023-05-10,184,253-->
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2023-02-23,126,250!2024-01-08,445,253-->
-17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2022-12-14,262,330!2022-12-29,255,293-->
+17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2026-03-20,1192,350!2022-12-29,255,293-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2023-02-20,319,347!2023-01-31,279,294-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2023-01-06,285,354-->
@@ -261,7 +261,7 @@ __env__.result = gen.Results(
 14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-01-02,43,190-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-12-28,128,230-->
-17. mercury(II) ion::_(n/a)_ <!--SR:!2022-12-14,20,256-->
+17. mercury(II) ion::_(n/a)_ <!--SR:!2023-02-06,54,256-->
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2024-03-03,461,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
