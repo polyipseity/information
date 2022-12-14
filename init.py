@@ -2,6 +2,7 @@
 import appdirs as _appdirs
 import argparse as _argparse
 import dataclasses as _dataclasses
+import functools as _functools
 import inspect as _inspect
 import itertools as _itertools
 import json as _json
@@ -30,17 +31,17 @@ class _OpenOptions(_typing.TypedDict):
     newline: None | _typing.Literal["", "\n", "\r", "\r\n"]
 
 
+open_options: _OpenOptions = _OpenOptions(
+    encoding="UTF-8",
+    errors="strict",
+    newline=None,
+)
 _local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
     appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
-)
-open_options: _OpenOptions = _OpenOptions(
-    encoding="UTF-8",
-    errors="strict",
-    newline=None,
 )
 _root_dir_excludes: _typing.AbstractSet[str] = frozenset(
     {
@@ -73,9 +74,7 @@ class Arguments:
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
-def main(argv: _typing.Sequence[str]) -> None:
-    args: Arguments = parse_argv(argv)
-
+def main(args: Arguments) -> _typing.NoReturn:
     try:
         frame: _types.FrameType | None = _inspect.currentframe()
         if frame is None:
@@ -89,22 +88,18 @@ def main(argv: _typing.Sequence[str]) -> None:
         local_data_folder.mkdir(parents=True, exist_ok=True)
         local_data_folder = local_data_folder.resolve(strict=True)
 
-        import tools.generate.main
-
-        generate_data_path: _pathlib.Path = local_data_folder / "generate.json"
-        if not generate_data_path.exists():
-            generate_data_path.write_text(
+        cache_data_path: _pathlib.Path = local_data_folder / "cache.json"
+        if not cache_data_path.exists():
+            cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
             )
-        generate_data: _typing.TextIO
-        with open(generate_data_path, mode="r+t", **open_options) as generate_data:
+        cache_data: _typing.TextIO
+        with open(cache_data_path, mode="r+t", **open_options) as cache_data:
             try:
-                data: _typing.MutableMapping[str, _typing.Any] = _json.load(
-                    generate_data
-                )
+                data: _typing.MutableMapping[str, _typing.Any] = _json.load(cache_data)
             except _json.decoder.JSONDecodeError:
                 data = {}
-                print("Generate data is empty or corrupted so it will be regenerated")
+                print("Cache data will be regenerated because it is empty or corrupted")
             finalizers: _typing.MutableSequence[_typing.Callable[[], None]] = []
 
             try:
@@ -121,7 +116,7 @@ def main(argv: _typing.Sequence[str]) -> None:
             )
             data["args"] = args.arguments
 
-            def generate_args0() -> _typing.Iterator[str]:
+            def gen_inputs() -> _typing.Iterator[str]:
                 mod_times: _typing.MutableMapping[str, int] = data.setdefault(
                     "mod_times", {}
                 )
@@ -180,18 +175,22 @@ def main(argv: _typing.Sequence[str]) -> None:
                             finalizers.append(finalize)
                 mod_times.clear()
 
-            generate_args: _typing.Sequence[str] = tuple(generate_args0())
-            print(f"Generating text from {len(generate_args)} input(s)")
+            inputs: _typing.Sequence[str] = tuple(gen_inputs())
+            print(f"Using {len(inputs)} input(s)")
             success: bool = True
-            if generate_args:
+            if inputs:
                 try:
-                    tools.generate.main.main(
+                    import tools.main
+
+                    entry: _argparse.Namespace = tools.main.parser().parse_args(
                         tuple(
                             _itertools.chain(
-                                (args.prog,), args.arguments, generate_args
+                                args.arguments,
+                                inputs,
                             )
                         )
                     )
+                    entry.invoke(entry)
                 except SystemExit as ex:
                     success = ex.code == 0
 
@@ -199,11 +198,11 @@ def main(argv: _typing.Sequence[str]) -> None:
                 finalizer: _typing.Callable[[], None]
                 for finalizer in finalizers:
                     finalizer()
-                generate_data.seek(0)
+                cache_data.seek(0)
                 _json.dump(
-                    data, generate_data, ensure_ascii=False, sort_keys=True, indent=2
+                    data, cache_data, ensure_ascii=False, sort_keys=True, indent=2
                 )
-                generate_data.truncate()
+                cache_data.truncate()
     except Exception:
         _logging.exception("Uncaught exception")
     finally:
@@ -215,12 +214,19 @@ def main(argv: _typing.Sequence[str]) -> None:
     _sys.exit(0)
 
 
-def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
-    prog: str = argv[0]
+def parser(
+    parent: _typing.Callable[..., _argparse.ArgumentParser] | None = None,
+) -> _argparse.ArgumentParser:
+    frame: _types.FrameType | None = _inspect.currentframe()
+    if frame is None:
+        raise ValueError(frame)
+    prog: str = _sys.argv[0]
 
-    parser: _argparse.ArgumentParser = _argparse.ArgumentParser(
+    parser: _argparse.ArgumentParser = (
+        _argparse.ArgumentParser if parent is None else parent
+    )(
         prog=prog,
-        description="maintain notes",
+        description="input wrapper for tools for notes",
         add_help=True,
         allow_abbrev=False,
         exit_on_error=False,
@@ -245,16 +251,24 @@ def parse_argv(argv: _typing.Sequence[str]) -> Arguments:
     parser.add_argument(
         "arguments",
         action="store",
-        nargs=_argparse.ZERO_OR_MORE,
+        nargs=_argparse.ONE_OR_MORE,
         help="sequence of argument(s) to pass through",
     )
-    input: _argparse.Namespace = parser.parse_args(argv[1:])
-    return Arguments(
-        prog=prog,
-        cached=input.cached,
-        arguments=input.arguments,
-    )
+
+    @_functools.wraps(main)
+    def invoke(args: _argparse.Namespace) -> _typing.NoReturn:
+        main(
+            Arguments(
+                prog=prog,
+                cached=args.cached,
+                arguments=args.arguments,
+            )
+        )
+
+    parser.set_defaults(invoke=invoke)
+    return parser
 
 
 if __name__ == "__main__":
-    main(_sys.argv)
+    entry: _argparse.Namespace = parser().parse_args(_sys.argv[1:])
+    entry.invoke(entry)
