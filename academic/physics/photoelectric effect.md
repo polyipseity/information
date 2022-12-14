@@ -10,15 +10,15 @@ The __photoelectric effect__ is ==the ejection of [electrons](electron.md) from 
 
 ## observation
 
-A ==[photocell](photocell.md)== can be used to observe the effect. It consists of ==a photosensitive metal, the [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube==. When the photocathode is shone by light, ==emitted electrons escape to the anode, producing an [electric current](electric%20current.md)==. The current is called ==photoelectric current, a kind of [photocurrent](photocurrent.md)==. <!--SR:!2023-01-18,36,270!2022-12-28,19,250!2022-12-30,19,230!2022-12-14,13,270-->
+A ==[photocell](photocell.md)== can be used to observe the effect. It consists of ==a photosensitive metal, the [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube==. When the photocathode is shone by light, ==emitted electrons escape to the anode, producing an [electric current](electric%20current.md)==. The current is called ==photoelectric current, a kind of [photocurrent](photocurrent.md)==. <!--SR:!2023-01-18,36,270!2022-12-28,19,250!2022-12-30,19,230!2023-01-20,37,270-->
 
-If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. Otherwise, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission of a single electron. ==Light intensity== only affects the photoelectric current. <!--SR:!2022-12-18,16,290!2023-01-22,41,290!2022-12-14,13,270!2023-01-17,35,270!2023-01-13,32,270-->
+If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. Otherwise, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission of a single electron. ==Light intensity== only affects the photoelectric current. <!--SR:!2022-12-18,16,290!2023-01-22,41,290!2023-02-01,49,290!2023-01-17,35,270!2023-01-13,32,270-->
 
 Emitted electrons have ==different== initial kinetic energies. The maximum kinetic energy of an electron ==increases with light frequency== given that the threshold frequency is exceeded. <!--SR:!2022-12-17,15,290!2022-12-18,6,250-->
 
 ## mechanism
 
-The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when ==continuous radiation passes through an electron==, ==the electron gains [kinetic energy](kinentic%20energy.md), vibrating with increasing amplitude==. After ==some time==, when enough energy is accumulated, ==the electron is emitted==. The energy gain increases when ==light intensity increases==. However, ==[observations](#observation) disagree with said prediction==. <!--SR:!2023-01-01,23,250!2022-12-24,17,250!2022-12-14,13,270!2022-12-14,13,270!2022-12-14,13,270!2023-01-14,32,270-->
+The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when ==continuous radiation passes through an electron==, ==the electron gains [kinetic energy](kinentic%20energy.md), vibrating with increasing amplitude==. After ==some time==, when enough energy is accumulated, ==the electron is emitted==. The energy gain increases when ==light intensity increases==. However, ==[observations](#observation) disagree with said prediction==. <!--SR:!2023-01-01,23,250!2022-12-24,17,250!2023-01-21,38,270!2023-01-21,38,270!2023-01-22,39,270!2023-01-14,32,270-->
 
 The ==threshold frequency $V_o$== is determined by ==the [work function](work%20function.md) $\Phi$ of the surface of the material==:
 ==$$\begin{aligned}\Phi&=hV_o\\
