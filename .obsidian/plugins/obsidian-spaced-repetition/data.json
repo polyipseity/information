@@ -29,18 +29,18 @@
     "openRandomNote": false,
     "autoNextNote": true,
     "disableFileMenuReviewOptions": false,
-    "maxNDaysNotesReviewQueue": 36525,
-    "initiallyExpandAllSubdecksInTree": true,
+    "maxNDaysNotesReviewQueue": 36524,
+    "initiallyExpandAllSubdecksInTree": false,
     "baseEase": 250,
     "lapsesIntervalChange": 0.5,
     "easyBonus": 1.3,
-    "maximumInterval": 36525,
+    "maximumInterval": 36524,
     "maxLinkFactor": 1,
     "showDebugMessages": true,
     "singlelineCardSeparator": "::",
     "singlelineReversedCardSeparator": ":::"
   },
-  "buryDate": "2022-12-13",
+  "buryDate": "2022-12-15",
   "buryList": [],
   "historyDeck": null
 }
