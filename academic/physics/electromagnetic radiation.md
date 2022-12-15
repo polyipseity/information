@@ -6,13 +6,13 @@ aliases: ['EMR', 'electromagnetic wave', 'electromagnetic waves', 'EM wave', 'EM
 
 # electromagnetic radiation
 
-__Electromagnetic radiation__ (__EMR__) is a ==wave of the [electromagnetic field](electromagnetic%20field.md)==. <!--SR:!2023-01-04,24,250-->
+__Electromagnetic radiation__ (__EMR__) is ==a wave of the [electromagnetic field](electromagnetic%20field.md)==. <!--SR:!2023-01-04,24,250-->
 
 ## properties
 
 ### wave model
 
-==The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)== in the electromagnetic radiation ==oscillates perpendicularly, synchronized==. <!--SR:!2023-01-06,26,250!2023-01-07,27,250-->
+==The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)== in the electromagnetic radiation ==oscillates perpendicularly in sync==. <!--SR:!2023-01-06,26,250!2023-01-07,27,250-->
 
 ==[Electric charges](electric%20charge.md) are vibrated== by the electric field in the radiation. <!--SR:!2022-12-23,16,230-->
 
