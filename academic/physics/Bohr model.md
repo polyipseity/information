@@ -6,7 +6,7 @@ aliases: ['Rutherford–Bohr model',]
 
 # Bohr model
 
-The __Bohr model__ or __==Rutherford–Bohr== model__ is ==an [atom](atom.md) model== where ==a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)==. They are attracted by ==electrostatic forces==. It was presented by ==[Niels Bohr](Niels%20Bohr.md)== and ==[Ernest Rutherford](Ernest%20Rutherford.md)== in ==1913==. <!--SR:!2022-12-18,3,250!2022-12-19,4,270!2022-12-18,3,250!2022-12-18,3,250!2022-12-16,1,232!2022-12-19,4,272!2022-12-19,4,272-->
+The __Bohr model__ or __==Rutherford–Bohr== model__ is ==an [atom](atom.md) model== where ==a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)==. They are attracted by ==electrostatic forces==. It was presented by ==[Niels Bohr](Niels%20Bohr.md)== and ==[Ernest Rutherford](Ernest%20Rutherford.md)== in ==1913==. <!--SR:!2022-12-18,3,250!2022-12-19,4,270!2022-12-18,3,250!2022-12-18,3,250!2022-12-18,2,232!2022-12-19,4,272!2022-12-19,4,272-->
 
 The model gives almost exact results only when ==two charged points orbit each other much slower than light==, like ==an atom where one electron is far away from everything else==. <!--SR:!2022-12-18,3,252!2022-12-19,4,272-->
 
