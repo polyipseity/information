@@ -5,4 +5,4 @@
 [submodule "private"]
 	path = private
 	url = ../notes-private.git
-	branch = main
+	branch = forks/polyipseity
