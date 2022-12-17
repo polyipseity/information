@@ -186,7 +186,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-01-01,197,256!2023-02-25,89,342-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2023-01-01,41,305-->
-3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2022-12-17,30,282-->
+3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
 4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2023-01-09,50,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2022-12-27,192,261!2022-12-18,31,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-02-17,81,345!2022-12-25,35,305-->
@@ -520,7 +520,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
 > - suffix: ==-yne==
 > - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2023-02-26,90,340!2022-12-17,30,281!2023-03-01,93,342!2023-02-09,76,342!2023-01-11,52,327-->
+> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2023-02-26,90,340!2023-03-15,88,281!2023-03-01,93,342!2023-02-09,76,342!2023-01-11,52,327-->
 
 > ==benzene derivative==
 > - group: ==phenyl==
@@ -597,7 +597,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
 > - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
 > - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2023-01-27,64,345!2023-02-21,85,345!2023-01-23,61,325!2023-02-27,77,285!2022-12-17,29,285!2023-01-31,64,327-->
+> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2023-01-27,64,345!2023-02-21,85,345!2023-01-23,61,325!2023-02-27,77,285!2023-03-10,83,285!2023-01-31,64,327-->
 
 > ==nitrile==
 > - group: ==nitrile==

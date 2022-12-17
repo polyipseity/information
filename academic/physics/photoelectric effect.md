@@ -14,7 +14,7 @@ A ==[photocell](photocell.md)== can be used to observe the effect. It consists o
 
 If the light frequency is lower than the ==threshold frequency==, ==no photoemission occurs==. Otherwise, ==immediate photoemission occurs==. ==Light [intensity](intensity.md) or duration of exposure== does not affect photoemission of a single electron. ==Light intensity== only affects the photoelectric current. <!--SR:!2022-12-18,16,290!2023-01-22,41,290!2023-02-01,49,290!2023-01-17,35,270!2023-01-13,32,270-->
 
-Emitted electrons have ==different== initial kinetic energies. The maximum kinetic energy of an electron ==increases with light frequency== given that the threshold frequency is exceeded. <!--SR:!2022-12-17,15,290!2022-12-18,6,250-->
+Emitted electrons have ==different== initial kinetic energies. The maximum kinetic energy of an electron ==increases with light frequency== given that the threshold frequency is exceeded. <!--SR:!2023-02-17,62,310!2022-12-18,6,250-->
 
 ## mechanism
 
@@ -27,6 +27,6 @@ where ==$h$ is the [Planck constant](Planck%20constant.md)==. <!--SR:!2023-01-11
 
 The ==maximum kinetic energy $K_\mathrm{max}$== is determined by ==the frequency $f$ of the incoming photon and the work function $\Phi$ of the surface of the material==:
 ==$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$==
-where ==$h$ is the Planck constant==. <!--SR:!2022-12-18,12,281!2022-12-17,11,281!2022-12-19,13,281!2022-12-24,18,301-->
+where ==$h$ is the Planck constant==. <!--SR:!2022-12-18,12,281!2023-01-21,35,281!2022-12-19,13,281!2022-12-24,18,301-->
 
 Given the threshold frequency is reached, increasing intensity only ==increases the number of [photons](photon.md) hitting the surface==, ==increasing photoemission==, ==hence photoelectric current==. <!--SR:!2022-12-23,12,222!2022-12-19,4,270!2022-12-19,4,270-->
