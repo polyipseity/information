@@ -2041,7 +2041,7 @@ function textInterval(interval, isMobile) {
 var SCHEDULING_INFO_REGEX = /^---\n((?:.*\n)*)sr-due: (.+)\nsr-interval: (\d+)\nsr-ease: (\d+)\n((?:.*\n)*)---/;
 var YAML_FRONT_MATTER_REGEX = /^---\n((?:.*\n)*?)---/;
 var MULTI_SCHEDULING_EXTRACTOR = /!([\d-]+),(\d+),(\d+)/gm;
-var LEGACY_SCHEDULING_EXTRACTOR = //gm;
+var LEGACY_SCHEDULING_EXTRACTOR = /<!--SR:([\d-]+),(\d+),(\d+)-->/gm;
 var IMAGE_FORMATS = ["jpg", "jpeg", "gif", "png", "svg"];
 var AUDIO_FORMATS = ["mp3", "webm", "m4a", "wav", "ogg"];
 var VIDEO_FORMATS = ["mp4", "mkv", "avi", "mov"];
@@ -2342,7 +2342,7 @@ var FlashcardModal = class extends import_obsidian3.Modal {
       sep = "\n";
     }
     if (this.currentCard.cardText.lastIndexOf("<!--SR:") === -1) {
-      this.currentCard.cardText = this.currentCard.cardText + sep + ``;
+      this.currentCard.cardText = this.currentCard.cardText + sep + `<!--SR:!${dueString},${interval},${ease}-->`;
     } else {
       let scheduling = [
         ...this.currentCard.cardText.matchAll(MULTI_SCHEDULING_EXTRACTOR)
@@ -2356,7 +2356,7 @@ var FlashcardModal = class extends import_obsidian3.Modal {
       } else {
         scheduling.push(currCardSched);
       }
-      this.currentCard.cardText = this.currentCard.cardText.replace(//gm, "");
+      this.currentCard.cardText = this.currentCard.cardText.replace(/<!--SR:.+-->/gm, "");
       this.currentCard.cardText += "<!--SR:";
       for (let i = 0; i < scheduling.length; i++) {
         this.currentCard.cardText += `!${scheduling[i][1]},${scheduling[i][2]},${scheduling[i][3]}`;
