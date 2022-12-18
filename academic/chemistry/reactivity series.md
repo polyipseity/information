@@ -114,76 +114,76 @@ Reactivity decreases down the table.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
 
 > potassium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==water==
-> - reaction with dilute HCl: ==explosive==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==explosive==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{water}}
+> - reaction with dilute HCl: {{explosive}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}}
 
 > sodium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==water==
-> - reaction with dilute HCl: ==explosive==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==explosive==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{water}}
+> - reaction with dilute HCl: {{explosive}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}}
 
 > calcium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==water==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate to none (covered by insoluble CaSO<sub>4</sub>)==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{water}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}}
 
 > magnesium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}}
 
 > aluminium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}}
 
 > zinc
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}}
 
 > iron
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate==
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}}
 
 > lead
-> - reaction with air: ==heat==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==slow==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==slow to none (covered by insoluble PbSO<sub>4</sub>)==
+> - reaction with air: {{heat}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{slow}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{slow to none (covered by insoluble PbSO<sub>4</sub>)}}
 
 > copper
-> - reaction with air: ==heat==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none==
+> - reaction with air: {{heat}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}}
 
 > mercury
-> - reaction with air: ==heat==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none==
+> - reaction with air: {{heat}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}}
 
 > silver
-> - reaction with air: ==none==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none==
+> - reaction with air: {{none}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}}
 
 > gold
-> - reaction with air: ==none==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none==
+> - reaction with air: {{none}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}}
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

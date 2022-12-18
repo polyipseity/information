@@ -83,59 +83,59 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
 
 > group I compounds
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Li<sub>3</sub>PO<sub>4</sub>==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}}
 
 > NH<sub>4</sub><sup>+</sup> compounds
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{_(none)_}}
 
 > nitrates
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==_(none)_==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{_(none)_}}
 
 > acetates (ethanoates)
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup> compounds==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{Ag<sup>+</sup> compounds}}
 
 > chlorides
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}}
 
 > bromides
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}}
 
 > iodides
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}}
 
 > sulfates
-> - general solubility: ==<span style="color: green;">soluble</span>==
-> - exception(s): ==Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds==
+> - general solubility: {{<span style="color: green;">soluble</span>}}
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}}
 
 > carbonates
-> - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds==
+> - general solubility: {{<span style="color: red;">insoluble</span>}}
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds}}
 
 > sulfites
-> - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds==
+> - general solubility: {{<span style="color: red;">insoluble</span>}}
+> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}}
 
 > phosphates
-> - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)==
+> - general solubility: {{<span style="color: red;">insoluble</span>}}
+> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)}}
 
 > hydroxides
-> - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds==
+> - general solubility: {{<span style="color: red;">insoluble</span>}}
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}}
 
 > oxides
-> - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds==
+> - general solubility: {{<span style="color: red;">insoluble</span>}}
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}}
 
 > sulfides
-> - general solubility: ==<span style="color: red;">insoluble</span>==
-> - exception(s): ==group I, group II, and NH<sub>4</sub><sup>+</sup> compounds==
+> - general solubility: {{<span style="color: red;">insoluble</span>}}
+> - exception(s): {{group I, group II, and NH<sub>4</sub><sup>+</sup> compounds}}
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
