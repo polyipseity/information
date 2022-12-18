@@ -6,20 +6,20 @@ aliases: ['photoelectric current', 'photovoltaic current',]
 
 # photocurrent
 
-__Photocurrent__ is ==the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)==. It may be caused by ==[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)==. <!--SR:!2022-12-30,21,250!2023-01-09,31,270-->
+__Photocurrent__ is {{the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)}}. It may be caused by {{[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)}}. <!--SR:!2022-12-30,21,250!2023-01-09,31,270-->
 
 ## calculation
 
 The photocurrent can be calculated by the following equation:
-==$$I_p=\frac{Q}t$$==
-where ==$Q$ is the [electric charge](electric%20charge.md) transferred over time $t$==. If $Q$ is in [coulombs](coulomb.md) and $t$ is in [seconds](second.md), $I_p$ is in [amperes](ampere.md). <!--SR:!2022-12-19,17,290!2022-12-29,20,250-->
+{{$$I_p=\frac{Q}t$$}}
+where {{$Q$ is the [electric charge](electric%20charge.md) transferred over time $t$}}. If $Q$ is in [coulombs](coulomb.md) and $t$ is in [seconds](second.md), $I_p$ is in [amperes](ampere.md). <!--SR:!2022-12-19,17,290!2022-12-29,20,250-->
 
 ## external voltage
 
-By applying an external [voltage](voltage.md), the photocurrent can be ==changed==. A voltage that increases the photocurrent (==positive voltage==) is called ==accelerating potential==, while the inverse (==negative voltage==) is called ==retarding potential==. <!--SR:!2023-01-07,27,250!2023-02-10,56,310!2023-01-27,45,290!2022-12-19,17,290!2023-02-19,64,310-->
+By applying an external [voltage](voltage.md), the photocurrent can be {{changed}}. A voltage that increases the photocurrent ({{positive voltage}}) is called {{accelerating potential}}, while the inverse ({{negative voltage}}) is called {{retarding potential}}. <!--SR:!2023-01-07,27,250!2023-02-10,56,310!2023-01-27,45,290!2022-12-19,17,290!2023-02-19,64,310-->
 
-An accelerating potential ==increases the photocurrent==, but only up to a point called ==saturation current $I_s$==. The potential ==attracts electrons to the anode==, ==increasing the number of captured electrons==, thus the photocurrent. The saturation current is reached when ==no more additional electrons can be captured==. <!--SR:!2023-01-10,32,270!2023-02-24,68,310!2023-01-04,24,250!2023-01-06,26,250!2023-01-05,25,250-->
+An accelerating potential {{increases the photocurrent}}, but only up to a point called {{saturation current $I_s$}}. The potential {{attracts electrons to the anode}}, {{increasing the number of captured electrons}}, thus the photocurrent. The saturation current is reached when {{no more additional electrons can be captured}}. <!--SR:!2023-01-10,32,270!2023-02-24,68,310!2023-01-04,24,250!2023-01-06,26,250!2023-01-05,25,250-->
 
-An retarding potential ==decreases the photocurrent==. By increasing the retarding potential, when the photocurrent ==just reach zero==, the potential at that point is called ==stopping potential or cut-off potential $V_0$==. The potential ==repels electrons==, ==preventing low-energy electrons from reaching the anode==, thus decreasing the photocurrent. When the stopping potential is reached, ==even the most energetic electron of kinetic energy $K_\mathrm{max}$ is stopped==, so the photocurrent is zero. In this case, the stopping potential is related by ==$\mathrm{e}V_0=K_\mathrm{max}$==. <!--SR:!2023-01-18,34,270!2023-01-08,28,250!2022-12-25,10,230!2022-12-27,18,250!2022-12-31,22,250!2022-12-20,14,230!2022-12-28,21,270-->
+An retarding potential {{decreases the photocurrent}}. By increasing the retarding potential, when the photocurrent {{just reach zero}}, the potential at that point is called {{stopping potential or cut-off potential $V_0$}}. The potential {{repels electrons}}, {{preventing low-energy electrons from reaching the anode}}, thus decreasing the photocurrent. When the stopping potential is reached, {{even the most energetic electron of kinetic energy $K_\mathrm{max}$ is stopped}}, so the photocurrent is zero. In this case, the stopping potential is related by {{$\mathrm{e}V_0=K_\mathrm{max}$}}. <!--SR:!2023-01-18,34,270!2023-01-08,28,250!2022-12-25,10,230!2022-12-27,18,250!2022-12-31,22,250!2022-12-20,14,230!2022-12-28,21,270-->
 
-The resulting photocurrent-voltage curve is ==[sigmoidal](sigmoid%20function.md)==. <!--SR:!2023-02-16,61,310-->
+The resulting photocurrent-voltage curve is {{[sigmoidal](sigmoid%20function.md)}}. <!--SR:!2023-02-16,61,310-->
