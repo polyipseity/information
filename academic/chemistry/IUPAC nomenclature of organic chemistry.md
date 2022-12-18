@@ -498,113 +498,113 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-04T23:41:04.458936+08:00. Any edits will be overridden! -->
 
-> ==alkane==
-> - group: ==alkyl==
-> - formula: ==R(CH<sub>2</sub>)<sub>n</sub>H==
-> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-==
-> - suffix: ==-ane==
-> - infix: ==(none), (locant)==
-> - cyclic prefix: ==cyclo-==
+> {{alkane}}
+> - group: {{alkyl}}
+> - formula: {{R(CH<sub>2</sub>)<sub>n</sub>H}}
+> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
+> - suffix: {{-ane}}
+> - infix: {{(none), (locant)}}
+> - cyclic prefix: {{cyclo-}}
 
-> ==alkene==
-> - group: ==alkenyl==
-> - formula: ==R<sub>2</sub>C=CR<sub>2</sub>==
-> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
-> - suffix: ==-ene==
-> - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-==
+> {{alkene}}
+> - group: {{alkenyl}}
+> - formula: {{R<sub>2</sub>C=CR<sub>2</sub>}}
+> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
+> - suffix: {{-ene}}
+> - infix: {{(locant)}}
+> - cyclic prefix: {{cyclo-}}
 
-> ==alkyne==
-> - group: ==alkynyl==
-> - formula: ==RC≡CR'==
-> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
-> - suffix: ==-yne==
-> - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-==
+> {{alkyne}}
+> - group: {{alkynyl}}
+> - formula: {{RC≡CR'}}
+> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
+> - suffix: {{-yne}}
+> - infix: {{(locant)}}
+> - cyclic prefix: {{cyclo-}}
 
-> ==benzene derivative==
-> - group: ==phenyl==
-> - formula: ==RC<sub>6</sub>H<sub>5</sub>/RPh==
-> - prefix: ==phenyl-==
-> - suffix: ==-benzene==
-> - infix: ==(locant)==
+> {{benzene derivative}}
+> - group: {{phenyl}}
+> - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
+> - prefix: {{phenyl-}}
+> - suffix: {{-benzene}}
+> - infix: {{(locant)}}
 
-> ==([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane==
-> - group: ==([prefix for halogen](#affixes%20for%20halogen)), halo==
-> - formula: ==RX==
-> - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
-> - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
-> - infix: ==(locant)==
+> {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
+> - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
+> - formula: {{RX}}
+> - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
+> - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
+> - infix: {{(locant)}}
 
-> ==alcohol==
-> - group: ==hydroxyl==
-> - formula: ==ROH==
-> - prefix: ==hydroxy-==
-> - suffix: ==-ol==
-> - infix: ==(locant)==
+> {{alcohol}}
+> - group: {{hydroxyl}}
+> - formula: {{ROH}}
+> - prefix: {{hydroxy-}}
+> - suffix: {{-ol}}
+> - infix: {{(locant)}}
 
-> ==ether==
-> - group: ==ether==
-> - formula: ==ROR'==
-> - prefix: ==([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)==
-> - suffix: ==ether==
-> - infix: ==(locant)==
+> {{ether}}
+> - group: {{ether}}
+> - formula: {{ROR'}}
+> - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
+> - suffix: {{ether}}
+> - infix: {{(locant)}}
 
-> ==aldehyde==
-> - group: ==aldehyde==
-> - formula: ==RCHO==
-> - prefix: ==oxo- (=O), formyl- (-CHO)==
-> - suffix: ==-al (=O), -carbaldehyde (-CHO)==
-> - infix: ==(locant)==
+> {{aldehyde}}
+> - group: {{aldehyde}}
+> - formula: {{RCHO}}
+> - prefix: {{oxo- (=O), formyl- (-CHO)}}
+> - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
+> - infix: {{(locant)}}
 
-> ==ketone==
-> - group: ==carbonyl==
-> - formula: ==RCOR'==
-> - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
-> - suffix: ==-one==
-> - infix: ==(locant)==
+> {{ketone}}
+> - group: {{carbonyl}}
+> - formula: {{RCOR'}}
+> - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
+> - suffix: {{-one}}
+> - infix: {{(locant)}}
 
-> ==carboxylic acid==
-> - group: ==carboxyl==
-> - formula: ==RCOOH==
-> - prefix: ==carboxy-==
-> - suffix: ==-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)==
-> - infix: ==(locant)==
+> {{carboxylic acid}}
+> - group: {{carboxyl}}
+> - formula: {{RCOOH}}
+> - prefix: {{carboxy-}}
+> - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
+> - infix: {{(locant)}}
 
-> ==carboxylate==
-> - group: ==carboxylate==
-> - formula: ==RCOO<sup>-</sup>==
-> - prefix: ==carboxy-==
-> - suffix: ==-ate (retained), -oate==
-> - infix: ==(locant)==
+> {{carboxylate}}
+> - group: {{carboxylate}}
+> - formula: {{RCOO<sup>-</sup>}}
+> - prefix: {{carboxy-}}
+> - suffix: {{-ate (retained), -oate}}
+> - infix: {{(locant)}}
 
-> ==alkanoyl==
-> - group: ==acyl==
-> - formula: ==RCO==
-> - prefix: ==(none)==
-> - suffix: ==-yl (retained), -oyl==
-> - infix: ==(locant)==
+> {{alkanoyl}}
+> - group: {{acyl}}
+> - formula: {{RCO}}
+> - prefix: {{(none)}}
+> - suffix: {{-yl (retained), -oyl}}
+> - infix: {{(locant)}}
 
-> ==amine==
-> - group: ==amino==
-> - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
-> - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
-> - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
-> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)==
+> {{amine}}
+> - group: {{amino}}
+> - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
+> - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
+> - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}}
 
-> ==amide==
-> - group: ==amide==
-> - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
-> - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
-> - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')==
+> {{amide}}
+> - group: {{amide}}
+> - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
+> - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
+> - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
+> - infix: {{(locant) & _N_ (R', R'')}}
 
-> ==nitrile==
-> - group: ==nitrile==
-> - formula: ==RCN==
-> - prefix: ==cyano-==
-> - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)==
+> {{nitrile}}
+> - group: {{nitrile}}
+> - formula: {{RCN}}
+> - prefix: {{cyano-}}
+> - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
+> - infix: {{(locant)}}
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -628,7 +628,7 @@ data: typing.Sequence[Affixes] = (
 table: gen.TextCode = gen.TextCode.compile(gen.common.rows_to_table(data,
 		names=('element', 'prefix', 'suffix',),
 		values=lambda affixes: map(gen.TextCode.escape,
-			(affixes.element, f'=={affixes.prefix}==', f'=={affixes.suffix}==',)
+			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
 		),
 	))
 __env__.result = gen.Results(
@@ -646,10 +646,10 @@ __env__.result = gen.Results(
 
 > element | prefix | suffix
 > -|-|-
-> fluorine | ==fluoro-== | ==fluoride==
-> chlorine | ==chloro-== | ==chloride==
-> bromine | ==bromo-== | ==bromide==
-> iodine | ==iodo-== | ==iodide==
+> fluorine | {{fluoro-}} | {{fluoride}}
+> chlorine | {{chloro-}} | {{chloride}}
+> bromine | {{bromo-}} | {{bromide}}
+> iodine | {{iodo-}} | {{iodide}}
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
