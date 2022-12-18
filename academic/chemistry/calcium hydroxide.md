@@ -6,13 +6,13 @@ aliases: ['Ca(OH)2', 'slaked lime', 'limewater',]
 
 # calcium hydroxide
 
-__Calcium hydroxide__, also known as ==slaked lime== in its solid state and ==limewater== in its liquid state, is an [ionic compound](ionic%20compound.md). Its molecular formula is ==Ca(OH)<sub>2</sub>==. It looks like a ==white solid== in its solid form. <!--SR:!2023-01-23,55,230!2022-12-24,41,210!2023-06-19,301,270!2023-12-16,391,259-->
+__Calcium hydroxide__, also known as {{slaked lime}} in its solid state and {{limewater}} in its liquid state, is an [ionic compound](ionic%20compound.md). Its molecular formula is {{Ca(OH)<sub>2</sub>}}. It looks like a {{white solid}} in its solid form. <!--SR:!2023-01-23,55,230!2022-12-24,41,210!2023-06-19,301,270!2023-12-16,391,259-->
 
 ## reactions
 
 ### tests
 
-Calcium hydroxide can be used to test for ==[carbon dioxide](carbon%20dioxide.md)==. <!--SR:!2023-01-11,54,278-->
+Calcium hydroxide can be used to test for {{[carbon dioxide](carbon%20dioxide.md)}}. <!--SR:!2023-01-11,54,278-->
 
 ### preparation
 %%

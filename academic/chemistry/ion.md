@@ -2,9 +2,9 @@
 
 # ion
 
-An __ion__ is an atom or molecule with a net electrical charge. A ==__cation__== is a ==positively charged ion==, while an ==__anion__== is a ==negatively charged ion==.<!--SR:!2023-02-02,305,345!2023-03-30,350,350!2023-01-07,282,332!2023-02-16,318,354-->
+An __ion__ is an atom or molecule with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2023-02-02,305,345!2023-03-30,350,350!2023-01-07,282,332!2023-02-16,318,354-->
 
-A ==simple ion== is an ==ion formed from only one atom==, while a ==polyatomic ion== is an ==ion formed from more than one atom==. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
+A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
 
 ## data
 

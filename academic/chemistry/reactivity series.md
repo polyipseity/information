@@ -114,76 +114,76 @@ Reactivity decreases down the table.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
 
 > potassium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==water==
-> - reaction with dilute HCl: ==explosive==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==explosive== <!--SR:!2023-07-31,284,250!2023-02-27,189,250!2023-02-14,176,250!2023-07-14,267,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{water}}
+> - reaction with dilute HCl: {{explosive}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-31,284,250!2023-02-27,189,250!2023-02-14,176,250!2023-07-14,267,250-->
 
 > sodium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==water==
-> - reaction with dilute HCl: ==explosive==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==explosive== <!--SR:!2023-07-12,265,250!2023-02-23,185,250!2023-07-17,270,250!2023-02-22,184,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{water}}
+> - reaction with dilute HCl: {{explosive}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-12,265,250!2023-02-23,185,250!2023-07-17,270,250!2023-02-22,184,250-->
 
 > calcium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==water==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate to none (covered by insoluble CaSO<sub>4</sub>)== <!--SR:!2023-02-21,183,250!2023-02-13,175,250!2023-02-26,188,250!2023-02-18,180,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{water}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}} <!--SR:!2023-02-21,183,250!2023-02-13,175,250!2023-02-26,188,250!2023-02-18,180,250-->
 
 > magnesium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate== <!--SR:!2023-02-20,182,250!2023-02-10,172,250!2023-07-29,282,250!2023-02-19,181,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-20,182,250!2023-02-10,172,250!2023-07-29,282,250!2023-02-19,181,250-->
 
 > aluminium
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate== <!--SR:!2023-02-28,190,250!2023-02-24,186,250!2023-07-27,280,250!2023-02-17,179,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-28,190,250!2023-02-24,186,250!2023-07-27,280,250!2023-02-17,179,250-->
 
 > zinc
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate== <!--SR:!2023-01-02,27,210!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-01-02,27,210!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
 
 > iron
-> - reaction with air: ==burn==
-> - reaction with H<sub>2</sub>O: ==steam==
-> - reaction with dilute HCl: ==moderate==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==moderate== <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2023-02-24,186,250!2023-03-01,191,250-->
+> - reaction with air: {{burn}}
+> - reaction with H<sub>2</sub>O: {{steam}}
+> - reaction with dilute HCl: {{moderate}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2023-02-24,186,250!2023-03-01,191,250-->
 
 > lead
-> - reaction with air: ==heat==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==slow==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==slow to none (covered by insoluble PbSO<sub>4</sub>)== <!--SR:!2023-08-02,286,250!2023-03-12,202,250!2023-02-20,66,190!2023-07-09,262,249-->
+> - reaction with air: {{heat}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{slow}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{slow to none (covered by insoluble PbSO<sub>4</sub>)}} <!--SR:!2023-08-02,286,250!2023-03-12,202,250!2023-02-20,66,190!2023-07-09,262,249-->
 
 > copper
-> - reaction with air: ==heat==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none== <!--SR:!2023-08-01,285,249!2023-05-15,207,229!2023-07-13,266,249!2023-08-03,287,249-->
+> - reaction with air: {{heat}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-08-01,285,249!2023-05-15,207,229!2023-07-13,266,249!2023-08-03,287,249-->
 
 > mercury
-> - reaction with air: ==heat==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none== <!--SR:!2023-07-04,257,248!2023-07-23,276,248!2023-07-11,264,248!2023-08-06,289,248-->
+> - reaction with air: {{heat}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-07-04,257,248!2023-07-23,276,248!2023-07-11,264,248!2023-08-06,289,248-->
 
 > silver
-> - reaction with air: ==none==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none== <!--SR:!2023-07-05,258,248!2023-07-25,278,248!2023-08-07,289,248!2023-07-21,274,248-->
+> - reaction with air: {{none}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-07-05,258,248!2023-07-25,278,248!2023-08-07,289,248!2023-07-21,274,248-->
 
 > gold
-> - reaction with air: ==none==
-> - reaction with H<sub>2</sub>O: ==none==
-> - reaction with dilute HCl: ==none==
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: ==none== <!--SR:!2023-08-27,311,268!2023-07-11,264,246!2023-06-29,252,246!2023-07-30,283,246-->
+> - reaction with air: {{none}}
+> - reaction with H<sub>2</sub>O: {{none}}
+> - reaction with dilute HCl: {{none}}
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-08-27,311,268!2023-07-11,264,246!2023-06-29,252,246!2023-07-30,283,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

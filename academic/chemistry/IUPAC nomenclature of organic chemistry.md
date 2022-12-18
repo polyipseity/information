@@ -498,113 +498,113 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-04T23:41:04.458936+08:00. Any edits will be overridden! -->
 
-> ==alkane==
-> - group: ==alkyl==
-> - formula: ==R(CH<sub>2</sub>)<sub>n</sub>H==
-> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-==
-> - suffix: ==-ane==
-> - infix: ==(none), (locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-02-22,86,348!2023-02-19,83,348!2023-01-31,68,348!2023-02-20,84,348!2023-02-20,84,348!2023-02-19,83,348!2023-02-20,84,348-->
+> {{alkane}}
+> - group: {{alkyl}}
+> - formula: {{R(CH<sub>2</sub>)<sub>n</sub>H}}
+> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
+> - suffix: {{-ane}}
+> - infix: {{(none), (locant)}}
+> - cyclic prefix: {{cyclo-}} <!--SR:!2023-02-22,86,348!2023-02-19,83,348!2023-01-31,68,348!2023-02-20,84,348!2023-02-20,84,348!2023-02-19,83,348!2023-02-20,84,348-->
 
-> ==alkene==
-> - group: ==alkenyl==
-> - formula: ==R<sub>2</sub>C=CR<sub>2</sub>==
-> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-==
-> - suffix: ==-ene==
-> - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-02-10,77,340!2023-02-25,89,342!2023-01-23,59,322!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-01-05,47,307-->
+> {{alkene}}
+> - group: {{alkenyl}}
+> - formula: {{R<sub>2</sub>C=CR<sub>2</sub>}}
+> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
+> - suffix: {{-ene}}
+> - infix: {{(locant)}}
+> - cyclic prefix: {{cyclo-}} <!--SR:!2023-02-10,77,340!2023-02-25,89,342!2023-01-23,59,322!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-01-05,47,307-->
 
-> ==alkyne==
-> - group: ==alkynyl==
-> - formula: ==RC≡CR'==
-> - prefix: ==([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-==
-> - suffix: ==-yne==
-> - infix: ==(locant)==
-> - cyclic prefix: ==cyclo-== <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2023-02-26,90,340!2023-03-15,88,281!2023-03-01,93,342!2023-02-09,76,342!2023-01-11,52,327-->
+> {{alkyne}}
+> - group: {{alkynyl}}
+> - formula: {{RC≡CR'}}
+> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
+> - suffix: {{-yne}}
+> - infix: {{(locant)}}
+> - cyclic prefix: {{cyclo-}} <!--SR:!2023-01-22,62,320!2023-01-01,40,280!2023-02-26,90,340!2023-03-15,88,281!2023-03-01,93,342!2023-02-09,76,342!2023-01-11,52,327-->
 
-> ==benzene derivative==
-> - group: ==phenyl==
-> - formula: ==RC<sub>6</sub>H<sub>5</sub>/RPh==
-> - prefix: ==phenyl-==
-> - suffix: ==-benzene==
-> - infix: ==(locant)== <!--SR:!2023-01-03,43,300!2023-01-08,39,300!2023-02-13,80,342!2023-01-14,55,322!2022-12-29,42,302!2023-02-21,85,347-->
+> {{benzene derivative}}
+> - group: {{phenyl}}
+> - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
+> - prefix: {{phenyl-}}
+> - suffix: {{-benzene}}
+> - infix: {{(locant)}} <!--SR:!2023-01-03,43,300!2023-01-08,39,300!2023-02-13,80,342!2023-01-14,55,322!2022-12-29,42,302!2023-02-21,85,347-->
 
-> ==([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane==
-> - group: ==([prefix for halogen](#affixes%20for%20halogen)), halo==
-> - formula: ==RX==
-> - prefix: ==([prefix for halogen](#affixes%20for%20halogen))-, halo-==
-> - suffix: ==([suffix for halogen](#affixes%20for%20halogen))==
-> - infix: ==(locant)== <!--SR:!2023-01-05,44,300!2022-12-19,25,301!2023-02-28,92,342!2022-12-19,32,282!2022-12-26,26,285!2023-02-24,88,347-->
+> {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
+> - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
+> - formula: {{RX}}
+> - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
+> - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
+> - infix: {{(locant)}} <!--SR:!2023-01-05,44,300!2022-12-19,25,301!2023-02-28,92,342!2022-12-19,32,282!2022-12-26,26,285!2023-02-24,88,347-->
 
-> ==alcohol==
-> - group: ==hydroxyl==
-> - formula: ==ROH==
-> - prefix: ==hydroxy-==
-> - suffix: ==-ol==
-> - infix: ==(locant)== <!--SR:!2023-02-25,89,342!2023-02-26,90,342!2023-03-01,93,342!2023-02-19,83,345!2023-02-17,81,345!2023-02-21,85,347-->
+> {{alcohol}}
+> - group: {{hydroxyl}}
+> - formula: {{ROH}}
+> - prefix: {{hydroxy-}}
+> - suffix: {{-ol}}
+> - infix: {{(locant)}} <!--SR:!2023-02-25,89,342!2023-02-26,90,342!2023-03-01,93,342!2023-02-19,83,345!2023-02-17,81,345!2023-02-21,85,347-->
 
-> ==ether==
-> - group: ==ether==
-> - formula: ==ROR'==
-> - prefix: ==([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)==
-> - suffix: ==ether==
-> - infix: ==(locant)== <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2023-02-12,79,342!2023-01-01,29,242!2023-01-27,60,325!2023-02-04,71,347-->
+> {{ether}}
+> - group: {{ether}}
+> - formula: {{ROR'}}
+> - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
+> - suffix: {{ether}}
+> - infix: {{(locant)}} <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2023-02-12,79,342!2023-01-01,29,242!2023-01-27,60,325!2023-02-04,71,347-->
 
-> ==aldehyde==
-> - group: ==aldehyde==
-> - formula: ==RCHO==
-> - prefix: ==oxo- (=O), formyl- (-CHO)==
-> - suffix: ==-al (=O), -carbaldehyde (-CHO)==
-> - infix: ==(locant)== <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2022-12-22,11,225!2023-03-09,84,285!2023-02-05,72,347-->
+> {{aldehyde}}
+> - group: {{aldehyde}}
+> - formula: {{RCHO}}
+> - prefix: {{oxo- (=O), formyl- (-CHO)}}
+> - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
+> - infix: {{(locant)}} <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2022-12-22,11,225!2023-03-09,84,285!2023-02-05,72,347-->
 
-> ==ketone==
-> - group: ==carbonyl==
-> - formula: ==RCOR'==
-> - prefix: ==oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')==
-> - suffix: ==-one==
-> - infix: ==(locant)== <!--SR:!2023-02-23,74,280!2023-01-19,51,280!2023-01-21,57,321!2023-01-19,43,242!2023-03-01,93,342!2023-02-26,90,342-->
+> {{ketone}}
+> - group: {{carbonyl}}
+> - formula: {{RCOR'}}
+> - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
+> - suffix: {{-one}}
+> - infix: {{(locant)}} <!--SR:!2023-02-23,74,280!2023-01-19,51,280!2023-01-21,57,321!2023-01-19,43,242!2023-03-01,93,342!2023-02-26,90,342-->
 
-> ==carboxylic acid==
-> - group: ==carboxyl==
-> - formula: ==RCOOH==
-> - prefix: ==carboxy-==
-> - suffix: ==-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)==
-> - infix: ==(locant)== <!--SR:!2023-01-13,54,320!2022-12-30,43,302!2023-02-27,91,342!2022-12-30,40,302!2023-01-09,34,305!2023-02-18,82,347-->
+> {{carboxylic acid}}
+> - group: {{carboxyl}}
+> - formula: {{RCOOH}}
+> - prefix: {{carboxy-}}
+> - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
+> - infix: {{(locant)}} <!--SR:!2023-01-13,54,320!2022-12-30,43,302!2023-02-27,91,342!2022-12-30,40,302!2023-01-09,34,305!2023-02-18,82,347-->
 
-> ==carboxylate==
-> - group: ==carboxylate==
-> - formula: ==RCOO<sup>-</sup>==
-> - prefix: ==carboxy-==
-> - suffix: ==-ate (retained), -oate==
-> - infix: ==(locant)== <!--SR:!2023-02-08,75,342!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2023-01-05,18,262!2023-02-07,74,347-->
+> {{carboxylate}}
+> - group: {{carboxylate}}
+> - formula: {{RCOO<sup>-</sup>}}
+> - prefix: {{carboxy-}}
+> - suffix: {{-ate (retained), -oate}}
+> - infix: {{(locant)}} <!--SR:!2023-02-08,75,342!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2023-01-05,18,262!2023-02-07,74,347-->
 
-> ==alkanoyl==
-> - group: ==acyl==
-> - formula: ==RCO==
-> - prefix: ==(none)==
-> - suffix: ==-yl (retained), -oyl==
-> - infix: ==(locant)== <!--SR:!2023-01-18,42,261!2023-01-06,45,302!2023-02-28,92,342!2023-01-20,44,242!2022-12-25,36,287!2023-02-23,87,347-->
+> {{alkanoyl}}
+> - group: {{acyl}}
+> - formula: {{RCO}}
+> - prefix: {{(none)}}
+> - suffix: {{-yl (retained), -oyl}}
+> - infix: {{(locant)}} <!--SR:!2023-01-18,42,261!2023-01-06,45,302!2023-02-28,92,342!2023-01-20,44,242!2022-12-25,36,287!2023-02-23,87,347-->
 
-> ==amine==
-> - group: ==amino==
-> - formula: ==RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>==
-> - prefix: ==amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)==
-> - suffix: ==-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)==
-> - infix: ==(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)== <!--SR:!2023-02-01,69,345!2023-02-18,82,345!2023-01-09,47,305!2023-01-08,50,325!2023-03-10,84,287!2023-01-24,62,327-->
+> {{amine}}
+> - group: {{amino}}
+> - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
+> - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
+> - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-02-01,69,345!2023-02-18,82,345!2023-01-09,47,305!2023-01-08,50,325!2023-03-10,84,287!2023-01-24,62,327-->
 
-> ==amide==
-> - group: ==amide==
-> - formula: ==RCONH<sub>2</sub>, RCONHR', RCONR'R''==
-> - prefix: ==amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)==
-> - suffix: ==-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)==
-> - infix: ==(locant) & _N_ (R', R'')== <!--SR:!2023-01-27,64,345!2023-02-21,85,345!2023-01-23,61,325!2023-02-27,77,285!2023-03-10,83,285!2023-01-31,64,327-->
+> {{amide}}
+> - group: {{amide}}
+> - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
+> - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
+> - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2023-01-27,64,345!2023-02-21,85,345!2023-01-23,61,325!2023-02-27,77,285!2023-03-10,83,285!2023-01-31,64,327-->
 
-> ==nitrile==
-> - group: ==nitrile==
-> - formula: ==RCN==
-> - prefix: ==cyano-==
-> - suffix: ==-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)==
-> - infix: ==(locant)== <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-01-22,60,328!2023-01-30,49,268!2023-02-22,86,348-->
+> {{nitrile}}
+> - group: {{nitrile}}
+> - formula: {{RCN}}
+> - prefix: {{cyano-}}
+> - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
+> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-01-22,60,328!2023-01-30,49,268!2023-02-22,86,348-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -628,7 +628,7 @@ data: typing.Sequence[Affixes] = (
 table: gen.TextCode = gen.TextCode.compile(gen.common.rows_to_table(data,
 		names=('element', 'prefix', 'suffix',),
 		values=lambda affixes: map(gen.TextCode.escape,
-			(affixes.element, f'=={affixes.prefix}==', f'=={affixes.suffix}==',)
+			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
 		),
 	))
 __env__.result = gen.Results(
@@ -646,10 +646,10 @@ __env__.result = gen.Results(
 
 > element | prefix | suffix
 > -|-|-
-> fluorine | ==fluoro-== | ==fluoride==
-> chlorine | ==chloro-== | ==chloride==
-> bromine | ==bromo-== | ==bromide==
-> iodine | ==iodo-== | ==iodide== <!--SR:!2024-01-24,520,301!2023-04-08,322,344!2023-12-25,490,304!2023-04-13,327,346!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2023-07-18,395,353-->
+> fluorine | {{fluoro-}} | {{fluoride}}
+> chlorine | {{chloro-}} | {{chloride}}
+> bromine | {{bromo-}} | {{bromide}}
+> iodine | {{iodo-}} | {{iodide}} <!--SR:!2024-01-24,520,301!2023-04-08,322,344!2023-12-25,490,304!2023-04-13,327,346!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2023-07-18,395,353-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
