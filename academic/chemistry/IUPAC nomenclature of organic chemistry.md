@@ -188,7 +188,7 @@ The steps for naming an organic compound are:
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2023-01-01,41,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
 4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2023-01-09,50,325-->
-5. most prefixes→:::←most single bonds <!--SR:!2022-12-27,192,261!2022-12-18,31,282-->
+5. most prefixes→:::←most single bonds <!--SR:!2022-12-27,192,261!2023-03-16,88,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-02-17,81,345!2022-12-25,35,305-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -576,7 +576,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: ==RCOO<sup>-</sup>==
 > - prefix: ==carboxy-==
 > - suffix: ==-ate (retained), -oate==
-> - infix: ==(locant)== <!--SR:!2023-02-08,75,342!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2022-12-18,31,282!2023-02-07,74,347-->
+> - infix: ==(locant)== <!--SR:!2023-02-08,75,342!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2023-01-05,18,262!2023-02-07,74,347-->
 
 > ==alkanoyl==
 > - group: ==acyl==
