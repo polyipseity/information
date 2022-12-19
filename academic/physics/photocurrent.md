@@ -12,11 +12,11 @@ __Photocurrent__ is {{the [electric current](electric%20current.md) through a [p
 
 The photocurrent can be calculated by the following equation:
 {{$$I_p=\frac{Q}t$$}}
-where {{$Q$ is the [electric charge](electric%20charge.md) transferred over time $t$}}. If $Q$ is in [coulombs](coulomb.md) and $t$ is in [seconds](second.md), $I_p$ is in [amperes](ampere.md). <!--SR:!2022-12-19,17,290!2022-12-29,20,250-->
+where {{$Q$ is the [electric charge](electric%20charge.md) transferred over time $t$}}. If $Q$ is in [coulombs](coulomb.md) and $t$ is in [seconds](second.md), $I_p$ is in [amperes](ampere.md). <!--SR:!2023-03-01,72,310!2022-12-29,20,250-->
 
 ## external voltage
 
-By applying an external [voltage](voltage.md), the photocurrent can be {{changed}}. A voltage that increases the photocurrent ({{positive voltage}}) is called {{accelerating potential}}, while the inverse ({{negative voltage}}) is called {{retarding potential}}. <!--SR:!2023-01-07,27,250!2023-02-10,56,310!2023-01-27,45,290!2022-12-19,17,290!2023-02-19,64,310-->
+By applying an external [voltage](voltage.md), the photocurrent can be {{changed}}. A voltage that increases the photocurrent ({{positive voltage}}) is called {{accelerating potential}}, while the inverse ({{negative voltage}}) is called {{retarding potential}}. <!--SR:!2023-01-07,27,250!2023-02-10,56,310!2023-01-27,45,290!2023-02-28,71,310!2023-02-19,64,310-->
 
 An accelerating potential {{increases the photocurrent}}, but only up to a point called {{saturation current $I_s$}}. The potential {{attracts electrons to the anode}}, {{increasing the number of captured electrons}}, thus the photocurrent. The saturation current is reached when {{no more additional electrons can be captured}}. <!--SR:!2023-01-10,32,270!2023-02-24,68,310!2023-01-04,24,250!2023-01-06,26,250!2023-01-05,25,250-->
 

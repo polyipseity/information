@@ -92,7 +92,7 @@ __env__.result = gen.Results(
 
 > nitrates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2023-07-09,254,216!2022-12-19,33,249-->
+> - exception(s): {{_(none)_}} <!--SR:!2023-07-09,254,216!2023-04-18,120,269-->
 
 > acetates (ethanoates)
 > - general solubility: {{<span style="color: green;">soluble</span>}}
