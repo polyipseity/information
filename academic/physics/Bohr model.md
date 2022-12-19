@@ -29,4 +29,4 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}}
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274!2022-12-23,4,274-->
