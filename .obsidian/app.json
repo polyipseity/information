@@ -26,5 +26,5 @@
     "en-US",
     "en-GB"
   ],
-  "newLinkFormat": "relative"
+  "newLinkFormat": "shortest"
 }
