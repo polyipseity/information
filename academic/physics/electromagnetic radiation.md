@@ -20,4 +20,4 @@ __Electromagnetic radiation__ (__EMR__) is {{a wave of the [electromagnetic fiel
 
 ### photoelectric effect
 
-{{Electromagnetic radiation striking a material causes [electrons](electron.md) to be emitted.}} This is known as the {{[photoelectric effect](photoelectric%20effect.md)}}. <!--SR:!2022-12-20,14,230!2023-02-02,49,290-->
+{{Electromagnetic radiation striking a material causes [electrons](electron.md) to be emitted.}} This is known as the {{[photoelectric effect](photoelectric%20effect.md)}}. <!--SR:!2023-01-21,32,230!2023-02-02,49,290-->
