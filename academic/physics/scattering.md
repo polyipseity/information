@@ -2,7 +2,7 @@
 
 # scattering
 
-__Scattering__ describes {{a wide range of physical processes where moving [particle](particle.md) or [radiation](radiation.md) deviates from a straight [trajectory](trajectory.md)}}. <!--SR:!2022-12-21,7,250-->
+__Scattering__ describes {{a wide range of physical processes where moving [particle](particle.md) or [radiation](radiation.md) deviates from a straight [trajectory](trajectory.md)}}. <!--SR:!2023-01-10,20,250-->
 
 ## experiments
 
