@@ -154,7 +154,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2023-01-26,59,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2022-12-28,38,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2022-12-22,21,265-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-04,13,245-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2023-01-17,34,247-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2023-01-23,33,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2023-02-13,64,267-->
@@ -555,7 +555,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2022-12-22,11,225!2023-03-09,84,285!2023-02-05,72,347-->
+> - infix: {{(locant)}} <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2023-01-17,26,225!2023-03-09,84,285!2023-02-05,72,347-->
 
 > {{ketone}}
 > - group: {{carbonyl}}

@@ -63,8 +63,8 @@ __env__.result = gen.Results(
 4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2022-12-30,30,230!2023-03-07,80,250-->
 5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2023-01-17,55,270!2023-01-16,41,230-->
 6. group I metal: +1→:::←group II metal: +2 <!--SR:!2023-02-09,77,290!2023-01-07,51,290-->
-7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2023-02-28,78,270!2022-12-22,38,270-->
-8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2023-01-12,55,290!2022-12-22,36,270-->
+7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2023-02-28,78,270!2023-04-04,103,270-->
+8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2023-01-12,55,290!2023-05-12,141,290-->
 9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2023-03-09,81,250!2023-03-11,84,250-->
 10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2023-02-17,84,310!2023-02-24,74,250-->
 
