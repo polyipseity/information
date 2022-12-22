@@ -261,7 +261,7 @@ __env__.result = gen.Results(
 10. barium ion::colorless <!--SR:!2022-12-30,230,274-->
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
-13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2022-12-22,122,227-->
+13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2023-02-25,65,207-->
 14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-01-02,43,190-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2022-12-28,128,230-->
