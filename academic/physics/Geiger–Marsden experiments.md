@@ -10,7 +10,7 @@ The __{{Geiger–Marsden}} experiments__ (also known as the __{{Rutherford}} gol
 
 ## experiment
 
-A thin gold foil are {{bombarded by [alpha particles](alpha%20particle.md) in an evacuated chamber}}. The {{deflection angles}} are recorded. <!--SR:!2022-12-24,10,250!2023-01-26,34,270-->
+A thin gold foil are {{bombarded by [alpha particles](alpha%20particle.md) in an evacuated chamber}}. The {{deflection angles}} are recorded. <!--SR:!2023-01-18,25,250!2023-01-26,34,270-->
 
 ### results
 
@@ -18,4 +18,4 @@ Most alpha particles pass through {{with minimal deflection}}. Few of them pass 
 
 ### implications
 
-The results showed that the {{[plum pudding model](plum%20pudding%20model.md)}} was wrong. Most of the volume of an atom is {{empty}} as {{most alpha particles pass through with minimal deflection}}. Instead, {{the positive charge is concentrated in a tiny central region called the "nucleus"}}. {{Most mass is concentrated there}} as {{the nucleus is not deflected or moved by particles}}. Electrons, which {{does not affect}} the scattering, orbit around the nucleus. This is the {{[Rutherford model](Rutherford%20model.md)}}. <!--SR:!2022-12-25,11,270!2022-12-31,16,290!2022-12-28,13,270!2023-01-07,16,230!2022-12-24,10,250!2023-01-13,22,250!2022-12-30,15,290!2022-12-29,14,290-->
+The results showed that the {{[plum pudding model](plum%20pudding%20model.md)}} was wrong. Most of the volume of an atom is {{empty}} as {{most alpha particles pass through with minimal deflection}}. Instead, {{the positive charge is concentrated in a tiny central region called the "nucleus"}}. {{Most mass is concentrated there}} as {{the nucleus is not deflected or moved by particles}}. Electrons, which {{does not affect}} the scattering, orbit around the nucleus. This is the {{[Rutherford model](Rutherford%20model.md)}}. <!--SR:!2022-12-25,11,270!2022-12-31,16,290!2022-12-28,13,270!2023-01-07,16,230!2023-01-21,28,250!2023-01-13,22,250!2022-12-30,15,290!2022-12-29,14,290-->
