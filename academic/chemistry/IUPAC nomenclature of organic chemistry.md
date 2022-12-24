@@ -241,7 +241,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
-1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2022-12-24,65,224!2023-02-20,234,267-->
+1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2023-05-20,147,224!2023-02-20,234,267-->
 2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2022-12-25,190,250!2023-03-23,145,241-->
 3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-01-22,46,210!2023-01-14,86,230-->
 
@@ -713,6 +713,6 @@ __env__.result = gen.Results(
 7. ketone→:::←alcohol <!--SR:!2022-12-26,23,190!2022-12-27,16,190-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
-10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2022-12-24,39,247-->
+10. amine→:::←_(lowest)_ <!--SR:!2022-12-26,191,256!2023-04-02,99,247-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
