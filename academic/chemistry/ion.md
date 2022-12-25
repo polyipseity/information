@@ -231,7 +231,7 @@ __env__.result = gen.Results(
 8. magnesium ion::2+ <!--SR:!2023-08-03,346,253-->
 9. calcium ion::2+ <!--SR:!2023-01-14,238,272-->
 10. barium ion::2+ <!--SR:!2024-01-27,456,254-->
-11. lead(II) ion::2+ <!--SR:!2022-12-25,272,338-->
+11. lead(II) ion::2+ <!--SR:!2026-06-13,1266,358-->
 12. iron(II) ion::2+ <!--SR:!2023-05-01,376,353-->
 13. nickel(II) ion::2+ <!--SR:!2023-01-17,289,332-->
 14. copper(II) ion::2+ <!--SR:!2023-03-09,334,352-->
@@ -346,7 +346,7 @@ __env__.result = gen.Results(
 9. hydrogencarbonate ion::1- <!--SR:!2023-10-31,435,290-->
 10. hydrogensulfite ion::1- <!--SR:!2024-12-16,746,319-->
 11. hydrogensulfate ion::1- <!--SR:!2023-04-18,304,284-->
-12. permanganate ion::1- <!--SR:!2022-12-25,40,230-->
+12. permanganate ion::1- <!--SR:!2023-05-03,129,250-->
 13. oxide ion::2- <!--SR:!2023-04-30,316,290-->
 14. sulfide ion::2- <!--SR:!2022-12-30,71,230-->
 15. sulfate ion::2- <!--SR:!2023-10-15,419,290-->

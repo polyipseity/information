@@ -189,7 +189,7 @@ The steps for naming an organic compound are:
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
 4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2023-01-09,50,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2022-12-27,192,261!2023-03-16,88,282-->
-6. most single bonds→:::←_(end)_ <!--SR:!2023-02-17,81,345!2022-12-25,35,305-->
+6. most single bonds→:::←_(end)_ <!--SR:!2023-02-17,81,345!2023-05-21,147,325-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -242,7 +242,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2023-05-20,147,224!2023-02-20,234,267-->
-2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2022-12-25,190,250!2023-03-23,145,241-->
+2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-03-23,145,241-->
 3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-01-22,46,210!2023-01-14,86,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -583,7 +583,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-01-18,42,261!2023-01-06,45,302!2023-02-28,92,342!2023-01-20,44,242!2022-12-25,36,287!2023-02-23,87,347-->
+> - infix: {{(locant)}} <!--SR:!2023-01-18,42,261!2023-01-06,45,302!2023-02-28,92,342!2023-01-20,44,242!2023-01-14,20,267!2023-02-23,87,347-->
 
 > {{amine}}
 > - group: {{amino}}
