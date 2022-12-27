@@ -148,7 +148,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2022-11-09T19:11:57.168670+08:00. Any edits will be overridden! -->
 
 1. _(acidic)_→:::←1~5 <!--SR:!2023-01-04,44,261!2023-02-14,82,301-->
-2. 1~5→:::←5~8 <!--SR:!2022-12-27,40,261!2022-12-28,43,281-->
+2. 1~5→:::←5~8 <!--SR:!2023-04-11,105,261!2022-12-28,43,281-->
 3. 5~8→:::←8~14 <!--SR:!2023-02-16,80,281!2022-12-29,37,241-->
 4. 8~14→:::←_(basic)_ <!--SR:!2023-02-03,73,301!2023-01-15,54,261-->
 
@@ -186,7 +186,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0245d8"--><!-- The following content is generated at 2022-11-05T00:25:01.058870+08:00. Any edits will be overridden! -->
 
 1. 1~8.3:::colorless <!--SR:!2023-01-03,51,210!2023-01-12,28,210-->
-2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2022-12-26,17,210-->
+2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2023-02-02,37,210-->
 3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2023-04-08,118,230!2024-02-15,455,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
