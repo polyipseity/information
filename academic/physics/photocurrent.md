@@ -6,7 +6,7 @@ aliases: ['photoelectric current', 'photovoltaic current',]
 
 # photocurrent
 
-__Photocurrent__ is {{the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)}}. It may be caused by {{[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)}}. <!--SR:!2022-12-30,21,250!2023-01-09,31,270-->
+__Photocurrent__ is {{the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)}}. It may be caused by {{[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)}}. <!--SR:!2023-02-25,57,250!2023-01-09,31,270-->
 
 ## calculation
 
