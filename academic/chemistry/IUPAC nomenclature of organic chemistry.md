@@ -187,7 +187,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-01-01,197,256!2023-02-25,89,342-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2023-01-01,41,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
-4. maximum length→:::←most prefixes <!--SR:!2022-12-30,71,241!2023-01-09,50,325-->
+4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-01-09,50,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-03-16,88,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-02-17,81,345!2023-05-21,147,325-->
 
@@ -569,7 +569,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}} <!--SR:!2023-01-13,54,320!2022-12-30,43,302!2023-02-27,91,342!2022-12-30,40,302!2023-01-09,34,305!2023-02-18,82,347-->
+> - infix: {{(locant)}} <!--SR:!2023-01-13,54,320!2023-05-09,130,302!2023-02-27,91,342!2023-06-14,166,322!2023-01-09,34,305!2023-02-18,82,347-->
 
 > {{carboxylate}}
 > - group: {{carboxylate}}
@@ -707,7 +707,7 @@ __env__.result = gen.Results(
 1. _(highest)_→:::←cation <!--SR:!2023-02-02,251,324!2023-07-17,394,352-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2023-07-19,331,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2023-04-03,289,326-->
-4. carboxylic acid derivate→:::←nitrile <!--SR:!2022-12-30,46,210!2023-01-29,219,267-->
+4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2023-01-29,219,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-02-03,77,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->
 7. ketone→:::←alcohol <!--SR:!2023-02-10,45,190!2023-01-29,33,190-->

@@ -14,8 +14,8 @@ A thin gold foil are {{bombarded by [alpha particles](alpha%20particle.md) in an
 
 ### results
 
-Most alpha particles pass through {{with minimal deflection}}. Few of them pass through {{with large deflection}}. Even fewer {{rebound back}}. <!--SR:!2022-12-30,15,290!2023-02-16,51,290!2023-02-03,38,270-->
+Most alpha particles pass through {{with minimal deflection}}. Few of them pass through {{with large deflection}}. Even fewer {{rebound back}}. <!--SR:!2023-03-03,63,310!2023-02-16,51,290!2023-02-03,38,270-->
 
 ### implications
 
-The results showed that the {{[plum pudding model](plum%20pudding%20model.md)}} was wrong. Most of the volume of an atom is {{empty}} as {{most alpha particles pass through with minimal deflection}}. Instead, {{the positive charge is concentrated in a tiny central region called the "nucleus"}}. {{Most mass is concentrated there}} as {{the nucleus is not deflected or moved by particles}}. Electrons, which {{does not affect}} the scattering, orbit around the nucleus. This is the {{[Rutherford model](Rutherford%20model.md)}}. <!--SR:!2023-02-04,41,290!2022-12-31,16,290!2023-02-05,38,270!2023-01-07,16,230!2023-01-21,28,250!2023-01-13,22,250!2022-12-30,15,290!2023-02-26,59,310-->
+The results showed that the {{[plum pudding model](plum%20pudding%20model.md)}} was wrong. Most of the volume of an atom is {{empty}} as {{most alpha particles pass through with minimal deflection}}. Instead, {{the positive charge is concentrated in a tiny central region called the "nucleus"}}. {{Most mass is concentrated there}} as {{the nucleus is not deflected or moved by particles}}. Electrons, which {{does not affect}} the scattering, orbit around the nucleus. This is the {{[Rutherford model](Rutherford%20model.md)}}. <!--SR:!2023-02-04,41,290!2022-12-31,16,290!2023-02-05,38,270!2023-01-07,16,230!2023-01-21,28,250!2023-01-13,22,250!2023-03-02,62,310!2023-02-26,59,310-->
