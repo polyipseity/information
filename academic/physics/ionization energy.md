@@ -6,7 +6,7 @@ aliases: ['ionization energies', 'ionisation energy', 'ionisation energies',]
 
 # ionization energy
 
-__Ionization energy__ (__IE__) is {{the minimum [energy](energy.md) needed to discharge an [electron](electron.md) from an isolated gaseous [atom](atom.md), [cation](ion.md), or [molecule](molecule.md)}}. <!--SR:!2023-01-01,9,270-->
+__Ionization energy__ (__IE__) is {{the minimum [energy](energy.md) needed to discharge an [electron](electron.md) from an isolated gaseous [atom](atom.md), [cation](ion.md), or [molecule](molecule.md)}}. <!--SR:!2023-01-22,21,270-->
 
 ## Bohr model
 

@@ -6,7 +6,7 @@ aliases: ['Rutherford–Bohr model',]
 
 # Bohr model
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-02-06,39,270!2023-01-04,16,290!2023-01-01,5,210!2023-02-15,47,290!2023-01-21,25,252!2023-01-02,14,292!2023-01-04,5,252-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-02-06,39,270!2023-01-04,16,290!2023-01-13,12,210!2023-02-15,47,290!2023-01-21,25,252!2023-01-02,14,292!2023-01-04,5,252-->
 
 The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-01-02,4,232!2023-02-02,34,272-->
 
@@ -29,7 +29,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-01-03,11,274!2023-01-02,10,274!2023-01-08,16,294!2023-01-05,13,294!2023-01-03,11,274!2023-01-01,9,274!2023-01-01,9,274!2023-01-08,10,254!2023-01-01,7,274-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-01-03,11,274!2023-01-02,10,274!2023-01-08,16,294!2023-01-05,13,294!2023-01-03,11,274!2023-01-23,22,274!2023-01-28,27,274!2023-01-08,10,254!2023-01-19,18,274-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-01-02,10,279!2023-01-03,11,279-->
 
