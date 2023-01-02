@@ -157,7 +157,7 @@ The steps for naming an organic compound are:
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-04,13,245-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2023-01-17,34,247-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2023-01-23,33,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-01-02,198,266!2023-02-13,64,267-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-02-13,64,267-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-03-16,79,190!2023-01-22,38,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2023-01-14,39,247-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-02-24,79,230!2023-02-10,63,267-->
@@ -223,7 +223,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-09T18:05:21.087142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2023-03-07,197,250!2023-01-02,42,302-->
+1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2023-03-07,197,250!2023-05-15,133,302-->
 2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2023-08-30,314,292!2023-05-13,132,307-->
 3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2023-01-28,61,320!2023-01-30,63,322-->
 
@@ -534,7 +534,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-01-05,44,300!2023-01-02,14,281!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
+> - infix: {{(locant)}} <!--SR:!2023-01-05,44,300!2023-02-14,43,281!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}

@@ -262,7 +262,7 @@ __env__.result = gen.Results(
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2023-02-25,65,207-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-01-02,43,190-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-01-21,19,170-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-02,308,230-->
 17. mercury(II) ion::_(n/a)_ <!--SR:!2023-02-06,54,256-->
@@ -368,7 +368,7 @@ __env__.result = gen.Results(
 3. chloride ion::colorless <!--SR:!2024-06-23,612,314-->
 4. bromide ion::colorless <!--SR:!2023-08-21,364,259-->
 5. iodide ion::colorless <!--SR:!2023-11-30,465,307-->
-6. hydroxide ion::colorless <!--SR:!2023-01-02,259,327-->
+6. hydroxide ion::colorless <!--SR:!2023-05-12,130,307-->
 7. nitrate ion::colorless <!--SR:!2023-12-01,466,299-->
 8. nitrite ion::_(n/a)_ <!--SR:!2023-02-09,65,276-->
 9. hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
@@ -380,7 +380,7 @@ __env__.result = gen.Results(
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
-18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-01-02,74,230-->
+18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
 20. nitride ion::_(n/a)_ <!--SR:!2023-01-19,48,276-->
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
