@@ -6,7 +6,7 @@ aliases: ['CaCO3', 'limestone',]
 
 # calcium carbonate
 
-__Calcium carbonate__, also known as {{limestone}}, is a solid [ionic compound](ionic%20compound.md). Its molecular formula is {{CaCO<sub>3</sub>}}. It looks like a {{white solid}}. <!--SR:!2023-04-02,164,299!2023-01-06,202,317!2023-06-04,286,278-->
+__Calcium carbonate__, also known as {{limestone}}, is a solid [ionic compound](ionic%20compound.md). Its molecular formula is {{CaCO<sub>3</sub>}}. It looks like a {{white solid}}. <!--SR:!2023-04-02,164,299!2024-10-10,642,317!2023-06-04,286,278-->
 
 ## reactions
 

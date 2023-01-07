@@ -154,7 +154,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2023-01-26,59,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2023-04-28,120,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-04,13,245-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-13,6,225-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2023-01-17,34,247-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-01-11,59,230!2023-01-23,33,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-02-13,64,267-->
@@ -206,7 +206,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-09T18:05:21.058142+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2023-01-10,205,266!2023-02-28,92,342-->
-2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2023-01-05,201,266!2023-01-15,37,302-->
+2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2023-01-15,37,302-->
 3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2023-01-29,62,325-->
 4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2023-02-11,78,342!2023-05-06,125,305-->
 
@@ -384,7 +384,7 @@ __env__.result = gen.Results(
 1. 1:::meth- <!--SR:!2024-02-20,481,290!2023-03-29,312,330-->
 2. 2:::eth- <!--SR:!2024-03-26,507,290!2023-11-08,384,256-->
 3. 3:::prop- <!--SR:!2023-09-10,384,290!2023-06-09,356,301-->
-4. 4:::but- <!--SR:!2023-06-28,310,270!2023-01-07,203,266-->
+4. 4:::but- <!--SR:!2023-06-28,310,270!2024-06-30,540,266-->
 5. 5:::pent- <!--SR:!2024-05-17,634,330!2024-01-10,447,286-->
 6. 6:::hex- <!--SR:!2023-09-06,380,290!2023-02-27,254,286-->
 7. 7:::hept- <!--SR:!2023-09-03,377,290!2023-08-06,349,286-->
@@ -394,13 +394,13 @@ __env__.result = gen.Results(
 11. 11:::undec- <!--SR:!2023-03-11,88,230!2023-12-09,415,267-->
 12. 12:::dodec- <!--SR:!2023-07-03,315,270!2023-05-16,267,247-->
 13. 13:::tridec- <!--SR:!2023-07-02,314,270!2023-05-27,151,227-->
-14. 14:::tetradec- <!--SR:!2023-06-21,303,270!2023-01-07,203,267-->
+14. 14:::tetradec- <!--SR:!2023-06-21,303,270!2023-04-22,105,247-->
 15. 15:::pentadec- <!--SR:!2023-03-27,282,332!2024-05-19,552,312-->
 16. 16:::hexadec- <!--SR:!2023-03-12,267,332!2023-01-14,205,272-->
 17. 17:::heptadec- <!--SR:!2024-03-12,509,312!2023-07-27,339,292-->
 18. 18:::octadec- <!--SR:!2024-06-01,562,312!2023-03-10,265,332-->
 19. 19:::nonadec- <!--SR:!2023-03-08,288,352!2023-01-24,57,210-->
-20. 20:::icos- <!--SR:!2023-01-06,46,300!2023-03-01,93,342-->
+20. 20:::icos- <!--SR:!2023-05-27,140,300!2023-03-01,93,342-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -512,7 +512,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
 > - suffix: {{-ene}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2023-02-10,77,340!2023-02-25,89,342!2023-01-23,59,322!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-01-05,47,307-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2023-02-10,77,340!2023-02-25,89,342!2023-01-23,59,322!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-06-01,145,307-->
 
 > {{alkyne}}
 > - group: {{alkynyl}}
@@ -527,14 +527,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
-> - infix: {{(locant)}} <!--SR:!2023-01-03,43,300!2023-01-08,39,300!2023-02-13,80,342!2023-01-14,55,322!2023-05-05,127,302!2023-02-21,85,347-->
+> - infix: {{(locant)}} <!--SR:!2023-05-20,133,300!2023-01-08,39,300!2023-02-13,80,342!2023-01-14,55,322!2023-05-05,127,302!2023-02-21,85,347-->
 
 > {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
 > - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-01-05,44,300!2023-02-14,43,281!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
+> - infix: {{(locant)}} <!--SR:!2023-01-30,23,280!2023-02-14,43,281!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}
@@ -555,7 +555,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-01-05,45,302!2023-01-17,26,225!2023-03-09,84,285!2023-02-05,72,347-->
+> - infix: {{(locant)}} <!--SR:!2023-02-09,76,342!2023-02-27,91,342!2023-05-26,139,302!2023-01-17,26,225!2023-03-09,84,285!2023-02-05,72,347-->
 
 > {{ketone}}
 > - group: {{carbonyl}}
@@ -576,14 +576,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2023-02-08,75,342!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2023-01-05,18,262!2023-02-07,74,347-->
+> - infix: {{(locant)}} <!--SR:!2023-02-08,75,342!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2023-03-02,54,262!2023-02-07,74,347-->
 
 > {{alkanoyl}}
 > - group: {{acyl}}
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-01-18,42,261!2023-01-06,45,302!2023-02-28,92,342!2023-01-20,44,242!2023-01-14,20,267!2023-02-23,87,347-->
+> - infix: {{(locant)}} <!--SR:!2023-01-18,42,261!2023-01-31,24,282!2023-02-28,92,342!2023-01-20,44,242!2023-01-14,20,267!2023-02-23,87,347-->
 
 > {{amine}}
 > - group: {{amino}}

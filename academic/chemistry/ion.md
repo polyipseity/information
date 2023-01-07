@@ -6,7 +6,7 @@ aliases: ['ions', 'cation', 'cations', 'anion', 'anions',]
 
 # ion
 
-An __ion__ is an atom or molecule with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2023-02-02,305,345!2023-03-30,350,350!2023-01-07,282,332!2023-02-16,318,354-->
+An __ion__ is an atom or molecule with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2023-02-02,305,345!2023-03-30,350,350!2026-07-20,1290,352!2023-02-16,318,354-->
 
 A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
 
@@ -202,7 +202,7 @@ __env__.result = gen.Results(
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2023-03-17,148,250!2023-05-14,328,293-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2023-04-07,108,227!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2023-03-14,337,350!2023-04-10,359,354-->
-10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-01-15,87,230!2023-01-03,260,294-->
+10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-01-15,87,230!2025-02-15,770,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2024-02-24,536,314-->
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2023-01-28,300,339!2023-04-01,350,345-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2023-03-15,335,339!2023-10-22,426,290-->
@@ -212,7 +212,7 @@ __env__.result = gen.Results(
 17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2026-03-20,1192,350!2025-11-01,1038,313-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2023-02-20,319,347!2023-01-31,279,294-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
-20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2023-01-06,285,354-->
+20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2023-01-24,275,294-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -240,7 +240,7 @@ __env__.result = gen.Results(
 17. mercury(II) ion::2+ <!--SR:!2023-02-21,321,354-->
 18. cobalt(II) ion::2+ <!--SR:!2023-02-08,311,352-->
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
-20. iron(III) ion::3+ <!--SR:!2023-01-05,282,345-->
+20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 21. chromium(III) ion::3+ <!--SR:!2023-01-27,299,338-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
