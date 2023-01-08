@@ -304,7 +304,7 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-06T20:13:23.980184+08:00. Any edits will be overridden! -->
 
-1. 1:::(none) <!--SR:!2024-05-18,635,330!2023-01-08,250,336-->
+1. 1:::(none) <!--SR:!2024-05-18,635,330!2026-03-10,1157,356-->
 2. 2:::di- <!--SR:!2023-10-04,408,310!2023-01-31,249,322-->
 3. 3:::tri- <!--SR:!2023-01-22,253,310!2023-02-04,253,324-->
 4. 4/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-02-16,240,286-->
@@ -527,7 +527,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
-> - infix: {{(locant)}} <!--SR:!2023-05-20,133,300!2023-01-08,39,300!2023-02-13,80,342!2023-01-14,55,322!2023-05-05,127,302!2023-02-21,85,347-->
+> - infix: {{(locant)}} <!--SR:!2023-05-20,133,300!2023-06-16,159,320!2023-02-13,80,342!2023-01-14,55,322!2023-05-05,127,302!2023-02-21,85,347-->
 
 > {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
 > - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
@@ -590,7 +590,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
 > - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
 > - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
-> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-02-01,69,345!2023-02-18,82,345!2023-01-09,47,305!2023-01-08,50,325!2023-03-10,84,287!2023-01-24,62,327-->
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-02-01,69,345!2023-02-18,82,345!2023-01-09,47,305!2023-06-14,157,325!2023-03-10,84,287!2023-01-24,62,327-->
 
 > {{amide}}
 > - group: {{amide}}
