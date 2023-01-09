@@ -187,7 +187,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2023-02-25,89,342-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2023-01-12,205,256!2023-05-10,129,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
-4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-01-09,50,325-->
+4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-06-26,168,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-03-16,88,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-02-17,81,345!2023-05-21,147,325-->
 
@@ -569,7 +569,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}} <!--SR:!2023-01-13,54,320!2023-05-09,130,302!2023-02-27,91,342!2023-06-14,166,322!2023-01-09,34,305!2023-02-18,82,347-->
+> - infix: {{(locant)}} <!--SR:!2023-01-13,54,320!2023-05-09,130,302!2023-02-27,91,342!2023-06-14,166,322!2023-04-23,104,305!2023-02-18,82,347-->
 
 > {{carboxylate}}
 > - group: {{carboxylate}}
@@ -590,7 +590,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
 > - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
 > - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
-> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-02-01,69,345!2023-02-18,82,345!2023-01-09,47,305!2023-06-14,157,325!2023-03-10,84,287!2023-01-24,62,327-->
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-02-01,69,345!2023-02-18,82,345!2023-06-01,143,305!2023-06-14,157,325!2023-03-10,84,287!2023-01-24,62,327-->
 
 > {{amide}}
 > - group: {{amide}}
