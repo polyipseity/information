@@ -23,7 +23,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle fullscreen area:::Ctrl+Alt+Space
 - cycle workspace:::Ctrl+PageUp/PageDown
 - play/tools/search:::Space
-- play in reverse:::⇧Shift+Ctrl+Space
+- reverse playback:::⇧Shift+Ctrl+Space
 
 ## editing
 
