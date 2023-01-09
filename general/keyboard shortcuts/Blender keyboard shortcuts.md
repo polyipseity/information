@@ -6,46 +6,46 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ## global
 
-- open file:::Ctrl+O
-- save file:::Ctrl+S
-- new file:::Ctrl+N
-- undo:::Ctrl+Z
-- redo:::⇧Shift+Ctrl+Z
-- quit:::Ctrl+Q
-- help:::F1
-- rename active:::F2
-- menu search:::F3
-- file context menu:::F4
-- show render window:::F11
-- render:::F12
-- quick access:::Q
-- toggle maximize area:::Ctrl+Space
-- toggle fullscreen area:::Ctrl+Alt+Space
-- cycle workspace:::Ctrl+PageUp/PageDown
-- play/tools/search:::Space
-- reverse playback:::⇧Shift+Ctrl+Space
+- open file:::Ctrl+O <!--SR:!2023-01-13,4,275!2023-01-13,4,276-->
+- save file:::Ctrl+S <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
+- new file:::Ctrl+N <!--SR:!2023-01-12,3,250!2023-01-13,4,276-->
+- undo:::Ctrl+Z <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
+- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-01-13,4,270!2023-01-12,3,256-->
+- quit:::Ctrl+Q <!--SR:!2023-01-13,4,270!2023-01-10,1,236-->
+- help:::F1 <!--SR:!2023-01-12,3,250!2023-01-13,4,270-->
+- rename active:::F2 <!--SR:!2023-01-12,3,256!2023-01-10,1,236-->
+- menu search:::F3 <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
+- file context menu:::F4 <!--SR:!2023-01-10,1,230!2023-01-13,4,276-->
+- show render window:::F11 <!--SR:!2023-01-13,4,275!2023-01-13,4,276-->
+- render:::F12 <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
+- quick access:::Q <!--SR:!2023-01-12,3,250!2023-01-13,4,270-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-10,1,230!2023-01-12,3,256-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-10,1,230!2023-01-10,1,236-->
+- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
+- play/tools/search:::Space <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-01-12,3,250!2023-01-13,4,275-->
 
 ## editing
 
-- delete w/ confirmation:::X
-- delete w/o confirmation:::Delete
+- delete w/ confirmation:::X <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
+- delete w/o confirmation:::Delete <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
 
 ## editor
 
-- select all:::A
-- select none:::Alt+A
-- invert selection:::Ctrl+I
-- hide selection:::H
-- reveal hidden:::Alt+H
-- toggle toolbar:::T
-- toggle sidebar:::N
+- select all:::A <!--SR:!2023-01-10,1,236!2023-01-13,4,276-->
+- select none:::Alt+A <!--SR:!2023-01-12,3,256!2023-01-12,3,256-->
+- invert selection:::Ctrl+I <!--SR:!2023-01-12,3,250!2023-01-12,3,256-->
+- hide selection:::H <!--SR:!2023-01-12,3,250!2023-01-13,4,270-->
+- reveal hidden:::Alt+H <!--SR:!2023-01-12,3,250!2023-01-12,3,256-->
+- toggle toolbar:::T <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
+- toggle sidebar:::N <!--SR:!2023-01-12,3,256!2023-01-12,3,256-->
 
 ## 3D viewport
 
-- toggle edit mode:::Tab↹
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹
-- toggle vertex/edge/face mode:::1/2/3
-	- +multiple modes:::+⇧Shift
-	- +expand/contract selection:::+Ctrl
-- toggle gizmos:::Ctrl+\`
-- start walk/fly navigation:::⇧Shift+\`
+- toggle edit mode:::Tab↹ <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-01-10,1,236!2023-01-12,3,256-->
+- toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
+	- +multiple modes:::+⇧Shift <!--SR:!2023-01-12,3,250!2023-01-13,4,276-->
+	- +expand/contract selection:::+Ctrl <!--SR:!2023-01-12,3,256!2023-01-12,3,256-->
+- toggle gizmos:::Ctrl+\` <!--SR:!2023-01-10,1,230!2023-01-10,1,236-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-01-13,4,270!2023-01-10,1,235-->
