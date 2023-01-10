@@ -205,7 +205,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-09T18:05:21.058142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2023-01-10,205,266!2023-02-28,92,342-->
+1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2023-02-28,92,342-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2023-01-15,37,302-->
 3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2023-01-29,62,325-->
 4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2023-02-11,78,342!2023-05-06,125,305-->
