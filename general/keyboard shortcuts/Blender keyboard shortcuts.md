@@ -19,8 +19,8 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2023-01-13,4,275!2023-01-13,4,276-->
 - render:::F12 <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
 - quick access:::Q <!--SR:!2023-01-12,3,250!2023-01-13,4,270-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-11,1,210!2023-01-12,3,256-->
-- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-11,1,210!2023-01-11,1,216-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-13,2,210!2023-01-12,3,256-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-13,2,210!2023-01-13,2,216-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-01-13,4,270!2023-01-13,4,276-->
 - play/tools/search:::Space <!--SR:!2023-01-13,4,276!2023-01-13,4,276-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-01-12,3,250!2023-01-13,4,275-->
@@ -48,4 +48,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 	- +multiple modes:::+⇧Shift <!--SR:!2023-01-12,3,250!2023-01-13,4,276-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-01-12,3,256!2023-01-12,3,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-01-13,3,250!2023-01-13,3,256-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-01-13,4,270!2023-01-11,1,215-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-01-13,4,270!2023-01-12,1,195-->

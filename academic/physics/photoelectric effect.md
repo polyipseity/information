@@ -14,7 +14,7 @@ A {{[photocell](photocell.md)}} can be used to observe the effect. It consists o
 
 If the light frequency is lower than the {{threshold frequency}}, {{no photoemission occurs}}. Otherwise, {{immediate photoemission occurs}}. {{Light [intensity](intensity.md) or duration of exposure}} does not affect photoemission of a single electron. {{Light intensity}} only affects the photoelectric current. <!--SR:!2023-02-22,66,310!2023-01-22,41,290!2023-02-01,49,290!2023-01-17,35,270!2023-01-13,32,270-->
 
-Emitted electrons have {{different}} initial kinetic energies. The maximum kinetic energy of an electron {{increases with light frequency}} given that the threshold frequency is exceeded. <!--SR:!2023-02-17,62,310!2023-01-11,24,270-->
+Emitted electrons have {{different}} initial kinetic energies. The maximum kinetic energy of an electron {{increases with light frequency}} given that the threshold frequency is exceeded. <!--SR:!2023-02-17,62,310!2023-01-21,10,250-->
 
 ## mechanism
 
@@ -22,7 +22,7 @@ The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts
 
 The {{threshold frequency $\nu_o$}} is determined by {{the [work function](work%20function.md) $\Phi$ of the surface of the material}}:
 {{$$\begin{aligned}\Phi&=h\nu_o\\\nu_o&=\frac\Phi{h}\end{aligned}$$}}
-where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2023-01-11,27,262!2023-01-24,39,282!2023-02-08,37,290!2023-02-22,63,302-->
+where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2023-03-22,70,262!2023-01-24,39,282!2023-02-08,37,290!2023-02-22,63,302-->
 
 The {{maximum kinetic energy $K_\mathrm{max}$}} is determined by {{the frequency $f$ of the incoming photon and the work function $\Phi$ of the surface of the material}}:
 {{$$K_\mathrm{max}=hf-\Phi=hf-hV_o=h\left(f-V_o\right)$$}}
