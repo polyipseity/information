@@ -1,0 +1,21 @@
+{
+  "command": true,
+  "contextMenu": true,
+  "executables": {
+    "darwin": {
+      "args": [],
+      "name": "Terminal.app"
+    },
+    "linux": {
+      "args": [],
+      "name": "xterm-256color"
+    },
+    "win32": {
+      "args": [],
+      "name": "pwsh"
+    }
+  },
+  "language": "",
+  "noticeTimeout": 5,
+  "pythonExecutable": "python"
+}

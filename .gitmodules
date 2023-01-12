@@ -6,7 +6,3 @@
 	path = private
 	url = ../notes-private.git
 	branch = forks/polyipseity
-[submodule "obsidian-terminal"]
-	path = .obsidian/plugins/terminal
-	url = https://github.com/polyipseity/obsidian-terminal.git
-	branch = main
