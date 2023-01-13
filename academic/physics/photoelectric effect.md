@@ -12,7 +12,7 @@ The __photoelectric effect__ is {{the ejection of [electrons](electron.md) from 
 
 A {{[photocell](photocell.md)}} can be used to observe the effect. It consists of {{a [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube}}. When the photocathode is shone by light, {{emitted electrons escape to the anode}}, {{producing an [electric current](electric%20current.md)}}. The current is called {{photoelectric current, a kind of [photocurrent](photocurrent.md)}}. <!--SR:!2023-01-18,36,270!2023-02-19,52,250!2023-02-04,36,270!2023-02-16,48,230!2023-01-20,37,270-->
 
-If the light frequency is lower than the {{threshold frequency}}, {{no photoemission occurs}}. Otherwise, {{immediate photoemission occurs}}. {{Light [intensity](intensity.md) or duration of exposure}} does not affect photoemission of a single electron. {{Light intensity}} only affects the photoelectric current. <!--SR:!2023-02-22,66,310!2023-01-22,41,290!2023-02-01,49,290!2023-01-17,35,270!2023-01-13,32,270-->
+If the light frequency is lower than the {{threshold frequency}}, {{no photoemission occurs}}. Otherwise, {{immediate photoemission occurs}}. {{Light [intensity](intensity.md) or duration of exposure}} does not affect photoemission of a single electron. {{Light intensity}} only affects the photoelectric current. <!--SR:!2023-02-22,66,310!2023-01-22,41,290!2023-02-01,49,290!2023-01-17,35,270!2023-04-09,86,270-->
 
 Emitted electrons have {{different}} initial kinetic energies. The maximum kinetic energy of an electron {{increases with light frequency}} given that the threshold frequency is exceeded. <!--SR:!2023-02-17,62,310!2023-01-21,10,250-->
 
