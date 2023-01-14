@@ -1,10 +1,11 @@
 {
   "command": true,
   "contextMenu": true,
+  "enableWindowsConhostWorkaround": true,
   "executables": {
     "darwin": {
       "args": [],
-      "name": "Terminal.app"
+      "name": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal"
     },
     "linux": {
       "args": [],
@@ -15,6 +16,7 @@
       "name": "pwsh"
     }
   },
+  "hideStatusBar": "focused",
   "language": "",
   "noticeTimeout": 5,
   "pythonExecutable": "python"
