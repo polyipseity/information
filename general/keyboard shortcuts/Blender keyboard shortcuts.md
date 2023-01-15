@@ -13,17 +13,17 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-01-24,11,270!2023-01-18,6,256-->
 - quit:::Ctrl+Q <!--SR:!2023-01-23,10,270!2023-01-17,5,256-->
 - help:::F1 <!--SR:!2023-01-21,9,270!2023-01-26,13,270-->
-- rename active:::F2 <!--SR:!2023-01-20,8,256!2023-01-15,2,216-->
+- rename active:::F2 <!--SR:!2023-01-20,8,256!2023-01-20,5,236-->
 - menu search:::F3 <!--SR:!2023-01-25,12,276!2023-01-26,13,276-->
-- file context menu:::F4 <!--SR:!2023-01-16,4,230!2023-01-15,2,256-->
-- show render window:::F11 <!--SR:!2023-01-15,2,255!2023-01-15,2,256-->
+- file context menu:::F4 <!--SR:!2023-01-16,4,230!2023-01-21,6,276-->
+- show render window:::F11 <!--SR:!2023-01-19,4,255!2023-01-20,5,256-->
 - render:::F12 <!--SR:!2023-01-22,9,276!2023-01-24,11,276-->
-- quick access:::Q <!--SR:!2023-01-19,7,250!2023-01-15,2,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-14,1,190!2023-01-19,7,256-->
-- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-14,1,190!2023-01-14,1,196-->
+- quick access:::Q <!--SR:!2023-01-19,7,250!2023-01-16,1,230-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-18,3,190!2023-01-19,7,256-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-18,3,190!2023-01-18,3,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-01-23,10,270!2023-01-25,12,276-->
 - play/tools/search:::Space <!--SR:!2023-01-25,12,276!2023-01-26,13,276-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-01-18,6,250!2023-01-15,2,255-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-01-18,6,250!2023-01-19,4,255-->
 
 ## editing
 
@@ -36,9 +36,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - select none:::Alt+A <!--SR:!2023-01-18,6,256!2023-01-19,7,256-->
 - invert selection:::Ctrl+I <!--SR:!2023-01-19,7,250!2023-01-21,9,276-->
 - hide selection:::H <!--SR:!2023-01-18,6,250!2023-01-24,11,270-->
-- reveal hidden:::Alt+H <!--SR:!2023-01-20,8,250!2023-01-14,2,236-->
+- reveal hidden:::Alt+H <!--SR:!2023-01-20,8,250!2023-01-23,8,256-->
 - toggle toolbar:::T <!--SR:!2023-01-23,10,270!2023-01-23,10,276-->
-- toggle sidebar:::N <!--SR:!2023-01-19,7,256!2023-01-14,2,236-->
+- toggle sidebar:::N <!--SR:!2023-01-19,7,256!2023-01-21,6,236-->
 
 ## 3D viewport
 
@@ -48,4 +48,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 	- +multiple modes:::+⇧Shift <!--SR:!2023-01-21,9,270!2023-01-30,17,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-01-21,9,276!2023-01-18,6,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-01-20,7,250!2023-01-21,8,256-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-01-22,9,270!2023-01-14,2,195-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-01-22,9,270!2023-01-19,4,195-->

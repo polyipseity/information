@@ -147,7 +147,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-01-15,13,190!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-01-21,6,170!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
 
 > iron
 > - reaction with air: {{burn}}
