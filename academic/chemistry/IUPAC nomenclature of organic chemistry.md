@@ -154,7 +154,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2023-01-26,59,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2023-04-28,120,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-16,3,205-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-18,2,185-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2023-01-17,34,247-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-02-14,34,210!2023-01-23,33,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-02-13,64,267-->
