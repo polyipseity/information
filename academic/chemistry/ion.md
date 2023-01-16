@@ -376,7 +376,7 @@ __env__.result = gen.Results(
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-02-16,434,250-->
 13. oxide ion::_(n/a)_ <!--SR:!2023-01-27,55,276-->
-14. sulfide ion::_(n/a)_ <!--SR:!2023-01-16,47,276-->
+14. sulfide ion::_(n/a)_ <!--SR:!2023-05-28,132,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
