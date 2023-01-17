@@ -233,7 +233,7 @@ __env__.result = gen.Results(
 10. barium ion::2+ <!--SR:!2024-01-27,456,254-->
 11. lead(II) ion::2+ <!--SR:!2026-06-13,1266,358-->
 12. iron(II) ion::2+ <!--SR:!2023-05-01,376,353-->
-13. nickel(II) ion::2+ <!--SR:!2023-01-17,289,332-->
+13. nickel(II) ion::2+ <!--SR:!2026-08-31,1322,352-->
 14. copper(II) ion::2+ <!--SR:!2023-03-09,334,352-->
 15. zinc ion::2+ <!--SR:!2023-01-25,87,224-->
 16. manganese(II) ion::2+ <!--SR:!2026-10-23,1379,367-->
@@ -256,7 +256,7 @@ __env__.result = gen.Results(
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
 6. mercury(I) ion::_(n/a)_ <!--SR:!2023-05-27,132,276-->
 7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
-8. magnesium ion::colorless <!--SR:!2023-01-17,241,274-->
+8. magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
 9. calcium ion::colorless <!--SR:!2024-03-02,499,272-->
 10. barium ion::colorless <!--SR:!2024-09-20,630,274-->
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
