@@ -6,11 +6,11 @@ aliases: ['photoemission',]
 
 # photoelectric effect
 
-The __photoelectric effect__ is {{the ejection of [electrons](electron.md) from a material when [electromagnetic radiation](electromagnetic%20radiation.md) strikes it}}. <!--SR:!2023-01-18,36,270-->
+The __photoelectric effect__ is {{the ejection of [electrons](electron.md) from a material when [electromagnetic radiation](electromagnetic%20radiation.md) strikes it}}. <!--SR:!2023-02-06,19,250-->
 
 ## observation
 
-A {{[photocell](photocell.md)}} can be used to observe the effect. It consists of {{a [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube}}. When the photocathode is shone by light, {{emitted electrons escape to the anode}}, {{producing an [electric current](electric%20current.md)}}. The current is called {{photoelectric current, a kind of [photocurrent](photocurrent.md)}}. <!--SR:!2023-01-18,36,270!2023-02-19,52,250!2023-02-04,36,270!2023-02-16,48,230!2023-01-20,37,270-->
+A {{[photocell](photocell.md)}} can be used to observe the effect. It consists of {{a [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube}}. When the photocathode is shone by light, {{emitted electrons escape to the anode}}, {{producing an [electric current](electric%20current.md)}}. The current is called {{photoelectric current, a kind of [photocurrent](photocurrent.md)}}. <!--SR:!2023-04-24,96,270!2023-02-19,52,250!2023-02-04,36,270!2023-02-16,48,230!2023-01-20,37,270-->
 
 If the light frequency is lower than the {{threshold frequency}}, {{no photoemission occurs}}. Otherwise, {{immediate photoemission occurs}}. {{Light [intensity](intensity.md) or duration of exposure}} does not affect photoemission of a single electron. {{Light intensity}} only affects the photoelectric current. <!--SR:!2023-02-22,66,310!2023-01-22,41,290!2023-02-01,49,290!2023-04-22,95,270!2023-04-09,86,270-->
 

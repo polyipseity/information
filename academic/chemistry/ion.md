@@ -314,7 +314,7 @@ __env__.result = gen.Results(
 5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2023-05-02,318,293-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2023-01-29,298,332!2023-02-05,308,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
-8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-01-18,90,239!2023-05-05,319,290-->
+8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-08-21,215,239!2023-05-05,319,290-->
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2023-04-15,301,279!2023-12-08,473,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2023-06-13,347,294-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2023-03-22,343,347!2026-01-17,1128,350-->
