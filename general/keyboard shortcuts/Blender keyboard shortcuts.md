@@ -8,9 +8,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - open file:::Ctrl+O <!--SR:!2023-01-23,10,275!2023-01-25,12,276-->
 - save file:::Ctrl+S <!--SR:!2023-01-30,17,296!2023-01-28,15,296-->
-- new file:::Ctrl+N <!--SR:!2023-01-18,6,250!2023-01-24,11,276-->
+- new file:::Ctrl+N <!--SR:!2023-02-03,16,250!2023-01-24,11,276-->
 - undo:::Ctrl+Z <!--SR:!2023-01-26,13,270!2023-01-23,10,276-->
-- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-01-24,11,270!2023-01-18,6,256-->
+- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-01-24,11,270!2023-02-02,15,256-->
 - quit:::Ctrl+Q <!--SR:!2023-01-23,10,270!2023-02-06,20,276-->
 - help:::F1 <!--SR:!2023-01-21,9,270!2023-01-26,13,270-->
 - rename active:::F2 <!--SR:!2023-01-20,8,256!2023-01-20,5,236-->
@@ -19,11 +19,11 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2023-01-19,4,255!2023-01-20,5,256-->
 - render:::F12 <!--SR:!2023-01-22,9,276!2023-01-24,11,276-->
 - quick access:::Q <!--SR:!2023-01-19,7,250!2023-01-19,3,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-18,3,190!2023-01-19,7,256-->
-- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-18,3,190!2023-01-18,3,196-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-01-25,7,190!2023-01-19,7,256-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-01-24,6,190!2023-01-24,6,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-01-23,10,270!2023-01-25,12,276-->
 - play/tools/search:::Space <!--SR:!2023-01-25,12,276!2023-01-26,13,276-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-01-18,6,250!2023-01-19,4,255-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-02-04,17,250!2023-01-19,4,255-->
 
 ## editing
 
@@ -33,9 +33,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ## editor
 
 - select all:::A <!--SR:!2023-01-19,6,256!2023-01-26,13,276-->
-- select none:::Alt+A <!--SR:!2023-01-18,6,256!2023-01-19,7,256-->
+- select none:::Alt+A <!--SR:!2023-02-04,17,256!2023-01-19,7,256-->
 - invert selection:::Ctrl+I <!--SR:!2023-01-19,7,250!2023-01-21,9,276-->
-- hide selection:::H <!--SR:!2023-01-18,6,250!2023-01-24,11,270-->
+- hide selection:::H <!--SR:!2023-01-21,3,230!2023-01-24,11,270-->
 - reveal hidden:::Alt+H <!--SR:!2023-01-20,8,250!2023-01-23,8,256-->
 - toggle toolbar:::T <!--SR:!2023-01-23,10,270!2023-01-23,10,276-->
 - toggle sidebar:::N <!--SR:!2023-01-19,7,256!2023-01-21,6,236-->
@@ -43,9 +43,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ## 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2023-01-25,12,270!2023-01-29,16,296-->
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-01-30,14,256!2023-01-18,6,256-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-01-30,14,256!2023-01-21,3,236-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-01-22,9,276!2023-01-24,11,276-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-01-21,9,270!2023-01-30,17,296-->
-	- +expand/contract selection:::+Ctrl <!--SR:!2023-01-21,9,276!2023-01-18,6,256-->
+	- +expand/contract selection:::+Ctrl <!--SR:!2023-01-21,9,276!2023-02-04,17,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-01-20,7,250!2023-01-21,8,256-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-01-22,9,270!2023-01-19,4,195-->

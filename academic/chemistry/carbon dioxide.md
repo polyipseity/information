@@ -16,7 +16,7 @@ Carbon dioxide can be tested using {{calcium compounds or [hydrogencarbonate ind
 
 When carbon dioxide is {{passed into aqueous [calcium hydroxide](calcium%20hydroxide.md) solution}}, {{solid [calcium carbonate](calcium%20carbonate.md) and [water](water.md)}} is formed. {{Formation of white precipitates}} can be observed. When {{excess}} carbon dioxide is passed into the solution, {{calcium carbonate reacts with carbon dioxide and water}} to give {{[calcium hydrogencarbonate](calcium%20hydrogencarbonate.md)}}. {{Dissolution of white precipitates}} can be observed.
 > 1. {{Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l)}}
-> 2. {{CaCO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)}} <!--SR:!2023-01-24,70,210!2023-02-08,111,230!2023-01-19,150,206!2023-07-13,202,246!2023-08-31,312,246!2023-08-11,295,246!2023-05-10,141,226!2023-02-01,25,222!2023-01-18,56,262-->
+> 2. {{CaCO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)}} <!--SR:!2023-01-24,70,210!2023-02-08,111,230!2023-01-19,150,206!2023-07-13,202,246!2023-08-31,312,246!2023-08-11,295,246!2023-05-10,141,226!2023-02-01,25,222!2023-06-14,147,262-->
 
 ### hydrogencarbonate indicator
 
