@@ -196,7 +196,7 @@ __env__.result = gen.Results(
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2023-02-06,309,350!2023-03-17,340,353-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2023-04-06,353,339!2023-04-20,367,353-->
-4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2023-02-09,308,339!2023-01-20,92,290-->
+4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2023-02-09,308,339!2024-01-31,376,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2023-03-21,342,347!2023-02-23,303,310-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2023-03-17,148,250!2023-05-14,328,293-->
@@ -252,7 +252,7 @@ __env__.result = gen.Results(
 1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion::colorless <!--SR:!2023-04-28,314,293-->
 3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
-4. copper(I) ion::_(n/a)_ <!--SR:!2023-01-20,50,276-->
+4. copper(I) ion::_(n/a)_ <!--SR:!2023-06-09,140,276-->
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
 6. mercury(I) ion::_(n/a)_ <!--SR:!2023-05-27,132,276-->
 7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
@@ -382,7 +382,7 @@ __env__.result = gen.Results(
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
-20. nitride ion::_(n/a)_ <!--SR:!2023-01-19,48,276-->
+20. nitride ion::_(n/a)_ <!--SR:!2023-02-16,27,256-->
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

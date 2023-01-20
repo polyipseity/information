@@ -154,7 +154,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2023-01-26,59,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2023-04-28,120,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-19,1,165-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-22,2,165-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2023-02-05,19,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-02-14,34,210!2023-01-23,33,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-02-13,64,267-->
@@ -260,7 +260,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-09T18:05:21.147143+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←commas (,) between locants <!--SR:!2023-01-21,252,332!2023-01-22,58,320-->
-2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2023-01-20,56,321-->
+2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2023-02-21,32,301-->
 3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2023-03-16,271,333!2023-02-01,65,322-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2023-02-19,83,347!2023-01-25,58,327-->
 
@@ -548,7 +548,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2023-02-12,79,342!2023-01-20,5,202!2023-01-27,60,325!2023-02-04,71,347-->
+> - infix: {{(locant)}} <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2023-02-12,79,342!2023-02-01,12,202!2023-01-27,60,325!2023-02-04,71,347-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
@@ -562,7 +562,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,74,280!2023-01-19,51,280!2023-01-21,57,321!2023-01-19,43,242!2023-03-01,93,342!2023-02-26,90,342-->
+> - infix: {{(locant)}} <!--SR:!2023-02-23,74,280!2023-06-17,148,280!2023-01-21,57,321!2023-02-13,24,222!2023-03-01,93,342!2023-02-26,90,342-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -583,7 +583,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2023-01-31,24,282!2023-02-28,92,342!2023-01-20,44,242!2023-03-11,55,267!2023-02-23,87,347-->
+> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2023-01-31,24,282!2023-02-28,92,342!2023-05-10,110,242!2023-03-11,55,267!2023-02-23,87,347-->
 
 > {{amine}}
 > - group: {{amino}}
