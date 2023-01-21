@@ -5,11 +5,11 @@
   "executables": {
     "darwin": {
       "args": [],
-      "name": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal"
+      "name": "/bin/zsh"
     },
     "linux": {
       "args": [],
-      "name": "xterm-256color"
+      "name": "/bin/sh"
     },
     "win32": {
       "args": [],
@@ -19,5 +19,5 @@
   "hideStatusBar": "focused",
   "language": "",
   "noticeTimeout": 5,
-  "pythonExecutable": "python"
+  "pythonExecutable": "python3"
 }
