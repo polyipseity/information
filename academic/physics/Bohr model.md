@@ -6,7 +6,7 @@ aliases: ['Rutherford–Bohr model',]
 
 # Bohr model
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-02-06,39,270!2023-03-03,55,290!2023-01-23,3,170!2023-02-15,47,290!2023-01-21,25,252!2023-03-03,60,312!2023-01-21,14,252-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-02-06,39,270!2023-03-03,55,290!2023-01-23,3,170!2023-02-15,47,290!2023-02-04,13,232!2023-03-03,60,312!2023-01-30,8,232-->
 
 The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-02-11,29,232!2023-02-02,34,272-->
 
@@ -16,7 +16,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {{certain orbits only with certain distances from the nucleus called stationary orbits}} {{without radiating energy}}. ^23e80f
 2. The stationary orbits have distances {{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e}vr=n\hbar$}}, where {{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}}. The orbits have definite energies called {{[energy levels](energy%20level.md), energy shells, or energy states}}. ^f5a73f
-3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-02-25,43,230!2023-02-05,36,270!2023-02-12,35,230!2023-02-21,37,250!2023-02-19,35,250!2023-01-21,14,232!2023-02-20,51,292!2023-02-23,47,252!2023-03-28,80,312-->
+3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-02-25,43,230!2023-02-05,36,270!2023-02-12,35,230!2023-02-21,37,250!2023-02-19,35,250!2023-02-27,36,232!2023-02-20,51,292!2023-02-23,47,252!2023-03-28,80,312-->
 
 ## electron energy levels
 
@@ -40,4 +40,4 @@ The combination of natural constants in the energy formula is the {{Rydberg ener
 
 The energy of a photon emitted by a hydrogen atom is:
 {{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
-{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-01-21,23,302!2023-02-28,46,282!2023-03-25,64,302!2023-03-19,60,302!2023-02-24,42,282!2023-01-24,4,242-->
+{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-04-06,74,302!2023-02-28,46,282!2023-03-25,64,302!2023-03-19,60,302!2023-02-24,42,282!2023-01-24,4,242-->
