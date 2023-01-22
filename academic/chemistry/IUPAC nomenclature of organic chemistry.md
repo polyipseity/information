@@ -154,11 +154,11 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-02-15,229,255!2023-01-26,59,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2023-02-17,231,262!2023-04-28,120,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-22,2,165-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-02-19,233,264!2023-01-25,3,165-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2023-01-26,157,230!2023-02-05,19,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-02-14,34,210!2023-01-23,33,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-02-13,64,267-->
-7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-03-16,79,190!2023-01-22,38,265-->
+7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-03-16,79,190!2023-05-04,102,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-02-01,221,267!2023-02-07,23,227-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-02-24,79,230!2023-02-10,63,267-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-02-12,115,250!2023-02-19,68,265-->
@@ -243,7 +243,7 @@ The steps for naming an organic compound are:
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2023-05-20,147,224!2023-02-20,234,267-->
 2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-03-23,145,241-->
-3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-01-22,46,210!2023-08-04,201,230-->
+3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-05-03,101,210!2023-08-04,201,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -259,7 +259,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-09T18:05:21.147143+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←commas (,) between locants <!--SR:!2023-01-21,252,332!2023-01-22,58,320-->
+1. _(begin)_→:::←commas (,) between locants <!--SR:!2025-05-09,838,332!2023-07-27,186,320-->
 2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2023-02-21,32,301-->
 3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2023-03-16,271,333!2023-02-01,65,322-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2023-02-19,83,347!2023-01-25,58,327-->
@@ -306,7 +306,7 @@ __env__.result = gen.Results(
 
 1. 1:::(none) <!--SR:!2024-05-18,635,330!2026-03-10,1157,356-->
 2. 2:::di- <!--SR:!2023-10-04,408,310!2023-01-31,249,322-->
-3. 3:::tri- <!--SR:!2023-01-22,253,310!2023-02-04,253,324-->
+3. 3:::tri- <!--SR:!2025-03-16,784,310!2023-02-04,253,324-->
 4. 4/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-02-16,240,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -389,7 +389,7 @@ __env__.result = gen.Results(
 6. 6:::hex- <!--SR:!2023-09-06,380,290!2023-02-27,254,286-->
 7. 7:::hept- <!--SR:!2023-09-03,377,290!2023-08-06,349,286-->
 8. 8:::oct- <!--SR:!2023-09-13,387,290!2023-02-28,255,286-->
-9. 9:::non- <!--SR:!2023-06-20,367,310!2023-01-21,88,287-->
+9. 9:::non- <!--SR:!2023-06-20,367,310!2023-10-03,254,287-->
 10. 10:::dec- <!--SR:!2023-02-21,92,270!2023-02-10,237,287-->
 11. 11:::undec- <!--SR:!2023-03-11,88,230!2023-12-09,415,267-->
 12. 12:::dodec- <!--SR:!2023-07-03,315,270!2023-05-16,267,247-->
@@ -520,7 +520,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
 > - suffix: {{-yne}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2023-01-22,62,320!2023-06-06,156,300!2023-02-26,90,340!2023-03-15,88,281!2023-03-01,93,342!2023-02-09,76,342!2023-09-04,236,347-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2023-08-08,198,320!2023-06-06,156,300!2023-02-26,90,340!2023-03-15,88,281!2023-03-01,93,342!2023-02-09,76,342!2023-09-04,236,347-->
 
 > {{benzene derivative}}
 > - group: {{phenyl}}
@@ -562,7 +562,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,74,280!2023-06-17,148,280!2023-01-21,57,321!2023-02-13,24,222!2023-03-01,93,342!2023-02-26,90,342-->
+> - infix: {{(locant)}} <!--SR:!2023-02-23,74,280!2023-06-17,148,280!2023-07-26,185,321!2023-02-13,24,222!2023-03-01,93,342!2023-02-26,90,342-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -604,7 +604,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-01-22,60,328!2023-01-30,49,268!2023-02-22,86,348-->
+> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-08-15,205,328!2023-01-30,49,268!2023-02-22,86,348-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
