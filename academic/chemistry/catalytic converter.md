@@ -17,4 +17,4 @@ __Catalytic converter__ is a {{device that converts toxic pollutants into less-t
 {{Carbon, hydrocarbons, and carbon monoxide}} are oxidized to {{[carbon dioxide](carbon%20dioxide.md)}}.
 > - {{C + O<sub>2</sub> → CO<sub>2</sub>}}
 > - {{CO + $\frac{1}{2}$O<sub>2</sub> → CO<sub>2</sub>}}
-> - {{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2023-06-16,285,270!2023-01-23,214,310!2023-05-28,271,270!2023-03-07,262,310!2023-10-04,322,233-->
+> - {{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2023-06-16,285,270!2024-11-19,665,310!2023-05-28,271,270!2023-03-07,262,310!2023-10-04,322,233-->
