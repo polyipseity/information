@@ -1,19 +1,28 @@
 {
-  "command": true,
-  "contextMenu": true,
+  "addToCommand": true,
+  "addToContextMenu": true,
   "enableWindowsConhostWorkaround": true,
+  "errorNoticeTimeout": 0,
   "executables": {
     "darwin": {
-      "args": [],
-      "name": "/bin/zsh"
+      "extArgs": [
+        "$PWD"
+      ],
+      "extExe": "/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal",
+      "intArgs": [],
+      "intExe": "/bin/zsh"
     },
     "linux": {
-      "args": [],
-      "name": "/bin/sh"
+      "extArgs": [],
+      "extExe": "xterm",
+      "intArgs": [],
+      "intExe": "/bin/sh"
     },
     "win32": {
-      "args": [],
-      "name": "pwsh"
+      "extArgs": [],
+      "extExe": "pwsh",
+      "intArgs": [],
+      "intExe": "pwsh"
     }
   },
   "hideStatusBar": "focused",
