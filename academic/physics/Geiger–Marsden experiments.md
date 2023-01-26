@@ -10,7 +10,7 @@ The __{{Geiger–Marsden}} experiments__ (also known as the __{{Rutherford}} gol
 
 ## experiment
 
-A thin gold foil are {{bombarded by [alpha particles](alpha%20particle.md) in an evacuated chamber}}. The {{deflection angles}} are recorded. <!--SR:!2023-02-02,15,230!2023-01-26,34,270-->
+A thin gold foil are {{bombarded by [alpha particles](alpha%20particle.md) in an evacuated chamber}}. The {{deflection angles}} are recorded. <!--SR:!2023-02-02,15,230!2023-06-02,127,290-->
 
 ### results
 
