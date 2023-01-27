@@ -28,5 +28,6 @@
   "hideStatusBar": "focused",
   "language": "",
   "noticeTimeout": 5,
+  "preferredRenderer": "webgl",
   "pythonExecutable": "python3"
 }
