@@ -1,6 +1,6 @@
-#flashcards/general/keyboard_shortcuts/Blender_keyboard_shortcuts #general/keyboard_shortcuts
+#flashcards/general/keybindings/Blender_keybindings #general/keybindings
 
-# Blender keyboard shortcuts
+# Blender keybindings
 
 See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keymap/blender_default.html).
 

@@ -1,6 +1,6 @@
-#flashcards/general/keyboard_shortcuts/Windows_keyboard_shortcuts #general/keyboard_shortcuts
+#flashcards/general/keybindings/Windows_keybindings #general/keybindings
 
-# Windows keyboard shortcuts
+# Windows keybindings
 
 ## window management
 
