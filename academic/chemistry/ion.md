@@ -204,7 +204,7 @@ __env__.result = gen.Results(
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2023-03-14,337,350!2023-04-10,359,354-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-08-05,202,230!2025-02-15,770,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2024-02-24,536,314-->
-12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2023-01-28,300,339!2023-04-01,350,345-->
+12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2026-11-28,1400,359!2023-04-01,350,345-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2023-03-15,335,339!2023-10-22,426,290-->
 14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2023-02-19,318,347!2024-09-24,705,334-->
 15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2024-07-29,595,273!2023-05-10,184,253-->
@@ -241,7 +241,7 @@ __env__.result = gen.Results(
 18. cobalt(II) ion::2+ <!--SR:!2023-02-08,311,352-->
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
-21. chromium(III) ion::3+ <!--SR:!2023-01-27,299,338-->
+21. chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -375,7 +375,7 @@ __env__.result = gen.Results(
 10. hydrogensulfite ion::colorless <!--SR:!2023-07-29,341,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-02-16,434,250-->
-13. oxide ion::_(n/a)_ <!--SR:!2023-01-27,55,276-->
+13. oxide ion::_(n/a)_ <!--SR:!2023-07-04,157,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2023-05-28,132,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
