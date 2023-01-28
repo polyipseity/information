@@ -1,10 +1,12 @@
-#flashcards/general/keybindings/Blender_keybindings #general/keybindings
+#flashcards/general/usage/Blender_usage #general/usage
 
-# Blender keybindings
+# Blender usage
 
 See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keymap/blender_default.html).
 
-## global
+## keybindings
+
+### global
 
 - open file:::Ctrl+O
 - save file:::Ctrl+S
@@ -25,12 +27,12 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - play/tools/search:::Space
 - reverse playback:::⇧Shift+Ctrl+Space
 
-## editing
+### editing
 
 - delete w/ confirmation:::X
 - delete w/o confirmation:::Delete
 
-## editor
+### editor
 
 - select all:::A
 - select none:::Alt+A
@@ -40,7 +42,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle toolbar:::T
 - toggle sidebar:::N
 
-## 3D viewport
+### 3D viewport
 
 - toggle edit mode:::Tab↹
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹

@@ -1,8 +1,10 @@
-#flashcards/general/keybindings/Windows_keybindings #general/keybindings
+#flashcards/general/usage/Windows_usage #general/usage
 
-# Windows keybindings
+# Windows usage
 
-## window management
+## keybindings
+
+### window management
 
 - pop up window menu:::Alt+Space
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul>
