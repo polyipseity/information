@@ -1,8 +1,10 @@
-#flashcards/general/keybindings/Windows_keybindings #general/keybindings
+#flashcards/general/usage/Windows_usage #general/usage
 
-# Windows keybindings
+# Windows usage
 
-## window management
+## keybindings
+
+### window management
 
 - pop up window menu:::Alt+Space <!--SR:!2023-02-07,18,250!2023-02-11,22,250-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-02-04,17,250!2023-03-04,35,250-->

@@ -1,10 +1,12 @@
-#flashcards/general/keybindings/Blender_keybindings #general/keybindings
+#flashcards/general/usage/Blender_usage #general/usage
 
-# Blender keybindings
+# Blender usage
 
 See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keymap/blender_default.html).
 
-## global
+## keybindings
+
+### global
 
 - open file:::Ctrl+O <!--SR:!2023-03-11,46,295!2023-03-12,46,296-->
 - save file:::Ctrl+S <!--SR:!2023-01-30,17,296!2023-04-03,65,316-->
@@ -25,12 +27,12 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - play/tools/search:::Space <!--SR:!2023-03-03,37,276!2023-03-06,39,276-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-02-04,17,250!2023-01-31,11,255-->
 
-## editing
+### editing
 
 - delete w/ confirmation:::X <!--SR:!2023-02-28,37,290!2023-03-01,38,296-->
 - delete w/o confirmation:::Delete <!--SR:!2023-02-25,34,290!2023-03-05,38,276-->
 
-## editor
+### editor
 
 - select all:::A <!--SR:!2023-02-06,17,256!2023-03-20,53,296-->
 - select none:::Alt+A <!--SR:!2023-02-04,17,256!2023-02-10,21,256-->
@@ -40,7 +42,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-02-25,32,276-->
 - toggle sidebar:::N <!--SR:!2023-02-10,21,256!2023-02-05,14,236-->
 
-## 3D viewport
+### 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2023-02-28,34,270!2023-01-29,16,296-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-01-30,14,256!2023-02-01,10,236-->
