@@ -14,7 +14,7 @@ __Electromagnetic radiation__ (__EMR__) is {{a wave of the [electromagnetic fiel
 
 {{The [electric field](electric%20field.md) and the [magnetic field](magnetic%20field.md)}} in the electromagnetic radiation {{oscillates perpendicularly in sync}}. <!--SR:!2023-03-14,66,250!2023-03-20,72,250-->
 
-{{[Electric charges](electric%20charge.md) are vibrated}} by the electric field in the radiation. <!--SR:!2023-01-29,37,230-->
+{{[Electric charges](electric%20charge.md) are vibrated}} by the electric field in the radiation. <!--SR:!2023-04-22,83,230-->
 
 ## interactions
 

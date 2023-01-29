@@ -207,7 +207,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2023-02-28,92,342-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2023-05-10,115,302-->
-3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2023-01-29,62,325-->
+3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2023-08-19,202,325-->
 4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2023-02-11,78,342!2023-05-06,125,305-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -707,10 +707,10 @@ __env__.result = gen.Results(
 1. _(highest)_→:::←cation <!--SR:!2023-02-02,251,324!2023-07-17,394,352-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2023-07-19,331,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2023-04-03,289,326-->
-4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2023-01-29,219,267-->
+4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-02-03,77,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->
-7. ketone→:::←alcohol <!--SR:!2023-02-10,45,190!2023-01-29,33,190-->
+7. ketone→:::←alcohol <!--SR:!2023-02-10,45,190!2023-02-15,17,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2023-04-01,95,236!2023-04-02,99,247-->
