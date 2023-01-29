@@ -4,12 +4,12 @@
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\]::::h\[elp\] \[subject\], \<F1\>, \<Help\>
+- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul>
 
 ## autocomplete
-- next autocomplete:::\<Tab\>
-- previous autocomplete:::\<Ctrl\>+P
-- list possibilities:::\<Ctrl\>+D
+- cycle forward:::\<Tab\>
+- cycle backward:::\<Ctrl\>+P
+- show possibilities:::\<Ctrl\>+D
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN
@@ -29,8 +29,8 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\>
-- quit current bufferdiscard changes::::q\[uit\]!\<Enter\>
-- delete under cursor:::x/Delete
+- quit current buffer, discard changes::::q\[uit\]!\<Enter\>
+- delete under cursor:::<ul><li>x</li><li>Delete</li></ul>
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\>
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\>
 
@@ -71,11 +71,11 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search reversed:::N
 - repeat last search forward:::/\<Enter\>
 - repeat last search backward:::?\<Enter\>
-- substitute in (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\>
+- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\>
 
 ## command
 - show path and cursor position:::\<Ctrl\>+g
-- execute (command)::::!(command)\<Enter\>
+- execute (command) in shell::::!(command)\<Enter\>
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\>
