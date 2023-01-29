@@ -4,9 +4,17 @@
 
 See also [Vim help files](https://vimhelp.org/).
 
-## normal mode
+- help with \[subject\]::::h\[elp\] \[subject\], \<F1\>, \<Help\>
 
-### motion
+## autocomplete
+- next autocomplete:::\<Tab\>
+- previous autocomplete:::\<Ctrl\>+P
+- list possibilities:::\<Ctrl\>+D
+
+## pattern
+- repeat (N=1) times:::(N) ^repeatN
+
+## motion
 - left:::\[[repeat N](#^repeatN)\]h
 - down:::\[[repeat N](#^repeatN)\]j
 - up:::\[[repeat N](#^repeatN)\]k
@@ -19,38 +27,63 @@ See also [Vim help files](https://vimhelp.org/).
 - line \[N=1\]:::\[N\]gg
 - matching character:::%
 
-### writing and quiting
-- quit current buffer::::q\[uit\]&lt;Enter&gt;
-- quit current bufferdiscard changes::::q\[uit\]!&lt;Enter&gt;
+## write and quit
+- quit current buffer::::q\[uit\]\<Enter\>
+- quit current bufferdiscard changes::::q\[uit\]!\<Enter\>
 - delete under cursor:::x/Delete
-- [insert](#insert%20mode) before cursor:::i
-- [insert](#insert%20mode) after cursor:::a
-- write and quit::::wq[!]&lt;Enter&gt;
+- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\>
+- write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\>
 
-### editing
+## insert
+- leave insert mode:::\<Esc\>
+- insert before cursor:::\[[repeat N](#^repeatN)\]i
+- insert after cursor:::\[[repeat N](#^repeatN)\]a
+- insert after end of line:::\[[repeat N](#^repeatN)\]A
+- change text from cursor to ([motion](#motion)):::c([motion](#motion))
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o
+- insert lines above cursor:::\[[repeat N](#^repeatN)\]O
+
+## replace
+- exit replace mode:::([replace](#replace))\<Esc\>
+- replace with (char):::\[[repeat N](#^repeatN)\]r(char)
+- enter replace mode:::\[[repeat N](#^repeatN)\]R
+
+## visual
+- exit visual mode:::([visual](#visual))\<Esc\>
+- highlight characters:::v
+- highlight lines:::V
+- highlight block:::\<Ctrl\>+v
+- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y
+
+## edit
 - delete from cursor to ([motion](#motion)):::d([motion](#motion))
-- delete line(s):::\[[repeat N](#^repeatN)\]dd
+- delete lines:::\[[repeat N](#^repeatN)\]dd
 - undo:::\[[repeat N](#^repeatN)\]u
 - restore last changed line:::U
-- paste after cursor:::\[[repeat N](#^repeatN)\]p
-- paste before cursor:::\[[repeat N](#^repeatN)\]P
-- replace with (char):::\[[repeat N](#^repeatN)\]r(char)
-- change text from cursor to ([motion](#motion)):::c([motion](#motion))
+- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion)
+- paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p
+- paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P
 
-### searching and substitution
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]&lt;Enter&gt;
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]&lt;Enter&gt;
+## search and substitute
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\>
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\>
 - repeat last search:::n
 - repeat last search reversed:::N
-- repeat last search forward:::/&lt;Enter&gt;
-- repeat last search backward:::?&lt;Enter&gt;
-- substitute in (pattern) with (string) in \[range=.\] with \[flags\	]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]&lt;Enter&gt;
+- repeat last search forward:::/\<Enter\>
+- repeat last search backward:::?\<Enter\>
+- substitute in (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\>
 
-### pattern
-- repeat (N=1) time(s):::(N) ^repeatN
+## command
+- show path and cursor position:::\<Ctrl\>+g
+- execute (command)::::!(command)\<Enter\>
 
-### commands
+## options
+- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\>
+- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\>
+- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\>
+- invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\>
 
-
-## insert mode
-- leave [insert mode](#insert%20mode):::Esc
+### list of options
+- ignorecase, ic:::ignore case in search
+- incsearch, is:::highlight while typing search
+- hlsearch, hls:::highlight last search matches
