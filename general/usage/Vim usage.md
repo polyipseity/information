@@ -4,12 +4,12 @@
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\]::::h\[elp\] \[subject\], \<F1\>, \<Help\> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
+- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
 
 ## autocomplete
-- next autocomplete:::\<Tab\> <!--SR:!2023-02-02,4,288!2023-02-02,4,288-->
-- previous autocomplete:::\<Ctrl\>+P <!--SR:!2023-02-02,4,288!2023-02-01,3,268-->
-- list possibilities:::\<Ctrl\>+D <!--SR:!2023-02-01,3,253!2023-02-02,4,288-->
+- cycle forward:::\<Tab\> <!--SR:!2023-02-02,4,288!2023-02-02,4,288-->
+- cycle backward:::\<Ctrl\>+P <!--SR:!2023-02-02,4,288!2023-02-01,3,268-->
+- show possibilities:::\<Ctrl\>+D <!--SR:!2023-02-01,3,253!2023-02-02,4,288-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-02-02,4,273!2023-02-02,4,288-->
@@ -29,8 +29,8 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
-- quit current bufferdiscard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
-- delete under cursor:::x/Delete <!--SR:!2023-02-02,4,287!2023-02-02,4,288-->
+- quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
+- delete under cursor:::<ul><li>x</li><li>Delete</li></ul> <!--SR:!2023-02-02,4,287!2023-02-02,4,288-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,288-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,288-->
 
@@ -71,11 +71,11 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search reversed:::N <!--SR:!2023-02-02,4,273!2023-02-01,3,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-01,3,253-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-02-01,3,253!2023-02-01,3,268-->
-- substitute in (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-02-01,3,253!2023-02-02,4,273-->
+- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-02-01,3,253!2023-02-02,4,273-->
 
 ## command
 - show path and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-01,3,268!2023-02-01,3,268-->
-- execute (command)::::!(command)\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
+- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,273-->
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-02-02,4,273!2023-02-02,4,287-->
