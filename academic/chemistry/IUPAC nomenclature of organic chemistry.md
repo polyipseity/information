@@ -225,7 +225,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2023-03-07,197,250!2023-05-15,133,302-->
 2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2023-08-30,314,292!2023-05-13,132,307-->
-3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2023-08-12,196,320!2023-01-30,63,322-->
+3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2023-08-12,196,320!2023-03-07,36,302-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -534,7 +534,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-01-30,23,280!2023-02-14,43,281!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
+> - infix: {{(locant)}} <!--SR:!2023-04-06,66,280!2023-02-14,43,281!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}
@@ -604,7 +604,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-08-15,205,328!2023-01-30,49,268!2023-02-22,86,348-->
+> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-02-20,84,348!2023-02-22,86,348!2023-08-15,205,328!2023-02-27,28,248!2023-02-22,86,348-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

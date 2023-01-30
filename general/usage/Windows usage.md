@@ -26,5 +26,5 @@
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-02-12,23,250!2023-02-02,15,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-02-01,10,210!2023-02-08,19,250-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-01-31,14,230!2023-02-09,20,250-->
-- peek at desktop:::⊞Win+Comma <!--SR:!2023-01-30,14,250!2023-02-12,23,250-->
+- peek at desktop:::⊞Win+Comma <!--SR:!2023-02-08,9,230!2023-02-12,23,250-->
 - manage external displays:::⊞Win+P <!--SR:!2023-02-12,23,250!2023-02-03,14,230-->
