@@ -9,7 +9,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### global
 
 - open file:::Ctrl+O <!--SR:!2023-03-11,46,295!2023-03-12,46,296-->
-- save file:::Ctrl+S <!--SR:!2023-01-30,17,296!2023-04-03,65,316-->
+- save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2023-04-03,65,316-->
 - new file:::Ctrl+N <!--SR:!2023-02-03,16,250!2023-03-08,43,296-->
 - undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-03-08,43,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-03-05,40,290!2023-02-02,15,256-->
@@ -45,9 +45,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2023-02-28,34,270!2023-03-21,51,296-->
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-01-30,14,256!2023-02-01,10,236-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-03-08,37,256!2023-02-01,10,236-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-03-02,39,296!2023-03-09,44,296-->
-	- +multiple modes:::+⇧Shift <!--SR:!2023-02-19,28,270!2023-01-30,17,296-->
+	- +multiple modes:::+⇧Shift <!--SR:!2023-02-19,28,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-02-20,29,276!2023-02-04,17,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-02-07,18,250!2023-02-14,23,256-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-02-02,7,175-->
