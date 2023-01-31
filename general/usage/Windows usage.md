@@ -9,9 +9,9 @@
 - pop up window menu:::Alt+Space <!--SR:!2023-02-07,18,250!2023-02-11,22,250-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-02-04,17,250!2023-03-04,35,250-->
 - restore window size:::Alt+Space, R <!--SR:!2023-02-01,14,250!2023-02-01,12,230-->
-- move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-01-31,13,250!2023-03-15,45,290-->
-- resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-01-31,15,250!2023-02-04,17,250-->
-- move window to bottom:::Alt+Esc <!--SR:!2023-01-31,13,230!2023-02-03,16,250-->
+- move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-03-09,37,250!2023-03-15,45,290-->
+- resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-02-09,9,230!2023-02-04,17,250-->
+- move window to bottom:::Alt+Esc <!--SR:!2023-03-06,34,230!2023-02-03,16,250-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-02-04,15,250!2023-02-09,20,250-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-02-04,13,230!2023-02-08,19,250-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2023-02-18,27,250!2023-03-06,37,230-->
@@ -25,6 +25,6 @@
 - close dialog:::Esc <!--SR:!2023-03-30,61,310!2023-02-11,22,250-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-02-12,23,250!2023-02-02,15,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-02-01,10,210!2023-02-08,19,250-->
-- cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-01-31,14,230!2023-02-09,20,250-->
+- cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-03-08,36,230!2023-02-09,20,250-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2023-02-08,9,230!2023-02-12,23,250-->
 - manage external displays:::⊞Win+P <!--SR:!2023-02-12,23,250!2023-02-03,14,230-->

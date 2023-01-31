@@ -17,15 +17,15 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - help:::F1 <!--SR:!2023-03-05,42,290!2023-03-16,49,290-->
 - rename active:::F2 <!--SR:!2023-02-11,22,256!2023-02-02,13,236-->
 - menu search:::F3 <!--SR:!2023-03-02,36,276!2023-03-17,50,296-->
-- file context menu:::F4 <!--SR:!2023-01-31,15,250!2023-02-11,20,276-->
+- file context menu:::F4 <!--SR:!2023-02-10,10,230!2023-02-11,20,276-->
 - show render window:::F11 <!--SR:!2023-02-01,12,255!2023-02-03,14,256-->
 - render:::F12 <!--SR:!2023-02-19,28,276!2023-03-07,42,296-->
-- quick access:::Q <!--SR:!2023-02-08,19,250!2023-01-31,11,250-->
+- quick access:::Q <!--SR:!2023-02-08,19,250!2023-02-07,7,230-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-02-05,7,170!2023-02-09,20,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-04,11,190!2023-02-05,12,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-02-09,12,250!2023-02-27,33,276-->
 - play/tools/search:::Space <!--SR:!2023-03-03,37,276!2023-03-06,39,276-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-02-04,17,250!2023-01-31,11,255-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-02-04,17,250!2023-02-06,6,235-->
 
 ### editing
 
