@@ -8,8 +8,8 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 - cycle forward:::\<Tab\>
-- cycle backward:::\<Ctrl\>+P
-- show possibilities:::\<Ctrl\>+D
+- cycle backward:::\<Ctrl\>+p
+- show possibilities:::\<Ctrl\>+d
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN
@@ -35,7 +35,7 @@ See also [Vim help files](https://vimhelp.org/).
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\>
 
 ## insert
-- leave insert mode:::\<Esc\>
+- quit insert mode:::\<Esc\>
 - insert before cursor:::\[[repeat N](#^repeatN)\]i
 - insert after cursor:::\[[repeat N](#^repeatN)\]a
 - insert after end of line:::\[[repeat N](#^repeatN)\]A
