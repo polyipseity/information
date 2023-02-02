@@ -12,10 +12,10 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2023-04-03,65,316-->
 - new file:::Ctrl+N <!--SR:!2023-02-03,16,250!2023-03-08,43,296-->
 - undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-03-08,43,296-->
-- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-03-05,40,290!2023-02-02,15,256-->
+- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-03-05,40,290!2023-02-12,10,236-->
 - quit:::Ctrl+Q <!--SR:!2023-03-06,41,290!2023-02-06,20,276-->
 - help:::F1 <!--SR:!2023-03-05,42,290!2023-03-16,49,290-->
-- rename active:::F2 <!--SR:!2023-02-11,22,256!2023-02-02,13,236-->
+- rename active:::F2 <!--SR:!2023-02-11,22,256!2023-02-08,6,216-->
 - menu search:::F3 <!--SR:!2023-03-02,36,276!2023-03-17,50,296-->
 - file context menu:::F4 <!--SR:!2023-02-10,10,230!2023-02-11,20,276-->
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-02-03,14,256-->
@@ -50,4 +50,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 	- +multiple modes:::+⇧Shift <!--SR:!2023-02-19,28,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-02-20,29,276!2023-02-04,17,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-02-07,18,250!2023-02-14,23,256-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-02-02,7,175-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-02-16,14,175-->
