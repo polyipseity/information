@@ -8,8 +8,8 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-02-20,18,308!2023-02-15,13,288-->
-- cycle backward:::\<Ctrl\>+P <!--SR:!2023-02-16,14,288!2023-02-09,8,268-->
-- show possibilities:::\<Ctrl\>+D <!--SR:!2023-02-03,2,233!2023-02-16,14,288-->
+- cycle backward:::\<Ctrl\>+p <!--SR:!2023-02-16,14,288!2023-02-09,8,268-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-02-03,2,233!2023-02-16,14,288-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-02-04,2,253!2023-02-20,18,308-->
@@ -35,7 +35,7 @@ See also [Vim help files](https://vimhelp.org/).
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-02-19,17,293!2023-02-20,18,308-->
 
 ## insert
-- leave insert mode:::\<Esc\> <!--SR:!2023-02-18,16,293!2023-02-19,17,293-->
+- quit insert mode:::\<Esc\> <!--SR:!2023-02-18,16,293!2023-02-19,17,293-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-02-14,13,273!2023-02-17,15,308-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-02-18,16,293!2023-02-16,14,288-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-02-08,7,253!2023-02-19,17,293-->
