@@ -8,7 +8,7 @@ aliases: ['Rutherford–Bohr model',]
 
 The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-02-06,39,270!2023-03-03,55,290!2023-02-11,12,170!2023-02-15,47,290!2023-02-04,13,232!2023-03-03,60,312!2023-02-03,4,212-->
 
-The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-02-11,29,232!2023-02-02,34,272-->
+The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-02-11,29,232!2023-05-01,88,272-->
 
 ## postulates
 
@@ -31,7 +31,7 @@ We can get the radius in terms of $n$:
 and energy in terms of $n$:
 {{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-03-08,60,294!2023-03-16,50,274!2023-02-27,50,294!2023-02-19,43,294!2023-02-14,38,274!2023-03-27,62,274!2023-04-12,74,274!2023-02-09,10,214!2023-03-12,51,274-->
 
-From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-02-02,31,279!2023-02-15,39,279-->
+From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-04-29,86,279!2023-02-15,39,279-->
 
 ## Rydberg formula
 
