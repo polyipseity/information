@@ -56,7 +56,7 @@ for rdx in data:
 	data_by_element[rdx.element] = data_by_element.get(rdx.element, ()) + (rdx,)
 data_by_element = types.MappingProxyType(data_by_element)
 
-table: str = gen.affix_lines(f''' 
+table: str = gen.common.quotette(f''' 
 (lowest oxidizing power/highest reducing power)
 
 {gen.common.rows_to_table(data,
@@ -77,7 +77,7 @@ elements: gen.TextCode = gen.TextCode.compile(
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('230419'),
-		text=gen.common.text(table),
+		text=table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('9209fd'),

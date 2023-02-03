@@ -446,7 +446,7 @@ map: typing.Mapping[str, typing.Mapping[str, str]] = {
 		**group.misc,
 	} for group in data
 }
-table: str = gen.affix_lines(
+table: str = gen.common.quotette(
 	gen.common.rows_to_table(data,
 		names=('class', 'group', 'formula', 'prefix', 'suffix', 'infix', 'misc',),
 		values=lambda group: (group.clazz, group.group, group.formula, group.prefix, group.suffix, group.infix,
@@ -460,7 +460,7 @@ text: gen.TextCode = gen.common.maps_to_code(map,
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('28dcee'),
-		text=gen.common.text(table),
+		text=table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('a39fd2'),

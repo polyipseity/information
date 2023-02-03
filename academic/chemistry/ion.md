@@ -82,7 +82,7 @@ class Section(typing.NamedTuple):
 		rows: typing.Iterable[Ion]
 		)-> typing.Self:
 		return cls(
-			table=gen.affix_lines(gen.common.rows_to_table(rows,
+			table=gen.common.quotette(gen.common.rows_to_table(rows,
 					names=('name', 'symbol', 'charage', 'color'),
 					values=util.identity,
 				),
@@ -107,7 +107,7 @@ anion_sect: Section = Section.from_rows(anions)
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('d9192d'),
-		text=gen.common.text(cation_sect.table),
+		text=cation_sect.table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('3928fd'),
@@ -132,7 +132,7 @@ __env__.result = gen.Results(
 	),
 	gen.Result(
 		location=__env__.cwf_section('a9fdfe'),
-		text=gen.common.text(anion_sect.table),
+		text=anion_sect.table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('2fde12'),
