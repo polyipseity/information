@@ -12,7 +12,7 @@ class pHRanges(typing.NamedTuple):
 
 	@property
 	def table(self: typing.Self) -> str:
-		return gen.affix_lines(
+		return gen.common.quotette(
 			gen.common.rows_to_table(self.data.items(),
 				names=('pH', 'color',),
 				values=util.identity,),
@@ -51,7 +51,7 @@ phenolphthalein: pHRanges = pHRanges({
 __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a9208f'),
-		text=gen.common.text(methyl_orange.table),
+		text=methyl_orange.table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('d82740'),
@@ -68,7 +68,7 @@ __env__.result = gen.Results(
 	),
 	gen.Result(
 		location=__env__.cwf_section('2acde1'),
-		text=gen.common.text(litmus.table),
+		text=litmus.table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('f25a99'),
@@ -85,7 +85,7 @@ __env__.result = gen.Results(
 	),
 	gen.Result(
 		location=__env__.cwf_section('5c8883'),
-		text=gen.common.text(phenolphthalein.table),
+		text=phenolphthalein.table,
 	),
 	gen.Result(
 		location=__env__.cwf_section('155d9a'),
