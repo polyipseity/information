@@ -306,7 +306,7 @@ __env__.result = gen.Results(
 
 1. 1:::(none) <!--SR:!2024-05-18,635,330!2026-03-10,1157,356-->
 2. 2:::di- <!--SR:!2023-10-04,408,310!2026-02-11,1107,342-->
-3. 3:::tri- <!--SR:!2025-03-16,784,310!2023-02-04,253,324-->
+3. 3:::tri- <!--SR:!2025-03-16,784,310!2026-03-11,1131,344-->
 4. 4/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-02-16,240,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -548,7 +548,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2023-02-12,79,342!2023-02-28,27,202!2023-08-13,197,325!2023-02-04,71,347-->
+> - infix: {{(locant)}} <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2023-02-12,79,342!2023-02-28,27,202!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
@@ -708,7 +708,7 @@ __env__.result = gen.Results(
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2023-07-19,331,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2023-04-03,289,326-->
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2024-09-05,585,267-->
-5. nitrile→:::←aldehyde <!--SR:!2023-02-03,77,230!2023-11-12,364,250-->
+5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->
 7. ketone→:::←alcohol <!--SR:!2023-02-10,45,190!2023-02-15,17,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2023-03-15,205,226!2023-11-17,393,272-->
