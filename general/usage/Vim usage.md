@@ -9,13 +9,13 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-02-20,18,308!2023-02-15,13,288-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-02-16,14,288!2023-02-09,8,268-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-02-03,2,233!2023-02-16,14,288-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-02-09,5,233!2023-02-16,14,288-->
 
 ## pattern
-- repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-02-04,2,253!2023-02-20,18,308-->
+- repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-02-12,8,273!2023-02-20,18,308-->
 
 ## motion
-- left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-02-20,18,308!2023-02-03,2,248-->
+- left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-02-20,18,308!2023-02-16,12,268-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-02-19,17,293!2023-02-16,14,288-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-02-11,10,250!2023-02-09,8,267-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-02-20,18,308!2023-02-20,18,308-->
@@ -28,7 +28,7 @@ See also [Vim help files](https://vimhelp.org/).
 - matching character:::% <!--SR:!2023-02-09,8,253!2023-02-17,15,293-->
 
 ## write and quit
-- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-02-17,15,293!2023-02-04,2,253-->
+- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-02-17,15,293!2023-02-13,9,273-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-02-17,15,293!2023-02-15,13,273-->
 - delete under cursor:::<ul><li>x</li><li>Delete</li></ul> <!--SR:!2023-02-18,16,307!2023-02-16,14,288-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-20,18,308-->
@@ -40,7 +40,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-02-18,16,293!2023-02-16,14,288-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-02-08,7,253!2023-02-19,17,293-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-02-11,10,253!2023-02-15,13,273-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-02-10,9,253!2023-02-04,2,253-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-02-10,9,253!2023-02-12,8,273-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-02-14,13,273!2023-02-15,13,273-->
 
 ## replace
@@ -50,7 +50,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-02-20,18,308!2023-02-20,18,308-->
-- highlight characters:::v <!--SR:!2023-02-04,2,268!2023-02-13,12,288-->
+- highlight characters:::v <!--SR:!2023-02-13,9,288!2023-02-13,12,288-->
 - highlight lines:::V <!--SR:!2023-02-11,10,253!2023-02-16,14,288-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-02-11,10,253!2023-02-20,18,308-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-02-15,13,273!2023-02-16,14,288-->
@@ -58,23 +58,23 @@ See also [Vim help files](https://vimhelp.org/).
 ## edit
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-02-18,16,290!2023-02-19,17,293-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-02-18,16,293!2023-02-16,14,288-->
-- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-02-04,2,253!2023-02-18,16,293-->
-- restore last changed line:::U <!--SR:!2023-02-17,15,293!2023-02-03,2,248-->
+- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-02-12,8,273!2023-02-18,16,293-->
+- restore last changed line:::U <!--SR:!2023-02-17,15,293!2023-02-15,11,268-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-02-11,10,253!2023-02-20,18,308-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-02-15,13,287!2023-02-20,18,308-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-02-19,17,293!2023-02-15,13,287-->
 
 ## search and substitute
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-03,2,233-->
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-10,6,233-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-02-09,8,250!2023-02-16,14,288-->
 - repeat last search:::n <!--SR:!2023-02-19,17,293!2023-02-16,14,288-->
-- repeat last search reversed:::N <!--SR:!2023-02-04,2,253!2023-02-03,2,248-->
+- repeat last search reversed:::N <!--SR:!2023-02-13,9,273!2023-02-16,12,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-11,10,253-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-02-10,9,253!2023-02-10,9,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-02-09,8,253!2023-02-19,17,293-->
 
 ## command
-- show path and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-10,9,268!2023-02-03,2,248-->
+- show path and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-10,9,268!2023-02-05,1,228-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-02-18,16,293!2023-02-17,15,293-->
 
 ## options
