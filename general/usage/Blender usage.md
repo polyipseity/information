@@ -21,8 +21,8 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-02-19,28,276!2023-03-07,42,296-->
 - quick access:::Q <!--SR:!2023-02-08,19,250!2023-02-07,7,230-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-02-05,7,170!2023-02-09,20,256-->
-- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-02-05,12,196-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-02-09,4,150!2023-02-09,20,256-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-02-09,12,250!2023-02-27,33,276-->
 - play/tools/search:::Space <!--SR:!2023-03-03,37,276!2023-03-06,39,276-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-02-06,6,235-->
@@ -40,7 +40,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - hide selection:::H <!--SR:!2023-02-27,26,230!2023-02-26,33,270-->
 - reveal hidden:::Alt+H <!--SR:!2023-02-12,23,250!2023-02-17,24,256-->
 - toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-02-25,32,276-->
-- toggle sidebar:::N <!--SR:!2023-02-10,21,256!2023-02-05,14,236-->
+- toggle sidebar:::N <!--SR:!2023-02-10,21,256!2023-03-12,35,236-->
 
 ### 3D viewport
 
