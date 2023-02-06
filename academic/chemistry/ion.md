@@ -194,7 +194,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-06T20:13:24.273182+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
-2. sodium ion:::Na<sup>+</sup> <!--SR:!2023-02-06,309,350!2023-03-17,340,353-->
+2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2023-03-17,340,353-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2023-04-06,353,339!2023-04-20,367,353-->
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2023-02-09,308,339!2024-01-31,376,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
@@ -265,7 +265,7 @@ __env__.result = gen.Results(
 14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-02-20,18,150-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-02,308,230-->
-17. mercury(II) ion::_(n/a)_ <!--SR:!2023-02-06,54,256-->
+17. mercury(II) ion::_(n/a)_ <!--SR:!2023-06-26,140,256-->
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2024-03-03,461,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
