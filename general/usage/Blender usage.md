@@ -13,7 +13,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-03-08,43,296-->
 - undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-03-08,43,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-03-05,40,290!2023-02-12,10,236-->
-- quit:::Ctrl+Q <!--SR:!2023-03-06,41,290!2023-02-06,20,276-->
+- quit:::Ctrl+Q <!--SR:!2023-03-06,41,290!2023-04-27,80,296-->
 - help:::F1 <!--SR:!2023-03-05,42,290!2023-03-16,49,290-->
 - rename active:::F2 <!--SR:!2023-02-11,22,256!2023-02-08,6,216-->
 - menu search:::F3 <!--SR:!2023-03-02,36,276!2023-03-17,50,296-->
@@ -25,7 +25,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-02-09,12,250!2023-02-27,33,276-->
 - play/tools/search:::Space <!--SR:!2023-03-03,37,276!2023-03-06,39,276-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-02-06,6,235-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-02-09,3,215-->
 
 ### editing
 
@@ -34,7 +34,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editor
 
-- select all:::A <!--SR:!2023-02-06,17,256!2023-03-20,53,296-->
+- select all:::A <!--SR:!2023-04-11,64,276!2023-03-20,53,296-->
 - select none:::Alt+A <!--SR:!2023-02-15,11,236!2023-02-10,21,256-->
 - invert selection:::Ctrl+I <!--SR:!2023-02-09,20,250!2023-02-20,29,276-->
 - hide selection:::H <!--SR:!2023-02-27,26,230!2023-02-26,33,270-->

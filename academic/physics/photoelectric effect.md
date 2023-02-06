@@ -6,7 +6,7 @@ aliases: ['photoemission',]
 
 # photoelectric effect
 
-The __photoelectric effect__ is {{the ejection of [electrons](electron.md) from a material when [electromagnetic radiation](electromagnetic%20radiation.md) strikes it}}. <!--SR:!2023-02-06,19,250-->
+The __photoelectric effect__ is {{the ejection of [electrons](electron.md) from a material when [electromagnetic radiation](electromagnetic%20radiation.md) strikes it}}. <!--SR:!2023-02-18,12,230-->
 
 ## observation
 
