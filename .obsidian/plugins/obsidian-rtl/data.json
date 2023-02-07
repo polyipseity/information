@@ -4,5 +4,5 @@
   "rememberPerFile": false,
   "setNoteTitleDirection": true,
   "setYamlDirection": true,
-  "statusBar": true
+  "statusBar": false
 }
