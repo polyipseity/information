@@ -6,7 +6,7 @@
 
 ### window management
 
-- pop up window menu:::Alt+Space <!--SR:!2023-02-07,18,250!2023-02-11,22,250-->
+- pop up window menu:::Alt+Space <!--SR:!2023-03-28,49,250!2023-02-11,22,250-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-04-07,62,270!2023-03-04,35,250-->
 - restore window size:::Alt+Space, R <!--SR:!2023-03-12,39,250!2023-03-05,32,230-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-03-09,37,250!2023-03-15,45,290-->
