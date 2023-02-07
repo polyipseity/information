@@ -20,7 +20,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - file context menu:::F4 <!--SR:!2023-02-10,10,230!2023-02-11,20,276-->
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-02-19,28,276!2023-03-07,42,296-->
-- quick access:::Q <!--SR:!2023-02-08,19,250!2023-02-07,7,230-->
+- quick access:::Q <!--SR:!2023-02-08,19,250!2023-02-25,18,230-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-02-09,4,150!2023-02-09,20,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-02-09,12,250!2023-02-27,33,276-->
@@ -49,5 +49,5 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-03-02,39,296!2023-03-09,44,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-02-19,28,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-02-20,29,276!2023-03-19,43,256-->
-- toggle gizmos:::Ctrl+\` <!--SR:!2023-02-07,18,250!2023-02-14,23,256-->
+- toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-02-14,23,256-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-02-16,14,175-->
