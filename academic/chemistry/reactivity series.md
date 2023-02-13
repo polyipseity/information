@@ -135,7 +135,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-20,182,250!2023-02-10,172,250!2023-07-29,282,250!2023-02-19,181,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-20,182,250!2023-05-08,85,230!2023-07-29,282,250!2023-02-19,181,250-->
 
 > aluminium
 > - reaction with air: {{burn}}

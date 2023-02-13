@@ -8,24 +8,24 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-02-20,18,308!2023-02-15,13,288-->
-- cycle backward:::\<Ctrl\>+p <!--SR:!2023-02-16,14,288!2023-02-09,8,268-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-02-09,5,233!2023-02-16,14,288-->
+- cycle backward:::\<Ctrl\>+p <!--SR:!2023-02-16,14,288!2023-03-12,28,268-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-02-15,3,213!2023-02-16,14,288-->
 
 ## pattern
-- repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-02-12,8,273!2023-02-20,18,308-->
+- repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-03-16,32,293!2023-02-20,18,308-->
 
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-02-20,18,308!2023-02-16,12,268-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-02-19,17,293!2023-02-16,14,288-->
-- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-02-11,10,250!2023-02-09,8,267-->
+- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-03-27,43,270!2023-03-11,27,267-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-02-20,18,308!2023-02-20,18,308-->
-- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-02-08,7,253!2023-02-15,13,288-->
+- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-03-10,26,253!2023-02-15,13,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-02-19,17,293!2023-02-18,16,293-->
 - beginning of line:::0 <!--SR:!2023-02-19,17,290!2023-02-19,17,293-->
 - end of line:::$ <!--SR:!2023-02-19,17,293!2023-02-18,16,293-->
-- line \[N=(last)\]:::\[N\]G <!--SR:!2023-02-12,11,270!2023-02-18,16,293-->
+- line \[N=(last)\]:::\[N\]G <!--SR:!2023-03-28,44,290!2023-02-18,16,293-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2023-02-17,15,293!2023-02-18,16,293-->
-- matching character:::% <!--SR:!2023-02-09,8,253!2023-02-17,15,293-->
+- matching character:::% <!--SR:!2023-03-27,43,273!2023-02-17,15,293-->
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-02-17,15,293!2023-02-13,9,273-->
@@ -38,52 +38,52 @@ See also [Vim help files](https://vimhelp.org/).
 - quit insert mode:::\<Esc\> <!--SR:!2023-02-18,16,293!2023-02-19,17,293-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-02-14,13,273!2023-02-17,15,308-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-02-18,16,293!2023-02-16,14,288-->
-- insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-02-08,7,253!2023-02-19,17,293-->
-- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-02-11,10,253!2023-02-15,13,273-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-02-10,9,253!2023-02-12,8,273-->
+- insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-03-10,26,253!2023-02-19,17,293-->
+- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-03-26,42,273!2023-02-15,13,273-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-03-12,28,253!2023-03-18,34,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-02-14,13,273!2023-02-15,13,273-->
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2023-02-19,17,293!2023-02-20,18,308-->
-- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-02-11,10,253!2023-02-18,16,293-->
+- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-03-26,42,273!2023-02-18,16,293-->
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-02-15,13,273!2023-02-15,13,273-->
 
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-02-20,18,308!2023-02-20,18,308-->
 - highlight characters:::v <!--SR:!2023-02-13,9,288!2023-02-13,12,288-->
-- highlight lines:::V <!--SR:!2023-02-11,10,253!2023-02-16,14,288-->
-- highlight block:::\<Ctrl\>+v <!--SR:!2023-02-11,10,253!2023-02-20,18,308-->
+- highlight lines:::V <!--SR:!2023-03-13,29,253!2023-02-16,14,288-->
+- highlight block:::\<Ctrl\>+v <!--SR:!2023-03-15,31,253!2023-02-20,18,308-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-02-15,13,273!2023-02-16,14,288-->
 
 ## edit
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-02-18,16,290!2023-02-19,17,293-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-02-18,16,293!2023-02-16,14,288-->
-- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-02-12,8,273!2023-02-18,16,293-->
+- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-03-17,33,293!2023-02-18,16,293-->
 - restore last changed line:::U <!--SR:!2023-02-17,15,293!2023-02-15,11,268-->
-- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-02-11,10,253!2023-02-20,18,308-->
+- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-03-14,30,253!2023-02-20,18,308-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-02-15,13,287!2023-02-20,18,308-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-02-19,17,293!2023-02-15,13,287-->
 
 ## search and substitute
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-10,6,233-->
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-02-09,8,250!2023-02-16,14,288-->
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-02-15,13,273!2023-03-12,28,253-->
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-03-11,27,250!2023-02-16,14,288-->
 - repeat last search:::n <!--SR:!2023-02-19,17,293!2023-02-16,14,288-->
 - repeat last search reversed:::N <!--SR:!2023-02-13,9,273!2023-02-16,12,268-->
-- repeat last search forward:::/\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-11,10,253-->
-- repeat last search backward:::?\<Enter\> <!--SR:!2023-02-10,9,253!2023-02-10,9,268-->
-- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-02-09,8,253!2023-02-19,17,293-->
+- repeat last search forward:::/\<Enter\> <!--SR:!2023-02-15,13,273!2023-03-13,29,253-->
+- repeat last search backward:::?\<Enter\> <!--SR:!2023-03-27,43,273!2023-03-15,31,268-->
+- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-03-09,25,253!2023-02-19,17,293-->
 
 ## command
-- show path and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-10,9,268!2023-02-13,6,228-->
+- show path and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-17,5,248!2023-02-13,6,228-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-02-18,16,293!2023-02-17,15,293-->
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-02-18,16,293!2023-02-20,18,307-->
-- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-02-17,15,293!2023-02-08,7,268-->
+- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-02-17,15,293!2023-03-29,45,288-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-02-15,13,273!2023-02-18,16,293-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-02-18,16,293!2023-02-15,13,273-->
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-02-16,14,288!2023-02-16,14,288-->
-- incsearch, is:::highlight while typing search <!--SR:!2023-02-15,13,273!2023-02-10,9,253-->
-- hlsearch, hls:::highlight last search matches <!--SR:!2023-02-10,9,250!2023-02-15,13,288-->
+- incsearch, is:::highlight while typing search <!--SR:!2023-02-15,13,273!2023-03-26,42,273-->
+- hlsearch, hls:::highlight last search matches <!--SR:!2023-03-25,41,270!2023-02-15,13,288-->

@@ -196,7 +196,7 @@ __env__.result = gen.Results(
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2023-03-17,340,353-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2023-04-06,353,339!2023-04-20,367,353-->
-4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2023-02-09,308,339!2024-01-31,376,310-->
+4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2024-01-31,376,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2023-03-21,342,347!2023-02-23,303,310-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2023-03-17,148,250!2023-05-14,328,293-->
@@ -221,7 +221,7 @@ __env__.result = gen.Results(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-11-06T20:13:24.309183+08:00. Any edits will be overridden! -->
 
-1. hydrogen ion::1+ <!--SR:!2023-02-10,312,353-->
+1. hydrogen ion::1+ <!--SR:!2027-04-14,1522,373-->
 2. sodium ion::1+ <!--SR:!2024-02-08,522,310-->
 3. potassium ion::1+ <!--SR:!2023-08-10,418,292-->
 4. copper(I) ion::1+ <!--SR:!2023-04-25,371,352-->
@@ -238,7 +238,7 @@ __env__.result = gen.Results(
 15. zinc ion::2+ <!--SR:!2023-08-10,197,224-->
 16. manganese(II) ion::2+ <!--SR:!2026-10-23,1379,367-->
 17. mercury(II) ion::2+ <!--SR:!2023-02-21,321,354-->
-18. cobalt(II) ion::2+ <!--SR:!2023-02-08,311,352-->
+18. cobalt(II) ion::2+ <!--SR:!2027-04-15,1523,372-->
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 21. chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
@@ -370,7 +370,7 @@ __env__.result = gen.Results(
 5. iodide ion::colorless <!--SR:!2023-11-30,465,307-->
 6. hydroxide ion::colorless <!--SR:!2023-05-12,130,307-->
 7. nitrate ion::colorless <!--SR:!2023-12-01,466,299-->
-8. nitrite ion::_(n/a)_ <!--SR:!2023-02-09,65,276-->
+8. nitrite ion::_(n/a)_ <!--SR:!2023-08-15,184,276-->
 9. hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2023-07-29,341,250-->
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
