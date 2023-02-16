@@ -6,7 +6,7 @@ aliases: ['ions', 'cation', 'cations', 'anion', 'anions',]
 
 # ion
 
-An __ion__ is an atom or molecule with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2023-03-30,350,350!2026-07-20,1290,352!2023-02-16,318,354-->
+An __ion__ is an atom or molecule with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2023-03-30,350,350!2026-07-20,1290,352!2027-05-12,1546,374-->
 
 A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2023-02-24,276,287!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
 
@@ -212,7 +212,7 @@ __env__.result = gen.Results(
 17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2026-03-20,1192,350!2025-11-01,1038,313-->
 18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2023-02-20,319,347!2025-04-30,820,294-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
-20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2023-02-13,314,350!2026-10-29,1391,374-->
+20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2026-02-20,1123,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -382,7 +382,7 @@ __env__.result = gen.Results(
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
-20. nitride ion::_(n/a)_ <!--SR:!2023-02-16,27,256-->
+20. nitride ion::_(n/a)_ <!--SR:!2023-04-23,66,256-->
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
