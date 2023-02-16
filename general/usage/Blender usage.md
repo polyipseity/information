@@ -35,7 +35,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### editor
 
 - select all:::A <!--SR:!2023-04-11,64,276!2023-03-20,53,296-->
-- select none:::Alt+A <!--SR:!2023-02-15,11,236!2023-05-04,81,276-->
+- select none:::Alt+A <!--SR:!2023-03-19,31,236!2023-05-04,81,276-->
 - invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-02-20,29,276-->
 - hide selection:::H <!--SR:!2023-02-27,26,230!2023-02-26,33,270-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-02-17,24,256-->
@@ -49,5 +49,5 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-03-02,39,296!2023-03-09,44,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-02-19,28,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-02-20,29,276!2023-03-19,43,256-->
-- toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-02-14,23,256-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-02-16,14,175-->
+- toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-04-20,63,256-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-03-16,28,175-->

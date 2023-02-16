@@ -117,7 +117,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{water}}
 > - reaction with dilute HCl: {{explosive}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-31,284,250!2023-02-27,189,250!2023-02-14,176,250!2023-07-14,267,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-31,284,250!2023-02-27,189,250!2024-05-03,442,250!2023-07-14,267,250-->
 
 > sodium
 > - reaction with air: {{burn}}
@@ -129,7 +129,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{water}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}} <!--SR:!2023-02-21,183,250!2023-02-13,175,250!2023-02-26,188,250!2023-02-18,180,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}} <!--SR:!2023-02-21,183,250!2023-05-15,88,230!2023-02-26,188,250!2023-02-18,180,250-->
 
 > magnesium
 > - reaction with air: {{burn}}
@@ -198,7 +198,7 @@ Reactivity decreases down the table.
 7. zinc→:::←iron <!--SR:!2023-03-02,75,188!2023-03-17,98,206-->
 8. iron→:::←lead <!--SR:!2023-03-15,99,209!2023-02-26,72,188-->
 9. lead→:::←copper <!--SR:!2023-05-06,178,230!2023-04-06,89,210-->
-10. copper→:::←mercury <!--SR:!2023-02-16,18,130!2023-02-28,35,210-->
+10. copper→:::←mercury <!--SR:!2023-03-14,26,130!2023-02-28,35,210-->
 11. mercury→:::←silver <!--SR:!2023-10-09,295,250!2023-07-05,153,230-->
 12. silver→:::←gold <!--SR:!2023-04-17,238,290!2024-11-22,711,309-->
 13. gold→:::←_(least reactive)_ <!--SR:!2024-02-28,466,308!2023-11-16,451,324-->
