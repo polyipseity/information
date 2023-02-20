@@ -275,7 +275,8 @@ text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }(none){text:
 - }2{text:\: }di-{text:
 - }3{text:\: }tri-{text:
-- }4/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
+- }4{text:\: }tetra-{text:
+- }5/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
 )
 items: gen.TextCode = gen.common
 __env__.result = gen.Results(
@@ -293,21 +294,23 @@ __env__.result = gen.Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad83dc"--><!-- The following content is generated at 2022-11-05T00:24:43.569371+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad83dc"--><!-- The following content is generated at 2023-02-20T23:42:08.521070+08:00. Any edits will be overridden! -->
 
 > - 1: (none)
 > - 2: di-
 > - 3: tri-
-> - 4/+: ([prefix for carbon count](#prefix%20for%20carbon%20count))a-
+> - 4: tetra-
+> - 5/+: ([prefix for carbon count](#prefix%20for%20carbon%20count))a-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2022-11-06T20:13:23.980184+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19dcda"--><!-- The following content is generated at 2023-02-20T23:42:08.540014+08:00. Any edits will be overridden! -->
 
 1. 1:::(none)
 2. 2:::di-
 3. 3:::tri-
-4. 4/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a-
+4. 4:::tetra-
+5. 5/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
