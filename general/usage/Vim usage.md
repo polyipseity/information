@@ -30,7 +30,6 @@ See also [Vim help files](https://vimhelp.org/).
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-02-17,15,293!2023-04-06,49,293-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-02-17,15,293!2023-04-14,57,293-->
-- delete under cursor:::<ul><li>x</li><li>Delete</li></ul> <!--SR:!2023-02-18,16,307!2023-04-14,57,308-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-04-08,51,293!2023-02-20,18,308-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-02-19,17,293!2023-02-20,18,308-->
 
@@ -56,6 +55,7 @@ See also [Vim help files](https://vimhelp.org/).
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-03-29,41,273!2023-04-01,44,288-->
 
 ## edit
+- delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-02-18,16,307!2023-04-14,57,308-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-02-18,16,290!2023-02-19,17,293-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-02-18,16,293!2023-04-15,58,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-03-17,33,293!2023-02-18,16,293-->
@@ -74,7 +74,7 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-03-09,25,253!2023-02-19,17,293-->
 
 ## command
-- show path and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-17,5,248!2023-03-06,18,228-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-02-17,5,248!2023-03-06,18,228-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-02-18,16,293!2023-02-17,15,293-->
 
 ## options
