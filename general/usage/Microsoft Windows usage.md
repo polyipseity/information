@@ -1,6 +1,6 @@
-#flashcards/general/usage/Windows_usage #general/usage
+#flashcards/general/usage/Microsoft_Windows_usage #general/usage
 
-# Windows usage
+# Microsoft Windows usage
 
 ## keybindings
 

@@ -30,7 +30,6 @@ See also [Vim help files](https://vimhelp.org/).
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\>
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\>
-- delete under cursor:::<ul><li>x</li><li>Delete</li></ul>
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\>
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\>
 
@@ -56,6 +55,7 @@ See also [Vim help files](https://vimhelp.org/).
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y
 
 ## edit
+- delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul>
 - delete from cursor to ([motion](#motion)):::d([motion](#motion))
 - delete lines:::\[[repeat N](#^repeatN)\]dd
 - undo:::\[[repeat N](#^repeatN)\]u
@@ -74,7 +74,7 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\>
 
 ## command
-- show path and cursor position:::\<Ctrl\>+g
+- show filepath and cursor position:::\<Ctrl\>+g
 - execute (command) in shell::::!(command)\<Enter\>
 
 ## options
