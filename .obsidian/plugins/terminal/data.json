@@ -1,75 +1,43 @@
 {
   "addToCommand": true,
   "addToContextMenu": true,
+  "createInstanceNearExistingOnes": true,
   "errorNoticeTimeout": 0,
   "hideStatusBar": "focused",
   "language": "",
+  "lastReadChangelogVersion": "3.1.0",
+  "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "preferredRenderer": "webgl",
   "profiles": {
-    "console": {
-      "name": "",
-      "type": "console"
+    "developerConsole": {
+      "name": "Developer console",
+      "type": "developerConsole"
     },
-    "darwinExternalDefault": {
-      "args": [
-        "$PWD"
-      ],
-      "executable": "/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal",
-      "name": "",
-      "platforms": {
-        "darwin": true
-      },
-      "type": "external"
-    },
-    "darwinIntegratedDefault": {
+    "c4f2db89-e11a-4693-b868-7f01ac3f0011": {
       "args": [],
-      "executable": "/bin/zsh",
-      "name": "",
+      "executable": "pwsh",
+      "name": "PowerShell: Integrated",
       "platforms": {
-        "darwin": true
-      },
-      "pythonExecutable": "python3",
-      "type": "integrated"
-    },
-    "linuxExternalDefault": {
-      "args": [],
-      "executable": "xterm",
-      "name": "",
-      "platforms": {
-        "linux": true
-      },
-      "type": "external"
-    },
-    "linuxIntegratedDefault": {
-      "args": [],
-      "executable": "/bin/sh",
-      "name": "",
-      "platforms": {
-        "linux": true
-      },
-      "pythonExecutable": "python3",
-      "type": "integrated"
-    },
-    "win32ExternalDefault": {
-      "args": [],
-      "executable": "C:\\Windows\\System32\\cmd.exe",
-      "name": "",
-      "platforms": {
-        "win32": true
-      },
-      "type": "external"
-    },
-    "win32IntegratedDefault": {
-      "args": [],
-      "enableWindowsConhostWorkaround": true,
-      "executable": "C:\\Windows\\System32\\cmd.exe",
-      "name": "",
-      "platforms": {
+        "darwin": true,
+        "linux": true,
         "win32": true
       },
       "pythonExecutable": "python3",
-      "type": "integrated"
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "fb790b98-1a40-4686-8e0f-956f115ca551": {
+      "args": [],
+      "executable": "pwsh",
+      "name": "PowerShell: External",
+      "platforms": {
+        "darwin": true,
+        "linux": true,
+        "win32": true
+      },
+      "type": "external"
     }
-  }
+  },
+  "recovery": {}
 }
