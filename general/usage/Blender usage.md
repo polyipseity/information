@@ -17,9 +17,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - help:::F1 <!--SR:!2023-03-05,42,290!2023-03-16,49,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-03-03,19,216-->
 - menu search:::F3 <!--SR:!2023-03-02,36,276!2023-03-17,50,296-->
-- file context menu:::F4 <!--SR:!2023-02-18,6,210!2023-02-23,11,256-->
+- file context menu:::F4 <!--SR:!2023-03-09,16,210!2023-02-23,11,256-->
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
-- render:::F12 <!--SR:!2023-02-19,28,276!2023-03-07,42,296-->
+- render:::F12 <!--SR:!2023-06-17,116,296!2023-03-07,42,296-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-02-25,18,230-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-02-22,10,150!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
@@ -36,9 +36,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - select all:::A <!--SR:!2023-04-11,64,276!2023-03-20,53,296-->
 - select none:::Alt+A <!--SR:!2023-03-19,31,236!2023-05-04,81,276-->
-- invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-02-20,29,276-->
+- invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-05-16,84,276-->
 - hide selection:::H <!--SR:!2023-02-27,26,230!2023-02-26,33,270-->
-- reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-02-17,24,256-->
+- reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
 - toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-02-25,32,276-->
 - toggle sidebar:::N <!--SR:!2023-04-12,59,256!2023-03-12,35,236-->
 
@@ -47,7 +47,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle edit mode:::Tab↹ <!--SR:!2023-02-28,34,270!2023-03-21,51,296-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-03-08,37,256!2023-02-27,26,236-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-03-02,39,296!2023-03-09,44,296-->
-	- +multiple modes:::+⇧Shift <!--SR:!2023-02-19,28,270!2023-03-24,53,296-->
-	- +expand/contract selection:::+Ctrl <!--SR:!2023-02-20,29,276!2023-03-19,43,256-->
+	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
+	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-03-19,43,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-04-20,63,256-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-02-18,27,270!2023-03-16,28,175-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-05-11,79,270!2023-03-16,28,175-->
