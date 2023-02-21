@@ -203,14 +203,14 @@ __env__.result = gen.Results(
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2023-04-07,108,227!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2023-03-14,337,350!2023-04-10,359,354-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-08-05,202,230!2025-02-15,770,294-->
-11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2023-02-17,318,354!2024-02-24,536,314-->
+11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2027-06-06,1566,374!2024-02-24,536,314-->
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2026-11-28,1400,359!2023-04-01,350,345-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2023-03-15,335,339!2023-10-22,426,290-->
-14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2023-02-19,318,347!2024-09-24,705,334-->
+14. copper(II) ion:::Cu<sup>2+</sup> <!--SR:!2027-04-27,1526,367!2024-09-24,705,334-->
 15. zinc ion:::Zn<sup>2+</sup> <!--SR:!2024-07-29,595,273!2023-05-10,184,253-->
 16. manganese(II) ion:::Mn<sup>2+</sup> <!--SR:!2023-02-23,126,250!2024-01-08,445,253-->
 17. mercury(II) ion:::Hg<sup>2+</sup> <!--SR:!2026-03-20,1192,350!2025-11-01,1038,313-->
-18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2023-02-20,319,347!2025-04-30,820,294-->
+18. cobalt(II) ion:::Co<sup>2+</sup> <!--SR:!2027-04-28,1527,367!2025-04-30,820,294-->
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2026-02-20,1123,314-->
@@ -237,7 +237,7 @@ __env__.result = gen.Results(
 14. copper(II) ion::2+ <!--SR:!2023-03-09,334,352-->
 15. zinc ion::2+ <!--SR:!2023-08-10,197,224-->
 16. manganese(II) ion::2+ <!--SR:!2026-10-23,1379,367-->
-17. mercury(II) ion::2+ <!--SR:!2023-02-21,321,354-->
+17. mercury(II) ion::2+ <!--SR:!2027-06-01,1561,374-->
 18. cobalt(II) ion::2+ <!--SR:!2027-04-15,1523,372-->
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
@@ -262,7 +262,7 @@ __env__.result = gen.Results(
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2023-02-25,65,207-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-02-20,18,150-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-03-24,31,150-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-02,308,230-->
 17. mercury(II) ion::_(n/a)_ <!--SR:!2023-06-26,140,256-->
