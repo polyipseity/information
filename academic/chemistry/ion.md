@@ -308,7 +308,7 @@ __env__.result = gen.Results(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-06T20:13:24.353184+08:00. Any edits will be overridden! -->
 
 1. hydride ion:::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2026-02-13,1171,356-->
-2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2023-02-22,322,354-->
+2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2027-06-07,1566,374-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2023-03-04,330,353!2025-11-03,1086,354-->
 4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2025-02-23,814,294-->
 5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2023-05-02,318,293-->

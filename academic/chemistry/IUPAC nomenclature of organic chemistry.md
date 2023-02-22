@@ -507,7 +507,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
 > - suffix: {{-ane}}
 > - infix: {{(none), (locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2023-02-22,86,348!2024-04-07,411,368!2023-03-08,36,328!2023-12-12,294,348!2024-04-03,407,368!2023-12-09,291,348!2024-04-04,408,368-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2024-04-09,412,368!2024-04-07,411,368!2023-03-08,36,328!2023-12-12,294,348!2024-04-03,407,368!2023-12-09,291,348!2024-04-04,408,368-->
 
 > {{alkene}}
 > - group: {{alkenyl}}
@@ -607,7 +607,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-12-11,293,348!2023-02-22,86,348!2023-08-15,205,328!2023-02-27,28,248!2023-02-22,86,348-->
+> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-12-11,293,348!2024-04-08,411,368!2023-08-15,205,328!2023-02-27,28,248!2024-04-14,417,368-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
