@@ -160,7 +160,7 @@ The steps for naming an organic compound are:
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-03-21,33,247-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-03-16,79,190!2023-05-04,102,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-04-04,56,227-->
-9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-02-24,79,230!2023-08-09,178,267-->
+9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-04-13,60,230!2023-08-31,191,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2023-03-11,85,287-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2023-03-19,150,273!2023-05-11,130,307-->
@@ -537,7 +537,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-04-06,66,280!2023-08-06,171,301!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2023-02-24,88,347-->
+> - infix: {{(locant)}} <!--SR:!2023-04-06,66,280!2023-08-06,171,301!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2024-04-27,428,367-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}
@@ -551,7 +551,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2023-02-24,88,340!2023-02-27,91,342!2024-02-20,373,362!2023-02-28,27,202!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2023-02-27,91,342!2024-02-20,373,362!2023-02-28,27,202!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
@@ -579,7 +579,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2023-02-24,88,342!2024-04-21,423,362!2023-02-24,72,262!2023-03-02,54,262!2024-01-26,353,367-->
+> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2023-11-11,260,282!2023-03-02,54,262!2024-01-26,353,367-->
 
 > {{alkanoyl}}
 > - group: {{acyl}}
