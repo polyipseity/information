@@ -565,7 +565,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,74,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-02,14,202!2023-03-01,93,342!2023-02-26,90,342-->
+> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-02,14,202!2023-03-01,93,342!2023-02-26,90,342-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -579,14 +579,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2023-02-24,88,342!2023-02-23,87,342!2023-02-24,72,262!2023-03-02,54,262!2024-01-26,353,367-->
+> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2023-02-24,88,342!2024-04-21,423,362!2023-02-24,72,262!2023-03-02,54,262!2024-01-26,353,367-->
 
 > {{alkanoyl}}
 > - group: {{acyl}}
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2023-04-13,72,282!2023-02-28,92,342!2023-05-10,110,242!2023-03-11,55,267!2023-02-23,87,347-->
+> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2023-04-13,72,282!2023-02-28,92,342!2023-05-10,110,242!2023-03-11,55,267!2024-04-22,424,367-->
 
 > {{amine}}
 > - group: {{amino}}
@@ -607,7 +607,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2023-02-23,87,348!2023-12-11,293,348!2024-04-08,411,368!2023-08-15,205,328!2023-02-27,28,248!2024-04-14,417,368-->
+> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2023-12-11,293,348!2024-04-08,411,368!2023-08-15,205,328!2023-02-27,28,248!2024-04-14,417,368-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
