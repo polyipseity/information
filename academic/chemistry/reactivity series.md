@@ -123,7 +123,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{water}}
 > - reaction with dilute HCl: {{explosive}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-12,265,250!2023-02-23,185,250!2023-07-17,270,250!2024-05-27,460,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-12,265,250!2023-05-24,90,230!2023-07-17,270,250!2024-05-27,460,250-->
 
 > calcium
 > - reaction with air: {{burn}}
