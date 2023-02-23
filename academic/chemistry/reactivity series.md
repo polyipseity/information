@@ -141,7 +141,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-28,190,250!2023-02-24,186,250!2023-07-27,280,250!2023-05-18,86,230-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-28,190,250!2023-05-25,90,230!2023-07-27,280,250!2023-05-18,86,230-->
 
 > zinc
 > - reaction with air: {{burn}}
@@ -153,7 +153,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2023-02-24,186,250!2023-03-01,191,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2024-06-03,465,250!2023-03-01,191,250-->
 
 > lead
 > - reaction with air: {{heat}}

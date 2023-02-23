@@ -25,7 +25,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-02-27,33,276-->
 - play/tools/search:::Space <!--SR:!2023-03-03,37,276!2023-03-06,39,276-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-02-24,12,215-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-03-25,29,215-->
 
 ### editing
 
