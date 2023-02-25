@@ -184,7 +184,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-09T18:05:21.025142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2023-02-25,89,342-->
+1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2023-05-10,129,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
 4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-06-26,168,325-->
@@ -309,7 +309,7 @@ __env__.result = gen.Results(
 1. 1:::(none) <!--SR:!2024-05-18,635,330!2026-03-10,1157,356-->
 2. 2:::di- <!--SR:!2023-10-04,408,310!2026-02-11,1107,342-->
 3. 3:::tri- <!--SR:!2025-03-16,784,310!2026-03-11,1131,344-->
-4. 4:::tetra- <!--SR:!2023-02-25,4,320!2023-02-25,4,320-->
+4. 4:::tetra- <!--SR:!2023-03-17,20,340!2023-03-16,19,340-->
 5. 5/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-06-16,120,266-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -515,7 +515,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
 > - suffix: {{-ene}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2023-02-25,89,342!2023-10-18,267,342!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-06-01,145,307-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2024-05-07,437,362!2023-10-18,267,342!2023-03-02,79,282!2023-02-26,90,342!2023-02-27,91,342!2023-06-01,145,307-->
 
 > {{alkyne}}
 > - group: {{alkynyl}}
@@ -544,7 +544,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROH}}
 > - prefix: {{hydroxy-}}
 > - suffix: {{-ol}}
-> - infix: {{(locant)}} <!--SR:!2023-02-25,89,342!2023-02-26,90,342!2023-03-01,93,342!2024-03-28,401,365!2023-12-03,285,345!2024-04-01,405,367-->
+> - infix: {{(locant)}} <!--SR:!2024-05-06,436,362!2023-02-26,90,342!2023-03-01,93,342!2024-03-28,401,365!2023-12-03,285,345!2024-04-01,405,367-->
 
 > {{ether}}
 > - group: {{ether}}

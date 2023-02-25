@@ -9,7 +9,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-04-17,60,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-04-16,59,308!2023-03-12,28,268-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-02-25,9,213!2023-03-31,43,288-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-03-03,6,193!2023-03-31,43,288-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-03-16,32,293!2023-05-15,83,328-->
@@ -69,7 +69,7 @@ See also [Vim help files](https://vimhelp.org/).
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-03-11,27,250!2023-04-17,60,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
 - repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-03-23,35,268-->
-- repeat last search forward:::/\<Enter\> <!--SR:!2023-02-25,9,253!2023-03-13,29,253-->
+- repeat last search forward:::/\<Enter\> <!--SR:!2023-04-01,35,273!2023-03-13,29,253-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-03-27,43,273!2023-03-15,31,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-03-09,25,253!2023-05-05,73,313-->
 
