@@ -20,7 +20,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - file context menu:::F4 <!--SR:!2023-03-09,16,210!2023-03-26,31,256-->
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-03-07,42,296-->
-- quick access:::Q <!--SR:!2023-04-10,57,250!2023-02-25,18,230-->
+- quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-02-28,6,130!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-02-27,33,276-->
@@ -30,7 +30,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### editing
 
 - delete w/ confirmation:::X <!--SR:!2023-02-28,37,290!2023-03-01,38,296-->
-- delete w/o confirmation:::Delete <!--SR:!2023-02-25,34,290!2023-03-05,38,276-->
+- delete w/o confirmation:::Delete <!--SR:!2023-07-06,131,310!2023-03-05,38,276-->
 
 ### editor
 
@@ -39,7 +39,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-05-16,84,276-->
 - hide selection:::H <!--SR:!2023-02-27,26,230!2023-02-26,33,270-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
-- toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-02-25,32,276-->
+- toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-05-21,85,276-->
 - toggle sidebar:::N <!--SR:!2023-04-12,59,256!2023-03-12,35,236-->
 
 ### 3D viewport
