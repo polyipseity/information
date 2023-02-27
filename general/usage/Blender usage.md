@@ -23,7 +23,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-02-28,6,130!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-02-28,24,190!2023-03-04,27,196-->
-- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-02-27,33,276-->
+- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-03-03,37,276!2023-03-06,39,276-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-03-25,29,215-->
 
@@ -37,7 +37,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - select all:::A <!--SR:!2023-04-11,64,276!2023-03-20,53,296-->
 - select none:::Alt+A <!--SR:!2023-03-19,31,236!2023-05-04,81,276-->
 - invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-05-16,84,276-->
-- hide selection:::H <!--SR:!2023-02-27,26,230!2023-02-26,33,270-->
+- hide selection:::H <!--SR:!2023-05-22,84,250!2023-07-04,127,290-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
 - toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-05-21,85,276-->
 - toggle sidebar:::N <!--SR:!2023-04-12,59,256!2023-03-12,35,236-->
@@ -45,7 +45,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2023-02-28,34,270!2023-03-21,51,296-->
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-03-08,37,256!2023-02-27,26,236-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-03-08,37,256!2023-03-13,14,216-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-03-02,39,296!2023-03-09,44,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-03-19,43,256-->
