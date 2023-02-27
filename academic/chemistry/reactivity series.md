@@ -117,7 +117,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{water}}
 > - reaction with dilute HCl: {{explosive}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-31,284,250!2023-02-27,189,250!2024-05-03,442,250!2023-07-14,267,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-31,284,250!2023-05-31,93,230!2024-05-03,442,250!2023-07-14,267,250-->
 
 > sodium
 > - reaction with air: {{burn}}
@@ -129,7 +129,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{water}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}} <!--SR:!2023-05-21,89,230!2023-05-15,88,230!2023-02-26,188,250!2023-05-20,88,230-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}} <!--SR:!2023-05-21,89,230!2023-05-15,88,230!2024-06-12,471,250!2023-05-20,88,230-->
 
 > magnesium
 > - reaction with air: {{burn}}
@@ -147,7 +147,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-02-27,23,170!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-12,13,150!2023-07-06,259,250!2023-07-12,265,250!2023-03-09,199,250-->
 
 > iron
 > - reaction with air: {{burn}}
@@ -192,11 +192,11 @@ Reactivity decreases down the table.
 1. _(most reactive)_→:::←potassium <!--SR:!2023-10-15,326,270!2023-10-14,358,289-->
 2. potassium→:::←sodium <!--SR:!2023-04-27,174,230!2023-04-29,143,228-->
 3. sodium→:::←calcium <!--SR:!2023-03-11,80,188!2023-07-17,270,248-->
-4. calcium→:::←magnesium <!--SR:!2023-03-20,49,210!2023-02-27,29,166-->
+4. calcium→:::←magnesium <!--SR:!2023-03-20,49,210!2023-03-16,17,146-->
 5. magnesium→:::←aluminium <!--SR:!2023-06-10,233,230!2023-03-30,109,209-->
 6. aluminium→:::←zinc <!--SR:!2023-04-05,43,148!2023-07-24,188,205-->
 7. zinc→:::←iron <!--SR:!2023-03-02,75,188!2023-03-17,98,206-->
-8. iron→:::←lead <!--SR:!2023-03-15,99,209!2023-02-26,72,188-->
+8. iron→:::←lead <!--SR:!2023-03-15,99,209!2023-07-08,131,188-->
 9. lead→:::←copper <!--SR:!2023-05-06,178,230!2023-04-06,89,210-->
 10. copper→:::←mercury <!--SR:!2023-03-14,26,130!2023-02-28,35,210-->
 11. mercury→:::←silver <!--SR:!2023-10-09,295,250!2023-07-05,153,230-->
