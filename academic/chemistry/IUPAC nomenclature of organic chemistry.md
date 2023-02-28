@@ -205,7 +205,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-09T18:05:21.058142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2023-02-28,92,342-->
+1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2024-05-06,433,362-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2023-05-10,115,302-->
 3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2023-08-19,202,325-->
 4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2024-02-18,371,362!2023-05-06,125,305-->
@@ -391,7 +391,7 @@ __env__.result = gen.Results(
 5. 5:::pent- <!--SR:!2024-05-17,634,330!2024-01-10,447,286-->
 6. 6:::hex- <!--SR:!2023-09-06,380,290!2025-12-03,1010,306-->
 7. 7:::hept- <!--SR:!2023-09-03,377,290!2023-08-06,349,286-->
-8. 8:::oct- <!--SR:!2023-09-13,387,290!2023-02-28,255,286-->
+8. 8:::oct- <!--SR:!2023-09-13,387,290!2025-12-08,1014,306-->
 9. 9:::non- <!--SR:!2023-06-20,367,310!2023-10-03,254,287-->
 10. 10:::dec- <!--SR:!2023-10-27,248,270!2025-09-23,954,307-->
 11. 11:::undec- <!--SR:!2023-03-11,88,230!2023-12-09,415,267-->
@@ -537,7 +537,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-04-06,66,280!2023-08-06,171,301!2023-02-28,92,342!2023-03-19,90,282!2023-03-17,80,285!2024-04-27,428,367-->
+> - infix: {{(locant)}} <!--SR:!2023-04-06,66,280!2023-08-06,171,301!2024-05-26,453,362!2023-03-19,90,282!2023-03-17,80,285!2024-04-27,428,367-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}
@@ -551,7 +551,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-02-28,27,202!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-04-25,56,202!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
@@ -586,7 +586,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2023-04-13,72,282!2023-02-28,92,342!2023-05-10,110,242!2023-03-11,55,267!2024-04-22,424,367-->
+> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2023-04-13,72,282!2024-05-25,452,362!2023-05-10,110,242!2023-03-11,55,267!2024-04-22,424,367-->
 
 > {{amine}}
 > - group: {{amino}}

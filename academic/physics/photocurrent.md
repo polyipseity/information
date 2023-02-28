@@ -16,7 +16,7 @@ where {{$Q$ is the [electric charge](electric%20charge.md) transferred over time
 
 ## external voltage
 
-By applying an external [voltage](voltage.md), the photocurrent can be {{changed}}. A voltage that increases the photocurrent ({{positive voltage}}) is called {{accelerating potential}}, while the inverse ({{negative voltage}}) is called {{retarding potential}}. <!--SR:!2023-04-16,99,270!2023-10-19,249,330!2023-06-08,131,290!2023-02-28,71,310!2023-12-02,284,330-->
+By applying an external [voltage](voltage.md), the photocurrent can be {{changed}}. A voltage that increases the photocurrent ({{positive voltage}}) is called {{accelerating potential}}, while the inverse ({{negative voltage}}) is called {{retarding potential}}. <!--SR:!2023-04-16,99,270!2023-10-19,249,330!2023-06-08,131,290!2023-12-30,305,330!2023-12-02,284,330-->
 
 An accelerating potential {{increases the photocurrent}}, but only up to a point called {{saturation current $I_s$}}. The potential {{attracts electrons to the anode}}, {{increasing the number of captured electrons}}, thus the photocurrent. The saturation current is reached when {{no more additional electrons can be captured}}. <!--SR:!2023-05-17,127,290!2023-12-14,293,330!2023-03-16,68,250!2023-04-15,98,270!2023-04-12,95,270-->
 
