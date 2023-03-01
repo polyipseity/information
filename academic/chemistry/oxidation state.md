@@ -11,6 +11,7 @@ aliases: ['oxidation number',]
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 data: gen.TextCode = gen.common.seq_to_code((
 		R'element in a free form\: 0',
 		R'ionic compound or ion\: _charge_',
