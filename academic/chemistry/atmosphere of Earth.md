@@ -7,6 +7,7 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 data: gen.TextCode = gen.common.seq_to_code((
 	R'N<sub>2</sub>{text:\: 78.084%}',
 	R'O<sub>2</sub>{text:\: 20.946%}',
