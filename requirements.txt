@@ -3,4 +3,3 @@
 aiofiles
 cihai
 pytextgen
-typing_extensions
