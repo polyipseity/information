@@ -180,9 +180,9 @@ def main(args: Arguments) -> _typing.NoReturn:
             success: bool = True
             if inputs:
                 try:
-                    import tools.main
+                    import tools.pytextgen.main as main
 
-                    entry: _argparse.Namespace = tools.main.parser().parse_args(
+                    entry: _argparse.Namespace = main.parser().parse_args(
                         tuple(
                             _itertools.chain(
                                 args.arguments,
