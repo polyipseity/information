@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
+import aiofiles as _aiofiles
 import appdirs as _appdirs
 import argparse as _argparse
+import asyncio as _asyncio
 import dataclasses as _dataclasses
 import functools as _functools
 import inspect as _inspect
@@ -74,7 +76,7 @@ class Arguments:
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
-def main(args: Arguments) -> _typing.NoReturn:
+async def main(args: Arguments) -> _typing.NoReturn:
     try:
         frame: _types.FrameType | None = _inspect.currentframe()
         if frame is None:
@@ -93,14 +95,19 @@ def main(args: Arguments) -> _typing.NoReturn:
             cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
             )
-        cache_data: _typing.TextIO
-        with open(cache_data_path, mode="r+t", **open_options) as cache_data:
+        async with _aiofiles.open(
+            cache_data_path, mode="r+t", **open_options
+        ) as cache_data:
             try:
-                data: _typing.MutableMapping[str, _typing.Any] = _json.load(cache_data)
+                data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
+                    await cache_data.read()
+                )
             except _json.decoder.JSONDecodeError:
                 data = {}
                 print("Cache data will be regenerated because it is empty or corrupted")
-            finalizers: _typing.MutableSequence[_typing.Callable[[], None]] = []
+            finalizers: _typing.MutableSequence[
+                _typing.Callable[[], _typing.Awaitable[None]]
+            ] = []
 
             try:
                 old_args: _typing.Collection[str] = data["args"]
@@ -153,23 +160,22 @@ def main(args: Arguments) -> _typing.NoReturn:
                             except KeyError:
                                 yield path
 
-                            def finalize(
+                            async def finalize(
                                 *,
                                 __mod_times: _typing.MutableMapping[
                                     str, int
                                 ] = mod_times,
                                 __path: str = path,
-                            ) -> None:
-                                file: _typing.TextIO
-                                with open(
+                            ):
+                                async with _aiofiles.open(
                                     __path,
                                     mode="r+t",
                                     **{**open_options, "newline": ""},
                                 ) as file:
-                                    text: str = file.read()
-                                    file.seek(0)
-                                    file.write(text.replace(_os.linesep, "\n"))
-                                    file.truncate()
+                                    text: str = await file.read()
+                                    await file.seek(0)
+                                    await file.write(text.replace(_os.linesep, "\n"))
+                                    await file.truncate()
                                 __mod_times[__path] = _os.lstat(__path).st_mtime_ns
 
                             finalizers.append(finalize)
@@ -195,14 +201,15 @@ def main(args: Arguments) -> _typing.NoReturn:
                     success = ex.code == 0
 
             if success:
-                finalizer: _typing.Callable[[], None]
-                for finalizer in finalizers:
-                    finalizer()
-                cache_data.seek(0)
-                _json.dump(
-                    data, cache_data, ensure_ascii=False, sort_keys=True, indent=2
+                prewrite = _asyncio.gather(
+                    cache_data.seek(0), *(finalizer() for finalizer in finalizers)
                 )
-                cache_data.truncate()
+                write_data = _json.dumps(
+                    data, ensure_ascii=False, sort_keys=True, indent=2
+                )
+                await prewrite
+                await cache_data.write(write_data)
+                await cache_data.truncate()
     except Exception:
         _logging.exception("Uncaught exception")
     finally:
@@ -256,8 +263,8 @@ def parser(
     )
 
     @_functools.wraps(main)
-    def invoke(args: _argparse.Namespace) -> _typing.NoReturn:
-        main(
+    async def invoke(args: _argparse.Namespace) -> _typing.NoReturn:
+        await main(
             Arguments(
                 prog=prog,
                 cached=args.cached,
@@ -271,4 +278,4 @@ def parser(
 
 if __name__ == "__main__":
     entry: _argparse.Namespace = parser().parse_args(_sys.argv[1:])
-    entry.invoke(entry)
+    _asyncio.run(entry.invoke(entry))
