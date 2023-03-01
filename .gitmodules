@@ -1,6 +1,6 @@
 [submodule "tools"]
 	path = tools
-	url = https://github.com/polyipseity/notes-tools.git
+	url = https://github.com/polyipseity/pytextgen.git
 	branch = main
 [submodule "private"]
 	path = private
