@@ -9,6 +9,7 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 import typing
 data: typing.Mapping[str, typing.Mapping[str, str]] = {
 	'group I compounds': {

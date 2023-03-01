@@ -15,6 +15,7 @@ A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic i
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read, util
 import typing
 
 @typing.final
