@@ -7,6 +7,7 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 principles: gen.TextCode = gen.common.seq_to_code((
 		'[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)',
 		'identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)',
@@ -271,6 +272,7 @@ The steps for naming an organic compound are:
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }(none){text:
 - }2{text:\: }di-{text:
@@ -319,6 +321,7 @@ __env__.result = gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }meth-{text:
 - }2{text:\: }eth-{text:
@@ -412,6 +415,7 @@ __env__.result = gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 import typing
 @typing.final
 class Group(typing.NamedTuple):
@@ -616,6 +620,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 import typing
 @typing.final
 class Affixes(typing.NamedTuple):
@@ -661,6 +666,7 @@ __env__.result = gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen import gen, read
 text: gen.TextCode = gen.common.seq_to_code((
 	'cation',
 	'carboxylic acid',
