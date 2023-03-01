@@ -70,7 +70,7 @@ class Arguments:
     cached: bool
     arguments: _typing.Sequence[str]
 
-    def __post_init__(self: _typing.Self) -> None:
+    def __post_init__(self) -> None:
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
