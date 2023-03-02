@@ -33,19 +33,19 @@ class _OpenOptions(_typing.TypedDict):
     newline: None | _typing.Literal["", "\n", "\r", "\r\n"]
 
 
-open_options: _OpenOptions = _OpenOptions(
+OPEN_OPTIONS = _OpenOptions(
     encoding="UTF-8",
     errors="strict",
     newline=None,
 )
-_local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
+_LOCAL_APP_DIRS = _appdirs.AppDirs(
     appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
-_root_dir_excludes: _typing.AbstractSet[str] = frozenset(
+_ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
     {
         ".git",
         ".obsidian",
@@ -84,7 +84,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
         filename: str = _inspect.getframeinfo(frame).filename
         folder: _pathlib.Path = _pathlib.Path(filename).parent.resolve(strict=True)
 
-        local_data_folder: _pathlib.Path = _pathlib.Path(_local_app_dirs.user_data_dir)
+        local_data_folder: _pathlib.Path = _pathlib.Path(_LOCAL_APP_DIRS.user_data_dir)
         if not args.cached and local_data_folder.exists():
             _shutil.rmtree(local_data_folder, ignore_errors=False)
         local_data_folder.mkdir(parents=True, exist_ok=True)
@@ -96,7 +96,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 "", encoding="UTF-8", errors="strict", newline=None
             )
         async with _aiofiles.open(
-            cache_data_path, mode="r+t", **open_options
+            cache_data_path, mode="r+t", **OPEN_OPTIONS
         ) as cache_data:
             try:
                 data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
@@ -142,7 +142,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 ):
                     if _pathlib.Path(root).resolve(strict=True) == folder:
                         exclude: str
-                        for exclude in _root_dir_excludes:
+                        for exclude in _ROOT_DIR_EXCLUDES:
                             try:
                                 dirs.remove(exclude)
                             except ValueError:
@@ -170,7 +170,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 async with _aiofiles.open(
                                     __path,
                                     mode="r+t",
-                                    **{**open_options, "newline": ""},
+                                    **{**OPEN_OPTIONS, "newline": ""},
                                 ) as file:
                                     text = await file.read()
                                     seek = file.seek(0)
@@ -188,9 +188,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
             success: bool = True
             if inputs:
                 try:
-                    import tools.pytextgen.main as main
+                    import tools.pytextgen.main as _main
 
-                    entry: _argparse.Namespace = main.parser().parse_args(
+                    entry: _argparse.Namespace = _main.parser().parse_args(
                         tuple(
                             _itertools.chain(
                                 args.arguments,
