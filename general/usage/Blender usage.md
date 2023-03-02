@@ -16,7 +16,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - quit:::Ctrl+Q <!--SR:!2023-03-06,41,290!2023-04-27,80,296-->
 - help:::F1 <!--SR:!2023-03-05,42,290!2023-03-16,49,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-03-03,19,216-->
-- menu search:::F3 <!--SR:!2023-03-02,36,276!2023-03-17,50,296-->
+- menu search:::F3 <!--SR:!2023-07-15,135,296!2023-03-17,50,296-->
 - file context menu:::F4 <!--SR:!2023-03-09,16,210!2023-03-26,31,256-->
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-03-07,42,296-->
@@ -29,7 +29,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editing
 
-- delete w/ confirmation:::X <!--SR:!2023-08-02,155,310!2023-03-01,38,296-->
+- delete w/ confirmation:::X <!--SR:!2023-08-02,155,310!2023-08-15,166,316-->
 - delete w/o confirmation:::Delete <!--SR:!2023-07-06,131,310!2023-03-05,38,276-->
 
 ### editor
@@ -46,7 +46,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - toggle edit mode:::Tab↹ <!--SR:!2023-07-04,126,290!2023-03-21,51,296-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-03-08,37,256!2023-03-13,14,216-->
-- toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-03-02,39,296!2023-03-09,44,296-->
+- toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2023-03-09,44,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-03-19,43,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-04-20,63,256-->

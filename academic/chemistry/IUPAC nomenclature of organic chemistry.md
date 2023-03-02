@@ -406,7 +406,7 @@ __env__.result = gen.Results(
 17. 17:::heptadec- <!--SR:!2024-03-12,509,312!2023-07-27,339,292-->
 18. 18:::octadec- <!--SR:!2024-06-01,562,312!2023-03-10,265,332-->
 19. 19:::nonadec- <!--SR:!2023-03-08,288,352!2023-07-13,170,230-->
-20. 20:::icos- <!--SR:!2023-05-27,140,300!2023-03-01,93,342-->
+20. 20:::icos- <!--SR:!2023-05-27,140,300!2024-05-29,454,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -519,7 +519,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
 > - suffix: {{-ene}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2024-05-07,437,362!2023-10-18,267,342!2023-03-02,79,282!2024-05-02,430,362!2024-04-30,428,362!2023-06-01,145,307-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2024-05-07,437,362!2023-10-18,267,342!2024-01-06,310,302!2024-05-02,430,362!2024-04-30,428,362!2023-06-01,145,307-->
 
 > {{alkyne}}
 > - group: {{alkynyl}}
@@ -527,7 +527,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
 > - suffix: {{-yne}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2023-08-08,198,320!2023-06-06,156,300!2024-04-28,426,360!2023-03-15,88,281!2023-03-01,93,342!2024-02-19,372,362!2023-09-04,236,347-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2023-08-08,198,320!2023-06-06,156,300!2024-04-28,426,360!2023-03-15,88,281!2024-05-31,456,362!2024-02-19,372,362!2023-09-04,236,347-->
 
 > {{benzene derivative}}
 > - group: {{phenyl}}
@@ -548,7 +548,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROH}}
 > - prefix: {{hydroxy-}}
 > - suffix: {{-ol}}
-> - infix: {{(locant)}} <!--SR:!2024-05-06,436,362!2024-05-03,431,362!2023-03-01,93,342!2024-03-28,401,365!2023-12-03,285,345!2024-04-01,405,367-->
+> - infix: {{(locant)}} <!--SR:!2024-05-06,436,362!2024-05-03,431,362!2024-05-28,453,362!2024-03-28,401,365!2023-12-03,285,345!2024-04-01,405,367-->
 
 > {{ether}}
 > - group: {{ether}}
@@ -569,7 +569,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-02,14,202!2023-03-01,93,342!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-11,9,182!2024-06-02,458,362!2024-05-01,429,362-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -583,7 +583,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2023-11-11,260,282!2023-03-02,54,262!2024-01-26,353,367-->
+> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2023-11-11,260,282!2023-09-25,207,282!2024-01-26,353,367-->
 
 > {{alkanoyl}}
 > - group: {{acyl}}

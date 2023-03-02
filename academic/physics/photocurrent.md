@@ -12,7 +12,7 @@ __Photocurrent__ is {{the [electric current](electric%20current.md) through a [p
 
 The photocurrent can be calculated by the following equation:
 {{$$I_p=\frac{Q}t$$}}
-where {{$Q$ is the [electric charge](electric%20charge.md) transferred over time $t$}}. If $Q$ is in [coulombs](coulomb.md) and $t$ is in [seconds](second.md), $I_p$ is in [amperes](ampere.md). <!--SR:!2023-03-01,72,310!2023-03-11,72,270-->
+where {{$Q$ is the [electric charge](electric%20charge.md) transferred over time $t$}}. If $Q$ is in [coulombs](coulomb.md) and $t$ is in [seconds](second.md), $I_p$ is in [amperes](ampere.md). <!--SR:!2024-01-13,317,330!2023-03-11,72,270-->
 
 ## external voltage
 
