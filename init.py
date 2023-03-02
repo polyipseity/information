@@ -172,9 +172,11 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                     mode="r+t",
                                     **{**open_options, "newline": ""},
                                 ) as file:
-                                    text: str = await file.read()
-                                    await file.seek(0)
-                                    await file.write(text.replace(_os.linesep, "\n"))
+                                    text = await file.read()
+                                    seek = file.seek(0)
+                                    text = text.replace(_os.linesep, "\n")
+                                    await seek
+                                    await file.write(text)
                                     await file.truncate()
                                 __mod_times[__path] = _os.lstat(__path).st_mtime_ns
 
@@ -201,14 +203,12 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     success = ex.code == 0
 
             if success:
-                prewrite = _asyncio.gather(
+                await _asyncio.gather(
                     cache_data.seek(0), *(finalizer() for finalizer in finalizers)
                 )
-                write_data = _json.dumps(
-                    data, ensure_ascii=False, sort_keys=True, indent=2
+                await cache_data.write(
+                    _json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
                 )
-                await prewrite
-                await cache_data.write(write_data)
                 await cache_data.truncate()
     except Exception:
         _logging.exception("Uncaught exception")
