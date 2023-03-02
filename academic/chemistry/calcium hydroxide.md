@@ -26,7 +26,7 @@ data: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('12ff7a'),
 		text=gen.common.quote_text(data),
@@ -35,7 +35,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('d7182f'),
 		text=gen.common.memorize_linked_seq(data,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('d7182f')),
+			states=await read.read_flashcard_states(__env__.cwf_section('d7182f')),
 		),
 	),
 )

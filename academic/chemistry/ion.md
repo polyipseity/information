@@ -105,7 +105,7 @@ class Section(typing.NamedTuple):
 cation_sect: Section = Section.from_rows(cations)
 anion_sect: Section = Section.from_rows(anions)
 
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('d9192d'),
 		text=cation_sect.table,
@@ -114,21 +114,21 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('3928fd'),
 		text=gen.common.memorize_two_sided(cation_sect.symbols,
 			reversible=True,
-			states=read.read_flashcard_states(__env__.cwf_section('3928fd')),
+			states=await read.read_flashcard_states(__env__.cwf_section('3928fd')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('8d8dee'),
 		text=gen.common.memorize_two_sided(cation_sect.charges,
 			reversible=False,
-			states=read.read_flashcard_states(__env__.cwf_section('8d8dee')),
+			states=await read.read_flashcard_states(__env__.cwf_section('8d8dee')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('a5defa'),
 		text=gen.common.memorize_two_sided(cation_sect.colors,
 			reversible=False,
-			states=read.read_flashcard_states(__env__.cwf_section('a5defa')),
+			states=await read.read_flashcard_states(__env__.cwf_section('a5defa')),
 		),
 	),
 	gen.Result(
@@ -139,21 +139,21 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('2fde12'),
 		text=gen.common.memorize_two_sided(anion_sect.symbols,
 			reversible=True,
-			states=read.read_flashcard_states(__env__.cwf_section('2fde12')),
+			states=await read.read_flashcard_states(__env__.cwf_section('2fde12')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('8c7820'),
 		text=gen.common.memorize_two_sided(anion_sect.charges,
 			reversible=False,
-			states=read.read_flashcard_states(__env__.cwf_section('8c7820')),
+			states=await read.read_flashcard_states(__env__.cwf_section('8c7820')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('104852'),
 		text=gen.common.memorize_two_sided(anion_sect.colors,
 			reversible=False,
-			states=read.read_flashcard_states(__env__.cwf_section('104852')),
+			states=await read.read_flashcard_states(__env__.cwf_section('104852')),
 		),
 	),
 )

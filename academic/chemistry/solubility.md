@@ -70,11 +70,11 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 	},
 }
 text: gen.TextCode = gen.common.maps_to_code(data)
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('901862'),
 		text=gen.common.cloze_text(text,
-			states=read.read_flashcard_states(__env__.cwf_section('901862')),
+			states=await read.read_flashcard_states(__env__.cwf_section('901862')),
 		),
 	),
 )
