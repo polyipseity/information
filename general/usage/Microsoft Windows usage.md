@@ -20,7 +20,7 @@
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2023-04-19,62,250!2023-03-03,38,290-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2023-04-05,59,270!2023-04-06,61,270-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2023-04-12,59,250!2023-03-07,37,250-->
-- move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-03-01,32,250!2023-03-03,34,250-->
+- move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-05-22,81,250!2023-03-03,34,250-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-03-20,32,210!2023-03-21,44,270-->
 - close dialog:::Esc <!--SR:!2023-03-30,61,310!2023-04-30,77,270-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-04-14,61,250!2023-03-14,40,250-->

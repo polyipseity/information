@@ -154,7 +154,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2024-06-03,465,250!2023-03-01,191,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2024-06-03,465,250!2024-06-22,478,250-->
 
 > lead
 > - reaction with air: {{heat}}
@@ -196,7 +196,7 @@ Reactivity decreases down the table.
 4. calcium→:::←magnesium <!--SR:!2023-03-20,49,210!2023-03-16,17,146-->
 5. magnesium→:::←aluminium <!--SR:!2023-06-10,233,230!2023-03-30,109,209-->
 6. aluminium→:::←zinc <!--SR:!2023-04-05,43,148!2023-07-24,188,205-->
-7. zinc→:::←iron <!--SR:!2023-03-02,75,188!2023-03-17,98,206-->
+7. zinc→:::←iron <!--SR:!2023-07-16,136,188!2023-03-17,98,206-->
 8. iron→:::←lead <!--SR:!2023-03-15,99,209!2023-07-08,131,188-->
 9. lead→:::←copper <!--SR:!2023-05-06,178,230!2023-04-06,89,210-->
 10. copper→:::←mercury <!--SR:!2023-03-14,26,130!2023-05-12,73,210-->
