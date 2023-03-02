@@ -92,18 +92,18 @@ series: gen.TextCode = gen.common.seq_to_code(data.keys(),
 	index=1,
 	prefix='{mem:_(most reactive)_}',
 	suffix='{mem:_(least reactive)_}',)
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a2994d'),
 		text=gen.common.cloze_text(text,
-			states=read.read_flashcard_states(__env__.cwf_section('a2994d'))
+			states=await read.read_flashcard_states(__env__.cwf_section('a2994d'))
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('299018'),
 		text=gen.common.memorize_linked_seq(series,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('299018')),
+			states=await read.read_flashcard_states(__env__.cwf_section('299018')),
 		),
 	),
 )

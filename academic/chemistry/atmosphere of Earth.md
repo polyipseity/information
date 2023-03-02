@@ -20,7 +20,7 @@ data: gen.TextCode = gen.common.seq_to_code((
 sem: gen.TextCode = gen.TextCode.compile(
 	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a34f1d'),
 		text=gen.common.quote_text(data),
@@ -30,13 +30,13 @@ __env__.result = gen.Results(
 		text=gen.common.memorize_linked_seq(data,
 			tag='mem lnk',
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('123480')),
+			states=await read.read_flashcard_states(__env__.cwf_section('123480')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('1ad236'),
 		text=gen.common.semantics_seq_map(data, sem,
-			states=read.read_flashcard_states(__env__.cwf_section('1ad236')),
+			states=await read.read_flashcard_states(__env__.cwf_section('1ad236')),
 		),
 	),
 )

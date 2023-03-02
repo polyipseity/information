@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
+import aiofiles as _aiofiles
 import appdirs as _appdirs
 import argparse as _argparse
+import asyncio as _asyncio
 import dataclasses as _dataclasses
 import functools as _functools
 import inspect as _inspect
@@ -31,19 +33,19 @@ class _OpenOptions(_typing.TypedDict):
     newline: None | _typing.Literal["", "\n", "\r", "\r\n"]
 
 
-open_options: _OpenOptions = _OpenOptions(
+OPEN_OPTIONS = _OpenOptions(
     encoding="UTF-8",
     errors="strict",
     newline=None,
 )
-_local_app_dirs: _appdirs.AppDirs = _appdirs.AppDirs(
+_LOCAL_APP_DIRS = _appdirs.AppDirs(
     appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
-_root_dir_excludes: _typing.AbstractSet[str] = frozenset(
+_ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
     {
         ".git",
         ".obsidian",
@@ -74,7 +76,7 @@ class Arguments:
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
-def main(args: Arguments) -> _typing.NoReturn:
+async def main(args: Arguments) -> _typing.NoReturn:
     try:
         frame: _types.FrameType | None = _inspect.currentframe()
         if frame is None:
@@ -82,7 +84,7 @@ def main(args: Arguments) -> _typing.NoReturn:
         filename: str = _inspect.getframeinfo(frame).filename
         folder: _pathlib.Path = _pathlib.Path(filename).parent.resolve(strict=True)
 
-        local_data_folder: _pathlib.Path = _pathlib.Path(_local_app_dirs.user_data_dir)
+        local_data_folder: _pathlib.Path = _pathlib.Path(_LOCAL_APP_DIRS.user_data_dir)
         if not args.cached and local_data_folder.exists():
             _shutil.rmtree(local_data_folder, ignore_errors=False)
         local_data_folder.mkdir(parents=True, exist_ok=True)
@@ -93,14 +95,19 @@ def main(args: Arguments) -> _typing.NoReturn:
             cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
             )
-        cache_data: _typing.TextIO
-        with open(cache_data_path, mode="r+t", **open_options) as cache_data:
+        async with _aiofiles.open(
+            cache_data_path, mode="r+t", **OPEN_OPTIONS
+        ) as cache_data:
             try:
-                data: _typing.MutableMapping[str, _typing.Any] = _json.load(cache_data)
+                data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
+                    await cache_data.read()
+                )
             except _json.decoder.JSONDecodeError:
                 data = {}
                 print("Cache data will be regenerated because it is empty or corrupted")
-            finalizers: _typing.MutableSequence[_typing.Callable[[], None]] = []
+            finalizers: _typing.MutableSequence[
+                _typing.Callable[[], _typing.Awaitable[None]]
+            ] = []
 
             try:
                 old_args: _typing.Collection[str] = data["args"]
@@ -135,7 +142,7 @@ def main(args: Arguments) -> _typing.NoReturn:
                 ):
                     if _pathlib.Path(root).resolve(strict=True) == folder:
                         exclude: str
-                        for exclude in _root_dir_excludes:
+                        for exclude in _ROOT_DIR_EXCLUDES:
                             try:
                                 dirs.remove(exclude)
                             except ValueError:
@@ -153,23 +160,24 @@ def main(args: Arguments) -> _typing.NoReturn:
                             except KeyError:
                                 yield path
 
-                            def finalize(
+                            async def finalize(
                                 *,
                                 __mod_times: _typing.MutableMapping[
                                     str, int
                                 ] = mod_times,
                                 __path: str = path,
-                            ) -> None:
-                                file: _typing.TextIO
-                                with open(
+                            ):
+                                async with _aiofiles.open(
                                     __path,
                                     mode="r+t",
-                                    **{**open_options, "newline": ""},
+                                    **{**OPEN_OPTIONS, "newline": ""},
                                 ) as file:
-                                    text: str = file.read()
-                                    file.seek(0)
-                                    file.write(text.replace(_os.linesep, "\n"))
-                                    file.truncate()
+                                    text = await file.read()
+                                    seek = file.seek(0)
+                                    text = text.replace(_os.linesep, "\n")
+                                    await seek
+                                    await file.write(text)
+                                    await file.truncate()
                                 __mod_times[__path] = _os.lstat(__path).st_mtime_ns
 
                             finalizers.append(finalize)
@@ -180,9 +188,9 @@ def main(args: Arguments) -> _typing.NoReturn:
             success: bool = True
             if inputs:
                 try:
-                    import tools.pytextgen.main as main
+                    import tools.pytextgen.main as _main
 
-                    entry: _argparse.Namespace = main.parser().parse_args(
+                    entry: _argparse.Namespace = _main.parser().parse_args(
                         tuple(
                             _itertools.chain(
                                 args.arguments,
@@ -190,19 +198,18 @@ def main(args: Arguments) -> _typing.NoReturn:
                             )
                         )
                     )
-                    entry.invoke(entry)
+                    await entry.invoke(entry)
                 except SystemExit as ex:
                     success = ex.code == 0
 
             if success:
-                finalizer: _typing.Callable[[], None]
-                for finalizer in finalizers:
-                    finalizer()
-                cache_data.seek(0)
-                _json.dump(
-                    data, cache_data, ensure_ascii=False, sort_keys=True, indent=2
+                await _asyncio.gather(
+                    cache_data.seek(0), *(finalizer() for finalizer in finalizers)
                 )
-                cache_data.truncate()
+                await cache_data.write(
+                    _json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
+                )
+                await cache_data.truncate()
     except Exception:
         _logging.exception("Uncaught exception")
     finally:
@@ -256,8 +263,8 @@ def parser(
     )
 
     @_functools.wraps(main)
-    def invoke(args: _argparse.Namespace) -> _typing.NoReturn:
-        main(
+    async def invoke(args: _argparse.Namespace) -> _typing.NoReturn:
+        await main(
             Arguments(
                 prog=prog,
                 cached=args.cached,
@@ -271,4 +278,4 @@ def parser(
 
 if __name__ == "__main__":
     entry: _argparse.Namespace = parser().parse_args(_sys.argv[1:])
-    entry.invoke(entry)
+    _asyncio.run(entry.invoke(entry))

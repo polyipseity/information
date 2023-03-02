@@ -75,7 +75,7 @@ elements: gen.TextCode = gen.TextCode.compile(
 	'{}'.join(f'{gen.TextCode.escape(ele)}{{}}{gen.TextCode.escape("<br/>".join(rdx.equation for rdx in data_by_element[ele]))}' for ele in sorted(data_by_element))
 )
 
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('230419'),
 		text=table,
@@ -84,13 +84,13 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('9209fd'),
 		text=gen.common.memorize_two_sided(potentials,
 			reversible=False,
-			states=read.read_flashcard_states(__env__.cwf_section('9209fd')),
+			states=await read.read_flashcard_states(__env__.cwf_section('9209fd')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('ab92dd'),
 		text=gen.common.memorize_two_sided(elements,
-			states=read.read_flashcard_states(__env__.cwf_section('ab92dd'))
+			states=await read.read_flashcard_states(__env__.cwf_section('ab92dd'))
 		),
 	),
 )
