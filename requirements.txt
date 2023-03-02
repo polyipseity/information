@@ -1,4 +1,5 @@
 --index-url https://pypi.org/simple/
 
+aiofiles
 cihai
-typing_extensions
+pytextgen

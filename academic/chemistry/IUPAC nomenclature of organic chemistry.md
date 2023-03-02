@@ -63,7 +63,7 @@ punctuations: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('5193cd'),
 		text=gen.common.quote_text(principles),
@@ -72,7 +72,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('48dca2'),
 		text=gen.common.memorize_linked_seq(principles,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('48dca2')),
+			states=await read.read_flashcard_states(__env__.cwf_section('48dca2')),
 		),
 	),
 	gen.Result(
@@ -83,7 +83,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('920dca'),
 		text=gen.common.memorize_linked_seq(id_parent,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('920dca')),
+			states=await read.read_flashcard_states(__env__.cwf_section('920dca')),
 		),
 	),
 	gen.Result(
@@ -94,7 +94,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('abacdf'),
 		text=gen.common.memorize_linked_seq(id_num_dir,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('abacdf')),
+			states=await read.read_flashcard_states(__env__.cwf_section('abacdf')),
 		),
 	),
 	gen.Result(
@@ -105,7 +105,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('828019'),
 		text=gen.common.memorize_linked_seq(arrange,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('828019')),
+			states=await read.read_flashcard_states(__env__.cwf_section('828019')),
 		),
 	),
 	gen.Result(
@@ -115,7 +115,7 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19fc21'),
 		text=gen.common.memorize_two_sided(pronuciations,
-			states=read.read_flashcard_states(__env__.cwf_section('19fc21')),
+			states=await read.read_flashcard_states(__env__.cwf_section('19fc21')),
 		),
 	),
 	gen.Result(
@@ -126,7 +126,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('9293da'),
 		text=gen.common.memorize_linked_seq(punctuations,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('9293da')),
+			states=await read.read_flashcard_states(__env__.cwf_section('9293da')),
 		),
 	),
 )
@@ -281,7 +281,7 @@ text: gen.TextCode = gen.TextCode.compile(
 - }5/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
 )
 items: gen.TextCode = gen.common
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('ad83dc'),
 		text=gen.common.quote_text(text),
@@ -289,7 +289,7 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19dcda'),
 		text=gen.common.memorize_two_sided(text,
-			states=read.read_flashcard_states(__env__.cwf_section('19dcda')),
+			states=await read.read_flashcard_states(__env__.cwf_section('19dcda')),
 		),
 	),
 )
@@ -345,7 +345,7 @@ text: gen.TextCode = gen.TextCode.compile(
 - }20{text:\: }icos-'''
 )
 items: gen.TextCode = gen.common
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('1239c2'),
 		text=gen.common.quote_text(text),
@@ -353,7 +353,7 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('ca1123'),
 		text=gen.common.memorize_two_sided(text,
-			states=read.read_flashcard_states(__env__.cwf_section('ca1123')),
+			states=await read.read_flashcard_states(__env__.cwf_section('ca1123')),
 		),
 	),
 )
@@ -464,7 +464,7 @@ table: str = gen.common.quotette(
 )
 text: gen.TextCode = gen.common.maps_to_code(map,
 	name_cloze=True,)
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('28dcee'),
 		text=table,
@@ -472,7 +472,7 @@ __env__.result = gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a39fd2'),
 		text=gen.common.cloze_text(text,
-			states=read.read_flashcard_states(__env__.cwf_section('a39fd2')),
+			states=await read.read_flashcard_states(__env__.cwf_section('a39fd2')),
 		),
 	),
 )
@@ -639,11 +639,11 @@ table: gen.TextCode = gen.TextCode.compile(gen.common.rows_to_table(data,
 			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
 		),
 	))
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('adc061'),
 		text=gen.common.cloze_text(table,
-			states=read.read_flashcard_states(__env__.cwf_section('adc061')),
+			states=await read.read_flashcard_states(__env__.cwf_section('adc061')),
 		),
 	),
 )
@@ -681,7 +681,7 @@ text: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(highest)_}',
 	suffix='{mem:_(lowest)_}',)
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('19cfa2'),
 		text=gen.common.quote_text(text),
@@ -690,7 +690,7 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('ad92c1'),
 		text=gen.common.memorize_linked_seq(text,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('ad92c1')),
+			states=await read.read_flashcard_states(__env__.cwf_section('ad92c1')),
 		),
 	),
 )
