@@ -49,7 +49,7 @@ phenolphthalein: pHRanges = pHRanges({
 	'10~14': '<span style="color: pink;">pink</span>',
 })
 
-__env__.result = gen.Results(
+return gen.Results(
 	gen.Result(
 		location=__env__.cwf_section('a9208f'),
 		text=methyl_orange.table,
@@ -58,13 +58,13 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('d82740'),
 		text=gen.common.memorize_linked_seq(methyl_orange.mem_ranges,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('d82740')),
+			states=await read.read_flashcard_states(__env__.cwf_section('d82740')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('1389d0'),
 		text=gen.common.memorize_two_sided(methyl_orange.mem_map,
-			states=read.read_flashcard_states(__env__.cwf_section('1389d0')),
+			states=await read.read_flashcard_states(__env__.cwf_section('1389d0')),
 		),
 	),
 	gen.Result(
@@ -75,13 +75,13 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('f25a99'),
 		text=gen.common.memorize_linked_seq(litmus.mem_ranges,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('f25a99')),
+			states=await read.read_flashcard_states(__env__.cwf_section('f25a99')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('29f820'),
 		text=gen.common.memorize_two_sided(litmus.mem_map,
-			states=read.read_flashcard_states(__env__.cwf_section('29f820')),
+			states=await read.read_flashcard_states(__env__.cwf_section('29f820')),
 		),
 	),
 	gen.Result(
@@ -92,13 +92,13 @@ __env__.result = gen.Results(
 		location=__env__.cwf_section('155d9a'),
 		text=gen.common.memorize_linked_seq(phenolphthalein.mem_ranges,
 			hinted=False,
-			states=read.read_flashcard_states(__env__.cwf_section('155d9a')),
+			states=await read.read_flashcard_states(__env__.cwf_section('155d9a')),
 		),
 	),
 	gen.Result(
 		location=__env__.cwf_section('0245d8'),
 		text=gen.common.memorize_two_sided(phenolphthalein.mem_map,
-			states=read.read_flashcard_states(__env__.cwf_section('0245d8')),
+			states=await read.read_flashcard_states(__env__.cwf_section('0245d8')),
 		),
 	),
 )

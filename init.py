@@ -196,7 +196,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                             )
                         )
                     )
-                    entry.invoke(entry)
+                    await entry.invoke(entry)
                 except SystemExit as ex:
                     success = ex.code == 0
 
