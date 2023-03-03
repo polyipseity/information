@@ -89,7 +89,7 @@ return gen.Results(
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2023-06-07,276,262!2023-03-03,86,269-->
+> - exception(s): {{_(none)_}} <!--SR:!2023-06-07,276,262!2024-01-21,324,289-->
 
 > nitrates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
