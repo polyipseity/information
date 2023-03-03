@@ -14,7 +14,7 @@ A thin gold foil are {{bombarded by [alpha particles](alpha%20particle.md) in an
 
 ### results
 
-Most alpha particles pass through {{with minimal deflection}}. Few of them pass through {{with large deflection}}. Even fewer {{rebound back}}. <!--SR:!2023-03-03,63,310!2023-07-14,148,290!2023-05-19,104,270-->
+Most alpha particles pass through {{with minimal deflection}}. Few of them pass through {{with large deflection}}. Even fewer {{rebound back}}. <!--SR:!2023-12-06,278,330!2023-07-14,148,290!2023-05-19,104,270-->
 
 ### implications
 

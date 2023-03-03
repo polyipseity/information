@@ -9,7 +9,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-04-17,60,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-04-16,59,308!2023-03-12,28,268-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-03-03,6,193!2023-03-31,43,288-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-03-15,12,193!2023-03-31,43,288-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-03-16,32,293!2023-05-15,83,328-->
@@ -75,10 +75,10 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 - show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-03-06,18,228-->
-- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-03-03,10,273!2023-05-07,75,313-->
+- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-03,31,273!2023-05-07,75,313-->
 
 ## options
-- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-03-03,10,273!2023-05-17,85,327-->
+- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-04-13,41,293!2023-05-17,85,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-07,75,313!2023-03-29,45,288-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-04-11,54,293!2023-05-12,80,313-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-05,73,313!2023-04-12,55,293-->
