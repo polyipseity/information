@@ -1,5 +1,7 @@
 # -*- coding: UTF-8 -*-
 import aiofiles as _aiofiles
+import aioshutil as _aioshutil
+import anyio as _anyio
 import appdirs as _appdirs
 import argparse as _argparse
 import asyncio as _asyncio
@@ -11,8 +13,6 @@ import json as _json
 import logging as _logging
 import operator as _operator
 import os as _os
-import pathlib as _pathlib
-import shutil as _shutil
 import sys as _sys
 import types as _types
 import typing as _typing
@@ -81,18 +81,17 @@ async def main(args: Arguments) -> _typing.NoReturn:
         frame: _types.FrameType | None = _inspect.currentframe()
         if frame is None:
             raise ValueError(frame)
-        filename: str = _inspect.getframeinfo(frame).filename
-        folder: _pathlib.Path = _pathlib.Path(filename).parent.resolve(strict=True)
+        filename = _inspect.getframeinfo(frame).filename
+        folder = _anyio.Path(filename).parent
 
-        local_data_folder: _pathlib.Path = _pathlib.Path(_LOCAL_APP_DIRS.user_data_dir)
-        if not args.cached and local_data_folder.exists():
-            _shutil.rmtree(local_data_folder, ignore_errors=False)
-        local_data_folder.mkdir(parents=True, exist_ok=True)
-        local_data_folder = local_data_folder.resolve(strict=True)
+        local_data_folder = _anyio.Path(_LOCAL_APP_DIRS.user_data_dir)
+        if not args.cached and await local_data_folder.exists():
+            await _aioshutil.rmtree(local_data_folder, ignore_errors=False)
+        await local_data_folder.mkdir(parents=True, exist_ok=True)
 
-        cache_data_path: _pathlib.Path = local_data_folder / "cache.json"
-        if not cache_data_path.exists():
-            cache_data_path.write_text(
+        cache_data_path = local_data_folder / "cache.json"
+        if not await cache_data_path.exists():
+            await cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
             )
         async with _aiofiles.open(
@@ -123,7 +122,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
             )
             data["args"] = args.arguments
 
-            def gen_inputs() -> _typing.Iterator[str]:
+            async def gen_inputs():
                 mod_times: _typing.MutableMapping[str, int] = data.setdefault(
                     "mod_times", {}
                 )
@@ -140,7 +139,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 for root, dirs, files in _os.walk(
                     folder, topdown=True, onerror=on_error, followlinks=False
                 ):
-                    if _pathlib.Path(root).resolve(strict=True) == folder:
+                    if await folder.samefile(root):
                         exclude: str
                         for exclude in _ROOT_DIR_EXCLUDES:
                             try:
@@ -183,7 +182,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                             finalizers.append(finalize)
                 mod_times.clear()
 
-            inputs: _typing.Sequence[str] = tuple(gen_inputs())
+            inputs = [input async for input in gen_inputs()]
             print(f"Using {len(inputs)} input(s)")
             success: bool = True
             if inputs:

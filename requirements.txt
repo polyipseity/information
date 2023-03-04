@@ -1,5 +1,7 @@
 --index-url https://pypi.org/simple/
 
 aiofiles
+aioshutil
+anyio
 cihai
 pytextgen
