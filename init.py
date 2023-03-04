@@ -14,6 +14,7 @@ import logging as _logging
 import operator as _operator
 import os as _os
 import sys as _sys
+import tools.pytextgen.main as _pytextgen_main
 import types as _types
 import typing as _typing
 
@@ -187,9 +188,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
             success: bool = True
             if inputs:
                 try:
-                    import tools.pytextgen.main as _main
-
-                    entry: _argparse.Namespace = _main.parser().parse_args(
+                    entry: _argparse.Namespace = _pytextgen_main.parser().parse_args(
                         tuple(
                             _itertools.chain(
                                 args.arguments,
