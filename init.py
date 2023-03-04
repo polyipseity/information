@@ -14,6 +14,7 @@ import operator as _operator
 import os as _os
 import sys as _sys
 import tools.pytextgen.main as _pytextgen_main
+import tools.pytextgen.util as _pytextgen_util
 import types as _types
 import typing as _typing
 
@@ -153,7 +154,10 @@ async def main(args: Arguments) -> _typing.NoReturn:
                             try:
                                 if (
                                     diff_args
-                                    or mod_times[path] != _os.lstat(path).st_mtime_ns
+                                    or mod_times[path]
+                                    != (
+                                        await _pytextgen_util.asyncify(_os.lstat)(path)
+                                    ).st_mtime_ns
                                 ):
                                     yield path
                             except KeyError:
@@ -172,12 +176,14 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                     **{**OPEN_OPTIONS, "newline": ""},
                                 ) as file:
                                     text = await file.read()
-                                    seek = file.seek(0)
-                                    text = text.replace(_os.linesep, "\n")
-                                    await seek
+                                    async with _asyncio.TaskGroup() as group:
+                                        group.create_task(file.seek(0))
+                                        text = text.replace(_os.linesep, "\n")
                                     await file.write(text)
                                     await file.truncate()
-                                __mod_times[__path] = _os.lstat(__path).st_mtime_ns
+                                __mod_times[__path] = (
+                                    await _pytextgen_util.asyncify(_os.lstat)(__path)
+                                ).st_mtime_ns
 
                             finalizers.append(finalize)
                 mod_times.clear()
