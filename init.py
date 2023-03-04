@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-import aiofiles as _aiofiles
 import aioshutil as _aioshutil
 import anyio as _anyio
 import appdirs as _appdirs
@@ -95,7 +94,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
             await cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
             )
-        async with _aiofiles.open(
+        async with await _anyio.open_file(
             cache_data_path, mode="r+t", **OPEN_OPTIONS
         ) as cache_data:
             try:
@@ -167,7 +166,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 ] = mod_times,
                                 __path: str = path,
                             ):
-                                async with _aiofiles.open(
+                                async with await _anyio.open_file(
                                     __path,
                                     mode="r+t",
                                     **{**OPEN_OPTIONS, "newline": ""},
