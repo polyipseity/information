@@ -221,7 +221,7 @@ def parser(
         _argparse.ArgumentParser if parent is None else parent
     )(
         prog=prog,
-        description="input wrapper for tools for notes",
+        description="input wrapper for tools",
         add_help=True,
         allow_abbrev=False,
         exit_on_error=False,
