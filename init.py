@@ -13,32 +13,12 @@ import logging as _logging
 import operator as _operator
 import os as _os
 import sys as _sys
+import tools.pytextgen.globals as _pytextgen_globals
 import tools.pytextgen.main as _pytextgen_main
 import tools.pytextgen.util as _pytextgen_util
 import types as _types
 import typing as _typing
 
-
-@_typing.final
-class _OpenOptions(_typing.TypedDict):
-    encoding: str
-    errors: _typing.Literal[
-        "strict",
-        "ignore",
-        "replace",
-        "surrogateescape",
-        "xmlcharrefreplace",
-        "backslashreplace",
-        "namereplace",
-    ]
-    newline: None | _typing.Literal["", "\n", "\r", "\r\n"]
-
-
-OPEN_OPTIONS = _OpenOptions(
-    encoding="UTF-8",
-    errors="strict",
-    newline=None,
-)
 _LOCAL_APP_DIRS = _appdirs.AppDirs(
     appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
     appauthor="polyipseity",
@@ -96,7 +76,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 "", encoding="UTF-8", errors="strict", newline=None
             )
         async with await _anyio.open_file(
-            cache_data_path, mode="r+t", **OPEN_OPTIONS
+            cache_data_path,
+            mode="r+t",
+            **_pytextgen_globals.OPEN_OPTIONS,
         ) as cache_data:
             try:
                 data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
@@ -173,7 +155,10 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 async with await _anyio.open_file(
                                     __path,
                                     mode="r+t",
-                                    **{**OPEN_OPTIONS, "newline": ""},
+                                    **{
+                                        **_pytextgen_globals.OPEN_OPTIONS,
+                                        "newline": "",
+                                    },
                                 ) as file:
                                     text = await file.read()
                                     async with _asyncio.TaskGroup() as group:
