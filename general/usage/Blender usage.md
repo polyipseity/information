@@ -12,9 +12,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2023-04-03,65,316-->
 - new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-03-08,43,296-->
 - undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-03-08,43,296-->
-- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-03-05,40,290!2023-03-11,27,236-->
+- redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-03-11,27,236-->
 - quit:::Ctrl+Q <!--SR:!2023-03-06,41,290!2023-04-27,80,296-->
-- help:::F1 <!--SR:!2023-03-05,42,290!2023-03-16,49,290-->
+- help:::F1 <!--SR:!2023-07-02,119,290!2023-03-16,49,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-04-14,42,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-03-17,50,296-->
 - file context menu:::F4 <!--SR:!2023-03-09,16,210!2023-03-26,31,256-->
@@ -22,7 +22,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-03-07,42,296-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-03-10,10,130!2023-04-11,58,256-->
-- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-03-04,27,196-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-04-28,54,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-03-06,39,276-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-03-25,29,215-->
@@ -30,7 +30,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### editing
 
 - delete w/ confirmation:::X <!--SR:!2023-08-02,155,310!2023-08-15,166,316-->
-- delete w/o confirmation:::Delete <!--SR:!2023-07-06,131,310!2023-03-05,38,276-->
+- delete w/o confirmation:::Delete <!--SR:!2023-07-06,131,310!2023-06-21,108,276-->
 
 ### editor
 
@@ -39,7 +39,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-05-16,84,276-->
 - hide selection:::H <!--SR:!2023-05-22,84,250!2023-07-04,127,290-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
-- toggle toolbar:::T <!--SR:!2023-03-04,39,290!2023-05-21,85,276-->
+- toggle toolbar:::T <!--SR:!2023-06-26,113,290!2023-05-21,85,276-->
 - toggle sidebar:::N <!--SR:!2023-04-12,59,256!2023-03-12,35,236-->
 
 ### 3D viewport
