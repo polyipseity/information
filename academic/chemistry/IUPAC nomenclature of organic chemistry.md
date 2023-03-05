@@ -7,7 +7,7 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 principles: gen.TextCode = gen.common.seq_to_code((
 		'[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)',
 		'identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)',
@@ -63,66 +63,66 @@ punctuations: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('5193cd'),
 		text=gen.common.quote_text(principles),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('48dca2'),
 		text=gen.common.memorize_linked_seq(principles,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('48dca2')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('12cd9e'),
 		text=gen.common.quote_text(id_parent),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('920dca'),
 		text=gen.common.memorize_linked_seq(id_parent,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('920dca')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('10dacd'),
 		text=gen.common.quote_text(id_num_dir),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('abacdf'),
 		text=gen.common.memorize_linked_seq(id_num_dir,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('abacdf')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ab93dd'),
 		text=gen.common.quote_text(arrange),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('828019'),
 		text=gen.common.memorize_linked_seq(arrange,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('828019')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('299372'),
 		text=gen.common.quote_text(pronuciations),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('19fc21'),
 		text=gen.common.memorize_two_sided(pronuciations,
 			states=await read.read_flashcard_states(__env__.cwf_section('19fc21')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('a920de'),
 		text=gen.common.quote_text(punctuations),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('9293da'),
 		text=gen.common.memorize_linked_seq(punctuations,
 			hinted=False,
@@ -272,7 +272,7 @@ The steps for naming an organic compound are:
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }(none){text:
 - }2{text:\: }di-{text:
@@ -281,12 +281,12 @@ text: gen.TextCode = gen.TextCode.compile(
 - }5/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
 )
 items: gen.TextCode = gen.common
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('ad83dc'),
 		text=gen.common.quote_text(text),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('19dcda'),
 		text=gen.common.memorize_two_sided(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('19dcda')),
@@ -321,7 +321,7 @@ return gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }meth-{text:
 - }2{text:\: }eth-{text:
@@ -345,12 +345,12 @@ text: gen.TextCode = gen.TextCode.compile(
 - }20{text:\: }icos-'''
 )
 items: gen.TextCode = gen.common
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('1239c2'),
 		text=gen.common.quote_text(text),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ca1123'),
 		text=gen.common.memorize_two_sided(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('ca1123')),
@@ -415,7 +415,7 @@ return gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 import typing
 @typing.final
 class Group(typing.NamedTuple):
@@ -464,12 +464,12 @@ table: str = gen.common.quotette(
 )
 text: gen.TextCode = gen.common.maps_to_code(map,
 	name_cloze=True,)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('28dcee'),
 		text=table,
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('a39fd2'),
 		text=gen.common.cloze_text(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('a39fd2')),
@@ -620,7 +620,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 import typing
 @typing.final
 class Affixes(typing.NamedTuple):
@@ -639,8 +639,8 @@ table: gen.TextCode = gen.TextCode.compile(gen.common.rows_to_table(data,
 			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
 		),
 	))
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('adc061'),
 		text=gen.common.cloze_text(table,
 			states=await read.read_flashcard_states(__env__.cwf_section('adc061')),
@@ -666,7 +666,7 @@ return gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 text: gen.TextCode = gen.common.seq_to_code((
 	'cation',
 	'carboxylic acid',
@@ -681,12 +681,12 @@ text: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(highest)_}',
 	suffix='{mem:_(lowest)_}',)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('19cfa2'),
 		text=gen.common.quote_text(text),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ad92c1'),
 		text=gen.common.memorize_linked_seq(text,
 			hinted=False,

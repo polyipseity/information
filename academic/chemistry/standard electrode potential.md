@@ -11,7 +11,7 @@ aliases: ['electrochemical series',]
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 import decimal, types, typing
 bs: str = '\\'
 
@@ -75,19 +75,19 @@ elements: gen.TextCode = gen.TextCode.compile(
 	'{}'.join(f'{gen.TextCode.escape(ele)}{{}}{gen.TextCode.escape("<br/>".join(rdx.equation for rdx in data_by_element[ele]))}' for ele in sorted(data_by_element))
 )
 
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('230419'),
 		text=table,
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('9209fd'),
 		text=gen.common.memorize_two_sided(potentials,
 			reversible=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('9209fd')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ab92dd'),
 		text=gen.common.memorize_two_sided(elements,
 			states=await read.read_flashcard_states(__env__.cwf_section('ab92dd'))

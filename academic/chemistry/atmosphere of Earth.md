@@ -7,7 +7,7 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 data: gen.TextCode = gen.common.seq_to_code((
 	R'N<sub>2</sub>{text:\: 78.084%}',
 	R'O<sub>2</sub>{text:\: 20.946%}',
@@ -20,12 +20,12 @@ data: gen.TextCode = gen.common.seq_to_code((
 sem: gen.TextCode = gen.TextCode.compile(
 	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('a34f1d'),
 		text=gen.common.quote_text(data),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('123480'),
 		text=gen.common.memorize_linked_seq(data,
 			tag='mem lnk',
@@ -33,7 +33,7 @@ return gen.Results(
 			states=await read.read_flashcard_states(__env__.cwf_section('123480')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('1ad236'),
 		text=gen.common.semantics_seq_map(data, sem,
 			states=await read.read_flashcard_states(__env__.cwf_section('1ad236')),
