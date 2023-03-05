@@ -7,8 +7,8 @@
 ### window management
 
 - pop up window menu:::Alt+Space <!--SR:!2023-03-28,49,250!2023-05-03,80,270-->
-- close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-04-07,62,270!2023-03-04,35,250-->
-- restore window size:::Alt+Space, R <!--SR:!2023-03-12,39,250!2023-03-05,32,230-->
+- close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-04-07,62,270!2023-07-05,122,270-->
+- restore window size:::Alt+Space, R <!--SR:!2023-03-12,39,250!2023-03-23,18,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-03-09,37,250!2023-03-15,45,290-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-03-11,27,230!2023-04-08,63,270-->
 - move window to bottom:::Alt+Esc <!--SR:!2023-03-06,34,230!2023-04-09,64,270-->
