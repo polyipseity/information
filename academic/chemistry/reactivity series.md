@@ -11,7 +11,7 @@ aliases: ['activity series',]
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 import typing
 data: typing.Mapping[str, typing.Mapping[str, str]] = {
 	'potassium': {
@@ -87,21 +87,21 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'none',
 	},
 }
-text: gen.TextCode = gen.common.maps_to_code(data)
-series: gen.TextCode = gen.common.seq_to_code(data.keys(),
+text: gen.TextCode = gen.maps_to_code(data)
+series: gen.TextCode = gen.seq_to_code(data.keys(),
 	index=1,
 	prefix='{mem:_(most reactive)_}',
 	suffix='{mem:_(least reactive)_}',)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('a2994d'),
-		text=gen.common.cloze_text(text,
+		text=gen.cloze_text(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('a2994d'))
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('299018'),
-		text=gen.common.memorize_linked_seq(series,
+		text=gen.memorize_linked_seq(series,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('299018')),
 		),

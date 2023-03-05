@@ -7,8 +7,8 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
-principles: gen.TextCode = gen.common.seq_to_code((
+from pytextgen import gen, read, util
+principles: gen.TextCode = gen.seq_to_code((
 		'[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)',
 		'identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)',
 		'identify side-chains',
@@ -25,7 +25,7 @@ principles: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-id_parent: gen.TextCode = gen.common.seq_to_code((
+id_parent: gen.TextCode = gen.seq_to_code((
 		'most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)',
 		'most multiple bonds',
 		'maximum length',
@@ -35,7 +35,7 @@ id_parent: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-id_num_dir: gen.TextCode = gen.common.seq_to_code((
+id_num_dir: gen.TextCode = gen.seq_to_code((
 		'smallest locant for the suffix functional group',
 		'smallest locant for multiple bonds',
 		'smallest locant for prefixes',
@@ -43,7 +43,7 @@ id_num_dir: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-arrange: gen.TextCode = gen.common.seq_to_code((
+arrange: gen.TextCode = gen.seq_to_code((
 		'prefix order: alphabetical order ignoring prefixes for type count',
 		'bond order: single bond, double bond, triple bond, ...',
 	),
@@ -55,7 +55,7 @@ pronuciations: gen.TextCode = gen.TextCode.compile(
 - }bond suffix is followed by prefix for type count{text:\: }keep '-e'{text:
 - }prefix for carbon count is followed by prefix for type count{text:\: }add '-a'{}'''
 )
-punctuations: gen.TextCode = gen.common.seq_to_code((
+punctuations: gen.TextCode = gen.seq_to_code((
 		'commas (,) between locants',
 		'hyphens (-) between word and locant',
 		'remove (most) spaces ( )',
@@ -63,68 +63,68 @@ punctuations: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('5193cd'),
-		text=gen.common.quote_text(principles),
+		text=gen.quote_text(principles),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('48dca2'),
-		text=gen.common.memorize_linked_seq(principles,
+		text=gen.memorize_linked_seq(principles,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('48dca2')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('12cd9e'),
-		text=gen.common.quote_text(id_parent),
+		text=gen.quote_text(id_parent),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('920dca'),
-		text=gen.common.memorize_linked_seq(id_parent,
+		text=gen.memorize_linked_seq(id_parent,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('920dca')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('10dacd'),
-		text=gen.common.quote_text(id_num_dir),
+		text=gen.quote_text(id_num_dir),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('abacdf'),
-		text=gen.common.memorize_linked_seq(id_num_dir,
+		text=gen.memorize_linked_seq(id_num_dir,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('abacdf')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ab93dd'),
-		text=gen.common.quote_text(arrange),
+		text=gen.quote_text(arrange),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('828019'),
-		text=gen.common.memorize_linked_seq(arrange,
+		text=gen.memorize_linked_seq(arrange,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('828019')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('299372'),
-		text=gen.common.quote_text(pronuciations),
+		text=gen.quote_text(pronuciations),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('19fc21'),
-		text=gen.common.memorize_two_sided(pronuciations,
+		text=gen.memorize_two_sided(pronuciations,
 			states=await read.read_flashcard_states(__env__.cwf_section('19fc21')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('a920de'),
-		text=gen.common.quote_text(punctuations),
+		text=gen.quote_text(punctuations),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('9293da'),
-		text=gen.common.memorize_linked_seq(punctuations,
+		text=gen.memorize_linked_seq(punctuations,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('9293da')),
 		),
@@ -272,7 +272,7 @@ The steps for naming an organic compound are:
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }(none){text:
 - }2{text:\: }di-{text:
@@ -280,15 +280,14 @@ text: gen.TextCode = gen.TextCode.compile(
 - }4{text:\: }tetra-{text:
 - }5/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
 )
-items: gen.TextCode = gen.common
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('ad83dc'),
-		text=gen.common.quote_text(text),
+		text=gen.quote_text(text),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('19dcda'),
-		text=gen.common.memorize_two_sided(text,
+		text=gen.memorize_two_sided(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('19dcda')),
 		),
 	),
@@ -321,7 +320,7 @@ return gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 text: gen.TextCode = gen.TextCode.compile(
 	R'''{text:- }1{text:\: }meth-{text:
 - }2{text:\: }eth-{text:
@@ -344,15 +343,14 @@ text: gen.TextCode = gen.TextCode.compile(
 - }19{text:\: }nonadec-{text:
 - }20{text:\: }icos-'''
 )
-items: gen.TextCode = gen.common
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('1239c2'),
-		text=gen.common.quote_text(text),
+		text=gen.quote_text(text),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ca1123'),
-		text=gen.common.memorize_two_sided(text,
+		text=gen.memorize_two_sided(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('ca1123')),
 		),
 	),
@@ -415,7 +413,7 @@ return gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 import typing
 @typing.final
 class Group(typing.NamedTuple):
@@ -453,8 +451,8 @@ map: typing.Mapping[str, typing.Mapping[str, str]] = {
 		**group.misc,
 	} for group in data
 }
-table: str = gen.common.quotette(
-	gen.common.rows_to_table(data,
+table: str = gen.quotette(
+	gen.rows_to_table(data,
 		names=('class', 'group', 'formula', 'prefix', 'suffix', 'infix', 'misc',),
 		values=lambda group: (group.clazz, group.group, group.formula, group.prefix, group.suffix, group.infix,
 			'\n'.join(f'- {key}: {value}' for key, value in group.misc.items()),
@@ -462,16 +460,16 @@ table: str = gen.common.quotette(
 	),
 	prefix='> ',
 )
-text: gen.TextCode = gen.common.maps_to_code(map,
+text: gen.TextCode = gen.maps_to_code(map,
 	name_cloze=True,)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('28dcee'),
 		text=table,
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('a39fd2'),
-		text=gen.common.cloze_text(text,
+		text=gen.cloze_text(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('a39fd2')),
 		),
 	),
@@ -620,7 +618,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
+from pytextgen import gen, read, util
 import typing
 @typing.final
 class Affixes(typing.NamedTuple):
@@ -633,16 +631,16 @@ data: typing.Sequence[Affixes] = (
 	Affixes(element='bromine', prefix='bromo-', suffix='bromide',),
 	Affixes(element='iodine', prefix='iodo-', suffix='iodide',),
 )
-table: gen.TextCode = gen.TextCode.compile(gen.common.rows_to_table(data,
+table: gen.TextCode = gen.TextCode.compile(gen.rows_to_table(data,
 		names=('element', 'prefix', 'suffix',),
 		values=lambda affixes: map(gen.TextCode.escape,
 			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
 		),
 	))
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('adc061'),
-		text=gen.common.cloze_text(table,
+		text=gen.cloze_text(table,
 			states=await read.read_flashcard_states(__env__.cwf_section('adc061')),
 		),
 	),
@@ -666,8 +664,8 @@ return gen.Results(
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
-text: gen.TextCode = gen.common.seq_to_code((
+from pytextgen import gen, read, util
+text: gen.TextCode = gen.seq_to_code((
 	'cation',
 	'carboxylic acid',
 	'carboxylic acid derivate',
@@ -681,14 +679,14 @@ text: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(highest)_}',
 	suffix='{mem:_(lowest)_}',)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('19cfa2'),
-		text=gen.common.quote_text(text),
+		text=gen.quote_text(text),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('ad92c1'),
-		text=gen.common.memorize_linked_seq(text,
+		text=gen.memorize_linked_seq(text,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('ad92c1')),
 		),
