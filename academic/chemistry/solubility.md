@@ -69,11 +69,11 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 		'exception(s)': 'group I, group II, and NH<sub>4</sub><sup>+</sup> compounds',
 	},
 }
-text: gen.TextCode = gen.common.maps_to_code(data)
+text: gen.TextCode = gen.maps_to_code(data)
 return util.Results(
 	util.Result(
 		location=__env__.cwf_section('901862'),
-		text=gen.common.cloze_text(text,
+		text=gen.cloze_text(text,
 			states=await read.read_flashcard_states(__env__.cwf_section('901862')),
 		),
 	),

@@ -57,17 +57,17 @@ for rdx in data:
 	data_by_element[rdx.element] = data_by_element.get(rdx.element, ()) + (rdx,)
 data_by_element = types.MappingProxyType(data_by_element)
 
-table: str = gen.common.quotette(f''' 
+table: str = gen.quotette(f''' 
 (lowest oxidizing power/highest reducing power)
 
-{gen.common.rows_to_table(data,
+{gen.rows_to_table(data,
 	names=('element', ('oxidant', 'right'), ('⇌', 'center'), ('reductant', 'left'), f'$E^{bs}ominus_{bs}text{{red}}$/V', 'electrons'),
 	values=lambda rdx: (rdx.element, rdx.oxidant, '⇌', rdx.reductant, rdx.potential, rdx.electrons),
 )}
 
 (highest oxidizing power/lowest reducing power)''',
 	prefix='> ',)
-potentials: gen.TextCode = gen.common.two_columns_to_code(data,
+potentials: gen.TextCode = gen.two_columns_to_code(data,
 	left=lambda rdx: gen.TextCode.escape(rdx.equation),
 	right=lambda rdx: gen.TextCode.escape(str(rdx.potential))
 )
@@ -82,14 +82,14 @@ return util.Results(
 	),
 	util.Result(
 		location=__env__.cwf_section('9209fd'),
-		text=gen.common.memorize_two_sided(potentials,
+		text=gen.memorize_two_sided(potentials,
 			reversible=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('9209fd')),
 		),
 	),
 	util.Result(
 		location=__env__.cwf_section('ab92dd'),
-		text=gen.common.memorize_two_sided(elements,
+		text=gen.memorize_two_sided(elements,
 			states=await read.read_flashcard_states(__env__.cwf_section('ab92dd'))
 		),
 	),
