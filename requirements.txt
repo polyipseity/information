@@ -2,5 +2,6 @@
 
 aioshutil
 anyio
+asyncstdlib
 cihai
 pytextgen
