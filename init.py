@@ -14,9 +14,11 @@ import logging as _logging
 import operator as _operator
 import os as _os
 import sys as _sys
-import tools.pytextgen.globals as _pytextgen_globals
-import tools.pytextgen.main as _pytextgen_main
-import tools.pytextgen.util as _pytextgen_util
+from tools.pytextgen import (
+    globals as _pytextgen_globals,
+    main as _pytextgen_main,
+    util as _pytextgen_util,
+)
 import types as _types
 import typing as _typing
 
