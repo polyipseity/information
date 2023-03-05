@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 import aioshutil as _aioshutil
 import anyio as _anyio
+import asyncstdlib as _asyncstdlib
 import appdirs as _appdirs
 import argparse as _argparse
 import asyncio as _asyncio
@@ -173,7 +174,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                             finalizers.append(finalize)
                 mod_times.clear()
 
-            inputs = tuple([input async for input in gen_inputs()])
+            inputs = await _asyncstdlib.tuple(gen_inputs())
             print(f"Using {len(inputs)} input(s)")
             success: bool = True
             if inputs:
