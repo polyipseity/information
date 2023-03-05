@@ -83,21 +83,21 @@ class Section(typing.NamedTuple):
 		rows: typing.Iterable[Ion]
 		)-> typing.Self:
 		return cls(
-			table=gen.common.quotette(gen.common.rows_to_table(rows,
+			table=gen.quotette(gen.rows_to_table(rows,
 					names=('name', 'symbol', 'charage', 'color'),
 					values=util.identity,
 				),
 				prefix='> ',
 			),
-			symbols=gen.common.two_columns_to_code(rows,
+			symbols=gen.two_columns_to_code(rows,
 				left=lambda ion: gen.TextCode.escape(ion.name),
 				right=lambda ion: gen.TextCode.escape(ion.symbol),
 			),
-			charges=gen.common.two_columns_to_code(rows,
+			charges=gen.two_columns_to_code(rows,
 				left=lambda ion: gen.TextCode.escape(ion.name),
 				right=lambda ion: gen.TextCode.escape(ion.charge),
 			),
-			colors=gen.common.two_columns_to_code(rows,
+			colors=gen.two_columns_to_code(rows,
 				left=lambda ion: gen.TextCode.escape(ion.name),
 				right=lambda ion: gen.TextCode.escape(ion.color),
 			),
@@ -105,53 +105,53 @@ class Section(typing.NamedTuple):
 cation_sect: Section = Section.from_rows(cations)
 anion_sect: Section = Section.from_rows(anions)
 
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('d9192d'),
 		text=cation_sect.table,
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('3928fd'),
-		text=gen.common.memorize_two_sided(cation_sect.symbols,
+		text=gen.memorize_two_sided(cation_sect.symbols,
 			reversible=True,
 			states=await read.read_flashcard_states(__env__.cwf_section('3928fd')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('8d8dee'),
-		text=gen.common.memorize_two_sided(cation_sect.charges,
+		text=gen.memorize_two_sided(cation_sect.charges,
 			reversible=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('8d8dee')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('a5defa'),
-		text=gen.common.memorize_two_sided(cation_sect.colors,
+		text=gen.memorize_two_sided(cation_sect.colors,
 			reversible=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('a5defa')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('a9fdfe'),
 		text=anion_sect.table,
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('2fde12'),
-		text=gen.common.memorize_two_sided(anion_sect.symbols,
+		text=gen.memorize_two_sided(anion_sect.symbols,
 			reversible=True,
 			states=await read.read_flashcard_states(__env__.cwf_section('2fde12')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('8c7820'),
-		text=gen.common.memorize_two_sided(anion_sect.charges,
+		text=gen.memorize_two_sided(anion_sect.charges,
 			reversible=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('8c7820')),
 		),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('104852'),
-		text=gen.common.memorize_two_sided(anion_sect.colors,
+		text=gen.memorize_two_sided(anion_sect.colors,
 			reversible=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('104852')),
 		),

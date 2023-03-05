@@ -11,8 +11,8 @@ aliases: ['oxidation number',]
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
-data: gen.TextCode = gen.common.seq_to_code((
+from pytextgen import gen, read, util
+data: gen.TextCode = gen.seq_to_code((
 		R'element in a free form\: 0',
 		R'ionic compound or ion\: _charge_',
 		R'fluorine\: -1',
@@ -26,14 +26,14 @@ data: gen.TextCode = gen.common.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-return gen.Results(
-	gen.Result(
+return util.Results(
+	util.Result(
 		location=__env__.cwf_section('2d99fe'),
-		text=gen.common.quote_text(data),
+		text=gen.quote_text(data),
 	),
-	gen.Result(
+	util.Result(
 		location=__env__.cwf_section('341d9e'),
-		text=gen.common.memorize_linked_seq(data,
+		text=gen.memorize_linked_seq(data,
 			hinted=False,
 			states=await read.read_flashcard_states(__env__.cwf_section('341d9e')),
 		),
