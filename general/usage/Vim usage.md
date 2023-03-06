@@ -74,7 +74,7 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-03-09,25,253!2023-05-05,73,313-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-03-06,18,228-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-03-16,10,208-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-03,31,273!2023-05-07,75,313-->
 
 ## options

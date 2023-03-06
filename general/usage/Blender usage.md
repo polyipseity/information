@@ -13,7 +13,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-03-08,43,296-->
 - undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-03-08,43,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-03-11,27,236-->
-- quit:::Ctrl+Q <!--SR:!2023-03-06,41,290!2023-04-27,80,296-->
+- quit:::Ctrl+Q <!--SR:!2023-07-01,117,290!2023-04-27,80,296-->
 - help:::F1 <!--SR:!2023-07-02,119,290!2023-03-16,49,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-04-14,42,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-03-17,50,296-->
@@ -24,7 +24,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-03-10,10,130!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-04-28,54,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-07-03,126,296-->
-- play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-03-06,39,276-->
+- play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-03-18,42,250!2023-03-25,29,215-->
 
 ### editing
