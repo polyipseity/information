@@ -109,8 +109,8 @@ async def main(args: Arguments) -> _typing.NoReturn:
             data["args"] = args.arguments
 
             async def gen_inputs():
-                mod_times: _typing.MutableMapping[str, int] = data.setdefault(
-                    "mod_times", {}
+                cache: _typing.MutableMapping[str, tuple[int, str]] = data.setdefault(
+                    "cache", {}
                 )
 
                 def on_error(err: OSError) -> None:
@@ -119,62 +119,70 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     except OSError:
                         _logging.exception("Exception while walking folders")
 
-                root: str
-                dirs: _typing.MutableSequence[str]
-                files: _typing.Sequence[str]
+                async def maybe_yield(path: str):
+                    def finalizer():
+                        async def impl():
+                            async with await _anyio.open_file(
+                                path,
+                                mode="r+t",
+                                **{
+                                    **_pytextgen_globals.OPEN_OPTIONS,
+                                    "newline": "",
+                                },
+                            ) as file:
+                                text = await file.read()
+                                async with _asyncio.TaskGroup() as group:
+                                    group.create_task(file.seek(0))
+                                    text = text.replace(_os.linesep, "\n")
+                                await file.write(text)
+                                await file.truncate()
+                            cache[path] = (
+                                (
+                                    await _pytextgen_util.asyncify(_os.lstat)(path)
+                                ).st_mtime_ns,
+                                text,
+                            )
+
+                        del cache[path]
+                        return impl
+
+                    if diff_args:
+                        return finalizer()
+                    try:
+                        c_mtime, c_text = cache[path]
+                    except KeyError:
+                        return finalizer()
+                    if (
+                        await _pytextgen_util.asyncify(_os.lstat)(path)
+                    ).st_mtime_ns != c_mtime:
+                        async with await _anyio.open_file(
+                            path,
+                            mode="rt",
+                            **{
+                                **_pytextgen_globals.OPEN_OPTIONS,
+                                "newline": "",
+                            },
+                        ) as io:
+                            text = await io.read()
+                        if text != c_text:
+                            return finalizer()
+
                 for root, dirs, files in _os.walk(
                     folder, topdown=True, onerror=on_error, followlinks=False
                 ):
                     if await folder.samefile(root):
-                        exclude: str
                         for exclude in _ROOT_DIR_EXCLUDES:
                             try:
                                 dirs.remove(exclude)
                             except ValueError:
                                 pass
-                    file: str
                     for file in files:
                         if file.endswith(".md"):
-                            path: str = _os.path.join(root, file)
-                            try:
-                                if (
-                                    diff_args
-                                    or mod_times[path]
-                                    != (
-                                        await _pytextgen_util.asyncify(_os.lstat)(path)
-                                    ).st_mtime_ns
-                                ):
-                                    yield path
-                            except KeyError:
+                            path = _os.path.join(root, file)
+                            finalize = await maybe_yield(path)
+                            if finalize is not None:
+                                finalizers.append(finalize)
                                 yield path
-
-                            async def finalize(
-                                *,
-                                __mod_times: _typing.MutableMapping[
-                                    str, int
-                                ] = mod_times,
-                                __path: str = path,
-                            ):
-                                async with await _anyio.open_file(
-                                    __path,
-                                    mode="r+t",
-                                    **{
-                                        **_pytextgen_globals.OPEN_OPTIONS,
-                                        "newline": "",
-                                    },
-                                ) as file:
-                                    text = await file.read()
-                                    async with _asyncio.TaskGroup() as group:
-                                        group.create_task(file.seek(0))
-                                        text = text.replace(_os.linesep, "\n")
-                                    await file.write(text)
-                                    await file.truncate()
-                                __mod_times[__path] = (
-                                    await _pytextgen_util.asyncify(_os.lstat)(__path)
-                                ).st_mtime_ns
-
-                            finalizers.append(finalize)
-                mod_times.clear()
 
             inputs = await _asyncstdlib.tuple(gen_inputs())
             print(f"Using {len(inputs)} input(s)")
