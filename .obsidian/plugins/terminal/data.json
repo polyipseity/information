@@ -5,7 +5,7 @@
   "errorNoticeTimeout": 0,
   "hideStatusBar": "focused",
   "language": "",
-  "lastReadChangelogVersion": "3.2.0",
+  "lastReadChangelogVersion": "3.3.0",
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "preferredRenderer": "webgl",
