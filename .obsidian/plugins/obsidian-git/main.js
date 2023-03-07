@@ -20017,8 +20017,7 @@ var MyAdapter = class {
     this.indexmtime = void 0;
   }
   get gitDir() {
-    var _a2;
-    return (_a2 = this.plugin.settings.gitDir) != null ? _a2 : ".git";
+    return this.plugin.settings.gitDir || ".git";
   }
   maybeLog(text2) {
   }
