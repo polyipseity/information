@@ -143,7 +143,10 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 text,
                             )
 
-                        del cache[path]
+                        try:
+                            del cache[path]
+                        except KeyError:
+                            pass
                         return impl
 
                     if diff_args:
