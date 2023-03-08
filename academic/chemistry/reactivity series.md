@@ -154,7 +154,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-08,198,250!2023-08-02,286,250!2024-06-03,465,250!2024-06-22,478,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-06-19,103,230!2023-08-02,286,250!2024-06-03,465,250!2024-06-22,478,250-->
 
 > lead
 > - reaction with air: {{heat}}
