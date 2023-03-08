@@ -10,8 +10,8 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - open file:::Ctrl+O <!--SR:!2023-03-11,46,295!2023-03-12,46,296-->
 - save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2023-04-03,65,316-->
-- new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-03-08,43,296-->
-- undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-03-08,43,296-->
+- new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-07-07,121,296-->
+- undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-07-07,121,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-03-11,27,236-->
 - quit:::Ctrl+Q <!--SR:!2023-07-01,117,290!2023-04-27,80,296-->
 - help:::F1 <!--SR:!2023-07-02,119,290!2023-03-16,49,290-->
@@ -45,7 +45,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2023-07-04,126,290!2023-03-21,51,296-->
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-03-08,37,256!2023-03-13,14,216-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-06-15,99,256!2023-03-13,14,216-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2023-03-09,44,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-03-19,43,256-->
