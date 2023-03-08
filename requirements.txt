@@ -5,3 +5,4 @@ anyio
 asyncstdlib
 cihai
 pytextgen
+typing_extensions
