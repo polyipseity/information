@@ -71,7 +71,7 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-03-23,35,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-04-01,35,273!2023-03-13,29,253-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-03-27,43,273!2023-03-15,31,268-->
-- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-03-09,25,253!2023-05-05,73,313-->
+- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2023-05-05,73,313-->
 
 ## command
 - show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-03-16,10,208-->
