@@ -68,7 +68,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
         filename = _inspect.getframeinfo(frame).filename
         folder = _anyio.Path(filename).parent
 
-        local_data_folder = _anyio.Path(_LOCAL_APP_DIRS.user_data_dir)
+        local_data_folder = _anyio.Path(_LOCAL_APP_DIRS.user_data_dir) / str(
+            (await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino
+        )
         if not args.cached and await local_data_folder.exists():
             await _aioshutil.rmtree(local_data_folder, ignore_errors=False)
         await local_data_folder.mkdir(parents=True, exist_ok=True)
