@@ -68,12 +68,14 @@ async def main(args: Arguments) -> _typing.NoReturn:
         filename = _inspect.getframeinfo(frame).filename
         folder = _anyio.Path(filename).parent
 
-        local_data_folder = _anyio.Path(_LOCAL_APP_DIRS.user_data_dir)
-        if not args.cached and await local_data_folder.exists():
-            await _aioshutil.rmtree(local_data_folder, ignore_errors=False)
-        await local_data_folder.mkdir(parents=True, exist_ok=True)
+        cache_folder = _anyio.Path(_LOCAL_APP_DIRS.user_cache_dir) / str(
+            (await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino
+        )
+        if not args.cached and await cache_folder.exists():
+            await _aioshutil.rmtree(cache_folder, ignore_errors=False)
+        await cache_folder.mkdir(parents=True, exist_ok=True)
 
-        cache_data_path = local_data_folder / "cache.json"
+        cache_data_path = cache_folder / "cache.json"
         if not await cache_data_path.exists():
             await cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
