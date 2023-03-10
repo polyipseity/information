@@ -191,21 +191,20 @@ async def main(args: Arguments) -> _typing.NoReturn:
 
             inputs = await _asyncstdlib.tuple(gen_inputs())
             print(f"Using {len(inputs)} input(s)")
-            success: bool = True
-            if inputs:
-                try:
-                    entry: _argparse.Namespace = _pytextgen_main.parser().parse_args(
-                        tuple(
-                            _itertools.chain(
-                                args.arguments,
-                                ("--",),
-                                inputs,
-                            )
+            try:
+                entry: _argparse.Namespace = _pytextgen_main.parser().parse_args(
+                    tuple(
+                        _itertools.chain(
+                            args.arguments,
+                            ("--",),
+                            inputs,
                         )
                     )
-                    await entry.invoke(entry)
-                except SystemExit as ex:
-                    success = ex.code == 0
+                )
+                await entry.invoke(entry)
+                success = True
+            except SystemExit as ex:
+                success = ex.code == 0
 
             if success:
                 await _asyncio.gather(
