@@ -13,7 +13,7 @@
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-03-11,27,230!2023-04-08,63,270-->
 - move window to bottom:::Alt+Esc <!--SR:!2023-05-19,74,230!2023-04-09,64,270-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-03-15,39,250!2023-04-10,57,250-->
-- maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-03-10,34,230!2023-05-01,78,270-->
+- maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-05-25,76,230!2023-05-01,78,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2023-04-29,67,250!2023-05-26,81,230-->
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2023-03-27,20,230!2023-04-09,62,270-->
 - toggle unfocused windows:::⊞Win+Home <!--SR:!2023-05-25,78,230!2023-04-13,60,250-->
@@ -26,5 +26,5 @@
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-04-14,61,250!2023-03-14,40,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-05-22,76,230!2023-04-06,53,250-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-05-27,80,230!2023-04-11,58,250-->
-- peek at desktop:::⊞Win+Comma <!--SR:!2023-03-10,26,230!2023-05-02,79,270-->
+- peek at desktop:::⊞Win+Comma <!--SR:!2023-05-06,57,230!2023-05-02,79,270-->
 - manage external displays:::⊞Win+P <!--SR:!2023-04-15,62,250!2023-03-12,36,230-->
