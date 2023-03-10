@@ -11,8 +11,9 @@ aliases: ['electrochemical series',]
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from decimal import Decimal
 from pytextgen import gen, read, util
-import decimal, types, typing
+import types, typing
 bs: str = '\\'
 
 @typing.final
@@ -20,41 +21,41 @@ class Redox(typing.NamedTuple):
 	element: str
 	oxidant: str
 	reductant: str
-	potential: decimal.Decimal
+	potential: Decimal
 	electrons: int
 
 	@property
 	def equation(self: typing.Self) -> str:
 		return f'{self.oxidant} ⇌ {self.reductant}'
 data: typing.Sequence[Redox] = tuple(sorted((
-	Redox(element='K', oxidant='K<sup>+</sup>(aq) + e<sup>-</sup>', reductant='K(s)', potential=decimal.Decimal('-2.931'), electrons=1),
-	Redox(element='Ca', oxidant='Ca<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Ca(s)', potential=decimal.Decimal('-2.868'), electrons=2),
-	Redox(element='Na', oxidant='Na<sup>+</sup>(aq) + e<sup>-</sup>', reductant='Na(s)', potential=decimal.Decimal('-2.71'), electrons=1),
-	Redox(element='Mg', oxidant='Mg<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Mg(s)', potential=decimal.Decimal('-2.372'), electrons=2),
-	Redox(element='Al', oxidant='Al<sup>3+</sup>(aq) + 3e<sup>-</sup>', reductant='Al(s)', potential=decimal.Decimal('-1.662'), electrons=3),
-	Redox(element='Zn', oxidant='Zn<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Zn(s)', potential=decimal.Decimal('-0.7618'), electrons=2),
-	Redox(element='Fe', oxidant='Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Fe(s)', potential=decimal.Decimal('-0.44'), electrons=2),
-	Redox(element='Pb', oxidant='Pb<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Pb(s)', potential=decimal.Decimal('-0.126'), electrons=2),
-	Redox(element='H', oxidant='2H<sup>+</sup>(aq) + 2e<sup>-</sup>', reductant='H<sub>2</sub>(g)', potential=decimal.Decimal('0'), electrons=2),
-	Redox(element='S', oxidant='S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2H<sup>+</sup>(aq)', reductant='2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)', potential=decimal.Decimal('0.08'), electrons=2),
-	Redox(element='S', oxidant='HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup>', reductant='SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)', potential=decimal.Decimal('0.16'), electrons=2),
-	Redox(element='S', oxidant='SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup>', reductant='SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)', potential=decimal.Decimal('0.17'), electrons=2),
-	Redox(element='Cu', oxidant='Cu<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Cu(s)', potential=decimal.Decimal('0.337'), electrons=2),
-	Redox(element='O', oxidant='O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup>', reductant='4OH<sup>-</sup>(aq)', potential=decimal.Decimal('0.401'), electrons=4),
-	Redox(element='I', oxidant='I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup>', reductant='3I<sup>-</sup>(aq)', potential=decimal.Decimal('0.53'), electrons=2),
-	Redox(element='I', oxidant='I<sub>2</sub>(s) + 2e<sup>-</sup>', reductant='2I<sup>-</sup>(aq)', potential=decimal.Decimal('0.54'), electrons=2),
-	Redox(element='Fe', oxidant='Fe<sup>3+</sup>(aq) + e<sup>-</sup>', reductant='Fe<sup>2+</sup>(aq)', potential=decimal.Decimal('0.77'), electrons=1),
-	Redox(element='Ag', oxidant='Ag<sup>+</sup>(aq) + e<sup>-</sup>', reductant='Ag(s)', potential=decimal.Decimal('0.7996'), electrons=1),
-	Redox(element='N', oxidant='NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup>', reductant='NO<sub>2</sub>(g) + H<sub>2</sub>O(l)', potential=decimal.Decimal('0.8'), electrons=1),
-	Redox(element='N', oxidant='NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup>', reductant='NO(g) + 2H<sub>2</sub>O(l)', potential=decimal.Decimal('0.958'), electrons=3),
-	Redox(element='Br', oxidant='Br<sub>2</sub>(aq) + 2e<sup>-</sup>', reductant='2Br<sup>-</sup>(aq)', potential=decimal.Decimal('1.0873'), electrons=2),
-	Redox(element='I', oxidant='2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup>', reductant='I<sub>2</sub>(s) + 6H<sub>2</sub>O(l)', potential=decimal.Decimal('1.2'), electrons=10),
-	Redox(element='O', oxidant='O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup>', reductant='2H<sub>2</sub>O(l)', potential=decimal.Decimal('1.229'), electrons=4),
-	Redox(element='Cr', oxidant='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup>', reductant='2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l)', potential=decimal.Decimal('1.33'), electrons=6),
-	Redox(element='Cl', oxidant='Cl<sub>2</sub>(g) + 2e<sup>-</sup>', reductant='2Cl<sup>-</sup>(aq)', potential=decimal.Decimal('1.36'), electrons=2),
-	Redox(element='Mn', oxidant='MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup>', reductant='Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l)', potential=decimal.Decimal('1.51'), electrons=5),
-	Redox(element='O', oxidant='S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup>', reductant='2SO<sub>4</sub><sup>2-</sup>(aq)', potential=decimal.Decimal('2.01'), electrons=2),
-	Redox(element='F', oxidant='F<sub>2</sub>(g) + 2e<sup>-</sup>', reductant='2F<sup>-</sup>(aq)', potential=decimal.Decimal('2.87'), electrons=2),
+	Redox(element='K', oxidant='K<sup>+</sup>(aq) + e<sup>-</sup>', reductant='K(s)', potential=Decimal('-2.931'), electrons=1),
+	Redox(element='Ca', oxidant='Ca<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Ca(s)', potential=Decimal('-2.868'), electrons=2),
+	Redox(element='Na', oxidant='Na<sup>+</sup>(aq) + e<sup>-</sup>', reductant='Na(s)', potential=Decimal('-2.71'), electrons=1),
+	Redox(element='Mg', oxidant='Mg<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Mg(s)', potential=Decimal('-2.372'), electrons=2),
+	Redox(element='Al', oxidant='Al<sup>3+</sup>(aq) + 3e<sup>-</sup>', reductant='Al(s)', potential=Decimal('-1.662'), electrons=3),
+	Redox(element='Zn', oxidant='Zn<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Zn(s)', potential=Decimal('-0.7618'), electrons=2),
+	Redox(element='Fe', oxidant='Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Fe(s)', potential=Decimal('-0.44'), electrons=2),
+	Redox(element='Pb', oxidant='Pb<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Pb(s)', potential=Decimal('-0.126'), electrons=2),
+	Redox(element='H', oxidant='2H<sup>+</sup>(aq) + 2e<sup>-</sup>', reductant='H<sub>2</sub>(g)', potential=Decimal('0'), electrons=2),
+	Redox(element='S', oxidant='S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2H<sup>+</sup>(aq)', reductant='2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)', potential=Decimal('0.08'), electrons=2),
+	Redox(element='S', oxidant='HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup>', reductant='SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)', potential=Decimal('0.16'), electrons=2),
+	Redox(element='S', oxidant='SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup>', reductant='SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)', potential=Decimal('0.17'), electrons=2),
+	Redox(element='Cu', oxidant='Cu<sup>2+</sup>(aq) + 2e<sup>-</sup>', reductant='Cu(s)', potential=Decimal('0.337'), electrons=2),
+	Redox(element='O', oxidant='O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup>', reductant='4OH<sup>-</sup>(aq)', potential=Decimal('0.401'), electrons=4),
+	Redox(element='I', oxidant='I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup>', reductant='3I<sup>-</sup>(aq)', potential=Decimal('0.53'), electrons=2),
+	Redox(element='I', oxidant='I<sub>2</sub>(s) + 2e<sup>-</sup>', reductant='2I<sup>-</sup>(aq)', potential=Decimal('0.54'), electrons=2),
+	Redox(element='Fe', oxidant='Fe<sup>3+</sup>(aq) + e<sup>-</sup>', reductant='Fe<sup>2+</sup>(aq)', potential=Decimal('0.77'), electrons=1),
+	Redox(element='Ag', oxidant='Ag<sup>+</sup>(aq) + e<sup>-</sup>', reductant='Ag(s)', potential=Decimal('0.7996'), electrons=1),
+	Redox(element='N', oxidant='NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup>', reductant='NO<sub>2</sub>(g) + H<sub>2</sub>O(l)', potential=Decimal('0.8'), electrons=1),
+	Redox(element='N', oxidant='NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup>', reductant='NO(g) + 2H<sub>2</sub>O(l)', potential=Decimal('0.958'), electrons=3),
+	Redox(element='Br', oxidant='Br<sub>2</sub>(aq) + 2e<sup>-</sup>', reductant='2Br<sup>-</sup>(aq)', potential=Decimal('1.0873'), electrons=2),
+	Redox(element='I', oxidant='2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup>', reductant='I<sub>2</sub>(s) + 6H<sub>2</sub>O(l)', potential=Decimal('1.2'), electrons=10),
+	Redox(element='O', oxidant='O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup>', reductant='2H<sub>2</sub>O(l)', potential=Decimal('1.229'), electrons=4),
+	Redox(element='Cr', oxidant='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup>', reductant='2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l)', potential=Decimal('1.33'), electrons=6),
+	Redox(element='Cl', oxidant='Cl<sub>2</sub>(g) + 2e<sup>-</sup>', reductant='2Cl<sup>-</sup>(aq)', potential=Decimal('1.36'), electrons=2),
+	Redox(element='Mn', oxidant='MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup>', reductant='Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l)', potential=Decimal('1.51'), electrons=5),
+	Redox(element='O', oxidant='S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup>', reductant='2SO<sub>4</sub><sup>2-</sup>(aq)', potential=Decimal('2.01'), electrons=2),
+	Redox(element='F', oxidant='F<sub>2</sub>(g) + 2e<sup>-</sup>', reductant='2F<sup>-</sup>(aq)', potential=Decimal('2.87'), electrons=2),
 ), key=lambda rdx: rdx.potential))
 data_by_element: typing.Mapping[str, typing.Sequence[Redox]] = {}
 for rdx in data:
