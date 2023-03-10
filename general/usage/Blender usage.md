@@ -21,7 +21,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-03-10,10,130!2023-04-11,58,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-03-16,6,130!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-04-28,54,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->

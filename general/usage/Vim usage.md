@@ -19,7 +19,7 @@ See also [Vim help files](https://vimhelp.org/).
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-04-16,59,308-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-03-27,43,270!2023-03-11,27,267-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
-- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-03-10,26,253!2023-03-30,42,288-->
+- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-03-30,42,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-05-10,78,313!2023-05-11,79,313-->
 - beginning of line:::0 <!--SR:!2023-05-09,77,310!2023-05-11,79,313-->
 - end of line:::$ <!--SR:!2023-05-08,76,313!2023-05-10,78,313-->
@@ -37,7 +37,7 @@ See also [Vim help files](https://vimhelp.org/).
 - quit insert mode:::\<Esc\> <!--SR:!2023-05-09,77,313!2023-05-08,76,313-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-04-18,61,293!2023-05-17,85,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-04-17,60,308-->
-- insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-03-10,26,253!2023-05-09,77,313-->
+- insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-03-26,42,273!2023-04-10,53,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-03-12,28,253!2023-03-18,34,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-04-13,56,293-->
