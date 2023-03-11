@@ -6,6 +6,10 @@ aliases: ['electrochemical series',]
 
 # standard electrode potential
 
+## usage
+
+Increase in standard electrode potential {{increases [oxidizing power](oxidation.md) and decreases [reducing power](reduction.md)}}, and vice versa.
+
 ## data
 
 %%
