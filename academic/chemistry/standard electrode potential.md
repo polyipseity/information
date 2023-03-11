@@ -6,6 +6,10 @@ aliases: ['electrochemical series',]
 
 # standard electrode potential
 
+## usage
+
+Increase in standard electrode potential {{increases [oxidizing power](oxidation.md) and decreases [reducing power](reduction.md)}}, and vice versa.
+
 ## data
 
 %%
@@ -209,7 +213,3 @@ return util.Results(
 20. Zn:::Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-## usage
-
-Increase in standard electrode potential {{increases [oxidizing power](oxidation.md) and decreases [reducing power](reduction.md)}}, and vice versa.
