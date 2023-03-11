@@ -8,7 +8,7 @@ aliases: ['electrochemical series',]
 
 ## usage
 
-Increase in standard electrode potential {{increases [oxidizing power](oxidation.md) and decreases [reducing power](reduction.md)}}, and vice versa.
+Increase in standard electrode potential {{increases [oxidizing power](oxidation.md) and decreases [reducing power](reduction.md)}}, and vice versa. <!--SR:!2023-03-14,3,258-->
 
 ## data
 
