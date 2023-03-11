@@ -17,7 +17,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-04-05,48,288-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-04-16,59,308-->
-- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-03-27,43,270!2023-03-11,27,267-->
+- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-03-27,43,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-03-30,42,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-05-10,78,313!2023-05-11,79,313-->
@@ -66,7 +66,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## search and substitute
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-04-10,53,293!2023-03-12,28,253-->
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-03-11,27,250!2023-04-17,60,308-->
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-03-26,15,230!2023-04-17,60,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
 - repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-03-23,35,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-04-01,35,273!2023-03-13,29,253-->
