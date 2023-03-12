@@ -11,6 +11,16 @@ def fast_hash(string: str):
 	return _zlib.adler32(string.encode("UTF-8"))
 ```
 
+## hard
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+from pytextgen import config as _pytextgen_config, gen as _pytextgen_gen
+def hard(string: str):
+	cl, cr = map(_pytextgen_gen.TextCode.escape, _pytextgen_config.CONFIG.cloze_token)
+	return f"{{text:{cl}}}{string}{{text:{cr}}}"
+```
+
 ## notes
 
 ```Python
