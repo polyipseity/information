@@ -1,4 +1,4 @@
-#flashcards/academic/general/experiment #academic/general
+#flashcards/academic/experiment #academic/biology #academic/chemistry #academic/physics
 
 # experiment
 
