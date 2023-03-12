@@ -61,7 +61,7 @@ return util.Results(
 1. _(begin)_→:::←element in a free form: 0 <!--SR:!2023-05-14,133,290!2024-03-22,395,330-->
 2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2023-03-16,86,250!2023-06-12,154,290-->
 3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2023-04-23,106,250!2023-03-20,98,270-->
-4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2023-03-12,72,230!2023-10-01,208,250-->
+4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2023-09-02,174,230!2023-10-01,208,250-->
 5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2023-06-15,149,270!2023-04-23,97,230-->
 6. group I metal: +1→:::←group II metal: +2 <!--SR:!2023-12-31,322,310!2023-07-31,205,310-->
 7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2023-10-02,216,270!2023-04-04,103,270-->

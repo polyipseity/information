@@ -8,7 +8,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### global
 
-- open file:::Ctrl+O <!--SR:!2023-09-24,197,315!2023-03-12,46,296-->
+- open file:::Ctrl+O <!--SR:!2023-09-24,197,315!2023-09-25,197,316-->
 - save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2023-04-03,65,316-->
 - new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-07-07,121,296-->
 - undo:::Ctrl+Z <!--SR:!2023-03-15,48,290!2023-07-07,121,296-->
@@ -40,7 +40,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - hide selection:::H <!--SR:!2023-05-22,84,250!2023-07-04,127,290-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
 - toggle toolbar:::T <!--SR:!2023-06-26,113,290!2023-05-21,85,276-->
-- toggle sidebar:::N <!--SR:!2023-04-12,59,256!2023-03-12,35,236-->
+- toggle sidebar:::N <!--SR:!2023-04-12,59,256!2023-03-31,19,216-->
 
 ### 3D viewport
 

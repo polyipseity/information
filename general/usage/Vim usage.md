@@ -8,7 +8,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-04-17,60,308-->
-- cycle backward:::\<Ctrl\>+p <!--SR:!2023-04-16,59,308!2023-03-12,28,268-->
+- cycle backward:::\<Ctrl\>+p <!--SR:!2023-04-16,59,308!2023-06-25,105,288-->
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-03-15,12,193!2023-03-31,43,288-->
 
 ## pattern
@@ -39,7 +39,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-04-17,60,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-03-26,42,273!2023-04-10,53,293-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-03-12,28,253!2023-03-18,34,293-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-03-18,34,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-04-13,56,293-->
 
 ## replace
@@ -65,7 +65,7 @@ See also [Vim help files](https://vimhelp.org/).
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-05-09,77,313!2023-04-17,60,307-->
 
 ## search and substitute
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-04-10,53,293!2023-03-12,28,253-->
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-04-10,53,293!2023-06-18,98,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-03-26,15,230!2023-04-17,60,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
 - repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-03-23,35,268-->
