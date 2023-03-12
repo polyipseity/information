@@ -1,4 +1,4 @@
-#flashcards/physics/scattering #academic/physics
+#flashcards/academic/physics/scattering #academic/physics
 
 # scattering
 

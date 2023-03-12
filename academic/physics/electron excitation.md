@@ -2,7 +2,7 @@
 aliases: ['electron relaxation', 'electron deexcitation',]
 ---
 
-#flashcards/physics/electron_excitation #academic/physics
+#flashcards/academic/physics/electron_excitation #academic/physics
 
 # electron excitation
 

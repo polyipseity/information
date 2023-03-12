@@ -2,7 +2,7 @@
 aliases: ['photons',]
 ---
 
-#flashcards/physics/photon #academic/physics
+#flashcards/academic/physics/photon #academic/physics
 
 # photon
 
