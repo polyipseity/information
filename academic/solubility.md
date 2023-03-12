@@ -1,4 +1,4 @@
-#flashcards/academic/chemistry/solubility #academic/chemistry
+#flashcards/academic/solubility #academic/chemistry
 
 # solubility
 

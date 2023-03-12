@@ -2,7 +2,7 @@
 aliases: ['Rutherford–Bohr model',]
 ---
 
-#flashcards/academic/physics/Bohr_model #academic/physics
+#flashcards/academic/Bohr_model #academic/physics
 
 # Bohr model
 

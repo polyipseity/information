@@ -1,4 +1,4 @@
-#flashcards/academic/chemistry/catalytic_converter #academic/chemistry
+#flashcards/academic/catalytic_converter #academic/chemistry
 
 # catalytic converter
 
