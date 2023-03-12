@@ -1,4 +1,4 @@
-#flashcards/chemistry/atmosphere_of_Earth #academic/chemistry
+#flashcards/academic/chemistry/atmosphere_of_Earth #academic/chemistry
 
 # atmosphere of Earth
 

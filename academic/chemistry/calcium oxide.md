@@ -2,7 +2,7 @@
 aliases: ['CaO', 'quicklime',]
 ---
 
-#flashcards/chemistry/calcium_oxide #academic/chemistry
+#flashcards/academic/chemistry/calcium_oxide #academic/chemistry
 
 # calcium oxide
 

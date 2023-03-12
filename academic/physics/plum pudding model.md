@@ -1,4 +1,4 @@
-#flashcards/physics/plum_pudding_model #academic/physics
+#flashcards/academic/physics/plum_pudding_model #academic/physics
 
 # plum pudding model
 

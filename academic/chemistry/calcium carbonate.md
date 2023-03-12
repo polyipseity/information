@@ -2,7 +2,7 @@
 aliases: ['CaCO3', 'limestone',]
 ---
 
-#flashcards/chemistry/calcium_carbonate #academic/chemistry
+#flashcards/academic/chemistry/calcium_carbonate #academic/chemistry
 
 # calcium carbonate
 
