@@ -2,7 +2,7 @@
 aliases: ['free radical halogenation',]
 ---
 
-#flashcards/academic/chemistry/free-radical_halogenation #academic/chemistry
+#flashcards/academic/free-radical_halogenation #academic/chemistry
 
 # free-radical halogenation
 

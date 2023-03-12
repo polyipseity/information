@@ -2,7 +2,7 @@
 aliases: ['work functions',]
 ---
 
-#flashcards/academic/physics/work_function #academic/physics
+#flashcards/academic/work_function #academic/physics
 
 # work function
 
