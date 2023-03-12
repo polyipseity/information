@@ -148,7 +148,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{burn}}
 > - reaction with H<sub>2</sub>O: {{steam}}
 > - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-03-12,13,150!2023-07-06,259,250!2023-07-12,265,250!2024-07-18,497,250-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-04-04,23,150!2023-07-06,259,250!2023-07-12,265,250!2024-07-18,497,250-->
 
 > iron
 > - reaction with air: {{burn}}
@@ -160,7 +160,7 @@ Reactivity decreases down the table.
 > - reaction with air: {{heat}}
 > - reaction with H<sub>2</sub>O: {{none}}
 > - reaction with dilute HCl: {{slow}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{slow to none (covered by insoluble PbSO<sub>4</sub>)}} <!--SR:!2023-08-02,286,250!2023-03-12,202,250!2023-03-30,37,170!2023-07-09,262,249-->
+> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{slow to none (covered by insoluble PbSO<sub>4</sub>)}} <!--SR:!2023-08-02,286,250!2024-08-01,508,250!2023-03-30,37,170!2023-07-09,262,249-->
 
 > copper
 > - reaction with air: {{heat}}
