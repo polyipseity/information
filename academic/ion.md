@@ -379,7 +379,7 @@ return util.Results(
 13. oxide ion::_(n/a)_ <!--SR:!2023-07-04,157,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2023-05-28,132,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
-16. sulfite ion::colorless <!--SR:!2023-03-13,105,274-->
+16. sulfite ion::colorless <!--SR:!2023-05-05,53,254-->
 17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
