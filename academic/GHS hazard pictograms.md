@@ -13,15 +13,15 @@ from pytextgen.gen import Tag, TextCode
 from pytextgen.util import Result, Results
 cl, cr = CONFIG.cloze_token
 data = (
-	('GHS01: explosive', '![%s](GHS-pictogram-explos.svg)',),
-	('GHS02: flammable', '![%s](GHS-pictogram-flamme.svg)',),
-	('GHS03: oxidizing', '![%s](GHS-pictogram-rondflam.svg)',),
-	('GHS04: compressed gas', '![%s](GHS-pictogram-bottle.svg)',),
-	('GHS05: corrosive', '![%s](GHS-pictogram-acid.svg)',),
-	('GHS06: toxic', '![%s](GHS-pictogram-skull.svg)',),
-	('GHS07: harmful', '![%s](GHS-pictogram-exclam.svg)',),
-	('GHS08: health hazard', '![%s](GHS-pictogram-silhouette.svg)',),
-	('GHS09: environmental hazard', '![%s](GHS-pictogram-pollu.svg)',),
+	('GHS01: explosive', '![%s](attachments/GHS-pictogram-explos.svg)',),
+	('GHS02: flammable', '![%s](attachments/GHS-pictogram-flamme.svg)',),
+	('GHS03: oxidizing', '![%s](attachments/GHS-pictogram-rondflam.svg)',),
+	('GHS04: compressed gas', '![%s](attachments/GHS-pictogram-bottle.svg)',),
+	('GHS05: corrosive', '![%s](attachments/GHS-pictogram-acid.svg)',),
+	('GHS06: toxic', '![%s](attachments/GHS-pictogram-skull.svg)',),
+	('GHS07: harmful', '![%s](attachments/GHS-pictogram-exclam.svg)',),
+	('GHS08: health hazard', '![%s](attachments/GHS-pictogram-silhouette.svg)',),
+	('GHS09: environmental hazard', '![%s](attachments/GHS-pictogram-pollu.svg)',),
 )
 return Results(
 	Result(
@@ -58,15 +58,15 @@ return Results(
 
 > name | pictogram
 > -|-
-> {{GHS01: explosive}} | {{![GHS01: explosive](GHS-pictogram-explos.svg)}}
-> {{GHS02: flammable}} | {{![GHS02: flammable](GHS-pictogram-flamme.svg)}}
-> {{GHS03: oxidizing}} | {{![GHS03: oxidizing](GHS-pictogram-rondflam.svg)}}
-> {{GHS04: compressed gas}} | {{![GHS04: compressed gas](GHS-pictogram-bottle.svg)}}
-> {{GHS05: corrosive}} | {{![GHS05: corrosive](GHS-pictogram-acid.svg)}}
-> {{GHS06: toxic}} | {{![GHS06: toxic](GHS-pictogram-skull.svg)}}
-> {{GHS07: harmful}} | {{![GHS07: harmful](GHS-pictogram-exclam.svg)}}
-> {{GHS08: health hazard}} | {{![GHS08: health hazard](GHS-pictogram-silhouette.svg)}}
-> {{GHS09: environmental hazard}} | {{![GHS09: environmental hazard](GHS-pictogram-pollu.svg)}}
+> {{GHS01: explosive}} | {{![GHS01: explosive](attachments/GHS-pictogram-explos.svg)}}
+> {{GHS02: flammable}} | {{![GHS02: flammable](attachments/GHS-pictogram-flamme.svg)}}
+> {{GHS03: oxidizing}} | {{![GHS03: oxidizing](attachments/GHS-pictogram-rondflam.svg)}}
+> {{GHS04: compressed gas}} | {{![GHS04: compressed gas](attachments/GHS-pictogram-bottle.svg)}}
+> {{GHS05: corrosive}} | {{![GHS05: corrosive](attachments/GHS-pictogram-acid.svg)}}
+> {{GHS06: toxic}} | {{![GHS06: toxic](attachments/GHS-pictogram-skull.svg)}}
+> {{GHS07: harmful}} | {{![GHS07: harmful](attachments/GHS-pictogram-exclam.svg)}}
+> {{GHS08: health hazard}} | {{![GHS08: health hazard](attachments/GHS-pictogram-silhouette.svg)}}
+> {{GHS09: environmental hazard}} | {{![GHS09: environmental hazard](attachments/GHS-pictogram-pollu.svg)}}
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
