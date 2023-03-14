@@ -187,7 +187,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2023-05-10,129,305-->
-3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-03-14,87,282-->
+3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-11-14,245,282-->
 4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-06-26,168,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-03-16,88,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2023-05-21,147,325-->
