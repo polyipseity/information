@@ -11,6 +11,23 @@ def fast_hash(string: str):
 	return _zlib.adler32(string.encode("UTF-8"))
 ```
 
+## HTML
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+import html as _html
+import typing as _typing
+
+def html_list(type: _typing.Literal['ol', 'ul'], iter: _typing.Iterable[str], *, escape = True):
+	return f"<{type}><li>{'</li><li>'.join(map(_html.escape, iter) if escape else iter)}</li></{type}>"
+
+def html_ol(iter: _typing.Iterable[str], **kwargs):
+	return html_list('ol', iter, **kwargs)
+
+def html_ul(iter: _typing.Iterable[str], **kwargs):
+	return html_list('ul', iter, **kwargs)
+```
+
 ## hard
 
 ```Python
