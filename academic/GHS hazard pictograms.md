@@ -13,15 +13,15 @@ from pytextgen.gen import Tag, TextCode
 from pytextgen.util import Result, Results
 cl, cr = CONFIG.cloze_token
 data = (
-	('GHS01: explosive', '![{}](../attachments/GHS-pictogram-explos.svg)', '',),
-	('GHS02: flammable', '![{}](../attachments/GHS-pictogram-flamme.svg)', '',),
-	('GHS03: oxidizing', '![{}](../attachments/GHS-pictogram-rondflam.svg)', '',),
-	('GHS04: compressed gas', '![{}](../attachments/GHS-pictogram-bottle.svg)', '',),
-	('GHS05: corrosive', '![{}](../attachments/GHS-pictogram-acid.svg)', '',),
-	('GHS06: toxic', '![{}](../attachments/GHS-pictogram-skull.svg)', '',),
+	('GHS01: [explosive](explosive.md)', '![{}](../attachments/GHS-pictogram-explos.svg)', '',),
+	('GHS02: [flammable](flammability.md)', '![{}](../attachments/GHS-pictogram-flamme.svg)', '',),
+	('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../attachments/GHS-pictogram-rondflam.svg)', '',),
+	('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../attachments/GHS-pictogram-bottle.svg)', '',),
+	('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../attachments/GHS-pictogram-acid.svg)', '',),
+	('GHS06: [toxic](toxicity.md)', '![{}](../attachments/GHS-pictogram-skull.svg)', '',),
 	('GHS07: harmful', '![{}](../attachments/GHS-pictogram-exclam.svg)', '',),
-	('GHS08: health hazard', '![{}](../attachments/GHS-pictogram-silhouette.svg)', '',),
-	('GHS09: environmental hazard', '![{}](../attachments/GHS-pictogram-pollu.svg)', '',),
+	('GHS08: [health hazard](health%20hazard.md)', '![{}](../attachments/GHS-pictogram-silhouette.svg)', '',),
+	('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../attachments/GHS-pictogram-pollu.svg)', '',),
 )
 return Results(
 	Result(
@@ -32,7 +32,7 @@ return Results(
 				names=('name & pictogram', 'description',),
 				values=lambda datum: (
 					TextCode.escape(f'{cl}{datum[0]}{cr}<br/>{cl}{datum[1].format(datum[0],)}{cr}'),
-					TextCode.escape(datum[2]),
+					TextCode.escape(f'{cl}{datum[2]}{cr}' if datum[2] else ''),
 				),
 			)),
 			states=await read.read_flashcard_states(__env__.cwf_section('b9a823')),
@@ -54,33 +54,33 @@ return Results(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a823"--><!-- The following content is generated at 2023-03-14T09:08:41.280527+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a823"--><!-- The following content is generated at 2023-03-14T16:08:57.065471+08:00. Any edits will be overridden! -->
 
 > name & pictogram | description
 > -|-
-> {{GHS01: explosive}}<br/>{{![GHS01: explosive](../attachments/GHS-pictogram-explos.svg)}} |
-> {{GHS02: flammable}}<br/>{{![GHS02: flammable](../attachments/GHS-pictogram-flamme.svg)}} |
-> {{GHS03: oxidizing}}<br/>{{![GHS03: oxidizing](../attachments/GHS-pictogram-rondflam.svg)}} |
-> {{GHS04: compressed gas}}<br/>{{![GHS04: compressed gas](../attachments/GHS-pictogram-bottle.svg)}} |
-> {{GHS05: corrosive}}<br/>{{![GHS05: corrosive](../attachments/GHS-pictogram-acid.svg)}} |
-> {{GHS06: toxic}}<br/>{{![GHS06: toxic](../attachments/GHS-pictogram-skull.svg)}} |
+> {{GHS01: [explosive](explosive.md)}}<br/>{{![GHS01: [explosive](explosive.md)](../attachments/GHS-pictogram-explos.svg)}} |
+> {{GHS02: [flammable](flammability.md)}}<br/>{{![GHS02: [flammable](flammability.md)](../attachments/GHS-pictogram-flamme.svg)}} |
+> {{GHS03: [oxidizing](oxidizing%20agent.md)}}<br/>{{![GHS03: [oxidizing](oxidizing%20agent.md)](../attachments/GHS-pictogram-rondflam.svg)}} |
+> {{GHS04: [compressed gas](compressed%20fluid.md)}}<br/>{{![GHS04: [compressed gas](compressed%20fluid.md)](../attachments/GHS-pictogram-bottle.svg)}} |
+> {{GHS05: [corrosive](corrosive%20substance.md)}}<br/>{{![GHS05: [corrosive](corrosive%20substance.md)](../attachments/GHS-pictogram-acid.svg)}} |
+> {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../attachments/GHS-pictogram-skull.svg)}} |
 > {{GHS07: harmful}}<br/>{{![GHS07: harmful](../attachments/GHS-pictogram-exclam.svg)}} |
-> {{GHS08: health hazard}}<br/>{{![GHS08: health hazard](../attachments/GHS-pictogram-silhouette.svg)}} |
-> {{GHS09: environmental hazard}}<br/>{{![GHS09: environmental hazard](../attachments/GHS-pictogram-pollu.svg)}} |
+> {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../attachments/GHS-pictogram-silhouette.svg)}} |
+> {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2023-03-13T23:45:09.753664+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2023-03-14T16:08:57.076503+08:00. Any edits will be overridden! -->
 
-1. _(start)_→:::←GHS01: explosive
-2. GHS01: explosive→:::←GHS02: flammable
-3. GHS02: flammable→:::←GHS03: oxidizing
-4. GHS03: oxidizing→:::←GHS04: compressed gas
-5. GHS04: compressed gas→:::←GHS05: corrosive
-6. GHS05: corrosive→:::←GHS06: toxic
-7. GHS06: toxic→:::←GHS07: harmful
-8. GHS07: harmful→:::←GHS08: health hazard
-9. GHS08: health hazard→:::←GHS09: environmental hazard
-10. GHS09: environmental hazard→:::←_(end)_
+1. _(start)_→:::←GHS01: [explosive](explosive.md)
+2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md)
+3. GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md)
+4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md)
+5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md)
+6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md)
+7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful
+8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md)
+9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md)
+10. GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
