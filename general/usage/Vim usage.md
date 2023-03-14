@@ -60,7 +60,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-05-11,79,313!2023-04-15,58,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-03-17,33,293!2023-05-10,78,313-->
 - restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-04-06,49,288-->
-- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-03-14,30,253!2023-05-16,84,328-->
+- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-04-15,58,307!2023-05-14,82,328-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-05-09,77,313!2023-04-17,60,307-->
 
