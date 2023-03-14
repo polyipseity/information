@@ -2,18 +2,29 @@
 
 # attachments
 
+## \#
 - [12.5cm by 12.5cm Wire Gauze.jpg](12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg): <a href="https://commons.wikimedia.org/wiki/File:12.5cm_by_12.5cm_Wire_Gauze.jpg">U5780138</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [250 mL Erlenmeyer flask.jpg](250%20mL%20Erlenmeyer%20flask.jpg): <a href="https://commons.wikimedia.org/wiki/File:250_mL_Erlenmeyer_flask.jpg">Pilarbini</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Aa
 - [A laboratory heat spreader made of asbestos, over Teclu burner.jpg](A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:A_laboratory_heat_spreader_made_of_asbestos,_over_Teclu_burner.jpg">LukaszKatlewa</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons
 - [Abdampfschalen verschiedene Groessen.jpg](Abdampfschalen%20verschiedene%20Groessen.jpg): <a href="https://commons.wikimedia.org/wiki/File:Abdampfschalen_verschiedene_Groessen.jpg">Simon A. Eugster</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+
+## Bb
 - [Bunsen burner.jpg](Bunsen%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:Bunsen_burner.jpg">See page for author</a>, Public domain, via Wikimedia Commons
 - [Burette with Clamp(3).jpg](Burette%20with%20Clamp(3).jpg): <a href="https://commons.wikimedia.org/wiki/File:Burette_with_Clamp(3).jpg">Gemsgy</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Cc
 - [Crucible tong.jpg](Crucible%20tong.jpg): <a href="https://commons.wikimedia.org/wiki/File:Crucible_tong.jpg">GOKLuLe</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Czochralski method used crucible 1.jpg](Czochralski%20method%20used%20crucible%201.jpg): <a href="https://commons.wikimedia.org/wiki/File:Czochralski_method_used_crucible_1.jpg">No machine-readable author provided. Twisp assumed (based on copyright claims).</a>, Public domain, via Wikimedia Commons
+
+## Dd
 - [Dark bottle with ground glass plug.jpg](Dark%20bottle%20with%20ground%20glass%20plug.jpg): <a href="https://commons.wikimedia.org/wiki/File:Dark_bottle_with_ground_glass_plug.jpg">Lilly_M</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Desiccator.jpg](Desiccator.jpg): <a href="https://commons.wikimedia.org/wiki/File:Desiccator.jpg">The original uploader was Rifleman 82 at English Wikipedia.</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Different types of graduated cylinder- 10ml, 25ml, 50ml and 100 ml graduated cylinder.jpg](Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg): <a href="https://commons.wikimedia.org/wiki/File:Different_types_of_graduated_cylinder-_10ml,_25ml,_50ml_and_100_ml_graduated_cylinder.jpg">Praphai Donphaimueang</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Dropper with vial.jpg](Dropper%20with%20vial.jpg): <a href="https://commons.wikimedia.org/wiki/File:Dropper_with_vial.jpg">Cjp24</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+
+## Gg
 - [GHS-pictogram-acid.svg](GHS-pictogram-acid.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-acid.svg">See page for author</a>, Public domain, via Wikimedia Commons
 - [GHS-pictogram-bottle.svg](GHS-pictogram-bottle.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-bottle.svg">See page for author</a>, Public domain, via Wikimedia Commons
 - [GHS-pictogram-exclam.svg](GHS-pictogram-exclam.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-exclam.svg">See page for author</a>, Public domain, via Wikimedia Commons
@@ -25,25 +36,45 @@
 - [GHS-pictogram-skull.svg](GHS-pictogram-skull.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-skull.svg">See page for author</a>, Public domain, via Wikimedia Commons
 - [Gas-Pak jar.jpg](Gas-Pak%20jar.jpg): <a href="https://commons.wikimedia.org/wiki/File:Gas-Pak_jar.jpg">Netha Hussain</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Glassware- Beaker.jpg](Glassware-%20Beaker.jpg): <a href="https://commons.wikimedia.org/wiki/File:Glassware-_Beaker.jpg">Rohit Kumar Sengupta</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Hh
 - [High-Speed Filter Funnel-2.jpg](High-Speed%20Filter%20Funnel-2.jpg): <a href="https://commons.wikimedia.org/wiki/File:High-Speed_Filter_Funnel-2.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Ll
 - [Lab wash-bottles water EtOH.jpg](Lab%20wash-bottles%20water%20EtOH.jpg): <a href="https://commons.wikimedia.org/wiki/File:Lab_wash-bottles_water_EtOH.jpg">Masur</a>, Public domain, via Wikimedia Commons
 - [Laboratory Spatula.JPG](Laboratory%20Spatula.JPG): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_Spatula.JPG">Gamico94</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Laboratory tripod.jpg](Laboratory%20tripod.jpg): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_tripod.jpg">NagayaS</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Laboratory Watch glasses of different sizes 2:jpg](Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_Watch_glasses_of_different_sizes_2.jpg">Navpreet.arr</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Mm
 - [Mercury Thermometer.jpg](Mercury%20Thermometer.jpg): <a href="https://commons.wikimedia.org/wiki/File:Mercury_Thermometer.jpg">Anonimski</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Metal tube rack-laboratory 2.jpg](Metal%20tube%20rack-laboratory%202.jpg): <a href="https://commons.wikimedia.org/wiki/File:Metal_tube_rack-laboratory_2.jpg">real name: Nadina Wiórkiewiczpl.wiki: Nadine90commons: Nadine90</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+
+## Pp
 - [Pipeclay triangle.jpg](Pipeclay%20triangle.jpg): <a href="https://commons.wikimedia.org/wiki/File:Pipeclay_triangle.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Rr
 - [Retort stand.jpg](Retort%20stand.jpg): <a href="https://commons.wikimedia.org/wiki/File:Retort_stand.jpg">Tsaenmai</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Rubber stopper holes.jpg](Rubber%20stopper%20holes.jpg): <a href="https://commons.wikimedia.org/wiki/File:Rubber_stopper_holes.jpg">U5780710</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Ss
 - [Safety Goggles.jpg](Safety%20Goggles.jpg): <a href="https://commons.wikimedia.org/wiki/File:Safety_Goggles.jpg">DJSparky</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Stirring rod.jpg](Stirring%20rod.jpg): <a href="https://commons.wikimedia.org/wiki/File:Stirring_rod.jpg">TarnPraewan</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Tt
 - [TGI 250.jpg](TGI%20250.jpg): <a href="https://commons.wikimedia.org/wiki/File:TGI_250.jpg">Aleksander Sobolewski via Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Test tube brushes.jpg](Test%20tube%20brushes.jpg): <a href="https://commons.wikimedia.org/wiki/File:Test_tube_brushes.jpg">Mimiwl</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Test Tube Holder2 2015.JPG](Test%20Tube%20Holder2%202015.JPG): <a href="https://commons.wikimedia.org/wiki/File:Test_Tube_Holder2_2015.JPG">Nacharee.jung</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Transfer pipette.jpg](Transfer%20pipette.jpg): <a href="https://commons.wikimedia.org/wiki/File:Transfer_pipette.jpg">Pualuu</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Two small test tubes held in spring clamps.jpg](Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg): <a href="https://commons.wikimedia.org/wiki/File:Two_small_test_tubes_held_in_spring_clamps.jpg">Amitchell125 at English Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+
+## Uu
 - [Utility clamp1.jpg](Utility%20clamp1.jpg): <a href="https://commons.wikimedia.org/wiki/File:Utility_clamp1.jpg">U5680907</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Vv
 - [Verrerie-p1030896.jpg](Verrerie-p1030896.jpg): <a href="https://commons.wikimedia.org/wiki/File:Verrerie-p1030896.jpg">Rama</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">CC BY-SA 2.0 FR</a>, via Wikimedia Commons
+
+## Ww
 - [Weighing balance, MNIT.jpg](Weighing%20balance,%20MNIT.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_balance,_MNIT.jpg">Nikunj12387</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Weighing bottles.jpg](Weighing%20bottles.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_bottles.jpg">Сергей 6662</a>, CC0, via Wikimedia Commons
 - [White-Mortar-and-Pestle.jpg](White-Mortar-and-Pestle.jpg): <a href="https://commons.wikimedia.org/wiki/File:White-Mortar-and-Pestle.jpg">Evan-Amos</a>, Public domain, via Wikimedia Commons
