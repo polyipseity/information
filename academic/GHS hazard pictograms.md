@@ -32,7 +32,7 @@ return Results(
 				names=('name & pictogram', 'description',),
 				values=lambda datum: (
 					TextCode.escape(f'{cl}{datum[0]}{cr}<br/>{cl}{datum[1].format(datum[0],)}{cr}'),
-					TextCode.escape(datum[2]),
+					TextCode.escape(f'{cl}{datum[2]}{cr}' if datum[2] else ''),
 				),
 			)),
 			states=await read.read_flashcard_states(__env__.cwf_section('b9a823')),
