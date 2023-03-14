@@ -26,7 +26,7 @@
     "en-US",
     "en-GB"
   ],
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "rightToLeft": false,
   "mobileToolbarCommands": [
     "editor:cut",
@@ -55,5 +55,9 @@
     "editor:configure-toolbar",
     "editor:toggle-source"
   ],
-  "mobilePullAction": "command-palette:open"
+  "mobilePullAction": "command-palette:open",
+  "userIgnoreFilters": [
+    "tools/",
+    "/__pycache__/"
+  ]
 }
