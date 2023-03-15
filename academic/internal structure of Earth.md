@@ -15,7 +15,7 @@
 from pytextgen import gen, read
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
+from pytextgen.util import Result
 e = __env__
 cl, cr = CONFIG.cloze_token
 data = (
@@ -25,7 +25,7 @@ data = (
 	('[outer core](outer%20core.md)', html_ul(('very dense liquid rock', 'high [temperature](temperature.md)',),),),
 	('[inner core](inner%20core.md)', html_ul(('very dense solid rock', 'very high temperature and [pressure](pressure.md)',),),),
 )
-return Results(
+return (
 	Result(
 		location=e.cwf_section('2182ff'),
 		text=gen.cloze_text(

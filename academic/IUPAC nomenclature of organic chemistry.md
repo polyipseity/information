@@ -63,7 +63,7 @@ punctuations: gen.TextCode = gen.seq_to_code((
 	index=1,
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',)
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('5193cd'),
 		text=gen.quote_text(principles),
@@ -280,7 +280,7 @@ text: gen.TextCode = gen.TextCode.compile(
 - }4{text:\: }tetra-{text:
 - }5/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('ad83dc'),
 		text=gen.quote_text(text),
@@ -343,7 +343,7 @@ text: gen.TextCode = gen.TextCode.compile(
 - }19{text:\: }nonadec-{text:
 - }20{text:\: }icos-'''
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('1239c2'),
 		text=gen.quote_text(text),
@@ -462,7 +462,7 @@ table: str = gen.quotette(
 )
 text: gen.TextCode = gen.maps_to_code(map,
 	name_cloze=True,)
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('28dcee'),
 		text=table,
@@ -637,7 +637,7 @@ table: gen.TextCode = gen.TextCode.compile(gen.rows_to_table(data,
 			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
 		),
 	))
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('adc061'),
 		text=gen.cloze_text(table,
@@ -679,7 +679,7 @@ text: gen.TextCode = gen.seq_to_code((
 	index=1,
 	prefix='{mem:_(highest)_}',
 	suffix='{mem:_(lowest)_}',)
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('19cfa2'),
 		text=gen.quote_text(text),

@@ -12,7 +12,7 @@ A __physical property__ is {{a [property](property.md) measurable without [chemi
 from pytextgen import gen, read
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
+from pytextgen.util import Result
 e = __env__
 cl, cr = CONFIG.cloze_token
 data = (
@@ -30,7 +30,7 @@ data = (
 	('[taste](taste.md)', '',),
 	('[thermal conductivity](thermal%20conductivity.md)', '',),
 )
-return Results(
+return (
 	Result(
 		location=e.cwf_section('1238ff'),
 		text=gen.cloze_text(

@@ -20,7 +20,7 @@ data: gen.TextCode = gen.seq_to_code((
 sem: gen.TextCode = gen.TextCode.compile(
 	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('a34f1d'),
 		text=gen.quote_text(data),

@@ -13,7 +13,7 @@ It is a test for an [oxidizing](oxidization.md) gas.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import memorize_linked_seq, quote_text, seq_to_code
 from pytextgen.read import read_flashcard_states
-from pytextgen.util import Result, Results
+from pytextgen.util import Result
 e = __env__
 data = seq_to_code(
 	(
@@ -25,7 +25,7 @@ data = seq_to_code(
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(suffix)_}',
 )
-return Results(
+return (
 	Result(
 		location=e.cwf_section('28a383'),
 		text=quote_text(data),

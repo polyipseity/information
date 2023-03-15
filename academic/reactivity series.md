@@ -92,7 +92,7 @@ series: gen.TextCode = gen.seq_to_code(data.keys(),
 	index=1,
 	prefix='{mem:_(most reactive)_}',
 	suffix='{mem:_(least reactive)_}',)
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('a2994d'),
 		text=gen.cloze_text(text,
