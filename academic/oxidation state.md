@@ -2,7 +2,7 @@
 aliases: ['oxidation number',]
 ---
 
-#flashcards/academic/oxidation_state #academic/chemistry
+#academic/chemistry #flashcards/academic/oxidation_state
 
 # oxidation state
 

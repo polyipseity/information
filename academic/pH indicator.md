@@ -1,4 +1,4 @@
-#flashcards/academic/pH_indicator #academic/chemistry
+#academic/chemistry #flashcards/academic/pH_indicator
 
 # pH indicator
 

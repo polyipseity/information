@@ -1,4 +1,4 @@
-#flashcards/academic/Rutherford_model #academic/physics
+#academic/physics #flashcards/academic/Rutherford_model
 
 # Rutherford model
 

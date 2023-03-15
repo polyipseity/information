@@ -1,4 +1,4 @@
-#flashcards/academic/IUPAC_nomenclature_of_organic_chemistry #academic/chemistry
+#academic/chemistry #flashcards/academic/IUPAC_nomenclature_of_organic_chemistry
 
 # IUPAC nomenclature of organic chemistry
 
