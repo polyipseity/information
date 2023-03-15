@@ -24,8 +24,8 @@ data: gen.TextCode = gen.seq_to_code((
 	'Filter the solution to obtain the [filtrate](filtrate.md).',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 return (
 	util.Result(
 		location=__env__.cwf_section('12ff7a'),

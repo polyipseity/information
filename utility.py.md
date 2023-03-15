@@ -40,12 +40,12 @@ return export_seq(html_list, html_ol, html_ul,)
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 from pytextgen.config import CONFIG
-from pytextgen.gen import TextCode
+from pytextgen.gen import Tag, TextCode
 from pytextgen.util import export_seq
 
 def hard(string: str):
 	cl, cr = map(TextCode.escape, CONFIG.cloze_token)
-	return f"{{text:{cl}}}{string}{{text:{cr}}}"
+	return f"{{{Tag.TEXT}:{cl}}}{string}{{{Tag.TEXT}:{cr}}}"
 
 return export_seq(hard,)
 ```

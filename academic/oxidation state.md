@@ -24,8 +24,8 @@ data: gen.TextCode = gen.seq_to_code((
 		R'(if not bonded to oxygen or flourine) oxygen\: -2',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 return (
 	util.Result(
 		location=__env__.cwf_section('2d99fe'),

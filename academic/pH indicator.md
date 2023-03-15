@@ -24,8 +24,8 @@ class pHRanges(typing.NamedTuple):
 	def mem_ranges(self: typing.Self) -> gen.TextCode:
 		return gen.seq_to_code(self.data.keys(),
 			index=1,
-			prefix='{mem:_(acidic)_}',
-			suffix='{mem:_(basic)_}',
+			prefix=f'{{{gen.Tag.MEMORIZE}:_(acidic)_}}',
+			suffix=f'{{{gen.Tag.MEMORIZE}:_(basic)_}}',
 			escape=True,)
 
 	@property

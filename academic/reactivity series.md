@@ -90,8 +90,8 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 text: gen.TextCode = gen.maps_to_code(data)
 series: gen.TextCode = gen.seq_to_code(data.keys(),
 	index=1,
-	prefix='{mem:_(most reactive)_}',
-	suffix='{mem:_(least reactive)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(most reactive)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(least reactive)_}}',)
 return (
 	util.Result(
 		location=__env__.cwf_section('a2994d'),
