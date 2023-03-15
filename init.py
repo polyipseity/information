@@ -192,7 +192,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
             inputs = await _asyncstdlib.tuple(gen_inputs())
             print(f"Using {len(inputs)} input(s)")
             try:
-                entry: _argparse.Namespace = _pytextgen_main.parser().parse_args(
+                entry = _pytextgen_main.parser().parse_args(
                     tuple(
                         _itertools.chain(
                             args.arguments,
@@ -281,5 +281,5 @@ def parser(
 
 
 if __name__ == "__main__":
-    entry: _argparse.Namespace = parser().parse_args(_sys.argv[1:])
+    entry = parser().parse_args(_sys.argv[1:])
     _asyncio.run(entry.invoke(entry))
