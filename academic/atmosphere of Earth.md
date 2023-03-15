@@ -1,5 +1,12 @@
 #academic/chemistry #flashcards/academic/atmosphere_of_Earth
 
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
+
 # atmosphere of Earth
 
 ## composition
@@ -13,10 +20,10 @@ data: gen.TextCode = gen.seq_to_code((
 	fR'[O<sub>2</sub>](oxygen.md){{{gen.Tag.TEXT}:\: 20.946%}}',
 	fR'[Ar](argon.md){{{gen.Tag.TEXT}:\: 0.9340%}}',
 	fR'[CO<sub>2</sub>](carbon%20dioxide.md){{{gen.Tag.TEXT}:\: 0.0417% (2022-04-xx)}}',
-	f'{{{gen.Tag.TEXT}:_others_}}{{{gen.Tag.MEMORIZE}:_others_}}{{mem lnk:_others_}}',),
+	f'{{{gen.Tag.TEXT}:_others_}}{{{gen.Tag.MEMORIZE}:_others_}}{{{Tags.MEMORIZE_LINKED}:_others_}}',),
 	index=1,
-	prefix='{mem lnk:_(begin)_}',
-	suffix='{mem lnk:_(end)_}',)
+	prefix=f'{{{Tags.MEMORIZE_LINKED}:_(begin)_}}',
+	suffix=f'{{{Tags.MEMORIZE_LINKED}:_(end)_}}',)
 sem: gen.TextCode = gen.TextCode.compile(
 	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )

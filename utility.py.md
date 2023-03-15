@@ -179,3 +179,21 @@ class Notes:
 
 return export_seq(Notes,)
 ```
+
+## tags
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+from enum import StrEnum, unique
+from pytextgen.util import export_seq
+from typing import ClassVar, final
+
+@final
+@unique
+class Tags(StrEnum):
+	__slots__: ClassVar = ()
+
+	MEMORIZE_LINKED: ClassVar = 'mem lnk'
+
+return export_seq(Tags,)
+```
