@@ -10,7 +10,7 @@
 from pytextgen import gen, read
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
+from pytextgen.util import Result
 e = __env__
 cl, cr = CONFIG.cloze_token
 data = (
@@ -18,7 +18,7 @@ data = (
 	('making [ammonia](ammonia.md)', '',),
 	('[refrigerant](refrigerant.md)', '',),
 )
-return Results(
+return (
 	Result(
 		location=e.cwf_section('293850'),
 		text=gen.cloze_text(

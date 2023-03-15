@@ -10,7 +10,7 @@
 from pytextgen import gen, read
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
+from pytextgen.util import Result
 cl, cr = CONFIG.cloze_token
 data = (
 	('GHS01: [explosive](explosive.md)', '![{}](../attachments/GHS-pictogram-explos.svg)', '',),
@@ -23,7 +23,7 @@ data = (
 	('GHS08: [health hazard](health%20hazard.md)', '![{}](../attachments/GHS-pictogram-silhouette.svg)', '',),
 	('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../attachments/GHS-pictogram-pollu.svg)', '',),
 )
-return Results(
+return (
 	Result(
 		location=__env__.cwf_section('b9a823'),
 		text=gen.cloze_text(

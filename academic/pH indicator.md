@@ -49,7 +49,7 @@ phenolphthalein: pHRanges = pHRanges({
 	'10~14': '<span style="color: pink;">pink</span>',
 })
 
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('a9208f'),
 		text=methyl_orange.table,

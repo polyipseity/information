@@ -105,7 +105,7 @@ class Section(typing.NamedTuple):
 cation_sect: Section = Section.from_rows(cations)
 anion_sect: Section = Section.from_rows(anions)
 
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('d9192d'),
 		text=cation_sect.table,

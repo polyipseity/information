@@ -10,7 +10,7 @@
 from pytextgen import gen, read
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
+from pytextgen.util import Result
 cl, cr = CONFIG.cloze_token
 data = (
 	('[Bunsen burner](Bunsen%20burner.md)', '![{}](../attachments/Bunsen%20burner.jpg)', '',),
@@ -50,7 +50,7 @@ data = (
 	('[weighing bottle](weighing%20bottle.md)', '![{}](../attachments/Weighing%20bottles.jpg)', '',),
 	('[wire gauze](wire%20gauze.md)', '![{}](../attachments/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)', '',),
 )
-return Results(
+return (
 	Result(
 		location=__env__.cwf_section('fadd2e'),
 		text=gen.cloze_text(

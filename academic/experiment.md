@@ -19,7 +19,7 @@ data = gen.seq_to_code(
 	prefix='{mem:_(begin)_}',
 	suffix='{mem:_(end)_}',
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section("d9203e"),
 		text=gen.quote_text(data),
