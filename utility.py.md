@@ -50,6 +50,96 @@ def hard(string: str):
 return export_seq(hard,)
 ```
 
+## memorization
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+from pytextgen.config import CONFIG
+from pytextgen.gen import Tag, TextCode, cloze_text, memorize_linked_seq, quote_text, rows_to_table, seq_to_code
+from pytextgen.read import read_flashcard_states
+from pytextgen.util import Location, Result, export_seq, identity
+from typing import Any, Callable, Iterable, Sequence, TypeVar
+
+T = TypeVar('T')
+
+def cloze(string: str, escape = False):
+	cl, cr = CONFIG.cloze_token
+	return (TextCode.escape if escape else identity)(f'{cl}{string}{cr}') if string else ''
+
+async def memorize_steps(
+	locations: tuple[Location, Location],
+	seq: Iterable[str],
+	*,
+	prefix = f'{{{Tag.MEMORIZE}:_(begin)_}}',
+	suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
+	escape = True,
+	**kwargs
+) -> tuple[Result, Result]:
+	code = seq_to_code(
+		seq,
+		prefix=prefix,
+		suffix=suffix,
+		escape=escape,
+		**kwargs,
+	)
+	return (
+		Result(
+			location=locations[0],
+			text=cloze_text(
+				code,
+				states=await read_flashcard_states(locations[0]),
+			),
+		),
+		Result(
+			location=locations[1],
+			text=memorize_linked_seq(
+				code,
+				hinted=False,
+				states=await read_flashcard_states(locations[1]),
+			),
+		),
+	)
+
+async def memorize_table(
+	locations: tuple[Location, Location],
+	headers: Iterable[str],
+	data: Iterable[T],
+	transformer: Callable[[T], Iterable[Any]] = lambda data: data if isinstance(data, Iterable) else (data,),
+	*,
+	prefix = f'{{{Tag.MEMORIZE}:_(begin)_}}',
+	suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
+	escape = True,
+) -> tuple[Result, Result]:
+	escaper = TextCode.escape if escape else identity
+	return (
+		Result(
+			location=locations[0],
+			text=cloze_text(
+				TextCode.compile(rows_to_table(
+					data,
+					names=map(escaper, headers),
+					values=lambda data: map(escaper, transformer(data)),
+				)),
+				states=await read_flashcard_states(locations[0]),
+			),
+		),
+		Result(
+			location=locations[1],
+			text=memorize_linked_seq(
+				seq_to_code(
+					map(lambda datum: escaper(datum[0]), data),
+					prefix=prefix,
+					suffix=suffix,
+				),
+				hinted=False,
+				states=await read_flashcard_states(locations[1]),
+			),
+		),
+	)
+
+return export_seq(cloze, memorize_steps, memorize_table,)
+```
+
 ## notes
 
 ```Python
@@ -58,6 +148,7 @@ from pytextgen.gen import TextCode, memorize_two_sided, two_columns_to_code
 from pytextgen.read import read_flashcard_states
 from pytextgen.util import Location, export_seq
 from typing import ClassVar, final
+
 @final
 class Notes:
 	__slots__: ClassVar = ("__data",)
