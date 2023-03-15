@@ -1,4 +1,4 @@
-#flashcards/academic/laboratory_glassware #academic/biology #academic/chemistry #academic/physics
+#academic/biology #academic/chemistry #academic/physics #flashcards/academic/laboratory_equipment
 
 # laboratory equipment
 
