@@ -6,7 +6,7 @@ aliases: ['EMR', 'electromagnetic wave', 'electromagnetic waves', 'EM wave', 'EM
 
 # electromagnetic radiation
 
-__Electromagnetic radiation__ (__EMR__) is {{a wave of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2023-03-15,67,250-->
+__Electromagnetic radiation__ (__EMR__) is {{a wave of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2023-09-05,174,250-->
 
 ## properties
 
