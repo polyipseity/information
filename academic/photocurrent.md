@@ -2,7 +2,7 @@
 aliases: ['photoelectric current', 'photovoltaic current',]
 ---
 
-#flashcards/academic/photocurrent #academic/physics
+#academic/physics #flashcards/academic/photocurrent
 
 # photocurrent
 

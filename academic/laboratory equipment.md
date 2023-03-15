@@ -1,4 +1,11 @@
-#flashcards/academic/laboratory_glassware #academic/biology #academic/chemistry #academic/physics
+#academic/biology #academic/chemistry #academic/physics #flashcards/academic/laboratory_equipment
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
 
 # laboratory equipment
 
@@ -7,81 +14,57 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
-from pytextgen.config import CONFIG
-from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
-cl, cr = CONFIG.cloze_token
-data = (
-	('[Bunsen burner](Bunsen%20burner.md)', '![{}](../attachments/Bunsen%20burner.jpg)', '',),
-	('[beaker](beaker.md)', '![{}](../attachments/Glassware-%20Beaker.jpg)', '',),
-	('[burette clamp](burette%20clamp.md)', '![{}](../attachments/Burette%20with%20Clamp(3).jpg)', '',),
-	('[clamp](clamp.md)', '![{}](../attachments/Utility%20clamp1.jpg)', '',),
-	('[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)', '![{}](../attachments/250%20mL%20Erlenmeyer%20flask.jpg)', '',),
-	('[crucible](crucible.md)', '![{}](../attachments/Czochralski%20method%20used%20crucible%201.jpg)', '',),
-	('[crucible tongs](crucible%20tongs.md)', '![{}](../attachments/Crucible%20tong.jpg)', '',),
-	('[desiccator](desiccator.md)', '![{}](../attachments/Desiccator.jpg)', '',),
-	('[(eye) dropper/Pasteur pipette](eye%20dropper.md)', '![{}](../attachments/Transfer%20pipette.jpg)', '',),
-	('dropping bottle', '![{}](../attachments/Dropper%20with%20vial.jpg)', 'literally bottle with dropper',),
-	('[electronic balance](weighing%20scale.md)', '![{}](../attachments/Weighing%20balance,%20MNIT.jpg)', '',),
-	('[evaporating dish](evaporating%20dish.md)', '![{}](../attachments/Abdampfschalen%20verschiedene%20Groessen.jpg)', '',),
-	('[filter funnel](filter%20funnel.md)', '![{}](../attachments/High-Speed%20Filter%20Funnel-2.jpg)', '',),
-	('[flat-bottom(ed) flask](flat-bottom%20flask.md)', '![{}](../attachments/TGI%20250.jpg)', '',),
-	('[gas jar/pneumatic trough](pneumatic%20trough.md)', '![{}](../attachments/Gas-Pak%20jar.jpg)', '',),
-	('[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)', '![{}](../attachments/Stirring%20rod.jpg)', '',),
-	('[heat-resistant mat/heatproof mat](heatproof%20mat.md)', '![{}](../attachments/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg)', '',),
-	('[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)', '![{}](../attachments/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg)', '',),
-	('[mortar and pestle](mortar%20and%20pestle.md)', '![{}](../attachments/White-Mortar-and-Pestle.jpg)', '',),
-	('[pipeclay triangle](pipeclay%20triangle.md)', '![{}](../attachments/Pipeclay%20triangle.jpg)', '',),
-	('[reagent bottle](reagent%20bottle.md)', '![{}](../attachments/Dark%20bottle%20with%20ground%20glass%20plug.jpg)', '',),
-	('[round-bottom(ed) flask](round-bottom%20flask.md)', '![{}](../attachments/Verrerie-p1030896.jpg)', '',),
-	('[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)', '![{}](../attachments/Rubber%20stopper%20holes.jpg)', '',),
-	('[safety spectacles/safety glasses/goggles](goggles.md)', '![{}](../attachments/Safety%20Goggles.jpg)', '',),
-	('[spatula](spatula.md)', '![{}](../attachments/Laboratory%20Spatula.JPG)', '',),
-	('[stand/retort stand/ring stand/support stand](retort%20stand.md)', '![{}](../attachments/Retort%20stand.jpg)', '',),
-	('[test tube](test%20tube.md), boiling tube', '![{}](../attachments/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg)', 'boiling tube: scaled-up to avoid [bumping](bumping%20(chemistry).md)',),
-	('[test tube brush](test%20tube%20brush.md)', '![{}](../attachments/Test%20tube%20brushes.jpg)', '',),
-	('[test tube holder](test%20tube%20holder.md)', '![{}](../attachments/Test%20Tube%20Holder2%202015.JPG)', '',),
-	('[test tube rack](test%20tube%20rack.md)', '![{}](../attachments/Metal%20tube%20rack-laboratory%202.jpg)', '',),
-	('[thermometer](thermometer.md)', '![{}](../attachments/Mercury%20Thermometer.jpg)', '',),
-	('[tripod](tripod.md)', '![{}](../attachments/Laboratory%20tripod.jpg)', '',),
-	('[wash bottle](wash%20bottle.md)', '![{}](../attachments/Lab%20wash-bottles%20water%20EtOH.jpg)', '',),
-	('[watch glass](watch%20glass.md)', '![{}](../attachments/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg)', '',),
-	('[weighing bottle](weighing%20bottle.md)', '![{}](../attachments/Weighing%20bottles.jpg)', '',),
-	('[wire gauze](wire%20gauze.md)', '![{}](../attachments/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)', '',),
-)
-return Results(
-	Result(
-		location=__env__.cwf_section('fadd2e'),
-		text=gen.cloze_text(
-			TextCode.compile(gen.rows_to_table(
-				data,
-				names=('name & image', 'description',),
-				values=lambda datum: (
-					TextCode.escape(f'{cl}{datum[0]}{cr}<br/>{cl}{datum[1].format(datum[0],)}{cr}'),
-					TextCode.escape(f'{cl}{datum[2]}{cr}' if datum[2] else ''),
-				),
-			)),
-			states=await read.read_flashcard_states(__env__.cwf_section('fadd2e')),
-		),
+e = __env__
+return await memorize_table(
+	(e.cwf_section('fadd2e'), e.cwf_section('b81237'),),
+	('name & image', 'description',),
+	(
+		('[Bunsen burner](Bunsen%20burner.md)', '![{}](../attachments/Bunsen%20burner.jpg)', '',),
+		('[beaker](beaker.md)', '![{}](../attachments/Glassware-%20Beaker.jpg)', '',),
+		('[burette clamp](burette%20clamp.md)', '![{}](../attachments/Burette%20with%20Clamp(3).jpg)', '',),
+		('[clamp](clamp.md)', '![{}](../attachments/Utility%20clamp1.jpg)', '',),
+		('[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)', '![{}](../attachments/250%20mL%20Erlenmeyer%20flask.jpg)', '',),
+		('[crucible](crucible.md)', '![{}](../attachments/Czochralski%20method%20used%20crucible%201.jpg)', '',),
+		('[crucible tongs](crucible%20tongs.md)', '![{}](../attachments/Crucible%20tong.jpg)', '',),
+		('[desiccator](desiccator.md)', '![{}](../attachments/Desiccator.jpg)', '',),
+		('[(eye) dropper/Pasteur pipette](eye%20dropper.md)', '![{}](../attachments/Transfer%20pipette.jpg)', '',),
+		('dropping bottle', '![{}](../attachments/Dropper%20with%20vial.jpg)', 'literally bottle with dropper',),
+		('[electronic balance](weighing%20scale.md)', '![{}](../attachments/Weighing%20balance,%20MNIT.jpg)', '',),
+		('[evaporating dish](evaporating%20dish.md)', '![{}](../attachments/Abdampfschalen%20verschiedene%20Groessen.jpg)', '',),
+		('[filter funnel](filter%20funnel.md)', '![{}](../attachments/High-Speed%20Filter%20Funnel-2.jpg)', '',),
+		('[flat-bottom(ed) flask](flat-bottom%20flask.md)', '![{}](../attachments/TGI%20250.jpg)', '',),
+		('[gas jar/pneumatic trough](pneumatic%20trough.md)', '![{}](../attachments/Gas-Pak%20jar.jpg)', '',),
+		('[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)', '![{}](../attachments/Stirring%20rod.jpg)', '',),
+		('[heat-resistant mat/heatproof mat](heatproof%20mat.md)', '![{}](../attachments/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg)', '',),
+		('[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)', '![{}](../attachments/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg)', '',),
+		('[mortar and pestle](mortar%20and%20pestle.md)', '![{}](../attachments/White-Mortar-and-Pestle.jpg)', '',),
+		('[pipeclay triangle](pipeclay%20triangle.md)', '![{}](../attachments/Pipeclay%20triangle.jpg)', '',),
+		('[reagent bottle](reagent%20bottle.md)', '![{}](../attachments/Dark%20bottle%20with%20ground%20glass%20plug.jpg)', '',),
+		('[round-bottom(ed) flask](round-bottom%20flask.md)', '![{}](../attachments/Verrerie-p1030896.jpg)', '',),
+		('[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)', '![{}](../attachments/Rubber%20stopper%20holes.jpg)', '',),
+		('[safety spectacles/safety glasses/goggles](goggles.md)', '![{}](../attachments/Safety%20Goggles.jpg)', '',),
+		('[spatula](spatula.md)', '![{}](../attachments/Laboratory%20Spatula.JPG)', '',),
+		('[stand/retort stand/ring stand/support stand](retort%20stand.md)', '![{}](../attachments/Retort%20stand.jpg)', '',),
+		('[test tube](test%20tube.md), boiling tube', '![{}](../attachments/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg)', 'boiling tube: scaled-up to avoid [bumping](bumping%20(chemistry).md)',),
+		('[test tube brush](test%20tube%20brush.md)', '![{}](../attachments/Test%20tube%20brushes.jpg)', '',),
+		('[test tube holder](test%20tube%20holder.md)', '![{}](../attachments/Test%20Tube%20Holder2%202015.JPG)', '',),
+		('[test tube rack](test%20tube%20rack.md)', '![{}](../attachments/Metal%20tube%20rack-laboratory%202.jpg)', '',),
+		('[thermometer](thermometer.md)', '![{}](../attachments/Mercury%20Thermometer.jpg)', '',),
+		('[tripod](tripod.md)', '![{}](../attachments/Laboratory%20tripod.jpg)', '',),
+		('[wash bottle](wash%20bottle.md)', '![{}](../attachments/Lab%20wash-bottles%20water%20EtOH.jpg)', '',),
+		('[watch glass](watch%20glass.md)', '![{}](../attachments/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg)', '',),
+		('[weighing bottle](weighing%20bottle.md)', '![{}](../attachments/Weighing%20bottles.jpg)', '',),
+		('[wire gauze](wire%20gauze.md)', '![{}](../attachments/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)', '',),
 	),
-	Result(
-		location=__env__.cwf_section('b81237'),
-		text=gen.memorize_linked_seq(
-			gen.seq_to_code(
-				map(lambda datum: TextCode.escape(datum[0]), data),
-				prefix=f'{{{Tag.MEMORIZE}:_(start)_}}',
-				suffix=f'{{{Tag.MEMORIZE}:_(end)_}}',
-			),
-			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('b81237')),
-		),
+	lambda datum: (
+		f'{cloze(datum[0])}<br/>{cloze(datum[1].format(datum[0]))}',
+		cloze(datum[2]),
 	),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fadd2e"--><!-- The following content is generated at 2023-03-14T16:16:39.221670+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fadd2e"--><!-- The following content is generated at 2023-03-15T19:18:22.696491+08:00. Any edits will be overridden! -->
 
 > name & image | description
 > -|-
@@ -124,9 +107,9 @@ return Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b81237"--><!-- The following content is generated at 2023-03-14T16:16:39.208323+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b81237"--><!-- The following content is generated at 2023-03-15T19:16:17.283352+08:00. Any edits will be overridden! -->
 
-1. _(start)_→:::←[Bunsen burner](Bunsen%20burner.md)
+1. _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md)
 2. [Bunsen burner](Bunsen%20burner.md)→:::←[beaker](beaker.md)
 3. [beaker](beaker.md)→:::←[burette clamp](burette%20clamp.md)
 4. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md)

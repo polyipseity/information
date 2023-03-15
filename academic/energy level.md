@@ -2,7 +2,7 @@
 aliases: ['energy levels',]
 ---
 
-#flashcards/academic/energy_level #academic/physics
+#academic/physics #flashcards/academic/energy_level
 
 # energy level
 

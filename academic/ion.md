@@ -2,7 +2,7 @@
 aliases: ['ions', 'cation', 'cations', 'anion', 'anions',]
 ---
 
-#flashcards/academic/ion #academic/chemistry
+#academic/chemistry #flashcards/academic/ion
 
 # ion
 
@@ -105,7 +105,7 @@ class Section(typing.NamedTuple):
 cation_sect: Section = Section.from_rows(cations)
 anion_sect: Section = Section.from_rows(anions)
 
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('d9192d'),
 		text=cation_sect.table,

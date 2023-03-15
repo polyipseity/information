@@ -1,4 +1,11 @@
-#flashcards/academic/atmosphere_of_Earth #academic/chemistry
+#academic/chemistry #flashcards/academic/atmosphere_of_Earth
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
 
 # atmosphere of Earth
 
@@ -9,18 +16,18 @@
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
-	R'[N<sub>2</sub>](nitrogen.md){text:\: 78.084%}',
-	R'[O<sub>2</sub>](oxygen.md){text:\: 20.946%}',
-	R'[Ar](argon.md){text:\: 0.9340%}',
-	R'[CO<sub>2</sub>](carbon%20dioxide.md){text:\: 0.0417% (2022-04-xx)}',
-	'{text:_others_}{mem:_others_}{mem lnk:_others_}',),
+	fR'[N<sub>2</sub>](nitrogen.md){{{gen.Tag.TEXT}:\: 78.084%}}',
+	fR'[O<sub>2</sub>](oxygen.md){{{gen.Tag.TEXT}:\: 20.946%}}',
+	fR'[Ar](argon.md){{{gen.Tag.TEXT}:\: 0.9340%}}',
+	fR'[CO<sub>2</sub>](carbon%20dioxide.md){{{gen.Tag.TEXT}:\: 0.0417% (2022-04-xx)}}',
+	f'{{{gen.Tag.TEXT}:_others_}}{{{gen.Tag.MEMORIZE}:_others_}}{{{Tags.MEMORIZE_LINKED}:_others_}}',),
 	index=1,
-	prefix='{mem lnk:_(begin)_}',
-	suffix='{mem lnk:_(end)_}',)
+	prefix=f'{{{Tags.MEMORIZE_LINKED}:_(begin)_}}',
+	suffix=f'{{{Tags.MEMORIZE_LINKED}:_(end)_}}',)
 sem: gen.TextCode = gen.TextCode.compile(
 	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('a34f1d'),
 		text=gen.quote_text(data),

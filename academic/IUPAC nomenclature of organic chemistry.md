@@ -1,4 +1,11 @@
-#flashcards/academic/IUPAC_nomenclature_of_organic_chemistry #academic/chemistry
+#academic/chemistry #flashcards/academic/IUPAC_nomenclature_of_organic_chemistry
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
 
 # IUPAC nomenclature of organic chemistry
 
@@ -23,8 +30,8 @@ principles: gen.TextCode = gen.seq_to_code((
 		'prefix notation for _cis_–_trans_ isomerism',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 id_parent: gen.TextCode = gen.seq_to_code((
 		'most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)',
 		'most multiple bonds',
@@ -33,27 +40,27 @@ id_parent: gen.TextCode = gen.seq_to_code((
 		'most single bonds',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 id_num_dir: gen.TextCode = gen.seq_to_code((
 		'smallest locant for the suffix functional group',
 		'smallest locant for multiple bonds',
 		'smallest locant for prefixes',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 arrange: gen.TextCode = gen.seq_to_code((
 		'prefix order: alphabetical order ignoring prefixes for type count',
 		'bond order: single bond, double bond, triple bond, ...',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 pronuciations: gen.TextCode = gen.TextCode.compile(
-	R'''{text:- }suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u){text:\: }drop '-e'{text:
-- }bond suffix is followed by prefix for type count{text:\: }keep '-e'{text:
-- }prefix for carbon count is followed by prefix for type count{text:\: }add '-a'{}'''
+	fR'''{{{gen.Tag.TEXT}:- }}suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u){{{gen.Tag.TEXT}:\: }}drop '-e'{{{gen.Tag.TEXT}:
+- }}bond suffix is followed by prefix for type count{{{gen.Tag.TEXT}:\: }}keep '-e'{{{gen.Tag.TEXT}:
+- }}prefix for carbon count is followed by prefix for type count{{{gen.Tag.TEXT}:\: }}add '-a'{{}}'''
 )
 punctuations: gen.TextCode = gen.seq_to_code((
 		'commas (,) between locants',
@@ -61,9 +68,9 @@ punctuations: gen.TextCode = gen.seq_to_code((
 		'remove (most) spaces ( )',
 	),
 	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',)
-return util.Results(
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
+return (
 	util.Result(
 		location=__env__.cwf_section('5193cd'),
 		text=gen.quote_text(principles),
@@ -274,13 +281,13 @@ The steps for naming an organic compound are:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
 text: gen.TextCode = gen.TextCode.compile(
-	R'''{text:- }1{text:\: }(none){text:
-- }2{text:\: }di-{text:
-- }3{text:\: }tri-{text:
-- }4{text:\: }tetra-{text:
-- }5/+{text:\: }([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
+	fR'''{{{gen.Tag.TEXT}:- }}1{{{gen.Tag.TEXT}:\: }}(none){{{gen.Tag.TEXT}:
+- }}2{{{gen.Tag.TEXT}:\: }}di-{{{gen.Tag.TEXT}:
+- }}3{{{gen.Tag.TEXT}:\: }}tri-{{{gen.Tag.TEXT}:
+- }}4{{{gen.Tag.TEXT}:\: }}tetra-{{{gen.Tag.TEXT}:
+- }}5/+{{{gen.Tag.TEXT}:\: }}([prefix for carbon count](#prefix%20for%20carbon%20count))a-'''
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('ad83dc'),
 		text=gen.quote_text(text),
@@ -322,28 +329,28 @@ return util.Results(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
 text: gen.TextCode = gen.TextCode.compile(
-	R'''{text:- }1{text:\: }meth-{text:
-- }2{text:\: }eth-{text:
-- }3{text:\: }prop-{text:
-- }4{text:\: }but-{text:
-- }5{text:\: }pent-{text:
-- }6{text:\: }hex-{text:
-- }7{text:\: }hept-{text:
-- }8{text:\: }oct-{text:
-- }9{text:\: }non-{text:
-- }10{text:\: }dec-{text:
-- }11{text:\: }undec-{text:
-- }12{text:\: }dodec-{text:
-- }13{text:\: }tridec-{text:
-- }14{text:\: }tetradec-{text:
-- }15{text:\: }pentadec-{text:
-- }16{text:\: }hexadec-{text:
-- }17{text:\: }heptadec-{text:
-- }18{text:\: }octadec-{text:
-- }19{text:\: }nonadec-{text:
-- }20{text:\: }icos-'''
+	fR'''{{{gen.Tag.TEXT}:- }}1{{{gen.Tag.TEXT}:\: }}meth-{{{gen.Tag.TEXT}:
+- }}2{{{gen.Tag.TEXT}:\: }}eth-{{{gen.Tag.TEXT}:
+- }}3{{{gen.Tag.TEXT}:\: }}prop-{{{gen.Tag.TEXT}:
+- }}4{{{gen.Tag.TEXT}:\: }}but-{{{gen.Tag.TEXT}:
+- }}5{{{gen.Tag.TEXT}:\: }}pent-{{{gen.Tag.TEXT}:
+- }}6{{{gen.Tag.TEXT}:\: }}hex-{{{gen.Tag.TEXT}:
+- }}7{{{gen.Tag.TEXT}:\: }}hept-{{{gen.Tag.TEXT}:
+- }}8{{{gen.Tag.TEXT}:\: }}oct-{{{gen.Tag.TEXT}:
+- }}9{{{gen.Tag.TEXT}:\: }}non-{{{gen.Tag.TEXT}:
+- }}10{{{gen.Tag.TEXT}:\: }}dec-{{{gen.Tag.TEXT}:
+- }}11{{{gen.Tag.TEXT}:\: }}undec-{{{gen.Tag.TEXT}:
+- }}12{{{gen.Tag.TEXT}:\: }}dodec-{{{gen.Tag.TEXT}:
+- }}13{{{gen.Tag.TEXT}:\: }}tridec-{{{gen.Tag.TEXT}:
+- }}14{{{gen.Tag.TEXT}:\: }}tetradec-{{{gen.Tag.TEXT}:
+- }}15{{{gen.Tag.TEXT}:\: }}pentadec-{{{gen.Tag.TEXT}:
+- }}16{{{gen.Tag.TEXT}:\: }}hexadec-{{{gen.Tag.TEXT}:
+- }}17{{{gen.Tag.TEXT}:\: }}heptadec-{{{gen.Tag.TEXT}:
+- }}18{{{gen.Tag.TEXT}:\: }}octadec-{{{gen.Tag.TEXT}:
+- }}19{{{gen.Tag.TEXT}:\: }}nonadec-{{{gen.Tag.TEXT}:
+- }}20{{{gen.Tag.TEXT}:\: }}icos-'''
 )
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('1239c2'),
 		text=gen.quote_text(text),
@@ -462,7 +469,7 @@ table: str = gen.quotette(
 )
 text: gen.TextCode = gen.maps_to_code(map,
 	name_cloze=True,)
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('28dcee'),
 		text=table,
@@ -634,10 +641,10 @@ data: typing.Sequence[Affixes] = (
 table: gen.TextCode = gen.TextCode.compile(gen.rows_to_table(data,
 		names=('element', 'prefix', 'suffix',),
 		values=lambda affixes: map(gen.TextCode.escape,
-			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
+			(affixes.element, cloze(affixes.prefix), cloze(affixes.suffix),)
 		),
 	))
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('adc061'),
 		text=gen.cloze_text(table,
@@ -677,9 +684,9 @@ text: gen.TextCode = gen.seq_to_code((
 	'amine',
 	),
 	index=1,
-	prefix='{mem:_(highest)_}',
-	suffix='{mem:_(lowest)_}',)
-return util.Results(
+	prefix=f'{{{gen.Tag.MEMORIZE}:_(highest)_}}',
+	suffix=f'{{{gen.Tag.MEMORIZE}:_(lowest)_}}',)
+return (
 	util.Result(
 		location=__env__.cwf_section('19cfa2'),
 		text=gen.quote_text(text),

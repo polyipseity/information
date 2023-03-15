@@ -1,4 +1,4 @@
-#flashcards/academic/chemistry #academic/chemistry
+#academic/chemistry #flashcards/academic/chemistry
 
 # chemistry
 

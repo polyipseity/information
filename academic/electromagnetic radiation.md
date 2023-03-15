@@ -2,7 +2,7 @@
 aliases: ['EMR', 'electromagnetic wave', 'electromagnetic waves', 'EM wave', 'EM waves',]
 ---
 
-#flashcards/academic/electromagnetic_radiation #academic/physics
+#academic/physics #flashcards/academic/electromagnetic_radiation
 
 # electromagnetic radiation
 

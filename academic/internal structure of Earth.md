@@ -12,48 +12,23 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
-from pytextgen.config import CONFIG
-from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result, Results
 e = __env__
-cl, cr = CONFIG.cloze_token
-data = (
-	('[atmosphere](atmosphere%20of%20Earth.md)', html_ul(('~80 km thick', 'gas',),),),
-	('[crust](crust.md)', html_ul(('~5–70 km thick', 'solid [rock](rock.md)',),),),
-	('[mantle](mantle.md)', html_ul(('~2900 km thick', 'solid, dense rock',),),),
-	('[outer core](outer%20core.md)', html_ul(('very dense liquid rock', 'high [temperature](temperature.md)',),),),
-	('[inner core](inner%20core.md)', html_ul(('very dense solid rock', 'very high temperature and [pressure](pressure.md)',),),),
-)
-return Results(
-	Result(
-		location=e.cwf_section('2182ff'),
-		text=gen.cloze_text(
-			TextCode.compile(gen.rows_to_table(
-				data,
-				names=('name', 'description',),
-				values=lambda data: (TextCode.escape(f'{cl}{datum}{cr}') for datum in data),
-			)),
-			states=await read.read_flashcard_states(e.cwf_section('2182ff')),
-		),
+return await memorize_table(
+	(e.cwf_section('2182ff'), e.cwf_section('239e8f'),),
+	('name', 'description',),
+	(
+		('[atmosphere](atmosphere%20of%20Earth.md)', html_ul(('~80 km thick', 'gas',),),),
+		('[crust](crust.md)', html_ul(('~5–70 km thick', 'solid [rock](rock.md)',),),),
+		('[mantle](mantle.md)', html_ul(('~2900 km thick', 'solid, dense rock',),),),
+		('[outer core](outer%20core.md)', html_ul(('very dense liquid rock', 'high [temperature](temperature.md)',),),),
+		('[inner core](inner%20core.md)', html_ul(('very dense solid rock', 'very high temperature and [pressure](pressure.md)',),),),
 	),
-	Result(
-		location=e.cwf_section('239e8f'),
-		text=gen.memorize_linked_seq(
-			gen.seq_to_code(
-				map(lambda datum: TextCode.escape(datum[0]), data),
-				prefix=f'{{{Tag.MEMORIZE}:_(exterior)_}}',
-				suffix=f'{{{Tag.MEMORIZE}:_(interior)_}}',
-			),
-			hinted=False,
-			states=await read.read_flashcard_states(e.cwf_section('239e8f')),
-		),
-	),
+	lambda data: map(cloze, data),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2182ff"--><!-- The following content is generated at 2023-03-14T20:25:01.586205+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2182ff"--><!-- The following content is generated at 2023-03-15T18:53:34.797588+08:00. Any edits will be overridden! -->
 
 > name | description
 > -|-
@@ -65,13 +40,13 @@ return Results(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2023-03-14T20:25:01.566163+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2023-03-15T18:37:52.425447+08:00. Any edits will be overridden! -->
 
-1. _(exterior)_→:::←[atmosphere](atmosphere%20of%20Earth.md)
+1. _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md)
 2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md)
 3. [crust](crust.md)→:::←[mantle](mantle.md)
 4. [mantle](mantle.md)→:::←[outer core](outer%20core.md)
 5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md)
-6. [inner core](inner%20core.md)→:::←_(interior)_
+6. [inner core](inner%20core.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

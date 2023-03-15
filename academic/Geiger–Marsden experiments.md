@@ -2,7 +2,7 @@
 aliases: ['Geiger–Marsden experiment', 'Rutherford gold foil experiment', 'Rutherford gold foil experiments', 'gold foil experiment', 'gold foil experiments',]
 ---
 
-#flashcards/academic/Geiger-Marsden_experiments #academic/physics
+#academic/physics #flashcards/academic/Geiger-Marsden_experiments
 
 # Geiger–Marsden experiments
 
