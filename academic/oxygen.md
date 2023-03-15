@@ -1,5 +1,12 @@
 #academic/chemistry #flashcards/academic/oxygen
 
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
+
 # oxygen
 
 ## uses
@@ -7,41 +14,16 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read
-from pytextgen.config import CONFIG
-from pytextgen.gen import Tag, TextCode
-from pytextgen.util import Result
 e = __env__
-cl, cr = CONFIG.cloze_token
-data = (
-	('breathing', '',),
-	('burning of fuels', '',),
-	('medical use', '',),
-)
-return (
-	Result(
-		location=e.cwf_section('923dac'),
-		text=gen.cloze_text(
-			TextCode.compile(gen.rows_to_table(
-				data,
-				names=('name', 'description',),
-				values=lambda datum: (TextCode.escape(f'{cl}{field}{cr}') if field else '' for field in datum),
-			)),
-			states=await read.read_flashcard_states(e.cwf_section('923dac')),
-		),
+return await memorize_table(
+	(e.cwf_section('923dac'), e.cwf_section('aaee9e'),),
+	('name', 'description',),
+	(
+		('breathing', '',),
+		('burning of fuels', '',),
+		('medical use', '',),
 	),
-	Result(
-		location=e.cwf_section('aaee9e'),
-		text=gen.memorize_linked_seq(
-			gen.seq_to_code(
-				map(lambda datum: TextCode.escape(datum[0]), data),
-				prefix=f'{{{Tag.MEMORIZE}:_(begin)_}}',
-				suffix=f'{{{Tag.MEMORIZE}:_(end)_}}',
-			),
-			hinted=False,
-			states=await read.read_flashcard_states(e.cwf_section('aaee9e')),
-		),
-	),
+	lambda data: map(cloze, data),
 )
 ```
 %%
