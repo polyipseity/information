@@ -1,5 +1,12 @@
 #academic/chemistry #flashcards/academic/IUPAC_nomenclature_of_organic_chemistry
 
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
+
 # IUPAC nomenclature of organic chemistry
 
 ## principles
@@ -634,7 +641,7 @@ data: typing.Sequence[Affixes] = (
 table: gen.TextCode = gen.TextCode.compile(gen.rows_to_table(data,
 		names=('element', 'prefix', 'suffix',),
 		values=lambda affixes: map(gen.TextCode.escape,
-			(affixes.element, f'{{{{{affixes.prefix}}}}}', f'{{{{{affixes.suffix}}}}}',)
+			(affixes.element, cloze(affixes.prefix), cloze(affixes.suffix),)
 		),
 	))
 return (
