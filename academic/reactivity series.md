@@ -2,7 +2,7 @@
 aliases: ['activity series',]
 ---
 
-#flashcards/academic/reactivity_series #academic/chemistry
+#academic/chemistry #flashcards/academic/reactivity_series
 
 # reactivity series
 

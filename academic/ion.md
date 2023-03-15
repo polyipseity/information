@@ -2,7 +2,7 @@
 aliases: ['ions', 'cation', 'cations', 'anion', 'anions',]
 ---
 
-#flashcards/academic/ion #academic/chemistry
+#academic/chemistry #flashcards/academic/ion
 
 # ion
 

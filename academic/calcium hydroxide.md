@@ -2,7 +2,7 @@
 aliases: ['Ca(OH)2', 'slaked lime', 'limewater',]
 ---
 
-#flashcards/academic/calcium_hydroxide #academic/chemistry
+#academic/chemistry #flashcards/academic/calcium_hydroxide
 
 # calcium hydroxide
 

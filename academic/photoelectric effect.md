@@ -2,7 +2,7 @@
 aliases: ['photoemission',]
 ---
 
-#flashcards/academic/photoelectric_effect #academic/physics
+#academic/physics #flashcards/academic/photoelectric_effect
 
 # photoelectric effect
 

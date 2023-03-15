@@ -1,4 +1,4 @@
-#flashcards/general/usage/Blender_usage #general/usage
+#general/usage #flashcards/general/usage/Blender_usage
 
 # Blender usage
 
