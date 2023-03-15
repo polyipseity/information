@@ -1,4 +1,4 @@
-#flashcards/academic/solubility #academic/chemistry
+#academic/chemistry #flashcards/academic/solubility
 
 # solubility
 
@@ -70,7 +70,7 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 	},
 }
 text: gen.TextCode = gen.maps_to_code(data)
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('901862'),
 		text=gen.cloze_text(text,

@@ -2,7 +2,7 @@
 aliases: ['electrochemical series',]
 ---
 
-#flashcards/academic/standard_electrode_potential #academic/chemistry
+#academic/chemistry #flashcards/academic/standard_electrode_potential
 
 # standard electrode potential
 
@@ -86,7 +86,7 @@ elements: gen.TextCode = gen.TextCode.compile(
 	'{}'.join(f'{gen.TextCode.escape(ele)}{{}}{gen.TextCode.escape("<br/>".join(rdx.equation for rdx in data_by_element[ele]))}' for ele in sorted(data_by_element))
 )
 
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('230419'),
 		text=table,

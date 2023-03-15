@@ -1,4 +1,4 @@
-#flashcards/academic/pH_indicator #academic/chemistry
+#academic/chemistry #flashcards/academic/pH_indicator
 
 # pH indicator
 
@@ -24,8 +24,8 @@ class pHRanges(typing.NamedTuple):
 	def mem_ranges(self: typing.Self) -> gen.TextCode:
 		return gen.seq_to_code(self.data.keys(),
 			index=1,
-			prefix='{mem:_(acidic)_}',
-			suffix='{mem:_(basic)_}',
+			prefix=f'{{{gen.Tag.MEMORIZE}:_(acidic)_}}',
+			suffix=f'{{{gen.Tag.MEMORIZE}:_(basic)_}}',
 			escape=True,)
 
 	@property
@@ -49,7 +49,7 @@ phenolphthalein: pHRanges = pHRanges({
 	'10~14': '<span style="color: pink;">pink</span>',
 })
 
-return util.Results(
+return (
 	util.Result(
 		location=__env__.cwf_section('a9208f'),
 		text=methyl_orange.table,

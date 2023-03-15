@@ -1,4 +1,11 @@
-#flashcards/academic/experiment #academic/biology #academic/chemistry #academic/physics
+#academic/biology #academic/chemistry #academic/physics #flashcards/academic/experiment
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
 
 # experiment
 
@@ -7,30 +14,14 @@
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read, util
-data = gen.seq_to_code(
+e = __env__
+return await memorize_steps(
+	(e.cwf_section('d9203e'), e.cwf_section('b923ed'),),
 	(
 		"Observe",
 		"Record",
 		"Analyze",
 		"Conclude",
-	),
-	index=1,
-	prefix='{mem:_(begin)_}',
-	suffix='{mem:_(end)_}',
-)
-return util.Results(
-	util.Result(
-		location=__env__.cwf_section("d9203e"),
-		text=gen.quote_text(data),
-	),
-	util.Result(
-		location=__env__.cwf_section("b923ed"),
-		text=gen.memorize_linked_seq(
-			data,
-			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section("b923ed")),
-		),
 	),
 )
 ```

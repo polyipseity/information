@@ -2,7 +2,7 @@
 aliases: ['ionization energies', 'ionisation energy', 'ionisation energies',]
 ---
 
-#flashcards/academic/ionization_energy #academic/physics
+#academic/physics #flashcards/academic/ionization_energy
 
 # ionization energy
 
