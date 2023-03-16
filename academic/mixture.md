@@ -17,3 +17,15 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 - properties: {{each constituent keep their properties}}
 - separation: {{separable by physical and chemical methods}}
 - [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{wide}}
+
+## uniformity
+
+A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}.
+
+### homogeneous mixture
+
+A homogeneous mixture has {{uniformly distributed constituents}}.
+
+### heterogeneous mixture
+
+A heterogeneous mixture has {{clearly separated constituents}}.

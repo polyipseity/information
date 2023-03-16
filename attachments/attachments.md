@@ -45,6 +45,7 @@
 - [Laboratory Spatula.JPG](Laboratory%20Spatula.JPG): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_Spatula.JPG">Gamico94</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Laboratory tripod.jpg](Laboratory%20tripod.jpg): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_tripod.jpg">NagayaS</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Laboratory Watch glasses of different sizes 2:jpg](Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_Watch_glasses_of_different_sizes_2.jpg">Navpreet.arr</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [LiebigCondenser.jpg](LiebigCondenser.jpg): <a href="https://commons.wikimedia.org/wiki/File:LiebigCondenser.jpg">See page for author</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
 
 ## Mm
 - [Mercury Thermometer.jpg](Mercury%20Thermometer.jpg): <a href="https://commons.wikimedia.org/wiki/File:Mercury_Thermometer.jpg">Anonimski</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
@@ -59,6 +60,7 @@
 
 ## Ss
 - [Safety Goggles.jpg](Safety%20Goggles.jpg): <a href="https://commons.wikimedia.org/wiki/File:Safety_Goggles.jpg">DJSparky</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [Simple distillation apparatus.svg](Simple%20distillation%20apparatus.svg): <a href="https://commons.wikimedia.org/wiki/File:Simple_distillation_apparatus.svg">Original PNG by User:Quantockgoblin, SVG adaptation by User:Slashme</a>, Public domain, via Wikimedia Commons
 - [Stirring rod.jpg](Stirring%20rod.jpg): <a href="https://commons.wikimedia.org/wiki/File:Stirring_rod.jpg">TarnPraewan</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Tt
