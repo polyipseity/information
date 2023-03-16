@@ -14,14 +14,14 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - undo:::Ctrl+Z <!--SR:!2023-09-28,197,310!2023-07-07,121,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-06-13,94,256-->
 - quit:::Ctrl+Q <!--SR:!2023-07-01,117,290!2023-04-27,80,296-->
-- help:::F1 <!--SR:!2023-07-02,119,290!2023-03-16,49,290-->
+- help:::F1 <!--SR:!2023-07-02,119,290!2023-08-10,147,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-04-14,42,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-03-17,50,296-->
 - file context menu:::F4 <!--SR:!2023-03-19,10,190!2023-03-26,31,256-->
-- show render window:::F11 <!--SR:!2023-03-16,43,275!2023-04-03,58,276-->
+- show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-03-16,6,130!2023-04-11,58,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-03-30,14,150!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-04-28,54,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->
@@ -50,4 +50,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-03-19,43,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-04-20,63,256-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-05-11,79,270!2023-03-16,28,175-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-05-11,79,270!2023-05-03,48,175-->

@@ -166,7 +166,7 @@ The steps for naming an organic compound are:
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-03-23,46,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-04-05,71,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-03-21,33,247-->
-7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-03-16,79,190!2023-05-04,102,265-->
+7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2023-05-04,102,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-04-04,56,227-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-04-13,60,230!2023-08-31,191,265-->
@@ -196,7 +196,7 @@ The steps for naming an organic compound are:
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2023-05-10,129,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-11-14,245,282-->
 4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-06-26,168,325-->
-5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-03-16,88,282-->
+5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-11-27,256,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2023-05-21,147,325-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -269,7 +269,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←commas (,) between locants <!--SR:!2025-05-09,838,332!2023-07-27,186,320-->
 2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2023-07-07,136,321-->
-3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2023-03-16,271,333!2023-11-13,285,342-->
+3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2023-11-13,285,342-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2024-04-06,410,367!2023-08-09,196,327-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -317,7 +317,7 @@ return (
 1. 1:::(none) <!--SR:!2024-05-18,635,330!2026-03-10,1157,356-->
 2. 2:::di- <!--SR:!2023-10-04,408,310!2026-02-11,1107,342-->
 3. 3:::tri- <!--SR:!2025-03-16,784,310!2026-03-11,1131,344-->
-4. 4:::tetra- <!--SR:!2023-03-17,20,340!2023-03-16,19,340-->
+4. 4:::tetra- <!--SR:!2023-03-17,20,340!2023-06-15,91,360-->
 5. 5/+:::([prefix for carbon count](#prefix%20for%20carbon%20count))a- <!--SR:!2023-06-29,311,270!2023-06-16,120,266-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -574,7 +574,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-16,5,162!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-25,9,162!2024-06-02,458,362!2024-05-01,429,362-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
