@@ -1,3 +1,7 @@
+---
+aliases: ['insoluble', 'soluble',]
+---
+
 #academic/chemistry #flashcards/academic/solubility
 
 # solubility
