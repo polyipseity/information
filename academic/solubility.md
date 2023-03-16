@@ -2,6 +2,10 @@
 
 # solubility
 
+__Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}.
+
+It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}.
+
 ## data
 
 ### ionic compounds in water
