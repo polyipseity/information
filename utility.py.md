@@ -54,17 +54,51 @@ return export_seq(hard,)
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+from asyncio import gather
+from itertools import starmap
 from pytextgen.config import CONFIG
-from pytextgen.gen import Tag, TextCode, cloze_text, memorize_linked_seq, quote_text, rows_to_table, seq_to_code
+from pytextgen.gen import Tag, TextCode, cloze_text, memorize_linked_seq, memorize_two_sided, quote_text, rows_to_table, seq_to_code, two_columns_to_code
 from pytextgen.read import read_flashcard_states
 from pytextgen.util import Location, Result, export_seq, identity
-from typing import Any, Callable, Iterable, Sequence, TypeVar
+from typing import Any, Callable, Iterable, Mapping, Sequence, TypeVar
 
 T = TypeVar('T')
 
 def cloze(string: str, escape = False):
 	cl, cr = CONFIG.cloze_token
 	return (TextCode.escape if escape else identity)(f'{cl}{string}{cr}') if string else ''
+
+async def memorize_map(
+	locations: tuple[Location, Location],
+	data: Mapping[str, Iterable[str]],
+	*,
+	joiner = ', ',
+	escape = True,
+) -> tuple[Result, Result]:
+	forward = {}
+	backward = {}
+	for key, vals in data.items():
+		forward[key] = vals = tuple(vals)
+		for val in vals:
+			backward.setdefault(val, []).append(key)
+
+	async def mem(location: Location, map_: Mapping[str, Iterable[str]]):
+		escaper = TextCode.escape if escape else identity
+		return Result(
+			location=location,
+			text=memorize_two_sided(
+				two_columns_to_code(
+					map_.items(),
+					left=lambda data: escaper(data[0]),
+					right=lambda data: joiner.join(map(escaper, data[1])),
+				),
+				reversible=False,
+				states=await read_flashcard_states(location),
+			),
+		)
+	return await gather(*starmap(mem,
+		((locations[0], forward), (locations[1], backward),)
+	))
 
 async def memorize_steps(
 	locations: tuple[Location, Location],
@@ -73,14 +107,12 @@ async def memorize_steps(
 	prefix = f'{{{Tag.MEMORIZE}:_(begin)_}}',
 	suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
 	escape = True,
-	**kwargs
 ) -> tuple[Result, Result]:
 	code = seq_to_code(
 		seq,
 		prefix=prefix,
 		suffix=suffix,
 		escape=escape,
-		**kwargs,
 	)
 	return (
 		Result(
@@ -137,7 +169,7 @@ async def memorize_table(
 		),
 	)
 
-return export_seq(cloze, memorize_steps, memorize_table,)
+return export_seq(cloze, memorize_map, memorize_steps, memorize_table,)
 ```
 
 ## notes
