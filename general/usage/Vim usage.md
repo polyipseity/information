@@ -12,7 +12,7 @@ See also [Vim help files](https://vimhelp.org/).
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-04-10,26,193!2023-03-31,43,288-->
 
 ## pattern
-- repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-03-16,32,293!2023-05-15,83,328-->
+- repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-07-22,128,313!2023-05-15,83,328-->
 
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-04-05,48,288-->
@@ -74,7 +74,7 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2023-05-05,73,313-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-03-16,10,208-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-04-07,22,208-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-03,31,273!2023-05-07,75,313-->
 
 ## options
