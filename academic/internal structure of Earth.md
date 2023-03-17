@@ -18,7 +18,7 @@ return await memorize_table(
 	('name', 'description',),
 	(
 		('[atmosphere](atmosphere%20of%20Earth.md)', html_ul(('~80 km thick', 'gas',),),),
-		('[crust](crust.md)', html_ul(('~5–70 km thick', 'solid [rock](rock.md)',),),),
+		('[crust](crust.md)', html_ul(('~5–70 km thick', 'solid [rock](rock%20(geology).md)',),),),
 		('[mantle](mantle.md)', html_ul(('~2900 km thick', 'solid, dense rock',),),),
 		('[outer core](outer%20core.md)', html_ul(('very dense liquid rock', 'high [temperature](temperature.md)',),),),
 		('[inner core](inner%20core.md)', html_ul(('very dense solid rock', 'very high temperature and [pressure](pressure.md)',),),),
@@ -28,12 +28,12 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2182ff"--><!-- The following content is generated at 2023-03-15T18:53:34.797588+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2182ff"--><!-- The following content is generated at 2023-03-17T10:53:05.624080+08:00. Any edits will be overridden! -->
 
 > name | description
 > -|-
 > {{[atmosphere](atmosphere%20of%20Earth.md)}} | {{<ul><li>~80 km thick</li><li>gas</li></ul>}}
-> {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock.md)</li></ul>}}
+> {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}}
 > {{[mantle](mantle.md)}} | {{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}}
 > {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}}
 > {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}}
