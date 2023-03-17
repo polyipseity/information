@@ -195,12 +195,12 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-06T20:13:24.273182+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
-2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2023-03-17,340,353-->
+2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2027-09-21,1649,373-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2023-04-06,353,339!2023-04-20,367,353-->
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2024-01-31,376,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2023-03-21,342,347!2026-09-15,1300,330-->
-7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2023-03-17,148,250!2023-05-14,328,293-->
+7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2023-05-14,328,293-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2023-04-07,108,227!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2023-04-10,359,354-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-08-05,202,230!2025-02-15,770,294-->
