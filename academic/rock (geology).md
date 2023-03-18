@@ -1,5 +1,5 @@
 ---
-aliases: ['stone',]
+aliases: ['rock', 'rocks', 'stone', 'stones',]
 ---
 
 #academic/chemistry #academic/geology #flashcards/academic/rock__geology_
