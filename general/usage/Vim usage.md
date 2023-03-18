@@ -39,7 +39,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-04-17,60,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-03-26,42,273!2023-04-10,53,293-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-03-18,34,293-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-04-13,56,293-->
 
 ## replace
