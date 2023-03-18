@@ -11,6 +11,10 @@
 
 An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}}
 
+## extraction
+
+See [extractive metallurgy](extractive%20metallurgy.md).
+
 ## important ores
 
 %%
