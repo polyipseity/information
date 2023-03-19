@@ -9,6 +9,7 @@
 ## Aa
 - [A laboratory heat spreader made of asbestos, over Teclu burner.jpg](A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:A_laboratory_heat_spreader_made_of_asbestos,_over_Teclu_burner.jpg">LukaszKatlewa</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons
 - [Abdampfschalen verschiedene Groessen.jpg](Abdampfschalen%20verschiedene%20Groessen.jpg): <a href="https://commons.wikimedia.org/wiki/File:Abdampfschalen_verschiedene_Groessen.jpg">Simon A. Eugster</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [Atomic Symbol Mg.svg](Atomic%20Symbol%20Mg.svg): <a href="https://commons.wikimedia.org/wiki/File:Atomic_Symbol_Mg.svg">GKFX</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Bb
 - [Bunsen burner.jpg](Bunsen%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:Bunsen_burner.jpg">See page for author</a>, Public domain, via Wikimedia Commons

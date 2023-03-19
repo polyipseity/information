@@ -26,13 +26,29 @@ from typing import Iterable, Literal
 def html_list(type: Literal['ol', 'ul'], iter: Iterable[str], *, escape = True):
 	return f"<{type}><li>{'</li><li>'.join(map(h_esc, iter) if escape else iter)}</li></{type}>"
 
+def html_list2(type: Literal['ol', 'ul'], *args, **kwargs):
+	return html_list(type, args, **kwargs)
+
 def html_ol(iter: Iterable[str], **kwargs):
 	return html_list('ol', iter, **kwargs)
+
+def html_ol2(*args, **kwargs):
+	return html_ol(args, **kwargs)
 
 def html_ul(iter: Iterable[str], **kwargs):
 	return html_list('ul', iter, **kwargs)
 
-return export_seq(html_list, html_ol, html_ul,)
+def html_ul2(*args, **kwargs):
+	return html_ul(args, **kwargs)
+
+return export_seq(
+	html_list,
+	html_list2,
+	html_ol,
+	html_ol2,
+	html_ul,
+	html_ul2,
+)
 ```
 
 ## hard
