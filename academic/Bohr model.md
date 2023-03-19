@@ -6,7 +6,7 @@ aliases: ['Rutherford–Bohr model',]
 
 # Bohr model
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-03-19,6,210!2023-10-14,225,310!2023-04-21,44,170!2023-07-06,140,290!2023-05-24,76,232!2023-11-07,249,332!2023-04-05,28,192-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-04-08,20,230!2023-10-14,225,310!2023-04-21,44,170!2023-07-06,140,290!2023-05-24,76,232!2023-11-07,249,332!2023-04-05,28,192-->
 
 The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-04-18,65,232!2023-05-01,88,272-->
 
@@ -40,4 +40,4 @@ The combination of natural constants in the energy formula is the {{Rydberg ener
 
 The energy of a photon emitted by a hydrogen atom is:
 {{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
-{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-04-06,74,302!2023-09-04,188,302!2023-03-25,64,302!2023-03-19,60,302!2023-08-06,163,302!2023-03-21,22,202-->
+{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-04-06,74,302!2023-09-04,188,302!2023-03-25,64,302!2023-09-24,189,302!2023-08-06,163,302!2023-03-21,22,202-->

@@ -17,7 +17,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - help:::F1 <!--SR:!2023-07-02,119,290!2023-08-10,147,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-04-14,42,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-04-12,26,276-->
-- file context menu:::F4 <!--SR:!2023-03-19,10,190!2023-03-26,31,256-->
+- file context menu:::F4 <!--SR:!2023-04-09,21,190!2023-03-26,31,256-->
 - show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-03,58,276-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
@@ -35,7 +35,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### editor
 
 - select all:::A <!--SR:!2023-04-11,64,276!2023-03-20,53,296-->
-- select none:::Alt+A <!--SR:!2023-03-19,31,236!2023-05-04,81,276-->
+- select none:::Alt+A <!--SR:!2023-07-03,106,256!2023-05-04,81,276-->
 - invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-05-16,84,276-->
 - hide selection:::H <!--SR:!2023-05-22,84,250!2023-07-04,127,290-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
@@ -48,6 +48,6 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-06-15,99,256!2023-04-15,33,216-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2023-07-12,125,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
-	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-03-19,43,256-->
+	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-07-04,107,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-03-27,48,250!2023-04-20,63,256-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-05-11,79,270!2023-05-03,48,175-->
