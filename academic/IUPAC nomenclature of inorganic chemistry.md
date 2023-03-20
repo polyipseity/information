@@ -17,7 +17,7 @@ The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorg
 
 ## system
 
-### ions
+### ionic compounds
 
 %%
 ```Python
@@ -97,3 +97,7 @@ return await memorize_table(
 3. highest→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### molecular compounds
+
+{{Inorganic}} molecular compounds are {{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix before the last element}}. The elements are {{ordered in ascending [electronegativity](electronegativity.md)}}. Additionally, {{_mono-_ is not used with the first element}}. Exceptions exist.
