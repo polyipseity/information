@@ -27,7 +27,7 @@ Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [no
 e = __env__
 ca_or_below = 'reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above'
 return await memorize_map(
-	(e.cwf_section('1d5e'), e.cwf_section('ffa2'),),
+	(e.cwf_section('0439'), e.cwf_section('1d5e'), e.cwf_section('ffa2'),),
 	items_to_map(
 		('[beryllium](beryllium.md)', 'no reaction with water or steam',),
 		('[magnesium](magnesium.md)', 'reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas',),
@@ -39,6 +39,17 @@ return await memorize_map(
 )
 ```
 %%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0439"--><!-- The following content is generated at 2023-03-20T22:20:19.330004+08:00. Any edits will be overridden! -->
+
+> 1. [beryllium](beryllium.md): no reaction with water or steam
+> 2. [magnesium](magnesium.md): reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas
+> 3. [calcium](calcium.md): reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above
+> 4. [strontium](strontium.md): reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above
+> 5. [barium](barium.md): reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above
+> 6. [radium](radium.md): unknown
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1d5e"--><!-- The following content is generated at 2023-03-20T11:25:16.273179+08:00. Any edits will be overridden! -->
 
