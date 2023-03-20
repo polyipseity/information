@@ -107,13 +107,13 @@ return (
 
 ## methyl orange
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9208f"--><!-- The following content is generated at 2022-11-05T00:25:01.086869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9208f"--><!-- The following content is generated at 2023-03-20T16:20:31.210600+08:00. Any edits will be overridden! -->
 
-> pH | color
-> -|-
-> 1~3.1 | <span style="color: red;">red</span>
-> 3.1~4.4 | <span style="color: orange;">orange</span>
-> 4.4~14 | <span style="color: yellow;">yellow</span>
+> | pH | color |
+> |-|-|
+> | 1~3.1 | <span style="color: red;">red</span> |
+> | 3.1~4.4 | <span style="color: orange;">orange</span> |
+> | 4.4~14 | <span style="color: yellow;">yellow</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -136,13 +136,13 @@ return (
 
 ## litmus
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2acde1"--><!-- The following content is generated at 2022-11-05T00:25:01.064868+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2acde1"--><!-- The following content is generated at 2023-03-20T16:20:31.264567+08:00. Any edits will be overridden! -->
 
-> pH | color
-> -|-
-> 1~5 | <span style="color: red;">red</span>
-> 5~8 | <span style="color: purple; background-color: white;">purple</span>
-> 8~14 | <span style="color: blue; background-color: white;">blue</span>
+> | pH | color |
+> |-|-|
+> | 1~5 | <span style="color: red;">red</span> |
+> | 5~8 | <span style="color: purple; background-color: white;">purple</span> |
+> | 8~14 | <span style="color: blue; background-color: white;">blue</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -165,13 +165,13 @@ return (
 
 ## phenolphthalein
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c8883"--><!-- The following content is generated at 2022-11-05T00:25:01.044870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c8883"--><!-- The following content is generated at 2023-03-20T16:20:31.170624+08:00. Any edits will be overridden! -->
 
-> pH | color
-> -|-
-> 1~8.3 | colorless
-> 8.3~10 | <span style="color: lightPink;">very pale pink</span>
-> 10~14 | <span style="color: pink;">pink</span>
+> | pH | color |
+> |-|-|
+> | 1~8.3 | colorless |
+> | 8.3~10 | <span style="color: lightPink;">very pale pink</span> |
+> | 10~14 | <span style="color: pink;">pink</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -35,14 +35,14 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="283749"--><!-- The following content is generated at 2023-03-17T10:53:05.633054+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="283749"--><!-- The following content is generated at 2023-03-20T16:20:31.083678+08:00. Any edits will be overridden! -->
 
-> name | formula(s) | description
-> -|-|-
-> {{[bauxite](bauxite.md)}} | {{Al(OH)<sub>3</sub>, AlOOH}} | {{Dried to Al<sub>3</sub>O<sub>3</sub> to produce [aluminium](aluminium.md).}}
-> {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |
-> {{[galena](galena.md)}} | {{PbS}} |
-> {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} |
+> | name | formula(s) | description |
+> |-|-|-|
+> | {{[bauxite](bauxite.md)}} | {{Al(OH)<sub>3</sub>, AlOOH}} | {{Dried to Al<sub>3</sub>O<sub>3</sub> to produce [aluminium](aluminium.md).}} |
+> | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |  |
+> | {{[galena](galena.md)}} | {{PbS}} |  |
+> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
