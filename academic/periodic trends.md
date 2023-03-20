@@ -35,16 +35,16 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b928"--><!-- The following content is generated at 2023-03-20T09:46:27.577130+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b928"--><!-- The following content is generated at 2023-03-20T16:20:31.142641+08:00. Any edits will be overridden! -->
 
-> periodic property | across the period | down the group
-> -|-|-
-> {{[atomic radius](#atomic%20radius)}} | {{decreases}} | {{increases}}
-> {{[electron affinity](#electron%20affinity)}} | {{increases}} | {{decreases}}
-> {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}}
-> {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}}
-> {{[metallic character](#metallic%20character)}} | {{increases}} | {{decreases}}
-> {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}}
+> | periodic property | across the period | down the group |
+> |-|-|-|
+> | {{[atomic radius](#atomic%20radius)}} | {{decreases}} | {{increases}} |
+> | {{[electron affinity](#electron%20affinity)}} | {{increases}} | {{decreases}} |
+> | {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}} |
+> | {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}} |
+> | {{[metallic character](#metallic%20character)}} | {{increases}} | {{decreases}} |
+> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

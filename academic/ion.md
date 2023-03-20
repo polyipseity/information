@@ -1,12 +1,12 @@
 ---
-aliases: ['ions', 'cation', 'cations', 'anion', 'anions',]
+aliases: ['anion', 'anions', 'cation', 'cations', 'ion', 'ions',]
 ---
 
 #academic/chemistry #flashcards/academic/ion
 
 # ion
 
-An __ion__ is an atom or molecule with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2023-03-30,350,350!2026-07-20,1290,352!2027-05-12,1546,374-->
+An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2023-03-30,350,350!2026-07-20,1290,352!2027-05-12,1546,374-->
 
 A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2026-03-02,1102,307!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
 
@@ -162,31 +162,31 @@ return (
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2022-11-05T00:25:01.410870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-03-20T16:20:30.921694+08:00. Any edits will be overridden! -->
 
-> name | symbol | charage | color
-> -|-|-|-
-> hydrogen ion | H<sup>+</sup> | 1+ | colorless
-> sodium ion | Na<sup>+</sup> | 1+ | colorless
-> potassium ion | K<sup>+</sup> | 1+ | colorless
-> copper(I) ion | Cu<sup>+</sup> | 1+ | _(n/a)_
-> silver ion | Ag<sup>+</sup> | 1+ | colorless
-> mercury(I) ion | Hg<sup>+</sup> | 1+ | _(n/a)_
-> ammonium ion | NH<sub>4</sub><sup>+</sup> | 1+ | colorless
-> magnesium ion | Mg<sup>2+</sup> | 2+ | colorless
-> calcium ion | Ca<sup>2+</sup> | 2+ | colorless
-> barium ion | Ba<sup>2+</sup> | 2+ | colorless
-> lead(II) ion | Pb<sup>2+</sup> | 2+ | colorless
-> iron(II) ion | Fe<sup>2+</sup> | 2+ | <span style="color: green;">green</span>
-> nickel(II) ion | Ni<sup>2+</sup> | 2+ | <span style="color: green;">green</span>
-> copper(II) ion | Cu<sup>2+</sup> | 2+ | <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>
-> zinc ion | Zn<sup>2+</sup> | 2+ | colorless
-> manganese(II) ion | Mn<sup>2+</sup> | 2+ | <span style="color: lightPink;">very pale pink</span>
-> mercury(II) ion | Hg<sup>2+</sup> | 2+ | _(n/a)_
-> cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span>
-> aluminium ion | Al<sup>3+</sup> | 3+ | colorless
-> iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)
-> chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span>
+> | name | symbol | charage | color |
+> |-|-|-|-|
+> | hydrogen ion | H<sup>+</sup> | 1+ | colorless |
+> | sodium ion | Na<sup>+</sup> | 1+ | colorless |
+> | potassium ion | K<sup>+</sup> | 1+ | colorless |
+> | copper(I) ion | Cu<sup>+</sup> | 1+ | _(n/a)_ |
+> | silver ion | Ag<sup>+</sup> | 1+ | colorless |
+> | mercury(I) ion | Hg<sup>+</sup> | 1+ | _(n/a)_ |
+> | ammonium ion | NH<sub>4</sub><sup>+</sup> | 1+ | colorless |
+> | magnesium ion | Mg<sup>2+</sup> | 2+ | colorless |
+> | calcium ion | Ca<sup>2+</sup> | 2+ | colorless |
+> | barium ion | Ba<sup>2+</sup> | 2+ | colorless |
+> | lead(II) ion | Pb<sup>2+</sup> | 2+ | colorless |
+> | iron(II) ion | Fe<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
+> | nickel(II) ion | Ni<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
+> | copper(II) ion | Cu<sup>2+</sup> | 2+ | <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> |
+> | zinc ion | Zn<sup>2+</sup> | 2+ | colorless |
+> | manganese(II) ion | Mn<sup>2+</sup> | 2+ | <span style="color: lightPink;">very pale pink</span> |
+> | mercury(II) ion | Hg<sup>2+</sup> | 2+ | _(n/a)_ |
+> | cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span> |
+> | aluminium ion | Al<sup>3+</sup> | 3+ | colorless |
+> | iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) |
+> | chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -276,31 +276,31 @@ return (
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2022-11-05T00:25:01.448870+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2023-03-20T16:20:30.971663+08:00. Any edits will be overridden! -->
 
-> name | symbol | charage | color
-> -|-|-|-
-> hydride ion | H<sup>-</sup> | 1- | colorless
-> fluoride ion | F<sup>-</sup> | 1- | colorless
-> chloride ion | Cl<sup>-</sup> | 1- | colorless
-> bromide ion | Br<sup>-</sup> | 1- | colorless
-> iodide ion | I<sup>-</sup> | 1- | colorless
-> hydroxide ion | OH<sup>-</sup> | 1- | colorless
-> nitrate ion | NO<sub>3</sub><sup>-</sup> | 1- | colorless
-> nitrite ion | NO<sub>2</sub><sup>-</sup> | 1- | _(n/a)_
-> hydrogencarbonate ion | HCO<sub>3</sub><sup>-</sup> | 1- | colorless
-> hydrogensulfite ion | HSO<sub>3</sub><sup>-</sup> | 1- | colorless
-> hydrogensulfate ion | HSO<sub>4</sub><sup>-</sup> | 1- | colorless
-> permanganate ion | MnO<sub>4</sub><sup>-</sup> | 1- | <span style="color: darkViolet; background-color: white;">deep purple</span>
-> oxide ion | O<sup>2-</sup> | 2- | _(n/a)_
-> sulfide ion | S<sup>2-</sup> | 2- | _(n/a)_
-> sulfate ion | SO<sub>4</sub><sup>2-</sup> | 2- | colorless
-> sulfite ion | SO<sub>3</sub><sup>2-</sup> | 2- | colorless
-> carbonate ion | CO<sub>3</sub><sup>2-</sup> | 2- | colorless
-> chromate ion | CrO<sub>4</sub><sup>2-</sup> | 2- | <span style="color: yellow;">yellow</span>
-> dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <span style="color: orange;">orange</span>
-> nitride ion | N<sup>3-</sup> | 3- | _(n/a)_
-> phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless
+> | name | symbol | charage | color |
+> |-|-|-|-|
+> | hydride ion | H<sup>-</sup> | 1- | colorless |
+> | fluoride ion | F<sup>-</sup> | 1- | colorless |
+> | chloride ion | Cl<sup>-</sup> | 1- | colorless |
+> | bromide ion | Br<sup>-</sup> | 1- | colorless |
+> | iodide ion | I<sup>-</sup> | 1- | colorless |
+> | hydroxide ion | OH<sup>-</sup> | 1- | colorless |
+> | nitrate ion | NO<sub>3</sub><sup>-</sup> | 1- | colorless |
+> | nitrite ion | NO<sub>2</sub><sup>-</sup> | 1- | _(n/a)_ |
+> | hydrogencarbonate ion | HCO<sub>3</sub><sup>-</sup> | 1- | colorless |
+> | hydrogensulfite ion | HSO<sub>3</sub><sup>-</sup> | 1- | colorless |
+> | hydrogensulfate ion | HSO<sub>4</sub><sup>-</sup> | 1- | colorless |
+> | permanganate ion | MnO<sub>4</sub><sup>-</sup> | 1- | <span style="color: darkViolet; background-color: white;">deep purple</span> |
+> | oxide ion | O<sup>2-</sup> | 2- | _(n/a)_ |
+> | sulfide ion | S<sup>2-</sup> | 2- | _(n/a)_ |
+> | sulfate ion | SO<sub>4</sub><sup>2-</sup> | 2- | colorless |
+> | sulfite ion | SO<sub>3</sub><sup>2-</sup> | 2- | colorless |
+> | carbonate ion | CO<sub>3</sub><sup>2-</sup> | 2- | colorless |
+> | chromate ion | CrO<sub>4</sub><sup>2-</sup> | 2- | <span style="color: yellow;">yellow</span> |
+> | dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <span style="color: orange;">orange</span> |
+> | nitride ion | N<sup>3-</sup> | 3- | _(n/a)_ |
+> | phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

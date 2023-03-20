@@ -26,11 +26,11 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="basdde"--><!-- The following content is generated at 2023-03-18T23:22:35.979279+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="basdde"--><!-- The following content is generated at 2023-03-20T16:20:30.802460+08:00. Any edits will be overridden! -->
 
-> name | description
-> -|-
-> {{[electrolysis](electrolysis.md)}} |
+> | name | description |
+> |-|-|
+> | {{[electrolysis](electrolysis.md)}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
