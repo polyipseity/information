@@ -71,6 +71,7 @@ return export_seq(hard,)
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 from asyncio import gather
+from collections import defaultdict
 from itertools import starmap
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode, cloze_text, memorize_linked_seq, memorize_two_sided, quote_text, rows_to_table, seq_to_code, two_columns_to_code
@@ -86,17 +87,19 @@ def cloze(string: str, escape = False):
 
 async def memorize_map(
 	locations: tuple[Location, Location],
-	data: Mapping[str, Iterable[str]],
+	data: Mapping[str, str | Iterable[str]],
 	*,
 	joiner = ', ',
 	escape = True,
 ) -> tuple[Result, Result]:
 	forward = {}
-	backward = {}
+	backward = defaultdict(list)
 	for key, vals in data.items():
-		forward[key] = vals = tuple(vals)
+		if isinstance(vals, str):
+			vals = (vals,)
+		forward[key] = tuple(vals)
 		for val in vals:
-			backward.setdefault(val, []).append(key)
+			backward[val].append(key)
 
 	async def mem(location: Location, map_: Mapping[str, Iterable[str]]):
 		escaper = TextCode.escape if escape else identity
