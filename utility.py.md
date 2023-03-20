@@ -94,12 +94,14 @@ def cloze(string: str, escape = False):
 	return (TextCode.escape if escape else identity)(f'{cl}{string}{cr}') if string else ''
 
 async def memorize_map(
-	locations: tuple[Location, Location],
+	locations: tuple[Location, Location, Location],
 	data: Mapping[str, str | Iterable[str]],
 	*,
+	delimiter = ': ',
 	joiner = ', ',
 	escape = True,
 ) -> tuple[Result, Result]:
+	states = read_states(locations)
 	forward = {}
 	backward = defaultdict(list)
 	for key, vals in data.items():
@@ -109,10 +111,10 @@ async def memorize_map(
 		for val in vals:
 			backward[val].append(key)
 
-	async def mem(location: Location, map_: Mapping[str, Iterable[str]]):
+	async def mem(index: int, map_: Mapping[str, Iterable[str]]):
 		escaper = TextCode.escape if escape else identity
 		return Result(
-			location=location,
+			location=locations[index],
 			text=memorize_two_sided(
 				two_columns_to_code(
 					map_.items(),
@@ -120,12 +122,28 @@ async def memorize_map(
 					right=lambda data: joiner.join(map(escaper, data[1])),
 				),
 				reversible=False,
-				states=await read_flashcard_states(location),
+				states=states[index],
 			),
 		)
-	return await gather(*starmap(mem,
-		((locations[0], forward), (locations[1], backward),)
-	))
+
+	async def quote():
+		return Result(
+			location=locations[0],
+			text=cloze_text(
+				seq_to_code(
+					(delimiter.join((key, joiner.join(val),)) for key, val in forward.items()),
+					escape=escape,
+				),
+				states=states[0],
+			),
+		)
+
+	states = await states
+	return await gather(
+		quote(),
+		mem(1, forward),
+		mem(2, backward),
+	)
 
 async def memorize_steps(
 	locations: tuple[Location, Location],
@@ -135,18 +153,20 @@ async def memorize_steps(
 	suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
 	escape = True,
 ) -> tuple[Result, Result]:
+	states = read_states(locations)
 	code = seq_to_code(
 		seq,
 		prefix=prefix,
 		suffix=suffix,
 		escape=escape,
 	)
+	states = await states
 	return (
 		Result(
 			location=locations[0],
 			text=cloze_text(
 				code,
-				states=await read_flashcard_states(locations[0]),
+				states=states[0],
 			),
 		),
 		Result(
@@ -154,7 +174,7 @@ async def memorize_steps(
 			text=memorize_linked_seq(
 				code,
 				hinted=False,
-				states=await read_flashcard_states(locations[1]),
+				states=states[1],
 			),
 		),
 	)
@@ -169,7 +189,9 @@ async def memorize_table(
 	suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
 	escape = True,
 ) -> tuple[Result, Result]:
+	states = read_states(locations)
 	escaper = TextCode.escape if escape else identity
+	states = await states
 	return (
 		Result(
 			location=locations[0],
@@ -179,7 +201,7 @@ async def memorize_table(
 					names=map(escaper, headers),
 					values=lambda data: map(escaper, transformer(data)),
 				)),
-				states=await read_flashcard_states(locations[0]),
+				states=states[0],
 			),
 		),
 		Result(
@@ -191,12 +213,21 @@ async def memorize_table(
 					suffix=suffix,
 				),
 				hinted=False,
-				states=await read_flashcard_states(locations[1]),
+				states=states[1],
 			),
 		),
 	)
 
-return export_seq(cloze, memorize_map, memorize_steps, memorize_table,)
+async def read_states(locations: Iterable[Location]):
+	return await gather(*map(read_flashcard_states, locations))
+
+return export_seq(
+	cloze, 
+	memorize_map,
+	memorize_steps,
+	memorize_table,
+	read_states,
+)
 ```
 
 ## notes

@@ -22,7 +22,7 @@ __Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('049e'), e.cwf_section('384d'),),
+	(e.cwf_section('f9d1'), e.cwf_section('049e'), e.cwf_section('384d'),),
 	{
 		'[monatomic](monoatomic%20molecule.md)': ('all [noble gases](noble%20gas.md)', 'Ar ([argon](argon.md))',),
 		'[diatomic](diatomic%20molecule.md)': ('Cl<sub>2</sub> ([chlorine](chlorine.md))', 'H<sub>2</sub> ([hydrogen](hydrogen.md))', 'N<sub>2</sub> ([nitrogen](nitrogen.md))', 'O<sub>2</sub> ([oxygen](oxygen.md))',),
@@ -34,6 +34,15 @@ return await memorize_map(
 %%
 
 Molecules can be classified based on atomicity as:
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9d1"--><!-- The following content is generated at 2023-03-20T22:20:19.369626+08:00. Any edits will be overridden! -->
+
+> 1. [monatomic](monoatomic%20molecule.md): all [noble gases](noble%20gas.md), Ar ([argon](argon.md))
+> 2. [diatomic](diatomic%20molecule.md): Cl<sub>2</sub> ([chlorine](chlorine.md)), H<sub>2</sub> ([hydrogen](hydrogen.md)), N<sub>2</sub> ([nitrogen](nitrogen.md)), O<sub>2</sub> ([oxygen](oxygen.md))
+> 3. [triatomic](triatomic%20molecule.md): O<sub>3</sub> ([ozone](ozone.md))
+> 4. polyatomic: P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)), S<sub>8</sub> ([sulphur](sulphur.md))
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="049e"--><!-- The following content is generated at 2023-03-20T15:05:46.974705+08:00. Any edits will be overridden! -->
 
