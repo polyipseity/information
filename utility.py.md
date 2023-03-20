@@ -7,12 +7,20 @@
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 from pytextgen.util import export_seq
+from types import MappingProxyType
+from typing import Iterable, Mapping, TypeVar
 from zlib import adler32
+
+T = TypeVar('T')
+U = TypeVar('U')
 
 def fast_hash(string: str):
 	return adler32(string.encode("UTF-8"))
 
-return export_seq(fast_hash,)
+def items_to_map(*items: tuple[T, U]) -> Mapping[T, U]:
+	return MappingProxyType({key: val for key, val in items})
+
+return export_seq(fast_hash, items_to_map,)
 ```
 
 ## HTML
