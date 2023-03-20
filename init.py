@@ -5,6 +5,7 @@ import asyncstdlib as _asyncstdlib
 import appdirs as _appdirs
 import argparse as _argparse
 import asyncio as _asyncio
+import collections as _collections
 import dataclasses as _dataclasses
 import functools as _functools
 import inspect as _inspect
@@ -92,6 +93,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
             except _json.decoder.JSONDecodeError:
                 data = {}
                 print("Cache data will be regenerated because it is empty or corrupted")
+            data = _collections.defaultdict(dict, data)
             finalizers: _typing.MutableSequence[
                 _typing.Callable[[], _typing.Awaitable[None]]
             ] = []
@@ -111,9 +113,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
             data["args"] = args.arguments
 
             async def gen_inputs():
-                cache: _typing.MutableMapping[str, tuple[int, str]] = data.setdefault(
-                    "cache", {}
-                )
+                cache: _typing.MutableMapping[str, tuple[int, str]] = data["cache"]
 
                 def on_error(err: OSError) -> None:
                     try:
