@@ -94,9 +94,10 @@ def cloze(string: str, escape = False):
 	return (TextCode.escape if escape else identity)(f'{cl}{string}{cr}') if string else ''
 
 async def memorize_map(
-	locations: tuple[Location, Location],
+	locations: tuple[Location, Location, Location],
 	data: Mapping[str, str | Iterable[str]],
 	*,
+	delimiter = ': ',
 	joiner = ', ',
 	escape = True,
 ) -> tuple[Result, Result]:
@@ -123,9 +124,21 @@ async def memorize_map(
 				states=await read_flashcard_states(location),
 			),
 		)
-	return await gather(*starmap(mem,
-		((locations[0], forward), (locations[1], backward),)
-	))
+	return (
+		Result(
+			location=locations[0],
+			text=cloze_text(
+				seq_to_code(
+					(delimiter.join((key, joiner.join(val),)) for key, val in forward.items()),
+					escape=escape,
+				),
+				states=await read_flashcard_states(locations[0]),
+			),
+		),
+		*await gather(*starmap(mem,
+			((locations[1], forward), (locations[2], backward),)
+		)),
+	)
 
 async def memorize_steps(
 	locations: tuple[Location, Location],
