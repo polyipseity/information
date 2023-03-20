@@ -5,9 +5,10 @@
   "errorNoticeTimeout": 0,
   "hideStatusBar": "focused",
   "language": "",
-  "lastReadChangelogVersion": "3.4.1",
+  "lastReadChangelogVersion": "3.5.0",
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
+  "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
     "developerConsole": {
