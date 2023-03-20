@@ -28,13 +28,13 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="923dac"--><!-- The following content is generated at 2023-03-14T22:39:01.193958+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="923dac"--><!-- The following content is generated at 2023-03-20T16:20:31.118657+08:00. Any edits will be overridden! -->
 
-> name | description
-> -|-
-> {{breathing}} |
-> {{burning of fuels}} |
-> {{medical use}} |
+> | name | description |
+> |-|-|
+> | {{breathing}} |  |
+> | {{burning of fuels}} |  |
+> | {{medical use}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -25,13 +25,13 @@ return await memorize_table(
 )
 ```
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bab829"--><!-- The following content is generated at 2023-03-18T23:42:12.055495+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bab829"--><!-- The following content is generated at 2023-03-20T16:20:31.020633+08:00. Any edits will be overridden! -->
 
-> name | description
-> -|-
-> [construction](construction.md) | [statue](statue.md)
-> [glass making](glass%20making.md) | manufacturing of [soda–lime glass](soda–lime%20glass.md)
-> raw material | [cement](cement.md)
+> | name | description |
+> |-|-|
+> | [construction](construction.md) | [statue](statue.md) |
+> | [glass making](glass%20making.md) | manufacturing of [soda–lime glass](soda–lime%20glass.md) |
+> | raw material | [cement](cement.md) |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
