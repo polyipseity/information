@@ -26,7 +26,7 @@ Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals]
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('938d'), e.cwf_section('bb89'),),
+	(e.cwf_section('7f8c'), e.cwf_section('938d'), e.cwf_section('bb89'),),
 	items_to_map(
 		('[lithium](lithium.md)', 'floats, producing hydrogen gas steadily',),
 		('[sodium](sodium.md)', 'melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly',),
@@ -38,6 +38,17 @@ return await memorize_map(
 )
 ```
 %%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7f8c"--><!-- The following content is generated at 2023-03-20T22:20:19.325391+08:00. Any edits will be overridden! -->
+
+> 1. [lithium](lithium.md): floats, producing hydrogen gas steadily
+> 2. [sodium](sodium.md): melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly
+> 3. [potassium](potassium.md): melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignite
+> 4. [rubidium](rubidium.md): explosive
+> 5. [caesium](caesium.md): explosive
+> 6. [francium](francium.md): unknown
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="938d"--><!-- The following content is generated at 2023-03-20T11:07:22.329762+08:00. Any edits will be overridden! -->
 

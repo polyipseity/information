@@ -55,7 +55,7 @@ return await memorize_steps(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('2837ca'), e.cwf_section('b8283e')),
+	(e.cwf_section('4905'), e.cwf_section('2837ca'), e.cwf_section('b8283e'),),
 	{
 		'[calcium](calcium.md)': ('brick red', 'light green (through blue [glass](glass.md))',),
 		'[copper](copper.md)(I)': ('bluish-green',),
@@ -66,6 +66,16 @@ return await memorize_map(
 )
 ```
 %%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-03-20T22:20:19.385118+08:00. Any edits will be overridden! -->
+
+> 1. [calcium](calcium.md): brick red, light green (through blue [glass](glass.md))
+> 2. [copper](copper.md)(I): bluish-green
+> 3. [copper](copper.md)(II): green (non-halide), blue-green (halide)
+> 4. [potassium](potassium.md): lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
+> 5. [sodium](sodium.md): golden yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### name
 
