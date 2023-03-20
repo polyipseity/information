@@ -256,7 +256,7 @@ return (
 4. copper(I) ion::_(n/a)_ <!--SR:!2023-06-09,140,276-->
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
 6. mercury(I) ion::_(n/a)_ <!--SR:!2023-05-27,132,276-->
-7. ammonium ion::colorless <!--SR:!2023-03-20,339,339-->
+7. ammonium ion::colorless <!--SR:!2026-05-12,1149,339-->
 8. magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
 9. calcium ion::colorless <!--SR:!2024-03-02,499,272-->
 10. barium ion::colorless <!--SR:!2024-09-20,630,274-->
