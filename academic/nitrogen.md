@@ -28,13 +28,13 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293850"--><!-- The following content is generated at 2023-03-14T22:44:07.536441+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293850"--><!-- The following content is generated at 2023-03-20T16:20:31.032625+08:00. Any edits will be overridden! -->
 
-> name | description
-> -|-
-> {{food packaging}} | {{To prevent [food spoilage](food%20spoilage.md).}}
-> {{making [ammonia](ammonia.md)}} |
-> {{[refrigerant](refrigerant.md)}} |
+> | name | description |
+> |-|-|
+> | {{food packaging}} | {{To prevent [food spoilage](food%20spoilage.md).}} |
+> | {{making [ammonia](ammonia.md)}} |  |
+> | {{[refrigerant](refrigerant.md)}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

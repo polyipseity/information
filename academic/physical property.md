@@ -44,23 +44,23 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2023-03-14T20:27:23.376512+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2023-03-20T16:20:31.192611+08:00. Any edits will be overridden! -->
 
-> name | description
-> -|-
-> {{[boiling point](boiling%20point.md)}} |
-> {{[color](color.md)}} |
-> {{[density](density.md)}} |
-> {{[ductility](ductility.md)}} |
-> {{[electrical conductivity](electrical%20conductivity.md)}}
-> {{[hardness](hardness.md)}} |
-> {{[malleability](malleability.md)}} |
-> {{[melting point](melting%20point.md)}} |
-> {{[odor](odor.md)}} |
-> {{[physical state](physical%20state.md)}} |
-> {{[solubility](solubility.md)}} | {{Varies with [solvent](solvent.md).}}
-> {{[taste](taste.md)}} |
-> {{[thermal conductivity](thermal%20conductivity.md)}} |
+> | name | description |
+> |-|-|
+> | {{[boiling point](boiling%20point.md)}} |  |
+> | {{[color](color.md)}} |  |
+> | {{[density](density.md)}} |  |
+> | {{[ductility](ductility.md)}} |  |
+> | {{[electrical conductivity](electrical%20conductivity.md)}} |
+> | {{[hardness](hardness.md)}} |  |
+> | {{[malleability](malleability.md)}} |  |
+> | {{[melting point](melting%20point.md)}} |  |
+> | {{[odor](odor.md)}} |  |
+> | {{[physical state](physical%20state.md)}} |  |
+> | {{[solubility](solubility.md)}} | {{Varies with [solvent](solvent.md).}} |
+> | {{[taste](taste.md)}} |  |
+> | {{[thermal conductivity](thermal%20conductivity.md)}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

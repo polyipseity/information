@@ -32,12 +32,12 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="309d"--><!-- The following content is generated at 2023-03-20T12:51:18.456726+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="309d"--><!-- The following content is generated at 2023-03-20T16:20:31.070686+08:00. Any edits will be overridden! -->
 
-> name | description
-> -|-
-> {{__duplet rule__}} | {{2 electrons in valence shell}} ^duplet-rule
-> {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}}
+> | name | description |
+> |-|-|
+> | {{__duplet rule__}} | {{2 electrons in valence shell}} ^duplet-rule |
+> | {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
