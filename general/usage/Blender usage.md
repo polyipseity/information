@@ -23,7 +23,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-03-30,14,150!2023-04-11,58,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-04-28,54,196-->
-- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-03-21,37,250!2023-07-03,126,296-->
+- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-06-21,92,250!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-07-01,105,250!2023-03-25,29,215-->
 
@@ -44,7 +44,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### 3D viewport
 
-- toggle edit mode:::Tab↹ <!--SR:!2023-07-04,126,290!2023-03-21,51,296-->
+- toggle edit mode:::Tab↹ <!--SR:!2023-07-04,126,290!2023-08-23,155,296-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2023-06-15,99,256!2023-04-15,33,216-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2023-07-12,125,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-03-24,53,296-->
