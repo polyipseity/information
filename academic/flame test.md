@@ -60,46 +60,61 @@ return await memorize_map(
 		'[calcium](calcium.md)': ('brick red', 'light green (through blue [glass](glass.md))',),
 		'[copper](copper.md)(I)': ('bluish-green',),
 		'[copper](copper.md)(II)': ('green (non-halide)', 'blue-green (halide)',),
+		'[iron](iron.md)(II)': ('blue (very hot)', 'gold', 'green to orange-brown', 'sparks'),
+		'[iron](iron.md)(III)': ('ornage-brown',),
+		'[magnesium](magnesium.md)': ('intense white',),
 		'[potassium](potassium.md)': ('lilac', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
-		'[sodium](sodium.md)': ('golden yellow', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
+		'[sodium](sodium.md)': ('intense yellow', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
 	},
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-03-20T22:20:19.385118+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-03-22T01:58:28.608373+08:00. Any edits will be overridden! -->
 
 > 1. [calcium](calcium.md): brick red, light green (through blue [glass](glass.md))
 > 2. [copper](copper.md)(I): bluish-green
 > 3. [copper](copper.md)(II): green (non-halide), blue-green (halide)
-> 4. [potassium](potassium.md): lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
-> 5. [sodium](sodium.md): golden yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
+> 4. [iron](iron.md)(II): blue (very hot), gold, green to orange-brown, sparks
+> 5. [iron](iron.md)(III): ornage-brown
+> 6. [magnesium](magnesium.md): intense white
+> 7. [potassium](potassium.md): lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
+> 8. [sodium](sodium.md): intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-03-16T22:26:14.954024+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-03-22T01:58:28.594411+08:00. Any edits will be overridden! -->
 
 1. [calcium](calcium.md)::brick red, light green (through blue [glass](glass.md))
 2. [copper](copper.md)(I)::bluish-green
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide)
-4. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
-5. [sodium](sodium.md)::golden yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
+4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks
+5. [iron](iron.md)(III)::ornage-brown
+6. [magnesium](magnesium.md)::intense white
+7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
+8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-03-16T22:26:14.968958+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-03-22T01:58:28.578453+08:00. Any edits will be overridden! -->
 
 1. brick red::[calcium](calcium.md)
 2. light green (through blue [glass](glass.md))::[calcium](calcium.md)
 3. bluish-green::[copper](copper.md)(I)
 4. green (non-halide)::[copper](copper.md)(II)
 5. blue-green (halide)::[copper](copper.md)(II)
-6. lilac::[potassium](potassium.md)
-7. invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md)
-8. golden yellow::[sodium](sodium.md)
+6. blue (very hot)::[iron](iron.md)(II)
+7. gold::[iron](iron.md)(II)
+8. green to orange-brown::[iron](iron.md)(II)
+9. sparks::[iron](iron.md)(II)
+10. ornage-brown::[iron](iron.md)(III)
+11. intense white::[magnesium](magnesium.md)
+12. lilac::[potassium](potassium.md)
+13. invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md)
+14. intense yellow::[sodium](sodium.md)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
