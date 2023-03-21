@@ -1,12 +1,12 @@
 ---
-aliases: ['CaO', 'quicklime',]
+aliases: ['CaO', 'calcium oxide', 'quicklime',]
 ---
 
 #academic/chemistry #flashcards/academic/calcium_oxide
 
 # calcium oxide
 
-__Calcium oxide__, also known as {{quicklime}}, is a solid [ionic compound](ionic%20compound.md). Its molecular formula is {{CaO}}. It looks like a {{white solid}}. <!--SR:!2024-01-09,352,230!2025-02-26,832,330!2023-04-10,231,258-->
+__Calcium oxide__, also known as {{quicklime}}, is {{a solid [ionic compound](ionic%20compound.md) with the [chemical formula](chemical%20formula.md) __[Ca](calcium.md)[O](oxygen.md)__}}. It looks like a {{white solid}}. <!--SR:!2024-01-09,352,230!2025-02-26,832,330!2023-04-10,231,258-->
 
 ## reactions
 

@@ -1,207 +1,144 @@
 ---
-aliases: ['activity series',]
+aliases: ['activity series', 'reactivity series',]
 ---
 
 #academic/chemistry #flashcards/academic/reactivity_series
 
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
+
 # reactivity series
+
+A __reactivity series__ is {{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}}.
 
 ## data
 
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-from pytextgen import gen, read, util
-import typing
-data: typing.Mapping[str, typing.Mapping[str, str]] = {
-	'potassium': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'water',
-		'reaction with dilute HCl': 'explosive',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'explosive',
-	},
-	'sodium': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'water',
-		'reaction with dilute HCl': 'explosive',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'explosive',
-	},
-	'calcium': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'water',
-		'reaction with dilute HCl': 'moderate',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'moderate to none (covered by insoluble CaSO<sub>4</sub>)',
-	},
-	'magnesium': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'steam',
-		'reaction with dilute HCl': 'moderate',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'moderate',
-	},
-	'aluminium': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'steam',
-		'reaction with dilute HCl': 'moderate',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'moderate',
-	},
-	'zinc': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'steam',
-		'reaction with dilute HCl': 'moderate',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'moderate',
-	},
-	'iron': {
-		'reaction with air': 'burn',
-		'reaction with H<sub>2</sub>O': 'steam',
-		'reaction with dilute HCl': 'moderate',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'moderate',
-	},
-	'lead': {
-		'reaction with air': 'heat',
-		'reaction with H<sub>2</sub>O': 'none',
-		'reaction with dilute HCl': 'slow',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'slow to none (covered by insoluble PbSO<sub>4</sub>)',
-	},
-	'copper': {
-		'reaction with air': 'heat',
-		'reaction with H<sub>2</sub>O': 'none',
-		'reaction with dilute HCl': 'none',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'none',
-	},
-	'mercury': {
-		'reaction with air': 'heat',
-		'reaction with H<sub>2</sub>O': 'none',
-		'reaction with dilute HCl': 'none',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'none',
-	},
-	'silver': {
-		'reaction with air': 'none',
-		'reaction with H<sub>2</sub>O': 'none',
-		'reaction with dilute HCl': 'none',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'none',
-	},
-	'gold': {
-		'reaction with air': 'none',
-		'reaction with H<sub>2</sub>O': 'none',
-		'reaction with dilute HCl': 'none',
-		'reaction with dilute H<sub>2</sub>SO<sub>4</sub>': 'none',
-	},
-}
-text: gen.TextCode = gen.maps_to_code(data)
-series: gen.TextCode = gen.seq_to_code(data.keys(),
-	index=1,
-	prefix=f'{{{gen.Tag.MEMORIZE}:_(most reactive)_}}',
-	suffix=f'{{{gen.Tag.MEMORIZE}:_(least reactive)_}}',)
-return (
-	util.Result(
-		location=__env__.cwf_section('a2994d'),
-		text=gen.cloze_text(text,
-			states=await read.read_flashcard_states(__env__.cwf_section('a2994d'))
-		),
+e = __env__
+r_water = 'reacts with cold [water](water.md)'
+r_mg = 'reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)'
+r_steam = 'reacts with [steam](steam.md) and [acids](acid.md)'
+r_ti = 'reacts with concentrated [mineral acids](mineral%20acid.md)'
+r_acid = 'reacts with [acids](acid.md), poorly with [steam](steam.md)'
+r_cu = 'reacts slowly with [air](air.md)'
+r_ox = 'may react with some strong [oxidizing agents](oxidizing%20agent.md)'
+e_ele = '[electrolysis](electrolysis.md)'
+e_ti = '[pyrometallurgy](pyrometallurgy.md) extraction using [magnesium](magnesium.md)'
+e_smelt = '[smelting](smelting.md) with [coke](coke%20(fuel).md)'
+e_cr = '[aluminothermic reaction](aluminothermic%20reaction.md)'
+e_phy = 'heat or physical extraction'
+return await memorize_table(
+	(e.cwf_section('a2994d'), e.cwf_section('299018'),),
+	('[metal](metal.md)', '[ion](ion.md)', '[reactivity](reactivity%20(chemistry).md)', '[extraction](extractive%20metallurgy.md)'),
+	(
+		('[caesium](caesium.md)', 'Cs<sup>+</sup>', r_water, e_ele,),
+		('[rubidium](rubidium.md)', 'Rb<sup>+</sup>', r_water, e_ele,),
+		('[potassium](potassium.md)', 'K<sup>+</sup>', r_water, e_ele,),
+		('[sodium](sodium.md)', 'Na<sup>+</sup>', r_water, e_ele,),
+		('[lithium](lithium.md)', 'Li<sup>+</sup>', r_water, e_ele,),
+		('[barium](barium.md)', 'Ba<sup>2+</sup>', r_water, e_ele,),
+		('[strontium](strontium.md)', 'Sr<sup>2+</sup>', r_water, e_ele,),
+		('[calcium](calcium.md)', 'Ca<sup>2+</sup>', r_water, e_ele,),
+		('[magnesium](magnesium.md)', 'Mg<sup>2+</sup>', r_mg, e_ele,),
+		('[beryllium](beryllium.md)', 'Be<sup>2+</sup>', r_steam, e_ele,),
+		('[aluminium](aluminium.md)', 'Al<sup>3+</sup>', r_steam, e_ele,),
+		('[titanium](titanium.md)', 'Ti<sup>4+</sup>', r_ti, e_ti,),
+		('[manganese](manganese.md)', 'Mn<sup>2+</sup>', r_acid, e_smelt,),
+		('[zinc](zinc.md)', 'Zn<sup>2+</sup>', r_acid, e_smelt,),
+		('[chromium](chromium.md)', 'Cr<sup>3+</sup>', r_acid, e_cr,),
+		('[iron](iron.md)', 'Fe<sup>2+</sup>', r_acid, e_smelt,),
+		('[cadmium](cadmium.md)', 'Cd<sup>2+</sup>', r_acid, e_smelt,),
+		('[cobalt](cobalt.md)', 'Co<sup>2+</sup>', r_acid, e_smelt,),
+		('[nickel](nickel.md)', 'Ni<sup>2+</sup>', r_acid, e_smelt,),
+		('[tin](tin.md)', 'Sn<sup>2+</sup>', r_acid, e_smelt,),
+		('[lead](lead.md)', 'Pb<sup>2+</sup>', r_acid, e_smelt,),
+		('[antimony](antimony.md)', 'Sb<sup>3+</sup>', r_ox, e_phy,),
+		('[bismuth](bismuth.md)', 'Bi<sup>3+</sup>', r_ox, e_phy,),
+		('[copper](copper.md)', 'Cu<sup>2+</sup>', r_cu, e_phy,),
+		('[tungsten](tungsten.md)', 'W<sup>3+</sup>', r_ox, e_phy,),
+		('[mercury](mercury%20(element).md)', 'Hg<sup>2+</sup>', r_ox, e_phy,),
+		('[silver](silver.md)', 'Ag<sup>+</sup>', r_ox, e_phy,),
+		('[gold](gold.md)', 'Au<sup>3+</sup>', r_ox, e_phy,),
+		('[platinum](platinum.md)', 'Pt<sup>4+</sup>', r_ox, e_phy,),
 	),
-	util.Result(
-		location=__env__.cwf_section('299018'),
-		text=gen.memorize_linked_seq(series,
-			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('299018')),
-		),
-	),
+	lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-Reactivity decreases down the table.
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2023-03-22T00:41:25.809895+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
-
-> potassium
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{water}}
-> - reaction with dilute HCl: {{explosive}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-31,284,250!2023-05-31,93,230!2024-05-03,442,250!2023-07-14,267,250-->
-
-> sodium
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{water}}
-> - reaction with dilute HCl: {{explosive}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{explosive}} <!--SR:!2023-07-12,265,250!2023-05-24,90,230!2023-07-17,270,250!2024-05-27,460,250-->
-
-> calcium
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{water}}
-> - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate to none (covered by insoluble CaSO<sub>4</sub>)}} <!--SR:!2023-05-21,89,230!2023-05-15,88,230!2024-06-12,471,250!2023-05-20,88,230-->
-
-> magnesium
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{steam}}
-> - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-05-19,87,230!2023-05-08,85,230!2023-07-29,282,250!2023-05-22,90,230-->
-
-> aluminium
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{steam}}
-> - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-05-30,91,230!2023-05-25,90,230!2023-07-27,280,250!2023-05-18,86,230-->
-
-> zinc
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{steam}}
-> - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-04-04,23,150!2023-07-06,259,250!2023-07-12,265,250!2024-07-18,497,250-->
-
-> iron
-> - reaction with air: {{burn}}
-> - reaction with H<sub>2</sub>O: {{steam}}
-> - reaction with dilute HCl: {{moderate}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{moderate}} <!--SR:!2023-06-19,103,230!2023-08-02,286,250!2024-06-03,465,250!2024-06-22,478,250-->
-
-> lead
-> - reaction with air: {{heat}}
-> - reaction with H<sub>2</sub>O: {{none}}
-> - reaction with dilute HCl: {{slow}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{slow to none (covered by insoluble PbSO<sub>4</sub>)}} <!--SR:!2023-08-02,286,250!2024-08-01,508,250!2023-03-30,37,170!2023-07-09,262,249-->
-
-> copper
-> - reaction with air: {{heat}}
-> - reaction with H<sub>2</sub>O: {{none}}
-> - reaction with dilute HCl: {{none}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-08-01,285,249!2023-05-15,207,229!2023-07-13,266,249!2023-08-03,287,249-->
-
-> mercury
-> - reaction with air: {{heat}}
-> - reaction with H<sub>2</sub>O: {{none}}
-> - reaction with dilute HCl: {{none}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-07-04,257,248!2023-07-23,276,248!2023-07-11,264,248!2023-08-06,289,248-->
-
-> silver
-> - reaction with air: {{none}}
-> - reaction with H<sub>2</sub>O: {{none}}
-> - reaction with dilute HCl: {{none}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-07-05,258,248!2023-07-25,278,248!2023-08-07,289,248!2023-07-21,274,248-->
-
-> gold
-> - reaction with air: {{none}}
-> - reaction with H<sub>2</sub>O: {{none}}
-> - reaction with dilute HCl: {{none}}
-> - reaction with dilute H<sub>2</sub>SO<sub>4</sub>: {{none}} <!--SR:!2023-08-27,311,268!2023-07-11,264,246!2023-06-29,252,246!2023-07-30,283,246-->
+> | [metal](metal.md) | [ion](ion.md) | [reactivity](reactivity%20(chemistry).md) | [extraction](extractive%20metallurgy.md) |
+> |-|-|-|-|
+> | {{[caesium](caesium.md)}} | {{Cs<sup>+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[rubidium](rubidium.md)}} | {{Rb<sup>+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[potassium](potassium.md)}} | {{K<sup>+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[sodium](sodium.md)}} | {{Na<sup>+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[lithium](lithium.md)}} | {{Li<sup>+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[barium](barium.md)}} | {{Ba<sup>2+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[strontium](strontium.md)}} | {{Sr<sup>2+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[calcium](calcium.md)}} | {{Ca<sup>2+</sup>}} | {{reacts with cold [water](water.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[magnesium](magnesium.md)}} | {{Mg<sup>2+</sup>}} | {{reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[beryllium](beryllium.md)}} | {{Be<sup>2+</sup>}} | {{reacts with [steam](steam.md) and [acids](acid.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[aluminium](aluminium.md)}} | {{Al<sup>3+</sup>}} | {{reacts with [steam](steam.md) and [acids](acid.md)}} | {{[electrolysis](electrolysis.md)}} |
+> | {{[titanium](titanium.md)}} | {{Ti<sup>4+</sup>}} | {{reacts with concentrated [mineral acids](mineral%20acid.md)}} | {{[pyrometallurgy](pyrometallurgy.md) extraction using [magnesium](magnesium.md)}} |
+> | {{[manganese](manganese.md)}} | {{Mn<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[zinc](zinc.md)}} | {{Zn<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[chromium](chromium.md)}} | {{Cr<sup>3+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[aluminothermic reaction](aluminothermic%20reaction.md)}} |
+> | {{[iron](iron.md)}} | {{Fe<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[cadmium](cadmium.md)}} | {{Cd<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[cobalt](cobalt.md)}} | {{Co<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[nickel](nickel.md)}} | {{Ni<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[tin](tin.md)}} | {{Sn<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[lead](lead.md)}} | {{Pb<sup>2+</sup>}} | {{reacts with [acids](acid.md), poorly with [steam](steam.md)}} | {{[smelting](smelting.md) with [coke](coke%20(fuel).md)}} |
+> | {{[antimony](antimony.md)}} | {{Sb<sup>3+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[bismuth](bismuth.md)}} | {{Bi<sup>3+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[copper](copper.md)}} | {{Cu<sup>2+</sup>}} | {{reacts slowly with [air](air.md)}} | {{heat or physical extraction}} |
+> | {{[tungsten](tungsten.md)}} | {{W<sup>3+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[mercury](mercury%20(element).md)}} | {{Hg<sup>2+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[silver](silver.md)}} | {{Ag<sup>+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[gold](gold.md)}} | {{Au<sup>3+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[platinum](platinum.md)}} | {{Pt<sup>4+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2022-11-09T18:05:20.837143+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2023-03-22T00:41:25.863762+08:00. Any edits will be overridden! -->
 
-1. _(most reactive)_→:::←potassium <!--SR:!2023-10-15,326,270!2023-10-14,358,289-->
-2. potassium→:::←sodium <!--SR:!2023-04-27,174,230!2023-04-29,143,228-->
-3. sodium→:::←calcium <!--SR:!2023-08-14,156,188!2023-07-17,270,248-->
-4. calcium→:::←magnesium <!--SR:!2023-06-29,101,210!2023-03-27,11,130-->
-5. magnesium→:::←aluminium <!--SR:!2023-06-10,233,230!2023-03-30,109,209-->
-6. aluminium→:::←zinc <!--SR:!2023-04-05,43,148!2023-07-24,188,205-->
-7. zinc→:::←iron <!--SR:!2023-07-16,136,188!2023-10-08,205,206-->
-8. iron→:::←lead <!--SR:!2024-01-17,308,229!2023-07-08,131,188-->
-9. lead→:::←copper <!--SR:!2023-05-06,178,230!2023-04-06,89,210-->
-10. copper→:::←mercury <!--SR:!2023-03-28,14,130!2023-05-12,73,210-->
-11. mercury→:::←silver <!--SR:!2023-10-09,295,250!2023-07-05,153,230-->
-12. silver→:::←gold <!--SR:!2023-04-17,238,290!2024-11-22,711,309-->
-13. gold→:::←_(least reactive)_ <!--SR:!2024-02-28,466,308!2023-11-16,451,324-->
+1. _(begin)_→:::←[caesium](caesium.md)
+2. [caesium](caesium.md)→:::←[rubidium](rubidium.md)
+3. [rubidium](rubidium.md)→:::←[potassium](potassium.md)
+4. [potassium](potassium.md)→:::←[sodium](sodium.md)
+5. [sodium](sodium.md)→:::←[lithium](lithium.md)
+6. [lithium](lithium.md)→:::←[barium](barium.md)
+7. [barium](barium.md)→:::←[strontium](strontium.md)
+8. [strontium](strontium.md)→:::←[calcium](calcium.md)
+9. [calcium](calcium.md)→:::←[magnesium](magnesium.md)
+10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md)
+11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md)
+12. [aluminium](aluminium.md)→:::←[titanium](titanium.md)
+13. [titanium](titanium.md)→:::←[manganese](manganese.md)
+14. [manganese](manganese.md)→:::←[zinc](zinc.md)
+15. [zinc](zinc.md)→:::←[chromium](chromium.md)
+16. [chromium](chromium.md)→:::←[iron](iron.md)
+17. [iron](iron.md)→:::←[cadmium](cadmium.md)
+18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md)
+19. [cobalt](cobalt.md)→:::←[nickel](nickel.md)
+20. [nickel](nickel.md)→:::←[tin](tin.md)
+21. [tin](tin.md)→:::←[lead](lead.md)
+22. [lead](lead.md)→:::←[antimony](antimony.md)
+23. [antimony](antimony.md)→:::←[bismuth](bismuth.md)
+24. [bismuth](bismuth.md)→:::←[copper](copper.md)
+25. [copper](copper.md)→:::←[tungsten](tungsten.md)
+26. [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md)
+27. [mercury](mercury%20(element).md)→:::←[silver](silver.md)
+28. [silver](silver.md)→:::←[gold](gold.md)
+29. [gold](gold.md)→:::←[platinum](platinum.md)
+30. [platinum](platinum.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
