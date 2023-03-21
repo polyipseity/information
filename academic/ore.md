@@ -23,28 +23,28 @@ See [extractive metallurgy](extractive%20metallurgy.md).
 e = __env__
 return await memorize_table(
 	(e.cwf_section('283749'), e.cwf_section('0398da')),
-	('name', 'formula', 'usual [extraction method](extractive%20metallurgy.md)',),
+	('name', 'formula',),
 	(
-		('[bauxite](bauxite.md)', 'Al(OH)<sub>3</sub>, AlOOH', '[electrometallurgy](electrometallurgy.md)',),
-		('[chalcopyrite](chalcopyrite.md), copper pyrite', 'CuFeS<sub>2</sub>', '[pyrometallurgy](pyrometallurgy.md), [hydrometallurgy](hydrometallurgy.md)',),
-		('[cinnabar](cinnabar.md), cinnabarite', 'HgS', '[pyrometallurgy](pyrometallurgy.md)',),
-		('[galena](galena.md)', 'PbS', '[pyrometallurgy](pyrometallurgy.md)',),
-		('[hematite](hematite.md)', 'Fe<sub>2</sub>O<sub>3</sub>', '[pyrometallurgy](pyrometallurgy.md)',),
+		('[bauxite](bauxite.md)', 'Al(OH)<sub>3</sub>, AlOOH',),
+		('[chalcopyrite](chalcopyrite.md), copper pyrite', 'CuFeS<sub>2</sub>',),
+		('[cinnabar](cinnabar.md), cinnabarite', 'HgS',),
+		('[galena](galena.md)', 'PbS',),
+		('[hematite](hematite.md)', 'Fe<sub>2</sub>O<sub>3</sub>',),
 	),
 	lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="283749"--><!-- The following content is generated at 2023-03-21T16:44:17.505580+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="283749"--><!-- The following content is generated at 2023-03-22T00:41:25.734579+08:00. Any edits will be overridden! -->
 
-> | name | formula | usual [extraction method](extractive%20metallurgy.md) |
-> |-|-|-|
-> | {{[bauxite](bauxite.md)}} | {{Al(OH)<sub>3</sub>, AlOOH}} | {{[electrometallurgy](electrometallurgy.md)}} |
-> | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} | {{[pyrometallurgy](pyrometallurgy.md), [hydrometallurgy](hydrometallurgy.md)}} |
-> | {{[cinnabar](cinnabar.md), cinnabarite}} | {{HgS}} | {{[pyrometallurgy](pyrometallurgy.md)}} |
-> | {{[galena](galena.md)}} | {{PbS}} | {{[pyrometallurgy](pyrometallurgy.md)}} |
-> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} | {{[pyrometallurgy](pyrometallurgy.md)}} |
+> | name | formula |
+> |-|-|
+> | {{[bauxite](bauxite.md)}} | {{Al(OH)<sub>3</sub>, AlOOH}} |
+> | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |
+> | {{[cinnabar](cinnabar.md), cinnabarite}} | {{HgS}} |
+> | {{[galena](galena.md)}} | {{PbS}} |
+> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
