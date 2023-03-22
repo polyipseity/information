@@ -66,7 +66,7 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 	},
 	'hydroxides': {
 		'general solubility': R'<span style="color\: red;">insoluble</span>',
-		'exception(s)': 'group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds',
+		'exception(s)': 'group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is poorly soluble)',
 	},
 	'oxides': {
 		'general solubility': R'<span style="color\: red;">insoluble</span>',
@@ -89,7 +89,7 @@ return (
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2022-11-05T00:25:01.033869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2023-03-23T02:22:59.729037+08:00. Any edits will be overridden! -->
 
 > group I compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -137,7 +137,7 @@ return (
 
 > hydroxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}}
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is poorly soluble)}}
 
 > oxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
