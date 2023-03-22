@@ -8,6 +8,10 @@ aliases: ['chemical formula', 'chemical formulae', 'chemical formulas',]
 
 ## types
 
+### empirical formula
+
+Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}.
+
 ### molecular formula
 
 Molecular formulas {{show the number of each kind of [atom](atom.md) in a [molecule](molecule.md)}}.
