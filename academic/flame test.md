@@ -21,7 +21,7 @@ return await memorize_steps(
 	(e.cwf_section('abcdef'), e.cwf_section('bd92ec'),),
 	(
 		'Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).',
-		'Dip the wire into the crushed sample or [solution](solution.md).',
+		'Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).',
 		'Heat the end of the wire in a hot, non-luminous flame.',
 		'Observe the color of the resulting flame.',
 	),
@@ -32,7 +32,7 @@ return await memorize_steps(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abcdef"--><!-- The following content is generated at 2023-03-16T21:49:58.705460+08:00. Any edits will be overridden! -->
 
 > 1. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
-> 2. Dip the wire into the crushed sample or [solution](solution.md).
+> 2. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).
 > 3. Heat the end of the wire in a hot, non-luminous flame.
 > 4. Observe the color of the resulting flame.
 
@@ -41,8 +41,8 @@ return await memorize_steps(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd92ec"--><!-- The following content is generated at 2023-03-16T21:49:58.732390+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
-2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution.md).
-3. Dip the wire into the crushed sample or [solution](solution.md).→:::←Heat the end of the wire in a hot, non-luminous flame.
+2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).
+3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).→:::←Heat the end of the wire in a hot, non-luminous flame.
 4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame.
 5. Observe the color of the resulting flame.→:::←_(end)_
 

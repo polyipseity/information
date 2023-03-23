@@ -1,5 +1,5 @@
 ---
-aliases: ['solute',]
+aliases: ['solute', 'solutes', 'solution', 'solutions',]
 ---
 
 #academic/chemistry #flashcards/academic/solution__chemistry_
