@@ -169,7 +169,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-06-14,118,235!2023-08-11,197,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2023-04-28,120,305-->
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-03-27,12,130-->
-4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-03-23,46,227-->
+4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-04-05,71,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-04-08,18,227-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2023-05-04,102,265-->
@@ -256,7 +256,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2023-05-20,147,224!2024-11-08,626,267-->
-2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-03-23,145,241-->
+2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-05-31,69,221-->
 3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-05-03,101,210!2023-08-04,201,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -597,7 +597,7 @@ return (
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->
-7. ketone→:::←alcohol <!--SR:!2023-04-23,44,170!2023-03-22,34,170-->
+7. ketone→:::←alcohol <!--SR:!2023-04-23,44,170!2023-05-21,59,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2023-04-01,95,236!2023-04-02,99,247-->
