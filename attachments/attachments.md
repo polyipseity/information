@@ -3,6 +3,7 @@
 # attachments
 
 ## \#
+- [10mL Messkolben mit Schliff A.jpg](10mL%20Messkolben%20mit%20Schliff%20A.jpg): <a href="https://commons.wikimedia.org/wiki/File:10mL_Messkolben_mit_Schliff_A.jpg">Ichwarsnur</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [12.5cm by 12.5cm Wire Gauze.jpg](12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg): <a href="https://commons.wikimedia.org/wiki/File:12.5cm_by_12.5cm_Wire_Gauze.jpg">U5780138</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [250 mL Erlenmeyer flask.jpg](250%20mL%20Erlenmeyer%20flask.jpg): <a href="https://commons.wikimedia.org/wiki/File:250_mL_Erlenmeyer_flask.jpg">Pilarbini</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
@@ -13,6 +14,7 @@
 
 ## Bb
 - [Bunsen burner.jpg](Bunsen%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:Bunsen_burner.jpg">See page for author</a>, Public domain, via Wikimedia Commons
+- [Burette.svg](Burette.svg): <a href="https://commons.wikimedia.org/wiki/File:Burette.svg">Mysid (original by Quantockgoblin)</a>, Public domain, via Wikimedia Commons
 - [Burette with Clamp(3).jpg](Burette%20with%20Clamp(3).jpg): <a href="https://commons.wikimedia.org/wiki/File:Burette_with_Clamp(3).jpg">Gemsgy</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Cc
@@ -51,12 +53,14 @@
 ## Mm
 - [Mercury Thermometer.jpg](Mercury%20Thermometer.jpg): <a href="https://commons.wikimedia.org/wiki/File:Mercury_Thermometer.jpg">Anonimski</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Metal tube rack-laboratory 2.jpg](Metal%20tube%20rack-laboratory%202.jpg): <a href="https://commons.wikimedia.org/wiki/File:Metal_tube_rack-laboratory_2.jpg">real name: Nadina Wiórkiewiczpl.wiki: Nadine90commons: Nadine90</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [Mohr and Sero.jpg](Mohr%20and%20Sero.jpg): <a href="https://commons.wikimedia.org/wiki/File:Mohr_and_Sero.jpg">Paweena.S</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Pp
 - [Pipeclay triangle.jpg](Pipeclay%20triangle.jpg): <a href="https://commons.wikimedia.org/wiki/File:Pipeclay_triangle.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Rr
 - [Retort stand.jpg](Retort%20stand.jpg): <a href="https://commons.wikimedia.org/wiki/File:Retort_stand.jpg">Tsaenmai</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [Rubber bulb 5.jpg](Rubber%20bulb%205.jpg): <a href="https://commons.wikimedia.org/wiki/File:Rubber_bulb_5.jpg">Nitika182</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Rubber stopper holes.jpg](Rubber%20stopper%20holes.jpg): <a href="https://commons.wikimedia.org/wiki/File:Rubber_stopper_holes.jpg">U5780710</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Ss
@@ -76,6 +80,7 @@
 
 ## Vv
 - [Verrerie-p1030896.jpg](Verrerie-p1030896.jpg): <a href="https://commons.wikimedia.org/wiki/File:Verrerie-p1030896.jpg">Rama</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">CC BY-SA 2.0 FR</a>, via Wikimedia Commons
+- [Vollpipetten.jpg](Vollpipetten.jpg): <a href="https://commons.wikimedia.org/wiki/File:Vollpipetten.jpg">Gmhofmann</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 
 ## Ww
 - [Weighing balance, MNIT.jpg](Weighing%20balance,%20MNIT.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_balance,_MNIT.jpg">Nikunj12387</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
