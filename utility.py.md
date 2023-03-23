@@ -145,7 +145,7 @@ async def memorize_map(
 		mem(2, backward),
 	)
 
-async def memorize_steps(
+async def memorize_seq(
 	locations: tuple[Location, Location],
 	seq: Iterable[str],
 	*,
@@ -224,7 +224,7 @@ async def read_states(locations: Iterable[Location]):
 return export_seq(
 	cloze, 
 	memorize_map,
-	memorize_steps,
+	memorize_seq,
 	memorize_table,
 	read_states,
 )

@@ -15,7 +15,7 @@
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
-return await memorize_steps(
+return await memorize_seq(
 	(e.cwf_section('dae29a'), e.cwf_section('ba9d12'),),
 	(
 		'[Filter](filtration.md) seawater with a folded [filter paper](filter%20paper.md) in a [filter funnel](filter%20funnel.md) to remove [insoluble](solubility.md) [substances](chemical%20substance.md).',

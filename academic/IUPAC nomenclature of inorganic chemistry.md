@@ -23,7 +23,7 @@ The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorg
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
-return await memorize_steps(
+return await memorize_seq(
 	(e.cwf_section('d9ea'), e.cwf_section('301d'),),
 	(
 		'[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.',
