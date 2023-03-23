@@ -17,7 +17,7 @@ The test involves {{introducing the sample into a hot, non-luminous flame and ob
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
-return await memorize_steps(
+return await memorize_seq(
 	(e.cwf_section('abcdef'), e.cwf_section('bd92ec'),),
 	(
 		'Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).',

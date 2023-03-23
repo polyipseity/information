@@ -35,7 +35,7 @@ Carbonate dissolution is {{dissolution in which atmospheric [carbon dioxide](car
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
-return await memorize_steps(
+return await memorize_seq(
 	(e.cwf_section('b99283'), e.cwf_section('b9a9dd'),),
 	(
 		'CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>carbon dioxide + water → carbonic acid',
