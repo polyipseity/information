@@ -23,7 +23,7 @@ Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md).
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
-return await memorize_steps(
+return await memorize_seq(
 	(e.cwf_section('28370e'), e.cwf_section('293842'),),
 	(
 		'Filter air to remove [dust](dust.md).',

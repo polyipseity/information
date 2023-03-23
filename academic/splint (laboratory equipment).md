@@ -19,7 +19,7 @@ It is a test for an [oxidizing](oxidization.md) gas.
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
-return await memorize_steps(
+return await memorize_seq(
 	(e.cwf_section('28a383'), e.cwf_section('23ba9d'),),
 	(
 		'Light a wooden splint.',
