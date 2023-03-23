@@ -8,7 +8,7 @@
 
 - pop up window menu:::Alt+Space <!--SR:!2023-03-28,49,250!2023-05-03,80,270-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-04-07,62,270!2023-07-05,122,270-->
-- restore window size:::Alt+Space, R <!--SR:!2023-07-27,137,270!2023-03-23,18,210-->
+- restore window size:::Alt+Space, R <!--SR:!2023-07-27,137,270!2023-04-29,37,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-06-14,97,250!2023-09-17,186,310-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-03-25,14,210!2023-04-08,63,270-->
 - move window to bottom:::Alt+Esc <!--SR:!2023-05-19,74,230!2023-04-09,64,270-->
