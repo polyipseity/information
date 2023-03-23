@@ -1,3 +1,7 @@
+---
+aliases: ['pH indicator', 'pH indicators',]
+---
+
 #academic/chemistry #flashcards/academic/pH_indicator
 
 # pH indicator

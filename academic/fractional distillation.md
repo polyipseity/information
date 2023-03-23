@@ -1,3 +1,7 @@
+---
+aliases: ['fractional distillation',]
+---
+
 #academic/chemistry #flashcards/academic/fractional_distillation
 
 # fractional distillation
