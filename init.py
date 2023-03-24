@@ -2,7 +2,7 @@
 import aioshutil as _aioshutil
 import anyio as _anyio
 import asyncstdlib as _asyncstdlib
-import appdirs as _appdirs
+import appdirs as _appdirs  # type: ignore
 import argparse as _argparse
 import asyncio as _asyncio
 import collections as _collections
@@ -69,9 +69,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
         filename = _inspect.getframeinfo(frame).filename
         folder = _anyio.Path(filename).parent
 
-        cache_folder = _anyio.Path(_LOCAL_APP_DIRS.user_cache_dir) / str(
-            (await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino
-        )
+        cache_folder = _anyio.Path(
+            _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
+        ) / str((await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
             await _aioshutil.rmtree(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
