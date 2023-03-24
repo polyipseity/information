@@ -2,26 +2,60 @@
 import aioshutil as _aioshutil
 import anyio as _anyio
 import asyncstdlib as _asyncstdlib
-import appdirs as _appdirs
+import appdirs as _appdirs  # type: ignore
 import argparse as _argparse
 import asyncio as _asyncio
 import collections as _collections
 import dataclasses as _dataclasses
 import functools as _functools
+from importlib import abc as _importlib_abc, util as _importlib_util
 import inspect as _inspect
 import itertools as _itertools
 import json as _json
 import logging as _logging
 import operator as _operator
 import os as _os
+import pathlib as _pathlib
 import sys as _sys
+import types as _types
+import typing as _typing
+
+
+@_typing.final
+class ToolsPathEntryFinder(_importlib_abc.PathEntryFinder):
+    __slots__: _typing.ClassVar = ("__path",)
+    PREFIX: _typing.ClassVar = "tools"
+
+    def __init__(self, path: _pathlib.Path):
+        self.__path = path
+
+    def find_spec(self, fullname: str, target: _types.ModuleType | None = None):
+        name = fullname.removeprefix(f"{self.PREFIX}.")
+        override = _importlib_util.find_spec(name)
+        if override is not None:
+            return override
+        try:
+            path = (self.__path / name / "__init__.py").resolve(strict=True)
+        except FileNotFoundError:
+            return None
+        return _importlib_util.spec_from_file_location(
+            name, path, submodule_search_locations=[]
+        )
+
+    @classmethod
+    def hook(cls, path: str):
+        path0 = _pathlib.Path(path)
+        if path0.samefile(cls.PREFIX):
+            return cls(path0)
+        raise ImportError
+
+
+_sys.path_hooks.insert(0, ToolsPathEntryFinder.hook)
 from tools.pytextgen import (
     globals as _pytextgen_globals,
     main as _pytextgen_main,
     util as _pytextgen_util,
 )
-import types as _types
-import typing as _typing
 
 _LOCAL_APP_DIRS = _appdirs.AppDirs(
     appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
@@ -69,9 +103,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
         filename = _inspect.getframeinfo(frame).filename
         folder = _anyio.Path(filename).parent
 
-        cache_folder = _anyio.Path(_LOCAL_APP_DIRS.user_cache_dir) / str(
-            (await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino
-        )
+        cache_folder = _anyio.Path(
+            _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
+        ) / str((await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
             await _aioshutil.rmtree(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
