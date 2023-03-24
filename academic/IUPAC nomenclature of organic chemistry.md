@@ -13,7 +13,7 @@ aliases: ['IUPAC nomenclature of organic chemistry',]
 
 # IUPAC nomenclature of organic chemistry
 
-The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md). <!--SR:!2023-03-24,3,303-->
+The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md). <!--SR:!2023-04-08,15,323-->
 
 ## principles
 
