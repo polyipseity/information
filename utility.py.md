@@ -111,7 +111,7 @@ async def memorize_map(
 		for val in vals:
 			backward[val].append(key)
 
-	async def mem(index: int, map_: Mapping[str, Iterable[str]]):
+	def mem(index: int, map_: Mapping[str, Iterable[str]]):
 		escaper = TextCode.escape if escape else identity
 		return Result(
 			location=locations[index],
@@ -126,7 +126,7 @@ async def memorize_map(
 			),
 		)
 
-	async def quote():
+	def quote():
 		return Result(
 			location=locations[0],
 			text=cloze_text(
@@ -139,7 +139,7 @@ async def memorize_map(
 		)
 
 	states = await states
-	return await gather(
+	return (
 		quote(),
 		mem(1, forward),
 		mem(2, backward),
