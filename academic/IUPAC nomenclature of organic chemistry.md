@@ -282,11 +282,11 @@ The steps for naming an organic compound are:
 
 ### prefix for type count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the first one is no prefix}}. <!--SR:!2023-03-25,4,323-->
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the first one is no prefix}}. <!--SR:!2023-04-14,20,343-->
 
 ### prefix for carbon count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}. <!--SR:!2023-03-25,4,323-->
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}. <!--SR:!2023-04-09,15,323-->
 
 ## functional groups
 
@@ -447,7 +447,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-03-25,9,162!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-04-10,16,162!2024-06-02,458,362!2024-05-01,429,362-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
