@@ -1,5 +1,5 @@
 ---
-aliases: ['organic compound',]
+aliases: ['organic compound', 'organic compounds',]
 ---
 
 #academic/chemistry #flashcards/academic/organic_compound
