@@ -1,5 +1,5 @@
 ---
-aliases: ['acid', 'acidic', 'acids',]
+aliases: ['acid', 'acidic', 'acidified', 'acids',]
 ---
 
 #academic/chemistry #flashcards/academic/acid

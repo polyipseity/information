@@ -38,6 +38,7 @@ return await memorize_table(
 	('name', 'description',),
 	(
 		('[combustion](#combustion)', '',),
+		('[dihydroxylation](dihydroxylation.md)', '',),
 		('[halogen addition reaction](halogen%20addition%20reaction.md)', '',),
 	),
 	lambda datum: map(cloze, datum),
@@ -45,19 +46,21 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-03-25T13:57:46.304414+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-03-25T23:10:06.610515+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[combustion](#combustion)}} |  |
+> | {{[dihydroxylation](dihydroxylation.md)}} |  |
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-03-25T13:57:46.315415+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-03-25T23:10:06.598547+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[combustion](#combustion)
-2. [combustion](#combustion)→:::←[halogen addition reaction](halogen%20addition%20reaction.md)
-3. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←_(end)_
+2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md)
+3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md)
+4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
