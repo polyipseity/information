@@ -86,4 +86,4 @@ See also [Vim help files](https://vimhelp.org/).
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-04-13,56,308!2023-04-16,59,308-->
 - incsearch, is:::highlight while typing search <!--SR:!2023-04-09,52,293!2023-03-26,42,273-->
-- hlsearch, hls:::highlight last search matches <!--SR:!2023-03-25,41,270!2023-04-15,58,308-->
+- hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-04-15,58,308-->
