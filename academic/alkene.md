@@ -1,0 +1,63 @@
+---
+aliases: ['alkene', 'alkenes',]
+---
+
+#academic/chemistry #flashcards/academic/alkene
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
+
+# alkene
+
+An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}.
+
+## physical properties
+
+Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}.
+
+## chemical properties
+
+Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}.
+
+### combustion
+
+- See: [alkane § combustion](alkane.md#combustion)
+
+### reactions
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_table(
+	(e.cwf_section('d924'), e.cwf_section('9581'),),
+	('name', 'description',),
+	(
+		('[combustion](#combustion)', '',),
+		('[halogen addition reaction](halogen%20addition%20reaction.md)', '',),
+	),
+	lambda datum: map(cloze, datum),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-03-25T13:57:46.304414+08:00. Any edits will be overridden! -->
+
+> | name | description |
+> |-|-|
+> | {{[combustion](#combustion)}} |  |
+> | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-03-25T13:57:46.315415+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←[combustion](#combustion)
+2. [combustion](#combustion)→:::←[halogen addition reaction](halogen%20addition%20reaction.md)
+3. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

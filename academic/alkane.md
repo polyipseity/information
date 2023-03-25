@@ -6,11 +6,11 @@ aliases: ['alkane', 'alkanes', 'paraffin',]
 
 # alkane
 
-An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon)}}.
+An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}.
 
 ## physical properties
 
-Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md))}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkanes have {{increasing [melting points](melting%20point.md), [boiling points](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}.
+Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md))}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}.
 
 ## chemical properties
 
@@ -23,3 +23,7 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 ### halogenation
 
 - See: [free radical halogenation](free-radical%20halogenation.md)
+
+### cracking
+
+- See: [cracking (chemistry)](cracking%20(chemistry).md)
