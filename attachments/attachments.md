@@ -57,6 +57,11 @@
 
 ## Pp
 - [Pipeclay triangle.jpg](Pipeclay%20triangle.jpg): <a href="https://commons.wikimedia.org/wiki/File:Pipeclay_triangle.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [PMMA repeating unit.svg](PMMA%20repeating%20unit.svg): <a href="https://commons.wikimedia.org/wiki/File:PMMA_repeating_unit.svg">DrTorstenHenning</a>, Public domain, via Wikimedia Commons
+- [Polyethylene repeat unit.svg](Polyethylene%20repeat%20unit.svg): <a href="https://commons.wikimedia.org/wiki/File:Polyethylene_repeat_unit.svg">Template:Av wiki</a>, Public domain, via Wikimedia Commons
+- [Polypropylen.svg](Polypropylen.svg): <a href="https://commons.wikimedia.org/wiki/File:Polypropylen.svg">NEUROtiker</a>, Public domain, via Wikimedia Commons
+- [Polystyrene.svg](Polystyrene.svg): <a href="https://commons.wikimedia.org/wiki/File:Polystyrene.svg">Yikrazuul</a>, Public domain, via Wikimedia Commons
+- [Polyvinylchlorid.svg](Polyvinylchlorid.svg): <a href="https://commons.wikimedia.org/wiki/File:Polyvinylchlorid.svg">NEUROtiker</a>, Public domain, via Wikimedia Commons
 
 ## Rr
 - [Retort stand.jpg](Retort%20stand.jpg): <a href="https://commons.wikimedia.org/wiki/File:Retort_stand.jpg">Tsaenmai</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
