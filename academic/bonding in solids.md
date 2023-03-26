@@ -1,5 +1,5 @@
 ---
-aliases: ['bonding in solids',]
+aliases: ['bonding in solids', 'bondings in solids',]
 ---
 
 #academic/chemistry #flashcards/academic/bonding_in_solids
@@ -17,7 +17,7 @@ aliases: ['bonding in solids',]
 
 ### molecular solid
 
-A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}.
+A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}.
 
 #### properties
 

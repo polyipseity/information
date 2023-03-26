@@ -36,6 +36,7 @@
 
 ## Cc
 - [Crucible tong.jpg](Crucible%20tong.jpg): <a href="https://commons.wikimedia.org/wiki/File:Crucible_tong.jpg">GOKLuLe</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [Cryst struct ice.png](Cryst%20struct%20ice.png): <a href="https://commons.wikimedia.org/wiki/File:Cryst_struct_ice.png">Solid State</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Czochralski method used crucible 1.jpg](Czochralski%20method%20used%20crucible%201.jpg): <a href="https://commons.wikimedia.org/wiki/File:Czochralski_method_used_crucible_1.jpg">No machine-readable author provided. Twisp assumed (based on copyright claims).</a>, Public domain, via Wikimedia Commons
 
 ## Dd
