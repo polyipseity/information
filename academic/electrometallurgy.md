@@ -1,4 +1,4 @@
-#academic/chemistry #academic/metallurgy #flashcards/academic/electrometallurgy
+#academic/chemistry #academic/metallurgy #flashcards/academic/Ee/electrometallurgy
 
 %%
 ```Python

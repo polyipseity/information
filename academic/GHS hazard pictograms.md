@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/GHS_hazard_pictograms
+#academic/chemistry #flashcards/academic/Gg/GHS_hazard_pictograms
 
 %%
 ```Python

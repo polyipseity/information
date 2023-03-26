@@ -2,7 +2,7 @@
 aliases: ['CuO', 'copper(II) oxide', 'cupric oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/copper_II__oxide
+#academic/chemistry #flashcards/academic/Cc/copper_II__oxide
 
 # copper(II) oxide
 

@@ -2,7 +2,7 @@
 aliases: ['rock', 'rocks', 'stone', 'stones',]
 ---
 
-#academic/chemistry #academic/geology #flashcards/academic/rock__geology_
+#academic/chemistry #academic/geology #flashcards/academic/Rr/rock__geology_
 
 # rock
 

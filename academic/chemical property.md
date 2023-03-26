@@ -2,7 +2,7 @@
 aliases: ['chemical properties', 'chemical property',]
 ---
 
-#academic/chemistry #flashcards/academic/chemical_property
+#academic/chemistry #flashcards/academic/Cc/chemical_property
 
 # chemical property
 

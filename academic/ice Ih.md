@@ -2,7 +2,7 @@
 aliases: ['ice 1h', 'ice Ih']
 ---
 
-#academic/chemistry #flashcards/academic/ice_Ih
+#academic/chemistry #flashcards/academic/Ii/ice_Ih
 
 # ice I<sub>h</sub>
 

@@ -2,7 +2,7 @@
 aliases: ['coordinate covalent bond', 'coordinate covalent bonding', 'coordinate covalent bonds', 'dative bond', 'dative bonding', 'dative bonds',]
 ---
 
-#academic/chemistry #flashcards/academic/coordinate_covalent_bond
+#academic/chemistry #flashcards/academic/Cc/coordinate_covalent_bond
 
 # coordinate covalent bond
 

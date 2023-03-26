@@ -2,7 +2,7 @@
 aliases: ['bond', 'bonds', 'chemical bond', 'chemical bonding', 'chemical bonds',]
 ---
 
-#academic/chemistry #flashcards/academic/chemical_bond
+#academic/chemistry #flashcards/academic/Cc/chemical_bond
 
 # chemical bond
 

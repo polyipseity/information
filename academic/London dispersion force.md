@@ -2,7 +2,7 @@
 aliases: ['LDF', 'London dispersion force', 'London dispersion forces',]
 ---
 
-#academic/chemistry #flashcards/academic/London_dispersion_force
+#academic/chemistry #flashcards/academic/Ll/London_dispersion_force
 
 # London dispersion force
 

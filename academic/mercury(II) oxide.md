@@ -2,7 +2,7 @@
 aliases: ['HgO', 'mercury oxide', 'mercuric oxide', 'mercury(II) oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/mercury_II__oxide
+#academic/chemistry #flashcards/academic/Mm/mercury_II__oxide
 
 # mercury(II) oxide
 

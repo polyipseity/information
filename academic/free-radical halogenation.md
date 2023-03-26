@@ -2,7 +2,7 @@
 aliases: ['free radical halogenation',]
 ---
 
-#academic/chemistry #flashcards/academic/free-radical_halogenation
+#academic/chemistry #flashcards/academic/Ff/free-radical_halogenation
 
 %%
 ```Python

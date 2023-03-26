@@ -2,7 +2,7 @@
 aliases: ['plastic', 'plastics',]
 ---
 
-#academic/chemistry #flashcards/academic/plastic
+#academic/chemistry #flashcards/academic/Pp/plastic
 
 %%
 ```Python

@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/filtration
+#academic/chemistry #flashcards/academic/Ff/filtration
 
 # filtration
 

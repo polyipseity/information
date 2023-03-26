@@ -2,7 +2,7 @@
 aliases: ['isotope', 'isotopes',]
 ---
 
-#academic/chemistry #flashcards/academic/isotope
+#academic/chemistry #flashcards/academic/Ii/isotope
 
 # isotope
 

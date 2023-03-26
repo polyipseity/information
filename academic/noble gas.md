@@ -2,7 +2,7 @@
 aliases: ['aerogen', 'aerogens', 'group 0', 'group 18', 'group VIIIA', 'inert gas', 'inert gases', 'noble gas', 'noble gases',]
 ---
 
-#academic/chemistry #flashcards/academic/noble_gas
+#academic/chemistry #flashcards/academic/Nn/noble_gas
 
 # noble gas
 

@@ -2,7 +2,7 @@
 aliases: ['NH4+', 'ammonium',]
 ---
 
-#academic/chemistry #flashcards/academic/ammonium
+#academic/chemistry #flashcards/academic/Aa/ammonium
 
 # ammonium
 

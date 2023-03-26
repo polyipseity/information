@@ -2,7 +2,7 @@
 aliases: ['alkane', 'alkanes', 'paraffin',]
 ---
 
-#academic/chemistry #flashcards/academic/alkane
+#academic/chemistry #flashcards/academic/Aa/alkane
 
 # alkane
 

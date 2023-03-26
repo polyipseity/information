@@ -1,4 +1,4 @@
-#academic/ecology #academic/oceanography #flashcards/academic/seawater
+#academic/ecology #academic/oceanography #flashcards/academic/Ss/seawater
 
 # seawater
 

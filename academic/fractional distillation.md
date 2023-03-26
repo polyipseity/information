@@ -2,7 +2,7 @@
 aliases: ['fractional distillation',]
 ---
 
-#academic/chemistry #flashcards/academic/fractional_distillation
+#academic/chemistry #flashcards/academic/Ff/fractional_distillation
 
 # fractional distillation
 

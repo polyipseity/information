@@ -2,7 +2,7 @@
 aliases: ['K2O', 'potassium oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/potassium_oxide
+#academic/chemistry #flashcards/academic/Pp/potassium_oxide
 
 # potassium oxide
 

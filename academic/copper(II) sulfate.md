@@ -2,7 +2,7 @@
 aliases: ['copper(II) sulphate',]
 ---
 
-#academic/chemistry #flashcards/academic/copper_II__sulphate
+#academic/chemistry #flashcards/academic/Cc/copper_II__sulphate
 
 # copper(II) sulfate
 

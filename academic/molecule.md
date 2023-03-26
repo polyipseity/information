@@ -2,7 +2,7 @@
 aliases: ['molecule', 'molecules',]
 ---
 
-#academic/chemistry #flashcards/academic/molecule
+#academic/chemistry #flashcards/academic/Mm/molecule
 
 # molecule
 

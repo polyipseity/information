@@ -1,4 +1,4 @@
-#academic/chemistry #academic/climatology #academic/geomorphology #flashcards/academic/weathering
+#academic/chemistry #academic/climatology #academic/geomorphology #flashcards/academic/Ww/weathering
 
 %%
 ```Python

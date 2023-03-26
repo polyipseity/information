@@ -2,7 +2,7 @@
 aliases: ['molecular mass', 'relative molecular mass',]
 ---
 
-#academic/chemistry #flashcards/academic/molecular_mass
+#academic/chemistry #flashcards/academic/Mm/molecular_mass
 
 # molecular mass
 

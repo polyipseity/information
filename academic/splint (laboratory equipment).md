@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/splint__laboratory_equipment_
+#academic/chemistry #flashcards/academic/Ss/splint__laboratory_equipment_
 
 %%
 ```Python

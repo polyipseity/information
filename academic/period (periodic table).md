@@ -2,7 +2,7 @@
 aliases: ['period', 'periods',]
 ---
 
-#academic/chemistry #academic/physics #flashcards/academic/period__periodic_table_
+#academic/chemistry #academic/physics #flashcards/academic/Pp/period__periodic_table_
 
 # period
 

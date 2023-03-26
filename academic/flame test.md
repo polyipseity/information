@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/flame_test
+#academic/chemistry #flashcards/academic/Ff/flame_test
 
 %%
 ```Python

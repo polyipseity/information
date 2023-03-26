@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/cobalt_II__chloride
+#academic/chemistry #flashcards/academic/Cc/cobalt_II__chloride
 
 # cobalt(II) chloride
 

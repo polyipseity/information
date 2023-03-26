@@ -2,7 +2,7 @@
 aliases: ['addition reaction', 'addition reactions',]
 ---
 
-#academic/chemistry #flashcards/academic/addition_reaction
+#academic/chemistry #flashcards/academic/Aa/addition_reaction
 
 # addition reaction
 

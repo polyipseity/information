@@ -2,7 +2,7 @@
 aliases: ['chemical formula', 'chemical formulae', 'chemical formulas',]
 ---
 
-#academic/chemistry #flashcards/academic/chemical_formula
+#academic/chemistry #flashcards/academic/Cc/chemical_formula
 
 # chemical formula
 

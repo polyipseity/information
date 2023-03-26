@@ -2,7 +2,7 @@
 aliases: ['Zn(OH)2', 'zinc hydroxide',]
 ---
 
-#academic/chemistry #flashcards/academic/zinc_hydroxide
+#academic/chemistry #flashcards/academic/Zz/zinc_hydroxide
 
 # zinc hydroxide
 
