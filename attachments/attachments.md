@@ -11,6 +11,23 @@
 - [A laboratory heat spreader made of asbestos, over Teclu burner.jpg](A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:A_laboratory_heat_spreader_made_of_asbestos,_over_Teclu_burner.jpg">LukaszKatlewa</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons
 - [Abdampfschalen verschiedene Groessen.jpg](Abdampfschalen%20verschiedene%20Groessen.jpg): <a href="https://commons.wikimedia.org/wiki/File:Abdampfschalen_verschiedene_Groessen.jpg">Simon A. Eugster</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Atomic Symbol Mg.svg](Atomic%20Symbol%20Mg.svg): <a href="https://commons.wikimedia.org/wiki/File:Atomic_Symbol_Mg.svg">GKFX</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [AX2E0-3D-balls.png](AX2E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX2E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX2E1-3D-balls.png](AX2E1-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX2E1-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX2E2-3D-balls.png](AX2E2-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX2E2-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX2E3-3D-balls.png](AX2E3-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX2E3-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX3E0-3D-balls.png](AX3E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX3E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX3E1-3D-balls.png](AX3E1-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX3E1-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX3E2-3D-balls.png](AX3E2-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX3E2-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX4E0-3D-balls.png](AX4E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX4E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX4E1-3D-balls.png](AX4E1-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX4E1-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX4E2-3D-balls.png](AX4E2-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX4E2-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX5E1-3D-balls.png](AX5E1-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX5E1-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX5E2-3D-balls.png](AX5E2-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX5E2-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX6E0-3D-balls.png](AX6E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX6E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX6E1-3D-balls.png](AX6E1-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX6E1-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX7E0-3D-balls.png](AX7E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX7E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX8E0-3D-balls.png](AX8E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX8E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [AX9E0-3D-balls.png](AX9E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX9E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
 
 ## Bb
 - [Bunsen burner.jpg](Bunsen%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:Bunsen_burner.jpg">See page for author</a>, Public domain, via Wikimedia Commons
@@ -78,6 +95,7 @@
 - [Test tube brushes.jpg](Test%20tube%20brushes.jpg): <a href="https://commons.wikimedia.org/wiki/File:Test_tube_brushes.jpg">Mimiwl</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Test Tube Holder2 2015.JPG](Test%20Tube%20Holder2%202015.JPG): <a href="https://commons.wikimedia.org/wiki/File:Test_Tube_Holder2_2015.JPG">Nacharee.jung</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Transfer pipette.jpg](Transfer%20pipette.jpg): <a href="https://commons.wikimedia.org/wiki/File:Transfer_pipette.jpg">Pualuu</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [Trigonal-bipyramidal-3D-balls.png](Trigonal-bipyramidal-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:Trigonal-bipyramidal-3D-balls.png">See page for author</a>, Public domain, via Wikimedia Commons
 - [Two small test tubes held in spring clamps.jpg](Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg): <a href="https://commons.wikimedia.org/wiki/File:Two_small_test_tubes_held_in_spring_clamps.jpg">Amitchell125 at English Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 
 ## Uu
