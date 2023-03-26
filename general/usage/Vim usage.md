@@ -38,13 +38,13 @@ See also [Vim help files](https://vimhelp.org/).
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-04-18,61,293!2023-05-17,85,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-04-17,60,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
-- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-03-26,42,273!2023-04-10,53,293-->
+- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-04-10,53,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-04-13,56,293-->
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2023-05-06,74,313!2023-05-17,85,328-->
-- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-03-26,42,273!2023-05-13,81,313-->
+- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-07-17,113,273!2023-05-13,81,313-->
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-04-12,55,293!2023-04-13,56,293-->
 
 ## visual
@@ -66,7 +66,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## search and substitute
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-04-10,53,293!2023-06-18,98,273-->
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-03-26,15,230!2023-04-17,60,308-->
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-05-04,39,230!2023-04-17,60,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
 - repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-04-01,35,273!2023-06-22,101,273-->
@@ -85,5 +85,5 @@ See also [Vim help files](https://vimhelp.org/).
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-04-13,56,308!2023-04-16,59,308-->
-- incsearch, is:::highlight while typing search <!--SR:!2023-04-09,52,293!2023-03-26,42,273-->
+- incsearch, is:::highlight while typing search <!--SR:!2023-04-09,52,293!2023-07-17,113,273-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-04-15,58,308-->
