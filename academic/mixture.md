@@ -2,7 +2,7 @@
 aliases: ['mixtures',]
 ---
 
-#academic/chemistry #flashcards/academic/mixture
+#academic/chemistry #flashcards/academic/Mm/mixture
 
 # mixture
 

@@ -2,7 +2,7 @@
 aliases: ['primary standard', 'primary standards',]
 ---
 
-#academic/chemistry #flashcards/academic/primary_standard
+#academic/chemistry #flashcards/academic/Pp/primary_standard
 
 %%
 ```Python

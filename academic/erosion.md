@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/erosion
+#academic/chemistry #flashcards/academic/Ee/erosion
 
 # erosion
 

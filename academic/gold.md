@@ -2,7 +2,7 @@
 aliases: ['Au', 'gold',]
 ---
 
-#academic/chemistry #flashcards/academic/gold
+#academic/chemistry #flashcards/academic/Gg/gold
 
 %%
 ```Python

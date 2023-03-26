@@ -1,4 +1,4 @@
-#academic/chemistry #academic/metallurgy #flashcards/academic/extractive_metallurgy
+#academic/chemistry #academic/metallurgy #flashcards/academic/Ee/extractive_metallurgy
 
 # extractive metallurgy
 

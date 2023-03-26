@@ -2,7 +2,7 @@
 aliases: ['intermolecular force', 'intermolecular forces',]
 ---
 
-#academic/chemistry #flashcards/academic/intermolecular_force
+#academic/chemistry #flashcards/academic/Ii/intermolecular_force
 
 %%
 ```Python

@@ -1,4 +1,4 @@
-#academic/geology #academic/geophysics #flashcards/academic/internal_structure_of_Earth
+#academic/geology #academic/geophysics #flashcards/academic/Ii/internal_structure_of_Earth
 
 %%
 ```Python

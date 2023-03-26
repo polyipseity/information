@@ -2,7 +2,7 @@
 aliases: ['chemical symbols', 'element symbol', 'element symbols',]
 ---
 
-#academic/chemistry #flashcards/academic/chemical_symbol
+#academic/chemistry #flashcards/academic/Cc/chemical_symbol
 
 # chemical symbol
 

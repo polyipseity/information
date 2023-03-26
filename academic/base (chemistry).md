@@ -2,7 +2,7 @@
 aliases: ['base', 'bases', 'basic',]
 ---
 
-#academic/chemistry #flashcards/academic/base__chemistry_
+#academic/chemistry #flashcards/academic/Bb/base__chemistry_
 
 # base
 

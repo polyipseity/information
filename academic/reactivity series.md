@@ -2,7 +2,7 @@
 aliases: ['activity series', 'reactivity series',]
 ---
 
-#academic/chemistry #flashcards/academic/reactivity_series
+#academic/chemistry #flashcards/academic/Rr/reactivity_series
 
 %%
 ```Python

@@ -1,4 +1,4 @@
-#academic/chemistry #academic/geology #academic/mineralogy #flashcards/academic/ore
+#academic/chemistry #academic/geology #academic/mineralogy #flashcards/academic/Oo/ore
 
 %%
 ```Python

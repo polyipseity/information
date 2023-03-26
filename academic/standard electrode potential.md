@@ -2,7 +2,7 @@
 aliases: ['electrochemical series', 'standard electrode potential', 'standard electrode potentials',]
 ---
 
-#academic/chemistry #flashcards/academic/standard_electrode_potential
+#academic/chemistry #flashcards/academic/Ss/standard_electrode_potential
 
 # standard electrode potential
 

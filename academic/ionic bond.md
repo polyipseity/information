@@ -2,7 +2,7 @@
 aliases: ['electrovalence', 'ionic bond', 'ionic bonding', 'ionic bonds',]
 ---
 
-#academic/chemistry #flashcards/academic/ionic_bond
+#academic/chemistry #flashcards/academic/Ii/ionic_bond
 
 # ionic bond
 

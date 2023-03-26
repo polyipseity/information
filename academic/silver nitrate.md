@@ -2,7 +2,7 @@
 aliases: ['AgNO3', 'silver nitrate',]
 ---
 
-#academic/chemistry #flashcards/academic/silver_nitrate
+#academic/chemistry #flashcards/academic/Ss/silver_nitrate
 
 # silver nitrate
 

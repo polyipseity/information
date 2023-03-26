@@ -2,7 +2,7 @@
 aliases: ['Mg(OH)2', 'magnesium hydroxide',]
 ---
 
-#academic/chemistry #flashcards/academic/magnesium_hydroxide
+#academic/chemistry #flashcards/academic/Mm/magnesium_hydroxide
 
 # magnesium hydroxide
 

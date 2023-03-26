@@ -2,7 +2,7 @@
 aliases: ['H-bond', 'H-bonding', 'H-bonds', 'hydrogen bond', 'hydrogen bonding', 'hydrogen bonds',]
 ---
 
-#academic/chemistry #flashcards/academic/hydrogen_bond
+#academic/chemistry #flashcards/academic/Hh/hydrogen_bond
 
 # hydrogen bond
 

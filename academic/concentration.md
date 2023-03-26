@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/concentration
+#academic/chemistry #flashcards/academic/Cc/concentration
 
 # concentration
 

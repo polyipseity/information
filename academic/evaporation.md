@@ -2,7 +2,7 @@
 aliases: ['evaporate', 'evaporates', 'evaporation',]
 ---
 
-#academic/chemistry #flashcards/academic/evaporation
+#academic/chemistry #flashcards/academic/Ee/evaporation
 
 %%
 ```Python

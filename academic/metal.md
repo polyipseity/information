@@ -2,7 +2,7 @@
 aliases: ['metals',]
 ---
 
-#academic/chemistry #flashcards/academic/metal
+#academic/chemistry #flashcards/academic/Mm/metal
 
 # metal
 

@@ -2,7 +2,7 @@
 aliases: ['Fe(OH)2', 'iron(II) hydroxide',]
 ---
 
-#academic/chemistry #flashcards/academic/iron_II__hydroxide
+#academic/chemistry #flashcards/academic/Ii/iron_II__hydroxide
 
 # iron(II) hydroxide
 

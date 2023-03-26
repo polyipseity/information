@@ -2,7 +2,7 @@
 aliases: ['physical properties', 'physical property',]
 ---
 
-#academic/chemistry #academic/physics #flashcards/academic/physical_property
+#academic/chemistry #academic/physics #flashcards/academic/Pp/physical_property
 
 %%
 ```Python

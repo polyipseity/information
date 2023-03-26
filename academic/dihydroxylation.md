@@ -2,7 +2,7 @@
 aliases: ['dihydroxlation',]
 ---
 
-#academic/chemistry #flashcards/academic/dihydroxylation
+#academic/chemistry #flashcards/academic/Dd/dihydroxylation
 
 # dihydroxylation
 
