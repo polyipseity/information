@@ -17,7 +17,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-04-05,48,288-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-04-16,59,308-->
-- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-03-27,43,270!2023-06-24,105,287-->
+- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-03-30,42,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-05-10,78,313!2023-05-11,79,313-->
@@ -25,7 +25,7 @@ See also [Vim help files](https://vimhelp.org/).
 - end of line:::$ <!--SR:!2023-05-08,76,313!2023-05-10,78,313-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2023-03-28,44,290!2023-05-12,80,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2023-05-06,74,313!2023-05-08,76,313-->
-- matching character:::% <!--SR:!2023-03-27,43,273!2023-04-12,50,293-->
+- matching character:::% <!--SR:!2023-07-23,118,273!2023-04-12,50,293-->
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-05-05,73,313!2023-04-06,49,293-->
@@ -70,7 +70,7 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
 - repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-04-01,35,273!2023-06-22,101,273-->
-- repeat last search backward:::?\<Enter\> <!--SR:!2023-03-27,43,273!2023-06-07,84,268-->
+- repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2023-06-07,84,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2023-05-05,73,313-->
 
 ## command
