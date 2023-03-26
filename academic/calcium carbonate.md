@@ -2,7 +2,7 @@
 aliases: ['CaCO3',]
 ---
 
-#academic/chemistry #flashcards/academic/calcium_carbonate
+#academic/chemistry #flashcards/academic/Cc/calcium_carbonate
 
 # calcium carbonate
 

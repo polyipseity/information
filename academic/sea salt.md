@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/sea_salt
+#academic/chemistry #flashcards/academic/Ss/sea_salt
 
 %%
 ```Python

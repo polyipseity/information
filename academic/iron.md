@@ -2,7 +2,7 @@
 aliases: ['Fe', 'iron',]
 ---
 
-#academic/chemistry #flashcards/academic/iron
+#academic/chemistry #flashcards/academic/Ii/iron
 
 %%
 ```Python

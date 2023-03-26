@@ -2,7 +2,7 @@
 aliases: ['NaOH', 'sodium hydroxide',]
 ---
 
-#academic/chemistry #flashcards/academic/sodium_hydroxide
+#academic/chemistry #flashcards/academic/Ss/sodium_hydroxide
 
 # sodium hydroxide
 

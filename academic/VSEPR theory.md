@@ -2,7 +2,7 @@
 aliases: ['VSEPR theory', 'valence shell electron pair repulsion theory',]
 ---
 
-#academic/chemistry #flashcards/academic/VSEPR_theory
+#academic/chemistry #flashcards/academic/Vv/VSEPR_theory
 
 %%
 ```Python

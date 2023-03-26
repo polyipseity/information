@@ -2,7 +2,7 @@
 aliases: ['polymer', 'polymers',]
 ---
 
-#academic/chemistry #flashcards/academic/polymer
+#academic/chemistry #flashcards/academic/Pp/polymer
 
 # polymer
 

@@ -2,7 +2,7 @@
 aliases: ['insoluble', 'soluble',]
 ---
 
-#academic/chemistry #flashcards/academic/solubility
+#academic/chemistry #flashcards/academic/Ss/solubility
 
 # solubility
 

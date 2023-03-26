@@ -2,7 +2,7 @@
 aliases: ['organic compound', 'organic compounds',]
 ---
 
-#academic/chemistry #flashcards/academic/organic_compound
+#academic/chemistry #flashcards/academic/Oo/organic_compound
 
 %%
 ```Python

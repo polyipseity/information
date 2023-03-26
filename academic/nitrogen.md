@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/nitrogen
+#academic/chemistry #flashcards/academic/Nn/nitrogen
 
 %%
 ```Python

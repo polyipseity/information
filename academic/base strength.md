@@ -2,7 +2,7 @@
 aliases: ['base strength', 'base strengths', 'strong base', 'strong bases',]
 ---
 
-#academic/chemistry #flashcards/academic/base_strength
+#academic/chemistry #flashcards/academic/Bb/base_strength
 
 # base strength
 

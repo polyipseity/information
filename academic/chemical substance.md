@@ -2,7 +2,7 @@
 aliases: ['chemical substances', 'chemical', 'pure substance', 'substance', 'substances',]
 ---
 
-#academic/chemistry #flashcards/academic/chemical_substance
+#academic/chemistry #flashcards/academic/Cc/chemical_substance
 
 # chemical substance
 

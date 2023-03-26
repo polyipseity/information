@@ -2,7 +2,7 @@
 aliases: ['chemical changes',]
 ---
 
-#academic/chemistry #flashcards/academic/chemical_change
+#academic/chemistry #flashcards/academic/Cc/chemical_change
 
 # chemical change
 

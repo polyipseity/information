@@ -2,7 +2,7 @@
 aliases: ['metalloids', 'semi-metal', 'semi-metals', 'semimetal', 'semimetals',]
 ---
 
-#academic/chemistry #flashcards/academic/metalloid
+#academic/chemistry #flashcards/academic/Mm/metalloid
 
 # metalloid
 

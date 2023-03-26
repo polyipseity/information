@@ -2,7 +2,7 @@
 aliases: ['anion', 'anions', 'cation', 'cations', 'ion', 'ions',]
 ---
 
-#academic/chemistry #flashcards/academic/ion
+#academic/chemistry #flashcards/academic/Ii/ion
 
 %%
 ```Python

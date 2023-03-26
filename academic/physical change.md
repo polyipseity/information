@@ -2,7 +2,7 @@
 aliases: ['physical changes',]
 ---
 
-#academic/chemistry #flashcards/academic/physical_change
+#academic/chemistry #flashcards/academic/Pp/physical_change
 
 # physical change
 

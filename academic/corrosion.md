@@ -2,7 +2,7 @@
 aliases: ['corrosion',]
 ---
 
-#academic/chemistry #flashcards/academic/corrosion
+#academic/chemistry #flashcards/academic/Cc/corrosion
 
 # corrosion
 

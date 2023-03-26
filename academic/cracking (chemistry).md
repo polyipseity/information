@@ -2,7 +2,7 @@
 aliases: ['cracking',]
 ---
 
-#academic/chemistry #flashcards/academic/cracking__chemistry_
+#academic/chemistry #flashcards/academic/Cc/cracking__chemistry_
 
 %%
 ```Python

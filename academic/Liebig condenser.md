@@ -2,7 +2,7 @@
 aliases: ['straight condenser',]
 ---
 
-#academic/chemistry #flashcards/academic/Liebig_condenser
+#academic/chemistry #flashcards/academic/Ll/Liebig_condenser
 
 # Liebig condenser
 

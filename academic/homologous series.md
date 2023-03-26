@@ -2,7 +2,7 @@
 aliases: ['homologous series',]
 ---
 
-#academic/chemistry #flashcards/academic/homologous_series
+#academic/chemistry #flashcards/academic/Hh/homologous_series
 
 # homologous series
 

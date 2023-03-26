@@ -1,4 +1,4 @@
-#academic/biology #academic/chemistry #academic/physics #flashcards/academic/experiment
+#academic/biology #academic/chemistry #academic/physics #flashcards/academic/Ee/experiment
 
 %%
 ```Python

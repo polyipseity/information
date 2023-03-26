@@ -2,7 +2,7 @@
 aliases: ['hydrocarbon', 'hydrocarbons',]
 ---
 
-#academic/chemistry #flashcards/academic/hydrocarbon
+#academic/chemistry #flashcards/academic/Hh/hydrocarbon
 
 %%
 ```Python

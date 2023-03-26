@@ -2,7 +2,7 @@
 aliases: ['covalent bond', 'covalent bonding', 'covalent bonds', 'covalently bound',]
 ---
 
-#academic/chemistry #flashcards/academic/covalent_bond
+#academic/chemistry #flashcards/academic/Cc/covalent_bond
 
 # covalent bond
 

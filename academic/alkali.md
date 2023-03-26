@@ -2,7 +2,7 @@
 aliases: ['alkali', 'alkalis', 'alkaline',]
 ---
 
-#academic/chemistry #flashcards/academic/alkali
+#academic/chemistry #flashcards/academic/Aa/alkali
 
 # alkali
 

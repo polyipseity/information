@@ -2,7 +2,7 @@
 aliases: ['alkene', 'alkenes',]
 ---
 
-#academic/chemistry #flashcards/academic/alkene
+#academic/chemistry #flashcards/academic/Aa/alkene
 
 %%
 ```Python

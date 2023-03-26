@@ -2,7 +2,7 @@
 aliases: ['Cu', 'copper',]
 ---
 
-#academic/chemistry #flashcards/academic/copper
+#academic/chemistry #flashcards/academic/Cc/copper
 
 %%
 ```Python

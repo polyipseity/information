@@ -2,7 +2,7 @@
 aliases: ['MgO', 'magnesia', 'magnesium oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/magnesium_oxide
+#academic/chemistry #flashcards/academic/Mm/magnesium_oxide
 
 # magnesium oxide
 

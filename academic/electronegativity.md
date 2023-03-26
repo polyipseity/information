@@ -2,7 +2,7 @@
 aliases: ['electronegative', 'electronegativities', 'electronegativity',]
 ---
 
-#academic/chemistry #flashcards/academic/electronegativity
+#academic/chemistry #flashcards/academic/Ee/electronegativity
 
 # electronegativity
 

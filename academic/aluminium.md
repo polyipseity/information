@@ -2,7 +2,7 @@
 aliases: ['Al', 'aluminium', 'aluminum',]
 ---
 
-#academic/chemistry #flashcards/academic/aluminium
+#academic/chemistry #flashcards/academic/Aa/aluminium
 
 %%
 ```Python

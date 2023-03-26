@@ -2,7 +2,7 @@
 aliases: ['alkaline earth metal', 'alkaline earth metals', 'beryllium group', 'group 2', 'group II', 'group IIA',]
 ---
 
-#academic/chemistry #flashcards/academic/alkaline_earth_metal
+#academic/chemistry #flashcards/academic/Aa/alkaline_earth_metal
 
 %%
 ```Python

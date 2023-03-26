@@ -2,7 +2,7 @@
 aliases: ['Pb(OH)2', 'lead(II) hydroxide',]
 ---
 
-#academic/chemistry #flashcards/academic/lead_II__hydroxide
+#academic/chemistry #flashcards/academic/Ll/lead_II__hydroxide
 
 # lead(II) hydroxide
 

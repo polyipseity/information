@@ -2,7 +2,7 @@
 aliases: ['acidity', 'pH', 'pOH',]
 ---
 
-#academic/biology #academic/chemistry #flashcards/academic/pH
+#academic/biology #academic/chemistry #flashcards/academic/Pp/pH
 
 # pH
 

@@ -2,7 +2,7 @@
 aliases: ['PbO', 'lead(II) oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/lead_II__oxide
+#academic/chemistry #flashcards/academic/Ll/lead_II__oxide
 
 # lead(II) oxide
 

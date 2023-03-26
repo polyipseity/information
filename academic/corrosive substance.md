@@ -2,7 +2,7 @@
 aliases: ['corrosive', 'corrosive substance', 'corrosive substances',]
 ---
 
-#academic/chemistry #flashcards/academic/corrosive_substance
+#academic/chemistry #flashcards/academic/Cc/corrosive_substance
 
 # corrosive substance
 

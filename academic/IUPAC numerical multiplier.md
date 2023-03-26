@@ -2,7 +2,7 @@
 aliases: ['IUPAC numerical multiplier', 'IUPAC numerical multipliers',]
 ---
 
-#academic/chemistry #flashcards/academic/IUPAC_numerical_multiplier
+#academic/chemistry #flashcards/academic/Ii/IUPAC_numerical_multiplier
 
 %%
 ```Python

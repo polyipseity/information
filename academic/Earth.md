@@ -1,4 +1,4 @@
-#academic/astronomy #flashcards/academic/Earth
+#academic/astronomy #flashcards/academic/Ee/Earth
 
 # Earth
 

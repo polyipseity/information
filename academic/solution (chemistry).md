@@ -2,7 +2,7 @@
 aliases: ['solute', 'solutes', 'solution', 'solutions',]
 ---
 
-#academic/chemistry #flashcards/academic/solution__chemistry_
+#academic/chemistry #flashcards/academic/Ss/solution__chemistry_
 
 # solution
 

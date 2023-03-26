@@ -2,7 +2,7 @@
 aliases: ['periodic trend', 'periodic trends',]
 ---
 
-#academic/chemistry #academic/physics #flashcards/academic/periodic_trends
+#academic/chemistry #academic/physics #flashcards/academic/Pp/periodic_trends
 
 %%
 ```Python

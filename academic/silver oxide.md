@@ -2,7 +2,7 @@
 aliases: ['Ag2O', 'silver oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/silver_oxide
+#academic/chemistry #flashcards/academic/Ss/silver_oxide
 
 # silver oxide
 

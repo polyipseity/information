@@ -2,7 +2,7 @@
 aliases: ['ionic compound', 'ionic compounds',]
 ---
 
-#academic/chemistry #flashcards/academic/ionic_compound
+#academic/chemistry #flashcards/academic/Ii/ionic_compound
 
 # ionic compound
 
