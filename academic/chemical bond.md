@@ -1,5 +1,5 @@
 ---
-aliases: ['chemical bond', 'chemical bonding', 'chemical bonds',]
+aliases: ['bond', 'bonds', 'chemical bond', 'chemical bonding', 'chemical bonds',]
 ---
 
 #academic/chemistry #flashcards/academic/chemical_bond
