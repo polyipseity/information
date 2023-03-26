@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/panning
+#academic/chemistry #flashcards/academic/Pp/panning
 
 # panning
 

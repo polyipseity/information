@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/atmosphere_of_Earth
+#academic/chemistry #flashcards/academic/Aa/atmosphere_of_Earth
 
 %%
 ```Python

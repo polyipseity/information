@@ -2,7 +2,7 @@
 aliases: ['Ti', 'titanium',]
 ---
 
-#academic/chemistry #flashcards/academic/titanium
+#academic/chemistry #flashcards/academic/Tt/titanium
 
 %%
 ```Python

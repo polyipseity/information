@@ -2,7 +2,7 @@
 aliases: ['acid strength', 'acid strengths', 'strong acid', 'strong acids',]
 ---
 
-#academic/chemistry #flashcards/academic/acid_strength
+#academic/chemistry #flashcards/academic/Aa/acid_strength
 
 # acid strength
 

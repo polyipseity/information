@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/oxygen
+#academic/chemistry #flashcards/academic/Oo/oxygen
 
 %%
 ```Python

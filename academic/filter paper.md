@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/filter_paper
+#academic/chemistry #flashcards/academic/Ff/filter_paper
 
 # filter paper
 

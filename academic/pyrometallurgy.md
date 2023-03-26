@@ -1,4 +1,4 @@
-#academic/chemistry #academic/metallurgy #flashcards/academic/pyrometallurgy
+#academic/chemistry #academic/metallurgy #flashcards/academic/Pp/pyrometallurgy
 
 # pyrometallurgy
 

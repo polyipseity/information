@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/crystallization
+#academic/chemistry #flashcards/academic/Cc/crystallization
 
 # crystallization
 

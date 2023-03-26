@@ -2,7 +2,7 @@
 aliases: ['Na2O', 'sodium oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/sodium_oxide
+#academic/chemistry #flashcards/academic/Ss/sodium_oxide
 
 # sodium oxide
 

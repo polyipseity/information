@@ -2,7 +2,7 @@
 aliases: ['atomicity',]
 ---
 
-#academic/chemistry #flashcards/academic/atomicity
+#academic/chemistry #flashcards/academic/Aa/atomicity
 
 %%
 ```Python

@@ -2,7 +2,7 @@
 aliases: ['RAM', 'r.a.m.', 'relative atomic mass', 'atomic weight',]
 ---
 
-#academic/chemistry #academic/physics #flashcards/academic/atomic_mass
+#academic/chemistry #academic/physics #flashcards/academic/Aa/atomic_mass
 
 # relative atomic mass
 

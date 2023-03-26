@@ -2,7 +2,7 @@
 aliases: ['Al(OH)3', 'aluminium hydroxide',]
 ---
 
-#academic/chemistry #flashcards/academic/aluminium_hydroxide
+#academic/chemistry #flashcards/academic/Aa/aluminium_hydroxide
 
 # aluminium hydroxide
 

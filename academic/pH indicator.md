@@ -2,7 +2,7 @@
 aliases: ['pH indicator', 'pH indicators',]
 ---
 
-#academic/chemistry #flashcards/academic/pH_indicator
+#academic/chemistry #flashcards/academic/Pp/pH_indicator
 
 # pH indicator
 

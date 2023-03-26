@@ -2,7 +2,7 @@
 aliases: ['Hg', 'mercury',]
 ---
 
-#academic/chemistry #flashcards/academic/mercury
+#academic/chemistry #flashcards/academic/Mm/mercury
 
 %%
 ```Python

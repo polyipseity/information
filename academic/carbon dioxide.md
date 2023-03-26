@@ -2,7 +2,7 @@
 aliases: ['CO2',]
 ---
 
-#academic/chemistry #flashcards/academic/carbon_dioxide
+#academic/chemistry #flashcards/academic/Cc/carbon_dioxide
 
 # carbon dioxide
 

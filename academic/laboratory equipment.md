@@ -2,7 +2,7 @@
 aliases: ['laboratory apparatus', 'laboratory equipment', 'laboratory equipments',]
 ---
 
-#academic/biology #academic/chemistry #academic/physics #flashcards/academic/laboratory_equipment
+#academic/biology #academic/chemistry #academic/physics #flashcards/academic/Ll/laboratory_equipment
 
 %%
 ```Python

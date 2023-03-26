@@ -2,7 +2,7 @@
 aliases: ['periodic table', 'periodic tables',]
 ---
 
-#academic/chemistry #academic/physics #flashcards/academic/periodic_table
+#academic/chemistry #academic/physics #flashcards/academic/Pp/periodic_table
 
 # periodic table
 

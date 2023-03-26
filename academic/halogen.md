@@ -2,7 +2,7 @@
 aliases: ['fluorine group', 'halogen', 'halogens', 'group 17', 'group VIIA', 'group VIIB',]
 ---
 
-#academic/chemistry #flashcards/academic/halogen
+#academic/chemistry #flashcards/academic/Hh/halogen
 
 %%
 ```Python

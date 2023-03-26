@@ -2,7 +2,7 @@
 aliases: ['C60', 'buckminsterfullerene', 'buckminsterfullerenes',]
 ---
 
-#academic/chemistry #flashcards/academic/buckminsterfullerene
+#academic/chemistry #flashcards/academic/Bb/buckminsterfullerene
 
 # buckministerfullerene
 

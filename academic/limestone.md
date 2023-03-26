@@ -1,4 +1,4 @@
-#academic/chemistry #flashcards/academic/limestone
+#academic/chemistry #flashcards/academic/Ll/limestone
 
 %%
 ```Python

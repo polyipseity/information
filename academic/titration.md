@@ -2,7 +2,7 @@
 aliases: ['titration', 'titrimetric analysis', 'titrimetry', 'volumetric analysis',]
 ---
 
-#academic/chemistry #flashcards/academic/titration
+#academic/chemistry #flashcards/academic/Tt/titration
 
 %%
 ```Python

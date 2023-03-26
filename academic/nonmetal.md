@@ -2,7 +2,7 @@
 aliases: ['nonmetals',]
 ---
 
-#academic/chemistry #flashcards/academic/nonmetal
+#academic/chemistry #flashcards/academic/Nn/nonmetal
 
 # nonmetal
 

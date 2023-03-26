@@ -2,7 +2,7 @@
 aliases: ['rust', 'rusting',]
 ---
 
-#academic/chemistry #flashcards/academic/rust
+#academic/chemistry #flashcards/academic/Rr/rust
 
 %%
 ```Python

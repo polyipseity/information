@@ -2,7 +2,7 @@
 aliases: ['chemical', 'chemistry',]
 ---
 
-#academic/chemistry #flashcards/academic/chemistry
+#academic/chemistry #flashcards/academic/Cc/chemistry
 
 # chemistry
 

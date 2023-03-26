@@ -2,7 +2,7 @@
 aliases: ['electrolyte', 'electrolytes',]
 ---
 
-#academic/chemistry #flashcards/academic/electrolyte
+#academic/chemistry #flashcards/academic/Ee/electrolyte
 
 # electrolyte
 

@@ -2,7 +2,7 @@
 aliases: ['ZnO', 'zinc oxide',]
 ---
 
-#academic/chemistry #flashcards/academic/zinc_oxide
+#academic/chemistry #flashcards/academic/Zz/zinc_oxide
 
 # zinc oxide
 

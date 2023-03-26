@@ -2,7 +2,7 @@
 aliases: ['atoms',]
 ---
 
-#academic/chemistry #academic/physics #flashcards/academic/atom
+#academic/chemistry #academic/physics #flashcards/academic/Aa/atom
 
 # atom
 
