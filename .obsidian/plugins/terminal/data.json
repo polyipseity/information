@@ -11,7 +11,7 @@
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
-    "developerConsole": {
+    "ac11afc4-60d0-4127-8fe7-5b7fc06a81c7": {
       "name": "Developer console",
       "type": "developerConsole"
     },

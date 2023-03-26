@@ -58,6 +58,7 @@
   "mobilePullAction": "command-palette:open",
   "userIgnoreFilters": [
     "tools/",
-    "/__pycache__/"
+    "/__pycache__/",
+    "/attachments/.*$(?<!.md)/"
   ]
 }
