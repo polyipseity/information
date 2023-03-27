@@ -38,15 +38,15 @@ return await memorize_table(
 > |-|-|
 > | {{cooking utensils}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)}} |
 > | {{electric wires}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)}} |
-> | {{water pipes}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} |
+> | {{water pipes}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,260-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fa13"--><!-- The following content is generated at 2023-03-21T15:20:35.024707+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←cooking utensils
-2. cooking utensils→:::←electric wires
-3. electric wires→:::←water pipes
-4. water pipes→:::←_(end)_
+1. _(begin)_→:::←cooking utensils <!--SR:!2023-03-31,4,270!2023-03-31,4,270-->
+2. cooking utensils→:::←electric wires <!--SR:!2023-03-31,4,270!2023-03-31,4,280-->
+3. electric wires→:::←water pipes <!--SR:!2023-03-31,4,270!2023-03-31,4,270-->
+4. water pipes→:::←_(end)_ <!--SR:!2023-03-31,4,270!2023-03-31,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
