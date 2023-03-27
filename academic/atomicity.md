@@ -13,7 +13,7 @@ aliases: ['atomicity',]
 
 # atomicity
 
-__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}.
+__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2023-03-31,4,270-->
 
 ## classification
 
@@ -46,25 +46,25 @@ Molecules can be classified based on atomicity as:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="049e"--><!-- The following content is generated at 2023-03-20T15:05:46.974705+08:00. Any edits will be overridden! -->
 
-1. [monatomic](monoatomic%20molecule.md)::all [noble gases](noble%20gas.md), Ar ([argon](argon.md))
-2. [diatomic](diatomic%20molecule.md)::Cl<sub>2</sub> ([chlorine](chlorine.md)), H<sub>2</sub> ([hydrogen](hydrogen.md)), N<sub>2</sub> ([nitrogen](nitrogen.md)), O<sub>2</sub> ([oxygen](oxygen.md))
-3. [triatomic](triatomic%20molecule.md)::O<sub>3</sub> ([ozone](ozone.md))
-4. polyatomic::P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)), S<sub>8</sub> ([sulphur](sulphur.md))
+1. [monatomic](monoatomic%20molecule.md)::all [noble gases](noble%20gas.md), Ar ([argon](argon.md)) <!--SR:!2023-03-30,3,250-->
+2. [diatomic](diatomic%20molecule.md)::Cl<sub>2</sub> ([chlorine](chlorine.md)), H<sub>2</sub> ([hydrogen](hydrogen.md)), N<sub>2</sub> ([nitrogen](nitrogen.md)), O<sub>2</sub> ([oxygen](oxygen.md)) <!--SR:!2023-03-28,1,230-->
+3. [triatomic](triatomic%20molecule.md)::O<sub>3</sub> ([ozone](ozone.md)) <!--SR:!2023-03-30,3,250-->
+4. polyatomic::P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)), S<sub>8</sub> ([sulphur](sulphur.md)) <!--SR:!2023-03-28,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384d"--><!-- The following content is generated at 2023-03-20T15:05:46.986699+08:00. Any edits will be overridden! -->
 
-1. all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md)
-2. Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md)
-3. Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md)
-4. H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md)
-5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md)
-6. O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md)
-7. O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md)
-8. P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic
-9. S<sub>8</sub> ([sulphur](sulphur.md))::polyatomic
+1. all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+2. Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+3. Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+4. H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+6. O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+7. O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2023-03-31,4,270-->
+8. P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2023-03-31,4,270-->
+9. S<sub>8</sub> ([sulphur](sulphur.md))::polyatomic <!--SR:!2023-03-31,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}.
+Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}. <!--SR:!2023-03-28,1,230!2023-03-31,4,270-->
