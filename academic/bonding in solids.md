@@ -45,7 +45,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-03-30,3,250!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-28,1,230!2023-03-31,4,270-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-03-30,3,250!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-04-07,9,250!2023-03-31,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -81,7 +81,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-03-30,3,250!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-30,3,250!2023-03-28,1,230-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-03-30,3,250!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-30,3,250!2023-04-01,3,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -117,7 +117,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-03-28,1,230!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-04-07,9,250!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
