@@ -23,7 +23,7 @@ See also [Vim help files](https://vimhelp.org/).
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-05-10,78,313!2023-05-11,79,313-->
 - beginning of line:::0 <!--SR:!2023-05-09,77,310!2023-05-11,79,313-->
 - end of line:::$ <!--SR:!2023-05-08,76,313!2023-05-10,78,313-->
-- line \[N=(last)\]:::\[N\]G <!--SR:!2023-03-28,44,290!2023-05-12,80,313-->
+- line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2023-05-12,80,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2023-05-06,74,313!2023-05-08,76,313-->
 - matching character:::% <!--SR:!2023-07-23,118,273!2023-04-12,50,293-->
 
@@ -52,7 +52,7 @@ See also [Vim help files](https://vimhelp.org/).
 - highlight characters:::v <!--SR:!2023-04-07,50,308!2023-04-18,61,308-->
 - highlight lines:::V <!--SR:!2023-06-24,103,273!2023-03-31,43,288-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-05-30,76,253!2023-05-15,83,328-->
-- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-03-29,41,273!2023-04-01,44,288-->
+- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-04-01,44,288-->
 
 ## edit
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-05-14,82,327!2023-04-14,57,308-->
@@ -74,12 +74,12 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2023-05-05,73,313-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-03-28,35,268!2023-04-07,22,208-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-04-07,22,208-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-03,31,273!2023-05-07,75,313-->
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-04-13,41,293!2023-05-17,85,327-->
-- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-07,75,313!2023-03-29,45,288-->
+- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-07,75,313!2023-04-21,23,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-04-11,54,293!2023-05-12,80,313-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-05,73,313!2023-04-12,55,293-->
 
