@@ -13,11 +13,11 @@ aliases: ['alkali metal', 'alkali metals', 'lithium group',]
 
 # alkali metal
 
-The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2023-03-31,4,270!2023-03-31,4,270!2023-03-30,3,250!2023-04-07,9,250-->
+The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2023-03-31,4,270!2023-03-31,4,270!2023-04-09,10,250!2023-04-07,9,250-->
 
 ## representative reactions
 
-Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-03-30,3,250-->
+Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-04-09,10,250-->
 
 ### reaction with water
 
@@ -52,9 +52,9 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="938d"--><!-- The following content is generated at 2023-03-20T11:07:22.329762+08:00. Any edits will be overridden! -->
 
-1. [lithium](lithium.md)::floats, producing hydrogen gas steadily <!--SR:!2023-03-30,3,250-->
-2. [sodium](sodium.md)::melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly <!--SR:!2023-03-30,3,250-->
-3. [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignite <!--SR:!2023-03-30,3,250-->
+1. [lithium](lithium.md)::floats, producing hydrogen gas steadily <!--SR:!2023-04-08,9,250-->
+2. [sodium](sodium.md)::melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly <!--SR:!2023-04-08,9,250-->
+3. [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignite <!--SR:!2023-04-12,13,270-->
 4. [rubidium](rubidium.md)::explosive <!--SR:!2023-03-31,4,270-->
 5. [caesium](caesium.md)::explosive <!--SR:!2023-03-31,4,270-->
 6. [francium](francium.md)::unknown <!--SR:!2023-03-31,4,270-->
@@ -64,8 +64,8 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb89"--><!-- The following content is generated at 2023-03-20T11:07:22.329762+08:00. Any edits will be overridden! -->
 
 1. floats, producing hydrogen gas steadily::[lithium](lithium.md) <!--SR:!2023-03-31,4,270-->
-2. melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md) <!--SR:!2023-03-30,3,250-->
-3. melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignite::[potassium](potassium.md) <!--SR:!2023-03-30,3,250-->
+2. melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md) <!--SR:!2023-04-11,12,270-->
+3. melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignite::[potassium](potassium.md) <!--SR:!2023-04-10,11,270-->
 4. explosive::[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2023-04-01,3,230-->
 5. unknown::[francium](francium.md) <!--SR:!2023-03-31,4,270-->
 

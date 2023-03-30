@@ -19,7 +19,7 @@ See also [Vim help files](https://vimhelp.org/).
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-04-16,59,308-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
-- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-03-30,42,288-->
+- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-07-25,117,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-05-10,78,313!2023-05-11,79,313-->
 - beginning of line:::0 <!--SR:!2023-05-09,77,310!2023-05-11,79,313-->
 - end of line:::$ <!--SR:!2023-05-08,76,313!2023-05-10,78,313-->

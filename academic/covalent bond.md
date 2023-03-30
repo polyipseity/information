@@ -6,7 +6,7 @@ aliases: ['covalent bond', 'covalent bonding', 'covalent bonds', 'covalently bou
 
 # covalent bond
 
-__Covalent bonding__ is {{a type of [chemical bonding](chemical%20bond.md) involving the sharing of [electrons](electron.md) to form [electron pairs](electron%20pair.md) between [atoms](atom.md)}}. <!--SR:!2023-03-30,3,250-->
+__Covalent bonding__ is {{a type of [chemical bonding](chemical%20bond.md) involving the sharing of [electrons](electron.md) to form [electron pairs](electron%20pair.md) between [atoms](atom.md)}}. <!--SR:!2023-03-31,1,230-->
 
 ## see also
 

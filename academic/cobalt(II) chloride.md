@@ -2,7 +2,7 @@
 
 # cobalt(II) chloride
 
-__Cobalt(II) chloride__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Co](cobalt.md)[Cl<sub>2</sub>](chloride.md)}}. It forms {{[hydrates](hydrate.md) CoCl<sub>2</sub>·_n_<!---->[H<sub>2</sub>O](water.md), where n = 1, 2, 6, or 9}}. The [anhydrous](anhydrous.md) form is {{a blue crystalline [solid](solid.md)}}. <!--SR:!2023-03-31,4,270!2023-03-30,1,210!2023-04-01,3,230-->
+__Cobalt(II) chloride__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Co](cobalt.md)[Cl<sub>2</sub>](chloride.md)}}. It forms {{[hydrates](hydrate.md) CoCl<sub>2</sub>·_n_<!---->[H<sub>2</sub>O](water.md), where n = 1, 2, 6, or 9}}. The [anhydrous](anhydrous.md) form is {{a blue crystalline [solid](solid.md)}}. <!--SR:!2023-03-31,4,270!2023-03-31,1,190!2023-04-01,3,230-->
 
 ## moisture indicator
 

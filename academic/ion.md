@@ -13,7 +13,7 @@ aliases: ['anion', 'anions', 'cation', 'cations', 'ion', 'ions',]
 
 # ion
 
-An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2023-03-30,350,350!2026-07-20,1290,352!2027-05-12,1546,374-->
+An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2027-11-08,1684,370!2026-07-20,1290,352!2027-05-12,1546,374-->
 
 A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2026-03-02,1102,307!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
 

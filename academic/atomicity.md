@@ -46,9 +46,9 @@ Molecules can be classified based on atomicity as:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="049e"--><!-- The following content is generated at 2023-03-20T15:05:46.974705+08:00. Any edits will be overridden! -->
 
-1. [monatomic](monoatomic%20molecule.md)::all [noble gases](noble%20gas.md), Ar ([argon](argon.md)) <!--SR:!2023-03-30,3,250-->
+1. [monatomic](monoatomic%20molecule.md)::all [noble gases](noble%20gas.md), Ar ([argon](argon.md)) <!--SR:!2023-04-11,12,270-->
 2. [diatomic](diatomic%20molecule.md)::Cl<sub>2</sub> ([chlorine](chlorine.md)), H<sub>2</sub> ([hydrogen](hydrogen.md)), N<sub>2</sub> ([nitrogen](nitrogen.md)), O<sub>2</sub> ([oxygen](oxygen.md)) <!--SR:!2023-04-01,3,230-->
-3. [triatomic](triatomic%20molecule.md)::O<sub>3</sub> ([ozone](ozone.md)) <!--SR:!2023-03-30,3,250-->
+3. [triatomic](triatomic%20molecule.md)::O<sub>3</sub> ([ozone](ozone.md)) <!--SR:!2023-04-12,13,270-->
 4. polyatomic::P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)), S<sub>8</sub> ([sulphur](sulphur.md)) <!--SR:!2023-04-01,3,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
