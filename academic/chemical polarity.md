@@ -6,10 +6,10 @@ aliases: ['chemical polarities', 'chemical polarity', 'polar', 'polarities', 'po
 
 # chemical polarity
 
-In [chemistry](chemistry.md), __polarity__ is {{the separation of [electric charge](electric%20charge.md) such that a [molecule](molecule.md) has an [electric dipole moment](electric%20dipole%20moment.md)}}. <!--SR:!2023-03-30,3,250-->
+In [chemistry](chemistry.md), __polarity__ is {{the separation of [electric charge](electric%20charge.md) such that a [molecule](molecule.md) has an [electric dipole moment](electric%20dipole%20moment.md)}}. <!--SR:!2023-04-07,8,250-->
 
-Polar molecules contain {{[polar bonds](#bond%20polarity), created by differences in the [electronegativities](electronegativity.md) of the bonded [atoms](atom.md), that do not cancel out each other due to [molecular symmetry](molecular%20me)}}. <!--SR:!2023-03-30,3,250-->
+Polar molecules contain {{[polar bonds](#bond%20polarity), created by differences in the [electronegativities](electronegativity.md) of the bonded [atoms](atom.md), that do not cancel out each other due to [molecular symmetry](molecular%20me)}}. <!--SR:!2023-04-01,2,230-->
 
 ## bond polarity
 
-{{Differences in the [electronegativity](electronegativity.md) of the two [atoms](atom.md) in a [bond](chemical%20bond.md) leads to uneven sharing of [electrons](electron.md)}}, creating [partial charges](partial%20charge.md), {{which are denoted as δ+ ([delta](delta%20(letter).md) plus) and δ- (delta minus)}}. <!--SR:!2023-03-30,3,250!2023-03-31,4,270-->
+{{Differences in the [electronegativity](electronegativity.md) of the two [atoms](atom.md) in a [bond](chemical%20bond.md) leads to uneven sharing of [electrons](electron.md)}}, creating [partial charges](partial%20charge.md), {{which are denoted as δ+ ([delta](delta%20(letter).md) plus) and δ- (delta minus)}}. <!--SR:!2023-04-01,2,230!2023-03-31,4,270-->

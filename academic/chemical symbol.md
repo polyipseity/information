@@ -6,7 +6,7 @@ aliases: ['chemical symbols', 'element symbol', 'element symbols',]
 
 # chemical symbol
 
-__Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20substance.md)}}. __Element symbols__ are {{abbreviations for [chemical elements](chemical%20element.md) consisting of one or two letters from the [Latin alphabet](Latin%20alphabet.md) with the first letter capitalized}}. <!--SR:!2023-03-30,3,250!2023-03-30,3,250-->
+__Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20substance.md)}}. __Element symbols__ are {{abbreviations for [chemical elements](chemical%20element.md) consisting of one or two letters from the [Latin alphabet](Latin%20alphabet.md) with the first letter capitalized}}. <!--SR:!2023-04-12,13,270!2023-04-06,7,250-->
 
 ## extensions
 
@@ -17,4 +17,4 @@ __Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20su
 - {{The [mass number](mass%20number.md)}} is shown in {{the left superscript position}}. This specifies {{the [isotope](isotope.md)}}.
 - {{The [atomic number](atomic%20number.md)}} may be shown in {{the left subscript position}}.
 - {{The state of [ionization](ionization.md) or an [excited state](excited%20state.md)}} may be shown in {{the right superscript position}}.
-- {{The number of atoms}} may be shown in {{the right subscript position}}. It is implicitly {{one}} if omitted. <!--SR:!2023-03-30,3,250!2023-03-30,3,250!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270-->
+- {{The number of atoms}} may be shown in {{the right subscript position}}. It is implicitly {{one}} if omitted. <!--SR:!2023-04-07,8,250!2023-04-08,9,250!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270!2023-03-31,4,270-->

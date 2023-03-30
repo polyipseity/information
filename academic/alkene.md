@@ -21,7 +21,7 @@ Alkenes have similar [physical properties](physical%20property.md) to [alkanes](
 
 ## chemical properties
 
-Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}. <!--SR:!2023-03-30,3,250-->
+Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}. <!--SR:!2023-04-09,10,250-->
 
 ### combustion
 
@@ -52,7 +52,7 @@ return await memorize_table(
 > |-|-|
 > | {{[combustion](#combustion)}} |  |
 > | {{[dihydroxylation](dihydroxylation.md)}} |  |
-> | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  | <!--SR:!2023-03-30,3,250!2023-03-31,4,270!2023-03-31,4,270-->
+> | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  | <!--SR:!2023-04-10,11,270!2023-03-31,4,270!2023-03-31,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -60,7 +60,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-03-31,4,270!2023-03-31,4,270-->
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2023-03-31,4,270!2023-03-31,4,270-->
-3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-03-30,3,250!2023-03-31,4,270-->
+3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-04-08,9,250!2023-03-31,4,270-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←_(end)_ <!--SR:!2023-03-31,4,270!2023-03-31,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

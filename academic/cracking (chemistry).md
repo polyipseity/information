@@ -13,7 +13,7 @@ aliases: ['cracking',]
 
 # cracking
 
-__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2023-03-30,3,250!2023-03-31,4,270-->
+__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2023-04-06,7,250!2023-03-31,4,270-->
 
 It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. <!--SR:!2023-03-31,4,270-->
 
@@ -40,7 +40,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{catalytic cracking}} | {{Uses [catalysts](catalyst.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
-> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2023-03-31,4,270!2023-03-30,3,250!2023-03-31,4,270!2023-03-30,3,250-->
+> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2023-03-31,4,270!2023-04-08,9,250!2023-03-31,4,270!2023-04-10,11,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
