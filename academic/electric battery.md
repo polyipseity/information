@@ -35,7 +35,7 @@ return chain.from_iterable(await gather(
 		(
 			('[alkaline](alkaline%20battery.md)', '[Zn](zinc.md)', '[MnO<sub>2</sub>](manganese%20dioxide.md)', '[KOH](potassium%20hydroxide.md)', '1.15/1.5 V', html_ul2('high discharge rate', 'longer [shelf life](shelf%20life.md)', 'low [internal resistance](internal%20resistance.md)', 'slightly more expensive',), 'Usually cylindrical. Suitable for high-drain or continuous-use devices.',),
 			('[silver oxide](silver%20oxide%20battery.md)', '[Zn](zinc.md)', '[Ag<sub>2</sub>O](silver%20oxide.md)', '[KOH](potassium%20hydroxide.md)', '1.5/1.6 V', html_ul2('expensive', 'lightweight', 'small', 'wide operating temperature range',), 'Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.'),
-			('[zinc–carbon](zinc–carbon%20battery.md)', '[Zn](zinc.md)', '[C](carbon.md) ([graphite](graphite.md))', '[NH<sub>4</sub>Cl](ammonium%20chloride.md)', '1.2/1.5 V', html_ul2('cheap', 'low performance in high-drain or continuous-use devices', 'short [shelf life](shelf%20life.md)',), 'Usually cylindrical. Suitable for low-drain or intermittent-use devices.',),
+			('[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride', '[Zn](zinc.md)', '[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)', '[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)', '1.2/1.5 V', html_ul2('cheap', 'low performance in high-drain or continuous-use devices', 'short [shelf life](shelf%20life.md)',), 'Usually cylindrical. Suitable for low-drain or intermittent-use devices.',),
 		),
 		lambda datum: map(cloze, datum),
 	),
@@ -55,22 +55,22 @@ return chain.from_iterable(await gather(
 
 #### primary batteries
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d923"--><!-- The following content is generated at 2023-03-30T09:25:01.147226+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d923"--><!-- The following content is generated at 2023-03-30T18:11:29.694080+08:00. Any edits will be overridden! -->
 
 > | chemistry | [anode](anode.md) (-) | [cathode](cathode.md) (+) | [electrolyte](electrolyte.md) | nominal/max [voltage](voltage.md) | properties | elaboration |
 > |-|-|-|-|-|-|-|
 > | {{[alkaline](alkaline%20battery.md)}} | {{[Zn](zinc.md)}} | {{[MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{1.15/1.5 V}} | {{<ul><li>high discharge rate</li><li>longer [shelf life](shelf%20life.md)</li><li>low [internal resistance](internal%20resistance.md)</li><li>slightly more expensive</li></ul>}} | {{Usually cylindrical. Suitable for high-drain or continuous-use devices.}} |
 > | {{[silver oxide](silver%20oxide%20battery.md)}} | {{[Zn](zinc.md)}} | {{[Ag<sub>2</sub>O](silver%20oxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{1.5/1.6 V}} | {{<ul><li>expensive</li><li>lightweight</li><li>small</li><li>wide operating temperature range</li></ul>}} | {{Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.}} |
-> | {{[zinc–carbon](zinc–carbon%20battery.md)}} | {{[Zn](zinc.md)}} | {{[C](carbon.md) ([graphite](graphite.md))}} | {{[NH<sub>4</sub>Cl](ammonium%20chloride.md)}} | {{1.2/1.5 V}} | {{<ul><li>cheap</li><li>low performance in high-drain or continuous-use devices</li><li>short [shelf life](shelf%20life.md)</li></ul>}} | {{Usually cylindrical. Suitable for low-drain or intermittent-use devices.}} |
+> | {{[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride}} | {{[Zn](zinc.md)}} | {{[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)}} | {{1.2/1.5 V}} | {{<ul><li>cheap</li><li>low performance in high-drain or continuous-use devices</li><li>short [shelf life](shelf%20life.md)</li></ul>}} | {{Usually cylindrical. Suitable for low-drain or intermittent-use devices.}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-03-30T09:25:01.135258+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-03-30T18:11:29.706415+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[alkaline](alkaline%20battery.md)
 2. [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md)
-3. [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)
-4. [zinc–carbon](zinc–carbon%20battery.md)→:::←_(end)_
+3. [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride
+4. [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -2,7 +2,7 @@
 aliases: ['salt bridge', 'salt bridges',]
 ---
 
-#academic/chemistry #flashcards/academic/salt_bridge
+#academic/chemistry #flashcards/academic/Ss/salt_bridge
 
 # salt bridge
 
