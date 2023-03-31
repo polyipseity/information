@@ -10,8 +10,8 @@ __Relative atomic mass__ {{(symbol: ___A_<sub>r</sub>__; abbreviated __RAM__ or 
 
 ## other measures
 
-__Relative _isotopic_ mass__ is {{the _ratio_ of the [atomic mass](atomic%20mass.md) of the given [isotope](isotope.md) to the [dalton](dalton%20(unit).md)}}. It carries {{no unit}}. <!--SR:!2023-04-08,9,250!2023-03-31,4,270-->
+__Relative _isotopic_ mass__ is {{the _ratio_ of the [atomic mass](atomic%20mass.md) of the given [isotope](isotope.md) to the [dalton](dalton%20(unit).md)}}. It carries {{no unit}}. <!--SR:!2023-04-08,9,250!2023-04-15,15,290-->
 
 ## standard atomic weight
 
-__Standard atomic weight__ {{(_A_<sub>r, standard</sub>)}} is {{the relative atomic mass of a sample containing isotopes present in [natural abundances](natural%20abundance.md)}}. It carries {{no unit}}. <!--SR:!2023-03-31,4,270!2023-04-01,3,230!2023-03-31,4,270-->
+__Standard atomic weight__ {{(_A_<sub>r, standard</sub>)}} is {{the relative atomic mass of a sample containing isotopes present in [natural abundances](natural%20abundance.md)}}. It carries {{no unit}}. <!--SR:!2023-04-13,13,290!2023-04-01,3,230!2023-04-17,17,290-->

@@ -9,7 +9,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-04-17,60,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-04-16,59,308!2023-06-25,105,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-04-10,26,193!2023-03-31,43,288-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-04-10,26,193!2023-04-23,23,268-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-07-22,128,313!2023-05-15,83,328-->
@@ -50,7 +50,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2023-05-16,84,328-->
 - highlight characters:::v <!--SR:!2023-04-07,50,308!2023-04-18,61,308-->
-- highlight lines:::V <!--SR:!2023-06-24,103,273!2023-03-31,43,288-->
+- highlight lines:::V <!--SR:!2023-06-24,103,273!2023-04-22,22,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-05-30,76,253!2023-05-15,83,328-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-04-01,44,288-->
 
