@@ -38,7 +38,7 @@ return await memorize_seq(
 	(
 		'+: efficiency as high as 70%',
 		'+: operate continuously, producing a stable supply of [electricity](electricity.md)',
-		'+: products, which is [water](water.md), are clean',
+		'+: products, which consist of [water](water.md), are clean',
 		'-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult',
 		'-: expensive',
 	),
@@ -46,22 +46,22 @@ return await memorize_seq(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2023-03-30T19:40:23.567328+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2023-03-31T22:40:19.714614+08:00. Any edits will be overridden! -->
 
 > 1. +: efficiency as high as 70%
 > 2. +: operate continuously, producing a stable supply of [electricity](electricity.md)
-> 3. +: products, which is [water](water.md), are clean
+> 3. +: products, which consist of [water](water.md), are clean
 > 4. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult
 > 5. -: expensive
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-03-30T19:40:23.552799+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-03-31T22:40:19.698656+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-04-01,1,232!2023-04-03,3,252-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-04-03,3,252!2023-04-04,4,272-->
-3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which is [water](water.md), are clean <!--SR:!2023-04-03,3,250!2023-04-01,1,232-->
-4. +: products, which is [water](water.md), are clean→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
+3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-04-03,3,250!2023-04-01,1,232-->
+4. +: products, which consist of [water](water.md), are clean→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
 5. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←-: expensive <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
 6. -: expensive→:::←_(end)_ <!--SR:!2023-04-01,1,230!2023-04-03,3,252-->
 
@@ -78,26 +78,28 @@ return await memorize_seq(
 	(
 		'auxiliary heat and water source',
 		'backup power source',
-		'[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)'
+		'[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)',
 		'remote power source',
 	),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2023-03-30T19:40:23.601627+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2023-03-31T22:39:40.309569+08:00. Any edits will be overridden! -->
 
 > 1. auxiliary heat and water source
 > 2. backup power source
-> 3. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)remote power source
+> 3. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)
+> 4. remote power source
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-30T19:40:23.583322+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-04-03,3,250!2023-04-04,4,272-->
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-04-04,4,270!2023-04-04,4,272-->
-3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)remote power source <!--SR:!2023-04-03,3,252!2023-04-04,4,272-->
-4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)remote power source→:::←_(end)_ <!--SR:!2023-04-04,4,272!2023-04-04,4,272-->
+3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-04-03,3,252!2023-04-04,4,272-->
+4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-04-04,4,272!2023-04-04,4,272-->
+5. remote power source→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
