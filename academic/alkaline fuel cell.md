@@ -100,6 +100,6 @@ return await memorize_seq(
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-04-04,4,270!2023-04-04,4,272-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-04-03,3,252!2023-04-04,4,272-->
 4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-04-04,4,272!2023-04-04,4,272-->
-5. remote power source→:::←_(end)_
+5. remote power source→:::←_(end)_ <!--SR:!2023-04-04,4,275!2023-04-04,4,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
