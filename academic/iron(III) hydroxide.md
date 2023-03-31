@@ -12,4 +12,5 @@ __Iron(III) hydroxide__ is {{an [inorganic compound](inorganic%30compound.md) wi
 
 Treating {{iron(III) [salts](salt%30(chemistry).md) with a [base](base%30(chemistry).md) [precipitates](precipitate.md) out dirty green iron(III) hydroxide}}:
 
-> {{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}}
+> treating with [bases](base%20(chemistry).md)
+> - {{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}}
