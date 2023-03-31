@@ -13,7 +13,7 @@ aliases: ['air separation',]
 
 # air separation
 
-__Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{an air separation plant}}.
+__Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}.
 
 The most common method is [cryogenic distillation](#cryogenic%20distillation).
 
