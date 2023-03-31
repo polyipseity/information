@@ -10,11 +10,11 @@ aliases: ['chemical formula', 'chemical formulae', 'chemical formulas',]
 
 ### empirical formula
 
-Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2023-03-31,4,270-->
+Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2023-04-02,2,250-->
 
 ### molecular formula
 
-Molecular formulas {{show the number of each kind of [atom](atom.md) in a [molecule](molecule.md)}}. <!--SR:!2023-03-31,4,270-->
+Molecular formulas {{show the number of each kind of [atom](atom.md) in a [molecule](molecule.md)}}. <!--SR:!2023-04-13,13,270-->
 
 ### structural formula
 
@@ -28,4 +28,4 @@ Condensed formulas {{can represent simple structures in a line of text}}. [Multi
 
 - See: [skeletal formula](skeletal%20formula.md)
 
-Skeletal formulas {{can represent more complex [organic compounds](organic%20compound.md)}}. In a skeletal formula, {{[carbon](carbon.md) atoms are represented by [vertices](vertx%20(geometry).md) and [hydrogen](hydrogen.md) atoms attached to carbon atoms are omitted}}. <!--SR:!2023-03-31,4,270!2023-04-09,10,255-->
+Skeletal formulas {{can represent more complex [organic compounds](organic%20compound.md)}}. In a skeletal formula, {{[carbon](carbon.md) atoms are represented by [vertices](vertx%20(geometry).md) and [hydrogen](hydrogen.md) atoms attached to carbon atoms are omitted}}. <!--SR:!2023-04-13,13,270!2023-04-09,10,255-->
