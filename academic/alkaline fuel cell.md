@@ -39,31 +39,31 @@ return await memorize_seq(
 		'+: efficiency as high as 70%',
 		'+: operate continuously, producing a stable supply of [electricity](electricity.md)',
 		'+: products, which consist of [water](water.md), are clean',
-		'-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult',
 		'-: expensive',
+		'-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult',
 	),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2023-03-31T22:40:19.714614+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2023-04-01T12:33:20.447271+08:00. Any edits will be overridden! -->
 
 > 1. +: efficiency as high as 70%
 > 2. +: operate continuously, producing a stable supply of [electricity](electricity.md)
 > 3. +: products, which consist of [water](water.md), are clean
-> 4. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult
-> 5. -: expensive
+> 4. -: expensive
+> 5. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-03-31T22:40:19.698656+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-04-01T12:33:20.432311+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-04-04,3,252!2023-04-03,3,252-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-04-03,3,252!2023-04-04,4,272-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-04-03,3,250!2023-04-02,1,212-->
-4. +: products, which consist of [water](water.md), are clean→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
-5. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←-: expensive <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
-6. -: expensive→:::←_(end)_ <!--SR:!2023-04-02,1,210!2023-04-03,3,252-->
+4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
+5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-02,1,210!2023-04-03,3,252-->
+6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-04-03,3,252!2023-04-03,3,252-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

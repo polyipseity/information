@@ -21,7 +21,7 @@ return await memorize_seq(
 	(e.cwf_section('abcdef'), e.cwf_section('bd92ec'),),
 	(
 		'Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).',
-		'Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).',
+		'Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).',
 		'Heat the end of the wire in a hot, non-luminous flame.',
 		'Observe the color of the resulting flame.',
 	),
@@ -29,20 +29,20 @@ return await memorize_seq(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abcdef"--><!-- The following content is generated at 2023-03-16T21:49:58.705460+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abcdef"--><!-- The following content is generated at 2023-04-01T22:38:27.910087+08:00. Any edits will be overridden! -->
 
 > 1. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
-> 2. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).
+> 2. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).
 > 3. Heat the end of the wire in a hot, non-luminous flame.
 > 4. Observe the color of the resulting flame.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd92ec"--><!-- The following content is generated at 2023-03-16T21:49:58.732390+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd92ec"--><!-- The following content is generated at 2023-04-01T22:38:27.940006+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2023-04-04,3,250!2023-04-05,4,270-->
-2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)). <!--SR:!2023-04-04,3,250!2023-04-04,3,250-->
-3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md)).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-04-04,3,250!2023-04-04,3,250-->
+2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2023-04-04,3,250!2023-04-04,3,250-->
+3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-04-04,3,250!2023-04-04,3,250-->
 4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-04-05,4,270!2023-04-04,3,250-->
 5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
 
@@ -61,7 +61,7 @@ return await memorize_map(
 		'[copper](copper.md)(I)': ('bluish-green',),
 		'[copper](copper.md)(II)': ('green (non-halide)', 'blue-green (halide)',),
 		'[iron](iron.md)(II)': ('blue (very hot)', 'gold', 'green to orange-brown', 'sparks'),
-		'[iron](iron.md)(III)': ('ornage-brown',),
+		'[iron](iron.md)(III)': ('orange-brown',),
 		'[magnesium](magnesium.md)': ('intense white',),
 		'[potassium](potassium.md)': ('lilac', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
 		'[sodium](sodium.md)': ('intense yellow', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
@@ -70,13 +70,13 @@ return await memorize_map(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-03-22T01:58:28.608373+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-04-01T22:38:27.964940+08:00. Any edits will be overridden! -->
 
 > 1. [calcium](calcium.md): brick red, light green (through blue [glass](glass.md))
 > 2. [copper](copper.md)(I): bluish-green
 > 3. [copper](copper.md)(II): green (non-halide), blue-green (halide)
 > 4. [iron](iron.md)(II): blue (very hot), gold, green to orange-brown, sparks
-> 5. [iron](iron.md)(III): ornage-brown
+> 5. [iron](iron.md)(III): orange-brown
 > 6. [magnesium](magnesium.md): intense white
 > 7. [potassium](potassium.md): lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
 > 8. [sodium](sodium.md): intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
@@ -85,13 +85,13 @@ return await memorize_map(
 
 ### name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-03-22T01:58:28.594411+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-04-01T22:38:27.978902+08:00. Any edits will be overridden! -->
 
 1. [calcium](calcium.md)::brick red, light green (through blue [glass](glass.md)) <!--SR:!2023-04-04,3,250-->
 2. [copper](copper.md)(I)::bluish-green <!--SR:!2023-04-04,3,250-->
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2023-04-04,3,250-->
 4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-04-04,3,250-->
-5. [iron](iron.md)(III)::ornage-brown <!--SR:!2023-04-04,3,250-->
+5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-04-04,3,250-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-04-05,4,270-->
 7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-04-04,3,250-->
 8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-04-04,3,250-->
@@ -100,7 +100,7 @@ return await memorize_map(
 
 ### color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-03-22T01:58:28.578453+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-04-01T22:38:27.995858+08:00. Any edits will be overridden! -->
 
 1. brick red::[calcium](calcium.md) <!--SR:!2023-04-05,4,270-->
 2. light green (through blue [glass](glass.md))::[calcium](calcium.md) <!--SR:!2023-04-04,3,250-->
@@ -111,7 +111,7 @@ return await memorize_map(
 7. gold::[iron](iron.md)(II) <!--SR:!2023-04-04,3,250-->
 8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-04-04,3,250-->
 9. sparks::[iron](iron.md)(II) <!--SR:!2023-04-04,3,250-->
-10. ornage-brown::[iron](iron.md)(III) <!--SR:!2023-04-04,3,250-->
+10. orange-brown::[iron](iron.md)(III) <!--SR:!2023-04-04,3,250-->
 11. intense white::[magnesium](magnesium.md) <!--SR:!2023-04-04,3,250-->
 12. lilac::[potassium](potassium.md) <!--SR:!2023-04-05,4,270-->
 13. invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2023-04-04,3,250-->
