@@ -13,7 +13,7 @@ aliases: ['free radical halogenation',]
 
 # free-radical halogenation
 
-__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}.
+__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2023-04-04,3,259-->
 
 ## general mechanism
 
@@ -42,10 +42,10 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda0"--><!-- The following content is generated at 2023-03-25T13:43:14.295187+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)
-2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md)
-3. [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md)
-4. [termination](chain%20termination.md)→:::←_(end)_
+1. _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2023-04-05,4,277!2023-04-05,4,279-->
+2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2023-04-05,4,279!2023-04-04,3,259-->
+3. [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2023-04-05,4,277!2023-04-05,4,279-->
+4. [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2023-04-05,4,279!2023-04-05,4,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
