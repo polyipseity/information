@@ -6,9 +6,9 @@ aliases: ['corrosion',]
 
 # corrosion
 
-__Corrosion__ is {{a type of [erosion](erosion.md) that deteriorates [materials](material.md) by [chemical reaction](chemical%20reaction.md) with their environment}}. <!--SR:!2023-04-01,2,230-->
+__Corrosion__ is {{a type of [erosion](erosion.md) that deteriorates [materials](material.md) by [chemical reaction](chemical%20reaction.md) with their environment}}. <!--SR:!2023-04-06,5,230-->
 
-It most commonly refers to {{the [electrochemical](electrochemistry.md) [oxidation](oxidation.md) of [metal](metal.md) by an [oxidizing agent](oxidizing%20agent.md) like [oxygen](oxygen.md), [hydrogen](hydrogen.md), or [hydroxide](hydroxide.md)}}. {{[Rusting](rust.md)}} is an well-known example of this. <!--SR:!2023-04-01,2,230!2023-04-14,14,290-->
+It most commonly refers to {{the [electrochemical](electrochemistry.md) [oxidation](oxidation.md) of [metal](metal.md) by an [oxidizing agent](oxidizing%20agent.md) like [oxygen](oxygen.md), [hydrogen](hydrogen.md), or [hydroxide](hydroxide.md)}}. {{[Rusting](rust.md)}} is an well-known example of this. <!--SR:!2023-04-07,6,230!2023-04-14,14,290-->
 
 ## resistance
 
@@ -16,7 +16,7 @@ It most commonly refers to {{the [electrochemical](electrochemistry.md) [oxidati
 
 - See also: [passivation (chemistry)](passivation%20(chemistry).md)
 
-Passivation involves {{the formation of an ultrathin corrosion products on the surface that prevents further [oxidization](oxidization.md)}}. It can be found in {{[aluminium](aluminium.md), [stainless steel](stainless%20steel.md), etc.}}. <!--SR:!2023-04-01,2,235!2023-04-07,9,255-->
+Passivation involves {{the formation of an ultrathin corrosion products on the surface that prevents further [oxidization](oxidization.md)}}. It can be found in {{[aluminium](aluminium.md), [stainless steel](stainless%20steel.md), etc.}}. <!--SR:!2023-04-02,1,215!2023-04-07,9,255-->
 
 The layer can be thicken via {{[anodization](#anodization)}}. <!--SR:!2023-04-16,16,290-->
 

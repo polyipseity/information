@@ -2,7 +2,7 @@
 
 # distillation
 
-__Distillation__ is {{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}}. <!--SR:!2023-04-01,1,230-->
+__Distillation__ is {{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}}. <!--SR:!2023-04-03,2,230-->
 
 The distilled product is the {{_distillate_}}, while the left behind product is the {{_residue_}}. <!--SR:!2023-04-04,4,270!2023-04-04,4,270-->
 
@@ -10,7 +10,7 @@ The distilled product is the {{_distillate_}}, while the left behind product is 
 
 ### simple distillation
 
-In simple distillation, {{the vapor is immediately passed into a [condenser](condenser.md)}}. <!--SR:!2023-04-01,1,230-->
+In simple distillation, {{the vapor is immediately passed into a [condenser](condenser.md)}}. <!--SR:!2023-04-03,2,230-->
 
 > {{![Simple distillation setup](../attachments/Simple%20distillation%20apparatus.svg)}}
 >
@@ -31,7 +31,7 @@ In simple distillation, {{the vapor is immediately passed into a [condenser](con
 > 13. stirrer and heat plate
 > 14. [heated bath](heated%20bath.md)  
 > 15. stirrer bar, [anti-bumping granule](boiling%20chip.md)
-> 16. [cooling bath](cooling%20bath.md) <!--SR:!2023-04-01,1,230-->
+> 16. [cooling bath](cooling%20bath.md) <!--SR:!2023-04-03,2,230-->
 
 ### fractional distillation
 

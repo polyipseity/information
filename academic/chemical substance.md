@@ -6,7 +6,7 @@ aliases: ['chemical substances', 'chemical', 'pure substance', 'substance', 'sub
 
 # chemical substance
 
-A __chemical substance__ is {{a matter with characteristic properties and constant [chemical composition](chemical%20composition.md)}}. It can either be {{a [chemical element](#chemical%20element) or a [chemical compound](#chemical%20compound)}}.<sup>[1](#^note-1)</sup> It is pure, {{while impure ones are [mixtures](mixture.md)}}. <!--SR:!2023-04-01,2,210!2023-04-07,9,250!2023-04-17,17,290-->
+A __chemical substance__ is {{a matter with characteristic properties and constant [chemical composition](chemical%20composition.md)}}. It can either be {{a [chemical element](#chemical%20element) or a [chemical compound](#chemical%20compound)}}.<sup>[1](#^note-1)</sup> It is pure, {{while impure ones are [mixtures](mixture.md)}}. <!--SR:!2023-04-05,4,210!2023-04-07,9,250!2023-04-17,17,290-->
 
 ## properties
 

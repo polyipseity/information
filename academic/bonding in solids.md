@@ -17,7 +17,7 @@ aliases: ['bonding in solids', 'bondings in solids',]
 
 ### molecular solid
 
-A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-04-01,2,230!2023-04-15,15,290-->
+A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-04-02,1,210!2023-04-15,15,290-->
 
 #### properties
 
@@ -81,7 +81,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-04-09,10,250!2023-04-14,14,290!2023-04-13,13,270!2023-04-13,13,270!2023-04-13,13,270!2023-04-17,17,290!2023-04-10,11,270!2023-04-01,3,230-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-04-09,10,250!2023-04-14,14,290!2023-04-13,13,270!2023-04-13,13,270!2023-04-13,13,270!2023-04-17,17,290!2023-04-10,11,270!2023-04-10,9,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
