@@ -14,7 +14,7 @@ Common aqueous acids include {{[hydrochloric acid](hydrochloric%20acid) (HCl), [
 
 ## nomenclature
 
-[Arrhenius acids](#Arrhenius%20acids) are named {{according to their [anions](ion.md)}}. In the classical naming system, {{the anion is affixed as if it were an [cation](ion.md) and then appended _acid_}}. If the anion is a simple ion, {{the anion is prefixed with _hydro-_ and suffixed with _-ic acid_}}. <!--SR:!2023-04-12,13,270!2023-04-08,9,250!2023-04-01,3,230-->
+[Arrhenius acids](#Arrhenius%20acids) are named {{according to their [anions](ion.md)}}. In the classical naming system, {{the anion is affixed as if it were an [cation](ion.md) and then appended _acid_}}. If the anion is a simple ion, {{the anion is prefixed with _hydro-_ and suffixed with _-ic acid_}}. <!--SR:!2023-04-12,13,270!2023-04-08,9,250!2023-04-10,9,230-->
 
 In the [IUPAC](International%20Union%20of%20Pure%20and%20Applied%20Chemistry.md) naming system, {{_aqueous_ is added before the name of the [ionic compound](ionic%20compound.md)}}. <!--SR:!2023-04-09,10,250-->
 
