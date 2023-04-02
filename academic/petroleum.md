@@ -33,7 +33,7 @@ return await memorize_table(
 	(
 		('[liqueified petroleum gas](liqueified%20petroleum%20gas.md)', '-40 to -1 °C', '[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md)',),
 		('[butane](butane.md)', '-12 to -1 °C', '',),
-		('[gasoline/petrol](gasoline.md)', '-1 to 110 °C', 'fuel for [motor%20vehicles](motor%20vehicle.md)',),
+		('[gasoline/petrol](gasoline.md)', '-1 to 110 °C', 'fuel for [motor vehicles](motor%20vehicle.md)',),
 		('[naphtha](naphtha.md)', '30 to 200 °C', 'production of [plastics](plastic.md) and [town gas](coal%20gas.md)',),
 		('[jet fuel](jet%20fuel.md)', '150 to 205 °C', 'fuel for [aeroplanes](airplane.md)',),
 		('[kerosene](kerosene.md)', '205 to 260 °C', 'fuel for domestic use',),
