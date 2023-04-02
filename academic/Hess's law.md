@@ -2,7 +2,7 @@
 aliases: ["Hess's Law", "Hess's law", "Hess's law of constant heat summation",]
 ---
 
-#academic/chemistry #flashcards/academic/Hess_s_law
+#academic/chemistry #flashcards/academic/Hh/Hess_s_law
 
 # Hess's law
 
