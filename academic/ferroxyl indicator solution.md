@@ -6,4 +6,4 @@ aliases: ['ferroxyl indicator', 'ferroxyl indicator solution', 'ferroxyl indicat
 
 # ferroxyl indicator solution
 
-__Ferroxyl indicator solution__ {{consists of [potassium hexacyanoferrate(III)](potassium%20ferricyanide.md) and [phenolphthalein](phenolphthalein.md)}}. The former turns {{blue in the presence of [iron](iron.md)(II) ions}}. The latter turns {{pink in the presence of [hydroxide ions](hydroxide.md)}}. <!--SR:!2023-04-02,1,230!2023-04-04,3,250!2023-04-05,4,270-->
+__Ferroxyl indicator solution__ {{consists of [potassium hexacyanoferrate(III)](potassium%20ferricyanide.md) and [phenolphthalein](phenolphthalein.md)}}. The former turns {{blue in the presence of [iron](iron.md)(II) ions}}. The latter turns {{pink in the presence of [hydroxide ions](hydroxide.md)}}. <!--SR:!2023-04-03,1,210!2023-04-04,3,250!2023-04-05,4,270-->

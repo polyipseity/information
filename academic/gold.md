@@ -34,7 +34,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} | <!--SR:!2023-04-05,4,270!2023-04-02,1,230-->
+> | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} | <!--SR:!2023-04-05,4,270!2023-04-05,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
