@@ -44,19 +44,19 @@ return await memorize_table(
 > | {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}} |
 > | {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}} |
 > | {{[metallic character](#metallic%20character)}} | {{increases}} | {{decreases}} |
-> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} |
+> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} | <!--SR:!2023-04-05,3,250!2023-04-05,3,250!2023-04-06,4,270!2023-04-05,3,250!2023-04-06,4,270!2023-04-03,1,230!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-03,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029e"--><!-- The following content is generated at 2023-03-20T09:46:27.605210+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[atomic radius](#atomic%20radius)
-2. [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity)
-3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity)
-4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy)
-5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character)
-6. [metallic character](#metallic%20character)→:::←[valence](#valence)
-7. [valence](#valence)→:::←_(end)_
+1. _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2023-04-05,3,250!2023-04-06,4,270-->
+2. [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-04-05,3,250!2023-04-06,4,270-->
+5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2023-04-05,3,250!2023-04-06,4,270-->
+6. [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+7. [valence](#valence)→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
