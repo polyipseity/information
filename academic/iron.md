@@ -34,13 +34,13 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{constructions, car and ship bodies}} | {{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} |
+> | {{constructions, car and ship bodies}} | {{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-04-05,3,250!2023-04-03,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c03"--><!-- The following content is generated at 2023-03-21T16:20:25.358097+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←constructions, car and ship bodies
-2. constructions, car and ship bodies→:::←_(end)_
+1. _(begin)_→:::←constructions, car and ship bodies <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+2. constructions, car and ship bodies→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

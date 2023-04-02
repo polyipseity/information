@@ -6,7 +6,7 @@ aliases: ['mixtures',]
 
 # mixture
 
-A __mixture__ is {{a matter made up of multiple [chemical substances](chemical%20substance.md) which are not chemically bonded}}. It is impure.
+A __mixture__ is {{a matter made up of multiple [chemical substances](chemical%20substance.md) which are not chemically bonded}}. It is impure. <!--SR:!2023-04-05,3,250-->
 
 ## properties
 
@@ -16,16 +16,16 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 - formation: {{no [chemical reactions](chemical%20reaction.md), no to little energy change ([enthalpy of mixing](enthalpy%20of%20mixing.md))}}
 - properties: {{each constituent keep their properties}}
 - separation: {{separable by physical and chemical methods}}
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{wide}}
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{wide}} <!--SR:!2023-04-03,1,230!2023-04-03,1,230!2023-04-05,3,250!2023-04-06,4,270!2023-04-06,4,270-->
 
 ## uniformity
 
-A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}.
+A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-04-06,4,270-->
 
 ### homogeneous mixture
 
-A homogeneous mixture has {{uniformly distributed constituents}}.
+A homogeneous mixture has {{uniformly distributed constituents}}. <!--SR:!2023-04-05,3,250-->
 
 ### heterogeneous mixture
 
-A heterogeneous mixture has {{clearly separated constituents}}.
+A heterogeneous mixture has {{clearly separated constituents}}. <!--SR:!2023-04-03,1,230-->

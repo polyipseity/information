@@ -310,11 +310,11 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-03-26T02:15:41.895087+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, chromium(III) ion
-2. <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>::copper(II) ion
-3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion
-4. <span style="color: pink;">pink</span>::cobalt(II) ion
-5. <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, chromium(III) ion <!--SR:!2023-04-05,3,301-->
+2. <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>::copper(II) ion <!--SR:!2023-04-05,3,301-->
+3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-05,3,301-->
+4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-05,3,301-->
+5. <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-06,4,321-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -436,8 +436,8 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-03-26T02:15:41.882122+08:00. Any edits will be overridden! -->
 
-1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion
-2. <span style="color: yellow;">yellow</span>::chromate ion
-3. <span style="color: orange;">orange</span>::dichromate ion
+1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-04-06,4,321-->
+2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-04-06,4,321-->
+3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-04-06,4,321-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

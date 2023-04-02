@@ -10,10 +10,10 @@ aliases: ['ice 1h', 'ice Ih']
 >
 > [Crystal structure](crystal%20structure.md) of ice I<sub>h</sub>.
 
-__Ice I<sub>h</sub>__ is {{the hexagonal [crystal](crystal.md) of [ice](ice.md)}}, which is the most common on [Earth](Earth.md).
+__Ice I<sub>h</sub>__ is {{the hexagonal [crystal](crystal.md) of [ice](ice.md)}}, which is the most common on [Earth](Earth.md). <!--SR:!2023-04-05,3,250-->
 
-It is charaterized by {{the [hexagonal arrangement](hexagonal%20crystal%20family.md) of [oxygen](oxygen.md) atoms and [tetrahedral](tetrahedron.md) bond angles}}.
+It is charaterized by {{the [hexagonal arrangement](hexagonal%20crystal%20family.md) of [oxygen](oxygen.md) atoms and [tetrahedral](tetrahedron.md) bond angles}}. <!--SR:!2023-04-05,3,250-->
 
 ## physical properties
 
-Ice I<sub>h</sub> has {{lower [density](density.md) than [water](water.md) due to [hydrogen bonds](hydrogen%20bond.md) that make the [molecules](molecule.md) closer in the [liquid](liquid.md) phase}}.
+Ice I<sub>h</sub> has {{lower [density](density.md) than [water](water.md) due to [hydrogen bonds](hydrogen%20bond.md) that make the [molecules](molecule.md) closer in the [liquid](liquid.md) phase}}. <!--SR:!2023-04-05,3,250-->
