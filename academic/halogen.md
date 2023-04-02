@@ -13,7 +13,7 @@ aliases: ['fluorine group', 'halogen', 'halogens', 'group 17', 'group VIIA', 'gr
 
 # halogen
 
-The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The alkaline earth metals are {{all colored, increasing dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-05,3,250!2023-04-03,1,230-->
+The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The alkaline earth metals are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-05,3,250!2023-04-03,1,230-->
 
 ## representative reactions
 
