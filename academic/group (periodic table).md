@@ -13,7 +13,7 @@ aliases: ['group', 'groups',]
 
 # group
 
-A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}}. The elements have {{the same number of occupied [electron shells](electron%20shell.md)}}. <!--SR:!2023-04-05,4,270!2023-04-05,3,250-->
+A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}}. The elements have {{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}}. <!--SR:!2023-04-05,4,270!2023-04-05,3,250-->
 
 ## list
 
