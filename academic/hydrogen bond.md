@@ -8,7 +8,7 @@ aliases: ['H-bond', 'H-bonding', 'H-bonds', 'hydrogen bond', 'hydrogen bonding',
 
 A __hydrogen bond__ or __H-bond__ is {{an [electrostatic](electrostatics.md) attraction [force](force.md) between a [hydrogen](hydrogen.md) atom (H) [covalently bound](covalent%20bond.md) to a more [electronegative](electronegativity.md) donor [atom](atom.md) or group (Dn), and another electronegative acceptor atom with a [lone electron pair](lone%20pair.md) (Ac)}}. It is represented as {{Dn−H···Ac}}. The donor and acceptor atoms are usually {{[fluorine](fluorine.md), [oxygen](oxygen.md), or [nitrogen](nitrogen.md)}}. <!--SR:!2023-04-05,3,250!2023-04-06,4,270!2023-04-06,4,270-->
 
-The hydrogen bond is important in {{[DNAs](DNA.md) to maintain their double helixs and [water](water.md) for their exceptional [properties](property.md)}}. <!--SR:!2023-04-05,3,250-->
+The hydrogen bond is important in {{[DNAs](DNA.md) to maintain their double helixes and [water](water.md) for their exceptional [properties](property.md)}}. <!--SR:!2023-04-05,3,250-->
 
 ## examples
 
