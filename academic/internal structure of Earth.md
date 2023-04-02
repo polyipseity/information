@@ -36,17 +36,17 @@ return await memorize_table(
 > | {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}} |
 > | {{[mantle](mantle.md)}} | {{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}} |
 > | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
-> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} |
+> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-05,3,250!2023-04-06,4,270!2023-04-05,3,250!2023-04-06,4,270!2023-04-05,3,250!2023-04-06,4,270!2023-04-05,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2023-03-15T18:37:52.425447+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md)
-2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md)
-3. [crust](crust.md)→:::←[mantle](mantle.md)
-4. [mantle](mantle.md)→:::←[outer core](outer%20core.md)
-5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md)
-6. [inner core](inner%20core.md)→:::←_(end)_
+1. _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+4. [mantle](mantle.md)→:::←[outer core](outer%20core.md) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+6. [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
