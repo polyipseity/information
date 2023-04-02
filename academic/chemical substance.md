@@ -20,7 +20,7 @@ Compare with [mixture § properties](mixture.md#properties).
 
 ## chemical element
 
-An element cannot be {{broken down or transformed by chemical methods}}. <!--SR:!2023-04-02,2,250-->
+An element cannot be {{broken down or transformed by chemical methods}}. <!--SR:!2023-04-11,9,270-->
 
 ## chemical compound
 

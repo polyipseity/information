@@ -17,7 +17,7 @@ aliases: ['bonding in solids', 'bondings in solids',]
 
 ### molecular solid
 
-A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-04-02,1,210!2023-04-15,15,290-->
+A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-04-04,2,210!2023-04-15,15,290-->
 
 #### properties
 
@@ -87,7 +87,7 @@ return await memorize_table(
 
 ### ionic solid
 
-A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-04-02,3,250-->
+A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-04-12,10,250-->
 
 #### properties
 
