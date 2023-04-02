@@ -8,7 +8,7 @@ aliases: ['acidity', 'pH', 'pOH',]
 
 __pH__ is {{a scale of the [acidity](acid.md) or [basicity](base%20(chemistry).md) of an [aqueous solution](aqueous%20solution.md)}}. Lower pH means {{acidic, and high pH means basic or [alkaline](alkali.md)}}.
 
-It is defined as {{the negative [logarithm](logarithmic%20scale.md) of the [activity](thermodynamic%20activity.md) of [hydrogen ion](hydrogen%20ion.md) in the [solution](solution%20(chemistry).md), which is approximately the [[concentration](concentration.md) of it]}}:
+It is defined as {{the negative [logarithm](logarithmic%20scale.md) of the [activity](thermodynamic%20activity.md) of [hydrogen ion](hydrogen%20ion.md) in the [solution](solution%20(chemistry).md), which is approximately the [concentration](concentration.md) of it}}:
 
 > {{$\text{pH}=-\log\left(a_{\text{H}^+}\right)\approx-\log\left(\left[\text{H}^+\text{(aq)}\right]\right)$
 >
