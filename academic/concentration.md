@@ -1,3 +1,9 @@
+---
+aliases:
+- concentration
+- concentrations
+---
+
 #academic/chemistry #flashcards/academic/Cc/concentration
 
 # concentration

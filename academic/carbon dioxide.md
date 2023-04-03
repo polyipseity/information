@@ -1,5 +1,5 @@
 ---
-aliases: ['CO2',]
+aliases: ['CO2', 'CO<sub>2</sub>', 'carbon dioxide',]
 ---
 
 #academic/chemistry #flashcards/academic/Cc/carbon_dioxide

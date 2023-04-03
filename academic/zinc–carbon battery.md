@@ -1,5 +1,5 @@
 ---
-aliases: ['zinc–carbon battery',]
+aliases: ['zinc–carbon batteries', 'zinc–carbon battery',]
 ---
 
 #academic/chemistry #flashcards/academic/Zz/zinc-carbon_battery
