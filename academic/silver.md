@@ -36,14 +36,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} |
-> | {{electrical and electronic components}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}} |
+> | {{electrical and electronic components}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}} | <!--SR:!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba04"--><!-- The following content is generated at 2023-03-21T16:20:25.412341+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←coins, jewellery
-2. coins, jewellery→:::←electrical and electronic components
-3. electrical and electronic components→:::←_(end)_
+1. _(begin)_→:::←coins, jewellery <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+2. coins, jewellery→:::←electrical and electronic components <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+3. electrical and electronic components→:::←_(end)_ <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

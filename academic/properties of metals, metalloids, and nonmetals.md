@@ -48,19 +48,19 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{<ul><li>good to high</li></ul>}} | {{<ul><li>intermediate to good</li></ul>}} | {{<ul><li>poor to good</li></ul>}} |
 > | {{form}} | {{<ul><li>almost all [solid](solid.md)</li><li>[liquid](liquid.md): [Cs](caesium.md), [Fr](francium.md), [Ga](gallium.md), [Hg](mercury%20(element).md), [Rb](rubidium.md)</li></ul>}} | {{<ul><li>all [solid](solid.md)</li></ul>}} | {{<ul><li>mostly [gas](gas.md)</li><li>[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)</li><li>[liquid](liquid.md): [Br](bromine.md)</li></ul>}} |
 > | {{[melting point](melting%20point.md)}} | {{<ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>}} | {{<ul><li>mostly high</li></ul>}} | {{<ul><li>mostly low</li></ul>}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} |
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} | <!--SR:!2023-04-07,4,270!2023-04-04,1,230!2023-04-04,1,230!2023-04-07,4,270!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250!2023-04-04,1,230!2023-04-07,4,270!2023-04-06,3,250!2023-04-06,3,250!2023-04-04,1,230!2023-04-07,4,270!2023-04-06,3,250!2023-04-04,1,230!2023-04-06,3,250!2023-04-07,4,270!2023-04-04,1,230!2023-04-04,1,230!2023-04-04,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2023-03-19T22:23:17.214515+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←appearance
-2. appearance→:::←deformability (as a solid)
-3. deformability (as a solid)→:::←[density](density.md)
-4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md)
-5. [electrical conductivity](electrical%20conductivity.md)→:::←form
-6. form→:::←[melting point](melting%20point.md)
-7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md)
-8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
+1. _(begin)_→:::←appearance <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+2. appearance→:::←deformability (as a solid) <!--SR:!2023-04-04,1,230!2023-04-04,1,230-->
+3. deformability (as a solid)→:::←[density](density.md) <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
+4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+6. form→:::←[melting point](melting%20point.md) <!--SR:!2023-04-06,3,250!2023-04-04,1,230-->
+7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2023-04-07,4,270!2023-04-06,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
