@@ -87,7 +87,7 @@ data = (
 	Redox('Fe', 'Fe<sup>3+</sup>(aq) + e<sup>-</sup>', 'Fe<sup>2+</sup>(aq)', Decimal('0.77'), 1),
 	Redox('Ag', 'Ag<sup>+</sup>(aq) + e<sup>-</sup>', 'Ag(s)', Decimal('0.7996'), 1),
 	Redox('N', 'NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup>', 'NO<sub>2</sub>(g) + H<sub>2</sub>O(l)', Decimal('0.8'), 1, '[HNO<sub>3</sub>](nitric%20acid.md)(aq, conc)'),
-	Redox('N', 'NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup>', 'NO(g) + 2H<sub>2</sub>O(l)', Decimal('0.958'), 3, 'dilute [nitric acid](nitric%20acid.md)'),
+	Redox('N', 'NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup>', 'NO(g) + 2H<sub>2</sub>O(l)', Decimal('0.958'), 3, '[HNO<sub>3</sub>](nitric%20acid.md)(aq, dilu)'),
 	Redox('Br', 'Br<sub>2</sub>(aq) + 2e<sup>-</sup>', '2Br<sup>-</sup>(aq)', Decimal('1.0873'), 2),
 	Redox('I', '2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup>', 'I<sub>2</sub>(s) + 6H<sub>2</sub>O(l)', Decimal('1.2'), 10),
 	Redox('O', 'O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup>', '2H<sub>2</sub>O(l)', Decimal('1.229'), 4, acidic_soln),
@@ -144,7 +144,7 @@ return (
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2023-03-30T17:27:25.067763+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2023-04-03T18:30:21.791845+08:00. Any edits will be overridden! -->
 
 >
 > (lowest oxidizing power/highest reducing power)
@@ -181,7 +181,7 @@ return (
 > | Fe | Fe<sup>3+</sup>(aq) + e<sup>-</sup> | ⇌ | Fe<sup>2+</sup>(aq) | 0.77 | 1 |  |
 > | Ag | Ag<sup>+</sup>(aq) + e<sup>-</sup> | ⇌ | Ag(s) | 0.7996 | 1 |  |
 > | N | NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> | ⇌ | NO<sub>2</sub>(g) + H<sub>2</sub>O(l) | 0.8 | 1 | {{[HNO<sub>3</sub>](nitric%20acid.md)(aq, conc)}} |
-> | N | NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> | ⇌ | NO(g) + 2H<sub>2</sub>O(l) | 0.958 | 3 | {{dilute [nitric acid](nitric%20acid.md)}} |
+> | N | NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> | ⇌ | NO(g) + 2H<sub>2</sub>O(l) | 0.958 | 3 | {{[HNO<sub>3</sub>](nitric%20acid.md)(aq, dilu)}} |
 > | Br | Br<sub>2</sub>(aq) + 2e<sup>-</sup> | ⇌ | 2Br<sup>-</sup>(aq) | 1.0873 | 2 |  |
 > | I | 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> | ⇌ | I<sub>2</sub>(s) + 6H<sub>2</sub>O(l) | 1.2 | 10 |  |
 > | O | O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> | ⇌ | 2H<sub>2</sub>O(l) | 1.229 | 4 | {{neutral/[acidic](acid.md) [solution](solution%20(chemistry).md)}} |
