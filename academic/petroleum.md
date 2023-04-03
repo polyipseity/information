@@ -33,7 +33,7 @@ return await memorize_table(
 	(
 		('[liqueified petroleum gas](liqueified%20petroleum%20gas.md)', '-40 to -1 °C', '[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md)',),
 		('[butane](butane.md)', '-12 to -1 °C', '',),
-		('[gasoline/petrol](gasoline.md)', '-1 to 110 °C', 'fuel for [motor vehicles](motor%20vehicle.md)',),
+		('[gasoline/petrol](gasoline.md)', '-1 to 110 °C', 'fuel for [motor vehicles](motor vehicle.md)',),
 		('[naphtha](naphtha.md)', '30 to 200 °C', 'production of [plastics](plastic.md) and [town gas](coal%20gas.md)',),
 		('[jet fuel](jet%20fuel.md)', '150 to 205 °C', 'fuel for [aeroplanes](airplane.md)',),
 		('[kerosene](kerosene.md)', '205 to 260 °C', 'fuel for domestic use',),
@@ -49,13 +49,13 @@ return await memorize_table(
 
 [Fuels](fuel.md) by ascending [boiling point](boiling%20point.md) include:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2039"--><!-- The following content is generated at 2023-03-24T01:37:04.156849+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2039"--><!-- The following content is generated at 2023-04-03T10:39:11.121325+08:00. Any edits will be overridden! -->
 
 > | [fraction](fraction%20(chemistry).md) | [boiling point](boiling%20point.md) range | use(s) |
 > |-|-|-|
 > | {{[liqueified petroleum gas](liqueified%20petroleum%20gas.md)}} | {{-40 to -1 °C}} | {{[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md)}} |
 > | {{[butane](butane.md)}} | {{-12 to -1 °C}} |  |
-> | {{[gasoline/petrol](gasoline.md)}} | {{-1 to 110 °C}} | {{fuel for [motor%20vehicles](motor%20vehicle.md)}} |
+> | {{[gasoline/petrol](gasoline.md)}} | {{-1 to 110 °C}} | {{fuel for [motor vehicles](motor vehicle.md)}} |
 > | {{[naphtha](naphtha.md)}} | {{30 to 200 °C}} | {{production of [plastics](plastic.md) and [town gas](coal%20gas.md)}} |
 > | {{[jet fuel](jet%20fuel.md)}} | {{150 to 205 °C}} | {{fuel for [aeroplanes](airplane.md)}} |
 > | {{[kerosene](kerosene.md)}} | {{205 to 260 °C}} | {{fuel for domestic use}} |
