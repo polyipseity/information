@@ -168,7 +168,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-06-14,118,235!2023-08-11,197,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2023-04-28,120,305-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-04-03,7,130-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-04-14,11,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-04-05,71,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-04-08,18,227-->
@@ -593,7 +593,7 @@ return (
 
 1. _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2023-07-17,394,352-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2023-07-19,331,276-->
-3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2023-04-03,289,326-->
+3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->

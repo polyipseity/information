@@ -9,7 +9,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### global
 
 - open file:::Ctrl+O <!--SR:!2023-09-24,197,315!2023-09-25,197,316-->
-- save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2023-04-03,65,316-->
+- save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2024-01-13,285,336-->
 - new file:::Ctrl+N <!--SR:!2023-04-08,63,270!2023-07-07,121,296-->
 - undo:::Ctrl+Z <!--SR:!2023-09-28,197,310!2023-07-07,121,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-06-13,94,256-->
@@ -18,7 +18,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-04-14,42,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-04-12,26,276-->
 - file context menu:::F4 <!--SR:!2023-04-09,21,190!2023-06-15,81,256-->
-- show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-03,58,276-->
+- show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-29,26,256-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-04-20,21,150!2023-04-11,58,256-->

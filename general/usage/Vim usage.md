@@ -75,7 +75,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 - show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-04-07,22,208-->
-- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-03,31,273!2023-05-07,75,313-->
+- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-21,18,253!2023-05-07,75,313-->
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-04-13,41,293!2023-05-17,85,327-->

@@ -6,4 +6,4 @@ aliases: ['PbO', 'lead(II) oxide',]
 
 # lead(II) oxide
 
-__Lead(II) oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Pb](lead.md)[O](oxygen.md)__}}. It looks like {{yellow or red [powder](powder.md), and orange on heating due to [theromochromism](theromochromism.md)}}. <!--SR:!2023-04-06,4,270!2023-04-03,1,230-->
+__Lead(II) oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Pb](lead.md)[O](oxygen.md)__}}. It looks like {{yellow or red [powder](powder.md), and orange on heating due to [theromochromism](theromochromism.md)}}. <!--SR:!2023-04-06,4,270!2023-04-04,1,210-->
