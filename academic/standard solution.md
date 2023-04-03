@@ -6,4 +6,4 @@ aliases: ['standard solution', 'standard solutions',]
 
 # standard solution
 
-A __standard solution__ is {{a [solution](solution%20(chemistry).md) with a precisely known [concentration](concentration.md) of a [substance](chemical%20substance.md)}}. It is prepared {{using a [primary standard](primary%20standard.md)}}.
+A __standard solution__ is {{a [solution](solution%20(chemistry).md) with a precisely known [concentration](concentration.md) of a [substance](chemical%20substance.md)}}. It is prepared {{using a [primary standard](primary%20standard.md)}}. <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->

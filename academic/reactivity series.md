@@ -13,7 +13,7 @@ aliases: ['activity series', 'reactivity series',]
 
 # reactivity series
 
-A __reactivity series__ is {{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}}.
+A __reactivity series__ is {{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-06,3,250-->
 
 ## data
 
@@ -104,42 +104,42 @@ return await memorize_table(
 > | {{[mercury](mercury%20(element).md)}} | {{Hg<sup>2+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
 > | {{[silver](silver.md)}} | {{Ag<sup>+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
 > | {{[gold](gold.md)}} | {{Au<sup>3+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
-> | {{[platinum](platinum.md)}} | {{Pt<sup>4+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} |
+> | {{[platinum](platinum.md)}} | {{Pt<sup>4+</sup>}} | {{may react with some strong [oxidizing agents](oxidizing%20agent.md)}} | {{heat or physical extraction}} | <!--SR:!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-06,3,250!2023-04-06,3,250!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-06,3,250!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-06,3,250!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2023-03-22T00:41:25.863762+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[caesium](caesium.md)
-2. [caesium](caesium.md)→:::←[rubidium](rubidium.md)
-3. [rubidium](rubidium.md)→:::←[potassium](potassium.md)
-4. [potassium](potassium.md)→:::←[sodium](sodium.md)
-5. [sodium](sodium.md)→:::←[lithium](lithium.md)
-6. [lithium](lithium.md)→:::←[barium](barium.md)
-7. [barium](barium.md)→:::←[strontium](strontium.md)
-8. [strontium](strontium.md)→:::←[calcium](calcium.md)
-9. [calcium](calcium.md)→:::←[magnesium](magnesium.md)
-10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md)
-11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md)
-12. [aluminium](aluminium.md)→:::←[titanium](titanium.md)
-13. [titanium](titanium.md)→:::←[manganese](manganese.md)
-14. [manganese](manganese.md)→:::←[zinc](zinc.md)
-15. [zinc](zinc.md)→:::←[chromium](chromium.md)
-16. [chromium](chromium.md)→:::←[iron](iron.md)
-17. [iron](iron.md)→:::←[cadmium](cadmium.md)
-18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md)
-19. [cobalt](cobalt.md)→:::←[nickel](nickel.md)
-20. [nickel](nickel.md)→:::←[tin](tin.md)
-21. [tin](tin.md)→:::←[lead](lead.md)
-22. [lead](lead.md)→:::←[antimony](antimony.md)
-23. [antimony](antimony.md)→:::←[bismuth](bismuth.md)
-24. [bismuth](bismuth.md)→:::←[copper](copper.md)
-25. [copper](copper.md)→:::←[tungsten](tungsten.md)
-26. [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md)
-27. [mercury](mercury%20(element).md)→:::←[silver](silver.md)
-28. [silver](silver.md)→:::←[gold](gold.md)
-29. [gold](gold.md)→:::←[platinum](platinum.md)
-30. [platinum](platinum.md)→:::←_(end)_
+1. _(begin)_→:::←[caesium](caesium.md) <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+2. [caesium](caesium.md)→:::←[rubidium](rubidium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+3. [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+4. [potassium](potassium.md)→:::←[sodium](sodium.md) <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
+5. [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+6. [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2023-04-06,3,250!2023-04-04,1,230-->
+7. [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+8. [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+9. [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2023-04-04,1,230!2023-04-04,1,230-->
+12. [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+13. [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2023-04-06,3,250!2023-04-04,1,230-->
+14. [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2023-04-04,1,230!2023-04-06,3,250-->
+15. [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2023-04-04,1,230!2023-04-06,3,250-->
+16. [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2023-04-06,3,250!2023-04-04,1,230-->
+17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2023-04-04,1,230!2023-04-06,3,250-->
+18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+19. [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2023-04-06,3,250!2023-04-04,1,230-->
+20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+21. [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+22. [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+23. [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+24. [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2023-04-04,1,230!2023-04-04,1,230-->
+25. [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
+26. [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2023-04-06,3,250!2023-04-04,1,230-->
+27. [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+28. [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
+29. [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+30. [platinum](platinum.md)→:::←_(end)_ <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -147,6 +147,6 @@ return await memorize_table(
 
 ### reactions between water and acids
 
-More reactive [metals](metal.md) react with {{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}}.
+More reactive [metals](metal.md) react with {{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-04-06,3,250-->
 
-Moderately reactive metals react with {{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}}.
+Moderately reactive metals react with {{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}}. <!--SR:!2023-04-06,3,250-->

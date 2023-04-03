@@ -15,7 +15,7 @@ aliases: ['VSEPR theory', 'valence shell electron pair repulsion theory',]
 
 ## AXE method
 
-The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {{represented by AX<sub>n</sub>E<sub>m</sub>, where A is the central atom, X are the [ligands](ligand.md), and E are the [_lone_ electron pairs](lone%20pair.md)}}. The steric number is {{the sum of the numbers of X and E}}.
+The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {{represented by AX<sub>n</sub>E<sub>m</sub>, where A is the central atom, X are the [ligands](ligand.md), and E are the [_lone_ electron pairs](lone%20pair.md)}}. The steric number is {{the sum of the numbers of X and E}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270-->
 
 ### main-group elements
 
@@ -73,30 +73,30 @@ return await memorize_table(
 > | {{AX<sub>6</sub>E<sub>1</sub>}} | {{[pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../attachments/AX6E1-3D-balls.png)}} | {{72°, 90°}} | {{XeOF<sub>5</sub><sup>-</sup>}} |
 > | {{AX<sub>7</sub>E<sub>0</sub>}} | {{[pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../attachments/AX7E0-3D-balls.png)}} | {{72°, 90°}} | {{[IF<sub>7</sub>](iodine%20heptafluoride.md)}} |
 > | {{AX<sub>8</sub>E<sub>0</sub>}} | {{[square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../attachments/AX8E0-3D-balls.png)}} |  | {{XeF<sub>8</sub><sup>2-</sup>}} |
-> | {{AX<sub>9</sub>E<sub>0</sub>}} | {{[tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../attachments/AX9E0-3D-balls.png)}} |  | {{ReH<sub>9</sub><sup>2-</sup>}} |
+> | {{AX<sub>9</sub>E<sub>0</sub>}} | {{[tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../attachments/AX9E0-3D-balls.png)}} |  | {{ReH<sub>9</sub><sup>2-</sup>}} | <!--SR:!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230!2023-04-04,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8daf"--><!-- The following content is generated at 2023-03-26T16:22:57.607537+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←AX<sub>2</sub>E<sub>0</sub>
-2. AX<sub>2</sub>E<sub>0</sub>→:::←AX<sub>2</sub>E<sub>1</sub>
-3. AX<sub>2</sub>E<sub>1</sub>→:::←AX<sub>2</sub>E<sub>2</sub>
-4. AX<sub>2</sub>E<sub>2</sub>→:::←AX<sub>2</sub>E<sub>3</sub>
-5. AX<sub>2</sub>E<sub>3</sub>→:::←AX<sub>3</sub>E<sub>0</sub>
-6. AX<sub>3</sub>E<sub>0</sub>→:::←AX<sub>3</sub>E<sub>1</sub>
-7. AX<sub>3</sub>E<sub>1</sub>→:::←AX<sub>3</sub>E<sub>2</sub>
-8. AX<sub>3</sub>E<sub>2</sub>→:::←AX<sub>4</sub>E<sub>0</sub>
-9. AX<sub>4</sub>E<sub>0</sub>→:::←AX<sub>4</sub>E<sub>1</sub>
-10. AX<sub>4</sub>E<sub>1</sub>→:::←AX<sub>4</sub>E<sub>2</sub>
-11. AX<sub>4</sub>E<sub>2</sub>→:::←AX<sub>5</sub>E<sub>0</sub>
-12. AX<sub>5</sub>E<sub>0</sub>→:::←AX<sub>5</sub>E<sub>1</sub>
-13. AX<sub>5</sub>E<sub>1</sub>→:::←AX<sub>5</sub>E<sub>2</sub>
-14. AX<sub>5</sub>E<sub>2</sub>→:::←AX<sub>6</sub>E<sub>0</sub>
-15. AX<sub>6</sub>E<sub>0</sub>→:::←AX<sub>6</sub>E<sub>1</sub>
-16. AX<sub>6</sub>E<sub>1</sub>→:::←AX<sub>7</sub>E<sub>0</sub>
-17. AX<sub>7</sub>E<sub>0</sub>→:::←AX<sub>8</sub>E<sub>0</sub>
-18. AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub>
-19. AX<sub>9</sub>E<sub>0</sub>→:::←_(end)_
+1. _(begin)_→:::←AX<sub>2</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+2. AX<sub>2</sub>E<sub>0</sub>→:::←AX<sub>2</sub>E<sub>1</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+3. AX<sub>2</sub>E<sub>1</sub>→:::←AX<sub>2</sub>E<sub>2</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+4. AX<sub>2</sub>E<sub>2</sub>→:::←AX<sub>2</sub>E<sub>3</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+5. AX<sub>2</sub>E<sub>3</sub>→:::←AX<sub>3</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-04,1,230-->
+6. AX<sub>3</sub>E<sub>0</sub>→:::←AX<sub>3</sub>E<sub>1</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+7. AX<sub>3</sub>E<sub>1</sub>→:::←AX<sub>3</sub>E<sub>2</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+8. AX<sub>3</sub>E<sub>2</sub>→:::←AX<sub>4</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+9. AX<sub>4</sub>E<sub>0</sub>→:::←AX<sub>4</sub>E<sub>1</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+10. AX<sub>4</sub>E<sub>1</sub>→:::←AX<sub>4</sub>E<sub>2</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+11. AX<sub>4</sub>E<sub>2</sub>→:::←AX<sub>5</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+12. AX<sub>5</sub>E<sub>0</sub>→:::←AX<sub>5</sub>E<sub>1</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+13. AX<sub>5</sub>E<sub>1</sub>→:::←AX<sub>5</sub>E<sub>2</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+14. AX<sub>5</sub>E<sub>2</sub>→:::←AX<sub>6</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+15. AX<sub>6</sub>E<sub>0</sub>→:::←AX<sub>6</sub>E<sub>1</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+16. AX<sub>6</sub>E<sub>1</sub>→:::←AX<sub>7</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+17. AX<sub>7</sub>E<sub>0</sub>→:::←AX<sub>8</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-04,1,230-->
+18. AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub> <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+19. AX<sub>9</sub>E<sub>0</sub>→:::←_(end)_ <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

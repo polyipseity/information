@@ -13,7 +13,7 @@ aliases: ['titration', 'titrimetric analysis', 'titrimetry', 'volumetric analysi
 
 # titration
 
-__Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}.
+__Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2023-04-04,1,230-->
 
 ## types
 
@@ -21,9 +21,9 @@ __Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](
 
 - See: [acid–base titration](acid–base%20titration.md)
 
-Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}.
+Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230!2023-04-07,4,270-->
 
-If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) are used, {{the [titration curve](#titration%20curve) is regular and many pH indicators are appropriate}}. If one is strong while the other is weak, {{the equivalence point shifts to the stronger side}}. If both are weak, {{the titration curve is very irregular and a [pH meter](pH%20meter.md) is often used instead of a [pH indicator](pH%20indicator.md)}}.
+If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) are used, {{the [titration curve](#titration%20curve) is regular and many pH indicators are appropriate}}. If one is strong while the other is weak, {{the equivalence point shifts to the stronger side}}. If both are weak, {{the titration curve is very irregular and a [pH meter](pH%20meter.md) is often used instead of a [pH indicator](pH%20indicator.md)}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270!2023-04-07,4,270-->
 
 ## measurement
 
@@ -57,17 +57,17 @@ Methods to determine the end point include:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="248f"--><!-- The following content is generated at 2023-03-23T18:13:41.634856+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←indicator
-2. indicator→:::←[pH meter](pH%20meter.md)
-3. [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md)
-4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_
+1. _(begin)_→:::←indicator <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+2. indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+3. [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### equivalence and end point
 
-The _equivalence point_ is {{the theoretical completion of titration}}. The _end point_ is {{the actual measured change}}.
+The _equivalence point_ is {{the theoretical completion of titration}}. The _end point_ is {{the actual measured change}}. <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
 
 ### back titration
 
-In back titration, {{a known excess reagent is added to the [solution](solution%20(chemistry).md), and the excess is titrated instead of the original solution}}.
+In back titration, {{a known excess reagent is added to the [solution](solution%20(chemistry).md), and the excess is titrated instead of the original solution}}. <!--SR:!2023-04-07,4,270-->
