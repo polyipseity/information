@@ -6,6 +6,8 @@
   "interfaceFontFamily": "Calibri,Arial",
   "textFontFamily": "Courier New,Courier,Arial",
   "monospaceFontFamily": "Consolas,Arial",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "white content image background"
+  ],
   "nativeMenus": false
 }
