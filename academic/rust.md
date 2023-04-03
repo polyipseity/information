@@ -19,14 +19,14 @@ __Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydra
 
 Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250-->
 
-First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ion may be further oxidized with air to iron(II) ions}}: <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
+First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ions may be further oxidized by air to iron(II) ions}}: <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
 
 > 1. {{2Fe(s) + O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) → 2Fe<sup>2+</sup>(aq) + 4OH<sup>-</sup>(aq)
 > 	- O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)
 > 	- Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}}
 > 2. {{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}} <!--SR:!2023-04-06,3,250-->
 
-After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produces iron hydroxides in equilibra}}: <!--SR:!2023-04-04,1,230-->
+After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-04-04,1,230-->
 
 > - {{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}}
 > - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
@@ -106,4 +106,4 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2023-04-07,4,270-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{a [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270!2023-04-06,3,250!2023-04-06,3,250!2023-04-07,4,270!2023-04-04,1,230-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270!2023-04-06,3,250!2023-04-06,3,250!2023-04-07,4,270!2023-04-04,1,230-->
