@@ -27,7 +27,7 @@ return await memorize_table(
 	(e.cwf_section('923d'), e.cwf_section('395a'),),
 	('name', 'description',),
 	(
-		('catalytic cracking', 'Uses [catalysts](catalyst.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.',),
+		('catalytic cracking', 'Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.',),
 		('thermal cracking', 'Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.',),
 	),
 	lambda datum: map(cloze, datum),
@@ -39,7 +39,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{catalytic cracking}} | {{Uses [catalysts](catalyst.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
+> | {{catalytic cracking}} | {{Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
 > | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2023-04-14,14,290!2023-04-08,9,250!2023-04-15,15,290!2023-04-10,11,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

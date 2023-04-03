@@ -1,5 +1,5 @@
 ---
-aliases: ['H2SO4', 'sulfuric acid', 'sulphuric acid',]
+aliases: ['H<sub>2</sub>SO<sub>4</sub>', 'H2SO4', 'sulfuric acid', 'sulphuric acid',]
 ---
 
 #academic/chemistry #flashcards/academic/Ss/sulfuric_acid
