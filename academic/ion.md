@@ -372,7 +372,7 @@ return chain.from_iterable(await gather(
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2024-01-20,457,258!2024-06-29,618,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2023-04-13,175,290-->
-21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-04-03,113,219!2024-08-25,617,276-->
+21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-05-30,57,199!2024-08-25,617,276-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
