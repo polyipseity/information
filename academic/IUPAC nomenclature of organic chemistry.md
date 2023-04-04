@@ -603,3 +603,47 @@ return (
 10. amine→:::←_(lowest)_ <!--SR:!2023-11-13,226,236!2024-03-10,343,267-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## trivial names
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_table(
+	(e.cwf_section('f91a'), e.cwf_section('dd91'),),
+	('trivial name', 'systematic name',),
+	(
+		('[acetic acid](acetic%20acid.md)', 'ethanoic acid',),
+		('[acetone](acetone.md)', 'propanone',),
+		('[chloroform](chloroform.md)', 'trichloromethane',),
+		('[formaldehyde](formaldehyde.md)', 'methanol',),
+		('[isopropyl alcohol](isopropyl%20alochol.md)', 'propan-2-ol',),
+	),
+	lambda datum: map(cloze, datum),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f91a"--><!-- The following content is generated at 2023-04-04T22:14:28.221248+08:00. Any edits will be overridden! -->
+
+> | trivial name | systematic name |
+> |-|-|
+> | {{[acetic acid](acetic%20acid.md)}} | {{ethanoic acid}} |
+> | {{[acetone](acetone.md)}} | {{propanone}} |
+> | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
+> | {{[formaldehyde](formaldehyde.md)}} | {{methanol}} |
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} |
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←[acetic acid](acetic%20acid.md)
+2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md)
+3. [acetone](acetone.md)→:::←[chloroform](chloroform.md)
+4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md)
+5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md)
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
