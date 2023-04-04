@@ -36,7 +36,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[implants](implant%20(medicine).md)}} | {{[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}} |
-> | {{supersonic aircraft bodies}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-04,1,230-->
+> | {{supersonic aircraft bodies}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,4,270!2023-04-07,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -49,21 +49,21 @@ return await memorize_table(
 > | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../attachments/GHS-pictogram-skull.svg)}} |  |
 > | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../attachments/GHS-pictogram-exclam.svg)}} |  |
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../attachments/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-04-05,4,270!2023-04-04,3,250!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270-->
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-04-05,4,270!2023-04-15,11,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270!2023-04-05,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2023-03-15T19:16:17.252430+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
-2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2023-04-04,3,250!2023-04-05,4,270-->
+2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2023-04-17,13,270!2023-04-05,4,270-->
 3. GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
-4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2023-04-04,3,250!2023-04-04,3,250-->
-5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2023-04-04,3,250!2023-04-05,4,270-->
-6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2023-04-04,3,250!2023-04-04,3,250-->
-7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2023-04-04,3,250!2023-04-05,4,270-->
-8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2023-04-05,4,270!2023-04-04,3,250-->
-9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2023-04-05,4,270!2023-04-04,3,250-->
+4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2023-04-16,12,270!2023-04-17,13,270-->
+5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2023-04-15,11,270!2023-04-05,4,270-->
+6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2023-04-17,13,270!2023-04-17,13,270-->
+7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2023-04-16,12,270!2023-04-05,4,270-->
+8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2023-04-05,4,270!2023-04-17,13,270-->
+9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2023-04-05,4,270!2023-04-16,12,270-->
 10. GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

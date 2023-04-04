@@ -13,7 +13,7 @@ aliases: ['physical properties', 'physical property',]
 
 # physical property
 
-A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}} <!--SR:!2023-04-04,1,230!2023-04-07,4,270-->
+A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}} <!--SR:!2023-04-07,3,250!2023-04-07,4,270-->
 
 ## examples
 
@@ -69,14 +69,14 @@ return await memorize_table(
 1. _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
 2. [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
 3. [color](color.md)→:::←[density](density.md) <!--SR:!2023-04-06,3,250!2023-04-07,4,270-->
-4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-04-04,1,230!2023-04-07,4,270-->
+4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-04-07,3,250!2023-04-07,4,270-->
 5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
 6. [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
 7. [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
 8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
 9. [melting point](melting%20point.md)→:::←[odor](odor.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
 10. [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
-11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-04-04,1,230!2023-04-06,3,250-->
+11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-04-05,1,210!2023-04-06,3,250-->
 12. [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2023-04-06,3,250!2023-04-06,3,250-->
 13. [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
 14. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
