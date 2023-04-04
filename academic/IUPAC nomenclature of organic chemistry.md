@@ -633,17 +633,17 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanol}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} |
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-05,1,284!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[acetic acid](acetic%20acid.md)
-2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md)
-3. [acetone](acetone.md)→:::←[chloroform](chloroform.md)
-4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md)
-5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md)
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_
+1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
+2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
+3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-05,1,284!2023-04-08,4,324-->
+4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-08,4,324!2023-04-05,1,284-->
+5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
