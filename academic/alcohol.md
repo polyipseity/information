@@ -12,7 +12,7 @@ aliases:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md), alcohols have {{higher [boiling points](boiling%20point.md), higher [melting points](melting%20point.md), and higher [solubility](solubility.md) in [water](water.md) than comparable [alkanes](alkane.md)}}.
+Due to [hydrogen bonding](hydrogen%20bond.md), alcohols have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}.
 
 ### density
 
