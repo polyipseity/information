@@ -31,24 +31,24 @@ return await memorize_table(
 	(
 		('[Haber process](Haber%20process.md)', 'Finely divided [iron](iron.md) catalyzes the production of [NH<sub>3</sub>](ammonia.md) from [N<sub>2</sub>](nitrogen.md) and [H<sub>2</sub>](hydrogen.md).',),
 		('[contact process](contact%20process.md)', '[Vanadium(V) oxide](vanadium(V)%20oxide.md) catalyzes the [oxidation](redox%20reaction.md) of [SO<sub>2</sub>](sulfur%20dioxide.md) to [SO<sub>3</sub>](sulfur%20trioxide.md) in making [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md).',),
-		('[fermentation](fermentation.md)', '[Enzymes](enzyme.md) catalyzes [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyzes the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).',),
-		('[food browning](food%20browning.md)', '[Enzymes](enzyme.md) catalyzes the formation of brown pigments.',),
-		('[hydrolysis](hydrolysis.md) of [starch](starch.md)', '[Amylases](amylase.md) catalyzes the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).',),
+		('[fermentation](fermentation.md)', '[Enzymes](enzyme.md) catalyze [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyze the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).',),
+		('[food browning](food%20browning.md)', '[Enzymes](enzyme.md) catalyze the formation of brown pigments.',),
+		('[hydrolysis](hydrolysis.md) of [starch](starch.md)', '[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).',),
 	),
 	lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad24"--><!-- The following content is generated at 2023-04-03T21:51:20.617971+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[Haber process](Haber%20process.md)}} | {{Finely divided [iron](iron.md) catalyzes the production of [NH<sub>3</sub>](ammonia.md) from [N<sub>2</sub>](nitrogen.md) and [H<sub>2</sub>](hydrogen.md).}} |
 > | {{[contact process](contact%20process.md)}} | {{[Vanadium(V) oxide](vanadium(V)%20oxide.md) catalyzes the [oxidation](redox%20reaction.md) of [SO<sub>2</sub>](sulfur%20dioxide.md) to [SO<sub>3</sub>](sulfur%20trioxide.md) in making [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md).}} |
-> | {{[fermentation](fermentation.md)}} | {{[Enzymes](enzyme.md) catalyzes [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyzes the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).}} |
-> | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyzes the formation of brown pigments.}} |
-> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyzes the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-05,1,230!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-07,3,250-->
+> | {{[fermentation](fermentation.md)}} | {{[Enzymes](enzyme.md) catalyze [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyze the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).}} |
+> | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
+> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-05,1,230!2023-04-08,4,270!2023-04-08,4,270!2023-04-08,4,270!2023-04-07,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
