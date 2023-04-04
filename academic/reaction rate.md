@@ -15,7 +15,7 @@ aliases: ['rate of reaction', 'rates of reaction', 'reaction rate', 'reaction ra
 
 ## definition
 
-The reaction rate is always {{positive}}.
+The reaction rate is always {{positive}}. <!--SR:!2023-04-08,4,270-->
 
 ## factors
 
@@ -48,12 +48,12 @@ There are many factors affecting the reaction rate:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="22dd"--><!-- The following content is generated at 2023-04-03T21:45:19.885014+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[catalyst](catalysis.md) presence: correlated
-2. [catalyst](catalysis.md) presence: correlated→:::←[concentration](concentration.md) of [reactants](reagent.md): correlated
-3. [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[temperature](temperature.md): correlated
-4. [temperature](temperature.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated
-5. [surface area](surface%20area.md) of [solids](solid.md): correlated→:::←_(end)_
+1. _(begin)_→:::←[catalyst](catalysis.md) presence: correlated <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
+2. [catalyst](catalysis.md) presence: correlated→:::←[concentration](concentration.md) of [reactants](reagent.md): correlated <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
+3. [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[temperature](temperature.md): correlated <!--SR:!2023-04-05,1,230!2023-04-08,4,270-->
+4. [temperature](temperature.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
+5. [surface area](surface%20area.md) of [solids](solid.md): correlated→:::←_(end)_ <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Influencing factors can be explained by {{[collision theory](collision%20theory.md)}}.
+Influencing factors can be explained by {{[collision theory](collision%20theory.md)}}. <!--SR:!2023-04-08,4,270-->
