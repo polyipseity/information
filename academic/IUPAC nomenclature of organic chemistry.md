@@ -617,7 +617,7 @@ return await memorize_table(
 		('[acetic acid](acetic%20acid.md)', 'ethanoic acid',),
 		('[acetone](acetone.md)', 'propanone',),
 		('[chloroform](chloroform.md)', 'trichloromethane',),
-		('[formaldehyde](formaldehyde.md)', 'methanol',),
+		('[formaldehyde](formaldehyde.md)', 'methanal',),
 		('[isopropyl alcohol](isopropyl%20alochol.md)', 'propan-2-ol',),
 	),
 	lambda datum: map(cloze, datum),
@@ -625,14 +625,14 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f91a"--><!-- The following content is generated at 2023-04-04T22:14:28.221248+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f91a"--><!-- The following content is generated at 2023-04-04T23:50:24.828005+08:00. Any edits will be overridden! -->
 
 > | trivial name | systematic name |
 > |-|-|
 > | {{[acetic acid](acetic%20acid.md)}} | {{ethanoic acid}} |
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
-> | {{[formaldehyde](formaldehyde.md)}} | {{methanol}} |
+> | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
 > | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
