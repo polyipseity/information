@@ -6,4 +6,4 @@ aliases: ['HgO', 'mercury oxide', 'mercuric oxide', 'mercury(II) oxide',]
 
 # mercury(II) oxide
 
-__Mercury(II) oxide__, also known as {{__mercuric oxide__ or __mercury oxide__}}, is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Hg](mercury.md)[O](oxygen.md)__}}. It looks like {{red or yellow [solid](solid.md)}}. <!--SR:!2023-04-05,3,250!2023-04-05,3,250!2023-04-04,1,210-->
+__Mercury(II) oxide__, also known as {{__mercuric oxide__ or __mercury oxide__}}, is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Hg](mercury.md)[O](oxygen.md)__}}. It looks like {{red or yellow [solid](solid.md)}}. <!--SR:!2023-04-05,3,250!2023-04-05,3,250!2023-04-07,3,230-->

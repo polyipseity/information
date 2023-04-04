@@ -9,7 +9,7 @@
 
 # weathering
 
-__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270-->
+__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-07,3,250!2023-04-07,4,270-->
 
 Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2023-04-07,4,270-->
 
@@ -17,19 +17,19 @@ Weathering can be divided into {{_[physical weathering](#physical%20weathering)_
 
 ### frost weathering
 
-_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_forst wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270!2023-04-04,1,230-->
+_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_forst wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}. <!--SR:!2023-04-07,3,250!2023-04-07,4,270!2023-04-07,3,250-->
 
 ### thermal stress
 
-_Thermal stress weathering_ {{results from expansion and contraction of [rocks](rock%20(geology).md) due to [temperature](temperature.md) changes}}. It is important in {{[deserts](desert.md) as there is a large [diurnal](diurnal.md) temperature range}}. <!--SR:!2023-04-04,1,230!2023-04-07,4,270-->
+_Thermal stress weathering_ {{results from expansion and contraction of [rocks](rock%20(geology).md) due to [temperature](temperature.md) changes}}. It is important in {{[deserts](desert.md) as there is a large [diurnal](diurnal.md) temperature range}}. <!--SR:!2023-04-07,3,250!2023-04-07,4,270-->
 
 ## chemical weathering
 
 ### dissolution
 
-_Dissolution_ is {{weathering in which a mineral [dissolves](dissolution.md) without producing any [solids](solid.md)}}. <!--SR:!2023-04-04,1,230-->
+_Dissolution_ is {{weathering in which a mineral [dissolves](dissolution.md) without producing any [solids](solid.md)}}. <!--SR:!2023-04-07,3,250-->
 
-Carbonate dissolution is {{dissolution in which atmospheric [carbon dioxide](carbon%20dioxide.md) enhances weathering}}. It affects rocks {{containing [calcium carbonate](calcium%20carbonate.md) like [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}}. It causes {{formation of [sinkholes](sinkhole.md) and damages to limestone structures}}. It works in two steps: <!--SR:!2023-04-04,1,230!2023-04-04,1,230!2023-04-04,1,230-->
+Carbonate dissolution is {{dissolution in which atmospheric [carbon dioxide](carbon%20dioxide.md) enhances weathering}}. It affects rocks {{containing [calcium carbonate](calcium%20carbonate.md) like [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}}. It causes {{formation of [sinkholes](sinkhole.md) and damages to limestone structures}}. It works in two steps: <!--SR:!2023-04-07,3,250!2023-04-07,3,250!2023-04-07,3,250-->
 
 %%
 ```Python
