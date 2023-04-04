@@ -16,7 +16,7 @@ aliases:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), haloalkanes have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}} <!--SR:!2023-04-05,1,230-->
+Due to increased [polarizability](polarizability.md), haloalkanes have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}. <!--SR:!2023-04-05,1,230-->
 
 ### density
 
