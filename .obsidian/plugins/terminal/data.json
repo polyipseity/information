@@ -3,9 +3,10 @@
   "addToContextMenu": true,
   "createInstanceNearExistingOnes": true,
   "errorNoticeTimeout": 0,
+  "focusOnNewInstance": true,
   "hideStatusBar": "focused",
   "language": "",
-  "lastReadChangelogVersion": "3.5.1",
+  "lastReadChangelogVersion": "3.6.0",
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "pinNewInstance": true,
@@ -13,6 +14,12 @@
   "profiles": {
     "ac11afc4-60d0-4127-8fe7-5b7fc06a81c7": {
       "name": "Developer console",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
       "type": "developerConsole"
     },
     "c4f2db89-e11a-4693-b868-7f01ac3f0011": {
@@ -25,6 +32,12 @@
         "win32": true
       },
       "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
       "type": "integrated",
       "useWin32Conhost": true
     },
@@ -37,6 +50,12 @@
         "linux": true,
         "win32": true
       },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
       "type": "external"
     }
   },
