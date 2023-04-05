@@ -51,3 +51,7 @@ return await memorize_table(
 3. thermal cracking→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### laboratory
+
+Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}.
