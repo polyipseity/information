@@ -13,9 +13,9 @@ aliases: ['intermolecular force', 'intermolecular forces',]
 
 # intermolecular force
 
-__Intermolecular forces__ are {{attractive or replusive [forces](force.md) between [molecules](molecule.md)}}. They are {{relatively weak}} compared to [intramolecular forces](intramolecular%20force.md). <!--SR:!2023-04-05,3,250!2023-04-06,4,270-->
+__Intermolecular forces__ are {{attractive or replusive [forces](force.md) between [molecules](molecule.md)}}. They are {{relatively weak}} compared to [intramolecular forces](intramolecular%20force.md). <!--SR:!2023-04-18,13,270!2023-04-06,4,270-->
 
-Attractive forces include {{[van der Waals forces](van%20der%20Waals%20force.md), [hydrogen bond](hydrogen%20bond.md), and [ion](ion.md)–(induced) dipole forces}}. <!--SR:!2023-04-05,3,250-->
+Attractive forces include {{[van der Waals forces](van%20der%20Waals%20force.md), [hydrogen bond](hydrogen%20bond.md), and [ion](ion.md)–(induced) dipole forces}}. <!--SR:!2023-04-15,10,250-->
 
 ## relative strength
 
@@ -42,7 +42,7 @@ return await memorize_table(
 > |-|-|
 > | {{[covalent bond](covalent%20bond.md)}} | {{130–1100 kJ/mol}} |
 > | {{[hydrogen bond](hydrogen%20bond.md)}} | {{4–50 kJ/mol}} |
-> | {{[London dispersion force](London%20dispersion%20force.md)}} | {{0.01–63 kJ/mol}} | <!--SR:!2023-04-05,3,250!2023-04-05,3,250!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-05,3,250-->
+> | {{[London dispersion force](London%20dispersion%20force.md)}} | {{0.01–63 kJ/mol}} | <!--SR:!2023-04-18,13,270!2023-04-07,2,230!2023-04-06,4,270!2023-04-06,4,270!2023-04-06,4,270!2023-04-18,13,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

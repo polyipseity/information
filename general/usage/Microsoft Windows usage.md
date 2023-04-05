@@ -18,7 +18,7 @@
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2023-05-10,44,230!2023-04-09,62,270-->
 - toggle unfocused windows:::⊞Win+Home <!--SR:!2023-05-25,78,230!2023-04-13,60,250-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2023-04-19,62,250!2023-08-09,159,310-->
-- show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2023-04-05,59,270!2023-04-06,61,270-->
+- show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2023-05-04,29,250!2023-04-06,61,270-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2023-04-12,59,250!2023-05-18,50,230-->
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-05-22,81,250!2023-06-28,117,270-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-04-07,18,190!2023-07-13,114,270-->

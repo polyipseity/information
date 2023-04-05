@@ -6,7 +6,7 @@ aliases: ['Ag2O', 'silver oxide',]
 
 # silver oxide
 
-__Silver oxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Ag](silver.md)<sub>2</sub>[O](oxide.md)}}. It looks like {{black or brown [cubic](cubic%20crystal%20system.md) [crystals](crystal.md)}}. <!--SR:!2023-04-07,4,270!2023-04-05,1,210-->
+__Silver oxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Ag](silver.md)<sub>2</sub>[O](oxide.md)}}. It looks like {{black or brown [cubic](cubic%20crystal%20system.md) [crystals](crystal.md)}}. <!--SR:!2023-04-07,4,270!2023-04-07,2,210-->
 
 ## preparation
 

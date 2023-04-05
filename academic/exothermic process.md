@@ -42,10 +42,10 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2023-04-01T22:38:27.924050+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←all [combustion reactions](combustion.md) <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
-2. all [combustion reactions](combustion.md)→:::←all [neutralization reactions](neutralization%20(chemistry).md) <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
-3. all [neutralization reactions](neutralization%20(chemistry).md)→:::←all [precipitation reactions](precipitation%20(chemistry).md) <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
-4. all [precipitation reactions](precipitation%20(chemistry).md)→:::←[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md) <!--SR:!2023-04-06,2,230!2023-04-05,4,270-->
-5. [hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)→:::←_(end)_ <!--SR:!2023-04-05,4,270!2023-04-05,4,270-->
+1. _(begin)_→:::←all [combustion reactions](combustion.md) <!--SR:!2023-04-22,17,290!2023-04-22,17,290-->
+2. all [combustion reactions](combustion.md)→:::←all [neutralization reactions](neutralization%20(chemistry).md) <!--SR:!2023-04-21,16,290!2023-04-22,17,290-->
+3. all [neutralization reactions](neutralization%20(chemistry).md)→:::←all [precipitation reactions](precipitation%20(chemistry).md) <!--SR:!2023-04-21,16,290!2023-04-20,15,290-->
+4. all [precipitation reactions](precipitation%20(chemistry).md)→:::←[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md) <!--SR:!2023-04-06,2,230!2023-04-22,17,290-->
+5. [hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)→:::←_(end)_ <!--SR:!2023-04-22,17,290!2023-04-07,2,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

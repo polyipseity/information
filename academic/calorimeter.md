@@ -15,7 +15,7 @@ aliases: ['bomb calorimeter', 'bomb calorimeters', 'calorimeter', 'calorimeters'
 
 A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}. <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
 
-A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}. <!--SR:!2023-04-05,3,250!2023-04-06,4,270-->
+A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}. <!--SR:!2023-04-18,13,270!2023-04-06,4,270-->
 
 ## errors
 
@@ -48,10 +48,10 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2845"--><!-- The following content is generated at 2023-04-02T00:29:33.583262+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←conditions are not standard conditions <!--SR:!2023-04-05,3,250!2023-04-06,4,270-->
-2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2023-04-06,4,270!2023-04-05,3,250-->
+1. _(begin)_→:::←conditions are not standard conditions <!--SR:!2023-04-06,1,230!2023-04-06,4,270-->
+2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2023-04-06,4,270!2023-04-18,13,270-->
 3. heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
 4. heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
-5. reaction is incomplete→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-05,3,250-->
+5. reaction is incomplete→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-18,13,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

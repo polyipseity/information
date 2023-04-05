@@ -170,10 +170,10 @@ The steps for naming an organic compound are:
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2023-04-28,120,305-->
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-04-14,11,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
-5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-04-05,71,207-->
+5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-09-06,154,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-04-08,18,227-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2023-05-04,102,265-->
-8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-04-05,1,230-->
+8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-04-07,2,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-04-13,60,230!2023-08-31,191,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2023-04-24,44,267-->
@@ -633,7 +633,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-05,1,284!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-09,4,304!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -641,8 +641,8 @@ return await memorize_table(
 
 1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
 2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
-3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-05,1,284!2023-04-08,4,324-->
-4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-08,4,324!2023-04-05,1,284-->
+3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-09,4,304!2023-04-08,4,324-->
+4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-08,4,324!2023-04-09,4,304-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
 6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
 

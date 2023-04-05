@@ -16,12 +16,12 @@ Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-05,1,230!2023-04-05,1,230-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-07,2,230!2023-04-06,1,210-->
 
 ### odor
 
-Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-04-05,1,230-->
+Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-04-08,3,250-->
 
 ### solubility
 
-Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-04-05,1,230!2023-04-08,4,270-->
+Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-04-08,3,250!2023-04-08,4,270-->
