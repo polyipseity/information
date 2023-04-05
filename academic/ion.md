@@ -36,7 +36,7 @@ class Ion(typing.NamedTuple):
 	name: str
 	symbol: str
 	charge: str
-	color: str
+	color: str | tuple[str, ...]
 cations: typing.Sequence[Ion] = (
 	Ion(name='hydrogen ion', symbol='H<sup>+</sup>', charge='1+', color=COLORLESS),
 	Ion(name='sodium ion', symbol='Na<sup>+</sup>', charge='1+', color=COLORLESS),
@@ -51,13 +51,13 @@ cations: typing.Sequence[Ion] = (
 	Ion(name='lead(II) ion', symbol='Pb<sup>2+</sup>', charge='2+', color=COLORLESS),
 	Ion(name='iron(II) ion', symbol='Fe<sup>2+</sup>', charge='2+', color='<span style="color: green;">green</span>'),
 	Ion(name='nickel(II) ion', symbol='Ni<sup>2+</sup>', charge='2+', color='<span style="color: green;">green</span>'),
-	Ion(name='copper(II) ion', symbol='Cu<sup>2+</sup>', charge='2+', color='<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>'),
+	Ion(name='copper(II) ion', symbol='Cu<sup>2+</sup>', charge='2+', color=('<span style="color: blue; background-color: white;">blue</span>', '<span style="color: green;">green</span>',)),
 	Ion(name='zinc ion', symbol='Zn<sup>2+</sup>', charge='2+', color=COLORLESS),
 	Ion(name='manganese(II) ion', symbol='Mn<sup>2+</sup>', charge='2+', color='<span style="color: lightPink;">very pale pink</span>'),
 	Ion(name='mercury(II) ion', symbol='Hg<sup>2+</sup>', charge='2+', color=NA_COLOR),
 	Ion(name='cobalt(II) ion', symbol='Co<sup>2+</sup>', charge='2+', color='<span style="color: pink;">pink</span>'),
 	Ion(name='aluminium ion', symbol='Al<sup>3+</sup>', charge='3+', color=COLORLESS),
-	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge='3+', color='<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)'),
+	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge='3+', color=('<span style="color: yellow;">yellow</span> (dilute)', '<span style="color: brown; background-color: white;">brown</span> (concentrated)',)),
 	Ion(name='chromium(III) ion', symbol='Cr<sup>3+</sup>', charge='3+', color='<span style="color: green;">green</span>'),
 )
 anions: typing.Sequence[Ion] = (
@@ -128,7 +128,7 @@ class Section:
 			),
 			colors=gen.two_columns_to_code(rows,
 				left=lambda ion: gen.TextCode.escape(ion.name),
-				right=lambda ion: gen.TextCode.escape(ion.color),
+				right=lambda ion: gen.TextCode.escape(ion.color if isinstance(ion.color, str) else ', '.join(ion.color)),
 			),
 		)
 
@@ -194,7 +194,7 @@ return chain.from_iterable(await gather(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-03-20T16:20:30.921694+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-05T21:00:01.444252+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charage | color |
 > |-|-|-|-|
@@ -211,13 +211,13 @@ return chain.from_iterable(await gather(
 > | lead(II) ion | Pb<sup>2+</sup> | 2+ | colorless |
 > | iron(II) ion | Fe<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
 > | nickel(II) ion | Ni<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
-> | copper(II) ion | Cu<sup>2+</sup> | 2+ | <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> |
+> | copper(II) ion | Cu<sup>2+</sup> | 2+ | ('<span style="color: blue; background-color: white;">blue</span>', '<span style="color: green;">green</span>') |
 > | zinc ion | Zn<sup>2+</sup> | 2+ | colorless |
 > | manganese(II) ion | Mn<sup>2+</sup> | 2+ | <span style="color: lightPink;">very pale pink</span> |
 > | mercury(II) ion | Hg<sup>2+</sup> | 2+ | _(n/a)_ |
 > | cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span> |
 > | aluminium ion | Al<sup>3+</sup> | 3+ | colorless |
-> | iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) |
+> | iron(III) ion | Fe<sup>3+</sup> | 3+ | ('<span style="color: yellow;">yellow</span> (dilute)', '<span style="color: brown; background-color: white;">brown</span> (concentrated)') |
 > | chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -280,7 +280,7 @@ return chain.from_iterable(await gather(
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-03-26T02:18:01.001020+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-05T21:00:01.467277+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion::colorless <!--SR:!2023-04-28,314,293-->
@@ -295,26 +295,27 @@ return chain.from_iterable(await gather(
 11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2023-07-06,95,207-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span> <!--SR:!2023-05-09,46,150-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2023-05-09,46,150-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-02,308,230-->
 17. mercury(II) ion::_(n/a)_ <!--SR:!2023-06-26,140,256-->
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2024-03-03,461,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
-20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
+20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### color–name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-03-26T02:15:41.895087+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-05T21:00:01.482751+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, chromium(III) ion <!--SR:!2023-04-07,2,281-->
-2. <span style="color: blue; background-color: white;">blue</span>/<span style="color: green;">green</span>::copper(II) ion <!--SR:!2023-04-07,2,281-->
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion <!--SR:!2023-04-07,2,281-->
+2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-04-07,2,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-16,11,301-->
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
-5. <span style="color: yellow;">yellow</span> (dilute)/<span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-06,4,321-->
+5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-06,4,321-->
+6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-06,4,321-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
