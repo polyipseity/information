@@ -5,7 +5,7 @@ aliases:
 - isomeres
 ---
 
-#academic/chemistry #flashcards/academic/isomer
+#academic/chemistry #flashcards/academic/Ii/isomer
 
 # isomer
 
