@@ -7,12 +7,8 @@ aliases:
 
 # quartz
 
-> {{
->
-> | α-quartz | β-quartz |
+> | {{α-quartz}} | {{β-quartz}} |
 > |-|-|
-> | ![structure of α-quartz](../attachments/Α-Quartz.svg) | ![structure of β-quartz](../attachments/Β-Quartz.svg) |
->
-> }}
+> | {{![structure of α-quartz](../attachments/Α-Quartz.svg)}} | {{![structure of β-quartz](../attachments/Β-Quartz.svg)}} |
 >
 > {{structure of quartz}}
