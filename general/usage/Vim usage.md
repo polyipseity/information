@@ -15,7 +15,7 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-07-22,128,313!2023-05-15,83,328-->
 
 ## motion
-- left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-04-05,48,288-->
+- left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-08-26,143,288-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-04-16,59,308-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->

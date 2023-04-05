@@ -50,7 +50,7 @@ There are many factors affecting the reaction rate:
 
 1. _(begin)_→:::←[catalyst](catalysis.md) presence: correlated <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
 2. [catalyst](catalysis.md) presence: correlated→:::←[concentration](concentration.md) of [reactants](reagent.md): correlated <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
-3. [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated <!--SR:!2023-04-05,1,230!2023-04-08,4,270-->
+3. [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated <!--SR:!2023-04-08,3,250!2023-04-08,4,270-->
 4. [surface area](surface%20area.md) of [solids](solid.md): correlated→:::←[temperature](temperature.md): correlated <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
 5. [temperature](temperature.md): correlated→:::←_(end)_ <!--SR:!2023-04-08,4,270!2023-04-08,4,270-->
 

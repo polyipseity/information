@@ -4,7 +4,7 @@
 
 ## calcination
 
-Calcination is {{the [thermal decomposition](thermal%20composition.md) of a material to extract [minerals](mineral.md)}}. For example, {{[silver](silver.md) can be extracted by heating [silver oxide](silver%20oxide.md)}}. <!--SR:!2023-04-05,1,210!2023-04-07,3,250-->
+Calcination is {{the [thermal decomposition](thermal%20composition.md) of a material to extract [minerals](mineral.md)}}. For example, {{[silver](silver.md) can be extracted by heating [silver oxide](silver%20oxide.md)}}. <!--SR:!2023-04-06,1,190!2023-04-07,3,250-->
 
 ## smelting
 
