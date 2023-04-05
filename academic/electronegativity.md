@@ -1,5 +1,11 @@
 ---
-aliases: ['electronegative', 'electronegativities', 'electronegativity',]
+aliases:
+- electronegative
+- electronegativities
+- electronegativity
+- electropositive
+- electropositivities
+- electropositivity
 ---
 
 #academic/chemistry #flashcards/academic/Ee/electronegativity

@@ -37,11 +37,13 @@
 ## Cc
 - [Crucible tong.jpg](Crucible%20tong.jpg): <a href="https://commons.wikimedia.org/wiki/File:Crucible_tong.jpg">GOKLuLe</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Cryst struct ice.png](Cryst%20struct%20ice.png): <a href="https://commons.wikimedia.org/wiki/File:Cryst_struct_ice.png">Solid State</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [CsCl polyhedra.png](CsCl%20polyhedra.png): <a href="https://commons.wikimedia.org/wiki/File:CsCl_polyhedra.png">Solid State</a>, Public domain, via Wikimedia Commons
 - [Czochralski method used crucible 1.jpg](Czochralski%20method%20used%20crucible%201.jpg): <a href="https://commons.wikimedia.org/wiki/File:Czochralski_method_used_crucible_1.jpg">No machine-readable author provided. Twisp assumed (based on copyright claims).</a>, Public domain, via Wikimedia Commons
 
 ## Dd
 - [Dark bottle with ground glass plug.jpg](Dark%20bottle%20with%20ground%20glass%20plug.jpg): <a href="https://commons.wikimedia.org/wiki/File:Dark_bottle_with_ground_glass_plug.jpg">Lilly_M</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Desiccator.jpg](Desiccator.jpg): <a href="https://commons.wikimedia.org/wiki/File:Desiccator.jpg">The original uploader was Rifleman 82 at English Wikipedia.</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [Diamond structure.gif](Diamond%20structure.gif): <a href="https://commons.wikimedia.org/wiki/File:Diamond_structure.gif">Pieter Kuiper</a>, Public domain, via Wikimedia Commons
 - [Different types of graduated cylinder- 10ml, 25ml, 50ml and 100 ml graduated cylinder.jpg](Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg): <a href="https://commons.wikimedia.org/wiki/File:Different_types_of_graduated_cylinder-_10ml,_25ml,_50ml_and_100_ml_graduated_cylinder.jpg">Praphai Donphaimueang</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Dropper with vial.jpg](Dropper%20with%20vial.jpg): <a href="https://commons.wikimedia.org/wiki/File:Dropper_with_vial.jpg">Cjp24</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 
@@ -57,6 +59,8 @@
 - [GHS-pictogram-skull.svg](GHS-pictogram-skull.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-skull.svg">See page for author</a>, Public domain, via Wikimedia Commons
 - [Gas-Pak jar.jpg](Gas-Pak%20jar.jpg): <a href="https://commons.wikimedia.org/wiki/File:Gas-Pak_jar.jpg">Netha Hussain</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Glassware- Beaker.jpg](Glassware-%20Beaker.jpg): <a href="https://commons.wikimedia.org/wiki/File:Glassware-_Beaker.jpg">Rohit Kumar Sengupta</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [Graphite-layers-side-3D-balls.png](Graphite-layers-side-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:Graphite-layers-side-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
+- [Graphite-layers-top-3D-balls.png](Graphite-layers-top-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:Graphite-layers-top-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
 
 ## Hh
 - [High-Speed Filter Funnel-2.jpg](High-Speed%20Filter%20Funnel-2.jpg): <a href="https://commons.wikimedia.org/wiki/File:High-Speed_Filter_Funnel-2.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
@@ -72,6 +76,9 @@
 - [Mercury Thermometer.jpg](Mercury%20Thermometer.jpg): <a href="https://commons.wikimedia.org/wiki/File:Mercury_Thermometer.jpg">Anonimski</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Metal tube rack-laboratory 2.jpg](Metal%20tube%20rack-laboratory%202.jpg): <a href="https://commons.wikimedia.org/wiki/File:Metal_tube_rack-laboratory_2.jpg">real name: Nadina Wiórkiewiczpl.wiki: Nadine90commons: Nadine90</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Mohr and Sero.jpg](Mohr%20and%20Sero.jpg): <a href="https://commons.wikimedia.org/wiki/File:Mohr_and_Sero.jpg">Paweena.S</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+## Nn
+- [NaCl bonds.svg](NaCl%20bonds.svg): <a href="https://commons.wikimedia.org/wiki/File:NaCl_bonds.svg">Goran tek-en</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Pp
 - [Pipeclay triangle.jpg](Pipeclay%20triangle.jpg): <a href="https://commons.wikimedia.org/wiki/File:Pipeclay_triangle.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
@@ -110,3 +117,11 @@
 - [Weighing balance, MNIT.jpg](Weighing%20balance,%20MNIT.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_balance,_MNIT.jpg">Nikunj12387</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Weighing bottles.jpg](Weighing%20bottles.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_bottles.jpg">Сергей 6662</a>, CC0, via Wikimedia Commons
 - [White-Mortar-and-Pestle.jpg](White-Mortar-and-Pestle.jpg): <a href="https://commons.wikimedia.org/wiki/File:White-Mortar-and-Pestle.jpg">Evan-Amos</a>, Public domain, via Wikimedia Commons
+
+## Αα
+
+- [Α-Quartz.svg](Α-Quartz.svg): <a href="https://commons.wikimedia.org/wiki/File:%CE%91-Quartz.svg">Andel</a>, CC0, via Wikimedia Commons
+
+## Ββ
+
+- [Β-Quartz.svg](Β-Quartz.svg): <a href="https://commons.wikimedia.org/wiki/File:%CE%92-Quartz.svg">Andel</a>, CC0, via Wikimedia Commons
