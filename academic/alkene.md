@@ -25,7 +25,23 @@ Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alka
 
 ### combustion
 
-- See: [alkane § combustion](alkane.md#combustion)
+- see: [alkane § combustion](alkane.md#combustion)
+
+### hydrogenation
+
+- see: [hydrogenation](hydrogenation.md)
+
+Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}.
+
+### hydrohalogenation
+
+- see: [hydrohalogenation](hyydrohalogenation.md)
+
+Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}.
+
+### polymerization
+
+- see: [polymerization](polymerization.md)
 
 ### reactions
 
@@ -40,27 +56,36 @@ return await memorize_table(
 		('[combustion](#combustion)', '',),
 		('[dihydroxylation](dihydroxylation.md)', '',),
 		('[halogen addition reaction](halogen%20addition%20reaction.md)', '',),
+		('[hydrogenation](#hydrogenation)', '',),
+		('[hydrohalogenation](#hydrohalogenation)', '',),
+		('[polymerization](#polymerization)', '',),
 	),
 	lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-03-25T23:10:06.610515+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-04-05T09:33:57.187962+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[combustion](#combustion)}} |  |
 > | {{[dihydroxylation](dihydroxylation.md)}} |  |
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
+> | {{[hydrogenation](#hydrogenation)}} |  |
+> | {{[hydrohalogenation](#hydrohalogenation)}} |  |
+> | {{[polymerization](#polymerization)}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-03-25T23:10:06.598547+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-04-05T09:33:57.175970+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[combustion](#combustion)
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md)
 3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md)
-4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←_(end)_
+4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation)
+5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation)
+6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization)
+7. [polymerization](#polymerization)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
