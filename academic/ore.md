@@ -44,17 +44,17 @@ return await memorize_table(
 > | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |
 > | {{[cinnabar](cinnabar.md), cinnabarite}} | {{HgS}} |
 > | {{[galena](galena.md)}} | {{PbS}} |
-> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} | <!--SR:!2023-04-13,8,250!2023-04-06,4,270!2023-04-06,4,270!2023-04-10,5,250!2023-04-06,4,270!2023-04-16,11,270!2023-04-12,7,250!2023-04-17,12,270!2023-04-17,12,270!2023-04-14,9,270-->
+> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} | <!--SR:!2023-04-13,8,250!2023-04-20,14,290!2023-04-22,16,290!2023-04-10,5,250!2023-04-23,17,290!2023-04-16,11,270!2023-04-12,7,250!2023-04-17,12,270!2023-04-17,12,270!2023-04-14,9,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0398da"--><!-- The following content is generated at 2023-03-21T16:44:17.518142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2023-04-16,11,270!2023-04-06,4,270-->
+1. _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2023-04-16,11,270!2023-04-21,15,290-->
 2. [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2023-04-15,10,270!2023-04-14,9,270-->
-3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2023-04-15,10,270!2023-04-06,4,270-->
+3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2023-04-15,10,270!2023-04-20,14,290-->
 4. [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2023-04-15,10,270!2023-04-18,13,270-->
 5. [galena](galena.md)→:::←[hematite](hematite.md) <!--SR:!2023-04-18,13,270!2023-04-17,12,270-->
-6. [hematite](hematite.md)→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+6. [hematite](hematite.md)→:::←_(end)_ <!--SR:!2023-04-21,15,290!2023-04-19,13,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

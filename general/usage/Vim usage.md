@@ -28,7 +28,7 @@ See also [Vim help files](https://vimhelp.org/).
 - matching character:::% <!--SR:!2023-07-23,118,273!2023-04-12,50,293-->
 
 ## write and quit
-- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-05-05,73,313!2023-04-06,49,293-->
+- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-05-05,73,313!2023-10-23,200,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-05-06,74,313!2023-04-14,57,293-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-04-08,51,293!2023-05-14,82,328-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-05-07,75,313!2023-05-15,83,328-->
@@ -59,7 +59,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-05-13,81,310!2023-05-13,81,313-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-05-11,79,313!2023-04-15,58,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2023-05-10,78,313-->
-- restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-04-06,49,288-->
+- restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-10-22,199,308-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-04-15,58,307!2023-05-14,82,328-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-05-09,77,313!2023-04-17,60,307-->

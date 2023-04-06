@@ -419,7 +419,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-04-06,66,280!2023-08-06,171,301!2024-05-26,453,362!2024-03-06,353,302!2023-10-31,228,285!2024-04-27,428,367-->
+> - infix: {{(locant)}} <!--SR:!2023-12-18,256,300!2023-08-06,171,301!2024-05-26,453,362!2024-03-06,353,302!2023-10-31,228,285!2024-04-27,428,367-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}
@@ -594,7 +594,7 @@ return (
 1. _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2023-07-17,394,352-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2023-07-19,331,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
-4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-04-06,97,210!2024-09-05,585,267-->
+4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2023-04-18,239,250-->
 7. ketone→:::←alcohol <!--SR:!2023-04-23,44,170!2023-05-21,59,170-->
