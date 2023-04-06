@@ -1,5 +1,8 @@
 ---
-aliases: ['neutralization', 'neturalize', 'neturalizes',]
+aliases:
+- neutralization
+- neutralize
+- neutralizes
 ---
 
 #academic/chemistry #flashcards/academic/Nn/neutralization__chemistry_
