@@ -35,7 +35,11 @@ Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in
 
 ## chemical properties
 
-### hydrolysis
+### substitution
+
+To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}}. Likewise, [acyl halides](acyl%20halide.md) can {{react similarly to give primary [amides](amide.md)}}.
+
+#### hydrolysis
 
 In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}}.
 

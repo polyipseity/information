@@ -1,5 +1,7 @@
 ---
-aliases: ['NH4+', 'ammonium',]
+aliases:
+- NH4+
+- ammonium
 ---
 
 #academic/chemistry #flashcards/academic/Aa/ammonium
