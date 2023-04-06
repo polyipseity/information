@@ -13,7 +13,7 @@ aliases: ['cracking',]
 
 # cracking
 
-__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2023-04-06,7,250!2023-04-11,9,270-->
+__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2023-05-02,26,270!2023-04-11,9,270-->
 
 It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. <!--SR:!2023-04-14,14,290-->
 

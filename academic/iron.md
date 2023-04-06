@@ -40,7 +40,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c03"--><!-- The following content is generated at 2023-03-21T16:20:25.358097+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←constructions, car and ship bodies <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
-2. constructions, car and ship bodies→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+1. _(begin)_→:::←constructions, car and ship bodies <!--SR:!2023-04-19,13,290!2023-04-22,16,290-->
+2. constructions, car and ship bodies→:::←_(end)_ <!--SR:!2023-04-21,15,290!2023-04-20,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

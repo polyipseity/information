@@ -34,13 +34,13 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[thermometers](thermometer.md)}} | {{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}} | <!--SR:!2023-04-06,4,270!2023-04-16,11,270-->
+> | {{[thermometers](thermometer.md)}} | {{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}} | <!--SR:!2023-04-19,13,290!2023-04-16,11,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda3"--><!-- The following content is generated at 2023-03-21T16:20:25.404034+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
-2. [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2023-04-06,4,270!2023-04-06,4,270-->
+1. _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2023-04-21,15,290!2023-04-22,16,290-->
+2. [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2023-04-23,17,290!2023-04-20,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

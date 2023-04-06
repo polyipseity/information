@@ -228,7 +228,7 @@ return chain.from_iterable(await gather(
 
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2027-09-21,1649,373-->
-3. potassium ion:::K<sup>+</sup> <!--SR:!2023-04-06,353,339!2023-04-20,367,353-->
+3. potassium ion:::K<sup>+</sup> <!--SR:!2027-10-09,1647,359!2023-04-20,367,353-->
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2024-01-31,376,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
@@ -314,8 +314,8 @@ return chain.from_iterable(await gather(
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-04-07,2,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-16,11,301-->
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
-5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-06,4,321-->
-6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-06,4,321-->
+5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-25,19,341-->
+6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-24,18,341-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -437,8 +437,8 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-03-26T02:15:41.882122+08:00. Any edits will be overridden! -->
 
-1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-04-06,4,321-->
-2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-04-06,4,321-->
-3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-04-06,4,321-->
+1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-04-25,19,341-->
+2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-04-24,18,341-->
+3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-04-26,20,341-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

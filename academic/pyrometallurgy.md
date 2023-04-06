@@ -4,8 +4,8 @@
 
 ## calcination
 
-Calcination is {{the [thermal decomposition](thermal%20composition.md) of a material to extract [minerals](mineral.md)}}. For example, {{[silver](silver.md) can be extracted by heating [silver oxide](silver%20oxide.md)}}. <!--SR:!2023-04-06,1,190!2023-04-07,3,250-->
+Calcination is {{the [thermal decomposition](thermal%20composition.md) of a material to extract [minerals](mineral.md)}}. For example, {{[silver](silver.md) can be extracted by heating [silver oxide](silver%20oxide.md)}}. <!--SR:!2023-04-08,2,190!2023-04-07,3,250-->
 
 ## smelting
 
-Smelting involves {{heating [metal](metal.md) [oxides](oxide.md) with a [reducing agent](reducing%20agent.md) such as [carbon](carbon.md) from [coke](coke%20(fuel).md) or [charcoal](charcoal.md)}}. For example, {{[lead](lead.md) can be extracted from [lead(II) oxide](lead(II)%20oxide.md) by smelting it with carbon}}. <!--SR:!2023-04-06,3,250!2023-04-07,3,250-->
+Smelting involves {{heating [metal](metal.md) [oxides](oxide.md) with a [reducing agent](reducing%20agent.md) such as [carbon](carbon.md) from [coke](coke%20(fuel).md) or [charcoal](charcoal.md)}}. For example, {{[lead](lead.md) can be extracted from [lead(II) oxide](lead(II)%20oxide.md) by smelting it with carbon}}. <!--SR:!2023-04-08,2,230!2023-04-07,3,250-->

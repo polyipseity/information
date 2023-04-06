@@ -6,7 +6,7 @@ aliases: ['chemical symbols', 'element symbol', 'element symbols',]
 
 # chemical symbol
 
-__Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20substance.md)}}. __Element symbols__ are {{abbreviations for [chemical elements](chemical%20element.md) consisting of one or two letters from the [Latin alphabet](Latin%20alphabet.md) with the first letter capitalized}}. <!--SR:!2023-04-12,13,270!2023-04-06,7,250-->
+__Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20substance.md)}}. __Element symbols__ are {{abbreviations for [chemical elements](chemical%20element.md) consisting of one or two letters from the [Latin alphabet](Latin%20alphabet.md) with the first letter capitalized}}. <!--SR:!2023-04-12,13,270!2023-04-30,24,270-->
 
 ## extensions
 

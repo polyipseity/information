@@ -6,6 +6,6 @@ aliases: ['salt bridge', 'salt bridges',]
 
 # salt bridge
 
-__Salt bridge__ is {{a device connecting the two [half-cells](half-cell.md) of a [galvanic cell](galvanic%20cell.md)}}. It {{maintains electrical neutrality in the internal circuit}}. It comes in two main types: {{glass tubes and [filter paper](filter%20paper.md), both soaked with a relatively [inert](chemically%20inert.md) [electrolyte](electrolyte.md)}}. <!--SR:!2023-04-06,3,250!2023-04-06,3,250!2023-04-06,3,250-->
+__Salt bridge__ is {{a device connecting the two [half-cells](half-cell.md) of a [galvanic cell](galvanic%20cell.md)}}. It {{maintains electrical neutrality in the internal circuit}}. It comes in two main types: {{glass tubes and [filter paper](filter%20paper.md), both soaked with a relatively [inert](chemically%20inert.md) [electrolyte](electrolyte.md)}}. <!--SR:!2023-04-08,2,230!2023-04-15,9,270!2023-04-13,7,250-->
 
 The inert electrolyte is usually {{a combination of [potassium](potassium.md) or [ammonium](ammonium.md) [cations](ion.md) and [chloride](chloride.md) or [nitrate](nitrate.md) [anions](ion.md)}}, chosen such that {{it does not react with other chemicals used in the cell}}. <!--SR:!2023-04-07,3,250!2023-04-07,4,270-->

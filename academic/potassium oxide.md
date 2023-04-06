@@ -6,4 +6,4 @@ aliases: ['K2O', 'potassium oxide',]
 
 # potassium oxide
 
-__Potassium oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[K](potassium.md)<sub>2</sub>[O](oxygen.md)__}}. It looks like {{white or pale yellow [solid](solid.md)}}. <!--SR:!2023-04-07,4,270!2023-04-06,3,250-->
+__Potassium oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[K](potassium.md)<sub>2</sub>[O](oxygen.md)__}}. It looks like {{white or pale yellow [solid](solid.md)}}. <!--SR:!2023-04-07,4,270!2023-04-08,2,230-->
