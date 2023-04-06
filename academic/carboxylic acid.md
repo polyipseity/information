@@ -6,6 +6,13 @@ aliases:
 
 #academic/chemistry #flashcards/academic/Cc/carboxylic_acid
 
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../utility.py.md
+```
+%%
+
 # carboxylic acid
 
 ## physical properties
@@ -25,3 +32,41 @@ Carboxylic acids have {{a characteristic pungent smell and sour taste}}.
 ### solubility
 
 Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid.
+
+## chemical properties
+
+### reduction
+
+Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}.
+
+### reactions
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_table(
+	(e.cwf_section('f23a'), e.cwf_section('dd11'),),
+	('name', 'description',),
+	(
+		('[reduction](#reduction)', '',),
+	),
+	lambda datum: map(cloze, datum),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f23a"--><!-- The following content is generated at 2023-04-06T10:40:18.725586+08:00. Any edits will be overridden! -->
+
+> | name | description |
+> |-|-|
+> | {{[reduction](#reduction)}} |  |
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-04-06T10:40:18.715119+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←[reduction](#reduction)
+2. [reduction](#reduction)→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
