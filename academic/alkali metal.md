@@ -16,7 +16,7 @@ aliases:
 
 # alkali metal
 
-The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2023-04-12,12,270!2023-04-13,13,290!2023-04-09,10,250!2023-04-07,9,250-->
+The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2023-04-12,12,270!2023-04-13,13,290!2023-04-09,10,250!2023-05-02,25,250-->
 
 ## representative reactions
 

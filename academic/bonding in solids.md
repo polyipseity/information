@@ -47,7 +47,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-08,9,250!2023-04-16,16,290!2023-04-17,17,290!2023-04-16,16,290!2023-04-07,9,250!2023-04-15,15,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-08,9,250!2023-04-16,16,290!2023-04-17,17,290!2023-04-16,16,290!2023-04-11,4,230!2023-04-15,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -119,7 +119,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-04-07,9,250!2023-04-13,13,290!2023-04-11,12,270!2023-04-16,16,290!2023-04-14,11,270!2023-04-15,15,290!2023-04-09,10,250!2023-04-14,14,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-01,24,250!2023-04-13,13,290!2023-04-11,12,270!2023-04-16,16,290!2023-04-14,11,270!2023-04-15,15,290!2023-04-09,10,250!2023-04-14,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

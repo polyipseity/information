@@ -239,7 +239,7 @@ return chain.from_iterable(await gather(
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2023-05-14,328,293-->
-8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2023-04-07,108,227!2024-02-04,523,316-->
+8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2024-03-08,336,247!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2023-04-10,359,354-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-08-05,202,230!2025-02-15,770,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2027-06-06,1566,374!2024-02-24,536,314-->
@@ -316,8 +316,8 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-05T21:00:01.482751+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion <!--SR:!2023-04-07,2,281-->
-2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-04-07,2,281-->
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion <!--SR:!2023-04-12,5,281-->
+2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-04-14,7,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-16,11,301-->
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-25,19,341-->

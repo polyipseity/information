@@ -40,7 +40,7 @@ return await memorize_table(
 > |-|-|
 > | {{cooking utensils}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)}} |
 > | {{electric wires}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)}} |
-> | {{water pipes}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-04-16,16,290!2023-04-07,6,230!2023-04-15,15,290!2023-04-09,3,210!2023-04-17,17,290!2023-04-09,3,220-->
+> | {{water pipes}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-04-16,16,290!2023-04-10,3,210!2023-04-15,15,290!2023-04-09,3,210!2023-04-17,17,290!2023-04-09,3,220-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

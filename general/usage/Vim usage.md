@@ -49,7 +49,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2023-05-16,84,328-->
-- highlight characters:::v <!--SR:!2023-04-07,50,308!2023-04-18,61,308-->
+- highlight characters:::v <!--SR:!2023-11-07,214,328!2023-04-18,61,308-->
 - highlight lines:::V <!--SR:!2023-06-24,103,273!2023-04-22,22,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-05-30,76,253!2023-05-15,83,328-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->
@@ -68,13 +68,13 @@ See also [Vim help files](https://vimhelp.org/).
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-04-10,53,293!2023-06-18,98,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-05-04,39,230!2023-04-17,60,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
-- repeat last search reversed:::N <!--SR:!2023-04-07,50,293!2023-06-29,98,268-->
+- repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2023-06-07,84,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2023-05-05,73,313-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-04-07,22,208-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-05-25,48,208-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-21,18,253!2023-05-07,75,313-->
 
 ## options

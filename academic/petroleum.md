@@ -20,7 +20,7 @@ aliases:
 
 ## composition
 
-Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}}. Larger hydrocarbons have {{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}}. <!--SR:!2023-04-22,16,294!2023-04-07,3,234-->
+Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}}. Larger hydrocarbons have {{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}}. <!--SR:!2023-04-22,16,294!2023-04-14,7,234-->
 
 ## uses
 
@@ -67,7 +67,7 @@ return await memorize_table(
 > | {{[fuel oil](fuel%20oil.md)}} | {{205 to 290 °C}} | {{fuel for [power plants](power%20station.md) and [ships](ship.md)}} |
 > | {{[diesel fuel](diesel%20fuel.md)}} | {{260 to 315 °C}} | {{fuel for [buses](bus.md) and [trucks](truck.md)}} |
 > | {{[paraffin wax](paraffin%20wax.md)}} | {{370 °C or above}} | {{[candles](candle.md), [lubrication](lubrication.md)}} |
-> | {{[bitumen](bitumen.md)}} | {{500 °C or above}} | {{[road construction](road%20construction.md)}} | <!--SR:!2023-04-15,10,270!2023-04-17,12,270!2023-04-16,11,274!2023-04-20,14,294!2023-04-08,2,254!2023-04-18,13,274!2023-04-12,7,254!2023-04-17,11,274!2023-04-15,10,274!2023-04-07,3,234!2023-04-07,3,234!2023-04-14,9,274!2023-04-11,6,254!2023-04-16,11,274!2023-04-10,5,254!2023-04-07,2,234!2023-04-07,2,234!2023-04-14,9,274!2023-04-08,2,214!2023-04-16,10,274!2023-04-13,8,254!2023-04-07,3,234!2023-04-08,2,234!2023-04-18,13,274!2023-04-07,2,234!2023-04-15,9,274!2023-04-22,16,294!2023-04-18,12,274!2023-04-23,17,294-->
+> | {{[bitumen](bitumen.md)}} | {{500 °C or above}} | {{[road construction](road%20construction.md)}} | <!--SR:!2023-04-15,10,270!2023-04-17,12,270!2023-04-16,11,274!2023-04-20,14,294!2023-04-08,2,254!2023-04-18,13,274!2023-04-12,7,254!2023-04-17,11,274!2023-04-15,10,274!2023-04-08,1,230!2023-04-16,9,254!2023-04-14,9,274!2023-04-11,6,254!2023-04-16,11,274!2023-04-10,5,254!2023-04-08,1,214!2023-04-12,5,254!2023-04-14,9,274!2023-04-08,2,214!2023-04-16,10,274!2023-04-13,8,254!2023-04-09,2,214!2023-04-08,2,234!2023-04-18,13,274!2023-04-11,4,234!2023-04-15,9,274!2023-04-22,16,294!2023-04-18,12,274!2023-04-23,17,294-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -77,7 +77,7 @@ return await memorize_table(
 2. [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2023-04-19,13,294!2023-04-19,13,294-->
 3. [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2023-04-17,12,274!2023-04-23,17,294-->
 4. [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2023-04-08,2,234!2023-04-14,9,274-->
-5. [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2023-04-15,10,274!2023-04-07,2,234-->
+5. [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2023-04-15,10,274!2023-04-13,6,254-->
 6. [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2023-04-10,5,254!2023-04-08,3,214-->
 7. [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2023-04-13,8,254!2023-04-13,8,254-->
 8. [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2023-04-16,11,274!2023-04-11,6,254-->
