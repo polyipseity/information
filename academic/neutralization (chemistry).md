@@ -28,7 +28,7 @@ __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical react
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('d927'), e.cwf_section('185a'),),
+	(e.cwf_sect('d927'), e.cwf_sect('185a'),),
 	('name', 'description',),
 	(
 		('[antacids](antacid.md)', 'Consuming [aluminium hydroxide](aluminium%20hydroxide.md) or [magnesium hydroxide](magnesium%20hydroxide.md) neutralizes [hydrochloric acid](hydrochloric%20acid.md) in the [stomach](stomach.md).',),

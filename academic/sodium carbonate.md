@@ -23,7 +23,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('d234'), e.cwf_section('ddee'),),
+	(e.cwf_sect('d234'), e.cwf_sect('ddee'),),
 	('name', 'description',),
 	(
 		('[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)', '',),

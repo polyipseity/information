@@ -28,7 +28,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_section('d92a'), e.cwf_section('9911'),),
+	(e.cwf_sect('d92a'), e.cwf_sect('9911'),),
 	(
 		'[concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>',
 		'[physical states](physical%20state.md): [standard states](standard%20state.md)',
@@ -67,7 +67,7 @@ Enthalpy changes are measured under the following {{standard conditions}}:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('1294'), e.cwf_section('abba'), e.cwf_section('9687'),),
+	(e.cwf_sect('1294'), e.cwf_sect('abba'), e.cwf_sect('9687'),),
 	{
 		'[enthalpy of combustion](standard%20enthalpy%20of%20combustion.md)': 'enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md)',
 		'[enthalpy of formation](standard%20enthalpy%20of%20formation.md)': 'enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states',
@@ -110,7 +110,7 @@ For [chemical properties](chemical%20property.md):
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('bb12'), e.cwf_section('2440'), e.cwf_section('69ff'),),
+	(e.cwf_sect('bb12'), e.cwf_sect('2440'), e.cwf_sect('69ff'),),
 	{
 	},
 )

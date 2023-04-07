@@ -22,7 +22,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('b9de'), e.cwf_section('3384'), e.cwf_section('dd92'),),
+	(e.cwf_sect('b9de'), e.cwf_sect('3384'), e.cwf_sect('dd92'),),
 	{
 		'1': 'mono-',
 		'2': 'di-',

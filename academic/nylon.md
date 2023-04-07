@@ -29,7 +29,7 @@ Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('bba2'), e.cwf_section('d83e'),),
+	(e.cwf_sect('bba2'), e.cwf_sect('d83e'),),
 	('property', 'description',),
 	(
 		('dyeable', '',),

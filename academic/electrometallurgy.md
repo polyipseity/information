@@ -16,7 +16,7 @@
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('basdde'), e.cwf_section('a3958e'),),
+	(e.cwf_sect('basdde'), e.cwf_sect('a3958e'),),
 	('name', 'description',),
 	(
 		('[electrolysis](electrolysis.md)', '',),

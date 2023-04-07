@@ -50,7 +50,7 @@ In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('321a'), e.cwf_section('4441'),),
+	(e.cwf_sect('321a'), e.cwf_sect('4441'),),
 	('name', 'description',),
 	(
 		('[hydrolysis](#hydrolysis)', '',),
