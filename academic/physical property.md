@@ -15,7 +15,7 @@ aliases:
 
 # physical property
 
-A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}} <!--SR:!2023-04-15,8,250!2023-04-24,17,290-->
+A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}}. <!--SR:!2023-04-15,8,250!2023-04-24,17,290-->
 
 ## examples
 
