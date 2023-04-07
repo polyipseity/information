@@ -25,7 +25,7 @@ __Evaporation__ is {{a kind of [vaporization](vaporization.md) that takes place 
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('231a'), e.cwf_section('66da'),),
+	e.cwf_sects('231a', '66da'),
 	('name', 'description',),
 	(
 		('[intermolecular forces](intermolecular%20force.md)', 'The stronger the intermolecular forces, the lower the evaporation rate, as more energy is required for a [molecule](molecule.md) to escape.',),

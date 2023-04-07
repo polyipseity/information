@@ -44,7 +44,7 @@ In alkaline [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylates](
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('be34'), e.cwf_section('ab23'),),
+	e.cwf_sects('be34', 'ab23'),
 	('name', 'description',),
 	(
 		('[hydrolysis](#hydrolysis)', '',),

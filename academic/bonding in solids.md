@@ -29,7 +29,7 @@ A __molecular solid__, also called __simple molecular structure__, {{consists of
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_section('9d9d'), NULL_LOCATION,),
+	(e.cwf_sect('9d9d'), NULL_LOCATION,),
 	('property', 'description',),
 	(
 		('[electrical conductivity](electrical%20conductivity.md)', 'low',),
@@ -63,7 +63,7 @@ A __network covalent solid__, also called __giant covalent structure__, {{consis
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_section('357d'), NULL_LOCATION,),
+	(e.cwf_sect('357d'), NULL_LOCATION,),
 	('property', 'description',),
 	(
 		('[brittleness](brittleness.md)', 'high',),
@@ -99,7 +99,7 @@ A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](a
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_section('5460'), NULL_LOCATION,),
+	(e.cwf_sect('5460'), NULL_LOCATION,),
 	('property', 'description',),
 	(
 		('[brittleness](brittleness.md)', 'high',),
@@ -135,7 +135,7 @@ A __metallic solid__, also called __giant metallic structure__, {{consists of [m
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_section('435d'), NULL_LOCATION,),
+	(e.cwf_sect('435d'), NULL_LOCATION,),
 	('property', 'description',),
 	(
 		('[ductility](ductility.md)', 'high',),

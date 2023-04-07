@@ -16,7 +16,7 @@
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('b9a823'), e.cwf_section('dee23a'),),
+	e.cwf_sects('b9a823', 'dee23a'),
 	('name & pictogram', 'description',),
 	(
 		('GHS01: [explosive](explosive.md)', '![{}](../attachments/GHS-pictogram-explos.svg)', '',),

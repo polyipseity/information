@@ -37,7 +37,7 @@ Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_section('d929'), e.cwf_section('afb9'),),
+	e.cwf_sects('d929', 'afb9'),
 	(
 		'+: efficiency as high as 70%',
 		'+: operate continuously, producing a stable supply of [electricity](electricity.md)',
@@ -77,7 +77,7 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_section('2939'), e.cwf_section('2901'),),
+	e.cwf_sects('2939', '2901'),
 	(
 		'auxiliary heat and water source',
 		'backup power source',

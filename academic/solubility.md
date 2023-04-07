@@ -82,9 +82,9 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
 text: gen.TextCode = gen.maps_to_code(data)
 return (
 	util.Result(
-		location=__env__.cwf_section('901862'),
+		location=__env__.cwf_sect('901862'),
 		text=gen.cloze_text(text,
-			states=await read.read_flashcard_states(__env__.cwf_section('901862')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('901862')),
 		),
 	),
 )

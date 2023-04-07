@@ -79,68 +79,68 @@ punctuations: gen.TextCode = gen.seq_to_code((
 	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 return (
 	util.Result(
-		location=__env__.cwf_section('5193cd'),
+		location=__env__.cwf_sect('5193cd'),
 		text=gen.quote_text(principles),
 	),
 	util.Result(
-		location=__env__.cwf_section('48dca2'),
+		location=__env__.cwf_sect('48dca2'),
 		text=gen.memorize_linked_seq(principles,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('48dca2')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('48dca2')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('12cd9e'),
+		location=__env__.cwf_sect('12cd9e'),
 		text=gen.quote_text(id_parent),
 	),
 	util.Result(
-		location=__env__.cwf_section('920dca'),
+		location=__env__.cwf_sect('920dca'),
 		text=gen.memorize_linked_seq(id_parent,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('920dca')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('920dca')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('10dacd'),
+		location=__env__.cwf_sect('10dacd'),
 		text=gen.quote_text(id_num_dir),
 	),
 	util.Result(
-		location=__env__.cwf_section('abacdf'),
+		location=__env__.cwf_sect('abacdf'),
 		text=gen.memorize_linked_seq(id_num_dir,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('abacdf')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('abacdf')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('ab93dd'),
+		location=__env__.cwf_sect('ab93dd'),
 		text=gen.quote_text(arrange),
 	),
 	util.Result(
-		location=__env__.cwf_section('828019'),
+		location=__env__.cwf_sect('828019'),
 		text=gen.memorize_linked_seq(arrange,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('828019')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('828019')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('299372'),
+		location=__env__.cwf_sect('299372'),
 		text=gen.quote_text(pronuciations),
 	),
 	util.Result(
-		location=__env__.cwf_section('19fc21'),
+		location=__env__.cwf_sect('19fc21'),
 		text=gen.memorize_two_sided(pronuciations,
-			states=await read.read_flashcard_states(__env__.cwf_section('19fc21')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('19fc21')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('a920de'),
+		location=__env__.cwf_sect('a920de'),
 		text=gen.quote_text(punctuations),
 	),
 	util.Result(
-		location=__env__.cwf_section('9293da'),
+		location=__env__.cwf_sect('9293da'),
 		text=gen.memorize_linked_seq(punctuations,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('9293da')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('9293da')),
 		),
 	),
 )
@@ -345,13 +345,13 @@ text: gen.TextCode = gen.maps_to_code(map,
 	name_cloze=True,)
 return (
 	util.Result(
-		location=__env__.cwf_section('28dcee'),
+		location=__env__.cwf_sect('28dcee'),
 		text=table,
 	),
 	util.Result(
-		location=__env__.cwf_section('a39fd2'),
+		location=__env__.cwf_sect('a39fd2'),
 		text=gen.cloze_text(text,
-			states=await read.read_flashcard_states(__env__.cwf_section('a39fd2')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('a39fd2')),
 		),
 	),
 )
@@ -520,9 +520,9 @@ table: gen.TextCode = gen.TextCode.compile(gen.rows_to_table(data,
 	))
 return (
 	util.Result(
-		location=__env__.cwf_section('adc061'),
+		location=__env__.cwf_sect('adc061'),
 		text=gen.cloze_text(table,
-			states=await read.read_flashcard_states(__env__.cwf_section('adc061')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('adc061')),
 		),
 	),
 )
@@ -562,14 +562,14 @@ text: gen.TextCode = gen.seq_to_code((
 	suffix=f'{{{gen.Tag.MEMORIZE}:_(lowest)_}}',)
 return (
 	util.Result(
-		location=__env__.cwf_section('19cfa2'),
+		location=__env__.cwf_sect('19cfa2'),
 		text=gen.quote_text(text),
 	),
 	util.Result(
-		location=__env__.cwf_section('ad92c1'),
+		location=__env__.cwf_sect('ad92c1'),
 		text=gen.memorize_linked_seq(text,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('ad92c1')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('ad92c1')),
 		),
 	),
 )
@@ -612,7 +612,7 @@ return (
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('f91a'), e.cwf_section('dd91'),),
+	e.cwf_sects('f91a', 'dd91'),
 	('trivial name', 'systematic name',),
 	(
 		('[acetic acid](acetic%20acid.md)', 'ethanoic acid',),

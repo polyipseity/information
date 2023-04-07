@@ -29,21 +29,21 @@ sem: gen.TextCode = gen.TextCode.compile(
 )
 return (
 	util.Result(
-		location=__env__.cwf_section('a34f1d'),
+		location=__env__.cwf_sect('a34f1d'),
 		text=gen.quote_text(data),
 	),
 	util.Result(
-		location=__env__.cwf_section('123480'),
+		location=__env__.cwf_sect('123480'),
 		text=gen.memorize_linked_seq(data,
 			tag='mem lnk',
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('123480')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('123480')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('1ad236'),
+		location=__env__.cwf_sect('1ad236'),
 		text=gen.semantics_seq_map(data, sem,
-			states=await read.read_flashcard_states(__env__.cwf_section('1ad236')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('1ad236')),
 		),
 	),
 )
