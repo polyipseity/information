@@ -1,5 +1,11 @@
 ---
-aliases: ['ferroxyl indicator', 'ferroxyl indicator solution', 'ferroxyl indicators', 'rust indicator', 'rust indicator solution', 'rust indicators',]
+aliases:
+  - ferroxyl indicator
+  - ferroxyl indicator solution
+  - ferroxyl indicators
+  - rust indicator
+  - rust indicator solution
+  - rust indicators
 ---
 
 #academic/chemistry #flashcards/academic/Ff/ferroxyl_indicator_solution

@@ -1,5 +1,7 @@
 ---
-aliases: ['polymer', 'polymers',]
+aliases:
+  - polymer
+  - polymers
 ---
 
 #academic/chemistry #flashcards/academic/Pp/polymer

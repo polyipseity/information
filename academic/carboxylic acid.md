@@ -1,7 +1,7 @@
 ---
 aliases:
-- carboxylic acid
-- carboxylic acids
+  - carboxylic acid
+  - carboxylic acids
 ---
 
 #academic/chemistry #flashcards/academic/Cc/carboxylic_acid

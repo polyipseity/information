@@ -1,5 +1,7 @@
 ---
-aliases: ['electrolyte', 'electrolytes',]
+aliases:
+  - electrolyte
+  - electrolytes
 ---
 
 #academic/chemistry #flashcards/academic/Ee/electrolyte

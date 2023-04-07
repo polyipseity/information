@@ -1,5 +1,13 @@
 ---
-aliases: ['rechargeable batteries', 'rechargeable battery', 'secondary batteries', 'secondary battery', 'secondary cell', 'secondary cells', 'storage batteries', 'storage battery',]
+aliases:
+  - rechargeable batteries
+  - rechargeable battery
+  - secondary batteries
+  - secondary battery
+  - secondary cell
+  - secondary cells
+  - storage batteries
+  - storage battery
 ---
 
 #academic/chemistry #flashcards/academic/Rr/rechargeable_battery

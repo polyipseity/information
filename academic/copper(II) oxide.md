@@ -1,5 +1,8 @@
 ---
-aliases: ['CuO', 'copper(II) oxide', 'cupric oxide',]
+aliases:
+  - CuO
+  - copper(II) oxide
+  - cupric oxide
 ---
 
 #academic/chemistry #flashcards/academic/Cc/copper_II__oxide

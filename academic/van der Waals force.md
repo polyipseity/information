@@ -1,5 +1,9 @@
 ---
-aliases: ['van der Waals force', 'van der Waals forces', "van der Waals' force", "van der Waals' forces",]
+aliases:
+  - van der Waals force
+  - van der Waals forces
+  - van der Waals' force
+  - van der Waals' forces
 ---
 
 #academic/chemistry #flashcards/academic/Vv/van_der_Waals_force

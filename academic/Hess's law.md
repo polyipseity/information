@@ -1,5 +1,8 @@
 ---
-aliases: ["Hess's Law", "Hess's law", "Hess's law of constant heat summation",]
+aliases:
+  - Hess's Law
+  - Hess's law
+  - Hess's law of constant heat summation
 ---
 
 #academic/chemistry #flashcards/academic/Hh/Hess_s_law

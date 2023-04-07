@@ -1,5 +1,7 @@
 ---
-aliases: ['periodic table', 'periodic tables',]
+aliases:
+  - periodic table
+  - periodic tables
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Pp/periodic_table

@@ -1,5 +1,6 @@
 ---
-aliases: ['fractional distillation',]
+aliases:
+  - fractional distillation
 ---
 
 #academic/chemistry #flashcards/academic/Ff/fractional_distillation

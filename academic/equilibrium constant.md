@@ -1,7 +1,7 @@
 ---
 aliases:
-- equilibrium constant
-- equilibrium constants
+  - equilibrium constant
+  - equilibrium constants
 ---
 
 #academic/chemistry #flashcards/academic/Ee/equilibrium_constant

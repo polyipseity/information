@@ -1,5 +1,9 @@
 ---
-aliases: ['Fe(OH)3', 'FeO(OH)', 'iron(III) oxide-hydroxide', 'iron(III) hydroxide',]
+aliases:
+  - Fe(OH)3
+  - FeO(OH)
+  - iron(III) oxide-hydroxide
+  - iron(III) hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Ii/iron_III__oxide-hydroxide

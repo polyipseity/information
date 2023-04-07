@@ -1,5 +1,6 @@
 ---
-aliases: ['mixtures',]
+aliases:
+  - mixtures
 ---
 
 #academic/chemistry #flashcards/academic/Mm/mixture

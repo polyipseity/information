@@ -1,11 +1,11 @@
 ---
 aliases:
-- electronegative
-- electronegativities
-- electronegativity
-- electropositive
-- electropositivities
-- electropositivity
+  - electronegative
+  - electronegativities
+  - electronegativity
+  - electropositive
+  - electropositivities
+  - electropositivity
 ---
 
 #academic/chemistry #flashcards/academic/Ee/electronegativity

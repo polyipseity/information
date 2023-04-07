@@ -1,7 +1,7 @@
 ---
 aliases:
-- ester
-- esters
+  - ester
+  - esters
 ---
 
 #academic/chemistry #flashcards/academic/Ee/ester

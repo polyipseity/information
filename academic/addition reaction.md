@@ -1,5 +1,7 @@
 ---
-aliases: ['addition reaction', 'addition reactions',]
+aliases:
+  - addition reaction
+  - addition reactions
 ---
 
 #academic/chemistry #flashcards/academic/Aa/addition_reaction

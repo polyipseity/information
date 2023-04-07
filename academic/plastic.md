@@ -1,5 +1,7 @@
 ---
-aliases: ['plastic', 'plastics',]
+aliases:
+  - plastic
+  - plastics
 ---
 
 #academic/chemistry #flashcards/academic/Pp/plastic

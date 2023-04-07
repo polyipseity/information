@@ -1,8 +1,8 @@
 ---
 aliases:
-- CaO
-- calcium oxide
-- quicklime
+  - CaO
+  - calcium oxide
+  - quicklime
 ---
 
 #academic/chemistry #flashcards/academic/Cc/calcium_oxide

@@ -1,5 +1,6 @@
 ---
-aliases: ['CaCO3',]
+aliases:
+  - CaCO3
 ---
 
 #academic/chemistry #flashcards/academic/Cc/calcium_carbonate

@@ -1,5 +1,6 @@
 ---
-aliases: ['dihydroxlation',]
+aliases:
+  - dihydroxlation
 ---
 
 #academic/chemistry #flashcards/academic/Dd/dihydroxylation

@@ -1,5 +1,8 @@
 ---
-aliases: ['base', 'bases', 'basic',]
+aliases:
+  - base
+  - bases
+  - basic
 ---
 
 #academic/chemistry #flashcards/academic/Bb/base__chemistry_

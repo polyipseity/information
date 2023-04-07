@@ -1,8 +1,8 @@
 ---
 aliases:
-- neutralization
-- neutralize
-- neutralizes
+  - neutralization
+  - neutralize
+  - neutralizes
 ---
 
 #academic/chemistry #flashcards/academic/Nn/neutralization__chemistry_

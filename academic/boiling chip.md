@@ -1,5 +1,7 @@
 ---
-aliases: ['anti-bumping granule', 'boiling stone',]
+aliases:
+  - anti-bumping granule
+  - boiling stone
 ---
 
 #academic/chemistry #flashcards/academic/Bb/boiling_chip

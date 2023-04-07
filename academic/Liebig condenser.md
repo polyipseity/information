@@ -1,5 +1,6 @@
 ---
-aliases: ['straight condenser',]
+aliases:
+  - straight condenser
 ---
 
 #academic/chemistry #flashcards/academic/Ll/Liebig_condenser

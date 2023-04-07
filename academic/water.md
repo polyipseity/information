@@ -1,5 +1,7 @@
 ---
-aliases: ['H2O', 'water',]
+aliases:
+  - H2O
+  - water
 ---
 
 #academic/biology #academic/chemistry #flashcards/academic/Ww/water

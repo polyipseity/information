@@ -1,5 +1,6 @@
 ---
-aliases: ['ice',]
+aliases:
+  - ice
 ---
 
 #academic/chemistry #flashcards/academic/Ii/ice

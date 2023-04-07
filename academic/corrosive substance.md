@@ -1,5 +1,8 @@
 ---
-aliases: ['corrosive', 'corrosive substance', 'corrosive substances',]
+aliases:
+  - corrosive
+  - corrosive substance
+  - corrosive substances
 ---
 
 #academic/chemistry #flashcards/academic/Cc/corrosive_substance

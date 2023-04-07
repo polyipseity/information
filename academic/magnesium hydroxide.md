@@ -1,5 +1,7 @@
 ---
-aliases: ['Mg(OH)2', 'magnesium hydroxide',]
+aliases:
+  - Mg(OH)2
+  - magnesium hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Mm/magnesium_hydroxide

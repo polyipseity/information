@@ -1,8 +1,8 @@
 ---
 aliases:
-- isomer
-- isomerism
-- isomeres
+  - isomer
+  - isomerism
+  - isomeres
 ---
 
 #academic/chemistry #flashcards/academic/Ii/isomer

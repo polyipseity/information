@@ -1,5 +1,8 @@
 ---
-aliases: ['MgO', 'magnesia', 'magnesium oxide',]
+aliases:
+  - MgO
+  - magnesia
+  - magnesium oxide
 ---
 
 #academic/chemistry #flashcards/academic/Mm/magnesium_oxide

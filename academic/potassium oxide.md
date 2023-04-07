@@ -1,5 +1,7 @@
 ---
-aliases: ['K2O', 'potassium oxide',]
+aliases:
+  - K2O
+  - potassium oxide
 ---
 
 #academic/chemistry #flashcards/academic/Pp/potassium_oxide

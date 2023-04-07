@@ -1,5 +1,7 @@
 ---
-aliases: ['Al(OH)3', 'aluminium hydroxide',]
+aliases:
+  - Al(OH)3
+  - aluminium hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Aa/aluminium_hydroxide

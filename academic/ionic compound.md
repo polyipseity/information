@@ -1,5 +1,7 @@
 ---
-aliases: ['ionic compound', 'ionic compounds',]
+aliases:
+  - ionic compound
+  - ionic compounds
 ---
 
 #academic/chemistry #flashcards/academic/Ii/ionic_compound

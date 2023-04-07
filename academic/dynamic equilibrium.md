@@ -1,8 +1,8 @@
 ---
 aliases:
-- dynamic equilibria
-- dynamic equilibrium
-- dynamic equilibriums
+  - dynamic equilibria
+  - dynamic equilibrium
+  - dynamic equilibriums
 ---
 
 #academic/chemistry #flashcards/academic/Dd/dynamic_equilibrium

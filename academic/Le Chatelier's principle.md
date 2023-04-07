@@ -1,9 +1,9 @@
 ---
 aliases:
-- Le Chatelier's Principle
-- Le Chatelier's principle
-- Le Châtelier's Principle
-- Le Châtelier's principle
+  - Le Chatelier's Principle
+  - Le Chatelier's principle
+  - Le Châtelier's Principle
+  - Le Châtelier's principle
 ---
 
 # Le Chatelier's principle

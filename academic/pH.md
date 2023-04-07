@@ -1,5 +1,8 @@
 ---
-aliases: ['acidity', 'pH', 'pOH',]
+aliases:
+  - acidity
+  - pH
+  - pOH
 ---
 
 #academic/biology #academic/chemistry #flashcards/academic/Pp/pH
