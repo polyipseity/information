@@ -15,7 +15,7 @@
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('bab829'), e.cwf_section('9387dd'),),
+	(e.cwf_sect('bab829'), e.cwf_sect('9387dd'),),
 	('name', 'description',),
 	(
 		('[construction](construction.md)', '[statue](statue.md)',),

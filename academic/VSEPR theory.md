@@ -27,7 +27,7 @@ The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {
 from pytextgen.gen import markdown_sanitizer
 e = __env__
 return await memorize_table(
-	(e.cwf_section('2900'), e.cwf_section('8daf'),),
+	(e.cwf_sect('2900'), e.cwf_sect('8daf'),),
 	('AXE', '[shape](molecular%20geometry.md)', 'ideal bond angle(s)', 'example(s)',),
 	(
 		('AX<sub>2</sub>E<sub>0</sub>', '[linear](linear%20molecular%20geometry.md)', '![{}](../attachments/AX2E0-3D-balls.png)', '180°', '[CO<sub>2</sub>](carbon%20dioxide.md)',),

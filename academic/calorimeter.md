@@ -28,7 +28,7 @@ A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_section('aa02'), e.cwf_section('2845'),),
+	(e.cwf_sect('aa02'), e.cwf_sect('2845'),),
 	(
 		'conditions are not standard conditions',
 		'heat capacities of equipment are not accounted for',

@@ -23,7 +23,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('3455'), e.cwf_section('dd21'),),
+	(e.cwf_sect('3455'), e.cwf_sect('dd21'),),
 	('name', 'description',),
 	(
 		('[desiccant](desiccant.md)', 'The [anhydrous](anhydrous.md) salt is [hydroscopic](hydroscopy) and deliquescent.',),

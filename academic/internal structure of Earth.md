@@ -14,7 +14,7 @@
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('2182ff'), e.cwf_section('239e8f'),),
+	(e.cwf_sect('2182ff'), e.cwf_sect('239e8f'),),
 	('name', 'description',),
 	(
 		('[atmosphere](atmosphere%20of%20Earth.md)', html_ul(('~80 km thick', 'gas',),),),
