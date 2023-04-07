@@ -121,6 +121,7 @@ async def memorize_map(
 					left=lambda data: escaper(data[0]),
 					right=lambda data: joiner.join(map(escaper, data[1])),
 				),
+				empty=True,
 				reversible=False,
 				states=states[index],
 			),
