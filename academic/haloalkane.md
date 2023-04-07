@@ -1,11 +1,11 @@
 ---
 aliases:
-- alkyl halide
-- alkyl halides
-- haloalkane
-- haloalkanes
-- halogenoalkane
-- halogenoalkanes
+  - alkyl halide
+  - alkyl halides
+  - haloalkane
+  - haloalkanes
+  - halogenoalkane
+  - halogenoalkanes
 ---
 
 #academic/chemistry #flashcards/academic/Hh/haloalkane

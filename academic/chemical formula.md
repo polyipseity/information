@@ -1,5 +1,8 @@
 ---
-aliases: ['chemical formula', 'chemical formulae', 'chemical formulas',]
+aliases:
+  - chemical formula
+  - chemical formulae
+  - chemical formulas
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chemical_formula

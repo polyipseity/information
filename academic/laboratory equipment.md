@@ -1,5 +1,8 @@
 ---
-aliases: ['laboratory apparatus', 'laboratory equipment', 'laboratory equipments',]
+aliases:
+  - laboratory apparatus
+  - laboratory equipment
+  - laboratory equipments
 ---
 
 #academic/biology #academic/chemistry #academic/physics #flashcards/academic/Ll/laboratory_equipment

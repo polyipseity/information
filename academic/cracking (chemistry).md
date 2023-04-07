@@ -1,5 +1,6 @@
 ---
-aliases: ['cracking',]
+aliases:
+  - cracking
 ---
 
 #academic/chemistry #flashcards/academic/Cc/cracking__chemistry_

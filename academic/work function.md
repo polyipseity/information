@@ -1,5 +1,6 @@
 ---
-aliases: ['work functions',]
+aliases:
+  - work functions
 ---
 
 #academic/physics #flashcards/academic/Ww/work_function

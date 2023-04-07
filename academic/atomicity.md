@@ -1,5 +1,6 @@
 ---
-aliases: ['atomicity',]
+aliases:
+  - atomicity
 ---
 
 #academic/chemistry #flashcards/academic/Aa/atomicity

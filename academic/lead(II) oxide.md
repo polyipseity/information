@@ -1,5 +1,7 @@
 ---
-aliases: ['PbO', 'lead(II) oxide',]
+aliases:
+  - PbO
+  - lead(II) oxide
 ---
 
 #academic/chemistry #flashcards/academic/Ll/lead_II__oxide

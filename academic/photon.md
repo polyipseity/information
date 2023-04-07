@@ -1,5 +1,6 @@
 ---
-aliases: ['photons',]
+aliases:
+  - photons
 ---
 
 #academic/physics #flashcards/academic/Pp/photon

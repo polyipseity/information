@@ -1,5 +1,7 @@
 ---
-aliases: ['Pb(OH)2', 'lead(II) hydroxide',]
+aliases:
+  - Pb(OH)2
+  - lead(II) hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Ll/lead_II__hydroxide

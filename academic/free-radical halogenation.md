@@ -1,5 +1,6 @@
 ---
-aliases: ['free radical halogenation',]
+aliases:
+  - free radical halogenation
 ---
 
 #academic/chemistry #flashcards/academic/Ff/free-radical_halogenation

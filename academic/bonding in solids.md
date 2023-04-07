@@ -1,5 +1,7 @@
 ---
-aliases: ['bonding in solids', 'bondings in solids',]
+aliases:
+  - bonding in solids
+  - bondings in solids
 ---
 
 #academic/chemistry #flashcards/academic/Bb/bonding_in_solids

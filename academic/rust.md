@@ -1,5 +1,7 @@
 ---
-aliases: ['rust', 'rusting',]
+aliases:
+  - rust
+  - rusting
 ---
 
 #academic/chemistry #flashcards/academic/Rr/rust

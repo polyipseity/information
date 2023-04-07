@@ -1,7 +1,7 @@
 ---
 aliases:
-- amide
-- amides
+  - amide
+  - amides
 ---
 
 #academic/chemistry #flashcards/academic/Aa/amide

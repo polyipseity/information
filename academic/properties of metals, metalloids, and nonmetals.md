@@ -1,5 +1,6 @@
 ---
-aliases: ['property of metals, metalloids, and nonmetals',]
+aliases:
+  - property of metals, metalloids, and nonmetals
 ---
 
 #academic/chemistry #flashcards/academic/Pp/properties_of_metals__metalloids_and__nonmetals

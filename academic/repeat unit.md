@@ -1,5 +1,15 @@
 ---
-aliases: ['mer', 'mers', 'repeat subunit', 'repeat subunits', 'repeat unit', 'repeat units', 'repeating subunit', 'repeating subunits', 'repeating unit', 'repeating units',]
+aliases:
+  - mer
+  - mers
+  - repeat subunit
+  - repeat subunits
+  - repeat unit
+  - repeat units
+  - repeating subunit
+  - repeating subunits
+  - repeating unit
+  - repeating units
 ---
 
 #academic/chemistry #flashcards/academic/Rr/repeat_unit

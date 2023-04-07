@@ -1,5 +1,6 @@
 ---
-aliases: ['corrosion',]
+aliases:
+  - corrosion
 ---
 
 #academic/chemistry #flashcards/academic/Cc/corrosion

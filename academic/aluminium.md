@@ -1,5 +1,8 @@
 ---
-aliases: ['Al', 'aluminium', 'aluminum',]
+aliases:
+  - Al
+  - aluminium
+  - aluminum
 ---
 
 #academic/chemistry #flashcards/academic/Aa/aluminium

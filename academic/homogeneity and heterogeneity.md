@@ -1,10 +1,10 @@
 ---
 aliases:
-- heterogeneity
-- heterogeneous
-- homogeneity
-- homogeneous
-- homogeneity and heterogeneity
+  - heterogeneity
+  - heterogeneous
+  - homogeneity
+  - homogeneous
+  - homogeneity and heterogeneity
 ---
 
 #academic/chemistry #flashcards/academic/Hh/homogeneity_and_heterogeneity

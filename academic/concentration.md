@@ -1,7 +1,7 @@
 ---
 aliases:
-- concentration
-- concentrations
+  - concentration
+  - concentrations
 ---
 
 #academic/chemistry #flashcards/academic/Cc/concentration

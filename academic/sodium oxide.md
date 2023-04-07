@@ -1,5 +1,7 @@
 ---
-aliases: ['Na2O', 'sodium oxide',]
+aliases:
+  - Na2O
+  - sodium oxide
 ---
 
 #academic/chemistry #flashcards/academic/Ss/sodium_oxide

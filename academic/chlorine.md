@@ -1,5 +1,8 @@
 ---
-aliases: ['Cl', 'Cl2', 'chlorine',]
+aliases:
+  - Cl
+  - Cl2
+  - chlorine
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chlorine

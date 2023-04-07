@@ -1,5 +1,9 @@
 ---
-aliases: ['covalent bond', 'covalent bonding', 'covalent bonds', 'covalently bound',]
+aliases:
+  - covalent bond
+  - covalent bonding
+  - covalent bonds
+  - covalently bound
 ---
 
 #academic/chemistry #flashcards/academic/Cc/covalent_bond

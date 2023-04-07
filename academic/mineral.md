@@ -1,5 +1,7 @@
 ---
-aliases: ['mineral species', 'minerals',]
+aliases:
+  - mineral species
+  - minerals
 ---
 
 #academic/chemistry #academic/geology #academic/mineralogy #flashcards/academic/Mm/mineral

@@ -1,5 +1,7 @@
 ---
-aliases: ['H2CO3', 'carbonic acid',]
+aliases:
+  - H2CO3
+  - carbonic acid
 ---
 
 #academic/biology #academic/chemistry #flashcards/academic/Cc/carbonic_acid

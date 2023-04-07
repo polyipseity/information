@@ -1,5 +1,8 @@
 ---
-aliases: ['alkali', 'alkalis', 'alkaline',]
+aliases:
+  - alkali
+  - alkalis
+  - alkaline
 ---
 
 #academic/chemistry #flashcards/academic/Aa/alkali
