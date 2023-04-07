@@ -31,31 +31,31 @@ from html import escape as h_esc
 from pytextgen.util import export_seq
 from typing import Iterable, Literal
 
-def html_list(type: Literal['ol', 'ul'], iter: Iterable[str], *, escape = True):
+def html_list0(type: Literal['ol', 'ul'], iter: Iterable[str], *, escape = True):
 	return f"<{type}><li>{'</li><li>'.join(map(h_esc, iter) if escape else iter)}</li></{type}>"
 
-def html_list2(type: Literal['ol', 'ul'], *args, **kwargs):
-	return html_list(type, args, **kwargs)
+def html_list(type: Literal['ol', 'ul'], *args, **kwargs):
+	return html_list0(type, args, **kwargs)
 
-def html_ol(iter: Iterable[str], **kwargs):
-	return html_list('ol', iter, **kwargs)
+def html_ol0(iter: Iterable[str], **kwargs):
+	return html_list0('ol', iter, **kwargs)
 
-def html_ol2(*args, **kwargs):
-	return html_ol(args, **kwargs)
+def html_ol(*args, **kwargs):
+	return html_ol0(args, **kwargs)
 
-def html_ul(iter: Iterable[str], **kwargs):
-	return html_list('ul', iter, **kwargs)
+def html_ul0(iter: Iterable[str], **kwargs):
+	return html_list0('ul', iter, **kwargs)
 
-def html_ul2(*args, **kwargs):
-	return html_ul(args, **kwargs)
+def html_ul(*args, **kwargs):
+	return html_ul0(args, **kwargs)
 
 return export_seq(
+	html_list0,
 	html_list,
-	html_list2,
+	html_ol0,
 	html_ol,
-	html_ol2,
+	html_ul0,
 	html_ul,
-	html_ul2,
 )
 ```
 

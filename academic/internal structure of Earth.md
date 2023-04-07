@@ -17,11 +17,11 @@ return await memorize_table(
 	(e.cwf_sect('2182ff'), e.cwf_sect('239e8f'),),
 	('name', 'description',),
 	(
-		('[atmosphere](atmosphere%20of%20Earth.md)', html_ul(('~80 km thick', 'gas',),),),
-		('[crust](crust.md)', html_ul(('~5–70 km thick', 'solid [rock](rock%20(geology).md)',),),),
-		('[mantle](mantle.md)', html_ul(('~2900 km thick', 'solid, dense rock',),),),
-		('[outer core](outer%20core.md)', html_ul(('very dense liquid rock', 'high [temperature](temperature.md)',),),),
-		('[inner core](inner%20core.md)', html_ul(('very dense solid rock', 'very high temperature and [pressure](pressure.md)',),),),
+		('[atmosphere](atmosphere%20of%20Earth.md)', html_ul('~80 km thick', 'gas',),),
+		('[crust](crust.md)', html_ul('~5–70 km thick', 'solid [rock](rock%20(geology).md)',),),
+		('[mantle](mantle.md)', html_ul('~2900 km thick', 'solid, dense rock',),),
+		('[outer core](outer%20core.md)', html_ul('very dense liquid rock', 'high [temperature](temperature.md)',),),
+		('[inner core](inner%20core.md)', html_ul('very dense solid rock', 'very high temperature and [pressure](pressure.md)',),),
 	),
 	lambda data: map(cloze, data),
 )
