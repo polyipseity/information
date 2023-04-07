@@ -1,5 +1,7 @@
 ---
-aliases: ['period', 'periods',]
+aliases:
+  - period
+  - periods
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Pp/period__periodic_table_

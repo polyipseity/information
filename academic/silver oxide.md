@@ -1,5 +1,7 @@
 ---
-aliases: ['Ag2O', 'silver oxide',]
+aliases:
+  - Ag2O
+  - silver oxide
 ---
 
 #academic/chemistry #flashcards/academic/Ss/silver_oxide

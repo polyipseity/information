@@ -1,5 +1,10 @@
 ---
-aliases: ['chemical polarities', 'chemical polarity', 'polar', 'polarities', 'polarity',]
+aliases:
+  - chemical polarities
+  - chemical polarity
+  - polar
+  - polarities
+  - polarity
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chemical_polarity

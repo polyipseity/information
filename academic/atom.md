@@ -1,5 +1,6 @@
 ---
-aliases: ['atoms',]
+aliases:
+  - atoms
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Aa/atom

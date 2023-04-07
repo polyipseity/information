@@ -1,5 +1,8 @@
 ---
-aliases: ['endothermic', 'endothermic process', 'endothermic processes',]
+aliases:
+  - endothermic
+  - endothermic process
+  - endothermic processes
 ---
 
 #academic/chemistry #flashcards/academic/Ee/endothermic_process

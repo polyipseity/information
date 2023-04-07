@@ -1,7 +1,7 @@
 ---
 aliases:
-- diamond
-- diamonds
+  - diamond
+  - diamonds
 ---
 
 #academic/chemistry #flashcards/academic/Dd/diamond

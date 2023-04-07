@@ -1,5 +1,8 @@
 ---
-aliases: ['chemical symbols', 'element symbol', 'element symbols',]
+aliases:
+  - chemical symbols
+  - element symbol
+  - element symbols
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chemical_symbol

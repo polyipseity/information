@@ -1,5 +1,9 @@
 ---
-aliases: ['bomb calorimeter', 'bomb calorimeters', 'calorimeter', 'calorimeters',]
+aliases:
+  - bomb calorimeter
+  - bomb calorimeters
+  - calorimeter
+  - calorimeters
 ---
 
 #academic/chemistry #flashcards/academic/Cc/calorimeter

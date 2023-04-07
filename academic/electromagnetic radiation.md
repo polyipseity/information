@@ -1,5 +1,10 @@
 ---
-aliases: ['EMR', 'electromagnetic wave', 'electromagnetic waves', 'EM wave', 'EM waves',]
+aliases:
+  - EMR
+  - electromagnetic wave
+  - electromagnetic waves
+  - EM wave
+  - EM waves
 ---
 
 #academic/physics #flashcards/academic/Ee/electromagnetic_radiation

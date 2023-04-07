@@ -1,5 +1,7 @@
 ---
-aliases: ['HNO3', 'nitric acid',]
+aliases:
+  - HNO3
+  - nitric acid
 ---
 
 #academic/chemistry #flashcards/academic/Nn/nitric_acid

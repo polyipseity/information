@@ -1,5 +1,9 @@
 ---
-aliases: ['electrovalence', 'ionic bond', 'ionic bonding', 'ionic bonds',]
+aliases:
+  - electrovalence
+  - ionic bond
+  - ionic bonding
+  - ionic bonds
 ---
 
 #academic/chemistry #flashcards/academic/Ii/ionic_bond

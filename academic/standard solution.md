@@ -1,5 +1,7 @@
 ---
-aliases: ['standard solution', 'standard solutions',]
+aliases:
+  - standard solution
+  - standard solutions
 ---
 
 #academic/chemistry #flashcards/academic/Ss/standard_solution

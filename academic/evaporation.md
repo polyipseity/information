@@ -1,5 +1,8 @@
 ---
-aliases: ['evaporate', 'evaporates', 'evaporation',]
+aliases:
+  - evaporate
+  - evaporates
+  - evaporation
 ---
 
 #academic/chemistry #flashcards/academic/Ee/evaporation

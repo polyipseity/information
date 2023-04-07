@@ -1,5 +1,7 @@
 ---
-aliases: ['Fe(OH)2', 'iron(II) hydroxide',]
+aliases:
+  - Fe(OH)2
+  - iron(II) hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Ii/iron_II__hydroxide

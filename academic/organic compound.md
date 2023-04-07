@@ -1,8 +1,8 @@
 ---
 aliases:
-- organic
-- organic compound
-- organic compounds
+  - organic
+  - organic compound
+  - organic compounds
 ---
 
 #academic/chemistry #flashcards/academic/Oo/organic_compound

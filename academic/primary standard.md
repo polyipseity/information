@@ -1,5 +1,7 @@
 ---
-aliases: ['primary standard', 'primary standards',]
+aliases:
+  - primary standard
+  - primary standards
 ---
 
 #academic/chemistry #flashcards/academic/Pp/primary_standard

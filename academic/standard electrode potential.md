@@ -1,5 +1,8 @@
 ---
-aliases: ['electrochemical series', 'standard electrode potential', 'standard electrode potentials',]
+aliases:
+  - electrochemical series
+  - standard electrode potential
+  - standard electrode potentials
 ---
 
 #academic/chemistry #flashcards/academic/Ss/standard_electrode_potential

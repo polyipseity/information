@@ -1,5 +1,8 @@
 ---
-aliases: ['C60', 'buckminsterfullerene', 'buckminsterfullerenes',]
+aliases:
+  - C60
+  - buckminsterfullerene
+  - buckminsterfullerenes
 ---
 
 #academic/chemistry #flashcards/academic/Bb/buckminsterfullerene

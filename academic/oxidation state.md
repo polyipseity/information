@@ -1,5 +1,6 @@
 ---
-aliases: ['oxidation number',]
+aliases:
+  - oxidation number
 ---
 
 #academic/chemistry #flashcards/academic/Oo/oxidation_state

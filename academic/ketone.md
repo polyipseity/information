@@ -1,7 +1,7 @@
 ---
 aliases:
-- ketone
-- ketones
+  - ketone
+  - ketones
 ---
 
 #academic/chemistry #flashcards/academic/Kk/ketone

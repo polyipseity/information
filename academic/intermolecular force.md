@@ -1,5 +1,7 @@
 ---
-aliases: ['intermolecular force', 'intermolecular forces',]
+aliases:
+  - intermolecular force
+  - intermolecular forces
 ---
 
 #academic/chemistry #flashcards/academic/Ii/intermolecular_force

@@ -1,5 +1,7 @@
 ---
-aliases: ['dalton', 'unified atomic mass unit',]
+aliases:
+  - dalton
+  - unified atomic mass unit
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Dd/dalton__unit_

@@ -1,5 +1,7 @@
 ---
-aliases: ['molecular mass', 'relative molecular mass',]
+aliases:
+  - molecular mass
+  - relative molecular mass
 ---
 
 #academic/chemistry #flashcards/academic/Mm/molecular_mass

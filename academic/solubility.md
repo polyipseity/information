@@ -1,5 +1,7 @@
 ---
-aliases: ['insoluble', 'soluble',]
+aliases:
+  - insoluble
+  - soluble
 ---
 
 #academic/chemistry #flashcards/academic/Ss/solubility

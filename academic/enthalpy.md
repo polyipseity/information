@@ -1,5 +1,7 @@
 ---
-aliases: ['enthalpies', 'enthalpy',]
+aliases:
+  - enthalpies
+  - enthalpy
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Ee/enthalpy

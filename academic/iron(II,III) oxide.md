@@ -1,5 +1,10 @@
 ---
-aliases: ['Fe3O4', 'FeO∙Fe2O3', 'iron(II) iron(III) oxide', 'iron(II, III) oxide', 'iron(II,III) oxide',]
+aliases:
+  - Fe3O4
+  - FeO∙Fe2O3
+  - iron(II) iron(III) oxide
+  - iron(II, III) oxide
+  - iron(II,III) oxide
 ---
 
 #academic/chemistry #flashcards/academic/Ii/iron_II_III__oxide

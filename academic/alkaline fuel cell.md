@@ -1,5 +1,8 @@
 ---
-aliases: ['Bacon fuel cell', 'alkaline fuel cell', 'alkaline fuel cells',]
+aliases:
+  - Bacon fuel cell
+  - alkaline fuel cell
+  - alkaline fuel cells
 ---
 
 #academic/chemistry #flashcards/academic/Aa/alkaline_fuel_cell

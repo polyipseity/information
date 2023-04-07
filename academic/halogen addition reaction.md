@@ -1,5 +1,7 @@
 ---
-aliases: ['halogen addition reaction', 'halogen addition reactions',]
+aliases:
+  - halogen addition reaction
+  - halogen addition reactions
 ---
 
 #academic/chemistry #flashcards/academic/Hh/halogen_addition_reaction

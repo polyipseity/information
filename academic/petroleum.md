@@ -1,5 +1,10 @@
 ---
-aliases: ['crude oil', 'crude oils', 'oil', 'oils', 'petroleum']
+aliases:
+  - crude oil
+  - crude oils
+  - oil
+  - oils
+  - petroleum
 ---
 
 #academic/chemistry #flashcards/academic/Pp/petroleum

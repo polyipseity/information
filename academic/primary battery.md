@@ -1,5 +1,9 @@
 ---
-aliases: ['primary batteries', 'primary battery', 'primary cell', 'primary cells',]
+aliases:
+  - primary batteries
+  - primary battery
+  - primary cell
+  - primary cells
 ---
 
 #academic/chemistry #flashcards/academic/Pp/primary_battery

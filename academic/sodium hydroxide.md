@@ -1,5 +1,7 @@
 ---
-aliases: ['NaOH', 'sodium hydroxide',]
+aliases:
+  - NaOH
+  - sodium hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Ss/sodium_hydroxide

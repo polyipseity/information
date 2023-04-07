@@ -1,5 +1,9 @@
 ---
-aliases: ['HgO', 'mercury oxide', 'mercuric oxide', 'mercury(II) oxide',]
+aliases:
+  - HgO
+  - mercury oxide
+  - mercuric oxide
+  - mercury(II) oxide
 ---
 
 #academic/chemistry #flashcards/academic/Mm/mercury_II__oxide

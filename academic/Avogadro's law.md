@@ -1,6 +1,6 @@
 ---
 aliases:
-- Avogadro's law
+  - Avogadro's law
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Aa/Avogadro_s_law

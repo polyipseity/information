@@ -1,5 +1,6 @@
 ---
-aliases: ['octet rule',]
+aliases:
+  - octet rule
 ---
 
 %%

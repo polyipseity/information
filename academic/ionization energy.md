@@ -1,5 +1,8 @@
 ---
-aliases: ['ionization energies', 'ionisation energy', 'ionisation energies',]
+aliases:
+  - ionization energies
+  - ionisation energy
+  - ionisation energies
 ---
 
 #academic/physics #flashcards/academic/Ii/ionization_energy

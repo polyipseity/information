@@ -1,5 +1,6 @@
 ---
-aliases: ['photoemission',]
+aliases:
+  - photoemission
 ---
 
 #academic/physics #flashcards/academic/Pp/photoelectric_effect

@@ -1,5 +1,7 @@
 ---
-aliases: ['hydrocarbon', 'hydrocarbons',]
+aliases:
+  - hydrocarbon
+  - hydrocarbons
 ---
 
 #academic/chemistry #flashcards/academic/Hh/hydrocarbon

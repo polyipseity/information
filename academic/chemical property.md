@@ -1,5 +1,7 @@
 ---
-aliases: ['chemical properties', 'chemical property',]
+aliases:
+  - chemical properties
+  - chemical property
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chemical_property

@@ -1,5 +1,7 @@
 ---
-aliases: ['Zn(OH)2', 'zinc hydroxide',]
+aliases:
+  - Zn(OH)2
+  - zinc hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Zz/zinc_hydroxide

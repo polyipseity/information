@@ -1,5 +1,6 @@
 ---
-aliases: ['physical changes',]
+aliases:
+  - physical changes
 ---
 
 #academic/chemistry #flashcards/academic/Pp/physical_change

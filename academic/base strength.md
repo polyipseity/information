@@ -1,5 +1,9 @@
 ---
-aliases: ['base strength', 'base strengths', 'strong base', 'strong bases',]
+aliases:
+  - base strength
+  - base strengths
+  - strong base
+  - strong bases
 ---
 
 #academic/chemistry #flashcards/academic/Bb/base_strength
