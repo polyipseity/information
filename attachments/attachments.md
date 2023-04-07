@@ -10,6 +10,7 @@
 ## Aa
 - [A laboratory heat spreader made of asbestos, over Teclu burner.jpg](A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg): <a href="https://commons.wikimedia.org/wiki/File:A_laboratory_heat_spreader_made_of_asbestos,_over_Teclu_burner.jpg">LukaszKatlewa</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons
 - [Abdampfschalen verschiedene Groessen.jpg](Abdampfschalen%20verschiedene%20Groessen.jpg): <a href="https://commons.wikimedia.org/wiki/File:Abdampfschalen_verschiedene_Groessen.jpg">Simon A. Eugster</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [Aspirin-skeletal.svg](Aspirin-skeletal.svg): <a href="https://commons.wikimedia.org/wiki/File:Aspirin-skeletal.svg">Originally User:Benjah-bmm27</a>, Public domain, via Wikimedia Commons
 - [Atomic Symbol Mg.svg](Atomic%20Symbol%20Mg.svg): <a href="https://commons.wikimedia.org/wiki/File:Atomic_Symbol_Mg.svg">GKFX</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [AX2E0-3D-balls.png](AX2E0-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX2E0-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
 - [AX2E1-3D-balls.png](AX2E1-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:AX2E1-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
