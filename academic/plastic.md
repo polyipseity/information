@@ -24,7 +24,7 @@ __Plastics__ are {{[synthetic](synthetic%20polymers.md) or semi-synthetic [mater
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('9403'), e.cwf_sect('234a'),),
+	e.cwf_sects('9403', '234a'),
 	('name', '[chemical formula](chemical%20formula.md)', '[property(s)](property.md)', 'use(s)',),
 	(
 		('[high-density polyethylene](high-density%20polyethylene.md) (HDPE)', '![polyethylene](../attachments/Polyethylene%20repeat%20unit.svg)', 'higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md)', '[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md)'),

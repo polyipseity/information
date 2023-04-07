@@ -50,7 +50,7 @@ Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqu
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('ff02'), e.cwf_sect('1233'),),
+	e.cwf_sects('ff02', '1233'),
 	('name', 'description',),
 	(
 		('[oxidation](#oxidation)', '',),

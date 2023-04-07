@@ -28,7 +28,7 @@ The reaction rate is always {{positive}}.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_sect('596a'), e.cwf_sect('22dd'),),
+	e.cwf_sects('596a', '22dd'),
 	(
 		'[catalyst](catalysis.md) presence: correlated',
 		'[concentration](concentration.md) of [reactants](reagent.md): correlated',

@@ -22,7 +22,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('d828'), e.cwf_sect('295f'),),
+	e.cwf_sects('d828', '295f'),
 	('type', 'description',),
 	(
 		('[aromatic hydrocarbons](aromatic%20compound.md)', 'Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).',),

@@ -23,7 +23,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_sect('d924'), e.cwf_sect('abba'),),
+	e.cwf_sects('d924', 'abba'),
 	(
 		'all [combustion reactions](combustion.md)',
 		'all [neutralization reactions](neutralization%20(chemistry).md)',

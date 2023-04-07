@@ -25,7 +25,7 @@ A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [
 from itertools import chain
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('8462'), e.cwf_sect('92de'),),
+	e.cwf_sects('8462', '92de'),
 	('name (IUPAC/old IUPAC/old CAS)', 'IUPAC recommended trivial name',),
 	(
 		('[group 1](#^group-1)/IA/IA', '[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)', '^group-1',),

@@ -26,7 +26,7 @@ e = __env__
 rinse_water = 'Rinse the equipment with [distilled water](distilled%20water.md) before use.'
 rinse_water_soln = 'Rinse the equipment with [distilled water](distilled%20water.md) and then the [solution](solution.md) to be delievered.'
 return await memorize_table(
-	(e.cwf_sect('fadd2e'), e.cwf_sect('b81237'),),
+	e.cwf_sects('fadd2e', 'b81237'),
 	('name & image', 'description',),
 	(
 		('[Bunsen burner](Bunsen%20burner.md)', '![{}](../attachments/Bunsen%20burner.jpg)', '',),
