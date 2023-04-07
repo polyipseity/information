@@ -36,7 +36,7 @@ If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) a
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('d981'), e.cwf_sect('248f'),),
+	e.cwf_sects('d981', '248f'),
 	('name', 'description',),
 	(
 		('indicator', 'Using a [substance](chemical%20substance.md) that changes color to a [chemical change](chemical%20change.md) to monitor the reaction. [pH indicators](pH%20indicator.md) are used in [acid–base titration](#acid–base%20titration).',),

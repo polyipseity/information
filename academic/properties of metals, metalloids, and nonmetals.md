@@ -21,7 +21,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('b9ae'), e.cwf_sect('293d'),),
+	e.cwf_sects('b9ae', '293d'),
 	('property', 'metal', 'metalloid', 'nonmetal',),
 	(
 		('appearance', html_ul('mostly shiny and grey-white',), html_ul('shiny and grey-white',), html_ul('mostly dull',),),

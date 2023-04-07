@@ -25,7 +25,7 @@ The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorg
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_sect('d9ea'), e.cwf_sect('301d'),),
+	e.cwf_sects('d9ea', '301d'),
 	(
 		'[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.',
 		'[Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).',
@@ -67,7 +67,7 @@ An older system exist:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('eef1'), e.cwf_sect('394d'),),
+	e.cwf_sects('eef1', '394d'),
 	('[oxidation state](oxidation%20state.md)', '[cations](ion.md) and [acids](acid.md)', '[anions](ion.md)',),
 	(
 		('lowest', '_hypo-\\*-ous_', '_hypo-\\*-ite_',),

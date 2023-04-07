@@ -26,7 +26,7 @@ Attractive forces include {{[van der Waals forces](van%20der%20Waals%20force.md)
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('294a'), e.cwf_sect('ff83'),),
+	e.cwf_sects('294a', 'ff83'),
 	('type', 'dissociation energy',),
 	(
 		('[covalent bond](covalent%20bond.md)', '130–1100 kJ/mol',),

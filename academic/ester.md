@@ -48,7 +48,7 @@ In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic]
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('23af'), e.cwf_sect('333d'),),
+	e.cwf_sects('23af', '333d'),
 	('name', 'description',),
 	(
 		('[hydrolysis](#hydrolysis)', '',),

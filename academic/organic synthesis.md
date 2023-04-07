@@ -21,7 +21,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('d912'), e.cwf_sect('2939'),),
+	e.cwf_sects('d912', '2939'),
 	('name', 'description',),
 	(
 		('availability', '[Reagents](reagent.md) should be readily available and cheap.',),

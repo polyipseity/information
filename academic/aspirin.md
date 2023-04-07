@@ -28,7 +28,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('332a'), e.cwf_sect('45af'),),
+	e.cwf_sects('332a', '45af'),
 	('name', 'description',),
 	(
 		('[analgesic](analgesic.md)', '',),
@@ -69,7 +69,7 @@ return await memorize_table(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('11af'), e.cwf_sect('78ae'),),
+	e.cwf_sects('11af', '78ae'),
 	('name', 'description',),
 	(
 		('increased bleeding risk', '',),

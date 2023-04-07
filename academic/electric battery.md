@@ -36,7 +36,7 @@ headers = 'chemistry', '[anode](anode.md) (-)', '[cathode](cathode.md) (+)', '[e
 e = __env__
 return chain.from_iterable(await gather(
 	memorize_table(
-		(e.cwf_sect('d923'), e.cwf_sect('aa92'),),
+		e.cwf_sects('d923', 'aa92'),
 		headers,
 		(
 			('[alkaline](alkaline%20battery.md)', '[Zn](zinc.md)', '[MnO<sub>2</sub>](manganese%20dioxide.md)', '[KOH](potassium%20hydroxide.md)', '1.15/1.5 V', html_ul('high discharge rate', 'longer [shelf life](shelf%20life.md)', 'low [internal resistance](internal%20resistance.md)', 'slightly more expensive',), 'Usually cylindrical. Suitable for high-drain or continuous-use devices.',),
@@ -46,7 +46,7 @@ return chain.from_iterable(await gather(
 		lambda datum: map(cloze, datum),
 	),
 	memorize_table(
-		(e.cwf_sect('4214'), e.cwf_sect('6661'),),
+		e.cwf_sects('4214', '6661'),
 		headers,
 		(
 			('[NiMH](nickel–metal%20hydride%20battery.md)', '[H](hydrogen.md)-absorbing [alloy](alloy.md)', '[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md)', '[KOH](potassium%20hydroxide.md)', '/1.2 V', html_ul('expensive', 'high discharge rate', 'high energy density', 'low [internal resistance](internal%20resistance.md)', 'rechargeable up to 500 (180–2000) times'), 'Usually cylindrical. Suitable for high-drain devices.',),
