@@ -1,5 +1,7 @@
 ---
-aliases: ['copper(II) sulfate', 'copper(II) sulphate',]
+aliases:
+  - copper(II) sulfate
+  - copper(II) sulphate
 ---
 
 #academic/chemistry #flashcards/academic/Cc/copper_II__sulfate

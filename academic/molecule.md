@@ -1,5 +1,7 @@
 ---
-aliases: ['molecule', 'molecules',]
+aliases:
+  - molecule
+  - molecules
 ---
 
 #academic/chemistry #flashcards/academic/Mm/molecule

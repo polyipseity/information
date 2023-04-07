@@ -1,5 +1,7 @@
 ---
-aliases: ['chemical', 'chemistry',]
+aliases:
+  - chemical
+  - chemistry
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chemistry

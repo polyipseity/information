@@ -1,7 +1,7 @@
 ---
 aliases:
-- aldehyde
-- aldehydes
+  - aldehyde
+  - aldehydes
 ---
 
 #academic/chemistry #flashcards/academic/Aa/aldehyde

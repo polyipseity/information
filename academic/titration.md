@@ -1,5 +1,9 @@
 ---
-aliases: ['titration', 'titrimetric analysis', 'titrimetry', 'volumetric analysis',]
+aliases:
+  - titration
+  - titrimetric analysis
+  - titrimetry
+  - volumetric analysis
 ---
 
 #academic/chemistry #flashcards/academic/Tt/titration

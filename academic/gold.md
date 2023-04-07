@@ -1,5 +1,7 @@
 ---
-aliases: ['Au', 'gold',]
+aliases:
+  - Au
+  - gold
 ---
 
 #academic/chemistry #flashcards/academic/Gg/gold

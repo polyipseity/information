@@ -1,5 +1,11 @@
 ---
-aliases: ['anion', 'anions', 'cation', 'cations', 'ion', 'ions',]
+aliases:
+  - anion
+  - anions
+  - cation
+  - cations
+  - ion
+  - ions
 ---
 
 #academic/chemistry #flashcards/academic/Ii/ion

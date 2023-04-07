@@ -1,5 +1,10 @@
 ---
-aliases: ['chemical substances', 'chemical', 'pure substance', 'substance', 'substances',]
+aliases:
+  - chemical substances
+  - chemical
+  - pure substance
+  - substance
+  - substances
 ---
 
 #academic/chemistry #flashcards/academic/Cc/chemical_substance

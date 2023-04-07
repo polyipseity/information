@@ -1,7 +1,7 @@
 ---
 aliases:
-- alcohol
-- alcohols
+  - alcohol
+  - alcohols
 ---
 
 #academic/biology #academic/chemistry #flashcards/academic/Aa/alcohol

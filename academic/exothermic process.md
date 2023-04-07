@@ -1,5 +1,8 @@
 ---
-aliases: ['exothermic', 'exothermic process', 'exothermic processes',]
+aliases:
+  - exothermic
+  - exothermic process
+  - exothermic processes
 ---
 
 #academic/chemistry #flashcards/academic/Ee/exothermic_process

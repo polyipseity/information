@@ -1,5 +1,8 @@
 ---
-aliases: ['LDF', 'London dispersion force', 'London dispersion forces',]
+aliases:
+  - LDF
+  - London dispersion force
+  - London dispersion forces
 ---
 
 #academic/chemistry #flashcards/academic/Ll/London_dispersion_force

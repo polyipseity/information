@@ -1,5 +1,6 @@
 ---
-aliases: ['nonmetals',]
+aliases:
+  - nonmetals
 ---
 
 #academic/chemistry #flashcards/academic/Nn/nonmetal

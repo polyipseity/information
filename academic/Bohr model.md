@@ -1,5 +1,6 @@
 ---
-aliases: ['Rutherford–Bohr model',]
+aliases:
+  - Rutherford–Bohr model
 ---
 
 #academic/physics #flashcards/academic/Bb/Bohr_model

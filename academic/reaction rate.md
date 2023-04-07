@@ -1,5 +1,9 @@
 ---
-aliases: ['rate of reaction', 'rates of reaction', 'reaction rate', 'reaction rates',]
+aliases:
+  - rate of reaction
+  - rates of reaction
+  - reaction rate
+  - reaction rates
 ---
 
 #academic/chemistry #flashcards/academic/Rr/reaction_rate

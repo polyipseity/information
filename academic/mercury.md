@@ -1,5 +1,7 @@
 ---
-aliases: ['Hg', 'mercury',]
+aliases:
+  - Hg
+  - mercury
 ---
 
 #academic/chemistry #flashcards/academic/Mm/mercury

@@ -1,5 +1,7 @@
 ---
-aliases: ['physical properties', 'physical property',]
+aliases:
+  - physical properties
+  - physical property
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Pp/physical_property

@@ -1,5 +1,10 @@
 ---
-aliases: ['exchange reaction', 'single displacement reaction', 'single-displacement reaction', 'single replacement reaction', 'single-replacement reaction',]
+aliases:
+  - exchange reaction
+  - single displacement reaction
+  - single-displacement reaction
+  - single replacement reaction
+  - single-replacement reaction
 ---
 
 #academic/chemistry #flashcards/academic/Ss/single_displacement_reaction

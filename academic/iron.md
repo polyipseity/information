@@ -1,5 +1,7 @@
 ---
-aliases: ['Fe', 'iron',]
+aliases:
+  - Fe
+  - iron
 ---
 
 #academic/chemistry #flashcards/academic/Ii/iron

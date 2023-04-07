@@ -1,5 +1,6 @@
 ---
-aliases: ['energy levels',]
+aliases:
+  - energy levels
 ---
 
 #academic/physics #flashcards/academic/Ee/energy_level

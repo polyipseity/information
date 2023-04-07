@@ -1,5 +1,7 @@
 ---
-aliases: ['Cu(OH)2', 'copper(II) hydroxide',]
+aliases:
+  - Cu(OH)2
+  - copper(II) hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Cc/copper_II__hydroxide

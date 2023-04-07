@@ -1,5 +1,7 @@
 ---
-aliases: ['VSEPR theory', 'valence shell electron pair repulsion theory',]
+aliases:
+  - VSEPR theory
+  - valence shell electron pair repulsion theory
 ---
 
 #academic/chemistry #flashcards/academic/Vv/VSEPR_theory

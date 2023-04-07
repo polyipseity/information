@@ -1,5 +1,7 @@
 ---
-aliases: ['therochemical equation', 'thermochemical equations',]
+aliases:
+  - therochemical equation
+  - thermochemical equations
 ---
 
 #academic/chemistry #flashcards/academic/Tt/thermochemical_equation

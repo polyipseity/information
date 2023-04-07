@@ -1,6 +1,6 @@
 ---
 aliases:
-- quartz
+  - quartz
 ---
 
 #academic/chemistry #flashcards/academic/Qq/quartz

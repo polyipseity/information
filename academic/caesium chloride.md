@@ -1,8 +1,8 @@
 ---
 aliases:
-- CsCl
-- caesium chloride
-- cesium chloride
+  - CsCl
+  - caesium chloride
+  - cesium chloride
 ---
 
 #academic/chemistry #flashcards/academic/Cc/caesium_chloride

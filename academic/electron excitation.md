@@ -1,5 +1,7 @@
 ---
-aliases: ['electron relaxation', 'electron deexcitation',]
+aliases:
+  - electron relaxation
+  - electron deexcitation
 ---
 
 #academic/physics #flashcards/academic/Ee/electron_excitation

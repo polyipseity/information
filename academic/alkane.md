@@ -1,5 +1,8 @@
 ---
-aliases: ['alkane', 'alkanes', 'paraffin',]
+aliases:
+  - alkane
+  - alkanes
+  - paraffin
 ---
 
 #academic/chemistry #flashcards/academic/Aa/alkane

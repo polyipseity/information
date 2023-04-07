@@ -1,5 +1,7 @@
 ---
-aliases: ['alkene', 'alkenes',]
+aliases:
+  - alkene
+  - alkenes
 ---
 
 #academic/chemistry #flashcards/academic/Aa/alkene

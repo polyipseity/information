@@ -1,5 +1,7 @@
 ---
-aliases: ['isotope', 'isotopes',]
+aliases:
+  - isotope
+  - isotopes
 ---
 
 #academic/chemistry #flashcards/academic/Ii/isotope

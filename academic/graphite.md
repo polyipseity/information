@@ -1,7 +1,7 @@
 ---
 aliases:
-- graphite
-- graphites
+  - graphite
+  - graphites
 ---
 
 #academic/chemistry #flashcards/academic/Gg/graphite

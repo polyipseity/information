@@ -1,5 +1,6 @@
 ---
-aliases: ['metals',]
+aliases:
+  - metals
 ---
 
 #academic/chemistry #flashcards/academic/Mm/metal

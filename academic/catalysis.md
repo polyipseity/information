@@ -1,5 +1,8 @@
 ---
-aliases: ['catalysis', 'catalyst', 'catalysts',]
+aliases:
+  - catalysis
+  - catalyst
+  - catalysts
 ---
 
 #academic/biology #academic/chemistry #flashcards/academic/Cc/catalysis

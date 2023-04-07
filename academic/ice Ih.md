@@ -1,5 +1,7 @@
 ---
-aliases: ['ice 1h', 'ice Ih']
+aliases:
+  - ice 1h
+  - ice Ih
 ---
 
 #academic/chemistry #flashcards/academic/Ii/ice_Ih

@@ -1,5 +1,8 @@
 ---
-aliases: ['alkali metal', 'alkali metals', 'lithium group',]
+aliases:
+  - alkali metal
+  - alkali metals
+  - lithium group
 ---
 
 #academic/chemistry #flashcards/academic/Aa/alkali_metal

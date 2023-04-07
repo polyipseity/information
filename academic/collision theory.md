@@ -1,5 +1,6 @@
 ---
-aliases: ['collision theory',]
+aliases:
+  - collision theory
 ---
 
 #academic/chemistry #flashcards/academic/Cc/collision_theory

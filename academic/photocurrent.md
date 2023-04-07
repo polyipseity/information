@@ -1,5 +1,7 @@
 ---
-aliases: ['photoelectric current', 'photovoltaic current',]
+aliases:
+  - photoelectric current
+  - photovoltaic current
 ---
 
 #academic/physics #flashcards/academic/Pp/photocurrent

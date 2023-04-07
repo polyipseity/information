@@ -1,5 +1,7 @@
 ---
-aliases: ['IUPAC numerical multiplier', 'IUPAC numerical multipliers',]
+aliases:
+  - IUPAC numerical multiplier
+  - IUPAC numerical multipliers
 ---
 
 #academic/chemistry #flashcards/academic/Ii/IUPAC_numerical_multiplier

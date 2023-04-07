@@ -1,5 +1,6 @@
 ---
-aliases: ['air separation',]
+aliases:
+  - air separation
 ---
 
 #academic/chemistry #flashcards/academic/Aa/air_separation

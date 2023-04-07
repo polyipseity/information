@@ -1,5 +1,10 @@
 ---
-aliases: ['metalloids', 'semi-metal', 'semi-metals', 'semimetal', 'semimetals',]
+aliases:
+  - metalloids
+  - semi-metal
+  - semi-metals
+  - semimetal
+  - semimetals
 ---
 
 #academic/chemistry #flashcards/academic/Mm/metalloid

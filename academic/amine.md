@@ -1,7 +1,7 @@
 ---
 aliases:
-- amine
-- amines
+  - amine
+  - amines
 ---
 
 #academic/chemistry #flashcards/academic/Aa/amine

@@ -1,5 +1,7 @@
 ---
-aliases: ['salt bridge', 'salt bridges',]
+aliases:
+  - salt bridge
+  - salt bridges
 ---
 
 #academic/chemistry #flashcards/academic/Ss/salt_bridge

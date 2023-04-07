@@ -1,5 +1,7 @@
 ---
-aliases: ['Ag', 'silver',]
+aliases:
+  - Ag
+  - silver
 ---
 
 #academic/chemistry #flashcards/academic/Ss/silver

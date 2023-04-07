@@ -1,5 +1,6 @@
 ---
-aliases: ['IUPAC nomenclature of inorganic chemistry',]
+aliases:
+  - IUPAC nomenclature of inorganic chemistry
 ---
 
 #academic/chemistry #flashcards/academic/Ii/IUPAC_nomenclature_of_inorganic_chemistry

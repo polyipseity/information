@@ -1,5 +1,11 @@
 ---
-aliases: ['coordinate covalent bond', 'coordinate covalent bonding', 'coordinate covalent bonds', 'dative bond', 'dative bonding', 'dative bonds',]
+aliases:
+  - coordinate covalent bond
+  - coordinate covalent bonding
+  - coordinate covalent bonds
+  - dative bond
+  - dative bonding
+  - dative bonds
 ---
 
 #academic/chemistry #flashcards/academic/Cc/coordinate_covalent_bond

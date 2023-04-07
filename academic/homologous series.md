@@ -1,5 +1,6 @@
 ---
-aliases: ['homologous series',]
+aliases:
+  - homologous series
 ---
 
 #academic/chemistry #flashcards/academic/Hh/homologous_series

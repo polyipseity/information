@@ -1,5 +1,10 @@
 ---
-aliases: ['Al2O3', 'aluminium oxide', 'aluminum oxide', 'aluminium(III) oxide', 'aluminum(III) oxide',]
+aliases:
+  - Al2O3
+  - aluminium oxide
+  - aluminum oxide
+  - aluminium(III) oxide
+  - aluminum(III) oxide
 ---
 
 #academic/chemistry #flashcards/academic/Aa/aluminium_oxide

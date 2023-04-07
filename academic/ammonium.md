@@ -1,7 +1,7 @@
 ---
 aliases:
-- NH4+
-- ammonium
+  - NH4+
+  - ammonium
 ---
 
 #academic/chemistry #flashcards/academic/Aa/ammonium

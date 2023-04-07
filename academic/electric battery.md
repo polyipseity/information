@@ -1,5 +1,11 @@
 ---
-aliases: ['battiers', 'battery', 'electric batteries', 'electric battery', 'electrical batteries', 'electrical battery']
+aliases:
+  - battiers
+  - battery
+  - electric batteries
+  - electric battery
+  - electrical batteries
+  - electrical battery
 ---
 
 #academic/chemistry #flashcards/academic/Ee/electric_battery

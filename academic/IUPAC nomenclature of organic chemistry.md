@@ -1,5 +1,6 @@
 ---
-aliases: ['IUPAC nomenclature of organic chemistry',]
+aliases:
+  - IUPAC nomenclature of organic chemistry
 ---
 
 #academic/chemistry #flashcards/academic/Ii/IUPAC_nomenclature_of_organic_chemistry

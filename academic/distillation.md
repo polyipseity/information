@@ -1,8 +1,8 @@
 ---
 aliases:
-- distill
-- distillation
-- distills
+  - distill
+  - distillation
+  - distills
 ---
 
 #academic/chemistry #flashcards/academic/Dd/distillation

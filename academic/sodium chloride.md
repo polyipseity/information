@@ -1,7 +1,7 @@
 ---
 aliases:
-- NaCl
-- sodium chloride
+  - NaCl
+  - sodium chloride
 ---
 
 #academic/chemistry #flashcards/academic/Ss/sodium_chloride

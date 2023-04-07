@@ -1,5 +1,7 @@
 ---
-aliases: ['Ti', 'titanium',]
+aliases:
+  - Ti
+  - titanium
 ---
 
 #academic/chemistry #flashcards/academic/Tt/titanium

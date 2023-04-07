@@ -1,5 +1,9 @@
 ---
-aliases: ['acid strength', 'acid strengths', 'strong acid', 'strong acids',]
+aliases:
+  - acid strength
+  - acid strengths
+  - strong acid
+  - strong acids
 ---
 
 #academic/chemistry #flashcards/academic/Aa/acid_strength

@@ -1,5 +1,7 @@
 ---
-aliases: ['ZnO', 'zinc oxide',]
+aliases:
+  - ZnO
+  - zinc oxide
 ---
 
 #academic/chemistry #flashcards/academic/Zz/zinc_oxide
