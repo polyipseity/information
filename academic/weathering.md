@@ -17,7 +17,7 @@ Weathering can be divided into {{_[physical weathering](#physical%20weathering)_
 
 ### frost weathering
 
-_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_forst wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}.
+_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_frost wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}.
 
 ### thermal stress
 
