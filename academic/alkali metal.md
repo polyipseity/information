@@ -29,7 +29,7 @@ Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals]
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	(e.cwf_section('7f8c'), e.cwf_section('938d'), e.cwf_section('bb89'),),
+	e.cwf_sects('7f8c', '938d', 'bb89'),
 	items_to_map(
 		('[lithium](lithium.md)', 'floats, producing hydrogen gas steadily',),
 		('[sodium](sodium.md)', 'melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly',),

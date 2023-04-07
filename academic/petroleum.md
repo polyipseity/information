@@ -33,7 +33,7 @@ Petroleum is {{separated by [fractional distillation](fractional%20distillation.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('2039'), e.cwf_section('d5f1'),),
+	e.cwf_sects('2039', 'd5f1'),
 	('[fraction](fraction%20(chemistry).md)', '[boiling point](boiling%20point.md) range', 'use(s)',),
 	(
 		('[liqueified petroleum gas](liqueified%20petroleum%20gas.md)', '-40 to -1 °C', '[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md)',),

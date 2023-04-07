@@ -22,7 +22,7 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('2313'), e.cwf_section('fda3'),),
+	e.cwf_sects('2313', 'fda3'),
 	('name', 'description',),
 	(
 		('[thermometers](thermometer.md)', '[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)',),

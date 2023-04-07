@@ -125,22 +125,22 @@ elements = gen.TextCode.compile(
 
 return (
 	util.Result(
-		location=__env__.cwf_section('230419'),
+		location=__env__.cwf_sect('230419'),
 		text=gen.cloze_text(table,
-			states=await read.read_flashcard_states(__env__.cwf_section('230419')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('230419')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('9209fd'),
+		location=__env__.cwf_sect('9209fd'),
 		text=gen.memorize_two_sided(potentials,
 			reversible=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('9209fd')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('9209fd')),
 		),
 	),
 	util.Result(
-		location=__env__.cwf_section('ab92dd'),
+		location=__env__.cwf_sect('ab92dd'),
 		text=gen.memorize_two_sided(elements,
-			states=await read.read_flashcard_states(__env__.cwf_section('ab92dd'))
+			states=await read.read_flashcard_states(__env__.cwf_sect('ab92dd'))
 		),
 	),
 )

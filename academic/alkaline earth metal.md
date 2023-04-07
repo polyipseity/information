@@ -33,7 +33,7 @@ Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [no
 e = __env__
 ca_or_below = 'reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above'
 return await memorize_map(
-	(e.cwf_section('0439'), e.cwf_section('1d5e'), e.cwf_section('ffa2'),),
+	e.cwf_sects('0439', '1d5e', 'ffa2'),
 	items_to_map(
 		('[beryllium](beryllium.md)', 'no reaction with water or steam',),
 		('[magnesium](magnesium.md)', 'reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas',),

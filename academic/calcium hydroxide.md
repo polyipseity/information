@@ -39,14 +39,14 @@ data: gen.TextCode = gen.seq_to_code((
 	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 return (
 	util.Result(
-		location=__env__.cwf_section('12ff7a'),
+		location=__env__.cwf_sect('12ff7a'),
 		text=gen.quote_text(data),
 	),
 	util.Result(
-		location=__env__.cwf_section('d7182f'),
+		location=__env__.cwf_sect('d7182f'),
 		text=gen.memorize_linked_seq(data,
 			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_section('d7182f')),
+			states=await read.read_flashcard_states(__env__.cwf_sect('d7182f')),
 		),
 	),
 )

@@ -26,7 +26,7 @@ A primary standard can be used {{in [titration](titration.md) and to prepare a [
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	(e.cwf_section('d928'), e.cwf_section('fb92'),),
+	e.cwf_sects('d928', 'fb92'),
 	(
 		'high purity',
 		'low [reactivity](reactivity%20(chemistry).md)',

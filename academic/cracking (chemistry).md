@@ -25,7 +25,7 @@ It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. 
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('923d'), e.cwf_section('395a'),),
+	e.cwf_sects('923d', '395a'),
 	('name', 'description',),
 	(
 		('catalytic cracking', 'Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.',),

@@ -178,20 +178,20 @@ e = __env__
 return chain.from_iterable(await gather(
 	cation_sect.memorize(
 		(
-			e.cwf_section('d9192d'),
-			e.cwf_section('3928fd'),
-			e.cwf_section('8d8dee'),
-			e.cwf_section('a5defa'),
-			e.cwf_section('394a'),
+			e.cwf_sect('d9192d'),
+			e.cwf_sect('3928fd'),
+			e.cwf_sect('8d8dee'),
+			e.cwf_sect('a5defa'),
+			e.cwf_sect('394a'),
 		),
 	),
 	anion_sect.memorize(
 		(
-			e.cwf_section('a9fdfe'),
-			e.cwf_section('2fde12'),
-			e.cwf_section('8c7820'),
-			e.cwf_section('104852'),
-			e.cwf_section('50ad'),
+			e.cwf_sect('a9fdfe'),
+			e.cwf_sect('2fde12'),
+			e.cwf_sect('8c7820'),
+			e.cwf_sect('104852'),
+			e.cwf_sect('50ad'),
 		),
 	),
 ))

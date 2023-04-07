@@ -29,7 +29,7 @@ Catalysts can {{increase production throughput, reducing production cost and sav
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('ad24'), e.cwf_section('394f'),),
+	e.cwf_sects('ad24', '394f'),
 	('name', 'description',),
 	(
 		('[Haber process](Haber%20process.md)', 'Finely divided [iron](iron.md) catalyzes the production of [NH<sub>3</sub>](ammonia.md) from [N<sub>2</sub>](nitrogen.md) and [H<sub>2</sub>](hydrogen.md).',),

@@ -36,7 +36,7 @@ e_smelt = '[smelting](smelting.md) with [coke](coke%20(fuel).md)'
 e_cr = '[aluminothermic reaction](aluminothermic%20reaction.md)'
 e_phy = 'heat or physical extraction'
 return await memorize_table(
-	(e.cwf_section('a2994d'), e.cwf_section('299018'),),
+	e.cwf_sects('a2994d', '299018'),
 	('[metal](metal.md)', '[ion](ion.md)', '[reactivity](reactivity%20(chemistry).md)', '[extraction](extractive%20metallurgy.md)'),
 	(
 		('[caesium](caesium.md)', 'Cs<sup>+</sup>', r_water, e_ele,),

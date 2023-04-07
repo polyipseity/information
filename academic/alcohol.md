@@ -54,7 +54,7 @@ To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{h
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	(e.cwf_section('ff11'), e.cwf_section('abba'),),
+	e.cwf_sects('ff11', 'abba'),
 	('name', 'description',),
 	(
 		('[dehydration](#dehydration)', '',),
