@@ -7,7 +7,7 @@
 ### window management
 
 - pop up window menu:::Alt+Space <!--SR:!2023-07-27,120,250!2023-05-03,80,270-->
-- close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-04-07,62,270!2023-07-05,122,270-->
+- close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-05-08,31,250!2023-07-05,122,270-->
 - restore window size:::Alt+Space, R <!--SR:!2023-07-27,137,270!2023-04-29,37,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-06-14,97,250!2023-09-17,186,310-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-04-22,19,190!2023-04-08,63,270-->
@@ -21,7 +21,7 @@
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2023-05-04,29,250!2023-09-24,171,270-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2023-04-12,59,250!2023-05-18,50,230-->
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-05-22,81,250!2023-06-28,117,270-->
-- quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-04-07,18,190!2023-07-13,114,270-->
+- quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-04-14,7,170!2023-07-13,114,270-->
 - close dialog:::Esc <!--SR:!2023-12-16,261,330!2023-04-30,77,270-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-04-14,61,250!2023-06-22,100,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-05-22,76,230!2023-10-10,187,270-->

@@ -10,18 +10,18 @@ aliases:
 
 # sulfuric acid
 
-__Sulfuric acid__ or __sulphuric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __H<sub>2</sub>SO<sub>4</sub>__}}. <!--SR:!2023-04-07,4,270-->
+__Sulfuric acid__ or __sulphuric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __H<sub>2</sub>SO<sub>4</sub>__}}. <!--SR:!2023-04-24,17,290-->
 
-Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by [mass](mass.md)}}. <!--SR:!2023-04-07,4,270-->
+Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by [mass](mass.md)}}. <!--SR:!2023-04-24,17,290-->
 
 ## chemistry
 
 ### reactions with metals
 
-Dilute sulfuric acid {{oxidizes reactive [metals](metal.md) to form metal [sulfates](sulfate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-04-07,4,270-->
+Dilute sulfuric acid {{oxidizes reactive [metals](metal.md) to form metal [sulfates](sulfate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-04-09,2,250-->
 
 Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxide](sulfur%20dioxide.md)}}. <!--SR:!2023-04-08,2,230-->
 
 ### reactions with nonmetals
 
-Hot concentrated sulfuric acid {{oxidizes [carbon](carbon.md) to [carbon dioxide](carbon%20dioxide.md) and [sulfur](sulfur.md) to [sulfur dioxide](sulfur%20dioxide.md)}}. All of above produces sulfur dioxide as well. <!--SR:!2023-04-07,4,270-->
+Hot concentrated sulfuric acid {{oxidizes [carbon](carbon.md) to [carbon dioxide](carbon%20dioxide.md) and [sulfur](sulfur.md) to [sulfur dioxide](sulfur%20dioxide.md)}}. All of above produces sulfur dioxide as well. <!--SR:!2023-04-16,9,270-->

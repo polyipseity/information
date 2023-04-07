@@ -165,7 +165,7 @@ return (
 
 1. 1~5:::<span style="color: red;">red</span> <!--SR:!2023-06-13,282,270!2023-09-16,325,250-->
 2. 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-10-04,553,250!2023-07-03,256,230-->
-3. 8~14:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2023-05-12,263,270!2023-04-07,59,190-->
+3. 8~14:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2023-05-12,263,270!2023-09-22,168,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

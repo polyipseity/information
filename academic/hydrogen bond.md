@@ -12,7 +12,7 @@ aliases:
 
 # hydrogen bond
 
-A __hydrogen bond__ or __H-bond__ is {{an [electrostatic](electrostatics.md) attraction [force](force.md) between a [hydrogen](hydrogen.md) atom (H) [covalently bound](covalent%20bond.md) to a more [electronegative](electronegativity.md) donor [atom](atom.md) or group (Dn), and another electronegative acceptor atom with a [lone electron pair](lone%20pair.md) (Ac)}}. It is represented as {{Dn−H···Ac}}. The donor and acceptor atoms are usually {{[fluorine](fluorine.md), [oxygen](oxygen.md), or [nitrogen](nitrogen.md)}}. <!--SR:!2023-04-07,2,230!2023-04-20,14,290!2023-04-21,15,290-->
+A __hydrogen bond__ or __H-bond__ is {{an [electrostatic](electrostatics.md) attraction [force](force.md) between a [hydrogen](hydrogen.md) atom (H) [covalently bound](covalent%20bond.md) to a more [electronegative](electronegativity.md) donor [atom](atom.md) or group (Dn), and another electronegative acceptor atom with a [lone electron pair](lone%20pair.md) (Ac)}}. It is represented as {{Dn−H···Ac}}. The donor and acceptor atoms are usually {{[fluorine](fluorine.md), [oxygen](oxygen.md), or [nitrogen](nitrogen.md)}}. <!--SR:!2023-04-11,4,230!2023-04-20,14,290!2023-04-21,15,290-->
 
 The hydrogen bond is important in {{[DNAs](DNA.md) to maintain its double helix structure and [water](water.md) for its exceptional [properties](property.md)}}. <!--SR:!2023-04-18,13,270-->
 
@@ -20,4 +20,4 @@ The hydrogen bond is important in {{[DNAs](DNA.md) to maintain its double helix 
 
 ### water
 
-Hydrogen bonds are responsible for {{the high [boiling point](boiling%20point.md), [surface tension](surface%20tension.md), and [viscosity](viscosity.md)}} of [water](water.md). It also makes [ethanol](ethanol.md) {{[miscible](miscibility.md) in all portions}} with water. <!--SR:!2023-04-07,2,230!2023-04-23,17,290-->
+Hydrogen bonds are responsible for {{the high [boiling point](boiling%20point.md), [surface tension](surface%20tension.md), and [viscosity](viscosity.md)}} of [water](water.md). It also makes [ethanol](ethanol.md) {{[miscible](miscibility.md) in all portions}} with water. <!--SR:!2023-04-12,5,250!2023-04-23,17,290-->

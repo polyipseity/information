@@ -11,7 +11,7 @@ aliases:
 
 # chemical substance
 
-A __chemical substance__ is {{a matter with characteristic properties and constant [chemical composition](chemical%20composition.md)}}. It can either be {{a [chemical element](#chemical%20element) or a [chemical compound](#chemical%20compound)}}.<sup>[1](#^note-1)</sup> It is pure, {{while impure ones are [mixtures](mixture.md)}}. <!--SR:!2023-04-19,14,230!2023-04-07,9,250!2023-04-17,17,290-->
+A __chemical substance__ is {{a matter with characteristic properties and constant [chemical composition](chemical%20composition.md)}}. It can either be {{a [chemical element](#chemical%20element) or a [chemical compound](#chemical%20compound)}}.<sup>[1](#^note-1)</sup> It is pure, {{while impure ones are [mixtures](mixture.md)}}. <!--SR:!2023-04-19,14,230!2023-05-13,36,270!2023-04-17,17,290-->
 
 ## properties
 
@@ -21,7 +21,7 @@ Compare with [mixture § properties](mixture.md#properties).
 - formation: {{[chemical reaction](chemical%20reaction.md) occurs}}
 - properties: {{different from its constituents}}
 - separation: {{separable by chemical methods but not physical methods}}
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{sharp}} <!--SR:!2023-04-09,10,250!2023-04-15,15,290!2023-04-07,9,250!2023-04-10,11,270!2023-04-11,12,270-->
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{sharp}} <!--SR:!2023-04-09,10,250!2023-04-15,15,290!2023-05-09,32,270!2023-04-10,11,270!2023-04-11,12,270-->
 
 ## chemical element
 

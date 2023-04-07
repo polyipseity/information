@@ -8,13 +8,13 @@ aliases:
 
 # silver nitrate
 
-__Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Ag](silver.md)[NO<sub>3</sub>](nitrate.md)}}. <!--SR:!2023-04-07,4,270-->
+__Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Ag](silver.md)[NO<sub>3</sub>](nitrate.md)}}. <!--SR:!2023-04-24,17,290-->
 
 ## uses
 
 ### halide abstraction
 
-Ag<sup>+</sup> {{reacts quickly with [halides](halide.md) to produce [insoluble](solubility.md) [silver halide](silver%20halide.md)}}: <!--SR:!2023-04-07,4,270-->
+Ag<sup>+</sup> {{reacts quickly with [halides](halide.md) to produce [insoluble](solubility.md) [silver halide](silver%20halide.md)}}: <!--SR:!2023-04-09,2,250-->
 
 > {{Ag<sup>+</sup>(aq) + X<sup>-</sup>(aq) → AgX(s)
 > 

@@ -9,8 +9,8 @@ aliases:
 
 # corrosive substance
 
-A __corrosive substance__ is {{a [substance](chemical%20substance.md) that damages other substances in contact by a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2023-04-07,6,230-->
+A __corrosive substance__ is {{a [substance](chemical%20substance.md) that damages other substances in contact by a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2023-04-21,14,230-->
 
 ## protection
 
-Use {{[personal protective equipment](personal%20protective%20equipment.md), such as [gloves](glove.md), [safety spectacles](goggles.md), etc.}} when handling corrosive substances. Perform experiements in {{[fume cupboards](fume%20hood.md) to avoid breathing in corrosive [vapors](vapor.md)}}. When diluting [acids](acid.md) or [bases](base%20(chemistry).md), {{add them slowly to a large amount of [water](water.md) with stirring, but not in reverse, to avoid heating up the [liquids](liquid.md) and splattering them}}. <!--SR:!2023-04-17,17,290!2023-04-20,15,250!2023-04-07,8,250-->
+Use {{[personal protective equipment](personal%20protective%20equipment.md), such as [gloves](glove.md), [safety spectacles](goggles.md), etc.}} when handling corrosive substances. Perform experiements in {{[fume cupboards](fume%20hood.md) to avoid breathing in corrosive [vapors](vapor.md)}}. When diluting [acids](acid.md) or [bases](base%20(chemistry).md), {{add them slowly to a large amount of [water](water.md) with stirring, but not in reverse, to avoid heating up the [liquids](liquid.md) and splattering them}}. <!--SR:!2023-04-17,17,290!2023-04-20,15,250!2023-04-29,22,250-->

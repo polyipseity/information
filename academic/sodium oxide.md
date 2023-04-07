@@ -8,4 +8,4 @@ aliases:
 
 # sodium oxide
 
-__Sodium oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Na](sodium.md)<sub>2</sub>[O](oxygen.md)__}}. It looks like {{white [solid](solid.md)}}. <!--SR:!2023-04-07,4,270!2023-04-07,4,270-->
+__Sodium oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Na](sodium.md)<sub>2</sub>[O](oxygen.md)__}}. It looks like {{white [solid](solid.md)}}. <!--SR:!2023-04-24,17,290!2023-04-18,11,270-->
