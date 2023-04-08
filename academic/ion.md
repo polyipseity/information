@@ -38,11 +38,14 @@ COLORLESS = 'colorless'
 NA_COLOR = '_(n/a)_'
 BLUE = '<span style="color: blue; background-color: white;">blue</span>'
 BROWN = '<span style="color: brown; background-color: white;">brown</span>'
+DEEP_PURPLE = '<span style="color: darkViolet; background-color: white;">deep purple</span>'
 GREEN = '<span style="color: green;">green</span>'
 ORANGE = '<span style="color: orange;">orange</span>'
 PINK = '<span style="color: pink;">pink</span>'
-PURPLE = '<span style="color: darkViolet; background-color: white;">deep purple</span>'
+PURPLE = '<span style="color: purple; background-color: white;">purple</span>'
+RED = '<span style="color: red;">red</color>'
 VERY_PALE_PINK = '<span style="color: lightPink;">very pale pink</span>'
+VIOLET = '<span style="color: violet;">violet</span>'
 YELLOW = '<span style="color: yellow;">yellow</span>'
 
 @typing.final
@@ -73,6 +76,11 @@ cations: typing.Sequence[Ion] = (
 	Ion(name='aluminium ion', symbol='Al<sup>3+</sup>', charge=3, color=COLORLESS),
 	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge=3, color=(f'{YELLOW} (dilute)', f'{BROWN} (concentrated)',)),
 	Ion(name='chromium(III) ion', symbol='Cr<sup>3+</sup>', charge=3, color=GREEN),
+	Ion(name='scandium(III) ion', symbol='Sc<sup>3+</sup>', charge=3, color=COLORLESS),
+	Ion(name='titanium(III) ion', symbol='Ti<sup>3+</sup>', charge=3, color=PURPLE),
+	Ion(name='vanadium(II) ion', symbol='V<sup>2+</sup>', charge=2, color=VIOLET),
+	Ion(name='vanadium(III) ion', symbol='V<sup>3+</sup>', charge=3, color=GREEN),
+	Ion(name='manganese(III) ion', symbol='Mn<sup>3+</sup>', charge=3, color=RED),
 )
 anions: typing.Sequence[Ion] = (
 	Ion(name='hydride ion', symbol='H<sup>-</sup>', charge=-1, color=COLORLESS),
@@ -86,7 +94,7 @@ anions: typing.Sequence[Ion] = (
 	Ion(name='hydrogencarbonate ion', symbol='HCO<sub>3</sub><sup>-</sup>', charge=-1, color=COLORLESS),
 	Ion(name='hydrogensulfite ion', symbol='HSO<sub>3</sub><sup>-</sup>', charge=-1, color=COLORLESS),
 	Ion(name='hydrogensulfate ion', symbol='HSO<sub>4</sub><sup>-</sup>', charge=-1, color=COLORLESS),
-	Ion(name='permanganate ion', symbol='MnO<sub>4</sub><sup>-</sup>', charge=-1, color=PURPLE),
+	Ion(name='permanganate ion', symbol='MnO<sub>4</sub><sup>-</sup>', charge=-1, color=DEEP_PURPLE),
 	Ion(name='oxide ion', symbol='O<sup>2-</sup>', charge=-2, color=NA_COLOR),
 	Ion(name='sulfide ion', symbol='S<sup>2-</sup>', charge=-2, color=NA_COLOR),
 	Ion(name='sulfate ion', symbol='SO<sub>4</sub><sup>2-</sup>', charge=-2, color=COLORLESS),
@@ -96,6 +104,7 @@ anions: typing.Sequence[Ion] = (
 	Ion(name='dichromate ion', symbol='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>', charge=-2, color=ORANGE),
 	Ion(name='nitride ion', symbol='N<sup>3-</sup>', charge=-3, color=NA_COLOR),
 	Ion(name='phosphate ion', symbol='PO<sub>4</sub><sup>3-</sup>', charge=-3, color=COLORLESS),
+	Ion(name='manganate ion', symbol='MnO<sub>4</sub><sup>2-</sup>', charge=-2, color=GREEN),
 )
 
 @typing.final
@@ -215,7 +224,7 @@ return chain.from_iterable(await gather(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-08T13:27:42.191429+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-08T14:17:08.431600+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charage | color |
 > |-|-|-|-|
@@ -240,12 +249,17 @@ return chain.from_iterable(await gather(
 > | aluminium ion | Al<sup>3+</sup> | 3+ | colorless |
 > | iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) |
 > | chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
+> | scandium(III) ion | Sc<sup>3+</sup> | 3+ | colorless |
+> | titanium(III) ion | Ti<sup>3+</sup> | 3+ | <span style="color: purple; background-color: white;">purple</span> |
+> | vanadium(II) ion | V<sup>2+</sup> | 2+ | <span style="color: violet;">violet</span> |
+> | vanadium(III) ion | V<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
+> | manganese(III) ion | Mn<sup>3+</sup> | 3+ | <span style="color: red;">red</color> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-06T20:13:24.273182+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2023-04-08T14:17:08.477476+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion:::H<sup>+</sup>
 2. sodium ion:::Na<sup>+</sup>
@@ -268,12 +282,17 @@ return chain.from_iterable(await gather(
 19. aluminium ion:::Al<sup>3+</sup>
 20. iron(III) ion:::Fe<sup>3+</sup>
 21. chromium(III) ion:::Cr<sup>3+</sup>
+22. scandium(III) ion:::Sc<sup>3+</sup>
+23. titanium(III) ion:::Ti<sup>3+</sup>
+24. vanadium(II) ion:::V<sup>2+</sup>
+25. vanadium(III) ion:::V<sup>3+</sup>
+26. manganese(III) ion:::Mn<sup>3+</sup>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-11-06T20:13:24.309183+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2023-04-08T14:17:08.448555+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion::1+
 2. sodium ion::1+
@@ -296,12 +315,17 @@ return chain.from_iterable(await gather(
 19. aluminium ion::3+
 20. iron(III) ion::3+
 21. chromium(III) ion::3+
+22. scandium(III) ion::3+
+23. titanium(III) ion::3+
+24. vanadium(II) ion::2+
+25. vanadium(III) ion::3+
+26. manganese(III) ion::3+
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-05T21:00:01.467277+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-08T14:17:08.464511+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion::colorless
 2. sodium ion::colorless
@@ -324,25 +348,33 @@ return chain.from_iterable(await gather(
 19. aluminium ion::colorless
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated)
 21. chromium(III) ion::<span style="color: green;">green</span>
+22. scandium(III) ion::colorless
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span>
+24. vanadium(II) ion::<span style="color: violet;">violet</span>
+25. vanadium(III) ion::<span style="color: green;">green</span>
+26. manganese(III) ion::<span style="color: red;">red</color>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### color–name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-05T21:00:01.482751+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-08T13:40:47.993725+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion
 4. <span style="color: pink;">pink</span>::cobalt(II) ion
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion
 6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion
+7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion
+8. <span style="color: violet;">violet</span>::vanadium(II) ion
+9. <span style="color: red;">red</color>::manganese(III) ion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2023-03-20T16:20:30.971663+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2023-04-08T13:39:40.674419+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charage | color |
 > |-|-|-|-|
@@ -367,12 +399,13 @@ return chain.from_iterable(await gather(
 > | dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <span style="color: orange;">orange</span> |
 > | nitride ion | N<sup>3-</sup> | 3- | _(n/a)_ |
 > | phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless |
+> | manganate ion | MnO<sub>4</sub><sup>2-</sup> | 2- | <span style="color: green;">green</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-06T20:13:24.353184+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2023-04-08T13:39:40.602610+08:00. Any edits will be overridden! -->
 
 1. hydride ion:::H<sup>-</sup>
 2. fluoride ion:::F<sup>-</sup>
@@ -395,12 +428,13 @@ return chain.from_iterable(await gather(
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
 20. nitride ion:::N<sup>3-</sup>
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup>
+22. manganate ion:::MnO<sub>4</sub><sup>2-</sup>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-11-06T20:13:24.365182+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2023-04-08T13:39:40.618568+08:00. Any edits will be overridden! -->
 
 1. hydride ion::1-
 2. fluoride ion::1-
@@ -423,12 +457,13 @@ return chain.from_iterable(await gather(
 19. dichromate ion::2-
 20. nitride ion::3-
 21. phosphate ion::3-
+22. manganate ion::2-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2023-03-26T02:18:01.020995+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2023-04-08T13:39:40.653475+08:00. Any edits will be overridden! -->
 
 1. hydride ion::colorless
 2. fluoride ion::colorless
@@ -451,15 +486,17 @@ return chain.from_iterable(await gather(
 19. dichromate ion::<span style="color: orange;">orange</span>
 20. nitride ion::_(n/a)_
 21. phosphate ion::colorless
+22. manganate ion::<span style="color: green;">green</span>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### color–name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-03-26T02:15:41.882122+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-04-08T13:39:40.573688+08:00. Any edits will be overridden! -->
 
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion
 2. <span style="color: yellow;">yellow</span>::chromate ion
 3. <span style="color: orange;">orange</span>::dichromate ion
+4. <span style="color: green;">green</span>::manganate ion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
