@@ -39,14 +39,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[desiccant](desiccant.md)}} | {{The [anhydrous](anhydrous.md) salt is [hydroscopic](hydroscopy) and deliquescent.}} |
-> | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} |
+> | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} | <!--SR:!2023-04-12,4,270!2023-04-09,1,230!2023-04-12,4,270!2023-04-09,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd21"--><!-- The following content is generated at 2023-04-07T10:29:27.473816+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[desiccant](desiccant.md)
-2. [desiccant](desiccant.md)→:::←[separation](separation%20process.md)
-3. [separation](separation%20process.md)→:::←_(end)_
+1. _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2023-04-12,4,270!2023-04-12,4,270-->
+2. [desiccant](desiccant.md)→:::←[separation](separation%20process.md) <!--SR:!2023-04-12,4,270!2023-04-12,4,270-->
+3. [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2023-04-12,4,270!2023-04-12,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
