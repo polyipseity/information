@@ -1,8 +1,14 @@
+---
+aliases:
+  - catalytic converter
+  - catalytic converters
+---
+
 #academic/chemistry #flashcards/academic/Cc/catalytic_converter
 
 # catalytic converter
 
-__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}.
+__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}. {{[Platinum](platinum.md) or [rhodium](rhodium.md)}} can be used as the [catalyst](catalysis.md).
 
 ## reactions
 
