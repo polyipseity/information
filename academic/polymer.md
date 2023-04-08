@@ -8,7 +8,7 @@ aliases:
 
 # polymer
 
-A __polymer__ is {{a [substance](chemical%20substance.md) consisting of [macromolecules](macromolecule.md) with [repeating subunits](repeat%20unit.md)}}. It is created by {{the [polymerization](polymerization.md) of [monomers](monomer.md)}}. Examples include {{[plastics](plastic.md), [DNAs](DNA.md), and [proteins](protein.md)}}. <!--SR:!2023-04-08,2,230!2023-04-16,10,270!2023-04-08,2,230-->
+A __polymer__ is {{a [substance](chemical%20substance.md) consisting of [macromolecules](macromolecule.md) with [repeating subunits](repeat%20unit.md)}}. It is created by {{the [polymerization](polymerization.md) of [monomers](monomer.md)}}. Examples include {{[plastics](plastic.md), [DNAs](DNA.md), and [proteins](protein.md)}}. <!--SR:!2023-04-09,1,210!2023-04-16,10,270!2023-04-14,6,250-->
 
 ## synthesis
 

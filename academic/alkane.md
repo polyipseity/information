@@ -16,7 +16,7 @@ aliases:
 
 # alkane
 
-An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2023-04-08,9,250-->
+An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2023-05-12,34,270-->
 
 ## physical properties
 

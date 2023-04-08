@@ -8,7 +8,7 @@ aliases:
 
 # aluminium hydroxide
 
-__Aluminium hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Al](aluminium.md)([OH](hydroxide.md))<sub>3</sub>}}. It looks like {{white [solid](solid.md)}}. <!--SR:!2023-04-17,17,290!2023-04-08,9,250-->
+__Aluminium hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Al](aluminium.md)([OH](hydroxide.md))<sub>3</sub>}}. It looks like {{white [solid](solid.md)}}. <!--SR:!2023-04-17,17,290!2023-04-29,21,250-->
 
 ## preparation
 

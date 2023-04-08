@@ -30,7 +30,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-05-05,73,313!2023-10-23,200,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-05-06,74,313!2023-04-14,57,293-->
-- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-04-08,51,293!2023-05-14,82,328-->
+- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2023-05-14,82,328-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-05-07,75,313!2023-05-15,83,328-->
 
 ## insert

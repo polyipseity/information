@@ -15,7 +15,7 @@ aliases:
 
 # rust
 
-__Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2023-04-08,2,230-->
+__Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2023-04-12,4,230-->
 
 ## chemical reactions
 
@@ -75,7 +75,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-04-23,16,290!2023-04-22,15,290-->
-2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-04-08,2,230!2023-04-21,14,290-->
+2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-04-14,6,250!2023-04-21,14,290-->
 3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-04-22,15,290!2023-04-23,16,290-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2023-04-20,13,270!2023-04-24,17,290-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
@@ -98,7 +98,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-04-21,1
 
 - See also: [electroplating](electroplating.md)
 
-Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-04-08,1,230-->
+Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-04-11,3,250-->
 
 In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-04-14,8,250!2023-04-11,4,210!2023-04-12,6,250!2023-04-18,12,270!2023-04-23,16,290!2023-04-13,7,250!2023-04-16,9,270-->
 
