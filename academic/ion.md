@@ -36,6 +36,14 @@ import typing
 
 COLORLESS = 'colorless'
 NA_COLOR = '_(n/a)_'
+BLUE = '<span style="color: blue; background-color: white;">blue</span>'
+BROWN = '<span style="color: brown; background-color: white;">brown</span>'
+GREEN = '<span style="color: green;">green</span>'
+ORANGE = '<span style="color: orange;">orange</span>'
+PINK = '<span style="color: pink;">pink</span>'
+PURPLE = '<span style="color: darkViolet; background-color: white;">deep purple</span>'
+VERY_PALE_PINK = '<span style="color: lightPink;">very pale pink</span>'
+YELLOW = '<span style="color: yellow;">yellow</span>'
 
 @typing.final
 class Ion(typing.NamedTuple):
@@ -55,16 +63,16 @@ cations: typing.Sequence[Ion] = (
 	Ion(name='calcium ion', symbol='Ca<sup>2+</sup>', charge='2+', color=COLORLESS),
 	Ion(name='barium ion', symbol='Ba<sup>2+</sup>', charge='2+', color=COLORLESS),
 	Ion(name='lead(II) ion', symbol='Pb<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='iron(II) ion', symbol='Fe<sup>2+</sup>', charge='2+', color='<span style="color: green;">green</span>'),
-	Ion(name='nickel(II) ion', symbol='Ni<sup>2+</sup>', charge='2+', color='<span style="color: green;">green</span>'),
-	Ion(name='copper(II) ion', symbol='Cu<sup>2+</sup>', charge='2+', color=('<span style="color: blue; background-color: white;">blue</span>', '<span style="color: green;">green</span>',)),
+	Ion(name='iron(II) ion', symbol='Fe<sup>2+</sup>', charge='2+', color=GREEN),
+	Ion(name='nickel(II) ion', symbol='Ni<sup>2+</sup>', charge='2+', color=GREEN),
+	Ion(name='copper(II) ion', symbol='Cu<sup>2+</sup>', charge='2+', color=(BLUE, GREEN,)),
 	Ion(name='zinc ion', symbol='Zn<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='manganese(II) ion', symbol='Mn<sup>2+</sup>', charge='2+', color='<span style="color: lightPink;">very pale pink</span>'),
+	Ion(name='manganese(II) ion', symbol='Mn<sup>2+</sup>', charge='2+', color=VERY_PALE_PINK),
 	Ion(name='mercury(II) ion', symbol='Hg<sup>2+</sup>', charge='2+', color=NA_COLOR),
-	Ion(name='cobalt(II) ion', symbol='Co<sup>2+</sup>', charge='2+', color='<span style="color: pink;">pink</span>'),
+	Ion(name='cobalt(II) ion', symbol='Co<sup>2+</sup>', charge='2+', color=PINK),
 	Ion(name='aluminium ion', symbol='Al<sup>3+</sup>', charge='3+', color=COLORLESS),
-	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge='3+', color=('<span style="color: yellow;">yellow</span> (dilute)', '<span style="color: brown; background-color: white;">brown</span> (concentrated)',)),
-	Ion(name='chromium(III) ion', symbol='Cr<sup>3+</sup>', charge='3+', color='<span style="color: green;">green</span>'),
+	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge='3+', color=(f'{YELLOW} (dilute)', f'{BROWN} (concentrated)',)),
+	Ion(name='chromium(III) ion', symbol='Cr<sup>3+</sup>', charge='3+', color=GREEN),
 )
 anions: typing.Sequence[Ion] = (
 	Ion(name='hydride ion', symbol='H<sup>-</sup>', charge='1-', color=COLORLESS),
@@ -78,14 +86,14 @@ anions: typing.Sequence[Ion] = (
 	Ion(name='hydrogencarbonate ion', symbol='HCO<sub>3</sub><sup>-</sup>', charge='1-', color=COLORLESS),
 	Ion(name='hydrogensulfite ion', symbol='HSO<sub>3</sub><sup>-</sup>', charge='1-', color=COLORLESS),
 	Ion(name='hydrogensulfate ion', symbol='HSO<sub>4</sub><sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='permanganate ion', symbol='MnO<sub>4</sub><sup>-</sup>', charge='1-', color='<span style="color: darkViolet; background-color: white;">deep purple</span>'),
+	Ion(name='permanganate ion', symbol='MnO<sub>4</sub><sup>-</sup>', charge='1-', color=PURPLE),
 	Ion(name='oxide ion', symbol='O<sup>2-</sup>', charge='2-', color=NA_COLOR),
 	Ion(name='sulfide ion', symbol='S<sup>2-</sup>', charge='2-', color=NA_COLOR),
 	Ion(name='sulfate ion', symbol='SO<sub>4</sub><sup>2-</sup>', charge='2-', color=COLORLESS),
 	Ion(name='sulfite ion', symbol='SO<sub>3</sub><sup>2-</sup>', charge='2-', color=COLORLESS),
 	Ion(name='carbonate ion', symbol='CO<sub>3</sub><sup>2-</sup>', charge='2-', color=COLORLESS),
-	Ion(name='chromate ion', symbol='CrO<sub>4</sub><sup>2-</sup>', charge='2-', color='<span style="color: yellow;">yellow</span>'),
-	Ion(name='dichromate ion', symbol='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>', charge='2-', color='<span style="color: orange;">orange</span>'),
+	Ion(name='chromate ion', symbol='CrO<sub>4</sub><sup>2-</sup>', charge='2-', color=YELLOW),
+	Ion(name='dichromate ion', symbol='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>', charge='2-', color=ORANGE),
 	Ion(name='nitride ion', symbol='N<sup>3-</sup>', charge='3-', color=NA_COLOR),
 	Ion(name='phosphate ion', symbol='PO<sub>4</sub><sup>3-</sup>', charge='3-', color=COLORLESS),
 )
