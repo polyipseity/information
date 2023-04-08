@@ -61,14 +61,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[cracking](#cracking)}} |  |
-> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} |
+> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-04-09,1,238!2023-04-12,4,278!2023-04-12,4,278-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-04-05T09:00:32.943511+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cracking](#cracking)
-2. [cracking](#cracking)→:::←[halogenation](#halogenation)
-3. [halogenation](#halogenation)→:::←_(end)_
+1. _(begin)_→:::←[cracking](#cracking) <!--SR:!2023-04-11,3,258!2023-04-12,4,278-->
+2. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-04-12,4,278!2023-04-12,4,278-->
+3. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2023-04-12,4,278!2023-04-12,4,278-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
