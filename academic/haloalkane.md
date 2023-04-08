@@ -54,23 +54,26 @@ return await memorize_table(
 	('name', 'description',),
 	(
 		('[hydrolysis](#hydrolysis)', '',),
+		('[substitution](#substitution)', '',),
 	),
 	lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="321a"--><!-- The following content is generated at 2023-04-06T09:37:42.283587+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="321a"--><!-- The following content is generated at 2023-04-08T23:59:05.288590+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
-> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2023-04-12,4,272-->
+> | {{[hydrolysis](#hydrolysis)}} |  |
+> | {{[substitution](#substitution)}} |  | <!--SR:!2023-04-12,4,272-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-06T09:37:42.297056+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-08T23:59:05.301619+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-09,1,232!2023-04-12,4,272-->
-2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-04-12,4,272!2023-04-12,4,272-->
+2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-04-12,4,272!2023-04-12,4,272-->
+3. [substitution](#substitution)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -3,6 +3,7 @@ aliases:
   - catalysis
   - catalyst
   - catalysts
+  - catalytic
 ---
 
 #academic/biology #academic/chemistry #flashcards/academic/Cc/catalysis

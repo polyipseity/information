@@ -36,58 +36,75 @@ import typing
 
 COLORLESS = 'colorless'
 NA_COLOR = '_(n/a)_'
+BLUE = '<span style="color: blue; background-color: white;">blue</span>'
+BROWN = '<span style="color: brown; background-color: white;">brown</span>'
+DEEP_PURPLE = '<span style="color: darkViolet; background-color: white;">deep purple</span>'
+GREEN = '<span style="color: green;">green</span>'
+ORANGE = '<span style="color: orange;">orange</span>'
+PINK = '<span style="color: pink;">pink</span>'
+PURPLE = '<span style="color: purple; background-color: white;">purple</span>'
+RED = '<span style="color: red;">red</color>'
+VERY_PALE_PINK = '<span style="color: lightPink;">very pale pink</span>'
+VIOLET = '<span style="color: violet;">violet</span>'
+YELLOW = '<span style="color: yellow;">yellow</span>'
 
 @typing.final
 class Ion(typing.NamedTuple):
 	name: str
 	symbol: str
-	charge: str
+	charge: int
 	color: str | tuple[str, ...]
 cations: typing.Sequence[Ion] = (
-	Ion(name='hydrogen ion', symbol='H<sup>+</sup>', charge='1+', color=COLORLESS),
-	Ion(name='sodium ion', symbol='Na<sup>+</sup>', charge='1+', color=COLORLESS),
-	Ion(name='potassium ion', symbol='K<sup>+</sup>', charge='1+', color=COLORLESS),
-	Ion(name='copper(I) ion', symbol='Cu<sup>+</sup>', charge='1+', color=NA_COLOR),
-	Ion(name='silver ion', symbol='Ag<sup>+</sup>', charge='1+', color=COLORLESS),
-	Ion(name='mercury(I) ion', symbol='Hg<sup>+</sup>', charge='1+', color=NA_COLOR),
-	Ion(name='ammonium ion', symbol='NH<sub>4</sub><sup>+</sup>', charge='1+', color=COLORLESS),
-	Ion(name='magnesium ion', symbol='Mg<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='calcium ion', symbol='Ca<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='barium ion', symbol='Ba<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='lead(II) ion', symbol='Pb<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='iron(II) ion', symbol='Fe<sup>2+</sup>', charge='2+', color='<span style="color: green;">green</span>'),
-	Ion(name='nickel(II) ion', symbol='Ni<sup>2+</sup>', charge='2+', color='<span style="color: green;">green</span>'),
-	Ion(name='copper(II) ion', symbol='Cu<sup>2+</sup>', charge='2+', color=('<span style="color: blue; background-color: white;">blue</span>', '<span style="color: green;">green</span>',)),
-	Ion(name='zinc ion', symbol='Zn<sup>2+</sup>', charge='2+', color=COLORLESS),
-	Ion(name='manganese(II) ion', symbol='Mn<sup>2+</sup>', charge='2+', color='<span style="color: lightPink;">very pale pink</span>'),
-	Ion(name='mercury(II) ion', symbol='Hg<sup>2+</sup>', charge='2+', color=NA_COLOR),
-	Ion(name='cobalt(II) ion', symbol='Co<sup>2+</sup>', charge='2+', color='<span style="color: pink;">pink</span>'),
-	Ion(name='aluminium ion', symbol='Al<sup>3+</sup>', charge='3+', color=COLORLESS),
-	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge='3+', color=('<span style="color: yellow;">yellow</span> (dilute)', '<span style="color: brown; background-color: white;">brown</span> (concentrated)',)),
-	Ion(name='chromium(III) ion', symbol='Cr<sup>3+</sup>', charge='3+', color='<span style="color: green;">green</span>'),
+	Ion(name='hydrogen ion', symbol='H<sup>+</sup>', charge=1, color=COLORLESS),
+	Ion(name='sodium ion', symbol='Na<sup>+</sup>', charge=1, color=COLORLESS),
+	Ion(name='potassium ion', symbol='K<sup>+</sup>', charge=1, color=COLORLESS),
+	Ion(name='copper(I) ion', symbol='Cu<sup>+</sup>', charge=1, color=NA_COLOR),
+	Ion(name='silver ion', symbol='Ag<sup>+</sup>', charge=1, color=COLORLESS),
+	Ion(name='mercury(I) ion', symbol='Hg<sup>+</sup>', charge=1, color=NA_COLOR),
+	Ion(name='ammonium ion', symbol='NH<sub>4</sub><sup>+</sup>', charge=1, color=COLORLESS),
+	Ion(name='magnesium ion', symbol='Mg<sup>2+</sup>', charge=2, color=COLORLESS),
+	Ion(name='calcium ion', symbol='Ca<sup>2+</sup>', charge=2, color=COLORLESS),
+	Ion(name='barium ion', symbol='Ba<sup>2+</sup>', charge=2, color=COLORLESS),
+	Ion(name='lead(II) ion', symbol='Pb<sup>2+</sup>', charge=2, color=COLORLESS),
+	Ion(name='iron(II) ion', symbol='Fe<sup>2+</sup>', charge=2, color=GREEN),
+	Ion(name='nickel(II) ion', symbol='Ni<sup>2+</sup>', charge=2, color=GREEN),
+	Ion(name='copper(II) ion', symbol='Cu<sup>2+</sup>', charge=2, color=(BLUE, GREEN,)),
+	Ion(name='zinc ion', symbol='Zn<sup>2+</sup>', charge=2, color=COLORLESS),
+	Ion(name='manganese(II) ion', symbol='Mn<sup>2+</sup>', charge=2, color=VERY_PALE_PINK),
+	Ion(name='mercury(II) ion', symbol='Hg<sup>2+</sup>', charge=2, color=NA_COLOR),
+	Ion(name='cobalt(II) ion', symbol='Co<sup>2+</sup>', charge=2, color=PINK),
+	Ion(name='aluminium ion', symbol='Al<sup>3+</sup>', charge=3, color=COLORLESS),
+	Ion(name='iron(III) ion', symbol='Fe<sup>3+</sup>', charge=3, color=(f'{YELLOW} (dilute)', f'{BROWN} (concentrated)',)),
+	Ion(name='chromium(III) ion', symbol='Cr<sup>3+</sup>', charge=3, color=GREEN),
+	Ion(name='scandium(III) ion', symbol='Sc<sup>3+</sup>', charge=3, color=COLORLESS),
+	Ion(name='titanium(III) ion', symbol='Ti<sup>3+</sup>', charge=3, color=PURPLE),
+	Ion(name='vanadium(II) ion', symbol='V<sup>2+</sup>', charge=2, color=VIOLET),
+	Ion(name='vanadium(III) ion', symbol='V<sup>3+</sup>', charge=3, color=GREEN),
+	Ion(name='manganese(III) ion', symbol='Mn<sup>3+</sup>', charge=3, color=RED),
 )
 anions: typing.Sequence[Ion] = (
-	Ion(name='hydride ion', symbol='H<sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='fluoride ion', symbol='F<sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='chloride ion', symbol='Cl<sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='bromide ion', symbol='Br<sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='iodide ion', symbol='I<sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='hydroxide ion', symbol='OH<sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='nitrate ion', symbol='NO<sub>3</sub><sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='nitrite ion', symbol='NO<sub>2</sub><sup>-</sup>', charge='1-', color=NA_COLOR),
-	Ion(name='hydrogencarbonate ion', symbol='HCO<sub>3</sub><sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='hydrogensulfite ion', symbol='HSO<sub>3</sub><sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='hydrogensulfate ion', symbol='HSO<sub>4</sub><sup>-</sup>', charge='1-', color=COLORLESS),
-	Ion(name='permanganate ion', symbol='MnO<sub>4</sub><sup>-</sup>', charge='1-', color='<span style="color: darkViolet; background-color: white;">deep purple</span>'),
-	Ion(name='oxide ion', symbol='O<sup>2-</sup>', charge='2-', color=NA_COLOR),
-	Ion(name='sulfide ion', symbol='S<sup>2-</sup>', charge='2-', color=NA_COLOR),
-	Ion(name='sulfate ion', symbol='SO<sub>4</sub><sup>2-</sup>', charge='2-', color=COLORLESS),
-	Ion(name='sulfite ion', symbol='SO<sub>3</sub><sup>2-</sup>', charge='2-', color=COLORLESS),
-	Ion(name='carbonate ion', symbol='CO<sub>3</sub><sup>2-</sup>', charge='2-', color=COLORLESS),
-	Ion(name='chromate ion', symbol='CrO<sub>4</sub><sup>2-</sup>', charge='2-', color='<span style="color: yellow;">yellow</span>'),
-	Ion(name='dichromate ion', symbol='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>', charge='2-', color='<span style="color: orange;">orange</span>'),
-	Ion(name='nitride ion', symbol='N<sup>3-</sup>', charge='3-', color=NA_COLOR),
-	Ion(name='phosphate ion', symbol='PO<sub>4</sub><sup>3-</sup>', charge='3-', color=COLORLESS),
+	Ion(name='hydride ion', symbol='H<sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='fluoride ion', symbol='F<sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='chloride ion', symbol='Cl<sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='bromide ion', symbol='Br<sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='iodide ion', symbol='I<sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='hydroxide ion', symbol='OH<sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='nitrate ion', symbol='NO<sub>3</sub><sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='nitrite ion', symbol='NO<sub>2</sub><sup>-</sup>', charge=-1, color=NA_COLOR),
+	Ion(name='hydrogencarbonate ion', symbol='HCO<sub>3</sub><sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='hydrogensulfite ion', symbol='HSO<sub>3</sub><sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='hydrogensulfate ion', symbol='HSO<sub>4</sub><sup>-</sup>', charge=-1, color=COLORLESS),
+	Ion(name='permanganate ion', symbol='MnO<sub>4</sub><sup>-</sup>', charge=-1, color=DEEP_PURPLE),
+	Ion(name='oxide ion', symbol='O<sup>2-</sup>', charge=-2, color=NA_COLOR),
+	Ion(name='sulfide ion', symbol='S<sup>2-</sup>', charge=-2, color=NA_COLOR),
+	Ion(name='sulfate ion', symbol='SO<sub>4</sub><sup>2-</sup>', charge=-2, color=COLORLESS),
+	Ion(name='sulfite ion', symbol='SO<sub>3</sub><sup>2-</sup>', charge=-2, color=COLORLESS),
+	Ion(name='carbonate ion', symbol='CO<sub>3</sub><sup>2-</sup>', charge=-2, color=COLORLESS),
+	Ion(name='chromate ion', symbol='CrO<sub>4</sub><sup>2-</sup>', charge=-2, color=YELLOW),
+	Ion(name='dichromate ion', symbol='Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>', charge=-2, color=ORANGE),
+	Ion(name='nitride ion', symbol='N<sup>3-</sup>', charge=-3, color=NA_COLOR),
+	Ion(name='phosphate ion', symbol='PO<sub>4</sub><sup>3-</sup>', charge=-3, color=COLORLESS),
+	Ion(name='manganate ion', symbol='MnO<sub>4</sub><sup>2-</sup>', charge=-2, color=GREEN),
 )
 
 @typing.final
@@ -116,11 +133,18 @@ class Section:
 		rows: typing.Iterable[Ion]
 	) -> typing.Self:
 		rows = tuple(rows)
+		def charge_str(charge: int):
+			return f'{abs(charge)}{"+" if charge > 0 else "-" if charge < 0 else ""}'
 		return cls(
 			data=rows,
 			table=gen.quotette(gen.rows_to_table(rows,
 					names=('name', 'symbol', 'charage', 'color'),
-					values=util.identity,
+					values=lambda datum: (
+						*datum[:2],
+						charge_str(datum[2]),
+						datum[3] if isinstance(datum[3], str) else ', '.join(datum[3]),
+						*datum[4:],
+					),
 				),
 				prefix='> ',
 			),
@@ -130,7 +154,7 @@ class Section:
 			),
 			charges=gen.two_columns_to_code(rows,
 				left=lambda ion: gen.TextCode.escape(ion.name),
-				right=lambda ion: gen.TextCode.escape(ion.charge),
+				right=lambda ion: gen.TextCode.escape(charge_str(ion.charge)),
 			),
 			colors=gen.two_columns_to_code(rows,
 				left=lambda ion: gen.TextCode.escape(ion.name),
@@ -200,7 +224,7 @@ return chain.from_iterable(await gather(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-05T21:00:01.444252+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-08T14:17:08.431600+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charage | color |
 > |-|-|-|-|
@@ -217,20 +241,25 @@ return chain.from_iterable(await gather(
 > | lead(II) ion | Pb<sup>2+</sup> | 2+ | colorless |
 > | iron(II) ion | Fe<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
 > | nickel(II) ion | Ni<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
-> | copper(II) ion | Cu<sup>2+</sup> | 2+ | ('<span style="color: blue; background-color: white;">blue</span>', '<span style="color: green;">green</span>') |
+> | copper(II) ion | Cu<sup>2+</sup> | 2+ | <span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> |
 > | zinc ion | Zn<sup>2+</sup> | 2+ | colorless |
 > | manganese(II) ion | Mn<sup>2+</sup> | 2+ | <span style="color: lightPink;">very pale pink</span> |
 > | mercury(II) ion | Hg<sup>2+</sup> | 2+ | _(n/a)_ |
 > | cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span> |
 > | aluminium ion | Al<sup>3+</sup> | 3+ | colorless |
-> | iron(III) ion | Fe<sup>3+</sup> | 3+ | ('<span style="color: yellow;">yellow</span> (dilute)', '<span style="color: brown; background-color: white;">brown</span> (concentrated)') |
+> | iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) |
 > | chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
+> | scandium(III) ion | Sc<sup>3+</sup> | 3+ | colorless |
+> | titanium(III) ion | Ti<sup>3+</sup> | 3+ | <span style="color: purple; background-color: white;">purple</span> |
+> | vanadium(II) ion | V<sup>2+</sup> | 2+ | <span style="color: violet;">violet</span> |
+> | vanadium(III) ion | V<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
+> | manganese(III) ion | Mn<sup>3+</sup> | 3+ | <span style="color: red;">red</color> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2022-11-06T20:13:24.273182+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2023-04-08T14:17:08.477476+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2027-09-21,1649,373-->
@@ -253,12 +282,17 @@ return chain.from_iterable(await gather(
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2023-04-09,359,354!2026-02-20,1123,314-->
+22. scandium(III) ion:::Sc<sup>3+</sup>
+23. titanium(III) ion:::Ti<sup>3+</sup>
+24. vanadium(II) ion:::V<sup>2+</sup>
+25. vanadium(III) ion:::V<sup>3+</sup>
+26. manganese(III) ion:::Mn<sup>3+</sup>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2022-11-06T20:13:24.309183+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2023-04-08T14:17:08.448555+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion::1+ <!--SR:!2027-04-14,1522,373-->
 2. sodium ion::1+ <!--SR:!2024-02-08,522,310-->
@@ -281,12 +315,17 @@ return chain.from_iterable(await gather(
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 21. chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
+22. scandium(III) ion::3+
+23. titanium(III) ion::3+
+24. vanadium(II) ion::2+
+25. vanadium(III) ion::3+
+26. manganese(III) ion::3+
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-05T21:00:01.467277+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-08T14:17:08.464511+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion::colorless <!--SR:!2023-04-28,314,293-->
@@ -309,25 +348,33 @@ return chain.from_iterable(await gather(
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
+22. scandium(III) ion::colorless
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span>
+24. vanadium(II) ion::<span style="color: violet;">violet</span>
+25. vanadium(III) ion::<span style="color: green;">green</span>
+26. manganese(III) ion::<span style="color: red;">red</color>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### color–name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-05T21:00:01.482751+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-08T13:40:47.993725+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion <!--SR:!2023-04-12,5,281-->
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-04-12,5,281-->
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-04-14,7,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-16,11,301-->
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-25,19,341-->
 6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-24,18,341-->
+7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion
+8. <span style="color: violet;">violet</span>::vanadium(II) ion
+9. <span style="color: red;">red</color>::manganese(III) ion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2023-03-20T16:20:30.971663+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2023-04-08T13:39:40.674419+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charage | color |
 > |-|-|-|-|
@@ -352,12 +399,13 @@ return chain.from_iterable(await gather(
 > | dichromate ion | Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> | 2- | <span style="color: orange;">orange</span> |
 > | nitride ion | N<sup>3-</sup> | 3- | _(n/a)_ |
 > | phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless |
+> | manganate ion | MnO<sub>4</sub><sup>2-</sup> | 2- | <span style="color: green;">green</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–symbol
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2022-11-06T20:13:24.353184+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2023-04-08T13:39:40.602610+08:00. Any edits will be overridden! -->
 
 1. hydride ion:::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2026-02-13,1171,356-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2027-06-07,1566,374-->
@@ -380,12 +428,13 @@ return chain.from_iterable(await gather(
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2023-04-13,175,290-->
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-05-30,57,199!2024-08-25,617,276-->
+22. manganate ion:::MnO<sub>4</sub><sup>2-</sup>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–charge
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2022-11-06T20:13:24.365182+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2023-04-08T13:39:40.618568+08:00. Any edits will be overridden! -->
 
 1. hydride ion::1- <!--SR:!2023-06-30,370,299-->
 2. fluoride ion::1- <!--SR:!2025-04-20,869,292-->
@@ -408,12 +457,13 @@ return chain.from_iterable(await gather(
 19. dichromate ion::2- <!--SR:!2023-05-18,328,290-->
 20. nitride ion::3- <!--SR:!2023-05-22,331,290-->
 21. phosphate ion::3- <!--SR:!2023-10-02,275,210-->
+22. manganate ion::2-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### name–color
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2023-03-26T02:18:01.020995+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2023-04-08T13:39:40.653475+08:00. Any edits will be overridden! -->
 
 1. hydride ion::colorless <!--SR:!2023-06-23,357,299-->
 2. fluoride ion::colorless <!--SR:!2024-04-19,532,274-->
@@ -436,15 +486,17 @@ return chain.from_iterable(await gather(
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
 20. nitride ion::_(n/a)_ <!--SR:!2023-04-23,66,256-->
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
+22. manganate ion::<span style="color: green;">green</span>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### color–name
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-03-26T02:15:41.882122+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-04-08T13:39:40.573688+08:00. Any edits will be overridden! -->
 
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-04-25,19,341-->
 2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-04-24,18,341-->
 3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-04-26,20,341-->
+4. <span style="color: green;">green</span>::manganate ion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
