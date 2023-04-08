@@ -49,7 +49,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{<ul><li>good to high</li></ul>}} | {{<ul><li>intermediate to good</li></ul>}} | {{<ul><li>poor to good</li></ul>}} |
 > | {{form}} | {{<ul><li>almost all [solid](solid.md)</li><li>[liquid](liquid.md): [Cs](caesium.md), [Fr](francium.md), [Ga](gallium.md), [Hg](mercury%20(element).md), [Rb](rubidium.md)</li></ul>}} | {{<ul><li>all [solid](solid.md)</li></ul>}} | {{<ul><li>mostly [gas](gas.md)</li><li>[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)</li><li>[liquid](liquid.md): [Br](bromine.md)</li></ul>}} |
 > | {{[melting point](melting%20point.md)}} | {{<ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>}} | {{<ul><li>mostly high</li></ul>}} | {{<ul><li>mostly low</li></ul>}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} | <!--SR:!2023-04-24,17,290!2023-04-16,9,250!2023-04-15,8,250!2023-04-08,1,230!2023-04-17,11,270!2023-04-10,3,250!2023-04-08,2,230!2023-04-09,2,230!2023-04-15,9,270!2023-04-12,6,250!2023-04-12,6,250!2023-04-13,7,250!2023-04-18,12,270!2023-04-14,8,250!2023-04-08,2,230!2023-04-08,2,210!2023-04-24,17,290!2023-04-08,2,230!2023-04-17,11,270!2023-04-14,7,250!2023-04-17,10,270!2023-04-14,8,250!2023-04-09,2,230!2023-04-12,6,250!2023-04-24,17,290!2023-04-11,4,230!2023-04-08,3,250!2023-04-09,2,230-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} | <!--SR:!2023-04-24,17,290!2023-04-16,9,250!2023-04-15,8,250!2023-04-11,3,250!2023-04-17,11,270!2023-04-10,3,250!2023-04-17,9,250!2023-04-09,2,230!2023-04-15,9,270!2023-04-12,6,250!2023-04-12,6,250!2023-04-13,7,250!2023-04-18,12,270!2023-04-14,8,250!2023-04-12,4,230!2023-04-09,1,190!2023-04-24,17,290!2023-04-09,1,210!2023-04-17,11,270!2023-04-14,7,250!2023-04-17,10,270!2023-04-14,8,250!2023-04-09,2,230!2023-04-12,6,250!2023-04-24,17,290!2023-04-11,4,230!2023-04-18,10,250!2023-04-09,2,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -57,10 +57,10 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 
 1. _(begin)_→:::←appearance <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
 2. appearance→:::←deformability (as a solid) <!--SR:!2023-04-13,6,250!2023-04-18,11,270-->
-3. deformability (as a solid)→:::←[density](density.md) <!--SR:!2023-04-08,2,230!2023-04-24,17,290-->
+3. deformability (as a solid)→:::←[density](density.md) <!--SR:!2023-04-09,1,210!2023-04-24,17,290-->
 4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-04-18,12,270!2023-04-13,7,250-->
 5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2023-04-18,12,270!2023-04-16,10,270-->
-6. form→:::←[melting point](melting%20point.md) <!--SR:!2023-04-08,2,230!2023-04-11,4,230-->
+6. form→:::←[melting point](melting%20point.md) <!--SR:!2023-04-09,1,210!2023-04-11,4,230-->
 7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2023-04-15,9,270!2023-04-14,8,250-->
 8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-16,10,270-->
 

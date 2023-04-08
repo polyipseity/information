@@ -136,7 +136,7 @@ return (
 
 1. 1~3.1:::<span style="color: red;">red</span> <!--SR:!2023-04-11,232,250!2023-07-05,258,230-->
 2. 3.1~4.4:::<span style="color: orange;">orange</span> <!--SR:!2023-10-09,345,250!2023-07-15,268,230-->
-3. 4.4~14:::<span style="color: yellow;">yellow</span> <!--SR:!2023-07-04,178,230!2023-04-08,26,170-->
+3. 4.4~14:::<span style="color: yellow;">yellow</span> <!--SR:!2023-07-04,178,230!2023-06-14,67,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -194,6 +194,6 @@ return (
 
 1. 1~8.3:::colorless <!--SR:!2023-04-30,113,210!2023-07-02,114,210-->
 2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2023-04-20,77,210-->
-3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2023-04-08,118,230!2024-02-15,455,250-->
+3. 10~14:::<span style="color: pink;">pink</span> <!--SR:!2024-05-03,391,250!2024-02-15,455,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

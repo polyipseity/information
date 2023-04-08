@@ -14,7 +14,7 @@ aliases:
 
 # IUPAC nomenclature of organic chemistry
 
-The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md). <!--SR:!2023-04-08,15,323-->
+The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md). <!--SR:!2023-06-16,69,343-->
 
 ## principles
 
@@ -172,7 +172,7 @@ The steps for naming an organic compound are:
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-04-14,11,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-09-06,154,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-04-08,18,227-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-12,100,246!2023-05-19,41,227-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2023-05-04,102,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-04-11,4,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
@@ -536,7 +536,7 @@ return (
 > | fluorine | {{fluoro-}} | {{fluoride}} |
 > | chlorine | {{chloro-}} | {{chloride}} |
 > | bromine | {{bromo-}} | {{bromide}} |
-> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2024-01-24,520,301!2023-04-08,322,344!2023-12-25,490,304!2023-04-13,327,346!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2023-07-18,395,353-->
+> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2024-01-24,520,301!2027-06-10,1524,364!2023-12-25,490,304!2023-04-13,327,346!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2023-07-18,395,353-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -634,17 +634,17 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324!2023-04-09,4,304!2023-04-08,4,324!2023-04-08,4,324!2023-04-08,4,324-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-27,19,344!2023-04-19,11,324!2023-04-28,20,344!2023-04-28,20,344!2023-04-26,18,344!2023-04-28,20,344!2023-04-09,4,304!2023-04-27,19,344!2023-04-19,11,324!2023-04-26,18,344-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
-2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
-3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-09,4,304!2023-04-08,4,324-->
-4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-08,4,324!2023-04-09,4,304-->
-5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-08,4,324!2023-04-08,4,324-->
+1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-04-28,20,344!2023-04-27,19,344-->
+2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-04-26,18,344!2023-04-27,19,344-->
+3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-09,4,304!2023-04-19,11,324-->
+4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-27,19,344!2023-04-09,4,304-->
+5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-26,18,344!2023-04-28,20,344-->
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-26,18,344!2023-04-10,2,304-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
