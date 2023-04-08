@@ -130,7 +130,12 @@ class Section:
 			data=rows,
 			table=gen.quotette(gen.rows_to_table(rows,
 					names=('name', 'symbol', 'charage', 'color'),
-					values=lambda datum: (*datum[:2], charge_str(datum[2]), *datum[3:]),
+					values=lambda datum: (
+						*datum[:2],
+						charge_str(datum[2]),
+						datum[3] if isinstance(datum[3], str) else ', '.join(datum[3]),
+						*datum[4:],
+					),
 				),
 				prefix='> ',
 			),
@@ -210,7 +215,7 @@ return chain.from_iterable(await gather(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-05T21:00:01.444252+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2023-04-08T13:27:42.191429+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charage | color |
 > |-|-|-|-|
@@ -227,13 +232,13 @@ return chain.from_iterable(await gather(
 > | lead(II) ion | Pb<sup>2+</sup> | 2+ | colorless |
 > | iron(II) ion | Fe<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
 > | nickel(II) ion | Ni<sup>2+</sup> | 2+ | <span style="color: green;">green</span> |
-> | copper(II) ion | Cu<sup>2+</sup> | 2+ | ('<span style="color: blue; background-color: white;">blue</span>', '<span style="color: green;">green</span>') |
+> | copper(II) ion | Cu<sup>2+</sup> | 2+ | <span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> |
 > | zinc ion | Zn<sup>2+</sup> | 2+ | colorless |
 > | manganese(II) ion | Mn<sup>2+</sup> | 2+ | <span style="color: lightPink;">very pale pink</span> |
 > | mercury(II) ion | Hg<sup>2+</sup> | 2+ | _(n/a)_ |
 > | cobalt(II) ion | Co<sup>2+</sup> | 2+ | <span style="color: pink;">pink</span> |
 > | aluminium ion | Al<sup>3+</sup> | 3+ | colorless |
-> | iron(III) ion | Fe<sup>3+</sup> | 3+ | ('<span style="color: yellow;">yellow</span> (dilute)', '<span style="color: brown; background-color: white;">brown</span> (concentrated)') |
+> | iron(III) ion | Fe<sup>3+</sup> | 3+ | <span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) |
 > | chromium(III) ion | Cr<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
