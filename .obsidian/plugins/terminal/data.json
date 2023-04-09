@@ -25,7 +25,7 @@
     "c4f2db89-e11a-4693-b868-7f01ac3f0011": {
       "args": [],
       "executable": "pwsh",
-      "name": "PowerShell: Integrated",
+      "name": "PowerShell Core: Integrated",
       "platforms": {
         "darwin": true,
         "linux": true,
@@ -44,7 +44,7 @@
     "fb790b98-1a40-4686-8e0f-956f115ca551": {
       "args": [],
       "executable": "pwsh",
-      "name": "PowerShell: External",
+      "name": "PowerShell Core: External",
       "platforms": {
         "darwin": true,
         "linux": true,
