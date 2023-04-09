@@ -315,7 +315,7 @@ return chain.from_iterable(await gather(
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 21. chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
-22. scandium(III) ion::3+
+22. scandium(III) ion::3+ <!--SR:!2023-04-13,4,322-->
 23. titanium(III) ion::3+
 24. vanadium(II) ion::2+
 25. vanadium(III) ion::3+

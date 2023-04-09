@@ -66,7 +66,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[hydrolysis](#hydrolysis)}} |  |
-> | {{[substitution](#substitution)}} |  | <!--SR:!2023-04-12,4,272-->
+> | {{[substitution](#substitution)}} |  | <!--SR:!2023-04-12,4,272!2023-04-13,4,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -74,6 +74,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-12,3,252!2023-04-12,4,272-->
 2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-04-12,4,272!2023-04-12,4,272-->
-3. [substitution](#substitution)→:::←_(end)_
+3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-04-13,4,277!2023-04-13,4,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
