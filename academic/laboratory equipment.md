@@ -23,8 +23,8 @@ aliases:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import markdown_sanitizer
 e = __env__
-rinse_water = 'Rinse the equipment with [distilled water](distilled%20water.md) before use.'
-rinse_water_soln = 'Rinse the equipment with [distilled water](distilled%20water.md) and then the [solution](solution.md) to be delievered.'
+rinse_water = 'Rinse the equipment with deionized [water](water.md) before use.'
+rinse_water_soln = 'Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delievered.'
 return await memorize_table(
 	e.cwf_sects('fadd2e', 'b81237'),
 	('name & image', 'description',),
@@ -80,17 +80,17 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fadd2e"--><!-- The following content is generated at 2023-03-23T16:01:43.577264+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fadd2e"--><!-- The following content is generated at 2023-04-09T17:42:57.282099+08:00. Any edits will be overridden! -->
 
 > | name & image | description |
 > |-|-|
 > | {{[Bunsen burner](Bunsen%20burner.md)}}<br/>{{![Bunsen burner](../attachments/Bunsen%20burner.jpg)}} |  |
 > | {{[Liebig condenser](Liebig%20condenser.md)}}<br/>{{![Liebig condenser](../attachments/LiebigCondenser.jpg)}} |  |
 > | {{[beaker](beaker.md)}}<br/>{{![beaker](../attachments/Glassware-%20Beaker.jpg)}} |  |
-> | {{[burette](burette.md)}}<br/>{{![burette](../attachments/Burette.svg)}} | {{Rinse the equipment with [distilled water](distilled%20water.md) and then the [solution](solution.md) to be delievered.}} |
+> | {{[burette](burette.md)}}<br/>{{![burette](../attachments/Burette.svg)}} | {{Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delievered.}} |
 > | {{[burette clamp](burette%20clamp.md)}}<br/>{{![burette clamp](../attachments/Burette%20with%20Clamp(3).jpg)}} |  |
 > | {{[clamp](clamp.md)}}<br/>{{![clamp](../attachments/Utility%20clamp1.jpg)}} |  |
-> | {{[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)}}<br/>{{![conical flask/Erlenmeyer flask/titration flask](../attachments/250%20mL%20Erlenmeyer%20flask.jpg)}} | {{Rinse the equipment with [distilled water](distilled%20water.md) before use.}} |
+> | {{[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)}}<br/>{{![conical flask/Erlenmeyer flask/titration flask](../attachments/250%20mL%20Erlenmeyer%20flask.jpg)}} | {{Rinse the equipment with deionized [water](water.md) before use.}} |
 > | {{[crucible](crucible.md)}}<br/>{{![crucible](../attachments/Czochralski%20method%20used%20crucible%201.jpg)}} |  |
 > | {{[crucible tongs](crucible%20tongs.md)}}<br/>{{![crucible tongs](../attachments/Crucible%20tong.jpg)}} |  |
 > | {{[desiccator](desiccator.md)}}<br/>{{![desiccator](../attachments/Desiccator.jpg)}} |  |
@@ -102,7 +102,7 @@ return await memorize_table(
 > | {{[flat-bottom(ed) flask](flat-bottom%20flask.md)}}<br/>{{![flat-bottom(ed) flask](../attachments/TGI%20250.jpg)}} |  |
 > | {{[gas jar/pneumatic trough](pneumatic%20trough.md)}}<br/>{{![gas jar/pneumatic trough](../attachments/Gas-Pak%20jar.jpg)}} |  |
 > | {{[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)}}<br/>{{![glass stirring rod/glass rod/stir(ring) rod](../attachments/Stirring%20rod.jpg)}} |  |
-> | {{[graduated pipette](graduated%20pipette.md)}}<br/>{{![graduated pipette](../attachments/Mohr%20and%20Sero.jpg)}} | {{Rinse the equipment with [distilled water](distilled%20water.md) and then the [solution](solution.md) to be delievered.}} |
+> | {{[graduated pipette](graduated%20pipette.md)}}<br/>{{![graduated pipette](../attachments/Mohr%20and%20Sero.jpg)}} | {{Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delievered.}} |
 > | {{[heat-resistant mat/heatproof mat](heatproof%20mat.md)}}<br/>{{![heat-resistant mat/heatproof mat](../attachments/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg)}} |  |
 > | {{[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)}}<br/>{{![measuring cylinder/graduated cylinder/mixing cylinder](../attachments/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg)}} |  |
 > | {{[mortar and pestle](mortar%20and%20pestle.md)}}<br/>{{![mortar and pestle](../attachments/White-Mortar-and-Pestle.jpg)}} |  |
@@ -120,8 +120,8 @@ return await memorize_table(
 > | {{[test tube rack](test%20tube%20rack.md)}}<br/>{{![test tube rack](../attachments/Metal%20tube%20rack-laboratory%202.jpg)}} |  |
 > | {{[thermometer](thermometer.md)}}<br/>{{![thermometer](../attachments/Mercury%20Thermometer.jpg)}} |  |
 > | {{[tripod](tripod.md)}}<br/>{{![tripod](../attachments/Laboratory%20tripod.jpg)}} |  |
-> | {{[volumetric flask](volumetric%20flask.md)}}<br/>{{![volumetric flask](../attachments/10mL%20Messkolben%20mit%20Schliff%20A.jpg)}} | {{Rinse the equipment with [distilled water](distilled%20water.md) before use.}} |
-> | {{[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)}}<br/>{{![volumetric pipette/bulb pipette/belly pipette](../attachments/Vollpipetten.jpg)}} | {{Rinse the equipment with [distilled water](distilled%20water.md) and then the [solution](solution.md) to be delievered.}} |
+> | {{[volumetric flask](volumetric%20flask.md)}}<br/>{{![volumetric flask](../attachments/10mL%20Messkolben%20mit%20Schliff%20A.jpg)}} | {{Rinse the equipment with deionized [water](water.md) before use.}} |
+> | {{[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)}}<br/>{{![volumetric pipette/bulb pipette/belly pipette](../attachments/Vollpipetten.jpg)}} | {{Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delievered.}} |
 > | {{[wash bottle](wash%20bottle.md)}}<br/>{{![wash bottle](../attachments/Lab%20wash-bottles%20water%20EtOH.jpg)}} |  |
 > | {{[watch glass](watch%20glass.md)}}<br/>{{![watch glass](../attachments/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg)}} |  |
 > | {{[weighing bottle](weighing%20bottle.md)}}<br/>{{![weighing bottle](../attachments/Weighing%20bottles.jpg)}} |  |

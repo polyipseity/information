@@ -31,7 +31,7 @@ Calcium hydroxide can be used to test for {{[carbon dioxide](carbon%20dioxide.md
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
-	'Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).',
+	'Dissolve carbonate hydroxide in deionized [water](water.md).',
 	'Filter the solution to obtain the [filtrate](filtrate.md).',
 	),
 	index=1,
@@ -54,17 +54,17 @@ return (
 %%
 
 Calcium hydroxide can be prepared in the following way:
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="12ff7a"--><!-- The following content is generated at 2022-11-05T00:25:01.479868+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="12ff7a"--><!-- The following content is generated at 2023-04-09T17:42:57.250097+08:00. Any edits will be overridden! -->
 
-> 1. Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).
+> 1. Dissolve carbonate hydroxide in deionized [water](water.md).
 > 2. Filter the solution to obtain the [filtrate](filtrate.md).
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d7182f"--><!-- The following content is generated at 2022-11-05T00:25:01.488869+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d7182f"--><!-- The following content is generated at 2023-04-09T17:42:57.291224+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).
-2. Dissolve carbonate hydroxide in [deionized](deionized.md) [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md).
+1. _(begin)_→:::←Dissolve carbonate hydroxide in deionized [water](water.md).
+2. Dissolve carbonate hydroxide in deionized [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md).
 3. Filter the solution to obtain the [filtrate](filtrate.md).→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
