@@ -137,18 +137,18 @@ return await memorize_table(
 4. [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2023-04-20,14,290!2023-04-21,15,290-->
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-04-23,17,290!2023-04-20,14,290-->
 6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
-7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-04-09,1,210!2023-04-14,9,270-->
+7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-04-12,3,230!2023-04-14,9,270-->
 8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-04-17,12,270!2023-04-17,12,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2023-04-19,13,290!2023-04-19,13,290-->
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-04-21,15,290!2023-04-19,13,270-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-04-14,9,250!2023-04-23,17,290-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-04-18,13,270!2023-04-21,15,290-->
-13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-04-20,14,290!2023-04-09,1,230-->
+13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-04-20,14,290!2023-04-10,1,210-->
 14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-04-11,6,250!2023-04-19,13,270-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-04-11,4,230!2023-04-18,13,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-04-11,4,230!2023-04-20,14,290-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-04-11,4,230!2023-04-11,4,230-->
-18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-04-09,1,210!2023-04-17,12,270-->
+18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-04-12,3,230!2023-04-17,12,270-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-04-13,8,250!2023-04-11,3,230-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-04-15,10,250!2023-04-12,7,250-->
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-04-18,13,270!2023-04-16,11,270-->

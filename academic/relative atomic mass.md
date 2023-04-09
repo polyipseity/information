@@ -10,7 +10,7 @@ aliases:
 
 # relative atomic mass
 
-__Relative atomic mass__ {{(symbol: ___A_<sub>r</sub>__; abbreviated __RAM__ or __r.a.m.__)}} is {{the ratio of the average [mass](mass.md) of [atoms](atom.md) of an [element](chemical%20element.md) in a given sample to the [unified atomic mass unit](dalton%20(unit).md)}}. It is calculated from {{the [weighted arithmetic mean](weighted%20arithmetic%20mean.md) of the masses of isotopes in the sample}}. <!--SR:!2023-04-10,11,270!2023-04-09,10,250!2023-04-19,14,230-->
+__Relative atomic mass__ {{(symbol: ___A_<sub>r</sub>__; abbreviated __RAM__ or __r.a.m.__)}} is {{the ratio of the average [mass](mass.md) of [atoms](atom.md) of an [element](chemical%20element.md) in a given sample to the [unified atomic mass unit](dalton%20(unit).md)}}. It is calculated from {{the [weighted arithmetic mean](weighted%20arithmetic%20mean.md) of the masses of isotopes in the sample}}. <!--SR:!2023-04-10,11,270!2023-05-01,22,250!2023-04-19,14,230-->
 
 ## other measures
 

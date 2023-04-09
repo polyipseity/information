@@ -9,7 +9,7 @@
 
 # weathering
 
-__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-09,2,230!2023-04-20,13,270-->
+__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-15,6,250!2023-04-20,13,270-->
 
 Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2023-04-24,17,290-->
 
@@ -27,9 +27,9 @@ _Thermal stress weathering_ {{results from expansion and contraction of [rocks](
 
 ### dissolution
 
-_Dissolution_ is {{weathering in which a mineral [dissolves](dissolution.md) without producing any [solids](solid.md)}}. <!--SR:!2023-04-09,2,230-->
+_Dissolution_ is {{weathering in which a mineral [dissolves](dissolution.md) without producing any [solids](solid.md)}}. <!--SR:!2023-04-16,7,250-->
 
-Carbonate dissolution is {{dissolution in which atmospheric [carbon dioxide](carbon%20dioxide.md) enhances weathering}}. It affects rocks {{containing [calcium carbonate](calcium%20carbonate.md) like [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}}. It causes {{formation of [sinkholes](sinkhole.md) and damages to limestone structures}}. It works in two steps: <!--SR:!2023-04-16,9,250!2023-04-09,2,230!2023-04-17,10,270-->
+Carbonate dissolution is {{dissolution in which atmospheric [carbon dioxide](carbon%20dioxide.md) enhances weathering}}. It affects rocks {{containing [calcium carbonate](calcium%20carbonate.md) like [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}}. It causes {{formation of [sinkholes](sinkhole.md) and damages to limestone structures}}. It works in two steps: <!--SR:!2023-04-16,9,250!2023-04-16,7,250!2023-04-17,10,270-->
 
 %%
 ```Python

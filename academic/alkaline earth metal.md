@@ -59,9 +59,9 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1d5e"--><!-- The following content is generated at 2023-03-20T11:25:16.273179+08:00. Any edits will be overridden! -->
 
-1. [beryllium](beryllium.md)::no reaction with water or steam <!--SR:!2023-04-09,10,250-->
+1. [beryllium](beryllium.md)::no reaction with water or steam <!--SR:!2023-04-14,5,230-->
 2. [magnesium](magnesium.md)::reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2023-04-10,9,230-->
-3. [calcium](calcium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-04-09,10,250-->
+3. [calcium](calcium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-05-13,34,270-->
 4. [strontium](strontium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-04-12,4,230-->
 5. [barium](barium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-04-11,3,230-->
 6. [radium](radium.md)::unknown <!--SR:!2023-04-17,17,290-->

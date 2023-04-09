@@ -28,7 +28,7 @@ Alkanes are {{[unreactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-13,10
 
 ### combustion
 
-All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2023-04-12,13,270!2023-04-14,14,290!2023-04-09,10,250-->
+All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2023-04-12,13,270!2023-04-14,14,290!2023-05-15,36,270-->
 
 ### halogenation
 
@@ -61,7 +61,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[cracking](#cracking)}} |  |
-> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-04-09,1,238!2023-04-12,4,278!2023-04-12,4,278-->
+> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-04-12,3,258!2023-04-12,4,278!2023-04-12,4,278-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
