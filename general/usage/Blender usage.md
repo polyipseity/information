@@ -17,7 +17,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - help:::F1 <!--SR:!2023-07-02,119,290!2023-08-10,147,290-->
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-04-14,42,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-04-12,26,276-->
-- file context menu:::F4 <!--SR:!2023-04-09,21,190!2023-06-15,81,256-->
+- file context menu:::F4 <!--SR:!2023-04-19,10,170!2023-06-15,81,256-->
 - show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-29,26,256-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-04-10,57,250!2023-04-25,59,250-->
@@ -36,7 +36,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - select all:::A <!--SR:!2023-04-11,64,276!2023-10-27,221,316-->
 - select none:::Alt+A <!--SR:!2023-07-03,106,256!2023-05-04,81,276-->
-- invert selection:::Ctrl+I <!--SR:!2023-04-09,56,250!2023-05-16,84,276-->
+- invert selection:::Ctrl+I <!--SR:!2023-05-06,27,230!2023-05-16,84,276-->
 - hide selection:::H <!--SR:!2023-05-22,84,250!2023-07-04,127,290-->
 - reveal hidden:::Alt+H <!--SR:!2023-04-14,61,250!2023-04-26,64,256-->
 - toggle toolbar:::T <!--SR:!2023-06-26,113,290!2023-05-21,85,276-->
