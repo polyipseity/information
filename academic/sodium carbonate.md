@@ -37,13 +37,13 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}} |  |
+> | {{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}} |  | <!--SR:!2023-04-12,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ddee"--><!-- The following content is generated at 2023-04-07T10:18:03.925176+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)
-2. [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→:::←_(end)_
+1. _(begin)_→:::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
+2. [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→:::←_(end)_ <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
