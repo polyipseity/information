@@ -6,7 +6,7 @@ aliases:
   - transition metals
 ---
 
-#academic/chemistry #flashcards/academic/transition_metal
+#academic/chemistry #flashcards/academic/Tt/transition_metal
 
 %%
 ```Python
