@@ -21,7 +21,7 @@ Compare with [mixture § properties](mixture.md#properties).
 - formation: {{[chemical reaction](chemical%20reaction.md) occurs}}
 - properties: {{different from its constituents}}
 - separation: {{separable by chemical methods but not physical methods}}
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{sharp}} <!--SR:!2023-04-09,10,250!2023-04-15,15,290!2023-05-09,32,270!2023-04-10,11,270!2023-04-11,12,270-->
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{sharp}} <!--SR:!2023-05-14,35,270!2023-04-15,15,290!2023-05-09,32,270!2023-04-10,11,270!2023-04-11,12,270-->
 
 ## chemical element
 

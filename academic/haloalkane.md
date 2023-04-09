@@ -72,7 +72,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-08T23:59:05.301619+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-09,1,232!2023-04-12,4,272-->
+1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-12,3,252!2023-04-12,4,272-->
 2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-04-12,4,272!2023-04-12,4,272-->
 3. [substitution](#substitution)→:::←_(end)_
 

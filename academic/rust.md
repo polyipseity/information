@@ -28,7 +28,7 @@ First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides]
 > 	- Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}}
 > 2. {{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}} <!--SR:!2023-04-14,8,250-->
 
-After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-04-09,2,230-->
+After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-04-13,4,230-->
 
 > - {{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}}
 > - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2023-04-22,15,290!2023-04-24,17,290-->
@@ -92,7 +92,7 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-04-21,14,290-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-04-09,2,230!2023-04-17,11,270!2023-04-22,15,290!2023-04-13,7,250!2023-04-16,10,270!2023-04-13,7,250-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-04-16,7,250!2023-04-17,11,270!2023-04-22,15,290!2023-04-13,7,250!2023-04-16,10,270!2023-04-13,7,250-->
 
 ### electroplating
 
@@ -106,6 +106,6 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 - See also: [cathodic protection](cathodic%20protection.md)
 
-Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2023-04-09,2,250-->
+Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2023-04-18,9,270-->
 
 In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-04-17,10,270!2023-04-24,17,290!2023-04-12,6,250!2023-04-15,9,270!2023-04-17,10,270!2023-04-15,8,250-->

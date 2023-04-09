@@ -23,7 +23,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-09,1,190!2023-04-09,3,230-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-10,1,170!2023-04-11,2,210-->
 
 ### odor
 
@@ -37,19 +37,19 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 ### dehydration
 
-[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated to give primary amides}}. <!--SR:!2023-04-09,1,229-->
+[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated to give primary amides}}. <!--SR:!2023-04-11,2,229-->
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-09,1,229!2023-04-09,1,229-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-12,3,249!2023-04-11,2,229-->
 
 ### nucleophilic substitution
 
-Similary to [alcohols](alcohol.md), carboxylic acids can {{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md), and [phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}}. <!--SR:!2023-04-09,1,229-->
+Similary to [alcohols](alcohol.md), carboxylic acids can {{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md), and [phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}}. <!--SR:!2023-04-12,3,249-->
 
 ### reduction
 
-Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-04-09,1,229-->
+Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-04-12,3,249-->
 
 ### reactions
 

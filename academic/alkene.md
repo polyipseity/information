@@ -23,7 +23,7 @@ Alkenes have similar [physical properties](physical%20property.md) to [alkanes](
 
 ## chemical properties
 
-Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}. <!--SR:!2023-04-09,10,250-->
+Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}. <!--SR:!2023-05-05,26,250-->
 
 ### combustion
 
@@ -33,13 +33,13 @@ Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alka
 
 - see: [hydrogenation](hydrogenation.md)
 
-Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-04-11,3,271!2023-04-09,1,251-->
+Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-04-11,3,271!2023-04-13,4,271-->
 
 ### hydrohalogenation
 
 - see: [hydrohalogenation](hyydrohalogenation.md)
 
-Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}. <!--SR:!2023-04-12,4,291!2023-04-09,1,251-->
+Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}. <!--SR:!2023-04-12,4,291!2023-04-13,4,271-->
 
 ### polymerization
 
@@ -87,7 +87,7 @@ return await memorize_table(
 3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-05-08,30,270!2023-04-17,17,290-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-04-15,15,290!2023-04-15,15,290-->
 5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-04-12,4,291!2023-04-12,4,291-->
-6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-04-09,1,251!2023-04-12,4,291-->
+6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-04-13,4,271!2023-04-12,4,291-->
 7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2023-04-12,4,291!2023-04-12,4,291-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

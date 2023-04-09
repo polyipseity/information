@@ -287,7 +287,7 @@ See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)
 
 ### prefix for carbon count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}. <!--SR:!2023-04-09,15,323-->
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}. <!--SR:!2023-05-27,48,323-->
 
 ## functional groups
 
@@ -634,7 +634,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-27,19,344!2023-04-19,11,324!2023-04-28,20,344!2023-04-28,20,344!2023-04-26,18,344!2023-04-28,20,344!2023-04-09,4,304!2023-04-27,19,344!2023-04-19,11,324!2023-04-26,18,344-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-27,19,344!2023-04-19,11,324!2023-04-28,20,344!2023-04-28,20,344!2023-04-26,18,344!2023-04-28,20,344!2023-04-27,18,324!2023-04-27,19,344!2023-04-19,11,324!2023-04-26,18,344-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -642,8 +642,8 @@ return await memorize_table(
 
 1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-04-28,20,344!2023-04-27,19,344-->
 2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-04-26,18,344!2023-04-27,19,344-->
-3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-09,4,304!2023-04-19,11,324-->
-4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-27,19,344!2023-04-09,4,304-->
+3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-28,19,324!2023-04-19,11,324-->
+4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-27,19,344!2023-04-28,19,324-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-26,18,344!2023-04-28,20,344-->
 6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-26,18,344!2023-04-10,2,304-->
 

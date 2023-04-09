@@ -27,7 +27,7 @@ Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density 
 
 ### odor
 
-Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2023-04-09,3,230-->
+Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2023-04-15,6,230-->
 
 ### solubility
 
@@ -41,7 +41,7 @@ Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. 
 
 ### reduction
 
-Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-04-09,1,241-->
+Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-04-12,3,261-->
 
 ### reactions
 
