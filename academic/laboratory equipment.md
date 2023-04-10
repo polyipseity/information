@@ -143,7 +143,7 @@ return await memorize_table(
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-04-21,15,290!2023-04-19,13,270-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-04-14,9,250!2023-04-23,17,290-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-04-18,13,270!2023-04-21,15,290-->
-13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-04-20,14,290!2023-04-10,1,210-->
+13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-04-20,14,290!2023-04-13,3,230-->
 14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-04-11,6,250!2023-04-19,13,270-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-04-11,4,230!2023-04-18,13,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-04-11,4,230!2023-04-20,14,290-->
@@ -158,7 +158,7 @@ return await memorize_table(
 25. [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2023-04-16,11,270!2023-04-14,9,270-->
 26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-04-17,12,270!2023-04-12,7,250-->
 27. [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2023-04-14,9,270!2023-04-18,13,270-->
-28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-04-11,6,250!2023-04-10,2,230-->
+28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-04-11,6,250!2023-04-16,6,230-->
 29. [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2023-04-18,13,270!2023-04-16,11,270-->
 30. [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2023-04-11,3,230!2023-04-14,9,270-->
 31. [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2023-04-15,10,270!2023-04-11,4,230-->

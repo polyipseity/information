@@ -9,11 +9,11 @@ aliases:
 
 # isomer
 
-In [chemistry](chemistry.md), __isomers__ are {{[molecules](molecule.md) or [polyatomic ions](polyatomic%20ion.md) with the same [molecular formula](chemical%20formula.md#molecular%20formula) but different spatial arrangements of [atoms](atom.md)}}. <!--SR:!2023-04-10,1,230-->
+In [chemistry](chemistry.md), __isomers__ are {{[molecules](molecule.md) or [polyatomic ions](polyatomic%20ion.md) with the same [molecular formula](chemical%20formula.md#molecular%20formula) but different spatial arrangements of [atoms](atom.md)}}. <!--SR:!2023-04-13,3,250-->
 
 ## structural isomer
 
-__Structural isomers__ have {{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}}. They can be further categorized into {{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}}. The first two have {{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}}. The last one has {{very different chemical and physical properties}}. <!--SR:!2023-04-12,3,250!2023-04-10,1,230!2023-04-13,4,270!2023-04-13,4,270-->
+__Structural isomers__ have {{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}}. They can be further categorized into {{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}}. The first two have {{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}}. The last one has {{very different chemical and physical properties}}. <!--SR:!2023-04-12,3,250!2023-04-13,3,250!2023-04-13,4,270!2023-04-13,4,270-->
 
 ## stereoisomers
 

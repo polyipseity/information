@@ -20,7 +20,7 @@ aliases:
 
 One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2023-04-12,3,250-->
 
-Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-04-10,1,230-->
+Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-04-12,2,230-->
 
 ## properties
 
@@ -61,7 +61,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 > | {{[strong](strength%20of%20materials.md)}} |  |
 > | {{[tough](toughness.md)}} |  |
 > | {{washable}} |  |
-> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-04-13,4,270!2023-04-13,4,270!2023-04-12,3,250!2023-04-10,1,230!2023-04-10,1,230!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270-->
+> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-04-13,4,270!2023-04-13,4,270!2023-04-12,3,250!2023-04-12,2,230!2023-04-12,2,230!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -70,7 +70,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 1. _(begin)_→:::←dyeable <!--SR:!2023-04-13,4,270!2023-04-12,3,250-->
 2. dyeable→:::←elastic <!--SR:!2023-04-12,3,250!2023-04-13,4,270-->
 3. elastic→:::←high tensile strength <!--SR:!2023-04-12,3,250!2023-04-13,4,270-->
-4. high tensile strength→:::←oil-proof <!--SR:!2023-04-10,1,230!2023-04-12,3,250-->
+4. high tensile strength→:::←oil-proof <!--SR:!2023-04-12,2,230!2023-04-12,3,250-->
 5. oil-proof→:::←smooth <!--SR:!2023-04-12,3,250!2023-04-12,3,250-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2023-04-13,4,270!2023-04-12,3,250-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->

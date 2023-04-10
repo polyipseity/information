@@ -19,7 +19,7 @@ An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarb
 
 ## physical properties
 
-Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}. <!--SR:!2023-04-10,10,270-->
+Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}. <!--SR:!2023-04-15,5,250-->
 
 ## chemical properties
 
@@ -76,7 +76,7 @@ return await memorize_table(
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
 > | {{[hydrogenation](#hydrogenation)}} |  |
 > | {{[hydrohalogenation](#hydrohalogenation)}} |  |
-> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-04-10,11,270!2023-04-13,13,290!2023-04-14,14,290!2023-04-12,4,291!2023-04-12,4,291!2023-04-12,4,291-->
+> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-04-11,1,230!2023-04-13,13,290!2023-04-14,14,290!2023-04-12,4,291!2023-04-12,4,291!2023-04-12,4,291-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

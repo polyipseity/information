@@ -448,7 +448,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-04-10,16,162!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-06-17,148,280!2023-07-26,185,321!2023-04-19,9,142!2024-06-02,458,362!2024-05-01,429,362-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -483,7 +483,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2023-09-08,223,345!2024-03-25,398,365!2023-08-22,210,325!2023-04-10,42,265!2023-10-26,230,285!2023-11-16,289,347-->
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2023-09-08,223,345!2024-03-25,398,365!2023-08-22,210,325!2023-05-01,21,245!2023-10-26,230,285!2023-11-16,289,347-->
 
 > {{nitrile}}
 > - group: {{nitrile}}
@@ -645,6 +645,6 @@ return await memorize_table(
 3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-28,19,324!2023-04-19,11,324-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-27,19,344!2023-04-28,19,324-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-26,18,344!2023-04-28,20,344-->
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-26,18,344!2023-04-10,2,304-->
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-26,18,344!2023-04-11,1,284-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

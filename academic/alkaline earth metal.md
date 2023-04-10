@@ -19,11 +19,11 @@ aliases:
 
 # alkaline earth metal
 
-The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}}. The alkaline earth metals are {{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-10,3,210!2023-04-10,9,230-->
+The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}}. The alkaline earth metals are {{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-16,6,210!2023-05-01,21,230-->
 
 ## representative reactions
 
-Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-04-10,10,270-->
+Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-05-20,40,290-->
 
 ### reaction with water
 
@@ -60,7 +60,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1d5e"--><!-- The following content is generated at 2023-03-20T11:25:16.273179+08:00. Any edits will be overridden! -->
 
 1. [beryllium](beryllium.md)::no reaction with water or steam <!--SR:!2023-04-14,5,230-->
-2. [magnesium](magnesium.md)::reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2023-04-10,9,230-->
+2. [magnesium](magnesium.md)::reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2023-04-15,5,210-->
 3. [calcium](calcium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-05-13,34,270-->
 4. [strontium](strontium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-04-12,4,230-->
 5. [barium](barium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-04-11,3,230-->

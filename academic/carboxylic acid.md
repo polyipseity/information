@@ -19,19 +19,19 @@ aliases:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-04-10,2,250!2023-04-25,17,290!2023-04-17,9,270-->
+Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-04-16,6,250!2023-04-25,17,290!2023-04-17,9,270-->
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-10,1,170!2023-04-11,2,210-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-12,2,190!2023-04-11,2,210-->
 
 ### odor
 
-Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-04-10,2,230-->
+Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-04-15,5,230-->
 
 ### solubility
 
-Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-04-10,2,230!2023-04-25,17,290-->
+Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-04-14,4,230!2023-04-25,17,290-->
 
 ## chemical properties
 
@@ -78,7 +78,7 @@ return await memorize_table(
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[esterification](#esterification)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-04-11,3,269!2023-04-11,3,269!2023-04-11,3,269!2023-04-10,1,233-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2023-04-11,3,269!2023-04-11,3,269!2023-04-11,3,269!2023-04-13,3,253-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
