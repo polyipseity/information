@@ -8,7 +8,7 @@ aliases:
 
 # ammonium
 
-The __ammonium__ ion is {{a [polyatomic](polyatomic%20ion.md) [cation](ion.md) with the [chemical formula](chemical%20formula.md) NH<sub>4</sub><sup>+</sup> or \[NH<sub>4</sub>\]<sup>+</sup>}}. <!--SR:!2023-04-10,8,270-->
+The __ammonium__ ion is {{a [polyatomic](polyatomic%20ion.md) [cation](ion.md) with the [chemical formula](chemical%20formula.md) NH<sub>4</sub><sup>+</sup> or \[NH<sub>4</sub>\]<sup>+</sup>}}. <!--SR:!2023-05-12,32,290-->
 
 ## salts
 

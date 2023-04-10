@@ -8,7 +8,7 @@ aliases:
 
 # copper(II) hydroxide
 
-__Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Cu](copper.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{blue or blue-green [solid](solid.md)}}. <!--SR:!2023-04-16,16,290!2023-04-10,9,230-->
+__Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Cu](copper.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{blue or blue-green [solid](solid.md)}}. <!--SR:!2023-04-16,16,290!2023-05-03,23,230-->
 
 ## preparation
 
@@ -16,4 +16,4 @@ Treating {{copper(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemi
 
 > treating with [bases](base%20(chemistry).md)
 > 1. {{Cu<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Cu(OH)<sub>2</sub>(s)}}
-> 2. {{Cu(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Cu(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}} <!--SR:!2023-04-14,14,290!2023-04-10,9,230-->
+> 2. {{Cu(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Cu(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}} <!--SR:!2023-04-14,14,290!2023-05-02,22,230-->
