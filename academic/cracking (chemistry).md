@@ -14,7 +14,7 @@ aliases:
 
 # cracking
 
-__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2023-05-02,26,270!2023-04-11,9,270-->
+__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2023-05-02,26,270!2023-05-07,26,270-->
 
 It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. <!--SR:!2023-04-14,14,290-->
 
@@ -55,4 +55,4 @@ return await memorize_table(
 
 ### laboratory
 
-Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}. <!--SR:!2023-04-12,3,269!2023-04-11,3,269!2023-04-11,2,249!2023-04-12,4,289!2023-04-12,4,289!2023-04-12,4,289!2023-04-11,3,269-->
+Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}. <!--SR:!2023-04-12,3,269!2023-04-19,8,269!2023-04-16,5,249!2023-04-12,4,289!2023-04-12,4,289!2023-04-12,4,289!2023-04-19,8,269-->

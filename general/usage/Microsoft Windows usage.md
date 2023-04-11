@@ -25,6 +25,6 @@
 - close dialog:::Esc <!--SR:!2023-12-16,261,330!2023-04-30,77,270-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-04-14,61,250!2023-06-22,100,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-05-22,76,230!2023-10-10,187,270-->
-- cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-05-27,80,230!2023-04-11,58,250-->
+- cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-05-27,80,230!2023-05-11,30,230-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2023-05-06,57,230!2023-05-02,79,270-->
 - manage external displays:::⊞Win+P <!--SR:!2023-04-15,62,250!2023-07-04,114,250-->

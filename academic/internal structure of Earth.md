@@ -36,7 +36,7 @@ return await memorize_table(
 > | {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}} |
 > | {{[mantle](mantle.md)}} | {{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}} |
 > | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
-> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2023-04-19,13,290!2023-04-15,7,270!2023-04-19,13,290!2023-04-11,3,230!2023-04-23,17,290!2023-04-16,9,250!2023-04-23,17,290!2023-04-18,13,270!2023-04-21,15,290!2023-04-18,13,270-->
+> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2023-04-19,13,290!2023-04-15,7,270!2023-04-19,13,290!2023-04-23,12,250!2023-04-23,17,290!2023-04-16,9,250!2023-04-23,17,290!2023-04-18,13,270!2023-04-21,15,290!2023-04-18,13,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

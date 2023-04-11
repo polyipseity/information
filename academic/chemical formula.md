@@ -13,7 +13,7 @@ aliases:
 
 ### empirical formula
 
-Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2023-04-11,9,270-->
+Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2023-05-08,27,270-->
 
 ### molecular formula
 

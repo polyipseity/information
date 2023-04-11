@@ -20,7 +20,7 @@ An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon
 
 ## physical properties
 
-Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}. <!--SR:!2023-04-12,12,270!2023-04-11,9,270-->
+Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}. <!--SR:!2023-04-12,12,270!2023-04-17,6,250-->
 
 ## chemical properties
 
@@ -67,7 +67,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-04-05T09:00:32.943511+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cracking](#cracking) <!--SR:!2023-04-11,3,258!2023-04-12,4,278-->
+1. _(begin)_→:::←[cracking](#cracking) <!--SR:!2023-04-13,2,238!2023-04-12,4,278-->
 2. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-04-12,4,278!2023-04-12,4,278-->
 3. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2023-04-12,4,278!2023-04-12,4,278-->
 

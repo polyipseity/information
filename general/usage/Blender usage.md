@@ -21,7 +21,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-29,26,256-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-10-27,200,270!2023-04-25,59,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2023-04-20,21,150!2023-04-11,58,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2023-04-20,21,150!2023-09-11,153,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-04-18,49,190!2023-04-28,54,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2023-06-21,92,250!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->
@@ -34,7 +34,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editor
 
-- select all:::A <!--SR:!2023-04-11,64,276!2023-10-27,221,316-->
+- select all:::A <!--SR:!2023-10-07,179,276!2023-10-27,221,316-->
 - select none:::Alt+A <!--SR:!2023-07-03,106,256!2023-05-04,81,276-->
 - invert selection:::Ctrl+I <!--SR:!2023-05-06,27,230!2023-05-16,84,276-->
 - hide selection:::H <!--SR:!2023-05-22,84,250!2023-07-04,127,290-->

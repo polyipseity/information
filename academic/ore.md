@@ -9,7 +9,7 @@
 
 # ore
 
-An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2023-04-11,3,230-->
+An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2023-04-19,8,230-->
 
 ## extraction
 

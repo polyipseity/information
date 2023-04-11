@@ -33,7 +33,7 @@ Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alka
 
 - see: [hydrogenation](hydrogenation.md)
 
-Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-04-11,3,271!2023-04-13,4,271-->
+Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-04-19,8,271!2023-04-13,4,271-->
 
 ### hydrohalogenation
 
@@ -76,7 +76,7 @@ return await memorize_table(
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
 > | {{[hydrogenation](#hydrogenation)}} |  |
 > | {{[hydrohalogenation](#hydrohalogenation)}} |  |
-> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-04-11,1,230!2023-04-13,13,290!2023-04-14,14,290!2023-04-12,4,291!2023-04-12,4,291!2023-04-12,4,291-->
+> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-04-14,3,250!2023-04-13,13,290!2023-04-14,14,290!2023-04-12,4,291!2023-04-12,4,291!2023-04-12,4,291-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -80,7 +80,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-04-13,41,293!2023-05-17,85,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-07,75,313!2023-04-21,23,268-->
-- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-04-11,54,293!2023-05-12,80,313-->
+- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-12,31,273!2023-05-12,80,313-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-05,73,313!2023-04-12,55,293-->
 
 ### list of options
