@@ -134,7 +134,7 @@ return (
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1389d0"--><!-- The following content is generated at 2022-11-05T00:25:01.100868+08:00. Any edits will be overridden! -->
 
-1. 1~3.1:::<span style="color: red;">red</span> <!--SR:!2023-04-11,232,250!2023-07-05,258,230-->
+1. 1~3.1:::<span style="color: red;">red</span> <!--SR:!2025-07-03,814,270!2023-07-05,258,230-->
 2. 3.1~4.4:::<span style="color: orange;">orange</span> <!--SR:!2023-10-09,345,250!2023-07-15,268,230-->
 3. 4.4~14:::<span style="color: yellow;">yellow</span> <!--SR:!2023-07-04,178,230!2023-06-14,67,190-->
 
@@ -155,7 +155,7 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2022-11-09T19:11:57.168670+08:00. Any edits will be overridden! -->
 
 1. _(acidic)_→:::←1~5 <!--SR:!2023-05-07,120,261!2024-02-02,351,321-->
-2. 1~5→:::←5~8 <!--SR:!2023-04-11,105,261!2023-06-18,171,301-->
+2. 1~5→:::←5~8 <!--SR:!2024-05-04,389,281!2023-06-18,171,301-->
 3. 5~8→:::←8~14 <!--SR:!2023-12-26,313,301!2023-05-02,124,261-->
 4. 8~14→:::←_(basic)_ <!--SR:!2023-09-13,221,301!2023-06-05,141,261-->
 

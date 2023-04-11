@@ -8,4 +8,4 @@ aliases:
 
 # zinc oxide
 
-__Zinc oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Zn](zinc.md)[O](oxygen.md)__}}. It looks like {{white [solid](solid.md) and yellow on heating due to [thermochromism](theromochromism.md)}}. <!--SR:!2023-04-24,17,290!2023-04-11,1,170-->
+__Zinc oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Zn](zinc.md)[O](oxygen.md)__}}. It looks like {{white [solid](solid.md) and yellow on heating due to [thermochromism](theromochromism.md)}}. <!--SR:!2023-04-24,17,290!2023-04-13,2,170-->

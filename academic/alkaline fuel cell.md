@@ -65,7 +65,7 @@ return await memorize_seq(
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-04-13,10,252!2023-04-21,17,292-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-04-16,13,270!2023-04-17,12,252-->
 4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-04-14,11,272!2023-04-13,10,252-->
-5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-11,7,230!2023-04-16,13,272-->
+5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-27,16,230!2023-04-16,13,272-->
 6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-04-15,12,272!2023-04-14,11,272-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -101,7 +101,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-04-13,10,250!2023-04-21,17,292-->
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-04-20,16,290!2023-04-20,16,292-->
-3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-04-11,6,252!2023-04-21,17,292-->
+3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-04-28,17,252!2023-04-21,17,292-->
 4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-04-20,16,292!2023-04-20,16,292-->
 5. remote power source→:::←_(end)_ <!--SR:!2023-04-21,17,295!2023-04-21,17,295-->
 

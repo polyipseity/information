@@ -23,7 +23,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-12,2,190!2023-04-11,2,210-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-12,2,190!2023-04-18,7,230-->
 
 ### odor
 
@@ -37,11 +37,11 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 ### dehydration
 
-[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated to give primary amides}}. <!--SR:!2023-04-11,2,229-->
+[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated to give primary amides}}. <!--SR:!2023-04-17,6,229-->
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-12,3,249!2023-04-11,2,229-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-12,3,249!2023-04-12,1,209-->
 
 ### nucleophilic substitution
 
@@ -78,16 +78,16 @@ return await memorize_table(
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[esterification](#esterification)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-04-11,3,269!2023-04-11,3,269!2023-04-11,3,269!2023-04-13,3,253-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2023-04-20,9,289!2023-04-23,12,289!2023-04-21,10,289!2023-04-13,3,253-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-04-08T23:59:05.282096+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-04-11,3,269!2023-04-11,3,269-->
+1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-04-21,10,269!2023-04-23,12,289-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-04-13,4,273!2023-04-13,4,273-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-04-11,3,269!2023-04-11,3,269-->
-4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-04-11,3,269!2023-04-11,3,269-->
-5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-04-11,3,269!2023-04-11,3,269-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-04-22,11,289!2023-04-23,12,289-->
+4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-04-20,9,269!2023-04-24,13,289-->
+5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-04-22,11,289!2023-04-24,13,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -49,7 +49,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="301d"--><!-- The following content is generated at 2023-03-20T16:11:54.318666+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_. <!--SR:!2023-04-11,6,257!2023-04-20,14,297-->
+1. _(begin)_→:::←[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_. <!--SR:!2023-04-28,17,257!2023-04-20,14,297-->
 2. [Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.→:::←[Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md). <!--SR:!2023-04-19,13,297!2023-04-21,15,297-->
 3. [Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).→:::←[Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge. <!--SR:!2023-04-13,8,257!2023-04-23,17,297-->
 4. [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used. <!--SR:!2023-04-14,9,257!2023-04-12,5,257-->

@@ -47,7 +47,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fa13"--><!-- The following content is generated at 2023-03-21T15:20:35.024707+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←cooking utensils <!--SR:!2023-04-16,16,290!2023-04-15,15,290-->
-2. cooking utensils→:::←electric wires <!--SR:!2023-04-11,11,270!2023-04-18,18,300-->
+2. cooking utensils→:::←electric wires <!--SR:!2023-05-10,29,270!2023-04-18,18,300-->
 3. electric wires→:::←water pipes <!--SR:!2023-04-14,14,290!2023-04-13,13,270-->
 4. water pipes→:::←_(end)_ <!--SR:!2023-04-14,14,290!2023-04-17,17,290-->
 

@@ -67,9 +67,9 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb89"--><!-- The following content is generated at 2023-03-31T11:11:36.650089+08:00. Any edits will be overridden! -->
 
 1. floats, producing hydrogen gas steadily::[lithium](lithium.md) <!--SR:!2023-04-17,17,290-->
-2. melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md) <!--SR:!2023-04-11,12,270-->
+2. melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md) <!--SR:!2023-05-17,36,270-->
 3. melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites::[potassium](potassium.md) <!--SR:!2023-05-10,30,270-->
-4. explosive::[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2023-04-11,10,250-->
+4. explosive::[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2023-05-09,28,250-->
 5. unknown::[francium](francium.md) <!--SR:!2023-04-13,13,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

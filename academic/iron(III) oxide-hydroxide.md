@@ -10,7 +10,7 @@ aliases:
 
 # iron(III) oxide-hydroxide
 
-__Iron(III) oxide-hydroxide__ is {{an [inorganic compound](inorganic%30compound.md) with the [chemical formula](chemical%30formula.md) [Fe](iron.md)[O](oxygen.md)([OH](hydroxide.md))}}. It looks like {{reddish brown [crystals](crystal.md)}}. <!--SR:!2023-04-23,17,290!2023-04-11,4,230-->
+__Iron(III) oxide-hydroxide__ is {{an [inorganic compound](inorganic%30compound.md) with the [chemical formula](chemical%30formula.md) [Fe](iron.md)[O](oxygen.md)([OH](hydroxide.md))}}. It looks like {{reddish brown [crystals](crystal.md)}}. <!--SR:!2023-04-23,17,290!2023-04-19,8,230-->
 
 It is often seen as {{one of its [hydrates](hydrate.md), FeO(OH)·_n_[H<sub>2</sub>O](water.md)}}. The {{monohydrate FeO(OH)·H<sub>2</sub>O is often called __iron(III) hydroxide__ Fe(OH)<sub>3</sub>}}. <!--SR:!2023-04-19,13,290!2023-04-22,16,290-->
 
