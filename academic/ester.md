@@ -39,7 +39,7 @@ Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Sol
 
 In acid [hydrolysis](hydrolysis.md), esters {{undergo the reverse of [Fischer–Speier esterification](Fischer–Speier%20esterification.md) in [acidic](acid.md) conditions. Non-[dehydrating](dehydration%20reaction.md) dilute acids are used with heating (under [reflux](reflux.md)) to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-12,1,216-->
 
-In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic](nucleophile.md) [hydroxide](hydroxide.md) to give [carboxylates](carboxylate.md) in [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. It is the basis of {{[saponification](saponification.md)}}. <!--SR:!2023-04-17,6,236!2023-04-12,4,276-->
+In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic](nucleophile.md) [hydroxide](hydroxide.md) to give [carboxylates](carboxylate.md) and [alcohols](alcohol.md) in [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. It is the basis of {{[saponification](saponification.md)}}. <!--SR:!2023-04-17,6,236!2023-04-12,4,276-->
 
 ### reactions
 
