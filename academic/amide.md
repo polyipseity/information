@@ -33,9 +33,9 @@ Amides {{that are small are [soluble](solubility.md) in [water](water.md)}}. Sol
 
 ### hydrolysis
 
-In acid [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylic acids](carboxylic%20acid.md), and [ammonium](ammonium.md) or [alkylammonium](alkylammonium.md) under [acidic](acid.md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. [Protonation](protonation.md) of initial [ammonia](ammonia.md) or [amines](amine.md) makes the reaction [irreversible](reversible%20reaction.md)}}. <!--SR:!2023-04-12,4,279-->
+In acid [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylic acids](carboxylic%20acid.md), and [ammonium](ammonium.md) or [alkylammonium](alkylammonium.md) under [acidic](acid.md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. [Protonation](protonation.md) of initial [ammonia](ammonia.md) or [amines](amine.md) makes the reaction [irreversible](reversible%20reaction.md)}}. <!--SR:!2023-04-25,13,279-->
 
-In alkaline [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylates](carboxylate.md), and [ammonia](ammonia.md) or [amines](amine.md) under [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. [Deprotonation](deprotonation.md) of initial [carboxylic acids](carboxylic%20acid.md) makes the reaction [irreversible](reversible%20reaction.md). Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. <!--SR:!2023-04-12,3,259-->
+In alkaline [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylates](carboxylate.md), and [ammonia](ammonia.md) or [amines](amine.md) under [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. [Deprotonation](deprotonation.md) of initial [carboxylic acids](carboxylic%20acid.md) makes the reaction [irreversible](reversible%20reaction.md). Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. <!--SR:!2023-04-21,9,259-->
 
 ### reactions
 
@@ -58,13 +58,13 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2023-04-12,4,279-->
+> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2023-04-29,17,299-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2023-04-07T00:25:31.881054+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-12,4,279!2023-04-12,4,279-->
-2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-04-12,4,279!2023-04-12,4,283-->
+1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-25,13,279!2023-04-14,2,259-->
+2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-04-25,13,279!2023-04-30,18,303-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

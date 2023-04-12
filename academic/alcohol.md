@@ -39,13 +39,13 @@ In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](va
 
 ### nucleophilic substitution
 
-Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2023-04-12,4,275!2023-04-12,4,280-->
+Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2023-04-25,13,275!2023-04-30,18,300-->
 
 ### oxidation
 
-Primary alcohols {{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}}. {{Acidified [potassium dichromate](potassium%20dichromate.md)}} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2023-04-24,13,280!2023-04-12,4,280-->
+Primary alcohols {{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}}. {{Acidified [potassium dichromate](potassium%20dichromate.md)}} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2023-04-24,13,280!2023-04-30,18,300-->
 
-To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2023-04-12,4,275!2023-04-13,2,240-->
+To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2023-04-25,13,275!2023-04-13,2,240-->
 
 ### reactions
 
@@ -72,15 +72,15 @@ return await memorize_table(
 > |-|-|
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-04-12,4,275!2023-04-12,4,280!2023-04-12,4,280-->
+> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-04-27,15,295!2023-04-30,18,300!2023-04-30,18,300-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2023-04-06T10:09:50.047710+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-04-21,10,255!2023-04-12,4,280-->
-2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-04-20,9,255!2023-04-12,4,280-->
-3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-04-23,12,275!2023-04-12,4,280-->
-4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2023-04-12,4,275!2023-04-12,4,275-->
+1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-04-21,10,255!2023-04-29,17,300-->
+2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-04-20,9,255!2023-04-29,17,300-->
+3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-04-23,12,275!2023-04-30,18,300-->
+4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2023-04-29,17,295!2023-04-29,17,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
