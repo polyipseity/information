@@ -137,7 +137,7 @@ return await memorize_table(
 4. [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2023-04-20,14,290!2023-04-21,15,290-->
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-04-23,17,290!2023-04-20,14,290-->
 6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
-7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-04-12,3,230!2023-04-14,9,270-->
+7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-04-19,7,230!2023-04-14,9,270-->
 8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-04-17,12,270!2023-04-17,12,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2023-04-19,13,290!2023-04-19,13,290-->
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-04-21,15,290!2023-04-19,13,270-->
@@ -148,15 +148,15 @@ return await memorize_table(
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-04-21,10,230!2023-04-18,13,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-04-22,11,230!2023-04-20,14,290-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-04-20,9,230!2023-04-22,11,230-->
-18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-04-12,3,230!2023-04-17,12,270-->
+18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-04-18,6,230!2023-04-17,12,270-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-04-13,8,250!2023-04-13,2,210-->
-20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-04-15,10,250!2023-04-12,7,250-->
+20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-04-15,10,250!2023-05-01,19,250-->
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-04-18,13,270!2023-04-16,11,270-->
 22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-04-19,8,230!2023-04-13,8,250-->
 23. [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2023-04-17,12,270!2023-04-17,12,270-->
 24. [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2023-04-16,11,270!2023-04-15,10,270-->
 25. [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2023-04-16,11,270!2023-04-14,9,270-->
-26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-04-17,12,270!2023-04-12,7,250-->
+26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-04-17,12,270!2023-04-13,1,230-->
 27. [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2023-04-14,9,270!2023-04-18,13,270-->
 28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-04-14,3,230!2023-04-16,6,230-->
 29. [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2023-04-18,13,270!2023-04-16,11,270-->
@@ -166,7 +166,7 @@ return await memorize_table(
 33. [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2023-04-22,16,290!2023-04-22,16,290-->
 34. [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2023-04-16,11,270!2023-04-22,16,290-->
 35. [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2023-04-14,9,250!2023-04-16,11,270-->
-36. [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2023-04-12,7,250!2023-04-14,9,270-->
+36. [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2023-05-02,20,250!2023-04-14,9,270-->
 37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-04-15,10,270!2023-04-19,13,290-->
 38. [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2023-04-15,10,270!2023-04-15,10,270-->
 39. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2023-04-15,10,270!2023-04-26,15,250-->

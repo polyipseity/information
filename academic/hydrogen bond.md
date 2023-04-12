@@ -20,4 +20,4 @@ The hydrogen bond is important in {{[DNAs](DNA.md) to maintain its double helix 
 
 ### water
 
-Hydrogen bonds are responsible for {{the high [boiling point](boiling%20point.md), [surface tension](surface%20tension.md), and [viscosity](viscosity.md)}} of [water](water.md). It also makes [ethanol](ethanol.md) {{[miscible](miscibility.md) in all portions}} with water. <!--SR:!2023-04-12,5,250!2023-04-23,17,290-->
+Hydrogen bonds are responsible for {{the high [boiling point](boiling%20point.md), [surface tension](surface%20tension.md), and [viscosity](viscosity.md)}} of [water](water.md). It also makes [ethanol](ethanol.md) {{[miscible](miscibility.md) in all portions}} with water. <!--SR:!2023-04-27,15,250!2023-04-23,17,290-->
