@@ -47,7 +47,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-12,3,250!2023-04-16,16,290!2023-04-17,17,290!2023-04-16,16,290!2023-04-26,15,250!2023-04-15,15,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-25,13,270!2023-04-16,16,290!2023-04-17,17,290!2023-04-16,16,290!2023-04-26,15,250!2023-04-15,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -89,7 +89,7 @@ return await memorize_table(
 
 ### ionic solid
 
-A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-04-12,10,250-->
+A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-05-21,39,270-->
 
 #### properties
 

@@ -10,4 +10,4 @@ aliases:
 
 # base strength
 
-__Base strength__ is {{the tendency of a [base](base.md) to [dissociate](dissociation%20(chemistry).md)}}. Strong bases {{dissociate effectively completely in [solutions](solution%20(chemistry).md)}}. Weak bases {{dissociates partially in solutions}}. <!--SR:!2023-04-12,13,270!2023-04-14,14,290!2023-04-16,16,290-->
+__Base strength__ is {{the tendency of a [base](base.md) to [dissociate](dissociation%20(chemistry).md)}}. Strong bases {{dissociate effectively completely in [solutions](solution%20(chemistry).md)}}. Weak bases {{dissociates partially in solutions}}. <!--SR:!2023-06-04,53,290!2023-04-14,14,290!2023-04-16,16,290-->

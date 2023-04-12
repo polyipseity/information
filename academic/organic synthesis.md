@@ -43,7 +43,7 @@ return await memorize_table(
 > | {{formation of [by-products](by-product.md)}} | {{Avoid forming [by-products](by-product.md), especially harmful ones.}} |
 > | {{number of steps}} | {{Less steps mean less loss.}} |
 > | {{[reaction rate](reaction%20rate.md)}} | {{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}} |
-> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2023-04-13,4,270!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-12,3,252-->
+> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2023-04-13,4,270!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-13,4,272!2023-04-21,9,252-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
