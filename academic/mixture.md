@@ -21,7 +21,7 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 
 ## uniformity
 
-A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-04-13,5,270-->
+A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-04-16,3,250-->
 
 ### homogeneous mixture
 

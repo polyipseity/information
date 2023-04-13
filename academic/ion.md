@@ -282,11 +282,11 @@ return chain.from_iterable(await gather(
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
-22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2023-04-13,4,322!2023-04-13,4,322-->
-23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2023-04-13,4,322!2023-04-13,4,322-->
-24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2023-04-13,4,322!2023-04-13,4,322-->
-25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2023-04-13,4,322!2023-04-13,4,322-->
-26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2023-04-13,4,322!2023-04-13,4,322-->
+22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2023-05-02,19,342!2023-05-03,20,342-->
+23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2023-05-01,18,342!2023-05-03,20,342-->
+24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2023-05-03,20,342!2023-05-03,20,342-->
+25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2023-05-03,20,342!2023-05-02,19,342-->
+26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2023-05-02,19,342!2023-05-03,20,342-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -315,11 +315,11 @@ return chain.from_iterable(await gather(
 19. aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
 20. iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 21. chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
-22. scandium(III) ion::3+ <!--SR:!2023-04-13,4,322-->
-23. titanium(III) ion::3+ <!--SR:!2023-04-13,4,322-->
-24. vanadium(II) ion::2+ <!--SR:!2023-04-13,4,322-->
-25. vanadium(III) ion::3+ <!--SR:!2023-04-13,4,322-->
-26. manganese(III) ion::3+ <!--SR:!2023-04-13,4,322-->
+22. scandium(III) ion::3+ <!--SR:!2023-05-02,19,342-->
+23. titanium(III) ion::3+ <!--SR:!2023-05-02,19,342-->
+24. vanadium(II) ion::2+ <!--SR:!2023-05-02,19,342-->
+25. vanadium(III) ion::3+ <!--SR:!2023-05-03,20,342-->
+26. manganese(III) ion::3+ <!--SR:!2023-05-03,20,342-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -348,10 +348,10 @@ return chain.from_iterable(await gather(
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
-22. scandium(III) ion::colorless <!--SR:!2023-04-13,4,322-->
-23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-04-13,3,282-->
-24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-04-13,3,282-->
-25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-04-13,3,282-->
+22. scandium(III) ion::colorless <!--SR:!2023-04-28,15,322-->
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-04-27,14,302-->
+24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-04-21,8,282-->
+25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-04-23,10,282-->
 26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-04-23,11,302-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -366,8 +366,8 @@ return chain.from_iterable(await gather(
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-25,19,341-->
 6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-24,18,341-->
-7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2023-04-13,3,282-->
-8. <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2023-04-13,3,282-->
+7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2023-04-21,8,282-->
+8. <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2023-04-22,9,282-->
 9. <span style="color: red;">red</color>::manganese(III) ion <!--SR:!2023-04-23,11,302-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -426,9 +426,9 @@ return chain.from_iterable(await gather(
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2024-04-18,528,270!2023-12-28,493,313-->
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2024-01-20,457,258!2024-06-29,618,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
-20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2023-04-13,175,290-->
+20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2025-03-18,705,310-->
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-05-30,57,199!2024-08-25,617,276-->
-22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2023-04-13,4,322!2023-04-13,4,322-->
+22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2023-05-03,20,342!2023-04-28,15,322-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -457,7 +457,7 @@ return chain.from_iterable(await gather(
 19. dichromate ion::2- <!--SR:!2023-05-18,328,290-->
 20. nitride ion::3- <!--SR:!2023-05-22,331,290-->
 21. phosphate ion::3- <!--SR:!2023-10-02,275,210-->
-22. manganate ion::2- <!--SR:!2023-04-13,4,322-->
+22. manganate ion::2- <!--SR:!2023-05-01,18,342-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

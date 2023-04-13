@@ -14,7 +14,7 @@ aliases:
 
 # atomicity
 
-__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2023-04-13,13,290-->
+__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2023-05-25,42,290-->
 
 ## classification
 
@@ -60,7 +60,7 @@ Molecules can be classified based on atomicity as:
 2. Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2023-04-17,17,290-->
 3. Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-04-17,17,290-->
 4. H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-04-14,14,290-->
-5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-04-13,13,290-->
+5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-02,50,310-->
 6. O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-04-14,14,290-->
 7. O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2023-04-14,14,290-->
 8. P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2023-04-16,16,290-->

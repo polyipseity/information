@@ -14,7 +14,7 @@ aliases:
 
 # free-radical halogenation
 
-__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2023-04-13,7,259-->
+__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2023-05-03,20,259-->
 
 ## general mechanism
 

@@ -44,15 +44,15 @@ return await memorize_table(
 > |-|-|
 > | {{[catalytic](catalysis.md) properties}} | {{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}} |
 > | {{colored [ions](ion.md)}} | {{Most transition metals ions are colored.}} |
-> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270-->
+> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2023-04-29,16,290!2023-04-26,13,270!2023-04-28,15,290!2023-04-26,13,270!2023-04-29,16,290!2023-04-26,13,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dafb"--><!-- The following content is generated at 2023-04-08T14:02:07.542272+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[catalytic](catalysis.md) properties <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
-2. [catalytic](catalysis.md) properties→:::←colored [ions](ion.md) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
-3. colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
-4. variable [oxidation states](oxidation%20state.md)→:::←_(end)_ <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
+1. _(begin)_→:::←[catalytic](catalysis.md) properties <!--SR:!2023-04-28,15,290!2023-04-27,14,290-->
+2. [catalytic](catalysis.md) properties→:::←colored [ions](ion.md) <!--SR:!2023-04-30,17,290!2023-04-27,14,290-->
+3. colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2023-04-28,15,290!2023-04-30,17,290-->
+4. variable [oxidation states](oxidation%20state.md)→:::←_(end)_ <!--SR:!2023-04-30,17,290!2023-04-29,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

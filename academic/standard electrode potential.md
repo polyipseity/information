@@ -196,7 +196,7 @@ return (
 > | O | S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> | ⇌ | 2SO<sub>4</sub><sup>2-</sup>(aq) | 2.01 | 2 |  |
 > | F | F<sub>2</sub>(g) + 2e<sup>-</sup> | ⇌ | 2F<sup>-</sup>(aq) | 2.87 | 2 |  |
 >
-> (highest oxidizing power/lowest reducing power) <!--SR:!2023-04-17,11,276!2023-04-15,9,276!2023-04-13,7,256!2023-04-15,9,276!2023-04-17,11,276!2023-04-18,12,276!2023-04-16,10,276!2023-04-17,11,276!2023-04-25,13,281-->
+> (highest oxidizing power/lowest reducing power) <!--SR:!2023-04-17,11,276!2023-04-15,9,276!2023-05-02,19,256!2023-04-15,9,276!2023-04-17,11,276!2023-04-18,12,276!2023-04-16,10,276!2023-04-17,11,276!2023-04-25,13,281-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -205,18 +205,18 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2023-03-31T14:05:22.687917+08:00. Any edits will be overridden! -->
 
 1. K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s)::-2.931 <!--SR:!2023-09-10,174,210-->
-2. Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)::-2.868 <!--SR:!2023-04-13,30,130-->
-3. Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s)::-2.71 <!--SR:!2023-04-13,23,130-->
+2. Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)::-2.868 <!--SR:!2023-05-26,43,130-->
+3. Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s)::-2.71 <!--SR:!2023-05-14,31,130-->
 4. Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s)::-2.372 <!--SR:!2023-04-18,15,130-->
 5. Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s)::-1.662 <!--SR:!2023-04-24,24,130-->
-6. 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>::-0.8277 <!--SR:!2023-04-13,4,216-->
+6. 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>::-0.8277 <!--SR:!2023-04-15,2,196-->
 7. Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)::-0.7618 <!--SR:!2023-04-21,19,130-->
-8. Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s)::-0.744 <!--SR:!2023-04-13,2,176-->
+8. Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s)::-0.744 <!--SR:!2023-04-17,4,176-->
 9. Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s)::-0.44 <!--SR:!2023-04-29,167,210-->
 10. Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq)::-0.407 <!--SR:!2023-04-16,4,196-->
 11. Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s)::-0.28 <!--SR:!2023-04-14,2,230-->
 12. Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s)::-0.257 <!--SR:!2023-04-15,5,230-->
-13. Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s)::-0.13 <!--SR:!2023-04-13,2,176-->
+13. Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s)::-0.13 <!--SR:!2023-04-17,4,176-->
 14. Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s)::-0.126 <!--SR:!2023-04-14,34,190-->
 15. CO<sub>2</sub>(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ CO(g) + H<sub>2</sub>O(l)::-0.11 <!--SR:!2024-06-24,475,250-->
 16. 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g)::0 <!--SR:!2023-05-31,50,296-->
@@ -236,7 +236,7 @@ return (
 30. NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l)::0.8 <!--SR:!2023-07-09,155,230-->
 31. NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l)::0.958 <!--SR:!2023-04-18,101,210-->
 32. Br<sub>2</sub>(aq) + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>(aq)::1.0873 <!--SR:!2023-05-27,54,170-->
-33. 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l)::1.2 <!--SR:!2023-04-13,4,150-->
+33. 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l)::1.2 <!--SR:!2023-04-19,6,150-->
 34. O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l)::1.229 <!--SR:!2023-04-23,25,219-->
 35. Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l)::1.33 <!--SR:!2023-04-29,65,150-->
 36. Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq)::1.36 <!--SR:!2023-04-20,58,150-->

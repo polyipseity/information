@@ -8,4 +8,4 @@ aliases:
 
 # boiling chip
 
-A __boiling chip__ is {{a tiny, rough piece of material added to [liquids](liquid.md) to smoothen [boiling](boiling.md)}}. It prevents {{[bumping](bumping%20(chemistry).md) due to [superheating](superheating.md) of liquid}}. <!--SR:!2023-04-19,14,230!2023-04-13,5,230-->
+A __boiling chip__ is {{a tiny, rough piece of material added to [liquids](liquid.md) to smoothen [boiling](boiling.md)}}. It prevents {{[bumping](bumping%20(chemistry).md) due to [superheating](superheating.md) of liquid}}. <!--SR:!2023-04-19,14,230!2023-04-27,14,230-->
