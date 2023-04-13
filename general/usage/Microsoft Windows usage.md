@@ -16,7 +16,7 @@
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-05-25,76,230!2023-05-01,78,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2023-04-29,67,250!2023-05-26,81,230-->
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2023-05-10,44,230!2023-10-01,175,270-->
-- toggle unfocused windows:::⊞Win+Home <!--SR:!2023-05-25,78,230!2023-04-13,60,250-->
+- toggle unfocused windows:::⊞Win+Home <!--SR:!2023-05-25,78,230!2023-05-13,30,230-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2023-04-19,62,250!2023-08-09,159,310-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2023-05-04,29,250!2023-09-24,171,270-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2023-09-12,153,250!2023-05-18,50,230-->

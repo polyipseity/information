@@ -9,7 +9,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### global
 
 - open file:::Ctrl+O <!--SR:!2023-09-24,197,315!2023-09-25,197,316-->
-- save file:::Ctrl+S <!--SR:!2023-04-13,73,316!2024-01-13,285,336-->
+- save file:::Ctrl+S <!--SR:!2024-02-20,313,336!2024-01-13,285,336-->
 - new file:::Ctrl+N <!--SR:!2023-12-02,238,290!2023-07-07,121,296-->
 - undo:::Ctrl+Z <!--SR:!2023-09-28,197,310!2023-07-07,121,296-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-06-13,94,256-->
