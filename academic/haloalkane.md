@@ -41,7 +41,7 @@ To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md
 
 #### hydrolysis
 
-In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}}. <!--SR:!2023-04-13,2,232-->
+In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}}. <!--SR:!2023-04-14,1,212-->
 
 ### reactions
 
@@ -66,7 +66,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[hydrolysis](#hydrolysis)}} |  |
-> | {{[substitution](#substitution)}} |  | <!--SR:!2023-04-25,13,272!2023-04-13,4,277-->
+> | {{[substitution](#substitution)}} |  | <!--SR:!2023-04-25,13,272!2023-04-26,13,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -74,6 +74,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-24,12,272!2023-04-29,17,292-->
 2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-04-14,2,252!2023-04-25,13,272-->
-3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-04-13,4,277!2023-04-13,4,277-->
+3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-04-30,17,297!2023-04-26,13,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

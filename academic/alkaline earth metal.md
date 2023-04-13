@@ -79,4 +79,4 @@ return await memorize_map(
 
 ### reaction with acids
 
-Alkaline earth metals {{react readily with [acids](acid.md) to form [hydrogen](hydrogen.md)}}. <!--SR:!2023-04-13,9,250-->
+Alkaline earth metals {{react readily with [acids](acid.md) to form [hydrogen](hydrogen.md)}}. <!--SR:!2023-05-09,26,250-->

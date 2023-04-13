@@ -40,16 +40,16 @@ return await memorize_table(
 > |-|
 > | {{[angle sum and difference](#angle%20sum%20and%20difference)}} |
 > | {{[multiple-angle](#multiple-angle)}} |
-> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-04-13,4,270!2023-04-13,4,270!2023-04-13,4,270-->
+> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-04-26,13,270!2023-04-30,17,290!2023-04-30,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-04-09T19:41:29.732199+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
-2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
-3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
-4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-04-13,4,270!2023-04-13,4,270-->
+1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
+2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
+3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-04-26,13,270!2023-04-30,17,290-->
+4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-04-30,17,290!2023-04-26,13,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -79,7 +79,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$}} |
 > | cosine | {{$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$}} |
-> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-04-22,10,250!2023-04-13,4,270!2023-04-20,8,250-->
+> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-04-22,10,250!2023-04-26,13,270!2023-04-20,8,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

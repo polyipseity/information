@@ -41,7 +41,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{catalytic cracking}} | {{Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
-> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2023-04-14,14,290!2023-04-13,5,230!2023-04-15,15,290!2023-05-10,30,270-->
+> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2023-04-14,14,290!2023-04-27,14,230!2023-04-15,15,290!2023-05-10,30,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -55,4 +55,4 @@ return await memorize_table(
 
 ### laboratory
 
-Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}. <!--SR:!2023-04-22,10,269!2023-04-19,8,269!2023-04-16,5,249!2023-04-13,1,230!2023-04-26,14,289!2023-04-26,14,289!2023-04-19,8,269-->
+Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}. <!--SR:!2023-04-22,10,269!2023-04-19,8,269!2023-04-16,5,249!2023-04-15,2,230!2023-04-26,14,289!2023-04-26,14,289!2023-04-19,8,269-->

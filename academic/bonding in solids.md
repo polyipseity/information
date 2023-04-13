@@ -83,7 +83,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-05-03,24,250!2023-04-14,14,290!2023-04-13,13,270!2023-04-13,13,270!2023-04-13,13,270!2023-04-17,17,290!2023-04-17,7,250!2023-05-04,24,230-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-05-03,24,250!2023-04-14,14,290!2023-05-19,36,270!2023-05-29,46,290!2023-04-20,7,250!2023-04-17,17,290!2023-04-17,7,250!2023-05-04,24,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -119,7 +119,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-01,24,250!2023-04-13,13,290!2023-05-26,45,290!2023-04-16,16,290!2023-04-14,11,270!2023-04-15,15,290!2023-04-14,5,230!2023-04-14,14,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-01,24,250!2023-06-06,54,310!2023-05-26,45,290!2023-04-16,16,290!2023-04-14,11,270!2023-04-15,15,290!2023-04-14,5,230!2023-04-14,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -157,6 +157,6 @@ return await memorize_table(
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-04-25,15,250!2023-04-14,14,290!2023-04-13,13,270!2023-04-16,16,290!2023-04-13,13,270!2023-04-17,17,290!2023-04-15,15,290!2023-04-14,14,290!2023-05-14,36,270!2023-04-17,17,290-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-04-25,15,250!2023-04-14,14,290!2023-06-01,49,290!2023-04-16,16,290!2023-05-18,35,270!2023-04-17,17,290!2023-04-15,15,290!2023-04-14,14,290!2023-05-14,36,270!2023-04-17,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

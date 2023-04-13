@@ -55,7 +55,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293842"--><!-- The following content is generated at 2023-03-24T01:07:46.482419+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2023-04-13,13,290!2023-04-16,16,290-->
+1. _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2023-06-08,56,310!2023-04-16,16,290-->
 2. Filter air to remove [dust](dust.md).→:::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K. <!--SR:!2023-05-20,38,270!2023-04-15,15,290-->
 3. Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.→:::←Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md). <!--SR:!2023-05-07,28,250!2023-04-19,8,250-->
 4. Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→:::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2023-05-02,23,250!2023-05-10,28,250-->
