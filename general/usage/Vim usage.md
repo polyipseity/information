@@ -40,12 +40,12 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
-- insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-04-13,56,293-->
+- insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-09-27,167,293-->
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2023-05-06,74,313!2023-05-17,85,328-->
 - replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-07-17,113,273!2023-05-13,81,313-->
-- enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-04-13,56,293-->
+- enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-12-06,237,313-->
 
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2023-05-16,84,328-->
@@ -78,12 +78,12 @@ See also [Vim help files](https://vimhelp.org/).
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-04-21,18,253!2023-05-07,75,313-->
 
 ## options
-- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-04-13,41,293!2023-05-17,85,327-->
+- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-08-16,125,293!2023-05-17,85,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-07,75,313!2023-04-21,23,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-12,31,273!2023-05-12,80,313-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-05,73,313!2023-09-25,166,293-->
 
 ### list of options
-- ignorecase, ic:::ignore case in search <!--SR:!2023-04-13,56,308!2023-04-16,59,308-->
+- ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-04-16,59,308-->
 - incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-07-17,113,273-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-04-15,58,308-->
