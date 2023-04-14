@@ -29,7 +29,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-05-05,73,313!2023-10-23,200,313-->
-- quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-05-06,74,313!2023-04-14,57,293-->
+- quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-05-06,74,313!2023-10-03,172,293-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2023-05-14,82,328-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-05-07,75,313!2023-05-15,83,328-->
 
@@ -55,7 +55,7 @@ See also [Vim help files](https://vimhelp.org/).
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->
 
 ## edit
-- delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-05-14,82,327!2023-04-14,57,308-->
+- delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-05-14,82,327!2023-10-10,179,308-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-05-13,81,310!2023-05-13,81,313-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-05-11,79,313!2023-04-15,58,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2023-05-10,78,313-->
@@ -67,7 +67,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## search and substitute
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2023-06-18,98,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-05-04,39,230!2023-04-17,60,308-->
-- repeat last search:::n <!--SR:!2023-05-13,81,313!2023-04-14,57,308-->
+- repeat last search:::n <!--SR:!2023-05-13,81,313!2023-10-11,180,308-->
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2023-06-07,84,268-->
