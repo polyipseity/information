@@ -31,7 +31,7 @@ Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:
 
 ### solubility
 
-Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-04-14,4,230!2023-04-25,17,290-->
+Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-04-25,11,230!2023-04-25,17,290-->
 
 ## chemical properties
 
@@ -41,7 +41,7 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-24,12,269!2023-04-14,2,209-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-24,12,269!2023-04-18,4,209-->
 
 ### nucleophilic substitution
 

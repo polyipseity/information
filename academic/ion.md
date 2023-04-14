@@ -361,7 +361,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-08T13:40:47.993725+08:00. Any edits will be overridden! -->
 
 1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-04-15,3,261-->
-2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-04-14,7,281-->
+2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-05-07,23,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-16,11,301-->
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-25,19,341-->
@@ -481,7 +481,7 @@ return chain.from_iterable(await gather(
 14. sulfide ion::_(n/a)_ <!--SR:!2023-05-28,132,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-05-05,53,254-->
-17. carbonate ion::colorless <!--SR:!2023-04-14,235,252-->
+17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
 20. nitride ion::_(n/a)_ <!--SR:!2023-04-23,66,256-->

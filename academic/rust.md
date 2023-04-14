@@ -15,7 +15,7 @@ aliases:
 
 # rust
 
-__Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2023-04-14,2,210-->
+__Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2023-04-18,4,210-->
 
 ## chemical reactions
 
@@ -26,7 +26,7 @@ First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides]
 > 1. {{2Fe(s) + O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) → 2Fe<sup>2+</sup>(aq) + 4OH<sup>-</sup>(aq)
 > 	- O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)
 > 	- Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}}
-> 2. {{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}} <!--SR:!2023-04-14,8,250-->
+> 2. {{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}} <!--SR:!2023-05-06,22,250-->
 
 After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-04-28,15,250-->
 
@@ -39,7 +39,7 @@ After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs
 > - {{Fe(OH)<sub>3</sub>(s) ⇌ FeO(OH)(s) + H<sub>2</sub>O(l)}}
 > - {{2FeO(OH)(s) ⇌ Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}} <!--SR:!2023-04-16,10,270!2023-04-18,11,270!2023-04-21,14,290-->
 
-{{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}} can be used to detect rusting. {{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}} to speed up the reaction. <!--SR:!2023-04-17,11,270!2023-04-14,8,250-->
+{{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}} can be used to detect rusting. {{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}} to speed up the reaction. <!--SR:!2023-04-17,11,270!2023-05-07,23,250-->
 
 ## prevention
 
@@ -75,7 +75,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-04-23,16,290!2023-04-22,15,290-->
-2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-04-14,6,250!2023-04-21,14,290-->
+2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-05-08,24,270!2023-04-21,14,290-->
 3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-04-22,15,290!2023-04-23,16,290-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2023-04-20,13,270!2023-04-24,17,290-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
@@ -86,7 +86,7 @@ return await memorize_table(
 
 - See also: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
 
-Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-04-18,11,270!2023-04-14,8,250!2023-04-15,9,270-->
+Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-04-18,11,270!2023-05-05,21,250!2023-04-15,9,270-->
 
 ### coating and painting
 
@@ -100,7 +100,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-04-21,1
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-04-18,7,250-->
 
-In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-04-14,8,250!2023-04-25,14,230!2023-04-15,3,230!2023-04-18,12,270!2023-04-23,16,290!2023-05-02,19,250!2023-04-16,9,270-->
+In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-05-06,22,250!2023-04-25,14,230!2023-04-15,3,230!2023-04-18,12,270!2023-04-23,16,290!2023-05-02,19,250!2023-04-16,9,270-->
 
 ### cathodic protection
 

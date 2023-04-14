@@ -158,7 +158,7 @@ return chain.from_iterable(await gather(
 > |-|-|
 > | sine cosine | {{<ul><li>$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$</li><li>$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$</li></ul>}} |
 > | sine sine | {{$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$}} |
-> | cosine cosine | {{$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$}} | <!--SR:!2023-04-21,9,250!2023-04-14,2,230!2023-04-20,8,250-->
+> | cosine cosine | {{$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$}} | <!--SR:!2023-04-21,9,250!2023-04-19,5,230!2023-04-20,8,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -171,6 +171,6 @@ return chain.from_iterable(await gather(
 > | sine ± sine | {{$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$}} |
 > | cosine + cosine | {{$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$}} |
 > | cosine - cosine | {{$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$}} |
-> | tangent ± tangent | {{$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$}} | <!--SR:!2023-04-14,2,230!2023-04-21,9,250!2023-04-14,2,230!2023-04-17,5,230-->
+> | tangent ± tangent | {{$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$}} | <!--SR:!2023-04-20,6,230!2023-04-21,9,250!2023-04-20,6,230!2023-04-17,5,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

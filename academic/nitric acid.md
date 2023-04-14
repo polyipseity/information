@@ -8,7 +8,7 @@ aliases:
 
 # nitric acid
 
-__Nitric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __HNO<sub>3</sub>__}}. <!--SR:!2023-04-14,9,270-->
+__Nitric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __HNO<sub>3</sub>__}}. <!--SR:!2023-05-08,24,270-->
 
 ## chemistry
 

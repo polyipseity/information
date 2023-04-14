@@ -23,7 +23,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md), amides have {{higher [boiling poi
 
 ### density
 
-Amides are {{slightly more [dense](density.md) than [water](water.md)}}. <!--SR:!2023-04-14,4,250-->
+Amides are {{slightly more [dense](density.md) than [water](water.md)}}. <!--SR:!2023-04-26,12,250-->
 
 ### solubility
 
@@ -64,7 +64,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2023-04-07T00:25:31.881054+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-25,13,279!2023-04-14,2,259-->
+1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-04-25,13,279!2023-04-21,7,279-->
 2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-04-25,13,279!2023-04-30,18,303-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

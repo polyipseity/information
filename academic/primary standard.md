@@ -15,7 +15,7 @@ aliases:
 
 # primary standard
 
-A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2023-04-14,8,250-->
+A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2023-05-15,31,270-->
 
 ## chemistry
 
@@ -60,7 +60,7 @@ return await memorize_seq(
 4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2023-04-18,10,250!2023-04-17,4,230-->
 5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2023-04-28,15,250!2023-04-15,9,270-->
 6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2023-04-28,16,250!2023-04-15,9,270-->
-7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-04-14,8,250!2023-04-16,10,270-->
+7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-05-07,23,250!2023-04-16,10,270-->
 8. ready and cheap availability→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-16,10,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
