@@ -337,7 +337,7 @@ return chain.from_iterable(await gather(
 8. magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
 9. calcium ion::colorless <!--SR:!2024-03-02,499,272-->
 10. barium ion::colorless <!--SR:!2024-09-20,630,274-->
-11. lead(II) ion::colorless <!--SR:!2023-04-15,236,253-->
+11. lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2023-07-06,95,207-->
 14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2023-05-09,46,150-->
@@ -360,7 +360,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-08T13:40:47.993725+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-04-15,3,261-->
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-04-17,2,241-->
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-05-07,23,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-04-16,11,301-->
 4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-16,11,301-->
@@ -415,7 +415,7 @@ return chain.from_iterable(await gather(
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2026-01-30,1090,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-08-21,215,239!2023-05-05,319,290-->
-9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2023-04-15,301,279!2023-12-08,473,312-->
+9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2023-12-08,473,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2023-06-13,347,294-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2026-01-17,1128,350-->
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2023-09-02,376,273!2023-12-01,306,233-->

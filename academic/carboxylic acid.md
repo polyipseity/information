@@ -27,7 +27,7 @@ Carboxylic acids are {{less [dense](density.md) than [water](water.md) except fo
 
 ### odor
 
-Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-04-15,5,230-->
+Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-04-18,3,210-->
 
 ### solubility
 

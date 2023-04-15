@@ -19,7 +19,7 @@ __Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydra
 
 ## chemical reactions
 
-Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-15,3,230!2023-04-18,12,270!2023-04-17,4,230-->
+Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-24,9,230!2023-04-18,12,270!2023-04-17,4,230-->
 
 First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ions may be further oxidized by air to iron(II) ions}}: <!--SR:!2023-04-26,14,250!2023-04-19,12,270-->
 
@@ -86,7 +86,7 @@ return await memorize_table(
 
 - See also: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
 
-Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-04-18,11,270!2023-05-05,21,250!2023-04-15,9,270-->
+Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-04-18,11,270!2023-05-05,21,250!2023-05-22,37,290-->
 
 ### coating and painting
 
@@ -100,7 +100,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-04-21,1
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-04-18,7,250-->
 
-In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-05-06,22,250!2023-04-25,14,230!2023-04-15,3,230!2023-04-18,12,270!2023-04-23,16,290!2023-05-02,19,250!2023-04-16,9,270-->
+In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-05-06,22,250!2023-04-25,14,230!2023-04-17,2,210!2023-04-18,12,270!2023-04-23,16,290!2023-05-02,19,250!2023-04-16,9,270-->
 
 ### cathodic protection
 
@@ -108,4 +108,4 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2023-04-18,9,270-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-04-17,10,270!2023-04-24,17,290!2023-04-27,15,250!2023-04-15,9,270!2023-04-17,10,270!2023-04-15,8,250-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-04-17,10,270!2023-04-24,17,290!2023-04-27,15,250!2023-05-09,24,270!2023-04-17,10,270!2023-05-07,22,250-->

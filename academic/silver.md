@@ -38,7 +38,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} |
-> | {{electrical and electronic components}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}} | <!--SR:!2023-04-24,17,290!2023-04-18,11,270!2023-04-24,17,290!2023-04-15,7,230-->
+> | {{electrical and electronic components}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}} | <!--SR:!2023-04-24,17,290!2023-04-18,11,270!2023-04-24,17,290!2023-05-03,18,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
