@@ -10,4 +10,4 @@ aliases:
 
 ## qualitative description
 
-A [solution](solution%20(chemistry).md) with relatively low concentration is {{"dilute"}} while one of relatively high concentration is {{"concentrated"}}. <!--SR:!2023-04-17,17,290!2023-04-15,15,290-->
+A [solution](solution%20(chemistry).md) with relatively low concentration is {{"dilute"}} while one of relatively high concentration is {{"concentrated"}}. <!--SR:!2023-04-17,17,290!2023-06-17,63,310-->

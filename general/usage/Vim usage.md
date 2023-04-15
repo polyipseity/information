@@ -57,11 +57,11 @@ See also [Vim help files](https://vimhelp.org/).
 ## edit
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-05-14,82,327!2023-10-10,179,308-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-05-13,81,310!2023-05-13,81,313-->
-- delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-05-11,79,313!2023-04-15,58,308-->
+- delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-05-11,79,313!2023-10-19,187,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2023-05-10,78,313-->
 - restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-10-22,199,308-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
-- paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-04-15,58,307!2023-05-14,82,328-->
+- paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2023-05-14,82,328-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-05-09,77,313!2023-04-17,60,307-->
 
 ## search and substitute
@@ -86,4 +86,4 @@ See also [Vim help files](https://vimhelp.org/).
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-04-16,59,308-->
 - incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-07-17,113,273-->
-- hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-04-15,58,308-->
+- hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-10-16,184,308-->

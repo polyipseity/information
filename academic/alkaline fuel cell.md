@@ -26,7 +26,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 > - [cathode](cathode.md): {{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)}}
 > - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2023-04-21,17,290!2023-04-20,16,292!2023-04-21,17,292-->
 
-Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-04-15,1,172-->
+Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-04-17,2,192-->
 
 Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2023-05-11,28,252-->
 
@@ -61,12 +61,12 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-04-01T12:33:20.432311+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-04-17,13,272!2023-04-15,12,272-->
+1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-04-17,13,272!2023-05-31,46,292-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-05-10,27,252!2023-04-21,17,292-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-04-16,13,270!2023-04-17,12,252-->
 4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-05-27,43,292!2023-05-11,28,252-->
 5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-04-27,16,230!2023-04-16,13,272-->
-6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-04-15,12,272!2023-05-28,44,292-->
+6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-05-30,45,292!2023-05-28,44,292-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -8,4 +8,4 @@ aliases:
 
 # molecule
 
-A __molecule__ is {{a group of multiple [atoms](atom.md) held together by [chemical bonds](chemical%20bond.md)}}. The number of atoms in a molecule is called {{[atomicity](atomicity.md)}}. <!--SR:!2023-04-27,16,250!2023-04-15,9,270-->
+A __molecule__ is {{a group of multiple [atoms](atom.md) held together by [chemical bonds](chemical%20bond.md)}}. The number of atoms in a molecule is called {{[atomicity](atomicity.md)}}. <!--SR:!2023-04-27,16,250!2023-05-23,38,290-->

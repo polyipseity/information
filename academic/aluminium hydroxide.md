@@ -16,4 +16,4 @@ Treating {{aluminium [salts](salt%20(chemistry).md) with a [base](base%20(chemis
 
 > treating with [bases](base%20(chemistry).md)
 > 1. {{Al<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Al(OH)<sub>3</sub>(s)}}
-> 2. {{Al(OH)<sub>3</sub>(s) + OH<sup>-</sup>(aq) → \[Al(OH)<sub>4</sub>\]<sup>-</sup>(aq)}} <!--SR:!2023-04-15,15,290!2023-05-16,37,270-->
+> 2. {{Al(OH)<sub>3</sub>(s) + OH<sup>-</sup>(aq) → \[Al(OH)<sub>4</sub>\]<sup>-</sup>(aq)}} <!--SR:!2023-06-17,63,310!2023-05-16,37,270-->

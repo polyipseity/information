@@ -64,8 +64,8 @@ Molecules can be classified based on atomicity as:
 6. O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-13,60,310-->
 7. O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2023-06-10,57,310-->
 8. P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2023-04-16,16,290-->
-9. S<sub>8</sub> ([sulfur](sulfur.md))::polyatomic <!--SR:!2023-04-15,15,290-->
+9. S<sub>8</sub> ([sulfur](sulfur.md))::polyatomic <!--SR:!2023-06-15,61,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}. <!--SR:!2023-05-02,22,230!2023-04-15,15,290-->
+Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}. <!--SR:!2023-05-02,22,230!2023-06-16,62,310-->

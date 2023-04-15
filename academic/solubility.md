@@ -10,7 +10,7 @@ aliases:
 
 __Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}. <!--SR:!2023-04-23,11,232-->
 
-It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}. <!--SR:!2023-04-15,3,232-->
+It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}. <!--SR:!2023-04-27,12,252-->
 
 ## data
 
@@ -107,7 +107,7 @@ return (
 
 > acetates (ethanoates)
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup> compounds}} <!--SR:!2023-04-15,228,242!2023-04-27,142,230-->
+> - exception(s): {{Ag<sup>+</sup> compounds}} <!--SR:!2024-10-17,551,242!2023-04-27,142,230-->
 
 > chlorides
 > - general solubility: {{<span style="color: green;">soluble</span>}}

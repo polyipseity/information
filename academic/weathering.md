@@ -9,7 +9,7 @@
 
 # weathering
 
-__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-15,6,250!2023-04-20,13,270-->
+__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-18,3,230!2023-04-20,13,270-->
 
 Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2023-04-24,17,290-->
 
@@ -17,7 +17,7 @@ Weathering can be divided into {{_[physical weathering](#physical%20weathering)_
 
 ### frost weathering
 
-_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_frost wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}. <!--SR:!2023-05-04,20,250!2023-04-24,17,290!2023-04-15,8,250-->
+_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_frost wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}. <!--SR:!2023-05-04,20,250!2023-04-24,17,290!2023-05-07,22,250-->
 
 ### thermal stress
 

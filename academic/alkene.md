@@ -19,7 +19,7 @@ An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarb
 
 ## physical properties
 
-Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}. <!--SR:!2023-04-15,5,250-->
+Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}. <!--SR:!2023-04-30,15,250-->
 
 ## chemical properties
 
@@ -85,7 +85,7 @@ return await memorize_table(
 1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-06-04,52,310!2023-04-16,16,290-->
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2023-06-10,57,310!2023-04-17,17,290-->
 3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-05-08,30,270!2023-04-17,17,290-->
-4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-04-15,15,290!2023-04-15,15,290-->
+4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-06-01,47,290!2023-04-25,10,270-->
 5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-04-27,15,311!2023-04-26,14,291-->
 6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-04-26,13,271!2023-04-26,14,291-->
 7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2023-04-28,16,311!2023-04-30,18,311-->

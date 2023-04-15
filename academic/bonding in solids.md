@@ -19,7 +19,7 @@ aliases:
 
 ### molecular solid
 
-A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-04-29,18,230!2023-04-15,15,290-->
+A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-04-29,18,230!2023-06-15,61,310-->
 
 #### properties
 
@@ -47,7 +47,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-25,13,270!2023-04-16,16,290!2023-04-17,17,290!2023-04-16,16,290!2023-04-26,15,250!2023-04-15,15,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-25,13,270!2023-04-16,16,290!2023-04-17,17,290!2023-04-16,16,290!2023-04-26,15,250!2023-06-16,62,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -119,7 +119,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-01,24,250!2023-06-06,54,310!2023-05-26,45,290!2023-04-16,16,290!2023-05-26,42,290!2023-04-15,15,290!2023-04-17,3,210!2023-05-29,45,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-01,24,250!2023-06-06,54,310!2023-05-26,45,290!2023-04-16,16,290!2023-05-26,42,290!2023-06-17,63,310!2023-04-17,3,210!2023-05-29,45,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -157,6 +157,6 @@ return await memorize_table(
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-04-25,15,250!2023-06-09,56,310!2023-06-01,49,290!2023-04-16,16,290!2023-05-18,35,270!2023-04-17,17,290!2023-04-15,15,290!2023-06-13,60,310!2023-05-14,36,270!2023-04-17,17,290-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-04-25,15,250!2023-06-09,56,310!2023-06-01,49,290!2023-04-16,16,290!2023-05-18,35,270!2023-04-17,17,290!2023-05-29,44,290!2023-06-13,60,310!2023-05-14,36,270!2023-04-17,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
