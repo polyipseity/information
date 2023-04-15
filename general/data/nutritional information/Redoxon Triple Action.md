@@ -1,0 +1,11 @@
+#general/data/nutritional_information
+
+# Redoxon Triple Action
+nutritional information
+
+- description: [orange](orange%20(fruit).md) flavor effervescent tablets
+- servings per package: 15
+- serving: 1 tablet
+	- [vitamin C](vitamin%20C.md): 100 mg
+	- [vitamin D](vitamin%20D.md): 400 [IU](international%20unit.md)
+	- [zinc](zinc.md): 10 mg
