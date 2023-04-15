@@ -3,12 +3,13 @@
 # VÖOST Collagen Formation
 nutritional information
 
+- description: effervescent tablets
 - servings per package: 20
 - serving: 1 tablet (4 g)
-	- energy: 9 kcal
-	- biotin: 8 μg
-	- protein: 0.5 g
-		- collagen: 0.5 g
-	- selenium: 8 μg
-	- sodium: 304 mg
-	- vitamin C: 100 mg
+	- [energy](energy.md): 9 kcal
+	- [biotin](biotin.md): 8 μg
+	- [protein](protein.md): 0.5 g
+		- [collagen](collagen.md): 0.5 g
+	- [selenium](selenium.md): 8 μg
+	- [sodium](sodium.md): 304 mg
+	- [vitamin C](vitamin%20C.md): 100 mg
