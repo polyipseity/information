@@ -15,7 +15,7 @@ aliases:
 
 # alkene
 
-An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2023-04-16,16,290-->
+An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2023-06-03,48,290-->
 
 ## physical properties
 
@@ -82,7 +82,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-04-05T09:33:57.175970+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-06-04,52,310!2023-04-16,16,290-->
+1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-06-04,52,310!2023-06-19,64,310-->
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2023-06-10,57,310!2023-04-17,17,290-->
 3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-05-08,30,270!2023-04-17,17,290-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-06-01,47,290!2023-04-25,10,270-->

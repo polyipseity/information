@@ -8,7 +8,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-04-17,60,308-->
-- cycle backward:::\<Ctrl\>+p <!--SR:!2023-04-16,59,308!2023-06-25,105,288-->
+- cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2023-06-25,105,288-->
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-04-25,15,173!2023-04-23,23,268-->
 
 ## pattern
@@ -16,7 +16,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-08-26,143,288-->
-- down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-04-16,59,308-->
+- down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-10-15,182,308-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-07-25,117,288-->
@@ -40,7 +40,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
-- insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-04-16,59,293!2023-09-27,167,293-->
+- insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2023-05-06,74,313!2023-05-17,85,328-->
@@ -84,6 +84,6 @@ See also [Vim help files](https://vimhelp.org/).
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-05,73,313!2023-09-25,166,293-->
 
 ### list of options
-- ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-04-16,59,308-->
+- ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->
 - incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-07-17,113,273-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-10-16,184,308-->
