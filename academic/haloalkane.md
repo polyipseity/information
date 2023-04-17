@@ -31,7 +31,7 @@ Density {{decreases}} with increasing size. <!--SR:!2023-04-25,17,290-->
 
 ### solubility
 
-Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}. <!--SR:!2023-04-16,6,250-->
+Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}. <!--SR:!2023-05-05,18,250-->
 
 ## chemical properties
 
@@ -41,7 +41,7 @@ To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md
 
 #### hydrolysis
 
-In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}}. <!--SR:!2023-04-16,2,212-->
+In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}}. <!--SR:!2023-04-28,11,232-->
 
 ### reactions
 

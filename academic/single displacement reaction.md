@@ -11,7 +11,7 @@ aliases:
 
 # single displacement reaction
 
-A __single displacement reaction__, also called {{__single replacement reaction__ or __exchange reaction__}}, is {{a [chemical reaction](chemical%20reaction.md) in which one [element](chemical%20element.md) is displaced by another in a [compound](chemical%20compound.md)}}: <!--SR:!2023-04-18,11,270!2023-04-16,9,250-->
+A __single displacement reaction__, also called {{__single replacement reaction__ or __exchange reaction__}}, is {{a [chemical reaction](chemical%20reaction.md) in which one [element](chemical%20element.md) is displaced by another in a [compound](chemical%20compound.md)}}: <!--SR:!2023-04-18,11,270!2023-05-14,27,250-->
 
 > {{A + BC → AC + B
 >

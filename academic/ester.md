@@ -19,11 +19,11 @@ aliases:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), esters have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-04-17,9,270-->
+Due to increased [polarizability](polarizability.md), esters have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-05-11,24,270-->
 
 ### density
 
-Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrease}} with increasing size. <!--SR:!2023-04-20,9,230!2023-04-16,8,250-->
+Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrease}} with increasing size. <!--SR:!2023-04-20,9,230!2023-05-10,23,250-->
 
 ### odor
 
@@ -31,7 +31,7 @@ Most esters have {{a pleasant fruity smell}}. <!--SR:!2023-04-19,11,270-->
 
 ### solubility
 
-Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-04-17,9,270!2023-04-25,17,290-->
+Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-05-12,25,270!2023-04-25,17,290-->
 
 ## chemical properties
 
@@ -39,7 +39,7 @@ Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Sol
 
 In acid [hydrolysis](hydrolysis.md), esters {{undergo the reverse of [Fischer–Speier esterification](Fischer–Speier%20esterification.md) in [acidic](acid.md) conditions. Non-[dehydrating](dehydration%20reaction.md) dilute acids are used with heating (under [reflux](reflux.md)) to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-18,4,216-->
 
-In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic](nucleophile.md) [hydroxide](hydroxide.md) to give [carboxylates](carboxylate.md) and [alcohols](alcohol.md) in [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. It is the basis of {{[saponification](saponification.md)}}. <!--SR:!2023-04-17,6,236!2023-04-28,16,296-->
+In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic](nucleophile.md) [hydroxide](hydroxide.md) to give [carboxylates](carboxylate.md) and [alcohols](alcohol.md) in [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. It is the basis of {{[saponification](saponification.md)}}. <!--SR:!2023-04-20,3,216!2023-04-28,16,296-->
 
 ### reactions
 

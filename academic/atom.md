@@ -11,4 +11,4 @@ An __atom__ is {{a [particle](particle.md) consisting of a [nucleus](nucleus.md)
 
 Atoms are extremely small, {{typically 100 [picometers](picometer.md) across}}. <!--SR:!2023-05-20,38,270-->
 
-If the number of electrons and protons are equal, the atom is {{electrically neutral}}. Otherwise, the atom is called {{an [ion](ion.md)}}. <!--SR:!2023-06-05,53,310!2023-04-16,16,290-->
+If the number of electrons and protons are equal, the atom is {{electrically neutral}}. Otherwise, the atom is called {{an [ion](ion.md)}}. <!--SR:!2023-06-05,53,310!2023-06-26,70,310-->

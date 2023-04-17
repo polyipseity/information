@@ -64,7 +64,7 @@ Methods to determine the end point include:
 1. _(begin)_→:::←indicator <!--SR:!2023-04-24,17,290!2023-04-22,15,290-->
 2. indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
 3. [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
-4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-16,9,270-->
+4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-23,6,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -74,4 +74,4 @@ The _equivalence point_ is {{the theoretical completion of titration}}. The _end
 
 ### back titration
 
-In back titration, {{a known excess reagent is added to the [solution](solution%20(chemistry).md), and the excess is titrated instead of the original solution}}. <!--SR:!2023-04-17,10,270-->
+In back titration, {{a known excess reagent is added to the [solution](solution%20(chemistry).md), and the excess is titrated instead of the original solution}}. <!--SR:!2023-05-16,29,270-->

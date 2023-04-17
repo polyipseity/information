@@ -7,7 +7,7 @@ See also [Vim help files](https://vimhelp.org/).
 - help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2023-05-06,74,313!2023-05-10,78,313-->
 
 ## autocomplete
-- cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-04-17,60,308-->
+- cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-10-19,185,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2023-06-25,105,288-->
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-04-25,15,173!2023-04-23,23,268-->
 
@@ -36,7 +36,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## insert
 - quit insert mode:::\<Esc\> <!--SR:!2023-05-09,77,313!2023-05-08,76,313-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-04-18,61,293!2023-05-17,85,328-->
-- insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-04-17,60,308-->
+- insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
@@ -62,11 +62,11 @@ See also [Vim help files](https://vimhelp.org/).
 - restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-10-22,199,308-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2023-05-14,82,328-->
-- paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-05-09,77,313!2023-04-17,60,307-->
+- paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2023-05-09,77,313!2023-10-17,183,307-->
 
 ## search and substitute
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2023-06-18,98,273-->
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-05-04,39,230!2023-04-17,60,308-->
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-05-04,39,230!2023-10-18,184,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-10-11,180,308-->
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->

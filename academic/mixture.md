@@ -21,7 +21,7 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 
 ## uniformity
 
-A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-04-16,3,250-->
+A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-04-28,11,250-->
 
 ### homogeneous mixture
 
@@ -29,4 +29,4 @@ A homogeneous mixture has {{uniformly distributed constituents}}. <!--SR:!2023-0
 
 ### heterogeneous mixture
 
-A heterogeneous mixture has {{clearly separated constituents}}. <!--SR:!2023-04-16,10,270-->
+A heterogeneous mixture has {{clearly separated constituents}}. <!--SR:!2023-05-27,40,290-->
