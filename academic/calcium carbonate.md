@@ -21,4 +21,4 @@ It also {{reacts with [acids](acid.md)}}.
 
 ### tests
 
-To test for calcium carbonate, both {{calcium ions and carbonate ions}} are tested for. The former can be detected by the {{[flame test](flame%20test.md)}}, in which a {{brick red flame}} can be observed. The latter can be tested by adding {{[dilute hydrochloric acid](dilute%20hydrochloric%20acid)}}, in which {{colorless gas}} that {{turns [limewater](calcium%20hydroxide.md) milky}} is given out. <!--SR:!2023-04-16,237,258!2025-08-01,842,278!2025-08-09,849,279!2023-07-06,103,230!2023-04-18,61,210!2023-05-21,272,279-->
+To test for calcium carbonate, both {{calcium ions and carbonate ions}} are tested for. The former can be detected by the {{[flame test](flame%20test.md)}}, in which a {{brick red flame}} can be observed. The latter can be tested by adding {{[dilute hydrochloric acid](dilute%20hydrochloric%20acid)}}, in which {{colorless gas}} that {{turns [limewater](calcium%20hydroxide.md) milky}} is given out. <!--SR:!2025-08-24,860,278!2025-08-01,842,278!2025-08-09,849,279!2023-07-06,103,230!2023-04-18,61,210!2023-05-21,272,279-->

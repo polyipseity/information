@@ -56,14 +56,14 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2023-03-15T19:16:17.252430+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2023-04-19,14,290!2023-04-20,15,290-->
-2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2023-04-17,13,270!2023-04-19,14,290-->
+2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2023-04-26,9,250!2023-04-19,14,290-->
 3. GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2023-04-19,14,290!2023-04-18,13,290-->
-4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2023-04-16,12,270!2023-04-17,13,270-->
+4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2023-05-21,34,270!2023-05-23,36,270-->
 5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2023-04-22,7,250!2023-04-22,17,290-->
-6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2023-04-17,13,270!2023-04-17,13,270-->
-7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2023-04-16,12,270!2023-04-22,17,290-->
-8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2023-04-20,15,290!2023-04-17,13,270-->
-9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2023-04-20,15,290!2023-04-16,12,270-->
+6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2023-05-26,39,270!2023-05-22,35,270-->
+7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2023-06-07,51,290!2023-04-22,17,290-->
+8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2023-04-20,15,290!2023-05-25,38,270-->
+9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2023-04-20,15,290!2023-06-02,46,290-->
 10. GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2023-04-22,17,290!2023-04-21,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
