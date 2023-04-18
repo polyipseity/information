@@ -9,7 +9,7 @@
 
 # weathering
 
-__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-18,3,230!2023-04-20,13,270-->
+__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-27,9,230!2023-04-20,13,270-->
 
 Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2023-04-24,17,290-->
 
@@ -55,7 +55,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a9dd"--><!-- The following content is generated at 2023-04-03T18:30:21.793840+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md) <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
-2. CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md)→:::←H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md) <!--SR:!2023-04-18,11,270!2023-04-24,17,290-->
+2. CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md)→:::←H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md) <!--SR:!2023-05-16,28,270!2023-04-24,17,290-->
 3. H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

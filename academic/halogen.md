@@ -19,7 +19,7 @@ aliases:
 
 # halogen
 
-The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-18,13,270!2023-05-01,19,250-->
+The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-27,9,250!2023-05-01,19,250-->
 
 ## representative reactions
 
@@ -60,7 +60,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2394"--><!-- The following content is generated at 2023-03-20T12:19:40.532789+08:00. Any edits will be overridden! -->
 
 1. [fluorine](fluorine.md)::reacts explosively in the dark and cold <!--SR:!2023-04-23,17,290-->
-2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2023-04-18,13,270-->
+2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2023-05-26,38,270-->
 3. [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2023-04-20,9,230-->
 4. [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2023-04-22,16,290-->
 5. [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2023-04-23,17,290-->

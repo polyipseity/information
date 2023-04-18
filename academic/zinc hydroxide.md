@@ -8,7 +8,7 @@ aliases:
 
 # zinc hydroxide
 
-__Zinc hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Zn](zinc.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{white [powder](powder.md)}}. <!--SR:!2023-04-24,17,290!2023-04-18,11,270-->
+__Zinc hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Zn](zinc.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{white [powder](powder.md)}}. <!--SR:!2023-04-24,17,290!2023-05-20,32,270-->
 
 ## preparation
 

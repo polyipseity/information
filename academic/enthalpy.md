@@ -54,7 +54,7 @@ Enthalpy changes are measured under the following {{standard conditions}}: <!--S
 
 1. _(begin)_→:::←[concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup> <!--SR:!2023-04-23,17,298!2023-04-23,17,298-->
 2. [concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>→:::←[physical states](physical%20state.md): [standard states](standard%20state.md) <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
-3. [physical states](physical%20state.md): [standard states](standard%20state.md)→:::←[pressure](pressure.md): 1 [atm](atmosphere%20(unit).md) <!--SR:!2023-04-23,17,298!2023-04-18,13,278-->
+3. [physical states](physical%20state.md): [standard states](standard%20state.md)→:::←[pressure](pressure.md): 1 [atm](atmosphere%20(unit).md) <!--SR:!2023-04-23,17,298!2023-05-28,40,278-->
 4. [pressure](pressure.md): 1 [atm](atmosphere%20(unit).md)→:::←[temperature](temperature.md): 25 °C/298.15 K <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
 5. [temperature](temperature.md): 25 °C/298.15 K→:::←_(end)_ <!--SR:!2023-04-23,17,298!2023-04-19,13,278-->
 

@@ -19,7 +19,7 @@ aliases:
 
 A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}. <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
 
-A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}. <!--SR:!2023-04-18,13,270!2023-04-23,17,290-->
+A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}. <!--SR:!2023-05-27,39,270!2023-04-23,17,290-->
 
 ## errors
 
@@ -53,9 +53,9 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2845"--><!-- The following content is generated at 2023-04-02T00:29:33.583262+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←conditions are not standard conditions <!--SR:!2023-04-19,10,270!2023-04-23,17,290-->
-2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2023-04-23,17,290!2023-04-18,13,270-->
+2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2023-04-23,17,290!2023-04-27,9,250-->
 3. heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
 4. heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
-5. reaction is incomplete→:::←_(end)_ <!--SR:!2023-04-23,17,290!2023-04-18,13,270-->
+5. reaction is incomplete→:::←_(end)_ <!--SR:!2023-04-23,17,290!2023-04-27,9,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

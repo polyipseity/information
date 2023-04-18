@@ -9,7 +9,7 @@ aliases:
 
 __Calcium carbonate__, also known as {{limestone}}, is a solid [ionic compound](ionic%20compound.md). Its molecular formula is {{CaCO<sub>3</sub>}}. It looks like a {{white solid}}. <!--SR:!2025-02-08,678,319!2024-10-10,642,317!2023-06-04,286,278-->
 
-It is commonly found in {{the [rocks](rock%20(geology).md) [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}} as {{the [minerals](mineral.md) [calcite](calcite.md), [aragonite](aragonite.md), and [dolomite](dolomite%20(mineral).md)}}. <!--SR:!2023-05-12,35,280!2023-04-18,8,250-->
+It is commonly found in {{the [rocks](rock%20(geology).md) [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}} as {{the [minerals](mineral.md) [calcite](calcite.md), [aragonite](aragonite.md), and [dolomite](dolomite%20(mineral).md)}}. <!--SR:!2023-05-12,35,280!2023-05-09,21,250-->
 
 ## reactions
 
@@ -21,4 +21,4 @@ It also {{reacts with [acids](acid.md)}}.
 
 ### tests
 
-To test for calcium carbonate, both {{calcium ions and carbonate ions}} are tested for. The former can be detected by the {{[flame test](flame%20test.md)}}, in which a {{brick red flame}} can be observed. The latter can be tested by adding {{[dilute hydrochloric acid](dilute%20hydrochloric%20acid)}}, in which {{colorless gas}} that {{turns [limewater](calcium%20hydroxide.md) milky}} is given out. <!--SR:!2025-08-24,860,278!2025-08-01,842,278!2025-08-09,849,279!2023-07-06,103,230!2023-04-18,61,210!2023-05-21,272,279-->
+To test for calcium carbonate, both {{calcium ions and carbonate ions}} are tested for. The former can be detected by the {{[flame test](flame%20test.md)}}, in which a {{brick red flame}} can be observed. The latter can be tested by adding {{[dilute hydrochloric acid](dilute%20hydrochloric%20acid)}}, in which {{colorless gas}} that {{turns [limewater](calcium%20hydroxide.md) milky}} is given out. <!--SR:!2025-08-24,860,278!2025-08-01,842,278!2025-08-09,849,279!2023-07-06,103,230!2023-08-29,133,210!2023-05-21,272,279-->

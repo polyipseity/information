@@ -35,7 +35,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## insert
 - quit insert mode:::\<Esc\> <!--SR:!2023-05-09,77,313!2023-05-08,76,313-->
-- insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-04-18,61,293!2023-05-17,85,328-->
+- insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-10-14,179,293!2023-05-17,85,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
@@ -49,7 +49,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2023-05-16,84,328-->
-- highlight characters:::v <!--SR:!2023-11-07,214,328!2023-04-18,61,308-->
+- highlight characters:::v <!--SR:!2023-11-07,214,328!2023-10-23,188,308-->
 - highlight lines:::V <!--SR:!2023-06-24,103,273!2023-04-22,22,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-05-30,76,253!2023-05-15,83,328-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->

@@ -67,7 +67,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-04-05T09:00:32.943511+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cracking](#cracking) <!--SR:!2023-04-18,5,238!2023-04-27,15,298-->
+1. _(begin)_→:::←[cracking](#cracking) <!--SR:!2023-05-07,19,258!2023-04-27,15,298-->
 2. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-04-29,17,298!2023-04-28,16,298-->
 3. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2023-04-25,13,278!2023-04-27,15,298-->
 

@@ -103,7 +103,7 @@ return (
 
 > nitrates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2023-07-09,254,216!2023-04-18,120,269-->
+> - exception(s): {{_(none)_}} <!--SR:!2023-07-09,254,216!2024-07-15,454,289-->
 
 > acetates (ethanoates)
 > - general solubility: {{<span style="color: green;">soluble</span>}}
