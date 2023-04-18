@@ -16,7 +16,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md), amines have {{[boiling points](bo
 
 ### density
 
-Most amines are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-04-18,10,270!2023-04-19,11,270-->
+Most amines are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-05-19,31,270!2023-04-19,11,270-->
 
 ### odor
 

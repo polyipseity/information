@@ -67,14 +67,14 @@ return chain.from_iterable(await gather(
 > |-|-|-|-|-|-|-|
 > | {{[alkaline](alkaline%20battery.md)}} | {{[Zn](zinc.md)}} | {{[MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{1.15/1.5 V}} | {{<ul><li>high discharge rate</li><li>longer [shelf life](shelf%20life.md)</li><li>low [internal resistance](internal%20resistance.md)</li><li>slightly more expensive</li></ul>}} | {{Usually cylindrical. Suitable for high-drain or continuous-use devices.}} |
 > | {{[silver oxide](silver%20oxide%20battery.md)}} | {{[Zn](zinc.md)}} | {{[Ag<sub>2</sub>O](silver%20oxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{1.5/1.6 V}} | {{<ul><li>expensive</li><li>lightweight</li><li>small</li><li>wide operating temperature range</li></ul>}} | {{Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.}} |
-> | {{[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride}} | {{[Zn](zinc.md)}} | {{[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)}} | {{1.2/1.5 V}} | {{<ul><li>cheap</li><li>low performance in high-drain or continuous-use devices</li><li>short [shelf life](shelf%20life.md)</li></ul>}} | {{Usually cylindrical. Suitable for low-drain or intermittent-use devices.}} | <!--SR:!2023-05-08,28,270!2023-05-19,34,270!2023-04-19,15,290!2023-04-18,14,290!2023-04-22,12,230!2023-04-25,10,190!2023-04-19,15,290!2023-06-11,55,290!2023-05-14,30,270!2023-04-20,16,290!2023-05-28,44,290!2023-05-16,32,270!2023-04-22,7,250!2023-05-17,32,270!2023-04-19,15,290!2023-04-20,16,290!2023-05-02,21,250!2023-05-18,33,270!2023-05-24,37,270!2023-05-12,28,250!2023-04-20,16,290-->
+> | {{[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride}} | {{[Zn](zinc.md)}} | {{[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)}} | {{1.2/1.5 V}} | {{<ul><li>cheap</li><li>low performance in high-drain or continuous-use devices</li><li>short [shelf life](shelf%20life.md)</li></ul>}} | {{Usually cylindrical. Suitable for low-drain or intermittent-use devices.}} | <!--SR:!2023-05-08,28,270!2023-05-19,34,270!2023-04-19,15,290!2023-06-01,44,290!2023-04-22,12,230!2023-04-25,10,190!2023-04-19,15,290!2023-06-11,55,290!2023-05-14,30,270!2023-04-20,16,290!2023-05-28,44,290!2023-05-16,32,270!2023-04-22,7,250!2023-05-17,32,270!2023-04-19,15,290!2023-04-20,16,290!2023-05-02,21,250!2023-05-18,33,270!2023-05-24,37,270!2023-05-12,28,250!2023-04-20,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-03-30T18:11:29.706415+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2023-04-21,17,290!2023-04-21,17,290-->
-2. [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2023-05-29,45,290!2023-04-18,14,290-->
+2. [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2023-05-29,45,290!2023-06-02,45,290-->
 3. [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2023-05-27,43,290!2023-04-20,16,290-->
 4. [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_ <!--SR:!2023-04-19,15,290!2023-04-20,16,290-->
 
@@ -94,10 +94,10 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="6661"--><!-- The following content is generated at 2023-03-30T09:25:01.110324+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2023-04-21,17,290!2023-04-18,14,290-->
+1. _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2023-04-21,17,290!2023-06-16,59,310-->
 2. [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md) <!--SR:!2023-05-21,36,270!2023-04-21,17,290-->
 3. [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2023-04-19,15,290!2023-04-19,15,290-->
-4. [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_ <!--SR:!2023-04-21,17,290!2023-04-18,14,290-->
+4. [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_ <!--SR:!2023-04-21,17,290!2023-06-17,60,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

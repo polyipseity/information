@@ -38,8 +38,8 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9387dd"--><!-- The following content is generated at 2023-03-18T23:42:01.121395+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[construction](construction.md) <!--SR:!2023-05-18,34,290!2023-04-20,14,290-->
-2. [construction](construction.md)→:::←[glass making](glass%20making.md) <!--SR:!2023-05-12,28,270!2023-04-18,13,270-->
+2. [construction](construction.md)→:::←[glass making](glass%20making.md) <!--SR:!2023-05-12,28,270!2023-06-09,52,290-->
 3. [glass making](glass%20making.md)→:::←raw material <!--SR:!2023-04-20,5,250!2023-05-31,44,290-->
-4. raw material→:::←_(end)_ <!--SR:!2023-04-18,13,270!2023-06-02,46,290-->
+4. raw material→:::←_(end)_ <!--SR:!2023-06-08,51,290!2023-06-02,46,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
