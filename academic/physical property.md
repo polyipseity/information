@@ -71,13 +71,13 @@ return await memorize_table(
 1. _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2023-05-19,32,270!2023-04-24,17,290-->
 2. [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2023-04-21,6,250!2023-04-24,17,290-->
 3. [color](color.md)→:::←[density](density.md) <!--SR:!2023-05-01,17,250!2023-04-24,17,290-->
-4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-04-19,12,270!2023-04-24,17,290-->
+4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-04-26,7,250!2023-04-24,17,290-->
 5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-05-15,28,270!2023-05-18,31,270-->
 6. [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2023-04-20,8,230!2023-05-16,29,270-->
 7. [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2023-06-05,48,290!2023-04-29,17,250-->
 8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-05-27,40,290!2023-04-27,15,250-->
 9. [melting point](melting%20point.md)→:::←[odor](odor.md) <!--SR:!2023-05-02,19,250!2023-05-11,26,270-->
-10. [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2023-04-19,7,230!2023-05-10,25,270-->
+10. [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2023-05-06,17,230!2023-05-10,25,270-->
 11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-05-09,22,230!2023-05-11,28,270-->
 12. [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2023-04-25,7,250!2023-04-24,12,250-->
 13. [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->

@@ -17,7 +17,7 @@ aliases:
 
 # catalysis
 
-__Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. <!--SR:!2023-04-19,11,270!2023-05-14,27,270-->
+__Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. <!--SR:!2023-06-01,43,290!2023-05-14,27,270-->
 
 ## significance
 
@@ -62,7 +62,7 @@ return await memorize_table(
 2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2023-05-25,38,290!2023-04-25,17,290-->
 3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2023-04-25,17,290!2023-04-25,17,290-->
 4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2023-04-25,17,290!2023-04-26,12,250-->
-5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2023-04-25,17,290!2023-04-19,11,270-->
+5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2023-04-25,17,290!2023-05-31,42,290-->
 6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2023-04-25,17,290!2023-05-17,29,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

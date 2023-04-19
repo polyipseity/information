@@ -74,7 +74,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d5f1"--><!-- The following content is generated at 2023-03-24T01:37:04.143883+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2023-04-21,15,290!2023-04-22,16,294-->
-2. [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2023-04-19,13,294!2023-04-19,13,294-->
+2. [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2023-06-15,57,314!2023-06-15,57,314-->
 3. [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2023-05-24,37,274!2023-04-23,17,294-->
 4. [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2023-05-16,29,274!2023-05-12,28,274-->
 5. [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2023-05-15,30,274!2023-04-30,17,254-->

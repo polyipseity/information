@@ -27,7 +27,7 @@ Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrea
 
 ### odor
 
-Most esters have {{a pleasant fruity smell}}. <!--SR:!2023-04-19,11,270-->
+Most esters have {{a pleasant fruity smell}}. <!--SR:!2023-06-02,44,290-->
 
 ### solubility
 

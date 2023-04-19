@@ -19,9 +19,9 @@ __Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydra
 
 ## chemical reactions
 
-Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-24,9,230!2023-06-06,49,290!2023-04-19,2,210-->
+Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-24,9,230!2023-06-06,49,290!2023-04-23,4,210-->
 
-First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ions may be further oxidized by air to iron(II) ions}}: <!--SR:!2023-04-26,14,250!2023-04-19,12,270-->
+First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ions may be further oxidized by air to iron(II) ions}}: <!--SR:!2023-04-26,14,250!2023-06-05,47,290-->
 
 > 1. {{2Fe(s) + O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) → 2Fe<sup>2+</sup>(aq) + 4OH<sup>-</sup>(aq)
 > 	- O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)
@@ -68,7 +68,7 @@ return await memorize_table(
 > | {{[cathodic protection](#cathodic%20protection)}} |  |
 > | {{[coating and painting](#coating%20and%20painting)}} |  |
 > | {{[electroplating](#electroplating)}} |  |
-> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-06-01,45,290!2023-04-21,14,290!2023-04-23,16,290!2023-04-19,12,270-->
+> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-06-01,45,290!2023-04-21,14,290!2023-04-23,16,290!2023-04-26,7,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

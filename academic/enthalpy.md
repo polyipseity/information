@@ -56,7 +56,7 @@ Enthalpy changes are measured under the following {{standard conditions}}: <!--S
 2. [concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>→:::←[physical states](physical%20state.md): [standard states](standard%20state.md) <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
 3. [physical states](physical%20state.md): [standard states](standard%20state.md)→:::←[pressure](pressure.md): 1 [atm](atmosphere%20(unit).md) <!--SR:!2023-04-23,17,298!2023-05-28,40,278-->
 4. [pressure](pressure.md): 1 [atm](atmosphere%20(unit).md)→:::←[temperature](temperature.md): 25 °C/298.15 K <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
-5. [temperature](temperature.md): 25 °C/298.15 K→:::←_(end)_ <!--SR:!2023-04-23,17,298!2023-04-19,13,278-->
+5. [temperature](temperature.md): 25 °C/298.15 K→:::←_(end)_ <!--SR:!2023-04-23,17,298!2023-05-29,40,278-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -89,9 +89,9 @@ For [chemical properties](chemical%20property.md):
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2023-04-02T00:13:11.432967+08:00. Any edits will be overridden! -->
 
-1. [enthalpy of combustion](standard%20enthalpy%20of%20combustion.md)::enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md) <!--SR:!2023-04-19,13,270-->
+1. [enthalpy of combustion](standard%20enthalpy%20of%20combustion.md)::enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md) <!--SR:!2023-06-10,52,290-->
 2. [enthalpy of formation](standard%20enthalpy%20of%20formation.md)::enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states <!--SR:!2023-04-23,17,290-->
-3. [enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md)::enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md) <!--SR:!2023-04-19,13,278-->
+3. [enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md)::enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md) <!--SR:!2023-06-12,54,298-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

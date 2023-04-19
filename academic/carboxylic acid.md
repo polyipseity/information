@@ -23,7 +23,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-19,2,170!2023-05-13,25,250-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-20,1,150!2023-05-13,25,250-->
 
 ### odor
 
@@ -45,7 +45,7 @@ In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, 
 
 ### nucleophilic substitution
 
-Similary to [alcohols](alcohol.md), carboxylic acids can {{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md), and [phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}}. <!--SR:!2023-04-19,7,249-->
+Similary to [alcohols](alcohol.md), carboxylic acids can {{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md), and [phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}}. <!--SR:!2023-05-13,24,269-->
 
 ### reduction
 

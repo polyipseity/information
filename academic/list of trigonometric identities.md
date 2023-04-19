@@ -111,7 +111,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$}} |
 > | cosine | {{$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$}} |
-> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-04-19,7,250!2023-04-22,10,250!2023-05-01,14,230-->
+> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-05-07,18,250!2023-04-22,10,250!2023-05-01,14,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -158,7 +158,7 @@ return chain.from_iterable(await gather(
 > |-|-|
 > | sine cosine | {{<ul><li>$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$</li><li>$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$</li></ul>}} |
 > | sine sine | {{$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$}} |
-> | cosine cosine | {{$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$}} | <!--SR:!2023-04-21,9,250!2023-04-19,5,230!2023-04-20,8,250-->
+> | cosine cosine | {{$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$}} | <!--SR:!2023-04-21,9,250!2023-04-22,3,210!2023-04-20,8,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
