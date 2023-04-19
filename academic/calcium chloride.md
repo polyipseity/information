@@ -26,7 +26,7 @@ return await memorize_table(
 	e.cwf_sects('3455', 'dd21'),
 	('name', 'description',),
 	(
-		('[desiccant](desiccant.md)', 'The [anhydrous](anhydrous.md) salt is [hydroscopic](hydroscopy) and deliquescent.',),
+		('[desiccant](desiccant.md)', 'The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.',),
 		('[separation](separation%20process.md)', 'The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.',),
 	),
 	lambda datum: map(cloze, datum),
@@ -34,11 +34,11 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3455"--><!-- The following content is generated at 2023-04-07T10:29:27.485787+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3455"--><!-- The following content is generated at 2023-04-19T12:02:23.528317+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
-> | {{[desiccant](desiccant.md)}} | {{The [anhydrous](anhydrous.md) salt is [hydroscopic](hydroscopy) and deliquescent.}} |
+> | {{[desiccant](desiccant.md)}} | {{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}} |
 > | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} | <!--SR:!2023-04-29,17,290!2023-05-17,28,270!2023-04-27,15,290!2023-04-20,8,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
