@@ -12,11 +12,11 @@ aliases:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md), amines have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-04-19,3,230-->
+Due to [hydrogen bonding](hydrogen%20bond.md), amines have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-05-01,12,250-->
 
 ### density
 
-Most amines are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-05-19,31,270!2023-04-19,11,270-->
+Most amines are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-05-19,31,270!2023-05-23,34,270-->
 
 ### odor
 

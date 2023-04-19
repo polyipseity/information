@@ -8,7 +8,7 @@ aliases:
 
 # iron(II) hydroxide
 
-__Iron(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Fe](iron.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{green [solid](solid.md)}}. <!--SR:!2023-04-23,17,290!2023-04-19,13,270-->
+__Iron(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Fe](iron.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{green [solid](solid.md)}}. <!--SR:!2023-04-23,17,290!2023-05-28,39,270-->
 
 ## preparation
 

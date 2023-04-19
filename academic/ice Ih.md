@@ -10,7 +10,7 @@ aliases:
 
 > {{![Structure of ice I<sub>h</sub>](../attachments/Cryst%20struct%20ice.png)}}
 >
-> {{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}} <!--SR:!2023-05-27,39,296!2023-04-19,10,276-->
+> {{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}} <!--SR:!2023-05-27,39,296!2023-05-31,42,296-->
 
 __Ice I<sub>h</sub>__ is {{the hexagonal [crystal](crystal.md) form of [ice](ice.md)}}, which is the most common on [Earth](Earth.md). <!--SR:!2023-05-23,35,270-->
 

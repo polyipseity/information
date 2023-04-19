@@ -27,7 +27,7 @@ Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{
 
 ### odor
 
-Most ketones have {{a pleasant and sweet smell}}. <!--SR:!2023-04-19,11,270-->
+Most ketones have {{a pleasant and sweet smell}}. <!--SR:!2023-06-01,43,290-->
 
 ### solubility
 
