@@ -29,7 +29,7 @@ return await memorize_table(
 		('[electron affinity](#electron%20affinity)', 'increases', 'fluctuates',),
 		('[electronegativity](#electronegativity)', 'increases', 'decreases',),
 		('[ionization energy](#ionization%20energy)', 'increases', 'decreases',),
-		('[metallic character](#metallic%20character)', 'increases', 'decreases',),
+		('[metallic character](#metallic%20character)', 'decreases', 'increases',),
 		('[valence](#valence)', 'increases, then decreases', 'constant',),
 	),
 	lambda datum: map(cloze, datum),
@@ -37,7 +37,7 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b928"--><!-- The following content is generated at 2023-03-22T01:58:28.584437+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b928"--><!-- The following content is generated at 2023-04-19T12:13:02.213812+08:00. Any edits will be overridden! -->
 
 > | periodic property | across the period | down the group |
 > |-|-|-|
@@ -45,7 +45,7 @@ return await memorize_table(
 > | {{[electron affinity](#electron%20affinity)}} | {{increases}} | {{fluctuates}} |
 > | {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}} |
 > | {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}} |
-> | {{[metallic character](#metallic%20character)}} | {{increases}} | {{decreases}} |
+> | {{[metallic character](#metallic%20character)}} | {{decreases}} | {{increases}} |
 > | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
