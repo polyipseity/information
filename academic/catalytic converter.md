@@ -8,7 +8,7 @@ aliases:
 
 # catalytic converter
 
-__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}. {{[Platinum](platinum.md) or [rhodium](rhodium.md)}} can be used as the [catalyst](catalysis.md). <!--SR:!2023-06-07,136,257!2023-10-10,216,257!2023-04-20,7,231-->
+__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}. {{[Platinum](platinum.md) or [rhodium](rhodium.md)}} can be used as the [catalyst](catalysis.md). <!--SR:!2023-06-07,136,257!2023-10-10,216,257!2023-05-07,17,231-->
 
 ## reactions
 

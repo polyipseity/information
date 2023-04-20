@@ -39,7 +39,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[desiccant](desiccant.md)}} | {{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}} |
-> | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} | <!--SR:!2023-04-29,17,290!2023-05-17,28,270!2023-04-27,15,290!2023-04-20,8,250-->
+> | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} | <!--SR:!2023-04-29,17,290!2023-05-17,28,270!2023-04-27,15,290!2023-05-11,21,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
