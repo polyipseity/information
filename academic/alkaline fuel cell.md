@@ -24,7 +24,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 
 > - [anode](anode.md): {{H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup>}}
 > - [cathode](cathode.md): {{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)}}
-> - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2023-04-21,17,290!2023-04-20,16,292!2023-04-21,17,292-->
+> - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2023-04-21,17,290!2023-06-05,46,292!2023-04-21,17,292-->
 
 Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-04-23,6,212-->
 
@@ -100,9 +100,9 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-05-21,38,270!2023-04-21,17,292-->
-2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-04-20,16,290!2023-04-20,16,292-->
+2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-06-04,45,290!2023-06-07,48,292-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-04-28,17,252!2023-04-21,17,292-->
-4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-04-20,16,292!2023-04-20,16,292-->
+4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-06-06,47,292!2023-06-27,68,312-->
 5. remote power source→:::←_(end)_ <!--SR:!2023-04-21,17,295!2023-04-21,17,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
