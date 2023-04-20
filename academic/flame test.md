@@ -43,7 +43,7 @@ return await memorize_seq(
 1. _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2023-05-22,35,270!2023-04-21,16,290-->
 2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2023-05-21,32,270!2023-05-18,33,270-->
 3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-05-20,33,270!2023-05-24,40,290-->
-4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-04-20,15,290!2023-05-26,39,270-->
+4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-06-22,63,310!2023-05-26,39,270-->
 5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2023-04-21,16,290!2023-04-21,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -109,7 +109,7 @@ return await memorize_map(
 9. sparks::[iron](iron.md)(II) <!--SR:!2023-05-23,36,270-->
 10. orange-brown::[iron](iron.md)(III) <!--SR:!2023-05-26,41,290-->
 11. intense white::[magnesium](magnesium.md) <!--SR:!2023-04-26,9,250-->
-12. lilac::[potassium](potassium.md) <!--SR:!2023-04-20,15,290-->
+12. lilac::[potassium](potassium.md) <!--SR:!2023-06-02,43,290-->
 13. invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2023-04-26,9,250-->
 14. intense yellow::[sodium](sodium.md) <!--SR:!2023-04-22,17,290-->
 
