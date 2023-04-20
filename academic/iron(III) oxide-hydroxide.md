@@ -10,7 +10,7 @@ aliases:
 
 # iron(III) oxide-hydroxide
 
-__Iron(III) oxide-hydroxide__ is {{an [inorganic compound](inorganic%30compound.md) with the [chemical formula](chemical%30formula.md) [Fe](iron.md)[O](oxygen.md)([OH](hydroxide.md))}}. It looks like {{reddish brown [crystals](crystal.md)}}. <!--SR:!2023-04-23,17,290!2023-04-20,1,230-->
+__Iron(III) oxide-hydroxide__ is {{an [inorganic compound](inorganic%30compound.md) with the [chemical formula](chemical%30formula.md) [Fe](iron.md)[O](oxygen.md)([OH](hydroxide.md))}}. It looks like {{reddish brown [crystals](crystal.md)}}. <!--SR:!2023-04-23,17,290!2023-04-22,2,230-->
 
 It is often seen as {{one of its [hydrates](hydrate.md), FeO(OH)·_n_[H<sub>2</sub>O](water.md)}}. The {{monohydrate FeO(OH)·H<sub>2</sub>O is often called __iron(III) hydroxide__ Fe(OH)<sub>3</sub>}}. <!--SR:!2023-06-14,56,310!2023-04-22,16,290-->
 
@@ -19,4 +19,4 @@ It is often seen as {{one of its [hydrates](hydrate.md), FeO(OH)·_n_[H<sub>2</s
 Treating {{iron(III) [salts](salt%30(chemistry).md) with a [base](base%30(chemistry).md) [precipitates](precipitate.md) out reddish brown iron(III) hydroxide}}: <!--SR:!2023-04-21,4,230-->
 
 > treating with [bases](base%20(chemistry).md)
-> - {{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}} <!--SR:!2023-04-20,14,290-->
+> - {{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}} <!--SR:!2023-06-16,57,310-->

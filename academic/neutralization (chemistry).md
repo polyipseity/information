@@ -48,7 +48,7 @@ return await memorize_table(
 > | {{[antacids](antacid.md)}} | {{Consuming [aluminium hydroxide](aluminium%20hydroxide.md) or [magnesium hydroxide](magnesium%20hydroxide.md) neutralizes [hydrochloric acid](hydrochloric%20acid.md) in the [stomach](stomach.md).}} |
 > | {{control of [soil pH](soil%20pH.md)}} | {{Powdered [limestone](limestone.md) and [slaked lime](calcium%20hydroxide.md) can increase [soil pH](soil%20pH.md) while [ammonium sulfate](ammonium%20sulfate.md) can decrease it.}} |
 > | {{production of [fertilizer](fertilizer.md)}} | {{Neutralization of [nitric acid](nitric%20acid.md) or [sulfuric acid](sulfuric%20acid.md) with [ammonia](ammonia.md) [gas](gas.md) is used to make [ammonium nitrate](ammonium%20nitrate.md) or [ammonium sulfate](ammonium%20sulfate.md).}} |
-> | {{[wastewater treatment](water%20treatment.md)}} | {{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid) can neutralize [alkaline](alkali.md) waste.}} | <!--SR:!2023-04-21,15,290!2023-05-29,40,290!2023-04-20,14,290!2023-04-23,12,238!2023-06-16,58,318!2023-04-30,17,258!2023-04-20,14,298!2023-05-07,19,238-->
+> | {{[wastewater treatment](water%20treatment.md)}} | {{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid) can neutralize [alkaline](alkali.md) waste.}} | <!--SR:!2023-04-21,15,290!2023-05-29,40,290!2023-06-17,58,310!2023-04-23,12,238!2023-06-16,58,318!2023-04-30,17,258!2023-06-21,62,318!2023-05-07,19,238-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -56,7 +56,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[antacids](antacid.md) <!--SR:!2023-04-23,17,290!2023-04-21,15,298-->
 2. [antacids](antacid.md)→:::←control of [soil pH](soil%20pH.md) <!--SR:!2023-04-21,15,298!2023-04-28,9,278-->
-3. control of [soil pH](soil%20pH.md)→:::←production of [fertilizer](fertilizer.md) <!--SR:!2023-05-09,24,258!2023-04-20,14,298-->
+3. control of [soil pH](soil%20pH.md)→:::←production of [fertilizer](fertilizer.md) <!--SR:!2023-05-09,24,258!2023-06-05,46,298-->
 4. production of [fertilizer](fertilizer.md)→:::←[wastewater treatment](water%20treatment.md) <!--SR:!2023-04-22,16,298!2023-04-22,16,298-->
 5. [wastewater treatment](water%20treatment.md)→:::←_(end)_ <!--SR:!2023-04-22,16,290!2023-04-23,17,298-->
 
