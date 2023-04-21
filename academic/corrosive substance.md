@@ -9,7 +9,7 @@ aliases:
 
 # corrosive substance
 
-A __corrosive substance__ is {{a [substance](chemical%20substance.md) that damages other substances in contact by a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2023-04-21,14,230-->
+A __corrosive substance__ is {{a [substance](chemical%20substance.md) that damages other substances in contact by a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2023-05-27,36,230-->
 
 ## protection
 
