@@ -50,11 +50,11 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0398da"--><!-- The following content is generated at 2023-03-21T16:44:17.518142+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2023-06-05,49,290!2023-04-21,15,290-->
+1. _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2023-06-05,49,290!2023-06-19,59,310-->
 2. [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2023-05-13,28,270!2023-05-17,33,290-->
 3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2023-05-16,31,270!2023-06-03,44,290-->
 4. [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2023-05-15,30,270!2023-05-27,39,270-->
 5. [galena](galena.md)→:::←[hematite](hematite.md) <!--SR:!2023-05-26,38,270!2023-05-21,34,270-->
-6. [hematite](hematite.md)→:::←_(end)_ <!--SR:!2023-04-21,15,290!2023-06-09,51,310-->
+6. [hematite](hematite.md)→:::←_(end)_ <!--SR:!2023-06-20,60,310!2023-06-09,51,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
