@@ -15,4 +15,4 @@ __Magnesium hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) wi
 Treating {{magnesium [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white magnesium hydroxide}}: <!--SR:!2023-04-23,17,290-->
 
 > treating with [bases](base%20(chemistry).md)
-> - {{Mg<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Mg(OH)<sub>2</sub>(s)}} <!--SR:!2023-04-21,15,290-->
+> - {{Mg<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Mg(OH)<sub>2</sub>(s)}} <!--SR:!2023-06-21,61,310-->

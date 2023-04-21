@@ -7,7 +7,7 @@ aliases:
 
 # photon
 
-A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2023-04-21,20,250-->
+A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2023-07-04,74,270-->
 
 ## properties
 

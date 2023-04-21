@@ -172,7 +172,7 @@ The steps for naming an organic compound are:
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-04-29,15,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-04-27,70,210!2023-09-06,154,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-04-21,6,230!2023-05-19,41,227-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-05-07,16,230!2023-05-19,41,227-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2023-05-04,102,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-04-22,11,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
@@ -476,7 +476,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
 > - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
 > - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
-> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-12-20,322,365!2024-03-24,397,365!2023-06-01,143,305!2023-06-14,157,325!2023-04-21,42,267!2023-08-15,203,327-->
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-12-20,322,365!2024-03-24,397,365!2023-06-01,143,305!2023-06-14,157,325!2023-08-11,112,267!2023-08-15,203,327-->
 
 > {{amide}}
 > - group: {{amide}}
