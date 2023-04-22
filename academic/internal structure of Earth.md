@@ -36,17 +36,17 @@ return await memorize_table(
 > | {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}} |
 > | {{[mantle](mantle.md)}} | {{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}} |
 > | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
-> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2023-06-14,56,310!2023-05-06,21,270!2023-06-12,54,310!2023-04-23,12,250!2023-04-23,17,290!2023-04-22,5,230!2023-04-23,17,290!2023-05-27,39,270!2023-06-24,64,310!2023-05-26,38,270-->
+> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2023-06-14,56,310!2023-05-06,21,270!2023-06-12,54,310!2023-04-23,12,250!2023-04-23,17,290!2023-05-06,14,230!2023-04-23,17,290!2023-05-27,39,270!2023-06-24,64,310!2023-05-26,38,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2023-03-15T18:37:52.425447+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2023-06-13,55,310!2023-06-18,59,310-->
-2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2023-04-22,16,290!2023-04-23,17,290-->
-3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2023-06-23,63,310!2023-04-22,16,290-->
+2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2023-06-27,66,310!2023-04-23,17,290-->
+3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2023-06-23,63,310!2023-06-26,65,310-->
 4. [mantle](mantle.md)→:::←[outer core](outer%20core.md) <!--SR:!2023-04-23,17,290!2023-06-01,42,290-->
 5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2023-06-22,62,310!2023-06-14,56,310-->
-6. [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2023-06-17,58,310!2023-04-22,16,290-->
+6. [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2023-06-17,58,310!2023-06-28,67,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

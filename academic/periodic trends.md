@@ -46,7 +46,7 @@ return await memorize_table(
 > | {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}} |
 > | {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}} |
 > | {{[metallic character](#metallic%20character)}} | {{decreases}} | {{increases}} |
-> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} | <!--SR:!2023-05-30,43,290!2023-06-09,52,290!2023-04-22,16,290!2023-05-16,32,290!2023-06-04,45,290!2023-05-04,15,250!2023-06-23,63,310!2023-04-22,16,290!2023-04-22,16,290!2023-06-04,44,290!2023-04-23,17,290!2023-06-03,43,290!2023-06-12,54,310!2023-06-08,50,310!2023-04-23,17,290!2023-06-19,60,310!2023-04-23,17,290!2023-05-28,41,290-->
+> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} | <!--SR:!2023-05-30,43,290!2023-06-09,52,290!2023-06-25,64,310!2023-05-16,32,290!2023-06-04,45,290!2023-05-04,15,250!2023-06-23,63,310!2023-06-27,66,310!2023-06-29,68,310!2023-06-04,44,290!2023-04-23,17,290!2023-06-03,43,290!2023-06-12,54,310!2023-06-08,50,310!2023-04-23,17,290!2023-06-19,60,310!2023-04-23,17,290!2023-05-28,41,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -57,7 +57,7 @@ return await memorize_table(
 3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity) <!--SR:!2023-05-29,40,290!2023-06-15,56,310-->
 4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-04-26,15,250!2023-05-31,42,290-->
 5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2023-05-07,24,270!2023-04-23,17,290-->
-6. [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2023-04-22,16,290!2023-06-17,58,310-->
+6. [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2023-06-26,65,310!2023-06-17,58,310-->
 7. [valence](#valence)→:::←_(end)_ <!--SR:!2023-06-22,62,310!2023-04-27,8,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

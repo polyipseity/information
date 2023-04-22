@@ -123,7 +123,7 @@ return (
 
 > sulfates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}} <!--SR:!2023-04-22,235,241!2023-08-03,168,230-->
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}} <!--SR:!2025-06-27,797,261!2023-08-03,168,230-->
 
 > carbonates
 > - general solubility: {{<span style="color: red;">insoluble</span>}}

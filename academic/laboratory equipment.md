@@ -125,14 +125,14 @@ return await memorize_table(
 > | {{[wash bottle](wash%20bottle.md)}}<br/>{{![wash bottle](../attachments/Lab%20wash-bottles%20water%20EtOH.jpg)}} |  |
 > | {{[watch glass](watch%20glass.md)}}<br/>{{![watch glass](../attachments/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg)}} |  |
 > | {{[weighing bottle](weighing%20bottle.md)}}<br/>{{![weighing bottle](../attachments/Weighing%20bottles.jpg)}} |  |
-> | {{[wire gauze](wire%20gauze.md)}}<br/>{{![wire gauze](../attachments/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)}} |  | <!--SR:!2023-04-22,16,290!2023-06-20,60,310!2023-06-16,57,310!2023-04-22,16,290!2023-06-19,60,310!2023-06-24,64,310!2023-05-24,36,270!2023-05-11,27,270!2023-04-22,16,290!2023-06-12,54,310!2023-06-06,49,290!2023-06-20,60,310!2023-04-22,16,290!2023-04-23,17,290!2023-04-22,16,290!2023-06-08,50,310!2023-04-23,17,290!2023-06-11,53,310!2023-06-18,59,310!2023-04-23,17,290!2023-06-10,52,290!2023-06-18,59,310!2023-06-23,63,310!2023-06-21,61,310!2023-05-04,21,290!2023-04-22,16,290!2023-04-23,17,290!2023-06-15,56,310!2023-06-23,63,310!2023-06-17,58,310!2023-04-22,16,290!2023-04-23,17,290!2023-04-22,16,290!2023-06-12,54,310!2023-04-23,17,290!2023-05-31,44,290!2023-05-23,36,270!2023-05-20,33,270!2023-04-22,16,290!2023-05-05,22,250!2023-04-22,16,290!2023-05-31,42,290!2023-06-13,55,310!2023-06-16,57,310!2023-05-31,42,290!2023-06-20,60,310!2023-06-16,57,310!2023-06-19,60,310!2023-04-22,16,290!2023-06-02,43,290!2023-06-12,54,310!2023-06-15,56,310!2023-06-23,63,310!2023-06-24,64,310!2023-06-01,45,290!2023-06-10,52,310!2023-06-13,55,310!2023-04-22,16,290!2023-06-14,56,310!2023-06-09,51,310!2023-04-23,17,290!2023-06-12,54,310!2023-06-08,48,290!2023-04-22,16,290!2023-04-22,16,290!2023-04-23,17,290!2023-06-03,44,290!2023-06-17,58,310!2023-06-20,60,310!2023-06-22,62,310!2023-06-21,61,310!2023-04-23,17,290!2023-06-22,62,310!2023-04-22,16,290!2023-06-17,58,310!2023-06-13,55,310!2023-04-22,16,290!2023-05-17,30,270!2023-04-22,16,290!2023-04-23,17,290!2023-05-17,30,270!2023-05-23,36,270!2023-06-18,59,310!2023-06-17,58,310!2023-04-23,17,290!2023-06-24,64,310!2023-06-18,59,310!2023-06-24,64,310!2023-04-23,17,290!2023-04-22,16,290!2023-06-15,56,310-->
+> | {{[wire gauze](wire%20gauze.md)}}<br/>{{![wire gauze](../attachments/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)}} |  | <!--SR:!2023-06-29,68,310!2023-06-20,60,310!2023-06-16,57,310!2023-06-08,47,290!2023-06-19,60,310!2023-06-24,64,310!2023-05-24,36,270!2023-05-11,27,270!2023-06-06,45,290!2023-06-12,54,310!2023-06-06,49,290!2023-06-20,60,310!2023-06-28,67,310!2023-04-23,17,290!2023-06-07,46,290!2023-06-08,50,310!2023-04-23,17,290!2023-06-11,53,310!2023-06-18,59,310!2023-04-23,17,290!2023-06-10,52,290!2023-06-18,59,310!2023-06-23,63,310!2023-06-21,61,310!2023-05-04,21,290!2023-06-25,64,310!2023-04-23,17,290!2023-06-15,56,310!2023-06-23,63,310!2023-06-17,58,310!2023-06-27,66,310!2023-04-23,17,290!2023-06-28,67,310!2023-06-12,54,310!2023-04-23,17,290!2023-05-31,44,290!2023-05-23,36,270!2023-05-20,33,270!2023-06-28,67,310!2023-05-05,22,250!2023-05-02,10,270!2023-05-31,42,290!2023-06-13,55,310!2023-06-16,57,310!2023-05-31,42,290!2023-06-20,60,310!2023-06-16,57,310!2023-06-19,60,310!2023-06-29,68,310!2023-06-02,43,290!2023-06-12,54,310!2023-06-15,56,310!2023-06-23,63,310!2023-06-24,64,310!2023-06-01,45,290!2023-06-10,52,310!2023-06-13,55,310!2023-06-25,64,310!2023-06-14,56,310!2023-06-09,51,310!2023-04-23,17,290!2023-06-12,54,310!2023-06-08,48,290!2023-06-27,66,310!2023-06-27,66,310!2023-04-23,17,290!2023-06-03,44,290!2023-06-17,58,310!2023-06-20,60,310!2023-06-22,62,310!2023-06-21,61,310!2023-04-23,17,290!2023-06-22,62,310!2023-06-29,68,310!2023-06-17,58,310!2023-06-13,55,310!2023-06-26,65,310!2023-05-17,30,270!2023-06-09,48,290!2023-04-23,17,290!2023-05-17,30,270!2023-05-23,36,270!2023-06-18,59,310!2023-06-17,58,310!2023-04-23,17,290!2023-06-24,64,310!2023-06-18,59,310!2023-06-24,64,310!2023-04-23,17,290!2023-06-25,64,310!2023-06-15,56,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b81237"--><!-- The following content is generated at 2023-03-23T16:01:43.594725+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2023-06-05,48,290!2023-06-21,61,310-->
-2. [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2023-06-22,62,310!2023-04-22,16,290-->
+2. [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2023-06-22,62,310!2023-06-26,65,310-->
 3. [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2023-05-26,38,270!2023-04-23,17,290-->
 4. [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2023-05-31,41,290!2023-06-21,61,310-->
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-04-23,17,290!2023-06-19,60,310-->
@@ -143,11 +143,11 @@ return await memorize_table(
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-06-23,63,310!2023-05-28,39,270-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-05-09,25,250!2023-04-23,17,290-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-06-07,50,290!2023-06-24,64,310-->
-13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-06-01,42,290!2023-04-22,7,230-->
-14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-04-22,8,230!2023-06-11,53,290-->
+13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-06-01,42,290!2023-04-26,4,210-->
+14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-05-11,19,230!2023-06-11,53,290-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-05-28,37,250!2023-05-25,37,270-->
-16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-04-22,11,230!2023-06-04,45,290-->
-17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-04-23,2,230!2023-04-22,11,230-->
+16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-05-19,27,230!2023-06-04,45,290-->
+17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-04-23,2,230!2023-05-18,26,230-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-05-03,15,230!2023-05-19,32,270-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-05-06,23,250!2023-04-27,10,210-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-05-13,28,250!2023-05-01,19,250-->
@@ -161,10 +161,10 @@ return await memorize_table(
 28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-04-26,12,250!2023-05-04,17,230-->
 29. [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2023-05-23,35,270!2023-05-20,33,270-->
 30. [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2023-05-06,18,230!2023-05-21,37,290-->
-31. [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2023-05-15,30,270!2023-04-22,4,210-->
+31. [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2023-05-15,30,270!2023-05-05,13,230-->
 32. [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2023-04-23,17,290!2023-04-23,17,290-->
-33. [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2023-04-22,16,290!2023-04-22,16,290-->
-34. [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2023-05-19,32,270!2023-04-22,16,290-->
+33. [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2023-06-11,50,290!2023-06-26,65,310-->
+34. [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2023-05-19,32,270!2023-06-10,49,290-->
 35. [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2023-05-10,26,250!2023-06-01,45,290-->
 36. [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2023-05-02,20,250!2023-05-22,38,290-->
 37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-05-16,31,270!2023-05-30,41,290-->
