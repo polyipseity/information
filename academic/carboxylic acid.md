@@ -23,7 +23,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-22,2,150!2023-05-13,25,250-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-04-25,3,150!2023-05-13,25,250-->
 
 ### odor
 
@@ -86,8 +86,8 @@ return await memorize_table(
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-05-18,27,269!2023-04-23,12,289-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-04-26,13,273!2023-04-30,17,293-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-04-22,11,289!2023-04-23,12,289-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-05-28,36,289!2023-04-23,12,289-->
 4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-05-28,38,289!2023-04-24,13,289-->
-5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-04-22,11,289!2023-04-24,13,289-->
+5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-06-07,46,309!2023-04-24,13,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

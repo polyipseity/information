@@ -31,7 +31,7 @@ First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides]
 After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-04-28,15,250-->
 
 > - {{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}}
-> - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2023-04-22,15,290!2023-04-24,17,290-->
+> - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2023-06-02,41,290!2023-04-24,17,290-->
 
 After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs in equilibra}}: <!--SR:!2023-04-23,16,290-->
 
@@ -74,9 +74,9 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-04-23,16,290!2023-04-22,15,290-->
+1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-04-23,16,290!2023-06-21,60,310-->
 2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-05-08,24,270!2023-06-19,59,310-->
-3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-04-22,15,290!2023-04-23,16,290-->
+3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-06-22,61,310!2023-04-23,16,290-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2023-06-09,50,290!2023-04-24,17,290-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
 
@@ -92,7 +92,7 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-06-16,56,310-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-05-07,20,250!2023-05-29,42,290!2023-04-22,15,290!2023-05-03,20,250!2023-05-28,41,290!2023-05-01,18,250-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-05-07,20,250!2023-05-29,42,290!2023-06-25,64,310!2023-05-03,20,250!2023-05-28,41,290!2023-05-01,18,250-->
 
 ### electroplating
 

@@ -27,6 +27,6 @@ The layer can be thicken via {{[anodization](#anodization)}}. <!--SR:!2023-06-21
 
 - See also: [anodizing](anodizing.md)
 
-Anodization {{increases the thickness of the natural [oxide](oxide.md) layer formed by [passivation](#passivation)}}. The object {{becomes more corrosion-resistant and can be [dyed](dyeing.md) in the process}}. <!--SR:!2023-04-22,9,250!2023-06-10,54,290-->
+Anodization {{increases the thickness of the natural [oxide](oxide.md) layer formed by [passivation](#passivation)}}. The object {{becomes more corrosion-resistant and can be [dyed](dyeing.md) in the process}}. <!--SR:!2023-05-16,24,250!2023-06-10,54,290-->
 
 [Aluminium](aluminium.md) can be anodized by {{making it the [anode](anode.md) of an [electrolytic cell](electrolytic%20cell.md) in [sulfuric acid](sulfuric%20acid.md)}}. <!--SR:!2023-05-08,29,255-->

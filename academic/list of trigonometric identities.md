@@ -79,7 +79,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$}} |
 > | cosine | {{$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$}} |
-> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-04-22,10,250!2023-04-26,13,270!2023-05-11,21,250-->
+> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-05-20,28,250!2023-04-26,13,270!2023-05-11,21,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -111,7 +111,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$}} |
 > | cosine | {{$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$}} |
-> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-05-07,18,250!2023-04-22,10,250!2023-05-01,14,230-->
+> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-05-07,18,250!2023-05-31,39,270!2023-05-01,14,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -158,7 +158,7 @@ return chain.from_iterable(await gather(
 > |-|-|
 > | sine cosine | {{<ul><li>$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$</li><li>$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$</li></ul>}} |
 > | sine sine | {{$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$}} |
-> | cosine cosine | {{$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$}} | <!--SR:!2023-04-27,6,230!2023-04-22,3,210!2023-05-10,20,250-->
+> | cosine cosine | {{$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$}} | <!--SR:!2023-04-27,6,230!2023-04-29,7,210!2023-05-10,20,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

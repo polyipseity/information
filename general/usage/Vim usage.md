@@ -50,7 +50,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2023-05-16,84,328-->
 - highlight characters:::v <!--SR:!2023-11-07,214,328!2023-10-23,188,308-->
-- highlight lines:::V <!--SR:!2023-06-24,103,273!2023-04-22,22,268-->
+- highlight lines:::V <!--SR:!2023-06-24,103,273!2023-06-22,61,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-05-30,76,253!2023-05-15,83,328-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->
 
