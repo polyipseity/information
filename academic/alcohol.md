@@ -80,7 +80,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-05-17,26,255!2023-04-29,17,300-->
 2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-05-13,23,255!2023-04-29,17,300-->
-3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-04-23,12,275!2023-04-30,18,300-->
+3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-05-29,36,275!2023-04-30,18,300-->
 4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2023-04-29,17,295!2023-04-29,17,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

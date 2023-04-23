@@ -46,9 +46,9 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="295f"--><!-- The following content is generated at 2023-03-23T18:36:14.192863+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[aromatic hydrocarbons](aromatic%20compound.md) <!--SR:!2023-06-04,44,290!2023-04-23,17,290-->
-2. [aromatic hydrocarbons](aromatic%20compound.md)→:::←[saturated hydrocarbons](saturated%20hydrocarbon.md) <!--SR:!2023-04-23,17,290!2023-06-27,66,310-->
-3. [saturated hydrocarbons](saturated%20hydrocarbon.md)→:::←[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md) <!--SR:!2023-06-28,67,310!2023-04-23,17,290-->
+1. _(begin)_→:::←[aromatic hydrocarbons](aromatic%20compound.md) <!--SR:!2023-06-04,44,290!2023-07-03,71,310-->
+2. [aromatic hydrocarbons](aromatic%20compound.md)→:::←[saturated hydrocarbons](saturated%20hydrocarbon.md) <!--SR:!2023-07-04,72,310!2023-06-27,66,310-->
+3. [saturated hydrocarbons](saturated%20hydrocarbon.md)→:::←[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md) <!--SR:!2023-06-28,67,310!2023-07-02,70,310-->
 4. [unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)→:::←_(end)_ <!--SR:!2023-06-17,58,310!2023-06-26,65,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

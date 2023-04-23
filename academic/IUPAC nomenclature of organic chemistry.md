@@ -455,7 +455,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}} <!--SR:!2023-07-05,173,320!2023-05-09,130,302!2024-04-29,427,362!2023-06-14,166,322!2023-04-23,104,305!2024-04-02,406,367-->
+> - infix: {{(locant)}} <!--SR:!2023-07-05,173,320!2023-05-09,130,302!2024-04-29,427,362!2023-06-14,166,322!2024-03-05,317,305!2024-04-02,406,367-->
 
 > {{carboxylate}}
 > - group: {{carboxylate}}
@@ -598,7 +598,7 @@ return (
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
-7. ketone→:::←alcohol <!--SR:!2023-04-23,44,170!2023-05-21,59,170-->
+7. ketone→:::←alcohol <!--SR:!2023-04-24,1,230!2023-05-21,59,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2023-11-13,226,236!2024-03-10,343,267-->

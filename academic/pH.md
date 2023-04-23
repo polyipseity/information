@@ -23,4 +23,4 @@ Solutions where {{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutra
 
 - See: [pH indicator](pH%20indicator.md)
 
-pH indicators are used to measure pH by {{measuring their color}}. A [universal indicator](universal%20indicator.md) contains {{several indicators such that its its color changes continuously from about pH 2 to pH 10. It can be impregnated onto a paper to make pH papers}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2023-05-05,24,270!2023-05-07,16,230!2023-04-23,17,290-->
+pH indicators are used to measure pH by {{measuring their color}}. A [universal indicator](universal%20indicator.md) contains {{several indicators such that its its color changes continuously from about pH 2 to pH 10. It can be impregnated onto a paper to make pH papers}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2023-05-05,24,270!2023-05-07,16,230!2023-07-01,69,310-->
