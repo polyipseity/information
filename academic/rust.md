@@ -19,7 +19,7 @@ __Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydra
 
 ## chemical reactions
 
-Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-24,9,230!2023-06-06,49,290!2023-04-23,4,210-->
+Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}}. It is accelerated by {{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}}. It happens faster in {{stressed areas like bent, scratched, or sharp areas}}. <!--SR:!2023-04-24,9,230!2023-06-06,49,290!2023-05-07,14,230-->
 
 First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ions may be further oxidized by air to iron(III) ions}}: <!--SR:!2023-04-26,14,250!2023-06-05,47,290-->
 
@@ -33,7 +33,7 @@ After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) pr
 > - {{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}}
 > - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2023-06-02,41,290!2023-04-24,17,290-->
 
-After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs in equilibra}}: <!--SR:!2023-04-23,16,290-->
+After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs in equilibra}}: <!--SR:!2023-06-30,68,310-->
 
 > - {{Fe(OH)<sub>2</sub>(s) ⇌ FeO(s) + H<sub>2</sub>O(l)}}
 > - {{Fe(OH)<sub>3</sub>(s) ⇌ FeO(OH)(s) + H<sub>2</sub>O(l)}}
@@ -68,15 +68,15 @@ return await memorize_table(
 > | {{[cathodic protection](#cathodic%20protection)}} |  |
 > | {{[coating and painting](#coating%20and%20painting)}} |  |
 > | {{[electroplating](#electroplating)}} |  |
-> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-06-01,45,290!2023-06-18,58,310!2023-04-23,16,290!2023-04-26,7,250-->
+> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-06-01,45,290!2023-06-18,58,310!2023-06-26,64,310!2023-04-26,7,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-04-23,16,290!2023-06-21,60,310-->
+1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-06-29,67,310!2023-06-21,60,310-->
 2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-05-08,24,270!2023-06-19,59,310-->
-3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-06-22,61,310!2023-04-23,16,290-->
+3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-06-22,61,310!2023-06-27,65,310-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2023-06-09,50,290!2023-04-24,17,290-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-24,17,290-->
 
@@ -100,7 +100,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-06-16,5
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-05-08,20,250-->
 
-In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-05-06,22,250!2023-04-25,14,230!2023-05-05,14,230!2023-05-23,35,270!2023-04-23,16,290!2023-05-02,19,250!2023-05-27,40,290-->
+In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-05-06,22,250!2023-04-25,14,230!2023-05-05,14,230!2023-05-23,35,270!2023-06-28,66,310!2023-05-02,19,250!2023-05-27,40,290-->
 
 ### cathodic protection
 

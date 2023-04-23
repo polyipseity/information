@@ -78,15 +78,15 @@ return await memorize_table(
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[esterification](#esterification)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-05-19,29,289!2023-04-23,12,289!2023-05-24,33,289!2023-04-26,13,273-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2023-05-19,29,289!2023-06-14,52,309!2023-05-24,33,289!2023-04-26,13,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-04-08T23:59:05.282096+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-05-18,27,269!2023-04-23,12,289-->
+1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-05-18,27,269!2023-06-14,52,309-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-04-26,13,273!2023-04-30,17,293-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-05-28,36,289!2023-04-23,12,289-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-05-28,36,289!2023-06-13,51,309-->
 4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-05-28,38,289!2023-04-24,13,289-->
 5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-06-07,46,309!2023-04-24,13,289-->
 

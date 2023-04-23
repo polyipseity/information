@@ -17,7 +17,7 @@ __Structural isomers__ have {{the same [molecular formula](chemical%20formula.md
 
 ## stereoisomers
 
-__Stereoisomers__ have {{the same [bonding](chemical%20bond.md) of [atoms](atom.md) but different shapes}}. They can be further categorized into {{___cis_–_trans_ isomers__ and __enantiomers__}}. The first one has {{different [physical properties](physical%20property.md)}}. The last one has {{similar physical properties}}. <!--SR:!2023-05-02,13,230!2023-04-26,13,270!2023-04-26,13,270!2023-04-23,8,270-->
+__Stereoisomers__ have {{the same [bonding](chemical%20bond.md) of [atoms](atom.md) but different shapes}}. They can be further categorized into {{___cis_–_trans_ isomers__ and __enantiomers__}}. The first one has {{different [physical properties](physical%20property.md)}}. The last one has {{similar physical properties}}. <!--SR:!2023-05-02,13,230!2023-04-26,13,270!2023-04-26,13,270!2023-05-26,33,290-->
 
 ### _cis_–_trans_ isomers
 
