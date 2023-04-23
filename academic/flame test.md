@@ -58,7 +58,7 @@ return await memorize_map(
 	e.cwf_sects('4905', '2837ca', 'b8283e'),
 	{
 		'[calcium](calcium.md)': ('brick red', 'light green (through [cobalt blue glass](cobalt%20glass.md))',),
-		'[copper](copper.md)(I)': ('bluish-green',),
+		'[copper](copper.md)(I)': ('blue-green',),
 		'[copper](copper.md)(II)': ('green (non-halide)', 'blue-green (halide)',),
 		'[iron](iron.md)(II)': ('blue (very hot)', 'gold', 'green to orange-brown', 'sparks'),
 		'[iron](iron.md)(III)': ('orange-brown',),
@@ -70,10 +70,10 @@ return await memorize_map(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-04-04T11:36:38.445672+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-04-23T13:13:45.557923+08:00. Any edits will be overridden! -->
 
 > 1. [calcium](calcium.md): brick red, light green (through [cobalt blue glass](cobalt%20glass.md))
-> 2. [copper](copper.md)(I): bluish-green
+> 2. [copper](copper.md)(I): blue-green
 > 3. [copper](copper.md)(II): green (non-halide), blue-green (halide)
 > 4. [iron](iron.md)(II): blue (very hot), gold, green to orange-brown, sparks
 > 5. [iron](iron.md)(III): orange-brown
@@ -83,10 +83,10 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-04-04T11:36:38.521577+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-04-23T13:13:45.541144+08:00. Any edits will be overridden! -->
 
 1. [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-13,26,270-->
-2. [copper](copper.md)(I)::bluish-green <!--SR:!2023-05-15,22,210-->
+2. [copper](copper.md)(I)::blue-green <!--SR:!2023-05-15,22,210-->
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2023-04-29,12,230-->
 4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-05-15,26,250-->
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-05-15,27,270-->
@@ -96,11 +96,11 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-04-04T11:36:38.505517+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-04-23T13:13:45.573910+08:00. Any edits will be overridden! -->
 
 1. brick red::[calcium](calcium.md) <!--SR:!2023-06-14,53,290-->
 2. light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2023-05-16,27,250-->
-3. bluish-green::[copper](copper.md)(I) <!--SR:!2023-04-25,17,290-->
+3. blue-green::[copper](copper.md)(I) <!--SR:!2023-04-25,17,290-->
 4. green (non-halide)::[copper](copper.md)(II) <!--SR:!2023-05-10,27,270-->
 5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2023-05-17,32,270-->
 6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-05-24,37,270-->
