@@ -8,7 +8,7 @@ aliases:
 
 # silver nitrate
 
-__Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Ag](silver.md)[NO<sub>3</sub>](nitrate.md)}}. <!--SR:!2023-04-24,17,290-->
+__Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Ag](silver.md)[NO<sub>3</sub>](nitrate.md)}}. <!--SR:!2023-07-04,71,310-->
 
 ## uses
 

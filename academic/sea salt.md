@@ -26,7 +26,7 @@ return await memorize_seq(
 ```
 %%
 
-Sea salt can be extracted from {{[seawater](seawater.md)}}: <!--SR:!2023-04-24,17,290-->
+Sea salt can be extracted from {{[seawater](seawater.md)}}: <!--SR:!2023-06-30,67,310-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dae29a"--><!-- The following content is generated at 2023-04-03T18:30:21.755942+08:00. Any edits will be overridden! -->
 
@@ -38,9 +38,9 @@ Sea salt can be extracted from {{[seawater](seawater.md)}}: <!--SR:!2023-04-24,1
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba9d12"--><!-- The following content is generated at 2023-04-03T18:30:21.794839+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Filter](filtration.md) seawater with a folded [filter paper](filter%20paper.md) in a [filter funnel](filter%20funnel.md) to remove [insoluble](solubility.md) [substances](chemical%20substance.md). <!--SR:!2023-05-13,20,230!2023-04-24,17,290-->
+1. _(begin)_→:::←[Filter](filtration.md) seawater with a folded [filter paper](filter%20paper.md) in a [filter funnel](filter%20funnel.md) to remove [insoluble](solubility.md) [substances](chemical%20substance.md). <!--SR:!2023-05-13,20,230!2023-07-04,71,310-->
 2. [Filter](filtration.md) seawater with a folded [filter paper](filter%20paper.md) in a [filter funnel](filter%20funnel.md) to remove [insoluble](solubility.md) [substances](chemical%20substance.md).→:::←[Evaporate](evaportaion.md) the filtered seawater to obtain a [powder](powder.md) of sea salts. Direct heating or a [steam bath](heated%20bath.md) can be used to speed up the process in a [evaporating dish](evaporating%20dish.md). <!--SR:!2023-04-29,17,250!2023-05-01,18,250-->
 3. [Evaporate](evaportaion.md) the filtered seawater to obtain a [powder](powder.md) of sea salts. Direct heating or a [steam bath](heated%20bath.md) can be used to speed up the process in a [evaporating dish](evaporating%20dish.md).→:::←Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain [crystals](crystal.md). Cooling hot saturated seawater or slow evaporation of seawater can be used. In both methods, [concentration](concentration.md) of seawater increases and becomes saturated. The latter produces larger crystals than the former. <!--SR:!2023-05-03,20,250!2023-04-25,10,210-->
-4. Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain [crystals](crystal.md). Cooling hot saturated seawater or slow evaporation of seawater can be used. In both methods, [concentration](concentration.md) of seawater increases and becomes saturated. The latter produces larger crystals than the former.→:::←_(end)_ <!--SR:!2023-04-24,17,290!2023-04-28,16,250-->
+4. Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain [crystals](crystal.md). Cooling hot saturated seawater or slow evaporation of seawater can be used. In both methods, [concentration](concentration.md) of seawater increases and becomes saturated. The latter produces larger crystals than the former.→:::←_(end)_ <!--SR:!2023-07-03,70,310!2023-04-28,16,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

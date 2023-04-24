@@ -12,7 +12,7 @@ aliases:
 
 ### anode
 
-At the anode, {{[zinc](zinc.md) is oxidized by [chloride](chloride.md) [anions](ion.md) (Zn(s) + 2Cl<sup>-</sup>(aq) → ZnCl<sub>2</sub>(aq) + 2e<sup>-</sup>)}}. <!--SR:!2023-04-24,17,290-->
+At the anode, {{[zinc](zinc.md) is oxidized by [chloride](chloride.md) [anions](ion.md) (Zn(s) + 2Cl<sup>-</sup>(aq) → ZnCl<sub>2</sub>(aq) + 2e<sup>-</sup>)}}. <!--SR:!2023-05-05,11,270-->
 
 ### cathode
 
@@ -20,7 +20,7 @@ For [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md):
 
 > - 1. {{2NH<sub>4</sub>Cl(aq) + 2e<sup>-</sup> → 2NH<sub>3</sub>(aq) + H<sub>2</sub>(g) + 2Cl<sup>-</sup>(aq)}}
 > 	2. {{2MnO<sub>2</sub>(s) + H<sub>2</sub>(g) → Mn<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}}
-> - overall: {{Zn(s) + 2NH<sub>4</sub>Cl(aq) + 2MnO<sub>2</sub>(s) → ZnCl<sub>2</sub>(aq) + 2NH<sub>3</sub>(aq) + Mn<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}}  <!--SR:!2023-05-09,22,270!2023-04-24,17,290!2023-04-30,17,250-->
+> - overall: {{Zn(s) + 2NH<sub>4</sub>Cl(aq) + 2MnO<sub>2</sub>(s) → ZnCl<sub>2</sub>(aq) + 2NH<sub>3</sub>(aq) + Mn<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}}  <!--SR:!2023-05-09,22,270!2023-06-29,66,310!2023-04-30,17,250-->
 
 For [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md):
 
