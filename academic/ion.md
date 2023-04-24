@@ -21,7 +21,7 @@ aliases:
 
 An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2027-11-08,1684,370!2026-07-20,1290,352!2027-05-12,1546,374-->
 
-A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2026-03-02,1102,307!2023-04-24,370,352!2024-05-12,539,267!2025-04-11,857,334-->
+A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}. <!--SR:!2026-03-02,1102,307!2028-03-17,1789,372!2024-05-12,539,267!2025-04-11,857,334-->
 
 ## data
 
@@ -352,7 +352,7 @@ return chain.from_iterable(await gather(
 23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-04-27,14,302-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-05-16,25,282-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-05-25,32,282-->
-26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-04-24,1,230-->
+26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-04-25,1,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -363,9 +363,9 @@ return chain.from_iterable(await gather(
 1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-04-25,3,221-->
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-05-07,23,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-05-24,37,301-->
-4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-04-24,7,281-->
+4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-05-15,21,281-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-04-25,19,341-->
-6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-04-24,18,341-->
+6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-07-17,84,361-->
 7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2023-05-17,26,282-->
 8. <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2023-05-17,25,282-->
 9. <span style="color: red;">red</color>::manganese(III) ion <!--SR:!2023-04-30,7,282-->
@@ -495,7 +495,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-04-08T13:39:40.573688+08:00. Any edits will be overridden! -->
 
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-04-25,19,341-->
-2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-04-24,18,341-->
+2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-06-24,61,341-->
 3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-04-26,20,341-->
 4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-05-30,37,302-->
 

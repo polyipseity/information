@@ -41,7 +41,7 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-04-24,12,269!2023-04-28,10,209-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-06-10,47,289!2023-04-28,10,209-->
 
 ### nucleophilic substitution
 
@@ -87,7 +87,7 @@ return await memorize_table(
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-05-18,27,269!2023-06-14,52,309-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-04-26,13,273!2023-04-30,17,293-->
 3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-05-28,36,289!2023-06-13,51,309-->
-4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-05-28,38,289!2023-04-24,13,289-->
-5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-06-07,46,309!2023-04-24,13,289-->
+4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-05-28,38,289!2023-06-17,54,309-->
+5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-06-07,46,309!2023-06-16,53,309-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
