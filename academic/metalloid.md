@@ -11,7 +11,7 @@ aliases:
 
 # metalloid
 
-__Metalloids__ are {{[chemical elements](chemical%20element.md) that have [properties](material%20properties.md) in between, or that are a mix of those of [metals](metal.md) and [nonmetals](nonmetal.md)}}. <!--SR:!2023-04-25,15,250-->
+__Metalloids__ are {{[chemical elements](chemical%20element.md) that have [properties](material%20properties.md) in between, or that are a mix of those of [metals](metal.md) and [nonmetals](nonmetal.md)}}. <!--SR:!2023-06-06,42,250-->
 
 ## properties
 

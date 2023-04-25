@@ -434,7 +434,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-04-25,56,202!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-04-26,1,230!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}

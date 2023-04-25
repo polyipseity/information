@@ -23,7 +23,7 @@ Due to increased [polarizability](polarizability.md), ketones have {{[boiling po
 
 ### density
 
-Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-05-16,25,230!2023-04-25,17,290-->
+Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-05-16,25,230!2023-07-07,73,310-->
 
 ### odor
 
@@ -31,7 +31,7 @@ Most ketones have {{a pleasant and sweet smell}}. <!--SR:!2023-06-01,43,290-->
 
 ### solubility
 
-Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ketone. <!--SR:!2023-04-25,17,290!2023-04-25,17,290-->
+Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ketone. <!--SR:!2023-07-07,73,310!2023-07-07,73,310-->
 
 ## chemical properties
 

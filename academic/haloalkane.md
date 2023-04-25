@@ -27,7 +27,7 @@ Due to increased [polarizability](polarizability.md), haloalkanes have {{higher 
 
 ### density
 
-Density {{decreases}} with increasing size. <!--SR:!2023-04-25,17,290-->
+Density {{decreases}} with increasing size. <!--SR:!2023-06-11,47,290-->
 
 ### solubility
 
@@ -37,7 +37,7 @@ Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in
 
 ### substitution
 
-To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}}. Likewise, [acyl halides](acyl%20halide.md) can {{react similarly to give primary [amides](amide.md)}}. <!--SR:!2023-04-25,13,272!2023-05-11,22,252-->
+To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}}. Likewise, [acyl halides](acyl%20halide.md) can {{react similarly to give primary [amides](amide.md)}}. <!--SR:!2023-06-01,37,272!2023-05-11,22,252-->
 
 #### hydrolysis
 
@@ -66,14 +66,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[hydrolysis](#hydrolysis)}} |  |
-> | {{[substitution](#substitution)}} |  | <!--SR:!2023-04-25,13,272!2023-04-26,13,277-->
+> | {{[substitution](#substitution)}} |  | <!--SR:!2023-05-04,9,252!2023-04-26,13,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-08T23:59:05.301619+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-05-31,37,272!2023-04-29,17,292-->
-2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-05-01,8,232!2023-04-25,13,272-->
+2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-05-01,8,232!2023-05-02,7,252-->
 3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-04-30,17,297!2023-04-26,13,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
