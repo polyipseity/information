@@ -31,7 +31,7 @@ Most esters have {{a pleasant fruity smell}}. <!--SR:!2023-06-02,44,290-->
 
 ### solubility
 
-Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-05-12,25,270!2023-04-25,17,290-->
+Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-05-12,25,270!2023-07-07,73,310-->
 
 ## chemical properties
 

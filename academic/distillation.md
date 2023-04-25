@@ -17,7 +17,7 @@ The distilled product is the {{_distillate_}}, while the left behind product is 
 
 ### simple distillation
 
-In simple distillation, {{the vapor is immediately passed into a [condenser](condenser.md)}}. <!--SR:!2023-04-25,16,230-->
+In simple distillation, {{the vapor is immediately passed into a [condenser](condenser.md)}}. <!--SR:!2023-06-05,41,230-->
 
 > {{![Simple distillation setup](../attachments/Simple%20distillation%20apparatus.svg)}}
 >
