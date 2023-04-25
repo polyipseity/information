@@ -47,7 +47,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-04-25,13,270!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-04-26,15,250!2023-06-16,62,310-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-05-31,36,270!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-04-26,15,250!2023-06-16,62,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -157,6 +157,6 @@ return await memorize_table(
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-04-25,15,250!2023-06-09,56,310!2023-06-01,49,290!2023-06-24,68,310!2023-05-18,35,270!2023-06-25,69,310!2023-05-29,44,290!2023-06-13,60,310!2023-05-14,36,270!2023-06-28,72,310-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-06-20,56,270!2023-06-09,56,310!2023-06-01,49,290!2023-06-24,68,310!2023-05-18,35,270!2023-06-25,69,310!2023-05-29,44,290!2023-06-13,60,310!2023-05-14,36,270!2023-06-28,72,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

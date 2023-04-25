@@ -23,7 +23,7 @@ Due to increased [polarizability](polarizability.md), aldehydes have {{[boiling 
 
 ### density
 
-Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-04-25,17,290!2023-05-14,27,270-->
+Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-06-17,53,290!2023-05-14,27,270-->
 
 ### odor
 
@@ -31,7 +31,7 @@ Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2023-05-01,16,2
 
 ### solubility
 
-Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the aldehyde. <!--SR:!2023-04-25,17,290!2023-04-25,17,290-->
+Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the aldehyde. <!--SR:!2023-07-07,73,310!2023-07-07,73,310-->
 
 ## chemical properties
 
@@ -74,6 +74,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2023-04-29,17,301!2023-04-30,18,301-->
 2. [oxidation](#oxidation)→:::←[reduction](#reduction) <!--SR:!2023-04-28,16,301!2023-04-27,15,301-->
-3. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-04-28,16,301!2023-04-25,13,281-->
+3. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-04-28,16,301!2023-06-05,41,281-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
