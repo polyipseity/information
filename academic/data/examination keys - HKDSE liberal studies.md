@@ -329,7 +329,7 @@ e = __env__
 return await memorize_seq(
 	e.cwf_sects('48fa', 'add9',),
 	(
-		'Evaluating effectiveness only bby instantaneous effects.',
+		'Evaluating effectiveness only by instantaneous effects.',
 		'Hasty generalization with a single example.',
 		'Perspectives are incorrect.',
 	),
@@ -337,18 +337,18 @@ return await memorize_seq(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48fa"--><!-- The following content is generated at 2023-04-26T19:01:41.423550+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48fa"--><!-- The following content is generated at 2023-04-26T23:59:07.510478+08:00. Any edits will be overridden! -->
 
-> 1. Evaluating effectiveness only bby instantaneous effects.
+> 1. Evaluating effectiveness only by instantaneous effects.
 > 2. Hasty generalization with a single example.
 > 3. Perspectives are incorrect.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T19:01:41.386656+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T23:59:07.528429+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Evaluating effectiveness only bby instantaneous effects.
-2. Evaluating effectiveness only bby instantaneous effects.→:::←Hasty generalization with a single example.
+1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects.
+2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example.
 3. Hasty generalization with a single example.→:::←Perspectives are incorrect.
 4. Perspectives are incorrect.→:::←_(end)_
 
