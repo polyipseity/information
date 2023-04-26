@@ -279,3 +279,222 @@ Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exa
 ## essay patterns
 
 In general, essays consists of {{introduction, body, and conclusion}}. They should show {{multiple perspectives and balanced discussions}}.
+
+### to what extent
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_seq(
+	e.cwf_sects('2ea8', '39fa',),
+	(
+		'(Introduction) State your stance: To a large/small extent, I agree…',
+		'Define or explain key terms or criteria required.',
+		'(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.',
+		'Write 1 to 2 counterarguments with partial rebuttal.',
+		'(Conclusion) Summarize arguments and restate your stance.',
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2ea8"--><!-- The following content is generated at 2023-04-26T19:16:21.070897+08:00. Any edits will be overridden! -->
+
+> 1. (Introduction) State your stance: To a large/small extent, I agree…
+> 2. Define or explain key terms or criteria required.
+> 3. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.
+> 4. Write 1 to 2 counterarguments with partial rebuttal.
+> 5. (Conclusion) Summarize arguments and restate your stance.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2023-04-26T19:16:21.053434+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree…
+2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required.
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.
+4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal.
+5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance.
+6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### common mistakes
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_seq(
+	e.cwf_sects('48fa', 'add9',),
+	(
+		'Evaluating effectiveness only bby instantaneous effects.',
+		'Hasty generalization with a single example.',
+		'Perspectives are incorrect.',
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48fa"--><!-- The following content is generated at 2023-04-26T19:01:41.423550+08:00. Any edits will be overridden! -->
+
+> 1. Evaluating effectiveness only bby instantaneous effects.
+> 2. Hasty generalization with a single example.
+> 3. Perspectives are incorrect.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T19:01:41.386656+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←Evaluating effectiveness only bby instantaneous effects.
+2. Evaluating effectiveness only bby instantaneous effects.→:::←Hasty generalization with a single example.
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect.
+4. Perspectives are incorrect.→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### comparison
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_seq(
+	e.cwf_sects('4491', 'eeff',),
+	(
+		'(Introduction) State your stance.',
+		'Define or explain key terms or criteria required.',
+		'(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.',
+		'(Conclusion) Summarize arguments and restate your stance.',
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4491"--><!-- The following content is generated at 2023-04-26T19:16:21.093837+08:00. Any edits will be overridden! -->
+
+> 1. (Introduction) State your stance.
+> 2. Define or explain key terms or criteria required.
+> 3. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.
+> 4. (Conclusion) Summarize arguments and restate your stance.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2023-04-26T19:16:21.114781+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←(Introduction) State your stance.
+2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required.
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.
+4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance.
+5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### common mistakes
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_seq(
+	e.cwf_sects('3dda', '32ab',),
+	(
+		'Only stating views of stakeholders instead of macroscopic effects.',
+		'Oversimplification of examples.',
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3dda"--><!-- The following content is generated at 2023-04-26T19:16:21.155751+08:00. Any edits will be overridden! -->
+
+> 1. Only stating views of stakeholders instead of macroscopic effects.
+> 2. Oversimplification of examples.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects.
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples.
+3. Oversimplification of examples.→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### solution
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_seq(
+	e.cwf_sects('5fab', '5aab',),
+	(
+		'(Introduction) State the problem or criteria required.',
+		'State your solutions.',
+		'(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.',
+		'For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.',
+		'(Conclusion) Summarize solutions.',
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5fab"--><!-- The following content is generated at 2023-04-26T19:16:21.173701+08:00. Any edits will be overridden! -->
+
+> 1. (Introduction) State the problem or criteria required.
+> 2. State your solutions.
+> 3. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
+> 4. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
+> 5. (Conclusion) Summarize solutions.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-04-26T19:16:21.192651+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←(Introduction) State the problem or criteria required.
+2. (Introduction) State the problem or criteria required.→:::←State your solutions.
+3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
+4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
+5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions.
+6. (Conclusion) Summarize solutions.→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+#### common mistakes
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+return await memorize_seq(
+	e.cwf_sects('4401', '4ecd',),
+	(
+		'Hetergenous nature of people not considered when evaluating effectiveness.',
+		'Making education and promotion too similar. Focus on schools in the former while governments in the latter.',
+		'Overstating effectiveness of education.',
+		'Suggesting legislation without considering enforcement.',
+	),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4401"--><!-- The following content is generated at 2023-04-26T22:09:23.283310+08:00. Any edits will be overridden! -->
+
+> 1. Hetergenous nature of people not considered when evaluating effectiveness.
+> 2. Making education and promotion too similar. Focus on schools in the former while governments in the latter.
+> 3. Overstating effectiveness of education.
+> 4. Suggesting legislation without considering enforcement.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness.
+2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter.
+3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education.
+4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement.
+5. Suggesting legislation without considering enforcement.→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
