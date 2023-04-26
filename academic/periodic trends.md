@@ -55,7 +55,7 @@ return await memorize_table(
 1. _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2023-05-01,19,270!2023-06-17,57,310-->
 2. [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity) <!--SR:!2023-06-28,66,310!2023-06-18,59,310-->
 3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity) <!--SR:!2023-05-29,40,290!2023-06-15,56,310-->
-4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-04-26,15,250!2023-05-31,42,290-->
+4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-06-06,41,250!2023-05-31,42,290-->
 5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2023-05-07,24,270!2023-06-30,68,310-->
 6. [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2023-06-26,65,310!2023-06-17,58,310-->
 7. [valence](#valence)→:::←_(end)_ <!--SR:!2023-06-22,62,310!2023-04-27,8,270-->

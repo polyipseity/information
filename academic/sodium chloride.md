@@ -10,4 +10,4 @@ aliases:
 
 > {{![structure of sodium chloride](../attachments/NaCl%20bonds.svg)}}
 >
-> {{structure of sodium chloride}} <!--SR:!2023-04-26,17,290!2023-04-26,17,290-->
+> {{structure of sodium chloride}} <!--SR:!2023-07-08,73,310!2023-07-08,73,310-->

@@ -37,7 +37,7 @@ Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. So
 
 ### reduction
 
-Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-04-26,13,279-->
+Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-06-05,40,279-->
 
 ### reactions
 
@@ -66,7 +66,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="249a"--><!-- The following content is generated at 2023-04-06T10:40:18.715119+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[reduction](#reduction) <!--SR:!2023-04-26,13,279!2023-05-01,18,299-->
+1. _(begin)_→:::←[reduction](#reduction) <!--SR:!2023-05-05,9,259!2023-05-01,18,299-->
 2. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-05-01,18,299!2023-05-01,18,299-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

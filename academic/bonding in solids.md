@@ -47,7 +47,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-05-31,36,270!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-04-26,15,250!2023-06-16,62,310-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-05-31,36,270!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-06-07,42,250!2023-06-16,62,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

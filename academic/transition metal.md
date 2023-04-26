@@ -44,7 +44,7 @@ return await memorize_table(
 > |-|-|
 > | {{[catalytic](catalysis.md) properties}} | {{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}} |
 > | {{colored [ions](ion.md)}} | {{Most transition metals ions are colored.}} |
-> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2023-04-29,16,290!2023-04-26,13,270!2023-04-28,15,290!2023-04-26,13,270!2023-04-29,16,290!2023-04-26,13,270-->
+> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2023-04-29,16,290!2023-05-28,32,270!2023-04-28,15,290!2023-06-03,38,270!2023-04-29,16,290!2023-05-27,31,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

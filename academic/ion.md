@@ -496,7 +496,7 @@ return chain.from_iterable(await gather(
 
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-06-27,63,341-->
 2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-06-24,61,341-->
-3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-04-26,20,341-->
+3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-07-07,72,341-->
 4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-05-30,37,302-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
