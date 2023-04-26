@@ -8,4 +8,4 @@ aliases:
 
 # amphoterism
 
-An {{__amphoteric__}} [compound](chemical%20compound.md) {{can react both as an [acid](acid.md) and a [base](base%20(chemistry).md)}}. <!--SR:!2023-04-26,13,270!2023-04-26,13,270-->
+An {{__amphoteric__}} [compound](chemical%20compound.md) {{can react both as an [acid](acid.md) and a [base](base%20(chemistry).md)}}. <!--SR:!2023-06-01,36,270!2023-06-02,37,270-->

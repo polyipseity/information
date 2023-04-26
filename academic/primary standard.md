@@ -60,7 +60,7 @@ return await memorize_seq(
 4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2023-05-14,26,250!2023-04-28,11,230-->
 5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2023-04-28,15,250!2023-05-09,19,270-->
 6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2023-04-28,16,250!2023-05-12,27,270-->
-7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-05-07,23,250!2023-04-26,3,230-->
+7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-05-07,23,250!2023-04-28,2,210-->
 8. ready and cheap availability→:::←_(end)_ <!--SR:!2023-07-06,73,310!2023-05-27,40,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

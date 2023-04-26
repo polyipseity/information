@@ -33,13 +33,13 @@ Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alka
 
 - see: [hydrogenation](hydrogenation.md)
 
-Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-05-22,33,291!2023-04-26,13,271-->
+Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-05-22,33,291!2023-05-05,9,251-->
 
 ### hydrohalogenation
 
 - see: [hydrohalogenation](hyydrohalogenation.md)
 
-Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}. <!--SR:!2023-04-26,14,291!2023-04-26,13,271-->
+Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}. <!--SR:!2023-06-23,58,311!2023-05-05,9,251-->
 
 ### polymerization
 
@@ -76,7 +76,7 @@ return await memorize_table(
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
 > | {{[hydrogenation](#hydrogenation)}} |  |
 > | {{[hydrohalogenation](#hydrohalogenation)}} |  |
-> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-04-27,13,270!2023-06-08,56,310!2023-06-09,56,310!2023-04-26,14,291!2023-04-26,14,291!2023-04-30,18,311-->
+> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-04-27,13,270!2023-06-08,56,310!2023-06-09,56,310!2023-06-07,42,291!2023-06-24,59,311!2023-04-30,18,311-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -86,8 +86,8 @@ return await memorize_table(
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2023-06-10,57,310!2023-06-25,69,310-->
 3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-05-08,30,270!2023-06-29,73,310-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-06-01,47,290!2023-05-25,30,270-->
-5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-04-27,15,311!2023-04-26,14,291-->
-6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-04-26,13,271!2023-04-26,14,291-->
+5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-04-27,15,311!2023-06-22,57,311-->
+6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-05-31,35,271!2023-05-05,9,271-->
 7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2023-04-28,16,311!2023-04-30,18,311-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

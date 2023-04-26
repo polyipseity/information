@@ -11,4 +11,4 @@ aliases:
 > |-|-|
 > | {{![structure of α-quartz](../attachments/Α-Quartz.svg)}} | {{![structure of β-quartz](../attachments/Β-Quartz.svg)}} |
 >
-> {{structure of quartz}} <!--SR:!2023-04-26,17,290!2023-04-26,17,290!2023-05-04,17,250!2023-05-03,16,250!2023-04-26,17,290-->
+> {{structure of quartz}} <!--SR:!2023-06-14,49,290!2023-06-15,50,290!2023-05-04,17,250!2023-05-03,16,250!2023-06-13,48,290-->

@@ -179,7 +179,7 @@ The steps for naming an organic compound are:
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-09-04,144,230!2023-08-31,191,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2023-08-20,118,267-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-05-05,413,273!2023-05-11,130,307-->
-13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2023-04-26,118,307-->
+13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2024-05-06,376,307-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -434,7 +434,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-04-26,1,230!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-04-28,2,230!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
@@ -598,7 +598,7 @@ return (
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
-7. ketone→:::←alcohol <!--SR:!2023-04-26,2,230!2023-05-21,59,170-->
+7. ketone→:::←alcohol <!--SR:!2023-05-02,6,230!2023-05-21,59,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2023-11-13,226,236!2024-03-10,343,267-->
@@ -634,17 +634,17 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-27,19,344!2023-05-29,40,324!2023-04-28,20,344!2023-04-28,20,344!2023-04-26,18,344!2023-04-28,20,344!2023-04-27,18,324!2023-04-27,19,344!2023-06-08,50,344!2023-04-26,18,344-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-04-27,19,344!2023-05-29,40,324!2023-04-28,20,344!2023-04-28,20,344!2023-06-26,61,344!2023-04-28,20,344!2023-04-27,18,324!2023-04-27,19,344!2023-06-08,50,344!2023-06-27,62,344-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-04-28,20,344!2023-04-27,19,344-->
-2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-04-26,18,344!2023-04-27,19,344-->
+2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-05-06,10,324!2023-04-27,19,344-->
 3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-04-28,19,324!2023-06-07,49,344-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-04-27,19,344!2023-04-28,19,324-->
-5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-04-26,18,344!2023-04-28,20,344-->
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-04-26,18,344!2023-04-27,10,304-->
+5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-06-25,60,344!2023-04-28,20,344-->
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-07-19,84,364!2023-04-27,10,304-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

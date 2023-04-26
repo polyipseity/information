@@ -40,7 +40,7 @@ return await memorize_table(
 > |-|
 > | {{[angle sum and difference](#angle%20sum%20and%20difference)}} |
 > | {{[multiple-angle](#multiple-angle)}} |
-> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-04-26,13,270!2023-04-30,17,290!2023-04-30,17,290-->
+> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-06-01,36,270!2023-04-30,17,290!2023-04-30,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -48,8 +48,8 @@ return await memorize_table(
 
 1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
 2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
-3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-04-26,13,270!2023-04-30,17,290-->
-4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-04-30,17,290!2023-04-26,13,270-->
+3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-05-29,33,270!2023-04-30,17,290-->
+4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-04-30,17,290!2023-05-31,35,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -79,7 +79,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$}} |
 > | cosine | {{$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$}} |
-> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-05-20,28,250!2023-04-26,13,270!2023-05-11,21,250-->
+> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-05-20,28,250!2023-05-30,34,270!2023-05-11,21,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
