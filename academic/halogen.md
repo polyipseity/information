@@ -19,7 +19,7 @@ aliases:
 
 # halogen
 
-The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-04-27,9,250!2023-05-01,19,250-->
+The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-05-25,27,250!2023-05-01,19,250-->
 
 ## representative reactions
 

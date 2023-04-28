@@ -9,7 +9,7 @@
 
 # weathering
 
-__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-04-27,9,230!2023-06-06,47,290-->
+__Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-05-23,25,230!2023-06-06,47,290-->
 
 Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2023-07-03,70,310-->
 

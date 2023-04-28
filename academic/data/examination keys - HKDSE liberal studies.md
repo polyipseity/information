@@ -208,7 +208,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-04-30,3,250!2023-04-29,2,235!2023-04-29,2,235!2023-04-29,2,235!2023-04-30,3,255!2023-04-29,2,235!2023-04-30,3,255!2023-04-28,1,215!2023-04-30,3,255!2023-04-30,3,255!2023-04-30,3,255!2023-04-30,3,250!2023-04-30,3,255!2023-04-30,3,255!2023-04-29,2,235!2023-04-29,2,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-04-30,3,250!2023-04-29,2,235!2023-04-29,2,235!2023-04-29,2,235!2023-04-30,3,255!2023-04-29,2,235!2023-04-30,3,255!2023-04-30,2,215!2023-04-30,3,255!2023-04-30,3,255!2023-04-30,3,255!2023-04-30,3,250!2023-04-30,3,255!2023-04-30,3,255!2023-04-29,2,235!2023-04-29,2,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -217,7 +217,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-04-30,3,250!2023-04-30,3,255-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-04-29,2,235!2023-04-29,2,235-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-04-30,3,250!2023-04-29,2,235-->
-4. effectiveness→:::←factor <!--SR:!2023-04-29,2,235!2023-04-28,1,230-->
+4. effectiveness→:::←factor <!--SR:!2023-04-29,2,235!2023-04-29,1,210-->
 5. factor→:::←feasibilities <!--SR:!2023-04-30,3,250!2023-04-30,3,255-->
 6. feasibilities→:::←pattern <!--SR:!2023-04-30,3,250!2023-04-29,2,235-->
 7. pattern→:::←trend <!--SR:!2023-04-29,2,235!2023-04-29,2,235-->
@@ -349,7 +349,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-04-30,3,250!2023-04-30,3,255-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2023-04-29,3,250!2023-04-29,2,235-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-04-29,2,235!2023-04-28,1,230-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-04-29,2,235!2023-04-30,2,230-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2023-04-30,4,270!2023-04-29,2,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

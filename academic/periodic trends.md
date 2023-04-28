@@ -58,7 +58,7 @@ return await memorize_table(
 4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-06-06,41,250!2023-05-31,42,290-->
 5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2023-05-07,24,270!2023-06-30,68,310-->
 6. [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2023-06-26,65,310!2023-06-17,58,310-->
-7. [valence](#valence)→:::←_(end)_ <!--SR:!2023-06-22,62,310!2023-04-27,8,270-->
+7. [valence](#valence)→:::←_(end)_ <!--SR:!2023-06-22,62,310!2023-05-02,4,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
