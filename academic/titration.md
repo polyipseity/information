@@ -17,7 +17,7 @@ aliases:
 
 # titration
 
-__Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2023-04-27,14,250-->
+__Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2023-06-06,39,250-->
 
 ## types
 

@@ -328,7 +328,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-08T14:17:08.464511+08:00. Any edits will be overridden! -->
 
 1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
-2. sodium ion::colorless <!--SR:!2023-04-28,314,293-->
+2. sodium ion::colorless <!--SR:!2025-11-02,919,293-->
 3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
 4. copper(I) ion::_(n/a)_ <!--SR:!2023-06-09,140,276-->
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
@@ -348,11 +348,11 @@ return chain.from_iterable(await gather(
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
-22. scandium(III) ion::colorless <!--SR:!2023-04-28,15,322-->
-23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-04-27,14,302-->
+22. scandium(III) ion::colorless <!--SR:!2023-06-18,51,322-->
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-04-29,1,230-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-05-16,25,282-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-05-25,32,282-->
-26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-04-27,2,210-->
+26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-05-04,6,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -428,7 +428,7 @@ return chain.from_iterable(await gather(
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2025-03-18,705,310-->
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-05-30,57,199!2024-08-25,617,276-->
-22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2023-05-03,20,342!2023-04-28,15,322-->
+22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2023-05-03,20,342!2023-07-08,71,342-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

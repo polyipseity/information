@@ -23,7 +23,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md), alcohols have {{higher [boiling p
 
 ### density
 
-Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols with multiple [hydroxyl groups](hydroxyl%20group.md) are more dense than water}}. <!--SR:!2023-04-28,14,230-->
+Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols with multiple [hydroxyl groups](hydroxyl%20group.md) are more dense than water}}. <!--SR:!2023-05-29,31,230-->
 
 ### solubility
 
@@ -35,7 +35,7 @@ Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols wi
 
 Alcohols {{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}}. It obeys {{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}}. <!--SR:!2023-05-11,20,240!2023-04-30,14,240-->
 
-In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md) and then collected over [water](water.md)}}. <!--SR:!2023-04-27,12,240-->
+In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md) and then collected over [water](water.md)}}. <!--SR:!2023-05-28,30,240-->
 
 ### nucleophilic substitution
 
@@ -72,7 +72,7 @@ return await memorize_table(
 > |-|-|
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-04-27,15,295!2023-04-30,18,300!2023-04-30,18,300-->
+> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-06-09,42,295!2023-04-30,18,300!2023-04-30,18,300-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

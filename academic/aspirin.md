@@ -48,17 +48,17 @@ return await memorize_table(
 > | {{[analgesic](analgesic.md)}} |  |
 > | {{[anti-inflammation](anti-inflammatory.md)}} | {{It can treat [arthritis](arthritis.md).}} |
 > | {{prevention of [heart attack](myocardial%20infarction.md)}} | {{It has [blood thinning](anticoagulant.md) and [antiplatelet](antiplatelet%20drug.md) effect.}} |
-> | {{relieve [fever](fever.md)}} |  | <!--SR:!2023-05-30,35,270!2023-04-29,17,290!2023-05-20,28,250!2023-04-29,17,290!2023-04-27,15,290!2023-05-29,35,270-->
+> | {{relieve [fever](fever.md)}} |  | <!--SR:!2023-05-30,35,270!2023-04-29,17,290!2023-05-20,28,250!2023-04-29,17,290!2023-05-08,10,270!2023-05-29,35,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45af"--><!-- The following content is generated at 2023-04-07T10:57:10.995105+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[analgesic](analgesic.md) <!--SR:!2023-04-27,15,290!2023-04-27,15,290-->
-2. [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md) <!--SR:!2023-04-27,15,290!2023-04-28,16,290-->
-3. [anti-inflammation](anti-inflammatory.md)→:::←prevention of [heart attack](myocardial%20infarction.md) <!--SR:!2023-04-29,17,290!2023-04-27,15,290-->
-4. prevention of [heart attack](myocardial%20infarction.md)→:::←relieve [fever](fever.md) <!--SR:!2023-04-29,17,290!2023-04-27,15,290-->
-5. relieve [fever](fever.md)→:::←_(end)_ <!--SR:!2023-04-27,15,290!2023-04-28,16,290-->
+1. _(begin)_→:::←[analgesic](analgesic.md) <!--SR:!2023-06-29,62,310!2023-06-27,60,310-->
+2. [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md) <!--SR:!2023-06-30,63,310!2023-07-05,68,310-->
+3. [anti-inflammation](anti-inflammatory.md)→:::←prevention of [heart attack](myocardial%20infarction.md) <!--SR:!2023-04-29,17,290!2023-06-29,62,310-->
+4. prevention of [heart attack](myocardial%20infarction.md)→:::←relieve [fever](fever.md) <!--SR:!2023-04-29,17,290!2023-07-02,65,310-->
+5. relieve [fever](fever.md)→:::←_(end)_ <!--SR:!2023-07-01,64,310!2023-06-28,61,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -87,15 +87,15 @@ return await memorize_table(
 > |-|-|
 > | {{increased bleeding risk}} |  |
 > | {{[stomach ulcer](peptic%20ulcer%20disease.md)}} |  |
-> | {{[stomach upset](abdominal%20pain.md)}} |  | <!--SR:!2023-04-29,17,290!2023-04-29,17,290!2023-04-28,16,290-->
+> | {{[stomach upset](abdominal%20pain.md)}} |  | <!--SR:!2023-04-29,17,290!2023-04-29,17,290!2023-06-30,63,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="78ae"--><!-- The following content is generated at 2023-04-07T11:04:50.189877+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←increased bleeding risk <!--SR:!2023-04-29,17,290!2023-04-28,16,290-->
-2. increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md) <!--SR:!2023-04-27,15,290!2023-04-28,16,290-->
-3. [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2023-05-25,33,270!2023-04-28,16,290-->
-4. [stomach upset](abdominal%20pain.md)→:::←_(end)_ <!--SR:!2023-04-28,16,290!2023-04-28,16,290-->
+1. _(begin)_→:::←increased bleeding risk <!--SR:!2023-04-29,17,290!2023-06-27,60,310-->
+2. increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md) <!--SR:!2023-06-27,60,310!2023-06-27,60,310-->
+3. [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2023-05-25,33,270!2023-06-27,60,310-->
+4. [stomach upset](abdominal%20pain.md)→:::←_(end)_ <!--SR:!2023-06-27,60,310!2023-06-27,60,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
