@@ -6,7 +6,7 @@
   "focusOnNewInstance": true,
   "hideStatusBar": "focused",
   "language": "",
-  "lastReadChangelogVersion": "3.7.0",
+  "lastReadChangelogVersion": "3.8.0",
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "pinNewInstance": true,
@@ -20,6 +20,7 @@
         "SIGINT",
         "SIGTERM"
       ],
+      "terminalOptions": {},
       "type": "developerConsole"
     },
     "c4f2db89-e11a-4693-b868-7f01ac3f0011": {
@@ -38,6 +39,7 @@
         "SIGINT",
         "SIGTERM"
       ],
+      "terminalOptions": {},
       "type": "integrated",
       "useWin32Conhost": true
     },
@@ -56,6 +58,7 @@
         "SIGINT",
         "SIGTERM"
       ],
+      "terminalOptions": {},
       "type": "external"
     }
   },
