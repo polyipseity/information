@@ -58,7 +58,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2023-04-29,17,299-->
+> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2023-07-11,73,319-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

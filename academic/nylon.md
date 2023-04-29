@@ -47,7 +47,7 @@ return await memorize_table(
 ```
 %%
 
-The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2023-04-29,6,230-->
+The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2023-05-02,3,210-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2023-04-08T00:21:13.395338+08:00. Any edits will be overridden! -->
 
@@ -61,7 +61,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 > | {{[strong](strength%20of%20materials.md)}} |  |
 > | {{[tough](toughness.md)}} |  |
 > | {{washable}} |  |
-> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-04-30,17,290!2023-06-02,37,270!2023-05-28,35,270!2023-05-19,21,250!2023-05-04,16,230!2023-04-29,16,290!2023-06-23,56,310!2023-06-24,57,310!2023-06-04,39,270-->
+> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-04-30,17,290!2023-06-02,37,270!2023-05-28,35,270!2023-05-19,21,250!2023-05-04,16,230!2023-06-14,46,290!2023-06-23,56,310!2023-06-24,57,310!2023-06-04,39,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -73,8 +73,8 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 4. high tensile strength→:::←oil-proof <!--SR:!2023-05-02,4,190!2023-05-06,16,230-->
 5. oil-proof→:::←smooth <!--SR:!2023-05-17,26,250!2023-05-03,5,210-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2023-04-30,17,290!2023-05-12,22,250-->
-7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2023-04-29,16,290!2023-05-28,32,270-->
-8. [tough](toughness.md)→:::←washable <!--SR:!2023-04-29,16,290!2023-04-29,11,230-->
+7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2023-07-02,64,310!2023-05-28,32,270-->
+8. [tough](toughness.md)→:::←washable <!--SR:!2023-07-03,65,310!2023-05-06,7,210-->
 9. washable→:::←[waterproof](waterproof.md) <!--SR:!2023-06-26,59,310!2023-04-30,17,290-->
 10. [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2023-06-25,58,310!2023-06-03,38,270-->
 

@@ -18,7 +18,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - rename active:::F2 <!--SR:!2023-05-02,79,276!2023-07-10,87,216-->
 - menu search:::F3 <!--SR:!2023-07-15,135,296!2023-06-25,74,276-->
 - file context menu:::F4 <!--SR:!2023-05-08,19,170!2023-06-15,81,256-->
-- show render window:::F11 <!--SR:!2023-09-05,173,295!2023-04-29,26,256-->
+- show render window:::F11 <!--SR:!2023-09-05,173,295!2023-07-27,89,276-->
 - render:::F12 <!--SR:!2023-06-17,116,296!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-10-27,200,270!2023-09-27,155,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-05-26,36,150!2023-09-11,153,256-->
