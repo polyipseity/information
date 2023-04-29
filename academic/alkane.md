@@ -20,7 +20,7 @@ An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon
 
 ## physical properties
 
-Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}. <!--SR:!2023-04-29,13,270!2023-05-04,17,250-->
+Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}. <!--SR:!2023-05-08,9,250!2023-05-04,17,250-->
 
 ## chemical properties
 
@@ -61,14 +61,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[cracking](#cracking)}} |  |
-> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-06-18,54,298!2023-04-29,17,298!2023-07-03,66,318-->
+> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-06-18,54,298!2023-07-12,74,318!2023-07-03,66,318-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-04-05T09:00:32.943511+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[cracking](#cracking) <!--SR:!2023-05-07,19,258!2023-07-04,67,318-->
-2. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-04-29,17,298!2023-07-02,65,318-->
+2. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-07-10,72,318!2023-07-02,65,318-->
 3. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2023-06-18,54,298!2023-07-01,64,318-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

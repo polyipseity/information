@@ -44,6 +44,6 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ddee"--><!-- The following content is generated at 2023-04-07T10:18:03.925176+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
-2. [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→:::←_(end)_ <!--SR:!2023-04-29,16,290!2023-04-29,16,290-->
+2. [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→:::←_(end)_ <!--SR:!2023-06-16,48,290!2023-05-09,10,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -13,7 +13,7 @@ aliases:
 
 ### tests
 
-Carbon dioxide can be tested using {{calcium compounds or [hydrogencarbonate indicator](hydrogencarbonate%20indicator.md)}}. <!--SR:!2023-04-29,112,242-->
+Carbon dioxide can be tested using {{calcium compounds or [hydrogencarbonate indicator](hydrogencarbonate%20indicator.md)}}. <!--SR:!2024-01-25,271,242-->
 
 #### calcium compounds
 
