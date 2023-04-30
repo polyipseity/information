@@ -40,16 +40,16 @@ return await memorize_table(
 > |-|
 > | {{[angle sum and difference](#angle%20sum%20and%20difference)}} |
 > | {{[multiple-angle](#multiple-angle)}} |
-> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-06-01,36,270!2023-04-30,17,290!2023-04-30,17,290-->
+> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-06-01,36,270!2023-07-12,73,310!2023-07-09,70,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-04-09T19:41:29.732199+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
-2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-04-30,17,290!2023-04-30,17,290-->
-3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-05-29,33,270!2023-04-30,17,290-->
-4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-04-30,17,290!2023-05-31,35,270-->
+1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-07-11,72,310!2023-07-12,73,310-->
+2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-07-09,70,310!2023-07-10,71,310-->
+3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-05-29,33,270!2023-07-10,71,310-->
+4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-07-11,72,310!2023-05-31,35,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

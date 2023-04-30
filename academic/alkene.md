@@ -19,7 +19,7 @@ An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarb
 
 ## physical properties
 
-Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}. <!--SR:!2023-04-30,15,250-->
+Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}}. <!--SR:!2023-06-11,42,250-->
 
 ## chemical properties
 
@@ -76,7 +76,7 @@ return await memorize_table(
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
 > | {{[hydrogenation](#hydrogenation)}} |  |
 > | {{[hydrohalogenation](#hydrohalogenation)}} |  |
-> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-06-23,56,290!2023-06-08,56,310!2023-06-09,56,310!2023-06-07,42,291!2023-06-24,59,311!2023-04-30,18,311-->
+> | {{[polymerization](#polymerization)}} |  | <!--SR:!2023-06-23,56,290!2023-06-08,56,310!2023-06-09,56,310!2023-06-07,42,291!2023-06-24,59,311!2023-07-20,81,331-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -88,6 +88,6 @@ return await memorize_table(
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-06-01,47,290!2023-05-25,30,270-->
 5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-07-10,73,331!2023-06-22,57,311-->
 6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-05-31,35,271!2023-05-05,9,271-->
-7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2023-07-09,72,331!2023-04-30,18,311-->
+7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2023-07-09,72,331!2023-07-19,80,331-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

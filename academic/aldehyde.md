@@ -66,13 +66,13 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[oxidation](#oxidation)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-07-13,75,321!2023-04-30,18,301-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2023-07-13,75,321!2023-07-13,74,321-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1233"--><!-- The following content is generated at 2023-04-06T10:39:35.649936+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2023-06-22,54,301!2023-04-30,18,301-->
+1. _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2023-06-22,54,301!2023-07-14,75,321-->
 2. [oxidation](#oxidation)→:::←[reduction](#reduction) <!--SR:!2023-07-08,71,321!2023-07-08,71,321-->
 3. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-07-08,71,321!2023-06-05,41,281-->
 
