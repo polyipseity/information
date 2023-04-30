@@ -51,8 +51,8 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dafb"--><!-- The following content is generated at 2023-04-08T14:02:07.542272+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[catalytic](catalysis.md) properties <!--SR:!2023-06-23,56,310!2023-06-23,56,310-->
-2. [catalytic](catalysis.md) properties→:::←colored [ions](ion.md) <!--SR:!2023-04-30,17,290!2023-06-23,56,310-->
-3. colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2023-06-24,57,310!2023-04-30,17,290-->
-4. variable [oxidation states](oxidation%20state.md)→:::←_(end)_ <!--SR:!2023-04-30,17,290!2023-07-01,63,310-->
+2. [catalytic](catalysis.md) properties→:::←colored [ions](ion.md) <!--SR:!2023-07-12,73,310!2023-06-23,56,310-->
+3. colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2023-06-24,57,310!2023-07-10,71,310-->
+4. variable [oxidation states](oxidation%20state.md)→:::←_(end)_ <!--SR:!2023-07-11,72,310!2023-07-01,63,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

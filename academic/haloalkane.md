@@ -74,6 +74,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-05-31,37,272!2023-07-10,72,312-->
 2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-05-01,8,232!2023-05-02,7,252-->
-3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-04-30,17,297!2023-06-05,40,277-->
+3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-06-22,53,297!2023-06-05,40,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

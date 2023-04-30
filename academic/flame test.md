@@ -91,7 +91,7 @@ return await memorize_map(
 4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-05-15,26,250-->
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-05-15,27,270-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-06-12,51,290-->
-7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-04-30,17,250-->
+7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-06-13,44,250-->
 8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-09,26,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

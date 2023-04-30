@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2024-02-02,295,302!2024-05-25,452,362!2023-05-10,110,242!2023-04-30,18,227!2024-04-22,424,367-->
+> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2024-02-02,295,302!2024-05-25,452,362!2023-05-10,110,242!2023-06-14,45,227!2024-04-22,424,367-->
 
 > {{amine}}
 > - group: {{amino}}
