@@ -65,3 +65,4 @@ Influencing factors can be explained by {{[collision theory](collision%20theory.
 ## rate equation
 
 - see: [rate equation](rate%20equation.md)
+n
