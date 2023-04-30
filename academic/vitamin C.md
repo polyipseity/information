@@ -12,10 +12,10 @@ aliases:
 
 > {{![structure of vitamin C](../attachments/L-Ascorbic%20acid.svg)}}
 >
-> structure of vitamin C
+> structure of vitamin C <!--SR:!2023-05-03,3,250-->
 
 ## synthesis
 
 ### industrial synthesis
 
-Vitamin C is {{produced from ᴅ-[glucose](glucose.md) by two processes: the [Reichstein process](Reichstein%20process.md) and the modern two-step [fermentation](fermentation.md) process}}.
+Vitamin C is {{produced from ᴅ-[glucose](glucose.md) by two processes: the [Reichstein process](Reichstein%20process.md) and the modern two-step [fermentation](fermentation.md) process}}. <!--SR:!2023-05-04,4,270-->
