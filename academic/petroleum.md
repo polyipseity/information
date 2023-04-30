@@ -86,3 +86,7 @@ return await memorize_table(
 11. [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2023-06-16,57,310!2023-06-25,65,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## industry
+
+- see: [petroleum industry](petroleum%20industry.md)
