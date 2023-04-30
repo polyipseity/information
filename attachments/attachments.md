@@ -67,6 +67,7 @@
 - [High-Speed Filter Funnel-2.jpg](High-Speed%20Filter%20Funnel-2.jpg): <a href="https://commons.wikimedia.org/wiki/File:High-Speed_Filter_Funnel-2.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Ll
+- [L-Ascorbic acid.svg](L-Ascorbic%20acid.svg): <a href="https://commons.wikimedia.org/wiki/File:L-Ascorbic_acid.svg">Yikrazuul</a>, Public domain, via Wikimedia Commons
 - [Lab wash-bottles water EtOH.jpg](Lab%20wash-bottles%20water%20EtOH.jpg): <a href="https://commons.wikimedia.org/wiki/File:Lab_wash-bottles_water_EtOH.jpg">Masur</a>, Public domain, via Wikimedia Commons
 - [Laboratory Spatula.JPG](Laboratory%20Spatula.JPG): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_Spatula.JPG">Gamico94</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Laboratory tripod.jpg](Laboratory%20tripod.jpg): <a href="https://commons.wikimedia.org/wiki/File:Laboratory_tripod.jpg">NagayaS</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
@@ -99,6 +100,7 @@
 - [Safety Goggles.jpg](Safety%20Goggles.jpg): <a href="https://commons.wikimedia.org/wiki/File:Safety_Goggles.jpg">DJSparky</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Simple distillation apparatus.svg](Simple%20distillation%20apparatus.svg): <a href="https://commons.wikimedia.org/wiki/File:Simple_distillation_apparatus.svg">Original PNG by User:Quantockgoblin, SVG adaptation by User:Slashme</a>, Public domain, via Wikimedia Commons
 - [Stirring rod.jpg](Stirring%20rod.jpg): <a href="https://commons.wikimedia.org/wiki/File:Stirring_rod.jpg">TarnPraewan</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [Synthesis ascorbic acid.svg](Synthesis%20ascorbic%20acid.svg): <a href="https://commons.wikimedia.org/wiki/File:Synthesis_ascorbic_acid.svg">Yikrazuul</a>, Public domain, via Wikimedia Commons
 
 ## Tt
 - [TGI 250.jpg](TGI%20250.jpg): <a href="https://commons.wikimedia.org/wiki/File:TGI_250.jpg">Aleksander Sobolewski via Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
