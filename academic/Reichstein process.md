@@ -3,7 +3,7 @@ aliases:
   - Reichstein process
 ---
 
-#academic/chemistry #flashcards/academic/Rr/reichstein_process
+#academic/chemistry #flashcards/academic/Rr/Reichstein_process
 
 %%
 ```Python
