@@ -1,8 +1,8 @@
 ---
 aliases:
-  - ionization energies
-  - ionisation energy
   - ionisation energies
+  - ionisation energy
+  - ionization energies
 ---
 
 #academic/physics #flashcards/academic/Ii/ionization_energy

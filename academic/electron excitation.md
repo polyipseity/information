@@ -1,7 +1,7 @@
 ---
 aliases:
-  - electron relaxation
   - electron deexcitation
+  - electron relaxation
 ---
 
 #academic/physics #flashcards/academic/Ee/electron_excitation

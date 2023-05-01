@@ -2,8 +2,8 @@
 aliases:
   - Al2O3
   - aluminium oxide
-  - aluminum oxide
   - aluminium(III) oxide
+  - aluminum oxide
   - aluminum(III) oxide
 ---
 

@@ -1,8 +1,8 @@
 ---
 aliases:
   - alkali
-  - alkalis
   - alkaline
+  - alkalis
 ---
 
 #academic/chemistry #flashcards/academic/Aa/alkali

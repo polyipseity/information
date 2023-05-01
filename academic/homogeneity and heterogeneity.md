@@ -3,8 +3,8 @@ aliases:
   - heterogeneity
   - heterogeneous
   - homogeneity
-  - homogeneous
   - homogeneity and heterogeneity
+  - homogeneous
 ---
 
 #academic/chemistry #flashcards/academic/Hh/homogeneity_and_heterogeneity
