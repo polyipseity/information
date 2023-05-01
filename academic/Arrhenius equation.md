@@ -7,10 +7,10 @@ aliases:
 
 # Arrhenius equation
 
-The {{__Arrhenius equation__}} is {{a formula for the dependence of [rate constant](reaction%20rate%20constant.md) on [temperature](temperature.md)}}.
+The {{__Arrhenius equation__}} is {{a formula for the dependence of [rate constant](reaction%20rate%20constant.md) on [temperature](temperature.md)}}. <!--SR:!2023-05-05,4,270!2023-05-05,4,270-->
 
 ## equation
 
 The Arrhenius equation is given as
 
-> {{$$k=Ae^\frac{-E_a}{RT}.$$}}
+> {{$$k=Ae^\frac{-E_a}{RT}.$$}} <!--SR:!2023-05-05,4,270-->

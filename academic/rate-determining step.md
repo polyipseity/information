@@ -23,4 +23,4 @@ aliases:
 
 # rate-determining step
 
-The __rate-determining step__ or __rate-limiting step__ is {{often the slowest step that determines the overall [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md)}}.
+The __rate-determining step__ or __rate-limiting step__ is {{often the slowest step that determines the overall [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2023-05-05,4,270-->
