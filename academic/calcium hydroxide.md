@@ -2,8 +2,8 @@
 aliases:
   - Ca(OH)2
   - calcium hydroxide
-  - slaked lime
   - limewater
+  - slaked lime
 ---
 
 #academic/chemistry #flashcards/academic/Cc/calcium_hydroxide

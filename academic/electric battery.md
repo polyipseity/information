@@ -1,7 +1,7 @@
 ---
 aliases:
-  - battiers
   - battery
+  - battiers
   - electric batteries
   - electric battery
   - electrical batteries
