@@ -27,7 +27,7 @@ Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density 
 
 ### odor
 
-Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2023-05-01,16,230-->
+Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2023-06-10,40,230-->
 
 ### solubility
 

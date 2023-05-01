@@ -20,7 +20,7 @@ aliases:
 
 ## composition
 
-Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}}. Larger hydrocarbons have {{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}}. <!--SR:!2023-06-12,51,294!2023-05-01,17,234-->
+Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}}. Larger hydrocarbons have {{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}}. <!--SR:!2023-06-12,51,294!2023-06-12,42,234-->
 
 ## uses
 
@@ -67,7 +67,7 @@ return await memorize_table(
 > | {{[fuel oil](fuel%20oil.md)}} | {{205 to 290 °C}} | {{fuel for [power plants](power%20station.md) and [ships](ship.md)}} |
 > | {{[diesel fuel](diesel%20fuel.md)}} | {{260 to 315 °C}} | {{fuel for [buses](bus.md) and [trucks](truck.md)}} |
 > | {{[paraffin wax](paraffin%20wax.md)}} | {{370 °C or above}} | {{[candles](candle.md), [lubrication](lubrication.md)}} |
-> | {{[bitumen](bitumen.md)}} | {{500 °C or above}} | {{[road construction](road%20construction.md)}} | <!--SR:!2023-05-26,41,290!2023-05-20,33,270!2023-05-21,34,274!2023-06-20,61,314!2023-05-04,21,294!2023-06-11,54,294!2023-05-01,19,254!2023-05-16,23,274!2023-05-14,29,274!2023-05-27,28,230!2023-05-11,24,254!2023-05-12,28,274!2023-05-04,4,190!2023-05-17,30,274!2023-06-05,41,254!2023-05-20,22,194!2023-05-02,20,274!2023-06-03,34,254!2023-05-16,18,210!2023-05-16,29,274!2023-05-06,23,254!2023-05-04,12,190!2023-05-02,14,234!2023-06-11,54,294!2023-05-13,22,234!2023-05-23,38,294!2023-06-30,69,314!2023-06-04,47,294!2023-07-04,72,314-->
+> | {{[bitumen](bitumen.md)}} | {{500 °C or above}} | {{[road construction](road%20construction.md)}} | <!--SR:!2023-05-26,41,290!2023-05-20,33,270!2023-05-21,34,274!2023-06-20,61,314!2023-05-04,21,294!2023-06-11,54,294!2023-05-02,1,230!2023-05-16,23,274!2023-05-14,29,274!2023-05-27,28,230!2023-05-11,24,254!2023-05-12,28,274!2023-05-04,4,190!2023-05-17,30,274!2023-06-05,41,254!2023-05-20,22,194!2023-05-02,20,274!2023-06-03,34,254!2023-05-16,18,210!2023-05-16,29,274!2023-05-06,23,254!2023-05-04,12,190!2023-05-02,14,234!2023-06-11,54,294!2023-05-13,22,234!2023-05-23,38,294!2023-06-30,69,314!2023-06-04,47,294!2023-07-04,72,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

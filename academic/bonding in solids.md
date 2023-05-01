@@ -53,7 +53,7 @@ return await memorize_table(
 
 ### network covalent solid
 
-A __network covalent solid__, also called __giant covalent structure__, {{consists of [atoms](atom.md) held together by a network of [covalent bonds](covalent%20bond.md)}}. <!--SR:!2023-05-01,23,250-->
+A __network covalent solid__, also called __giant covalent structure__, {{consists of [atoms](atom.md) held together by a network of [covalent bonds](covalent%20bond.md)}}. <!--SR:!2023-06-26,56,250-->
 
 #### properties
 
@@ -119,7 +119,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-01,24,250!2023-06-06,54,310!2023-05-26,45,290!2023-05-27,29,270!2023-05-26,42,290!2023-06-17,63,310!2023-05-25,27,230!2023-05-29,45,290-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-05-15,14,230!2023-06-06,54,310!2023-05-26,45,290!2023-05-27,29,270!2023-05-26,42,290!2023-06-17,63,310!2023-05-25,27,230!2023-05-29,45,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

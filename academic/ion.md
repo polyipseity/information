@@ -283,7 +283,7 @@ return chain.from_iterable(await gather(
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
 22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2023-05-02,19,342!2023-05-03,20,342-->
-23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2023-05-01,18,342!2023-05-03,20,342-->
+23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2023-07-24,84,362!2023-05-03,20,342-->
 24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2023-05-03,20,342!2023-05-03,20,342-->
 25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2023-05-03,20,342!2023-05-02,19,342-->
 26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2023-05-02,19,342!2023-05-03,20,342-->
@@ -305,7 +305,7 @@ return chain.from_iterable(await gather(
 9. calcium ion::2+ <!--SR:!2024-10-25,649,272-->
 10. barium ion::2+ <!--SR:!2024-01-27,456,254-->
 11. lead(II) ion::2+ <!--SR:!2026-06-13,1266,358-->
-12. iron(II) ion::2+ <!--SR:!2023-05-01,376,353-->
+12. iron(II) ion::2+ <!--SR:!2028-04-27,1823,373-->
 13. nickel(II) ion::2+ <!--SR:!2026-08-31,1322,352-->
 14. copper(II) ion::2+ <!--SR:!2026-05-28,1176,352-->
 15. zinc ion::2+ <!--SR:!2023-08-10,197,224-->
@@ -457,7 +457,7 @@ return chain.from_iterable(await gather(
 19. dichromate ion::2- <!--SR:!2023-05-18,328,290-->
 20. nitride ion::3- <!--SR:!2023-05-22,331,290-->
 21. phosphate ion::3- <!--SR:!2023-10-02,275,210-->
-22. manganate ion::2- <!--SR:!2023-05-01,18,342-->
+22. manganate ion::2- <!--SR:!2023-07-25,85,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
