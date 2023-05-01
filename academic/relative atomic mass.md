@@ -1,9 +1,9 @@
 ---
 aliases:
   - RAM
+  - atomic weight
   - r.a.m.
   - relative atomic mass
-  - atomic weight
 ---
 
 #academic/chemistry #academic/physics #flashcards/academic/Aa/atomic_mass

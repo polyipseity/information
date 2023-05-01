@@ -1,8 +1,8 @@
 ---
 aliases:
   - HgO
-  - mercury oxide
   - mercuric oxide
+  - mercury oxide
   - mercury(II) oxide
 ---
 
