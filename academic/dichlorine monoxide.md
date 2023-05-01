@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Cl<sub>2</sub>O
   - Cl2O
+  - Cl<sub>2</sub>O
   - dichlorine monoxide
 ---
 

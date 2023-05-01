@@ -2,8 +2,8 @@
 aliases:
   - exchange reaction
   - single displacement reaction
-  - single-displacement reaction
   - single replacement reaction
+  - single-displacement reaction
   - single-replacement reaction
 ---
 

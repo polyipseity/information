@@ -1,11 +1,11 @@
 ---
 aliases:
   - fluorine group
-  - halogen
-  - halogens
   - group 17
   - group VIIA
   - group VIIB
+  - halogen
+  - halogens
 ---
 
 #academic/chemistry #flashcards/academic/Hh/halogen

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - chemical substances
   - chemical
+  - chemical substances
   - pure substance
   - substance
   - substances

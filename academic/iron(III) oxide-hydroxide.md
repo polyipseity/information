@@ -2,8 +2,8 @@
 aliases:
   - Fe(OH)3
   - FeO(OH)
-  - iron(III) oxide-hydroxide
   - iron(III) hydroxide
+  - iron(III) oxide-hydroxide
 ---
 
 #academic/chemistry #flashcards/academic/Ii/iron_III__oxide-hydroxide
