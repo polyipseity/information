@@ -52,7 +52,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029e"--><!-- The following content is generated at 2023-03-20T09:46:27.605210+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2023-05-01,19,270!2023-06-17,57,310-->
+1. _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2023-07-15,75,290!2023-06-17,57,310-->
 2. [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity) <!--SR:!2023-06-28,66,310!2023-06-18,59,310-->
 3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity) <!--SR:!2023-05-29,40,290!2023-06-15,56,310-->
 4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-06-06,41,250!2023-05-31,42,290-->
