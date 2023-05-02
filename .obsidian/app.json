@@ -60,5 +60,6 @@
     "tools/",
     "/__pycache__/",
     "/attachments/.*$(?<!.md)/"
-  ]
+  ],
+  "focusNewTab": false
 }
