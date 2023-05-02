@@ -150,10 +150,16 @@ async def memorize_seq(
 	locations: tuple[Location, Location],
 	seq: Iterable[str],
 	*,
-	prefix = f'{{{Tag.MEMORIZE}:_(begin)_}}',
-	suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
+	pretext = '',
+	posttext = '',
+	prefix: None | str = None,
+	suffix: None | str = None,
 	escape = True,
 ) -> tuple[Result, Result]:
+	if prefix is None:
+		prefix = f'{{{Tag.MEMORIZE}:_({pretext if pretext else "begin"})_}}'
+	if suffix is None:
+		suffix = f'{{{Tag.MEMORIZE}:_({posttext if posttext else "end"})_}}'
 	states = read_states(locations)
 	code = seq_to_code(
 		seq,
