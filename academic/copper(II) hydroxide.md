@@ -8,7 +8,7 @@ aliases:
 
 # copper(II) hydroxide
 
-__Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Cu](copper.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{blue or blue-green [solid](solid.md)}}. <!--SR:!2023-06-22,66,310!2023-05-03,23,230-->
+__Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Cu](copper.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{blue or blue-green [solid](solid.md)}}. <!--SR:!2023-06-22,66,310!2023-05-17,14,210-->
 
 ## preparation
 
