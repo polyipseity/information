@@ -64,6 +64,7 @@
 - [Graphite-layers-top-3D-balls.png](Graphite-layers-top-3D-balls.png): <a href="https://commons.wikimedia.org/wiki/File:Graphite-layers-top-3D-balls.png">Benjah-bmm27</a>, Public domain, via Wikimedia Commons
 
 ## Hh
+- [Haber-Bosch-En.svg](Haber-Bosch-En.svg): <a href="https://commons.wikimedia.org/wiki/File:Haber-Bosch-En.svg">This file was derived from:</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [High-Speed Filter Funnel-2.jpg](High-Speed%20Filter%20Funnel-2.jpg): <a href="https://commons.wikimedia.org/wiki/File:High-Speed_Filter_Funnel-2.jpg">Hugo</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
 ## Ll
