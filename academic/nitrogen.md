@@ -1,3 +1,15 @@
+---
+aliases:
+  - 7-N
+  - 7N
+  - <sub>7</sub>N
+  - N
+  - N-7
+  - N2
+  - N<sub>2</sub>
+  - nitrogen
+---
+
 #academic/chemistry #flashcards/academic/Nn/nitrogen
 
 %%
