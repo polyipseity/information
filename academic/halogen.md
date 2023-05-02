@@ -74,6 +74,6 @@ return await memorize_map(
 2. reacts explosively in light and heat; slowly without::[chlorine](chlorine.md) <!--SR:!2023-05-19,27,230-->
 3. reacts explosively in flames; moderately in light and heat::[bromine](bromine.md) <!--SR:!2023-07-05,73,310-->
 4. reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2023-07-03,71,310-->
-5. unknown::[tennessine](tennessine.md) <!--SR:!2023-05-03,10,270-->
+5. unknown::[tennessine](tennessine.md) <!--SR:!2023-05-09,6,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
