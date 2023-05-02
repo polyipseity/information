@@ -8,7 +8,7 @@ aliases:
 
 # lead(II) hydroxide
 
-__Lead(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Pb](lead.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{white amorphous [powder](powder.md)}}. <!--SR:!2023-06-07,49,310!2023-05-02,13,230-->
+__Lead(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Pb](lead.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{white amorphous [powder](powder.md)}}. <!--SR:!2023-06-07,49,310!2023-06-02,31,230-->
 
 ## preparation
 

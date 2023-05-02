@@ -16,4 +16,4 @@ Treating {{copper(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemi
 
 > treating with [bases](base%20(chemistry).md)
 > 1. {{Cu<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Cu(OH)<sub>2</sub>(s)}}
-> 2. {{Cu(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Cu(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}} <!--SR:!2023-06-08,55,310!2023-05-02,22,230-->
+> 2. {{Cu(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Cu(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}} <!--SR:!2023-06-08,55,310!2023-06-24,53,230-->

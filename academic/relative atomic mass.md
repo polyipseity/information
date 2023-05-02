@@ -14,7 +14,7 @@ __Relative atomic mass__ {{(symbol: ___A_<sub>r</sub>__; abbreviated __RAM__ or 
 
 ## other measures
 
-__Relative _isotopic_ mass__ is {{the _ratio_ of the [atomic mass](atomic%20mass.md) of the given [isotope](isotope.md) to the [unified atomic mass unit](dalton%20(unit).md)}}. It carries {{no unit}}. <!--SR:!2023-05-02,24,250!2023-06-18,64,310-->
+__Relative _isotopic_ mass__ is {{the _ratio_ of the [atomic mass](atomic%20mass.md) of the given [isotope](isotope.md) to the [unified atomic mass unit](dalton%20(unit).md)}}. It carries {{no unit}}. <!--SR:!2023-07-05,64,250!2023-06-18,64,310-->
 
 ## standard atomic weight
 

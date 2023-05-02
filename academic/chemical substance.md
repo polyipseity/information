@@ -29,7 +29,7 @@ An element cannot be {{broken down or transformed by chemical methods}}. <!--SR:
 
 ## chemical compound
 
-A compound is made up of {{multiple elements chemically combined}}. <!--SR:!2023-05-02,15,250-->
+A compound is made up of {{multiple elements chemically combined}}. <!--SR:!2023-06-13,42,250-->
 
 ## notes
 
