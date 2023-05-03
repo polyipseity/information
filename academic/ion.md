@@ -282,11 +282,11 @@ return chain.from_iterable(await gather(
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
-22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2023-07-26,85,362!2023-05-03,20,342-->
-23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2023-07-24,84,362!2023-05-03,20,342-->
-24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2023-05-03,20,342!2023-05-03,20,342-->
-25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2023-05-03,20,342!2023-07-31,90,362-->
-26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2023-07-28,87,362!2023-05-03,20,342-->
+22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2023-07-26,85,362!2023-08-06,95,362-->
+23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2023-07-24,84,362!2023-08-06,95,362-->
+24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2023-08-02,91,362!2023-08-09,98,362-->
+25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2023-08-03,92,362!2023-07-31,90,362-->
+26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2023-07-28,87,362!2023-08-07,96,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -318,8 +318,8 @@ return chain.from_iterable(await gather(
 22. scandium(III) ion::3+ <!--SR:!2023-07-29,88,362-->
 23. titanium(III) ion::3+ <!--SR:!2023-07-30,89,362-->
 24. vanadium(II) ion::2+ <!--SR:!2023-08-01,91,362-->
-25. vanadium(III) ion::3+ <!--SR:!2023-05-03,20,342-->
-26. manganese(III) ion::3+ <!--SR:!2023-05-03,20,342-->
+25. vanadium(III) ion::3+ <!--SR:!2023-08-04,93,362-->
+26. manganese(III) ion::3+ <!--SR:!2023-08-05,94,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -428,7 +428,7 @@ return chain.from_iterable(await gather(
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2025-03-18,705,310-->
 21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-05-30,57,199!2024-08-25,617,276-->
-22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2023-05-03,20,342!2023-07-08,71,342-->
+22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2023-08-08,97,362!2023-07-08,71,342-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -447,7 +447,7 @@ return chain.from_iterable(await gather(
 9. hydrogencarbonate ion::1- <!--SR:!2023-10-31,435,290-->
 10. hydrogensulfite ion::1- <!--SR:!2024-12-16,746,319-->
 11. hydrogensulfate ion::1- <!--SR:!2025-08-28,863,284-->
-12. permanganate ion::1- <!--SR:!2023-05-03,129,250-->
+12. permanganate ion::1- <!--SR:!2024-07-29,453,270-->
 13. oxide ion::2- <!--SR:!2026-10-22,1271,310-->
 14. sulfide ion::2- <!--SR:!2023-06-10,162,230-->
 15. sulfate ion::2- <!--SR:!2023-10-15,419,290-->
