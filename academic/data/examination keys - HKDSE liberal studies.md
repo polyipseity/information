@@ -115,7 +115,7 @@ return await memorize_table(
 3. factor/reason→:::←impact/problem <!--SR:!2023-05-09,9,255!2023-05-04,5,235-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-05-08,6,235!2023-05-06,4,215-->
 5. phenomenon→:::←solution <!--SR:!2023-05-10,10,255!2023-05-10,10,250-->
-6. solution→:::←value judgement <!--SR:!2023-05-12,13,275!2023-05-03,2,250-->
+6. solution→:::←value judgement <!--SR:!2023-05-12,13,275!2023-05-09,6,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2023-05-17,17,290!2023-05-08,9,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -208,20 +208,20 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-05-13,13,270!2023-05-07,8,255!2023-05-08,9,255!2023-05-04,5,235!2023-05-11,11,275!2023-05-07,8,255!2023-05-12,12,275!2023-05-04,4,215!2023-05-13,13,275!2023-05-11,11,275!2023-05-13,13,275!2023-05-08,6,230!2023-05-13,13,275!2023-05-11,11,275!2023-05-07,8,255!2023-05-03,4,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-05-13,13,270!2023-05-07,8,255!2023-05-08,9,255!2023-05-04,5,235!2023-05-11,11,275!2023-05-07,8,255!2023-05-12,12,275!2023-05-04,4,215!2023-05-13,13,275!2023-05-11,11,275!2023-05-13,13,275!2023-05-08,6,230!2023-05-13,13,275!2023-05-11,11,275!2023-05-07,8,255!2023-05-14,11,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-05-12,12,270!2023-05-11,11,275-->
-2. according to/refer to→:::←cause/reason <!--SR:!2023-05-03,4,235!2023-05-07,8,255-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-05-10,10,250!2023-05-03,4,235-->
+2. according to/refer to→:::←cause/reason <!--SR:!2023-05-05,2,215!2023-05-07,8,255-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-05-10,10,250!2023-05-14,11,235-->
 4. effectiveness→:::←factor <!--SR:!2023-05-08,9,255!2023-05-11,9,230-->
 5. factor→:::←feasibilities <!--SR:!2023-05-09,9,250!2023-05-13,13,275-->
-6. feasibilities→:::←pattern <!--SR:!2023-05-08,6,230!2023-05-03,3,235-->
+6. feasibilities→:::←pattern <!--SR:!2023-05-08,6,230!2023-05-05,2,215-->
 7. pattern→:::←trend <!--SR:!2023-05-08,9,255!2023-05-07,8,255-->
-8. trend→:::←with reference to <!--SR:!2023-05-03,2,250!2023-05-10,10,250-->
+8. trend→:::←with reference to <!--SR:!2023-05-09,6,250!2023-05-10,10,250-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-05-17,17,290!2023-05-12,12,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -261,7 +261,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-05-11,11,275!2023-05-11,11,275-->
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-05-04,5,235!2023-05-11,11,275-->
-3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-05-07,8,255!2023-05-03,4,235-->
+3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-05-07,8,255!2023-05-14,11,235-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-05-05,6,235!2023-05-10,10,255-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-05-11,12,270!2023-05-12,12,275-->
 6. Deduce causes and reasons.→:::←_(end)_ <!--SR:!2023-05-14,14,295!2023-05-12,12,275-->
@@ -386,7 +386,7 @@ return await memorize_seq(
 1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2023-05-07,8,255!2023-05-13,13,275-->
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-05-04,5,235!2023-05-13,13,275-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-05-05,6,235!2023-05-06,7,255-->
-4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-05-12,13,270!2023-05-03,4,235-->
+4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-05-12,13,270!2023-05-14,11,235-->
 5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-05-13,13,275!2023-05-10,10,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
