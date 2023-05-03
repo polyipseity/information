@@ -78,9 +78,9 @@ return await memorize_table(
 3. [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2023-05-24,37,274!2023-06-27,65,314-->
 4. [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2023-05-16,29,274!2023-05-12,28,274-->
 5. [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2023-05-15,30,274!2023-06-16,47,254-->
-6. [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2023-06-04,40,254!2023-05-03,11,174-->
+6. [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2023-06-04,40,254!2023-05-24,21,174-->
 7. [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2023-05-05,22,254!2023-05-05,22,254-->
-8. [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2023-05-22,35,274!2023-05-03,22,274-->
+8. [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2023-05-22,35,274!2023-07-03,61,274-->
 9. [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2023-06-10,53,294!2023-05-24,37,274-->
 10. [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2023-05-09,27,274!2023-05-25,40,294-->
 11. [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2023-06-16,57,310!2023-06-25,65,314-->

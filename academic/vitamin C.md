@@ -12,7 +12,7 @@ aliases:
 
 > {{![structure of vitamin C](../attachments/L-Ascorbic%20acid.svg)}}
 >
-> structure of vitamin C <!--SR:!2023-05-03,3,250-->
+> structure of vitamin C <!--SR:!2023-05-12,9,250-->
 
 ## synthesis
 

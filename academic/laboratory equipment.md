@@ -148,7 +148,7 @@ return await memorize_table(
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-05-28,37,250!2023-05-25,37,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-05-19,27,230!2023-06-04,45,290-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-05-26,24,250!2023-05-18,26,230-->
-18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-05-03,15,230!2023-05-19,32,270-->
+18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-06-10,38,230!2023-05-19,32,270-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-05-06,23,250!2023-05-04,6,190-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-05-13,28,250!2023-06-21,51,250-->
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-05-22,34,270!2023-05-07,16,270-->
@@ -170,7 +170,7 @@ return await memorize_table(
 37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-05-16,31,270!2023-05-30,41,290-->
 38. [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2023-05-14,29,270!2023-05-16,31,270-->
 39. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2023-05-15,30,270!2023-06-06,41,250-->
-40. [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2023-05-19,32,270!2023-05-03,10,270-->
+40. [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2023-05-19,32,270!2023-06-03,31,270-->
 41. [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2023-06-29,67,310!2023-05-14,29,270-->
 42. [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2023-05-27,39,270!2023-05-30,41,290-->
 43. [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2023-07-01,69,310!2023-06-22,62,310-->

@@ -50,4 +50,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 	- +multiple modes:::+⇧Shift <!--SR:!2023-05-14,82,270!2023-09-04,164,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-06-15,114,296!2023-07-04,107,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-05-04,14,210!2023-05-26,36,236-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-05-11,79,270!2023-05-03,48,175-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-05-11,79,270!2023-05-30,27,155-->

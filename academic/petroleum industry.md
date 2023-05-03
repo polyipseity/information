@@ -56,10 +56,10 @@ return await memorize_seq(
 2. +: attracts local or overseas investment→:::←+: creates job opportunities <!--SR:!2023-05-04,4,270!2023-05-04,4,274-->
 3. +: creates job opportunities→:::←+: generates income for the government <!--SR:!2023-05-04,4,274!2023-05-04,4,274-->
 4. +: generates income for the government→:::←+: improves infrastructure <!--SR:!2023-05-04,4,274!2023-05-04,4,274-->
-5. +: improves infrastructure→:::←-: emits gaseous pollutants <!--SR:!2023-05-04,4,270!2023-05-03,3,254-->
-6. -: emits gaseous pollutants→:::←-: generates wastes that may be harmful or toxic <!--SR:!2023-05-03,3,254!2023-05-04,4,274-->
+5. +: improves infrastructure→:::←-: emits gaseous pollutants <!--SR:!2023-05-04,4,270!2023-05-05,2,234-->
+6. -: emits gaseous pollutants→:::←-: generates wastes that may be harmful or toxic <!--SR:!2023-05-11,8,254!2023-05-04,4,274-->
 7. -: generates wastes that may be harmful or toxic→:::←-: pollution control cost is high <!--SR:!2023-05-04,4,274!2023-05-04,4,274-->
-8. -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2023-05-03,3,254!2023-05-04,4,274-->
+8. -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2023-05-13,10,254!2023-05-04,4,274-->
 9. -: safety control cost is high→:::←_(end)_ <!--SR:!2023-05-04,4,274!2023-05-04,4,274-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
