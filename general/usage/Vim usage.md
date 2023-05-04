@@ -66,7 +66,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## search and substitute
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2023-06-18,98,273-->
-- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-05-04,39,230!2023-10-18,184,308-->
+- search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-08-02,90,230!2023-10-18,184,308-->
 - repeat last search:::n <!--SR:!2023-05-13,81,313!2023-10-11,180,308-->
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
