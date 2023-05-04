@@ -51,7 +51,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2023-05-07,6,230!2023-05-12,13,275!2023-05-12,12,275!2023-05-13,13,270!2023-05-05,6,235!2023-05-05,6,235!2023-05-12,12,275!2023-05-13,13,275!2023-05-04,5,235!2023-05-13,13,275-->
+> | {{weak analogies}} | <!--SR:!2023-05-07,6,230!2023-05-12,13,275!2023-05-12,12,275!2023-05-13,13,270!2023-05-05,6,235!2023-05-05,6,235!2023-05-12,12,275!2023-05-13,13,275!2023-05-23,19,255!2023-05-13,13,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -104,7 +104,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-05-16,16,290!2023-05-14,14,290!2023-05-11,12,270!2023-05-09,10,250!2023-05-15,15,295!2023-05-10,10,255!2023-05-13,13,275!2023-05-12,12,275!2023-05-13,13,275!2023-05-13,13,275!2023-05-13,13,275!2023-05-04,5,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-05-16,16,290!2023-05-14,14,290!2023-05-11,12,270!2023-05-09,10,250!2023-05-15,15,295!2023-05-10,10,255!2023-05-13,13,275!2023-05-12,12,275!2023-05-13,13,275!2023-05-13,13,275!2023-05-13,13,275!2023-05-18,14,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -112,7 +112,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2023-05-16,16,290!2023-05-15,15,290-->
 2. comparison→:::←factor/reason <!--SR:!2023-05-09,10,250!2023-05-08,9,255-->
-3. factor/reason→:::←impact/problem <!--SR:!2023-05-09,9,255!2023-05-04,5,235-->
+3. factor/reason→:::←impact/problem <!--SR:!2023-05-09,9,255!2023-05-07,3,215-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-05-08,6,235!2023-05-06,4,215-->
 5. phenomenon→:::←solution <!--SR:!2023-05-10,10,255!2023-05-10,10,250-->
 6. solution→:::←value judgement <!--SR:!2023-05-12,13,275!2023-05-09,6,250-->
@@ -208,7 +208,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-05-13,13,270!2023-05-07,8,255!2023-05-08,9,255!2023-05-04,5,235!2023-05-11,11,275!2023-05-07,8,255!2023-05-12,12,275!2023-05-04,4,215!2023-05-13,13,275!2023-05-11,11,275!2023-05-13,13,275!2023-05-08,6,230!2023-05-13,13,275!2023-05-11,11,275!2023-05-07,8,255!2023-05-14,11,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-05-13,13,270!2023-05-07,8,255!2023-05-08,9,255!2023-05-18,14,235!2023-05-11,11,275!2023-05-07,8,255!2023-05-12,12,275!2023-05-15,11,215!2023-05-13,13,275!2023-05-11,11,275!2023-05-13,13,275!2023-05-08,6,230!2023-05-13,13,275!2023-05-11,11,275!2023-05-07,8,255!2023-05-14,11,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -260,7 +260,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-05-11,11,275!2023-05-11,11,275-->
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-05-04,5,235!2023-05-11,11,275-->
+2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-05-18,14,235!2023-05-11,11,275-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-05-07,8,255!2023-05-14,11,235-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-05-05,6,235!2023-05-10,10,255-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-05-11,12,270!2023-05-12,12,275-->
@@ -384,7 +384,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2023-04-26T19:16:21.114781+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2023-05-07,8,255!2023-05-13,13,275-->
-2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-05-04,5,235!2023-05-13,13,275-->
+2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-05-18,14,235!2023-05-13,13,275-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-05-05,6,235!2023-05-06,7,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-05-12,13,270!2023-05-14,11,235-->
 5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-05-13,13,275!2023-05-10,10,255-->
@@ -491,7 +491,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-05-04,5,235!2023-05-12,12,275-->
+1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-05-18,14,235!2023-05-12,12,275-->
 2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-05-14,13,270!2023-05-10,10,250-->
 3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-05-07,8,255!2023-05-05,6,235-->
 4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2023-05-12,13,270!2023-05-06,7,255-->

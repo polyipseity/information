@@ -17,7 +17,7 @@ aliases:
 
 # calorimeter
 
-A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}. <!--SR:!2023-07-05,73,310!2023-05-04,11,270-->
+A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}. <!--SR:!2023-07-05,73,310!2023-06-18,45,290-->
 
 A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}. <!--SR:!2023-05-27,39,270!2023-07-03,71,310-->
 
