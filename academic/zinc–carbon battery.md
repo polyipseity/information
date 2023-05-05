@@ -12,7 +12,7 @@ aliases:
 
 ### anode
 
-At the anode, {{[zinc](zinc.md) is oxidized by [chloride](chloride.md) [anions](ion.md) (Zn(s) + 2Cl<sup>-</sup>(aq) → ZnCl<sub>2</sub>(aq) + 2e<sup>-</sup>)}}. <!--SR:!2023-05-05,11,270-->
+At the anode, {{[zinc](zinc.md) is oxidized by [chloride](chloride.md) [anions](ion.md) (Zn(s) + 2Cl<sup>-</sup>(aq) → ZnCl<sub>2</sub>(aq) + 2e<sup>-</sup>)}}. <!--SR:!2023-06-01,27,270-->
 
 ### cathode
 

@@ -413,7 +413,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
-> - infix: {{(locant)}} <!--SR:!2023-05-20,133,300!2023-06-16,159,320!2023-11-25,282,342!2023-09-21,249,342!2023-05-05,127,302!2023-12-13,295,347-->
+> - infix: {{(locant)}} <!--SR:!2023-05-20,133,300!2023-06-16,159,320!2023-11-25,282,342!2023-09-21,249,342!2024-05-22,383,302!2023-12-13,295,347-->
 
 > {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
 > - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
