@@ -9,7 +9,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-10-19,185,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2023-06-25,105,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-05-05,10,153!2023-06-27,65,268-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-05-22,17,153!2023-06-27,65,268-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-07-22,128,313!2023-05-15,83,328-->
@@ -28,7 +28,7 @@ See also [Vim help files](https://vimhelp.org/).
 - matching character:::% <!--SR:!2023-07-23,118,273!2023-09-13,154,293-->
 
 ## write and quit
-- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2023-05-05,73,313!2023-10-23,200,313-->
+- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2024-03-06,306,333!2023-10-23,200,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-05-06,74,313!2023-10-03,172,293-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2023-05-14,82,328-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-05-07,75,313!2023-05-15,83,328-->
@@ -71,7 +71,7 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2023-06-07,84,268-->
-- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2023-05-05,73,313-->
+- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2024-03-07,307,333-->
 
 ## command
 - show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-05-25,48,208-->
@@ -81,7 +81,7 @@ See also [Vim help files](https://vimhelp.org/).
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-08-16,125,293!2023-05-17,85,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-07,75,313!2023-06-26,66,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-12,31,273!2023-05-12,80,313-->
-- invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-05,73,313!2023-09-25,166,293-->
+- invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2023-09-25,166,293-->
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->
