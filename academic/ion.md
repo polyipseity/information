@@ -414,7 +414,7 @@ return chain.from_iterable(await gather(
 5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2026-11-16,1294,313-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2026-01-30,1090,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
-8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-08-21,215,239!2023-05-05,319,290-->
+8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-08-21,215,239!2026-11-11,1286,310-->
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2023-12-08,473,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2023-06-13,347,294-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2026-01-17,1128,350-->
@@ -480,7 +480,7 @@ return chain.from_iterable(await gather(
 13. oxide ion::_(n/a)_ <!--SR:!2023-07-04,157,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2023-05-28,132,276-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
-16. sulfite ion::colorless <!--SR:!2023-05-05,53,254-->
+16. sulfite ion::colorless <!--SR:!2023-11-19,198,274-->
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
