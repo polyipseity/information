@@ -31,6 +31,9 @@ from html import escape as h_esc
 from pytextgen.util import export_seq
 from typing import Iterable, Literal
 
+def colored_block(color: str) -> str:
+	return f'<span style="background-color:{color};border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span>'
+
 def html_list0(type: Literal['ol', 'ul'], iter: Iterable[str], *, escape = True):
 	return f"<{type}><li>{'</li><li>'.join(map(h_esc, iter) if escape else iter)}</li></{type}>"
 
@@ -50,6 +53,7 @@ def html_ul(*args, **kwargs):
 	return html_ul0(args, **kwargs)
 
 return export_seq(
+	colored_block,
 	html_list0,
 	html_list,
 	html_ol0,
