@@ -4,7 +4,7 @@
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2023-05-06,74,313!2023-05-10,78,313-->
+- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2023-12-28,236,313!2023-05-10,78,313-->
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-05-17,85,328!2023-10-19,185,308-->
@@ -24,12 +24,12 @@ See also [Vim help files](https://vimhelp.org/).
 - beginning of line:::0 <!--SR:!2023-05-09,77,310!2023-05-11,79,313-->
 - end of line:::$ <!--SR:!2023-05-08,76,313!2023-05-10,78,313-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2023-05-12,80,313-->
-- line \[N=1\]:::\[N\]gg <!--SR:!2023-05-06,74,313!2023-05-08,76,313-->
+- line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2023-05-08,76,313-->
 - matching character:::% <!--SR:!2023-07-23,118,273!2023-09-13,154,293-->
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2024-03-06,306,333!2023-10-23,200,313-->
-- quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2023-05-06,74,313!2023-10-03,172,293-->
+- quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2024-03-21,320,333!2023-10-03,172,293-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2023-05-14,82,328-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2023-05-07,75,313!2023-05-15,83,328-->
 
@@ -43,7 +43,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
 
 ## replace
-- exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2023-05-06,74,313!2023-05-17,85,328-->
+- exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2024-03-22,321,333!2023-05-17,85,328-->
 - replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-07-17,113,273!2023-05-13,81,313-->
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-12-06,237,313-->
 

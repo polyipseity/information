@@ -223,7 +223,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2024-05-06,433,362-->
 2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2023-05-10,115,302-->
 3. smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2023-12-06,410,266!2023-08-19,202,325-->
-4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2024-02-18,371,362!2023-05-06,125,305-->
+4. smallest locant for prefixes→:::←_(end)_ <!--SR:!2024-02-18,371,362!2024-05-21,381,305-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -641,7 +641,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-07-29,92,364!2023-08-02,96,364-->
-2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-05-06,10,324!2023-08-03,97,364-->
+2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-06-23,48,344!2023-08-03,97,364-->
 3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-07-25,88,344!2023-06-07,49,344-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-08-04,98,364!2023-07-24,87,344-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-06-25,60,344!2023-08-01,95,364-->
