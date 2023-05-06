@@ -114,7 +114,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[caesium](caesium.md) <!--SR:!2023-06-15,56,310!2023-06-20,60,310-->
 2. [caesium](caesium.md)→:::←[rubidium](rubidium.md) <!--SR:!2023-06-08,41,250!2023-05-29,33,250-->
-3. [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2023-05-06,22,250!2023-06-11,44,250-->
+3. [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2023-07-04,59,250!2023-06-11,44,250-->
 4. [potassium](potassium.md)→:::←[sodium](sodium.md) <!--SR:!2023-07-10,69,270!2023-06-28,66,310-->
 5. [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2023-05-11,26,270!2023-05-08,25,270-->
 6. [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2023-05-08,10,230!2023-05-21,33,270-->
@@ -123,17 +123,17 @@ return await memorize_table(
 9. [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2023-07-11,70,270!2023-05-20,35,290-->
 10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2023-05-31,44,290!2023-05-19,32,270-->
 11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2023-05-16,29,270!2023-05-15,27,250-->
-12. [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2023-05-10,11,230!2023-05-06,24,270-->
+12. [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2023-05-10,11,230!2023-07-14,69,270-->
 13. [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2023-07-01,57,250!2023-05-25,36,270-->
 14. [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2023-05-08,23,250!2023-06-13,45,250-->
 15. [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2023-06-04,37,230!2023-05-13,19,250-->
 16. [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2023-06-01,45,290!2023-06-17,45,230-->
 17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2023-05-29,42,290!2023-05-18,31,270-->
-18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-06-30,56,250!2023-05-06,10,190-->
+18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-06-30,56,250!2023-05-24,18,190-->
 19. [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2023-06-22,51,250!2023-06-24,51,250-->
 20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2023-06-26,54,250!2023-05-07,23,250-->
 21. [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2023-05-07,23,250!2023-05-21,28,230-->
-22. [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2023-05-06,22,250!2023-06-06,39,250-->
+22. [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2023-07-02,57,250!2023-06-06,39,250-->
 23. [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2023-06-09,42,250!2023-06-26,58,270-->
 24. [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2023-07-16,73,270!2023-05-10,10,230-->
 25. [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2023-05-12,27,270!2023-06-10,43,250-->

@@ -70,11 +70,11 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 1. _(begin)_→:::←dyeable <!--SR:!2023-05-11,11,270!2023-07-08,64,270-->
 2. dyeable→:::←elastic <!--SR:!2023-05-16,24,250!2023-06-22,53,290-->
 3. elastic→:::←high tensile strength <!--SR:!2023-06-08,36,230!2023-05-27,31,270-->
-4. high tensile strength→:::←oil-proof <!--SR:!2023-05-11,9,190!2023-05-06,16,230-->
+4. high tensile strength→:::←oil-proof <!--SR:!2023-05-11,9,190!2023-06-16,41,230-->
 5. oil-proof→:::←smooth <!--SR:!2023-05-17,26,250!2023-05-16,13,210-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2023-07-08,69,310!2023-05-12,22,250-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2023-07-02,64,310!2023-05-28,32,270-->
-8. [tough](toughness.md)→:::←washable <!--SR:!2023-07-03,65,310!2023-05-06,7,210-->
+8. [tough](toughness.md)→:::←washable <!--SR:!2023-07-03,65,310!2023-05-23,17,210-->
 9. washable→:::←[waterproof](waterproof.md) <!--SR:!2023-06-26,59,310!2023-07-12,73,310-->
 10. [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2023-06-25,58,310!2023-06-03,38,270-->
 

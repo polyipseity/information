@@ -57,7 +57,7 @@ return await memorize_seq(
 3. +: creates job opportunities→:::←+: generates income for the government <!--SR:!2023-05-17,13,274!2023-05-16,12,274-->
 4. +: generates income for the government→:::←+: improves infrastructure <!--SR:!2023-05-18,14,294!2023-05-20,16,294-->
 5. +: improves infrastructure→:::←-: emits gaseous pollutants <!--SR:!2023-05-19,15,290!2023-05-14,9,254-->
-6. -: emits gaseous pollutants→:::←-: generates wastes that may be harmful or toxic <!--SR:!2023-05-11,8,254!2023-05-06,2,254-->
+6. -: emits gaseous pollutants→:::←-: generates wastes that may be harmful or toxic <!--SR:!2023-05-11,8,254!2023-05-15,9,274-->
 7. -: generates wastes that may be harmful or toxic→:::←-: pollution control cost is high <!--SR:!2023-05-17,13,274!2023-05-17,13,274-->
 8. -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2023-05-13,10,254!2023-05-16,12,274-->
 9. -: safety control cost is high→:::←_(end)_ <!--SR:!2023-05-19,15,294!2023-05-19,15,294-->
