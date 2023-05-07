@@ -8,4 +8,4 @@ aliases:
 
 # internal energy
 
-The __internal energy__ is {{the [energy](energy.md) contained in a [thermodynamic system](thermodynamic%20system.md)}}.
+The __internal energy__ is {{the [energy](energy.md) contained in a [thermodynamic system](thermodynamic%20system.md)}}. <!--SR:!2023-05-12,4,270-->
