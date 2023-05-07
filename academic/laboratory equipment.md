@@ -3,6 +3,8 @@ aliases:
   - laboratory apparatus
   - laboratory equipment
   - laboratory equipments
+  - laboratory instrument
+  - laboratory instruments
 ---
 
 #academic/biology #academic/chemistry #academic/physics #flashcards/academic/Ll/laboratory_equipment
