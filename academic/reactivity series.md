@@ -131,8 +131,8 @@ return await memorize_table(
 17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2023-05-29,42,290!2023-05-18,31,270-->
 18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-06-30,56,250!2023-05-24,18,190-->
 19. [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2023-06-22,51,250!2023-06-24,51,250-->
-20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2023-06-26,54,250!2023-05-07,23,250-->
-21. [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2023-05-07,23,250!2023-05-21,28,230-->
+20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2023-06-26,54,250!2023-07-08,62,250-->
+21. [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2023-07-08,62,250!2023-05-21,28,230-->
 22. [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2023-07-02,57,250!2023-06-06,39,250-->
 23. [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2023-06-09,42,250!2023-06-26,58,270-->
 24. [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2023-07-16,73,270!2023-05-10,10,230-->
