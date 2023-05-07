@@ -139,7 +139,7 @@ return await memorize_table(
 4. [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2023-05-31,41,290!2023-06-21,61,310-->
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-06-30,68,310!2023-06-19,60,310-->
 6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-06-30,68,310!2023-07-05,73,310-->
-7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-05-12,23,250!2023-05-07,17,250-->
+7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-05-12,23,250!2023-05-17,10,230-->
 8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-05-10,17,250!2023-05-22,35,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2023-06-14,56,310!2023-06-14,56,310-->
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-06-23,63,310!2023-05-28,39,270-->
@@ -151,9 +151,9 @@ return await memorize_table(
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-05-19,27,230!2023-06-04,45,290-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-05-26,24,250!2023-05-18,26,230-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-06-10,38,230!2023-05-19,32,270-->
-19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-07-06,61,250!2023-05-07,3,170-->
+19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-07-06,61,250!2023-05-13,6,170-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-05-13,28,250!2023-06-21,51,250-->
-21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-05-22,34,270!2023-05-07,16,270-->
+21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-05-22,34,270!2023-06-22,46,270-->
 22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-05-09,10,190!2023-06-30,57,250-->
 23. [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2023-05-21,34,270!2023-05-22,35,270-->
 24. [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2023-05-18,31,270!2023-05-16,10,210-->
