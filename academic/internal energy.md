@@ -1,7 +1,7 @@
 ---
 aliases:
-  - internal energy
   - internal energies
+  - internal energy
 ---
 
 #academic/physics #flashcards/academic/Ii/internal_energy
