@@ -38,7 +38,7 @@ return await memorize_table(
 ```
 %%
 
-The spectral colors have a range of {{[wavelength](wavelength.md) 380–450 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}}. These values are {{approximations as the spectrum is continuous without clear boundaries}}. <!--SR:!2023-05-11,3,250!2023-05-12,4,270-->
+The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}}. These values are {{approximations as the spectrum is continuous without clear boundaries}}. <!--SR:!2023-05-11,3,250!2023-05-12,4,270-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d951"--><!-- The following content is generated at 2023-05-06T22:44:42.685940+08:00. Any edits will be overridden! -->
 
