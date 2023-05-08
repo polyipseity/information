@@ -13,7 +13,7 @@ aliases:
 
 ### empirical formula
 
-Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2023-05-08,27,270-->
+Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2023-07-22,75,270-->
 
 ### molecular formula
 
@@ -31,4 +31,4 @@ Condensed formulas {{can represent simple structures in a line of text}}. [Multi
 
 - See: [skeletal formula](skeletal%20formula.md)
 
-Skeletal formulas {{can represent more complex [organic compounds](organic%20compound.md)}}. In a skeletal formula, {{[carbon](carbon.md) atoms are represented by [vertices](vertx%20(geometry).md) and [hydrogen](hydrogen.md) atoms attached to carbon atoms are omitted}}. <!--SR:!2023-05-20,37,270!2023-05-08,29,255-->
+Skeletal formulas {{can represent more complex [organic compounds](organic%20compound.md)}}. In a skeletal formula, {{[carbon](carbon.md) atoms are represented by [vertices](vertx%20(geometry).md) and [hydrogen](hydrogen.md) atoms attached to carbon atoms are omitted}}. <!--SR:!2023-05-20,37,270!2023-07-21,74,255-->

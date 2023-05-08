@@ -22,9 +22,9 @@ See also [Vim help files](https://vimhelp.org/).
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-07-25,117,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2023-05-10,78,313!2023-05-11,79,313-->
 - beginning of line:::0 <!--SR:!2023-05-09,77,310!2023-05-11,79,313-->
-- end of line:::$ <!--SR:!2023-05-08,76,313!2023-05-10,78,313-->
+- end of line:::$ <!--SR:!2024-04-01,329,333!2023-05-10,78,313-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2023-05-12,80,313-->
-- line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2023-05-08,76,313-->
+- line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2024-01-12,249,313-->
 - matching character:::% <!--SR:!2023-07-23,118,273!2023-09-13,154,293-->
 
 ## write and quit
@@ -34,9 +34,9 @@ See also [Vim help files](https://vimhelp.org/).
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2024-03-27,325,333!2023-05-15,83,328-->
 
 ## insert
-- quit insert mode:::\<Esc\> <!--SR:!2023-05-09,77,313!2023-05-08,76,313-->
+- quit insert mode:::\<Esc\> <!--SR:!2023-05-09,77,313!2024-03-31,328,333-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-10-14,179,293!2023-05-17,85,328-->
-- insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2023-05-08,76,313!2023-10-20,186,308-->
+- insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2024-01-11,248,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2023-05-15,66,253!2023-05-09,77,313-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
@@ -71,7 +71,7 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2023-06-07,84,268-->
-- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-05-08,60,253!2024-03-07,307,333-->
+- substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-10-12,157,253!2024-03-07,307,333-->
 
 ## command
 - show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-05-25,48,208-->

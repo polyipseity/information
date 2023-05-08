@@ -97,7 +97,7 @@ return (
 
 > group I compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}} <!--SR:!2023-06-11,234,210!2023-05-08,63,190-->
+> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}} <!--SR:!2023-06-11,234,210!2023-09-11,126,190-->
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}

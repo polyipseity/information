@@ -19,7 +19,7 @@ aliases:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), ketones have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-05-08,21,270-->
+Due to increased [polarizability](polarizability.md), ketones have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-07-26,79,290-->
 
 ### density
 
