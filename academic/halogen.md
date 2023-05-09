@@ -21,7 +21,7 @@ aliases:
 
 The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-05-25,27,250!2023-06-20,50,250-->
 
-The color darkens as the group is descended. Flourine is {{very pale yellow, chlorine is greenish-yellow, bromine is reddish-brown, and iodine is violet}}. <!--SR:!2023-05-09,2,247-->
+The color darkens as the group is descended. Flourine is {{very pale yellow, chlorine is greenish-yellow, bromine is reddish-brown, and iodine is violet}}. <!--SR:!2023-05-15,6,247-->
 
 ## representative reactions
 
@@ -76,6 +76,6 @@ return await memorize_map(
 2. reacts explosively in light and heat; slowly without::[chlorine](chlorine.md) <!--SR:!2023-05-19,27,230-->
 3. reacts explosively in flames; moderately in light and heat::[bromine](bromine.md) <!--SR:!2023-07-05,73,310-->
 4. reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2023-07-03,71,310-->
-5. unknown::[tennessine](tennessine.md) <!--SR:!2023-05-09,6,250-->
+5. unknown::[tennessine](tennessine.md) <!--SR:!2023-05-25,16,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

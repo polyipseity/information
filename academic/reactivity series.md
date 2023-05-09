@@ -137,7 +137,7 @@ return await memorize_table(
 23. [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2023-06-09,42,250!2023-06-26,58,270-->
 24. [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2023-07-16,73,270!2023-05-10,10,230-->
 25. [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2023-05-12,27,270!2023-06-10,43,250-->
-26. [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2023-05-09,26,270!2023-05-20,32,270-->
+26. [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2023-07-20,72,270!2023-05-20,32,270-->
 27. [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2023-06-21,60,310!2023-06-30,67,310-->
 28. [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2023-06-05,48,290!2023-06-29,67,310-->
 29. [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2023-06-29,67,310!2023-06-18,58,310-->
