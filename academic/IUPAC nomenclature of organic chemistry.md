@@ -455,7 +455,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}} <!--SR:!2023-07-05,173,320!2023-05-09,130,302!2024-04-29,427,362!2023-06-14,166,322!2024-03-05,317,305!2024-04-02,406,367-->
+> - infix: {{(locant)}} <!--SR:!2023-07-05,173,320!2024-11-03,544,322!2024-04-29,427,362!2023-06-14,166,322!2024-03-05,317,305!2024-04-02,406,367-->
 
 > {{carboxylate}}
 > - group: {{carboxylate}}
@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2023-05-09,111,261!2024-02-02,295,302!2024-05-25,452,362!2023-05-10,110,242!2023-06-14,45,227!2024-04-22,424,367-->
+> - infix: {{(locant)}} <!--SR:!2024-06-17,405,281!2024-02-02,295,302!2024-05-25,452,362!2023-05-10,110,242!2023-06-14,45,227!2024-04-22,424,367-->
 
 > {{amine}}
 > - group: {{amino}}

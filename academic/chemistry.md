@@ -8,4 +8,4 @@ aliases:
 
 # chemistry
 
-__Chemistry__ is the study of {{compositions, structures, properties, and changes of substances}}. <!--SR:!2023-05-09,22,230-->
+__Chemistry__ is the study of {{compositions, structures, properties, and changes of substances}}. <!--SR:!2023-07-02,54,230-->
