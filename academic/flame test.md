@@ -11,7 +11,7 @@
 
 ## procedure
 
-The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below: <!--SR:!2023-05-09,20,270-->
+The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below: <!--SR:!2023-07-06,58,270-->
 
 %%
 ```Python
@@ -92,7 +92,7 @@ return await memorize_map(
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-05-15,27,270-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-06-12,51,290-->
 7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-06-13,44,250-->
-8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-09,26,250-->
+8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-24,15,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
