@@ -6,9 +6,10 @@
   "focusOnNewInstance": true,
   "hideStatusBar": "focused",
   "language": "",
-  "lastReadChangelogVersion": "3.8.0",
+  "lastReadChangelogVersion": "3.9.0",
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
