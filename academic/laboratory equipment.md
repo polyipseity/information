@@ -140,7 +140,7 @@ return await memorize_table(
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-06-30,68,310!2023-06-19,60,310-->
 6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-06-30,68,310!2023-07-05,73,310-->
 7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-05-12,23,250!2023-05-17,10,230-->
-8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-05-10,17,250!2023-05-22,35,270-->
+8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-05-21,11,230!2023-05-22,35,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2023-06-14,56,310!2023-06-14,56,310-->
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-06-23,63,310!2023-05-28,39,270-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-08-08,91,270!2023-07-02,70,310-->
@@ -167,7 +167,7 @@ return await memorize_table(
 32. [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2023-07-05,73,310!2023-07-03,71,310-->
 33. [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2023-06-11,50,290!2023-06-26,65,310-->
 34. [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2023-05-19,32,270!2023-06-10,49,290-->
-35. [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2023-05-10,26,250!2023-06-01,45,290-->
+35. [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2023-07-18,69,250!2023-06-01,45,290-->
 36. [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2023-07-15,74,270!2023-05-22,38,290-->
 37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-05-16,31,270!2023-05-30,41,290-->
 38. [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2023-05-14,29,270!2023-05-16,31,270-->

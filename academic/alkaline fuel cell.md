@@ -16,7 +16,7 @@ aliases:
 
 # alkaline fuel cell
 
-The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2023-05-10,21,250!2023-06-28,68,312-->
+The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2023-05-23,13,230!2023-06-28,68,312-->
 
 ## chemistry
 
@@ -62,7 +62,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-04-01T12:33:20.432311+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-06-05,49,292!2023-05-31,46,292-->
-2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-05-10,27,252!2023-06-29,69,312-->
+2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-05-26,16,232!2023-06-29,69,312-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-05-25,39,270!2023-05-19,32,252-->
 4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-05-27,43,292!2023-05-11,28,252-->
 5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-06-08,41,230!2023-06-06,51,292-->
