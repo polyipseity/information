@@ -116,7 +116,7 @@ return await memorize_table(
 2. [caesium](caesium.md)→:::←[rubidium](rubidium.md) <!--SR:!2023-06-08,41,250!2023-05-29,33,250-->
 3. [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2023-07-04,59,250!2023-06-11,44,250-->
 4. [potassium](potassium.md)→:::←[sodium](sodium.md) <!--SR:!2023-07-10,69,270!2023-06-28,66,310-->
-5. [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2023-05-11,26,270!2023-08-13,97,290-->
+5. [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2023-07-24,74,270!2023-08-13,97,290-->
 6. [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2023-06-01,24,230!2023-05-21,33,270-->
 7. [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2023-06-26,52,250!2023-05-31,38,250-->
 8. [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2023-06-03,26,230!2023-05-14,12,250-->
