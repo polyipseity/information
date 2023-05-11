@@ -7,4 +7,4 @@ aliases:
 
 # chemical change
 
-__Chemical changes__ are {{changes in which new [substances](chemical%20substance.md) are formed}}. They contrast with [physical changes](physical%20change.md). <!--SR:!2023-05-11,12,230-->
+__Chemical changes__ are {{changes in which new [substances](chemical%20substance.md) are formed}}. They contrast with [physical changes](physical%20change.md). <!--SR:!2023-06-22,42,250-->

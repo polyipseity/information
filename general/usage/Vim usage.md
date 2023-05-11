@@ -20,8 +20,8 @@ See also [Vim help files](https://vimhelp.org/).
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-07-25,117,288-->
-- end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2023-05-11,79,313-->
-- beginning of line:::0 <!--SR:!2024-04-03,330,330!2023-05-11,79,313-->
+- end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2024-04-25,350,333-->
+- beginning of line:::0 <!--SR:!2024-04-03,330,330!2024-04-24,349,333-->
 - end of line:::$ <!--SR:!2024-04-01,329,333!2024-04-22,348,333-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2023-05-12,80,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2024-01-12,249,313-->
@@ -57,7 +57,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## edit
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-05-14,82,327!2023-10-10,179,308-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-05-13,81,310!2023-05-13,81,313-->
-- delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2023-05-11,79,313!2023-10-19,187,308-->
+- delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2023-10-19,187,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2024-01-19,254,313-->
 - restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-10-22,199,308-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
