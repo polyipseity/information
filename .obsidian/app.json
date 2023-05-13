@@ -61,5 +61,6 @@
     "/__pycache__/",
     "/attachments/.*$(?<!.md)/"
   ],
-  "focusNewTab": false
+  "focusNewTab": false,
+  "readableLineLength": false
 }
