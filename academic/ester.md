@@ -23,7 +23,7 @@ Due to increased [polarizability](polarizability.md), esters have {{[boiling poi
 
 ### density
 
-Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrease}} with increasing size. <!--SR:!2023-05-12,22,230!2023-07-11,62,250-->
+Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrease}} with increasing size. <!--SR:!2023-07-10,57,230!2023-07-11,62,250-->
 
 ### odor
 
@@ -31,7 +31,7 @@ Most esters have {{a pleasant fruity smell}}. <!--SR:!2023-06-02,44,290-->
 
 ### solubility
 
-Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-05-12,25,270!2023-07-07,73,310-->
+Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-08-29,107,290!2023-07-07,73,310-->
 
 ## chemical properties
 

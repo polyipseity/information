@@ -267,7 +267,7 @@ return chain.from_iterable(await gather(
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2024-01-31,376,310-->
 5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
-7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2023-05-14,328,293-->
+7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2027-01-08,1335,313-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2024-03-08,336,247!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2028-01-19,1745,374-->
 10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-08-05,202,230!2025-02-15,770,294-->
@@ -470,7 +470,7 @@ return chain.from_iterable(await gather(
 3. chloride ion::colorless <!--SR:!2024-06-23,612,314-->
 4. bromide ion::colorless <!--SR:!2023-08-21,364,259-->
 5. iodide ion::colorless <!--SR:!2023-11-30,465,307-->
-6. hydroxide ion::colorless <!--SR:!2023-05-12,130,307-->
+6. hydroxide ion::colorless <!--SR:!2024-06-20,403,307-->
 7. nitrate ion::colorless <!--SR:!2023-12-01,466,299-->
 8. nitrite ion::_(n/a)_ <!--SR:!2023-08-15,184,276-->
 9. hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->

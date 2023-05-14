@@ -16,7 +16,7 @@ aliases:
 
 # alkane
 
-An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2023-05-12,34,270-->
+An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2023-10-02,141,290-->
 
 ## physical properties
 
@@ -63,13 +63,13 @@ return await memorize_table(
 > |-|-|
 > | {{[combustion](#combustion)}} |  |
 > | {{[cracking](#cracking)}} |  |
-> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-06-18,54,298!2023-07-12,74,318!2023-07-03,66,318!2023-05-12,4,297-->
+> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2023-06-18,54,298!2023-07-12,74,318!2023-07-03,66,318!2023-06-10,27,317-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-05-07T22:54:11.286935+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-05-12,4,297!2023-05-12,4,297-->
+1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-06-09,26,317!2023-06-11,28,317-->
 2. [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2023-06-28,52,258!2023-07-04,67,318-->
 3. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-07-10,72,318!2023-07-02,65,318-->
 4. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2023-06-18,54,298!2023-07-01,64,318-->

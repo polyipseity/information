@@ -85,7 +85,7 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-04-23T13:13:45.541144+08:00. Any edits will be overridden! -->
 
-1. [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-13,26,270-->
+1. [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-07-26,73,270-->
 2. [copper](copper.md)(I)::blue-green <!--SR:!2023-05-15,22,210-->
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2023-05-31,32,230-->
 4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-05-15,26,250-->

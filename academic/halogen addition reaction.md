@@ -8,4 +8,4 @@ aliases:
 
 # halogen addition reaction
 
-A __halogen addition reaction__ is {{an [addition reaction](addition%20reaction.md) in which a [halogen](halogen.md) [molecule](molecule.md) is attached to [carbon](carbon.md)–carbon [double bonds](double%20bond.md) of an [alkene](alkene.md)}}. The halogen may be dissolved in {{an organic [solvent](solvent.md) or [water](water.md)}}. <!--SR:!2023-05-13,28,250!2023-06-11,53,290-->
+A __halogen addition reaction__ is {{an [addition reaction](addition%20reaction.md) in which a [halogen](halogen.md) [molecule](molecule.md) is attached to [carbon](carbon.md)–carbon [double bonds](double%20bond.md) of an [alkene](alkene.md)}}. The halogen may be dissolved in {{an organic [solvent](solvent.md) or [water](water.md)}}. <!--SR:!2023-07-27,74,250!2023-06-11,53,290-->
