@@ -16,21 +16,21 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2023-05-15,83,328!2023-08-26,143,288-->
-- down:::\[[repeat N](#^repeatN)\]j <!--SR:!2023-05-12,80,313!2023-10-15,182,308-->
+- down:::\[[repeat N](#^repeatN)\]j <!--SR:!2024-05-09,361,333!2023-10-15,182,308-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
-- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-05-14,65,253!2023-07-25,117,288-->
+- before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-12-31,231,273!2023-07-25,117,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2024-04-25,350,333-->
 - beginning of line:::0 <!--SR:!2024-04-03,330,330!2024-04-24,349,333-->
 - end of line:::$ <!--SR:!2024-04-01,329,333!2024-04-22,348,333-->
-- line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2023-05-12,80,313-->
+- line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2024-01-28,259,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2024-01-12,249,313-->
 - matching character:::% <!--SR:!2023-07-23,118,273!2023-09-13,154,293-->
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2024-03-06,306,333!2023-10-23,200,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2024-03-21,320,333!2023-10-03,172,293-->
-- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2023-05-14,82,328-->
+- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2024-05-27,379,348-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2024-03-27,325,333!2023-05-15,83,328-->
 
 ## insert
@@ -44,7 +44,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2024-03-22,321,333!2023-05-17,85,328-->
-- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-07-17,113,273!2023-05-13,81,313-->
+- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-07-17,113,273!2024-02-01,263,313-->
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-12-06,237,313-->
 
 ## visual
@@ -55,19 +55,19 @@ See also [Vim help files](https://vimhelp.org/).
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->
 
 ## edit
-- delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2023-05-14,82,327!2023-10-10,179,308-->
-- delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2023-05-13,81,310!2023-05-13,81,313-->
+- delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2024-05-28,380,347!2023-10-10,179,308-->
+- delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2024-05-11,363,330!2024-05-10,362,333-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2023-10-19,187,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2024-01-19,254,313-->
-- restore last changed line:::U <!--SR:!2023-05-12,80,313!2023-10-22,199,308-->
+- restore last changed line:::U <!--SR:!2024-02-02,264,313!2023-10-22,199,308-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
-- paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2023-05-14,82,328-->
+- paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2024-05-29,381,348-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2024-01-13,249,313!2023-10-17,183,307-->
 
 ## search and substitute
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2023-06-18,98,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-08-02,90,230!2023-10-18,184,308-->
-- repeat last search:::n <!--SR:!2023-05-13,81,313!2023-10-11,180,308-->
+- repeat last search:::n <!--SR:!2024-01-29,260,313!2023-10-11,180,308-->
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2023-06-07,84,268-->
@@ -80,7 +80,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-08-16,125,293!2023-05-17,85,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2023-06-26,66,268-->
-- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-05-12,31,273!2023-05-12,80,313-->
+- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-08-09,87,273!2024-05-12,364,333-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2023-09-25,166,293-->
 
 ### list of options

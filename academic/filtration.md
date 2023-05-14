@@ -8,4 +8,4 @@ __Filtration__ is {{a physical [separation process](separation%20process.md) tha
 
 A filter medium is {{a material used to separate}}. <!--SR:!2023-06-03,47,290-->
 
-There are two main types of filter media: {{_surface filter_, a solid [sieve](sieve.md) that traps the solid with or without [filter paper](filter%20paper.md)}}, and {{_depth filter_, a bed of granular material retaining the solid as they pass through}}. <!--SR:!2023-05-19,31,270!2023-05-14,30,270-->
+There are two main types of filter media: {{_surface filter_, a solid [sieve](sieve.md) that traps the solid with or without [filter paper](filter%20paper.md)}}, and {{_depth filter_, a bed of granular material retaining the solid as they pass through}}. <!--SR:!2023-05-19,31,270!2023-05-31,17,250-->

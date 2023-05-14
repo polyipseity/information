@@ -21,7 +21,7 @@ aliases:
 
 # Kepler's laws of planetary motion
 
-The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that: <!--SR:!2023-05-12,4,270-->
+The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that: <!--SR:!2023-05-30,16,270-->
 
 %%
 ```Python
@@ -48,9 +48,9 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45ba"--><!-- The following content is generated at 2023-05-08T00:49:20.955735+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$ <!--SR:!2023-05-21,10,250!2023-05-12,4,270-->
-2. The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$→:::←A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$ <!--SR:!2023-05-12,4,270!2023-05-12,4,270-->
-3. A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$→:::←The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{GM}a^3$ <!--SR:!2023-05-12,4,270!2023-05-12,4,270-->
-4. The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{GM}a^3$→:::←_(end)_ <!--SR:!2023-05-12,4,270!2023-05-12,4,270-->
+1. _(begin)_→:::←The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$ <!--SR:!2023-05-21,10,250!2023-06-05,22,290-->
+2. The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$→:::←A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$ <!--SR:!2023-05-29,15,270!2023-05-29,15,270-->
+3. A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$→:::←The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{GM}a^3$ <!--SR:!2023-05-27,13,270!2023-05-28,14,270-->
+4. The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{GM}a^3$→:::←_(end)_ <!--SR:!2023-06-04,21,290!2023-05-16,2,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

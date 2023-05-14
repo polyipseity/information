@@ -20,7 +20,7 @@ The __Haber process__ or __Haber–Bosch process__ is {{the main industrial proc
 The primary reaction is:
 
 > primary reaction
-> - {{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=+91.8\ \text{kJ mol}^{-1}$}} <!--SR:!2023-05-14,8,250-->
+> - {{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=+91.8\ \text{kJ mol}^{-1}$}} <!--SR:!2023-05-18,4,230-->
 
 ## process
 
@@ -78,7 +78,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#cadaeb" title="#CADAEB">&#xFEFF;</span></span> washing tower
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#f2c500" title="#F2C500">&#xFEFF;</span></span> ammonia reactor
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#4d94e1" title="#4D94E1">&#xFEFF;</span></span> heat exchanger
-> - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#fffc51" title="#FFFC51">&#xFEFF;</span></span> ammonia condenser <!--SR:!2023-05-12,6,230-->
+> - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#fffc51" title="#FFFC51">&#xFEFF;</span></span> ammonia condenser <!--SR:!2023-06-01,18,230-->
 
 %%
 ```Python
@@ -117,11 +117,11 @@ return await memorize_seq(
 
 1. _(large scale implementation of the Haber process)_→:::←Purify and dry [syngas](syngas.md) in purifiers and driers. <!--SR:!2023-05-22,15,290!2023-05-22,15,290-->
 2. Purify and dry [syngas](syngas.md) in purifiers and driers.→:::←Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume. <!--SR:!2023-05-23,16,290!2023-05-24,17,290-->
-3. Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.→:::←The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md). <!--SR:!2023-05-14,6,230!2023-05-24,17,290-->
+3. Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.→:::←The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md). <!--SR:!2023-05-27,13,230!2023-05-24,17,290-->
 4. The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).→:::←The gas mixture is preheated in [heat exchangers](heat%20exchanger.md). <!--SR:!2023-05-20,13,270!2023-05-17,10,250-->
 5. The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).→:::←The gas mixture enters catalytic chambers for reaction. <!--SR:!2023-05-22,15,290!2023-05-24,17,290-->
 6. The gas mixture enters catalytic chambers for reaction.→:::←The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams. <!--SR:!2023-05-15,9,250!2023-05-24,17,290-->
 7. The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams.→:::←The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md). <!--SR:!2023-05-16,10,250!2023-05-16,10,250-->
-8. The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md).→:::←_(large scale implementation of the Haber process)_ <!--SR:!2023-05-23,16,290!2023-05-12,6,230-->
+8. The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md).→:::←_(large scale implementation of the Haber process)_ <!--SR:!2023-05-23,16,290!2023-05-31,17,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -25,7 +25,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {{certain orbits only with certain distances from the nucleus called stationary orbits}} {{without radiating energy}}. ^23e80f
 2. The stationary orbits have distances {{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e}vr=n\hbar$}}, where {{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}}. The orbits have definite energies called {{[energy levels](energy%20level.md), energy shells, or energy states}}. ^f5a73f
-3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-06-05,100,230!2023-05-13,97,270!2023-06-15,43,210!2023-07-05,134,270!2023-07-03,132,270!2023-09-04,129,232!2023-09-20,211,312!2023-06-18,115,252!2024-03-24,361,332-->
+3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-06-05,100,230!2023-07-06,53,250!2023-06-15,43,210!2023-07-05,134,270!2023-07-03,132,270!2023-09-04,129,232!2023-09-20,211,312!2023-06-18,115,252!2024-03-24,361,332-->
 
 ## electron energy levels
 
@@ -80,16 +80,16 @@ The Bohr model fails to explain:
 > | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
 > | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
 > | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-05-12,4,284!2023-05-12,4,284!2023-05-12,4,284!2023-05-12,4,284-->
+> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-06-10,27,304!2023-06-10,27,304!2023-05-30,16,284!2023-05-29,15,284-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2023-05-07T09:39:21.519162+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2023-05-12,4,284!2023-05-12,4,284-->
-2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2023-05-12,4,284!2023-05-12,4,284-->
-3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-05-21,10,264!2023-05-12,4,284-->
+1. _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2023-05-28,14,284!2023-06-10,27,304-->
+2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2023-05-29,15,284!2023-05-30,16,284-->
+3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-05-21,10,264!2023-05-16,2,264-->
 4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-05-21,10,264!2023-05-20,9,264-->
-5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2023-05-12,4,284!2023-05-12,4,284-->
+5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2023-06-09,26,304!2023-06-07,24,304-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

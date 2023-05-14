@@ -19,7 +19,7 @@ aliases:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md), alcohols have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}. <!--SR:!2023-05-14,27,270-->
+Due to [hydrogen bonding](hydrogen%20bond.md), alcohols have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}. <!--SR:!2023-08-29,107,290-->
 
 ### density
 
@@ -79,7 +79,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2023-04-06T10:09:50.047710+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-05-17,26,255!2023-07-12,74,320-->
-2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-05-13,23,255!2023-06-21,53,300-->
+2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-16,63,255!2023-06-21,53,300-->
 3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-05-29,36,275!2023-07-18,79,320-->
 4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2023-07-11,73,315!2023-07-10,72,315-->
 
