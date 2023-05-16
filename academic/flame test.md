@@ -86,10 +86,10 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-04-23T13:13:45.541144+08:00. Any edits will be overridden! -->
 
 1. [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-07-26,73,270-->
-2. [copper](copper.md)(I)::blue-green <!--SR:!2023-05-15,22,210-->
+2. [copper](copper.md)(I)::blue-green <!--SR:!2023-07-04,49,210-->
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2023-05-31,32,230-->
-4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-05-15,26,250-->
-5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-05-15,27,270-->
+4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-07-21,66,250-->
+5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-07-29,74,270-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-06-12,51,290-->
 7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-06-13,44,250-->
 8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-24,15,230-->
@@ -99,7 +99,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2023-04-23T13:13:45.573910+08:00. Any edits will be overridden! -->
 
 1. brick red::[calcium](calcium.md) <!--SR:!2023-06-14,53,290-->
-2. light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2023-05-16,27,250-->
+2. light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2023-07-26,71,250-->
 3. blue-green::[copper](copper.md)(I) <!--SR:!2023-06-14,50,290-->
 4. green (non-halide)::[copper](copper.md)(II) <!--SR:!2023-07-23,74,270-->
 5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2023-05-17,32,270-->

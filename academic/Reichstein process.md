@@ -14,7 +14,7 @@ aliases:
 
 # Reichstein process
 
-The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}}. The yield is {{about 60%}}. <!--SR:!2023-05-16,12,270!2023-05-21,17,290-->
+The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}}. The yield is {{about 60%}}. <!--SR:!2023-06-18,33,270!2023-05-21,17,290-->
 
 ## steps
 
@@ -57,7 +57,7 @@ return await memorize_seq(
 2. [hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md)→:::←microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C <!--SR:!2023-06-25,42,270!2023-06-06,23,250-->
 3. microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C→:::←[protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md) <!--SR:!2023-05-18,10,210!2023-05-24,14,230-->
 4. [protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md)→:::←[organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid <!--SR:!2023-06-02,22,250!2023-06-11,28,250-->
-5. [organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid→:::←ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md) <!--SR:!2023-06-03,23,250!2023-05-15,7,210-->
+5. [organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid→:::←ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md) <!--SR:!2023-06-03,23,250!2023-06-01,16,210-->
 6. ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)→:::←purification of [ʟ-ascorbic acid](vitamin%20C.md) <!--SR:!2023-05-20,16,290!2023-05-17,13,270-->
 7. purification of [ʟ-ascorbic acid](vitamin%20C.md)→:::←_(end)_ <!--SR:!2023-05-18,14,290!2023-06-15,32,290-->
 

@@ -15,7 +15,7 @@ aliases:
 
 # primary standard
 
-A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2023-05-15,31,270-->
+A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2023-08-13,89,270-->
 
 ## chemistry
 
