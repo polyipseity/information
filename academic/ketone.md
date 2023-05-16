@@ -23,7 +23,7 @@ Due to increased [polarizability](polarizability.md), ketones have {{[boiling po
 
 ### density
 
-Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-05-16,25,230!2023-07-07,73,310-->
+Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2023-08-05,81,250!2023-07-07,73,310-->
 
 ### odor
 

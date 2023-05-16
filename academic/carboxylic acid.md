@@ -19,11 +19,11 @@ aliases:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-05-15,28,270!2023-06-17,53,290!2023-05-25,38,290-->
+Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-09-07,114,290!2023-06-17,53,290!2023-05-25,38,290-->
 
 ### density
 
-Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-05-16,15,170!2023-07-21,68,250-->
+Carboxylic acids are {{less [dense](density.md) than [water](water.md) except for [formic acid](formic%20acid.md) and [acetic acid](acetic%20acid.md)}}. Density {{decreases}} with increasing size. <!--SR:!2023-06-26,41,190!2023-07-21,68,250-->
 
 ### odor
 

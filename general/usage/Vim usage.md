@@ -18,7 +18,7 @@ See also [Vim help files](https://vimhelp.org/).
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2024-06-10,392,348!2023-08-26,143,288-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2024-05-09,361,333!2023-10-15,182,308-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
-- right:::\[[repeat N](#^repeatN)\]l <!--SR:!2023-05-16,84,328!2023-05-16,84,328-->
+- right:::\[[repeat N](#^repeatN)\]l <!--SR:!2024-02-15,275,328!2024-02-16,276,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-12-31,231,273!2023-07-25,117,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2024-04-25,350,333-->
 - beginning of line:::0 <!--SR:!2024-04-03,330,330!2024-04-24,349,333-->
@@ -48,7 +48,7 @@ See also [Vim help files](https://vimhelp.org/).
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-12-06,237,313-->
 
 ## visual
-- exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2023-05-16,84,328-->
+- exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2023-05-17,85,328!2024-06-15,396,348-->
 - highlight characters:::v <!--SR:!2023-11-07,214,328!2023-10-23,188,308-->
 - highlight lines:::V <!--SR:!2023-06-24,103,273!2023-06-22,61,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2023-05-30,76,253!2024-05-24,375,348-->
@@ -60,7 +60,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2023-10-19,187,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2024-01-19,254,313-->
 - restore last changed line:::U <!--SR:!2024-02-02,264,313!2023-10-22,199,308-->
-- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2023-05-16,84,328-->
+- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2024-02-21,281,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2024-05-29,381,348-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2024-01-13,249,313!2023-10-17,183,307-->
 

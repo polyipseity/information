@@ -20,8 +20,8 @@ Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by
 
 Dilute sulfuric acid {{oxidizes reactive [metals](metal.md) to form metal [sulfates](sulfate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-06-25,53,270-->
 
-Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxide](sulfur%20dioxide.md)}}. <!--SR:!2023-05-13,22,230-->
+Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxide](sulfur%20dioxide.md)}}. <!--SR:!2023-07-13,58,230-->
 
 ### reactions with nonmetals
 
-Hot concentrated sulfuric acid {{oxidizes [carbon](carbon.md) to [carbon dioxide](carbon%20dioxide.md) and [sulfur](sulfur.md) to [sulfur dioxide](sulfur%20dioxide.md)}}. All of above produces sulfur dioxide as well. <!--SR:!2023-05-15,28,270-->
+Hot concentrated sulfuric acid {{oxidizes [carbon](carbon.md) to [carbon dioxide](carbon%20dioxide.md) and [sulfur](sulfur.md) to [sulfur dioxide](sulfur%20dioxide.md)}}. All of above produces sulfur dioxide as well. <!--SR:!2023-07-31,76,270-->

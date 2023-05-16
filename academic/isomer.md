@@ -13,7 +13,7 @@ In [chemistry](chemistry.md), __isomers__ are {{[molecules](molecule.md) or [pol
 
 ## structural isomer
 
-__Structural isomers__ have {{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}}. They can be further categorized into {{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}}. The first two have {{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}}. The last one has {{very different chemical and physical properties}}. <!--SR:!2023-05-22,32,270!2023-05-15,25,270!2023-06-04,39,270!2023-06-03,38,270-->
+__Structural isomers__ have {{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}}. They can be further categorized into {{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}}. The first two have {{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}}. The last one has {{very different chemical and physical properties}}. <!--SR:!2023-05-22,32,270!2023-08-24,100,290!2023-06-04,39,270!2023-06-03,38,270-->
 
 ## stereoisomers
 
@@ -21,7 +21,7 @@ __Stereoisomers__ have {{the same [bonding](chemical%20bond.md) of [atoms](atom.
 
 ### _cis_–_trans_ isomers
 
-_Cis_–_trans_ isomers have {{different [polarities](chemical%20polarity.md), which affects [boiling points](boiling%20point.md) more, and different packing efficiencies, which affects [melting points](melting%20point.md) more}}. <!--SR:!2023-05-15,24,250-->
+_Cis_–_trans_ isomers have {{different [polarities](chemical%20polarity.md), which affects [boiling points](boiling%20point.md) more, and different packing efficiencies, which affects [melting points](melting%20point.md) more}}. <!--SR:!2023-07-19,64,250-->
 
 ### enantiomers
 

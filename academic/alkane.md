@@ -28,7 +28,7 @@ Alkanes are {{[unreactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-07-19,70
 
 ### combustion
 
-All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2023-05-19,37,270!2023-06-13,60,310!2023-05-15,36,270-->
+All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2023-05-19,37,270!2023-06-13,60,310!2023-10-05,142,290-->
 
 ### halogenation
 
