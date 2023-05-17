@@ -44,7 +44,7 @@ return await memorize_table(
 
 > | use | description |
 > |-|-|
-> | {{[flue-gas desulfurization](flue-gas%20desulfurization.md)}} | {{[Solid](solid.md) sparys or slurries of CaO can remove [SO<sub>2</sub>](sulfur%20dioxide.md) from exhaust streams.}} | <!--SR:!2023-07-17,78,321!2023-05-17,26,261-->
+> | {{[flue-gas desulfurization](flue-gas%20desulfurization.md)}} | {{[Solid](solid.md) sparys or slurries of CaO can remove [SO<sub>2</sub>](sulfur%20dioxide.md) from exhaust streams.}} | <!--SR:!2023-07-17,78,321!2023-07-27,71,261-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
