@@ -57,9 +57,10 @@
   ],
   "mobilePullAction": "command-palette:open",
   "userIgnoreFilters": [
-    "tools/",
+    "/^\\.[^/]*/.*$/",
+    "/attachments/.*$(?<!.md)/",
     "/__pycache__/",
-    "/attachments/.*$(?<!.md)/"
+    "tools/"
   ],
   "focusNewTab": false,
   "readableLineLength": false
