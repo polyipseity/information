@@ -196,7 +196,7 @@ return (
 > | O | S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> | ⇌ | 2SO<sub>4</sub><sup>2-</sup>(aq) | 2.01 | 2 |  |
 > | F | F<sub>2</sub>(g) + 2e<sup>-</sup> | ⇌ | 2F<sup>-</sup>(aq) | 2.87 | 2 |  |
 >
-> (highest oxidizing power/lowest reducing power) <!--SR:!2023-05-19,32,276!2023-09-16,123,296!2023-06-24,53,256!2023-05-24,39,296!2023-05-21,34,276!2023-05-25,37,276!2023-05-17,30,276!2023-05-20,33,276!2023-06-01,37,281-->
+> (highest oxidizing power/lowest reducing power) <!--SR:!2023-05-19,32,276!2023-09-16,123,296!2023-06-24,53,256!2023-05-24,39,296!2023-05-21,34,276!2023-05-25,37,276!2023-08-11,86,276!2023-05-20,33,276!2023-06-01,37,281-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -228,7 +228,7 @@ return (
 22. O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq)::0.401 <!--SR:!2023-06-26,64,190-->
 23. SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l)::0.5 <!--SR:!2023-06-04,19,158-->
 24. CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l)::0.52 <!--SR:!2023-06-16,36,210-->
-25. I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup> ⇌ 3I<sup>-</sup>(aq)::0.53 <!--SR:!2023-05-17,35,199-->
+25. I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup> ⇌ 3I<sup>-</sup>(aq)::0.53 <!--SR:!2023-07-28,72,199-->
 26. I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq)::0.54 <!--SR:!2023-05-21,23,130-->
 27. S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l)::0.6 <!--SR:!2023-06-05,20,158-->
 28. Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq)::0.77 <!--SR:!2023-05-25,181,190-->

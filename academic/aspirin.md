@@ -19,7 +19,7 @@ aliases:
 
 > {{![skeletal formula of aspirin](../attachments/Aspirin-skeletal.svg)}}
 >
-> {{[skeletal formula](skeletal%20formula.md) of aspirin}} <!--SR:!2023-05-17,17,250!2023-07-19,79,324-->
+> {{[skeletal formula](skeletal%20formula.md) of aspirin}} <!--SR:!2023-05-27,10,230!2023-07-19,79,324-->
 
 ## medical use
 

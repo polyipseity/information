@@ -18,7 +18,7 @@ aliases:
 
 ### nomenclature
 
-One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2023-05-17,25,250-->
+One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2023-07-23,67,250-->
 
 Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-06-20,50,250-->
 
@@ -70,8 +70,8 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 1. _(begin)_→:::←dyeable <!--SR:!2023-06-24,44,290!2023-07-08,64,270-->
 2. dyeable→:::←elastic <!--SR:!2023-08-11,87,270!2023-06-22,53,290-->
 3. elastic→:::←high tensile strength <!--SR:!2023-06-08,36,230!2023-05-27,31,270-->
-4. high tensile strength→:::←oil-proof <!--SR:!2023-05-17,6,170!2023-06-16,41,230-->
-5. oil-proof→:::←smooth <!--SR:!2023-05-17,26,250!2023-06-14,29,210-->
+4. high tensile strength→:::←oil-proof <!--SR:!2023-05-28,11,170!2023-06-16,41,230-->
+5. oil-proof→:::←smooth <!--SR:!2023-07-25,69,250!2023-06-14,29,210-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2023-07-08,69,310!2023-07-15,62,250-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2023-07-02,64,310!2023-05-28,32,270-->
 8. [tough](toughness.md)→:::←washable <!--SR:!2023-07-03,65,310!2023-05-23,17,210-->

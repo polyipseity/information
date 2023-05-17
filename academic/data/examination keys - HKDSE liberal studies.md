@@ -67,7 +67,7 @@ return await memorize_table(
 8. post hoc→:::←self-contradiction <!--SR:!2023-05-19,13,235!2023-07-19,64,295-->
 9. self-contradiction→:::←virtue by association <!--SR:!2023-06-13,34,275!2023-06-28,43,270-->
 10. virtue by association→:::←weak analogies <!--SR:!2023-07-20,65,295!2023-06-14,34,275-->
-11. weak analogies→:::←_(end)_ <!--SR:!2023-05-17,17,290!2023-07-15,60,295-->
+11. weak analogies→:::←_(end)_ <!--SR:!2023-07-29,73,310!2023-07-15,60,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -116,7 +116,7 @@ return await memorize_table(
 4. impact/problem→:::←phenomenon <!--SR:!2023-05-24,16,235!2023-05-30,14,195-->
 5. phenomenon→:::←solution <!--SR:!2023-06-08,29,255!2023-06-06,27,250-->
 6. solution→:::←value judgement <!--SR:!2023-07-23,68,295!2023-05-26,17,250-->
-7. value judgement→:::←_(end)_ <!--SR:!2023-05-17,17,290!2023-06-02,25,255-->
+7. value judgement→:::←_(end)_ <!--SR:!2023-07-26,70,310!2023-06-02,25,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -222,7 +222,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 6. feasibilities→:::←pattern <!--SR:!2023-05-22,14,230!2023-05-18,2,135-->
 7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-05-30,23,255-->
 8. trend→:::←with reference to <!--SR:!2023-05-25,16,250!2023-05-31,15,230-->
-9. with reference to→:::←_(end)_ <!--SR:!2023-05-17,17,290!2023-07-19,64,295-->
+9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -311,12 +311,12 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2023-04-26T19:16:21.053434+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-05-17,6,255!2023-07-16,61,295-->
+1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-05-20,3,235!2023-07-16,61,295-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2023-07-21,66,290!2023-07-16,61,295-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-05-28,20,255!2023-06-16,37,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-06-16,38,270!2023-06-07,29,255-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-06-28,43,275!2023-06-17,38,270-->
-6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-05-17,17,290!2023-07-15,60,295-->
+6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-28,72,310!2023-07-15,60,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
