@@ -1,0 +1,15 @@
+{
+  "pluginList": [
+    "polyipseity/obsidian-show-dotfiles"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": true,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}

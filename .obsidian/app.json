@@ -59,7 +59,8 @@
   "userIgnoreFilters": [
     "tools/",
     "/__pycache__/",
-    "/attachments/.*$(?<!.md)/"
+    "/attachments/.*$(?<!.md)/",
+    "/^\\.[^/]*/.*$/"
   ],
   "focusNewTab": false,
   "readableLineLength": false
