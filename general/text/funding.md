@@ -2,7 +2,7 @@
 aliases: []
 ---
 
-#general/text
+#general/text #functional/text
 
 # funding
 
