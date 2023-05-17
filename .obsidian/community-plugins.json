@@ -1,7 +1,9 @@
 [
   "obsidian-charts",
-  "obsidian-spaced-repetition",
-  "terminal",
+  "obsidian-git",
   "obsidian-rtl",
-  "obsidian-git"
+  "obsidian-spaced-repetition",
+  "obsidian42-brat",
+  "show-dotfiles",
+  "terminal"
 ]
