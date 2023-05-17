@@ -2,6 +2,8 @@
 aliases: []
 ---
 
+#general/text #functional/text
+
 # tracker
 
 ## mobile number

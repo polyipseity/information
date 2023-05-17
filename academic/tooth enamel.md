@@ -8,4 +8,4 @@ aliases:
 
 # tooth enamel
 
-A __tooth enamel__ is {{a [tissue](tissue%20(biology).md) making up the visible part of the [tooth](tooth.md), covering the [crown](crown%20(tooth).md)}}. <!--SR:!2023-05-23,6,230-->
+A {{__tooth enamel__}} is {{a [tissue](tissue%20(biology).md) making up the visible part of the [tooth](tooth.md), covering the [crown](crown%20(tooth).md)}}. <!--SR:!2023-05-23,6,230-->
