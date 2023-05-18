@@ -454,7 +454,7 @@ return chain.from_iterable(await gather(
 16. sulfite ion::2- <!--SR:!2024-12-20,695,279-->
 17. carbonate ion::2- <!--SR:!2024-02-10,478,270-->
 18. chromate ion::2- <!--SR:!2024-09-12,631,279-->
-19. dichromate ion::2- <!--SR:!2023-05-18,328,290-->
+19. dichromate ion::2- <!--SR:!2026-12-30,1322,310-->
 20. nitride ion::3- <!--SR:!2023-05-22,331,290-->
 21. phosphate ion::3- <!--SR:!2023-10-02,275,210-->
 22. manganate ion::2- <!--SR:!2023-07-25,85,362-->

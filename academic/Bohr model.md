@@ -38,7 +38,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-09-07,183,294!2023-09-30,198,294!2023-05-23,42,254!2023-07-04,133,294!2023-06-03,107,274!2023-07-17,80,254!2023-11-01,203,274!2023-05-18,18,174!2023-07-30,140,274-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-09-07,183,294!2023-09-30,198,294!2023-05-23,42,254!2023-07-04,133,294!2023-06-03,107,274!2023-07-17,80,254!2023-11-01,203,274!2023-05-28,10,154!2023-07-30,140,274-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-12-25,240,279!2023-07-28,162,299-->
 

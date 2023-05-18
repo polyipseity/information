@@ -128,7 +128,7 @@ return await memorize_table(
 14. [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2023-07-09,62,250!2023-06-13,45,250-->
 15. [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2023-06-04,37,230!2023-07-06,53,250-->
 16. [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2023-06-01,45,290!2023-06-17,45,230-->
-17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2023-05-29,42,290!2023-05-18,31,270-->
+17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2023-05-29,42,290!2023-08-12,86,270-->
 18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-06-30,56,250!2023-05-24,18,190-->
 19. [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2023-06-22,51,250!2023-06-24,51,250-->
 20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2023-06-26,54,250!2023-07-08,62,250-->

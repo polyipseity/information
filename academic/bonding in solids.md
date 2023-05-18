@@ -83,7 +83,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-07-01,59,250!2023-06-12,59,310!2023-05-19,36,270!2023-05-29,46,290!2023-05-18,28,270!2023-06-23,67,310!2023-09-06,113,290!2023-06-28,55,230-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2023-07-01,59,250!2023-06-12,59,310!2023-05-19,36,270!2023-05-29,46,290!2023-09-06,111,290!2023-06-23,67,310!2023-09-06,113,290!2023-06-28,55,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -125,7 +125,7 @@ return await memorize_table(
 
 ### metallic solid
 
-A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}. <!--SR:!2023-05-18,39,270-->
+A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}. <!--SR:!2023-09-05,110,270-->
 
 #### properties
 
@@ -157,6 +157,6 @@ return await memorize_table(
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-06-20,56,270!2023-06-09,56,310!2023-06-01,49,290!2023-06-24,68,310!2023-05-18,35,270!2023-06-25,69,310!2023-05-29,44,290!2023-06-13,60,310!2023-06-01,18,250!2023-06-28,72,310-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-06-20,56,270!2023-06-09,56,310!2023-06-01,49,290!2023-06-24,68,310!2023-10-02,137,290!2023-06-25,69,310!2023-05-29,44,290!2023-06-13,60,310!2023-06-01,18,250!2023-06-28,72,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

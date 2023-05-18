@@ -9,7 +9,7 @@ aliases:
 
 # Clinistrip
 
-{{__Clinistrip__, also known as __Clinistix__ or __Diastix__}}, is {{a clinical stick to detect [glucose](glucose.md)}}. If the test is positive, it {{changes from green to brown}}. <!--SR:!2023-05-26,17,290!2023-05-18,10,250!2023-06-10,24,250-->
+{{__Clinistrip__, also known as __Clinistix__ or __Diastix__}}, is {{a clinical stick to detect [glucose](glucose.md)}}. If the test is positive, it {{changes from green to brown}}. <!--SR:!2023-05-26,17,290!2023-06-15,28,250!2023-06-10,24,250-->
 
 ## see also
 

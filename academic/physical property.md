@@ -72,7 +72,7 @@ return await memorize_table(
 2. [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2023-07-22,67,270!2023-07-02,69,310-->
 3. [color](color.md)→:::←[density](density.md) <!--SR:!2023-06-29,59,270!2023-07-06,73,310-->
 4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-06-05,25,230!2023-07-06,73,310-->
-5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-08-05,81,270!2023-05-18,31,270-->
+5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-08-05,81,270!2023-06-05,18,250-->
 6. [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2023-06-29,50,230!2023-09-06,113,290-->
 7. [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2023-06-05,48,290!2023-06-15,47,250-->
 8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-05-27,40,290!2023-06-02,19,230-->
