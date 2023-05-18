@@ -9,7 +9,7 @@ aliases:
 
 # distillation
 
-__Distillation__ is {{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}}. <!--SR:!2023-05-18,13,190-->
+__Distillation__ is {{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}}. <!--SR:!2023-06-13,26,190-->
 
 The distilled product is the {{_distillate_}}, while the left behind product is the {{_residue_}}. <!--SR:!2023-06-23,64,310!2023-06-28,68,310-->
 
