@@ -15,7 +15,7 @@ aliases:
 
 # group
 
-A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}}. The elements have {{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}}. <!--SR:!2023-06-11,54,310!2023-05-19,35,270-->
+A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}}. The elements have {{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}}. <!--SR:!2023-06-11,54,310!2023-08-28,100,270-->
 
 ## list
 
@@ -53,7 +53,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[group 1](#^group-1)/IA/IA <!--SR:!2023-06-30,69,310!2023-07-03,72,310-->
 2. [group 1](#^group-1)/IA/IA→:::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA <!--SR:!2023-06-10,53,310!2023-06-25,65,310-->
-3. [group 2](alkaline%20earth%20metal.md)/IIA/IIA→:::←[group 17](halogen.md)/VIIB/VIIA <!--SR:!2023-05-20,33,270!2023-06-18,60,310-->
+3. [group 2](alkaline%20earth%20metal.md)/IIA/IIA→:::←[group 17](halogen.md)/VIIB/VIIA <!--SR:!2023-08-18,90,270!2023-06-18,60,310-->
 4. [group 17](halogen.md)/VIIB/VIIA→:::←[group 18](noble%20gas.md)/0/VIIIA <!--SR:!2023-06-17,59,310!2023-06-27,67,310-->
 5. [group 18](noble%20gas.md)/0/VIIIA→:::←_(end)_ <!--SR:!2023-07-04,73,310!2023-06-26,66,310-->
 

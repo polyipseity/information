@@ -62,13 +62,13 @@ return await memorize_table(
 > | {{[physical state](physical%20state.md)}} |  |
 > | {{[solubility](solubility.md)}} | {{Varies with [solvent](solvent.md).}} |
 > | {{[taste](taste.md)}} |  |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} |  | <!--SR:!2023-07-04,71,310!2023-05-20,32,270!2023-05-30,16,250!2023-07-03,70,310!2023-06-16,53,290!2023-06-25,53,250!2023-09-11,117,290!2023-07-05,72,310!2023-05-24,26,230!2023-06-07,40,250!2023-05-21,33,270!2023-07-06,73,310!2023-06-03,29,270!2023-07-06,73,310-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} |  | <!--SR:!2023-07-04,71,310!2023-09-24,127,290!2023-05-30,16,250!2023-07-03,70,310!2023-06-16,53,290!2023-06-25,53,250!2023-09-11,117,290!2023-07-05,72,310!2023-05-24,26,230!2023-06-07,40,250!2023-05-21,33,270!2023-07-06,73,310!2023-06-03,29,270!2023-07-06,73,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bad29e"--><!-- The following content is generated at 2023-03-14T20:27:23.388951+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2023-05-19,32,270!2023-07-06,73,310-->
+1. _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2023-08-16,88,270!2023-07-06,73,310-->
 2. [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2023-07-22,67,270!2023-07-02,69,310-->
 3. [color](color.md)→:::←[density](density.md) <!--SR:!2023-06-29,59,270!2023-07-06,73,310-->
 4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-06-05,25,230!2023-07-06,73,310-->
