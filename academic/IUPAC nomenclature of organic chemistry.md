@@ -169,12 +169,12 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2023-06-14,118,235!2023-08-11,197,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-05-20,21,130-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-06-18,29,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-09-29,154,210!2023-09-06,154,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-06-17,41,230!2023-05-19,41,227-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-06-17,41,230!2023-06-13,24,207-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2024-02-11,283,265-->
-8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-05-20,28,230-->
+8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2023-05-28,116,247!2023-07-26,67,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2023-09-04,144,230!2023-08-31,191,265-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2023-08-20,118,267-->
@@ -256,7 +256,7 @@ The steps for naming an organic compound are:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
-1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2023-05-20,147,224!2024-11-08,626,267-->
+1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
 2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-05-31,69,221-->
 3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-12-02,213,210!2023-08-04,201,230-->
 
@@ -413,7 +413,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
-> - infix: {{(locant)}} <!--SR:!2023-05-20,133,300!2023-06-16,159,320!2023-11-25,282,342!2023-09-21,249,342!2024-05-22,383,302!2023-12-13,295,347-->
+> - infix: {{(locant)}} <!--SR:!2024-06-29,406,300!2023-06-16,159,320!2023-11-25,282,342!2023-09-21,249,342!2024-05-22,383,302!2023-12-13,295,347-->
 
 > {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
 > - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}

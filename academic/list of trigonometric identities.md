@@ -79,7 +79,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$}} |
 > | cosine | {{$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$}} |
-> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-05-20,28,250!2023-05-30,34,270!2023-07-07,57,250-->
+> | tangent | {{$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$}} | <!--SR:!2023-06-04,15,230!2023-05-30,34,270!2023-07-07,57,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -17,7 +17,7 @@ __Calcium hydroxide__, also known as {{slaked lime}} in its solid state and {{li
 Treating {{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}}. Weak bases {{result in no observation because there are insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}}: <!--SR:!2023-06-07,55,300!2023-07-10,68,260-->
 
 > treating with [bases](base%20(chemistry).md)
-> - {{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}} <!--SR:!2023-05-19,40,280-->
+> - {{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}} <!--SR:!2023-10-28,161,300-->
 
 ## reactions
 

@@ -23,7 +23,7 @@ The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20el
 
 ## representative reactions
 
-Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-05-20,40,290-->
+Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-09-18,121,290-->
 
 ### reaction with water
 
