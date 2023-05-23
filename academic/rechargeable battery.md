@@ -14,4 +14,4 @@ aliases:
 
 # rechargeable battery
 
-A __rechargeable battery__, __secondary cell__, or __storage battery__ is {{an [electric battery](electric%20battery.md) that can be discharged and recharged multiple times}}, unlike a [primary battery](primary%20battery.md). <!--SR:!2023-05-21,36,290-->
+A __rechargeable battery__, __secondary cell__, or __storage battery__ is {{an [electric battery](electric%20battery.md) that can be discharged and recharged multiple times}}, unlike a [primary battery](primary%20battery.md). <!--SR:!2023-09-11,111,290-->

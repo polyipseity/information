@@ -14,7 +14,7 @@ aliases:
 
 # Reichstein process
 
-The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}}. The yield is {{about 60%}}. <!--SR:!2023-06-18,33,270!2023-05-21,17,290-->
+The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}}. The yield is {{about 60%}}. <!--SR:!2023-06-18,33,270!2023-08-07,76,310-->
 
 ## steps
 

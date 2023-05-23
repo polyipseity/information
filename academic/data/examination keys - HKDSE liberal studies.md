@@ -51,7 +51,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2023-05-28,21,250!2023-07-24,69,295!2023-07-19,64,295!2023-05-25,9,250!2023-05-25,20,255!2023-05-21,16,235!2023-07-16,61,295!2023-07-13,58,295!2023-05-23,19,255!2023-07-17,62,295-->
+> | {{weak analogies}} | <!--SR:!2023-05-28,21,250!2023-07-24,69,295!2023-07-19,64,295!2023-05-25,9,250!2023-05-25,20,255!2023-07-06,44,235!2023-07-16,61,295!2023-07-13,58,295!2023-08-03,72,275!2023-07-17,62,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -60,7 +60,7 @@ return await memorize_table(
 1. _(begin)_→:::←affirming the consequent <!--SR:!2023-07-18,63,295!2023-07-17,62,295-->
 2. affirming the consequent→:::←appeal to authority <!--SR:!2023-07-14,59,295!2023-07-20,65,295-->
 3. appeal to authority→:::←appeal to tradition <!--SR:!2023-07-23,68,295!2023-07-18,63,295-->
-4. appeal to tradition→:::←guilt by association <!--SR:!2023-05-23,15,230!2023-05-29,21,255-->
+4. appeal to tradition→:::←guilt by association <!--SR:!2023-07-01,39,230!2023-05-29,21,255-->
 5. guilt by association→:::←hasty generalization <!--SR:!2023-06-04,28,275!2023-07-17,62,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-06-11,26,250!2023-06-27,42,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-07-10,53,290!2023-06-02,27,275-->
@@ -112,7 +112,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2023-07-04,49,290!2023-07-23,68,310-->
 2. comparison→:::←factor/reason <!--SR:!2023-06-06,28,250!2023-05-31,23,255-->
-3. factor/reason→:::←impact/problem <!--SR:!2023-06-02,17,235!2023-05-22,4,175-->
+3. factor/reason→:::←impact/problem <!--SR:!2023-06-02,17,235!2023-06-02,10,175-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-05-24,16,235!2023-05-30,14,195-->
 5. phenomenon→:::←solution <!--SR:!2023-06-08,29,255!2023-06-06,27,250-->
 6. solution→:::←value judgement <!--SR:!2023-07-23,68,295!2023-05-26,17,250-->
@@ -159,13 +159,13 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2023-07-22,67,310!2023-05-21,16,235!2023-06-29,44,275!2023-05-30,10,215-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2023-07-22,67,310!2023-06-01,9,215!2023-06-29,44,275!2023-05-30,10,215-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384f"--><!-- The following content is generated at 2023-04-25T22:32:43.492593+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2023-05-21,16,230!2023-07-20,65,295-->
+1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2023-07-05,43,230!2023-07-20,65,295-->
 2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2023-06-29,44,275!2023-07-18,63,295-->
 3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2023-06-23,43,295!2023-05-30,10,215-->
 
@@ -208,7 +208,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-05-27,20,255!2023-06-01,24,255!2023-06-20,33,235!2023-06-26,46,295!2023-05-29,22,255!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-05-23,15,230!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-05-27,20,255!2023-06-01,24,255!2023-06-20,33,235!2023-06-26,46,295!2023-05-29,22,255!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-06-02,10,210!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -219,7 +219,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 3. cause/reason→:::←effectiveness <!--SR:!2023-06-01,16,230!2023-06-16,31,235-->
 4. effectiveness→:::←factor <!--SR:!2023-05-30,22,255!2023-06-04,24,230-->
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-05-22,14,230!2023-05-21,3,135-->
+6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-05-28,5,135-->
 7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-05-30,23,255-->
 8. trend→:::←with reference to <!--SR:!2023-05-25,16,250!2023-05-31,15,230-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
@@ -348,7 +348,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T23:59:07.528429+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-06-07,28,250!2023-07-20,65,295-->
-2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2023-06-04,26,250!2023-05-21,16,235-->
+2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2023-06-04,26,250!2023-07-06,44,235-->
 3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-05-26,10,215!2023-06-01,16,210-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2023-07-22,67,310!2023-06-03,26,255-->
 
