@@ -8,7 +8,7 @@ aliases:
 
 # solubility
 
-__Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}. <!--SR:!2023-05-22,29,232-->
+__Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}. <!--SR:!2023-06-08,16,212-->
 
 It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}. <!--SR:!2023-05-29,31,252-->
 
@@ -133,7 +133,7 @@ return (
 
 > sulfites
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2023-06-05,196,206!2023-05-23,119,210-->
+> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2023-06-05,196,206!2024-02-07,260,210-->
 
 > phosphates
 > - general solubility: {{<span style="color: red;">insoluble</span>}}

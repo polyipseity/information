@@ -19,7 +19,7 @@ A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accu
 
 ## chemistry
 
-A primary standard can be used {{in [titration](titration.md) and to prepare a [standard solution](standard%20solution.md)}}. It should have the following properties: <!--SR:!2023-05-21,34,270-->
+A primary standard can be used {{in [titration](titration.md) and to prepare a [standard solution](standard%20solution.md)}}. It should have the following properties: <!--SR:!2023-08-29,98,270-->
 
 %%
 ```Python

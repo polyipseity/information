@@ -20,11 +20,11 @@
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2023-09-24,158,250!2023-08-09,159,310-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2023-07-18,75,250!2023-09-24,171,270-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2023-09-12,153,250!2023-06-15,28,210-->
-- move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-05-22,81,250!2023-06-28,117,270-->
-- quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-05-22,15,150!2023-07-13,114,270-->
+- move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-07-07,45,230!2023-06-28,117,270-->
+- quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-06-02,10,130!2023-07-13,114,270-->
 - close dialog:::Esc <!--SR:!2023-12-16,261,330!2024-02-13,289,290-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-09-19,158,250!2023-06-22,100,250-->
-- open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-05-22,76,230!2023-10-10,187,270-->
+- open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-11-16,177,230!2023-10-10,187,270-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-05-27,80,230!2023-05-28,17,210-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2023-11-10,188,250!2023-12-01,213,270-->
 - manage external displays:::⊞Win+P <!--SR:!2023-09-23,161,250!2023-07-04,114,250-->

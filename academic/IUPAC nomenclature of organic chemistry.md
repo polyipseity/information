@@ -204,7 +204,7 @@ The steps for naming an organic compound are:
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-11-14,245,282-->
 4. maximum length→:::←most prefixes <!--SR:!2023-06-17,169,241!2023-06-26,168,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-11-27,256,282-->
-6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2023-05-21,147,325-->
+6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2025-03-21,668,345-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -598,7 +598,7 @@ return (
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
-7. ketone→:::←alcohol <!--SR:!2023-06-28,41,230!2023-05-21,59,170-->
+7. ketone→:::←alcohol <!--SR:!2023-06-28,41,230!2023-09-07,107,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2023-11-13,226,236!2024-03-10,343,267-->

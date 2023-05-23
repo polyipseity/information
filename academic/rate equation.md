@@ -14,4 +14,4 @@ The __rate equation__ of a [chemical reaction](chemical%20reaction.md) {{is an [
 
 ## determination
 
-The rate equation can be determined by {{method of initial rates}}. <!--SR:!2023-05-21,17,290-->
+The rate equation can be determined by {{method of initial rates}}. <!--SR:!2023-08-09,78,310-->

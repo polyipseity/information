@@ -16,7 +16,7 @@ aliases:
 
 # alkaline fuel cell
 
-The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2023-05-23,13,230!2023-06-28,68,312-->
+The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2023-06-26,34,230!2023-06-28,68,312-->
 
 ## chemistry
 
@@ -99,7 +99,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-05-21,38,270!2023-06-30,70,312-->
+1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-09-09,109,270!2023-06-30,70,312-->
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-06-04,45,290!2023-06-07,48,292-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-06-24,57,272!2023-06-09,49,292-->
 4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-06-06,47,292!2023-06-27,68,312-->
