@@ -113,7 +113,7 @@ return await memorize_table(
 1. _(begin)_→:::←comparison <!--SR:!2023-07-04,49,290!2023-07-23,68,310-->
 2. comparison→:::←factor/reason <!--SR:!2023-06-06,28,250!2023-05-31,23,255-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-06-02,17,235!2023-06-02,10,175-->
-4. impact/problem→:::←phenomenon <!--SR:!2023-05-24,16,235!2023-05-30,14,195-->
+4. impact/problem→:::←phenomenon <!--SR:!2023-07-05,42,235!2023-05-30,14,195-->
 5. phenomenon→:::←solution <!--SR:!2023-06-08,29,255!2023-06-06,27,250-->
 6. solution→:::←value judgement <!--SR:!2023-07-23,68,295!2023-05-26,17,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2023-07-26,70,310!2023-06-02,25,255-->
@@ -274,7 +274,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2023-06-03,25,2
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-05-24,8,270!2023-06-04,26,255!2023-05-28,8,210-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-06-27,34,290!2023-06-04,26,255!2023-05-28,8,210-->
 
 ## essay patterns
 
@@ -385,7 +385,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2023-05-30,23,255!2023-07-20,65,295-->
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-06-24,37,235!2023-07-20,65,295-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-06-27,38,235!2023-05-24,18,255-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-06-27,38,235!2023-07-12,49,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-06-30,45,270!2023-06-15,30,235-->
 5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-16,61,295!2023-06-08,29,255-->
 

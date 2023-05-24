@@ -24,7 +24,7 @@ Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of 
 
 ## uses
 
-Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2023-05-24,37,274!2023-08-02,80,274!2023-06-11,54,294-->
+Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2023-06-13,20,254!2023-08-02,80,274!2023-06-11,54,294-->
 
 ### fuels
 
@@ -75,13 +75,13 @@ return await memorize_table(
 
 1. _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2023-06-24,64,310!2023-06-30,69,314-->
 2. [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2023-06-15,57,314!2023-06-15,57,314-->
-3. [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2023-05-24,37,274!2023-06-27,65,314-->
+3. [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2023-09-07,106,274!2023-06-27,65,314-->
 4. [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2023-08-07,83,274!2023-05-26,12,254-->
 5. [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2023-05-31,15,254!2023-06-16,47,254-->
-6. [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2023-06-04,40,254!2023-05-24,21,174-->
+6. [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2023-06-04,40,254!2023-07-04,41,174-->
 7. [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2023-07-04,60,254!2023-05-26,8,214-->
 8. [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2023-09-01,101,274!2023-07-03,61,274-->
-9. [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2023-06-10,53,294!2023-05-24,37,274-->
+9. [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2023-06-10,53,294!2023-09-07,106,274-->
 10. [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2023-08-23,106,294!2023-05-25,40,294-->
 11. [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2023-06-16,57,310!2023-06-25,65,314-->
 

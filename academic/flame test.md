@@ -42,7 +42,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2023-08-31,100,270!2023-06-25,65,310-->
 2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2023-08-23,92,270!2023-08-18,92,270-->
-3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-08-21,93,270!2023-05-24,40,290-->
+3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-08-21,93,270!2023-09-21,120,290-->
 4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-06-22,63,310!2023-05-26,39,270-->
 5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2023-06-26,66,310!2023-06-08,48,290-->
 
@@ -92,7 +92,7 @@ return await memorize_map(
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-07-29,74,270-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-06-12,51,290-->
 7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-06-13,44,250-->
-8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-05-24,15,230-->
+8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-07-01,38,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -103,7 +103,7 @@ return await memorize_map(
 3. blue-green::[copper](copper.md)(I) <!--SR:!2023-06-14,50,290-->
 4. green (non-halide)::[copper](copper.md)(II) <!--SR:!2023-07-23,74,270-->
 5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2023-08-15,90,270-->
-6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-05-24,37,270-->
+6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-09-06,105,270-->
 7. gold::[iron](iron.md)(II) <!--SR:!2023-08-28,103,290-->
 8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-05-25,41,290-->
 9. sparks::[iron](iron.md)(II) <!--SR:!2023-08-30,99,270-->
