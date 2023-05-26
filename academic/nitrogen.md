@@ -55,6 +55,6 @@ return await memorize_table(
 1. _(begin)_→:::←food packaging <!--SR:!2023-06-18,59,310!2023-06-24,64,310-->
 2. food packaging→:::←making [ammonia](ammonia.md) <!--SR:!2023-05-27,38,290!2023-06-26,65,310-->
 3. making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md) <!--SR:!2023-06-07,42,250!2023-07-24,79,290-->
-4. [refrigerant](refrigerant.md)→:::←_(end)_ <!--SR:!2023-06-10,52,310!2023-05-25,25,250-->
+4. [refrigerant](refrigerant.md)→:::←_(end)_ <!--SR:!2023-06-10,52,310!2023-08-29,95,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
