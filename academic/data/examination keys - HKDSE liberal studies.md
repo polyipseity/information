@@ -51,7 +51,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2023-05-28,21,250!2023-07-24,69,295!2023-07-19,64,295!2023-05-25,9,250!2023-05-25,20,255!2023-07-06,44,235!2023-07-16,61,295!2023-07-13,58,295!2023-08-03,72,275!2023-07-17,62,295-->
+> | {{weak analogies}} | <!--SR:!2023-05-28,21,250!2023-07-24,69,295!2023-07-19,64,295!2023-07-04,39,270!2023-08-12,78,275!2023-07-06,44,235!2023-07-16,61,295!2023-07-13,58,295!2023-08-03,72,275!2023-07-17,62,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -115,7 +115,7 @@ return await memorize_table(
 3. factor/reason→:::←impact/problem <!--SR:!2023-06-02,17,235!2023-06-02,10,175-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-07-05,42,235!2023-05-30,14,195-->
 5. phenomenon→:::←solution <!--SR:!2023-06-08,29,255!2023-06-06,27,250-->
-6. solution→:::←value judgement <!--SR:!2023-07-23,68,295!2023-05-26,17,250-->
+6. solution→:::←value judgement <!--SR:!2023-07-23,68,295!2023-07-12,47,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2023-07-26,70,310!2023-06-02,25,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -221,7 +221,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-05-28,5,135-->
 7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-05-30,23,255-->
-8. trend→:::←with reference to <!--SR:!2023-05-25,16,250!2023-05-31,15,230-->
+8. trend→:::←with reference to <!--SR:!2023-06-05,10,230!2023-05-31,15,230-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -349,7 +349,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-06-07,28,250!2023-07-20,65,295-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2023-06-04,26,250!2023-07-06,44,235-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-05-26,10,215!2023-06-01,16,210-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-06-01,6,195!2023-06-01,16,210-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2023-07-22,67,310!2023-06-03,26,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -493,8 +493,8 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-06-23,36,235!2023-07-19,64,295-->
 2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-06-23,38,270!2023-05-31,15,230-->
-3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-05-26,19,255!2023-06-12,27,235-->
-4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2023-07-21,66,290!2023-05-25,19,255-->
+3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-07-17,52,255!2023-06-12,27,235-->
+4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2023-07-21,66,290!2023-07-18,53,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2023-07-16,61,295!2023-07-17,62,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

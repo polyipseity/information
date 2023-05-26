@@ -43,7 +43,7 @@ return await memorize_seq(
 1. _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2023-08-31,100,270!2023-06-25,65,310-->
 2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2023-08-23,92,270!2023-08-18,92,270-->
 3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-08-21,93,270!2023-09-21,120,290-->
-4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-06-22,63,310!2023-05-26,39,270-->
+4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-06-22,63,310!2023-10-26,153,290-->
 5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2023-06-26,66,310!2023-06-08,48,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -105,9 +105,9 @@ return await memorize_map(
 5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2023-08-15,90,270-->
 6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-09-06,105,270-->
 7. gold::[iron](iron.md)(II) <!--SR:!2023-08-28,103,290-->
-8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-05-25,41,290-->
+8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-11-12,170,310-->
 9. sparks::[iron](iron.md)(II) <!--SR:!2023-08-30,99,270-->
-10. orange-brown::[iron](iron.md)(III) <!--SR:!2023-05-26,41,290-->
+10. orange-brown::[iron](iron.md)(III) <!--SR:!2023-09-26,123,290-->
 11. intense white::[magnesium](magnesium.md) <!--SR:!2023-07-12,55,250-->
 12. lilac::[potassium](potassium.md) <!--SR:!2023-06-02,43,290-->
 13. invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2023-07-31,69,250-->

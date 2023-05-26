@@ -14,7 +14,7 @@ aliases:
 
 # atomicity
 
-__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2023-05-25,42,290-->
+__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2023-11-15,173,310-->
 
 ## classification
 

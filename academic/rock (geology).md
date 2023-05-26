@@ -10,4 +10,4 @@ aliases:
 
 # rock
 
-__Rock__ or __stone__ is {{an naturally occurring solid mass of [minerals](mineral.md) or [mineraloids](mineraloid.md)}}. <!--SR:!2023-05-25,9,150-->
+__Rock__ or __stone__ is {{an naturally occurring solid mass of [minerals](mineral.md) or [mineraloids](mineraloid.md)}}. <!--SR:!2023-06-09,14,150-->

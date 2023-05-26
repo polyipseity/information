@@ -135,7 +135,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2023-06-05,48,290!2023-06-21,61,310-->
 2. [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2023-06-22,62,310!2023-06-26,65,310-->
-3. [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2023-05-26,38,270!2023-06-30,68,310-->
+3. [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2023-10-21,148,290!2023-06-30,68,310-->
 4. [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2023-05-31,41,290!2023-06-21,61,310-->
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-06-30,68,310!2023-06-19,60,310-->
 6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-06-30,68,310!2023-07-05,73,310-->
@@ -147,9 +147,9 @@ return await memorize_table(
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-06-07,50,290!2023-06-24,64,310-->
 13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-06-01,42,290!2023-05-27,13,190-->
 14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-05-29,6,190!2023-06-11,53,290-->
-15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-05-28,37,250!2023-05-25,37,270-->
+15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-05-28,37,250!2023-09-08,105,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-06-05,16,210!2023-06-04,45,290-->
-17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-05-26,24,250!2023-06-01,14,210-->
+17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-07-28,63,250!2023-06-01,14,210-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-06-10,38,230!2023-09-27,130,290-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-07-06,61,250!2023-06-02,10,150-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-07-28,75,250!2023-06-21,51,250-->
@@ -160,7 +160,7 @@ return await memorize_table(
 25. [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2023-08-13,87,270!2023-09-06,109,290-->
 26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-06-11,19,250!2023-06-15,35,210-->
 27. [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2023-07-26,76,270!2023-08-26,95,270-->
-28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-05-26,30,250!2023-06-10,25,210-->
+28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-06-12,17,230!2023-06-10,25,210-->
 29. [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2023-08-30,99,270!2023-08-21,93,270-->
 30. [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2023-06-19,44,230!2023-06-13,21,270-->
 31. [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2023-08-10,86,270!2023-06-03,20,210-->

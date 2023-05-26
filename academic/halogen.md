@@ -19,7 +19,7 @@ aliases:
 
 # halogen
 
-The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-05-25,27,250!2023-06-20,50,250-->
+The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-09-03,100,270!2023-06-20,50,250-->
 
 The color darkens as the group is descended. Flourine is {{very pale yellow, chlorine is greenish-yellow, bromine is reddish-brown, and iodine is violet}}. <!--SR:!2023-06-12,27,267-->
 
@@ -62,7 +62,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2394"--><!-- The following content is generated at 2023-03-20T12:19:40.532789+08:00. Any edits will be overridden! -->
 
 1. [fluorine](fluorine.md)::reacts explosively in the dark and cold <!--SR:!2023-06-15,53,290-->
-2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2023-05-26,38,270-->
+2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2023-09-09,106,270-->
 3. [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2023-07-11,58,230-->
 4. [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2023-06-09,48,290-->
 5. [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2023-07-04,72,310-->
@@ -76,6 +76,6 @@ return await memorize_map(
 2. reacts explosively in light and heat; slowly without::[chlorine](chlorine.md) <!--SR:!2023-07-25,66,230-->
 3. reacts explosively in flames; moderately in light and heat::[bromine](bromine.md) <!--SR:!2023-07-05,73,310-->
 4. reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2023-07-03,71,310-->
-5. unknown::[tennessine](tennessine.md) <!--SR:!2023-05-25,16,250-->
+5. unknown::[tennessine](tennessine.md) <!--SR:!2023-07-09,44,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
