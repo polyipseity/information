@@ -2,9 +2,10 @@
 aliases:
   - IUPAC numerical multiplier
   - IUPAC numerical multipliers
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/IUPAC_numerical_multiplier
 ---
-
-#academic/chemistry #flashcards/academic/Ii/IUPAC_numerical_multiplier
 
 %%
 ```Python

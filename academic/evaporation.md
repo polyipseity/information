@@ -3,9 +3,10 @@ aliases:
   - evaporate
   - evaporates
   - evaporation
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/evaporation
 ---
-
-#academic/chemistry #flashcards/academic/Ee/evaporation
 
 %%
 ```Python

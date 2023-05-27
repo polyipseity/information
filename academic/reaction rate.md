@@ -4,9 +4,10 @@ aliases:
   - rates of reaction
   - reaction rate
   - reaction rates
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/reaction_rate
 ---
-
-#academic/chemistry #flashcards/academic/Rr/reaction_rate
 
 %%
 ```Python

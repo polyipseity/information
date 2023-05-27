@@ -2,9 +2,10 @@
 aliases:
   - Na2O
   - sodium oxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/sodium_oxide
 ---
-
-#academic/chemistry #flashcards/academic/Ss/sodium_oxide
 
 # sodium oxide
 

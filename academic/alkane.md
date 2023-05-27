@@ -3,9 +3,10 @@ aliases:
   - alkane
   - alkanes
   - paraffin
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/alkane
 ---
-
-#academic/chemistry #flashcards/academic/Aa/alkane
 
 %%
 ```Python

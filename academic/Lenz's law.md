@@ -2,9 +2,10 @@
 aliases:
   - Lenz law
   - Lenz's law
+tags:
+  - academic/physics
+  - flashcards/academic/Ll/Lenz_s_law
 ---
-
-#academic/physics #flashcards/academic/Ll/Lenz_s_law
 
 # Lenz's law
 

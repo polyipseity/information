@@ -1,9 +1,10 @@
 ---
 aliases:
   - free radical halogenation
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ff/free-radical_halogenation
 ---
-
-#academic/chemistry #flashcards/academic/Ff/free-radical_halogenation
 
 %%
 ```Python

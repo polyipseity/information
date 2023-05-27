@@ -2,9 +2,10 @@
 aliases:
   - electron deexcitation
   - electron relaxation
+tags:
+  - academic/physics
+  - flashcards/academic/Ee/electron_excitation
 ---
-
-#academic/physics #flashcards/academic/Ee/electron_excitation
 
 # electron excitation
 

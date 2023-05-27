@@ -3,9 +3,10 @@ aliases:
   - Cl
   - Cl2
   - chlorine
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chlorine
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chlorine
 
 # chlorine
 

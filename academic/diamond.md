@@ -2,9 +2,10 @@
 aliases:
   - diamond
   - diamonds
+tags:
+  - academic/chemistry
+  - flashcards/academic/Dd/diamond
 ---
-
-#academic/chemistry #flashcards/academic/Dd/diamond
 
 # diamond
 

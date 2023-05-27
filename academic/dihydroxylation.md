@@ -1,9 +1,10 @@
 ---
 aliases:
   - dihydroxlation
+tags:
+  - academic/chemistry
+  - flashcards/academic/Dd/dihydroxylation
 ---
-
-#academic/chemistry #flashcards/academic/Dd/dihydroxylation
 
 # dihydroxylation
 

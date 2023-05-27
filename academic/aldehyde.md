@@ -2,9 +2,10 @@
 aliases:
   - aldehyde
   - aldehydes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/aldehyde
 ---
-
-#academic/chemistry #flashcards/academic/Aa/aldehyde
 
 %%
 ```Python

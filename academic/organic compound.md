@@ -3,9 +3,10 @@ aliases:
   - organic
   - organic compound
   - organic compounds
+tags:
+  - academic/chemistry
+  - flashcards/academic/Oo/organic_compound
 ---
-
-#academic/chemistry #flashcards/academic/Oo/organic_compound
 
 %%
 ```Python

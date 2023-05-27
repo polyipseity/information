@@ -5,9 +5,10 @@ aliases:
   - oil
   - oils
   - petroleum
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/petroleum
 ---
-
-#academic/chemistry #flashcards/academic/Pp/petroleum
 
 %%
 ```Python

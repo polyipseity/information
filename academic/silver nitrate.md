@@ -2,9 +2,10 @@
 aliases:
   - AgNO3
   - silver nitrate
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/silver_nitrate
 ---
-
-#academic/chemistry #flashcards/academic/Ss/silver_nitrate
 
 # silver nitrate
 

@@ -3,9 +3,10 @@ aliases:
   - exothermic
   - exothermic process
   - exothermic processes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/exothermic_process
 ---
-
-#academic/chemistry #flashcards/academic/Ee/exothermic_process
 
 %%
 ```Python

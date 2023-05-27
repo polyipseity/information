@@ -2,9 +2,10 @@
 aliases:
   - Bohr model
   - Rutherford–Bohr model
+tags:
+  - academic/physics
+  - flashcards/academic/Bb/Bohr_model
 ---
-
-#academic/physics #flashcards/academic/Bb/Bohr_model
 
 %%
 ```Python

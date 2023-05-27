@@ -2,9 +2,11 @@
 aliases:
   - period
   - periods
+tags:
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Pp/period__periodic_table_
 ---
-
-#academic/chemistry #academic/physics #flashcards/academic/Pp/period__periodic_table_
 
 # period
 

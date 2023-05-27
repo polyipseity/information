@@ -1,4 +1,8 @@
-#general/usage #flashcards/general/usage/Microsoft_Windows_usage
+---
+tags:
+  - flashcards/general/usage/Microsoft_Windows_usage
+  - general/usage
+---
 
 # Microsoft Windows usage
 

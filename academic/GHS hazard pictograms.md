@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Gg/GHS_hazard_pictograms
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Gg/GHS_hazard_pictograms
+---
 
 %%
 ```Python

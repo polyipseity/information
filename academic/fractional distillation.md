@@ -1,9 +1,10 @@
 ---
 aliases:
   - fractional distillation
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ff/fractional_distillation
 ---
-
-#academic/chemistry #flashcards/academic/Ff/fractional_distillation
 
 # fractional distillation
 

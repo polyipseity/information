@@ -2,9 +2,10 @@
 aliases:
   - tooth enamel
   - tooth enamels
+tags:
+  - academic/biology
+  - flashcards/academic/Tt/tooth_enamel
 ---
-
-#academic/biology #flashcards/academic/Tt/tooth_enamel
 
 # tooth enamel
 

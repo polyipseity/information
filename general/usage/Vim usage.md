@@ -1,4 +1,8 @@
-#general/usage #flashcards/general/usage/Vim_usage
+---
+tags:
+  - flashcards/general/usage/Vim_usage
+  - general/usage
+---
 
 # Vim usage
 

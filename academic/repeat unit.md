@@ -10,9 +10,10 @@ aliases:
   - repeating subunits
   - repeating unit
   - repeating units
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/repeat_unit
 ---
-
-#academic/chemistry #flashcards/academic/Rr/repeat_unit
 
 # repeat unit
 

@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Aa/atmosphere_of_Earth
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/atmosphere_of_Earth
+---
 
 %%
 ```Python

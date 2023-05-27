@@ -3,9 +3,10 @@ aliases:
   - distill
   - distillation
   - distills
+tags:
+  - academic/chemistry
+  - flashcards/academic/Dd/distillation
 ---
-
-#academic/chemistry #flashcards/academic/Dd/distillation
 
 # distillation
 

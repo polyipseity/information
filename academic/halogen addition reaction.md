@@ -2,9 +2,10 @@
 aliases:
   - halogen addition reaction
   - halogen addition reactions
+tags:
+  - academic/chemistry
+  - flashcards/academic/Hh/halogen_addition_reaction
 ---
-
-#academic/chemistry #flashcards/academic/Hh/halogen_addition_reaction
 
 # halogen addition reaction
 

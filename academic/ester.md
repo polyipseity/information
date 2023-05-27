@@ -2,9 +2,10 @@
 aliases:
   - ester
   - esters
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/ester
 ---
-
-#academic/chemistry #flashcards/academic/Ee/ester
 
 %%
 ```Python

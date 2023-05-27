@@ -1,9 +1,10 @@
 ---
 aliases:
   - air separation
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/air_separation
 ---
-
-#academic/chemistry #flashcards/academic/Aa/air_separation
 
 %%
 ```Python

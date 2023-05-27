@@ -2,9 +2,10 @@
 aliases:
   - insoluble
   - soluble
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/solubility
 ---
-
-#academic/chemistry #flashcards/academic/Ss/solubility
 
 # solubility
 

@@ -1,4 +1,8 @@
-#academic/astronomy #flashcards/academic/Ee/Earth
+---
+tags:
+  - academic/astronomy
+  - flashcards/academic/Ee/Earth
+---
 
 # Earth
 

@@ -2,9 +2,10 @@
 aliases:
   - bonding in solids
   - bondings in solids
+tags:
+  - academic/chemistry
+  - flashcards/academic/Bb/bonding_in_solids
 ---
-
-#academic/chemistry #flashcards/academic/Bb/bonding_in_solids
 
 %%
 ```Python

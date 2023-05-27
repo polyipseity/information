@@ -3,9 +3,10 @@ aliases:
   - neutralization
   - neutralize
   - neutralizes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Nn/neutralization__chemistry_
 ---
-
-#academic/chemistry #flashcards/academic/Nn/neutralization__chemistry_
 
 %%
 ```Python

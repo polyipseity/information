@@ -3,9 +3,10 @@ aliases:
   - Cl2O
   - Cl<sub>2</sub>O
   - dichlorine monoxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Dd/dichlorine_monoxide
 ---
-
-#academic/chemistry #flashcards/academic/Dd/dichlorine_monoxide
 
 # dichlorine monoxide
 

@@ -2,9 +2,10 @@
 aliases:
   - activity series
   - reactivity series
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/reactivity_series
 ---
-
-#academic/chemistry #flashcards/academic/Rr/reactivity_series
 
 %%
 ```Python

@@ -2,9 +2,10 @@
 aliases:
   - ionic compound
   - ionic compounds
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/ionic_compound
 ---
-
-#academic/chemistry #flashcards/academic/Ii/ionic_compound
 
 # ionic compound
 

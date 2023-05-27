@@ -2,9 +2,10 @@
 aliases:
   - plastic
   - plastics
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/plastic
 ---
-
-#academic/chemistry #flashcards/academic/Pp/plastic
 
 %%
 ```Python

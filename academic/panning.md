@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Pp/panning
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/panning
+---
 
 # panning
 

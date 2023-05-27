@@ -2,9 +2,10 @@
 aliases:
   - catalytic converter
   - catalytic converters
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/catalytic_converter
 ---
-
-#academic/chemistry #flashcards/academic/Cc/catalytic_converter
 
 # catalytic converter
 

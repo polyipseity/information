@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ss/sea_salt
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/sea_salt
+---
 
 %%
 ```Python

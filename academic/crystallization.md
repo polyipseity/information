@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Cc/crystallization
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/crystallization
+---
 
 # crystallization
 

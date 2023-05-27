@@ -4,9 +4,10 @@ aliases:
   - base strengths
   - strong base
   - strong bases
+tags:
+  - academic/chemistry
+  - flashcards/academic/Bb/base_strength
 ---
-
-#academic/chemistry #flashcards/academic/Bb/base_strength
 
 # base strength
 

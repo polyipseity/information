@@ -2,9 +2,10 @@
 aliases:
   - NaOH
   - sodium hydroxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/sodium_hydroxide
 ---
-
-#academic/chemistry #flashcards/academic/Ss/sodium_hydroxide
 
 # sodium hydroxide
 

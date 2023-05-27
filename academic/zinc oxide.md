@@ -2,9 +2,10 @@
 aliases:
   - ZnO
   - zinc oxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Zz/zinc_oxide
 ---
-
-#academic/chemistry #flashcards/academic/Zz/zinc_oxide
 
 # zinc oxide
 

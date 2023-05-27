@@ -3,9 +3,10 @@ aliases:
   - isomer
   - isomeres
   - isomerism
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/isomer
 ---
-
-#academic/chemistry #flashcards/academic/Ii/isomer
 
 # isomer
 

@@ -2,9 +2,10 @@
 aliases:
   - Fe
   - iron
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/iron
 ---
-
-#academic/chemistry #flashcards/academic/Ii/iron
 
 %%
 ```Python

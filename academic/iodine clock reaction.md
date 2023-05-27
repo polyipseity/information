@@ -2,9 +2,10 @@
 aliases:
   - iodine clock reaction
   - iodine clock reactions
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/iodine_clock_reaction
 ---
-
-#academic/chemistry #flashcards/academic/Ii/iodine_clock_reaction
 
 %%
 ```Python

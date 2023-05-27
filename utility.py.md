@@ -1,4 +1,7 @@
-#functional/code
+---
+tags:
+  - functional/code
+---
 
 # `utility.py`
 

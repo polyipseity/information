@@ -3,9 +3,10 @@ aliases:
   - C60
   - buckminsterfullerene
   - buckminsterfullerenes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Bb/buckminsterfullerene
 ---
-
-#academic/chemistry #flashcards/academic/Bb/buckminsterfullerene
 
 # buckministerfullerene
 

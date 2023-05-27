@@ -4,9 +4,10 @@ aliases:
   - bomb calorimeters
   - calorimeter
   - calorimeters
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/calorimeter
 ---
-
-#academic/chemistry #flashcards/academic/Cc/calorimeter
 
 %%
 ```Python

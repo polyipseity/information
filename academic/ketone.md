@@ -2,9 +2,10 @@
 aliases:
   - ketone
   - ketones
+tags:
+  - academic/chemistry
+  - flashcards/academic/Kk/ketone
 ---
-
-#academic/chemistry #flashcards/academic/Kk/ketone
 
 %%
 ```Python

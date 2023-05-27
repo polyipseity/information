@@ -3,9 +3,10 @@ aliases:
   - CaCl2
   - CaCl<sub>2</sub>
   - calcium chloride
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/calcium_chloride
 ---
-
-#academic/chemistry #flashcards/academic/Cc/calcium_chloride
 
 %%
 ```Python
