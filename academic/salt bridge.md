@@ -2,9 +2,10 @@
 aliases:
   - salt bridge
   - salt bridges
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/salt_bridge
 ---
-
-#academic/chemistry #flashcards/academic/Ss/salt_bridge
 
 # salt bridge
 

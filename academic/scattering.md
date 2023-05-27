@@ -1,4 +1,8 @@
-#academic/physics #flashcards/academic/Ss/scattering
+---
+tags:
+  - academic/physics
+  - flashcards/academic/Ss/scattering
+---
 
 # scattering
 

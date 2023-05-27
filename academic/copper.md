@@ -2,9 +2,10 @@
 aliases:
   - Cu
   - copper
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/copper
 ---
-
-#academic/chemistry #flashcards/academic/Cc/copper
 
 %%
 ```Python

@@ -1,4 +1,10 @@
-#academic/chemistry #academic/geology #academic/mineralogy #flashcards/academic/Oo/ore
+---
+tags:
+  - academic/chemistry
+  - academic/geology
+  - academic/mineralogy
+  - flashcards/academic/Oo/ore
+---
 
 %%
 ```Python

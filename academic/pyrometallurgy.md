@@ -1,4 +1,9 @@
-#academic/chemistry #academic/metallurgy #flashcards/academic/Pp/pyrometallurgy
+---
+tags:
+  - academic/chemistry
+  - academic/metallurgy
+  - flashcards/academic/Pp/pyrometallurgy
+---
 
 # pyrometallurgy
 

@@ -1,4 +1,8 @@
-#academic/physics #flashcards/academic/Rr/Rutherford_model
+---
+tags:
+  - academic/physics
+  - flashcards/academic/Rr/Rutherford_model
+---
 
 # Rutherford model
 

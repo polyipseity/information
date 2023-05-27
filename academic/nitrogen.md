@@ -8,9 +8,10 @@ aliases:
   - N2
   - N<sub>2</sub>
   - nitrogen
+tags:
+  - academic/chemistry
+  - flashcards/academic/Nn/nitrogen
 ---
-
-#academic/chemistry #flashcards/academic/Nn/nitrogen
 
 %%
 ```Python

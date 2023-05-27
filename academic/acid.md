@@ -4,9 +4,10 @@ aliases:
   - acidic
   - acidified
   - acids
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/acid
 ---
-
-#academic/chemistry #flashcards/academic/Aa/acid
 
 # acid
 

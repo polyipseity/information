@@ -1,9 +1,10 @@
 ---
 aliases:
   - nylon
+tags:
+  - academic/chemistry
+  - flashcards/academic/Nn/nylon
 ---
-
-#academic/chemistry #flashcards/academic/Nn/nylon
 
 %%
 ```Python

@@ -2,9 +2,10 @@
 aliases:
   - graphite
   - graphites
+tags:
+  - academic/chemistry
+  - flashcards/academic/Gg/graphite
 ---
-
-#academic/chemistry #flashcards/academic/Gg/graphite
 
 # graphite
 

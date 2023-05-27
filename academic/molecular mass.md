@@ -2,9 +2,10 @@
 aliases:
   - molecular mass
   - relative molecular mass
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/molecular_mass
 ---
-
-#academic/chemistry #flashcards/academic/Mm/molecular_mass
 
 # molecular mass
 

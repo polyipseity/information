@@ -1,9 +1,10 @@
 ---
 aliases:
   - straight condenser
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ll/Liebig_condenser
 ---
-
-#academic/chemistry #flashcards/academic/Ll/Liebig_condenser
 
 # Liebig condenser
 

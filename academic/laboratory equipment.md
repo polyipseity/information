@@ -5,9 +5,12 @@ aliases:
   - laboratory equipments
   - laboratory instrument
   - laboratory instruments
+tags:
+  - academic/biology
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Ll/laboratory_equipment
 ---
-
-#academic/biology #academic/chemistry #academic/physics #flashcards/academic/Ll/laboratory_equipment
 
 %%
 ```Python

@@ -1,4 +1,8 @@
-#academic/liberal_arts_education #flashcards/academic/data/examination_keys_-_HKDSE_liberal_studies
+---
+tags:
+  - academic/liberal_arts_education
+  - flashcards/academic/data/examination_keys_-_HKDSE_liberal_studies
+---
 
 %%
 ```Python

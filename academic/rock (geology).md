@@ -4,9 +4,11 @@ aliases:
   - rocks
   - stone
   - stones
+tags:
+  - academic/chemistry
+  - academic/geology
+  - flashcards/academic/Rr/rock__geology_
 ---
-
-#academic/chemistry #academic/geology #flashcards/academic/Rr/rock__geology_
 
 # rock
 

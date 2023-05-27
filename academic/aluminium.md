@@ -3,9 +3,10 @@ aliases:
   - Al
   - aluminium
   - aluminum
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/aluminium
 ---
-
-#academic/chemistry #flashcards/academic/Aa/aluminium
 
 %%
 ```Python

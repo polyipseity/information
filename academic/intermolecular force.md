@@ -2,9 +2,10 @@
 aliases:
   - intermolecular force
   - intermolecular forces
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/intermolecular_force
 ---
-
-#academic/chemistry #flashcards/academic/Ii/intermolecular_force
 
 %%
 ```Python

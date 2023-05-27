@@ -1,6 +1,7 @@
 ---
 aliases:
   - octet rule
+tags: []
 ---
 
 %%

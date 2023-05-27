@@ -5,9 +5,10 @@ aliases:
   - semi-metals
   - semimetal
   - semimetals
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/metalloid
 ---
-
-#academic/chemistry #flashcards/academic/Mm/metalloid
 
 # metalloid
 

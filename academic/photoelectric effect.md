@@ -1,9 +1,10 @@
 ---
 aliases:
   - photoemission
+tags:
+  - academic/physics
+  - flashcards/academic/Pp/photoelectric_effect
 ---
-
-#academic/physics #flashcards/academic/Pp/photoelectric_effect
 
 # photoelectric effect
 

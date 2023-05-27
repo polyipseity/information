@@ -1,4 +1,10 @@
-#academic/biology #academic/chemistry #academic/physics #flashcards/academic/Ee/experiment
+---
+tags:
+  - academic/biology
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Ee/experiment
+---
 
 %%
 ```Python

@@ -5,9 +5,10 @@ aliases:
   - chemical bond
   - chemical bonding
   - chemical bonds
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_bond
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_bond
 
 # chemical bond
 

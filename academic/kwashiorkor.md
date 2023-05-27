@@ -1,9 +1,10 @@
 ---
 aliases:
   - kwashiorkor
+tags:
+  - academic/biology
+  - flashcards/academic/Kk/kwashiorkor
 ---
-
-#academic/biology #flashcards/academic/Kk/kwashiorkor
 
 # kwashiorkor
 

@@ -6,9 +6,10 @@ aliases:
   - electropositive
   - electropositivities
   - electropositivity
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/electronegativity
 ---
-
-#academic/chemistry #flashcards/academic/Ee/electronegativity
 
 # electronegativity
 

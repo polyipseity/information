@@ -3,9 +3,10 @@ aliases:
   - chemical formula
   - chemical formulae
   - chemical formulas
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_formula
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_formula
 
 # chemical formula
 

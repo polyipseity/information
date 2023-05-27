@@ -2,9 +2,10 @@
 aliases:
   - zinc–carbon batteries
   - zinc–carbon battery
+tags:
+  - academic/chemistry
+  - flashcards/academic/Zz/zinc-carbon_battery
 ---
-
-#academic/chemistry #flashcards/academic/Zz/zinc-carbon_battery
 
 # zinc–carbon battery
 

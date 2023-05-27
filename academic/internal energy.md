@@ -2,9 +2,10 @@
 aliases:
   - internal energies
   - internal energy
+tags:
+  - academic/physics
+  - flashcards/academic/Ii/internal_energy
 ---
-
-#academic/physics #flashcards/academic/Ii/internal_energy
 
 # internal energy
 

@@ -3,9 +3,10 @@ aliases:
   - Na2CO3
   - Na<sub>2</sub>CO<sub>3</sub>
   - sodium carbonate
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/sodium_carbonate
 ---
-
-#academic/chemistry #flashcards/academic/Ss/sodium_carbonate
 
 %%
 ```Python

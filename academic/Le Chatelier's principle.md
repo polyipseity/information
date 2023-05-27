@@ -4,6 +4,7 @@ aliases:
   - Le Chatelier's principle
   - Le Châtelier's Principle
   - Le Châtelier's principle
+tags: []
 ---
 
 # Le Chatelier's principle

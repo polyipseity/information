@@ -2,9 +2,10 @@
 aliases:
   - Ag
   - silver
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/silver
 ---
-
-#academic/chemistry #flashcards/academic/Ss/silver
 
 %%
 ```Python

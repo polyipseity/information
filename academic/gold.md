@@ -2,9 +2,10 @@
 aliases:
   - Au
   - gold
+tags:
+  - academic/chemistry
+  - flashcards/academic/Gg/gold
 ---
-
-#academic/chemistry #flashcards/academic/Gg/gold
 
 %%
 ```Python

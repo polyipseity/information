@@ -3,9 +3,10 @@ aliases:
   - dynamic equilibria
   - dynamic equilibrium
   - dynamic equilibriums
+tags:
+  - academic/chemistry
+  - flashcards/academic/Dd/dynamic_equilibrium
 ---
-
-#academic/chemistry #flashcards/academic/Dd/dynamic_equilibrium
 
 # dynamic equilibrium
 

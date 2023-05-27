@@ -2,9 +2,11 @@
 aliases:
   - H2O
   - water
+tags:
+  - academic/biology
+  - academic/chemistry
+  - flashcards/academic/Ww/water
 ---
-
-#academic/biology #academic/chemistry #flashcards/academic/Ww/water
 
 # water
 

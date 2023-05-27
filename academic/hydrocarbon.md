@@ -2,9 +2,10 @@
 aliases:
   - hydrocarbon
   - hydrocarbons
+tags:
+  - academic/chemistry
+  - flashcards/academic/Hh/hydrocarbon
 ---
-
-#academic/chemistry #flashcards/academic/Hh/hydrocarbon
 
 %%
 ```Python

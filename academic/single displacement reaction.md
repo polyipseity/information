@@ -5,9 +5,10 @@ aliases:
   - single replacement reaction
   - single-displacement reaction
   - single-replacement reaction
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/single_displacement_reaction
 ---
-
-#academic/chemistry #flashcards/academic/Ss/single_displacement_reaction
 
 # single displacement reaction
 

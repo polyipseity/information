@@ -4,9 +4,10 @@ aliases:
   - black body
   - blackbodies
   - blackbody
+tags:
+  - academic/physics
+  - flashcards/academic/Bb/black_body
 ---
-
-#academic/physics #flashcards/academic/Bb/black_body
 
 # black body
 

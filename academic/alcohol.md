@@ -2,9 +2,11 @@
 aliases:
   - alcohol
   - alcohols
+tags:
+  - academic/biology
+  - academic/chemistry
+  - flashcards/academic/Aa/alcohol
 ---
-
-#academic/biology #academic/chemistry #flashcards/academic/Aa/alcohol
 
 %%
 ```Python

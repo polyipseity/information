@@ -1,9 +1,10 @@
 ---
 aliases:
   - nonmetals
+tags:
+  - academic/chemistry
+  - flashcards/academic/Nn/nonmetal
 ---
-
-#academic/chemistry #flashcards/academic/Nn/nonmetal
 
 # nonmetal
 

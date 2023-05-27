@@ -2,9 +2,10 @@
 aliases:
   - matter wave
   - matter waves
+tags:
+  - academic/physics
+  - flashcards/academic/Mm/matter_wave
 ---
-
-#academic/physics #flashcards/academic/Mm/matter_wave
 
 # matter wave
 

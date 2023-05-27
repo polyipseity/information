@@ -1,9 +1,10 @@
 ---
 aliases:
   - metals
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/metal
 ---
-
-#academic/chemistry #flashcards/academic/Mm/metal
 
 # metal
 

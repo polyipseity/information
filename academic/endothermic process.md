@@ -3,9 +3,10 @@ aliases:
   - endothermic
   - endothermic process
   - endothermic processes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/endothermic_process
 ---
-
-#academic/chemistry #flashcards/academic/Ee/endothermic_process
 
 %%
 ```Python

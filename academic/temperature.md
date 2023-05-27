@@ -2,9 +2,12 @@
 aliases:
   - temperature
   - temperatures
+tags:
+  - academic/biology
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Tt/temperature
 ---
-
-#academic/biology #academic/chemistry #academic/physics #flashcards/academic/Tt/temperature
 
 # temperature
 

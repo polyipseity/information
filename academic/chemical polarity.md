@@ -5,9 +5,10 @@ aliases:
   - polar
   - polarities
   - polarity
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_polarity
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_polarity
 
 # chemical polarity
 

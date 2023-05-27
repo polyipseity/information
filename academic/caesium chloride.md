@@ -3,9 +3,10 @@ aliases:
   - CsCl
   - caesium chloride
   - cesium chloride
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/caesium_chloride
 ---
-
-#academic/chemistry #flashcards/academic/Cc/caesium_chloride
 
 # caesium chloride
 

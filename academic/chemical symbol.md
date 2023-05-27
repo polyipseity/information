@@ -3,9 +3,10 @@ aliases:
   - chemical symbols
   - element symbol
   - element symbols
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_symbol
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_symbol
 
 # chemical symbol
 
