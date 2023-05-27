@@ -1,4 +1,10 @@
-#academic/chemistry #academic/climatology #academic/geomorphology #flashcards/academic/Ww/weathering
+---
+tags:
+  - academic/chemistry
+  - academic/climatology
+  - academic/geomorphology
+  - flashcards/academic/Ww/weathering
+---
 
 %%
 ```Python

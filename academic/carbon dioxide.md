@@ -3,9 +3,10 @@ aliases:
   - CO2
   - CO<sub>2</sub>
   - carbon dioxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/carbon_dioxide
 ---
-
-#academic/chemistry #flashcards/academic/Cc/carbon_dioxide
 
 # carbon dioxide
 

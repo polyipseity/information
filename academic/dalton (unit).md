@@ -2,9 +2,11 @@
 aliases:
   - dalton
   - unified atomic mass unit
+tags:
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Dd/dalton__unit_
 ---
-
-#academic/chemistry #academic/physics #flashcards/academic/Dd/dalton__unit_
 
 # dalton
 

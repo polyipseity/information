@@ -2,9 +2,10 @@
 aliases:
   - ice 1h
   - ice Ih
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/ice_Ih
 ---
-
-#academic/chemistry #flashcards/academic/Ii/ice_Ih
 
 # ice I<sub>h</sub>
 

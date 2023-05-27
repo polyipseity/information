@@ -4,9 +4,10 @@ aliases:
   - H<sub>2</sub>SO<sub>4</sub>
   - sulfuric acid
   - sulphuric acid
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/sulfuric_acid
 ---
-
-#academic/chemistry #flashcards/academic/Ss/sulfuric_acid
 
 # sulfuric acid
 

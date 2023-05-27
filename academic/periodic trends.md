@@ -2,9 +2,11 @@
 aliases:
   - periodic trend
   - periodic trends
+tags:
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Pp/periodic_trends
 ---
-
-#academic/chemistry #academic/physics #flashcards/academic/Pp/periodic_trends
 
 %%
 ```Python

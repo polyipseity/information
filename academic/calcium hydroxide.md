@@ -4,9 +4,10 @@ aliases:
   - calcium hydroxide
   - limewater
   - slaked lime
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/calcium_hydroxide
 ---
-
-#academic/chemistry #flashcards/academic/Cc/calcium_hydroxide
 
 # calcium hydroxide
 

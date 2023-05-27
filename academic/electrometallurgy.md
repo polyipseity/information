@@ -1,4 +1,9 @@
-#academic/chemistry #academic/metallurgy #flashcards/academic/Ee/electrometallurgy
+---
+tags:
+  - academic/chemistry
+  - academic/metallurgy
+  - flashcards/academic/Ee/electrometallurgy
+---
 
 %%
 ```Python

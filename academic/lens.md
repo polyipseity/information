@@ -2,9 +2,10 @@
 aliases:
   - lens
   - lenses
+tags:
+  - academic/physics
+  - flashcards/academic/Ll/lens
 ---
-
-#academic/physics #flashcards/academic/Ll/lens
 
 # lens
 

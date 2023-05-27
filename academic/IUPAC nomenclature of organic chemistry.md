@@ -1,9 +1,10 @@
 ---
 aliases:
   - IUPAC nomenclature of organic chemistry
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/IUPAC_nomenclature_of_organic_chemistry
 ---
-
-#academic/chemistry #flashcards/academic/Ii/IUPAC_nomenclature_of_organic_chemistry
 
 %%
 ```Python

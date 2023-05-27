@@ -1,4 +1,9 @@
-#academic/geology #academic/geophysics #flashcards/academic/Ii/internal_structure_of_Earth
+---
+tags:
+  - academic/geology
+  - academic/geophysics
+  - flashcards/academic/Ii/internal_structure_of_Earth
+---
 
 %%
 ```Python

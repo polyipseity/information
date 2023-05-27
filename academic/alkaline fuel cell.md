@@ -3,9 +3,10 @@ aliases:
   - Bacon fuel cell
   - alkaline fuel cell
   - alkaline fuel cells
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/alkaline_fuel_cell
 ---
-
-#academic/chemistry #flashcards/academic/Aa/alkaline_fuel_cell
 
 %%
 ```Python

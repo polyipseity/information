@@ -4,9 +4,11 @@ aliases:
   - ASA
   - acetylsaylicylic acid
   - aspirin
+tags:
+  - academic/biology
+  - academic/chemistry
+  - flashcards/academic/Aa/aspirin
 ---
-
-#academic/biology #academic/chemistry #flashcards/academic/Aa/aspirin
 
 %%
 ```Python

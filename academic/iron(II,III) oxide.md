@@ -5,9 +5,10 @@ aliases:
   - iron(II) iron(III) oxide
   - iron(II, III) oxide
   - iron(II,III) oxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/iron_II_III__oxide
 ---
-
-#academic/chemistry #flashcards/academic/Ii/iron_II_III__oxide
 
 # iron(II,III) oxide
 

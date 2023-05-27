@@ -3,9 +3,10 @@ aliases:
   - MgO
   - magnesia
   - magnesium oxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/magnesium_oxide
 ---
-
-#academic/chemistry #flashcards/academic/Mm/magnesium_oxide
 
 # magnesium oxide
 

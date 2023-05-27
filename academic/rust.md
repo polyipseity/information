@@ -2,9 +2,10 @@
 aliases:
   - rust
   - rusting
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/rust
 ---
-
-#academic/chemistry #flashcards/academic/Rr/rust
 
 %%
 ```Python

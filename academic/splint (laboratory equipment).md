@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ss/splint__laboratory_equipment_
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/splint__laboratory_equipment_
+---
 
 %%
 ```Python

@@ -2,9 +2,10 @@
 aliases:
   - carboxylic acid
   - carboxylic acids
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/carboxylic_acid
 ---
-
-#academic/chemistry #flashcards/academic/Cc/carboxylic_acid
 
 %%
 ```Python

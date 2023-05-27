@@ -3,9 +3,10 @@ aliases:
   - LDF
   - London dispersion force
   - London dispersion forces
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ll/London_dispersion_force
 ---
-
-#academic/chemistry #flashcards/academic/Ll/London_dispersion_force
 
 # London dispersion force
 

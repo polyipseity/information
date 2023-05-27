@@ -1,4 +1,7 @@
-#general/data/nutritional_information
+---
+tags:
+  - general/data/nutritional_information
+---
 
 # Redoxon Triple Action
 nutritional information

@@ -2,9 +2,10 @@
 aliases:
   - extracellular fluid
   - extracellular fluids
+tags:
+  - academic/biology
+  - flashcards/academic/Ee/extracellular_fluid
 ---
-
-#academic/biology #flashcards/academic/Ee/extracellular_fluid
 
 # extracellular fluid
 

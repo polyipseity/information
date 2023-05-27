@@ -2,9 +2,10 @@
 aliases:
   - list of trigonometric identities
   - trigonometric identities
+tags:
+  - academic/mathematics
+  - flashcards/academic/Ll/list_of_trigonometric_identities
 ---
-
-#academic/mathematics #flashcards/academic/Ll/list_of_trigonometric_identities
 
 %%
 ```Python

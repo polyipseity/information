@@ -1,9 +1,10 @@
 ---
 aliases:
   - Reichstein process
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/Reichstein_process
 ---
-
-#academic/chemistry #flashcards/academic/Rr/Reichstein_process
 
 %%
 ```Python

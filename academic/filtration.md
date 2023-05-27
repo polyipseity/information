@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ff/filtration
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ff/filtration
+---
 
 # filtration
 

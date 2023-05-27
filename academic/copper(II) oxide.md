@@ -3,9 +3,10 @@ aliases:
   - CuO
   - copper(II) oxide
   - cupric oxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/copper_II__oxide
 ---
-
-#academic/chemistry #flashcards/academic/Cc/copper_II__oxide
 
 # copper(II) oxide
 

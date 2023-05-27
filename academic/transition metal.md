@@ -4,9 +4,10 @@ aliases:
   - transition elements
   - transition metal
   - transition metals
+tags:
+  - academic/chemistry
+  - flashcards/academic/Tt/transition_metal
 ---
-
-#academic/chemistry #flashcards/academic/Tt/transition_metal
 
 %%
 ```Python

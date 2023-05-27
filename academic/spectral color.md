@@ -2,9 +2,10 @@
 aliases:
   - spectral color
   - spectral colors
+tags:
+  - academic/physics
+  - flashcards/academic/Ss/spectral_color
 ---
-
-#academic/physics #flashcards/academic/Ss/spectral_color
 
 %%
 ```Python

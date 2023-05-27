@@ -2,9 +2,10 @@
 aliases:
   - chemical
   - chemistry
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemistry
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemistry
 
 # chemistry
 

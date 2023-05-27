@@ -3,9 +3,11 @@ aliases:
   - acidity
   - pH
   - pOH
+tags:
+  - academic/biology
+  - academic/chemistry
+  - flashcards/academic/Pp/pH
 ---
-
-#academic/biology #academic/chemistry #flashcards/academic/Pp/pH
 
 # pH
 

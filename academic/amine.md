@@ -2,9 +2,10 @@
 aliases:
   - amine
   - amines
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/amine
 ---
-
-#academic/chemistry #flashcards/academic/Aa/amine
 
 # amine
 

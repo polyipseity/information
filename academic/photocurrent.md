@@ -2,9 +2,10 @@
 aliases:
   - photoelectric current
   - photovoltaic current
+tags:
+  - academic/physics
+  - flashcards/academic/Pp/photocurrent
 ---
-
-#academic/physics #flashcards/academic/Pp/photocurrent
 
 # photocurrent
 

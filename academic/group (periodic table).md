@@ -2,9 +2,11 @@
 aliases:
   - group
   - groups
+tags:
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Gg/group__periodic_table_
 ---
-
-#academic/chemistry #academic/physics #flashcards/academic/Gg/group__periodic_table_
 
 %%
 ```Python

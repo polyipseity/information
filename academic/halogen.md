@@ -6,9 +6,10 @@ aliases:
   - group VIIB
   - halogen
   - halogens
+tags:
+  - academic/chemistry
+  - flashcards/academic/Hh/halogen
 ---
-
-#academic/chemistry #flashcards/academic/Hh/halogen
 
 %%
 ```Python

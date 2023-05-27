@@ -2,9 +2,11 @@
 aliases:
   - microscope
   - microscopes
+tags:
+  - academic/biology
+  - academic/physics
+  - flashcards/academic/Mm/microscope
 ---
-
-#academic/biology #academic/physics #flashcards/academic/Mm/microscope
 
 # microscope
 

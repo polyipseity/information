@@ -3,9 +3,10 @@ aliases:
   - alkali metal
   - alkali metals
   - lithium group
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/alkali_metal
 ---
-
-#academic/chemistry #flashcards/academic/Aa/alkali_metal
 
 %%
 ```Python

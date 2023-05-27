@@ -4,9 +4,10 @@ aliases:
   - solutes
   - solution
   - solutions
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/solution__chemistry_
 ---
-
-#academic/chemistry #flashcards/academic/Ss/solution__chemistry_
 
 # solution
 

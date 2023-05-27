@@ -1,9 +1,10 @@
 ---
 aliases:
   - atomicity
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/atomicity
 ---
-
-#academic/chemistry #flashcards/academic/Aa/atomicity
 
 %%
 ```Python

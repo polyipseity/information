@@ -4,9 +4,10 @@ aliases:
   - acid strengths
   - strong acid
   - strong acids
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/acid_strength
 ---
-
-#academic/chemistry #flashcards/academic/Aa/acid_strength
 
 # acid strength
 

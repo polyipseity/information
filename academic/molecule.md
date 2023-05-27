@@ -2,9 +2,10 @@
 aliases:
   - molecule
   - molecules
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/molecule
 ---
-
-#academic/chemistry #flashcards/academic/Mm/molecule
 
 # molecule
 

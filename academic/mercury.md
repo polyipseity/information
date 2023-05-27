@@ -2,9 +2,10 @@
 aliases:
   - Hg
   - mercury
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/mercury
 ---
-
-#academic/chemistry #flashcards/academic/Mm/mercury
 
 %%
 ```Python

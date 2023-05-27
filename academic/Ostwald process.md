@@ -1,9 +1,10 @@
 ---
 aliases:
   - Ostwald process
+tags:
+  - academic/chemistry
+  - flashcards/academic/Oo/Ostwald_process
 ---
-
-#academic/chemistry #flashcards/academic/Oo/Ostwald_process
 
 %%
 ```Python

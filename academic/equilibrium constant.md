@@ -2,9 +2,10 @@
 aliases:
   - equilibrium constant
   - equilibrium constants
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/equilibrium_constant
 ---
-
-#academic/chemistry #flashcards/academic/Ee/equilibrium_constant
 
 # equilibrium constant
 

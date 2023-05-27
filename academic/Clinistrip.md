@@ -3,9 +3,10 @@ aliases:
   - Clinistix
   - Clinistrip
   - Diastix
+tags:
+  - academic/biology
+  - flashcards/academic/Cc/Clinistrip
 ---
-
-#academic/biology #flashcards/academic/Cc/Clinistrip
 
 # Clinistrip
 

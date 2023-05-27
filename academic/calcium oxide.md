@@ -3,9 +3,10 @@ aliases:
   - CaO
   - calcium oxide
   - quicklime
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/calcium_oxide
 ---
-
-#academic/chemistry #flashcards/academic/Cc/calcium_oxide
 
 %%
 ```Python

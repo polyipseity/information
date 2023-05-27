@@ -4,9 +4,10 @@ aliases:
   - rate equations
   - rate law
   - rate laws
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/rate_equation
 ---
-
-#academic/chemistry #flashcards/academic/Rr/rate_equation
 
 # rate equation
 

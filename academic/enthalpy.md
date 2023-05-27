@@ -2,9 +2,11 @@
 aliases:
   - enthalpies
   - enthalpy
+tags:
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Ee/enthalpy
 ---
-
-#academic/chemistry #academic/physics #flashcards/academic/Ee/enthalpy
 
 %%
 ```Python

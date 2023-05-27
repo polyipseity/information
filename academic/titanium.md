@@ -2,9 +2,10 @@
 aliases:
   - Ti
   - titanium
+tags:
+  - academic/chemistry
+  - flashcards/academic/Tt/titanium
 ---
-
-#academic/chemistry #flashcards/academic/Tt/titanium
 
 %%
 ```Python
