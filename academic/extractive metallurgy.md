@@ -1,4 +1,9 @@
-#academic/chemistry #academic/metallurgy #flashcards/academic/Ee/extractive_metallurgy
+---
+tags:
+  - academic/chemistry
+  - academic/metallurgy
+  - flashcards/academic/Ee/extractive_metallurgy
+---
 
 # extractive metallurgy
 

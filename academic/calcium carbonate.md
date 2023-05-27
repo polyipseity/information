@@ -1,9 +1,10 @@
 ---
 aliases:
   - CaCO3
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/calcium_carbonate
 ---
-
-#academic/chemistry #flashcards/academic/Cc/calcium_carbonate
 
 # calcium carbonate
 

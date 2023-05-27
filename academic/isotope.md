@@ -2,9 +2,10 @@
 aliases:
   - isotope
   - isotopes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/isotope
 ---
-
-#academic/chemistry #flashcards/academic/Ii/isotope
 
 # isotope
 

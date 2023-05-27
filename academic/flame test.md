@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ff/flame_test
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ff/flame_test
+---
 
 %%
 ```Python

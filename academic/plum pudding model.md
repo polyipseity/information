@@ -1,4 +1,8 @@
-#academic/physics #flashcards/academic/Pp/plum_pudding_model
+---
+tags:
+  - academic/physics
+  - flashcards/academic/Pp/plum_pudding_model
+---
 
 # plum pudding model
 

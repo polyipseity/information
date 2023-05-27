@@ -2,9 +2,10 @@
 aliases:
   - addition reaction
   - addition reactions
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/addition_reaction
 ---
-
-#academic/chemistry #flashcards/academic/Aa/addition_reaction
 
 # addition reaction
 

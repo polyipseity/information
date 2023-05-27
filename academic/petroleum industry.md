@@ -2,9 +2,10 @@
 aliases:
   - petroleum industries
   - petroleum industry
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/petroleum_industry
 ---
-
-#academic/chemistry #flashcards/academic/Pp/petroleum_industry
 
 %%
 ```Python

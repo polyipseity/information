@@ -2,9 +2,11 @@
 aliases:
   - H2CO3
   - carbonic acid
+tags:
+  - academic/biology
+  - academic/chemistry
+  - flashcards/academic/Cc/carbonic_acid
 ---
-
-#academic/biology #academic/chemistry #flashcards/academic/Cc/carbonic_acid
 
 # carbonic acid
 

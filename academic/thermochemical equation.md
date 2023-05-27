@@ -2,9 +2,10 @@
 aliases:
   - thermochemical equations
   - therochemical equation
+tags:
+  - academic/chemistry
+  - flashcards/academic/Tt/thermochemical_equation
 ---
-
-#academic/chemistry #flashcards/academic/Tt/thermochemical_equation
 
 # thermochemical equation
 

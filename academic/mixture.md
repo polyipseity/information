@@ -1,9 +1,10 @@
 ---
 aliases:
   - mixtures
+tags:
+  - academic/chemistry
+  - flashcards/academic/Mm/mixture
 ---
-
-#academic/chemistry #flashcards/academic/Mm/mixture
 
 # mixture
 

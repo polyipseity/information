@@ -2,9 +2,10 @@
 aliases:
   - Ag2O
   - silver oxide
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/silver_oxide
 ---
-
-#academic/chemistry #flashcards/academic/Ss/silver_oxide
 
 # silver oxide
 

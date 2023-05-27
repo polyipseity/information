@@ -1,9 +1,10 @@
 ---
 aliases:
   - organic synthesis
+tags:
+  - academic/chemistry
+  - flashcards/academic/Oo/organic_synthesis
 ---
-
-#academic/chemistry #flashcards/academic/Oo/organic_synthesis
 
 %%
 ```Python

@@ -5,9 +5,10 @@ aliases:
   - pure substance
   - substance
   - substances
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_substance
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_substance
 
 # chemical substance
 

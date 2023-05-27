@@ -6,9 +6,10 @@ aliases:
   - electric battery
   - electrical batteries
   - electrical battery
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/electric_battery
 ---
-
-#academic/chemistry #flashcards/academic/Ee/electric_battery
 
 %%
 ```Python

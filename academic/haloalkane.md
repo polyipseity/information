@@ -6,9 +6,10 @@ aliases:
   - haloalkanes
   - halogenoalkane
   - halogenoalkanes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Hh/haloalkane
 ---
-
-#academic/chemistry #flashcards/academic/Hh/haloalkane
 
 %%
 ```Python

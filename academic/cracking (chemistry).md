@@ -1,9 +1,10 @@
 ---
 aliases:
   - cracking
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/cracking__chemistry_
 ---
-
-#academic/chemistry #flashcards/academic/Cc/cracking__chemistry_
 
 %%
 ```Python

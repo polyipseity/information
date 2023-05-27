@@ -4,9 +4,11 @@ aliases:
   - catalyst
   - catalysts
   - catalytic
+tags:
+  - academic/biology
+  - academic/chemistry
+  - flashcards/academic/Cc/catalysis
 ---
-
-#academic/biology #academic/chemistry #flashcards/academic/Cc/catalysis
 
 %%
 ```Python

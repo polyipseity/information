@@ -3,9 +3,10 @@ aliases:
   - alkali
   - alkaline
   - alkalis
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/alkali
 ---
-
-#academic/chemistry #flashcards/academic/Aa/alkali
 
 # alkali
 

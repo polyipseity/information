@@ -9,9 +9,10 @@ aliases:
   - inert gases
   - noble gas
   - noble gases
+tags:
+  - academic/chemistry
+  - flashcards/academic/Nn/noble_gas
 ---
-
-#academic/chemistry #flashcards/academic/Nn/noble_gas
 
 # noble gas
 

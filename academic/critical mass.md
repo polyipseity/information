@@ -1,9 +1,10 @@
 ---
 aliases:
   - critical mass
+tags:
+  - academic/physics
+  - flashcards/academic/Cc/critical_mass
 ---
-
-#academic/physics #flashcards/academic/Cc/critical_mass
 
 # critical mass
 

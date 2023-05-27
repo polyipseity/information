@@ -1,4 +1,9 @@
-#academic/ecology #academic/oceanography #flashcards/academic/Ss/seawater
+---
+tags:
+  - academic/ecology
+  - academic/oceanography
+  - flashcards/academic/Ss/seawater
+---
 
 # seawater
 

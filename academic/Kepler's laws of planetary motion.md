@@ -8,9 +8,10 @@ aliases:
   - Kepler's law of planetary motion
   - Kepler's laws
   - Kepler's laws of planetary motion
+tags:
+  - academic/physics
+  - flashcards/academic/Kk/Kepler_s_laws_of_planetary_motion
 ---
-
-#academic/physics #flashcards/academic/Kk/Kepler_s_laws_of_planetary_motion
 
 %%
 ```Python

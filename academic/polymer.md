@@ -2,9 +2,10 @@
 aliases:
   - polymer
   - polymers
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/polymer
 ---
-
-#academic/chemistry #flashcards/academic/Pp/polymer
 
 # polymer
 

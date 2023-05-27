@@ -6,9 +6,10 @@ aliases:
   - cations
   - ion
   - ions
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ii/ion
 ---
-
-#academic/chemistry #flashcards/academic/Ii/ion
 
 %%
 ```Python

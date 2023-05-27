@@ -2,9 +2,10 @@
 aliases:
   - alkene
   - alkenes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/alkene
 ---
-
-#academic/chemistry #flashcards/academic/Aa/alkene
 
 %%
 ```Python

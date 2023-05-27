@@ -2,9 +2,10 @@
 aliases:
   - chemical properties
   - chemical property
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_property
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_property
 
 # chemical property
 

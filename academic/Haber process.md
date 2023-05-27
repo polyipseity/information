@@ -2,9 +2,10 @@
 aliases:
   - Haber process
   - Haber–Bosch process
+tags:
+  - academic/chemistry
+  - flashcards/academic/Hh/Haber_process
 ---
-
-#academic/chemistry #flashcards/academic/Hh/Haber_process
 
 %%
 ```Python

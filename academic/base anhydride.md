@@ -2,9 +2,10 @@
 aliases:
   - base anhydride
   - base anhydrides
+tags:
+  - academic/chemistry
+  - flashcards/academic/Bb/base_anhydride
 ---
-
-#academic/chemistry #flashcards/academic/Bb/base_anhydride
 
 # base anhydride
 

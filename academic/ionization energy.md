@@ -3,9 +3,10 @@ aliases:
   - ionisation energies
   - ionisation energy
   - ionization energies
+tags:
+  - academic/physics
+  - flashcards/academic/Ii/ionization_energy
 ---
-
-#academic/physics #flashcards/academic/Ii/ionization_energy
 
 # ionization energy
 

@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ll/limestone
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ll/limestone
+---
 
 %%
 ```Python

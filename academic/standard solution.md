@@ -2,9 +2,10 @@
 aliases:
   - standard solution
   - standard solutions
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ss/standard_solution
 ---
-
-#academic/chemistry #flashcards/academic/Ss/standard_solution
 
 # standard solution
 

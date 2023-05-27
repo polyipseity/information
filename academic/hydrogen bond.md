@@ -6,9 +6,10 @@ aliases:
   - hydrogen bond
   - hydrogen bonding
   - hydrogen bonds
+tags:
+  - academic/chemistry
+  - flashcards/academic/Hh/hydrogen_bond
 ---
-
-#academic/chemistry #flashcards/academic/Hh/hydrogen_bond
 
 # hydrogen bond
 

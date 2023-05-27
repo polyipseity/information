@@ -2,9 +2,10 @@
 aliases:
   - primary standard
   - primary standards
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/primary_standard
 ---
-
-#academic/chemistry #flashcards/academic/Pp/primary_standard
 
 %%
 ```Python

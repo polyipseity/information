@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ee/erosion
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ee/erosion
+---
 
 # erosion
 

@@ -4,9 +4,10 @@ aliases:
   - titrimetric analysis
   - titrimetry
   - volumetric analysis
+tags:
+  - academic/chemistry
+  - flashcards/academic/Tt/titration
 ---
-
-#academic/chemistry #flashcards/academic/Tt/titration
 
 %%
 ```Python

@@ -4,9 +4,10 @@ aliases:
   - primary battery
   - primary cell
   - primary cells
+tags:
+  - academic/chemistry
+  - flashcards/academic/Pp/primary_battery
 ---
-
-#academic/chemistry #flashcards/academic/Pp/primary_battery
 
 # primary battery
 

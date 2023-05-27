@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Oo/oxygen
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Oo/oxygen
+---
 
 %%
 ```Python

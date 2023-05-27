@@ -5,9 +5,10 @@ aliases:
   - Rutherford gold foil experiments
   - gold foil experiment
   - gold foil experiments
+tags:
+  - academic/physics
+  - flashcards/academic/Gg/Geiger-Marsden_experiments
 ---
-
-#academic/physics #flashcards/academic/Gg/Geiger-Marsden_experiments
 
 # Geiger–Marsden experiments
 

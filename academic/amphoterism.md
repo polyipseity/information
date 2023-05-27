@@ -2,9 +2,10 @@
 aliases:
   - amphoteric
   - amphoterism
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/amphoterism
 ---
-
-#academic/chemistry #flashcards/academic/Aa/amphoterism
 
 # amphoterism
 

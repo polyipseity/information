@@ -6,9 +6,10 @@ aliases:
   - group 2
   - group II
   - group IIA
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/alkaline_earth_metal
 ---
-
-#academic/chemistry #flashcards/academic/Aa/alkaline_earth_metal
 
 %%
 ```Python

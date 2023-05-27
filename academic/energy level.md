@@ -1,9 +1,10 @@
 ---
 aliases:
   - energy levels
+tags:
+  - academic/physics
+  - flashcards/academic/Ee/energy_level
 ---
-
-#academic/physics #flashcards/academic/Ee/energy_level
 
 # energy level
 

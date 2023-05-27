@@ -8,9 +8,10 @@ aliases:
   - secondary cells
   - storage batteries
   - storage battery
+tags:
+  - academic/chemistry
+  - flashcards/academic/Rr/rechargeable_battery
 ---
-
-#academic/chemistry #flashcards/academic/Rr/rechargeable_battery
 
 # rechargeable battery
 

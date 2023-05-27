@@ -1,4 +1,8 @@
-#academic/chemistry #flashcards/academic/Ff/filter_paper
+---
+tags:
+  - academic/chemistry
+  - flashcards/academic/Ff/filter_paper
+---
 
 # filter paper
 

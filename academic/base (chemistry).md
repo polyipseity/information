@@ -3,9 +3,10 @@ aliases:
   - base
   - bases
   - basic
+tags:
+  - academic/chemistry
+  - flashcards/academic/Bb/base__chemistry_
 ---
-
-#academic/chemistry #flashcards/academic/Bb/base__chemistry_
 
 # base
 

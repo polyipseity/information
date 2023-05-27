@@ -3,9 +3,10 @@ aliases:
   - parsec
   - parsecs
   - pc
+tags:
+  - academic/physics
+  - flashcards/academic/Pp/parsec
 ---
-
-#academic/physics #flashcards/academic/Pp/parsec
 
 # parsec
 

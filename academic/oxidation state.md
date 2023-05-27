@@ -1,9 +1,10 @@
 ---
 aliases:
   - oxidation number
+tags:
+  - academic/chemistry
+  - flashcards/academic/Oo/oxidation_state
 ---
-
-#academic/chemistry #flashcards/academic/Oo/oxidation_state
 
 # oxidation state
 

@@ -5,9 +5,10 @@ aliases:
   - EMR
   - electromagnetic wave
   - electromagnetic waves
+tags:
+  - academic/physics
+  - flashcards/academic/Ee/electromagnetic_radiation
 ---
-
-#academic/physics #flashcards/academic/Ee/electromagnetic_radiation
 
 # electromagnetic radiation
 

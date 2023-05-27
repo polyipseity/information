@@ -2,9 +2,10 @@
 aliases:
   - amide
   - amides
+tags:
+  - academic/chemistry
+  - flashcards/academic/Aa/amide
 ---
-
-#academic/chemistry #flashcards/academic/Aa/amide
 
 %%
 ```Python

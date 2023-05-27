@@ -1,9 +1,10 @@
 ---
 aliases:
   - chemical changes
+tags:
+  - academic/chemistry
+  - flashcards/academic/Cc/chemical_change
 ---
-
-#academic/chemistry #flashcards/academic/Cc/chemical_change
 
 # chemical change
 

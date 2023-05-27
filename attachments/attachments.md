@@ -1,8 +1,8 @@
 ---
 aliases: []
+tags:
+  - functional/index
 ---
-
-#functional/index
 
 # attachments
 

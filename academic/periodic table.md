@@ -2,9 +2,11 @@
 aliases:
   - periodic table
   - periodic tables
+tags:
+  - academic/chemistry
+  - academic/physics
+  - flashcards/academic/Pp/periodic_table
 ---
-
-#academic/chemistry #academic/physics #flashcards/academic/Pp/periodic_table
 
 # periodic table
 
