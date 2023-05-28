@@ -41,7 +41,7 @@ return await memorize_table(
 > |-|-|
 > | {{[aromatic hydrocarbons](aromatic%20compound.md)}} | {{Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).}} |
 > | {{[saturated hydrocarbons](saturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [single bonds](single%20bond.md) only.}} |
-> | {{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [multiple bonds](bond%20order.md).}} | <!--SR:!2023-06-23,63,310!2023-05-28,39,270!2023-06-22,62,310!2023-06-25,64,310!2023-06-19,60,310!2023-06-24,64,310-->
+> | {{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [multiple bonds](bond%20order.md).}} | <!--SR:!2023-06-23,63,310!2023-09-14,109,270!2023-06-22,62,310!2023-06-25,64,310!2023-06-19,60,310!2023-06-24,64,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -60,4 +60,4 @@ return await memorize_table(
 
 - See: [combustion](combustion.md)
 
-Hydrocarbons combust to produce {{[steam](steam.md), [carbon dioxide](carbon%20dioxide.md), and heat with an adequate supply of [oxygen](oxygen.md)}}. If there is insufficient oxygen, {{incomplete combustion occurs, producing [carbon monoxide](carbon%20monoxide.md) and [soot](soot.md)}}. <!--SR:!2023-06-09,42,250!2023-05-27,39,270-->
+Hydrocarbons combust to produce {{[steam](steam.md), [carbon dioxide](carbon%20dioxide.md), and heat with an adequate supply of [oxygen](oxygen.md)}}. If there is insufficient oxygen, {{incomplete combustion occurs, producing [carbon monoxide](carbon%20monoxide.md) and [soot](soot.md)}}. <!--SR:!2023-06-09,42,250!2023-10-28,153,290-->

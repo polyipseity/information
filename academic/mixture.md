@@ -30,4 +30,4 @@ A homogeneous mixture has {{uniformly distributed constituents}}. <!--SR:!2023-0
 
 ### heterogeneous mixture
 
-A heterogeneous mixture has {{clearly separated constituents}}. <!--SR:!2023-05-27,40,290-->
+A heterogeneous mixture has {{clearly separated constituents}}. <!--SR:!2023-09-27,122,290-->

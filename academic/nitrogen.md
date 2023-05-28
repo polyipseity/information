@@ -47,14 +47,14 @@ return await memorize_table(
 > |-|-|
 > | {{food packaging}} | {{To prevent [food spoilage](food%20spoilage.md).}} |
 > | {{making [ammonia](ammonia.md)}} |  |
-> | {{[refrigerant](refrigerant.md)}} |  | <!--SR:!2023-06-04,48,290!2023-06-28,66,310!2023-05-29,42,290!2023-05-27,34,250-->
+> | {{[refrigerant](refrigerant.md)}} |  | <!--SR:!2023-06-04,48,290!2023-06-28,66,310!2023-05-29,42,290!2023-10-03,128,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="232ba1"--><!-- The following content is generated at 2023-03-14T22:44:07.551779+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←food packaging <!--SR:!2023-06-18,59,310!2023-06-24,64,310-->
-2. food packaging→:::←making [ammonia](ammonia.md) <!--SR:!2023-05-27,38,290!2023-06-26,65,310-->
+2. food packaging→:::←making [ammonia](ammonia.md) <!--SR:!2023-11-07,163,310!2023-06-26,65,310-->
 3. making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md) <!--SR:!2023-06-07,42,250!2023-07-24,79,290-->
 4. [refrigerant](refrigerant.md)→:::←_(end)_ <!--SR:!2023-06-10,52,310!2023-08-29,95,270-->
 

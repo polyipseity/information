@@ -17,7 +17,7 @@ tags:
 
 # evaporation
 
-__Evaporation__ is {{a kind of [vaporization](vaporization.md) that takes place on the surface of a [liquid](liquid.md) changing into [gas](gas.md) below [boiling point](boiling%20point.md)}}. <!--SR:!2023-05-27,39,270-->
+__Evaporation__ is {{a kind of [vaporization](vaporization.md) that takes place on the surface of a [liquid](liquid.md) changing into [gas](gas.md) below [boiling point](boiling%20point.md)}}. <!--SR:!2023-09-16,111,270-->
 
 ## factors influecing evaporation rate
 

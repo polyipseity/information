@@ -93,7 +93,7 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-06-16,56,310-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-05-27,7,210!2023-05-29,42,290!2023-06-25,64,310!2023-06-18,33,230!2023-05-28,41,290!2023-07-07,67,270-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-06-24,27,230!2023-05-29,42,290!2023-06-25,64,310!2023-06-18,33,230!2023-11-15,171,310!2023-07-07,67,270-->
 
 ### electroplating
 
@@ -101,7 +101,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-06-16,5
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-07-01,54,250-->
 
-In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-07-04,59,250!2023-05-30,35,230!2023-06-05,31,230!2023-08-30,99,270!2023-06-28,66,310!2023-07-12,71,270!2023-05-27,40,290-->
+In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-07-04,59,250!2023-05-30,35,230!2023-06-05,31,230!2023-08-30,99,270!2023-06-28,66,310!2023-07-12,71,270!2023-09-26,121,290-->
 
 ### cathodic protection
 

@@ -65,9 +65,9 @@ return await memorize_seq(
 1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-06-05,49,292!2023-05-31,46,292-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-07-06,41,232!2023-06-29,69,312-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-09-15,112,270!2023-08-11,83,252-->
-4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-05-27,43,292!2023-07-23,73,252-->
+4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-06-22,25,272!2023-07-23,73,252-->
 5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-06-08,41,230!2023-06-06,51,292-->
-6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-05-30,45,292!2023-05-28,44,292-->
+6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-05-30,45,292!2023-11-22,178,312-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

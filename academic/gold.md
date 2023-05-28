@@ -44,6 +44,6 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4125"--><!-- The following content is generated at 2023-03-21T16:20:25.365131+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←coins, jewellery <!--SR:!2023-06-16,58,310!2023-06-19,60,310-->
-2. coins, jewellery→:::←_(end)_ <!--SR:!2023-06-08,52,290!2023-05-28,43,290-->
+2. coins, jewellery→:::←_(end)_ <!--SR:!2023-06-08,52,290!2023-11-18,174,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

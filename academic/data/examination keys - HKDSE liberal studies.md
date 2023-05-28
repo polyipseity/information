@@ -55,7 +55,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2023-05-28,21,250!2023-07-24,69,295!2023-07-19,64,295!2023-07-04,39,270!2023-08-12,78,275!2023-07-06,44,235!2023-07-16,61,295!2023-07-13,58,295!2023-08-03,72,275!2023-07-17,62,295-->
+> | {{weak analogies}} | <!--SR:!2023-07-22,55,250!2023-07-24,69,295!2023-07-19,64,295!2023-07-04,39,270!2023-08-12,78,275!2023-07-06,44,235!2023-07-16,61,295!2023-07-13,58,295!2023-08-03,72,275!2023-07-17,62,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -108,7 +108,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-07-21,66,310!2023-07-21,66,310!2023-06-12,32,270!2023-06-06,28,250!2023-07-03,48,295!2023-06-18,39,275!2023-07-18,63,295!2023-07-19,64,295!2023-07-16,61,295!2023-07-18,63,295!2023-07-19,64,295!2023-05-27,9,215-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-07-21,66,310!2023-07-21,66,310!2023-06-12,32,270!2023-06-06,28,250!2023-07-03,48,295!2023-06-18,39,275!2023-07-18,63,295!2023-07-19,64,295!2023-07-16,61,295!2023-07-18,63,295!2023-07-19,64,295!2023-07-02,35,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -212,18 +212,18 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-05-27,20,255!2023-06-01,24,255!2023-06-20,33,235!2023-06-26,46,295!2023-05-29,22,255!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-06-02,10,210!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-06-01,24,255!2023-06-20,33,235!2023-06-26,46,295!2023-05-29,22,255!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-06-02,10,210!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-07-19,64,290!2023-06-23,43,295-->
-2. according to/refer to→:::←cause/reason <!--SR:!2023-05-29,13,195!2023-05-27,20,255-->
+2. according to/refer to→:::←cause/reason <!--SR:!2023-05-29,13,195!2023-08-15,79,275-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-06-01,16,230!2023-06-16,31,235-->
 4. effectiveness→:::←factor <!--SR:!2023-05-30,22,255!2023-06-04,24,230-->
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-05-28,5,135-->
+6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-05-31,3,130-->
 7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-05-30,23,255-->
 8. trend→:::←with reference to <!--SR:!2023-06-05,10,230!2023-05-31,15,230-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
@@ -278,7 +278,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2023-06-03,25,2
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-06-27,34,290!2023-06-04,26,255!2023-05-28,8,210-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-06-27,34,290!2023-06-04,26,255!2023-06-22,25,230-->
 
 ## essay patterns
 
@@ -315,9 +315,9 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2023-04-26T19:16:21.053434+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-05-28,8,235!2023-07-16,61,295-->
+1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-06-26,29,255!2023-07-16,61,295-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2023-07-21,66,290!2023-07-16,61,295-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-05-28,20,255!2023-06-16,37,275-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-06-08,11,235!2023-06-16,37,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-06-16,38,270!2023-06-07,29,255-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-06-28,43,275!2023-06-17,38,270-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-28,72,310!2023-07-15,60,295-->

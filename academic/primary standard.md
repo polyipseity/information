@@ -55,13 +55,13 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2023-03-23T16:01:43.584612+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←high purity <!--SR:!2023-05-28,41,290!2023-07-05,72,310-->
+1. _(begin)_→:::←high purity <!--SR:!2023-11-12,168,310!2023-07-05,72,310-->
 2. high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2023-06-13,42,250!2023-07-24,71,270-->
 3. low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2023-07-10,61,250!2023-06-26,54,250-->
 4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2023-07-08,43,250!2023-07-31,66,230-->
 5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2023-06-02,25,230!2023-06-30,52,270-->
 6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2023-06-03,20,230!2023-07-31,78,270-->
-7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-07-29,83,270!2023-05-27,22,250-->
-8. ready and cheap availability→:::←_(end)_ <!--SR:!2023-07-06,73,310!2023-05-27,40,290-->
+7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-07-29,83,270!2023-08-21,85,270-->
+8. ready and cheap availability→:::←_(end)_ <!--SR:!2023-07-06,73,310!2023-11-13,169,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
