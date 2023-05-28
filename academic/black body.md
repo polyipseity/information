@@ -13,4 +13,4 @@ tags:
 
 > {{![black body spectral radiance curves](../attachments/Black%20body.svg)}}
 >
-> {{black body [spectral radiance](spectral%20radiance.md) curves}} <!--SR:!2023-05-28,14,270!2023-05-30,16,270-->
+> {{black body [spectral radiance](spectral%20radiance.md) curves}} <!--SR:!2023-07-22,55,290!2023-05-30,16,270-->

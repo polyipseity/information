@@ -16,4 +16,4 @@ A photon is {{[massless](massless%20particle.md)}}, so they {{always move at the
 
 It carries {{[energy](energy.md) $E$ proportional to its [frequency](frequency.md) $f$}}:
 {{$$E=hf$$}}
-where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2023-05-27,116,270!2023-12-17,292,330!2024-01-03,304,330-->
+where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2024-08-07,437,290!2023-12-17,292,330!2024-01-03,304,330-->

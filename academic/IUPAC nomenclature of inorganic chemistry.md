@@ -104,4 +104,4 @@ return await memorize_table(
 
 ### molecular compounds
 
-{{Inorganic}} molecular compounds are {{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix after the last element}}. The elements are {{ordered in ascending [electronegativity](electronegativity.md)}}. Additionally, {{_mono-_ is not used with the first element}}. Exceptions exist. <!--SR:!2023-07-06,74,317!2023-07-27,65,257!2023-05-28,40,277!2023-06-05,45,297-->
+{{Inorganic}} molecular compounds are {{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix after the last element}}. The elements are {{ordered in ascending [electronegativity](electronegativity.md)}}. Additionally, {{_mono-_ is not used with the first element}}. Exceptions exist. <!--SR:!2023-07-06,74,317!2023-07-27,65,257!2023-11-03,159,297!2023-06-05,45,297-->

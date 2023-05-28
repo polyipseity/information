@@ -333,7 +333,7 @@ return chain.from_iterable(await gather(
 3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
 4. copper(I) ion::_(n/a)_ <!--SR:!2023-06-09,140,276-->
 5. silver ion::colorless <!--SR:!2023-08-12,355,259-->
-6. mercury(I) ion::_(n/a)_ <!--SR:!2023-05-27,132,276-->
+6. mercury(I) ion::_(n/a)_ <!--SR:!2024-05-30,368,276-->
 7. ammonium ion::colorless <!--SR:!2026-05-12,1149,339-->
 8. magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
 9. calcium ion::colorless <!--SR:!2024-03-02,499,272-->
@@ -361,10 +361,10 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-08T13:40:47.993725+08:00. Any edits will be overridden! -->
 
-1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-05-27,23,221-->
+1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-07-23,56,221-->
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-07-15,69,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-10-31,160,321-->
-4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-05-27,11,261-->
+4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-06-30,33,261-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-07-22,88,361-->
 6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-07-17,84,361-->
 7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2023-05-31,14,262-->
@@ -479,7 +479,7 @@ return chain.from_iterable(await gather(
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-02-16,434,250-->
 13. oxide ion::_(n/a)_ <!--SR:!2023-07-04,157,276-->
-14. sulfide ion::_(n/a)_ <!--SR:!2023-05-28,132,276-->
+14. sulfide ion::_(n/a)_ <!--SR:!2023-08-04,68,256-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-11-19,198,274-->
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->

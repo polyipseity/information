@@ -53,7 +53,7 @@ return await memorize_table(
 > | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../attachments/GHS-pictogram-skull.svg)}} |  |
 > | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../attachments/GHS-pictogram-exclam.svg)}} |  |
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../attachments/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-06-24,64,310!2023-05-27,42,290!2023-06-11,50,290!2023-06-28,67,310!2023-06-18,60,310!2023-06-10,50,290!2023-06-26,66,310!2023-06-17,59,310!2023-06-28,68,310!2023-06-03,45,290!2023-06-27,67,310!2023-06-22,63,310!2023-06-04,45,290!2023-05-30,42,290!2023-06-20,61,310!2023-06-13,52,290!2023-06-25,65,310!2023-07-01,64,290-->
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-06-24,64,310!2023-11-17,173,310!2023-06-11,50,290!2023-06-28,67,310!2023-06-18,60,310!2023-06-10,50,290!2023-06-26,66,310!2023-06-17,59,310!2023-06-28,68,310!2023-06-03,45,290!2023-06-27,67,310!2023-06-22,63,310!2023-06-04,45,290!2023-05-30,42,290!2023-06-20,61,310!2023-06-13,52,290!2023-06-25,65,310!2023-07-01,64,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

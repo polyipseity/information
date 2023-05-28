@@ -77,10 +77,10 @@ return await memorize_table(
 5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-08-05,81,270!2023-06-05,18,250-->
 6. [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2023-06-29,50,230!2023-09-06,113,290-->
 7. [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2023-06-05,48,290!2023-06-15,47,250-->
-8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-05-27,40,290!2023-06-02,19,230-->
+8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-11-11,167,310!2023-06-02,19,230-->
 9. [melting point](melting%20point.md)→:::←[odor](odor.md) <!--SR:!2023-06-22,51,250!2023-07-23,73,270-->
 10. [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2023-07-03,58,250!2023-08-15,97,290-->
-11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-07-03,55,230!2023-05-27,16,250-->
+11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-07-03,55,230!2023-06-07,10,230-->
 12. [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2023-05-31,5,210!2023-06-09,17,210-->
 13. [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2023-07-04,71,310!2023-07-05,72,310-->
 14. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2023-07-06,73,310!2023-07-03,70,310-->

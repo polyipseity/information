@@ -59,7 +59,7 @@ return await memorize_table(
 1. _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2023-06-05,49,290!2023-06-19,59,310-->
 2. [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2023-09-05,114,290!2023-08-25,100,290-->
 3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2023-08-12,88,270!2023-06-03,44,290-->
-4. [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2023-08-06,82,270!2023-05-27,39,270-->
+4. [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2023-08-06,82,270!2023-09-17,112,270-->
 5. [galena](galena.md)→:::←[hematite](hematite.md) <!--SR:!2023-09-10,107,270!2023-08-30,99,270-->
 6. [hematite](hematite.md)→:::←_(end)_ <!--SR:!2023-06-20,60,310!2023-06-09,51,310-->
 
