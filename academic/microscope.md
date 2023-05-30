@@ -18,7 +18,7 @@ A __microscope__ is {{a [laboratory instrument](laboratory%20equipment.md) for e
 
 - see: [optical microscope](optical%20microscope.md)
 
-A optical microscope contains {{one or more convex [lens](lens.md)}}. The set of lens closer to the object is {{the _objective_ while the remaining set is the _eyepiece_}}. <!--SR:!2023-05-29,15,270!2023-06-08,25,290-->
+A optical microscope contains {{one or more convex [lens](lens.md)}}. The set of lens closer to the object is {{the _objective_ while the remaining set is the _eyepiece_}}. <!--SR:!2023-07-29,60,290!2023-06-08,25,290-->
 
 ### electron microscope
 

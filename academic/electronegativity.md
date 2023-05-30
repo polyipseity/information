@@ -13,4 +13,4 @@ tags:
 
 # electronegativity
 
-__Electronegativity__ (symbol: {{[χ](chi%20(letter).md)}}) is {{the tendency of an [element](chemical%20element.md) to attract shared [electrons](electron.md) in a [chemical bond](chemical%20bond.md)}}. <!--SR:!2023-06-06,50,290!2023-05-29,34,230-->
+__Electronegativity__ (symbol: {{[χ](chi%20(letter).md)}}) is {{the tendency of an [element](chemical%20element.md) to attract shared [electrons](electron.md) in a [chemical bond](chemical%20bond.md)}}. <!--SR:!2023-06-06,50,290!2023-09-22,115,250-->

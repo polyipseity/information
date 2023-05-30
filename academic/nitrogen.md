@@ -47,7 +47,7 @@ return await memorize_table(
 > |-|-|
 > | {{food packaging}} | {{To prevent [food spoilage](food%20spoilage.md).}} |
 > | {{making [ammonia](ammonia.md)}} |  |
-> | {{[refrigerant](refrigerant.md)}} |  | <!--SR:!2023-06-04,48,290!2023-06-28,66,310!2023-05-29,42,290!2023-10-03,128,270-->
+> | {{[refrigerant](refrigerant.md)}} |  | <!--SR:!2023-06-04,48,290!2023-06-28,66,310!2023-11-25,179,310!2023-10-03,128,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

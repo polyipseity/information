@@ -635,7 +635,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-07-31,94,364!2023-05-29,40,324!2023-08-05,99,364!2023-07-31,94,364!2023-06-26,61,344!2023-08-01,95,364!2023-07-21,84,344!2023-07-28,91,364!2023-06-08,50,344!2023-06-27,62,344-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-07-31,94,364!2023-11-28,182,344!2023-08-05,99,364!2023-07-31,94,364!2023-06-26,61,344!2023-08-01,95,364!2023-07-21,84,344!2023-07-28,91,364!2023-06-08,50,344!2023-06-27,62,344-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
