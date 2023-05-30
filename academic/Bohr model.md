@@ -16,7 +16,7 @@ tags:
 
 # Bohr model
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-06-15,68,250!2023-10-14,225,310!2023-07-05,75,170!2023-07-06,140,290!2023-11-23,183,232!2023-11-07,249,332!2023-05-29,54,192-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-06-15,68,250!2023-10-14,225,310!2023-07-05,75,170!2023-07-06,140,290!2023-11-23,183,232!2023-11-07,249,332!2023-09-17,110,192-->
 
 The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-06-09,35,270!2023-06-18,48,252-->
 
@@ -81,14 +81,14 @@ The Bohr model fails to explain:
 > | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
 > | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
 > | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-06-10,27,304!2023-06-10,27,304!2023-05-30,16,284!2023-05-29,15,284-->
+> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-06-10,27,304!2023-06-10,27,304!2023-08-04,66,304!2023-08-05,67,304-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2023-05-07T09:39:21.519162+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2023-06-06,9,264!2023-06-10,27,304-->
-2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2023-05-29,15,284!2023-05-30,16,284-->
+2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2023-08-03,65,304!2023-08-04,66,304-->
 3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-06-25,33,264!2023-06-11,19,264-->
 4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-06-22,30,264!2023-06-16,27,264-->
 5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2023-06-09,26,304!2023-06-07,24,304-->

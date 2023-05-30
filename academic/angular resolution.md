@@ -18,4 +18,4 @@ According to the criterion, diffraction through a circular [aperture](aperture.m
 > diffraction {{through a circular [aperture](aperture.md)}}
 > - {{$\theta\approx1.22\frac\lambda{D}\quad\mathrm{(considering\ that\ \sin\theta\approx\theta)}$}}
 >
-> where {{_θ_ is _angular resolution_ in [radians](radian.md), _λ_ is the [wavelength](wavelength.md), and _D_ is the [diameter](diameter.md) of the [aperture](aperture.md)}}. <!--SR:!2023-06-09,26,290!2023-05-29,15,270!2023-07-02,39,270-->
+> where {{_θ_ is _angular resolution_ in [radians](radian.md), _λ_ is the [wavelength](wavelength.md), and _D_ is the [diameter](diameter.md) of the [aperture](aperture.md)}}. <!--SR:!2023-06-09,26,290!2023-08-02,64,290!2023-07-02,39,270-->

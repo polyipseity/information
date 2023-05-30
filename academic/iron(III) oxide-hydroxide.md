@@ -17,7 +17,7 @@ It is often seen as {{one of its [hydrates](hydrate.md), FeO(OH)·_n_[H<sub>2</s
 
 ## preparation
 
-Treating {{iron(III) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out reddish brown iron(III) hydroxide}}: <!--SR:!2023-05-29,27,230-->
+Treating {{iron(III) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out reddish brown iron(III) hydroxide}}: <!--SR:!2023-09-02,95,250-->
 
 > treating with [bases](base%20(chemistry).md)
 > - {{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}} <!--SR:!2023-06-16,57,310-->

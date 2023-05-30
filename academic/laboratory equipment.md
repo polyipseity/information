@@ -143,13 +143,13 @@ return await memorize_table(
 5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-06-30,68,310!2023-06-19,60,310-->
 6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-06-30,68,310!2023-07-05,73,310-->
 7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-07-15,62,250!2023-06-10,24,230-->
-8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-05-30,7,210!2023-08-31,100,270-->
+8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-06-03,4,190!2023-08-31,100,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2023-06-14,56,310!2023-06-14,56,310-->
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2023-06-23,63,310!2023-06-19,22,250-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-08-08,91,270!2023-07-02,70,310-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-06-07,50,290!2023-06-24,64,310-->
 13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-06-01,42,290!2023-07-09,42,210-->
-14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-05-29,6,190!2023-06-11,53,290-->
+14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-06-20,21,210!2023-06-11,53,290-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-10-08,133,270!2023-09-08,105,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-06-05,16,210!2023-06-04,45,290-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2023-07-28,63,250!2023-06-01,14,210-->
@@ -172,12 +172,12 @@ return await memorize_table(
 34. [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2023-08-19,91,270!2023-06-10,49,290-->
 35. [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2023-07-18,69,250!2023-06-01,45,290-->
 36. [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2023-07-15,74,270!2023-09-16,116,290-->
-37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-06-03,18,250!2023-05-30,41,290-->
+37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-06-03,18,250!2023-11-11,165,310-->
 38. [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2023-08-01,79,270!2023-09-14,121,290-->
 39. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2023-09-15,122,290!2023-06-06,41,250-->
 40. [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2023-08-20,92,270!2023-06-03,31,270-->
 41. [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2023-06-29,67,310!2023-07-31,78,270-->
-42. [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2023-10-30,155,290!2023-05-30,41,290-->
+42. [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2023-10-30,155,290!2023-11-10,164,310-->
 43. [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2023-07-01,69,310!2023-06-22,62,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

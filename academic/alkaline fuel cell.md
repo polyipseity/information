@@ -21,7 +21,7 @@ The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that con
 
 ## chemistry
 
-Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md) in hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md) with a temperature in between ambient temperature and 90 °C}}: <!--SR:!2023-05-29,40,252-->
+Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md) in hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md) with a temperature in between ambient temperature and 90 °C}}: <!--SR:!2023-09-14,107,252-->
 
 > - [anode](anode.md): {{H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup>}}
 > - [cathode](cathode.md): {{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)}}
@@ -67,7 +67,7 @@ return await memorize_seq(
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-09-15,112,270!2023-08-11,83,252-->
 4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-06-22,25,272!2023-07-23,73,252-->
 5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-06-08,41,230!2023-06-06,51,292-->
-6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-05-30,45,292!2023-11-22,178,312-->
+6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-11-29,183,312!2023-11-22,178,312-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
