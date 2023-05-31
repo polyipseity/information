@@ -87,7 +87,7 @@ return await memorize_table(
 
 - See also: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
 
-Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-05-31,43,290!2023-07-22,78,270!2023-09-13,113,290-->
+Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-11-21,174,310!2023-07-22,78,270!2023-09-13,113,290-->
 
 ### coating and painting
 

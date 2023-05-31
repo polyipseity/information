@@ -50,7 +50,7 @@ return await memorize_table(
 1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-07-11,72,310!2023-07-12,73,310-->
 2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-07-09,70,310!2023-07-10,71,310-->
 3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-06-18,19,250!2023-07-10,71,310-->
-4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-07-11,72,310!2023-05-31,35,270-->
+4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-07-11,72,310!2023-10-11,133,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -112,7 +112,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$}} |
 > | cosine | {{$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$}} |
-> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-06-23,47,250!2023-05-31,39,270!2023-08-01,63,230-->
+> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-06-23,47,250!2023-09-18,110,270!2023-08-01,63,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

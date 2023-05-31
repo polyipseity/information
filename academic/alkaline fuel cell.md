@@ -62,7 +62,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-04-01T12:33:20.432311+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-06-05,49,292!2023-05-31,46,292-->
+1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-06-05,49,292!2023-12-12,195,312-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-07-06,41,232!2023-06-29,69,312-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-09-15,112,270!2023-08-11,83,252-->
 4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-06-22,25,272!2023-07-23,73,252-->
