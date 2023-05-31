@@ -14,7 +14,7 @@ tags:
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2023-07-25,78,250!2023-07-05,122,270-->
 - restore window size:::Alt+Space, R <!--SR:!2023-07-27,137,270!2023-07-15,77,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2023-06-14,97,250!2023-09-17,186,310-->
-- resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-05-31,39,190!2023-09-30,175,270-->
+- resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-08-16,77,190!2023-09-30,175,270-->
 - move window to bottom:::Alt+Esc <!--SR:!2023-11-13,177,230!2023-10-05,179,270-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-06-21,98,250!2023-09-05,148,250-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-11-26,184,230!2023-12-07,220,270-->

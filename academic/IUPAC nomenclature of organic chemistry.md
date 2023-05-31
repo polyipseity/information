@@ -258,7 +258,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
-2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-05-31,69,221-->
+2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-07-09,39,201-->
 3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-12-02,213,210!2023-08-04,201,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -435,7 +435,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-05-31,17,230!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-07-13,43,230!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}

@@ -115,7 +115,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-07-04,49,290!2023-07-23,68,310-->
-2. comparison→:::←factor/reason <!--SR:!2023-06-06,28,250!2023-05-31,23,255-->
+2. comparison→:::←factor/reason <!--SR:!2023-06-06,28,250!2023-06-14,14,235-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-06-02,17,235!2023-06-02,10,175-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-07-05,42,235!2023-07-10,41,215-->
 5. phenomenon→:::←solution <!--SR:!2023-06-08,29,255!2023-06-06,27,250-->
@@ -223,9 +223,9 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 3. cause/reason→:::←effectiveness <!--SR:!2023-06-01,16,230!2023-06-16,31,235-->
 4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-06-04,24,230-->
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-05-31,3,130-->
+6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-06-02,2,130-->
 7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-08-22,84,275-->
-8. trend→:::←with reference to <!--SR:!2023-06-05,10,230!2023-05-31,15,230-->
+8. trend→:::←with reference to <!--SR:!2023-06-05,10,230!2023-06-09,9,210-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -421,7 +421,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-06-21,22,210!2023-06-10,32,275-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-05-31,15,230!2023-06-02,17,230-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-06-08,8,210!2023-06-02,17,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-06-14,35,275!2023-06-02,24,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -496,7 +496,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-06-23,36,235!2023-07-19,64,295-->
-2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-06-23,38,270!2023-05-31,15,230-->
+2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-06-23,38,270!2023-07-23,53,250-->
 3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-07-17,52,255!2023-06-12,27,235-->
 4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2023-07-21,66,290!2023-07-18,53,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2023-07-16,61,295!2023-07-17,62,295-->
