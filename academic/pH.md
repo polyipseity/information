@@ -11,7 +11,7 @@ tags:
 
 # pH
 
-__pH__ is {{a scale of the [acidity](acid.md) or [basicity](base%20(chemistry).md) of an [aqueous solution](aqueous%20solution.md)}}. Lower pH means {{acidic, and high pH means basic or [alkaline](alkali.md)}}. <!--SR:!2023-06-01,45,290!2023-11-13,167,310-->
+__pH__ is {{a scale of the [acidity](acid.md) or [basicity](base%20(chemistry).md) of an [aqueous solution](aqueous%20solution.md)}}. Lower pH means {{acidic, and high pH means basic or [alkaline](alkali.md)}}. <!--SR:!2023-12-05,187,310!2023-11-13,167,310-->
 
 It is defined as {{the negative [logarithm](logarithmic%20scale.md) of the [activity](thermodynamic%20activity.md) of [hydrogen ion](hydrogen%20ion.md) in the [solution](solution%20(chemistry).md), which is approximately the [concentration](concentration.md) of it}}: <!--SR:!2023-06-13,45,250-->
 

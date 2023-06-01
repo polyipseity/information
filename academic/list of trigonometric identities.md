@@ -41,7 +41,7 @@ return await memorize_table(
 > |-|
 > | {{[angle sum and difference](#angle%20sum%20and%20difference)}} |
 > | {{[multiple-angle](#multiple-angle)}} |
-> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-06-01,36,270!2023-07-12,73,310!2023-07-09,70,310-->
+> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2023-10-14,135,290!2023-07-12,73,310!2023-07-09,70,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

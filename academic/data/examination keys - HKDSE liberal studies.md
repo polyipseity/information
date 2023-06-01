@@ -163,7 +163,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2023-07-22,67,310!2023-06-01,9,215!2023-06-29,44,275!2023-06-04,5,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2023-07-22,67,310!2023-06-06,5,195!2023-06-29,44,275!2023-06-04,5,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -212,7 +212,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-06-01,24,255!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-06-02,10,210!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-06-02,10,210!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -220,7 +220,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-07-19,64,290!2023-06-23,43,295-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-06-27,28,195!2023-08-15,79,275-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-06-01,16,230!2023-06-16,31,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-06-11,10,210!2023-06-16,31,235-->
 4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-06-04,24,230-->
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-06-02,2,130-->
@@ -353,7 +353,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-06-07,28,250!2023-07-20,65,295-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2023-06-04,26,250!2023-07-06,44,235-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-06-01,6,195!2023-06-01,16,210-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-06-15,14,195!2023-07-09,38,210-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2023-07-22,67,310!2023-06-03,26,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -459,7 +459,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-06-13,33,270!2023-06-22,42,295-->
 2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2023-07-18,63,295!2023-06-11,31,270-->
-3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-06-01,16,235!2023-06-05,26,255-->
+3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-07-13,42,235!2023-06-05,26,255-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2023-06-02,25,250!2023-06-05,27,250-->
 5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2023-07-22,67,310!2023-06-03,26,255-->
 6. (Conclusion) Summarize solutions.→:::←_(end)_ <!--SR:!2023-07-23,68,310!2023-06-21,41,295-->
