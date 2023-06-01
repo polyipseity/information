@@ -26,7 +26,7 @@ The color darkens as the group is descended. Flourine is {{very pale yellow, chl
 
 ## representative reactions
 
-Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.md) and [covalent compounds](covalent%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-06-01,28,270-->
+Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.md) and [covalent compounds](covalent%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2023-09-20,111,290-->
 
 ### reaction with hydrogen
 

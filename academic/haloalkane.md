@@ -38,7 +38,7 @@ Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in
 
 ### substitution
 
-To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}}. Likewise, [acyl halides](acyl%20halide.md) can {{react similarly to give primary [amides](amide.md)}}. <!--SR:!2023-06-01,37,272!2023-07-29,79,272-->
+To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}}. Likewise, [acyl halides](acyl%20halide.md) can {{react similarly to give primary [amides](amide.md)}}. <!--SR:!2023-09-11,102,272!2023-07-29,79,272-->
 
 #### hydrolysis
 
@@ -74,7 +74,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-08T23:59:05.301619+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-09-10,102,272!2023-07-10,72,312-->
-2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-07-07,48,232!2023-06-01,4,212-->
+2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-07-07,48,232!2023-06-11,10,212-->
 3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-06-22,53,297!2023-06-05,40,277-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
