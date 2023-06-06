@@ -50,7 +50,7 @@ Molecules can be classified based on atomicity as:
 
 1. [monatomic](monoatomic%20molecule.md)::all [noble gases](noble%20gas.md), Ar ([argon](argon.md)) <!--SR:!2023-12-13,197,310-->
 2. [diatomic](diatomic%20molecule.md)::Cl<sub>2</sub> ([chlorine](chlorine.md)), H<sub>2</sub> ([hydrogen](hydrogen.md)), N<sub>2</sub> ([nitrogen](nitrogen.md)), O<sub>2</sub> ([oxygen](oxygen.md)) <!--SR:!2023-06-19,50,230-->
-3. [triatomic](triatomic%20molecule.md)::O<sub>3</sub> ([ozone](ozone.md)) <!--SR:!2023-06-03,52,290-->
+3. [triatomic](triatomic%20molecule.md)::O<sub>3</sub> ([ozone](ozone.md)) <!--SR:!2024-01-14,222,310-->
 4. polyatomic::P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)), S<sub>8</sub> ([sulfur](sulfur.md)) <!--SR:!2023-10-28,158,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -61,7 +61,7 @@ Molecules can be classified based on atomicity as:
 2. Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2023-06-24,68,310-->
 3. Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-28,72,310-->
 4. H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-09,56,310-->
-5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-02,50,310-->
+5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-02-03,242,330-->
 6. O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-13,60,310-->
 7. O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2023-06-10,57,310-->
 8. P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2023-06-29,73,310-->

@@ -16,7 +16,7 @@ tags:
 
 # alkene
 
-An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2023-06-03,48,290-->
+An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2023-10-30,146,290-->
 
 ## physical properties
 
@@ -34,7 +34,7 @@ Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alka
 
 - see: [hydrogenation](hydrogenation.md)
 
-Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-09-01,101,291!2023-06-06,9,211-->
+Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-09-01,101,291!2023-06-12,6,191-->
 
 ### hydrohalogenation
 
@@ -83,9 +83,9 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-04-05T09:33:57.175970+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-06-04,52,310!2023-06-19,64,310-->
+1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2024-01-30,238,330!2023-06-19,64,310-->
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2023-06-10,57,310!2023-06-25,69,310-->
-3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-06-05,10,230!2023-06-29,73,310-->
+3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-07-15,39,250!2023-06-29,73,310-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-12-16,198,310!2023-08-18,84,270-->
 5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-07-10,73,331!2023-06-22,57,311-->
 6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-06-18,18,251!2023-06-08,34,291-->

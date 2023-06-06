@@ -38,7 +38,7 @@ Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. So
 
 ### reduction
 
-Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-06-05,40,279-->
+Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-11-19,166,299-->
 
 ### reactions
 

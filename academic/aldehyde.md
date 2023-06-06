@@ -75,6 +75,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2023-06-22,54,301!2023-07-14,75,321-->
 2. [oxidation](#oxidation)→:::←[reduction](#reduction) <!--SR:!2023-07-08,71,321!2023-07-08,71,321-->
-3. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-07-08,71,321!2023-06-05,41,281-->
+3. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-07-08,71,321!2023-11-18,165,301-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

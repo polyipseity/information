@@ -53,7 +53,7 @@ return await memorize_table(
 > | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../attachments/GHS-pictogram-skull.svg)}} |  |
 > | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../attachments/GHS-pictogram-exclam.svg)}} |  |
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../attachments/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-06-24,64,310!2023-11-17,173,310!2023-06-11,50,290!2023-06-28,67,310!2023-06-18,60,310!2023-06-10,50,290!2023-06-26,66,310!2023-06-17,59,310!2023-06-28,68,310!2023-06-03,45,290!2023-06-27,67,310!2023-06-22,63,310!2023-06-04,45,290!2023-11-18,172,310!2023-06-20,61,310!2023-06-13,52,290!2023-06-25,65,310!2023-07-01,64,290-->
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-06-24,64,310!2023-11-17,173,310!2023-06-11,50,290!2023-06-28,67,310!2023-06-18,60,310!2023-06-10,50,290!2023-06-26,66,310!2023-06-17,59,310!2023-06-28,68,310!2023-12-17,194,310!2023-06-27,67,310!2023-06-22,63,310!2023-12-07,184,310!2023-11-18,172,310!2023-06-20,61,310!2023-06-13,52,290!2023-06-25,65,310!2023-07-01,64,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -67,7 +67,7 @@ return await memorize_table(
 6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2023-10-27,154,290!2023-08-31,100,270-->
 7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2023-06-07,51,290!2023-06-12,51,290-->
 8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2023-06-21,62,310!2023-09-11,108,270-->
-9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2023-06-23,64,310!2023-06-02,46,290-->
+9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2023-06-23,64,310!2024-01-04,212,310-->
 10. GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2023-07-02,71,310!2023-06-27,67,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

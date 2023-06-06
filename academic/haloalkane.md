@@ -24,7 +24,7 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), haloalkanes have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}. <!--SR:!2023-06-04,36,230-->
+Due to increased [polarizability](polarizability.md), haloalkanes have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}. <!--SR:!2023-09-03,89,230-->
 
 ### density
 
@@ -67,7 +67,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{[hydrolysis](#hydrolysis)}} |  |
-> | {{[substitution](#substitution)}} |  | <!--SR:!2023-06-02,29,272!2023-06-06,32,277-->
+> | {{[substitution](#substitution)}} |  | <!--SR:!2023-10-09,125,292!2023-10-08,124,297-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -75,6 +75,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-09-10,102,272!2023-07-10,72,312-->
 2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-07-07,48,232!2023-06-11,10,212-->
-3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-06-22,53,297!2023-06-05,40,277-->
+3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-06-22,53,297!2023-11-11,158,297-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
