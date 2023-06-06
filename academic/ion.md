@@ -266,7 +266,7 @@ return chain.from_iterable(await gather(
 2. sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2027-09-21,1649,373-->
 3. potassium ion:::K<sup>+</sup> <!--SR:!2027-10-09,1647,359!2028-03-04,1780,373-->
 4. copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2024-01-31,376,310-->
-5. silver ion:::Ag<sup>+</sup> <!--SR:!2023-06-03,285,270!2025-06-25,897,336-->
+5. silver ion:::Ag<sup>+</sup> <!--SR:!2026-05-27,1086,290!2025-06-25,897,336-->
 6. mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2027-01-08,1335,313-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2024-03-08,336,247!2024-02-04,523,316-->
@@ -353,7 +353,7 @@ return chain.from_iterable(await gather(
 23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-06-21,32,230-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-07-30,75,282-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-06-12,17,262-->
-26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-06-03,11,210-->
+26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-07-21,45,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

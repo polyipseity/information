@@ -25,7 +25,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 
 > - [anode](anode.md): {{H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup>}}
 > - [cathode](cathode.md): {{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)}}
-> - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2023-06-06,46,290!2023-06-05,46,292!2023-07-02,72,312-->
+> - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2023-10-23,139,290!2023-12-18,195,312!2023-07-02,72,312-->
 
 Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-06-13,36,212-->
 
@@ -62,11 +62,11 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-04-01T12:33:20.432311+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-06-05,49,292!2023-12-12,195,312-->
+1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-10-29,145,292!2023-12-12,195,312-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-07-06,41,232!2023-06-29,69,312-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-09-15,112,270!2023-08-11,83,252-->
 4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-06-22,25,272!2023-07-23,73,252-->
-5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-06-08,41,230!2023-06-06,51,292-->
+5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-06-08,41,230!2023-12-31,208,312-->
 6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-11-29,183,312!2023-11-22,178,312-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -101,9 +101,9 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-09-09,109,270!2023-06-30,70,312-->
-2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-06-04,45,290!2023-06-07,48,292-->
+2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-12-19,196,310!2023-06-07,48,292-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-06-24,57,272!2023-06-09,49,292-->
-4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-06-06,47,292!2023-06-27,68,312-->
+4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-07-03,27,272!2023-06-27,68,312-->
 5. remote power source→:::←_(end)_ <!--SR:!2023-07-01,71,315!2023-06-13,53,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

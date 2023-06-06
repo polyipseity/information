@@ -14,11 +14,11 @@ In [chemistry](chemistry.md), __isomers__ are {{[molecules](molecule.md) or [pol
 
 ## structural isomer
 
-__Structural isomers__ have {{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}}. They can be further categorized into {{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}}. The first two have {{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}}. The last one has {{very different chemical and physical properties}}. <!--SR:!2023-06-10,18,250!2023-08-24,100,290!2023-06-04,39,270!2023-06-03,38,270-->
+__Structural isomers__ have {{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}}. They can be further categorized into {{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}}. The first two have {{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}}. The last one has {{very different chemical and physical properties}}. <!--SR:!2023-06-10,18,250!2023-08-24,100,290!2023-11-06,153,290!2023-11-09,156,290-->
 
 ## stereoisomers
 
-__Stereoisomers__ have {{the same [bonding](chemical%20bond.md) of [atoms](atom.md) but different shapes}}. They can be further categorized into {{___cis_–_trans_ isomers__ and __enantiomers__}}. The first one has {{different [physical properties](physical%20property.md)}}. The last one has {{similar physical properties}}. <!--SR:!2023-06-05,34,230!2023-10-15,136,290!2023-06-02,37,270!2023-10-07,134,310-->
+__Stereoisomers__ have {{the same [bonding](chemical%20bond.md) of [atoms](atom.md) but different shapes}}. They can be further categorized into {{___cis_–_trans_ isomers__ and __enantiomers__}}. The first one has {{different [physical properties](physical%20property.md)}}. The last one has {{similar physical properties}}. <!--SR:!2023-08-28,83,230!2023-10-15,136,290!2023-11-10,157,290!2023-10-07,134,310-->
 
 ### _cis_–_trans_ isomers
 

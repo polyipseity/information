@@ -51,9 +51,9 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="301d"--><!-- The following content is generated at 2023-03-20T16:11:54.318666+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_. <!--SR:!2023-06-11,44,257!2023-06-20,61,317-->
-2. [Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.→:::←[Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md). <!--SR:!2023-11-19,173,317!2023-06-06,46,297-->
+2. [Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.→:::←[Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md). <!--SR:!2023-11-19,173,317!2023-12-18,195,317-->
 3. [Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).→:::←[Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge. <!--SR:!2023-07-10,64,257!2023-07-03,71,317-->
-4. [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used. <!--SR:!2023-07-15,67,257!2023-06-05,40,257-->
+4. [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used. <!--SR:!2023-07-15,67,257!2023-09-21,107,257-->
 5. [Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.→:::←"[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate". <!--SR:!2023-06-29,68,317!2023-06-10,49,297-->
 6. "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_ <!--SR:!2023-07-01,70,317!2023-06-19,60,317-->
 
@@ -90,7 +90,7 @@ return await memorize_table(
 > |  | {{_\*-ous_}} | {{_\*-ite_}} |
 > |  | {{_\*-ic_}} | {{_\*-ate_}} |
 > |  | {{_per-\*-ic_}} | {{_per-\*-ate_}} |
-> | {{highest}} | {{_hyper-\*-ic_}} | {{_hyper-\*-ate_}} | <!--SR:!2023-06-24,64,310!2023-06-30,68,310!2023-06-07,47,297!2023-06-13,50,297!2023-06-20,61,317!2023-07-01,70,317!2023-06-02,42,297!2023-07-06,74,317!2023-06-05,46,297!2023-07-02,70,317!2023-06-21,62,317!2023-06-30,69,317-->
+> | {{highest}} | {{_hyper-\*-ic_}} | {{_hyper-\*-ate_}} | <!--SR:!2023-06-24,64,310!2023-06-30,68,310!2023-06-07,47,297!2023-06-13,50,297!2023-06-20,61,317!2023-07-01,70,317!2023-12-19,196,317!2023-07-06,74,317!2023-12-21,198,317!2023-07-02,70,317!2023-06-21,62,317!2023-06-30,69,317-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -104,4 +104,4 @@ return await memorize_table(
 
 ### molecular compounds
 
-{{Inorganic}} molecular compounds are {{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix after the last element}}. The elements are {{ordered in ascending [electronegativity](electronegativity.md)}}. Additionally, {{_mono-_ is not used with the first element}}. Exceptions exist. <!--SR:!2023-07-06,74,317!2023-07-27,65,257!2023-11-03,159,297!2023-06-05,45,297-->
+{{Inorganic}} molecular compounds are {{named with an [IUPAC numerical multiplier](IUPAC%20numerical%20multiplier.md#data) prefix before each [element](chemical%20element.md) and an _-ide_ suffix after the last element}}. The elements are {{ordered in ascending [electronegativity](electronegativity.md)}}. Additionally, {{_mono-_ is not used with the first element}}. Exceptions exist. <!--SR:!2023-07-06,74,317!2023-07-27,65,257!2023-11-03,159,297!2023-10-20,136,297-->
