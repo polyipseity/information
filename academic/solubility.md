@@ -102,7 +102,7 @@ return (
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2023-06-07,276,262!2024-01-21,324,289-->
+> - exception(s): {{_(none)_}} <!--SR:!2026-03-15,1012,282!2024-01-21,324,289-->
 
 > nitrates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -122,7 +122,7 @@ return (
 
 > iodides
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2023-08-30,310,242!2023-06-03,193,210-->
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2023-08-30,310,242!2024-07-23,412,210-->
 
 > sulfates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -134,7 +134,7 @@ return (
 
 > sulfites
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2023-06-05,196,206!2024-02-07,260,210-->
+> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-26,415,206!2024-02-07,260,210-->
 
 > phosphates
 > - general solubility: {{<span style="color: red;">insoluble</span>}}

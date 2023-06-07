@@ -643,7 +643,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-07-29,92,364!2023-08-02,96,364-->
 2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2023-06-23,48,344!2023-08-03,97,364-->
-3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-07-25,88,344!2023-06-07,49,344-->
+3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-07-25,88,344!2024-01-24,231,364-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-08-04,98,364!2023-07-24,87,344-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-06-25,60,344!2023-08-01,95,364-->
 6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-07-19,84,364!2023-06-13,46,324-->

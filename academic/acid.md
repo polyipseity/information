@@ -27,7 +27,7 @@ In the [IUPAC](International%20Union%20of%20Pure%20and%20Applied%20Chemistry.md)
 
 ### monoprotic acids
 
-Monoprotic acids, also called {{monobasic acids}}, are {{acids that can donate one [proton](proton.md) per [molecule](molecule.md) during [dissociation](dissociation%20(chemistry).md)}}. <!--SR:!2023-06-07,55,310!2023-09-28,135,290-->
+Monoprotic acids, also called {{monobasic acids}}, are {{acids that can donate one [proton](proton.md) per [molecule](molecule.md) during [dissociation](dissociation%20(chemistry).md)}}. <!--SR:!2024-02-05,243,330!2023-09-28,135,290-->
 
 ### polyprotic acids
 

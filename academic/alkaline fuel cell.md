@@ -101,7 +101,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-09-09,109,270!2023-06-30,70,312-->
-2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-12-19,196,310!2023-06-07,48,292-->
+2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-12-19,196,310!2023-12-27,203,312-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-06-24,57,272!2023-06-09,49,292-->
 4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-07-03,27,272!2023-06-27,68,312-->
 5. remote power source→:::←_(end)_ <!--SR:!2023-07-01,71,315!2023-06-13,53,295-->

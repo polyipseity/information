@@ -13,7 +13,7 @@ __Silver oxide__ is {{an [inorganic compound](inorganic%20compound.md) with the 
 
 ## preparation
 
-Treating {{silver [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out dark brown silver oxide}}. Excess {{[aqueous](aqueous%20solution.md) [ammonia](ammonia.md) redissolves the precipitate and forms colorless [diamminesilver ions](Tollens'%20reagent.md)}}: <!--SR:!2023-06-02,28,230!2023-06-20,42,250-->
+Treating {{silver [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out dark brown silver oxide}}. Excess {{[aqueous](aqueous%20solution.md) [ammonia](ammonia.md) redissolves the precipitate and forms colorless [diamminesilver ions](Tollens'%20reagent.md)}}: <!--SR:!2023-08-19,73,230!2023-06-20,42,250-->
 
 > treating with [bases](base%20(chemistry).md)
 > 1. {{2Ag<sup>+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ag<sub>2</sub>O(s) + H<sub>2</sub>O(l)}}
