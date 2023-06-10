@@ -70,7 +70,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 
 ### large-scale implementation
 
-> {{![process flow diagram of the Haber process](../attachments/Haber-Bosch-En.svg)}}
+> {{![process flow diagram of the Haber process](../archives/Wikimedia%20Commons/Haber-Bosch-En.svg)}}
 >
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#ecbae7" title="#ECBAE7">&#xFEFF;</span></span> primary reformer
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#4d94e1" title="#4D94E1">&#xFEFF;</span></span> air feed
