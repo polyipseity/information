@@ -1,5 +1,6 @@
 ---
 tags:
+  - categories/Blender
   - flashcards/general/usage/Blender_usage
   - general/usage
 ---
