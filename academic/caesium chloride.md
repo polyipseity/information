@@ -10,6 +10,6 @@ tags:
 
 # caesium chloride
 
-> {{![CsCl polyhedra](../attachments/CsCl%20polyhedra.png)}}
+> {{![CsCl polyhedra](../archives/Wikimedia%20Commons/CsCl%20polyhedra.png)}}
 >
 > {{structure of caesium chloride}}
