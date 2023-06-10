@@ -10,6 +10,6 @@ tags:
 
 > | {{α-quartz}} | {{β-quartz}} |
 > |-|-|
-> | {{![structure of α-quartz](../attachments/Α-Quartz.svg)}} | {{![structure of β-quartz](../attachments/Β-Quartz.svg)}} |
+> | {{![structure of α-quartz](../archives/Wikimedia%20Commons/Α-Quartz.svg)}} | {{![structure of β-quartz](../archives/Wikimedia%20Commons/Β-Quartz.svg)}} |
 >
 > {{structure of quartz}}

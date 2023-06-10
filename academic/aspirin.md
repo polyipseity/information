@@ -19,7 +19,7 @@ tags:
 
 # aspirin
 
-> {{![skeletal formula of aspirin](../attachments/Aspirin-skeletal.svg)}}
+> {{![skeletal formula of aspirin](../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}}
 >
 > {{[skeletal formula](skeletal%20formula.md) of aspirin}}
 

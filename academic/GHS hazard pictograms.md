@@ -23,15 +23,15 @@ return await memorize_table(
 	e.cwf_sects('b9a823', 'dee23a'),
 	('name & pictogram', 'description',),
 	(
-		('GHS01: [explosive](explosive.md)', '![{}](../attachments/GHS-pictogram-explos.svg)', '',),
-		('GHS02: [flammable](flammability.md)', '![{}](../attachments/GHS-pictogram-flamme.svg)', '',),
-		('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../attachments/GHS-pictogram-rondflam.svg)', '',),
-		('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../attachments/GHS-pictogram-bottle.svg)', '',),
-		('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../attachments/GHS-pictogram-acid.svg)', '',),
-		('GHS06: [toxic](toxicity.md)', '![{}](../attachments/GHS-pictogram-skull.svg)', '',),
-		('GHS07: harmful', '![{}](../attachments/GHS-pictogram-exclam.svg)', '',),
-		('GHS08: [health hazard](health%20hazard.md)', '![{}](../attachments/GHS-pictogram-silhouette.svg)', '',),
-		('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../attachments/GHS-pictogram-pollu.svg)', '',),
+		('GHS01: [explosive](explosive.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)', '',),
+		('GHS02: [flammable](flammability.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)', '',),
+		('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)', '',),
+		('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)', '',),
+		('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)', '',),
+		('GHS06: [toxic](toxicity.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)', '',),
+		('GHS07: harmful', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)', '',),
+		('GHS08: [health hazard](health%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)', '',),
+		('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)', '',),
 	),
 	lambda datum: (
 		f'{cloze(datum[0])}<br/>{cloze(datum[1].format(datum[0]))}',
@@ -45,15 +45,15 @@ return await memorize_table(
 
 > | name & pictogram | description |
 > |-|-|
-> | {{GHS01: [explosive](explosive.md)}}<br/>{{![GHS01: [explosive](explosive.md)](../attachments/GHS-pictogram-explos.svg)}} |  |
-> | {{GHS02: [flammable](flammability.md)}}<br/>{{![GHS02: [flammable](flammability.md)](../attachments/GHS-pictogram-flamme.svg)}} |  |
-> | {{GHS03: [oxidizing](oxidizing%20agent.md)}}<br/>{{![GHS03: [oxidizing](oxidizing%20agent.md)](../attachments/GHS-pictogram-rondflam.svg)}} |  |
-> | {{GHS04: [compressed gas](compressed%20fluid.md)}}<br/>{{![GHS04: [compressed gas](compressed%20fluid.md)](../attachments/GHS-pictogram-bottle.svg)}} |  |
-> | {{GHS05: [corrosive](corrosive%20substance.md)}}<br/>{{![GHS05: [corrosive](corrosive%20substance.md)](../attachments/GHS-pictogram-acid.svg)}} |  |
-> | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../attachments/GHS-pictogram-skull.svg)}} |  |
-> | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../attachments/GHS-pictogram-exclam.svg)}} |  |
-> | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../attachments/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../attachments/GHS-pictogram-pollu.svg)}} |  |
+> | {{GHS01: [explosive](explosive.md)}}<br/>{{![GHS01: [explosive](explosive.md)](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}} |  |
+> | {{GHS02: [flammable](flammability.md)}}<br/>{{![GHS02: [flammable](flammability.md)](../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}} |  |
+> | {{GHS03: [oxidizing](oxidizing%20agent.md)}}<br/>{{![GHS03: [oxidizing](oxidizing%20agent.md)](../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}} |  |
+> | {{GHS04: [compressed gas](compressed%20fluid.md)}}<br/>{{![GHS04: [compressed gas](compressed%20fluid.md)](../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}} |  |
+> | {{GHS05: [corrosive](corrosive%20substance.md)}}<br/>{{![GHS05: [corrosive](corrosive%20substance.md)](../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}} |  |
+> | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}} |  |
+> | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}} |  |
+> | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}} |  |
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

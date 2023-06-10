@@ -11,6 +11,6 @@ tags:
 
 # black body
 
-> {{![black body spectral radiance curves](../attachments/Black%20body.svg)}}
+> {{![black body spectral radiance curves](../archives/Wikimedia%20Commons/Black%20body.svg)}}
 >
 > {{black body [spectral radiance](spectral%20radiance.md) curves}}
