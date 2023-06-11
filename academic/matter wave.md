@@ -20,4 +20,4 @@ The _de Broglie wavelength_ $\lambda$ {{relates to the [momentum](momentum.md) $
 > - {{$\lambda=\frac{h}{p}$}}
 > - {{$f=\frac{E}h$}}
 >
-> where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2023-07-01,36,270!2023-08-02,64,290!2023-06-08,25,290-->
+> where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2023-07-01,36,270!2023-08-02,64,290!2023-10-01,112,310-->

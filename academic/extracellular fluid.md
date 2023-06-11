@@ -15,4 +15,4 @@ __Extracellular fluid__ (__ECF__) is {{all [body fluid](body%20fluid.md) outside
 
 ### interstitial fluid
 
-Interstitial fluid or tissue fluid provides {{a constant environment for cells, a medium to exchange cellular materials, and forms [lymph](lymph.md)}}. <!--SR:!2023-06-11,25,250-->
+Interstitial fluid or tissue fluid provides {{a constant environment for cells, a medium to exchange cellular materials, and forms [lymph](lymph.md)}}. <!--SR:!2023-08-16,66,250-->

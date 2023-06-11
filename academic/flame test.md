@@ -48,7 +48,7 @@ return await memorize_seq(
 2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2023-08-23,92,270!2023-08-18,92,270-->
 3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2023-08-21,93,270!2023-09-21,120,290-->
 4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2023-06-22,63,310!2023-10-26,153,290-->
-5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2023-06-26,66,310!2023-06-08,48,290-->
+5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2023-06-26,66,310!2024-01-11,214,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

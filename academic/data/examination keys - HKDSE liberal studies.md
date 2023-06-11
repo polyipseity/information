@@ -66,7 +66,7 @@ return await memorize_table(
 3. appeal to authority→:::←appeal to tradition <!--SR:!2023-07-23,68,295!2023-07-18,63,295-->
 4. appeal to tradition→:::←guilt by association <!--SR:!2023-07-01,39,230!2023-08-20,82,275-->
 5. guilt by association→:::←hasty generalization <!--SR:!2023-10-06,121,295!2023-07-17,62,290-->
-6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-06-11,26,250!2023-06-27,42,270-->
+6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-09-11,92,270!2023-06-27,42,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-07-10,53,290!2023-06-21,14,255-->
 8. post hoc→:::←self-contradiction <!--SR:!2023-06-25,36,235!2023-07-19,64,295-->
 9. self-contradiction→:::←virtue by association <!--SR:!2023-06-13,34,275!2023-06-28,43,270-->
@@ -118,7 +118,7 @@ return await memorize_table(
 2. comparison→:::←factor/reason <!--SR:!2023-06-23,16,230!2023-06-14,14,235-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-07-27,50,235!2023-07-02,25,175-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-07-05,42,235!2023-07-10,41,215-->
-5. phenomenon→:::←solution <!--SR:!2023-06-08,29,255!2023-08-15,69,250-->
+5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2023-08-15,69,250-->
 6. solution→:::←value judgement <!--SR:!2023-07-23,68,295!2023-07-12,47,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2023-07-26,70,310!2023-08-20,74,255-->
 
@@ -163,7 +163,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2023-07-22,67,310!2023-06-10,3,175!2023-06-29,44,275!2023-06-10,3,175-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2023-07-22,67,310!2023-06-23,12,195!2023-06-29,44,275!2023-06-23,12,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -212,7 +212,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-07-06,29,210!2023-07-17,62,295!2023-06-10,30,275!2023-06-09,33,275!2023-06-14,29,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-07-06,29,210!2023-07-17,62,295!2023-09-06,87,275!2023-10-24,135,295!2023-06-14,29,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -220,12 +220,12 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-07-19,64,290!2023-06-23,43,295-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-06-27,28,195!2023-08-15,79,275-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-06-11,10,210!2023-06-16,31,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-06-16,5,190!2023-06-16,31,235-->
 4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-08-06,60,230-->
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-06-09,2,130-->
+6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-06-15,4,130-->
 7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-08-22,84,275-->
-8. trend→:::←with reference to <!--SR:!2023-07-05,28,230!2023-06-09,9,210-->
+8. trend→:::←with reference to <!--SR:!2023-07-05,28,230!2023-06-17,6,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -317,7 +317,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-06-26,29,255!2023-07-16,61,295-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2023-07-21,66,290!2023-07-16,61,295-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-06-08,11,235!2023-06-16,37,275-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-07-27,46,255!2023-06-16,37,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-06-16,38,270!2023-09-23,108,275-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-06-28,43,275!2023-06-17,38,270-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-28,72,310!2023-07-15,60,295-->
@@ -391,7 +391,7 @@ return await memorize_seq(
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-06-24,37,235!2023-07-20,65,295-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-06-27,38,235!2023-07-12,49,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-06-30,45,270!2023-06-15,30,235-->
-5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-16,61,295!2023-06-08,29,255-->
+5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-16,61,295!2023-10-05,116,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -420,8 +420,8 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-06-21,22,210!2023-06-10,32,275-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-06-08,8,210!2023-07-26,49,230-->
+1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-06-21,22,210!2023-10-21,132,295-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-06-15,4,190!2023-07-26,49,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-06-14,35,275!2023-06-22,15,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -458,7 +458,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-04-26T19:16:21.192651+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-06-13,33,270!2023-06-22,42,295-->
-2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2023-07-18,63,295!2023-06-11,31,270-->
+2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2023-07-18,63,295!2023-09-07,88,270-->
 3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-07-13,42,235!2023-09-20,105,275-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2023-08-18,72,250!2023-08-20,74,250-->
 5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2023-07-22,67,310!2023-09-27,112,275-->

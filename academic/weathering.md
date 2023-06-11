@@ -27,7 +27,7 @@ _Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice
 
 ### thermal stress
 
-_Thermal stress weathering_ {{results from expansion and contraction of [rocks](rock%20(geology).md) due to [temperature](temperature.md) changes}}. It is important in {{[deserts](desert.md) as there is a large [diurnal](diurnal.md) temperature range}}. <!--SR:!2023-06-08,40,250!2023-10-14,141,290-->
+_Thermal stress weathering_ {{results from expansion and contraction of [rocks](rock%20(geology).md) due to [temperature](temperature.md) changes}}. It is important in {{[deserts](desert.md) as there is a large [diurnal](diurnal.md) temperature range}}. <!--SR:!2023-09-28,109,250!2023-10-14,141,290-->
 
 ## chemical weathering
 

@@ -16,7 +16,7 @@ tags:
 
 # noble gas
 
-The __noble gases__ {{consist of the [chemical elements](chemical%20element.md) [helium](helium.md) (He), [neon](neon.md) (Ne), [argon](argon.md) (Ar), [krypton](krypton.md) (Kr), [xenon](xenon.md) (Xe), and [radon](radon.md) (Rn). [Oganesson](oganesson.md) (Og) is in group 18 but may not be chemically noble}}. They are {{all colorless, odorless, tasteless, [nonflammable](flammability.md), and highly [unreactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-06-11,44,250!2023-06-22,52,250-->
+The __noble gases__ {{consist of the [chemical elements](chemical%20element.md) [helium](helium.md) (He), [neon](neon.md) (Ne), [argon](argon.md) (Ar), [krypton](krypton.md) (Kr), [xenon](xenon.md) (Xe), and [radon](radon.md) (Rn). [Oganesson](oganesson.md) (Og) is in group 18 but may not be chemically noble}}. They are {{all colorless, odorless, tasteless, [nonflammable](flammability.md), and highly [unreactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-07-03,22,230!2023-06-22,52,250-->
 
 ## see also
 

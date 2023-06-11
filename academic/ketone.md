@@ -67,7 +67,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="249a"--><!-- The following content is generated at 2023-04-06T10:40:18.715119+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[reduction](#reduction) <!--SR:!2023-06-11,37,279!2023-07-16,76,319-->
+1. _(begin)_→:::←[reduction](#reduction) <!--SR:!2023-11-04,146,299!2023-07-16,76,319-->
 2. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-07-19,79,319!2023-07-17,77,319-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

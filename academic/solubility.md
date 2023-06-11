@@ -9,7 +9,7 @@ tags:
 
 # solubility
 
-__Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}. <!--SR:!2023-06-08,16,212-->
+__Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}. <!--SR:!2023-08-11,61,232-->
 
 It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}. <!--SR:!2023-09-25,118,272-->
 
@@ -98,7 +98,7 @@ return (
 
 > group I compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}} <!--SR:!2023-06-11,234,210!2023-09-11,126,190-->
+> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}} <!--SR:!2025-05-11,700,230!2023-09-11,126,190-->
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -138,7 +138,7 @@ return (
 
 > phosphates
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)}} <!--SR:!2024-06-04,460,230!2023-06-10,76,190-->
+> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds (excluding Li<sup>+</sup>)}} <!--SR:!2024-06-04,460,230!2024-01-08,211,210-->
 
 > hydroxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
