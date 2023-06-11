@@ -18,11 +18,11 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 - formation: {{no [chemical reactions](chemical%20reaction.md), no to little energy change ([enthalpy of mixing](enthalpy%20of%20mixing.md))}}
 - properties: {{each constituent keep their properties}}
 - separation: {{separable by physical and chemical methods}}
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{wide}} <!--SR:!2023-09-02,101,270!2023-06-24,53,250!2023-06-10,53,290!2023-06-29,68,310!2023-06-14,56,310-->
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{wide}} <!--SR:!2023-09-02,101,270!2023-06-24,53,250!2023-11-18,160,290!2023-06-29,68,310!2023-06-14,56,310-->
 
 ## uniformity
 
-A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-06-08,41,270-->
+A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous](#heterogeneous%20mixture)_}}. <!--SR:!2023-11-29,171,290-->
 
 ### homogeneous mixture
 

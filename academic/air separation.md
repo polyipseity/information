@@ -15,7 +15,7 @@ tags:
 
 # air separation
 
-__Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}. <!--SR:!2023-07-26,78,270!2023-06-11,58,310-->
+__Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}. <!--SR:!2023-07-26,78,270!2024-02-15,249,330-->
 
 The most common method is [cryogenic distillation](#cryogenic%20distillation).
 
@@ -56,7 +56,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293842"--><!-- The following content is generated at 2023-03-24T01:07:46.482419+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2023-06-08,56,310!2023-06-22,67,310-->
+1. _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2024-02-19,253,330!2023-06-22,67,310-->
 2. Filter air to remove [dust](dust.md).→:::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K. <!--SR:!2023-09-03,106,270!2023-06-16,62,310-->
 3. Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.→:::←Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md). <!--SR:!2023-07-19,73,250!2023-07-02,35,230-->
 4. Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→:::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2023-06-27,56,250!2023-07-22,73,250-->

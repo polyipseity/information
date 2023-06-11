@@ -29,7 +29,7 @@ First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides]
 > 	- Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}}
 > 2. {{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}} <!--SR:!2023-07-03,58,250-->
 
-After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-06-08,41,250-->
+After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}: <!--SR:!2023-11-11,153,270-->
 
 > - {{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}}
 > - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2023-10-11,126,290!2023-07-02,69,310-->
@@ -78,7 +78,7 @@ return await memorize_table(
 1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-06-29,67,310!2023-06-21,60,310-->
 2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-08-09,93,290!2023-06-19,59,310-->
 3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-06-22,61,310!2023-06-27,65,310-->
-4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2023-06-09,50,290!2023-07-06,73,310-->
+4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-01-07,210,310!2023-07-06,73,310-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-06-28,65,310!2023-07-05,72,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

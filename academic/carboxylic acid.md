@@ -38,11 +38,11 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 ### dehydration
 
-[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated by heat to give primary amides}}. <!--SR:!2023-06-09,37,229-->
+[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated by heat to give primary amides}}. <!--SR:!2023-09-10,91,229-->
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-06-10,47,289!2023-07-14,52,209-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-12-23,195,309!2023-07-14,52,209-->
 
 ### nucleophilic substitution
 

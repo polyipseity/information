@@ -45,7 +45,7 @@ Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to pro
 
 ### oxidation
 
-Primary alcohols {{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}}. {{Acidified [potassium dichromate](potassium%20dichromate.md)}} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2023-06-08,36,280!2023-07-15,76,320-->
+Primary alcohols {{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}}. {{Acidified [potassium dichromate](potassium%20dichromate.md)}} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2023-11-11,153,300!2023-07-15,76,320-->
 
 To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2023-09-30,116,275!2023-09-19,110,260-->
 
@@ -74,7 +74,7 @@ return await memorize_table(
 > |-|-|
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-06-09,42,295!2023-07-17,78,320!2023-07-16,77,320-->
+> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-12-16,188,315!2023-07-17,78,320!2023-07-16,77,320-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
