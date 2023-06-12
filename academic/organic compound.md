@@ -17,4 +17,4 @@ tags:
 
 # organic compound
 
-An __organic compound__ is {{generally defined as a [chemical compound](chemical%20compound.md) containing [carbon](carbon.md)–carbon bonds or carbon–[hydrogen](hydrogen.md) bonds}}. <!--SR:!2023-06-12,45,250-->
+An __organic compound__ is {{generally defined as a [chemical compound](chemical%20compound.md) containing [carbon](carbon.md)–carbon bonds or carbon–[hydrogen](hydrogen.md) bonds}}. <!--SR:!2023-10-06,116,250-->

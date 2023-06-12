@@ -61,7 +61,7 @@ return await memorize_map(
 3. [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites <!--SR:!2023-09-12,112,270-->
 4. [rubidium](rubidium.md)::explosive <!--SR:!2023-12-30,207,310-->
 5. [caesium](caesium.md)::explosive <!--SR:!2023-12-15,197,310-->
-6. [francium](francium.md)::unknown <!--SR:!2023-06-12,59,310-->
+6. [francium](francium.md)::unknown <!--SR:!2024-03-02,264,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
