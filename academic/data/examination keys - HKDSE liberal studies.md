@@ -108,7 +108,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-07-21,66,310!2023-07-21,66,310!2023-06-12,32,270!2023-08-21,75,250!2023-07-03,48,295!2023-06-18,39,275!2023-07-18,63,295!2023-07-19,64,295!2023-07-16,61,295!2023-07-18,63,295!2023-07-19,64,295!2023-07-02,35,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-07-21,66,310!2023-07-21,66,310!2023-09-10,90,270!2023-08-21,75,250!2023-07-03,48,295!2023-06-18,39,275!2023-07-18,63,295!2023-07-19,64,295!2023-07-16,61,295!2023-07-18,63,295!2023-07-19,64,295!2023-07-02,35,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -224,7 +224,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-08-06,60,230-->
 5. factor→:::←feasibilities <!--SR:!2023-06-14,36,270!2023-07-20,65,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-06-29,37,230!2023-06-15,4,130-->
-7. pattern→:::←trend <!--SR:!2023-06-12,35,275!2023-08-22,84,275-->
+7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2023-08-22,84,275-->
 8. trend→:::←with reference to <!--SR:!2023-07-05,28,230!2023-06-17,6,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2023-07-19,64,295-->
 
@@ -497,7 +497,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-06-23,36,235!2023-07-19,64,295-->
 2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-06-23,38,270!2023-07-23,53,250-->
-3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-07-17,52,255!2023-06-12,27,235-->
+3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-07-17,52,255!2023-06-28,16,215-->
 4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2023-07-21,66,290!2023-07-18,53,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2023-07-16,61,295!2023-07-17,62,295-->
 
