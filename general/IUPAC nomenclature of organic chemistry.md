@@ -173,7 +173,7 @@ The steps for naming an organic compound are:
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2023-06-18,117,244!2023-06-18,29,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2023-07-05,104,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-09-29,154,210!2023-09-06,154,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-06-17,41,230!2023-06-13,24,207-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-06-17,41,230!2023-08-06,54,207-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2023-08-17,154,190!2024-02-11,283,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-03-10,287,247!2023-07-26,67,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2023-09-03,191,230!2023-08-09,178,267-->
@@ -646,6 +646,6 @@ return await memorize_table(
 3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2023-07-25,88,344!2024-01-24,231,364-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-08-04,98,364!2023-07-24,87,344-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2023-06-25,60,344!2023-08-01,95,364-->
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-07-19,84,364!2023-06-13,46,324-->
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2023-07-19,84,364!2023-11-15,155,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -417,7 +417,7 @@ return chain.from_iterable(await gather(
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-08-21,215,239!2026-11-11,1286,310-->
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2023-12-08,473,312-->
-10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2023-06-13,347,294-->
+10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2027-04-29,1416,314-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2026-01-17,1128,350-->
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2023-09-02,376,273!2023-12-01,306,233-->
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2024-08-09,659,310!2026-06-30,1200,313-->
