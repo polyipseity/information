@@ -15,4 +15,4 @@ nutritional information
 		- [collagen](collagen.md): 0.5 g
 	- [selenium](selenium.md): 8 μg
 	- [sodium](sodium.md): 304 mg
-	- [vitamin C](vitamin%20C.md): 100 mg
+	- [vitamin C](../../general/vitamin%20C.md): 100 mg
