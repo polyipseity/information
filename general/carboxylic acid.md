@@ -87,7 +87,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-08-12,67,269!2023-06-14,52,309-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-06-19,19,253!2023-07-12,73,313-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-06-16,19,269!2023-06-13,51,309-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-06-16,19,269!2023-07-12,29,289-->
 4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-10-31,156,309!2023-06-17,54,309-->
 5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-12-28,204,329!2023-06-16,53,309-->
 

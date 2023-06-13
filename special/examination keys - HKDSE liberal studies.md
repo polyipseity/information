@@ -69,7 +69,7 @@ return await memorize_table(
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-09-11,92,270!2023-06-27,42,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-07-10,53,290!2023-06-21,14,255-->
 8. post hoc→:::←self-contradiction <!--SR:!2023-06-25,36,235!2023-07-19,64,295-->
-9. self-contradiction→:::←virtue by association <!--SR:!2023-06-13,34,275!2023-06-28,43,270-->
+9. self-contradiction→:::←virtue by association <!--SR:!2023-09-19,98,275!2023-06-28,43,270-->
 10. virtue by association→:::←weak analogies <!--SR:!2023-07-20,65,295!2023-06-14,34,275-->
 11. weak analogies→:::←_(end)_ <!--SR:!2023-07-29,73,310!2023-07-15,60,295-->
 
@@ -212,7 +212,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-06-13,28,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-07-06,29,210!2023-07-17,62,295!2023-09-06,87,275!2023-10-24,135,295!2023-06-14,29,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-08-12,60,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-07-06,29,210!2023-07-17,62,295!2023-09-06,87,275!2023-10-24,135,295!2023-06-14,29,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -457,7 +457,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-04-26T19:16:21.192651+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-06-13,33,270!2023-06-22,42,295-->
+1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-07-02,19,250!2023-06-22,42,295-->
 2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2023-07-18,63,295!2023-09-07,88,270-->
 3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-07-13,42,235!2023-09-20,105,275-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2023-08-18,72,250!2023-08-20,74,250-->

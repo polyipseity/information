@@ -64,7 +64,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2023-07-07,73,310!2023-07-07,73,310-->
 2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2023-09-20,117,290!2023-07-07,73,310-->
-3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2023-07-07,73,310!2023-06-13,49,290-->
+3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2023-07-07,73,310!2023-11-02,142,290-->
 4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2023-07-07,73,310!2023-09-21,116,270-->
 5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2023-07-07,73,310!2023-11-15,168,310-->
 6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2023-07-07,73,310!2023-08-07,82,270-->

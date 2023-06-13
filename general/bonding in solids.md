@@ -158,6 +158,6 @@ return await memorize_table(
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-06-20,56,270!2024-02-22,256,330!2023-12-17,199,310!2023-06-24,68,310!2023-10-02,137,290!2023-06-25,69,310!2023-11-27,181,310!2023-06-13,60,310!2023-07-19,48,250!2023-06-28,72,310-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2023-06-20,56,270!2024-02-22,256,330!2023-12-17,199,310!2023-06-24,68,310!2023-10-02,137,290!2023-06-25,69,310!2023-11-27,181,310!2024-03-06,267,330!2023-07-19,48,250!2023-06-28,72,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

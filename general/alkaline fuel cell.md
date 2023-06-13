@@ -27,7 +27,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 > - [cathode](cathode.md): {{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)}}
 > - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2023-10-23,139,290!2023-12-18,195,312!2023-07-02,72,312-->
 
-Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-06-13,36,212-->
+Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-09-01,80,212-->
 
 Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2023-07-24,74,252-->
 
@@ -104,6 +104,6 @@ return await memorize_seq(
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-12-19,196,310!2023-12-27,203,312-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2023-06-24,57,272!2024-01-09,212,312-->
 4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-07-03,27,272!2023-06-27,68,312-->
-5. remote power source→:::←_(end)_ <!--SR:!2023-07-01,71,315!2023-06-13,53,295-->
+5. remote power source→:::←_(end)_ <!--SR:!2023-07-01,71,315!2023-11-23,163,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

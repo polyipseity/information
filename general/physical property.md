@@ -80,7 +80,7 @@ return await memorize_table(
 8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-11-11,167,310!2023-08-28,82,250-->
 9. [melting point](melting%20point.md)→:::←[odor](odor.md) <!--SR:!2023-06-22,51,250!2023-07-23,73,270-->
 10. [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2023-07-03,58,250!2023-08-15,97,290-->
-11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-07-03,55,230!2023-06-13,6,210-->
+11. [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2023-07-03,55,230!2023-06-28,15,210-->
 12. [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2023-06-17,17,230!2023-06-21,10,190-->
 13. [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2023-07-04,71,310!2023-07-05,72,310-->
 14. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2023-07-06,73,310!2023-07-03,70,310-->
