@@ -1,0 +1,105 @@
+---
+aliases:
+  - VSEPR theory
+  - valence shell electron pair repulsion theory
+tags:
+  - categories/chemistry
+  - flashcards/general/VSEPR_theory
+---
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../tools/utility.py.md
+```
+%%
+
+# VSEPR theory
+
+## AXE method
+
+The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {{represented by AX<sub>n</sub>E<sub>m</sub>, where A is the central atom, X are the [ligands](ligand.md), and E are the [_lone_ electron pairs](lone%20pair.md)}}. The steric number is {{the sum of the numbers of X and E}}. <!--SR:!2023-10-24,139,270!2023-06-27,65,310-->
+
+### main-group elements
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen.gen import markdown_sanitizer
+e = __env__
+return await memorize_table(
+	e.cwf_sects('2900', '8daf'),
+	('AXE', '[shape](molecular%20geometry.md)', 'ideal bond angle(s)', 'example(s)',),
+	(
+		('AX<sub>2</sub>E<sub>0</sub>', '[linear](linear%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX2E0-3D-balls.png)', '180°', '[CO<sub>2</sub>](carbon%20dioxide.md)',),
+		('AX<sub>2</sub>E<sub>1</sub>', '[bent](bent%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX2E1-3D-balls.png)', '120°', '[SO<sub>2</sub>](sulfur%20dioxide.md)'),
+		('AX<sub>2</sub>E<sub>2</sub>', '[bent](bent%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX2E2-3D-balls.png)', '~109.5°', '[H<sub>2</sub>O](water.md)'),
+		('AX<sub>2</sub>E<sub>3</sub>', '[linear](linear%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX2E3-3D-balls.png)', '180°', '[XeF<sub>2</sub>](xenon%20difluoride.md)'),
+		('AX<sub>3</sub>E<sub>0</sub>', '[trigonal planar](trigonal%20planar%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX3E0-3D-balls.png)', '120°', '[BF<sub>3</sub>](boron%20trifluoride.md)'),
+		('AX<sub>3</sub>E<sub>1</sub>', '[trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX3E1-3D-balls.png)', '~109.5°', '[NH<sub>3</sub>](ammonia.md)'),
+		('AX<sub>3</sub>E<sub>2</sub>', '[T-shaped](T-shaped%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX3E2-3D-balls.png)', '90°, 180°', '[ClF<sub>3</sub>](chlorine%20trifluoride.md)'),
+		('AX<sub>4</sub>E<sub>0</sub>', '[tetrahedral](tetrahedral%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX4E0-3D-balls.png)', '~109.5°', '[CH<sub>4</sub>](methane.md)'),
+		('AX<sub>4</sub>E<sub>1</sub>', '[seesaw/disphenoidal](seesaw%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX4E1-3D-balls.png)', '90°, 120°, 180°', '[SF<sub>4</sub>](sulfur%20tetrafluoride.md)'),
+		('AX<sub>4</sub>E<sub>2</sub>', '[square planar](square%20planar%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX4E2-3D-balls.png)', '90°', '[XeF<sub>4</sub>](xenon%20tetrafluoride.md)'),
+		('AX<sub>5</sub>E<sub>0</sub>', '[trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png)', '90°, 120°', '[PCl<sub>5</sub>](phosphorous%20pentachloride.md)'),
+		('AX<sub>5</sub>E<sub>1</sub>', '[square pyramidal](square%20pyramidal%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX5E1-3D-balls.png)', '90°', '[BrF<sub>5</sub>](bromine%20pentafluoride.md)'),
+		('AX<sub>5</sub>E<sub>2</sub>', '[pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX5E2-3D-balls.png)', '72°', 'XeF<sub>5</sub><sup>-</sup>'),
+		('AX<sub>6</sub>E<sub>0</sub>', '[octahedral](octahedral%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX6E0-3D-balls.png)', '90°', '[SF<sub>6</sub>](sulfur%20hexafluoride.md)'),
+		('AX<sub>6</sub>E<sub>1</sub>', '[pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX6E1-3D-balls.png)', '72°, 90°', 'XeOF<sub>5</sub><sup>-</sup>'),
+		('AX<sub>7</sub>E<sub>0</sub>', '[pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX7E0-3D-balls.png)', '72°, 90°', '[IF<sub>7</sub>](iodine%20heptafluoride.md)'),
+		('AX<sub>8</sub>E<sub>0</sub>', '[square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX8E0-3D-balls.png)', '', 'XeF<sub>8</sub><sup>2-</sup>'),
+		('AX<sub>9</sub>E<sub>0</sub>', '[tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX9E0-3D-balls.png)', '', 'ReH<sub>9</sub><sup>2-</sup>'),
+	),
+	lambda datum: map(cloze, (*datum[:1], f'{datum[1]}<br/>{datum[2].format(markdown_sanitizer(datum[1]))}', *datum[3:],)),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2900"--><!-- The following content is generated at 2023-03-26T17:23:22.932532+08:00. Any edits will be overridden! -->
+
+> | AXE | [shape](molecular%20geometry.md) | ideal bond angle(s) | example(s) |
+> |-|-|-|-|
+> | {{AX<sub>2</sub>E<sub>0</sub>}} | {{[linear](linear%20molecular%20geometry.md)<br/>![linear](../archives/Wikimedia%20Commons/AX2E0-3D-balls.png)}} | {{180°}} | {{[CO<sub>2</sub>](carbon%20dioxide.md)}} |
+> | {{AX<sub>2</sub>E<sub>1</sub>}} | {{[bent](bent%20molecular%20geometry.md)<br/>![bent](../archives/Wikimedia%20Commons/AX2E1-3D-balls.png)}} | {{120°}} | {{[SO<sub>2</sub>](sulfur%20dioxide.md)}} |
+> | {{AX<sub>2</sub>E<sub>2</sub>}} | {{[bent](bent%20molecular%20geometry.md)<br/>![bent](../archives/Wikimedia%20Commons/AX2E2-3D-balls.png)}} | {{~109.5°}} | {{[H<sub>2</sub>O](water.md)}} |
+> | {{AX<sub>2</sub>E<sub>3</sub>}} | {{[linear](linear%20molecular%20geometry.md)<br/>![linear](../archives/Wikimedia%20Commons/AX2E3-3D-balls.png)}} | {{180°}} | {{[XeF<sub>2</sub>](xenon%20difluoride.md)}} |
+> | {{AX<sub>3</sub>E<sub>0</sub>}} | {{[trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../archives/Wikimedia%20Commons/AX3E0-3D-balls.png)}} | {{120°}} | {{[BF<sub>3</sub>](boron%20trifluoride.md)}} |
+> | {{AX<sub>3</sub>E<sub>1</sub>}} | {{[trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)<br/>![trigonal pyramidal](../archives/Wikimedia%20Commons/AX3E1-3D-balls.png)}} | {{~109.5°}} | {{[NH<sub>3</sub>](ammonia.md)}} |
+> | {{AX<sub>3</sub>E<sub>2</sub>}} | {{[T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../archives/Wikimedia%20Commons/AX3E2-3D-balls.png)}} | {{90°, 180°}} | {{[ClF<sub>3</sub>](chlorine%20trifluoride.md)}} |
+> | {{AX<sub>4</sub>E<sub>0</sub>}} | {{[tetrahedral](tetrahedral%20molecular%20geometry.md)<br/>![tetrahedral](../archives/Wikimedia%20Commons/AX4E0-3D-balls.png)}} | {{~109.5°}} | {{[CH<sub>4</sub>](methane.md)}} |
+> | {{AX<sub>4</sub>E<sub>1</sub>}} | {{[seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../archives/Wikimedia%20Commons/AX4E1-3D-balls.png)}} | {{90°, 120°, 180°}} | {{[SF<sub>4</sub>](sulfur%20tetrafluoride.md)}} |
+> | {{AX<sub>4</sub>E<sub>2</sub>}} | {{[square planar](square%20planar%20molecular%20geometry.md)<br/>![square planar](../archives/Wikimedia%20Commons/AX4E2-3D-balls.png)}} | {{90°}} | {{[XeF<sub>4</sub>](xenon%20tetrafluoride.md)}} |
+> | {{AX<sub>5</sub>E<sub>0</sub>}} | {{[trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png)}} | {{90°, 120°}} | {{[PCl<sub>5</sub>](phosphorous%20pentachloride.md)}} |
+> | {{AX<sub>5</sub>E<sub>1</sub>}} | {{[square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../archives/Wikimedia%20Commons/AX5E1-3D-balls.png)}} | {{90°}} | {{[BrF<sub>5</sub>](bromine%20pentafluoride.md)}} |
+> | {{AX<sub>5</sub>E<sub>2</sub>}} | {{[pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../archives/Wikimedia%20Commons/AX5E2-3D-balls.png)}} | {{72°}} | {{XeF<sub>5</sub><sup>-</sup>}} |
+> | {{AX<sub>6</sub>E<sub>0</sub>}} | {{[octahedral](octahedral%20molecular%20geometry.md)<br/>![octahedral](../archives/Wikimedia%20Commons/AX6E0-3D-balls.png)}} | {{90°}} | {{[SF<sub>6</sub>](sulfur%20hexafluoride.md)}} |
+> | {{AX<sub>6</sub>E<sub>1</sub>}} | {{[pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../archives/Wikimedia%20Commons/AX6E1-3D-balls.png)}} | {{72°, 90°}} | {{XeOF<sub>5</sub><sup>-</sup>}} |
+> | {{AX<sub>7</sub>E<sub>0</sub>}} | {{[pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../archives/Wikimedia%20Commons/AX7E0-3D-balls.png)}} | {{72°, 90°}} | {{[IF<sub>7</sub>](iodine%20heptafluoride.md)}} |
+> | {{AX<sub>8</sub>E<sub>0</sub>}} | {{[square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../archives/Wikimedia%20Commons/AX8E0-3D-balls.png)}} |  | {{XeF<sub>8</sub><sup>2-</sup>}} |
+> | {{AX<sub>9</sub>E<sub>0</sub>}} | {{[tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../archives/Wikimedia%20Commons/AX9E0-3D-balls.png)}} |  | {{ReH<sub>9</sub><sup>2-</sup>}} | <!--SR:!2024-01-07,214,330!2023-06-30,68,310!2024-01-20,223,330!2023-06-16,56,310!2023-06-21,60,310!2023-06-17,57,310!2023-11-09,165,310!2023-08-31,85,230!2023-06-28,66,310!2023-06-14,42,290!2023-06-17,57,310!2023-06-28,65,310!2024-01-21,224,330!2023-08-04,79,270!2023-06-22,61,310!2023-08-14,82,230!2023-07-05,72,310!2023-07-04,27,270!2023-06-20,60,310!2023-12-05,181,310!2024-01-22,225,330!2023-06-18,58,310!2023-06-24,52,270!2023-07-07,37,230!2023-07-03,70,310!2023-11-10,162,310!2023-06-19,59,310!2023-06-14,29,230!2023-06-20,60,310!2023-07-29,85,310!2023-06-29,67,310!2023-10-08,137,290!2023-06-26,64,310!2023-08-10,79,270!2023-09-07,107,290!2023-06-24,17,130!2023-06-25,64,310!2023-08-12,93,290!2023-06-23,61,310!2023-07-30,75,270!2023-07-01,68,310!2023-12-13,189,310!2023-06-25,64,310!2023-08-21,71,270!2023-06-20,60,310!2023-08-04,80,270!2023-06-15,56,310!2023-06-24,17,170!2023-06-15,56,310!2023-11-07,149,290!2023-06-24,62,310!2023-07-11,54,210!2023-06-18,58,310!2023-12-25,201,310!2023-06-22,61,310!2023-11-17,169,310!2023-06-13,54,310!2023-09-07,114,290!2023-06-23,62,310!2023-08-22,82,230!2023-06-13,54,310!2024-01-27,229,330!2023-06-29,66,310!2023-07-01,24,210!2023-06-24,63,310!2023-07-25,48,250!2023-07-10,61,250!2023-06-16,56,310!2023-06-26,19,210!2023-09-01,101,270-->
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8daf"--><!-- The following content is generated at 2023-03-26T16:22:57.607537+08:00. Any edits will be overridden! -->
+
+1. _(begin)_→:::←AX<sub>2</sub>E<sub>0</sub> <!--SR:!2023-06-24,63,310!2023-06-29,67,310-->
+2. AX<sub>2</sub>E<sub>0</sub>→:::←AX<sub>2</sub>E<sub>1</sub> <!--SR:!2023-06-16,56,310!2023-06-30,68,310-->
+3. AX<sub>2</sub>E<sub>1</sub>→:::←AX<sub>2</sub>E<sub>2</sub> <!--SR:!2023-06-25,64,310!2023-06-18,58,310-->
+4. AX<sub>2</sub>E<sub>2</sub>→:::←AX<sub>2</sub>E<sub>3</sub> <!--SR:!2023-06-25,63,310!2023-06-14,55,310-->
+5. AX<sub>2</sub>E<sub>3</sub>→:::←AX<sub>3</sub>E<sub>0</sub> <!--SR:!2024-02-05,238,330!2023-08-18,94,290-->
+6. AX<sub>3</sub>E<sub>0</sub>→:::←AX<sub>3</sub>E<sub>1</sub> <!--SR:!2023-06-19,59,310!2023-06-23,62,310-->
+7. AX<sub>3</sub>E<sub>1</sub>→:::←AX<sub>3</sub>E<sub>2</sub> <!--SR:!2023-06-22,61,310!2023-07-04,71,310-->
+8. AX<sub>3</sub>E<sub>2</sub>→:::←AX<sub>4</sub>E<sub>0</sub> <!--SR:!2023-06-17,43,290!2023-07-10,29,290-->
+9. AX<sub>4</sub>E<sub>0</sub>→:::←AX<sub>4</sub>E<sub>1</sub> <!--SR:!2023-06-28,66,310!2023-07-06,73,310-->
+10. AX<sub>4</sub>E<sub>1</sub>→:::←AX<sub>4</sub>E<sub>2</sub> <!--SR:!2023-06-30,67,310!2023-07-02,69,310-->
+11. AX<sub>4</sub>E<sub>2</sub>→:::←AX<sub>5</sub>E<sub>0</sub> <!--SR:!2024-01-23,226,330!2023-06-29,66,310-->
+12. AX<sub>5</sub>E<sub>0</sub>→:::←AX<sub>5</sub>E<sub>1</sub> <!--SR:!2023-06-14,55,310!2023-06-24,63,310-->
+13. AX<sub>5</sub>E<sub>1</sub>→:::←AX<sub>5</sub>E<sub>2</sub> <!--SR:!2023-07-03,70,310!2023-06-21,60,310-->
+14. AX<sub>5</sub>E<sub>2</sub>→:::←AX<sub>6</sub>E<sub>0</sub> <!--SR:!2023-06-27,65,310!2023-06-19,59,310-->
+15. AX<sub>6</sub>E<sub>0</sub>→:::←AX<sub>6</sub>E<sub>1</sub> <!--SR:!2023-09-08,93,270!2023-07-01,68,310-->
+16. AX<sub>6</sub>E<sub>1</sub>→:::←AX<sub>7</sub>E<sub>0</sub> <!--SR:!2023-06-13,50,290!2023-09-05,90,270-->
+17. AX<sub>7</sub>E<sub>0</sub>→:::←AX<sub>8</sub>E<sub>0</sub> <!--SR:!2023-07-04,71,310!2023-10-30,157,310-->
+18. AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub> <!--SR:!2023-06-17,57,310!2023-06-21,60,310-->
+19. AX<sub>9</sub>E<sub>0</sub>→:::←_(end)_ <!--SR:!2023-06-30,67,310!2024-01-24,227,330-->
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
