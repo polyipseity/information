@@ -3,8 +3,8 @@ aliases:
   - Fe(OH)2
   - iron(II) hydroxide
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ii/iron_II__hydroxide
+  - categories/chemistry
+  - flashcards/general/iron_II__hydroxide
 ---
 
 # iron(II) hydroxide

@@ -5,8 +5,8 @@ aliases:
   - transition metal
   - transition metals
 tags:
-  - academic/chemistry
-  - flashcards/academic/Tt/transition_metal
+  - categories/chemistry
+  - flashcards/general/transition_metal
 ---
 
 %%

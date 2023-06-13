@@ -4,8 +4,8 @@ aliases:
   - chemical formulae
   - chemical formulas
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/chemical_formula
+  - categories/chemistry
+  - flashcards/general/chemical_formula
 ---
 
 # chemical formula

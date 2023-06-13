@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Oo/oxygen
+  - categories/chemistry
+  - flashcards/general/oxygen
 ---
 
 %%

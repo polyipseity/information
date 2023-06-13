@@ -3,8 +3,8 @@ aliases:
   - plastic
   - plastics
 tags:
-  - academic/chemistry
-  - flashcards/academic/Pp/plastic
+  - categories/chemistry
+  - flashcards/general/plastic
 ---
 
 %%

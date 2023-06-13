@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Gg/GHS_hazard_pictograms
+  - categories/chemistry
+  - flashcards/general/GHS_hazard_pictograms
 ---
 
 %%

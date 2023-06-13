@@ -3,8 +3,8 @@ aliases:
   - spectral color
   - spectral colors
 tags:
-  - academic/physics
-  - flashcards/academic/Ss/spectral_color
+  - categories/physics
+  - flashcards/general/spectral_color
 ---
 
 %%

@@ -5,8 +5,8 @@ aliases:
   - van der Waals' force
   - van der Waals' forces
 tags:
-  - academic/chemistry
-  - flashcards/academic/Vv/van_der_Waals_force
+  - categories/chemistry
+  - flashcards/general/van_der_Waals_force
 ---
 
 # van der Waals force

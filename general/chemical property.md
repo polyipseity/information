@@ -3,8 +3,8 @@ aliases:
   - chemical properties
   - chemical property
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/chemical_property
+  - categories/chemistry
+  - flashcards/general/chemical_property
 ---
 
 # chemical property

@@ -5,9 +5,9 @@ aliases:
   - r.a.m.
   - relative atomic mass
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Aa/atomic_mass
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/relative_atomic_mass
 ---
 
 # relative atomic mass

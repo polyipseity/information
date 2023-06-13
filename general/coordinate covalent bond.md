@@ -7,8 +7,8 @@ aliases:
   - dative bonding
   - dative bonds
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/coordinate_covalent_bond
+  - categories/chemistry
+  - flashcards/general/coordinate_covalent_bond
 ---
 
 # coordinate covalent bond

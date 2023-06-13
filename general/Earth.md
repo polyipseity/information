@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/astronomy
-  - flashcards/academic/Ee/Earth
+  - categories/astronomy
+  - flashcards/general/Earth
 ---
 
 # Earth

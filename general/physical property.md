@@ -3,9 +3,9 @@ aliases:
   - physical properties
   - physical property
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Pp/physical_property
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/physical_property
 ---
 
 %%

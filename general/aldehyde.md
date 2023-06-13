@@ -3,8 +3,8 @@ aliases:
   - aldehyde
   - aldehydes
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/aldehyde
+  - categories/chemistry
+  - flashcards/general/aldehyde
 ---
 
 %%

@@ -3,9 +3,9 @@ aliases:
   - period
   - periods
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Pp/period__periodic_table_
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/period__periodic_table_
 ---
 
 # period

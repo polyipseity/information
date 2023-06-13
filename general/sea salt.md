@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/sea_salt
+  - categories/chemistry
+  - flashcards/general/sea_salt
 ---
 
 %%

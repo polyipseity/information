@@ -3,8 +3,8 @@ aliases:
   - Cu
   - copper
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/copper
+  - categories/chemistry
+  - flashcards/general/copper
 ---
 
 %%

@@ -3,9 +3,9 @@ aliases:
   - periodic trend
   - periodic trends
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Pp/periodic_trends
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/periodic_trends
 ---
 
 %%

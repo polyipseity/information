@@ -3,8 +3,8 @@ aliases:
   - internal energies
   - internal energy
 tags:
-  - academic/physics
-  - flashcards/academic/Ii/internal_energy
+  - categories/physics
+  - flashcards/general/internal_energy
 ---
 
 # internal energy

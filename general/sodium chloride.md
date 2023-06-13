@@ -3,8 +3,8 @@ aliases:
   - NaCl
   - sodium chloride
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/sodium_chloride
+  - categories/chemistry
+  - flashcards/general/sodium_chloride
 ---
 
 # sodium chloride

@@ -2,8 +2,8 @@
 aliases:
   - Reichstein process
 tags:
-  - academic/chemistry
-  - flashcards/academic/Rr/Reichstein_process
+  - categories/chemistry
+  - flashcards/general/Reichstein_process
 ---
 
 %%

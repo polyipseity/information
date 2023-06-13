@@ -7,8 +7,8 @@ aliases:
   - ion
   - ions
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ii/ion
+  - categories/chemistry
+  - flashcards/general/ion
 ---
 
 %%

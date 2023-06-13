@@ -4,8 +4,8 @@ aliases:
   - alkanes
   - paraffin
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/alkane
+  - categories/chemistry
+  - flashcards/general/alkane
 ---
 
 %%

@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/crystallization
+  - categories/chemistry
+  - flashcards/general/crystallization
 ---
 
 # crystallization

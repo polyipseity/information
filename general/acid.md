@@ -5,8 +5,8 @@ aliases:
   - acidified
   - acids
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/acid
+  - categories/chemistry
+  - flashcards/general/acid
 ---
 
 # acid

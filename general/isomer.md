@@ -4,8 +4,8 @@ aliases:
   - isomeres
   - isomerism
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ii/isomer
+  - categories/chemistry
+  - flashcards/general/isomer
 ---
 
 # isomer

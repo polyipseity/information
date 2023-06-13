@@ -3,9 +3,9 @@ aliases:
   - H2CO3
   - carbonic acid
 tags:
-  - academic/biology
-  - academic/chemistry
-  - flashcards/academic/Cc/carbonic_acid
+  - categories/biology
+  - categories/chemistry
+  - flashcards/general/carbonic_acid
 ---
 
 # carbonic acid

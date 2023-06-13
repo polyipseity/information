@@ -3,8 +3,8 @@ aliases:
   - Zn(OH)2
   - zinc hydroxide
 tags:
-  - academic/chemistry
-  - flashcards/academic/Zz/zinc_hydroxide
+  - categories/chemistry
+  - flashcards/general/zinc_hydroxide
 ---
 
 # zinc hydroxide

@@ -3,8 +3,8 @@ aliases:
   - alkene
   - alkenes
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/alkene
+  - categories/chemistry
+  - flashcards/general/alkene
 ---
 
 %%

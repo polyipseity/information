@@ -3,8 +3,8 @@ aliases:
   - salt bridge
   - salt bridges
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/salt_bridge
+  - categories/chemistry
+  - flashcards/general/salt_bridge
 ---
 
 # salt bridge

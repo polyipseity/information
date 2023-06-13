@@ -4,8 +4,8 @@ aliases:
   - neutralize
   - neutralizes
 tags:
-  - academic/chemistry
-  - flashcards/academic/Nn/neutralization__chemistry_
+  - categories/chemistry
+  - flashcards/general/neutralization__chemistry_
 ---
 
 %%

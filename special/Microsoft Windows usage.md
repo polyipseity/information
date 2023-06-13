@@ -1,7 +1,6 @@
 ---
 tags:
-  - flashcards/general/usage/Microsoft_Windows_usage
-  - general/usage
+  - flashcards/special/Microsoft_Windows_usage
 ---
 
 # Microsoft Windows usage

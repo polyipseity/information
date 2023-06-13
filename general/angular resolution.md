@@ -3,8 +3,8 @@ aliases:
   - angular resolution
   - angular resolutions
 tags:
-  - academic/physics
-  - flashcards/academic/Aa/angular_resolution
+  - categories/physics
+  - flashcards/general/angular_resolution
 ---
 
 # angular resolution

@@ -4,8 +4,8 @@ aliases:
   - corrosive substance
   - corrosive substances
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/corrosive_substance
+  - categories/chemistry
+  - flashcards/general/corrosive_substance
 ---
 
 # corrosive substance

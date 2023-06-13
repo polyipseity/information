@@ -3,8 +3,8 @@ aliases:
   - petroleum industries
   - petroleum industry
 tags:
-  - academic/chemistry
-  - flashcards/academic/Pp/petroleum_industry
+  - categories/chemistry
+  - flashcards/general/petroleum_industry
 ---
 
 %%

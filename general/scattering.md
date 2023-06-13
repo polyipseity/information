@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/physics
-  - flashcards/academic/Ss/scattering
+  - categories/physics
+  - flashcards/general/scattering
 ---
 
 # scattering

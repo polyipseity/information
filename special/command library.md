@@ -1,6 +1,5 @@
 ---
-tags:
-  - general/libraries
+tags: []
 ---
 
 # command library

@@ -3,9 +3,9 @@ aliases:
   - H2O
   - water
 tags:
-  - academic/biology
-  - academic/chemistry
-  - flashcards/academic/Ww/water
+  - categories/biology
+  - categories/chemistry
+  - flashcards/general/water
 ---
 
 # water

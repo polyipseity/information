@@ -5,8 +5,8 @@ aliases:
   - solution
   - solutions
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/solution__chemistry_
+  - categories/chemistry
+  - flashcards/general/solution__chemistry_
 ---
 
 # solution

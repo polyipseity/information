@@ -4,8 +4,8 @@ aliases:
   - metallic bonding
   - metallic bonds
 tags:
-  - academic/chemistry
-  - flashcards/academic/Mm/metallic_bond
+  - categories/chemistry
+  - flashcards/general/metallic_bond
 ---
 
 # metallic bond

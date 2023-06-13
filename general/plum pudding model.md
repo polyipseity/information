@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/physics
-  - flashcards/academic/Pp/plum_pudding_model
+  - categories/physics
+  - flashcards/general/plum_pudding_model
 ---
 
 # plum pudding model

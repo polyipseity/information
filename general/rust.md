@@ -3,8 +3,8 @@ aliases:
   - rust
   - rusting
 tags:
-  - academic/chemistry
-  - flashcards/academic/Rr/rust
+  - categories/chemistry
+  - flashcards/general/rust
 ---
 
 %%

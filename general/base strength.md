@@ -5,8 +5,8 @@ aliases:
   - strong base
   - strong bases
 tags:
-  - academic/chemistry
-  - flashcards/academic/Bb/base_strength
+  - categories/chemistry
+  - flashcards/general/base_strength
 ---
 
 # base strength

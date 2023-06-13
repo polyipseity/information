@@ -3,8 +3,8 @@ aliases:
   - ketone
   - ketones
 tags:
-  - academic/chemistry
-  - flashcards/academic/Kk/ketone
+  - categories/chemistry
+  - flashcards/general/ketone
 ---
 
 %%

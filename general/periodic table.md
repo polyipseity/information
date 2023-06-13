@@ -3,9 +3,9 @@ aliases:
   - periodic table
   - periodic tables
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Pp/periodic_table
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/periodic_table
 ---
 
 # periodic table

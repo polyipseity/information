@@ -1,9 +1,9 @@
 ---
 tags:
-  - academic/chemistry
-  - academic/geology
-  - academic/mineralogy
-  - flashcards/academic/Oo/ore
+  - categories/chemistry
+  - categories/geology
+  - categories/mineralogy
+  - flashcards/general/ore
 ---
 
 %%

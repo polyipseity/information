@@ -3,8 +3,8 @@ aliases:
   - activity series
   - reactivity series
 tags:
-  - academic/chemistry
-  - flashcards/academic/Rr/reactivity_series
+  - categories/chemistry
+  - flashcards/general/reactivity_series
 ---
 
 %%

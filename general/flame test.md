@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ff/flame_test
+  - categories/chemistry
+  - flashcards/general/flame_test
 ---
 
 %%

@@ -2,9 +2,9 @@
 aliases:
   - atoms
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Aa/atom
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/atom
 ---
 
 # atom

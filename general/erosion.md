@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ee/erosion
+  - categories/chemistry
+  - flashcards/general/erosion
 ---
 
 # erosion

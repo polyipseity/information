@@ -2,8 +2,8 @@
 aliases:
   - metals
 tags:
-  - academic/chemistry
-  - flashcards/academic/Mm/metal
+  - categories/chemistry
+  - flashcards/general/metal
 ---
 
 # metal

@@ -2,8 +2,8 @@
 aliases:
   - cracking
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/cracking__chemistry_
+  - categories/chemistry
+  - flashcards/general/cracking__chemistry_
 ---
 
 %%

@@ -1,7 +1,6 @@
 ---
 aliases: []
 tags:
-  - archives/Wikimedia_Commons
   - functional/index
 ---
 

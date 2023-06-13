@@ -2,8 +2,8 @@
 aliases:
   - Albustix
 tags:
-  - academic/biology
-  - flashcards/academic/Aa/Albustix
+  - categories/biology
+  - flashcards/general/Albustix
 ---
 
 # Albustix

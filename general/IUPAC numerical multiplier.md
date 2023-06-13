@@ -3,8 +3,8 @@ aliases:
   - IUPAC numerical multiplier
   - IUPAC numerical multipliers
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ii/IUPAC_numerical_multiplier
+  - categories/chemistry
+  - flashcards/general/IUPAC_numerical_multiplier
 ---
 
 %%
