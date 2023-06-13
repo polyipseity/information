@@ -3,8 +3,8 @@ aliases:
   - base anhydride
   - base anhydrides
 tags:
-  - academic/chemistry
-  - flashcards/academic/Bb/base_anhydride
+  - categories/chemistry
+  - flashcards/general/base_anhydride
 ---
 
 # base anhydride

@@ -5,8 +5,8 @@ aliases:
   - nanomaterial
   - nanomaterials
 tags:
-  - academic/physics
-  - flashcards/academic/Nn/nanomaterials
+  - categories/physics
+  - flashcards/general/nanomaterials
 ---
 
 # nanomaterials

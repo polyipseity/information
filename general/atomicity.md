@@ -2,8 +2,8 @@
 aliases:
   - atomicity
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/atomicity
+  - categories/chemistry
+  - flashcards/general/atomicity
 ---
 
 %%

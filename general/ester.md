@@ -3,8 +3,8 @@ aliases:
   - ester
   - esters
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ee/ester
+  - categories/chemistry
+  - flashcards/general/ester
 ---
 
 %%

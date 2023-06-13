@@ -3,9 +3,9 @@ aliases:
   - enthalpies
   - enthalpy
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Ee/enthalpy
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/enthalpy
 ---
 
 %%

@@ -1,8 +1,7 @@
 ---
 tags:
   - categories/Blender
-  - flashcards/general/usage/Blender_usage
-  - general/usage
+  - flashcards/special/Blender_usage
 ---
 
 # Blender usage

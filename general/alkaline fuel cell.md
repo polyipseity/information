@@ -4,8 +4,8 @@ aliases:
   - alkaline fuel cell
   - alkaline fuel cells
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/alkaline_fuel_cell
+  - categories/chemistry
+  - flashcards/general/alkaline_fuel_cell
 ---
 
 %%

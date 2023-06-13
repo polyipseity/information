@@ -2,8 +2,8 @@
 aliases:
   - nylon
 tags:
-  - academic/chemistry
-  - flashcards/academic/Nn/nylon
+  - categories/chemistry
+  - flashcards/general/nylon
 ---
 
 %%

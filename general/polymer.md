@@ -3,8 +3,8 @@ aliases:
   - polymer
   - polymers
 tags:
-  - academic/chemistry
-  - flashcards/academic/Pp/polymer
+  - categories/chemistry
+  - flashcards/general/polymer
 ---
 
 # polymer

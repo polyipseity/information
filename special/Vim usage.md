@@ -1,7 +1,6 @@
 ---
 tags:
-  - flashcards/general/usage/Vim_usage
-  - general/usage
+  - flashcards/special/Vim_usage
 ---
 
 # Vim usage

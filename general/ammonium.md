@@ -3,8 +3,8 @@ aliases:
   - NH4+
   - ammonium
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/ammonium
+  - categories/chemistry
+  - flashcards/general/ammonium
 ---
 
 # ammonium

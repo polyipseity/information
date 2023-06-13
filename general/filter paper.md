@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ff/filter_paper
+  - categories/chemistry
+  - flashcards/general/filter_paper
 ---
 
 # filter paper

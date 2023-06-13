@@ -3,8 +3,8 @@ aliases:
   - Al(OH)3
   - aluminium hydroxide
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/aluminium_hydroxide
+  - categories/chemistry
+  - flashcards/general/aluminium_hydroxide
 ---
 
 # aluminium hydroxide

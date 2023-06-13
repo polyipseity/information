@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ll/limestone
+  - categories/chemistry
+  - flashcards/general/limestone
 ---
 
 %%

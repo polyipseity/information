@@ -9,8 +9,8 @@ aliases:
   - N<sub>2</sub>
   - nitrogen
 tags:
-  - academic/chemistry
-  - flashcards/academic/Nn/nitrogen
+  - categories/chemistry
+  - flashcards/general/nitrogen
 ---
 
 %%

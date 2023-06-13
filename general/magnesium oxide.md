@@ -4,8 +4,8 @@ aliases:
   - magnesia
   - magnesium oxide
 tags:
-  - academic/chemistry
-  - flashcards/academic/Mm/magnesium_oxide
+  - categories/chemistry
+  - flashcards/general/magnesium_oxide
 ---
 
 # magnesium oxide

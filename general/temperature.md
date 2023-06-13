@@ -3,10 +3,10 @@ aliases:
   - temperature
   - temperatures
 tags:
-  - academic/biology
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Tt/temperature
+  - categories/biology
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/temperature
 ---
 
 # temperature

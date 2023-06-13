@@ -4,8 +4,8 @@ aliases:
   - London dispersion force
   - London dispersion forces
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ll/London_dispersion_force
+  - categories/chemistry
+  - flashcards/general/London_dispersion_force
 ---
 
 # London dispersion force

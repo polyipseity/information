@@ -4,8 +4,8 @@ aliases:
   - organic compound
   - organic compounds
 tags:
-  - academic/chemistry
-  - flashcards/academic/Oo/organic_compound
+  - categories/chemistry
+  - flashcards/general/organic_compound
 ---
 
 %%

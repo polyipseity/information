@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Pp/panning
+  - categories/chemistry
+  - flashcards/general/panning
 ---
 
 # panning

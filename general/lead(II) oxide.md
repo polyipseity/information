@@ -3,8 +3,8 @@ aliases:
   - PbO
   - lead(II) oxide
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ll/lead_II__oxide
+  - categories/chemistry
+  - flashcards/general/lead_II__oxide
 ---
 
 # lead(II) oxide

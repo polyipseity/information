@@ -1,8 +1,8 @@
 ---
 tags:
-  - academic/chemistry
-  - academic/metallurgy
-  - flashcards/academic/Ee/electrometallurgy
+  - categories/chemistry
+  - categories/metallurgy
+  - flashcards/general/electrometallurgy
 ---
 
 %%

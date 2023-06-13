@@ -3,8 +3,8 @@ aliases:
   - diamond
   - diamonds
 tags:
-  - academic/chemistry
-  - flashcards/academic/Dd/diamond
+  - categories/chemistry
+  - flashcards/general/diamond
 ---
 
 # diamond

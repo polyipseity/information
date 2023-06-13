@@ -3,8 +3,8 @@ aliases:
   - Ti
   - titanium
 tags:
-  - academic/chemistry
-  - flashcards/academic/Tt/titanium
+  - categories/chemistry
+  - flashcards/general/titanium
 ---
 
 %%

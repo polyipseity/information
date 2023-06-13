@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/atmosphere_of_Earth
+  - categories/chemistry
+  - flashcards/general/atmosphere_of_Earth
 ---
 
 %%

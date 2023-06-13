@@ -3,8 +3,8 @@ aliases:
   - insoluble
   - soluble
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/solubility
+  - categories/chemistry
+  - flashcards/general/solubility
 ---
 
 # solubility

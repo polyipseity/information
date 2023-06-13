@@ -1,9 +1,9 @@
 ---
 tags:
-  - academic/chemistry
-  - academic/climatology
-  - academic/geomorphology
-  - flashcards/academic/Ww/weathering
+  - categories/chemistry
+  - categories/climatology
+  - categories/geomorphology
+  - flashcards/general/weathering
 ---
 
 %%

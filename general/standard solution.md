@@ -3,8 +3,8 @@ aliases:
   - standard solution
   - standard solutions
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/standard_solution
+  - categories/chemistry
+  - flashcards/general/standard_solution
 ---
 
 # standard solution

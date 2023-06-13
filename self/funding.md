@@ -2,7 +2,6 @@
 aliases: []
 tags:
   - functional/text
-  - general/text
 ---
 
 # funding

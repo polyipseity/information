@@ -10,8 +10,8 @@ aliases:
   - noble gas
   - noble gases
 tags:
-  - academic/chemistry
-  - flashcards/academic/Nn/noble_gas
+  - categories/chemistry
+  - flashcards/general/noble_gas
 ---
 
 # noble gas

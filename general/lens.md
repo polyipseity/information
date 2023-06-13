@@ -3,8 +3,8 @@ aliases:
   - lens
   - lenses
 tags:
-  - academic/physics
-  - flashcards/academic/Ll/lens
+  - categories/physics
+  - flashcards/general/lens
 ---
 
 # lens

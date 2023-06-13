@@ -2,9 +2,9 @@
 aliases:
   - Avogadro's law
 tags:
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Aa/Avogadro_s_law
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/Avogadro's_law
 ---
 
 # Avogadro's law

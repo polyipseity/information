@@ -2,8 +2,8 @@
 aliases:
   - corrosion
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/corrosion
+  - categories/chemistry
+  - flashcards/general/corrosion
 ---
 
 # corrosion

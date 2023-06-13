@@ -2,8 +2,8 @@
 aliases:
   - mixtures
 tags:
-  - academic/chemistry
-  - flashcards/academic/Mm/mixture
+  - categories/chemistry
+  - flashcards/general/mixture
 ---
 
 # mixture

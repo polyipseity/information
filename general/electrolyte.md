@@ -3,8 +3,8 @@ aliases:
   - electrolyte
   - electrolytes
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ee/electrolyte
+  - categories/chemistry
+  - flashcards/general/electrolyte
 ---
 
 # electrolyte

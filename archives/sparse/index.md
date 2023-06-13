@@ -1,7 +1,6 @@
 ---
 aliases: []
 tags:
-  - archives/sparse
   - functional/index
 ---
 

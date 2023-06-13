@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ff/filtration
+  - categories/chemistry
+  - flashcards/general/filtration
 ---
 
 # filtration

@@ -3,10 +3,10 @@ aliases:
   - mineral species
   - minerals
 tags:
-  - academic/chemistry
-  - academic/geology
-  - academic/mineralogy
-  - flashcards/academic/Mm/mineral
+  - categories/chemistry
+  - categories/geology
+  - categories/mineralogy
+  - flashcards/general/mineral
 ---
 
 # mineral

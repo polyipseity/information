@@ -3,9 +3,9 @@ aliases:
   - alcohol
   - alcohols
 tags:
-  - academic/biology
-  - academic/chemistry
-  - flashcards/academic/Aa/alcohol
+  - categories/biology
+  - categories/chemistry
+  - flashcards/general/alcohol
 ---
 
 %%

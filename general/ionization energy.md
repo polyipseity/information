@@ -4,8 +4,8 @@ aliases:
   - ionisation energy
   - ionization energies
 tags:
-  - academic/physics
-  - flashcards/academic/Ii/ionization_energy
+  - categories/physics
+  - flashcards/general/ionization_energy
 ---
 
 # ionization energy

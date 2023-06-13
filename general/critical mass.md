@@ -2,8 +2,8 @@
 aliases:
   - critical mass
 tags:
-  - academic/physics
-  - flashcards/academic/Cc/critical_mass
+  - categories/physics
+  - flashcards/general/critical_mass
 ---
 
 # critical mass

@@ -5,8 +5,8 @@ aliases:
   - covalent bonds
   - covalently bound
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/covalent_bond
+  - categories/chemistry
+  - flashcards/general/covalent_bond
 ---
 
 # covalent bond

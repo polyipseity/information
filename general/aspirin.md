@@ -5,9 +5,9 @@ aliases:
   - acetylsaylicylic acid
   - aspirin
 tags:
-  - academic/biology
-  - academic/chemistry
-  - flashcards/academic/Aa/aspirin
+  - categories/biology
+  - categories/chemistry
+  - flashcards/general/aspirin
 ---
 
 %%

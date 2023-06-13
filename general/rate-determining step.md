@@ -18,8 +18,8 @@ aliases:
   - rate-limiting step
   - rate-limiting steps
 tags:
-  - academic/chemistry
-  - flashcards/academic/Rr/rater-determining_step
+  - categories/chemistry
+  - flashcards/general/rate-determining_step
 ---
 
 # rate-determining step

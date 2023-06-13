@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/physics
-  - flashcards/academic/Rr/Rutherford_model
+  - categories/physics
+  - flashcards/general/Rutherford_model
 ---
 
 # Rutherford model

@@ -2,8 +2,8 @@
 aliases:
   - organic synthesis
 tags:
-  - academic/chemistry
-  - flashcards/academic/Oo/organic_synthesis
+  - categories/chemistry
+  - flashcards/general/organic_synthesis
 ---
 
 %%

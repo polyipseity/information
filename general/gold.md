@@ -3,8 +3,8 @@ aliases:
   - Au
   - gold
 tags:
-  - academic/chemistry
-  - flashcards/academic/Gg/gold
+  - categories/chemistry
+  - flashcards/general/gold
 ---
 
 %%

@@ -6,8 +6,8 @@ aliases:
   - semimetal
   - semimetals
 tags:
-  - academic/chemistry
-  - flashcards/academic/Mm/metalloid
+  - categories/chemistry
+  - flashcards/general/metalloid
 ---
 
 # metalloid

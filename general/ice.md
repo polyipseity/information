@@ -2,8 +2,8 @@
 aliases:
   - ice
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ii/ice
+  - categories/chemistry
+  - flashcards/general/ice
 ---
 
 # ice

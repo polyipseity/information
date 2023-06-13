@@ -2,8 +2,8 @@
 aliases:
   - photons
 tags:
-  - academic/physics
-  - flashcards/academic/Pp/photon
+  - categories/physics
+  - flashcards/general/photon
 ---
 
 # photon

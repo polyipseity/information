@@ -3,8 +3,8 @@ aliases:
   - carboxylic acid
   - carboxylic acids
 tags:
-  - academic/chemistry
-  - flashcards/academic/Cc/carboxylic_acid
+  - categories/chemistry
+  - flashcards/general/carboxylic_acid
 ---
 
 %%

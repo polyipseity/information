@@ -1,6 +1,5 @@
 ---
-tags:
-  - general/data/nutritional_information
+tags: []
 ---
 
 # Redoxon Triple Action

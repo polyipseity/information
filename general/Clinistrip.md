@@ -4,8 +4,8 @@ aliases:
   - Clinistrip
   - Diastix
 tags:
-  - academic/biology
-  - flashcards/academic/Cc/Clinistrip
+  - categories/biology
+  - flashcards/general/Clinistrip
 ---
 
 # Clinistrip

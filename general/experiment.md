@@ -1,9 +1,9 @@
 ---
 tags:
-  - academic/biology
-  - academic/chemistry
-  - academic/physics
-  - flashcards/academic/Ee/experiment
+  - categories/biology
+  - categories/chemistry
+  - categories/physics
+  - flashcards/general/experiment
 ---
 
 %%

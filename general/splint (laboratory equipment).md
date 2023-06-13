@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ss/splint__laboratory_equipment_
+  - categories/chemistry
+  - flashcards/general/splint__laboratory_equipment_
 ---
 
 %%

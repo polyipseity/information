@@ -6,8 +6,8 @@ aliases:
   - aluminum oxide
   - aluminum(III) oxide
 tags:
-  - academic/chemistry
-  - flashcards/academic/Aa/aluminium_oxide
+  - categories/chemistry
+  - flashcards/general/aluminium_oxide
 ---
 
 # aluminium oxide

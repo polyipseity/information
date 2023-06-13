@@ -5,8 +5,8 @@ aliases:
   - blackbodies
   - blackbody
 tags:
-  - academic/physics
-  - flashcards/academic/Bb/black_body
+  - categories/physics
+  - flashcards/general/black_body
 ---
 
 # black body

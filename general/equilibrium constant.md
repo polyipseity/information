@@ -3,8 +3,8 @@ aliases:
   - equilibrium constant
   - equilibrium constants
 tags:
-  - academic/chemistry
-  - flashcards/academic/Ee/equilibrium_constant
+  - categories/chemistry
+  - flashcards/general/equilibrium_constant
 ---
 
 # equilibrium constant

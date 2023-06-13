@@ -5,8 +5,8 @@ aliases:
   - rate law
   - rate laws
 tags:
-  - academic/chemistry
-  - flashcards/academic/Rr/rate_equation
+  - categories/chemistry
+  - flashcards/general/rate_equation
 ---
 
 # rate equation

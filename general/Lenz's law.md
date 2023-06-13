@@ -3,8 +3,8 @@ aliases:
   - Lenz law
   - Lenz's law
 tags:
-  - academic/physics
-  - flashcards/academic/Ll/Lenz_s_law
+  - categories/physics
+  - flashcards/general/Lenz's_law
 ---
 
 # Lenz's law

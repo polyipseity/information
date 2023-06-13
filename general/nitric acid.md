@@ -3,8 +3,8 @@ aliases:
   - HNO3
   - nitric acid
 tags:
-  - academic/chemistry
-  - flashcards/academic/Nn/nitric_acid
+  - categories/chemistry
+  - flashcards/general/nitric_acid
 ---
 
 # nitric acid

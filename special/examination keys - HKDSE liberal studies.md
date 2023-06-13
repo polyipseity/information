@@ -1,7 +1,7 @@
 ---
 tags:
-  - academic/liberal_arts_education
-  - flashcards/academic/data/examination_keys_-_HKDSE_liberal_studies
+  - categories/liberal_arts_education
+  - flashcards/special/examination_keys_-_HKDSE_liberal_studies
 ---
 
 %%

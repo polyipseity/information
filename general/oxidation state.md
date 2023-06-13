@@ -2,8 +2,8 @@
 aliases:
   - oxidation number
 tags:
-  - academic/chemistry
-  - flashcards/academic/Oo/oxidation_state
+  - categories/chemistry
+  - flashcards/general/oxidation_state
 ---
 
 # oxidation state
