@@ -11,7 +11,7 @@ tags:
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
-# import ../../utility.py.md
+# import ../../tools/utility.py.md
 ```
 %%
 
@@ -42,14 +42,14 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d927"--><!-- The following content is generated at 2023-04-02T20:58:40.841985+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d927"--><!-- The following content is generated at 2023-06-13T11:10:50.266473+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[antacids](antacid.md)}} | {{Consuming [aluminium hydroxide](aluminium%20hydroxide.md) or [magnesium hydroxide](magnesium%20hydroxide.md) neutralizes [hydrochloric acid](hydrochloric%20acid.md) in the [stomach](stomach.md).}} |
 > | {{control of [soil pH](soil%20pH.md)}} | {{Powdered [limestone](limestone.md) and [slaked lime](calcium%20hydroxide.md) can increase [soil pH](soil%20pH.md) while [ammonium sulfate](ammonium%20sulfate.md) can decrease it.}} |
 > | {{production of [fertilizer](fertilizer.md)}} | {{Neutralization of [nitric acid](nitric%20acid.md) or [sulfuric acid](sulfuric%20acid.md) with [ammonia](ammonia.md) [gas](gas.md) is used to make [ammonium nitrate](ammonium%20nitrate.md) or [ammonium sulfate](ammonium%20sulfate.md).}} |
-> | {{[wastewater treatment](water%20treatment.md)}} | {{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid.md) can neutralize [alkaline](alkali.md) waste.}} |
+> | {{[wastewater treatment](water%20treatment.md)}} | {{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid) can neutralize [alkaline](alkali.md) waste.}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
