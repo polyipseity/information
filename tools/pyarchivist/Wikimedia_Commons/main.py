@@ -253,9 +253,9 @@ async def main(args: Args):
                 async def fetch(page: _Response.Page):
                     filename = page.title.split(":", 2)[-1]
                     _LOGGER.info(f"Fetching '{filename}'")
-                    async with (
+                    async with sess.get(page.imageinfo[0].url) as resp, (
                         await _open(args.dest / filename, mode="wb")
-                    ) as file, sess.get(page.imageinfo[0].url) as resp:
+                    ) as file:
                         async for chunk in resp.content.iter_any():
                             await file.write(chunk)
                     return filename, _index_formatter(filename, _credit_formatter(page))
