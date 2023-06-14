@@ -214,6 +214,7 @@ async def main(args: Args):
             },
         ) as sess:
             try:
+                _LOGGER.info(f"Querying {len(args.inputs)} files")
 
                 async def query(inputs: _Iter[str]):
                     async with sess.get(
@@ -247,6 +248,7 @@ async def main(args: Args):
                 ec |= ExitCode.QUERY_ERROR
                 raise
             try:
+                _LOGGER.info(f"Fetching {len(pages)} files")
 
                 async def fetch(page: _Response.Page):
                     filename = page.title.split(":", 2)[-1]
@@ -264,7 +266,11 @@ async def main(args: Args):
                 ec |= ExitCode.FETCH_ERROR
                 raise
             try:
-                if args.index is not None:
+                if args.index is None:
+                    _LOGGER.info("Skipped indexing")
+                else:
+                    _LOGGER.info(f"Indexing {len(entries)} files")
+
                     async with (
                         await _open(
                             args.dest / args.index, mode="r+t", **_OPEN_TXT_OPTS
