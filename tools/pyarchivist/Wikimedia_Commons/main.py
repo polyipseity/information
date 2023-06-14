@@ -17,6 +17,7 @@ from dataclasses import dataclass as _dc
 from enum import IntFlag as _IntFlag, auto as _auto, unique as _unq
 from functools import partial as _part, wraps as _wraps
 from html2text import HTML2Text as _HTM2TXT
+from itertools import chain as _chain
 from json import loads as _loads
 from re import MULTILINE as _MULTILINE, compile as _re_comp
 from sys import exit as _exit, modules as _mods
@@ -25,6 +26,7 @@ from typing import (
     Callable as _Call,
     ClassVar as _ClsVar,
     Generic as _Generic,
+    Iterable as _Iter,
     Mapping as _Map,
     Protocol as _Proto,
     Sequence as _Seq,
@@ -36,6 +38,7 @@ from yarl import URL as _URL
 
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 1
 _PERCENT_ESCAPE_SAFE = "/,"
+_QUERY_LIMIT = 50
 _T = _TVar("_T")
 
 
@@ -211,26 +214,36 @@ async def main(args: Args):
             },
         ) as sess:
             try:
-                async with sess.get(
-                    _URL.build(
-                        scheme="https",
-                        host="commons.wikimedia.org",
-                        path="/w/api.php",
-                        query={
-                            "format": "json",
-                            "action": "query",
-                            "titles": "|".join(args.inputs),
-                            "prop": "imageinfo",
-                            "iiprop": "extmetadata|url",
-                        },
+
+                async def query(inputs: _Iter[str]):
+                    async with sess.get(
+                        _URL.build(
+                            scheme="https",
+                            host="commons.wikimedia.org",
+                            path="/w/api.php",
+                            query={
+                                "format": "json",
+                                "action": "query",
+                                "titles": "|".join(inputs),
+                                "prop": "imageinfo",
+                                "iiprop": "extmetadata|url",
+                            },
+                        )
+                    ) as resp:
+                        data: _Response = await resp.json(
+                            loads=_part(_loads, object_hook=_JSONDict)
+                        )
+                    return data.query.pages.values()
+
+                queries: _Seq[_Iter[_Response.Page]] = await _gather(
+                    *map(
+                        lambda idx: query(args.inputs[idx : idx + _QUERY_LIMIT]),
+                        range(0, len(args.inputs), _QUERY_LIMIT),
                     )
-                ) as resp:
-                    data0: _Response = await resp.json(
-                        loads=_part(_loads, object_hook=_JSONDict)
-                    )
-                    pages = tuple(data0.query.pages.values())
+                )
+                pages = tuple(_chain.from_iterable(queries))
             except Exception:
-                _LOGGER.exception("Error archiving")
+                _LOGGER.exception("Error querying")
                 ec |= ExitCode.QUERY_ERROR
                 raise
             try:
