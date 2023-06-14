@@ -52,7 +52,7 @@ class ToolsPathEntryFinder(_importlib_abc.PathEntryFinder):
 
 _sys.path_hooks.insert(0, ToolsPathEntryFinder.hook)
 from tools.pytextgen import (
-    globals as _pytextgen_globals,
+    OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS,
     main as _pytextgen_main,
     util as _pytextgen_util,
 )
@@ -118,7 +118,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
         async with await _anyio.open_file(
             cache_data_path,
             mode="r+t",
-            **_pytextgen_globals.OPEN_OPTIONS,
+            **_OPEN_TXT_OPTS,
         ) as cache_data:
             try:
                 data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
@@ -158,13 +158,12 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 async def maybe_yield(path: str):
                     def finalizer():
                         async def impl():
+                            open_opts = _OPEN_TXT_OPTS.copy()
+                            open_opts.update({"newline": ""})
                             async with await _anyio.open_file(
                                 path,
                                 mode="r+t",
-                                **{
-                                    **_pytextgen_globals.OPEN_OPTIONS,
-                                    "newline": "",
-                                },
+                                **open_opts,
                             ) as file:
                                 text = await file.read()
                                 async with _asyncio.TaskGroup() as group:
@@ -194,13 +193,12 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     if (
                         await _pytextgen_util.asyncify(_os.lstat)(path)
                     ).st_mtime_ns != c_mtime:
+                        open_opts = _OPEN_TXT_OPTS.copy()
+                        open_opts.update({"newline": ""})
                         async with await _anyio.open_file(
                             path,
                             mode="rt",
-                            **{
-                                **_pytextgen_globals.OPEN_OPTIONS,
-                                "newline": "",
-                            },
+                            **open_opts,
                         ) as io:
                             text = await io.read()
                         if text != c_text:
