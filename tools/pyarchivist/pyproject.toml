@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=65.6.3",]
+build-backend = "setuptools.build_meta"
+
+# update `__init__.py`
+[project]
+authors = [
+	{name = "William So", email = "polyipseity@gmail.com"},
+]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Environment :: Console",
+	"Framework :: AsyncIO",
+	"Intended Audience :: Other Audience",
+	"License :: OSI Approved",
+	"License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Topic :: Text Processing",
+	"Topic :: Text Processing :: General",
+	"Topic :: Text Processing :: Markup",
+	"Topic :: Text Processing :: Markup :: HTML",
+	"Topic :: Text Processing :: Markup :: Markdown",
+	"Topic :: Utilities",
+	"Typing :: Typed",
+]
+dependencies = [
+	"aiohttp>=3.8.4",
+	"anyio>=3.6.2",
+	"html2text>=2020.1.16",
+	"yarl>=1.9.2",
+]
+description = ""
+dynamic = ["version",]
+keywords = []
+license = {file = "LICENSE.txt"}
+name = "pyarchivist"
+readme = "README.md"
+requires-python = ">=3.11.0"
+
+[project.urls]
+repository = "https://github.com/polyipseity/pyarchivist.git"
+
+[tool.setuptools]
+package-dir = {pyarchivist = "."}
+
+[tool.setuptools.dynamic]
+version = {attr = "VERSION"}

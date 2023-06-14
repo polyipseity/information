@@ -12,7 +12,7 @@ from importlib import abc as _importlib_abc, util as _importlib_util
 import inspect as _inspect
 import itertools as _itertools
 import json as _json
-import logging as _logging
+from logging import INFO as _INFO, basicConfig as _basicConfig, getLogger as _getLogger
 import operator as _operator
 import os as _os
 import pathlib as _pathlib
@@ -52,18 +52,22 @@ class ToolsPathEntryFinder(_importlib_abc.PathEntryFinder):
 
 _sys.path_hooks.insert(0, ToolsPathEntryFinder.hook)
 from tools.pytextgen import (
-    globals as _pytextgen_globals,
+    OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS,
     main as _pytextgen_main,
     util as _pytextgen_util,
 )
 
+_UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
+_NAME = _UUID
 _LOCAL_APP_DIRS = _appdirs.AppDirs(
-    appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
+    appname=_NAME,
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
+_basicConfig(level=_INFO)
+_LOGGER = _getLogger(_NAME)
 _ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
     {
         ".git",
@@ -118,7 +122,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
         async with await _anyio.open_file(
             cache_data_path,
             mode="r+t",
-            **_pytextgen_globals.OPEN_OPTIONS,
+            **_OPEN_TXT_OPTS,
         ) as cache_data:
             try:
                 data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
@@ -126,7 +130,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 )
             except _json.decoder.JSONDecodeError:
                 data = {}
-                print("Cache data will be regenerated because it is empty or corrupted")
+                _LOGGER.info(
+                    "Cache data will be regenerated because it is empty or corrupted"
+                )
             data = _collections.defaultdict(dict, data)
             finalizers: _typing.MutableSequence[
                 _typing.Callable[[], _typing.Awaitable[None]]
@@ -153,18 +159,17 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     try:
                         raise err
                     except OSError:
-                        _logging.exception("Exception while walking folders")
+                        _LOGGER.exception("Exception while walking folders")
 
                 async def maybe_yield(path: str):
                     def finalizer():
                         async def impl():
+                            open_opts = _OPEN_TXT_OPTS.copy()
+                            open_opts.update({"newline": ""})
                             async with await _anyio.open_file(
                                 path,
                                 mode="r+t",
-                                **{
-                                    **_pytextgen_globals.OPEN_OPTIONS,
-                                    "newline": "",
-                                },
+                                **open_opts,
                             ) as file:
                                 text = await file.read()
                                 async with _asyncio.TaskGroup() as group:
@@ -194,13 +199,12 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     if (
                         await _pytextgen_util.asyncify(_os.lstat)(path)
                     ).st_mtime_ns != c_mtime:
+                        open_opts = _OPEN_TXT_OPTS.copy()
+                        open_opts.update({"newline": ""})
                         async with await _anyio.open_file(
                             path,
                             mode="rt",
-                            **{
-                                **_pytextgen_globals.OPEN_OPTIONS,
-                                "newline": "",
-                            },
+                            **open_opts,
                         ) as io:
                             text = await io.read()
                         if text != c_text:
@@ -224,7 +228,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 yield path
 
             inputs = await _asyncstdlib.tuple(gen_inputs())
-            print(f"Using {len(inputs)} input(s)")
+            _LOGGER.info(f"Using {len(inputs)} input(s)")
             try:
                 entry = _pytextgen_main.parser().parse_args(
                     tuple(
@@ -249,9 +253,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 )
                 await cache_data.truncate()
     except Exception:
-        _logging.exception("Uncaught exception")
+        _LOGGER.exception("Uncaught exception")
     finally:
-        print("Press <enter> to exit")
+        _LOGGER.info("Press <enter> to exit")
         try:
             input()
         except EOFError:
