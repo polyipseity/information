@@ -12,7 +12,7 @@ from importlib import abc as _importlib_abc, util as _importlib_util
 import inspect as _inspect
 import itertools as _itertools
 import json as _json
-import logging as _logging
+from logging import INFO as _INFO, basicConfig as _basicConfig, getLogger as _getLogger
 import operator as _operator
 import os as _os
 import pathlib as _pathlib
@@ -57,13 +57,17 @@ from tools.pytextgen import (
     util as _pytextgen_util,
 )
 
+_UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
+_NAME = _UUID
 _LOCAL_APP_DIRS = _appdirs.AppDirs(
-    appname="9a27fc39-496b-4b4c-87a7-03b9e88fc6bc",
+    appname=_NAME,
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
+_basicConfig(level=_INFO)
+_LOGGER = _getLogger(_NAME)
 _ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
     {
         ".git",
@@ -126,7 +130,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 )
             except _json.decoder.JSONDecodeError:
                 data = {}
-                print("Cache data will be regenerated because it is empty or corrupted")
+                _LOGGER.info(
+                    "Cache data will be regenerated because it is empty or corrupted"
+                )
             data = _collections.defaultdict(dict, data)
             finalizers: _typing.MutableSequence[
                 _typing.Callable[[], _typing.Awaitable[None]]
@@ -153,7 +159,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     try:
                         raise err
                     except OSError:
-                        _logging.exception("Exception while walking folders")
+                        _LOGGER.exception("Exception while walking folders")
 
                 async def maybe_yield(path: str):
                     def finalizer():
@@ -222,7 +228,7 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 yield path
 
             inputs = await _asyncstdlib.tuple(gen_inputs())
-            print(f"Using {len(inputs)} input(s)")
+            _LOGGER.info(f"Using {len(inputs)} input(s)")
             try:
                 entry = _pytextgen_main.parser().parse_args(
                     tuple(
@@ -247,9 +253,9 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 )
                 await cache_data.truncate()
     except Exception:
-        _logging.exception("Uncaught exception")
+        _LOGGER.exception("Uncaught exception")
     finally:
-        print("Press <enter> to exit")
+        _LOGGER.info("Press <enter> to exit")
         try:
             input()
         except EOFError:
