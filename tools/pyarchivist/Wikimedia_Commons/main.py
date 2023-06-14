@@ -206,6 +206,7 @@ async def main(args: Args):
     ec = ExitCode(0)
 
     try:
+        inputs = tuple(dict.fromkeys(args.inputs))
         async with _CliSess(
             connector=_TCPConn(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
             headers={
@@ -214,7 +215,7 @@ async def main(args: Args):
             },
         ) as sess:
             try:
-                _LOGGER.info(f"Querying {len(args.inputs)} files")
+                _LOGGER.info(f"Querying {len(inputs)} files")
 
                 async def query(inputs: _Iter[str]):
                     async with sess.get(
@@ -234,15 +235,17 @@ async def main(args: Args):
                         data: _Response = await resp.json(
                             loads=_part(_loads, object_hook=_JSONDict)
                         )
-                    return data.query.pages.values()
+                    return data.query.pages.items()
 
-                queries: _Seq[_Iter[_Response.Page]] = await _gather(
+                queries: _Seq[_Iter[tuple[str, _Response.Page]]] = await _gather(
                     *map(
-                        lambda idx: query(args.inputs[idx : idx + _QUERY_LIMIT]),
-                        range(0, len(args.inputs), _QUERY_LIMIT),
+                        lambda idx: query(inputs[idx : idx + _QUERY_LIMIT]),
+                        range(0, len(inputs), _QUERY_LIMIT),
                     )
                 )
-                pages = tuple(_chain.from_iterable(queries))
+                pages = tuple(
+                    {id: page for id, page in _chain.from_iterable(queries)}.values()
+                )
             except Exception:
                 _LOGGER.exception("Error querying")
                 ec |= ExitCode.QUERY_ERROR
