@@ -2,6 +2,10 @@
 	path = private
 	url = ../notes-private.git
 	branch = main
+[submodule "pyarchivist"]
+	path = tools/pyarchivist
+	url = https://github.com/polyipseity/pyarchivist.git
+	branch = main
 [submodule "pytextgen"]
 	path = tools/pytextgen
 	url = https://github.com/polyipseity/pytextgen.git
