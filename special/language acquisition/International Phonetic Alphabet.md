@@ -19,18 +19,16 @@ tags:
 
 ## help
 
-### brackets
-
-### letters
-
 %%
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from asyncio import gather
+from itertools import chain
 from pytextgen.util import NULL_LOCATION, Result
 e = __env__
-return await memorize_table(
+return chain.from_iterable(await gather(memorize_table(
 	(*e.cwf_sects("958a"), NULL_LOCATION,),
-	("symbol", f"audio{'&nbsp;' * 8}", "examples",),
+	("symbol", f"audio{'&nbsp;' * 8}", "description",),
 	(
 		('[[a](open%20front%20unrounded%20vowel.md)]', '![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)', '',),
 		('[[ä](open%20central%20unrounded%20vowel.md)]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', '',),
@@ -73,13 +71,15 @@ return await memorize_table(
 		('[[ʒ](voiced%20postalveolar%20fricative.md)]', '![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)', '',),
 		('[[h](voiceless%20glottal%20fricative.md)]', '![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)', '',),
 		('[[ɦ](voiced%20glottal%20fricative.md)]', '![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)', '',),
+		('[[ʰ](aspirated%20consonant.md)]', '', '',),
 		('[[ħ](voiceless%20pharyngeal%20fricative.md)]', '![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)', '',),
-		('[[ɥ](voiced%20labial–palatal%20approximant.md)]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20%28fra%29-WikiLucas00-IPA%20%C9%A5.wav)', '',),
+		('[[ɥ](voiced%20labial–palatal%20approximant.md)]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)', '',),
 		('[[ɮ](voiced%20alveolar%20lateral%20fricative.md)]', '![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)', '',),
 		('[[i](close%20front%20unrounded%20vowel.md)]', '![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)', '',),
 		('[[ɪ](near-close%20near-front%20unrounded%20vowel.md)]', '![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)', '',),
 		('[[ɨ](close%20central%20unrounded%20vowel.md)]', '![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)', '',),
 		('[[j](voiced%20palatal%20approximant.md)]', '![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)', '',),
+		('[[ʲ](palatalization%20(phonetics).md)]', '', '',),
 		('[[ʝ](voiced%20palatal%20fricative.md)]', '![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)', '',),
 		('[[ɟ](voiced%20palatal%20plosive.md)]', '![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)', '',),
 		('[[ʄ](voiced%20palatal%20implosive.md)]', '![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)', '',),
@@ -88,6 +88,7 @@ return await memorize_table(
 		('[[ɫ](velarized%20alveolar%20lateral%20approximant.md)]', '![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)', '',),
 		('[[ɬ](voiceless%20alveolar%20lateral%20fricative.md)]', '![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)', '',),
 		('[[ɭ](voiced%20retroflex%20lateral%20approximant.md)]', '![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)', '',),
+		('[[ɺ](voiced%20alveolar%20lateral%20flap.md)]', '', '',),
 		('[[ɮ](voiced%20alveolar%20lateral%20fricative.md)]', '![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)', '',),
 		('[[ʟ](voiced%20velar%20lateral%20approximant.md)]', '![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)', '',),
 		('[[m](voiced%20bilabial%20nasal.md)]', '![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)', '',),
@@ -131,7 +132,7 @@ return await memorize_table(
 		('[[u](close%20back%20rounded%20vowel.md)]', '![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)', '',),
 		('[[ʊ](near-close%20near-back%20rounded%20vowel.md)]', '![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)', '',),
 		('[[ʉ](close%20central%20rounded%20vowel.md)]', '![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)', '',),
-		('[[ɥ](voiced%20labial–palatal%20approximant.md)]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20%28fra%29-WikiLucas00-IPA%20%C9%A5.wav)', '',),
+		('[[ɥ](voiced%20labial–palatal%20approximant.md)]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)', '',),
 		('[[ɯ](close%20back%20unrounded%20vowel.md)]', '![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)', '',),
 		('[[v](voiced%20labiodental%20fricative.md)]', '![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)', '',),
 		('[[ʋ](voiced%20labiodental%20approximant.md)]', '![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)', '',),
@@ -139,6 +140,7 @@ return await memorize_table(
 		('[[ɣ](voiced%20velar%20fricative.md)]', '![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)', '',),
 		('[[ʌ](open-mid%20back%20unrounded%20vowel.md)]', '![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)', '',),
 		('[[w](voiced%20labial–velar%20approximant.md)]', '![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)', '',),
+		('[[ʷ](labialization.md)]', '', '',),
 		('[[ʍ](voiceless%20labial–velar%20fricative.md)]', '![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)', '',),
 		('[[ɯ](close%20back%20unrounded%20vowel.md)]', '![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)', '',),
 		('[[ɰ](voiced%20velar%20approximant.md)]', '![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)', '',),
@@ -149,7 +151,7 @@ return await memorize_table(
 		('[[ɣ](voiced%20velar%20fricative.md)]', '![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)', '',),
 		('[[ɤ](close-mid%20back%20unrounded%20vowel.md)]', '![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)', '',),
 		('[[ʎ](voiced%20palatal%20lateral%20approximant.md)]', '![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)', '',),
-		('[[ɥ](voiced%20labial–palatal%20approximant.md)]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20%28fra%29-WikiLucas00-IPA%20%C9%A5.wav)', '',),
+		('[[ɥ](voiced%20labial–palatal%20approximant.md)]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)', '',),
 		('[[z](voiced%20alveolar%20fricative.md)]', '![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)', '',),
 		('[[ʒ](voiced%20postalveolar%20fricative.md)]', '![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)', '',),
 		('[[ʑ](voiced%20alveolo-palatal%20fricative.md)]', '![voiced alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)', '',),
@@ -166,13 +168,49 @@ return await memorize_table(
 		('[[ǂ](tenuis%20palatal%20click.md)]', '![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)', '',),
 	),
 	lambda datum: map(cloze, datum),
-)
+), memorize_table(
+	(*e.cwf_sects("485d"), NULL_LOCATION,),
+	("symbol", "description",),
+	(
+		(R"[\[◌̃\]](nasal%20vowel.md) (e.g. [ã])", "",),
+		(R"[\[◌̈\]](central%20vowel.md) (e.g. [ä])", "",),
+		(R"[\[◌̆\]](extra-shortness.md) (e.g. [ă])", "",),
+		(R"[\[◌̯\]](diphthong.md) (e.g. [a̯])", "",),
+		(R"[\[◌̥\]](voicelessness.md) (e.g. [n̥])", "",),
+		(R"[\[◌̩\], \[◌̍\]](syllabic%20consonant.md) (e.g. [n̩], [ŋ̍])", "",),
+		(R"[\[◌̪\]](dental%20consonant.md) (e.g. [d̪])", "",),
+		(R"[\[◌ʰ\]](aspirated%20consonant.md) (e.g. [kʰ])", "",),
+		(R"[\[◌’\]](ejective%20consonant.md) (e.g. [k’])", "",),
+		(R"[\[◌ː\]](longness%20(phonetics).md) (e.g. [aː])", "",),
+		(R"[\[◌ˑ\]](half-longness%20(phonetics).md) (e.g. [aˑ])", "",),
+		(R"[\[ˈ◌\]](stress%20(lingustics).md) (e.g. [ˈa])", "",),
+		(R"[\[ˌ◌\]](secondary%20stress.md) (e.g. [ˌa])", "",),
+		(R"[\[.\]](syllable.md)", "",),
+	),
+	lambda datum: map(cloze, datum),
+),))
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-15T01:30:00.952342+08:00. Any edits will be overridden! -->
+### transcription delimiters
 
-> | symbol | audio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | examples |
+Different brackets used to enclose IPA transcriptions have different meanings:
+- (principal) {{\[[square brackets](bracket.md#square%20brackets%20or%20brackets)\]}}: {{[phonetic](phonetics.md) notation, board or narrow, indicating actual [pronunciation](pronunciation.md)}}
+- (principal) {{/[slashes](slash%20(punctuation).md)/}}: {{[phonemic](phoneme.md) notation, indicating features that are distinctive in the language only}}
+- (uncommon) {{{[curly brackets](bracket.md#curly%20brackets%20or%20braces)}}}: {{[prosodic](prosody%20(linguistics).md) notation, also indicating elements of speech that are not [segments](segment%20(linguistics).md), i.e. suprasegmentals}}
+- (uncommon) {{([round brackets](bracket.md#round%20brackets%20or%20parentheses))}}: {{transcription of indistinguishable or unidentified [utterances](utterance.md), or [silent articulation](mouthing.md)}}
+- (uncommon) {{(([double round brackets](bracket.md#round%20brackets%20or%20parentheses)))}}: {{transcription of obscured speech or description of obscuring sound}}
+- (unofficial) {{\[\[[double square brackets](bracket.md#square%20brackets%20or%20brackets)\]\]}}: {{extra-precise transcription}}
+- (unofficial) {{//[double slashes](slash%20(punctuation).md)//, |[pipes](vertical%20bar.md)|, ||[double pipes](vertical%20bar.md)||, {[curly brackets](bracket.md#curly%20brackets%20or%20braces)}}}: {{[morphophonemic](morphophonology.md) transcription}}
+- (unofficial) {{⟨[angle brackets](bracket.md#angle%20brackets%20or%20chevrons)⟩, ⟪[double angle brackets](bracket.md#angle%20brackets%20or%20chevrons)⟫}}: {{original [Latin](Latin.md) [orthography](orthography.md), [transliteration](transliteration.md), or IPA letters themselves}}
+
+### letters
+
+Here is a list of common IPA letters and their pronunciations:
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-15T11:47:21.600228+08:00. Any edits will be overridden! -->
+
+> | symbol | audio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | description |
 > |-|-|-|
 > | {{[[a](open%20front%20unrounded%20vowel.md)]}} | {{![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)}} |  |
 > | {{[[ä](open%20central%20unrounded%20vowel.md)]}} | {{![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)}} |  |
@@ -215,13 +253,15 @@ return await memorize_table(
 > | {{[[ʒ](voiced%20postalveolar%20fricative.md)]}} | {{![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)}} |  |
 > | {{[[h](voiceless%20glottal%20fricative.md)]}} | {{![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)}} |  |
 > | {{[[ɦ](voiced%20glottal%20fricative.md)]}} | {{![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)}} |  |
+> | {{[[ʰ](aspirated%20consonant.md)]}} |  |  |
 > | {{[[ħ](voiceless%20pharyngeal%20fricative.md)]}} | {{![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)}} |  |
-> | {{[[ɥ](voiced%20labial–palatal%20approximant.md)]}} | {{![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20%28fra%29-WikiLucas00-IPA%20%C9%A5.wav)}} |  |
+> | {{[[ɥ](voiced%20labial–palatal%20approximant.md)]}} | {{![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)}} |  |
 > | {{[[ɮ](voiced%20alveolar%20lateral%20fricative.md)]}} | {{![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)}} |  |
 > | {{[[i](close%20front%20unrounded%20vowel.md)]}} | {{![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)}} |  |
 > | {{[[ɪ](near-close%20near-front%20unrounded%20vowel.md)]}} | {{![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)}} |  |
 > | {{[[ɨ](close%20central%20unrounded%20vowel.md)]}} | {{![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)}} |  |
 > | {{[[j](voiced%20palatal%20approximant.md)]}} | {{![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)}} |  |
+> | {{[[ʲ](palatalization%20(phonetics).md)]}} |  |  |
 > | {{[[ʝ](voiced%20palatal%20fricative.md)]}} | {{![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)}} |  |
 > | {{[[ɟ](voiced%20palatal%20plosive.md)]}} | {{![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)}} |  |
 > | {{[[ʄ](voiced%20palatal%20implosive.md)]}} | {{![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)}} |  |
@@ -230,6 +270,7 @@ return await memorize_table(
 > | {{[[ɫ](velarized%20alveolar%20lateral%20approximant.md)]}} | {{![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)}} |  |
 > | {{[[ɬ](voiceless%20alveolar%20lateral%20fricative.md)]}} | {{![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)}} |  |
 > | {{[[ɭ](voiced%20retroflex%20lateral%20approximant.md)]}} | {{![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)}} |  |
+> | {{[[ɺ](voiced%20alveolar%20lateral%20flap.md)]}} |  |  |
 > | {{[[ɮ](voiced%20alveolar%20lateral%20fricative.md)]}} | {{![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)}} |  |
 > | {{[[ʟ](voiced%20velar%20lateral%20approximant.md)]}} | {{![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)}} |  |
 > | {{[[m](voiced%20bilabial%20nasal.md)]}} | {{![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)}} |  |
@@ -273,7 +314,7 @@ return await memorize_table(
 > | {{[[u](close%20back%20rounded%20vowel.md)]}} | {{![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)}} |  |
 > | {{[[ʊ](near-close%20near-back%20rounded%20vowel.md)]}} | {{![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)}} |  |
 > | {{[[ʉ](close%20central%20rounded%20vowel.md)]}} | {{![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)}} |  |
-> | {{[[ɥ](voiced%20labial–palatal%20approximant.md)]}} | {{![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20%28fra%29-WikiLucas00-IPA%20%C9%A5.wav)}} |  |
+> | {{[[ɥ](voiced%20labial–palatal%20approximant.md)]}} | {{![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)}} |  |
 > | {{[[ɯ](close%20back%20unrounded%20vowel.md)]}} | {{![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)}} |  |
 > | {{[[v](voiced%20labiodental%20fricative.md)]}} | {{![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)}} |  |
 > | {{[[ʋ](voiced%20labiodental%20approximant.md)]}} | {{![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)}} |  |
@@ -281,6 +322,7 @@ return await memorize_table(
 > | {{[[ɣ](voiced%20velar%20fricative.md)]}} | {{![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)}} |  |
 > | {{[[ʌ](open-mid%20back%20unrounded%20vowel.md)]}} | {{![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)}} |  |
 > | {{[[w](voiced%20labial–velar%20approximant.md)]}} | {{![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)}} |  |
+> | {{[[ʷ](labialization.md)]}} |  |  |
 > | {{[[ʍ](voiceless%20labial–velar%20fricative.md)]}} | {{![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)}} |  |
 > | {{[[ɯ](close%20back%20unrounded%20vowel.md)]}} | {{![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)}} |  |
 > | {{[[ɰ](voiced%20velar%20approximant.md)]}} | {{![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)}} |  |
@@ -291,7 +333,7 @@ return await memorize_table(
 > | {{[[ɣ](voiced%20velar%20fricative.md)]}} | {{![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)}} |  |
 > | {{[[ɤ](close-mid%20back%20unrounded%20vowel.md)]}} | {{![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)}} |  |
 > | {{[[ʎ](voiced%20palatal%20lateral%20approximant.md)]}} | {{![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)}} |  |
-> | {{[[ɥ](voiced%20labial–palatal%20approximant.md)]}} | {{![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20%28fra%29-WikiLucas00-IPA%20%C9%A5.wav)}} |  |
+> | {{[[ɥ](voiced%20labial–palatal%20approximant.md)]}} | {{![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)}} |  |
 > | {{[[z](voiced%20alveolar%20fricative.md)]}} | {{![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)}} |  |
 > | {{[[ʒ](voiced%20postalveolar%20fricative.md)]}} | {{![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)}} |  |
 > | {{[[ʑ](voiced%20alveolo-palatal%20fricative.md)]}} | {{![voiced alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)}} |  |
@@ -311,4 +353,25 @@ return await memorize_table(
 
 ### diacritics
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="485d"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+Here is a list of common IPA diacritics and their descriptions:
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="485d"--><!-- The following content is generated at 2023-06-15T13:39:40.690037+08:00. Any edits will be overridden! -->
+
+> | symbol | description |
+> |-|-|
+> | {{[\[◌̃\]](nasal%20vowel.md) (e.g. [ã])}} |  |
+> | {{[\[◌̈\]](central%20vowel.md) (e.g. [ä])}} |  |
+> | {{[\[◌̆\]](extra-shortness.md) (e.g. [ă])}} |  |
+> | {{[\[◌̯\]](diphthong.md) (e.g. [a̯])}} |  |
+> | {{[\[◌̥\]](voicelessness.md) (e.g. [n̥])}} |  |
+> | {{[\[◌̩\], \[◌̍\]](syllabic%20consonant.md) (e.g. [n̩], [ŋ̍])}} |  |
+> | {{[\[◌̪\]](dental%20consonant.md) (e.g. [d̪])}} |  |
+> | {{[\[◌ʰ\]](aspirated%20consonant.md) (e.g. [kʰ])}} |  |
+> | {{[\[◌’\]](ejective%20consonant.md) (e.g. [k’])}} |  |
+> | {{[\[◌ː\]](longness%20(phonetics).md) (e.g. [aː])}} |  |
+> | {{[\[◌ˑ\]](half-longness%20(phonetics).md) (e.g. [aˑ])}} |  |
+> | {{[\[ˈ◌\]](stress%20(lingustics).md) (e.g. [ˈa])}} |  |
+> | {{[\[ˌ◌\]](secondary%20stress.md) (e.g. [ˌa])}} |  |
+> | {{[\[.\]](syllable.md)}} |  |
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
