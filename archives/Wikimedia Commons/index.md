@@ -211,6 +211,5 @@ _archives/Wikimedia Commons_
 - [Weighing balance, MNIT.jpg](Weighing%20balance,%20MNIT.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_balance,_MNIT.jpg">Nikunj12387</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [Weighing bottles.jpg](Weighing%20bottles.jpg): <a href="https://commons.wikimedia.org/wiki/File:Weighing_bottles.jpg">Сергей 6662</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, via Wikimedia Commons
 - [White-Mortar-and-Pestle.jpg](White-Mortar-and-Pestle.jpg): <a href="https://commons.wikimedia.org/wiki/File:White-Mortar-and-Pestle.jpg">Evan-Amos</a>, Public domain, via Wikimedia Commons
-- [Zh-Beijing.ogg](Zh-Beijing.ogg): <a href="https://commons.wikimedia.org/wiki/File:Zh-Beijing.ogg">See page for author</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
 - [Α-Quartz.svg](%CE%91-Quartz.svg): <a href="https://commons.wikimedia.org/wiki/File:%CE%91-Quartz.svg">Andel</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, via Wikimedia Commons
 - [Β-Quartz.svg](%CE%92-Quartz.svg): <a href="https://commons.wikimedia.org/wiki/File:%CE%92-Quartz.svg">Andel</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, via Wikimedia Commons
