@@ -166,7 +166,7 @@ diacritics = (
 return chain.from_iterable(await gather(
 	memorize_table(
 		(*e.cwf_sects("958a"), NULL_LOCATION,),
-		("symbol", f"audio{'&nbsp;' * 8}", "description",),
+		("symbol", f"audio", "description",),
 		letters,
 		lambda datum: chain(datum[:2], map(cloze, datum[2:])),
 	),
@@ -200,9 +200,9 @@ Different brackets used to enclose IPA transcriptions have different meanings:
 
 Here is a list of common IPA letters and their pronunciations:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-16T21:12:20.141647+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-17T08:20:24.915885+08:00. Any edits will be overridden! -->
 
-> | symbol | audio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | description |
+> | symbol | audio | description |
 > |-|-|-|
 > | \[[a](open%20front%20unrounded%20vowel.md)\] | ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _h**a**t_ \[hat\]}} |
 > | \[[ä](open%20central%20unrounded%20vowel.md)\] | ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]}} |
