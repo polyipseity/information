@@ -1,7 +1,9 @@
 ---
 aliases:
   - octet rule
-tags: []
+tags:
+  - categories/chemistry
+  - flashcards/general/octet_rule
 ---
 
 %%
