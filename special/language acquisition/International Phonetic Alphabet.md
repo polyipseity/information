@@ -184,12 +184,88 @@ return chain.from_iterable(await gather(
 ```
 %%
 
+### glossary
+
+> ![places of articulation](../../archives/Wikimedia%20Commons/Places%20of%20articulation.svg)
+>
+> [place of articulation](place%20of%20articulation.md)
+> 1. {{exo-labial (outer [lip](lip.md))}}
+> 2. {{endo-labial (inner [lip](lip.md))}}
+> 3. {{dental ([teeth](tooth.md))}}
+> 4. {{alveolar (front [alveolar ridge](alveolar%20ridge.md))}}
+> 5. {{post-alveolar (rear [alveolar ridge](alveolar%20ridge.md))}}
+> 6. {{pre-palatal (front [hard palate](hard%20palate.md))}}
+> 7. {{palatal ([hard palate](hard%20palate.md))}}
+> 8. {{velar ([soft palate](soft%20palate.md))}}
+> 9. {{uvular/post-velar ([uvula](uvula.md))}}
+> 10. {{pharyngeal ([pharyngeal](pharynx.md) wall)}}
+> 11. {{glottal/laryngeal ([vocal cords](vocal%20cords.md))}}
+> 12. {{epiglottal ([epiglottis](epiglottis.md))}}
+> 13. {{radical ([tongue](tongue.md) root)}}
+> 14. {{postero-dorsal (rear [tongue](tongue.md) body)}}
+> 15. {{antero-dorsal (front [tongue](tongue.md) body)}}
+> 16. {{laminal ([tongue](tongue.md) blade)}}
+> 17. {{apical ([tongue](tongue.md) tip or apex)}}
+> 18. {{sub-laminal/sub-apical ([tongue](tongue.md) underside)}}
+
+- {{[consonant](consonant.md)}}: {{[phone](phone%20phonetics.md) articulated with partial or complete stricture in the [vocal tract](vocal%20tract.md)}}
+	- {{[airstream mechanism](airstream%20mechanism.md)}}: {{how the moving [air](air.md) is thrusted}}
+		- (all) {{[pulmonic](pulmonic%20consonant.md) egressive}}: {{[air](air.md) is exhaled from the [lungs](lung.md)}}
+		- (16%) {{[glottalic](glottalic%20consonant.md) egressive}}: {{[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [glottics](glottics.md)}}
+		- (13%) {{[glottalic](glottalic%20consonant.md) ingressive}}: {{[air](air.md) is [rarefied](rarefaction.md) by a downward movement of the [glottics](glottics.md)}}
+		- (<2%) {{lingual/[velaric](velar%20consonant.md) ingressive}}: {{[air](air.md) is [rarefied](rarefaction.md) by a downward and sometimes rearward movement of the [tongue](tongue.md)}}
+		- ([interjection](interjection.md)) {{[pulmonic](pulmonic%20consonant.md) ingressive}}: {{[air](air.md) is inhaled into the [lungs](lung.md)}}
+		- ([interjection](interjection.md)) {{lingual/[velaric](velar%20consonant.md)}}: {{[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [tongue](tongue.md)}}
+	- {{[length](gemination.md)}}: {{how long the articulation of a [consonant](consonant.md) lasts}}
+		- values in ascending length: {{single/singleton, geminate, long geminate}}
+	- {{[manner of articulation](manner%20of%20articulation.md)}}: {{configuration and interaction of the [speech organs](speech%20organ.md)}}
+		- {{[affricate](affricate%20consonant.md)}}: {{consonant beginning as a [plosive](plosive%20consonant.md) and releasing as a [fricative](fricative%20consonant.md)}}
+		- {{[approximant](approximant%20consonant.md)}}: {{consonant with slight stricture of the [articulators](speech%20organ.md) not narrow and precise enough to create [turbulenece](turbulence.md)}}
+			- {{[lateral approximant](lateral%20consonant.md)}}: {{approximant with airflows directed towards one or both sides of the [tongue](tongue.md)}}
+			- {{[semivowel/glide/semiconsonant](semivowel.md)}}: {{approximant similar to a [vowel](vowel.md) functioning as the [syllable](syllable.md) boundary}}
+		- {{[flap/tap](tap%20and%20flap%20consonants.md)}}: {{consonant produced by a single [muscle contraction](muscle%20contraction.md) to make a single contact}}
+		- {{[fricative/spirant](fricative%20consonant.md)}}: {{consonant with continuous [turbulent](turbulence.md) and noisy airflow at articulation}}
+			- {{[lateral](lateral%20consonant.md)}}: {{fricative with airflow directed towards one or both sides of the [tongue](tongue.md)}}
+			- {{[sibilant](sibilant%20consonant.md)}}: {{fricative with airflow directed towards the [teeth](tooth.md) by the [tongue](tongue.md)}}
+		- {{[nasal](nasal%20consonant.md)}}: {{consonant with occlusion of the [vocal tract](vocal%20tract.md) with nasal airflow}}
+		- {{[plosive/stop](plosive%20consonant.md)}}: {{consonant with occlusion of the [vocal tract](vocal%20tract.md) without nasal airflow}}
+		- {{[trill](trill%20consonant.md)}}: {{consonant produced by vibrations between the active articulator and the passive articulator}}
+	- {{[place of articulation](place%20of%20articulation.md)}}: {{location along the [vocal tract](vocal%20tract.md) producing the consonant}}
+		- {{[alveolar](alveolar%20ridge.md)}}: {{upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive)}}
+		- {{[aryepiglottal](pharyngeal%20consonant.md)}}: {{[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active)}}
+		- {{[coronal](coronal%20constant.md)}}: {{front of the [tongue](tongue.md) (active)}}
+			- {{[apical](apical%20consonant.md)}}: {{tip of the [tongue](tongue.md) (active)}}
+			- {{[laminal](laminal%20consonant.md)}}: {{blade of the [tongue](tongue.md), the upper front surface behind the tip (active)}}
+			- {{[subapical](subapical%20consonant.md)}}: {{surface under the tip of the [tongue](tongue.md) (active)}}
+		- {{[dental](dental%20consonant.md)}}: {{upper [teeth](tooth.md) (passive)}}
+		- {{[dorsal](dorsal%20consonant.md)}}: {{body of the [tongue](tongue.md) (active)}}
+		- {{[epiglottal](pharyngeal%20consonant.md)}}: {{[epiglottis](epiglottis.md), sitting at the [larynx](larynx.md) entrance (passive)}}
+		- {{[glottal](glottal%20consonant.md)}}: {{[glottis](glottis.md), opening between the [vocal cords](vocal%20cords.md) (active)}}
+		- {{[labial](labial%20consonant.md)}}: {{lower [lip](lip.md) (active), upper [lip](lip.md) (passive)}}
+		- {{[palatal](palatal%20consonant.md)}}: {{[hard palate](hard%20palate.md), the front part of the roof of the [mouth](mouth.md) (passive)}}
+		- {{[pharyngeal](pharyngeal%20consonant.md)}}: {{base of the [tongue](tongue.md) and [throat](throat.md) (active, passive)}}
+		- {{[post-alveolar](post-alveolar%20consonant.md)}}: {{back of the upper [alveolar ridge](alveolar%20ridge.md) (passive)}}
+		- {{[uvular](uvular%20consonant.md)}}: {{[uvula](uvula.md), hanging down at the [throat](throat.md) entrance (passive)}}
+		- {{[velar](velar%20consonant.md)}}: {{[soft palate](soft%20palate.md), the back part of the roof of the [mouth](mouth.md) (passive)}}
+	- {{[phonation](phonation.md)}}: {{how the [vocal cords](vocal%20folds.md) vibrate}}
+		- {{[voiced](voice%20(phonetics).md)}}: {{the [vocal cords](vocal%20cords.md) vibrate fully}}
+		- {{[voiceless](voicelessness.md)}}: {{the [vocal cords](vocal%20cords.md) do not vibrate}}
+	- {{[voice onset time](voice%20onset%20time.md)}}: {{timing of the [phonation](phonation.md)}}
+		- values in ascending time: {{[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive)}}
+- {{[vowel](vowel.md)}}: {{[phone](phone%20(phonetics).md) articulated without any stricture in the [vocal tract](vocal%20tract.md)}}
+	- {{[vowel backness](vowel.md#backness)}}: {{position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md)}}
+		- values in ascending backness: {{[front](front%20vowel.md), [near-front](near-front%20vowel.md), [central](central%20vowel.md), [near-back](near-back%20vowel.md), [back](back%20vowel.md)}}
+	- {{[vowel height](vowel.md#height)}}: {{vertical position of the [tongue](tongue.md)}}
+		- values in descending height: {{[close](close%20vowel.md), [near-close](near-close%20vowel.md), [close-mid](close-mid%20vowel.md), [mid](mid%20vowel.md), [open-mid](open-mid%20vowel.md), [near-open](near-open%20vowel.md), [open](open%20vowel.md)}}
+	- {{[vowel roundedness](roundedness.md)}}: {{rounding of the [lips](lip.md)}}
+		- values: {{unrounded, compressed, protruded}}
+
 ### transcription delimiters
 
 Different brackets used to enclose IPA transcriptions have different meanings:
 - (principal) {{\[[square brackets](bracket.md#square%20brackets%20or%20brackets)\]}}: {{[phonetic](phonetics.md) notation, board or narrow, indicating actual [pronunciation](pronunciation.md)}}
 - (principal) {{/[slashes](slash%20(punctuation).md)/}}: {{[phonemic](phoneme.md) notation, indicating features that are distinctive in the language only}}
-- (uncommon) {{{[curly brackets](bracket.md#curly%20brackets%20or%20braces)}}}: {{[prosodic](prosody%20(linguistics).md) notation, also indicating elements of speech that are not [segments](segment%20(linguistics).md), i.e. suprasegmentals}}
+- (uncommon) {{{[curly brackets](bracket.md#curly%20brackets%20or%20braces)}}}: {{[prosodic](prosody%20(linguistics).md) notation, also indicating elements of speech that are not [segments](segment%20(linguistics).md) called suprasegmentals}}
 - (uncommon) {{([round brackets](bracket.md#round%20brackets%20or%20parentheses))}}: {{transcription of indistinguishable or unidentified [utterances](utterance.md), or [silent articulation](mouthing.md)}}
 - (uncommon) {{(([double round brackets](bracket.md#round%20brackets%20or%20parentheses)))}}: {{transcription of obscured speech or description of obscuring sound}}
 - (unofficial) {{\[\[[double square brackets](bracket.md#square%20brackets%20or%20brackets)\]\]}}: {{extra-precise transcription}}
