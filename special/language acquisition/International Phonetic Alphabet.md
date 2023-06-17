@@ -27,141 +27,141 @@ from itertools import chain
 from pytextgen.util import NULL_LOCATION, Result
 e = __env__
 letters = (
-	(R'\[[a](open%20front%20unrounded%20vowel.md)\]', '![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _h**a**t_ \[hat\]',),
-	(R'\[[ä](open%20central%20unrounded%20vowel.md)\]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]',),
-	(R'\[[ɐ](near-open%20central%20vowel.md)\]', '![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _n**u**t_ \[nɐʔt\]',),
-	(R'\[[ɑ](open%20back%20unrounded%20vowel.md)\]', '![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\]',),
-	(R'\[[ɑ̃](nasal%20vowel.md)\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)', R'[French](French%20language.md) _s**an**s_ [sɑ̃] "without"',),
-	(R'\[[ɒ](open%20back%20rounded%20vowel.md)\]', '![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _n**o**t_ \[nɒt\]',),
-	(R'\[[ʌ](open-mid%20back%20unrounded%20vowel.md)\]', '![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)', R'[English](English%20language.md) _g**u**t_ \[ɡʌt\]',),
-	(R'\[[æ](near-open%20front%20unrounded%20vowel.md)\]', '![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _c**a**t_ \[kʰæt\]',),
-	(R'\[[b](voiced%20bilabial%20plosive.md)\]', '![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg)', R'[English](English%20language.md) _a**b**ack_ \[əˈbæk\]',),
-	(R'\[[ɓ](voiced%20bilabial%20implosive.md)\]', '![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg)', R'[English](English%20language.md) _**b**ody_ \[ɓʌdi\]',),
-	(R'\[[β](voiced%20bilabial%20fricative.md)\]', '![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg)', R'[Spanish](Spanish%20language.md) _la**v**a_ \[ˈläβ̞ä\] "lava"',),
-	(R'\[[ʙ](voiced%20bilabial%20trill.md)\]', '![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg)', R'[Nias](Nias%20language.md) _si**mb**i_ \[siʙi\] "lower jaw"',),
-	(R'\[[c](voiceless%20palatal%20plosive.md)\]', '![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg)', R'[French](French%20language.md) _**q**ui_ \[ci\] "who"',),
-	(R'\[[ç](voiceless%20palatal%20fricative.md)\]', '![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)', R'[English](English%20language.md) _**h**ue_ \[çʉː\]',),
-	(R'\[[ɕ](voiceless%20alveolo-palatal%20fricative.md)\]', '![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)', R'[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\]',),
-	(R'\[[d](voiced%20alveolar%20plosive.md)\]', '![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg)', R'[English](English%20language.md) _**d**ash_ \[ˈdæʃ\]',),
-	(R'\[[ɗ](voiced%20alveolar%20implosive.md)\]', '![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg)', R'[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail"',),
-	(R'\[[ɖ](voiced%20retroflex%20plosive.md)\]', '![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga)', R'[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north"',),
-	(R'\[[ð](voiced%20dental%20fricative.md)\]', '![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg)', R'[English](English%20language.md) _**th**is_ \[ðɪs\]',),
-	(R'\[[dz](voiced%20alveolar%20affricate.md)\]', '![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)', R'[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\]',),
-	(R'\[[dʒ](voiced%20postalveolar%20affricate.md)\]', '![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)', R'[English](English%20language.md) _**g**ene_ 	\[ˈd͡ʒiːn\]',),
-	(R'\[[dʑ](voiced%20alveolo-palatal%20affricate.md)\]', '![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg)', R'[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound"',),
-	(R'\[[dʐ](voiced%20retroflex%20affricate.md)\]', '![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg)', R'[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam"',),
-	(R'\[[e](close-mid%20front%20unrounded%20vowel.md)\]', '![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _m**ay**_ \[meː\]',),
-	(R'\[[ɘ](close-mid%20central%20unrounded%20vowel.md)\]', '![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**ir**d_ \[bɘːd\]',),
-	(R'\[[ə](mid%20central%20vowel.md)\]', '![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg)', R'[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\]',),
-	(R'\[[ɚ](r-colored%20vowel.md)\]', '![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)', R'[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\]',),
-	(R'\[[ɛ](open-mid%20front%20unrounded%20vowel.md)\]', '![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**e**d_ \[bɛd\]',),
-	(R'\[[ɛ̃](nasal%20vowel.md)\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg)', R'[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand"',),
-	(R'\[[ɜ](open-mid%20central%20unrounded%20vowel.md)\]', '![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**ir**d_ \[bɜːd\]',),
-	(R'\[[ɝ](r-colored%20vowel.md)\]', '![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)', R'[English](English%20language.md) _b**ir**d_ \[bɝːd\]',),
-	(R'\[[f](voiceless%20labiodental%20fricative.md)\]', '![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg)', R'[English](English%20language.md) _**f**ill_ \[fɪɫ\]',),
-	(R'\[[ɡ](voiced%20velar%20plosive.md)\]', '![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg)', R'[English](English%20language.md) _**g**a**gg**le_ \[ˈɡæɡɫ̩\]',),
-	(R'\[[ɠ](voiced%20velar%20implosive.md)\]', '![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg)', R'[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"',),
-	(R'\[[ɢ](voiced%20uvular%20plosive.md)\]', '![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga)', R'[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\]',),
-	(R'\[[h](voiceless%20glottal%20fricative.md)\]', '![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)', R'[English](English%20language.md) _**h**igh_ \[haɪ̯\]',),
-	(R'\[[ɦ](voiced%20glottal%20fricative.md)\]', '![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)', R'[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\]',),
-	(R'\[[ʰ](aspirated%20consonant.md)\]', '', R'[English](English%20langugae.md) _**t**op_ \[tʰɒp\]',),
-	(R'\[[ħ](voiceless%20pharyngeal%20fricative.md)\]', '![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)', R'[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\]',),
-	(R'\[[i](close%20front%20unrounded%20vowel.md)\]', '![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _fr**ee**_ \[fɹiː\]',),
-	(R'\[[ɪ](near-close%20near-front%20unrounded%20vowel.md)\]', '![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**i**t_ \[bɪʔt\]',),
-	(R'\[[ɨ](close%20central%20unrounded%20vowel.md)\]', '![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)', R'[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you"',),
-	(R'\[[j](voiced%20palatal%20approximant.md)\]', '![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)', R'[English](English%20language.md) _**y**ou_ \[juː\]',),
-	(R'\[[ʲ](palatalization%20(phonetics).md)\]', '', R'[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive"',),
-	(R'\[[ʝ](voiced%20palatal%20fricative.md)\]', '![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)', R'[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock"',),
-	(R'\[[ɟ](voiced%20palatal%20plosive.md)\]', '![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)', R'[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)"',),
-	(R'\[[ʄ](voiced%20palatal%20implosive.md)\]', '![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)', R'[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday"',),
-	(R'\[[k](voiceless%20velar%20plosive.md)\]', '![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)', R'[English](English%20language.md) _**k**iss_ \[kʰɪs\]',),
-	(R'\[[l](voiced%20alveolar%20lateral%20approximant.md)\]', '![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg)', R'[English](English%20language.md) _**l**et_ \[lɛt\]',),
-	(R'\[[ɫ](velarized%20alveolar%20lateral%20approximant.md)\]', '![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)', R'[English](English%20language.md) _fee**l**_ \[fiːɫ\]',),
-	(R'\[[ɬ](voiceless%20alveolar%20lateral%20fricative.md)\]', '![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)', R'[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle"',),
-	(R'\[[ɭ](voiced%20retroflex%20lateral%20approximant.md)\]', '![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)', R'[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg"',),
-	(R'\[[ɺ](voiced%20alveolar%20lateral%20flap.md)\]', '', R'[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six"',),
-	(R'\[[ɮ](voiced%20alveolar%20lateral%20fricative.md)\]', '![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)', R'[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat"',),
-	(R'\[[ʟ](voiced%20velar%20lateral%20approximant.md)\]', '![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)', R'[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\]',),
-	(R'\[[m](voiced%20bilabial%20nasal.md)\]', '![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)', R'[English](English%20language.md) _hi**m**_ \[hɪm\]',),
-	(R'\[[ɱ](voiced%20labiodental%20nasal.md)\]', '![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)', R'[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\]',),
-	(R'\[[n](voiced%20alveolar%20nasal.md)\]', '![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)', R'[English](English%20language.md) _**n**ice_ \[naɪs\]',),
-	(R'\[[ŋ](voiced%20velar%20nasal.md)\]', '![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)', R'[English](English%20language.md) _si**ng**_ \[sɪŋ\]',),
-	(R'\[[ɲ](voiced%20palatal%20nasal.md)\]', '![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)', R'[French](French%20language.md) _oi**gn**on_ \[ɔ.ɲɔ̃\] "onion"',),
-	(R'\[[ɳ](voiced%20retroflex%20nasal.md)\]', '![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)', R'[Norwegian](Norwegian%20language.md) _ga**rn**_ \[ɡɑːɳ\] "yarn"',),
-	(R'\[[ɴ](voiced%20uvular%20nasal.md)\]', '![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg)', R'[Spanish](Spanish%20language.md) _e**n**juto_ \[ẽ̞ɴˈχuto̞\] "shriveled"',),
-	(R'\[[o](close-mid%20back%20rounded%20vowel.md)\]', '![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _y**aw**n_ \[joːn\]',),
-	(R'\[[ɔ](open-mid%20back%20rounded%20vowel.md)\]', '![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _n**o**t_ \[nɔt\]',),
-	(R'\[[ɔ̃](nasal%20vowel.md)\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)', R'[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound"',),
-	(R'\[[ø](close-mid%20front%20rounded%20vowel.md)\]', '![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg)', R'[French](French%20language.md) _p**eu**_ \[pø\] "few"',),
-	(R'\[[ɵ](close-mid%20central%20rounded%20vowel.md)\]', '![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)', '[English](English%20language.md) _f**oo**t_ \[fɵʔt\]',),
-	(R'\[[œ](open-mid%20front%20rounded%20vowel.md)\]', '![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg)', R'[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young"',),
-	(R'\[[œ̃](nasal%20vowel.md)\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)', R'[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown"',),
-	(R'\[[ɶ](open%20front%20rounded%20vowel.md)\]', '![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg)', R'[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green"',),
-	(R'\[[p](voiceless%20bilabial%20plosive.md)\]', '![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg)', R'[English](English%20language.md) _**p**ack_ \[pʰæk\]',),
-	(R'\[[q](voiceless%20uvular%20plosive.md)\]', '![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)', R'[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat"',),
-	(R'\[[r](voiced%20alveolar%20trill.md)\]', '![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg)', R'[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog"',),
-	(R'\[[ɾ](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md)\]', '![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg)', R'[Spanish](Spanish%20language.md) _ca**r**o_ \[ˈkaɾo̞\] "expensive"',),
-	(R'\[[ʀ](voiced%20uvular%20trill.md)\]', '![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg)', R'[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red"',),
-	(R'\[[ɽ](voiced%20retroflex%20flap.md)\]', '![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg)', R'[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf"',),
-	(R'\[[ɹ](voiced%20alveolar%20approximant.md)\]', '![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg)', R'[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest"',),
-	(R'\[[ɻ](voiced%20retroflex%20approximant.md)\]', '![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga)', R'[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat"',),
-	(R'\[[ʁ](voiced%20uvular%20fricative.md)\]', '![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)', R'[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay"',),
-	(R'\[[s](voiceless%20alveolar%20fricative.md)\]', '![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)', R'[English](English%20language.md) _**s**it_ \[sɪt\]',),
-	(R'\[[ʃ](voiceless%20postalveolar%20fricative.md)\]', '![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg)', R'[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\]',),
-	(R'\[[ʂ](voiceless%20retroflex%20fricative.md)\]', '![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg)', R'[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle"',),
-	(R'\[[t](voiceless%20alveolar%20plosive.md)\]', '![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg)', R'[English](English%20language.md) _**t**ick_ \[tʰɪk\]',),
-	(R'\[[ʈ](voiceless%20retroflex%20plosive.md)\]', '![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)', R'[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card"',),
-	(R'\[[ts](voiceless%20alveolar%20affricate.md)\]', '![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)', R'[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\]',),
-	(R'\[[tʃ](voiceless%20postalveolar%20affricate.md)\]', '![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg)', R'[English](English%20language.md) _bea**ch**_ \[biːt͡ʃ\]',),
-	(R'\[[tɕ](voiceless%20alveolo-palatal%20affricate.md)\]', '![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg)', R'[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)"',),
-	(R'\[[tʂ](voiceless%20retroflex%20affricate.md)\]', '![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg)', R'[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)"',),
-	(R'\[[u](close%20back%20rounded%20vowel.md)\]', '![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _b**oo**t_ \[bu̟ːt\]',),
-	(R'\[[ʊ](near-close%20near-back%20rounded%20vowel.md)\]', '![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _h**oo**k_ \[hʊʔk\]',),
-	(R'\[[ʉ](close%20central%20rounded%20vowel.md)\]', '![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)', R'[English](English%20language.md) _g**oo**se_ \[ɡʉːs\]',),
-	(R'\[[v](voiced%20labiodental%20fricative.md)\]', '![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)', R'[English](English%20language.md) _**v**al**v**e_ \[væɫv\]',),
-	(R'\[[ʋ](voiced%20labiodental%20approximant.md)\]', '![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)', R'[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby"',),
-	(R'\[[w](voiced%20labial–velar%20approximant.md)\]', '![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)', R'[English](English%20language.md) _**w**eep_ \[wiːp\]',),
-	(R'\[[ʷ](labialization.md)\]', '', R'[English](English%20language.md) _**r**eed_ \[ɹʷiːd\]',),
-	(R'\[[ʍ](voiceless%20labial–velar%20fricative.md)\]', '![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)', R'[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\]',),
-	(R'\[[ɯ](close%20back%20unrounded%20vowel.md)\]', '![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)', R'[Turkish](Turkish%20language.md) _s**ı**ğ_ \[sɯː\] "shallow"',),
-	(R'\[[ɰ](voiced%20velar%20approximant.md)\]', '![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)', R'[Irish](Irish%20language.md) _n**ao**i_ \[n̪ˠɰiː\] "nine"',),
-	(R'\[[x](voiceless%20velar%20fricative.md)\]', '![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)', R'[German](German%20language.md) _Bu**ch**_ \[buːx\] "book"',),
-	(R'\[[χ](voiceless%20uvular%20fricative.md)\]', '![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)', R'[French](French%20language.md) _t**r**ès_ \[t̪χɛ\] "very"',),
-	(R'\[[y](close%20front%20rounded%20vowel.md)\]', '![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)', R'[French](French%20language.md) _t**u**_ \[t̪y] "you"',),
-	(R'\[[ʏ](near-close%20near-front%20rounded%20vowel.md)\]', '![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)', R'[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect"',),
-	(R'\[[ɣ](voiced%20velar%20fricative.md)\]', '![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)', R'[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend"',),
-	(R'\[[ɤ](close-mid%20back%20unrounded%20vowel.md)\]', '![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)', R'[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry"',),
-	(R'\[[ʎ](voiced%20palatal%20lateral%20approximant.md)\]', '![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)', R'[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\]',),
-	(R'\[[ɥ](voiced%20labial–palatal%20approximant.md)\]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)', R'[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm"',),
-	(R'\[[z](voiced%20alveolar%20fricative.md)\]', '![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)', '[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\]',),
-	(R'\[[ʒ](voiced%20postalveolar%20fricative.md)\]', '![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)', R'[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\]',),
-	(R'\[[ʑ](voiced%20alveolo–palatal%20fricative.md)\]', '![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)', R'[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"',),
-	(R'\[[ʐ](voiced%20retroflex%20fricative.md)\]', '![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)', R'[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife"',),
-	(R'\[[θ](voiceless%20dental%20fricative.md)\]', '![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)', R'[English](English%20language.md) _**th**in_ \[θɪn\]',),
-	(R'\[[ɸ](voiceless%20bilabial%20fricative.md)\]', '![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)', R'[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay"',),
-	(R'\[[ʔ](glottal%20stop.md)\]', '![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)', R'[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\]',),
-	(R'\[[ʕ](voiced%20pharyngeal%20fricative.md)\]', '![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)', R'[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion"',),
-	(R'\[[ǀ](tenuis%20dental%20click.md)\]', '![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)', R'[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\]',),
-	(R'\[[ǁ](tenuis%20alveolar%20lateral%20click.md)\]', '![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)', R'[English](English%20language.md) _**tchick**_ \[ˈǁ\]',),
-	(R'\[[ǃ](tenuis%20alveolar%20click.md)\]', '![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)', R'[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"',),
-	(R'\[[ʘ](tenuis%20bilabial%20click.md)\]', '![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)', R'[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"',),
-	(R'\[[ǂ](tenuis%20palatal%20click.md)\]', '![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)', R'[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"',),
+	(R'[open front unrounded vowel](open%20front%20unrounded%20vowel.md) \[a\]', '![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _h**a**t_ \[hat\]',),
+	(R'[open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]',),
+	(R'[near-open central vowel](near-open%20central%20vowel.md) \[ɐ\]', '![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _n**u**t_ \[nɐʔt\]',),
+	(R'[open back unrounded vowel](open%20back%20unrounded%20vowel.md) \[ɑ\]', '![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\]',),
+	(R'[nasal vowel](nasal%20vowel.md) \[ɑ̃\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)', R'[French](French%20language.md) _s**an**s_ [sɑ̃] "without"',),
+	(R'[open back rounded vowel](open%20back%20rounded%20vowel.md) \[ɒ\]', '![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _n**o**t_ \[nɒt\]',),
+	(R'[open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md) \[ʌ\]', '![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)', R'[English](English%20language.md) _g**u**t_ \[ɡʌt\]',),
+	(R'[near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md) \[æ\]', '![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _c**a**t_ \[kʰæt\]',),
+	(R'[voiced bilabial plosive](voiced%20bilabial%20plosive.md) \[b\]', '![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg)', R'[English](English%20language.md) _a**b**ack_ \[əˈbæk\]',),
+	(R'[voiced bilabial implosive](voiced%20bilabial%20implosive.md) \[ɓ\]', '![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg)', R'[English](English%20language.md) _**b**ody_ \[ɓʌdi\]',),
+	(R'[voiced bilabial fricative](voiced%20bilabial%20fricative.md) \[β\]', '![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg)', R'[Spanish](Spanish%20language.md) _la**v**a_ \[ˈläβ̞ä\] "lava"',),
+	(R'[voiced bilabial trill](voiced%20bilabial%20trill.md) \[ʙ\]', '![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg)', R'[Nias](Nias%20language.md) _si**mb**i_ \[siʙi\] "lower jaw"',),
+	(R'[voiceless palatal plosive](voiceless%20palatal%20plosive.md) \[c\]', '![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg)', R'[French](French%20language.md) _**q**ui_ \[ci\] "who"',),
+	(R'[voiceless palatal fricative](voiceless%20palatal%20fricative.md) \[ç\]', '![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)', R'[English](English%20language.md) _**h**ue_ \[çʉː\]',),
+	(R'[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) \[ɕ\]', '![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)', R'[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\]',),
+	(R'[voiced alveolar plosive](voiced%20alveolar%20plosive.md) \[d\]', '![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg)', R'[English](English%20language.md) _**d**ash_ \[ˈdæʃ\]',),
+	(R'[voiced alveolar implosive](voiced%20alveolar%20implosive.md) \[ɗ\]', '![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg)', R'[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail"',),
+	(R'[voiced retroflex plosive](voiced%20retroflex%20plosive.md) \[ɖ\]', '![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga)', R'[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north"',),
+	(R'[voiced dental fricative](voiced%20dental%20fricative.md) \[ð\]', '![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg)', R'[English](English%20language.md) _**th**is_ \[ðɪs\]',),
+	(R'[voiced alveolar affricate](voiced%20alveolar%20affricate.md) \[dz\]', '![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)', R'[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\]',),
+	(R'[voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) \[dʒ\]', '![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)', R'[English](English%20language.md) _**g**ene_ 	\[ˈd͡ʒiːn\]',),
+	(R'[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) \[dʑ\]', '![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg)', R'[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound"',),
+	(R'[voiced retroflex affricate](voiced%20retroflex%20affricate.md) \[dʐ\]', '![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg)', R'[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam"',),
+	(R'[close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md) \[e\]', '![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _m**ay**_ \[meː\]',),
+	(R'[close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) \[ɘ\]', '![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**ir**d_ \[bɘːd\]',),
+	(R'[mid central vowel](mid%20central%20vowel.md) \[ə\]', '![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg)', R'[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\]',),
+	(R'[r-colored vowel](r-colored%20vowel.md) \[ɚ\]', '![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)', R'[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\]',),
+	(R'[open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md) \[ɛ\]', '![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**e**d_ \[bɛd\]',),
+	(R'[nasal vowel](nasal%20vowel.md) \[ɛ̃\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg)', R'[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand"',),
+	(R'[open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md) \[ɜ\]', '![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**ir**d_ \[bɜːd\]',),
+	(R'[r-colored vowel](r-colored%20vowel.md) \[ɝ\]', '![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)', R'[English](English%20language.md) _b**ir**d_ \[bɝːd\]',),
+	(R'[voiceless labiodental fricative](voiceless%20labiodental%20fricative.md) \[f\]', '![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg)', R'[English](English%20language.md) _**f**ill_ \[fɪɫ\]',),
+	(R'[voiced velar plosive](voiced%20velar%20plosive.md) \[ɡ\]', '![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg)', R'[English](English%20language.md) _**g**a**gg**le_ \[ˈɡæɡɫ̩\]',),
+	(R'[voiced velar implosive](voiced%20velar%20implosive.md) \[ɠ\]', '![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg)', R'[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"',),
+	(R'[voiced uvular plosive](voiced%20uvular%20plosive.md) \[ɢ\]', '![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga)', R'[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\]',),
+	(R'[voiceless glottal fricative](voiceless%20glottal%20fricative.md) \[h\]', '![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)', R'[English](English%20language.md) _**h**igh_ \[haɪ̯\]',),
+	(R'[voiced glottal fricative](voiced%20glottal%20fricative.md) \[ɦ\]', '![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)', R'[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\]',),
+	(R'[aspirated consonant](aspirated%20consonant.md) \[ʰ\]', '', R'[English](English%20langugae.md) _**t**op_ \[tʰɒp\]',),
+	(R'[voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md) \[ħ\]', '![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)', R'[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\]',),
+	(R'[close front unrounded vowel](close%20front%20unrounded%20vowel.md) \[i\]', '![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _fr**ee**_ \[fɹiː\]',),
+	(R'[near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md) \[ɪ\]', '![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _b**i**t_ \[bɪʔt\]',),
+	(R'[close central unrounded vowel](close%20central%20unrounded%20vowel.md) \[ɨ\]', '![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)', R'[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you"',),
+	(R'[voiced palatal approximant](voiced%20palatal%20approximant.md) \[j\]', '![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)', R'[English](English%20language.md) _**y**ou_ \[juː\]',),
+	(R'[palatalization](palatalization%20(phonetics).md) \[ʲ\]', '', R'[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive"',),
+	(R'[voiced palatal fricative](voiced%20palatal%20fricative.md) \[ʝ\]', '![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)', R'[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock"',),
+	(R'[voiced palatal plosive](voiced%20palatal%20plosive.md) \[ɟ\]', '![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)', R'[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)"',),
+	(R'[voiced palatal implosive](voiced%20palatal%20implosive.md) \[ʄ\]', '![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)', R'[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday"',),
+	(R'[voiceless velar plosive](voiceless%20velar%20plosive.md) \[k\]', '![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)', R'[English](English%20language.md) _**k**iss_ \[kʰɪs\]',),
+	(R'[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) \[l\]', '![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg)', R'[English](English%20language.md) _**l**et_ \[lɛt\]',),
+	(R'[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) \[ɫ\]', '![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)', R'[English](English%20language.md) _fee**l**_ \[fiːɫ\]',),
+	(R'[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) \[ɬ\]', '![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)', R'[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle"',),
+	(R'[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) \[ɭ\]', '![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)', R'[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg"',),
+	(R'[voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md) \[ɺ\]', '', R'[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six"',),
+	(R'[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) \[ɮ\]', '![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)', R'[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat"',),
+	(R'[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) \[ʟ\]', '![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)', R'[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\]',),
+	(R'[voiced bilabial nasal](voiced%20bilabial%20nasal.md) \[m\]', '![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)', R'[English](English%20language.md) _hi**m**_ \[hɪm\]',),
+	(R'[voiced labiodental nasal](voiced%20labiodental%20nasal.md) \[ɱ\]', '![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)', R'[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\]',),
+	(R'[voiced alveolar nasal](voiced%20alveolar%20nasal.md) \[n\]', '![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)', R'[English](English%20language.md) _**n**ice_ \[naɪs\]',),
+	(R'[voiced velar nasal](voiced%20velar%20nasal.md) \[ŋ\]', '![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)', R'[English](English%20language.md) _si**ng**_ \[sɪŋ\]',),
+	(R'[voiced palatal nasal](voiced%20palatal%20nasal.md) \[ɲ\]', '![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)', R'[French](French%20language.md) _oi**gn**on_ \[ɔ.ɲɔ̃\] "onion"',),
+	(R'[voiced retroflex nasal](voiced%20retroflex%20nasal.md) \[ɳ\]', '![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)', R'[Norwegian](Norwegian%20language.md) _ga**rn**_ \[ɡɑːɳ\] "yarn"',),
+	(R'[voiced uvular nasal](voiced%20uvular%20nasal.md) \[ɴ\]', '![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg)', R'[Spanish](Spanish%20language.md) _e**n**juto_ \[ẽ̞ɴˈχuto̞\] "shriveled"',),
+	(R'[close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md) \[o\]', '![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _y**aw**n_ \[joːn\]',),
+	(R'[open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md) \[ɔ\]', '![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _n**o**t_ \[nɔt\]',),
+	(R'[nasal vowel](nasal%20vowel.md) \[ɔ̃\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)', R'[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound"',),
+	(R'[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) \[ø\]', '![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg)', R'[French](French%20language.md) _p**eu**_ \[pø\] "few"',),
+	(R'[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) \[ɵ\]', '![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)', '[English](English%20language.md) _f**oo**t_ \[fɵʔt\]',),
+	(R'[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) \[œ\]', '![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg)', R'[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young"',),
+	(R'[nasal vowel](nasal%20vowel.md) \[œ̃\]', '![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)', R'[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown"',),
+	(R'[open front rounded vowel](open%20front%20rounded%20vowel.md) \[ɶ\]', '![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg)', R'[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green"',),
+	(R'[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) \[p\]', '![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg)', R'[English](English%20language.md) _**p**ack_ \[pʰæk\]',),
+	(R'[voiceless uvular plosive](voiceless%20uvular%20plosive.md) \[q\]', '![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)', R'[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat"',),
+	(R'[voiced alveolar trill](voiced%20alveolar%20trill.md) \[r\]', '![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg)', R'[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog"',),
+	(R'[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) \[ɾ\]', '![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg)', R'[Spanish](Spanish%20language.md) _ca**r**o_ \[ˈkaɾo̞\] "expensive"',),
+	(R'[voiced uvular trill](voiced%20uvular%20trill.md) \[ʀ\]', '![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg)', R'[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red"',),
+	(R'[voiced retroflex flap](voiced%20retroflex%20flap.md) \[ɽ\]', '![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg)', R'[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf"',),
+	(R'[voiced alveolar approximant](voiced%20alveolar%20approximant.md) \[ɹ\]', '![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg)', R'[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest"',),
+	(R'[voiced retroflex approximant](voiced%20retroflex%20approximant.md) \[ɻ\]', '![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga)', R'[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat"',),
+	(R'[voiced uvular fricative](voiced%20uvular%20fricative.md) \[ʁ\]', '![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)', R'[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay"',),
+	(R'[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) \[s\]', '![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)', R'[English](English%20language.md) _**s**it_ \[sɪt\]',),
+	(R'[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) \[ʃ\]', '![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg)', R'[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\]',),
+	(R'[voiceless retroflex fricative](voiceless%20retroflex%20fricative.md) \[ʂ\]', '![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg)', R'[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle"',),
+	(R'[voiceless alveolar plosive](voiceless%20alveolar%20plosive.md) \[t\]', '![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg)', R'[English](English%20language.md) _**t**ick_ \[tʰɪk\]',),
+	(R'[voiceless retroflex plosive](voiceless%20retroflex%20plosive.md) \[ʈ\]', '![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)', R'[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card"',),
+	(R'[voiceless alveolar affricate](voiceless%20alveolar%20affricate.md) \[ts\]', '![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)', R'[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\]',),
+	(R'[voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md) \[tʃ\]', '![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg)', R'[English](English%20language.md) _bea**ch**_ \[biːt͡ʃ\]',),
+	(R'[voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md) \[tɕ\]', '![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg)', R'[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)"',),
+	(R'[voiceless retroflex affricate](voiceless%20retroflex%20affricate.md) \[tʂ\]', '![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg)', R'[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)"',),
+	(R'[close back rounded vowel](close%20back%20rounded%20vowel.md) \[u\]', '![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _b**oo**t_ \[bu̟ːt\]',),
+	(R'[near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md) \[ʊ\]', '![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)', R'[English](English%20language.md) _h**oo**k_ \[hʊʔk\]',),
+	(R'[close central rounded vowel](close%20central%20rounded%20vowel.md) \[ʉ\]', '![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)', R'[English](English%20language.md) _g**oo**se_ \[ɡʉːs\]',),
+	(R'[voiced labiodental fricative](voiced%20labiodental%20fricative.md) \[v\]', '![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)', R'[English](English%20language.md) _**v**al**v**e_ \[væɫv\]',),
+	(R'[voiced labiodental approximant](voiced%20labiodental%20approximant.md) \[ʋ\]', '![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)', R'[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby"',),
+	(R'[voiced labial–velar approximant](voiced%20labial–velar%20approximant.md) \[w\]', '![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)', R'[English](English%20language.md) _**w**eep_ \[wiːp\]',),
+	(R'[labialization](labialization.md) \[ʷ\]', '', R'[English](English%20language.md) _**r**eed_ \[ɹʷiːd\]',),
+	(R'[voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md) \[ʍ\]', '![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)', R'[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\]',),
+	(R'[close back unrounded vowel](close%20back%20unrounded%20vowel.md) \[ɯ\]', '![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)', R'[Turkish](Turkish%20language.md) _s**ı**ğ_ \[sɯː\] "shallow"',),
+	(R'[voiced velar approximant](voiced%20velar%20approximant.md) \[ɰ\]', '![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)', R'[Irish](Irish%20language.md) _n**ao**i_ \[n̪ˠɰiː\] "nine"',),
+	(R'[voiceless velar fricative](voiceless%20velar%20fricative.md) \[x\]', '![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)', R'[German](German%20language.md) _Bu**ch**_ \[buːx\] "book"',),
+	(R'[voiceless uvular fricative](voiceless%20uvular%20fricative.md) \[χ\]', '![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)', R'[French](French%20language.md) _t**r**ès_ \[t̪χɛ\] "very"',),
+	(R'[close front rounded vowel](close%20front%20rounded%20vowel.md) \[y\]', '![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)', R'[French](French%20language.md) _t**u**_ \[t̪y] "you"',),
+	(R'[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) \[ʏ\]', '![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)', R'[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect"',),
+	(R'[voiced velar fricative](voiced%20velar%20fricative.md) \[ɣ\]', '![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)', R'[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend"',),
+	(R'[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) \[ɤ\]', '![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)', R'[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry"',),
+	(R'[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) \[ʎ\]', '![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)', R'[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\]',),
+	(R'[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) \[ɥ\]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)', R'[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm"',),
+	(R'[voiced alveolar fricative](voiced%20alveolar%20fricative.md) \[z\]', '![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)', '[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\]',),
+	(R'[voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) \[ʒ\]', '![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)', R'[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\]',),
+	(R'[voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md) \[ʑ\]', '![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)', R'[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"',),
+	(R'[voiced retroflex fricative](voiced%20retroflex%20fricative.md) \[ʐ\]', '![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)', R'[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife"',),
+	(R'[voiceless dental fricative](voiceless%20dental%20fricative.md) \[θ\]', '![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)', R'[English](English%20language.md) _**th**in_ \[θɪn\]',),
+	(R'[voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) \[ɸ\]', '![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)', R'[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay"',),
+	(R'[glottal stop](glottal%20stop.md) \[ʔ\]', '![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)', R'[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\]',),
+	(R'[voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) \[ʕ\]', '![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)', R'[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion"',),
+	(R'[tenuis dental click](tenuis%20dental%20click.md) \[ǀ\]', '![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)', R'[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\]',),
+	(R'[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\]', '![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)', R'[English](English%20language.md) _**tchick**_ \[ˈǁ\]',),
+	(R'[tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\]', '![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)', R'[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"',),
+	(R'[tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\]', '![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)', R'[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"',),
+	(R'[tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\]', '![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)', R'[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"',),
 )
 diacritics = (
-	(R'[\[◌̃\]](nasal%20vowel.md) (e.g. [ã])', R'[French](French%20language.md) _vi**n** bla**n**c_ \[vɛ̃ blɑ̃\] "white wine"',),
-	(R'[\[◌̈\]](central%20vowel.md) (e.g. [ä])', R'[Portuguese](Protuguese%20language.md) _v**á**_ \[vä\] "go"',),
-	(R'[\[◌̆\]](extra-shortness.md) (e.g. [ă])', R'[English](English%20language.md) _p**o**lice_ \[pə̆ˈliˑs\]',),
-	(R'[\[◌̯\]](diphthong.md) (e.g. [a̯])', R'[English](English%20language.md) _co**w**_ \[kʰaʊ̯\]',),
-	(R'[\[◌̥\]](voicelessness.md) (e.g. [n̥])', R'[English](English%20language.md) _**d**oe_ \[d̥oʊ̯\]',),
-	(R'[\[◌̩\], \[◌̍\]](syllabic%20consonant.md) (e.g. [n̩], [ŋ̍])', R'[English](English%20language.md) _butt**on**_ \[ˈbʌʔn̩\]',),
-	(R'[\[◌̪\]](dental%20consonant.md) (e.g. [d̪])', R'[Spanish](Spanish%20language.md) _**d**os_ \[ˈd̪os\] "two"',),
-	(R'[\[◌ʰ\]](aspirated%20consonant.md) (e.g. [kʰ])', R'[English](English%20language.md) _**c**ome_ \[kʰɐm\]',),
-	(R'[\[◌’\]](ejective%20consonant.md) (e.g. [k’])', R'[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"',),
-	(R'[\[◌ː\]](longness%20(phonetics).md) (e.g. [aː])', R'[English](English%20language.md) _shh!_ \[ʃː\]',),
-	(R'[\[◌ˑ\]](half-longness%20(phonetics).md) (e.g. [aˑ])', R'[English](English%20language.md) _caught_ \[ˈkʰɔˑt\]',),
-	(R'[\[ˈ◌\]](stress%20(lingustics).md) (e.g. [ˈa])', R'[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]',),
-	(R'[\[ˌ◌\]](secondary%20stress.md) (e.g. [ˌa])', R'[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]',),
-	(R'[\[.\]](syllable.md)', R'[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]',),
+	(R'[nasalized](nasal%20vowel.md) \[◌̃\] (e.g. [ã])', R'[French](French%20language.md) _vi**n** bla**n**c_ \[vɛ̃ blɑ̃\] "white wine"',),
+	(R'[centralized](central%20vowel.md) \[◌̈\] (e.g. [ä])', R'[Portuguese](Protuguese%20language.md) _v**á**_ \[vä\] "go"',),
+	(R'[extra-short](extra-shortness.md) \[◌̆\] (e.g. [ă])', R'[English](English%20language.md) _p**o**lice_ \[pə̆ˈliˑs\]',),
+	(R'[non-syllabic](diphthong.md) \[◌̯\] (e.g. [a̯])', R'[English](English%20language.md) _co**w**_ \[kʰaʊ̯\]',),
+	(R'[voiceless](voicelessness.md) \[◌̥\] (e.g. [n̥])', R'[English](English%20language.md) _**d**oe_ \[d̥oʊ̯\]',),
+	(R'[syllabic](syllabic%20consonant.md) \[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍])', R'[English](English%20language.md) _butt**on**_ \[ˈbʌʔn̩\]',),
+	(R'[dental/alveolar](dental%20consonant.md) \[◌̪\] (e.g. [d̪])', R'[Spanish](Spanish%20language.md) _**d**os_ \[ˈd̪os\] "two"',),
+	(R'[aspirated](aspirated%20consonant.md) \[◌ʰ\] (e.g. [kʰ])', R'[English](English%20language.md) _**c**ome_ \[kʰɐm\]',),
+	(R'[ejective](ejective%20consonant.md) \[◌’\] (e.g. [k’])', R'[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"',),
+	(R'[long](longness%20(phonetics).md) \[◌ː\] (e.g. [aː])', R'[English](English%20language.md) _shh!_ \[ʃː\]',),
+	(R'[half-long](half-longness%20(phonetics).md) \[◌ˑ\] (e.g. [aˑ])', R'[English](English%20language.md) _caught_ \[ˈkʰɔˑt\]',),
+	(R'[primary stress](stress%20(lingustics).md) \[ˈ◌\] (e.g. [ˈa])', R'[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]',),
+	(R'[secondary stress](secondary%20stress.md) \[ˌ◌\] (e.g. [ˌa])', R'[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]',),
+	(R'[syllable break](syllable.md) \[.\]', R'[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]',),
 )
 return chain.from_iterable(await gather(
 	memorize_table(
@@ -200,373 +200,373 @@ Different brackets used to enclose IPA transcriptions have different meanings:
 
 Here is a list of common IPA letters and their pronunciations:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-17T09:42:49.424824+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-17T10:25:03.505946+08:00. Any edits will be overridden! -->
 
 > | symbol | audio | description |
 > |-|-|-|
-> | \[[a](open%20front%20unrounded%20vowel.md)\] | ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _h**a**t_ \[hat\]}} |
-> | \[[ä](open%20central%20unrounded%20vowel.md)\] | ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]}} |
-> | \[[ɐ](near-open%20central%20vowel.md)\] | ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _n**u**t_ \[nɐʔt\]}} |
-> | \[[ɑ](open%20back%20unrounded%20vowel.md)\] | ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\]}} |
-> | \[[ɑ̃](nasal%20vowel.md)\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg) | {{[French](French%20language.md) _s**an**s_ [sɑ̃] "without"}} |
-> | \[[ɒ](open%20back%20rounded%20vowel.md)\] | ![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _n**o**t_ \[nɒt\]}} |
-> | \[[ʌ](open-mid%20back%20unrounded%20vowel.md)\] | ![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg) | {{[English](English%20language.md) _g**u**t_ \[ɡʌt\]}} |
-> | \[[æ](near-open%20front%20unrounded%20vowel.md)\] | ![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _c**a**t_ \[kʰæt\]}} |
-> | \[[b](voiced%20bilabial%20plosive.md)\] | ![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg) | {{[English](English%20language.md) _a**b**ack_ \[əˈbæk\]}} |
-> | \[[ɓ](voiced%20bilabial%20implosive.md)\] | ![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg) | {{[English](English%20language.md) _**b**ody_ \[ɓʌdi\]}} |
-> | \[[β](voiced%20bilabial%20fricative.md)\] | ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg) | {{[Spanish](Spanish%20language.md) _la**v**a_ \[ˈläβ̞ä\] "lava"}} |
-> | \[[ʙ](voiced%20bilabial%20trill.md)\] | ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg) | {{[Nias](Nias%20language.md) _si**mb**i_ \[siʙi\] "lower jaw"}} |
-> | \[[c](voiceless%20palatal%20plosive.md)\] | ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg) | {{[French](French%20language.md) _**q**ui_ \[ci\] "who"}} |
-> | \[[ç](voiceless%20palatal%20fricative.md)\] | ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg) | {{[English](English%20language.md) _**h**ue_ \[çʉː\]}} |
-> | \[[ɕ](voiceless%20alveolo-palatal%20fricative.md)\] | ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg) | {{[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\]}} |
-> | \[[d](voiced%20alveolar%20plosive.md)\] | ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg) | {{[English](English%20language.md) _**d**ash_ \[ˈdæʃ\]}} |
-> | \[[ɗ](voiced%20alveolar%20implosive.md)\] | ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg) | {{[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail"}} |
-> | \[[ɖ](voiced%20retroflex%20plosive.md)\] | ![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga) | {{[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north"}} |
-> | \[[ð](voiced%20dental%20fricative.md)\] | ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg) | {{[English](English%20language.md) _**th**is_ \[ðɪs\]}} |
-> | \[[dz](voiced%20alveolar%20affricate.md)\] | ![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga) | {{[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\]}} |
-> | \[[dʒ](voiced%20postalveolar%20affricate.md)\] | ![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg) | {{[English](English%20language.md) _**g**ene_ 	\[ˈd͡ʒiːn\]}} |
-> | \[[dʑ](voiced%20alveolo-palatal%20affricate.md)\] | ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg) | {{[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound"}} |
-> | \[[dʐ](voiced%20retroflex%20affricate.md)\] | ![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg) | {{[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam"}} |
-> | \[[e](close-mid%20front%20unrounded%20vowel.md)\] | ![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _m**ay**_ \[meː\]}} |
-> | \[[ɘ](close-mid%20central%20unrounded%20vowel.md)\] | ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**ir**d_ \[bɘːd\]}} |
-> | \[[ə](mid%20central%20vowel.md)\] | ![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg) | {{[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\]}} |
-> | \[[ɚ](r-colored%20vowel.md)\] | ![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg) | {{[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\]}} |
-> | \[[ɛ](open-mid%20front%20unrounded%20vowel.md)\] | ![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**e**d_ \[bɛd\]}} |
-> | \[[ɛ̃](nasal%20vowel.md)\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg) | {{[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand"}} |
-> | \[[ɜ](open-mid%20central%20unrounded%20vowel.md)\] | ![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**ir**d_ \[bɜːd\]}} |
-> | \[[ɝ](r-colored%20vowel.md)\] | ![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg) | {{[English](English%20language.md) _b**ir**d_ \[bɝːd\]}} |
-> | \[[f](voiceless%20labiodental%20fricative.md)\] | ![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg) | {{[English](English%20language.md) _**f**ill_ \[fɪɫ\]}} |
-> | \[[ɡ](voiced%20velar%20plosive.md)\] | ![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg) | {{[English](English%20language.md) _**g**a**gg**le_ \[ˈɡæɡɫ̩\]}} |
-> | \[[ɠ](voiced%20velar%20implosive.md)\] | ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg) | {{[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"}} |
-> | \[[ɢ](voiced%20uvular%20plosive.md)\] | ![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga) | {{[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\]}} |
-> | \[[h](voiceless%20glottal%20fricative.md)\] | ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg) | {{[English](English%20language.md) _**h**igh_ \[haɪ̯\]}} |
-> | \[[ɦ](voiced%20glottal%20fricative.md)\] | ![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg) | {{[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\]}} |
-> | \[[ʰ](aspirated%20consonant.md)\] |  | {{[English](English%20langugae.md) _**t**op_ \[tʰɒp\]}} |
-> | \[[ħ](voiceless%20pharyngeal%20fricative.md)\] | ![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg) | {{[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\]}} |
-> | \[[i](close%20front%20unrounded%20vowel.md)\] | ![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _fr**ee**_ \[fɹiː\]}} |
-> | \[[ɪ](near-close%20near-front%20unrounded%20vowel.md)\] | ![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**i**t_ \[bɪʔt\]}} |
-> | \[[ɨ](close%20central%20unrounded%20vowel.md)\] | ![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg) | {{[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you"}} |
-> | \[[j](voiced%20palatal%20approximant.md)\] | ![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg) | {{[English](English%20language.md) _**y**ou_ \[juː\]}} |
-> | \[[ʲ](palatalization%20(phonetics).md)\] |  | {{[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive"}} |
-> | \[[ʝ](voiced%20palatal%20fricative.md)\] | ![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg) | {{[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock"}} |
-> | \[[ɟ](voiced%20palatal%20plosive.md)\] | ![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg) | {{[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)"}} |
-> | \[[ʄ](voiced%20palatal%20implosive.md)\] | ![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg) | {{[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday"}} |
-> | \[[k](voiceless%20velar%20plosive.md)\] | ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg) | {{[English](English%20language.md) _**k**iss_ \[kʰɪs\]}} |
-> | \[[l](voiced%20alveolar%20lateral%20approximant.md)\] | ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg) | {{[English](English%20language.md) _**l**et_ \[lɛt\]}} |
-> | \[[ɫ](velarized%20alveolar%20lateral%20approximant.md)\] | ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg) | {{[English](English%20language.md) _fee**l**_ \[fiːɫ\]}} |
-> | \[[ɬ](voiceless%20alveolar%20lateral%20fricative.md)\] | ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg) | {{[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle"}} |
-> | \[[ɭ](voiced%20retroflex%20lateral%20approximant.md)\] | ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg) | {{[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg"}} |
-> | \[[ɺ](voiced%20alveolar%20lateral%20flap.md)\] |  | {{[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six"}} |
-> | \[[ɮ](voiced%20alveolar%20lateral%20fricative.md)\] | ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg) | {{[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat"}} |
-> | \[[ʟ](voiced%20velar%20lateral%20approximant.md)\] | ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg) | {{[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\]}} |
-> | \[[m](voiced%20bilabial%20nasal.md)\] | ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg) | {{[English](English%20language.md) _hi**m**_ \[hɪm\]}} |
-> | \[[ɱ](voiced%20labiodental%20nasal.md)\] | ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg) | {{[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\]}} |
-> | \[[n](voiced%20alveolar%20nasal.md)\] | ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg) | {{[English](English%20language.md) _**n**ice_ \[naɪs\]}} |
-> | \[[ŋ](voiced%20velar%20nasal.md)\] | ![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg) | {{[English](English%20language.md) _si**ng**_ \[sɪŋ\]}} |
-> | \[[ɲ](voiced%20palatal%20nasal.md)\] | ![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg) | {{[French](French%20language.md) _oi**gn**on_ \[ɔ.ɲɔ̃\] "onion"}} |
-> | \[[ɳ](voiced%20retroflex%20nasal.md)\] | ![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg) | {{[Norwegian](Norwegian%20language.md) _ga**rn**_ \[ɡɑːɳ\] "yarn"}} |
-> | \[[ɴ](voiced%20uvular%20nasal.md)\] | ![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg) | {{[Spanish](Spanish%20language.md) _e**n**juto_ \[ẽ̞ɴˈχuto̞\] "shriveled"}} |
-> | \[[o](close-mid%20back%20rounded%20vowel.md)\] | ![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _y**aw**n_ \[joːn\]}} |
-> | \[[ɔ](open-mid%20back%20rounded%20vowel.md)\] | ![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _n**o**t_ \[nɔt\]}} |
-> | \[[ɔ̃](nasal%20vowel.md)\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg) | {{[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound"}} |
-> | \[[ø](close-mid%20front%20rounded%20vowel.md)\] | ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg) | {{[French](French%20language.md) _p**eu**_ \[pø\] "few"}} |
-> | \[[ɵ](close-mid%20central%20rounded%20vowel.md)\] | ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg) | {{[English](English%20language.md) _f**oo**t_ \[fɵʔt\]}} |
-> | \[[œ](open-mid%20front%20rounded%20vowel.md)\] | ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg) | {{[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young"}} |
-> | \[[œ̃](nasal%20vowel.md)\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg) | {{[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown"}} |
-> | \[[ɶ](open%20front%20rounded%20vowel.md)\] | ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg) | {{[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green"}} |
-> | \[[p](voiceless%20bilabial%20plosive.md)\] | ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg) | {{[English](English%20language.md) _**p**ack_ \[pʰæk\]}} |
-> | \[[q](voiceless%20uvular%20plosive.md)\] | ![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg) | {{[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat"}} |
-> | \[[r](voiced%20alveolar%20trill.md)\] | ![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg) | {{[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog"}} |
-> | \[[ɾ](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md)\] | ![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg) | {{[Spanish](Spanish%20language.md) _ca**r**o_ \[ˈkaɾo̞\] "expensive"}} |
-> | \[[ʀ](voiced%20uvular%20trill.md)\] | ![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg) | {{[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red"}} |
-> | \[[ɽ](voiced%20retroflex%20flap.md)\] | ![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg) | {{[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf"}} |
-> | \[[ɹ](voiced%20alveolar%20approximant.md)\] | ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg) | {{[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest"}} |
-> | \[[ɻ](voiced%20retroflex%20approximant.md)\] | ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga) | {{[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat"}} |
-> | \[[ʁ](voiced%20uvular%20fricative.md)\] | ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg) | {{[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay"}} |
-> | \[[s](voiceless%20alveolar%20fricative.md)\] | ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**s**it_ \[sɪt\]}} |
-> | \[[ʃ](voiceless%20postalveolar%20fricative.md)\] | ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\]}} |
-> | \[[ʂ](voiceless%20retroflex%20fricative.md)\] | ![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg) | {{[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle"}} |
-> | \[[t](voiceless%20alveolar%20plosive.md)\] | ![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg) | {{[English](English%20language.md) _**t**ick_ \[tʰɪk\]}} |
-> | \[[ʈ](voiceless%20retroflex%20plosive.md)\] | ![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga) | {{[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card"}} |
-> | \[[ts](voiceless%20alveolar%20affricate.md)\] | ![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga) | {{[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\]}} |
-> | \[[tʃ](voiceless%20postalveolar%20affricate.md)\] | ![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg) | {{[English](English%20language.md) _bea**ch**_ \[biːt͡ʃ\]}} |
-> | \[[tɕ](voiceless%20alveolo-palatal%20affricate.md)\] | ![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg) | {{[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)"}} |
-> | \[[tʂ](voiceless%20retroflex%20affricate.md)\] | ![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg) | {{[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)"}} |
-> | \[[u](close%20back%20rounded%20vowel.md)\] | ![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _b**oo**t_ \[bu̟ːt\]}} |
-> | \[[ʊ](near-close%20near-back%20rounded%20vowel.md)\] | ![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _h**oo**k_ \[hʊʔk\]}} |
-> | \[[ʉ](close%20central%20rounded%20vowel.md)\] | ![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg) | {{[English](English%20language.md) _g**oo**se_ \[ɡʉːs\]}} |
-> | \[[v](voiced%20labiodental%20fricative.md)\] | ![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg) | {{[English](English%20language.md) _**v**al**v**e_ \[væɫv\]}} |
-> | \[[ʋ](voiced%20labiodental%20approximant.md)\] | ![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg) | {{[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby"}} |
-> | \[[w](voiced%20labial–velar%20approximant.md)\] | ![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg) | {{[English](English%20language.md) _**w**eep_ \[wiːp\]}} |
-> | \[[ʷ](labialization.md)\] |  | {{[English](English%20language.md) _**r**eed_ \[ɹʷiːd\]}} |
-> | \[[ʍ](voiceless%20labial–velar%20fricative.md)\] | ![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg) | {{[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\]}} |
-> | \[[ɯ](close%20back%20unrounded%20vowel.md)\] | ![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg) | {{[Turkish](Turkish%20language.md) _s**ı**ğ_ \[sɯː\] "shallow"}} |
-> | \[[ɰ](voiced%20velar%20approximant.md)\] | ![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg) | {{[Irish](Irish%20language.md) _n**ao**i_ \[n̪ˠɰiː\] "nine"}} |
-> | \[[x](voiceless%20velar%20fricative.md)\] | ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg) | {{[German](German%20language.md) _Bu**ch**_ \[buːx\] "book"}} |
-> | \[[χ](voiceless%20uvular%20fricative.md)\] | ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg) | {{[French](French%20language.md) _t**r**ès_ \[t̪χɛ\] "very"}} |
-> | \[[y](close%20front%20rounded%20vowel.md)\] | ![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg) | {{[French](French%20language.md) _t**u**_ \[t̪y] "you"}} |
-> | \[[ʏ](near-close%20near-front%20rounded%20vowel.md)\] | ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg) | {{[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect"}} |
-> | \[[ɣ](voiced%20velar%20fricative.md)\] | ![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg) | {{[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend"}} |
-> | \[[ɤ](close-mid%20back%20unrounded%20vowel.md)\] | ![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg) | {{[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry"}} |
-> | \[[ʎ](voiced%20palatal%20lateral%20approximant.md)\] | ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg) | {{[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\]}} |
-> | \[[ɥ](voiced%20labial–palatal%20approximant.md)\] | ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav) | {{[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm"}} |
-> | \[[z](voiced%20alveolar%20fricative.md)\] | ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\]}} |
-> | \[[ʒ](voiced%20postalveolar%20fricative.md)\] | ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg) | {{[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\]}} |
-> | \[[ʑ](voiced%20alveolo–palatal%20fricative.md)\] | ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg) | {{[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"}} |
-> | \[[ʐ](voiced%20retroflex%20fricative.md)\] | ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg) | {{[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife"}} |
-> | \[[θ](voiceless%20dental%20fricative.md)\] | ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg) | {{[English](English%20language.md) _**th**in_ \[θɪn\]}} |
-> | \[[ɸ](voiceless%20bilabial%20fricative.md)\] | ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg) | {{[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay"}} |
-> | \[[ʔ](glottal%20stop.md)\] | ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg) | {{[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\]}} |
-> | \[[ʕ](voiced%20pharyngeal%20fricative.md)\] | ![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg) | {{[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion"}} |
-> | \[[ǀ](tenuis%20dental%20click.md)\] | ![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg) | {{[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\]}} |
-> | \[[ǁ](tenuis%20alveolar%20lateral%20click.md)\] | ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) | {{[English](English%20language.md) _**tchick**_ \[ˈǁ\]}} |
-> | \[[ǃ](tenuis%20alveolar%20click.md)\] | ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) | {{[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"}} |
-> | \[[ʘ](tenuis%20bilabial%20click.md)\] | ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) | {{[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"}} |
-> | \[[ǂ](tenuis%20palatal%20click.md)\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} |
+> | [open front unrounded vowel](open%20front%20unrounded%20vowel.md) \[a\] | ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _h**a**t_ \[hat\]}} |
+> | [open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\] | ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]}} |
+> | [near-open central vowel](near-open%20central%20vowel.md) \[ɐ\] | ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _n**u**t_ \[nɐʔt\]}} |
+> | [open back unrounded vowel](open%20back%20unrounded%20vowel.md) \[ɑ\] | ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\]}} |
+> | [nasal vowel](nasal%20vowel.md) \[ɑ̃\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg) | {{[French](French%20language.md) _s**an**s_ [sɑ̃] "without"}} |
+> | [open back rounded vowel](open%20back%20rounded%20vowel.md) \[ɒ\] | ![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _n**o**t_ \[nɒt\]}} |
+> | [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md) \[ʌ\] | ![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg) | {{[English](English%20language.md) _g**u**t_ \[ɡʌt\]}} |
+> | [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md) \[æ\] | ![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _c**a**t_ \[kʰæt\]}} |
+> | [voiced bilabial plosive](voiced%20bilabial%20plosive.md) \[b\] | ![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg) | {{[English](English%20language.md) _a**b**ack_ \[əˈbæk\]}} |
+> | [voiced bilabial implosive](voiced%20bilabial%20implosive.md) \[ɓ\] | ![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg) | {{[English](English%20language.md) _**b**ody_ \[ɓʌdi\]}} |
+> | [voiced bilabial fricative](voiced%20bilabial%20fricative.md) \[β\] | ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg) | {{[Spanish](Spanish%20language.md) _la**v**a_ \[ˈläβ̞ä\] "lava"}} |
+> | [voiced bilabial trill](voiced%20bilabial%20trill.md) \[ʙ\] | ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg) | {{[Nias](Nias%20language.md) _si**mb**i_ \[siʙi\] "lower jaw"}} |
+> | [voiceless palatal plosive](voiceless%20palatal%20plosive.md) \[c\] | ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg) | {{[French](French%20language.md) _**q**ui_ \[ci\] "who"}} |
+> | [voiceless palatal fricative](voiceless%20palatal%20fricative.md) \[ç\] | ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg) | {{[English](English%20language.md) _**h**ue_ \[çʉː\]}} |
+> | [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) \[ɕ\] | ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg) | {{[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\]}} |
+> | [voiced alveolar plosive](voiced%20alveolar%20plosive.md) \[d\] | ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg) | {{[English](English%20language.md) _**d**ash_ \[ˈdæʃ\]}} |
+> | [voiced alveolar implosive](voiced%20alveolar%20implosive.md) \[ɗ\] | ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg) | {{[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail"}} |
+> | [voiced retroflex plosive](voiced%20retroflex%20plosive.md) \[ɖ\] | ![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga) | {{[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north"}} |
+> | [voiced dental fricative](voiced%20dental%20fricative.md) \[ð\] | ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg) | {{[English](English%20language.md) _**th**is_ \[ðɪs\]}} |
+> | [voiced alveolar affricate](voiced%20alveolar%20affricate.md) \[dz\] | ![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga) | {{[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\]}} |
+> | [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) \[dʒ\] | ![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg) | {{[English](English%20language.md) _**g**ene_ 	\[ˈd͡ʒiːn\]}} |
+> | [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) \[dʑ\] | ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg) | {{[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound"}} |
+> | [voiced retroflex affricate](voiced%20retroflex%20affricate.md) \[dʐ\] | ![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg) | {{[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam"}} |
+> | [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md) \[e\] | ![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _m**ay**_ \[meː\]}} |
+> | [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) \[ɘ\] | ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**ir**d_ \[bɘːd\]}} |
+> | [mid central vowel](mid%20central%20vowel.md) \[ə\] | ![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg) | {{[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\]}} |
+> | [r-colored vowel](r-colored%20vowel.md) \[ɚ\] | ![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg) | {{[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\]}} |
+> | [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md) \[ɛ\] | ![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**e**d_ \[bɛd\]}} |
+> | [nasal vowel](nasal%20vowel.md) \[ɛ̃\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg) | {{[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand"}} |
+> | [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md) \[ɜ\] | ![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**ir**d_ \[bɜːd\]}} |
+> | [r-colored vowel](r-colored%20vowel.md) \[ɝ\] | ![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg) | {{[English](English%20language.md) _b**ir**d_ \[bɝːd\]}} |
+> | [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md) \[f\] | ![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg) | {{[English](English%20language.md) _**f**ill_ \[fɪɫ\]}} |
+> | [voiced velar plosive](voiced%20velar%20plosive.md) \[ɡ\] | ![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg) | {{[English](English%20language.md) _**g**a**gg**le_ \[ˈɡæɡɫ̩\]}} |
+> | [voiced velar implosive](voiced%20velar%20implosive.md) \[ɠ\] | ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg) | {{[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"}} |
+> | [voiced uvular plosive](voiced%20uvular%20plosive.md) \[ɢ\] | ![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga) | {{[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\]}} |
+> | [voiceless glottal fricative](voiceless%20glottal%20fricative.md) \[h\] | ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg) | {{[English](English%20language.md) _**h**igh_ \[haɪ̯\]}} |
+> | [voiced glottal fricative](voiced%20glottal%20fricative.md) \[ɦ\] | ![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg) | {{[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\]}} |
+> | [aspirated consonant](aspirated%20consonant.md) \[ʰ\] |  | {{[English](English%20langugae.md) _**t**op_ \[tʰɒp\]}} |
+> | [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md) \[ħ\] | ![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg) | {{[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\]}} |
+> | [close front unrounded vowel](close%20front%20unrounded%20vowel.md) \[i\] | ![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _fr**ee**_ \[fɹiː\]}} |
+> | [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md) \[ɪ\] | ![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _b**i**t_ \[bɪʔt\]}} |
+> | [close central unrounded vowel](close%20central%20unrounded%20vowel.md) \[ɨ\] | ![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg) | {{[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you"}} |
+> | [voiced palatal approximant](voiced%20palatal%20approximant.md) \[j\] | ![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg) | {{[English](English%20language.md) _**y**ou_ \[juː\]}} |
+> | [palatalization](palatalization%20(phonetics).md) \[ʲ\] |  | {{[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive"}} |
+> | [voiced palatal fricative](voiced%20palatal%20fricative.md) \[ʝ\] | ![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg) | {{[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock"}} |
+> | [voiced palatal plosive](voiced%20palatal%20plosive.md) \[ɟ\] | ![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg) | {{[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)"}} |
+> | [voiced palatal implosive](voiced%20palatal%20implosive.md) \[ʄ\] | ![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg) | {{[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday"}} |
+> | [voiceless velar plosive](voiceless%20velar%20plosive.md) \[k\] | ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg) | {{[English](English%20language.md) _**k**iss_ \[kʰɪs\]}} |
+> | [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) \[l\] | ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg) | {{[English](English%20language.md) _**l**et_ \[lɛt\]}} |
+> | [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) \[ɫ\] | ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg) | {{[English](English%20language.md) _fee**l**_ \[fiːɫ\]}} |
+> | [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) \[ɬ\] | ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg) | {{[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle"}} |
+> | [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) \[ɭ\] | ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg) | {{[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg"}} |
+> | [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md) \[ɺ\] |  | {{[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six"}} |
+> | [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) \[ɮ\] | ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg) | {{[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat"}} |
+> | [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) \[ʟ\] | ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg) | {{[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\]}} |
+> | [voiced bilabial nasal](voiced%20bilabial%20nasal.md) \[m\] | ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg) | {{[English](English%20language.md) _hi**m**_ \[hɪm\]}} |
+> | [voiced labiodental nasal](voiced%20labiodental%20nasal.md) \[ɱ\] | ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg) | {{[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\]}} |
+> | [voiced alveolar nasal](voiced%20alveolar%20nasal.md) \[n\] | ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg) | {{[English](English%20language.md) _**n**ice_ \[naɪs\]}} |
+> | [voiced velar nasal](voiced%20velar%20nasal.md) \[ŋ\] | ![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg) | {{[English](English%20language.md) _si**ng**_ \[sɪŋ\]}} |
+> | [voiced palatal nasal](voiced%20palatal%20nasal.md) \[ɲ\] | ![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg) | {{[French](French%20language.md) _oi**gn**on_ \[ɔ.ɲɔ̃\] "onion"}} |
+> | [voiced retroflex nasal](voiced%20retroflex%20nasal.md) \[ɳ\] | ![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg) | {{[Norwegian](Norwegian%20language.md) _ga**rn**_ \[ɡɑːɳ\] "yarn"}} |
+> | [voiced uvular nasal](voiced%20uvular%20nasal.md) \[ɴ\] | ![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg) | {{[Spanish](Spanish%20language.md) _e**n**juto_ \[ẽ̞ɴˈχuto̞\] "shriveled"}} |
+> | [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md) \[o\] | ![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _y**aw**n_ \[joːn\]}} |
+> | [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md) \[ɔ\] | ![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _n**o**t_ \[nɔt\]}} |
+> | [nasal vowel](nasal%20vowel.md) \[ɔ̃\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg) | {{[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound"}} |
+> | [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) \[ø\] | ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg) | {{[French](French%20language.md) _p**eu**_ \[pø\] "few"}} |
+> | [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) \[ɵ\] | ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg) | {{[English](English%20language.md) _f**oo**t_ \[fɵʔt\]}} |
+> | [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) \[œ\] | ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg) | {{[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young"}} |
+> | [nasal vowel](nasal%20vowel.md) \[œ̃\] | ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg) | {{[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown"}} |
+> | [open front rounded vowel](open%20front%20rounded%20vowel.md) \[ɶ\] | ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg) | {{[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green"}} |
+> | [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) \[p\] | ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg) | {{[English](English%20language.md) _**p**ack_ \[pʰæk\]}} |
+> | [voiceless uvular plosive](voiceless%20uvular%20plosive.md) \[q\] | ![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg) | {{[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat"}} |
+> | [voiced alveolar trill](voiced%20alveolar%20trill.md) \[r\] | ![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg) | {{[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog"}} |
+> | [voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) \[ɾ\] | ![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg) | {{[Spanish](Spanish%20language.md) _ca**r**o_ \[ˈkaɾo̞\] "expensive"}} |
+> | [voiced uvular trill](voiced%20uvular%20trill.md) \[ʀ\] | ![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg) | {{[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red"}} |
+> | [voiced retroflex flap](voiced%20retroflex%20flap.md) \[ɽ\] | ![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg) | {{[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf"}} |
+> | [voiced alveolar approximant](voiced%20alveolar%20approximant.md) \[ɹ\] | ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg) | {{[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest"}} |
+> | [voiced retroflex approximant](voiced%20retroflex%20approximant.md) \[ɻ\] | ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga) | {{[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat"}} |
+> | [voiced uvular fricative](voiced%20uvular%20fricative.md) \[ʁ\] | ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg) | {{[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay"}} |
+> | [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) \[s\] | ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**s**it_ \[sɪt\]}} |
+> | [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) \[ʃ\] | ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\]}} |
+> | [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md) \[ʂ\] | ![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg) | {{[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle"}} |
+> | [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md) \[t\] | ![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg) | {{[English](English%20language.md) _**t**ick_ \[tʰɪk\]}} |
+> | [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md) \[ʈ\] | ![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga) | {{[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card"}} |
+> | [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md) \[ts\] | ![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga) | {{[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\]}} |
+> | [voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md) \[tʃ\] | ![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg) | {{[English](English%20language.md) _bea**ch**_ \[biːt͡ʃ\]}} |
+> | [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md) \[tɕ\] | ![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg) | {{[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)"}} |
+> | [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md) \[tʂ\] | ![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg) | {{[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)"}} |
+> | [close back rounded vowel](close%20back%20rounded%20vowel.md) \[u\] | ![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _b**oo**t_ \[bu̟ːt\]}} |
+> | [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md) \[ʊ\] | ![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg) | {{[English](English%20language.md) _h**oo**k_ \[hʊʔk\]}} |
+> | [close central rounded vowel](close%20central%20rounded%20vowel.md) \[ʉ\] | ![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg) | {{[English](English%20language.md) _g**oo**se_ \[ɡʉːs\]}} |
+> | [voiced labiodental fricative](voiced%20labiodental%20fricative.md) \[v\] | ![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg) | {{[English](English%20language.md) _**v**al**v**e_ \[væɫv\]}} |
+> | [voiced labiodental approximant](voiced%20labiodental%20approximant.md) \[ʋ\] | ![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg) | {{[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby"}} |
+> | [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md) \[w\] | ![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg) | {{[English](English%20language.md) _**w**eep_ \[wiːp\]}} |
+> | [labialization](labialization.md) \[ʷ\] |  | {{[English](English%20language.md) _**r**eed_ \[ɹʷiːd\]}} |
+> | [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md) \[ʍ\] | ![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg) | {{[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\]}} |
+> | [close back unrounded vowel](close%20back%20unrounded%20vowel.md) \[ɯ\] | ![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg) | {{[Turkish](Turkish%20language.md) _s**ı**ğ_ \[sɯː\] "shallow"}} |
+> | [voiced velar approximant](voiced%20velar%20approximant.md) \[ɰ\] | ![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg) | {{[Irish](Irish%20language.md) _n**ao**i_ \[n̪ˠɰiː\] "nine"}} |
+> | [voiceless velar fricative](voiceless%20velar%20fricative.md) \[x\] | ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg) | {{[German](German%20language.md) _Bu**ch**_ \[buːx\] "book"}} |
+> | [voiceless uvular fricative](voiceless%20uvular%20fricative.md) \[χ\] | ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg) | {{[French](French%20language.md) _t**r**ès_ \[t̪χɛ\] "very"}} |
+> | [close front rounded vowel](close%20front%20rounded%20vowel.md) \[y\] | ![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg) | {{[French](French%20language.md) _t**u**_ \[t̪y] "you"}} |
+> | [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) \[ʏ\] | ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg) | {{[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect"}} |
+> | [voiced velar fricative](voiced%20velar%20fricative.md) \[ɣ\] | ![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg) | {{[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend"}} |
+> | [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) \[ɤ\] | ![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg) | {{[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry"}} |
+> | [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) \[ʎ\] | ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg) | {{[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\]}} |
+> | [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) \[ɥ\] | ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav) | {{[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm"}} |
+> | [voiced alveolar fricative](voiced%20alveolar%20fricative.md) \[z\] | ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\]}} |
+> | [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) \[ʒ\] | ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg) | {{[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\]}} |
+> | [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md) \[ʑ\] | ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg) | {{[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"}} |
+> | [voiced retroflex fricative](voiced%20retroflex%20fricative.md) \[ʐ\] | ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg) | {{[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife"}} |
+> | [voiceless dental fricative](voiceless%20dental%20fricative.md) \[θ\] | ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg) | {{[English](English%20language.md) _**th**in_ \[θɪn\]}} |
+> | [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) \[ɸ\] | ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg) | {{[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay"}} |
+> | [glottal stop](glottal%20stop.md) \[ʔ\] | ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg) | {{[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\]}} |
+> | [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) \[ʕ\] | ![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg) | {{[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion"}} |
+> | [tenuis dental click](tenuis%20dental%20click.md) \[ǀ\] | ![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg) | {{[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\]}} |
+> | [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\] | ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) | {{[English](English%20language.md) _**tchick**_ \[ˈǁ\]}} |
+> | [tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\] | ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) | {{[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"}} |
+> | [tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\] | ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) | {{[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"}} |
+> | [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dfb"--><!-- The following content is generated at 2023-06-17T09:42:49.372985+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dfb"--><!-- The following content is generated at 2023-06-17T10:25:03.465423+08:00. Any edits will be overridden! -->
 
-1. \[[a](open%20front%20unrounded%20vowel.md)\]::![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)
-2. \[[ä](open%20central%20unrounded%20vowel.md)\]::![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)
-3. \[[ɐ](near-open%20central%20vowel.md)\]::![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)
-4. \[[ɑ](open%20back%20unrounded%20vowel.md)\]::![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)
-5. \[[ɑ̃](nasal%20vowel.md)\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)
-6. \[[ɒ](open%20back%20rounded%20vowel.md)\]::![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg)
-7. \[[ʌ](open-mid%20back%20unrounded%20vowel.md)\]::![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)
-8. \[[æ](near-open%20front%20unrounded%20vowel.md)\]::![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)
-9. \[[b](voiced%20bilabial%20plosive.md)\]::![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg)
-10. \[[ɓ](voiced%20bilabial%20implosive.md)\]::![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg)
-11. \[[β](voiced%20bilabial%20fricative.md)\]::![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg)
-12. \[[ʙ](voiced%20bilabial%20trill.md)\]::![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg)
-13. \[[c](voiceless%20palatal%20plosive.md)\]::![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg)
-14. \[[ç](voiceless%20palatal%20fricative.md)\]::![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)
-15. \[[ɕ](voiceless%20alveolo-palatal%20fricative.md)\]::![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)
-16. \[[d](voiced%20alveolar%20plosive.md)\]::![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg)
-17. \[[ɗ](voiced%20alveolar%20implosive.md)\]::![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg)
-18. \[[ɖ](voiced%20retroflex%20plosive.md)\]::![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga)
-19. \[[ð](voiced%20dental%20fricative.md)\]::![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg)
-20. \[[dz](voiced%20alveolar%20affricate.md)\]::![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)
-21. \[[dʒ](voiced%20postalveolar%20affricate.md)\]::![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)
-22. \[[dʑ](voiced%20alveolo-palatal%20affricate.md)\]::![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg)
-23. \[[dʐ](voiced%20retroflex%20affricate.md)\]::![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg)
-24. \[[e](close-mid%20front%20unrounded%20vowel.md)\]::![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg)
-25. \[[ɘ](close-mid%20central%20unrounded%20vowel.md)\]::![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)
-26. \[[ə](mid%20central%20vowel.md)\]::![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg)
-27. \[[ɚ](r-colored%20vowel.md)\]::![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)
-28. \[[ɛ](open-mid%20front%20unrounded%20vowel.md)\]::![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg)
-29. \[[ɛ̃](nasal%20vowel.md)\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg)
-30. \[[ɜ](open-mid%20central%20unrounded%20vowel.md)\]::![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg)
-31. \[[ɝ](r-colored%20vowel.md)\]::![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)
-32. \[[f](voiceless%20labiodental%20fricative.md)\]::![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg)
-33. \[[ɡ](voiced%20velar%20plosive.md)\]::![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg)
-34. \[[ɠ](voiced%20velar%20implosive.md)\]::![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg)
-35. \[[ɢ](voiced%20uvular%20plosive.md)\]::![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga)
-36. \[[h](voiceless%20glottal%20fricative.md)\]::![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)
-37. \[[ɦ](voiced%20glottal%20fricative.md)\]::![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)
-38. \[[ʰ](aspirated%20consonant.md)\]::
-39. \[[ħ](voiceless%20pharyngeal%20fricative.md)\]::![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)
-40. \[[i](close%20front%20unrounded%20vowel.md)\]::![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)
-41. \[[ɪ](near-close%20near-front%20unrounded%20vowel.md)\]::![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)
-42. \[[ɨ](close%20central%20unrounded%20vowel.md)\]::![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)
-43. \[[j](voiced%20palatal%20approximant.md)\]::![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)
-44. \[[ʲ](palatalization%20(phonetics).md)\]::
-45. \[[ʝ](voiced%20palatal%20fricative.md)\]::![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)
-46. \[[ɟ](voiced%20palatal%20plosive.md)\]::![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)
-47. \[[ʄ](voiced%20palatal%20implosive.md)\]::![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)
-48. \[[k](voiceless%20velar%20plosive.md)\]::![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)
-49. \[[l](voiced%20alveolar%20lateral%20approximant.md)\]::![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg)
-50. \[[ɫ](velarized%20alveolar%20lateral%20approximant.md)\]::![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)
-51. \[[ɬ](voiceless%20alveolar%20lateral%20fricative.md)\]::![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)
-52. \[[ɭ](voiced%20retroflex%20lateral%20approximant.md)\]::![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)
-53. \[[ɺ](voiced%20alveolar%20lateral%20flap.md)\]::
-54. \[[ɮ](voiced%20alveolar%20lateral%20fricative.md)\]::![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)
-55. \[[ʟ](voiced%20velar%20lateral%20approximant.md)\]::![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)
-56. \[[m](voiced%20bilabial%20nasal.md)\]::![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)
-57. \[[ɱ](voiced%20labiodental%20nasal.md)\]::![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)
-58. \[[n](voiced%20alveolar%20nasal.md)\]::![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)
-59. \[[ŋ](voiced%20velar%20nasal.md)\]::![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)
-60. \[[ɲ](voiced%20palatal%20nasal.md)\]::![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)
-61. \[[ɳ](voiced%20retroflex%20nasal.md)\]::![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)
-62. \[[ɴ](voiced%20uvular%20nasal.md)\]::![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg)
-63. \[[o](close-mid%20back%20rounded%20vowel.md)\]::![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg)
-64. \[[ɔ](open-mid%20back%20rounded%20vowel.md)\]::![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)
-65. \[[ɔ̃](nasal%20vowel.md)\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)
-66. \[[ø](close-mid%20front%20rounded%20vowel.md)\]::![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg)
-67. \[[ɵ](close-mid%20central%20rounded%20vowel.md)\]::![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)
-68. \[[œ](open-mid%20front%20rounded%20vowel.md)\]::![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg)
-69. \[[œ̃](nasal%20vowel.md)\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)
-70. \[[ɶ](open%20front%20rounded%20vowel.md)\]::![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg)
-71. \[[p](voiceless%20bilabial%20plosive.md)\]::![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg)
-72. \[[q](voiceless%20uvular%20plosive.md)\]::![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)
-73. \[[r](voiced%20alveolar%20trill.md)\]::![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg)
-74. \[[ɾ](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md)\]::![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg)
-75. \[[ʀ](voiced%20uvular%20trill.md)\]::![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg)
-76. \[[ɽ](voiced%20retroflex%20flap.md)\]::![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg)
-77. \[[ɹ](voiced%20alveolar%20approximant.md)\]::![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg)
-78. \[[ɻ](voiced%20retroflex%20approximant.md)\]::![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga)
-79. \[[ʁ](voiced%20uvular%20fricative.md)\]::![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)
-80. \[[s](voiceless%20alveolar%20fricative.md)\]::![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)
-81. \[[ʃ](voiceless%20postalveolar%20fricative.md)\]::![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg)
-82. \[[ʂ](voiceless%20retroflex%20fricative.md)\]::![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg)
-83. \[[t](voiceless%20alveolar%20plosive.md)\]::![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg)
-84. \[[ʈ](voiceless%20retroflex%20plosive.md)\]::![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)
-85. \[[ts](voiceless%20alveolar%20affricate.md)\]::![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)
-86. \[[tʃ](voiceless%20postalveolar%20affricate.md)\]::![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg)
-87. \[[tɕ](voiceless%20alveolo-palatal%20affricate.md)\]::![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg)
-88. \[[tʂ](voiceless%20retroflex%20affricate.md)\]::![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg)
-89. \[[u](close%20back%20rounded%20vowel.md)\]::![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)
-90. \[[ʊ](near-close%20near-back%20rounded%20vowel.md)\]::![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)
-91. \[[ʉ](close%20central%20rounded%20vowel.md)\]::![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)
-92. \[[v](voiced%20labiodental%20fricative.md)\]::![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)
-93. \[[ʋ](voiced%20labiodental%20approximant.md)\]::![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)
-94. \[[w](voiced%20labial–velar%20approximant.md)\]::![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)
-95. \[[ʷ](labialization.md)\]::
-96. \[[ʍ](voiceless%20labial–velar%20fricative.md)\]::![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)
-97. \[[ɯ](close%20back%20unrounded%20vowel.md)\]::![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)
-98. \[[ɰ](voiced%20velar%20approximant.md)\]::![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)
-99. \[[x](voiceless%20velar%20fricative.md)\]::![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)
-100. \[[χ](voiceless%20uvular%20fricative.md)\]::![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)
-101. \[[y](close%20front%20rounded%20vowel.md)\]::![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)
-102. \[[ʏ](near-close%20near-front%20rounded%20vowel.md)\]::![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)
-103. \[[ɣ](voiced%20velar%20fricative.md)\]::![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)
-104. \[[ɤ](close-mid%20back%20unrounded%20vowel.md)\]::![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)
-105. \[[ʎ](voiced%20palatal%20lateral%20approximant.md)\]::![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)
-106. \[[ɥ](voiced%20labial–palatal%20approximant.md)\]::![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)
-107. \[[z](voiced%20alveolar%20fricative.md)\]::![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)
-108. \[[ʒ](voiced%20postalveolar%20fricative.md)\]::![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)
-109. \[[ʑ](voiced%20alveolo–palatal%20fricative.md)\]::![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)
-110. \[[ʐ](voiced%20retroflex%20fricative.md)\]::![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)
-111. \[[θ](voiceless%20dental%20fricative.md)\]::![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)
-112. \[[ɸ](voiceless%20bilabial%20fricative.md)\]::![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)
-113. \[[ʔ](glottal%20stop.md)\]::![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)
-114. \[[ʕ](voiced%20pharyngeal%20fricative.md)\]::![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)
-115. \[[ǀ](tenuis%20dental%20click.md)\]::![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)
-116. \[[ǁ](tenuis%20alveolar%20lateral%20click.md)\]::![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)
-117. \[[ǃ](tenuis%20alveolar%20click.md)\]::![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)
-118. \[[ʘ](tenuis%20bilabial%20click.md)\]::![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)
-119. \[[ǂ](tenuis%20palatal%20click.md)\]::![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)
+1. [open front unrounded vowel](open%20front%20unrounded%20vowel.md) \[a\]::![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)
+2. [open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\]::![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)
+3. [near-open central vowel](near-open%20central%20vowel.md) \[ɐ\]::![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)
+4. [open back unrounded vowel](open%20back%20unrounded%20vowel.md) \[ɑ\]::![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)
+5. [nasal vowel](nasal%20vowel.md) \[ɑ̃\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)
+6. [open back rounded vowel](open%20back%20rounded%20vowel.md) \[ɒ\]::![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg)
+7. [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md) \[ʌ\]::![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)
+8. [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md) \[æ\]::![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)
+9. [voiced bilabial plosive](voiced%20bilabial%20plosive.md) \[b\]::![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg)
+10. [voiced bilabial implosive](voiced%20bilabial%20implosive.md) \[ɓ\]::![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg)
+11. [voiced bilabial fricative](voiced%20bilabial%20fricative.md) \[β\]::![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg)
+12. [voiced bilabial trill](voiced%20bilabial%20trill.md) \[ʙ\]::![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg)
+13. [voiceless palatal plosive](voiceless%20palatal%20plosive.md) \[c\]::![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg)
+14. [voiceless palatal fricative](voiceless%20palatal%20fricative.md) \[ç\]::![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)
+15. [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) \[ɕ\]::![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)
+16. [voiced alveolar plosive](voiced%20alveolar%20plosive.md) \[d\]::![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg)
+17. [voiced alveolar implosive](voiced%20alveolar%20implosive.md) \[ɗ\]::![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg)
+18. [voiced retroflex plosive](voiced%20retroflex%20plosive.md) \[ɖ\]::![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga)
+19. [voiced dental fricative](voiced%20dental%20fricative.md) \[ð\]::![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg)
+20. [voiced alveolar affricate](voiced%20alveolar%20affricate.md) \[dz\]::![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)
+21. [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) \[dʒ\]::![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)
+22. [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) \[dʑ\]::![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg)
+23. [voiced retroflex affricate](voiced%20retroflex%20affricate.md) \[dʐ\]::![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg)
+24. [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md) \[e\]::![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg)
+25. [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) \[ɘ\]::![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)
+26. [mid central vowel](mid%20central%20vowel.md) \[ə\]::![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg)
+27. [r-colored vowel](r-colored%20vowel.md) \[ɚ\]::![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)
+28. [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md) \[ɛ\]::![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg)
+29. [nasal vowel](nasal%20vowel.md) \[ɛ̃\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg)
+30. [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md) \[ɜ\]::![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg)
+31. [r-colored vowel](r-colored%20vowel.md) \[ɝ\]::![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)
+32. [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md) \[f\]::![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg)
+33. [voiced velar plosive](voiced%20velar%20plosive.md) \[ɡ\]::![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg)
+34. [voiced velar implosive](voiced%20velar%20implosive.md) \[ɠ\]::![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg)
+35. [voiced uvular plosive](voiced%20uvular%20plosive.md) \[ɢ\]::![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga)
+36. [voiceless glottal fricative](voiceless%20glottal%20fricative.md) \[h\]::![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)
+37. [voiced glottal fricative](voiced%20glottal%20fricative.md) \[ɦ\]::![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)
+38. [aspirated consonant](aspirated%20consonant.md) \[ʰ\]::
+39. [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md) \[ħ\]::![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)
+40. [close front unrounded vowel](close%20front%20unrounded%20vowel.md) \[i\]::![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)
+41. [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md) \[ɪ\]::![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)
+42. [close central unrounded vowel](close%20central%20unrounded%20vowel.md) \[ɨ\]::![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)
+43. [voiced palatal approximant](voiced%20palatal%20approximant.md) \[j\]::![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)
+44. [palatalization](palatalization%20(phonetics).md) \[ʲ\]::
+45. [voiced palatal fricative](voiced%20palatal%20fricative.md) \[ʝ\]::![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)
+46. [voiced palatal plosive](voiced%20palatal%20plosive.md) \[ɟ\]::![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)
+47. [voiced palatal implosive](voiced%20palatal%20implosive.md) \[ʄ\]::![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)
+48. [voiceless velar plosive](voiceless%20velar%20plosive.md) \[k\]::![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)
+49. [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) \[l\]::![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg)
+50. [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) \[ɫ\]::![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)
+51. [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) \[ɬ\]::![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)
+52. [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) \[ɭ\]::![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)
+53. [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md) \[ɺ\]::
+54. [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) \[ɮ\]::![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)
+55. [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) \[ʟ\]::![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)
+56. [voiced bilabial nasal](voiced%20bilabial%20nasal.md) \[m\]::![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)
+57. [voiced labiodental nasal](voiced%20labiodental%20nasal.md) \[ɱ\]::![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)
+58. [voiced alveolar nasal](voiced%20alveolar%20nasal.md) \[n\]::![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)
+59. [voiced velar nasal](voiced%20velar%20nasal.md) \[ŋ\]::![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)
+60. [voiced palatal nasal](voiced%20palatal%20nasal.md) \[ɲ\]::![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)
+61. [voiced retroflex nasal](voiced%20retroflex%20nasal.md) \[ɳ\]::![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)
+62. [voiced uvular nasal](voiced%20uvular%20nasal.md) \[ɴ\]::![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg)
+63. [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md) \[o\]::![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg)
+64. [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md) \[ɔ\]::![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)
+65. [nasal vowel](nasal%20vowel.md) \[ɔ̃\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)
+66. [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) \[ø\]::![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg)
+67. [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) \[ɵ\]::![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)
+68. [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) \[œ\]::![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg)
+69. [nasal vowel](nasal%20vowel.md) \[œ̃\]::![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)
+70. [open front rounded vowel](open%20front%20rounded%20vowel.md) \[ɶ\]::![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg)
+71. [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) \[p\]::![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg)
+72. [voiceless uvular plosive](voiceless%20uvular%20plosive.md) \[q\]::![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)
+73. [voiced alveolar trill](voiced%20alveolar%20trill.md) \[r\]::![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg)
+74. [voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) \[ɾ\]::![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg)
+75. [voiced uvular trill](voiced%20uvular%20trill.md) \[ʀ\]::![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg)
+76. [voiced retroflex flap](voiced%20retroflex%20flap.md) \[ɽ\]::![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg)
+77. [voiced alveolar approximant](voiced%20alveolar%20approximant.md) \[ɹ\]::![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg)
+78. [voiced retroflex approximant](voiced%20retroflex%20approximant.md) \[ɻ\]::![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga)
+79. [voiced uvular fricative](voiced%20uvular%20fricative.md) \[ʁ\]::![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)
+80. [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) \[s\]::![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)
+81. [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) \[ʃ\]::![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg)
+82. [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md) \[ʂ\]::![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg)
+83. [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md) \[t\]::![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg)
+84. [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md) \[ʈ\]::![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)
+85. [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md) \[ts\]::![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)
+86. [voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md) \[tʃ\]::![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg)
+87. [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md) \[tɕ\]::![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg)
+88. [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md) \[tʂ\]::![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg)
+89. [close back rounded vowel](close%20back%20rounded%20vowel.md) \[u\]::![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)
+90. [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md) \[ʊ\]::![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)
+91. [close central rounded vowel](close%20central%20rounded%20vowel.md) \[ʉ\]::![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)
+92. [voiced labiodental fricative](voiced%20labiodental%20fricative.md) \[v\]::![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)
+93. [voiced labiodental approximant](voiced%20labiodental%20approximant.md) \[ʋ\]::![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)
+94. [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md) \[w\]::![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)
+95. [labialization](labialization.md) \[ʷ\]::
+96. [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md) \[ʍ\]::![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)
+97. [close back unrounded vowel](close%20back%20unrounded%20vowel.md) \[ɯ\]::![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)
+98. [voiced velar approximant](voiced%20velar%20approximant.md) \[ɰ\]::![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)
+99. [voiceless velar fricative](voiceless%20velar%20fricative.md) \[x\]::![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)
+100. [voiceless uvular fricative](voiceless%20uvular%20fricative.md) \[χ\]::![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)
+101. [close front rounded vowel](close%20front%20rounded%20vowel.md) \[y\]::![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)
+102. [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) \[ʏ\]::![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)
+103. [voiced velar fricative](voiced%20velar%20fricative.md) \[ɣ\]::![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)
+104. [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) \[ɤ\]::![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)
+105. [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) \[ʎ\]::![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)
+106. [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) \[ɥ\]::![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)
+107. [voiced alveolar fricative](voiced%20alveolar%20fricative.md) \[z\]::![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)
+108. [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) \[ʒ\]::![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)
+109. [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md) \[ʑ\]::![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)
+110. [voiced retroflex fricative](voiced%20retroflex%20fricative.md) \[ʐ\]::![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)
+111. [voiceless dental fricative](voiceless%20dental%20fricative.md) \[θ\]::![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)
+112. [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) \[ɸ\]::![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)
+113. [glottal stop](glottal%20stop.md) \[ʔ\]::![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)
+114. [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) \[ʕ\]::![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)
+115. [tenuis dental click](tenuis%20dental%20click.md) \[ǀ\]::![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)
+116. [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\]::![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)
+117. [tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\]::![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)
+118. [tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\]::![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)
+119. [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\]::![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9aa"--><!-- The following content is generated at 2023-06-17T09:42:49.399601+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9aa"--><!-- The following content is generated at 2023-06-17T10:25:03.564427+08:00. Any edits will be overridden! -->
 
-1. ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)::\[[a](open%20front%20unrounded%20vowel.md)\]
-2. ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)::\[[ä](open%20central%20unrounded%20vowel.md)\]
-3. ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)::\[[ɐ](near-open%20central%20vowel.md)\]
-4. ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)::\[[ɑ](open%20back%20unrounded%20vowel.md)\]
-5. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)::\[[ɑ̃](nasal%20vowel.md)\]
-6. ![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg)::\[[ɒ](open%20back%20rounded%20vowel.md)\]
-7. ![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)::\[[ʌ](open-mid%20back%20unrounded%20vowel.md)\]
-8. ![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)::\[[æ](near-open%20front%20unrounded%20vowel.md)\]
-9. ![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg)::\[[b](voiced%20bilabial%20plosive.md)\]
-10. ![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg)::\[[ɓ](voiced%20bilabial%20implosive.md)\]
-11. ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg)::\[[β](voiced%20bilabial%20fricative.md)\]
-12. ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg)::\[[ʙ](voiced%20bilabial%20trill.md)\]
-13. ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg)::\[[c](voiceless%20palatal%20plosive.md)\]
-14. ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)::\[[ç](voiceless%20palatal%20fricative.md)\]
-15. ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)::\[[ɕ](voiceless%20alveolo-palatal%20fricative.md)\]
-16. ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg)::\[[d](voiced%20alveolar%20plosive.md)\]
-17. ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg)::\[[ɗ](voiced%20alveolar%20implosive.md)\]
-18. ![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga)::\[[ɖ](voiced%20retroflex%20plosive.md)\]
-19. ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg)::\[[ð](voiced%20dental%20fricative.md)\]
-20. ![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)::\[[dz](voiced%20alveolar%20affricate.md)\]
-21. ![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)::\[[dʒ](voiced%20postalveolar%20affricate.md)\]
-22. ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg)::\[[dʑ](voiced%20alveolo-palatal%20affricate.md)\]
-23. ![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg)::\[[dʐ](voiced%20retroflex%20affricate.md)\]
-24. ![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg)::\[[e](close-mid%20front%20unrounded%20vowel.md)\]
-25. ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)::\[[ɘ](close-mid%20central%20unrounded%20vowel.md)\]
-26. ![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg)::\[[ə](mid%20central%20vowel.md)\]
-27. ![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)::\[[ɚ](r-colored%20vowel.md)\], \[[ɝ](r-colored%20vowel.md)\]
-28. ![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg)::\[[ɛ](open-mid%20front%20unrounded%20vowel.md)\]
-29. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg)::\[[ɛ̃](nasal%20vowel.md)\]
-30. ![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg)::\[[ɜ](open-mid%20central%20unrounded%20vowel.md)\]
-31. ![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg)::\[[f](voiceless%20labiodental%20fricative.md)\]
-32. ![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg)::\[[ɡ](voiced%20velar%20plosive.md)\]
-33. ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg)::\[[ɠ](voiced%20velar%20implosive.md)\]
-34. ![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga)::\[[ɢ](voiced%20uvular%20plosive.md)\]
-35. ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)::\[[h](voiceless%20glottal%20fricative.md)\]
-36. ![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)::\[[ɦ](voiced%20glottal%20fricative.md)\]
-37. ::\[[ʰ](aspirated%20consonant.md)\], \[[ʲ](palatalization%20(phonetics).md)\], \[[ɺ](voiced%20alveolar%20lateral%20flap.md)\], \[[ʷ](labialization.md)\]
-38. ![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)::\[[ħ](voiceless%20pharyngeal%20fricative.md)\]
-39. ![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)::\[[i](close%20front%20unrounded%20vowel.md)\]
-40. ![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)::\[[ɪ](near-close%20near-front%20unrounded%20vowel.md)\]
-41. ![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)::\[[ɨ](close%20central%20unrounded%20vowel.md)\]
-42. ![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)::\[[j](voiced%20palatal%20approximant.md)\]
-43. ![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)::\[[ʝ](voiced%20palatal%20fricative.md)\]
-44. ![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)::\[[ɟ](voiced%20palatal%20plosive.md)\]
-45. ![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)::\[[ʄ](voiced%20palatal%20implosive.md)\]
-46. ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)::\[[k](voiceless%20velar%20plosive.md)\]
-47. ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg)::\[[l](voiced%20alveolar%20lateral%20approximant.md)\]
-48. ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)::\[[ɫ](velarized%20alveolar%20lateral%20approximant.md)\]
-49. ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)::\[[ɬ](voiceless%20alveolar%20lateral%20fricative.md)\]
-50. ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)::\[[ɭ](voiced%20retroflex%20lateral%20approximant.md)\]
-51. ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)::\[[ɮ](voiced%20alveolar%20lateral%20fricative.md)\]
-52. ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)::\[[ʟ](voiced%20velar%20lateral%20approximant.md)\]
-53. ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)::\[[m](voiced%20bilabial%20nasal.md)\]
-54. ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)::\[[ɱ](voiced%20labiodental%20nasal.md)\]
-55. ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)::\[[n](voiced%20alveolar%20nasal.md)\]
-56. ![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)::\[[ŋ](voiced%20velar%20nasal.md)\]
-57. ![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)::\[[ɲ](voiced%20palatal%20nasal.md)\]
-58. ![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)::\[[ɳ](voiced%20retroflex%20nasal.md)\]
-59. ![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg)::\[[ɴ](voiced%20uvular%20nasal.md)\]
-60. ![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg)::\[[o](close-mid%20back%20rounded%20vowel.md)\]
-61. ![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)::\[[ɔ](open-mid%20back%20rounded%20vowel.md)\]
-62. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)::\[[ɔ̃](nasal%20vowel.md)\]
-63. ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg)::\[[ø](close-mid%20front%20rounded%20vowel.md)\]
-64. ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)::\[[ɵ](close-mid%20central%20rounded%20vowel.md)\]
-65. ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg)::\[[œ](open-mid%20front%20rounded%20vowel.md)\]
-66. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)::\[[œ̃](nasal%20vowel.md)\]
-67. ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg)::\[[ɶ](open%20front%20rounded%20vowel.md)\]
-68. ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg)::\[[p](voiceless%20bilabial%20plosive.md)\]
-69. ![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)::\[[q](voiceless%20uvular%20plosive.md)\]
-70. ![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg)::\[[r](voiced%20alveolar%20trill.md)\]
-71. ![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg)::\[[ɾ](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md)\]
-72. ![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg)::\[[ʀ](voiced%20uvular%20trill.md)\]
-73. ![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg)::\[[ɽ](voiced%20retroflex%20flap.md)\]
-74. ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg)::\[[ɹ](voiced%20alveolar%20approximant.md)\]
-75. ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga)::\[[ɻ](voiced%20retroflex%20approximant.md)\]
-76. ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)::\[[ʁ](voiced%20uvular%20fricative.md)\]
-77. ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)::\[[s](voiceless%20alveolar%20fricative.md)\]
-78. ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg)::\[[ʃ](voiceless%20postalveolar%20fricative.md)\]
-79. ![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg)::\[[ʂ](voiceless%20retroflex%20fricative.md)\]
-80. ![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg)::\[[t](voiceless%20alveolar%20plosive.md)\]
-81. ![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)::\[[ʈ](voiceless%20retroflex%20plosive.md)\]
-82. ![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)::\[[ts](voiceless%20alveolar%20affricate.md)\]
-83. ![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg)::\[[tʃ](voiceless%20postalveolar%20affricate.md)\]
-84. ![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg)::\[[tɕ](voiceless%20alveolo-palatal%20affricate.md)\]
-85. ![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg)::\[[tʂ](voiceless%20retroflex%20affricate.md)\]
-86. ![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)::\[[u](close%20back%20rounded%20vowel.md)\]
-87. ![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)::\[[ʊ](near-close%20near-back%20rounded%20vowel.md)\]
-88. ![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)::\[[ʉ](close%20central%20rounded%20vowel.md)\]
-89. ![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)::\[[v](voiced%20labiodental%20fricative.md)\]
-90. ![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)::\[[ʋ](voiced%20labiodental%20approximant.md)\]
-91. ![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)::\[[w](voiced%20labial–velar%20approximant.md)\]
-92. ![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)::\[[ʍ](voiceless%20labial–velar%20fricative.md)\]
-93. ![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)::\[[ɯ](close%20back%20unrounded%20vowel.md)\]
-94. ![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)::\[[ɰ](voiced%20velar%20approximant.md)\]
-95. ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)::\[[x](voiceless%20velar%20fricative.md)\]
-96. ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)::\[[χ](voiceless%20uvular%20fricative.md)\]
-97. ![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)::\[[y](close%20front%20rounded%20vowel.md)\]
-98. ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)::\[[ʏ](near-close%20near-front%20rounded%20vowel.md)\]
-99. ![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)::\[[ɣ](voiced%20velar%20fricative.md)\]
-100. ![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)::\[[ɤ](close-mid%20back%20unrounded%20vowel.md)\]
-101. ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)::\[[ʎ](voiced%20palatal%20lateral%20approximant.md)\]
-102. ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)::\[[ɥ](voiced%20labial–palatal%20approximant.md)\]
-103. ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)::\[[z](voiced%20alveolar%20fricative.md)\]
-104. ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)::\[[ʒ](voiced%20postalveolar%20fricative.md)\]
-105. ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)::\[[ʑ](voiced%20alveolo–palatal%20fricative.md)\]
-106. ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)::\[[ʐ](voiced%20retroflex%20fricative.md)\]
-107. ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)::\[[θ](voiceless%20dental%20fricative.md)\]
-108. ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)::\[[ɸ](voiceless%20bilabial%20fricative.md)\]
-109. ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)::\[[ʔ](glottal%20stop.md)\]
-110. ![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)::\[[ʕ](voiced%20pharyngeal%20fricative.md)\]
-111. ![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)::\[[ǀ](tenuis%20dental%20click.md)\]
-112. ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)::\[[ǁ](tenuis%20alveolar%20lateral%20click.md)\]
-113. ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)::\[[ǃ](tenuis%20alveolar%20click.md)\]
-114. ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)::\[[ʘ](tenuis%20bilabial%20click.md)\]
-115. ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)::\[[ǂ](tenuis%20palatal%20click.md)\]
+1. ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)::[open front unrounded vowel](open%20front%20unrounded%20vowel.md) \[a\]
+2. ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)::[open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\]
+3. ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)::[near-open central vowel](near-open%20central%20vowel.md) \[ɐ\]
+4. ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)::[open back unrounded vowel](open%20back%20unrounded%20vowel.md) \[ɑ\]
+5. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)::[nasal vowel](nasal%20vowel.md) \[ɑ̃\]
+6. ![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg)::[open back rounded vowel](open%20back%20rounded%20vowel.md) \[ɒ\]
+7. ![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg)::[open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md) \[ʌ\]
+8. ![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)::[near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md) \[æ\]
+9. ![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg)::[voiced bilabial plosive](voiced%20bilabial%20plosive.md) \[b\]
+10. ![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg)::[voiced bilabial implosive](voiced%20bilabial%20implosive.md) \[ɓ\]
+11. ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg)::[voiced bilabial fricative](voiced%20bilabial%20fricative.md) \[β\]
+12. ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg)::[voiced bilabial trill](voiced%20bilabial%20trill.md) \[ʙ\]
+13. ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg)::[voiceless palatal plosive](voiceless%20palatal%20plosive.md) \[c\]
+14. ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)::[voiceless palatal fricative](voiceless%20palatal%20fricative.md) \[ç\]
+15. ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)::[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) \[ɕ\]
+16. ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg)::[voiced alveolar plosive](voiced%20alveolar%20plosive.md) \[d\]
+17. ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg)::[voiced alveolar implosive](voiced%20alveolar%20implosive.md) \[ɗ\]
+18. ![voiced retroflex plosive](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20stop.oga)::[voiced retroflex plosive](voiced%20retroflex%20plosive.md) \[ɖ\]
+19. ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg)::[voiced dental fricative](voiced%20dental%20fricative.md) \[ð\]
+20. ![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)::[voiced alveolar affricate](voiced%20alveolar%20affricate.md) \[dz\]
+21. ![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)::[voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) \[dʒ\]
+22. ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg)::[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) \[dʑ\]
+23. ![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg)::[voiced retroflex affricate](voiced%20retroflex%20affricate.md) \[dʐ\]
+24. ![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg)::[close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md) \[e\]
+25. ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)::[close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) \[ɘ\]
+26. ![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg)::[mid central vowel](mid%20central%20vowel.md) \[ə\]
+27. ![r-colored vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg)::[r-colored vowel](r-colored%20vowel.md) \[ɚ\], [r-colored vowel](r-colored%20vowel.md) \[ɝ\]
+28. ![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg)::[open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md) \[ɛ\]
+29. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg)::[nasal vowel](nasal%20vowel.md) \[ɛ̃\]
+30. ![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg)::[open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md) \[ɜ\]
+31. ![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg)::[voiceless labiodental fricative](voiceless%20labiodental%20fricative.md) \[f\]
+32. ![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg)::[voiced velar plosive](voiced%20velar%20plosive.md) \[ɡ\]
+33. ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg)::[voiced velar implosive](voiced%20velar%20implosive.md) \[ɠ\]
+34. ![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.oga)::[voiced uvular plosive](voiced%20uvular%20plosive.md) \[ɢ\]
+35. ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg)::[voiceless glottal fricative](voiceless%20glottal%20fricative.md) \[h\]
+36. ![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg)::[voiced glottal fricative](voiced%20glottal%20fricative.md) \[ɦ\]
+37. ::[aspirated consonant](aspirated%20consonant.md) \[ʰ\], [palatalization](palatalization%20(phonetics).md) \[ʲ\], [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md) \[ɺ\], [labialization](labialization.md) \[ʷ\]
+38. ![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg)::[voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md) \[ħ\]
+39. ![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg)::[close front unrounded vowel](close%20front%20unrounded%20vowel.md) \[i\]
+40. ![near-close near-front unrounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20unrounded%20vowel.ogg)::[near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md) \[ɪ\]
+41. ![close central unrounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20unrounded%20vowel.ogg)::[close central unrounded vowel](close%20central%20unrounded%20vowel.md) \[ɨ\]
+42. ![voiced palatal approximant](../../archives/Wikimedia%20Commons/Palatal%20approximant.ogg)::[voiced palatal approximant](voiced%20palatal%20approximant.md) \[j\]
+43. ![voiced palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20palatal%20fricative.ogg)::[voiced palatal fricative](voiced%20palatal%20fricative.md) \[ʝ\]
+44. ![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)::[voiced palatal plosive](voiced%20palatal%20plosive.md) \[ɟ\]
+45. ![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)::[voiced palatal implosive](voiced%20palatal%20implosive.md) \[ʄ\]
+46. ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)::[voiceless velar plosive](voiceless%20velar%20plosive.md) \[k\]
+47. ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg)::[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) \[l\]
+48. ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg)::[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) \[ɫ\]
+49. ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg)::[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) \[ɬ\]
+50. ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)::[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) \[ɭ\]
+51. ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg)::[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) \[ɮ\]
+52. ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)::[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) \[ʟ\]
+53. ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)::[voiced bilabial nasal](voiced%20bilabial%20nasal.md) \[m\]
+54. ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)::[voiced labiodental nasal](voiced%20labiodental%20nasal.md) \[ɱ\]
+55. ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)::[voiced alveolar nasal](voiced%20alveolar%20nasal.md) \[n\]
+56. ![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)::[voiced velar nasal](voiced%20velar%20nasal.md) \[ŋ\]
+57. ![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)::[voiced palatal nasal](voiced%20palatal%20nasal.md) \[ɲ\]
+58. ![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)::[voiced retroflex nasal](voiced%20retroflex%20nasal.md) \[ɳ\]
+59. ![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg)::[voiced uvular nasal](voiced%20uvular%20nasal.md) \[ɴ\]
+60. ![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg)::[close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md) \[o\]
+61. ![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)::[open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md) \[ɔ\]
+62. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)::[nasal vowel](nasal%20vowel.md) \[ɔ̃\]
+63. ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg)::[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) \[ø\]
+64. ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)::[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) \[ɵ\]
+65. ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg)::[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) \[œ\]
+66. ![nasal vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)::[nasal vowel](nasal%20vowel.md) \[œ̃\]
+67. ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg)::[open front rounded vowel](open%20front%20rounded%20vowel.md) \[ɶ\]
+68. ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg)::[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) \[p\]
+69. ![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)::[voiceless uvular plosive](voiceless%20uvular%20plosive.md) \[q\]
+70. ![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg)::[voiced alveolar trill](voiced%20alveolar%20trill.md) \[r\]
+71. ![voiced dental and alveolar taps and flaps](../../archives/Wikimedia%20Commons/Alveolar%20tap.ogg)::[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) \[ɾ\]
+72. ![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg)::[voiced uvular trill](voiced%20uvular%20trill.md) \[ʀ\]
+73. ![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg)::[voiced retroflex flap](voiced%20retroflex%20flap.md) \[ɽ\]
+74. ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg)::[voiced alveolar approximant](voiced%20alveolar%20approximant.md) \[ɹ\]
+75. ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.oga)::[voiced retroflex approximant](voiced%20retroflex%20approximant.md) \[ɻ\]
+76. ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)::[voiced uvular fricative](voiced%20uvular%20fricative.md) \[ʁ\]
+77. ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)::[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) \[s\]
+78. ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg)::[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) \[ʃ\]
+79. ![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg)::[voiceless retroflex fricative](voiceless%20retroflex%20fricative.md) \[ʂ\]
+80. ![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg)::[voiceless alveolar plosive](voiceless%20alveolar%20plosive.md) \[t\]
+81. ![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)::[voiceless retroflex plosive](voiceless%20retroflex%20plosive.md) \[ʈ\]
+82. ![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)::[voiceless alveolar affricate](voiceless%20alveolar%20affricate.md) \[ts\]
+83. ![voiceless postalveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20affricate.ogg)::[voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md) \[tʃ\]
+84. ![voiceless alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20affricate.ogg)::[voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md) \[tɕ\]
+85. ![voiceless retroflex affricate](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20affricate.ogg)::[voiceless retroflex affricate](voiceless%20retroflex%20affricate.md) \[tʂ\]
+86. ![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)::[close back rounded vowel](close%20back%20rounded%20vowel.md) \[u\]
+87. ![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)::[near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md) \[ʊ\]
+88. ![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)::[close central rounded vowel](close%20central%20rounded%20vowel.md) \[ʉ\]
+89. ![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)::[voiced labiodental fricative](voiced%20labiodental%20fricative.md) \[v\]
+90. ![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)::[voiced labiodental approximant](voiced%20labiodental%20approximant.md) \[ʋ\]
+91. ![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)::[voiced labial–velar approximant](voiced%20labial–velar%20approximant.md) \[w\]
+92. ![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)::[voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md) \[ʍ\]
+93. ![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)::[close back unrounded vowel](close%20back%20unrounded%20vowel.md) \[ɯ\]
+94. ![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)::[voiced velar approximant](voiced%20velar%20approximant.md) \[ɰ\]
+95. ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)::[voiceless velar fricative](voiceless%20velar%20fricative.md) \[x\]
+96. ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)::[voiceless uvular fricative](voiceless%20uvular%20fricative.md) \[χ\]
+97. ![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)::[close front rounded vowel](close%20front%20rounded%20vowel.md) \[y\]
+98. ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)::[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) \[ʏ\]
+99. ![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg)::[voiced velar fricative](voiced%20velar%20fricative.md) \[ɣ\]
+100. ![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)::[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) \[ɤ\]
+101. ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)::[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) \[ʎ\]
+102. ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)::[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) \[ɥ\]
+103. ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)::[voiced alveolar fricative](voiced%20alveolar%20fricative.md) \[z\]
+104. ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)::[voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) \[ʒ\]
+105. ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)::[voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md) \[ʑ\]
+106. ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)::[voiced retroflex fricative](voiced%20retroflex%20fricative.md) \[ʐ\]
+107. ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)::[voiceless dental fricative](voiceless%20dental%20fricative.md) \[θ\]
+108. ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)::[voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) \[ɸ\]
+109. ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)::[glottal stop](glottal%20stop.md) \[ʔ\]
+110. ![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)::[voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) \[ʕ\]
+111. ![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)::[tenuis dental click](tenuis%20dental%20click.md) \[ǀ\]
+112. ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)::[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\]
+113. ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)::[tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\]
+114. ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)::[tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\]
+115. ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)::[tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\]
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -574,23 +574,23 @@ Here is a list of common IPA letters and their pronunciations:
 
 Here is a list of common IPA diacritics and their descriptions:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="485d"--><!-- The following content is generated at 2023-06-16T15:46:31.735258+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="485d"--><!-- The following content is generated at 2023-06-17T10:26:00.891761+08:00. Any edits will be overridden! -->
 
 > | symbol | description |
 > |-|-|
-> | {{[\[◌̃\]](nasal%20vowel.md) (e.g. [ã])}} | {{[French](French%20language.md) _vi**n** bla**n**c_ \[vɛ̃ blɑ̃\] "white wine"}} |
-> | {{[\[◌̈\]](central%20vowel.md) (e.g. [ä])}} | {{[Portuguese](Protuguese%20language.md) _v**á**_ \[vä\] "go"}} |
-> | {{[\[◌̆\]](extra-shortness.md) (e.g. [ă])}} | {{[English](English%20language.md) _p**o**lice_ \[pə̆ˈliˑs\]}} |
-> | {{[\[◌̯\]](diphthong.md) (e.g. [a̯])}} | {{[English](English%20language.md) _co**w**_ \[kʰaʊ̯\]}} |
-> | {{[\[◌̥\]](voicelessness.md) (e.g. [n̥])}} | {{[English](English%20language.md) _**d**oe_ \[d̥oʊ̯\]}} |
-> | {{[\[◌̩\], \[◌̍\]](syllabic%20consonant.md) (e.g. [n̩], [ŋ̍])}} | {{[English](English%20language.md) _butt**on**_ \[ˈbʌʔn̩\]}} |
-> | {{[\[◌̪\]](dental%20consonant.md) (e.g. [d̪])}} | {{[Spanish](Spanish%20language.md) _**d**os_ \[ˈd̪os\] "two"}} |
-> | {{[\[◌ʰ\]](aspirated%20consonant.md) (e.g. [kʰ])}} | {{[English](English%20language.md) _**c**ome_ \[kʰɐm\]}} |
-> | {{[\[◌’\]](ejective%20consonant.md) (e.g. [k’])}} | {{[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"}} |
-> | {{[\[◌ː\]](longness%20(phonetics).md) (e.g. [aː])}} | {{[English](English%20language.md) _shh!_ \[ʃː\]}} |
-> | {{[\[◌ˑ\]](half-longness%20(phonetics).md) (e.g. [aˑ])}} | {{[English](English%20language.md) _caught_ \[ˈkʰɔˑt\]}} |
-> | {{[\[ˈ◌\]](stress%20(lingustics).md) (e.g. [ˈa])}} | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
-> | {{[\[ˌ◌\]](secondary%20stress.md) (e.g. [ˌa])}} | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
-> | {{[\[.\]](syllable.md)}} | {{[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]}} |
+> | {{[nasalized](nasal%20vowel.md) \[◌̃\] (e.g. [ã])}} | {{[French](French%20language.md) _vi**n** bla**n**c_ \[vɛ̃ blɑ̃\] "white wine"}} |
+> | {{[centralized](central%20vowel.md) \[◌̈\] (e.g. [ä])}} | {{[Portuguese](Protuguese%20language.md) _v**á**_ \[vä\] "go"}} |
+> | {{[extra-short](extra-shortness.md) \[◌̆\] (e.g. [ă])}} | {{[English](English%20language.md) _p**o**lice_ \[pə̆ˈliˑs\]}} |
+> | {{[non-syllabic](diphthong.md) \[◌̯\] (e.g. [a̯])}} | {{[English](English%20language.md) _co**w**_ \[kʰaʊ̯\]}} |
+> | {{[voiceless](voicelessness.md) \[◌̥\] (e.g. [n̥])}} | {{[English](English%20language.md) _**d**oe_ \[d̥oʊ̯\]}} |
+> | {{[syllabic](syllabic%20consonant.md) \[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍])}} | {{[English](English%20language.md) _butt**on**_ \[ˈbʌʔn̩\]}} |
+> | {{[dental/alveolar](dental%20consonant.md) \[◌̪\] (e.g. [d̪])}} | {{[Spanish](Spanish%20language.md) _**d**os_ \[ˈd̪os\] "two"}} |
+> | {{[aspirated](aspirated%20consonant.md) \[◌ʰ\] (e.g. [kʰ])}} | {{[English](English%20language.md) _**c**ome_ \[kʰɐm\]}} |
+> | {{[ejective](ejective%20consonant.md) \[◌’\] (e.g. [k’])}} | {{[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come"}} |
+> | {{[long](longness%20(phonetics).md) \[◌ː\] (e.g. [aː])}} | {{[English](English%20language.md) _shh!_ \[ʃː\]}} |
+> | {{[half-long](half-longness%20(phonetics).md) \[◌ˑ\] (e.g. [aˑ])}} | {{[English](English%20language.md) _caught_ \[ˈkʰɔˑt\]}} |
+> | {{[primary stress](stress%20(lingustics).md) \[ˈ◌\] (e.g. [ˈa])}} | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
+> | {{[secondary stress](secondary%20stress.md) \[ˌ◌\] (e.g. [ˌa])}} | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
+> | {{[syllable break](syllable.md) \[.\]}} | {{[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
