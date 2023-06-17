@@ -7,6 +7,7 @@
   "textFontFamily": "Courier New,Courier,Arial",
   "monospaceFontFamily": "Consolas,Arial",
   "enabledCssSnippets": [
+    "increase audio min width",
     "white content image background"
   ],
   "nativeMenus": false
