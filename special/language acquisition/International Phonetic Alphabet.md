@@ -135,7 +135,7 @@ letters = (
 	(R'\[[ɥ](voiced%20labial–palatal%20approximant.md)\]', '![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)', R'[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm"',),
 	(R'\[[z](voiced%20alveolar%20fricative.md)\]', '![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)', '[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\]',),
 	(R'\[[ʒ](voiced%20postalveolar%20fricative.md)\]', '![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)', R'[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\]',),
-	(R'\[[ʑ](voiced%20alveolo-palatal%20fricative.md)\]', '![voiced alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)', R'[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"',),
+	(R'\[[ʑ](voiced%20alveolo–palatal%20fricative.md)\]', '![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)', R'[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"',),
 	(R'\[[ʐ](voiced%20retroflex%20fricative.md)\]', '![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)', R'[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife"',),
 	(R'\[[θ](voiceless%20dental%20fricative.md)\]', '![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)', R'[English](English%20language.md) _**th**in_ \[θɪn\]',),
 	(R'\[[ɸ](voiceless%20bilabial%20fricative.md)\]', '![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)', R'[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay"',),
@@ -200,7 +200,7 @@ Different brackets used to enclose IPA transcriptions have different meanings:
 
 Here is a list of common IPA letters and their pronunciations:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-17T08:20:24.915885+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-17T09:42:49.424824+08:00. Any edits will be overridden! -->
 
 > | symbol | audio | description |
 > |-|-|-|
@@ -312,7 +312,7 @@ Here is a list of common IPA letters and their pronunciations:
 > | \[[ɥ](voiced%20labial–palatal%20approximant.md)\] | ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav) | {{[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm"}} |
 > | \[[z](voiced%20alveolar%20fricative.md)\] | ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg) | {{[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\]}} |
 > | \[[ʒ](voiced%20postalveolar%20fricative.md)\] | ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg) | {{[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\]}} |
-> | \[[ʑ](voiced%20alveolo-palatal%20fricative.md)\] | ![voiced alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg) | {{[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"}} |
+> | \[[ʑ](voiced%20alveolo–palatal%20fricative.md)\] | ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg) | {{[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire"}} |
 > | \[[ʐ](voiced%20retroflex%20fricative.md)\] | ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg) | {{[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife"}} |
 > | \[[θ](voiceless%20dental%20fricative.md)\] | ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg) | {{[English](English%20language.md) _**th**in_ \[θɪn\]}} |
 > | \[[ɸ](voiceless%20bilabial%20fricative.md)\] | ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg) | {{[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay"}} |
@@ -326,7 +326,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dfb"--><!-- The following content is generated at 2023-06-16T21:12:20.162486+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dfb"--><!-- The following content is generated at 2023-06-17T09:42:49.372985+08:00. Any edits will be overridden! -->
 
 1. \[[a](open%20front%20unrounded%20vowel.md)\]::![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)
 2. \[[ä](open%20central%20unrounded%20vowel.md)\]::![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)
@@ -436,7 +436,7 @@ Here is a list of common IPA letters and their pronunciations:
 106. \[[ɥ](voiced%20labial–palatal%20approximant.md)\]::![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)
 107. \[[z](voiced%20alveolar%20fricative.md)\]::![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)
 108. \[[ʒ](voiced%20postalveolar%20fricative.md)\]::![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)
-109. \[[ʑ](voiced%20alveolo-palatal%20fricative.md)\]::![voiced alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)
+109. \[[ʑ](voiced%20alveolo–palatal%20fricative.md)\]::![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)
 110. \[[ʐ](voiced%20retroflex%20fricative.md)\]::![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)
 111. \[[θ](voiceless%20dental%20fricative.md)\]::![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)
 112. \[[ɸ](voiceless%20bilabial%20fricative.md)\]::![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)
@@ -450,7 +450,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9aa"--><!-- The following content is generated at 2023-06-16T21:12:20.183472+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9aa"--><!-- The following content is generated at 2023-06-17T09:42:49.399601+08:00. Any edits will be overridden! -->
 
 1. ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)::\[[a](open%20front%20unrounded%20vowel.md)\]
 2. ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)::\[[ä](open%20central%20unrounded%20vowel.md)\]
@@ -556,7 +556,7 @@ Here is a list of common IPA letters and their pronunciations:
 102. ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)::\[[ɥ](voiced%20labial–palatal%20approximant.md)\]
 103. ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)::\[[z](voiced%20alveolar%20fricative.md)\]
 104. ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)::\[[ʒ](voiced%20postalveolar%20fricative.md)\]
-105. ![voiced alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)::\[[ʑ](voiced%20alveolo-palatal%20fricative.md)\]
+105. ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)::\[[ʑ](voiced%20alveolo–palatal%20fricative.md)\]
 106. ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)::\[[ʐ](voiced%20retroflex%20fricative.md)\]
 107. ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)::\[[θ](voiceless%20dental%20fricative.md)\]
 108. ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)::\[[ɸ](voiceless%20bilabial%20fricative.md)\]
