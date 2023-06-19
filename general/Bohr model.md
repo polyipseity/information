@@ -16,9 +16,9 @@ tags:
 
 # Bohr model
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2023-06-15,68,250!2023-10-14,225,310!2023-07-05,75,170!2023-07-06,140,290!2023-11-23,183,232!2023-11-07,249,332!2023-09-17,110,192-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2024-03-10,265,270!2023-10-14,225,310!2023-07-05,75,170!2023-07-06,140,290!2023-11-23,183,232!2023-11-07,249,332!2023-09-17,110,192-->
 
-The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-11-02,144,290!2023-06-18,48,252-->
+The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-11-02,144,290!2023-10-23,126,252-->
 
 ## postulates
 
@@ -26,7 +26,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {{certain orbits only with certain distances from the nucleus called stationary orbits}} {{without radiating energy}}. ^23e80f
 2. The stationary orbits have distances {{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e}vr=n\hbar$}}, where {{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}}. The orbits have definite energies called {{[energy levels](energy%20level.md), energy shells, or energy states}}. ^f5a73f
-3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-07-29,53,210!2023-07-06,53,250!2023-06-15,43,210!2023-07-05,134,270!2023-07-03,132,270!2023-09-04,129,232!2023-09-20,211,312!2023-06-18,115,252!2024-03-24,361,332-->
+3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-07-29,53,210!2023-07-06,53,250!2023-09-22,95,210!2023-07-05,134,270!2023-07-03,132,270!2023-09-04,129,232!2023-09-20,211,312!2024-08-02,410,272!2024-03-24,361,332-->
 
 ## electron energy levels
 
@@ -39,7 +39,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-09-07,183,294!2023-09-30,198,294!2023-06-16,24,234!2023-07-04,133,294!2024-07-30,420,294!2023-07-17,80,254!2023-11-01,203,274!2023-06-14,17,154!2023-07-30,140,274-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-09-07,183,294!2023-09-30,198,294!2023-08-22,64,234!2023-07-04,133,294!2024-07-30,420,294!2023-07-17,80,254!2023-11-01,203,274!2023-07-23,34,154!2023-07-30,140,274-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-12-25,240,279!2023-07-28,162,299-->
 
@@ -90,7 +90,7 @@ The Bohr model fails to explain:
 1. _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2023-07-13,37,284!2023-10-08,119,324-->
 2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2023-08-03,65,304!2023-08-04,66,304-->
 3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-06-25,33,264!2023-08-04,54,264-->
-4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-06-22,30,264!2023-06-16,27,264-->
+4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-06-22,30,264!2023-09-04,77,264-->
 5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2023-10-09,120,324!2023-09-21,106,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

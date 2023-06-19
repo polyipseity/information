@@ -69,14 +69,14 @@ return await memorize_table(
 > | {{[cathodic protection](#cathodic%20protection)}} |  |
 > | {{[coating and painting](#coating%20and%20painting)}} |  |
 > | {{[electroplating](#electroplating)}} |  |
-> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-10-16,137,290!2023-06-18,58,310!2023-06-26,64,310!2023-08-11,79,270-->
+> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-10-16,137,290!2024-02-17,243,330!2023-06-26,64,310!2023-08-11,79,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-06-29,67,310!2023-06-21,60,310-->
-2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-08-09,93,290!2023-06-19,59,310-->
+2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-08-09,93,290!2023-07-23,34,290-->
 3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-06-22,61,310!2023-06-27,65,310-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-01-07,210,310!2023-07-06,73,310-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-06-28,65,310!2023-07-05,72,310-->
@@ -91,9 +91,9 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 ### coating and painting
 
-Coating and painting {{isolate iron from the environment}}. <!--SR:!2023-06-16,56,310-->
+Coating and painting {{isolate iron from the environment}}. <!--SR:!2024-02-18,244,330-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-06-24,27,230!2023-11-25,179,310!2023-06-25,64,310!2023-06-18,33,230!2023-11-15,171,310!2023-07-07,67,270-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-06-24,27,230!2023-11-25,179,310!2023-06-25,64,310!2023-09-08,81,230!2023-11-15,171,310!2023-07-07,67,270-->
 
 ### electroplating
 

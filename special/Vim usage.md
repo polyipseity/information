@@ -68,7 +68,7 @@ See also [Vim help files](https://vimhelp.org/).
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2024-01-13,249,313!2023-10-17,183,307-->
 
 ## search and substitute
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2023-06-18,98,273-->
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2024-03-24,279,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-08-02,90,230!2023-10-18,184,308-->
 - repeat last search:::n <!--SR:!2024-01-29,260,313!2023-10-11,180,308-->
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->

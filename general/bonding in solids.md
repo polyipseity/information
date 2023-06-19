@@ -20,7 +20,7 @@ tags:
 
 ### molecular solid
 
-A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-09-26,106,230!2023-06-15,61,310-->
+A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}. <!--SR:!2023-09-26,106,230!2024-03-26,281,330-->
 
 #### properties
 
@@ -48,7 +48,7 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-10-19,141,290!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-11-01,147,270!2023-06-16,62,310-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-10-19,141,290!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-11-01,147,270!2024-03-22,277,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -90,7 +90,7 @@ return await memorize_table(
 
 ### ionic solid
 
-A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-06-15,23,250-->
+A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-08-25,67,250-->
 
 #### properties
 
@@ -120,7 +120,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-07-08,53,250!2024-02-04,243,330!2023-11-29,187,310!2023-09-23,118,290!2023-10-01,128,290!2023-06-17,63,310!2023-08-02,52,230!2023-12-09,193,310-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2023-07-08,53,250!2024-02-04,243,330!2023-11-29,187,310!2023-09-23,118,290!2023-10-01,128,290!2024-03-21,276,330!2023-08-02,52,230!2023-12-09,193,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

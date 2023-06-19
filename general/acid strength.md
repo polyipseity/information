@@ -11,4 +11,4 @@ tags:
 
 # acid strength
 
-__Acid strength__ is {{the tendency of an [acid](acid.md) to [dissociate](dissociation%20(chemistry).md)}}. Strong acids {{dissociate effectively completely in [solutions](solution%20(chemistry).md)}}. Weak acids {{dissociates partially in solutions}}. <!--SR:!2023-09-13,126,310!2023-06-18,64,310!2024-03-04,265,330-->
+__Acid strength__ is {{the tendency of an [acid](acid.md) to [dissociate](dissociation%20(chemistry).md)}}. Strong acids {{dissociate effectively completely in [solutions](solution%20(chemistry).md)}}. Weak acids {{dissociates partially in solutions}}. <!--SR:!2023-09-13,126,310!2024-03-21,276,330!2024-03-04,265,330-->

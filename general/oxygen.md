@@ -44,7 +44,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aaee9e"--><!-- The following content is generated at 2023-03-14T22:39:01.204551+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←breathing <!--SR:!2023-11-01,161,310!2023-06-15,56,310-->
+1. _(begin)_→:::←breathing <!--SR:!2023-11-01,161,310!2024-02-21,247,330-->
 2. breathing→:::←burning of fuels <!--SR:!2023-09-17,122,290!2023-12-30,206,310-->
 3. burning of fuels→:::←medical use <!--SR:!2023-06-21,61,310!2023-09-23,126,290-->
 4. medical use→:::←_(end)_ <!--SR:!2023-07-05,73,310!2024-01-27,230,330-->
