@@ -53,17 +53,17 @@ return await memorize_table(
 > | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}} |  |
 > | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}} |  |
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-06-24,64,310!2023-11-17,173,310!2023-12-31,203,310!2023-06-28,67,310!2023-06-18,60,310!2024-01-12,215,310!2023-06-26,66,310!2023-06-17,59,310!2023-06-28,68,310!2023-12-17,194,310!2023-06-27,67,310!2023-06-22,63,310!2023-12-07,184,310!2023-11-18,172,310!2023-06-20,61,310!2023-11-14,154,290!2023-06-25,65,310!2023-07-01,64,290-->
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2023-06-24,64,310!2023-11-17,173,310!2023-12-31,203,310!2023-06-28,67,310!2024-03-13,268,330!2024-01-12,215,310!2023-06-26,66,310!2024-03-11,266,330!2023-06-28,68,310!2023-12-17,194,310!2023-06-27,67,310!2023-06-22,63,310!2023-12-07,184,310!2023-11-18,172,310!2023-06-20,61,310!2023-11-14,154,290!2023-06-25,65,310!2023-07-01,64,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2023-03-15T19:16:17.252430+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2023-06-15,57,310!2023-06-23,64,310-->
-2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2023-08-01,70,250!2023-06-16,58,310-->
-3. GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2023-06-14,56,310!2024-02-11,243,330-->
+1. _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2024-03-12,267,330!2023-06-23,64,310-->
+2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2023-08-01,70,250!2024-03-16,271,330-->
+3. GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2024-03-15,270,330!2024-02-11,243,330-->
 4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2023-08-30,99,270!2023-09-01,101,270-->
-5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2023-07-16,67,270!2023-06-14,53,290-->
+5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2023-07-16,67,270!2024-02-12,238,310-->
 6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2023-10-27,154,290!2023-08-31,100,270-->
 7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2024-01-07,214,310!2023-07-11,29,270-->
 8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2023-06-21,62,310!2023-09-11,108,270-->

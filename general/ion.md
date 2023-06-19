@@ -349,7 +349,7 @@ return chain.from_iterable(await gather(
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
-22. scandium(III) ion::colorless <!--SR:!2023-06-18,51,322-->
+22. scandium(III) ion::colorless <!--SR:!2023-12-07,171,322-->
 23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-06-21,32,230-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-07-30,75,282-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-07-28,46,262-->
@@ -414,7 +414,7 @@ return chain.from_iterable(await gather(
 4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2025-02-23,814,294-->
 5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2026-11-16,1294,313-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2026-01-30,1090,354-->
-7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2023-06-15,349,294-->
+7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2027-05-30,1441,314-->
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2023-08-21,215,239!2026-11-11,1286,310-->
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2023-12-08,473,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2027-04-29,1416,314-->
@@ -498,6 +498,6 @@ return chain.from_iterable(await gather(
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-06-27,63,341-->
 2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-06-24,61,341-->
 3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-07-07,72,341-->
-4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-06-19,20,282-->
+4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-08-18,60,282-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -42,15 +42,15 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{catalytic cracking}} | {{Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
-> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2024-01-25,232,330!2023-09-04,90,230!2023-06-17,63,310!2023-07-30,81,270-->
+> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2024-01-25,232,330!2023-09-04,90,230!2024-03-15,270,330!2023-07-30,81,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="395a"--><!-- The following content is generated at 2023-03-25T13:43:14.290201+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←catalytic cracking <!--SR:!2023-06-29,73,310!2023-06-25,69,310-->
-2. catalytic cracking→:::←thermal cracking <!--SR:!2023-06-16,62,310!2023-06-26,70,310-->
-3. thermal cracking→:::←_(end)_ <!--SR:!2023-06-24,68,310!2023-06-18,64,310-->
+2. catalytic cracking→:::←thermal cracking <!--SR:!2024-03-16,271,330!2023-06-26,70,310-->
+3. thermal cracking→:::←_(end)_ <!--SR:!2023-06-24,68,310!2024-04-01,287,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

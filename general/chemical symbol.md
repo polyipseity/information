@@ -21,4 +21,4 @@ __Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20su
 - {{The [mass number](mass%20number.md)}} is shown in {{the left superscript position}}. This specifies {{the [isotope](isotope.md)}}.
 - {{The [atomic number](atomic%20number.md)}} may be shown in {{the left subscript position}}.
 - {{The state of [ionization](ionization.md) or an [excited state](excited%20state.md)}} may be shown in {{the right superscript position}}.
-- {{The number of atoms}} may be shown in {{the right subscript position}}. It is implicitly {{one}} if omitted. <!--SR:!2023-07-19,76,270!2023-08-29,114,290!2023-06-29,73,310!2023-06-25,69,310!2023-06-24,68,310!2023-12-08,180,310!2023-06-26,70,310!2023-06-15,61,310!2023-06-16,62,310!2024-02-19,252,330-->
+- {{The number of atoms}} may be shown in {{the right subscript position}}. It is implicitly {{one}} if omitted. <!--SR:!2023-07-19,76,270!2023-08-29,114,290!2023-06-29,73,310!2023-06-25,69,310!2023-06-24,68,310!2023-12-08,180,310!2023-06-26,70,310!2024-03-29,284,330!2024-03-19,274,330!2024-02-19,252,330-->

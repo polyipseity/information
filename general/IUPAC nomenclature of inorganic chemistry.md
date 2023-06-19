@@ -55,7 +55,7 @@ return await memorize_seq(
 3. [Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).→:::←[Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge. <!--SR:!2023-07-10,64,257!2023-07-03,71,317-->
 4. [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used. <!--SR:!2023-07-15,67,257!2023-09-21,107,257-->
 5. [Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.→:::←"[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate". <!--SR:!2023-06-29,68,317!2023-11-05,147,297-->
-6. "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_ <!--SR:!2023-07-01,70,317!2023-06-19,60,317-->
+6. "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_ <!--SR:!2023-07-01,70,317!2023-12-26,190,317-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -97,7 +97,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394d"--><!-- The following content is generated at 2023-03-20T16:11:54.346649+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←lowest <!--SR:!2023-11-23,175,317!2023-07-01,69,317-->
-2. lowest→:::←highest <!--SR:!2023-06-27,66,317!2023-06-15,57,317-->
+2. lowest→:::←highest <!--SR:!2023-06-27,66,317!2024-03-17,272,337-->
 3. highest→:::←_(end)_ <!--SR:!2023-06-21,61,310!2023-06-28,67,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

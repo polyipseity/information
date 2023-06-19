@@ -49,7 +49,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2023-07-11,72,310!2023-07-12,73,310-->
 2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2023-07-09,70,310!2023-07-10,71,310-->
-3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-06-18,19,250!2023-07-10,71,310-->
+3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2023-08-09,51,250!2023-07-10,71,310-->
 4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2023-07-11,72,310!2023-10-11,133,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -172,6 +172,6 @@ return chain.from_iterable(await gather(
 > | sine ± sine | {{$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$}} |
 > | cosine + cosine | {{$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$}} |
 > | cosine - cosine | {{$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$}} |
-> | tangent ± tangent | {{$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$}} | <!--SR:!2023-06-16,41,230!2023-07-18,63,250!2023-06-16,41,230!2023-07-10,34,170-->
+> | tangent ± tangent | {{$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$}} | <!--SR:!2023-11-10,144,250!2023-07-18,63,250!2023-07-13,24,210!2023-07-10,34,170-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

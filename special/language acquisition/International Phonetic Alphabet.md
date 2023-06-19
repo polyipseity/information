@@ -1,7 +1,7 @@
 ---
 tags:
   - categories/language_acquisition
-  - flashcards/a/special/language_acquisition/International_Phonetic_Alphabet
+  - flashcards/special/language_acquisition/International_Phonetic_Alphabet
 ---
 
 %%
@@ -233,9 +233,9 @@ return chain.from_iterable(await gather(
 	- [place of articulation](place%20of%20articulation.md):::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2023-06-22,4,284-->
 		- [alveolar](alveolar%20ridge.md):::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive)
 		- [aryepiglottal](pharyngeal%20consonant.md):::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2023-06-22,4,293-->
-		- [coronal](coronal%20constant.md):::front of the [tongue](tongue.md) (active) <!--SR:!2023-06-19,1,253-->
+		- [coronal](coronal%20constant.md):::front of the [tongue](tongue.md) (active) <!--SR:!2023-06-23,4,273-->
 			- [apical](apical%20consonant.md):::tip of the [tongue](tongue.md) (active) <!--SR:!2023-06-22,4,284-->
-			- [laminal](laminal%20consonant.md):::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2023-06-19,1,253-->
+			- [laminal](laminal%20consonant.md):::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2023-06-22,3,253-->
 			- [subapical](subapical%20consonant.md):::surface under the tip of the [tongue](tongue.md) (active) <!--SR:!2023-06-22,4,284!2023-06-22,4,293-->
 		- [dental](dental%20consonant.md):::upper [teeth](tooth.md) (passive) <!--SR:!2023-06-22,4,293-->
 		- [dorsal](dorsal%20consonant.md):::body of the [tongue](tongue.md) (active) <!--SR:!2023-06-22,4,293!2023-06-22,4,293-->
@@ -251,7 +251,7 @@ return chain.from_iterable(await gather(
 		- [voiced](voice%20(phonetics).md):::the [vocal cords](vocal%20cords.md) vibrate fully <!--SR:!2023-06-22,4,284-->
 		- [voiceless](voicelessness.md):::the [vocal cords](vocal%20cords.md) do not vibrate <!--SR:!2023-06-22,4,293!2023-06-22,4,293-->
 	- [voice onset time](voice%20onset%20time.md) (VOT):::timing of the [phonation](phonation.md) <!--SR:!2023-06-22,4,293-->
-		- values in ascending [VOT](voice%20onset%20time.md)::[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive) <!--SR:!2023-06-19,1,244-->
+		- values in ascending [VOT](voice%20onset%20time.md)::[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive) <!--SR:!2023-06-22,3,264-->
 - [vowel](vowel.md):::[phone](phone%20(phonetics).md) articulated without any stricture in the [vocal tract](vocal%20tract.md)
 	- [vowel backness](vowel.md#backness):::position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md) <!--SR:!2023-06-21,3,264-->
 		- values in ascending [vowel backness](vowel.md#backness)::[front](front%20vowel.md), [near-front](near-front%20vowel.md), [central](central%20vowel.md), [near-back](near-back%20vowel.md), [back](back%20vowel.md) <!--SR:!2023-06-22,4,284-->
@@ -399,7 +399,7 @@ Here is a list of common IPA letters and their pronunciations:
 > | [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\] | ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) | {{[English](English%20language.md) _**tchick**_ \[ˈǁ\]}} |
 > | [tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\] | ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) | {{[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"}} |
 > | [tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\] | ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) | {{[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"}} |
-> | [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} | <!--SR:!2023-06-22,4,270!2023-06-21,3,250!2023-06-21,3,264!2023-06-21,3,264!2023-06-22,4,284!2023-06-22,4,284!2023-06-21,3,264!2023-06-21,3,264!2023-06-22,4,284!2023-06-21,3,264!2023-06-21,3,264!2023-06-21,3,264!2023-06-22,4,284!2023-06-21,3,273!2023-06-21,3,273!2023-06-22,4,293!2023-06-19,1,253!2023-06-22,4,293!2023-06-21,3,273-->
+> | [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} | <!--SR:!2023-06-22,4,270!2023-06-21,3,250!2023-06-21,3,264!2023-06-21,3,264!2023-06-22,4,284!2023-06-22,4,284!2023-06-21,3,264!2023-06-21,3,264!2023-06-22,4,284!2023-06-21,3,264!2023-06-21,3,264!2023-06-21,3,264!2023-06-22,4,284!2023-06-21,3,273!2023-06-21,3,273!2023-06-22,4,293!2023-06-20,1,233!2023-06-22,4,293!2023-06-21,3,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

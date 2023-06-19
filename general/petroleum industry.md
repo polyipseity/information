@@ -60,7 +60,7 @@ return await memorize_seq(
 5. +: improves infrastructure→:::←-: emits gaseous pollutants <!--SR:!2023-07-08,49,290!2023-08-23,73,254-->
 6. -: emits gaseous pollutants→:::←-: generates wastes that may be harmful or toxic <!--SR:!2023-08-19,79,274!2023-06-27,42,294-->
 7. -: generates wastes that may be harmful or toxic→:::←-: pollution control cost is high <!--SR:!2023-06-26,40,274!2023-06-21,35,274-->
-8. -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2023-06-14,31,254!2023-07-04,49,294-->
+8. -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2023-07-07,18,234!2023-07-04,49,294-->
 9. -: safety control cost is high→:::←_(end)_ <!--SR:!2023-07-28,69,314!2023-07-24,65,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

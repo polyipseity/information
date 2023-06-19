@@ -20,7 +20,7 @@ tags:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-09-07,114,290!2023-06-17,53,290!2023-11-06,164,310-->
+Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-09-07,114,290!2024-02-03,229,310!2023-11-06,164,310-->
 
 ### density
 
@@ -28,7 +28,7 @@ Carboxylic acids are {{less [dense](density.md) than [water](water.md) except fo
 
 ### odor
 
-Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-06-14,34,210-->
+Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-09-07,80,210-->
 
 ### solubility
 
@@ -79,16 +79,16 @@ return await memorize_table(
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[esterification](#esterification)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-09-22,125,309!2023-06-14,52,309!2023-08-31,99,289!2023-09-10,96,273-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2023-09-22,125,309!2024-02-17,243,329!2023-08-31,99,289!2023-09-10,96,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-04-08T23:59:05.282096+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-08-12,67,269!2023-06-14,52,309-->
-2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-06-19,19,253!2023-07-12,73,313-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-06-16,19,269!2023-07-12,29,289-->
-4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-10-31,156,309!2023-06-17,54,309-->
-5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-12-28,204,329!2023-06-16,53,309-->
+1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-08-12,67,269!2024-02-18,244,329-->
+2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-08-29,71,273!2023-07-12,73,313-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-01,12,249!2023-07-12,29,289-->
+4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-10-31,156,309!2023-12-06,170,309-->
+5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-12-28,204,329!2024-02-14,240,329-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
