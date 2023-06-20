@@ -21,7 +21,7 @@ tags:
 
 One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2023-07-23,67,250-->
 
-Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-06-20,50,250-->
+Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-10-25,127,250-->
 
 ## properties
 

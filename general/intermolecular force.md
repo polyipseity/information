@@ -53,7 +53,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[covalent bond](covalent%20bond.md) <!--SR:!2024-03-09,264,330!2024-02-13,245,330-->
 2. [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md) <!--SR:!2023-06-21,61,310!2023-06-29,68,310-->
-3. [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2023-06-20,60,310!2024-03-13,268,330-->
+3. [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2024-03-14,268,330!2024-03-13,268,330-->
 4. [London dispersion force](London%20dispersion%20force.md)→:::←_(end)_ <!--SR:!2023-07-05,73,310!2024-02-24,250,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

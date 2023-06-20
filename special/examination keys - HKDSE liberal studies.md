@@ -212,7 +212,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-06-20,33,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-08-12,60,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-07-06,29,210!2023-07-17,62,295!2023-09-06,87,275!2023-10-24,135,295!2023-09-04,77,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2023-07-14,59,290!2023-07-23,56,255!2023-08-30,90,275!2023-09-10,82,235!2023-06-26,46,295!2023-08-23,85,275!2023-07-13,58,295!2023-08-12,60,215!2023-07-17,62,295!2023-06-26,46,295!2023-06-29,44,275!2023-07-06,29,210!2023-07-17,62,295!2023-09-06,87,275!2023-10-24,135,295!2023-09-04,77,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -264,7 +264,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-06-25,45,295!2023-06-24,44,295-->
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-06-24,37,235!2023-06-20,40,295-->
+2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-06-24,37,235!2023-07-11,21,275-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-10-04,119,295!2023-07-07,18,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-06-28,39,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-06-29,49,290!2023-07-14,59,295-->

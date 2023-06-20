@@ -42,7 +42,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2024-01-11,248,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2024-01-04,234,273!2024-04-21,348,333-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2023-06-20,100,273!2023-06-25,99,293-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2023-06-25,99,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
 
 ## replace
@@ -61,7 +61,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2024-05-28,380,347!2023-10-10,179,308-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2024-05-11,363,330!2024-05-10,362,333-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2023-10-19,187,308-->
-- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2023-06-20,95,293!2024-01-19,254,313-->
+- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2024-01-19,254,313-->
 - restore last changed line:::U <!--SR:!2024-02-02,264,313!2023-10-22,199,308-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2024-02-21,281,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2024-05-29,381,348-->
@@ -77,7 +77,7 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-10-12,157,253!2024-03-07,307,333-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-06-20,25,188-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-08-08,49,188-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-10-19,130,253!2023-12-30,237,313-->
 
 ## options
