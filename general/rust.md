@@ -75,9 +75,9 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-06-29,67,310!2023-06-21,60,310-->
+1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-06-29,67,310!2024-04-06,286,330-->
 2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-08-09,93,290!2023-07-23,34,290-->
-3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2023-06-22,61,310!2023-06-27,65,310-->
+3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-03-15,264,330!2023-06-27,65,310-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-01-07,210,310!2023-07-06,73,310-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-06-28,65,310!2023-07-05,72,310-->
 
@@ -93,7 +93,7 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2024-02-18,244,330-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-06-24,27,230!2023-11-25,179,310!2023-06-25,64,310!2023-09-08,81,230!2023-11-15,171,310!2023-07-07,67,270-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2023-08-31,67,230!2023-11-25,179,310!2024-04-05,285,330!2023-09-08,81,230!2023-11-15,171,310!2023-07-07,67,270-->
 
 ### electroplating
 
@@ -101,7 +101,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2024-02-18,2
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2023-07-01,54,250-->
 
-In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-07-04,59,250!2023-09-24,117,250!2023-06-25,18,210!2023-08-30,99,270!2023-06-28,66,310!2023-07-12,71,270!2023-09-26,121,290-->
+In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2023-07-04,59,250!2023-09-24,117,250!2023-07-06,11,190!2023-08-30,99,270!2023-06-28,66,310!2023-07-12,71,270!2023-09-26,121,290-->
 
 ### cathodic protection
 
@@ -109,4 +109,4 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2023-09-04,111,290-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-08-13,87,270!2023-06-29,66,310!2023-10-30,145,270!2023-07-17,69,270!2023-08-09,84,270!2023-06-22,33,230-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-08-13,87,270!2023-06-29,66,310!2023-10-30,145,270!2023-07-17,69,270!2023-08-09,84,270!2023-09-14,81,230-->

@@ -89,8 +89,8 @@ The Bohr model fails to explain:
 
 1. _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2023-07-13,37,284!2023-10-08,119,324-->
 2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2023-08-03,65,304!2023-08-04,66,304-->
-3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-06-25,33,264!2023-08-04,54,264-->
-4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-06-22,30,264!2023-09-04,77,264-->
+3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-09-22,89,264!2023-08-04,54,264-->
+4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-07-10,15,244!2023-09-04,77,264-->
 5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2023-10-09,120,324!2023-09-21,106,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -48,8 +48,8 @@ return await memorize_seq(
 
 1. _(begin)_→:::←all [combustion reactions](combustion.md) <!--SR:!2023-07-03,72,310!2023-07-02,71,310-->
 2. all [combustion reactions](combustion.md)→:::←all [neutralization reactions](neutralization%20(chemistry).md) <!--SR:!2023-12-08,185,310!2023-07-04,73,310-->
-3. all [neutralization reactions](neutralization%20(chemistry).md)→:::←all [precipitation reactions](precipitation%20(chemistry).md) <!--SR:!2023-06-24,64,310!2023-12-14,191,310-->
-4. all [precipitation reactions](precipitation%20(chemistry).md)→:::←[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md) <!--SR:!2023-06-21,54,250!2023-06-29,68,310-->
+3. all [neutralization reactions](neutralization%20(chemistry).md)→:::←all [precipitation reactions](precipitation%20(chemistry).md) <!--SR:!2024-04-10,290,330!2023-12-14,191,310-->
+4. all [precipitation reactions](precipitation%20(chemistry).md)→:::←[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md) <!--SR:!2024-01-25,214,270!2023-06-29,68,310-->
 5. [hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)→:::←_(end)_ <!--SR:!2023-06-30,69,310!2023-08-23,97,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

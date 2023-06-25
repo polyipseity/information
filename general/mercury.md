@@ -43,7 +43,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda3"--><!-- The following content is generated at 2023-03-21T16:20:25.404034+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2023-06-22,62,310!2023-06-28,67,310-->
+1. _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2024-04-12,292,330!2023-06-28,67,310-->
 2. [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2023-07-02,70,310!2024-03-10,265,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

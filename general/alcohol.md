@@ -29,7 +29,7 @@ Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols wi
 
 ### solubility
 
-{{[Methanol](methanol.md), [ethanol](ethanol.md), and [propanol](propanol.md)}} are [miscible](miscibility.md) with water in all proportions, while {{[butanol](butanol.md) is moderately water soluble}}. <!--SR:!2024-01-29,224,310!2023-06-25,24,270-->
+{{[Methanol](methanol.md), [ethanol](ethanol.md), and [propanol](propanol.md)}} are [miscible](miscibility.md) with water in all proportions, while {{[butanol](butanol.md) is moderately water soluble}}. <!--SR:!2024-01-29,224,310!2023-09-27,94,290-->
 
 ## chemical properties
 
@@ -41,7 +41,7 @@ In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](va
 
 ### nucleophilic substitution
 
-Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2023-09-04,97,275!2023-06-25,56,300-->
+Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2023-09-04,97,275!2023-12-16,174,300-->
 
 ### oxidation
 
@@ -81,7 +81,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2023-04-06T10:09:50.047710+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-07-25,69,255!2023-07-12,74,320-->
-2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-16,63,255!2023-06-21,53,300-->
+2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-16,63,255!2024-02-16,236,320-->
 3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-10-24,147,295!2023-07-18,79,320-->
 4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2023-07-11,73,315!2023-07-10,72,315-->
 

@@ -41,7 +41,7 @@ return await memorize_table(
 > | {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}} |
 > | {{[mantle](mantle.md)}} | {{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}} |
 > | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
-> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2024-03-14,269,330!2023-07-05,60,270!2024-02-07,240,330!2023-10-02,127,270!2023-06-30,68,310!2023-07-01,20,210!2023-07-02,70,310!2023-10-29,154,290!2023-06-24,64,310!2023-10-20,147,290-->
+> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2024-03-14,269,330!2023-07-05,60,270!2024-02-07,240,330!2023-10-02,127,270!2023-06-30,68,310!2023-07-01,20,210!2023-07-02,70,310!2023-10-29,154,290!2024-04-10,290,330!2023-10-20,147,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -49,9 +49,9 @@ return await memorize_table(
 
 1. _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2024-02-14,246,330!2024-02-22,248,330-->
 2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2023-06-27,66,310!2023-07-03,71,310-->
-3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2023-06-23,63,310!2023-06-26,65,310-->
+3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2024-04-11,291,330!2023-06-26,65,310-->
 4. [mantle](mantle.md)→:::←[outer core](outer%20core.md) <!--SR:!2023-07-04,72,310!2023-11-24,176,310-->
-5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2023-06-22,62,310!2024-03-15,270,330-->
+5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2024-04-09,289,330!2024-03-15,270,330-->
 6. [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2024-02-23,249,330!2023-06-28,67,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -15,7 +15,7 @@ tags:
 
 # octet rule
 
-The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20thumb.md) that states [main-group elements](main-group%20element.md) tend to [bond](chemical%20bond.md) in a way such that each [atom](atom.md) has eight [electrons](electron.md) in its [valence shell](valence%20shell.md)}}. Other similar rules are {{the [duplet rule](#^duplet-rule) for [hydrogen](hydrogen.md), [helium](helium.md), and [lithium](lithium.md); and the [18-electron rule](18-electron%20rule.md) for [transition metals](transition%20metal.md)}}. <!--SR:!2023-06-22,2,230!2023-06-21,4,270-->
+The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20thumb.md) that states [main-group elements](main-group%20element.md) tend to [bond](chemical%20bond.md) in a way such that each [atom](atom.md) has eight [electrons](electron.md) in its [valence shell](valence%20shell.md)}}. Other similar rules are {{the [duplet rule](#^duplet-rule) for [hydrogen](hydrogen.md), [helium](helium.md), and [lithium](lithium.md); and the [18-electron rule](18-electron%20rule.md) for [transition metals](transition%20metal.md)}}. <!--SR:!2023-07-11,16,250!2023-07-28,33,290-->
 
 ## exceptions
 
@@ -47,14 +47,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{__duplet rule__}} | {{2 electrons in valence shell}} ^duplet-rule |
-> | {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}} | <!--SR:!2023-06-21,4,270!2023-06-21,4,270!2023-06-21,4,270!2023-06-21,4,270-->
+> | {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}} | <!--SR:!2023-07-29,34,290!2023-07-27,32,290!2023-07-28,33,290!2023-07-29,34,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="284d"--><!-- The following content is generated at 2023-03-20T12:51:18.460734+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←__duplet rule__ <!--SR:!2023-06-21,4,270!2023-06-21,4,270-->
-2. __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2023-06-21,4,270!2023-06-21,4,270-->
-3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-06-21,4,270!2023-06-21,4,270-->
+1. _(begin)_→:::←__duplet rule__ <!--SR:!2023-07-29,34,290!2023-07-28,33,290-->
+2. __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2023-07-28,33,290!2023-07-28,33,290-->
+3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-07-29,34,290!2023-07-27,32,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
