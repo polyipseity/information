@@ -250,7 +250,7 @@ return chain.from_iterable(await gather(
 	- [phonation](phonation.md):::how the [vocal cords](vocal%20folds.md) vibrate
 		- [voiced](voice%20(phonetics).md):::the [vocal cords](vocal%20cords.md) vibrate fully
 		- [voiceless](voicelessness.md):::the [vocal cords](vocal%20cords.md) do not vibrate
-	- [voice onset time](voice%20onset%20time.md) (VOT):::timing of the [phonation](phonation.md)
+	- [voice onset time](voice%20onset%20time.md) (VOT):::timing of [phonation](phonation.md)
 		- values in ascending [VOT](voice%20onset%20time.md)::[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive)
 - [vowel](vowel.md):::[phone](phone%20(phonetics).md) articulated without any stricture in the [vocal tract](vocal%20tract.md)
 	- [vowel backness](vowel.md#backness):::position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md)
