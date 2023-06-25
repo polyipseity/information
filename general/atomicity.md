@@ -57,8 +57,8 @@ Molecules can be classified based on atomicity as:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384d"--><!-- The following content is generated at 2023-04-01T22:38:27.955965+08:00. Any edits will be overridden! -->
 
-1. all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md) <!--SR:!2023-06-25,69,310-->
-2. Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2023-06-24,68,310-->
+1. all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-17,297,330-->
+2. Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-18,298,330-->
 3. Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2023-06-28,72,310-->
 4. H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-02-20,254,330-->
 5. N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-02-03,242,330-->
@@ -69,4 +69,4 @@ Molecules can be classified based on atomicity as:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}. <!--SR:!2023-06-23,52,230!2024-04-06,292,330-->
+Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}. <!--SR:!2023-10-26,123,230!2024-04-06,292,330-->

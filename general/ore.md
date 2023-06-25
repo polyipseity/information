@@ -15,7 +15,7 @@ tags:
 
 # ore
 
-An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2023-06-25,47,230-->
+An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2023-10-15,112,230-->
 
 ## extraction
 
@@ -50,7 +50,7 @@ return await memorize_table(
 > | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |
 > | {{[cinnabar](cinnabar.md), cinnabarite}} | {{HgS}} |
 > | {{[galena](galena.md)}} | {{PbS}} |
-> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} | <!--SR:!2023-09-09,118,290!2024-03-11,266,330!2024-01-06,209,310!2023-09-19,105,250!2023-07-04,72,310!2023-08-20,92,270!2023-06-25,54,250!2023-08-05,54,250!2023-09-01,101,270!2023-07-02,55,270-->
+> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} | <!--SR:!2023-09-09,118,290!2024-03-11,266,330!2024-01-06,209,310!2023-09-19,105,250!2023-07-04,72,310!2023-08-20,92,270!2023-12-31,189,270!2023-08-05,54,250!2023-09-01,101,270!2023-07-02,55,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

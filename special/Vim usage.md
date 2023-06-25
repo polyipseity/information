@@ -11,7 +11,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-07-02,46,308!2023-10-19,185,308-->
-- cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2023-06-25,105,288-->
+- cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2024-05-07,317,288-->
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-07-08,32,153!2023-06-27,65,268-->
 
 ## pattern
@@ -20,7 +20,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2024-06-10,392,348!2023-08-26,143,288-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2024-05-09,361,333!2023-10-15,182,308-->
-- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2023-06-24,105,287-->
+- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2024-09-07,440,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2024-02-15,275,328!2024-02-16,276,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-12-31,231,273!2023-07-25,117,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2024-04-25,350,333-->
@@ -42,7 +42,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2024-01-11,248,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2024-01-04,234,273!2024-04-21,348,333-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2023-06-25,99,293-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2024-04-20,300,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
 
 ## replace
@@ -53,7 +53,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2024-06-05,385,348!2024-06-15,396,348-->
 - highlight characters:::v <!--SR:!2023-11-07,214,328!2023-10-23,188,308-->
-- highlight lines:::V <!--SR:!2023-06-24,103,273!2023-06-22,61,268-->
+- highlight lines:::V <!--SR:!2024-04-16,296,273!2023-12-17,175,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2024-02-24,270,273!2024-05-24,375,348-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->
 
@@ -72,7 +72,7 @@ See also [Vim help files](https://vimhelp.org/).
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-08-02,90,230!2023-10-18,184,308-->
 - repeat last search:::n <!--SR:!2024-01-29,260,313!2023-10-11,180,308-->
 - repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
-- repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2023-06-22,101,273-->
+- repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2024-07-25,396,293-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2024-01-18,225,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-10-12,157,253!2024-03-07,307,333-->
 

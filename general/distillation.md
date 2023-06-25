@@ -12,7 +12,7 @@ tags:
 
 __Distillation__ is {{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}}. <!--SR:!2023-08-05,53,190-->
 
-The distilled product is the {{_distillate_}}, while the left behind product is the {{_residue_}}. <!--SR:!2023-06-23,64,310!2023-06-28,68,310-->
+The distilled product is the {{_distillate_}}, while the left behind product is the {{_residue_}}. <!--SR:!2024-04-13,293,330!2023-06-28,68,310-->
 
 ## procedures
 

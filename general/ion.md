@@ -350,7 +350,7 @@ return chain.from_iterable(await gather(
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
 22. scandium(III) ion::colorless <!--SR:!2023-12-07,171,322-->
-23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-06-21,32,230-->
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-07-12,17,210-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-07-30,75,282-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-07-28,46,262-->
 26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-07-21,45,230-->
@@ -466,7 +466,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2023-04-08T13:39:40.653475+08:00. Any edits will be overridden! -->
 
-1. hydride ion::colorless <!--SR:!2023-06-23,357,299-->
+1. hydride ion::colorless <!--SR:!2027-07-23,1489,319-->
 2. fluoride ion::colorless <!--SR:!2024-04-19,532,274-->
 3. chloride ion::colorless <!--SR:!2024-06-23,612,314-->
 4. bromide ion::colorless <!--SR:!2023-08-21,364,259-->
@@ -483,7 +483,7 @@ return chain.from_iterable(await gather(
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-11-19,198,274-->
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
-18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2023-06-21,170,230-->
+18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2025-01-11,566,250-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2023-09-15,389,273-->
 20. nitride ion::_(n/a)_ <!--SR:!2023-10-14,174,256-->
 21. phosphate ion::colorless <!--SR:!2023-09-14,388,273-->
@@ -496,7 +496,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-04-08T13:39:40.573688+08:00. Any edits will be overridden! -->
 
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-06-27,63,341-->
-2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2023-06-24,61,341-->
+2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2024-01-26,215,341-->
 3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-07-07,72,341-->
 4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-08-18,60,282-->
 

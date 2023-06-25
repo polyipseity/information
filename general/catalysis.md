@@ -21,7 +21,7 @@ tags:
 
 __Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. If the reaction is fast and the catalyst replenishes quickly, {{only small amounts of catalyst is needed}}. {{Surface area, [temperature](temperature.md), and mixing}} affect the catalyzed [reaction rate](reaction%20rate.md). <!--SR:!2023-11-22,174,310!2023-08-29,107,290!2023-08-15,84,343!2023-07-12,43,303-->
 
-Catalysts are often {{specific in action and [poisoned](catalyst%20poisoning.md) by small amounts of impurities}}. <!--SR:!2023-06-24,41,303-->
+Catalysts are often {{specific in action and [poisoned](catalyst%20poisoning.md) by small amounts of impurities}}. <!--SR:!2023-12-18,176,323-->
 
 ## significance
 
