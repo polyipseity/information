@@ -62,7 +62,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 > | {{[strong](strength%20of%20materials.md)}} |  |
 > | {{[tough](toughness.md)}} |  |
 > | {{washable}} |  |
-> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-07-10,21,270!2023-11-05,152,290!2023-10-09,134,290!2023-07-16,57,250!2023-06-27,54,250!2023-11-11,145,290!2024-02-28,248,330!2024-02-29,249,330!2023-11-12,159,290-->
+> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-07-10,21,270!2023-11-05,152,290!2023-10-09,134,290!2023-07-16,57,250!2023-07-25,28,230!2023-11-11,145,290!2024-02-28,248,330!2024-02-29,249,330!2023-11-12,159,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -76,7 +76,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2023-07-08,69,310!2023-07-15,62,250-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2023-07-02,64,310!2023-09-29,124,290-->
 8. [tough](toughness.md)→:::←washable <!--SR:!2023-07-03,65,310!2023-07-02,40,210-->
-9. washable→:::←[waterproof](waterproof.md) <!--SR:!2023-06-26,59,310!2023-07-12,73,310-->
-10. [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2024-03-12,261,330!2023-06-27,21,250-->
+9. washable→:::←[waterproof](waterproof.md) <!--SR:!2024-03-17,264,330!2023-07-12,73,310-->
+10. [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2024-03-12,261,330!2023-09-12,77,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -344,7 +344,7 @@ return chain.from_iterable(await gather(
 14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2023-07-19,71,150-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-02,308,230-->
-17. mercury(II) ion::_(n/a)_ <!--SR:!2023-06-26,140,256-->
+17. mercury(II) ion::_(n/a)_ <!--SR:!2024-06-27,366,256-->
 18. cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2024-03-03,461,239-->
 19. aluminium ion::colorless <!--SR:!2024-07-04,623,314-->
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2023-07-08,209,190-->
@@ -495,7 +495,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-04-08T13:39:40.573688+08:00. Any edits will be overridden! -->
 
-1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2023-06-27,63,341-->
+1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2024-04-28,306,361-->
 2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2024-01-26,215,341-->
 3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2023-07-07,72,341-->
 4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-08-18,60,282-->

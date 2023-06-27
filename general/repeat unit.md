@@ -17,6 +17,6 @@ tags:
 
 # repeat unit
 
-A __repeat unit__, __repeating unit__, or __mer__ is {{a part of a [polymer](polymer.md) that when repeated would give the entire [polymer](polymer.md) excluding the [end groups](end%20group.md)}}. <!--SR:!2023-06-26,53,250-->
+A __repeat unit__, __repeating unit__, or __mer__ is {{a part of a [polymer](polymer.md) that when repeated would give the entire [polymer](polymer.md) excluding the [end groups](end%20group.md)}}. <!--SR:!2023-11-08,134,250-->
 
 For example, the [addition polymer](addition%20polymer.md) [polyvinyl chloride](polyvinyl%20chloride.md) {{-\[CH<sub>2</sub>-CHCl\]<sub>n</sub>- has the repeat unit -\[CH<sub>2</sub>-CHCl\]-}}. <!--SR:!2023-12-30,188,270-->

@@ -203,7 +203,7 @@ The steps for naming an organic compound are:
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
 3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-11-14,245,282-->
-4. maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2023-06-26,168,325-->
+4. maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-11-27,256,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2025-03-21,668,345-->
 
@@ -635,7 +635,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-07-31,94,364!2023-11-28,182,344!2023-08-05,99,364!2023-07-31,94,364!2023-06-26,61,344!2023-08-01,95,364!2023-07-21,84,344!2023-07-28,91,364!2024-02-29,263,364!2023-06-27,62,344-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-07-31,94,364!2023-11-28,182,344!2023-08-05,99,364!2023-07-31,94,364!2024-04-25,303,364!2023-08-01,95,364!2023-07-21,84,344!2023-07-28,91,364!2024-02-29,263,364!2024-04-29,307,364-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

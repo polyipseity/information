@@ -12,7 +12,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2023-07-02,46,308!2023-10-19,185,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2024-05-07,317,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-07-08,32,153!2023-06-27,65,268-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-07-08,32,153!2023-08-03,37,248-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-07-22,128,313!2024-06-03,385,348-->
@@ -82,7 +82,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-08-16,125,293!2024-02-19,278,327-->
-- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2023-06-26,66,268-->
+- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2023-12-30,186,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-08-09,87,273!2024-05-12,364,333-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2023-09-25,166,293-->
 
