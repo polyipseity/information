@@ -56,7 +56,7 @@ return await memorize_table(
 1. _(begin)_→:::←[group 1](#^group-1)/IA/IA <!--SR:!2023-06-30,69,310!2023-07-03,72,310-->
 2. [group 1](#^group-1)/IA/IA→:::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA <!--SR:!2024-01-31,234,330!2024-04-02,282,330-->
 3. [group 2](alkaline%20earth%20metal.md)/IIA/IIA→:::←[group 17](halogen.md)/VIIB/VIIA <!--SR:!2023-08-18,90,270!2024-03-05,260,330-->
-4. [group 17](halogen.md)/VIIB/VIIA→:::←[group 18](noble%20gas.md)/0/VIIIA <!--SR:!2023-12-31,195,310!2023-06-27,67,310-->
-5. [group 18](noble%20gas.md)/0/VIIIA→:::←_(end)_ <!--SR:!2023-07-04,73,310!2023-06-26,66,310-->
+4. [group 17](halogen.md)/VIIB/VIIA→:::←[group 18](noble%20gas.md)/0/VIIIA <!--SR:!2023-12-31,195,310!2024-04-22,300,330-->
+5. [group 18](noble%20gas.md)/0/VIIIA→:::←_(end)_ <!--SR:!2023-07-04,73,310!2024-04-21,299,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

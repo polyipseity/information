@@ -69,7 +69,7 @@ return await memorize_table(
 > | {{[cathodic protection](#cathodic%20protection)}} |  |
 > | {{[coating and painting](#coating%20and%20painting)}} |  |
 > | {{[electroplating](#electroplating)}} |  |
-> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-10-16,137,290!2024-02-17,243,330!2023-06-26,64,310!2023-08-11,79,270-->
+> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2023-10-16,137,290!2024-02-17,243,330!2024-03-29,276,330!2023-08-11,79,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -77,7 +77,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2023-06-29,67,310!2024-04-06,286,330-->
 2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-08-09,93,290!2023-07-23,34,290-->
-3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-03-15,264,330!2023-06-27,65,310-->
+3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-03-15,264,330!2024-04-04,282,330-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-01-07,210,310!2023-07-06,73,310-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2023-06-28,65,310!2023-07-05,72,310-->
 

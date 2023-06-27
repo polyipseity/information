@@ -17,7 +17,7 @@ tags:
 
 # alkaline fuel cell
 
-The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2023-06-26,34,230!2023-06-28,68,312-->
+The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2023-09-17,82,230!2023-06-28,68,312-->
 
 ## chemistry
 
@@ -103,7 +103,7 @@ return await memorize_seq(
 1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-09-09,109,270!2023-06-30,70,312-->
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-12-19,196,310!2023-12-27,203,312-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2024-01-31,220,292!2024-01-09,212,312-->
-4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-07-03,27,272!2023-06-27,68,312-->
+4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-07-03,27,272!2024-04-26,304,332-->
 5. remote power source→:::←_(end)_ <!--SR:!2023-07-01,71,315!2023-11-23,163,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

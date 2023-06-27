@@ -48,8 +48,8 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2023-03-15T18:37:52.425447+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2024-02-14,246,330!2024-02-22,248,330-->
-2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2023-06-27,66,310!2023-07-03,71,310-->
-3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2024-04-11,291,330!2023-06-26,65,310-->
+2. [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2024-04-18,296,330!2023-07-03,71,310-->
+3. [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2024-04-11,291,330!2024-04-19,297,330-->
 4. [mantle](mantle.md)→:::←[outer core](outer%20core.md) <!--SR:!2023-07-04,72,310!2023-11-24,176,310-->
 5. [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2024-04-09,289,330!2024-03-15,270,330-->
 6. [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2024-02-23,249,330!2023-06-28,67,310-->

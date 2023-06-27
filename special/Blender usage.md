@@ -29,7 +29,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-07-16,89,190!2023-08-16,110,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2023-07-03,126,296-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-07-01,105,250!2023-06-26,33,195-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-07-01,105,250!2023-09-03,68,195-->
 
 ### editing
 
@@ -43,7 +43,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - invert selection:::Ctrl+I <!--SR:!2023-08-06,92,250!2024-01-03,232,276-->
 - hide selection:::H <!--SR:!2023-07-08,46,230!2023-07-04,127,290-->
 - reveal hidden:::Alt+H <!--SR:!2023-09-21,160,250!2023-10-07,164,256-->
-- toggle toolbar:::T <!--SR:!2023-06-26,113,290!2024-01-24,246,276-->
+- toggle toolbar:::T <!--SR:!2024-09-28,459,310!2024-01-24,246,276-->
 - toggle sidebar:::N <!--SR:!2023-09-16,157,256!2023-07-17,27,176-->
 
 ### 3D viewport

@@ -10,4 +10,4 @@ tags:
 
 # carbonic acid
 
-__Carbonic acid__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [H](hydrogen.md)<sub>2</sub>[CO<sub>3</sub>](carbonate.md)}}. In the presence of [water](water.md), it {{rapidly converts to water and [carbon dioxide](carbon%20dioxide.md)}}. <!--SR:!2024-03-27,282,330!2023-06-27,71,310-->
+__Carbonic acid__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [H](hydrogen.md)<sub>2</sub>[CO<sub>3</sub>](carbonate.md)}}. In the presence of [water](water.md), it {{rapidly converts to water and [carbon dioxide](carbon%20dioxide.md)}}. <!--SR:!2024-03-27,282,330!2024-04-30,308,330-->

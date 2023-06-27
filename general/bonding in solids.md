@@ -48,13 +48,13 @@ return await memorize_table(
 > |-|-|
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-10-19,141,290!2023-06-29,73,310!2023-06-26,70,310!2023-06-27,71,310!2023-11-01,147,270!2024-03-22,277,330-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-10-19,141,290!2023-06-29,73,310!2024-05-12,320,330!2024-05-11,319,330!2023-11-01,147,270!2024-03-22,277,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### network covalent solid
 
-A __network covalent solid__, also called __giant covalent structure__, {{consists of [atoms](atom.md) held together by a network of [covalent bonds](covalent%20bond.md)}}. <!--SR:!2023-06-26,56,250-->
+A __network covalent solid__, also called __giant covalent structure__, {{consists of [atoms](atom.md) held together by a network of [covalent bonds](covalent%20bond.md)}}. <!--SR:!2024-01-16,203,270-->
 
 #### properties
 

@@ -54,7 +54,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="232ba1"--><!-- The following content is generated at 2023-03-14T22:44:07.551779+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←food packaging <!--SR:!2023-12-19,183,310!2024-03-29,278,330-->
-2. food packaging→:::←making [ammonia](ammonia.md) <!--SR:!2023-11-07,163,310!2023-06-26,65,310-->
+2. food packaging→:::←making [ammonia](ammonia.md) <!--SR:!2023-11-07,163,310!2024-04-09,287,330-->
 3. making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md) <!--SR:!2023-10-31,146,270!2023-07-24,79,290-->
 4. [refrigerant](refrigerant.md)→:::←_(end)_ <!--SR:!2024-01-25,228,330!2023-08-29,95,270-->
 

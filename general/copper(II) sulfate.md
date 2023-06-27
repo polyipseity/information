@@ -15,4 +15,4 @@ __Copper(II) sulfate__, also called __copper(II) sulphate__, is {{an [inorganic 
 
 ### analytical reagent
 
-Anhydrous copper(II) sulfate {{turns from white to blue in the presence of [water](water.md)}}. <!--SR:!2023-06-27,54,230-->
+Anhydrous copper(II) sulfate {{turns from white to blue in the presence of [water](water.md)}}. <!--SR:!2023-07-28,31,210-->

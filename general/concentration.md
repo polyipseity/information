@@ -11,4 +11,4 @@ tags:
 
 ## qualitative description
 
-A [solution](solution%20(chemistry).md) with relatively low concentration is {{"dilute"}} while one of relatively high concentration is {{"concentrated"}}. <!--SR:!2023-06-27,71,310!2024-03-18,273,330-->
+A [solution](solution%20(chemistry).md) with relatively low concentration is {{"dilute"}} while one of relatively high concentration is {{"concentrated"}}. <!--SR:!2024-05-02,310,330!2024-03-18,273,330-->
