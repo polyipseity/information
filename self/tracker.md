@@ -14,6 +14,7 @@ tags:
 - https://github.com/polyipseity
 - https://myaccount.google.com/: polyipseity@gmail.com
 - https://t.me/quizzaciously
+- https://twitter.com/polyipseity
 - https://whatsapp.com/: (redacted)
 
 ## mobile number
