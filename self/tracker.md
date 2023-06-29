@@ -6,6 +6,16 @@ tags:
 
 # tracker
 
+## avatar
+
+- https://account.microsoft.com/profile/edit-picture: polyipseity@outlook.com
+- https://appleid.apple.com/account/manage/section/information: polyipseity@gmail.com
+- https://discord.com/: polyipseity
+- https://github.com/polyipseity
+- https://myaccount.google.com/: polyipseity@gmail.com
+- https://t.me/quizzaciously
+- https://whatsapp.com/: (redacted)
+
 ## mobile number
 
 - https://connect.stripe.com/app/express#settings > mobile number
