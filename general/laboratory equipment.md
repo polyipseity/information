@@ -130,7 +130,7 @@ return await memorize_table(
 > | {{[wash bottle](wash%20bottle.md)}}<br/>{{![wash bottle](../archives/Wikimedia%20Commons/Lab%20wash-bottles%20water%20EtOH.jpg)}} |  |
 > | {{[watch glass](watch%20glass.md)}}<br/>{{![watch glass](../archives/Wikimedia%20Commons/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg)}} |  |
 > | {{[weighing bottle](weighing%20bottle.md)}}<br/>{{![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg)}} |  |
-> | {{[wire gauze](wire%20gauze.md)}}<br/>{{![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)}} |  | <!--SR:!2023-06-29,68,310!2024-03-02,256,330!2024-03-06,261,330!2024-01-05,208,310!2024-02-25,251,330!2024-03-28,277,330!2023-10-13,142,290!2023-08-25,106,290!2023-12-03,180,310!2024-02-10,243,330!2023-11-01,148,290!2024-03-03,257,330!2023-06-28,67,310!2023-07-01,69,310!2023-12-08,184,310!2024-02-04,238,330!2023-07-04,72,310!2024-02-02,236,330!2024-02-27,253,330!2023-07-01,69,310!2024-01-14,217,310!2024-02-26,252,330!2024-04-02,282,330!2024-03-21,270,330!2023-07-28,85,310!2024-03-22,271,330!2023-07-04,72,310!2024-03-07,262,330!2024-03-20,269,330!2024-03-04,259,330!2024-04-16,294,330!2023-07-02,70,310!2023-06-28,67,310!2024-02-08,241,330!2023-07-04,72,310!2023-11-30,183,310!2023-09-01,101,270!2023-09-26,129,290!2023-06-28,67,310!2023-07-03,59,250!2023-11-30,171,310!2023-11-19,172,310!2023-12-02,172,310!2024-03-08,263,330!2023-11-17,170,310!2024-03-04,258,330!2024-03-09,264,330!2024-02-24,250,330!2023-06-29,68,310!2023-12-11,188,310!2024-02-09,242,330!2024-03-05,260,330!2024-04-09,289,330!2024-04-01,281,330!2023-12-04,186,310!2024-01-24,227,330!2024-02-08,240,330!2024-03-25,274,330!2024-03-18,273,330!2024-02-03,237,330!2023-07-05,73,310!2024-02-02,235,330!2024-01-04,207,310!2024-04-14,292,330!2024-04-15,293,330!2023-07-03,71,310!2023-12-13,190,310!2024-02-19,245,330!2024-03-01,255,330!2024-04-08,288,330!2024-03-31,280,330!2023-07-02,70,310!2024-04-03,283,330!2023-06-29,68,310!2024-03-03,258,330!2024-02-09,241,330!2024-04-19,297,330!2023-09-10,116,290!2024-01-03,206,310!2023-07-03,71,310!2023-09-09,115,290!2023-09-01,101,270!2024-02-29,255,330!2024-02-28,254,330!2023-06-30,68,310!2024-04-07,287,330!2023-12-20,184,310!2024-03-27,276,330!2024-01-05,206,310!2024-03-24,273,330!2024-03-02,257,330-->
+> | {{[wire gauze](wire%20gauze.md)}}<br/>{{![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)}} |  | <!--SR:!2024-05-16,319,330!2024-03-02,256,330!2024-03-06,261,330!2024-01-05,208,310!2024-02-25,251,330!2024-03-28,277,330!2023-10-13,142,290!2023-08-25,106,290!2023-12-03,180,310!2024-02-10,243,330!2023-11-01,148,290!2024-03-03,257,330!2024-05-14,317,330!2024-04-24,297,330!2023-12-08,184,310!2024-02-04,238,330!2023-07-04,72,310!2024-02-02,236,330!2024-02-27,253,330!2024-04-29,302,330!2024-01-14,217,310!2024-02-26,252,330!2024-04-02,282,330!2024-03-21,270,330!2023-07-28,85,310!2024-03-22,271,330!2023-07-04,72,310!2024-03-07,262,330!2024-03-20,269,330!2024-03-04,259,330!2024-04-16,294,330!2024-04-30,303,330!2024-05-17,320,330!2024-02-08,241,330!2023-07-04,72,310!2023-11-30,183,310!2023-09-01,101,270!2023-09-26,129,290!2024-05-15,318,330!2023-07-03,59,250!2023-11-30,171,310!2023-11-19,172,310!2023-12-02,172,310!2024-03-08,263,330!2023-11-17,170,310!2024-03-04,258,330!2024-03-09,264,330!2024-02-24,250,330!2024-05-01,304,330!2023-12-11,188,310!2024-02-09,242,330!2024-03-05,260,330!2024-04-09,289,330!2024-04-01,281,330!2023-12-04,186,310!2024-01-24,227,330!2024-02-08,240,330!2024-03-25,274,330!2024-03-18,273,330!2024-02-03,237,330!2023-07-05,73,310!2024-02-02,235,330!2024-01-04,207,310!2024-04-14,292,330!2024-04-15,293,330!2023-07-03,71,310!2023-12-13,190,310!2024-02-19,245,330!2024-03-01,255,330!2024-04-08,288,330!2024-03-31,280,330!2024-04-25,298,330!2024-04-03,283,330!2024-05-02,305,330!2024-03-03,258,330!2024-02-09,241,330!2024-04-19,297,330!2023-09-10,116,290!2024-01-03,206,310!2023-07-03,71,310!2023-09-09,115,290!2023-09-01,101,270!2024-02-29,255,330!2024-02-28,254,330!2024-04-22,295,330!2024-04-07,287,330!2023-12-20,184,310!2024-03-27,276,330!2024-01-05,206,310!2024-03-24,273,330!2024-03-02,257,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -138,15 +138,15 @@ return await memorize_table(
 
 1. _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2023-12-22,199,310!2024-04-04,284,330-->
 2. [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2024-04-10,290,330!2024-04-17,295,330-->
-3. [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2023-10-21,148,290!2023-06-30,68,310-->
+3. [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2023-10-21,148,290!2024-04-28,301,330-->
 4. [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2023-07-09,14,250!2024-04-05,285,330-->
-5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2023-06-30,68,310!2024-03-01,256,330-->
-6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2023-06-30,68,310!2023-07-05,73,310-->
+5. [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2024-04-21,294,330!2024-03-01,256,330-->
+6. [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-05-03,306,330!2023-07-05,73,310-->
 7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-07-15,62,250!2023-07-27,32,210-->
 8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-07-05,10,130!2023-08-31,100,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2024-03-19,274,330!2024-03-17,272,330-->
-10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2023-07-01,12,230-->
-11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-08-08,91,270!2023-07-02,70,310-->
+10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2023-07-08,6,210-->
+11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-08-08,91,270!2024-01-26,208,310-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-12-29,205,310!2024-04-06,286,330-->
 13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-10-03,124,290!2023-07-09,42,210-->
 14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-08-06,47,210!2023-07-10,29,270-->
@@ -157,11 +157,11 @@ return await memorize_table(
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-07-06,61,250!2023-07-19,24,150-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2023-07-28,75,250!2023-07-24,29,230-->
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-08-27,96,270!2023-07-21,26,250-->
-22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-07-04,9,130!2023-06-30,57,250-->
+22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-07-04,9,130!2023-08-04,33,230-->
 23. [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2023-08-30,99,270!2023-08-31,100,270-->
 24. [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2023-08-14,88,270!2023-08-08,63,230-->
 25. [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2023-08-13,87,270!2023-09-06,109,290-->
-26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-07-02,7,210!2023-07-09,20,190-->
+26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-07-06,4,190!2023-07-09,20,190-->
 27. [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2023-07-26,76,270!2023-08-26,95,270-->
 28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-07-24,42,230!2023-09-01,82,230-->
 29. [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2023-08-30,99,270!2023-08-21,93,270-->
@@ -176,8 +176,8 @@ return await memorize_table(
 38. [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2023-08-01,79,270!2023-09-14,121,290-->
 39. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2023-09-15,122,290!2023-11-02,149,270-->
 40. [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2023-08-20,92,270!2023-10-12,128,290-->
-41. [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2023-06-29,67,310!2023-07-31,78,270-->
+41. [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2024-01-24,206,310!2023-07-31,78,270-->
 42. [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2023-10-30,155,290!2023-11-10,164,310-->
-43. [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2023-07-01,69,310!2024-03-23,272,330-->
+43. [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2024-04-23,296,330!2024-03-23,272,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

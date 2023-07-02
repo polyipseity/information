@@ -35,13 +35,13 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[electrolysis](electrolysis.md)}} |  | <!--SR:!2023-07-02,71,310-->
+> | {{[electrolysis](electrolysis.md)}} |  | <!--SR:!2024-05-10,313,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a3958e"--><!-- The following content is generated at 2023-03-18T23:22:35.960278+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[electrolysis](electrolysis.md) <!--SR:!2024-01-01,209,310!2023-06-30,69,310-->
+1. _(begin)_→:::←[electrolysis](electrolysis.md) <!--SR:!2024-01-01,209,310!2024-05-11,314,330-->
 2. [electrolysis](electrolysis.md)→:::←_(end)_ <!--SR:!2023-07-03,72,310!2023-07-04,73,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

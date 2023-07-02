@@ -32,7 +32,7 @@ Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:
 
 ### solubility
 
-Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-06-30,41,210!2023-07-07,73,310-->
+Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2023-10-02,92,210!2023-07-07,73,310-->
 
 ## chemical properties
 
@@ -87,7 +87,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-08-12,67,269!2024-02-18,244,329-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-08-29,71,273!2023-07-12,73,313-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-01,12,249!2023-07-12,29,289-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-09,7,229!2023-07-12,29,289-->
 4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-10-31,156,309!2023-12-06,170,309-->
 5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-12-28,204,329!2024-02-14,240,329-->
 

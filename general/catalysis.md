@@ -56,7 +56,7 @@ return await memorize_table(
 > | {{[contact process](contact%20process.md)}} | {{[Vanadium(V) oxide](vanadium(V)%20oxide.md) catalyzes the [oxidation](redox%20reaction.md) of [SO<sub>2</sub>](sulfur%20dioxide.md) to [SO<sub>3</sub>](sulfur%20trioxide.md) in making [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md).}} |
 > | {{[fermentation](fermentation.md)}} | {{[Enzymes](enzyme.md) catalyze [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyze the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).}} |
 > | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
-> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2023-07-07,73,310!2023-07-07,73,310!2023-07-07,73,310!2023-07-18,29,270!2023-07-07,73,310!2023-07-07,18,210!2023-07-07,73,310!2023-09-12,111,290!2023-07-07,73,310!2023-07-02,55,250-->
+> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2023-07-07,73,310!2023-07-07,73,310!2023-07-07,73,310!2023-07-18,29,270!2023-07-07,73,310!2023-07-07,18,210!2023-07-07,73,310!2023-09-12,111,290!2023-07-07,73,310!2023-11-20,141,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
