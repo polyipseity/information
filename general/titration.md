@@ -26,7 +26,7 @@ __Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](
 
 - See: [acid–base titration](acid–base%20titration.md)
 
-Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2023-07-08,27,270!2023-12-30,202,310!2023-07-02,69,310!2023-12-23,199,310!2023-08-15,90,270!2024-02-09,235,310-->
+Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2023-07-08,27,270!2023-12-30,202,310!2024-04-27,300,330!2023-12-23,199,310!2023-08-15,90,270!2024-02-09,235,310-->
 
 If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) are used, {{the [titration curve](#titration%20curve) is regular and many pH indicators are appropriate}}. If one is strong while the other is weak, {{the equivalence point shifts to the stronger side}}. If both are weak, {{the titration curve is very irregular and a [pH meter](pH%20meter.md) is often used instead of a [pH indicator](pH%20indicator.md)}}. <!--SR:!2023-09-18,125,290!2024-01-12,214,310!2024-02-16,242,330-->
 
@@ -65,7 +65,7 @@ Methods to determine the end point include:
 1. _(begin)_→:::←indicator <!--SR:!2023-12-29,200,310!2024-04-07,287,330-->
 2. indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2023-07-06,73,310!2023-12-14,178,310-->
 3. [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2023-09-14,95,270!2023-12-28,200,310-->
-4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2023-06-28,65,310!2023-08-05,71,250-->
+4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2024-04-19,292,330!2023-08-05,71,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

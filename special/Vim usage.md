@@ -10,7 +10,7 @@ See also [Vim help files](https://vimhelp.org/).
 - help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2023-12-28,236,313!2024-04-23,349,333-->
 
 ## autocomplete
-- cycle forward:::\<Tab\> <!--SR:!2023-07-02,46,308!2023-10-19,185,308-->
+- cycle forward:::\<Tab\> <!--SR:!2024-01-14,196,328!2023-10-19,185,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2024-05-07,317,288-->
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-07-08,32,153!2023-08-03,37,248-->
 
@@ -63,7 +63,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2023-10-19,187,308-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2024-01-19,254,313-->
 - restore last changed line:::U <!--SR:!2024-02-02,264,313!2023-10-22,199,308-->
-- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2023-06-28,106,273!2024-02-21,281,328-->
+- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2024-04-14,287,273!2024-02-21,281,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2023-10-17,185,307!2024-05-29,381,348-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2024-01-13,249,313!2023-10-17,183,307-->
 
@@ -71,13 +71,13 @@ See also [Vim help files](https://vimhelp.org/).
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2024-03-24,279,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2023-08-02,90,230!2023-10-18,184,308-->
 - repeat last search:::n <!--SR:!2024-01-29,260,313!2023-10-11,180,308-->
-- repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2023-06-29,98,268-->
+- repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2024-07-14,378,288-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2023-07-04,94,273!2024-07-25,396,293-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2023-07-21,116,273!2024-01-18,225,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-10-12,157,253!2024-03-07,307,333-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-07-02,95,268!2023-08-08,49,188-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2023-08-23,52,248!2023-08-08,49,188-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-10-19,130,253!2023-12-30,237,313-->
 
 ## options

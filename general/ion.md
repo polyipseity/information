@@ -364,7 +364,7 @@ return chain.from_iterable(await gather(
 1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-07-23,56,221-->
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2023-07-15,69,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-10-31,160,321-->
-4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-06-30,33,261-->
+4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-10-03,93,261-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2023-07-22,88,361-->
 6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2023-07-17,84,361-->
 7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2023-07-08,27,242-->
@@ -437,7 +437,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2023-04-08T13:39:40.618568+08:00. Any edits will be overridden! -->
 
-1. hydride ion::1- <!--SR:!2023-06-30,370,299-->
+1. hydride ion::1- <!--SR:!2027-09-22,1543,319-->
 2. fluoride ion::1- <!--SR:!2025-04-20,869,292-->
 3. chloride ion::1- <!--SR:!2028-03-14,1789,374-->
 4. bromide ion::1- <!--SR:!2025-03-11,823,293-->

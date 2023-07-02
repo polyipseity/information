@@ -18,7 +18,7 @@ Chlorine {{[disproportionates](disproportionation.md) to produce [chloride](chlo
 
 > [disproportionation](disproportionation.md) of chlorine
 > - {{Cl<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ HOCl(aq) + HCl(aq)}} K<sub>ac</sub> = 4.2×10<sup>−4</sup> mol<sup>2</sup> L<sup>−2</sup>
-> - {{Cl<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) ⇌ OCl<sup>-</sup>(aq) + Cl<sup>-</sup>(aq) + 2H<sub>2</sub>O(l)}} K<sub>alk</sub> = 7.5×10<sup>15</sup> mol<sup>−1</sup> L <!--SR:!2023-12-20,197,310!2023-06-29,69,310-->
+> - {{Cl<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) ⇌ OCl<sup>-</sup>(aq) + Cl<sup>-</sup>(aq) + 2H<sub>2</sub>O(l)}} K<sub>alk</sub> = 7.5×10<sup>15</sup> mol<sup>−1</sup> L <!--SR:!2023-12-20,197,310!2024-01-27,209,310-->
 
 The [hypochlorite](hypochlorite.md) ions {{further disproportionate to produce [chloride](chloride.md) and [chlorate](chlorate.md) ions but this is very slow below 70 °C}}: <!--SR:!2023-10-24,140,250-->
 

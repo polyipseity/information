@@ -71,8 +71,8 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-05-07T22:54:11.286935+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2023-10-09,120,337!2023-10-15,126,337-->
-2. [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2023-06-28,52,258!2023-07-04,67,318-->
-3. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-07-10,72,318!2023-07-02,65,318-->
-4. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2024-02-01,227,318!2023-07-01,64,318-->
+2. [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2024-01-20,202,278!2023-07-04,67,318-->
+3. [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2023-07-10,72,318!2024-04-27,300,338-->
+4. [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2024-02-01,227,318!2023-08-06,35,298-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

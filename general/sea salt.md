@@ -30,7 +30,7 @@ return await memorize_seq(
 ```
 %%
 
-Sea salt can be extracted from {{[seawater](seawater.md)}}: <!--SR:!2023-06-30,67,310-->
+Sea salt can be extracted from {{[seawater](seawater.md)}}: <!--SR:!2024-04-29,302,330-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dae29a"--><!-- The following content is generated at 2023-04-03T18:30:21.755942+08:00. Any edits will be overridden! -->
 

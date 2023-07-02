@@ -46,7 +46,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd21"--><!-- The following content is generated at 2023-04-07T10:29:27.473816+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2023-06-28,61,310!2024-03-16,263,330-->
+1. _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2024-01-14,196,310!2024-03-16,263,330-->
 2. [desiccant](desiccant.md)→:::←[separation](separation%20process.md) <!--SR:!2023-07-10,72,310!2023-07-04,67,310-->
 3. [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2023-07-11,73,310!2023-07-05,68,310-->
 
