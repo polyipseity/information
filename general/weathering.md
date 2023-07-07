@@ -17,13 +17,13 @@ tags:
 
 __Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}. <!--SR:!2023-07-24,62,230!2023-12-24,200,310-->
 
-Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2023-07-03,70,310-->
+Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}. <!--SR:!2024-06-03,332,330-->
 
 ## physical weathering
 
 ### frost weathering
 
-_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_frost wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}. <!--SR:!2023-07-26,49,230!2023-07-20,31,270!2023-07-05,59,250-->
+_Frost weathering_ or _frost action_ is {{weathering caused by formation of [ice](ice.md) in outcrops}}. In {{_frost wedging_}}, {{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}}. <!--SR:!2023-07-26,49,230!2023-07-20,31,270!2023-12-04,150,250-->
 
 ### thermal stress
 
@@ -60,8 +60,8 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a9dd"--><!-- The following content is generated at 2023-04-03T18:30:21.793840+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md) <!--SR:!2024-04-17,290,330!2023-07-04,71,310-->
+1. _(begin)_→:::←CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md) <!--SR:!2024-04-17,290,330!2024-06-02,331,330-->
 2. CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md)→:::←H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md) <!--SR:!2023-09-02,109,290!2024-04-28,301,330-->
-3. H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→:::←_(end)_ <!--SR:!2023-07-06,73,310!2024-04-29,302,330-->
+3. H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→:::←_(end)_ <!--SR:!2024-06-01,330,330!2024-04-29,302,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

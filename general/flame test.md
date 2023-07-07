@@ -15,7 +15,7 @@ tags:
 
 ## procedure
 
-The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below: <!--SR:!2023-07-06,58,270-->
+The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below: <!--SR:!2023-12-18,164,270-->
 
 %%
 ```Python
@@ -90,7 +90,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2023-04-23T13:13:45.541144+08:00. Any edits will be overridden! -->
 
 1. [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-07-26,73,270-->
-2. [copper](copper.md)(I)::blue-green <!--SR:!2023-07-04,49,210-->
+2. [copper](copper.md)(I)::blue-green <!--SR:!2023-08-04,28,190-->
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2023-07-28,39,210-->
 4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-07-21,66,250-->
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-07-29,74,270-->

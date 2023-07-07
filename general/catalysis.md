@@ -56,17 +56,17 @@ return await memorize_table(
 > | {{[contact process](contact%20process.md)}} | {{[Vanadium(V) oxide](vanadium(V)%20oxide.md) catalyzes the [oxidation](redox%20reaction.md) of [SO<sub>2</sub>](sulfur%20dioxide.md) to [SO<sub>3</sub>](sulfur%20trioxide.md) in making [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md).}} |
 > | {{[fermentation](fermentation.md)}} | {{[Enzymes](enzyme.md) catalyze [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyze the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).}} |
 > | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
-> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2023-07-07,73,310!2023-07-07,73,310!2023-07-07,73,310!2023-07-18,29,270!2023-07-07,73,310!2023-07-07,18,210!2023-07-07,73,310!2023-09-12,111,290!2023-07-07,73,310!2023-11-20,141,250-->
+> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2024-05-24,322,330!2024-05-29,327,330!2024-05-26,324,330!2023-07-18,29,270!2024-05-28,326,330!2023-08-16,40,210!2024-05-18,316,330!2023-09-12,111,290!2024-05-22,320,330!2023-11-20,141,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394f"--><!-- The following content is generated at 2023-04-03T21:50:10.322280+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2023-07-07,73,310!2023-07-07,73,310-->
-2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2023-09-20,117,290!2023-07-07,73,310-->
-3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2023-07-07,73,310!2023-11-02,142,290-->
-4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2023-07-07,73,310!2023-09-21,116,270-->
-5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2023-07-07,73,310!2023-11-15,168,310-->
-6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2023-07-07,73,310!2023-08-07,82,270-->
+1. _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2024-05-30,328,330!2024-05-21,319,330-->
+2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2023-09-20,117,290!2024-05-19,317,330-->
+3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2024-05-27,325,330!2023-11-02,142,290-->
+4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2024-05-20,318,330!2023-09-21,116,270-->
+5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2024-05-23,321,330!2023-11-15,168,310-->
+6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2023-08-07,82,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

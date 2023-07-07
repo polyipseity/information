@@ -57,7 +57,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45af"--><!-- The following content is generated at 2023-04-07T10:57:10.995105+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[analgesic](analgesic.md) <!--SR:!2024-04-16,289,330!2024-03-09,256,330-->
-2. [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md) <!--SR:!2024-04-15,288,330!2023-07-05,68,310-->
+2. [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md) <!--SR:!2024-04-15,288,330!2024-02-08,216,310-->
 3. [anti-inflammation](anti-inflammatory.md)→:::←prevention of [heart attack](myocardial%20infarction.md) <!--SR:!2023-07-11,73,310!2024-04-06,279,330-->
 4. prevention of [heart attack](myocardial%20infarction.md)→:::←relieve [fever](fever.md) <!--SR:!2023-07-09,71,310!2024-04-18,291,330-->
 5. relieve [fever](fever.md)→:::←_(end)_ <!--SR:!2024-04-19,292,330!2023-08-06,35,290-->

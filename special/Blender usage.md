@@ -14,8 +14,8 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - open file:::Ctrl+O <!--SR:!2023-09-24,197,315!2023-09-25,197,316-->
 - save file:::Ctrl+S <!--SR:!2024-02-20,313,336!2024-01-13,285,336-->
-- new file:::Ctrl+N <!--SR:!2023-12-02,238,290!2023-07-07,121,296-->
-- undo:::Ctrl+Z <!--SR:!2023-09-28,197,310!2023-07-07,121,296-->
+- new file:::Ctrl+N <!--SR:!2023-12-02,238,290!2024-11-23,505,316-->
+- undo:::Ctrl+Z <!--SR:!2023-09-28,197,310!2024-11-26,508,316-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2023-08-14,162,310!2023-08-01,49,236-->
 - quit:::Ctrl+Q <!--SR:!2024-10-30,486,310!2024-03-21,329,316-->
 - help:::F1 <!--SR:!2024-10-31,487,310!2023-08-10,147,290-->
@@ -27,31 +27,31 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - quick access:::Q <!--SR:!2023-10-27,200,270!2023-09-27,155,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-07-18,16,130!2023-09-11,153,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2023-07-16,89,190!2023-08-16,110,196-->
-- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2023-07-03,126,296-->
+- cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2023-07-30,149,296!2023-08-03,150,296-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-08-26,55,230!2023-09-03,68,195-->
 
 ### editing
 
 - delete w/ confirmation:::X <!--SR:!2023-08-02,155,310!2023-08-15,166,316-->
-- delete w/o confirmation:::Delete <!--SR:!2023-07-06,131,310!2024-09-06,439,296-->
+- delete w/o confirmation:::Delete <!--SR:!2025-01-28,571,330!2024-09-06,439,296-->
 
 ### editor
 
 - select all:::A <!--SR:!2023-10-07,179,276!2023-10-27,221,316-->
-- select none:::Alt+A <!--SR:!2023-07-03,106,256!2023-12-21,231,276-->
+- select none:::Alt+A <!--SR:!2024-08-23,413,276!2023-12-21,231,276-->
 - invert selection:::Ctrl+I <!--SR:!2023-08-06,92,250!2024-01-03,232,276-->
-- hide selection:::H <!--SR:!2023-07-08,46,230!2023-07-04,127,290-->
+- hide selection:::H <!--SR:!2023-07-08,46,230!2024-11-29,511,310-->
 - reveal hidden:::Alt+H <!--SR:!2023-09-21,160,250!2023-10-07,164,256-->
 - toggle toolbar:::T <!--SR:!2024-09-28,459,310!2024-01-24,246,276-->
 - toggle sidebar:::N <!--SR:!2023-09-16,157,256!2023-07-17,27,176-->
 
 ### 3D viewport
 
-- toggle edit mode:::Tab↹ <!--SR:!2023-07-04,126,290!2023-08-23,155,296-->
+- toggle edit mode:::Tab↹ <!--SR:!2024-11-30,512,310!2023-08-23,155,296-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2024-06-23,370,276!2023-08-04,40,196-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2023-07-12,125,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2023-09-04,164,296-->
-	- +expand/contract selection:::+Ctrl <!--SR:!2023-08-20,62,276!2023-07-04,107,256-->
+	- +expand/contract selection:::+Ctrl <!--SR:!2023-08-20,62,276!2023-09-03,58,236-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-07-23,52,210!2023-08-22,88,236-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-12-11,214,270!2023-07-15,46,155-->

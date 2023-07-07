@@ -63,7 +63,7 @@ Methods to determine the end point include:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="248f"--><!-- The following content is generated at 2023-03-23T18:13:41.634856+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←indicator <!--SR:!2023-12-29,200,310!2024-04-07,287,330-->
-2. indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2023-07-06,73,310!2023-12-14,178,310-->
+2. indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2024-05-30,328,330!2023-12-14,178,310-->
 3. [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2023-09-14,95,270!2023-12-28,200,310-->
 4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2024-04-19,292,330!2023-08-05,71,250-->
 

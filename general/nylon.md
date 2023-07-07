@@ -48,7 +48,7 @@ return await memorize_table(
 ```
 %%
 
-The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2023-07-03,14,170-->
+The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2023-07-17,10,150-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2023-04-08T00:21:13.395338+08:00. Any edits will be overridden! -->
 
@@ -75,7 +75,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 5. oil-proof→:::←smooth <!--SR:!2023-07-25,69,250!2023-08-28,70,210-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2023-07-08,69,310!2023-07-15,62,250-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2024-01-15,197,310!2023-09-29,124,290-->
-8. [tough](toughness.md)→:::←washable <!--SR:!2023-07-03,65,310!2023-07-24,22,190-->
+8. [tough](toughness.md)→:::←washable <!--SR:!2024-02-03,211,310!2023-07-24,22,190-->
 9. washable→:::←[waterproof](waterproof.md) <!--SR:!2024-03-17,264,330!2023-07-12,73,310-->
 10. [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2024-03-12,261,330!2023-09-12,77,270-->
 

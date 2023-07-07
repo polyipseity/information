@@ -20,7 +20,7 @@ tags:
 __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical reaction](chemical%20reaction.md) in which an [acid](acid.md) reacts with a [base](base%20(chemistry).md)}}. A definition based on the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md) is: <!--SR:!2023-12-09,173,278-->
 
 > neutralization in the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md)
-> - {{AH + B → A + BH}} <!--SR:!2023-07-06,74,318-->
+> - {{AH + B → A + BH}} <!--SR:!2024-06-14,343,338-->
 
 ## applications
 
@@ -59,6 +59,6 @@ return await memorize_table(
 2. [antacids](antacid.md)→:::←control of [soil pH](soil%20pH.md) <!--SR:!2024-01-27,216,318!2023-08-10,60,278-->
 3. control of [soil pH](soil%20pH.md)→:::←production of [fertilizer](fertilizer.md) <!--SR:!2023-07-13,65,258!2023-09-14,74,278-->
 4. production of [fertilizer](fertilizer.md)→:::←[wastewater treatment](water%20treatment.md) <!--SR:!2023-11-21,161,298!2023-11-10,151,298-->
-5. [wastewater treatment](water%20treatment.md)→:::←_(end)_ <!--SR:!2024-03-26,275,330!2023-07-06,74,318-->
+5. [wastewater treatment](water%20treatment.md)→:::←_(end)_ <!--SR:!2024-03-26,275,330!2024-03-04,241,318-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -46,7 +46,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="66da"--><!-- The following content is generated at 2023-03-26T19:44:39.037332+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[intermolecular forces](intermolecular%20force.md) <!--SR:!2024-05-16,319,330!2023-07-04,73,310-->
+1. _(begin)_→:::←[intermolecular forces](intermolecular%20force.md) <!--SR:!2024-05-16,319,330!2024-06-09,338,330-->
 2. [intermolecular forces](intermolecular%20force.md)→:::←_(end)_ <!--SR:!2024-05-14,317,330!2024-05-15,318,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

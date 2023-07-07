@@ -20,7 +20,7 @@ tags:
 
 # electric battery
 
-A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2023-07-06,62,250!2024-05-17,320,330-->
+A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2023-08-09,33,230!2024-05-17,320,330-->
 
 [Primary batteries](primary%20battery.md) are {{discharged once only and then [discarded](disposable%20product.md)}}. [Secondary batteries](rechargeable%20battery.md) can be {{discharged and recharged multiple times before being discarded}}. <!--SR:!2024-01-10,213,310!2023-12-10,187,310-->
 
@@ -74,7 +74,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-03-30T18:11:29.706415+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2024-04-19,297,330!2023-07-03,73,310-->
+1. _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2024-04-19,297,330!2024-06-15,344,330-->
 2. [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2023-12-01,185,310!2023-12-20,197,310-->
 3. [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2023-11-20,176,310!2023-12-17,193,310-->
 4. [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_ <!--SR:!2024-04-18,298,330!2023-12-11,188,310-->
@@ -89,7 +89,7 @@ return chain.from_iterable(await gather(
 > |-|-|-|-|-|-|-|
 > | {{[NiMH](nickel–metal%20hydride%20battery.md)}} | {{[H](hydrogen.md)-absorbing [alloy](alloy.md)}} | {{[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{/1.2 V}} | {{<ul><li>expensive</li><li>high discharge rate</li><li>high energy density</li><li>low [internal resistance](internal%20resistance.md)</li><li>rechargeable up to 500 (180–2000) times</li></ul>}} | {{Usually cylindrical. Suitable for high-drain devices.}} |
 > | {{[lead–acid](lead–acid%20battery.md)}} | {{[Pb](lead.md)}} | {{[PbO<sub>2</sub>](lead%20dioxide.md)}} | {{[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md)}} | {{/2.1 V (6 cells: 12 V)}} | {{<ul><li>cheap [electricity](electricity.md)</li><li>expensive</li><li>heavy</li><li>high [current](electric%20current.md)</li><li>high discharge rate</li><li>[lead](lead.md) [toxicity](toxicity.md)</li><li>rechargeable 500 (&lt;350) times</li></ul>}} | {{Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md).}} |
-> | {{[lithium-ion](lithium-ion%20battery.md)}} | {{[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))}} | {{[Li](lithium.md) metal [oxide](oxide.md)}} | {{[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)}} | {{/3.7 V}} | {{<ul><li>aging</li><li>very expensive</li><li>high discharge rate</li><li>high energy density</li><li>lightweight</li><li>protection circuitry needed for safety</li><li>rechargeable up to 1200 (400–1200) times</li><li>susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)</li></ul>}} | {{Usually cylindrical or prismatic. Suitable for portable devices.}} | <!--SR:!2023-12-13,190,310!2023-08-30,59,230!2023-11-11,139,250!2024-01-25,207,270!2023-07-15,13,210!2023-07-05,16,190!2023-08-07,57,250!2024-05-19,322,330!2024-04-15,295,330!2023-09-08,105,270!2023-08-01,70,250!2024-03-17,271,330!2023-08-23,52,210!2023-07-25,75,290!2024-04-17,297,330!2023-08-12,88,270!2023-07-17,28,230!2023-07-27,68,250!2023-07-03,14,230!2023-08-12,74,230!2024-02-01,234,310-->
+> | {{[lithium-ion](lithium-ion%20battery.md)}} | {{[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))}} | {{[Li](lithium.md) metal [oxide](oxide.md)}} | {{[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)}} | {{/3.7 V}} | {{<ul><li>aging</li><li>very expensive</li><li>high discharge rate</li><li>high energy density</li><li>lightweight</li><li>protection circuitry needed for safety</li><li>rechargeable up to 1200 (400–1200) times</li><li>susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)</li></ul>}} | {{Usually cylindrical or prismatic. Suitable for portable devices.}} | <!--SR:!2023-12-13,190,310!2023-08-30,59,230!2023-11-11,139,250!2024-01-25,207,270!2023-07-15,13,210!2023-08-12,36,190!2023-08-07,57,250!2024-05-19,322,330!2024-04-15,295,330!2023-09-08,105,270!2023-08-01,70,250!2024-03-17,271,330!2023-08-23,52,210!2023-07-25,75,290!2024-04-17,297,330!2023-08-12,88,270!2023-07-17,28,230!2023-07-27,68,250!2023-08-17,41,230!2023-08-12,74,230!2024-02-01,234,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -104,4 +104,4 @@ return chain.from_iterable(await gather(
 
 ## hazards
 
-Many batteries contain {{[toxic](toxicity.md) materials such as [cadmium](cadmium.md), [lead](lead.md), and [mercury](mercury.md)}}, so {{proper disposal is needed to prevent contamination of the environment}}. {{[Recycling batteries](battery%20recycling.md) and using [secondary batteries](rechargeable%20battery.md)}} can reduce waste as well. <!--SR:!2023-07-03,38,230!2023-11-12,154,290!2024-03-07,262,330-->
+Many batteries contain {{[toxic](toxicity.md) materials such as [cadmium](cadmium.md), [lead](lead.md), and [mercury](mercury.md)}}, so {{proper disposal is needed to prevent contamination of the environment}}. {{[Recycling batteries](battery%20recycling.md) and using [secondary batteries](rechargeable%20battery.md)}} can reduce waste as well. <!--SR:!2023-10-11,96,230!2023-11-12,154,290!2024-03-07,262,330-->
