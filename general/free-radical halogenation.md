@@ -46,8 +46,8 @@ return await memorize_seq(
 
 1. _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2024-01-15,218,317!2023-07-10,78,319-->
 2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2023-07-08,76,319!2023-09-13,106,259-->
-3. [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2024-03-12,267,337!2023-07-07,75,319-->
-4. [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2023-07-07,75,319!2023-07-09,77,319-->
+3. [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2024-03-12,267,337!2024-06-16,345,339-->
+4. [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2024-06-17,346,339!2023-07-09,77,319-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

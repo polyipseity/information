@@ -9,7 +9,7 @@ tags:
 
 # iron(II) hydroxide
 
-__Iron(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Fe](iron.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{green [solid](solid.md)}}. <!--SR:!2023-07-05,73,310!2023-09-15,110,270-->
+__Iron(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Fe](iron.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{green [solid](solid.md)}}. <!--SR:!2024-06-09,338,330!2023-09-15,110,270-->
 
 ## preparation
 

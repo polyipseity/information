@@ -32,7 +32,7 @@ Most esters have {{a pleasant fruity smell}}. <!--SR:!2023-12-15,192,310-->
 
 ### solubility
 
-Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-08-29,107,290!2023-07-07,73,310-->
+Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ester. <!--SR:!2023-08-29,107,290!2024-05-29,327,330-->
 
 ## chemical properties
 
@@ -40,7 +40,7 @@ Esters {{that are small are [soluble](solubility.md) in [water](water.md)}}. Sol
 
 In acid [hydrolysis](hydrolysis.md), esters {{undergo the reverse of [Fischer–Speier esterification](Fischer–Speier%20esterification.md) in [acidic](acid.md) conditions. Non-[dehydrating](dehydration%20reaction.md) dilute acids are used with heating (under [reflux](reflux.md)) to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-07-11,46,196-->
 
-In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic](nucleophile.md) [hydroxide](hydroxide.md) to give [carboxylates](carboxylate.md) and [alcohols](alcohol.md) in [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. It is the basis of {{[saponification](saponification.md)}}. <!--SR:!2023-09-29,94,216!2023-07-06,69,316-->
+In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic](nucleophile.md) [hydroxide](hydroxide.md) to give [carboxylates](carboxylate.md) and [alcohols](alcohol.md) in [basic](base%20(chemistry).md) conditions. Heating (under [reflux](reflux.md)) is used to speed up the reaction. Carboxylates can then be [protonated](protonation.md) by increasing the [acidity](pH.md) like adding dilute [acids](acid.md)}}. It is the basis of {{[saponification](saponification.md)}}. <!--SR:!2023-09-29,94,216!2024-05-17,315,336-->
 
 ### reactions
 
@@ -69,7 +69,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="333d"--><!-- The following content is generated at 2023-04-07T00:25:31.879060+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-07-07,70,316!2023-07-12,74,316-->
-2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-07-07,70,316!2023-07-06,69,316-->
+1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2024-02-13,221,316!2023-07-12,74,316-->
+2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2024-05-18,316,336!2024-02-12,220,316-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

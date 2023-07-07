@@ -45,8 +45,8 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba04"--><!-- The following content is generated at 2023-03-21T16:20:25.412341+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←coins, jewellery <!--SR:!2023-07-03,70,310!2024-05-04,307,330-->
-2. coins, jewellery→:::←electrical and electronic components <!--SR:!2023-12-15,179,310!2023-07-06,73,310-->
-3. electrical and electronic components→:::←_(end)_ <!--SR:!2023-07-05,72,310!2024-05-01,304,330-->
+1. _(begin)_→:::←coins, jewellery <!--SR:!2024-05-23,321,330!2024-05-04,307,330-->
+2. coins, jewellery→:::←electrical and electronic components <!--SR:!2023-12-15,179,310!2024-05-15,313,330-->
+3. electrical and electronic components→:::←_(end)_ <!--SR:!2024-05-22,320,330!2024-05-01,304,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

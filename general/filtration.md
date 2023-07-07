@@ -6,7 +6,7 @@ tags:
 
 # filtration
 
-__Filtration__ is {{a physical [separation process](separation%20process.md) that separates [solid](solid.md) from [fluid](fluid.md) in a [mixture](mixture.md) using a _[filter medium](#filter%20medium)_}}. Solid that cannot pass through is called the {{_residue_}} and fluid that passes through is called the {{_filtrate_}}. <!--SR:!2023-07-03,27,190!2023-12-09,186,310!2023-12-14,190,310-->
+__Filtration__ is {{a physical [separation process](separation%20process.md) that separates [solid](solid.md) from [fluid](fluid.md) in a [mixture](mixture.md) using a _[filter medium](#filter%20medium)_}}. Solid that cannot pass through is called the {{_residue_}} and fluid that passes through is called the {{_filtrate_}}. <!--SR:!2023-09-04,59,190!2023-12-09,186,310!2023-12-14,190,310-->
 
 ## filter medium
 

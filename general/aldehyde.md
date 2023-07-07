@@ -32,7 +32,7 @@ Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2023-09-14,95,2
 
 ### solubility
 
-Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the aldehyde. <!--SR:!2023-07-07,73,310!2023-07-07,73,310-->
+Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the aldehyde. <!--SR:!2024-05-30,328,330!2024-05-20,318,330-->
 
 ## chemical properties
 

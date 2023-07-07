@@ -66,7 +66,7 @@ return await memorize_map(
 2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2023-09-09,106,270-->
 3. [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2023-07-11,58,230-->
 4. [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2023-11-03,145,290-->
-5. [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2023-07-04,72,310-->
+5. [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2024-06-01,330,330-->
 6. [tennessine](tennessine.md)::unknown <!--SR:!2024-04-28,301,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -75,8 +75,8 @@ return await memorize_map(
 
 1. reacts explosively in the dark and cold::[fluorine](fluorine.md) <!--SR:!2024-05-05,308,330-->
 2. reacts explosively in light and heat; slowly without::[chlorine](chlorine.md) <!--SR:!2023-07-25,66,230-->
-3. reacts explosively in flames; moderately in light and heat::[bromine](bromine.md) <!--SR:!2023-07-05,73,310-->
-4. reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2023-07-03,71,310-->
+3. reacts explosively in flames; moderately in light and heat::[bromine](bromine.md) <!--SR:!2024-02-21,229,310-->
+4. reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2024-05-31,329,330-->
 5. unknown::[tennessine](tennessine.md) <!--SR:!2023-07-09,44,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

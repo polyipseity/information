@@ -26,4 +26,4 @@ For [ammonium chloride](ammonium%20chloride.md) [electrolyte](electrolyte.md):
 For [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md):
 
 > - {{ZnCl<sub>2</sub>(aq) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) + 2e<sup>-</sup> → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s) + 2Cl<sup>-</sup>(aq)}}
-> - overall: {{Zn(s) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s)}} <!--SR:!2023-07-09,39,230!2023-07-04,57,250-->
+> - overall: {{Zn(s) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s)}} <!--SR:!2023-07-09,39,230!2023-11-30,146,250-->
