@@ -10,6 +10,7 @@ tags:
 
 - https://account.microsoft.com/profile/edit-picture: polyipseity@outlook.com
 - https://appleid.apple.com/account/manage/section/information: polyipseity@gmail.com
+- https://buymeacoffee.com/polyipseity
 - https://discord.com/: polyipseity
 - https://github.com/polyipseity
 - https://myaccount.google.com/: polyipseity@gmail.com
