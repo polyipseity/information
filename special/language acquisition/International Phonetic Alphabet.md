@@ -28,7 +28,7 @@ from pytextgen.util import NULL_LOCATION, Result
 e = __env__
 letters = (
 	(R'[open front unrounded vowel](open%20front%20unrounded%20vowel.md) \[a\]', '![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _h**a**t_ \[hat\]',),
-	(R'[open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]',),
+	(R'[open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _br**a**_ \[bɹäː\]',),
 	(R'[near-open central vowel](near-open%20central%20vowel.md) \[ɐ\]', '![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _n**u**t_ \[nɐʔt\]',),
 	(R'[open back unrounded vowel](open%20back%20unrounded%20vowel.md) \[ɑ\]', '![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\]',),
 	(R'[nasalized open back unrounded vowel](nasal%20vowel.md) \[ɑ̃\]', '![nasalized open back unrounded vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)', R'[French](French%20language.md) _s**an**s_ [sɑ̃] "without"',),
@@ -277,12 +277,12 @@ Different brackets used to enclose IPA transcriptions have different meanings:
 
 Here is a list of common IPA letters and their pronunciations:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-06-18T11:06:15.479689+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2023-07-10T23:58:13.198861+08:00. Any edits will be overridden! -->
 
 > | symbol | audio | description |
 > |-|-|-|
 > | [open front unrounded vowel](open%20front%20unrounded%20vowel.md) \[a\] | ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _h**a**t_ \[hat\]}} |
-> | [open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\] | ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _br**a**_ \[bɹɐ̞ː\]}} |
+> | [open central unrounded vowel](open%20central%20unrounded%20vowel.md) \[ä\] | ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _br**a**_ \[bɹäː\]}} |
 > | [near-open central vowel](near-open%20central%20vowel.md) \[ɐ\] | ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _n**u**t_ \[nɐʔt\]}} |
 > | [open back unrounded vowel](open%20back%20unrounded%20vowel.md) \[ɑ\] | ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg) | {{[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\]}} |
 > | [nasalized open back unrounded vowel](nasal%20vowel.md) \[ɑ̃\] | ![nasalized open back unrounded vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg) | {{[French](French%20language.md) _s**an**s_ [sɑ̃] "without"}} |
