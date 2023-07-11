@@ -1,6 +1,10 @@
+[submodule "arts"]
+	path = self/arts
+	url = ../information-arts.git
+	branch = main
 [submodule "private"]
 	path = private
-	url = ../notes-private.git
+	url = ../information-private.git
 	branch = forks/polyipseity
 [submodule "pyarchivist"]
 	path = tools/pyarchivist
