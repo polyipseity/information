@@ -4,7 +4,7 @@
 	branch = main
 [submodule "private"]
 	path = private
-	url = ../notes-private.git
+	url = ../information-private.git
 	branch = main
 [submodule "pyarchivist"]
 	path = tools/pyarchivist
