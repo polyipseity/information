@@ -15,7 +15,7 @@ tags:
 
 # free-radical halogenation
 
-__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2023-07-17,75,279-->
+__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2024-02-13,210,279-->
 
 ## general mechanism
 
@@ -44,10 +44,10 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda0"--><!-- The following content is generated at 2023-03-25T13:43:14.295187+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2024-01-15,218,317!2023-07-10,78,319-->
-2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2023-07-08,76,319!2023-09-13,106,259-->
+1. _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2024-01-15,218,317!2024-07-30,378,339-->
+2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2024-07-28,376,339!2023-09-13,106,259-->
 3. [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2024-03-12,267,337!2024-06-16,345,339-->
-4. [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2024-06-17,346,339!2023-07-09,77,319-->
+4. [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2024-06-17,346,339!2024-07-27,375,339-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

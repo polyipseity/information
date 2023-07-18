@@ -24,7 +24,7 @@ Alkenes have similar [physical properties](physical%20property.md) to [alkanes](
 
 ## chemical properties
 
-Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}. <!--SR:!2023-07-11,67,250-->
+Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}}. <!--SR:!2024-04-04,261,270-->
 
 ### combustion
 
@@ -85,10 +85,10 @@ return await memorize_table(
 
 1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2024-01-30,238,330!2024-03-20,275,330-->
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-02-16,250,330!2023-08-01,37,290-->
-3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-07-15,39,250!2023-08-11,40,290-->
+3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-10-25,99,250!2023-08-11,40,290-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-12-16,198,310!2023-08-18,84,270-->
-5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2023-07-10,73,331!2024-03-18,267,331-->
+5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2024-03-18,267,331-->
 6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2023-08-06,48,251!2023-09-26,107,291-->
-7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2023-07-09,72,331!2023-07-19,80,331-->
+7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2024-07-25,373,351!2023-07-19,80,331-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

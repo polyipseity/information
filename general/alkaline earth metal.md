@@ -64,7 +64,7 @@ return await memorize_map(
 2. [magnesium](magnesium.md)::reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2023-07-27,62,210-->
 3. [calcium](calcium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-08-19,97,270-->
 4. [strontium](strontium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-08-31,100,250-->
-5. [barium](barium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-07-16,26,210-->
+5. [barium](barium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2023-09-17,61,210-->
 6. [radium](radium.md)::unknown <!--SR:!2024-06-04,338,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -73,11 +73,11 @@ return await memorize_map(
 
 1. no reaction with water or steam::[beryllium](beryllium.md) <!--SR:!2023-09-20,129,290-->
 2. reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas::[magnesium](magnesium.md) <!--SR:!2023-08-20,96,270-->
-3. reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2023-07-18,69,250-->
+3. reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2024-01-07,173,250-->
 4. unknown::[radium](radium.md) <!--SR:!2023-10-12,135,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### reaction with acids
 
-Alkaline earth metals {{react readily with [acids](acid.md) to form [hydrogen](hydrogen.md)}}. <!--SR:!2023-07-17,69,250-->
+Alkaline earth metals {{react readily with [acids](acid.md) to form [hydrogen](hydrogen.md)}}. <!--SR:!2024-01-08,174,250-->

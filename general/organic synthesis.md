@@ -44,7 +44,7 @@ return await memorize_table(
 > | {{formation of [by-products](by-product.md)}} | {{Avoid forming [by-products](by-product.md), especially harmful ones.}} |
 > | {{number of steps}} | {{Less steps mean less loss.}} |
 > | {{[reaction rate](reaction%20rate.md)}} | {{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}} |
-> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2024-03-01,250,330!2024-03-18,265,332!2023-07-10,71,312!2023-10-12,134,292!2023-07-09,70,312!2024-01-21,203,312!2024-05-13,311,332!2023-10-09,132,292!2024-03-02,251,332!2023-08-07,85,272-->
+> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2024-03-01,250,330!2024-03-18,265,332!2024-06-30,348,332!2023-10-12,134,292!2024-06-29,347,332!2024-01-21,203,312!2024-05-13,311,332!2023-10-09,132,292!2024-03-02,251,332!2023-08-07,85,272-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -52,7 +52,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←availability <!--SR:!2024-01-19,201,312!2024-03-03,252,332-->
 2. availability→:::←formation of [by-products](by-product.md) <!--SR:!2024-03-20,267,332!2024-05-10,308,332-->
-3. formation of [by-products](by-product.md)→:::←number of steps <!--SR:!2023-07-11,72,312!2023-07-12,73,312-->
+3. formation of [by-products](by-product.md)→:::←number of steps <!--SR:!2024-03-10,236,312!2024-07-01,349,332-->
 4. number of steps→:::←[reaction rate](reaction%20rate.md) <!--SR:!2024-05-14,312,332!2023-11-17,151,292-->
 5. [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md) <!--SR:!2023-10-22,143,292!2023-08-21,85,272-->
 6. [yield](yield%20(chemistry).md)→:::←_(end)_ <!--SR:!2024-03-19,266,332!2024-03-13,262,332-->

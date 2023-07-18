@@ -32,7 +32,7 @@ Density {{decreases}} with increasing size. <!--SR:!2023-12-24,196,310-->
 
 ### solubility
 
-Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}. <!--SR:!2023-07-11,67,270-->
+Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}. <!--SR:!2024-05-05,292,290-->
 
 ## chemical properties
 
@@ -73,8 +73,8 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-08T23:59:05.301619+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-09-10,102,272!2023-07-10,72,312-->
-2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-10-26,111,232!2023-07-13,32,232-->
+1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-09-10,102,272!2024-03-11,237,312-->
+2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2023-10-26,111,232!2023-10-09,83,232-->
 3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2023-07-26,31,277!2023-11-11,158,297-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

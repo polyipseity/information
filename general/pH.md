@@ -17,7 +17,7 @@ It is defined as {{the negative [logarithm](logarithmic%20scale.md) of the [acti
 
 > {{$\text{pH}=-\log\left(a_{\text{H}^+}\right)\approx-\log\left(\left[\text{H}^+\text{(aq)}\right]\right)$
 >
-> where {{\[H<sup>+</sup>(aq)\] is the [equilibrium](equilibrium%20chemistry.md) [molar concentration](molar%20concentration.md) of H<sup>+</sup>}}. <!--SR:!2023-07-13,74,290-->
+> where {{\[H<sup>+</sup>(aq)\] is the [equilibrium](equilibrium%20chemistry.md) [molar concentration](molar%20concentration.md) of H<sup>+</sup>}}. <!--SR:!2024-06-11,329,310-->
 
 Solutions where {{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutral, the former is greater than the latter are [acidic](acid.md), and the former is lesser than the latter are [basic](base%20(chemistry).md)}}. At {{25 °C (77 °F), pH 7}} is neutral. <!--SR:!2023-12-07,183,310!2023-09-14,95,270-->
 
