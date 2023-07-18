@@ -1,5 +1,5 @@
 # self {
 *.md text eol=lf
 *.sh text eol=lf
-.obsidian/** text eol=lf
+/.obsidian/** text eol=lf
 # }
