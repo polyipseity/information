@@ -12,4 +12,4 @@ tags:
 
 # iron(II,III) oxide
 
-__Iron(II,III) oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Fe](iron.md)<sub>3</sub>[O](oxygen.md)<sub>4</sub>__}}. It looks like {{[solid](solid.md) black [powder](powder.md)}}. <!--SR:!2023-08-28,110,310!2023-07-18,16,150-->
+__Iron(II,III) oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Fe](iron.md)<sub>3</sub>[O](oxygen.md)<sub>4</sub>__}}. It looks like {{[solid](solid.md) black [powder](powder.md)}}. <!--SR:!2023-08-28,110,310!2023-08-14,27,150-->

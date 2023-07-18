@@ -76,7 +76,7 @@ return await memorize_table(
 4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2023-07-31,24,190!2024-05-29,327,330-->
 5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-08-05,81,270!2023-08-18,72,270-->
 6. [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2023-10-28,118,230!2023-09-06,113,290-->
-7. [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2023-10-27,142,290!2023-07-16,27,230-->
+7. [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2023-10-27,142,290!2023-10-20,94,250-->
 8. [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2023-11-11,167,310!2023-08-28,82,250-->
 9. [melting point](melting%20point.md)→:::←[odor](odor.md) <!--SR:!2023-11-04,132,250!2023-07-23,73,270-->
 10. [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2024-02-14,222,270!2023-08-15,97,290-->

@@ -202,7 +202,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
-3. most multiple bonds→:::←maximum length <!--SR:!2023-07-12,324,276!2023-11-14,245,282-->
+3. most multiple bonds→:::←maximum length <!--SR:!2023-12-28,163,256!2023-11-14,245,282-->
 4. maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-11-27,256,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2025-03-21,668,345-->
@@ -258,7 +258,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
-2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-07-09,39,201-->
+2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-10-13,87,201-->
 3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-12-02,213,210!2023-08-04,201,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -284,7 +284,7 @@ The steps for naming an organic compound are:
 
 ### prefix for type count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the first one is no prefix}}. <!--SR:!2023-07-15,92,363-->
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the first one is no prefix}}. <!--SR:!2024-06-22,340,363-->
 
 ### prefix for carbon count
 
@@ -435,7 +435,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-07-13,43,230!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-08-09,22,210!2023-08-13,197,325!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
@@ -449,7 +449,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-09-05,78,260!2023-07-26,185,321!2023-07-16,51,162!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2023-09-05,78,260!2023-07-26,185,321!2023-08-16,29,142!2024-06-02,458,362!2024-05-01,429,362-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -470,7 +470,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2024-06-17,405,281!2024-02-02,295,302!2024-05-25,452,362!2023-07-08,59,222!2023-10-05,108,227!2024-04-22,424,367-->
+> - infix: {{(locant)}} <!--SR:!2024-06-17,405,281!2024-02-02,295,302!2024-05-25,452,362!2023-12-07,142,222!2023-10-05,108,227!2024-04-22,424,367-->
 
 > {{amine}}
 > - group: {{amino}}
@@ -537,7 +537,7 @@ return (
 > | fluorine | {{fluoro-}} | {{fluoride}} |
 > | chlorine | {{chloro-}} | {{chloride}} |
 > | bromine | {{bromo-}} | {{bromide}} |
-> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2024-01-24,520,301!2027-06-10,1524,364!2023-12-25,490,304!2027-07-17,1556,366!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2023-07-18,395,353-->
+> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2024-01-24,520,301!2027-06-10,1524,364!2023-12-25,490,304!2027-07-17,1556,366!2023-11-15,442,307!2023-09-08,447,347!2024-02-25,539,312!2028-10-14,1915,373-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -593,7 +593,7 @@ return (
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2022-11-05T00:24:43.478367+08:00. Any edits will be overridden! -->
 
-1. _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2023-07-17,394,352-->
+1. _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2028-10-09,1910,372-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2023-07-19,331,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->

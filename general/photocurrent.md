@@ -9,7 +9,7 @@ tags:
 
 # photocurrent
 
-__Photocurrent__ is {{the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)}}. It may be caused by {{[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)}}. <!--SR:!2023-07-15,38,210!2024-02-18,320,290-->
+__Photocurrent__ is {{the [electric current](electric%20current.md) through a [photosensitive](photosensitivity.md) device due to exposure to [electromagnetic radiation](electromagnetic%20radiation.md)}}. It may be caused by {{[photoelectric effect](photoelectric%20effect.md) or [photovoltaic effect](photovoltaic%20effect.md)}}. <!--SR:!2023-11-24,129,230!2024-02-18,320,290-->
 
 ## calculation
 

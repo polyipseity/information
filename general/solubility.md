@@ -106,7 +106,7 @@ return (
 
 > nitrates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2023-07-09,254,216!2024-07-15,454,289-->
+> - exception(s): {{_(none)_}} <!--SR:!2025-10-17,822,236!2024-07-15,454,289-->
 
 > acetates (ethanoates)
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -146,10 +146,10 @@ return (
 
 > oxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2023-07-15,45,170-->
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2023-08-09,22,150-->
 
 > sulfides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, group II, and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-12,486,238!2023-07-08,137,190-->
+> - exception(s): {{group I, group II, and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-12,486,238!2024-09-05,415,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

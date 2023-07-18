@@ -13,7 +13,7 @@ tags:
 
 __Sulfuric acid__ or __sulphuric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __H<sub>2</sub>SO<sub>4</sub>__}}. <!--SR:!2024-04-21,294,330-->
 
-Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by [mass](mass.md)}}. <!--SR:!2023-07-18,29,270-->
+Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by [mass](mass.md)}}. <!--SR:!2023-08-04,17,250-->
 
 ## chemistry
 
@@ -21,7 +21,7 @@ Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by
 
 Dilute sulfuric acid {{oxidizes reactive [metals](metal.md) to form metal [sulfates](sulfate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-11-16,144,270-->
 
-Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxide](sulfur%20dioxide.md)}}. <!--SR:!2023-07-13,58,230-->
+Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxide](sulfur%20dioxide.md)}}. <!--SR:!2023-08-20,33,210-->
 
 ### reactions with nonmetals
 

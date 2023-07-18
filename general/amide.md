@@ -59,13 +59,13 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2023-07-11,73,319-->
+> | {{[hydrolysis](#hydrolysis)}} |  | <!--SR:!2024-07-06,354,339-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2023-04-07T00:25:31.881054+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2023-11-13,160,299!2023-08-14,92,299-->
-2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-11-14,161,299!2023-07-15,76,323-->
+2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2023-11-14,161,299!2024-07-07,355,343-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

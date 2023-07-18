@@ -22,11 +22,11 @@ Molecular formulas {{show the number of each kind of [atom](atom.md) in a [molec
 
 ### structural formula
 
-Structural formulas {{show the numbers, organization and [chemical bonds](chemical%20bond.md) of [atoms](atom.md) in a [molecule](molecule.md)}}. <!--SR:!2023-07-13,11,190-->
+Structural formulas {{show the numbers, organization and [chemical bonds](chemical%20bond.md) of [atoms](atom.md) in a [molecule](molecule.md)}}. <!--SR:!2023-08-15,28,190-->
 
 #### condensed formula
 
-Condensed formulas {{can represent simple structures in a line of text}}. [Multiple bonds](bond%20order.md) are {{generally explicitly shown}}. <!--SR:!2023-07-11,74,270!2024-01-17,225,315-->
+Condensed formulas {{can represent simple structures in a line of text}}. [Multiple bonds](bond%20order.md) are {{generally explicitly shown}}. <!--SR:!2024-05-17,304,290!2024-01-17,225,315-->
 
 #### skeletal formula
 

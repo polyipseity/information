@@ -42,7 +42,7 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-12-23,195,309!2023-07-14,52,209-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md) in the presence of an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md) to give [esters](ester.md) with heating to speed up the reaction. The reaction is [reversible](reversible%20reaction.md)}}. <!--SR:!2023-12-23,195,309!2023-11-13,118,209-->
 
 ### nucleophilic substitution
 
@@ -86,8 +86,8 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-04-08T23:59:05.282096+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2023-08-12,67,269!2024-02-18,244,329-->
-2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-08-29,71,273!2023-07-12,73,313-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-07-09,7,229!2023-07-12,29,289-->
+2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2023-08-29,71,273!2024-03-12,238,313-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-08-14,27,229!2023-12-06,141,309-->
 4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-10-31,156,309!2023-12-06,170,309-->
 5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-12-28,204,329!2024-02-14,240,329-->
 
