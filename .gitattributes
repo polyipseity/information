@@ -1,6 +1,5 @@
-# Obsidian
-.obsidian/** text eol=lf
-*.md         text eol=lf
-
-# miscellaneous
+# self {
+*.md text eol=lf
 *.sh text eol=lf
+.obsidian/** text eol=lf
+# }
