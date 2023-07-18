@@ -7,7 +7,7 @@ tags:
 # index
 _archives/sparse_
 
-Filenames are [SHA-256](../../academic/SHA-2.md) hashes of the files.
+Filenames are [SHA-256](SHA-2.md) hashes of the files.
 
 - [1dd00a095f344a61ab3e8f7713ed88e8eea6648c8379a36ac4e0ebb971fe2f57.md](1dd00a095f344a61ab3e8f7713ed88e8eea6648c8379a36ac4e0ebb971fe2f57.md)
   - source: https://www.sheepit-renderfarm.com/forum/viewtopic.php?t=2460
