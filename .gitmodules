@@ -5,7 +5,7 @@
 [submodule "private"]
 	path = private
 	url = ../information-private.git
-	branch = forks/polyipseity
+	branch = main
 [submodule "pyarchivist"]
 	path = tools/pyarchivist
 	url = https://github.com/polyipseity/pyarchivist.git
