@@ -1,7 +1,7 @@
 ---
 tags:
   - categories/academia
-  - date/2023/07/19/to
+  - date/2023/07/20/to
 ---
 
 # Joint University Programmes Admissions System 2023
@@ -27,8 +27,11 @@ tags:
 [JS5181]: https://www.jupas.edu.hk/en/programme/hkust/JS5181/
 [JS5200]: https://www.jupas.edu.hk/en/programme/hkust/JS5200/
 [JS5282]: https://www.jupas.edu.hk/en/programme/hkust/JS5282/
+[JS5313]: https://www.jupas.edu.hk/en/programme/hkust/JS5313/
 [JS5331]: https://www.jupas.edu.hk/en/programme/hkust/JS5331/
+[JS5332]: https://www.jupas.edu.hk/en/programme/hkust/JS5332/
 [JS5822]: https://www.jupas.edu.hk/en/programme/hkust/JS5822/
+[JS5901]: https://www.jupas.edu.hk/en/programme/hkust/JS5901/
 [JS6212]: https://www.jupas.edu.hk/en/programme/hku/JS6212/
 [JS6901]: https://www.jupas.edu.hk/en/programme/hku/JS6901/
 [PolyU]: https://www.jupas.edu.hk/en/programmes-offered/polyu/
@@ -54,10 +57,11 @@ __key__
 | programme | interview |
 |-|-|
 | [JS4733]/[CUHK] | yes |
-| [JS5102]/[HKUST] | +1 |
-| [JS5103]/[HKUST] | +1 |
-| [JS5181]/[HKUST] | +1 |
-| [JS5200]/[HKUST] | +0.75/1 |
+| [JS5102]/[HKUST] | +1 (band A) |
+| [JS5103]/[HKUST] | +1 (band A) |
+| [JS5181]/[HKUST] | +1 (band A) |
+| [JS5200]/[HKUST] | +0.75/1 (band A) |
+| [JS5282]/[HKUST] | +0.75/1 (band A) |
 
 ## choices
 
@@ -83,3 +87,19 @@ __key__
 18. [JS4416]/[CUHK] Computational Data Science
 19. [JS4434]/[CUHK] BEng in Electronic Engineering
 20. [JS4462]/[CUHK] BEng in Energy and Environmental Engineering
+
+### modified
+
+- timing: 2023-07-21T11:00:00+08:00/2023-07-22T11:00:00+08:00
+
+1. [JS5313]/[HKUST] BBA in Global Business: interest? time?
+2. [JS5282]/[HKUST] Engineering with an Extended Major in Artificial Intelligence
+3. [JS5101]/[HKUST] International Research Enrichment: interview? time?
+4. [JS5901]/[HKUST] BEng/BSc & BBA Dual Degree Program in Technology & Management: interview?
+5. [JS5181]/[HKUST] Science (Group A) with an Extended Major in Artificial Intelligence
+
+### modified (appeal)
+
+- considerations
+	- [JS5332]/[HKUST] BSc in Quantitative Finance
+	- scholarships
