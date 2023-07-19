@@ -20,7 +20,7 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), esters have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-07-19,69,270-->
+Due to increased [polarizability](polarizability.md), esters have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2024-01-21,186,270-->
 
 ### density
 

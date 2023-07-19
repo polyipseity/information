@@ -66,4 +66,4 @@ return await memorize_seq(
 
 ## importance
 
-In the modern two-stage fermentation process, {{the protection and oxidation steps are replaced by another [genetically modified](genetic%20engineering.md) bacteria oxidizing [sorbose](sorbose.md) to 2-ketogluonic acid directly}}. The production cost is {{two-third of the Reichstein process}}. <!--SR:!2023-07-19,42,230!2023-07-26,67,310-->
+In the modern two-stage fermentation process, {{the protection and oxidation steps are replaced by another [genetically modified](genetic%20engineering.md) bacteria oxidizing [sorbose](sorbose.md) to 2-ketogluonic acid directly}}. The production cost is {{two-third of the Reichstein process}}. <!--SR:!2023-10-25,98,230!2023-07-26,67,310-->

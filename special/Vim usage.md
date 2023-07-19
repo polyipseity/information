@@ -12,7 +12,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2024-01-14,196,328!2023-10-19,185,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2024-05-07,317,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-07-08,32,153!2023-08-03,37,248-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-10-27,100,173!2023-08-03,37,248-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2023-07-22,128,313!2024-06-03,385,348-->
@@ -20,7 +20,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2024-06-10,392,348!2023-08-26,143,288-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2024-05-09,361,333!2023-10-15,182,308-->
-- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2023-07-16,111,270!2024-09-07,440,307-->
+- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2024-09-07,440,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2024-02-15,275,328!2024-02-16,276,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2023-12-31,231,273!2023-07-25,117,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2024-04-25,350,333-->
@@ -47,7 +47,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2024-03-22,321,333!2024-06-24,404,348-->
-- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2023-07-17,113,273!2024-02-01,263,313-->
+- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2024-06-09,326,273!2024-02-01,263,313-->
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-12-06,237,313-->
 
 ## visual
@@ -55,7 +55,7 @@ See also [Vim help files](https://vimhelp.org/).
 - highlight characters:::v <!--SR:!2023-11-07,214,328!2023-10-23,188,308-->
 - highlight lines:::V <!--SR:!2024-04-16,296,273!2023-12-17,175,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2024-02-24,270,273!2024-05-24,375,348-->
-- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2023-07-14,107,273!2023-08-06,127,288-->
+- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2023-08-06,127,288-->
 
 ## edit
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2024-05-28,380,347!2023-10-10,179,308-->
@@ -88,5 +88,5 @@ See also [Vim help files](https://vimhelp.org/).
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->
-- incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-07-17,113,273-->
+- incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-09-18,61,253-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-10-16,184,308-->
