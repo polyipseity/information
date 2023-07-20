@@ -142,7 +142,7 @@ return (
 
 > hydroxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is poorly soluble)}} <!--SR:!2023-07-20,273,230!2023-09-04,183,230-->
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is poorly soluble)}} <!--SR:!2025-04-08,628,230!2023-09-04,183,230-->
 
 > oxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}

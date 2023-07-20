@@ -520,7 +520,7 @@ Here is a list of common IPA letters and their pronunciations:
 113. [glottal stop](glottal%20stop.md) \[ʔ\]::![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)
 114. [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) \[ʕ\]::![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)
 115. [tenuis dental click](tenuis%20dental%20click.md) \[ǀ\]::![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)
-116. [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\]::![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) <!--SR:!2023-07-12,16,264-->
+116. [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\]::![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) <!--SR:!2023-07-29,9,244-->
 117. [tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\]::![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg)
 118. [tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\]::![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)
 119. [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\]::![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)
@@ -669,6 +669,6 @@ Here is a list of common IPA diacritics and their descriptions:
 > | {{[half-long](half-longness%20(phonetics).md) \[◌ˑ\] (e.g. [aˑ])}} | {{[English](English%20language.md) _caught_ \[ˈkʰɔˑt\]}} |
 > | {{[primary stress](stress%20(lingustics).md) \[ˈ◌\] (e.g. [ˈa])}} | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
 > | {{[secondary stress](secondary%20stress.md) \[ˌ◌\] (e.g. [ˌa])}} | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
-> | {{[syllable break](syllable.md) \[.\]}} | {{[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]}} | <!--SR:!2023-07-23,28,290!2023-07-14,12,258!2023-07-30,34,298!2023-07-17,9,224!2023-07-20,25,284!2023-08-22,43,264!2023-07-19,24,284!2023-07-16,20,293!2023-07-24,29,293-->
+> | {{[syllable break](syllable.md) \[.\]}} | {{[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]}} | <!--SR:!2023-07-23,28,290!2023-09-01,43,258!2023-07-30,34,298!2023-07-17,9,224!2023-07-20,25,284!2023-08-22,43,264!2023-09-30,72,284!2023-07-16,20,293!2023-07-24,29,293-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
