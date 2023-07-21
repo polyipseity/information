@@ -4,5 +4,6 @@
   "lastReadChangelogVersion": "0.0.0",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
-  "recovery": {}
+  "recovery": {},
+  "showHiddenFiles": true
 }
