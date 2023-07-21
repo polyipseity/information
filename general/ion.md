@@ -353,7 +353,7 @@ return chain.from_iterable(await gather(
 23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-09-02,46,210-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-07-30,75,282-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-07-28,46,262-->
-26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-07-21,45,230-->
+26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-11-05,107,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
