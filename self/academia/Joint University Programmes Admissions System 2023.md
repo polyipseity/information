@@ -92,14 +92,28 @@ __key__
 
 - timing: 2023-07-21T11:00:00+08:00/2023-07-22T11:00:00+08:00
 
-1. [JS5313]/[HKUST] BBA in Global Business: interest? time?
-2. [JS5282]/[HKUST] Engineering with an Extended Major in Artificial Intelligence
-3. [JS5101]/[HKUST] International Research Enrichment: interview? time?
-4. [JS5901]/[HKUST] BEng/BSc & BBA Dual Degree Program in Technology & Management: interview?
-5. [JS5181]/[HKUST] Science (Group A) with an Extended Major in Artificial Intelligence
+1. [JS5101]/[HKUST] International Research Enrichment
+2. [JS5313]/[HKUST] BBA in Global Business
+3. [JS5282]/[HKUST] Engineering with an Extended Major in Artificial Intelligence
+4. [JS5200]/[HKUST] Engineering
+5. [JS5102]/[HKUST] Science (Group A)
+6. [JS4733]/[CUHK] Mathematics and Information Engineering
+7. [JS4690]/[CUHK] Enrichment Stream in Theoretical Physics
+8. [JS4682]/[CUHK] Enrichment Mathematics
+9. [JS4601]/[CUHK] Science
+10. [JS3030]/[PolyU] BSc (Hons) in Physics with a Secondary Major in Artificial Intelligence & Data Analytics (AIDA) / Innovation and Entrepreneurship (IE)
+11. [JS6212]/[HKU] Bachelor of Arts and Sciences
+12. [JS5822]/[HKUST] BSc in Sustainable and Green Finance
+13. [JS5331]/[HKUST] BSc in Economics and Finance
+14. [JS4412]/[CUHK] Computer Science and Engineering
+15. [JS3020]/[PolyU] BSc (Hons) Scheme in Data Science (Data Science and Analytics / Investment Science and Finance Analytics)
+16. [JS3180]/[PolyU] BEng (Hons)/BSc (Hons) Scheme in Information and Artificial Intelligence Engineering (Internet-of-Things / Artificial Intelligence / Information Security)
+17. [JS3868]/[PolyU] BSc (Hons) Scheme in Computing and AI (Computer Science / Financial Technology and Artificial Intelligence / Enterprise Information Systems)
+18. [JS4416]/[CUHK] Computational Data Science
+19. [JS4434]/[CUHK] BEng in Electronic Engineering
+20. [JS4462]/[CUHK] BEng in Energy and Environmental Engineering
 
 ### modified (appeal)
 
 - considerations
-	- [JS5332]/[HKUST] BSc in Quantitative Finance
 	- scholarships
