@@ -108,7 +108,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2023-07-21,66,310!2023-07-21,66,310!2023-09-10,90,270!2023-08-21,75,250!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-08-24,36,275!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2023-09-10,90,270!2023-08-21,75,250!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-08-24,36,275!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -316,7 +316,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2023-04-26T19:16:21.053434+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-09-14,79,255!2024-04-17,273,315-->
-2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2023-07-21,66,290!2024-04-11,267,315-->
+2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-07-27,46,255!2023-10-08,111,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2023-09-23,108,275-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-08-02,14,230-->
@@ -498,7 +498,7 @@ return await memorize_seq(
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-09-24,91,235!2024-04-08,264,315-->
 2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-10-11,108,270!2023-07-23,53,250-->
 3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-12-01,135,255!2023-08-17,29,195-->
-4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2023-07-21,66,290!2023-12-02,136,255-->
+4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2023-12-02,136,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2024-04-03,259,315!2024-01-27,192,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
