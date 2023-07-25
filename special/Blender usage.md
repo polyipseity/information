@@ -53,5 +53,5 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2024-08-12,390,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2023-09-04,164,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-08-20,62,276!2023-09-03,58,236-->
-- toggle gizmos:::Ctrl+\` <!--SR:!2023-07-23,52,210!2023-08-22,88,236-->
+- toggle gizmos:::Ctrl+\` <!--SR:!2023-11-13,111,210!2023-08-22,88,236-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-12-11,214,270!2023-08-15,27,135-->

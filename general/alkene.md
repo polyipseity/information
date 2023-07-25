@@ -34,7 +34,7 @@ Alkenes are {{stable but more [reactive](reactivity%20(chemistry).md) than [alka
 
 - see: [hydrogenation](hydrogenation.md)
 
-Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-09-01,101,291!2023-07-23,28,191-->
+Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by adding [hydrogen](hydrogen.md)}}. [Catalysts](catalysis.md) are almost always required and usually based on {{[nickel](nickel.md), [palladium](palladium.md), and [platinum](platinum.md)}}. <!--SR:!2023-09-01,101,291!2023-09-22,59,191-->
 
 ### hydrohalogenation
 

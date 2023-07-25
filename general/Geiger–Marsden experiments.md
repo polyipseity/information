@@ -12,7 +12,7 @@ tags:
 
 # Geiger–Marsden experiments
 
-The __{{Geiger–Marsden}} experiments__ (also known as the __{{Rutherford}} gold foil experiment__) were {{a series of experiments}} that led to {{the development of the [Rutherford model](Rutherford%20model.md)}} in {{1911}}. It was directed by {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1909}}. <!--SR:!2023-08-03,162,290!2024-05-06,355,290!2023-11-24,244,310!2024-04-09,347,290!2023-07-22,27,230!2025-02-02,588,310!2023-09-19,210,310-->
+The __{{Geiger–Marsden}} experiments__ (also known as the __{{Rutherford}} gold foil experiment__) were {{a series of experiments}} that led to {{the development of the [Rutherford model](Rutherford%20model.md)}} in {{1911}}. It was directed by {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1909}}. <!--SR:!2023-08-03,162,290!2024-05-06,355,290!2023-11-24,244,310!2024-04-09,347,290!2023-09-30,67,230!2025-02-02,588,310!2023-09-19,210,310-->
 
 ## experiment
 
