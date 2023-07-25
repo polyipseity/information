@@ -37,7 +37,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{constructions, car and ship bodies}} | {{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2023-07-25,72,250!2023-11-14,119,210-->
+> | {{constructions, car and ship bodies}} | {{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2024-01-21,180,250!2023-11-14,119,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -29,7 +29,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 
 Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2023-09-01,80,212-->
 
-Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2023-07-24,74,252-->
+Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2024-02-01,191,252-->
 
 ## advantages and disadvantages
 
@@ -65,7 +65,7 @@ return await memorize_seq(
 1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-10-29,145,292!2023-12-12,195,312-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-07-30,23,212!2024-02-13,226,312-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-09-15,112,270!2023-08-11,83,252-->
-4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-09-09,76,272!2023-07-23,73,252-->
+4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-09-09,76,272!2024-02-03,193,252-->
 5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-11-01,143,250!2023-12-31,208,312-->
 6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-11-29,183,312!2023-11-22,178,312-->
 

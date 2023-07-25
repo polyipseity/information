@@ -19,7 +19,7 @@ tags:
 
 ### nomenclature
 
-One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2023-07-23,67,250-->
+One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2024-01-11,170,250-->
 
 Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-10-25,127,250-->
 
@@ -62,7 +62,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 > | {{[strong](strength%20of%20materials.md)}} |  |
 > | {{[tough](toughness.md)}} |  |
 > | {{washable}} |  |
-> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-11-04,109,290!2023-11-05,152,290!2023-10-09,134,290!2023-12-09,144,250!2023-07-25,28,230!2023-11-11,145,290!2024-02-28,248,330!2024-02-29,249,330!2023-11-12,159,290-->
+> | {{[waterproof](waterproof.md)}} |  | <!--SR:!2023-11-04,109,290!2023-11-05,152,290!2023-10-09,134,290!2023-12-09,144,250!2023-10-01,68,230!2023-11-11,145,290!2024-02-28,248,330!2024-02-29,249,330!2023-11-12,159,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -72,10 +72,10 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 2. dyeable→:::←elastic <!--SR:!2023-08-11,87,270!2024-02-01,221,310-->
 3. elastic→:::←high tensile strength <!--SR:!2023-09-08,89,230!2023-09-30,125,290-->
 4. high tensile strength→:::←oil-proof <!--SR:!2023-08-30,43,190!2023-10-16,90,230-->
-5. oil-proof→:::←smooth <!--SR:!2023-07-25,69,250!2023-08-28,70,210-->
+5. oil-proof→:::←smooth <!--SR:!2024-01-14,173,250!2023-08-28,70,210-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2024-06-27,345,330!2023-08-22,35,230-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2024-01-15,197,310!2023-09-29,124,290-->
-8. [tough](toughness.md)→:::←washable <!--SR:!2024-02-03,211,310!2023-07-24,22,190-->
+8. [tough](toughness.md)→:::←washable <!--SR:!2024-02-03,211,310!2023-08-07,13,170-->
 9. washable→:::←[waterproof](waterproof.md) <!--SR:!2024-03-17,264,330!2024-06-28,346,330-->
 10. [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2024-03-12,261,330!2023-09-12,77,270-->
 
