@@ -18,4 +18,4 @@ tags:
 
 #### chemical reactions
 
-A _homogeneous reaction_ is {{a [chemical reaction](chemical%20reaction.md) in which the [reactants](reagent.md) and [products](product%20(chemistry).md) are in the same [phase](phase%20(matter).md), while a _heterogeneous reaction_ has multiple phases}}. They can also be applied to {{a [dynamic equilibrium](dynamic%20equilibrium.md) as _homogeneous equilibrium_ and _heterogeneous equilibrium_}}. <!--SR:!2023-07-26,73,270!2024-02-05,231,310-->
+A _homogeneous reaction_ is {{a [chemical reaction](chemical%20reaction.md) in which the [reactants](reagent.md) and [products](product%20(chemistry).md) are in the same [phase](phase%20(matter).md), while a _heterogeneous reaction_ has multiple phases}}. They can also be applied to {{a [dynamic equilibrium](dynamic%20equilibrium.md) as _homogeneous equilibrium_ and _heterogeneous equilibrium_}}. <!--SR:!2024-02-17,205,270!2024-02-05,231,310-->

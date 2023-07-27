@@ -53,7 +53,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fbda"--><!-- The following content is generated at 2023-06-25T22:22:49.642977+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←+: attracts local or overseas investment <!--SR:!2023-07-27,68,314!2023-08-13,82,314-->
+1. _(begin)_→:::←+: attracts local or overseas investment <!--SR:!2024-05-27,305,334!2023-08-13,82,314-->
 2. +: attracts local or overseas investment→:::←+: creates job opportunities <!--SR:!2023-08-08,77,310!2024-02-09,217,314-->
 3. +: creates job opportunities→:::←+: generates income for the government <!--SR:!2023-11-22,150,294!2024-02-11,219,314-->
 4. +: generates income for the government→:::←+: improves infrastructure <!--SR:!2023-11-17,138,294!2024-03-14,240,314-->

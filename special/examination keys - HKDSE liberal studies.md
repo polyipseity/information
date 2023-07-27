@@ -116,11 +116,11 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2023-07-31,24,210!2023-08-05,11,175-->
-3. factor/reason→:::←impact/problem <!--SR:!2023-07-27,50,235!2023-08-16,28,155-->
+3. factor/reason→:::←impact/problem <!--SR:!2023-08-24,28,215!2023-08-16,28,155-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2023-08-15,69,250-->
 6. solution→:::←value judgement <!--SR:!2023-09-01,38,275!2023-11-21,125,250-->
-7. value judgement→:::←_(end)_ <!--SR:!2023-07-26,70,310!2023-08-20,74,255-->
+7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2023-08-20,74,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -223,10 +223,10 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 3. cause/reason→:::←effectiveness <!--SR:!2023-08-11,23,170!2023-09-06,79,235-->
 4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-08-06,60,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-07-27,8,130-->
+6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-08-07,11,130-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2023-08-22,84,275-->
 8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-08-29,53,210-->
-9. with reference to→:::←_(end)_ <!--SR:!2023-07-27,71,310!2024-01-26,191,295-->
+9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -317,7 +317,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-09-14,79,255!2024-04-17,273,315-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-07-27,46,255!2023-10-08,111,275-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2023-10-08,111,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2023-09-23,108,275-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-08-02,14,230-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2023-07-28,72,310!2024-03-31,256,315-->
@@ -421,7 +421,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-08-18,54,210!2023-10-21,132,295-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-08-04,10,130!2023-07-26,49,230-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-08-04,10,130!2023-11-21,117,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-08-01,25,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
