@@ -21,7 +21,7 @@ Most amines are {{less [dense](density.md) than [water](water.md)}}. Density {{i
 
 ### odor
 
-[Gaseous](gas.md) amines have {{a [ammonia](ammonia.md) smell while [liquid](liquid.md) amines have a characteristic fishy smell}}. <!--SR:!2023-07-28,75,270-->
+[Gaseous](gas.md) amines have {{a [ammonia](ammonia.md) smell while [liquid](liquid.md) amines have a characteristic fishy smell}}. <!--SR:!2024-02-16,203,270-->
 
 ### solubility
 
