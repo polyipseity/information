@@ -47,14 +47,14 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{__duplet rule__}} | {{2 electrons in valence shell}} ^duplet-rule |
-> | {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}} | <!--SR:!2023-07-29,34,290!2023-12-06,132,310!2023-12-10,135,310!2023-07-29,34,290-->
+> | {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}} | <!--SR:!2023-12-22,144,310!2023-12-06,132,310!2023-12-10,135,310!2023-12-21,143,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="284d"--><!-- The following content is generated at 2023-03-20T12:51:18.460734+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←__duplet rule__ <!--SR:!2023-07-29,34,290!2023-12-09,134,310-->
+1. _(begin)_→:::←__duplet rule__ <!--SR:!2023-12-24,146,310!2023-12-09,134,310-->
 2. __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2023-12-11,136,310!2023-12-08,133,310-->
-3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-07-29,34,290!2023-12-05,131,310-->
+3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-12-23,145,310!2023-12-05,131,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
