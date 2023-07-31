@@ -58,10 +58,10 @@ return await memorize_seq(
 1. _(begin)_→:::←high purity <!--SR:!2023-11-12,168,310!2024-05-20,318,330-->
 2. high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2023-09-04,59,230!2024-02-07,197,270-->
 3. low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2023-12-26,161,250!2023-10-07,72,230-->
-4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2023-08-12,25,230!2023-07-31,66,230-->
-5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2023-08-13,67,230!2023-07-31,29,250-->
-6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2023-08-28,82,250!2023-07-31,78,270-->
-7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-07-29,83,270!2023-08-21,85,270-->
+4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2023-08-12,25,230!2023-12-30,152,230-->
+5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2023-08-13,67,230!2023-10-13,74,250-->
+6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2023-08-28,82,250!2024-03-06,219,270-->
+7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2023-09-15,46,250!2023-08-21,85,270-->
 8. ready and cheap availability→:::←_(end)_ <!--SR:!2024-05-17,315,330!2023-11-13,169,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

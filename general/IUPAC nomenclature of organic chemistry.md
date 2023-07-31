@@ -170,7 +170,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2023-08-11,197,325-->
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2023-07-31,42,130-->
+3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2023-09-28,59,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2024-03-01,238,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-09-29,154,210!2023-09-06,154,207-->
 6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2023-09-28,101,230!2023-08-06,54,207-->
@@ -597,7 +597,7 @@ return (
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2026-01-18,914,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->
-5. nitrile→:::←aldehyde <!--SR:!2023-07-31,177,230!2023-11-12,364,250-->
+5. nitrile→:::←aldehyde <!--SR:!2023-11-01,93,210!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
 7. ketone→:::←alcohol <!--SR:!2023-10-10,100,230!2023-09-07,107,170-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
@@ -635,13 +635,13 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2023-07-31,94,364!2023-11-28,182,344!2023-08-05,99,364!2023-07-31,94,364!2024-04-25,303,364!2023-08-01,95,364!2023-09-05,46,324!2023-09-16,50,344!2024-02-29,263,364!2024-04-29,307,364-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2023-11-28,182,344!2023-08-05,99,364!2023-09-20,51,344!2024-04-25,303,364!2023-08-01,95,364!2023-09-05,46,324!2023-09-16,50,344!2024-02-29,263,364!2024-04-29,307,364-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2023-07-29,92,364!2023-08-02,96,364-->
+1. _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2024-11-11,469,384!2023-08-02,96,364-->
 2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2024-02-17,237,364!2023-08-03,97,364-->
 3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2024-05-22,302,344!2024-01-24,231,364-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2023-08-04,98,364!2023-09-11,48,324-->

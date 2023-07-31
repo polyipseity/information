@@ -71,7 +71,7 @@ return await memorize_table(
 8. post hoc→:::←self-contradiction <!--SR:!2023-10-02,75,235!2024-04-04,260,315-->
 9. self-contradiction→:::←virtue by association <!--SR:!2023-09-19,98,275!2023-10-27,117,270-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2023-11-18,152,295-->
-11. weak analogies→:::←_(end)_ <!--SR:!2023-07-29,73,310!2024-01-22,187,295-->
+11. weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -115,7 +115,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2023-07-31,24,210!2023-08-05,11,175-->
+2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-08-05,11,175-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-08-24,28,215!2023-08-16,28,155-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2023-08-15,69,250-->
