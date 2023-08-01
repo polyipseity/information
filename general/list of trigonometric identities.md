@@ -112,7 +112,7 @@ return await memorize_table(
 > |-|-|
 > | sine | {{$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$}} |
 > | cosine | {{$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$}} |
-> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-10-28,125,250!2023-09-18,110,270!2023-08-01,63,230-->
+> | tangent | {{$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$}} | <!--SR:!2023-10-28,125,250!2023-09-18,110,270!2023-12-25,146,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -60,7 +60,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4956"--><!-- The following content is generated at 2023-05-02T11:22:28.899300+08:00. Any edits will be overridden! -->
 
-1. _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→:::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2023-08-01,13,170!2023-09-07,38,290-->
+1. _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→:::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2023-08-10,9,150!2023-09-07,38,290-->
 2. [steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$→:::←[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$ <!--SR:!2023-08-18,18,210!2023-08-25,73,250-->
 3. [water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$→:::←_([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_ <!--SR:!2023-08-05,73,310!2023-08-13,47,210-->
 
