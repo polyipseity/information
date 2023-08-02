@@ -33,7 +33,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editing
 
-- delete w/ confirmation:::X <!--SR:!2023-08-02,155,310!2023-08-15,166,316-->
+- delete w/ confirmation:::X <!--SR:!2024-11-25,481,310!2023-08-15,166,316-->
 - delete w/o confirmation:::Delete <!--SR:!2025-01-28,571,330!2024-09-06,439,296-->
 
 ### editor
