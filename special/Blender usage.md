@@ -21,14 +21,14 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - help:::F1 <!--SR:!2024-10-31,487,310!2023-08-10,147,290-->
 - rename active:::F2 <!--SR:!2023-12-16,228,276!2023-09-05,48,196-->
 - menu search:::F3 <!--SR:!2025-02-09,571,316!2023-08-05,41,256-->
-- file context menu:::F4 <!--SR:!2023-08-03,53,170!2024-04-24,310,276-->
+- file context menu:::F4 <!--SR:!2023-12-15,133,190!2024-04-24,310,276-->
 - show render window:::F11 <!--SR:!2023-09-05,173,295!2024-03-29,246,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-10-27,200,270!2023-09-27,155,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-08-09,21,130!2023-09-11,153,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-03-26,251,210!2023-08-16,110,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
-- play/tools/search:::Space <!--SR:!2025-05-04,643,316!2023-08-03,150,296-->
+- play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-08-26,55,230!2023-09-03,68,195-->
 
 ### editing
@@ -49,7 +49,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2024-11-30,512,310!2023-08-23,155,296-->
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2024-06-23,370,276!2023-08-04,40,196-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2024-06-23,370,276!2023-08-27,23,176-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2024-08-12,390,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2023-09-04,164,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-08-20,62,276!2023-09-03,58,236-->
