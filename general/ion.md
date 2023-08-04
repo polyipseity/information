@@ -286,7 +286,7 @@ return chain.from_iterable(await gather(
 22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2024-09-26,427,382!2023-08-06,95,362-->
 23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2024-09-19,422,382!2023-08-06,95,362-->
 24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2024-11-07,463,382!2023-08-09,98,362-->
-25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2023-08-03,92,362!2024-10-28,455,382-->
+25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2024-11-10,464,382!2024-10-28,455,382-->
 26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2024-10-19,449,382!2023-08-07,96,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -302,7 +302,7 @@ return chain.from_iterable(await gather(
 5. silver ion::1+ <!--SR:!2023-10-18,409,270-->
 6. mercury(I) ion::1+ <!--SR:!2027-08-31,1634,374-->
 7. ammonium ion::1+ <!--SR:!2024-01-21,509,314-->
-8. magnesium ion::2+ <!--SR:!2023-08-03,346,253-->
+8. magnesium ion::2+ <!--SR:!2026-12-17,1231,273-->
 9. calcium ion::2+ <!--SR:!2024-10-25,649,272-->
 10. barium ion::2+ <!--SR:!2024-01-27,456,254-->
 11. lead(II) ion::2+ <!--SR:!2026-06-13,1266,358-->
@@ -319,7 +319,7 @@ return chain.from_iterable(await gather(
 22. scandium(III) ion::3+ <!--SR:!2024-10-29,456,382-->
 23. titanium(III) ion::3+ <!--SR:!2024-10-27,454,382-->
 24. vanadium(II) ion::2+ <!--SR:!2024-11-03,460,382-->
-25. vanadium(III) ion::3+ <!--SR:!2023-08-04,93,362-->
+25. vanadium(III) ion::3+ <!--SR:!2024-11-09,463,382-->
 26. manganese(III) ion::3+ <!--SR:!2023-08-05,94,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -411,7 +411,7 @@ return chain.from_iterable(await gather(
 1. hydride ion:::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2026-02-13,1171,356-->
 2. fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2027-06-07,1566,374-->
 3. chloride ion:::Cl<sup>-</sup> <!--SR:!2027-07-27,1605,373!2025-11-03,1086,354-->
-4. bromide ion:::Br<sup>-</sup> <!--SR:!2023-08-04,347,253!2025-02-23,814,294-->
+4. bromide ion:::Br<sup>-</sup> <!--SR:!2026-12-18,1232,273!2025-02-23,814,294-->
 5. iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2026-11-16,1294,313-->
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2026-01-30,1090,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2023-11-04,439,292!2027-05-30,1441,314-->
@@ -479,7 +479,7 @@ return chain.from_iterable(await gather(
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-02-16,434,250-->
 13. oxide ion::_(n/a)_ <!--SR:!2024-09-17,438,276-->
-14. sulfide ion::_(n/a)_ <!--SR:!2023-08-04,68,256-->
+14. sulfide ion::_(n/a)_ <!--SR:!2024-01-28,177,256-->
 15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
 16. sulfite ion::colorless <!--SR:!2023-11-19,198,274-->
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->

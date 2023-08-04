@@ -13,7 +13,7 @@ tags:
 
 __Sulfuric acid__ or __sulphuric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __H<sub>2</sub>SO<sub>4</sub>__}}. <!--SR:!2024-04-21,294,330-->
 
-Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by [mass](mass.md)}}. <!--SR:!2023-08-04,17,250-->
+Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by [mass](mass.md)}}. <!--SR:!2023-10-05,62,270-->
 
 ## chemistry
 

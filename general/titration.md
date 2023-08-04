@@ -75,4 +75,4 @@ The _equivalence point_ is {{the theoretical completion of titration}}. The _end
 
 ### back titration
 
-In back titration, {{a known excess reagent is added to the [solution](solution%20(chemistry).md), and the excess is titrated instead of the original solution}}. <!--SR:!2023-08-03,79,270-->
+In back titration, {{a known excess reagent is added to the [solution](solution%20(chemistry).md), and the excess is titrated instead of the original solution}}. <!--SR:!2024-03-16,225,270-->
