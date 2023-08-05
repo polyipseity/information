@@ -2,6 +2,10 @@
 	path = self/arts
 	url = ../information-arts.git
 	branch = main
+[submodule "ledger"]
+	path = self/ledger
+	url = ../information-ledger.git
+	branch = main
 [submodule "private"]
 	path = private
 	url = ../information-private.git
