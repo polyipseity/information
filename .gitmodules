@@ -6,6 +6,10 @@
 	path = self/ledger
 	url = ../information-ledger.git
 	branch = main
+[submodule "passwords"]
+	path = self/passwords
+	url = ../information-passwords.git
+	branch = main
 [submodule "private"]
 	path = private
 	url = ../information-private.git
