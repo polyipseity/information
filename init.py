@@ -266,9 +266,6 @@ async def main(args: Arguments) -> _typing.NoReturn:
 def parser(
     parent: _typing.Callable[..., _argparse.ArgumentParser] | None = None,
 ) -> _argparse.ArgumentParser:
-    frame: _types.FrameType | None = _inspect.currentframe()
-    if frame is None:
-        raise ValueError(frame)
     prog: str = _sys.argv[0]
 
     parser: _argparse.ArgumentParser = (
