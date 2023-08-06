@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-python ./init.py "$@"
+python './init.py' "$@"
