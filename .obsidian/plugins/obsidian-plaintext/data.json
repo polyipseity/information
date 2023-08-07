@@ -1,8 +1,16 @@
 {
   "overrideViewsFromOtherPlugins": false,
   "extensions": [
+    "",
+    "bat",
+    "cmd",
+    "css",
     "journal",
+    "js",
     "json",
+    "ps1",
+    "py",
+    "sh",
     "toml",
     "txt",
     "yaml",
