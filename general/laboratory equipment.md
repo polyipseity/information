@@ -145,18 +145,18 @@ return await memorize_table(
 7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2023-08-22,35,230!2023-10-06,71,210-->
 8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2023-08-18,18,130!2023-08-31,100,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2024-03-19,274,330!2024-03-17,272,330-->
-10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2023-08-06,6,170-->
+10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2023-08-20,13,170-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2023-08-08,91,270!2024-01-26,208,310-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-12-29,205,310!2024-04-06,286,330-->
 13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2023-10-03,124,290!2023-08-10,23,190-->
-14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-08-06,47,210!2023-10-15,89,270-->
+14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-12-29,144,230!2023-10-15,89,270-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-10-08,133,270!2023-09-08,105,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-12-05,127,230!2023-12-10,187,310-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-01-03,159,250!2023-09-21,76,210-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-09-12,93,230!2023-09-27,130,290-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-08-10,34,230!2023-08-28,40,150-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2024-02-02,189,250!2023-10-04,71,230-->
-21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-08-27,96,270!2023-08-05,15,230-->
+21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2023-08-27,96,270!2023-10-03,57,250-->
 22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-08-19,19,130!2023-11-24,112,250-->
 23. [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2023-08-30,99,270!2023-08-31,100,270-->
 24. [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2023-08-14,88,270!2023-08-08,63,230-->

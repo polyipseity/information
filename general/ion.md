@@ -271,7 +271,7 @@ return chain.from_iterable(await gather(
 7. ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2027-01-08,1335,313-->
 8. magnesium ion:::Mg<sup>2+</sup> <!--SR:!2024-03-08,336,247!2024-02-04,523,316-->
 9. calcium ion:::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2028-01-19,1745,374-->
-10. barium ion:::Ba<sup>2+</sup> <!--SR:!2023-08-05,202,230!2025-02-15,770,294-->
+10. barium ion:::Ba<sup>2+</sup> <!--SR:!2025-06-02,665,250!2025-02-15,770,294-->
 11. lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2027-06-06,1566,374!2024-02-24,536,314-->
 12. iron(II) ion:::Fe<sup>2+</sup> <!--SR:!2026-11-28,1400,359!2027-10-18,1661,365-->
 13. nickel(II) ion:::Ni<sup>2+</sup> <!--SR:!2027-06-25,1563,359!2023-10-22,426,290-->
@@ -283,11 +283,11 @@ return chain.from_iterable(await gather(
 19. aluminium ion:::Al<sup>3+</sup> <!--SR:!2023-09-25,383,252!2024-07-03,622,314-->
 20. iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
-22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2024-09-26,427,382!2023-08-06,95,362-->
-23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2024-09-19,422,382!2023-08-06,95,362-->
+22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2024-09-26,427,382!2024-11-29,480,382-->
+23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2024-09-19,422,382!2024-11-26,477,382-->
 24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2024-11-07,463,382!2023-08-09,98,362-->
 25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2024-11-10,464,382!2024-10-28,455,382-->
-26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2024-10-19,449,382!2023-08-07,96,362-->
+26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2024-10-19,449,382!2024-11-27,478,382-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -320,7 +320,7 @@ return chain.from_iterable(await gather(
 23. titanium(III) ion::3+ <!--SR:!2024-10-27,454,382-->
 24. vanadium(II) ion::2+ <!--SR:!2024-11-03,460,382-->
 25. vanadium(III) ion::3+ <!--SR:!2024-11-09,463,382-->
-26. manganese(III) ion::3+ <!--SR:!2023-08-05,94,362-->
+26. manganese(III) ion::3+ <!--SR:!2024-11-30,481,382-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -55,7 +55,7 @@ See also [Vim help files](https://vimhelp.org/).
 - highlight characters:::v <!--SR:!2023-11-07,214,328!2023-10-23,188,308-->
 - highlight lines:::V <!--SR:!2024-04-16,296,273!2023-12-17,175,268-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2024-02-24,270,273!2024-05-24,375,348-->
-- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2023-08-06,127,288-->
+- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2024-08-09,368,288-->
 
 ## edit
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2024-05-28,380,347!2023-10-10,179,308-->

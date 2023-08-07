@@ -115,7 +115,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-08-05,11,175-->
+2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-08-12,5,155-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-08-24,28,215!2023-08-16,28,155-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2023-08-15,69,250-->
@@ -163,7 +163,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-08-05,17,155!2024-01-01,183,295!2023-09-24,61,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-09-08,32,155!2024-01-01,183,295!2023-09-24,61,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -221,9 +221,9 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-08-24,36,270!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-08-25,59,195!2023-08-15,79,275-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-08-11,23,170!2023-09-06,79,235-->
-4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-08-06,60,230-->
+4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-08-07,11,130-->
+6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-08-23,16,130-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2023-08-22,84,275-->
 8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-08-29,53,210-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
@@ -274,7 +274,7 @@ return await memorize_seq(
 
 ### dialogues
 
-Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2023-08-07,43,235-->
+Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2023-11-16,101,235-->
 
 ### images
 

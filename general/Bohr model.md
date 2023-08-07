@@ -50,7 +50,7 @@ The combination of natural constants in the energy formula is the {{Rydberg ener
 
 The energy of a photon emitted by a hydrogen atom is:
 {{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
-{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-09-12,118,282!2023-09-04,188,302!2023-10-11,200,302!2023-09-24,189,302!2023-08-06,163,302!2024-02-06,186,202-->
+{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-09-12,118,282!2023-09-04,188,302!2023-10-11,200,302!2023-09-24,189,302!2024-12-12,493,302!2024-02-06,186,202-->
 
 ## limitations
 
@@ -81,7 +81,7 @@ The Bohr model fails to explain:
 > | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
 > | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
 > | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-10-10,121,324!2023-09-06,87,304!2024-02-19,199,304!2023-08-05,67,304-->
+> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-10-10,121,324!2023-09-06,87,304!2024-02-19,199,304!2024-06-05,303,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

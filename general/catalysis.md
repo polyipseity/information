@@ -67,6 +67,6 @@ return await memorize_table(
 3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2024-05-27,325,330!2023-11-02,142,290-->
 4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2024-05-20,318,330!2023-09-21,116,270-->
 5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2024-05-23,321,330!2023-11-15,168,310-->
-6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2023-08-07,82,270-->
+6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2024-03-17,223,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

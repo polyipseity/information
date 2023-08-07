@@ -12,7 +12,7 @@ A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electro
 
 ## properties
 
-A photon is {{[massless](massless%20particle.md)}}, so they {{always move at the [speed of light in vacuum](speed%20of%20light.md), 299&nbsp;792&nbsp;458&nbsp;m/s}}. <!--SR:!2023-08-06,171,270!2025-02-01,592,310-->
+A photon is {{[massless](massless%20particle.md)}}, so they {{always move at the [speed of light in vacuum](speed%20of%20light.md), 299&nbsp;792&nbsp;458&nbsp;m/s}}. <!--SR:!2025-05-14,646,290!2025-02-01,592,310-->
 
 It carries {{[energy](energy.md) $E$ proportional to its [frequency](frequency.md) $f$}}:
 {{$$E=hf$$}}
