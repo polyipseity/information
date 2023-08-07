@@ -1,0 +1,11 @@
+{
+  "overrideViewsFromOtherPlugins": false,
+  "extensions": [
+    "journal",
+    "json",
+    "toml",
+    "txt",
+    "yaml",
+    "yml"
+  ]
+}
