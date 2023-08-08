@@ -9,7 +9,7 @@ tags:
 
 # nitric acid
 
-__Nitric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __HNO<sub>3</sub>__}}. <!--SR:!2023-08-08,92,290-->
+__Nitric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical formula](chemical%20formula.md) __HNO<sub>3</sub>__}}. <!--SR:!2024-08-12,370,310-->
 
 ## chemistry
 
