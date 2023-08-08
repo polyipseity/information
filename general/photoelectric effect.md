@@ -20,7 +20,7 @@ Emitted electrons have {{different}} initial kinetic energies. The maximum kinet
 
 ## mechanism
 
-The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when {{continuous radiation passes through an electron}}, {{the electron gains [kinetic energy](kinentic%20energy.md)}}, {{vibrating with increasing amplitude}}. After {{some time}}, when enough energy is accumulated, {{the electron is emitted}}. The energy gain increases when {{light intensity increases}}. However, {{[observations](#observation) disagree}}. <!--SR:!2023-08-08,44,210!2024-07-29,418,270!2023-09-26,211,310!2024-06-01,392,290!2023-11-25,146,250!2024-06-05,395,290!2023-12-26,253,270-->
+The classical [wave model](electromagnetic%20radiation.md#wave%20model) predicts that when {{continuous radiation passes through an electron}}, {{the electron gains [kinetic energy](kinentic%20energy.md)}}, {{vibrating with increasing amplitude}}. After {{some time}}, when enough energy is accumulated, {{the electron is emitted}}. The energy gain increases when {{light intensity increases}}. However, {{[observations](#observation) disagree}}. <!--SR:!2023-12-18,132,230!2024-07-29,418,270!2023-09-26,211,310!2024-06-01,392,290!2023-11-25,146,250!2024-06-05,395,290!2023-12-26,253,270-->
 
 The {{threshold frequency $\nu_o$}} is determined by {{the [work function](work%20function.md) $\Phi$ of the surface of the material}}:
 {{$$\begin{aligned}\Phi&=h\nu_o\\\nu_o&=\frac\Phi{h}\end{aligned}$$}}
