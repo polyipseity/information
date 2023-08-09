@@ -38,7 +38,7 @@ After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs
 
 > - {{Fe(OH)<sub>2</sub>(s) ⇌ FeO(s) + H<sub>2</sub>O(l)}}
 > - {{Fe(OH)<sub>3</sub>(s) ⇌ FeO(OH)(s) + H<sub>2</sub>O(l)}}
-> - {{2FeO(OH)(s) ⇌ Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}} <!--SR:!2023-11-24,178,310!2023-08-09,83,270!2024-03-07,261,330-->
+> - {{2FeO(OH)(s) ⇌ Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}} <!--SR:!2023-11-24,178,310!2024-07-01,327,290!2024-03-07,261,330-->
 
 {{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}} can be used to detect rusting. {{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}} to speed up the reaction. <!--SR:!2023-08-18,90,270!2024-01-03,169,250-->
 
@@ -76,7 +76,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2024-05-12,315,330!2024-04-06,286,330-->
-2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2023-08-09,93,290!2023-08-11,17,270-->
+2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2024-08-18,375,310!2023-08-11,17,270-->
 3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-03-15,264,330!2024-04-04,282,330-->
 4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-01-07,210,310!2024-02-22,230,310-->
 5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2024-04-20,293,330!2024-05-17,315,330-->
@@ -109,4 +109,4 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2023-09-04,111,290-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-08-13,87,270!2024-04-27,300,330!2023-10-30,145,270!2024-01-27,193,270!2023-08-09,84,270!2023-09-14,81,230-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2023-08-13,87,270!2024-04-27,300,330!2023-10-30,145,270!2024-01-27,193,270!2024-06-30,326,290!2023-09-14,81,230-->

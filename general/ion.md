@@ -285,7 +285,7 @@ return chain.from_iterable(await gather(
 21. chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
 22. scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2024-09-26,427,382!2024-11-29,480,382-->
 23. titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2024-09-19,422,382!2024-11-26,477,382-->
-24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2024-11-07,463,382!2023-08-09,98,362-->
+24. vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2024-11-07,463,382!2024-12-10,489,382-->
 25. vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2024-11-10,464,382!2024-10-28,455,382-->
 26. manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2024-10-19,449,382!2024-11-27,478,382-->
 

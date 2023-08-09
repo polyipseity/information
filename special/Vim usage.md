@@ -26,7 +26,7 @@ See also [Vim help files](https://vimhelp.org/).
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-01-16,251,313!2024-04-25,350,333-->
 - beginning of line:::0 <!--SR:!2024-04-03,330,330!2024-04-24,349,333-->
 - end of line:::$ <!--SR:!2024-04-01,329,333!2024-04-22,348,333-->
-- line \[N=(last)\]:::\[N\]G <!--SR:!2023-08-09,133,290!2024-01-28,259,313-->
+- line \[N=(last)\]:::\[N\]G <!--SR:!2024-08-29,386,290!2024-01-28,259,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2024-01-12,249,313-->
 - matching character:::% <!--SR:!2024-10-24,457,293!2023-09-13,154,293-->
 
@@ -83,7 +83,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2023-08-16,125,293!2024-02-19,278,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2023-12-30,186,268-->
-- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2023-08-09,87,273!2024-05-12,364,333-->
+- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2024-04-02,237,273!2024-05-12,364,333-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2023-09-25,166,293-->
 
 ### list of options
