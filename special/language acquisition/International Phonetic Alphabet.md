@@ -399,7 +399,7 @@ Here is a list of common IPA letters and their pronunciations:
 > | [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) \[ǁ\] | ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) | {{[English](English%20language.md) _**tchick**_ \[ˈǁ\]}} |
 > | [tenuis alveolar click](tenuis%20alveolar%20click.md) \[ǃ\] | ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) | {{[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"}} |
 > | [tenuis bilabial click](tenuis%20bilabial%20click.md) \[ʘ\] | ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) | {{[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"}} |
-> | [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} | <!--SR:!2023-10-06,77,290!2023-08-21,42,250!2023-08-24,16,184!2023-08-11,10,204!2023-11-10,103,304!2023-08-19,29,224!2023-10-13,67,284!2023-08-13,13,184!2023-09-23,64,284!2023-08-23,44,264!2023-08-21,42,264!2023-08-22,43,264!2023-09-21,62,284!2023-08-09,10,173!2023-09-19,42,213!2023-09-29,70,273!2023-08-20,30,213!2023-08-10,20,233!2023-09-03,51,273-->
+> | [tenuis palatal click](tenuis%20palatal%20click.md) \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} | <!--SR:!2023-10-06,77,290!2023-08-21,42,250!2023-08-24,16,184!2023-08-11,10,204!2023-11-10,103,304!2023-08-19,29,224!2023-10-13,67,284!2023-08-13,13,184!2023-09-23,64,284!2023-08-23,44,264!2023-08-21,42,264!2023-08-22,43,264!2023-09-21,62,284!2023-08-15,6,153!2023-09-19,42,213!2023-09-29,70,273!2023-08-20,30,213!2023-08-10,20,233!2023-09-03,51,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -584,7 +584,7 @@ Here is a list of common IPA letters and their pronunciations:
 53. ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)::[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) \[ʟ\]
 54. ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg)::[voiced bilabial nasal](voiced%20bilabial%20nasal.md) \[m\]
 55. ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)::[voiced labiodental nasal](voiced%20labiodental%20nasal.md) \[ɱ\]
-56. ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)::[voiced alveolar nasal](voiced%20alveolar%20nasal.md) \[n\] <!--SR:!2023-08-09,7,173-->
+56. ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)::[voiced alveolar nasal](voiced%20alveolar%20nasal.md) \[n\] <!--SR:!2023-08-23,14,173-->
 57. ![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)::[voiced velar nasal](voiced%20velar%20nasal.md) \[ŋ\]
 58. ![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)::[voiced palatal nasal](voiced%20palatal%20nasal.md) \[ɲ\]
 59. ![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg)::[voiced retroflex nasal](voiced%20retroflex%20nasal.md) \[ɳ\]
