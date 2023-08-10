@@ -12,8 +12,6 @@ from asyncstdlib import tuple as _atuple
 from collections import defaultdict as _defdict
 from dataclasses import dataclass as _dc
 from functools import wraps as _wraps
-from importlib.abc import PathEntryFinder as _PEntFnder
-from importlib.util import module_from_spec as _mod_f_spec
 from inspect import currentframe as _curframe, getframeinfo as _frameinfo
 from itertools import chain as _chain, starmap as _smap, zip_longest as _zip_l
 from json import dumps as _dumps, loads as _loads
@@ -26,112 +24,26 @@ from logging import (
 )
 from operator import ne as _ne
 from os import linesep as _linesep, lstat as _lstat, walk as _walk
-from pathlib import Path as _SPath
-from sys import argv as _argv, exit as _exit, modules as _mods, path_hooks as _p_hooks
-from types import ModuleType as _Mod
+from sys import argv as _argv, exit as _exit, modules as _mods
 from typing import (
     Any as _Any,
     Awaitable as _Await,
     Callable as _Call,
-    ClassVar as _ClsVar,
     Collection as _Collect,
     MutableMapping as _MMap,
     Sequence as _Seq,
     final as _fin,
 )
 
+try:
+    import tools.pytextgen as _mod
 
-class _MetaFileFinder(_PEntFnder):
-    __slots__: _ClsVar = "__cache", "path"
-
-    def __init__(self, path: str):
-        self.path = path
-        self.__cache = dict[_Call[[str], _PEntFnder], _PEntFnder | None]()
-
-    def __repr__(self):
-        return f"{type(self).__qualname__}({self.path!r})"
-
-    def find_spec(self, fullname: str, target: _Mod | None = None):
-        last = len(_p_hooks) - 1
-        for idx, hook in enumerate(_p_hooks):
-            if isinstance(hook, type(self).Hook):
-                continue
-            finder = None
-            try:
-                if hook in self.__cache:
-                    finder = self.__cache[hook]
-                    if finder is None:
-                        continue
-            except TypeError:
-                pass
-            if finder is None:
-                try:
-                    finder = hook(self.path)
-                except ImportError:
-                    pass
-            try:
-                self.__cache[hook] = finder
-            except TypeError:
-                pass
-            if finder is not None:
-                spec = finder.find_spec(fullname, target)
-                if spec is not None and (spec.loader is not None or idx == last):
-                    return spec
-        return None
-
-    def invalidate_caches(self):
-        for finder in self.__cache.values():
-            if finder is not None:
-                finder.invalidate_caches()
-
-    class Hook:
-        __slots__: _ClsVar = "basepath", "hook"
-
-        def __init__(
-            self, hook: _Call[[str], _PEntFnder], basepath: _SPath | None = None
-        ):
-            self.hook = hook
-            self.basepath = basepath
-
-        def __call__(self, path: str):
-            spath = _SPath(path)
-            if not spath.is_dir():
-                raise ImportError("Files are unsupported", path=path)
-            if not self.handles(spath):
-                raise ImportError(
-                    f"Only directories under {self.basepath} are supported", path=path
-                )
-            return self.hook(path)
-
-        def handles(self, path: _SPath):
-            return self.basepath is None or any(
-                parent.samefile(self.basepath)
-                for parent in _chain((path,), path.parents)
-            )
-
-
-@_fin
-class _ToolsFinder(_MetaFileFinder):
-    BASEPATH: _ClsVar = "tools"
-
-    def find_spec(self, fullname: str, target: _Mod | None = None):
-        spec = super().find_spec(fullname.removeprefix(f"{self.BASEPATH}."))
-        if spec is None:
-            spec = super().find_spec(fullname, target)
-        else:
-            mod = _mod_f_spec(spec)
-            _mods[fullname] = mod
-        return spec
-
-    @classmethod
-    def install(cls):
-        _p_hooks.insert(0, _MetaFileFinder.Hook(cls, _SPath(cls.BASEPATH)))
-
-
-_ToolsFinder.install()
-from tools.pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
-from tools.pytextgen.main import parser as _pytextgen_parser
-from tools.pytextgen.util import asyncify as _asyncify
+    _mods[_mod.__name__.removeprefix("tools.")] = _mod
+except ImportError:
+    pass
+from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
+from pytextgen.main import parser as _pytextgen_parser
+from pytextgen.util import asyncify as _asyncify
 
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
