@@ -4,5 +4,5 @@ aioshutil>=1.2.0
 anyio>=3.6.2
 asyncstdlib>=3.10.6
 cihai>=0.18.2
-pytextgen>=6.0.1
+pytextgen>=6.3.0
 typing_extensions>=4.4.0
