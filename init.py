@@ -41,9 +41,9 @@ try:
     _mods[_mod.__name__.removeprefix("tools.")] = _mod
 except ImportError:
     pass
-from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
-from pytextgen.main import parser as _pytextgen_parser
-from pytextgen.util import asyncify as _asyncify
+from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS  # type: ignore
+from pytextgen.main import parser as _pytextgen_parser  # type: ignore
+from pytextgen.util import asyncify as _asyncify  # type: ignore
 
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
