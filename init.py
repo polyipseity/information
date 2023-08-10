@@ -8,7 +8,7 @@ from argparse import (
     ONE_OR_MORE as _ONE_OR_MORE,
 )
 from asyncio import TaskGroup as _TskGrp, gather as _gather, run as _run
-from asyncstdlib import tuple as _atuple
+from asyncstdlib import sync as _sync, tuple as _atuple
 from collections import defaultdict as _defdict
 from dataclasses import dataclass as _dc
 from functools import wraps as _wraps
@@ -43,7 +43,6 @@ except ImportError:
     pass
 from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS  # type: ignore
 from pytextgen.main import parser as _pytextgen_parser  # type: ignore
-from pytextgen.util import asyncify as _asyncify  # type: ignore
 
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
@@ -94,7 +93,7 @@ async def main(args: Arguments):
 
         cache_folder = _Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
-        ) / str((await _asyncify(_lstat)(folder)).st_ino)
+        ) / str((await _sync(_lstat)(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
             await _rmtr(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
@@ -149,7 +148,7 @@ async def main(args: Arguments):
                                 await file.write(text)
                                 await file.truncate()
                             cache[path_s] = (
-                                (await _asyncify(_lstat)(path)).st_mtime_ns,
+                                (await _sync(_lstat)(path)).st_mtime_ns,
                                 text,
                             )
 
@@ -165,7 +164,7 @@ async def main(args: Arguments):
                         c_mtime, c_text = cache[path_s]
                     except KeyError:
                         return finalizer()
-                    if (await _asyncify(_lstat)(path)).st_mtime_ns != c_mtime:
+                    if (await _sync(_lstat)(path)).st_mtime_ns != c_mtime:
                         open_opts = _OPEN_TXT_OPTS.copy()
                         open_opts.update({"newline": ""})
                         async with await path.open(mode="rt", **open_opts) as io:
