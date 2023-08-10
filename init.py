@@ -1,74 +1,89 @@
 # -*- coding: UTF-8 -*-
-import aioshutil as _aioshutil
-import anyio as _anyio
-import asyncstdlib as _asyncstdlib
-import appdirs as _appdirs  # type: ignore
-import argparse as _argparse
-import asyncio as _asyncio
-import collections as _collections
-import dataclasses as _dataclasses
-import functools as _functools
-from importlib import abc as _importlib_abc, util as _importlib_util
-import inspect as _inspect
-import itertools as _itertools
-import json as _json
-from logging import INFO as _INFO, basicConfig as _basicConfig, getLogger as _getLogger
-import operator as _operator
-import os as _os
-import pathlib as _pathlib
-import sys as _sys
-import types as _types
-import typing as _typing
+from aioshutil import rmtree as _rmtr
+from anyio import Path as _Path
+from appdirs import AppDirs as _AppDirs  # type: ignore
+from argparse import (
+    ArgumentParser as _ArgParser,
+    Namespace as _NS,
+    ONE_OR_MORE as _ONE_OR_MORE,
+)
+from asyncio import TaskGroup as _TskGrp, gather as _gather, run as _run
+from asyncstdlib import tuple as _atuple
+from collections import defaultdict as _defdict
+from dataclasses import dataclass as _dc
+from functools import wraps as _wraps
+from importlib.abc import PathEntryFinder as _PEntFnder
+from importlib.util import (
+    find_spec as _fnd_spec,
+    spec_from_file_location as _spec_f_f_loc,
+)
+from inspect import currentframe as _curframe, getframeinfo as _frameinfo
+from itertools import chain as _chain, starmap as _smap, zip_longest as _zip_l
+from json import dumps as _dumps, loads as _loads
+from json.decoder import JSONDecodeError as _JSONDecErr
+from logging import (
+    INFO as _INFO,
+    basicConfig as _basicConfig,
+    exception as _exc,
+    info as _info,
+)
+from operator import ne as _ne
+from os import linesep as _linesep, lstat as _lstat, walk as _walk
+from pathlib import Path as _SPath
+from sys import argv as _argv, exit as _exit, path_hooks as _p_hooks
+from types import ModuleType as _Mod
+from typing import (
+    Any as _Any,
+    Awaitable as _Await,
+    Callable as _Call,
+    ClassVar as _ClsVar,
+    Collection as _Collect,
+    MutableMapping as _MMap,
+    Sequence as _Seq,
+    final as _fin,
+)
 
 
-@_typing.final
-class ToolsPathEntryFinder(_importlib_abc.PathEntryFinder):
-    __slots__: _typing.ClassVar = ("__path",)
-    PREFIX: _typing.ClassVar = "tools"
+@_fin
+class ToolsPathEntryFinder(_PEntFnder):
+    __slots__: _ClsVar = ("__path",)
+    PREFIX: _ClsVar = "tools"
 
-    def __init__(self, path: _pathlib.Path):
+    def __init__(self, path: _SPath):
         self.__path = path
 
-    def find_spec(self, fullname: str, target: _types.ModuleType | None = None):
+    def find_spec(self, fullname: str, target: _Mod | None = None):
         name = fullname.removeprefix(f"{self.PREFIX}.")
-        override = _importlib_util.find_spec(name)
+        override = _fnd_spec(name)
         if override is not None:
             return override
-        try:
-            path = (self.__path / name / "__init__.py").resolve(strict=True)
-        except FileNotFoundError:
-            return None
-        return _importlib_util.spec_from_file_location(
-            name, path, submodule_search_locations=[]
+        return _spec_f_f_loc(
+            name, self.__path / name / "__init__.py", submodule_search_locations=[]
         )
 
     @classmethod
     def hook(cls, path: str):
-        path0 = _pathlib.Path(path)
+        path0 = _SPath(path)
         if path0.samefile(cls.PREFIX):
             return cls(path0)
         raise ImportError
 
 
-_sys.path_hooks.insert(0, ToolsPathEntryFinder.hook)
-from tools.pytextgen import (
-    OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS,
-    main as _pytextgen_main,
-    util as _pytextgen_util,
-)
+_p_hooks.insert(0, ToolsPathEntryFinder.hook)
+from tools.pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS
+from tools.pytextgen.main import parser as _pytextgen_parser
+from tools.pytextgen.util import asyncify as _asyncify
 
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
-_LOCAL_APP_DIRS = _appdirs.AppDirs(
+_LOCAL_APP_DIRS = _AppDirs(
     appname=_NAME,
     appauthor="polyipseity",
     version=None,
     roaming=False,
     multipath=False,
 )
-_basicConfig(level=_INFO)
-_LOGGER = _getLogger(_NAME)
-_ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
+_ROOT_DIR_EXCLUDES = frozenset(
     {
         ".git",
         ".obsidian",
@@ -78,8 +93,8 @@ _ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
 )
 
 
-@_typing.final
-@_dataclasses.dataclass(
+@_fin
+@_dc(
     init=True,
     repr=True,
     eq=True,
@@ -93,25 +108,24 @@ _ROOT_DIR_EXCLUDES: _typing.AbstractSet[str] = frozenset(
 class Arguments:
     prog: str
     cached: bool
-    arguments: _typing.Sequence[str]
+    arguments: _Seq[str]
 
-    def __post_init__(self) -> None:
+    def __post_init__(self):
         object.__setattr__(self, "arguments", tuple(self.arguments))
 
 
-async def main(args: Arguments) -> _typing.NoReturn:
+async def main(args: Arguments):
     try:
-        frame: _types.FrameType | None = _inspect.currentframe()
+        frame = _curframe()
         if frame is None:
             raise ValueError(frame)
-        filename = _inspect.getframeinfo(frame).filename
-        folder = _anyio.Path(filename).parent
+        folder = _Path(_frameinfo(frame).filename).parent
 
-        cache_folder = _anyio.Path(
+        cache_folder = _Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
-        ) / str((await _pytextgen_util.asyncify(_os.lstat)(folder)).st_ino)
+        ) / str((await _asyncify(_lstat)(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
-            await _aioshutil.rmtree(cache_folder, ignore_errors=False)
+            await _rmtr(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
 
         cache_data_path = cache_folder / "cache.json"
@@ -119,73 +133,57 @@ async def main(args: Arguments) -> _typing.NoReturn:
             await cache_data_path.write_text(
                 "", encoding="UTF-8", errors="strict", newline=None
             )
-        async with await _anyio.open_file(
-            cache_data_path,
+        async with await cache_data_path.open(
             mode="r+t",
             **_OPEN_TXT_OPTS,
         ) as cache_data:
             try:
-                data: _typing.MutableMapping[str, _typing.Any] = _json.loads(
-                    await cache_data.read()
-                )
-            except _json.decoder.JSONDecodeError:
+                data: _MMap[str, _Any] = _loads(await cache_data.read())
+            except _JSONDecErr:
                 data = {}
-                _LOGGER.info(
-                    "Cache data will be regenerated because it is empty or corrupted"
-                )
-            data = _collections.defaultdict(dict, data)
-            finalizers: _typing.MutableSequence[
-                _typing.Callable[[], _typing.Awaitable[None]]
-            ] = []
+                _info("Cache data will be regenerated because it is empty or corrupted")
+            data = _defdict(dict, data)
+            finalizers = list[_Call[[], _Await[None]]]()
 
             try:
-                old_args: _typing.Collection[str] = data["args"]
+                old_args: _Collect[str] = data["args"]
             except KeyError:
                 old_args = ()
-            diff_args: bool = any(
-                _itertools.starmap(
-                    _operator.ne,
-                    _itertools.zip_longest(
-                        args.arguments, old_args, fillvalue=object()
-                    ),
-                )
+            diff_args = any(
+                _smap(_ne, _zip_l(args.arguments, old_args, fillvalue=object()))
             )
             data["args"] = args.arguments
 
             async def gen_inputs():
-                cache: _typing.MutableMapping[str, tuple[int, str]] = data["cache"]
+                cache: _MMap[str, tuple[int, str]] = data["cache"]
 
-                def on_error(err: OSError) -> None:
+                def on_error(err: OSError):
                     try:
                         raise err
                     except OSError:
-                        _LOGGER.exception("Exception while walking folders")
+                        _exc("Exception while walking folders")
 
-                async def maybe_yield(path: str):
+                async def maybe_yield(path: _Path):
+                    path_s = str(path)
+
                     def finalizer():
                         async def impl():
                             open_opts = _OPEN_TXT_OPTS.copy()
                             open_opts.update({"newline": ""})
-                            async with await _anyio.open_file(
-                                path,
-                                mode="r+t",
-                                **open_opts,
-                            ) as file:
+                            async with await path.open(mode="r+t", **open_opts) as file:
                                 text = await file.read()
-                                async with _asyncio.TaskGroup() as group:
+                                async with _TskGrp() as group:
                                     group.create_task(file.seek(0))
-                                    text = text.replace(_os.linesep, "\n")
+                                    text = text.replace(_linesep, "\n")
                                 await file.write(text)
                                 await file.truncate()
-                            cache[path] = (
-                                (
-                                    await _pytextgen_util.asyncify(_os.lstat)(path)
-                                ).st_mtime_ns,
+                            cache[path_s] = (
+                                (await _asyncify(_lstat)(path)).st_mtime_ns,
                                 text,
                             )
 
                         try:
-                            del cache[path]
+                            del cache[path_s]
                         except KeyError:
                             pass
                         return impl
@@ -193,24 +191,18 @@ async def main(args: Arguments) -> _typing.NoReturn:
                     if diff_args:
                         return finalizer()
                     try:
-                        c_mtime, c_text = cache[path]
+                        c_mtime, c_text = cache[path_s]
                     except KeyError:
                         return finalizer()
-                    if (
-                        await _pytextgen_util.asyncify(_os.lstat)(path)
-                    ).st_mtime_ns != c_mtime:
+                    if (await _asyncify(_lstat)(path)).st_mtime_ns != c_mtime:
                         open_opts = _OPEN_TXT_OPTS.copy()
                         open_opts.update({"newline": ""})
-                        async with await _anyio.open_file(
-                            path,
-                            mode="rt",
-                            **open_opts,
-                        ) as io:
+                        async with await path.open(mode="rt", **open_opts) as io:
                             text = await io.read()
                         if text != c_text:
                             return finalizer()
 
-                for root, dirs, files in _os.walk(
+                for root, dirs, files in _walk(
                     folder, topdown=True, onerror=on_error, followlinks=False
                 ):
                     if await folder.samefile(root):
@@ -221,23 +213,17 @@ async def main(args: Arguments) -> _typing.NoReturn:
                                 pass
                     for file in files:
                         if file.endswith(".md"):
-                            path = _os.path.join(root, file)
+                            path = await _Path(root, file).resolve(strict=True)
                             finalize = await maybe_yield(path)
                             if finalize is not None:
                                 finalizers.append(finalize)
                                 yield path
 
-            inputs = await _asyncstdlib.tuple(gen_inputs())
-            _LOGGER.info(f"Using {len(inputs)} input(s)")
+            inputs = await _atuple(str(input) async for input in gen_inputs())
+            _info(f"Using {len(inputs)} input(s)")
             try:
-                entry = _pytextgen_main.parser().parse_args(
-                    tuple(
-                        _itertools.chain(
-                            args.arguments,
-                            ("--",),
-                            inputs,
-                        )
-                    )
+                entry = _pytextgen_parser().parse_args(
+                    tuple(_chain(args.arguments, ("--",), inputs))
                 )
                 await entry.invoke(entry)
                 success = True
@@ -245,32 +231,28 @@ async def main(args: Arguments) -> _typing.NoReturn:
                 success = ex.code == 0
 
             if success:
-                await _asyncio.gather(
+                await _gather(
                     cache_data.seek(0), *(finalizer() for finalizer in finalizers)
                 )
                 await cache_data.write(
-                    _json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
+                    _dumps(data, ensure_ascii=False, sort_keys=True, indent=2)
                 )
                 await cache_data.truncate()
     except Exception:
-        _LOGGER.exception("Uncaught exception")
+        _exc("Uncaught exception")
     finally:
-        _LOGGER.info("Press <enter> to exit")
+        _info("Press <enter> to exit")
         try:
             input()
         except EOFError:
             pass
-    _sys.exit(0)
+    _exit(0)
 
 
-def parser(
-    parent: _typing.Callable[..., _argparse.ArgumentParser] | None = None,
-) -> _argparse.ArgumentParser:
-    prog: str = _sys.argv[0]
+def parser(parent: _Call[..., _ArgParser] | None = None):
+    prog = _argv[0]
 
-    parser: _argparse.ArgumentParser = (
-        _argparse.ArgumentParser if parent is None else parent
-    )(
+    parser = (_ArgParser if parent is None else parent)(
         prog=prog,
         description="input wrapper for tools",
         add_help=True,
@@ -297,12 +279,12 @@ def parser(
     parser.add_argument(
         "arguments",
         action="store",
-        nargs=_argparse.ONE_OR_MORE,
+        nargs=_ONE_OR_MORE,
         help="sequence of argument(s) to pass through",
     )
 
-    @_functools.wraps(main)
-    async def invoke(args: _argparse.Namespace) -> _typing.NoReturn:
+    @_wraps(main)
+    async def invoke(args: _NS):
         await main(
             Arguments(
                 prog=prog,
@@ -316,5 +298,6 @@ def parser(
 
 
 if __name__ == "__main__":
-    entry = parser().parse_args(_sys.argv[1:])
-    _asyncio.run(entry.invoke(entry))
+    _basicConfig(level=_INFO)
+    entry = parser().parse_args(_argv[1:])
+    _run(entry.invoke(entry))
