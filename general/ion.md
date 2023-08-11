@@ -297,7 +297,7 @@ return chain.from_iterable(await gather(
 
 1. hydrogen ion::1+ <!--SR:!2027-04-14,1522,373-->
 2. sodium ion::1+ <!--SR:!2024-02-08,522,310-->
-3. potassium ion::1+ <!--SR:!2023-08-10,418,292-->
+3. potassium ion::1+ <!--SR:!2028-04-05,1699,312-->
 4. copper(I) ion::1+ <!--SR:!2028-03-23,1794,372-->
 5. silver ion::1+ <!--SR:!2023-10-18,409,270-->
 6. mercury(I) ion::1+ <!--SR:!2027-08-31,1634,374-->
@@ -309,7 +309,7 @@ return chain.from_iterable(await gather(
 12. iron(II) ion::2+ <!--SR:!2028-04-27,1823,373-->
 13. nickel(II) ion::2+ <!--SR:!2026-08-31,1322,352-->
 14. copper(II) ion::2+ <!--SR:!2026-05-28,1176,352-->
-15. zinc ion::2+ <!--SR:!2023-08-10,197,224-->
+15. zinc ion::2+ <!--SR:!2025-04-30,628,244-->
 16. manganese(II) ion::2+ <!--SR:!2026-10-23,1379,367-->
 17. mercury(II) ion::2+ <!--SR:!2027-06-01,1561,374-->
 18. cobalt(II) ion::2+ <!--SR:!2027-04-15,1523,372-->

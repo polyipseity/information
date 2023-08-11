@@ -120,7 +120,7 @@ return await memorize_table(
 5. [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2023-09-04,41,250!2023-08-13,97,290-->
 6. [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2023-12-15,137,230!2023-08-27,96,270-->
 7. [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2024-01-06,193,270!2023-10-13,135,270-->
-8. [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2023-08-11,65,230!2023-10-26,129,270-->
+8. [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2024-01-15,157,230!2023-10-26,129,270-->
 9. [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2023-08-26,39,250!2023-09-04,107,290-->
 10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2023-11-30,183,310!2023-08-17,89,270-->
 11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2023-09-21,45,250!2024-01-30,186,250-->
@@ -130,7 +130,7 @@ return await memorize_table(
 15. [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2023-09-07,92,230!2023-10-19,73,230-->
 16. [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2023-09-08,73,270!2023-09-18,62,210-->
 17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2023-10-02,125,290!2023-08-12,86,270-->
-18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-11-22,143,250!2023-08-10,23,150-->
+18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2023-11-22,143,250!2023-08-25,14,130-->
 19. [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2023-11-05,133,250!2023-11-06,134,250-->
 20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2023-11-15,141,250!2023-08-23,36,230-->
 21. [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2024-01-02,168,250!2024-01-15,166,230-->
