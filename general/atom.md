@@ -9,7 +9,7 @@ tags:
 
 # atom
 
-An __atom__ is {{a [particle](particle.md) consisting of a [nucleus](nucleus.md) of [neutrons](neutron.md) and [protons](proton.md) surrounded by a cloud of [electrons](electron.md)}}. It is a basic particle {{of [chemical elements](chemical%20element.md)}}. <!--SR:!2023-08-11,35,230!2024-04-03,247,290-->
+An __atom__ is {{a [particle](particle.md) consisting of a [nucleus](nucleus.md) of [neutrons](neutron.md) and [protons](proton.md) surrounded by a cloud of [electrons](electron.md)}}. It is a basic particle {{of [chemical elements](chemical%20element.md)}}. <!--SR:!2023-11-04,85,230!2024-04-03,247,290-->
 
 Atoms are extremely small, {{typically 100 [picometers](picometer.md) across}}. <!--SR:!2023-10-15,148,290-->
 

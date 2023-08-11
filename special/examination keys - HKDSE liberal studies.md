@@ -220,7 +220,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-08-24,36,270!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-08-25,59,195!2023-08-15,79,275-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-08-11,23,170!2023-09-06,79,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-09-22,42,170!2023-09-06,79,235-->
 4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-08-23,16,130-->
@@ -319,7 +319,7 @@ return await memorize_seq(
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2023-10-08,111,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2023-09-23,108,275-->
-5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-08-11,9,210-->
+5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-09-01,21,210-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-06-16,324,330!2024-03-31,256,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -353,7 +353,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-09-13,98,270!2024-04-24,279,315-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2023-08-17,71,250!2023-09-27,57,215-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-08-10,22,190-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-08-24,13,170-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2023-09-27,112,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
