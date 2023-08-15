@@ -241,7 +241,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2024-02-21,247,230!2024-11-29,563,322-->
 2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2023-08-30,314,292!2024-02-15,205,287-->
-3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2023-08-12,196,320!2024-09-08,441,322-->
+3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -435,7 +435,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-09-27,49,210!2023-08-13,197,325!2024-01-08,338,367-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2023-09-27,49,210!2026-02-24,925,345!2024-01-08,338,367-->
 
 > {{aldehyde}}
 > - group: {{aldehyde}}
