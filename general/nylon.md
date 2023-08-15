@@ -48,7 +48,7 @@ return await memorize_table(
 ```
 %%
 
-The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2023-08-14,27,170-->
+The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2023-10-02,49,170-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2023-04-08T00:21:13.395338+08:00. Any edits will be overridden! -->
 
