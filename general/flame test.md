@@ -106,7 +106,7 @@ return await memorize_map(
 2. light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2024-01-23,180,250-->
 3. blue-green::[copper](copper.md)(I) <!--SR:!2023-10-06,80,270-->
 4. green (non-halide)::[copper](copper.md)(II) <!--SR:!2024-02-13,203,270-->
-5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2023-08-15,90,270-->
+5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2024-08-01,352,290-->
 6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-09-06,105,270-->
 7. gold::[iron](iron.md)(II) <!--SR:!2023-08-28,103,290-->
 8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-11-12,170,310-->

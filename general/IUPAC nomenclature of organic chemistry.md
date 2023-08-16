@@ -477,7 +477,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
 > - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
 > - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
-> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-12-20,322,365!2024-03-24,397,365!2025-02-17,627,325!2024-11-18,518,325!2024-10-03,419,287!2023-08-15,203,327-->
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2023-12-20,322,365!2024-03-24,397,365!2025-02-17,627,325!2024-11-18,518,325!2024-10-03,419,287!2025-06-09,664,327-->
 
 > {{amide}}
 > - group: {{amide}}
@@ -491,7 +491,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2023-12-11,293,348!2024-04-08,411,368!2023-08-15,205,328!2023-11-02,179,248!2024-04-14,417,368-->
+> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2023-12-11,293,348!2024-04-08,411,368!2026-03-30,958,348!2023-11-02,179,248!2024-04-14,417,368-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

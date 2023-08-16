@@ -33,7 +33,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editing
 
-- delete w/ confirmation:::X <!--SR:!2024-11-25,481,310!2023-08-15,166,316-->
+- delete w/ confirmation:::X <!--SR:!2024-11-25,481,310!2025-01-15,519,316-->
 - delete w/o confirmation:::Delete <!--SR:!2025-01-28,571,330!2024-09-06,439,296-->
 
 ### editor
@@ -54,4 +54,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 	- +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2023-09-04,164,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-08-20,62,276!2023-09-03,58,236-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-11-13,111,210!2023-08-22,88,236-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-12-11,214,270!2023-08-15,27,135-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-12-11,214,270!2023-09-24,40,135-->
