@@ -23,10 +23,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "spellcheckLanguages": [
-    "en-US",
-    "en-GB"
-  ],
+  "spellcheckLanguages": null,
   "newLinkFormat": "relative",
   "rightToLeft": false,
   "mobileToolbarCommands": [

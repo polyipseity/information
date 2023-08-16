@@ -473,7 +473,7 @@ return chain.from_iterable(await gather(
 5. iodide ion::colorless <!--SR:!2023-11-30,465,307-->
 6. hydroxide ion::colorless <!--SR:!2024-06-20,403,307-->
 7. nitrate ion::colorless <!--SR:!2023-12-01,466,299-->
-8. nitrite ion::_(n/a)_ <!--SR:!2023-08-15,184,276-->
+8. nitrite ion::_(n/a)_ <!--SR:!2023-11-19,96,256-->
 9. hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2026-11-15,1203,270-->
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->

@@ -22,7 +22,7 @@ Molecular formulas {{show the number of each kind of [atom](atom.md) in a [molec
 
 ### structural formula
 
-Structural formulas {{show the numbers, organization and [chemical bonds](chemical%20bond.md) of [atoms](atom.md) in a [molecule](molecule.md)}}. <!--SR:!2023-08-15,28,190-->
+Structural formulas {{show the numbers, organization and [chemical bonds](chemical%20bond.md) of [atoms](atom.md) in a [molecule](molecule.md)}}. <!--SR:!2023-10-07,53,190-->
 
 #### condensed formula
 
