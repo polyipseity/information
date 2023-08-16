@@ -5,5 +5,9 @@
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
   "recovery": {},
-  "showHiddenFiles": true
+  "showConfigurationFolder": true,
+  "showHiddenFiles": true,
+  "showingRules": [
+    "+/"
+  ]
 }
