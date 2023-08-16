@@ -60,7 +60,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 2. appearance→:::←deformability (as a solid) <!--SR:!2023-11-20,161,270!2023-08-24,93,270-->
 3. deformability (as a solid)→:::←[density](density.md) <!--SR:!2024-01-22,204,270!2023-12-17,181,310-->
 4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2023-09-02,101,270!2023-09-24,41,190-->
-5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2023-08-30,99,270!2023-08-16,58,210-->
+5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2023-08-30,99,270!2024-02-06,174,230-->
 6. form→:::←[melting point](melting%20point.md) <!--SR:!2023-11-17,122,210!2023-12-11,146,230-->
 7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2023-08-18,11,150-->
 8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2023-11-22,176,310-->

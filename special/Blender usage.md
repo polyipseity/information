@@ -26,7 +26,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - render:::F12 <!--SR:!2024-10-25,494,316!2023-09-04,181,316-->
 - quick access:::Q <!--SR:!2023-10-27,200,270!2023-09-27,155,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-08-22,13,130!2023-09-11,153,256-->
-- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-03-26,251,210!2023-08-16,110,196-->
+- toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-03-26,251,210!2024-03-25,222,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
 - reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-08-26,55,230!2023-09-03,68,195-->
@@ -50,7 +50,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 - toggle edit mode:::Tab↹ <!--SR:!2024-11-30,512,310!2023-08-23,155,296-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2024-06-23,370,276!2023-08-27,23,176-->
-- toggle vertex/edge/face mode:::1/2/3 <!--SR:!2023-08-16,167,316!2024-08-12,390,296-->
+- toggle vertex/edge/face mode:::1/2/3 <!--SR:!2025-08-08,723,336!2024-08-12,390,296-->
 	- +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2023-09-04,164,296-->
 	- +expand/contract selection:::+Ctrl <!--SR:!2023-08-20,62,276!2023-09-03,58,236-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-11-13,111,210!2023-08-22,88,236-->

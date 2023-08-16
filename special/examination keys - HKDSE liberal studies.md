@@ -116,7 +116,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-08-25,11,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2023-08-24,28,215!2023-08-16,28,155-->
+3. factor/reason→:::←impact/problem <!--SR:!2023-08-24,28,215!2023-09-01,16,135-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2023-09-01,38,275!2023-11-21,125,250-->
@@ -422,7 +422,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-08-18,54,210!2023-10-21,132,295-->
 2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-08-19,15,130!2023-11-21,117,230-->
-3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-08-16,15,190-->
+3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-09-15,30,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
