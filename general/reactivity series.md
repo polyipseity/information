@@ -122,7 +122,7 @@ return await memorize_table(
 7. [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2024-01-06,193,270!2023-10-13,135,270-->
 8. [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2024-01-15,157,230!2023-10-26,129,270-->
 9. [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2023-08-26,39,250!2023-09-04,107,290-->
-10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2023-11-30,183,310!2023-08-17,89,270-->
+10. [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2023-11-30,183,310!2024-07-23,341,290-->
 11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2023-09-21,45,250!2024-01-30,186,250-->
 12. [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-03-23,222,250!2024-01-26,192,270-->
 13. [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2023-11-28,149,250!2023-09-06,103,270-->
