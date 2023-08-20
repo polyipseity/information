@@ -423,7 +423,7 @@ return chain.from_iterable(await gather(
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2024-08-09,659,310!2026-06-30,1200,313-->
 14. sulfide ion:::S<sup>2-</sup> <!--SR:!2024-02-13,481,267!2024-02-22,533,310-->
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2024-05-15,573,299!2025-10-13,1049,345-->
-16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2023-10-28,432,293!2023-08-18,296,254-->
+16. sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2023-10-28,432,293!2026-07-16,1061,274-->
 17. carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2024-04-18,528,270!2023-12-28,493,313-->
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2024-01-20,457,258!2024-06-29,618,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
@@ -441,7 +441,7 @@ return chain.from_iterable(await gather(
 2. fluoride ion::1- <!--SR:!2025-04-20,869,292-->
 3. chloride ion::1- <!--SR:!2028-03-14,1789,374-->
 4. bromide ion::1- <!--SR:!2025-03-11,823,293-->
-5. iodide ion::1- <!--SR:!2023-08-18,361,259-->
+5. iodide ion::1- <!--SR:!2027-03-29,1317,279-->
 6. hydroxide ion::1- <!--SR:!2026-10-01,1257,313-->
 7. nitrate ion::1- <!--SR:!2024-04-11,436,270-->
 8. nitrite ion::1- <!--SR:!2023-10-27,431,292-->
@@ -498,6 +498,6 @@ return chain.from_iterable(await gather(
 1. <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2024-04-28,306,361-->
 2. <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2024-01-26,215,341-->
 3. <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2024-06-19,348,361-->
-4. <span style="color: green;">green</span>::manganate ion <!--SR:!2023-08-18,60,282-->
+4. <span style="color: green;">green</span>::manganate ion <!--SR:!2024-02-07,171,282-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -69,6 +69,6 @@ return (
 7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2023-10-02,216,270!2024-05-03,395,290-->
 8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->
 9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2023-10-06,211,250!2023-12-29,293,270-->
-10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2024-03-23,396,330!2023-08-18,135,250-->
+10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2024-03-23,396,330!2024-07-25,340,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

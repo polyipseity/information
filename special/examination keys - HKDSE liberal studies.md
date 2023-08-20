@@ -64,10 +64,10 @@ return await memorize_table(
 1. _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 2. affirming the consequent→:::←appeal to authority <!--SR:!2024-01-16,181,295!2024-04-23,278,315-->
 3. appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-4. appeal to tradition→:::←guilt by association <!--SR:!2023-10-04,94,230!2023-08-20,82,275-->
+4. appeal to tradition→:::←guilt by association <!--SR:!2023-10-04,94,230!2024-04-02,226,275-->
 5. guilt by association→:::←hasty generalization <!--SR:!2023-10-06,121,295!2023-08-23,35,270-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-09-11,92,270!2023-10-21,116,270-->
-7. popularity and testimonials→:::←post hoc <!--SR:!2023-08-20,32,270!2023-09-01,68,275-->
+7. popularity and testimonials→:::←post hoc <!--SR:!2023-09-07,18,250!2023-09-01,68,275-->
 8. post hoc→:::←self-contradiction <!--SR:!2023-10-02,75,235!2024-04-04,260,315-->
 9. self-contradiction→:::←virtue by association <!--SR:!2023-09-19,98,275!2023-10-27,117,270-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2023-11-18,152,295-->
@@ -120,7 +120,7 @@ return await memorize_table(
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2023-09-01,38,275!2023-11-21,125,250-->
-7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2023-08-20,74,255-->
+7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -265,7 +265,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-09-23,90,235!2023-09-29,72,275-->
-3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-10-04,119,295!2023-08-19,43,215-->
+3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-10-04,119,295!2023-11-24,96,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-10-08,98,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
 6. Deduce causes and reasons.→:::←_(end)_ <!--SR:!2024-06-09,320,335!2024-04-09,265,315-->
@@ -278,7 +278,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2023-11-16,101,
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-11-11,137,310!2023-08-19,73,255!2023-09-02,45,210-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-11-11,137,310!2024-02-25,189,255!2023-09-02,45,210-->
 
 ## essay patterns
 
@@ -420,8 +420,8 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-08-18,54,210!2023-10-21,132,295-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-08-19,15,130!2023-11-21,117,230-->
+1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2023-10-21,132,295-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-08-29,9,130!2023-11-21,117,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-09-15,30,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -460,7 +460,7 @@ return await memorize_seq(
 1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-08-22,51,250!2023-12-26,184,315-->
 2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2024-01-23,188,295!2023-09-07,88,270-->
 3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-11-02,106,235!2023-09-20,105,275-->
-4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2023-08-18,72,250!2023-08-20,74,250-->
+4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->
 5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2023-09-27,112,275-->
 6. (Conclusion) Summarize solutions.→:::←_(end)_ <!--SR:!2024-05-24,304,330!2023-12-25,183,315-->
 

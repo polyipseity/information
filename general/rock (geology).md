@@ -12,4 +12,4 @@ tags:
 
 # rock
 
-__Rock__ or __stone__ is {{an naturally occurring solid mass of [minerals](mineral.md) or [mineraloids](mineraloid.md)}}. <!--SR:!2023-08-18,42,150-->
+__Rock__ or __stone__ is {{an naturally occurring solid mass of [minerals](mineral.md) or [mineraloids](mineraloid.md)}}. <!--SR:!2023-11-25,97,170-->
