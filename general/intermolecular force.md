@@ -45,7 +45,7 @@ return await memorize_table(
 > |-|-|
 > | {{[covalent bond](covalent%20bond.md)}} | {{130–1100 kJ/mol}} |
 > | {{[hydrogen bond](hydrogen%20bond.md)}} | {{4–50 kJ/mol}} |
-> | {{[London dispersion force](London%20dispersion%20force.md)}} | {{0.01–63 kJ/mol}} | <!--SR:!2024-01-21,224,310!2023-08-22,70,210!2024-05-09,312,330!2023-09-22,52,190!2024-04-08,288,330!2023-10-19,146,290-->
+> | {{[London dispersion force](London%20dispersion%20force.md)}} | {{0.01–63 kJ/mol}} | <!--SR:!2024-01-21,224,310!2024-01-16,147,210!2024-05-09,312,330!2023-09-22,52,190!2024-04-08,288,330!2023-10-19,146,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

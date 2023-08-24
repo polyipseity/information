@@ -62,7 +62,7 @@ return await memorize_table(
 3. [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→:::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2023-08-23,59,234!2024-06-05,334,334-->
 4. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2023-11-27,173,309!2023-12-16,151,269-->
 5. [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2023-09-25,56,234!2023-09-03,110,294-->
-6. [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2023-08-22,94,274!2023-10-04,78,274-->
+6. [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2024-05-06,258,274!2023-10-04,78,274-->
 7. [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-05-11,314,334!2023-10-26,93,281-->
 8. [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)→:::←_(end)_ <!--SR:!2024-05-12,315,334!2024-06-07,336,334-->
 
