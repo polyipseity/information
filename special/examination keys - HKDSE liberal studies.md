@@ -108,7 +108,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2023-09-10,90,270!2023-08-21,75,250!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-08-24,36,275!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2023-09-10,90,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-08-24,36,275!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -221,10 +221,10 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 1. _(begin)_→:::←according to/refer to <!--SR:!2023-08-24,36,270!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-08-25,59,195!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-09-22,42,170!2023-09-06,79,235-->
-4. effectiveness→:::←factor <!--SR:!2023-08-21,83,275!2023-12-24,139,230-->
+4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-08-23,16,130-->
-7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2023-08-22,84,275-->
+7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2024-07-16,329,295-->
 8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-08-29,53,210-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
 
@@ -457,7 +457,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-04-26T19:16:21.192651+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-08-22,51,250!2023-12-26,184,315-->
+1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-12-26,126,250!2023-12-26,184,315-->
 2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2024-01-23,188,295!2023-09-07,88,270-->
 3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-11-02,106,235!2023-09-20,105,275-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->

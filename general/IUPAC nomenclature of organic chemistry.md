@@ -484,7 +484,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2023-09-08,223,345!2024-03-25,398,365!2023-08-22,210,325!2024-01-09,198,265!2023-10-26,230,285!2023-11-16,289,347-->
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2023-09-08,223,345!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2023-10-26,230,285!2023-11-16,289,347-->
 
 > {{nitrile}}
 > - group: {{nitrile}}
