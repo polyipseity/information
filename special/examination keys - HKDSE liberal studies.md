@@ -65,7 +65,7 @@ return await memorize_table(
 2. affirming the consequent→:::←appeal to authority <!--SR:!2024-01-16,181,295!2024-04-23,278,315-->
 3. appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
 4. appeal to tradition→:::←guilt by association <!--SR:!2023-10-04,94,230!2024-04-02,226,275-->
-5. guilt by association→:::←hasty generalization <!--SR:!2023-10-06,121,295!2023-08-23,35,270-->
+5. guilt by association→:::←hasty generalization <!--SR:!2023-10-06,121,295!2024-01-07,137,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-09-11,92,270!2023-10-21,116,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-09-07,18,250!2023-09-01,68,275-->
 8. post hoc→:::←self-contradiction <!--SR:!2023-10-02,75,235!2024-04-04,260,315-->
@@ -212,7 +212,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2023-08-26,32,235!2023-08-30,90,275!2023-09-10,82,235!2024-01-07,194,315!2023-08-23,85,275!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2023-09-11,66,210!2024-03-29,254,315!2023-09-06,87,275!2023-10-24,135,295!2023-09-04,77,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2023-08-26,32,235!2023-08-30,90,275!2023-09-10,82,235!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2023-09-11,66,210!2024-03-29,254,315!2023-09-06,87,275!2023-10-24,135,295!2023-09-04,77,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -223,7 +223,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 3. cause/reason→:::←effectiveness <!--SR:!2023-09-22,42,170!2023-09-06,79,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-08-23,16,130-->
+6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-09-24,32,150-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2024-07-16,329,295-->
 8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-08-29,53,210-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->

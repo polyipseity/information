@@ -172,7 +172,7 @@ return await memorize_table(
 34. [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2023-11-06,148,290-->
 35. [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-01-06,172,250!2023-09-05,49,250-->
 36. [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2024-02-06,203,270!2023-09-16,116,290-->
-37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-08-23,27,230!2023-11-11,165,310-->
+37. [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2023-09-08,16,210!2023-11-11,165,310-->
 38. [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-03-07,219,270!2023-09-14,121,290-->
 39. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2023-09-15,122,290!2023-11-02,149,270-->
 40. [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2024-04-29,253,270!2023-10-12,128,290-->
