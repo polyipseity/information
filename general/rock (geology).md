@@ -5,8 +5,6 @@ aliases:
   - stone
   - stones
 tags:
-  - categories/chemistry
-  - categories/geology
   - flashcards/general/rock__geology_
 ---
 

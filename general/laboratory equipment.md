@@ -6,9 +6,6 @@ aliases:
   - laboratory instrument
   - laboratory instruments
 tags:
-  - categories/biology
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/laboratory_equipment
 ---
 

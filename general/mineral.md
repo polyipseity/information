@@ -3,9 +3,6 @@ aliases:
   - mineral species
   - minerals
 tags:
-  - categories/chemistry
-  - categories/geology
-  - categories/mineralogy
   - flashcards/general/mineral
 ---
 

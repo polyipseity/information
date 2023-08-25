@@ -1,8 +1,5 @@
 ---
 tags:
-  - categories/chemistry
-  - categories/geology
-  - categories/mineralogy
   - flashcards/general/ore
 ---
 

@@ -2,7 +2,6 @@
 aliases:
   - quartz
 tags:
-  - categories/chemistry
   - flashcards/general/quartz
 ---
 

@@ -7,7 +7,6 @@ aliases:
   - hydrogen bonding
   - hydrogen bonds
 tags:
-  - categories/chemistry
   - flashcards/general/hydrogen_bond
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - Ag
   - silver
 tags:
-  - categories/chemistry
   - flashcards/general/silver
 ---
 

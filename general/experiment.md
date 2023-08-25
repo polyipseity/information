@@ -1,8 +1,5 @@
 ---
 tags:
-  - categories/biology
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/experiment
 ---
 

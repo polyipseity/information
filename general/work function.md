@@ -2,7 +2,6 @@
 aliases:
   - work functions
 tags:
-  - categories/physics
   - flashcards/general/work_function
 ---
 

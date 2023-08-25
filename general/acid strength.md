@@ -5,7 +5,6 @@ aliases:
   - strong acid
   - strong acids
 tags:
-  - categories/chemistry
   - flashcards/general/acid_strength
 ---
 

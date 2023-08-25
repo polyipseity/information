@@ -3,7 +3,6 @@ aliases:
   - concentration
   - concentrations
 tags:
-  - categories/chemistry
   - flashcards/general/concentration
 ---
 

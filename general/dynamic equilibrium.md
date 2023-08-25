@@ -4,7 +4,6 @@ aliases:
   - dynamic equilibrium
   - dynamic equilibriums
 tags:
-  - categories/chemistry
   - flashcards/general/dynamic_equilibrium
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - ketone
   - ketones
 tags:
-  - categories/chemistry
   - flashcards/general/ketone
 ---
 

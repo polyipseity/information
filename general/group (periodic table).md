@@ -3,8 +3,6 @@ aliases:
   - group
   - groups
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/group__periodic_table_
 ---
 

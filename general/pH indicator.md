@@ -3,7 +3,6 @@ aliases:
   - pH indicator
   - pH indicators
 tags:
-  - categories/chemistry
   - flashcards/general/pH_indicator
 ---
 

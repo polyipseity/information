@@ -4,7 +4,6 @@ aliases:
   - CO<sub>2</sub>
   - carbon dioxide
 tags:
-  - categories/chemistry
   - flashcards/general/carbon_dioxide
 ---
 

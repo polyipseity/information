@@ -4,7 +4,6 @@ aliases:
   - evaporates
   - evaporation
 tags:
-  - categories/chemistry
   - flashcards/general/evaporation
 ---
 

@@ -11,7 +11,6 @@ aliases:
   - repeating unit
   - repeating units
 tags:
-  - categories/chemistry
   - flashcards/general/repeat_unit
 ---
 

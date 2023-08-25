@@ -4,7 +4,6 @@ aliases:
   - buckminsterfullerene
   - buckminsterfullerenes
 tags:
-  - categories/chemistry
   - flashcards/general/buckminsterfullerene
 ---
 

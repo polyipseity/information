@@ -3,8 +3,6 @@ aliases:
   - periodic table
   - periodic tables
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/periodic_table
 ---
 

@@ -2,7 +2,6 @@
 aliases:
   - fractional distillation
 tags:
-  - categories/chemistry
   - flashcards/general/fractional_distillation
 ---
 

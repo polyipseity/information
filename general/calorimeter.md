@@ -5,7 +5,6 @@ aliases:
   - calorimeter
   - calorimeters
 tags:
-  - categories/chemistry
   - flashcards/general/calorimeter
 ---
 

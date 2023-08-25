@@ -2,7 +2,6 @@
 aliases:
   - nonmetals
 tags:
-  - categories/chemistry
   - flashcards/general/nonmetal
 ---
 
