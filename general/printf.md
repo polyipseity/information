@@ -1,7 +1,7 @@
 ---
 aliases:
   - <code>printf</code>
-  - '`printf`'
+  - "`printf`"
   - printf
 tags:
   - categories/computer_science

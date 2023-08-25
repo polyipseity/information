@@ -1,8 +1,8 @@
 ---
 aliases:
-  - '`Double`'
-  - '`double`'
   - Double
+  - "`Double`"
+  - "`double`"
   - binary64
   - double
   - double-precision floating-point format
