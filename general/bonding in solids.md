@@ -89,7 +89,7 @@ return await memorize_table(
 
 ### ionic solid
 
-A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2023-08-25,67,250-->
+A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](atom.md) held together by [ionic bonds](ionic%20bond.md)}}. <!--SR:!2024-04-20,239,270-->
 
 #### properties
 

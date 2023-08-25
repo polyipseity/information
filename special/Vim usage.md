@@ -12,7 +12,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2024-01-14,196,328!2023-10-19,185,308-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2023-10-22,189,308!2024-05-07,317,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2023-10-27,100,173!2023-08-24,20,228-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2023-10-27,100,173!2023-11-05,72,248-->
 
 ## pattern
 - repeat (N=1) times:::(N) ^repeatN <!--SR:!2024-08-30,402,313!2024-06-03,385,348-->
