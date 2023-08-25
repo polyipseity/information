@@ -3,7 +3,6 @@ aliases:
   - aldehyde
   - aldehydes
 tags:
-  - categories/chemistry
   - flashcards/general/aldehyde
 ---
 

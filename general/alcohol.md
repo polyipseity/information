@@ -3,8 +3,6 @@ aliases:
   - alcohol
   - alcohols
 tags:
-  - categories/biology
-  - categories/chemistry
   - flashcards/general/alcohol
 ---
 

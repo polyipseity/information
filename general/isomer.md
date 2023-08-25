@@ -4,7 +4,6 @@ aliases:
   - isomeres
   - isomerism
 tags:
-  - categories/chemistry
   - flashcards/general/isomer
 ---
 

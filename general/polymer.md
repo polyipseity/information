@@ -3,7 +3,6 @@ aliases:
   - polymer
   - polymers
 tags:
-  - categories/chemistry
   - flashcards/general/polymer
 ---
 

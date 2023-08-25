@@ -2,7 +2,6 @@
 aliases:
   - nylon
 tags:
-  - categories/chemistry
   - flashcards/general/nylon
 ---
 

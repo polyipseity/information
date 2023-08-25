@@ -4,7 +4,6 @@ aliases:
   - bases
   - basic
 tags:
-  - categories/chemistry
   - flashcards/general/base__chemistry_
 ---
 

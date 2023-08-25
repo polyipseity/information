@@ -1,7 +1,5 @@
 ---
 tags:
-  - categories/geology
-  - categories/geophysics
   - flashcards/general/internal_structure_of_Earth
 ---
 

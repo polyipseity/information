@@ -3,7 +3,6 @@ aliases:
   - ionic compound
   - ionic compounds
 tags:
-  - categories/chemistry
   - flashcards/general/ionic_compound
 ---
 

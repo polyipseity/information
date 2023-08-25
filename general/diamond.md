@@ -3,7 +3,6 @@ aliases:
   - diamond
   - diamonds
 tags:
-  - categories/chemistry
   - flashcards/general/diamond
 ---
 

@@ -4,8 +4,6 @@ aliases:
   - pH
   - pOH
 tags:
-  - categories/biology
-  - categories/chemistry
   - flashcards/general/pH
 ---
 

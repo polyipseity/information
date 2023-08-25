@@ -2,7 +2,6 @@
 aliases:
   - dihydroxlation
 tags:
-  - categories/chemistry
   - flashcards/general/dihydroxylation
 ---
 

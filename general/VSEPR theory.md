@@ -3,7 +3,6 @@ aliases:
   - VSEPR theory
   - valence shell electron pair repulsion theory
 tags:
-  - categories/chemistry
   - flashcards/general/VSEPR_theory
 ---
 

@@ -7,7 +7,6 @@ aliases:
   - electropositivities
   - electropositivity
 tags:
-  - categories/chemistry
   - flashcards/general/electronegativity
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - primary standard
   - primary standards
 tags:
-  - categories/chemistry
   - flashcards/general/primary_standard
 ---
 

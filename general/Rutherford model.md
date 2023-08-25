@@ -1,6 +1,5 @@
 ---
 tags:
-  - categories/physics
   - flashcards/general/Rutherford_model
 ---
 

@@ -5,7 +5,6 @@ aliases:
   - reaction rate
   - reaction rates
 tags:
-  - categories/chemistry
   - flashcards/general/reaction_rate
 ---
 

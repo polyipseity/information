@@ -3,7 +3,6 @@ aliases:
   - catalytic converter
   - catalytic converters
 tags:
-  - categories/chemistry
   - flashcards/general/catalytic_converter
 ---
 

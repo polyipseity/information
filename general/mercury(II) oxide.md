@@ -5,7 +5,6 @@ aliases:
   - mercury oxide
   - mercury(II) oxide
 tags:
-  - categories/chemistry
   - flashcards/general/mercury_II__oxide
 ---
 

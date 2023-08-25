@@ -3,7 +3,6 @@ aliases:
   - Pb(OH)2
   - lead(II) hydroxide
 tags:
-  - categories/chemistry
   - flashcards/general/lead_II__hydroxide
 ---
 

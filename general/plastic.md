@@ -3,7 +3,6 @@ aliases:
   - plastic
   - plastics
 tags:
-  - categories/chemistry
   - flashcards/general/plastic
 ---
 

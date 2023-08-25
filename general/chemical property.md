@@ -3,7 +3,6 @@ aliases:
   - chemical properties
   - chemical property
 tags:
-  - categories/chemistry
   - flashcards/general/chemical_property
 ---
 

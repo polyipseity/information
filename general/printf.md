@@ -1,10 +1,9 @@
 ---
 aliases:
   - <code>printf</code>
-  - '`printf`'
+  - "`printf`"
   - printf
 tags:
-  - categories/computer_programming
   - flashcards/general/printf
 ---
 

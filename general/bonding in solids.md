@@ -3,7 +3,6 @@ aliases:
   - bonding in solids
   - bondings in solids
 tags:
-  - categories/chemistry
   - flashcards/general/bonding_in_solids
 ---
 

@@ -9,7 +9,6 @@ aliases:
   - N<sub>2</sub>
   - nitrogen
 tags:
-  - categories/chemistry
   - flashcards/general/nitrogen
 ---
 

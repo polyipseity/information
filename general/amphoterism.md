@@ -3,7 +3,6 @@ aliases:
   - amphoteric
   - amphoterism
 tags:
-  - categories/chemistry
   - flashcards/general/amphoterism
 ---
 

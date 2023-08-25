@@ -4,7 +4,6 @@ aliases:
   - standard electrode potential
   - standard electrode potentials
 tags:
-  - categories/chemistry
   - flashcards/general/standard_electrode_potential
 ---
 

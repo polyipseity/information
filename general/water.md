@@ -3,8 +3,6 @@ aliases:
   - H2O
   - water
 tags:
-  - categories/biology
-  - categories/chemistry
   - flashcards/general/water
 ---
 

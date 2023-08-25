@@ -1,6 +1,5 @@
 ---
 tags:
-  - categories/physics
   - flashcards/general/plum_pudding_model
 ---
 

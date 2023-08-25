@@ -3,7 +3,6 @@ aliases:
   - molecule
   - molecules
 tags:
-  - categories/chemistry
   - flashcards/general/molecule
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - hydrocarbon
   - hydrocarbons
 tags:
-  - categories/chemistry
   - flashcards/general/hydrocarbon
 ---
 

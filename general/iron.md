@@ -3,7 +3,6 @@ aliases:
   - Fe
   - iron
 tags:
-  - categories/chemistry
   - flashcards/general/iron
 ---
 

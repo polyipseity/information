@@ -6,7 +6,6 @@ aliases:
   - gold foil experiment
   - gold foil experiments
 tags:
-  - categories/physics
   - flashcards/general/Geiger–Marsden_experiments
 ---
 

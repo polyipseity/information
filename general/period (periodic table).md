@@ -3,8 +3,6 @@ aliases:
   - period
   - periods
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/period__periodic_table_
 ---
 

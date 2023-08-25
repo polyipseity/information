@@ -4,7 +4,6 @@ aliases:
   - endothermic process
   - endothermic processes
 tags:
-  - categories/chemistry
   - flashcards/general/endothermic_process
 ---
 

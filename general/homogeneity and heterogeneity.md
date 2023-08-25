@@ -6,7 +6,6 @@ aliases:
   - homogeneity and heterogeneity
   - homogeneous
 tags:
-  - categories/chemistry
   - flashcards/general/homogeneity_and_heterogeneity
 ---
 

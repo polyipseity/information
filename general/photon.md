@@ -2,7 +2,6 @@
 aliases:
   - photons
 tags:
-  - categories/physics
   - flashcards/general/photon
 ---
 

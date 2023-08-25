@@ -3,7 +3,6 @@ aliases:
   - amine
   - amines
 tags:
-  - categories/chemistry
   - flashcards/general/amine
 ---
 

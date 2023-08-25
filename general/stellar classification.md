@@ -3,7 +3,6 @@ aliases:
   - stellar classification
   - stellar classifications
 tags:
-  - categories/physics
   - flashcards/general/stellar_classification
 ---
 

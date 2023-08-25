@@ -3,7 +3,6 @@ aliases:
   - tooth enamel
   - tooth enamels
 tags:
-  - categories/biology
   - flashcards/general/tooth_enamel
 ---
 
