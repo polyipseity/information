@@ -1,9 +1,9 @@
 ---
 aliases:
-  - '`Float`'
-  - '`float`'
   - Float
   - Single
+  - "`Float`"
+  - "`float`"
   - binary32
   - float
   - single

@@ -1,7 +1,7 @@
 ---
 aliiases:
   - <code>scanf</code>
-  - '`scanf`'
+  - "`scanf`"
   - scanf
 tags:
   - categories/computer_science
