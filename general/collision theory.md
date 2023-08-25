@@ -2,7 +2,6 @@
 aliases:
   - collision theory
 tags:
-  - categories/chemistry
   - flashcards/general/collision_theory
 ---
 

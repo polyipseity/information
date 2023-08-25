@@ -2,7 +2,6 @@
 aliases:
   - atomicity
 tags:
-  - categories/chemistry
   - flashcards/general/atomicity
 ---
 

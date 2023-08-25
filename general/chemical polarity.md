@@ -6,7 +6,6 @@ aliases:
   - polarities
   - polarity
 tags:
-  - categories/chemistry
   - flashcards/general/chemical_polarity
 ---
 

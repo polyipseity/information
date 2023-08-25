@@ -2,7 +2,6 @@
 aliases:
   - metals
 tags:
-  - categories/chemistry
   - flashcards/general/metal
 ---
 

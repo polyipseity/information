@@ -2,7 +2,6 @@
 aliases:
   - Ostwald process
 tags:
-  - categories/chemistry
   - flashcards/general/Ostwald_process
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - chemical
   - chemistry
 tags:
-  - categories/chemistry
   - flashcards/general/chemistry
 ---
 

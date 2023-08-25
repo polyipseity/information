@@ -3,7 +3,6 @@ aliases:
   - list of trigonometric identities
   - trigonometric identities
 tags:
-  - categories/mathematics
   - flashcards/general/list_of_trigonometric_identities
 ---
 

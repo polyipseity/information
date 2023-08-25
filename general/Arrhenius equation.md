@@ -2,7 +2,6 @@
 aliases:
   - Arrhenius equation
 tags:
-  - categories/chemistry
   - flashcards/general/Arrhenius_equation
 ---
 

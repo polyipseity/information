@@ -3,7 +3,6 @@ aliases:
   - base anhydride
   - base anhydrides
 tags:
-  - categories/chemistry
   - flashcards/general/base_anhydride
 ---
 

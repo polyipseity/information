@@ -1,6 +1,5 @@
 ---
 tags:
-  - categories/astronomy
   - flashcards/general/Earth
 ---
 

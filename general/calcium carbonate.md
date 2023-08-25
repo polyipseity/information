@@ -2,7 +2,6 @@
 aliases:
   - CaCO3
 tags:
-  - categories/chemistry
   - flashcards/general/calcium_carbonate
 ---
 

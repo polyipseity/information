@@ -3,8 +3,6 @@ aliases:
   - physical properties
   - physical property
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/physical_property
 ---
 

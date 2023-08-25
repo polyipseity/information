@@ -3,7 +3,6 @@ aliases:
   - lens
   - lenses
 tags:
-  - categories/physics
   - flashcards/general/lens
 ---
 

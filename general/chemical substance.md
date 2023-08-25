@@ -6,7 +6,6 @@ aliases:
   - substance
   - substances
 tags:
-  - categories/chemistry
   - flashcards/general/chemical_substance
 ---
 

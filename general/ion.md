@@ -7,7 +7,6 @@ aliases:
   - ion
   - ions
 tags:
-  - categories/chemistry
   - flashcards/general/ion
 ---
 

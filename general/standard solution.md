@@ -3,7 +3,6 @@ aliases:
   - standard solution
   - standard solutions
 tags:
-  - categories/chemistry
   - flashcards/general/standard_solution
 ---
 

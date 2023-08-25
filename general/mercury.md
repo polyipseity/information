@@ -3,7 +3,6 @@ aliases:
   - Hg
   - mercury
 tags:
-  - categories/chemistry
   - flashcards/general/mercury
 ---
 

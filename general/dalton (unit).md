@@ -3,8 +3,6 @@ aliases:
   - dalton
   - unified atomic mass unit
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/dalton__unit_
 ---
 

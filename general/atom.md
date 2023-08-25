@@ -2,8 +2,6 @@
 aliases:
   - atoms
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/atom
 ---
 

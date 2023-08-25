@@ -2,7 +2,6 @@
 aliases:
   - physical changes
 tags:
-  - categories/chemistry
   - flashcards/general/physical_change
 ---
 

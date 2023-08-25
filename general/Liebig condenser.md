@@ -2,7 +2,6 @@
 aliases:
   - straight condenser
 tags:
-  - categories/chemistry
   - flashcards/general/Liebig_condenser
 ---
 

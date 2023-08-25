@@ -3,7 +3,6 @@ aliases:
   - insoluble
   - soluble
 tags:
-  - categories/chemistry
   - flashcards/general/solubility
 ---
 

@@ -5,8 +5,6 @@ aliases:
   - catalysts
   - catalytic
 tags:
-  - categories/biology
-  - categories/chemistry
   - flashcards/general/catalysis
 ---
 

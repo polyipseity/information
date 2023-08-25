@@ -3,7 +3,6 @@ aliases:
   - thermochemical equations
   - therochemical equation
 tags:
-  - categories/chemistry
   - flashcards/general/thermochemical_equation
 ---
 

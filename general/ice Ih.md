@@ -3,7 +3,6 @@ aliases:
   - ice 1h
   - ice Ih
 tags:
-  - categories/chemistry
   - flashcards/general/ice_Ih
 ---
 

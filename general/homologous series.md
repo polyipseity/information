@@ -2,7 +2,6 @@
 aliases:
   - homologous series
 tags:
-  - categories/chemistry
   - flashcards/general/homologous_series
 ---
 

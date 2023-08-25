@@ -3,7 +3,6 @@ aliases:
   - addition reaction
   - addition reactions
 tags:
-  - categories/chemistry
   - flashcards/general/addition_reaction
 ---
 

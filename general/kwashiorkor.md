@@ -2,7 +2,6 @@
 aliases:
   - kwashiorkor
 tags:
-  - categories/biology
   - flashcards/general/kwashiorkor
 ---
 

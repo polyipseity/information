@@ -3,7 +3,6 @@ aliases:
   - Haber process
   - Haber–Bosch process
 tags:
-  - categories/chemistry
   - flashcards/general/Haber_process
 ---
 

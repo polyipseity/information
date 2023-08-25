@@ -5,7 +5,6 @@ aliases:
   - titrimetry
   - volumetric analysis
 tags:
-  - categories/chemistry
   - flashcards/general/titration
 ---
 

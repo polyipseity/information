@@ -9,7 +9,6 @@ aliases:
   - single
   - single-precision floating-point format
 tags:
-  - categories/computer_science
   - flashcards/general/single-precison_floating-point_format
 ---
 

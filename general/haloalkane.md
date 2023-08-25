@@ -7,7 +7,6 @@ aliases:
   - halogenoalkane
   - halogenoalkanes
 tags:
-  - categories/chemistry
   - flashcards/general/haloalkane
 ---
 

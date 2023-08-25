@@ -3,8 +3,6 @@ aliases:
   - enthalpies
   - enthalpy
 tags:
-  - categories/chemistry
-  - categories/physics
   - flashcards/general/enthalpy
 ---
 

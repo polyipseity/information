@@ -3,8 +3,6 @@ aliases:
   - microscope
   - microscopes
 tags:
-  - categories/biology
-  - categories/physics
   - flashcards/general/microscope
 ---
 

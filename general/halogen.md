@@ -7,7 +7,6 @@ aliases:
   - halogen
   - halogens
 tags:
-  - categories/chemistry
   - flashcards/general/halogen
 ---
 

@@ -3,7 +3,6 @@ aliases:
   - activity series
   - reactivity series
 tags:
-  - categories/chemistry
   - flashcards/general/reactivity_series
 ---
 
