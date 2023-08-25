@@ -3,7 +3,6 @@ aliases:
   - angular resolution
   - angular resolutions
 tags:
-  - categories/physics
   - flashcards/general/angular_resolution
 ---
 

@@ -4,7 +4,6 @@ aliases:
   - Clinistrip
   - Diastix
 tags:
-  - categories/biology
   - flashcards/general/Clinistrip
 ---
 

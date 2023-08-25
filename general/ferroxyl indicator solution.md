@@ -7,7 +7,6 @@ aliases:
   - rust indicator solution
   - rust indicators
 tags:
-  - categories/chemistry
   - flashcards/general/ferroxyl_indicator_solution
 ---
 

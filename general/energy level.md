@@ -2,7 +2,6 @@
 aliases:
   - energy levels
 tags:
-  - categories/physics
   - flashcards/general/energy_level
 ---
 

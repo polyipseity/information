@@ -7,7 +7,6 @@ aliases:
   - double
   - double-precision floating-point format
 tags:
-  - categories/computer_science
   - flashcards/general/double-precison_floating-point_format
 ---
 

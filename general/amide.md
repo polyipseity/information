@@ -3,7 +3,6 @@ aliases:
   - amide
   - amides
 tags:
-  - categories/chemistry
   - flashcards/general/amide
 ---
 

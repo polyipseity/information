@@ -4,7 +4,6 @@ aliases:
   - element symbol
   - element symbols
 tags:
-  - categories/chemistry
   - flashcards/general/chemical_symbol
 ---
 

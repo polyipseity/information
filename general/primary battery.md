@@ -5,7 +5,6 @@ aliases:
   - primary cell
   - primary cells
 tags:
-  - categories/chemistry
   - flashcards/general/primary_battery
 ---
 

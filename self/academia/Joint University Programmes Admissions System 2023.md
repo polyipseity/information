@@ -1,6 +1,5 @@
 ---
 tags:
-  - categories/academia
   - date/2023/07/20/to
 ---
 

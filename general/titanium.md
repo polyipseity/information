@@ -3,7 +3,6 @@ aliases:
   - Ti
   - titanium
 tags:
-  - categories/chemistry
   - flashcards/general/titanium
 ---
 

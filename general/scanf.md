@@ -4,7 +4,6 @@ aliiases:
   - "`scanf`"
   - scanf
 tags:
-  - categories/computer_science
   - flashcards/general/scanf
 ---
 

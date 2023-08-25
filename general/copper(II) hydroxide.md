@@ -3,7 +3,6 @@ aliases:
   - Cu(OH)2
   - copper(II) hydroxide
 tags:
-  - categories/chemistry
   - flashcards/general/copper_II__hydroxide
 ---
 

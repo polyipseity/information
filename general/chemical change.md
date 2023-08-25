@@ -2,7 +2,6 @@
 aliases:
   - chemical changes
 tags:
-  - categories/chemistry
   - flashcards/general/chemical_change
 ---
 

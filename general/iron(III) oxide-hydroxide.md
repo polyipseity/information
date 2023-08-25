@@ -5,7 +5,6 @@ aliases:
   - iron(III) hydroxide
   - iron(III) oxide-hydroxide
 tags:
-  - categories/chemistry
   - flashcards/general/iron_III__oxide-hydroxide
 ---
 

@@ -4,7 +4,6 @@ aliases:
   - Cl<sub>2</sub>O
   - dichlorine monoxide
 tags:
-  - categories/chemistry
   - flashcards/general/dichlorine_monoxide
 ---
 

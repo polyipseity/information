@@ -4,7 +4,6 @@ aliases:
   - "`printf`"
   - printf
 tags:
-  - categories/computer_science
   - flashcards/general/printf
 ---
 

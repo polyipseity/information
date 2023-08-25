@@ -4,7 +4,6 @@ aliases:
   - alkali metals
   - lithium group
 tags:
-  - categories/chemistry
   - flashcards/general/alkali_metal
 ---
 

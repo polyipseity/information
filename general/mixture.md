@@ -2,7 +2,6 @@
 aliases:
   - mixtures
 tags:
-  - categories/chemistry
   - flashcards/general/mixture
 ---
 

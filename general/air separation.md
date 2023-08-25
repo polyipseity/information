@@ -2,7 +2,6 @@
 aliases:
   - air separation
 tags:
-  - categories/chemistry
   - flashcards/general/air_separation
 ---
 

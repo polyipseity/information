@@ -3,7 +3,6 @@ aliases:
   - matter wave
   - matter waves
 tags:
-  - categories/physics
   - flashcards/general/matter_wave
 ---
 

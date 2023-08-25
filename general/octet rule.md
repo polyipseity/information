@@ -2,7 +2,6 @@
 aliases:
   - octet rule
 tags:
-  - categories/chemistry
   - flashcards/general/octet_rule
 ---
 

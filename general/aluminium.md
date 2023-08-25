@@ -4,7 +4,6 @@ aliases:
   - aluminium
   - aluminum
 tags:
-  - categories/chemistry
   - flashcards/general/aluminium
 ---
 

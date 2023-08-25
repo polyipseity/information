@@ -3,7 +3,6 @@ aliases:
   - internal energies
   - internal energy
 tags:
-  - categories/physics
   - flashcards/general/internal_energy
 ---
 

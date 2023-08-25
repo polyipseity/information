@@ -1,6 +1,5 @@
 ---
 tags:
-  - categories/chemistry
   - flashcards/general/crystallization
 ---
 

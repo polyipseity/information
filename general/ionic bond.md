@@ -5,7 +5,6 @@ aliases:
   - ionic bonding
   - ionic bonds
 tags:
-  - categories/chemistry
   - flashcards/general/ionic_bond
 ---
 

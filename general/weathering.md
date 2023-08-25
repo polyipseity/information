@@ -1,8 +1,5 @@
 ---
 tags:
-  - categories/chemistry
-  - categories/climatology
-  - categories/geomorphology
   - flashcards/general/weathering
 ---
 

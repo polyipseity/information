@@ -1,7 +1,5 @@
 ---
 tags:
-  - categories/ecology
-  - categories/oceanography
   - flashcards/general/seawater
 ---
 

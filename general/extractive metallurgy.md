@@ -1,7 +1,5 @@
 ---
 tags:
-  - categories/chemistry
-  - categories/metallurgy
   - flashcards/general/extractive_metallurgy
 ---
 

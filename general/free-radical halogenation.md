@@ -2,7 +2,6 @@
 aliases:
   - free radical halogenation
 tags:
-  - categories/chemistry
   - flashcards/general/free-radical_halogenation
 ---
 

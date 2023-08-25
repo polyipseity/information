@@ -4,7 +4,6 @@ aliases:
   - Cl2
   - chlorine
 tags:
-  - categories/chemistry
   - flashcards/general/chlorine
 ---
 

@@ -1,6 +1,5 @@
 ---
 tags:
-  - categories/language_acquisition
   - flashcards/special/language_acquisition/International_Phonetic_Alphabet
 ---
 

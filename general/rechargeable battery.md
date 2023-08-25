@@ -9,7 +9,6 @@ aliases:
   - storage batteries
   - storage battery
 tags:
-  - categories/chemistry
   - flashcards/general/rechargeable_battery
 ---
 
