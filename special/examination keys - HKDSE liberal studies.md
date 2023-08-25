@@ -107,15 +107,15 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2023-09-10,90,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-08-24,36,275!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2023-09-10,90,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-09-14,20,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-08-25,11,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2023-08-24,28,215!2023-09-01,16,135-->
+2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-09-13,19,155-->
+3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-09-01,16,135-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2023-09-01,82,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2023-09-01,38,275!2023-11-21,125,250-->
@@ -217,8 +217,8 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←according to/refer to <!--SR:!2023-08-24,36,270!2023-12-28,186,315-->
-2. according to/refer to→:::←cause/reason <!--SR:!2023-08-25,59,195!2024-06-23,313,295-->
+1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
+2. according to/refer to→:::←cause/reason <!--SR:!2023-09-28,34,175!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-09-22,42,170!2023-09-06,79,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
@@ -352,7 +352,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-09-13,98,270!2024-04-24,279,315-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2023-09-27,57,215-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-08-24,13,170-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-09-02,8,150-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2023-09-27,112,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -386,7 +386,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2023-04-26T19:16:21.114781+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2023-08-24,86,275!2024-04-17,272,315-->
+1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2024-07-30,340,295!2024-04-17,272,315-->
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-09-25,92,235!2024-04-18,273,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-09-26,91,235!2023-11-30,134,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-11-05,126,270!2023-09-05,78,235-->
