@@ -95,7 +95,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←increased bleeding risk <!--SR:!2024-06-25,343,330!2024-03-08,255,330-->
 2. increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md) <!--SR:!2024-03-13,260,330!2024-03-12,259,330-->
-3. [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2023-08-27,93,270!2024-03-15,262,330-->
+3. [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2024-08-21,360,290!2024-03-15,262,330-->
 4. [stomach upset](abdominal%20pain.md)→:::←_(end)_ <!--SR:!2024-03-11,258,330!2024-03-10,257,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -213,7 +213,7 @@ return chain.from_iterable(await gather(
 > 15. {{antero-dorsal (front [tongue](tongue.md) body)}}
 > 16. {{laminal ([tongue](tongue.md) blade)}}
 > 17. {{apical ([tongue](tongue.md) tip or apex)}}
-> 18. {{sub-laminal/sub-apical ([tongue](tongue.md) underside)}} <!--SR:!2023-11-06,108,310!2023-12-19,142,318!2023-12-25,147,324!2023-11-05,101,304!2023-11-15,85,304!2023-10-18,68,304!2023-11-01,103,304!2023-09-25,66,293!2023-11-08,104,313!2023-09-05,34,253!2023-09-26,67,293!2024-01-04,156,333!2023-09-26,37,298!2023-08-27,4,277!2023-08-26,4,301-->
+> 18. {{sub-laminal/sub-apical ([tongue](tongue.md) underside)}} <!--SR:!2023-11-06,108,310!2023-12-19,142,318!2023-12-25,147,324!2023-11-05,101,304!2023-11-15,85,304!2023-10-18,68,304!2023-11-01,103,304!2023-09-25,66,293!2023-11-08,104,313!2023-09-05,34,253!2023-09-26,67,293!2024-01-04,156,333!2023-09-26,37,298!2023-09-11,15,297!2023-09-16,20,321-->
 
 - [consonant](consonant.md):::[phone](phone%20phonetics.md) articulated with partial or complete stricture in the [vocal tract](vocal%20tract.md) <!--SR:!2023-09-21,62,270!2023-11-07,109,310-->
 	- [airstream mechanism](airstream%20mechanism.md):::how the moving [air](air.md) is thrusted <!--SR:!2023-10-08,79,298!2023-11-28,126,323-->
@@ -222,7 +222,7 @@ return chain.from_iterable(await gather(
 		- (13%) [glottalic](glottalic%20consonant.md) ingressive:::[air](air.md) is [rarefied](rarefaction.md) by a downward movement of the [glottics](glottics.md)
 		- (<2%) lingual/[velaric](velar%20consonant.md) ingressive:::[air](air.md) is [rarefied](rarefaction.md) by a downward and sometimes rearward movement of the [tongue](tongue.md)
 		- ([interjection](interjection.md)) [pulmonic](pulmonic%20consonant.md) ingressive:::[air](air.md) is inhaled into the [lungs](lung.md) <!--SR:!2023-11-02,99,313!2023-11-04,100,313-->
-		- ([interjection](interjection.md)) lingual/[velaric](velar%20consonant.md) egressive:::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [tongue](tongue.md) <!--SR:!2023-09-03,9,279!2023-08-26,4,301-->
+		- ([interjection](interjection.md)) lingual/[velaric](velar%20consonant.md) egressive:::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [tongue](tongue.md) <!--SR:!2023-09-03,9,279!2023-09-14,18,321-->
 	- [length](gemination.md):::how long the articulation of a [consonant](consonant.md) lasts <!--SR:!2023-09-01,16,278-->
 		- values in ascending [length](gemination.md)::single/singleton, geminate, long geminate <!--SR:!2023-09-04,34,273-->
 	- [manner of articulation](manner%20of%20articulation.md):::configuration and interaction of the [speech organs](speech%20organ.md)
@@ -236,47 +236,47 @@ return chain.from_iterable(await gather(
 			- [sibilant](sibilant%20consonant.md):::fricative with airflow directed towards the [teeth](tooth.md) by the [tongue](tongue.md) <!--SR:!2023-09-08,14,301-->
 		- [nasal](nasal%20consonant.md):::consonant with occlusion of the [vocal tract](vocal%20tract.md) with nasal airflow <!--SR:!2023-09-07,13,297-->
 		- [plosive/stop](plosive%20consonant.md):::consonant with occlusion of the [vocal tract](vocal%20tract.md) without nasal airflow <!--SR:!2023-09-08,14,301-->
-		- [trill](trill%20consonant.md):::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2023-09-14,29,298!2023-08-26,4,301-->
-	- [place of articulation](place%20of%20articulation.md):::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2023-09-06,54,284!2023-08-26,4,298-->
-		- [alveolar](alveolar%20ridge.md):::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2023-08-26,4,299-->
+		- [trill](trill%20consonant.md):::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2023-09-14,29,298!2023-09-19,23,321-->
+	- [place of articulation](place%20of%20articulation.md):::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2023-09-06,54,284!2023-09-18,22,318-->
+		- [alveolar](alveolar%20ridge.md):::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2023-09-14,18,319-->
 		- [aryepiglottal](pharyngeal%20consonant.md):::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2024-03-21,209,333-->
 		- [coronal](coronal%20constant.md):::front of the [tongue](tongue.md) (active) <!--SR:!2023-10-04,75,293!2023-09-04,19,258-->
-			- [apical](apical%20consonant.md):::tip of the [tongue](tongue.md) (active) <!--SR:!2023-10-31,96,304!2023-08-26,4,298-->
-			- [laminal](laminal%20consonant.md):::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2023-10-20,61,233!2023-08-27,2,260-->
+			- [apical](apical%20consonant.md):::tip of the [tongue](tongue.md) (active) <!--SR:!2023-10-31,96,304!2023-09-18,22,318-->
+			- [laminal](laminal%20consonant.md):::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2023-10-20,61,233!2023-08-28,1,240-->
 			- [subapical](subapical%20consonant.md):::surface under the tip of the [tongue](tongue.md) (active) <!--SR:!2023-10-28,94,304!2023-12-24,147,333-->
 		- [dental](dental%20consonant.md):::upper [teeth](tooth.md) (passive) <!--SR:!2023-10-12,76,293-->
-		- [dorsal](dorsal%20consonant.md):::body of the [tongue](tongue.md) (active) <!--SR:!2023-08-26,49,313!2023-11-23,115,313-->
-		- [epiglottal](pharyngeal%20consonant.md):::[epiglottis](epiglottis.md), sitting at the [larynx](larynx.md) entrance (passive) <!--SR:!2023-08-26,4,301-->
+		- [dorsal](dorsal%20consonant.md):::body of the [tongue](tongue.md) (active) <!--SR:!2024-04-05,222,333!2023-11-23,115,313-->
+		- [epiglottal](pharyngeal%20consonant.md):::[epiglottis](epiglottis.md), sitting at the [larynx](larynx.md) entrance (passive) <!--SR:!2023-09-20,24,321-->
 		- [glottal](glottal%20consonant.md):::[glottis](glottis.md), opening between the [vocal cords](vocal%20cords.md) (active) <!--SR:!2023-09-07,48,273!2024-01-01,154,333-->
 		- [labial](labial%20consonant.md):::lower [lip](lip.md) (active), upper [lip](lip.md) (passive) <!--SR:!2023-11-30,115,284!2023-12-13,139,333-->
 		- [palatal](palatal%20consonant.md):::[hard palate](hard%20palate.md), the front part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2023-10-20,87,284-->
 		- [pharyngeal](pharyngeal%20consonant.md):::base of the [tongue](tongue.md) and [throat](throat.md) (active, passive) <!--SR:!2023-09-04,10,278-->
-		- [post-alveolar](post-alveolar%20consonant.md):::back of the upper [alveolar ridge](alveolar%20ridge.md) (passive) <!--SR:!2023-08-26,4,297-->
+		- [post-alveolar](post-alveolar%20consonant.md):::back of the upper [alveolar ridge](alveolar%20ridge.md) (passive) <!--SR:!2023-09-19,23,317-->
 		- [uvular](uvular%20consonant.md):::[uvula](uvula.md), hanging down at the [throat](throat.md) entrance (passive) <!--SR:!2023-09-24,65,284-->
-		- [velar](velar%20consonant.md):::[soft palate](soft%20palate.md), the back part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2023-09-05,20,278!2023-08-26,4,297-->
-	- [phonation](phonation.md):::how the [vocal cords](vocal%20folds.md) vibrate <!--SR:!2023-08-27,4,281!2023-08-26,4,301-->
-		- [voiced](voice%20(phonetics).md):::the [vocal cords](vocal%20cords.md) vibrate fully <!--SR:!2023-12-04,132,324!2023-08-26,4,298-->
+		- [velar](velar%20consonant.md):::[soft palate](soft%20palate.md), the back part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2023-09-05,20,278!2023-09-20,24,317-->
+	- [phonation](phonation.md):::how the [vocal cords](vocal%20folds.md) vibrate <!--SR:!2023-09-13,17,301!2023-09-17,21,321-->
+		- [voiced](voice%20(phonetics).md):::the [vocal cords](vocal%20cords.md) vibrate fully <!--SR:!2023-12-04,132,324!2023-09-19,23,318-->
 		- [voiceless](voicelessness.md):::the [vocal cords](vocal%20cords.md) do not vibrate <!--SR:!2023-12-05,133,333!2024-01-09,160,333-->
 	- [voice onset time](voice%20onset%20time.md) (VOT):::timing of [phonation](phonation.md) <!--SR:!2023-11-11,113,333-->
 		- values in ascending [VOT](voice%20onset%20time.md)::[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive) <!--SR:!2023-10-15,82,284-->
 - [vowel](vowel.md):::[phone](phone%20(phonetics).md) articulated without any stricture in the [vocal tract](vocal%20tract.md)
-	- [vowel backness](vowel.md#backness):::position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md) <!--SR:!2023-10-16,83,284!2023-08-26,4,297-->
+	- [vowel backness](vowel.md#backness):::position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md) <!--SR:!2023-10-16,83,284!2023-09-18,22,317-->
 		- values in ascending [vowel backness](vowel.md#backness)::[front](front%20vowel.md), [near-front](near-front%20vowel.md), [central](central%20vowel.md), [near-back](near-back%20vowel.md), [back](back%20vowel.md) <!--SR:!2023-10-25,92,304-->
 	- [vowel height](vowel.md#height):::vertical position of the [tongue](tongue.md) <!--SR:!2023-09-17,32,318-->
 		- values in descending [vowel height](vowel.md#height)::[close](close%20vowel.md), [near-close](near-close%20vowel.md), [close-mid](close-mid%20vowel.md), [mid](mid%20vowel.md), [open-mid](open-mid%20vowel.md), [near-open](near-open%20vowel.md), [open](open%20vowel.md)
-	- [vowel roundedness](roundedness.md):::rounding of the [lips](lip.md) <!--SR:!2023-10-25,91,293!2023-08-26,4,298-->
+	- [vowel roundedness](roundedness.md):::rounding of the [lips](lip.md) <!--SR:!2023-10-25,91,293!2023-09-17,21,318-->
 		- values in ascending [vowel roundedness](roundedness.md)::unrounded, compressed, protruded
 
 ### transcription delimiters
 
 Different brackets used to enclose IPA transcriptions have different meanings:
 
-- (principal) \[[square brackets](bracket.md#square%20brackets%20or%20brackets)\]:::[phonetic](phonetics.md) notation, board or narrow, indicating actual [pronunciation](pronunciation.md) <!--SR:!2023-09-17,58,264!2023-08-26,4,297-->
+- (principal) \[[square brackets](bracket.md#square%20brackets%20or%20brackets)\]:::[phonetic](phonetics.md) notation, board or narrow, indicating actual [pronunciation](pronunciation.md) <!--SR:!2023-09-17,58,264!2023-09-16,20,317-->
 - (principal) /[slashes](slash%20(punctuation).md)/:::[phonemic](phoneme.md) notation, indicating features that are distinctive in the language only <!--SR:!2023-09-28,69,293-->
 - (uncommon) {[curly brackets](bracket.md#curly%20brackets%20or%20braces)}:::[prosodic](prosody%20(linguistics).md) notation, also indicating elements of speech that are not [segments](segment%20(linguistics).md) called suprasegmentals
 - (uncommon) ([round brackets](bracket.md#round%20brackets%20or%20parentheses)):::transcription of indistinguishable or unidentified [utterances](utterance.md), or [silent articulation](mouthing.md) <!--SR:!2023-09-04,34,273-->
 - (uncommon) (([double round brackets](bracket.md#round%20brackets%20or%20parentheses))):::transcription of obscured speech or description of obscuring sound <!--SR:!2023-10-17,84,284!2023-09-22,63,284-->
-- (unofficial) \[\[[double square brackets](bracket.md#square%20brackets%20or%20brackets)\]\]:::extra-precise transcription <!--SR:!2023-08-26,4,298!2023-08-26,4,301-->
+- (unofficial) \[\[[double square brackets](bracket.md#square%20brackets%20or%20brackets)\]\]:::extra-precise transcription <!--SR:!2023-09-16,20,318!2023-09-14,18,321-->
 - (unofficial) //[double slashes](slash%20(punctuation).md)//, |[pipes](vertical%20bar.md)|, ||[double pipes](vertical%20bar.md)||, {[curly brackets](bracket.md#curly%20brackets%20or%20braces)}:::[morphophonemic](morphophonology.md) transcription <!--SR:!2023-09-08,14,301-->
 - (unofficial) ⟨[angle brackets](bracket.md#angle%20brackets%20or%20chevrons)⟩, ⟪[double angle brackets](bracket.md#angle%20brackets%20or%20chevrons)⟫:::original [Latin](Latin.md) [orthography](orthography.md), [transliteration](transliteration.md), or IPA letters themselves
 
@@ -406,7 +406,7 @@ Here is a list of common IPA letters and their pronunciations:
 > | [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) | \[ǁ\] | ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) | {{[English](English%20language.md) _**tchick**_ \[ˈǁ\]}} |
 > | [tenuis alveolar click](tenuis%20alveolar%20click.md) | \[ǃ\] | ![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) | {{[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat"}} |
 > | [tenuis bilabial click](tenuis%20bilabial%20click.md) | \[ʘ\] | ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) | {{[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"}} |
-> | [tenuis palatal click](tenuis%20palatal%20click.md) | \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} | <!--SR:!2023-10-06,77,290!2023-12-06,106,250!2023-09-04,10,164!2023-09-02,22,204!2023-11-10,103,304!2023-09-06,17,204!2023-10-13,67,284!2023-10-01,46,204!2023-09-23,64,284!2024-02-01,162,284!2023-09-13,22,244!2023-12-16,116,264!2023-09-21,62,284!2023-08-26,6,133!2023-09-19,42,213!2023-09-29,70,273!2023-10-23,64,213!2023-10-02,52,233!2023-09-03,51,273!2023-08-26,4,238!2023-09-15,24,278!2023-08-29,9,258!2023-08-31,15,278!2023-08-30,10,258!2023-08-29,9,238!2023-08-28,8,258!2023-08-30,14,278!2023-09-16,31,298!2023-08-30,15,278!2023-08-29,13,258!2023-09-07,13,297!2023-09-07,13,297!2023-09-02,8,257!2023-08-27,2,257!2023-09-04,10,277!2023-08-26,4,297!2023-08-27,2,257!2023-08-26,4,297!2023-08-27,4,277!2023-08-27,2,257!2023-08-27,2,257!2023-08-27,2,258!2023-08-26,4,298!2023-08-26,1,218!2023-08-27,2,258!2023-08-26,3,258!2023-08-27,2,258!2023-08-26,4,299!2023-08-26,4,300!2023-08-27,2,260!2023-08-26,1,220!2023-08-27,2,260!2023-09-03,9,280!2023-08-27,2,261!2023-08-26,3,261!2023-08-26,4,301!2023-09-03,9,281!2023-08-26,4,301!2023-08-26,4,301!2023-08-27,4,281!2023-09-03,9,261!2023-08-29,4,241-->
+> | [tenuis palatal click](tenuis%20palatal%20click.md) | \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | {{[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"}} | <!--SR:!2023-10-06,77,290!2023-12-06,106,250!2023-09-04,10,164!2023-09-02,22,204!2023-11-10,103,304!2023-09-06,17,204!2023-10-13,67,284!2023-10-01,46,204!2023-09-23,64,284!2024-02-01,162,284!2023-09-13,22,244!2023-12-16,116,264!2023-09-21,62,284!2023-09-07,11,133!2023-09-19,42,213!2023-09-29,70,273!2023-10-23,64,213!2023-10-02,52,233!2023-09-03,51,273!2023-08-29,2,218!2023-09-15,24,278!2023-08-29,9,258!2023-08-31,15,278!2023-08-30,10,258!2023-08-29,9,238!2023-08-28,8,258!2023-08-30,14,278!2023-09-16,31,298!2023-08-30,15,278!2023-08-29,13,258!2023-09-07,13,297!2023-09-07,13,297!2023-09-02,8,257!2023-09-01,5,257!2023-09-04,10,277!2023-09-09,13,297!2023-09-05,9,277!2023-09-20,24,317!2023-09-09,13,277!2023-08-28,1,237!2023-09-05,9,277!2023-09-02,6,258!2023-08-29,2,278!2023-08-28,1,198!2023-08-28,1,238!2023-08-29,2,238!2023-08-28,1,238!2023-09-11,15,299!2023-09-15,19,320!2023-09-03,7,280!2023-08-28,1,200!2023-08-28,1,240!2023-09-03,9,280!2023-08-28,1,241!2023-08-29,2,241!2023-09-12,16,301!2023-09-03,9,281!2023-08-29,2,281!2023-09-18,22,321!2023-08-29,2,261!2023-09-03,9,261!2023-08-29,4,241-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -414,56 +414,56 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="059f"--><!-- The following content is generated at 2023-08-09T19:34:04.118545+08:00. Any edits will be overridden! -->
 
-1. [open front unrounded vowel](open%20front%20unrounded%20vowel.md)::\[a\] <!--SR:!2023-08-26,4,298-->
-2. [open central unrounded vowel](open%20central%20unrounded%20vowel.md)::\[ä\] <!--SR:!2023-08-26,4,297-->
+1. [open front unrounded vowel](open%20front%20unrounded%20vowel.md)::\[a\] <!--SR:!2023-09-18,22,318-->
+2. [open central unrounded vowel](open%20central%20unrounded%20vowel.md)::\[ä\] <!--SR:!2023-09-20,24,317-->
 3. [near-open central vowel](near-open%20central%20vowel.md)::\[ɐ\]
 4. [open back unrounded vowel](open%20back%20unrounded%20vowel.md)::\[ɑ\]
-5. [nasalized open back unrounded vowel](nasal%20vowel.md)::\[ɑ̃\] <!--SR:!2023-08-26,4,301-->
-6. [open back rounded vowel](open%20back%20rounded%20vowel.md)::\[ɒ\] <!--SR:!2023-08-26,4,301-->
+5. [nasalized open back unrounded vowel](nasal%20vowel.md)::\[ɑ̃\] <!--SR:!2023-09-15,19,321-->
+6. [open back rounded vowel](open%20back%20rounded%20vowel.md)::\[ɒ\] <!--SR:!2023-09-20,24,321-->
 7. [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md)::\[ʌ\]
 8. [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md)::\[æ\]
-9. [voiced bilabial plosive](voiced%20bilabial%20plosive.md)::\[b\] <!--SR:!2023-08-26,4,298-->
-10. [voiced bilabial implosive](voiced%20bilabial%20implosive.md)::\[ɓ\] <!--SR:!2023-08-26,4,300-->
-11. [voiced bilabial fricative](voiced%20bilabial%20fricative.md)::\[β\] <!--SR:!2023-08-26,4,301-->
-12. [voiced bilabial trill](voiced%20bilabial%20trill.md)::\[ʙ\] <!--SR:!2023-08-26,4,301-->
+9. [voiced bilabial plosive](voiced%20bilabial%20plosive.md)::\[b\] <!--SR:!2023-09-16,20,318-->
+10. [voiced bilabial implosive](voiced%20bilabial%20implosive.md)::\[ɓ\] <!--SR:!2023-09-16,20,320-->
+11. [voiced bilabial fricative](voiced%20bilabial%20fricative.md)::\[β\] <!--SR:!2023-09-18,22,321-->
+12. [voiced bilabial trill](voiced%20bilabial%20trill.md)::\[ʙ\] <!--SR:!2023-09-20,24,321-->
 13. [voiceless palatal plosive](voiceless%20palatal%20plosive.md)::\[c\]
-14. [voiceless palatal fricative](voiceless%20palatal%20fricative.md)::\[ç\] <!--SR:!2023-08-26,4,301-->
+14. [voiceless palatal fricative](voiceless%20palatal%20fricative.md)::\[ç\] <!--SR:!2023-08-29,2,281-->
 15. [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md)::\[ɕ\]
-16. [voiced alveolar plosive](voiced%20alveolar%20plosive.md)::\[d\] <!--SR:!2023-08-26,4,298-->
-17. [voiced alveolar implosive](voiced%20alveolar%20implosive.md)::\[ɗ\] <!--SR:!2023-08-26,4,300-->
+16. [voiced alveolar plosive](voiced%20alveolar%20plosive.md)::\[d\] <!--SR:!2023-09-20,24,318-->
+17. [voiced alveolar implosive](voiced%20alveolar%20implosive.md)::\[ɗ\] <!--SR:!2023-09-20,24,320-->
 18. [voiced retroflex plosive](voiced%20retroflex%20plosive.md)::\[ɖ\]
 19. [voiced dental fricative](voiced%20dental%20fricative.md)::\[ð\]
 20. [voiced alveolar affricate](voiced%20alveolar%20affricate.md)::\[dz\]
 21. [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md)::\[dʒ\]
 22. [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md)::\[dʑ\]
 23. [voiced retroflex affricate](voiced%20retroflex%20affricate.md)::\[dʐ\]
-24. [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md)::\[e\] <!--SR:!2023-08-26,4,301-->
+24. [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md)::\[e\] <!--SR:!2023-09-14,18,321-->
 25. [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md)::\[ɘ\]
-26. [mid central vowel](mid%20central%20vowel.md)::\[ə\] <!--SR:!2023-08-26,4,297-->
+26. [mid central vowel](mid%20central%20vowel.md)::\[ə\] <!--SR:!2023-08-29,2,277-->
 27. [r-colored mid central vowel](r-colored%20vowel.md)::\[ɚ\]
 28. [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md)::\[ɛ\]
 29. [nasalized open-mid front unrounded vowel](nasal%20vowel.md)::\[ɛ̃\]
 30. [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md)::\[ɜ\]
 31. [r-colored open-mid central unrounded vowel](r-colored%20vowel.md)::\[ɝ\] <!--SR:!2023-09-02,8,277-->
-32. [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md)::\[f\] <!--SR:!2023-08-26,4,297-->
+32. [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md)::\[f\] <!--SR:!2023-09-17,21,317-->
 33. [voiced velar plosive](voiced%20velar%20plosive.md)::\[ɡ\]
 34. [voiced velar implosive](voiced%20velar%20implosive.md)::\[ɠ\]
 35. [voiced uvular plosive](voiced%20uvular%20plosive.md)::\[ɢ\]
 36. [voiceless glottal fricative](voiceless%20glottal%20fricative.md)::\[h\]
-37. [voiced glottal fricative](voiced%20glottal%20fricative.md)::\[ɦ\] <!--SR:!2023-08-26,4,301-->
+37. [voiced glottal fricative](voiced%20glottal%20fricative.md)::\[ɦ\] <!--SR:!2023-09-19,23,321-->
 38. [aspirated consonant](aspirated%20consonant.md)::\[ʰ\]
 39. [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md)::\[ħ\]
 40. [close front unrounded vowel](close%20front%20unrounded%20vowel.md)::\[i\]
 41. [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md)::\[ɪ\]
 42. [close central unrounded vowel](close%20central%20unrounded%20vowel.md)::\[ɨ\]
 43. [voiced palatal approximant](voiced%20palatal%20approximant.md)::\[j\]
-44. [palatalization](palatalization%20(phonetics).md)::\[ʲ\] <!--SR:!2023-08-26,4,298-->
+44. [palatalization](palatalization%20(phonetics).md)::\[ʲ\] <!--SR:!2023-09-14,18,318-->
 45. [voiced palatal fricative](voiced%20palatal%20fricative.md)::\[ʝ\]
 46. [voiced palatal plosive](voiced%20palatal%20plosive.md)::\[ɟ\]
 47. [voiced palatal implosive](voiced%20palatal%20implosive.md)::\[ʄ\]
 48. [voiceless velar plosive](voiceless%20velar%20plosive.md)::\[k\]
 49. [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md)::\[l\]
-50. [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md)::\[ɫ\] <!--SR:!2023-08-26,4,297-->
+50. [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md)::\[ɫ\] <!--SR:!2023-09-20,24,317-->
 51. [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md)::\[ɬ\]
 52. [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md)::\[ɭ\]
 53. [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md)::\[ɺ\]
@@ -471,11 +471,11 @@ Here is a list of common IPA letters and their pronunciations:
 55. [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md)::\[ʟ\]
 56. [voiced bilabial nasal](voiced%20bilabial%20nasal.md)::\[m\]
 57. [voiced labiodental nasal](voiced%20labiodental%20nasal.md)::\[ɱ\]
-58. [voiced alveolar nasal](voiced%20alveolar%20nasal.md)::\[n\] <!--SR:!2023-08-26,4,301-->
-59. [voiced velar nasal](voiced%20velar%20nasal.md)::\[ŋ\] <!--SR:!2023-08-26,4,301-->
-60. [voiced palatal nasal](voiced%20palatal%20nasal.md)::\[ɲ\] <!--SR:!2023-08-26,4,301-->
+58. [voiced alveolar nasal](voiced%20alveolar%20nasal.md)::\[n\] <!--SR:!2023-09-19,23,321-->
+59. [voiced velar nasal](voiced%20velar%20nasal.md)::\[ŋ\] <!--SR:!2023-08-29,2,281-->
+60. [voiced palatal nasal](voiced%20palatal%20nasal.md)::\[ɲ\] <!--SR:!2023-09-16,20,321-->
 61. [voiced retroflex nasal](voiced%20retroflex%20nasal.md)::\[ɳ\]
-62. [voiced uvular nasal](voiced%20uvular%20nasal.md)::\[ɴ\] <!--SR:!2023-08-26,4,299-->
+62. [voiced uvular nasal](voiced%20uvular%20nasal.md)::\[ɴ\] <!--SR:!2023-09-16,20,319-->
 63. [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md)::\[o\]
 64. [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md)::\[ɔ\]
 65. [nasalized open-mid back rounded vowel](nasal%20vowel.md)::\[ɔ̃\]
@@ -488,7 +488,7 @@ Here is a list of common IPA letters and their pronunciations:
 72. [voiceless uvular plosive](voiceless%20uvular%20plosive.md)::\[q\]
 73. [voiced alveolar trill](voiced%20alveolar%20trill.md)::\[r\]
 74. [voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md)::\[ɾ\]
-75. [voiced uvular trill](voiced%20uvular%20trill.md)::\[ʀ\] <!--SR:!2023-08-26,4,300-->
+75. [voiced uvular trill](voiced%20uvular%20trill.md)::\[ʀ\] <!--SR:!2023-08-29,2,280-->
 76. [voiced retroflex flap](voiced%20retroflex%20flap.md)::\[ɽ\]
 77. [voiced alveolar approximant](voiced%20alveolar%20approximant.md)::\[ɹ\]
 78. [voiced retroflex approximant](voiced%20retroflex%20approximant.md)::\[ɻ\]
@@ -496,7 +496,7 @@ Here is a list of common IPA letters and their pronunciations:
 80. [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md)::\[s\]
 81. [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md)::\[ʃ\]
 82. [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md)::\[ʂ\]
-83. [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md)::\[t\] <!--SR:!2023-08-26,4,299-->
+83. [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md)::\[t\] <!--SR:!2023-09-20,24,319-->
 84. [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md)::\[ʈ\]
 85. [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md)::\[ts\] <!--SR:!2023-09-08,14,299-->
 86. [voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md)::\[tʃ\]
@@ -505,7 +505,7 @@ Here is a list of common IPA letters and their pronunciations:
 89. [close back rounded vowel](close%20back%20rounded%20vowel.md)::\[u\]
 90. [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md)::\[ʊ\]
 91. [close central rounded vowel](close%20central%20rounded%20vowel.md)::\[ʉ\]
-92. [voiced labiodental fricative](voiced%20labiodental%20fricative.md)::\[v\] <!--SR:!2023-08-26,4,297-->
+92. [voiced labiodental fricative](voiced%20labiodental%20fricative.md)::\[v\] <!--SR:!2023-09-16,20,317-->
 93. [voiced labiodental approximant](voiced%20labiodental%20approximant.md)::\[ʋ\] <!--SR:!2023-09-08,14,297-->
 94. [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md)::\[w\]
 95. [labialization](labialization.md)::\[ʷ\]
@@ -521,71 +521,71 @@ Here is a list of common IPA letters and their pronunciations:
 105. [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md)::\[ʎ\]
 106. [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md)::\[ɥ\]
 107. [voiced alveolar fricative](voiced%20alveolar%20fricative.md)::\[z\]
-108. [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md)::\[ʒ\] <!--SR:!2023-08-26,4,300-->
+108. [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md)::\[ʒ\] <!--SR:!2023-09-19,23,320-->
 109. [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md)::\[ʑ\] <!--SR:!2023-09-04,10,280-->
 110. [voiced retroflex fricative](voiced%20retroflex%20fricative.md)::\[ʐ\]
 111. [voiceless dental fricative](voiceless%20dental%20fricative.md)::\[θ\]
 112. [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md)::\[ɸ\]
-113. [glottal stop](glottal%20stop.md)::\[ʔ\] <!--SR:!2023-08-26,4,301-->
+113. [glottal stop](glottal%20stop.md)::\[ʔ\] <!--SR:!2023-09-17,21,321-->
 114. [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md)::\[ʕ\]
 115. [tenuis dental click](tenuis%20dental%20click.md)::\[ǀ\]
 116. [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md)::\[ǁ\]
 117. [tenuis alveolar click](tenuis%20alveolar%20click.md)::\[ǃ\]
-118. [tenuis bilabial click](tenuis%20bilabial%20click.md)::\[ʘ\] <!--SR:!2023-08-26,4,301-->
+118. [tenuis bilabial click](tenuis%20bilabial%20click.md)::\[ʘ\] <!--SR:!2023-09-15,19,321-->
 119. [tenuis palatal click](tenuis%20palatal%20click.md)::\[ǂ\]
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d92e"--><!-- The following content is generated at 2023-08-09T19:34:04.091616+08:00. Any edits will be overridden! -->
 
-1. \[a\]::[open front unrounded vowel](open%20front%20unrounded%20vowel.md) <!--SR:!2023-08-26,4,298-->
+1. \[a\]::[open front unrounded vowel](open%20front%20unrounded%20vowel.md) <!--SR:!2023-09-15,19,318-->
 2. \[ä\]::[open central unrounded vowel](open%20central%20unrounded%20vowel.md)
 3. \[ɐ\]::[near-open central vowel](near-open%20central%20vowel.md)
 4. \[ɑ\]::[open back unrounded vowel](open%20back%20unrounded%20vowel.md)
 5. \[ɑ̃\]::[nasalized open back unrounded vowel](nasal%20vowel.md) <!--SR:!2023-09-05,11,297-->
-6. \[ɒ\]::[open back rounded vowel](open%20back%20rounded%20vowel.md) <!--SR:!2023-08-26,4,299-->
+6. \[ɒ\]::[open back rounded vowel](open%20back%20rounded%20vowel.md) <!--SR:!2023-09-14,18,319-->
 7. \[ʌ\]::[open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md)
 8. \[æ\]::[near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md)
-9. \[b\]::[voiced bilabial plosive](voiced%20bilabial%20plosive.md) <!--SR:!2023-08-26,4,297-->
-10. \[ɓ\]::[voiced bilabial implosive](voiced%20bilabial%20implosive.md) <!--SR:!2023-08-26,4,298-->
+9. \[b\]::[voiced bilabial plosive](voiced%20bilabial%20plosive.md) <!--SR:!2023-09-17,21,317-->
+10. \[ɓ\]::[voiced bilabial implosive](voiced%20bilabial%20implosive.md) <!--SR:!2023-09-18,22,318-->
 11. \[β\]::[voiced bilabial fricative](voiced%20bilabial%20fricative.md)
 12. \[ʙ\]::[voiced bilabial trill](voiced%20bilabial%20trill.md)
 13. \[c\]::[voiceless palatal plosive](voiceless%20palatal%20plosive.md)
-14. \[ç\]::[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!2023-08-27,4,281-->
+14. \[ç\]::[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!2023-09-13,17,301-->
 15. \[ɕ\]::[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md)
 16. \[d\]::[voiced alveolar plosive](voiced%20alveolar%20plosive.md)
 17. \[ɗ\]::[voiced alveolar implosive](voiced%20alveolar%20implosive.md)
 18. \[ɖ\]::[voiced retroflex plosive](voiced%20retroflex%20plosive.md)
-19. \[ð\]::[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!2023-08-26,4,301-->
+19. \[ð\]::[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!2023-09-17,21,321-->
 20. \[dz\]::[voiced alveolar affricate](voiced%20alveolar%20affricate.md)
 21. \[dʒ\]::[voiced postalveolar affricate](voiced%20postalveolar%20affricate.md)
-22. \[dʑ\]::[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!2023-08-27,2,257-->
+22. \[dʑ\]::[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!2023-08-28,1,237-->
 23. \[dʐ\]::[voiced retroflex affricate](voiced%20retroflex%20affricate.md)
 24. \[e\]::[close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md)
 25. \[ɘ\]::[close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md)
-26. \[ə\]::[mid central vowel](mid%20central%20vowel.md) <!--SR:!2023-08-26,4,297-->
+26. \[ə\]::[mid central vowel](mid%20central%20vowel.md) <!--SR:!2023-09-17,21,317-->
 27. \[ɚ\]::[r-colored mid central vowel](r-colored%20vowel.md)
 28. \[ɛ\]::[open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md)
 29. \[ɛ̃\]::[nasalized open-mid front unrounded vowel](nasal%20vowel.md) <!--SR:!2023-09-06,12,301-->
 30. \[ɜ\]::[open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md)
-31. \[ɝ\]::[r-colored open-mid central unrounded vowel](r-colored%20vowel.md) <!--SR:!2023-08-26,4,301-->
+31. \[ɝ\]::[r-colored open-mid central unrounded vowel](r-colored%20vowel.md) <!--SR:!2023-09-15,19,321-->
 32. \[f\]::[voiceless labiodental fricative](voiceless%20labiodental%20fricative.md)
 33. \[ɡ\]::[voiced velar plosive](voiced%20velar%20plosive.md)
 34. \[ɠ\]::[voiced velar implosive](voiced%20velar%20implosive.md)
 35. \[ɢ\]::[voiced uvular plosive](voiced%20uvular%20plosive.md) <!--SR:!2023-09-05,11,298-->
-36. \[h\]::[voiceless glottal fricative](voiceless%20glottal%20fricative.md) <!--SR:!2023-08-26,4,300-->
+36. \[h\]::[voiceless glottal fricative](voiceless%20glottal%20fricative.md) <!--SR:!2023-09-19,23,320-->
 37. \[ɦ\]::[voiced glottal fricative](voiced%20glottal%20fricative.md)
-38. \[ʰ\]::[aspirated consonant](aspirated%20consonant.md) <!--SR:!2023-08-26,4,297-->
+38. \[ʰ\]::[aspirated consonant](aspirated%20consonant.md) <!--SR:!2023-09-17,21,317-->
 39. \[ħ\]::[voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md)
-40. \[i\]::[close front unrounded vowel](close%20front%20unrounded%20vowel.md) <!--SR:!2023-08-26,4,297-->
+40. \[i\]::[close front unrounded vowel](close%20front%20unrounded%20vowel.md) <!--SR:!2023-09-18,22,317-->
 41. \[ɪ\]::[near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md)
-42. \[ɨ\]::[close central unrounded vowel](close%20central%20unrounded%20vowel.md) <!--SR:!2023-08-26,4,301-->
+42. \[ɨ\]::[close central unrounded vowel](close%20central%20unrounded%20vowel.md) <!--SR:!2023-09-19,23,321-->
 43. \[j\]::[voiced palatal approximant](voiced%20palatal%20approximant.md)
 44. \[ʲ\]::[palatalization](palatalization%20(phonetics).md)
 45. \[ʝ\]::[voiced palatal fricative](voiced%20palatal%20fricative.md)
 46. \[ɟ\]::[voiced palatal plosive](voiced%20palatal%20plosive.md)
 47. \[ʄ\]::[voiced palatal implosive](voiced%20palatal%20implosive.md)
-48. \[k\]::[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2023-08-26,4,301-->
+48. \[k\]::[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2023-09-17,21,321-->
 49. \[l\]::[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md)
 50. \[ɫ\]::[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) <!--SR:!2023-09-08,14,297-->
 51. \[ɬ\]::[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md)
@@ -595,9 +595,9 @@ Here is a list of common IPA letters and their pronunciations:
 55. \[ʟ\]::[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md)
 56. \[m\]::[voiced bilabial nasal](voiced%20bilabial%20nasal.md)
 57. \[ɱ\]::[voiced labiodental nasal](voiced%20labiodental%20nasal.md)
-58. \[n\]::[voiced alveolar nasal](voiced%20alveolar%20nasal.md) <!--SR:!2023-08-26,4,300-->
+58. \[n\]::[voiced alveolar nasal](voiced%20alveolar%20nasal.md) <!--SR:!2023-09-18,22,320-->
 59. \[ŋ\]::[voiced velar nasal](voiced%20velar%20nasal.md)
-60. \[ɲ\]::[voiced palatal nasal](voiced%20palatal%20nasal.md) <!--SR:!2023-08-26,4,301-->
+60. \[ɲ\]::[voiced palatal nasal](voiced%20palatal%20nasal.md) <!--SR:!2023-08-29,2,281-->
 61. \[ɳ\]::[voiced retroflex nasal](voiced%20retroflex%20nasal.md) <!--SR:!2023-09-08,14,297-->
 62. \[ɴ\]::[voiced uvular nasal](voiced%20uvular%20nasal.md)
 63. \[o\]::[close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md)
@@ -608,16 +608,16 @@ Here is a list of common IPA letters and their pronunciations:
 68. \[œ\]::[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md)
 69. \[œ̃\]::[nasalized open-mid front rounded vowel](nasal%20vowel.md)
 70. \[ɶ\]::[open front rounded vowel](open%20front%20rounded%20vowel.md)
-71. \[p\]::[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!2023-08-26,4,297-->
+71. \[p\]::[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!2023-09-19,23,317-->
 72. \[q\]::[voiceless uvular plosive](voiceless%20uvular%20plosive.md)
 73. \[r\]::[voiced alveolar trill](voiced%20alveolar%20trill.md)
 74. \[ɾ\]::[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md)
 75. \[ʀ\]::[voiced uvular trill](voiced%20uvular%20trill.md)
 76. \[ɽ\]::[voiced retroflex flap](voiced%20retroflex%20flap.md)
-77. \[ɹ\]::[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!2023-08-26,4,301-->
+77. \[ɹ\]::[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!2023-09-15,19,321-->
 78. \[ɻ\]::[voiced retroflex approximant](voiced%20retroflex%20approximant.md)
 79. \[ʁ\]::[voiced uvular fricative](voiced%20uvular%20fricative.md)
-80. \[s\]::[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!2023-08-26,4,298-->
+80. \[s\]::[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!2023-09-18,22,318-->
 81. \[ʃ\]::[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md)
 82. \[ʂ\]::[voiceless retroflex fricative](voiceless%20retroflex%20fricative.md)
 83. \[t\]::[voiceless alveolar plosive](voiceless%20alveolar%20plosive.md)
@@ -625,7 +625,7 @@ Here is a list of common IPA letters and their pronunciations:
 85. \[ts\]::[voiceless alveolar affricate](voiceless%20alveolar%20affricate.md)
 86. \[tʃ\]::[voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md)
 87. \[tɕ\]::[voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md)
-88. \[tʂ\]::[voiceless retroflex affricate](voiceless%20retroflex%20affricate.md) <!--SR:!2023-08-27,4,280-->
+88. \[tʂ\]::[voiceless retroflex affricate](voiceless%20retroflex%20affricate.md) <!--SR:!2023-09-13,17,300-->
 89. \[u\]::[close back rounded vowel](close%20back%20rounded%20vowel.md) <!--SR:!2023-09-03,9,260-->
 90. \[ʊ\]::[near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md)
 91. \[ʉ\]::[close central rounded vowel](close%20central%20rounded%20vowel.md)
@@ -634,11 +634,11 @@ Here is a list of common IPA letters and their pronunciations:
 94. \[w\]::[voiced labial–velar approximant](voiced%20labial–velar%20approximant.md) <!--SR:!2023-09-06,12,301-->
 95. \[ʷ\]::[labialization](labialization.md)
 96. \[ʍ\]::[voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md)
-97. \[ɯ\]::[close back unrounded vowel](close%20back%20unrounded%20vowel.md) <!--SR:!2023-08-26,4,300-->
+97. \[ɯ\]::[close back unrounded vowel](close%20back%20unrounded%20vowel.md) <!--SR:!2023-09-12,16,300-->
 98. \[ɰ\]::[voiced velar approximant](voiced%20velar%20approximant.md)
 99. \[x\]::[voiceless velar fricative](voiceless%20velar%20fricative.md)
 100. \[χ\]::[voiceless uvular fricative](voiceless%20uvular%20fricative.md)
-101. \[y\]::[close front rounded vowel](close%20front%20rounded%20vowel.md) <!--SR:!2023-08-26,4,300-->
+101. \[y\]::[close front rounded vowel](close%20front%20rounded%20vowel.md) <!--SR:!2023-09-19,23,320-->
 102. \[ʏ\]::[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md)
 103. \[ɣ\]::[voiced velar fricative](voiced%20velar%20fricative.md)
 104. \[ɤ\]::[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md)
@@ -655,8 +655,8 @@ Here is a list of common IPA letters and their pronunciations:
 115. \[ǀ\]::[tenuis dental click](tenuis%20dental%20click.md)
 116. \[ǁ\]::[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md)
 117. \[ǃ\]::[tenuis alveolar click](tenuis%20alveolar%20click.md)
-118. \[ʘ\]::[tenuis bilabial click](tenuis%20bilabial%20click.md) <!--SR:!2023-08-26,4,300-->
-119. \[ǂ\]::[tenuis palatal click](tenuis%20palatal%20click.md) <!--SR:!2023-08-27,2,260-->
+118. \[ʘ\]::[tenuis bilabial click](tenuis%20bilabial%20click.md) <!--SR:!2023-09-15,19,320-->
+119. \[ǂ\]::[tenuis palatal click](tenuis%20palatal%20click.md) <!--SR:!2023-08-28,1,240-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -674,9 +674,9 @@ Here is a list of common IPA letters and their pronunciations:
 8. [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md)::![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg)
 9. [voiced bilabial plosive](voiced%20bilabial%20plosive.md)::![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg) <!--SR:!2023-09-15,30,318-->
 10. [voiced bilabial implosive](voiced%20bilabial%20implosive.md)::![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg) <!--SR:!2023-09-16,31,318-->
-11. [voiced bilabial fricative](voiced%20bilabial%20fricative.md)::![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg) <!--SR:!2023-08-26,4,301-->
-12. [voiced bilabial trill](voiced%20bilabial%20trill.md)::![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg) <!--SR:!2023-08-26,4,297-->
-13. [voiceless palatal plosive](voiceless%20palatal%20plosive.md)::![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg) <!--SR:!2023-08-26,4,301-->
+11. [voiced bilabial fricative](voiced%20bilabial%20fricative.md)::![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg) <!--SR:!2023-09-16,20,321-->
+12. [voiced bilabial trill](voiced%20bilabial%20trill.md)::![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg) <!--SR:!2023-09-19,23,317-->
+13. [voiceless palatal plosive](voiceless%20palatal%20plosive.md)::![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg) <!--SR:!2023-09-10,14,301-->
 14. [voiceless palatal fricative](voiceless%20palatal%20fricative.md)::![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg)
 15. [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md)::![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg)
 16. [voiced alveolar plosive](voiced%20alveolar%20plosive.md)::![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg) <!--SR:!2023-10-23,90,298-->
@@ -686,7 +686,7 @@ Here is a list of common IPA letters and their pronunciations:
 20. [voiced alveolar affricate](voiced%20alveolar%20affricate.md)::![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.oga)
 21. [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md)::![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg)
 22. [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md)::![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg) <!--SR:!2023-09-01,16,278-->
-23. [voiced retroflex affricate](voiced%20retroflex%20affricate.md)::![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg) <!--SR:!2023-08-26,1,218-->
+23. [voiced retroflex affricate](voiced%20retroflex%20affricate.md)::![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg) <!--SR:!2023-08-30,3,218-->
 24. [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md)::![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg) <!--SR:!2023-08-30,15,258-->
 25. [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md)::![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg)
 26. [mid central vowel](mid%20central%20vowel.md)::![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg) <!--SR:!2023-10-03,70,284-->
@@ -710,27 +710,27 @@ Here is a list of common IPA letters and their pronunciations:
 44. [voiced palatal plosive](voiced%20palatal%20plosive.md)::![voiced palatal plosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20plosive.ogg)
 45. [voiced palatal implosive](voiced%20palatal%20implosive.md)::![voiced palatal implosive](../../archives/Wikimedia%20Commons/Voiced%20palatal%20implosive.ogg)
 46. [voiceless velar plosive](voiceless%20velar%20plosive.md)::![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg)
-47. [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md)::![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg) <!--SR:!2023-08-26,4,238-->
+47. [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md)::![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg) <!--SR:!2023-09-15,19,258-->
 48. [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md)::![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg) <!--SR:!2023-09-06,12,297-->
 49. [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md)::![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg) <!--SR:!2023-10-31,67,204-->
 50. [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md)::![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg)
 51. [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md)::![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg) <!--SR:!2023-09-01,16,278-->
 52. [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md)::![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg)
-53. [voiced bilabial nasal](voiced%20bilabial%20nasal.md)::![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg) <!--SR:!2023-08-26,4,301-->
+53. [voiced bilabial nasal](voiced%20bilabial%20nasal.md)::![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg) <!--SR:!2023-09-18,22,321-->
 54. [voiced labiodental nasal](voiced%20labiodental%20nasal.md)::![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg)
 55. [voiced alveolar nasal](voiced%20alveolar%20nasal.md)::![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg)
 56. [voiced velar nasal](voiced%20velar%20nasal.md)::![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg)
 57. [voiced palatal nasal](voiced%20palatal%20nasal.md)::![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg)
-58. [voiced retroflex nasal](voiced%20retroflex%20nasal.md)::![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg) <!--SR:!2023-08-26,4,238-->
+58. [voiced retroflex nasal](voiced%20retroflex%20nasal.md)::![voiced retroflex nasal](../../archives/Wikimedia%20Commons/Retroflex%20nasal.ogg) <!--SR:!2023-08-29,2,218-->
 59. [voiced uvular nasal](voiced%20uvular%20nasal.md)::![voiced uvular nasal](../../archives/Wikimedia%20Commons/Uvular%20nasal.ogg) <!--SR:!2023-09-30,67,273-->
 60. [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md)::![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg) <!--SR:!2023-08-29,15,298-->
 61. [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md)::![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg)
 62. [nasalized open-mid back rounded vowel](nasal%20vowel.md)::![nasalized open-mid back rounded vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg)
-63. [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md)::![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg) <!--SR:!2023-08-27,2,260-->
+63. [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md)::![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg) <!--SR:!2023-09-02,6,260-->
 64. [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md)::![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg)
 65. [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md)::![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg) <!--SR:!2023-08-31,6,184-->
 66. [nasalized open-mid front rounded vowel](nasal%20vowel.md)::![nasalized open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg)
-67. [open front rounded vowel](open%20front%20rounded%20vowel.md)::![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg) <!--SR:!2023-08-26,4,298-->
+67. [open front rounded vowel](open%20front%20rounded%20vowel.md)::![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg) <!--SR:!2023-09-11,15,298-->
 68. [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md)::![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg) <!--SR:!2023-10-22,89,293-->
 69. [voiceless uvular plosive](voiceless%20uvular%20plosive.md)::![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg)
 70. [voiced alveolar trill](voiced%20alveolar%20trill.md)::![voiced alveolar trill](../../archives/Wikimedia%20Commons/Alveolar%20trill.ogg) <!--SR:!2023-08-30,15,278-->
@@ -742,7 +742,7 @@ Here is a list of common IPA letters and their pronunciations:
 76. [voiced uvular fricative](voiced%20uvular%20fricative.md)::![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg)
 77. [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md)::![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg)
 78. [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md)::![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg) <!--SR:!2024-01-31,161,284-->
-79. [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md)::![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg) <!--SR:!2023-08-26,4,238-->
+79. [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md)::![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg) <!--SR:!2023-09-09,13,238-->
 80. [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md)::![voiceless alveolar plosive](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20plosive.ogg) <!--SR:!2023-09-28,39,298-->
 81. [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md)::![voiceless retroflex plosive](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20stop.oga)
 82. [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md)::![voiceless alveolar affricate](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant%20affricate.oga)
@@ -756,7 +756,7 @@ Here is a list of common IPA letters and their pronunciations:
 90. [voiced labiodental approximant](voiced%20labiodental%20approximant.md)::![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg) <!--SR:!2023-09-18,26,258-->
 91. [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md)::![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg) <!--SR:!2023-09-30,54,293-->
 92. [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md)::![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)
-93. [close back unrounded vowel](close%20back%20unrounded%20vowel.md)::![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg) <!--SR:!2023-08-26,4,300-->
+93. [close back unrounded vowel](close%20back%20unrounded%20vowel.md)::![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg) <!--SR:!2023-09-12,16,300-->
 94. [voiced velar approximant](voiced%20velar%20approximant.md)::![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)
 95. [voiceless velar fricative](voiceless%20velar%20fricative.md)::![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)
 96. [voiceless uvular fricative](voiceless%20uvular%20fricative.md)::![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg) <!--SR:!2023-08-30,14,258-->
@@ -776,8 +776,8 @@ Here is a list of common IPA letters and their pronunciations:
 110. [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md)::![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)
 111. [tenuis dental click](tenuis%20dental%20click.md)::![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)
 112. [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md)::![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg) <!--SR:!2023-10-04,40,224-->
-113. [tenuis alveolar click](tenuis%20alveolar%20click.md)::![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) <!--SR:!2023-08-26,4,300-->
-114. [tenuis bilabial click](tenuis%20bilabial%20click.md)::![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) <!--SR:!2023-08-26,4,301-->
+113. [tenuis alveolar click](tenuis%20alveolar%20click.md)::![tenuis alveolar click](../../archives/Wikimedia%20Commons/Postalveolar%20click.ogg) <!--SR:!2023-09-16,20,320-->
+114. [tenuis bilabial click](tenuis%20bilabial%20click.md)::![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) <!--SR:!2023-09-20,24,321-->
 115. [tenuis palatal click](tenuis%20palatal%20click.md)::![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -785,7 +785,7 @@ Here is a list of common IPA letters and their pronunciations:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9aa"--><!-- The following content is generated at 2023-08-24T20:02:35.341149+08:00. Any edits will be overridden! -->
 
 1. ![open front unrounded vowel](../../archives/Wikimedia%20Commons/PR-open%20front%20unrounded%20vowel.ogg)::[open front unrounded vowel](open%20front%20unrounded%20vowel.md)
-2. ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)::[open central unrounded vowel](open%20central%20unrounded%20vowel.md) <!--SR:!2023-08-26,4,213-->
+2. ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)::[open central unrounded vowel](open%20central%20unrounded%20vowel.md) <!--SR:!2023-08-29,2,193-->
 3. ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg)::[near-open central vowel](near-open%20central%20vowel.md)
 4. ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg)::[open back unrounded vowel](open%20back%20unrounded%20vowel.md)
 5. ![nasalized open back unrounded vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg)::[nasalized open back unrounded vowel](nasal%20vowel.md)
@@ -872,13 +872,13 @@ Here is a list of common IPA letters and their pronunciations:
 86. ![close back rounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20rounded%20vowel.ogg)::[close back rounded vowel](close%20back%20rounded%20vowel.md)
 87. ![near-close near-back rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-back%20rounded%20vowel.ogg)::[near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md)
 88. ![close central rounded vowel](../../archives/Wikimedia%20Commons/Close%20central%20rounded%20vowel.ogg)::[close central rounded vowel](close%20central%20rounded%20vowel.md)
-89. ![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)::[voiced labiodental fricative](voiced%20labiodental%20fricative.md) <!--SR:!2023-08-26,4,299-->
+89. ![voiced labiodental fricative](../../archives/Wikimedia%20Commons/Voiced%20labio-dental%20fricative.ogg)::[voiced labiodental fricative](voiced%20labiodental%20fricative.md) <!--SR:!2023-09-10,14,299-->
 90. ![voiced labiodental approximant](../../archives/Wikimedia%20Commons/Labiodental%20approximant.ogg)::[voiced labiodental approximant](voiced%20labiodental%20approximant.md)
 91. ![voiced labial–velar approximant](../../archives/Wikimedia%20Commons/Voiced%20labio-velar%20approximant.ogg)::[voiced labial–velar approximant](voiced%20labial–velar%20approximant.md)
 92. ![voiceless labial–velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-velar%20fricative.ogg)::[voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md)
 93. ![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg)::[close back unrounded vowel](close%20back%20unrounded%20vowel.md)
 94. ![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg)::[voiced velar approximant](voiced%20velar%20approximant.md)
-95. ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)::[voiceless velar fricative](voiceless%20velar%20fricative.md) <!--SR:!2023-08-27,2,158-->
+95. ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg)::[voiceless velar fricative](voiceless%20velar%20fricative.md) <!--SR:!2023-08-30,3,158-->
 96. ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg)::[voiceless uvular fricative](voiceless%20uvular%20fricative.md)
 97. ![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg)::[close front rounded vowel](close%20front%20rounded%20vowel.md) <!--SR:!2023-09-04,41,253-->
 98. ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg)::[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md)
@@ -886,13 +886,13 @@ Here is a list of common IPA letters and their pronunciations:
 100. ![close-mid back unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20unrounded%20vowel.ogg)::[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md)
 101. ![voiced palatal lateral approximant](../../archives/Wikimedia%20Commons/Palatal%20lateral%20approximant.ogg)::[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md)
 102. ![voiced labial–palatal approximant](../../archives/Wikimedia%20Commons/LL-Q150%20(fra)-WikiLucas00-IPA%20%C9%A5.wav)::[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md)
-103. ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)::[voiced alveolar fricative](voiced%20alveolar%20fricative.md) <!--SR:!2023-08-26,4,184-->
+103. ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg)::[voiced alveolar fricative](voiced%20alveolar%20fricative.md) <!--SR:!2023-09-06,10,184-->
 104. ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg)::[voiced postalveolar fricative](voiced%20postalveolar%20fricative.md)
 105. ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg)::[voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md)
 106. ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg)::[voiced retroflex fricative](voiced%20retroflex%20fricative.md)
 107. ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg)::[voiceless dental fricative](voiceless%20dental%20fricative.md)
 108. ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg)::[voiceless bilabial fricative](voiceless%20bilabial%20fricative.md)
-109. ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)::[glottal stop](glottal%20stop.md) <!--SR:!2023-08-26,4,300-->
+109. ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg)::[glottal stop](glottal%20stop.md) <!--SR:!2023-08-29,2,280-->
 110. ![voiced pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiced%20pharyngeal%20fricative.ogg)::[voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) <!--SR:!2023-09-02,8,281-->
 111. ![tenuis dental click](../../archives/Wikimedia%20Commons/Dental%20click.ogg)::[tenuis dental click](tenuis%20dental%20click.md)
 112. ![tenuis alveolar lateral click](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20click.ogg)::[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md)
@@ -923,7 +923,7 @@ Here is a list of common IPA diacritics and their descriptions:
 > | [half-long](half-longness%20(phonetics).md) | \[◌ˑ\] (e.g. [aˑ]) | {{[English](English%20language.md) _caught_ \[ˈkʰɔˑt\]}} |
 > | [primary stress](stress%20(lingustics).md) | \[ˈ◌\] (e.g. [ˈa]) | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
 > | [secondary stress](secondary%20stress.md) | \[ˌ◌\] (e.g. [ˌa]) | {{[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]}} |
-> | [syllable break](syllable.md) | \[.\] | {{[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]}} | <!--SR:!2023-09-01,43,258!2023-10-24,65,224!2023-12-12,112,264!2023-09-27,68,293!2023-09-18,33,318!2023-09-03,18,258!2023-09-02,17,298!2023-09-15,30,318!2023-08-29,4,237!2023-08-26,4,298!2023-09-04,10,279-->
+> | [syllable break](syllable.md) | \[.\] | {{[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]}} | <!--SR:!2023-09-01,43,258!2023-10-24,65,224!2023-12-12,112,264!2023-09-27,68,293!2023-09-18,33,318!2023-09-03,18,258!2023-09-02,17,298!2023-09-15,30,318!2023-08-29,4,237!2023-09-19,23,318!2023-09-04,10,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -937,11 +937,11 @@ Here is a list of common IPA diacritics and their descriptions:
 4. [non-syllabic](diphthong.md)::\[◌̯\] (e.g. [a̯])
 5. [voiceless](voicelessness.md)::\[◌̥\] (e.g. [n̥])
 6. [syllabic](syllabic%20consonant.md)::\[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍]) <!--SR:!2023-09-07,13,301-->
-7. [dental/alveolar](dental%20consonant.md)::\[◌̪\] (e.g. [d̪]) <!--SR:!2023-08-26,4,300-->
-8. [aspirated](aspirated%20consonant.md)::\[◌ʰ\] (e.g. [kʰ]) <!--SR:!2023-08-26,4,300-->
+7. [dental/alveolar](dental%20consonant.md)::\[◌̪\] (e.g. [d̪]) <!--SR:!2023-09-15,19,320-->
+8. [aspirated](aspirated%20consonant.md)::\[◌ʰ\] (e.g. [kʰ]) <!--SR:!2023-09-20,24,320-->
 9. [ejective](ejective%20consonant.md)::\[◌’\] (e.g. [k’])
 10. [long](longness%20(phonetics).md)::\[◌ː\] (e.g. [aː])
-11. [half-long](half-longness%20(phonetics).md)::\[◌ˑ\] (e.g. [aˑ]) <!--SR:!2023-08-26,4,301-->
+11. [half-long](half-longness%20(phonetics).md)::\[◌ˑ\] (e.g. [aˑ]) <!--SR:!2023-09-17,21,321-->
 12. [primary stress](stress%20(lingustics).md)::\[ˈ◌\] (e.g. [ˈa])
 13. [secondary stress](secondary%20stress.md)::\[ˌ◌\] (e.g. [ˌa])
 14. [syllable break](syllable.md)::\[.\]
@@ -955,14 +955,14 @@ Here is a list of common IPA diacritics and their descriptions:
 3. \[◌̆\] (e.g. [ă])::[extra-short](extra-shortness.md) <!--SR:!2023-09-12,21,244-->
 4. \[◌̯\] (e.g. [a̯])::[non-syllabic](diphthong.md) <!--SR:!2023-09-30,72,284-->
 5. \[◌̥\] (e.g. [n̥])::[voiceless](voicelessness.md) <!--SR:!2023-10-19,86,293-->
-6. \[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍])::[syllabic](syllabic%20consonant.md) <!--SR:!2023-08-27,2,238-->
+6. \[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍])::[syllabic](syllabic%20consonant.md) <!--SR:!2023-09-05,9,258-->
 7. \[◌̪\] (e.g. [d̪])::[dental/alveolar](dental%20consonant.md) <!--SR:!2023-08-31,9,278-->
 8. \[◌ʰ\] (e.g. [kʰ])::[aspirated](aspirated%20consonant.md) <!--SR:!2023-09-18,33,318-->
 9. \[◌’\] (e.g. [k’])::[ejective](ejective%20consonant.md) <!--SR:!2023-08-31,15,278-->
-10. \[◌ː\] (e.g. [aː])::[long](longness%20(phonetics).md) <!--SR:!2023-08-26,4,297-->
+10. \[◌ː\] (e.g. [aː])::[long](longness%20(phonetics).md) <!--SR:!2023-09-17,21,317-->
 11. \[◌ˑ\] (e.g. [aˑ])::[half-long](half-longness%20(phonetics).md)
 12. \[ˈ◌\] (e.g. [ˈa])::[primary stress](stress%20(lingustics).md)
 13. \[ˌ◌\] (e.g. [ˌa])::[secondary stress](secondary%20stress.md) <!--SR:!2023-09-06,12,297-->
-14. \[.\]::[syllable break](syllable.md) <!--SR:!2023-08-26,4,301-->
+14. \[.\]::[syllable break](syllable.md) <!--SR:!2023-09-16,20,321-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
