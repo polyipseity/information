@@ -70,13 +70,13 @@ return (
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-24T21:32:32.576806+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[parameter](#parameter)
-2. [parameter](#parameter)→:::←[flags](#flags)
-3. [flags](#flags)→:::←[width](#width)
-4. [width](#width)→:::←[precision](#precision)
-5. [precision](#precision)→:::←[length](#length)
-6. [length](#length)→:::←[type](#type)
-7. [type](#type)→:::←_(end)_
+1. _(begin)_→:::←[parameter](#parameter) <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+2. [parameter](#parameter)→:::←[flags](#flags) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+3. [flags](#flags)→:::←[width](#width) <!--SR:!2023-08-29,1,249!2023-09-01,4,289-->
+4. [width](#width)→:::←[precision](#precision) <!--SR:!2023-09-01,4,277!2023-08-31,3,269-->
+5. [precision](#precision)→:::←[length](#length) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+6. [length](#length)→:::←[type](#type) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+7. [type](#type)→:::←_(end)_ <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -103,14 +103,14 @@ return await memorize_table(
 
 > | character | description |
 > |-|-|
-> | {{_n_$}} | {{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}} |
+> | {{_n_$}} | {{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}} | <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c19d"--><!-- The following content is generated at 2023-08-24T22:44:32.846596+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←_n_$
-2. _n_$→:::←_(end)_
+1. _(begin)_→:::←_n_$ <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+2. _n_$→:::←_(end)_ <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -147,27 +147,27 @@ A combination of zero or more of the following in any order:
 > | {{\#}} | {{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}} |
 > | {{+}} | {{prepend + before positive numbers}} |
 > | {{-}} | {{align left}} |
-> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} |
+> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} | <!--SR:!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-08-31,3,257!2023-09-01,4,277!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2023-08-25T00:41:32.736032+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←  (space)
-2.   (space)→:::←\#
-3. \#→:::←+
-4. +→:::←-
-5. -→:::←0
-6. 0→:::←_(end)_
+1. _(begin)_→:::←  (space) <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+2.   (space)→:::←\# <!--SR:!2023-08-31,3,269!2023-09-01,4,289-->
+3. \#→:::←+ <!--SR:!2023-08-31,3,269!2023-09-01,4,289-->
+4. +→:::←- <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+5. -→:::←0 <!--SR:!2023-09-01,4,277!2023-09-01,4,277-->
+6. 0→:::←_(end)_ <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### width
 
-An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}.
+An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2023-09-01,4,277!2023-09-01,4,289!2023-09-01,4,289-->
 ### precision
 
-An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}.
+An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}. <!--SR:!2023-09-01,4,277!2023-08-31,3,269-->
 
 ### length
 
@@ -208,21 +208,21 @@ A combination of zero or more of the following in any order:
 > | {{l}} | {{`long`-sized integer; `double`-sized (ignored for) float}} |
 > | {{ll}} | {{`long long`-sized integer}} |
 > | {{t}} | {{`ptrdiff_t`-sized integer}} |
-> | {{z}} | {{`size_t`-sized integer}} |
+> | {{z}} | {{`size_t`-sized integer}} | <!--SR:!2023-08-31,3,257!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-08-29,1,237!2023-08-31,3,257!2023-08-31,3,257!2023-09-01,4,277!2023-09-01,4,289!2023-09-01,4,289!2023-08-31,3,269!2023-08-31,3,269!2023-09-01,4,289!2023-08-29,1,249-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="beff"--><!-- The following content is generated at 2023-08-25T01:19:18.238502+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←L
-2. L→:::←h
-3. h→:::←hh
-4. hh→:::←j
-5. j→:::←l
-6. l→:::←ll
-7. ll→:::←t
-8. t→:::←z
-9. z→:::←_(end)_
+1. _(begin)_→:::←L <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+2. L→:::←h <!--SR:!2023-08-29,1,237!2023-09-01,4,289-->
+3. h→:::←hh <!--SR:!2023-08-29,1,237!2023-09-01,4,289-->
+4. hh→:::←j <!--SR:!2023-09-01,4,277!2023-08-31,3,269-->
+5. j→:::←l <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+6. l→:::←ll <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+7. ll→:::←t <!--SR:!2023-08-29,1,237!2023-08-31,3,269-->
+8. t→:::←z <!--SR:!2023-09-01,4,277!2023-08-31,3,257-->
+9. z→:::←_(end)_ <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -273,25 +273,25 @@ return await memorize_table(
 > | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
 > | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the first [null terminator](null-terminated%20string.md) is used}} |
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} |
+> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2023-09-01,4,270!2023-09-01,4,277!2023-09-01,4,277!2023-08-31,3,257!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-08-31,3,257!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-09-01,4,277!2023-08-31,3,257!2023-09-01,4,289!2023-09-01,4,289!2023-08-29,1,249!2023-08-31,3,269!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45dd"--><!-- The following content is generated at 2023-08-25T01:19:18.269420+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←%
-2. %→:::←a, A
-3. a, A→:::←c
-4. c→:::←d, i
-5. d, i→:::←e, E
-6. e, E→:::←f, F
-7. f, F→:::←g, G
-8. g, G→:::←n
-9. n→:::←o
-10. o→:::←p
-11. p→:::←s
-12. s→:::←u
-13. u→:::←x, X
-14. x, X→:::←_(end)_
+1. _(begin)_→:::←% <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+2. %→:::←a, A <!--SR:!2023-09-01,4,270!2023-09-01,4,289-->
+3. a, A→:::←c <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+4. c→:::←d, i <!--SR:!2023-08-31,3,257!2023-09-01,4,289-->
+5. d, i→:::←e, E <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+6. e, E→:::←f, F <!--SR:!2023-09-01,4,270!2023-09-01,4,277-->
+7. f, F→:::←g, G <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+8. g, G→:::←n <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+9. n→:::←o <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+10. o→:::←p <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+11. p→:::←s <!--SR:!2023-09-01,4,270!2023-08-29,1,237-->
+12. s→:::←u <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+13. u→:::←x, X <!--SR:!2023-08-31,3,269!2023-09-01,4,289-->
+14. x, X→:::←_(end)_ <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
