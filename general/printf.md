@@ -28,22 +28,22 @@ def link(name: str):
 	return f"[{name}](#{name})"
 def opt(string: str):
 	return Rf"\[{string}\]"
-components = {
-	"parameter": opt(link("parameter")),
-	"flags": opt(link("flags")),
-	"width": opt(link("width")),
-	"precision": opt(f".{link('precision')}"),
-	"length": opt(link("length")),
-	"type": link("type"),
-}
+components = [
+	opt(link("parameter")),
+	opt(link("flags")),
+	opt(link("width")),
+	opt(f".{link('precision')}"),
+	opt(link("length")),
+	link("type"),
+]
 return (
 	Result(
 		location=e.cwf_sect("b23d"),
-		text=text(f"<code>%{''.join(components.values())}</code>"),
+		text=text(f"<code>%{''.join(components)}</code>"),
 	),
 	*await memorize_seq(
 		e.cwf_sects("49bd", "ee2f"),
-		map(link, components.keys()),
+		components,
 	),
 )
 ```
@@ -57,25 +57,25 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49bd"--><!-- The following content is generated at 2023-08-24T21:32:32.563811+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49bd"--><!-- The following content is generated at 2023-08-28T21:01:29.628061+08:00. Any edits will be overridden! -->
 
-> 1. [parameter](#parameter)
-> 2. [flags](#flags)
-> 3. [width](#width)
-> 4. [precision](#precision)
-> 5. [length](#length)
+> 1. \[[parameter](#parameter)\]
+> 2. \[[flags](#flags)\]
+> 3. \[[width](#width)\]
+> 4. \[.[precision](#precision)\]
+> 5. \[[length](#length)\]
 > 6. [type](#type)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-24T21:32:32.576806+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-28T21:01:29.604636+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[parameter](#parameter) <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
-2. [parameter](#parameter)→:::←[flags](#flags) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
-3. [flags](#flags)→:::←[width](#width) <!--SR:!2023-08-29,1,249!2023-09-01,4,289-->
-4. [width](#width)→:::←[precision](#precision) <!--SR:!2023-09-01,4,277!2023-08-31,3,269-->
-5. [precision](#precision)→:::←[length](#length) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
-6. [length](#length)→:::←[type](#type) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+1. _(begin)_→:::←\[[parameter](#parameter)\] <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
+2. \[[parameter](#parameter)\]→:::←\[[flags](#flags)\] <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+3. \[[flags](#flags)\]→:::←\[[width](#width)\] <!--SR:!2023-08-29,1,249!2023-09-01,4,289-->
+4. \[[width](#width)\]→:::←\[.[precision](#precision)\] <!--SR:!2023-09-01,4,277!2023-08-31,3,269-->
+5. \[.[precision](#precision)\]→:::←\[[length](#length)\] <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
+6. \[[length](#length)\]→:::←[type](#type) <!--SR:!2023-09-01,4,289!2023-09-01,4,289-->
 7. [type](#type)→:::←_(end)_ <!--SR:!2023-09-01,4,277!2023-09-01,4,289-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -165,6 +165,7 @@ A combination of zero or more of the following in any order:
 ### width
 
 An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2023-09-01,4,277!2023-09-01,4,289!2023-09-01,4,289-->
+
 ### precision
 
 An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}. <!--SR:!2023-09-01,4,277!2023-08-31,3,269-->
