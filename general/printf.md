@@ -28,22 +28,22 @@ def link(name: str):
 	return f"[{name}](#{name})"
 def opt(string: str):
 	return Rf"\[{string}\]"
-components = {
-	"parameter": opt(link("parameter")),
-	"flags": opt(link("flags")),
-	"width": opt(link("width")),
-	"precision": opt(f".{link('precision')}"),
-	"length": opt(link("length")),
-	"type": link("type"),
-}
+components = [
+	opt(link("parameter")),
+	opt(link("flags")),
+	opt(link("width")),
+	opt(f".{link('precision')}"),
+	opt(link("length")),
+	link("type"),
+]
 return (
 	Result(
 		location=e.cwf_sect("b23d"),
-		text=text(f"<code>%{''.join(components.values())}</code>"),
+		text=text(f"<code>%{''.join(components)}</code>"),
 	),
 	*await memorize_seq(
 		e.cwf_sects("49bd", "ee2f"),
-		map(link, components.keys()),
+		components,
 	),
 )
 ```
@@ -57,25 +57,25 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49bd"--><!-- The following content is generated at 2023-08-24T21:32:32.563811+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49bd"--><!-- The following content is generated at 2023-08-28T21:01:29.628061+08:00. Any edits will be overridden! -->
 
-> 1. [parameter](#parameter)
-> 2. [flags](#flags)
-> 3. [width](#width)
-> 4. [precision](#precision)
-> 5. [length](#length)
+> 1. \[[parameter](#parameter)\]
+> 2. \[[flags](#flags)\]
+> 3. \[[width](#width)\]
+> 4. \[.[precision](#precision)\]
+> 5. \[[length](#length)\]
 > 6. [type](#type)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-24T21:32:32.576806+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-28T21:01:29.604636+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[parameter](#parameter)
-2. [parameter](#parameter)→:::←[flags](#flags)
-3. [flags](#flags)→:::←[width](#width)
-4. [width](#width)→:::←[precision](#precision)
-5. [precision](#precision)→:::←[length](#length)
-6. [length](#length)→:::←[type](#type)
+1. _(begin)_→:::←\[[parameter](#parameter)\]
+2. \[[parameter](#parameter)\]→:::←\[[flags](#flags)\]
+3. \[[flags](#flags)\]→:::←\[[width](#width)\]
+4. \[[width](#width)\]→:::←\[.[precision](#precision)\]
+5. \[.[precision](#precision)\]→:::←\[[length](#length)\]
+6. \[[length](#length)\]→:::←[type](#type)
 7. [type](#type)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
