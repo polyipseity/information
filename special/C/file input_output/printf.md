@@ -23,7 +23,7 @@ tags:
 # `printf`
 
 - _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_
-- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
+- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270-->
 
 ```C
 // (1)
