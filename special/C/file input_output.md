@@ -13,6 +13,7 @@ tags:
 
 - _defined in {{[`<stdio.h>`](../../general/C%20file%20input_output.md)}}_
 - [`FILE`](file%20input_output/FILE.md)
+
 ## functions
 
 ### file access
