@@ -165,6 +165,7 @@ A combination of zero or more of the following in any order:
 ### width
 
 An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}.
+
 ### precision
 
 An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}.
