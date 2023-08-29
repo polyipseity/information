@@ -95,7 +95,7 @@ return await memorize_map(
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-09-09,40,250-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-11-08,149,290-->
 7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-09-12,39,210-->
-8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-08-28,26,190-->
+8. [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-10-20,52,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -107,7 +107,7 @@ return await memorize_map(
 4. green (non-halide)::[copper](copper.md)(II) <!--SR:!2024-02-13,203,270-->
 5. blue-green (halide)::[copper](copper.md)(II) <!--SR:!2024-08-01,352,290-->
 6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-09-06,105,270-->
-7. gold::[iron](iron.md)(II) <!--SR:!2023-08-28,103,290-->
+7. gold::[iron](iron.md)(II) <!--SR:!2024-10-22,420,310-->
 8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-11-12,170,310-->
 9. sparks::[iron](iron.md)(II) <!--SR:!2023-08-30,99,270-->
 10. orange-brown::[iron](iron.md)(III) <!--SR:!2023-09-26,123,290-->

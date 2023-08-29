@@ -40,7 +40,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9387dd"--><!-- The following content is generated at 2023-03-18T23:42:01.121395+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[construction](construction.md) <!--SR:!2023-08-29,103,290!2024-02-23,249,330-->
+1. _(begin)_→:::←[construction](construction.md) <!--SR:!2024-10-17,415,310!2024-02-23,249,330-->
 2. [construction](construction.md)→:::←[glass making](glass%20making.md) <!--SR:!2024-03-09,226,290!2024-01-22,225,310-->
 3. [glass making](glass%20making.md)→:::←raw material <!--SR:!2023-09-30,116,270!2023-12-02,185,310-->
 4. raw material→:::←_(end)_ <!--SR:!2024-01-23,226,310!2023-12-25,202,310-->

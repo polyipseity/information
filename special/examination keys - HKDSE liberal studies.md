@@ -224,7 +224,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-09-24,32,150-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2024-07-16,329,295-->
-8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-08-29,53,210-->
+8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-09-29,31,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -420,7 +420,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2023-10-21,132,295-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-08-29,9,130!2023-11-21,117,230-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-09-12,14,130!2023-11-21,117,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-09-15,30,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

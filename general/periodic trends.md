@@ -52,11 +52,11 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029e"--><!-- The following content is generated at 2023-03-20T09:46:27.605210+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2023-08-29,42,270!2024-02-18,244,330-->
+1. _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2024-02-03,158,290!2024-02-18,244,330-->
 2. [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity) <!--SR:!2024-05-10,313,330!2024-03-13,268,330-->
 3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity) <!--SR:!2023-11-14,168,310!2024-02-19,245,330-->
 4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2023-09-22,107,250!2023-11-20,173,310-->
-5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2024-04-15,272,290!2023-08-28,20,270-->
+5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2024-04-15,272,290!2023-11-15,78,290-->
 6. [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2024-04-12,290,330!2024-03-02,257,330-->
 7. [valence](#valence)→:::←_(end)_ <!--SR:!2024-04-01,281,330!2023-09-03,84,270-->
 

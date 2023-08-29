@@ -18,4 +18,4 @@ It is charaterized by {{the [hexagonal arrangement](hexagonal%20crystal%20family
 
 ## physical properties
 
-Ice I<sub>h</sub> has {{lower [density](density.md) than [water](water.md) due to [hydrogen bonds](hydrogen%20bond.md) that make the [molecules](molecule.md) closer in the [liquid](liquid.md) phase}}. <!--SR:!2023-08-28,97,270-->
+Ice I<sub>h</sub> has {{lower [density](density.md) than [water](water.md) due to [hydrogen bonds](hydrogen%20bond.md) that make the [molecules](molecule.md) closer in the [liquid](liquid.md) phase}}. <!--SR:!2024-05-24,269,270-->
