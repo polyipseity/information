@@ -151,7 +151,7 @@ return await memorize_table(
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-12-05,127,230!2023-12-10,187,310-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-01-03,159,250!2023-09-21,76,210-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2023-09-12,93,230!2023-09-27,130,290-->
-19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-12-07,118,250!2023-08-28,40,150-->
+19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-12-07,118,250!2023-09-21,23,130-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2024-02-02,189,250!2023-10-04,71,230-->
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2023-10-03,57,250-->
 22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-10-02,43,150!2023-11-24,112,250-->
@@ -160,7 +160,7 @@ return await memorize_table(
 25. [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2023-10-01,48,250!2023-09-06,109,290-->
 26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2023-10-30,66,190!2023-10-08,82,210-->
 27. [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2024-02-19,207,270!2024-08-23,362,290-->
-28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-08-29,12,190!2023-09-01,82,230-->
+28. [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2023-10-04,36,210!2023-09-01,82,230-->
 29. [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2023-08-30,99,270!2024-08-14,358,290-->
 30. [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2023-10-01,104,230!2024-03-22,224,290-->
 31. [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2023-09-27,47,250!2024-01-30,166,230-->

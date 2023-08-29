@@ -38,7 +38,7 @@ return await memorize_seq(
 
 > {{![overview of Reichstein process](../archives/Wikimedia%20Commons/Synthesis%20ascorbic%20acid.svg)}}
 >
-> overview of Reichstein process <!--SR:!2023-08-29,78,255-->
+> overview of Reichstein process <!--SR:!2024-03-21,205,255-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d894"--><!-- The following content is generated at 2023-05-03T15:02:08.407219+08:00. Any edits will be overridden! -->
 
