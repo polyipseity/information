@@ -109,7 +109,7 @@ return await memorize_map(
 6. blue (very hot)::[iron](iron.md)(II) <!--SR:!2023-09-06,105,270-->
 7. gold::[iron](iron.md)(II) <!--SR:!2024-10-22,420,310-->
 8. green to orange-brown::[iron](iron.md)(II) <!--SR:!2023-11-12,170,310-->
-9. sparks::[iron](iron.md)(II) <!--SR:!2023-08-30,99,270-->
+9. sparks::[iron](iron.md)(II) <!--SR:!2024-09-21,388,290-->
 10. orange-brown::[iron](iron.md)(III) <!--SR:!2023-09-26,123,290-->
 11. intense white::[magnesium](magnesium.md) <!--SR:!2023-12-10,145,250-->
 12. lilac::[potassium](potassium.md) <!--SR:!2023-10-18,134,290-->
