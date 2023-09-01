@@ -1,5 +1,5 @@
 ---
-aliiases:
+aliases:
   - <code>scanf</code>
   - "`scanf`"
   - scanf
