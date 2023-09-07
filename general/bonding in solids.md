@@ -83,7 +83,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2023-10-08,141,290!2023-12-10,194,310!2023-09-06,111,290!2024-04-19,299,330!2023-09-06,113,290!2023-11-15,136,230-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2023-10-08,141,290!2023-12-10,194,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2023-11-15,136,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -125,7 +125,7 @@ return await memorize_table(
 
 ### metallic solid
 
-A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}. <!--SR:!2023-09-05,110,270-->
+A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}. <!--SR:!2024-11-02,422,290-->
 
 #### properties
 
