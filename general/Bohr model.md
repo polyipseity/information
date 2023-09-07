@@ -25,7 +25,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {{certain orbits only with certain distances from the nucleus called stationary orbits}} {{without radiating energy}}. ^23e80f
 2. The stationary orbits have distances {{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e}vr=n\hbar$}}, where {{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}}. The orbits have definite energies called {{[energy levels](energy%20level.md), energy shells, or energy states}}. ^f5a73f
-3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-11-22,114,210!2024-01-13,190,270!2023-09-22,95,210!2024-07-06,365,270!2024-07-03,362,270!2023-09-04,129,232!2023-09-20,211,312!2024-08-02,410,272!2024-03-24,361,332-->
+3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-11-22,114,210!2024-01-13,190,270!2023-09-22,95,210!2024-07-06,365,270!2024-07-03,362,270!2024-11-29,449,252!2023-09-20,211,312!2024-08-02,410,272!2024-03-24,361,332-->
 
 ## electron energy levels
 
@@ -38,7 +38,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2023-09-07,183,294!2023-09-30,198,294!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2024-02-07,204,254!2023-11-01,203,274!2023-09-21,58,154!2023-10-11,72,254-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2023-09-30,198,294!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2024-02-07,204,254!2023-11-01,203,274!2023-09-21,58,154!2023-10-11,72,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-12-25,240,279!2024-11-23,484,299-->
 
@@ -49,7 +49,7 @@ The combination of natural constants in the energy formula is the {{Rydberg ener
 
 The energy of a photon emitted by a hydrogen atom is:
 {{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
-{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-09-12,118,282!2023-09-04,188,302!2023-10-11,200,302!2023-09-24,189,302!2024-12-12,493,302!2024-02-06,186,202-->
+{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2023-09-12,118,282!2025-10-09,763,322!2023-10-11,200,302!2023-09-24,189,302!2024-12-12,493,302!2024-02-06,186,202-->
 
 ## limitations
 
@@ -80,7 +80,7 @@ The Bohr model fails to explain:
 > | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
 > | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
 > | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-10-10,121,324!2023-09-06,87,304!2024-02-19,199,304!2024-06-05,303,324-->
+> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2023-10-10,121,324!2023-10-24,47,284!2024-02-19,199,304!2024-06-05,303,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -89,7 +89,7 @@ The Bohr model fails to explain:
 1. _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2024-01-05,171,304!2023-10-08,119,324-->
 2. [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2024-02-18,198,304!2024-02-17,197,304-->
 3. reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2023-09-22,89,264!2024-02-28,208,284-->
-4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2023-09-06,50,244!2023-09-04,77,264-->
+4. relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2024-01-07,122,244!2024-04-07,213,264-->
 5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2023-10-09,120,324!2023-09-21,106,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

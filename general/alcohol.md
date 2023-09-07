@@ -33,13 +33,13 @@ Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols wi
 
 ### dehydration
 
-Alcohols {{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}}. It obeys {{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}}. <!--SR:!2023-11-02,123,240!2023-09-06,91,240-->
+Alcohols {{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}}. It obeys {{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}}. <!--SR:!2023-11-02,123,240!2024-04-24,230,240-->
 
 In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md) and then collected over [water](water.md)}}. <!--SR:!2024-02-13,186,240-->
 
 ### nucleophilic substitution
 
-Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2023-09-04,97,275!2023-12-16,174,300-->
+Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2024-06-14,281,275!2023-12-16,174,300-->
 
 ### oxidation
 
@@ -80,7 +80,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2024-01-24,183,255!2024-07-18,366,340-->
 2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-12-29,164,255!2024-02-16,236,320-->
-3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-10-24,147,295!2023-08-31,44,300-->
+3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2023-10-24,147,295!2023-10-03,26,280-->
 4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2024-03-15,241,315!2024-06-30,348,335-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
