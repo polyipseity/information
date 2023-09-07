@@ -1,0 +1,326 @@
+object FormMain: TFormMain
+  Left = 480
+  Height = 540
+  Top = 270
+  Width = 960
+  Caption = 'FormMain'
+  ClientHeight = 540
+  ClientWidth = 960
+  Font.Height = -21
+  OnCreate = FormCreate
+  LCLVersion = '2.0.8.0'
+  object OpenGLControlRender: TOpenGLControl
+    Left = 127
+    Height = 483
+    Top = 57
+    Width = 525
+    Align = alClient
+    AutoResizeViewport = True
+    OpenGLMajorVersion = 3
+    OpenGLMinorVersion = 3
+    MultiSampling = 4
+    AlphaBits = 8
+    OnClick = OpenGLControlRenderClick
+    OnExit = OpenGLControlRenderExit
+    OnKeyDown = OpenGLControlRenderKeyDown
+    OnKeyUp = OpenGLControlRenderKeyUp
+    OnMouseMove = OpenGLControlRenderMouseMove
+    OnPaint = OpenGLControlRenderDraw
+    OnResize = OpenGLControlRenderResize
+  end
+  object GroupBoxSettings: TGroupBox
+    Left = 0
+    Height = 483
+    Top = 57
+    Width = 127
+    Align = alLeft
+    AutoSize = True
+    Caption = 'Settings'
+    ClientHeight = 452
+    ClientWidth = 123
+    TabOrder = 1
+    object GroupBoxWorldSize: TGroupBox
+      Left = 0
+      Height = 65
+      Top = 0
+      Width = 123
+      Align = alTop
+      AutoSize = True
+      Caption = 'World Size'
+      ClientHeight = 34
+      ClientWidth = 119
+      TabOrder = 0
+      object EditWorldSize: TEdit
+        AnchorSideRight.Control = UpDownWorldSize
+        Left = 0
+        Height = 34
+        Top = 0
+        Width = 102
+        Align = alLeft
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        MaxLength = 3
+        NumbersOnly = True
+        OnEditingDone = EditWorldSizeEditingDone
+        TabOrder = 0
+        Text = '16'
+        TextHint = 'World Size'
+      end
+      object UpDownWorldSize: TUpDown
+        Left = 102
+        Height = 34
+        Top = 0
+        Width = 17
+        Align = alRight
+        Associate = EditWorldSize
+        Max = 999
+        Min = 0
+        Position = 16
+        TabOrder = 1
+      end
+    end
+    object ButtonSettingsApply: TButton
+      Left = 0
+      Height = 36
+      Top = 416
+      Width = 123
+      Align = alBottom
+      AutoSize = True
+      Caption = 'Apply'
+      OnClick = ButtonSettingsApplyClick
+      TabOrder = 1
+    end
+  end
+  object GroupBoxInfo: TGroupBox
+    Left = 0
+    Height = 57
+    Top = 0
+    Width = 960
+    Align = alTop
+    AutoSize = True
+    Caption = 'Info'
+    ClientHeight = 26
+    ClientWidth = 956
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    TabOrder = 0
+    object LabelFPS: TLabel
+      Left = 69
+      Height = 26
+      Top = 0
+      Width = 50
+      Align = alLeft
+      BorderSpacing.Left = 10
+      BorderSpacing.Right = 10
+      Caption = '... fps'
+      ParentColor = False
+    end
+    object LabelMSPF: TLabel
+      Left = 10
+      Height = 26
+      Top = 0
+      Width = 49
+      Align = alLeft
+      BorderSpacing.Left = 10
+      BorderSpacing.Right = 10
+      Caption = '... ms'
+      ParentColor = False
+    end
+    object LabelFrameNumber: TLabel
+      Left = 129
+      Height = 26
+      Top = 0
+      Width = 82
+      Align = alLeft
+      BorderSpacing.Left = 10
+      BorderSpacing.Right = 10
+      Caption = 'Frame ...'
+      ParentColor = False
+    end
+  end
+  object GroupBoxBenchmark: TGroupBox
+    Left = 652
+    Height = 483
+    Top = 57
+    Width = 308
+    Align = alRight
+    AutoSize = True
+    Caption = 'Benchmark'
+    ClientHeight = 452
+    ClientWidth = 304
+    TabOrder = 4
+    object GroupBoxFPS: TGroupBox
+      Left = 0
+      Height = 411
+      Top = 0
+      Width = 304
+      Align = alTop
+      AutoSize = True
+      Caption = 'FPS'
+      ClientHeight = 380
+      ClientWidth = 300
+      TabOrder = 0
+      object LabelFPSMean: TLabel
+        Left = 0
+        Height = 26
+        Top = 276
+        Width = 300
+        Align = alTop
+        Alignment = taRightJustify
+        Caption = 'Mean ...'
+        ParentColor = False
+      end
+      object LabelFPSMedian: TLabel
+        Left = 0
+        Height = 26
+        Top = 302
+        Width = 300
+        Align = alTop
+        Alignment = taRightJustify
+        Caption = 'Median ...'
+        ParentColor = False
+      end
+      object LabelFPSMax: TLabel
+        Left = 0
+        Height = 26
+        Top = 328
+        Width = 300
+        Align = alTop
+        Alignment = taRightJustify
+        Caption = 'Max ...'
+        ParentColor = False
+      end
+      object LabelFPSMin: TLabel
+        Left = 0
+        Height = 26
+        Top = 354
+        Width = 300
+        Align = alTop
+        Alignment = taRightJustify
+        Caption = 'Min ...'
+        ParentColor = False
+        OnClick = LabelFPSMinClick
+      end
+      object ChartFPS: TChart
+        Left = 0
+        Height = 250
+        Top = 0
+        Width = 300
+        AxisList = <        
+          item
+            Grid.Color = clWhite
+            AtDataOnly = True
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+            Title.Visible = True
+            Title.Caption = 'FPS'
+            Title.LabelBrush.Style = bsClear
+          end        
+          item
+            Grid.Color = clWhite
+            Alignment = calBottom
+            AtDataOnly = True
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.Visible = True
+            Title.Caption = 'Frame #'
+            Title.LabelBrush.Style = bsClear
+          end>
+        BackColor = clBlack
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clBlue
+        Legend.Alignment = laBottomCenter
+        Legend.BackgroundBrush.Color = clBackground
+        Legend.ColumnCount = 3
+        Legend.Font.Color = clWhite
+        Legend.Visible = True
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Align = alTop
+        Constraints.MinWidth = 300
+        object ChartFPSLineSeriesMean: TLineSeries
+          Legend.Format = 'Mean'
+          Legend.Order = 1
+          ColorEach = ceLineBefore
+          LinePen.Color = clAqua
+          Source = ListChartSourceFPSMean
+        end
+        object ChartFPSLineSeriesMedian: TLineSeries
+          Legend.Format = 'Median'
+          Legend.Order = 2
+          ColorEach = ceLineBefore
+          LinePen.Color = clYellow
+          Source = ListChartSourceFPSMedian
+        end
+        object ChartFPSLineSeriesMax: TLineSeries
+          Legend.Format = 'Max'
+          Legend.Order = 3
+          ColorEach = ceLineBefore
+          LinePen.Color = clLime
+          Source = ListChartSourceFPSMax
+        end
+        object ChartFPSLineSeriesMin: TLineSeries
+          Legend.Format = 'Min'
+          Legend.Order = 4
+          ColorEach = ceLineBefore
+          LinePen.Color = clRed
+          Source = ListChartSourceFPSMin
+        end
+        object ChartFPSLineSeriesCurrent: TLineSeries
+          Legend.Format = 'Current'
+          Legend.Order = 0
+          LinePen.Color = clWhite
+          Source = ListChartSourceFPSCurrent
+        end
+      end
+      object LabelFPSCurrent: TLabel
+        Left = 0
+        Height = 26
+        Top = 250
+        Width = 300
+        Align = alTop
+        Alignment = taRightJustify
+        Caption = 'Current ...'
+        ParentColor = False
+      end
+    end
+  end
+  object ProgressBarLoading: TProgressBar
+    AnchorSideLeft.Control = OpenGLControlRender
+    AnchorSideTop.Control = OpenGLControlRender
+    AnchorSideRight.Control = OpenGLControlRender
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = OpenGLControlRender
+    AnchorSideBottom.Side = asrBottom
+    Left = 127
+    Height = 483
+    Top = 57
+    Width = 525
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Smooth = True
+    TabOrder = 3
+    Visible = False
+    BarShowText = True
+  end
+  object TimerSec: TTimer
+    OnTimer = TimerSecTimer
+  end
+  object ListChartSourceFPSMean: TListChartSource
+    left = 904
+  end
+  object ListChartSourceFPSMedian: TListChartSource
+    left = 880
+  end
+  object ListChartSourceFPSMax: TListChartSource
+    left = 856
+  end
+  object ListChartSourceFPSMin: TListChartSource
+    left = 832
+  end
+  object ListChartSourceFPSCurrent: TListChartSource
+    left = 932
+  end
+end
