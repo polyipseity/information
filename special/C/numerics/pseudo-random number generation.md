@@ -10,4 +10,4 @@ tags:
 - _defined in {{[`<stdlib.h>`](../../../general/C%20standard%20library.md)}}_
 - [`rand`](pseudo-random%20number%20generation/rand.md)
 - [`srand`](pseudo-random%20number%20generation/srand.md)
-- [`RAND_MAX`](pseudo-random%20number%20generation/RAND_MAX.md) <!--SR:!2023-09-01,4,270-->
+- [`RAND_MAX`](pseudo-random%20number%20generation/RAND_MAX.md) <!--SR:!2023-10-27,48,290-->

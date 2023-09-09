@@ -95,7 +95,7 @@ return await memorize_table(
 12. AX<sub>5</sub>E<sub>0</sub>→:::←AX<sub>5</sub>E<sub>1</sub> <!--SR:!2024-03-13,268,330!2024-03-31,280,330-->
 13. AX<sub>5</sub>E<sub>1</sub>→:::←AX<sub>5</sub>E<sub>2</sub> <!--SR:!2024-05-28,326,330!2024-04-04,284,330-->
 14. AX<sub>5</sub>E<sub>2</sub>→:::←AX<sub>6</sub>E<sub>0</sub> <!--SR:!2024-04-14,292,330!2024-02-23,249,330-->
-15. AX<sub>6</sub>E<sub>0</sub>→:::←AX<sub>6</sub>E<sub>1</sub> <!--SR:!2023-09-08,93,270!2024-04-23,296,330-->
+15. AX<sub>6</sub>E<sub>0</sub>→:::←AX<sub>6</sub>E<sub>1</sub> <!--SR:!2024-08-29,355,290!2024-04-23,296,330-->
 16. AX<sub>6</sub>E<sub>1</sub>→:::←AX<sub>7</sub>E<sub>0</sub> <!--SR:!2024-01-01,202,310!2024-05-13,249,270-->
 17. AX<sub>7</sub>E<sub>0</sub>→:::←AX<sub>8</sub>E<sub>0</sub> <!--SR:!2024-05-24,322,330!2023-10-30,157,310-->
 18. AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub> <!--SR:!2024-02-24,250,330!2024-03-26,275,330-->

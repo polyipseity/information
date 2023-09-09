@@ -16,4 +16,4 @@ tags:
 
 ## IEEE 754 standard
 
-This gives a precision {{from 6 to 9 [significant decimal figures](significant%20figures.md)}}. <!--SR:!2023-09-01,4,270-->
+This gives a precision {{from 6 to 9 [significant decimal figures](significant%20figures.md)}}. <!--SR:!2023-10-22,43,290-->

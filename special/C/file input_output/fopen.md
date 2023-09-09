@@ -18,7 +18,7 @@ tags:
 # `fopen`
 
 - _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_
-- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270-->
+- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2023-10-26,47,290!2023-10-21,42,290!2023-10-28,49,290-->
 
 ```C
 // (1)
@@ -65,23 +65,23 @@ return await memorize_table(
 > | {{r}} | {{read}} |
 > | {{r+}} | {{read extended}} |
 > | {{w}} | {{write}} |
-> | {{w+}} | {{write extended}} | <!--SR:!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270-->
+> | {{w+}} | {{write extended}} | <!--SR:!2023-10-24,45,290!2023-10-28,49,290!2023-10-23,44,290!2023-10-28,49,290!2023-10-21,42,290!2023-10-20,41,290!2023-10-27,48,290!2023-10-20,41,290!2023-10-24,45,290!2023-10-22,43,290!2023-10-22,43,290!2023-10-25,46,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b23d"--><!-- The following content is generated at 2023-08-25T12:57:45.196310+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←a <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
-2. a→:::←a+ <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
-3. a+→:::←r <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
-4. r→:::←r+ <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
-5. r+→:::←w <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
-6. w→:::←w+ <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
-7. w+→:::←_(end)_ <!--SR:!2023-09-01,4,270!2023-09-01,4,270-->
+1. _(begin)_→:::←a <!--SR:!2023-10-21,42,290!2023-10-22,43,290-->
+2. a→:::←a+ <!--SR:!2023-10-25,46,290!2023-10-23,44,290-->
+3. a+→:::←r <!--SR:!2023-10-27,48,290!2023-10-20,41,290-->
+4. r→:::←r+ <!--SR:!2023-10-23,44,290!2023-10-27,48,290-->
+5. r+→:::←w <!--SR:!2023-10-20,41,290!2023-10-24,45,290-->
+6. w→:::←w+ <!--SR:!2023-10-27,48,290!2023-10-25,46,290-->
+7. w+→:::←_(end)_ <!--SR:!2023-10-26,47,290!2023-10-26,47,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## return value
 
 - 1) {{If successful, a pointer to the new file stream if successful. On error, `NULL`.}}
-- 2) {{If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`.}} <!--SR:!2023-08-31,2,230!2023-08-31,3,250-->
+- 2) {{If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`.}} <!--SR:!2023-10-13,34,250!2023-09-29,20,250-->

@@ -8,4 +8,4 @@ tags:
 
 # internal energy
 
-The __internal energy__ is {{the [energy](energy.md) contained in a [thermodynamic system](thermodynamic%20system.md)}}. <!--SR:!2023-09-07,93,310-->
+The __internal energy__ is {{the [energy](energy.md) contained in a [thermodynamic system](thermodynamic%20system.md)}}. <!--SR:!2024-07-04,299,310-->

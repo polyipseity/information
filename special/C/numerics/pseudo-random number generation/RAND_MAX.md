@@ -8,7 +8,7 @@ tags:
 
 # `RAND_MAX`
 
-- _defined in {{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}}_ <!--SR:!2023-09-01,4,270-->
+- _defined in {{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}}_ <!--SR:!2023-10-20,41,290-->
 
 ```C
 #define RAND_MAX /* implementation defined */
