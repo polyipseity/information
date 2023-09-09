@@ -117,7 +117,7 @@ return (
 
 > bromides
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2023-09-19,329,246!2023-09-06,196,170-->
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2023-09-19,329,246!2025-01-13,492,190-->
 
 > iodides
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -141,7 +141,7 @@ return (
 
 > hydroxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is poorly soluble)}} <!--SR:!2025-04-08,628,230!2023-09-04,183,230-->
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is poorly soluble)}} <!--SR:!2025-04-08,628,230!2024-11-09,427,230-->
 
 > oxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}

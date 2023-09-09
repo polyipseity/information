@@ -64,7 +64,7 @@ return await memorize_seq(
 1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2023-10-29,145,292!2023-12-12,195,312-->
 2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2023-09-21,14,172!2024-02-13,226,312-->
 3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2023-09-15,112,270!2023-09-25,45,232-->
-4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2023-09-09,76,272!2024-02-03,193,252-->
+4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2024-04-09,213,272!2024-02-03,193,252-->
 5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2023-11-01,143,250!2023-12-31,208,312-->
 6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2023-11-29,183,312!2023-11-22,178,312-->
 
@@ -99,7 +99,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2023-09-09,109,270!2024-05-13,316,332-->
+1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2024-07-11,306,270!2024-05-13,316,332-->
 2. auxiliary heat and water source→:::←backup power source <!--SR:!2023-12-19,196,310!2023-12-27,203,312-->
 3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2024-01-31,220,292!2024-01-09,212,312-->
 4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2023-11-02,118,292!2024-04-26,304,332-->

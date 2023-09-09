@@ -19,7 +19,7 @@ tags:
 
 # halogen
 
-The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2023-09-03,100,270!2023-10-23,125,250-->
+The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2024-10-11,398,290!2023-10-23,125,250-->
 
 The color darkens as the group is descended. Flourine is {{very pale yellow, chlorine is greenish-yellow, bromine is reddish-brown, and iodine is violet}}. <!--SR:!2023-12-11,116,247-->
 
@@ -62,7 +62,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2394"--><!-- The following content is generated at 2023-03-20T12:19:40.532789+08:00. Any edits will be overridden! -->
 
 1. [fluorine](fluorine.md)::reacts explosively in the dark and cold <!--SR:!2024-02-04,230,310-->
-2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2023-09-09,106,270-->
+2. [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2024-07-03,298,270-->
 3. [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2024-02-15,212,250-->
 4. [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2023-11-03,145,290-->
 5. [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2024-06-01,330,330-->

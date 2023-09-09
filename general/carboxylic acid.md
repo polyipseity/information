@@ -19,7 +19,7 @@ tags:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2023-09-07,114,290!2024-02-03,229,310!2023-11-06,164,310-->
+Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2024-08-10,336,290!2024-02-03,229,310!2023-11-06,164,310-->
 
 ### density
 
@@ -27,7 +27,7 @@ Carboxylic acids are {{less [dense](density.md) than [water](water.md) except fo
 
 ### odor
 
-Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2023-09-07,80,210-->
+Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:!2024-03-02,175,210-->
 
 ### solubility
 
@@ -78,7 +78,7 @@ return await memorize_table(
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[esterification](#esterification)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-09-22,125,309!2024-02-17,243,329!2023-08-31,99,289!2023-09-10,96,273-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2023-09-22,125,309!2024-02-17,243,329!2024-12-05,453,309!2023-09-10,96,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

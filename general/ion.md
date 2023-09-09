@@ -349,9 +349,9 @@ return chain.from_iterable(await gather(
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
 22. scandium(III) ion::colorless <!--SR:!2023-12-07,171,322-->
-23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-09-02,46,210-->
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-10-06,27,190-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-09-11,42,262-->
-25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-09-06,15,222-->
+25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-09-19,10,202-->
 26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-11-05,107,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -418,7 +418,7 @@ return chain.from_iterable(await gather(
 9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2023-12-08,473,312-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2023-10-26,415,270!2027-04-29,1416,314-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2026-01-17,1128,350-->
-12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2023-09-02,376,273!2023-12-01,306,233-->
+12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-07,1459,293!2023-12-01,306,233-->
 13. oxide ion:::O<sup>2-</sup> <!--SR:!2024-08-09,659,310!2026-06-30,1200,313-->
 14. sulfide ion:::S<sup>2-</sup> <!--SR:!2024-02-13,481,267!2024-02-22,533,310-->
 15. sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2024-05-15,573,299!2025-10-13,1049,345-->
@@ -479,7 +479,7 @@ return chain.from_iterable(await gather(
 12. permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-02-16,434,250-->
 13. oxide ion::_(n/a)_ <!--SR:!2024-09-17,438,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2024-01-28,177,256-->
-15. sulfate ion::colorless <!--SR:!2023-08-31,374,274-->
+15. sulfate ion::colorless <!--SR:!2026-08-20,1076,274-->
 16. sulfite ion::colorless <!--SR:!2023-11-19,198,274-->
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2025-01-11,566,250-->

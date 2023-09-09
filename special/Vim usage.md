@@ -33,7 +33,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2024-03-06,306,333!2023-10-23,200,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2024-03-21,320,333!2023-10-03,172,293-->
-- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2023-09-09,154,293!2024-05-27,379,348-->
+- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2024-05-27,379,348-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2024-03-27,325,333!2024-06-11,393,348-->
 
 ## insert
@@ -41,7 +41,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-10-14,179,293!2024-02-20,279,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2024-01-11,248,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2024-01-04,234,273!2024-04-21,348,333-->
-- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2023-09-07,165,293!2023-09-19,162,293-->
+- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2023-09-19,162,293-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2024-04-20,300,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
 
@@ -71,13 +71,13 @@ See also [Vim help files](https://vimhelp.org/).
 - search forward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2023-09-16,159,293!2024-03-24,279,273-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2024-06-01,304,250!2023-10-18,184,308-->
 - repeat last search:::n <!--SR:!2024-01-29,260,313!2023-10-11,180,308-->
-- repeat last search reversed:::N <!--SR:!2023-09-08,154,293!2024-07-14,378,288-->
+- repeat last search reversed:::N <!--SR:!2025-06-01,631,313!2024-07-14,378,288-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2024-07-10,369,293!2024-07-25,396,293-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2024-10-12,449,293!2024-01-18,225,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-10-12,157,253!2024-03-07,307,333-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2024-02-21,182,268!2023-09-05,28,168-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2024-02-21,182,268!2023-09-26,17,148-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-10-19,130,253!2023-12-30,237,313-->
 
 ## options
@@ -89,4 +89,4 @@ See also [Vim help files](https://vimhelp.org/).
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->
 - incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-09-18,61,253-->
-- hlsearch, hls:::highlight last search matches <!--SR:!2023-09-03,162,290!2023-10-16,184,308-->
+- hlsearch, hls:::highlight last search matches <!--SR:!2025-07-17,677,310!2023-10-16,184,308-->

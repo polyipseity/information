@@ -13,4 +13,4 @@ tags:
 
 - _defined in {{[`<string.h>`](../../../general/C%20string%20handling.md)}}_
 - [`strcat`](null-terminated%20byte%20strings/strcat.md)
-- [`strcpy`](null-terminated%20byte%20strings/strcpy.md) <!--SR:!2023-09-01,4,270-->
+- [`strcpy`](null-terminated%20byte%20strings/strcpy.md) <!--SR:!2023-10-23,44,290-->

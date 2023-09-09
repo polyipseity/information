@@ -11,7 +11,7 @@ tags:
 # `strcpy`
 
 - _defined in {{[`<string.h>`](../../../../general/C%20string%20handling.md)}}_
-- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2023-09-01,4,270!2023-09-01,4,270!2023-09-01,4,270-->
+- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2023-10-21,42,290!2023-10-27,48,290!2023-10-20,41,290-->
 
 ```C
 // (1)

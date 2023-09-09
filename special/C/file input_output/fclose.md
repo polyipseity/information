@@ -8,7 +8,7 @@ tags:
 
 # `fclose`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2023-09-01,4,270-->
+- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2023-10-21,42,290-->
 
 ```C
 int fclose(FILE *stream);
