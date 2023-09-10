@@ -107,7 +107,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2023-09-10,90,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-09-14,20,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-09-14,20,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -211,7 +211,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2023-09-14,18,215!2024-08-25,361,295!2023-09-10,82,235!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2023-09-11,66,210!2024-03-29,254,315!2024-05-16,250,275!2023-10-24,135,295!2024-03-17,190,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2023-09-14,18,215!2024-08-25,361,295!2024-06-12,276,255!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2023-09-11,66,210!2024-03-29,254,315!2024-05-16,250,275!2023-10-24,135,295!2024-03-17,190,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
