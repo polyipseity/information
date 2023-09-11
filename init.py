@@ -11,7 +11,7 @@ from asyncio import TaskGroup as _TskGrp, gather as _gather, run as _run
 from asyncstdlib import sync as _sync, tuple as _atuple
 from collections import defaultdict as _defdict
 from dataclasses import dataclass as _dc
-from functools import wraps as _wraps
+from functools import cache as _cache, wraps as _wraps
 from inspect import currentframe as _curframe, getframeinfo as _frameinfo
 from itertools import chain as _chain, starmap as _smap, zip_longest as _zip_l
 from json import dumps as _dumps, loads as _loads
@@ -44,6 +44,12 @@ except ImportError:
 from pytextgen import OPEN_TEXT_OPTIONS as _OPEN_TXT_OPTS  # type: ignore
 from pytextgen.main import parser as _pytextgen_parser  # type: ignore
 
+_EXCLUDES = (
+    ".git",
+    ".obsidian",
+    "private/self/academia/computer science/secondary 3/IndividualProgrammingProject/shaded/dglOpenGL/README.md",
+    "tools",
+)
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
 _NAME = _UUID
 _LOCAL_APP_DIRS = _AppDirs(
@@ -52,14 +58,6 @@ _LOCAL_APP_DIRS = _AppDirs(
     version=None,
     roaming=False,
     multipath=False,
-)
-_ROOT_DIR_EXCLUDES = frozenset(
-    {
-        ".git",
-        ".obsidian",
-        "templates",
-        "tools",
-    }
 )
 
 
@@ -90,6 +88,10 @@ async def main(args: Arguments):
         if frame is None:
             raise ValueError(frame)
         folder = _Path(_frameinfo(frame).filename).parent
+
+        excludes: _Seq[_Path] = await _gather(
+            *(_Path(path).resolve(strict=True) for path in _EXCLUDES)
+        )
 
         cache_folder = _Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
@@ -175,15 +177,14 @@ async def main(args: Arguments):
                 for root, dirs, files in _walk(
                     folder, topdown=True, onerror=on_error, followlinks=False
                 ):
-                    if await folder.samefile(root):
-                        for exclude in _ROOT_DIR_EXCLUDES:
-                            try:
-                                dirs.remove(exclude)
-                            except ValueError:
-                                pass
+                    if any(await _gather(*(ex.samefile(root) for ex in excludes))):
+                        dirs.clear()
+                        files.clear()
                     for file in files:
+                        path = await _Path(root, file).resolve(strict=True)
+                        if any(await _gather(*(ex.samefile(path) for ex in excludes))):
+                            continue
                         if file.endswith(".md"):
-                            path = await _Path(root, file).resolve(strict=True)
                             finalize = await maybe_yield(path)
                             if finalize is not None:
                                 finalizers.append(finalize)
