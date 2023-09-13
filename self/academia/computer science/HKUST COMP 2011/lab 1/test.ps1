@@ -8,8 +8,9 @@ for ($i = 1;
 		Write-Output "Test ${i} succeeded"
 	}
 	else {
-		Write-Output "=======Test ${i} failed======="
+		$header = "=======Test ${i} failed======="
+		Write-Output $header
 		Write-Output $output
-		Write-Output '=============================='
+		Write-Output ("=" * $header.Length)
 	}
 }
