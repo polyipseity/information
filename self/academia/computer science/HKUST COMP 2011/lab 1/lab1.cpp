@@ -1,15 +1,13 @@
 #include <iostream>
-using namespace std;
+
 int main()
 {
-    int width, height; // Define 2 variables that will hold the width and height respectively
+	int width{}, height{};
 
-    cout << "Please input the width of the rectangle: "; 
-    cin >> width; 
-    cout << "Please input the height of the rectangle: "; 
-    cin >> height; 
+	std::cout << "Please input the width of the rectangle: ";
+	std::cin >> width;
+	std::cout << "Please input the height of the rectangle: ";
+	std::cin >> height;
 
-    // TODO: complete your program here
-    
-    return 0;
+	return 0;
 }
