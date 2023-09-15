@@ -86,7 +86,7 @@ return await memorize_table(
 
 - See also: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
 
-Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-11-21,174,310!2024-03-06,225,270!2023-09-13,113,290-->
+Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2023-11-21,174,310!2024-03-06,225,270!2024-12-30,472,310-->
 
 ### coating and painting
 
@@ -108,4 +108,4 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2024-12-18,466,310-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2024-04-08,238,270!2024-04-27,300,330!2023-10-30,145,270!2024-01-27,193,270!2024-06-30,326,290!2023-09-14,81,230-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2024-04-08,238,270!2024-04-27,300,330!2023-10-30,145,270!2024-01-27,193,270!2024-06-30,326,290!2024-03-20,187,230-->

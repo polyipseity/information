@@ -44,7 +44,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda0"--><!-- The following content is generated at 2023-03-25T13:43:14.295187+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2024-01-15,218,317!2024-07-30,378,339-->
-2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2024-07-28,376,339!2023-09-13,106,259-->
+2. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2024-07-28,376,339!2024-10-11,392,279-->
 3. [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2024-03-12,267,337!2024-06-16,345,339-->
 4. [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2024-06-17,346,339!2024-07-27,375,339-->
 

@@ -28,7 +28,7 @@ See also [Vim help files](https://vimhelp.org/).
 - end of line:::$ <!--SR:!2024-04-01,329,333!2024-04-22,348,333-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2024-08-29,386,290!2024-01-28,259,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2024-03-20,319,333!2024-01-12,249,313-->
-- matching character:::% <!--SR:!2024-10-24,457,293!2023-09-13,154,293-->
+- matching character:::% <!--SR:!2024-10-24,457,293!2025-06-07,631,313-->
 
 ## write and quit
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2024-03-06,306,333!2023-10-23,200,313-->
@@ -88,5 +88,5 @@ See also [Vim help files](https://vimhelp.org/).
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->
-- incsearch, is:::highlight while typing search <!--SR:!2023-09-15,159,293!2023-09-18,61,253-->
+- incsearch, is:::highlight while typing search <!--SR:!2025-06-23,647,313!2023-09-18,61,253-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2025-07-17,677,310!2023-10-16,184,308-->

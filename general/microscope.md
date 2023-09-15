@@ -8,7 +8,7 @@ tags:
 
 # microscope
 
-A __microscope__ is {{a [laboratory instrument](laboratory%20equipment.md) for examining objects too small to be seen by the [naked eye](naked%20eye.md)}}. <!--SR:!2023-09-11,97,310-->
+A __microscope__ is {{a [laboratory instrument](laboratory%20equipment.md) for examining objects too small to be seen by the [naked eye](naked%20eye.md)}}. <!--SR:!2024-11-20,432,330-->
 
 ## types
 

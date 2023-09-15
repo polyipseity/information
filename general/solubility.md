@@ -97,7 +97,7 @@ return (
 
 > group I compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}} <!--SR:!2025-05-11,700,230!2023-09-11,126,190-->
+> - exception(s): {{Li<sub>3</sub>PO<sub>4</sub>}} <!--SR:!2025-05-11,700,230!2024-09-14,365,210-->
 
 > NH<sub>4</sub><sup>+</sup> compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -145,7 +145,7 @@ return (
 
 > oxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2023-09-15,37,150-->
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2023-11-12,58,150-->
 
 > sulfides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
