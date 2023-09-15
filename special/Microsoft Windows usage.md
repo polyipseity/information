@@ -15,14 +15,14 @@ tags:
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2023-09-17,186,310-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-09-27,42,170!2023-09-30,175,270-->
 - move window to bottom:::Alt+Esc <!--SR:!2023-11-13,177,230!2023-10-05,179,270-->
-- minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-09-14,28,210!2025-02-24,534,270-->
+- minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-10-01,16,190!2025-02-24,534,270-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-11-26,184,230!2023-12-07,220,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2023-10-18,172,250!2023-11-28,186,230-->
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2023-10-09,50,190!2023-10-01,175,270-->
 - toggle unfocused windows:::⊞Win+Home <!--SR:!2023-11-25,183,230!2023-12-08,90,210-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2023-09-24,158,250!2024-12-14,493,310-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-01-24,189,250!2023-09-24,171,270-->
-- move window to the left/right side:::⊞Win+←/→ <!--SR:!2023-09-12,153,250!2023-11-13,65,190-->
+- move window to the left/right side:::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2023-11-13,65,190-->
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-10-20,105,230!2024-05-29,332,270-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-11-14,79,150!2024-06-12,329,270-->
 - close dialog:::Esc <!--SR:!2023-12-16,261,330!2024-02-13,289,290-->

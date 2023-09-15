@@ -65,7 +65,7 @@ return await memorize_table(
 3. appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
 4. appeal to tradition→:::←guilt by association <!--SR:!2023-10-04,94,230!2024-04-02,226,275-->
 5. guilt by association→:::←hasty generalization <!--SR:!2023-10-06,121,295!2024-01-07,137,290-->
-6. hasty generalization→:::←popularity and testimonials <!--SR:!2023-09-11,92,270!2023-10-21,116,270-->
+6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2023-10-21,116,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-11-22,74,270!2024-07-07,302,295-->
 8. post hoc→:::←self-contradiction <!--SR:!2023-10-02,75,235!2024-04-04,260,315-->
 9. self-contradiction→:::←virtue by association <!--SR:!2023-09-19,98,275!2023-10-27,117,270-->
@@ -107,14 +107,14 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-09-14,20,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-11-09,55,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-09-13,19,155-->
+2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-11-06,52,175-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-10-10,31,135-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
@@ -211,7 +211,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2023-09-14,18,215!2024-08-25,361,295!2024-06-12,276,255!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2023-09-11,66,210!2024-03-29,254,315!2024-05-16,250,275!2023-10-24,135,295!2024-03-17,190,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2023-10-29,44,215!2024-08-25,361,295!2024-06-12,276,255!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2024-02-04,142,210!2024-03-29,254,315!2024-05-16,250,275!2023-10-24,135,295!2024-03-17,190,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -314,7 +314,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2023-04-26T19:16:21.053434+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2023-09-14,79,255!2024-04-17,273,315-->
+1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-04-06,204,255!2024-04-17,273,315-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2023-10-08,111,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2023-09-23,108,275-->
@@ -350,7 +350,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T23:59:07.528429+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2023-09-13,98,270!2024-04-24,279,315-->
+1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2023-09-27,57,215-->
 3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-09-28,19,150-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2023-09-27,112,275-->
@@ -420,8 +420,8 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2023-10-21,132,295-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-09-12,14,130!2023-11-21,117,230-->
-3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-09-15,30,190-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-10-07,22,130!2023-11-21,117,230-->
+3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-10-02,17,170-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
