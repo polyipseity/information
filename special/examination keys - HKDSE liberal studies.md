@@ -224,7 +224,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-09-24,32,150-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2024-07-16,329,295-->
-8. trend→:::←with reference to <!--SR:!2023-09-16,71,230!2023-09-29,31,190-->
+8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2023-09-29,31,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
