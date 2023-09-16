@@ -44,9 +44,9 @@ A good way to satisfy the third normal form is by following the below three rule
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3ffa"--><!-- The following content is generated at 2023-09-11T22:15:48.183823+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←No duplicated data. To deduplicate data, move them to a new table.
-2. No duplicated data. To deduplicate data, move them to a new table.→:::←Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.
-3. Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→:::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".
-4. Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".→:::←_(end)_
+1. _(begin)_→:::←No duplicated data. To deduplicate data, move them to a new table. <!--SR:!2023-09-20,4,270!2023-09-20,4,270-->
+2. No duplicated data. To deduplicate data, move them to a new table.→:::←Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended. <!--SR:!2023-09-20,4,270!2023-09-20,4,270-->
+3. Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→:::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys". <!--SR:!2023-09-19,3,250!2023-09-20,4,270-->
+4. Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".→:::←_(end)_ <!--SR:!2023-09-20,4,270!2023-09-20,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
