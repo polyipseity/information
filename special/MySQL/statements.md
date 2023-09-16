@@ -18,7 +18,7 @@ tags:
 - {{`SELECT select_expression [FROM table_reference[, ...]] [WHERE where_expression] [ORDER BY order_by_expression [ASC | DESC]] [LIMIT {count | offset, count}]`}}: {{show rows from the tables named `table_reference` according to `select_expression`; maybe filter rows for which `where_expression` is true; maybe order rows by the `order_by_expression` in ascending order if unspecified or `ASC`, or descending if `DESC`; maybe limit the number of rows to `count` starting from the 0-based `offset` if specified}}
 - {{`SHOW DATABASES`}}: {{show databases}}
 - {{`UPDATE table_name SET assignment[, ...] [WHERE where_expression]`}}: {{update columns of rows with new values according to `assignment`s in the table `table_name`; maybe filter rows for which `where_expression` is true}}
-- {{`USE database_name`}}: {{use the database named `database_name` as the default database for sequent statements}}
+- {{`USE database_name`}}: {{use the database named `database_name` as the default database for sequent statements}} <!--SR:!2023-09-20,4,270!2023-09-20,4,270!2023-09-20,4,270!2023-09-20,4,270!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279-->
 
 ## common expressions
 
@@ -32,4 +32,4 @@ tags:
 	- {{`*`}}: {{select all columns}}
 	- {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
 - `table_reference`
-	- {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}}
+	- {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2023-09-19,3,250!2023-09-20,4,270!2023-09-20,4,270!2023-09-20,4,270!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279!2023-09-20,4,279-->
