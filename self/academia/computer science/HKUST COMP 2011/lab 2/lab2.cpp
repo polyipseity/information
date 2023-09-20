@@ -13,9 +13,16 @@ int main()
     /* Please do not change the code above this line */
 
     // Task 1 - Find the small and large bounds of the range
-    ///////////////////
-    // Your Code Here //
-    ///////////////////
+    if (number1 > number2)
+    {
+        large = number1;
+        small = number2;
+    }
+    else
+    {
+        large = number2;
+        small = number1;
+    }
 
     // Task 2 - Find the perfect numbers in the range and update the final score
     ///////////////////
