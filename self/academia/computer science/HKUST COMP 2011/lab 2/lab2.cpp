@@ -25,9 +25,18 @@ int main()
     }
 
     // Task 2 - Find the perfect numbers in the range and update the final score
-    ///////////////////
-    // Your Code Here //
-    ///////////////////
+    for (int cur{small}; cur <= large; ++cur)
+    {
+        int sum{0};
+        for (int div{1}; div <= cur / 2; ++div)
+        {
+            if (cur % div == 0)
+            {
+                sum += div;
+            }
+        }
+        finalScore += cur * (cur == sum ? 1 : -1);
+    }
 
     /* Please do not change the code below this line */
 
