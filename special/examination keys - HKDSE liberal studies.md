@@ -68,7 +68,7 @@ return await memorize_table(
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2023-10-21,116,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-11-22,74,270!2024-07-07,302,295-->
 8. post hoc→:::←self-contradiction <!--SR:!2023-10-02,75,235!2024-04-04,260,315-->
-9. self-contradiction→:::←virtue by association <!--SR:!2023-09-19,98,275!2023-10-27,117,270-->
+9. self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2023-10-27,117,270-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2023-11-18,152,295-->
 11. weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
 
@@ -219,7 +219,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-09-28,34,175!2024-06-23,313,295-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-09-22,42,170!2024-03-18,191,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-10-11,19,150!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-09-24,32,150-->
@@ -458,7 +458,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State the problem or criteria required. <!--SR:!2023-12-26,126,250!2023-12-26,184,315-->
 2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2024-01-23,188,295!2024-08-14,340,290-->
-3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-11-02,106,235!2023-09-20,105,275-->
+3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-11-02,106,235!2024-11-05,410,295-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->
 5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2023-09-27,112,275-->
 6. (Conclusion) Summarize solutions.→:::←_(end)_ <!--SR:!2024-05-24,304,330!2023-12-25,183,315-->

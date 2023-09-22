@@ -12,7 +12,7 @@ tags:
 - pop up window menu:::Alt+Space <!--SR:!2023-09-27,62,230!2023-12-05,216,270-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2024-02-09,199,250!2024-06-18,347,270-->
 - restore window size:::Alt+Space, R <!--SR:!2024-07-31,370,270!2024-01-01,166,210-->
-- move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2023-09-17,186,310-->
+- move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2023-09-27,42,170!2023-09-30,175,270-->
 - move window to bottom:::Alt+Esc <!--SR:!2023-11-13,177,230!2023-10-05,179,270-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-10-01,16,190!2025-02-24,534,270-->
@@ -26,7 +26,7 @@ tags:
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2023-10-20,105,230!2024-05-29,332,270-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2023-11-14,79,150!2024-06-12,329,270-->
 - close dialog:::Esc <!--SR:!2023-12-16,261,330!2024-02-13,289,290-->
-- toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2023-09-19,158,250!2024-03-06,255,250-->
+- toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2024-03-06,255,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2023-11-16,177,230!2023-10-10,187,270-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-12-03,189,230!2023-10-21,62,210-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2023-11-10,188,250!2023-12-01,213,270-->

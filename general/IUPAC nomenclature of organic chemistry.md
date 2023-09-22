@@ -275,7 +275,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-09T18:05:21.147143+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←commas (,) between locants <!--SR:!2025-05-09,838,332!2025-03-14,596,320-->
-2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2023-09-18,377,293!2024-09-15,436,321-->
+2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2027-12-20,1550,313!2024-09-15,436,321-->
 3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2023-11-13,285,342-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2024-04-06,410,367!2026-02-19,925,347-->
 
@@ -413,7 +413,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
-> - infix: {{(locant)}} <!--SR:!2024-06-29,406,300!2025-06-11,723,340!2023-11-25,282,342!2023-09-21,249,342!2024-05-22,383,302!2023-12-13,295,347-->
+> - infix: {{(locant)}} <!--SR:!2024-06-29,406,300!2025-06-11,723,340!2023-11-25,282,342!2026-12-12,1177,362!2024-05-22,383,302!2023-12-13,295,347-->
 
 > {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
 > - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
@@ -448,7 +448,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2023-09-18,207,280!2024-06-28,295,280!2025-03-13,595,321!2023-09-29,44,142!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2023-09-29,44,142!2024-06-02,458,362!2024-05-01,429,362-->
 
 > {{carboxylic acid}}
 > - group: {{carboxyl}}
@@ -634,7 +634,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2023-11-28,182,344!2024-12-20,501,384!2023-09-20,51,344!2024-04-25,303,364!2024-07-16,350,364!2024-02-06,152,324!2024-05-10,237,364!2024-02-29,263,364!2024-04-29,307,364-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2023-11-28,182,344!2024-12-20,501,384!2024-06-01,253,364!2024-04-25,303,364!2024-07-16,350,364!2024-02-06,152,324!2024-05-10,237,364!2024-02-29,263,364!2024-04-29,307,364-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

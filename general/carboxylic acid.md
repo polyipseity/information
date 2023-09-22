@@ -78,7 +78,7 @@ return await memorize_table(
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[esterification](#esterification)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2023-09-22,125,309!2024-02-17,243,329!2024-12-05,453,309!2024-05-30,263,273-->
+> | {{[reduction](#reduction)}} |  | <!--SR:!2025-03-10,535,329!2024-02-17,243,329!2024-12-05,453,309!2024-05-30,263,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

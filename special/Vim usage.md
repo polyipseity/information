@@ -41,7 +41,7 @@ See also [Vim help files](https://vimhelp.org/).
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-10-14,179,293!2024-02-20,279,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2024-01-11,248,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2024-01-04,234,273!2024-04-21,348,333-->
-- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2023-09-19,162,293-->
+- change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2025-07-01,648,313-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2024-04-20,300,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
 
@@ -88,5 +88,5 @@ See also [Vim help files](https://vimhelp.org/).
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->
-- incsearch, is:::highlight while typing search <!--SR:!2025-06-23,647,313!2023-09-18,61,253-->
+- incsearch, is:::highlight while typing search <!--SR:!2025-06-23,647,313!2024-03-06,166,253-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2025-07-17,677,310!2023-10-16,184,308-->
