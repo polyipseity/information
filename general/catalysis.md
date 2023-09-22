@@ -61,9 +61,9 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394f"--><!-- The following content is generated at 2023-04-03T21:50:10.322280+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2024-05-30,328,330!2024-05-21,319,330-->
-2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2023-09-20,117,290!2024-05-19,317,330-->
+2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2025-01-09,475,310!2024-05-19,317,330-->
 3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2024-05-27,325,330!2023-11-02,142,290-->
-4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2024-05-20,318,330!2023-09-21,116,270-->
+4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2024-05-20,318,330!2024-08-02,315,270-->
 5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2024-05-23,321,330!2023-11-15,168,310-->
 6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2024-03-17,223,270-->
 

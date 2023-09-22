@@ -10,7 +10,7 @@ tags:
 
 ## Rayleigh's criterion
 
-The {{Rayleigh}}'s criterion is that {{two point sources are considered just resolved when the principal diffraction maximum of the [Airy disk](Airy%20disk.md) of an image coincide with the first minimum of the [Airy disk](Airy%20disk.md) of the other}}. <!--SR:!2023-10-04,115,310!2023-09-18,85,250-->
+The {{Rayleigh}}'s criterion is that {{two point sources are considered just resolved when the principal diffraction maximum of the [Airy disk](Airy%20disk.md) of an image coincide with the first minimum of the [Airy disk](Airy%20disk.md) of the other}}. <!--SR:!2023-10-04,115,310!2024-04-29,220,250-->
 
 According to the criterion, diffraction through a circular [aperture](aperture.md) gives:
 
