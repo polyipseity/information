@@ -45,7 +45,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←breathing <!--SR:!2023-11-01,161,310!2024-02-21,247,330-->
 2. breathing→:::←burning of fuels <!--SR:!2024-09-22,366,290!2023-12-30,206,310-->
-3. burning of fuels→:::←medical use <!--SR:!2024-03-31,280,330!2023-09-23,126,290-->
+3. burning of fuels→:::←medical use <!--SR:!2024-03-31,280,330!2025-03-01,525,310-->
 4. medical use→:::←_(end)_ <!--SR:!2024-05-24,322,330!2024-01-27,230,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
