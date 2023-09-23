@@ -441,7 +441,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2024-02-21,374,362!2024-01-04,311,342!2025-01-20,605,322!2023-09-23,58,150!2023-11-02,238,285!2024-01-15,344,367-->
+> - infix: {{(locant)}} <!--SR:!2024-02-21,374,362!2024-01-04,311,342!2025-01-20,605,322!2023-12-21,89,150!2023-11-02,238,285!2024-01-15,344,367-->
 
 > {{ketone}}
 > - group: {{carbonyl}}

@@ -114,7 +114,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2023-09-23,54,210!2023-11-06,52,175-->
+2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-11-06,52,175-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-10-10,31,135-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
@@ -263,7 +263,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-09-23,90,235!2023-09-29,72,275-->
+2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-11-07,45,215!2023-09-29,72,275-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-10-04,119,295!2023-11-24,96,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-10-08,98,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
@@ -317,7 +317,7 @@ return await memorize_seq(
 1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-04-06,204,255!2024-04-17,273,315-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2023-10-08,111,275-->
-4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2023-09-23,108,275-->
+4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2024-07-23,304,275-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-12-09,91,230-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-06-16,324,330!2024-03-31,256,315-->
 

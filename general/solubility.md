@@ -129,7 +129,7 @@ return (
 
 > carbonates
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2023-09-23,328,248!2023-11-27,122,230-->
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2025-12-14,813,248!2023-11-27,122,230-->
 
 > sulfites
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
