@@ -1,10 +1,8 @@
 {
   "errorNoticeTimeout": 0,
   "language": "",
-  "lastReadChangelogVersion": "0.0.0",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
-  "recovery": {},
   "showConfigurationFolder": true,
   "showHiddenFiles": true,
   "showingRules": [
