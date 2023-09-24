@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-	- date/2023/09/24
+  - date/2023/09/24
 ---
 
 # 2018 spring final attempt
