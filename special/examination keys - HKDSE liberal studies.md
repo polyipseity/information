@@ -22,21 +22,21 @@ HKDSE liberal studies
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('ff91', '83da',),
-	('fallacy',),
-	(
-		('affirming the consequent',),
-		('appeal to authority',),
-		('appeal to tradition',),
-		('guilt by association',),
-		('hasty generalization',),
-		('popularity and testimonials',),
-		('post hoc',),
-		('self-contradiction',),
-		('virtue by association',),
-		('weak analogies',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('ff91', '83da',),
+  ('fallacy',),
+  (
+    ('affirming the consequent',),
+    ('appeal to authority',),
+    ('appeal to tradition',),
+    ('guilt by association',),
+    ('hasty generalization',),
+    ('popularity and testimonials',),
+    ('post hoc',),
+    ('self-contradiction',),
+    ('virtue by association',),
+    ('weak analogies',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -83,17 +83,17 @@ return await memorize_table(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('385a', '4940',),
-	('question type', 'description',),
-	(
-		('comparison', 'analyze similarities and differences of multiple things',),
-		('factor/reason', 'explain a phenomenon',),
-		('impact/problem', 'analyze consequences',),
-		('phenomenon', 'analyze characteristics',),
-		('solution', 'solve a problem',),
-		('value judgement', 'comment on good and bad or values positioning stakeholders',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('385a', '4940',),
+  ('question type', 'description',),
+  (
+    ('comparison', 'analyze similarities and differences of multiple things',),
+    ('factor/reason', 'explain a phenomenon',),
+    ('impact/problem', 'analyze consequences',),
+    ('phenomenon', 'analyze characteristics',),
+    ('solution', 'solve a problem',),
+    ('value judgement', 'comment on good and bad or values positioning stakeholders',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -130,29 +130,29 @@ return await memorize_table(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('102d', '384f',),
-	('question word(s)', 'description',),
-	(
-		(
-			html_ul('assess', 'compare', 'evaluate',),
-			html_ol(
-				'State your stance.',
-				'Select comparison parameters.',
-				'Describe similarities and differences with arguments and counterarguments.',
-				'State the limits of comparison.',
-			),
-		),
-		(
-			html_ul('comment', 'to what extent do you agree',),
-			html_ol(
-				'Compare positive and negative arguments.',
-				'State your stance with value judgement.',
-				'Give reasons on your stance with arguments and counterarguments.',
-				'Rebut counterarguments.',
-			),
-		),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('102d', '384f',),
+  ('question word(s)', 'description',),
+  (
+    (
+      html_ul('assess', 'compare', 'evaluate',),
+      html_ol(
+        'State your stance.',
+        'Select comparison parameters.',
+        'Describe similarities and differences with arguments and counterarguments.',
+        'State the limits of comparison.',
+      ),
+    ),
+    (
+      html_ul('comment', 'to what extent do you agree',),
+      html_ol(
+        'Compare positive and negative arguments.',
+        'State your stance with value judgement.',
+        'Give reasons on your stance with arguments and counterarguments.',
+        'Rebut counterarguments.',
+      ),
+    ),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -181,19 +181,19 @@ return await memorize_table(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('21aa', '38ff',),
-	('keyword', 'description',),
-	(
-		('according to/refer to', 'quote and focus on the reference',),
-		('cause/reason', 'provide causes, explanations, or justifications',),
-		('effectiveness', 'consider meeting objectives contextually from both sides',),
-		('factor', 'provide generalized causes, explanations, or justifications',),
-		('feasibilities', 'consider practicalitiy contextually from both sides',),
-		('pattern', 'describe the overall distribution, relations of variables, and trends',),
-		('trend', 'describe the variation of data over time (e.g. increase, decrease, unchanged)',),
-		('with reference to', 'paraphrase the reference and deduce implications',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('21aa', '38ff',),
+  ('keyword', 'description',),
+  (
+    ('according to/refer to', 'quote and focus on the reference',),
+    ('cause/reason', 'provide causes, explanations, or justifications',),
+    ('effectiveness', 'consider meeting objectives contextually from both sides',),
+    ('factor', 'provide generalized causes, explanations, or justifications',),
+    ('feasibilities', 'consider practicalitiy contextually from both sides',),
+    ('pattern', 'describe the overall distribution, relations of variables, and trends',),
+    ('trend', 'describe the variation of data over time (e.g. increase, decrease, unchanged)',),
+    ('with reference to', 'paraphrase the reference and deduce implications',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -238,14 +238,14 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('dd1a', '43ff',),
-	(
-		'Sort or group data.',
-		'Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.',
-		'Quote the figures.',
-		'Analyze the figures by performing simple calculations.',
-		'Deduce causes and reasons.',
-	),
+  e.cwf_sects('dd1a', '43ff',),
+  (
+    'Sort or group data.',
+    'Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.',
+    'Quote the figures.',
+    'Analyze the figures by performing simple calculations.',
+    'Deduce causes and reasons.',
+  ),
 )
 ```
 %%
@@ -290,14 +290,14 @@ In general, essays consists of {{introduction, body, and conclusion}}. They shou
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('2ea8', '39fa',),
-	(
-		'(Introduction) State your stance: To a large/small extent, I agree…',
-		'Define or explain key terms or criteria required.',
-		'(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.',
-		'Write 1 to 2 counterarguments with partial rebuttal.',
-		'(Conclusion) Summarize arguments and restate your stance.',
-	),
+  e.cwf_sects('2ea8', '39fa',),
+  (
+    '(Introduction) State your stance: To a large/small extent, I agree…',
+    'Define or explain key terms or criteria required.',
+    '(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.',
+    'Write 1 to 2 counterarguments with partial rebuttal.',
+    '(Conclusion) Summarize arguments and restate your stance.',
+  ),
 )
 ```
 %%
@@ -330,12 +330,12 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('48fa', 'add9',),
-	(
-		'Evaluating effectiveness only by instantaneous effects.',
-		'Hasty generalization with a single example.',
-		'Perspectives are incorrect.',
-	),
+  e.cwf_sects('48fa', 'add9',),
+  (
+    'Evaluating effectiveness only by instantaneous effects.',
+    'Hasty generalization with a single example.',
+    'Perspectives are incorrect.',
+  ),
 )
 ```
 %%
@@ -364,13 +364,13 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('4491', 'eeff',),
-	(
-		'(Introduction) State your stance.',
-		'Define or explain key terms or criteria required.',
-		'(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.',
-		'(Conclusion) Summarize arguments and restate your stance.',
-	),
+  e.cwf_sects('4491', 'eeff',),
+  (
+    '(Introduction) State your stance.',
+    'Define or explain key terms or criteria required.',
+    '(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.',
+    '(Conclusion) Summarize arguments and restate your stance.',
+  ),
 )
 ```
 %%
@@ -401,11 +401,11 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('3dda', '32ab',),
-	(
-		'Only stating views of stakeholders instead of macroscopic effects.',
-		'Oversimplification of examples.',
-	),
+  e.cwf_sects('3dda', '32ab',),
+  (
+    'Only stating views of stakeholders instead of macroscopic effects.',
+    'Oversimplification of examples.',
+  ),
 )
 ```
 %%
@@ -432,14 +432,14 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('5fab', '5aab',),
-	(
-		'(Introduction) State the problem or criteria required.',
-		'State your solutions.',
-		'(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.',
-		'For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.',
-		'(Conclusion) Summarize solutions.',
-	),
+  e.cwf_sects('5fab', '5aab',),
+  (
+    '(Introduction) State the problem or criteria required.',
+    'State your solutions.',
+    '(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.',
+    'For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.',
+    '(Conclusion) Summarize solutions.',
+  ),
 )
 ```
 %%
@@ -472,13 +472,13 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('4401', '4ecd',),
-	(
-		'Hetergenous nature of people not considered when evaluating effectiveness.',
-		'Making education and promotion too similar. Focus on schools in the former while governments in the latter.',
-		'Overstating effectiveness of education.',
-		'Suggesting legislation without considering enforcement.',
-	),
+  e.cwf_sects('4401', '4ecd',),
+  (
+    'Hetergenous nature of people not considered when evaluating effectiveness.',
+    'Making education and promotion too similar. Focus on schools in the former while governments in the latter.',
+    'Overstating effectiveness of education.',
+    'Suggesting legislation without considering enforcement.',
+  ),
 )
 ```
 %%

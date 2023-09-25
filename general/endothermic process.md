@@ -23,11 +23,11 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('d925', 'abbb'),
-	(
-		'[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)',
-		'[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)'
-	),
+  e.cwf_sects('d925', 'abbb'),
+  (
+    '[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)',
+    '[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)'
+  ),
 )
 ```
 %%

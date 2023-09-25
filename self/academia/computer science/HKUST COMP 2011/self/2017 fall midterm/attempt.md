@@ -19,19 +19,19 @@ __answer__
 
 ```Cpp
 switch (word[i]) {
-	case 'a':
-	case 'e':
-	case 'i':
-	case 'o':
-	case 'u':
-		++vowel;
-		break;
-	case 'w':
-	case 'y':
-		++semivowel;
-	default:
-		++consonant;
-		break;
+  case 'a':
+  case 'e':
+  case 'i':
+  case 'o':
+  case 'u':
+    ++vowel;
+    break;
+  case 'w':
+  case 'y':
+    ++semivowel;
+  default:
+    ++consonant;
+    break;
 }
 ```
 
@@ -51,8 +51,8 @@ __answer__
 
 ```Cpp
 int pre_increment(int &x) {
-	x += 1;
-	return x;
+  x += 1;
+  return x;
 }
 ```
 
@@ -62,9 +62,9 @@ __answer__
 
 ```Cpp
 int post_increment(int &x) {
-	int pre{x};
-	x += 1;
-	return pre;
+  int pre{x};
+  x += 1;
+  return pre;
 }
 ```
 
@@ -95,17 +95,17 @@ __answer__
 
 ```Cpp
 void hat(int height) {
-	for (int yy{0}; yy < height; ++yy) {
-		int left{height - yy - 1}, right{height + yy - 1};
-		for (int xx{0}; xx < (height * 2 - 1); ++xx) {
-			if (xx == left || xx == right) {
-				cout << '*';
-				continue;
-			}
-			cout << '#';
-		}
-		cout << endl;
-	}
+  for (int yy{0}; yy < height; ++yy) {
+    int left{height - yy - 1}, right{height + yy - 1};
+    for (int xx{0}; xx < (height * 2 - 1); ++xx) {
+      if (xx == left || xx == right) {
+        cout << '*';
+        continue;
+      }
+      cout << '#';
+    }
+    cout << endl;
+  }
 }
 ```
 
@@ -143,12 +143,12 @@ __answer__
 
 ```Cpp
 int array_max(int array[], int length) {
-	if (length == 1) { return array[0]; }
-	int max{array_max(array, length - 1)};
-	if (array[length - 1] > max) {
-		return array[length - 1];
-	}
-	return max;
+  if (length == 1) { return array[0]; }
+  int max{array_max(array, length - 1)};
+  if (array[length - 1] > max) {
+    return array[length - 1];
+  }
+  return max;
 }
 ```
 
@@ -158,12 +158,12 @@ __answer__
 
 ```Cpp
 int matrix_max(int array[][8], int rows, int cols) {
-	if (rows == 1) { return array_max(array[0], cols); }
-	int max{matrix_max(array, rows - 1, cols)};
-	if (array_max(array[rows - 1], cols) > max) {
-		return array_max(array[rows - 1]);
-	}
-	return max;
+  if (rows == 1) { return array_max(array[0], cols); }
+  int max{matrix_max(array, rows - 1, cols)};
+  if (array_max(array[rows - 1], cols) > max) {
+    return array_max(array[rows - 1]);
+  }
+  return max;
 }
 ```
 
@@ -175,13 +175,13 @@ __answer__
 
 ```Cpp
 bool same_word(const char a[], const char b[]) {
-	int ii{0};
-	for (; a[ii] != '\0' && b[ii] != '\0'; ++ii) {
-		if (a[ii] != b[ii]) {
-			return false;
-		}
-	}
-	return a[ii] == b[ii];
+  int ii{0};
+  for (; a[ii] != '\0' && b[ii] != '\0'; ++ii) {
+    if (a[ii] != b[ii]) {
+      return false;
+    }
+  }
+  return a[ii] == b[ii];
 }
 ```
 
@@ -191,20 +191,20 @@ __answer__
 
 ```Cpp
 int get_words_from_sentence(char const sentence[], char (*words)[WORD_LEN + 1]) {
-	int curWord{0}, chars{0};
-	for (int ii{0}; sentence[ii] != PERIOD; ++ii) {
-		if (sentence[ii] == SPACE) {
-			words[curWord][chars] = '\0';
-			++curWord;
-			chars = 0;
-			continue;
-		}
-		words[curWord][chars] = sentence[ii];
-		++chars;
-	}
-	if (sentence[0] == PERIOD) { return 0; }
-	words[curWord][chars] = '\0';
-	return curWord + 1;
+  int curWord{0}, chars{0};
+  for (int ii{0}; sentence[ii] != PERIOD; ++ii) {
+    if (sentence[ii] == SPACE) {
+      words[curWord][chars] = '\0';
+      ++curWord;
+      chars = 0;
+      continue;
+    }
+    words[curWord][chars] = sentence[ii];
+    ++chars;
+  }
+  if (sentence[0] == PERIOD) { return 0; }
+  words[curWord][chars] = '\0';
+  return curWord + 1;
 }
 ```
 
@@ -214,17 +214,17 @@ __answer__
 
 ```Cpp
 int spell_check(char const (*dict)[WORD_LEN + 1], int dict_size, char const (*words)[WORD_LEN + 1], int num_words, int found_words_index[]) {
-	int found{0};
-	for (int ww{0}; ww < num_words; ++ww) {
-		for (int dd{0}; dd < dict_size; ++dd) {
-			if (same_word(words[ww], dict[dd])) {
-				found_words_index[found] = ww;
-				++found;
-				break;
-			}
-		}
-	}
-	return found;
+  int found{0};
+  for (int ww{0}; ww < num_words; ++ww) {
+    for (int dd{0}; dd < dict_size; ++dd) {
+      if (same_word(words[ww], dict[dd])) {
+        found_words_index[found] = ww;
+        ++found;
+        break;
+      }
+    }
+  }
+  return found;
 }
 ```
 
@@ -234,9 +234,9 @@ __answer__
 
 ```Cpp
 void print_found_words(char const (*words)[WORD_LEN + 1], int const found_words_index[], int num_words_found) {
-	for (int ii{0}; ii < num_words_found; ++ii) {
-		char const *word{words[found_words_index[ii]]};
-		cout << "word " << ii << " : " << word << endl;
-	}
+  for (int ii{0}; ii < num_words_found; ++ii) {
+    char const *word{words[found_words_index[ii]]};
+    cout << "word " << ii << " : " << word << endl;
+  }
 }
 ```

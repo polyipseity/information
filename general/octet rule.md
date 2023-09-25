@@ -30,13 +30,13 @@ The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20t
 from itertools import chain
 e = __env__
 return await memorize_table(
-	e.cwf_sects('309d', '284d'),
-	('name', 'description',),
-	(
-		('__duplet rule__', '2 electrons in valence shell', '^duplet-rule'),
-		('__[18-electron rule](18-electron%20rule.md)__', '18 electrons in valence shell', None,),
-	),
-	lambda datum: chain(map(cloze, datum[:-2]), (f'{cloze(datum[-2])}{f" {datum[-1]}" if datum[-1] else ""}',),),
+  e.cwf_sects('309d', '284d'),
+  ('name', 'description',),
+  (
+    ('__duplet rule__', '2 electrons in valence shell', '^duplet-rule'),
+    ('__[18-electron rule](18-electron%20rule.md)__', '18 electrons in valence shell', None,),
+  ),
+  lambda datum: chain(map(cloze, datum[:-2]), (f'{cloze(datum[-2])}{f" {datum[-1]}" if datum[-1] else ""}',),),
 )
 ```
 %%

@@ -23,12 +23,12 @@ __Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), wh
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('d927', 'fda0'),
-	(
-		'[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)',
-		'[propagation](chain%20propagation.md)',
-		'[termination](chain%20termination.md)'
-	),
+  e.cwf_sects('d927', 'fda0'),
+  (
+    '[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)',
+    '[propagation](chain%20propagation.md)',
+    '[termination](chain%20termination.md)'
+  ),
 )
 ```
 %%

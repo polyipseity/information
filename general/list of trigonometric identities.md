@@ -22,14 +22,14 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('4949', 'd996',),
-	('name',),
-	(
-		('[angle sum and difference](#angle%20sum%20and%20difference)',),
-		('[multiple-angle](#multiple-angle)',),
-		('[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('4949', 'd996',),
+  ('name',),
+  (
+    ('[angle sum and difference](#angle%20sum%20and%20difference)',),
+    ('[multiple-angle](#multiple-angle)',),
+    ('[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -61,14 +61,14 @@ return await memorize_table(
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(*e.cwf_sects('394a',), NULL_LOCATION,),
-	('type', 'identity',),
-	(
-		('sine', R'$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$',),
-		('cosine', R'$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$',),
-		('tangent', R'$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$',),
-	),
-	lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
+  (*e.cwf_sects('394a',), NULL_LOCATION,),
+  ('type', 'identity',),
+  (
+    ('sine', R'$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$',),
+    ('cosine', R'$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$',),
+    ('tangent', R'$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$',),
+  ),
+  lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
 )
 ```
 %%
@@ -91,14 +91,14 @@ return await memorize_table(
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(*e.cwf_sects('ab2d',), NULL_LOCATION,),
-	('type', 'identity',),
-	(
-		('sine', R'$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$',),
-		('cosine', R'$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$',),
-		('tangent', R'$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$',),
-	),
-	lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
+  (*e.cwf_sects('ab2d',), NULL_LOCATION,),
+  ('type', 'identity',),
+  (
+    ('sine', R'$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$',),
+    ('cosine', R'$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$',),
+    ('tangent', R'$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$',),
+  ),
+  lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
 )
 ```
 %%
@@ -125,27 +125,27 @@ from itertools import chain
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return chain.from_iterable(await gather(
-	memorize_table(
-		(*e.cwf_sects('3213',), NULL_LOCATION,),
-		('type', 'identity',),
-		(
-			('sine cosine', html_ul(R'$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$', R'$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$',),),
-			('sine sine', R'$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$',),
-			('cosine cosine', R'$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$')
-		),
-		lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
-	),
-	memorize_table(
-		(*e.cwf_sects('39cd',), NULL_LOCATION,),
-		('type', 'identity',),
-		(
-			('sine ± sine', R'$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$',),
-			('cosine + cosine', R'$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$',),
-			('cosine - cosine', R'$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$',),
-			('tangent ± tangent', R'$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$',),
-		),
-		lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
-	),
+  memorize_table(
+    (*e.cwf_sects('3213',), NULL_LOCATION,),
+    ('type', 'identity',),
+    (
+      ('sine cosine', html_ul(R'$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$', R'$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$',),),
+      ('sine sine', R'$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$',),
+      ('cosine cosine', R'$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$')
+    ),
+    lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
+  ),
+  memorize_table(
+    (*e.cwf_sects('39cd',), NULL_LOCATION,),
+    ('type', 'identity',),
+    (
+      ('sine ± sine', R'$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$',),
+      ('cosine + cosine', R'$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$',),
+      ('cosine - cosine', R'$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$',),
+      ('tangent ± tangent', R'$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$',),
+    ),
+    lambda datum: (*datum[:1], cloze(datum[1]), *datum[2:],),
+  ),
 ))
 ```
 %%

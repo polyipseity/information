@@ -23,13 +23,13 @@ It is a test for an [oxidizing](oxidization.md) gas.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('28a383', '23ba9d'),
-	(
-		'Light a wooden splint.',
-		'Blow out the flame.',
-		'Introduce the [ember](ember.md) into the gas sample trapped in a container.',
-		'Positive: The ember flares and reignites.',
-	),
+  e.cwf_sects('28a383', '23ba9d'),
+  (
+    'Light a wooden splint.',
+    'Blow out the flame.',
+    'Introduce the [ember](ember.md) into the gas sample trapped in a container.',
+    'Positive: The ember flares and reignites.',
+  ),
 )
 ```
 %%

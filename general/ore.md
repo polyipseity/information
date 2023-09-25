@@ -25,16 +25,16 @@ See [extractive metallurgy](extractive%20metallurgy.md).
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('283749', '0398da'),
-	('name', 'formula',),
-	(
-		('[bauxite](bauxite.md)', 'Al(OH)<sub>3</sub>, AlOOH',),
-		('[chalcopyrite](chalcopyrite.md), copper pyrite', 'CuFeS<sub>2</sub>',),
-		('[cinnabar](cinnabar.md), cinnabarite', 'HgS',),
-		('[galena](galena.md)', 'PbS',),
-		('[hematite](hematite.md)', 'Fe<sub>2</sub>O<sub>3</sub>',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('283749', '0398da'),
+  ('name', 'formula',),
+  (
+    ('[bauxite](bauxite.md)', 'Al(OH)<sub>3</sub>, AlOOH',),
+    ('[chalcopyrite](chalcopyrite.md), copper pyrite', 'CuFeS<sub>2</sub>',),
+    ('[cinnabar](cinnabar.md), cinnabarite', 'HgS',),
+    ('[galena](galena.md)', 'PbS',),
+    ('[hematite](hematite.md)', 'Fe<sub>2</sub>O<sub>3</sub>',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

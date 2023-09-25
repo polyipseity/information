@@ -22,14 +22,14 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('23d1', 'fa13'),
-	('name', 'description',),
-	(
-		('cooking utensils', '[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)',),
-		('electric wires', '[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)',),
-		('water pipes', '[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)',),
-	),
-	lambda data: map(cloze, data),
+  e.cwf_sects('23d1', 'fa13'),
+  ('name', 'description',),
+  (
+    ('cooking utensils', '[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)',),
+    ('electric wires', '[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)',),
+    ('water pipes', '[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)',),
+  ),
+  lambda data: map(cloze, data),
 )
 ```
 %%

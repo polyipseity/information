@@ -21,18 +21,18 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('b9ae', '293d'),
-	('property', 'metal', 'metalloid', 'nonmetal',),
-	(
-		('appearance', html_ul('mostly shiny and grey-white',), html_ul('shiny and grey-white',), html_ul('mostly dull',),),
-		('deformability (as a solid)', html_ul('mostly [ductile](ductility.md) and [malleable](malleability.md)', 'some brittle',), html_ul('brittle',), html_ul('brittle', 'some non-brittle'),),
-		('[density](density.md)', html_ul('mostly high', 'exceptional example(s): [alkali metals](alkali%20metal.md)',), html_ul('between metals and nonmetals',), html_ul('mostly low'),),
-		('[electrical conductivity](electrical%20conductivity.md)', html_ul('good to high',), html_ul('intermediate to good',), html_ul('poor to good',),),
-		('form', html_ul('almost all [solid](solid.md)', '[liquid](liquid.md): [Cs](caesium.md), [Fr](francium.md), [Ga](gallium.md), [Hg](mercury%20(element).md), [Rb](rubidium.md)',), html_ul('all [solid](solid.md)',), html_ul('mostly [gas](gas.md)', '[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)', '[liquid](liquid.md): [Br](bromine.md)',),),
-		('[melting point](melting%20point.md)', html_ul('mostly high', 'exceptional example(s): [Na](sodium.md)',), html_ul('mostly high',), html_ul('mostly low',),),
-		('[thermal conductivity](thermal%20conductivity.md)', html_ul('medium to high',), html_ul('mostly intermediate', 'high: [Si](silicon.md)',), html_ul('almost negligible to very high',),),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('b9ae', '293d'),
+  ('property', 'metal', 'metalloid', 'nonmetal',),
+  (
+    ('appearance', html_ul('mostly shiny and grey-white',), html_ul('shiny and grey-white',), html_ul('mostly dull',),),
+    ('deformability (as a solid)', html_ul('mostly [ductile](ductility.md) and [malleable](malleability.md)', 'some brittle',), html_ul('brittle',), html_ul('brittle', 'some non-brittle'),),
+    ('[density](density.md)', html_ul('mostly high', 'exceptional example(s): [alkali metals](alkali%20metal.md)',), html_ul('between metals and nonmetals',), html_ul('mostly low'),),
+    ('[electrical conductivity](electrical%20conductivity.md)', html_ul('good to high',), html_ul('intermediate to good',), html_ul('poor to good',),),
+    ('form', html_ul('almost all [solid](solid.md)', '[liquid](liquid.md): [Cs](caesium.md), [Fr](francium.md), [Ga](gallium.md), [Hg](mercury%20(element).md), [Rb](rubidium.md)',), html_ul('all [solid](solid.md)',), html_ul('mostly [gas](gas.md)', '[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)', '[liquid](liquid.md): [Br](bromine.md)',),),
+    ('[melting point](melting%20point.md)', html_ul('mostly high', 'exceptional example(s): [Na](sodium.md)',), html_ul('mostly high',), html_ul('mostly low',),),
+    ('[thermal conductivity](thermal%20conductivity.md)', html_ul('medium to high',), html_ul('mostly intermediate', 'high: [Si](silicon.md)',), html_ul('almost negligible to very high',),),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

@@ -22,18 +22,18 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('d951', '5861',),
-	('[color](color.md)', '[wavelength](wavelength.md) ([nm](nanometer.md))', '[frequency](frequency.md) ([THz](hertz.md))', '[photon energy](photon%20energy.md) ([eV](electronvolt.md))',),
-	(
-		(f'{colored_block("#7f00ff")} [violet](violet%20(color).md)', '380–450', '670–790', '2.75–3.26',),
-		(f'{colored_block("blue")} [blue](blue.md)', '450–485', '620–670', '2.56–2.75',),
-		(f'{colored_block("cyan")} [cyan](cyan.md)', '485–500', '600–620', '2.48–2.56',),
-		(f'{colored_block("#00ff00")} [green](green.md)', '500–565', '530–600', '2.19–2.48',),
-		(f'{colored_block("yellow")} [yellow](yellow.md)', '565–590', '510–530', '2.10–2.19',),
-		(f'{colored_block("orange")} [orange](orange%20(color).md)', '590–625', '480–510', '1.98–2.10',),
-		(f'{colored_block("red")} [red](red.md)', '625–750', '400–480', '1.65–1.98',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('d951', '5861',),
+  ('[color](color.md)', '[wavelength](wavelength.md) ([nm](nanometer.md))', '[frequency](frequency.md) ([THz](hertz.md))', '[photon energy](photon%20energy.md) ([eV](electronvolt.md))',),
+  (
+    (f'{colored_block("#7f00ff")} [violet](violet%20(color).md)', '380–450', '670–790', '2.75–3.26',),
+    (f'{colored_block("blue")} [blue](blue.md)', '450–485', '620–670', '2.56–2.75',),
+    (f'{colored_block("cyan")} [cyan](cyan.md)', '485–500', '600–620', '2.48–2.56',),
+    (f'{colored_block("#00ff00")} [green](green.md)', '500–565', '530–600', '2.19–2.48',),
+    (f'{colored_block("yellow")} [yellow](yellow.md)', '565–590', '510–530', '2.10–2.19',),
+    (f'{colored_block("orange")} [orange](orange%20(color).md)', '590–625', '480–510', '1.98–2.10',),
+    (f'{colored_block("red")} [red](red.md)', '625–750', '400–480', '1.65–1.98',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

@@ -21,16 +21,16 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('d912', '2939'),
-	('name', 'description',),
-	(
-		('availability', '[Reagents](reagent.md) should be readily available and cheap.',),
-		('formation of [by-products](by-product.md)', 'Avoid forming [by-products](by-product.md), especially harmful ones.',),
-		('number of steps', 'Less steps mean less loss.',),
-		('[reaction rate](reaction%20rate.md)', '[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.',),
-		('[yield](yield%20(chemistry).md)', 'Organic reactions seldom give 100% [yield](yield%20(chemistry).md).',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('d912', '2939'),
+  ('name', 'description',),
+  (
+    ('availability', '[Reagents](reagent.md) should be readily available and cheap.',),
+    ('formation of [by-products](by-product.md)', 'Avoid forming [by-products](by-product.md), especially harmful ones.',),
+    ('number of steps', 'Less steps mean less loss.',),
+    ('[reaction rate](reaction%20rate.md)', '[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.',),
+    ('[yield](yield%20(chemistry).md)', 'Organic reactions seldom give 100% [yield](yield%20(chemistry).md).',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

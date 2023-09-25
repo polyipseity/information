@@ -52,17 +52,17 @@ Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('d924', '9581'),
-	('name', 'description',),
-	(
-		('[combustion](#combustion)', '',),
-		('[dihydroxylation](dihydroxylation.md)', '',),
-		('[halogen addition reaction](halogen%20addition%20reaction.md)', '',),
-		('[hydrogenation](#hydrogenation)', '',),
-		('[hydrohalogenation](#hydrohalogenation)', '',),
-		('[polymerization](#polymerization)', '',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('d924', '9581'),
+  ('name', 'description',),
+  (
+    ('[combustion](#combustion)', '',),
+    ('[dihydroxylation](dihydroxylation.md)', '',),
+    ('[halogen addition reaction](halogen%20addition%20reaction.md)', '',),
+    ('[hydrogenation](#hydrogenation)', '',),
+    ('[hydrohalogenation](#hydrohalogenation)', '',),
+    ('[polymerization](#polymerization)', '',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

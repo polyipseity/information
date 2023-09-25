@@ -23,12 +23,12 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('d234', 'ddee'),
-	('name', 'description',),
-	(
-		('[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)', '',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('d234', 'ddee'),
+  ('name', 'description',),
+  (
+    ('[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)', '',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
