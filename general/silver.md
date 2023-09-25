@@ -22,13 +22,13 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('30df', 'ba04'),
-	('name', 'description',),
-	(
-		('coins, jewellery', 'attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)',),
-		('electrical and electronic components', '[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)',),
-	),
-	lambda data: map(cloze, data),
+  e.cwf_sects('30df', 'ba04'),
+  ('name', 'description',),
+  (
+    ('coins, jewellery', 'attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)',),
+    ('electrical and electronic components', '[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)',),
+  ),
+  lambda data: map(cloze, data),
 )
 ```
 %%

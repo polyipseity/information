@@ -31,16 +31,16 @@ _HKUST COMP 2011_
 
 ```Cpp
 int sum(int from, int to, int diff) {
-	if (from > to) {
-		int tmp{from};
-		from = to;
-		to = tmp;
-	}
-	int ret{0};
-	for (int ii{from}; ii <= to; ii += diff) {
-		ret += ii;
-	}
-	return ret;
+  if (from > to) {
+    int tmp{from};
+    from = to;
+    to = tmp;
+  }
+  int ret{0};
+  for (int ii{from}; ii <= to; ii += diff) {
+    ret += ii;
+  }
+  return ret;
 }
 ```
 
@@ -79,8 +79,8 @@ Employee(0)
 
 ```Cpp
 bool contains(const char* s, char c) {
-	if (s[0] == '\0') { return false; }
-	return s[0] == c || contains(s + 1, c);
+  if (s[0] == '\0') { return false; }
+  return s[0] == c || contains(s + 1, c);
 }
 ```
 
@@ -88,8 +88,8 @@ bool contains(const char* s, char c) {
 
 ```Cpp
 int num_distinct_char(const char* s) {
-	if (s[0] == '\0') { return 0; }
-	return (contains(s + 1, s[0]) ? 0 : 1) + num_distinct_char(s + 1);
+  if (s[0] == '\0') { return 0; }
+  return (contains(s + 1, s[0]) ? 0 : 1) + num_distinct_char(s + 1);
 }
 ```
 
@@ -97,15 +97,15 @@ int num_distinct_char(const char* s) {
 
 ```Cpp
 node* merge(node* head1, node* head2) {
-	if (head1 == nullptr) { return head2; }
-	if (head2 == nullptr) { return head1; }
-	if (head1->data > head2->data) {
-		node *tmp{head1};
-		head1 = head2;
-		head2 = tmp;
-	}
-	head1->next = merge(head1->next, head2);
-	return head1;
+  if (head1 == nullptr) { return head2; }
+  if (head2 == nullptr) { return head1; }
+  if (head1->data > head2->data) {
+    node *tmp{head1};
+    head1 = head2;
+    head2 = tmp;
+  }
+  head1->next = merge(head1->next, head2);
+  return head1;
 }
 ```
 
@@ -125,14 +125,14 @@ node* merge(node* head1, node* head2) {
 class Album
 {
 public:
-	/* Answer: */
-	Album(int maxDuration);
-	bool addSong(Song const &song);
-	void print() const;
+  /* Answer: */
+  Album(int maxDuration);
+  bool addSong(Song const &song);
+  void print() const;
 private:
-	Song songs[MAXSONGS]; // Array of Song objects
-	int numSongs; // Number of Song objects stored in the songs
-	int maxDuration; // Maximum duration of the ablum in seconds
+  Song songs[MAXSONGS]; // Array of Song objects
+  int numSongs; // Number of Song objects stored in the songs
+  int maxDuration; // Maximum duration of the ablum in seconds
 };
 ```
 
@@ -144,18 +144,18 @@ private:
 
 Album::Album(int maxDuration): songs{}, numSongs{0}, maxDuration{maxDuration} {}
 bool Album::addSong(Song const &song) {
-	int dur{song.getDuration()};
-	for (int ii{0}; ii < numSongs; ++ii) {
-		dur += songs[ii].getDuration();
-	}
-	if (dur > maxDuration) { return false; }
-	songs[numSongs++] = song;
-	return true;
+  int dur{song.getDuration()};
+  for (int ii{0}; ii < numSongs; ++ii) {
+    dur += songs[ii].getDuration();
+  }
+  if (dur > maxDuration) { return false; }
+  songs[numSongs++] = song;
+  return true;
 }
 void Album::print() const {
-	for (int ii{0}; ii < numSongs; ++ii) {
-		std::cout << songs[ii].getTitle() << std::endl;
-	}
+  for (int ii{0}; ii < numSongs; ++ii) {
+    std::cout << songs[ii].getTitle() << std::endl;
+  }
 }
 ```
 
@@ -165,13 +165,13 @@ void Album::print() const {
 
 ```Cpp
 bool direct_flight(const Flights& f, const char* city1, const char* city2, int& cost) {
-	for (int ii{0}; ii < f.num_flights; ++ii) {
-		Flight const &ff{f.flight[ii]};
-		if (strcmp(city1, ff.from) || strcmp(city2, ff.to)) { continue; }
-		cost = ff.cost;
-		return true;
-	}
-	return false;
+  for (int ii{0}; ii < f.num_flights; ++ii) {
+    Flight const &ff{f.flight[ii]};
+    if (strcmp(city1, ff.from) || strcmp(city2, ff.to)) { continue; }
+    cost = ff.cost;
+    return true;
+  }
+  return false;
 }
 ```
 
@@ -179,16 +179,16 @@ bool direct_flight(const Flights& f, const char* city1, const char* city2, int& 
 
 ```Cpp
 bool flight(const Flights& f, const char* city1, const char* city2, int& cost) {
-	if (direct_flight(f, city1, city2, cost)) { return true; }
-	for (int ii{0}; ii < f.num_flights; ++ii) {
-		Flight const &ff{f.flight[ii]};
-		if (strcmp(city1, ff.from)) { continue; }
-		if (flight(f, ff.to, city2, cost)) {
-			cost += ff.cost;
-			return true;
-		}
-	}
-	return false;
+  if (direct_flight(f, city1, city2, cost)) { return true; }
+  for (int ii{0}; ii < f.num_flights; ++ii) {
+    Flight const &ff{f.flight[ii]};
+    if (strcmp(city1, ff.from)) { continue; }
+    if (flight(f, ff.to, city2, cost)) {
+      cost += ff.cost;
+      return true;
+    }
+  }
+  return false;
 }
 ```
 
@@ -196,13 +196,13 @@ bool flight(const Flights& f, const char* city1, const char* city2, int& cost) {
 
 ```Cpp
 void delete_flights(Flights& f) {
-	delete[] f.flight;
-	f.num_flights = 0;
-	for (int ii{0}; ii < f.num_cities; ++ii) {
-		delete[] f.city[ii];
-	}
-	delete[] f.city;
-	f.num_cities = 0;
+  delete[] f.flight;
+  f.num_flights = 0;
+  for (int ii{0}; ii < f.num_cities; ++ii) {
+    delete[] f.city[ii];
+  }
+  delete[] f.city;
+  f.num_cities = 0;
 }
 ```
 
@@ -212,9 +212,9 @@ void delete_flights(Flights& f) {
 
 ```Cpp
 int height(const btnode* root) {
-	if (root == nullptr) { return 0; }
-	int left{height(root->left)}, right{height(root->right)};
-	return 1 + (left > right ? left : right);
+  if (root == nullptr) { return 0; }
+  int left{height(root->left)}, right{height(root->right)};
+  return 1 + (left > right ? left : right);
 }
 ```
 
@@ -222,12 +222,12 @@ int height(const btnode* root) {
 
 ```Cpp
 void one_level_2_array(const btnode* root, int array[], int& index, int level) {
-	if (level == 1) {
-		array[index++] = root->data;
-		return;
-	}
-	one_level_2_array(root->left, array, index, level - 1);
-	one_level_2_array(root->right, array, index, level - 1);
+  if (level == 1) {
+    array[index++] = root->data;
+    return;
+  }
+  one_level_2_array(root->left, array, index, level - 1);
+  one_level_2_array(root->right, array, index, level - 1);
 }
 ```
 
@@ -235,10 +235,10 @@ void one_level_2_array(const btnode* root, int array[], int& index, int level) {
 
 ```Cpp
 int btree_2_array(const btnode* root, int array[]) {
-	int hh{height(root)}, idx{0};
-	for (int ii{1}; ii <= hh; ++ii) {
-		one_level_2_array(root, array, idx, ii);
-	}
-	return idx;
+  int hh{height(root)}, idx{0};
+  for (int ii{1}; ii <= hh; ++ii) {
+    one_level_2_array(root, array, idx, ii);
+  }
+  return idx;
 }
 ```

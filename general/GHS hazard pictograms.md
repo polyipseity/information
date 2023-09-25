@@ -19,23 +19,23 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('b9a823', 'dee23a'),
-	('name & pictogram', 'description',),
-	(
-		('GHS01: [explosive](explosive.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)', '',),
-		('GHS02: [flammable](flammability.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)', '',),
-		('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)', '',),
-		('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)', '',),
-		('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)', '',),
-		('GHS06: [toxic](toxicity.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)', '',),
-		('GHS07: harmful', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)', '',),
-		('GHS08: [health hazard](health%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)', '',),
-		('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)', '',),
-	),
-	lambda datum: (
-		f'{cloze(datum[0])}<br/>{cloze(datum[1].format(datum[0]))}',
-		cloze(datum[2]),
-	),
+  e.cwf_sects('b9a823', 'dee23a'),
+  ('name & pictogram', 'description',),
+  (
+    ('GHS01: [explosive](explosive.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)', '',),
+    ('GHS02: [flammable](flammability.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)', '',),
+    ('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)', '',),
+    ('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)', '',),
+    ('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)', '',),
+    ('GHS06: [toxic](toxicity.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)', '',),
+    ('GHS07: harmful', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)', '',),
+    ('GHS08: [health hazard](health%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)', '',),
+    ('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)', '',),
+  ),
+  lambda datum: (
+    f'{cloze(datum[0])}<br/>{cloze(datum[1].format(datum[0]))}',
+    cloze(datum[2]),
+  ),
 )
 ```
 %%

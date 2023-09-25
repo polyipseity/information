@@ -48,15 +48,15 @@ After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('39da', '192a'),
-	('name', 'description',),
-	(
-		('[cathodic protection](#cathodic%20protection)', '',),
-		('[coating and painting](#coating%20and%20painting)', '',),
-		('[electroplating](#electroplating)', '',),
-		('[rust-resistant alloys](#rust-resistant%20alloys)', '',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('39da', '192a'),
+  ('name', 'description',),
+  (
+    ('[cathodic protection](#cathodic%20protection)', '',),
+    ('[coating and painting](#coating%20and%20painting)', '',),
+    ('[electroplating](#electroplating)', '',),
+    ('[rust-resistant alloys](#rust-resistant%20alloys)', '',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

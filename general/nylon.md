@@ -29,20 +29,20 @@ Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('bba2', 'd83e'),
-	('property', 'description',),
-	(
-		('dyeable', '',),
-		('elastic', '',),
-		('high tensile strength', '',),
-		('oil-proof', '',),
-		('smooth', '',),
-		('[strong](strength%20of%20materials.md)', '',),
-		('[tough](toughness.md)', '',),
-		('washable', '',),
-		('[waterproof](waterproof.md)', '',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('bba2', 'd83e'),
+  ('property', 'description',),
+  (
+    ('dyeable', '',),
+    ('elastic', '',),
+    ('high tensile strength', '',),
+    ('oil-proof', '',),
+    ('smooth', '',),
+    ('[strong](strength%20of%20materials.md)', '',),
+    ('[tough](toughness.md)', '',),
+    ('washable', '',),
+    ('[waterproof](waterproof.md)', '',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

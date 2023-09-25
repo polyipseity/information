@@ -23,16 +23,16 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('320d', 'f123'),
-	('name', 'description',),
-	(
-		('aircraft bodies', '[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)',),
-		('kitchen foil', '[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)',),
-		('overhead power cables', '[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap',),
-		('soft drink cans', '[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)',),
-		('window frames', '[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)',),
-	),
-	lambda data: map(cloze, data),
+  e.cwf_sects('320d', 'f123'),
+  ('name', 'description',),
+  (
+    ('aircraft bodies', '[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)',),
+    ('kitchen foil', '[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)',),
+    ('overhead power cables', '[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap',),
+    ('soft drink cans', '[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)',),
+    ('window frames', '[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)',),
+  ),
+  lambda data: map(cloze, data),
 )
 ```
 %%

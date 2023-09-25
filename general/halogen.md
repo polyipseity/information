@@ -35,15 +35,15 @@ Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.m
 e = __env__
 i_or_below = 'reacts partially; virtually no reaction'
 return await memorize_map(
-	e.cwf_sects('49d8', '2394', '6900'),
-	items_to_map(
-		('[fluorine](fluorine.md)', 'reacts explosively in the dark and cold',),
-		('[chlorine](chlorine.md)', 'reacts explosively in light and heat; slowly without',),
-		('[bromine](bromine.md)', 'reacts explosively in flames; moderately in light and heat',),
-		('[iodine](iodine.md)', i_or_below,),
-		('[astatine](astatine.md)', i_or_below,),
-		('[tennessine](tennessine.md)', 'unknown',),
-	),
+  e.cwf_sects('49d8', '2394', '6900'),
+  items_to_map(
+    ('[fluorine](fluorine.md)', 'reacts explosively in the dark and cold',),
+    ('[chlorine](chlorine.md)', 'reacts explosively in light and heat; slowly without',),
+    ('[bromine](bromine.md)', 'reacts explosively in flames; moderately in light and heat',),
+    ('[iodine](iodine.md)', i_or_below,),
+    ('[astatine](astatine.md)', i_or_below,),
+    ('[tennessine](tennessine.md)', 'unknown',),
+  ),
 )
 ```
 %%

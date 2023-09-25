@@ -58,15 +58,15 @@ Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly usi
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('f23a', 'dd11'),
-	('name', 'description',),
-	(
-		('[dehydration](#dehydration)', '',),
-		('[esterification](#esterification)', '',),
-		('[nucleophilic substitution](#nucleophilic%20substitution)', '',),
-		('[reduction](#reduction)', '',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('f23a', 'dd11'),
+  ('name', 'description',),
+  (
+    ('[dehydration](#dehydration)', '',),
+    ('[esterification](#esterification)', '',),
+    ('[nucleophilic substitution](#nucleophilic%20substitution)', '',),
+    ('[reduction](#reduction)', '',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

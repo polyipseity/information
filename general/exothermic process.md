@@ -23,13 +23,13 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('d924', 'abba'),
-	(
-		'all [combustion reactions](combustion.md)',
-		'all [neutralization reactions](neutralization%20(chemistry).md)',
-		'all [precipitation reactions](precipitation%20(chemistry).md)',
-		'[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)',
-	),
+  e.cwf_sects('d924', 'abba'),
+  (
+    'all [combustion reactions](combustion.md)',
+    'all [neutralization reactions](neutralization%20(chemistry).md)',
+    'all [precipitation reactions](precipitation%20(chemistry).md)',
+    '[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)',
+  ),
 )
 ```
 %%

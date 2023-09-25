@@ -18,7 +18,7 @@ tags:
 - definition: a homogeneous thick rod {{of density $\rho$, length $L$, and radius $R$}}, axis through one end
 - equation: {{$I=\frac13ML^2+\frac14MR^2$}}
 - proof:
-	- okay coordinates ([cylindrical coordinates](../general/cylindrical%20coordinate%20system.md)) proof: $$\begin{aligned}
+  - okay coordinates ([cylindrical coordinates](../general/cylindrical%20coordinate%20system.md)) proof: $$\begin{aligned}
 M&=\rho\pi{}R^2L\\
 I&=\int_0^L\int_0^R\int_0^{2\pi}\rho\left(r^2\cos^2\theta+z^2\right)r\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
 &=\rho\int_0^L\int_0^R\int_0^{2\pi}\left(\frac12r^3+\frac12r^3\cos2\theta+rz^2\right)\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
@@ -30,7 +30,7 @@ I&=\int_0^L\int_0^R\int_0^{2\pi}\rho\left(r^2\cos^2\theta+z^2\right)r\,\mathrm{d
 &=\frac14\pi\rho{}R^4L+\frac13\pi\rho{}R^2L^3\\
 &=\frac14MR^2+\frac13ML^2
 \end{aligned}$$
-	- shitty coordinates ([Cartesian coordinates](../general/Cartesian%20coordinate%20system.md)) proof: $$\begin{aligned}
+  - shitty coordinates ([Cartesian coordinates](../general/Cartesian%20coordinate%20system.md)) proof: $$\begin{aligned}
 M&=\rho\pi{}R^2L\\
 I&=\int_0^L2\int_0^R2\rho\sqrt{R^2-r^2}\left(r^2+l^2\right)\,\mathrm{d}r\,\mathrm{d}l\\
 &=4\rho\int_0^L\left(\int_0^Rr^2\sqrt{R^2-r^2}\,\mathrm{d}r+l^2\int_0^R\sqrt{R^2-r^2}\,\mathrm{d}r\right)\,\mathrm{d}l\\

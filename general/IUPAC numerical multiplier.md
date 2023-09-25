@@ -22,29 +22,29 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	e.cwf_sects('b9de', '3384', 'dd92'),
-	{
-		'1': 'mono-',
-		'2': 'di-',
-		'3': 'tri-',
-		'4': 'tetra-',
-		'5': 'penta-',
-		'6': 'hexa-',
-		'7': 'hepta-',
-		'8': 'octa-',
-		'9': 'nona-',
-		'10': 'deca-',
-		'11': 'undeca-',
-		'12': 'dodeca-',
-		'13': 'trideca-',
-		'14': 'tetradeca-',
-		'15': 'pentadeca-',
-		'16': 'hexadeca-',
-		'17': 'heptadeca-',
-		'18': 'octadeca-',
-		'19': 'nonadeca-',
-		'20': 'icosa-',
-	}
+  e.cwf_sects('b9de', '3384', 'dd92'),
+  {
+    '1': 'mono-',
+    '2': 'di-',
+    '3': 'tri-',
+    '4': 'tetra-',
+    '5': 'penta-',
+    '6': 'hexa-',
+    '7': 'hepta-',
+    '8': 'octa-',
+    '9': 'nona-',
+    '10': 'deca-',
+    '11': 'undeca-',
+    '12': 'dodeca-',
+    '13': 'trideca-',
+    '14': 'tetradeca-',
+    '15': 'pentadeca-',
+    '16': 'hexadeca-',
+    '17': 'heptadeca-',
+    '18': 'octadeca-',
+    '19': 'nonadeca-',
+    '20': 'icosa-',
+  }
 )
 ```
 %%

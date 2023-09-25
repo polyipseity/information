@@ -22,12 +22,12 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects("d93d", "3ffa"),
-	(
-		"No duplicated data. To deduplicate data, move them to a new table.",
-		"Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.",
-		'Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".',
-	),
+  e.cwf_sects("d93d", "3ffa"),
+  (
+    "No duplicated data. To deduplicate data, move them to a new table.",
+    "Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.",
+    'Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".',
+  ),
 )
 ```
 %%

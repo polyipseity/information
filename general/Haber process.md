@@ -38,12 +38,12 @@ The primary reaction is:
 e = __env__
 context = '[natural gas](natural%20gas.md) to [hydrogen](hydrogen.md)'
 return await memorize_seq(
-	e.cwf_sects('d85a', '4956',),
-	(
-		R'[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$',
-		R'[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$',
-	),
-	pretext=context, posttext=context,
+  e.cwf_sects('d85a', '4956',),
+  (
+    R'[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$',
+    R'[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$',
+  ),
+  pretext=context, posttext=context,
 )
 ```
 %%
@@ -86,17 +86,17 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 e = __env__
 context = 'large scale implementation of the Haber process'
 return await memorize_seq(
-	e.cwf_sects('ff91', '485b',),
-	(
-		'Purify and dry [syngas](syngas.md) in purifiers and driers.',
-		'Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.',
-		'The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).',
-		'The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).',
-		'The gas mixture enters catalytic chambers for reaction.',
-		'The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams.',
-		'The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md).',
-	),
-	pretext=context, posttext=context,
+  e.cwf_sects('ff91', '485b',),
+  (
+    'Purify and dry [syngas](syngas.md) in purifiers and driers.',
+    'Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.',
+    'The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).',
+    'The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).',
+    'The gas mixture enters catalytic chambers for reaction.',
+    'The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams.',
+    'The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md).',
+  ),
+  pretext=context, posttext=context,
 )
 ```
 %%

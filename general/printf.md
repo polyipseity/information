@@ -25,26 +25,26 @@ from pytextgen.gen import text
 from pytextgen.util import Result
 e = __env__
 def link(name: str):
-	return f"[{name}](#{name})"
+  return f"[{name}](#{name})"
 def opt(string: str):
-	return Rf"\[{string}\]"
+  return Rf"\[{string}\]"
 components = [
-	opt(link("parameter")),
-	opt(link("flags")),
-	opt(link("width")),
-	opt(f".{link('precision')}"),
-	opt(link("length")),
-	link("type"),
+  opt(link("parameter")),
+  opt(link("flags")),
+  opt(link("width")),
+  opt(f".{link('precision')}"),
+  opt(link("length")),
+  link("type"),
 ]
 return (
-	Result(
-		location=e.cwf_sect("b23d"),
-		text=text(f"<code>%{''.join(components)}</code>"),
-	),
-	*await memorize_seq(
-		e.cwf_sects("49bd", "ee2f"),
-		components,
-	),
+  Result(
+    location=e.cwf_sect("b23d"),
+    text=text(f"<code>%{''.join(components)}</code>"),
+  ),
+  *await memorize_seq(
+    e.cwf_sects("49bd", "ee2f"),
+    components,
+  ),
 )
 ```
 %%
@@ -88,13 +88,13 @@ return (
 from functools import partial
 e = __env__
 options = {
-	"_n_$": "([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier",
+  "_n_$": "([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier",
 }
 return await memorize_table(
-	e.cwf_sects("f192", "c19d"),
-	("character", "description"),
-	options.items(),
-	partial(map, cloze),
+  e.cwf_sects("f192", "c19d"),
+  ("character", "description"),
+  options.items(),
+  partial(map, cloze),
 )
 ```
 %%
@@ -122,17 +122,17 @@ return await memorize_table(
 from functools import partial
 e = __env__
 options = {
-	"  (space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
-	R"\#": "use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`",
-	"+": 'prepend + before positive numbers',
-	"-": "align left",
-	"0": "prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`",
+  "  (space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
+  R"\#": "use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`",
+  "+": 'prepend + before positive numbers',
+  "-": "align left",
+  "0": "prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`",
 }
 return await memorize_table(
-	e.cwf_sects("ff12", "123d"),
-	("character", "description"),
-	options.items(),
-	partial(map, cloze),
+  e.cwf_sects("ff12", "123d"),
+  ("character", "description"),
+  options.items(),
+  partial(map, cloze),
 )
 ```
 %%
@@ -178,20 +178,20 @@ An integer or {{`*` specifying the precision, the meaning of which depends on th
 from functools import partial
 e = __env__
 options = {
-	"L": "`long double`-sized float",
-	"h": "`short`-sized integer",
-	"hh": "`char`-sized integer",
-	"j": "`intmax_t`-sized integer",
-	"l": "`long`-sized integer; `double`-sized (ignored for) float",
-	"ll": "`long long`-sized integer",
-	"t": "`ptrdiff_t`-sized integer",
-	"z": "`size_t`-sized integer",
+  "L": "`long double`-sized float",
+  "h": "`short`-sized integer",
+  "hh": "`char`-sized integer",
+  "j": "`intmax_t`-sized integer",
+  "l": "`long`-sized integer; `double`-sized (ignored for) float",
+  "ll": "`long long`-sized integer",
+  "t": "`ptrdiff_t`-sized integer",
+  "z": "`size_t`-sized integer",
 }
 return await memorize_table(
-	e.cwf_sects("3052", "beff"),
-	("character", "description"),
-	options.items(),
-	partial(map, cloze),
+  e.cwf_sects("3052", "beff"),
+  ("character", "description"),
+  options.items(),
+  partial(map, cloze),
 )
 ```
 %%
@@ -235,25 +235,25 @@ A combination of zero or more of the following in any order:
 from functools import partial
 e = __env__
 options = {
-	"%": "literal %; rejects all other options",
-	"a, A": "float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result",
-	"c": "character",
-	"d, i": "signed integer into decimal; [precision](#precision), by default 1, is the minimum number of digits; `i` can interpret octals and heximals when used with [`scanf`](scanf.md)",
-	"e, E": "float into decimal exponential; [precision](#precision), by default 6, is the number of digits after the decimal point; `E` capitalizes the result",
-	"f, F": "float into [fixed-point](fixed-point%20arithmetic.md) decimal; [precision](#precision), by default 6, is the number of digitals after the decimal point; `F` capitalizes the result",
-	"g, G": "`f` if [precision](#precision) > exponent ≥ -4 and `e` otherwise, removing trailing zeros; [precision](#precision), by default 6 and 1 if 0, is the maximum number of significant figures; `G` capitalizes the result",
-	"n": "prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)",
-	"o": "unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits",
-	"p": "pointer (`void*`) into an implementation-defined format",
-	"s": "string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the first [null terminator](null-terminated%20string.md) is used",
-	"u": "unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits",
-	"x, X": "unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result",
+  "%": "literal %; rejects all other options",
+  "a, A": "float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result",
+  "c": "character",
+  "d, i": "signed integer into decimal; [precision](#precision), by default 1, is the minimum number of digits; `i` can interpret octals and heximals when used with [`scanf`](scanf.md)",
+  "e, E": "float into decimal exponential; [precision](#precision), by default 6, is the number of digits after the decimal point; `E` capitalizes the result",
+  "f, F": "float into [fixed-point](fixed-point%20arithmetic.md) decimal; [precision](#precision), by default 6, is the number of digitals after the decimal point; `F` capitalizes the result",
+  "g, G": "`f` if [precision](#precision) > exponent ≥ -4 and `e` otherwise, removing trailing zeros; [precision](#precision), by default 6 and 1 if 0, is the maximum number of significant figures; `G` capitalizes the result",
+  "n": "prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)",
+  "o": "unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits",
+  "p": "pointer (`void*`) into an implementation-defined format",
+  "s": "string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the first [null terminator](null-terminated%20string.md) is used",
+  "u": "unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits",
+  "x, X": "unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result",
 }
 return await memorize_table(
-	e.cwf_sects("40db", "45dd"),
-	("character", "description"),
-	options.items(),
-	partial(map, cloze),
+  e.cwf_sects("40db", "45dd"),
+  ("character", "description"),
+  options.items(),
+  partial(map, cloze),
 )
 ```
 %%

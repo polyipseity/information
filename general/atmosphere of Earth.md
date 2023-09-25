@@ -19,36 +19,36 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
-	fR'[N<sub>2</sub>](nitrogen.md){{{gen.Tag.TEXT}:\: 78.084%}}',
-	fR'[O<sub>2</sub>](oxygen.md){{{gen.Tag.TEXT}:\: 20.946%}}',
-	fR'[Ar](argon.md){{{gen.Tag.TEXT}:\: 0.9340%}}',
-	fR'[CO<sub>2</sub>](carbon%20dioxide.md){{{gen.Tag.TEXT}:\: 0.0417% (2022-04-xx)}}',
-	f'{{{gen.Tag.TEXT}:_others_}}{{{gen.Tag.MEMORIZE}:_others_}}{{{Tags.MEMORIZE_LINKED}:_others_}}',),
-	index=1,
-	prefix=f'{{{Tags.MEMORIZE_LINKED}:_(begin)_}}',
-	suffix=f'{{{Tags.MEMORIZE_LINKED}:_(end)_}}',)
+  fR'[N<sub>2</sub>](nitrogen.md){{{gen.Tag.TEXT}:\: 78.084%}}',
+  fR'[O<sub>2</sub>](oxygen.md){{{gen.Tag.TEXT}:\: 20.946%}}',
+  fR'[Ar](argon.md){{{gen.Tag.TEXT}:\: 0.9340%}}',
+  fR'[CO<sub>2</sub>](carbon%20dioxide.md){{{gen.Tag.TEXT}:\: 0.0417% (2022-04-xx)}}',
+  f'{{{gen.Tag.TEXT}:_others_}}{{{gen.Tag.MEMORIZE}:_others_}}{{{Tags.MEMORIZE_LINKED}:_others_}}',),
+  index=1,
+  prefix=f'{{{Tags.MEMORIZE_LINKED}:_(begin)_}}',
+  suffix=f'{{{Tags.MEMORIZE_LINKED}:_(end)_}}',)
 sem: gen.TextCode = gen.TextCode.compile(
-	'''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
+  '''78.084%{}20.946%{}0.9340%{}0.0417% (2022-04-xx)'''
 )
 return (
-	util.Result(
-		location=__env__.cwf_sect('a34f1d'),
-		text=gen.quote_text(data),
-	),
-	util.Result(
-		location=__env__.cwf_sect('123480'),
-		text=gen.memorize_linked_seq(data,
-			tag='mem lnk',
-			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_sect('123480')),
-		),
-	),
-	util.Result(
-		location=__env__.cwf_sect('1ad236'),
-		text=gen.semantics_seq_map(data, sem,
-			states=await read.read_flashcard_states(__env__.cwf_sect('1ad236')),
-		),
-	),
+  util.Result(
+    location=__env__.cwf_sect('a34f1d'),
+    text=gen.quote_text(data),
+  ),
+  util.Result(
+    location=__env__.cwf_sect('123480'),
+    text=gen.memorize_linked_seq(data,
+      tag='mem lnk',
+      hinted=False,
+      states=await read.read_flashcard_states(__env__.cwf_sect('123480')),
+    ),
+  ),
+  util.Result(
+    location=__env__.cwf_sect('1ad236'),
+    text=gen.semantics_seq_map(data, sem,
+      states=await read.read_flashcard_states(__env__.cwf_sect('1ad236')),
+    ),
+  ),
 )
 ```
 %%
