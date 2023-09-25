@@ -23,15 +23,15 @@ The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) an
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('d894', '4051',),
-	(
-		'[hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md)',
-		'microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C',
-		'[protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md)',
-		'[organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid',
-		'ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)',
-		'purification of [ʟ-ascorbic acid](vitamin%20C.md)',
-	),
+  e.cwf_sects('d894', '4051',),
+  (
+    '[hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md)',
+    'microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C',
+    '[protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md)',
+    '[organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid',
+    'ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)',
+    'purification of [ʟ-ascorbic acid](vitamin%20C.md)',
+  ),
 )
 ```
 %%

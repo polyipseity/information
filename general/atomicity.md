@@ -23,13 +23,13 @@ __Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	e.cwf_sects('f9d1', '049e', '384d'),
-	{
-		'[monatomic](monoatomic%20molecule.md)': ('all [noble gases](noble%20gas.md)', 'Ar ([argon](argon.md))',),
-		'[diatomic](diatomic%20molecule.md)': ('Cl<sub>2</sub> ([chlorine](chlorine.md))', 'H<sub>2</sub> ([hydrogen](hydrogen.md))', 'N<sub>2</sub> ([nitrogen](nitrogen.md))', 'O<sub>2</sub> ([oxygen](oxygen.md))',),
-		'[triatomic](triatomic%20molecule.md)': ('O<sub>3</sub> ([ozone](ozone.md))',),
-		'polyatomic': ('P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))', 'S<sub>8</sub> ([sulfur](sulfur.md))',),
-	},
+  e.cwf_sects('f9d1', '049e', '384d'),
+  {
+    '[monatomic](monoatomic%20molecule.md)': ('all [noble gases](noble%20gas.md)', 'Ar ([argon](argon.md))',),
+    '[diatomic](diatomic%20molecule.md)': ('Cl<sub>2</sub> ([chlorine](chlorine.md))', 'H<sub>2</sub> ([hydrogen](hydrogen.md))', 'N<sub>2</sub> ([nitrogen](nitrogen.md))', 'O<sub>2</sub> ([oxygen](oxygen.md))',),
+    '[triatomic](triatomic%20molecule.md)': ('O<sub>3</sub> ([ozone](ozone.md))',),
+    'polyatomic': ('P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))', 'S<sub>8</sub> ([sulfur](sulfur.md))',),
+  },
 )
 ```
 %%

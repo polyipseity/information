@@ -28,13 +28,13 @@ A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('aa02', '2845'),
-	(
-		'conditions are not standard conditions',
-		'heat capacities of equipment are not accounted for',
-		'heat loss to the surroundings',
-		'reaction is incomplete',
-	),
+  e.cwf_sects('aa02', '2845'),
+  (
+    'conditions are not standard conditions',
+    'heat capacities of equipment are not accounted for',
+    'heat loss to the surroundings',
+    'reaction is incomplete',
+  ),
 )
 ```
 %%

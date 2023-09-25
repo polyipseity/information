@@ -18,13 +18,13 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('bab829', '9387dd'),
-	('name', 'description',),
-	(
-		('[construction](construction.md)', '[statue](statue.md)',),
-		('[glass making](glass%20making.md)', 'manufacturing of [soda–lime glass](soda–lime%20glass.md)',),
-		('raw material', '[cement](cement.md)',),
-	),
+  e.cwf_sects('bab829', '9387dd'),
+  ('name', 'description',),
+  (
+    ('[construction](construction.md)', '[statue](statue.md)',),
+    ('[glass making](glass%20making.md)', 'manufacturing of [soda–lime glass](soda–lime%20glass.md)',),
+    ('raw material', '[cement](cement.md)',),
+  ),
 )
 ```
 

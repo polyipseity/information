@@ -23,13 +23,13 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('3455', 'dd21'),
-	('name', 'description',),
-	(
-		('[desiccant](desiccant.md)', 'The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.',),
-		('[separation](separation%20process.md)', 'The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('3455', 'dd21'),
+  ('name', 'description',),
+  (
+    ('[desiccant](desiccant.md)', 'The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.',),
+    ('[separation](separation%20process.md)', 'The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

@@ -37,14 +37,14 @@ Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('d929', 'afb9'),
-	(
-		'+: efficiency as high as 70%',
-		'+: operate continuously, producing a stable supply of [electricity](electricity.md)',
-		'+: products, which consist of [water](water.md), are clean',
-		'-: expensive',
-		'-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult',
-	),
+  e.cwf_sects('d929', 'afb9'),
+  (
+    '+: efficiency as high as 70%',
+    '+: operate continuously, producing a stable supply of [electricity](electricity.md)',
+    '+: products, which consist of [water](water.md), are clean',
+    '-: expensive',
+    '-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult',
+  ),
 )
 ```
 %%
@@ -77,13 +77,13 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('2939', '2901'),
-	(
-		'auxiliary heat and water source',
-		'backup power source',
-		'[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)',
-		'remote power source',
-	),
+  e.cwf_sects('2939', '2901'),
+  (
+    'auxiliary heat and water source',
+    'backup power source',
+    '[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)',
+    'remote power source',
+  ),
 )
 ```
 %%

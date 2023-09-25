@@ -22,17 +22,17 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('b928', '029e'),
-	('periodic property', 'across the period', 'down the group',),
-	(
-		('[atomic radius](#atomic%20radius)', 'decreases', 'increases',),
-		('[electron affinity](#electron%20affinity)', 'increases', 'fluctuates',),
-		('[electronegativity](#electronegativity)', 'increases', 'decreases',),
-		('[ionization energy](#ionization%20energy)', 'increases', 'decreases',),
-		('[metallic character](#metallic%20character)', 'decreases', 'increases',),
-		('[valence](#valence)', 'increases, then decreases', 'constant',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('b928', '029e'),
+  ('periodic property', 'across the period', 'down the group',),
+  (
+    ('[atomic radius](#atomic%20radius)', 'decreases', 'increases',),
+    ('[electron affinity](#electron%20affinity)', 'increases', 'fluctuates',),
+    ('[electronegativity](#electronegativity)', 'increases', 'decreases',),
+    ('[ionization energy](#ionization%20energy)', 'increases', 'decreases',),
+    ('[metallic character](#metallic%20character)', 'decreases', 'increases',),
+    ('[valence](#valence)', 'increases, then decreases', 'constant',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
