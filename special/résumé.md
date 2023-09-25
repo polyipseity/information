@@ -16,7 +16,7 @@ tags:
 ## layout
 
 - length: {{about 5 pages}}
-	- some loves (requires) 1 page
+  - some loves (requires) 1 page
 - line spacing: {{single}}
 
 ## skills

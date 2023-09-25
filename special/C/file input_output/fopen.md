@@ -40,18 +40,18 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 from functools import partial
 e = __env__
 options = {
-	"a": "append",
-	"a+": "append extended",
-	"r": "read",
-	"r+": "read extended",
-	"w": "write",
-	"w+": "write extended",
+  "a": "append",
+  "a+": "append extended",
+  "r": "read",
+  "r+": "read extended",
+  "w": "write",
+  "w+": "write extended",
 }
 return await memorize_table(
-	e.cwf_sects("ee2f", "b23d"),
-	("character", "description"),
-	options.items(),
-	partial(map, cloze),
+  e.cwf_sects("ee2f", "b23d"),
+  ("character", "description"),
+  options.items(),
+  partial(map, cloze),
 )
 ```
 %%

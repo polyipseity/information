@@ -21,13 +21,13 @@ The test involves {{introducing the sample into a hot, non-luminous flame and ob
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('abcdef', 'bd92ec'),
-	(
-		'Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).',
-		'Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).',
-		'Heat the end of the wire in a hot, non-luminous flame.',
-		'Observe the color of the resulting flame.',
-	),
+  e.cwf_sects('abcdef', 'bd92ec'),
+  (
+    'Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).',
+    'Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).',
+    'Heat the end of the wire in a hot, non-luminous flame.',
+    'Observe the color of the resulting flame.',
+  ),
 )
 ```
 %%
@@ -58,17 +58,17 @@ return await memorize_seq(
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_map(
-	e.cwf_sects('4905', '2837ca', 'b8283e'),
-	{
-		'[calcium](calcium.md)': ('brick red', 'light green (through [cobalt blue glass](cobalt%20glass.md))',),
-		'[copper](copper.md)(I)': ('blue-green',),
-		'[copper](copper.md)(II)': ('green (non-halide)', 'blue-green (halide)',),
-		'[iron](iron.md)(II)': ('blue (very hot)', 'gold', 'green to orange-brown', 'sparks'),
-		'[iron](iron.md)(III)': ('orange-brown',),
-		'[magnesium](magnesium.md)': ('intense white',),
-		'[potassium](potassium.md)': ('lilac', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
-		'[sodium](sodium.md)': ('intense yellow', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
-	},
+  e.cwf_sects('4905', '2837ca', 'b8283e'),
+  {
+    '[calcium](calcium.md)': ('brick red', 'light green (through [cobalt blue glass](cobalt%20glass.md))',),
+    '[copper](copper.md)(I)': ('blue-green',),
+    '[copper](copper.md)(II)': ('green (non-halide)', 'blue-green (halide)',),
+    '[iron](iron.md)(II)': ('blue (very hot)', 'gold', 'green to orange-brown', 'sparks'),
+    '[iron](iron.md)(III)': ('orange-brown',),
+    '[magnesium](magnesium.md)': ('intense white',),
+    '[potassium](potassium.md)': ('lilac', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
+    '[sodium](sodium.md)': ('intense yellow', 'invisible (through [cobalt blue glass](cobalt%20glass.md))',),
+  },
 )
 ```
 %%

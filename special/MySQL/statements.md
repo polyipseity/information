@@ -23,13 +23,13 @@ tags:
 ## common expressions
 
 - `alter_option`
-	- {{`ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)`}}: {{add an index indexed by `key_part` using the specified algorithm}}
+  - {{`ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)`}}: {{add an index indexed by `key_part` using the specified algorithm}}
 - `create_definition`
-	- {{`column_name column_definition`}}: {{define a column named `column_name` with the definition `column_definition`}}
-	- {{`{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)`}}: {{an index indexed by `key_part` using the specified algorithm}}
-	- {{`PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)`}}: {{a unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm}}
+  - {{`column_name column_definition`}}: {{define a column named `column_name` with the definition `column_definition`}}
+  - {{`{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)`}}: {{an index indexed by `key_part` using the specified algorithm}}
+  - {{`PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)`}}: {{a unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm}}
 - `select_expression`
-	- {{`*`}}: {{select all columns}}
-	- {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
+  - {{`*`}}: {{select all columns}}
+  - {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
 - `table_reference`
-	- {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}}
+  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}}

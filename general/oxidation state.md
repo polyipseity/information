@@ -14,31 +14,31 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
-		R'element in a free form\: 0',
-		R'ionic compound or ion\: _charge_',
-		R'fluorine\: -1',
-		R'(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine\: -1',
-		R'group I metal\: +1',
-		R'group II metal\: +2',
-		R'metallic hydride\: -1',
-		R'hydrogen\: +1',
-		R'(if not bonded to oxygen or flourine) oxygen\: -2',
-	),
-	index=1,
-	prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
-	suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
+    R'element in a free form\: 0',
+    R'ionic compound or ion\: _charge_',
+    R'fluorine\: -1',
+    R'(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine\: -1',
+    R'group I metal\: +1',
+    R'group II metal\: +2',
+    R'metallic hydride\: -1',
+    R'hydrogen\: +1',
+    R'(if not bonded to oxygen or flourine) oxygen\: -2',
+  ),
+  index=1,
+  prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
+  suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 return (
-	util.Result(
-		location=__env__.cwf_sect('2d99fe'),
-		text=gen.quote_text(data),
-	),
-	util.Result(
-		location=__env__.cwf_sect('341d9e'),
-		text=gen.memorize_linked_seq(data,
-			hinted=False,
-			states=await read.read_flashcard_states(__env__.cwf_sect('341d9e')),
-		),
-	),
+  util.Result(
+    location=__env__.cwf_sect('2d99fe'),
+    text=gen.quote_text(data),
+  ),
+  util.Result(
+    location=__env__.cwf_sect('341d9e'),
+    text=gen.memorize_linked_seq(data,
+      hinted=False,
+      states=await read.read_flashcard_states(__env__.cwf_sect('341d9e')),
+    ),
+  ),
 )
 ```
 %%

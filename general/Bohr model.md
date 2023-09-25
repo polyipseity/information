@@ -58,15 +58,15 @@ The energy of a photon emitted by a hydrogen atom is:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('0692', '3810',),
-	('name', 'description',),
-	(
-		('[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines', '',),
-		(R'reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)', '',),
-		('relative brightness of spectral lines', '',),
-		('spectra of [atoms](atom.md) with multiple [electrons](electron.md)', '',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('0692', '3810',),
+  ('name', 'description',),
+  (
+    ('[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines', '',),
+    (R'reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)', '',),
+    ('relative brightness of spectral lines', '',),
+    ('spectra of [atoms](atom.md) with multiple [electrons](electron.md)', '',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

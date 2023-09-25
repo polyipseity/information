@@ -22,14 +22,14 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('d828', '295f'),
-	('type', 'description',),
-	(
-		('[aromatic hydrocarbons](aromatic%20compound.md)', 'Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).',),
-		('[saturated hydrocarbons](saturated%20hydrocarbon.md)', 'Hydrocarbons that have [single bonds](single%20bond.md) only.',),
-		('[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)', 'Hydrocarbons that have [multiple bonds](bond%20order.md).',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('d828', '295f'),
+  ('type', 'description',),
+  (
+    ('[aromatic hydrocarbons](aromatic%20compound.md)', 'Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).',),
+    ('[saturated hydrocarbons](saturated%20hydrocarbon.md)', 'Hydrocarbons that have [single bonds](single%20bond.md) only.',),
+    ('[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)', 'Hydrocarbons that have [multiple bonds](bond%20order.md).',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

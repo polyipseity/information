@@ -29,14 +29,14 @@ A __molecular solid__, also called __simple molecular structure__, {{consists of
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('9d9d'), NULL_LOCATION,),
-	('property', 'description',),
-	(
-		('[electrical conductivity](electrical%20conductivity.md)', 'low',),
-		('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'low',),
-		('[strength](strength%20of%20materials.md)', 'low',),
-	),
-	lambda datum: map(cloze, datum),
+  (e.cwf_sect('9d9d'), NULL_LOCATION,),
+  ('property', 'description',),
+  (
+    ('[electrical conductivity](electrical%20conductivity.md)', 'low',),
+    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'low',),
+    ('[strength](strength%20of%20materials.md)', 'low',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -63,15 +63,15 @@ A __network covalent solid__, also called __giant covalent structure__, {{consis
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('357d'), NULL_LOCATION,),
-	('property', 'description',),
-	(
-		('[brittleness](brittleness.md)', 'high',),
-		('[electrical conductivity](electrical%20conductivity.md)', 'low ([graphite](graphite.md): high)',),
-		('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
-		('[strength](strength%20of%20materials.md)', 'high ([graphite](graphite.md): low)',),
-	),
-	lambda datum: map(cloze, datum),
+  (e.cwf_sect('357d'), NULL_LOCATION,),
+  ('property', 'description',),
+  (
+    ('[brittleness](brittleness.md)', 'high',),
+    ('[electrical conductivity](electrical%20conductivity.md)', 'low ([graphite](graphite.md): high)',),
+    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
+    ('[strength](strength%20of%20materials.md)', 'high ([graphite](graphite.md): low)',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -99,15 +99,15 @@ A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](a
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('5460'), NULL_LOCATION,),
-	('property', 'description',),
-	(
-		('[brittleness](brittleness.md)', 'high',),
-		('[electrical conductivity](electrical%20conductivity.md)', 'high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low',),
-		('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
-		('[strength](strength%20of%20materials.md)', 'high',),
-	),
-	lambda datum: map(cloze, datum),
+  (e.cwf_sect('5460'), NULL_LOCATION,),
+  ('property', 'description',),
+  (
+    ('[brittleness](brittleness.md)', 'high',),
+    ('[electrical conductivity](electrical%20conductivity.md)', 'high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low',),
+    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
+    ('[strength](strength%20of%20materials.md)', 'high',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
@@ -135,16 +135,16 @@ A __metallic solid__, also called __giant metallic structure__, {{consists of [m
 from pytextgen.util import NULL_LOCATION
 e = __env__
 return await memorize_table(
-	(e.cwf_sect('435d'), NULL_LOCATION,),
-	('property', 'description',),
-	(
-		('[ductility](ductility.md)', 'high',),
-		('[electrical conductivity](electrical%20conductivity.md)', 'high',),
-		('[malleability](malleability.md)', 'high',),
-		('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
-		('[thermal conductivity](thermal%20conductivity.md)', 'high',),
-	),
-	lambda datum: map(cloze, datum),
+  (e.cwf_sect('435d'), NULL_LOCATION,),
+  ('property', 'description',),
+  (
+    ('[ductility](ductility.md)', 'high',),
+    ('[electrical conductivity](electrical%20conductivity.md)', 'high',),
+    ('[malleability](malleability.md)', 'high',),
+    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
+    ('[thermal conductivity](thermal%20conductivity.md)', 'high',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

@@ -45,14 +45,14 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_table(
-	e.cwf_sects('dd12', '102a'),
-	('name', 'description',),
-	(
-		('[combustion](#combustion)', '',),
-		('[cracking](#cracking)', '',),
-		('[halogenation](#halogenation)', '[free radical halogenation](free-radical%20halogenation.md)',),
-	),
-	lambda datum: map(cloze, datum),
+  e.cwf_sects('dd12', '102a'),
+  ('name', 'description',),
+  (
+    ('[combustion](#combustion)', '',),
+    ('[cracking](#cracking)', '',),
+    ('[halogenation](#halogenation)', '[free radical halogenation](free-radical%20halogenation.md)',),
+  ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%

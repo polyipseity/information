@@ -25,15 +25,15 @@ A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [
 from itertools import chain
 e = __env__
 return await memorize_table(
-	e.cwf_sects('8462', '92de'),
-	('name (IUPAC/old IUPAC/old CAS)', 'IUPAC recommended trivial name',),
-	(
-		('[group 1](#^group-1)/IA/IA', '[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)', '^group-1',),
-		('[group 2](alkaline%20earth%20metal.md)/IIA/IIA', '[alkaline earth metals](alkaline%20earth%20metal.md)', None,),
-		('[group 17](halogen.md)/VIIB/VIIA', '[halogens](halogen.md)', None,),
-		('[group 18](noble%20gas.md)/0/VIIIA', '[noble gases](noble%20gas.md)', None,),
-	),
-	lambda datum: chain(map(cloze, datum[:-2]), (f'{cloze(datum[-2])}{f" {datum[-1]}" if datum[-1] else ""}',),),
+  e.cwf_sects('8462', '92de'),
+  ('name (IUPAC/old IUPAC/old CAS)', 'IUPAC recommended trivial name',),
+  (
+    ('[group 1](#^group-1)/IA/IA', '[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)', '^group-1',),
+    ('[group 2](alkaline%20earth%20metal.md)/IIA/IIA', '[alkaline earth metals](alkaline%20earth%20metal.md)', None,),
+    ('[group 17](halogen.md)/VIIB/VIIA', '[halogens](halogen.md)', None,),
+    ('[group 18](noble%20gas.md)/0/VIIIA', '[noble gases](noble%20gas.md)', None,),
+  ),
+  lambda datum: chain(map(cloze, datum[:-2]), (f'{cloze(datum[-2])}{f" {datum[-1]}" if datum[-1] else ""}',),),
 )
 ```
 %%

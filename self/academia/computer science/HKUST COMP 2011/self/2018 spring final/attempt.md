@@ -37,13 +37,13 @@ Make the function accept two references to number types in its parameters like `
 
 ```Cpp
 void swapParts(int array[], int cut, int size) {
-	for (int ii{0}; ii < cut; ++ii) {
-		int first{array[0]};
-		for (int jj{1}; jj < size; ++jj) {
-			array[jj - 1] = array[jj];
-		}
-		array[size - 1] = first;
-	}
+  for (int ii{0}; ii < cut; ++ii) {
+    int first{array[0]};
+    for (int jj{1}; jj < size; ++jj) {
+      array[jj - 1] = array[jj];
+    }
+    array[size - 1] = first;
+  }
 }
 ```
 
@@ -51,14 +51,14 @@ void swapParts(int array[], int cut, int size) {
 
 ```Cpp
 void fun(int arr[], int size) {
-	int ii{0};
-	for (; ii < size / 2; ++ii) {
-		int product{arr[ii] * arr[size - 1 - ii]};
-		arr[ii] = arr[size - 1 - ii] = product;
-	}
-	if (size % 2) {
-		arr[ii] *= arr[ii];
-	}
+  int ii{0};
+  for (; ii < size / 2; ++ii) {
+    int product{arr[ii] * arr[size - 1 - ii]};
+    arr[ii] = arr[size - 1 - ii] = product;
+  }
+  if (size % 2) {
+    arr[ii] *= arr[ii];
+  }
 }
 ```
 
@@ -80,24 +80,24 @@ It runs forever in theory and usually crashes due to stack overflow in practice.
 
 ```Cpp
 int minionDice(int level) {
-	if (level >= NDICE) { return 0; }
-	int dices[NDICE]{};
-	for (int ii{0}; ii <= level; ++ii) {
-		dices[ii] = 1 + rand() % 6;
-	}
-	cout << "level " << level << ':';
-	for (int ii{0}; ii <= level; ++ii) {
-		cout << ' ' << dices[ii];
-	}
-	cout << endl;
-	int sum{0};
-	for (int ii{0}; ii <= level; ++ii) {
-		sum += dices[ii];
-		if (dices[ii] == 6) {
-			sum += minionDice(level + 1);
-		}
-	}
-	return sum;
+  if (level >= NDICE) { return 0; }
+  int dices[NDICE]{};
+  for (int ii{0}; ii <= level; ++ii) {
+    dices[ii] = 1 + rand() % 6;
+  }
+  cout << "level " << level << ':';
+  for (int ii{0}; ii <= level; ++ii) {
+    cout << ' ' << dices[ii];
+  }
+  cout << endl;
+  int sum{0};
+  for (int ii{0}; ii <= level; ++ii) {
+    sum += dices[ii];
+    if (dices[ii] == 6) {
+      sum += minionDice(level + 1);
+    }
+  }
+  return sum;
 }
 ```
 
@@ -105,17 +105,17 @@ int minionDice(int level) {
 
 ```Cpp
 void recursiveSort(int arr[], int size, int index) {
-	if (index >= size) { return; }
-	int minIdx{index};
-	for (int ii{index + 1}; ii < size; ++ii) {
-		if (arr[ii] < arr[minIdx]) {
-			minIdx = ii;
-		}
-	}
-	int tmp{arr[minIdx]};
-	arr[minIdx] = arr[index];
-	arr[index] = tmp;
-	recursiveSort(arr, size, index + 1);
+  if (index >= size) { return; }
+  int minIdx{index};
+  for (int ii{index + 1}; ii < size; ++ii) {
+    if (arr[ii] < arr[minIdx]) {
+      minIdx = ii;
+    }
+  }
+  int tmp{arr[minIdx]};
+  arr[minIdx] = arr[index];
+  arr[index] = tmp;
+  recursiveSort(arr, size, index + 1);
 }
 ```
 
@@ -150,18 +150,18 @@ An memory leak may occur since the last node being replaced is not `delete`d whe
 
 ```Cpp
 void deleteN(ll_cnode*& head, int N) {
-	ll_cnode *prev{nullptr}, *cur{head};
-	for (int ii{0}; cur != nullptr && ii < N; ++ii) {
-		prev = cur;
-		cur = head->next;
-	}
-	if (cur == nullptr) { return; }
-	if (prev == nullptr) {
-		head = cur->next;
-	} else {
-		prev->next = cur->next;
-	}
-	delete cur;
+  ll_cnode *prev{nullptr}, *cur{head};
+  for (int ii{0}; cur != nullptr && ii < N; ++ii) {
+    prev = cur;
+    cur = head->next;
+  }
+  if (cur == nullptr) { return; }
+  if (prev == nullptr) {
+    head = cur->next;
+  } else {
+    prev->next = cur->next;
+  }
+  delete cur;
 }
 ```
 
@@ -169,19 +169,19 @@ void deleteN(ll_cnode*& head, int N) {
 
 ```Cpp
 void addWordToDictionary(wordSection d[], int size, const char* newWord) {
-	wordSection &sect{d[newWord[0] - 'a']};
-	if (sect.num == 0) {
-		sect.words = new char*[++sect.num];
-	} else {
-		char **oldWords{sect.words};
-		sect.words = new char*[++sect.num];
-		for (int ii{0}; ii < (sect.num - 1); ++ii) {
-			sect.words[ii] = oldWords[ii];
-		}
-		delete[] oldWords;
-	}
-	sect.words[sect.num - 1] = new char[strlen(newWord) + 1];
-	strcpy(sect.words[sect.num - 1], newWord);
+  wordSection &sect{d[newWord[0] - 'a']};
+  if (sect.num == 0) {
+    sect.words = new char*[++sect.num];
+  } else {
+    char **oldWords{sect.words};
+    sect.words = new char*[++sect.num];
+    for (int ii{0}; ii < (sect.num - 1); ++ii) {
+      sect.words[ii] = oldWords[ii];
+    }
+    delete[] oldWords;
+  }
+  sect.words[sect.num - 1] = new char[strlen(newWord) + 1];
+  strcpy(sect.words[sect.num - 1], newWord);
 }
 ```
 
@@ -201,11 +201,11 @@ A `Lamp` has a variable number of `Bulb`s.
 
 ```Cpp
 Lamp::Lamp(int n, float p) {
-	// Answer here:
-	max_num_bulbs = n;
-	price = p;
-	bulbs = new Bulb[n];
-	num_bulbs = 0;
+  // Answer here:
+  max_num_bulbs = n;
+  price = p;
+  bulbs = new Bulb[n];
+  num_bulbs = 0;
 }
 ```
 
@@ -213,10 +213,10 @@ Lamp::Lamp(int n, float p) {
 
 ```Cpp
 void Lamp::add_bulbs(int w, float p, int n) {
-	if ((max_num_bulbs - num_bulbs) < n) { return; }
-	for (int ii{0}; ii < n; ++ii) {
-		bulbs[num_bulbs++].set(w, p);
-	}
+  if ((max_num_bulbs - num_bulbs) < n) { return; }
+  for (int ii{0}; ii < n; ++ii) {
+    bulbs[num_bulbs++].set(w, p);
+  }
 }
 ```
 
@@ -224,12 +224,12 @@ void Lamp::add_bulbs(int w, float p, int n) {
 
 ```Cpp
 float Lamp::total_price() const {
-	// Answer here:
-	const ret{price};
-	for (int ii{0}; ii < num_bulbs; ++ii) {
-		ret += bulbs[ii].get_price();
-	}
-	return ret;
+  // Answer here:
+  const ret{price};
+  for (int ii{0}; ii < num_bulbs; ++ii) {
+    ret += bulbs[ii].get_price();
+  }
+  return ret;
 }
 ```
 
@@ -266,13 +266,13 @@ It returns the number of items in the priority queue that has a higher priority 
 
 ```Cpp
 char priority_queue::dequeue() {
-	// Answer here:
-	if (head == nullptr) { return '\0'; }
-	ll_cnode *cur{head};
-	char ret{cur->data};
-	head = cur->next;
-	delete cur;
-	return ret;
+  // Answer here:
+  if (head == nullptr) { return '\0'; }
+  ll_cnode *cur{head};
+  char ret{cur->data};
+  head = cur->next;
+  delete cur;
+  return ret;
 }
 ```
 
@@ -280,15 +280,15 @@ char priority_queue::dequeue() {
 
 ```Cpp
 void priority_queue::enqueue(char d, int p) {
-	// Answer here:
-	ll_cnode *prev{nullptr};
-	for (ll_cnode *cur{head}; cur != nullptr; prev = cur, cur = cur->next) {
-		if (p < cur->priority) { break; }
-	}
-	if (prev == nullptr) {
-		head = new ll_cnode{d, p, nullptr};
-		return;
-	}
-	prev->next = new ll_cnode{d, p, prev->next};
+  // Answer here:
+  ll_cnode *prev{nullptr};
+  for (ll_cnode *cur{head}; cur != nullptr; prev = cur, cur = cur->next) {
+    if (p < cur->priority) { break; }
+  }
+  if (prev == nullptr) {
+    head = new ll_cnode{d, p, nullptr};
+    return;
+  }
+  prev->next = new ll_cnode{d, p, prev->next};
 }
 ```

@@ -19,12 +19,12 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
 return await memorize_seq(
-	e.cwf_sects('dae29a', 'ba9d12'),
-	(
-		'[Filter](filtration.md) seawater with a folded [filter paper](filter%20paper.md) in a [filter funnel](filter%20funnel.md) to remove [insoluble](solubility.md) [substances](chemical%20substance.md).',
-		'[Evaporate](evaportaion.md) the filtered seawater to obtain a [powder](powder.md) of sea salts. Direct heating or a [steam bath](heated%20bath.md) can be used to speed up the process in a [evaporating dish](evaporating%20dish.md).',
-		'Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain [crystals](crystal.md). Cooling hot saturated seawater or slow evaporation of seawater can be used. In both methods, [concentration](concentration.md) of seawater increases and becomes saturated. The latter produces larger crystals than the former.',
-	),
+  e.cwf_sects('dae29a', 'ba9d12'),
+  (
+    '[Filter](filtration.md) seawater with a folded [filter paper](filter%20paper.md) in a [filter funnel](filter%20funnel.md) to remove [insoluble](solubility.md) [substances](chemical%20substance.md).',
+    '[Evaporate](evaportaion.md) the filtered seawater to obtain a [powder](powder.md) of sea salts. Direct heating or a [steam bath](heated%20bath.md) can be used to speed up the process in a [evaporating dish](evaporating%20dish.md).',
+    'Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain [crystals](crystal.md). Cooling hot saturated seawater or slow evaporation of seawater can be used. In both methods, [concentration](concentration.md) of seawater increases and becomes saturated. The latter produces larger crystals than the former.',
+  ),
 )
 ```
 %%
