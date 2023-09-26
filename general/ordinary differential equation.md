@@ -83,22 +83,22 @@ Ordinary differential equations are furthered classified:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-> [__autonomous__](autonomous%20system%20(mathematics).md) ^autonomous
+> [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
 > {{An ODE where $F$ does not depend on $x$ explicitly.}}
 
-> [__homogeneous__](homogeneous%20differential%20equation.md) ^homogeneous
+> [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
 > {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}}
 
-> [__linear__](linear%20differential%20equation.md) ^linear
+> [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
 > {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ and the [coefficients](coefficient.md) are [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}}
 
-> [__nonhomogeneous__](homogeneous%20differential%20equation.md) ^nonhomogeneous
+> [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
 > {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}}
 
-> [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) ^nonlinear
+> [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
 > {{An ODE that is not [linear](#^linear).}}
