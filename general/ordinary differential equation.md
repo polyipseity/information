@@ -21,25 +21,25 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 
 > {{__explicit ordinary differential equation of order _n___}}
 >
-> {{$F\left(x,y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$
+> {{$F\left(x,y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$}}
 >
 > given
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md)}}
+> - $F$, a [formula](formula.md)
 
 An [implicit](implicit%20function.md) ordinary differential equation of order _n_ has the form:
 
 > {{__implicit ordinary differential equation of order _n___}}
 >
-> {{$F\left(x,y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$
+> {{$F\left(x,y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$}}
 >
 > given
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md)}}
+> - $F$, a [formula](formula.md)
 
 ### classifications
 
