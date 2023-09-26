@@ -268,7 +268,7 @@ class Notes:
     if id is None:
       id = f"{fast_hash(f'{text}{note}'):x}"
     id = f"^note-{id}"
-    self.__data.append((text, f"{note} {id}"))
+    self.__data.append((text, f'{note} <a id="{id}"></a>{id}'))
     return TextCode.escape(f"<sup>[{len(self.__data)}](#{id})</sup>")
 
   async def text(self, location: Location):

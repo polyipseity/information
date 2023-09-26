@@ -11,7 +11,7 @@ _HKUST COMP 2011_
 
 - time allowed: 2023-09-23T23:30:00+08:00/PT2H
 - time used: 2023-09-23T23:30:00+08:00/PT1H16M
-- type: warm up
+- type: practice
 
 ## problem 1 (12 points)
 
