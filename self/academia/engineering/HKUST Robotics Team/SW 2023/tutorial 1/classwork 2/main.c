@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-int main() {
-    float a = 4.0f, b= 3.7f, c;
-    printf("before swapping, a = %f, b = %f\n", a, b);
+int main()
+{
+  float a = 4.0f, b = 3.7f, c;
+  printf("before swapping, a = %f, b = %f\n", a, b);
   // your code starts here
-  
+  float tmp = a;
+  a = b;
+  b = tmp;
   // your code ends here
-    printf("after swapping, a = %f, b = %f\n", a, b);
-    return 0;
+  printf("after swapping, a = %f, b = %f\n", a, b);
+  return 0;
 }
