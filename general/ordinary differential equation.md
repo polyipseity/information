@@ -27,7 +27,7 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-09-30,4,270-->
+> - $F$, a [formula](formula.md) <!--SR:!2023-09-30,4,270!2023-09-30,4,284-->
 
 An [implicit](implicit%20function.md) ordinary differential equation of order _n_ has the form:
 
@@ -39,7 +39,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-09-30,4,270-->
+> - $F$, a [formula](formula.md) <!--SR:!2023-09-30,4,270!2023-09-30,4,284-->
 
 ### classifications
 
