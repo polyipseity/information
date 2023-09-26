@@ -15,7 +15,7 @@ tags:
 
 # ordinary differential equation
 
-## definitons
+## definitions
 
 An [explicit](implicit%20function.md) ordinary differential equation of order _n_ has the form:
 
