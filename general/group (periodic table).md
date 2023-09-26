@@ -28,7 +28,7 @@ return await memorize_table(
   e.cwf_sects('8462', '92de'),
   ('name (IUPAC/old IUPAC/old CAS)', 'IUPAC recommended trivial name',),
   (
-    ('[group 1](#^group-1)/IA/IA', '[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)', '^group-1',),
+    ('[group 1](#^group-1)/IA/IA', '[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)', '<a id="^group-1"></a>^group-1',),
     ('[group 2](alkaline%20earth%20metal.md)/IIA/IIA', '[alkaline earth metals](alkaline%20earth%20metal.md)', None,),
     ('[group 17](halogen.md)/VIIB/VIIA', '[halogens](halogen.md)', None,),
     ('[group 18](noble%20gas.md)/0/VIIIA', '[noble gases](noble%20gas.md)', None,),
@@ -38,11 +38,11 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8462"--><!-- The following content is generated at 2023-03-20T16:20:30.859423+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8462"--><!-- The following content is generated at 2023-09-26T08:44:21.496687+08:00. Any edits will be overridden! -->
 
 > | name (IUPAC/old IUPAC/old CAS) | IUPAC recommended trivial name |
 > |-|-|
-> | {{[group 1](#^group-1)/IA/IA}} | {{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}} ^group-1 |
+> | {{[group 1](#^group-1)/IA/IA}} | {{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}} <a id="^group-1"></a>^group-1 |
 > | {{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}} | {{[alkaline earth metals](alkaline%20earth%20metal.md)}} |
 > | {{[group 17](halogen.md)/VIIB/VIIA}} | {{[halogens](halogen.md)}} |
 > | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} | <!--SR:!2024-04-13,293,330!2024-01-14,203,310!2024-04-14,294,330!2024-03-19,273,330!2024-02-06,239,330!2024-04-01,281,330!2024-05-04,307,330!2024-03-08,263,330-->

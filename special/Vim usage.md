@@ -15,7 +15,7 @@ See also [Vim help files](https://vimhelp.org/).
 - show possibilities:::\<Ctrl\>+d <!--SR:!2023-10-27,100,173!2023-11-05,72,248-->
 
 ## pattern
-- repeat (N=1) times:::(N) ^repeatN <!--SR:!2024-08-30,402,313!2024-06-03,385,348-->
+- repeat (N=1) times:::(N) <a id="^repeatN"></a>^repeatN <!--SR:!2024-08-30,402,313!2024-06-03,385,348-->
 
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2024-06-10,392,348!2025-04-06,588,308-->
