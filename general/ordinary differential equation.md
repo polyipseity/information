@@ -53,7 +53,7 @@ return await memorize_seq(
 		'[autonomous](#^autonomous)',
 		'[homogeneous](#^homogeneous)',
 		'[linear](#^linear)',
-		'[nonhomogeneous](#^nonhomogenous)/inhomogeneous',
+		'[nonhomogeneous](#^nonhomogeneous)/inhomogeneous',
 		'[nonlinear](#^nonlinear)',
   ),
 )
@@ -62,23 +62,23 @@ return await memorize_seq(
 
 Ordinary differential equations are furthered classified:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0d9f"--><!-- The following content is generated at 2023-09-26T08:30:27.872740+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0d9f"--><!-- The following content is generated at 2023-09-26T08:47:40.039221+08:00. Any edits will be overridden! -->
 
 > 1. [autonomous](#^autonomous)
 > 2. [homogeneous](#^homogeneous)
 > 3. [linear](#^linear)
-> 4. [nonhomogeneous](#^nonhomogenous)/inhomogeneous
+> 4. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous
 > 5. [nonlinear](#^nonlinear)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:30:27.856898+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:47:40.062051+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[autonomous](#^autonomous)
 2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous)
 3. [homogeneous](#^homogeneous)→:::←[linear](#^linear)
-4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogenous)/inhomogeneous
-5. [nonhomogeneous](#^nonhomogenous)/inhomogeneous→:::←[nonlinear](#^nonlinear)
+4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous
+5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear)
 6. [nonlinear](#^nonlinear)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
