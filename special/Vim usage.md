@@ -15,7 +15,7 @@ See also [Vim help files](https://vimhelp.org/).
 - show possibilities:::\<Ctrl\>+d
 
 ## pattern
-- repeat (N=1) times:::(N) ^repeatN
+- repeat (N=1) times:::(N) <a id="^repeatN"></a>^repeatN
 
 ## motion
 - left:::\[[repeat N](#^repeatN)\]h
