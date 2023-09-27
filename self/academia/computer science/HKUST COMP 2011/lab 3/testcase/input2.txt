@@ -1,6 +1,1 @@
-1
-S
-T
-A
-R
-8
+testcase/input2-file.txt

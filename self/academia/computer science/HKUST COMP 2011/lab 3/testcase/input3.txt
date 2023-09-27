@@ -1,6 +1,1 @@
-1
-Y
-E
-A
-H
-600
+testcase/input3-file.txt

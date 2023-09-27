@@ -1,6 +1,1 @@
-2
-C
-Z
-N
-A
-11
+testcase/input4-file.txt

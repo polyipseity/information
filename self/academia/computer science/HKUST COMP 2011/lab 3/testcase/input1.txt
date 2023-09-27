@@ -1,6 +1,1 @@
-1
-C
-O
-M
-P
-11
+testcase/input1-file.txt
