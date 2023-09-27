@@ -11,17 +11,19 @@ char const *const msg_input = "Please input a math equation:\n";
 char const *const msg_output = "Output:\n";
 char const *const error_msg = "ERROR! The string input is not supported!!\n";
 
-void read_line(str_t **ret, FILE *stream)
+str_t *read_line(FILE *stream)
 {
+    str_t *ret = str_malloc(0);
     for (char cc = getc(stream); cc != EOF && cc != '\n'; cc = getc(stream))
     {
-        size_t idx = (*ret)->len;
-        *ret = str_realloc(*ret, idx + 1);
-        (*ret)->data[idx] = cc;
+        size_t idx = ret->len;
+        str_realloc(&ret, idx + 1);
+        ret->data[idx] = cc;
     }
+    return ret;
 }
 
-l_stack_t *parse(str_t *input)
+l_stack_t *parse_to_postfix(str_t const *input)
 {
     l_stack_t *ret = NULL, *op_stack = NULL;
     ast_t *ast;
@@ -53,7 +55,7 @@ l_stack_t *parse(str_t *input)
             {
                 ast = malloc(sizeof(ast_t));
                 *ast = ast_from_val(val);
-                ret = l_stack_push(ret, ast);
+                l_stack_push(&ret, ast);
                 val = -1;
             }
             switch (chr)
@@ -69,26 +71,23 @@ l_stack_t *parse(str_t *input)
                 {
                     while (op_stack && priorities[((ast_t *)(op_stack->data))->op] >= priorities[op])
                     {
-                        op_stack = l_stack_pop(op_stack, &ast);
-                        ret = l_stack_push(ret, ast);
+                        l_stack_push(&ret, l_stack_pop(&op_stack));
                     }
                 }
                 ast = malloc(sizeof(ast_t));
                 *ast = ast_from_op(op);
-                op_stack = l_stack_push(op_stack, ast);
+                l_stack_push(&op_stack, ast);
                 break;
             case ')':
                 while (op_stack && ((ast_t *)(op_stack->data))->op != PARENTHESIS)
                 {
-                    op_stack = l_stack_pop(op_stack, &ast);
-                    ret = l_stack_push(ret, ast);
+                    l_stack_push(&ret, l_stack_pop(&op_stack));
                 }
                 if (!op_stack)
                 {
                     goto fail;
                 }
-                op_stack = l_stack_pop(op_stack, &ast);
-                free(ast);
+                free(l_stack_pop(&op_stack));
                 break;
             default:
                 goto fail;
@@ -99,18 +98,18 @@ l_stack_t *parse(str_t *input)
     {
         ast = malloc(sizeof(ast_t));
         *ast = ast_from_val(val);
-        ret = l_stack_push(ret, ast);
+        l_stack_push(&ret, ast);
         val = -1;
     }
     while (op_stack)
     {
-        op_stack = l_stack_pop(op_stack, &ast);
-        ret = l_stack_push(ret, ast);
+        l_stack_push(&ret, l_stack_pop(&op_stack));
         if (ast->op == PARENTHESIS)
         {
             goto fail;
         }
     }
+    l_stack_reverse(&ret);
     return ret;
 fail:
     l_stack_free(op_stack, &free);
@@ -121,26 +120,23 @@ fail:
 int main(void)
 {
     printf_s("%s", msg_input);
-    str_t *input = str_malloc(0);
-    read_line(&input, stdin);
-    l_stack_t *asts = parse(input), *vals = NULL;
+    str_t *input = read_line(stdin);
+    l_stack_t *asts = parse_to_postfix(input), *vals = NULL;
     if (!asts)
     {
         goto fail;
     }
-    asts = l_stack_reverse(asts);
 
     while (asts)
     {
-        ast_t *ast;
-        asts = l_stack_pop(asts, &ast);
+        ast_t *ast = l_stack_pop(&asts);
         double *val;
         switch (ast->tag)
         {
         case VALUE:
             val = malloc(sizeof(double));
             *val = (double)ast->val;
-            vals = l_stack_push(vals, val);
+            l_stack_push(&vals, val);
             break;
         case OPERATOR:
             if (!vals || !vals->prev)
@@ -148,9 +144,7 @@ int main(void)
                 free(ast);
                 goto fail;
             }
-            double *right_p, *left_p;
-            vals = l_stack_pop(vals, &right_p);
-            vals = l_stack_pop(vals, &left_p);
+            double *right_p = l_stack_pop(&vals), *left_p = l_stack_pop(&vals);
             double right = *right_p, left = *left_p;
             free(left_p);
             free(right_p);
@@ -177,7 +171,7 @@ int main(void)
                 free(ast);
                 goto fail;
             }
-            vals = l_stack_push(vals, val);
+            l_stack_push(&vals, val);
             break;
         default:
             free(ast);
