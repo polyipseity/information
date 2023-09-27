@@ -25,13 +25,22 @@
                 "name": "Core",
                 "files": [
                   {
+                    "path": "Core/Src/buzzer.c"
+                  },
+                  {
                     "path": "Core/Src/main.c"
+                  },
+                  {
+                    "path": "Core/Src/stm32f1xx_hal_msp.c"
                   },
                   {
                     "path": "Core/Src/stm32f1xx_it.c"
                   },
                   {
-                    "path": "Core/Src/stm32f1xx_hal_msp.c"
+                    "path": "Core/Src/tick.c"
+                  },
+                  {
+                    "path": "Core/Src/ws2812.c"
                   }
                 ],
                 "folders": []
@@ -44,6 +53,15 @@
         "name": "Drivers",
         "files": [],
         "folders": [
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "Core/Src/system_stm32f1xx.c"
+              }
+            ],
+            "folders": []
+          },
           {
             "name": "STM32F1xx_HAL_Driver",
             "files": [
@@ -88,15 +106,6 @@
               },
               {
                 "path": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
-              }
-            ],
-            "folders": []
-          },
-          {
-            "name": "CMSIS",
-            "files": [
-              {
-                "path": "Core/Src/system_stm32f1xx.c"
               }
             ],
             "folders": []
