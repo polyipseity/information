@@ -1,8 +1,9 @@
 #include <stddef.h>
 #include <stdlib.h>
-#include "str_t.h"
+#include <string.h>
+#include "str.h"
 
-str_t *str_t_malloc(size_t len)
+str_t *str_malloc(size_t len)
 {
 	str_t *self = malloc(sizeof(str_t) + (len + 1) * sizeof(char));
 	self->len = len;
@@ -10,14 +11,14 @@ str_t *str_t_malloc(size_t len)
 	return self;
 }
 
-str_t *str_t_calloc(size_t len)
+str_t *str_calloc(size_t len)
 {
-	str_t *self = str_t_malloc(len);
+	str_t *self = str_malloc(len);
 	memset(self->data, '\0', len * sizeof(char));
 	return self;
 }
 
-str_t *str_t_realloc(str_t *self, size_t len)
+str_t *str_realloc(str_t *self, size_t len)
 {
 	self = realloc(self, sizeof(str_t) + (len + 1) * sizeof(char));
 	self->len = len;
@@ -25,10 +26,10 @@ str_t *str_t_realloc(str_t *self, size_t len)
 	return self;
 }
 
-str_t *str_t_recalloc(str_t *self, size_t len)
+str_t *str_recalloc(str_t *self, size_t len)
 {
 	size_t old_len = self->len;
-	self = str_t_realloc(self, len);
+	self = str_realloc(self, len);
 	if (len > old_len)
 	{
 		memset(&self->data[old_len], '\0', (len - old_len) * sizeof(char));
@@ -36,7 +37,7 @@ str_t *str_t_recalloc(str_t *self, size_t len)
 	return self;
 }
 
-void str_t_free(str_t *self)
+void str_free(str_t *self)
 {
 	free(self);
 }
