@@ -1,44 +1,50 @@
 #include <stdlib.h>
 #include "l_stack.h"
 
-l_stack_t *l_stack_push(l_stack_t *self, void *data)
+void l_stack_push(l_stack_t **const self, void *data)
 {
 	l_stack_t *ret = malloc(sizeof(l_stack_t));
-	ret->prev = self;
+	ret->prev = *self;
 	ret->data = data;
-	return ret;
+	*self = ret;
 }
 
-l_stack_t *l_stack_pop(l_stack_t *self, void **data)
+void *l_stack_pop(l_stack_t **const self)
 {
-	l_stack_t *prev = self->prev;
-	*data = self->data;
-	free(self);
-	return prev;
+	l_stack_t *next = *self;
+	void *data = next->data;
+	*self = next->prev;
+	free(next);
+	return data;
 }
 
-l_stack_t *l_stack_reverse(l_stack_t *self)
+void l_stack_reverse(l_stack_t **const self)
 {
 	l_stack_t *prev = NULL, *next;
-	while (self)
+	while (*self)
 	{
-		next = self->prev;
-		self->prev = prev;
-		prev = self;
-		self = next;
+		next = (*self)->prev;
+		(*self)->prev = prev;
+		prev = *self;
+		*self = next;
 	}
-	return prev;
+	*self = prev;
 }
 
 void l_stack_free(l_stack_t *self, void (*freer)(void *))
 {
-	void *val;
-	while (self)
+	if (freer)
 	{
-		self = l_stack_pop(self, &val);
-		if (freer)
+		while (self)
 		{
-			(*freer)(val);
+			(*freer)(l_stack_pop(&self));
+		}
+	}
+	else
+	{
+		while (self)
+		{
+			l_stack_pop(&self);
 		}
 	}
 }
