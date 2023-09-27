@@ -6,7 +6,7 @@ const int NUM_LETTERS = 26;      // number of letters in the alphabet
 const int NUM_DIGRAPHS = 676;    // number of all possible digraphs
 const int MAX_PATH_LENGTH = 100; // maximum length of a file path
 
-void number_to_diagraph(int num, char &c1, char &c2)
+void number_to_digraph(int num, char &c1, char &c2)
 {
 
     // Convert a number to a diagraph
@@ -22,8 +22,8 @@ void numbers_to_text(int num1, int num2, char &c1, char &c2, char &c3, char &c4)
     // Convert two numbers to a 4-letter text
     // You **DO NOT** need to use this function in your implementation
 
-    number_to_diagraph(num1, c1, c2);
-    number_to_diagraph(num2, c3, c4);
+    number_to_digraph(num1, c1, c2);
+    number_to_digraph(num2, c3, c4);
 }
 
 int digraph_to_number(char c1, char c2)
