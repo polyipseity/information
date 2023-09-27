@@ -32,7 +32,7 @@ int digraph_to_number(char c1, char c2)
     // TODO: implement this function
     // Convert (c1, c2) to a number based on digraph coding
     // Return the converted number
-
+    return 26 * (c1 - 'A') + (c2 - 'A');
     // End of TODO
 }
 
