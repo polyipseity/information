@@ -1,17 +1,21 @@
 #include <stdint.h>
 
-extern int const priorities[6];
 typedef enum op_t
 {
+	INVALID = -1,
 	PLUS,
 	MINUS,
 	MULTIPLY,
 	DIVIDE,
 	POWER,
 	PARENTHESIS,
+	END,
 } op_t;
 op_t op_from_char(char chr);
-char op_to_char(op_t op);
+
+typedef double(op_function)(double, double);
+extern int const op_priorities[END - PLUS + 1];
+extern op_function *const op_functions[END - PLUS + 1];
 
 typedef struct ast_t
 {

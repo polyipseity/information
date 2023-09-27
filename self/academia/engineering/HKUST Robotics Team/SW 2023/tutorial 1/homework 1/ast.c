@@ -1,6 +1,5 @@
+#include <math.h>
 #include "ast.h"
-
-int const priorities[] = {0, 0, 1, 1, 2, -1};
 
 op_t op_from_char(char chr)
 {
@@ -19,30 +18,28 @@ op_t op_from_char(char chr)
 	case '(':
 		return PARENTHESIS;
 	default:
-		return -1;
+		return INVALID;
 	}
 }
 
-char op_to_char(op_t op)
+double plus(double a, double b)
 {
-	switch (op)
-	{
-	case PLUS:
-		return '+';
-	case MINUS:
-		return '-';
-	case MULTIPLY:
-		return '*';
-	case DIVIDE:
-		return '/';
-	case POWER:
-		return '^';
-	case PARENTHESIS:
-		return '(';
-	default:
-		return '\0';
-	}
+	return a + b;
 }
+double minus(double a, double b)
+{
+	return a - b;
+}
+double multiply(double a, double b)
+{
+	return a * b;
+}
+double divide(double a, double b)
+{
+	return a / b;
+}
+int const op_priorities[] = {0, 0, 1, 1, 2, -1, -2147483648};
+op_function *const op_functions[] = {&plus, &minus, &multiply, &divide, &pow, NULL, NULL};
 
 ast_t ast_from_op(op_t op)
 {
