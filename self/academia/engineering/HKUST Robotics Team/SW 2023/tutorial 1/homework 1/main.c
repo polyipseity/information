@@ -117,19 +117,13 @@ fail:
     return NULL;
 }
 
-int main(void)
+bool evaluate_postfix(double *const out, l_stack_t const *postfix)
 {
-    printf_s("%s", msg_input);
-    str_t *input = read_line(stdin);
-    l_stack_t *asts = parse_to_postfix(input), *vals = NULL;
-    if (!asts)
+    bool ret = true;
+    l_stack_t *vals = NULL;
+    for (l_stack_t const *cur = postfix; cur; cur = cur->prev)
     {
-        goto fail;
-    }
-
-    while (asts)
-    {
-        ast_t *ast = l_stack_pop(&asts);
+        ast_t *ast = cur->data;
         double *val;
         switch (ast->tag)
         {
@@ -141,7 +135,6 @@ int main(void)
         case OPERATOR:
             if (!vals || !vals->prev)
             {
-                free(ast);
                 goto fail;
             }
             double *right_p = l_stack_pop(&vals), *left_p = l_stack_pop(&vals);
@@ -168,29 +161,47 @@ int main(void)
                 break;
             default:
                 free(val);
-                free(ast);
                 goto fail;
             }
             l_stack_push(&vals, val);
             break;
         default:
-            free(ast);
             goto fail;
         }
-        free(ast);
     }
     if (!vals || vals->prev)
     {
         goto fail;
     }
-    printf_s("%s", msg_output);
-    printf_s("%g", *(double *)vals->data);
+    *out = *(double *)vals->data;
 cleanup:
     l_stack_free(vals, &free);
-    l_stack_free(asts, &free);
+    return ret;
+fail:
+    ret = false;
+    goto cleanup;
+}
+
+int main(void)
+{
+    int ret = 0;
+    printf_s("%s", msg_input);
+    str_t *input = read_line(stdin);
+    l_stack_t *postfix = parse_to_postfix(input);
+    double calculated;
+    if (!postfix || !evaluate_postfix(&calculated, postfix))
+    {
+        goto fail;
+    }
+
+    printf_s("%s", msg_output);
+    printf_s("%g", calculated);
+cleanup:
+    l_stack_free(postfix, &free);
     str_free(input);
-    return 0;
+    return ret;
 fail:
     printf_s("%s", error_msg);
+    ret = 1;
     goto cleanup;
 }
