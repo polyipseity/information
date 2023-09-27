@@ -63,7 +63,7 @@ int decrypt_digraph_to_number(char c1, char c2, int key)
     // TODO: implement this function
     // Decrypt the digraph (c1, c2) into a number using the key based on Caesar cipher
     // Return the decrypted number
-
+    return digraph_to_number(c1, c2) - key;
     // End of TODO
 }
 
@@ -73,7 +73,8 @@ void decrypt_text_to_numbers(char c1, char c2, char c3, char c4, int key, int &n
     // TODO: implement this function
     // Call decrypt_digraph_to_number() to decrypt the 4-letter text using the key
     // Update the decrypted numbers (num1, num2)
-
+    num1 = decrypt_digraph_to_number(c1, c2, key);
+    num2 = decrypt_digraph_to_number(c3, c4, key);
     // End of TODO
 }
 
