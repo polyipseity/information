@@ -1,5 +1,10 @@
 ---
-tags: []
+aliases:
+  - command libraries
+  - command library
+tags:
+  - flashcards/special/command_library
+  - functional/libraries
 ---
 
 # command library
