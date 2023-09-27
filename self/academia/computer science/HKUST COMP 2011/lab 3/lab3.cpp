@@ -108,6 +108,7 @@ int main()
     // Read the option, the 4-letter text and the key from fin
     // Close the file after reading
     fin >> option >> c1 >> c2 >> c3 >> c4 >> key;
+    fin.close();
     // End of TODO
 
     // Perform encryption or decryption
