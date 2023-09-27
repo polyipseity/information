@@ -1,4 +1,3 @@
-#include <math.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -26,7 +25,6 @@ str_t *read_line(FILE *stream)
 l_stack_t *parse_to_postfix(str_t const *input)
 {
     l_stack_t *ret = NULL, *op_stack = NULL;
-    ast_t *ast;
     intmax_t val = -1;
     for (size_t ii = 0; ii < input->len; ++ii)
     {
@@ -53,32 +51,27 @@ l_stack_t *parse_to_postfix(str_t const *input)
         default:
             if (val != -1)
             {
-                ast = malloc(sizeof(ast_t));
+                ast_t *ast = malloc(sizeof(ast_t));
                 *ast = ast_from_val(val);
                 l_stack_push(&ret, ast);
                 val = -1;
             }
-            switch (chr)
+            op_t op = op_from_char(chr);
+            if (op != INVALID)
             {
-            case '+':
-            case '-':
-            case '*':
-            case '/':
-            case '^':
-            case '(':
-                op_t op = op_from_char(chr);
                 if (op != PARENTHESIS)
                 {
-                    while (op_stack && priorities[((ast_t *)(op_stack->data))->op] >= priorities[op])
+                    while (op_stack && op_priorities[((ast_t *)(op_stack->data))->op] >= op_priorities[op])
                     {
                         l_stack_push(&ret, l_stack_pop(&op_stack));
                     }
                 }
-                ast = malloc(sizeof(ast_t));
+                ast_t *ast = malloc(sizeof(ast_t));
                 *ast = ast_from_op(op);
                 l_stack_push(&op_stack, ast);
-                break;
-            case ')':
+            }
+            else if (chr == ')')
+            {
                 while (op_stack && ((ast_t *)(op_stack->data))->op != PARENTHESIS)
                 {
                     l_stack_push(&ret, l_stack_pop(&op_stack));
@@ -88,22 +81,25 @@ l_stack_t *parse_to_postfix(str_t const *input)
                     goto fail;
                 }
                 free(l_stack_pop(&op_stack));
-                break;
-            default:
+            }
+            else
+            {
                 goto fail;
             }
+            break;
         }
     }
     if (val != -1)
     {
-        ast = malloc(sizeof(ast_t));
+        ast_t *ast = malloc(sizeof(ast_t));
         *ast = ast_from_val(val);
         l_stack_push(&ret, ast);
         val = -1;
     }
     while (op_stack)
     {
-        l_stack_push(&ret, l_stack_pop(&op_stack));
+        ast_t *ast = l_stack_pop(&op_stack);
+        l_stack_push(&ret, ast);
         if (ast->op == PARENTHESIS)
         {
             goto fail;
@@ -141,28 +137,13 @@ bool evaluate_postfix(double *const out, l_stack_t const *postfix)
             double right = *right_p, left = *left_p;
             free(left_p);
             free(right_p);
-            val = malloc(sizeof(double));
-            switch (ast->op)
+            op_function *func = op_functions[ast->op];
+            if (!func)
             {
-            case PLUS:
-                *val = left + right;
-                break;
-            case MINUS:
-                *val = left - right;
-                break;
-            case MULTIPLY:
-                *val = left * right;
-                break;
-            case DIVIDE:
-                *val = left / right;
-                break;
-            case POWER:
-                *val = pow(left, right);
-                break;
-            default:
-                free(val);
                 goto fail;
             }
+            val = malloc(sizeof(double));
+            *val = (*func)(left, right);
             l_stack_push(&vals, val);
             break;
         default:
@@ -193,7 +174,6 @@ int main(void)
     {
         goto fail;
     }
-
     printf_s("%s", msg_output);
     printf_s("%g", calculated);
 cleanup:
