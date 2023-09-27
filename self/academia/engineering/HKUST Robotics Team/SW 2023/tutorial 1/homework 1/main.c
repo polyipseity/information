@@ -6,6 +6,10 @@
 #include "l_stack.h"
 #include "str.h"
 
+#include "ast.c"
+#include "l_stack.c"
+#include "str.c"
+
 char const *const msg_input = "Please input a math equation:\n";
 char const *const msg_output = "Output:\n";
 char const *const error_msg = "ERROR! The string input is not supported!!\n";

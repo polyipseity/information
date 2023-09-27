@@ -1,3 +1,5 @@
+#pragma once
+
 typedef struct l_stack_t
 {
 	struct l_stack_t *prev;
