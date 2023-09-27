@@ -98,9 +98,8 @@ l_stack_t *parse_to_postfix(str_t const *input)
     }
     while (op_stack)
     {
-        ast_t *ast = l_stack_pop(&op_stack);
-        l_stack_push(&ret, ast);
-        if (ast->op == PARENTHESIS)
+        l_stack_push(&ret, l_stack_pop(&op_stack));
+        if (((ast_t *)(ret->data))->op == PARENTHESIS)
         {
             goto fail;
         }
