@@ -42,7 +42,7 @@ int encrypt_digraph_to_number(char c1, char c2, int key)
     // TODO: implement this function
     // Encrypt the digraph (c1, c2) into a number using the key based on Caesar cipher
     // Return the encrypted number
-    return digraph_to_number(c1, c2) + key;
+    return (digraph_to_number(c1, c2) + key) % 676;
     // End of TODO
 }
 
@@ -63,7 +63,12 @@ int decrypt_digraph_to_number(char c1, char c2, int key)
     // TODO: implement this function
     // Decrypt the digraph (c1, c2) into a number using the key based on Caesar cipher
     // Return the decrypted number
-    return digraph_to_number(c1, c2) - key;
+    int ret = (digraph_to_number(c1, c2) - key) % 676;
+    if (ret < 0)
+    {
+        ret += 676;
+    }
+    return ret;
     // End of TODO
 }
 
