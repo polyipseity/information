@@ -1,3 +1,4 @@
+#pragma once
 #include <stdint.h>
 
 typedef enum op_t

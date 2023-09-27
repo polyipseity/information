@@ -1,3 +1,4 @@
+#pragma once
 #include <stddef.h>
 
 typedef struct str_t
