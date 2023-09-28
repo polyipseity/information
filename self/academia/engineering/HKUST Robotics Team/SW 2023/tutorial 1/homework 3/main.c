@@ -39,8 +39,8 @@ int main()
         [12] = error_msg_duodecimal,
     };
     char input[42];
-    printf_s("%s", msg_prompt_number);
-    scanf_s("%s", &input, sizeof input / sizeof(char));
+    printf("%s", msg_prompt_number);
+    scanf("%s", &input);
 
     /**
      * @brief
@@ -49,11 +49,11 @@ int main()
 
     // TODO:
     int_fast8_t base;
-    printf_s("%s", msg_prompt_current_number_system);
-    scanf_s("%" SCNdFAST8, &base);
+    printf("%s", msg_prompt_current_number_system);
+    scanf("%" SCNdFAST8, &base);
     if (base != 3 && base != 10 && base != 12)
     {
-        printf_s("%s", error_msg_unsupported_system);
+        printf("%s", error_msg_unsupported_system);
         return 1;
     }
     uint_fast64_t val = 0;
@@ -62,7 +62,7 @@ int main()
         int_fast8_t digit = input[ii] < sizeof digits_c2i / sizeof(int_fast8_t) ? digits_c2i[input[ii]] : 0;
         if (digit >= base || digit == 0 && input[ii] != '0')
         {
-            printf_s("%s", error_msgs_system[base]);
+            printf("%s", error_msgs_system[base]);
             return 1;
         }
         val *= base;
@@ -76,11 +76,11 @@ int main()
 
     // TODO:
     int_fast8_t new_base;
-    printf_s("%s", msg_prompt_number_system_to_convert);
-    scanf_s("%" SCNdFAST8, &new_base);
+    printf("%s", msg_prompt_number_system_to_convert);
+    scanf("%" SCNdFAST8, &new_base);
     if (new_base != 3 && new_base != 10 && new_base != 12)
     {
-        printf_s("%s", error_msg_unsupported_system);
+        printf("%s", error_msg_unsupported_system);
         return 1;
     }
 
@@ -93,10 +93,10 @@ int main()
      */
 
     // TODO:
-    printf_s("%s", msg_output);
+    printf("%s", msg_output);
     if (val == 0)
     {
-        printf_s("0\n");
+        printf("0\n");
         return 0;
     }
     char output[sizeof input / sizeof(char) - 1];
@@ -107,7 +107,7 @@ int main()
         output[sizeof output / sizeof(char) - len] = digits_i2c[val % new_base];
         val = val / new_base;
     }
-    printf_s("%.*s\n", len, &output[sizeof output / sizeof(char) - len]);
+    printf("%.*s\n", len, &output[sizeof output / sizeof(char) - len]);
 
     return 0;
 }
