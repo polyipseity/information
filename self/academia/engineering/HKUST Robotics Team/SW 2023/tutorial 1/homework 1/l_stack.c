@@ -20,13 +20,13 @@ void *l_stack_pop(l_stack_t **const self)
 
 void l_stack_reverse(l_stack_t **const self)
 {
-	l_stack_t *prev = NULL, *next;
-	while (*self)
+	l_stack_t *prev = NULL, *cur = *self, *next;
+	while (cur)
 	{
-		next = (*self)->prev;
-		(*self)->prev = prev;
-		prev = *self;
-		*self = next;
+		next = cur->prev;
+		cur->prev = prev;
+		prev = cur;
+		cur = next;
 	}
 	*self = prev;
 }

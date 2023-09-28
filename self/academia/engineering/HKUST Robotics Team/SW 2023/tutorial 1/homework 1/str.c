@@ -19,19 +19,22 @@ str_t *str_calloc(size_t len)
 
 void str_realloc(str_t **const self, size_t len)
 {
-	*self = realloc(*self, sizeof(str_t) + (len + 1) * sizeof(char));
-	(*self)->len = len;
-	(*self)->data[len] = '\0';
+	str_t *ret = realloc(*self, sizeof(str_t) + (len + 1) * sizeof(char));
+	ret->len = len;
+	ret->data[len] = '\0';
+	*self = ret;
 }
 
 void str_recalloc(str_t **const self, size_t len)
 {
-	size_t old_len = (*self)->len;
-	str_realloc(self, len);
+	str_t *ret = *self;
+	size_t old_len = ret->len;
+	str_realloc(&ret, len);
 	if (len > old_len)
 	{
-		memset(&(*self)->data[old_len], '\0', (len - old_len) * sizeof(char));
+		memset(&ret->data[old_len], '\0', (len - old_len) * sizeof(char));
 	}
+	*self = ret;
 }
 
 void str_free(str_t *const self)
