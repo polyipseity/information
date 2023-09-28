@@ -5,14 +5,14 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-char const *const error_msg_decimal = "Error! That set of numbers is not a decimal number.\n";
-char const *const error_msg_trinary = "Error! That set of number is not a trinary number.\n";
-char const *const error_msg_duodecimal = "Error! That set of number is not a duodecimal number.\n";
-char const *const error_msg_unsupported_system = "Error! The number system is not supported.\n";
-char const *const msg_prompt_number = "Please enter a set of number:\n";
-char const *const msg_prompt_current_number_system = "Please enter the current number system:\n";
-char const *const msg_prompt_number_system_to_convert = "Please enter the number system you want the set of number be converted to:\n";
-char const *const msg_output = "Output=";
+char const error_msg_decimal[] = "Error! That set of numbers is not a decimal number.\n";
+char const error_msg_trinary[] = "Error! That set of number is not a trinary number.\n";
+char const error_msg_duodecimal[] = "Error! That set of number is not a duodecimal number.\n";
+char const error_msg_unsupported_system[] = "Error! The number system is not supported.\n";
+char const msg_prompt_number[] = "Please enter a set of number:\n";
+char const msg_prompt_current_number_system[] = "Please enter the current number system:\n";
+char const msg_prompt_number_system_to_convert[] = "Please enter the number system you want the set of number be converted to:\n";
+char const msg_output[] = "Output=";
 int_fast8_t const digits_c2i[] = {
     ['0'] = 0,
     1,
@@ -29,24 +29,11 @@ int_fast8_t const digits_c2i[] = {
     ['A'] = 10,
     11,
 };
-char const digits_i2c[] = {
-    '0',
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    'A',
-    'B',
-};
+char const digits_i2c[] = "0123456789AB";
 
 int main()
 {
-    char const *error_msgs_system[] = {
+    char const *const error_msgs_system[] = {
         [3] = error_msg_trinary,
         [10] = error_msg_decimal,
         [12] = error_msg_duodecimal,
@@ -112,7 +99,7 @@ int main()
         printf_s("0\n");
         return 0;
     }
-    char output[41];
+    char output[sizeof input / sizeof(char) - 1];
     int_fast8_t len = 0;
     while (val != 0)
     {

@@ -6,13 +6,13 @@
 #include "l_stack.h"
 #include "str.h"
 
-char const *const msg_input = "Please input a math equation:\n";
-char const *const msg_output = "Output:\n";
-char const *const error_msg = "ERROR! The string input is not supported!!\n";
+char const msg_input[] = "Please input a math equation:\n";
+char const msg_output[] = "Output:\n";
+char const error_msg[] = "ERROR! The string input is not supported!!\n";
 
-str_t *read_line(FILE *stream)
+str_t *read_line(FILE *restrict stream)
 {
-    str_t *ret = str_malloc(0);
+    str_t *restrict ret = str_malloc(0);
     for (char cc = getc(stream); cc != EOF && cc != '\n'; cc = getc(stream))
     {
         size_t idx = ret->len;
@@ -22,9 +22,9 @@ str_t *read_line(FILE *stream)
     return ret;
 }
 
-l_stack_t *parse_to_postfix(str_t const *input)
+l_stack_t *parse_to_postfix(str_t const *restrict input)
 {
-    l_stack_t *ret = NULL, *op_stack = NULL;
+    l_stack_t *restrict ret = NULL, *restrict op_stack = NULL;
     intmax_t val = -1;
     for (size_t ii = 0; ii < input->len; ++ii)
     {
@@ -51,7 +51,7 @@ l_stack_t *parse_to_postfix(str_t const *input)
         default:
             if (val != -1)
             {
-                ast_t *ast = malloc(sizeof(ast_t));
+                ast_t *restrict ast = malloc(sizeof(ast_t));
                 *ast = ast_from_val(val);
                 l_stack_push(&ret, ast);
                 val = -1;
@@ -66,7 +66,7 @@ l_stack_t *parse_to_postfix(str_t const *input)
                         l_stack_push(&ret, l_stack_pop(&op_stack));
                     }
                 }
-                ast_t *ast = malloc(sizeof(ast_t));
+                ast_t *restrict ast = malloc(sizeof(ast_t));
                 *ast = ast_from_op(op);
                 l_stack_push(&op_stack, ast);
             }
@@ -91,7 +91,7 @@ l_stack_t *parse_to_postfix(str_t const *input)
     }
     if (val != -1)
     {
-        ast_t *ast = malloc(sizeof(ast_t));
+        ast_t *restrict ast = malloc(sizeof(ast_t));
         *ast = ast_from_val(val);
         l_stack_push(&ret, ast);
         val = -1;
@@ -112,14 +112,14 @@ fail:
     return NULL;
 }
 
-bool evaluate_postfix(double *const out, l_stack_t const *postfix)
+bool evaluate_postfix(double *restrict const out, l_stack_t const *restrict postfix)
 {
     bool ret = true;
-    l_stack_t *vals = NULL;
+    l_stack_t *restrict vals = NULL;
     for (l_stack_t const *cur = postfix; cur; cur = cur->prev)
     {
-        ast_t *ast = cur->data;
-        double *val;
+        ast_t *restrict ast = cur->data;
+        double *restrict val;
         switch (ast->tag)
         {
         case VALUE:
@@ -132,10 +132,12 @@ bool evaluate_postfix(double *const out, l_stack_t const *postfix)
             {
                 goto fail;
             }
-            double *right_p = l_stack_pop(&vals), *left_p = l_stack_pop(&vals);
-            double right = *right_p, left = *left_p;
-            free(left_p);
-            free(right_p);
+            val = l_stack_pop(&vals);
+            double right = *val;
+            free(val);
+            val = l_stack_pop(&vals);
+            double left = *val;
+            free(val);
             op_function *func = op_functions[ast->op];
             if (!func)
             {
@@ -166,8 +168,8 @@ int main(void)
 {
     int ret = 0;
     printf_s("%s", msg_input);
-    str_t *input = read_line(stdin);
-    l_stack_t *postfix = parse_to_postfix(input);
+    str_t *restrict input = read_line(stdin);
+    l_stack_t *restrict postfix = parse_to_postfix(input);
     double calculated;
     if (!postfix || !evaluate_postfix(&calculated, postfix))
     {

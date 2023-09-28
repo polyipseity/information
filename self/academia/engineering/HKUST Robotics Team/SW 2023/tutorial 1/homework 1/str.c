@@ -4,7 +4,7 @@
 
 str_t *str_malloc(size_t len)
 {
-	str_t *self = malloc(sizeof(str_t) + (len + 1) * sizeof(char));
+	str_t *restrict self = malloc(sizeof(str_t) + (len + 1) * sizeof(char));
 	self->len = len;
 	self->data[len] = '\0';
 	return self;
@@ -12,22 +12,22 @@ str_t *str_malloc(size_t len)
 
 str_t *str_calloc(size_t len)
 {
-	str_t *self = str_malloc(len);
+	str_t *restrict self = str_malloc(len);
 	memset(self->data, '\0', len * sizeof(char));
 	return self;
 }
 
-void str_realloc(str_t **const self, size_t len)
+void str_realloc(str_t **restrict const self, size_t len)
 {
-	str_t *ret = realloc(*self, sizeof(str_t) + (len + 1) * sizeof(char));
+	str_t *restrict ret = realloc(*self, sizeof(str_t) + (len + 1) * sizeof(char));
 	ret->len = len;
 	ret->data[len] = '\0';
 	*self = ret;
 }
 
-void str_recalloc(str_t **const self, size_t len)
+void str_recalloc(str_t **restrict const self, size_t len)
 {
-	str_t *ret = *self;
+	str_t *restrict ret = *self;
 	size_t old_len = ret->len;
 	str_realloc(&ret, len);
 	if (len > old_len)
@@ -37,7 +37,7 @@ void str_recalloc(str_t **const self, size_t len)
 	*self = ret;
 }
 
-void str_free(str_t *const self)
+void str_free(str_t *restrict const self)
 {
 	free(self);
 }

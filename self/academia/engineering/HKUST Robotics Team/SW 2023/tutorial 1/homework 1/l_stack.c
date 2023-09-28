@@ -1,24 +1,24 @@
 #include <stdlib.h>
 #include "l_stack.h"
 
-void l_stack_push(l_stack_t **const self, void *data)
+void l_stack_push(l_stack_t **restrict const self, void *restrict data)
 {
-	l_stack_t *ret = malloc(sizeof(l_stack_t));
+	l_stack_t *restrict ret = malloc(sizeof(l_stack_t));
 	ret->prev = *self;
 	ret->data = data;
 	*self = ret;
 }
 
-void *l_stack_pop(l_stack_t **const self)
+void *l_stack_pop(l_stack_t **restrict self)
 {
-	l_stack_t *next = *self;
-	void *data = next->data;
+	l_stack_t *restrict next = *self;
+	void *restrict data = next->data;
 	*self = next->prev;
 	free(next);
 	return data;
 }
 
-void l_stack_reverse(l_stack_t **const self)
+void l_stack_reverse(l_stack_t **restrict const self)
 {
 	l_stack_t *prev = NULL, *cur = *self, *next;
 	while (cur)
@@ -31,7 +31,7 @@ void l_stack_reverse(l_stack_t **const self)
 	*self = prev;
 }
 
-void l_stack_free(l_stack_t *self, void (*freer)(void *))
+void l_stack_free(l_stack_t *restrict self, void (*freer)(void *))
 {
 	if (freer)
 	{

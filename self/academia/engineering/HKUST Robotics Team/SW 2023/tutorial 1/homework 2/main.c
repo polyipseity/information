@@ -7,14 +7,14 @@
 #define MAZE_ROW_NUM 10
 #define MAZE_COL_NUM 20
 
-char const *const msg_prompt_input_movement = "Enter a direction to move (w: up, a: left, s: down, d: right): \n";
-char const *const msg_prompt_input_treasure_location = "Please enter the row and column of the treasure\n";
-char const *const msg_prompt_input_exit_direction = "Please enter the exit direction (0: up, 1: down, 2: left, 3: right)\n";
-char const *const msg_congratulation = "Congratulations! You found the treasure!\n";
-char const *const msg_cannot_move_left = "You cannot move left!\n";
-char const *const msg_cannot_move_right = "You cannot move right!\n";
-char const *const msg_cannot_move_up = "You cannot move up!\n";
-char const *const msg_cannot_move_down = "You cannot move down!\n";
+char const msg_prompt_input_movement[] = "Enter a direction to move (w: up, a: left, s: down, d: right): \n";
+char const msg_prompt_input_treasure_location[] = "Please enter the row and column of the treasure\n";
+char const msg_prompt_input_exit_direction[] = "Please enter the exit direction (0: up, 1: down, 2: left, 3: right)\n";
+char const msg_congratulation[] = "Congratulations! You found the treasure!\n";
+char const msg_cannot_move_left[] = "You cannot move left!\n";
+char const msg_cannot_move_right[] = "You cannot move right!\n";
+char const msg_cannot_move_up[] = "You cannot move up!\n";
+char const msg_cannot_move_down[] = "You cannot move down!\n";
 
 typedef enum direction
 {
@@ -110,7 +110,12 @@ void printVariables()
 
 int main()
 {
-  char const *const msgs_cannot_move[RIGHT - UP + 1] = {msg_cannot_move_up, msg_cannot_move_down, msg_cannot_move_left, msg_cannot_move_right};
+  char const *const msgs_cannot_move[RIGHT - UP + 1] = {
+      msg_cannot_move_up,
+      msg_cannot_move_down,
+      msg_cannot_move_left,
+      msg_cannot_move_right,
+  };
   // input TREASURE ROW, TREASURE_COL and EXIT_DIRECTION
   printf("%s", msg_prompt_input_treasure_location);
   scanf("%d", &treasure_pos.y);
