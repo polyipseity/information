@@ -13,7 +13,7 @@ typedef enum op_t
 } op_t;
 op_t op_from_char(char chr);
 
-typedef double(op_function)(double, double);
+typedef intmax_t(op_function)(intmax_t, intmax_t);
 extern int const op_priorities[END - PLUS + 1];
 extern op_function *const op_functions[END - PLUS + 1];
 

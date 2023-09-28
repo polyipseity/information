@@ -1,3 +1,4 @@
+#include <inttypes.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -112,19 +113,19 @@ fail:
     return NULL;
 }
 
-bool evaluate_postfix(double *restrict const out, l_stack_t const *restrict postfix)
+bool evaluate_postfix(intmax_t *restrict const out, l_stack_t const *restrict postfix)
 {
     bool ret = true;
     l_stack_t *vals = NULL;
     for (l_stack_t const *cur = postfix; cur; cur = cur->prev)
     {
         ast_t *restrict ast = cur->data;
-        double *restrict val;
+        intmax_t *restrict val;
         switch (ast->tag)
         {
         case VALUE:
-            val = malloc(sizeof(double));
-            *val = (double)ast->val;
+            val = malloc(sizeof(intmax_t));
+            *val = ast->val;
             l_stack_push(&vals, val);
             break;
         case OPERATOR:
@@ -133,17 +134,17 @@ bool evaluate_postfix(double *restrict const out, l_stack_t const *restrict post
                 goto fail;
             }
             val = l_stack_pop(&vals);
-            double right = *val;
+            intmax_t right = *val;
             free(val);
             val = l_stack_pop(&vals);
-            double left = *val;
+            intmax_t left = *val;
             free(val);
             op_function *func = op_functions[ast->op];
             if (!func)
             {
                 goto fail;
             }
-            val = malloc(sizeof(double));
+            val = malloc(sizeof(intmax_t));
             *val = (*func)(left, right);
             l_stack_push(&vals, val);
             break;
@@ -155,7 +156,7 @@ bool evaluate_postfix(double *restrict const out, l_stack_t const *restrict post
     {
         goto fail;
     }
-    *out = *(double *)vals->data;
+    *out = *(intmax_t *)vals->data;
 cleanup:
     l_stack_free(vals, &free);
     return ret;
@@ -170,11 +171,11 @@ int main(void)
     printf("%s", msg_input);
     str_t *restrict input = read_line(stdin);
     l_stack_t *restrict postfix = parse_to_postfix(input);
-    double calculated;
+    intmax_t calculated;
     printf("%s", msg_output);
     if (postfix && evaluate_postfix(&calculated, postfix))
     {
-        printf("%g", calculated);
+        printf("%" PRIdMAX, calculated);
     }
     else
     {
