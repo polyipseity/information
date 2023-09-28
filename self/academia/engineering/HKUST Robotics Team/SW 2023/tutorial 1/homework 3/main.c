@@ -54,7 +54,7 @@ int main()
     if (base != 3 && base != 10 && base != 12)
     {
         printf("%s", error_msg_unsupported_system);
-        return 1;
+        return 0;
     }
     uint_fast64_t val = 0;
     for (int ii = 0; input[ii] != '\0'; ++ii)
@@ -63,7 +63,7 @@ int main()
         if (digit >= base || digit == 0 && input[ii] != '0')
         {
             printf("%s", error_msgs_system[base]);
-            return 1;
+            return 0;
         }
         val *= base;
         val += digit;
@@ -81,7 +81,7 @@ int main()
     if (new_base != 3 && new_base != 10 && new_base != 12)
     {
         printf("%s", error_msg_unsupported_system);
-        return 1;
+        return 0;
     }
 
     /**
