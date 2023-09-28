@@ -8,7 +8,6 @@ typedef enum op_t
 	MINUS,
 	MULTIPLY,
 	DIVIDE,
-	POWER,
 	PARENTHESIS,
 	END,
 } op_t;
