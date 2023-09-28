@@ -20,19 +20,19 @@ op_t op_from_char(char chr)
 	}
 }
 
-double plus(double a, double b)
+intmax_t plus(intmax_t a, intmax_t b)
 {
 	return a + b;
 }
-double minus(double a, double b)
+intmax_t minus(intmax_t a, intmax_t b)
 {
 	return a - b;
 }
-double multiply(double a, double b)
+intmax_t multiply(intmax_t a, intmax_t b)
 {
 	return a * b;
 }
-double divide(double a, double b)
+intmax_t divide(intmax_t a, intmax_t b)
 {
 	return a / b;
 }
