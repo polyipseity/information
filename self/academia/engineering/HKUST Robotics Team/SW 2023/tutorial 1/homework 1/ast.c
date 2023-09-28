@@ -1,5 +1,4 @@
 #include <limits.h>
-#include <math.h>
 #include "ast.h"
 
 op_t op_from_char(char chr)
@@ -14,8 +13,6 @@ op_t op_from_char(char chr)
 		return MULTIPLY;
 	case '/':
 		return DIVIDE;
-	case '^':
-		return POWER;
 	case '(':
 		return PARENTHESIS;
 	default:
@@ -39,12 +36,8 @@ double divide(double a, double b)
 {
 	return a / b;
 }
-double power(double a, double b)
-{
-	return pow(a, b);
-}
-int const op_priorities[] = {0, 0, 1, 1, 2, -1, INT_MIN};
-op_function *const op_functions[] = {&plus, &minus, &multiply, &divide, &power};
+int const op_priorities[] = {0, 0, 1, 1, -1, INT_MIN};
+op_function *const op_functions[] = {&plus, &minus, &multiply, &divide};
 
 ast_t ast_from_op(op_t op)
 {
