@@ -171,18 +171,16 @@ int main(void)
     str_t *restrict input = read_line(stdin);
     l_stack_t *restrict postfix = parse_to_postfix(input);
     double calculated;
-    if (!postfix || !evaluate_postfix(&calculated, postfix))
-    {
-        goto fail;
-    }
     printf("%s", msg_output);
-    printf("%g", calculated);
-cleanup:
+    if (postfix && evaluate_postfix(&calculated, postfix))
+    {
+        printf("%g", calculated);
+    }
+    else
+    {
+        printf("%s", error_msg);
+    }
     l_stack_free(postfix, &free);
     str_free(input);
     return ret;
-fail:
-    printf("%s", error_msg);
-    ret = 1;
-    goto cleanup;
 }
