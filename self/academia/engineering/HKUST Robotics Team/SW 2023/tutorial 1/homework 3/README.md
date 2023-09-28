@@ -12,6 +12,13 @@ There are so many number systems. We encounter some unusual number systems in ou
 
 Write a Number System Converter that converts a positive integer from one system to another. You have to handle 3 systems: decimal, duodecimal, and trinary. The converter should be able to convert from/to any of the three systems.
 
+## Assumption
+
+1. There are no spaces between the digits of the input string.
+2. The input string is a non-negative integer. Or else it throws an error message.
+3. The input and output values are in range: $0\leq{}n\leq{}2^{64}-1$
+4. The inputted number system must be an integer.
+
 ## Example
 
 This is an example that converts 123123123 from decimal to trinary:
