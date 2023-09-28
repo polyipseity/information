@@ -8,7 +8,7 @@ int main()
 
   // your code starts here
   int len = 0;
-  for (; len < sizeof(input) / sizeof(char); ++len)
+  for (; len < sizeof input / sizeof(char); ++len)
   {
     if (input[len] == ' ')
     {
