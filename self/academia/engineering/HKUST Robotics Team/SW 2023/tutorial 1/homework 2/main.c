@@ -140,7 +140,7 @@ int main()
 
   bool br_start = treasure_pos.y + 1 == MAZE_ROW_NUM && treasure_pos.x + 1 == MAZE_COL_NUM;
   pos_t player_pos = {.y = br_start ? MAZE_ROW_NUM - 1 : 0, .x = br_start ? MAZE_COL_NUM - 1 : 0};
-  for (char cc2 = getc(stdin); cc2 != EOF && cc2 != '\n'; cc2 = getc(stdin))
+  for (int cc2 = getc(stdin); cc2 != EOF && cc2 != '\n'; cc2 = getc(stdin))
     ;
   while (!pos_equals(player_pos, treasure_pos))
   {
@@ -148,7 +148,7 @@ int main()
     printMaze();
     printf("%s", msg_prompt_input_movement);
     pos_t player_pos2 = player_pos;
-    for (char cc = getc(stdin); cc != EOF && cc != '\n'; cc = getc(stdin))
+    for (int cc = getc(stdin); cc != EOF && cc != '\n'; cc = getc(stdin))
     {
       direction dir;
       if (cc == 'w')
@@ -189,7 +189,7 @@ int main()
     }
     else
     {
-      for (char cc = getc(stdin); cc != EOF && cc != '\n'; cc = getc(stdin))
+      for (int cc = getc(stdin); cc != EOF && cc != '\n'; cc = getc(stdin))
         ;
     }
   }
