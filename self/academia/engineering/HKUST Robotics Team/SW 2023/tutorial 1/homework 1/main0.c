@@ -13,7 +13,7 @@ char const error_msg[] = "ERROR! The string input is not supported!!\n";
 str_t *read_line(FILE *restrict stream)
 {
     str_t *restrict ret = str_malloc(0);
-    for (char cc = getc(stream); cc != EOF && cc != '\n'; cc = getc(stream))
+    for (int cc = getc(stream); cc != EOF && cc != '\n'; cc = getc(stream))
     {
         size_t idx = ret->len;
         str_realloc(&ret, idx + 1);
