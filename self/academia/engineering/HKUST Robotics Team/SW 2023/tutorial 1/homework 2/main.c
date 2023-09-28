@@ -82,7 +82,6 @@ void printMaze()
     }
     printf("\n");
   }
-  printf("\n");
 }
 
 void printVariables()
@@ -118,8 +117,7 @@ int main()
   };
   // input TREASURE ROW, TREASURE_COL and EXIT_DIRECTION
   printf("%s", msg_prompt_input_treasure_location);
-  scanf("%d", &treasure_pos.y);
-  scanf("%d", &treasure_pos.x);
+  scanf("%d %d", &treasure_pos.y, &treasure_pos.x);
 
   printf("%s", msg_prompt_input_exit_direction);
   scanf("%d", &exit_direction);
@@ -142,6 +140,8 @@ int main()
 
   bool br_start = treasure_pos.y + 1 == MAZE_ROW_NUM && treasure_pos.x + 1 == MAZE_COL_NUM;
   pos_t player_pos = {.y = br_start ? MAZE_ROW_NUM - 1 : 0, .x = br_start ? MAZE_COL_NUM - 1 : 0};
+  for (char cc2 = getc(stdin); cc2 != EOF && cc2 != '\n'; cc2 = getc(stdin))
+    ;
   while (!pos_equals(player_pos, treasure_pos))
   {
     maze[player_pos.y][player_pos.x] = 'P';
