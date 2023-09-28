@@ -27,7 +27,20 @@ Specifically, the assignment requires the following:
 
 1. The maze can be represented as having a fixed size of 10 rows and 20 columns.
 2. Only one exit is created in the barriers surrounding the treasure. The exit is determined by user input.
-3. If the player enters anything other than 'w', 'a', 's', 'd', it is considered invalid, and the player is asked for input again.
+3. The input of TREASURE_ROW is in range: $0\leq{}n\leq9$
+4. The input of TREASURE_COL is in range: $0\leq{}n\leq19$
+5. The input of EXIT_DIRECTION is in range: $0\leq{}n\leq3$ and the inputted EXIT_DIRECTION will always create a path for the player to go to the treasure.
+6. The treasure and barriers will never occupy the player's initial position.
+7. If the player enters anything other than 'w', 'a', 's', 'd', it is considered invalid, and the player is asked for input again.
+
+## Program Output
+
+![](image.png)
+
+Some program output reminders:
+
+1. There is no space between the maze and the next prompt. Don't print extra '\n' between them. Please use the functions provided to print the maze.
+2. If the player reaches the treasure, only the `Congratulations! ...` line is printed. The maze is not printed once you reach the treasure. The player WON'T go on top of the treasure.
 
 ## Example video
 

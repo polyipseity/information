@@ -17,9 +17,11 @@ In this assignment, you have to create a similar calculator that only deals with
 The following assumptions are allowed to be applied in the EXTRA LEVEL.
 
 1. There are no spaces between values and operators in the user string input e.g. 1+2+3-4, 2-9-8-7
-2. If the value is a number, it must be a positive integer. E.g. there is no 5+-9--7+10
-3. If the string input contains any characters other than numbers (0-9) or operators(+-), the program throws an error message
-4. The maximum length of the input string is 200 characters.
+2. If the value is a number, it must be a non-negative integer. E.g. there is no 5+-9--7+10
+3. Although all input numbers are non-negative, the intermediate results and/or the final result might be negative
+4. The input numbers, intermediate results and the final result is in range: $-2^{63}\leq{}n\leq2^{63}-1$
+5. If the string input contains any characters other than numbers (0-9) or operators(+-), the program throws an error message
+6. The maximum length of the input string is 200 characters.
 
 ### Example
 
@@ -46,9 +48,23 @@ ERROR! The string input is not supported!!
 
 ## EXTRA LEVEL
 
-Math is not only restricted by the 2 simple operations. There are multiplication (*) and division(/) (not to mention complicated operations like integration(∫), etc. ). In this Extra level, your task is to create a calculator that supports all 4 basic operations(+-*/) and parentheses.
+Math is not only restricted by the 2 simple operations. There are multiplication (\*) and division(/) (not to mention complicated operations like integration(∫), etc. ). In this Extra level, your task is to create a calculator that supports all 4 basic operations(+-*/) and parentheses.
 
 (Hint keywords: stack, postfix notation)
+
+### Extra Assumption for Extra level
+
+The following assumptions are applied in the EXTRA LEVEL only.
+
+1. There are no spaces between values and operators in the user string input e.g. 1+2+3-4, 2-9-8-7
+2. If the value is a number, it must be a non-negative integer. E.g. there is no 5+-9--7+10
+3. Although all input numbers are non-negative, the intermediate results and/or the final result might be negative
+4. The input numbers, intermediate results and the final result is in range: $-2^{63}\leq{}n\leq2^{63}-1$
+5. If the string input contains any characters other than numbers (0-9) or operators (+-*/()), the program throws an error message
+6. If the number of '(' does not match with the number of ')',  the program throws the same error message as above.
+7. There must be a operator (+-*/()) before and after '(' and ')' unless the '(', ')' is in the front or back of the expression.
+8. The / is integer division. So, 22/7 = 3 instead of 3.14
+9. The maximum length of the input string is 200 characters.
 
 ```console
 Please input a math equation:
