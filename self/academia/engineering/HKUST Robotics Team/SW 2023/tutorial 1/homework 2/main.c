@@ -189,7 +189,7 @@ int main()
     }
     else
     {
-      for (char cc2 = getc(stdin); cc2 != EOF && cc2 != '\n'; cc2 = getc(stdin))
+      for (char cc = getc(stdin); cc != EOF && cc != '\n'; cc = getc(stdin))
         ;
     }
   }
