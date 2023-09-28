@@ -167,7 +167,7 @@ fail:
 int main(void)
 {
     int ret = 0;
-    printf_s("%s", msg_input);
+    printf("%s", msg_input);
     str_t *restrict input = read_line(stdin);
     l_stack_t *restrict postfix = parse_to_postfix(input);
     double calculated;
@@ -175,14 +175,14 @@ int main(void)
     {
         goto fail;
     }
-    printf_s("%s", msg_output);
-    printf_s("%g", calculated);
+    printf("%s", msg_output);
+    printf("%g", calculated);
 cleanup:
     l_stack_free(postfix, &free);
     str_free(input);
     return ret;
 fail:
-    printf_s("%s", error_msg);
+    printf("%s", error_msg);
     ret = 1;
     goto cleanup;
 }
