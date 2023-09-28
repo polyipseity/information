@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-char const error_msg_decimal[] = "Error! That set of numbers is not a decimal number.\n";
+char const error_msg_decimal[] = "Error! That set of number is not a decimal number.\n";
 char const error_msg_trinary[] = "Error! That set of number is not a trinary number.\n";
 char const error_msg_duodecimal[] = "Error! That set of number is not a duodecimal number.\n";
 char const error_msg_unsupported_system[] = "Error! The number system is not supported.\n";
