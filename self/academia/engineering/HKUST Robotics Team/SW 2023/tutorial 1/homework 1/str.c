@@ -27,7 +27,7 @@ void str_realloc(str_t **restrict const self, size_t len)
 
 void str_recalloc(str_t **restrict const self, size_t len)
 {
-	str_t *restrict ret = *self;
+	str_t *ret = *self;
 	size_t old_len = ret->len;
 	str_realloc(&ret, len);
 	if (len > old_len)

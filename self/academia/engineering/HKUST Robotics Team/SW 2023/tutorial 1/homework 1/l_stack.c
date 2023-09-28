@@ -31,7 +31,7 @@ void l_stack_reverse(l_stack_t **restrict const self)
 	*self = prev;
 }
 
-void l_stack_free(l_stack_t *restrict self, void (*freer)(void *))
+void l_stack_free(l_stack_t *self, void (*freer)(void *))
 {
 	if (freer)
 	{

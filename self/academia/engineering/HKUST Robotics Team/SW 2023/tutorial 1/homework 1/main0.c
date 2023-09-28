@@ -12,7 +12,7 @@ char const error_msg[] = "ERROR! The string input is not supported!!\n";
 
 str_t *read_line(FILE *restrict stream)
 {
-    str_t *restrict ret = str_malloc(0);
+    str_t *ret = str_malloc(0);
     for (int cc = getc(stream); cc != EOF && cc != '\n'; cc = getc(stream))
     {
         size_t idx = ret->len;
@@ -24,7 +24,7 @@ str_t *read_line(FILE *restrict stream)
 
 l_stack_t *parse_to_postfix(str_t const *restrict input)
 {
-    l_stack_t *restrict ret = NULL, *restrict op_stack = NULL;
+    l_stack_t *ret = NULL, *op_stack = NULL;
     intmax_t val = -1;
     for (size_t ii = 0; ii < input->len; ++ii)
     {
@@ -115,7 +115,7 @@ fail:
 bool evaluate_postfix(double *restrict const out, l_stack_t const *restrict postfix)
 {
     bool ret = true;
-    l_stack_t *restrict vals = NULL;
+    l_stack_t *vals = NULL;
     for (l_stack_t const *cur = postfix; cur; cur = cur->prev)
     {
         ast_t *restrict ast = cur->data;

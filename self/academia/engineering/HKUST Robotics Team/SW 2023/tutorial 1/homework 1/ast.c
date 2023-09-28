@@ -1,3 +1,4 @@
+#include <limits.h>
 #include <math.h>
 #include "ast.h"
 
@@ -38,8 +39,12 @@ double divide(double a, double b)
 {
 	return a / b;
 }
-int const op_priorities[] = {0, 0, 1, 1, 2, -1, -2147483648};
-op_function *const op_functions[] = {&plus, &minus, &multiply, &divide, &pow, NULL, NULL};
+double power(double a, double b)
+{
+	return pow(a, b);
+}
+int const op_priorities[] = {0, 0, 1, 1, 2, -1, INT_MIN};
+op_function *const op_functions[] = {&plus, &minus, &multiply, &divide, &power};
 
 ast_t ast_from_op(op_t op)
 {
