@@ -4,23 +4,22 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-const char* const error_msg_decimal = "Error! That set of numbers is not a decimal number.\n";
-const char* const error_msg_trinary = "Error! That set of number is not a trinary number.\n";
-const char* const error_msg_duodecimal = "Error! That set of number is not a duodecimal number.\n";
-const char* const error_msg_unsupported_system = "Error! The number system is not supported.\n";
+char const *const error_msg_decimal = "Error! That set of numbers is not a decimal number.\n";
+char const *const error_msg_trinary = "Error! That set of number is not a trinary number.\n";
+char const *const error_msg_duodecimal = "Error! That set of number is not a duodecimal number.\n";
+char const *const error_msg_unsupported_system = "Error! The number system is not supported.\n";
+char const *const msg_prompt_number = "Please enter a set of number:\n";
+char const *const msg_prompt_current_number_system = "Please enter the current number system:\n";
+char const *const msg_prompt_number_system_to_convert = "Please enter the number system you want the set of number be converted to:\n";
+char const *const msg_output = "Output=";
 
-const char* const msg_prompt_number = "Please enter a set of number:\n";
-const char* const msg_prompt_current_number_system = "Please enter the current number system:\n";
-const char* const msg_prompt_number_system_to_convert = "Please enter the number system you want the set of number be converted to:\n";
-const char* const msg_output = "Output=";
+int main()
+{
 
-int main(){
-    
-    
     printf("%s", msg_prompt_number);
-    
+
     /**
-     * @brief 
+     * @brief
      * Get user input for number to be convert
      */
 
@@ -29,7 +28,7 @@ int main(){
     printf("%s", msg_prompt_current_number_system);
 
     /**
-     * @brief 
+     * @brief
      * Get user input for current number system
      */
 
@@ -37,7 +36,7 @@ int main(){
     printf("%s", msg_prompt_number_system_to_convert);
 
     /**
-     * @brief 
+     * @brief
      * Get user input for the number system for conversion.
      * Print converted number in format of "Output=12", e.g Output=ABCDEF
      * No space should be inserted in the asnwer "Output=XXX".
@@ -45,7 +44,6 @@ int main(){
      */
 
     // TODO:
-
 
     return 0;
 }
