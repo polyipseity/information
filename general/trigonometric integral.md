@@ -15,10 +15,15 @@ aliases:
   - Si
   - Si()
   - Si(x)
+  - cosine integral
+  - cosine integrals
   - si
   - si()
   - si(x)
+  - sine integral
+  - sine integrals
   - trigonometric integral
+  - trigonometric integrals
 tags:
   - flashcards/general/trigonometric_integral
 ---
@@ -29,14 +34,14 @@ tags:
 
 > {{__Si(x), si(x)__}}
 >
-> - {{$\operatorname{Si}(x)=\int_0^x\!\frac{\sin{t}}t\,\mathrm{d}t$}}
-> - {{$\operatorname{si}(x)=-\int_x^\infty\!\frac{\sin{t}}t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}}
+> - {{$\operatorname{Si}(x)=\int_0^x\!\frac{\sin{t} }t\,\mathrm{d}t$}}
+> - {{$\operatorname{si}(x)=-\int_x^\infty\!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}}
 
 ## cosine integral
 
 > {{__Cin(x), Ci(x)__}}
 >
-> - {{$\operatorname{Cin}(x)=\int_0^x\!\frac{1-\cos{t}}t\,\mathrm{d}t$}}
-> - {{$\operatorname{Ci}(x)=-\int_x^\infty\!\frac{\cos{t}}t\,\mathrm{d}t=\gamma+\ln{x}-\operatorname{Cin}(x)$}}
+> - {{$\operatorname{Cin}(x)=\int_0^x\!\frac{1-\cos{t} }t\,\mathrm{d}t$}}
+> - {{$\operatorname{Ci}(x)=-\int_x^\infty\!\frac{\cos{t} }t\,\mathrm{d}t=\gamma+\ln{x}-\operatorname{Cin}(x)$}}
 > - where
 >   - $\gamma$ is the [Euler's constant](Euler's%20constant.md)

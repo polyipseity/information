@@ -50,11 +50,11 @@ e = __env__
 return await memorize_seq(
   e.cwf_sects('0d9f', 'ff12'),
   (
-		'[autonomous](#^autonomous)',
-		'[homogeneous](#^homogeneous)',
-		'[linear](#^linear)',
-		'[nonhomogeneous](#^nonhomogeneous)/inhomogeneous',
-		'[nonlinear](#^nonlinear)',
+    '[autonomous](#^autonomous)',
+    '[homogeneous](#^homogeneous)',
+    '[linear](#^linear)',
+    '[nonhomogeneous](#^nonhomogeneous)/inhomogeneous',
+    '[nonlinear](#^nonlinear)',
   ),
 )
 ```
@@ -120,8 +120,8 @@ F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
 xe^y\frac{\mathrm{d}y}{\mathrm{d}x}&=y\sin{x}\\
 xe^y\frac{\mathrm{d}y}{\mathrm{d}x}-y\sin{x}&=0\\
 xe^y\,\mathrm{d}y-y\sin{x}\,\mathrm{d}x&=0\\
-\frac{e^y}y\,\mathrm{d}y-\frac{\sin{x}}x\,\mathrm{d}x&=0\\
-\int\!\frac{e^y}y\,\mathrm{d}y-\int\!\frac{\sin{x}}x\,\mathrm{d}x&=C\\
+\frac{e^y}y\,\mathrm{d}y-\frac{\sin{x} }x\,\mathrm{d}x&=0\\
+\int\!\frac{e^y}y\,\mathrm{d}y-\int\!\frac{\sin{x} }x\,\mathrm{d}x&=C\\
 \operatorname{Ei}(y)-\operatorname{Si}(x)&=C\\
 \operatorname{Ei}(y)&=\operatorname{Si}(x)+C\\
 y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
@@ -165,32 +165,32 @@ y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
 > {{__second-order, [autonomous](#^autonomous)__}}
 >
 > - form: {{$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$}}
-> - solution: {{multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d}}{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice}}
+> - solution: {{multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice}}
 > - steps: $$\begin{aligned}
 \frac{\mathrm{d}^2y}{\mathrm{d}x^2}&=F(y)\\
 2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}&=2\frac{\mathrm{d}y}{\mathrm{d}x}F(y)\\
-\frac{\mathrm{d}}{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2&=2\frac{\mathrm{d}y}{\mathrm{d}x}F(y)\\
+\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2&=2\frac{\mathrm{d}y}{\mathrm{d}x}F(y)\\
 \mathrm{d}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2&=2F(y)\,\mathrm{d}y\\
 \int\!\mathrm{d}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2&=\int\!2F(y)\,\mathrm{d}y\\
 \left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2&=2\int\!F(y)\,\mathrm{d}y+C_1\\
 \frac{\mathrm{d}y}{\mathrm{d}x}&=\pm\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1}\\
-\int\!\mathrm{d}x&=\int\!\frac{\mathrm{d}y}{\pm\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1}}\\
-x&=\pm\int\!\frac{\mathrm{d}y}{\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1}}+C_2
+\int\!\mathrm{d}x&=\int\!\frac{\mathrm{d}y}{\pm\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1} }\\
+x&=\pm\int\!\frac{\mathrm{d}y}{\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1} }+C_2
 \end{aligned}$$
 > - example: $$\begin{aligned}
 \frac{\mathrm{d}^2x}{\mathrm{d}t^2}&=-\frac{k}mx\\
 2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{\mathrm{d}^2x}{\mathrm{d}t^2}&=-2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{k}mx\\
-\frac{\mathrm{d}}{\mathrm{d}t}\!\left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2&=-2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{k}mx\\
+\frac{\mathrm{d} }{\mathrm{d}t}\!\left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2&=-2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{k}mx\\
 \int\!\mathrm{d}\!\left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2&=-\frac{2k}m\int\!x\,\mathrm{d}x\\
 \left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2&=-\frac{kx^2}m+C_1\\
 \frac{\mathrm{d}x}{\mathrm{d}t}&=\pm\sqrt{-\frac{kx^2}m+C_1}\\
-\int\!\mathrm{d}t&=\pm\int\!\frac{\mathrm{d}x}{\sqrt{-\frac{kx^2}m+C_1}}\\
-t&=\pm\sqrt{\frac{mC_1}k}\int\!\frac{\cos\theta\,\mathrm{d}\theta}{\sqrt{-C_1\sin^2\theta+C_1}}&\left(x\overset{\mathrm{def} }=\sqrt{\frac{mC_1}k}\sin\theta,\theta\in\left[-\frac\pi2,\frac\pi2\right]\right)\\
+\int\!\mathrm{d}t&=\pm\int\!\frac{\mathrm{d}x}{\sqrt{-\frac{kx^2}m+C_1} }\\
+t&=\pm\sqrt{\frac{mC_1}k}\int\!\frac{\cos\theta\,\mathrm{d}\theta}{\sqrt{-C_1\sin^2\theta+C_1} }&\left(x\overset{\mathrm{def} }=\sqrt{\frac{mC_1}k}\sin\theta,\theta\in\left[-\frac\pi2,\frac\pi2\right]\right)\\
 &=\pm\sqrt{\frac{m}k}\int\!\mathrm{d}\theta\\
 &=\pm\sqrt{\frac{m}k}\theta+C_2\\
-&=\pm\sqrt{\frac{m}k}\arcsin\frac{x}{\sqrt{\frac{mC_1}k}}+C_2\\
+&=\pm\sqrt{\frac{m}k}\arcsin\frac{x}{\sqrt{\frac{mC_1}k} }+C_2\\
 &=\pm\sqrt{\frac{m}k}\arcsin{}C_1x+C_2\\
-\arcsin{}C_1x&=\pm\frac{t-C_2}{\sqrt{\frac{m}k}}\\
+\arcsin{}C_1x&=\pm\frac{t-C_2}{\sqrt{\frac{m}k} }\\
 &=\pm\sqrt{\frac{k}m}t+C_2\\
 C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\

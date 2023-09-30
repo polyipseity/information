@@ -59,5 +59,6 @@
     "tools/"
   ],
   "focusNewTab": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "useTab": false
 }
