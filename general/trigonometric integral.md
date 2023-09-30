@@ -15,10 +15,15 @@ aliases:
   - Si
   - Si()
   - Si(x)
+  - cosine integral
+  - cosine integrals
   - si
   - si()
   - si(x)
+  - sine integral
+  - sine integrals
   - trigonometric integral
+  - trigonometric integrals
 tags:
   - flashcards/general/trigonometric_integral
 ---
