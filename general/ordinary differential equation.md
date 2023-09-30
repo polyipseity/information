@@ -50,11 +50,11 @@ e = __env__
 return await memorize_seq(
   e.cwf_sects('0d9f', 'ff12'),
   (
-		'[autonomous](#^autonomous)',
-		'[homogeneous](#^homogeneous)',
-		'[linear](#^linear)',
-		'[nonhomogeneous](#^nonhomogeneous)/inhomogeneous',
-		'[nonlinear](#^nonlinear)',
+    '[autonomous](#^autonomous)',
+    '[homogeneous](#^homogeneous)',
+    '[linear](#^linear)',
+    '[nonhomogeneous](#^nonhomogeneous)/inhomogeneous',
+    '[nonlinear](#^nonlinear)',
   ),
 )
 ```

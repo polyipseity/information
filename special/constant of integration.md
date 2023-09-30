@@ -1,7 +1,7 @@
 ---
 aliases:
   - constant of integration
-	- constants of integration
+  - constants of integration
 tags:
   - flashcards/special/constant_of_integration
 ---
