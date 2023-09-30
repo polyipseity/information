@@ -113,8 +113,8 @@ void hat(int height) {
 
 > - `size = 11`
 > - `i` from 1 to end of array `a`
-> 	- check if `a[0]` to `a[k]` is all different from `a[i]`
-> 		- if so, increment `k` and set `a[k]` to `a[i]`
+>   - check if `a[0]` to `a[k]` is all different from `a[i]`
+>     - if so, increment `k` and set `a[k]` to `a[i]`
 >
 > 1. `i = 1, k = 1`
 > 2. `i = 2, k = 2`
