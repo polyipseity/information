@@ -71,12 +71,12 @@ x&=x_0\cos\sqrt{\frac{k}m}t+v_0\sqrt{\frac{m}k}\sin\sqrt{\frac{k}m}t\\
 \left(x_0,v_0\right)&=\left(-\frac{mg}k,1\right)\\
 v&=-x_0\sqrt{\frac{k}m}\sin\sqrt{\frac{k}m}t+v_0\cos\sqrt{\frac{k}m}t\\
 0&=-x_0\sqrt{\frac{k}m}\sin\sqrt{\frac{k}m}t+v_0\cos\sqrt{\frac{k}m}t\\
-\tan\sqrt{\frac{k}m}t&=\frac{v_0}{x_0\sqrt{\frac{k}m}}\\
+\tan\sqrt{\frac{k}m}t&=\frac{v_0}{x_0\sqrt{\frac{k}m} }\\
 &\approx-1.01971621\\
 \sqrt{\frac{k}m}t&\approx2.3464329\mathrm{\ or\ }5.4880255\\
 x&\approx0.1400607\mathrm{\ m}\text{ or }-0.1400607\mathrm{\ m}\\
 A&\approx0.1400607\mathrm{\ m}\\
-T&=\frac{2\pi}{\sqrt{\frac{k}m}}\\
+T&=\frac{2\pi}{\sqrt{\frac{k}m} }\\
 &=\frac{2\pi}{10}\\
 &=\frac\pi5\\
 &\approx0.628318531\mathrm{\ s}
