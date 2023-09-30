@@ -11,10 +11,10 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### global
 
-- open file:::Ctrl+O <!--SR:!2023-09-24,197,315!2023-09-25,197,316-->
+- open file:::Ctrl+O <!--SR:!2026-03-15,897,335!2026-03-17,899,336-->
 - save file:::Ctrl+S <!--SR:!2024-02-20,313,336!2024-01-13,285,336-->
 - new file:::Ctrl+N <!--SR:!2023-12-02,238,290!2024-11-23,505,316-->
-- undo:::Ctrl+Z <!--SR:!2023-09-28,197,310!2024-11-26,508,316-->
+- undo:::Ctrl+Z <!--SR:!2026-03-14,896,330!2024-11-26,508,316-->
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2025-06-06,662,330!2023-11-29,120,236-->
 - quit:::Ctrl+Q <!--SR:!2024-10-30,486,310!2024-03-21,329,316-->
 - help:::F1 <!--SR:!2024-10-31,487,310!2023-10-25,75,270-->
@@ -23,12 +23,12 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - file context menu:::F4 <!--SR:!2023-12-15,133,190!2024-04-24,310,276-->
 - show render window:::F11 <!--SR:!2025-09-03,725,315!2024-03-29,246,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2025-11-29,812,336-->
-- quick access:::Q <!--SR:!2023-10-27,200,270!2023-09-27,155,250-->
+- quick access:::Q <!--SR:!2023-10-27,200,270!2024-10-27,393,250-->
 - toggle maximize area:::Ctrl+Space <!--SR:!2023-10-14,35,150!2024-10-16,397,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-03-26,251,210!2024-03-25,222,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
-- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-09-28,32,210!2024-01-25,138,195-->
+- reverse playback:::⇧Shift+Ctrl+Space <!--SR:!2023-12-11,72,210!2024-01-25,138,195-->
 
 ### editing
 
@@ -53,4 +53,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
   - +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2025-07-28,688,316-->
   - +expand/contract selection:::+Ctrl <!--SR:!2024-02-09,173,276!2024-04-14,218,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2023-11-13,111,210!2024-03-17,208,236-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-12-11,214,270!2023-09-24,40,135-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2023-12-11,214,270!2023-12-30,91,155-->

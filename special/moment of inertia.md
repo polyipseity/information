@@ -43,4 +43,4 @@ I&=\int_0^L2\int_0^R2\rho\sqrt{R^2-r^2}\left(r^2+l^2\right)\,\mathrm{d}r\,\mathr
 &=\rho{}R^2\left[\frac\pi4R^2l+\frac\pi3l^3\right]_{l=0}^{l=L}\\
 &=\frac\pi4\rho{}R^4L+\frac\pi3\rho{}R^2L^3\\
 &=\frac14MR^2+\frac13ML^2
-\end{aligned}$$ <!--SR:!2023-09-30,4,270!2023-09-29,3,250-->
+\end{aligned}$$ <!--SR:!2023-10-09,9,270!2023-10-12,12,270-->

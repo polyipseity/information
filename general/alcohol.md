@@ -27,7 +27,7 @@ Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols wi
 
 ### solubility
 
-{{[Methanol](methanol.md), [ethanol](ethanol.md), and [propanol](propanol.md)}} are [miscible](miscibility.md) with water in all proportions, while {{[butanol](butanol.md) is moderately water soluble}}. <!--SR:!2024-01-29,224,310!2023-09-27,94,290-->
+{{[Methanol](methanol.md), [ethanol](ethanol.md), and [propanol](propanol.md)}} are [miscible](miscibility.md) with water in all proportions, while {{[butanol](butanol.md) is moderately water soluble}}. <!--SR:!2024-01-29,224,310!2024-07-09,283,290-->
 
 ## chemical properties
 
@@ -45,7 +45,7 @@ Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to pro
 
 Primary alcohols {{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}}. {{Acidified [potassium dichromate](potassium%20dichromate.md)}} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2023-11-11,153,300!2024-03-22,248,320-->
 
-To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2023-09-30,116,275!2024-07-19,301,260-->
+To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2024-08-14,319,275!2024-07-19,301,260-->
 
 ### reactions
 

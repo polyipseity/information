@@ -9,4 +9,4 @@ tags:
 
 ## best viable function
 
-If one viable function is {{better than all others, overload resolution succeeds with said function being invoked. Otherwise, compilation fails.}} <!--SR:!2023-09-28,4,270-->
+If one viable function is {{better than all others, overload resolution succeeds with said function being invoked. Otherwise, compilation fails.}} <!--SR:!2023-10-24,24,290-->
