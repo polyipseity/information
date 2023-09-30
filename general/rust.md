@@ -24,8 +24,8 @@ Rusting of iron begins with {{the transfer of [electrons](electron.md) from [iro
 First, {{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}}. The {{iron(II) ions may be further oxidized by air to iron(III) ions}}:
 
 > 1. {{2Fe(s) + O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) → 2Fe<sup>2+</sup>(aq) + 4OH<sup>-</sup>(aq)
-> 	- O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)
-> 	- Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}}
+>   - O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)
+>   - Fe(s) → Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}}
 > 2. {{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g) → 4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}}
 
 After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}}:

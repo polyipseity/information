@@ -1,8 +1,8 @@
 ---
 aliases:
   - Ei
-	- Ei()
-	- Ei(x)
+   Ei()
+  - Ei(x)
   - exponential integral
 tags:
   - flashcards/general/exponential_integral
