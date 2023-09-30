@@ -59,7 +59,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4956"--><!-- The following content is generated at 2023-05-02T11:22:28.899300+08:00. Any edits will be overridden! -->
 
-1. _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→:::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2023-09-27,12,130!2024-02-07,153,310-->
+1. _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→:::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2023-10-07,7,130!2024-02-07,153,310-->
 2. [steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$→:::←[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$ <!--SR:!2023-10-23,64,230!2024-02-23,182,250-->
 3. [water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$→:::←_([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_ <!--SR:!2024-07-08,336,330!2023-11-26,104,210-->
 
@@ -117,7 +117,7 @@ return await memorize_seq(
 
 1. _(large scale implementation of the Haber process)_→:::←Purify and dry [syngas](syngas.md) in purifiers and driers. <!--SR:!2024-03-01,214,310!2024-05-11,288,330-->
 2. Purify and dry [syngas](syngas.md) in purifiers and driers.→:::←Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume. <!--SR:!2024-02-05,195,310!2024-03-20,229,310-->
-3. Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.→:::←The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md). <!--SR:!2023-09-25,85,230!2023-12-20,155,290-->
+3. Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.→:::←The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md). <!--SR:!2024-04-18,201,230!2023-12-20,155,290-->
 4. The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).→:::←The gas mixture is preheated in [heat exchangers](heat%20exchanger.md). <!--SR:!2023-11-24,150,290!2023-11-20,98,230-->
 5. The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).→:::←The gas mixture enters catalytic chambers for reaction. <!--SR:!2024-03-03,216,310!2023-12-22,157,290-->
 6. The gas mixture enters catalytic chambers for reaction.→:::←The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams. <!--SR:!2023-11-29,105,230!2024-03-21,230,310-->

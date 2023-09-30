@@ -9,17 +9,17 @@ tags:
 
 ## multidimensional arrays
 
-A multidimensional array is {{an array with another array as its element type}}. The declaration order of dimensions is {{the same as the acccess order, i.e. `int a[2][3]` means `a[0][0], a[0][1], a[0][2], a[1][0], a[1][1], a[1][2]` are accessible}}. <!--SR:!2023-09-28,4,270!2023-09-28,4,270-->
+A multidimensional array is {{an array with another array as its element type}}. The declaration order of dimensions is {{the same as the acccess order, i.e. `int a[2][3]` means `a[0][0], a[0][1], a[0][2], a[1][0], a[1][1], a[1][2]` are accessible}}. <!--SR:!2023-10-23,23,290!2023-10-20,20,290-->
 
 ```Cpp
 int a[2][3]{{0, 1, 2}, {3, 4, 5}};
 ```
 
-[Array-to-pointer decay](#array-to-pointer%20decay) is {{applied only once to multidimensional arrays}}. <!--SR:!2023-09-28,4,270-->
+[Array-to-pointer decay](#array-to-pointer%20decay) is {{applied only once to multidimensional arrays}}. <!--SR:!2023-10-21,21,290-->
 
 ## arrays of unknown bound
 
-A multidimensional array can {{have an unknown bound only in the first dimension}}. <!--SR:!2023-09-28,4,270-->
+A multidimensional array can {{have an unknown bound only in the first dimension}}. <!--SR:!2023-10-22,22,290-->
 
 ```Cpp
 int valid[][10];

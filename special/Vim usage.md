@@ -43,12 +43,12 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2024-01-04,234,273!2024-04-21,348,333-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2025-07-01,648,313-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2024-04-20,300,293-->
-- insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2023-09-27,167,293-->
+- insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2023-10-12,179,293!2025-08-22,692,313-->
 
 ## replace
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2024-03-22,321,333!2024-06-24,404,348-->
 - replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2024-06-09,326,273!2024-02-01,263,313-->
-- enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2023-09-26,167,293!2023-12-06,237,313-->
+- enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2025-08-26,696,313!2023-12-06,237,313-->
 
 ## visual
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2024-06-05,385,348!2024-06-15,396,348-->
@@ -77,14 +77,14 @@ See also [Vim help files](https://vimhelp.org/).
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2023-10-12,157,253!2024-03-07,307,333-->
 
 ## command
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2024-02-21,182,268!2023-09-26,17,148-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2024-02-21,182,268!2023-11-19,50,168-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2023-10-19,130,253!2023-12-30,237,313-->
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2024-08-16,366,293!2024-02-19,278,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2023-12-30,186,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2024-04-02,237,273!2024-05-12,364,333-->
-- invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2023-09-25,166,293-->
+- invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2025-08-25,695,313-->
 
 ### list of options
 - ignorecase, ic:::ignore case in search <!--SR:!2023-10-08,178,308!2023-10-21,188,308-->

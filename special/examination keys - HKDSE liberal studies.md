@@ -107,7 +107,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-11-09,55,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2023-09-26,86,235-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-11-09,55,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -118,7 +118,7 @@ return await memorize_table(
 3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-10-10,31,135-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
-6. solution→:::←value judgement <!--SR:!2023-09-30,21,255!2023-11-21,125,250-->
+6. solution→:::←value judgement <!--SR:!2023-11-25,56,255!2023-11-21,125,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -162,7 +162,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-11-01,53,155!2024-01-01,183,295!2023-09-24,61,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-11-01,53,155!2024-01-01,183,295!2024-02-02,125,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -170,7 +170,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2023-10-16,101,230!2024-04-16,271,315-->
 2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2023-11-04,125,275!2024-04-10,266,315-->
-3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2023-12-23,181,315!2023-09-27,70,215-->
+3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2023-12-23,181,315!2024-03-01,153,215-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -218,13 +218,13 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
-2. according to/refer to→:::←cause/reason <!--SR:!2023-09-28,34,175!2024-06-23,313,295-->
+2. according to/refer to→:::←cause/reason <!--SR:!2023-11-30,61,175!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-10-11,19,150!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-09-24,32,150-->
+6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-10-19,19,130-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2024-07-16,329,295-->
-8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2023-09-29,31,190-->
+8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2023-11-29,60,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -263,7 +263,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-11-07,45,215!2023-09-29,72,275-->
+2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-11-07,45,215!2024-07-19,293,295-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-10-04,119,295!2023-11-24,96,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-10-08,98,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
@@ -351,9 +351,9 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T23:59:07.528429+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
-2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2023-09-27,57,215-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-09-28,19,150-->
-4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2023-09-27,112,275-->
+2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2024-02-09,132,215-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-11-19,50,170-->
+4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -387,8 +387,8 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2023-04-26T19:16:21.114781+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2024-07-30,340,295!2024-04-17,272,315-->
-2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2023-09-25,92,235!2024-04-18,273,315-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2023-09-26,91,235!2023-11-30,134,255-->
+2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2024-08-17,322,255!2024-04-18,273,315-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2024-05-15,228,235!2023-11-30,134,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-11-05,126,270!2024-03-16,189,235-->
 5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-03-30,255,315!2023-10-05,116,275-->
 
@@ -460,7 +460,7 @@ return await memorize_seq(
 2. (Introduction) State the problem or criteria required.→:::←State your solutions. <!--SR:!2024-01-23,188,295!2024-08-14,340,290-->
 3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2023-11-02,106,235!2024-11-05,410,295-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->
-5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2023-09-27,112,275-->
+5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2024-08-08,313,275-->
 6. (Conclusion) Summarize solutions.→:::←_(end)_ <!--SR:!2024-05-24,304,330!2023-12-25,183,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -494,7 +494,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-09-24,91,235!2024-04-08,264,315-->
+1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-11-18,49,215!2024-04-08,264,315-->
 2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-10-11,108,270!2023-12-12,140,250-->
 3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-12-01,135,255!2023-10-13,57,195-->
 4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2023-12-02,136,255-->

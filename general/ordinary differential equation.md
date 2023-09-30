@@ -27,7 +27,7 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-09-30,4,270!2023-09-30,4,284-->
+> - $F$, a [formula](formula.md) <!--SR:!2023-10-16,16,290!2023-10-18,18,304-->
 
 An [implicit](implicit%20function.md) ordinary differential equation of order _n_ has the form:
 
@@ -39,7 +39,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-09-30,4,270!2023-09-30,4,284-->
+> - $F$, a [formula](formula.md) <!--SR:!2023-10-15,15,290!2023-10-18,18,304-->
 
 ### classifications
 
@@ -74,31 +74,31 @@ Ordinary differential equations are furthered classified:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:47:40.062051+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2023-09-30,4,270!2023-09-30,4,270-->
-2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2023-09-30,4,270!2023-09-30,4,270-->
-3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-09-30,4,270!2023-09-30,4,270-->
-4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2023-09-30,4,270!2023-09-30,4,270-->
-5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-09-30,4,270!2023-09-30,4,270-->
-6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2023-09-30,4,270!2023-09-30,4,270-->
+1. _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2023-10-14,14,290!2023-10-16,16,290-->
+2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2023-10-13,13,290!2023-10-17,17,290-->
+3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-10-16,16,290!2023-10-14,14,290-->
+4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2023-10-13,13,290!2023-10-17,17,290-->
+5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-10-16,16,290!2023-10-15,15,290-->
+6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2023-10-14,14,290!2023-10-14,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {{An ODE where $F$ does not depend on $x$ explicitly.}} <!--SR:!2023-09-30,4,270-->
+> {{An ODE where $F$ does not depend on $x$ explicitly.}} <!--SR:!2023-10-15,15,290-->
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2023-09-30,4,270-->
+> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2023-10-17,17,290-->
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ and the [coefficients](coefficient.md) are [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}} <!--SR:!2023-09-29,3,250-->
+> {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ and the [coefficients](coefficient.md) are [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}} <!--SR:!2023-10-12,12,270-->
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2023-09-30,4,270-->
+> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2023-10-15,15,290-->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {{An ODE that is not [linear](#^linear).}} <!--SR:!2023-09-30,4,270-->
+> {{An ODE that is not [linear](#^linear).}} <!--SR:!2023-10-13,13,290-->
