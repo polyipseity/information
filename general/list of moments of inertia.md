@@ -1,17 +1,17 @@
 ---
 aliases:
-  - angular mass
-  - second moment of mass
-  - mass moment of inertia
-  - moment of inertia
-  - rotational inertia
+  - list of angular masses
+  - list of second moments of mass
+  - list of mass moments of inertia
+  - list of moments of inertia
+  - list of rotational inertias
 tags:
-  - flashcards/special/moment_of_inertia
+  - flashcards/general/list_of_moments_of_inertia
 ---
 
-# moment of inertia
+# list of moment of inertia
 
-## examples
+## scalar moments of inertia
 
 ### homogeneous thick rod, axis through one end
 
