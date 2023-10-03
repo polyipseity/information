@@ -1,0 +1,139 @@
+commit 9a92571843582d66cc47239fee8619c42faddcff
+Author: William So <polyipseity@gmail.com>
+Date:   Tue Oct 3 20:15:34 2023 +0800
+
+    Readd missing files from `project.zip`
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c
+index 880aaa9..ce8cbea 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
+@@ -54,7 +54,8 @@
+ /* Private function prototypes -----------------------------------------------*/
+ void SystemClock_Config(void);
+ /* USER CODE BEGIN PFP */
+-
++void gpio_classwork(void);
++void tft_classwork(void);
+ /* USER CODE END PFP */
+ 
+ /* Private user code ---------------------------------------------------------*/
+@@ -110,20 +111,7 @@ int main(void) {
+ 
+     /* Infinite loop */
+     /* USER CODE BEGIN WHILE */
+-    tft_force_clear();
+-    while (1) {
+-        if (HAL_GetTick() - last_ticks >= 100) {
+-            tft_prints(0, 0, "Hello World!");
+-            led_toggle(LED1);
+-            led_toggle(LED2);
+-            led_toggle(LED3);
+-            led_toggle(LED4);
+-            last_ticks = HAL_GetTick();
+-        }
+-        /* USER CODE END WHILE */
+-        tft_update(100);
+-        /* USER CODE BEGIN 3 */
+-    }
++    gpio_classwork();
+     /* USER CODE END 3 */
+ }
+ 
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c
+index b233b84..131852e 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c	
+@@ -68,7 +68,89 @@ ButtonState state = ALL_OFF;
+ 
+ void gpio_classwork(void) {
+     /* Your code start here */
+-
++    enum {
++        NORMAL,
++        BOTH0,
++        BOTH1
++    } fsm                          = NORMAL;
++    uint32_t last_transition_state = HAL_GetTick();
++    tft_force_clear();
++    while (1) {
++        uint32_t cur_tick = HAL_GetTick();
++        bool flash        = (cur_tick / 50) % 2;
++        state             = btn_state();
++        switch (fsm) {
++            case NORMAL:
++                switch (state) {
++                    case BOTH_BTN:
++                        fsm                   = BOTH0;
++                        last_transition_state = cur_tick;
++                        break;
++                    case BTN1_ONLY:
++                        led_on(LED1);
++                        led_off(LED2);
++                        led_off(LED3);
++                        break;
++                    case BTN2_ONLY:
++                        led_off(LED1);
++                        if (flash) {
++                            led_on(LED2);
++                        } else {
++                            led_off(LED2);
++                        }
++                        led_off(LED3);
++                        break;
++                    case ALL_OFF:
++                        led_off(LED1);
++                        led_off(LED2);
++                        led_off(LED3);
++                        break;
++                }
++                break;
++            case BOTH0:
++                if (state != BOTH_BTN) {
++                    fsm                   = NORMAL;
++                    last_transition_state = cur_tick;
++                    break;
++                }
++                if (cur_tick - last_transition_state >= 1000) {
++                    fsm                   = BOTH1;
++                    last_transition_state = cur_tick;
++                    break;
++                }
++                led_on(LED1);
++                if (flash) {
++                    led_on(LED2);
++                } else {
++                    led_off(LED2);
++                }
++                led_on(LED3);
++                break;
++            case BOTH1:
++                if (state != BOTH_BTN) {
++                    fsm                   = NORMAL;
++                    last_transition_state = cur_tick;
++                    break;
++                }
++                if (cur_tick - last_transition_state >= 1000) {
++                    fsm                   = BOTH0;
++                    last_transition_state = cur_tick;
++                    break;
++                }
++                if (flash) {
++                    led_on(LED1);
++                } else {
++                    led_off(LED1);
++                }
++                led_on(LED2);
++                if (flash) {
++                    led_on(LED3);
++                } else {
++                    led_off(LED3);
++                }
++                break;
++        }
++    }
+     /* Your code end here */
+ }
+ 
