@@ -56,7 +56,7 @@ index b233b84..131852e 100644
 +        BOTH0,
 +        BOTH1
 +    } fsm                          = NORMAL;
-+    uint32_t last_transition_state = HAL_GetTick();
++    uint32_t last_transition_tick = HAL_GetTick();
 +    tft_force_clear();
 +    while (1) {
 +        uint32_t cur_tick = HAL_GetTick();
@@ -67,7 +67,7 @@ index b233b84..131852e 100644
 +                switch (state) {
 +                    case BOTH_BTN:
 +                        fsm                   = BOTH0;
-+                        last_transition_state = cur_tick;
++                        last_transition_tick = cur_tick;
 +                        break;
 +                    case BTN1_ONLY:
 +                        led_on(LED1);
@@ -93,12 +93,12 @@ index b233b84..131852e 100644
 +            case BOTH0:
 +                if (state != BOTH_BTN) {
 +                    fsm                   = NORMAL;
-+                    last_transition_state = cur_tick;
++                    last_transition_tick = cur_tick;
 +                    break;
 +                }
-+                if (cur_tick - last_transition_state >= 1000) {
++                if (cur_tick - last_transition_tick >= 1000) {
 +                    fsm                   = BOTH1;
-+                    last_transition_state = cur_tick;
++                    last_transition_tick = cur_tick;
 +                    break;
 +                }
 +                led_on(LED1);
@@ -112,12 +112,12 @@ index b233b84..131852e 100644
 +            case BOTH1:
 +                if (state != BOTH_BTN) {
 +                    fsm                   = NORMAL;
-+                    last_transition_state = cur_tick;
++                    last_transition_tick = cur_tick;
 +                    break;
 +                }
-+                if (cur_tick - last_transition_state >= 1000) {
++                if (cur_tick - last_transition_tick >= 1000) {
 +                    fsm                   = BOTH0;
-+                    last_transition_state = cur_tick;
++                    last_transition_tick = cur_tick;
 +                    break;
 +                }
 +                if (flash) {
