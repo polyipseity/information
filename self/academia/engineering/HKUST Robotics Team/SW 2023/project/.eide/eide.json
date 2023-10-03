@@ -55,7 +55,19 @@
                     "path": "Core/Src/stm32f4xx_it.c"
                   },
                   {
+                    "path": "Core/Src/syscalls.c"
+                  },
+                  {
+                    "path": "Core/Src/sysmem.c"
+                  },
+                  {
                     "path": "Core/Src/tim.c"
+                  },
+                  {
+                    "path": "Core/Src/tutorial2_hw.c"
+                  },
+                  {
+                    "path": "Core/Src/tutorial3_pwm.c"
                   },
                   {
                     "path": "Core/Src/usart.c"
