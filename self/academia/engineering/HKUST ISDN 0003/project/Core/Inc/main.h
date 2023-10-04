@@ -53,8 +53,6 @@ extern DMA_HandleTypeDef hdma_tim2_ch1;
 
 /* USER CODE END EM */
 
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
-
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
