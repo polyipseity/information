@@ -3,7 +3,8 @@
   "type": "ARM",
   "dependenceList": [],
   "srcDirs": [
-    ".eide/deps"
+    ".eide/deps",
+    "Core/Src"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
@@ -122,7 +123,9 @@
   },
   "targets": {
     "project": {
-      "excludeList": [],
+      "excludeList": [
+        "<virtual_root>/Application/User/Core"
+      ],
       "toolchain": "GCC",
       "compileConfig": {
         "cpuType": "Cortex-M3",
