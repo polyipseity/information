@@ -1,0 +1,8 @@
+Alien Invasion Game Menu:
+1. Detect and track an alien ship
+2. Engage in battle and eliminate alien ships
+3. Count total alien ships
+4. Display radar status
+0. Quit the game
+Enter your choice: Radar Status: [0 0 0 0 0]
+Enter your choice: Exiting the game. Goodbye!
