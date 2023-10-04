@@ -11,6 +11,10 @@ void initialize_radar_system(int radar[])
     ///////////////////
     // Your Code Here //
     ///////////////////
+    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    {
+        radar[ii] = 0;
+    }
 }
 
 // Task 2: Detect and track an incoming alien ship
@@ -21,6 +25,15 @@ bool detect_alien_ship(int radar[], int alienID)
     ///////////////////
     // Your Code Here //
     ///////////////////
+    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    {
+        if (radar[ii] == 0)
+        {
+            radar[ii] = alienID;
+            return true;
+        }
+    }
+    return false;
 }
 
 // Task 3: Engage in battle and eliminate all alien ships with a specific ID
@@ -30,6 +43,16 @@ int engage_in_battle(int radar[], int alienID)
     ///////////////////
     // Your Code Here //
     ///////////////////
+    int count{};
+    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    {
+        if (radar[ii] == alienID)
+        {
+            radar[ii] = 0;
+            ++count;
+        }
+    }
+    return count;
 }
 
 // Task 4: Count the total number of alien ships currently in radar
@@ -38,6 +61,15 @@ int count_total_alien_ships(int radar[])
     ///////////////////
     // Your Code Here //
     ///////////////////
+    int count{};
+    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    {
+        if (radar[ii] != 0)
+        {
+            ++count;
+        }
+    }
+    return count;
 }
 
 // Task 5: Display the current radar status
@@ -48,6 +80,16 @@ void display_radar_status(int radar[])
     ///////////////////
     // Your Code Here //
     ///////////////////
+    cout << "Radar Status: [";
+    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    {
+        if (ii != 0)
+        {
+            cout << ' ';
+        }
+        cout << radar[ii];
+    }
+    cout << ']' << endl;
 }
 
 int main()
