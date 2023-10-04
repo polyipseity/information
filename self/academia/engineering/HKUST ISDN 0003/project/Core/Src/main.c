@@ -123,57 +123,9 @@ int main(void)
     Buzzer_Init();
     WS2812_Init();
 
-    // view some sample code at Core/Src/sample.c and Core/Inc/sample.h
-    playMusicSample(4);
     while (1)
     {
         /* USER CODE END WHILE */
-
-        // Array Example
-        int purple[3] = {255, 0, 255};
-        blink1darray(purple, 3);
-
-        // int color[7][3] = {{255, 0, 0},
-        //                    {0, 255, 0},
-        //                    {0, 0, 255},
-        //                    {255, 0, 255},
-        //                    {255, 255, 0},
-        //                    {255, 165, 0},
-        //                    {255, 255, 255}};
-
-        // blink2darray(color, 7, 3);
-
-        // // Struct Example
-        // RMer Jason;
-        // Jason.age    = 18;
-        // Jason.height = 2.1f;
-        // Jason.weight = 100.0f;
-        // // Struct Array Example
-        // RMer newMembers[3] = {{80, 1.8f, 62.0f},   // Tong Zhe
-        //                       {18, 1.9f, 80.0f},   // Cooper
-        //                       {18, 2.0f, 70.0f}};  // Dage
-
-        // // Pointer Example
-        // int red[3]    = {255, 0, 0};
-        // int *pointer1 = &red[0];
-        // int *pointer2 = &red[1];
-        // blink(0, red[0], red[1], red[2]);
-        // swapNumber(pointer1, pointer2);
-        // blink(1, red[0], red[1], red[2]);
-
-        // // Pointer to an array Example
-        // int *ppur = purple;
-        // blink1darray(ppur, 3);
-
-        // // Pointer to a struct Example
-        // RMer JiangGe;
-        // RMer *pJiangGe = &JiangGe;
-        // // No dereferencing when using the -> operator
-        // pJiangGe->age = 18;
-
-        // // Dereference ap, then use the . operator
-        // (*pJiangGe).height = 1.8f;
-        // (*pJiangGe).weight = 70.0f;
 
         /* USER CODE BEGIN 3 */
     }
