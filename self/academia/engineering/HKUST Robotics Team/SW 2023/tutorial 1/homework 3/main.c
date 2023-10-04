@@ -1,5 +1,4 @@
 // Please don't include any extra libraries in your homework. We already included all necessary libraries in the skeleton code.
-#include <inttypes.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
@@ -48,9 +47,9 @@ int main()
      */
 
     // TODO:
-    int_fast8_t base;
+    signed char base;
     printf("%s", msg_prompt_current_number_system);
-    scanf("%" SCNdFAST8, &base);
+    scanf("%hhd", &base);
     if (base != 3 && base != 10 && base != 12)
     {
         printf("%s", error_msg_unsupported_system);
@@ -75,9 +74,9 @@ int main()
      */
 
     // TODO:
-    int_fast8_t new_base;
+    signed char new_base;
     printf("%s", msg_prompt_number_system_to_convert);
-    scanf("%" SCNdFAST8, &new_base);
+    scanf("%hhd", &new_base);
     if (new_base != 3 && new_base != 10 && new_base != 12)
     {
         printf("%s", error_msg_unsupported_system);
