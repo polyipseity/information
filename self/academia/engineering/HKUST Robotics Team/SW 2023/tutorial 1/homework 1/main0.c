@@ -1,10 +1,11 @@
-#include <inttypes.h>
-#include <stdbool.h>
-#include <stdint.h>
+// Please don't include any extra libraries in your homework. We already included all necessary libraries in the skeleton code.
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <stdbool.h>
 #include "ast.h"
 #include "l_stack.h"
+#include "memory.h"
 #include "str.h"
 
 char const msg_input[] = "Please input a math equation:\n";
@@ -175,7 +176,7 @@ int main(void)
     printf("%s", msg_output);
     if (postfix && evaluate_postfix(&calculated, postfix))
     {
-        printf("%" PRIdMAX, calculated);
+        printf("%lld", calculated);
     }
     else
     {

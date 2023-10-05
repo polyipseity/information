@@ -1,4 +1,3 @@
-#include <limits.h>
 #include "ast.h"
 
 op_t op_from_char(char chr)
@@ -36,7 +35,7 @@ intmax_t divide(intmax_t a, intmax_t b)
 {
 	return a / b;
 }
-int const op_priorities[] = {0, 0, 1, 1, -1, INT_MIN};
+int const op_priorities[] = {0, 0, 1, 1, -1};
 op_function *const op_functions[] = {&plus, &minus, &multiply, &divide};
 
 ast_t ast_from_op(op_t op)

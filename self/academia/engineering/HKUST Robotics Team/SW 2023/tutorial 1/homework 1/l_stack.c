@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "l_stack.h"
+#include "memory.h"
 
 void l_stack_push(l_stack_t **restrict const self, void *restrict data)
 {
