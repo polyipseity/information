@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <string.h>
 #include "str.h"
+#include "memory.h"
 
 str_t *str_malloc(size_t len)
 {
