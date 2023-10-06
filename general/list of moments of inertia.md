@@ -53,7 +53,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 
 - definition: a homogeneous rod {{of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end}}
 - equation: {{$I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$}}
-  - thick rod correction: {{$\frac14mR^2$}}
+  - thin rod correction: {{$-\frac14mR^2$}}
   - slender rod, axis through center: {{$\frac1{12}mL^2$}}
   - slender rod, axis through one end: {{$\frac13mL^2$}}
 - proof: $$\begin{aligned}
