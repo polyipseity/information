@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - functional/index
+  - functional/indices
 ---
 
 # index

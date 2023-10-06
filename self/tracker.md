@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - functional/text
+  - functional/texts
 ---
 
 # tracker
