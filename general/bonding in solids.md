@@ -32,8 +32,9 @@ return await memorize_table(
   (e.cwf_sect('9d9d'), NULL_LOCATION,),
   ('property', 'description',),
   (
+    ('[boiling point](boiling%20point.md)', 'low',),
     ('[electrical conductivity](electrical%20conductivity.md)', 'low',),
-    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'low',),
+    ('[melting point](melting%20point.md)', 'low',),
     ('[strength](strength%20of%20materials.md)', 'low',),
   ),
   lambda datum: map(cloze, datum),
@@ -41,12 +42,13 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9d9d"--><!-- The following content is generated at 2023-03-21T09:18:33.032052+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9d9d"--><!-- The following content is generated at 2023-10-07T07:46:37.390561+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
+> | {{[boiling point](boiling%20point.md)}} | {{low}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
-> | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{low}} |
+> | {{[melting point](melting%20point.md)}} | {{low}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{low}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -66,9 +68,10 @@ return await memorize_table(
   (e.cwf_sect('357d'), NULL_LOCATION,),
   ('property', 'description',),
   (
+    ('[boiling point](boiling%20point.md)', 'high',),
     ('[brittleness](brittleness.md)', 'high',),
     ('[electrical conductivity](electrical%20conductivity.md)', 'low ([graphite](graphite.md): high)',),
-    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
+    ('[melting point](melting%20point.md)', 'high',),
     ('[strength](strength%20of%20materials.md)', 'high ([graphite](graphite.md): low)',),
   ),
   lambda datum: map(cloze, datum),
@@ -76,13 +79,14 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="357d"--><!-- The following content is generated at 2023-03-21T09:21:26.394192+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="357d"--><!-- The following content is generated at 2023-10-07T07:46:37.415026+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
+> | {{[boiling point](boiling%20point.md)}} | {{high}} |
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
-> | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
+> | {{[melting point](melting%20point.md)}} | {{high}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -102,9 +106,10 @@ return await memorize_table(
   (e.cwf_sect('5460'), NULL_LOCATION,),
   ('property', 'description',),
   (
+    ('[boiling point](boiling%20point.md)', 'high',),
     ('[brittleness](brittleness.md)', 'high',),
     ('[electrical conductivity](electrical%20conductivity.md)', 'high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low',),
-    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
+    ('[melting point](melting%20point.md)', 'high',),
     ('[strength](strength%20of%20materials.md)', 'high',),
   ),
   lambda datum: map(cloze, datum),
@@ -112,13 +117,14 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5460"--><!-- The following content is generated at 2023-03-21T09:26:02.675571+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5460"--><!-- The following content is generated at 2023-10-07T07:46:37.443929+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
+> | {{[boiling point](boiling%20point.md)}} | {{high}} |
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
-> | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
+> | {{[melting point](melting%20point.md)}} | {{high}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{high}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -138,10 +144,11 @@ return await memorize_table(
   (e.cwf_sect('435d'), NULL_LOCATION,),
   ('property', 'description',),
   (
+    ('[boiling point](boiling%20point.md)', 'high',),
     ('[ductility](ductility.md)', 'high',),
     ('[electrical conductivity](electrical%20conductivity.md)', 'high',),
     ('[malleability](malleability.md)', 'high',),
-    ('[melting point](melting%20point.md) and [boiling point](boiling%20point.md)', 'high',),
+    ('[melting point](melting%20point.md)', 'high',),
     ('[thermal conductivity](thermal%20conductivity.md)', 'high',),
   ),
   lambda datum: map(cloze, datum),
@@ -149,14 +156,15 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="435d"--><!-- The following content is generated at 2023-03-21T09:18:33.074937+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="435d"--><!-- The following content is generated at 2023-10-07T07:46:37.464150+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
+> | {{[boiling point](boiling%20point.md)}} | {{high}} |
 > | {{[ductility](ductility.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
-> | {{[melting point](melting%20point.md) and [boiling point](boiling%20point.md)}} | {{high}} |
+> | {{[melting point](melting%20point.md)}} | {{high}} |
 > | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
