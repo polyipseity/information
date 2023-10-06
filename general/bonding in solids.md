@@ -49,7 +49,7 @@ return await memorize_table(
 > | {{[boiling point](boiling%20point.md)}} | {{low}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low}} |
 > | {{[melting point](melting%20point.md)}} | {{low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-10-19,141,290!2024-06-08,342,330!2024-05-12,320,330!2024-05-11,319,330!2023-11-01,147,270!2024-03-22,277,330-->
+> | {{[strength](strength%20of%20materials.md)}} | {{low}} | <!--SR:!2023-10-19,141,290!2024-06-08,342,330!2024-05-12,320,330!2024-05-11,319,330!2023-11-01,147,270!2024-03-22,277,330!2023-10-11,4,313!2023-10-11,4,313-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -87,7 +87,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2023-10-08,141,290!2023-12-10,194,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2023-11-15,136,230-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2023-10-08,141,290!2023-12-10,194,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2023-11-15,136,230!2023-10-10,3,293!2023-10-10,3,293-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -125,7 +125,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2024-02-23,220,270!2024-02-04,243,330!2023-11-29,187,310!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2023-12-01,121,230!2023-12-09,193,310-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2024-02-23,220,270!2024-02-04,243,330!2023-11-29,187,310!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2023-12-01,121,230!2023-12-09,193,310!2023-10-10,3,293!2023-10-10,3,293-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -165,6 +165,6 @@ return await memorize_table(
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high}} |
 > | {{[malleability](malleability.md)}} | {{high}} |
 > | {{[melting point](melting%20point.md)}} | {{high}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2024-01-24,218,290!2024-02-22,256,330!2023-12-17,199,310!2024-04-21,301,330!2023-12-14,69,270!2024-04-20,300,330!2023-11-27,181,310!2024-03-06,267,330!2023-11-20,124,250!2024-06-07,341,330-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{high}} | <!--SR:!2024-01-24,218,290!2024-02-22,256,330!2023-12-17,199,310!2024-04-21,301,330!2023-12-14,69,270!2024-04-20,300,330!2023-11-27,181,310!2024-03-06,267,330!2023-11-20,124,250!2024-06-07,341,330!2023-10-08,1,273!2023-10-11,4,313-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
