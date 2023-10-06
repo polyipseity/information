@@ -31,7 +31,7 @@ I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-
 &=\frac1{12}m\left(L^2+W^2\right)\\
 I_L&=\frac1{12}m\left(H^2+W^2\right)\\
 I_W&=\frac1{12}m\left(L^2+H^2\right)\\
-\end{aligned}$$
+\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270-->
 
 ### cylindrical shell, axis through base center
 
@@ -47,7 +47,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 &=\frac12\rho\pi{}H\left(R_O^4-R_I^4\right)\\
 &=\frac12\rho\pi{}H\left(R_O^2-R_I^2\right)\left(R_O^2+R_I^2\right)\\
 &=\frac12m\left(R_O^2+R_I^2\right)
-\end{aligned}$$
+\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250-->
 
 ### rod, axis through certain distance from one end
 
@@ -85,7 +85,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 &=\frac14mR^2+\frac\pi3\rho{}R^2(L-Z+Z)\left((L-Z)^2-Z(L-Z)+Z^2\right)\\
 &=\frac14mR^2+\frac13m\left(L^2-2LZ+Z^2-LZ+Z^2+Z^2\right)\\
 &=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2
-\end{aligned}$$
+\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250!2023-10-10,3,250-->
 
 ### spherical shell, axis through center
 
@@ -104,4 +104,4 @@ I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d
 &=\frac8{15}\pi\rho\left[r^5\right]_{R_I}^{R_O}\\
 &=\frac8{15}\pi\rho\left(R_O^5-R_I^5\right)\\
 &=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}
-\end{aligned}$$
+\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-08,1,230-->
