@@ -85,7 +85,7 @@ Two recommended formats:
 
 ### experience
 
-- industry experience: {{no salary}}
+- industry experience: {{if no salary}}
 - work experience: {{all, 0 to 3 sub-points according to importance}}
   - sub-points: {{statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities}}
 
