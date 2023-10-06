@@ -14,11 +14,11 @@ tags:
 - restore window size:::Alt+Space, R <!--SR:!2024-07-31,370,270!2024-01-01,166,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2024-01-18,110,190!2025-06-22,631,290-->
-- move window to bottom:::Alt+Esc <!--SR:!2023-11-13,177,230!2023-10-05,179,270-->
-- minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-10-01,16,190!2025-02-24,534,270-->
+- move window to bottom:::Alt+Esc <!--SR:!2023-11-13,177,230!2024-01-04,90,250-->
+- minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2023-11-13,38,190!2025-02-24,534,270-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-11-26,184,230!2023-12-07,220,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2023-10-18,172,250!2023-11-28,186,230-->
-- minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2023-10-09,50,190!2023-10-01,175,270-->
+- minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2023-10-09,50,190!2025-01-27,479,270-->
 - toggle unfocused windows:::⊞Win+Home <!--SR:!2023-11-25,183,230!2023-12-08,90,210-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2024-11-04,401,250!2024-12-14,493,310-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-01-24,189,250!2025-07-27,666,290-->

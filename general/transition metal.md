@@ -17,7 +17,7 @@ tags:
 
 # transition metal
 
-A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}}. <!--SR:!2023-10-03,70,230-->
+A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}}. <!--SR:!2024-03-20,166,230-->
 
 ## characteristic properties
 
@@ -44,7 +44,7 @@ return await memorize_table(
 > |-|-|
 > | {{[catalytic](catalysis.md) properties}} | {{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}} |
 > | {{colored [ions](ion.md)}} | {{Most transition metals ions are colored.}} |
-> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2024-04-05,278,330!2024-08-01,342,290!2024-02-26,246,330!2023-11-16,162,290!2024-04-08,281,330!2023-10-01,126,290-->
+> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2024-04-05,278,330!2024-08-01,342,290!2024-02-26,246,330!2023-11-16,162,290!2024-04-08,281,330!2025-03-31,542,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

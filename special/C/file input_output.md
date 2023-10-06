@@ -31,4 +31,4 @@ tags:
 ## macro constants
 
 - _defined in {{[`<stdio.h>`](../../general/C%20file%20input_output.md)}}_
-- `EOF`: {{negative `int` constant expression}} <!--SR:!2023-10-25,46,290!2023-10-04,25,270-->
+- `EOF`: {{negative `int` constant expression}} <!--SR:!2023-10-25,46,290!2024-01-15,101,290-->

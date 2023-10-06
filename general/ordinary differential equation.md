@@ -125,7 +125,7 @@ xe^y\,\mathrm{d}y-y\sin{x}\,\mathrm{d}x&=0\\
 \operatorname{Ei}(y)-\operatorname{Si}(x)&=C\\
 \operatorname{Ei}(y)&=\operatorname{Si}(x)+C\\
 y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
-\end{aligned}$$ <!--SR:!2023-10-04,4,300!2023-10-04,4,300!2023-10-04,4,300-->
+\end{aligned}$$ <!--SR:!2023-11-03,28,320!2023-11-03,28,320!2023-11-02,27,320-->
 
 > {{__first-order, [homogeneous](#^homogeneous)__}}
 >
@@ -158,7 +158,7 @@ x\left(\frac1w-1\right)&=C\\
 e^\frac{x}y&=\frac1{\frac{C}x+1}\\
 \frac{x}y&=-\ln\left(\frac{C}x+1\right)\\
 y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
-\end{aligned}$$ <!--SR:!2023-10-04,4,300!2023-10-04,4,300!2023-10-04,4,300-->
+\end{aligned}$$ <!--SR:!2023-11-03,28,320!2023-11-02,27,320!2023-11-01,26,320-->
 
 #### second-order equation
 
@@ -196,4 +196,4 @@ C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\left(C_{2\in[-1,1]}\sin\sqrt{\frac{k}m}t+C_{3\in[-1,1]}\cos\sqrt{\frac{k}m}t\right)\\
 &=C_1\sin\sqrt{\frac{k}m}t+C_2\cos\sqrt{\frac{k}m}t
-\end{aligned}$$ <!--SR:!2023-10-04,4,300!2023-10-04,4,300!2023-10-04,4,300-->
+\end{aligned}$$ <!--SR:!2023-11-01,26,320!2023-10-23,17,300!2023-10-23,17,300-->

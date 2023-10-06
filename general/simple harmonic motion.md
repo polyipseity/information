@@ -23,4 +23,4 @@ The position of a simple harmonic motion as a function of time can be written as
 > - $\omega=\sqrt{\frac{k}m}$
 > - $c=x_0+\frac{v_0}\omega{}i$
 > - $A=|c|$
-> - $\phi=\arg{c}$ <!--SR:!2023-10-04,4,270!2023-10-04,4,270!2023-10-04,4,270-->
+> - $\phi=\arg{c}$ <!--SR:!2023-11-01,26,290!2023-10-21,15,270!2023-10-22,16,270-->
