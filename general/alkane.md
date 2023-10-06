@@ -16,7 +16,7 @@ tags:
 
 # alkane
 
-An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2023-10-02,141,290-->
+An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2025-05-12,584,310-->
 
 ## physical properties
 
@@ -28,7 +28,7 @@ Alkanes are {{[unreactive](reactivity%20(chemistry).md)}}. <!--SR:!2024-01-10,17
 
 ### combustion
 
-All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2024-06-29,296,270!2023-12-16,186,310!2023-10-05,142,290-->
+All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2024-06-29,296,270!2023-12-16,186,310!2025-05-04,576,310-->
 
 ### halogenation
 

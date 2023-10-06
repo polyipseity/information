@@ -18,7 +18,7 @@ tags:
 - {{`SELECT select_expression [FROM table_reference[, ...]] [WHERE where_expression] [ORDER BY order_by_expression [ASC | DESC]] [LIMIT {[offset,] count | count OFFSET offset}]`}}: {{show rows from the tables named `table_reference` according to `select_expression`; maybe filter rows for which `where_expression` is true; maybe order rows by the `order_by_expression` in ascending order if unspecified or `ASC`, or descending if `DESC`; maybe limit the number of rows to `count` starting from the 0-based `offset` if specified}}
 - {{`SHOW DATABASES`}}: {{show databases}}
 - {{`UPDATE table_name SET assignment[, ...] [WHERE where_expression]`}}: {{update columns of rows with new values according to `assignment`s in the table `table_name`; maybe filter rows for which `where_expression` is true}}
-- {{`USE database_name`}}: {{use the database named `database_name` as the default database for sequent statements}} <!--SR:!2023-10-15,23,290!2023-10-18,26,290!2023-10-14,22,290!2023-10-15,23,290!2023-10-13,21,299!2023-10-08,16,279!2023-10-13,21,299!2023-10-07,15,279!2023-10-15,23,299!2023-10-14,22,299!2023-10-12,20,299!2023-10-16,24,299!2023-10-12,20,299!2023-10-17,25,299!2023-10-18,26,299!2023-10-14,22,299!2023-10-15,23,299!2023-10-06,14,279!2023-10-15,23,299!2023-10-13,21,299-->
+- {{`USE database_name`}}: {{use the database named `database_name` as the default database for sequent statements}} <!--SR:!2023-10-15,23,290!2023-10-18,26,290!2023-10-14,22,290!2023-10-15,23,290!2023-10-13,21,299!2023-10-08,16,279!2023-10-13,21,299!2023-10-07,15,279!2023-10-15,23,299!2023-10-14,22,299!2023-10-12,20,299!2023-10-16,24,299!2023-10-12,20,299!2023-10-17,25,299!2023-10-18,26,299!2023-10-14,22,299!2023-10-15,23,299!2023-11-18,43,279!2023-10-15,23,299!2023-10-13,21,299-->
 
 ## common expressions
 
@@ -32,4 +32,4 @@ tags:
   - {{`*`}}: {{select all columns}}
   - {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
 - `table_reference`
-  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2023-10-05,13,250!2023-10-18,26,290!2023-10-16,24,290!2023-10-17,25,290!2023-10-17,25,299!2023-10-16,24,299!2023-10-12,20,299!2023-10-13,21,299!2023-10-18,26,299!2023-10-12,20,299!2023-10-17,25,299!2023-10-14,22,299!2023-10-08,16,279!2023-10-16,24,299-->
+  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2023-11-13,38,250!2023-10-18,26,290!2023-10-16,24,290!2023-10-17,25,290!2023-10-17,25,299!2023-10-16,24,299!2023-10-12,20,299!2023-10-13,21,299!2023-10-18,26,299!2023-10-12,20,299!2023-10-17,25,299!2023-10-14,22,299!2023-10-08,16,279!2023-10-16,24,299-->

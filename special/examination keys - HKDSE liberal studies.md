@@ -63,11 +63,11 @@ return await memorize_table(
 1. _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 2. affirming the consequent→:::←appeal to authority <!--SR:!2024-01-16,181,295!2024-04-23,278,315-->
 3. appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-4. appeal to tradition→:::←guilt by association <!--SR:!2023-10-04,94,230!2024-04-02,226,275-->
-5. guilt by association→:::←hasty generalization <!--SR:!2023-10-06,121,295!2024-01-07,137,290-->
+4. appeal to tradition→:::←guilt by association <!--SR:!2023-11-25,50,210!2024-04-02,226,275-->
+5. guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2024-01-07,137,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2023-10-21,116,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2023-11-22,74,270!2024-07-07,302,295-->
-8. post hoc→:::←self-contradiction <!--SR:!2023-10-02,75,235!2024-04-04,260,315-->
+8. post hoc→:::←self-contradiction <!--SR:!2023-11-17,42,215!2024-04-04,260,315-->
 9. self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2023-10-27,117,270-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2023-11-18,152,295-->
 11. weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
@@ -107,7 +107,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-03,42,230!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-11-09,55,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-10-29,23,210!2023-12-01,147,295!2023-10-07,110,275!2024-04-18,274,315!2023-11-09,55,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -198,7 +198,7 @@ return await memorize_table(
 ```
 %%
 
-Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2023-10-01,104,270-->
+Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2023-12-02,57,250-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
 
@@ -221,8 +221,8 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 2. according to/refer to→:::←cause/reason <!--SR:!2023-11-30,61,175!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-10-11,19,150!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
-5. factor→:::←feasibilities <!--SR:!2023-10-03,106,270!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2023-10-03,93,230!2023-10-19,19,130-->
+5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
+6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2023-10-19,19,130-->
 7. pattern→:::←trend <!--SR:!2023-10-25,135,295!2024-07-16,329,295-->
 8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2023-11-29,60,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
@@ -264,7 +264,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-11-07,45,215!2024-07-19,293,295-->
-3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-10-04,119,295!2023-11-24,96,215-->
+3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-12-03,58,275!2023-11-24,96,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-10-08,98,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
 6. Deduce causes and reasons.→:::←_(end)_ <!--SR:!2024-06-09,320,335!2024-04-09,265,315-->
@@ -352,7 +352,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2024-02-09,132,215-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2023-10-04,71,195!2023-11-19,50,170-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2023-11-19,50,170-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -390,7 +390,7 @@ return await memorize_seq(
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2024-08-17,322,255!2024-04-18,273,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2024-05-15,228,235!2023-11-30,134,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-11-05,126,270!2024-03-16,189,235-->
-5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-03-30,255,315!2023-10-05,116,275-->
+5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-03-30,255,315!2024-08-21,320,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -421,7 +421,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2023-10-21,132,295-->
 2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-10-07,22,130!2023-11-21,117,230-->
-3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-10-02,17,170-->
+3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-10-16,10,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -349,7 +349,7 @@ return chain.from_iterable(await gather(
 20. iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-29,402,238-->
 22. scandium(III) ion::colorless <!--SR:!2023-12-07,171,322-->
-23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-10-06,27,190-->
+23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-10-22,16,170-->
 24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-10-09,24,242-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2023-11-02,41,222-->
 26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-11-05,107,230-->
@@ -363,7 +363,7 @@ return chain.from_iterable(await gather(
 1. <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2023-12-01,129,221-->
 2. <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2024-01-31,197,281-->
 3. <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2023-10-31,160,321-->
-4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2023-10-03,93,261-->
+4. <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2024-06-15,253,261-->
 5. <span style="color: yellow;">yellow</span> (dilute)::iron(III) ion <!--SR:!2024-06-17,328,361-->
 6. <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2024-09-11,421,381-->
 7. <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2023-10-07,81,242-->
@@ -456,7 +456,7 @@ return chain.from_iterable(await gather(
 18. chromate ion::2- <!--SR:!2024-09-12,631,279-->
 19. dichromate ion::2- <!--SR:!2026-12-30,1322,310-->
 20. nitride ion::3- <!--SR:!2027-01-20,1338,310-->
-21. phosphate ion::3- <!--SR:!2023-10-02,275,210-->
+21. phosphate ion::3- <!--SR:!2025-05-10,582,210-->
 22. manganate ion::2- <!--SR:!2024-06-08,319,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
