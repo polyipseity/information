@@ -3,8 +3,8 @@
 //  COMP2011 Fall 2023
 //  PA1: A Simpified Robot Wars Game
 //
-//  Your name:
-//  Your ITSC email:           @connect.ust.hk
+//  Your name: SO, Chun Hin
+//  Your ITSC email: chsoap@connect.ust.hk
 //
 //  Declaration:
 //  I declare that I am not involved in plagiarism
@@ -220,6 +220,59 @@ void displayHealthPoints(const int healthPoints[MAX_NUM_ROBOTS])
     }
 }
 
+// My helpers
+struct Position
+{
+    int row, col;
+
+    bool valid(int mapRows, int mapCols) const
+    {
+        return 0 <= row && row < mapRows && 0 <= col && col < mapCols;
+    }
+
+    char &in(char map[MAX_ROWS][MAX_COLS]) const
+    {
+        return map[row][col];
+    }
+
+    char const &in(char const map[MAX_ROWS][MAX_COLS]) const
+    {
+        return map[row][col];
+    }
+};
+
+Position adjacentPosition(Position const &position, char direction, int steps = 1)
+{
+    switch (direction)
+    {
+    case DIRECTION_EAST:
+        return {position.row, position.col + steps};
+    case DIRECTION_WEST:
+        return {position.row, position.col - steps};
+    case DIRECTION_SOUTH:
+        return {position.row + steps, position.col};
+    case DIRECTION_NORTH:
+        return {position.row - steps, position.col};
+    default:
+        return {-1, -1};
+    }
+}
+
+Position locateRobot(char const map[MAX_ROWS][MAX_COLS], int mapRows, int mapCols, char robot)
+{
+    for (int row{}; row < mapRows; ++row)
+    {
+        for (int col{}; col < mapCols; ++col)
+        {
+            if (map[row][col] == robot)
+            {
+                return {row, col};
+            }
+        }
+    }
+    return {-1, -1};
+}
+
 // TODO:
 // function updateHealthPointsForHitAction: updates the map, healthPoints, and returns the values to the main function after the hit action
 //
@@ -247,7 +300,39 @@ int updateHealthPointsForHitAction(int healthPoints[MAX_NUM_ROBOTS],
                                    int &targetUpdatedHealthPoint)
 {
     // remove this line to start your work
-    return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+    // return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+    Position robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
+    if (!robotPos.valid(mapRows, mapCols))
+    {
+        return STATUS_ACTION_WEAPON_FAIL;
+    }
+    Position hitPos{adjacentPosition(robotPos, directionLetter)};
+    if (!hitPos.valid(mapRows, mapCols))
+    {
+        return STATUS_ACTION_WEAPON_FAIL;
+    }
+    char &hitRobot{hitPos.in(map)};
+    if (hitRobot == CHAR_EMPTY)
+    {
+        return STATUS_ACTION_WEAPON_FAIL;
+    }
+    int &hitRobotHP{healthPoints[robotLetterToArrayIndex(hitRobot)]};
+    if (hitRobotHP <= 0)
+    {
+        hitRobotHP = 0;
+        hitRobot = CHAR_EMPTY;
+        return STATUS_ACTION_WEAPON_FAIL;
+    }
+    targetRobotLetter = hitRobot;
+    targetOriginalHealthPoint = hitRobotHP;
+    hitRobotHP -= WEAPON_HIT_DAMAGE;
+    if (hitRobotHP <= 0)
+    {
+        hitRobotHP = 0;
+        hitRobot = CHAR_EMPTY;
+    }
+    targetUpdatedHealthPoint = hitRobotHP;
+    return STATUS_ACTION_MOVE_SUCCESS;
 }
 
 // TODO:
@@ -277,7 +362,53 @@ int updateHealthPointsForShootAction(int healthPoints[MAX_NUM_ROBOTS],
                                      int &targetUpdatedHealthPoint)
 {
     // remove this line to start your work
-    return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+    // return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
+    Position robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
+    if (!robotPos.valid(mapRows, mapCols))
+    {
+        return STATUS_ACTION_WEAPON_FAIL;
+    }
+    Position shotPos{robotPos};
+    bool found{};
+    for (int steps{}; steps < WEAPON_SHOOT_RANGE; ++steps)
+    {
+        shotPos = adjacentPosition(shotPos, directionLetter);
+        if (!shotPos.valid(mapRows, mapCols))
+        {
+            break;
+        }
+        char &shotRobot{shotPos.in(map)};
+        if (shotRobot != CHAR_EMPTY)
+        {
+            int &shotRobotHP{healthPoints[robotLetterToArrayIndex(shotRobot)]};
+            if (shotRobotHP <= 0)
+            {
+                shotRobotHP = 0;
+                shotRobot = CHAR_EMPTY;
+            }
+            else
+            {
+                found = true;
+                break;
+            }
+        }
+    }
+    if (!found)
+    {
+        return STATUS_ACTION_WEAPON_FAIL;
+    }
+    char &shotRobot{shotPos.in(map)};
+    int &shotRobotHP{healthPoints[robotLetterToArrayIndex(shotRobot)]};
+    targetRobotLetter = shotRobot;
+    targetOriginalHealthPoint = shotRobotHP;
+    shotRobotHP -= WEAPON_SHOOT_DAMAGE;
+    if (shotRobotHP <= 0)
+    {
+        shotRobotHP = 0;
+        shotRobot = CHAR_EMPTY;
+    }
+    targetUpdatedHealthPoint = shotRobotHP;
+    return STATUS_ACTION_WEAPON_SUCCESS;
 }
 
 // TODO:
@@ -296,7 +427,28 @@ int updateMapForMoveAction(char map[MAX_ROWS][MAX_COLS], const int mapRows, cons
                            const char robotLetter, const char directionLetter, const int moveSteps)
 {
     // remove this line to start your work
-    return STATUS_ACTION_MOVE_NOT_IMPLMENTED;
+    // return STATUS_ACTION_MOVE_NOT_IMPLMENTED;
+    Position robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
+    if (!robotPos.valid(mapRows, mapCols))
+    {
+        return STATUS_ACTION_MOVE_OUTSIDE_BOUNDARY;
+    }
+    Position targetPos{robotPos};
+    for (int steps{}; steps < moveSteps; ++steps)
+    {
+        targetPos = adjacentPosition(targetPos, directionLetter);
+        if (!targetPos.valid(mapRows, mapCols))
+        {
+            return STATUS_ACTION_MOVE_OUTSIDE_BOUNDARY;
+        }
+        if (targetPos.in(map) != CHAR_EMPTY)
+        {
+            return STATUS_ACTION_MOVE_HIT_ANOTHER_ROBOT_ALONG_PATH;
+        }
+    }
+    targetPos.in(map) = robotLetter;
+    robotPos.in(map) = CHAR_EMPTY;
+    return STATUS_ACTION_MOVE_SUCCESS;
 }
 
 /**
