@@ -225,7 +225,7 @@ struct Position
 {
     int row, col;
 
-    bool valid(int mapRows, int mapCols) const
+    bool valid(int const mapRows, int const mapCols) const
     {
         return 0 <= row && row < mapRows && 0 <= col && col < mapCols;
     }
@@ -241,7 +241,7 @@ struct Position
     }
 };
 
-Position adjacentPosition(Position const &position, char direction, int steps = 1)
+Position adjacentPosition(Position const &position, char const direction, int const steps = 1)
 {
     switch (direction)
     {
@@ -258,7 +258,7 @@ Position adjacentPosition(Position const &position, char direction, int steps = 
     }
 }
 
-Position locateRobot(char const map[MAX_ROWS][MAX_COLS], int mapRows, int mapCols, char robot)
+Position locateRobot(char const map[MAX_ROWS][MAX_COLS], int const mapRows, int const mapCols, char const robot)
 {
     for (int row{}; row < mapRows; ++row)
     {
@@ -301,12 +301,12 @@ int updateHealthPointsForHitAction(int healthPoints[MAX_NUM_ROBOTS],
 {
     // remove this line to start your work
     // return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
-    Position robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
+    Position const robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
     if (!robotPos.valid(mapRows, mapCols))
     {
         return STATUS_ACTION_WEAPON_FAIL;
     }
-    Position hitPos{adjacentPosition(robotPos, directionLetter)};
+    Position const hitPos{adjacentPosition(robotPos, directionLetter)};
     if (!hitPos.valid(mapRows, mapCols))
     {
         return STATUS_ACTION_WEAPON_FAIL;
@@ -363,7 +363,7 @@ int updateHealthPointsForShootAction(int healthPoints[MAX_NUM_ROBOTS],
 {
     // remove this line to start your work
     // return STATUS_ACTION_WEAPON_NOT_IMPLEMENTED;
-    Position robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
+    Position const robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
     if (!robotPos.valid(mapRows, mapCols))
     {
         return STATUS_ACTION_WEAPON_FAIL;
@@ -428,7 +428,7 @@ int updateMapForMoveAction(char map[MAX_ROWS][MAX_COLS], const int mapRows, cons
 {
     // remove this line to start your work
     // return STATUS_ACTION_MOVE_NOT_IMPLMENTED;
-    Position robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
+    Position const robotPos{locateRobot(map, mapRows, mapCols, robotLetter)};
     if (!robotPos.valid(mapRows, mapCols))
     {
         return STATUS_ACTION_MOVE_OUTSIDE_BOUNDARY;
