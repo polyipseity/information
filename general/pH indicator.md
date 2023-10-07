@@ -193,7 +193,7 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0245d8"--><!-- The following content is generated at 2023-08-01T10:43:41.476107+08:00. Any edits will be overridden! -->
 
 1. ~8.3:::colorless <!--SR:!2024-04-13,349,230!2024-06-09,343,230-->
-2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2023-10-07,170,210-->
+2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2024-09-28,357,210-->
 3. 10~:::<span style="color: pink;">pink</span> <!--SR:!2024-05-03,391,250!2024-02-15,455,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
