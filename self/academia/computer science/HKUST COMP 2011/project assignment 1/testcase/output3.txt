@@ -1,0 +1,53 @@
+The initial game information:
+Robot A HP=100
+Robot B HP=100
+Robot C HP=100
+Robot D HP=100
+A B 
+C D 
+Fail: If robot A moves along the direction north by 1 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot A moves along the direction east by 2 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot A moves along the direction south by 2 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot A moves along the direction west by 1 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot B moves along the direction south by 1 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot C moves along the direction south by 1 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot D moves along the direction south by 1 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot C moves along the direction east by 1 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot D moves along the direction east by 1 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot C moves along the direction east by 2 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot C moves along the direction east by 3 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot C moves along the direction east by 10 step(s), it will hit another robot along the path, so the position remains unchanged
+A B 
+C D 
+Fail: If robot D moves along the direction east by 2 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot D moves along the direction east by 3 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+Fail: If robot D moves along the direction east by 10 step(s), it will move outside a boundary, so the position remains unchanged
+A B 
+C D 
+=== Game Ended ===
