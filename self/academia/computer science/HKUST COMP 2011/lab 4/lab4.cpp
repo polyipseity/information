@@ -10,7 +10,7 @@ void initialize_radar_system(int radar[]) {
     ///////////////////
     // Your Code Here //
     ///////////////////
-    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    for (int ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
     {
         radar[ii] = 0;
     }
@@ -23,7 +23,7 @@ bool detect_alien_ship(int radar[], int alienID) {
     ///////////////////
     // Your Code Here //
     ///////////////////
-    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    for (int ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
     {
         if (radar[ii] == 0)
         {
@@ -41,7 +41,7 @@ int engage_in_battle(int radar[], int alienID) {
     // Your Code Here //
     ///////////////////
     int count{};
-    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    for (int ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
     {
         if (radar[ii] == alienID)
         {
@@ -58,7 +58,7 @@ int count_total_alien_ships(int radar[]) {
     // Your Code Here //
     ///////////////////
     int count{};
-    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    for (int ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
     {
         if (radar[ii] != 0)
         {
@@ -76,7 +76,7 @@ void display_radar_status(int radar[]) {
     // Your Code Here //
     ///////////////////
     cout << "Radar Status: [";
-    for (size_t ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
+    for (int ii{}; ii < MAX_RADAR_CAPACITY; ++ii)
     {
         if (ii != 0)
         {
