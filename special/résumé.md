@@ -24,7 +24,7 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 - formatting: {{consistent, minimal}}
 - length: {{1 page}}
 - line spacing: {{single}}
-- order: {{reverse chronological}} <!--SR:!2023-10-10,3,250!2023-10-08,1,230!2023-10-11,4,270!2023-10-11,4,270!2023-10-11,4,270!2023-10-11,4,270-->
+- order: {{reverse chronological}} <!--SR:!2023-10-19,9,250!2023-10-16,6,230!2023-10-11,4,270!2023-10-11,4,270!2023-10-11,4,270!2023-10-11,4,270-->
 
 ## content
 
@@ -63,7 +63,7 @@ return await memorize_seq(
 2. [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2023-10-11,4,270!2023-10-11,4,270-->
 3. [education](#education)→:::←[achievements](#achievements) <!--SR:!2023-10-11,4,270!2023-10-11,4,270-->
 4. [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2023-10-11,4,270!2023-10-11,4,270-->
-5. [experience](#experience)→:::←[skills](#skills) <!--SR:!2023-10-10,3,250!2023-10-11,4,270-->
+5. [experience](#experience)→:::←[skills](#skills) <!--SR:!2023-10-20,10,250!2023-10-11,4,270-->
 6. [skills](#skills)→:::←[others](#others) <!--SR:!2023-10-11,4,270!2023-10-11,4,270-->
 7. [others](#others)→:::←_(end)_ <!--SR:!2023-10-11,4,270!2023-10-11,4,270-->
 
@@ -81,18 +81,18 @@ Two recommended formats:
     1. {{attitude}}
     2. {{skills}}
     3. {{knowledge}}
-    4. {{requirements, if any}} <!--SR:!2023-10-11,4,270!2023-10-11,4,270!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270-->
+    4. {{requirements, if any}} <!--SR:!2023-10-11,4,270!2023-10-11,4,270!2023-10-11,4,270!2023-10-23,13,270!2023-10-11,4,270!2023-10-22,12,270!2023-10-11,4,270-->
 
 ### experience
 
 - industry experience: {{if no salary}}
 - work experience: {{all, 0 to 3 sub-points according to importance}}
-  - sub-points: {{statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities}} <!--SR:!2023-10-11,4,270!2023-10-11,4,270!2023-10-08,1,230-->
+  - sub-points: {{statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities}} <!--SR:!2023-10-11,4,270!2023-10-11,4,270!2023-10-15,5,230-->
 
 ### skills
 
-The most important skills in general are {{adaptivity, fast learning, and resilience}}. <!--SR:!2023-10-10,3,250-->
+The most important skills in general are {{adaptivity, fast learning, and resilience}}. <!--SR:!2023-10-22,12,270-->
 
 ## referees
 
-Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270-->
+Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2023-10-11,4,270!2023-10-19,9,250!2023-10-11,4,270-->
