@@ -66,7 +66,7 @@ index 3fa42eb..5e1ae61 100644
 +void pwm_set_angle(TIM_TypeDef *tim, uint32_t __IO *ccr, double angle)
 +{
 +    angle      = pwm_limit_angle(angle);
-+    double min = (TIM5->ARR + 1) / 40., max = min * 5., interpolate = (angle + 90.) / 180.;
++    double min = (tim->ARR + 1) / 40., max = min * 5., interpolate = (angle + 90.) / 180.;
 +    *ccr = min + (max - min) * interpolate;
 +}
  
