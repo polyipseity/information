@@ -3,8 +3,7 @@
   "type": "ARM",
   "dependenceList": [],
   "srcDirs": [
-    ".eide/deps",
-    "Core/Src"
+    ".eide/deps"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
@@ -26,10 +25,25 @@
                 "name": "Core",
                 "files": [
                   {
+                    "path": "Core/Src/button.c"
+                  },
+                  {
                     "path": "Core/Src/buzzer.c"
                   },
                   {
+                    "path": "Core/Src/can.c"
+                  },
+                  {
+                    "path": "Core/Src/dma.c"
+                  },
+                  {
+                    "path": "Core/Src/gpio.c"
+                  },
+                  {
                     "path": "Core/Src/main.c"
+                  },
+                  {
+                    "path": "Core/Src/sample.c"
                   },
                   {
                     "path": "Core/Src/stm32f1xx_hal_msp.c"
@@ -38,7 +52,13 @@
                     "path": "Core/Src/stm32f1xx_it.c"
                   },
                   {
+                    "path": "Core/Src/system_stm32f1xx.c"
+                  },
+                  {
                     "path": "Core/Src/tick.c"
+                  },
+                  {
+                    "path": "Core/Src/tim.c"
                   },
                   {
                     "path": "Core/Src/ws2812.c"
@@ -123,9 +143,7 @@
   },
   "targets": {
     "project": {
-      "excludeList": [
-        "<virtual_root>/Application/User/Core"
-      ],
+      "excludeList": [],
       "toolchain": "GCC",
       "compileConfig": {
         "cpuType": "Cortex-M3",
