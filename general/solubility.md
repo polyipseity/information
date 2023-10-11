@@ -10,6 +10,13 @@ tags:
   - flashcards/general/solubility
 ---
 
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# import ../../tools/utility.py.md
+```
+%%
+
 # solubility
 
 __Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}.
@@ -152,5 +159,210 @@ return (
 > sulfides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I, group II, and NH<sub>4</sub><sup>+</sup> compounds}}
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### examples
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+e = __env__
+insoluble = '<span style="color: red;">insoluble</span>'
+reacts = '<span style="color: purple;">reacts</span>'
+slightly_soluble = '<span style="color: yellow;">slightly soluble</span>'
+soluble = '<span style="color: green;">soluble</span>'
+return await memorize_map(
+  e.cwf_sects("059f", "b92d", None,),
+  {
+    "[ammonium carbonate](ammonium%20carbonate.md)": soluble,
+    "[ammonium chloride](ammonium%20chloride.md)": soluble,
+    "[ammonium hydroxide](ammonia%20solution.md)": soluble,
+    "[ammonium phosphate](ammonium%20phosphate.md)": soluble,
+    "[ammonium sulfide](ammonium%20sulfide.md)": reacts,
+    "[ammonium sulfite](ammonium%20sulfite.md)": soluble,
+    "[barium hydroxide](barium%20hydroxide.md)": soluble,
+    "[barium oxide](barium%20oxide.md)": reacts,
+    "[barium sulfate](barium%20sulfate.md)": insoluble,
+    "[calcium hydroxide](calcium%20hydroxide.md)": slightly_soluble,
+    "[calcium oxide](calcium%20oxide.md)": reacts,
+    "[calcium sulfate](calcium%20sulfate.md)": slightly_soluble,
+    "[calcium sulfide](calcium%20sulfide.md)": reacts,
+    "[calcium sulfite](calcium%20sulfite.md)": insoluble,
+    "[copper(I) bromide](copper(I)%20bromide.md)": insoluble,
+    "[copper(I) chloride](copper(I)%20chloride.md)": insoluble,
+    "[copper(I) iodide](copper(I)%20iodide.md)": insoluble,
+    "[copper(II) bromide](copper(II)%20bromide.md)": soluble,
+    "[copper(II) carbonate](copper(II)%20carbonate.md)": insoluble,
+    "[copper(II) chloride](copper(II)%20chloride.md)": soluble,
+    "[copper(II) ethanoate](copper(II)%20ethanoate.md)": soluble,
+    "[copper(II) hydroxide](copper(II)%20hydroxide.md)": insoluble,
+    "[copper(II) iodide](copper(II)%20iodide.md)": soluble,
+    "[copper(II) oxide](copper(II)%20oxide.md)": insoluble,
+    "[copper(II) phosphate](copper(II)%20phosphate.md)": insoluble,
+    "[copper(II) sulfate](copper(II)%20sulfate.md)": soluble,
+    "[copper(II) sulfide](copper(II)%20sulfide.md)": insoluble,
+    "[lead(II) bromide](lead(II)%20bromide.md)": slightly_soluble,
+    "[lead(II) chloride](lead(II)%20chloride.md)": slightly_soluble,
+    "[lead(II) iodide](lead(II)%20iodide.md)": slightly_soluble,
+    "[lead(II) sulfate](lead(II)%20sulfate.md)": insoluble,
+    "[lithium phosphate](lithium%20phosphate.md)": slightly_soluble,
+    "[mercury(I) bromide](mercury(I)%20bromide.md)": insoluble,
+    "[mercury(I) chloride](mercury(I)%20chloride.md)": insoluble,
+    "[mercury(I) iodide](mercury(I)%20iodide.md)": insoluble,
+    "[mercury(II) bromide](mercury(II)%20bromide.md)": soluble,
+    "[mercury(II) chloride](mercury(II)%20chloride.md)": soluble,
+    "[mercury(II) iodide](mercury(II)%20iodide.md)": insoluble,
+    "[silver bromide](silver%20bromide.md)": insoluble,
+    "[silver chloride](silver%20chloride.md)": insoluble,
+    "[silver ethanoate](silver%20ethanoate.md)": slightly_soluble,
+    "[silver iodide](silver%20iodide.md)": insoluble,
+    "[silver nitrate](silver%20nitrate.md)": soluble,
+    "[silver sulfate](silver%20sulfate.md)": slightly_soluble,
+    "[sodium carbonate](sodium%20carbonate.md)": soluble,
+    "[sodium chloride](sodium%20chloride.md)": soluble,
+    "[sodium fluoride](sodium%20fluoride.md)": soluble,
+    "[sodium hydroxide](sodium%20hydroxide.md)": soluble,
+    "[sodium oxide](sodium%20oxide.md)": reacts,
+    "[sodium phosphate](sodium%20phosphate.md)": soluble,
+    "[sodium sulfide](sodium%20sulfide.md)": reacts,
+    "[sodium sulfite](sodium%20sulfite.md)": soluble,
+    "[strontium hydroxide](strontium%20hydroxide.md)": slightly_soluble,
+    "[strontium oxide](strontium%20oxide.md)": reacts,
+    "[strontium sulfate](strontium%20sulfate.md)": slightly_soluble,
+    "[thallium(I) hydroxide](thallium(I)%20hydroxide.md)": soluble,
+    "[thallium(I) oxide](thallium(I)%20oxide.md)": reacts,
+    "[thallium(III) oxide](thallium(III)%20oxide.md)": insoluble,
+    "[uranyl carbonate](uranyl%20carbonate.md)": soluble,
+  },
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="059f"--><!-- The following content is generated at 2023-10-11T09:22:26.363880+08:00. Any edits will be overridden! -->
+
+> 1. [ammonium carbonate](ammonium%20carbonate.md): <span style="color: green;">soluble</span>
+> 2. [ammonium chloride](ammonium%20chloride.md): <span style="color: green;">soluble</span>
+> 3. [ammonium hydroxide](ammonia%20solution.md): <span style="color: green;">soluble</span>
+> 4. [ammonium phosphate](ammonium%20phosphate.md): <span style="color: green;">soluble</span>
+> 5. [ammonium sulfide](ammonium%20sulfide.md): <span style="color: purple;">reacts</span>
+> 6. [ammonium sulfite](ammonium%20sulfite.md): <span style="color: green;">soluble</span>
+> 7. [barium hydroxide](barium%20hydroxide.md): <span style="color: green;">soluble</span>
+> 8. [barium oxide](barium%20oxide.md): <span style="color: purple;">reacts</span>
+> 9. [barium sulfate](barium%20sulfate.md): <span style="color: red;">insoluble</span>
+> 10. [calcium hydroxide](calcium%20hydroxide.md): <span style="color: yellow;">slightly soluble</span>
+> 11. [calcium oxide](calcium%20oxide.md): <span style="color: purple;">reacts</span>
+> 12. [calcium sulfate](calcium%20sulfate.md): <span style="color: yellow;">slightly soluble</span>
+> 13. [calcium sulfide](calcium%20sulfide.md): <span style="color: purple;">reacts</span>
+> 14. [calcium sulfite](calcium%20sulfite.md): <span style="color: red;">insoluble</span>
+> 15. [copper(I) bromide](copper(I)%20bromide.md): <span style="color: red;">insoluble</span>
+> 16. [copper(I) chloride](copper(I)%20chloride.md): <span style="color: red;">insoluble</span>
+> 17. [copper(I) iodide](copper(I)%20iodide.md): <span style="color: red;">insoluble</span>
+> 18. [copper(II) bromide](copper(II)%20bromide.md): <span style="color: green;">soluble</span>
+> 19. [copper(II) carbonate](copper(II)%20carbonate.md): <span style="color: red;">insoluble</span>
+> 20. [copper(II) chloride](copper(II)%20chloride.md): <span style="color: green;">soluble</span>
+> 21. [copper(II) ethanoate](copper(II)%20ethanoate.md): <span style="color: green;">soluble</span>
+> 22. [copper(II) hydroxide](copper(II)%20hydroxide.md): <span style="color: red;">insoluble</span>
+> 23. [copper(II) iodide](copper(II)%20iodide.md): <span style="color: green;">soluble</span>
+> 24. [copper(II) oxide](copper(II)%20oxide.md): <span style="color: red;">insoluble</span>
+> 25. [copper(II) phosphate](copper(II)%20phosphate.md): <span style="color: red;">insoluble</span>
+> 26. [copper(II) sulfate](copper(II)%20sulfate.md): <span style="color: green;">soluble</span>
+> 27. [copper(II) sulfide](copper(II)%20sulfide.md): <span style="color: red;">insoluble</span>
+> 28. [lead(II) bromide](lead(II)%20bromide.md): <span style="color: yellow;">slightly soluble</span>
+> 29. [lead(II) chloride](lead(II)%20chloride.md): <span style="color: yellow;">slightly soluble</span>
+> 30. [lead(II) iodide](lead(II)%20iodide.md): <span style="color: yellow;">slightly soluble</span>
+> 31. [lead(II) sulfate](lead(II)%20sulfate.md): <span style="color: red;">insoluble</span>
+> 32. [lithium phosphate](lithium%20phosphate.md): <span style="color: yellow;">slightly soluble</span>
+> 33. [mercury(I) bromide](mercury(I)%20bromide.md): <span style="color: red;">insoluble</span>
+> 34. [mercury(I) chloride](mercury(I)%20chloride.md): <span style="color: red;">insoluble</span>
+> 35. [mercury(I) iodide](mercury(I)%20iodide.md): <span style="color: red;">insoluble</span>
+> 36. [mercury(II) bromide](mercury(II)%20bromide.md): <span style="color: green;">soluble</span>
+> 37. [mercury(II) chloride](mercury(II)%20chloride.md): <span style="color: green;">soluble</span>
+> 38. [mercury(II) iodide](mercury(II)%20iodide.md): <span style="color: red;">insoluble</span>
+> 39. [silver bromide](silver%20bromide.md): <span style="color: red;">insoluble</span>
+> 40. [silver chloride](silver%20chloride.md): <span style="color: red;">insoluble</span>
+> 41. [silver ethanoate](silver%20ethanoate.md): <span style="color: yellow;">slightly soluble</span>
+> 42. [silver iodide](silver%20iodide.md): <span style="color: red;">insoluble</span>
+> 43. [silver nitrate](silver%20nitrate.md): <span style="color: green;">soluble</span>
+> 44. [silver sulfate](silver%20sulfate.md): <span style="color: yellow;">slightly soluble</span>
+> 45. [sodium carbonate](sodium%20carbonate.md): <span style="color: green;">soluble</span>
+> 46. [sodium chloride](sodium%20chloride.md): <span style="color: green;">soluble</span>
+> 47. [sodium fluoride](sodium%20fluoride.md): <span style="color: green;">soluble</span>
+> 48. [sodium hydroxide](sodium%20hydroxide.md): <span style="color: green;">soluble</span>
+> 49. [sodium oxide](sodium%20oxide.md): <span style="color: purple;">reacts</span>
+> 50. [sodium phosphate](sodium%20phosphate.md): <span style="color: green;">soluble</span>
+> 51. [sodium sulfide](sodium%20sulfide.md): <span style="color: purple;">reacts</span>
+> 52. [sodium sulfite](sodium%20sulfite.md): <span style="color: green;">soluble</span>
+> 53. [strontium hydroxide](strontium%20hydroxide.md): <span style="color: yellow;">slightly soluble</span>
+> 54. [strontium oxide](strontium%20oxide.md): <span style="color: purple;">reacts</span>
+> 55. [strontium sulfate](strontium%20sulfate.md): <span style="color: yellow;">slightly soluble</span>
+> 56. [thallium(I) hydroxide](thallium(I)%20hydroxide.md): <span style="color: green;">soluble</span>
+> 57. [thallium(I) oxide](thallium(I)%20oxide.md): <span style="color: purple;">reacts</span>
+> 58. [thallium(III) oxide](thallium(III)%20oxide.md): <span style="color: red;">insoluble</span>
+> 59. [uranyl carbonate](uranyl%20carbonate.md): <span style="color: green;">soluble</span>
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b92d"--><!-- The following content is generated at 2023-10-11T09:22:26.404438+08:00. Any edits will be overridden! -->
+
+1. [ammonium carbonate](ammonium%20carbonate.md)::<span style="color: green;">soluble</span>
+2. [ammonium chloride](ammonium%20chloride.md)::<span style="color: green;">soluble</span>
+3. [ammonium hydroxide](ammonia%20solution.md)::<span style="color: green;">soluble</span>
+4. [ammonium phosphate](ammonium%20phosphate.md)::<span style="color: green;">soluble</span>
+5. [ammonium sulfide](ammonium%20sulfide.md)::<span style="color: purple;">reacts</span>
+6. [ammonium sulfite](ammonium%20sulfite.md)::<span style="color: green;">soluble</span>
+7. [barium hydroxide](barium%20hydroxide.md)::<span style="color: green;">soluble</span>
+8. [barium oxide](barium%20oxide.md)::<span style="color: purple;">reacts</span>
+9. [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span>
+10. [calcium hydroxide](calcium%20hydroxide.md)::<span style="color: yellow;">slightly soluble</span>
+11. [calcium oxide](calcium%20oxide.md)::<span style="color: purple;">reacts</span>
+12. [calcium sulfate](calcium%20sulfate.md)::<span style="color: yellow;">slightly soluble</span>
+13. [calcium sulfide](calcium%20sulfide.md)::<span style="color: purple;">reacts</span>
+14. [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span>
+15. [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span>
+16. [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span>
+17. [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span>
+18. [copper(II) bromide](copper(II)%20bromide.md)::<span style="color: green;">soluble</span>
+19. [copper(II) carbonate](copper(II)%20carbonate.md)::<span style="color: red;">insoluble</span>
+20. [copper(II) chloride](copper(II)%20chloride.md)::<span style="color: green;">soluble</span>
+21. [copper(II) ethanoate](copper(II)%20ethanoate.md)::<span style="color: green;">soluble</span>
+22. [copper(II) hydroxide](copper(II)%20hydroxide.md)::<span style="color: red;">insoluble</span>
+23. [copper(II) iodide](copper(II)%20iodide.md)::<span style="color: green;">soluble</span>
+24. [copper(II) oxide](copper(II)%20oxide.md)::<span style="color: red;">insoluble</span>
+25. [copper(II) phosphate](copper(II)%20phosphate.md)::<span style="color: red;">insoluble</span>
+26. [copper(II) sulfate](copper(II)%20sulfate.md)::<span style="color: green;">soluble</span>
+27. [copper(II) sulfide](copper(II)%20sulfide.md)::<span style="color: red;">insoluble</span>
+28. [lead(II) bromide](lead(II)%20bromide.md)::<span style="color: yellow;">slightly soluble</span>
+29. [lead(II) chloride](lead(II)%20chloride.md)::<span style="color: yellow;">slightly soluble</span>
+30. [lead(II) iodide](lead(II)%20iodide.md)::<span style="color: yellow;">slightly soluble</span>
+31. [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span>
+32. [lithium phosphate](lithium%20phosphate.md)::<span style="color: yellow;">slightly soluble</span>
+33. [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span>
+34. [mercury(I) chloride](mercury(I)%20chloride.md)::<span style="color: red;">insoluble</span>
+35. [mercury(I) iodide](mercury(I)%20iodide.md)::<span style="color: red;">insoluble</span>
+36. [mercury(II) bromide](mercury(II)%20bromide.md)::<span style="color: green;">soluble</span>
+37. [mercury(II) chloride](mercury(II)%20chloride.md)::<span style="color: green;">soluble</span>
+38. [mercury(II) iodide](mercury(II)%20iodide.md)::<span style="color: red;">insoluble</span>
+39. [silver bromide](silver%20bromide.md)::<span style="color: red;">insoluble</span>
+40. [silver chloride](silver%20chloride.md)::<span style="color: red;">insoluble</span>
+41. [silver ethanoate](silver%20ethanoate.md)::<span style="color: yellow;">slightly soluble</span>
+42. [silver iodide](silver%20iodide.md)::<span style="color: red;">insoluble</span>
+43. [silver nitrate](silver%20nitrate.md)::<span style="color: green;">soluble</span>
+44. [silver sulfate](silver%20sulfate.md)::<span style="color: yellow;">slightly soluble</span>
+45. [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span>
+46. [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span>
+47. [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span>
+48. [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span>
+49. [sodium oxide](sodium%20oxide.md)::<span style="color: purple;">reacts</span>
+50. [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span>
+51. [sodium sulfide](sodium%20sulfide.md)::<span style="color: purple;">reacts</span>
+52. [sodium sulfite](sodium%20sulfite.md)::<span style="color: green;">soluble</span>
+53. [strontium hydroxide](strontium%20hydroxide.md)::<span style="color: yellow;">slightly soluble</span>
+54. [strontium oxide](strontium%20oxide.md)::<span style="color: purple;">reacts</span>
+55. [strontium sulfate](strontium%20sulfate.md)::<span style="color: yellow;">slightly soluble</span>
+56. [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span>
+57. [thallium(I) oxide](thallium(I)%20oxide.md)::<span style="color: purple;">reacts</span>
+58. [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span>
+59. [uranyl carbonate](uranyl%20carbonate.md)::<span style="color: green;">soluble</span>
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
