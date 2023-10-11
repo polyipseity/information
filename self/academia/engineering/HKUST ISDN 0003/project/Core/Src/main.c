@@ -135,26 +135,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    
-    
-    
-
-    
-    
-
-
-    
-      
-      
-    
-
-
-
-    
-
-
-
-
 
     // Delay the whole program for 1ms after executing a round of loop 
     HAL_Delay(1);
