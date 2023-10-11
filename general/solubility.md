@@ -1,6 +1,10 @@
 ---
 aliases:
+  - insolubilities
+  - insolubility
   - insoluble
+  - solubilities
+  - solubility
   - soluble
 tags:
   - flashcards/general/solubility
@@ -12,9 +16,7 @@ __Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form
 
 It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}.
 
-## data
-
-### ionic compounds in water
+## solubility of ionic compounds in water
 
 %%
 ```Python
@@ -50,7 +52,7 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
   },
   'iodides': {
     'general solubility': soluble,
-    'exception(s)': 'Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds',
+    'exception(s)': 'Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds',
   },
   'sulfates': {
     'general solubility': soluble,
@@ -93,7 +95,7 @@ return (
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2023-03-23T02:22:59.729037+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2023-10-11T09:22:26.343630+08:00. Any edits will be overridden! -->
 
 > group I compounds
 > - general solubility: {{<span style="color: green;">soluble</span>}}
@@ -121,7 +123,7 @@ return (
 
 > iodides
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}}
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}}
 
 > sulfates
 > - general solubility: {{<span style="color: green;">soluble</span>}}
