@@ -65,7 +65,7 @@
 /*#define HAL_SPI_MODULE_ENABLED   */
 /*#define HAL_SRAM_MODULE_ENABLED   */
 #define HAL_TIM_MODULE_ENABLED
-/*#define HAL_UART_MODULE_ENABLED   */
+#define HAL_UART_MODULE_ENABLED
 /*#define HAL_USART_MODULE_ENABLED   */
 /*#define HAL_WWDG_MODULE_ENABLED   */
 
@@ -154,7 +154,7 @@
 #define  USE_HAL_SPI_REGISTER_CALLBACKS         0U /* SPI register callback disabled       */
 #define  USE_HAL_TIM_REGISTER_CALLBACKS         1U /* TIM register callback enabled       */
 #define  USE_HAL_UART_REGISTER_CALLBACKS        1U /* UART register callback enabled      */
-#define  USE_HAL_USART_REGISTER_CALLBACKS       0U /* USART register callback disabled     */
+#define  USE_HAL_USART_REGISTER_CALLBACKS       1U /* USART register callback enabled     */
 #define  USE_HAL_WWDG_REGISTER_CALLBACKS        0U /* WWDG register callback disabled      */
 
 /* ########################## Assert Selection ############################## */
