@@ -120,21 +120,16 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-    Tick_Init();
-    Buzzer_Init();
-    WS2812_Init();
-    // ================================================================ //
-    //                     Your codes begin here                        //
-    // ================================================================ //
+  Tick_Init();
+  Buzzer_Init();
+  WS2812_Init();
+  // ================================================================ //
+  //                     Your codes begin here                        //
+  // ================================================================ //
 
-
-
-
-
-
-    /*view some sample code at Core/Src/sample.c and Core/Inc/sample.h */
-    while (1)
-    {
+  /*view some sample code at Core/Src/sample.c and Core/Inc/sample.h */
+  while (1)
+  {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -142,10 +137,12 @@ int main(void)
     // Delay the whole program for 1ms after executing a round of loop 
     HAL_Delay(1);
     // This is important because we do not want our program to refresh too fast.
-    }
-    // ================================================================ //
-    //                     Your codes end here                          //
-    // ================================================================ //
+  }
+
+  // ================================================================ //
+  //                     Your codes end here                          //
+  // ================================================================ //
+
   /* USER CODE END 3 */
 }
 
