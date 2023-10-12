@@ -1,38 +1,17 @@
----
-BasedOnStyle: Microsoft
-Language: Cpp
-
-###################################
-#          indent conf
-###################################
-
-UseTab: Never
+BasedOnStyle: Google
 IndentWidth: 4
-TabWidth: 4
-ColumnLimit: 0
-AccessModifierOffset: -4
-NamespaceIndentation: All
-FixNamespaceComments: false
-BreakBeforeBraces: Linux
-
-###################################
-#          other styles
-###################################
-
-# 
-# for more conf, you can ref: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
-#
-
-AllowShortIfStatementsOnASingleLine: true
-
-AllowShortLoopsOnASingleLine: true
-
-AllowShortBlocksOnASingleLine: true
-
-IndentCaseLabels: true
-
-SortIncludes: false
-
-AlignConsecutiveMacros: AcrossEmptyLines
-
-AlignConsecutiveAssignments: Consecutive
+AlignEscapedNewlines: Left
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowAllParametersOfDeclarationOnNextLine: true
+BinPackParameters: false
+BinPackArguments: false
+BreakBeforeBraces: Allman
+ColumnLimit: 80
+PointerAlignment: Right
+DerivePointerAlignment: false
+IndentCaseLabels: false
+NamespaceIndentation: None
+AlignConsecutiveAssignments: true

@@ -114,35 +114,21 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  Tick_Init();
+  Buzzer_Init();
+  WS2812_Init();
+  // extern int cppMain();
+  // cppMain();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
-  Tick_Init();
-  Buzzer_Init();
-  WS2812_Init();
-  // ================================================================ //
-  //                     Your codes begin here                        //
-  // ================================================================ //
-
-  /*view some sample code at Core/Src/sample.c and Core/Inc/sample.h */
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
-    // Delay the whole program for 1ms after executing a round of loop 
-    HAL_Delay(1);
-    // This is important because we do not want our program to refresh too fast.
   }
-
-  // ================================================================ //
-  //                     Your codes end here                          //
-  // ================================================================ //
-
   /* USER CODE END 3 */
 }
 

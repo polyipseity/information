@@ -31,6 +31,12 @@
                     "path": "Core/Src/buzzer.c"
                   },
                   {
+                    "path": "Core/Src/cppMain.cpp"
+                  },
+                  {
+                    "path": "Core/Src/DR16.cpp"
+                  },
+                  {
                     "path": "Core/Src/main.c"
                   },
                   {
