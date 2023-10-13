@@ -115,7 +115,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-11-06,52,175-->
-3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-10-10,31,135-->
+3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-10-28,15,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2023-11-25,56,255!2023-11-21,125,250-->
@@ -219,7 +219,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-11-30,61,175!2024-06-23,313,295-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-10-11,19,150!2024-03-18,191,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-11-10,28,150!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2023-10-19,19,130-->
@@ -265,7 +265,7 @@ return await memorize_seq(
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-11-07,45,215!2024-07-19,293,295-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-12-03,58,275!2023-11-24,96,215-->
-4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2023-10-08,98,235!2023-11-19,153,295-->
+4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
 6. Deduce causes and reasons.→:::←_(end)_ <!--SR:!2024-06-09,320,335!2024-04-09,265,315-->
 
@@ -316,8 +316,8 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-04-06,204,255!2024-04-17,273,315-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2023-10-08,111,275-->
-4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2023-10-09,112,270!2024-07-23,304,275-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2024-08-12,304,275-->
+4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2024-08-09,301,270!2024-07-23,304,275-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-12-09,91,230-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-06-16,324,330!2024-03-31,256,315-->
 
@@ -495,8 +495,8 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-11-18,49,215!2024-04-08,264,315-->
-2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-10-11,108,270!2023-12-12,140,250-->
-3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-12-01,135,255!2023-10-13,57,195-->
+2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-12-05,53,250!2023-12-12,140,250-->
+3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-12-01,135,255!2024-01-31,110,195-->
 4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2023-12-02,136,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2024-04-03,259,315!2024-01-27,192,295-->
 
