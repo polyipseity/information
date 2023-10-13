@@ -75,9 +75,9 @@ Ordinary differential equations are furthered classified:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:47:40.062051+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2023-10-14,14,290!2023-10-16,16,290-->
-2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2023-10-13,13,290!2023-10-17,17,290-->
+2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2023-12-07,55,310!2023-10-17,17,290-->
 3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-10-16,16,290!2023-10-14,14,290-->
-4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2023-10-13,13,290!2023-10-17,17,290-->
+4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2023-12-05,53,310!2023-10-17,17,290-->
 5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-10-16,16,290!2023-10-15,15,290-->
 6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2023-10-14,14,290!2023-10-14,14,290-->
 
@@ -93,7 +93,7 @@ Ordinary differential equations are furthered classified:
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}} <!--SR:!2023-10-12,12,270-->
+> {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}} <!--SR:!2023-11-26,44,290-->
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
@@ -101,7 +101,7 @@ Ordinary differential equations are furthered classified:
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {{An ODE that is not [linear](#^linear).}} <!--SR:!2023-10-13,13,290-->
+> {{An ODE that is not [linear](#^linear).}} <!--SR:!2023-12-06,54,310-->
 
 ### exact solutions
 

@@ -8,7 +8,7 @@ tags:
 
 # catalytic converter
 
-__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}. {{[Platinum](platinum.md) or [rhodium](rhodium.md)}} can be used as the [catalyst](catalysis.md). <!--SR:!2024-05-25,353,257!2023-10-10,216,257!2024-05-27,240,231-->
+__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}. {{[Platinum](platinum.md) or [rhodium](rhodium.md)}} can be used as the [catalyst](catalysis.md). <!--SR:!2024-05-25,353,257!2025-11-28,777,277!2024-05-27,240,231-->
 
 ## reactions
 
@@ -17,7 +17,7 @@ __Catalytic converter__ is a {{device that converts toxic pollutants into less-t
 > - {{C + 2NO<sub>2</sub> → CO<sub>2</sub> + 2NO}}
 > - {{CO + NO → CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}}
 > - {{2CO + NO<sub>2</sub> → 2CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}}
-> - {{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}} <!--SR:!2024-01-02,392,250!2025-06-02,790,270!2023-12-06,99,170!2023-10-08,342,250!2024-09-30,360,210!2023-10-21,57,170-->
+> - {{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}} <!--SR:!2024-01-02,392,250!2025-06-02,790,270!2023-12-06,99,170!2026-02-13,854,250!2024-09-30,360,210!2023-10-21,57,170-->
 
 ### oxidation
 {{Carbon, hydrocarbons, and carbon monoxide}} are oxidized to {{[carbon dioxide](carbon%20dioxide.md)}}.

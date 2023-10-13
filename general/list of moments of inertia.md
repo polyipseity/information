@@ -20,7 +20,7 @@ tags:
   - thin plate correction: {{0}}
   - cuboid, axis through center of edge $c$: {{$I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$}}
   - thin plate with $c=0$, axis through edge $a$: {{$I_{a,c=0}=\frac13mb^2$}}
-- proof: $$\begin{aligned}
+- proof: $\begin{aligned}
 m&=\rho{}HLW\\
 I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-\frac{W^2}2\right)^2\right)\,\mathrm{d}h\,\mathrm{d}l\,\mathrm{d}w\\
 &=\rho{}H\int_0^W\!\int_0^L\!\left(l^2-Ll+\frac{L^2}4+w^2-Ww+\frac{W^2}4\right)\,\mathrm{d}l\,\mathrm{d}w\\
@@ -31,7 +31,7 @@ I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-
 &=\frac1{12}m\left(L^2+W^2\right)\\
 I_L&=\frac1{12}m\left(H^2+W^2\right)\\
 I_W&=\frac1{12}m\left(L^2+H^2\right)\\
-\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270-->
+\end{aligned}$ <!--SR:!2023-10-26,13,290!2023-10-23,10,270!2023-10-27,14,290!2023-10-24,11,270!2023-10-27,14,290-->
 
 ### cylindrical shell, axis through base center
 
@@ -39,7 +39,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 - equation: {{$I=\frac12m\left(R_O^2+R_I^2\right)$}}
   - solid cylinder: {{$I=\frac12mR_O^2$}}
   - thin-walled hollow cylinder: {{$I=mR_O^2$}}
-- proof: $$\begin{aligned}
+- proof: $\begin{aligned}
 m&=\rho\pi{}H\left(R_O^2-R_I^2\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\mathrm{d}h\,\mathrm{d}r\\
 &=2\rho\pi{}H\int_{R_I}^{R_O}\!r^3\,\mathrm{d}r\\
@@ -47,7 +47,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 &=\frac12\rho\pi{}H\left(R_O^4-R_I^4\right)\\
 &=\frac12\rho\pi{}H\left(R_O^2-R_I^2\right)\left(R_O^2+R_I^2\right)\\
 &=\frac12m\left(R_O^2+R_I^2\right)
-\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250-->
+\end{aligned}$ <!--SR:!2023-10-29,16,290!2023-10-25,12,270!2023-10-28,15,290!2023-10-24,11,270-->
 
 ### rod, axis through certain distance from one end
 
@@ -56,7 +56,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
   - thin rod correction: {{$-\frac14mR^2$}}
   - slender rod, axis through center: {{$\frac1{12}mL^2$}}
   - slender rod, axis through one end: {{$\frac13mL^2$}}
-- proof: $$\begin{aligned}
+- proof: $\begin{aligned}
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
 &=\rho\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\left(\frac12r^3+\frac12r^3\cos2\theta+r(z-Z)^2\right)\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
@@ -69,8 +69,8 @@ I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\
 &=\frac14mR^2+\frac13\pi\rho{}R^2(L-Z+Z)\left((L-Z)^2-Z(L-Z)+Z^2\right)\\
 &=\frac14mR^2+\frac13m\left(L^2-2LZ+Z^2-LZ+Z^2+Z^2\right)\\
 &=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2
-\end{aligned}$$
-  - shitty coordinates ([Cartesian coordinates](Cartesian%20coordinate%20system.md)) proof: $$\begin{aligned}
+\end{aligned}$
+  - shitty coordinates ([Cartesian coordinates](Cartesian%20coordinate%20system.md)) proof: $\begin{aligned}
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r\,\mathrm{d}l\\
 &=4\rho\int_0^L\!\left(\int_0^Rr^2\!\sqrt{R^2-r^2}\,\mathrm{d}r+(l-Z)^2\int_0^R\!\sqrt{R^2-r^2}\,\mathrm{d}r\right)\,\mathrm{d}l\\
@@ -85,7 +85,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 &=\frac14mR^2+\frac\pi3\rho{}R^2(L-Z+Z)\left((L-Z)^2-Z(L-Z)+Z^2\right)\\
 &=\frac14mR^2+\frac13m\left(L^2-2LZ+Z^2-LZ+Z^2+Z^2\right)\\
 &=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2
-\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-10,3,250!2023-10-10,3,250-->
+\end{aligned}$ <!--SR:!2023-10-29,16,290!2023-10-22,9,270!2023-10-30,17,290!2023-10-22,9,270!2023-10-25,12,270-->
 
 ### spherical shell, axis through center
 
@@ -93,7 +93,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 - equation: {{$I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$}}
   - solid sphere: {{$I=\frac25mR_O^2$}}
   - thin-walled hollow sphere: {{$I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$}}
-- proof: $$\begin{aligned}
+- proof: $\begin{aligned}
 m&=\frac43\rho\pi\left(R_O^3-R_I^3\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d}\theta\,\mathrm{d}\phi\,\mathrm{d}r\\
 &=-\rho\int_{R_I}^{R_O}\!r^4\int_0^{2\pi}\!\int_{\theta=0}^{\theta=\pi}\!\left(1-\cos^2\theta\right)\,\mathrm{d}\!(\cos\theta)\,\mathrm{d}\phi\,\mathrm{d}r\\
@@ -104,4 +104,4 @@ I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d
 &=\frac8{15}\pi\rho\left[r^5\right]_{R_I}^{R_O}\\
 &=\frac8{15}\pi\rho\left(R_O^5-R_I^5\right)\\
 &=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}
-\end{aligned}$$ <!--SR:!2023-10-11,4,270!2023-10-10,3,250!2023-10-11,4,270!2023-10-08,1,230-->
+\end{aligned}$ <!--SR:!2023-10-27,14,290!2023-10-23,10,270!2023-10-28,15,290!2023-10-16,3,250-->
