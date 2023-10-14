@@ -38,7 +38,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## insert
 - quit insert mode:::\<Esc\> <!--SR:!2024-04-20,347,333!2024-03-31,328,333-->
-- insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2023-10-14,179,293!2024-02-20,279,328-->
+- insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2025-10-10,727,313!2024-02-20,279,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2024-01-11,248,313!2023-10-20,186,308-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2024-01-04,234,273!2024-04-21,348,333-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2025-07-01,648,313-->

@@ -484,7 +484,7 @@ return chain.from_iterable(await gather(
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2025-01-11,566,250-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2027-10-05,1481,293-->
-20. nitride ion::_(n/a)_ <!--SR:!2023-10-14,174,256-->
+20. nitride ion::_(n/a)_ <!--SR:!2024-12-31,444,256-->
 21. phosphate ion::colorless <!--SR:!2027-10-06,1482,293-->
 22. manganate ion::<span style="color: green;">green</span> <!--SR:!2023-11-22,163,322-->
 

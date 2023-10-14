@@ -10,7 +10,7 @@ tags:
 
 # rate equation
 
-The __rate equation__ of a [chemical reaction](chemical%20reaction.md) {{is an [equation](equation.md) that shows the quantitative relationship between the [reaction rate](reaction%20rate.md) and the [concentration](concentration.md) of [reactants](reagent.md)}}. <!--SR:!2023-10-14,61,230-->
+The __rate equation__ of a [chemical reaction](chemical%20reaction.md) {{is an [equation](equation.md) that shows the quantitative relationship between the [reaction rate](reaction%20rate.md) and the [concentration](concentration.md) of [reactants](reagent.md)}}. <!--SR:!2024-04-30,199,250-->
 
 ## determination
 
