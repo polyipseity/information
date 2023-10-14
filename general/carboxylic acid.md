@@ -49,7 +49,7 @@ Similary to [alcohols](alcohol.md), carboxylic acids can {{react with [phosphoro
 
 ### reduction
 
-Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-10-14,116,249-->
+Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2023-12-10,57,229-->
 
 ### reactions
 
@@ -86,7 +86,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2024-02-17,187,269!2024-02-18,244,329-->
 2. [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2024-06-01,277,293!2024-03-12,238,313-->
-3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2023-10-14,61,229!2023-12-06,141,309-->
+3. [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2024-03-01,139,229!2023-12-06,141,309-->
 4. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2023-10-31,156,309!2023-12-06,170,309-->
 5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2023-12-28,204,329!2024-02-14,240,329-->
 
