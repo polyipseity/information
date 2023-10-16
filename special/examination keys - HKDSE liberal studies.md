@@ -116,7 +116,7 @@ return await memorize_table(
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-11-06,52,175-->
 3. factor/reason→:::←impact/problem <!--SR:!2023-10-27,63,215!2023-10-28,15,130-->
-4. impact/problem→:::←phenomenon <!--SR:!2023-10-15,100,235!2023-10-28,101,215-->
+4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-10-28,101,215-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2023-11-25,56,255!2023-11-21,125,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
@@ -168,7 +168,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384f"--><!-- The following content is generated at 2023-04-25T22:32:43.492593+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2023-10-16,101,230!2024-04-16,271,315-->
+1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2023-12-07,52,210!2024-04-16,271,315-->
 2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2023-11-04,125,275!2024-04-10,266,315-->
 3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2023-12-23,181,315!2024-03-01,153,215-->
 
@@ -421,7 +421,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2023-10-21,132,295-->
 2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-10-20,13,130!2023-11-21,117,230-->
-3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-10-16,10,150-->
+3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-10-31,15,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
