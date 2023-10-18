@@ -31,16 +31,12 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-extern CAN_HandleTypeDef hcan;
 
-extern TIM_HandleTypeDef htim1;
-extern TIM_HandleTypeDef htim2;
-extern TIM_HandleTypeDef htim3;
-extern DMA_HandleTypeDef hdma_tim2_ch1;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -53,8 +49,6 @@ extern DMA_HandleTypeDef hdma_tim2_ch1;
 
 /* USER CODE END EM */
 
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
-
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -63,6 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define SW_Pin GPIO_PIN_4
+#define SW_GPIO_Port GPIOA
 #define LED_1_Pin GPIO_PIN_12
 #define LED_1_GPIO_Port GPIOB
 #define LED_2_Pin GPIO_PIN_13
