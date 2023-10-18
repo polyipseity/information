@@ -13,21 +13,21 @@
 #pragma once
 
 // dji motor
-#define USE_DJI_MOTOR TRUE
+#define USE_DJI_MOTOR 1
     #if USE_DJI_MOTOR
         #ifndef DJI_MOTOR_CAN
         #define DJI_MOTOR_CAN hcan
         #endif
     #endif
 
-#define USE_DR16 TRUE
+#define USE_DR16 1
     #if USE_DR16
         #ifndef DR16_UART
         #define DR16_UART huart1
         #endif
     #endif
 
-#define USE_BUZZER TRUE
+#define USE_BUZZER 1
     #if USE_BUZZER
         #ifndef BUZZER_TIM_CLOCK
         #define BUZZER_TIM_CLOCK 72000000
