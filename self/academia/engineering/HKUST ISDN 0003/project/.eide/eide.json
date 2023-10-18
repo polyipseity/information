@@ -3,11 +3,20 @@
   "type": "ARM",
   "dependenceList": [],
   "srcDirs": [
-    ".eide/deps"
+    ".eide/deps",
+    "Core",
+    "RM2024-RDC-Core",
+    "Drivers",
+    "Diagnostic",
+    "FreeRTOS"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
-    "files": [],
+    "files": [
+      {
+        "path": "startup_stm32f103xb.s"
+      }
+    ],
     "folders": [
       {
         "name": "Application",
@@ -131,7 +140,17 @@
   "targets": {
     "project": {
       "excludeList": [
-        "<virtual_root>/Application/MDK-ARM"
+        "<virtual_root>/Application",
+        "<virtual_root>/Drivers",
+        "FreeRTOS/include",
+        "Drivers/CMSIS/DSP",
+        "Drivers/CMSIS/docs",
+        "Drivers/CMSIS/NN",
+        "Drivers/CMSIS/Core_A",
+        "Drivers/CMSIS/Core",
+        "Drivers/CMSIS/RTOS2",
+        "Drivers/CMSIS/RTOS",
+        "Drivers/CMSIS/Lib"
       ],
       "toolchain": "GCC",
       "compileConfig": {
@@ -167,7 +186,16 @@
           "Drivers/CMSIS/Device/ST/STM32F1xx/Include",
           "Drivers/CMSIS/Include",
           ".cmsis/include",
-          ".eide/deps"
+          ".eide/deps",
+          "FreeRTOS/include",
+          "Diagnostic/SystemView/Config",
+          "Diagnostic/SystemView/FreeRTOS",
+          "RM2024-RDC-Core/Drivers",
+          "Diagnostic/SystemView/SEGGER",
+          "FreeRTOS/portable/GCC/ARM_CM3",
+          "Drivers/CMSIS/RTOS2/Include",
+          "Drivers/CMSIS/Core_A/Include",
+          "Drivers/CMSIS/Core/Include"
         ],
         "libList": [],
         "sourceDirList": [],
