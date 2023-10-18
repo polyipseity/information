@@ -1,0 +1,66 @@
+commit 3255ecf09900a16a450bde2a754c594a8bddf844
+Author: William So <polyipseity@gmail.com>
+Date:   Wed Oct 18 17:20:44 2023 +0800
+
+    Add 1 question
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/UserTask.cpp b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/UserTask.cpp
+index af0f750..8c1270e 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/UserTask.cpp	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/UserTask.cpp	
+@@ -50,6 +50,9 @@ void PIDTask(void *)
+     /*=================================================*/
+     // Control::PID motorPID(100, 0, 0); // Declare a PID instance with Kp = 100
+ 
++    Control::PID motorPID{10000., 10000. / 10, 10000 * .1};
++    auto last_tick{HAL_GetTick()};
++
+     /* Your user layer codes end here*/
+     /*=================================================*/
+     while (true)
+@@ -57,6 +60,10 @@ void PIDTask(void *)
+         /* Your user layer codes in loop begin here*/
+         /*=================================================*/
+ 
++        auto const tick{HAL_GetTick()}, elapsed{tick - last_tick};
++        motor.setOutputCurrent(motorPID.update(targetMotorPos, motor.getPosition(), elapsed / 1000.));
++        last_tick = tick;
++
+         /* Your user layer codes in loop end here*/
+         /*=================================================*/
+         DJIMotor::sendMotorGroup(1);  // Transmit the data to the motor, which
+@@ -85,6 +92,7 @@ void targetUpdateTask(void *)
+     uint8_t state                 = 0;
+     while (true)
+     {
++        lastButtonState = buttonState;
+         buttonState = HAL_GPIO_ReadPin(SW_GPIO_Port, SW_Pin);
+ 
+         if (buttonState == GPIO_PIN_SET && lastButtonState == GPIO_PIN_RESET)
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/RM2024-RDC-Core/Drivers/PID.cpp b/self/academia/engineering/HKUST ISDN 0003/project/RM2024-RDC-Core/Drivers/PID.cpp
+index 970d8a2..cd94612 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/RM2024-RDC-Core/Drivers/PID.cpp	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/RM2024-RDC-Core/Drivers/PID.cpp	
+@@ -10,14 +10,12 @@ float PID::update(float target, float measurement, float dt)
+     // Your implementation of the PID algorithm begins here
+     /*=====================================================================*/
+ 
+-
+-
+-
+-
+-
+-
+-
+-
++    lastError = error;
++    error = target - measurement;
++    pOut = error;
++    iOut += error * dt;
++    dOut = (error - lastError) / dt;
++    output = Kp * pOut + Ki * iOut + Kd * dOut;
+ 
+     /*=====================================================================*/
+     // Your implementation of the PID algorithm ends here
