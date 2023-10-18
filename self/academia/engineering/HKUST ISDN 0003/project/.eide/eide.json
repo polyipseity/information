@@ -11,11 +11,7 @@
     "folders": [
       {
         "name": "Application",
-        "files": [
-          {
-            "path": "startup_stm32f103xb.s"
-          }
-        ],
+        "files": [],
         "folders": [
           {
             "name": "User",
@@ -25,37 +21,31 @@
                 "name": "Core",
                 "files": [
                   {
-                    "path": "Core/Src/button.c"
+                    "path": "Core/Src/can.c"
                   },
                   {
-                    "path": "Core/Src/buzzer.c"
+                    "path": "Core/Src/dma.c"
                   },
                   {
-                    "path": "Core/Src/cppMain.cpp"
-                  },
-                  {
-                    "path": "Core/Src/DR16.cpp"
+                    "path": "Core/Src/gpio.c"
                   },
                   {
                     "path": "Core/Src/main.c"
                   },
                   {
-                    "path": "Core/Src/sample.c"
+                    "path": "Core/Src/stm32f1xx_hal_msp.c"
                   },
                   {
-                    "path": "Core/Src/stm32f1xx_hal_msp.c"
+                    "path": "Core/Src/stm32f1xx_hal_timebase_tim.c"
                   },
                   {
                     "path": "Core/Src/stm32f1xx_it.c"
                   },
                   {
-                    "path": "Core/Src/system_stm32f1xx.c"
+                    "path": "Core/Src/tim.c"
                   },
                   {
-                    "path": "Core/Src/tick.c"
-                  },
-                  {
-                    "path": "Core/Src/ws2812.c"
+                    "path": "Core/Src/usart.c"
                   }
                 ],
                 "folders": []
@@ -136,12 +126,12 @@
   "deviceName": null,
   "packDir": null,
   "miscInfo": {
-    "uid": "4e9b635b4a9e57b10656957b123fc84e"
+    "uid": "43a9024eca90ff4c094e782c33b8d52e"
   },
   "targets": {
     "project": {
       "excludeList": [
-        "<virtual_root>/Application/User/Core/tim.c"
+        "<virtual_root>/Application/MDK-ARM"
       ],
       "toolchain": "GCC",
       "compileConfig": {
@@ -177,7 +167,6 @@
           "Drivers/CMSIS/Device/ST/STM32F1xx/Include",
           "Drivers/CMSIS/Include",
           ".cmsis/include",
-          "MDK-ARM/RTE/_project",
           ".eide/deps"
         ],
         "libList": [],
