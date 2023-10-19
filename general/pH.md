@@ -13,7 +13,7 @@ __pH__ is {{a scale of the [acidity](acid.md) or [basicity](base%20(chemistry).m
 
 It is defined as {{the negative [logarithm](logarithmic%20scale.md) of the [activity](thermodynamic%20activity.md) of [hydrogen ion](hydrogen%20ion.md) in the [solution](solution%20(chemistry).md), which is approximately the [concentration](concentration.md) of it}}:
 
-> {{$\text{pH}=-\log\left(a_{\text{H}^+}\right)\approx-\log\left(\left[\text{H}^+\text{(aq)}\right]\right)$
+> {{$\text{pH}=-\log\left(a_{\text{H}^+}\right)\approx-\log\left(\left[\text{H}^+\text{(aq)}\right]\right)$}}
 >
 > where {{\[H<sup>+</sup>(aq)\] is the [equilibrium](equilibrium%20chemistry.md) [molar concentration](molar%20concentration.md) of H<sup>+</sup>}}.
 
