@@ -18,9 +18,9 @@ The position of a simple harmonic motion as a function of time can be written as
 > 2. {{$x(t)=A\cos(\omega{t}-\phi)$}}
 >
 > where
-> - $k$ is the spring constant
-> - $m$ is the object mass
-> - $\omega=\sqrt{\frac{k}m}$
-> - $c=x_0+\frac{v_0}\omega{}i$
-> - $A=|c|$
-> - $\phi=\arg{c}$
+> - {{$k$ is the spring constant}}
+> - {{$m$ is the object mass}}
+> - {{$\omega=\sqrt{\frac{k}m}$}}
+> - {{$c=x_0+\frac{v_0}\omega{}i$}}
+> - {{$A=|c|$}}
+> - {{$\phi=\arg{c}$}}
