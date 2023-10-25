@@ -14,4 +14,4 @@ The {{__Arrhenius equation__}} is {{a formula for the dependence of [rate consta
 The Arrhenius equation is given as
 
 > Arrhenius equation
-> - {{$k=Ae^\frac{-E_a}{RT}$}}. <!--SR:!2023-10-16,111,270-->
+> - {{$k=Ae^\frac{-E_a}{RT}$}}. <!--SR:!2024-08-19,299,270-->

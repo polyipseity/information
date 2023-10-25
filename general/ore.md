@@ -12,7 +12,7 @@ tags:
 
 # ore
 
-An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2023-10-15,112,230-->
+An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2024-07-08,257,230-->
 
 ## extraction
 
@@ -55,7 +55,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2024-01-08,215,310!2024-02-16,242,330-->
 2. [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2024-12-27,475,310!2024-10-18,420,310-->
-3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2024-04-20,250,270!2023-10-21,137,290-->
+3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2024-04-20,250,270!2024-01-03,70,270-->
 4. [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2024-03-28,234,270!2024-12-06,441,290-->
 5. [galena](galena.md)→:::←[hematite](hematite.md) <!--SR:!2024-10-04,390,290!2024-09-23,390,290-->
 6. [hematite](hematite.md)→:::←_(end)_ <!--SR:!2024-02-29,254,330!2024-01-26,229,330-->

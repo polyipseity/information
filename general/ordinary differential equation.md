@@ -27,7 +27,7 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-10-16,16,290!2023-10-18,18,304-->
+> - $F$, a [formula](formula.md) <!--SR:!2023-12-31,67,310!2024-01-07,74,324-->
 
 An [implicit](implicit%20function.md) ordinary differential equation of order _n_ has the form:
 
@@ -39,7 +39,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-10-15,15,290!2023-10-18,18,304-->
+> - $F$, a [formula](formula.md) <!--SR:!2023-12-23,59,310!2024-01-08,75,324-->
 
 ### classifications
 
@@ -74,22 +74,22 @@ Ordinary differential equations are furthered classified:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:47:40.062051+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2023-12-09,56,310!2023-10-16,16,290-->
-2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2023-12-07,55,310!2023-10-17,17,290-->
-3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-10-16,16,290!2023-12-05,52,310-->
-4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2023-12-05,53,310!2023-10-17,17,290-->
-5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-10-16,16,290!2023-10-15,15,290-->
+1. _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2023-12-09,56,310!2023-12-27,63,310-->
+2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2023-12-07,55,310!2024-01-01,68,310-->
+3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-12-27,63,310!2023-12-05,52,310-->
+4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2023-12-05,53,310!2024-01-01,68,310-->
+5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-12-26,62,310!2023-12-23,59,310-->
 6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2023-12-08,55,310!2023-12-06,53,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {{An ODE where $F$ does not depend on $x$ explicitly.}} <!--SR:!2023-10-15,15,290-->
+> {{An ODE where $F$ does not depend on $x$ explicitly.}} <!--SR:!2023-12-20,56,310-->
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2023-10-17,17,290-->
+> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2023-12-16,52,290-->
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
@@ -97,7 +97,7 @@ Ordinary differential equations are furthered classified:
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2023-10-15,15,290-->
+> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2023-12-22,58,310-->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
@@ -166,7 +166,7 @@ y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
 >
 > - form: {{$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$}}
 > - solution: {{multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice}}
-> - steps: $$\begin{aligned}
+> - steps: $\begin{aligned}
 \frac{\mathrm{d}^2y}{\mathrm{d}x^2}&=F(y)\\
 2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}&=2\frac{\mathrm{d}y}{\mathrm{d}x}F(y)\\
 \frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2&=2\frac{\mathrm{d}y}{\mathrm{d}x}F(y)\\
@@ -176,8 +176,8 @@ y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=\pm\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1}\\
 \int\!\mathrm{d}x&=\int\!\frac{\mathrm{d}y}{\pm\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1} }\\
 x&=\pm\int\!\frac{\mathrm{d}y}{\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1} }+C_2
-\end{aligned}$$
-> - example: $$\begin{aligned}
+\end{aligned}$
+> - example: $\begin{aligned}
 \frac{\mathrm{d}^2x}{\mathrm{d}t^2}&=-\frac{k}mx\\
 2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{\mathrm{d}^2x}{\mathrm{d}t^2}&=-2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{k}mx\\
 \frac{\mathrm{d} }{\mathrm{d}t}\!\left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2&=-2\frac{\mathrm{d}x}{\mathrm{d}t}\frac{k}mx\\
@@ -196,4 +196,4 @@ C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\left(C_{2\in[-1,1]}\sin\sqrt{\frac{k}m}t+C_{3\in[-1,1]}\cos\sqrt{\frac{k}m}t\right)\\
 &=C_1\sin\sqrt{\frac{k}m}t+C_2\cos\sqrt{\frac{k}m}t
-\end{aligned}$$ <!--SR:!2023-11-01,26,320!2023-10-23,17,300!2023-10-23,17,300-->
+\end{aligned}$ <!--SR:!2023-11-01,26,320!2024-01-03,70,320!2024-01-03,70,320-->

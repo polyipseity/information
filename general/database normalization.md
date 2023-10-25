@@ -10,4 +10,4 @@ tags:
 
 ## normal forms
 
-A relational database is informally described as "normalized" if {{it satisfies [third normal form](third%20normal%20form.md)}}. <!--SR:!2023-10-15,23,290-->
+A relational database is informally described as "normalized" if {{it satisfies [third normal form](third%20normal%20form.md)}}. <!--SR:!2024-01-25,92,310-->

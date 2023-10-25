@@ -17,7 +17,7 @@ tags:
 
 The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2024-03-10,265,270!2026-06-04,964,330!2023-11-19,135,170!2025-01-27,570,310!2023-11-23,183,232!2023-11-07,249,332!2024-04-27,218,192-->
 
-The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-11-02,144,290!2023-10-23,126,252-->
+The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-11-02,144,290!2025-01-12,445,272-->
 
 ## postulates
 
@@ -80,7 +80,7 @@ The Bohr model fails to explain:
 > | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
 > | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
 > | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2024-11-07,391,324!2023-10-24,47,284!2024-02-19,199,304!2024-06-05,303,324-->
+> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2024-11-07,391,324!2024-03-05,132,284!2024-02-19,199,304!2024-06-05,303,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
