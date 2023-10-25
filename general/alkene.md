@@ -84,7 +84,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2024-01-30,238,330!2024-03-20,275,330-->
 2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-02-16,250,330!2023-11-17,108,290-->
-3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2023-10-25,99,250!2023-11-18,72,270-->
+3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2023-11-18,72,270-->
 4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2023-12-16,198,310!2024-04-13,237,270-->
 5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2024-03-18,267,331-->
 6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2024-01-29,175,271!2024-12-22,449,311-->

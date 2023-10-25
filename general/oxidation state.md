@@ -60,7 +60,7 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2022-11-05T00:25:01.108868+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←element in a free form: 0 <!--SR:!2024-11-24,560,310!2024-03-22,395,330-->
-2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2023-10-20,218,250!2025-02-21,620,310-->
+2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2025-02-21,620,310-->
 3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2024-01-13,265,250!2024-03-26,372,290-->
 4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2024-10-16,403,230!2025-09-19,714,270-->
 5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2024-07-31,408,270!2023-12-02,223,230-->

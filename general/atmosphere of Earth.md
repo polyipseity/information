@@ -76,7 +76,7 @@ return (
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1ad236"--><!-- The following content is generated at 2023-03-14T22:09:57.767517+08:00. Any edits will be overridden! -->
 
-1. [N<sub>2</sub>](nitrogen.md)::78.084% <!--SR:!2023-10-25,370,230-->
+1. [N<sub>2</sub>](nitrogen.md)::78.084% <!--SR:!2027-02-08,1202,250-->
 2. [O<sub>2</sub>](oxygen.md)::20.946% <!--SR:!2024-02-09,153,170-->
 3. [Ar](argon.md)::0.9340% <!--SR:!2024-01-22,299,210-->
 4. [CO<sub>2</sub>](carbon%20dioxide.md)::0.0417% (2022-04-xx) <!--SR:!2024-04-10,180,167-->

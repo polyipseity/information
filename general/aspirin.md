@@ -48,7 +48,7 @@ return await memorize_table(
 > | {{[analgesic](analgesic.md)}} |  |
 > | {{[anti-inflammation](anti-inflammatory.md)}} | {{It can treat [arthritis](arthritis.md).}} |
 > | {{prevention of [heart attack](myocardial%20infarction.md)}} | {{It has [blood thinning](anticoagulant.md) and [antiplatelet](antiplatelet%20drug.md) effect.}} |
-> | {{relieve [fever](fever.md)}} |  | <!--SR:!2024-07-10,307,290!2024-06-28,346,330!2023-10-21,95,230!2024-06-23,341,330!2024-06-23,305,290!2025-04-12,547,310-->
+> | {{relieve [fever](fever.md)}} |  | <!--SR:!2024-07-10,307,290!2024-06-28,346,330!2024-05-30,218,230!2024-06-23,341,330!2024-06-23,305,290!2025-04-12,547,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

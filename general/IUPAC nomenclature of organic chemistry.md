@@ -177,7 +177,7 @@ The steps for naming an organic compound are:
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-03-10,287,247!2023-12-31,157,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2023-11-08,91,247-->
 10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2023-12-10,94,245-->
-11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2023-10-20,61,247-->
+11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2024-05-23,211,267-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-05-05,413,273!2024-06-14,400,307-->
 13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2024-05-06,376,307-->
 
@@ -398,7 +398,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
 > - suffix: {{-ene}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2024-05-07,437,362!2023-10-18,267,342!2024-01-06,310,302!2024-05-02,430,362!2024-04-30,428,362!2025-03-06,644,327-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2024-05-07,437,362!2027-04-03,1256,362!2024-01-06,310,302!2024-05-02,430,362!2024-04-30,428,362!2025-03-06,644,327-->
 
 > {{alkyne}}
 > - group: {{alkynyl}}

@@ -20,7 +20,7 @@ tags:
 
 One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}. <!--SR:!2024-01-11,170,250-->
 
-Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-10-25,127,250-->
+Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}. <!--SR:!2023-12-29,65,230-->
 
 ## properties
 
@@ -70,7 +70,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 1. _(begin)_→:::←dyeable <!--SR:!2023-10-31,128,290!2024-04-22,279,290-->
 2. dyeable→:::←elastic <!--SR:!2024-01-31,123,250!2024-02-01,221,310-->
 3. elastic→:::←high tensile strength <!--SR:!2023-10-27,48,210!2024-10-14,380,290-->
-4. high tensile strength→:::←oil-proof <!--SR:!2023-11-21,83,190!2023-10-16,90,230-->
+4. high tensile strength→:::←oil-proof <!--SR:!2023-11-21,83,190!2024-05-18,206,230-->
 5. oil-proof→:::←smooth <!--SR:!2024-01-14,173,250!2024-04-05,220,230-->
 6. smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2024-06-27,345,330!2023-12-15,115,250-->
 7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2024-01-15,197,310!2024-10-10,376,290-->
