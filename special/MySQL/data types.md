@@ -27,16 +27,16 @@ tags:
     - {{`BIGINT`}}: {{signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1, unsigned is from 0 to 2<sup>64</sup> - 1}}
 - {{string data types}}: {{`BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR`}}
   - {{`BINARY`, `VARBINARY`}}: {{binary strings; length of the former is fixed and of the latter is variable}}
-    - {{`BINARY`}}: {{up to 2^8 - 1 bytes of fixed-size binary string}}
-    - {{`VARBINARY`}}: {{up to 2^16 - 1 bytes of binary string; shared among columns in a row}}
+    - {{`BINARY`}}: {{up to 2<sup>8</sup> - 1 bytes of fixed-size binary string}}
+    - {{`VARBINARY`}}: {{up to 2<sup>16</sup> - 1 bytes of binary string; shared among columns in a row}}
   - {{`BLOB`}}: {{unindexed prefix-indexable long binary strings; includes `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, and `LONGBLOB`}}
     - {{`TINYBLOB`}}: {{up to 2<sup>8</sup> - 1 bytes of binary string}}
     - {{`BLOB`}}: {{up to 2<sup>16</sup> - 1 bytes of binary string}}
     - {{`MEDIUMBLOB`}}: {{up to 2<sup>24</sup> - 1 bytes of binary string}}
     - {{`LONGBLOB`}}: {{up to 2<sup>32</sup> - 1 bytes of binary string}}
   - {{`CHAR`, `VARCHAR`}}: {{strings; length of the former is fixed and of the latter is variable}}
-    - {{`CHAR`}}: {{up to 2^8 - 1 bytes of fixed-size string}}
-    - {{`VARCHAR`}}: {{up to 2^16 - 1 bytes of string; shared among columns in a row}}
+    - {{`CHAR`}}: {{up to 2<sup>8</sup> - 1 bytes of fixed-size string}}
+    - {{`VARCHAR`}}: {{up to 2<sup>16</sup> - 1 bytes of string; shared among columns in a row}}
   - {{`TEXT`}}: {{unindexed prefix-indexable long strings; includes `TINYTEXT`, `TEXT`, `MEDIUMTEXT`, and `LONGTEXT`}}
     - {{`TINYTEXT`}}: {{up to 2<sup>8</sup> - 1 bytes of string}}
     - {{`TEXT`}}: {{up to 2<sup>16</sup> - 1 bytes of string}}
