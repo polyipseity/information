@@ -1,0 +1,8 @@
+2
+A 100
+G 100
+1 7
+A.....G
+G shoots west
+G shoots west
+!

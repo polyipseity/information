@@ -1,0 +1,14 @@
+2
+A 100
+G 100
+7 1
+A
+.
+.
+.
+.
+.
+G
+G shoots north
+G shoots north
+!

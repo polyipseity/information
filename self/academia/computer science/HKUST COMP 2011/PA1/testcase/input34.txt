@@ -1,0 +1,17 @@
+7
+A 100
+B 99
+C 101
+D 100
+E 100
+F 100
+G 100
+1 7
+ABCDEFG
+G shoots west
+G shoots west
+G shoots west
+G shoots west
+G shoots west
+G shoots west
+!
