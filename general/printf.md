@@ -245,7 +245,7 @@ options = {
   "n": "prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)",
   "o": "unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits",
   "p": "pointer (`void*`) into an implementation-defined format",
-  "s": "string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the first [null terminator](null-terminated%20string.md) is used",
+  "s": "string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used",
   "u": "unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits",
   "x, X": "unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result",
 }
@@ -272,7 +272,7 @@ return await memorize_table(
 > | {{n}} | {{prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)}} |
 > | {{o}} | {{unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits}} |
 > | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
-> | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the first [null terminator](null-terminated%20string.md) is used}} |
+> | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}} |
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
 > | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} |
 
