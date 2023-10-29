@@ -1,10 +1,19 @@
+$inputNamePrefix = 'input'
+$newlines = "`r`n|[`n`v`f`r`u{85}`u{2028}`u{2029}]"
+$outputNamePrefix = 'output'
 $program = './lab3.exe'
+$testFolder = './testcase'
+
+function Normalize ([string]$text) {
+	return ($text.Trim() -split $newlines | ForEach-Object { $_.Trim() }) -join "`n"
+}
 
 for ($i = 1;
-	-not ((Test-Path "./testcase/input${i}.txt", "./testcase/output${i}.txt" -PathType Leaf) -ccontains $false);
+	-not ((Test-Path "${testFolder}/${inputNamePrefix}${i}.txt", "${testFolder}/${outputNamePrefix}${i}.txt" -PathType Leaf) -ccontains $false);
 	++$i) {
-	$output = ((Get-Content "./testcase/input${i}.txt" | & $program) -join "`n").Trim() -split "`r`n|[`n`v`f`r`u{85}`u{2028}`u{2029}]" -join "`n"
-	if ($output -ceq ((Get-Content "./testcase/output${i}.txt" -Raw).Trim() -split "`r`n|[`n`v`f`r`u{85}`u{2028}`u{2029}]" -join "`n")) {
+	$expected = Normalize (Get-Content "${testFolder}/${outputNamePrefix}${i}.txt" -Raw)
+	$output = Normalize ((Get-Content "${testFolder}/${inputNamePrefix}${i}.txt" | & $program) -join "`n")
+	if ($output -ceq $expected) {
 		Write-Output "Test ${i} succeeded"
 	}
 	else {
