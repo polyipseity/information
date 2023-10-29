@@ -233,9 +233,9 @@ void fillPuzzleRecursive(int width, char puzzleMap[][MAX_WIDTH], int tx,
 	{
 		// The base case...
 		char const emptyPrev{map[empty]};
-		for (int yy{}; yy < width; ++yy)
+		for (int xx{}; xx < width; ++xx)
 		{
-			for (int xx{}; xx < width; ++xx)
+			for (int yy{}; yy < width; ++yy)
 			{
 				map[{xx, yy}] = nextChar;
 			}
