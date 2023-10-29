@@ -332,7 +332,7 @@ int main()
 			<< endl
 			<< "2: Output without normalization (for student's debug only), 3: Output with normalization"
 			<< endl;
-		cout << "Enter the output mode: ";
+		cout << "Enter the output mode: " << endl;
 		cin >> modeOfOperation;
 	} while (modeOfOperation < 0 || modeOfOperation > 3);
 
