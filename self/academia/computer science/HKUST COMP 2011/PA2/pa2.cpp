@@ -35,40 +35,40 @@ const int LOCATEQUADRANT_NOT_IMPLEMENTED = 0;
 struct Position
 {
 	int x, y;
-	constexpr Position &operator+=(Position const &right)
+	Position &operator+=(Position const &right)
 	{
 		x += right.x;
 		y += right.y;
 		return *this;
 	}
-	constexpr Position &operator-=(Position const &right)
+	Position &operator-=(Position const &right)
 	{
 		x -= right.x;
 		y -= right.y;
 		return *this;
 	}
-	constexpr Position &operator*=(int right)
+	Position &operator*=(int right)
 	{
 		x *= right;
 		y *= right;
 		return *this;
 	}
-	constexpr friend Position operator+(Position left, Position const &right)
+	friend Position operator+(Position left, Position const &right)
 	{
 		left += right;
 		return left;
 	}
-	constexpr friend Position operator-(Position left, Position const &right)
+	friend Position operator-(Position left, Position const &right)
 	{
 		left -= right;
 		return left;
 	}
-	constexpr friend Position operator*(Position left, int right)
+	friend Position operator*(Position left, int right)
 	{
 		left *= right;
 		return left;
 	}
-	constexpr friend Position operator*(int left, Position right)
+	friend Position operator*(int left, Position right)
 	{
 		right *= left;
 		return right;
@@ -80,22 +80,22 @@ class Map
 	Position base;
 
 public:
-	constexpr explicit Map(char map[][MAX_WIDTH], Position base = {}) : map{map}, base{base} {}
-	constexpr char &operator[](Position const &pos)
+	explicit Map(char map[][MAX_WIDTH], Position base = {}) : map{map}, base{base} {}
+	char &operator[](Position const &pos)
 	{
 		Position const abs{to_absolute(pos)};
 		return map[abs.x][abs.y];
 	}
-	constexpr char const &operator[](Position const &pos) const
+	char const &operator[](Position const &pos) const
 	{
 		Position const abs{to_absolute(pos)};
 		return map[abs.x][abs.y];
 	}
-	constexpr Position to_relative(Position const &pos) const
+	Position to_relative(Position const &pos) const
 	{
 		return pos - base;
 	}
-	constexpr Position to_absolute(Position const &pos) const
+	Position to_absolute(Position const &pos) const
 	{
 		return pos + base;
 	}
@@ -107,7 +107,7 @@ enum struct Quadrant : int
 	bottomLeft = 4,
 	bottomRight = 3,
 };
-constexpr Position const quadrantOffset[]{
+Position const quadrantOffset[]{
 		{-2147483648, -2147483648},
 		{0, 0},
 		{1, 0},
