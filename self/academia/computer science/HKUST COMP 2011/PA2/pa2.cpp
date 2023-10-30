@@ -291,20 +291,20 @@ void checkInput(int &width, int &emptyXPos, int &emptyYPos)
 	do
 	{
 		cout << "Enter the width/height of the puzzle (2, 4, 8): ";
-		cout << endl;
 		cin >> width;
+		cout << endl;
 	} while (!(width == 2 || width == 4 || width == 8));
 	do
 	{
 		cout << "Enter the x-coordinate of the empty cell (0-" << width - 1 << "): ";
-		cout << endl;
 		cin >> emptyXPos;
+		cout << endl;
 	} while (!(0 <= emptyXPos && emptyXPos < width));
 	do
 	{
 		cout << "Enter the y-coordinate of the empty cell (0-" << width - 1 << "): ";
-		cout << endl;
 		cin >> emptyYPos;
+		cout << endl;
 	} while (!(0 <= emptyYPos && emptyYPos < width));
 }
 
