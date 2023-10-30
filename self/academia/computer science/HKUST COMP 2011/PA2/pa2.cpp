@@ -31,90 +31,6 @@ using namespace std;
 const int MAX_WIDTH = 8;
 const int LOCATEQUADRANT_NOT_IMPLEMENTED = 0;
 
-// my helpers
-struct Position
-{
-	int x, y;
-	Position &operator+=(Position const &right)
-	{
-		x += right.x;
-		y += right.y;
-		return *this;
-	}
-	Position &operator-=(Position const &right)
-	{
-		x -= right.x;
-		y -= right.y;
-		return *this;
-	}
-	Position &operator*=(int right)
-	{
-		x *= right;
-		y *= right;
-		return *this;
-	}
-	friend Position operator+(Position left, Position const &right)
-	{
-		left += right;
-		return left;
-	}
-	friend Position operator-(Position left, Position const &right)
-	{
-		left -= right;
-		return left;
-	}
-	friend Position operator*(Position left, int right)
-	{
-		left *= right;
-		return left;
-	}
-	friend Position operator*(int left, Position right)
-	{
-		right *= left;
-		return right;
-	}
-};
-class Map
-{
-	char (*map)[MAX_WIDTH];
-	Position base;
-
-public:
-	explicit Map(char map[][MAX_WIDTH], Position base = {}) : map{map}, base{base} {}
-	char &operator[](Position const &pos)
-	{
-		Position const abs{to_absolute(pos)};
-		return map[abs.x][abs.y];
-	}
-	char const &operator[](Position const &pos) const
-	{
-		Position const abs{to_absolute(pos)};
-		return map[abs.x][abs.y];
-	}
-	Position to_relative(Position const &pos) const
-	{
-		return pos - base;
-	}
-	Position to_absolute(Position const &pos) const
-	{
-		return pos + base;
-	}
-};
-enum struct Quadrant : int
-{
-	topLeft = 1,
-	topRight = 2,
-	bottomLeft = 4,
-	bottomRight = 3,
-};
-Position const quadrantOffset[]{
-		{-2147483648, -2147483648},
-		{0, 0},
-		{1, 0},
-		{1, 1},
-		{0, 1},
-};
-
 // TODO:
 // function locateQuadrant:
 // @param x:  x coordinate of the empty cell
@@ -131,15 +47,6 @@ int locateQuadrant(int width, int x, int y)
 {
 
 	// remove this line to start your work
-	int const halfWidth{width / 2};
-	if (x < halfWidth && y < halfWidth)
-		return static_cast<int>(Quadrant::topLeft);
-	if (x >= halfWidth && y < halfWidth)
-		return static_cast<int>(Quadrant::topRight);
-	if (x >= halfWidth && y >= halfWidth)
-		return static_cast<int>(Quadrant::bottomRight);
-	if (x < halfWidth && y >= halfWidth)
-		return static_cast<int>(Quadrant::bottomLeft);
 	return LOCATEQUADRANT_NOT_IMPLEMENTED;
 }
 
@@ -179,40 +86,8 @@ void initializePuzzleMap(int width, char puzzleMap[][MAX_WIDTH])
 //
 void normalizePuzzleMap(int width, char puzzleMap[][MAX_WIDTH])
 {
-	bool visited[MAX_WIDTH][MAX_WIDTH]{};
-	char curChar{'A'};
-	for (int yy{}; yy < width; ++yy)
-	{
-		for (int xx{}; xx < width; ++xx)
-		{
-			bool &thisVisited{visited[xx][yy]};
-			if (thisVisited)
-				continue;
-			thisVisited = true;
-			char &thisChar{puzzleMap[xx][yy]};
-			if (thisChar == ' ')
-				continue;
-			for (Position const &extOffset : {
-							 Position{1, 0},
-							 Position{-1, 1},
-							 Position{0, 1},
-							 Position{1, 1},
-					 })
-			{
-				Position const extPos{Position{xx, yy} + extOffset};
-				if (!(0 <= extPos.x && extPos.x < width && 0 <= extPos.y && extPos.y < width))
-					continue;
-				bool &extVisited{visited[extPos.x][extPos.y]};
-				char &extChar{puzzleMap[extPos.x][extPos.y]};
-				if (extVisited || extChar != thisChar)
-					continue;
-				extVisited = true;
-				extChar = curChar;
-			}
-			thisChar = curChar;
-			++curChar;
-		}
-	}
+
+	return;
 }
 
 // TODO:
@@ -220,29 +95,16 @@ void normalizePuzzleMap(int width, char puzzleMap[][MAX_WIDTH])
 // The recursive function to fill up the character array: puzzleMap
 // You need to figure out the parameters of the fillPuzzleRecursive function by yourself
 //
-void fillPuzzleRecursive(int width, char puzzleMap[][MAX_WIDTH], int tx,
-												 int ty, int x, int y, char &nextChar)
+void fillPuzzleRecursive(__ width, __ puzzleMap[][MAX_WIDTH], __ tx,
+						 __ ty, __ x, __ y, __ &nextChar)
 {
 	// tx: top Left X coordinate
 	// ty: top Left Y coordinate
 	// x:  x coordinate of the empty cell
 	// y:  y coordinate of the empty cell
-	Map map{puzzleMap, {tx, ty}};
-	Position const empty{map.to_relative({x, y})};
 	if (width == 2)
 	{
 		// The base case...
-		char const emptyPrev{map[empty]};
-		for (int xx{}; xx < width; ++xx)
-		{
-			for (int yy{}; yy < width; ++yy)
-			{
-				map[{xx, yy}] = nextChar;
-			}
-		}
-		map[empty] = emptyPrev;
-		++nextChar;
-		return;
 	}
 
 	// The general case
@@ -252,21 +114,8 @@ void fillPuzzleRecursive(int width, char puzzleMap[][MAX_WIDTH], int tx,
 	// As a result:
 	//    A L-shape MUST be created at the center of the bigger rectangle
 	//    Each Quad MUST have exactly 1 empty space
-	int const halfWidth{width / 2};
-	Quadrant const quad{static_cast<Quadrant>(locateQuadrant(width, empty.x, empty.y))};
-	for (Quadrant const curQuad : {Quadrant::topLeft, Quadrant::topRight, Quadrant::bottomRight, Quadrant::bottomLeft})
-	{
-		Position const &relOffset{quadrantOffset[static_cast<int>(curQuad)]};
-		Position const relBase{halfWidth * relOffset},
-				relEmpty{curQuad == quad ? empty : Position{halfWidth - 1, halfWidth - 1} + relOffset},
-				absBase{map.to_absolute(relBase)},
-				absEmpty{map.to_absolute(relEmpty)};
-		fillPuzzleRecursive(halfWidth, puzzleMap, absBase.x, absBase.y, absEmpty.x, absEmpty.y, nextChar);
-	}
-	Position const relBase{halfWidth - 1, halfWidth - 1},
-			absBase{map.to_absolute(relBase)},
-			absEmpty{absBase + quadrantOffset[static_cast<int>(quad)]};
-	fillPuzzleRecursive(2, puzzleMap, absBase.x, absBase.y, absEmpty.x, absEmpty.y, nextChar);
+
+	return;
 }
 
 // TODO:
@@ -287,25 +136,14 @@ void fillPuzzleRecursive(int width, char puzzleMap[][MAX_WIDTH], int tx,
 void checkInput(int &width, int &emptyXPos, int &emptyYPos)
 {
 	// Some helper lines for you to use:
-	width = emptyXPos = emptyYPos = -1;
-	do
-	{
-		cout << "Enter the width/height of the puzzle (2, 4, 8): ";
-		cout << endl;
-		cin >> width;
-	} while (!(width == 2 || width == 4 || width == 8));
-	do
-	{
-		cout << "Enter the x-coordinate of the empty cell (0-" << width - 1 << "): ";
-		cout << endl;
-		cin >> emptyXPos;
-	} while (!(0 <= emptyXPos && emptyXPos < width));
-	do
-	{
-		cout << "Enter the y-coordinate of the empty cell (0-" << width - 1 << "): ";
-		cout << endl;
-		cin >> emptyYPos;
-	} while (!(0 <= emptyYPos && emptyYPos < width));
+	cout << "Enter the width/height of the puzzle (2, 4, 8): ";
+	cout << endl;
+	cout << "Enter the x-coordinate of the empty cell (0-" << width - 1 << "): ";
+	cout << endl;
+	cout << "Enter the y-coordinate of the empty cell (0-" << width - 1 << "): ";
+	cout << endl;
+
+	return;
 }
 
 // You are NOT ALLOWED to modify the main function
@@ -332,8 +170,9 @@ int main()
 			<< endl
 			<< "2: Output without normalization (for student's debug only), 3: Output with normalization"
 			<< endl;
-		cout << "Enter the output mode: " << endl;
+		cout << "Enter the output mode: ";
 		cin >> modeOfOperation;
+		cout << endl;
 	} while (modeOfOperation < 0 || modeOfOperation > 3);
 
 	if (modeOfOperation == 0)
