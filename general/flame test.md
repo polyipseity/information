@@ -46,7 +46,7 @@ return await memorize_seq(
 1. _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2024-07-01,296,270!2024-04-12,292,330-->
 2. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2024-08-15,358,290!2024-08-08,354,290-->
 3. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2024-08-13,357,290!2025-01-07,473,310-->
-4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2024-04-11,291,330!2023-10-26,153,290-->
+4. Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2024-04-11,291,330!2025-07-06,616,310-->
 5. Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2024-04-20,298,330!2024-01-11,214,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -91,7 +91,7 @@ return await memorize_map(
 1. [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-11-02,8,190-->
 2. [copper](copper.md)(I)::blue-green <!--SR:!2024-01-08,100,190-->
 3. [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2024-04-14,172,210-->
-4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2023-10-29,44,210-->
+4. [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-01-28,91,210-->
 5. [iron](iron.md)(III)::orange-brown <!--SR:!2023-12-18,100,250-->
 6. [magnesium](magnesium.md)::intense white <!--SR:!2023-11-08,149,290-->
 7. [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2023-12-09,85,210-->

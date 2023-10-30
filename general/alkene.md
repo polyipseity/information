@@ -15,7 +15,7 @@ tags:
 
 # alkene
 
-An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2023-10-30,146,290-->
+An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2025-06-08,587,310-->
 
 ## physical properties
 

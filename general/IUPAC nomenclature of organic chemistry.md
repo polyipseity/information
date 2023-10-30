@@ -172,7 +172,7 @@ The steps for naming an organic compound are:
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2023-12-20,81,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2024-03-01,238,227-->
 5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-12-16,77,190!2024-08-06,334,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2023-10-28,15,147-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2023-11-30,32,167-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2024-06-17,305,190!2024-02-11,283,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-03-10,287,247!2023-12-31,157,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2023-11-08,91,247-->
@@ -483,7 +483,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2023-10-26,230,285!2023-11-16,289,347-->
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2026-04-27,911,305!2023-11-16,289,347-->
 
 > {{nitrile}}
 > - group: {{nitrile}}
@@ -595,7 +595,7 @@ return (
 1. _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2028-10-09,1910,372-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2026-01-18,914,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
-4. carboxylic acid derivate→:::←nitrile <!--SR:!2023-10-27,204,210!2024-09-05,585,267-->
+4. carboxylic acid derivate→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2023-11-01,93,210!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
 7. ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2023-11-03,57,150-->
