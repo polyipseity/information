@@ -8,6 +8,8 @@ tags:
 
 ## avatar
 
+__set 1__
+
 - https://account.microsoft.com/profile/edit-picture: polyipseity@outlook.com
 - https://appleid.apple.com/account/manage/section/information: polyipseity@gmail.com
 - https://buymeacoffee.com/polyipseity
@@ -17,6 +19,10 @@ tags:
 - https://t.me/quizzaciously
 - https://twitter.com/polyipseity
 - https://whatsapp.com/: (redacted)
+
+__set 2__
+
+- https://linkedin.com/in/(redacted)
 
 ## mobile number
 
