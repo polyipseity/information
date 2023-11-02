@@ -247,7 +247,7 @@ index 5a6ce74..4d51e1d 100644
 +      m_A{[convergence]()
 +          {
 +              Eigen::Matrix3f A{0, 1, 0, 0, 0, 1, 0, 0, 0};
-+              Eigen::Vector3f L{6 * convergence,
++              Eigen::Vector3f L{3 * convergence,
 +                                3 * convergence * convergence,
 +                                convergence * convergence * convergence};
 +              Eigen::Matrix<float, 1, 3> C{1, 0, 0};
@@ -256,7 +256,7 @@ index 5a6ce74..4d51e1d 100644
 +      m_B{[convergence, gain]()
 +          {
 +              Eigen::Vector3f B{0, gain, 0};
-+              Eigen::Vector3f L{6 * convergence,
++              Eigen::Vector3f L{3 * convergence,
 +                                3 * convergence * convergence,
 +                                convergence * convergence * convergence};
 +              return decltype(m_B){B(0), L(0), B(1), L(1), B(2), L(2)};
