@@ -1,0 +1,69 @@
+commit e29c72c2c261b00b690c5812149ffc749635f14a
+Author: William So <polyipseity@gmail.com>
+Date:   Tue Oct 17 21:52:50 2023 +0800
+
+    Fix `project/main.c`
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c
+index 5321b8d..009061e 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
+@@ -59,7 +59,33 @@ void SystemClock_Config(void);
+ 
+ /* Private user code ---------------------------------------------------------*/
+ /* USER CODE BEGIN 0 */
+-
++uint16_t const led_pins[] = {LED1_Pin, LED2_Pin, LED3_Pin, LED4_Pin};
++enum {
++    LED_OFF,
++    LED_ON,
++    LED_TOGGLE
++} led_statuses[sizeof led_pins / sizeof *led_pins] = {LED_OFF, LED_OFF, LED_OFF, LED_OFF};
++uint8_t huart1_data[2];
++
++void huart1_RxEventCallback(UART_HandleTypeDef *huart, uint16_t size)
++{
++    if (huart != &huart1 || size != 2) { return; }
++    int16_t led = (int16_t)huart1_data[1] - '0' - 1;
++    if (0 > led || led >= sizeof led_statuses / sizeof *led_statuses) { return; }
++    switch (huart1_data[0]) {
++        case '+':
++            led_statuses[led] = LED_ON;
++            break;
++        case '-':
++            led_statuses[led] = LED_OFF;
++            break;
++        case '/':
++            led_statuses[led] = LED_TOGGLE;
++            break;
++        default:
++            return;
++    }
++}
+ /* USER CODE END 0 */
+ 
+ /**
+@@ -113,14 +139,14 @@ int main(void) {
+     /* Infinite loop */
+     /* USER CODE BEGIN WHILE */
+     tft_force_clear();
++    HAL_UART_RegisterRxEventCallback(&huart1, &huart1_RxEventCallback);
+     while (1) {
+-        if (HAL_GetTick() - last_ticks >= 100) {
+-            tft_prints(0, 0, "Hello World!");
+-            led_toggle(LED1);
+-            led_toggle(LED2);
+-            led_toggle(LED3);
+-            led_toggle(LED4);
+-            last_ticks = HAL_GetTick();
++        bool toggle_on = (HAL_GetTick() / 100) % 2;
++        HAL_UARTEx_ReceiveToIdle_IT(&huart1, huart1_data, sizeof huart1_data / sizeof *huart1_data);
++        for (size_t led = 0; led < sizeof led_pins / sizeof *led_pins; ++led) {
++            HAL_GPIO_WritePin(GPIOB, led_pins[led], led_statuses[led] == LED_ON ? GPIO_PIN_RESET : led_statuses[led] == LED_OFF ? GPIO_PIN_SET
++                                                                                               : toggle_on                      ? GPIO_PIN_RESET
++                                                                                                                                : GPIO_PIN_SET);
+         }
+         /* USER CODE END WHILE */
+         tft_update(100);

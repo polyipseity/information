@@ -1,0 +1,64 @@
+commit 8ec39ad97a1938310f1ad7c8ba7a963f564e9739
+Author: William So <polyipseity@gmail.com>
+Date:   Tue Oct 3 21:08:05 2023 +0800
+
+    Improve tutorial 2 classwork 1
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c
+index 880aaa9..1971169 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
+@@ -54,7 +54,8 @@
+ /* Private function prototypes -----------------------------------------------*/
+ void SystemClock_Config(void);
+ /* USER CODE BEGIN PFP */
+-
++void gpio_classwork(void);
++void tft_classwork(void);
+ /* USER CODE END PFP */
+ 
+ /* Private user code ---------------------------------------------------------*/
+@@ -110,20 +111,7 @@ int main(void) {
+ 
+     /* Infinite loop */
+     /* USER CODE BEGIN WHILE */
+-    tft_force_clear();
+-    while (1) {
+-        if (HAL_GetTick() - last_ticks >= 100) {
+-            tft_prints(0, 0, "Hello World!");
+-            led_toggle(LED1);
+-            led_toggle(LED2);
+-            led_toggle(LED3);
+-            led_toggle(LED4);
+-            last_ticks = HAL_GetTick();
+-        }
+-        /* USER CODE END WHILE */
+-        tft_update(100);
+-        /* USER CODE BEGIN 3 */
+-    }
++    tft_classwork();
+     /* USER CODE END 3 */
+ }
+ 
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c
+index b233b84..5c4d33c 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial2_hw.c	
+@@ -74,7 +74,14 @@ void gpio_classwork(void) {
+ 
+ void tft_classwork(void) {
+     /* Your code start here */
+-
++    tft_force_clear();
++    while (1) {
++        if (tft_update(1) == 0) {
++            uint32_t tick = HAL_GetTick();
++            tft_prints(0, 0, "%02.u:%02.u:%03.u", tick / 1000 / 60, (tick / 1000) % 60, tick % 1000);
++            tft_print_rectangle(tick / 1000 * 1000, 0, 15, 50, 50);
++        }
++    }
+     /* Your code end here */
+ }
+ 
