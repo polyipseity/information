@@ -434,8 +434,8 @@ e = __env__
 return await memorize_seq(
   e.cwf_sects('5fab', '5aab',),
   (
-    '(Introduction) State the problem or criteria required.',
-    'State your solutions.',
+    '(Introduction) State your solutions.',
+    'State the problem or criteria required.',
     '(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.',
     'For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.',
     '(Conclusion) Summarize solutions.',
@@ -444,21 +444,21 @@ return await memorize_seq(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5fab"--><!-- The following content is generated at 2023-04-26T19:16:21.173701+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5fab"--><!-- The following content is generated at 2023-11-04T02:32:58.267357+08:00. Any edits will be overridden! -->
 
-> 1. (Introduction) State the problem or criteria required.
-> 2. State your solutions.
+> 1. (Introduction) State your solutions.
+> 2. State the problem or criteria required.
 > 3. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
 > 4. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
 > 5. (Conclusion) Summarize solutions.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-04-26T19:16:21.192651+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-11-04T02:32:58.245397+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State the problem or criteria required.
-2. (Introduction) State the problem or criteria required.→:::←State your solutions.
-3. State your solutions.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
+1. _(begin)_→:::←(Introduction) State your solutions.
+2. (Introduction) State your solutions.→:::←State the problem or criteria required.
+3. State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
 5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions.
 6. (Conclusion) Summarize solutions.→:::←_(end)_
