@@ -47,7 +47,7 @@ from pytextgen.main import parser as _pytextgen_parser  # type: ignore
 _EXCLUDES = (
     ".git",
     ".obsidian",
-    "private/self/academia/computer science/secondary 3/IndividualProgrammingProject/shaded/dglOpenGL/README.md",
+    "self/academia/computer science/secondary 3/IndividualProgrammingProject/shaded/dglOpenGL/README.md",
     "tools",
 )
 _UUID = "9a27fc39-496b-4b4c-87a7-03b9e88fc6bc"
