@@ -1,0 +1,142 @@
+object FormTaskB: TFormTaskB
+  Left = 480
+  Height = 540
+  Top = 270
+  Width = 960
+  Caption = 'FormTaskB'
+  ClientHeight = 540
+  ClientWidth = 960
+  Font.Height = -21
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object LabeledEditDisplacement: TLabeledEdit
+    Left = 32
+    Height = 34
+    Top = 96
+    Width = 400
+    EditLabel.Height = 26
+    EditLabel.Width = 400
+    EditLabel.Caption = 'displacement (s/m)'
+    EditLabel.ParentColor = False
+    MaxLength = 255
+    TabOrder = 0
+    TextHint = 'displacement (s/m)'
+    OnChange = LabeledEditVariableChange
+  end
+  object LabeledEditInitialVelocity: TLabeledEdit
+    Left = 32
+    Height = 34
+    Top = 176
+    Width = 400
+    EditLabel.Height = 26
+    EditLabel.Width = 400
+    EditLabel.Caption = 'initial velocity (u/m/s)'
+    EditLabel.ParentColor = False
+    MaxLength = 255
+    TabOrder = 1
+    TextHint = 'initial velocity (u/m/s)'
+    OnChange = LabeledEditVariableChange
+  end
+  object LabeledEditFinalVelocity: TLabeledEdit
+    Left = 32
+    Height = 34
+    Top = 256
+    Width = 400
+    EditLabel.Height = 26
+    EditLabel.Width = 400
+    EditLabel.Caption = 'final velocity (v/m/s)'
+    EditLabel.ParentColor = False
+    MaxLength = 255
+    TabOrder = 2
+    TextHint = 'final velocity (v/m/s)'
+    OnChange = LabeledEditVariableChange
+  end
+  object LabeledEditAcceleration: TLabeledEdit
+    Left = 32
+    Height = 34
+    Top = 336
+    Width = 400
+    EditLabel.Height = 26
+    EditLabel.Width = 400
+    EditLabel.Caption = 'acceleration (a/m/s^2)'
+    EditLabel.ParentColor = False
+    MaxLength = 255
+    TabOrder = 3
+    TextHint = 'acceleration (a/m/s^2)'
+    OnChange = LabeledEditVariableChange
+  end
+  object LabeledEditTime: TLabeledEdit
+    Left = 32
+    Height = 34
+    Top = 416
+    Width = 400
+    EditLabel.Height = 26
+    EditLabel.Width = 400
+    EditLabel.Caption = 'time (t/s)'
+    EditLabel.ParentColor = False
+    MaxLength = 255
+    TabOrder = 4
+    TextHint = 'time (t/s)'
+    OnChange = LabeledEditVariableChange
+  end
+  object LabelTitle: TLabel
+    Left = 0
+    Height = 55
+    Top = 0
+    Width = 960
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'SUVAT Equations Calculator'
+    Font.Height = -43
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButtonBack: TButton
+    Left = 0
+    Height = 36
+    Top = 504
+    Width = 72
+    AutoSize = True
+    Cancel = True
+    Caption = 'Back'
+    OnClick = ButtonBackClick
+    TabOrder = 7
+  end
+  object ButtonCalculate: TButton
+    Left = 480
+    Height = 36
+    Top = 176
+    Width = 117
+    AutoSize = True
+    Caption = 'Calculate'
+    Enabled = False
+    OnClick = ButtonCalculateClick
+    TabOrder = 5
+  end
+  object ButtonReset: TButton
+    Left = 516
+    Height = 36
+    Top = 334
+    Width = 81
+    AutoSize = True
+    Caption = 'Reset'
+    OnClick = ButtonResetClick
+    TabOrder = 6
+  end
+  object LabelDescription: TLabel
+    AnchorSideLeft.Control = ButtonCalculate
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = LabelTitle
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 597
+    Height = 78
+    Top = 55
+    Width = 363
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Input 3 of the variables and click "Calculate" to calculate the 2 unknowns.'
+    ParentColor = False
+    WordWrap = True
+  end
+end
