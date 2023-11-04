@@ -17,7 +17,7 @@ tags:
 
 The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2024-03-10,265,270!2026-06-04,964,330!2023-11-19,135,170!2025-01-27,570,310!2023-11-23,183,232!2023-11-07,249,332!2024-04-27,218,192-->
 
-The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2023-11-02,144,290!2025-01-12,445,272-->
+The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2024-12-24,417,290!2025-01-12,445,272-->
 
 ## postulates
 
@@ -38,7 +38,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$}}
 and energy in terms of $n$:
-{{$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2024-02-07,204,254!2023-11-01,203,274!2023-12-22,91,154!2024-04-12,182,254-->
+{{$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2024-02-07,204,254!2025-05-11,555,274!2023-12-22,91,154!2024-04-12,182,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2023-12-25,240,279!2024-11-23,484,299-->
 

@@ -8,7 +8,7 @@ tags:
 
 # `time`
 
-- _defined in {{[`<time.h>`](../../../general/C%20date%20and%20time%20functions.md)}}_ <!--SR:!2023-10-20,41,290-->
+- _defined in {{[`<time.h>`](../../../general/C%20date%20and%20time%20functions.md)}}_ <!--SR:!2024-04-14,163,310-->
 
 ```C
 time_t time(time_t *arg);

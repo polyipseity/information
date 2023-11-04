@@ -420,7 +420,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-12-18,256,300!2025-06-25,688,321!2024-05-26,453,362!2024-03-06,353,302!2023-10-31,228,285!2024-04-27,428,367-->
+> - infix: {{(locant)}} <!--SR:!2023-12-18,256,300!2025-06-25,688,321!2024-05-26,453,362!2024-03-06,353,302!2026-04-24,903,305!2024-04-27,428,367-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}
@@ -441,7 +441,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2024-02-21,374,362!2024-01-04,311,342!2025-01-20,605,322!2023-12-21,89,150!2023-11-02,238,285!2024-01-15,344,367-->
+> - infix: {{(locant)}} <!--SR:!2024-02-21,374,362!2024-01-04,311,342!2025-01-20,605,322!2023-12-21,89,150!2025-09-10,677,285!2024-01-15,344,367-->
 
 > {{ketone}}
 > - group: {{carbonyl}}
@@ -490,7 +490,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2023-12-11,293,348!2024-04-08,411,368!2026-03-30,958,348!2023-11-02,179,248!2024-04-14,417,368-->
+> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2023-12-11,293,348!2024-04-08,411,368!2026-03-30,958,348!2025-07-18,623,268!2024-04-14,417,368-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -596,9 +596,9 @@ return (
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2026-01-18,914,276-->
 3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
 4. carboxylic acid derivate→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
-5. nitrile→:::←aldehyde <!--SR:!2023-11-01,93,210!2023-11-12,364,250-->
+5. nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2023-11-12,364,250-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
-7. ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2023-11-03,57,150-->
+7. ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-01-27,85,150-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2023-11-13,226,236!2024-03-10,343,267-->

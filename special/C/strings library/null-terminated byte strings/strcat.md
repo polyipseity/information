@@ -11,7 +11,7 @@ tags:
 # `strcat`
 
 - _defined in {{[`<string.h>`](../../../../general/C%20string%20handling.md)}}_
-- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2023-10-25,46,290!2023-10-22,43,290!2023-10-26,47,290-->
+- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2024-05-05,184,310!2024-04-22,171,310!2024-05-09,188,310-->
 
 ```C
 // (1)

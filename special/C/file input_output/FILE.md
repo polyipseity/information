@@ -8,7 +8,7 @@ tags:
 
 # `FILE`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2023-10-26,47,290-->
+- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2024-05-09,188,310-->
 
 ```C
 typedef /* unspecified */ FILE;

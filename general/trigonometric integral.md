@@ -35,7 +35,7 @@ tags:
 > {{__Si(x), si(x)__}}
 >
 > - {{$\operatorname{Si}(x)=\int_0^x\!\frac{\sin{t} }t\,\mathrm{d}t$}}
-> - {{$\operatorname{si}(x)=-\int_x^\infty\!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2023-11-01,26,290!2023-11-02,20,250!2023-10-18,5,230-->
+> - {{$\operatorname{si}(x)=-\int_x^\infty\!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2024-02-15,104,310!2023-12-22,49,250!2023-11-13,10,230-->
 
 ## cosine integral
 
@@ -44,4 +44,4 @@ tags:
 > - {{$\operatorname{Cin}(x)=\int_0^x\!\frac{1-\cos{t} }t\,\mathrm{d}t$}}
 > - {{$\operatorname{Ci}(x)=-\int_x^\infty\!\frac{\cos{t} }t\,\mathrm{d}t=\gamma+\ln{x}-\operatorname{Cin}(x)$}}
 > - where
->   - $\gamma$ is the [Euler's constant](Euler's%20constant.md) <!--SR:!2023-11-01,26,290!2023-10-17,4,210!2023-10-15,1,170-->
+>   - $\gamma$ is the [Euler's constant](Euler's%20constant.md) <!--SR:!2024-02-18,107,310!2023-11-14,11,230!2023-11-05,2,170-->
