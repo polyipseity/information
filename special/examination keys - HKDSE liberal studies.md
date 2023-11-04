@@ -169,7 +169,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384f"--><!-- The following content is generated at 2023-04-25T22:32:43.492593+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2023-12-07,52,210!2024-04-16,271,315-->
-2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2023-11-04,125,275!2024-04-10,266,315-->
+2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2024-10-12,343,275!2024-04-10,266,315-->
 3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2023-12-23,181,315!2024-03-01,153,215-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

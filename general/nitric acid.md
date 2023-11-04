@@ -14,7 +14,7 @@ __Nitric acid__ is {{a [mineral acid](mineral%20acid.md) with the [chemical form
 
 ### reactions with metals
 
-Very dilute nitric acid {{oxidizes reactive [metals](metal.md) to form metal [nitrates](nitrate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-11-04,151,270-->
+Very dilute nitric acid {{oxidizes reactive [metals](metal.md) to form metal [nitrates](nitrate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2024-12-15,407,270-->
 
 Dilute nitric acid {{oxidizes less reactive metals to form colorless [nitric oxide](nitric%20oxide.md), which may further react with [atmospheric](atmosphere%20of%20Earth.md) [oxygen](oxygen.md) to form brown [nitrogen dioxide](nitrogen%20dioxide.md)}}. Concentrated nitric acid {{reacts similarly but directly produces nitrogen dioxide}}. <!--SR:!2024-07-05,300,270!2024-06-09,338,330-->
 
