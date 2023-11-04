@@ -111,12 +111,12 @@ Ordinary differential equations are furthered classified:
 >
 > - form: {{$F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y=0$}}
 > - solution: {{divide by $F_2(x)G_1(y)$ to [separate the variables](separation%20of%20variables.md), then integrate}}
-> - steps: $$\begin{aligned}
+> - steps: $\begin{aligned}
 F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
 \frac{F_1(x)}{F_2(x)}\,\mathrm{d}x+\frac{G_2(y)}{G_1(y)}\,\mathrm{d}y&=0\\
 \int\!\frac{F_1(x)}{F_2(x)}\,\mathrm{d}x+\int\!\frac{G_2(y)}{G_1(y)}\,\mathrm{d}y&=C
-\end{aligned}$$
-> - example: $$\begin{aligned}
+\end{aligned}$
+> - example: $\begin{aligned}
 xe^y\frac{\mathrm{d}y}{\mathrm{d}x}&=y\sin{x}\\
 xe^y\frac{\mathrm{d}y}{\mathrm{d}x}-y\sin{x}&=0\\
 xe^y\,\mathrm{d}y-y\sin{x}\,\mathrm{d}x&=0\\
@@ -125,13 +125,13 @@ xe^y\,\mathrm{d}y-y\sin{x}\,\mathrm{d}x&=0\\
 \operatorname{Ei}(y)-\operatorname{Si}(x)&=C\\
 \operatorname{Ei}(y)&=\operatorname{Si}(x)+C\\
 y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
-\end{aligned}$$ <!--SR:!2023-11-03,28,320!2023-11-03,28,320!2023-11-02,27,320-->
+\end{aligned}$ <!--SR:!2024-02-03,92,320!2024-03-05,123,340!2024-02-29,118,340-->
 
 > {{__first-order, [homogeneous](#^homogeneous)__}}
 >
 > - form: {{$\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$}}
 > - solution: {{substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md)}}
-> - steps: $$\begin{aligned}
+> - steps: $\begin{aligned}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=F\left(\frac{y}x\right)\\
 \frac{\mathrm{d}u}{\mathrm{d}x}x+u&=F(u)&(y\overset{\mathrm{def} }=ux)\\
 \frac{\mathrm{d}u}{\mathrm{d}x}x&=F(u)-u\\
@@ -140,8 +140,8 @@ y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
 \int\!\frac{\mathrm{d}u}{F(u)-u}-\int\!\frac{\mathrm{d}x}x&=C\\
 \int\!\frac{\mathrm{d}u}{F(u)-u}-\ln{x}&=C\\
 \ln{x}+C&=\int\!\frac{\mathrm{d}u}{F(u)-u}
-\end{aligned}$$
-> - example: $$\begin{aligned}
+\end{aligned}$
+> - example: $\begin{aligned}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=\frac{y^2\left(e^{\frac{x}y}-1+\frac{x}y\right)}{x^2}\\
 \frac{\mathrm{d}u}{\mathrm{d}x}x+u&=u^2e^\frac1u-u^2+u&(y\overset{\mathrm{def} }=ux)\\
 \frac{\mathrm{d}u}{\mathrm{d}x}x&=u^2e^\frac1u-u^2\\
@@ -158,7 +158,7 @@ x\left(\frac1w-1\right)&=C\\
 e^\frac{x}y&=\frac1{\frac{C}x+1}\\
 \frac{x}y&=-\ln\left(\frac{C}x+1\right)\\
 y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
-\end{aligned}$$ <!--SR:!2023-11-03,28,320!2023-11-02,27,320!2023-11-01,26,320-->
+\end{aligned}$ <!--SR:!2024-03-04,122,340!2024-02-28,117,340!2024-01-25,83,320-->
 
 #### second-order equation
 
@@ -196,4 +196,4 @@ C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\left(C_{2\in[-1,1]}\sin\sqrt{\frac{k}m}t+C_{3\in[-1,1]}\cos\sqrt{\frac{k}m}t\right)\\
 &=C_1\sin\sqrt{\frac{k}m}t+C_2\cos\sqrt{\frac{k}m}t
-\end{aligned}$ <!--SR:!2023-11-01,26,320!2024-01-03,70,320!2024-01-03,70,320-->
+\end{aligned}$ <!--SR:!2024-01-27,85,320!2024-01-03,70,320!2024-01-03,70,320-->

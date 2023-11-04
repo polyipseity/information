@@ -8,7 +8,7 @@ tags:
 
 # `rand`
 
-- _defined in {{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}}_ <!--SR:!2023-10-28,49,290-->
+- _defined in {{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}}_ <!--SR:!2024-05-21,200,310-->
 
 ```C
 int rand();

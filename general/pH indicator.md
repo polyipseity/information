@@ -183,7 +183,7 @@ return (
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="155d9a"--><!-- The following content is generated at 2023-08-01T10:43:41.553255+08:00. Any edits will be overridden! -->
 
-1. _(acidic)_→:::←~8.3 <!--SR:!2023-11-03,218,241!2024-01-12,334,321-->
+1. _(acidic)_→:::←~8.3 <!--SR:!2025-04-10,524,241!2024-01-12,334,321-->
 2. ~8.3→:::←8.3~10 <!--SR:!2024-12-23,553,281!2025-06-28,704,301-->
 3. 8.3~10→:::←10~ <!--SR:!2023-11-08,277,301!2023-11-29,234,241-->
 4. 10~→:::←_(basic)_ <!--SR:!2024-02-01,350,321!2024-12-18,548,281-->
@@ -193,7 +193,7 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0245d8"--><!-- The following content is generated at 2023-08-01T10:43:41.476107+08:00. Any edits will be overridden! -->
 
 1. ~8.3:::colorless <!--SR:!2024-04-13,349,230!2024-06-09,343,230-->
-2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2023-11-01,362,250!2024-09-28,357,210-->
+2. 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-04-27,906,250!2024-09-28,357,210-->
 3. 10~:::<span style="color: pink;">pink</span> <!--SR:!2024-05-03,391,250!2024-02-15,455,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
