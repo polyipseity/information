@@ -24,4 +24,4 @@ An accelerating potential {{increases the photocurrent}}, but only up to a point
 
 An retarding potential {{decreases the photocurrent}}. By increasing the retarding potential, when the photocurrent {{just reach zero}}, the potential at that point is called {{stopping potential or cut-off potential $V_0$}}. The potential {{repels electrons}}, {{preventing low-energy electrons from reaching the anode}}, thus decreasing the photocurrent. When the stopping potential is reached, {{even the most energetic electron of kinetic energy $K_\mathrm{max}$ is stopped}}, so the photocurrent is zero. In this case, the stopping potential is related by {{$\mathrm{e}V_0=K_\mathrm{max}$}}. <!--SR:!2024-03-30,345,290!2023-12-09,261,270!2025-03-07,544,270!2024-07-21,410,270!2023-12-22,185,230!2024-07-05,273,210!2023-11-16,238,290-->
 
-The resulting photocurrent-voltage curve is {{[sigmoidal](sigmoid%20function.md)}}. <!--SR:!2023-11-05,262,330-->
+The resulting photocurrent-voltage curve is {{[sigmoidal](sigmoid%20function.md)}}. <!--SR:!2027-02-09,1191,350-->

@@ -19,7 +19,7 @@ tags:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2024-08-10,336,290!2024-02-03,229,310!2023-11-06,164,310-->
+Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2024-08-10,336,290!2024-02-03,229,310!2025-03-27,507,310-->
 
 ### density
 
