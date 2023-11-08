@@ -1,7 +1,7 @@
 $inputNamePrefix = 'input'
 $newlines = "`r`n|[`n`v`f`r`u{85}`u{2028}`u{2029}]"
 $outputNamePrefix = 'output'
-$program = './lab7.exe'
+$program = './scu.exe'
 $testFolder = './testcase'
 
 function Normalize ([string]$text) {
