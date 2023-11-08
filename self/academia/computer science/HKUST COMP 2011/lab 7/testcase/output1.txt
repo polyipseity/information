@@ -1,0 +1,35 @@
+===========================================
+Choose what to do next:
+1: Get student data
+2: Reorder students
+3: Quit
+List student data: 1
+Student Name: Amy    , ID: 1, YearOfStudy: Year 4
+Student Name: Bob    , ID: 2, YearOfStudy: Year 2
+Student Name: Charlie, ID: 3, YearOfStudy: Year 3
+Student Name: Dan    , ID: 4, YearOfStudy: Year 1
+Student Name: Emily  , ID: 5, YearOfStudy: Year 2
+Student Name: Frank  , ID: 6, YearOfStudy: Year 4
+Student Name: George , ID: 7, YearOfStudy: Year 3
+Student Name: Hans   , ID: 8, YearOfStudy: Year 3
+===========================================
+Choose what to do next:
+1: Get student data
+2: Reorder students
+3: Quit
+Start reordering students
+Student Name: Amy    , ID: 1, YearOfStudy: Year 4
+Student Name: Frank  , ID: 6, YearOfStudy: Year 4
+Student Name: Charlie, ID: 3, YearOfStudy: Year 3
+Student Name: George , ID: 7, YearOfStudy: Year 3
+Student Name: Hans   , ID: 8, YearOfStudy: Year 3
+Student Name: Bob    , ID: 2, YearOfStudy: Year 2
+Student Name: Emily  , ID: 5, YearOfStudy: Year 2
+Student Name: Dan    , ID: 4, YearOfStudy: Year 1
+===========================================
+Choose what to do next:
+1: Get student data
+2: Reorder students
+3: Quit
+Quit program.
+===========================================
