@@ -25,7 +25,7 @@ void delete_student_record(Student* queue[], int num_student) {
 
 //Student data for different testcases
 void get_student_data(Student* queue[], int student_array_id){
-    if(student_array_id<=0 or student_array_id >5){
+    if(student_array_id<=0 || student_array_id >5){
         cout<<"not valid student array id"<<endl;
     }
     for (int i=0; i<MAX_STUDENT_NUM; ++i) {
