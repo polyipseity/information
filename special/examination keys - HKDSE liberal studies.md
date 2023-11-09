@@ -107,14 +107,14 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-12-20,47,210!2023-12-01,147,295!2024-08-06,304,275!2024-04-18,274,315!2023-11-09,55,255!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-12-20,47,210!2023-12-01,147,295!2024-08-06,304,275!2024-04-18,274,315!2023-12-06,27,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-11-06,52,175-->
+2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-12-04,25,155-->
 3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-11-11,8,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
@@ -211,7 +211,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-02-05,94,215!2024-08-25,361,295!2024-06-12,276,255!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2023-11-07,128,275!2024-02-04,142,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-02-05,94,215!2024-08-25,361,295!2024-06-12,276,255!2024-01-07,194,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2023-11-17,143,295!2025-03-13,490,295!2024-02-04,142,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -263,7 +263,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-11-07,45,215!2024-07-19,293,295-->
+2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-12-03,24,195!2024-07-19,293,295-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-12-03,58,275!2023-11-24,96,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2023-11-19,153,295-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
@@ -281,7 +281,7 @@ Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exa
 
 ## essay patterns
 
-In general, essays consists of {{introduction, body, and conclusion}}. They should show {{multiple perspectives and balanced discussions}}. <!--SR:!2024-01-18,183,295!2023-11-06,127,275-->
+In general, essays consists of {{introduction, body, and conclusion}}. They should show {{multiple perspectives and balanced discussions}}. <!--SR:!2024-01-18,183,295!2025-03-09,486,295-->
 
 ### to what extent
 
@@ -389,7 +389,7 @@ return await memorize_seq(
 1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2024-07-30,340,295!2024-04-17,272,315-->
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2024-08-17,322,255!2024-04-18,273,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2024-05-15,228,235!2023-11-30,134,255-->
-4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-11-05,126,270!2024-03-16,189,235-->
+4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-10-13,339,270!2024-03-16,189,235-->
 5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-03-30,255,315!2024-08-21,320,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -421,7 +421,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2024-11-25,388,295-->
 2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-11-20,17,130!2023-11-21,117,230-->
-3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2023-11-08,112,275!2023-11-25,22,150-->
+3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2023-11-25,22,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

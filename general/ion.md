@@ -340,7 +340,7 @@ return chain.from_iterable(await gather(
 11. lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 12. iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 13. nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2024-01-28,205,207-->
-14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2023-11-07,111,150-->
+14. copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-01-03,55,130-->
 15. zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 16. manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 17. mercury(II) ion::_(n/a)_ <!--SR:!2024-06-27,366,256-->
@@ -427,7 +427,7 @@ return chain.from_iterable(await gather(
 18. chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2024-01-20,457,258!2024-06-29,618,313-->
 19. dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2023-12-05,470,305-->
 20. nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2025-03-18,705,310-->
-21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2023-11-08,162,219!2024-08-25,617,276-->
+21. phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2025-03-25,502,239!2024-08-25,617,276-->
 22. manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2024-12-04,484,382!2024-08-08,387,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
