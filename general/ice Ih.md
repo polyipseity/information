@@ -10,7 +10,7 @@ tags:
 
 > {{![Structure of ice I<sub>h</sub>](../archives/Wikimedia%20Commons/Cryst%20struct%20ice.png)}}
 >
-> {{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}} <!--SR:!2023-11-08,164,316!2023-11-28,181,316-->
+> {{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}} <!--SR:!2025-04-09,517,316!2023-11-28,181,316-->
 
 __Ice I<sub>h</sub>__ is {{the hexagonal [crystal](crystal.md) form of [ice](ice.md)}}, which is the most common on [Earth](Earth.md). <!--SR:!2024-09-22,389,290-->
 
