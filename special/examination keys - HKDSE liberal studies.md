@@ -219,7 +219,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2023-11-30,61,175!2024-06-23,313,295-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-11-10,28,150!2024-03-18,191,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2023-12-21,41,150!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2023-11-27,24,130-->
