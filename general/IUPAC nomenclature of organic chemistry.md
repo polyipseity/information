@@ -462,7 +462,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2023-11-11,260,282!2026-01-09,832,302!2024-01-26,353,367-->
+> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2025-11-12,732,282!2026-01-09,832,302!2024-01-26,353,367-->
 
 > {{alkanoyl}}
 > - group: {{acyl}}
