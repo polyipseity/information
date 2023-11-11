@@ -115,7 +115,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-12-04,25,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-11-11,8,130-->
+3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-11-20,9,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2023-11-25,56,255!2023-11-21,125,250-->
@@ -277,7 +277,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2023-11-16,101,
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2023-11-11,137,310!2024-02-25,189,255!2023-12-20,102,210-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-01-18,68,290!2024-02-25,189,255!2023-12-20,102,210-->
 
 ## essay patterns
 

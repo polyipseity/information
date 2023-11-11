@@ -61,7 +61,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-02-05,128,210-->
 5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2024-06-04,279,270!2024-02-06,174,230-->
 6. form→:::←[melting point](melting%20point.md) <!--SR:!2023-11-17,122,210!2023-12-11,146,230-->
-7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2023-11-11,2,130-->
+7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2023-11-14,3,130-->
 8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2023-11-22,176,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
