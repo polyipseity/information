@@ -154,7 +154,7 @@ return (
 
 > oxides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2023-11-12,58,150-->
+> - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2023-12-10,28,130-->
 
 > sulfides
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
@@ -316,9 +316,9 @@ return await memorize_map(
 9. [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-04,31,278-->
 10. [calcium hydroxide](calcium%20hydroxide.md)::<span style="color: yellow;">slightly soluble</span> <!--SR:!2023-11-24,15,278-->
 11. [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-11-15,12,258-->
-12. [calcium sulfate](calcium%20sulfate.md)::<span style="color: yellow;">slightly soluble</span> <!--SR:!2023-11-12,6,218-->
+12. [calcium sulfate](calcium%20sulfate.md)::<span style="color: yellow;">slightly soluble</span> <!--SR:!2023-11-24,12,218-->
 13. [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-11-16,13,238-->
-14. [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-12,1,130-->
+14. [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-14,2,150-->
 15. [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-26,17,258-->
 16. [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-10,37,278-->
 17. [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-17,14,258-->
