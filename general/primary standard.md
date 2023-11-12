@@ -54,7 +54,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2023-03-23T16:01:43.584612+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←high purity <!--SR:!2023-11-12,168,310!2024-05-20,318,330-->
+1. _(begin)_→:::←high purity <!--SR:!2024-02-05,85,290!2024-05-20,318,330-->
 2. high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2024-01-30,143,230!2024-02-07,197,270-->
 3. low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2023-12-26,161,250!2024-03-26,171,230-->
 4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2023-11-29,35,190!2023-12-30,152,230-->
