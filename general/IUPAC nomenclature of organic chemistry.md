@@ -258,7 +258,7 @@ The steps for naming an organic compound are:
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
 2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2023-11-27,45,181-->
-3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-12-02,213,210!2023-11-13,101,210-->
+3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-12-02,213,210!2024-06-11,211,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -276,7 +276,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←commas (,) between locants <!--SR:!2025-05-09,838,332!2025-03-14,596,320-->
 2. commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2027-12-20,1550,313!2024-09-15,436,321-->
-3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2023-11-13,285,342-->
+3. hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2027-07-15,1340,362-->
 4. remove (most) spaces ( )→:::←_(end)_ <!--SR:!2024-04-06,410,367!2026-02-19,925,347-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -406,7 +406,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
 > - suffix: {{-yne}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2026-02-11,918,340!2025-03-16,649,320!2024-04-28,426,360!2023-11-13,243,281!2024-05-31,456,362!2024-02-19,372,362!2026-10-21,1140,367-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2026-02-11,918,340!2025-03-16,649,320!2024-04-28,426,360!2025-09-25,682,281!2024-05-31,456,362!2024-02-19,372,362!2026-10-21,1140,367-->
 
 > {{benzene derivative}}
 > - group: {{phenyl}}
@@ -601,7 +601,7 @@ return (
 7. ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-01-27,85,150-->
 8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
-10. amine→:::←_(lowest)_ <!--SR:!2023-11-13,226,236!2024-03-10,343,267-->
+10. amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-03-10,343,267-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
