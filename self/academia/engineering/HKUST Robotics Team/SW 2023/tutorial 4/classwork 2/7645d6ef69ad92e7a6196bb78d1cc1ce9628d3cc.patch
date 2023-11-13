@@ -1,0 +1,30 @@
+commit 7645d6ef69ad92e7a6196bb78d1cc1ce9628d3cc
+Author: William So <polyipseity@gmail.com>
+Date:   Tue Oct 17 19:31:52 2023 +0800
+
+    Add SW 2023 tutorial 4
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c
+index 880aaa9..92e85e0 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
+@@ -112,14 +112,9 @@ int main(void) {
+     /* USER CODE BEGIN WHILE */
+     tft_force_clear();
+     while (1) {
+-        if (HAL_GetTick() - last_ticks >= 100) {
+-            tft_prints(0, 0, "Hello World!");
+-            led_toggle(LED1);
+-            led_toggle(LED2);
+-            led_toggle(LED3);
+-            led_toggle(LED4);
+-            last_ticks = HAL_GetTick();
+-        }
++        unsigned char data;
++        HAL_UART_Receive(&huart1, &data, sizeof data / sizeof(char), HAL_MAX_DELAY);
++        HAL_UART_Transmit(&huart1, &data, sizeof data / sizeof(char), HAL_MAX_DELAY);
+         /* USER CODE END WHILE */
+         tft_update(100);
+         /* USER CODE BEGIN 3 */

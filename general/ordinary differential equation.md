@@ -21,7 +21,7 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 
 > {{__explicit ordinary differential equation of order _n___}}
 >
-> {{$F\left(x,y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$}}
+> {{$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$}}
 >
 > given
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
@@ -33,7 +33,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 
 > {{__implicit ordinary differential equation of order _n___}}
 >
-> {{$F\left(x,y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$}}
+> {{$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$}}
 >
 > given
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)

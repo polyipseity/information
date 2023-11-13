@@ -1,0 +1,56 @@
+object FormMain: TFormMain
+  Left = 480
+  Height = 540
+  Top = 270
+  Width = 960
+  Caption = 'Task Selector'
+  ClientHeight = 540
+  ClientWidth = 960
+  Font.Height = -21
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object LabelTitle: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = Owner
+    Left = 0
+    Height = 55
+    Top = 0
+    Width = 960
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Task Selector'
+    Font.Height = -43
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButtonTaskA: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = LabelTitle
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Side = asrCenter
+    Left = 0
+    Height = 485
+    Top = 55
+    Width = 480
+    Anchors = [akTop, akLeft, akBottom]
+    Caption = 'Task A'
+    OnClick = ButtonTaskAClick
+    TabOrder = 0
+  end
+  object ButtonTaskB: TButton
+    AnchorSideLeft.Control = ButtonTaskA
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 480
+    Height = 485
+    Top = 55
+    Width = 480
+    Align = alRight
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = True
+    Caption = 'Task B'
+    OnClick = ButtonTaskBClick
+    TabOrder = 1
+  end
+end
