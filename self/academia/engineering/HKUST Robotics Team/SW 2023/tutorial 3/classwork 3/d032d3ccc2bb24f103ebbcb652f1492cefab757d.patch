@@ -1,0 +1,118 @@
+commit d032d3ccc2bb24f103ebbcb652f1492cefab757d
+Author: William So <polyipseity@gmail.com>
+Date:   Tue Oct 10 19:59:19 2023 +0800
+
+    Configure `eide.json`
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c
+index 880aaa9..030dd61 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/main.c	
+@@ -54,7 +54,9 @@
+ /* Private function prototypes -----------------------------------------------*/
+ void SystemClock_Config(void);
+ /* USER CODE BEGIN PFP */
+-
++void pwm_init(void);
++void pwm_classwork(void);
++void pwm_homework(void);
+ /* USER CODE END PFP */
+ 
+ /* Private user code ---------------------------------------------------------*/
+@@ -110,20 +112,8 @@ int main(void) {
+ 
+     /* Infinite loop */
+     /* USER CODE BEGIN WHILE */
+-    tft_force_clear();
+-    while (1) {
+-        if (HAL_GetTick() - last_ticks >= 100) {
+-            tft_prints(0, 0, "Hello World!");
+-            led_toggle(LED1);
+-            led_toggle(LED2);
+-            led_toggle(LED3);
+-            led_toggle(LED4);
+-            last_ticks = HAL_GetTick();
+-        }
+-        /* USER CODE END WHILE */
+-        tft_update(100);
+-        /* USER CODE BEGIN 3 */
+-    }
++    pwm_init();
++    pwm_classwork();
+     /* USER CODE END 3 */
+ }
+ 
+diff --git a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial3_pwm.c b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial3_pwm.c
+index 3fa42eb..5e1ae61 100644
+--- a/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial3_pwm.c	
++++ b/self/academia/engineering/HKUST Robotics Team/SW 2023/project/Core/Src/tutorial3_pwm.c	
+@@ -1,3 +1,4 @@
++#include "lcd/lcd.h"
+ #include "main.h"
+ #include "tim.h"
+ 
+@@ -53,17 +54,60 @@ static ButtonState btn_state(void) {
+     }
+ }
+ 
++double pwm_limit_angle(double angle)
++{
++    return angle < -90. ? -90. : angle > 90. ? 90.
++                                             : angle;
++}
++
++void pwm_set_angle(TIM_TypeDef *tim, uint32_t __IO *ccr, double angle)
++{
++    angle      = pwm_limit_angle(angle);
++    double min = (tim->ARR + 1) / 40., max = min * 5., interpolate = (angle + 90.) / 180.;
++    *ccr = min + (max - min) * interpolate;
++}
+ 
+ void pwm_init(void) {
+ 	// init the pwm prescaler value and auto-reload value and start the pwm
+ 	/* Your code start here */
+-
++    TIM5->PSC  = 28 - 1;
++    TIM5->ARR  = 60000 - 1;
++    pwm_set_angle(TIM5, &TIM5->CCR1, 0);
++    HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_1);
++    tft_force_clear();
+ 	/* Your code end here */
+ }
+ 
+ void pwm_classwork(void) {
+ 	/* Your code start here */
+-
++#define PWM_ANGLE_BUTTON_RATE 90.
++    uint32_t last_tick = HAL_GetTick();
++    double angle       = 0;
++    while (1) {
++        /*
++        pwm_set_angle(TIM5, &TIM5->CCR1, 0);
++        HAL_Delay(1000);
++        pwm_set_angle(TIM5, &TIM5->CCR1, -90);
++        HAL_Delay(1000);
++        pwm_set_angle(TIM5, &TIM5->CCR1, 90);
++        HAL_Delay(1000);
++        */
++        uint32_t elapsed = HAL_GetTick() - last_tick;
++        last_tick += elapsed;
++        if (read_button(BUTTON1)) {
++            angle -= PWM_ANGLE_BUTTON_RATE * elapsed / 1000.;
++        }
++        if (read_button(BUTTON2)) {
++            angle += PWM_ANGLE_BUTTON_RATE * elapsed / 1000.;
++        }
++        angle = pwm_limit_angle(angle);
++        pwm_set_angle(TIM5, &TIM5->CCR1, angle);
++        if (tft_update(1) == 0) {
++            tft_prints(0, 0, "%.2f", angle);
++        }
++        while (HAL_GetTick() - last_tick < 1)
++            ;
++    }
+ 	/* Your code end here */
+ }
+ 

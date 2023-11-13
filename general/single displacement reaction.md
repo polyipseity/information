@@ -16,7 +16,7 @@ A __single displacement reaction__, also called {{__single replacement reaction_
 > {{A + BC → AC + B}}
 >
 > where either
-> - $\text{A}$ and $\text{B}$ are [cations](ion.md) and $\text{C}$ is an [anion](ion.md); or
-> - $\text{A}$ and $\text{B}$ are [halogens](halogen.md) and $\text{C}$ is a [cation](ion.md). <!--SR:!2024-01-29,80,282-->
+> - {{$\text{A}$ and $\text{B}$ are [cations](ion.md) and $\text{C}$ is an [anion](ion.md)}}; or
+> - {{$\text{A}$ and $\text{B}$ are [halogens](halogen.md) and $\text{C}$ is a [cation](ion.md)}}. <!--SR:!2024-01-29,80,282-->
 
 This often happens when {{$\text{A}$ is more [reactive](reactivity%20(chemistry).md) than $\text{B}$}}. <!--SR:!2024-05-24,322,330-->
