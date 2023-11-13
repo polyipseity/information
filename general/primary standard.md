@@ -61,6 +61,6 @@ return await memorize_seq(
 5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-01-18,157,230!2024-06-28,259,270-->
 6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-01-24,103,230!2024-03-06,219,270-->
 7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-01-01,80,250!2024-01-27,113,250-->
-8. ready and cheap availability→:::←_(end)_ <!--SR:!2024-05-17,315,330!2023-11-13,169,310-->
+8. ready and cheap availability→:::←_(end)_ <!--SR:!2024-05-17,315,330!2024-02-04,83,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
