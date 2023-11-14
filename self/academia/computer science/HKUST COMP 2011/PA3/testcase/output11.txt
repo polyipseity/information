@@ -279,3 +279,4 @@ star_ranks in course Python : [1: 3]
 8: Delete a course by course id
 9: Exit the system
 Enter your option: 
+reduce course array size to 2

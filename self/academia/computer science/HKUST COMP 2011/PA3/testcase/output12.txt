@@ -142,6 +142,7 @@ Enter the star rank of this course:
 9: Exit the system
 Enter your option: 
 Enter the course id: 
+reduce course array size to 2
 course is successfully deleted
 === Menu ===
 1: Display student list

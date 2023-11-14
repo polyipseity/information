@@ -187,6 +187,7 @@ Failed to insert star_rank, sid: 3, course id: 2
 9: Exit the system
 Enter your option: 
 Enter the course id: 
+reduce course array size to 2
 course is successfully deleted
 === Menu ===
 1: Display student list
@@ -226,7 +227,7 @@ course is successfully deleted
 9: Exit the system
 Enter your option: 
 === Student List ([sid, name, star_rank count]) ===
-[1, John, 0] -> [2, Tom, 0] -> [3, Jim, 1]
+[1, John, 0] -> [2, Tom, 0] -> [3, Jim, 0]
 === Menu ===
 1: Display student list
 2: Display courses
