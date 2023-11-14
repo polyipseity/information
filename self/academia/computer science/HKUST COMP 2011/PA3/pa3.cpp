@@ -99,7 +99,7 @@ namespace fstd
   using remove_reference_t = typename remove_reference<T>::type;
 
   template <typename T>
-  typename remove_reference_t<T> &&move(T &&t) noexcept
+  remove_reference_t<T> &&move(T &&t) noexcept
   {
     return static_cast<remove_reference_t<T> &&>(t);
   }
