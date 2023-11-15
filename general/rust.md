@@ -15,7 +15,7 @@ tags:
 
 # rust
 
-__Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2023-11-15,120,210-->
+__Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2024-07-23,251,210-->
 
 ## chemical reactions
 
@@ -92,7 +92,7 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2024-02-18,244,330-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2024-02-20,164,230!2023-11-25,179,310!2024-04-05,285,330!2024-06-07,272,250!2023-11-15,171,310!2024-01-09,186,270-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2024-02-20,164,230!2023-11-25,179,310!2024-04-05,285,330!2024-06-07,272,250!2025-04-27,529,310!2024-01-09,186,270-->
 
 ### electroplating
 

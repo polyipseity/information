@@ -315,10 +315,10 @@ return await memorize_map(
 8. [barium oxide](barium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-04,31,278-->
 9. [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-04,31,278-->
 10. [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-24,15,278-->
-11. [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-11-15,12,258-->
+11. [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-30,45,278-->
 12. [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-24,12,218-->
 13. [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-11-16,13,238-->
-14. [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-14,2,150-->
+14. [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-17,3,150-->
 15. [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-26,17,258-->
 16. [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-10,37,278-->
 17. [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-17,14,258-->
@@ -334,7 +334,7 @@ return await memorize_map(
 27. [copper(II) sulfide](copper(II)%20sulfide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-05,32,278-->
 28. [lead(II) bromide](lead(II)%20bromide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-28,25,278-->
 29. [lead(II) chloride](lead(II)%20chloride.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-12-07,34,278-->
-30. [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-15,4,198-->
+30. [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-17,2,178-->
 31. [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-16,5,178-->
 32. [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-24,13,218-->
 33. [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-27,54,298-->
@@ -342,7 +342,7 @@ return await memorize_map(
 35. [mercury(I) iodide](mercury(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-07,34,298-->
 36. [mercury(II) bromide](mercury(II)%20bromide.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-07,34,298-->
 37. [mercury(II) chloride](mercury(II)%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-22,49,298-->
-38. [mercury(II) iodide](mercury(II)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-11-14,11,238-->
+38. [mercury(II) iodide](mercury(II)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-09,25,238-->
 39. [silver bromide](silver%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-19,46,298-->
 40. [silver chloride](silver%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-09,36,298-->
 41. [silver ethanoate](silver%20ethanoate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-12-24,51,298-->
@@ -354,12 +354,12 @@ return await memorize_map(
 47. [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-18,45,298-->
 48. [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-16,43,298-->
 49. [sodium oxide](sodium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-10,37,298-->
-50. [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2023-11-14,11,258-->
+50. [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-23,39,278-->
 51. [sodium sulfide](sodium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-18,35,278-->
 52. [sodium sulfite](sodium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2023-11-25,22,278-->
-53. [strontium hydroxide](strontium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-15,2,158-->
-54. [strontium oxide](strontium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-11-15,12,258-->
-55. [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-15,4,198-->
+53. [strontium hydroxide](strontium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-16,1,138-->
+54. [strontium oxide](strontium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-27,42,278-->
+55. [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-11-22,7,198-->
 56. [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-06,33,278-->
 57. [thallium(I) oxide](thallium(I)%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-11-26,16,238-->
 58. [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-01,20,258-->
