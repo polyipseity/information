@@ -149,6 +149,7 @@ var PlaintextSettingTab = class extends import_obsidian2.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Plaintext" });
+    new import_obsidian2.Setting(containerEl).setName("Notice").setDesc(this.plugin.deprecationFragment());
     new import_obsidian2.Setting(containerEl).setName("Extensions").setDesc(
       "List of extensions to interpret as plaintext, comma-separated. Will automatically convert to a set when reopening the Obsidian Plaintext settings window. Obsidian's default extensions and extensions other plugins use are filtered out by default!"
     ).addText((text) => {
@@ -1369,7 +1370,7 @@ var snippets = [
 ];
 var globalCompletion = /* @__PURE__ */ (0, import_autocomplete.ifNotIn)(dontComplete, /* @__PURE__ */ (0, import_autocomplete.completeFromList)(/* @__PURE__ */ globals.concat(snippets)));
 function indentBody(context, node) {
-  let base = context.lineIndent(node.from);
+  let base = context.baseIndentFor(node);
   let line = context.lineAt(context.pos, -1), to = line.from + line.text.length;
   if (/^\s*($|#)/.test(line.text) && context.node.to < to + 100 && !/\S/.test(context.state.sliceDoc(to, context.node.to)) && context.lineIndent(context.pos, -1) <= base)
     return null;
@@ -1884,6 +1885,7 @@ var PlaintextPlugin = class extends import_obsidian5.Plugin {
       id: "new-plaintext-file",
       name: "Create new plaintext file",
       callback: () => {
+        this.showDeprecationMessage();
         this.createNewFile(app.vault.getRoot());
       }
     });
@@ -1893,11 +1895,26 @@ var PlaintextPlugin = class extends import_obsidian5.Plugin {
           return;
         }
         menu.addItem((item) => {
-          item.setTitle("New plaintext file").setIcon("file-plus").onClick(async () => this.createNewFile(file));
+          item.setTitle("New plaintext file").setIcon("file-plus").onClick(async () => {
+            this.showDeprecationMessage();
+            this.createNewFile(file);
+          });
         });
       })
     );
     this.registerViewsForExtensions(this.settings.extensions);
+    this.showDeprecationMessage();
+  }
+  deprecationFragment() {
+    const documentFragment = new DocumentFragment();
+    documentFragment.createEl("span", { text: "Plaintext will soon be deprecated and removed from the community store." });
+    documentFragment.createEl("span", { text: " Please use " });
+    documentFragment.createEl("a", { text: "Obsidian VSCode Editor", href: "obsidian://show-plugin?id=vscode-editor" });
+    documentFragment.createEl("span", { text: " instead!" });
+    return documentFragment;
+  }
+  showDeprecationMessage() {
+    new import_obsidian5.Notice(this.deprecationFragment(), 0);
   }
   onunload() {
     this.deregisterViewsForExtensions(this.settings.extensions);
