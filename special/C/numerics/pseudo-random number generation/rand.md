@@ -13,3 +13,8 @@ tags:
 ```C
 int rand();
 ```
+
+
+> [!tip]
+>
+> - remember: {{set the seed using [`srand`](srand.md) before calling `rand`}}
