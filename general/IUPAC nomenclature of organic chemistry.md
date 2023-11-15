@@ -201,7 +201,7 @@ The steps for naming an organic compound are:
 
 1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
 2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
-3. most multiple bonds→:::←maximum length <!--SR:!2023-12-28,163,256!2023-11-14,245,282-->
+3. most multiple bonds→:::←maximum length <!--SR:!2023-12-28,163,256!2025-10-04,690,282-->
 4. maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2023-11-27,256,282-->
 6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2025-03-21,668,345-->
@@ -536,7 +536,7 @@ return (
 > | fluorine | {{fluoro-}} | {{fluoride}} |
 > | chlorine | {{chloro-}} | {{chloride}} |
 > | bromine | {{bromo-}} | {{bromide}} |
-> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2024-01-24,520,301!2027-06-10,1524,364!2023-12-25,490,304!2027-07-17,1556,366!2023-11-15,442,307!2029-07-16,2137,367!2024-02-25,539,312!2028-10-14,1915,373-->
+> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2024-01-24,520,301!2027-06-10,1524,364!2023-12-25,490,304!2027-07-17,1556,366!2029-01-05,1878,327!2029-07-16,2137,367!2024-02-25,539,312!2028-10-14,1915,373-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -645,6 +645,6 @@ return await memorize_table(
 3. [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2024-05-22,302,344!2024-01-24,231,364-->
 4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-07-08,282,364!2024-02-24,162,324-->
 5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2024-01-21,210,344!2024-07-17,351,364-->
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2023-11-15,155,324-->
+6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2024-01-31,77,304-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

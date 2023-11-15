@@ -87,7 +87,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2023-12-22,70,270!2023-12-10,194,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2023-11-15,136,230!2023-12-18,54,333!2023-12-15,51,333-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2023-12-22,70,270!2023-12-10,194,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2025-01-29,441,250!2023-12-18,54,333!2023-12-15,51,333-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

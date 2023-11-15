@@ -14,7 +14,7 @@ tags:
 
 # atomicity
 
-__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2023-11-15,173,310-->
+__Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2025-11-25,741,330-->
 
 ## classification
 
