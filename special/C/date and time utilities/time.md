@@ -13,3 +13,7 @@ tags:
 ```C
 time_t time(time_t *arg);
 ```
+
+> [!tip]
+>
+> - two ways to get the result: {{[return value](../../../general/return%20statement.md) (pass `NULL` to `arg`), `arg` [output parameter](../../../general/parameter%20(computer%20programming).md#output%20parameters)}}
