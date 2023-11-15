@@ -1,8 +1,8 @@
 [
   "obsidian-charts",
-  "obsidian-plaintext",
   "obsidian-spaced-repetition",
   "obsidian42-brat",
   "show-hidden-files",
-  "terminal"
+  "terminal",
+  "vscode-editor"
 ]
