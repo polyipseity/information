@@ -483,7 +483,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2026-04-27,911,305!2023-11-16,289,347-->
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2026-04-27,911,305!2027-08-26,1378,367-->
 
 > {{nitrile}}
 > - group: {{nitrile}}
@@ -599,7 +599,7 @@ return (
 5. nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
 7. ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-01-27,85,150-->
-8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2023-11-17,393,272-->
+8. alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2026-10-20,1068,272-->
 9. hydroperoxide→:::←amine <!--SR:!2023-11-20,396,264!2024-05-21,515,272-->
 10. amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-03-10,343,267-->
 

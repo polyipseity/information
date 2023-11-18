@@ -91,10 +91,10 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2023-10-09T23:03:32.688320+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2023-11-17,14,250!2024-01-13,71,310-->
+1. _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2023-12-22,35,250!2024-01-13,71,310-->
 2. your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2023-12-27,54,310!2023-12-12,39,290-->
 3. why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2023-11-20,11,230!2023-12-23,50,290-->
-4. why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2023-11-16,13,250!2023-12-04,31,270-->
+4. why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2023-12-19,32,250!2023-12-04,31,270-->
 5. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2023-12-28,55,310!2023-12-02,29,270-->
 6. from or signature→:::←_(end)_ <!--SR:!2024-01-03,61,310!2023-12-08,35,290-->
 

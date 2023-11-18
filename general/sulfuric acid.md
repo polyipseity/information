@@ -18,7 +18,7 @@ Concentrated sulfuric acid has a [concentration](concentration.md) of {{98.3% by
 
 ### reactions with metals
 
-Dilute sulfuric acid {{oxidizes reactive [metals](metal.md) to form metal [sulfates](sulfate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2023-11-16,144,270-->
+Dilute sulfuric acid {{oxidizes reactive [metals](metal.md) to form metal [sulfates](sulfate.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2024-12-09,388,270-->
 
 Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxide](sulfur%20dioxide.md)}}. <!--SR:!2024-05-26,205,230-->
 
