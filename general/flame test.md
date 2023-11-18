@@ -114,6 +114,6 @@ return await memorize_map(
 11. intense white::[magnesium](magnesium.md) <!--SR:!2023-12-10,145,250-->
 12. lilac::[potassium](potassium.md) <!--SR:!2025-04-16,539,310-->
 13. invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2024-01-20,173,250-->
-14. intense yellow::[sodium](sodium.md) <!--SR:!2023-11-16,156,290-->
+14. intense yellow::[sodium](sodium.md) <!--SR:!2025-02-10,451,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

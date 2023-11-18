@@ -24,7 +24,7 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 - formatting: {{consistent, minimal}}
 - length: {{1 page}}
 - line spacing: {{single}}
-- order: {{reverse chronological}} <!--SR:!2023-11-26,22,250!2023-11-16,12,230!2024-01-01,58,310!2024-01-05,62,310!2024-01-08,65,310!2023-12-25,51,310-->
+- order: {{reverse chronological}} <!--SR:!2023-11-26,22,250!2023-12-30,43,250!2024-01-01,58,310!2024-01-05,62,310!2024-01-08,65,310!2023-12-25,51,310-->
 
 ## content
 
@@ -87,7 +87,7 @@ Two recommended formats:
 
 - industry experience: {{if no salary}}
 - work experience: {{all, 0 to 3 sub-points according to importance}}
-  - sub-points: {{statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities}} <!--SR:!2024-01-01,58,310!2023-12-29,55,310!2023-11-17,13,230-->
+  - sub-points: {{statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities}} <!--SR:!2024-01-01,58,310!2023-12-29,55,310!2023-12-16,29,230-->
 
 ### skills
 
