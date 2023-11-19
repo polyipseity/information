@@ -20,3 +20,7 @@ A __single displacement reaction__, also called {{__single replacement reaction_
 > - {{$\text{A}$ and $\text{B}$ are [halogens](halogen.md) and $\text{C}$ is a [cation](ion.md)}}.
 
 This often happens when {{$\text{A}$ is more [reactive](reactivity%20(chemistry).md) than $\text{B}$}}.
+
+> [!tip]
+>
+> - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md).}}
