@@ -14,6 +14,10 @@
 	path = self/passwords
 	url = ../information-passwords.git
 	branch = main
+[submodule "polyipseity"]
+	path = self/polyipseity
+	url = https://github.com/polyipseity/polyipseity.git
+	branch = main
 [submodule "private"]
 	path = private
 	url = ../information-private.git
