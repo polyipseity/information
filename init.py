@@ -174,23 +174,35 @@ async def main(args: Arguments):
                         if text != c_text:
                             return finalizer()
 
-                for root, dirs, files in _walk(
-                    folder, topdown=True, onerror=on_error, followlinks=False
-                ):
-                    if any(await _gather(*(ex.samefile(root) for ex in excludes))):
-                        dirs.clear()
-                        files.clear()
-                    for file in files:
-                        path = await _Path(root, file).resolve(strict=True)
-                        if any(await _gather(*(ex.samefile(path) for ex in excludes))):
-                            continue
-                        if file.endswith(".md"):
-                            finalize = await maybe_yield(path)
-                            if finalize is not None:
-                                finalizers.append(finalize)
-                                yield path
+                async def potential_files():
+                    for root, dirs, files in _walk(
+                        folder, topdown=True, onerror=on_error, followlinks=False
+                    ):
+                        if any(await _gather(*(ex.samefile(root) for ex in excludes))):
+                            dirs.clear()
+                            files.clear()
+                        for file in files:
+                            yield _Path(root, file)
 
-            inputs = await _atuple(str(input) async for input in gen_inputs())
+                results = list[_Path]()
+
+                async def process_file(file: _Path):
+                    path = await file.resolve(strict=True)
+                    if path.suffix != ".md" or any(
+                        await _gather(*(ex.samefile(path) for ex in excludes))
+                    ):
+                        return
+                    finalize = await maybe_yield(path)
+                    if finalize is not None:
+                        finalizers.append(finalize)
+                        results.append(path)
+
+                async with _TskGrp() as group:
+                    async for file in potential_files():
+                        group.create_task(process_file(file))
+                return results
+
+            inputs = await gen_inputs()
             _info(f"Using {len(inputs)} input(s)")
             try:
                 entry = _pytextgen_parser().parse_args(
