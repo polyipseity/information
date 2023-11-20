@@ -16,7 +16,7 @@
 	branch = main
 [submodule "polyipseity"]
 	path = self/polyipseity
-	url = https://github.com/polyipseity/polyipseity.git
+	url = ../polyipseity.git
 	branch = main
 [submodule "private"]
 	path = private
@@ -24,9 +24,9 @@
 	branch = main
 [submodule "pyarchivist"]
 	path = tools/pyarchivist
-	url = https://github.com/polyipseity/pyarchivist.git
+	url = ../pyarchivist.git
 	branch = main
 [submodule "pytextgen"]
 	path = tools/pytextgen
-	url = https://github.com/polyipseity/pytextgen.git
+	url = ../pytextgen.git
 	branch = main
