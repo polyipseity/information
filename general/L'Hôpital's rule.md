@@ -32,7 +32,7 @@ tags:
 
 # L'Hôpital's rule
 
-__L'Hôpital's rule__, also known as __Bernoulli's rule__, is {{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}}.
+__{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}}.
 
 > __L'Hôpital's rule__
 >
