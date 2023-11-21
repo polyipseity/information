@@ -9,7 +9,7 @@ Construct a function called `circleArea` to calculate the area of a circle using
 #include <stdbool.h>
 ​
 // your function starts here
-  
+
 // your function ends here
 ​
 int main() {

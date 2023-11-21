@@ -14,7 +14,7 @@ __Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20su
 ## extensions
 
 > {{![Annotated element symbol](../archives/Wikimedia%20Commons/Atomic%20Symbol%20Mg.svg)}}
-> 
+>
 > Annotated element symbol
 
 - {{The [mass number](mass%20number.md)}} is shown in {{the left superscript position}}. This specifies {{the [isotope](isotope.md)}}.

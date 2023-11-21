@@ -48,19 +48,19 @@ int main() {
     {2, 3},
     {4, 5}
   };
-  
+
   int matrix_B[3][2] = {
     {0, 1},
     {2, 3},
     {4, 5}
   };
-  
+
   int result[3][2] = {0};
-  
+
   // your code starts here
-  
+
   // your code ends here
-  
+
   printf("A = \n");
   display_matrix(matrix_A, 3);
   printf("\nB = \n");
