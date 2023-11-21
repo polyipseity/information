@@ -29,17 +29,18 @@ return await memorize_table(
     ('[multiple-angle](#multiple-angle)',),
     ('[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
   ),
+  lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-11-21T01:17:53.356217+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-11-21T12:23:37.466589+08:00. Any edits will be overridden! -->
 
 > | name |
 > |-|
-> | [angle sum and difference](#angle%20sum%20and%20difference) |
-> | [multiple-angle](#multiple-angle) |
-> | [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) |
+> | {{[angle sum and difference](#angle%20sum%20and%20difference)}} |
+> | {{[multiple-angle](#multiple-angle)}} |
+> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
