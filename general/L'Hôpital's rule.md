@@ -2,14 +2,23 @@
 aliases:
   - Bernoulli rule
   - Bernoulli's rule
+  - Bernoulli’s rule
   - L'Hopital rule
-  - L'Hôpital rule
   - L'Hopital's rule
-  - L'Hôpital's rule
   - L'Hospital rule
-  - L'Hôspital rule
   - L'Hospital's rule
+  - L'Hôpital rule
+  - L'Hôpital's rule
+  - L'Hôspital rule
   - L'Hôspital's rule
+  - L’Hopital rule
+  - L’Hopital’s rule
+  - L’Hospital rule
+  - L’Hospital’s rule
+  - L’Hôpital rule
+  - L’Hôpital’s rule
+  - L’Hôspital rule
+  - L’Hôspital’s rule
 tags:
   - flashcards/general/L_Hôpital_s_rule
 ---
