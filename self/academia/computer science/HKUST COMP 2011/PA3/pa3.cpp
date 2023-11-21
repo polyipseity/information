@@ -927,13 +927,6 @@ void display_courses(Course **course_array, const unsigned int num_courses) {
   }
   for (Course const *course : courses)
   {
-    LinkedList<StarRank const> const ranks{course->star_rank_head};
-    std::size_t counts[MAX_RANKING_STARS]{};
-    for (StarRank const &rank : ranks)
-    {
-      ++counts[rank.star - 1];
-    }
-
     cout << "course_id : " << course->course_id << ", name : " << course->name << ", stars_count : " << endl;
     for (size_t star{1}; star <= MAX_RANKING_STARS; ++star)
     {
@@ -945,7 +938,7 @@ void display_courses(Course **course_array, const unsigned int num_courses) {
       {
         cout << ' ';
       }
-      cout << counts[star - 1] << endl;
+      cout << course->stars_count[star - 1] << endl;
     }
   }
 }
