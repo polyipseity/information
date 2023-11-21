@@ -19,7 +19,7 @@ tags:
   - {{floating-point data types}}: {{`FLOAT`, `DOUBLE`; inexact}}
     - {{`FLOAT`}}: {{likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md)}}
     - {{`DOUBLE`}}: {{likely [double-precision floating-point format](../../general/double-precision%20floating-point%20format.md)}}
-  - {{integer data types}}: {{`TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT`}} 
+  - {{integer data types}}: {{`TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT`}}
     - {{`TINYINT`}}: {{signed is from -2<sup>7</sup> to 2<sup>7</sup> - 1, unsigned is from 0 to 2<sup>8</sup> - 1}}
     - {{`SMALLINT`}}: {{signed is from -2<sup>15</sup> to 2<sup>15</sup> - 1, unsigned is 0 to 2<sup>16</sup> - 1}}
     - {{`INT`, `INTEGER`}}: {{signed is from -2<sup>23</sup> to 2<sup>23</sup> - 1, unsigned is from 0 to 2<sup>24</sup> - 1}}

@@ -47,7 +47,7 @@ Consider 2 uses for a single button: (choose BTN1 or BTN2)
   - The event of a signal going from low to high is called the ___rising edge___ and the opposite is the ___falling edge___
   - The `gpio_read()` macro gives us the current state, but edge triggering also requires knowledge of the __past state__ as well as some logic
 - Hints: How can we design some code that can call a function _only_ when the button is first clicked? (Rising edge)
-    
+
 #### __Bonus__
 
 - Create a sprite in the middle of the screen. (Can be in any shape other than simple rectangle) __(@1)__
