@@ -2,7 +2,7 @@
 
 If we need a frequency output of 50Hz, what are the 3 possible combinations of prescaler value and auto-reload value? (Given that the clock frequency is 84MHz)
 
-> [!success]- answer
+> [!success] solution
 >
 > $$\begin{aligned}
 > \mathrm{downscaling}&=\frac{84000000}{50}\\

@@ -2,7 +2,7 @@
 
 If we need a frequency output of 50Hz and on-time of 0.5ms, what are the possible combinations of prescaler value, auto-reload value and compare value? (Given that the clock frequency is 84MHz)
 
-> [!success]- answer
+> [!success] solution
 >
 > $$\begin{aligned}
 > \mathrm{duty\ cycle}&=\frac{\frac{0.5}{1000}}{\frac1{50}}\\
