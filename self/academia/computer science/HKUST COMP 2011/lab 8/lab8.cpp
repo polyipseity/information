@@ -47,14 +47,14 @@ public:
     // Task 1: Complete the Constructor and Destructor function
     // tips: allocate and release variable with dynamic memory
     // Constructor
-    LinkNode(char *name, float score)
+    LinkNode(char *name, float score) : score{score}, name{strcpy(new char[strlen(name) + 1], name)}, prev{}, next{}
     {
         
     }
     // Destructor
     ~LinkNode()
     {
-        
+        delete name;
     }
 };
 
@@ -69,14 +69,60 @@ private:
     // tips: check the boundary condition, e.g. Node a/b/tail is nullptr
     void insert(LinkNode *newNode, LinkNode *existNode)
     {
-        
+        if (!newNode)
+        {
+            return;
+        }
+        if (!existNode)
+        {
+            if (tail)
+            {
+                newNode->setPrev(tail);
+                tail->setNext(newNode);
+                tail = newNode;
+                return;
+            }
+            head = tail = newNode;
+            return;
+        }
+        LinkNode *const prev{existNode->getPrev()};
+        newNode->setNext(existNode);
+        existNode->setPrev(newNode);
+        if (prev)
+        {
+            newNode->setPrev(prev);
+            prev->setNext(newNode);
+            return;
+        }
+        head = newNode;
     }
 
     // Task 3: Complete the remove function: remove Node in DoubledLink, if Node is nullptr, return void
     // tips: check the boundary condition, e.g. Node is nullptr/head/tail
     void remove(LinkNode *node)
     {
-        
+        if (!node)
+        {
+            return;
+        }
+        LinkNode *const prev{node->getPrev()}, *const next{node->getNext()};
+        if (prev)
+        {
+            prev->setNext(next);
+        }
+        else
+        {
+            head = next;
+        }
+        if (next)
+        {
+            next->setPrev(prev);
+        }
+        else
+        {
+            tail = prev;
+        }
+        delete node;
     }
 
 /* YOU MUST NOT MODIFY PUBLIC FUNCTIONS BELOW, EXCEPT CONSTRUCTOR & DECONSTRUCTOR */
@@ -137,14 +183,17 @@ public:
 public:
     // Task 4: Complete the Constructor and Destructor function
     // Constructor
-    DoubledLink()
+    DoubledLink() : head{}, tail{}
     {
         
     }
     // Destructor
     ~DoubledLink()
     {
-        
+        while (head)
+        {
+            remove(head);
+        }
     }
 };
 
