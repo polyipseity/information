@@ -1,3 +1,0 @@
-Welcome to Lab3: Encryption & Decryption!
-Enter the input file name: The decrypted numbers are: 487 and 17
-The decrypted text is: STAR

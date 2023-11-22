@@ -1,9 +1,0 @@
-2
-A 100
-B 201
-1 2
-AB
-A hits east
-A hits east
-A hits east
-!

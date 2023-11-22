@@ -1,1 +1,0 @@
-testcase/input6-file.txt

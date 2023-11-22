@@ -1,2 +1,0 @@
-Enter the elements of the array. The elements should only be 0 or 1: 
-Not rectangle

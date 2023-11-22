@@ -1,9 +1,0 @@
-1
-A 100
-1 1
-A
-A moves east 1
-A moves north 1
-A moves south 1
-A moves west 1
-!

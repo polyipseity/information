@@ -1,3 +1,0 @@
-Welcome to Lab3: Encryption & Decryption!
-Enter the input file name: The encrypted numbers are: 77 and 338
-The encrypted text is: CZNA
