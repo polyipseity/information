@@ -3,7 +3,7 @@
 	url = ../information-arts.git
 	branch = main
 [submodule "dglOpenGL/2a208939-b8f0-46dd-a054-7ed4ede546ff"]
-	path = self/academia/computer science/secondary 3/IndividualProgrammingProject/shaded/dglOpenGL
+	path = self/academia/secondary/2019/IndividualProgrammingProject/shaded/dglOpenGL
 	url = https://github.com/SaschaWillems/dglOpenGL.git
 	branch = master
 [submodule "ledger"]
