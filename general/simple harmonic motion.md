@@ -24,3 +24,7 @@ The position of a simple harmonic motion as a function of time can be written as
 > - {{$c=x_0+\frac{v_0}\omega{}i$}}
 > - {{$A=|c|$}}
 > - {{$\phi=\arg{c}$}} <!--SR:!2024-02-14,103,310!2023-12-14,41,270!2023-12-15,42,270!2023-12-01,14,300!2023-12-03,16,300!2023-12-04,17,300!2023-12-02,15,300!2023-11-27,10,280!2023-12-05,18,300-->
+
+> [!tip]
+>
+> - [mnemonic](mnemonic.md): {{The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular velocity](angular%20velocity.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [radius](radius.md), which is [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular velocity](angular%20velocity.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the position of the system in the [phase space](phase%20space.md) initially.}}
