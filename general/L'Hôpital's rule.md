@@ -58,7 +58,7 @@ return await memorize_table(
     (R"$\infty-\infty$", R"$\lim_{x\to{c}}f(x)=\infty,\lim_{x\to{c}}g(x)=\infty$", R"$\lim_{x\to{c}}(f(x)-g(x))=\lim_{x\to{c}}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$", R"$\lim_{x\to{c}}(f(x)-g(x))=\ln\lim_{x\to{c}}\frac{e^{f(x)}}{e^{g(x)}}$",),
     (R"$0^0$", R"$\lim_{x\to{c}}f(x)=0^+,\lim_{x\to{c}}g(x)=0$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$",),
     (R"$1^\infty$", R"$\lim_{x\to{c}}f(x)=1,\lim_{x\to{c}}g(x)=\infty$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$"),
-    (R"$0^\infty$", R"$\lim_{x\to{c}}f(x)=\infty,\lim_{x\to{c}}g(x)=0$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$",),
+    (R"$\infty^0$", R"$\lim_{x\to{c}}f(x)=\infty,\lim_{x\to{c}}g(x)=0$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$", R"$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$",),
   ),
   lambda datum: _chain(datum[:1], map(cloze, datum[1:])),
 )
@@ -67,7 +67,7 @@ return await memorize_table(
 
 The following table lists out transformation from other [indeterminate forms](indeterminate%20form.md) for applying L'Hôpital's rule.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="948f"--><!-- The following content is generated at 2023-11-21T12:20:21.642389+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="948f"--><!-- The following content is generated at 2023-11-24T23:07:19.386744+08:00. Any edits will be overridden! -->
 
 > | indeterminate form | conditions | transformation to $0/0$ | transformation to $\infty/\infty$ |
 > |-|-|-|-|
@@ -77,11 +77,11 @@ The following table lists out transformation from other [indeterminate forms](in
 > | $\infty-\infty$ | {{$\lim_{x\to{c}}f(x)=\infty,\lim_{x\to{c}}g(x)=\infty$}} | {{$\lim_{x\to{c}}(f(x)-g(x))=\lim_{x\to{c}}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$}} | {{$\lim_{x\to{c}}(f(x)-g(x))=\ln\lim_{x\to{c}}\frac{e^{f(x)}}{e^{g(x)}}$}} |
 > | $0^0$ | {{$\lim_{x\to{c}}f(x)=0^+,\lim_{x\to{c}}g(x)=0$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$}} |
 > | $1^\infty$ | {{$\lim_{x\to{c}}f(x)=1,\lim_{x\to{c}}g(x)=\infty$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$}} |
-> | $0^\infty$ | {{$\lim_{x\to{c}}f(x)=\infty,\lim_{x\to{c}}g(x)=0$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$}} |
+> | $\infty^0$ | {{$\lim_{x\to{c}}f(x)=\infty,\lim_{x\to{c}}g(x)=0$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{g(x)}{1/\ln{f(x)}}$}} | {{$\lim_{x\to{c}}f(x)^{g(x)}=\exp\lim_{x\to{c}}\frac{\ln{f(x)}}{1/g(x)}$}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-11-21T12:18:49.583160+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2023-11-24T23:07:19.372288+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←$\frac00$
 2. $\frac00$→:::←$\frac\infty\infty$
@@ -89,7 +89,7 @@ The following table lists out transformation from other [indeterminate forms](in
 4. $0\cdot\infty$→:::←$\infty-\infty$
 5. $\infty-\infty$→:::←$0^0$
 6. $0^0$→:::←$1^\infty$
-7. $1^\infty$→:::←$0^\infty$
-8. $0^\infty$→:::←_(end)_
+7. $1^\infty$→:::←$\infty^0$
+8. $\infty^0$→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
