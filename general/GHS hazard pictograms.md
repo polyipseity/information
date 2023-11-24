@@ -52,7 +52,7 @@ return await memorize_table(
 > | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}} |  |
 > | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}} |  |
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2024-04-05,285,330!2025-11-27,741,330!2023-12-31,203,310!2024-05-16,319,330!2024-03-13,268,330!2024-01-12,215,310!2024-04-22,300,330!2024-03-11,266,330!2024-05-17,320,330!2023-12-17,194,310!2024-04-23,301,330!2024-01-19,208,310!2023-12-07,184,310!2023-11-18,172,310!2024-03-15,269,330!2025-07-26,620,310!2024-04-04,284,330!2024-01-12,194,290-->
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2024-04-05,285,330!2025-11-27,741,330!2023-12-31,203,310!2024-05-16,319,330!2024-03-13,268,330!2024-01-12,215,310!2024-04-22,300,330!2024-03-11,266,330!2024-05-17,320,330!2023-12-17,194,310!2024-04-23,301,330!2024-01-19,208,310!2023-12-07,184,310!2025-11-30,737,330!2024-03-15,269,330!2025-07-26,620,310!2024-04-04,284,330!2024-01-12,194,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

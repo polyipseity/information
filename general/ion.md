@@ -472,7 +472,7 @@ return chain.from_iterable(await gather(
 5. iodide ion::colorless <!--SR:!2023-11-30,465,307-->
 6. hydroxide ion::colorless <!--SR:!2024-06-20,403,307-->
 7. nitrate ion::colorless <!--SR:!2023-12-01,466,299-->
-8. nitrite ion::_(n/a)_ <!--SR:!2023-11-19,96,256-->
+8. nitrite ion::_(n/a)_ <!--SR:!2024-07-26,245,256-->
 9. hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
 10. hydrogensulfite ion::colorless <!--SR:!2026-11-15,1203,270-->
 11. hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
@@ -480,13 +480,13 @@ return chain.from_iterable(await gather(
 13. oxide ion::_(n/a)_ <!--SR:!2024-09-17,438,276-->
 14. sulfide ion::_(n/a)_ <!--SR:!2024-01-28,177,256-->
 15. sulfate ion::colorless <!--SR:!2026-08-20,1076,274-->
-16. sulfite ion::colorless <!--SR:!2023-11-19,198,274-->
+16. sulfite ion::colorless <!--SR:!2025-12-21,758,294-->
 17. carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
 18. chromate ion::<span style="color: yellow;">yellow</span> <!--SR:!2025-01-11,566,250-->
 19. dichromate ion::<span style="color: orange;">orange</span> <!--SR:!2027-10-05,1481,293-->
 20. nitride ion::_(n/a)_ <!--SR:!2024-12-31,444,256-->
 21. phosphate ion::colorless <!--SR:!2027-10-06,1482,293-->
-22. manganate ion::<span style="color: green;">green</span> <!--SR:!2023-11-22,163,322-->
+22. manganate ion::<span style="color: green;">green</span> <!--SR:!2024-02-12,80,302-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
