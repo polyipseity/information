@@ -84,7 +84,7 @@ The authors declare no competing interests. Generative AI is used for paraphrasi
 
 - Geyer, R., Jambeck, J. R., & Law, K. L. (2017). Production, use, and fate of all plastics ever made. _Science advances_, _3_(7), e1700782. https://doi.org/10.1126/sciadv.1700782
 - MacLeod, M., Arp, H. P. H., Tekman, M. B., & Jahnke, A. (2021). The global threat from plastic pollution. _Science_, _373_(6550), 61-65. https://doi.org/10.1126/science.abg5433
-- Ritchie, H., Roser, M., & Rosado, P. (2020). CO₂ and Greenhouse Gas Emissions. _Our World in Data_. https://ourworldindata.org/co2-and-greenhouse-gas-emissions [Online Resource]
+- Ritchie, H., Roser, M., & Rosado, P. (2020). CO<sub>2</sub> and Greenhouse Gas Emissions. _Our World in Data_. https://ourworldindata.org/co2-and-greenhouse-gas-emissions [Online Resource]
 - Ritchie, H., Samborska, V., & Roser, M. (2023). Plastic Pollution. _Our World in Data_. https://ourworldindata.org/plastic-pollution [Online Resource]
 - Payne, J., & Jones, M. D. (2021). The chemical recycling of polyesters for a circular plastics economy: challenges and emerging opportunities. _ChemSusChem_, _14_(19), 4041-4070. https://doi.org/10.1002/cssc.202100400
 - Shen, M., Huang, W., Chen, M., Song, B., Zeng, G., & Zhang, Y. (2020). (Micro) plastic crisis: un-ignorable contribution to global greenhouse gas emissions and climate change. _Journal of Cleaner Production_, _254_, 120138. https://doi.org/10.1016/j.jclepro.2020.120138
