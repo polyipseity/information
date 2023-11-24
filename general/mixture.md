@@ -15,7 +15,7 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 
 - composition: {{variable}}
 - formation: {{no [chemical reactions](chemical%20reaction.md), no to little energy change ([enthalpy of mixing](enthalpy%20of%20mixing.md))}}
-- properties: {{each constituent keep their properties}}
+- properties: {{each constituent keeps its properties}}
 - separation: {{separable by physical and chemical methods}}
 - [boiling point](boiling%20point.md) and [melting point](melting%20point.md): {{wide}}
 
