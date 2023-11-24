@@ -14,51 +14,51 @@ William So
 
 ## Abstract
 
-Plastics are ubiquitous material for its versatility. Global production of plastics has never been higher than before. However, its overuse has attracted attention due to its health effects, environment effects, etc. Fewer focuses on its impact on climate change. This report aims to quantify said impact by analyzing existing datasets on GHG emissions and plastic production. What we found is that reducing plastic production is imminent and essential to solving climate change. Further possible actions to reduce plastic production are discussed.
+Plastic is a widely used versatile material. However, its overuse has raised concerns about its health effects, environment effects, and now, climate change. This report quantifies the contribution of plastic production to greenhouse gas (GHG) emission and emphasize the urgent need to reduce plastic production to address climate change. Additionally, potential actions to reduce plastic production will be discussed.
 
 ## Introduction
 
-Plastic is a widely used material because it has added much value to our lives. Global production of plastic has reached a staggering 380 million tonnes in 2015 (Geyer, Jambeck & Law, 2017). Most discussions in the media and literature associate its overuse with health effects (Wright & Kelly, 2017), environment effects (MacLeod, Tekman & Jahnke, 2021), etc. Few focuses on its effect on climate change, contributing to a lack of research in this aspect. Considering the high production of plastics and their origins from petrochemicals, this impact should not be ignored (Shen et al., 2020).
+Plastic is a commonly used material that has greatly benefited our lives. The global production of plastic has reached unprecedented levels, with a 380 million tonnes produced in 2015 alone (Geyer, Jambeck & Law, 2017). Whilst there is extensive research into health (Wright & Kelly, 2017) and environment effects (MacLeod, Tekman & Jahnke, 2021) of plastic overuse, little attention has been given to climate change. Considering plastics are derived from petrochemicals and the significant production volume, examining their role in contributing to climate change is crucial (Shen et al., 2020).
 
-This report aims to quantify the effect of plastic production on greenhouse gas (GHG) emissions and predict its future trend using existing datasets. This way, we can explore better ways to tackle plastic overuse while considering their climate impact.
+This report aims to quantify relationships between plastic production and GHG emissions by analyzing existing datasets. By examining plastic production and GHG emissions in various scenarios, the link between plastics and climate change can be better understood, helping find better ways to tackle plastic overuse.
 
 ## Methodology
 
-In this report, four datasets from Our World in Data are used. Two datasets show the annual amount of CO<sub>2</sub> emitted over time to keep the global temperature rise below respectively 2 °C and 1.5 °C. The time range is from 1850 to 2100. Each dataset contains a prediction for each year from 2000 to 2026 if CO<sub>2</sub> reductions start in said year. (Ritchie, Roser & Rosado, 2020). The other two are respectively GHG emissions from plastic and global plastics production. The time range in the former is from 2015 to 2019, while the latter ranges from 1950 to 2019 (Ritchie, Samborska & Roser, 2023). By combining these datasets, the link between plastic and GHG emissions can be shown. Predictions about GHG emissions from plastics can also be made.
+To conduct this analysis, four datasets from Our World in Data were utilized. Two datasets provided information on annual CO<sub>2</sub> emission to limit global temperature rise to 2 °C and 1.5 °C. The time range for said datasets was from 1850 to 2100, with 27 predictions for scenarios where CO<sub>2</sub> reduction starts in a certain year, where said year ranges from 2000 to 2026 (Ritchie, Roser & Rosado, 2020). The other two datasets focused on GHG emission from plastic and global plastics production. The time range for GHG emission from plastic was from 2015 to 2019. The time range for global plastics production covered the years from 1950 to 2019 (Ritchie, Samborska & Roser, 2023). By combining these datasets, the link between plastics and GHG emission can be shown, allowing predictions to be made.
 
-All four datasets are loaded into a spreadsheet. The global plastic production dataset is missing 1974, so value of the previous year is used. Otherwise, the data is completely clean.
+All four datasets were loaded into a spreadsheet. The global plastics production dataset was missing 1974, so the value of the previous year was used. Otherwise, the data was completely clean.
 
-Next, global plastic production and total GHG emission are extrapolated into 2050 using exponential regression. The extrapolation for GHG emission to limit the temperature increase are obtained from the dataset directly. To find the link between plastic and GHG emission, GHG emission to plastic produced ratio is calculated from 2015 to 2019. Then it is extrapolated to from 1950 to 2050 using exponential regression. After that, this ratio is used to extrapolate plastic GHG emission from produced plastic. Lastly, the plastic GHG emission is compared against the total GHG emission for three scenarios: business as usual, below 2 °C, and below 1.5 °C. Charts are created for all of above. Quite some time is spent on finding the correct spreadsheet formula to use, but otherwise there is little trouble analyzing the data.
+Next, global plastics production and total GHG emission were extrapolated up to 2050 using exponential regression. The GHG emission to plastic production ratio was calculated from 2015 to 2019, and then extrapolated from 1950 to 2050 using exponential regression. This ratio was used to estimate plastic GHG emission from based on plastics production. The results were compared against the total GHG emission for three scenarios: business as usual, below 2 °C, and below 1.5 °C. Charts were created to visualize the findings (Figure 1-5). Time was spent on finding the correct spreadsheet formula to use, but otherwise there was little trouble analyzing the data.
 
-Exponential regression is used to extrapolate global plastic production and total GHG emission because they closely match the historical trend. For the GHG emission to plastic produced ratio, while there is little historical data, it is reasonable to expect that efficiency gains become increasingly hard to make, so exponential regression is also used.
+Exponential regression was used to extrapolate global plastics production and total GHG emission because they closely match the historical trend. For GHG emission to plastic production ratio, while there is little historical data, it is reasonable to expect that efficiency gains will be increasingly hard to make, so exponential regression was also used.
 
 ## Results
 
-The findings indicate the current plastic trends are worrying. First, plastic production has been increasing since historical records start, and the increase rate is exponential without any sign of slowing down. About every 15 years, plastic production doubles. 459.75 million tonnes of plastics were produced in 2019, and it is expected to quadruple to 1897 million tonnes by 2050. (Figure 1). This shows that plastic overuse is a worsening problem.
+The analysis revealed several concerning trends. First, plastic production has been increasing exponentially without any signs of slowing down. In 2019, 459.75 million tonnes of plastics were produced, and this is projected to quadruple to 1897 million tonnes by 2050. This shows that about every 15 years, plastic production doubles (Figure 1). This exponential growth highlights the severity of the plastic overuse problem.
 
 > ![Figure 1. Extrapolated plastic production](The%20role%20of%20plastics%20in%20climate%20change/extrapolated%20plastic%20production.png)
 >
 > __Figure 1. Extrapolated plastic production__
 
-Second, what is also increasing exponentially is the total GHG emission. Similarly to Figure 1, there is little sign of trailing off, increasing to 42.3 billion tonnes in 2019 and expected to almost double to 70.5 billion tonnes by 2050. The figure also shows scenarios where the global temperature rise has a 66% chance of being kept below 2 °C and 1.5 °C starting from 2019, emphasizing how far off we are from said scenarios (Figure 2). This is unsurprising and has been adequately described by other literature. This is placed here so that later figures can reference it, especially the below 2 °C and below 1.5 °C scenarios.
+Second, total GHG emission has also been increasing exponentially, reaching 42.3 billion tonnes in 2019. It is expected to nearly double to 70.5 billion tonnes by 2050. The figure also shows scenarios where the global temperature rise has a 66% chance of being limited to 2 °C and 1.5 °C if CO<sub>2</sub> reduction starts from 2019 (Figure 2). This underscores the significant gap between current emissions and the scenarios required to limit the global temperature rise.
 
 > ![Figure 2. Extrapolated GHG emission](The%20role%20of%20plastics%20in%20climate%20change/extrapolated%20GHG%20emission.png)
 >
 > __Figure 2. Extrapolated GHG emission__
 
-Third, in a slight turn of good news, from the little data on plastic GHG emission from 2015 to 2019, we find that the kilogram of GHG emission generated per kilogram of plastic produced has decreased by 11.9% from 3.94 in 2015 to 3.47 in 2019 (Figure 3). This means the industrial processes for making plastics has been improving to reduce the amount of GHG generated. We expect such gains to continue but increasingly slowly as room for improvement runs out.
+Third, in a turn of good news, we found that the GHG emission per kilogram of plastic produced decreased by 11.9% from 3.94 in 2015 to 3.47 in 2019 (Figure 3). This shows that improvements in industrial processes are made. We expect such gains to continue but increasingly slowly as room for improvement runs out.
 
 > ![Figure 3. GHG/plastic ratio](The%20role%20of%20plastics%20in%20climate%20change/GHG_plastic%20ratio.png)
 >
 > __Figure 3. GHG/plastic ratio__
 
-Fourth, combining results from Figure 1 and Figure 3, gains in industrial processes are insufficient to stop the growth of plastic GHG emission. It has slowed down the growth to linear, however. 1.60 billion tonnes of GHG were released in 2019, expecting to increase by 56.3% to 2.50 billion tonnes in 2050 (Figure 4). This shows that reducing plastic production is the only way to reduce plastic GHG emission and efficiency gains can only do so much.
+Fourth, combining the findings from Figure 1 and Figure 3, it is evident that gains in industrial processes are insufficient to stop the growth of plastic GHG emission. Without reducing plastic production, 1.60 billion tonnes of GHG were released in 2019, projected to increase by 56.3% to 2.50 billion tonnes in 2050 (Figure 4). This highlights the crucialness of reducing plastic production in reducing plastic GHG emission.
 
 > ![Figure 4. Extrapolated plastic GHG emission](The%20role%20of%20plastics%20in%20climate%20change/extrapolated%20plastic%20GHG%20emission.png)
 >
 > __Figure 4. Extrapolated plastic GHG emission__
 
-Last, to find out the effect of plastic GHG emission relative to the total GHG emission, data from Figure 2 and Figure 4 are combined together. Historically, plastic GHG emission is only 3.5% of the total GHG emission and this percentage has stayed constant over time. If current policies continue, the percentage will still remain unchanged. However, if GHG emission starts decreasing from 2019 to limit the global temperature rise, then the contribution of plastic to GHG emission increases. For the below 2 °C scenario, the percentage rises from 3.8% in 2019 to 7.1% in 2035. For the below 1.5 °C, the increase is much more drastic and rises to 52.7% in 2035 (Figure 5). This indicates that any method to limit the global temperature rise must also involve reducing plastic production.
+Last, data from Figure 2 and Figure 4 are combined. Considering the proportion of plastic GHG emission relative to total GHG emission, historically, plastic GHG emission accounted for only 3.5% of the total GHG emission. If current policies continue, the proportion will remain unchanged. However, under the below 2 °C scenario and below 1.5 °C scenario, this proportion increases significantly, rising from 3.8% in 2019 to 7.1% in 2035 under the first scenario and to 52.7% in 2035 under the second scenario (Figure 5). This outlines the importance of reducing plastic production in limiting the global temperature rise due to GHG emission.
 
 > ![Figure 5. Plastic GHG emission proportion](./The%20role%20of%20plastics%20in%20climate%20change/plastic%20GHG%20emission%20proportion.png)
 >
@@ -66,15 +66,13 @@ Last, to find out the effect of plastic GHG emission relative to the total GHG e
 
 ## Discussion
 
-Our results show that plastic overuse is worsening as plastic production continues to increase. Despite improvements in industrial processes, plastic GHG emission continues to increase, contributing to climate change. They also show that to limit the global temperature rise, especially to 1.5 °C, plastic reduction is essential.
+The results of this analysis highlight the worsening problem of plastic overuse and its contribution to climate change. The exponential growth in plastics production and GHG emission demonstrates the urgent need to address this issue. While improvements in industrial processes have slowed down the growth of plastic GHG emission, they are insufficient to limit the global temperature rise to 1.5 °C or even 2 °C. Plastic reduction is essential for limiting the rise.
 
-The results paint a worryingly picture for our planet. Similar to climate change, the scale of the problem is large enough that reduction of plastic production is imminent. Moreover, both of them have accumulative effects, so the earlier reduction occurs, the better. However, production is also highly tied to economic activities, so a dilemma exists between reduction and economic growth. Another proposed solution is recycling plastics so that there is less need to produce plastics, but large-scale plastic recycling itself is limited by current technology (Payne & Jones, 2021).
-
-The only thing is clear is that tremendous effort is needed on reducing plastic production, whether it be on improving processes, increasing recycling rates, or reducing demand for plastics, then we might have a chance at averting this plastic and climate catastrophe.
+The findings also emphasize the scale of the problem and the need for action. Accumulative effects from plastics and GHG emission make it even more urgent. Reducing plastic production is a complex challenge, as it is closely tied to economic activities. However, it is crucial to find a balance between economic growth and environmental sustainability. Recycling plastics is another potential solution, but current technology limitations hinder large-scale plastic recycling (Payne & Jones, 2021).
 
 ## Conclusion
 
-The report analyzed four datasets on plastics and GHG emission and found that plastics and climate change are intricately linked. Policymakers should not overlook plastic reduction when considering climate policies. At the same time, the report also outlined the seriousness of the plastic overuse problem and difficulties in solving it. Moving forward, extra effort in all aspects, like research, policies, etc., is required to avoid the catastrophic consequences from plastic overuse and climate change.
+To conclude, the report analyzed four datasets on plastics and GHG emission and found that plastics and climate change are intricately linked. Policymakers should not overlook plastic reduction when considering climate policies. At the same time, the report also outlined the seriousness of the plastic overuse problem and difficulties in solving it. Moving forward, a comprehensive approach, such as reducing production, improving processes, reducing demands, and increasing recycling rates, is required to mitigate the catastrophic consequences of plastic overuse and climate change.
 
 ## Acknowledgements
 
