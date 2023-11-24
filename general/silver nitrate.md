@@ -16,8 +16,8 @@ __Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [c
 
 Ag<sup>+</sup> {{reacts quickly with [halides](halide.md) to produce [insoluble](solubility.md) [silver halide](silver%20halide.md)}}: <!--SR:!2023-12-08,159,270-->
 
-> {{Ag<sup>+</sup>(aq) + X<sup>-</sup>(aq) → AgX(s)}}
->
-> where {{X<sup>-</sup> is Cl<sup>-</sup>, Br<sup>-</sup>, or I<sup>-</sup>}}. <!--SR:!2023-12-04,52,314!2023-12-02,15,299-->
+> {{$\text{Ag}^+\text{(aq)}+\text{X}^-\text{(aq)}\rightarrow\text{AgX(s)}$}}
+> 
+> where {{$\text{X}^-$ is Cl<sup>-</sup>, Br<sup>-</sup>, or I<sup>-</sup>}}. <!--SR:!2023-12-04,52,314!2023-12-02,15,299-->
 
 The color is {{white if Cl<sup>-</sup> is used, pale yellow or green if Br<sup>-</sup> is used, or yellow if I<sup>-</sup> is used}}. <!--SR:!2024-03-17,121,190-->

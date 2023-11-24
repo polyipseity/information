@@ -10,8 +10,7 @@ tags:
 
 # `strcpy`
 
-- _defined in {{[`<string.h>`](../../../../general/C%20string%20handling.md)}}_
-- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2024-04-19,168,310!2024-05-23,202,310!2024-04-09,158,310-->
+- _defined in {{[`<string.h>`](../../../../general/C%20string%20handling.md)}}_ <!--SR:!2024-04-19,168,310-->
 
 ```C
 // (1)
@@ -20,3 +19,9 @@ char *strcpy(char *restrict dest, char const *restrict src); // (since C99)
 // (2)
 errno_t strcpy_s(char *restrict dest, rsize_t destsz, const char *restrict stc); // (since C11)
 ```
+
+> [!tip]
+>
+> - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
+> - `destsz`: {{includes [null terminator](null-terminated%20string)}}
+> - overload selection: {{use the `_s`-ending overloads whenever feasible}} <!--SR:!2024-05-23,202,310!2024-04-09,158,310-->

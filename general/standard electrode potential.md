@@ -107,7 +107,7 @@ for rdx in data:
   data_by_element[rdx.element].append(rdx)
 data_by_element = MappingProxyType({key: tuple(val) for key, val in data_by_element.items()})
 
-table = gen.TextCode.compile(f''' 
+table = gen.TextCode.compile(f'''
 (lowest oxidizing power/highest reducing power)
 
 {gen.rows_to_table(data,

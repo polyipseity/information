@@ -236,7 +236,7 @@ async def read_states(locations: Iterable[Location]):
   return await gather(*map(read_flashcard_states, locations))
 
 return export_seq(
-  cloze, 
+  cloze,
   memorize_map,
   memorize_seq,
   memorize_table,

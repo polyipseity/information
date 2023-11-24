@@ -17,8 +17,7 @@ tags:
 
 # `fopen`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_
-- {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}} <!--SR:!2024-05-09,188,310!2024-03-06,124,290!2024-05-22,201,310-->
+- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2024-05-09,188,310-->
 
 ```C
 // (1)
@@ -29,6 +28,12 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
                 char const *restrict filename,
                 char const *restrict mode); // (since C11)
 ```
+
+> [!tip]
+>
+> - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
+> - overload selection: {{use the `_s`-ending overloads whenever feasible}}
+> - remember: {{call [`fclose`](fclose.md) on the file after you are done with it}} <!--SR:!2024-03-06,124,290!2024-05-22,201,310-->
 
 ## parameters
 
