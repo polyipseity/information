@@ -14,11 +14,11 @@ William So
 
 ## Abstract
 
-Plastic is a widely used versatile material. However, its overuse has raised concerns about its health effects, environment effects, and now, climate change. This report quantifies the contribution of plastic production to greenhouse gas (GHG) emission and emphasize the urgent need to reduce plastic production to address climate change. Additionally, potential actions to reduce plastic production will be discussed.
+Plastic is a widely used versatile material. However, its overuse has raised concerns about its health effects, environment effects, and now, climate change. This report quantifies the contribution of plastic production to greenhouse gas (GHG) emission and emphasizes the urgent need to reduce plastic production to address climate change. Additionally, potential actions to reduce plastic production will be discussed.
 
 ## Introduction
 
-Plastic is a commonly used material that has greatly benefited our lives. The global production of plastic has reached unprecedented levels, with a 380 million tonnes produced in 2015 alone (Geyer, Jambeck & Law, 2017). Whilst there is extensive research into health (Wright & Kelly, 2017) and environment effects (MacLeod, Tekman & Jahnke, 2021) of plastic overuse, little attention has been given to climate change. Considering plastics are derived from petrochemicals and the significant production volume, examining their role in contributing to climate change is crucial (Shen et al., 2020).
+Plastic is a commonly used material that has greatly benefited our lives. The global production of plastic has reached unprecedented levels, with 380 million tonnes produced in 2015 alone (Geyer, Jambeck & Law, 2017). Whilst there is extensive research into health (Wright & Kelly, 2017) and environment effects (MacLeod, Tekman & Jahnke, 2021) of plastic overuse, little attention has been given to climate change. Considering plastics are derived from petrochemicals and the significant production volume, examining their role in contributing to climate change is crucial (Shen et al., 2020).
 
 This report aims to quantify relationships between plastic production and GHG emissions by analyzing existing datasets. By examining plastic production and GHG emissions in various scenarios, the link between plastics and climate change can be better understood, helping find better ways to tackle plastic overuse.
 
@@ -83,7 +83,7 @@ The authors declare no competing interests. Generative AI is used for paraphrasi
 - Geyer, R., Jambeck, J. R., & Law, K. L. (2017). Production, use, and fate of all plastics ever made. _Science advances_, _3_(7), e1700782. https://doi.org/10.1126/sciadv.1700782
 - MacLeod, M., Arp, H. P. H., Tekman, M. B., & Jahnke, A. (2021). The global threat from plastic pollution. _Science_, _373_(6550), 61-65. https://doi.org/10.1126/science.abg5433
 - Ritchie, H., Roser, M., & Rosado, P. (2020). CO₂ and Greenhouse Gas Emissions. _Our World in Data_. https://ourworldindata.org/co2-and-greenhouse-gas-emissions [Online Resource]
-- Ritchie, H., Samborska, V., & Roser, M. (2023). Plastic Pollution. _Our World in Data_. 'https://ourworldindata.org/plastic-pollution [Online Resource]
+- Ritchie, H., Samborska, V., & Roser, M. (2023). Plastic Pollution. _Our World in Data_. https://ourworldindata.org/plastic-pollution [Online Resource]
 - Payne, J., & Jones, M. D. (2021). The chemical recycling of polyesters for a circular plastics economy: challenges and emerging opportunities. _ChemSusChem_, _14_(19), 4041-4070. https://doi.org/10.1002/cssc.202100400
 - Shen, M., Huang, W., Chen, M., Song, B., Zeng, G., & Zhang, Y. (2020). (Micro) plastic crisis: un-ignorable contribution to global greenhouse gas emissions and climate change. _Journal of Cleaner Production_, _254_, 120138. https://doi.org/10.1016/j.jclepro.2020.120138
 - Wright, S. L., & Kelly, F. J. (2017). Plastic and human health: a micro issue?. _Environmental science & technology_, _51_(12), 6634-6647. https://doi.org/10.1021/acs.est.7b00423
