@@ -15,7 +15,7 @@ tags:
 
 # Bohr model
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2024-03-10,265,270!2026-06-04,964,330!2023-11-19,135,170!2025-01-27,570,310!2023-11-23,183,232!2026-02-12,826,332!2024-04-27,218,192-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2024-03-10,265,270!2026-06-04,964,330!2024-07-10,229,170!2025-01-27,570,310!2025-01-21,424,232!2026-02-12,826,332!2024-04-27,218,192-->
 
 The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2024-12-24,417,290!2025-01-12,445,272-->
 
@@ -25,7 +25,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {{certain orbits only with certain distances from the nucleus called stationary orbits}} {{without radiating energy}}. <a id="^23e80f"></a>^23e80f
 2. The stationary orbits have distances {{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e}vr=n\hbar$}}, where {{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}}. The orbits have definite energies called {{[energy levels](energy%20level.md), energy shells, or energy states}}. <a id="^f5a73f"></a>^f5a73f
-3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2023-11-22,114,210!2024-01-13,190,270!2024-04-09,200,210!2024-07-06,365,270!2024-07-03,362,270!2024-11-29,449,252!2026-03-28,918,332!2024-08-02,410,272!2024-03-24,361,332-->
+3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2024-10-29,340,230!2024-01-13,190,270!2024-04-09,200,210!2024-07-06,365,270!2024-07-03,362,270!2024-11-29,449,252!2026-03-28,918,332!2024-08-02,410,272!2024-03-24,361,332-->
 
 ## electron energy levels
 

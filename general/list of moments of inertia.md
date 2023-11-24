@@ -31,7 +31,7 @@ I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-
 &=\frac1{12}m\left(L^2+W^2\right)\\
 I_L&=\frac1{12}m\left(H^2+W^2\right)\\
 I_W&=\frac1{12}m\left(L^2+H^2\right)\\
-\end{aligned}$ <!--SR:!2023-12-20,51,310!2023-11-20,26,270!2023-12-25,56,310!2023-11-25,31,270!2023-12-27,58,310-->
+\end{aligned}$ <!--SR:!2023-12-20,51,310!2023-12-06,12,250!2023-12-25,56,310!2023-11-25,31,270!2023-12-27,58,310-->
 
 ### cylindrical shell, axis through base center
 
@@ -104,4 +104,4 @@ I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d
 &=\frac8{15}\pi\rho\left[r^5\right]_{R_I}^{R_O}\\
 &=\frac8{15}\pi\rho\left(R_O^5-R_I^5\right)\\
 &=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}
-\end{aligned}$ <!--SR:!2023-12-24,55,310!2023-11-21,27,270!2023-12-29,60,310!2023-12-11,37,290-->
+\end{aligned}$ <!--SR:!2023-12-24,55,310!2023-12-10,16,250!2023-12-29,60,310!2023-12-11,37,290-->

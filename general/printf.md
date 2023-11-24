@@ -216,7 +216,7 @@ A combination of zero or more of the following in any order:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="beff"--><!-- The following content is generated at 2023-08-25T01:19:18.238502+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←L <!--SR:!2024-05-04,183,317!2024-06-22,232,329-->
-2. L→:::←h <!--SR:!2023-11-24,21,257!2024-06-05,215,329-->
+2. L→:::←h <!--SR:!2024-01-15,52,257!2024-06-05,215,329-->
 3. h→:::←hh <!--SR:!2023-12-25,79,277!2024-06-19,229,329-->
 4. hh→:::←j <!--SR:!2024-03-14,132,297!2024-04-23,172,309-->
 5. j→:::←l <!--SR:!2024-06-13,223,329!2024-05-27,206,329-->
@@ -274,7 +274,7 @@ return await memorize_table(
 > | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
 > | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}} |
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2024-04-15,164,310!2024-05-04,183,317!2024-04-27,176,317!2023-11-23,54,257!2024-05-08,187,317!2024-05-13,192,317!2024-05-04,183,317!2024-02-21,110,277!2024-04-19,168,317!2023-12-17,72,277!2024-04-30,179,317!2024-03-12,130,297!2024-05-10,189,317!2023-11-22,53,257!2024-06-07,217,329!2023-12-23,78,289!2024-04-03,152,309!2024-04-21,170,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2023-12-23,78,289!2024-06-10,220,329!2024-04-04,153,309-->
+> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2024-04-15,164,310!2024-05-04,183,317!2024-04-27,176,317!2024-06-07,196,277!2024-05-08,187,317!2024-05-13,192,317!2024-05-04,183,317!2024-02-21,110,277!2024-04-19,168,317!2023-12-17,72,277!2024-04-30,179,317!2024-03-12,130,297!2024-05-10,189,317!2023-12-17,23,237!2024-06-07,217,329!2023-12-23,78,289!2024-04-03,152,309!2024-04-21,170,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2023-12-23,78,289!2024-06-10,220,329!2024-04-04,153,309-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
