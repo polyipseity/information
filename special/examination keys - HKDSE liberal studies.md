@@ -63,7 +63,7 @@ return await memorize_table(
 1. _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 2. affirming the consequent→:::←appeal to authority <!--SR:!2024-01-16,181,295!2024-04-23,278,315-->
 3. appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-4. appeal to tradition→:::←guilt by association <!--SR:!2023-11-25,50,210!2024-04-02,226,275-->
+4. appeal to tradition→:::←guilt by association <!--SR:!2023-12-23,28,190!2024-04-02,226,275-->
 5. guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2024-01-07,137,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2024-01-01,38,250!2024-07-07,302,295-->
@@ -118,7 +118,7 @@ return await memorize_table(
 3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-11-28,4,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
-6. solution→:::←value judgement <!--SR:!2023-11-25,56,255!2024-10-01,312,250-->
+6. solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -316,7 +316,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-04-06,204,255!2024-04-17,273,315-->
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2023-11-25,121,255!2024-08-12,304,275-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2024-09-28,308,255!2024-08-12,304,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2024-08-09,301,270!2024-07-23,304,275-->
 5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2023-12-09,91,230-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-06-16,324,330!2024-03-31,256,315-->
@@ -421,7 +421,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2024-11-25,388,295-->
 2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-12-02,8,130!2024-08-18,268,230-->
-3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2023-11-25,22,150-->
+3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2023-12-25,30,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
