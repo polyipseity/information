@@ -1,0 +1,333 @@
+commit 0ae4bbacea82d102e760d541f476273a5fbddb5e
+Author: William So <polyipseity@gmail.com>
+Date:   Thu Oct 5 18:59:48 2023 +0800
+
+    Update assignment 1 patch
+
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Inc/assignment1.h b/self/academia/engineering/HKUST ISDN 0003/project/Core/Inc/assignment1.h
+new file mode 100644
+index 0000000..d3f1261
+--- /dev/null
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Inc/assignment1.h	
+@@ -0,0 +1,11 @@
++#pragma once
++
++#ifdef __cplusplus
++extern "C" {
++#endif
++
++void assignment1(void);
++
++#ifdef __cplusplus
++}
++#endif
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/assignment1.cpp b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/assignment1.cpp
+new file mode 100644
+index 0000000..a813d12
+--- /dev/null
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/assignment1.cpp	
+@@ -0,0 +1,178 @@
++#include "assignment1.h"
++
++#include <array>
++#include <cstddef>
++#include <span>
++#include <utility>
++#include <vector>
++
++extern "C" {
++#include "button.h"
++#include "buzzer.h"
++#include "main.h"
++#include "ws2812.h"
++}
++
++namespace
++{
++    template <std::size_t N>
++    using LED = std::array<uint32_t, N>;
++
++    template <std::size_t N>
++    struct LEDNote {
++        Note note;
++        LED<N> led;
++
++        constexpr uint32_t duration() const
++        {
++            return note.onDuration + note.offDuration;
++        }
++    };
++
++    template <std::size_t N, std::size_t S>
++    class LEDNotePlayer
++    {
++    public:
++        std::array<LEDNote<N>, S> data;
++
++    private:
++        size_t mutable position{};
++        uint32_t mutable led_tick{};
++        uint32_t mutable next_tick{};
++
++    public:
++        explicit constexpr LEDNotePlayer()
++            : data{}
++        {
++        }
++
++        explicit constexpr LEDNotePlayer(decltype(data) data)
++            : data{std::move(data)}
++        {
++        }
++
++        void reset() const
++        {
++            position = 0;
++            blankAll();
++            deleteAllNotes();
++        }
++
++        void play() const
++        {
++            auto const tick{HAL_GetTick()};
++            if (S == 0) {
++                led_tick = next_tick = tick;
++                return;
++            }
++            if (tick < next_tick) {
++                if (tick >= led_tick) { blankAll(); }
++                return;
++            }
++            auto const *led_note{&data[position++]};
++            position %= S;
++            while (led_note->duration() == 0 && position) {
++                led_note = &data[position++];
++                position %= S;
++            }
++            next_tick = tick + led_note->duration();
++            led_tick  = tick + led_note->note.onDuration;
++            for (decltype(N) idx{}; idx < N; ++idx) {
++                auto const led{led_note->led[idx]};
++                if (led & 0xff) {
++                    blink(idx, led >> 24, led >> 16, led >> 8);
++                } else {
++                    blank(idx);
++                }
++            }
++            auto note{led_note->note};
++            playNote(&note);
++        }
++    };
++    constexpr float scale_to_freq[]{
++        523.25,
++        587.32,
++        659.25,
++        698.45,
++        783.99,
++        880.60,
++    };
++    constexpr LED<7> scale_to_note[]{
++        {0xff0000ff, 0x00ff0000, 0x0000ff00, 0xffff0000, 0xff00ff00, 0x00ffff00, 0xffffff00},
++        {0xff000000, 0x00ff00ff, 0x0000ff00, 0xffff0000, 0xff00ff00, 0x00ffff00, 0xffffff00},
++        {0xff000000, 0x00ff0000, 0x0000ffff, 0xffff0000, 0xff00ff00, 0x00ffff00, 0xffffff00},
++        {0xff000000, 0x00ff0000, 0x0000ff00, 0xffff00ff, 0xff00ff00, 0x00ffff00, 0xffffff00},
++        {0xff000000, 0x00ff0000, 0x0000ff00, 0xffff0000, 0xff00ffff, 0x00ffff00, 0xffffff00},
++        {0xff000000, 0x00ff0000, 0x0000ff00, 0xffff0000, 0xff00ff00, 0x00ffffff, 0xffffff00},
++        {0xff000000, 0x00ff0000, 0x0000ff00, 0xffff0000, 0xff00ff00, 0x00ffff00, 0xffffffff},
++    };
++    constexpr auto intensity{0.5f};
++    constexpr std::array<LEDNotePlayer<7, 14>, 4> players{
++        LEDNotePlayer<7, 14>{{
++            LEDNote<7>{Note{0, 0, 1000, 0}, scale_to_note[6]},
++        }},
++        LEDNotePlayer<7, 14>{{
++            LEDNote<7>{Note{intensity, scale_to_freq[0], 200, 30}, scale_to_note[0]},
++            LEDNote<7>{Note{intensity, scale_to_freq[1], 200, 30}, scale_to_note[1]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[3], 200, 30}, scale_to_note[3]},
++            LEDNote<7>{Note{intensity, scale_to_freq[4], 200, 30}, scale_to_note[4]},
++            LEDNote<7>{Note{intensity, scale_to_freq[5], 200, 30}, scale_to_note[5]},
++            LEDNote<7>{Note{intensity, scale_to_freq[0], 200, 30}, scale_to_note[0]},
++            LEDNote<7>{Note{intensity, scale_to_freq[1], 200, 30}, scale_to_note[1]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[3], 200, 30}, scale_to_note[3]},
++            LEDNote<7>{Note{intensity, scale_to_freq[4], 200, 30}, scale_to_note[4]},
++            LEDNote<7>{Note{intensity, scale_to_freq[5], 200, 30}, scale_to_note[5]},
++        }},
++        LEDNotePlayer<7, 14>{{
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 400, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 400, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[4], 200, 30}, scale_to_note[4]},
++            LEDNote<7>{Note{intensity, scale_to_freq[0], 200, 30}, scale_to_note[0]},
++            LEDNote<7>{Note{intensity, scale_to_freq[1], 200, 30}, scale_to_note[1]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 400, 30}, scale_to_note[2]},
++        }},
++        LEDNotePlayer<7, 14>{{
++            LEDNote<7>{Note{intensity, scale_to_freq[0], 200, 30}, scale_to_note[0]},
++            LEDNote<7>{Note{intensity, scale_to_freq[0], 200, 30}, scale_to_note[0]},
++            LEDNote<7>{Note{intensity, scale_to_freq[4], 200, 30}, scale_to_note[4]},
++            LEDNote<7>{Note{intensity, scale_to_freq[4], 200, 30}, scale_to_note[4]},
++            LEDNote<7>{Note{intensity, scale_to_freq[5], 200, 30}, scale_to_note[5]},
++            LEDNote<7>{Note{intensity, scale_to_freq[5], 200, 30}, scale_to_note[5]},
++            LEDNote<7>{Note{intensity, scale_to_freq[4], 400, 30}, scale_to_note[4]},
++            LEDNote<7>{Note{intensity, scale_to_freq[3], 200, 30}, scale_to_note[3]},
++            LEDNote<7>{Note{intensity, scale_to_freq[3], 200, 30}, scale_to_note[3]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[2], 200, 30}, scale_to_note[2]},
++            LEDNote<7>{Note{intensity, scale_to_freq[1], 200, 30}, scale_to_note[1]},
++            LEDNote<7>{Note{intensity, scale_to_freq[1], 200, 30}, scale_to_note[1]},
++            LEDNote<7>{Note{intensity, scale_to_freq[0], 400, 30}, scale_to_note[0]},
++        }},
++    };
++    size_t player_index{};
++}
++
++void assignment1()
++{
++    bool pressing{};
++    while (true) {
++        bool pressed = !readButton();
++        if (!pressing && pressed) {
++            pressing = true;
++        }
++        if (pressing && !pressed) {
++            pressing = false;
++            players[player_index++].reset();
++            player_index %= players.size();
++        }
++        auto const &player{players[player_index]};
++        player.play();
++        HAL_Delay(1);
++    }
++}
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c
+index ff8189a..0245814 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c	
+@@ -58,7 +58,7 @@
+ /* Private function prototypes -----------------------------------------------*/
+ void SystemClock_Config(void);
+ /* USER CODE BEGIN PFP */
+-
++#include "assignment1.h"
+ /* USER CODE END PFP */
+ 
+ /* Private user code ---------------------------------------------------------*/
+@@ -112,42 +112,7 @@ int main(void)
+     // ================================================================ //
+     //                     Your codes begin here                        //
+     // ================================================================ //
+-
+-
+-
+-
+-
+-
+-    /*view some sample code at Core/Src/sample.c and Core/Inc/sample.h */
+-    while (1)
+-    {
+-    /* USER CODE END WHILE */
+-    /* USER CODE BEGIN 3 */
+-    
+-    
+-    
+-
+-    
+-    
+-
+-
+-    
+-      
+-      
+-    
+-
+-
+-
+-    
+-
+-
+-
+-
+-
+-    // Delay the whole program for 1ms after executing a round of loop 
+-    HAL_Delay(1);
+-    // This is important because we do not want our program to refresh too fast.
+-    }
++    assignment1();
+     // ================================================================ //
+     //                     Your codes end here                          //
+     // ================================================================ //
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Makefile b/self/academia/engineering/HKUST ISDN 0003/project/Makefile
+index df88e16..7a712e9 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/Makefile	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Makefile	
+@@ -53,7 +53,20 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c \
+ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c \
+ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c \
+ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c \
+-Core/Src/system_stm32f1xx.c  
++Core/Src/system_stm32f1xx.c \
++Core/Src/button.c \
++Core/Src/buzzer.c \
++Core/Src/can.c \
++Core/Src/dma.c \
++Core/Src/gpio.c \
++Core/Src/sample.c \
++Core/Src/tick.c \
++Core/Src/tim.c \
++Core/Src/ws2812.c \
++
++# C++ sources
++CPP_SOURCES = \
++Core/Src/assignment1.cpp \
+ 
+ # ASM sources
+ ASM_SOURCES =  \
+@@ -68,11 +81,13 @@ PREFIX = arm-none-eabi-
+ # either it can be added to the PATH environment variable.
+ ifdef GCC_PATH
+ CC = $(GCC_PATH)/$(PREFIX)gcc
++CXX = $(GCC_PATH)/$(PREFIX)g++
+ AS = $(GCC_PATH)/$(PREFIX)gcc -x assembler-with-cpp
+ CP = $(GCC_PATH)/$(PREFIX)objcopy
+ SZ = $(GCC_PATH)/$(PREFIX)size
+ else
+ CC = $(PREFIX)gcc
++CXX = $(PREFIX)g++
+ AS = $(PREFIX)gcc -x assembler-with-cpp
+ CP = $(PREFIX)objcopy
+ SZ = $(PREFIX)size
+@@ -130,6 +145,7 @@ endif
+ # Generate dependency information
+ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
+ 
++CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
+ 
+ #######################################
+ # LDFLAGS
+@@ -152,6 +168,8 @@ all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET
+ # list of objects
+ OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o)))
+ vpath %.c $(sort $(dir $(C_SOURCES)))
++OBJECTS += $(addprefix $(BUILD_DIR)/,$(notdir $(CPP_SOURCES:.cpp=.o)))
++vpath %.cpp $(sort $(dir $(CPP_SOURCES)))
+ # list of ASM program objects
+ OBJECTS += $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+ vpath %.s $(sort $(dir $(ASM_SOURCES)))
+@@ -159,6 +177,9 @@ vpath %.s $(sort $(dir $(ASM_SOURCES)))
+ $(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR) 
+ 	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+ 
++$(BUILD_DIR)/%.o: %.cpp Makefile | $(BUILD_DIR)
++	$(CXX) -c $(CXXFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.cpp=.lst)) $< -o $@
++
+ $(BUILD_DIR)/%.o: %.s Makefile | $(BUILD_DIR)
+ 	$(AS) -c $(CFLAGS) $< -o $@
+ 

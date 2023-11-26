@@ -8,7 +8,7 @@ tags:
 
 # polymer
 
-A __polymer__ is {{a [substance](chemical%20substance.md) consisting of [macromolecules](macromolecule.md) with [repeating subunits](repeat%20unit.md)}}. It is created by {{the [polymerization](polymerization.md) of [monomers](monomer.md)}}. Examples include {{[plastics](plastic.md), [DNAs](DNA.md), and [proteins](protein.md)}}. <!--SR:!2023-12-03,138,230!2025-12-11,748,330!2024-04-02,249,290-->
+A __polymer__ is {{a [substance](chemical%20substance.md) consisting of [macromolecules](macromolecule.md) with [repeating subunits](repeat%20unit.md)}}. It is created by {{[polymerization](polymerization.md) of [monomers](monomer.md)}}. Examples include {{[plastics](plastic.md), [DNAs](DNA.md), and [proteins](protein.md)}}. <!--SR:!2023-12-03,138,230!2025-12-11,748,330!2024-04-02,249,290-->
 
 ## synthesis
 
