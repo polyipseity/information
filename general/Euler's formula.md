@@ -11,4 +11,4 @@ tags:
 
 > __Euler's formula__
 >
-> {{For any [complex number](complex%20number.md) $x$, $e^{ix}=\cos{x}+i\sin{x}$.}}
+> {{For any [complex number](complex%20number.md) $x$, $e^{ix}=\cos{x}+i\sin{x}$.}} <!--SR:!2023-12-01,4,270-->
