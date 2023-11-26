@@ -121,7 +121,7 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
 - $f(x):=\lvert{x}\rvert,c=0$: {{Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
 - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Weakly increasing rising inflection point](inflection%20point.md) and not [local extremum](maximum%20and%20minimum.md).}}
-- $f(x):=\begin{cases}e^{-\frac1{x^2}}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive because $\forall{n\in\mathbb{N}^+}\,f^{(n)}(0)=0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
+- $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive because $\forall{n\in\mathbb{N}^+}\,f^{(n)}(0)=0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
 - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [right-sided strict local minimum](maximum%20and%20minimum.md).}}
 - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Weakly decreasing falling inflection point](inflection%20point.md) and not [local extremum](maximum%20and%20minimum.md).}}
 - $f(x):=x^\frac13,c=0$: {{Inconclusive because $f^{(n)}(0)$ for all $n\in\mathbb{N}^+$ does not exist $(f^{(n)}(0)=\pm\infty)$. Actual is [vertically increasing inflection point](inflection%20point.md).}}
