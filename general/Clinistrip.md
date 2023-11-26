@@ -13,7 +13,7 @@ tags:
 
 > [!tip]
 >
-> - color change [mnemonic](mnemonic.md): {{disgusting 🤢 brown sugar}}
+> - color change [mnemonic](mnemonic.md): {{disgusting 🤢 brown sugar}} <!--SR:!2023-11-28,1,238-->
 
 ## see also
 

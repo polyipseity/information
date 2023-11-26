@@ -61,24 +61,24 @@ return await memorize_map(
 
 > [!tip]
 >
-> - [mnemonic](mnemonic.md): {{From the [derivative](derivative.md) of a trigonometric function, negate and replace trigonometric functions with their counterparts to get the [derivative](derivative.md) of the counterpart.}}
+> - [mnemonic](mnemonic.md): {{From the [derivative](derivative.md) of a trigonometric function, negate and replace trigonometric functions with their counterparts to get the [derivative](derivative.md) of the counterpart.}} <!--SR:!2023-12-01,4,270-->
 
 ### function–derivative
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e934"--><!-- The following content is generated at 2023-11-20T23:53:31.184573+08:00. Any edits will be overridden! -->
 
-1. $\sin{x}$::$\cos{x}$
-2. $\cos{x}$::$-\sin{x}$
-3. $\tan{x}$::$\sec^2{x}$
-4. $\cot{x}$::$-\csc^2{x}$
-5. $\sec{x}$::$\sec{x}\tan{x}$
-6. $\csc{x}$::$-\csc{x}\cot{x}$
-7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2}}$
-8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2}}$
-9. $\arctan{x}$::$\frac1{x^2+1}$
-10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$
-11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$
-12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$
+1. $\sin{x}$::$\cos{x}$ <!--SR:!2023-12-01,4,270-->
+2. $\cos{x}$::$-\sin{x}$ <!--SR:!2023-12-01,4,270-->
+3. $\tan{x}$::$\sec^2{x}$ <!--SR:!2023-12-01,4,270-->
+4. $\cot{x}$::$-\csc^2{x}$ <!--SR:!2023-12-01,4,270-->
+5. $\sec{x}$::$\sec{x}\tan{x}$ <!--SR:!2023-12-01,4,270-->
+6. $\csc{x}$::$-\csc{x}\cot{x}$ <!--SR:!2023-12-01,4,270-->
+7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-11-28,1,230-->
+8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-01,4,270-->
+9. $\arctan{x}$::$\frac1{x^2+1}$ <!--SR:!2023-12-01,4,270-->
+10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2023-12-01,4,270-->
+11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-11-30,3,250-->
+12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-01,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -86,17 +86,17 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b023"--><!-- The following content is generated at 2023-11-20T23:53:31.288520+08:00. Any edits will be overridden! -->
 
-1. $\cos{x}$::$\sin{x}$
-2. $-\sin{x}$::$\cos{x}$
-3. $\sec^2{x}$::$\tan{x}$
-4. $-\csc^2{x}$::$\cot{x}$
-5. $\sec{x}\tan{x}$::$\sec{x}$
-6. $-\csc{x}\cot{x}$::$\csc{x}$
-7. $\frac1{\sqrt{1-x^2}}$::$\arcsin{x}$
-8. $-\frac1{\sqrt{1-x^2}}$::$\arccos{x}$
-9. $\frac1{x^2+1}$::$\arctan{x}$
-10. $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$
-11. $\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arcsec}{x}$
-12. $-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arccsc}{x}$
+1. $\cos{x}$::$\sin{x}$ <!--SR:!2023-12-01,4,270-->
+2. $-\sin{x}$::$\cos{x}$ <!--SR:!2023-12-01,4,270-->
+3. $\sec^2{x}$::$\tan{x}$ <!--SR:!2023-12-01,4,270-->
+4. $-\csc^2{x}$::$\cot{x}$ <!--SR:!2023-12-01,4,270-->
+5. $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2023-12-01,4,270-->
+6. $-\csc{x}\cot{x}$::$\csc{x}$ <!--SR:!2023-12-01,4,270-->
+7. $\frac1{\sqrt{1-x^2}}$::$\arcsin{x}$ <!--SR:!2023-12-01,4,270-->
+8. $-\frac1{\sqrt{1-x^2}}$::$\arccos{x}$ <!--SR:!2023-12-01,4,270-->
+9. $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2023-11-30,3,250-->
+10. $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2023-12-01,4,270-->
+11. $\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arcsec}{x}$ <!--SR:!2023-12-01,4,270-->
+12. $-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arccsc}{x}$ <!--SR:!2023-12-01,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
