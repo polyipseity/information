@@ -1,0 +1,272 @@
+commit 8f6bb0034144422f0f0941fef973c97b2e261814
+Author: William So <polyipseity@gmail.com>
+Date:   Thu Oct 12 17:19:45 2023 +0800
+
+    Update ISDN 0003 project
+    
+    Signed-off-by: William So <polyipseity@gmail.com>
+
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/.eide/eide.json b/self/academia/engineering/HKUST ISDN 0003/project/.eide/eide.json
+index e45fdb3..07671d7 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/.eide/eide.json	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/.eide/eide.json	
+@@ -24,6 +24,9 @@
+               {
+                 "name": "Core",
+                 "files": [
++                  {
++                    "path": "Core/Src/assignment2.c"
++                  },
+                   {
+                     "path": "Core/Src/button.c"
+                   },
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Inc/assignment2.h b/self/academia/engineering/HKUST ISDN 0003/project/Core/Inc/assignment2.h
+new file mode 100644
+index 0000000..9a00d0b
+--- /dev/null
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Inc/assignment2.h	
+@@ -0,0 +1,3 @@
++#pragma once
++
++void assignment2_run(void);
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/assignment2.c b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/assignment2.c
+new file mode 100644
+index 0000000..c72a9f7
+--- /dev/null
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/assignment2.c	
+@@ -0,0 +1,203 @@
++#include "assignment2.h"
++
++#include <inttypes.h>
++#include <stdbool.h>
++#include <stddef.h>
++#include <stdint.h>
++#include <stdio.h>
++#include <string.h>
++
++#include "main.h"
++
++#define DR16_DATA_BUF_SIZE 16
++#define DR16_DATA_PRINT_BUF_SIZE 256
++#define PRIu8 PRIu16
++#define TIMEOUT 250
++#define UART1_BUF_SIZE 18
++
++extern UART_HandleTypeDef huart1;
++extern UART_HandleTypeDef huart3;
++char const assignment2_connected_message[]    = "connected\n",
++           assignment2_disconnected_message[] = "disconnected\n";
++
++typedef struct DR16_data
++{
++    struct
++    {
++        uint16_t ch0, ch1, ch2, ch3;
++        uint8_t s1, s2;
++    } joystick;
++    struct
++    {
++        int16_t x, y, z;
++        uint8_t l, r;
++    } mouse;
++    uint16_t key;
++} DR16_data;
++DR16_data const assignment2_DR16_data_default = {
++    .joystick.ch0 = 1024,
++    .joystick.ch1 = 1024,
++    .joystick.ch2 = 1024,
++    .joystick.ch3 = 1024,
++    .joystick.s1  = 1,
++    .joystick.s2  = 1,
++};
++
++uint8_t assignment2_uart1_buf[UART1_BUF_SIZE];
++DR16_data assignment2_dr16_data_buf[DR16_DATA_BUF_SIZE];
++size_t assignment2_dr16_data_buf_head = 0;
++
++uint32_t assignment2_good_rx      = 0;
++uint32_t assignment2_bad_rx       = 0;
++uint32_t assignment2_last_rx_tick = 0;
++uint32_t assignment2_last_tx_tick = 0;
++
++bool assignment2_connected()
++{
++    return HAL_GetTick() - assignment2_last_rx_tick <= TIMEOUT;
++}
++
++HAL_StatusTypeDef assignment2_print_DR16_data(DR16_data *data)
++{
++    char buf[DR16_DATA_PRINT_BUF_SIZE];
++    int bytes = snprintf(
++        buf,
++        DR16_DATA_PRINT_BUF_SIZE,
++        "==========tick %" PRIu32 ", good %" PRIu32 ", bad %" PRIu32
++        "==========\n"
++        "joystick.ch0123: %" PRIu16 ", %" PRIu16 ", %" PRIu16 ", %" PRIu16
++        "\n"
++        "joystick.s12: %" PRIu8 ", %" PRIu8
++        "\n"
++        "mouse.xyz: %" PRId16 ", %" PRId16 ", %" PRId16
++        "\n"
++        "mouse.lr: %" PRIu8 ", %" PRIu8
++        "\n"
++        "key: %" PRIu16 "\n",
++        HAL_GetTick(),
++        assignment2_good_rx,
++        assignment2_bad_rx,
++        data->joystick.ch0,
++        data->joystick.ch1,
++        data->joystick.ch2,
++        data->joystick.ch3,
++        data->joystick.s1,
++        data->joystick.s2,
++        data->mouse.x,
++        data->mouse.y,
++        data->mouse.z,
++        data->mouse.l,
++        data->mouse.r,
++        data->key);
++    return HAL_UART_Transmit_IT(&huart3, (uint8_t *)buf, bytes);
++}
++
++bool assignment2_is_valid_DR16_data(DR16_data *data)
++{
++    return 264 <= data->joystick.ch0 && data->joystick.ch0 <= 1684 &&
++           264 <= data->joystick.ch1 && data->joystick.ch1 <= 1684 &&
++           264 <= data->joystick.ch2 && data->joystick.ch2 <= 1684 &&
++           264 <= data->joystick.ch3 && data->joystick.ch3 <= 1684 &&
++           1 <= data->joystick.s1 && data->joystick.s1 <= 3 &&
++           1 <= data->joystick.s2 && data->joystick.s2 <= 3 &&
++           // -32768 <= data->mouse.x && data->mouse.x <= 32767 &&
++           // -32768 <= data->mouse.y && data->mouse.y <= 32767 &&
++           // -32768 <= data->mouse.z && data->mouse.z <= 32767 &&
++           /* 0 <= data->mouse.l && */ data->mouse.l <= 1 &&
++           /* 0 <= data->mouse.r && */ data->mouse.r <= 1 &&
++           // 0 <= data->key && data->key <= 65535 &&
++           true;
++}
++
++void assignment2_RxEventCallback(UART_HandleTypeDef *h_uart, uint16_t size)
++{
++    if (h_uart == &huart1)
++    {
++        if (size != UART1_BUF_SIZE)
++        {
++            ++assignment2_bad_rx;
++            return;
++        }
++        DR16_data *cur_data =
++            &assignment2_dr16_data_buf[assignment2_dr16_data_buf_head++];
++        cur_data->joystick.ch0 = ((int16_t)assignment2_uart1_buf[0] |
++                                  ((int16_t)assignment2_uart1_buf[1] << 8)) &
++                                 0x07FF;
++        cur_data->joystick.ch1 = (((int16_t)assignment2_uart1_buf[1] >> 3) |
++                                  ((int16_t)assignment2_uart1_buf[2] << 5)) &
++                                 0x07FF;
++        cur_data->joystick.ch2 = (((int16_t)assignment2_uart1_buf[2] >> 6) |
++                                  ((int16_t)assignment2_uart1_buf[3] << 2) |
++                                  ((int16_t)assignment2_uart1_buf[4] << 10)) &
++                                 0x07FF;
++        cur_data->joystick.ch3 = (((int16_t)assignment2_uart1_buf[4] >> 1) |
++                                  ((int16_t)assignment2_uart1_buf[5] << 7)) &
++                                 0x07FF;
++        cur_data->joystick.s1 = ((assignment2_uart1_buf[5] >> 4) & 0x000C) >> 2;
++        cur_data->joystick.s2 = ((assignment2_uart1_buf[5] >> 4) & 0x0003);
++        cur_data->mouse.x     = ((int16_t)assignment2_uart1_buf[6]) |
++                            ((int16_t)assignment2_uart1_buf[7] << 8);
++        cur_data->mouse.y = ((int16_t)assignment2_uart1_buf[8]) |
++                            ((int16_t)assignment2_uart1_buf[9] << 8);
++        cur_data->mouse.z = ((int16_t)assignment2_uart1_buf[10]) |
++                            ((int16_t)assignment2_uart1_buf[11] << 8);
++        cur_data->mouse.l = assignment2_uart1_buf[12];
++        cur_data->mouse.r = assignment2_uart1_buf[13];
++        cur_data->key     = ((int16_t)assignment2_uart1_buf[14]) |
++                        ((int16_t)assignment2_uart1_buf[15] << 8);
++        if (!assignment2_is_valid_DR16_data(cur_data))
++        {
++            *cur_data = assignment2_DR16_data_default;
++            --assignment2_dr16_data_buf_head;
++            ++assignment2_bad_rx;
++            return;
++        }
++        assignment2_dr16_data_buf_head %= DR16_DATA_BUF_SIZE;
++        ++assignment2_good_rx;
++
++        uint32_t tick = HAL_GetTick();
++        if (!assignment2_connected())
++        {
++            HAL_UART_Transmit_IT(&huart3,
++                                 (uint8_t *)assignment2_connected_message,
++                                 sizeof assignment2_connected_message - 1);
++        }
++        assignment2_last_rx_tick = tick;
++        if (tick - assignment2_last_tx_tick >= TIMEOUT &&
++            assignment2_print_DR16_data(cur_data) == HAL_OK)
++        {
++            assignment2_last_tx_tick = tick;
++        }
++    }
++}
++
++void assignment2_run(void)
++{
++    for (size_t ii = 0; ii < DR16_DATA_BUF_SIZE; ++ii)
++    {
++        assignment2_dr16_data_buf[ii] = assignment2_DR16_data_default;
++    }
++    HAL_UART_RegisterRxEventCallback(&huart1, &assignment2_RxEventCallback);
++    bool last_connected = true;
++    while (true)
++    {
++        bool connected = assignment2_connected();
++        if (last_connected && !connected)
++        {
++            for (size_t ii = 0; ii < DR16_DATA_BUF_SIZE; ++ii)
++            {
++                assignment2_dr16_data_buf[ii] = assignment2_DR16_data_default;
++            }
++            assignment2_dr16_data_buf_head = 0;
++            HAL_UART_Transmit_IT(&huart3,
++                                 (uint8_t *)assignment2_disconnected_message,
++                                 sizeof assignment2_disconnected_message - 1);
++        }
++        last_connected = connected;
++        if (huart1.RxState == HAL_UART_STATE_READY)
++        {
++            HAL_UARTEx_ReceiveToIdle_IT(
++                &huart1, assignment2_uart1_buf, UART1_BUF_SIZE);
++        }
++    }
++}
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c
+index 361548b..515daef 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Core/Src/main.c	
+@@ -21,6 +21,7 @@
+ 
+ /* Private includes ----------------------------------------------------------*/
+ /* USER CODE BEGIN Includes */
++#include "assignment2.h"
+ #include "button.h"
+ #include "buzzer.h"
+ #include "sample.h"
+@@ -119,6 +120,7 @@ int main(void)
+   WS2812_Init();
+   // extern int cppMain();
+   // cppMain();
++  assignment2_run();
+   /* USER CODE END 2 */
+ 
+   /* Infinite loop */
+diff --git a/self/academia/engineering/HKUST ISDN 0003/project/Makefile b/self/academia/engineering/HKUST ISDN 0003/project/Makefile
+index fb86d93..0befc99 100644
+--- a/self/academia/engineering/HKUST ISDN 0003/project/Makefile	
++++ b/self/academia/engineering/HKUST ISDN 0003/project/Makefile	
+@@ -53,6 +53,7 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c \
+ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c \
+ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c \
+ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c \
++Core/Src/assignment2.c \
+ Core/Src/button.c \
+ Core/Src/buzzer.c \
+ Core/Src/main.c \
