@@ -43,7 +43,7 @@ aliases:
   - two-sided second-derivative test
   - two-sided second-derivative tests
 tags:
-  - flashcards/general/derivate_test
+  - flashcards/general/derivative_test
 ---
 
 # derivative test
@@ -90,25 +90,25 @@ The [second derivative](second%20derivative.md) of a [function](function%20(math
 
 ### second derivative test
 
-The _second derivative test_ is {{a special case of $n=1$ in the [higher-order derivative test](#higher-order%20derivative%20test)}}. The same applies for the _one-sided second derivative test_. <!--SR:!2023-12-01,4,279-->
+The _second derivative test_ is {{a special case of $n=2$ in the [higher-order derivative test](#higher-order%20derivative%20test)}}. The same applies for the _one-sided second derivative test_. <!--SR:!2023-12-01,4,279-->
 
 ### higher-order derivative test
 
-The _higher-order derivative test_ or _general derivate test_ can {{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}}. <!--SR:!2023-12-01,4,279-->
+The _higher-order derivative test_ or _general derivative test_ can {{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}}. <!--SR:!2023-12-01,4,279-->
 
 > __higher-order derivative test__
 >
-> 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued](real-valued%20function.md) [$n+1$-times differentiable function](differentiable%20function.md) where $n\in\mathbb{N}^+$. $I$ is an [interval](interval%20(mathematics).md) $\in\mathbb{R}$ containing $c$.}}
-> 2. {{If $f'(c)=\cdots=f^{(n)}(c)=0$ and $f^{(n+1)}(c)\ne0$,}}
-> 3. {{then:<ul><li>If $n$ is odd and $f^{(n+1)}(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n+1)}(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is even and $f^{(n+1)}(c)<0$, $c$ is a [weakly decreasing falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is even and $f^{(n+1)}(c)>0$, $c$ is a [weakly increasing rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li></ul>}} <!--SR:!2023-12-01,4,279!2023-12-01,4,279!2023-12-01,4,279-->
+> 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued](real-valued%20function.md) [$n$-times differentiable function](differentiable%20function.md) where $n\in\mathbb{N}^+\setminus\set{1}$. $I$ is an [interval](interval%20(mathematics).md) $\in\mathbb{R}$ containing $c$.}}
+> 2. {{If $f'(c)=\cdots=f^{(n-1)}(c)=0$ and $f^{(n)}(c)\ne0$,}}
+> 3. {{then:<ul><li>If $n$ is even and $f^{(n)}(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is even and $f^{(n)}(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)<0$, $c$ is a [weakly decreasing falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)>0$, $c$ is a [weakly increasing rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li></ul>}} <!--SR:!2023-12-01,4,279!2023-12-01,4,279!2023-12-01,4,279-->
 
 The _one-sided higher-order derivative test_ is {{stronger than the two-sided higher-order derivative test, as the two-sided version can be derived from the one-sided one by combining conclusions}}. <!--SR:!2023-12-01,4,279-->
 
 > __one-sided higher-order derivative test__
 >
-> 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued](real-valued%20function.md) [$n$-times differentiable function](differentiable%20function.md) where $n\in\mathbb{N}^+$. $I$ is an [interval](interval%20(mathematics).md) containing $c$. $f$ is [right/left-continuous](continuous%20function.md) at $c$, i.e. $\lim_{x\to{}c^\pm}f(x)=f(c)$. $f$ is $n+1$-times right/left-differentiable at $c$, i.e. $f^{(n+1)}_\pm(c)$ exists. (Choose either right (`+`) or left (`-`).)}}
-> 2. {{If $f'(c)=\cdots=f^{(n)}(c)=0$ and $f^{(n+1)}_\pm(c)\ne0$, (Choose either right (`+`) or left (`-`).)}}
-> 3. {{then:<ul><li>If $n$ is odd and $f^{(n+1)}_-(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly concave](concave%20function.md) to the immediate left of $c$.</li><li>If $n$ is odd and $f^{(n+1)}_-(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly convex](convex%20function.md) to the immediate left of $c$.</li><li>If $n$ is even and $f^{(n+1)}_-(c)<0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly convex](convex%20function.md) to the immediate left of $c$.</li><li>If $n$ is even and $f^{(n+1)}_-(c)>0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly concave](concave%20function.md) to the immediate left of $c$.</li><li>If $f^{(n+1)}_+(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the right. $f$ is [weakly concave](concave%20function.md) to the immediate right of $c$.</li><li>If $f^{(n+1)}_+(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the right. $f$ is [weakly convex](convex%20function.md) to the immediate right of $c$.</li></ul>}} <!--SR:!2023-11-30,3,259!2023-12-01,4,279!2023-11-30,3,259-->
+> 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md). $I$ is an [interval](interval%20(mathematics).md) containing $c$. $f$ is [right/left-continuous](continuous%20function.md) at $c$, i.e. $\lim_{x\to{}c^\pm}f(x)=f(c)$. $f$ is [$n-1$-times differentiable](differentiable%20function.md) on the immediate right/left of $c$ where $n\in\mathbb{N}^+\setminus\set{1}$, i.e. for some $\delta>0$, $f^{(n-1)}(c\pm\epsilon)$ exists for all $\epsilon\in(0,\delta)$. $f$ is also $n$-times right/left-differentiable at $c$, i.e. $f^{(n)}_\pm(c)$ exists. (Choose either right (`+`) or left (`-`).)}}
+> 2. {{If $f'(c)=\cdots=f^{(n-1)}(c)=0$ and $f^{(n)}_\pm(c)\ne0$, (Choose either right (`+`) or left (`-`).)}}
+> 3. {{then:<ul><li>If $n$ is even and $f^{(n)}_-(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly concave](concave%20function.md) to the immediate left of $c$.</li><li>If $n$ is even and $f^{(n)}_-(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly convex](convex%20function.md) to the immediate left of $c$.</li><li>If $n$ is odd and $f^{(n)}_-(c)<0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly convex](convex%20function.md) to the immediate left of $c$.</li><li>If $n$ is odd and $f^{(n)}_-(c)>0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [weakly concave](concave%20function.md) to the immediate left of $c$.</li><li>If $f^{(n)}_+(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the right. $f$ is [weakly concave](concave%20function.md) to the immediate right of $c$.</li><li>If $f^{(n)}_+(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the right. $f$ is [weakly convex](convex%20function.md) to the immediate right of $c$.</li></ul>}} <!--SR:!2023-11-30,3,259!2023-12-01,4,279!2023-11-30,3,259-->
 
 > [!tip]
 >
@@ -119,7 +119,7 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Strict local maximum](maximum%20and%20minimum.md).}}
 - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md).}}
 - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
-- $f(x):=\lvert{x}\rvert,c=0$: {{Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
+- $f(x):=x\lvert{x}\rvert,c=0$: {{Inconclusive by the two-sided test and [weakly increasing rising inflection point](maximum%20and%20minimum.md) by the one-sided test.}}
 - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Weakly increasing rising inflection point](inflection%20point.md) and not [local extremum](maximum%20and%20minimum.md).}}
 - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive because $\forall{n\in\mathbb{N}^+}\,f^{(n)}(0)=0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
 - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [right-sided strict local minimum](maximum%20and%20minimum.md).}}

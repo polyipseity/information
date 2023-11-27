@@ -549,7 +549,7 @@ from pytextgen import gen, read, util
 text: gen.TextCode = gen.seq_to_code((
   'cation',
   'carboxylic acid',
-  'carboxylic acid derivate',
+  'carboxylic acid derivative',
   'nitrile',
   'aldehyde',
   'ketone',
@@ -576,11 +576,11 @@ return (
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2022-11-05T00:24:43.463369+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2023-11-27T13:04:06.855552+08:00. Any edits will be overridden! -->
 
 > 1. cation
 > 2. carboxylic acid
-> 3. carboxylic acid derivate
+> 3. carboxylic acid derivative
 > 4. nitrile
 > 5. aldehyde
 > 6. ketone
@@ -590,12 +590,12 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2022-11-05T00:24:43.478367+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2023-11-27T13:04:06.883282+08:00. Any edits will be overridden! -->
 
 1. _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2028-10-09,1910,372-->
 2. cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2026-01-18,914,276-->
-3. carboxylic acid→:::←carboxylic acid derivate <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
-4. carboxylic acid derivate→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
+3. carboxylic acid→:::←carboxylic acid derivative <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
+4. carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 5. nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->
 6. aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
 7. ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-01-27,85,150-->
