@@ -69,7 +69,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 
 #### examples
 
-- $f(x):=\begin{cases}e^{-\frac1{x^2}}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
+- $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
 - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{Weakly decreasing by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
 - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{Weakly increasing by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
 - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$: {{[Right-sided strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
