@@ -72,26 +72,26 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39dd"--><!-- The following content is generated at 2023-11-21T12:42:55.893815+08:00. Any edits will be overridden! -->
 
-1. $\sin{x}$::$x$
-2. $\arcsin{x}$::$x$
-3. $\sinh{x}$::$x$
-4. $\tan{x}$::$x$
-5. $\arctan{x}$::$x$
-6. $\ln(1+x)$::$x$
-7. $1-\cos{x}$::$\frac{x^2}2$
-8. $\cosh{x}-1$::$\frac{x^2}2$
-9. $a^x-1$::$x\ln{a}$
-10. $e^x-1$::$x$
-11. $(1+x)^a-1$::$ax$
+1. $\sin{x}$::$x$ <!--SR:!2023-12-01,4,270-->
+2. $\arcsin{x}$::$x$ <!--SR:!2023-12-01,4,270-->
+3. $\sinh{x}$::$x$ <!--SR:!2023-12-01,4,270-->
+4. $\tan{x}$::$x$ <!--SR:!2023-12-01,4,270-->
+5. $\arctan{x}$::$x$ <!--SR:!2023-12-01,4,270-->
+6. $\ln(1+x)$::$x$ <!--SR:!2023-12-01,4,270-->
+7. $1-\cos{x}$::$\frac{x^2}2$ <!--SR:!2023-11-28,1,230-->
+8. $\cosh{x}-1$::$\frac{x^2}2$ <!--SR:!2023-11-30,3,250-->
+9. $a^x-1$::$x\ln{a}$ <!--SR:!2023-12-01,4,270-->
+10. $e^x-1$::$x$ <!--SR:!2023-12-01,4,270-->
+11. $(1+x)^a-1$::$ax$ <!--SR:!2023-11-30,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2023-11-21T12:42:55.830785+08:00. Any edits will be overridden! -->
 
-1. $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$
-2. $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$
-3. $x\ln{a}$::$a^x-1$
-4. $ax$::$(1+x)^a-1$
+1. $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2023-11-28,1,230-->
+2. $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2023-12-01,4,270-->
+3. $x\ln{a}$::$a^x-1$ <!--SR:!2023-11-28,1,230-->
+4. $ax$::$(1+x)^a-1$ <!--SR:!2023-11-30,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
