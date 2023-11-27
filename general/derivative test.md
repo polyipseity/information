@@ -43,7 +43,7 @@ aliases:
   - two-sided second-derivative test
   - two-sided second-derivative tests
 tags:
-  - flashcards/general/derivate_test
+  - flashcards/general/derivative_test
 ---
 
 # derivative test
@@ -94,7 +94,7 @@ The _second derivative test_ is {{a special case of $n=2$ in the [higher-order d
 
 ### higher-order derivative test
 
-The _higher-order derivative test_ or _general derivate test_ can {{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}}.
+The _higher-order derivative test_ or _general derivative test_ can {{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}}.
 
 > __higher-order derivative test__
 >

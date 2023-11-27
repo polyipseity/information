@@ -549,7 +549,7 @@ from pytextgen import gen, read, util
 text: gen.TextCode = gen.seq_to_code((
   'cation',
   'carboxylic acid',
-  'carboxylic acid derivate',
+  'carboxylic acid derivative',
   'nitrile',
   'aldehyde',
   'ketone',
@@ -576,11 +576,11 @@ return (
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2022-11-05T00:24:43.463369+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2023-11-27T13:04:06.855552+08:00. Any edits will be overridden! -->
 
 > 1. cation
 > 2. carboxylic acid
-> 3. carboxylic acid derivate
+> 3. carboxylic acid derivative
 > 4. nitrile
 > 5. aldehyde
 > 6. ketone
@@ -590,12 +590,12 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2022-11-05T00:24:43.478367+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2023-11-27T13:04:06.883282+08:00. Any edits will be overridden! -->
 
 1. _(highest)_→:::←cation
 2. cation→:::←carboxylic acid
-3. carboxylic acid→:::←carboxylic acid derivate
-4. carboxylic acid derivate→:::←nitrile
+3. carboxylic acid→:::←carboxylic acid derivative
+4. carboxylic acid derivative→:::←nitrile
 5. nitrile→:::←aldehyde
 6. aldehyde→:::←ketone
 7. ketone→:::←alcohol
