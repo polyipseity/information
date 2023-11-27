@@ -27,7 +27,7 @@ tags:
 
 ### equivalent infinitesimal
 
-#### $x\to0$
+#### x→0
 
 %%
 ```Python

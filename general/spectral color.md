@@ -41,11 +41,11 @@ return _chain.from_iterable(await _gather(
   ),
   memorize_map(
     e.cwf_sects(None, "da12", "3349",),
-    items_to_map(*(entry[:2] for entry in table)),
+    items_to_map(*((entry[0], entry[2]) for entry in table)),
   ),
   memorize_map(
     e.cwf_sects(None, "5680", "e224",),
-    items_to_map(*(entry[:2] for entry in table)),
+    items_to_map(*((entry[0], entry[3]) for entry in table)),
   ),
 ))
 ```
@@ -108,52 +108,52 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 
 ### color–frequency (THz)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="da12"--><!-- The following content is generated at 2023-11-26T19:27:40.508555+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="da12"--><!-- The following content is generated at 2023-11-27T11:23:41.750922+08:00. Any edits will be overridden! -->
 
-1. <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::380–450 <!--SR:!2023-12-06,11,150-->
-2. <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::450–485 <!--SR:!2023-12-03,9,130-->
-3. <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)::485–500 <!--SR:!2023-11-29,5,130-->
-4. <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)::500–565 <!--SR:!2023-12-15,42,230-->
-5. <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)::565–590 <!--SR:!2023-12-04,10,130-->
-6. <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::590–625 <!--SR:!2023-11-27,79,210-->
-7. <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::625–750 <!--SR:!2023-12-26,53,210-->
+1. <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::670–790 <!--SR:!2023-12-06,11,150-->
+2. <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::620–670 <!--SR:!2023-12-03,9,130-->
+3. <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)::600–620 <!--SR:!2023-11-29,5,130-->
+4. <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)::530–600 <!--SR:!2023-12-15,42,230-->
+5. <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)::510–530 <!--SR:!2023-12-04,10,130-->
+6. <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::480–510 <!--SR:!2023-11-27,79,210-->
+7. <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::400–480 <!--SR:!2023-12-26,53,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3349"--><!-- The following content is generated at 2023-11-26T19:27:40.328984+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3349"--><!-- The following content is generated at 2023-11-27T11:23:41.710466+08:00. Any edits will be overridden! -->
 
-1. 380–450::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
-2. 450–485::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
-3. 485–500::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)
-4. 500–565::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)
-5. 565–590::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)
-6. 590–625::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
-7. 625–750::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
+1. 670–790::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
+2. 620–670::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
+3. 600–620::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)
+4. 530–600::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)
+5. 510–530::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)
+6. 480–510::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
+7. 400–480::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### color–photon energy (eV)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5680"--><!-- The following content is generated at 2023-11-26T19:27:40.598213+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5680"--><!-- The following content is generated at 2023-11-27T11:23:41.775044+08:00. Any edits will be overridden! -->
 
-1. <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::380–450 <!--SR:!2024-02-08,131,230-->
-2. <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::450–485 <!--SR:!2023-12-03,9,130-->
-3. <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)::485–500 <!--SR:!2024-05-01,180,210-->
-4. <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)::500–565 <!--SR:!2023-11-30,48,170-->
-5. <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)::565–590 <!--SR:!2024-01-02,80,230-->
-6. <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::590–625 <!--SR:!2023-12-04,86,230-->
-7. <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::625–750 <!--SR:!2023-12-13,40,130-->
+1. <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::2.75–3.26 <!--SR:!2024-02-08,131,230-->
+2. <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::2.56–2.75 <!--SR:!2023-12-03,9,130-->
+3. <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)::2.48–2.56 <!--SR:!2024-05-01,180,210-->
+4. <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)::2.19–2.48 <!--SR:!2023-11-30,48,170-->
+5. <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)::2.10–2.19 <!--SR:!2024-01-02,80,230-->
+6. <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::1.98–2.10 <!--SR:!2023-12-04,86,230-->
+7. <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::1.65–1.98 <!--SR:!2023-12-13,40,130-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e224"--><!-- The following content is generated at 2023-11-26T19:27:40.436999+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e224"--><!-- The following content is generated at 2023-11-27T11:23:41.729899+08:00. Any edits will be overridden! -->
 
-1. 380–450::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
-2. 450–485::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
-3. 485–500::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)
-4. 500–565::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)
-5. 565–590::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)
-6. 590–625::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
-7. 625–750::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
+1. 2.75–3.26::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
+2. 2.56–2.75::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
+3. 2.48–2.56::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md)
+4. 2.19–2.48::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)
+5. 2.10–2.19::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)
+6. 1.98–2.10::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
+7. 1.65–1.98::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
