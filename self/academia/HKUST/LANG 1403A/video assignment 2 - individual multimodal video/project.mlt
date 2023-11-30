@@ -19,11 +19,11 @@
   <playlist id="background">
     <entry producer="black" in="00:00:00.000" out="00:05:59.983"/>
   </playlist>
-  <chain id="chain0" out="00:00:15.783">
-    <property name="length">00:00:15.800</property>
+  <chain id="chain0" out="00:00:16.517">
+    <property name="length">992</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 1.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -36,7 +36,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:15.795000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:16.534000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -46,18 +46,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:23</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">8c5b98439af08463f69eb1ad06ac00b0</property>
-    <property name="shotcut:caption">voiceover 1.webm</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">0534d376c4e44feaae510862c47172e2</property>
+    <property name="shotcut:caption">voiceover 1.webm</property>
   </chain>
-  <chain id="chain1" out="00:00:22.717">
-    <property name="length">00:00:22.733</property>
+  <chain id="chain1" out="00:00:23.267">
+    <property name="length">1397</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 2.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -70,7 +69,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:22.736000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:23.277000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -80,18 +79,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:24</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">83b664d7867680b6783579605d5c2712</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">b38e2746c17c673578c2e1d579f0d424</property>
     <property name="shotcut:caption">voiceover 2.webm</property>
   </chain>
   <chain id="chain2" out="00:01:10.583">
-    <property name="length">00:01:10.600</property>
+    <property name="length">4236</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 3.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -104,7 +102,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:01:10.607000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:01:10.586000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -114,18 +112,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:26</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">8b36a6c16bc91bc32147dd56734c418a</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">54311e2fe334c799cd8a0e8bedc78284</property>
     <property name="shotcut:caption">voiceover 3.webm</property>
   </chain>
   <chain id="chain3" out="00:01:10.583">
-    <property name="length">00:01:10.600</property>
+    <property name="length">4236</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 3.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -138,7 +135,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:01:10.607000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:01:10.586000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -148,11 +145,10 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:26</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">8b36a6c16bc91bc32147dd56734c418a</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">54311e2fe334c799cd8a0e8bedc78284</property>
     <property name="shotcut:caption">voiceover 3.webm</property>
   </chain>
   <chain id="chain4" out="00:01:10.583">
@@ -172,7 +168,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:01:10.607000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:01:10.586000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -189,11 +185,11 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">voiceover 3.webm</property>
   </chain>
-  <chain id="chain5" out="00:00:38.117">
-    <property name="length">00:00:38.133</property>
+  <chain id="chain5" out="00:00:36.283">
+    <property name="length">2178</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 4.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -206,7 +202,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:38.135000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:36.297000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -216,17 +212,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:28</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">43cc519b28fb3c8910bcf8352a8bea7e</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">b177835b0ad7c1ca4531caccd9aa273f</property>
+    <property name="shotcut:caption">voiceover 4.webm</property>
   </chain>
-  <chain id="chain6" out="00:00:52.117">
-    <property name="length">00:00:52.133</property>
+  <chain id="chain6" out="00:00:53.500">
+    <property name="length">3211</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 5.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -239,7 +235,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:52.129000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:53.514000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -249,18 +245,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:30</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">53e2bf686450b2da1654981c8488178c</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">302bec424ecfe7ed197639637321b5f9</property>
     <property name="shotcut:caption">voiceover 5.webm</property>
   </chain>
-  <chain id="chain7" out="00:00:57.417">
-    <property name="length">00:00:57.433</property>
+  <chain id="chain7" out="00:00:56.150">
+    <property name="length">3370</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 6.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -273,7 +268,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:57.441000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:56.173000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -283,52 +278,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:31</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">5a9f169da790582c436bfc0cf80341fc</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">ec9d9ee46586f2165711d085de6b503c</property>
     <property name="shotcut:caption">voiceover 6.webm</property>
   </chain>
-  <chain id="chain8" out="00:00:57.417">
-    <property name="length">00:00:57.433</property>
-    <property name="eof">pause</property>
-    <property name="resource">voiceovers/voiceover 6.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">fltp</property>
-    <property name="meta.media.0.codec.sample_rate">48000</property>
-    <property name="meta.media.0.codec.channels">2</property>
-    <property name="meta.media.0.codec.name">opus</property>
-    <property name="meta.media.0.codec.long_name">Opus</property>
-    <property name="meta.media.0.codec.bit_rate">0</property>
-    <property name="meta.attr.0.stream.language.markup">eng</property>
-    <property name="meta.attr.0.stream.title.markup">Audio</property>
-    <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
-    <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:57.441000000</property>
-    <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
-    <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
-    <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
-    <property name="meta.attr.ARTIST.markup">William So</property>
-    <property name="meta.attr.AUTHOR.markup">William So</property>
-    <property name="meta.attr.ENCODER.markup">Lavf60.3.100</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:31</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">5a9f169da790582c436bfc0cf80341fc</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:caption">voiceover 6.webm</property>
-  </chain>
-  <chain id="chain9" out="00:00:39.483">
-    <property name="length">00:00:39.500</property>
+  <chain id="chain8" out="00:00:40.517">
+    <property name="length">2432</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 7.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -341,7 +301,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:39.505000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:40.539000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -351,18 +311,17 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:33</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">655035d9780c85f68f763987ddc6a7d5</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">f0a8f85e7e9e10b4b4736b1115264ab0</property>
     <property name="shotcut:caption">voiceover 7.webm</property>
   </chain>
-  <chain id="chain10" out="00:00:12.583">
-    <property name="length">00:00:12.600</property>
+  <chain id="chain9" out="00:00:13.367">
+    <property name="length">803</property>
     <property name="eof">pause</property>
     <property name="resource">voiceovers/voiceover 8.webm</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="mlt_service">avformat</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -375,7 +334,7 @@
     <property name="meta.attr.0.stream.title.markup">Audio</property>
     <property name="meta.attr.0.stream.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.0.stream.ENCODER.markup">Lavc60.3.100 libopus</property>
-    <property name="meta.attr.0.stream.DURATION.markup">00:00:12.606000000</property>
+    <property name="meta.attr.0.stream.DURATION.markup">00:00:13.389000000</property>
     <property name="meta.attr.DATE.markup">2023-11-29T03:20:09+08:00</property>
     <property name="meta.attr.COMMENT.markup">Breaking Study Mis-strategies</property>
     <property name="meta.attr.ENCODED_BY.markup">Audacity 3.4.2/9dd60f25c6cd271879756ea57fd67e582fe17d91, FFmpeg 6.0-full_build-www.gyan.dev</property>
@@ -385,11 +344,10 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-11-28T19:24:33</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="shotcut:hash">3223786504a355704fe3f3bc1428aaac</property>
+    <property name="video_delay">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">eb19c669aa7cf0c1d76c31a0b832c52b</property>
     <property name="shotcut:caption">voiceover 8.webm</property>
   </chain>
   <playlist id="playlist0">
@@ -397,27 +355,25 @@
     <property name="shotcut:name">A1</property>
     <property name="shotcut:lock">0</property>
     <blank length="00:00:20.000"/>
-    <entry producer="chain0" in="00:00:00.000" out="00:00:15.783"/>
-    <blank length="00:00:05.200"/>
-    <entry producer="chain1" in="00:00:00.000" out="00:00:22.717"/>
-    <blank length="00:00:01.267"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:16.517"/>
+    <blank length="00:00:04.467"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:23.267"/>
+    <blank length="00:00:00.717"/>
     <entry producer="chain2" in="00:00:00.000" out="00:00:39.650"/>
     <blank length="00:00:00.833"/>
     <entry producer="chain3" in="00:00:39.667" out="00:01:03.233"/>
     <blank length="00:00:00.917"/>
     <entry producer="chain4" in="00:01:03.250" out="00:01:10.583"/>
     <blank length="00:00:04.667"/>
-    <entry producer="chain5" in="00:00:00.000" out="00:00:38.117"/>
-    <blank length="00:00:00.850"/>
-    <entry producer="chain6" in="00:00:00.000" out="00:00:52.117"/>
-    <blank length="00:00:04.867"/>
-    <entry producer="chain7" in="00:00:00.000" out="00:00:47.733"/>
-    <blank length="00:00:01.250"/>
-    <entry producer="chain8" in="00:00:47.750" out="00:00:57.417"/>
-    <blank length="00:00:00.317"/>
-    <entry producer="chain9" in="00:00:00.000" out="00:00:39.483"/>
-    <blank length="00:00:00.500"/>
-    <entry producer="chain10" in="00:00:00.000" out="00:00:12.583"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:36.283"/>
+    <blank length="00:00:00.683"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:53.483"/>
+    <blank length="00:00:04.500"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:56.150"/>
+    <blank length="00:00:00.833"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:00:40.517"/>
+    <blank length="00:00:00.467"/>
+    <entry producer="chain9" in="00:00:00.000" out="00:00:13.367"/>
   </playlist>
   <producer id="producer0" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
@@ -1156,7 +1112,7 @@ METHODS</property>
     <property name="shotcut:caption">production_id_4769557 (1080p).mp4</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter20" out="00:00:19.983">
+    <filter id="filter20" out="00:00:17.983">
       <property name="lift_r">0.124987</property>
       <property name="lift_g">0.124987</property>
       <property name="lift_b">0.124987</property>
@@ -1168,14 +1124,14 @@ METHODS</property>
       <property name="gain_b">1</property>
       <property name="mlt_service">lift_gamma_gain</property>
     </filter>
-    <filter id="filter21" out="00:00:19.983">
+    <filter id="filter21" out="00:00:17.983">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
       <property name="av.sigma">25</property>
       <property name="av.sigmaV">25</property>
       <property name="av.planes">0xf</property>
     </filter>
-    <filter id="filter22" out="00:00:19.983">
+    <filter id="filter22" out="00:00:17.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1188,7 +1144,7 @@ METHODS</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter23" out="00:00:19.983">
+    <filter id="filter23" out="00:00:17.983">
       <property name="argument">Video by cottonbro studio</property>
       <property name="geometry">1440 3 480 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -1210,7 +1166,7 @@ METHODS</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter24" out="00:00:19.983">
+    <filter id="filter24" out="00:00:17.983">
       <property name="argument">(Walck-Shannon, Rowell, &amp; Frey, 2021)</property>
       <property name="geometry">0 0 1440 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -1554,14 +1510,14 @@ METHODS</property>
     <property name="shotcut:caption">production_id_5198168 (1080p).mp4</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter31" out="00:00:05.083">
+    <filter id="filter31" out="00:00:04.583">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
       <property name="av.sigma">25</property>
       <property name="av.sigmaV">25</property>
       <property name="av.planes">0xf</property>
     </filter>
-    <filter id="filter32" out="00:00:05.083">
+    <filter id="filter32" out="00:00:04.583">
       <property name="argument">Video by Max Fischer</property>
       <property name="geometry">1440 3 480 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -1762,7 +1718,7 @@ METHODS</property>
     <property name="shotcut:caption">production_id_4769557 (1080p).mp4</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter36" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter36" in="00:00:14.000" out="00:00:17.983">
       <property name="lift_r">0.124987</property>
       <property name="lift_g">0.124987</property>
       <property name="lift_b">0.124987</property>
@@ -1774,14 +1730,14 @@ METHODS</property>
       <property name="gain_b">1</property>
       <property name="mlt_service">lift_gamma_gain</property>
     </filter>
-    <filter id="filter37" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter37" in="00:00:14.000" out="00:00:17.983">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
       <property name="av.sigma">25</property>
       <property name="av.sigmaV">25</property>
       <property name="av.planes">0xf</property>
     </filter>
-    <filter id="filter38" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter38" in="00:00:14.000" out="00:00:17.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1794,7 +1750,7 @@ METHODS</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter39" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter39" in="00:00:14.000" out="00:00:17.983">
       <property name="argument">Video by cottonbro studio</property>
       <property name="geometry">1440 3 480 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -1816,7 +1772,7 @@ METHODS</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter40" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter40" in="00:00:14.000" out="00:00:17.983">
       <property name="argument">(Walck-Shannon, Rowell, &amp; Frey, 2021)</property>
       <property name="geometry">0 0 1440 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -1837,23 +1793,23 @@ METHODS</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter41" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter41" in="00:00:14.000" out="00:00:17.983">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.saturat0r</property>
       <property name="threads">0</property>
       <property name="0">0</property>
     </filter>
-    <filter id="filter42" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter42" in="00:00:14.000" out="00:00:17.983">
       <property name="maxdiameter">2</property>
       <property name="maxcount">10</property>
       <property name="mlt_service">dust</property>
       <property name="cache-dy-4-38">58</property>
-      <property name="cache-dy-2-38">23</property>
       <property name="cache-dy-0-38">34</property>
       <property name="cache-dy-1-38">50</property>
       <property name="cache-dy-3-38">89</property>
+      <property name="cache-dy-2-38">23</property>
     </filter>
-    <filter id="filter43" in="00:00:16.000" out="00:00:19.983">
+    <filter id="filter43" in="00:00:14.000" out="00:00:17.983">
       <property name="delta">14</property>
       <property name="every">20</property>
       <property name="brightnessdelta_up">20</property>
@@ -1916,9 +1872,9 @@ METHODS</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
     <filter id="filter44" out="00:00:13.350">
-      <property name="lift_r">0.332998</property>
-      <property name="lift_g">0.332998</property>
-      <property name="lift_b">0.332998</property>
+      <property name="lift_r">0.331014</property>
+      <property name="lift_g">0.331014</property>
+      <property name="lift_b">0.331014</property>
       <property name="gamma_r">1</property>
       <property name="gamma_g">1</property>
       <property name="gamma_b">1</property>
@@ -2119,7 +2075,7 @@ METHODS</property>
     <property name="shotcut:caption">pexels-mikhail-nilov-8122595 (Original).mp4</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter50" out="00:00:08.250">
+    <filter id="filter50" out="00:00:06.250">
       <property name="lift_r">0.331014</property>
       <property name="lift_g">0.331014</property>
       <property name="lift_b">0.331014</property>
@@ -2131,14 +2087,14 @@ METHODS</property>
       <property name="gain_b">1</property>
       <property name="mlt_service">lift_gamma_gain</property>
     </filter>
-    <filter id="filter51" out="00:00:08.250">
+    <filter id="filter51" out="00:00:06.250">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
       <property name="av.sigma">25</property>
       <property name="av.sigmaV">25</property>
       <property name="av.planes">0xf</property>
     </filter>
-    <filter id="filter52" out="00:00:08.250">
+    <filter id="filter52" out="00:00:06.250">
       <property name="argument">Video by Mikhail Nilov</property>
       <property name="geometry">1440 3 480 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -2348,7 +2304,7 @@ METHODS</property>
     <property name="shotcut:caption">pexels-anastasia-shuraeva-7279475 (1080p).mp4</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter59" out="00:00:14.967">
+    <filter id="filter59" out="00:00:15.483">
       <property name="lift_r">0.400015</property>
       <property name="lift_g">0.400015</property>
       <property name="lift_b">0.400015</property>
@@ -2360,7 +2316,7 @@ METHODS</property>
       <property name="gain_b">1</property>
       <property name="mlt_service">lift_gamma_gain</property>
     </filter>
-    <filter id="filter60" out="00:00:14.967">
+    <filter id="filter60" out="00:00:15.483">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -2373,14 +2329,14 @@ METHODS</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter61" out="00:00:14.967">
+    <filter id="filter61" out="00:00:15.483">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
       <property name="av.sigma">25</property>
       <property name="av.sigmaV">25</property>
       <property name="av.planes">0xf</property>
     </filter>
-    <filter id="filter62" out="00:00:14.967">
+    <filter id="filter62" out="00:00:15.483">
       <property name="argument">Video by Anastasia Shuraeva</property>
       <property name="geometry">1280 3 640 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -2503,31 +2459,31 @@ METHODS</property>
     <entry producer="chain15" in="00:00:01.000" out="00:00:08.583"/>
     <blank length="00:00:08.017"/>
     <entry producer="chain16" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:00:08.983"/>
-    <entry producer="chain17" in="00:00:00.000" out="00:00:19.983"/>
-    <blank length="00:00:15.000"/>
+    <blank length="00:00:08.483"/>
+    <entry producer="chain17" in="00:00:00.000" out="00:00:17.983"/>
+    <blank length="00:00:15.500"/>
     <entry producer="chain18" in="00:00:00.000" out="00:00:11.950"/>
     <entry producer="tractor2" in="00:00:00.000" out="00:00:00.983"/>
     <entry producer="chain19" in="00:00:01.000" out="00:00:11.950"/>
     <entry producer="tractor3" in="00:00:00.000" out="00:00:00.983"/>
     <entry producer="chain20" in="00:00:01.000" out="00:00:11.950"/>
     <entry producer="tractor4" in="00:00:00.000" out="00:00:00.983"/>
-    <entry producer="chain21" in="00:00:01.000" out="00:00:05.083"/>
-    <blank length="00:00:07.000"/>
+    <entry producer="chain21" in="00:00:01.000" out="00:00:04.583"/>
+    <blank length="00:00:08.500"/>
     <entry producer="chain22" in="00:00:00.000" out="00:00:03.983"/>
     <blank length="00:00:08.000"/>
-    <entry producer="chain23" in="00:00:16.000" out="00:00:19.983"/>
-    <blank length="00:00:04.000"/>
+    <entry producer="chain23" in="00:00:14.000" out="00:00:17.983"/>
+    <blank length="00:00:03.000"/>
     <entry producer="chain24" in="00:00:00.000" out="00:00:12.350"/>
     <entry producer="tractor5" in="00:00:00.000" out="00:00:00.983"/>
     <entry producer="chain25" in="00:00:01.000" out="00:00:12.350"/>
     <entry producer="tractor6" in="00:00:00.000" out="00:00:00.983"/>
-    <entry producer="chain26" in="00:00:01.000" out="00:00:08.250"/>
-    <blank length="00:00:12.000"/>
+    <entry producer="chain26" in="00:00:01.000" out="00:00:06.250"/>
+    <blank length="00:00:13.000"/>
     <entry producer="chain27" in="00:00:11.000" out="00:00:14.983"/>
-    <blank length="00:00:09.017"/>
-    <entry producer="chain28" in="00:00:00.000" out="00:00:14.967"/>
-    <blank length="00:00:12.000"/>
+    <blank length="00:00:08.500"/>
+    <entry producer="chain28" in="00:00:00.000" out="00:00:15.483"/>
+    <blank length="00:00:12.500"/>
     <entry producer="producer1" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer2" in="00:00:00.000" out="00:00:00.983"/>
   </playlist>
@@ -2860,7 +2816,7 @@ METHODS</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter79" out="00:00:29.983">
+    <filter id="filter79" out="00:00:30.483">
       <property name="argument">cramming</property>
       <property name="geometry">0 0 1920 270 1</property>
       <property name="family">Times New Roman</property>
@@ -3458,7 +3414,7 @@ METHODS</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter105" in="00:00:32.000" out="00:00:40.983">
+    <filter id="filter105" in="00:00:32.000" out="00:00:40.483">
       <property name="argument">(Walck-Shannon, Rowell, &amp; Frey, 2021)</property>
       <property name="geometry">0 0 1600 180 1</property>
       <property name="family">Times New Roman</property>
@@ -3581,7 +3537,7 @@ METHODS</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter110" out="00:00:32.983">
+    <filter id="filter110" out="00:00:30.983">
       <property name="argument">(Miyatsu, Nguyen, &amp; McDaniel, 2018)</property>
       <property name="geometry">0 0 1440 1080 1</property>
       <property name="family">Times New Roman</property>
@@ -3602,7 +3558,7 @@ METHODS</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter111" out="00:00:32.983">
+    <filter id="filter111" out="00:00:30.983">
       <property name="rect">00:00:00.000=0 0 0 1080 1;00:00:04.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -3624,7 +3580,7 @@ METHODS</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter112" out="00:00:07.983">
+    <filter id="filter112" out="00:00:08.983">
       <property name="argument">Cram</property>
       <property name="geometry">00:00:01.000=1034 657 196 96 1;00:00:02.000=439 667 576 275 1</property>
       <property name="family">Times New Roman</property>
@@ -3638,7 +3594,7 @@ METHODS</property>
       <property name="halign">left</property>
       <property name="valign">top</property>
       <property name="outline">3</property>
-      <property name="opacity">1.0</property>
+      <property name="opacity">1</property>
       <property name="mlt_service">dynamictext</property>
       <property name="shotcut:filter">dynamicText</property>
       <property name="shotcut:usePointSize">0</property>
@@ -3646,13 +3602,13 @@ METHODS</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter113" out="00:00:07.983">
+    <filter id="filter113" out="00:00:08.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
-      <property name="alpha">00:00:06.000=1;00:00:07.983=0</property>
-      <property name="shotcut:animOut">00:00:02.000</property>
+      <property name="alpha">00:00:06.000=1;00:00:08.983=0</property>
+      <property name="shotcut:animOut">00:00:03.000</property>
     </filter>
   </producer>
   <producer id="producer26" in="00:00:00.000" out="03:59:59.983">
@@ -3912,6 +3868,40 @@ METHODS</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
+  <producer id="producer33" in="00:00:00.000" out="00:00:01.983">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">loop</property>
+    <property name="resource">images/studying effectively.rawr</property>
+    <property name="background">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.width">512</property>
+    <property name="meta.media.height">512</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="meta.media.frame_rate">60</property>
+    <property name="first_frame">0</property>
+    <property name="mlt_service">glaxnimate</property>
+    <property name="creation_time">2023-11-29T04:19:51</property>
+    <property name="shotcut:hash">e6bcf97689aa6e34eff35f2c56b1bd77</property>
+    <property name="shotcut:caption">studying effectively.rawr</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter124" out="00:00:01.483">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">105.228 536.396 540 540 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
   <playlist id="playlist3">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V3</property>
@@ -3925,8 +3915,8 @@ METHODS</property>
     <entry producer="producer9" in="00:00:00.000" out="00:00:01.983"/>
     <blank length="00:00:05.000"/>
     <entry producer="producer10" in="00:00:00.000" out="00:00:05.983"/>
-    <blank length="00:00:22.000"/>
-    <entry producer="producer11" in="00:00:00.000" out="00:00:29.983"/>
+    <blank length="00:00:21.500"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:30.483"/>
     <blank length="00:00:02.000"/>
     <entry producer="producer12" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer13" in="00:00:00.000" out="00:00:01.983"/>
@@ -3937,32 +3927,33 @@ METHODS</property>
     <entry producer="producer17" in="00:00:00.000" out="00:00:16.983"/>
     <blank length="00:00:03.000"/>
     <entry producer="producer18" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:00:20.000"/>
+    <blank length="00:00:17.500"/>
     <entry producer="producer19" in="00:00:00.000" out="00:00:13.983"/>
-    <blank length="00:00:03.500"/>
+    <blank length="00:00:04.500"/>
     <entry producer="chain29" in="00:00:05.500" out="00:00:10.983"/>
-    <blank length="00:00:08.000"/>
+    <blank length="00:00:07.500"/>
     <entry producer="producer20" in="00:00:00.000" out="00:00:16.983"/>
     <entry producer="tractor7" in="00:00:00.000" out="00:00:00.983"/>
     <entry producer="producer21" in="00:00:19.000" out="00:00:30.983"/>
     <entry producer="tractor8" in="00:00:00.000" out="00:00:00.983"/>
-    <entry producer="producer22" in="00:00:33.000" out="00:00:40.983"/>
-    <blank length="00:00:19.000"/>
+    <entry producer="producer22" in="00:00:33.000" out="00:00:40.483"/>
+    <blank length="00:00:20.500"/>
     <entry producer="producer23" in="00:00:10.000" out="00:00:13.983"/>
-    <blank length="00:00:04.000"/>
-    <entry producer="producer24" in="00:00:00.000" out="00:00:32.983"/>
-    <entry producer="producer25" in="00:00:00.000" out="00:00:07.983"/>
+    <blank length="00:00:03.000"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:30.983"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:08.983"/>
     <blank length="00:00:04.000"/>
     <entry producer="producer26" in="00:00:26.000" out="00:00:29.983"/>
     <entry producer="producer27" in="00:00:00.000" out="00:00:23.983"/>
-    <blank length="00:00:14.000"/>
+    <blank length="00:00:14.500"/>
     <entry producer="producer28" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer29" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer30" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer31" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer32" in="00:00:00.000" out="00:00:01.983"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:01.483"/>
   </playlist>
-  <producer id="producer33" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -3979,7 +3970,7 @@ METHODS</property>
     <property name="shotcut:caption">F.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter124" out="00:00:11.983">
+    <filter id="filter125" out="00:00:11.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -3993,7 +3984,7 @@ METHODS</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">16.2284</property>
     </filter>
-    <filter id="filter125" out="00:00:11.983">
+    <filter id="filter126" out="00:00:11.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4001,7 +3992,7 @@ METHODS</property>
       <property name="alpha">00:00:00.000=0;00:00:01.983=1</property>
       <property name="shotcut:animIn">00:00:02.000</property>
     </filter>
-    <filter id="filter126" out="00:00:11.983">
+    <filter id="filter127" out="00:00:11.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4050,7 +4041,7 @@ METHODS</property>
     <property name="shotcut:caption">Cartoon_animated_clock.gif</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter127" out="00:00:11.983">
+    <filter id="filter128" out="00:00:11.983">
       <property name="version">0.4</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -4058,7 +4049,7 @@ METHODS</property>
       <property name="1">0.5</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter128" out="00:00:11.983">
+    <filter id="filter129" out="00:00:11.983">
       <property name="argument">Obsidian Soul, CC BY-SA 3.0,
 via Wikimedia Commons</property>
       <property name="geometry">320 0 1280 1080 1</property>
@@ -4080,7 +4071,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter129" out="00:00:11.983">
+    <filter id="filter130" out="00:00:11.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4094,7 +4085,7 @@ via Wikimedia Commons</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">00:00:00.000=0;00:00:03.000=46.7501;00:00:04.000=23.2652;00:00:06.000=23.2;00:00:09.000=0</property>
     </filter>
-    <filter id="filter130" out="00:00:11.983">
+    <filter id="filter131" out="00:00:11.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4102,7 +4093,7 @@ via Wikimedia Commons</property>
       <property name="alpha">00:00:00.000=0;00:00:00.483=1</property>
       <property name="shotcut:animIn">00:00:00.500</property>
     </filter>
-    <filter id="filter131" out="00:00:11.983">
+    <filter id="filter132" out="00:00:11.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4111,7 +4102,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:02.000</property>
     </filter>
   </chain>
-  <producer id="producer34" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -4122,7 +4113,7 @@ via Wikimedia Commons</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter132" out="00:00:27.983">
+    <filter id="filter133" out="00:00:27.983">
       <property name="argument">definitions</property>
       <property name="geometry">30 240 1860 135 1</property>
       <property name="family">Times New Roman</property>
@@ -4142,7 +4133,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:usePointSize">0</property>
       <property name="shotcut:pointSize">60</property>
     </filter>
-    <filter id="filter133" out="00:00:27.983">
+    <filter id="filter134" out="00:00:27.983">
       <property name="argument">text</property>
       <property name="geometry">0 360 1920 720 1</property>
       <property name="family">Sans</property>
@@ -4176,7 +4167,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter134" out="00:00:27.983">
+    <filter id="filter135" out="00:00:27.983">
       <property name="rect">00:00:00.000=0 0 1920 380 1;00:00:03.000=0 0 1920 480 1;00:00:05.000=0 0 1920 480 1;00:00:07.000=0 0 1920 700 1;00:00:09.000=0 0 1920 700 1;00:00:12.000=0 0 1920 804 1;00:00:13.000=0 0 1920 804 1;00:00:16.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -4185,7 +4176,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:filter">cropRectangle</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter135" out="00:00:27.983">
+    <filter id="filter136" out="00:00:27.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4194,7 +4185,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer35" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer36" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -4211,7 +4202,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">A+.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter136" out="00:00:06.983">
+    <filter id="filter137" out="00:00:06.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4225,55 +4216,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">6.38195</property>
     </filter>
-    <filter id="filter137" out="00:00:06.983">
+    <filter id="filter138" out="00:00:06.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">00:00:06.700=1;00:00:06.983=0</property>
       <property name="shotcut:animOut">00:00:00.300</property>
-    </filter>
-  </producer>
-  <producer id="producer36" in="00:00:00.000" out="00:00:01.983">
-    <property name="length">00:00:02.000</property>
-    <property name="eof">loop</property>
-    <property name="resource">images/depression.rawr</property>
-    <property name="background">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="meta.media.width">512</property>
-    <property name="meta.media.height">512</property>
-    <property name="meta.media.sample_aspect_num">1</property>
-    <property name="meta.media.sample_aspect_den">1</property>
-    <property name="meta.media.frame_rate">60</property>
-    <property name="first_frame">0</property>
-    <property name="mlt_service">glaxnimate</property>
-    <property name="creation_time">2023-11-29T14:09:17</property>
-    <property name="shotcut:hash">9ac122862e372e25913e9a8367a978fb</property>
-    <property name="shotcut:caption">depression.rawr</property>
-    <property name="meta.shotcut.vui">1</property>
-    <property name="xml">was here</property>
-    <filter id="filter138" out="00:00:01.983">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">127.95 247.259 540 540 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
-    <filter id="filter139" out="00:00:01.983">
-      <property name="start">1</property>
-      <property name="level">1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">00:00:00.000=0;00:00:00.983=1</property>
-      <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
   <producer id="producer37" in="00:00:00.000" out="00:00:01.983">
@@ -4296,7 +4245,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">depression.rawr</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter140" out="00:00:01.983">
+    <filter id="filter139" out="00:00:01.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4308,6 +4257,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter140" out="00:00:01.983">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:00.983=1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
   <producer id="producer38" in="00:00:00.000" out="00:00:01.983">
@@ -4377,13 +4334,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter143" out="00:00:01.983">
-      <property name="mlt_service">avfilter.gblur</property>
-      <property name="shotcut:filter">blur_gaussian_av</property>
-      <property name="av.sigma">00:00:01.000=0;00:00:02.000=25</property>
-      <property name="av.sigmaV">00:00:01.000=0;00:00:02.000=25</property>
-      <property name="av.planes">0xf</property>
-    </filter>
   </producer>
   <producer id="producer40" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
@@ -4405,7 +4355,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">depression.rawr</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter144" out="00:00:01.983">
+    <filter id="filter143" out="00:00:01.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4418,11 +4368,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter145" out="00:00:01.983">
+    <filter id="filter144" out="00:00:01.983">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
-      <property name="av.sigma">25</property>
-      <property name="av.sigmaV">25</property>
+      <property name="av.sigma">00:00:01.000=0;00:00:02.000=25</property>
+      <property name="av.sigmaV">00:00:01.000=0;00:00:02.000=25</property>
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
@@ -4446,7 +4396,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">depression.rawr</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter146" out="00:00:00.983">
+    <filter id="filter145" out="00:00:01.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4459,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter147" out="00:00:00.983">
+    <filter id="filter146" out="00:00:01.983">
       <property name="mlt_service">avfilter.gblur</property>
       <property name="shotcut:filter">blur_gaussian_av</property>
       <property name="av.sigma">25</property>
@@ -4467,7 +4417,48 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
-  <producer id="producer42" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer42" in="00:00:00.000" out="00:00:01.983">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">loop</property>
+    <property name="resource">images/depression.rawr</property>
+    <property name="background">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.width">512</property>
+    <property name="meta.media.height">512</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="meta.media.frame_rate">60</property>
+    <property name="first_frame">0</property>
+    <property name="mlt_service">glaxnimate</property>
+    <property name="creation_time">2023-11-29T14:09:17</property>
+    <property name="shotcut:hash">9ac122862e372e25913e9a8367a978fb</property>
+    <property name="shotcut:caption">depression.rawr</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter147" out="00:00:00.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">127.95 247.259 540 540 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter148" out="00:00:00.983">
+      <property name="mlt_service">avfilter.gblur</property>
+      <property name="shotcut:filter">blur_gaussian_av</property>
+      <property name="av.sigma">25</property>
+      <property name="av.sigmaV">25</property>
+      <property name="av.planes">0xf</property>
+    </filter>
+  </producer>
+  <producer id="producer43" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -4479,11 +4470,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter148" out="00:00:10.983">
-      <property name="argument"> · Read notes
- · Watch lecture
- · Rewrite notes
- · Read textbook
+    <filter id="filter149" out="00:00:10.983">
+      <property name="argument"> · Self-quiz
+ · Explain concepts
+ · Synthesize notes
+ · Make diagrams
  · ...</property>
       <property name="geometry">0 270 900 640 1</property>
       <property name="family">Times New Roman</property>
@@ -4504,11 +4495,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter149" out="00:00:10.983">
-      <property name="argument"> · Self-quiz
- · Explain concepts
- · Synthesize notes
- · Make diagrams
+    <filter id="filter150" out="00:00:10.983">
+      <property name="argument"> · Read notes
+ · Watch lecture
+ · Rewrite notes
+ · Read textbook
  · ...</property>
       <property name="geometry">960 270 900 640 1</property>
       <property name="family">Times New Roman</property>
@@ -4529,7 +4520,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter150" out="00:00:10.983">
+    <filter id="filter151" out="00:00:10.983">
       <property name="rect">00:00:00.000=0 0 1920 300 1;00:00:05.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -4537,34 +4528,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="mlt_service">qtcrop</property>
       <property name="shotcut:filter">cropRectangle</property>
       <property name="disable">0</property>
-    </filter>
-  </producer>
-  <producer id="producer43" in="00:00:00.000" out="00:00:02.983">
-    <property name="length">00:00:03.000</property>
-    <property name="eof">loop</property>
-    <property name="resource">images/learning.rawr</property>
-    <property name="background">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="meta.media.width">512</property>
-    <property name="meta.media.height">512</property>
-    <property name="meta.media.sample_aspect_num">1</property>
-    <property name="meta.media.sample_aspect_den">1</property>
-    <property name="meta.media.frame_rate">60</property>
-    <property name="first_frame">0</property>
-    <property name="mlt_service">glaxnimate</property>
-    <property name="creation_time">2023-11-30T01:37:01</property>
-    <property name="shotcut:hash">b2c3732aefd923264e584f5d127f5e20</property>
-    <property name="shotcut:caption">learning.rawr</property>
-    <property name="xml">was here</property>
-    <filter id="filter151" out="00:00:02.983">
-      <property name="start">1</property>
-      <property name="level">1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">00:00:00.000=0;00:00:00.983=1</property>
-      <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
   <producer id="producer44" in="00:00:00.000" out="00:00:02.983">
@@ -4586,6 +4549,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:hash">b2c3732aefd923264e584f5d127f5e20</property>
     <property name="shotcut:caption">learning.rawr</property>
     <property name="xml">was here</property>
+    <filter id="filter152" out="00:00:02.983">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:00.983=1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
   </producer>
   <producer id="producer45" in="00:00:00.000" out="00:00:02.983">
     <property name="length">00:00:03.000</property>
@@ -4606,20 +4577,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:hash">b2c3732aefd923264e584f5d127f5e20</property>
     <property name="shotcut:caption">learning.rawr</property>
     <property name="xml">was here</property>
-    <property name="meta.shotcut.vui">1</property>
-    <filter id="filter152" out="00:00:02.983">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:01.000=420 0 1080 1080 1;00:00:02.000=360 539.289 540.711 540.711 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
   </producer>
   <producer id="producer46" in="00:00:00.000" out="00:00:02.983">
     <property name="length">00:00:03.000</property>
@@ -4647,7 +4604,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
-      <property name="transition.rect">360 539.289 540.711 540.711 1</property>
+      <property name="transition.rect">00:00:01.000=420 0 1080 1080 1;00:00:02.000=360 539.289 540.711 540.711 1</property>
       <property name="transition.valign">middle</property>
       <property name="transition.halign">center</property>
       <property name="shotcut:animIn">00:00:00.000</property>
@@ -4688,7 +4645,41 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
+  </producer>
+  <producer id="producer48" in="00:00:00.000" out="00:00:02.983">
+    <property name="length">00:00:03.000</property>
+    <property name="eof">loop</property>
+    <property name="resource">images/learning.rawr</property>
+    <property name="background">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.width">512</property>
+    <property name="meta.media.height">512</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="meta.media.frame_rate">60</property>
+    <property name="first_frame">0</property>
+    <property name="mlt_service">glaxnimate</property>
+    <property name="creation_time">2023-11-30T01:37:01</property>
+    <property name="shotcut:hash">b2c3732aefd923264e584f5d127f5e20</property>
+    <property name="shotcut:caption">learning.rawr</property>
+    <property name="xml">was here</property>
+    <property name="meta.shotcut.vui">1</property>
     <filter id="filter155" out="00:00:02.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">360 539.289 540.711 540.711 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter156" out="00:00:02.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4697,7 +4688,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer48" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer49" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/half time start.png</property>
@@ -4714,7 +4705,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">half time start.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter156" out="00:00:01.983">
+    <filter id="filter157" out="00:00:02.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4727,7 +4718,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter157" out="00:00:01.983">
+    <filter id="filter158" out="00:00:02.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4736,7 +4727,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer49" in="00:00:00.000" out="00:00:02.983">
+  <producer id="producer50" in="00:00:00.000" out="00:00:02.983">
     <property name="length">00:00:03.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/half time.rawr</property>
@@ -4756,37 +4747,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">half time.rawr</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter158" out="00:00:02.983">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">474.1 108 972 972 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
-  </producer>
-  <producer id="producer50" in="00:00:00.000" out="03:59:59.983">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">images/half time end.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="meta.media.progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="format">2</property>
-    <property name="meta.media.width">512</property>
-    <property name="meta.media.height">512</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2023-11-30T06:09:30</property>
-    <property name="shotcut:hash">2288b112410214f3cd83cc083878b08b</property>
-    <property name="shotcut:caption">half time end.png</property>
-    <property name="meta.shotcut.vui">1</property>
-    <property name="xml">was here</property>
     <filter id="filter159" out="00:00:02.983">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -4804,6 +4764,37 @@ li.checked::marker { content: &quot;\2612&quot;; }
   <producer id="producer51" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
+    <property name="resource">images/half time end.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">512</property>
+    <property name="meta.media.height">512</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-11-30T06:09:30</property>
+    <property name="shotcut:hash">2288b112410214f3cd83cc083878b08b</property>
+    <property name="shotcut:caption">half time end.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter160" out="00:00:01.483">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">474.1 108 972 972 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer52" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
     <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
@@ -4813,11 +4804,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter160" in="00:00:07.000" out="00:00:10.983">
-      <property name="argument"> · Read notes
- · Watch lecture
- · Rewrite notes
- · Read textbook
+    <filter id="filter161" in="00:00:07.000" out="00:00:10.983">
+      <property name="argument"> · Self-quiz
+ · Explain concepts
+ · Synthesize notes
+ · Make diagrams
  · ...</property>
       <property name="geometry">0 270 900 640 1</property>
       <property name="family">Times New Roman</property>
@@ -4838,11 +4829,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter161" in="00:00:07.000" out="00:00:10.983">
-      <property name="argument"> · Self-quiz
- · Explain concepts
- · Synthesize notes
- · Make diagrams
+    <filter id="filter162" in="00:00:07.000" out="00:00:10.983">
+      <property name="argument"> · Read notes
+ · Watch lecture
+ · Rewrite notes
+ · Read textbook
  · ...</property>
       <property name="geometry">960 270 900 640 1</property>
       <property name="family">Times New Roman</property>
@@ -4863,7 +4854,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter162" in="00:00:07.000" out="00:00:10.983">
+    <filter id="filter163" in="00:00:07.000" out="00:00:10.983">
       <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -4872,14 +4863,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:filter">cropRectangle</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter163" in="00:00:07.000" out="00:00:10.983">
+    <filter id="filter164" in="00:00:07.000" out="00:00:10.983">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.saturat0r</property>
       <property name="threads">0</property>
       <property name="0">0</property>
     </filter>
   </producer>
-  <producer id="producer52" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer53" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -4891,7 +4882,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter164" out="00:00:27.983">
+    <filter id="filter165" out="00:00:26.983">
       <property name="argument">Effective</property>
       <property name="geometry">0 90 960 180 1</property>
       <property name="family">Times New Roman</property>
@@ -4912,7 +4903,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter165" out="00:00:27.983">
+    <filter id="filter166" out="00:00:26.983">
       <property name="argument">Ineffective</property>
       <property name="geometry">960 90 960 180 1</property>
       <property name="family">Times New Roman</property>
@@ -4933,7 +4924,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter166" out="00:00:27.983">
+    <filter id="filter167" out="00:00:26.983">
       <property name="rect">00:00:00.017=0 0 0 1080 1;00:00:02.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -4943,7 +4934,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="disable">0</property>
     </filter>
   </producer>
-  <producer id="producer53" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer54" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -4955,7 +4946,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter167" out="00:00:05.983">
+    <filter id="filter168" out="00:00:06.983">
       <property name="argument">ming</property>
       <property name="geometry">986 670 501 323 1</property>
       <property name="family">Times New Roman</property>
@@ -4977,7 +4968,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter168" out="00:00:05.983">
+    <filter id="filter169" out="00:00:06.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -4985,16 +4976,16 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="alpha">00:00:00.000=0;00:00:00.983=1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter169" out="00:00:05.983">
+    <filter id="filter170" out="00:00:06.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
-      <property name="alpha">00:00:04.000=1;00:00:05.983=0</property>
-      <property name="shotcut:animOut">00:00:02.000</property>
+      <property name="alpha">00:00:04.000=1;00:00:06.983=0</property>
+      <property name="shotcut:animOut">00:00:03.000</property>
     </filter>
   </producer>
-  <producer id="producer54" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer55" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5005,7 +4996,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter170" in="00:00:24.000" out="00:00:27.983">
+    <filter id="filter171" in="00:00:24.000" out="00:00:27.983">
       <property name="argument">definitions</property>
       <property name="geometry">30 240 1860 135 1</property>
       <property name="family">Times New Roman</property>
@@ -5025,7 +5016,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:usePointSize">0</property>
       <property name="shotcut:pointSize">60</property>
     </filter>
-    <filter id="filter171" in="00:00:24.000" out="00:00:27.983">
+    <filter id="filter172" in="00:00:24.000" out="00:00:27.983">
       <property name="argument">text</property>
       <property name="geometry">0 360 1920 720 1</property>
       <property name="family">Sans</property>
@@ -5059,7 +5050,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter172" in="00:00:24.000" out="00:00:27.983">
+    <filter id="filter173" in="00:00:24.000" out="00:00:27.983">
       <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -5068,14 +5059,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:filter">cropRectangle</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter173" in="00:00:24.000" out="00:00:27.983">
+    <filter id="filter174" in="00:00:24.000" out="00:00:27.983">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.saturat0r</property>
       <property name="threads">0</property>
       <property name="0">0</property>
     </filter>
   </producer>
-  <producer id="producer55" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer56" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5087,7 +5078,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter174" out="00:00:08.983">
+    <filter id="filter175" out="00:00:08.983">
       <property name="argument">temporal
 discounting</property>
       <property name="geometry">00:00:01.500=480 270 960 540 1;00:00:03.500=640 240 640 360 1</property>
@@ -5108,7 +5099,7 @@ discounting</property>
       <property name="shotcut:usePointSize">0</property>
       <property name="shotcut:pointSize">60</property>
     </filter>
-    <filter id="filter175" out="00:00:08.983">
+    <filter id="filter176" out="00:00:08.983">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -5117,7 +5108,7 @@ discounting</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer56" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer57" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -5134,7 +5125,7 @@ discounting</property>
     <property name="shotcut:caption">F.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter176" out="00:00:11.983">
+    <filter id="filter177" out="00:00:13.483">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5148,59 +5139,51 @@ discounting</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">347.754</property>
     </filter>
-    <filter id="filter177" out="00:00:11.983">
-      <property name="start">1</property>
-      <property name="level">1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">00:00:00.000=0;00:00:00.983=1</property>
-      <property name="shotcut:animIn">00:00:01.000</property>
-    </filter>
   </producer>
   <playlist id="playlist4">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V4</property>
     <blank length="00:00:25.000"/>
-    <entry producer="producer33" in="00:00:00.000" out="00:00:11.983"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:11.983"/>
     <blank length="00:00:05.000"/>
     <entry producer="chain30" in="00:00:00.000" out="00:00:11.983"/>
     <blank length="00:00:18.000"/>
-    <entry producer="producer34" in="00:00:00.000" out="00:00:27.983"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:27.983"/>
     <blank length="00:00:04.000"/>
-    <entry producer="producer35" in="00:00:00.000" out="00:00:06.983"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:08.000"/>
-    <entry producer="producer36" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer37" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer38" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer39" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer40" in="00:00:00.000" out="00:00:01.983"/>
-    <entry producer="producer41" in="00:00:00.000" out="00:00:00.983"/>
-    <blank length="00:00:30.000"/>
-    <entry producer="producer42" in="00:00:00.000" out="00:00:10.983"/>
-    <blank length="00:00:19.000"/>
-    <entry producer="producer43" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer41" in="00:00:00.000" out="00:00:01.983"/>
+    <entry producer="producer42" in="00:00:00.000" out="00:00:00.983"/>
+    <blank length="00:00:27.500"/>
+    <entry producer="producer43" in="00:00:00.000" out="00:00:10.983"/>
+    <blank length="00:00:19.500"/>
     <entry producer="producer44" in="00:00:00.000" out="00:00:02.983"/>
     <entry producer="producer45" in="00:00:00.000" out="00:00:02.983"/>
     <entry producer="producer46" in="00:00:00.000" out="00:00:02.983"/>
     <entry producer="producer47" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:02.983"/>
     <blank length="00:00:14.000"/>
-    <entry producer="producer48" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer49" in="00:00:00.000" out="00:00:02.983"/>
     <entry producer="producer50" in="00:00:00.000" out="00:00:02.983"/>
-    <blank length="00:00:19.000"/>
-    <entry producer="producer51" in="00:00:07.000" out="00:00:10.983"/>
-    <blank length="00:00:09.000"/>
-    <entry producer="producer52" in="00:00:00.000" out="00:00:27.983"/>
+    <entry producer="producer51" in="00:00:00.000" out="00:00:01.483"/>
+    <blank length="00:00:20.500"/>
+    <entry producer="producer52" in="00:00:07.000" out="00:00:10.983"/>
+    <blank length="00:00:07.000"/>
+    <entry producer="producer53" in="00:00:00.000" out="00:00:26.983"/>
     <blank length="00:00:02.000"/>
-    <entry producer="producer53" in="00:00:00.000" out="00:00:05.983"/>
+    <entry producer="producer54" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:04.000"/>
-    <entry producer="producer54" in="00:00:24.000" out="00:00:27.983"/>
-    <blank length="00:00:07.500"/>
-    <entry producer="producer55" in="00:00:00.000" out="00:00:08.983"/>
-    <blank length="00:00:19.500"/>
-    <entry producer="producer56" in="00:00:00.000" out="00:00:11.983"/>
+    <entry producer="producer55" in="00:00:24.000" out="00:00:27.983"/>
+    <blank length="00:00:07.000"/>
+    <entry producer="producer56" in="00:00:00.000" out="00:00:08.983"/>
+    <blank length="00:00:20.500"/>
+    <entry producer="producer57" in="00:00:00.000" out="00:00:13.483"/>
   </playlist>
-  <producer id="producer57" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer58" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/r2g arrow.png</property>
@@ -5249,7 +5232,7 @@ discounting</property>
       <property name="shotcut:animOut">00:00:00.667</property>
     </filter>
   </producer>
-  <producer id="producer58" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer59" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5289,7 +5272,7 @@ discounting</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer59" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer60" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5343,7 +5326,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:02.000</property>
     </filter>
   </producer>
-  <producer id="producer60" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer61" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -5383,7 +5366,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.400</property>
     </filter>
   </producer>
-  <producer id="producer61" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer62" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/irrationality.rawr</property>
@@ -5425,7 +5408,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer62" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer63" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/irrationality.rawr</property>
@@ -5459,7 +5442,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer63" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer64" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/irrationality.rawr</property>
@@ -5493,7 +5476,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer64" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer65" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/irrationality.rawr</property>
@@ -5534,7 +5517,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
-  <producer id="producer65" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer66" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/irrationality.rawr</property>
@@ -5575,7 +5558,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
-  <producer id="producer66" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer67" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/knowledge applied.png</property>
@@ -5615,7 +5598,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer67" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer68" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5648,7 +5631,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:pointSize">60</property>
     </filter>
   </producer>
-  <producer id="producer68" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer69" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5694,7 +5677,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer69" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer70" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5748,7 +5731,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer70" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer71" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/knowledge applied.png</property>
@@ -5794,7 +5777,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="0">0</property>
     </filter>
   </producer>
-  <producer id="producer71" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer72" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5806,7 +5789,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter206" out="00:00:23.983">
+    <filter id="filter206" out="00:00:22.983">
       <property name="argument"> · Get flashcards correct
    3 times before dropping
  · Review notes before
@@ -5833,7 +5816,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter207" out="00:00:23.983">
+    <filter id="filter207" out="00:00:22.983">
       <property name="argument"> · Drop flashcards once
    you answer correctly
  · Copy notes verbatim
@@ -5860,7 +5843,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter208" out="00:00:23.983">
+    <filter id="filter208" out="00:00:22.983">
       <property name="rect">00:00:00.000=0 0 1920 300 1;00:00:07.000=0 0 1920 670 1;00:00:15.000=0 0 1920 670 1;00:00:19.000=0 0 1920 1080 1</property>
       <property name="circle">0</property>
       <property name="color">#00000000</property>
@@ -5870,7 +5853,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="disable">0</property>
     </filter>
   </producer>
-  <producer id="producer72" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer73" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -5922,7 +5905,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="0">0</property>
     </filter>
   </producer>
-  <producer id="producer73" in="00:00:00.000" out="00:00:13.000">
+  <producer id="producer74" in="00:00:00.000" out="00:00:13.000">
     <property name="length">00:00:13.017</property>
     <property name="eof">loop</property>
     <property name="resource">images/balancing.rawr</property>
@@ -5950,7 +5933,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer74" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer75" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -5967,7 +5950,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">F.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter212" out="00:00:08.983">
+    <filter id="filter212" out="00:00:10.483">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5986,37 +5969,37 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V5</property>
     <blank length="00:00:31.000"/>
-    <entry producer="producer57" in="00:00:00.000" out="00:00:05.983"/>
+    <entry producer="producer58" in="00:00:00.000" out="00:00:05.983"/>
     <blank length="00:00:09.000"/>
-    <entry producer="producer58" in="00:00:00.000" out="00:00:14.983"/>
+    <entry producer="producer59" in="00:00:00.000" out="00:00:14.983"/>
     <blank length="00:00:30.000"/>
-    <entry producer="producer59" in="00:00:00.000" out="00:00:08.983"/>
+    <entry producer="producer60" in="00:00:00.000" out="00:00:08.983"/>
     <blank length="00:00:04.000"/>
-    <entry producer="producer60" in="00:00:00.000" out="00:00:06.983"/>
+    <entry producer="producer61" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:09.000"/>
-    <entry producer="producer61" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer62" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer63" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer64" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer65" in="00:00:00.000" out="00:00:01.983"/>
-    <blank length="00:00:37.000"/>
-    <entry producer="producer66" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:00:22.000"/>
+    <entry producer="producer66" in="00:00:00.000" out="00:00:01.983"/>
+    <blank length="00:00:34.500"/>
     <entry producer="producer67" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:00:22.500"/>
     <entry producer="producer68" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer69" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:00:41.000"/>
     <entry producer="producer70" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:00:13.000"/>
-    <entry producer="producer71" in="00:00:00.000" out="00:00:23.983"/>
-    <blank length="00:00:12.000"/>
-    <entry producer="producer72" in="00:00:05.000" out="00:00:08.983"/>
+    <blank length="00:00:42.000"/>
+    <entry producer="producer71" in="00:00:00.000" out="00:00:03.983"/>
     <blank length="00:00:11.000"/>
-    <entry producer="producer73" in="00:00:00.000" out="00:00:12.983"/>
-    <blank length="00:00:15.000"/>
-    <entry producer="producer74" in="00:00:00.000" out="00:00:08.983"/>
+    <entry producer="producer72" in="00:00:00.000" out="00:00:22.983"/>
+    <blank length="00:00:13.000"/>
+    <entry producer="producer73" in="00:00:05.000" out="00:00:08.983"/>
+    <blank length="00:00:11.000"/>
+    <entry producer="producer74" in="00:00:00.000" out="00:00:12.983"/>
+    <blank length="00:00:15.500"/>
+    <entry producer="producer75" in="00:00:00.000" out="00:00:10.483"/>
   </playlist>
-  <producer id="producer75" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer76" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -6059,7 +6042,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer76" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer77" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -6102,7 +6085,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.333</property>
     </filter>
   </producer>
-  <producer id="producer77" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer78" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/ancient paper.png</property>
@@ -6149,7 +6132,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.500</property>
     </filter>
   </producer>
-  <producer id="producer78" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer79" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -6203,7 +6186,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:02.000</property>
     </filter>
   </producer>
-  <producer id="producer79" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer80" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -6243,7 +6226,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.500</property>
     </filter>
   </producer>
-  <producer id="producer80" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer81" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/stress.rawr</property>
@@ -6285,7 +6268,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer81" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer82" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/stress.rawr</property>
@@ -6319,7 +6302,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer82" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer83" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/stress.rawr</property>
@@ -6360,7 +6343,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
-  <producer id="producer83" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer84" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/stress.rawr</property>
@@ -6401,7 +6384,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
-  <producer id="producer84" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer85" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/stress.rawr</property>
@@ -6442,7 +6425,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="av.planes">0xf</property>
     </filter>
   </producer>
-  <producer id="producer85" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer86" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6484,7 +6467,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer86" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer87" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6518,7 +6501,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer87" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer88" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6552,7 +6535,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer88" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer89" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6586,7 +6569,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer89" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer90" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6620,7 +6603,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer90" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer91" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6654,7 +6637,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer91" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer92" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6688,7 +6671,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer92" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer93" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6722,7 +6705,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer93" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer94" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6756,7 +6739,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer94" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer95" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -6798,7 +6781,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer95" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer96" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -6850,7 +6833,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="0">0</property>
     </filter>
   </producer>
-  <producer id="producer96" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer97" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -6867,7 +6850,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:caption">F.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter247" out="00:00:07.983">
+    <filter id="filter247" out="00:00:09.483">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6886,22 +6869,21 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V6</property>
     <blank length="00:00:33.000"/>
-    <entry producer="producer75" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer76" in="00:00:00.000" out="00:00:01.983"/>
+    <entry producer="producer77" in="00:00:00.000" out="00:00:01.983"/>
     <blank length="00:00:17.000"/>
-    <entry producer="producer77" in="00:00:00.000" out="00:00:05.983"/>
-    <blank length="00:00:34.000"/>
     <entry producer="producer78" in="00:00:00.000" out="00:00:05.983"/>
+    <blank length="00:00:34.000"/>
+    <entry producer="producer79" in="00:00:00.000" out="00:00:05.983"/>
     <blank length="00:00:04.000"/>
-    <entry producer="producer79" in="00:00:00.000" out="00:00:06.983"/>
+    <entry producer="producer80" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:10.000"/>
-    <entry producer="producer80" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer81" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer82" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer83" in="00:00:00.000" out="00:00:01.983"/>
-    <entry producer="producer84" in="00:00:00.000" out="00:00:00.983"/>
-    <blank length="00:01:08.000"/>
-    <entry producer="producer85" in="00:00:00.000" out="00:00:01.983"/>
+    <entry producer="producer84" in="00:00:00.000" out="00:00:01.983"/>
+    <entry producer="producer85" in="00:00:00.000" out="00:00:00.983"/>
+    <blank length="00:01:06.000"/>
     <entry producer="producer86" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer87" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer88" in="00:00:00.000" out="00:00:01.983"/>
@@ -6911,12 +6893,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <entry producer="producer92" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer93" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer94" in="00:00:00.000" out="00:00:01.983"/>
-    <blank length="00:01:21.000"/>
-    <entry producer="producer95" in="00:00:02.000" out="00:00:05.983"/>
-    <blank length="00:00:40.000"/>
-    <entry producer="producer96" in="00:00:00.000" out="00:00:07.983"/>
+    <entry producer="producer95" in="00:00:00.000" out="00:00:01.983"/>
+    <blank length="00:01:20.000"/>
+    <entry producer="producer96" in="00:00:02.000" out="00:00:05.983"/>
+    <blank length="00:00:40.500"/>
+    <entry producer="producer97" in="00:00:00.000" out="00:00:09.483"/>
   </playlist>
-  <producer id="producer97" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer98" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -6964,7 +6947,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="shotcut:animOut">00:00:00.333</property>
     </filter>
   </producer>
-  <producer id="producer98" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer99" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -7016,7 +6999,7 @@ grips with ruin</property>
       <property name="shotcut:animOut">00:00:00.500</property>
     </filter>
   </producer>
-  <producer id="producer99" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer100" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/2 arrows.png</property>
@@ -7043,7 +7026,7 @@ grips with ruin</property>
       <property name="disable">0</property>
     </filter>
   </producer>
-  <producer id="producer100" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer101" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -7083,7 +7066,7 @@ grips with ruin</property>
       <property name="shotcut:animOut">00:00:00.600</property>
     </filter>
   </producer>
-  <producer id="producer101" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer102" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -7125,7 +7108,7 @@ grips with ruin</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer102" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer103" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying tirelessly.rawr</property>
@@ -7159,7 +7142,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer103" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer104" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7201,7 +7184,7 @@ grips with ruin</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer104" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer105" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7235,7 +7218,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer105" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer106" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7269,7 +7252,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer106" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer107" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7303,7 +7286,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer107" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer108" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7337,7 +7320,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer108" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer109" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7371,7 +7354,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer109" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer110" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7405,7 +7388,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer110" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer111" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7439,7 +7422,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer111" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer112" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7473,7 +7456,7 @@ grips with ruin</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer112" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer113" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7515,7 +7498,7 @@ grips with ruin</property>
       <property name="shotcut:animOut">00:00:00.750</property>
     </filter>
   </producer>
-  <producer id="producer113" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer114" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/2 arrows.png</property>
@@ -7548,7 +7531,7 @@ grips with ruin</property>
       <property name="0">0</property>
     </filter>
   </producer>
-  <producer id="producer114" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer115" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -7565,7 +7548,7 @@ grips with ruin</property>
     <property name="shotcut:caption">A+.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter274" out="00:00:05.983">
+    <filter id="filter274" out="00:00:07.483">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -7584,18 +7567,17 @@ grips with ruin</property>
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V7</property>
     <blank length="00:00:33.000"/>
-    <entry producer="producer97" in="00:00:00.000" out="00:00:03.983"/>
+    <entry producer="producer98" in="00:00:00.000" out="00:00:03.983"/>
     <blank length="00:00:18.000"/>
-    <entry producer="producer98" in="00:00:00.000" out="00:00:04.983"/>
+    <entry producer="producer99" in="00:00:00.000" out="00:00:04.983"/>
     <blank length="00:00:37.000"/>
-    <entry producer="producer99" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer100" in="00:00:00.000" out="00:00:02.983"/>
     <blank length="00:00:04.000"/>
-    <entry producer="producer100" in="00:00:00.000" out="00:00:06.983"/>
+    <entry producer="producer101" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:15.000"/>
-    <entry producer="producer101" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer102" in="00:00:00.000" out="00:00:01.983"/>
-    <blank length="00:01:08.000"/>
     <entry producer="producer103" in="00:00:00.000" out="00:00:01.983"/>
+    <blank length="00:01:06.000"/>
     <entry producer="producer104" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer105" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer106" in="00:00:00.000" out="00:00:01.983"/>
@@ -7605,12 +7587,13 @@ grips with ruin</property>
     <entry producer="producer110" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer111" in="00:00:00.000" out="00:00:01.983"/>
     <entry producer="producer112" in="00:00:00.000" out="00:00:01.983"/>
-    <blank length="00:01:22.000"/>
-    <entry producer="producer113" in="00:00:00.000" out="00:00:02.983"/>
-    <blank length="00:00:42.000"/>
-    <entry producer="producer114" in="00:00:00.000" out="00:00:05.983"/>
+    <entry producer="producer113" in="00:00:00.000" out="00:00:01.983"/>
+    <blank length="00:01:21.000"/>
+    <entry producer="producer114" in="00:00:00.000" out="00:00:02.983"/>
+    <blank length="00:00:42.500"/>
+    <entry producer="producer115" in="00:00:00.000" out="00:00:07.483"/>
   </playlist>
-  <producer id="producer115" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer116" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/Herm_of_Plato._Vatican_Museums,_Pio-Clementine_Museum._(8536313958).jpg</property>
@@ -7708,7 +7691,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer116" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer117" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -7748,7 +7731,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:00.700</property>
     </filter>
   </producer>
-  <producer id="producer117" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer118" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7790,7 +7773,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer118" in="00:00:00.000" out="00:00:01.983">
+  <producer id="producer119" in="00:00:00.000" out="00:00:01.983">
     <property name="length">00:00:02.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/studying effectively.rawr</property>
@@ -7824,7 +7807,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer119" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer120" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -7899,7 +7882,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer120" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer121" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -7966,7 +7949,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:pointSize">60</property>
     </filter>
   </producer>
-  <producer id="producer121" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer122" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8033,7 +8016,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:pointSize">60</property>
     </filter>
   </producer>
-  <producer id="producer122" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer123" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8100,7 +8083,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:pointSize">60</property>
     </filter>
   </producer>
-  <producer id="producer123" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer124" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8175,7 +8158,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:00.500</property>
     </filter>
   </producer>
-  <producer id="producer124" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer125" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -8192,7 +8175,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
     <property name="shotcut:caption">A+.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter303" out="00:00:04.517">
+    <filter id="filter303" out="00:00:06.017">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -8211,22 +8194,22 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V8</property>
     <blank length="00:00:54.000"/>
-    <entry producer="producer115" in="00:00:00.000" out="00:00:05.983"/>
+    <entry producer="producer116" in="00:00:00.000" out="00:00:05.983"/>
     <blank length="00:00:44.000"/>
-    <entry producer="producer116" in="00:00:00.000" out="00:00:06.983"/>
+    <entry producer="producer117" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:16.000"/>
-    <entry producer="producer117" in="00:00:00.000" out="00:00:01.983"/>
-    <entry producer="producer118" in="00:00:00.000" out="00:00:00.983"/>
-    <blank length="00:01:08.000"/>
-    <entry producer="producer119" in="00:00:00.000" out="00:00:03.983"/>
+    <entry producer="producer118" in="00:00:00.000" out="00:00:01.983"/>
+    <entry producer="producer119" in="00:00:00.000" out="00:00:00.983"/>
+    <blank length="00:01:06.000"/>
     <entry producer="producer120" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer121" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer122" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer123" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:02:08.467"/>
-    <entry producer="producer124" in="00:00:00.000" out="00:00:04.517"/>
+    <entry producer="producer124" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:02:07.967"/>
+    <entry producer="producer125" in="00:00:00.000" out="00:00:06.017"/>
   </playlist>
-  <producer id="producer125" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer126" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8274,7 +8257,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:01.500</property>
     </filter>
   </producer>
-  <producer id="producer126" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer127" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -8314,7 +8297,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:00.800</property>
     </filter>
   </producer>
-  <producer id="producer127" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer128" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8376,7 +8359,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer128" in="00:00:00.000" out="00:00:07.983">
+  <producer id="producer129" in="00:00:00.000" out="00:00:07.983">
     <property name="length">481</property>
     <property name="eof">loop</property>
     <property name="resource">images/teacher.rawr</property>
@@ -8410,7 +8393,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer129" in="00:00:00.000" out="00:00:03.983">
+  <producer id="producer130" in="00:00:00.000" out="00:00:03.983">
     <property name="length">00:00:04.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/teacher confused.rawr</property>
@@ -8444,7 +8427,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer130" in="00:00:00.000" out="00:00:03.983">
+  <producer id="producer131" in="00:00:00.000" out="00:00:03.983">
     <property name="length">00:00:04.000</property>
     <property name="eof">loop</property>
     <property name="resource">images/teacher confused.rawr</property>
@@ -8486,7 +8469,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:00.250</property>
     </filter>
   </producer>
-  <producer id="producer131" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer132" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -8503,7 +8486,7 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
     <property name="shotcut:caption">A+.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter316" out="00:00:03.400">
+    <filter id="filter316" out="00:00:04.900">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -8522,19 +8505,19 @@ CC BY-SA 2.0, via Wikimedia Commons</property>
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V9</property>
     <blank length="00:00:55.000"/>
-    <entry producer="producer125" in="00:00:00.000" out="00:00:04.983"/>
+    <entry producer="producer126" in="00:00:00.000" out="00:00:04.983"/>
     <blank length="00:00:44.000"/>
-    <entry producer="producer126" in="00:00:00.000" out="00:00:06.983"/>
+    <entry producer="producer127" in="00:00:00.000" out="00:00:06.983"/>
     <blank length="00:00:17.000"/>
-    <entry producer="producer127" in="00:00:00.000" out="00:00:01.983"/>
-    <blank length="00:01:12.000"/>
-    <entry producer="producer128" in="00:00:00.000" out="00:00:07.983"/>
-    <entry producer="producer129" in="00:00:00.000" out="00:00:03.983"/>
+    <entry producer="producer128" in="00:00:00.000" out="00:00:01.983"/>
+    <blank length="00:01:10.000"/>
+    <entry producer="producer129" in="00:00:00.000" out="00:00:07.983"/>
     <entry producer="producer130" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:02:09.583"/>
-    <entry producer="producer131" in="00:00:00.000" out="00:00:03.400"/>
+    <entry producer="producer131" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:02:09.083"/>
+    <entry producer="producer132" in="00:00:00.000" out="00:00:04.900"/>
   </playlist>
-  <producer id="producer132" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer133" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/Ink_and_Quill.png</property>
@@ -8628,7 +8611,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:01.500</property>
     </filter>
   </producer>
-  <producer id="producer133" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer134" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/F.png</property>
@@ -8668,7 +8651,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:00.900</property>
     </filter>
   </producer>
-  <producer id="producer134" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer135" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8714,7 +8697,7 @@ via Wikimedia Commons</property>
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer135" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer136" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8768,7 +8751,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:00.250</property>
     </filter>
   </producer>
-  <producer id="producer136" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer137" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -8785,7 +8768,7 @@ via Wikimedia Commons</property>
     <property name="shotcut:caption">A+.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter330" out="00:00:02.250">
+    <filter id="filter330" out="00:00:03.750">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -8804,16 +8787,16 @@ via Wikimedia Commons</property>
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V10</property>
     <blank length="00:00:54.000"/>
-    <entry producer="producer132" in="00:00:00.000" out="00:00:05.983"/>
+    <entry producer="producer133" in="00:00:00.000" out="00:00:05.983"/>
     <blank length="00:00:44.000"/>
-    <entry producer="producer133" in="00:00:00.000" out="00:00:06.983"/>
-    <blank length="00:01:39.000"/>
-    <entry producer="producer134" in="00:00:00.000" out="00:00:03.983"/>
+    <entry producer="producer134" in="00:00:00.000" out="00:00:06.983"/>
+    <blank length="00:01:37.000"/>
     <entry producer="producer135" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:02:10.733"/>
-    <entry producer="producer136" in="00:00:00.000" out="00:00:02.250"/>
+    <entry producer="producer136" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:02:10.233"/>
+    <entry producer="producer137" in="00:00:00.000" out="00:00:03.750"/>
   </playlist>
-  <producer id="producer137" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer138" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8868,7 +8851,7 @@ via Wikimedia Commons</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer138" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer139" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/A+.png</property>
@@ -8885,7 +8868,7 @@ via Wikimedia Commons</property>
     <property name="shotcut:caption">A+.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter334" out="00:00:01.133">
+    <filter id="filter334" out="00:00:02.633">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -8904,9 +8887,9 @@ via Wikimedia Commons</property>
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V11</property>
     <blank length="00:01:44.000"/>
-    <entry producer="producer137" in="00:00:00.000" out="00:00:06.983"/>
-    <blank length="00:03:58.850"/>
-    <entry producer="producer138" in="00:00:00.000" out="00:00:01.133"/>
+    <entry producer="producer138" in="00:00:00.000" out="00:00:06.983"/>
+    <blank length="00:03:56.350"/>
+    <entry producer="producer139" in="00:00:00.000" out="00:00:02.633"/>
   </playlist>
   <tractor id="tractor9" title="Shotcut version 23.11.04" in="00:00:00.000" out="00:05:59.983">
     <property name="shotcut">1</property>
