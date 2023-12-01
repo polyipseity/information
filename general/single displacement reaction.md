@@ -23,4 +23,4 @@ This often happens when {{$\text{A}$ is more [reactive](reactivity%20(chemistry)
 
 > [!tip]
 >
-> - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md).}} <!--SR:!2023-12-01,4,290-->
+> - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md).}} <!--SR:!2023-12-19,18,310-->

@@ -52,8 +52,8 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2845"--><!-- The following content is generated at 2023-04-02T00:29:33.583262+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←conditions are not standard conditions <!--SR:!2023-11-28,53,270!2024-06-03,332,330-->
-2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2023-12-01,165,290!2023-12-28,76,230-->
+1. _(begin)_→:::←conditions are not standard conditions <!--SR:!2023-12-27,26,250!2024-06-03,332,330-->
+2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2024-02-23,84,270!2023-12-28,76,230-->
 3. heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2024-06-05,334,330!2024-01-28,210,310-->
 4. heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2024-06-01,330,330!2024-06-09,338,330-->
 5. reaction is incomplete→:::←_(end)_ <!--SR:!2024-05-31,329,330!2024-01-17,170,250-->
