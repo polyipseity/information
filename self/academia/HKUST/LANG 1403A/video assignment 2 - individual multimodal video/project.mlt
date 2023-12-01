@@ -5310,7 +5310,7 @@ METHODS</property>
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
-      <property name="transition.rect">00:00:00.000=-826.396 -192.264 2304 1296 1;00:00:06.000=-826 -191.421 2304 1296 1;00:00:09.000=-200 -191 2304 1296 1</property>
+      <property name="transition.rect">00:00:00.000=-960 -192.264 2304 1296 1;00:00:06.000=-960 -191.421 2304 1296 1;00:00:09.000=-200 -191 2304 1296 1</property>
       <property name="transition.valign">middle</property>
       <property name="transition.halign">center</property>
       <property name="shotcut:animIn">00:00:00.000</property>
