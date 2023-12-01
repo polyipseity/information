@@ -96,11 +96,11 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="679d"--><!-- The following content is generated at 2023-11-26T19:27:40.397727+08:00. Any edits will be overridden! -->
 
-1. 380–450::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2023-11-30,3,263-->
+1. 380–450::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2023-12-10,9,283-->
 2. 450–485::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2023-11-29,2,243-->
 3. 485–500::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2023-11-28,1,223-->
-4. 500–565::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2023-11-29,2,243-->
-5. 565–590::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!2023-11-29,2,243-->
+4. 500–565::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2023-12-05,4,243-->
+5. 565–590::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!2023-12-05,4,243-->
 6. 590–625::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!2023-11-30,3,263-->
 7. 625–750::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md) <!--SR:!2023-11-30,3,263-->
 
@@ -122,9 +122,9 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3349"--><!-- The following content is generated at 2023-11-27T11:23:41.710466+08:00. Any edits will be overridden! -->
 
-1. 670–790::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2023-11-30,3,263-->
+1. 670–790::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2023-12-14,13,283-->
 2. 620–670::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2023-11-30,3,263-->
-3. 600–620::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2023-11-29,2,243-->
+3. 600–620::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2023-12-05,4,243-->
 4. 530–600::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2023-11-29,2,243-->
 5. 510–530::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!2023-11-28,1,223-->
 6. 480–510::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!2023-11-28,1,223-->
@@ -149,11 +149,11 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e224"--><!-- The following content is generated at 2023-11-27T11:23:41.729899+08:00. Any edits will be overridden! -->
 
 1. 2.75–3.26::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2023-11-30,3,263-->
-2. 2.56–2.75::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2023-11-30,3,263-->
+2. 2.56–2.75::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2023-12-07,6,263-->
 3. 2.48–2.56::<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2023-11-30,3,263-->
 4. 2.19–2.48::<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2023-11-28,1,223-->
 5. 2.10–2.19::<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!2023-11-28,1,223-->
 6. 1.98–2.10::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!2023-11-29,2,243-->
-7. 1.65–1.98::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md) <!--SR:!2023-11-30,3,263-->
+7. 1.65–1.98::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md) <!--SR:!2023-12-13,12,283-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -76,7 +76,7 @@ return await memorize_table(
 > | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
 > | {{[hydrogenation](#hydrogenation)}} |  |
 > | {{[hydrohalogenation](#hydrohalogenation)}} |  |
-> | {{[polymerization](#polymerization)}} |  | <!--SR:!2024-02-11,231,310!2024-02-18,252,330!2024-02-14,248,330!2023-11-26,172,311!2024-03-19,268,331!2024-07-25,371,351-->
+> | {{[polymerization](#polymerization)}} |  | <!--SR:!2024-02-11,231,310!2024-02-18,252,330!2024-02-14,248,330!2025-12-09,739,331!2024-03-19,268,331!2024-07-25,371,351-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

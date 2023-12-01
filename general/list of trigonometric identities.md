@@ -83,7 +83,7 @@ return await memorize_map(
 
 1. sine::$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$ <!--SR:!2024-01-03,152,250-->
 2. cosine::$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$ <!--SR:!2025-03-23,527,310-->
-3. tangent::$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$ <!--SR:!2023-11-28,144,250-->
+3. tangent::$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$ <!--SR:!2024-02-10,71,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

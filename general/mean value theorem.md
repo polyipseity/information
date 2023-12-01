@@ -9,10 +9,10 @@ tags:
 
 # mean value theorem
 
-In [mathematics](mathematics.md), the __mean value theorem__ or __{{Lagrange}} theorem__ states that {{a [curve](curve.md) between two [points](point%20(geometry).md) has at least one point at which its [tangent](tangent.md) to the curve is parallel to the [secant](secant%20line.md) joining the two points}}. <!--SR:!2023-12-01,4,270!2023-11-30,3,250-->
+In [mathematics](mathematics.md), the __mean value theorem__ or __{{Lagrange}} theorem__ states that {{a [curve](curve.md) between two [points](point%20(geometry).md) has at least one point at which its [tangent](tangent.md) to the curve is parallel to the [secant](secant%20line.md) joining the two points}}. <!--SR:!2023-12-18,17,290!2023-12-12,11,270-->
 
 ## formal statement
 
 > __mean value theorem__
 >
-> {{Given a [function](function%20(mathematics).md) $f$ which is [continuous](continuous%20function.md) on $[a,b]$ and [differentiable](differentiable%20function.md) (more generally, the [limit](limit%20of%20a%20function.md) $\lim_{h\to0}\frac{f(x+h)-f(x)}h$ exists or equals positive or negative [infinity](infinity.md)) on $(a,b)$, there exists some $c$ in $(a,b)$ such that $f'(c)=\frac{f(b)-f(a)}{b-a}$.}} <!--SR:!2023-11-28,1,230-->
+> {{Given a [function](function%20(mathematics).md) $f$ which is [continuous](continuous%20function.md) on $[a,b]$ and [differentiable](differentiable%20function.md) (more generally, the [limit](limit%20of%20a%20function.md) $\lim_{h\to0}\frac{f(x+h)-f(x)}h$ exists or equals positive or negative [infinity](infinity.md)) on $(a,b)$, there exists some $c$ in $(a,b)$ such that $f'(c)=\frac{f(b)-f(a)}{b-a}$.}} <!--SR:!2023-12-02,1,210-->

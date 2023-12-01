@@ -61,24 +61,24 @@ return await memorize_map(
 
 > [!tip]
 >
-> - [mnemonic](mnemonic.md): {{From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart.}} <!--SR:!2023-12-01,4,270-->
+> - [mnemonic](mnemonic.md): {{From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart.}} <!--SR:!2023-12-14,13,290-->
 
 ### function–derivative
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e934"--><!-- The following content is generated at 2023-11-20T23:53:31.184573+08:00. Any edits will be overridden! -->
 
-1. $\sin{x}$::$\cos{x}$ <!--SR:!2023-12-01,4,270-->
-2. $\cos{x}$::$-\sin{x}$ <!--SR:!2023-12-01,4,270-->
-3. $\tan{x}$::$\sec^2{x}$ <!--SR:!2023-12-01,4,270-->
-4. $\cot{x}$::$-\csc^2{x}$ <!--SR:!2023-12-01,4,270-->
-5. $\sec{x}$::$\sec{x}\tan{x}$ <!--SR:!2023-12-01,4,270-->
-6. $\csc{x}$::$-\csc{x}\cot{x}$ <!--SR:!2023-12-01,4,270-->
-7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-11-28,1,230-->
-8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-01,4,270-->
-9. $\arctan{x}$::$\frac1{x^2+1}$ <!--SR:!2023-12-01,4,270-->
-10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2023-12-01,4,270-->
-11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-11-30,3,250-->
-12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-01,4,270-->
+1. $\sin{x}$::$\cos{x}$ <!--SR:!2023-12-16,15,290-->
+2. $\cos{x}$::$-\sin{x}$ <!--SR:!2023-12-17,16,290-->
+3. $\tan{x}$::$\sec^2{x}$ <!--SR:!2023-12-17,16,290-->
+4. $\cot{x}$::$-\csc^2{x}$ <!--SR:!2023-12-16,15,290-->
+5. $\sec{x}$::$\sec{x}\tan{x}$ <!--SR:!2023-12-03,2,250-->
+6. $\csc{x}$::$-\csc{x}\cot{x}$ <!--SR:!2023-12-10,9,270-->
+7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-04,3,250-->
+8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-16,15,290-->
+9. $\arctan{x}$::$\frac1{x^2+1}$ <!--SR:!2023-12-18,17,290-->
+10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2023-12-15,14,290-->
+11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-08,7,250-->
+12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-03,2,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -86,17 +86,17 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b023"--><!-- The following content is generated at 2023-11-20T23:53:31.288520+08:00. Any edits will be overridden! -->
 
-1. $\cos{x}$::$\sin{x}$ <!--SR:!2023-12-01,4,270-->
-2. $-\sin{x}$::$\cos{x}$ <!--SR:!2023-12-01,4,270-->
-3. $\sec^2{x}$::$\tan{x}$ <!--SR:!2023-12-01,4,270-->
-4. $-\csc^2{x}$::$\cot{x}$ <!--SR:!2023-12-01,4,270-->
-5. $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2023-12-01,4,270-->
-6. $-\csc{x}\cot{x}$::$\csc{x}$ <!--SR:!2023-12-01,4,270-->
-7. $\frac1{\sqrt{1-x^2}}$::$\arcsin{x}$ <!--SR:!2023-12-01,4,270-->
-8. $-\frac1{\sqrt{1-x^2}}$::$\arccos{x}$ <!--SR:!2023-12-01,4,270-->
-9. $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2023-11-30,3,250-->
-10. $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2023-12-01,4,270-->
-11. $\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arcsec}{x}$ <!--SR:!2023-12-01,4,270-->
-12. $-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arccsc}{x}$ <!--SR:!2023-12-01,4,270-->
+1. $\cos{x}$::$\sin{x}$ <!--SR:!2023-12-16,15,290-->
+2. $-\sin{x}$::$\cos{x}$ <!--SR:!2023-12-15,14,290-->
+3. $\sec^2{x}$::$\tan{x}$ <!--SR:!2023-12-16,15,290-->
+4. $-\csc^2{x}$::$\cot{x}$ <!--SR:!2023-12-14,13,290-->
+5. $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2023-12-15,14,290-->
+6. $-\csc{x}\cot{x}$::$\csc{x}$ <!--SR:!2023-12-17,16,290-->
+7. $\frac1{\sqrt{1-x^2}}$::$\arcsin{x}$ <!--SR:!2023-12-18,17,290-->
+8. $-\frac1{\sqrt{1-x^2}}$::$\arccos{x}$ <!--SR:!2023-12-18,17,290-->
+9. $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2023-12-11,10,270-->
+10. $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2023-12-17,16,290-->
+11. $\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arcsec}{x}$ <!--SR:!2023-12-03,2,250-->
+12. $-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arccsc}{x}$ <!--SR:!2023-12-13,12,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
