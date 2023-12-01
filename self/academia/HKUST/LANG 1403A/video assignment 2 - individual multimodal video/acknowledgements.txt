@@ -10,3 +10,5 @@
 - images/Herm_of_Plato._Vatican_Museums,_Pio-Clementine_Museum._(8536313958).jpg: Sergey Sosnovskiy from Saint-Petersburg, Russia, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
 - images/Ink_and_Quill.png: Latte1703, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 - images/video (1080p).mp4: Video by Pressmaster: https://www.pexels.com/video/digital-calculation-in-geometrical-symmetry-3141210/
+- music/Brendan Kinsella - Mozart - Piano Sonata in B-flat major, III. Allegretto Grazioso.mp3: Mozart - Piano Sonata in B-flat major, III. Allegretto Grazioso by Brendan Kinsella is licensed under a Public Domain License: https://freemusicarchive.org/music/Brendan_Kinsella/Mozarts_Piano_Sonata_in_B-flat_Major/Mozart_-_Piano_Sonata_in_B-flat_major_III_Allegretto_Grazioso/
+- music/Danny Bale - Bronkelton Part V_ Getting Dressed.mp3: Bronkelton Part V: Getting Dressed by Danny Bale is licensed under a Attribution 4.0 International License: https://freemusicarchive.org/music/danny-bale/backgrounds/bronkelton-part-v-getting-dressed/
