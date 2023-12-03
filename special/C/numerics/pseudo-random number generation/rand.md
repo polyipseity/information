@@ -17,4 +17,4 @@ int rand();
 
 > [!tip]
 >
-> - remember: {{set the seed using [`srand`](srand.md) before calling `rand`}} <!--SR:!2023-12-01,4,276-->
+> - remember: {{set the seed using [`srand`](srand.md) before calling `rand`}} <!--SR:!2023-12-15,13,296-->

@@ -16,8 +16,8 @@ tags:
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2024-01-18,110,190!2025-06-22,631,290-->
 - move window to bottom:::Alt+Esc <!--SR:!2024-12-23,406,230!2024-01-04,90,250-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2024-01-23,71,190!2025-02-24,534,270-->
-- maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2023-11-26,184,230!2023-12-07,220,270-->
-- maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2025-01-05,429,250!2023-11-28,186,230-->
+- maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-01-27,422,230!2023-12-07,220,270-->
+- maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2025-01-05,429,250!2025-02-01,427,230-->
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2024-01-15,94,190!2025-01-27,479,270-->
 - toggle unfocused windows:::⊞Win+Home <!--SR:!2024-02-27,94,210!2023-12-08,90,210-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2024-11-04,401,250!2024-12-14,493,310-->
@@ -29,5 +29,5 @@ tags:
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2024-03-06,255,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2024-12-30,409,230!2025-02-28,504,270-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-12-03,189,230!2024-03-11,129,210-->
-- peek at desktop:::⊞Win+Comma <!--SR:!2024-02-11,93,230!2023-12-01,213,270-->
+- peek at desktop:::⊞Win+Comma <!--SR:!2024-02-11,93,230!2025-06-28,574,270-->
 - manage external displays:::⊞Win+P <!--SR:!2024-10-30,403,250!2024-04-04,208,250-->
