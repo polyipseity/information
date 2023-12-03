@@ -54,7 +54,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2024-02-14,204,270!2024-05-15,295,315!2024-04-12,268,315!2023-12-13,159,290!2024-03-24,223,275!2023-12-02,148,255!2024-01-19,184,295!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
+> | {{weak analogies}} | <!--SR:!2024-02-14,204,270!2024-05-15,295,315!2024-04-12,268,315!2023-12-13,159,290!2024-03-24,223,275!2024-02-12,72,235!2024-01-19,184,295!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -107,15 +107,15 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-12-20,47,210!2023-12-01,147,295!2024-08-06,304,275!2024-04-18,274,315!2023-12-06,27,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2023-12-20,47,210!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2023-12-06,27,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←comparison <!--SR:!2023-11-29,145,290!2024-02-24,214,310-->
+1. _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-12-04,25,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-11-28,4,130-->
+3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-12-06,4,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -162,7 +162,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-12-01,28,135!2024-01-01,183,295!2024-02-02,125,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>Compare positive and negative arguments.</li><li>State your stance with value judgement.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-12-16,14,130!2024-01-01,183,295!2024-02-02,125,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -198,7 +198,7 @@ return await memorize_table(
 ```
 %%
 
-Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2023-12-02,57,250-->
+Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2023-12-30,28,230-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
 
@@ -218,13 +218,13 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
-2. according to/refer to→:::←cause/reason <!--SR:!2023-11-30,61,175!2024-06-23,313,295-->
+2. according to/refer to→:::←cause/reason <!--SR:!2024-01-04,33,155!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2023-12-21,41,150!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2023-11-27,24,130-->
+6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-01-01,30,130-->
 7. pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
-8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2023-11-29,60,190-->
+8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2024-03-24,113,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -266,7 +266,7 @@ return await memorize_seq(
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-12-03,24,195!2024-07-19,293,295-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-12-03,58,275!2024-06-16,205,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2025-08-11,626,315-->
-5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2023-12-01,152,290!2024-01-25,190,295-->
+5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2025-02-14,440,290!2024-01-25,190,295-->
 6. Deduce causes and reasons.→:::←_(end)_ <!--SR:!2024-06-09,320,335!2024-04-09,265,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -388,7 +388,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←(Introduction) State your stance. <!--SR:!2024-07-30,340,295!2024-04-17,272,315-->
 2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2024-08-17,322,255!2024-04-18,273,315-->
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2024-05-15,228,235!2023-11-30,134,255-->
+3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2024-05-15,228,235!2024-11-07,341,255-->
 4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-10-13,339,270!2024-03-16,189,235-->
 5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-03-30,255,315!2024-08-21,320,275-->
 
@@ -420,7 +420,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2024-11-25,388,295-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-12-02,8,130!2024-08-18,268,230-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-12-11,9,130!2024-08-18,268,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2023-12-25,30,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -496,8 +496,8 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-12-17,23,195!2024-04-08,264,315-->
 2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2023-12-05,53,250!2023-12-12,140,250-->
-3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2023-12-01,135,255!2024-01-31,110,195-->
-4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2023-12-02,136,255-->
+3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2024-11-09,343,255!2024-01-31,110,195-->
+4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2024-11-12,346,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2024-04-03,259,315!2024-01-27,192,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

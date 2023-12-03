@@ -258,7 +258,7 @@ The steps for naming an organic compound are:
 
 1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
 2. bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2024-03-25,117,201-->
-3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2023-12-02,213,210!2024-06-11,211,210-->
+3. prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2025-08-29,636,230!2024-06-11,211,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

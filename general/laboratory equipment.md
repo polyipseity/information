@@ -260,7 +260,7 @@ return _chain.from_iterable(await _gather(
 17. ![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg)::[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-01-23,784,330-->
 18. ![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg)::[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:2025-03-18,535,310-->
 19. ![graduated pipette](../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg)::[graduated pipette](graduated%20pipette.md) <!--SR:!2024-02-26,87,290-->
-20. ![heat-resistant mat/heatproof mat](../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg)::[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:2023-12-02,172,310-->
+20. ![heat-resistant mat/heatproof mat](../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg)::[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-12-08,737,330-->
 21. ![measuring cylinder/graduated cylinder/mixing cylinder](../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg)::[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:2025-11-14,728,330-->
 22. ![mortar and pestle](../archives/Wikimedia%20Commons/White-Mortar-and-Pestle.jpg)::[mortar and pestle](mortar%20and%20pestle.md) <!--SR:2024-03-09,264,330-->
 23. ![pipeclay triangle](../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg)::[pipeclay triangle](pipeclay%20triangle.md) <!--SR:2024-05-01,304,330-->
