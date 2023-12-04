@@ -65,7 +65,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 > __one-sided first derivative test__
 >
 > 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md). $I$ is an [interval](interval%20(mathematics).md) containing $c$. $f$ is [right/left-differentiable](differentiable%20function.md) at $c$, i.e. $f'_\pm(c)$ exists. (Choose either right (`+`) or left (`-`).)}}
-> 2. {{then:<ul><li>If $f'_-(c)<0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_-(c)>0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_+(c)<0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>If $f'_+(c)>0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>Otherwise, the test is inconclusive.</li></ul>}} <!--SR:!2023-12-03,2,239!2023-12-12,11,279-->
+> 2. {{then:<ul><li>If $f'_-(c)<0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_-(c)>0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_+(c)<0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>If $f'_+(c)>0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>Otherwise, the test is inconclusive.</li></ul>}} <!--SR:!2023-12-10,6,239!2023-12-12,11,279-->
 
 #### examples
 

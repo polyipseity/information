@@ -47,7 +47,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 &=\frac12\rho\pi{}H\left(R_O^4-R_I^4\right)\\
 &=\frac12\rho\pi{}H\left(R_O^2-R_I^2\right)\left(R_O^2+R_I^2\right)\\
 &=\frac12m\left(R_O^2+R_I^2\right)
-\end{aligned}$ <!--SR:!2024-01-04,66,310!2023-12-07,43,290!2023-12-28,59,310!2023-12-04,40,290-->
+\end{aligned}$ <!--SR:!2024-01-04,66,310!2023-12-07,43,290!2023-12-28,59,310!2024-05-11,159,310-->
 
 ### rod, axis through certain distance from one end
 

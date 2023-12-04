@@ -204,7 +204,7 @@ The steps for naming an organic compound are:
 3. most multiple bonds→:::←maximum length <!--SR:!2023-12-28,163,256!2025-10-04,690,282-->
 4. maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
 5. most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2024-04-04,127,262-->
-6. most single bonds→:::←_(end)_ <!--SR:!2023-12-04,286,345!2025-03-21,668,345-->
+6. most single bonds→:::←_(end)_ <!--SR:!2024-04-27,145,325!2025-03-21,668,345-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -427,7 +427,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROH}}
 > - prefix: {{hydroxy-}}
 > - suffix: {{-ol}}
-> - infix: {{(locant)}} <!--SR:!2024-05-06,436,362!2024-05-03,431,362!2024-05-28,453,362!2024-03-28,401,365!2023-12-03,285,345!2024-04-01,405,367-->
+> - infix: {{(locant)}} <!--SR:!2024-05-06,436,362!2024-05-03,431,362!2024-05-28,453,362!2024-03-28,401,365!2027-08-18,1353,365!2024-04-01,405,367-->
 
 > {{ether}}
 > - group: {{ether}}
