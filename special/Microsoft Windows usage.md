@@ -28,6 +28,6 @@ tags:
 - close dialog:::Esc <!--SR:!2023-12-16,261,330!2024-02-13,289,290-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2024-03-06,255,250-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2024-12-30,409,230!2025-02-28,504,270-->
-- cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2023-12-03,189,230!2024-03-11,129,210-->
+- cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2025-02-10,434,230!2024-03-11,129,210-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2024-02-11,93,230!2025-06-28,574,270-->
 - manage external displays:::⊞Win+P <!--SR:!2024-10-30,403,250!2024-04-04,208,250-->

@@ -160,7 +160,7 @@ return _chain.from_iterable(await _gather(
 14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2023-12-29,144,230!2023-12-10,46,250-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2023-12-18,66,250!2024-06-27,292,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2023-12-05,127,230!2023-12-10,187,310-->
-17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-01-03,159,250!2023-12-04,9,150-->
+17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-01-03,159,250!2023-12-10,6,130-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2024-01-15,45,190!2024-10-15,381,290-->
 19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-12-07,118,250!2024-01-24,74,150-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2024-02-02,189,250!2024-02-08,85,210-->
@@ -197,7 +197,7 @@ return _chain.from_iterable(await _gather(
 1. [Bunsen burner](Bunsen%20burner.md)::![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg) <!--SR:2024-03-02,256,330-->
 2. [Liebig condenser](Liebig%20condenser.md)::![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:2024-01-05,208,310-->
 3. [beaker](beaker.md)::![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:2024-03-28,277,330-->
-4. [burette](burette.md)::![burette](../archives/Wikimedia%20Commons/Burette.svg) <!--SR:2023-12-03,180,310-->
+4. [burette](burette.md)::![burette](../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2026-01-13,771,330-->
 5. [burette clamp](burette%20clamp.md)::![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:2025-01-03,427,290-->
 6. [clamp](clamp.md)::![clamp](../archives/Wikimedia%20Commons/Utility%20clamp1.jpg) <!--SR:2024-05-14,317,330-->
 7. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)::![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg) <!--SR:2024-02-04,238,330-->
@@ -266,7 +266,7 @@ return _chain.from_iterable(await _gather(
 23. ![pipeclay triangle](../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg)::[pipeclay triangle](pipeclay%20triangle.md) <!--SR:2024-05-01,304,330-->
 24. ![reagent bottle](../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg)::[reagent bottle](reagent%20bottle.md) <!--SR:2024-02-09,242,330-->
 25. ![round-bottom(ed) flask](../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg)::[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:2024-04-09,289,330-->
-26. ![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg)::[rubber bulb](rubber%20bulb.md) <!--SR:2023-12-04,186,310-->
+26. ![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg)::[rubber bulb](rubber%20bulb.md) <!--SR:!2026-02-08,797,330-->
 27. ![rubber stopper/rubber bung/rubber cork](../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg)::[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:2024-02-08,240,330-->
 28. ![safety spectacles/safety glasses/goggles](../archives/Wikimedia%20Commons/Safety%20Goggles.jpg)::[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:2024-03-18,273,330-->
 29. ![spatula](../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG)::[spatula](spatula.md) <!--SR:2024-06-05,334,330-->

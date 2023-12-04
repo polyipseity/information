@@ -114,7 +114,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
-2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2023-12-04,25,155-->
+2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2024-01-11,38,155-->
 3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-12-06,4,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
@@ -263,8 +263,8 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2023-12-03,24,195!2024-07-19,293,295-->
-3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2023-12-03,58,275!2024-06-16,205,215-->
+2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2024-01-19,46,195!2024-07-19,293,295-->
+3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2024-05-11,159,275!2024-06-16,205,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2025-08-11,626,315-->
 5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2025-02-14,440,290!2024-01-25,190,295-->
 6. Deduce causes and reasons.→:::←_(end)_ <!--SR:!2024-06-09,320,335!2024-04-09,265,315-->

@@ -71,14 +71,14 @@ return await memorize_map(
 2. $\cos{x}$::$-\sin{x}$ <!--SR:!2023-12-17,16,290-->
 3. $\tan{x}$::$\sec^2{x}$ <!--SR:!2023-12-17,16,290-->
 4. $\cot{x}$::$-\csc^2{x}$ <!--SR:!2023-12-16,15,290-->
-5. $\sec{x}$::$\sec{x}\tan{x}$ <!--SR:!2023-12-03,2,250-->
+5. $\sec{x}$::$\sec{x}\tan{x}$ <!--SR:!2023-12-12,8,270-->
 6. $\csc{x}$::$-\csc{x}\cot{x}$ <!--SR:!2023-12-10,9,270-->
-7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-04,3,250-->
+7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-15,11,270-->
 8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2}}$ <!--SR:!2023-12-16,15,290-->
 9. $\arctan{x}$::$\frac1{x^2+1}$ <!--SR:!2023-12-18,17,290-->
 10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2023-12-15,14,290-->
 11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-08,7,250-->
-12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-03,2,250-->
+12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$ <!--SR:!2023-12-11,7,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -96,7 +96,7 @@ return await memorize_map(
 8. $-\frac1{\sqrt{1-x^2}}$::$\arccos{x}$ <!--SR:!2023-12-18,17,290-->
 9. $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2023-12-11,10,270-->
 10. $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2023-12-17,16,290-->
-11. $\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arcsec}{x}$ <!--SR:!2023-12-03,2,250-->
+11. $\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arcsec}{x}$ <!--SR:!2023-12-13,9,270-->
 12. $-\frac1{\lvert{x}\rvert\sqrt{x^2-1}}$::$\operatorname{arccsc}{x}$ <!--SR:!2023-12-13,12,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
