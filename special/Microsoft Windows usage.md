@@ -9,7 +9,7 @@ tags:
 
 ### window management
 
-- pop up window menu:::Alt+Space <!--SR:!2024-02-23,146,230!2023-12-05,216,270-->
+- pop up window menu:::Alt+Space <!--SR:!2024-02-23,146,230!2025-07-09,582,270-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2024-02-09,199,250!2024-06-18,347,270-->
 - restore window size:::Alt+Space, R <!--SR:!2024-07-31,370,270!2024-01-01,166,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->

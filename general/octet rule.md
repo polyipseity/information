@@ -54,6 +54,6 @@ return await memorize_table(
 
 1. _(begin)_→:::←__duplet rule__ <!--SR:!2023-12-24,146,310!2023-12-09,134,310-->
 2. __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2023-12-11,136,310!2023-12-08,133,310-->
-3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-12-23,145,310!2023-12-05,131,310-->
+3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-12-23,145,310!2025-06-16,559,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
