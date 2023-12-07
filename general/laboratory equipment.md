@@ -162,7 +162,7 @@ return _chain.from_iterable(await _gather(
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-02-06,63,210!2023-12-10,187,310-->
 17. [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-01-03,159,250!2023-12-10,6,130-->
 18. [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2024-01-15,45,190!2024-10-15,381,290-->
-19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2023-12-07,118,250!2024-01-24,74,150-->
+19. [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-02-03,58,230!2024-01-24,74,150-->
 20. [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2024-02-02,189,250!2024-02-08,85,210-->
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2024-05-08,215,270-->
 22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2023-12-12,67,150!2024-08-29,279,250-->
@@ -293,7 +293,7 @@ return _chain.from_iterable(await _gather(
 1. [burette](burette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:2024-11-27,411,290-->
 2. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)::Rinse the equipment with deionized [water](water.md) before use. <!--SR:2024-04-24,297,330-->
 3. dropping bottle::literally bottle with dropper <!--SR:2024-04-24,271,310-->
-4. [graduated pipette](graduated%20pipette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:2023-12-07,153,250-->
+4. [graduated pipette](graduated%20pipette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-12-23,382,250-->
 5. [test tube](test%20tube.md), boiling tube::boiling tube: scaled-up to avoid [bumping](bumping%20(chemistry).md) <!--SR:2024-04-15,293,330-->
 6. [volumetric flask](volumetric%20flask.md)::Rinse the equipment with deionized [water](water.md) before use. <!--SR:2024-12-24,471,310-->
 7. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:2024-12-15,463,310-->
