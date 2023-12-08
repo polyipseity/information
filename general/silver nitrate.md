@@ -14,7 +14,7 @@ __Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [c
 
 ### halide abstraction
 
-Ag<sup>+</sup> {{reacts quickly with [halides](halide.md) to produce [insoluble](solubility.md) [silver halide](silver%20halide.md)}}: <!--SR:!2023-12-08,159,270-->
+Ag<sup>+</sup> {{reacts quickly with [halides](halide.md) to produce [insoluble](solubility.md) [silver halide](silver%20halide.md)}}: <!--SR:!2025-07-28,598,290-->
 
 > {{$\text{Ag}^+\text{(aq)}+\text{X}^-\text{(aq)}\rightarrow\text{AgX(s)}$}}
 >
