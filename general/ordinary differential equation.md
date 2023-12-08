@@ -79,7 +79,7 @@ Ordinary differential equations are furthered classified:
 3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-12-27,63,310!2024-05-13,160,310-->
 4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2024-07-17,225,330!2024-01-01,68,310-->
 5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-12-26,62,310!2023-12-23,59,310-->
-6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2023-12-08,55,310!2024-05-17,163,310-->
+6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2024-05-26,170,310!2024-05-17,163,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

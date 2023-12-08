@@ -350,7 +350,7 @@ return chain.from_iterable(await gather(
 21. chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 22. scandium(III) ion::colorless <!--SR:!2024-03-01,85,302-->
 23. titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2023-12-11,26,170-->
-24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-12-08,7,182-->
+24. vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2023-12-20,12,182-->
 25. vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-01-17,47,202-->
 26. manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2023-12-29,53,210-->
 
@@ -415,7 +415,7 @@ return chain.from_iterable(await gather(
 6. hydroxide ion:::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2026-01-30,1090,354-->
 7. nitrate ion:::NO<sub>3</sub><sup>-</sup> <!--SR:!2028-09-18,1780,312!2027-05-30,1441,314-->
 8. nitrite ion:::NO<sub>2</sub><sup>-</sup> <!--SR:!2025-08-01,710,259!2026-11-11,1286,310-->
-9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2023-12-08,473,312-->
+9. hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2029-07-09,2040,332-->
 10. hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2028-02-10,1564,290!2027-04-29,1416,314-->
 11. hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2026-01-17,1128,350-->
 12. permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-07,1459,293!2026-09-01,1005,253-->

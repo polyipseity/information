@@ -33,10 +33,10 @@ The corollary requires {{$f$ to be [continuous](continuous%20function.md) on the
 
 ### second part
 
-The second part is sometimes called the _second fundamental theorem of calculus_, or the __{{Newton-Leibniz}} theorem__. <!--SR:!2023-12-08,7,250-->
+The second part is sometimes called the _second fundamental theorem of calculus_, or the __{{Newton-Leibniz}} theorem__. <!--SR:!2023-12-27,19,250-->
 
 > __second fundamental theorem of calculus__
 >
-> {{Given a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $F'(x)=f(x)\quad\forall{x}\in(a,b)$, then $\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$.}} <!--SR:!2023-12-08,4,210-->
+> {{Given a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $F'(x)=f(x)\quad\forall{x}\in(a,b)$, then $\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$.}} <!--SR:!2023-12-16,8,210-->
 
 The second part is {{stronger than the [corollary](#corollary) because $f$ may not be [continuous](continuous%20function.md)}}. <!--SR:!2023-12-17,16,290-->
