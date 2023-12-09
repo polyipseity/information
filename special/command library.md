@@ -24,7 +24,7 @@ ffmpeg -i "$input" -af ebur128=framelog=verbose -f null -
 #### AAC in MP4
 
 ```shell
-ffmpeg -i "$input" -map 0:a -map_metadata 0:s:a -c:a aac -b:a 320000 -movflags +faststart "$output.m4a"
+ffmpeg -i "$input" -map 0:a -map_metadata 0:g -map_metadata 0:s:a -c:a aac -b:a 320000 -movflags +faststart "$output.m4a"
 ```
 
 #### AV1 and Opus in WebM
