@@ -16,7 +16,7 @@ tags:
 
 # neutralization
 
-__Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical reaction](chemical%20reaction.md) in which an [acid](acid.md) reacts with a [base](base%20(chemistry).md)}}. A definition based on the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md) is: <!--SR:!2023-12-09,173,278-->
+__Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical reaction](chemical%20reaction.md) in which an [acid](acid.md) reacts with a [base](base%20(chemistry).md)}}. A definition based on the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md) is: <!--SR:!2025-10-08,669,298-->
 
 > neutralization in the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md)
 > - {{AH + B → A + BH}} <!--SR:!2024-06-14,343,338-->
