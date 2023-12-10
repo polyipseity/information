@@ -125,7 +125,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise low}} |
 > | {{[melting point](melting%20point.md)}} | {{high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2024-02-23,220,270!2024-02-04,243,330!2026-02-09,801,330!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2024-12-27,392,250!2023-12-09,193,310!2023-12-26,58,333!2023-12-23,55,333-->
+> | {{[strength](strength%20of%20materials.md)}} | {{high}} | <!--SR:!2024-02-23,220,270!2024-02-04,243,330!2026-02-09,801,330!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2024-12-27,392,250!2026-03-15,827,330!2023-12-26,58,333!2023-12-23,55,333-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
