@@ -81,3 +81,91 @@ T&=\frac{2\pi}{\sqrt{\frac{k}m} }\\
 &=\frac\pi5\\
 &\approx0.628318531\mathrm{\ s}
 \end{aligned}$$
+
+## 6
+
+B
+
+__draft__
+
+Literally anyone who has played space games that involve fiddling with orbits should know the velocity decreases. This leaves B and C. By the [virial theorem](../../../../../general/virial%20theorem.md), $K = -\frac12 U \implies K \propto -U$. $r$ doubles, so $U$ halves, so $K$ halves, so $v$ is multipled by $\frac1{\sqrt2}$.
+
+## 9
+
+B
+
+__draft__
+
+$\omega = \sqrt{ \frac k m }$ and $A = \sqrt{ x^2 + \left( \frac v \omega \right)^2 }$
+
+## 10
+
+E
+
+__draft__
+
+A is obviously wrong. B and C are wrong because they required Earth to suddenly jump to the new radius. D is wrong because orbital speed is not arbitrary for an orbit.
+
+Alternatively, fiddle with orbits in games, then you should know it is obviously E.
+
+## 11
+
+A
+
+__draft__
+
+The moment of inertia of Earth will increase. By conservation of angular momentum, the angular velocity of Earth decreases.
+
+## 12
+
+A
+
+__draft__
+
+$$\begin{aligned}
+0.15 \cos \theta &= \sin \theta \\
+\tan \theta &= 0.15 \\
+\theta &= 8.53 \degree
+\end{aligned}$$
+
+## 13
+
+C
+
+__draft__
+
+They should stick together after collision to maximize energy loss.
+
+$$\begin{aligned}
+K_\text{max loss} &= \frac12 (0.5) (1)^2 + \frac12 (1) (-1)^2 - \frac12 (0.5 + 1) \left( \frac {(0.5)(1)+(1)(-1)} {0.5 + 1} \right)^2 \\
+&=\frac14 + \frac12 - \frac1{12} \\
+&=\frac23 \text{ J}
+\end{aligned}$$
+
+## 14
+
+C
+
+__draft__
+
+What?
+
+## 15
+
+D
+
+__draft__
+
+Waves do not transmit matter. Period.
+
+## 16
+
+C
+
+__draft__
+
+$$\begin{aligned}
+5 \sin 0 + 7 \sin \theta & = 10 \sin 0.708 \\
+\sin \theta & = \frac{10}7 \sin 0.708 \\
+\theta & \approx 1.19176228
+\end{aligned}$$
