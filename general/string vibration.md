@@ -16,7 +16,7 @@ tags:
 
 > __phase velocity for string vibration__
 >
-> {{$$\frac 1 c = v = \sqrt{\frac{T}{\mu}}$$}}
+> {{$$\frac 1 c = v = \sqrt{\frac{T}\mu}$$}}
 >
 > where
 > - {{[string](string%20(structure).md) properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}}
