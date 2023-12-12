@@ -31,8 +31,8 @@ tags:
 ### algebraic approach
 
 $$\begin{aligned}
-\xi & \overset{\text{def}}= x - ct \\
-\eta & \overset{\text{def}}= x + ct \\
+\xi & \overset{\text{def} }= x - ct \\
+\eta & \overset{\text{def} }= x + ct \\
 \frac{\partial}{\partial x} & = \frac{\partial \xi}{\partial x} \frac{\partial}{\partial \xi} + \frac{\partial \eta}{\partial x} \frac{\partial}{\partial \eta} \\
 & = \frac{\partial}{\partial \xi} + \frac{\partial}{\partial \eta} \\
 \frac{\partial}{\partial t} &= \frac{\partial \xi}{\partial t} \frac{\partial}{\partial \xi} + \frac{\partial \eta}{\partial t} \frac{\partial}{\partial \eta} \\
