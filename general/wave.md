@@ -22,9 +22,4 @@ tags:
 
 ### waves on strings
 
-> __wave velocity for waves on strings__
->
-> {{$$\frac 1 c = v = \sqrt{\frac{T}{\mu}}$$}}
->
-> where
-> - {{string properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is linear [density](density.md), i.e. mass per unit length}}
+- see: [string vibration](string%20vibration.md)

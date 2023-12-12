@@ -15,8 +15,8 @@ tags:
 > {{$$\frac{\partial^2 u}{\partial t^2} = c^2 \sum_{i=1}^n \frac{\partial^2 u}{\partial x_i^2}$$}}
 >
 > where
-> - {{function properties: $u$ is displacement from equilibrium at $n$-dimensional position $x$ and time $t$}}
-> - {{wave properties: $c$ is a non-negative constant}}
+> - {{[function](function%20(mathematics).md) properties: $u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
+> - {{[wave](wave.md) properties: $c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md)}}
 
 ## wave equation in one dimension
 
@@ -25,8 +25,8 @@ tags:
 > {{$$u(x, t) = F(x - ct) + G(x + ct)$$}}
 >
 > where
-> - {{function properties: $u$ is displacement from equilibrium at $n$-dimensional position $x$ and time $t$}}
-> - {{wave properties: $c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling waveforms}}
+> - {{[function](function%20(mathematics).md) properties: $u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
+> - {{[wave](wave.md) properties: $c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling [waveforms](waveform.md)}}
 
 ### algebraic approach
 
@@ -48,4 +48,4 @@ u(x, t) &= F(x - ct) + G(x + ct)
 
 > [!tip]
 >
-> - reason why one can swap partial derivatives: {{Think of $\frac{\partial}{\partial t}$ as an operator. Then for functions of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that differentiation does not depend on the order of operation for sufficiently smooth functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem).}}
+> - reason why one can swap [partial derivatives](partial%20derivate.md): {{Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem).}}
