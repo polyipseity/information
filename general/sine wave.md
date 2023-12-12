@@ -15,11 +15,5 @@ tags:
 > {{$$y_\mp(x, t) = A \sin(kx \mp \omega t + \phi) + D$$}}
 >
 > where
-> - {{$\mp$: negative is moving to the right, positive is moving to the left}}
-> - {{$x$ is position}}
-> - {{$t$ is time}}
-> - {{$A$ is amplitude}}
-> - {{$k$ is [wavenumber](wavenumber.md) or spatial frequency}}
-> - {{$\omega$ is [angular velocity](angular%20frequency.md)}}
-> - {{$\phi$ is phase offset}}
-> - {{$D$ is equilibrium amplitude}}
+> - {{function properties: $y$ is amplitude at position $x$ and time $t$. and for $\mp$, negative is moving to the right, positive is moving to the left}}
+> - {{wave properties: $A$ is amplitude, $k$ is [wavenumber](wavenumber.md) or spatial frequency, $\omega$ is [angular velocity](angular%20velocity.md), $\phi$ is phase offset, and $D$ is equilibrium offset}}
