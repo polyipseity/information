@@ -27,5 +27,4 @@ tags:
 > {{$$\frac 1 c = v = \sqrt{\frac{T}{\mu}}$$}}
 >
 > where
-> - {{$T$ is the [tension](tension%20(mechanics).md) of the string}}
-> - {{$\mu$ is the linear [density](density.md), i.e. mass per unit length}}
+> - {{string properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is linear [density](density.md), i.e. mass per unit length}}
