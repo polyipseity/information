@@ -32,7 +32,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 > - {{$\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$}}
-> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}} <!--SR:!2023-12-13,4,270!2023-12-13,4,270!2023-12-13,4,270!2023-12-13,4,270!2023-12-12,3,250!2023-12-12,3,250-->
+> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}} <!--SR:!2023-12-13,4,270!2023-12-13,4,270!2023-12-13,4,270!2023-12-13,4,270!2023-12-23,11,270!2023-12-20,8,250-->
 
 #### determinate forms
 
@@ -47,8 +47,8 @@ When the limit on the right of the equation does not exist but are in the follow
 > - {{$\frac{q}\infty = 0 \quad \text{if } q \ne \infty \text{ and } q \ne -\infty$}}
 > - {{$\infty^q = \begin{cases} 0 & \text{if } q < 0 \\ \infty & \text{if } q > 0 \end{cases}$}}
 > - {{$q^\infty = \begin{cases} 0 & \text{if } 0 < q < 1 \\ \infty & \text{if } q > 1 \end{cases}$}}
-> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2023-12-12,3,250!2023-12-12,3,250!2023-12-10,1,230!2023-12-10,1,230!2023-12-12,3,250!2023-12-13,4,270-->
+> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2023-12-22,10,270!2023-12-24,12,270!2023-12-13,1,210!2023-12-14,2,230!2023-12-21,9,270!2023-12-13,4,270-->
 
 ### limits of compositions of functions
 
-In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}. <!--SR:!2023-12-12,3,250-->
+In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}. <!--SR:!2023-12-19,7,250-->

@@ -113,7 +113,7 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e928"--><!-- The following content is generated at 2023-12-04T08:10:23.083009+08:00. Any edits will be overridden! -->
 
-1. [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md) <!--SR:!2023-12-12,88,214-->
+1. [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md) <!--SR:!2024-01-28,47,194-->
 2. [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2024-06-15,222,214-->
 3. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::high chemical resistance, high [water](water.md) resistance, low [density](density.md), smooth, [strong](strength%20of%20materials.md), [tough](toughness.md) <!--SR:!2023-12-20,74,170-->
 4. [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2024-06-02,254,241-->
@@ -129,7 +129,7 @@ return _chain.from_iterable(await _gather(
 
 1. [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2024-01-20,179,254-->                                                                                                                           
 2. [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2024-05-06,194,210-->                                                                                                                           
-3. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2023-12-11,32,130-->
+3. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2023-12-27,15,130-->
 4. [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2024-08-13,318,261-->
 5. [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2023-12-26,17,130-->
 6. [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2024-04-16,144,201-->

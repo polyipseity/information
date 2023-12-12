@@ -176,7 +176,7 @@ The steps for naming an organic compound are:
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2024-06-17,305,190!2024-02-11,283,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-03-10,287,247!2023-12-31,157,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2023-12-24,45,227-->
-10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2023-12-10,94,245-->
+10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-01-27,46,225-->
 11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2024-05-23,211,267-->
 12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-05-05,413,273!2024-06-14,400,307-->
 13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2024-05-06,376,307-->
@@ -390,7 +390,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
 > - suffix: {{-ane}}
 > - infix: {{(none), (locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2024-04-09,412,368!2024-04-07,411,368!2024-12-06,523,348!2023-12-12,294,348!2024-04-03,407,368!2026-09-16,1012,348!2024-04-04,408,368-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2024-04-09,412,368!2024-04-07,411,368!2024-12-06,523,348!2027-10-17,1405,368!2024-04-03,407,368!2026-09-16,1012,348!2024-04-04,408,368-->
 
 > {{alkene}}
 > - group: {{alkenyl}}
@@ -490,7 +490,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2023-12-11,293,348!2024-04-08,411,368!2026-03-30,958,348!2025-07-18,623,268!2024-04-14,417,368-->
+> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2027-10-13,1401,368!2024-04-08,411,368!2026-03-30,958,348!2025-07-18,623,268!2024-04-14,417,368-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
