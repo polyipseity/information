@@ -67,7 +67,7 @@ return await memorize_table(
 5. guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2024-01-07,137,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2024-01-01,38,250!2024-07-07,302,295-->
-8. post hoc→:::←self-contradiction <!--SR:!2023-12-10,23,195!2024-04-04,260,315-->
+8. post hoc→:::←self-contradiction <!--SR:!2023-12-25,13,175!2024-04-04,260,315-->
 9. self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2023-12-31,58,250-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2024-02-07,75,275-->
 11. weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
@@ -115,7 +115,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2024-01-11,38,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-12-12,6,130-->
+3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-12-21,9,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -420,7 +420,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2024-11-25,388,295-->
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-12-11,9,130!2024-08-18,268,230-->
+2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-12-18,6,130!2024-08-18,268,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2023-12-25,30,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -495,7 +495,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2023-12-17,23,195!2024-04-08,264,315-->
-2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2024-04-15,132,250!2023-12-12,140,250-->
+2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2024-04-15,132,250!2024-11-25,349,250-->
 3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2024-11-09,343,255!2024-01-31,110,195-->
 4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2024-11-12,346,255-->
 5. Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2024-04-03,259,315!2024-01-27,192,295-->
