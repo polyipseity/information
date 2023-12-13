@@ -29,7 +29,7 @@ tags:
 >
 > where
 > - {{[function](function%20(mathematics).md) properties: $P$ is [power](power%20(physics).md) at [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
-> - {{[string](string%20(structure).md) properties: $T$ is [tension](tension%20(mechanics).md) and $mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}}
+> - {{[string](string%20(structure).md) properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}}
 > - {{[wave](wave.md) properties: $A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset}}
 
 #### derivation
