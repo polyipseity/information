@@ -58,7 +58,7 @@ my CV and cover letter for your consideration.; (signature)}}
 - date format: {{1<sup>st</sup> January, 1970}}
 - formatting: {{minimal}}
 - recipient: {{Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam}}
-- signature: {{Yours sincerely/faithfully,; signature; name}} <!--SR:!2023-12-16,43,290!2024-01-14,72,310!2023-12-13,40,290!2024-01-01,59,310-->
+- signature: {{Yours sincerely/faithfully,; signature; name}} <!--SR:!2023-12-16,43,290!2024-01-14,72,310!2024-04-06,115,290!2024-01-01,59,310-->
 
 ## content
 

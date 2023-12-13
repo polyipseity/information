@@ -125,7 +125,7 @@ return await memorize_table(
 11. [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-01-14,114,250!2024-01-30,186,250-->
 12. [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-03-23,222,250!2024-01-26,192,270-->
 13. [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-06-29,294,270-->
-14. [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2023-12-13,40,190!2023-12-13,61,230-->
+14. [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-01-01,19,170!2024-01-12,30,210-->
 15. [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2024-04-13,217,230!2024-04-18,167,230-->
 16. [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2024-06-15,280,290!2024-02-07,138,210-->
 17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-04-07,237,270-->
