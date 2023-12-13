@@ -14,6 +14,6 @@ tags:
 
 ## typical speeds
 
-- {{average speed $\langle{v}\rangle$}}: {{$\langle{v}\rangle=\frac2{\sqrt\pi}v_p=\sqrt{\frac{8kT}{\pi{}m} }=\sqrt{\frac{8RT}{\pi{}M} }$}}
+- {{average speed $\langle v \rangle$}}: {{$\langle v \rangle=\frac2{\sqrt\pi}v_p=\sqrt{\frac{8kT}{\pi{}m} }=\sqrt{\frac{8RT}{\pi{}M} }$}}
 - {{most probable speed $v_p$}}: {{$v_p=\sqrt{\frac{2kT}m}=\sqrt{\frac{2RT}M}$}}
 - {{root-mean-square speed $v_\mathrm{rms}$}}: {{$v_\mathrm{rms}=\sqrt{\frac32}v_p=\sqrt{\frac{3kT}m}=\sqrt{\frac{3RT}M}$}} <!--SR:!2023-12-24,12,270!2023-12-16,7,250!2023-12-21,12,270!2023-12-16,7,250!2023-12-28,16,290!2023-12-20,11,270-->
