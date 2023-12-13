@@ -58,7 +58,7 @@ C
 
 __draft__
 
-$v_y=3/0.1=30\mathrm{\ m \cdot s^{-1}}$. Multiply $\sqrt2$ for the hypothenuse of a right-angled isosceles triangle.
+$v_y=3/0.1=30\mathrm{\ m \cdot s^{-1} }$. Multiply $\sqrt2$ for the hypothenuse of a right-angled isosceles triangle.
 
 ## 5
 
@@ -206,7 +206,7 @@ E
 
 __draft__
 
-Remove C and D as they are not standing waves. Remove A because $0.45x$ means each loop has a width of $\frac \pi {0.45} \approx 6.98131701 \text{ m}$. Next, find the phase velocity: $v = \sqrt{\frac T \mu} = \sqrt{\frac {0.4 \cdot 9.80665} {0.002}} \approx 44.2869055 \mathrm{\ m \cdot s^{-1}}$. Then, find the angular frequency: $\omega = k v = \frac {2 \cdot 2\pi} {0.9} 44.2869055 \approx 618.361853 \mathrm{\ rad \cdot s^{-1}}$. Therefore, the answer is E.
+Remove C and D as they are not standing waves. Remove A because $0.45x$ means each loop has a width of $\frac \pi {0.45} \approx 6.98131701 \text{ m}$. Next, find the phase velocity: $v = \sqrt{\frac T \mu} = \sqrt{\frac {0.4 \cdot 9.80665} {0.002}} \approx 44.2869055 \mathrm{\ m \cdot s^{-1} }$. Then, find the angular frequency: $\omega = k v = \frac {2 \cdot 2\pi} {0.9} 44.2869055 \approx 618.361853 \mathrm{\ rad \cdot s^{-1} }$. Therefore, the answer is E.
 
 ## 20
 
