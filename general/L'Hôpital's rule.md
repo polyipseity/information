@@ -32,7 +32,7 @@ tags:
 
 # L'Hôpital's rule
 
-__{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}}. <!--SR:!2023-12-19,18,300!2023-12-13,12,280!2023-12-19,18,300-->
+__{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}}. <!--SR:!2023-12-19,18,300!2024-01-15,33,280!2023-12-19,18,300-->
 
 > __L'Hôpital's rule__
 >
@@ -105,7 +105,7 @@ The following table lists out transformation from other [indeterminate forms](in
 4. $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2023-12-15,11,250!2023-12-18,17,290-->
 5. $\infty-\infty$→:::←$0^0$ <!--SR:!2023-12-16,4,250!2023-12-20,8,230-->
 6. $0^0$→:::←$1^\infty$ <!--SR:!2023-12-23,17,270!2024-01-15,34,290-->
-7. $1^\infty$→:::←$\infty^0$ <!--SR:!2023-12-15,14,290!2023-12-13,12,270-->
+7. $1^\infty$→:::←$\infty^0$ <!--SR:!2023-12-15,14,290!2024-01-26,44,290-->
 8. $\infty^0$→:::←_(end)_ <!--SR:!2023-12-15,14,290!2023-12-14,13,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
