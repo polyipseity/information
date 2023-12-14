@@ -153,7 +153,7 @@ return _chain.from_iterable(await _gather(
 7. [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2024-05-24,192,230!2023-12-18,10,150-->
 8. [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2024-03-23,101,150!2024-06-25,290,270-->
 9. [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2024-03-19,274,330!2024-03-17,272,330-->
-10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2023-12-14,75,190-->
+10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2024-05-04,142,190-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-07-24,351,290!2024-01-26,208,310-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2023-12-29,205,310!2024-04-06,286,330-->
 13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2024-10-04,364,290!2024-01-01,53,170-->
@@ -167,7 +167,7 @@ return _chain.from_iterable(await _gather(
 21. [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2024-05-08,215,270-->
 22. [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-01-16,35,130!2024-08-29,279,250-->
 23. [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2024-01-31,68,230!2024-06-26,291,270-->
-24. [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2024-04-19,249,270!2023-12-14,31,170-->
+24. [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2024-04-19,249,270!2024-02-04,52,170-->
 25. [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2024-02-15,132,250!2024-04-09,155,270-->
 26. [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-02-17,78,190!2024-04-04,174,210-->
 27. [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2024-02-19,207,270!2024-08-23,362,290-->

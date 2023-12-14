@@ -419,7 +419,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2023-12-14,116,210!2024-11-25,388,295-->
+1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-02-09,57,190!2024-11-25,388,295-->
 2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2023-12-18,6,130!2024-08-18,268,230-->
 3. Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2023-12-25,30,150-->
 
