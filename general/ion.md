@@ -329,7 +329,7 @@ return chain.from_iterable(await gather(
 
 1. hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
 2. sodium ion::colorless <!--SR:!2025-11-02,919,293-->
-3. potassium ion::colorless <!--SR:!2023-12-14,479,304-->
+3. potassium ion::colorless <!--SR:!2029-06-22,2017,324-->
 4. copper(I) ion::_(n/a)_ <!--SR:!2024-07-07,392,276-->
 5. silver ion::colorless <!--SR:!2027-03-01,1295,279-->
 6. mercury(I) ion::_(n/a)_ <!--SR:!2024-05-30,368,276-->

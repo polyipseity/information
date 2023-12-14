@@ -61,7 +61,7 @@ return await memorize_map(
 
 > [!tip]
 >
-> - [mnemonic](mnemonic.md): {{From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart.}} <!--SR:!2023-12-14,13,290-->
+> - [mnemonic](mnemonic.md): {{From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart.}} <!--SR:!2024-02-01,49,310-->
 
 ### function–derivative
 
@@ -89,7 +89,7 @@ return await memorize_map(
 1. $\cos{x}$::$\sin{x}$ <!--SR:!2023-12-16,15,290-->
 2. $-\sin{x}$::$\cos{x}$ <!--SR:!2023-12-15,14,290-->
 3. $\sec^2{x}$::$\tan{x}$ <!--SR:!2023-12-16,15,290-->
-4. $-\csc^2{x}$::$\cot{x}$ <!--SR:!2023-12-14,13,290-->
+4. $-\csc^2{x}$::$\cot{x}$ <!--SR:!2024-02-02,50,310-->
 5. $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2023-12-15,14,290-->
 6. $-\csc{x}\cot{x}$::$\csc{x}$ <!--SR:!2023-12-17,16,290-->
 7. $\frac1{\sqrt{1-x^2} }$::$\arcsin{x}$ <!--SR:!2023-12-18,17,290-->
