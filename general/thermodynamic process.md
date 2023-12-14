@@ -52,13 +52,13 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e939"--><!-- The following content is generated at 2023-12-14T17:49:55.111580+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[adiabatic process](adiabatic%20process.md): $Q = 0$
-2. [adiabatic process](adiabatic%20process.md): $Q = 0$→:::←[isobaric process](isobaric%20process.md): $\Delta P = 0$
-3. [isobaric process](isobaric%20process.md): $\Delta P = 0$→:::←[isochoric process](isochoric%20process.md): $\Delta V = 0$
-4. [isochoric process](isochoric%20process.md): $\Delta V = 0$→:::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$
-5. [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→:::←[isoentropic process](isoentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)
-6. [isoentropic process](isoentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)→:::←[isothermal process](isothermal%20process.md): $\Delta T = 0$
-7. [isothermal process](isothermal%20process.md): $\Delta T = 0$→:::←[polytropic process](polytropic%20process.md): $PV^n = C$
-8. [polytropic process](polytropic%20process.md): $PV^n = C$→:::←_(end)_
+1. _(begin)_→:::←[adiabatic process](adiabatic%20process.md): $Q = 0$ <!--SR:!2023-12-18,4,270!2023-12-18,4,270-->
+2. [adiabatic process](adiabatic%20process.md): $Q = 0$→:::←[isobaric process](isobaric%20process.md): $\Delta P = 0$ <!--SR:!2023-12-18,4,270!2023-12-18,4,270-->
+3. [isobaric process](isobaric%20process.md): $\Delta P = 0$→:::←[isochoric process](isochoric%20process.md): $\Delta V = 0$ <!--SR:!2023-12-17,3,250!2023-12-18,4,270-->
+4. [isochoric process](isochoric%20process.md): $\Delta V = 0$→:::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$ <!--SR:!2023-12-18,4,270!2023-12-17,3,250-->
+5. [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→:::←[isoentropic process](isoentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md) <!--SR:!2023-12-18,4,270!2023-12-18,4,270-->
+6. [isoentropic process](isoentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)→:::←[isothermal process](isothermal%20process.md): $\Delta T = 0$ <!--SR:!2023-12-17,3,250!2023-12-18,4,270-->
+7. [isothermal process](isothermal%20process.md): $\Delta T = 0$→:::←[polytropic process](polytropic%20process.md): $PV^n = C$ <!--SR:!2023-12-18,4,270!2023-12-17,3,250-->
+8. [polytropic process](polytropic%20process.md): $PV^n = C$→:::←_(end)_ <!--SR:!2023-12-18,4,270!2023-12-17,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
