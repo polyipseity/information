@@ -19,6 +19,15 @@ In [chemistry](chemistry.md), the enthalpy of reaction is {{the heat change of r
 
 For [endothermic processes](endothermic%20process.md), {{heat is absorbed while for [exothermic processes](exothermic%20process.md), heat is released}}. <!--SR:!2025-04-18,560,310-->
 
+## definition
+
+> __enthalpy of a [thermodynamic system](thermodynamic%20system.md)__
+>
+> {{$$H = U + pV$$}}
+>
+> - where
+>     - {{[state variables](state%20variable.md): $U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}}
+
 ## applications
 
 ### enthalpy changes
