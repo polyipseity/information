@@ -18,11 +18,11 @@ After finding the [roots](zero%20of%20a%20function.md) of the characteristic equ
 
 ### distinct real roots
 
-For a distinct real root $r_n$, its corresponding solution is {{$y_n(x)=c_ne^{r_nx}$}}. <!--SR:!2023-12-15,14,290-->
+For a distinct real root $r_n$, its corresponding solution is {{$y_n(x)=c_ne^{r_nx}$}}. <!--SR:!2024-02-07,54,310-->
 
 ### repeated real roots
 
-For a root $r$ of [multiplicity](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md) $k$, its corresponding solution is {{$y_1(x)+y_2(x)+\cdots+y_{k}(x)=c_1e^{rx}+xc_2e^{rx}+\cdots+x^{k-1}c_ke^{rx}$}}. <!--SR:!2023-12-15,14,290-->
+For a root $r$ of [multiplicity](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md) $k$, its corresponding solution is {{$y_1(x)+y_2(x)+\cdots+y_{k}(x)=c_1e^{rx}+xc_2e^{rx}+\cdots+x^{k-1}c_ke^{rx}$}}. <!--SR:!2024-01-27,43,290-->
 
 ### complex roots
 
@@ -30,7 +30,7 @@ For complex roots, they always come in [complex conjugate](complex%20conjugate.m
 
 Since $y(x)$ is [real-valued](real-valued%20function.md), {{$c_1+c_2$ must be [real](real%20number.md) and $c_1-c_2$ must be [imaginary](imaginary%20number.md) so that $y_1(x)$ and $y_2(x)$ are both [real-valued](real-valued%20function.md). Therefore, $c_1=\frac{C_1}2+i\frac{C_2}2$ and $c_2=\frac{C_1}2-i\frac{C_2}2$ are [complex conjugate](complex%20conjugate.md), where $C_1$ and $C_2$ are arbitrary [reals](real%20number.md). Putting $c_1$ and $c_2$ into the above solution, we obtain a solution without [imaginaries](imaginary%20number.md): $$\begin{aligned}y_1(x)+y_2(x)&=(c_1+c_2)e^{ax}\cos{bx}+i(c_1-c_2)e^{ax}\sin{bx}\\&=C_1e^{ax}\cos{bx}+C_2e^{ax}\sin{b}x\end{aligned}$$}} <!--SR:!2024-01-27,45,290-->
 
-If the complex roots are [repeated](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md), {{multiply it by powers of $x$ similar to [repeated real roots](#repeated%20real%20roots)}}. <!--SR:!2023-12-15,14,290-->
+If the complex roots are [repeated](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md), {{multiply it by powers of $x$ similar to [repeated real roots](#repeated%20real%20roots)}}. <!--SR:!2024-02-08,55,310-->
 
 ## see also
 
