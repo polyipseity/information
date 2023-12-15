@@ -2,15 +2,16 @@
 aliases: []
 tags:
   - date/2023/09/25/from
+  - date/2023/12/16/to
 ---
 
 # sample final attempt
 
 _HKUST PHYS 2011_
 
-- [attempt](attempt.md) · [check](check.md)
+- [attempt](attempt.md)
 - time allowed: n/a
-- time used: 2023-09-25T23:40:00+08:00/
+- time used: 2023-09-25T23:40:00+08:00/2023-12-16T00:48:30+08:00
 - type: preview
 
 ## 1
@@ -292,4 +293,189 @@ __draft__
 $$\begin{aligned}
 Q & = 20 \frac{273.15 + 800}{273.15 + 800 - 273.15 - 20} \\
 & \approx 27.5166667 \text{ kJ}
+\end{aligned}$$
+
+## 30
+
+B
+
+__draft__
+
+By definition, $\gamma = \frac{900}{800} = 1.125$.
+
+## 31
+
+B
+
+__draft__
+
+Work is done on the gas, but the internal energy of the gas does not change, so the supplied work leaves as heat from the gas.
+
+## 32
+
+A
+
+__draft__
+
+1. V increases but P remains constant
+2. T increases
+3. average kinetic energy increases
+
+## 33
+
+C
+
+__draft__
+
+Just think of air conditioners.
+
+## 34
+
+C
+
+__draft__
+
+- Carnot efficiency: $\eta_\text{max} = 1 - \frac{273.15 + 10}{273.15 + 100} \approx 0.24118987$
+- claimed efficiency: $\eta_\text{claimed} = \frac{80}{100} = 0.8$
+- Because the claimed efficiency is larger than the Carnot efficiency, therefore the second law of thermodynamics is violated.
+
+## 35
+
+B
+
+__draft__
+
+1. the internal energy is the same at the start and the end
+2. 400 J + 80 J = 40 J + 130 J + x
+3. x = 310 J
+
+## 36
+
+E
+
+__draft__
+
+$$\begin{aligned}
+W & = \int_1^2 p \,\mathrm{d}V \\
+& = \int_1^2 aV^2 \,\mathrm{d}V \\
+& = \left[ \frac13aV^3 \right]_1^2 \\
+& = \frac73a \\
+& = \frac{70}3 \text{ J} \\
+& \approx 23.3333333 \text{ J}
+\end{aligned}$$
+
+## 37
+
+D
+
+__draft__
+
+1. V multiplied by 2
+2. p multiplied by 4 (p=aV<sup>2</sup>)
+3. T multiplied by 8, so 100 K becomes 800 K
+
+## 38
+
+C
+
+__draft__
+
+$$\begin{aligned}
+pV^\gamma & = C & (\text{adiabatic process}) \\
+pV^\frac43 & = C \\
+pV & \propto T \\
+p\frac{1}{p^\frac34} & \propto T \\
+T & \propto p^\frac14 \\
+T & = \left(\frac15\right)^\frac14 (273.15 + 5) \\
+& \approx 186.010116 \mathrm{\ K} \\
+& = -87.139884 \mathrm{\ \degree C}
+\end{aligned}$$
+
+## 39
+
+A
+
+__draft__
+
+1. heat capacity ratio: 5/3, so Q/W = 5/2 for isobaric
+2. a->b: 100 K -> 150 K, isobaric, delta U = 1, Q = 5 / 3, W = 2 / 3
+3. b->c: 150 K -> 450 K, isochoric, delta U = 6, Q = 6, W = 0
+4. c->d: 450 K -> 300 K, isobaric, delta U = -3, Q = -5, W = -2 
+5. d->a: 300 K -> 100 K, isochoric, delta U = -4, Q = -4, W = 0
+6. efficiency: (5 / 3 + 6) / (- 2 / 3 + 2) = 5.75
+
+## 40
+
+C
+
+__draft__
+
+1. delta U = (3/2)(2)R(150-100) ≈ 1247.16939 J
+2. W = (2/3)(1247.16939) ≈ 831.44626 J
+
+## 41
+
+C
+
+__draft__
+
+1. moment of inertia = 0.5(5)(0.5)^2 + 5(0.3)^2 = 1.075 kg m^2
+2. angular impulse = 5(0.3 + 0.5) = 4 N m s
+3. energy = 4^2 / 1.075 / 2 ≈ 7.44186045 J
+4. height = 7.44186045 / 5 / 9.80665 ≈ 0.151771715 m
+5. angle = arctan(sqrt(0.3^2 - (0.3 - 0.151771715)^2) / (0.3 - 0.151771715)) ≈ 60.3899559 deg
+
+## 42
+
+C
+
+__draft__
+
+1. p_A = 5, V_A = 1
+2. p_B = 1, V_B = 4
+3. pV_total = 5(1) + 1(4) = 9
+4. p = 9 / (1 + 4) = 1.8
+
+## 43
+
+D
+
+__draft__
+
+1. p_A = 5, V_A = 1, T_A = 300, n_A = 5 * 1 / 300 = 1 / 60
+2. p_B = 1, V_B = 4, T_B = 400, n_B = 1 * 4 / 400 = 1 / 100
+3. n = 1 / 60 + 1 / 100 = 2 / 75
+4. 300n_A_new / 1 = 400(2 / 75 - n_A_new) / 4 => 300n_A_new = 8 / 3 - 100n_A_new => n_A_new = 1 / 150
+5. p_new = 300(1 / 150) / 1 = 2
+
+## 44
+
+A
+
+__draft__
+
+1. C_p = C_V + R = 37 + R ≈ 45.3144626
+2. gamma = 45.3144626 / 37 ≈ 1.22471521, so Q/W = 5.45007706 for isobaric process
+3. c->a: 0.16 m^3 -> 0.01 m^3, 820 K -> 51.25 K, isobaric, delta U = -1, Q = -1.22471521, W = -0.22471521
+4. a->b: 51.25 K -> 820 K, isochoric, delta U = 1, Q = 1, W = 0
+5. b->c: 0.01 m^3 -> 0.16 m^3, 820 K, isothermic, delta U = 0, dW = p dV = 2R(820)/V dV ≈ 13635.7187/V dV => W = 13635.7187(ln(0.16) - ln(0.01)) ≈ 37806.2399 J = 37806.2399 / (2(37)(820 - 51.25)) ≈ 0.664579036, Q ≈ 0.664579036
+6. e = (0.664579036 - 0.22471521) / (0.664579036 + 1) ≈ 0.264249289
+
+## 45
+
+C
+
+__draft__
+
+$$\begin{aligned}
+\mathrm{d}U & = \delta Q - \delta W \\
+& = \frac12 \delta W - \delta W \\
+& = -\frac12 \delta W \\
+\frac{nR}{\gamma - 1} \,\mathrm{d}T & = -\frac12 p \,\mathrm{d}V \\
+\frac{2nR}{\gamma - 1} \,\mathrm{d}T & = -\frac{nRT}V \,\mathrm{d}V \\
+\frac{2}{T(\gamma - 1)} \,\mathrm{d}T & = -\frac{1}V \,\mathrm{d}V \\
+\frac2{\gamma - 1}\ln{T} & = -\ln{V} \\
+T^{\frac2{\gamma - 1}} & = V^{-1} \\
+T^{\frac2{\gamma - 1}}V & = 1 \\
+TV^{\frac{\gamma - 1}2} & = 1
 \end{aligned}$$
