@@ -12,11 +12,11 @@ tags:
 ## physical quantities
 
 1. [displacement ($\vec{s}$)](../general/displacement%20(geometry).md):::[angular displacement ($\vec{\theta}$, $\vec{\phi}$)](../general/angular%20displacement.md) <!--SR:!2023-12-18,16,290!2023-12-16,14,290-->
-2. [velocity ($\vec{v}$)](../general/velocity.md):::[angular velocity ($\vec{\omega}$)](../general/angular%20velocity.md) <!--SR:!2023-12-17,15,290!2023-12-15,13,290-->
-3. [acceleration ($\vec{a}$)](../general/acceleration.md):::[angular acceleration ($\vec{\alpha}$)](../general/angular%20acceleration.md) <!--SR:!2023-12-17,15,290!2023-12-15,13,290-->
+2. [velocity ($\vec{v}$)](../general/velocity.md):::[angular velocity ($\vec{\omega}$)](../general/angular%20velocity.md) <!--SR:!2023-12-17,15,290!2024-02-02,49,310-->
+3. [acceleration ($\vec{a}$)](../general/acceleration.md):::[angular acceleration ($\vec{\alpha}$)](../general/angular%20acceleration.md) <!--SR:!2023-12-17,15,290!2024-02-02,49,310-->
 4. [momentum ($\vec{p}$)](../general/momentum.md):::[angular momentum ($\vec{L}$)](../general/angular%20momentum.md) <!--SR:!2023-12-19,17,290!2023-12-18,16,290-->
 5. [force ($\vec{F}$)](../general/force.md):::[torque ($\vec{\tau}$, $\vec{M}$)](../general/torque.md) <!--SR:!2023-12-16,14,290!2023-12-19,17,290-->
-6. [mass ($m$)](../general/mass.md):::[moment of inertia ($I$)](../general/moment%20of%20inertia.md) <!--SR:!2023-12-18,16,290!2023-12-15,13,290-->
+6. [mass ($m$)](../general/mass.md):::[moment of inertia ($I$)](../general/moment%20of%20inertia.md) <!--SR:!2023-12-18,16,290!2024-02-04,51,310-->
 7. [translational energy ($E_t$)](../general/kinetic%20energy.md):::[rotational energy ($E_r$)](../general/rotational%20energy.md) <!--SR:!2023-12-17,15,290!2023-12-19,17,290-->
 
 > [!tip]

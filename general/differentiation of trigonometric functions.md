@@ -73,10 +73,10 @@ return await memorize_map(
 4. $\cot{x}$::$-\csc^2{x}$ <!--SR:!2023-12-16,15,290-->
 5. $\sec{x}$::$\sec{x}\tan{x}$ <!--SR:!2024-01-02,21,270-->
 6. $\csc{x}$::$-\csc{x}\cot{x}$ <!--SR:!2023-12-18,6,250-->
-7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2} }$ <!--SR:!2023-12-15,11,270-->
+7. $\arcsin{x}$::$\frac1{\sqrt{1-x^2} }$ <!--SR:!2024-01-13,29,270-->
 8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2} }$ <!--SR:!2023-12-16,15,290-->
 9. $\arctan{x}$::$\frac1{x^2+1}$ <!--SR:!2023-12-18,17,290-->
-10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2023-12-15,14,290-->
+10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2024-02-13,60,310-->
 11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$ <!--SR:!2023-12-26,18,250-->
 12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$ <!--SR:!2024-01-06,25,290-->
 
@@ -87,10 +87,10 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b023"--><!-- The following content is generated at 2023-12-13T23:33:13.977847+08:00. Any edits will be overridden! -->
 
 1. $\cos{x}$::$\sin{x}$ <!--SR:!2023-12-16,15,290-->
-2. $-\sin{x}$::$\cos{x}$ <!--SR:!2023-12-15,14,290-->
+2. $-\sin{x}$::$\cos{x}$ <!--SR:!2024-02-06,53,310-->
 3. $\sec^2{x}$::$\tan{x}$ <!--SR:!2023-12-16,15,290-->
 4. $-\csc^2{x}$::$\cot{x}$ <!--SR:!2024-02-02,50,310-->
-5. $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2023-12-15,14,290-->
+5. $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2023-12-21,6,270-->
 6. $-\csc{x}\cot{x}$::$\csc{x}$ <!--SR:!2023-12-17,16,290-->
 7. $\frac1{\sqrt{1-x^2} }$::$\arcsin{x}$ <!--SR:!2023-12-18,17,290-->
 8. $-\frac1{\sqrt{1-x^2} }$::$\arccos{x}$ <!--SR:!2023-12-18,17,290-->
