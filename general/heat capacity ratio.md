@@ -18,6 +18,10 @@ tags:
 > - where
 >     - {{$C$ is the [heat capacity](heat%20capcaity.md), $\bar{C}$ is the [molar heat capacity](molar%20heat%20capacity.md), and $c$ is the [specific heat capacity](specific%20heat%20capacity.md); the subscript $p$ and $V$ means [constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}}
 
+> [!tip]
+>
+> - $Q / W$: {{Since the extra [heat capacity](heat%20capacity.md) of [isobaric processes](isobaric%20process.md) comes from [work](work%20(physics).md), therefore $Q / W = \gamma / (\gamma - 1)$ for [isobaric processes](isobaric%20process.md). For a generalization, see [polytropic process § relation between polytropic index and energy transfer ratio](polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio).}}
+
 ## ideal gas relations
 
 [Mayer's relation](Mayer's%20relation.md) {{provides a convenient way to deduce $C_V$ from the more easily found and commonly tabulated $C_p$}}.
@@ -39,7 +43,7 @@ Consider an [ideal gas](ideal%20gas.md). For [constant volume](isochoric%20proce
 > __derivation of relation between heat capacity ratio and degrees of freedom for an ideal gas__
 >
 > $$\begin{aligned}
-dV & = \left(\frac{\partial V}{\partial p}\right)_T \,\mathrm{d}p + \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T & (V(p, T)) \\
+\mathrm{d}V & = \left(\frac{\partial V}{\partial p}\right)_T \,\mathrm{d}p + \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T & (V(p, T)) \\
 & = \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T & (\text{isobaric process}) \\
 \mathrm{d}W & = p \,\mathrm{d}V \\
 & = p \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T \\
