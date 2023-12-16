@@ -12,5 +12,5 @@ tags:
 > __speed of circular orbit__
 >
 > {{$$v = \sqrt{\frac{GM}r} = \sqrt{gr}$$}}
->
+> <!--SR:!2023-12-19,3,250-->
 
