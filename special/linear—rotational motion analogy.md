@@ -16,8 +16,9 @@ tags:
 3. [acceleration ($\vec{a}$)](../general/acceleration.md):::[angular acceleration ($\vec{\alpha}$)](../general/angular%20acceleration.md)
 4. [momentum ($\vec{p}$)](../general/momentum.md):::[angular momentum ($\vec{L}$)](../general/angular%20momentum.md)
 5. [force ($\vec{F}$)](../general/force.md):::[torque ($\vec{\tau}$, $\vec{M}$)](../general/torque.md)
-6. [mass ($m$)](../general/mass.md):::[moment of inertia ($I$)](../general/moment%20of%20inertia.md)
-7. [translational energy ($E_t$)](../general/kinetic%20energy.md):::[rotational energy ($E_r$)](../general/rotational%20energy.md)
+6. [impulse ($\vec{J}$)](../general/impulse%20(physics).md):::[angular impulse (none)](../general/angular%20momentum.md)
+7. [mass ($m$)](../general/mass.md):::[moment of inertia ($I$)](../general/moment%20of%20inertia.md)
+8. [translational energy ($E_t$)](../general/kinetic%20energy.md):::[rotational energy ($E_r$)](../general/rotational%20energy.md)
 
 > [!tip]
 >

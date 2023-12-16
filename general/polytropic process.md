@@ -29,12 +29,11 @@ tags:
 
 > __relation between polytropic index and energy transfer ratio__
 >
-> {{$$pV^{(1 - \gamma)K + \gamma} = nR$$}}
+> {{$$pV^{(1 - \gamma)K + \gamma} = C$$}}
 >
 > - where
->     - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $n$ is the [amount of substance](amount%20of%20substance.md) (i.e. number of [moles](mole%20(unit).md))}}
+>     - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
 >     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
->     - {{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}}
 > - conditions: {{[ideal gas](ideal%20gas.md)}}
 
 ### derivation
@@ -50,13 +49,13 @@ U & = \frac{f}2nRT = \frac{nRT}{\gamma - 1} \\
 & = (K - 1)p \,\mathrm{d}V \\
 & = \frac{(K - 1)nRT}V \,\mathrm{d}V \\
 \frac{1}{T(\gamma - 1)} \,\mathrm{d}T & = \frac{K - 1}V \,\mathrm{d}V \\
-\frac{\ln T}{\gamma - 1} & = (K - 1)\ln V \\
-T^{\frac1{\gamma - 1}} & = V^{K - 1} \\
-T & = V^{(K - 1)(\gamma - 1)} \\
-\frac{pV}{nR} & = V^{(K - 1)(\gamma - 1)} \\
-pV^{1 + (K - 1)(1 - \gamma)} & = nR \\
-pV^{1 + K - K\gamma - 1 + \gamma} & = nR \\
-pV^{(1 - \gamma)K + \gamma} &= nR
+\frac{\ln T}{\gamma - 1} & = (K - 1)\ln V + C \\
+T^{\frac1{\gamma - 1}} & = V^{K - 1}C \\
+T & = V^{(K - 1)(\gamma - 1)}C \\
+\frac{pV}{nR} & = V^{(K - 1)(\gamma - 1)}C \\
+pV^{1 + (K - 1)(1 - \gamma)} & = C \\
+pV^{1 + K - K\gamma - 1 + \gamma} & = C \\
+pV^{(1 - \gamma)K + \gamma} &= C
 \end{aligned}$$
 
 ## relationship to ideal process
