@@ -83,7 +83,7 @@ E & = K + U \\
 
 > __mass of a simple pendulum for small angles__
 >
-> {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2}} = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}}
+> {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}}
 >
 > - where
 >     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length}}
@@ -92,7 +92,7 @@ E & = K + U \\
 
 > __mass of a physical pendulum for small angles__
 >
-> {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl}} \end{aligned}$$}}
+> {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
 >
 > - where
 >     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}}
