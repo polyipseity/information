@@ -39,7 +39,7 @@ In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](va
 
 ### nucleophilic substitution
 
-Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2024-06-14,281,275!2023-12-16,174,300-->
+Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md), while primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}}. {{[Phosphorous trihalides](phosphorous%20trihalide.md)}} can substitute all of above alcohols. <!--SR:!2024-06-14,281,275!2024-03-11,86,280-->
 
 ### oxidation
 
@@ -72,7 +72,7 @@ return await memorize_table(
 > |-|-|
 > | {{[dehydration](#dehydration)}} |  |
 > | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[oxidation](#oxidation)}} |  | <!--SR:!2023-12-16,188,315!2024-07-01,349,340!2024-07-02,350,340-->
+> | {{[oxidation](#oxidation)}} |  | <!--SR:!2024-03-18,93,295!2024-07-01,349,340!2024-07-02,350,340-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

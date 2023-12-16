@@ -32,4 +32,4 @@ tags:
   - {{`*`}}: {{select all columns}}
   - {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
 - `table_reference`
-  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2024-02-15,94,250!2024-02-18,107,310!2024-01-22,98,310!2024-02-11,100,310!2024-01-14,72,299!2024-01-28,104,319!2024-01-08,87,319!2024-01-10,89,319!2024-02-24,113,319!2024-01-06,85,319!2024-02-14,103,319!2024-01-11,89,319!2023-12-16,64,299!2023-12-30,75,299-->
+  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2024-02-15,94,250!2024-02-18,107,310!2024-01-22,98,310!2024-02-11,100,310!2024-01-14,72,299!2024-01-28,104,319!2024-01-08,87,319!2024-01-10,89,319!2024-02-24,113,319!2024-01-06,85,319!2024-02-14,103,319!2024-01-11,89,319!2024-01-16,31,279!2023-12-30,75,299-->

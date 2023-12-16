@@ -16,7 +16,7 @@ tags:
 >
 > where
 > - {{[function](function%20(mathematics).md) properties: $u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
-> - {{[wave](wave.md) properties: $c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md)}} <!--SR:!2023-12-16,3,250!2023-12-17,4,270!2023-12-17,4,270-->
+> - {{[wave](wave.md) properties: $c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md)}} <!--SR:!2023-12-26,10,250!2023-12-17,4,270!2023-12-17,4,270-->
 
 ## wave equation in one dimension
 
@@ -48,4 +48,4 @@ u(x, t) &= F(x - ct) + G(x + ct)
 
 > [!tip]
 >
-> - reason why one can swap [partial derivatives](partial%20derivate.md): {{Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem).}} <!--SR:!2023-12-16,3,250-->
+> - reason why one can swap [partial derivatives](partial%20derivate.md): {{Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem).}} <!--SR:!2023-12-25,9,250-->

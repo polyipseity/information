@@ -14,4 +14,4 @@ tags:
 
 ## IEEE 754 standard
 
-This gives a precision {{from 15 to 17 [significant decimal figures](significant%20figures.md)}}. <!--SR:!2023-12-16,71,270-->
+This gives a precision {{from 15 to 17 [significant decimal figures](significant%20figures.md)}}. <!--SR:!2024-06-24,191,270-->

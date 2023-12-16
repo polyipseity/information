@@ -171,8 +171,8 @@ The steps for naming an organic compound are:
 2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
 3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2023-12-20,81,130-->
 4. identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2024-03-01,238,227-->
-5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2023-12-16,77,190!2024-08-06,334,207-->
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2023-12-16,15,147-->
+5. identify remaining functional groups→:::←identify multiple bonds <!--SR:!2024-05-09,145,190!2024-08-06,334,207-->
+6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2023-12-25,9,130-->
 7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2024-06-17,305,190!2024-02-11,283,265-->
 8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-03-10,287,247!2023-12-31,157,230-->
 9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2023-12-24,45,227-->

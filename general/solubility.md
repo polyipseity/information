@@ -317,7 +317,7 @@ return await memorize_map(
 10. [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-04,41,278-->
 11. [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-30,45,278-->
 12. [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-12-24,15,198-->
-13. [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-16,29,238-->
+13. [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-30,14,218-->
 14. [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-23,18,170-->
 15. [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-13,43,258-->
 16. [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-23,102,278-->
@@ -352,7 +352,7 @@ return await memorize_map(
 45. [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-02,112,298-->
 46. [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-18,45,298-->
 47. [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-18,45,298-->
-48. [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-16,43,298-->
+48. [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-10,177,318-->
 49. [sodium oxide](sodium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-31,19,278-->
 50. [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-23,39,278-->
 51. [sodium sulfide](sodium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2023-12-18,35,278-->
