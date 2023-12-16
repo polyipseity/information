@@ -73,8 +73,8 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39dd"--><!-- The following content is generated at 2023-11-21T12:42:55.893815+08:00. Any edits will be overridden! -->
 
 1. $\sin{x}$::$x$ <!--SR:!2023-12-18,17,290-->
-2. $\arcsin{x}$::$x$ <!--SR:!2023-12-16,15,290-->
-3. $\sinh{x}$::$x$ <!--SR:!2023-12-16,15,290-->
+2. $\arcsin{x}$::$x$ <!--SR:!2024-02-17,63,310-->
+3. $\sinh{x}$::$x$ <!--SR:!2024-02-16,62,310-->
 4. $\tan{x}$::$x$ <!--SR:!2024-02-04,52,310-->
 5. $\arctan{x}$::$x$ <!--SR:!2023-12-18,17,290-->
 6. $\ln(1+x)$::$x$ <!--SR:!2023-12-17,16,290-->

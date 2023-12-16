@@ -15,4 +15,4 @@ tags:
 > where
 > - {{$K_N$ is the total [kinetic energy](kinetic%20energy.md) of the $N$ particles}}
 > - {{$\vec{F}_i$ is the [force](force.md) on the $i$-th particle}}
-> - {{$\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle}} <!--SR:!2023-12-17,4,270!2023-12-16,3,250!2023-12-17,4,270!2023-12-17,4,270!2023-12-17,4,270-->
+> - {{$\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle}} <!--SR:!2023-12-17,4,270!2023-12-24,8,250!2023-12-17,4,270!2023-12-17,4,270!2023-12-17,4,270-->

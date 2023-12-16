@@ -19,4 +19,4 @@ tags:
 > - where
 >     - {{$f_r$ is the received [frequency](frequency.md), $f_s$ is the source [frequency](frequency.md)}}
 >     - {{$\beta = \frac v c$, where $v$ is the [relative velocity](relative%20velocity.md) between the source and receiver that is positive when moving away from each other and $c$ is the [speed of light](speed%20of%20light.md) in [vacuum](vacuum.md)}}
-> - The ratio in the second equation is also called {{the __Doppler factor__ of the source relative to the receiver}}. <!--SR:!2023-12-16,3,250!2023-12-17,4,270!2023-12-16,3,250!2023-12-17,4,270-->
+> - The ratio in the second equation is also called {{the __Doppler factor__ of the source relative to the receiver}}. <!--SR:!2023-12-24,8,250!2023-12-17,4,270!2023-12-28,12,270!2023-12-17,4,270-->

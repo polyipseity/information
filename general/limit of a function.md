@@ -16,7 +16,7 @@ tags:
 
 > __limit of a function__
 >
-> For {{$p,L\in\mathbb{R}$, $S\subseteq\mathbb{R}$, and $f:S\to\mathbb{R}$, if $(\forall\epsilon>0)(\exists\delta>0)(\forall{x}\in{S})(0<\lvert{x-p}\rvert<\delta\implies\lvert{f(x)-L}\rvert<\epsilon)$, then $\lim_{x\to{}p}f(x)$ exists and equals $L$.}} <!--SR:!2023-12-16,7,250-->
+> For {{$p,L\in\mathbb{R}$, $S\subseteq\mathbb{R}$, and $f:S\to\mathbb{R}$, if $(\forall\epsilon>0)(\exists\delta>0)(\forall{x}\in{S})(0<\lvert{x-p}\rvert<\delta\implies\lvert{f(x)-L}\rvert<\epsilon)$, then $\lim_{x\to{}p}f(x)$ exists and equals $L$.}} <!--SR:!2024-01-03,18,250-->
 
 ## properties
 
@@ -47,7 +47,7 @@ When the limit on the right of the equation does not exist but are in the follow
 > - {{$\frac{q}\infty = 0 \quad \text{if } q \ne \infty \text{ and } q \ne -\infty$}}
 > - {{$\infty^q = \begin{cases} 0 & \text{if } q < 0 \\ \infty & \text{if } q > 0 \end{cases}$}}
 > - {{$q^\infty = \begin{cases} 0 & \text{if } 0 < q < 1 \\ \infty & \text{if } q > 1 \end{cases}$}}
-> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2023-12-22,10,270!2023-12-24,12,270!2023-12-16,3,230!2023-12-20,6,250!2023-12-21,9,270!2023-12-26,13,290-->
+> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2023-12-22,10,270!2023-12-24,12,270!2023-12-28,12,250!2023-12-20,6,250!2023-12-21,9,270!2023-12-26,13,290-->
 
 ### limits of compositions of functions
 

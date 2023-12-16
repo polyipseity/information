@@ -76,7 +76,7 @@ return _chain.from_iterable(await _gather(
 1. _(begin)_→:::←[high-density polyethylene](high-density%20polyethylene.md) (HDPE) <!--SR:!2024-06-08,337,334!2024-08-11,390,341-->
 2. [high-density polyethylene](high-density%20polyethylene.md) (HDPE)→:::←[low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2024-06-06,335,334!2024-08-10,389,341-->
 3. [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→:::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2024-03-06,196,254!2024-06-05,334,334-->
-4. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-02-26,87,289!2023-12-16,151,269-->
+4. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-02-26,87,289!2024-02-28,74,249-->
 5. [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2023-12-31,37,194!2024-04-18,161,274-->
 6. [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2024-05-06,258,274!2024-02-10,65,254-->
 7. [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-05-11,314,334!2024-07-16,260,281-->
