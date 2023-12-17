@@ -36,7 +36,7 @@ tags:
 >     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
 > - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2023-12-19,3,250!2023-12-20,4,270!2023-12-19,3,250!2023-12-20,4,270-->
 
-### derivation
+The relation between polytropic index and energy transfer ratio can be derived as follows:
 
 $$\begin{aligned}
 K & = \frac{\delta Q}{\delta W} \\
