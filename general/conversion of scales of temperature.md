@@ -49,7 +49,7 @@ return {
 
 ## Celsius scale
 
-- further information: {{[Celsius](Celsius.md)}} <!--SR:!2023-12-22,4,270-->
+- further information: [Celsius](Celsius.md)
 
 %%
 ```Python
@@ -92,7 +92,7 @@ return await conversion_table(
 
 ## Kelvin scale
 
-- further information: {{[Kelvin](Kelvin.md)}} <!--SR:!2023-12-22,4,270-->
+- further information: [Kelvin](Kelvin.md)
 
 %%
 ```Python
@@ -135,7 +135,7 @@ return await conversion_table(
 
 ## Fahrenheit scale
 
-- further information: {{[Fahrenheit](Fahrenheit.md)}} <!--SR:!2023-12-21,4,270-->
+- further information: [Fahrenheit](Fahrenheit.md)
 
 %%
 ```Python
@@ -178,7 +178,7 @@ return await conversion_table(
 
 ## Rankine scale
 
-- further information: {{[Rankine scale](Rankine%20scale.md)}} <!--SR:!2023-12-22,4,270-->
+- further information: [Rankine scale](Rankine%20scale.md)
 
 %%
 ```Python
