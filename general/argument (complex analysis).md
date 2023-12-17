@@ -1,12 +1,14 @@
 ---
 aliases:
+  - Arg
   - arg
   - argument
+  - argument (complex analysis)
 tags:
   - flashcards/general/argument__complex_analysis_
 ---
 
-# argument
+# argument (complex analysis)
 
 ## definition
 

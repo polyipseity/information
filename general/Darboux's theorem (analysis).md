@@ -2,13 +2,14 @@
 aliases:
   - Darboux theorem
   - Darboux's theorem
+  - Darboux's theorem (analysis)
   - Darboux’s theorem
   - intermediate value property
 tags:
   - flashcards/general/Darboux_s_theorem
 ---
 
-# Darboux's theorem
+# Darboux's theorem (analysis)
 
 In [mathematics](mathematics.md), __{{Darboux's}} theorem__ is {{a [theorem](theorem.md) in [real analysis](real%20analysis.md), named after [Jean Gaston Darboux](Jean%20Gaston%20Darboux.md)}}.
 

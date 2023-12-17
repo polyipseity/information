@@ -1,4 +1,8 @@
 ---
+aliases:
+  - splint
+  - splint (laboratory equipment)
+  - splints
 tags:
   - flashcards/general/splint__laboratory_equipment_
 ---
@@ -10,7 +14,7 @@ tags:
 ```
 %%
 
-# splint
+# splint (laboratory equipment)
 
 ## uses
 
