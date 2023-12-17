@@ -1,11 +1,13 @@
 ---
 aliases:
   - work
+  - work (physics)
+  - work done
 tags:
   - flashcards/general/work__physics_
 ---
 
-# work
+# work (physics)
 
 ## mathematical calculation
 

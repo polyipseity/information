@@ -1,6 +1,7 @@
 ---
 aliases:
   - group
+  - group (periodic table)
   - groups
 tags:
   - flashcards/general/group__periodic_table_
@@ -13,7 +14,7 @@ tags:
 ```
 %%
 
-# group
+# group (periodic table)
 
 A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}}. The elements have {{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}}.
 

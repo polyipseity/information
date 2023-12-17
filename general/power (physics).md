@@ -1,11 +1,12 @@
 ---
 aliases:
   - power
+  - power (physics)
 tags:
   - flashcards/general/power__physics_
 ---
 
-# power
+# power (physics)
 
 ## definition
 
