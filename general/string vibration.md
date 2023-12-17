@@ -19,7 +19,7 @@ tags:
 > {{$$\frac 1 c = v = \sqrt{\frac{T}\mu}$$}}
 >
 > where
-> - {{[string](string%20(structure).md) properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}} <!--SR:!2023-12-17,4,270!2023-12-17,4,270-->
+> - {{[string](string%20(structure).md) properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}} <!--SR:!2023-12-29,12,270!2023-12-30,13,290-->
 
 ### power
 
@@ -30,7 +30,7 @@ tags:
 > where
 > - {{[function](function%20(mathematics).md) properties: $P$ is [power](power%20(physics).md) at [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
 > - {{[string](string%20(structure).md) properties: $T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}}
-> - {{[wave](wave.md) properties: $A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset}} <!--SR:!2023-12-22,6,250!2023-12-17,4,270!2023-12-17,4,270!2023-12-17,4,270-->
+> - {{[wave](wave.md) properties: $A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset}} <!--SR:!2023-12-22,6,250!2024-01-01,15,290!2023-12-27,10,270!2023-12-28,11,270-->
 
 #### derivation
 

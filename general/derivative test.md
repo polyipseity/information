@@ -52,7 +52,7 @@ tags:
 
 ### first derivative test
 
-The _first derivative test_ can {{determine [extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}}. <!--SR:!2023-12-17,16,299-->
+The _first derivative test_ can {{determine [extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}}. <!--SR:!2024-02-19,64,319-->
 
 > __first derivative test__
 >
@@ -82,7 +82,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$: {{Weakly increasing by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
 - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+x\sin{\frac1x}\right)&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive by the two-sided test because no suitable $\epsilon$ exist and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
 - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0 or do not exist.}}
-- $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}} <!--SR:!2024-01-17,36,299!2024-01-18,35,279!2024-01-24,40,292!2023-12-25,17,259!2023-12-17,16,299!2024-02-03,51,299!2024-01-29,45,294!2024-02-02,48,299!2024-01-06,25,274!2023-12-19,18,299!2024-01-27,43,299!2024-01-04,23,274!2024-01-29,44,294!2024-01-23,39,299-->
+- $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}} <!--SR:!2024-01-17,36,299!2024-01-18,35,279!2024-01-24,40,292!2023-12-25,17,259!2024-02-01,46,299!2024-02-03,51,299!2024-01-29,45,294!2024-02-02,48,299!2024-01-06,25,274!2023-12-19,18,299!2024-01-27,43,299!2024-01-04,23,274!2024-01-29,44,294!2024-01-23,39,299-->
 
 ### concavity test
 
@@ -90,7 +90,7 @@ The [second derivative](second%20derivative.md) of a [function](function%20(math
 
 ### second derivative test
 
-The _second derivative test_ is {{a special case of $n=2$ in the [higher-order derivative test](#higher-order%20derivative%20test)}}. The same applies for the _one-sided second derivative test_. <!--SR:!2023-12-17,16,299-->
+The _second derivative test_ is {{a special case of $n=2$ in the [higher-order derivative test](#higher-order%20derivative%20test)}}. The same applies for the _one-sided second derivative test_. <!--SR:!2024-02-18,63,319-->
 
 ### higher-order derivative test
 
@@ -100,7 +100,7 @@ The _higher-order derivative test_ or _general derivative test_ can {{determine 
 >
 > 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued](real-valued%20function.md) [$n$-times differentiable function](differentiable%20function.md) where $n\in\mathbb{N}^+\setminus\set{1}$. $I$ is an [interval](interval%20(mathematics).md) $\in\mathbb{R}$ containing $c$.}}
 > 2. {{If $f'(c)=\cdots=f^{(n-1)}(c)=0$ and $f^{(n)}(c)\ne0$,}}
-> 3. {{then:<ul><li>If $n$ is even and $f^{(n)}(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is even and $f^{(n)}(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)<0$, $c$ is a [weakly decreasing falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)>0$, $c$ is a [weakly increasing rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li></ul>}} <!--SR:!2023-12-17,16,299!2023-12-18,17,299!2024-01-31,46,299-->
+> 3. {{then:<ul><li>If $n$ is even and $f^{(n)}(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is even and $f^{(n)}(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)<0$, $c$ is a [weakly decreasing falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)>0$, $c$ is a [weakly increasing rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li></ul>}} <!--SR:!2024-02-02,47,299!2023-12-18,17,299!2024-01-31,46,299-->
 
 The _one-sided higher-order derivative test_ is {{stronger than the two-sided higher-order derivative test, as the two-sided version can be derived from the one-sided one by combining conclusions}}. <!--SR:!2023-12-18,17,299-->
 
