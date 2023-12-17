@@ -49,7 +49,7 @@ return {
 
 ## Celsius scale
 
-- further information: {{[Celsius](Celsius.md)}}
+- further information: {{[Celsius](Celsius.md)}} <!--SR:!2023-12-22,4,270-->
 
 %%
 ```Python
@@ -76,23 +76,23 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33dd"--><!-- The following content is generated at 2023-12-17T17:08:50.586837+08:00. Any edits will be overridden! -->
 
-1. [Kelvin](Kelvin.md)::from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C
-2. [Fahrenheit](Fahrenheit.md)::from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C
-3. [Rankine](Rankine%20scale.md)::from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C
+1. [Kelvin](Kelvin.md)::from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C <!--SR:!2023-12-21,4,270-->
+2. [Fahrenheit](Fahrenheit.md)::from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C <!--SR:!2023-12-18,1,230-->
+3. [Rankine](Rankine%20scale.md)::from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C <!--SR:!2023-12-18,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="76bc"--><!-- The following content is generated at 2023-12-17T17:08:50.461280+08:00. Any edits will be overridden! -->
 
-1. from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C::[Kelvin](Kelvin.md)
-2. from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C::[Fahrenheit](Fahrenheit.md)
-3. from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C::[Rankine](Rankine%20scale.md)
+1. from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C::[Kelvin](Kelvin.md) <!--SR:!2023-12-21,4,270-->
+2. from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C::[Fahrenheit](Fahrenheit.md) <!--SR:!2023-12-21,4,270-->
+3. from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C::[Rankine](Rankine%20scale.md) <!--SR:!2023-12-21,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## Kelvin scale
 
-- further information: {{[Kelvin](Kelvin.md)}}
+- further information: {{[Kelvin](Kelvin.md)}} <!--SR:!2023-12-22,4,270-->
 
 %%
 ```Python
@@ -119,23 +119,23 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50fb"--><!-- The following content is generated at 2023-12-17T17:08:50.611405+08:00. Any edits will be overridden! -->
 
-1. [Celsius](Celsius.md)::from: x K ≘ (x − 273.15) °C, to: x °C ≘ (x + 273.15) K
-2. [Fahrenheit](Fahrenheit.md)::from: x K ≘ (x × 9/5 − 459.67) °F, to: x °F ≘ (x + 459.67) × 5/9 K
-3. [Rankine](Rankine%20scale.md)::from: x K ≘ x × 9/5 °R, to: x °R ≘ x × 5/9 K
+1. [Celsius](Celsius.md)::from: x K ≘ (x − 273.15) °C, to: x °C ≘ (x + 273.15) K <!--SR:!2023-12-22,4,270-->
+2. [Fahrenheit](Fahrenheit.md)::from: x K ≘ (x × 9/5 − 459.67) °F, to: x °F ≘ (x + 459.67) × 5/9 K <!--SR:!2023-12-19,1,230-->
+3. [Rankine](Rankine%20scale.md)::from: x K ≘ x × 9/5 °R, to: x °R ≘ x × 5/9 K <!--SR:!2023-12-20,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1234"--><!-- The following content is generated at 2023-12-17T17:08:50.642031+08:00. Any edits will be overridden! -->
 
-1. from: x K ≘ (x − 273.15) °C, to: x °C ≘ (x + 273.15) K::[Celsius](Celsius.md)
-2. from: x K ≘ (x × 9/5 − 459.67) °F, to: x °F ≘ (x + 459.67) × 5/9 K::[Fahrenheit](Fahrenheit.md)
-3. from: x K ≘ x × 9/5 °R, to: x °R ≘ x × 5/9 K::[Rankine](Rankine%20scale.md)
+1. from: x K ≘ (x − 273.15) °C, to: x °C ≘ (x + 273.15) K::[Celsius](Celsius.md) <!--SR:!2023-12-22,4,270-->
+2. from: x K ≘ (x × 9/5 − 459.67) °F, to: x °F ≘ (x + 459.67) × 5/9 K::[Fahrenheit](Fahrenheit.md) <!--SR:!2023-12-21,4,270-->
+3. from: x K ≘ x × 9/5 °R, to: x °R ≘ x × 5/9 K::[Rankine](Rankine%20scale.md) <!--SR:!2023-12-22,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## Fahrenheit scale
 
-- further information: {{[Fahrenheit](Fahrenheit.md)}}
+- further information: {{[Fahrenheit](Fahrenheit.md)}} <!--SR:!2023-12-21,4,270-->
 
 %%
 ```Python
@@ -162,23 +162,23 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2023-12-17T17:08:50.683509+08:00. Any edits will be overridden! -->
 
-1. [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F
-2. [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F
-3. [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F
+1. [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F <!--SR:!2023-12-20,3,250-->
+2. [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2023-12-18,1,230-->
+3. [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2023-12-19,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3496"--><!-- The following content is generated at 2023-12-17T17:08:50.733168+08:00. Any edits will be overridden! -->
 
-1. from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F::[Celsius](Celsius.md)
-2. from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F::[Kelvin](Kelvin.md)
-3. from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F::[Rankine](Rankine%20scale.md)
+1. from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F::[Celsius](Celsius.md) <!--SR:!2023-12-21,4,270-->
+2. from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F::[Kelvin](Kelvin.md) <!--SR:!2023-12-21,4,270-->
+3. from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F::[Rankine](Rankine%20scale.md) <!--SR:!2023-12-21,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## Rankine scale
 
-- further information: {{[Rankine scale](Rankine%20scale.md)}}
+- further information: {{[Rankine scale](Rankine%20scale.md)}} <!--SR:!2023-12-22,4,270-->
 
 %%
 ```Python
@@ -205,16 +205,16 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ef82"--><!-- The following content is generated at 2023-12-17T17:08:50.765666+08:00. Any edits will be overridden! -->
 
-1. [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R
-2. [Kelvin](Kelvin.md)::from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R
-3. [Fahrenheit](Fahrenheit.md)::from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R
+1. [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2023-12-18,1,230-->
+2. [Kelvin](Kelvin.md)::from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R <!--SR:!2023-12-22,4,270-->
+3. [Fahrenheit](Fahrenheit.md)::from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R <!--SR:!2023-12-18,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="35a1"--><!-- The following content is generated at 2023-12-17T17:08:50.779184+08:00. Any edits will be overridden! -->
 
-1. from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R::[Celsius](Celsius.md)
-2. from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R::[Kelvin](Kelvin.md)
-3. from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R::[Fahrenheit](Fahrenheit.md)
+1. from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R::[Celsius](Celsius.md) <!--SR:!2023-12-21,4,270-->
+2. from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R::[Kelvin](Kelvin.md) <!--SR:!2023-12-21,4,270-->
+3. from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R::[Fahrenheit](Fahrenheit.md) <!--SR:!2023-12-22,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
