@@ -36,7 +36,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 
 #### determinate forms
 
-- see also: [extended real number line](extended%20real%20number%20line.md), [indeterminate form](indeterminate%20form.md)
+- see: [extended real number line](extended%20real%20number%20line.md), [indeterminate form](indeterminate%20form.md)
 
 When the limit on the right of the equation does not exist but are in the following determinate forms, {{it can still be determined by the following rules}}. In other cases, the limit on the left exists, but {{the limit on the right is in [indeterminate form](indeterminate%20form.md) that does not allow direct calculation, in which case [L'Hôpital's rule](L'Hôpital's%20rule.md) may be used to determinate the limit}}. <!--SR:!2023-12-26,13,290!2023-12-28,15,290-->
 

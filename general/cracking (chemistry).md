@@ -1,6 +1,7 @@
 ---
 aliases:
   - cracking
+  - cracking (chemistry)
 tags:
   - flashcards/general/cracking__chemistry_
 ---
@@ -12,7 +13,7 @@ tags:
 ```
 %%
 
-# cracking
+# cracking (chemistry)
 
 __Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2024-05-04,291,290!2024-06-16,305,290-->
 

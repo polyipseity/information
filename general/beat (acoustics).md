@@ -1,12 +1,13 @@
 ---
 aliases:
   - beat
+  - beat (acoustics)
   - beats
 tags:
   - flashcards/general/beat__acoustics_
 ---
 
-# beat
+# beat (acoustics)
 
 ## mathematics and physics of beat tones
 

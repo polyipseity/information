@@ -23,7 +23,7 @@ __Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](
 
 ### acid–base titration
 
-- See: [acid–base titration](acid–base%20titration.md)
+- see: [acid–base titration](acid–base%20titration.md)
 
 Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2024-08-31,323,290!2023-12-30,202,310!2024-04-27,300,330!2023-12-23,199,310!2024-04-25,254,270!2024-02-09,235,310-->
 

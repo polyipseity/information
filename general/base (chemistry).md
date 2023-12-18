@@ -1,13 +1,14 @@
 ---
 aliases:
   - base
+  - base (chemistry)
   - bases
   - basic
 tags:
   - flashcards/general/base__chemistry_
 ---
 
-# base
+# base (chemistry)
 
 A __base__ is {{a [molecule](molecule.md) or [ion](ion.md) that can accept a [proton](proton.md), known as a [Brønsted–Lowry base](Brønsted–Lowry%20acid–base%20theory.md), or form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by donating an [electron pair](electron%20pair.md), known as a [Lewis base](Lewis%20acids%20and%20bases.md)}}. Any base that {{is [water](water.md) [soluble](solubility.md) and forms [hydroxide ions](hydroxide.md) is called an __[alkali](alkali.md)__}}. <!--SR:!2024-09-09,305,230!2024-11-13,430,290-->
 

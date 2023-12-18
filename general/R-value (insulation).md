@@ -1,17 +1,20 @@
 ---
 aliases:
   - <i>R</i>-value
+  - <i>r</i>-value
   - R value
   - R-value
+  - R-value (insulation)
   - _R_-value
+  - _r_-value
   - r value
   - r-value
   - thermal insulance
 tags:
-  - flashcards/general/R-value
+  - flashcards/general/R-value__insulation_
 ---
 
-# _R_-value
+# _R_-value (insulation)
 
 ## _R_-value definition
 

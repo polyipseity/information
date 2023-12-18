@@ -84,7 +84,7 @@ return await memorize_table(
 
 ### rust-resistant alloys
 
-- See also: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
+- see: [stainless steel](stainless%20steel.md), [weathering steel](weathering%20steel.md)
 
 Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [chromium(III) oxide](chromium(III)%20oxide.md)}}. It is {{[shiny](gloss%20(optics)) but expensive}}. It can be used {{in [cookware](cookware.md) and [cutlery](cutlery.md)}}. <!--SR:!2025-05-15,538,310!2024-03-06,225,270!2024-12-30,472,310-->
 
@@ -96,7 +96,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2024-02-18,2
 
 ### electroplating
 
-- See also: [electroplating](electroplating.md)
+- see: [electroplating](electroplating.md)
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2024-01-11,193,270-->
 
@@ -104,7 +104,7 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 ### cathodic protection
 
-- See also: [cathodic protection](cathodic%20protection.md)
+- see: [cathodic protection](cathodic%20protection.md)
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2024-12-18,466,310-->
 

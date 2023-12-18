@@ -32,11 +32,11 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 
 ### halogenation
 
-- See: [free radical halogenation](free-radical%20halogenation.md)
+- see: [free radical halogenation](free-radical%20halogenation.md)
 
 ### cracking
 
-- See: [cracking (chemistry)](cracking%20(chemistry).md)
+- see: [cracking (chemistry)](cracking%20(chemistry).md)
 
 ### reactions
 
