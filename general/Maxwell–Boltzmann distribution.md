@@ -24,7 +24,7 @@ tags:
 >     - {{[function](function%20(mathematics).md) properties: $f(\vec{v})$ is a [probability density function](probability%20density%20function.md), showing the fraction of [particles](particle.md) within an infinitesimal element of the three-dimensional velocity space $\mathrm{d}^3\vec{v}$ centered on a velocity vector $\vec{v}$, properly normalized such that $\int f(\vec{v}) \,\mathrm{d}^3\vec{v}$ over all velocity vectors is unity; and $f(v)$ is another [probability density function](probability%20density%20function.md), showing the density of [particles](particle.md) with velocity $v$, properly normalized such that $\int_0^\infty f(v) \,\mathrm{d}v$ is unity}}
 >     - {{system properties: $m$ is the [particle](particle.md) [mass](mass.md) and $T$ is the [thermodynamic temperature](thermodynamic%20temperature.md)}}
 >     - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}}
-> - conditions: {{requires [kinetic theory of gases](kinetic%20theory%20of%20gases.md), which applies to [ideal gases](ideal%20gas.md) and approximates [real gases](real%20gas.md)}}
+> - conditions: {{requires [kinetic theory of gases](kinetic%20theory%20of%20gases.md), which applies to [ideal gases](ideal%20gas.md) and approximates [real gases](real%20gas.md)}} <!--SR:!2023-12-19,1,238!2023-12-21,3,258!2023-12-22,4,278!2023-12-22,4,278!2023-12-22,4,278-->
 
 ## typical speeds
 

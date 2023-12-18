@@ -125,7 +125,7 @@ return await memorize_map(
 
 > [!tip]
 >
-> - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}}
+> - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}} <!--SR:!2023-12-22,4,285-->
 
 ## product-to-sum and sum-to-product
 
