@@ -58,4 +58,4 @@ C_p & = \frac{f}2nR + nR & (\text{equipartition theorem}) \\
 
 ## adiabatic process
 
-- see also: [adiabatic process](adiabatic%20process.md), [polytropic process](polytropic%20process.md)
+- see: [adiabatic process](adiabatic%20process.md), [polytropic process](polytropic%20process.md)
