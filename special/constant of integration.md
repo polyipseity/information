@@ -8,7 +8,7 @@ tags:
 
 # constant of integration
 
-- see also: [constant of integration](../general/constant%20of%20integration.md)
+- see: [constant of integration](../general/constant%20of%20integration.md)
 
 ## absorption
 

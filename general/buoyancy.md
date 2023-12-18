@@ -12,7 +12,7 @@ tags:
 
 ## Archimedes' principle
 
-- see also: [Archimedes' principle](Archimedes'%20principle.md)
+- see: [Archimedes' principle](Archimedes'%20principle.md)
 
 > __Archimedes' principle__
 >
