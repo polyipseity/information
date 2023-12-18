@@ -46,7 +46,7 @@ return await memorize_seq(
 1. _(begin)_→:::←create positive first impression <!--SR:!2024-01-04,62,310!2024-01-10,68,310-->
 2. create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-02-29,89,290!2024-01-05,63,310-->
 3. emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2023-12-26,53,310!2023-12-28,55,310-->
-4. include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2023-12-18,45,290!2024-02-03,63,290-->
+4. include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-01-13,26,270!2024-02-03,63,290-->
 5. mention your referees→:::←_(end)_ <!--SR:!2023-12-24,51,310!2023-12-25,31,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

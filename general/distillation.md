@@ -38,7 +38,7 @@ In simple distillation, {{the vapor is immediately passed into a [condenser](con
 > 13. stirrer and heat plate
 > 14. [heated bath](heated%20bath.md)
 > 15. stirrer bar, [anti-bumping granule](boiling%20chip.md)
-> 16. [cooling bath](cooling%20bath.md) <!--SR:!2023-12-18,153,230-->
+> 16. [cooling bath](cooling%20bath.md) <!--SR:!2024-12-03,351,230-->
 
 ### fractional distillation
 
