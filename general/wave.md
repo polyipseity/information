@@ -10,7 +10,7 @@ tags:
 
 ## wave in elastic medium
 
-- see also: [wave equation](wave%20equation.md)
+- see: [wave equation](wave%20equation.md)
 
 ## special waves
 

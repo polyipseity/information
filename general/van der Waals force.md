@@ -12,4 +12,4 @@ tags:
 
 ## London dispersion force
 
-- See: [London dispersion force](London%20dispersion%20force.md)
+- see: [London dispersion force](London%20dispersion%20force.md)

@@ -4,11 +4,12 @@ aliases:
   - Carnot theorem
   - Carnot's rule
   - Carnot's theorem
+  - Carnot's theorem (thermodynamics)
 tags:
   - flashcards/general/Carnot_s_theorem__thermodynamics_
 ---
 
-# Carnot's theorem
+# Carnot's theorem (thermodynamics)
 
 > __Carnot's theorem__
 >
