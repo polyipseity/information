@@ -77,8 +77,8 @@ return await conversion_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33dd"--><!-- The following content is generated at 2023-12-17T17:08:50.586837+08:00. Any edits will be overridden! -->
 
 1. [Kelvin](Kelvin.md)::from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C <!--SR:!2023-12-21,4,270-->
-2. [Fahrenheit](Fahrenheit.md)::from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C <!--SR:!2023-12-18,1,230-->
-3. [Rankine](Rankine%20scale.md)::from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C <!--SR:!2023-12-18,1,230-->
+2. [Fahrenheit](Fahrenheit.md)::from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C <!--SR:!2023-12-21,3,250-->
+3. [Rankine](Rankine%20scale.md)::from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C <!--SR:!2023-12-19,1,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -163,7 +163,7 @@ return await conversion_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2023-12-17T17:08:50.683509+08:00. Any edits will be overridden! -->
 
 1. [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F <!--SR:!2023-12-20,3,250-->
-2. [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2023-12-18,1,230-->
+2. [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2023-12-20,2,230-->
 3. [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2023-12-19,1,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -205,9 +205,9 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ef82"--><!-- The following content is generated at 2023-12-17T17:08:50.765666+08:00. Any edits will be overridden! -->
 
-1. [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2023-12-18,1,230-->
+1. [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2023-12-19,1,210-->
 2. [Kelvin](Kelvin.md)::from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R <!--SR:!2023-12-22,4,270-->
-3. [Fahrenheit](Fahrenheit.md)::from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R <!--SR:!2023-12-18,1,230-->
+3. [Fahrenheit](Fahrenheit.md)::from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R <!--SR:!2023-12-21,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -420,7 +420,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2023-12-18,256,300!2025-06-25,688,321!2024-05-26,453,362!2024-03-06,353,302!2026-04-24,903,305!2024-04-27,428,367-->
+> - infix: {{(locant)}} <!--SR:!2026-11-16,1064,320!2025-06-25,688,321!2024-05-26,453,362!2024-03-06,353,302!2026-04-24,903,305!2024-04-27,428,367-->
 
 > {{alcohol}}
 > - group: {{hydroxyl}}

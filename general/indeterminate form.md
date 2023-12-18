@@ -72,11 +72,11 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39dd"--><!-- The following content is generated at 2023-11-21T12:42:55.893815+08:00. Any edits will be overridden! -->
 
-1. $\sin{x}$::$x$ <!--SR:!2023-12-18,17,290-->
+1. $\sin{x}$::$x$ <!--SR:!2024-02-23,67,310-->
 2. $\arcsin{x}$::$x$ <!--SR:!2024-02-17,63,310-->
 3. $\sinh{x}$::$x$ <!--SR:!2024-02-16,62,310-->
 4. $\tan{x}$::$x$ <!--SR:!2024-02-04,52,310-->
-5. $\arctan{x}$::$x$ <!--SR:!2023-12-18,17,290-->
+5. $\arctan{x}$::$x$ <!--SR:!2024-02-29,73,310-->
 6. $\ln(1+x)$::$x$ <!--SR:!2024-02-17,62,310-->
 7. $1-\cos{x}$::$\frac{x^2}2$ <!--SR:!2024-01-27,44,290-->
 8. $\cosh{x}-1$::$\frac{x^2}2$ <!--SR:!2024-01-25,43,290-->
@@ -89,9 +89,9 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2023-11-21T12:42:55.830785+08:00. Any edits will be overridden! -->
 
 1. $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2023-12-21,14,250-->
-2. $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2023-12-18,17,290-->
+2. $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2024-02-07,51,290-->
 3. $x\ln{a}$::$a^x-1$ <!--SR:!2024-01-22,40,290-->
-4. $ax$::$(1+x)^a-1$ <!--SR:!2023-12-18,5,250-->
+4. $ax$::$(1+x)^a-1$ <!--SR:!2024-01-06,19,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
