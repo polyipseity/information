@@ -57,6 +57,6 @@ return await memorize_table(
 
 ### combustion
 
-- See: [combustion](combustion.md)
+- see: [combustion](combustion.md)
 
 Hydrocarbons combust to produce {{[steam](steam.md), [carbon dioxide](carbon%20dioxide.md), and heat with an adequate supply of [oxygen](oxygen.md)}}. If there is insufficient oxygen, {{incomplete combustion occurs, producing [carbon monoxide](carbon%20monoxide.md) and [soot](soot.md)}}.
