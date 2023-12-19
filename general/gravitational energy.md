@@ -18,4 +18,4 @@ tags:
 >
 > - where
 >     - {{$U$ is the __gravitational potential energy__ of two [particles](particle.md) with [masses](mass.md) $M$ and $m$ that are $R$ distance apart}}
->     - {{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$ is the [gravitational constant](gravitational%20constant.md)}} <!--SR:!2023-12-20,4,270!2023-12-20,4,270!2023-12-19,3,250-->
+>     - {{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$ is the [gravitational constant](gravitational%20constant.md)}} <!--SR:!2023-12-20,4,270!2023-12-20,4,270!2023-12-21,2,230-->
