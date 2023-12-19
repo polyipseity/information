@@ -40,7 +40,7 @@ int sscanf_s(char const *restrict buffer, char const *restrict format, ...); // 
 ```
 
 
-> [!tip]
+> [!tip] tip
 >
 > - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
 > - overload selection: {{use the `_s`-ending overloads whenever feasible}}
