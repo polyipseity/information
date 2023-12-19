@@ -6,6 +6,7 @@ tags:
   - date/2023/11/22/from
   - date/2023/11/24/to
   - functional/texts
+  - languages/in/English
 ---
 
 2023 November 24

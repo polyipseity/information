@@ -6,6 +6,8 @@ tags:
   - by/self
   - date/2023/12/01
   - functional/texts
+  - languages/for/English
+  - languages/in/English
 ---
 
 # Reflection on Breaking Studying Mis-strategies
