@@ -4,6 +4,7 @@ aliases:
   - power (physics)
 tags:
   - flashcards/general/power__physics_
+  - languages/in/English
 ---
 
 # power (physics)

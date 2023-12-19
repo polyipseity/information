@@ -4,6 +4,7 @@ aliases:
   - Kelvin
 tags:
   - flashcards/general/Kelvin
+  - languages/in/English
 ---
 
 # Kelvin

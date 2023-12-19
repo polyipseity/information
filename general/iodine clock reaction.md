@@ -4,6 +4,7 @@ aliases:
   - iodine clock reactions
 tags:
   - flashcards/general/iodine_clock_reaction
+  - languages/in/English
 ---
 
 %%

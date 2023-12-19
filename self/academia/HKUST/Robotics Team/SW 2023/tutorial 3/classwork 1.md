@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/10/10
+  - languages/in/English
+---
+
 # classwork 1
 
 If we need a frequency output of 50Hz, what are the 3 possible combinations of prescaler value and auto-reload value? (Given that the clock frequency is 84MHz)

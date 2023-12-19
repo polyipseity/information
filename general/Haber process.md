@@ -4,6 +4,7 @@ aliases:
   - Haber–Bosch process
 tags:
   - flashcards/general/Haber_process
+  - languages/in/English
 ---
 
 %%

@@ -9,6 +9,7 @@ aliases:
   - squeeze theorem
 tags:
   - flashcards/general/squeeze_theorem
+  - languages/in/English
 ---
 
 # squeeze theorem

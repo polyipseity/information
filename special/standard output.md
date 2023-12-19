@@ -4,6 +4,7 @@ aliases:
   - stdout
 tags:
   - flashcards/special/standard_output
+  - languages/in/English
 ---
 
 # standard output

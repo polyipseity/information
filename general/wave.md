@@ -4,6 +4,7 @@ aliases:
   - waves
 tags:
   - flashcards/general/wave
+  - languages/in/English
 ---
 
 # wave

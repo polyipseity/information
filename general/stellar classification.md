@@ -4,6 +4,7 @@ aliases:
   - stellar classifications
 tags:
   - flashcards/general/stellar_classification
+  - languages/in/English
 ---
 
 # stellar classification

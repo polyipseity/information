@@ -5,6 +5,7 @@ aliases:
   - endothermic processes
 tags:
   - flashcards/general/endothermic_process
+  - languages/in/English
 ---
 
 %%

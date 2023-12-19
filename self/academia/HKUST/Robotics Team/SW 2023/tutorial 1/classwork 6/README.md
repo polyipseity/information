@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/09/26
+  - languages/in/English
+---
+
 # Classwork 6 : Area of circle
 
 "pi*z*z*a"

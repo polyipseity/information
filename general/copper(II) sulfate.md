@@ -4,6 +4,7 @@ aliases:
   - copper(II) sulphate
 tags:
   - flashcards/general/copper_II__sulfate
+  - languages/in/English
 ---
 
 # copper(II) sulfate

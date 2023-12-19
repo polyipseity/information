@@ -6,6 +6,7 @@ aliases:
   - reaction rates
 tags:
   - flashcards/general/reaction_rate
+  - languages/in/English
 ---
 
 %%

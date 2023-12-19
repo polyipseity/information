@@ -5,6 +5,7 @@ aliases:
   - file input/output
 tags:
   - flashcards/special/C/file_input_output
+  - languages/in/English
 ---
 
 # file input/output

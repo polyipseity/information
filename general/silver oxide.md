@@ -4,6 +4,7 @@ aliases:
   - silver oxide
 tags:
   - flashcards/general/silver_oxide
+  - languages/in/English
 ---
 
 # silver oxide

@@ -4,6 +4,7 @@ aliases:
   - minerals
 tags:
   - flashcards/general/mineral
+  - languages/in/English
 ---
 
 # mineral

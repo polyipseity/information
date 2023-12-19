@@ -3,6 +3,7 @@ aliases:
   - nonmetals
 tags:
   - flashcards/general/nonmetal
+  - languages/in/English
 ---
 
 # nonmetal

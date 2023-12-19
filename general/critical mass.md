@@ -3,6 +3,7 @@ aliases:
   - critical mass
 tags:
   - flashcards/general/critical_mass
+  - languages/in/English
 ---
 
 # critical mass

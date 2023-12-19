@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/oxygen
+  - languages/in/English
 ---
 
 %%

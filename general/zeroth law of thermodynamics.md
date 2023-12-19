@@ -4,6 +4,7 @@ aliases:
   - zeroth law of thermodynamics
 tags:
   - flashcards/general/zeroth_law_of_thermodynamics
+  - languages/in/English
 ---
 
 # zeroth law of thermodynamics

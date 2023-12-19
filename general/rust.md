@@ -4,6 +4,7 @@ aliases:
   - rusting
 tags:
   - flashcards/general/rust
+  - languages/in/English
 ---
 
 %%

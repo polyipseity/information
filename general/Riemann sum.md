@@ -6,6 +6,7 @@ aliases:
   - Riemann sums
 tags:
   - flashcards/general/Riemann_sum
+  - languages/in/English
 ---
 
 # Riemann sum

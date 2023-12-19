@@ -2,6 +2,7 @@
 aliases: []
 tags:
   - functional/indices
+  - languages/in/English
 ---
 
 # index

@@ -4,6 +4,7 @@ aliases:
   - tooth enamels
 tags:
   - flashcards/general/tooth_enamel
+  - languages/in/English
 ---
 
 # tooth enamel

@@ -5,6 +5,7 @@ aliases:
   - calcium chloride
 tags:
   - flashcards/general/calcium_chloride
+  - languages/in/English
 ---
 
 %%

@@ -11,6 +11,7 @@ aliases:
   - noble gases
 tags:
   - flashcards/general/noble_gas
+  - languages/in/English
 ---
 
 # noble gas

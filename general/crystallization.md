@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/crystallization
+  - languages/in/English
 ---
 
 # crystallization

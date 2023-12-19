@@ -10,6 +10,7 @@ aliases:
   - Maxwell–Boltzmann distributions
 tags:
   - flashcards/general/Maxwell-Boltzmann_distribution
+  - languages/in/English
 ---
 
 # Maxwell–Boltzmann distribution

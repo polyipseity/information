@@ -4,6 +4,7 @@ aliases:
   - thermodynamic beta
 tags:
   - flashcards/general/thermodynamic_beta
+  - languages/in/English
 ---
 
 # thermodynamic beta

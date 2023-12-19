@@ -5,6 +5,7 @@ aliases:
   - cesium chloride
 tags:
   - flashcards/general/caesium_chloride
+  - languages/in/English
 ---
 
 # caesium chloride

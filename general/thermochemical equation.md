@@ -4,6 +4,7 @@ aliases:
   - therochemical equation
 tags:
   - flashcards/general/thermochemical_equation
+  - languages/in/English
 ---
 
 # thermochemical equation

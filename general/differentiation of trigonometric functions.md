@@ -5,6 +5,7 @@ aliases:
   - differentiation of trigonometric functions
 tags:
   - flashcards/general/differentiation_of_trigonometric_functions
+  - languages/in/English
 ---
 
 %%

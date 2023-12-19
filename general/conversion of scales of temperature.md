@@ -4,6 +4,7 @@ aliases:
   - conversions of scales of temperature
 tags:
   - flashcards/general/conversion_of_scales_of_temperature
+  - languages/in/English
 ---
 
 %%

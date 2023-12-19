@@ -5,6 +5,7 @@ aliases:
   - cupric oxide
 tags:
   - flashcards/general/copper_II__oxide
+  - languages/in/English
 ---
 
 # copper(II) oxide

@@ -11,6 +11,7 @@ aliases:
   - stdlib.h
 tags:
   - flashcards/general/C_standard_library
+  - languages/in/English
 ---
 
 # C standard library

@@ -4,6 +4,7 @@ aliases:
   - lead(II) hydroxide
 tags:
   - flashcards/general/lead_II__hydroxide
+  - languages/in/English
 ---
 
 # lead(II) hydroxide

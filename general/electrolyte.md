@@ -4,6 +4,7 @@ aliases:
   - electrolytes
 tags:
   - flashcards/general/electrolyte
+  - languages/in/English
 ---
 
 # electrolyte

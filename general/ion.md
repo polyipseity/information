@@ -8,6 +8,7 @@ aliases:
   - ions
 tags:
   - flashcards/general/ion
+  - languages/in/English
 ---
 
 %%

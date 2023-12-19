@@ -4,6 +4,7 @@ aliases:
   - carbonic acid
 tags:
   - flashcards/general/carbonic_acid
+  - languages/in/English
 ---
 
 # carbonic acid

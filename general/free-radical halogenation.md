@@ -3,6 +3,7 @@ aliases:
   - free radical halogenation
 tags:
   - flashcards/general/free-radical_halogenation
+  - languages/in/English
 ---
 
 %%

@@ -4,6 +4,7 @@ aliases:
   - zinc oxide
 tags:
   - flashcards/general/zinc_oxide
+  - languages/in/English
 ---
 
 # zinc oxide

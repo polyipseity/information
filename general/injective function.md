@@ -8,6 +8,7 @@ aliases:
   - one-to-one functions
 tags:
   - flashcards/general/injective_function
+  - languages/in/English
 ---
 
 # injective function

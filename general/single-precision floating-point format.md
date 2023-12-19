@@ -10,6 +10,7 @@ aliases:
   - single-precision floating-point format
 tags:
   - flashcards/general/single-precison_floating-point_format
+  - languages/in/English
 ---
 
 # single-precision floating-point format

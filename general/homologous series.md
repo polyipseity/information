@@ -3,6 +3,7 @@ aliases:
   - homologous series
 tags:
   - flashcards/general/homologous_series
+  - languages/in/English
 ---
 
 # homologous series

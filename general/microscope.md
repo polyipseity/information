@@ -4,6 +4,7 @@ aliases:
   - microscopes
 tags:
   - flashcards/general/microscope
+  - languages/in/English
 ---
 
 # microscope

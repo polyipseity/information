@@ -4,6 +4,7 @@ aliases:
   - thermal conduction
 tags:
   - flashcards/general/thermal_conduction
+  - languages/in/English
 ---
 
 # thermal conduction

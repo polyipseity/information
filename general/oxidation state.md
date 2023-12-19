@@ -3,6 +3,7 @@ aliases:
   - oxidation number
 tags:
   - flashcards/general/oxidation_state
+  - languages/in/English
 ---
 
 # oxidation state

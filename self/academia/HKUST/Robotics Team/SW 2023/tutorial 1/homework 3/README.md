@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/09/26
+  - languages/in/English
+---
+
 # Task 3 : Number system conversion
 
 > [!info]- Authors

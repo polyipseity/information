@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/flame_test
+  - languages/in/English
 ---
 
 %%

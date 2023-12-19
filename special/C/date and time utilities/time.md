@@ -4,6 +4,7 @@ aliases:
   - time
 tags:
   - flashcards/special/C/date_and_time_utilities/time
+  - languages/in/English
 ---
 
 # `time`

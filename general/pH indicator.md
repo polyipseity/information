@@ -4,6 +4,7 @@ aliases:
   - pH indicators
 tags:
   - flashcards/general/pH_indicator
+  - languages/in/English
 ---
 
 # pH indicator

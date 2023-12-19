@@ -3,6 +3,7 @@ aliases:
   - Albustix
 tags:
   - flashcards/general/Albustix
+  - languages/in/English
 ---
 
 # Albustix

@@ -1,8 +1,12 @@
 ---
-tags: []
+aliases: []
+tags:
+  - functional/data
+  - languages/in/English
 ---
 
 # Redoxon Triple Action
+
 nutritional information
 
 - description: [orange](orange%20(fruit).md) flavor effervescent tablets

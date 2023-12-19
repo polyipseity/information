@@ -4,6 +4,7 @@ aliases:
   - sodium hydroxide
 tags:
   - flashcards/general/sodium_hydroxide
+  - languages/in/English
 ---
 
 # sodium hydroxide

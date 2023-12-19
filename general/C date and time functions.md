@@ -13,6 +13,7 @@ aliases:
   - time.h
 tags:
   - flashcards/general/C_date_and_time_functions
+  - languages/in/English
 ---
 
 # C date and time functions

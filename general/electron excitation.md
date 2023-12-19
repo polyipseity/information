@@ -4,6 +4,7 @@ aliases:
   - electron relaxation
 tags:
   - flashcards/general/electron_excitation
+  - languages/in/English
 ---
 
 # electron excitation

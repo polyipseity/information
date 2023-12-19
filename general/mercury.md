@@ -4,6 +4,7 @@ aliases:
   - mercury
 tags:
   - flashcards/general/mercury
+  - languages/in/English
 ---
 
 %%

@@ -1,6 +1,10 @@
 ---
+aliases:
+  - Blender help
+  - Blender usage
 tags:
   - flashcards/special/Blender_usage
+  - languages/in/English
 ---
 
 # Blender usage

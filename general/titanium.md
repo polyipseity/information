@@ -4,6 +4,7 @@ aliases:
   - titanium
 tags:
   - flashcards/general/titanium
+  - languages/in/English
 ---
 
 %%

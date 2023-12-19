@@ -1,8 +1,12 @@
 ---
-tags: []
+aliases: []
+tags:
+  - functional/data
+  - languages/in/English
 ---
 
 # VÖOST Collagen Formation
+
 nutritional information
 
 - description: effervescent tablets

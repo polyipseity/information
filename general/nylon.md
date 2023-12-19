@@ -3,6 +3,7 @@ aliases:
   - nylon
 tags:
   - flashcards/general/nylon
+  - languages/in/English
 ---
 
 %%

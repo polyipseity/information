@@ -7,6 +7,7 @@ aliases:
   - single-replacement reaction
 tags:
   - flashcards/general/single_displacement_reaction
+  - languages/in/English
 ---
 
 # single displacement reaction
@@ -23,4 +24,4 @@ This often happens when {{$\text{A}$ is more [reactive](reactivity%20(chemistry)
 
 > [!tip]
 >
-> - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md).}} <!--SR:!2024-03-04,76,330-->
+> - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md) to minimize [energy](energy.md).}} <!--SR:!2024-03-04,76,330-->

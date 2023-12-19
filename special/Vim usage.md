@@ -1,6 +1,10 @@
 ---
+aliases:
+  - Vim help
+  - Vim usage
 tags:
   - flashcards/special/Vim_usage
+  - languages/in/English
 ---
 
 # Vim usage

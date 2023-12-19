@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/10/10
+  - languages/in/English
+---
+
 # classwork 2
 
 If we need a frequency output of 50Hz and on-time of 0.5ms, what are the possible combinations of prescaler value, auto-reload value and compare value? (Given that the clock frequency is 84MHz)

@@ -3,6 +3,7 @@ aliases:
   - pseudo-random number generation
 tags:
   - flashcards/special/C/numerics/pseudo-random_number_generation
+  - languages/in/English
 ---
 
 # pseudo-random number generation

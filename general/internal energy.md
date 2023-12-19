@@ -4,6 +4,7 @@ aliases:
   - internal energy
 tags:
   - flashcards/general/internal_energy
+  - languages/in/English
 ---
 
 # internal energy
