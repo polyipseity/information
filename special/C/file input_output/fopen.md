@@ -30,7 +30,7 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
                 char const *restrict mode); // (since C11)
 ```
 
-> [!tip]
+> [!tip] tip
 >
 > - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
 > - overload selection: {{use the `_s`-ending overloads whenever feasible}}
