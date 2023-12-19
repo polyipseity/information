@@ -29,7 +29,7 @@ return await memorize_seq(
     R"[isobaric process](isobaric%20process.md): $\Delta p = 0$",
     R"[isochoric process](isochoric%20process.md): $\Delta V = 0$",
     R"[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$",
-    R"[isentripic process](isentripic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)",
+    R"[isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)",
     R"[isothermal process](isothermal%20process.md): $\Delta T = 0$",
     R"[polytropic process](polytropic%20process.md): $pV^n = C$",
   ),
@@ -45,7 +45,7 @@ return await memorize_seq(
 > 2. [isobaric process](isobaric%20process.md): $\Delta p = 0$
 > 3. [isochoric process](isochoric%20process.md): $\Delta V = 0$
 > 4. [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$
-> 5. [isentripic process](isentripic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)
+> 5. [isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)
 > 6. [isothermal process](isothermal%20process.md): $\Delta T = 0$
 > 7. [polytropic process](polytropic%20process.md): $pV^n = C$
 
@@ -57,8 +57,8 @@ return await memorize_seq(
 2. [adiabatic process](adiabatic%20process.md): $Q = 0$→:::←[isobaric process](isobaric%20process.md): $\Delta p = 0$
 3. [isobaric process](isobaric%20process.md): $\Delta p = 0$→:::←[isochoric process](isochoric%20process.md): $\Delta V = 0$
 4. [isochoric process](isochoric%20process.md): $\Delta V = 0$→:::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$
-5. [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→:::←[isentripic process](isentripic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)
-6. [isentripic process](isentripic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)→:::←[isothermal process](isothermal%20process.md): $\Delta T = 0$
+5. [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→:::←[isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)
+6. [isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)→:::←[isothermal process](isothermal%20process.md): $\Delta T = 0$
 7. [isothermal process](isothermal%20process.md): $\Delta T = 0$→:::←[polytropic process](polytropic%20process.md): $pV^n = C$
 8. [polytropic process](polytropic%20process.md): $pV^n = C$→:::←_(end)_
 
