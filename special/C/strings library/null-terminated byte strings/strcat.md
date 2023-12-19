@@ -22,7 +22,7 @@ errno_t strcat_s(char *restrict dest, rsize_t destsz, const char *restrict src);
 ```
 
 
-> [!tip]
+> [!tip] tip
 >
 > - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
 > - `destsz`: {{includes [null terminator](null-terminated%20string)}}

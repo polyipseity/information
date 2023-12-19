@@ -21,6 +21,6 @@ tags:
 7. [mas ($m$)](../general/mass.md):::[moment of inertia ($I$)](../general/moment%20of%20inertia.md) <!--SR:!2024-02-20,64,310!2024-02-04,51,310-->
 8. [translational energy ($E_t$)](../general/kinetic%20energy.md):::[rotational energy ($E_r$)](../general/rotational%20energy.md) <!--SR:!2024-02-14,59,310!2024-02-22,65,310-->
 
-> [!tip]
+> [!tip] tip
 >
 > - deriving rotational analogs of [formulas](../general/formula.md): {{replace the linear [physical quantities](#physical%20quantities) with rotational ones in [formulas](../general/formula.md)}} <!--SR:!2024-02-09,55,310-->

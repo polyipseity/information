@@ -19,7 +19,7 @@ tags:
 > - where
 >     - {{$C$ is the [heat capacity](heat%20capcaity.md), $\bar{C}$ is the [molar heat capacity](molar%20heat%20capacity.md), and $c$ is the [specific heat capacity](specific%20heat%20capacity.md); the subscript $p$ and $V$ means [constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}} <!--SR:!2023-12-20,4,270!2023-12-28,9,270-->
 
-> [!tip]
+> [!tip] tip
 >
 > - $Q / W$: {{Since the extra [heat capacity](heat%20capacity.md) of [isobaric processes](isobaric%20process.md) comes from [work](work%20(physics).md), therefore $Q / W = \gamma / (\gamma - 1)$ for [isobaric processes](isobaric%20process.md). For a generalization, see [polytropic process § relation between polytropic index and energy transfer ratio](polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio).}} <!--SR:!2023-12-29,10,270-->
 
