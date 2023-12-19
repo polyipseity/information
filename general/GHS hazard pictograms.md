@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/GHS_hazard_pictograms
+  - languages/in/English
 ---
 
 %%

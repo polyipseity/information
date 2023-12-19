@@ -4,6 +4,7 @@ aliases:
   - graphites
 tags:
   - flashcards/general/graphite
+  - languages/in/English
 ---
 
 # graphite

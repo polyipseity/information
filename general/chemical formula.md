@@ -5,6 +5,7 @@ aliases:
   - chemical formulas
 tags:
   - flashcards/general/chemical_formula
+  - languages/in/English
 ---
 
 # chemical formula

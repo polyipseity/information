@@ -4,6 +4,7 @@ aliases:
   - magnesium hydroxide
 tags:
   - flashcards/general/magnesium_hydroxide
+  - languages/in/English
 ---
 
 # magnesium hydroxide

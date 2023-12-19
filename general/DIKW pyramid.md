@@ -10,6 +10,7 @@ aliases:
   - wisdom hierarchy
 tags:
   - flashcards/general/DIKW_pyramid
+  - languages/in/English
 ---
 
 # DIKW pyramid

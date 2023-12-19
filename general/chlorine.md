@@ -5,6 +5,7 @@ aliases:
   - chlorine
 tags:
   - flashcards/general/chlorine
+  - languages/in/English
 ---
 
 # chlorine

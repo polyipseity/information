@@ -3,6 +3,7 @@ aliases:
   - octet rule
 tags:
   - flashcards/general/octet_rule
+  - languages/in/English
 ---
 
 %%

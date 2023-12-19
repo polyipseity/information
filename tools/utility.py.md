@@ -1,6 +1,7 @@
 ---
 tags:
   - functional/code
+  - languages/in/English
 ---
 
 # `utility.py`

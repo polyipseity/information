@@ -6,6 +6,7 @@ aliases:
   - acids
 tags:
   - flashcards/general/acid
+  - languages/in/English
 ---
 
 # acid

@@ -3,6 +3,7 @@ aliases:
   - metals
 tags:
   - flashcards/general/metal
+  - languages/in/English
 ---
 
 # metal

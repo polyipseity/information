@@ -5,6 +5,7 @@ aliases:
   - magnesium oxide
 tags:
   - flashcards/general/magnesium_oxide
+  - languages/in/English
 ---
 
 # magnesium oxide

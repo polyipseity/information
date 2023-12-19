@@ -6,6 +6,7 @@ aliases:
   - ideal gas laws
 tags:
   - flashcards/general/ideal_gas_law
+  - languages/in/English
 ---
 
 # ideal gas law

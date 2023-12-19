@@ -4,6 +4,7 @@ aliases:
   - valence shell electron pair repulsion theory
 tags:
   - flashcards/general/VSEPR_theory
+  - languages/in/English
 ---
 
 %%

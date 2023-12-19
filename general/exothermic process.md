@@ -5,6 +5,7 @@ aliases:
   - exothermic processes
 tags:
   - flashcards/general/exothermic_process
+  - languages/in/English
 ---
 
 %%

@@ -3,6 +3,7 @@ aliases:
   - Reichstein process
 tags:
   - flashcards/general/Reichstein_process
+  - languages/in/English
 ---
 
 %%

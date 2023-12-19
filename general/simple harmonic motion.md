@@ -4,6 +4,7 @@ aliases:
   - simple harmonic motion
 tags:
   - flashcards/general/simple_harmonic_motion
+  - languages/in/English
 ---
 
 # simple harmonic motion

@@ -8,6 +8,7 @@ aliases:
   - halogenoalkanes
 tags:
   - flashcards/general/haloalkane
+  - languages/in/English
 ---
 
 %%

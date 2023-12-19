@@ -4,6 +4,7 @@ aliases:
   - silver
 tags:
   - flashcards/general/silver
+  - languages/in/English
 ---
 
 %%

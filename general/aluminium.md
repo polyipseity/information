@@ -5,6 +5,7 @@ aliases:
   - aluminum
 tags:
   - flashcards/general/aluminium
+  - languages/in/English
 ---
 
 %%

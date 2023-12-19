@@ -5,6 +5,7 @@ aliases:
   - evaporation
 tags:
   - flashcards/general/evaporation
+  - languages/in/English
 ---
 
 %%

@@ -4,6 +4,7 @@ aliases:
   - petroleum industry
 tags:
   - flashcards/general/petroleum_industry
+  - languages/in/English
 ---
 
 %%

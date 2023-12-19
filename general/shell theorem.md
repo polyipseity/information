@@ -4,6 +4,7 @@ aliases:
   - shell theorems
 tags:
   - flashcards/general/shell_theorem
+  - languages/in/English
 ---
 
 # shell theorem

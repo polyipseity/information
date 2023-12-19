@@ -14,6 +14,7 @@ aliases:
   - sscanf_s
 tags:
   - flashcards/special/C/file_intput_output/scanf
+  - languages/in/English
 ---
 
 # `scanf`

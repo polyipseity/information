@@ -4,6 +4,7 @@ aliases:
   - first law of thermodynamics
 tags:
   - flashcards/general/first_law_of_thermodynamics
+  - languages/in/English
 ---
 
 # first law of thermodynamics

@@ -4,6 +4,7 @@ aliases:
   - carboxylic acids
 tags:
   - flashcards/general/carboxylic_acid
+  - languages/in/English
 ---
 
 %%

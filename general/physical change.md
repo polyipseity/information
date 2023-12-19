@@ -3,6 +3,7 @@ aliases:
   - physical changes
 tags:
   - flashcards/general/physical_change
+  - languages/in/English
 ---
 
 # physical change

@@ -5,6 +5,7 @@ aliases:
   - lithium group
 tags:
   - flashcards/general/alkali_metal
+  - languages/in/English
 ---
 
 %%

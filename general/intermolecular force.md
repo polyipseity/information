@@ -4,6 +4,7 @@ aliases:
   - intermolecular forces
 tags:
   - flashcards/general/intermolecular_force
+  - languages/in/English
 ---
 
 %%

@@ -4,6 +4,7 @@ aliases:
   - entropy
 tags:
   - flashcards/general/entropy
+  - languages/in/English
 ---
 
 # entropy

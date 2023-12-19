@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/Earth
+  - languages/in/English
 ---
 
 # Earth

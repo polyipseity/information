@@ -4,6 +4,7 @@ aliases:
   - temperatures
 tags:
   - flashcards/general/temperature
+  - languages/in/English
 ---
 
 # temperature

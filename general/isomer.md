@@ -5,6 +5,7 @@ aliases:
   - isomerism
 tags:
   - flashcards/general/isomer
+  - languages/in/English
 ---
 
 # isomer

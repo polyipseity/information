@@ -7,6 +7,7 @@ aliases:
   - parallel axis theorem
 tags:
   - flashcards/general/parallel_axis_theorem
+  - languages/in/English
 ---
 
 # parallel axis theorem

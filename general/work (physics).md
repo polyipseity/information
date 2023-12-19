@@ -5,6 +5,7 @@ aliases:
   - work done
 tags:
   - flashcards/general/work__physics_
+  - languages/in/English
 ---
 
 # work (physics)

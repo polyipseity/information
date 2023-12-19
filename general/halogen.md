@@ -8,6 +8,7 @@ aliases:
   - halogens
 tags:
   - flashcards/general/halogen
+  - languages/in/English
 ---
 
 %%

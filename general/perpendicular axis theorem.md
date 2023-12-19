@@ -4,6 +4,7 @@ aliases:
   - plane figure theorem
 tags:
   - flashcards/general/perpendicular_axis_theorem
+  - languages/in/English
 ---
 
 # perpendicular axis theorem

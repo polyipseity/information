@@ -5,6 +5,7 @@ aliases:
   - metallic bonds
 tags:
   - flashcards/general/metallic_bond
+  - languages/in/English
 ---
 
 # metallic bond

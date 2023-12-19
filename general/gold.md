@@ -4,6 +4,7 @@ aliases:
   - gold
 tags:
   - flashcards/general/gold
+  - languages/in/English
 ---
 
 %%

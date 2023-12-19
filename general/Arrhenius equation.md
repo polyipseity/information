@@ -3,6 +3,7 @@ aliases:
   - Arrhenius equation
 tags:
   - flashcards/general/Arrhenius_equation
+  - languages/in/English
 ---
 
 # Arrhenius equation

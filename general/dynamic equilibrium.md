@@ -5,6 +5,7 @@ aliases:
   - dynamic equilibriums
 tags:
   - flashcards/general/dynamic_equilibrium
+  - languages/in/English
 ---
 
 # dynamic equilibrium

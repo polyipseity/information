@@ -5,6 +5,7 @@ aliases:
 tags:
   - flashcards/special/command_library
   - functional/libraries
+  - languages/in/English
 ---
 
 # command library

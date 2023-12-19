@@ -4,6 +4,7 @@ aliases:
   - IUPAC numerical multipliers
 tags:
   - flashcards/general/IUPAC_numerical_multiplier
+  - languages/in/English
 ---
 
 %%

@@ -3,6 +3,7 @@ aliases:
   - dihydroxlation
 tags:
   - flashcards/general/dihydroxylation
+  - languages/in/English
 ---
 
 # dihydroxylation

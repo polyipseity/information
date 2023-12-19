@@ -3,6 +3,7 @@ aliases:
   - energy levels
 tags:
   - flashcards/general/energy_level
+  - languages/in/English
 ---
 
 # energy level

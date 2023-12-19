@@ -6,6 +6,7 @@ aliases:
   - catalytic
 tags:
   - flashcards/general/catalysis
+  - languages/in/English
 ---
 
 %%

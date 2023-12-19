@@ -4,6 +4,7 @@ aliases:
   - iron
 tags:
   - flashcards/general/iron
+  - languages/in/English
 ---
 
 %%

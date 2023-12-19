@@ -4,6 +4,7 @@ aliases:
   - "`RAND_MAX`"
 tags:
   - flashcards/special/C/numerics/pseudo-random_number_generation/RAND_MAX
+  - languages/in/English
 ---
 
 # `RAND_MAX`

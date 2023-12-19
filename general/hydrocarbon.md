@@ -4,6 +4,7 @@ aliases:
   - hydrocarbons
 tags:
   - flashcards/general/hydrocarbon
+  - languages/in/English
 ---
 
 %%

@@ -4,6 +4,7 @@ aliases:
   - second law of thermodynamics
 tags:
   - flashcards/general/second_law_of_thermodynamics
+  - languages/in/English
 ---
 
 # second law of thermodynamics

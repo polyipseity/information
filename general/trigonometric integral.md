@@ -26,6 +26,7 @@ aliases:
   - trigonometric integrals
 tags:
   - flashcards/general/trigonometric_integral
+  - languages/in/English
 ---
 
 # trigonometric integral

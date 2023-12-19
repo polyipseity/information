@@ -5,6 +5,7 @@ aliases:
   - ionization energies
 tags:
   - flashcards/general/ionization_energy
+  - languages/in/English
 ---
 
 # ionization energy

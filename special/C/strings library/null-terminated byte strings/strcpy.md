@@ -6,6 +6,7 @@ aliases:
   - strcpy_s
 tags:
   - flashcards/special/C/strings_library/null-terminated_byte_strings/strcpy
+  - languages/in/English
 ---
 
 # `strcpy`

@@ -4,6 +4,7 @@ aliases:
   - Lenz's law
 tags:
   - flashcards/general/Lenz's_law
+  - languages/in/English
 ---
 
 # Lenz's law

@@ -1,6 +1,8 @@
 ---
+aliases: []
 tags:
   - date/2023/07/20/to
+  - languages/in/English
 ---
 
 # Joint University Programmes Admissions System 2023

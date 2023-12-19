@@ -4,6 +4,7 @@ aliases:
   - equilibrium constants
 tags:
   - flashcards/general/equilibrium_constant
+  - languages/in/English
 ---
 
 # equilibrium constant

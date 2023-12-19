@@ -4,6 +4,7 @@ aliases:
   - differential equation
 tags:
   - flashcards/general/differential_equation
+  - languages/in/English
 ---
 
 # differential equation

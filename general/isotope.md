@@ -4,6 +4,7 @@ aliases:
   - isotopes
 tags:
   - flashcards/general/isotope
+  - languages/in/English
 ---
 
 # isotope

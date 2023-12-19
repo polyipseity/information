@@ -4,6 +4,7 @@ aliases:
   - alkenes
 tags:
   - flashcards/general/alkene
+  - languages/in/English
 ---
 
 %%

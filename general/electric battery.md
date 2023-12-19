@@ -8,6 +8,7 @@ aliases:
   - electrical battery
 tags:
   - flashcards/general/electric_battery
+  - languages/in/English
 ---
 
 %%

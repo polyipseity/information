@@ -4,6 +4,7 @@ aliases:
   - amines
 tags:
   - flashcards/general/amine
+  - languages/in/English
 ---
 
 # amine

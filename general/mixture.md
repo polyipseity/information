@@ -3,6 +3,7 @@ aliases:
   - mixtures
 tags:
   - flashcards/general/mixture
+  - languages/in/English
 ---
 
 # mixture

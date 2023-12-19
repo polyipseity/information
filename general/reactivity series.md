@@ -4,6 +4,7 @@ aliases:
   - reactivity series
 tags:
   - flashcards/general/reactivity_series
+  - languages/in/English
 ---
 
 %%

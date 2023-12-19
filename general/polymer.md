@@ -4,6 +4,7 @@ aliases:
   - polymers
 tags:
   - flashcards/general/polymer
+  - languages/in/English
 ---
 
 # polymer

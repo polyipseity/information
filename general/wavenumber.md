@@ -18,6 +18,7 @@ aliases:
   - wavenumbers
 tags:
   - flashcards/general/wavenumber
+  - languages/in/English
 ---
 
 # wavenumber

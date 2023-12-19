@@ -4,6 +4,7 @@ aliases:
   - lead(II) oxide
 tags:
   - flashcards/general/lead_II__oxide
+  - languages/in/English
 ---
 
 # lead(II) oxide

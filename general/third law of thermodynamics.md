@@ -4,6 +4,7 @@ aliases:
   - third law of thermodynamics
 tags:
   - flashcards/general/third_law_of_thermodynamics
+  - languages/in/English
 ---
 
 # third law of thermodynamics

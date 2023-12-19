@@ -4,6 +4,7 @@ aliases:
   - photovoltaic current
 tags:
   - flashcards/general/photocurrent
+  - languages/in/English
 ---
 
 # photocurrent

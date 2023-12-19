@@ -4,6 +4,7 @@ aliases:
   - thermal efficiency
 tags:
   - flashcards/general/thermal_efficiency
+  - languages/in/English
 ---
 
 # thermal efficiency

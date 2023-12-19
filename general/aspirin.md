@@ -6,6 +6,7 @@ aliases:
   - aspirin
 tags:
   - flashcards/general/aspirin
+  - languages/in/English
 ---
 
 %%

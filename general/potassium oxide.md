@@ -4,6 +4,7 @@ aliases:
   - potassium oxide
 tags:
   - flashcards/general/potassium_oxide
+  - languages/in/English
 ---
 
 # potassium oxide

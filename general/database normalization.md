@@ -4,6 +4,7 @@ aliases:
   - database normalization
 tags:
   - flashcards/general/database_normalization
+  - languages/in/English
 ---
 
 # database normalization
