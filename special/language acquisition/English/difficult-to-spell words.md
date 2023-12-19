@@ -17,3 +17,4 @@ English
 - governance:::the action or manner of governing
 - reservoir:::a source or sink of something
 - theoretical:::of or relating to theory rather than practice
+- trigonometry:::the branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides
