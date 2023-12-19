@@ -5,6 +5,7 @@ aliases:
   - Hess's law of constant heat summation
 tags:
   - flashcards/general/Hess's_law
+  - languages/in/English
 ---
 
 # Hess's law

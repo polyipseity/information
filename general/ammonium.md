@@ -4,6 +4,7 @@ aliases:
   - ammonium
 tags:
   - flashcards/general/ammonium
+  - languages/in/English
 ---
 
 # ammonium

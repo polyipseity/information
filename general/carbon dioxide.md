@@ -5,6 +5,7 @@ aliases:
   - carbon dioxide
 tags:
   - flashcards/general/carbon_dioxide
+  - languages/in/English
 ---
 
 # carbon dioxide

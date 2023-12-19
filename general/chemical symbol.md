@@ -5,6 +5,7 @@ aliases:
   - element symbols
 tags:
   - flashcards/general/chemical_symbol
+  - languages/in/English
 ---
 
 # chemical symbol

@@ -4,6 +4,7 @@ aliases:
   - lenses
 tags:
   - flashcards/general/lens
+  - languages/in/English
 ---
 
 # lens

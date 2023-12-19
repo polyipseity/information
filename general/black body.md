@@ -6,6 +6,7 @@ aliases:
   - blackbody
 tags:
   - flashcards/general/black_body
+  - languages/in/English
 ---
 
 # black body

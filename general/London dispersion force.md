@@ -5,6 +5,7 @@ aliases:
   - London dispersion forces
 tags:
   - flashcards/general/London_dispersion_force
+  - languages/in/English
 ---
 
 # London dispersion force

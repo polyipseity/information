@@ -4,6 +4,7 @@ aliases:
   - rand
 tags:
   - flashcards/special/C/numerics/pseudo-random_number_generation/rand
+  - languages/in/English
 ---
 
 # `rand`

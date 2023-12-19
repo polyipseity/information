@@ -6,6 +6,7 @@ aliases:
   - exponential integral
 tags:
   - flashcards/general/exponential_integral
+  - languages/in/English
 ---
 
 # exponential integral

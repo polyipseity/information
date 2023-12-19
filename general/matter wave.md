@@ -4,6 +4,7 @@ aliases:
   - matter waves
 tags:
   - flashcards/general/matter_wave
+  - languages/in/English
 ---
 
 # matter wave

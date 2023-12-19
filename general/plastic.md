@@ -4,6 +4,7 @@ aliases:
   - plastics
 tags:
   - flashcards/general/plastic
+  - languages/in/English
 ---
 
 %%

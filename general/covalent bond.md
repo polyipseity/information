@@ -6,6 +6,7 @@ aliases:
   - covalently bound
 tags:
   - flashcards/general/covalent_bond
+  - languages/in/English
 ---
 
 # covalent bond

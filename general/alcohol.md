@@ -4,6 +4,7 @@ aliases:
   - alcohols
 tags:
   - flashcards/general/alcohol
+  - languages/in/English
 ---
 
 %%

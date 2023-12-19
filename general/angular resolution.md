@@ -4,6 +4,7 @@ aliases:
   - angular resolutions
 tags:
   - flashcards/general/angular_resolution
+  - languages/in/English
 ---
 
 # angular resolution

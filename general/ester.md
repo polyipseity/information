@@ -4,6 +4,7 @@ aliases:
   - esters
 tags:
   - flashcards/general/ester
+  - languages/in/English
 ---
 
 %%

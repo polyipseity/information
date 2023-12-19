@@ -4,6 +4,7 @@ aliases:
   - aluminium hydroxide
 tags:
   - flashcards/general/aluminium_hydroxide
+  - languages/in/English
 ---
 
 # aluminium hydroxide

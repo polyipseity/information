@@ -3,6 +3,7 @@ aliases:
   - collision theory
 tags:
   - flashcards/general/collision_theory
+  - languages/in/English
 ---
 
 # collision theory

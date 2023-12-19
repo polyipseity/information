@@ -4,6 +4,7 @@ aliases:
   - standard solutions
 tags:
   - flashcards/general/standard_solution
+  - languages/in/English
 ---
 
 # standard solution

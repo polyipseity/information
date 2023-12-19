@@ -3,6 +3,7 @@ aliases:
   - Ostwald process
 tags:
   - flashcards/general/Ostwald_process
+  - languages/in/English
 ---
 
 %%

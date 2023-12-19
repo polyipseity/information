@@ -6,6 +6,7 @@ aliases:
   - slaked lime
 tags:
   - flashcards/general/calcium_hydroxide
+  - languages/in/English
 ---
 
 # calcium hydroxide

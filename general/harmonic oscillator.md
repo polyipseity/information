@@ -4,6 +4,7 @@ aliases:
   - harmonic oscillators
 tags:
   - flashcards/general/harmonic_oscillator
+  - languages/in/English
 ---
 
 # harmonic oscillator

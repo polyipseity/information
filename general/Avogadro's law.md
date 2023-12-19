@@ -3,6 +3,7 @@ aliases:
   - Avogadro's law
 tags:
   - flashcards/general/Avogadro's_law
+  - languages/in/English
 ---
 
 # Avogadro's law

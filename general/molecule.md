@@ -4,6 +4,7 @@ aliases:
   - molecules
 tags:
   - flashcards/general/molecule
+  - languages/in/English
 ---
 
 # molecule

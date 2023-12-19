@@ -3,6 +3,7 @@ aliases:
   - statements
 tags:
   - flashcards/special/MySQL/statements
+  - languages/in/English
 ---
 
 # statements

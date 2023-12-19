@@ -4,6 +4,7 @@ aliases:
   - constants of integration
 tags:
   - flashcards/special/constant_of_integration
+  - languages/in/English
 ---
 
 # constant of integration

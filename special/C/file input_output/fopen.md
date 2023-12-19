@@ -6,6 +6,7 @@ aliases:
   - fopen_s
 tags:
   - flashcards/special/C/file_input_output/fopen
+  - languages/in/English
 ---
 
 %%

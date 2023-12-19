@@ -4,6 +4,7 @@ aliases:
   - physical property
 tags:
   - flashcards/general/physical_property
+  - languages/in/English
 ---
 
 %%

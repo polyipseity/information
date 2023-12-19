@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/cobalt_II__chloride
+  - languages/in/English
 ---
 
 # cobalt(II) chloride

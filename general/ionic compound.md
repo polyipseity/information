@@ -4,6 +4,7 @@ aliases:
   - ionic compounds
 tags:
   - flashcards/general/ionic_compound
+  - languages/in/English
 ---
 
 # ionic compound

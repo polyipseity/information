@@ -4,6 +4,7 @@ aliases:
   - sodium chloride
 tags:
   - flashcards/general/sodium_chloride
+  - languages/in/English
 ---
 
 # sodium chloride

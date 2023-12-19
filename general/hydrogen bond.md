@@ -8,6 +8,7 @@ aliases:
   - hydrogen bonds
 tags:
   - flashcards/general/hydrogen_bond
+  - languages/in/English
 ---
 
 # hydrogen bond

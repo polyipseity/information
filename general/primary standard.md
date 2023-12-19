@@ -4,6 +4,7 @@ aliases:
   - primary standards
 tags:
   - flashcards/general/primary_standard
+  - languages/in/English
 ---
 
 %%

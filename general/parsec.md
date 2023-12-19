@@ -5,6 +5,7 @@ aliases:
   - pc
 tags:
   - flashcards/general/parsec
+  - languages/in/English
 ---
 
 # parsec

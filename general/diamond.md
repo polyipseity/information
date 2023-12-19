@@ -4,6 +4,7 @@ aliases:
   - diamonds
 tags:
   - flashcards/general/diamond
+  - languages/in/English
 ---
 
 # diamond

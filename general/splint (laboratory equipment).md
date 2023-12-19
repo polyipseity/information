@@ -5,6 +5,7 @@ aliases:
   - splints
 tags:
   - flashcards/general/splint__laboratory_equipment_
+  - languages/in/English
 ---
 
 %%

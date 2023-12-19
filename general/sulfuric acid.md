@@ -6,6 +6,7 @@ aliases:
   - sulphuric acid
 tags:
   - flashcards/general/sulfuric_acid
+  - languages/in/English
 ---
 
 # sulfuric acid

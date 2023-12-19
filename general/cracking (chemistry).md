@@ -4,6 +4,7 @@ aliases:
   - cracking (chemistry)
 tags:
   - flashcards/general/cracking__chemistry_
+  - languages/in/English
 ---
 
 %%

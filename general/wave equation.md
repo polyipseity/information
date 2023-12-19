@@ -4,6 +4,7 @@ aliases:
   - wave equations
 tags:
   - flashcards/general/wave_equation
+  - languages/in/English
 ---
 
 # wave equation

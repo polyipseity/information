@@ -4,6 +4,7 @@ aliases:
   - periodic tables
 tags:
   - flashcards/general/periodic_table
+  - languages/in/English
 ---
 
 # periodic table

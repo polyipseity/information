@@ -3,6 +3,7 @@ aliases:
   - virial theorem
 tags:
   - flashcards/general/virial_theorem
+  - languages/in/English
 ---
 
 # virial theorem

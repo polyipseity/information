@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/Rutherford_model
+  - languages/in/English
 ---
 
 # Rutherford model

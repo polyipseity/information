@@ -6,6 +6,7 @@ aliases:
   - string waves
 tags:
   - flashcards/general/string_vibration
+  - languages/in/English
 ---
 
 # string vibration

@@ -4,6 +4,7 @@ aliases:
   - spectral colors
 tags:
   - flashcards/general/spectral_color
+  - languages/in/English
 ---
 
 %%

@@ -8,6 +8,7 @@ aliases:
   - soluble
 tags:
   - flashcards/general/solubility
+  - languages/in/English
 ---
 
 %%

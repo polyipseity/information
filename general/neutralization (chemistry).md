@@ -6,6 +6,7 @@ aliases:
   - neutralizes
 tags:
   - flashcards/general/neutralization__chemistry_
+  - languages/in/English
 ---
 
 %%

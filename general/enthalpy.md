@@ -4,6 +4,7 @@ aliases:
   - enthalpy
 tags:
   - flashcards/general/enthalpy
+  - languages/in/English
 ---
 
 %%

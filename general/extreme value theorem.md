@@ -3,6 +3,7 @@ aliases:
   - extreme value theorem
 tags:
   - flashcards/general/extreme_value_theorem
+  - languages/in/English
 ---
 
 # extreme value theorem

@@ -6,6 +6,7 @@ aliases:
   - calorimeters
 tags:
   - flashcards/general/calorimeter
+  - languages/in/English
 ---
 
 %%

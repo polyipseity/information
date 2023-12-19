@@ -4,6 +4,7 @@ aliases:
   - iron(II) hydroxide
 tags:
   - flashcards/general/iron_II__hydroxide
+  - languages/in/English
 ---
 
 # iron(II) hydroxide

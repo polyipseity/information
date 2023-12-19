@@ -6,6 +6,7 @@ aliases:
   - diesel cycles
 tags:
   - flashcards/general/Diesel_cycle
+  - languages/in/English
 ---
 
 # Diesel cycle

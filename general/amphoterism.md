@@ -4,6 +4,7 @@ aliases:
   - amphoterism
 tags:
   - flashcards/general/amphoterism
+  - languages/in/English
 ---
 
 # amphoterism

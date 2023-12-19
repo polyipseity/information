@@ -5,6 +5,7 @@ aliases:
   - printf
 tags:
   - flashcards/general/printf
+  - languages/in/English
 ---
 
 %%

@@ -3,6 +3,7 @@ aliases:
   - circular orbit
 tags:
   - flashcards/general/circular_orbit
+  - languages/in/English
 ---
 
 # circular orbit

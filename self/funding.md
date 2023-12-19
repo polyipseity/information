@@ -2,6 +2,7 @@
 aliases: []
 tags:
   - functional/texts
+  - languages/in/English
 ---
 
 # funding

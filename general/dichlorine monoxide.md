@@ -5,6 +5,7 @@ aliases:
   - dichlorine monoxide
 tags:
   - flashcards/general/dichlorine_monoxide
+  - languages/in/English
 ---
 
 # dichlorine monoxide

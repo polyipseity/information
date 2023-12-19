@@ -4,6 +4,7 @@ aliases:
   - trigonometric identities
 tags:
   - flashcards/general/list_of_trigonometric_identities
+  - languages/in/English
 ---
 
 %%

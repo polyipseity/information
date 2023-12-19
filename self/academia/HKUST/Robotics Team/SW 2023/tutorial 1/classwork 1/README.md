@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/09/26
+  - languages/in/English
+---
+
 # Classwork 1 : Identify errors
 
 “It’s not a bug — it’s an undocumented feature.”

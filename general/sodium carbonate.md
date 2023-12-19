@@ -5,6 +5,7 @@ aliases:
   - sodium carbonate
 tags:
   - flashcards/general/sodium_carbonate
+  - languages/in/English
 ---
 
 %%

@@ -7,6 +7,7 @@ aliases:
   - semimetals
 tags:
   - flashcards/general/metalloid
+  - languages/in/English
 ---
 
 # metalloid

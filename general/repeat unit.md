@@ -12,6 +12,7 @@ aliases:
   - repeating units
 tags:
   - flashcards/general/repeat_unit
+  - languages/in/English
 ---
 
 # repeat unit

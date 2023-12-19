@@ -4,6 +4,7 @@ aliases:
   - base anhydrides
 tags:
   - flashcards/general/base_anhydride
+  - languages/in/English
 ---
 
 # base anhydride

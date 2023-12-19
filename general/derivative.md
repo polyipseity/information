@@ -4,6 +4,7 @@ aliases:
   - derivatives
 tags:
   - flashcards/general/derivative
+  - languages/in/English
 ---
 
 # derivative

@@ -15,6 +15,7 @@ aliases:
   - stdio.h
 tags:
   - flashcards/general/C_file_input_output
+  - languages/in/English
 ---
 
 # C file input/output

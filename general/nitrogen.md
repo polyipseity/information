@@ -10,6 +10,7 @@ aliases:
   - nitrogen
 tags:
   - flashcards/general/nitrogen
+  - languages/in/English
 ---
 
 %%

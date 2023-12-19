@@ -3,6 +3,7 @@ aliases:
   - work functions
 tags:
   - flashcards/general/work_function
+  - languages/in/English
 ---
 
 # work function

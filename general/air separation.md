@@ -3,6 +3,7 @@ aliases:
   - air separation
 tags:
   - flashcards/general/air_separation
+  - languages/in/English
 ---
 
 %%

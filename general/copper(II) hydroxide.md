@@ -4,6 +4,7 @@ aliases:
   - copper(II) hydroxide
 tags:
   - flashcards/general/copper_II__hydroxide
+  - languages/in/English
 ---
 
 # copper(II) hydroxide

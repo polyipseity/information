@@ -4,6 +4,7 @@ aliases:
   - chemical property
 tags:
   - flashcards/general/chemical_property
+  - languages/in/English
 ---
 
 # chemical property

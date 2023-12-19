@@ -3,6 +3,7 @@ aliases:
   - array declaration
 tags:
   - flashcards/special/Cpp/array_declaration
+  - languages/in/English
 ---
 
 # array declaration

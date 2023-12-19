@@ -4,6 +4,7 @@ aliases:
   - extracellular fluids
 tags:
   - flashcards/general/extracellular_fluid
+  - languages/in/English
 ---
 
 # extracellular fluid

@@ -3,6 +3,7 @@ aliases:
   - Leibniz integral rule
 tags:
   - flashcards/general/Leibniz_integral_rule
+  - languages/in/English
 ---
 
 # Leibniz integral rule

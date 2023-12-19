@@ -3,6 +3,7 @@ aliases:
   - ice
 tags:
   - flashcards/general/ice
+  - languages/in/English
 ---
 
 # ice

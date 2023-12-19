@@ -4,6 +4,7 @@ aliases:
   - "`FILE`"
 tags:
   - flashcards/special/C/file_input_output/FILE
+  - languages/in/English
 ---
 
 # `FILE`

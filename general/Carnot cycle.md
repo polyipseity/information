@@ -4,6 +4,7 @@ aliases:
   - Carnot cycles
 tags:
   - flashcards/general/Carnot_cycle
+  - languages/in/English
 ---
 
 %%
