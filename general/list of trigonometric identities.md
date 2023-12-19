@@ -88,6 +88,12 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
+> [!example] examples
+>
+> - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \cos 1.73 \sin 2.45$
+> - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$
+> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$
+
 ## multiple-angle
 
 %%
@@ -127,6 +133,17 @@ return await memorize_map(
 > [!tip] tip
 >
 > - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}}
+
+> [!example] examples
+>
+> - $\sin 7.42$ ([double-angle](#double-angle) variant) ::: $2 \sin 3.71 \cos 3.71$
+> - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$
+> - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$
+> - $\cos(-3.68)$ ([double-angle](#double-angle) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$
+> - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$
+> - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$
+> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$
+> - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$
 
 ## product-to-sum and sum-to-product
 
@@ -177,6 +194,13 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
+> [!example] examples
+>
+> - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin(5.23 + 1.23) + \sin(5.23 - 1.23)}2$
+> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin(-3.21 + 0.23) - \sin(-3.21 - 0.23)}2$
+> - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos(6.22 - (-0.01)) - \cos(6.22 + (-0.01))}2$
+> - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos(-7.23 - (-1.23)) + \cos(-7.23 + (-1.23))}2$
+
 ### sum-to-product
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96fb"--><!-- The following content is generated at 2023-11-21T01:12:55.755818+08:00. Any edits will be overridden! -->
@@ -196,3 +220,10 @@ return chain.from_iterable(await gather(
 4. tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+> [!example] examples
+>
+> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$
+> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$
+> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$
+> - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$
