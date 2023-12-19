@@ -4,6 +4,7 @@ aliases:
   - third normal form
 tags:
   - flashcards/general/third_normal_form
+  - languages/in/English
 ---
 
 %%

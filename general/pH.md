@@ -5,6 +5,7 @@ aliases:
   - pOH
 tags:
   - flashcards/general/pH
+  - languages/in/English
 ---
 
 # pH

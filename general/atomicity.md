@@ -3,6 +3,7 @@ aliases:
   - atomicity
 tags:
   - flashcards/general/atomicity
+  - languages/in/English
 ---
 
 %%

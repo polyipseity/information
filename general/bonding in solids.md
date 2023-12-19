@@ -4,6 +4,7 @@ aliases:
   - bondings in solids
 tags:
   - flashcards/general/bonding_in_solids
+  - languages/in/English
 ---
 
 %%

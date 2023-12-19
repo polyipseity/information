@@ -5,6 +5,7 @@ aliases:
   - buckminsterfullerenes
 tags:
   - flashcards/general/buckminsterfullerene
+  - languages/in/English
 ---
 
 # buckministerfullerene

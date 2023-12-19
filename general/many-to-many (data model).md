@@ -4,6 +4,7 @@ aliases:
   - many-to-many (data model)
 tags:
   - flashcards/general/many-to-many_(data_model)
+  - languages/in/English
 ---
 
 # many-to-many (data model)

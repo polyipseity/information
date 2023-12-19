@@ -5,6 +5,7 @@ aliases:
   - thermal equilibriums
 tags:
   - flashcards/general/thermal_equilibrium
+  - languages/in/English
 ---
 
 # thermal equilibrium

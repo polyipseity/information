@@ -4,6 +4,7 @@ aliases:
   - copper
 tags:
   - flashcards/general/copper
+  - languages/in/English
 ---
 
 %%

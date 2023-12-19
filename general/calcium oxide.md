@@ -5,6 +5,7 @@ aliases:
   - quicklime
 tags:
   - flashcards/general/calcium_oxide
+  - languages/in/English
 ---
 
 %%

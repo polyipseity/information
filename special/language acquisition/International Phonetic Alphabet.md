@@ -1,6 +1,12 @@
 ---
+aliases:
+  - IPA help
+  - IPA usage
+  - International Phonetic Alphabet help
+  - International Phonetic Alphabet usage
 tags:
   - flashcards/special/language_acquisition/International_Phonetic_Alphabet
+  - languages/in/English
 ---
 
 %%

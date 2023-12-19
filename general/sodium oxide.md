@@ -4,6 +4,7 @@ aliases:
   - sodium oxide
 tags:
   - flashcards/general/sodium_oxide
+  - languages/in/English
 ---
 
 # sodium oxide

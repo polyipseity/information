@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/09/26
+  - languages/in/English
+---
+
 # Task 2 : Treasure hunt
 
 > [!info]- Authors

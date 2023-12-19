@@ -4,6 +4,7 @@ aliases:
   - periodic trends
 tags:
   - flashcards/general/periodic_trends
+  - languages/in/English
 ---
 
 %%

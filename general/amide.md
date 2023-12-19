@@ -4,6 +4,7 @@ aliases:
   - amides
 tags:
   - flashcards/general/amide
+  - languages/in/English
 ---
 
 %%

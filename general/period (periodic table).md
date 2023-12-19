@@ -5,6 +5,7 @@ aliases:
   - periods
 tags:
   - flashcards/general/period__periodic_table_
+  - languages/in/English
 ---
 
 # period (periodic table)

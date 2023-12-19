@@ -4,6 +4,7 @@ aliases:
   - zinc–carbon battery
 tags:
   - flashcards/general/zinc–carbon_battery
+  - languages/in/English
 ---
 
 # zinc–carbon battery

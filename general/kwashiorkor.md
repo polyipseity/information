@@ -3,6 +3,7 @@ aliases:
   - kwashiorkor
 tags:
   - flashcards/general/kwashiorkor
+  - languages/in/English
 ---
 
 # kwashiorkor

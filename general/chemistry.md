@@ -4,6 +4,7 @@ aliases:
   - chemistry
 tags:
   - flashcards/general/chemistry
+  - languages/in/English
 ---
 
 # chemistry

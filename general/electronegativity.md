@@ -8,6 +8,7 @@ aliases:
   - electropositivity
 tags:
   - flashcards/general/electronegativity
+  - languages/in/English
 ---
 
 # electronegativity

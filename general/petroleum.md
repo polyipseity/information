@@ -7,6 +7,7 @@ aliases:
   - petroleum
 tags:
   - flashcards/general/petroleum
+  - languages/in/English
 ---
 
 %%

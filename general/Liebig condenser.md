@@ -3,6 +3,7 @@ aliases:
   - straight condenser
 tags:
   - flashcards/general/Liebig_condenser
+  - languages/in/English
 ---
 
 # Liebig condenser

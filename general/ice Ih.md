@@ -4,6 +4,7 @@ aliases:
   - ice Ih
 tags:
   - flashcards/general/ice_Ih
+  - languages/in/English
 ---
 
 # ice I<sub>h</sub>

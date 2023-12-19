@@ -3,6 +3,7 @@ aliases:
   - corrosion
 tags:
   - flashcards/general/corrosion
+  - languages/in/English
 ---
 
 # corrosion

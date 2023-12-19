@@ -3,6 +3,7 @@ aliases:
   - Mayer's relation
 tags:
   - flashcards/general/Mayer_s_relation
+  - languages/in/English
 ---
 
 # Mayer's relation

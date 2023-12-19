@@ -4,6 +4,7 @@ aliases:
   - ketones
 tags:
   - flashcards/general/ketone
+  - languages/in/English
 ---
 
 %%

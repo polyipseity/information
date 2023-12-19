@@ -4,6 +4,7 @@ aliases:
   - srand
 tags:
   - flashcards/special/C/numerics/pseudo-random_number_generation/srand
+  - languages/in/English
 ---
 
 # `srand`

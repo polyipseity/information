@@ -3,6 +3,7 @@ aliases:
   - atoms
 tags:
   - flashcards/general/atom
+  - languages/in/English
 ---
 
 # atom

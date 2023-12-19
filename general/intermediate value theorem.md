@@ -3,6 +3,7 @@ aliases:
   - intermediate value theorem
 tags:
   - flashcards/general/intermediate_value_theorem
+  - languages/in/English
 ---
 
 # intermediate value theorem

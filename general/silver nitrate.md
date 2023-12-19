@@ -4,6 +4,7 @@ aliases:
   - silver nitrate
 tags:
   - flashcards/general/silver_nitrate
+  - languages/in/English
 ---
 
 # silver nitrate

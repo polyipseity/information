@@ -4,6 +4,7 @@ aliases:
   - nitric acid
 tags:
   - flashcards/general/nitric_acid
+  - languages/in/English
 ---
 
 # nitric acid

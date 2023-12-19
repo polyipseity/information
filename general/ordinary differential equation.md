@@ -4,6 +4,7 @@ aliases:
   - ordinary differential equation
 tags:
   - flashcards/general/ordinary_differential_equation
+  - languages/in/English
 ---
 
 %%

@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/electrometallurgy
+  - languages/in/English
 ---
 
 %%

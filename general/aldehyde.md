@@ -4,6 +4,7 @@ aliases:
   - aldehydes
 tags:
   - flashcards/general/aldehyde
+  - languages/in/English
 ---
 
 %%

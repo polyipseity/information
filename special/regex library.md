@@ -5,6 +5,7 @@ tags:
 tags:
   - flashcards/special/regex_library
   - functional/libraries
+  - languages/in/English
 ---
 
 # regex library

@@ -6,6 +6,7 @@ aliases:
   - transition metals
 tags:
   - flashcards/general/transition_metal
+  - languages/in/English
 ---
 
 %%

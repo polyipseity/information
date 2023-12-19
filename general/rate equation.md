@@ -6,6 +6,7 @@ aliases:
   - rate laws
 tags:
   - flashcards/general/rate_equation
+  - languages/in/English
 ---
 
 # rate equation

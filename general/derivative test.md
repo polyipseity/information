@@ -44,6 +44,7 @@ aliases:
   - two-sided second-derivative tests
 tags:
   - flashcards/general/derivative_test
+  - languages/in/English
 ---
 
 # derivative test

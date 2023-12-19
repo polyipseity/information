@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/10/10
+  - languages/in/English
+---
+
 # classwork 3
 
 Try to control servo motor to turn to -90 degrees-> 0 degrees -> 90 degrees (with a short pause at 0 degrees

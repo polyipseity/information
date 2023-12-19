@@ -4,6 +4,7 @@ aliases:
   - salt bridges
 tags:
   - flashcards/general/salt_bridge
+  - languages/in/English
 ---
 
 # salt bridge

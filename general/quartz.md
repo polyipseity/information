@@ -3,6 +3,7 @@ aliases:
   - quartz
 tags:
   - flashcards/general/quartz
+  - languages/in/English
 ---
 
 # quartz

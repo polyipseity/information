@@ -4,6 +4,7 @@ aliases:
   - boiling stone
 tags:
   - flashcards/general/boiling_chip
+  - languages/in/English
 ---
 
 # boiling chip

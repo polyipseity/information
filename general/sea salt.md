@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards/general/sea_salt
+  - languages/in/English
 ---
 
 %%

@@ -4,6 +4,7 @@ aliases:
   - résumé
 tags:
   - flashcards/special/résumé
+  - languages/in/English
 ---
 
 %%

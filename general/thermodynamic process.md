@@ -4,6 +4,7 @@ aliases:
   - thermodynamic processes
 tags:
   - flashcards/general/thermodynamic_process
+  - languages/in/English
 ---
 
 %%

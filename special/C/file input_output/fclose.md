@@ -4,6 +4,7 @@ aliases:
   - fclose
 tags:
   - flashcards/special/C/file_input_output/fclose
+  - languages/in/English
 ---
 
 # `fclose`

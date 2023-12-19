@@ -5,6 +5,7 @@ aliases:
   - paraffin
 tags:
   - flashcards/general/alkane
+  - languages/in/English
 ---
 
 %%

@@ -4,6 +4,7 @@ aliases:
   - zinc hydroxide
 tags:
   - flashcards/general/zinc_hydroxide
+  - languages/in/English
 ---
 
 # zinc hydroxide

@@ -8,6 +8,7 @@ aliases:
   - Newton’s method
 tags:
   - flashcards/general/Newton_s_method
+  - languages/in/English
 ---
 
 # Newton's method

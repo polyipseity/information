@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/09/26
+  - languages/in/English
+---
+
 # Classwork 5 : First Word
 
 In the tutorial, we mentioned that `\0` is a special character that indicates the end of a char array. In this question, you are required to print the first word found in the char array. That is, you should only print up to the first (space character). You should remove / not display the characters afterwards.

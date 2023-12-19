@@ -12,6 +12,7 @@ aliases:
   - L'Hôspital's rule
 tags:
   - flashcards/general/L_Hôpital_s_rule
+  - languages/in/English
 ---
 
 %%

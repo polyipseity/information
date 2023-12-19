@@ -4,6 +4,7 @@ aliases:
   - concentrations
 tags:
   - flashcards/general/concentration
+  - languages/in/English
 ---
 
 # concentration

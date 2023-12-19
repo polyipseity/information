@@ -5,6 +5,7 @@ aliases:
   - Euler’s formula
 tags:
   - flashcards/general/Euler_s_formula
+  - languages/in/English
 ---
 
 # Euler's formula

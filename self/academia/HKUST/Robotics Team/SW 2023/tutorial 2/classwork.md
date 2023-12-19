@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/10/03
+  - languages/in/English
+---
+
 # Classwork
 
 ## __Classwork__

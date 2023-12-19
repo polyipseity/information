@@ -4,6 +4,7 @@ aliases:
   - Rutherford–Bohr model
 tags:
   - flashcards/general/Bohr_model
+  - languages/in/English
 ---
 
 %%

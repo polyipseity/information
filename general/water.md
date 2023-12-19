@@ -4,6 +4,7 @@ aliases:
   - water
 tags:
   - flashcards/general/water
+  - languages/in/English
 ---
 
 # water

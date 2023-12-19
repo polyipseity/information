@@ -6,6 +6,7 @@ aliases:
   - van der Waals' forces
 tags:
   - flashcards/general/van_der_Waals_force
+  - languages/in/English
 ---
 
 # van der Waals force

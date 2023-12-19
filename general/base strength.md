@@ -6,6 +6,7 @@ aliases:
   - strong bases
 tags:
   - flashcards/general/base_strength
+  - languages/in/English
 ---
 
 # base strength

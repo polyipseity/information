@@ -11,6 +11,7 @@ aliases:
   - string.h
 tags:
   - flashcards/general/C_string_handling
+  - languages/in/English
 ---
 
 # C string handling

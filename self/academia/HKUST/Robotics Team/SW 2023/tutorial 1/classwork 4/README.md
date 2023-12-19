@@ -1,3 +1,10 @@
+---
+aliases: []
+tags:
+  - date/2023/09/26
+  - languages/in/English
+---
+
 # Classwork 4 : Matrix Addition
 
 What do mathematicians sleep on? Matrices!!

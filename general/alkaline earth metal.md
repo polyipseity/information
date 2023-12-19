@@ -8,6 +8,7 @@ aliases:
   - group IIA
 tags:
   - flashcards/general/alkaline_earth_metal
+  - languages/in/English
 ---
 
 %%

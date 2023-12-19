@@ -4,6 +4,7 @@ aliases:
   - nametag
 tags:
   - flashcards/special/name_tag
+  - languages/in/English
 ---
 
 # name tag

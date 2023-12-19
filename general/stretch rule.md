@@ -6,6 +6,7 @@ aliases:
   - stretch rule
 tags:
   - flashcards/general/stretch_rule
+  - languages/in/English
 ---
 
 # stretch rule

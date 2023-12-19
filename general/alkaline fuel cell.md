@@ -5,6 +5,7 @@ aliases:
   - alkaline fuel cells
 tags:
   - flashcards/general/alkaline_fuel_cell
+  - languages/in/English
 ---
 
 %%

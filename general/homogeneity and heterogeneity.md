@@ -7,6 +7,7 @@ aliases:
   - homogeneous
 tags:
   - flashcards/general/homogeneity_and_heterogeneity
+  - languages/in/English
 ---
 
 # homogeneity and heterogeneity

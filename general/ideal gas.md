@@ -4,6 +4,7 @@ aliases:
   - ideal gases
 tags:
   - flashcards/general/ideal_gas
+  - languages/in/English
 ---
 
 %%

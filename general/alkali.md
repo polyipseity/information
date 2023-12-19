@@ -5,6 +5,7 @@ aliases:
   - alkalis
 tags:
   - flashcards/general/alkali
+  - languages/in/English
 ---
 
 # alkali
