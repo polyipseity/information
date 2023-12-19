@@ -10,6 +10,7 @@ tags:
 
 __set 1__
 
+- contacts
 - https://account.microsoft.com/profile/edit-picture: polyipseity@outlook.com
 - https://appleid.apple.com/account/manage/section/information: polyipseity@gmail.com
 - https://buymeacoffee.com/polyipseity
