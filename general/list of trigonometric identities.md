@@ -124,7 +124,7 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-> [!tip]
+> [!tip] tip
 >
 > - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}}
 

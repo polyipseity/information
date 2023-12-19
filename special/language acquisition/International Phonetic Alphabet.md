@@ -22,7 +22,7 @@ tags:
 >
 > official IPA chart
 
-> [!tip]
+> [!tip] tip
 >
 > - phonetic symbols: {{notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols}}
 
