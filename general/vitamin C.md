@@ -19,4 +19,4 @@ tags:
 
 ### industrial synthesis
 
-Vitamin C is {{produced from ᴅ-[glucose](glucose.md) by two processes: the [Reichstein process](Reichstein%20process.md) and the modern two-step [fermentation](fermentation.md) process}}. <!--SR:!2023-12-20,176,310-->
+Vitamin C is {{produced from ᴅ-[glucose](glucose.md) by two processes: the [Reichstein process](Reichstein%20process.md) and the modern two-step [fermentation](fermentation.md) process}}. <!--SR:!2025-06-17,545,310-->
