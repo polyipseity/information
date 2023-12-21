@@ -11,7 +11,7 @@ tags:
 
 ## dynamics
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}:
+The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}: <!--SR:!2023-12-25,4,309-->
 
 > __ordinary differential equation__
 >
@@ -19,7 +19,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >     - {{[function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}}
+>     - {{[oscillator](oscillation.md) properties: $k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2023-12-25,4,309!2023-12-25,4,309!2023-12-25,4,309-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -29,7 +29,7 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >     - {{[function](function%20(mathematics).md) properties: $x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}}
+>     - {{[oscillator](oscillation.md) properties: $\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2023-12-25,4,309!2023-12-25,4,309!2023-12-25,4,309-->
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 

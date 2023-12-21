@@ -10,7 +10,7 @@ tags:
 
 ## derivation
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for damped harmonic oscillator can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous damping coefficient_}}:
+The [ordinary differential equation](ordinary%20differential%20equation.md) for damped harmonic oscillator can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous damping coefficient_}}: <!--SR:!2023-12-25,4,270-->
 
 > __ordinary differential equation__
 >
@@ -18,7 +18,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >     - {{[function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
+>     - {{[oscillator](oscillation.md) properties: $k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2023-12-25,4,270!2023-12-25,4,270!2023-12-25,4,270-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -28,7 +28,7 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >     - {{[function](function%20(mathematics).md) properties: $x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
+>     - {{[oscillator](oscillation.md) properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2023-12-24,3,250!2023-12-25,4,270!2023-12-25,4,270-->
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 
@@ -84,7 +84,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __undamped__
 >
-> When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md). This is rare in the natural world due to [dissipation](dissipation.md)}}.
+> When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md). This is rare in the natural world due to [dissipation](dissipation.md)}}. <!--SR:!2023-12-25,4,270-->
 
 > __underdamped__
 >
@@ -95,7 +95,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
->     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $\varphi$ is the initial phase}}
+>     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $\varphi$ is the initial phase}} <!--SR:!2023-12-25,4,270!2023-12-25,4,270!2023-12-25,4,270!2023-12-24,3,250!2023-12-25,4,270-->
 
 > __critically damped__
 >
@@ -106,7 +106,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}} = 1$ is the damping ratio, and $\lambda = \omega_n \zeta = \omega_n$ is the decay rate}}
->     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}}
+>     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}} <!--SR:!2023-12-25,4,270!2023-12-24,3,250!2023-12-25,4,270!2023-12-24,3,250!2023-12-24,3,250-->
 
 > __overdamped__
 >
@@ -117,8 +117,8 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
->     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}}
+>     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}} <!--SR:!2023-12-25,4,270!2023-12-24,3,250!2023-12-24,3,250!2023-12-25,4,270!2023-12-24,3,250-->
 
 > __negative damping__
 >
-> If $\zeta < 0$, {{then the system is driven rather than damped. The driven [force](force.md) increases as the [velocity](velocity.md) increases. Therefore, the [amplitude](amplitude.md) increases without bound as $e^{\lvert \lambda \rvert t}$. It is similar (but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$ but going back in [time](time.md). This is unnatural in the natural world, but can happen under some circumstances, such as the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened and the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}}. The equations in the above regimes applies to negative damping as well. Choose the equation that applies to the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$.
+> If $\zeta < 0$, {{then the system is driven rather than damped. The driven [force](force.md) increases as the [velocity](velocity.md) increases. Therefore, the [amplitude](amplitude.md) increases without bound as $e^{\lvert \lambda \rvert t}$. It is similar (but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$ but going back in [time](time.md). This is unnatural in the natural world, but can happen under some circumstances, such as the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened and the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}}. The equations in the above regimes applies to negative damping as well. Choose the equation that applies to the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$. <!--SR:!2023-12-24,3,250-->
