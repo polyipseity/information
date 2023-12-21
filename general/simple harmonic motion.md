@@ -42,7 +42,7 @@ The position of a simple harmonic motion as a function of time can be written as
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2023-12-21,4,296!2023-12-21,4,296!2023-12-21,4,296!2023-12-21,4,296!2023-12-21,4,296!2023-12-21,4,296!2023-12-21,4,296-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-01-04,14,316!2024-01-08,18,316!2024-01-07,17,316!2024-01-02,12,296!2024-01-07,17,316!2024-01-06,16,316!2024-01-07,17,316-->
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 
@@ -78,7 +78,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}}
 >
 > - where
->     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2023-12-26,6,276!2023-12-21,4,296-->
+>     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2023-12-26,6,276!2024-01-05,15,316-->
 
 ### mass of a simple pendulum
 
@@ -87,7 +87,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}}
 >
 > - where
->     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length}} <!--SR:!2023-12-21,4,296!2023-12-21,4,296-->
+>     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length}} <!--SR:!2024-01-02,12,296!2024-01-08,18,316-->
 
 ### mass of a physical pendulum
 
@@ -96,4 +96,4 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
 >
 > - where
->     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2023-12-26,6,276!2023-12-21,4,296-->
+>     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2023-12-26,6,276!2024-01-03,13,296-->

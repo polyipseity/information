@@ -12,7 +12,7 @@ tags:
 
 > [!tip] tip
 >
-> - color change [mnemonic](mnemonic.md): {{disgusting protein: 🙂 becomes 🤢}} <!--SR:!2023-12-21,14,254-->
+> - color change [mnemonic](mnemonic.md): {{disgusting protein: 🙂 becomes 🤢}} <!--SR:!2023-12-27,6,234-->
 
 ## see also
 

@@ -42,7 +42,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### editor
 
 - select all:::A <!--SR:!2025-08-27,690,296!2026-06-24,964,336-->
-- select none:::Alt+A <!--SR:!2024-08-23,413,276!2023-12-21,231,276-->
+- select none:::Alt+A <!--SR:!2024-08-23,413,276!2024-04-14,115,256-->
 - invert selection:::Ctrl+I <!--SR:!2024-03-31,237,250!2024-01-03,232,276-->
 - hide selection:::H <!--SR:!2024-01-19,184,250!2024-11-29,511,310-->
 - reveal hidden:::Alt+H <!--SR:!2025-04-09,565,270!2024-12-06,426,256-->
@@ -54,7 +54,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle edit mode:::Tab↹ <!--SR:!2024-11-30,512,310!2025-05-21,637,316-->
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2024-06-23,370,276!2024-04-16,165,216-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2025-08-08,723,336!2024-08-12,390,296-->
-  - +multiple modes:::+⇧Shift <!--SR:!2023-12-21,221,270!2025-07-28,688,316-->
+- +multiple modes:::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
   - +expand/contract selection:::+Ctrl <!--SR:!2024-02-09,173,276!2024-04-14,218,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2024-01-07,55,190!2024-03-17,208,236-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2024-03-29,108,250!2023-12-30,91,155-->

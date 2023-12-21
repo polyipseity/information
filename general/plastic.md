@@ -104,7 +104,7 @@ return _chain.from_iterable(await _gather(
 1. ![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg)::[high-density polyethylene](high-density%20polyethylene.md) (HDPE), [low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2024-06-04,333,334-->
 2. ![polyethylene terephthalate](../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg)::[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2024-04-14,155,274-->
 3. ![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg)::[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2025-03-23,478,294-->
-4. ![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg)::[polypropylene](polypropylene.md) (PP) <!--SR:!2023-12-21,179,301-->
+4. ![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg)::[polypropylene](polypropylene.md) (PP) <!--SR:!2026-01-05,746,321-->
 5. ![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg)::[polystyrene](polystyrene.md) (PS) <!--SR:!2024-02-07,233,321-->
 6. ![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)::[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-07-28,373,349-->
 
@@ -118,8 +118,8 @@ return _chain.from_iterable(await _gather(
 2. [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2024-06-15,222,214-->
 3. [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::high chemical resistance, high [water](water.md) resistance, low [density](density.md), smooth, [strong](strength%20of%20materials.md), [tough](toughness.md) <!--SR:!2024-04-23,125,170-->
 4. [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2024-06-02,254,241-->
-5. [polypropylene](polypropylene.md) (PP)::high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2023-12-21,4,130-->
-6. [polystyrene](polystyrene.md) (PS)::expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2023-12-21,52,221-->
+5. [polypropylene](polypropylene.md) (PP)::high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2023-12-23,2,130-->
+6. [polystyrene](polystyrene.md) (PS)::expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2024-01-17,27,201-->
 7. [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2023-12-22,77,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
