@@ -11,7 +11,51 @@ tags:
 
 ## dynamics
 
-The position of a simple harmonic motion as a function of time can be written as:
+The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}:
+
+> __ordinary differential equation__
+>
+> {{$$\begin{aligned} F_\mathrm{net} = m \frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -kx \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} +\frac{k}m x & = 0 \end{aligned}$$}}
+>
+> - where
+>     - {{[function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
+>     - {{[oscillator](oscillation.md) properties: $k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}}
+
+For better physical meaning, it can be rewritten as:
+
+> __ordinary differential equation, rewritten__
+>
+> {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega x = 0$$}}
+>
+> - where
+>     - {{[function](function%20(mathematics).md) properties: $x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
+>     - {{[oscillator](oscillation.md) properties: $\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}}
+
+Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
+
+$$\begin{aligned}
+\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega^2 x & = 0 \\
+r^2 + \omega^2 & = 0\\
+r^2 & = -\omega^2 \\
+r & = \pm\omega i \\
+x(t) & = c_1 e^{\omega t i} + c_2 e^{-\omega t i} \\
+& = C_1 e^0 \cos(\omega t) + C_2 e^0 \sin(\omega t) \\
+& = C_1 \cos(\omega t) + C_2 \sin(\omega t) \\
+v(t) & = x'(t) \\
+& = -C_1 \omega \sin(\omega t) + C_2 \omega \cos(\omega t) \\
+\\
+x_0 & = C_1 \cos(\omega \cdot 0) + C_2 \sin(\omega \cdot 0) \\
+& = C_1 \\
+C_1 & = x_0 \\
+v_0 & = -C_1 \omega \sin(\omega \cdot 0) + C_2 \omega \cos(\omega \cdot 0) \\
+& = C_2 \omega \\
+C_2 & = \frac{v_0}\omega \\
+\\
+x(t) & = x_0 \cos(\omega t) + \frac{v_0}\omega \sin(\omega t) \\
+& = \sqrt{x_0^2 + \left(\frac{v_0}\omega\right)^2} \cos\left(\omega t + \operatorname{atan2}\left(-\frac{v_0}\omega, x_0\right)\right)
+\end{aligned}$$
+
+The solution yields the [position](position%20(geometry).md) of a simple harmonic motion as a [function](function%20(mathematics).md) of [time](time.md):
 
 > {{__position as a function of time__}}
 >
@@ -47,7 +91,7 @@ The position of a simple harmonic motion as a function of time can be written as
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 
 $$\begin{aligned}
-K & = \frac12 m v^2 \\
+K(t) & = \frac12 m v^2 \\
 & = \frac12 k \omega^{-2} (-\omega A \sin(\omega t + \phi))^2 \\
 & = \frac12 k A^2 \sin^2(\omega t + \phi)
 \end{aligned}$$
@@ -55,7 +99,7 @@ K & = \frac12 m v^2 \\
 For [potential energy](potential%20energy.md) $U$ at [time](time.md) $t$:
 
 $$\begin{aligned}
-U & = \frac12 k x^2 \\
+U(t) & = \frac12 k x^2 \\
 & = \frac12 k (A \cos(\omega t + \phi))^2 \\
 & = \frac12 k A^2 \cos^2(\omega t + \phi)
 \end{aligned}$$
