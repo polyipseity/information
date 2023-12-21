@@ -28,56 +28,56 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >     - {{[function](function%20(mathematics).md) properties: $x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
+>     - {{[oscillator](oscillation.md) properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 
 $$\begin{aligned}
 \frac{\mathrm{d}^2x}{\mathrm{d}t^2} + 2 \zeta \omega_n \frac{\mathrm{d}x}{\mathrm{d}t} + \omega_n^2 x & = 0 \\
 r^2 + 2 \zeta \omega_n r + \omega_n^2 & = 0 \\
-r & = \frac{-2 \zeta \omega_n \pm \sqrt{(2 \zeta \omega_n)^2 - 4 \omega_n^2}}2 \\
+r & = \frac{-2 \zeta \omega_n \pm \sqrt{(2 \zeta \omega_n)^2 - 4 \omega_n^2} }2 \\
 & = -\zeta\omega_n \pm \sqrt{\zeta^2 \omega_n^2 - \omega_n^2} \\
 & = -\zeta\omega_n \pm \omega_n \sqrt{\zeta^2 - 1} \\
 & = -\omega_n \left(\zeta \pm i\sqrt{1-\zeta^2} \right) \\
 x(t) & = \begin{cases} e^{-t \omega_n \zeta} \left(c_1 \cos\left(t \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(t \omega_n \sqrt{1 - \zeta^2}\right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
 e^{-t \omega_n \zeta} (c_1 + t c_2) & \text{if } \lvert \zeta \rvert = 1 \\
-e^{-t \omega_n \zeta} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1}} + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1}}\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+e^{-t \omega_n \zeta} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 \\
 v(t) & = x'(t) \\
 & = \begin{cases} -e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 \cos\left(t \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(t \omega_n \sqrt{1 - \zeta^2}\right)\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{1 - \zeta^2} \left(-c_1 \sin\left(t \omega_n \sqrt{1 - \zeta^2} \right) + c_2 \cos\left(t \omega_n \sqrt{1 - \zeta^2} \right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
 -e^{-t \omega_n \zeta} \omega_n \zeta (c_1 + t c_2) + e^{-t \omega_n \zeta} c_2 & \text{if } \lvert \zeta \rvert = 1 \\
--e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1}} + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1}}\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1}} - c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1}}\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+-e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } - c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 \\
 x_0 & = \begin{cases} e^{-0 \omega_n \zeta} \left(c_1 \cos\left(0 \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(0 \omega_n \sqrt{1 - \zeta^2}\right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
 e^{-0 \omega_n \zeta} (c_1 + 0 c_2) & \text{if } \lvert \zeta \rvert = 1 \\
-e^{-0 \omega_n \zeta} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1}} + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1}}\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+e^{-0 \omega_n \zeta} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
 c_1 + c_2 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 \\
 v_0 & = \begin{cases} -e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 \cos\left(0 \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(0 \omega_n \sqrt{1 - \zeta^2}\right)\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{1 - \zeta^2} \left(-c_1 \sin\left(0 \omega_n \sqrt{1 - \zeta^2} \right) + c_2 \cos\left(0 \omega_n \sqrt{1 - \zeta^2} \right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
 -e^{-0 \omega_n \zeta} \omega_n \zeta (c_1 + 0 c_2) + e^{-0 \omega_n \zeta} c_2 & \text{if } \lvert \zeta \rvert = 1 \\
--e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1}} + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1}}\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1}} - c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1}}\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+-e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } - c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 & = \begin{cases} -c_1 \omega_n \zeta + c_2 \omega_n \sqrt{1 - \zeta^2} & \text{if } \lvert \zeta \rvert < 1 \\
 -c_1 \omega_n \zeta + c_2 & \text{if } \lvert \zeta \rvert = 1 \\
 -\omega_n \zeta (c_1 + c_2) + \omega_n \sqrt{\zeta^2 - 1} (c_1 - c_2) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 & = \begin{cases} -x_0 \omega_n \zeta + c_2 \omega_n \sqrt{1 - \zeta^2} & \text{if } \lvert \zeta \rvert < 1 \\
 -x_0 \omega_n \zeta + c_2 & \text{if } \lvert \zeta \rvert = 1 \\
 -x_0 \omega_n \zeta + \omega_n \sqrt{\zeta^2 - 1} (x_0 - 2c_2) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-c_2 & = \begin{cases} \frac{v_0 + x_0 \omega_n \zeta}{\omega_n \sqrt{1 - \zeta^2}} & \text{if } \lvert \zeta \rvert < 1 \\
+c_2 & = \begin{cases} \frac{v_0 + x_0 \omega_n \zeta}{\omega_n \sqrt{1 - \zeta^2} } & \text{if } \lvert \zeta \rvert < 1 \\
 v_0 + x_0 \omega_n \zeta & \text{if } \lvert \zeta \rvert = 1 \\
-\frac{x_0}2 - \frac{v_0 + x_0 \omega_n \zeta}{2 \omega_n \sqrt{\zeta^2 - 1}} & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases} \frac\zeta{\sqrt{1 - \zeta^2}} x_0 + \frac1{\omega_n \sqrt{1 - \zeta^2}} v_0 & \text{if } \lvert \zeta \rvert < 1 \\
+\frac{x_0}2 - \frac{v_0 + x_0 \omega_n \zeta}{2 \omega_n \sqrt{\zeta^2 - 1} } & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+& = \begin{cases} \frac\zeta{\sqrt{1 - \zeta^2} } x_0 + \frac1{\omega_n \sqrt{1 - \zeta^2} } v_0 & \text{if } \lvert \zeta \rvert < 1 \\
 \omega_n \zeta x_0 + v_0 & \text{if } \lvert \zeta \rvert = 1 \\
-\frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1}} x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1}} v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+\frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 \\
 x_0 & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
 c_1 + c_2 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
-c_1 + \frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1}} x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1}} v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+c_1 + \frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 c_1 & = \begin{cases}x_0 & \text{if } \lvert \zeta \rvert \le 1 \\
-\frac{2\sqrt{\zeta^2 - 1} - \sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1}} x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1}} v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+\frac{2\sqrt{\zeta^2 - 1} - \sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
 & = \begin{cases}x_0 & \text{if } \lvert \zeta \rvert \le 1 \\
-\frac{\sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1}} x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1}} v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases}
+\frac{\sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases}
 \end{aligned}$$
 
 There are four regimes depending on the value of the damping ratio $\zeta$:
@@ -94,7 +94,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - where
 >     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
->     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
+>     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $\varphi$ is the initial phase}}
 
 > __critically damped__
@@ -105,7 +105,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - where
 >     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
->     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}} = 1$ is the damping ratio, and $\lambda = \omega_n \zeta = \omega_n$ is the decay rate}}
+>     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} } = 1$ is the damping ratio, and $\lambda = \omega_n \zeta = \omega_n$ is the decay rate}}
 >     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}}
 
 > __overdamped__
@@ -116,7 +116,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > - where
 >     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
->     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km}}$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
+>     - {{derived properties: $\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >     - {{initial properties: $A$ is the initial [amplitude](amplitude.md) and $c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}}
 
 > __negative damping__
