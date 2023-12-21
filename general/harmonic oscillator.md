@@ -12,3 +12,7 @@ tags:
 ## simple harmonic oscillator
 
 - see: [simple harmonic motion](simple%20harmonic%20motion.md)
+
+## damped harmonic oscillator
+
+- see: [damping](damping.md)

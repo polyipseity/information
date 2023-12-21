@@ -27,30 +27,32 @@ return await memorize_table(
   ('name',),
   (
     ('[angle sum and difference](#angle%20sum%20and%20difference)',),
+    ('[linear combination](#linear%20combination)',),
     ('[multiple-angle](#multiple-angle)',),
     ('[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-11-21T12:23:37.466589+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-12-20T17:38:22.539723+08:00. Any edits will be overridden! -->
 
 > | name |
 > |-|
-> | {{[angle sum and difference](#angle%20sum%20and%20difference)}} |
-> | {{[multiple-angle](#multiple-angle)}} |
-> | {{[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)}} | <!--SR:!2025-04-09,543,310!2024-06-20,338,330!2024-06-16,334,330-->
+> | [angle sum and difference](#angle%20sum%20and%20difference) |
+> | [linear combination](#linear%20combination) |
+> | [multiple-angle](#multiple-angle) |
+> | [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-04-09T19:41:29.732199+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-20T17:38:22.606111+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
-2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
-3. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
-4. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
+2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination)
+3. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
+4. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
+5. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -227,3 +229,21 @@ return chain.from_iterable(await gather(
 > - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2023-12-23,3,267!2023-12-22,3,267-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2023-12-23,4,287!2023-12-22,3,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2023-12-22,3,267!2023-12-22,3,267-->
+
+## linear combination
+
+### sine and cosine
+
+> __linear combination of sine and cosine__
+>
+> {{$$a \cos x + b \sin x = c \cos(x + \varphi)$$}}
+>
+> - where
+>     - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
+> - conditions: {{$a \ne 0$}}
+
+> [!example] examples
+>
+> - $-2.64 \cos x + 3.22 \sin x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(x + \arctan(3.22 / 2.64))$
+> - $-9.29 \cos x - 9.11 \sin x$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(x + \operatorname{atan2}(9.11, -9.29))$
+> - $0 \cos x - 1.23 \sin x$ ::: $-1.23 \sin x$
