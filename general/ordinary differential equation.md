@@ -86,7 +86,7 @@ Ordinary differential equations are furthered classified:
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {{An ODE where $F$ does not depend on $x$ explicitly.}}
+> {{An ODE where $F$ does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly.}}
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
