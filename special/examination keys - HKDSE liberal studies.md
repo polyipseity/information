@@ -117,7 +117,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2024-01-11,38,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2023-12-21,9,130-->
+3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-01-01,11,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -164,7 +164,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-12-21,5,130!2024-01-01,183,295!2024-02-02,125,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-12-27,6,130!2024-01-01,183,295!2024-02-02,125,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -221,7 +221,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2024-01-04,33,155!2024-06-23,313,295-->
-3. cause/reason→:::←effectiveness <!--SR:!2023-12-21,41,150!2024-03-18,191,235-->
+3. cause/reason→:::←effectiveness <!--SR:!2024-01-10,20,130!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-01-01,30,130-->

@@ -89,7 +89,7 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2023-11-21T12:42:55.830785+08:00. Any edits will be overridden! -->
 
-1. $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2023-12-21,14,250-->
+1. $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2023-12-28,7,230-->
 2. $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2024-02-07,51,290-->
 3. $x\ln{a}$::$a^x-1$ <!--SR:!2024-01-22,40,290-->
 4. $ax$::$(1+x)^a-1$ <!--SR:!2024-01-06,19,270-->
