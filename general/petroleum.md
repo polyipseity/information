@@ -116,6 +116,8 @@ return _chain.from_iterable(await _gather(
 9. [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-03-13,110,214-->
 10. [bitumen](bitumen.md)::500 °C or above <!--SR:!2024-01-02,209,314-->
 
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e8ff"--><!-- The following content is generated at 2023-12-04T08:18:54.227804+08:00. Any edits will be overridden! -->
 
 1. -40 to -1 °C::[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2025-04-25,529,310-->
