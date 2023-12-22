@@ -92,11 +92,11 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2023-10-09T23:03:32.688320+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2023-12-22,35,250!2024-01-13,71,310-->
+1. _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-03-16,85,250!2024-01-13,71,310-->
 2. your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2023-12-27,54,310!2024-01-04,23,270-->
 3. why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-02-07,52,230!2023-12-23,50,290-->
 4. why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-03-07,79,250!2024-02-25,83,270-->
-5. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2023-12-28,55,310!2023-12-22,6,230-->
+5. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2023-12-28,55,310!2024-01-05,14,230-->
 6. from or signature→:::←_(end)_ <!--SR:!2024-01-03,61,310!2024-03-18,101,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

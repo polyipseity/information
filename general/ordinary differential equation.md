@@ -98,7 +98,7 @@ Ordinary differential equations are furthered classified:
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2023-12-22,58,310-->
+> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2024-08-26,248,330-->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
