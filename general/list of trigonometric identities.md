@@ -138,10 +138,10 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 7.42$ ([double-angle](#double-angle) variant) ::: $2 \sin 3.71 \cos 3.71$
+> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$
 > - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$
-> - $\cos(-3.68)$ ([double-angle](#double-angle) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$
+> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$
 > - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$
