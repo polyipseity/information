@@ -65,7 +65,7 @@ return await memorize_table(
 1. _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 2. affirming the consequent→:::←appeal to authority <!--SR:!2024-01-16,181,295!2024-04-23,278,315-->
 3. appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-4. appeal to tradition→:::←guilt by association <!--SR:!2023-12-23,28,190!2024-04-02,226,275-->
+4. appeal to tradition→:::←guilt by association <!--SR:!2024-01-07,14,170!2024-04-02,226,275-->
 5. guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2024-01-07,137,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2024-01-01,38,250!2024-07-07,302,295-->
@@ -118,7 +118,7 @@ return await memorize_table(
 1. _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2024-01-11,38,155-->
 3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-01-01,11,130-->
-4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2023-12-23,50,195-->
+4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
 7. value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
@@ -172,7 +172,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2024-03-24,108,210!2024-04-16,271,315-->
 2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2024-10-12,343,275!2024-04-10,266,315-->
-3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2023-12-23,181,315!2024-03-01,153,215-->
+3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2026-02-18,787,335!2024-03-01,153,215-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -222,7 +222,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
 2. according to/refer to→:::←cause/reason <!--SR:!2024-01-04,33,155!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2024-01-10,20,130!2024-03-18,191,235-->
-4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2023-12-24,139,230-->
+4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
 6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-01-01,30,130-->
 7. pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
@@ -264,7 +264,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2023-12-24,182,315-->
+1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2024-03-23,90,295-->
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2024-01-19,46,195!2024-07-19,293,295-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2024-05-11,159,275!2024-06-16,205,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2025-08-11,626,315-->

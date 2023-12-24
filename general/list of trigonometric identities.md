@@ -49,7 +49,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-20T17:38:22.606111+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
-2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2023-12-24,3,269!2023-12-25,4,289-->
+2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-01,8,269!2023-12-25,4,289-->
 3. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
 4. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
 5. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
@@ -92,9 +92,9 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \cos 1.73 \sin 2.45$ <!--SR:!2023-12-23,4,287!2023-12-23,4,287-->
-> - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2023-12-31,9,267!2023-12-23,4,287-->
-> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2023-12-24,2,247!2023-12-23,4,287-->
+> - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \cos 1.73 \sin 2.45$ <!--SR:!2024-01-05,12,287!2024-01-08,15,307-->
+> - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2023-12-31,9,267!2024-01-07,14,307-->
+> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2023-12-25,1,227!2024-01-05,12,287-->
 
 ## multiple-angle
 
@@ -138,13 +138,13 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 7.42$ ([double-angle](#double-angle) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-01-02,11,287!2023-12-23,4,287-->
+> - $\sin 7.42$ ([double-angle](#double-angle) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-01-02,11,287!2024-01-10,17,307-->
 > - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$ <!--SR:!2024-01-04,13,287!2024-01-01,10,287-->
-> - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-01-02,11,287!2023-12-24,3,247-->
-> - $\cos(-3.68)$ ([double-angle](#double-angle) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2023-12-23,4,287!2023-12-30,8,267-->
-> - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2023-12-23,4,287!2023-12-23,4,287-->
-> - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2023-12-23,4,287!2023-12-23,4,287-->
-> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2023-12-23,4,287!2023-12-30,8,267-->
+> - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-01-02,11,287!2024-01-04,11,267-->
+> - $\cos(-3.68)$ ([double-angle](#double-angle) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-01-07,14,307!2023-12-30,8,267-->
+> - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-01-11,18,307!2024-01-08,15,307-->
+> - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-01-08,15,307!2024-01-08,15,307-->
+> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2023-12-30,8,267-->
 > - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2023-12-31,9,287!2024-01-03,12,287-->
 
 ## product-to-sum and sum-to-product
@@ -199,8 +199,8 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin(5.23 + 1.23) + \sin(5.23 - 1.23)}2$ <!--SR:!2024-01-01,10,287!2024-01-04,13,287-->
-> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin(-3.21 + 0.23) - \sin(-3.21 - 0.23)}2$ <!--SR:!2023-12-23,4,287!2024-01-02,11,287-->
-> - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos(6.22 - (-0.01)) - \cos(6.22 + (-0.01))}2$ <!--SR:!2023-12-23,4,287!2023-12-23,2,227-->
+> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin(-3.21 + 0.23) - \sin(-3.21 - 0.23)}2$ <!--SR:!2024-01-06,13,287!2024-01-02,11,287-->
+> - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos(6.22 - (-0.01)) - \cos(6.22 + (-0.01))}2$ <!--SR:!2024-01-02,9,287!2023-12-28,4,227-->
 > - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos(-7.23 - (-1.23)) + \cos(-7.23 + (-1.23))}2$ <!--SR:!2023-12-31,9,287!2023-12-28,6,267-->
 
 ### sum-to-product
@@ -226,8 +226,8 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-01-03,12,287!2023-12-26,4,247-->
-> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2023-12-23,3,267!2023-12-30,8,267-->
-> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2023-12-23,4,287!2023-12-31,9,267-->
+> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-01-03,10,287!2023-12-30,8,267-->
+> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-01-06,13,287!2023-12-31,9,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-01-01,10,287!2023-12-30,8,267-->
 
 ## linear combination
@@ -240,10 +240,10 @@ return chain.from_iterable(await gather(
 >
 > - where
 >     - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2023-12-25,4,289!2023-12-24,3,269!2023-12-25,4,289-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2023-12-25,4,289!2023-12-30,6,269!2023-12-25,4,289-->
 
 > [!example] examples
 >
-> - $-2.64 \cos x + 3.22 \sin x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(x + \arctan(3.22 / 2.64))$ <!--SR:!2023-12-24,3,269!2023-12-24,3,269-->
-> - $-9.29 \cos x - 9.11 \sin x$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2023-12-24,3,269!2023-12-24,3,269-->
+> - $-2.64 \cos x + 3.22 \sin x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(x + \arctan(3.22 / 2.64))$ <!--SR:!2024-01-01,8,269!2023-12-31,7,269-->
+> - $-9.29 \cos x - 9.11 \sin x$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2023-12-31,7,269!2023-12-31,7,269-->
 > - $0 \cos x - 1.23 \sin x$ ::: $-1.23 \sin x$ <!--SR:!2023-12-25,4,289!2023-12-25,4,289-->

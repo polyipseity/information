@@ -40,7 +40,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-12-23,59,310!2024-01-08,75,324-->
+> - $F$, a [formula](formula.md) <!--SR:!2024-06-22,181,310!2024-01-08,75,324-->
 
 ### classifications
 
@@ -79,7 +79,7 @@ Ordinary differential equations are furthered classified:
 2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2024-05-25,170,310!2024-01-01,68,310-->
 3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2023-12-27,63,310!2024-05-13,160,310-->
 4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2024-07-17,225,330!2024-01-01,68,310-->
-5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-12-26,62,310!2023-12-23,59,310-->
+5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2023-12-26,62,310!2024-09-04,255,330-->
 6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2024-05-26,170,310!2024-05-17,163,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
