@@ -53,8 +53,8 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="284d"--><!-- The following content is generated at 2023-03-20T12:51:18.460734+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←__duplet rule__ <!--SR:!2023-12-24,146,310!2025-07-05,574,330-->
+1. _(begin)_→:::←__duplet rule__ <!--SR:!2025-09-09,625,330!2025-07-05,574,330-->
 2. __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__ <!--SR:!2025-07-23,589,330!2025-07-02,572,330-->
-3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2023-12-23,145,310!2025-06-16,559,330-->
+3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_ <!--SR:!2025-09-04,620,330!2025-06-16,559,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -155,7 +155,7 @@ A combination of zero or more of the following in any order:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2023-08-25T00:41:32.736032+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←  (space) <!--SR:!2024-05-01,180,317!2024-05-20,199,329-->
-2.   (space)→:::←\# <!--SR:!2023-12-24,51,269!2024-06-03,213,329-->
+2.   (space)→:::←\# <!--SR:!2024-01-18,25,249!2024-06-03,213,329-->
 3. \#→:::←+ <!--SR:!2024-04-15,164,309!2024-02-13,74,289-->
 4. +→:::←- <!--SR:!2024-05-28,207,329!2024-05-15,194,329-->
 5. -→:::←0 <!--SR:!2024-05-12,191,317!2024-03-30,148,297-->
@@ -165,7 +165,7 @@ A combination of zero or more of the following in any order:
 
 ### width
 
-An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2024-05-01,180,317!2024-03-28,146,309!2023-12-24,79,289-->
+An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2024-05-01,180,317!2024-03-28,146,309!2024-02-01,39,269-->
 
 ### precision
 
@@ -275,7 +275,7 @@ return await memorize_table(
 > | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
 > | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}} |
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2024-04-15,164,310!2024-05-04,183,317!2024-04-27,176,317!2024-06-07,196,277!2024-05-08,187,317!2024-05-13,192,317!2024-05-04,183,317!2024-02-21,110,277!2024-04-19,168,317!2024-07-02,198,277!2024-04-30,179,317!2024-03-12,130,297!2024-05-10,189,317!2024-02-09,54,237!2024-06-07,217,329!2023-12-23,78,289!2024-04-03,152,309!2024-04-21,170,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2023-12-23,78,289!2024-06-10,220,329!2024-04-04,153,309-->
+> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2024-04-15,164,310!2024-05-04,183,317!2024-04-27,176,317!2024-06-07,196,277!2024-05-08,187,317!2024-05-13,192,317!2024-05-04,183,317!2024-02-21,110,277!2024-04-19,168,317!2024-07-02,198,277!2024-04-30,179,317!2024-03-12,130,297!2024-05-10,189,317!2024-02-09,54,237!2024-06-07,217,329!2024-08-04,224,289!2024-04-03,152,309!2024-04-21,170,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2024-02-03,41,269!2024-06-10,220,329!2024-04-04,153,309-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

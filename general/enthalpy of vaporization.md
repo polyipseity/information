@@ -15,4 +15,4 @@ tags:
 
 > [!tip] tip
 >
-> - enthalpy of vaporization in [vacuum](vacuum.md): {{Under lower [pressures](pressure.md), the [boiling point](boiling%20point.md) of a [liquid](liquid.md) is lower. Counterintuitively, the enthalpy of vaporization increases since the liquid has lower initial [thermal energy](thermal%20energy.md) at its [boiling point](boiling%20point.md).}} <!--SR:!2023-12-23,4,270-->
+> - enthalpy of vaporization in [vacuum](vacuum.md): {{Under lower [pressures](pressure.md), the [boiling point](boiling%20point.md) of a [liquid](liquid.md) is lower. Counterintuitively, the enthalpy of vaporization increases since the liquid has lower initial [thermal energy](thermal%20energy.md) at its [boiling point](boiling%20point.md).}} <!--SR:!2024-01-07,14,290-->
