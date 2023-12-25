@@ -52,7 +52,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2023-03-21T16:20:25.339364+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←aircraft bodies <!--SR:!2023-12-25,202,310!2024-04-07,292,330-->
+1. _(begin)_→:::←aircraft bodies <!--SR:!2026-05-09,866,330!2024-04-07,292,330-->
 2. aircraft bodies→:::←kitchen foil <!--SR:!2024-01-26,63,230!2024-04-12,249,270-->
 3. kitchen foil→:::←overhead power cables <!--SR:!2024-04-27,255,270!2024-03-02,81,190-->
 4. overhead power cables→:::←soft drink cans <!--SR:!2024-10-07,373,290!2024-01-15,181,250-->

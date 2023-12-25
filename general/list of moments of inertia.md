@@ -32,7 +32,7 @@ I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-
 &=\frac1{12}m\left(L^2+W^2\right)\\
 I_L&=\frac1{12}m\left(H^2+W^2\right)\\
 I_W&=\frac1{12}m\left(L^2+H^2\right)\\
-\end{aligned}$ <!--SR:!2024-05-25,157,310!2024-01-04,29,250!2023-12-25,56,310!2024-02-16,83,270!2023-12-27,58,310-->
+\end{aligned}$ <!--SR:!2024-05-25,157,310!2024-01-04,29,250!2024-08-20,239,330!2024-02-16,83,270!2023-12-27,58,310-->
 
 ### cylindrical shell, axis through base center
 

@@ -61,7 +61,7 @@ There are many factors affecting the reaction rate:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Influencing factors can be explained by {{[collision theory](collision%20theory.md)}}. <!--SR:!2023-12-25,197,310-->
+Influencing factors can be explained by {{[collision theory](collision%20theory.md)}}. <!--SR:!2025-08-26,610,310-->
 
 ## rate equation
 
