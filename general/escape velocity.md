@@ -13,8 +13,8 @@ tags:
 
 > __escape velocity__
 >
-> {{$$v_e = \sqrt{\frac{2GM}d} = \sqrt{2gd}$$}}
+> {{$$v_e = \sqrt{\frac{2GM}r} = \sqrt{2gr}$$}}
 >
 > - where
->     - {{$v_e$ is the escape velocity at distance $d$ from the center of a spherically symmetric primary body of [mass](mass.md) $M$, and $g=\frac{GM}{d^2}$ is the [gravitational acceleration](gravitational%20acceleration.md) at said distance}}
+>     - {{$v_e$ is the escape velocity at distance $r$ from the center of a spherically symmetric primary body of [mass](mass.md) $M$, and $g=\frac{GM}{r^2}$ is the [gravitational acceleration](gravitational%20acceleration.md) at said distance}}
 >     - {{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$ is the [gravitational constant](gravitational%20constant.md)}}
