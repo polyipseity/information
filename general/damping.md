@@ -122,3 +122,20 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > __negative damping__
 >
 > If $\zeta < 0$, {{then the system is driven rather than damped. The driven [force](force.md) increases as the [velocity](velocity.md) increases. Therefore, the [amplitude](amplitude.md) increases without bound as $e^{\lvert \lambda \rvert t}$. It is similar (but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$ but going back in [time](time.md)}}. {{This is unnatural in the natural world, but can happen under some circumstances, such as the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened and the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}}. The equations in the above regimes applies to negative damping as well. Choose the equation that applies to the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$.
+
+## _Q_ factor and decay rate
+
+- see: [_Q_ factor](Q%20factor.md)
+
+> ___Q_ factor__
+>
+> {{$$Q = \frac{1}{2 \zeta}$$}}
+> - where
+>.    - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}}
+
+> __exponential decay rate__
+>
+> {{$$\lambda = \omega_n \zeta$$}}
+>
+> - where
+>     - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} 
