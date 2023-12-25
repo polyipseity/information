@@ -49,7 +49,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-20T17:38:22.606111+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
-2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-01,8,269!2023-12-25,4,289-->
+2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-01,8,269!2024-01-11,17,309-->
 3. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
 4. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
 5. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
@@ -94,7 +94,7 @@ return await memorize_map(
 >
 > - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \cos 1.73 \sin 2.45$ <!--SR:!2024-01-05,12,287!2024-01-08,15,307-->
 > - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2023-12-31,9,267!2024-01-07,14,307-->
-> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2023-12-25,1,227!2024-01-05,12,287-->
+> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2023-12-27,2,227!2024-01-05,12,287-->
 
 ## multiple-angle
 
@@ -128,7 +128,7 @@ return await memorize_map(
 
 1. sine::$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$ <!--SR:!2024-09-06,312,250-->
 2. cosine::$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$ <!--SR:!2024-08-01,314,270-->
-3. tangent::$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$ <!--SR:!2023-12-25,146,230-->
+3. tangent::$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$ <!--SR:!2025-04-12,474,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -240,10 +240,10 @@ return chain.from_iterable(await gather(
 >
 > - where
 >     - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2023-12-25,4,289!2023-12-30,6,269!2023-12-25,4,289-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-01-07,13,289!2023-12-30,6,269!2024-01-10,16,309-->
 
 > [!example] examples
 >
 > - $-2.64 \cos x + 3.22 \sin x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(x + \arctan(3.22 / 2.64))$ <!--SR:!2024-01-01,8,269!2023-12-31,7,269-->
 > - $-9.29 \cos x - 9.11 \sin x$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2023-12-31,7,269!2023-12-31,7,269-->
-> - $0 \cos x - 1.23 \sin x$ ::: $-1.23 \sin x$ <!--SR:!2023-12-25,4,289!2023-12-25,4,289-->
+> - $0 \cos x - 1.23 \sin x$ ::: $-1.23 \sin x$ <!--SR:!2024-01-09,15,309!2024-01-12,18,309-->
