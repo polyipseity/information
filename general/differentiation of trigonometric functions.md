@@ -78,7 +78,7 @@ return await memorize_map(
 8. $\arccos{x}$::$-\frac1{\sqrt{1-x^2} }$ <!--SR:!2024-02-15,61,310-->
 9. $\arctan{x}$::$\frac1{x^2+1}$ <!--SR:!2024-02-28,72,310-->
 10. $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$ <!--SR:!2024-02-13,60,310-->
-11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$ <!--SR:!2023-12-26,18,250-->
+11. $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$ <!--SR:!2024-02-10,46,250-->
 12. $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$ <!--SR:!2024-01-06,25,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

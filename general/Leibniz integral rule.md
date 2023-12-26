@@ -13,7 +13,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allow
 > __Leibniz integral rule__
 >
 > 1. {{Under the condition of $-\infty < a(x)$ and $b(x) < \infty$,}}
-> 2. {{$$\frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! \frac\partial{\partial x} f(x, t) \, \mathrm{d}x$$.}} <!--SR:!2023-12-26,13,290!2023-12-30,17,290-->
+> 2. {{$$\frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! \frac\partial{\partial x} f(x, t) \, \mathrm{d}x$$.}} <!--SR:!2024-02-15,51,310!2023-12-30,17,290-->
 
 > [!tip] tip
 >

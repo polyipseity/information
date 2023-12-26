@@ -336,7 +336,7 @@ return await memorize_map(
 28. [lead(II) bromide](lead(II)%20bromide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-16,33,258-->
 29. [lead(II) chloride](lead(II)%20chloride.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-10,94,278-->
 30. [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-12-29,5,130-->
-31. [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-26,25,198-->
+31. [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-07,12,178-->
 32. [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2023-12-29,8,178-->
 33. [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2023-12-27,54,298-->
 34. [mercury(I) chloride](mercury(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-25,37,258-->
@@ -348,7 +348,7 @@ return await memorize_map(
 40. [silver chloride](silver%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-24,106,298-->
 41. [silver ethanoate](silver%20ethanoate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-05-25,153,298-->
 42. [silver iodide](silver%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-03,136,298-->
-43. [silver nitrate](silver%20nitrate.md)::<span style="color: green;">soluble</span> <!--SR:!2023-12-26,53,298-->
+43. [silver nitrate](silver%20nitrate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-31,218,318-->
 44. [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-06,43,258-->
 45. [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-02,112,298-->
 46. [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-19,184,318-->

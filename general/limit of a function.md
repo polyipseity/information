@@ -39,7 +39,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 
 - see: [extended real number line](extended%20real%20number%20line.md), [indeterminate form](indeterminate%20form.md)
 
-When the limit on the right of the equation does not exist but are in the following determinate forms, {{it can still be determined by the following rules}}. In other cases, the limit on the left exists, but {{the limit on the right is in [indeterminate form](indeterminate%20form.md) that does not allow direct calculation, in which case [L'Hôpital's rule](L'Hôpital's%20rule.md) may be used to determinate the limit}}. <!--SR:!2023-12-26,13,290!2023-12-28,15,290-->
+When the limit on the right of the equation does not exist but are in the following determinate forms, {{it can still be determined by the following rules}}. In other cases, the limit on the left exists, but {{the limit on the right is in [indeterminate form](indeterminate%20form.md) that does not allow direct calculation, in which case [L'Hôpital's rule](L'Hôpital's%20rule.md) may be used to determinate the limit}}. <!--SR:!2024-02-13,49,310!2023-12-28,15,290-->
 
 > __determinate forms__
 >
@@ -48,7 +48,7 @@ When the limit on the right of the equation does not exist but are in the follow
 > - {{$\frac{q}\infty = 0 \quad \text{if } q \ne \infty \text{ and } q \ne -\infty$}}
 > - {{$\infty^q = \begin{cases} 0 & \text{if } q < 0 \\ \infty & \text{if } q > 0 \end{cases}$}}
 > - {{$q^\infty = \begin{cases} 0 & \text{if } 0 < q < 1 \\ \infty & \text{if } q > 1 \end{cases}$}}
-> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2024-01-28,37,290!2024-02-06,44,290!2023-12-28,12,250!2024-01-05,16,250!2024-01-23,33,290!2023-12-26,13,290-->
+> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2024-01-28,37,290!2024-02-06,44,290!2023-12-28,12,250!2024-01-05,16,250!2024-01-23,33,290!2024-02-14,50,310-->
 
 ### limits of compositions of functions
 

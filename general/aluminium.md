@@ -46,7 +46,7 @@ return await memorize_table(
 > | {{kitchen foil}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}} |
 > | {{overhead power cables}} | {{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}} |
 > | {{soft drink cans}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}} |
-> | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} | <!--SR:!2024-03-23,92,190!2024-02-12,179,230!2024-10-12,353,270!2024-05-11,232,230!2024-05-07,270,290!2024-01-19,56,130!2023-12-26,203,310!2024-05-04,192,210!2024-02-01,240,330!2024-02-03,172,230-->
+> | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} | <!--SR:!2024-03-23,92,190!2024-02-12,179,230!2024-10-12,353,270!2024-05-11,232,230!2024-05-07,270,290!2024-01-19,56,130!2025-09-14,628,310!2024-05-04,192,210!2024-02-01,240,330!2024-02-03,172,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
