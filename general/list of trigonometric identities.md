@@ -225,7 +225,7 @@ return chain.from_iterable(await gather(
 
 > [!example] examples
 >
-> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-01-03,12,287!2023-12-26,4,247-->
+> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-01-03,12,287!2024-01-04,9,247-->
 > - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-01-03,10,287!2023-12-30,8,267-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-01-06,13,287!2023-12-31,9,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-01-01,10,287!2023-12-30,8,267-->

@@ -122,7 +122,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}}
 >
 > - where
->     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2023-12-26,6,276!2024-01-05,15,316-->
+>     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-01-05,15,316-->
 
 ### mass of a simple pendulum
 
@@ -140,4 +140,4 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
 >
 > - where
->     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2023-12-26,6,276!2024-01-03,13,296-->
+>     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2024-01-10,15,276!2024-01-03,13,296-->
