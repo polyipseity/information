@@ -110,7 +110,7 @@ Ordinary differential equations are furthered classified:
 
 > {{__first-order, separable in $x$ and $y$__}}
 >
-> - form: {{$F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y=0$}}
+> - form: {{$F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y=0$, where $F_1, F_2, G_1, G_2$ are [integrable](integrability.md) [functions](function%20(mathematics).md)}}
 > - solution: {{divide by $F_2(x)G_1(y)$ to [separate the variables](separation%20of%20variables.md), then integrate}}
 > - steps: $$\begin{aligned}
 F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
@@ -130,7 +130,7 @@ y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
 
 > {{__first-order, [homogeneous](#^homogeneous)__}}
 >
-> - form: {{$\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$}}
+> - form: {{$\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integrability.md) [function](function%20(mathematics).md)}}
 > - solution: {{substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md)}}
 > - steps: $$\begin{aligned}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=F\left(\frac{y}x\right)\\
@@ -165,7 +165,7 @@ y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
 
 > {{__second-order, [autonomous](#^autonomous)__}}
 >
-> - form: {{$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$}}
+> - form: {{$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$, where $F$ is an [integrable](integrability.md) [function](function%20(mathematics).md)}}
 > - solution: {{multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice}}
 > - steps: $$\begin{aligned}
 \frac{\mathrm{d}^2y}{\mathrm{d}x^2}&=F(y)\\
