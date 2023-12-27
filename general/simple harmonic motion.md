@@ -122,7 +122,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}}
 >
 > - where
->     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}}
+>     - {{[spring](spring%20(device).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}}
 
 ### mass of a simple pendulum
 
