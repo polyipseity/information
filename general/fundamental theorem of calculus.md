@@ -34,7 +34,7 @@ The corollary requires {{$f$ to be [continuous](continuous%20function.md) on the
 
 ### second part
 
-The second part is sometimes called the _second fundamental theorem of calculus_, or the __{{Newton-Leibniz}} theorem__. <!--SR:!2023-12-27,19,250-->
+The second part is sometimes called the _second fundamental theorem of calculus_, or the __{{Newton-Leibniz}} theorem__. <!--SR:!2024-03-02,66,270-->
 
 > __second fundamental theorem of calculus__
 >

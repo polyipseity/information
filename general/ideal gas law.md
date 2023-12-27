@@ -11,7 +11,7 @@ tags:
 
 # ideal gas law
 
-The __ideal gas law__, also called the __general gas equation__, is {{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}}. It is a combination of {{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$), [Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}}. <!--SR:!2024-01-03,17,290!2023-12-27,3,210-->
+The __ideal gas law__, also called the __general gas equation__, is {{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}}. It is a combination of {{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$), [Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}}. <!--SR:!2024-01-03,17,290!2024-01-02,6,210-->
 
 > __ideal gas law__
 >
@@ -20,7 +20,7 @@ The __ideal gas law__, also called the __general gas equation__, is {{the [equat
 > - where
 >     - {{[state variables](state%20variable.md): $p$ is the absolute [pressure](pressure.md) of the gas, $V$ is the [volume](volume.md) of the gas, $T$ is the [absolute temperature](thermodynamic%20temperature.md) of the gas, $n$ is the [amount of substance](amount%20of%20substance.md) (i.e. number of moles) of the gas, and $N$ is the [number of particles](particle%20number.md) of the gas}}
 >     - {{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}}
->     - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}} <!--SR:!2024-01-02,16,290!2023-12-27,10,270!2023-12-27,6,210!2023-12-31,10,230-->
+>     - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}} <!--SR:!2024-01-02,16,290!2024-01-22,26,270!2024-01-09,13,210!2023-12-31,10,230-->
 
 ## energy associated with a gas
 
