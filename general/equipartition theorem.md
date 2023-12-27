@@ -11,4 +11,4 @@ tags:
 
 # equipartition theorem
 
-The equipartition theorem is inaccurate when {{[quantum effects](quantum%20mechanics.md) are significant, like at low [temperatures](temperature.md)}}. This is caused by {{some [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md) "freezing out" because the [thermal energy](thermal%20energy.md) $k_\text{B}T$ is less than the quantum energy spacing of that particular degree of freedom}}. <!--SR:!2024-01-02,16,290!2023-12-27,10,270-->
+The equipartition theorem is inaccurate when {{[quantum effects](quantum%20mechanics.md) are significant, like at low [temperatures](temperature.md)}}. This is caused by {{some [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md) "freezing out" because the [thermal energy](thermal%20energy.md) $k_\text{B}T$ is less than the quantum energy spacing of that particular degree of freedom}}. <!--SR:!2024-01-02,16,290!2024-01-25,29,270-->

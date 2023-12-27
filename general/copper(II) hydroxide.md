@@ -13,7 +13,7 @@ __Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) w
 
 ## preparation
 
-Treating {{copper(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out pale blue copper(II) hydroxide}}. Excess {{[aqueous](aqueous%20solution.md) [ammonia](ammonia.md) redissolves the precipitate and forms deep blue tetraamminecopper(II) ions}}: <!--SR:!2023-12-27,63,230!2024-06-13,188,210-->
+Treating {{copper(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out pale blue copper(II) hydroxide}}. Excess {{[aqueous](aqueous%20solution.md) [ammonia](ammonia.md) redissolves the precipitate and forms deep blue tetraamminecopper(II) ions}}: <!--SR:!2024-01-27,31,210!2024-06-13,188,210-->
 
 > treating with [bases](base%20(chemistry).md)
 > 1. {{Cu<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Cu(OH)<sub>2</sub>(s)}}
