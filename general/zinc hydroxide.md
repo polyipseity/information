@@ -20,3 +20,7 @@ Treating {{zinc [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).
 > 2.
 >   - {{Zn(OH)<sub>2</sub>(s) + 2OH<sup>-</sup>(aq) → \[Zn(OH)<sub>4</sub>\]<sup>2-</sup>(aq)}}
 >   - {{Zn(OH)<sub>2</sub>(s) + 4NH<sub>3</sub>(aq) → \[Zn(NH<sub>3</sub>)<sub>4</sub>\]<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq)}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/zinc_hydroxide) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

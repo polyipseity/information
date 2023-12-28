@@ -22,3 +22,7 @@ tags:
 > [!tip] tip
 >
 > - adding sine waves: {{one can use [phasors](phasor.md) to help with that, i.e. adding the [phase space](phase%20space.md) [vectors](vector%20(mathematics%20and%20physics).md)}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/sine_wave) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -16,3 +16,7 @@ The Arrhenius equation is given as
 
 > Arrhenius equation
 > - {{$k=Ae^\frac{-E_a}{RT}$}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Arrhenius_equation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -14,3 +14,7 @@ A __many-to-many__ relationship {{is a [cardinality](cardinality%20(data%20model
 ## data relationships
 
 In a [relational database management system](relational%20database.md#RDBMS), {{an [associative table](associative%20entity.md) is usually used to model many-to-many relationships, in which the associative table AB points to two other tables A and B}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/many-to-many_(data_model)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -58,3 +58,7 @@ return await memorize_table(
 ### laboratory
 
 Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/cracking_(chemistry)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

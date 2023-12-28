@@ -19,3 +19,7 @@ According to the criterion, diffraction through a circular [aperture](aperture.m
 > - {{$\theta\approx1.22\frac\lambda{D}\quad\mathrm{(considering\ that\ \sin\theta\approx\theta)}$}}
 >
 > where {{_θ_ is _angular resolution_ in [radians](radian.md), _λ_ is the [wavelength](wavelength.md), and _D_ is the [diameter](diameter.md) of the [aperture](aperture.md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/angular_resolution) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

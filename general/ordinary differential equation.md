@@ -198,3 +198,7 @@ C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\left(C_{2\in[-1,1]}\sin\sqrt{\frac{k}m}t+C_{3\in[-1,1]}\cos\sqrt{\frac{k}m}t\right)\\
 &=C_1\sin\sqrt{\frac{k}m}t+C_2\cos\sqrt{\frac{k}m}t
 \end{aligned}$$
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ordinary_differential_equation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

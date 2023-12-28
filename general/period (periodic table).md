@@ -15,3 +15,7 @@ A __period__ is {{a row of [chemical elements](chemical%20element.md) in the [pe
 ## periodic trends
 
 See [periodic trends](periodic%20trends.md).
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/period_(periodic_table)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -15,3 +15,7 @@ tags:
 ## examples
 
 - see: [list of moments of inertia](list%20of%20moments%20of%20inertia.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/moment_of_inertia) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

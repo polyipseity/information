@@ -83,3 +83,7 @@ return (
 4. [CO<sub>2</sub>](carbon%20dioxide.md)::0.0417% (2022-04-xx)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/atmosphere_of_Earth) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

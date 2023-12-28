@@ -106,3 +106,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d
 &=\frac8{15}\pi\rho\left(R_O^5-R_I^5\right)\\
 &=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}
 \end{aligned}$$
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/list_of_moments_of_inertia) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

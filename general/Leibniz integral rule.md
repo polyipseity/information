@@ -19,3 +19,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allow
 > [!tip] tip
 >
 > - [intuition](intuition.md): {{$f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! \frac\partial{\partial x} f(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$.}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Leibniz_integral_rule) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

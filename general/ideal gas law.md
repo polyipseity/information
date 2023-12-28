@@ -34,3 +34,7 @@ For an ideal [monoatomic gas](monoatomic%20gas.md), {{its [potential energy](pot
 ## deviations from behavior of real gases
 
 The ideal gas law is most accurate for {{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md) due to the neglect of [molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}}. At low [temperatures](temperature.md), {{the [pressure](pressure.md) of a [real gas](real%20gas.md) is often lower than that of an [ideal gas](ideal%20gas.md)}}. At high [pressures](pressure.md), {{the [volume](volume.md) of a [real gas](real%20gas.md) is often higher than that of an [ideal gas](ideal%20gas.md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ideal_gas_law) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

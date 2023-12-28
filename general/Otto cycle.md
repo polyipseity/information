@@ -69,3 +69,7 @@ return await memorize_seq(
 >
 > - where
 >     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Otto_cycle) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

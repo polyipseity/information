@@ -27,3 +27,7 @@ For [zinc chloride](zinc%20chloride.md) [electrolyte](electrolyte.md):
 
 > - {{ZnCl<sub>2</sub>(aq) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) + 2e<sup>-</sup> → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s) + 2Cl<sup>-</sup>(aq)}}
 > - overall: {{Zn(s) + 2MnO<sub>2</sub>(s) + H<sub>2</sub>O(l) → Zn(OH)<sub>2</sub>(s) + Mn<sub>2</sub>O<sub>3</sub>(s)}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/zinc–carbon_battery) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

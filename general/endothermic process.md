@@ -47,3 +47,7 @@ return await memorize_seq(
 3. [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/endothermic_process) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

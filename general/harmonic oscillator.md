@@ -147,3 +147,7 @@ Through [nondimensionalization](nondimensionalization.md), the equation below {{
 >     - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}}
 
 In terms of properties, the universal oscillator equation is {{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/harmonic_oscillator) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

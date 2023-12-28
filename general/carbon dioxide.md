@@ -27,3 +27,7 @@ When carbon dioxide is {{passed into aqueous [calcium hydroxide](calcium%20hydro
 ### hydrogencarbonate indicator
 
 When carbon dioxide is {{passed into hydrogencarbonate indicator}}, color of the indicator turns from {{red to yellow}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/carbon_dioxide) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

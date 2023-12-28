@@ -26,3 +26,7 @@ Most amines are {{less [dense](density.md) than [water](water.md)}}. Density {{i
 ### solubility
 
 Amines {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the amine.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/amine) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

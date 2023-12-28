@@ -25,3 +25,7 @@ Most alpha particles pass through {{with minimal deflection}}. Few of them pass 
 ### implications
 
 The results showed that the {{[plum pudding model](plum%20pudding%20model.md)}} was wrong. Most of the volume of an atom is {{empty}} as {{most alpha particles pass through with minimal deflection}}. Instead, {{the positive charge is concentrated in a tiny central region called the "nucleus"}}. {{Most mass is concentrated there}} as {{the nucleus is not deflected or moved by particles}}. Electrons, which {{does not affect}} the scattering, orbit around the nucleus. This is the {{[Rutherford model](Rutherford%20model.md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Geiger–Marsden_experiments) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -53,3 +53,7 @@ return await memorize_seq(
 5. [hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/exothermic_process) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

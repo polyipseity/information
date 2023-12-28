@@ -17,3 +17,7 @@ tags:
 >
 > - where
 >     - {{$W$ is the net [work](work%20(physics).md) done by the system, and $Q_\mathrm{in}$ and $Q_\mathrm{out}$ are respectively the [heat](heat.md) supplied to and given off by the system}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/thermal_efficiency) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

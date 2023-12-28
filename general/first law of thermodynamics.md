@@ -17,3 +17,7 @@ The __first law of thermodynamics__ is {{a formulation of [conservation of energ
 >
 > - where
 >     - {{$\Delta U$ is the change in [internal energy](internal%20energy.md) of the [thermodynamic system](thermodynamic%20system.md), $Q$ is the [heat](heat.md) supplied to the system, and $W$ is the [thermodynamic work](work%20(thermodynamics).md) done on the surroundings}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/first_law_of_thermodynamics) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

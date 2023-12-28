@@ -41,3 +41,7 @@ If the complex roots are [repeated](multiplicity%20(mathematics).md#multiplicity
 ## see also
 
 - [Laplace transform applied to differential equations](Laplace%20transform%20applied%20to%20differential%20equations.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/characteristic_equation_(calculus)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

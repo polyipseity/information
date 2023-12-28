@@ -219,3 +219,7 @@ return await conversion_table(
 3. from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R::[Fahrenheit](Fahrenheit.md)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/conversion_of_scales_of_temperature) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

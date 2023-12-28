@@ -26,3 +26,7 @@ The [hypochlorite](hypochlorite.md) ions {{further disproportionate to produce [
 > - 3OCl<sup>-</sup>(aq) ⇌ 2Cl<sup>-</sup>(aq) + ClO<sub>3</sub><sup>-</sup>(aq)
 
 These [disproportionation](disproportionation.md) reactions can be exploited. For example, passing chlorine gas into {{cold dilute [sodium hydroxide](sodium%20hydroxide.md) produces [sodium chloride](sodium%20chloride.md) and [sodium hypochlorite](sodium%20hypochlorite.md), while passing it into hot concentrated sodium hydroxide produces [sodium chloride](sodium%20chloride.md) and [sodium chlorate](sodium%20hypochlorate.md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/chlorine) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

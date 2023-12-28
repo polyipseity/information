@@ -66,3 +66,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/properties_of_metals,_metalloids,_and_nonmetals) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

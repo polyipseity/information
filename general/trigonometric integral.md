@@ -46,3 +46,7 @@ tags:
 > - {{$\operatorname{Ci}(x)=-\int_x^\infty\!\frac{\cos{t} }t\,\mathrm{d}t=\gamma+\ln{x}-\operatorname{Cin}(x)$}}
 > - where
 >   - $\gamma$ is the [Euler's constant](Euler's%20constant.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/trigonometric_integral) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
