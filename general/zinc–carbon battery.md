@@ -3,7 +3,7 @@ aliases:
   - zinc–carbon batteries
   - zinc–carbon battery
 tags:
-  - flashcards/general/zinc–carbon_battery
+  - flashcards/general/zinc-carbon_battery
   - languages/in/English
 ---
 
