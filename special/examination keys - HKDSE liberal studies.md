@@ -164,7 +164,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2023-12-27,6,130!2024-01-01,183,295!2024-02-02,125,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2024-01-05,8,130!2024-01-01,183,295!2024-02-02,125,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -219,7 +219,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2023-12-28,186,315-->
+1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2026-03-16,809,335-->
 2. according to/refer to→:::←cause/reason <!--SR:!2024-01-04,33,155!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2024-01-10,20,130!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
@@ -264,7 +264,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Sort or group data. <!--SR:!2023-12-27,185,315!2024-03-23,90,295-->
+1. _(begin)_→:::←Sort or group data. <!--SR:!2024-03-31,94,295!2024-03-23,90,295-->
 2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2024-01-19,46,195!2024-07-19,293,295-->
 3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2024-05-11,159,275!2024-06-16,205,215-->
 4. Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2025-08-11,626,315-->
@@ -459,7 +459,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-11-04T02:32:58.245397+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←(Introduction) State your solutions. <!--SR:!2024-01-23,188,295!2024-08-14,340,290-->
-2. (Introduction) State your solutions.→:::←State the problem or criteria required. <!--SR:!2023-12-26,126,250!2023-12-26,184,315-->
+2. (Introduction) State your solutions.→:::←State the problem or criteria required. <!--SR:!2024-11-06,314,250!2026-03-07,800,335-->
 3. State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2024-04-14,111,215!2024-11-05,410,295-->
 4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->
 5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2024-08-08,313,275-->

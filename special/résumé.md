@@ -61,7 +61,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2023-10-05T10:38:05.832591+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2023-12-29,55,310!2023-12-29,55,310-->
-2. [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2023-12-28,54,310!2024-01-23,29,290-->
+2. [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-01-23,29,290-->
 3. [education](#education)→:::←[achievements](#achievements) <!--SR:!2024-03-02,72,270!2024-01-06,20,270-->
 4. [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2024-01-06,63,310!2024-05-13,141,290-->
 5. [experience](#experience)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-01-07,64,310-->
@@ -82,7 +82,7 @@ Two recommended formats:
     1. {{attitude}}
     2. {{skills}}
     3. {{knowledge}}
-    4. {{requirements, if any}} <!--SR:!2023-12-28,54,310!2024-01-02,59,310!2024-06-16,180,310!2024-07-01,192,310!2024-01-13,70,310!2024-06-26,188,310!2024-01-02,59,310-->
+    4. {{requirements, if any}} <!--SR:!2024-06-11,166,310!2024-01-02,59,310!2024-06-16,180,310!2024-07-01,192,310!2024-01-13,70,310!2024-06-26,188,310!2024-01-02,59,310-->
 
 ### experience
 
