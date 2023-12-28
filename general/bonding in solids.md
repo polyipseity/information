@@ -172,7 +172,7 @@ return await memorize_table(
 > | {{[malleability](malleability.md)}} | {{typically high}} |
 > | {{[melting point](melting%20point.md)}} | {{typically high ([mercury](mercury.md): low)}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low when pure}} |
-> | {{[therm conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-01-24,218,290!2024-02-22,256,330!2024-03-25,99,290!2024-04-21,301,330!2024-01-14,31,250!2024-04-20,300,330!2024-02-29,90,290!2024-03-06,267,330!2025-02-02,436,270!2024-06-07,341,330!2023-12-29,5,213!2024-01-24,82,353-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-01-24,218,290!2024-02-22,256,330!2024-03-25,99,290!2024-04-21,301,330!2024-01-14,31,250!2024-04-20,300,330!2024-02-29,90,290!2024-03-06,267,330!2025-02-02,436,270!2024-06-07,341,330!2023-12-29,5,213!2024-01-24,82,353-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
