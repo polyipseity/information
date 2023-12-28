@@ -148,3 +148,11 @@ return _chain.from_iterable(await _gather(
 9. [bitumen](bitumen.md)::[road construction](road%20construction.md) <!--SR:!2024-06-10,339,334-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## industry
+
+- see: [petroleum industry](petroleum%20industry.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/petroleum) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

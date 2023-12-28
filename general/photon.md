@@ -17,3 +17,7 @@ A photon is {{[massless](massless%20particle.md)}}, so they {{always move at the
 It carries {{[energy](energy.md) $E$ proportional to its [frequency](frequency.md) $f$}}:
 {{$$E=hf$$}}
 where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2024-08-07,437,290!2027-08-06,1328,350!2024-01-03,304,330-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/photon) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

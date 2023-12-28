@@ -70,3 +70,7 @@ Molecules can be classified based on atomicity as:
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 Atomicity of [metals](metal.md) {{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}}. They are typically designated to {{have an atomicity of 1}}. <!--SR:!2024-12-01,399,250!2024-04-06,292,330-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/atomicity) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

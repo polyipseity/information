@@ -27,3 +27,7 @@ tags:
 >
 > - where
 >     - {{$Q_C$ and $Q_H$ are respectively [heat](heat.md) absorbed by and given off from the system, and $W$ is the net [work](work%20(physics).md) supplied to the system}} <!--SR:!2024-01-09,16,290!2024-01-08,15,290-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/coefficient_of_performance) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

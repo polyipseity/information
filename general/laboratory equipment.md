@@ -300,3 +300,7 @@ return _chain.from_iterable(await _gather(
 7. [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-12-15,463,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/laboratory_equipment) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

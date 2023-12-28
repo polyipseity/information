@@ -52,3 +52,7 @@ return await memorize_seq(
 4. [absorption](absorption%20(chemistry).md) of [nitrogen dioxide](nitrogen%20dioxide.md) into [water](water.md) in an absorption chamber: <ul><li>without air: $\ce{3NO2(g) + H2O(l) -> 2HNO3(aq) + NO(g)}\qquad\Delta{}H=-117\ \text{kJ mol}^{-1}$</li><li>with air: $\ce{4NO2(g) + O2(g) + 2H2O(l) -> 4HNO3(aq)}\qquad\Delta{}H=-348\ \text{kJ mol}^{-1}$</li></ul>→:::←_(the Ostwald process)_ <!--SR:!2024-02-04,194,310!2024-03-03,163,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Ostwald_process) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

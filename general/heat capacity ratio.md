@@ -60,3 +60,7 @@ C_p & = \frac{f}2nR + nR & (\text{equipartition theorem}) \\
 ## adiabatic process
 
 - see: [adiabatic process](adiabatic%20process.md), [polytropic process](polytropic%20process.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/heat_capacity_ratio) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

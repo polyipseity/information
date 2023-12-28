@@ -62,3 +62,7 @@ An example of chlorination of [methane](methane.md):
 >     - {{Cl· + ·Cl → Cl<sub>2</sub>}}
 >     - {{CH<sub>3</sub>· + ·Cl → CH<sub>3</sub>Cl}}
 >     - {{CH<sub>3</sub>· + ·CH<sub>3</sub> → C<sub>2</sub>H<sub>6</sub>}} <!--SR:!2026-01-29,994,292!2024-12-18,602,252!2027-03-04,1226,272!2028-03-03,1571,310!2025-05-30,789,272!2025-05-25,785,272-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/free-radical_halogenation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -94,3 +94,7 @@ The Bohr model fails to explain:
 5. spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2025-04-01,536,344!2024-09-01,345,324-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Bohr_model) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

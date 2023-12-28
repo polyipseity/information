@@ -148,3 +148,7 @@ return _chain.from_iterable(await _gather(
 8. $V = C$; equivalent to [isochoric process](isochoric%20process.md)::_n_ = +∞ <!--SR:!2024-01-03,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/polytropic_process) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

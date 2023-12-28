@@ -78,3 +78,7 @@ return await memorize_table(
 3. [substitution](#substitution)→:::←_(end)_ <!--SR:!2024-06-26,245,277!2025-02-21,468,297-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/haloalkane) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -25,3 +25,7 @@ __Catalytic converter__ is a {{device that converts toxic pollutants into less-t
 > - {{C + O<sub>2</sub> → CO<sub>2</sub>}}
 > - {{CO + $\frac{1}{2}$O<sub>2</sub> → CO<sub>2</sub>}}
 > - {{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2026-06-09,1086,290!2024-11-19,665,310!2025-05-29,732,270!2025-01-04,536,310!2026-09-28,1088,253-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/catalytic_converter) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -25,3 +25,7 @@ tags:
 >
 > - where
 >     - {{$R_\mathrm{val}$ is the ___R_-value__ of a barrier that has [heat flux](heat%20flux.md) of $\phi_q$ through it when exposed to a [temperature](temperature.md) difference of $\Delta T$}} <!--SR:!2023-12-31,3,230!2024-01-01,11,270-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/R-value_(insulation)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

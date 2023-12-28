@@ -21,3 +21,7 @@ Treating {{iron(III) [salts](salt%20(chemistry).md) with a [base](base%20(chemis
 
 > treating with [bases](base%20(chemistry).md)
 > - {{Fe<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Fe(OH)<sub>3</sub>(s)}} <!--SR:!2024-02-20,246,330-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/iron(III)_oxide-hydroxide) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

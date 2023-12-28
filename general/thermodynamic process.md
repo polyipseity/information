@@ -63,3 +63,7 @@ return await memorize_seq(
 8. [polytropic process](polytropic%20process.md): $pV^n = C$→:::←_(end)_ <!--SR:!2024-01-04,17,290!2023-12-29,12,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/thermodynamic_process) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -63,3 +63,7 @@ return await memorize_table(
 5. [wastewater treatment](water%20treatment.md)→:::←_(end)_ <!--SR:!2024-03-26,275,330!2024-03-04,241,318-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/neutralization_(chemistry)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

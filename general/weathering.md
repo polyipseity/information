@@ -63,3 +63,7 @@ return await memorize_seq(
 3. H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→:::←_(end)_ <!--SR:!2024-06-01,330,330!2024-04-29,302,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/weathering) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

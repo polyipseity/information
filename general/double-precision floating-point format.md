@@ -16,3 +16,7 @@ tags:
 ## IEEE 754 standard
 
 This gives a precision {{from 15 to 17 [significant decimal figures](significant%20figures.md)}}. <!--SR:!2024-06-24,191,270-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/double-precision_floating-point_format) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

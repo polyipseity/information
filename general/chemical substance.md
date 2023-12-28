@@ -35,3 +35,7 @@ A compound is made up of {{multiple elements chemically combined}}. <!--SR:!2025
 ## notes
 
 1. Exceptions apply. ^note-1
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/chemical_substance) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

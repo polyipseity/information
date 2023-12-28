@@ -18,3 +18,7 @@ Treating {{silver [salts](salt%20(chemistry).md) with a [base](base%20(chemistry
 > treating with [bases](base%20(chemistry).md)
 > 1. {{2Ag<sup>+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ag<sub>2</sub>O(s) + H<sub>2</sub>O(l)}}
 > 2. {{Ag<sub>2</sub>O(s) + 4NH<sub>3</sub>(aq) + H<sub>2</sub>O(l) → 2\[Ag(NH<sub>3</sub>)<sub>2</sub>\]<sup>+</sup>(aq) + 2OH<sup>-</sup>(l)}} <!--SR:!2024-04-11,240,270!2024-06-22,297,270-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/silver_oxide) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

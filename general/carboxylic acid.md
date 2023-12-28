@@ -92,3 +92,7 @@ return await memorize_table(
 5. [reduction](#reduction)→:::←_(end)_ <!--SR:!2024-04-07,101,309!2024-02-14,240,329-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/carboxylic_acid) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

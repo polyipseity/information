@@ -17,3 +17,7 @@ tags:
 >
 > - where
 >     - {{$P$ is __power__, $W$ is [work](work%20(physics).md), and $t$ is [time](time.h)}} <!--SR:!2024-01-02,13,290!2024-01-04,15,290-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/power_(physics)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

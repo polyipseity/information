@@ -51,3 +51,7 @@ return await memorize_table(
 3. [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2024-07-08,356,330!2024-05-15,313,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/calcium_chloride) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

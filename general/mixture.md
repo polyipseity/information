@@ -31,3 +31,7 @@ A homogeneous mixture has {{uniformly distributed constituents}}. <!--SR:!2024-0
 ### heterogeneous mixture
 
 A heterogeneous mixture has {{clearly separated constituents}}. <!--SR:!2024-10-09,375,290-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/mixture) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -74,3 +74,7 @@ return _chain.from_iterable(await _gather(
 3. [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$::[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)) <!--SR:!2024-01-22,26,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/degrees_of_freedom_(physics_and_chemistry)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

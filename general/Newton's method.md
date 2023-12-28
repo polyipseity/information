@@ -18,3 +18,7 @@ __Newton's method__, also known as the __Newton–Raphson method__, is {{a [root
 > __Newton's method__
 >
 > {{Given an initial guess $x_0$ of the [roots](zero%20of%20a%20function.md) of a [real-valued function](real-valued%20function.md) $f$, if $f$ satisfies certain assumptions and $x_0$ is close to a [root](zero%20of%20a%20function.md), better [approximations](approximation.md) $x_{n+1}$ of one of the [root](zero%20of%20a%20function.md) are obtained by:$$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$}} <!--SR:!2024-01-24,43,290-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Newton's_method) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

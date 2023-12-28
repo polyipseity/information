@@ -86,7 +86,7 @@ Ordinary differential equations are furthered classified:
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {{An ODE where $F$ does not depend on $x$ explicitly.}} <!--SR:!2024-06-10,173,310-->
+> {{An ODE where $F$ does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly.}} <!--SR:!2024-06-10,173,310-->
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
@@ -110,7 +110,7 @@ Ordinary differential equations are furthered classified:
 
 > {{__first-order, separable in $x$ and $y$__}}
 >
-> - form: {{$F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y=0$}}
+> - form: {{$F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y=0$, where $F_1, F_2, G_1, G_2$ are [integrable](integrability.md) [functions](function%20(mathematics).md)}}
 > - solution: {{divide by $F_2(x)G_1(y)$ to [separate the variables](separation%20of%20variables.md), then integrate}}
 > - steps: $\begin{aligned}
 F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
@@ -130,7 +130,7 @@ y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
 
 > {{__first-order, [homogeneous](#^homogeneous)__}}
 >
-> - form: {{$\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$}}
+> - form: {{$\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integrability.md) [function](function%20(mathematics).md)}}
 > - solution: {{substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md)}}
 > - steps: $\begin{aligned}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=F\left(\frac{y}x\right)\\
@@ -165,7 +165,7 @@ y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
 
 > {{__second-order, [autonomous](#^autonomous)__}}
 >
-> - form: {{$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$}}
+> - form: {{$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$, where $F$ is an [integrable](integrability.md) [function](function%20(mathematics).md)}}
 > - solution: {{multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice}}
 > - steps: $\begin{aligned}
 \frac{\mathrm{d}^2y}{\mathrm{d}x^2}&=F(y)\\
@@ -198,3 +198,7 @@ C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\left(C_{2\in[-1,1]}\sin\sqrt{\frac{k}m}t+C_{3\in[-1,1]}\cos\sqrt{\frac{k}m}t\right)\\
 &=C_1\sin\sqrt{\frac{k}m}t+C_2\cos\sqrt{\frac{k}m}t
 \end{aligned}$ <!--SR:!2024-01-27,85,320!2024-01-03,70,320!2024-01-03,70,320-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ordinary_differential_equation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

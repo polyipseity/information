@@ -56,3 +56,7 @@ return await memorize_table(
 ### glowing splint
 
 See [glowing splint test](splint%20(laboratory%20equipment).md#glowing%20splint%20test).
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/oxygen) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

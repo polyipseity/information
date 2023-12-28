@@ -12,7 +12,11 @@ tags:
 
 # characteristic equation (calculus)
 
-In [mathematics](mathematics.md), the __characteristic equation__ or __auxiliary equation__ is {{a $n$-th [degree](degree%20of%20a%20polynomial.md) [polynomial equation](algebraic%20equation.md) based on the general solution of a $n$-th [order](differential%20equation.md#equation%20order%20and%20degree) [differential equation](differential%20equation.md) or [difference equation](recurrence%20relation.md)}}. A linear, homogeneous [ordinary differential equation](ordinary%20differential%20equation.md) with constant coefficients $a_n,a_{n-1},\ldots,a_1,a_0$ and $y$ as the [dependent variable](dependent%20and%20independent%20variable.md) {{$a_ny^{(n)}+a_{n-1}y^{(n-1)}+\cdots+a_1y'+a_0y=0$ has a characteristic equation $a_nr^n+a_{n-1}r^{n-1}+\cdots+a_1r+a_0=0$. This is a specific case of applying the [Laplace transform](Laplace%20transform.md) where $r$ is in $s$-domain}}. <!--SR:!2024-01-18,37,290!2024-01-28,37,250-->
+In [mathematics](mathematics.md), the __characteristic equation__ or __auxiliary equation__ is {{a $n$-th [degree](degree%20of%20a%20polynomial.md) [polynomial equation](algebraic%20equation.md) based on the general solution of a $n$-th [order](differential%20equation.md#equation%20order%20and%20degree) [differential equation](differential%20equation.md) or [difference equation](recurrence%20relation.md)}}. A linear, homogeneous [ordinary differential equation](ordinary%20differential%20equation.md) {{with constant coefficients (function coefficients do not work) $a_n,a_{n-1},\ldots,a_1,a_0$ and $y$ as the [dependent variable](dependent%20and%20independent%20variable.md) $a_ny^{(n)}+a_{n-1}y^{(n-1)}+\cdots+a_1y'+a_0y=0$ has a characteristic equation $a_nr^n+a_{n-1}r^{n-1}+\cdots+a_1r+a_0=0$. This is a specific case of applying the [Laplace transform](Laplace%20transform.md) where $r$ is in $s$-domain}}. <!--SR:!2024-01-18,37,290!2024-01-28,37,250-->
+
+> [!tip] tip
+>
+> - reason the [coefficients](coefficient.md) needs to be [constants](constant%20(mathematics).md): {{The method assumes the solution is in the form of $y(x) = e^{rx}$, and when [differentiating](derivative.md) $y(x)$, the $r$ is assumed to be a constant. Any [functions](function%20(mathematics).md) of $x$ in the [coefficients](coefficient.md) would make the found $r$ dependent on $x$, making $r$ no longer a [constant](constant%20(mathematics).md).}}
 
 ## formation of the general solution
 
@@ -37,3 +41,7 @@ If the complex roots are [repeated](multiplicity%20(mathematics).md#multiplicity
 ## see also
 
 - [Laplace transform applied to differential equations](Laplace%20transform%20applied%20to%20differential%20equations.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/characteristic_equation_(calculus)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

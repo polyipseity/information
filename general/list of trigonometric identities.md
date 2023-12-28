@@ -138,10 +138,10 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 7.42$ ([double-angle](#double-angle) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-01-02,11,287!2024-01-10,17,307-->
+> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-01-02,11,287!2024-01-10,17,307-->
 > - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$ <!--SR:!2024-01-04,13,287!2024-01-01,10,287-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-01-02,11,287!2024-01-04,11,267-->
-> - $\cos(-3.68)$ ([double-angle](#double-angle) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-01-07,14,307!2023-12-30,8,267-->
+> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-01-07,14,307!2023-12-30,8,267-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-01-11,18,307!2024-01-08,15,307-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-01-08,15,307!2024-01-08,15,307-->
 > - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2023-12-30,8,267-->
@@ -244,6 +244,10 @@ return chain.from_iterable(await gather(
 
 > [!example] examples
 >
-> - $-2.64 \cos x + 3.22 \sin x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(x + \arctan(3.22 / 2.64))$ <!--SR:!2024-01-01,8,269!2023-12-31,7,269-->
-> - $-9.29 \cos x - 9.11 \sin x$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2023-12-31,7,269!2023-12-31,7,269-->
-> - $0 \cos x - 1.23 \sin x$ ::: $-1.23 \sin x$ <!--SR:!2024-01-09,15,309!2024-01-12,18,309-->
+> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-01-01,8,269!2023-12-31,7,269-->
+> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(-2x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2023-12-31,7,269!2023-12-31,7,269-->
+> - $0 \cos 5x - 1.23 \sin 5x$ ::: $-1.23 \sin 5x$ <!--SR:!2024-01-09,15,309!2024-01-12,18,309-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/list_of_trigonometric_identities) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
