@@ -152,3 +152,7 @@ return _chain.from_iterable(await _gather(
 ## industry
 
 - see: [petroleum industry](petroleum%20industry.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/petroleum) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

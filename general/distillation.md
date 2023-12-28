@@ -44,3 +44,7 @@ In simple distillation, {{the vapor is immediately passed into a [condenser](con
 ### fractional distillation
 
 See [fractional distillation](fractional%20distillation.md).
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/distillation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

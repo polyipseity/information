@@ -55,3 +55,7 @@ return await memorize_seq(
 4. The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{GM}a^3$→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

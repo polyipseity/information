@@ -21,3 +21,7 @@ tags:
 ## principal value
 
 The _[principal value](principal%20value.md)_ of $\arg z$ {{is the value in the open-closed [interval](interval%20(mathematics).md) $(-\pi \mathrm{\ rad},\pi \mathrm{\ rad}]$, sometimes denoted $\operatorname{Arg} z$}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/argument_(complex_analysis)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

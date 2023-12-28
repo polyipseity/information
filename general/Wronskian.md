@@ -26,4 +26,6 @@ The converse statement that {{the Wronskian is identically zero on some [interva
 
 ## references
 
+This text incorporates [content](https://en.wikipedia.org/wiki/Wronskian) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
 - Bôcher, Maxime (1901), ["Certain cases in which the vanishing of the Wronskian is a sufficient condition for linear dependence"](https://www.ams.org/journals/tran/1901-002-02/S0002-9947-1901-1500560-5/S0002-9947-1901-1500560-5.pdf) (PDF), _[Transactions of the American Mathematical Society](Transactions%20of%20the%20American%20Mathematical%20Society.md)_, Providence, R.I.: [American Mathematical Society](American%20Mathematical%20Society.md), __2__ (2): 139–149, [doi](doi%20(identifier).md):[10.2307/1986214](https://doi.org/10.2307%2F1986214), [ISSN](ISSN%20(identifier).md) [0002-9947](https://www.worldcat.org/issn/0002-9947), [JFM](JFM%20(identifier).md) [32.0313.02](https://zbmath.org/?format=complete&q=an:32.0313.02), [JSTOR](JSTOR%20(identifier).md) [1986214](https://www.jstor.org/stable/1986214)

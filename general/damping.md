@@ -142,3 +142,7 @@ Additionally, for negative damping ratios:
 >
 > - where
 >     - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} 
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/damping) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

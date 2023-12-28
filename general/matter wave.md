@@ -21,3 +21,7 @@ The _de Broglie wavelength_ $\lambda$ {{relates to the [momentum](momentum.md) $
 > - {{$f=\frac{E}h$}}
 >
 > where {{$h$ is the [Planck constant](Planck%20constant.md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/matter_wave) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

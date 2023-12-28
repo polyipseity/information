@@ -19,3 +19,7 @@ Polar molecules contain {{[polar bonds](#bond%20polarity), created by difference
 ## bond polarity
 
 {{Differences in the [electronegativity](electronegativity.md) of the two [atoms](atom.md) in a [bond](chemical%20bond.md) leads to uneven sharing of [electrons](electron.md)}}, creating [partial charges](partial%20charge.md), {{which are denoted as δ+ ([delta](delta%20(letter).md) plus) and δ- (delta minus)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/chemical_polarity) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

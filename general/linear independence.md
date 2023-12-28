@@ -22,3 +22,7 @@ Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathemati
 ### infinite case
 
 An infinite [set](set%20(mathematics).md) of [vectors](vector%20(mathematics%20and%20physics).md) is _linearly dependent_ {{if and only if it contains a finite [subset](subset.md) that is linearly dependent. [Inversely](inverse%20(logic).md), an infinite set of vectors is _linearly independent_ if and only if it is not _linearly dependent_, i.e. every finite [subset](subset.md) is linearly independent}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/linear_independence) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

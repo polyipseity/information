@@ -141,3 +141,7 @@ E & = K + U \\
 >
 > - where
 >     - [pendulum](pendulum.md) properties: {{$l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/simple_harmonic_motion) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

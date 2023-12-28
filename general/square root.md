@@ -19,3 +19,7 @@ tags:
 > - {{$\sqrt{zw} = \sqrt z \sqrt w \qquad (-\pi < \operatorname{Arg} z + \operatorname{Arg} w \le \pi)$ <br/>__counterexample__: $z = -1, w = -1$}}
 > - {{$\sqrt{\frac z w} = \frac{\sqrt z}{\sqrt w} \qquad (-\pi < \operatorname{Arg} z - \operatorname{Arg} w \le \pi)$ <br/>__counterexample__: $z = 1, w = -1$}}
 > - {{$\sqrt{z^*} = \left( \sqrt z \right)^* \qquad (* \in \mathbb{C}, \operatorname{Arg} z \ne \pi)$ <br/>__counterexample__: $z = -1$}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/square_root) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

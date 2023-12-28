@@ -60,3 +60,7 @@ return await memorize_seq(
 7. spacious: average distance between particles is much larger than the size of the particles; explains failing at high [pressures](pressure.md) and with large particles→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ideal_gas) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

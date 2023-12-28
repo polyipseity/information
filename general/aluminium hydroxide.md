@@ -18,3 +18,7 @@ Treating {{aluminium [salts](salt%20(chemistry).md) with a [base](base%20(chemis
 > treating with [bases](base%20(chemistry).md)
 > 1. {{Al<sup>3+</sup>(aq) + 3OH<sup>-</sup>(aq) → Al(OH)<sub>3</sub>(s)}}
 > 2. {{Al(OH)<sub>3</sub>(s) + OH<sup>-</sup>(aq) → \[Al(OH)<sub>4</sub>\]<sup>-</sup>(aq)}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/aluminium_hydroxide) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

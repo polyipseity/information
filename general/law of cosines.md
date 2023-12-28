@@ -19,3 +19,7 @@ tags:
 >
 > - where
 >     - {{$a, b, c$ are the sides of a [triangle](triangle.md), and $\gamma$ is the angle opposite to side $c$}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/law_of_cosines) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

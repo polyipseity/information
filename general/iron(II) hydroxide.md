@@ -17,3 +17,7 @@ Treating {{iron(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemist
 
 > treating with [bases](base%20(chemistry).md)
 > - {{Fe<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Fe(OH)<sub>2</sub>(s)}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/iron(II)_hydroxide) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -43,3 +43,7 @@ P(x, t) & = - T \frac{\partial y}{\partial x} \frac{\partial y}{\partial t} \\
 & = T v^{-1} \omega^2 A^2 \cos^2(kx - \omega t + \phi) \\
 & = \sqrt{\mu T} \omega^2 A^2 \cos^2(kx - \omega t + \phi)
 \end{aligned}$$
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/string_vibration) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

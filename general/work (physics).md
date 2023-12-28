@@ -25,3 +25,7 @@ tags:
 >
 > - where
 >     - {{$\delta W$ is the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$ over an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$ or at an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/work_(physics)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

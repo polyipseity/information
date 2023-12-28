@@ -48,3 +48,7 @@ Sea salt can be extracted from {{[seawater](seawater.md)}}:
 4. Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain [crystals](crystal.md). Cooling hot saturated seawater or slow evaporation of seawater can be used. In both methods, [concentration](concentration.md) of seawater increases and becomes saturated. The latter produces larger crystals than the former.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/sea_salt) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

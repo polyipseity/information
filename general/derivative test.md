@@ -129,3 +129,7 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 > - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [stationary rising inflection point](inflection%20point.md).}}
 > - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
 > - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive because the two-sided [second derivative](second%20derivative.md) $f''(0)$ and one-sided [second derivatives](second%20derivative.md) $f''_\pm(0)$ do not exist. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md).}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/derivative_test) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

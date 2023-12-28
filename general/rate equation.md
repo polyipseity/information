@@ -16,3 +16,7 @@ The __rate equation__ of a [chemical reaction](chemical%20reaction.md) {{is an [
 ## determination
 
 The rate equation can be determined by {{method of initial rates}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/rate_equation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

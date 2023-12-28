@@ -58,3 +58,7 @@ M_n & = L^n \\
 & = n \frac1L \frac{\mathrm{d}L}{\mathrm{d}T} \\
 & = n \alpha_L
 \end{aligned}$$
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/thermal_expansion) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

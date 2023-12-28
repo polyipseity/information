@@ -12,3 +12,7 @@ tags:
 # standard atmosphere (unit)
 
 The __standard atmosphere__ (symbol: __atm__) is {{a [unit](unit%20of%20measurement.md) of [pressure](pressure.md) defined as 101325 [Pa](Pascal%20(unit).md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/standard_atmosphere_(unit)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

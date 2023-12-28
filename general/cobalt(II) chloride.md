@@ -11,3 +11,7 @@ __Cobalt(II) chloride__ is {{an [inorganic compound](inorganic%20compound.md) wi
 ## moisture indicator
 
 {{Dry cobalt(II) chloride changes from blue to pink in the presence of [water](water.md)}}. It is soaked into paper to {{make dry cobalt(II) chloride paper for detecting moisture}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/cobalt(II)_chloride) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -86,3 +86,7 @@ See [property of metals, metalloids, and nonmetals](properties%20of%20metals,%20
 ### valence
 
 See [valence](valence%20(chemistry).md).
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/periodic_trends) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

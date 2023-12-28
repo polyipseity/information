@@ -56,3 +56,7 @@ For simple applications where the material is [homogeneous](homogeneity%20and%20
 >     - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
 >     - {{$\frac{\Delta T}{\Delta x}$ is the [temperature](temperature.md) change per unit distance along the $x$-direction which is perpendicular to the surface, in K⋅m<sup>-1</sup>}}
 >     - {{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}}
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/thermal_conduction) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
