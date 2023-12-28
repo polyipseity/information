@@ -33,13 +33,13 @@ The model is based on three postulates:
 By the [first postulate](#^23e80f), {{the [centripetal force](centripetal%20force.md) equals the [Coulomb force](Coulomb%20force.md)}}. Assuming {{the nucleus mass is much larger than the electron mass}}:
 {{$\frac{m_\mathrm{e}v^2}r=\frac{Zk_\mathrm{e}\mathrm{e}^2}{r^2}$}}
 where {{$m_\mathrm{e}$ is the electron mass, $\mathrm{e}$ is the [elementary charge](elementary%20charge.md), $k_\mathrm{e}$ is the [Coulomb constant](Coulomb%20constant.md), and $Z$ is the atomic number of the atom}}. Rearranging, this equation determines the electron's speed from its radius:
-{{$v=\sqrt{\frac{Zk_\mathrm{e}\mathrm{e}^2}{m_\mathrm{e}r} }$}}
+{{$$v=\sqrt{\frac{Zk_\mathrm{e}\mathrm{e}^2}{m_\mathrm{e}r} }$$}}
 Substitute the equation into {{the equation from the [second postulate](#^f5a73f)}}:
-{{$m_\mathrm{e}\sqrt{\frac{Zk_\mathrm{e}\mathrm{e}^2}{m_\mathrm{e}r} }r=n\hbar$}}
+{{$$m_\mathrm{e}\sqrt{\frac{Zk_\mathrm{e}\mathrm{e}^2}{m_\mathrm{e}r} }r=n\hbar$$}}
 We can get the radius in terms of $n$:
-{{$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$}}
+{{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2024-02-07,204,254!2025-05-11,555,274!2024-02-05,45,134!2024-04-12,182,254-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2024-02-07,204,254!2025-05-11,555,274!2024-02-05,45,134!2024-04-12,182,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2025-10-24,669,279!2024-11-23,484,299-->
 
@@ -49,8 +49,8 @@ The combination of natural constants in the energy formula is the {{Rydberg ener
 {{$$\begin{aligned}R_\mathrm{E}&=\frac{k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2}\\&=2.179\,872\,361\,1035(42)\times10^{-18}~\mathrm{J}\\&=13.605\,693\,122\,944(26)~\mathrm{eV}\end{aligned}$$}} <!--SR:!2024-11-03,490,302!2024-04-11,310,262-->
 
 The energy of a photon emitted by a hydrogen atom is:
-{{$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
-{{$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2024-08-21,341,282!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2024-12-12,493,302!2024-02-06,186,202-->
+{{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
+{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,160(21)~\mathrm{m}^{-1}$}}. <!--SR:!2024-08-21,341,282!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2024-12-12,493,302!2024-02-06,186,202-->
 
 ## limitations
 
