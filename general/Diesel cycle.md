@@ -63,3 +63,7 @@ return await memorize_seq(
 >
 > - where
 >     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md), $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum), and $\alpha = \frac{V_3}{V_2} = \frac{T_3}{T_1 r^{\gamma - 1} }$ is the cutoff ratio}} <!--SR:!2023-12-29,5,230!2023-12-29,8,250-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Diesel_cycle) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

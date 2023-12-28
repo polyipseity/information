@@ -25,3 +25,7 @@ tags:
 # rate-determining step
 
 The __rate-determining step__ or __rate-limiting step__ is {{often the slowest step that determines the overall [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2024-03-05,165,250-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/rate-determining_step) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

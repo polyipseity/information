@@ -501,3 +501,7 @@ return chain.from_iterable(await gather(
 4. <span style="color: green;">green</span>::manganate ion <!--SR:!2024-02-07,171,282-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ion) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

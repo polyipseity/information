@@ -85,3 +85,7 @@ return await memorize_table(
 4. [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2024-03-15,241,315!2024-06-30,348,335-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/alcohol) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

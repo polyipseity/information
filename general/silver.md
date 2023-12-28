@@ -50,3 +50,7 @@ return await memorize_table(
 3. electrical and electronic components→:::←_(end)_ <!--SR:!2024-05-22,320,330!2024-05-01,304,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/silver) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

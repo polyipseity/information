@@ -41,3 +41,7 @@ The second part is sometimes called the _second fundamental theorem of calculus_
 > {{Given a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $F'(x)=f(x)\quad\forall{x}\in(a,b)$, then $\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$.}} <!--SR:!2024-01-01,16,210-->
 
 The second part is {{stronger than the [corollary](#corollary) because $f$ may not be [continuous](continuous%20function.md)}}. <!--SR:!2024-02-18,63,310-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/fundamental_theorem_of_calculus) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

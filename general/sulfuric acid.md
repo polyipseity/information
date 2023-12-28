@@ -26,3 +26,7 @@ Concentrated sulfuric acid {{oxidizes less reactive metals to form [sulfur dioxi
 ### reactions with nonmetals
 
 Hot concentrated sulfuric acid {{oxidizes [carbon](carbon.md) to [carbon dioxide](carbon%20dioxide.md) and [sulfur](sulfur.md) to [sulfur dioxide](sulfur%20dioxide.md)}}. All of above produces sulfur dioxide as well. <!--SR:!2024-02-21,205,270-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/sulfuric_acid) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

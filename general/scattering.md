@@ -11,3 +11,7 @@ __Scattering__ describes {{a wide range of physical processes where moving [part
 ## experiments
 
 Scattering experiments are important in {{discovering new particles}} and {{studying structure of particles}}. Examples include {{the [Geiger–Marsden experiments](Geiger–Marsden%20experiments.md)}}. {{[Laws of physics](laws%20of%20physics.md)}} are employed in analysis. <!--SR:!2024-05-19,380,290!2024-04-27,363,290!2026-06-13,925,290!2025-07-29,689,312-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/scattering) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

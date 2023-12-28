@@ -18,8 +18,8 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 > {{$$\begin{aligned} F_\mathrm{net} = m \frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -kx \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} +\frac{k}m x & = 0 \end{aligned}$$}}
 >
 > - where
->     - {{[function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-13,19,329!2024-01-11,17,329!2024-01-12,18,329-->
+>     - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
+>     - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-13,19,329!2024-01-11,17,329!2024-01-12,18,329-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -28,8 +28,8 @@ For better physical meaning, it can be rewritten as:
 > {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega x = 0$$}}
 >
 > - where
->     - {{[function](function%20(mathematics).md) properties: $x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->     - {{[oscillator](oscillation.md) properties: $\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-12,18,329!2024-01-07,13,309!2024-01-13,19,329-->
+>     - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
+>     - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-12,18,329!2024-01-07,13,309!2024-01-13,19,329-->
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 
@@ -72,7 +72,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 
 > [!tip] tip
 >
-> - [mnemonic](mnemonic.md): {{The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [radius](radius.md), which is [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the position of the system in the [phase space](phase%20space.md) initially.}} <!--SR:!2024-01-31,40,273-->
+> - [mnemonic](mnemonic.md): {{The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [radius](radius.md), which is [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md).}} <!--SR:!2024-01-31,40,273-->
 
 ## energy
 
@@ -122,7 +122,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}}
 >
 > - where
->     - {{[string](string%20(structure).md) properties: $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-01-05,15,316-->
+>     - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-01-05,15,316-->
 
 ### mass of a simple pendulum
 
@@ -131,7 +131,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}}
 >
 > - where
->     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length}} <!--SR:!2024-01-02,12,296!2024-01-08,18,316-->
+>     - [pendulum](pendulum.md) properties: {{$l$ is the pendulum length}} <!--SR:!2024-01-02,12,296!2024-01-08,18,316-->
 
 ### mass of a physical pendulum
 
@@ -140,4 +140,8 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
 >
 > - where
->     - {{[pendulum](pendulum.md) properties: $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2024-01-10,15,276!2024-01-03,13,296-->
+>     - [pendulum](pendulum.md) properties: {{$l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2024-01-10,15,276!2024-01-03,13,296-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/simple_harmonic_motion) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

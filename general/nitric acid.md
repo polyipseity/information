@@ -22,3 +22,7 @@ Dilute nitric acid {{oxidizes less reactive metals to form colorless [nitric oxi
 ### reactions with nonmetals
 
 Concentrated nitric acid {{oxidizes [sulfites](sulfite.md) to [sulfates](sulfate.md)}}. Hot ones also {{oxidizes [carbon](carbon.md) to [carbon dioxide](carbon%20dioxide.md) and [sulfur](sulfur.md) to [sulfur dioxide](sulfur%20dioxide.md)}}. All of above produces nitrogen dioxide as well. <!--SR:!2024-01-29,66,230!2025-09-06,622,310-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/nitric_acid) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

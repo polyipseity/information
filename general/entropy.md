@@ -25,3 +25,7 @@ There are two main ways to describe entropy: {{the macroscopic description from 
 >
 > - where
 >     - {{$\mathrm{d}S$ is the infinitesimal entropy change due to the infinitesimal received [heat](heat.md) $\delta Q_\text{in}$ ([inexact differential](inexact%20differential.md)) at instantaneous [temperature](temperature.md) $T$}} <!--SR:!2024-02-02,37,290!2023-12-30,13,270-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/entropy) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

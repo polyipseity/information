@@ -25,3 +25,7 @@ This often happens when {{$\text{A}$ is more [reactive](reactivity%20(chemistry)
 > [!tip] tip
 >
 > - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md) to minimize [energy](energy.md).}} <!--SR:!2024-03-04,76,330-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/single_displacement_reaction) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

@@ -6,7 +6,7 @@ aliases:
   - gold foil experiment
   - gold foil experiments
 tags:
-  - flashcards/general/Geiger–Marsden_experiments
+  - flashcards/general/Geiger-Marsden_experiments
   - languages/in/English
 ---
 
@@ -25,3 +25,7 @@ Most alpha particles pass through {{with minimal deflection}}. Few of them pass 
 ### implications
 
 The results showed that the {{[plum pudding model](plum%20pudding%20model.md)}} was wrong. Most of the volume of an atom is {{empty}} as {{most alpha particles pass through with minimal deflection}}. Instead, {{the positive charge is concentrated in a tiny central region called the "nucleus"}}. {{Most mass is concentrated there}} as {{the nucleus is not deflected or moved by particles}}. Electrons, which {{does not affect}} the scattering, orbit around the nucleus. This is the {{[Rutherford model](Rutherford%20model.md)}}. <!--SR:!2024-10-10,492,310!2027-05-19,1259,350!2024-02-14,273,270!2025-04-06,480,230!2024-06-19,309,250!2025-01-24,490,250!2025-04-11,598,330!2027-01-17,1164,350-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Geiger–Marsden_experiments) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

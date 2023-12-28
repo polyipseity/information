@@ -31,3 +31,7 @@ The {{maximum kinetic energy $K_\mathrm{max}$}} is determined by {{the frequency
 where {{$h$ is the Planck constant}}. <!--SR:!2026-01-26,887,341!2024-02-12,284,281!2025-08-10,734,321!2025-11-02,758,341-->
 
 Given the threshold frequency is reached, increasing intensity only {{increases the number of [photons](photon.md) hitting the surface}}, {{increasing photoemission}}, {{hence photoelectric current}}. <!--SR:!2024-11-09,453,242!2024-05-03,362,290!2025-07-22,697,310-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/photoelectric_effect) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

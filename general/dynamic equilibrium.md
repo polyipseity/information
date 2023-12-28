@@ -11,3 +11,7 @@ tags:
 # dynamic equilibrium
 
 A __dynamic equilibrium__ exists when {{the [concentrations](concentration.md) of both [reactants](reagent.md) and [products](product%20(chemistry).md) of a [reversible reaction](reversible%20reaction.md) are non-zero and remain unchanged in a [closed system](closed%20system.md)}}. The forward [reaction rate](reaction%20rate.md) {{equals the backward [reaction rate](reaction%20rate.md)}}. It can be reached {{from both sides of the equilibrium}}. It can be characterized by {{a [equilibrium constant](equilibrium%20constant.md)}}. <!--SR:!2024-09-20,370,270!2024-05-27,325,330!2024-05-28,326,330!2024-05-26,324,330-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/dynamic_equilibrium) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

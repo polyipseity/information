@@ -22,3 +22,7 @@ __Chemical symbols__ are {{abbreviations for [chemical substances](chemical%20su
 - {{The [atomic number](atomic%20number.md)}} may be shown in {{the left subscript position}}.
 - {{The state of [ionization](ionization.md) or an [excited state](excited%20state.md)}} may be shown in {{the right superscript position}}.
 - {{The number of atoms}} may be shown in {{the right subscript position}}. It is implicitly {{one}} if omitted. <!--SR:!2024-05-08,294,290!2024-11-30,459,310!2024-05-26,329,330!2024-04-23,303,330!2024-01-24,213,310!2026-01-17,771,330!2024-05-01,309,330!2024-03-29,284,330!2024-03-19,274,330!2024-02-19,252,330-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/chemical_symbol) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

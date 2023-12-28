@@ -20,3 +20,7 @@ It is charaterized by {{the [hexagonal arrangement](hexagonal%20crystal%20family
 ## physical properties
 
 Ice I<sub>h</sub> has {{lower [density](density.md) than [water](water.md) due to [hydrogen bonds](hydrogen%20bond.md) that make the [molecules](molecule.md) closer in the [liquid](liquid.md) phase}}. <!--SR:!2024-05-24,269,270-->
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ice_Ih) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
