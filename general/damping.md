@@ -134,7 +134,7 @@ Additionally, for negative damping ratios:
 >
 > {{$$Q = \frac{1}{2 \zeta}$$}}
 > - where
->.    - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}}
+>     - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}}
 
 > __exponential decay rate__
 >
