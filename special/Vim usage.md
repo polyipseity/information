@@ -11,7 +11,7 @@ tags:
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2023-12-28,236,313!2024-04-23,349,333-->
+- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2026-01-04,738,313!2024-04-23,349,333-->
 
 ## autocomplete
 - cycle forward:::\<Tab\> <!--SR:!2024-01-14,196,328!2025-12-30,788,328-->

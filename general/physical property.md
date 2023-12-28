@@ -70,7 +70,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bad29e"--><!-- The following content is generated at 2023-03-14T20:27:23.388951+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2024-07-20,339,290!2024-06-01,330,330-->
-2. [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2024-01-26,185,270!2023-12-28,110,290-->
+2. [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2024-01-26,185,270!2024-02-20,54,270-->
 3. [color](color.md)→:::←[density](density.md) <!--SR:!2025-02-23,439,270!2024-05-28,326,330-->
 4. [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2024-01-06,19,150!2024-05-29,327,330-->
 5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-06-24,322,290!2024-03-04,197,270-->

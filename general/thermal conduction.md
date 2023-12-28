@@ -20,7 +20,7 @@ tags:
 > - where
 >     - {{$\vec\phi_\text{q}$ is the [heat flux](heat%20flux.md), in W⋅m<sup>-2</sup>}}
 >     - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
->     - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}} <!--SR:!2023-12-28,8,250!2024-01-15,20,270!2024-01-03,13,290!2024-01-05,15,290-->
+>     - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}} <!--SR:!2024-01-15,18,250!2024-01-15,20,270!2024-01-03,13,290!2024-01-05,15,290-->
 
 For simple applications, Fourier's law is used in its one-dimensional form:
 
@@ -43,7 +43,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 >     - {{$\frac{\partial Q}{\partial t}$ is the [heat](heat.md) transferred per unit [time](time.md), in W}}
 >     - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
 >     - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}}
->     - {{$\mathrm{d}\mathbf{S}$ is a [vector area](vector%20area.md) element, in m<sup>2</sup>}} <!--SR:!2023-12-28,8,250!2024-01-07,17,290!2023-12-28,8,250!2023-12-30,10,270!2024-01-04,14,290-->
+>     - {{$\mathrm{d}\mathbf{S}$ is a [vector area](vector%20area.md) element, in m<sup>2</sup>}} <!--SR:!2024-01-01,4,230!2024-01-07,17,290!2024-01-16,19,250!2023-12-30,10,270!2024-01-04,14,290-->
 
 For simple applications where the material is [homogeneous](homogeneity%20and%20heterogeneity.md) between two endpoints at constant [temperature](temperature.md), the above can be [integrated](integral.md) to give:
 
@@ -55,4 +55,4 @@ For simple applications where the material is [homogeneous](homogeneity%20and%20
 >     - {{$\frac{Q}{\Delta t}$ is the [heat](heat.md) transferred per unit [time](time.md), in W}}
 >     - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
 >     - {{$\frac{\Delta T}{\Delta x}$ is the [temperature](temperature.md) change per unit distance along the $x$-direction which is perpendicular to the surface, in K⋅m<sup>-1</sup>}}
->     - {{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}} <!--SR:!2024-01-07,17,290!2023-12-30,9,270!2023-12-27,7,250!2024-01-06,16,290!2023-12-30,10,270!2024-01-05,15,290-->
+>     - {{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}} <!--SR:!2024-01-07,17,290!2023-12-30,9,270!2024-01-22,25,270!2024-01-06,16,290!2023-12-30,10,270!2024-01-05,15,290-->
