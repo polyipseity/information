@@ -6,6 +6,7 @@ aliases:
   - Wronskians
 tags:
   - flashcards/general/Wronskian
+  - languages/in/English
 ---
 
 # Wronskian
