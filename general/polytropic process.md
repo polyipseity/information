@@ -35,7 +35,7 @@ tags:
 > - where
 >     - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
 >     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
-> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2023-12-29,10,270!2024-01-02,13,290!2023-12-30,11,270!2023-12-29,9,270-->
+> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-04,6,250!2024-01-02,13,290!2023-12-30,11,270!2024-02-03,36,290-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows:
 
@@ -129,7 +129,7 @@ return _chain.from_iterable(await _gather(
 2. _n_ = 0::$p = C$; equivalent to [isobaric process](isobaric%20process.md) <!--SR:!2024-01-02,13,290-->
 3. 0 < _n_ < 1::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2024-01-01,12,270-->
 4. _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md) <!--SR:!2024-01-05,16,290-->
-5. 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2023-12-29,9,270-->
+5. 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-01-21,23,270-->
 6. _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md) <!--SR:!2024-01-04,15,290-->
 7. _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2024-01-01,13,270-->
 8. _n_ = +∞::$V = C$; equivalent to [isochoric process](isochoric%20process.md) <!--SR:!2024-01-03,14,290-->

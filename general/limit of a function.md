@@ -23,7 +23,7 @@ tags:
 
 ### algebraic limit theorem
 
-The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [complex](complex%20number.md)-valued functions $f(x)$ and $g(x)$, the limit of an operation on $f(x)$ and $g(x)$, i.e. $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \cdot g(x)$, $f(x) / g(x)$, and ${f(x)}^{g(x)}$, is compatible with the same operation on the limits of $f(x)$ and $g(x)$ under some conditions}}. <!--SR:!2023-12-29,16,290-->
+The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [complex](complex%20number.md)-valued functions $f(x)$ and $g(x)$, the limit of an operation on $f(x)$ and $g(x)$, i.e. $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \cdot g(x)$, $f(x) / g(x)$, and ${f(x)}^{g(x)}$, is compatible with the same operation on the limits of $f(x)$ and $g(x)$ under some conditions}}. <!--SR:!2024-03-01,63,310-->
 
 > __algebraic limit theorem__
 > Also valid for one-sided limits and limits at infinity.
