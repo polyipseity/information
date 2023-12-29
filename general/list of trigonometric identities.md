@@ -26,6 +26,7 @@ return await memorize_table(
   e.cwf_sects('4949', 'd996',),
   ('name',),
   (
+    ('[Pythagorean identities](#Pythagorean%20identities))',),
     ('[angle sum and difference](#angle%20sum%20and%20difference)',),
     ('[linear combination](#linear%20combination)',),
     ('[multiple-angle](#multiple-angle)',),
@@ -35,10 +36,11 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-12-20T17:38:22.539723+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-12-29T17:56:40.803518+08:00. Any edits will be overridden! -->
 
 > | name |
 > |-|
+> | [Pythagorean identities](#Pythagorean%20identities)) |
 > | [angle sum and difference](#angle%20sum%20and%20difference) |
 > | [linear combination](#linear%20combination) |
 > | [multiple-angle](#multiple-angle) |
@@ -46,15 +48,60 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-20T17:38:22.606111+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-29T17:56:40.835581+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[angle sum and difference](#angle%20sum%20and%20difference)
-2. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination)
-3. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle)
-4. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)
-5. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_
+1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities))
+2. [Pythagorean identities](#Pythagorean%20identities))→:::←[angle sum and difference](#angle%20sum%20and%20difference)
+3. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination)
+4. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle)
+5. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)
+6. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+## Pythagorean identities
+
+%%
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+from pytextgen.util import NULL_LOCATION
+e = __env__
+return await memorize_map(
+  e.cwf_sects('958f', 'ba01', None,),
+  items_to_map(
+    ('normal', R'$\sin^2 \theta + \cos^2 \theta = 1$',),
+    ('divided by sine', R'$1 + \cot^2 \theta = \csc^2 \theta$',),
+    ('divided by cosine', R'$1 + \tan^2 \theta = \sec^2 \theta$',),
+    ('divided by sine and cosine', R'$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$',),
+  ),
+)
+```
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958f"--><!-- The following content is generated at 2023-12-29T17:59:38.650037+08:00. Any edits will be overridden! -->
+
+> 1. normal: $\sin^2 \theta + \cos^2 \theta = 1$
+> 2. divided by sine: $1 + \cot^2 \theta = \csc^2 \theta$
+> 3. divided by cosine: $1 + \tan^2 \theta = \sec^2 \theta$
+> 4. divided by sine and cosine: $\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba01"--><!-- The following content is generated at 2023-12-29T17:59:38.720645+08:00. Any edits will be overridden! -->
+
+1. normal::$\sin^2 \theta + \cos^2 \theta = 1$
+2. divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$
+3. divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$
+4. divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+> [!example] examples
+>
+> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$
+> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$
+> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$
+> - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$
 
 ## angle sum and difference
 
