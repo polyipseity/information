@@ -19,7 +19,7 @@ tags:
 
 ## driven, damped harmonic oscillator
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with a externally applied force $F(t)$ can be derived from {{[Newton's second law](Newton's laws of motion.md#second law), [Hooke's law](Hooke's law.md), and a _viscous [damping](damping.md) coefficient_}}:
+The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}}:
 
 > __ordinary differential equation__
 >
@@ -39,7 +39,7 @@ For better physical meaning, it can be rewritten as:
 >     - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
 >     - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}}
 
-The above [inhomogeneous ordinary differential equation](ordinary%20differential%20equation.md#^nonhomogeneous) can always {{be solved exactly for any driving [force](force.md), by first solving the homogeneous counterpart of the above equation}}.
+The above [inhomogeneous ordinary differential equation](ordinary%20differential%20equation.md#^nonhomogeneous) can always {{be solved exactly for any driving [force](force.md), usually by first solving the homogeneous counterpart of the above equation}}.
 
 ### step input
 
