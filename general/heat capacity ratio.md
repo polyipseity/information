@@ -21,7 +21,7 @@ tags:
 
 > [!tip] tip
 >
-> - $Q / W$: {{Since the extra [heat capacity](heat%20capacity.md) of [isobaric processes](isobaric%20process.md) comes from [work](work%20(physics).md), therefore $Q / W = \gamma / (\gamma - 1)$ for [isobaric processes](isobaric%20process.md). For a generalization, see [polytropic process § relation between polytropic index and energy transfer ratio](polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio).}} <!--SR:!2023-12-29,10,270-->
+> - $Q / W$: {{Since the extra [heat capacity](heat%20capacity.md) of [isobaric processes](isobaric%20process.md) comes from [work](work%20(physics).md), therefore $Q / W = \gamma / (\gamma - 1)$ for [isobaric processes](isobaric%20process.md). For a generalization, see [polytropic process § relation between polytropic index and energy transfer ratio](polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio).}} <!--SR:!2024-02-02,35,290-->
 
 ## ideal gas relations
 
@@ -35,7 +35,7 @@ tags:
 >
 > - where
 >     - {{$\gamma$ is the heat capacity ratio and $f$ is the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}}
-> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-12,17,250!2023-12-29,10,270!2023-12-30,11,270-->
+> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-12,17,250!2024-02-03,36,290!2023-12-30,11,270-->
 
 #### derivation
 
