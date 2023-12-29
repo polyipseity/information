@@ -12,7 +12,7 @@ tags:
 
 English
 
-- [Wronskian](https://en.wiktionary.org/wiki/Wronskian):::the [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their $n - 1$ first [derivatives](../../../general/derivative.md)
+- [Wronskian](https://en.wiktionary.org/wiki/Wronskian):::the [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md)
 - [accommodate](https://en.wiktionary.org/wiki/accommodate):::to adapt
 - [altitude](https://en.wiktionary.org/wiki/altitude):::height of a location from a reference point, usually [sea level](../../../general/sea%20level.md)
 - [aluminium](https://en.wiktionary.org/wiki/aluminium):::a [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling
@@ -25,7 +25,7 @@ English
 - [complimentary](https://en.wiktionary.org/wiki/complimentary):::in the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge
 - [differentiate](https://en.wiktionary.org/wiki/differentiate):::to make different
 - [dissipative](https://en.wiktionary.org/wiki/dissipative):::that dissipates or causes dissipation
-- [esophagus](https://en.wiktionary.org/wiki/esophagus):::[American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md) of [oesophagus](../../../general/esophagus.md)
+- [esophagus](https://en.wiktionary.org/wiki/esophagus):::the tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md)
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation):::an [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times
 - [fiancé](https://en.wiktionary.org/wiki/fiancé):::a [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md)
 - [fiancée](https://en.wiktionary.org/wiki/fiancée):::a [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md)
@@ -36,7 +36,7 @@ English
 - [intuition](https://en.wiktionary.org/wiki/intuition):::acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md)
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal):::of or pertaining to the [larynx](../../../general/larynx.md)
 - [larynx](https://en.wiktionary.org/wiki/larynx):::an [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md)
-- [negligible](https://en.wiktionary.org/wiki/negligible):::can be not considered as it is too small or unimportant\
+- [negligible](https://en.wiktionary.org/wiki/negligible):::can be not considered as it is too small or unimportant
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization):::the partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md)
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal):::of or pertaining to the [pharynx](../../../general/pharynx.md)
 - [pharynx](https://en.wiktionary.org/wiki/pharynx):::part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md)
@@ -45,7 +45,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial):::a [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md)
 - [reservoir](https://en.wiktionary.org/wiki/reservoir):::a source or sink of something
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal):::having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md)
-- [theoretical](https://en.wiktionary.org/wiki/theoretical):::of or relating to theory rather than practice\
+- [theoretical](https://en.wiktionary.org/wiki/theoretical):::of or relating to theory rather than practice
 - [trachea](https://en.wiktionary.org/wiki/trachea):::a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md)
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility):::the extent to which something is transmissible
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry):::the branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides
