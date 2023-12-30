@@ -200,7 +200,7 @@ return await memorize_table(
 ```
 %%
 
-Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2023-12-30,28,230-->
+Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2024-03-02,63,230-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
 

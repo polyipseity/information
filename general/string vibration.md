@@ -20,7 +20,7 @@ tags:
 > {{$$\frac 1 c = v = \sqrt{\frac{T}\mu}$$}}
 >
 > where
-> - [string](string%20(structure).md) properties: {{$T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}} <!--SR:!2024-01-05,7,250!2023-12-30,13,290-->
+> - [string](string%20(structure).md) properties: {{$T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}} <!--SR:!2024-01-05,7,250!2024-02-21,53,310-->
 
 ### power
 

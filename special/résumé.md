@@ -25,7 +25,7 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 - formatting: {{consistent, minimal}}
 - length: {{1 page}}
 - line spacing: {{single}}
-- order: {{reverse chronological}} <!--SR:!2024-01-25,54,250!2023-12-30,43,250!2024-01-01,58,310!2024-01-05,62,310!2024-01-08,65,310!2024-06-02,160,310-->
+- order: {{reverse chronological}} <!--SR:!2024-01-25,54,250!2024-04-14,106,250!2024-01-01,58,310!2024-01-05,62,310!2024-01-08,65,310!2024-06-02,160,310-->
 
 ## content
 

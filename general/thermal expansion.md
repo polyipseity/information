@@ -17,7 +17,7 @@ tags:
 > {{$$\begin{aligned} \alpha_L & = \frac1L \frac{\mathrm{d}L}{\mathrm{d}T} \\ \frac{\mathrm{d}L}L & = \alpha_L \,\mathrm{d}T \end{aligned}$$}}
 >
 > - where
->     - {{$\alpha_L$ is the __coefficient of linear thermal expansion__, $L$ is the [length](length.md), and $\frac{\mathrm{d}L}{\mathrm{d}T}$ is the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2023-12-30,9,270!2024-01-03,13,290-->
+>     - {{$\alpha_L$ is the __coefficient of linear thermal expansion__, $L$ is the [length](length.md), and $\frac{\mathrm{d}L}{\mathrm{d}T}$ is the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-01-20,21,270!2024-01-03,13,290-->
 
 ### area expansion
 
@@ -26,7 +26,7 @@ tags:
 > {{$$\begin{aligned} \alpha_A & = \frac1A \frac{\mathrm{d}A}{\mathrm{d}T} \\ \frac{\mathrm{d}A}A & = \alpha_A \,\mathrm{d}T \end{aligned}$$}}
 >
 > - where
->     - {{$\alpha_A$ is the __coefficient of area thermal expansion__, $A$ is the [area](area.md), and $\frac{\mathrm{d}A}{\mathrm{d}T}$ is the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-01-04,14,290!2023-12-30,9,270-->
+>     - {{$\alpha_A$ is the __coefficient of area thermal expansion__, $A$ is the [area](area.md), and $\frac{\mathrm{d}A}{\mathrm{d}T}$ is the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-01-04,14,290!2024-02-02,34,290-->
 
 ### volume expansion
 
@@ -45,7 +45,7 @@ tags:
 >
 > - where
 >     - {{$\alpha$ is the coefficient of thermal expansion, with the subscripts $L$, $A$, and $V$ denoting respectively [length](length.md), [area](area.md), and [volume](volume.md)}}
-> - conditions: {{isotropic materials}} <!--SR:!2024-01-03,13,290!2024-01-04,14,290!2023-12-30,9,270-->
+> - conditions: {{isotropic materials}} <!--SR:!2024-01-03,13,290!2024-01-04,14,290!2024-02-03,35,290-->
 
 We can derive the above equations for a $n$-dimensional coefficient:
 
