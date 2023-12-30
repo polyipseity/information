@@ -24,7 +24,7 @@ tags:
 > {{$$\delta W = \vec\tau \cdot \,\mathrm{d}\vec\theta = \vec\tau \cdot \vec\omega \,\mathrm{d}t$$}}
 >
 > - where
->     - {{$\delta W$ is the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$ over an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$ or at an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2024-01-04,14,290!2023-12-30,9,270-->
+>     - {{$\delta W$ is the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$ over an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$ or at an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2024-01-04,14,290!2024-01-21,22,270-->
 
 ## references
 

@@ -141,10 +141,10 @@ return await memorize_map(
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-01-02,11,287!2024-01-10,17,307-->
 > - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$ <!--SR:!2024-01-04,13,287!2024-01-01,10,287-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-01-02,11,287!2024-01-04,11,267-->
-> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-01-07,14,307!2023-12-30,8,267-->
+> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-01-07,14,307!2024-01-27,28,287-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-01-11,18,307!2024-01-08,15,307-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-01-08,15,307!2024-01-08,15,307-->
-> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2023-12-30,8,267-->
+> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2024-01-18,19,267-->
 > - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2023-12-31,9,287!2024-01-03,12,287-->
 
 ## product-to-sum and sum-to-product
@@ -226,9 +226,9 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-01-03,12,287!2024-01-04,9,247-->
-> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-01-03,10,287!2023-12-30,8,267-->
+> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-01-03,10,287!2024-01-19,20,267-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-01-06,13,287!2023-12-31,9,267-->
-> - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-01-01,10,287!2023-12-30,8,267-->
+> - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-01-01,10,287!2024-01-17,18,267-->
 
 ## linear combination
 
@@ -240,7 +240,7 @@ return chain.from_iterable(await gather(
 >
 > - where
 >     - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2024-01-07,13,289!2023-12-30,6,269!2024-01-10,16,309-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-01-07,13,289!2024-01-24,25,289!2024-01-10,16,309-->
 
 > [!example] examples
 >

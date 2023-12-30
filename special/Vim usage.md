@@ -82,11 +82,11 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 - show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2024-02-21,182,268!2024-01-22,35,148-->
-- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2025-02-05,460,273!2023-12-30,237,313-->
+- execute (command) in shell::::!(command)\<Enter\> <!--SR:!2025-02-05,460,273!2026-01-09,741,313-->
 
 ## options
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2024-08-16,366,293!2024-02-19,278,327-->
-- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2023-12-30,186,268-->
+- set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2024-01-02,240,313!2025-05-10,497,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2024-04-02,237,273!2024-05-12,364,333-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-03-04,304,333!2025-08-25,695,313-->
 

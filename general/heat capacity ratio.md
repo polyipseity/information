@@ -25,7 +25,7 @@ tags:
 
 ## ideal gas relations
 
-[Mayer's relation](Mayer's%20relation.md) {{provides a convenient way to deduce $C_V$ from the more easily found and commonly tabulated $C_p$}}. <!--SR:!2023-12-30,11,270-->
+[Mayer's relation](Mayer's%20relation.md) {{provides a convenient way to deduce $C_V$ from the more easily found and commonly tabulated $C_p$}}. <!--SR:!2024-02-07,39,290-->
 
 ### relation with degrees of freedom
 
@@ -35,7 +35,7 @@ tags:
 >
 > - where
 >     - {{$\gamma$ is the heat capacity ratio and $f$ is the thermally accessible [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}}
-> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-12,17,250!2024-02-03,36,290!2023-12-30,11,270-->
+> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-12,17,250!2024-02-03,36,290!2024-02-08,40,290-->
 
 #### derivation
 

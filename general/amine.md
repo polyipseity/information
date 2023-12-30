@@ -13,7 +13,7 @@ tags:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md), amines have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2023-12-30,194,290-->
+Due to [hydrogen bonding](hydrogen%20bond.md), amines have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2025-07-14,562,290-->
 
 ### density
 

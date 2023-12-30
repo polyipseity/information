@@ -41,7 +41,7 @@ In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {{t
 > {{$$k = \frac {2\pi} \lambda$$}}
 >
 > - where
->     - {{$\lambda$ is [wavelength](wavelength.md)}} <!--SR:!2023-12-30,13,290!2023-12-31,14,290-->
+>     - {{$\lambda$ is [wavelength](wavelength.md)}} <!--SR:!2024-02-10,42,290!2023-12-31,14,290-->
 
 ## references
 
