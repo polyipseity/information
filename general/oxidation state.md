@@ -65,7 +65,7 @@ return (
 3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2024-01-13,265,250!2024-03-26,372,290-->
 4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2024-10-16,403,230!2025-09-19,714,270-->
 5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2024-07-31,408,270!2024-03-22,111,210-->
-6. group I metal: +1→:::←group II metal: +2 <!--SR:!2023-12-31,322,310!2026-01-08,892,330-->
+6. group I metal: +1→:::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2026-01-08,892,330-->
 7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2024-01-26,112,250!2024-05-03,395,290-->
 8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->
 9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2025-03-30,541,250!2024-05-23,146,250-->

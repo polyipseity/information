@@ -20,16 +20,16 @@ The __ideal gas law__, also called the __general gas equation__, is {{the [equat
 > - where
 >     - [state variables](state%20variable.md): {{$p$ is the absolute [pressure](pressure.md) of the gas, $V$ is the [volume](volume.md) of the gas, $T$ is the [absolute temperature](thermodynamic%20temperature.md) of the gas, $n$ is the [amount of substance](amount%20of%20substance.md) (i.e. number of moles) of the gas, and $N$ is the [number of particles](particle%20number.md) of the gas}}
 >     - {{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}}
->     - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}} <!--SR:!2024-01-02,16,290!2024-01-22,26,270!2024-01-09,13,210!2023-12-31,10,230-->
+>     - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}} <!--SR:!2024-01-02,16,290!2024-01-22,26,270!2024-01-09,13,210!2024-01-04,4,210-->
 
 ## energy associated with a gas
 
-For an ideal [monoatomic gas](monoatomic%20gas.md), {{its [potential energy](potential%20energy.md) is zero due to the lack of [intermolecular forces](intermolecular%20force.md). Therefore, all [internal energy](internal%20energy.md) possessed by the gas is [kinetic energy](kinetic%20energy.md): $E = K = \frac32 nRT$}}. For [ideal gases](ideal%20gas.md) with extra non-translational [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md), {{its [kinetic energy](kinetic%20energy.md) is still the same as above: $K = \frac32 nRT$, but its [internal energy](internal%20energy.md) is higher}}. <!--SR:!2024-01-04,6,250!2023-12-31,14,290-->
+For an ideal [monoatomic gas](monoatomic%20gas.md), {{its [potential energy](potential%20energy.md) is zero due to the lack of [intermolecular forces](intermolecular%20force.md). Therefore, all [internal energy](internal%20energy.md) possessed by the gas is [kinetic energy](kinetic%20energy.md): $E = K = \frac32 nRT$}}. For [ideal gases](ideal%20gas.md) with extra non-translational [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md), {{its [kinetic energy](kinetic%20energy.md) is still the same as above: $K = \frac32 nRT$, but its [internal energy](internal%20energy.md) is higher}}. <!--SR:!2024-01-04,6,250!2024-02-24,55,310-->
 
 > __energy of an ideal [monoatomic gas](monoatomic%20gas.md)__
 >
 > - one [mole](mole%20(unit).md): {{$E = K = \frac32 R T$}}
-> - one [atom](atom.md): {{$E = K = \frac32 k_\text{B} T$}} <!--SR:!2023-12-31,14,290!2024-01-03,17,290-->
+> - one [atom](atom.md): {{$E = K = \frac32 k_\text{B} T$}} <!--SR:!2024-02-23,54,310!2024-01-03,17,290-->
 
 ## deviations from behavior of real gases
 

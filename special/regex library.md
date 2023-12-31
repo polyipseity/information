@@ -17,4 +17,4 @@ tags:
 ```
 
 - flashcard: {{`\r\n|[\n\v\f\r\x85\u2028\u2029]`}}
-- reference: https://www.unicode.org/reports/tr18/#RL1.6 <!--SR:!2023-12-31,7,210-->
+- reference: https://www.unicode.org/reports/tr18/#RL1.6 <!--SR:!2024-01-16,16,210-->

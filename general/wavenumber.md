@@ -34,14 +34,14 @@ In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wa
 > - where
 >     - {{$\lambda$ is [wavelength](wavelength.md), typically in [centimeters](centimetre.md) (cm)}} <!--SR:!2024-01-03,17,290!2024-01-01,15,290-->
 
-In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {{the number of [radians](radian.md) per unit distance. It is sometimes called __angular wavenumber__ (symbol $k$)}}: <!--SR:!2023-12-31,14,290-->
+In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {{the number of [radians](radian.md) per unit distance. It is sometimes called __angular wavenumber__ (symbol $k$)}}: <!--SR:!2024-02-09,40,290-->
 
 > __(angular) wavenumber__
 >
 > {{$$k = \frac {2\pi} \lambda$$}}
 >
 > - where
->     - {{$\lambda$ is [wavelength](wavelength.md)}} <!--SR:!2024-02-10,42,290!2023-12-31,14,290-->
+>     - {{$\lambda$ is [wavelength](wavelength.md)}} <!--SR:!2024-02-10,42,290!2024-02-23,54,310-->
 
 ## references
 

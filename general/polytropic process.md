@@ -111,10 +111,10 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="577a"--><!-- The following content is generated at 2023-12-15T09:34:37.162579+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←_n_ < 0 <!--SR:!2023-12-31,12,270!2024-01-06,17,290-->
+1. _(begin)_→:::←_n_ < 0 <!--SR:!2024-02-17,48,290!2024-01-06,17,290-->
 2. _n_ < 0→:::←_n_ = 0 <!--SR:!2024-01-03,14,290!2024-01-31,34,290-->
 3. _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-01-05,16,290!2024-01-06,17,290-->
-4. 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-01-03,14,290!2023-12-31,12,270-->
+4. 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-01-03,14,290!2024-02-15,46,290-->
 5. _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-01-04,15,290!2024-01-02,13,290-->
 6. 1 < _n_ < _γ_→:::←_n_ = _γ_ <!--SR:!2024-01-03,14,290!2024-01-02,13,290-->
 7. _n_ = _γ_→:::←_γ_ < _n_ < +∞ <!--SR:!2024-01-06,17,290!2024-01-04,15,290-->
@@ -144,7 +144,7 @@ return _chain.from_iterable(await _gather(
 4. $pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md)::_n_ = 1 <!--SR:!2024-01-05,16,290-->
 5. under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases::1 < _n_ < _γ_ <!--SR:!2024-01-06,17,290-->
 6. under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md)::_n_ = _γ_ <!--SR:!2024-01-06,17,290-->
-7. under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction::_γ_ < _n_ < +∞ <!--SR:!2023-12-31,12,270-->
+7. under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction::_γ_ < _n_ < +∞ <!--SR:!2024-02-03,34,270-->
 8. $V = C$; equivalent to [isochoric process](isochoric%20process.md)::_n_ = +∞ <!--SR:!2024-01-03,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
