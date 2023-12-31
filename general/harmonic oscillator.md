@@ -66,9 +66,9 @@ v(0) & = -\lambda A e^{-\lambda \cdot 0} \cos(\omega \cdot 0 + \varphi) - \omega
 & = -\frac{\omega_n \zeta}{\omega_n \sqrt{1 - \zeta^2} } \\
 & = -\frac{\zeta}{\sqrt{1 - \zeta^2} } \\
 \sin \varphi & = -\zeta & (\text{by constructing a triangle}) \\
-\varphi & = -\arcsin \zeta \\
+\varphi & = -\arcsin \zeta & (\text{consider }\operatorname{sgn} (\tan \varphi) = -\operatorname{sgn} \zeta) \\
 \\
-x(t) & = x_F \left(1 - \frac{e^{-\lambda t} \cos(\omega t + \varphi)}{\cos \varphi} \right)
+x(t) & = x_F \left(1 - e^{-\lambda t} \frac{\cos(\omega t + \varphi)}{\cos \varphi} \right)
 \end{aligned}$$
 
 The solution is as below, which matches with our physical intuition:
@@ -77,12 +77,16 @@ The solution is as below, which matches with our physical intuition:
 >
 > {{$$x(t) = x_F \left(1 - e^{-\lambda t}\frac{\cos(\omega t + \varphi)}{\cos \varphi} \right)$$}}
 >
-> - conditions: {{$\zeta < 1, x(0) = x'(0) = 0$}}
+> - conditions: {{$\lvert\zeta\rvert < 1, x(0) = x'(0) = 0$}}
 > - where
 >     - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >     - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >     - [phase space](phase%20space.md): {{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$ is steady-state equilibrium position with the driving [force](force.md) $F(t)$ and $\varphi = -\arcsin \zeta$ is the initial [phase](phase%20(waves).md)}}
 > - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}}
+
+> [!tip] tip
+>
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially: {{One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$.}}
 
 ### sinusoidal driving force
 
@@ -103,8 +107,8 @@ Consider a system with {{a sinusoidal driving [force](force.md) with max force $
 A & = \frac{F_\mathrm{max} }{m \sqrt{(2 \zeta \omega_n \omega_d)^2 + \left(\omega_n^2 - \omega_d^2\right)^2} } \\
 & = \frac{F_\mathrm{max} }{m \omega_d \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left(\omega_n^2 - \omega_d^2 \right)} } \\
 \frac{-\frac{F_\mathrm{max} }m \sin \varphi}{\frac{F_\mathrm{max} }m \cos \varphi} & = \frac{2 \zeta \omega_n \omega_d A}{\left(\omega_n^2 - \omega_d^2\right) A} \\
-\tan \varphi & = \frac{2 \zeta \omega_n \omega_d}{\omega_n^2 - \omega_d^2} \\
-\varphi & = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_n^2 - \omega_d^2}\right) \\
+\tan \varphi & = \frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2} \\
+\varphi & = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi & n \in \mathbb{Z} \\
 x(t) & = A e^{i (\omega_d t + \varphi)} \\
 & = A (\cos(\omega_d t + \varphi) + i \sin(\omega_d t + \varphi)) \\
 & = A \cos(\omega_d t + \varphi) & (\text{drop the imaginary part}) \end{aligned}
@@ -120,9 +124,9 @@ The steady-state solution is as below (the transient solution can be found {{fro
 >     - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >     - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >     - [force](force.md) properties: {{$F(t) = F_\mathrm{max} \cos(\omega_d t)$ is the driving [force](force.md) with max value $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$, and $Z_m = \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left( \omega_n^2 - \omega_d^2 \right)^2}$ is the [mechanical impedance](mechanical%20impedance.md) or [linear response function](linear%20response%20function.md)}}
->     - [phase space](phase%20space.md): {{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$ is steady-state [amplitude](amplitude.md) and $\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_n^2 - \omega_d^2}\right)$ is the initial [phase](phase%20(waves).md)}}
+>     - [phase space](phase%20space.md): {{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$ is steady-state [amplitude](amplitude.md) and $\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi$ is the initial [phase](phase%20(waves).md) for any [integer](integer.md) $n$, which is usually chosen such that $\varphi \in (-\pi, 0]$ to always represent a phase lag}}
 > - [resonance](resonance.md): {{Resonance happens when the [amplitude](amplitude.md) is maximum. The resonant [angular frequency](angular%20frequency.md) is $\omega_r = \omega_n \sqrt{1 - 2 \zeta^2}$, thus resonance only occurs for significantly underdamped systems where $\zeta < 1 / \sqrt 2 \approx 0.707\,106\,781$.}}
-> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. It represents {{the system response to events occurring before applying the driving force}}. Usually, {{it can be ignored as it decays quickly}}.
+> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}.
 
 > [!info]- details
 >
