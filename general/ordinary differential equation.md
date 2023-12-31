@@ -28,7 +28,7 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2023-12-31,67,310!2024-01-07,74,324-->
+> - $F$, a [formula](formula.md) <!--SR:!2024-07-25,207,310!2024-01-07,74,324-->
 
 An [implicit](implicit%20function.md) ordinary differential equation of order _n_ has the form:
 

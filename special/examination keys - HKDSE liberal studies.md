@@ -70,7 +70,7 @@ return await memorize_table(
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 7. popularity and testimonials→:::←post hoc <!--SR:!2024-01-01,38,250!2024-07-07,302,295-->
 8. post hoc→:::←self-contradiction <!--SR:!2024-01-02,8,155!2024-04-04,260,315-->
-9. self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2023-12-31,58,250-->
+9. self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2024-02-07,75,275-->
 11. weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
 
@@ -320,7 +320,7 @@ return await memorize_seq(
 2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
 3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2024-09-28,308,255!2024-08-12,304,275-->
 4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2024-08-09,301,270!2024-07-23,304,275-->
-5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2023-12-31,182,295!2024-01-23,45,210-->
+5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-03-30,90,275!2024-01-23,45,210-->
 6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-06-16,324,330!2024-03-31,256,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -354,7 +354,7 @@ return await memorize_seq(
 
 1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2024-02-09,132,215-->
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2023-12-31,13,130-->
+3. Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-01-05,5,130-->
 4. Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
