@@ -16,7 +16,7 @@ In [mathematics](mathematics.md), the __characteristic equation__ or __auxiliary
 
 > [!tip] tip
 >
-> - reason the [coefficients](coefficient.md) needs to be [constants](constant%20(mathematics).md): {{The method assumes the solution is in the form of $y(x) = e^{rx}$, and when [differentiating](derivative.md) $y(x)$, the $r$ is assumed to be a constant. Any [functions](function%20(mathematics).md) of $x$ in the [coefficients](coefficient.md) would make the found $r$ dependent on $x$, making $r$ no longer a [constant](constant%20(mathematics).md).}} <!--SR:!2024-01-01,4,294-->
+> - reason the [coefficients](coefficient.md) needs to be [constants](constant%20(mathematics).md): {{The method assumes the solution is in the form of $y(x) = e^{rx}$, and when [differentiating](derivative.md) $y(x)$, the $r$ is assumed to be a constant. Any [functions](function%20(mathematics).md) of $x$ in the [coefficients](coefficient.md) would make the found $r$ dependent on $x$, making $r$ no longer a [constant](constant%20(mathematics).md).}} <!--SR:!2024-01-19,17,314-->
 
 ## formation of the general solution
 

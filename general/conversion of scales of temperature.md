@@ -79,7 +79,7 @@ return await conversion_table(
 
 1. [Kelvin](Kelvin.md)::from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C <!--SR:!2024-01-03,13,290-->
 2. [Fahrenheit](Fahrenheit.md)::from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C <!--SR:!2024-01-26,26,270-->
-3. [Rankine](Rankine%20scale.md)::from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C <!--SR:!2024-01-02,7,190-->
+3. [Rankine](Rankine%20scale.md)::from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C <!--SR:!2024-01-14,12,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -163,9 +163,9 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2023-12-17T17:08:50.683509+08:00. Any edits will be overridden! -->
 
-1. [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F <!--SR:!2024-01-02,13,270-->
+1. [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F <!--SR:!2024-02-20,49,290-->
 2. [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2024-01-12,13,230-->
-3. [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2024-01-01,10,270-->
+3. [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2024-02-09,38,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -173,7 +173,7 @@ return await conversion_table(
 
 1. from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F::[Celsius](Celsius.md) <!--SR:!2024-01-07,17,290-->
 2. from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F::[Kelvin](Kelvin.md) <!--SR:!2024-01-05,15,290-->
-3. from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F::[Rankine](Rankine%20scale.md) <!--SR:!2024-01-02,12,270-->
+3. from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F::[Rankine](Rankine%20scale.md) <!--SR:!2024-02-15,44,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

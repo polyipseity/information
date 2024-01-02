@@ -68,8 +68,8 @@ return await memorize_table(
 4. appeal to tradition→:::←guilt by association <!--SR:!2024-01-07,14,170!2024-04-02,226,275-->
 5. guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2024-01-07,137,290-->
 6. hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
-7. popularity and testimonials→:::←post hoc <!--SR:!2024-01-01,38,250!2024-07-07,302,295-->
-8. post hoc→:::←self-contradiction <!--SR:!2024-01-02,8,155!2024-04-04,260,315-->
+7. popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
+8. post hoc→:::←self-contradiction <!--SR:!2024-01-14,12,155!2024-04-04,260,315-->
 9. self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 10. virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2024-02-07,75,275-->
 11. weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
@@ -117,7 +117,7 @@ return await memorize_table(
 
 1. _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 2. comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2024-01-11,38,155-->
-3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-01-01,11,130-->
+3. factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-01-16,14,130-->
 4. impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 5. phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 6. solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -164,7 +164,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2024-01-05,8,130!2024-01-01,183,295!2024-02-02,125,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2024-01-05,8,130!2025-06-24,539,295!2024-02-02,125,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -224,7 +224,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 3. cause/reason→:::←effectiveness <!--SR:!2024-01-10,20,130!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
-6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-01-01,30,130-->
+6. feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-01-18,16,130-->
 7. pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
 8. trend→:::←with reference to <!--SR:!2024-02-29,166,230!2024-03-24,113,190-->
 9. with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-01-26,191,295-->

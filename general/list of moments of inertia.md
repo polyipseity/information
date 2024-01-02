@@ -86,7 +86,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 &=\frac14mR^2+\frac\pi3\rho{}R^2(L-Z+Z)\left((L-Z)^2-Z(L-Z)+Z^2\right)\\
 &=\frac14mR^2+\frac13m\left(L^2-2LZ+Z^2-LZ+Z^2+Z^2\right)\\
 &=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2
-\end{aligned}$ <!--SR:!2024-01-01,63,310!2024-03-04,67,250!2024-01-06,68,310!2024-03-11,101,290!2024-04-13,127,290-->
+\end{aligned}$ <!--SR:!2024-09-27,269,330!2024-03-04,67,250!2024-01-06,68,310!2024-03-11,101,290!2024-04-13,127,290-->
 
 ### spherical shell, axis through center
 

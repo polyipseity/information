@@ -288,7 +288,7 @@ See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)
 
 ### prefix for carbon count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}. <!--SR:!2024-01-01,218,343-->
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}. <!--SR:!2026-01-18,747,343-->
 
 ## functional groups
 

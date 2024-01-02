@@ -157,7 +157,7 @@ return _chain.from_iterable(await _gather(
 10. [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2024-01-15,204,310!2024-05-04,142,190-->
 11. [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-07-24,351,290!2024-01-26,208,310-->
 12. [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2025-09-24,635,310!2024-04-06,286,330-->
-13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2024-10-04,364,290!2024-01-01,53,170-->
+13. dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2024-10-04,364,290!2024-01-29,27,150-->
 14. [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2024-11-23,330,230!2024-04-04,114,250-->
 15. [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2024-01-19,32,230!2024-06-27,292,270-->
 16. [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-02-06,63,210!2025-07-15,581,310-->
