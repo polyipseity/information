@@ -34,6 +34,8 @@ return await memorize_seq(
     R"__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases",
     R"__[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)",
   ),
+  pretext="starts outside the cycle in the [PV diagram](pressure–volume%20diagram.md)",
+  posttext="ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md)",
 )
 ```
 %%
@@ -49,15 +51,15 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f023"--><!-- The following content is generated at 2023-12-19T20:25:01.105967+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f023"--><!-- The following content is generated at 2023-12-31T18:27:53.492445+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←__[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md) <!--SR:!2024-01-07,13,292!2024-01-10,16,292-->
+1. _(starts outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_→:::←__[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md) <!--SR:!2024-01-07,13,292!2024-01-10,16,292-->
 2. __[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←__[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received <!--SR:!2024-01-08,14,292!2024-01-17,17,252-->
 3. __[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received→:::←__[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases <!--SR:!2024-01-03,10,252!2024-01-08,14,292-->
 4. __[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases→:::←__[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done <!--SR:!2024-01-09,15,292!2024-01-09,15,292-->
 5. __[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done→:::←__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases <!--SR:!2024-01-10,16,292!2024-01-11,17,292-->
 6. __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→:::←__[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md) <!--SR:!2024-01-11,17,292!2024-01-03,9,272-->
-7. __[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←_(end)_ <!--SR:!2024-01-09,15,292!2024-01-10,16,292-->
+7. __[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←_(ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_ <!--SR:!2024-01-09,15,292!2024-01-10,16,292-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
