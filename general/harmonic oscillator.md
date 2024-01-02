@@ -27,7 +27,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >     - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->     - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ vis the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}}
+>     - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}}
 
 For better physical meaning, it can be rewritten as:
 
