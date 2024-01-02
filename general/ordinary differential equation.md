@@ -76,9 +76,9 @@ Ordinary differential equations are furthered classified:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:47:40.062051+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2024-05-30,173,310!2024-09-20,268,330-->
-2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2024-05-25,170,310!2024-01-01,68,310-->
+2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2024-05-25,170,310!2024-10-21,293,330-->
 3. [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2024-09-21,269,330!2024-05-13,160,310-->
-4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2024-07-17,225,330!2024-01-01,68,310-->
+4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2024-07-17,225,330!2024-07-30,210,310-->
 5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2024-09-16,265,330!2024-09-04,255,330-->
 6. [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2024-05-26,170,310!2024-05-17,163,310-->
 

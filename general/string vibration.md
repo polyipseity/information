@@ -31,7 +31,7 @@ tags:
 > where
 > - [function](function%20(mathematics).md) properties: {{$P$ is [power](power%20(physics).md) at [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
 > - [string](string%20(structure).md) properties: {{$T$ is [tension](tension%20(mechanics).md) and $\mu$ is [linear mass density](linear%20density.md), i.e. [mass](mass.md) per unit [length](length.md)}}
-> - [wave](wave.md) properties: {{$A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset}} <!--SR:!2024-01-06,15,250!2024-01-01,15,290!2024-02-02,36,290!2024-02-09,43,290-->
+> - [wave](wave.md) properties: {{$A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset}} <!--SR:!2024-01-06,15,250!2024-02-29,58,310!2024-02-02,36,290!2024-02-09,43,290-->
 
 #### derivation
 

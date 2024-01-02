@@ -9,7 +9,7 @@ tags:
 
 # first law of thermodynamics
 
-The __first law of thermodynamics__ is {{a formulation of [conservation of energy](conservation%20of%20energy.md) for [thermodynamic systems](thermodynamic%20system.md)}}. <!--SR:!2024-01-02,15,290-->
+The __first law of thermodynamics__ is {{a formulation of [conservation of energy](conservation%20of%20energy.md) for [thermodynamic systems](thermodynamic%20system.md)}}. <!--SR:!2024-03-01,59,310-->
 
 > __first law of thermodynamics__
 >

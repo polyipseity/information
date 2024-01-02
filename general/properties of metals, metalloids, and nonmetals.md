@@ -50,7 +50,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{<ul><li>good to high</li></ul>}} | {{<ul><li>intermediate to good</li></ul>}} | {{<ul><li>poor to good</li></ul>}} |
 > | {{form}} | {{<ul><li>almost all [solid](solid.md)</li><li>[liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))</li></ul>}} | {{<ul><li>all [solid](solid.md)</li></ul>}} | {{<ul><li>mostly [gas](gas.md)</li><li>[solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md)</li><li>[liquid](liquid.md): [Br](bromine.md)</li></ul>}} |
 > | {{[melting point](melting%20point.md)}} | {{<ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>}} | {{<ul><li>mostly high</li></ul>}} | {{<ul><li>mostly low</li></ul>}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} | <!--SR:!2024-04-25,298,330!2024-01-22,181,250!2024-12-26,384,250!2024-06-03,304,290!2024-03-20,225,270!2024-04-03,238,290!2025-02-17,414,250!2024-06-23,282,250!2024-12-29,471,310!2025-01-01,415,270!2024-03-21,82,230!2024-01-02,191,270!2024-01-03,210,310!2024-08-01,300,250!2024-03-28,118,150!2024-01-01,59,150!2024-05-21,319,330!2024-04-04,100,190!2025-12-13,750,330!2024-12-09,346,230!2025-03-02,519,310!2024-12-04,369,250!2024-01-11,41,190!2024-11-25,388,270!2024-05-22,320,330!2024-04-19,161,210!2024-02-13,88,190!2024-05-21,249,250-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} | <!--SR:!2024-04-25,298,330!2024-01-22,181,250!2024-12-26,384,250!2024-06-03,304,290!2024-03-20,225,270!2024-04-03,238,290!2025-02-17,414,250!2024-06-23,282,250!2024-12-29,471,310!2025-01-01,415,270!2024-03-21,82,230!2025-05-31,515,270!2024-01-03,210,310!2024-08-01,300,250!2024-03-28,118,150!2024-03-30,88,150!2024-05-21,319,330!2024-04-04,100,190!2025-12-13,750,330!2024-12-09,346,230!2025-03-02,519,310!2024-12-04,369,250!2024-01-11,41,190!2024-11-25,388,270!2024-05-22,320,330!2024-04-19,161,210!2024-02-13,88,190!2024-05-21,249,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -62,7 +62,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-02-05,128,210-->
 5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2024-06-04,279,270!2024-02-06,174,230-->
 6. form→:::←[melting point](melting%20point.md) <!--SR:!2024-01-16,60,190!2024-02-24,74,210-->
-7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2024-01-01,4,130-->
+7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2024-01-07,5,130-->
 8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2024-02-19,87,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
