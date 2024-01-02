@@ -13,8 +13,8 @@ tags:
 English
 
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian):::the [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md) <!--SR:!2024-01-19,17,304!2024-01-19,17,304-->
-- [accumulate](https://en.wiktionary.org/wiki/accumulate):::to gradually increase in quantity
 - [accommodate](https://en.wiktionary.org/wiki/accommodate):::to adapt <!--SR:!2024-01-18,16,304!2024-01-14,12,284-->
+- [accumulate](https://en.wiktionary.org/wiki/accumulate):::to gradually increase in quantity
 - [altitude](https://en.wiktionary.org/wiki/altitude):::height of a location from a reference point, usually [sea level](../../../general/sea%20level.md) <!--SR:!2024-01-18,16,304!2024-01-19,17,304-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium):::a [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling <!--SR:!2024-01-07,14,290!2024-01-10,17,290-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum):::a [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling <!--SR:!2024-01-03,10,270!2024-01-05,12,270-->
