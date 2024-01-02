@@ -13,6 +13,7 @@ tags:
 English
 
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian):::the [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md)
+- [accumulate](https://en.wiktionary.org/wiki/accumulate):::to gradually increase in quantity
 - [accommodate](https://en.wiktionary.org/wiki/accommodate):::to adapt
 - [altitude](https://en.wiktionary.org/wiki/altitude):::height of a location from a reference point, usually [sea level](../../../general/sea%20level.md)
 - [aluminium](https://en.wiktionary.org/wiki/aluminium):::a [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling
@@ -38,12 +39,16 @@ English
 - [larynx](https://en.wiktionary.org/wiki/larynx):::an [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md)
 - [negligible](https://en.wiktionary.org/wiki/negligible):::can be not considered as it is too small or unimportant
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization):::the partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md)
+- [perspective](https://en.wiktionary.org/wiki/perspective):::the technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md)
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal):::of or pertaining to the [pharynx](../../../general/pharynx.md)
 - [pharynx](https://en.wiktionary.org/wiki/pharynx):::part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md)
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism):::copying of others' work and presenting it as one's own
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize):::to copy others' work and present it as one's own
 - [polynomial](https://en.wiktionary.org/wiki/polynomial):::a [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md)
+- [preamble](https://en.wiktionary.org/wiki/preamble):::an introduction to a [document](../../../general/document.md)
+- [recruit](https://en.wiktionary.org/wiki/recruit):::enroll new [employees](../../../general/employment.md#employee)
 - [reservoir](https://en.wiktionary.org/wiki/reservoir):::a source or sink of something
+- [rudimentary](https://en.wiktionary.org/wiki/rudimentary):::basic, minimal
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal):::having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md)
 - [theoretical](https://en.wiktionary.org/wiki/theoretical):::of or relating to theory rather than practice
 - [trachea](https://en.wiktionary.org/wiki/trachea):::a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md)
@@ -52,6 +57,7 @@ English
 - [vacuous](https://en.wiktionary.org/wiki/vacuous):::empty, void
 - [vacuum](https://en.wiktionary.org/wiki/vacuum):::a region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md)
 - [viscous](https://en.wiktionary.org/wiki/viscous):::having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md)
+- [volunteer](https://en.wiktionary.org/wiki/volunteer):::to do or offer to do something voluntarily
 
 ## references
 
