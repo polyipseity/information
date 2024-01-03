@@ -94,7 +94,7 @@ return _chain.from_iterable(await _gather(
 5. [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-01-18,37,130!2024-01-26,30,214-->
 6. [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2025-01-24,437,274!2024-04-03,194,194-->
 7. [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-02-24,77,234!2024-01-15,27,174-->
-8. [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-01-03,180,274-->
+8. [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-04-01,89,254-->
 9. [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2024-01-18,221,314!2024-01-05,5,174-->
 10. [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2024-10-28,432,314!2025-05-06,539,314-->
 11. [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2024-03-01,256,330!2024-04-15,295,334-->
@@ -112,7 +112,7 @@ return _chain.from_iterable(await _gather(
 5. [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-01-04,5,130-->
 6. [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-01-04,7,150-->
 7. [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-01-23,130,190-->
-8. [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-01-03,3,130-->
+8. [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-01-07,4,130-->
 9. [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-03-13,110,214-->
 10. [bitumen](bitumen.md)::500 °C or above <!--SR:!2024-04-21,110,294-->
 
@@ -143,7 +143,7 @@ return _chain.from_iterable(await _gather(
 4. [jet fuel](jet%20fuel.md)::fuel for [aeroplanes](airplane.md) <!--SR:!2024-07-16,340,294-->
 5. [kerosene](kerosene.md)::fuel for domestic use <!--SR:!2024-01-30,217,294-->
 6. [fuel oil](fuel%20oil.md)::fuel for [power plants](power%20station.md) and [ships](ship.md) <!--SR:!2024-03-15,224,274-->
-7. [diesel fuel](diesel%20fuel.md)::fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2024-01-03,192,274-->
+7. [diesel fuel](diesel%20fuel.md)::fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2024-04-07,95,254-->
 8. [paraffin wax](paraffin%20wax.md)::[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2025-02-25,522,314-->
 9. [bitumen](bitumen.md)::[road construction](road%20construction.md) <!--SR:!2024-06-10,339,334-->
 

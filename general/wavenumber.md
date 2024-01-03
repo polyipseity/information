@@ -25,14 +25,14 @@ tags:
 
 ## definition
 
-In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wavenumber is defined as {{the number of [wavelengths](wavelength.md) per unit distance, typically in inverse [centimeters](centimetre.md) (cm<sup>-1</sup>). It is sometimes called __linear wavenumber__ (symbol $\tilde \nu$) or __spectroscopic wavenumber__}}: <!--SR:!2024-01-03,17,290-->
+In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wavenumber is defined as {{the number of [wavelengths](wavelength.md) per unit distance, typically in inverse [centimeters](centimetre.md) (cm<sup>-1</sup>). It is sometimes called __linear wavenumber__ (symbol $\tilde \nu$) or __spectroscopic wavenumber__}}: <!--SR:!2024-03-14,71,310-->
 
 > __(linear) wavenumber__
 >
 > {{$$\tilde \nu = \frac 1 \lambda$$}}
 >
 > - where
->     - {{$\lambda$ is [wavelength](wavelength.md), typically in [centimeters](centimetre.md) (cm)}} <!--SR:!2024-01-03,17,290!2024-03-01,59,310-->
+>     - {{$\lambda$ is [wavelength](wavelength.md), typically in [centimeters](centimetre.md) (cm)}} <!--SR:!2024-03-13,70,310!2024-03-01,59,310-->
 
 In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {{the number of [radians](radian.md) per unit distance. It is sometimes called __angular wavenumber__ (symbol $k$)}}: <!--SR:!2024-02-09,40,290-->
 

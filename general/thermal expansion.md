@@ -17,7 +17,7 @@ tags:
 > {{$$\begin{aligned} \alpha_L & = \frac1L \frac{\mathrm{d}L}{\mathrm{d}T} \\ \frac{\mathrm{d}L}L & = \alpha_L \,\mathrm{d}T \end{aligned}$$}}
 >
 > - where
->     - {{$\alpha_L$ is the __coefficient of linear thermal expansion__, $L$ is the [length](length.md), and $\frac{\mathrm{d}L}{\mathrm{d}T}$ is the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-01-20,21,270!2024-01-03,13,290-->
+>     - {{$\alpha_L$ is the __coefficient of linear thermal expansion__, $L$ is the [length](length.md), and $\frac{\mathrm{d}L}{\mathrm{d}T}$ is the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-01-20,21,270!2024-02-26,54,310-->
 
 ### area expansion
 
@@ -35,7 +35,7 @@ tags:
 > {{$$\begin{aligned} \alpha_V & = \frac1V \frac{\mathrm{d}V}{\mathrm{d}T} \\ \frac{\mathrm{d}V}V & = \alpha_V \,\mathrm{d}T \end{aligned}$$}}
 >
 > - where
->     - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-01-03,13,290!2024-01-04,14,290-->
+>     - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-02-28,56,310!2024-01-04,14,290-->
 
 #### isotropic materials
 
@@ -45,7 +45,7 @@ tags:
 >
 > - where
 >     - {{$\alpha$ is the coefficient of thermal expansion, with the subscripts $L$, $A$, and $V$ denoting respectively [length](length.md), [area](area.md), and [volume](volume.md)}}
-> - conditions: {{isotropic materials}} <!--SR:!2024-01-03,13,290!2024-01-04,14,290!2024-02-03,35,290-->
+> - conditions: {{isotropic materials}} <!--SR:!2024-02-27,55,310!2024-01-04,14,290!2024-02-03,35,290-->
 
 We can derive the above equations for a $n$-dimensional coefficient:
 
