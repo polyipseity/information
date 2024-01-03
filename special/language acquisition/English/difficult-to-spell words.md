@@ -20,6 +20,7 @@ English
 - [aluminum](https://en.wiktionary.org/wiki/aluminum):::a [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic):::the branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md)
 - [attitude](https://en.wiktionary.org/wiki/attitude):::[disposition](../../../general/disposition.md) or state of mind
+- [broccoli](https://en.wiktionary.org/wiki/broccoli):::an [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md)
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy):::the upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body
 - [collinear](https://en.wiktionary.org/wiki/collinear):::lying on the same [line](../../../general/line%20(geometry).md)
 - [complementary](https://en.wiktionary.org/wiki/complementary):::acting as a complement to make something else whole
