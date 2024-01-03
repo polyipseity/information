@@ -197,7 +197,7 @@ C_1x&=\pm\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\sin\left(\sqrt{\frac{k}m}t+C_2\right)\\
 &=C_1\left(C_{2\in[-1,1]}\sin\sqrt{\frac{k}m}t+C_{3\in[-1,1]}\cos\sqrt{\frac{k}m}t\right)\\
 &=C_1\sin\sqrt{\frac{k}m}t+C_2\cos\sqrt{\frac{k}m}t
-\end{aligned}$ <!--SR:!2024-01-27,85,320!2024-01-03,70,320!2024-01-03,70,320-->
+\end{aligned}$ <!--SR:!2024-01-27,85,320!2024-08-12,222,320!2024-08-13,223,320-->
 
 ## references
 

@@ -50,7 +50,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-29T17:56:40.835581+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities)) <!--SR:!2023-01-06,4,300!2023-01-06,4,302-->
+1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities)) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
 2. [Pythagorean identities](#Pythagorean%20identities))→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
 3. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-01-11,17,309-->
 4. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
@@ -89,19 +89,19 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba01"--><!-- The following content is generated at 2023-12-29T17:59:38.720645+08:00. Any edits will be overridden! -->
 
-1. normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2023-01-06,4,300-->
-2. divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2023-01-06,4,300-->
-3. divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2023-01-05,3,280-->
-4. divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2023-01-06,4,300-->
+1. normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-01-22,19,320-->
+2. divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-01-20,17,320-->
+3. divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-01-15,12,300-->
+4. divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-01-21,18,320-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 > [!example] examples
 >
-> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$ <!--SR:!2023-01-06,4,300!2023-01-06,4,300-->
-> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2023-01-06,4,300!2023-01-06,4,300-->
-> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2023-01-06,4,300!2023-01-06,4,300-->
-> - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2023-01-06,4,299!2023-01-06,4,300-->
+> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$ <!--SR:!2024-01-21,18,320!2024-01-19,16,320-->
+> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2024-01-19,16,320!2024-01-21,18,320-->
+> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2024-01-20,17,320!2024-01-05,2,280-->
+> - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2024-01-18,15,319!2024-01-18,15,320-->
 
 ## angle sum and difference
 
@@ -131,7 +131,7 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-11-21T01:16:38.242448+08:00. Any edits will be overridden! -->
 
-1. sine::$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$ <!--SR:!2024-01-03,152,250-->
+1. sine::$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$ <!--SR:!2024-03-18,75,230-->
 2. cosine::$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$ <!--SR:!2025-03-23,527,310-->
 3. tangent::$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$ <!--SR:!2024-02-10,71,230-->
 
@@ -192,7 +192,7 @@ return await memorize_map(
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-01-11,18,307!2024-01-08,15,307-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-01-08,15,307!2024-01-08,15,307-->
 > - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2024-01-18,19,267-->
-> - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2024-01-24,24,287!2024-01-03,12,287-->
+> - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2024-01-24,24,287!2024-02-05,33,287-->
 
 ## product-to-sum and sum-to-product
 
@@ -275,8 +275,8 @@ return chain.from_iterable(await gather(
 
 > [!example] examples
 >
-> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-01-03,12,287!2024-01-04,9,247-->
-> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-01-03,10,287!2024-01-19,20,267-->
+> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-02-04,32,287!2024-01-04,9,247-->
+> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-02-11,39,307!2024-01-19,20,267-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-01-06,13,287!2024-01-24,24,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-02-08,37,307!2024-01-17,18,267-->
 

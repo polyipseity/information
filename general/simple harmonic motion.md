@@ -68,7 +68,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-14,103,310!2024-01-03,20,250!2024-04-05,112,270!2024-01-27,57,320!2024-02-08,66,320!2024-02-12,70,320!2024-01-31,60,320!2024-04-10,104,300!2024-01-29,55,300-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-14,103,310!2024-03-12,69,270!2024-04-05,112,270!2024-01-27,57,320!2024-02-08,66,320!2024-02-12,70,320!2024-01-31,60,320!2024-04-10,104,300!2024-01-29,55,300-->
 
 > [!tip] tip
 >
@@ -140,7 +140,7 @@ E & = K + U \\
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
 >
 > - where
->     - [pendulum](pendulum.md) properties: {{$l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2024-01-10,15,276!2024-01-03,13,296-->
+>     - [pendulum](pendulum.md) properties: {{$l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2024-01-10,15,276!2024-02-22,50,316-->
 
 ## references
 

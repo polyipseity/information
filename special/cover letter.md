@@ -97,6 +97,6 @@ return await memorize_seq(
 3. why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-02-07,52,230!2024-01-20,27,270-->
 4. why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-03-07,79,250!2024-02-25,83,270-->
 5. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-01-05,14,230-->
-6. from or signature→:::←_(end)_ <!--SR:!2024-01-03,61,310!2024-03-18,101,290-->
+6. from or signature→:::←_(end)_ <!--SR:!2024-09-20,261,330!2024-03-18,101,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

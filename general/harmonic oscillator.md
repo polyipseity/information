@@ -86,7 +86,7 @@ The solution is as below, which matches with our physical intuition:
 
 > [!tip] tip
 >
-> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially: {{One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$.}} <!--SR:!2023-01-06,4,296-->
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially: {{One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$.}} <!--SR:!2024-01-18,15,316-->
 
 ### sinusoidal driving force
 
@@ -126,7 +126,7 @@ The steady-state solution is as below (the transient solution can be found {{fro
 >     - [force](force.md) properties: {{$F(t) = F_\mathrm{max} \cos(\omega_d t)$ is the driving [force](force.md) with max value $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$, and $Z_m = \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left( \omega_n^2 - \omega_d^2 \right)^2}$ is the [mechanical impedance](mechanical%20impedance.md) or [linear response function](linear%20response%20function.md)}}
 >     - [phase space](phase%20space.md): {{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$ is steady-state [amplitude](amplitude.md) and $\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi$ is the initial [phase](phase%20(waves).md) for any [integer](integer.md) $n$, which is usually chosen such that $\varphi \in (-\pi, 0]$ to always represent a phase lag}}
 > - [resonance](resonance.md): {{Resonance happens when the [amplitude](amplitude.md) is maximum. The resonant [angular frequency](angular%20frequency.md) is $\omega_r = \omega_n \sqrt{1 - 2 \zeta^2}$, thus resonance only occurs for significantly underdamped systems where $\zeta < 1 / \sqrt 2 \approx 0.707\,106\,781$.}}
-> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}. <!--SR:!2024-01-15,13,292!2024-01-15,13,292!2024-01-19,17,290!2024-01-13,11,272!2024-01-07,7,252!2024-01-07,7,252!2024-01-14,12,272!2024-01-16,14,292!2024-01-16,14,292!2024-01-17,15,292!2023-01-06,4,296-->
+> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}. <!--SR:!2024-01-15,13,292!2024-01-15,13,292!2024-01-19,17,290!2024-01-13,11,272!2024-01-07,7,252!2024-01-07,7,252!2024-01-14,12,272!2024-01-16,14,292!2024-01-16,14,292!2024-01-17,15,292!2024-01-17,14,316-->
 
 > [!info]- details
 >

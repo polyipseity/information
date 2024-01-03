@@ -18,7 +18,7 @@ tags:
 >
 > - {{$\sqrt{zw} = \sqrt z \sqrt w \qquad (-\pi < \operatorname{Arg} z + \operatorname{Arg} w \le \pi)$ <br/>__counterexample__: $z = -1, w = -1$}}
 > - {{$\sqrt{\frac z w} = \frac{\sqrt z}{\sqrt w} \qquad (-\pi < \operatorname{Arg} z - \operatorname{Arg} w \le \pi)$ <br/>__counterexample__: $z = 1, w = -1$}}
-> - {{$\sqrt{z^*} = \left( \sqrt z \right)^* \qquad (* \in \mathbb{C}, \operatorname{Arg} z \ne \pi)$ <br/>__counterexample__: $z = -1$}} <!--SR:!2024-01-19,19,250!2024-01-05,8,230!2024-01-03,10,250-->
+> - {{$\sqrt{z^*} = \left( \sqrt z \right)^* \qquad (* \in \mathbb{C}, \operatorname{Arg} z \ne \pi)$ <br/>__counterexample__: $z = -1$}} <!--SR:!2024-01-19,19,250!2024-01-05,8,230!2024-01-27,24,250-->
 
 ## references
 
