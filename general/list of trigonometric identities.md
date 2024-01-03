@@ -26,7 +26,7 @@ return await memorize_table(
   e.cwf_sects('4949', 'd996',),
   ('name',),
   (
-    ('[Pythagorean identities](#Pythagorean%20identities))',),
+    ('[Pythagorean identities](#Pythagorean%20identities)',),
     ('[angle sum and difference](#angle%20sum%20and%20difference)',),
     ('[linear combination](#linear%20combination)',),
     ('[multiple-angle](#multiple-angle)',),
@@ -36,11 +36,11 @@ return await memorize_table(
 ```
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2023-12-29T17:56:40.803518+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2024-01-03T09:39:48.167446+08:00. Any edits will be overridden! -->
 
 > | name |
 > |-|
-> | [Pythagorean identities](#Pythagorean%20identities)) |
+> | [Pythagorean identities](#Pythagorean%20identities) |
 > | [angle sum and difference](#angle%20sum%20and%20difference) |
 > | [linear combination](#linear%20combination) |
 > | [multiple-angle](#multiple-angle) |
@@ -48,10 +48,10 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-29T17:56:40.835581+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2024-01-03T09:39:48.198631+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities)) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
-2. [Pythagorean identities](#Pythagorean%20identities))→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
+1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
+2. [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
 3. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-01-11,17,309-->
 4. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
 5. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
