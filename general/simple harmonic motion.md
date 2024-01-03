@@ -123,7 +123,7 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}}
->     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-01-05,15,316-->
+>     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-01-05,15,316!2024-01-07,4,318-->
 
 ### mass of a simple pendulum
 
@@ -133,8 +133,8 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
->     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}} <!--SR:!2024-01-08,6,276!2024-01-08,18,316-->
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}}
+>     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}} 
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-08,6,276!2024-01-08,18,316!2024-01-07,4,318!2024-01-07,4,318-->
 
 ### mass of a physical pendulum
 
@@ -144,8 +144,8 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
->     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} <!--SR:!2024-01-10,15,276!2024-02-22,50,316-->
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}}
+>     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}} 
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-10,15,276!2024-02-22,50,316!2024-01-07,4,318!2024-01-07,4,318-->
 
 ## references
 
