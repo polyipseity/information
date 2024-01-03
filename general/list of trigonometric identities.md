@@ -50,7 +50,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2023-12-29T17:56:40.835581+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities))
+1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities)) <!--SR:!2023-01-06,4,300!2023-01-06,4,302-->
 2. [Pythagorean identities](#Pythagorean%20identities))→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
 3. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-01-11,17,309-->
 4. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
@@ -89,19 +89,19 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba01"--><!-- The following content is generated at 2023-12-29T17:59:38.720645+08:00. Any edits will be overridden! -->
 
-1. normal::$\sin^2 \theta + \cos^2 \theta = 1$
-2. divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$
-3. divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$
-4. divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$
+1. normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2023-01-06,4,300-->
+2. divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2023-01-06,4,300-->
+3. divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2023-01-05,3,280-->
+4. divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2023-01-06,4,300-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 > [!example] examples
 >
-> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$
-> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$
-> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$
-> - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$
+> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$ <!--SR:!2023-01-06,4,300!2023-01-06,4,300-->
+> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2023-01-06,4,300!2023-01-06,4,300-->
+> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2023-01-06,4,300!2023-01-06,4,300-->
+> - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2023-01-06,4,299!2023-01-06,4,300-->
 
 ## angle sum and difference
 
