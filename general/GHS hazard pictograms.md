@@ -4,18 +4,21 @@ tags:
   - languages/in/English
 ---
 
+# GHS hazard pictograms
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# GHS hazard pictograms
+%%
 
 ## pictograms
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -39,6 +42,7 @@ return await memorize_table(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->

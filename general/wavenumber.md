@@ -32,7 +32,7 @@ In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wa
 > {{$$\tilde \nu = \frac 1 \lambda$$}}
 >
 > - where
->     - {{$\lambda$ is [wavelength](wavelength.md), typically in [centimeters](centimetre.md) (cm)}}
+>   - {{$\lambda$ is [wavelength](wavelength.md), typically in [centimeters](centimetre.md) (cm)}}
 
 In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {{the number of [radians](radian.md) per unit distance. It is sometimes called __angular wavenumber__ (symbol $k$)}}:
 
@@ -41,7 +41,7 @@ In [theoretical physics](theoretical%20physics.md), wavenumber is defined as {{t
 > {{$$k = \frac {2\pi} \lambda$$}}
 >
 > - where
->     - {{$\lambda$ is [wavelength](wavelength.md)}}
+>   - {{$\lambda$ is [wavelength](wavelength.md)}}
 
 ## references
 

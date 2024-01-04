@@ -38,10 +38,10 @@ Consider 2 uses for a single button: (choose BTN1 or BTN2)
 - While it is not, flash the LED (at least one LED). __(@1)__
 - Two actions should not happen simultaneously.
 - Hints:
-  - In this case every time the loop comes around, we are concerned with the **current state** (or level) of the buttons GPIO Pin
+  - In this case every time the loop comes around, we are concerned with the __current state__ (or level) of the buttons GPIO Pin
   - The implementation of the button reading here should be obvious and simple
 
-![](qSrTmjr.gif)
+![Q1 image](qSrTmjr.gif)
 
 > Notice the green button and the green LED
 

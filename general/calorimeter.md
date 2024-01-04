@@ -9,14 +9,16 @@ tags:
   - languages/in/English
 ---
 
+# calorimeter
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# calorimeter
+%%
 
 A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}.
 
@@ -25,6 +27,7 @@ A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a
 ## errors
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -38,6 +41,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 [Measurement errors](observational%20error.md) may be caused by:

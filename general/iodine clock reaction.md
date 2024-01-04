@@ -7,18 +7,21 @@ tags:
   - languages/in/English
 ---
 
+# iodine clock reaction
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# iodine clock reaction
+%%
 
 ## hydrogen peroxide variation
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -32,6 +35,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d951"--><!-- The following content is generated at 2023-05-04T22:37:04.007351+08:00. Any edits will be overridden! -->

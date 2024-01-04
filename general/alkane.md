@@ -8,14 +8,16 @@ tags:
   - languages/in/English
 ---
 
+# alkane
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# alkane
+%%
 
 An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}.
 
@@ -42,6 +44,7 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -56,6 +59,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd12"--><!-- The following content is generated at 2023-05-07T22:54:11.272590+08:00. Any edits will be overridden! -->

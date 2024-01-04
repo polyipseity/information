@@ -14,6 +14,7 @@ tags:
 > 2. {{$$\langle K_N \rangle = -\frac12 \sum_{i=1}^N \langle \vec{F}_i \cdot \vec{r}_i \rangle$$}}
 >
 > where
+>
 > - {{$K_N$ is the total [kinetic energy](kinetic%20energy.md) of the $N$ particles}}
 > - {{$\vec{F}_i$ is the [force](force.md) on the $i$-th particle}}
 > - {{$\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle}}

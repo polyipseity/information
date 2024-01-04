@@ -9,13 +9,13 @@ tags:
 
 > [!info]- Authors
 >
-> Li Chi Kin (ckliam@connect.ust.hk)
+> Li Chi Kin (<ckliam@connect.ust.hk>)
 
 ## Problem
 
 Imagine this: You're facing a straightforward math problem which only consists of four basic operations. But wait, you're not in the mood to crunch the numbers. Here's what I think you'd do: Open Google, input the entire expression in the search box, and click enter. After a blink moment, _viola_! You get the answer!
 
-![](Pasted%20image%2020230830184041.png)
+![problem image](Pasted%20image%2020230830184041.png)
 
 In this assignment, you have to create a similar calculator that only deals with 2 operations: addition (+) and subtraction (-). In the Extra level, you must create an upgraded version that deals with all 4 operations and parentheses.
 
@@ -32,7 +32,7 @@ The following assumptions are allowed to be applied in the EXTRA LEVEL.
 
 ### Example
 
-```
+```console
 Please input a math equation:
 1+2+3
 Output:
@@ -89,4 +89,4 @@ Output:
 
 ---
 
-https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/homework/task-1-string-input-calculator
+<https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/homework/task-1-string-input-calculator>

@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# ordinary differential equation
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# ordinary differential equation
+%%
 
 ## definitions
 
@@ -25,6 +27,7 @@ An [explicit](implicit%20function.md) ordinary differential equation of order _n
 > {{$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$}}
 >
 > given
+>
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
@@ -37,6 +40,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 > {{$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$}}
 >
 > given
+>
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
@@ -45,6 +49,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 ### classifications
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -59,6 +64,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 Ordinary differential equations are furthered classified:
@@ -88,17 +94,25 @@ Ordinary differential equations are furthered classified:
 >
 > {{An ODE where $F$ does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly.}}
 
+<!-- markdownlint MD028 -->
+
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
 > {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}}
+
+<!-- markdownlint MD028 -->
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
 > {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}}
 
+<!-- markdownlint MD028 -->
+
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
 > {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}}
+
+<!-- markdownlint MD028 -->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
@@ -127,6 +141,8 @@ xe^y\,\mathrm{d}y-y\sin{x}\,\mathrm{d}x&=0\\
 \operatorname{Ei}(y)&=\operatorname{Si}(x)+C\\
 y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
 \end{aligned}$$
+
+<!-- markdownlint MD028 -->
 
 > {{__first-order, [homogeneous](#^homogeneous)__}}
 >

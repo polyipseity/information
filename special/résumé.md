@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# résumé
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# résumé
+%%
 
 ## format
 
@@ -30,6 +32,7 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 ## content
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -45,6 +48,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ff"--><!-- The following content is generated at 2023-10-05T10:38:05.852698+08:00. Any edits will be overridden! -->

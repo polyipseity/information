@@ -17,8 +17,8 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 > {{$$\begin{aligned} F_\mathrm{net} = m\frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -k x - c \frac{\mathrm{d}x}{\mathrm{d}t} \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \frac{c}m \frac{\mathrm{d}x}{\mathrm{d}t} + \frac{k}m x & = 0 \end{aligned}$$}}
 >
 > - where
->     - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->     - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
+>   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
 
 For better physical meaning, it can be rewritten as:
 
@@ -27,8 +27,8 @@ For better physical meaning, it can be rewritten as:
 > {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + 2 \zeta \omega_n \frac{\mathrm{d}x}{\mathrm{d}t} + \omega_n^2 x = 0$$}}
 >
 > - where
->     - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->     - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
+>   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
+>   - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}}
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 
@@ -87,6 +87,8 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 >
 > When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}}. This is {{rare in the natural world due to [dissipation](dissipation.md)}}.
 
+<!-- markdownlint MD028 -->
+
 > __underdamped__
 >
 > When $0 < \zeta < 1$, {{the system resembles [simple harmonic motion](simple%20harmonic%20motion.md) with its [amplitude](amplitude.md) [modulated](modulation.md) by $e^{-\lambda t}$}}. This is {{common in the natural world due to small amounts of [dissipation](dissipation.md)}}. The equation is:
@@ -94,9 +96,11 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > {{$$x(t) = A e^{-\lambda t} \cos(\omega t + \varphi)$$}}
 >
 > - where
->     - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
->     - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
->     - initial properties: {{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}}
+>   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
+>   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
+>   - initial properties: {{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}}
+
+<!-- markdownlint MD028 -->
 
 > __critically damped__
 >
@@ -105,9 +109,11 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > {{$$x(t) = e^{-\lambda t} (A + \nu t)$$}}
 >
 > - where
->     - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c = 2 \sqrt{km}$ is the vicious damping coefficient}}
->     - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} } = 1$ is the damping ratio, and $\lambda = \omega_n \zeta = \omega_n$ is the decay rate}}
->     - initial properties: {{$A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}}
+>   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c = 2 \sqrt{km}$ is the vicious damping coefficient}}
+>   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} } = 1$ is the damping ratio, and $\lambda = \omega_n \zeta = \omega_n$ is the decay rate}}
+>   - initial properties: {{$A$ is the initial [amplitude](amplitude.md) and $\nu = v_0 + \lambda A \approx v_0$ is approximately the initial [velocity](velocity.md) $v_0$}}
+
+<!-- markdownlint MD028 -->
 
 > __overdamped__
 >
@@ -116,9 +122,9 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > {{$$x(t) = e^{-\lambda t} \left(c_+ e^{\omega t} + c_- e^{-\omega t}\right)$$}}
 >
 > - where
->     - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
->     - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
->     - initial properties: {{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}}
+>   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
+>   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
+>   - initial properties: {{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}}
 
 Additionally, for negative damping ratios:
 
@@ -133,15 +139,18 @@ Additionally, for negative damping ratios:
 > ___Q_ factor__
 >
 > {{$$Q = \frac{1}{2 \zeta}$$}}
+>
 > - where
->     - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}}
+>   - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}}
+
+<!-- markdownlint MD028 -->
 
 > __exponential decay rate__
 >
 > {{$$\lambda = \omega_n \zeta$$}}
 >
 > - where
->     - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} 
+>   - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}}
 
 ## references
 

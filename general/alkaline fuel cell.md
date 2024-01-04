@@ -8,14 +8,16 @@ tags:
   - languages/in/English
 ---
 
+# alkaline fuel cell
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# alkaline fuel cell
+%%
 
 The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}.
 
@@ -34,6 +36,7 @@ Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium
 ## advantages and disadvantages
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -48,6 +51,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2023-04-01T12:33:20.447271+08:00. Any edits will be overridden! -->
@@ -74,6 +78,7 @@ return await memorize_seq(
 ## uses
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -87,6 +92,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2023-03-31T22:39:40.309569+08:00. Any edits will be overridden! -->

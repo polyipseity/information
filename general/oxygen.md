@@ -4,18 +4,21 @@ tags:
   - languages/in/English
 ---
 
+# oxygen
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# oxygen
+%%
 
 ## uses
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -30,6 +33,7 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="923dac"--><!-- The following content is generated at 2023-03-20T16:20:31.118657+08:00. Any edits will be overridden! -->

@@ -9,18 +9,21 @@ tags:
   - languages/in/English
 ---
 
+# Diesel cycle
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# Diesel cycle
+%%
 
 ## idealized Diesel cycle
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -36,6 +39,7 @@ return await memorize_seq(
   posttext="ends at bottom right in the [PV diagram](pressure–volume%20diagram.md)",
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="11aa"--><!-- The following content is generated at 2023-12-19T20:25:01.123775+08:00. Any edits will be overridden! -->
@@ -64,7 +68,7 @@ return await memorize_seq(
 > {{$$\eta_\mathrm{th} = 1 - \frac1{r^{\gamma - 1} }\left(\frac{\alpha^\gamma - 1}{\gamma(\alpha - 1)}\right)$$}}
 >
 > - where
->     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md), $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum), and $\alpha = \frac{V_3}{V_2} = \frac{T_3}{T_1 r^{\gamma - 1} }$ is the cutoff ratio}}
+>   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md), $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum), and $\alpha = \frac{V_3}{V_2} = \frac{T_3}{T_1 r^{\gamma - 1} }$ is the cutoff ratio}}
 
 ## references
 

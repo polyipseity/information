@@ -18,8 +18,8 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 > {{$$\begin{aligned} F_\mathrm{net} = m \frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -kx \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} +\frac{k}m x & = 0 \end{aligned}$$}}
 >
 > - where
->     - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->     - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}}
+>   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}}
 
 For better physical meaning, it can be rewritten as:
 
@@ -28,8 +28,8 @@ For better physical meaning, it can be rewritten as:
 > {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega x = 0$$}}
 >
 > - where
->     - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->     - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}}
+>   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
+>   - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}}
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 
@@ -69,6 +69,8 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
 > - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}}
+
+<!-- markdownlint MD028 -->
 
 > [!tip] tip
 >

@@ -6,9 +6,11 @@ tags:
   - languages/in/English
 ---
 
+<!-- markdownlint-disable MD036 -->
+
 # sample final attempt
 
-_HKUST PHYS 2011_
+HKUST PHYS 2011
 
 - [attempt](attempt.md)
 - time allowed: n/a
@@ -401,7 +403,7 @@ __draft__
 1. heat capacity ratio: 5/3, so Q/W = 5/2 for isobaric
 2. a->b: 100 K -> 150 K, isobaric, delta U = 1, Q = 5 / 3, W = 2 / 3
 3. b->c: 150 K -> 450 K, isochoric, delta U = 6, Q = 6, W = 0
-4. c->d: 450 K -> 300 K, isobaric, delta U = -3, Q = -5, W = -2 
+4. c->d: 450 K -> 300 K, isobaric, delta U = -3, Q = -5, W = -2
 5. d->a: 300 K -> 100 K, isochoric, delta U = -4, Q = -4, W = 0
 6. efficiency: (5 / 3 + 6) / (- 2 / 3 + 2) = 5.75
 
