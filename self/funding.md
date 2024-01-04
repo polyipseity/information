@@ -21,6 +21,6 @@ Publishing things for others to use is a commitment that requires maintenance, s
 
 ## references
 
-- https://buymeacoffee.com/polyipseity
-- https://dashboard.stripe.com/settings/public
-- https://github.com/sponsors/polyipseity
+- <https://buymeacoffee.com/polyipseity>
+- <https://dashboard.stripe.com/settings/public>
+- <https://github.com/sponsors/polyipseity>

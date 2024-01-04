@@ -13,18 +13,21 @@ tags:
   - languages/in/English
 ---
 
+# Kepler's laws of planetary motion
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# Kepler's laws of planetary motion
+%%
 
 The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that: <!--SR:!2024-01-24,177,290-->
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -37,6 +40,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23aa"--><!-- The following content is generated at 2023-05-08T00:49:20.940684+08:00. Any edits will be overridden! -->

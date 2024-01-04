@@ -9,20 +9,23 @@ tags:
   - languages/in/English
 ---
 
+# degrees of freedom (physics and chemistry)
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# degrees of freedom (physics and chemistry)
+%%
 
 ## thermodynamic degrees of freedom for gases
 
 ### table
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 # import ../../tools/utility.py.md
@@ -47,6 +50,7 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee2"--><!-- The following content is generated at 2023-12-17T18:44:27.093167+08:00. Any edits will be overridden! -->

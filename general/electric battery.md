@@ -11,14 +11,16 @@ tags:
   - languages/in/English
 ---
 
+# electric battery
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# electric battery
+%%
 
 A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2024-04-16,174,230!2024-05-17,320,330-->
 
@@ -29,6 +31,7 @@ A __battery__ is {{a source of [electricity](electricity.md) composed of one or 
 ### comparison
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather
@@ -58,6 +61,7 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
+
 %%
 
 #### primary batteries

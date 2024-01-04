@@ -11,14 +11,16 @@ tags:
   - languages/in/English
 ---
 
+# ion
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# ion
+%%
 
 An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.<!--SR:!2027-01-19,1447,365!2027-11-08,1684,370!2026-07-20,1290,352!2027-05-12,1546,374-->
 
@@ -27,6 +29,7 @@ A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic i
 ## data
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather
@@ -221,6 +224,7 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
+
 %%
 
 ### cation
@@ -258,7 +262,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–symbol
+#### name–symbol (cation)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2023-04-08T14:17:08.477476+08:00. Any edits will be overridden! -->
 
@@ -291,7 +295,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–charge
+#### name–charge (cation)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2023-04-08T14:17:08.448555+08:00. Any edits will be overridden! -->
 
@@ -324,7 +328,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–color
+#### name–color (cation)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2023-04-08T14:17:08.464511+08:00. Any edits will be overridden! -->
 
@@ -357,7 +361,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### color–name
+#### color–name (cation)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-04-08T13:40:47.993725+08:00. Any edits will be overridden! -->
 
@@ -404,7 +408,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–symbol
+#### name–symbol (anion)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2023-04-08T13:39:40.602610+08:00. Any edits will be overridden! -->
 
@@ -433,7 +437,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–charge
+#### name–charge (anion)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2023-04-08T13:39:40.618568+08:00. Any edits will be overridden! -->
 
@@ -462,7 +466,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–color
+#### name–color (anion)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2023-04-08T13:39:40.653475+08:00. Any edits will be overridden! -->
 
@@ -491,7 +495,7 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### color–name
+#### color–name (anion)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2023-04-08T13:39:40.573688+08:00. Any edits will be overridden! -->
 

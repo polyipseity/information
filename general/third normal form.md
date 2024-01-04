@@ -7,18 +7,21 @@ tags:
   - languages/in/English
 ---
 
+# third normal form
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# third normal form
+%%
 
 ## implementation
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -31,6 +34,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 A good way to satisfy the third normal form is by following the below three rules, which works well the [SQL](SQL.md) [`INNER JOIN`](join%20(SQL).md#inner%20join) clause:

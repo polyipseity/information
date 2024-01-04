@@ -13,18 +13,21 @@ tags:
   - languages/in/English
 ---
 
+# nitrogen
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# nitrogen
+%%
 
 ## uses
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -39,6 +42,7 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293850"--><!-- The following content is generated at 2023-03-20T16:20:31.032625+08:00. Any edits will be overridden! -->

@@ -16,6 +16,8 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allow
 > 2. {{Let $a(x)$ and $b(x)$ be [continuously differentiable functions](differentiable%20function.md) on $x_0 \le x \le x_1$.}}
 > 3. {{Then, $$\frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$$.}} <!--SR:!2024-01-06,4,241!2024-01-11,11,281!2024-01-08,8,261-->
 
+<!-- markdownlint MD028 -->
+
 > [!tip] tip
 >
 > - [intuition](intuition.md): {{$f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$.}} <!--SR:!2024-01-24,33,290-->

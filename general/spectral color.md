@@ -7,18 +7,21 @@ tags:
   - languages/in/English
 ---
 
+# spectral color
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# spectral color
+%%
 
 ## data
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
@@ -50,6 +53,7 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
+
 %%
 
 The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}}. These values are {{approximations as the spectrum is continuous without clear boundaries}}. <!--SR:!2024-02-09,140,210!2025-06-12,587,330-->

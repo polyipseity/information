@@ -7,20 +7,23 @@ tags:
   - languages/in/English
 ---
 
+# plastic
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# plastic
+%%
 
 __Plastics__ are {{[synthetic](synthetic%20polymers.md) or semi-synthetic [materials](material.md) consisting of [polymers](polymer.md)}}. <!--SR:!2025-03-02,513,301-->
 
 ## types
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
@@ -56,6 +59,7 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9403"--><!-- The following content is generated at 2023-12-04T08:10:23.099047+08:00. Any edits will be overridden! -->

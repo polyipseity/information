@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# ketone
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# ketone
+%%
 
 ## physical properties
 
@@ -43,6 +45,7 @@ Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqu
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -55,6 +58,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="204e"--><!-- The following content is generated at 2023-04-06T10:40:18.725586+08:00. Any edits will be overridden! -->

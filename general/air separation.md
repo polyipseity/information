@@ -6,14 +6,16 @@ tags:
   - languages/in/English
 ---
 
+# air separation
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# air separation
+%%
 
 __Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}. <!--SR:!2024-02-26,214,270!2024-02-15,249,330-->
 
@@ -26,6 +28,7 @@ The most common method is [cryogenic distillation](#cryogenic%20distillation).
 Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md). Then [distill](distillation.md) the components at their boiling points.}} <!--SR:!2024-01-23,123,190-->
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -41,6 +44,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28370e"--><!-- The following content is generated at 2023-03-24T01:07:46.430558+08:00. Any edits will be overridden! -->

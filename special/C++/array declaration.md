@@ -27,7 +27,7 @@ int valid[][10];
 // int error[10][];
 ```
 
-# array-to-pointer decay
+## array-to-pointer decay
 
 > [!tip] tip
 >

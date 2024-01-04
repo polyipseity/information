@@ -8,14 +8,16 @@ tags:
   - languages/in/English
 ---
 
+# calcium oxide
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# calcium oxide
+%%
 
 __Calcium oxide__, also known as {{quicklime}}, is {{a solid [ionic compound](ionic%20compound.md) with the [chemical formula](chemical%20formula.md) __[Ca](calcium.md)[O](oxygen.md)__}}. It looks like a {{white solid}}. <!--SR:!2024-01-09,352,230!2025-02-26,832,330!2024-11-26,596,258-->
 
@@ -27,6 +29,7 @@ Calcium oxide {{reacts with [water](water.md) to give [calcium hydroxide](calciu
 ## uses
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -39,6 +42,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="11aa"--><!-- The following content is generated at 2023-04-05T22:23:33.112015+08:00. Any edits will be overridden! -->

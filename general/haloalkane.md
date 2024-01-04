@@ -11,14 +11,16 @@ tags:
   - languages/in/English
 ---
 
+# haloalkane
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# haloalkane
+%%
 
 ## physical properties
 
@@ -47,6 +49,7 @@ In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -60,6 +63,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="321a"--><!-- The following content is generated at 2023-04-08T23:59:05.288590+08:00. Any edits will be overridden! -->

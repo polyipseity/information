@@ -7,7 +7,7 @@ tags:
 
 # 2018 spring final check
 
-_HKUST COMP 2011_
+HKUST COMP 2011
 
 - [attempt](attempt.md) · [check](check.md)
 - marks: 98/100

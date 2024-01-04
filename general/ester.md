@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# ester
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# ester
+%%
 
 ## physical properties
 
@@ -45,6 +47,7 @@ In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic]
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -57,6 +60,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23af"--><!-- The following content is generated at 2023-04-07T00:25:31.914964+08:00. Any edits will be overridden! -->

@@ -6,20 +6,23 @@ tags:
   - languages/in/English
 ---
 
+# Ostwald process
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# Ostwald process
+%%
 
 The __Ostwald process__ is {{a [chemical process](chemical%20process.md) for the production of [nitric acid](nitric%20acid.md)}}. It is closely related to {{the [Haber process](Haber%20process.md), which provides the required raw material [ammonia](ammonia.md)}}. <!--SR:!2024-02-25,222,310!2024-02-24,221,310-->
 
 ## process
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -34,6 +37,7 @@ return await memorize_seq(
   pretext=context, posttext=context,
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4861"--><!-- The following content is generated at 2023-05-04T07:53:40.317690+08:00. Any edits will be overridden! -->

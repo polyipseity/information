@@ -9,18 +9,21 @@ tags:
   - languages/in/English
 ---
 
+# Otto cycle
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# Otto cycle
+%%
 
 ## processes
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -38,6 +41,7 @@ return await memorize_seq(
   posttext="ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md)",
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="55aa"--><!-- The following content is generated at 2023-12-19T20:25:01.121772+08:00. Any edits will be overridden! -->
@@ -70,7 +74,7 @@ return await memorize_seq(
 > {{$$\eta_\mathrm{th} = 1 - \frac1{r^{\gamma - 1} }$$}}
 >
 > - where
->     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}} <!--SR:!2024-02-06,33,270!2024-01-07,14,290-->
+>   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}} <!--SR:!2024-02-06,33,270!2024-01-07,14,290-->
 
 ## references
 

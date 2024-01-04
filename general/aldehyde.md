@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# aldehyde
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# aldehyde
+%%
 
 ## physical properties
 
@@ -47,6 +49,7 @@ Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqu
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -60,6 +63,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff02"--><!-- The following content is generated at 2023-04-06T10:39:35.661961+08:00. Any edits will be overridden! -->

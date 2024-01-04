@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# enthalpy
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# enthalpy
+%%
 
 In [chemistry](chemistry.md), the enthalpy of reaction is {{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}}. <!--SR:!2024-03-27,233,270-->
 
@@ -27,7 +29,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 > {{$$H = U + pV$$}}
 >
 > - where
->     - [state variables](state%20variable.md): {{$U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}} <!--SR:!2024-02-16,50,334!2024-01-06,19,334-->
+>   - [state variables](state%20variable.md): {{$U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}} <!--SR:!2024-02-16,50,334!2024-01-06,19,334-->
 
 ## applications
 
@@ -36,6 +38,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 #### standard conditions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -49,6 +52,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 Enthalpy changes are measured under the following {{standard conditions}}: <!--SR:!2024-06-07,336,330-->
@@ -75,6 +79,7 @@ Enthalpy changes are measured under the following {{standard conditions}}: <!--S
 #### chemical properties
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -87,6 +92,7 @@ return await memorize_map(
   },
 )
 ```
+
 %%
 
 For [chemical properties](chemical%20property.md):
@@ -112,40 +118,6 @@ For [chemical properties](chemical%20property.md):
 1. enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md)::[enthalpy of combustion](standard%20enthalpy%20of%20combustion.md) <!--SR:!2024-06-14,343,338-->
 2. enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states::[enthalpy of formation](standard%20enthalpy%20of%20formation.md) <!--SR:!2024-06-17,346,338-->
 3. enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md)::[enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md) <!--SR:!2024-06-13,342,338-->
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-#### physical properties
-
-%%
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
-return await memorize_map(
-  e.cwf_sects('bb12', '2440', '69ff'),
-  {
-  },
-)
-```
-%%
-
-For [physical properties](physical%20property.md):
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb12"--><!-- The following content is generated at 2023-04-02T00:06:47.143099+08:00. Any edits will be overridden! -->
-
->
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2440"--><!-- The following content is generated at 2023-04-02T00:06:47.124597+08:00. Any edits will be overridden! -->
-
-
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="69ff"--><!-- The following content is generated at 2023-04-02T00:06:47.106642+08:00. Any edits will be overridden! -->
-
-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

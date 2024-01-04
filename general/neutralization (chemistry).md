@@ -9,23 +9,27 @@ tags:
   - languages/in/English
 ---
 
+# neutralization (chemistry)
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# neutralization (chemistry)
+%%
 
 __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical reaction](chemical%20reaction.md) in which an [acid](acid.md) reacts with a [base](base%20(chemistry).md)}}. A definition based on the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md) is: <!--SR:!2025-10-08,669,298-->
 
 > neutralization in the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md)
+>
 > - {{AH + B → A + BH}} <!--SR:!2024-06-14,343,338-->
 
 ## applications
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -41,6 +45,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d927"--><!-- The following content is generated at 2023-06-13T11:10:50.266473+08:00. Any edits will be overridden! -->

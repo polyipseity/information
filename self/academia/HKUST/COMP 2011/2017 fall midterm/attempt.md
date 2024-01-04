@@ -5,9 +5,11 @@ tags:
   - languages/in/English
 ---
 
+<!-- markdownlint-disable MD024 MD036 -->
+
 # 2017 fall midterm attempt
 
-_HKUST COMP 2011_
+HKUST COMP 2011
 
 - [attempt](attempt.md) · [check](check.md)
 - time allowed: 2023-09-24T07:00:00+08:00/PT2H

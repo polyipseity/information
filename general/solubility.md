@@ -11,14 +11,16 @@ tags:
   - languages/in/English
 ---
 
+# solubility
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# solubility
+%%
 
 __Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}. <!--SR:!2025-04-08,464,252-->
 
@@ -27,6 +29,7 @@ It is measured as {{the [concentration](concentration.md) of the solute in a sat
 ## solubility of ionic compounds in water
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
@@ -96,68 +99,110 @@ return (
   util.Result(
     location=__env__.cwf_sect('901862'),
     text=gen.cloze_text(text,
+      separator="\n\n<!-- markdownlint MD028 -->\n\n",
       states=await read.read_flashcard_states(__env__.cwf_sect('901862')),
     ),
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2023-12-30T11:09:40.250552+08:00. Any edits will be overridden! -->
 
 > group I compounds
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}} <!--SR:!2025-05-11,700,230!2024-09-14,365,210-->
 
+<!-- markdownlint MD028 -->
+
 > NH<sub>4</sub><sup>+</sup> compounds
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{_(none)_}} <!--SR:!2026-03-15,1012,282!2024-01-21,324,289-->
 
+<!-- markdownlint MD028 -->
+
 > nitrates
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{_(none)_}} <!--SR:!2025-10-17,822,236!2024-07-15,454,289-->
 
+<!-- markdownlint MD028 -->
+
 > acetates (ethanoates)
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{Ag<sup>+</sup> compounds}} <!--SR:!2024-10-17,551,242!2024-03-22,329,230-->
 
+<!-- markdownlint MD028 -->
+
 > chlorides
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2025-05-13,773,268!2024-01-10,280,190-->
 
+<!-- markdownlint MD028 -->
+
 > bromides
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2026-11-12,1147,266!2025-01-13,492,190-->
 
+<!-- markdownlint MD028 -->
+
 > iodides
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}} <!--SR:!2026-07-21,1056,262!2024-07-23,412,210-->
 
+<!-- markdownlint MD028 -->
+
 > sulfates
+>
 > - general solubility: {{<span style="color: green;">soluble</span>}}
 > - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}} <!--SR:!2025-06-27,797,261!2024-08-26,388,230-->
 
+<!-- markdownlint MD028 -->
+
 > carbonates
+>
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I, NH<sub>4</sub><sup>+</sup>, and UO<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2025-12-14,813,248!2024-09-06,280,230-->
 
+<!-- markdownlint MD028 -->
+
 > sulfites
+>
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-26,415,206!2024-02-07,260,210-->
 
+<!-- markdownlint MD028 -->
+
 > phosphates
+>
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds ([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}} <!--SR:!2024-06-04,460,230!2024-01-08,211,210-->
 
+<!-- markdownlint MD028 -->
+
 > hydroxides
+>
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I, group II (except [Be(OH)<sub>2</sub>](beryllium%20hydroxide.md) and [Mg(OH)<sub>2</sub>](magnesium%20hydroxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is slightly soluble)}} <!--SR:!2025-04-08,628,230!2024-11-09,427,230-->
 
+<!-- markdownlint MD028 -->
+
 > oxides
+>
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2024-01-20,39,130-->
 
+<!-- markdownlint MD028 -->
+
 > sulfides
+>
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I, group II, and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-12,486,238!2024-09-05,415,210-->
 
@@ -166,6 +211,7 @@ return (
 ### examples
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -238,6 +284,7 @@ return await memorize_map(
   },
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="059f"--><!-- The following content is generated at 2023-11-04T02:46:37.245967+08:00. Any edits will be overridden! -->

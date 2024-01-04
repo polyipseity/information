@@ -4,20 +4,23 @@ tags:
   - languages/in/English
 ---
 
+# flame test
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# flame test
+%%
 
 ## procedure
 
 The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below: <!--SR:!2025-08-25,616,290-->
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -31,6 +34,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abcdef"--><!-- The following content is generated at 2023-04-01T22:38:27.910087+08:00. Any edits will be overridden! -->
@@ -55,6 +59,7 @@ return await memorize_seq(
 ## common elements
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -72,6 +77,7 @@ return await memorize_map(
   },
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-04-23T13:13:45.557923+08:00. Any edits will be overridden! -->

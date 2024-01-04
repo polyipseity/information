@@ -10,14 +10,16 @@ tags:
   - languages/in/English
 ---
 
+# petroleum
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# petroleum
+%%
 
 ## composition
 
@@ -30,6 +32,7 @@ Petroleum is {{separated by [fractional distillation](fractional%20distillation.
 ### fuels
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
@@ -64,6 +67,7 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
+
 %%
 
 [Fuels](fuel.md) by ascending [boiling point](boiling%20point.md) include:

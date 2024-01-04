@@ -8,19 +8,19 @@ tags:
 
 # 2017 fall final check
 
-_HKUST COMP 2011_
+HKUST COMP 2011
 
 - [attempt](attempt.md) · [check](check.md)
 - marks: 95/100
 
-### problem 4 (4 points)
+## problem 4 (4 points)
 
 - (-2 marks) `Company(2)` should be after all `Employee(0)`.
 
-### problem 9(c) (5 points)
+## problem 9(c) (5 points)
 
 - (-2 marks) `flight` and `city` are not set to `nullptr`.
 
-### problem 10(b) (9 points)
+## problem 10(b) (9 points)
 
 - (-1 mark) No checking for `root == nullptr`.

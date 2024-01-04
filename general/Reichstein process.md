@@ -6,20 +6,23 @@ tags:
   - languages/in/English
 ---
 
+# Reichstein process
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# Reichstein process
+%%
 
 The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) and [microbial](industrial%20fermentation.md) method for synthesizing [ascorbic acid](ascorbic%20acid.md) from ᴅ-[glucose](glucose.md)}}. The yield is {{about 60%}}. <!--SR:!2024-03-04,164,250!2024-07-10,338,330-->
 
 ## steps
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -35,6 +38,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 > {{![overview of Reichstein process](../archives/Wikimedia%20Commons/Synthesis%20ascorbic%20acid.svg)}}

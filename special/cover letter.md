@@ -6,18 +6,21 @@ tags:
   - languages/in/English
 ---
 
+# cover letter
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# cover letter
+%%
 
 ## use
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -31,6 +34,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49cc"--><!-- The following content is generated at 2023-10-08T17:13:33.408871+08:00. Any edits will be overridden! -->
@@ -64,6 +68,7 @@ my CV and cover letter for your consideration.; (signature)}}
 ## content
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -78,6 +83,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a723"--><!-- The following content is generated at 2023-10-09T23:03:32.658566+08:00. Any edits will be overridden! -->

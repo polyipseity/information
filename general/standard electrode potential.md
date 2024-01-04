@@ -8,14 +8,16 @@ tags:
   - languages/in/English
 ---
 
+# standard electrode potential
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# standard electrode potential
+%%
 
 ## usage
 
@@ -24,6 +26,7 @@ Increase in standard electrode potential {{increases [oxidizing power](oxidation
 ## data
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from collections import defaultdict
@@ -147,6 +150,7 @@ return (
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2023-04-08T14:12:19.031933+08:00. Any edits will be overridden! -->
