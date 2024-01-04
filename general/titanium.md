@@ -47,11 +47,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2023-03-21T16:20:25.418913+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2024-01-04T20:17:52.894713+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[implants](implant%20(medicine).md)
-2. [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies
-3. supersonic aircraft bodies→:::←_(end)_
+- _(begin)_→:::←[implants](implant%20(medicine).md)
+- [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies
+- supersonic aircraft bodies→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

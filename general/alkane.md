@@ -72,12 +72,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2023-05-07T22:54:11.286935+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2024-01-04T20:17:51.259818+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[combustion](#combustion)
-2. [combustion](#combustion)→:::←[cracking](#cracking)
-3. [cracking](#cracking)→:::←[halogenation](#halogenation)
-4. [halogenation](#halogenation)→:::←_(end)_
+- _(begin)_→:::←[combustion](#combustion)
+- [combustion](#combustion)→:::←[cracking](#cracking)
+- [cracking](#cracking)→:::←[halogenation](#halogenation)
+- [halogenation](#halogenation)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

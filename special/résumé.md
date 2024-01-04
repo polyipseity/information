@@ -62,15 +62,15 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2023-10-05T10:38:05.832591+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-04T20:17:58.185753+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[profile summary](#profile%20summary)
-2. [profile summary](#profile%20summary)→:::←[education](#education)
-3. [education](#education)→:::←[achievements](#achievements)
-4. [achievements](#achievements)→:::←[experience](#experience)
-5. [experience](#experience)→:::←[skills](#skills)
-6. [skills](#skills)→:::←[others](#others)
-7. [others](#others)→:::←_(end)_
+- _(begin)_→:::←[profile summary](#profile%20summary)
+- [profile summary](#profile%20summary)→:::←[education](#education)
+- [education](#education)→:::←[achievements](#achievements)
+- [achievements](#achievements)→:::←[experience](#experience)
+- [experience](#experience)→:::←[skills](#skills)
+- [skills](#skills)→:::←[others](#others)
+- [others](#others)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

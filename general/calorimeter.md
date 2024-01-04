@@ -55,13 +55,13 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2845"--><!-- The following content is generated at 2023-04-02T00:29:33.583262+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2845"--><!-- The following content is generated at 2024-01-04T20:17:51.455468+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←conditions are not standard conditions
-2. conditions are not standard conditions→:::←heat capacities of equipment are not accounted for
-3. heat capacities of equipment are not accounted for→:::←heat loss to the surroundings
-4. heat loss to the surroundings→:::←reaction is incomplete
-5. reaction is incomplete→:::←_(end)_
+- _(begin)_→:::←conditions are not standard conditions
+- conditions are not standard conditions→:::←heat capacities of equipment are not accounted for
+- heat capacities of equipment are not accounted for→:::←heat loss to the surroundings
+- heat loss to the surroundings→:::←reaction is incomplete
+- reaction is incomplete→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

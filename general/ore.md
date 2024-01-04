@@ -56,14 +56,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0398da"--><!-- The following content is generated at 2023-03-21T16:44:17.518142+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0398da"--><!-- The following content is generated at 2024-01-04T20:17:52.269345+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[bauxite](bauxite.md)
-2. [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite
-3. [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite
-4. [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md)
-5. [galena](galena.md)→:::←[hematite](hematite.md)
-6. [hematite](hematite.md)→:::←_(end)_
+- _(begin)_→:::←[bauxite](bauxite.md)
+- [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite
+- [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite
+- [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md)
+- [galena](galena.md)→:::←[hematite](hematite.md)
+- [hematite](hematite.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

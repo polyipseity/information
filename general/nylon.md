@@ -70,18 +70,18 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d83e"--><!-- The following content is generated at 2023-04-08T00:21:13.406284+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d83e"--><!-- The following content is generated at 2024-01-04T20:17:52.459920+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←dyeable
-2. dyeable→:::←elastic
-3. elastic→:::←high tensile strength
-4. high tensile strength→:::←oil-proof
-5. oil-proof→:::←smooth
-6. smooth→:::←[strong](strength%20of%20materials.md)
-7. [strong](strength%20of%20materials.md)→:::←[tough](toughness.md)
-8. [tough](toughness.md)→:::←washable
-9. washable→:::←[waterproof](waterproof.md)
-10. [waterproof](waterproof.md)→:::←_(end)_
+- _(begin)_→:::←dyeable
+- dyeable→:::←elastic
+- elastic→:::←high tensile strength
+- high tensile strength→:::←oil-proof
+- oil-proof→:::←smooth
+- smooth→:::←[strong](strength%20of%20materials.md)
+- [strong](strength%20of%20materials.md)→:::←[tough](toughness.md)
+- [tough](toughness.md)→:::←washable
+- washable→:::←[waterproof](waterproof.md)
+- [waterproof](waterproof.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -79,14 +79,14 @@ Ordinary differential equations are furthered classified:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-09-26T08:47:40.062051+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2024-01-04T20:17:52.323867+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[autonomous](#^autonomous)
-2. [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous)
-3. [homogeneous](#^homogeneous)→:::←[linear](#^linear)
-4. [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous
-5. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear)
-6. [nonlinear](#^nonlinear)→:::←_(end)_
+- _(begin)_→:::←[autonomous](#^autonomous)
+- [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous)
+- [homogeneous](#^homogeneous)→:::←[linear](#^linear)
+- [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous
+- [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear)
+- [nonlinear](#^nonlinear)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

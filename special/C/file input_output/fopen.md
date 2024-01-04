@@ -79,15 +79,15 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b23d"--><!-- The following content is generated at 2023-08-25T12:57:45.196310+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b23d"--><!-- The following content is generated at 2024-01-04T20:17:58.525781+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←a
-2. a→:::←a+
-3. a+→:::←r
-4. r→:::←r+
-5. r+→:::←w
-6. w→:::←w+
-7. w+→:::←_(end)_
+- _(begin)_→:::←a
+- a→:::←a+
+- a+→:::←r
+- r→:::←r+
+- r+→:::←w
+- w→:::←w+
+- w+→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -81,12 +81,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2023-04-06T10:09:50.047710+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.145207+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[dehydration](#dehydration)
-2. [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution)
-3. [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation)
-4. [oxidation](#oxidation)→:::←_(end)_
+- _(begin)_→:::←[dehydration](#dehydration)
+- [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution)
+- [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation)
+- [oxidation](#oxidation)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -48,11 +48,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd21"--><!-- The following content is generated at 2023-04-07T10:29:27.473816+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd21"--><!-- The following content is generated at 2024-01-04T20:17:51.476474+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[desiccant](desiccant.md)
-2. [desiccant](desiccant.md)→:::←[separation](separation%20process.md)
-3. [separation](separation%20process.md)→:::←_(end)_
+- _(begin)_→:::←[desiccant](desiccant.md)
+- [desiccant](desiccant.md)→:::←[separation](separation%20process.md)
+- [separation](separation%20process.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

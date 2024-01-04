@@ -68,23 +68,23 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123480"--><!-- The following content is generated at 2023-03-14T22:09:57.737978+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123480"--><!-- The following content is generated at 2024-01-04T20:17:51.453474+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[N<sub>2</sub>](nitrogen.md)
-2. [N<sub>2</sub>](nitrogen.md)→:::←[O<sub>2</sub>](oxygen.md)
-3. [O<sub>2</sub>](oxygen.md)→:::←[Ar](argon.md)
-4. [Ar](argon.md)→:::←[CO<sub>2</sub>](carbon%20dioxide.md)
-5. [CO<sub>2</sub>](carbon%20dioxide.md)→:::←_others_
-6. _others_→:::←_(end)_
+- _(begin)_→:::←[N<sub>2</sub>](nitrogen.md)
+- [N<sub>2</sub>](nitrogen.md)→:::←[O<sub>2</sub>](oxygen.md)
+- [O<sub>2</sub>](oxygen.md)→:::←[Ar](argon.md)
+- [Ar](argon.md)→:::←[CO<sub>2</sub>](carbon%20dioxide.md)
+- [CO<sub>2</sub>](carbon%20dioxide.md)→:::←_others_
+- _others_→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1ad236"--><!-- The following content is generated at 2023-03-14T22:09:57.767517+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1ad236"--><!-- The following content is generated at 2024-01-04T20:17:51.424468+08:00. Any edits will be overridden! -->
 
-1. [N<sub>2</sub>](nitrogen.md)::78.084%
-2. [O<sub>2</sub>](oxygen.md)::20.946%
-3. [Ar](argon.md)::0.9340%
-4. [CO<sub>2</sub>](carbon%20dioxide.md)::0.0417% (2022-04-xx)
+- [N<sub>2</sub>](nitrogen.md)::78.084%
+- [O<sub>2</sub>](oxygen.md)::20.946%
+- [Ar](argon.md)::0.9340%
+- [CO<sub>2</sub>](carbon%20dioxide.md)::0.0417% (2022-04-xx)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

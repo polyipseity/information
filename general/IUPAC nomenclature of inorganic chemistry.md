@@ -52,14 +52,14 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="301d"--><!-- The following content is generated at 2023-03-20T16:11:54.318666+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="301d"--><!-- The following content is generated at 2024-01-04T20:17:51.930664+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.
-2. [Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.→:::←[Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).
-3. [Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).→:::←[Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.
-4. [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.
-5. [Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.→:::←"[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".
-6. "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_
+- _(begin)_→:::←[Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.
+- [Monoatomic](monoatomic%20molecule.md) [anions](ion.md) are suffixed by _-ide_.→:::←[Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).
+- [Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).→:::←[Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.
+- [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.
+- [Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.→:::←"[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".
+- "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -100,11 +100,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394d"--><!-- The following content is generated at 2023-03-20T16:11:54.346649+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394d"--><!-- The following content is generated at 2024-01-04T20:17:51.960665+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←lowest
-2. lowest→:::←highest
-3. highest→:::←_(end)_
+- _(begin)_→:::←lowest
+- lowest→:::←highest
+- highest→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

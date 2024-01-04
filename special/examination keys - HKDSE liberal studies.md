@@ -64,19 +64,19 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="83da"--><!-- The following content is generated at 2023-04-25T22:04:29.798660+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="83da"--><!-- The following content is generated at 2024-01-04T20:17:58.209272+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←affirming the consequent
-2. affirming the consequent→:::←appeal to authority
-3. appeal to authority→:::←appeal to tradition
-4. appeal to tradition→:::←guilt by association
-5. guilt by association→:::←hasty generalization
-6. hasty generalization→:::←popularity and testimonials
-7. popularity and testimonials→:::←post hoc
-8. post hoc→:::←self-contradiction
-9. self-contradiction→:::←virtue by association
-10. virtue by association→:::←weak analogies
-11. weak analogies→:::←_(end)_
+- _(begin)_→:::←affirming the consequent
+- affirming the consequent→:::←appeal to authority
+- appeal to authority→:::←appeal to tradition
+- appeal to tradition→:::←guilt by association
+- guilt by association→:::←hasty generalization
+- hasty generalization→:::←popularity and testimonials
+- popularity and testimonials→:::←post hoc
+- post hoc→:::←self-contradiction
+- self-contradiction→:::←virtue by association
+- virtue by association→:::←weak analogies
+- weak analogies→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -119,15 +119,15 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2023-04-25T22:14:31.375724+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←comparison
-2. comparison→:::←factor/reason
-3. factor/reason→:::←impact/problem
-4. impact/problem→:::←phenomenon
-5. phenomenon→:::←solution
-6. solution→:::←value judgement
-7. value judgement→:::←_(end)_
+- _(begin)_→:::←comparison
+- comparison→:::←factor/reason
+- factor/reason→:::←impact/problem
+- impact/problem→:::←phenomenon
+- phenomenon→:::←solution
+- solution→:::←value judgement
+- value judgement→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -176,11 +176,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384f"--><!-- The following content is generated at 2023-04-25T22:32:43.492593+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384f"--><!-- The following content is generated at 2024-01-04T20:17:58.281276+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>
-2. <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul>
-3. <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_
+- _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>
+- <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul>
+- <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -227,17 +227,17 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←according to/refer to
-2. according to/refer to→:::←cause/reason
-3. cause/reason→:::←effectiveness
-4. effectiveness→:::←factor
-5. factor→:::←feasibilities
-6. feasibilities→:::←pattern
-7. pattern→:::←trend
-8. trend→:::←with reference to
-9. with reference to→:::←_(end)_
+- _(begin)_→:::←according to/refer to
+- according to/refer to→:::←cause/reason
+- cause/reason→:::←effectiveness
+- effectiveness→:::←factor
+- factor→:::←feasibilities
+- feasibilities→:::←pattern
+- pattern→:::←trend
+- trend→:::←with reference to
+- with reference to→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -274,14 +274,14 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2023-04-25T22:46:19.911129+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2024-01-04T20:17:58.376802+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Sort or group data.
-2. Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.
-3. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures.
-4. Quote the figures.→:::←Analyze the figures by performing simple calculations.
-5. Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons.
-6. Deduce causes and reasons.→:::←_(end)_
+- _(begin)_→:::←Sort or group data.
+- Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.
+- Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures.
+- Quote the figures.→:::←Analyze the figures by performing simple calculations.
+- Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons.
+- Deduce causes and reasons.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -328,14 +328,14 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2023-04-26T19:16:21.053434+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2024-01-04T20:17:58.418327+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree…
-2. (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required.
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.
-4. (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal.
-5. Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance.
-6. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
+- _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree…
+- (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required.
+- Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.
+- (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal.
+- Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance.
+- (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -366,12 +366,12 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2023-04-26T23:59:07.528429+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2024-01-04T20:17:58.459904+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Evaluating effectiveness only by instantaneous effects.
-2. Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example.
-3. Hasty generalization with a single example.→:::←Perspectives are incorrect.
-4. Perspectives are incorrect.→:::←_(end)_
+- _(begin)_→:::←Evaluating effectiveness only by instantaneous effects.
+- Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example.
+- Hasty generalization with a single example.→:::←Perspectives are incorrect.
+- Perspectives are incorrect.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -404,13 +404,13 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2023-04-26T19:16:21.114781+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2024-01-04T20:17:58.481913+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your stance.
-2. (Introduction) State your stance.→:::←Define or explain key terms or criteria required.
-3. Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.
-4. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance.
-5. (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
+- _(begin)_→:::←(Introduction) State your stance.
+- (Introduction) State your stance.→:::←Define or explain key terms or criteria required.
+- Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.
+- (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance.
+- (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -439,11 +439,11 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2023-04-26T19:16:21.134727+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects.
-2. Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples.
-3. Oversimplification of examples.→:::←_(end)_
+- _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects.
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples.
+- Oversimplification of examples.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -478,14 +478,14 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2023-11-04T02:32:58.245397+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2024-01-04T20:17:59.928856+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(Introduction) State your solutions.
-2. (Introduction) State your solutions.→:::←State the problem or criteria required.
-3. State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
-4. (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
-5. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions.
-6. (Conclusion) Summarize solutions.→:::←_(end)_
+- _(begin)_→:::←(Introduction) State your solutions.
+- (Introduction) State your solutions.→:::←State the problem or criteria required.
+- State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.
+- (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
+- For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions.
+- (Conclusion) Summarize solutions.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -518,12 +518,12 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2023-04-26T22:09:23.264136+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2024-01-04T20:18:00.828927+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness.
-2. Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter.
-3. Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education.
-4. Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement.
-5. Suggesting legislation without considering enforcement.→:::←_(end)_
+- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness.
+- Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter.
+- Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education.
+- Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement.
+- Suggesting legislation without considering enforcement.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

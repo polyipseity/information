@@ -55,12 +55,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="232ba1"--><!-- The following content is generated at 2023-03-14T22:44:07.551779+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="232ba1"--><!-- The following content is generated at 2024-01-04T20:17:52.345867+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←food packaging
-2. food packaging→:::←making [ammonia](ammonia.md)
-3. making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md)
-4. [refrigerant](refrigerant.md)→:::←_(end)_
+- _(begin)_→:::←food packaging
+- food packaging→:::←making [ammonia](ammonia.md)
+- making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md)
+- [refrigerant](refrigerant.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

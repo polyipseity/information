@@ -71,22 +71,22 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bad29e"--><!-- The following content is generated at 2023-03-14T20:27:23.388951+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bad29e"--><!-- The following content is generated at 2024-01-04T20:17:52.433922+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[boiling point](boiling%20point.md)
-2. [boiling point](boiling%20point.md)→:::←[color](color.md)
-3. [color](color.md)→:::←[density](density.md)
-4. [density](density.md)→:::←[ductility](ductility.md)
-5. [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md)
-6. [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md)
-7. [hardness](hardness.md)→:::←[malleability](malleability.md)
-8. [malleability](malleability.md)→:::←[melting point](melting%20point.md)
-9. [melting point](melting%20point.md)→:::←[odor](odor.md)
-10. [odor](odor.md)→:::←[physical state](physical%20state.md)
-11. [physical state](physical%20state.md)→:::←[solubility](solubility.md)
-12. [solubility](solubility.md)→:::←[taste](taste.md)
-13. [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md)
-14. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
+- _(begin)_→:::←[boiling point](boiling%20point.md)
+- [boiling point](boiling%20point.md)→:::←[color](color.md)
+- [color](color.md)→:::←[density](density.md)
+- [density](density.md)→:::←[ductility](ductility.md)
+- [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md)
+- [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md)
+- [hardness](hardness.md)→:::←[malleability](malleability.md)
+- [malleability](malleability.md)→:::←[melting point](melting%20point.md)
+- [melting point](melting%20point.md)→:::←[odor](odor.md)
+- [odor](odor.md)→:::←[physical state](physical%20state.md)
+- [physical state](physical%20state.md)→:::←[solubility](solubility.md)
+- [solubility](solubility.md)→:::←[taste](taste.md)
+- [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md)
+- [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

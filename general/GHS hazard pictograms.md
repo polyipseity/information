@@ -61,18 +61,18 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2023-03-15T19:16:17.252430+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←GHS01: [explosive](explosive.md)
-2. GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md)
-3. GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md)
-4. GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md)
-5. GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md)
-6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md)
-7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful
-8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md)
-9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md)
-10. GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_
+- _(begin)_→:::←GHS01: [explosive](explosive.md)
+- GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md)
+- GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md)
+- GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md)
+- GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md)
+- GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md)
+- GHS06: [toxic](toxicity.md)→:::←GHS07: harmful
+- GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md)
+- GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md)
+- GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

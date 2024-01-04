@@ -55,15 +55,15 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029e"--><!-- The following content is generated at 2023-03-20T09:46:27.605210+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029e"--><!-- The following content is generated at 2024-01-04T20:17:52.350867+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[atomic radius](#atomic%20radius)
-2. [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity)
-3. [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity)
-4. [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy)
-5. [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character)
-6. [metallic character](#metallic%20character)→:::←[valence](#valence)
-7. [valence](#valence)→:::←_(end)_
+- _(begin)_→:::←[atomic radius](#atomic%20radius)
+- [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity)
+- [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity)
+- [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy)
+- [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character)
+- [metallic character](#metallic%20character)→:::←[valence](#valence)
+- [valence](#valence)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

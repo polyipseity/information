@@ -73,15 +73,15 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-28T21:01:29.604636+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2024-01-04T20:17:52.556525+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←\[[parameter](#parameter)\]
-2. \[[parameter](#parameter)\]→:::←\[[flags](#flags)\]
-3. \[[flags](#flags)\]→:::←\[[width](#width)\]
-4. \[[width](#width)\]→:::←\[.[precision](#precision)\]
-5. \[.[precision](#precision)\]→:::←\[[length](#length)\]
-6. \[[length](#length)\]→:::←[type](#type)
-7. [type](#type)→:::←_(end)_
+- _(begin)_→:::←\[[parameter](#parameter)\]
+- \[[parameter](#parameter)\]→:::←\[[flags](#flags)\]
+- \[[flags](#flags)\]→:::←\[[width](#width)\]
+- \[[width](#width)\]→:::←\[.[precision](#precision)\]
+- \[.[precision](#precision)\]→:::←\[[length](#length)\]
+- \[[length](#length)\]→:::←[type](#type)
+- [type](#type)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -114,10 +114,10 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c19d"--><!-- The following content is generated at 2023-08-24T22:44:32.846596+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←_n_$
-2. _n_$→:::←_(end)_
+- _(begin)_→:::←_n_$
+- _n_$→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -160,14 +160,14 @@ A combination of zero or more of the following in any order:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2024-01-04T19:31:50.097525+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←(space)
-2. (space)→:::←\#
-3. \#→:::←+
-4. +→:::←-
-5. -→:::←0
-6. 0→:::←_(end)_
+- _(begin)_→:::←(space)
+- (space)→:::←\#
+- \#→:::←+
+- +→:::←-
+- -→:::←0
+- 0→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -224,17 +224,17 @@ A combination of zero or more of the following in any order:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="beff"--><!-- The following content is generated at 2023-08-25T01:19:18.238502+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="beff"--><!-- The following content is generated at 2024-01-04T20:17:52.664065+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←L
-2. L→:::←h
-3. h→:::←hh
-4. hh→:::←j
-5. j→:::←l
-6. l→:::←ll
-7. ll→:::←t
-8. t→:::←z
-9. z→:::←_(end)_
+- _(begin)_→:::←L
+- L→:::←h
+- h→:::←hh
+- hh→:::←j
+- j→:::←l
+- l→:::←ll
+- ll→:::←t
+- t→:::←z
+- z→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -291,22 +291,22 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45dd"--><!-- The following content is generated at 2023-08-25T01:19:18.269420+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45dd"--><!-- The following content is generated at 2024-01-04T20:17:52.718619+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←%
-2. %→:::←a, A
-3. a, A→:::←c
-4. c→:::←d, i
-5. d, i→:::←e, E
-6. e, E→:::←f, F
-7. f, F→:::←g, G
-8. g, G→:::←n
-9. n→:::←o
-10. o→:::←p
-11. p→:::←s
-12. s→:::←u
-13. u→:::←x, X
-14. x, X→:::←_(end)_
+- _(begin)_→:::←%
+- %→:::←a, A
+- a, A→:::←c
+- c→:::←d, i
+- d, i→:::←e, E
+- e, E→:::←f, F
+- f, F→:::←g, G
+- g, G→:::←n
+- n→:::←o
+- o→:::←p
+- p→:::←s
+- s→:::←u
+- u→:::←x, X
+- x, X→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

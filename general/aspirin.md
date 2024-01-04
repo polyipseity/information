@@ -57,13 +57,13 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45af"--><!-- The following content is generated at 2023-04-07T10:57:10.995105+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45af"--><!-- The following content is generated at 2024-01-04T20:17:51.291378+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[analgesic](analgesic.md)
-2. [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md)
-3. [anti-inflammation](anti-inflammatory.md)→:::←prevention of [heart attack](myocardial%20infarction.md)
-4. prevention of [heart attack](myocardial%20infarction.md)→:::←relieve [fever](fever.md)
-5. relieve [fever](fever.md)→:::←_(end)_
+- _(begin)_→:::←[analgesic](analgesic.md)
+- [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md)
+- [anti-inflammation](anti-inflammatory.md)→:::←prevention of [heart attack](myocardial%20infarction.md)
+- prevention of [heart attack](myocardial%20infarction.md)→:::←relieve [fever](fever.md)
+- relieve [fever](fever.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -98,12 +98,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="78ae"--><!-- The following content is generated at 2023-04-07T11:04:50.189877+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="78ae"--><!-- The following content is generated at 2024-01-04T20:17:51.327355+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←increased bleeding risk
-2. increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md)
-3. [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md)
-4. [stomach upset](abdominal%20pain.md)→:::←_(end)_
+- _(begin)_→:::←increased bleeding risk
+- increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md)
+- [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md)
+- [stomach upset](abdominal%20pain.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -77,13 +77,13 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2023-03-22T16:57:47.716742+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2024-01-04T20:17:52.534830+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[cathodic protection](#cathodic%20protection)
-2. [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting)
-3. [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating)
-4. [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys)
-5. [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_
+- _(begin)_→:::←[cathodic protection](#cathodic%20protection)
+- [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting)
+- [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating)
+- [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys)
+- [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
