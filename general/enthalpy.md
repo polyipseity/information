@@ -121,38 +121,6 @@ For [chemical properties](chemical%20property.md):
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### physical properties
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
-return await memorize_map(
-  e.cwf_sects('bb12', '2440', '69ff'),
-  {
-  },
-)
-```
-
-%%
-
-For [physical properties](physical%20property.md):
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb12"--><!-- The following content is generated at 2023-04-02T00:06:47.143099+08:00. Any edits will be overridden! -->
-
->
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2440"--><!-- The following content is generated at 2023-04-02T00:06:47.124597+08:00. Any edits will be overridden! -->
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="69ff"--><!-- The following content is generated at 2023-04-02T00:06:47.106642+08:00. Any edits will be overridden! -->
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
 ## references
 
 This text incorporates [content](https://en.wikipedia.org/wiki/enthalpy) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

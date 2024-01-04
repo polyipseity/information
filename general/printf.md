@@ -130,7 +130,7 @@ return await memorize_table(
 from functools import partial
 e = __env__
 options = {
-  "  (space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
+  "(space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
   R"\#": "use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`",
   "+": 'prepend + before positive numbers',
   "-": "align left",
@@ -148,11 +148,11 @@ return await memorize_table(
 
 A combination of zero or more of the following in any order:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-08-28T16:44:43.033581+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2024-01-04T19:31:50.120526+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
-> | {{  (space)}} | {{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}} |
+> | {{(space)}} | {{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}} |
 > | {{\#}} | {{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}} |
 > | {{+}} | {{prepend + before positive numbers}} |
 > | {{-}} | {{align left}} |
@@ -160,9 +160,9 @@ A combination of zero or more of the following in any order:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2023-08-25T00:41:32.736032+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2024-01-04T19:31:50.097525+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←  (space)
+1. _(begin)_→:::←(space)
 2. (space)→:::←\#
 3. \#→:::←+
 4. +→:::←-
