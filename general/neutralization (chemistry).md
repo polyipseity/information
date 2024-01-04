@@ -59,13 +59,13 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="185a"--><!-- The following content is generated at 2023-03-23T11:23:52.665110+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="185a"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[antacids](antacid.md)
-2. [antacids](antacid.md)→:::←control of [soil pH](soil%20pH.md)
-3. control of [soil pH](soil%20pH.md)→:::←production of [fertilizer](fertilizer.md)
-4. production of [fertilizer](fertilizer.md)→:::←[wastewater treatment](water%20treatment.md)
-5. [wastewater treatment](water%20treatment.md)→:::←_(end)_
+- _(begin)_→:::←[antacids](antacid.md)
+- [antacids](antacid.md)→:::←control of [soil pH](soil%20pH.md)
+- control of [soil pH](soil%20pH.md)→:::←production of [fertilizer](fertilizer.md)
+- production of [fertilizer](fertilizer.md)→:::←[wastewater treatment](water%20treatment.md)
+- [wastewater treatment](water%20treatment.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

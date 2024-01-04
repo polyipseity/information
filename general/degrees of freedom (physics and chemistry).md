@@ -63,19 +63,19 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2bba"--><!-- The following content is generated at 2023-12-17T18:44:27.039680+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2bba"--><!-- The following content is generated at 2024-01-04T20:17:51.551995+08:00. Any edits will be overridden! -->
 
-1. [translation](translation%20(geometry).md) ($x, y, z$)::[monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3
-2. [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))::[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3
-3. [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))::[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$
+- [translation](translation%20(geometry).md) ($x, y, z$)::[monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3
+- [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))::[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3
+- [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))::[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="baa2"--><!-- The following content is generated at 2023-12-17T18:44:27.009934+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="baa2"--><!-- The following content is generated at 2024-01-04T20:17:51.576010+08:00. Any edits will be overridden! -->
 
-1. [monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3::[translation](translation%20(geometry).md) ($x, y, z$)
-2. [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3::[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))
-3. [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$::[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))
+- [monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3::[translation](translation%20(geometry).md) ($x, y, z$)
+- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3::[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))
+- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$::[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

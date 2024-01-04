@@ -46,12 +46,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aaee9e"--><!-- The following content is generated at 2023-03-14T22:39:01.204551+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aaee9e"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←breathing
-2. breathing→:::←burning of fuels
-3. burning of fuels→:::←medical use
-4. medical use→:::←_(end)_
+- _(begin)_→:::←breathing
+- breathing→:::←burning of fuels
+- burning of fuels→:::←medical use
+- medical use→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

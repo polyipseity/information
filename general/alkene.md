@@ -85,15 +85,15 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-04-05T09:33:57.175970+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2024-01-04T20:17:51.170254+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[combustion](#combustion)
-2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md)
-3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md)
-4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation)
-5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation)
-6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization)
-7. [polymerization](#polymerization)→:::←_(end)_
+- _(begin)_→:::←[combustion](#combustion)
+- [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md)
+- [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md)
+- [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation)
+- [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation)
+- [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization)
+- [polymerization](#polymerization)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

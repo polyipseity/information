@@ -52,13 +52,13 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23ba9d"--><!-- The following content is generated at 2023-03-15T19:10:41.952775+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23ba9d"--><!-- The following content is generated at 2024-01-04T20:17:52.690628+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Light a wooden splint.
-2. Light a wooden splint.→:::←Blow out the flame.
-3. Blow out the flame.→:::←Introduce the [ember](ember.md) into the gas sample trapped in a container.
-4. Introduce the [ember](ember.md) into the gas sample trapped in a container.→:::←Positive: The ember flares and reignites.
-5. Positive: The ember flares and reignites.→:::←_(end)_
+- _(begin)_→:::←Light a wooden splint.
+- Light a wooden splint.→:::←Blow out the flame.
+- Blow out the flame.→:::←Introduce the [ember](ember.md) into the gas sample trapped in a container.
+- Introduce the [ember](ember.md) into the gas sample trapped in a container.→:::←Positive: The ember flares and reignites.
+- Positive: The ember flares and reignites.→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -52,14 +52,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2023-04-07T09:29:00.966882+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2024-01-04T20:17:52.393394+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←availability
-2. availability→:::←formation of [by-products](by-product.md)
-3. formation of [by-products](by-product.md)→:::←number of steps
-4. number of steps→:::←[reaction rate](reaction%20rate.md)
-5. [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md)
-6. [yield](yield%20(chemistry).md)→:::←_(end)_
+- _(begin)_→:::←availability
+- availability→:::←formation of [by-products](by-product.md)
+- formation of [by-products](by-product.md)→:::←number of steps
+- number of steps→:::←[reaction rate](reaction%20rate.md)
+- [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md)
+- [yield](yield%20(chemistry).md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

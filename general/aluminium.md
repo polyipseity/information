@@ -54,14 +54,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2023-03-21T16:20:25.339364+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←aircraft bodies
-2. aircraft bodies→:::←kitchen foil
-3. kitchen foil→:::←overhead power cables
-4. overhead power cables→:::←soft drink cans
-5. soft drink cans→:::←window frames
-6. window frames→:::←_(end)_
+- _(begin)_→:::←aircraft bodies
+- aircraft bodies→:::←kitchen foil
+- kitchen foil→:::←overhead power cables
+- overhead power cables→:::←soft drink cans
+- soft drink cans→:::←window frames
+- window frames→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

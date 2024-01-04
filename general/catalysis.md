@@ -63,14 +63,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394f"--><!-- The following content is generated at 2023-04-03T21:50:10.322280+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394f"--><!-- The following content is generated at 2024-01-04T20:17:51.442492+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Haber process](Haber%20process.md)
-2. [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md)
-3. [contact process](contact%20process.md)→:::←[fermentation](fermentation.md)
-4. [fermentation](fermentation.md)→:::←[food browning](food%20browning.md)
-5. [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md)
-6. [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_
+- _(begin)_→:::←[Haber process](Haber%20process.md)
+- [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md)
+- [contact process](contact%20process.md)→:::←[fermentation](fermentation.md)
+- [fermentation](fermentation.md)→:::←[food browning](food%20browning.md)
+- [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md)
+- [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

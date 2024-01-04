@@ -170,21 +170,21 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2022-11-09T18:05:20.993142+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2024-01-04T20:17:52.046217+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
-2. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
-3. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains
-4. identify side-chains→:::←identify remaining functional groups
-5. identify remaining functional groups→:::←identify multiple bonds
-6. identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction)
-7. [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds
-8. number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix
-9. [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants
-10. (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation)
-11. [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations)
-12. [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism
-13. prefix notation for _cis_–_trans_ isomerism→:::←_(end)_
+- _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
+- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains
+- identify side-chains→:::←identify remaining functional groups
+- identify remaining functional groups→:::←identify multiple bonds
+- identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction)
+- [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds
+- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix
+- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants
+- (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation)
+- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations)
+- [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism
+- prefix notation for _cis_–_trans_ isomerism→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -202,14 +202,14 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2022-11-09T18:05:21.025142+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
-2. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds
-3. most multiple bonds→:::←maximum length
-4. maximum length→:::←most prefixes
-5. most prefixes→:::←most single bonds
-6. most single bonds→:::←_(end)_
+- _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
+- most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds
+- most multiple bonds→:::←maximum length
+- maximum length→:::←most prefixes
+- most prefixes→:::←most single bonds
+- most single bonds→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -223,12 +223,12 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2022-11-09T18:05:21.058142+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←smallest locant for the suffix functional group
-2. smallest locant for the suffix functional group→:::←smallest locant for multiple bonds
-3. smallest locant for multiple bonds→:::←smallest locant for prefixes
-4. smallest locant for prefixes→:::←_(end)_
+- _(begin)_→:::←smallest locant for the suffix functional group
+- smallest locant for the suffix functional group→:::←smallest locant for multiple bonds
+- smallest locant for multiple bonds→:::←smallest locant for prefixes
+- smallest locant for prefixes→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -241,11 +241,11 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2022-11-09T18:05:21.087142+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-01-04T20:17:52.087770+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count
-2. prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ...
-3. bond order: single bond, double bond, triple bond, ...→:::←_(end)_
+- _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count
+- prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ...
+- bond order: single bond, double bond, triple bond, ...→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -259,11 +259,11 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2022-11-06T20:13:24.211188+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
-1. suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e'
-2. bond suffix is followed by prefix for type count:::keep '-e'
-3. prefix for carbon count is followed by prefix for type count:::add '-a'
+- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e'
+- bond suffix is followed by prefix for type count:::keep '-e'
+- prefix for carbon count is followed by prefix for type count:::add '-a'
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -277,12 +277,12 @@ The steps for naming an organic compound are:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2022-11-09T18:05:21.147143+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2024-01-04T20:17:52.218337+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←commas (,) between locants
-2. commas (,) between locants→:::←hyphens (-) between word and locant
-3. hyphens (-) between word and locant→:::←remove (most) spaces ( )
-4. remove (most) spaces ( )→:::←_(end)_
+- _(begin)_→:::←commas (,) between locants
+- commas (,) between locants→:::←hyphens (-) between word and locant
+- hyphens (-) between word and locant→:::←remove (most) spaces ( )
+- remove (most) spaces ( )→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -645,18 +645,18 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2023-11-27T13:04:06.883282+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2024-01-04T20:17:52.277346+08:00. Any edits will be overridden! -->
 
-1. _(highest)_→:::←cation
-2. cation→:::←carboxylic acid
-3. carboxylic acid→:::←carboxylic acid derivative
-4. carboxylic acid derivative→:::←nitrile
-5. nitrile→:::←aldehyde
-6. aldehyde→:::←ketone
-7. ketone→:::←alcohol
-8. alcohol→:::←hydroperoxide
-9. hydroperoxide→:::←amine
-10. amine→:::←_(lowest)_
+- _(highest)_→:::←cation
+- cation→:::←carboxylic acid
+- carboxylic acid→:::←carboxylic acid derivative
+- carboxylic acid derivative→:::←nitrile
+- nitrile→:::←aldehyde
+- aldehyde→:::←ketone
+- ketone→:::←alcohol
+- alcohol→:::←hydroperoxide
+- hydroperoxide→:::←amine
+- amine→:::←_(lowest)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -695,14 +695,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2023-04-04T22:14:28.241195+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2024-01-04T20:17:52.316866+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[acetic acid](acetic%20acid.md)
-2. [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md)
-3. [acetone](acetone.md)→:::←[chloroform](chloroform.md)
-4. [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md)
-5. [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md)
-6. [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_
+- _(begin)_→:::←[acetic acid](acetic%20acid.md)
+- [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md)
+- [acetone](acetone.md)→:::←[chloroform](chloroform.md)
+- [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md)
+- [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md)
+- [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -75,11 +75,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2023-04-08T23:59:05.301619+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2024-01-04T20:17:51.842124+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis)
-2. [hydrolysis](#hydrolysis)→:::←[substitution](#substitution)
-3. [substitution](#substitution)→:::←_(end)_
+- _(begin)_→:::←[hydrolysis](#hydrolysis)
+- [hydrolysis](#hydrolysis)→:::←[substitution](#substitution)
+- [substitution](#substitution)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

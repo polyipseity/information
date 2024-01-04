@@ -58,16 +58,16 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2023-03-19T22:23:17.214515+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←appearance
-2. appearance→:::←deformability (as a solid)
-3. deformability (as a solid)→:::←[density](density.md)
-4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md)
-5. [electrical conductivity](electrical%20conductivity.md)→:::←form
-6. form→:::←[melting point](melting%20point.md)
-7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md)
-8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
+- _(begin)_→:::←appearance
+- appearance→:::←deformability (as a solid)
+- deformability (as a solid)→:::←[density](density.md)
+- [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md)
+- [electrical conductivity](electrical%20conductivity.md)→:::←form
+- form→:::←[melting point](melting%20point.md)
+- [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md)
+- [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -55,11 +55,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="284d"--><!-- The following content is generated at 2023-03-20T12:51:18.460734+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="284d"--><!-- The following content is generated at 2024-01-04T20:17:52.390426+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←__duplet rule__
-2. __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__
-3. __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_
+- _(begin)_→:::←__duplet rule__
+- __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__
+- __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

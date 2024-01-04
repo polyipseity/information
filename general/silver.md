@@ -47,11 +47,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba04"--><!-- The following content is generated at 2023-03-21T16:20:25.412341+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba04"--><!-- The following content is generated at 2024-01-04T20:17:52.603049+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←coins, jewellery
-2. coins, jewellery→:::←electrical and electronic components
-3. electrical and electronic components→:::←_(end)_
+- _(begin)_→:::←coins, jewellery
+- coins, jewellery→:::←electrical and electronic components
+- electrical and electronic components→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

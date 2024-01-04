@@ -53,12 +53,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dafb"--><!-- The following content is generated at 2023-04-08T14:02:07.542272+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dafb"--><!-- The following content is generated at 2024-01-04T20:17:52.737603+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[catalytic](catalysis.md) properties
-2. [catalytic](catalysis.md) properties→:::←colored [ions](ion.md)
-3. colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md)
-4. variable [oxidation states](oxidation%20state.md)→:::←_(end)_
+- _(begin)_→:::←[catalytic](catalysis.md) properties
+- [catalytic](catalysis.md) properties→:::←colored [ions](ion.md)
+- colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md)
+- variable [oxidation states](oxidation%20state.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

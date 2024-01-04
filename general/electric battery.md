@@ -76,12 +76,12 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-03-30T18:11:29.706415+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2024-01-04T20:17:51.686624+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[alkaline](alkaline%20battery.md)
-2. [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md)
-3. [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride
-4. [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_
+- _(begin)_→:::←[alkaline](alkaline%20battery.md)
+- [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md)
+- [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -97,12 +97,12 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="6661"--><!-- The following content is generated at 2023-03-30T09:25:01.110324+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="6661"--><!-- The following content is generated at 2024-01-04T20:17:51.711635+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md)
-2. [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md)
-3. [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md)
-4. [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_
+- _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md)
+- [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md)
+- [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md)
+- [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
