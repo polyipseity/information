@@ -7,20 +7,23 @@ tags:
   - languages/in/English
 ---
 
+# Haber process
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# Haber process
+%%
 
 The __Haber process__ or __Haber–Bosch process__ is {{the main industrial process for [ammonia production](ammonia%20production.md)}}. <!--SR:!2024-02-29,213,310-->
 
 The primary reaction is:
 
 > primary reaction
+>
 > - {{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=-91.8\ \text{kJ mol}^{-1}$}} <!--SR:!2024-02-15,48,190-->
 
 ## process
@@ -34,6 +37,7 @@ The primary reaction is:
 [Hydrogen](hydrogen.md) is obtained {{from the [electrolysis](electrolysis.md) of [brine](brine.md) and as a [by-product](by-product.md) of [cracking](cracking%20(chemistry).md) of [petroleum](petroleum.md), but the major source is [methane](methane.md)}}. <!--SR:!2024-03-09,195,250-->
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -47,6 +51,7 @@ return await memorize_seq(
   pretext=context, posttext=context,
 )
 ```
+
 %%
 
 Starting with a [natural gas](natural%20gas.md) feedstock:
@@ -82,6 +87,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#fffc51" title="#FFFC51">&#xFEFF;</span></span> ammonia condenser <!--SR:!2024-01-10,159,250-->
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -100,6 +106,7 @@ return await memorize_seq(
   pretext=context, posttext=context,
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff91"--><!-- The following content is generated at 2023-05-02T10:02:01.861492+08:00. Any edits will be overridden! -->

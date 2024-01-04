@@ -16,7 +16,7 @@ tags:
 > {{$$P = \frac{\mathrm{d}W}{\mathrm{d}t}$$}}
 >
 > - where
->     - {{$P$ is __power__, $W$ is [work](work%20(physics).md), and $t$ is [time](time.h)}} <!--SR:!2024-02-24,53,310!2024-03-06,62,310-->
+>   - {{$P$ is __power__, $W$ is [work](work%20(physics).md), and $t$ is [time](time.h)}} <!--SR:!2024-02-24,53,310!2024-03-06,62,310-->
 
 ## references
 

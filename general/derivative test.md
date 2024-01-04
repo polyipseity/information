@@ -68,6 +68,8 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 > 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md). $I$ is an [interval](interval%20(mathematics).md) containing $c$. $f$ is [right/left-differentiable](differentiable%20function.md) at $c$, i.e. $f'_\pm(c)$ exists. (Choose either right (`+`) or left (`-`).)}}
 > 2. {{then:<ul><li>If $f'_-(c)<0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_-(c)>0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_+(c)<0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>If $f'_+(c)>0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>Otherwise, the test is inconclusive.</li></ul>}} <!--SR:!2024-01-24,30,239!2024-01-11,30,279-->
 
+<!-- markdownlint MD028 -->
+
 > [!example] examples
 >
 > - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
@@ -111,9 +113,13 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 > 2. {{If $f'_\pm(c)=\cdots=f^{(n-1)}_\pm(c)=0$ and $f^{(n)}_\pm(c)\ne0$, (Choose either right (`+`) or left (`-`).)}}
 > 3. {{then:<ul><li>If $n$ is even and $f^{(n)}_-(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [strictly concave](concave%20function.md) to the immediate left of $c$.</li><li>If $n$ is even and $f^{(n)}_-(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [strictly convex](convex%20function.md) to the immediate left of $c$.</li><li>If $n$ is odd and $f^{(n)}_-(c)<0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [strictly convex](convex%20function.md) to the immediate left of $c$.</li><li>If $n$ is odd and $f^{(n)}_-(c)>0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the left. $f$ is [strictly concave](concave%20function.md) to the immediate left of $c$.</li><li>If $f^{(n)}_+(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$ from the right. $f$ is [strictly concave](concave%20function.md) to the immediate right of $c$.</li><li>If $f^{(n)}_+(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$ from the right. $f$ is [strictly convex](convex%20function.md) to the immediate right of $c$.</li></ul>}} <!--SR:!2024-02-18,51,259!2024-02-25,69,319!2024-02-04,42,259-->
 
+<!-- markdownlint MD028 -->
+
 > [!tip] tip
 >
 > - [intuition](intuition.md): {{Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities.}} <!--SR:!2024-01-08,27,279-->
+
+<!-- markdownlint MD028 -->
 
 > [!example] examples
 >

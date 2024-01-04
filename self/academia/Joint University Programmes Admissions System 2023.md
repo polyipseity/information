@@ -30,9 +30,7 @@ tags:
 [JS5282]: https://www.jupas.edu.hk/en/programme/hkust/JS5282/
 [JS5313]: https://www.jupas.edu.hk/en/programme/hkust/JS5313/
 [JS5331]: https://www.jupas.edu.hk/en/programme/hkust/JS5331/
-[JS5332]: https://www.jupas.edu.hk/en/programme/hkust/JS5332/
 [JS5822]: https://www.jupas.edu.hk/en/programme/hkust/JS5822/
-[JS5901]: https://www.jupas.edu.hk/en/programme/hkust/JS5901/
 [JS6212]: https://www.jupas.edu.hk/en/programme/hku/JS6212/
 [JS6901]: https://www.jupas.edu.hk/en/programme/hku/JS6901/
 [PolyU]: https://www.jupas.edu.hk/en/programmes-offered/polyu/
@@ -48,10 +46,11 @@ tags:
 | [HKUST] | 3322+33 | -1, band A, >median@2022 |
 | [PolyU] | 3322+33 | -1, band A |
 
-__key__
-- -_n_: underperform by _n_ level(s) in total
-- ≥_n_: at least level _n_
-- ×_n_: score multiplier
+> __key__
+>
+> - -_n_: underperform by _n_ level(s) in total
+> - ≥_n_: at least level _n_
+> - ×_n_: score multiplier
 
 ### programmes
 

@@ -10,21 +10,23 @@ tags:
   - languages/in/English
 ---
 
+# polytropic process
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# polytropic process
+%%
 
 > __polytropic process__
 >
 > {{$$pV^n = C$$}}
 >
 > - where
->     - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}} <!--SR:!2024-01-05,16,290!2024-02-28,56,310-->
+>   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}} <!--SR:!2024-01-05,16,290!2024-02-28,56,310-->
 
 ## relation between polytropic index and energy transfer ratio
 
@@ -33,8 +35,8 @@ tags:
 > {{$$pV^{(1 - \gamma)K + \gamma} = C$$}}
 >
 > - where
->     - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
->     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
+>   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
+>   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
 > - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-18,14,250!2024-02-26,55,310!2024-02-07,39,290!2024-02-03,36,290-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows:
@@ -64,6 +66,7 @@ pV^{(1 - \gamma)K + \gamma} &= C
 ### variation of polytropic index _n_
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
@@ -92,6 +95,7 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029f"--><!-- The following content is generated at 2023-12-15T10:02:45.991107+08:00. Any edits will be overridden! -->

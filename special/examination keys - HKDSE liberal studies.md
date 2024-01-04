@@ -5,14 +5,16 @@ tags:
   - languages/in/English
 ---
 
+# examination keys
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# examination keys
+%%
 HKDSE liberal studies
 
 ## logic
@@ -20,6 +22,7 @@ HKDSE liberal studies
 ### fallacies
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -41,6 +44,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff91"--><!-- The following content is generated at 2023-04-25T22:04:29.810183+08:00. Any edits will be overridden! -->
@@ -81,6 +85,7 @@ return await memorize_table(
 ### question types
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -98,6 +103,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="385a"--><!-- The following content is generated at 2023-04-25T22:14:31.359212+08:00. Any edits will be overridden! -->
@@ -128,6 +134,7 @@ return await memorize_table(
 ### question words
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -157,6 +164,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102d"--><!-- The following content is generated at 2023-12-04T08:21:59.272356+08:00. Any edits will be overridden! -->
@@ -179,6 +187,7 @@ return await memorize_table(
 ### keywords
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -198,6 +207,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2024-03-02,63,230-->
@@ -236,6 +246,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 ### statistics
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -250,6 +261,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd1a"--><!-- The following content is generated at 2023-04-25T22:46:19.896422+08:00. Any edits will be overridden! -->
@@ -288,6 +300,7 @@ In general, essays consists of {{introduction, body, and conclusion}}. They shou
 ### to what extent
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -302,6 +315,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2ea8"--><!-- The following content is generated at 2023-04-26T19:16:21.070897+08:00. Any edits will be overridden! -->
@@ -325,9 +339,10 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### common mistakes
+#### common mistakes for to what extent
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -340,6 +355,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48fa"--><!-- The following content is generated at 2023-04-26T23:59:07.510478+08:00. Any edits will be overridden! -->
@@ -362,6 +378,7 @@ return await memorize_seq(
 ### comparison
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -375,6 +392,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4491"--><!-- The following content is generated at 2023-04-26T19:16:21.093837+08:00. Any edits will be overridden! -->
@@ -396,9 +414,10 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### common mistakes
+#### common mistakes for comparison
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -410,6 +429,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3dda"--><!-- The following content is generated at 2023-04-26T19:16:21.155751+08:00. Any edits will be overridden! -->
@@ -430,6 +450,7 @@ return await memorize_seq(
 ### solution
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -444,6 +465,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5fab"--><!-- The following content is generated at 2023-11-04T02:32:58.267357+08:00. Any edits will be overridden! -->
@@ -467,9 +489,10 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### common mistakes
+#### common mistakes for solution
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -483,6 +506,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4401"--><!-- The following content is generated at 2023-04-26T22:09:23.283310+08:00. Any edits will be overridden! -->

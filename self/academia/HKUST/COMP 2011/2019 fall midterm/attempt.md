@@ -8,7 +8,7 @@ tags:
 
 # 2019 fall midterm attempt
 
-_HKUST COMP 2011_
+HKUST COMP 2011
 
 - time allowed: 2023-09-23T23:30:00+08:00/PT2H
 - time used: 2023-09-23T23:30:00+08:00/PT1H16M
@@ -29,7 +29,6 @@ _HKUST COMP 2011_
 > 11. 8
 >
 > - answer: `5 4 2 7`
-
 
 ## problem 2 (9 points)
 

@@ -16,6 +16,7 @@ The {{Rayleigh}}'s criterion is that {{two point sources are considered just res
 According to the criterion, diffraction through a circular [aperture](aperture.md) gives:
 
 > diffraction {{through a circular [aperture](aperture.md)}}
+>
 > - {{$\theta\approx1.22\frac\lambda{D}\quad\mathrm{(considering\ that\ \sin\theta\approx\theta)}$}}
 >
 > where {{_θ_ is _angular resolution_ in [radians](radian.md), _λ_ is the [wavelength](wavelength.md), and _D_ is the [diameter](diameter.md) of the [aperture](aperture.md)}}. <!--SR:!2025-02-20,503,330!2024-02-04,186,290!2025-07-14,591,310-->

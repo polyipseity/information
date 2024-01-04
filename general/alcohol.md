@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# alcohol
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# alcohol
+%%
 
 ## physical properties
 
@@ -51,6 +53,7 @@ To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{h
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -65,6 +68,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2023-04-06T10:09:50.059971+08:00. Any edits will be overridden! -->

@@ -10,7 +10,7 @@ tags:
 
 # `scanf`
 
-# placeholder
+## placeholder
 
 See [`printf` § placeholder](printf.md#placeholder).
 

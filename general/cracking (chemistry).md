@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# cracking (chemistry)
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# cracking (chemistry)
+%%
 
 __Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2024-05-04,291,290!2024-06-16,305,290-->
 
@@ -23,6 +25,7 @@ It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. 
 ## methodologies
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -36,6 +39,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="923d"--><!-- The following content is generated at 2023-03-25T13:57:02.622846+08:00. Any edits will be overridden! -->

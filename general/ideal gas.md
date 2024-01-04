@@ -7,20 +7,23 @@ tags:
   - languages/in/English
 ---
 
+# ideal gas
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# ideal gas
+%%
 
 ## classical thermodynamic ideal gas
 
 ### assumptions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -36,6 +39,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33dd"--><!-- The following content is generated at 2023-12-13T23:09:10.754806+08:00. Any edits will be overridden! -->

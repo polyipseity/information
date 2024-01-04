@@ -8,18 +8,21 @@ tags:
   - languages/in/English
 ---
 
+# `printf`
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# `printf`
+%%
 
 ## placeholder
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import text
@@ -48,6 +51,7 @@ return (
   ),
 )
 ```
+
 %%
 
 ### syntax
@@ -84,6 +88,7 @@ return (
 ### parameter
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -98,6 +103,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f192"--><!-- The following content is generated at 2023-08-24T22:47:11.290253+08:00. Any edits will be overridden! -->
@@ -118,12 +124,13 @@ return await memorize_table(
 ### flags
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
 e = __env__
 options = {
-  "  (space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
+  "(space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
   R"\#": "use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`",
   "+": 'prepend + before positive numbers',
   "-": "align left",
@@ -136,15 +143,16 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 A combination of zero or more of the following in any order:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2023-08-28T16:44:43.033581+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2024-01-04T19:31:50.120526+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
-> | {{  (space)}} | {{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}} |
+> | {{(space)}} | {{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}} |
 > | {{\#}} | {{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}} |
 > | {{+}} | {{prepend + before positive numbers}} |
 > | {{-}} | {{align left}} |
@@ -152,10 +160,10 @@ A combination of zero or more of the following in any order:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2023-08-25T00:41:32.736032+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2024-01-04T19:31:50.097525+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←  (space) <!--SR:!2024-05-01,180,317!2024-05-20,199,329-->
-2.   (space)→:::←\# <!--SR:!2024-01-18,25,249!2024-06-03,213,329-->
+1. _(begin)_→:::←(space) <!--SR:!2024-05-01,180,317!2024-05-20,199,329-->
+2. (space)→:::←\# <!--SR:!2024-01-18,25,249!2024-06-03,213,329-->
 3. \#→:::←+ <!--SR:!2024-04-15,164,309!2024-02-13,74,289-->
 4. +→:::←- <!--SR:!2024-05-28,207,329!2024-05-15,194,329-->
 5. -→:::←0 <!--SR:!2024-05-12,191,317!2024-03-30,148,297-->
@@ -174,6 +182,7 @@ An integer or {{`*` specifying the precision, the meaning of which depends on th
 ### length
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -195,6 +204,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 A combination of zero or more of the following in any order:
@@ -231,6 +241,7 @@ A combination of zero or more of the following in any order:
 ### type
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -257,6 +268,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="40db"--><!-- The following content is generated at 2023-09-16T08:38:52.742774+08:00. Any edits will be overridden! -->

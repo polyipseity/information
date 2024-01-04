@@ -7,7 +7,10 @@ tags:
   - languages/in/English
 ---
 
+# conversion of scales of temperature
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
@@ -44,15 +47,15 @@ return {
   "t_rankine": t_rankine,
 }
 ```
-%%
 
-# conversion of scales of temperature
+%%
 
 ## Celsius scale
 
 - see: [Celsius](Celsius.md)
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -63,6 +66,7 @@ return await conversion_table(
   (t_rankine, "x °C ≘ (x + 273.15) × 9/5 °R", "x °R ≘ (x − 491.67) × 5/9 °C",),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5ffa"--><!-- The following content is generated at 2023-12-17T17:08:50.524420+08:00. Any edits will be overridden! -->
@@ -96,6 +100,7 @@ return await conversion_table(
 - see: [Kelvin](Kelvin.md)
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -106,6 +111,7 @@ return await conversion_table(
   (t_rankine, "x K ≘ x × 9/5 °R", "x °R ≘ x × 5/9 K",),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="955a"--><!-- The following content is generated at 2023-12-17T17:08:50.664363+08:00. Any edits will be overridden! -->
@@ -139,6 +145,7 @@ return await conversion_table(
 - see: [Fahrenheit](Fahrenheit.md)
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -149,6 +156,7 @@ return await conversion_table(
   (t_rankine, "x °F ≘ (x + 459.67) °R", "x °R ≘ (x − 459.67) °F",),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46ab"--><!-- The following content is generated at 2023-12-17T17:08:50.710874+08:00. Any edits will be overridden! -->
@@ -182,6 +190,7 @@ return await conversion_table(
 - see: [Rankine scale](Rankine%20scale.md)
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -192,6 +201,7 @@ return await conversion_table(
   (t_fahrenheit, "x °R ≘ (x − 459.67) °F", "x °F ≘ (x + 459.67) °R",),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b0a9"--><!-- The following content is generated at 2023-12-17T17:08:50.748638+08:00. Any edits will be overridden! -->

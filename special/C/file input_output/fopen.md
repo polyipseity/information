@@ -9,14 +9,16 @@ tags:
   - languages/in/English
 ---
 
+# `fopen`
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../../../tools/utility.py.md
 ```
-%%
 
-# `fopen`
+%%
 
 - _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2024-05-09,188,310-->
 
@@ -41,6 +43,7 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 ### modes
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -60,6 +63,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-25T12:57:43.306675+08:00. Any edits will be overridden! -->

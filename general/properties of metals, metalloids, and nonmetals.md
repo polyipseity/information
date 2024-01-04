@@ -6,18 +6,21 @@ tags:
   - languages/in/English
 ---
 
+# properties of metals, metalloids, and nonmetals
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# properties of metals, metalloids, and nonmetals
+%%
 
 ## comparison
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -36,6 +39,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 Compare with [nonmetal § properties](nonmetal.md#properties).

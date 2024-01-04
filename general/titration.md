@@ -9,14 +9,16 @@ tags:
   - languages/in/English
 ---
 
+# titration
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# titration
+%%
 
 __Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2024-10-02,376,270-->
 
@@ -33,6 +35,7 @@ If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) a
 ## measurement
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -46,6 +49,7 @@ return await memorize_table(
   ),
 )
 ```
+
 %%
 
 Methods to determine the end point include:

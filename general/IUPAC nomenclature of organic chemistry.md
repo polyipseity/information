@@ -6,20 +6,23 @@ tags:
   - languages/in/English
 ---
 
+# IUPAC nomenclature of organic chemistry
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# IUPAC nomenclature of organic chemistry
+%%
 
 The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md). <!--SR:!2024-05-26,342,363-->
 
 ## principles
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
@@ -146,6 +149,7 @@ return (
   ),
 )
 ```
+
 %%
 
 The steps for naming an organic compound are:
@@ -293,6 +297,7 @@ See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)
 ## functional groups
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
@@ -352,11 +357,13 @@ return (
   util.Result(
     location=__env__.cwf_sect('a39fd2'),
     text=gen.cloze_text(text,
+      separator="\n\n<!-- markdownlint MD028 -->\n\n",
       states=await read.read_flashcard_states(__env__.cwf_sect('a39fd2')),
     ),
   ),
 )
 ```
+
 %%
 
 Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bonds must use suffixes. Always add infixes.
@@ -386,6 +393,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2022-11-04T23:41:04.458936+08:00. Any edits will be overridden! -->
 
 > {{alkane}}
+>
 > - group: {{alkyl}}
 > - formula: {{R(CH<sub>2</sub>)<sub>n</sub>H}}
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
@@ -393,7 +401,10 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - infix: {{(none), (locant)}}
 > - cyclic prefix: {{cyclo-}} <!--SR:!2024-04-09,412,368!2024-04-07,411,368!2024-12-06,523,348!2027-10-17,1405,368!2024-04-03,407,368!2026-09-16,1012,348!2024-04-04,408,368-->
 
+<!-- markdownlint MD028 -->
+
 > {{alkene}}
+>
 > - group: {{alkenyl}}
 > - formula: {{R<sub>2</sub>C=CR<sub>2</sub>}}
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
@@ -401,7 +412,10 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - infix: {{(locant)}}
 > - cyclic prefix: {{cyclo-}} <!--SR:!2024-02-17,370,360!2024-05-07,437,362!2027-04-03,1256,362!2024-01-06,310,302!2024-05-02,430,362!2024-04-30,428,362!2025-03-06,644,327-->
 
+<!-- markdownlint MD028 -->
+
 > {{alkyne}}
+>
 > - group: {{alkynyl}}
 > - formula: {{RC≡CR'}}
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
@@ -409,84 +423,120 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - infix: {{(locant)}}
 > - cyclic prefix: {{cyclo-}} <!--SR:!2026-02-11,918,340!2025-03-16,649,320!2024-04-28,426,360!2025-09-25,682,281!2024-05-31,456,362!2024-02-19,372,362!2026-10-21,1140,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{benzene derivative}}
+>
 > - group: {{phenyl}}
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
 > - infix: {{(locant)}} <!--SR:!2024-06-29,406,300!2025-06-11,723,340!2027-07-13,1326,362!2026-12-12,1177,362!2024-05-22,383,302!2026-10-01,1023,347-->
 
+<!-- markdownlint MD028 -->
+
 > {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
+>
 > - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
 > - infix: {{(locant)}} <!--SR:!2026-11-16,1064,320!2025-06-25,688,321!2024-05-26,453,362!2024-03-06,353,302!2026-04-24,903,305!2024-04-27,428,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{alcohol}}
+>
 > - group: {{hydroxyl}}
 > - formula: {{ROH}}
 > - prefix: {{hydroxy-}}
 > - suffix: {{-ol}}
 > - infix: {{(locant)}} <!--SR:!2024-05-06,436,362!2024-05-03,431,362!2024-05-28,453,362!2024-03-28,401,365!2027-08-18,1353,365!2024-04-01,405,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{ether}}
+>
 > - group: {{ether}}
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
 > - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2024-01-09,101,210!2026-02-24,925,345!2024-01-08,338,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{aldehyde}}
+>
 > - group: {{aldehyde}}
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
 > - infix: {{(locant)}} <!--SR:!2024-02-21,374,362!2028-01-06,1463,362!2025-01-20,605,322!2024-02-03,44,130!2025-09-10,677,285!2024-01-15,344,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{ketone}}
+>
 > - group: {{carbonyl}}
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR')}}
 > - suffix: {{-one}}
 > - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2024-01-14,14,130!2024-06-02,458,362!2024-05-01,429,362-->
 
+<!-- markdownlint MD028 -->
+
 > {{carboxylic acid}}
+>
 > - group: {{carboxyl}}
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
 > - infix: {{(locant)}} <!--SR:!2025-08-29,784,340!2024-11-03,544,322!2024-04-29,427,362!2024-12-13,543,322!2024-03-05,317,305!2024-04-02,406,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{carboxylate}}
+>
 > - group: {{carboxylate}}
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
 > - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2025-11-12,732,282!2026-01-09,832,302!2024-01-26,353,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{alkanoyl}}
+>
 > - group: {{acyl}}
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
 > - infix: {{(locant)}} <!--SR:!2024-06-17,405,281!2024-02-02,295,302!2024-05-25,452,362!2024-10-16,314,222!2024-06-14,252,227!2024-04-22,424,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{amine}}
+>
 > - group: {{amino}}
 > - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
 > - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
 > - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
 > - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2027-03-08,1174,365!2024-03-24,397,365!2025-02-17,627,325!2024-11-18,518,325!2024-10-03,419,287!2025-06-09,664,327-->
 
+<!-- markdownlint MD028 -->
+
 > {{amide}}
+>
 > - group: {{amide}}
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
 > - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2026-04-27,911,305!2027-08-26,1378,367-->
 
+<!-- markdownlint MD028 -->
+
 > {{nitrile}}
+>
 > - group: {{nitrile}}
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
@@ -498,6 +548,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 ### affixes for halogen
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
@@ -528,6 +579,7 @@ return (
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="adc061"--><!-- The following content is generated at 2023-03-20T16:20:31.116658+08:00. Any edits will be overridden! -->
@@ -544,6 +596,7 @@ return (
 ### precedence of functional groups
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
@@ -575,6 +628,7 @@ return (
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2023-11-27T13:04:06.855552+08:00. Any edits will be overridden! -->
@@ -609,6 +663,7 @@ return (
 ## trivial names
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -625,6 +680,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f91a"--><!-- The following content is generated at 2023-04-04T23:50:24.828005+08:00. Any edits will be overridden! -->

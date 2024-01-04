@@ -7,18 +7,21 @@ tags:
   - languages/in/English
 ---
 
+# list of trigonometric identities
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# list of trigonometric identities
+%%
 
 ## overview
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -34,6 +37,7 @@ return await memorize_table(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4949"--><!-- The following content is generated at 2024-01-03T09:39:48.167446+08:00. Any edits will be overridden! -->
@@ -62,6 +66,7 @@ return await memorize_table(
 ## Pythagorean identities
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
@@ -76,6 +81,7 @@ return await memorize_map(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958f"--><!-- The following content is generated at 2023-12-29T17:59:38.650037+08:00. Any edits will be overridden! -->
@@ -106,6 +112,7 @@ return await memorize_map(
 ## angle sum and difference
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
@@ -119,6 +126,7 @@ return await memorize_map(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f823"--><!-- The following content is generated at 2023-11-21T01:16:38.253997+08:00. Any edits will be overridden! -->
@@ -146,6 +154,7 @@ return await memorize_map(
 ## multiple-angle
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
@@ -159,6 +168,7 @@ return await memorize_map(
   ),
 )
 ```
+
 %%
 
 ### double-angle
@@ -183,6 +193,8 @@ return await memorize_map(
 >
 > - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}} <!--SR:!2024-01-06,15,305-->
 
+<!-- markdownlint MD028 -->
+
 > [!example] examples
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-02-13,42,307!2024-01-10,17,307-->
@@ -197,6 +209,7 @@ return await memorize_map(
 ## product-to-sum and sum-to-product
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather
@@ -224,6 +237,7 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
+
 %%
 
 ### product-to-sum
@@ -289,8 +303,10 @@ return chain.from_iterable(await gather(
 > {{$$a \cos x + b \sin x = c \cos(x + \varphi)$$}}
 >
 > - where
->     - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
+>   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
 > - conditions: {{$a \ne 0$}} <!--SR:!2024-01-07,13,289!2024-01-24,25,289!2024-01-10,16,309-->
+
+<!-- markdownlint MD028 -->
 
 > [!example] examples
 >

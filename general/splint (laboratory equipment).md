@@ -8,14 +8,16 @@ tags:
   - languages/in/English
 ---
 
+# splint (laboratory equipment)
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# splint (laboratory equipment)
+%%
 
 ## uses
 
@@ -24,6 +26,7 @@ tags:
 It is a test for an [oxidizing](oxidization.md) gas.
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -37,6 +40,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28a383"--><!-- The following content is generated at 2023-03-14T22:56:07.078677+08:00. Any edits will be overridden! -->

@@ -17,14 +17,16 @@ tags:
 > {{$$\delta W = \vec{F} \cdot \,\mathrm{d}\vec{s} = \vec{F} \cdot \vec{v} \,\mathrm{d}t$$}}
 >
 > - where
->     - {{$\delta W$ is the infinitesimal __work__ done by a [force](force.md) $\vec{F}$ over an infinitesimal [displacement (geometry)](displacement%20(geometry).md) $\mathrm{d}\vec{s}$ or at an instantaneous [velocity](velocity.md) $\vec{v}$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2024-02-23,51,310!2024-01-05,15,290-->
+>   - {{$\delta W$ is the infinitesimal __work__ done by a [force](force.md) $\vec{F}$ over an infinitesimal [displacement (geometry)](displacement%20(geometry).md) $\mathrm{d}\vec{s}$ or at an instantaneous [velocity](velocity.md) $\vec{v}$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2024-02-23,51,310!2024-01-05,15,290-->
+
+<!-- markdownlint MD028 -->
 
 > __infinitesimal angular work__
 >
 > {{$$\delta W = \vec\tau \cdot \,\mathrm{d}\vec\theta = \vec\tau \cdot \vec\omega \,\mathrm{d}t$$}}
 >
 > - where
->     - {{$\delta W$ is the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$ over an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$ or at an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2024-02-25,52,310!2024-01-21,22,270-->
+>   - {{$\delta W$ is the infinitesimal __work__ done by a [torque](torque.md) $\vec\tau$ over an infinitesimal [angular displacement](angular%20displacement.md) $\mathrm{d}\vec\theta$ or at an instantaneous [angular velocity](angular%20velocity.md) $\vec\omega$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2024-02-25,52,310!2024-01-21,22,270-->
 
 ## references
 

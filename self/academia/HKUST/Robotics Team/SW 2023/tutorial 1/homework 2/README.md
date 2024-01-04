@@ -9,7 +9,7 @@ tags:
 
 > [!info]- Authors
 >
-> Li Chi Kin (ckliam@connect.ust.hk)
+> Li Chi Kin (<ckliam@connect.ust.hk>)
 
 ## Task
 
@@ -42,7 +42,7 @@ Specifically, the assignment requires the following:
 
 ## Program Output
 
-![](image.png)
+![program output](image.png)
 
 Some program output reminders:
 
@@ -56,9 +56,11 @@ These are just examples.
 > [2023-09-18 13-36-53.mkv](2023-09-18%2013-36-53.mkv) 4MB<br/>
 > Binary
 
+<!-- markdownlint MD028 -->
+
 > [2023-09-18 13-39-20.mkv](2023-09-18%2013-39-20.mkv) 3MB<br/>
 > Binary
 
 ​---
 
-https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/homework/task-2-treasure-hunt
+<https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/homework/task-2-treasure-hunt>

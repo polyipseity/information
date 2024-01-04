@@ -9,7 +9,7 @@ tags:
 
 > [!info]- Authors
 >
-> Li Chi Kin (ckliam@connect.ust.hk)
+> Li Chi Kin (<ckliam@connect.ust.hk>)
 
 ## Problem
 
@@ -90,4 +90,4 @@ Error! The number system is not supported.
 
 ---
 
-https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/homework/task-3-number-system-conversion
+<https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/homework/task-3-number-system-conversion>

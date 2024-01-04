@@ -5,6 +5,8 @@ tags:
   - languages/in/English
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 # Classwork 3 : Introduce Yourself
 
 !Nice to meet you!
@@ -36,7 +38,7 @@ int main() {
 }
 ```
 
-#### Example Output
+### Example Output
 
 ```console
 I am a year 1 student with GPA 4.3.
@@ -46,7 +48,7 @@ I am a year 1 student with GPA 4.3.
 
 This time you are required to implement an interactive program. The program should ask for your current GPA and current year, save the information into the corresponding variables, then print the variables on a new line.
 
-#### Example Output
+### Example Output
 
 ```console
 What is your GPA: 4.0
@@ -63,4 +65,4 @@ I am a year 2 stduent with GPA 4.0.
 
 ---
 
-https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/classwork/classwork-3-introduce-yourself
+<https://hkust-robotics-team.gitbook.io/hkust-robotics-team-software-tutorial/tutorial-1-c-and-dev-env-setup/classwork/classwork-3-introduce-yourself>

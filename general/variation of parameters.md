@@ -40,7 +40,7 @@ It is okay to impose arbitrary conditions to get $n$ conditions to solve for the
 
 Variation of parameters comes quite naturally if {{one reduces the inhomogeneous linear [ordinary differential equation](ordinary%20differential%20equation.md) into a first order system, convert it into [matrix](matrix%20(mathematics).md) form}}, and {{use the [fundamental matrix](fundamental%20matrix%20(linear%20differential%20equation).md), which is the same as the [Wronskian](Wronskian.md) matrix of the solutions to the homogeneous equation for linear ordinary differential equations, to solve the resulting equation}}. <!--SR:!2024-01-19,17,290!2024-01-18,16,290-->
 
-### variation of parameters
+### osculating parameters
 
 Consider {{a $n$-th order inhomogeneous linear [ordinary differential equation](ordinary%20differential%20equation.md)}}. We want to {{express the solution and its up to $n - 1$-th [derivatives](derivative.md) to the inhomogeneous equation using a [linear combination](linear%20combination.md) of the [linearly independent](linear%20independence.md) solutions to the homogeneous equation with [constant](constant%20(mathematics).md) [coefficients](coefficient.md): $$y^{(j)}(x) = \sum_{i = 1}^n c_i y_i^{(j)}(x) \qquad j = 0, 1, \ldots, n - 1$$. The equations for the derivatives are easily derived from the original equation where $j = 0$}}. <!--SR:!2024-01-16,14,290!2024-01-17,15,290-->
 

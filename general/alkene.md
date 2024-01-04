@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# alkene
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# alkene
+%%
 
 An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}. <!--SR:!2025-06-08,587,310-->
 
@@ -49,6 +51,7 @@ Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -66,6 +69,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-04-05T09:33:57.187962+08:00. Any edits will be overridden! -->

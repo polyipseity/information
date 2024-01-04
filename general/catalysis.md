@@ -9,14 +9,16 @@ tags:
   - languages/in/English
 ---
 
+# catalysis
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# catalysis
+%%
 
 __Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. If the reaction is fast and the catalyst replenishes quickly, {{only small amounts of catalyst is needed}}. {{Surface area, [temperature](temperature.md), and mixing}} affect the catalyzed [reaction rate](reaction%20rate.md). <!--SR:!2025-05-15,538,310!2024-05-18,206,290!2024-09-14,396,363!2024-02-09,206,323-->
 
@@ -29,6 +31,7 @@ Catalysts can {{increase production throughput, reducing production cost and sav
 ### examples
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -45,6 +48,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->

@@ -8,14 +8,16 @@ tags:
   - languages/in/English
 ---
 
+# alkali metal
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# alkali metal
+%%
 
 The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2024-05-31,278,270!2024-01-27,235,330!2024-05-09,192,230!2024-01-22,188,250-->
 
@@ -26,6 +28,7 @@ Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals]
 ### reaction with water
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -41,6 +44,7 @@ return await memorize_map(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7f8c"--><!-- The following content is generated at 2023-03-31T11:11:36.664051+08:00. Any edits will be overridden! -->

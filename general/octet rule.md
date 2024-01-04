@@ -6,14 +6,16 @@ tags:
   - languages/in/English
 ---
 
+# octet rule
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# octet rule
+%%
 
 The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20thumb.md) that states [main-group elements](main-group%20element.md) tend to [bond](chemical%20bond.md) in a way such that each [atom](atom.md) has eight [electrons](electron.md) in its [valence shell](valence%20shell.md)}}. Other similar rules are {{the [duplet rule](#^duplet-rule) for [hydrogen](hydrogen.md), [helium](helium.md), and [lithium](lithium.md); and the [18-electron rule](18-electron%20rule.md) for [transition metals](transition%20metal.md)}}. <!--SR:!2024-03-15,188,270!2024-08-16,286,290-->
 
@@ -26,6 +28,7 @@ The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20t
 ## other rules
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from itertools import chain
@@ -40,6 +43,7 @@ return await memorize_table(
   lambda datum: chain(map(cloze, datum[:-2]), (f'{cloze(datum[-2])}{f" {datum[-1]}" if datum[-1] else ""}',),),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="309d"--><!-- The following content is generated at 2023-09-26T08:43:44.011903+08:00. Any edits will be overridden! -->

@@ -15,7 +15,6 @@ tags:
 void srand(unsigned seed);
 ```
 
-
 > [!tip] tip
 >
 > - seed source: {{standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md)}} <!--SR:!2024-02-18,63,316-->

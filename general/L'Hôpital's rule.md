@@ -24,14 +24,16 @@ tags:
   - languages/in/English
 ---
 
+# L'Hôpital's rule
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# L'Hôpital's rule
+%%
 
 __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}}. <!--SR:!2024-02-12,55,300!2024-01-15,33,280!2024-03-02,74,320-->
 
@@ -45,6 +47,7 @@ __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theor
 ## other indeterminate forms
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
@@ -80,6 +83,7 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
+
 %%
 
 The following table lists out transformation from other [indeterminate forms](indeterminate%20form.md) for applying L'Hôpital's rule.

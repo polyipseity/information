@@ -6,20 +6,23 @@ tags:
   - languages/in/English
 ---
 
+# atomicity
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# atomicity
+%%
 
 __Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}. <!--SR:!2025-11-25,741,330-->
 
 ## classification
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -33,6 +36,7 @@ return await memorize_map(
   },
 )
 ```
+
 %%
 
 Molecules can be classified based on atomicity as:
