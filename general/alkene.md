@@ -85,15 +85,15 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2023-04-05T09:33:57.175970+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2024-01-04T20:17:51.170254+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[combustion](#combustion) <!--SR:!2024-01-30,238,330!2024-03-20,275,330-->
-2. [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-02-16,250,330!2024-01-09,53,270-->
-3. [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2024-06-04,193,270-->
-4. [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2026-04-12,848,330!2024-04-13,237,270-->
-5. [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2024-03-18,267,331-->
-6. [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2024-01-29,175,271!2024-12-22,449,311-->
-7. [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2024-07-25,373,351!2024-07-18,365,351-->
+- _(begin)_→:::←[combustion](#combustion) <!--SR:!2024-01-30,238,330!2024-03-20,275,330-->
+- [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-02-16,250,330!2024-01-09,53,270-->
+- [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2024-06-04,193,270-->
+- [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2026-04-12,848,330!2024-04-13,237,270-->
+- [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2024-03-18,267,331-->
+- [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2024-01-29,175,271!2024-12-22,449,311-->
+- [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2024-07-25,373,351!2024-07-18,365,351-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

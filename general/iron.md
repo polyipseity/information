@@ -45,10 +45,10 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c03"--><!-- The following content is generated at 2023-03-21T16:20:25.358097+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c03"--><!-- The following content is generated at 2024-01-04T20:17:51.851124+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←constructions, car and ship bodies <!--SR:!2025-12-03,733,330!2024-03-26,275,330-->
-2. constructions, car and ship bodies→:::←_(end)_ <!--SR:!2024-04-12,292,330!2024-05-18,169,290-->
+- _(begin)_→:::←constructions, car and ship bodies <!--SR:!2025-12-03,733,330!2024-03-26,275,330-->
+- constructions, car and ship bodies→:::←_(end)_ <!--SR:!2024-04-12,292,330!2024-05-18,169,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

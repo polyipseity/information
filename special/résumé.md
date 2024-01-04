@@ -62,15 +62,15 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2023-10-05T10:38:05.832591+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-04T20:17:58.185753+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2024-08-17,232,330!2024-08-20,235,330-->
-2. [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-01-23,29,290-->
-3. [education](#education)→:::←[achievements](#achievements) <!--SR:!2024-03-02,72,270!2024-01-06,20,270-->
-4. [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2024-01-06,63,310!2024-05-13,141,290-->
-5. [experience](#experience)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-01-07,64,310-->
-6. [skills](#skills)→:::←[others](#others) <!--SR:!2024-08-01,220,330!2024-03-27,100,290-->
-7. [others](#others)→:::←_(end)_ <!--SR:!2024-01-14,71,310!2024-06-13,167,310-->
+- _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2024-08-17,232,330!2024-08-20,235,330-->
+- [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-01-23,29,290-->
+- [education](#education)→:::←[achievements](#achievements) <!--SR:!2024-03-02,72,270!2024-01-06,20,270-->
+- [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2024-01-06,63,310!2024-05-13,141,290-->
+- [experience](#experience)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-01-07,64,310-->
+- [skills](#skills)→:::←[others](#others) <!--SR:!2024-08-01,220,330!2024-03-27,100,290-->
+- [others](#others)→:::←_(end)_ <!--SR:!2024-01-14,71,310!2024-06-13,167,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

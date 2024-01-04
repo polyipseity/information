@@ -54,7 +54,7 @@ return await memorize_table(
 > |-|-|
 > | {{[boiling point](boiling%20point.md)}} | {{typically low}} |
 > | {{[brittleness](brittleness.md)}} | {{typically [anisotropic](anisotropy.md)}} |
-> | {{[electric conductivity](electrical%20conductivity.md)}} | {{typically low}} |
+> | {{[electrical conductivity](electrical%20conductivity.md)}} | {{typically low}} |
 > | {{[melting point](melting%20point.md)}} | {{typically low}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low}} | <!--SR:!2024-12-08,410,290!2024-06-08,342,330!2024-05-12,320,330!2024-05-11,319,330!2025-05-09,553,290!2024-03-22,277,330!2024-01-14,76,353!2024-01-23,81,353!2024-01-18,16,341!2024-01-19,17,342-->
 

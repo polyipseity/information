@@ -51,11 +51,11 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="395a"--><!-- The following content is generated at 2023-03-25T13:43:14.290201+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="395a"--><!-- The following content is generated at 2024-01-04T20:17:51.499997+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←catalytic cracking <!--SR:!2024-05-28,331,330!2024-04-28,308,330-->
-2. catalytic cracking→:::←thermal cracking <!--SR:!2024-03-16,271,330!2024-05-03,311,330-->
-3. thermal cracking→:::←_(end)_ <!--SR:!2024-04-27,307,330!2024-04-01,287,330-->
+- _(begin)_→:::←catalytic cracking <!--SR:!2024-05-28,331,330!2024-04-28,308,330-->
+- catalytic cracking→:::←thermal cracking <!--SR:!2024-03-16,271,330!2024-05-03,311,330-->
+- thermal cracking→:::←_(end)_ <!--SR:!2024-04-27,307,330!2024-04-01,287,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

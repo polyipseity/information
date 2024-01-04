@@ -60,18 +60,18 @@ return (
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2022-11-05T00:25:01.108868+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2024-01-04T20:17:52.416402+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←element in a free form: 0 <!--SR:!2024-11-24,560,310!2024-03-22,395,330-->
-2. element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2025-02-21,620,310-->
-3. ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2024-01-13,265,250!2024-03-26,372,290-->
-4. fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2024-10-16,403,230!2025-09-19,714,270-->
-5. (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2024-07-31,408,270!2024-03-22,111,210-->
-6. group I metal: +1→:::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2026-01-08,892,330-->
-7. group II metal: +2→:::←metallic hydride: -1 <!--SR:!2024-01-26,112,250!2024-05-03,395,290-->
-8. metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->
-9. hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2025-03-30,541,250!2024-05-23,146,250-->
-10. (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2024-03-23,396,330!2024-07-25,340,250-->
+- _(begin)_→:::←element in a free form: 0 <!--SR:!2024-11-24,560,310!2024-03-22,395,330-->
+- element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2025-02-21,620,310-->
+- ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2024-01-13,265,250!2024-03-26,372,290-->
+- fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2024-10-16,403,230!2025-09-19,714,270-->
+- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2024-07-31,408,270!2024-03-22,111,210-->
+- group I metal: +1→:::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2026-01-08,892,330-->
+- group II metal: +2→:::←metallic hydride: -1 <!--SR:!2024-01-26,112,250!2024-05-03,395,290-->
+- metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->
+- hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2025-03-30,541,250!2024-05-23,146,250-->
+- (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2024-03-23,396,330!2024-07-25,340,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

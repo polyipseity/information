@@ -42,10 +42,10 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a3958e"--><!-- The following content is generated at 2023-03-18T23:22:35.960278+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a3958e"--><!-- The following content is generated at 2024-01-04T20:17:51.667097+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[electrolysis](electrolysis.md) <!--SR:!2025-10-10,647,310!2024-05-11,314,330-->
-2. [electrolysis](electrolysis.md)→:::←_(end)_ <!--SR:!2024-06-10,339,330!2024-06-11,340,330-->
+- _(begin)_→:::←[electrolysis](electrolysis.md) <!--SR:!2025-10-10,647,310!2024-05-11,314,330-->
+- [electrolysis](electrolysis.md)→:::←_(end)_ <!--SR:!2024-06-10,339,330!2024-06-11,340,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

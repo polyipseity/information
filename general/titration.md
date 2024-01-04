@@ -64,12 +64,12 @@ Methods to determine the end point include:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="248f"--><!-- The following content is generated at 2023-03-23T18:13:41.634856+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="248f"--><!-- The following content is generated at 2024-01-04T20:17:52.903712+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←indicator <!--SR:!2026-05-04,857,330!2024-04-07,287,330-->
-2. indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2024-05-30,328,330!2025-06-17,551,310-->
-3. [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2024-09-15,366,290!2025-09-07,619,310-->
-4. [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2024-04-19,292,330!2024-02-01,178,250-->
+- _(begin)_→:::←indicator <!--SR:!2026-05-04,857,330!2024-04-07,287,330-->
+- indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2024-05-30,328,330!2025-06-17,551,310-->
+- [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2024-09-15,366,290!2025-09-07,619,310-->
+- [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2024-04-19,292,330!2024-02-01,178,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
