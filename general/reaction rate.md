@@ -9,14 +9,16 @@ tags:
   - languages/in/English
 ---
 
+# reaction rate
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# reaction rate
+%%
 
 ## definition
 
@@ -25,6 +27,7 @@ The reaction rate is always {{positive}}.
 ## factors
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -38,6 +41,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 There are many factors affecting the reaction rate:

@@ -8,18 +8,21 @@ tags:
   - languages/in/English
 ---
 
+# `printf`
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# `printf`
+%%
 
 ## placeholder
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import text
@@ -48,6 +51,7 @@ return (
   ),
 )
 ```
+
 %%
 
 ### syntax
@@ -84,6 +88,7 @@ return (
 ### parameter
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -98,6 +103,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f192"--><!-- The following content is generated at 2023-08-24T22:47:11.290253+08:00. Any edits will be overridden! -->
@@ -118,6 +124,7 @@ return await memorize_table(
 ### flags
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -136,6 +143,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 A combination of zero or more of the following in any order:
@@ -155,7 +163,7 @@ A combination of zero or more of the following in any order:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2023-08-25T00:41:32.736032+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←  (space)
-2.   (space)→:::←\#
+2. (space)→:::←\#
 3. \#→:::←+
 4. +→:::←-
 5. -→:::←0
@@ -174,6 +182,7 @@ An integer or {{`*` specifying the precision, the meaning of which depends on th
 ### length
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -195,6 +204,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 A combination of zero or more of the following in any order:
@@ -231,6 +241,7 @@ A combination of zero or more of the following in any order:
 ### type
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
@@ -257,6 +268,7 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="40db"--><!-- The following content is generated at 2023-09-16T08:38:52.742774+08:00. Any edits will be overridden! -->

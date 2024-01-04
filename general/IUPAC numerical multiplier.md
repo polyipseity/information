@@ -7,18 +7,21 @@ tags:
   - languages/in/English
 ---
 
+# IUPAC numerical multiplier
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# IUPAC numerical multiplier
+%%
 
 ## data
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -48,6 +51,7 @@ return await memorize_map(
   }
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9de"--><!-- The following content is generated at 2023-03-20T22:41:22.058927+08:00. Any edits will be overridden! -->

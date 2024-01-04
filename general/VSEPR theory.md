@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# VSEPR theory
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# VSEPR theory
+%%
 
 ## AXE method
 
@@ -23,6 +25,7 @@ The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {
 ### main-group elements
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import markdown_sanitizer
@@ -53,6 +56,7 @@ return await memorize_table(
   lambda datum: map(cloze, (*datum[:1], f'{datum[1]}<br/>{datum[2].format(markdown_sanitizer(datum[1]))}', *datum[3:],)),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2900"--><!-- The following content is generated at 2023-03-26T17:23:22.932532+08:00. Any edits will be overridden! -->

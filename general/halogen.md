@@ -11,14 +11,16 @@ tags:
   - languages/in/English
 ---
 
+# halogen
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# halogen
+%%
 
 The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}.
 
@@ -31,6 +33,7 @@ Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.m
 ### reaction with hydrogen
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -47,6 +50,7 @@ return await memorize_map(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49d8"--><!-- The following content is generated at 2023-03-20T22:20:19.404644+08:00. Any edits will be overridden! -->

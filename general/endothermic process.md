@@ -8,18 +8,21 @@ tags:
   - languages/in/English
 ---
 
+# endothermic process
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# endothermic process
+%%
 
 ## examples
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -31,6 +34,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d925"--><!-- The following content is generated at 2023-03-31T14:05:22.404181+08:00. Any edits will be overridden! -->

@@ -31,7 +31,7 @@ void tft_classwork(void);
   - After 1 second, repeat from step 1.
 - Keyword: Finite State Machine
 
-![](zF0Q2Lg.gif)
+![task 1 image](zF0Q2Lg.gif)
 
 - LED1 RED
 - LED2 GREEN
@@ -50,7 +50,7 @@ void tft_classwork(void);
   - Integer division
     - $\frac{1234}{10}=123$
   - 1 min = 60 second, 1 second = 1000 milliseconds
-- ​![](2K6QaHR.gif)
+- ​![task 2 image](2K6QaHR.gif)
   - The actual size of square printed on TFT should be larger than this one
 
 > ⚠ Don't use`__forceinline static void fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)` as it seems to cause error

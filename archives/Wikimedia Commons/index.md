@@ -6,7 +6,8 @@ tags:
 ---
 
 # index
-_archives/Wikimedia Commons_
+
+archives/Wikimedia Commons
 
 - [10mL Messkolben mit Schliff A.jpg](10mL%20Messkolben%20mit%20Schliff%20A.jpg): <a href="https://commons.wikimedia.org/wiki/File:10mL_Messkolben_mit_Schliff_A.jpg">Ichwarsnur</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 - [12.5cm by 12.5cm Wire Gauze.jpg](12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg): <a href="https://commons.wikimedia.org/wiki/File:12.5cm_by_12.5cm_Wire_Gauze.jpg">U5780138</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons

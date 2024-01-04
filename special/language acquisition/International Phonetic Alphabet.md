@@ -9,18 +9,22 @@ tags:
   - languages/in/English
 ---
 
+# International Phonetic Alphabet
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../../tools/utility.py.md
 ```
-%%
 
-# International Phonetic Alphabet
+%%
 
 > ![official IPA chart](../../archives/Wikimedia%20Commons/IPA%20chart%202020.svg)
 >
 > official IPA chart
+
+<!-- markdownlint MD028 -->
 
 > [!tip] tip
 >
@@ -29,6 +33,7 @@ tags:
 ## help
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather
@@ -205,6 +210,7 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
+
 %%
 
 ### glossary
@@ -212,6 +218,7 @@ return chain.from_iterable(await gather(
 > ![places of articulation](../../archives/Wikimedia%20Commons/Places%20of%20articulation.svg)
 >
 > [place of articulation](place%20of%20articulation.md)
+>
 > 1. {{exo-labial (outer [lip](lip.md))}}
 > 2. {{endo-labial (inner [lip](lip.md))}}
 > 3. {{dental ([teeth](tooth.md))}}
@@ -426,7 +433,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–symbol
+#### name–symbol (letters)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="059f"--><!-- The following content is generated at 2023-08-09T19:34:04.118545+08:00. Any edits will be overridden! -->
 
@@ -676,7 +683,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–audio
+#### name–audio (letters)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dfb"--><!-- The following content is generated at 2023-08-24T20:02:35.307234+08:00. Any edits will be overridden! -->
 
@@ -918,7 +925,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–description
+#### name–description (letters)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50b0"--><!-- The following content is generated at 2023-11-12T00:31:30.724976+08:00. Any edits will be overridden! -->
 
@@ -1069,7 +1076,7 @@ Here is a list of common IPA diacritics and their descriptions:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–symbol
+#### name–symbol (diacritics)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ffa2"--><!-- The following content is generated at 2023-08-09T19:34:04.142481+08:00. Any edits will be overridden! -->
 
@@ -1109,7 +1116,7 @@ Here is a list of common IPA diacritics and their descriptions:
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-#### name–description
+#### name–description (diacritics)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50bd"--><!-- The following content is generated at 2023-11-12T00:31:30.752423+08:00. Any edits will be overridden! -->
 

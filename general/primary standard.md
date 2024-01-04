@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# primary standard
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# primary standard
+%%
 
 A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}.
 
@@ -23,6 +25,7 @@ A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accu
 A primary standard can be used {{in [titration](titration.md) and to prepare a [standard solution](standard%20solution.md)}}. It should have the following properties:
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -39,6 +42,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d928"--><!-- The following content is generated at 2023-03-23T16:01:43.599717+08:00. Any edits will be overridden! -->

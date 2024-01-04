@@ -8,18 +8,21 @@ tags:
   - languages/in/English
 ---
 
+# aluminium
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# aluminium
+%%
 
 ## uses
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -36,6 +39,7 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="320d"--><!-- The following content is generated at 2023-03-21T16:20:25.313146+08:00. Any edits will be overridden! -->

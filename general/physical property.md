@@ -7,20 +7,23 @@ tags:
   - languages/in/English
 ---
 
+# physical property
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# physical property
+%%
 
 A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}}.
 
 ## examples
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -45,6 +48,7 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2023-03-20T16:20:31.192611+08:00. Any edits will be overridden! -->

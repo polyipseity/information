@@ -5,9 +5,11 @@ tags:
   - languages/in/English
 ---
 
+<!-- markdownlint-disable MD024 MD036 -->
+
 # 2018 spring final attempt
 
-_HKUST COMP 2011_
+HKUST COMP 2011
 
 - [attempt](attempt.md) · [check](check.md)
 - time allowed: 2023-09-24T16:00:00+08:00/PT2H30M
@@ -243,8 +245,8 @@ A stack is last-in-first-out while a queue is first-in-first-out.
 ### (b) (3 points)
 
 ```console
-No. of data currently on the queue = 4	Front item = 1
-Empty: false		Full: false
+No. of data currently on the queue = 4 Front item = 1
+Empty: false  Full: false
 ```
 
 __draft__

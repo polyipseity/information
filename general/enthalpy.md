@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# enthalpy
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# enthalpy
+%%
 
 In [chemistry](chemistry.md), the enthalpy of reaction is {{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}}.
 
@@ -27,7 +29,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 > {{$$H = U + pV$$}}
 >
 > - where
->     - [state variables](state%20variable.md): {{$U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}}
+>   - [state variables](state%20variable.md): {{$U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}}
 
 ## applications
 
@@ -36,6 +38,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 #### standard conditions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -49,6 +52,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 Enthalpy changes are measured under the following {{standard conditions}}:
@@ -75,6 +79,7 @@ Enthalpy changes are measured under the following {{standard conditions}}:
 #### chemical properties
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -87,6 +92,7 @@ return await memorize_map(
   },
 )
 ```
+
 %%
 
 For [chemical properties](chemical%20property.md):
@@ -118,6 +124,7 @@ For [chemical properties](chemical%20property.md):
 #### physical properties
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -127,6 +134,7 @@ return await memorize_map(
   },
 )
 ```
+
 %%
 
 For [physical properties](physical%20property.md):
@@ -139,13 +147,9 @@ For [physical properties](physical%20property.md):
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2440"--><!-- The following content is generated at 2023-04-02T00:06:47.124597+08:00. Any edits will be overridden! -->
 
-
-
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="69ff"--><!-- The following content is generated at 2023-04-02T00:06:47.106642+08:00. Any edits will be overridden! -->
-
-
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

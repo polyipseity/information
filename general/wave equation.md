@@ -16,6 +16,7 @@ tags:
 > {{$$\frac{\partial^2 u}{\partial t^2} = c^2 \sum_{i=1}^n \frac{\partial^2 u}{\partial x_i^2}$$}}
 >
 > where
+>
 > - [function](function%20(mathematics).md) properties: {{$u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
 > - [wave](wave.md) properties: {{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md)}}
 
@@ -26,6 +27,7 @@ tags:
 > {{$$u(x, t) = F(x - ct) + G(x + ct)$$}}
 >
 > where
+>
 > - [function](function%20(mathematics).md) properties: {{$u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
 > - [wave](wave.md) properties: {{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling [waveforms](waveform.md)}}
 

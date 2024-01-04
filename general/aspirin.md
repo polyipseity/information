@@ -9,14 +9,16 @@ tags:
   - languages/in/English
 ---
 
+# aspirin
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# aspirin
+%%
 
 > {{![skeletal formula of aspirin](../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}}
 >
@@ -25,6 +27,7 @@ tags:
 ## medical use
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -40,6 +43,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="332a"--><!-- The following content is generated at 2023-04-07T10:57:11.007075+08:00. Any edits will be overridden! -->
@@ -66,6 +70,7 @@ return await memorize_table(
 ### side effects
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -80,6 +85,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="11af"--><!-- The following content is generated at 2023-04-07T11:04:50.174254+08:00. Any edits will be overridden! -->

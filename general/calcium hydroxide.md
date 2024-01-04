@@ -18,6 +18,7 @@ __Calcium hydroxide__, also known as {{slaked lime}} in its solid state and {{li
 Treating {{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}}. Weak bases {{result in no observation because there are insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}}:
 
 > treating with [bases](base%20(chemistry).md)
+>
 > - {{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}}
 
 ## reactions
@@ -26,8 +27,10 @@ Treating {{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(c
 
 Calcium hydroxide can be used to test for {{[carbon dioxide](carbon%20dioxide.md)}}.
 
-### preparation
+### preparation steps
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen import gen, read, util
@@ -52,6 +55,7 @@ return (
   ),
 )
 ```
+
 %%
 
 Calcium hydroxide can be prepared in the following way:

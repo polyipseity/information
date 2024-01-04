@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# carboxylic acid
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# carboxylic acid
+%%
 
 ## physical properties
 
@@ -55,6 +57,7 @@ Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly usi
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -70,6 +73,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f23a"--><!-- The following content is generated at 2023-04-08T23:59:05.297098+08:00. Any edits will be overridden! -->

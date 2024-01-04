@@ -7,14 +7,16 @@ tags:
   - languages/in/English
 ---
 
+# amide
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# amide
+%%
 
 ## physical properties
 
@@ -41,6 +43,7 @@ In alkaline [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylates](
 ### reactions
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -53,6 +56,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="be34"--><!-- The following content is generated at 2023-04-07T00:25:31.854161+08:00. Any edits will be overridden! -->

@@ -8,18 +8,21 @@ tags:
   - languages/in/English
 ---
 
+# exothermic process
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# exothermic process
+%%
 
 ## examples
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -33,6 +36,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-04-01T22:38:27.897121+08:00. Any edits will be overridden! -->

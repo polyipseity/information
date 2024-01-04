@@ -8,20 +8,23 @@ tags:
   - languages/in/English
 ---
 
+# evaporation
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# evaporation
+%%
 
 __Evaporation__ is {{a kind of [vaporization](vaporization.md) that takes place on the surface of a [liquid](liquid.md) changing into [gas](gas.md) below [boiling point](boiling%20point.md)}}.
 
 ## factors influecing evaporation rate
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -34,6 +37,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="231a"--><!-- The following content is generated at 2023-03-26T19:44:39.003825+08:00. Any edits will be overridden! -->

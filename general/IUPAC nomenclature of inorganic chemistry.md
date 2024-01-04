@@ -6,14 +6,16 @@ tags:
   - languages/in/English
 ---
 
+# IUPAC nomenclature of inorganic chemistry
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# IUPAC nomenclature of inorganic chemistry
+%%
 
 The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorganic compounds](inorganic%20compound.md)}}. There is also the [IUPAC nomenclature of organic chemistry](IUPAC%20nomenclature%20of%20organic%20chemistry.md).
 
@@ -22,6 +24,7 @@ The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorg
 ### ionic compounds
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -36,6 +39,7 @@ return await memorize_seq(
   ),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9ea"--><!-- The following content is generated at 2023-03-20T16:11:54.332657+08:00. Any edits will be overridden! -->
@@ -64,6 +68,7 @@ return await memorize_seq(
 An older system exist:
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -80,6 +85,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eef1"--><!-- The following content is generated at 2023-03-20T16:22:42.843631+08:00. Any edits will be overridden! -->

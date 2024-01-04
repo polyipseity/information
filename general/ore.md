@@ -4,14 +4,16 @@ tags:
   - languages/in/English
 ---
 
+# ore
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# ore
+%%
 
 An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}}
 
@@ -22,6 +24,7 @@ See [extractive metallurgy](extractive%20metallurgy.md).
 ## important ores
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -38,6 +41,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="283749"--><!-- The following content is generated at 2023-03-22T00:41:25.734579+08:00. Any edits will be overridden! -->

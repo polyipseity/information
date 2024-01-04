@@ -6,14 +6,16 @@ tags:
   - languages/in/English
 ---
 
+# nylon
+
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
 # import ../../tools/utility.py.md
 ```
-%%
 
-# nylon
+%%
 
 ## chemistry
 
@@ -26,6 +28,7 @@ Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine
 ## properties
 
 %%
+
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 e = __env__
@@ -46,6 +49,7 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
+
 %%
 
 The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}.
