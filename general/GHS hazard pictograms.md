@@ -67,7 +67,7 @@ return await memorize_table(
 6. GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2025-07-10,620,310!2024-10-13,402,290-->
 7. GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2024-01-07,214,310!2024-09-09,331,290-->
 8. GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2024-01-18,207,310!2024-07-16,305,270-->
-9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2024-04-14,294,330!2024-01-04,212,310-->
+9. GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2024-04-14,294,330!2025-10-21,656,310-->
 10. GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2024-05-05,308,330!2024-04-21,299,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

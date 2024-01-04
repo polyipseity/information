@@ -220,7 +220,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2023-04-25T22:32:43.544632+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2026-03-16,809,335-->
-2. according to/refer to→:::←cause/reason <!--SR:!2024-01-04,33,155!2024-06-23,313,295-->
+2. according to/refer to→:::←cause/reason <!--SR:!2024-01-21,17,135!2024-06-23,313,295-->
 3. cause/reason→:::←effectiveness <!--SR:!2024-01-10,20,130!2024-03-18,191,235-->
 4. effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 5. factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->

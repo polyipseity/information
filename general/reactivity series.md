@@ -132,7 +132,7 @@ return await memorize_table(
 17. [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-04-07,237,270-->
 18. [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-02-03,71,230!2024-01-09,12,130-->
 19. [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-01-11,66,230-->
-20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-01-04,2,130-->
+20. [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-01-08,4,150-->
 21. [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2024-01-15,166,230-->
 22. [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-02-14,75,230!2024-06-15,267,250-->
 23. [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2024-12-31,415,270!2024-02-04,222,290-->
@@ -140,7 +140,7 @@ return await memorize_table(
 25. [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2024-03-08,220,270!2025-02-02,436,270-->
 26. [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2024-08-30,262,250!2024-03-16,168,230-->
 27. [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2024-03-17,266,330!2024-04-24,297,330-->
-28. [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2024-01-04,211,310!2024-05-09,312,330-->
+28. [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2024-05-09,312,330-->
 29. [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2024-04-28,301,330!2024-02-26,252,330-->
 30. [platinum](platinum.md)→:::←_(end)_ <!--SR:!2024-02-19,245,330!2024-03-21,270,330-->
 

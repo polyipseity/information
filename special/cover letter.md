@@ -44,7 +44,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2023-10-08T17:13:33.383644+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←create positive first impression <!--SR:!2024-01-04,62,310!2024-01-10,68,310-->
+1. _(begin)_→:::←create positive first impression <!--SR:!2024-02-05,32,290!2024-01-10,68,310-->
 2. create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-02-29,89,290!2024-01-05,63,310-->
 3. emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-01-21,24,290!2024-01-28,31,290-->
 4. include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-01-13,26,270!2024-02-03,63,290-->
@@ -93,7 +93,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2023-10-09T23:03:32.688320+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-03-16,85,250!2024-01-13,71,310-->
-2. your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-01-04,23,270-->
+2. your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-03-09,65,270-->
 3. why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-02-07,52,230!2024-01-20,27,270-->
 4. why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-03-07,79,250!2024-02-25,83,270-->
 5. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-01-05,14,230-->

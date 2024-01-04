@@ -35,7 +35,7 @@ tags:
 > - where
 >     - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
 >     - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
-> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-04,6,250!2024-02-26,55,310!2024-02-07,39,290!2024-02-03,36,290-->
+> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-01-18,14,250!2024-02-26,55,310!2024-02-07,39,290!2024-02-03,36,290-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows:
 
@@ -115,10 +115,10 @@ return _chain.from_iterable(await _gather(
 2. _n_ < 0→:::←_n_ = 0 <!--SR:!2024-02-24,52,310!2024-01-31,34,290-->
 3. _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-01-05,16,290!2024-01-06,17,290-->
 4. 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-03-01,58,310!2024-02-15,46,290-->
-5. _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-01-04,15,290!2024-02-22,51,310-->
+5. _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-03-04,60,310!2024-02-22,51,310-->
 6. 1 < _n_ < _γ_→:::←_n_ = _γ_ <!--SR:!2024-02-26,54,310!2024-02-26,55,310-->
-7. _n_ = _γ_→:::←_γ_ < _n_ < +∞ <!--SR:!2024-01-06,17,290!2024-01-04,15,290-->
-8. _γ_ < _n_ < +∞→:::←_n_ = +∞ <!--SR:!2024-01-04,15,290!2024-01-04,15,290-->
+7. _n_ = _γ_→:::←_γ_ < _n_ < +∞ <!--SR:!2024-01-06,17,290!2024-02-29,56,310-->
+8. _γ_ < _n_ < +∞→:::←_n_ = +∞ <!--SR:!2024-03-02,58,310!2024-03-05,61,310-->
 9. _n_ = +∞→:::←_(end)_ <!--SR:!2024-01-05,16,290!2024-02-23,52,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -130,7 +130,7 @@ return _chain.from_iterable(await _gather(
 3. 0 < _n_ < 1::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2024-02-03,32,270-->
 4. _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md) <!--SR:!2024-01-05,16,290-->
 5. 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-01-21,23,270-->
-6. _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md) <!--SR:!2024-01-04,15,290-->
+6. _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md) <!--SR:!2024-03-01,57,310-->
 7. _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2024-02-21,50,290-->
 8. _n_ = +∞::$V = C$; equivalent to [isochoric process](isochoric%20process.md) <!--SR:!2024-02-29,57,310-->
 

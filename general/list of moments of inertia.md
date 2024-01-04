@@ -32,7 +32,7 @@ I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-
 &=\frac1{12}m\left(L^2+W^2\right)\\
 I_L&=\frac1{12}m\left(H^2+W^2\right)\\
 I_W&=\frac1{12}m\left(L^2+H^2\right)\\
-\end{aligned}$ <!--SR:!2024-05-25,157,310!2024-01-04,29,250!2024-08-20,239,330!2024-02-16,83,270!2024-06-23,179,310-->
+\end{aligned}$ <!--SR:!2024-05-25,157,310!2024-03-16,72,250!2024-08-20,239,330!2024-02-16,83,270!2024-06-23,179,310-->
 
 ### cylindrical shell, axis through base center
 
@@ -48,7 +48,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 &=\frac12\rho\pi{}H\left(R_O^4-R_I^4\right)\\
 &=\frac12\rho\pi{}H\left(R_O^2-R_I^2\right)\left(R_O^2+R_I^2\right)\\
 &=\frac12m\left(R_O^2+R_I^2\right)
-\end{aligned}$ <!--SR:!2024-01-04,66,310!2024-05-27,172,310!2024-09-05,252,330!2024-05-11,159,310-->
+\end{aligned}$ <!--SR:!2024-10-12,282,330!2024-05-27,172,310!2024-09-05,252,330!2024-05-11,159,310-->
 
 ### rod, axis through certain distance from one end
 

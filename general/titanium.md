@@ -46,7 +46,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2023-03-21T16:20:25.418913+08:00. Any edits will be overridden! -->
 
 1. _(begin)_→:::←[implants](implant%20(medicine).md) <!--SR:!2024-05-29,327,330!2024-05-27,325,330-->
-2. [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies <!--SR:!2024-01-04,149,310!2024-05-11,309,330-->
+2. [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies <!--SR:!2025-04-09,461,310!2024-05-11,309,330-->
 3. supersonic aircraft bodies→:::←_(end)_ <!--SR:!2024-04-25,298,330!2024-04-20,293,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
