@@ -357,6 +357,7 @@ return (
   util.Result(
     location=__env__.cwf_sect('a39fd2'),
     text=gen.cloze_text(text,
+      separator="\n\n<!-- markdownlint MD028 -->\n\n",
       states=await read.read_flashcard_states(__env__.cwf_sect('a39fd2')),
     ),
   ),
