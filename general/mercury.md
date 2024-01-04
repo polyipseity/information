@@ -45,10 +45,10 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda3"--><!-- The following content is generated at 2023-03-21T16:20:25.404034+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda3"--><!-- The following content is generated at 2024-01-04T20:17:52.113769+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2024-04-12,292,330!2024-05-04,307,330-->
-2. [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2024-04-20,293,330!2024-03-10,265,330-->
+- _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2024-04-12,292,330!2024-05-04,307,330-->
+- [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2024-04-20,293,330!2024-03-10,265,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

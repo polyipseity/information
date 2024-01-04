@@ -52,14 +52,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2023-04-07T09:29:00.966882+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2024-01-04T20:17:52.393394+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←availability <!--SR:!2024-01-19,201,312!2024-03-03,252,332-->
-2. availability→:::←formation of [by-products](by-product.md) <!--SR:!2024-03-20,267,332!2024-05-10,308,332-->
-3. formation of [by-products](by-product.md)→:::←number of steps <!--SR:!2024-03-10,236,312!2024-07-01,349,332-->
-4. number of steps→:::←[reaction rate](reaction%20rate.md) <!--SR:!2024-05-14,312,332!2025-01-30,440,292-->
-5. [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md) <!--SR:!2024-12-15,417,292!2024-04-18,240,272-->
-6. [yield](yield%20(chemistry).md)→:::←_(end)_ <!--SR:!2024-03-19,266,332!2024-03-13,262,332-->
+- _(begin)_→:::←availability <!--SR:!2024-01-19,201,312!2024-03-03,252,332-->
+- availability→:::←formation of [by-products](by-product.md) <!--SR:!2024-03-20,267,332!2024-05-10,308,332-->
+- formation of [by-products](by-product.md)→:::←number of steps <!--SR:!2024-03-10,236,312!2024-07-01,349,332-->
+- number of steps→:::←[reaction rate](reaction%20rate.md) <!--SR:!2024-05-14,312,332!2025-01-30,440,292-->
+- [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md) <!--SR:!2024-12-15,417,292!2024-04-18,240,272-->
+- [yield](yield%20(chemistry).md)→:::←_(end)_ <!--SR:!2024-03-19,266,332!2024-03-13,262,332-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -52,14 +52,14 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2024-01-03T09:39:48.198631+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2024-01-04T20:17:52.198336+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
-2. [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
-3. [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-01-11,17,309-->
-4. [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
-5. [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
-6. [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
+- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
+- [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
+- [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-01-11,17,309-->
+- [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
+- [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
+- [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -93,12 +93,12 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba01"--><!-- The following content is generated at 2023-12-29T17:59:38.720645+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba01"--><!-- The following content is generated at 2024-01-04T20:17:52.215336+08:00. Any edits will be overridden! -->
 
-1. normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-01-22,19,320-->
-2. divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-01-20,17,320-->
-3. divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-01-15,12,300-->
-4. divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-01-21,18,320-->
+- normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-01-22,19,320-->
+- divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-01-20,17,320-->
+- divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-01-15,12,300-->
+- divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-01-21,18,320-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -137,11 +137,11 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2023-11-21T01:16:38.242448+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2024-01-04T20:17:52.256338+08:00. Any edits will be overridden! -->
 
-1. sine::$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$ <!--SR:!2024-03-18,75,230-->
-2. cosine::$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$ <!--SR:!2025-03-23,527,310-->
-3. tangent::$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$ <!--SR:!2024-02-10,71,230-->
+- sine::$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$ <!--SR:!2024-03-18,75,230-->
+- cosine::$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$ <!--SR:!2025-03-23,527,310-->
+- tangent::$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$ <!--SR:!2024-02-10,71,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -181,11 +181,11 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab2d"--><!-- The following content is generated at 2023-11-21T01:16:59.014601+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab2d"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
 
-1. sine::$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$ <!--SR:!2024-09-06,312,250-->
-2. cosine::$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$ <!--SR:!2024-08-01,314,270-->
-3. tangent::$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$ <!--SR:!2025-04-12,474,250-->
+- sine::$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$ <!--SR:!2024-09-06,312,250-->
+- cosine::$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$ <!--SR:!2024-08-01,314,270-->
+- tangent::$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$ <!--SR:!2025-04-12,474,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -251,12 +251,12 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3213"--><!-- The following content is generated at 2023-12-31T17:50:22.132855+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3213"--><!-- The following content is generated at 2024-01-04T20:17:52.372879+08:00. Any edits will be overridden! -->
 
-1. sine cosine::$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$ <!--SR:!2024-03-04,66,190-->
-2. cosine sine::$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$ <!--SR:!2024-03-04,66,190-->
-3. sine sine::$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$ <!--SR:!2024-01-23,85,190-->
-4. cosine cosine::$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$ <!--SR:!2024-10-24,342,250-->
+- sine cosine::$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$ <!--SR:!2024-03-04,66,190-->
+- cosine sine::$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$ <!--SR:!2024-03-04,66,190-->
+- sine sine::$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$ <!--SR:!2024-01-23,85,190-->
+- cosine cosine::$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$ <!--SR:!2024-10-24,342,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -278,12 +278,12 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39cd"--><!-- The following content is generated at 2023-11-21T01:12:55.732650+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39cd"--><!-- The following content is generated at 2024-01-04T20:17:52.322868+08:00. Any edits will be overridden! -->
 
-1. sine ± sine::$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$ <!--SR:!2024-11-03,359,250-->
-2. cosine + cosine::$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-05-30,195,230-->
-3. cosine - cosine::$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-04-06,134,190-->
-4. tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$ <!--SR:!2024-01-06,58,150-->
+- sine ± sine::$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$ <!--SR:!2024-11-03,359,250-->
+- cosine + cosine::$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-05-30,195,230-->
+- cosine - cosine::$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-04-06,134,190-->
+- tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$ <!--SR:!2024-01-06,58,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -53,12 +53,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff83"--><!-- The following content is generated at 2023-03-26T19:44:39.068325+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff83"--><!-- The following content is generated at 2024-01-04T20:17:51.953671+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[covalent bond](covalent%20bond.md) <!--SR:!2024-03-09,264,330!2024-02-13,245,330-->
-2. [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md) <!--SR:!2024-04-07,287,330!2024-05-10,313,330-->
-3. [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2024-03-14,268,330!2024-03-13,268,330-->
-4. [London dispersion force](London%20dispersion%20force.md)→:::←_(end)_ <!--SR:!2024-06-05,334,330!2024-02-24,250,330-->
+- _(begin)_→:::←[covalent bond](covalent%20bond.md) <!--SR:!2024-03-09,264,330!2024-02-13,245,330-->
+- [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md) <!--SR:!2024-04-07,287,330!2024-05-10,313,330-->
+- [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2024-03-14,268,330!2024-03-13,268,330-->
+- [London dispersion force](London%20dispersion%20force.md)→:::←_(end)_ <!--SR:!2024-06-05,334,330!2024-02-24,250,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -64,14 +64,14 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2023-04-01T12:33:20.432311+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-01-04T20:17:51.172248+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2024-01-09,72,272!2025-08-10,607,312-->
-2. +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2024-01-18,76,192!2024-02-13,226,312-->
-3. +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2024-07-27,316,270!2024-03-15,167,252-->
-4. +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2024-04-09,213,272!2024-02-03,193,252-->
-5. -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2024-10-25,357,250!2024-04-12,103,292-->
-6. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2026-01-28,789,332!2025-05-31,554,312-->
+- _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2024-01-09,72,272!2025-08-10,607,312-->
+- +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2024-01-18,76,192!2024-02-13,226,312-->
+- +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2024-07-27,316,270!2024-03-15,167,252-->
+- +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2024-04-09,213,272!2024-02-03,193,252-->
+- -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2024-10-25,357,250!2024-04-12,103,292-->
+- -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2026-01-28,789,332!2025-05-31,554,312-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -104,13 +104,13 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2023-03-31T22:39:40.295607+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2024-01-04T20:17:51.276821+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←auxiliary heat and water source <!--SR:!2024-07-11,306,270!2024-05-13,316,332-->
-2. auxiliary heat and water source→:::←backup power source <!--SR:!2025-08-17,607,310!2026-05-20,875,332-->
-3. backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2024-01-31,220,292!2024-01-09,212,312-->
-4. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2024-10-12,344,292!2024-04-26,304,332-->
-5. remote power source→:::←_(end)_ <!--SR:!2024-05-24,327,335!2025-03-18,480,295-->
+- _(begin)_→:::←auxiliary heat and water source <!--SR:!2024-07-11,306,270!2024-05-13,316,332-->
+- auxiliary heat and water source→:::←backup power source <!--SR:!2025-08-17,607,310!2026-05-20,875,332-->
+- backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2024-01-31,220,292!2024-01-09,212,312-->
+- [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2024-10-12,344,292!2024-04-26,304,332-->
+- remote power source→:::←_(end)_ <!--SR:!2024-05-24,327,335!2025-03-18,480,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

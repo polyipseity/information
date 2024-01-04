@@ -58,15 +58,15 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293842"--><!-- The following content is generated at 2023-03-24T01:07:46.482419+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293842"--><!-- The following content is generated at 2024-01-04T20:17:51.438466+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2024-02-19,253,330!2024-04-30,310,330-->
-2. Filter air to remove [dust](dust.md).→:::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K. <!--SR:!2024-07-09,306,270!2024-04-04,290,330-->
-3. Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.→:::←Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md). <!--SR:!2024-01-17,182,250!2024-01-12,21,150-->
-4. Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→:::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2024-07-02,214,230!2024-01-25,184,250-->
-5. Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K.→:::←Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top. <!--SR:!2024-06-15,234,230!2024-02-08,191,250-->
-6. Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top.→:::←Products are warmed against incoming air to ambient temperatures. <!--SR:!2024-04-10,247,270!2024-01-08,161,230-->
-7. Products are warmed against incoming air to ambient temperatures.→:::←_(end)_ <!--SR:!2024-04-29,309,330!2025-01-04,428,290-->
+- _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2024-02-19,253,330!2024-04-30,310,330-->
+- Filter air to remove [dust](dust.md).→:::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K. <!--SR:!2024-07-09,306,270!2024-04-04,290,330-->
+- Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.→:::←Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md). <!--SR:!2024-01-17,182,250!2024-01-12,21,150-->
+- Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→:::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2024-07-02,214,230!2024-01-25,184,250-->
+- Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K.→:::←Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top. <!--SR:!2024-06-15,234,230!2024-02-08,191,250-->
+- Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top.→:::←Products are warmed against incoming air to ambient temperatures. <!--SR:!2024-04-10,247,270!2024-01-08,161,230-->
+- Products are warmed against incoming air to ambient temperatures.→:::←_(end)_ <!--SR:!2024-04-29,309,330!2025-01-04,428,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -57,16 +57,16 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2023-03-23T16:01:43.584612+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2024-01-04T20:17:52.521477+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←high purity <!--SR:!2024-02-05,85,290!2024-05-20,318,330-->
-2. high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2024-01-30,143,230!2024-02-07,197,270-->
-3. low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2024-03-15,80,230!2024-03-26,171,230-->
-4. low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2024-01-07,11,150!2024-12-13,349,230-->
-5. high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-01-18,157,230!2024-06-28,259,270-->
-6. high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-01-24,103,230!2024-03-06,219,270-->
-7. non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-02-14,43,230!2024-01-27,113,250-->
-8. ready and cheap availability→:::←_(end)_ <!--SR:!2024-05-17,315,330!2024-02-04,83,290-->
+- _(begin)_→:::←high purity <!--SR:!2024-02-05,85,290!2024-05-20,318,330-->
+- high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2024-01-30,143,230!2024-02-07,197,270-->
+- low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2024-03-15,80,230!2024-03-26,171,230-->
+- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2024-01-07,11,150!2024-12-13,349,230-->
+- high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-01-18,157,230!2024-06-28,259,270-->
+- high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-01-24,103,230!2024-03-06,219,270-->
+- non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-02-14,43,230!2024-01-27,113,250-->
+- ready and cheap availability→:::←_(end)_ <!--SR:!2024-05-17,315,330!2024-02-04,83,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

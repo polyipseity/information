@@ -71,10 +71,10 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="333d"--><!-- The following content is generated at 2023-04-07T00:25:31.879060+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="333d"--><!-- The following content is generated at 2024-01-04T20:17:51.620099+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2024-02-13,221,316!2024-07-12,360,336-->
-2. [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2024-05-18,316,336!2024-02-12,220,316-->
+- _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2024-02-13,221,316!2024-07-12,360,336-->
+- [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2024-05-18,316,336!2024-02-12,220,316-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

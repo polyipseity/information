@@ -58,16 +58,16 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2023-03-19T22:23:17.214515+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←appearance <!--SR:!2024-04-21,294,330!2024-05-16,314,330-->
-2. appearance→:::←deformability (as a solid) <!--SR:!2024-02-12,80,250!2024-08-19,360,290-->
-3. deformability (as a solid)→:::←[density](density.md) <!--SR:!2024-01-22,204,270!2024-03-16,90,290-->
-4. [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-02-05,128,210-->
-5. [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2024-06-04,279,270!2024-02-06,174,230-->
-6. form→:::←[melting point](melting%20point.md) <!--SR:!2024-01-16,60,190!2024-02-24,74,210-->
-7. [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2024-01-07,5,130-->
-8. [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2024-02-19,87,290-->
+- _(begin)_→:::←appearance <!--SR:!2024-04-21,294,330!2024-05-16,314,330-->
+- appearance→:::←deformability (as a solid) <!--SR:!2024-02-12,80,250!2024-08-19,360,290-->
+- deformability (as a solid)→:::←[density](density.md) <!--SR:!2024-01-22,204,270!2024-03-16,90,290-->
+- [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-02-05,128,210-->
+- [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2024-06-04,279,270!2024-02-06,174,230-->
+- form→:::←[melting point](melting%20point.md) <!--SR:!2024-01-16,60,190!2024-02-24,74,210-->
+- [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-02-05,200,270!2024-01-07,5,130-->
+- [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2024-02-19,87,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

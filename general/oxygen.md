@@ -46,12 +46,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aaee9e"--><!-- The following content is generated at 2023-03-14T22:39:01.204551+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aaee9e"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
 
-1. _(begin)_→:::←breathing <!--SR:!2025-09-23,690,330!2024-02-21,247,330-->
-2. breathing→:::←burning of fuels <!--SR:!2024-09-22,366,290!2026-05-31,883,330-->
-3. burning of fuels→:::←medical use <!--SR:!2024-03-31,280,330!2025-03-01,525,310-->
-4. medical use→:::←_(end)_ <!--SR:!2024-05-24,322,330!2024-01-27,230,330-->
+- _(begin)_→:::←breathing <!--SR:!2025-09-23,690,330!2024-02-21,247,330-->
+- breathing→:::←burning of fuels <!--SR:!2024-09-22,366,290!2026-05-31,883,330-->
+- burning of fuels→:::←medical use <!--SR:!2024-03-31,280,330!2025-03-01,525,310-->
+- medical use→:::←_(end)_ <!--SR:!2024-05-24,322,330!2024-01-27,230,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
