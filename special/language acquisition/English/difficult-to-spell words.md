@@ -40,6 +40,7 @@ English
 - [larynx](https://en.wiktionary.org/wiki/larynx):::an [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md)
 - [negligible](https://en.wiktionary.org/wiki/negligible):::can be not considered as it is too small or unimportant
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization):::the partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md)
+- [pendulum](https://en.wiktionary.org/wiki/pendulum):::a device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely
 - [perspective](https://en.wiktionary.org/wiki/perspective):::the technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md)
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal):::of or pertaining to the [pharynx](../../../general/pharynx.md)
 - [pharynx](https://en.wiktionary.org/wiki/pharynx):::part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md)
