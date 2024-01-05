@@ -44,6 +44,7 @@ English
 - [perspective](https://en.wiktionary.org/wiki/perspective):::the technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md)
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal):::of or pertaining to the [pharynx](../../../general/pharynx.md)
 - [pharynx](https://en.wiktionary.org/wiki/pharynx):::part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md)
+- [phenomenon](https://en.wiktionary.org/wiki/phenomenon):::an [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md)
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism):::copying of others' work and presenting it as one's own
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize):::to copy others' work and present it as one's own
 - [polynomial](https://en.wiktionary.org/wiki/polynomial):::a [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md)
