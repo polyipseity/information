@@ -1,0 +1,21 @@
+Lab4 has 5 test cases:
+
+Test Case 1: Initial Radar Status
+
+This test case begins with an empty radar system. The player chooses to display the radar status, which should show that no alien ships are detected. Then, the player quits the game.
+
+Test Case 2: Detect and Track an Alien Ship
+
+In this test case, the player detects and tracks four different alien ships with IDs 1, 2, 3, and 4. After all detection, the radar status is displayed to show the tracked alien ships. Finally, the player quits the game.
+
+Test Case 3: Engage in Battle (Eliminate Alien Ship)
+
+This test case starts with four alien ships already detected and tracked (ID: 1,2,1,1). The player chooses to engage in battle and eliminate three alien ships with ID 1. After the battle, the radar status is displayed to show the remaining tracked alien ships. The player then quits the game.
+
+Test Case 4: Count Total Alien Ships
+
+In this test case, the player detects and tracks two alien ships with IDs 1. Afterward, the player chooses to count the total number of detected alien ships, which should be 2. The radar status is also displayed, showing the tracked alien ships. The player quits the game.
+
+Test Case 5: Radar Full (Cannot Track More Alien Ships)
+
+This test case demonstrates that the radar system has a maximum capacity of 5 slots. The player attempts to detect six different alien ships, but after tracking the first five, the radar is full. When trying to detect the sixth alien ship, the game displays a message stating that the radar is already full. Finally, the radar status is displayed, and the player quits the game.
