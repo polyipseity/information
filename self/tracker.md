@@ -7,6 +7,12 @@ tags:
 
 # tracker
 
+## academia
+
+### Hong Kong University of Science and Technology
+
+- community engagement record: <https://connect.hkust.edu.hk/get-involved/register-with-hkust-connect/community-engagement-record>
+
 ## avatar
 
 ### set 1
