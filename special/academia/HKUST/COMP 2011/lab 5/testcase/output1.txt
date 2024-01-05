@@ -1,0 +1,5 @@
+Enter the elements of the array. The elements should only be 0 or 1: 
+The corner points are: 
+3 3 4 4
+The rectangle size is: 
+4

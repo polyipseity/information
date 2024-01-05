@@ -1,0 +1,91 @@
+== Case 1 ==
+Input:
+q
+n
+
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 2 ==
+Input:
+q@#
+n
+
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 3 ==
+Input:
+q@w#@|
+n
+
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 4 ==
+Input:
+q@#q@w#@||@#
+n
+
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 5 ==
+Input:
+#a
+n
+
+Output:
+Enter a word: The word is INCORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)? 
+
+
+== Case 6 ==
+Input:
+a#b#c#|###
+n
+      
+Output:   
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)? 
+
+== Case 7 ==
+Input:
+a#b#c#||d#e#f#||###|
+n
+
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 8 ==
+Input:
+#q@#q@w#@|
+n
+     
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 9 ==
+Input:
+xyz
+n
+
+Output:
+Enter a word: The word is INCORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+
+== Case 10 ==
+Input:
+ab##|
+n
+
+Output:
+Enter a word: The word is CORRECT!
+Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)?
+   
