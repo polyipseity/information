@@ -15,7 +15,7 @@ It is commonly found in {{the [rocks](rock%20(geology).md) [limestone](limestone
 ## reactions
 
 Calcium carbonate {{[decomposes](thermal%20decomposition.md) under heating}}.
-> {{CaCO<sub>3</sub>(s) $\xrightarrow{\text{heat} }$ CaO(s) + CO<sub>2</sub>(g)}} <!--SR:!2024-01-05,401,250!2028-10-31,1764,310-->
+> {{CaCO<sub>3</sub>(s) $\xrightarrow{\text{heat} }$ CaO(s) + CO<sub>2</sub>(g)}} <!--SR:!2027-11-12,1407,270!2028-10-31,1764,310-->
 
 It also {{reacts with [acids](acid.md)}}.
 > {{CaCO<sub>3</sub>(s) + 2HCl(aq) → CaCl<sub>2</sub>(aq) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l)}} <!--SR:!2024-11-09,583,257!2027-09-16,1422,299-->

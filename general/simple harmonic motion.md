@@ -11,7 +11,7 @@ tags:
 
 ## dynamics
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}: <!--SR:!2024-01-05,11,309-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}: <!--SR:!2024-02-20,46,329-->
 
 > __ordinary differential equation__
 >
@@ -125,7 +125,7 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}}
->     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-01-05,15,316!2024-01-07,4,318-->
+>     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-03-15,70,336!2024-01-07,4,318-->
 
 ### mass of a simple pendulum
 

@@ -79,7 +79,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 - oil-proof→:::←smooth <!--SR:!2024-01-14,173,250!2024-04-05,220,230-->
 - smooth→:::←[strong](strength%20of%20materials.md) <!--SR:!2024-06-27,345,330!2024-09-27,287,250-->
 - [strong](strength%20of%20materials.md)→:::←[tough](toughness.md) <!--SR:!2024-01-15,197,310!2024-10-10,376,290-->
-- [tough](toughness.md)→:::←washable <!--SR:!2024-02-03,211,310!2024-01-05,35,130-->
+- [tough](toughness.md)→:::←washable <!--SR:!2024-02-03,211,310!2024-02-19,45,130-->
 - washable→:::←[waterproof](waterproof.md) <!--SR:!2024-03-17,264,330!2024-06-28,346,330-->
 - [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2024-03-12,261,330!2024-07-28,317,290-->
 
