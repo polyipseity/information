@@ -41,7 +41,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[thermometers](thermometer.md)}} | {{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}} | <!--SR:!2024-01-05,213,330!2024-02-24,192,270-->
+> | {{[thermometers](thermometer.md)}} | {{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}} | <!--SR:!2026-08-30,968,350!2024-02-24,192,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

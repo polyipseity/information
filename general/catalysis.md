@@ -26,7 +26,7 @@ Catalysts are often {{specific in action and [poisoned](catalyst%20poisoning.md)
 
 ## significance
 
-Catalysts can {{increase production throughput, reducing production cost and save [fuels](fuel.md)}}. In [biology](biology.md), {{[enzymes](enzyme.md) are [protein](protein.md)-based catalysts}}. <!--SR:!2024-01-05,112,250!2024-03-14,223,270-->
+Catalysts can {{increase production throughput, reducing production cost and save [fuels](fuel.md)}}. In [biology](biology.md), {{[enzymes](enzyme.md) are [protein](protein.md)-based catalysts}}. <!--SR:!2024-03-02,57,230!2024-03-14,223,270-->
 
 ### examples
 

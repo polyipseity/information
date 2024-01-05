@@ -91,7 +91,7 @@ The Bohr model fails to explain:
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-01-04T20:17:51.354362+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2024-01-05,171,304!2025-03-27,531,344-->
+- _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2024-03-30,85,284!2025-03-27,531,344-->
 - [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2024-02-18,198,304!2024-02-17,197,304-->
 - reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2024-03-08,119,244!2024-02-28,208,284-->
 - relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2024-01-07,122,244!2024-04-07,213,264-->

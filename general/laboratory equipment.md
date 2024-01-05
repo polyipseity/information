@@ -200,7 +200,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd23"--><!-- The following content is generated at 2024-01-04T20:17:52.234332+08:00. Any edits will be overridden! -->
 
 - [Bunsen burner](Bunsen%20burner.md)::![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg) <!--SR:!2024-03-02,256,330-->
-- [Liebig condenser](Liebig%20condenser.md)::![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:!2024-01-05,208,310-->
+- [Liebig condenser](Liebig%20condenser.md)::![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:!2026-06-14,891,330-->
 - [beaker](beaker.md)::![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:!2024-03-28,277,330-->
 - [burette](burette.md)::![burette](../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2026-01-13,771,330-->
 - [burette clamp](burette%20clamp.md)::![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:!2025-01-03,427,290-->
@@ -239,7 +239,7 @@ return _chain.from_iterable(await _gather(
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)::![volumetric pipette/bulb pipette/belly pipette](../archives/Wikimedia%20Commons/Vollpipetten.jpg) <!--SR:!2024-02-29,255,330-->
 - [wash bottle](wash%20bottle.md)::![wash bottle](../archives/Wikimedia%20Commons/Lab%20wash-bottles%20water%20EtOH.jpg) <!--SR:!2024-04-22,295,330-->
 - [watch glass](watch%20glass.md)::![watch glass](../archives/Wikimedia%20Commons/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg) <!--SR:!2026-02-15,788,330-->
-- [weighing bottle](weighing%20bottle.md)::![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg) <!--SR:!2024-01-05,206,310-->
+- [weighing bottle](weighing%20bottle.md)::![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg) <!--SR:!2026-06-06,883,330-->
 - [wire gauze](wire%20gauze.md)::![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg) <!--SR:!2024-03-02,257,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

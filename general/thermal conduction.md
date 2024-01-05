@@ -20,7 +20,7 @@ tags:
 > - where
 >   - {{$\vec\phi_\text{q}$ is the [heat flux](heat%20flux.md), in W⋅m<sup>-2</sup>}}
 >   - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
->   - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}} <!--SR:!2024-01-15,18,250!2024-01-15,20,270!2024-02-25,53,310!2024-01-05,15,290-->
+>   - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}} <!--SR:!2024-01-15,18,250!2024-01-15,20,270!2024-02-25,53,310!2024-03-04,59,310-->
 
 For simple applications, Fourier's law is used in its one-dimensional form:
 
@@ -55,7 +55,7 @@ For simple applications where the material is [homogeneous](homogeneity%20and%20
 >   - {{$\frac{Q}{\Delta t}$ is the [heat](heat.md) transferred per unit [time](time.md), in W}}
 >   - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
 >   - {{$\frac{\Delta T}{\Delta x}$ is the [temperature](temperature.md) change per unit distance along the $x$-direction which is perpendicular to the surface, in K⋅m<sup>-1</sup>}}
->   - {{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}} <!--SR:!2024-01-07,17,290!2024-02-03,35,290!2024-01-22,25,270!2024-01-06,16,290!2024-02-07,39,290!2024-01-05,15,290-->
+>   - {{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}} <!--SR:!2024-01-07,17,290!2024-02-03,35,290!2024-01-22,25,270!2024-01-06,16,290!2024-02-07,39,290!2024-03-02,57,310-->
 
 ## references
 
