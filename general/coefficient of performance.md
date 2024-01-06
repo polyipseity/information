@@ -19,7 +19,7 @@ tags:
 > {{$$\mathrm{COP} = \frac{\lvert Q \rvert}W$$}}
 >
 > - where
->   - {{$Q$ is the useful [heat](heat.md) supplied to (if heating) or removed by (if cooling) the system, and $W$ is the net [work](work%20(physics).md) supplied to the system}} <!--SR:!2024-01-06,13,290!2024-01-07,14,290-->
+>   - {{$Q$ is the useful [heat](heat.md) supplied to (if heating) or removed by (if cooling) the system, and $W$ is the net [work](work%20(physics).md) supplied to the system}} <!--SR:!2024-02-12,37,290!2024-01-07,14,290-->
 
 <!-- markdownlint MD028 -->
 
