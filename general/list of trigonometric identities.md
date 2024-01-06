@@ -191,7 +191,7 @@ return await memorize_map(
 
 > [!tip] tip
 >
-> - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}} <!--SR:!2024-01-06,15,305-->
+> - [mnemonic](mnemonic.md): {{use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization}} <!--SR:!2024-03-10,64,325-->
 
 <!-- markdownlint MD028 -->
 
@@ -263,7 +263,7 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin(5.23 + 1.23) + \sin(5.23 - 1.23)}2$ <!--SR:!2024-02-11,40,307!2024-02-12,39,287-->
-> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin(-3.21 + 0.23) - \sin(-3.21 - 0.23)}2$ <!--SR:!2024-01-06,13,287!2024-02-02,31,287-->
+> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin(-3.21 + 0.23) - \sin(-3.21 - 0.23)}2$ <!--SR:!2024-03-02,56,307!2024-02-02,31,287-->
 > - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos(6.22 - (-0.01)) - \cos(6.22 + (-0.01))}2$ <!--SR:!2024-01-28,26,287!2024-01-08,11,227-->
 > - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos(-7.23 - (-1.23)) + \cos(-7.23 + (-1.23))}2$ <!--SR:!2024-01-25,25,287!2024-01-12,15,267-->
 
@@ -283,7 +283,7 @@ return chain.from_iterable(await gather(
 - sine ± sine::$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$ <!--SR:!2024-11-03,359,250-->
 - cosine + cosine::$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-05-30,195,230-->
 - cosine - cosine::$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-04-06,134,190-->
-- tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$ <!--SR:!2024-01-06,58,150-->
+- tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$ <!--SR:!2024-04-05,90,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -291,7 +291,7 @@ return chain.from_iterable(await gather(
 >
 > - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-02-04,32,287!2024-02-03,30,267-->
 > - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-02-11,39,307!2024-01-19,20,267-->
-> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-01-06,13,287!2024-01-24,24,267-->
+> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-02-29,54,307!2024-01-24,24,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-02-08,37,307!2024-01-17,18,267-->
 
 ## linear combination
