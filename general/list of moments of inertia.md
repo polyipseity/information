@@ -18,7 +18,7 @@ tags:
 
 - definition: a homogeneous [cuboid](cuboid.md) {{of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center}}
 - equation: {{$I_a=\frac1{12}m\left(b^2+c^2\right)$}}
-  - thin plate correction: {{0}}
+  - thin plate correction: {{use the same equation}}
   - cuboid, axis through center of edge $c$: {{$I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$}}
   - thin plate with $c=0$, axis through edge $a$: {{$I_{a@c=0}=\frac13mb^2$}}
 - proof: $$\begin{aligned}
@@ -54,7 +54,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 
 - definition: a homogeneous rod {{of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end}}
 - equation: {{$I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$}}
-  - thin rod correction: {{$-\frac14mR^2$}}
+  - thin rod correction: {{use the same equation and set $R = 0$}}
   - slender rod, axis through center: {{$\frac1{12}mL^2$}}
   - slender rod, axis through one end: {{$\frac13mL^2$}}
 - proof: $$\begin{aligned}
