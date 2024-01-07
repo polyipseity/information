@@ -20,7 +20,7 @@ tags:
 
 ## principal value
 
-The _[principal value](principal%20value.md)_ of $\arg z$ {{is the value in the open-closed [interval](interval%20(mathematics).md) $(-\pi \mathrm{\ rad},\pi \mathrm{\ rad}]$, sometimes denoted $\operatorname{Arg} z$}}. <!--SR:!2024-01-07,17,290-->
+The _[principal value](principal%20value.md)_ of $\arg z$ {{is the value in the open-closed [interval](interval%20(mathematics).md) $(-\pi \mathrm{\ rad},\pi \mathrm{\ rad}]$, sometimes denoted $\operatorname{Arg} z$}}. <!--SR:!2024-03-15,68,310-->
 
 ## references
 

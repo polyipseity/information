@@ -148,7 +148,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \cos 1.73 \sin 2.45$ <!--SR:!2024-02-06,32,287!2024-01-08,15,307-->
-> - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2024-01-25,25,267!2024-01-07,14,307-->
+> - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2024-01-25,25,267!2024-02-20,44,307-->
 > - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2024-01-11,6,227!2024-02-07,33,287-->
 
 ## multiple-angle
@@ -200,7 +200,7 @@ return await memorize_map(
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-02-13,42,307!2024-01-10,17,307-->
 > - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$ <!--SR:!2024-02-09,36,287!2024-02-09,38,307-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-02-12,41,307!2024-02-01,28,267-->
-> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-01-07,14,307!2024-01-27,28,287-->
+> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-03-06,59,327!2024-01-27,28,287-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-01-11,18,307!2024-01-08,15,307-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-01-08,15,307!2024-01-08,15,307-->
 > - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2024-01-18,19,267-->
@@ -304,7 +304,7 @@ return chain.from_iterable(await gather(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2024-01-07,13,289!2024-01-24,25,289!2024-01-10,16,309-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-02-27,51,309!2024-01-24,25,289!2024-01-10,16,309-->
 
 <!-- markdownlint MD028 -->
 

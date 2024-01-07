@@ -29,7 +29,7 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-12,18,329!2024-01-07,13,309!2024-01-13,19,329-->
+>   - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-12,18,329!2024-03-02,55,329!2024-01-13,19,329-->
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 
@@ -88,7 +88,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-16,43,316!2024-01-08,18,316!2024-01-07,17,316!2024-02-21,50,316!2024-01-07,17,316!2024-03-16,70,336!2024-01-07,17,316-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-16,43,316!2024-01-08,18,316!2024-03-20,73,336!2024-02-21,50,316!2024-02-28,52,316!2024-03-16,70,336!2024-03-23,76,336-->
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 
@@ -125,7 +125,7 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}}
->     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-03-15,70,336!2024-01-07,4,318-->
+>     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-03-15,70,336!2024-01-27,20,338-->
 
 ### mass of a simple pendulum
 
@@ -136,7 +136,7 @@ E & = K + U \\
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
 >     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-08,6,276!2024-01-08,18,316!2024-01-07,4,318!2024-01-07,4,318-->
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-08,6,276!2024-01-08,18,316!2024-01-25,18,338!2024-01-24,17,338-->
 
 ### mass of a physical pendulum
 
@@ -147,7 +147,7 @@ E & = K + U \\
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
 >     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-10,15,276!2024-02-22,50,316!2024-01-07,4,318!2024-01-07,4,318-->
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-10,15,276!2024-02-22,50,316!2024-01-23,16,338!2024-01-26,19,338-->
 
 ## references
 

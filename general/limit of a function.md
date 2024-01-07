@@ -52,7 +52,7 @@ When the limit on the right of the equation does not exist but are in the follow
 
 ### limits of compositions of functions
 
-In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}. <!--SR:!2024-01-07,19,250-->
+In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}. <!--SR:!2024-02-24,48,250-->
 
 ## references
 
