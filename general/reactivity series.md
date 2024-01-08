@@ -136,7 +136,7 @@ return await memorize_table(
 - [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-04-07,237,270-->
 - [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-02-03,71,230!2024-01-09,12,130-->
 - [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-01-11,66,230-->
-- [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-01-08,4,150-->
+- [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-01-18,10,170-->
 - [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2024-01-15,166,230-->
 - [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-02-14,75,230!2024-06-15,267,250-->
 - [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2024-12-31,415,270!2024-02-04,222,290-->
