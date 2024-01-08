@@ -384,7 +384,7 @@ C
 __draft__
 
 $$\begin{aligned}
-pV^\gamma & = C & (\text{adiabatic process}) \\
+pV^\gamma & = C && (\text{adiabatic process}) \\
 pV^\frac43 & = C \\
 pV & \propto T \\
 p\frac{1}{p^\frac34} & \propto T \\
