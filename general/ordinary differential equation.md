@@ -44,7 +44,7 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 > - $x$, an [independent variable](dependent%20and%20independent%29variables.md)
 > - $y(x)$, a [function](function%20(mathematics).md) of $x$
 > - $y^{(d)}(x)$, [derivatives](derivative%20.md) of $y(x)$
-> - $F$, a [formula](formula.md) <!--SR:!2024-06-22,181,310!2024-01-08,75,324-->
+> - $F$, a [formula](formula.md) <!--SR:!2024-06-22,181,310!2024-12-07,334,344-->
 
 ### classifications
 

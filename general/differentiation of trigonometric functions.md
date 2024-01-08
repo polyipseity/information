@@ -99,7 +99,7 @@ return await memorize_map(
 - $-\csc{x}\cot{x}$::$\csc{x}$ <!--SR:!2024-02-16,61,310-->
 - $\frac1{\sqrt{1-x^2} }$::$\arcsin{x}$ <!--SR:!2024-02-27,71,310-->
 - $-\frac1{\sqrt{1-x^2} }$::$\arccos{x}$ <!--SR:!2024-02-24,68,310-->
-- $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2024-01-08,27,270-->
+- $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2024-04-18,101,290-->
 - $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2024-02-19,64,310-->
 - $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arcsec}{x}$ <!--SR:!2024-01-16,34,290-->
 - $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arccsc}{x}$ <!--SR:!2024-01-24,42,290-->

@@ -88,7 +88,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-16,43,316!2024-01-08,18,316!2024-03-20,73,336!2024-02-21,50,316!2024-02-28,52,316!2024-03-16,70,336!2024-03-23,76,336-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-16,43,316!2024-03-26,78,336!2024-03-20,73,336!2024-02-21,50,316!2024-02-28,52,316!2024-03-16,70,336!2024-03-23,76,336-->
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 
@@ -136,7 +136,7 @@ E & = K + U \\
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
 >     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-08,6,276!2024-01-08,18,316!2024-01-25,18,338!2024-01-24,17,338-->
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-24,16,276!2024-03-25,77,336!2024-01-25,18,338!2024-01-24,17,338-->
 
 ### mass of a physical pendulum
 
