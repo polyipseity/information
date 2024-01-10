@@ -569,7 +569,7 @@ f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
 
 > [!tip] tip
 >
-> - takeaway: {{The Leibniz integral rule can be used to simplify integrands. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}}
+> - takeaway: {{The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}}
 
 ## references
 
