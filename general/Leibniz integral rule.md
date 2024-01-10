@@ -355,48 +355,6 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 >
 > - takeaway: {{Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.}}
 
-<!-- cut content because it does not work
-$$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \frac{\mathrm{d}}{\mathrm{d}a} \int_0^{2\pi}\! \cos(a \sin \theta) \,\mathrm{d}\theta \\
-& = \int_0^{2\pi}\! \frac{\partial}{\partial a} a \sin\theta \cos(a \sin \theta) \,\mathrm{d}\theta \\
-& = \int_0^{2\pi}\! a \cos \theta \cos(a \sin \theta) - a \sin \theta \cos \theta \sin(a \sin \theta) \,\mathrm{d}\theta \\
-& = -\int_{\theta = 0}^{\theta = 2\pi}\! \theta \,\mathrm{d}u && (u = \cos(\sin a\theta), \mathrm{d}u = a \sin(\sin a\theta) \cos a\theta \,\mathrm{d}\theta) \\
-& = -[u \theta]_{\theta = 0}^{\theta = 2\pi} + \int_0^{2\pi}\! u \,\mathrm{d}\theta && (\text{integration by parts}) \\
-& = -2\pi \cos(\sin 2\pi a) + \int_0^{2\pi} \cos(\sin a\theta) \,\mathrm{d}\theta \\
-& = - 2\pi \cos(\sin 2\pi a) + f(a)
-\end{aligned}$$
-
-$$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \frac{\mathrm{d}}{\mathrm{d}a} \int_0^{2\pi}\! \cos(\sin a\theta) \,\mathrm{d}\theta \\
-& = \int_0^{2\pi}\! \frac{\partial}{\partial a} \cos(\sin a\theta) \,\mathrm{d}\theta \\
-& = -\int_0^{2\pi}\! \theta \sin(\sin a\theta)\cos a\theta \,\mathrm{d}\theta \\
-& = -\int_{\theta = 0}^{\theta = 2\pi}\! \theta \,\mathrm{d}u && (u = \cos(\sin a\theta), \mathrm{d}u = a \sin(\sin a\theta) \cos a\theta \,\mathrm{d}\theta) \\
-& = -[u \theta]_{\theta = 0}^{\theta = 2\pi} + \int_0^{2\pi}\! u \,\mathrm{d}\theta && (\text{integration by parts}) \\
-& = -2\pi \cos(\sin 2\pi a) + \int_0^{2\pi} \cos(\sin a\theta) \,\mathrm{d}\theta \\
-& = - 2\pi \cos(\sin 2\pi a) + f(a)
-\end{aligned}$$
-
-$$f'(a) - f(a) = -2\pi \cos(\sin 2\pi a)$$
-
-$$\begin{aligned}
-f_0'(a) - f_0(a) &= 0 \\
-r - 1 & = 0 \\
-r & = 1 \\
-f_0(a) & = c_1e^a
-\end{aligned}$$
-
-$$\begin{aligned}
-f(a) & = e^a \int\! \frac{\det \begin{bmatrix} - 2\pi \cos(\sin 2\pi \xi) \end{bmatrix}}{\det \begin{bmatrix}e^\xi\end{bmatrix}} \,\mathrm{d}\xi \\
-& = -2\pi e^a \int\! e^{-\xi} \cos(\sin 2\pi \xi) \,\mathrm{d}\xi \\
-& = -2\pi e^a \int_0^a\! e^{-\xi} \cos(\sin 2\pi \xi) \,\mathrm{d}\xi + c_1e^a \\
-f(0) & = -2\pi e^0 \int_0^0\! e^{-\xi} \cos(\sin 2\pi \xi) \,\mathrm{d}\xi + c_1e^0 \\
-\int_0^{2\pi}\! \cos(\sin 0\theta) \,\mathrm{d}\theta & = c_1 \\
-c_1 & = 2\pi \\
-f(a) & = -2\pi e^a \int_0^a e^{-\xi} \cos(\sin 2\pi \xi) \,\mathrm{d}\xi + 2\pi e^a \\
-\int_0^{2\pi}\! \cos(\sin a\theta) \,\mathrm{d}\theta & = -2\pi e^a \int_0^a e^{-\xi} \cos(\sin 2\pi \xi) \,\mathrm{d}\xi + 2\pi e^a
-\end{aligned}$$
--->
-
 #### other problems to solve
 
 - integral 1 $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$
