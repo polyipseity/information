@@ -56,7 +56,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
 - [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
-- [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-01-11,17,309-->
+- [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-03-23,72,329-->
 - [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
 - [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
 - [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
@@ -149,7 +149,7 @@ return await memorize_map(
 >
 > - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \cos 1.73 \sin 2.45$ <!--SR:!2024-02-06,32,287!2024-03-13,65,327-->
 > - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2024-01-25,25,267!2024-02-20,44,307-->
-> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2024-01-11,6,227!2024-02-07,33,287-->
+> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 7.22 \tan 2.38}$ <!--SR:!2024-01-29,18,247!2024-02-07,33,287-->
 
 ## multiple-angle
 
@@ -197,13 +197,13 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-02-13,42,307!2024-01-10,17,307-->
+> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \sin 3.71 \cos 3.71$ <!--SR:!2024-02-13,42,307!2024-03-25,74,327-->
 > - $\sin(-0.36)$ (square variant) ::: $(\sin(-0.18) + \cos(-0.18))^2 - 1$ <!--SR:!2024-02-09,36,287!2024-02-09,38,307-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-02-12,41,307!2024-02-01,28,267-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 (-1.84) - \sin^2 (-1.84)$ <!--SR:!2024-03-06,59,327!2024-01-27,28,287-->
-> - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-01-11,18,307!2024-03-11,63,327-->
+> - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-03-26,75,327!2024-03-11,63,327-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-03-12,64,327!2024-03-10,62,327-->
-> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-01-09,16,307!2024-01-18,19,267-->
+> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-03-03,52,307!2024-01-18,19,267-->
 > - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2024-01-24,24,287!2024-02-05,33,287-->
 
 ## product-to-sum and sum-to-product
@@ -304,7 +304,7 @@ return chain.from_iterable(await gather(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2024-02-27,51,309!2024-01-24,25,289!2024-01-10,16,309-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-02-27,51,309!2024-01-24,25,289!2024-03-18,67,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -312,7 +312,7 @@ return chain.from_iterable(await gather(
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-01-25,23,269!2024-01-13,9,249-->
 > - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(-2x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-01-21,21,269!2024-01-18,18,269-->
-> - $0 \cos 5x - 1.23 \sin 5x$ ::: $-1.23 \sin 5x$ <!--SR:!2024-01-09,15,309!2024-01-12,18,309-->
+> - $0 \cos 5x - 1.23 \sin 5x$ ::: $-1.23 \sin 5x$ <!--SR:!2024-03-16,65,329!2024-01-12,18,309-->
 
 ## references
 

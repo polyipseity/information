@@ -13,7 +13,7 @@ tags:
 
 ## definition
 
-Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathematics).md) $F$. A finite [set](set%20(mathematics).md) of $n$ [vectors](vector%20(mathematics%20and%20physics).md) $\vec{v_1}, \vec{v_2}, \ldots, \vec{v_n}$ from $V$ are _linearly dependent_, {{if and only if there exists $n$ [scalars](scalar%20(mathematics).md) $k_1, k_2, \ldots, k_n$ from $F$ that are not all [zero elements](zero%20element.md), such that $$k_1 \vec{v_1} + k_2 \vec{v_2} + \cdots + k_n \vec{v_n} = \vec{0}$$. [Inversely](inverse%20(logic).md), a finite set of vectors is _linearly independent_ if and only if it is not linearly dependent, i.e. the above equation can only be satisfied by $k_1 = k_2 = \cdots = k_n = 0$}}. <!--SR:!2024-01-11,9,270-->
+Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathematics).md) $F$. A finite [set](set%20(mathematics).md) of $n$ [vectors](vector%20(mathematics%20and%20physics).md) $\vec{v_1}, \vec{v_2}, \ldots, \vec{v_n}$ from $V$ are _linearly dependent_, {{if and only if there exists $n$ [scalars](scalar%20(mathematics).md) $k_1, k_2, \ldots, k_n$ from $F$ that are not all [zero elements](zero%20element.md), such that $$k_1 \vec{v_1} + k_2 \vec{v_2} + \cdots + k_n \vec{v_n} = \vec{0}$$. [Inversely](inverse%20(logic).md), a finite set of vectors is _linearly independent_ if and only if it is not linearly dependent, i.e. the above equation can only be satisfied by $k_1 = k_2 = \cdots = k_n = 0$}}. <!--SR:!2024-02-12,32,290-->
 
 > [!example] examples
 >
@@ -21,7 +21,7 @@ Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathemati
 
 ### infinite case
 
-An infinite [set](set%20(mathematics).md) of [vectors](vector%20(mathematics%20and%20physics).md) is _linearly dependent_ {{if and only if it contains a finite [subset](subset.md) that is linearly dependent. [Inversely](inverse%20(logic).md), an infinite set of vectors is _linearly independent_ if and only if it is not _linearly dependent_, i.e. every finite [subset](subset.md) is linearly independent}}. <!--SR:!2024-01-11,9,270-->
+An infinite [set](set%20(mathematics).md) of [vectors](vector%20(mathematics%20and%20physics).md) is _linearly dependent_ {{if and only if it contains a finite [subset](subset.md) that is linearly dependent. [Inversely](inverse%20(logic).md), an infinite set of vectors is _linearly independent_ if and only if it is not _linearly dependent_, i.e. every finite [subset](subset.md) is linearly independent}}. <!--SR:!2024-02-13,33,290-->
 
 ## references
 

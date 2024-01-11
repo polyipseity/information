@@ -61,7 +61,7 @@ return await memorize_table(
 - kitchen foil→:::←overhead power cables <!--SR:!2024-04-27,255,270!2024-03-02,81,190-->
 - overhead power cables→:::←soft drink cans <!--SR:!2024-10-07,373,290!2024-01-15,181,250-->
 - soft drink cans→:::←window frames <!--SR:!2024-02-09,186,270!2024-01-14,180,250-->
-- window frames→:::←_(end)_ <!--SR:!2024-02-13,247,330!2024-01-11,219,310-->
+- window frames→:::←_(end)_ <!--SR:!2024-02-13,247,330!2024-04-29,109,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

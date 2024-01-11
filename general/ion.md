@@ -355,7 +355,7 @@ return chain.from_iterable(await gather(
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-03-01,85,302-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-01-12,5,150-->
-- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-01-10,21,182-->
+- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-02-20,40,182-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-01-17,47,202-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
 
@@ -413,7 +413,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2024-01-04T20:17:52.102773+08:00. Any edits will be overridden! -->
 
 - hydride ion:::H<sup>-</sup> <!--SR:!2026-03-03,1183,354!2026-02-13,1171,356-->
-- fluoride ion:::F<sup>-</sup> <!--SR:!2024-01-09,502,310!2027-06-07,1566,374-->
+- fluoride ion:::F<sup>-</sup> <!--SR:!2029-12-03,2153,330!2027-06-07,1566,374-->
 - chloride ion:::Cl<sup>-</sup> <!--SR:!2027-07-27,1605,373!2025-11-03,1086,354-->
 - bromide ion:::Br<sup>-</sup> <!--SR:!2026-12-18,1232,273!2025-02-23,814,294-->
 - iodide ion:::I<sup>-</sup> <!--SR:!2024-11-28,760,332!2026-11-16,1294,313-->
