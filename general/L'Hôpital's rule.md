@@ -42,7 +42,7 @@ __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theor
 > 1. {{Given [real-valued functions](real-valued%20function.md) $f$ and $g$ which are [differentiable](differentiable%20function.md) on, for two-sided limit, an open [interval](interval%20(mathematics).md) $I$ except possibly at an [extended real number](extended%20real%20number%20line.md) $c$ which is in $I$, or for limit at infinity or [one-sided limit](one-sided%20limit.md), an open [interval](interval%20(mathematics).md) with endpoint $c$,}}
 > 2. {{if $\lim_{x\to{}c}f(x)=\lim_{x\to{}c}g(x)=0$ or $\lim_{x\to{}c}\lvert{g(x)}\rvert=\infty$, $g'(x)\ne0$ for all $x$ in $I$ except possibly $c$, and the [limit](limit%20of%20a%20functino.md) $\lim_{x\to{}c}\frac{f'(x)}{g'(x)}$ exists or equals positive or negative [infinity](infinity.md),}}
 > 3. {{then $\lim_{x\to{}c}\frac{f(x)}{g(x)}=\lim_{x\to{}c}\frac{f'(x)}{g'(x)}$.}}
-> 4. {{If $c$ is a finite endpoint of $I$, the limits can be also be [one-sided limits](one-sided%20limit.md) $x\to{}c^+$ or $x\to{}c^-$.}} <!--SR:!2024-01-10,29,280!2024-02-09,46,260!2024-03-05,77,320!2024-01-31,46,300-->
+> 4. {{If $c$ is a finite endpoint of $I$, the limits can be also be [one-sided limits](one-sided%20limit.md) $x\to{}c^+$ or $x\to{}c^-$.}} <!--SR:!2024-03-31,80,280!2024-02-09,46,260!2024-03-05,77,320!2024-01-31,46,300-->
 
 ## other indeterminate forms
 
@@ -110,7 +110,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-01-22,38,270!2024-02-24,68,310-->
 - $\infty-\infty$→:::←$0^0$ <!--SR:!2024-01-13,6,230!2024-01-16,27,250-->
 - $0^0$→:::←$1^\infty$ <!--SR:!2024-02-25,63,290!2024-01-15,34,290-->
-- $1^\infty$→:::←$\infty^0$ <!--SR:!2024-01-11,20,270!2024-01-26,44,290-->
+- $1^\infty$→:::←$\infty^0$ <!--SR:!2024-03-04,53,270!2024-01-26,44,290-->
 - $\infty^0$→:::←_(end)_ <!--SR:!2024-02-05,52,310!2024-01-21,38,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

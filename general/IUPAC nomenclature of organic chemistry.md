@@ -461,7 +461,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2024-01-09,101,210!2026-02-24,925,345!2028-09-02,1699,387-->
+> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2024-02-20,373,362!2024-08-08,211,210!2026-02-24,925,345!2028-09-02,1699,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -531,7 +531,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2024-01-09,198,265!2026-04-27,911,305!2027-08-26,1378,367-->
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2026-01-13,733,285!2026-04-27,911,305!2027-08-26,1378,367-->
 
 <!-- markdownlint MD028 -->
 

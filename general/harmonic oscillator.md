@@ -45,7 +45,7 @@ The above [inhomogeneous ordinary differential equation](ordinary%20differential
 
 - see: [step response](step%20response.md)
 
-Consider a system {{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t > 0 \end{cases}$$}}. Physically, we expect {{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}}. Solve the equation: <!--SR:!2024-01-10,10,250!2024-01-15,13,292-->
+Consider a system {{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t > 0 \end{cases}$$}}. Physically, we expect {{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}}. Solve the equation: <!--SR:!2024-02-07,27,250!2024-01-15,13,292-->
 
 > [!info]- details
 >
@@ -82,7 +82,7 @@ The solution is as below, which matches with our physical intuition:
 >   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >   - [phase space](phase%20space.md): {{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$ is steady-state equilibrium position with the driving [force](force.md) $F(t)$ and $\varphi = -\arcsin \zeta$ is the initial [phase](phase%20(waves).md)}}
-> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-01-14,8,232!2024-01-15,13,292!2024-01-19,17,292!2024-01-11,9,272!2024-01-22,16,252!2024-01-17,15,292-->
+> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-01-14,8,232!2024-01-15,13,292!2024-01-19,17,292!2024-02-03,23,272!2024-01-22,16,252!2024-01-17,15,292-->
 
 <!-- markdownlint MD028 -->
 

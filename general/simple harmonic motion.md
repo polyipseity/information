@@ -19,7 +19,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-13,19,329!2024-01-11,17,329!2024-01-12,18,329-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2024-01-13,19,329!2024-03-27,76,349!2024-01-12,18,329-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -125,7 +125,7 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}}
->     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-01-11,16,276!2024-03-15,70,336!2024-01-27,20,338-->
+>     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-02-23,43,276!2024-03-15,70,336!2024-01-27,20,338-->
 
 ### mass of a simple pendulum
 
@@ -147,7 +147,7 @@ E & = K + U \\
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
 >     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-01-10,15,276!2024-02-22,50,316!2024-01-23,16,338!2024-01-26,19,338-->
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-02-20,40,276!2024-02-22,50,316!2024-01-23,16,338!2024-01-26,19,338-->
 
 ## references
 

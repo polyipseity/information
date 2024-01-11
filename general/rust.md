@@ -97,13 +97,13 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2024-02-18,244,330-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2024-02-20,164,230!2025-06-03,556,310!2024-04-05,285,330!2024-06-07,272,250!2025-04-27,529,310!2024-01-09,186,270-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2024-02-20,164,230!2025-06-03,556,310!2024-04-05,285,330!2024-06-07,272,250!2025-04-27,529,310!2025-05-26,501,270-->
 
 ### electroplating
 
 - see: [electroplating](electroplating.md)
 
-Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2024-01-11,193,270-->
+Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2025-06-14,520,270-->
 
 In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2025-01-09,394,250!2024-12-13,440,270!2024-04-16,165,210!2024-09-24,391,290!2024-05-11,314,330!2024-02-10,207,270!2024-09-21,357,290-->
 

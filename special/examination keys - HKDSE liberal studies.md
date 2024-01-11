@@ -115,14 +115,14 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2024-01-11,22,190!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-02-06,62,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2024-02-21,41,190!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-02-06,62,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
-- comparison→:::←factor/reason <!--SR:!2024-01-11,110,210!2024-01-11,38,155-->
+- comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
 - factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-01-16,14,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
@@ -229,9 +229,9 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←according to/refer to <!--SR:!2024-01-11,139,290!2026-03-16,809,335-->
+- _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
 - according to/refer to→:::←cause/reason <!--SR:!2024-01-21,17,135!2024-06-23,313,295-->
-- cause/reason→:::←effectiveness <!--SR:!2024-01-10,20,130!2024-03-18,191,235-->
+- cause/reason→:::←effectiveness <!--SR:!2024-02-08,28,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
 - feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-01-18,16,130-->

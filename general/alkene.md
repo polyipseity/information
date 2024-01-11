@@ -88,7 +88,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2024-01-04T20:17:51.170254+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[combustion](#combustion) <!--SR:!2024-01-30,238,330!2024-03-20,275,330-->
-- [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-02-16,250,330!2024-01-09,53,270-->
+- [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-02-16,250,330!2024-07-28,199,290-->
 - [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2024-06-04,193,270-->
 - [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2026-04-12,848,330!2024-04-13,237,270-->
 - [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2024-03-18,267,331-->

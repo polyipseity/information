@@ -141,7 +141,7 @@ return (
 > chlorides
 >
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2025-05-13,773,268!2024-01-10,280,190-->
+> - exception(s): {{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}} <!--SR:!2025-05-13,773,268!2025-06-25,531,190-->
 
 <!-- markdownlint MD028 -->
 
@@ -365,7 +365,7 @@ return await memorize_map(
 - [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-10,158,298-->
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-01-21,22,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-27,34,198-->
-- [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-01-10,2,158-->
+- [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-01-16,5,178-->
 - [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-12,12,150-->
 - [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-13,43,258-->
 - [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-23,102,278-->
@@ -376,15 +376,15 @@ return await memorize_map(
 - [copper(II) ethanoate](copper(II)%20ethanoate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-05-11,142,298-->
 - [copper(II) hydroxide](copper(II)%20hydroxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-01,87,278-->
 - [copper(II) iodide](copper(II)%20iodide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-06,116,298-->
-- [copper(II) oxide](copper(II)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-09,46,258-->
+- [copper(II) oxide](copper(II)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-08,118,258-->
 - [copper(II) phosphate](copper(II)%20phosphate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-04-29,113,258-->
 - [copper(II) sulfate](copper(II)%20sulfate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-17,124,298-->
 - [copper(II) sulfide](copper(II)%20sulfide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-06,92,278-->
 - [lead(II) bromide](lead(II)%20bromide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-16,33,258-->
 - [lead(II) chloride](lead(II)%20chloride.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-10,94,278-->
-- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-11,4,130-->
+- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-16,5,130-->
 - [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-12,5,158-->
-- [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-09,7,178-->
+- [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-01-15,4,158-->
 - [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-06-05,160,298-->
 - [mercury(I) chloride](mercury(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-25,37,258-->
 - [mercury(I) iodide](mercury(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-16,100,298-->
