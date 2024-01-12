@@ -34,10 +34,10 @@ English
 - [finance](https://en.wiktionary.org/wiki/finance):::the study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md) <!--SR:!2024-01-18,16,304!2024-01-17,15,304-->
 - [governance](https://en.wiktionary.org/wiki/governance):::the action or manner of governing <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary):::existing only in the [imagination](../../../general/imagination.md) <!--SR:!2024-01-19,17,304!2024-01-17,15,304-->
-- [incandescent](https://en.wiktionary.org/wiki/incandescent):::emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md) <!--SR:!2024-01-12,10,284!2024-02-03,23,264-->
+- [incandescent](https://en.wiktionary.org/wiki/incandescent):::emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md) <!--SR:!2024-02-21,40,304!2024-02-03,23,264-->
 - [intuition](https://en.wiktionary.org/wiki/intuition):::acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md) <!--SR:!2024-01-19,17,304!2024-01-19,17,304-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal):::of or pertaining to the [larynx](../../../general/larynx.md) <!--SR:!2024-01-19,17,304!2024-01-20,18,304-->
-- [larynx](https://en.wiktionary.org/wiki/larynx):::an [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md) <!--SR:!2024-01-12,10,284!2024-01-18,16,304-->
+- [larynx](https://en.wiktionary.org/wiki/larynx):::an [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md) <!--SR:!2024-02-23,42,304!2024-01-18,16,304-->
 - [negligible](https://en.wiktionary.org/wiki/negligible):::can be not considered as it is too small or unimportant <!--SR:!2024-01-20,18,304!2024-01-31,23,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization):::the partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md) <!--SR:!2024-01-20,18,304!2024-01-19,17,304-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum):::a device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely <!--SR:!2024-01-28,20,338!2024-01-25,17,338-->
@@ -51,9 +51,9 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit):::enroll new [employees](../../../general/employment.md#employee) <!--SR:!2024-01-18,15,332!2024-01-19,16,332-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir):::a source or sink of something <!--SR:!2024-03-22,71,310!2024-01-23,25,270-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary):::basic, minimal <!--SR:!2024-01-20,17,332!2024-01-14,11,312-->
-- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal):::having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md) <!--SR:!2024-01-19,17,304!2024-01-12,8,284-->
+- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal):::having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md) <!--SR:!2024-01-19,17,304!2024-01-16,4,264-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical):::of or relating to theory rather than practice <!--SR:!2024-03-05,58,310!2024-02-28,48,270-->
-- [trachea](https://en.wiktionary.org/wiki/trachea):::a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md) <!--SR:!2024-01-12,10,284!2024-01-16,14,304-->
+- [trachea](https://en.wiktionary.org/wiki/trachea):::a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md) <!--SR:!2024-02-08,27,284!2024-01-16,14,304-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility):::the extent to which something is transmissible <!--SR:!2024-01-17,15,304!2024-01-19,17,304-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry):::the branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides <!--SR:!2024-03-03,52,270!2024-01-22,20,270-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous):::empty, void <!--SR:!2024-01-16,14,304!2024-01-13,9,284-->

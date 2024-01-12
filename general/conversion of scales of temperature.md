@@ -172,7 +172,7 @@ return await conversion_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2024-01-04T20:17:51.727638+08:00. Any edits will be overridden! -->
 
 - [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F <!--SR:!2024-02-20,49,290-->
-- [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2024-01-12,13,230-->
+- [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2024-02-22,41,250-->
 - [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2024-02-09,38,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

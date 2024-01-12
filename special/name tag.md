@@ -9,4 +9,4 @@ tags:
 
 # name tag
 
-- location: recommend {{right chest near shoulder to show your name when shaking with your right hands}} <!--SR:!2024-01-11,89,310-->
+- location: recommend {{right chest near shoulder to show your name when shaking with your right hands}} <!--SR:!2025-01-27,381,330-->
