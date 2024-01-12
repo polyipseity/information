@@ -11,7 +11,7 @@ tags:
 
 # acid
 
-An __acid__ is {{a [molecule](molecule.md) or [ion](ion.md) that can donate a [proton](proton.md), known as a [Brønsted–Lowry acid](Brønsted–Lowry%20acid–base%20theory.md), or form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by accepting an [electron pair](electron%20pair.md), known as a [Lewis acid](Lewis%20acids%20and%20bases.md)}}. <!--SR:!2024-01-12,201,270-->
+An __acid__ is {{a [molecule](molecule.md) or [ion](ion.md) that can donate a [proton](proton.md), known as a [Brønsted–Lowry acid](Brønsted–Lowry%20acid–base%20theory.md), or form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by accepting an [electron pair](electron%20pair.md), known as a [Lewis acid](Lewis%20acids%20and%20bases.md)}}. <!--SR:!2026-02-07,757,290-->
 
 It is {{an [electrolyte](electrolyte.md)}}, tastes {{sour}}, turns {{blue [litmus](litmus.md) red}}, reacts with some [metals](metal.md) to {{form [salts](salt%20(chemistry).md)}}, and [neutralizes](neutralization%20(chemistry).md) {{[bases](base%20(chemistry).md) to form [salts](salt%20(chemistry).md)}}. {{[Strong acids](acid%20strength.md) and some concentrated weak acids}} are [corrosive](corrsive%20substance.md). <!--SR:!2025-08-30,622,310!2024-05-08,316,330!2025-04-12,560,310!2024-02-24,232,270!2024-09-04,386,290!2024-07-18,352,290-->
 

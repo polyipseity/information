@@ -20,7 +20,7 @@ tags:
 
 ## format
 
-To optimize the résumé for successful application and {{[applicant tracking system](applicant%20tracking%20system.md)}}: <!--SR:!2024-01-11,68,310-->
+To optimize the résumé for successful application and {{[applicant tracking system](applicant%20tracking%20system.md)}}: <!--SR:!2024-10-29,291,330-->
 
 - content: {{include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address}}
 - fonts: {{1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold}}
@@ -100,4 +100,4 @@ The most important skills in general are {{adaptivity, fast learning, and resili
 
 ## referees
 
-Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2024-01-10,67,310!2024-01-30,59,250!2024-10-15,281,330-->
+Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2024-10-24,286,330!2024-01-30,59,250!2024-10-15,281,330-->

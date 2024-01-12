@@ -27,7 +27,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-01-12,10,272!2024-01-15,13,292!2024-01-18,16,292-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-02-20,39,292!2024-01-15,13,292!2024-01-18,16,292-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -92,7 +92,7 @@ The solution is as below, which matches with our physical intuition:
 
 ### sinusoidal driving force
 
-Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-01-12,10,272-->
+Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-02-07,26,272-->
 
 > [!info]- details
 >
