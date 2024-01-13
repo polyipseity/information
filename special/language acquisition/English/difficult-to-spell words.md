@@ -56,7 +56,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea):::a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md) <!--SR:!2024-02-08,27,284!2024-01-16,14,304-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility):::the extent to which something is transmissible <!--SR:!2024-01-17,15,304!2024-01-19,17,304-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry):::the branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides <!--SR:!2024-03-03,52,270!2024-01-22,20,270-->
-- [vacuous](https://en.wiktionary.org/wiki/vacuous):::empty, void <!--SR:!2024-01-16,14,304!2024-01-13,9,284-->
+- [vacuous](https://en.wiktionary.org/wiki/vacuous):::empty, void <!--SR:!2024-01-16,14,304!2024-02-20,38,304-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum):::a region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md) <!--SR:!2024-01-18,16,304!2024-01-16,14,304-->
 - [viscous](https://en.wiktionary.org/wiki/viscous):::having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md) <!--SR:!2024-01-16,14,304!2024-02-12,32,304-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer):::to do or offer to do something voluntarily <!--SR:!2024-01-19,16,332!2024-01-19,16,332-->
