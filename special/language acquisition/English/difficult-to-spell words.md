@@ -12,6 +12,8 @@ tags:
 
 English
 
+- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid):::a [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md)
+- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base):::a [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md)
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian):::the [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md)
 - [accommodate](https://en.wiktionary.org/wiki/accommodate):::to adapt
 - [accumulate](https://en.wiktionary.org/wiki/accumulate):::to gradually increase in quantity
@@ -33,6 +35,7 @@ English
 - [fiancée](https://en.wiktionary.org/wiki/fiancée):::a [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md)
 - [finance](https://en.wiktionary.org/wiki/finance):::the study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md)
 - [governance](https://en.wiktionary.org/wiki/governance):::the action or manner of governing
+- [guarantee](https://en.wiktionary.org/wiki/guarantee):::assure that something will be done
 - [imaginary](https://en.wiktionary.org/wiki/imaginary):::existing only in the [imagination](../../../general/imagination.md)
 - [incandescent](https://en.wiktionary.org/wiki/incandescent):::emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md)
 - [intuition](https://en.wiktionary.org/wiki/intuition):::acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md)
