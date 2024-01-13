@@ -77,7 +77,7 @@ See also [Vim help files](https://vimhelp.org/).
 - restore last changed line:::U <!--SR:!2024-02-02,264,313!2026-02-28,848,328-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2024-04-14,287,273!2024-02-21,281,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2025-12-24,782,327!2024-05-29,381,348-->
-- paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2024-01-13,249,313!2025-12-19,777,327-->
+- paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2026-12-25,1077,333!2025-12-19,777,327-->
 
 ## search and substitute
 

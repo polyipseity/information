@@ -11,7 +11,7 @@ tags:
 
 # base strength
 
-__Base strength__ is {{the tendency of a [base](base.md) to [dissociate](dissociation%20(chemistry).md)}}. Strong bases {{dissociate effectively completely in [solutions](solution%20(chemistry).md)}}. Weak bases {{dissociates partially in solutions}}. <!--SR:!2024-01-13,221,310!2024-02-21,255,330!2024-05-10,318,330-->
+__Base strength__ is {{the tendency of a [base](base.md) to [dissociate](dissociation%20(chemistry).md)}}. Strong bases {{dissociate effectively completely in [solutions](solution%20(chemistry).md)}}. Weak bases {{dissociates partially in solutions}}. <!--SR:!2026-08-17,947,330!2024-02-21,255,330!2024-05-10,318,330-->
 
 ## references
 
