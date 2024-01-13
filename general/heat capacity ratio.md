@@ -46,15 +46,15 @@ Consider an [ideal gas](ideal%20gas.md). For [constant volume](isochoric%20proce
 > __derivation of relation between heat capacity ratio and degrees of freedom for an ideal gas__
 >
 > $$\begin{aligned}
-\mathrm{d}V & = \left(\frac{\partial V}{\partial p}\right)_T \,\mathrm{d}p + \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T & (V(p, T)) \\
-& = \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T & (\text{isobaric process}) \\
+\mathrm{d}V & = \left(\frac{\partial V}{\partial p}\right)_T \,\mathrm{d}p + \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T && (V(p, T)) \\
+& = \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T && (\text{isobaric process}) \\
 \mathrm{d}W & = p \,\mathrm{d}V \\
 & = p \left(\frac{\partial V}{\partial T}\right)_p \,\mathrm{d}T \\
 & = p \frac{nR}{p} \,\mathrm{d}T \\
 & = nR \,\mathrm{d}T \\
 W &= nR \\
-C_V & = \frac{f}2nR & (\text{equipartition theorem}) \\
-C_p & = \frac{f}2nR + nR & (\text{equipartition theorem}) \\
+C_V & = \frac{f}2nR && (\text{equipartition theorem}) \\
+C_p & = \frac{f}2nR + nR && (\text{equipartition theorem}) \\
 & = \frac{f + 2}2nR \\
 \frac{C_p}{C_V} & = \frac{f + 2}f = 1 + \frac2f
 \end{aligned}$$

@@ -19,7 +19,7 @@ tags:
 > {{$$\mathrm{COP} = \frac{\lvert Q \rvert}W$$}}
 >
 > - where
->   - {{$Q$ is the useful [heat](heat.md) supplied to (if heating) or removed by (if cooling) the system, and $W$ is the net [work](work%20(physics).md) supplied to the system}} <!--SR:!2024-02-12,37,290!2024-03-01,54,310-->
+>   - {{$Q$ is the useful [heat](heat.md) absorbed (positive) or dissipated (negative) by the system, and $W > 0$ is the net [work](work%20(physics).md) put into the system}} <!--SR:!2024-02-12,37,290!2024-03-01,54,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -28,7 +28,7 @@ tags:
 > {{$$\begin{aligned} \mathrm{COP}_\mathrm{cooling} & = \frac{\lvert Q_C \rvert}W = \frac{Q_C}W \\ \mathrm{COP}_\mathrm{heating} & = \frac{\lvert Q_H \rvert}W = \frac{Q_C + W}W = \mathrm{COP}_\mathrm{cooling} + 1 \end{aligned}$$}}
 >
 > - where
->   - {{$Q_C$ and $Q_H$ are respectively [heat](heat.md) absorbed by and given off from the system, and $W$ is the net [work](work%20(physics).md) supplied to the system}} <!--SR:!2024-02-25,45,290!2024-03-07,59,310-->
+>   - {{$Q_C > 0$ and $Q_H < 0$ are respectively [heat](heat.md) absorbed and dissipated by the system, and $W > 0$ is the net [work](work%20(physics).md) put into the system}} <!--SR:!2024-02-25,45,290!2024-03-07,59,310-->
 
 ## references
 
