@@ -104,7 +104,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __critically damped__
 >
-> When $\zeta = 1$, {{the system returns to equilibrium as quickly as possible without [oscillation](oscillation.md). Overshooting can occur once if the initial [velocity](velocity.md) is high enough}}. This is {{desirable in many engineering designs when a damped oscillator is needed, like door closing}}. The equation is:
+> When $\zeta = 1$, {{the system returns to equilibrium as quickly as possible without [oscillation](oscillation.md). Overshooting can occur for once if the initial [velocity](velocity.md) is high enough}}. This is {{desirable in many engineering designs when a damped oscillator is needed, like door closing}}. The equation is:
 >
 > {{$$x(t) = e^{-\lambda t} (A + \nu t)$$}}
 >
@@ -117,7 +117,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __overdamped__
 >
-> When $\zeta > 1$, {{the systems return to equilibrium [exponentially](exponential%20decay.md) without [oscillation](oscillation.md), increasingly slowly with larger $\zeta$. Overshooting can occur once if the initial [velocity](velocity.md) is high enough}}. This is {{desirable if overshooting has tragic outcomes, usually electrical rather than mechanical, such as critical [control systems](control%20system.md)}}. The equation is:
+> When $\zeta > 1$, {{the systems return to equilibrium [exponentially](exponential%20decay.md) without [oscillation](oscillation.md), increasingly slowly with larger $\zeta$. Overshooting can occur for once if the initial [velocity](velocity.md) is high enough}}. This is {{desirable if overshooting has tragic outcomes, usually electrical rather than mechanical, such as critical [control systems](control%20system.md)}}. The equation is:
 >
 > {{$$x(t) = e^{-\lambda t} \left(c_+ e^{\omega t} + c_- e^{-\omega t}\right)$$}}
 >
