@@ -12,8 +12,8 @@ tags:
 
 English
 
-- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid):::a [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md)
-- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base):::a [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md)
+- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid):::a [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md) <!--SR:!2024-01-17,4,323!2024-01-17,4,323-->
+- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base):::a [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md) <!--SR:!2024-01-17,4,323!2024-01-17,4,323-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian):::the [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md) <!--SR:!2024-01-19,17,304!2024-01-19,17,304-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate):::to adapt <!--SR:!2024-01-18,16,304!2024-01-14,12,284-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate):::to gradually increase in quantity <!--SR:!2024-01-15,10,312!2024-01-22,19,334-->
@@ -35,7 +35,7 @@ English
 - [fiancée](https://en.wiktionary.org/wiki/fiancée):::a [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md) <!--SR:!2024-01-17,15,304!2024-01-20,18,304-->
 - [finance](https://en.wiktionary.org/wiki/finance):::the study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md) <!--SR:!2024-01-18,16,304!2024-01-17,15,304-->
 - [governance](https://en.wiktionary.org/wiki/governance):::the action or manner of governing <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
-- [guarantee](https://en.wiktionary.org/wiki/guarantee):::assure that something will be done
+- [guarantee](https://en.wiktionary.org/wiki/guarantee):::assure that something will be done <!--SR:!2024-01-17,4,323!2024-01-14,1,283-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary):::existing only in the [imagination](../../../general/imagination.md) <!--SR:!2024-01-19,17,304!2024-01-17,15,304-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent):::emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md) <!--SR:!2024-02-21,40,304!2024-02-03,23,264-->
 - [intuition](https://en.wiktionary.org/wiki/intuition):::acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md) <!--SR:!2024-01-19,17,304!2024-01-19,17,304-->
@@ -47,7 +47,7 @@ English
 - [perspective](https://en.wiktionary.org/wiki/perspective):::the technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md) <!--SR:!2024-01-21,18,332!2024-01-22,19,332-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal):::of or pertaining to the [pharynx](../../../general/pharynx.md) <!--SR:!2024-01-19,17,304!2024-01-18,16,304-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx):::part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md) <!--SR:!2024-01-25,14,264!2024-02-10,33,284-->
-- [phenomenon](https://en.wiktionary.org/wiki/phenomenon):::an [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md)
+- [phenomenon](https://en.wiktionary.org/wiki/phenomenon):::an [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md) <!--SR:!2024-01-17,4,323!2024-01-16,3,303-->
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism):::copying of others' work and presenting it as one's own <!--SR:!2024-01-20,18,304!2024-02-01,25,284-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize):::to copy others' work and present it as one's own <!--SR:!2024-01-17,15,304!2024-01-30,22,284-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial):::a [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md) <!--SR:!2024-01-18,16,304!2024-01-14,12,284-->
