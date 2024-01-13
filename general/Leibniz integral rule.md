@@ -48,7 +48,7 @@ The above is true for all [reals](real%20number.md) except for $a = 0$. To find 
 
 $$\begin{aligned}
 f(0) & = \int_0^1\! \frac{0}{0 + x^2} \,\mathrm{d}x \\
-& = \lim_{b \to 0^+} \int_b^1\! \frac{0}{x^2} \,\mathrm{d}x \\
+& = \lim_{b \to 0^+} \int_b^1\! 0 \,\mathrm{d}x \\
 & = 0 \\
 f(a) & = -\int\! \frac{1}{x^2 + 1} \,\mathrm{d}x \\
 & = \begin{cases}-\arctan x + C_1, & a < 0 \\
@@ -84,7 +84,7 @@ f(a) & = \int_0^1\! \frac{a}{a^2 + x^2} \,\mathrm{d}x \\
 & = \arctan \frac{1}a \\
 & = -\arctan a + \frac\pi2 \operatorname{sgn}(a) && (a \ne 0) \\
 f(0) & = \int_0^1\! \frac{0}{0 + x^2} \,\mathrm{d}x \\
-& = \lim_{b \to 0^+} \int_b^1\! \frac{0}{x^2} \,\mathrm{d}x \\
+& = \lim_{b \to 0^+} \int_b^1\! 0 \,\mathrm{d}x \\
 & = 0 \\
 f(a) & = \begin{cases} 0, & a = 0 \\
 -\arctan a + \frac\pi2 \operatorname{sgn}(a), & a \ne 0 \end{cases}
@@ -357,10 +357,10 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 #### other problems to solve
 
-- integral 1 $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$
-- integral 2 $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$
-- integral 3 $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$
-- [Dirichlet integral](Dirichlet%20integral.md) $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$
+- integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$
+- integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$
+- integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$
+- [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$
 
 > [!info]- proof for integral 1
 >
