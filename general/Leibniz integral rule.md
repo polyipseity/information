@@ -92,7 +92,7 @@ f(a) & = \begin{cases} 0, & a = 0 \\
 
 > [!tip] tip
 >
-> - takeaway: {{No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered.}}
+> - takeaway: {{No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered.}} <!--SR:!2024-01-17,4,284-->
 
 ### example 2: variable limits
 
@@ -169,7 +169,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 
 > [!tip] tip
 >
-> - takeaway: {{Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule.}}
+> - takeaway: {{Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule.}} <!--SR:!2024-01-17,4,288-->
 
 ## applications
 
@@ -291,7 +291,7 @@ Directly integrating the integral is very difficult and will result in a very lo
 
 > [!tip] tip
 >
-> - takeaway: {{The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.}}
+> - takeaway: {{The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.}} <!--SR:!2024-01-17,4,288-->
 
 #### example 4: Green's theorem
 
@@ -353,14 +353,14 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tip
 >
-> - takeaway: {{Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.}}
+> - takeaway: {{Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.}} <!--SR:!2024-01-17,4,284-->
 
 #### other problems to solve
 
-- integral 1 $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$
-- integral 2 $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$
-- integral 3 $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$
-- [Dirichlet integral](Dirichlet%20integral.md) $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$
+- integral 1 $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$ <!--SR:!2024-01-17,4,292-->
+- integral 2 $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$ <!--SR:!2024-01-17,4,288-->
+- integral 3 $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$ <!--SR:!2024-01-17,4,288-->
+- [Dirichlet integral](Dirichlet%20integral.md) $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$ <!--SR:!2024-01-17,4,284-->
 
 > [!info]- proof for integral 1
 >
@@ -569,7 +569,7 @@ f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
 
 > [!tip] tip
 >
-> - takeaway: {{The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}}
+> - takeaway: {{The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}} <!--SR:!2024-01-17,4,288-->
 
 ## references
 
