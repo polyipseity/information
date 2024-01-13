@@ -51,9 +51,9 @@ Consider a system {{with $\zeta < 1$, [initial values](initial%20value%20problem
 >
 > $$\begin{aligned}
 x_c''(t) + 2 \zeta \omega_n x_c'(t) + \omega_n^2 x_c(t) & = 0 \\
-x_c(t) & = Ae^{-\lambda t} \cos(\omega t + \varphi) & (\text{by memorization}) \\
-x''(t) + 2 \zeta \omega_n x'(t) + \omega_n^2 x(t) & = \omega_n^2 x_F & (t \ge 0) \\
-x_p(t) & = x_F & (\text{by inspection}) \\
+x_c(t) & = Ae^{-\lambda t} \cos(\omega t + \varphi) && (\text{by memorization}) \\
+x''(t) + 2 \zeta \omega_n x'(t) + \omega_n^2 x(t) & = \omega_n^2 x_F && (t \ge 0) \\
+x_p(t) & = x_F && (\text{by inspection}) \\
 x(t) & = x_p(t) + x_c(t) \\
 & = x_F + A e^{-\lambda t} \cos(\omega t + \varphi) \\
 v(t) & = -\lambda A e^{-\lambda t} \cos(\omega t + \varphi) - \omega A e^{-\lambda t} \sin(\omega t + \varphi) \\
@@ -65,8 +65,8 @@ v(0) & = -\lambda A e^{-\lambda \cdot 0} \cos(\omega \cdot 0 + \varphi) - \omega
 \tan \varphi & = -\frac \lambda \omega \\
 & = -\frac{\omega_n \zeta}{\omega_n \sqrt{1 - \zeta^2} } \\
 & = -\frac{\zeta}{\sqrt{1 - \zeta^2} } \\
-\sin \varphi & = -\zeta & (\text{by constructing a triangle}) \\
-\varphi & = -\arcsin \zeta & (\text{consider }\operatorname{sgn} (\tan \varphi) = -\operatorname{sgn} \zeta) \\
+\sin \varphi & = -\zeta && (\text{by constructing a triangle}) \\
+\varphi & = -\arcsin \zeta && (\text{consider }\operatorname{sgn} (\tan \varphi) = -\operatorname{sgn} \zeta) \\
 \\
 x(t) & = x_F \left(1 - e^{-\lambda t} \frac{\cos(\omega t + \varphi)}{\cos \varphi} \right)
 \end{aligned}$$
@@ -98,9 +98,9 @@ Consider a system with {{a sinusoidal driving [force](force.md) with max force $
 >
 > $$\begin{aligned}
 & \begin{aligned} x''(t) + 2 \zeta \omega_n x'(t) + \omega_n^2 x(t) & = \frac{F_\mathrm{max} }m \cos(\omega_d t) \\
-& = \frac{F_\mathrm{max} }m \left(\cos(\omega_d t) + i \sin(\omega_d t)\right) & (\text{add a temporary imaginary part}) \\
+& = \frac{F_\mathrm{max} }m \left(\cos(\omega_d t) + i \sin(\omega_d t)\right) && (\text{add a temporary imaginary part}) \\
 & = \frac{F_\mathrm{max} }m e^{i \omega_d t} \\
--\omega_d^2 Ae^{i (\omega_d t + \varphi)} + 2 i \zeta \omega_n \omega_d A e^{i (\omega_d t + \varphi)} + \omega_n^2 A e^{i (\omega_d t + \varphi)} & = \frac{F_\mathrm{max} }m e^{i \omega_d t} & (\text{assume }x(t) = A e^{i (\omega_d t + \varphi)}) \\
+-\omega_d^2 Ae^{i (\omega_d t + \varphi)} + 2 i \zeta \omega_n \omega_d A e^{i (\omega_d t + \varphi)} + \omega_n^2 A e^{i (\omega_d t + \varphi)} & = \frac{F_\mathrm{max} }m e^{i \omega_d t} && (\text{assume }x(t) = A e^{i (\omega_d t + \varphi)}) \\
 -\omega_d^2 A + 2 i \zeta \omega_n \omega_d A + \omega_n^2 A & = \frac{F_\mathrm{max} }m e^{-i \varphi} \\
 \left(\omega_n^2 - \omega_d^2\right)A + 2i \zeta \omega_n \omega_d A & = \frac{F_\mathrm{max} }m (\cos \varphi - i \sin \varphi) \end{aligned} \\
 & \begin{cases} \left(\omega_n^2 - \omega_d^2\right)A & = \frac{F_\mathrm{max} }m \cos \varphi \\
@@ -110,10 +110,10 @@ A & = \frac{F_\mathrm{max} }{m \sqrt{(2 \zeta \omega_n \omega_d)^2 + \left(\omeg
 & = \frac{F_\mathrm{max} }{m \omega_d \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left(\omega_n^2 - \omega_d^2 \right)} } \\
 \frac{-\frac{F_\mathrm{max} }m \sin \varphi}{\frac{F_\mathrm{max} }m \cos \varphi} & = \frac{2 \zeta \omega_n \omega_d A}{\left(\omega_n^2 - \omega_d^2\right) A} \\
 \tan \varphi & = \frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2} \\
-\varphi & = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi & n \in \mathbb{Z} \\
+\varphi & = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi && (n \in \mathbb{Z}) \\
 x(t) & = A e^{i (\omega_d t + \varphi)} \\
 & = A (\cos(\omega_d t + \varphi) + i \sin(\omega_d t + \varphi)) \\
-& = A \cos(\omega_d t + \varphi) & (\text{drop the imaginary part}) \end{aligned}
+& = A \cos(\omega_d t + \varphi) && (\text{drop the imaginary part}) \end{aligned}
 \end{aligned}$$
 
 The steady-state solution is as below (the transient solution can be found {{from the homogeneous equation}}): <!--SR:!2024-01-16,14,292-->

@@ -150,7 +150,7 @@ y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
 > - solution: {{substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md)}}
 > - steps: $\begin{aligned}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=F\left(\frac{y}x\right)\\
-\frac{\mathrm{d}u}{\mathrm{d}x}x+u&=F(u)&(y\overset{\mathrm{def} }=ux)\\
+\frac{\mathrm{d}u}{\mathrm{d}x}x+u&=F(u) && (y\overset{\mathrm{def} }=ux)\\
 \frac{\mathrm{d}u}{\mathrm{d}x}x&=F(u)-u\\
 \frac{\mathrm{d}u}{F(u)-u}&=\frac{\mathrm{d}x}x\\
 \frac{\mathrm{d}u}{F(u)-u}-\frac{\mathrm{d}x}x&=0\\
@@ -160,14 +160,14 @@ y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
 \end{aligned}$
 > - example: $\begin{aligned}
 \frac{\mathrm{d}y}{\mathrm{d}x}&=\frac{y^2\left(e^{\frac{x}y}-1+\frac{x}y\right)}{x^2}\\
-\frac{\mathrm{d}u}{\mathrm{d}x}x+u&=u^2e^\frac1u-u^2+u&(y\overset{\mathrm{def} }=ux)\\
+\frac{\mathrm{d}u}{\mathrm{d}x}x+u&=u^2e^\frac1u-u^2+u && (y\overset{\mathrm{def} }=ux)\\
 \frac{\mathrm{d}u}{\mathrm{d}x}x&=u^2e^\frac1u-u^2\\
 \frac{\mathrm{d}u}{u^2e^\frac1u-u^2}&=\frac{\mathrm{d}x}x\\
 \frac{\mathrm{d}u}{u^2e^\frac1u-u^2}-\frac{\mathrm{d}x}x&=0\\
 \int\!\frac{\mathrm{d}u}{u^2e^\frac1u-u^2}-\int\!\frac{\mathrm{d}x}x&=C\\
 \int\!\frac{\mathrm{d}u}{u^2\left(e^\frac1u-1\right)}-\ln{x}&=C\\
--\int\!\frac{\mathrm{d}v}{e^v-1}-\ln{x}&=C&\left(v\overset{\mathrm{def} }=\frac1u\right)\\
--\int\!\frac{\mathrm{d}w}{w^2-w}-\ln{x}&=C&\left(w\overset{\mathrm{def} }=e^v\right)\\
+-\int\!\frac{\mathrm{d}v}{e^v-1}-\ln{x}&=C && \left(v\overset{\mathrm{def} }=\frac1u\right)\\
+-\int\!\frac{\mathrm{d}w}{w^2-w}-\ln{x}&=C && \left(w\overset{\mathrm{def} }=e^v\right)\\
 \int\!\frac{\mathrm{d}\!\left(\frac1w\right)}{1-\frac1w}-\ln{x}&=C\\
 -\ln\left(\frac1w-1\right)-\ln{x}&=C\\
 x\left(\frac1w-1\right)&=C\\
@@ -202,7 +202,7 @@ x&=\pm\int\!\frac{\mathrm{d}y}{\sqrt{2\int\!F(y)\,\mathrm{d}y+C_1} }+C_2
 \left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2&=-\frac{kx^2}m+C_1\\
 \frac{\mathrm{d}x}{\mathrm{d}t}&=\pm\sqrt{-\frac{kx^2}m+C_1}\\
 \int\!\mathrm{d}t&=\pm\int\!\frac{\mathrm{d}x}{\sqrt{-\frac{kx^2}m+C_1} }\\
-t&=\pm\sqrt{\frac{mC_1}k}\int\!\frac{\cos\theta\,\mathrm{d}\theta}{\sqrt{-C_1\sin^2\theta+C_1} }&\left(x\overset{\mathrm{def} }=\sqrt{\frac{mC_1}k}\sin\theta,\theta\in\left[-\frac\pi2,\frac\pi2\right]\right)\\
+t&=\pm\sqrt{\frac{mC_1}k}\int\!\frac{\cos\theta\,\mathrm{d}\theta}{\sqrt{-C_1\sin^2\theta+C_1} } && \left(x\overset{\mathrm{def} }=\sqrt{\frac{mC_1}k}\sin\theta,\theta\in\left[-\frac\pi2,\frac\pi2\right]\right)\\
 &=\pm\sqrt{\frac{m}k}\int\!\mathrm{d}\theta\\
 &=\pm\sqrt{\frac{m}k}\theta+C_2\\
 &=\pm\sqrt{\frac{m}k}\arcsin\frac{x}{\sqrt{\frac{mC_1}k} }+C_2\\

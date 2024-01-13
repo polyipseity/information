@@ -25,7 +25,7 @@ For better physical meaning, it can be rewritten as:
 
 > __ordinary differential equation, rewritten__
 >
-> {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega x = 0$$}}
+> {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega^2 x = 0$$}}
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
@@ -129,7 +129,7 @@ E & = K + U \\
 
 ### mass of a simple pendulum
 
-> __mass of a simple pendulum for small angles__
+> __mass of a simple pendulum {{for small angles}}__
 >
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}}
 >
@@ -140,7 +140,7 @@ E & = K + U \\
 
 ### mass of a physical pendulum
 
-> __mass of a physical pendulum for small angles__
+> __mass of a physical pendulum {{for small angles}}__
 >
 > {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
 >

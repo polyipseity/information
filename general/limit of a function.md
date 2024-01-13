@@ -13,7 +13,7 @@ tags:
 
 ## functions of a single variable
 
-### $(\epsilon,\delta)$-definition of limit
+### (ϵ,δ)-definition of limit
 
 > __limit of a function__
 >

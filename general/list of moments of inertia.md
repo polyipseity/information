@@ -18,7 +18,7 @@ tags:
 
 - definition: a homogeneous [cuboid](cuboid.md) {{of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center}}
 - equation: {{$I_a=\frac1{12}m\left(b^2+c^2\right)$}}
-  - thin plate correction: {{0}}
+  - thin plate correction: {{use the same equation}}
   - cuboid, axis through center of edge $c$: {{$I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$}}
   - thin plate with $c=0$, axis through edge $a$: {{$I_{a@c=0}=\frac13mb^2$}}
 - proof: $\begin{aligned}
@@ -54,7 +54,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 
 - definition: a homogeneous rod {{of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end}}
 - equation: {{$I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$}}
-  - thin rod correction: {{$-\frac14mR^2$}}
+  - thin rod correction: {{use the same equation and set $R = 0$}}
   - slender rod, axis through center: {{$\frac1{12}mL^2$}}
   - slender rod, axis through one end: {{$\frac13mL^2$}}
 - proof: $\begin{aligned}
@@ -75,7 +75,7 @@ I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r\,\mathrm{d}l\\
 &=4\rho\int_0^L\!\left(\int_0^Rr^2\!\sqrt{R^2-r^2}\,\mathrm{d}r+(l-Z)^2\int_0^R\!\sqrt{R^2-r^2}\,\mathrm{d}r\right)\,\mathrm{d}l\\
-&=4\rho\int_0^L\!\left(R^3\int_0^\frac\pi2\!\sin^2\theta\cos\theta\sqrt{R^2-R^2\sin^2\theta}\,\mathrm{d}\theta+R(l-Z)^2\int_0^\frac\pi2\!\cos\theta\sqrt{R^2-R^2\sin^2\theta}\,\mathrm{d}\theta\right)\,\mathrm{d}l&\left(r\overset{\text{def} }=R\sin\theta,\theta\in\left[-\frac\pi2,\frac\pi2\right]\right)\\
+&=4\rho\int_0^L\!\left(R^3\int_0^\frac\pi2\!\sin^2\theta\cos\theta\sqrt{R^2-R^2\sin^2\theta}\,\mathrm{d}\theta+R(l-Z)^2\int_0^\frac\pi2\!\cos\theta\sqrt{R^2-R^2\sin^2\theta}\,\mathrm{d}\theta\right)\,\mathrm{d}l && \left(r\overset{\text{def} }=R\sin\theta,\theta\in\left[-\frac\pi2,\frac\pi2\right]\right)\\
 &=4\rho\int_0^L\!\left(R^4\int_0^\frac\pi2\!\sin^2\theta\cos^2\theta\,\mathrm{d}\theta+R^2(l-Z)^2\int_0^\frac\pi2\!\cos^2\theta\,\mathrm{d}\theta\right)\,\mathrm{d}l\\
 &=4\rho{}R^2\int_0^L\!\left(\frac14R^2\int_0^\frac\pi2\!\sin^22\theta\,\mathrm{d}\theta+\frac12(l-Z)^2\int_0^\frac\pi2\!(1+\cos2\theta)\,\mathrm{d}\theta\right)\,\mathrm{d}l\\
 &=\rho{}R^2\int_0^L\!\left(\frac12\int_0^\frac\pi2\!(1-\cos4\theta)\,\mathrm{d}\theta+2R^2(l-Z)^2\int_0^\frac\pi2\!(1+\cos2\theta)\,\mathrm{d}\theta\right)\,\mathrm{d}l\\
