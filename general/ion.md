@@ -317,7 +317,7 @@ return chain.from_iterable(await gather(
 - manganese(II) ion::2+ <!--SR:!2026-10-23,1379,367-->
 - mercury(II) ion::2+ <!--SR:!2027-06-01,1561,374-->
 - cobalt(II) ion::2+ <!--SR:!2027-04-15,1523,372-->
-- aluminium ion::3+ <!--SR:!2024-01-14,507,312-->
+- aluminium ion::3+ <!--SR:!2030-01-09,2187,332-->
 - iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 - chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
 - scandium(III) ion::3+ <!--SR:!2024-10-29,456,382-->

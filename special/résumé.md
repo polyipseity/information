@@ -70,7 +70,7 @@ return await memorize_seq(
 - [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2024-07-18,194,310!2024-05-13,141,290-->
 - [experience](#experience)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-07-22,197,310-->
 - [skills](#skills)→:::←[others](#others) <!--SR:!2024-08-01,220,330!2024-03-27,100,290-->
-- [others](#others)→:::←_(end)_ <!--SR:!2024-01-14,71,310!2024-06-13,167,310-->
+- [others](#others)→:::←_(end)_ <!--SR:!2024-11-13,304,330!2024-06-13,167,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
