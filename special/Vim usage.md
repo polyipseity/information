@@ -15,7 +15,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## autocomplete
 
-- cycle forward:::\<Tab\> <!--SR:!2024-01-14,196,328!2025-12-30,788,328-->
+- cycle forward:::\<Tab\> <!--SR:!2026-06-18,886,348!2025-12-30,788,328-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2026-01-16,805,328!2024-05-07,317,288-->
 - show possibilities:::\<Ctrl\>+d <!--SR:!2024-04-21,170,173!2024-05-05,178,248-->
 

@@ -32,7 +32,7 @@ Comparing them, {{if we set $c_i(x) = C_i$, which does not add any conditions to
 
 ### arbitrary conditions
 
-It is okay to impose arbitrary conditions to get $n$ conditions to solve for the $n$ [function](function%20(mathematics).md) [coefficients](coefficient.md) $c_i(x)$ because {{we are simply trying to find a solution and do not need to care about the uniqueness of it}}. More generally, an additional assumption to solve a problem is called an {{[ansatz](ansatz.md)}}. <!--SR:!2024-01-17,15,290!2024-01-14,12,270-->
+It is okay to impose arbitrary conditions to get $n$ conditions to solve for the $n$ [function](function%20(mathematics).md) [coefficients](coefficient.md) $c_i(x)$ because {{we are simply trying to find a solution and do not need to care about the uniqueness of it}}. More generally, an additional assumption to solve a problem is called an {{[ansatz](ansatz.md)}}. <!--SR:!2024-01-17,15,290!2024-02-27,44,290-->
 
 ### reduction of order
 

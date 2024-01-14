@@ -125,9 +125,9 @@ return await memorize_table(
 - [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2024-10-24,314,230!2024-01-31,61,230-->
 - [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2025-06-09,520,270!2024-06-03,167,250-->
 - [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2024-01-15,157,230!2024-10-15,347,270-->
-- [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2024-01-14,140,270!2024-04-07,153,270-->
+- [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-04-07,153,270-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-03-01,91,290!2024-07-23,341,290-->
-- [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-01-14,114,250!2024-01-30,186,250-->
+- [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-03-10,56,230!2024-01-30,186,250-->
 - [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-03-23,222,250!2024-01-26,192,270-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-06-29,294,270-->
 - [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-02-04,33,170!2024-03-13,61,210-->

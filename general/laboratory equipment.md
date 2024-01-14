@@ -183,7 +183,7 @@ return _chain.from_iterable(await _gather(
 - [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2024-06-04,333,330!2024-06-07,336,330-->
 - [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2024-06-03,234,270!2024-04-18,296,330-->
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2025-01-07,428,290-->
-- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-03-30,84,230!2024-01-14,127,250-->
+- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-03-30,84,230!2024-03-17,63,230-->
 - [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2024-02-06,203,270!2024-08-29,348,290-->
 - [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-01-18,18,170!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-03-07,219,270!2024-05-01,166,270-->
@@ -255,7 +255,7 @@ return _chain.from_iterable(await _gather(
 - ![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg)::[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2025-06-29,569,310-->
 - ![crucible](../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg)::[crucible](crucible.md) <!--SR:!2024-06-02,331,330-->
 - ![crucible tongs](../archives/Wikimedia%20Commons/Crucible%20tong.jpg)::[crucible tongs](crucible%20tongs.md) <!--SR:!2024-02-27,253,330-->
-- ![desiccator](../archives/Wikimedia%20Commons/Desiccator.jpg)::[desiccator](desiccator.md) <!--SR:!2024-01-14,217,310-->
+- ![desiccator](../archives/Wikimedia%20Commons/Desiccator.jpg)::[desiccator](desiccator.md) <!--SR:!2026-08-01,930,330-->
 - ![(eye) dropper/Pasteur pipette](../archives/Wikimedia%20Commons/Transfer%20pipette.jpg)::[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-04-02,282,330-->
 - ![dropping bottle](../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg)::dropping bottle <!--SR:!2024-03-22,271,330-->
 - ![electronic balance](../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg)::[electronic balance](weighing%20scale.md) <!--SR:!2024-03-07,262,330-->
