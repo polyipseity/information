@@ -14,7 +14,7 @@ tags:
 
 > [!tip] tip
 >
-> - color change [mnemonic](mnemonic.md): {{disgusting 🤢 brown sugar}}
+> - color change [mnemonic](mnemonic.md): {{eating disgusting (green, 🤢) brown sugar}}
 
 ## see also
 
