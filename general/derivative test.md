@@ -85,7 +85,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 > - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$: {{Weakly increasing by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
 > - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+x\sin{\frac1x}\right)&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive by the two-sided test because no suitable $\epsilon$ exist and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
 > - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0 or do not exist.}}
-> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}} <!--SR:!2024-01-17,36,299!2024-01-18,35,279!2024-01-24,40,292!2024-02-06,43,259!2024-02-01,46,299!2024-02-03,51,299!2024-01-29,45,294!2024-02-02,48,299!2024-01-19,13,254!2024-03-06,78,319!2024-01-27,43,299!2024-01-16,12,254!2024-01-29,44,294!2024-01-23,39,299-->
+> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}} <!--SR:!2024-01-17,36,299!2024-01-18,35,279!2024-01-24,40,292!2024-02-06,43,259!2024-02-01,46,299!2024-02-03,51,299!2024-01-29,45,294!2024-02-02,48,299!2024-01-19,13,254!2024-03-06,78,319!2024-01-27,43,299!2024-02-12,27,254!2024-01-29,44,294!2024-01-23,39,299-->
 
 ### concavity test
 

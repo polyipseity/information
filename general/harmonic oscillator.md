@@ -116,7 +116,7 @@ x(t) & = A e^{i (\omega_d t + \varphi)} \\
 & = A \cos(\omega_d t + \varphi) && (\text{drop the imaginary part}) \end{aligned}
 \end{aligned}$$
 
-The steady-state solution is as below (the transient solution can be found {{from the homogeneous equation}}): <!--SR:!2024-01-16,14,292-->
+The steady-state solution is as below (the transient solution can be found {{from the homogeneous equation}}): <!--SR:!2024-03-15,59,312-->
 
 > __driven, damped harmonic oscillator with sinusoidal driving force, {{steady-state solution}}__
 >
@@ -128,7 +128,7 @@ The steady-state solution is as below (the transient solution can be found {{fro
 >   - [force](force.md) properties: {{$F(t) = F_\mathrm{max} \cos(\omega_d t)$ is the driving [force](force.md) with max value $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$, and $Z_m = \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left( \omega_n^2 - \omega_d^2 \right)^2}$ is the [mechanical impedance](mechanical%20impedance.md) or [linear response function](linear%20response%20function.md)}}
 >   - [phase space](phase%20space.md): {{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$ is steady-state [amplitude](amplitude.md) and $\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi$ is the initial [phase](phase%20(waves).md) for any [integer](integer.md) $n$, which is usually chosen such that $\varphi \in (-\pi, 0]$ to always represent a phase lag}}
 > - [resonance](resonance.md): {{Resonance happens when the [amplitude](amplitude.md) is maximum. The resonant [angular frequency](angular%20frequency.md) is $\omega_r = \omega_n \sqrt{1 - 2 \zeta^2}$, thus resonance only occurs for significantly underdamped systems where $\zeta < 1 / \sqrt 2 \approx 0.707\,106\,781$.}}
-> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}. <!--SR:!2024-02-19,35,292!2024-02-21,37,292!2024-01-19,17,290!2024-02-25,43,292!2024-01-25,18,252!2024-01-26,19,252!2024-01-19,5,252!2024-01-16,14,292!2024-01-16,14,292!2024-01-17,15,292!2024-01-17,14,316-->
+> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}. <!--SR:!2024-02-19,35,292!2024-02-21,37,292!2024-01-19,17,290!2024-02-25,43,292!2024-01-25,18,252!2024-01-26,19,252!2024-01-19,5,252!2024-02-28,43,292!2024-03-13,57,312!2024-01-17,15,292!2024-01-17,14,316-->
 
 <!-- markdownlint MD028 -->
 
@@ -145,14 +145,14 @@ Z'(\omega_d) & = \frac12 \left((2 \zeta \omega_n \omega_d)^2 + \left(\omega_n^2 
 
 ## universal oscillator equation
 
-Through [nondimensionalization](nondimensionalization.md), the equation below {{known as the __universal oscillator equation__ can be obtained. It is named so because all second-order oscillatory system can be reduced into this form}}. <!--SR:!2024-01-16,14,292-->
+Through [nondimensionalization](nondimensionalization.md), the equation below {{known as the __universal oscillator equation__ can be obtained. It is named so because all second-order oscillatory system can be reduced into this form}}. <!--SR:!2024-03-09,53,312-->
 
 > __universal oscillator equation__
 >
 > {{$$\frac{\mathrm{d}^2 q}{\mathrm{d}\tau^2} + 2 \zeta \frac{\mathrm{d} q}{\mathrm{d}\tau} + q = f(\tau)$$}}
 >
 > - where
->   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2024-01-16,14,292!2024-03-08,53,312-->
+>   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2024-03-11,55,312!2024-03-08,53,312-->
 
 In terms of properties, the universal oscillator equation is {{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}}. <!--SR:!2024-01-17,15,292-->
 
