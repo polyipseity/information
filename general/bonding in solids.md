@@ -62,7 +62,7 @@ return await memorize_table(
 
 ### network covalent solid
 
-A __network covalent solid__, also called __giant covalent structure__, {{consists of [atoms](atom.md) held together by a network of [covalent bonds](covalent%20bond.md)}}. <!--SR:!2024-01-16,203,270-->
+A __network covalent solid__, also called __giant covalent structure__, {{consists of [atoms](atom.md) held together by a network of [covalent bonds](covalent%20bond.md)}}. <!--SR:!2026-02-18,764,290-->
 
 #### properties of network covalent solid
 
