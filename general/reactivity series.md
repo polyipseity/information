@@ -124,7 +124,7 @@ return await memorize_table(
 - [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2024-02-18,162,270!2024-05-25,285,290-->
 - [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2024-10-24,314,230!2024-01-31,61,230-->
 - [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2025-06-09,520,270!2024-06-03,167,250-->
-- [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2024-01-15,157,230!2024-10-15,347,270-->
+- [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2025-01-09,360,230!2024-10-15,347,270-->
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-04-07,153,270-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-03-01,91,290!2024-07-23,341,290-->
 - [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-03-10,56,230!2024-01-30,186,250-->
@@ -137,7 +137,7 @@ return await memorize_table(
 - [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-02-03,71,230!2024-02-05,25,150-->
 - [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-06-10,151,230-->
 - [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-01-18,10,170-->
-- [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2024-01-15,166,230-->
+- [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2025-07-07,539,250-->
 - [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-02-14,75,230!2024-06-15,267,250-->
 - [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2024-12-31,415,270!2024-02-04,222,290-->
 - [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-01-28,194,270!2025-01-25,397,250-->

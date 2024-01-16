@@ -97,7 +97,7 @@ return await memorize_map(
 
 - normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-01-22,19,320-->
 - divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-01-20,17,320-->
-- divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-01-15,12,300-->
+- divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-03-01,46,320-->
 - divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-01-21,18,320-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

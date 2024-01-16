@@ -20,7 +20,7 @@ tags:
 > - where
 >   - {{$\vec\phi_\text{q}$ is the [heat flux](heat%20flux.md), in W⋅m<sup>-2</sup>}}
 >   - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
->   - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}} <!--SR:!2024-01-15,18,250!2024-01-15,20,270!2024-02-25,53,310!2024-03-04,59,310-->
+>   - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}} <!--SR:!2024-02-27,43,250!2024-03-29,74,290!2024-02-25,53,310!2024-03-04,59,310-->
 
 For simple applications, Fourier's law is used in its one-dimensional form:
 
