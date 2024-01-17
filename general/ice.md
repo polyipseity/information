@@ -8,7 +8,7 @@ tags:
 
 # ice
 
-__Ice__ is {{[frozen](freezing.md) [solid](solid.md) [water](water.md)}}. <!--SR:!2024-01-17,220,310-->
+__Ice__ is {{[frozen](freezing.md) [solid](solid.md) [water](water.md)}}. <!--SR:!2026-08-17,943,330-->
 
 ## references
 
