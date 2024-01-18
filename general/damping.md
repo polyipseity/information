@@ -141,7 +141,7 @@ Additionally, for negative damping ratios:
 > {{$$Q = \frac{1}{2 \zeta}$$}}
 >
 > - where
->   - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}} <!--SR:!2024-01-18,16,303!2024-01-18,16,303-->
+>   - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}} <!--SR:!2024-03-05,47,303!2024-03-26,68,323-->
 
 <!-- markdownlint MD028 -->
 
@@ -150,7 +150,7 @@ Additionally, for negative damping ratios:
 > {{$$\lambda = \omega_n \zeta$$}}
 >
 > - where
->   - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} <!--SR:!2024-01-18,16,303!2024-01-19,17,303-->
+>   - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} <!--SR:!2024-03-27,69,323!2024-01-19,17,303-->
 
 ## references
 
