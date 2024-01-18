@@ -19,7 +19,7 @@ tags:
 
 ## driven, damped harmonic oscillator
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}}: <!--SR:!2024-01-18,16,292-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}}: <!--SR:!2024-03-20,62,312-->
 
 > __ordinary differential equation__
 >
@@ -27,7 +27,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-02-20,39,292!2024-03-09,54,312!2024-01-18,16,292-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-02-20,39,292!2024-03-09,54,312!2024-03-23,65,312-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -88,7 +88,7 @@ The solution is as below, which matches with our physical intuition:
 
 > [!tip] tip
 >
-> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially: {{One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$.}} <!--SR:!2024-01-18,15,316-->
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially: {{One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$.}} <!--SR:!2024-03-09,51,316-->
 
 ### sinusoidal driving force
 
