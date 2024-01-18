@@ -86,7 +86,7 @@ See also [Vim help files](https://vimhelp.org/).
 - repeat last search:::n <!--SR:!2024-01-29,260,313!2025-11-18,767,328-->
 - repeat last search reversed:::N <!--SR:!2025-06-01,631,313!2024-07-14,378,288-->
 - repeat last search forward:::/\<Enter\> <!--SR:!2024-07-10,369,293!2024-07-25,396,293-->
-- repeat last search backward:::?\<Enter\> <!--SR:!2024-10-12,449,293!2024-01-18,225,268-->
+- repeat last search backward:::?\<Enter\> <!--SR:!2024-10-12,449,293!2025-09-11,602,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2025-04-21,556,273!2024-03-07,307,333-->
 
 ## command
