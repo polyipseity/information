@@ -85,7 +85,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __undamped__
 >
-> When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}}. This is {{rare in the natural world due to [dissipation](dissipation.md)}}. <!--SR:!2024-03-18,67,310!2024-01-19,17,303-->
+> When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}}. This is {{rare in the natural world due to [dissipation](dissipation.md)}}. <!--SR:!2024-03-18,67,310!2024-03-30,71,323-->
 
 <!-- markdownlint MD028 -->
 
@@ -150,7 +150,7 @@ Additionally, for negative damping ratios:
 > {{$$\lambda = \omega_n \zeta$$}}
 >
 > - where
->   - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} <!--SR:!2024-03-27,69,323!2024-01-19,17,303-->
+>   - {{$\lambda$ is the decay rate of an [oscillator](oscillation.md) with natural frequency $\omega_n$ and damping ratio $\zeta$}} <!--SR:!2024-03-27,69,323!2024-03-29,70,323-->
 
 ## references
 
