@@ -73,7 +73,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2024-05-28,380,347!2025-11-13,762,328-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2024-05-11,363,330!2024-05-10,362,333-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2026-01-07,796,328-->
-- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2024-01-19,254,313-->
+- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2024-05-24,126,293-->
 - restore last changed line:::U <!--SR:!2024-02-02,264,313!2026-02-28,848,328-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2024-04-14,287,273!2024-02-21,281,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2025-12-24,782,327!2024-05-29,381,348-->

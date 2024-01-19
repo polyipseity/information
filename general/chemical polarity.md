@@ -14,7 +14,7 @@ tags:
 
 In [chemistry](chemistry.md), __polarity__ is {{the separation of [electric charge](electric%20charge.md) such that a [molecule](molecule.md) has an [electric dipole moment](electric%20dipole%20moment.md)}}. <!--SR:!2024-02-20,81,270-->
 
-Polar molecules contain {{[polar bonds](#bond%20polarity), created by differences in the [electronegativities](electronegativity.md) of the bonded [atoms](atom.md), that do not cancel out each other due to [molecular symmetry](molecular%20me)}}. <!--SR:!2024-01-19,170,230-->
+Polar molecules contain {{[polar bonds](#bond%20polarity), created by differences in the [electronegativities](electronegativity.md) of the bonded [atoms](atom.md), that do not cancel out each other due to [molecular symmetry](molecular%20me)}}. <!--SR:!2025-07-24,552,250-->
 
 ## bond polarity
 

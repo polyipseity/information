@@ -60,7 +60,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2024-02-14,204,270!2024-05-15,295,315!2024-04-12,268,315!2024-03-01,79,270!2024-03-24,223,275!2024-02-12,72,235!2024-01-19,184,295!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
+> | {{weak analogies}} | <!--SR:!2024-02-14,204,270!2024-05-15,295,315!2024-04-12,268,315!2024-03-01,79,270!2024-03-24,223,275!2024-02-12,72,235!2024-04-21,93,275!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -277,7 +277,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2024-01-04T20:17:58.376802+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Sort or group data. <!--SR:!2024-03-31,94,295!2024-03-23,90,295-->
-- Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2024-01-19,46,195!2024-07-19,293,295-->
+- Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2024-04-17,89,195!2024-07-19,293,295-->
 - Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2024-05-11,159,275!2024-06-16,205,215-->
 - Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2025-08-11,626,315-->
 - Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2025-02-14,440,290!2024-01-25,190,295-->
@@ -442,7 +442,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-02-09,57,190!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-01-19,5,130!2024-08-18,268,230-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-01-22,3,130!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-07,44,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

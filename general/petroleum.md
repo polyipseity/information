@@ -113,7 +113,7 @@ return _chain.from_iterable(await _gather(
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
 - [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-01-22,14,210-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-04-08,81,210-->
-- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-01-19,4,170-->
+- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-01-25,6,170-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-01-20,5,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-01-23,130,190-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-01-22,4,130-->
@@ -126,7 +126,7 @@ return _chain.from_iterable(await _gather(
 
 - -40 to -1 °C::[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2025-04-25,529,310-->
 - -12 to -1 °C::[butane](butane.md) <!--SR:!2024-03-20,274,334-->
-- -1 to 110 °C::[gasoline/petrol](gasoline.md) <!--SR:!2024-01-19,222,314-->
+- -1 to 110 °C::[gasoline/petrol](gasoline.md) <!--SR:!2024-05-08,110,294-->
 - 30 to 200 °C::[naphtha](naphtha.md) <!--SR:!2024-03-22,231,274-->
 - 150 to 205 °C::[jet fuel](jet%20fuel.md) <!--SR:!2024-09-09,365,294-->
 - 205 to 260 °C::[kerosene](kerosene.md) <!--SR:!2025-01-21,435,274-->
