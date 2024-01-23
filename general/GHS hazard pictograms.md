@@ -64,10 +64,10 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2024-03-12,267,330!2024-04-15,295,330-->
-- GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2024-01-22,174,250!2024-03-16,271,330-->
+- GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2025-04-01,434,250!2024-03-16,271,330-->
 - GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2024-03-15,270,330!2024-02-11,243,330-->
 - GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2024-03-02,129,250!2024-10-14,403,290-->
-- GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2024-01-20,186,270!2024-02-12,238,310-->
+- GHS04: [compressed gas](compressed%20fluid.md)→:::←GHS05: [corrosive](corrosive%20substance.md) <!--SR:!2025-06-07,501,270!2024-02-12,238,310-->
 - GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2025-07-10,620,310!2024-10-13,402,290-->
 - GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2025-10-30,662,310!2024-09-09,331,290-->
 - GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2025-10-20,641,310!2024-07-16,305,270-->

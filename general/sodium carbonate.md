@@ -42,7 +42,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}} |  | <!--SR:!2024-01-20,186,270-->
+> | {{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}} |  | <!--SR:!2025-12-23,700,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

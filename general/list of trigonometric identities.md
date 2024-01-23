@@ -54,7 +54,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d996"--><!-- The following content is generated at 2024-01-04T20:17:52.198336+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-01-22,19,320!2024-01-20,17,322-->
+- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-04-14,82,340!2024-04-09,77,342-->
 - [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-01-30,28,289!2024-03-23,72,329-->
 - [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
@@ -95,18 +95,18 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba01"--><!-- The following content is generated at 2024-01-04T20:17:52.215336+08:00. Any edits will be overridden! -->
 
-- normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-01-22,19,320-->
-- divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-01-20,17,320-->
+- normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-04-15,83,340-->
+- divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-04-04,72,340-->
 - divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-03-01,46,320-->
-- divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-01-21,18,320-->
+- divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-04-11,79,340-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 > [!example] examples
 >
-> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$ <!--SR:!2024-01-21,18,320!2024-04-03,75,340-->
-> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2024-03-29,70,340!2024-01-21,18,320-->
-> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2024-01-20,17,320!2024-02-19,36,320-->
+> - $\sin^2 6.52 + \cos^2 6.52$ ::: $1$ <!--SR:!2024-04-11,79,340!2024-04-03,75,340-->
+> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2024-03-29,70,340!2024-04-10,78,340-->
+> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2024-04-06,74,340!2024-02-19,36,320-->
 > - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2024-03-27,69,339!2024-03-22,64,340-->
 
 ## angle sum and difference
@@ -255,7 +255,7 @@ return chain.from_iterable(await gather(
 
 - sine cosine::$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$ <!--SR:!2024-03-04,66,190-->
 - cosine sine::$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$ <!--SR:!2024-03-04,66,190-->
-- sine sine::$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$ <!--SR:!2024-01-23,85,190-->
+- sine sine::$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$ <!--SR:!2024-09-10,231,210-->
 - cosine cosine::$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$ <!--SR:!2024-10-24,342,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -311,7 +311,7 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-01-25,23,269!2024-02-03,21,249-->
-> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(-2x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-01-21,21,269!2024-01-28,10,249-->
+> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(-2x + \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-04-13,81,289!2024-01-28,10,249-->
 > - $0 \cos 5x - 1.23 \sin 5x$ ::: $-1.23 \sin 5x$ <!--SR:!2024-03-16,65,329!2024-03-28,76,329-->
 
 ## references

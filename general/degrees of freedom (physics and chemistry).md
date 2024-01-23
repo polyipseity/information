@@ -75,7 +75,7 @@ return _chain.from_iterable(await _gather(
 
 - [monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3::[translation](translation%20(geometry).md) ($x, y, z$) <!--SR:!2024-02-26,53,310-->
 - [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3::[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md)) <!--SR:!2024-02-27,51,290-->
-- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$::[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)) <!--SR:!2024-01-22,26,270-->
+- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$::[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)) <!--SR:!2024-04-29,97,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

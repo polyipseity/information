@@ -25,7 +25,7 @@ The most common method is [cryogenic distillation](#cryogenic%20distillation).
 
 - see: [fractional distillation](fractional%20distillation.md).
 
-Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md). Then [distill](distillation.md) the components at their boiling points.}} <!--SR:!2024-01-23,123,190-->
+Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md). Then [distill](distillation.md) the components at their boiling points.}} <!--SR:!2024-09-12,233,190-->
 
 %%
 
