@@ -100,8 +100,8 @@ return await memorize_map(
 - [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2024-04-14,172,210-->
 - [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-01-28,91,210-->
 - [iron](iron.md)(III)::orange-brown <!--SR:!2024-02-09,53,230-->
-- [magnesium](magnesium.md)::intense white <!--SR:!2024-01-21,73,270-->
-- [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-01-20,42,190-->
+- [magnesium](magnesium.md)::intense white <!--SR:!2024-08-06,196,270-->
+- [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-04-11,79,190-->
 - [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-01-31,98,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -109,7 +109,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2024-01-04T20:17:51.834162+08:00. Any edits will be overridden! -->
 
 - brick red::[calcium](calcium.md) <!--SR:!2024-02-15,241,310-->
-- light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2024-01-23,180,250-->
+- light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2025-04-16,449,250-->
 - blue-green::[copper](copper.md)(I) <!--SR:!2024-05-09,216,270-->
 - green (non-halide)::[copper](copper.md)(II) <!--SR:!2024-02-13,203,270-->
 - blue-green (halide)::[copper](copper.md)(II) <!--SR:!2024-08-01,352,290-->
@@ -120,7 +120,7 @@ return await memorize_map(
 - orange-brown::[iron](iron.md)(III) <!--SR:!2024-10-08,374,290-->
 - intense white::[magnesium](magnesium.md) <!--SR:!2024-12-08,362,250-->
 - lilac::[potassium](potassium.md) <!--SR:!2025-04-16,539,310-->
-- invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2024-01-20,173,250-->
+- invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2025-03-30,432,250-->
 - intense yellow::[sodium](sodium.md) <!--SR:!2025-02-10,451,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

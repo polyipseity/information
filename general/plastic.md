@@ -133,9 +133,9 @@ return _chain.from_iterable(await _gather(
 <<<<<<< HEAD
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-12-21T13:06:37.104253+08:00. Any edits will be overridden! -->
 
-- [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2024-01-20,179,254-->
+- [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2025-04-21,454,254-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2024-05-06,194,210-->
-- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-01-23,7,130-->
+- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-02-01,9,130-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2024-08-13,318,261-->
 - [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-02-11,26,130-->
 - [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2024-04-16,144,201-->

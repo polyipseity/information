@@ -107,11 +107,11 @@ The following table lists out transformation from other [indeterminate forms](in
 - _(begin)_→:::←$\frac00$ <!--SR:!2024-02-15,60,310!2024-02-02,50,310-->
 - $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-02-23,67,310!2024-02-10,56,310-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2024-06-09,144,310!2024-01-24,9,250-->
-- $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-01-22,38,270!2024-02-24,68,310-->
+- $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-06-13,142,290!2024-02-24,68,310-->
 - $\infty-\infty$→:::←$0^0$ <!--SR:!2024-01-26,13,230!2024-04-19,94,270-->
 - $0^0$→:::←$1^\infty$ <!--SR:!2024-02-25,63,290!2024-05-30,136,310-->
 - $1^\infty$→:::←$\infty^0$ <!--SR:!2024-03-04,53,270!2024-01-26,44,290-->
-- $\infty^0$→:::←_(end)_ <!--SR:!2024-02-05,52,310!2024-01-21,38,290-->
+- $\infty^0$→:::←_(end)_ <!--SR:!2024-02-05,52,310!2024-02-09,17,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -138,7 +138,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\infty-\infty$::$\lim_{x\to{c} }(f(x)-g(x))=\lim_{x\to{c} }\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ <!--SR:!2024-01-27,42,290-->
 - $0^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2024-03-28,83,270-->
 - $1^\infty$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2024-02-16,61,310-->
-- $\infty^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2024-01-23,39,290-->
+- $\infty^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2024-06-27,156,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

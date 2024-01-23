@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2024-03-30,99,290!2024-04-04,284,330-->
 - [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2024-04-10,290,330!2024-04-17,295,330-->
 - [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2025-06-11,595,310!2024-04-28,301,330-->
-- [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2024-01-21,134,250!2024-04-05,285,330-->
+- [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2024-03-31,68,230!2024-04-05,285,330-->
 - [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2024-04-21,294,330!2024-03-01,256,330-->
 - [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-05-03,306,330!2024-05-31,329,330-->
 - [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2024-05-24,192,230!2024-01-29,25,150-->
@@ -176,7 +176,7 @@ return _chain.from_iterable(await _gather(
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2024-02-15,132,250!2024-04-09,155,270-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-02-17,78,190!2024-04-04,174,210-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2024-02-19,207,270!2024-08-23,362,290-->
-- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-01-23,42,170!2024-03-25,198,230-->
+- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-02-15,23,150!2024-03-25,198,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2024-06-03,278,270!2024-08-14,358,290-->
 - [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2024-06-16,254,230!2024-03-22,224,290-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2024-01-30,122,250!2024-01-30,166,230-->

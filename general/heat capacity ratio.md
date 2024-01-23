@@ -17,7 +17,7 @@ tags:
 > {{$$\gamma = \frac{C_p}{C_V} = \frac{\bar{C}_p}{\bar{C}_V} = \frac{c_p}{c_V}$$}}
 >
 > - where
->   - {{$C$ is the [heat capacity](heat%20capcaity.md), $\bar{C}$ is the [molar heat capacity](molar%20heat%20capacity.md), and $c$ is the [specific heat capacity](specific%20heat%20capacity.md); the subscript $p$ and $V$ means [constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}} <!--SR:!2024-03-06,62,310!2024-01-21,24,270-->
+>   - {{$C$ is the [heat capacity](heat%20capcaity.md), $\bar{C}$ is the [molar heat capacity](molar%20heat%20capacity.md), and $c$ is the [specific heat capacity](specific%20heat%20capacity.md); the subscript $p$ and $V$ means [constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}} <!--SR:!2024-03-06,62,310!2024-03-29,66,270-->
 
 <!-- markdownlint MD028 -->
 
