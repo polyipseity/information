@@ -17,13 +17,13 @@ tags:
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2024-03-12,54,170!2025-06-22,631,290-->
 - move window to bottom:::Alt+Esc <!--SR:!2024-12-23,406,230!2024-02-18,45,230-->
-- minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2024-01-23,71,190!2025-02-24,534,270-->
+- minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2024-06-08,136,190!2025-02-24,534,270-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-01-27,422,230!2025-07-22,593,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2025-01-05,429,250!2025-02-01,427,230-->
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2024-03-01,46,170!2025-01-27,479,270-->
-- toggle unfocused windows:::⊞Win+Home <!--SR:!2024-02-27,94,210!2024-01-23,46,190-->
+- toggle unfocused windows:::⊞Win+Home <!--SR:!2024-02-27,94,210!2024-02-17,24,170-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2024-11-04,401,250!2024-12-14,493,310-->
-- show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-01-24,189,250!2025-07-27,666,290-->
+- show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-04-29,96,230!2025-07-27,666,290-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2024-03-15,123,190-->
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2024-07-01,241,230!2024-05-29,332,270-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2024-03-11,118,150!2024-06-12,329,270-->

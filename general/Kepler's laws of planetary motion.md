@@ -24,7 +24,7 @@ tags:
 
 %%
 
-The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that: <!--SR:!2024-01-24,177,290-->
+The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that: <!--SR:!2026-01-05,712,310-->
 
 %%
 

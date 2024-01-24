@@ -76,7 +76,7 @@ return await memorize_table(
 - post hoc→:::←self-contradiction <!--SR:!2024-02-12,29,175!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 - virtue by association→:::←weak analogies <!--SR:!2024-01-28,192,295!2024-02-07,75,275-->
-- weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-01-22,187,295-->
+- weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -230,7 +230,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
-- according to/refer to→:::←cause/reason <!--SR:!2024-01-21,17,135!2024-06-23,313,295-->
+- according to/refer to→:::←cause/reason <!--SR:!2024-02-16,23,135!2024-06-23,313,295-->
 - cause/reason→:::←effectiveness <!--SR:!2024-02-08,28,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
@@ -334,7 +334,7 @@ return await memorize_seq(
 - (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
 - Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2024-09-28,308,255!2024-08-12,304,275-->
 - (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2024-08-09,301,270!2024-07-23,304,275-->
-- Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-03-30,90,275!2024-01-23,45,210-->
+- Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-03-30,90,275!2024-04-29,96,210-->
 - (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-06-16,324,330!2024-03-31,256,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -442,7 +442,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-02-09,57,190!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-01-22,3,130!2024-08-18,268,230-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-01-30,6,150!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-07,44,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -480,7 +480,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2024-01-04T20:17:59.928856+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Introduction) State your solutions. <!--SR:!2024-01-23,188,295!2024-08-14,340,290-->
+- _(begin)_→:::←(Introduction) State your solutions. <!--SR:!2026-03-05,771,315!2024-08-14,340,290-->
 - (Introduction) State your solutions.→:::←State the problem or criteria required. <!--SR:!2024-11-06,314,250!2026-03-07,800,335-->
 - State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2024-04-14,111,215!2024-11-05,410,295-->
 - (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->

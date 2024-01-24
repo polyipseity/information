@@ -167,7 +167,7 @@ return _chain.from_iterable(await _gather(
 - [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-02-06,63,210!2025-07-15,581,310-->
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-03-22,79,230!2024-01-25,12,130-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2024-04-09,85,190!2024-10-15,381,290-->
-- [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-02-03,58,230!2024-01-24,74,150-->
+- [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-02-03,58,230!2024-05-13,110,150-->
 - [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2024-02-02,189,250!2024-02-08,85,210-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2024-05-08,215,270-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-02-04,19,130!2024-08-29,279,250-->
@@ -189,7 +189,7 @@ return _chain.from_iterable(await _gather(
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-03-07,219,270!2024-05-01,166,270-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2024-09-12,363,290!2024-12-08,401,270-->
 - [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2024-04-29,253,270!2024-02-02,16,230-->
-- [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2024-01-24,206,310!2024-03-05,218,270-->
+- [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2025-10-23,638,310!2024-03-05,218,270-->
 - [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2025-01-21,449,290!2025-03-31,507,310-->
 - [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2024-04-23,296,330!2024-03-23,272,330-->
 
@@ -224,7 +224,7 @@ return _chain.from_iterable(await _gather(
 - [pipeclay triangle](pipeclay%20triangle.md)::![pipeclay triangle](../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg) <!--SR:!2026-02-24,805,330-->
 - [reagent bottle](reagent%20bottle.md)::![reagent bottle](../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg) <!--SR:!2024-03-05,260,330-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)::![round-bottom(ed) flask](../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg) <!--SR:!2024-04-01,281,330-->
-- [rubber bulb](rubber%20bulb.md)::![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg) <!--SR:!2024-01-24,227,330-->
+- [rubber bulb](rubber%20bulb.md)::![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg) <!--SR:!2026-11-21,1032,350-->
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)::![rubber stopper/rubber bung/rubber cork](../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg) <!--SR:!2024-03-25,274,330-->
 - [safety spectacles/safety glasses/goggles](goggles.md)::![safety spectacles/safety glasses/goggles](../archives/Wikimedia%20Commons/Safety%20Goggles.jpg) <!--SR:!2024-02-03,237,330-->
 - [spatula](spatula.md)::![spatula](../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG) <!--SR:!2024-02-02,235,330-->
