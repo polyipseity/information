@@ -28,7 +28,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2025-09-03,725,315!2024-03-29,246,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2025-11-29,812,336-->
 - quick access:::Q <!--SR:!2025-11-25,753,290!2024-10-27,393,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2024-01-22,15,130!2024-10-16,397,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2024-02-01,8,130!2024-10-16,397,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-03-26,251,210!2024-03-25,222,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
@@ -46,7 +46,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - invert selection:::Ctrl+I <!--SR:!2024-03-31,237,250!2026-06-13,892,296-->
 - hide selection:::H <!--SR:!2025-10-25,645,270!2024-11-29,511,310-->
 - reveal hidden:::Alt+H <!--SR:!2025-04-09,565,270!2024-12-06,426,256-->
-- toggle toolbar:::T <!--SR:!2024-09-28,459,310!2024-01-24,246,276-->
+- toggle toolbar:::T <!--SR:!2024-09-28,459,310!2024-05-25,122,256-->
 - toggle sidebar:::N <!--SR:!2024-10-22,402,256!2024-01-30,66,156-->
 
 ### 3D viewport

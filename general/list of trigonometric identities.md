@@ -204,7 +204,7 @@ return await memorize_map(
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-03-26,75,327!2024-03-11,63,327-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-03-12,64,327!2024-03-10,62,327-->
 > - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2(-4.61)}{1 + \tan^2(-4.61)}$ <!--SR:!2024-03-03,52,307!2024-03-31,73,287-->
-> - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2024-01-24,24,287!2024-02-05,33,287-->
+> - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2024-04-28,95,307!2024-02-05,33,287-->
 
 ## product-to-sum and sum-to-product
 
@@ -291,7 +291,7 @@ return chain.from_iterable(await gather(
 >
 > - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \mp (-1.52)}2\right) \cos\left(\frac{3.23 \pm (-1.52)}2\right)$ <!--SR:!2024-02-04,32,287!2024-02-03,30,267-->
 > - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos\left(\frac{-2.23 + 0.14}2\right) \cos\left(\frac{-2.23 - 0.14}2\right)$ <!--SR:!2024-02-11,39,307!2024-03-14,55,267-->
-> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-02-29,54,307!2024-01-24,24,267-->
+> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin\left(\frac{-6.88 + (-2.45)}2\right) \sin\left(\frac{-6.88 - (-2.45)}2\right)$ <!--SR:!2024-02-29,54,307!2024-03-27,63,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos(-0.73) \cos 2.55}$ <!--SR:!2024-02-08,37,307!2024-03-04,47,267-->
 
 ## linear combination
@@ -304,7 +304,7 @@ return chain.from_iterable(await gather(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2024-02-27,51,309!2024-01-24,25,289!2024-03-18,67,329-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-02-27,51,309!2024-04-07,74,289!2024-03-18,67,329-->
 
 <!-- markdownlint MD028 -->
 

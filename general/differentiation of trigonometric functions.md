@@ -102,7 +102,7 @@ return await memorize_map(
 - $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2024-04-18,101,290-->
 - $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2024-02-19,64,310-->
 - $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arcsec}{x}$ <!--SR:!2024-05-31,136,310-->
-- $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arccsc}{x}$ <!--SR:!2024-01-24,42,290-->
+- $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arccsc}{x}$ <!--SR:!2024-07-10,168,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

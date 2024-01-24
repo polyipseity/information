@@ -65,7 +65,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-04T20:17:58.185753+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2024-08-17,232,330!2024-08-20,235,330-->
-- [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-01-23,29,290-->
+- [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-05-19,116,310-->
 - [education](#education)→:::←[achievements](#achievements) <!--SR:!2024-03-02,72,270!2024-03-22,76,290-->
 - [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2024-07-18,194,310!2024-05-13,141,290-->
 - [experience](#experience)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-07-22,197,310-->
