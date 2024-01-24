@@ -36,6 +36,7 @@ English
 - [finance](https://en.wiktionary.org/wiki/finance):::(f_e) the study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md)
 - [governance](https://en.wiktionary.org/wiki/governance):::(g_e) the action or manner of governing
 - [guarantee](https://en.wiktionary.org/wiki/guarantee):::(g_e) assure that something will be done
+- [hallucinate](https://en.wiktionary.org/wiki/hallucinate):::(h_e) perceive things that are not actually present
 - [imaginary](https://en.wiktionary.org/wiki/imaginary):::(i_y) existing only in the [imagination](../../../general/imagination.md)
 - [incandescent](https://en.wiktionary.org/wiki/incandescent):::(i_t) emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md)
 - [intuition](https://en.wiktionary.org/wiki/intuition):::(i_n) acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md)
@@ -60,6 +61,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea):::(t_a) a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md)
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility):::(t_y) the extent to which something is transmissible
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry):::(t_y) the branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous):::(u_s) widespread
 - [vacuous](https://en.wiktionary.org/wiki/vacuous):::(v_s) empty, void
 - [vacuum](https://en.wiktionary.org/wiki/vacuum):::(v_m) a region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md)
 - [viscous](https://en.wiktionary.org/wiki/viscous):::(v_s) having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md)
