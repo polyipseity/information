@@ -354,7 +354,7 @@ return chain.from_iterable(await gather(
 - iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-03-01,85,302-->
-- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-01-25,2,130-->
+- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-01-28,3,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-02-20,40,182-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-02-09,23,182-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
@@ -430,7 +430,7 @@ return chain.from_iterable(await gather(
 - sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2028-08-21,1757,313!2026-07-16,1061,274-->
 - carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2024-04-18,528,270!2029-10-30,2133,333-->
 - chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2028-07-31,1651,278!2024-06-29,618,313-->
-- dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2024-01-25,462,258!2029-05-12,1985,325-->
+- dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2028-08-20,1669,278!2029-05-12,1985,325-->
 - nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2025-03-18,705,310-->
 - phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2025-03-25,502,239!2024-08-25,617,276-->
 - manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2024-12-04,484,382!2024-08-08,387,362-->
