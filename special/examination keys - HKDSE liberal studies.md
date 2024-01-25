@@ -280,7 +280,7 @@ return await memorize_seq(
 - Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends. <!--SR:!2024-04-17,89,195!2024-07-19,293,295-->
 - Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.→:::←Quote the figures. <!--SR:!2024-05-11,159,275!2024-06-16,205,215-->
 - Quote the figures.→:::←Analyze the figures by performing simple calculations. <!--SR:!2024-05-29,229,235!2025-08-11,626,315-->
-- Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2025-02-14,440,290!2024-01-25,190,295-->
+- Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons. <!--SR:!2025-02-14,440,290!2024-04-28,94,275-->
 - Deduce causes and reasons.→:::←_(end)_ <!--SR:!2024-06-09,320,335!2024-04-09,265,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

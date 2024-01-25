@@ -12,7 +12,7 @@ tags:
 
 > [!tip] tip
 >
-> - color change [mnemonic](mnemonic.md): {{your face when eating disgusting proteins: 🙂 becomes 🤢}} <!--SR:!2024-01-25,10,214-->
+> - color change [mnemonic](mnemonic.md): {{your face when eating disgusting proteins: 🙂 becomes 🤢}} <!--SR:!2024-02-14,20,214-->
 
 ## see also
 

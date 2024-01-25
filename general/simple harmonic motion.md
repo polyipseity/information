@@ -136,7 +136,7 @@ E & = K + U \\
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
 >     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-03-25,61,296!2024-03-25,77,336!2024-01-25,18,338!2024-04-11,78,358!2024-02-04,18,350-->
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-03-25,61,296!2024-03-25,77,336!2024-04-17,83,358!2024-04-11,78,358!2024-02-04,18,350-->
 
 ### mass of a physical pendulum
 

@@ -45,7 +45,7 @@ tags:
 > - {{$\operatorname{Cin}(x)=\int_0^x\!\frac{1-\cos{t} }t\,\mathrm{d}t$}}
 > - {{$\operatorname{Ci}(x)=-\int_x^\infty\!\frac{\cos{t} }t\,\mathrm{d}t=\gamma+\ln{x}-\operatorname{Cin}(x)$}}
 > - where
->   - $\gamma$ is the [Euler's constant](Euler's%20constant.md) <!--SR:!2024-02-18,107,310!2024-01-28,52,230!2024-01-25,34,190-->
+>   - $\gamma$ is the [Euler's constant](Euler's%20constant.md) <!--SR:!2024-02-18,107,310!2024-01-28,52,230!2024-02-10,16,170-->
 
 ## references
 
