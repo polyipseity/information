@@ -41,8 +41,8 @@ return await memorize_seq(
   (
     '[profile summary](#profile%20summary)',
     '[education](#education)',
-    '[achievements](#achievements)',
     '[experience](#experience)',
+    '[achievements](#achievements)',
     '[skills](#skills)',
     '[others](#others)',
   ),
@@ -51,24 +51,24 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ff"--><!-- The following content is generated at 2023-10-05T10:38:05.852698+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ff"--><!-- The following content is generated at 2024-01-26T12:42:06.721939+08:00. Any edits will be overridden! -->
 
 > 1. [profile summary](#profile%20summary)
 > 2. [education](#education)
-> 3. [achievements](#achievements)
-> 4. [experience](#experience)
+> 3. [experience](#experience)
+> 4. [achievements](#achievements)
 > 5. [skills](#skills)
 > 6. [others](#others)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-04T20:17:58.185753+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-26T12:42:06.646432+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2024-08-17,232,330!2024-08-20,235,330-->
 - [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-05-19,116,310-->
-- [education](#education)→:::←[achievements](#achievements) <!--SR:!2024-03-02,72,270!2024-03-22,76,290-->
-- [achievements](#achievements)→:::←[experience](#experience) <!--SR:!2024-07-18,194,310!2024-05-13,141,290-->
-- [experience](#experience)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-07-22,197,310-->
+- [education](#education)→:::←[experience](#experience) <!--SR:!2024-07-18,194,310!2024-05-13,141,290-->
+- [experience](#experience)→:::←[achievements](#achievements) <!--SR:!2024-03-02,72,270!2024-03-22,76,290-->
+- [achievements](#achievements)→:::←[skills](#skills) <!--SR:!2024-03-17,96,270!2024-07-22,197,310-->
 - [skills](#skills)→:::←[others](#others) <!--SR:!2024-08-01,220,330!2024-03-27,100,290-->
 - [others](#others)→:::←_(end)_ <!--SR:!2024-11-13,304,330!2024-06-13,167,310-->
 
