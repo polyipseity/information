@@ -41,8 +41,8 @@ return await memorize_seq(
   (
     '[profile summary](#profile%20summary)',
     '[education](#education)',
-    '[achievements](#achievements)',
     '[experience](#experience)',
+    '[achievements](#achievements)',
     '[skills](#skills)',
     '[others](#others)',
   ),
@@ -51,24 +51,24 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ff"--><!-- The following content is generated at 2023-10-05T10:38:05.852698+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ff"--><!-- The following content is generated at 2024-01-26T12:42:06.721939+08:00. Any edits will be overridden! -->
 
 > 1. [profile summary](#profile%20summary)
 > 2. [education](#education)
-> 3. [achievements](#achievements)
-> 4. [experience](#experience)
+> 3. [experience](#experience)
+> 4. [achievements](#achievements)
 > 5. [skills](#skills)
 > 6. [others](#others)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-04T20:17:58.185753+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20fa"--><!-- The following content is generated at 2024-01-26T12:42:06.646432+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[profile summary](#profile%20summary)
 - [profile summary](#profile%20summary)→:::←[education](#education)
-- [education](#education)→:::←[achievements](#achievements)
-- [achievements](#achievements)→:::←[experience](#experience)
-- [experience](#experience)→:::←[skills](#skills)
+- [education](#education)→:::←[experience](#experience)
+- [experience](#experience)→:::←[achievements](#achievements)
+- [achievements](#achievements)→:::←[skills](#skills)
 - [skills](#skills)→:::←[others](#others)
 - [others](#others)→:::←_(end)_
 
