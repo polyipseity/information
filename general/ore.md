@@ -63,7 +63,7 @@ return await memorize_table(
 - [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2024-04-20,250,270!2024-07-09,188,270-->
 - [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2024-03-28,234,270!2024-12-06,441,290-->
 - [galena](galena.md)→:::←[hematite](hematite.md) <!--SR:!2024-10-04,390,290!2024-09-23,390,290-->
-- [hematite](hematite.md)→:::←_(end)_ <!--SR:!2024-02-29,254,330!2024-01-26,229,330-->
+- [hematite](hematite.md)→:::←_(end)_ <!--SR:!2024-02-29,254,330!2026-02-19,755,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

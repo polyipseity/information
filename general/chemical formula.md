@@ -32,7 +32,7 @@ Condensed formulas {{can represent simple structures in a line of text}}. [Multi
 
 - see: [skeletal formula](skeletal%20formula.md)
 
-Skeletal formulas {{can represent more complex [organic compounds](organic%20compound.md)}}. In a skeletal formula, {{[carbon](carbon.md) atoms are represented by [vertices](vertx%20(geometry).md) and [hydrogen](hydrogen.md) atoms attached to carbon atoms are omitted}}. <!--SR:!2024-11-04,422,290!2024-01-26,189,255-->
+Skeletal formulas {{can represent more complex [organic compounds](organic%20compound.md)}}. In a skeletal formula, {{[carbon](carbon.md) atoms are represented by [vertices](vertx%20(geometry).md) and [hydrogen](hydrogen.md) atoms attached to carbon atoms are omitted}}. <!--SR:!2024-11-04,422,290!2025-05-21,481,255-->
 
 ## references
 

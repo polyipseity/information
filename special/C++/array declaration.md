@@ -16,7 +16,7 @@ A multidimensional array is {{an array with another array as its element type}}.
 int a[2][3]{{0, 1, 2}, {3, 4, 5}};
 ```
 
-[Array-to-pointer decay](#array-to-pointer%20decay) is {{applied only once to multidimensional arrays}}. <!--SR:!2024-01-26,84,310-->
+[Array-to-pointer decay](#array-to-pointer%20decay) is {{applied only once to multidimensional arrays}}. <!--SR:!2025-01-19,359,330-->
 
 ## arrays of unknown bound
 
