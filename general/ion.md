@@ -500,7 +500,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2024-01-04T20:17:51.909669+08:00. Any edits will be overridden! -->
 
 - <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2024-04-28,306,361-->
-- <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2024-01-26,215,341-->
+- <span style="color: yellow;">yellow</span>::chromate ion <!--SR:!2026-10-30,1008,361-->
 - <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2024-06-19,348,361-->
 - <span style="color: green;">green</span>::manganate ion <!--SR:!2024-02-07,171,282-->
 

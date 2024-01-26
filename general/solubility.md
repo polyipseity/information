@@ -410,7 +410,7 @@ return await memorize_map(
 - [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-20,49,198-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-09,76,258-->
 - [thallium(I) oxide](thallium(I)%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-07-29,187,278-->
-- [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-01-26,56,258-->
+- [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-06-17,143,258-->
 - [uranyl carbonate](uranyl%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-02-29,90,298-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
