@@ -36,6 +36,7 @@ English
 - [finance](https://en.wiktionary.org/wiki/finance):::(f_e) the study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md) <!--SR:!2024-03-27,69,324!2024-03-23,66,324-->
 - [governance](https://en.wiktionary.org/wiki/governance):::(g_e) the action or manner of governing <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee):::(g_e) assure that something will be done <!--SR:!2024-02-06,20,343!2024-02-03,15,303-->
+- [hallucinate](https://en.wiktionary.org/wiki/hallucinate):::(h_e) perceive things that are not actually present
 - [imaginary](https://en.wiktionary.org/wiki/imaginary):::(i_y) existing only in the [imagination](../../../general/imagination.md) <!--SR:!2024-03-28,69,324!2024-03-18,61,324-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent):::(i_t) emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md) <!--SR:!2024-02-21,40,304!2024-02-03,23,264-->
 - [intuition](https://en.wiktionary.org/wiki/intuition):::(i_n) acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md) <!--SR:!2024-03-29,70,324!2024-04-03,75,324-->
@@ -60,6 +61,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea):::(t_a) a thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md) <!--SR:!2024-02-08,27,284!2024-03-11,55,324-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility):::(t_y) the extent to which something is transmissible <!--SR:!2024-03-20,63,324!2024-03-27,68,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry):::(t_y) the branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides <!--SR:!2024-03-03,52,270!2024-04-08,75,290-->
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous):::(u_s) widespread
 - [vacuous](https://en.wiktionary.org/wiki/vacuous):::(v_s) empty, void <!--SR:!2024-03-15,59,324!2024-02-20,38,304-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum):::(v_m) a region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md) <!--SR:!2024-03-23,65,324!2024-03-16,60,324-->
 - [viscous](https://en.wiktionary.org/wiki/viscous):::(v_s) having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md) <!--SR:!2024-03-13,57,324!2024-02-12,32,304-->

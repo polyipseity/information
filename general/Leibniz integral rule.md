@@ -360,6 +360,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 - integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$ <!--SR:!2024-02-02,16,312-->
 - integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$ <!--SR:!2024-01-29,12,288-->
 - integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$ <!--SR:!2024-01-30,13,288-->
+- integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$
 - [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$ <!--SR:!2024-02-03,17,304-->
 
 > [!info]- proof for integral 1
@@ -430,6 +431,22 @@ C & = \int _0 ^\infty \! \frac {\ln \left(1 + 0^2 x^2\right)} {1 + x^2} \,\mathr
 f(a) & = \pi \ln \lvert a + 1 \rvert \\
 f(1) & = \pi \ln \lvert 1 + 1 \rvert \\
 \int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x & = \pi \ln 2
+\end{aligned}$$
+
+<!-- markdownlint MD028 -->
+
+> [!info]- proof for integral 4
+>
+> $$\begin{aligned}
+f(a) & = \int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x && n \in \mathbb{N}_{\ge 0} \\
+& = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \int _0 ^1 \! x^a \,\mathrm{d}x \\
+& = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \left[ \frac {x^{a + 1}} {a + 1} \right]_{x = 0}^{x = 1} \\
+& = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \frac 1 {a + 1} \\
+& = \frac {\mathrm{d}^{n - 1}} {\mathrm{d}a^{n - 1}} \frac {-1} {(a + 1)^2} \\
+& = \frac {\mathrm{d}^{n - 2}} {\mathrm{d}a^{n - 2}} \frac {(-1)(-2)} {(a + 1)^3} \\
+& = \frac{(-1)^n n!}{(a + 1)^{n + 1}} \\
+f(n) & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \\
+\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \quad n \in \mathbb{N}_{\ge 0}
 \end{aligned}$$
 
 <!-- markdownlint MD028 -->
