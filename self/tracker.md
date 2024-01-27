@@ -32,6 +32,13 @@ tags:
 
 - <https://linkedin.com/in/(redacted)>
 
+## exports
+
+- <https://calendar.google.com/calendar/u/0/r/settings/export>
+- <https://contacts.google.com/>
+- <https://buymeacoffee.com/app/transactions/supporters>
+- <https://github.com/sponsors/polyipseity/dashboard/activity>
+
 ## mobile number
 
 - <https://connect.stripe.com/app/express#settings> > mobile number
