@@ -4,6 +4,7 @@ aliases:
   - logarithmic derivative
 tags:
   - flashcards/general/logarithmic_derivative
+  - languages/in/English
 ---
 
 # logarithmic derivative

@@ -18,6 +18,7 @@ aliases:
   - nonincreasing functions
 tags:
   - flashcards/general/monotonic_function
+  - languages/in/English
 ---
 
 # monotonic function
