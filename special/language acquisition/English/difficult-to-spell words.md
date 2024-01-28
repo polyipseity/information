@@ -42,6 +42,7 @@ English
 - [intuition](https://en.wiktionary.org/wiki/intuition):::(i_n) acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md)
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal):::(l_l) of or pertaining to the [larynx](../../../general/larynx.md)
 - [larynx](https://en.wiktionary.org/wiki/larynx):::(l_x) an [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md)
+- [narcissism](https://en.wiktionary.org/wiki/narcissism):::(n_m) excessive [love](../../../general/love.md) of oneself
 - [negligible](https://en.wiktionary.org/wiki/negligible):::(n_e) can be not considered as it is too small or unimportant
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization):::(n_n) the partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md)
 - [pendulum](https://en.wiktionary.org/wiki/pendulum):::(p_m) a device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely
@@ -53,6 +54,10 @@ English
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize):::(p_e) to copy others' work and present it as one's own
 - [polynomial](https://en.wiktionary.org/wiki/polynomial):::(p_l) a [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md)
 - [preamble](https://en.wiktionary.org/wiki/preamble):::(p_e) an introduction to a [document](../../../general/document.md)
+- [receipt](https://en.wiktionary.org/wiki/receipt):::(r_t) the act of receiving or having been received
+- [recipe](https://en.wiktionary.org/wiki/recipe):::(r_e) a set of instructions for making [food](../../../general/food.md)
+- [recipient](https://en.wiktionary.org/wiki/recipient):::(r_t) one who receives
+- [reciprocity](https://en.wiktionary.org/wiki/reciprocity):::(r_y) mutual dependence, action, or influence
 - [recruit](https://en.wiktionary.org/wiki/recruit):::(r_t) enroll new [employees](../../../general/employment.md#employee)
 - [reservoir](https://en.wiktionary.org/wiki/reservoir):::(r_r) a source or sink of something
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary):::(r_y) basic, minimal
