@@ -308,7 +308,7 @@ return chain.from_iterable(await gather(
 - ammonium ion::1+ <!--SR:!2030-02-09,2209,334-->
 - magnesium ion::2+ <!--SR:!2026-12-17,1231,273-->
 - calcium ion::2+ <!--SR:!2024-10-25,649,272-->
-- barium ion::2+ <!--SR:!2024-01-27,456,254-->
+- barium ion::2+ <!--SR:!2027-03-30,1157,254-->
 - lead(II) ion::2+ <!--SR:!2026-06-13,1266,358-->
 - iron(II) ion::2+ <!--SR:!2028-04-27,1823,373-->
 - nickel(II) ion::2+ <!--SR:!2026-08-31,1322,352-->
@@ -344,7 +344,7 @@ return chain.from_iterable(await gather(
 - barium ion::colorless <!--SR:!2024-09-20,630,274-->
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
-- nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2024-01-28,205,207-->
+- nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
 - copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-01-31,28,130-->
 - zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 - manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
@@ -354,7 +354,7 @@ return chain.from_iterable(await gather(
 - iron(III) ion::<span style="color: yellow;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-03-01,85,302-->
-- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-01-28,3,130-->
+- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-02-01,4,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-02-20,40,182-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-02-09,23,182-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
@@ -483,7 +483,7 @@ return chain.from_iterable(await gather(
 - hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
 - permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-02-16,434,250-->
 - oxide ion::_(n/a)_ <!--SR:!2024-09-17,438,276-->
-- sulfide ion::_(n/a)_ <!--SR:!2024-01-28,177,256-->
+- sulfide ion::_(n/a)_ <!--SR:!2025-04-24,452,256-->
 - sulfate ion::colorless <!--SR:!2026-08-20,1076,274-->
 - sulfite ion::colorless <!--SR:!2025-12-21,758,294-->
 - carbonate ion::colorless <!--SR:!2024-11-25,591,252-->
