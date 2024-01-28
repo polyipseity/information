@@ -33,4 +33,4 @@ tags:
   - {{`*`}}: {{select all columns}}
   - {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
 - `table_reference`
-  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2024-02-15,94,250!2024-02-18,107,310!2024-11-22,303,310!2024-02-11,100,310!2024-08-15,214,299!2024-01-28,104,319!2024-02-18,41,299!2024-02-26,46,299!2024-02-24,113,319!2024-10-02,270,319!2024-02-14,103,319!2024-10-20,283,319!2024-04-10,85,279!2024-08-09,223,299-->
+  - {{`table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]`}}: {{[`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`}} <!--SR:!2024-02-15,94,250!2024-02-18,107,310!2024-11-22,303,310!2024-02-11,100,310!2024-08-15,214,299!2024-12-24,331,319!2024-02-18,41,299!2024-02-26,46,299!2024-02-24,113,319!2024-10-02,270,319!2024-02-14,103,319!2024-10-20,283,319!2024-04-10,85,279!2024-08-09,223,299-->

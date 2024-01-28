@@ -59,7 +59,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←conditions are not standard conditions <!--SR:!2024-01-30,23,230!2024-06-03,332,330-->
 - conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2024-02-23,84,270!2024-06-19,174,230-->
-- heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2024-06-05,334,330!2024-01-28,210,310-->
+- heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2024-06-05,334,330!2025-11-08,650,310-->
 - heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2024-06-01,330,330!2024-06-09,338,330-->
 - reaction is incomplete→:::←_(end)_ <!--SR:!2024-05-31,329,330!2024-04-10,84,230-->
 

@@ -181,7 +181,7 @@ The steps for naming an organic compound are:
 - [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2024-06-17,305,190!2024-02-11,283,265-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-03-10,287,247!2024-12-25,360,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2024-04-03,101,227-->
-- (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-01-27,46,225-->
+- (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-05-10,103,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2024-05-23,211,267-->
 - [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-05-05,413,273!2024-06-14,400,307-->
 - prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2024-05-06,376,307-->
@@ -653,7 +653,7 @@ return (
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 - nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->
 - aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
-- ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-01-27,85,150-->
+- ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-03-10,42,130-->
 - alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2024-06-08,197,244!2024-05-21,515,272-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-03-10,343,267-->

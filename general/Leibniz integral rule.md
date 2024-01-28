@@ -353,7 +353,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tip
 >
-> - takeaway: {{Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.}} <!--SR:!2024-01-28,11,284-->
+> - takeaway: {{Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.}} <!--SR:!2024-03-13,45,304-->
 
 #### other problems to solve
 
@@ -586,7 +586,7 @@ f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
 
 > [!tip] tip
 >
-> - takeaway: {{The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}} <!--SR:!2024-01-28,11,288-->
+> - takeaway: {{The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}} <!--SR:!2024-02-28,31,288-->
 
 ## references
 
