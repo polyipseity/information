@@ -3,6 +3,7 @@ aliases:
   - chain rule
 tags:
   - flashcards/general/chain_rule
+  - languages/in/English
 ---
 
 # chain rule
