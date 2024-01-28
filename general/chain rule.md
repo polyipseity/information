@@ -12,16 +12,16 @@ tags:
 > __chain rule for {{[real-valued functions](real-valued%20function.md) of one [real](real%20number.md) variable}}__
 >
 > 1. Given {{$f, g: \mathbb{R} \to \mathbb{R}$ and $c \in \mathbb{R}$, if $g'(c)$ and $f'(g(c))$ exists}},
-> 2. then {{$(f \circ g)'(c)$ exists and $(f \circ g)'(c) = f'(g(c)) \cdot g'(c)$}}.
+> 2. then {{$(f \circ g)'(c)$ exists and $(f \circ g)'(c) = f'(g(c)) \cdot g'(c)$}}. <!--SR:!2024-02-01,4,272!2024-02-01,4,272!2024-02-01,4,272-->
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - $f(x) := x^{2^x}, f'(x) = ?$ :: $f'(x) = 2^x x^{2^x - 1} (x \ln x \ln 2 + 1)$
-> - $a(3) = 27, a(12) = 3, a'(3) = 12, a'(12) = 5, b(2) = 12, b(5) = 12, b'(2) = 27, b'(5) = 3, (a \circ b)'(5) = ?$ :: $(a \circ b)'(5) = a'(b(5)) \cdot b'(5) = a'(12) \cdot b'(5) = 5 \cdot 3 = 15$
-> - $\frac {\mathrm{d}} {\mathrm{d}\xi} \frac {\mathrm{d}\xi} {\mathrm{d}\eta} = ?$ :: $\frac {\mathrm{d}} {\mathrm{d}\xi} \frac {\mathrm{d}\xi} {\mathrm{d}\eta} = \frac {\mathrm{d}} {\mathrm{d}\eta}$
-> - $\frac \partial {\partial \alpha} \frac {\partial \alpha} {\partial \beta} = ?$ :: The above does not apply. See [§ multivariable case](#multivariable%20case). [Counterexample](counterexample.md): $x + y + z = 0 \implies \frac {\partial x} {\partial y} = \frac {\partial y} {\partial z} = \frac {\partial z} {\partial x} = -1 \implies -1 = \frac {\partial x} {\partial y} \frac {\partial y} {\partial z} \frac {\partial z} {\partial x} \ne \frac {\partial x} {\partial x} = 1$
+> - $f(x) := x^{2^x}, f'(x) = ?$ :: $f'(x) = 2^x x^{2^x - 1} (x \ln x \ln 2 + 1)$ <!--SR:!2024-01-31,3,252-->
+> - $a(3) = 27, a(12) = 3, a'(3) = 12, a'(12) = 5, b(2) = 12, b(5) = 12, b'(2) = 27, b'(5) = 3, (a \circ b)'(5) = ?$ :: $(a \circ b)'(5) = a'(b(5)) \cdot b'(5) = a'(12) \cdot b'(5) = 5 \cdot 3 = 15$ <!--SR:!2024-02-01,4,270-->
+> - $\frac {\mathrm{d}} {\mathrm{d}\xi} \frac {\mathrm{d}\xi} {\mathrm{d}\eta} = ?$ :: $\frac {\mathrm{d}} {\mathrm{d}\xi} \frac {\mathrm{d}\xi} {\mathrm{d}\eta} = \frac {\mathrm{d}} {\mathrm{d}\eta}$ <!--SR:!2024-02-01,4,272-->
+> - $\frac \partial {\partial \alpha} \frac {\partial \alpha} {\partial \beta} = ?$ :: The above does not apply. See [§ multivariable case](#multivariable%20case). [Counterexample](counterexample.md): $x + y + z = 0 \implies \frac {\partial x} {\partial y} = \frac {\partial y} {\partial z} = \frac {\partial z} {\partial x} = -1 \implies -1 = \frac {\partial x} {\partial y} \frac {\partial y} {\partial z} \frac {\partial z} {\partial x} \ne \frac {\partial x} {\partial x} = 1$ <!--SR:!2024-01-31,3,252-->
 
 ## references
 
