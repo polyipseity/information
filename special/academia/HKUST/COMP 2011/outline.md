@@ -9,6 +9,7 @@ aliases:
   - HKUST COMP2011
   - HKUST COMP2011 outline
 tags:
+  - flashcards/special/academia/HKUST/COMP_2011/outline
   - functional/outlines
   - languages/in/English
 ---

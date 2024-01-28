@@ -9,6 +9,7 @@ aliases:
   - PHYS1112
   - PHYS1112 outline
 tags:
+  - flashcards/special/academia/HKUST/PHYS_1112/outline
   - functional/outlines
   - languages/in/English
 ---
