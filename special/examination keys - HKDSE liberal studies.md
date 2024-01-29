@@ -331,7 +331,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2024-01-04T20:17:58.418327+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-04-06,204,255!2024-04-17,273,315-->
-- (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2024-01-29,192,290!2024-04-11,267,315-->
+- (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2025-08-09,558,290!2024-04-11,267,315-->
 - Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2024-09-28,308,255!2024-08-12,304,275-->
 - (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2024-08-09,301,270!2024-07-23,304,275-->
 - Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-03-30,90,275!2024-04-29,96,210-->

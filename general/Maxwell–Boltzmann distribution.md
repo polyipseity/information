@@ -31,7 +31,7 @@ tags:
 
 - {{average speed $\langle v \rangle$}}: {{$\langle v \rangle = \frac2{\sqrt\pi}v_p = \sqrt{\frac{8kT}{\pi{}m} } = \sqrt{\frac{8RT}{\pi{}M} } \left( \text{evaluate } \int_0^\infty v f(v) \,\mathrm{d}v \right)$}}
 - {{most probable speed $v_p$}}: {{$v_p = \sqrt{\frac{2kT}m} = \sqrt{\frac{2RT}M} \left( \text{solve for } v \text{ in } \frac{\mathrm{d}f(v)}{\mathrm{d}v} = 0 \right)$}}
-- {{root-mean-square speed $v_\mathrm{rms}$}}: {{$v_\mathrm{rms} = \sqrt{\frac32}v_p=\sqrt{\frac{3kT}m} = \sqrt{\frac{3RT}M} \left( \text{evaluate } \sqrt{\int_0^\infty v^2 f(v) \,\mathrm{d}v} \right)$}} <!--SR:!2024-05-22,119,290!2024-03-03,60,270!2024-02-02,43,290!2024-02-10,39,250!2024-02-29,63,310!2024-01-29,40,290-->
+- {{root-mean-square speed $v_\mathrm{rms}$}}: {{$v_\mathrm{rms} = \sqrt{\frac32}v_p=\sqrt{\frac{3kT}m} = \sqrt{\frac{3RT}M} \left( \text{evaluate } \sqrt{\int_0^\infty v^2 f(v) \,\mathrm{d}v} \right)$}} <!--SR:!2024-05-22,119,290!2024-03-03,60,270!2024-02-02,43,290!2024-02-10,39,250!2024-02-29,63,310!2024-02-16,18,270-->
 
 ## references
 
