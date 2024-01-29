@@ -174,7 +174,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2026-02-20,924,345-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
-- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-01-29,40,130-->
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-02-17,19,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2024-02-01,371,230!2024-03-01,238,227-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2024-05-09,145,190!2024-08-06,334,207-->
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2024-01-31,7,130-->
@@ -652,7 +652,7 @@ return (
 - carboxylic acid→:::←carboxylic acid derivative <!--SR:!2024-03-27,520,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 - nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->
-- aldehyde→:::←ketone <!--SR:!2024-01-29,423,252!2024-12-06,598,250-->
+- aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
 - ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-03-10,42,130-->
 - alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2024-06-08,197,244!2024-05-21,515,272-->

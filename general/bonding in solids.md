@@ -96,7 +96,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{typically high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{typically low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md)}} | {{typically high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{typically high ([graphite](graphite.md): low)}} | <!--SR:!2024-01-29,211,270!2024-02-20,253,330!2024-06-27,188,270!2025-08-03,600,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2025-01-29,441,250!2024-06-16,181,333!2024-06-01,169,333-->
+> | {{[strength](strength%20of%20materials.md)}} | {{typically high ([graphite](graphite.md): low)}} | <!--SR:!2025-08-20,569,270!2024-02-20,253,330!2024-06-27,188,270!2025-08-03,600,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2025-01-29,441,250!2024-06-16,181,333!2024-06-01,169,333-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -182,7 +182,7 @@ return await memorize_table(
 > | {{[malleability](malleability.md)}} | {{typically high}} |
 > | {{[melting point](melting%20point.md)}} | {{typically high ([mercury](mercury.md): low)}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low when pure}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-05-11,108,270!2024-02-22,256,330!2024-03-25,99,290!2024-04-21,301,330!2024-01-29,15,230!2024-04-20,300,330!2024-02-29,90,290!2024-03-06,267,330!2025-02-02,436,270!2024-06-07,341,330!2024-02-24,43,253!2025-02-24,397,373!2024-04-23,91,362!2024-02-21,41,322!2024-02-21,39,341!2024-04-13,81,362-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-05-11,108,270!2024-02-22,256,330!2024-03-25,99,290!2024-04-21,301,330!2024-02-05,7,210!2024-04-20,300,330!2024-02-29,90,290!2024-03-06,267,330!2025-02-02,436,270!2024-06-07,341,330!2024-02-24,43,253!2025-02-24,397,373!2024-04-23,91,362!2024-02-21,41,322!2024-02-21,39,341!2024-04-13,81,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
