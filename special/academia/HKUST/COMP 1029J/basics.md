@@ -153,7 +153,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators:
+Below are common arithmetic operators. Operators have higher precedence than or same precedence as operators below it in the list:
 
 %%
 
@@ -164,13 +164,13 @@ from itertools import chain as _chain
 e = __env__
 headers = "operator", "description"
 table = (
-  ("`+`", "addition",),
-  ("`-`", "subtraction",),
-  ("`*`", "multiplication",),
-  ("`/`", "division; if both operands are of integral types, then round-to-zero division",),
-  ("`%`", "remainder; the resulting sign is the same as the dividend, i.e. the number before the operator",),
   ("`++`", "increment a numerical variable by 1",),
   ("`--`", "decrement a numerical variable by 1",),
+  ("`*`", "multiplication",),
+  ("`/`", "division; if both operands are of integral types, then round-towards-zero division",),
+  ("`%`", "remainder; the resulting sign is the same as the dividend, i.e. the number before the operator",),
+  ("`+`", "addition",),
+  ("`-`", "subtraction",),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -187,48 +187,48 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-01-29T09:43:58.585505+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-01-30T13:35:46.604804+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
-> | `+` | addition |
-> | `-` | subtraction |
-> | `*` | multiplication |
-> | `/` | division; if both operands are of integral types, then round-to-zero division |
-> | `%` | remainder; the resulting sign is the same as the dividend, i.e. the number before the operator |
 > | `++` | increment a numerical variable by 1 |
 > | `--` | decrement a numerical variable by 1 |
+> | `*` | multiplication |
+> | `/` | division; if both operands are of integral types, then round-towards-zero division |
+> | `%` | remainder; the resulting sign is the same as the dividend, i.e. the number before the operator |
+> | `+` | addition |
+> | `-` | subtraction |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-29T08:48:00.329385+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.620801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`+`
-- `+`→:::←`-`
-- `-`→:::←`*`
+- _(begin)_→:::←`++`
+- `++`→:::←`--`
+- `--`→:::←`*`
 - `*`→:::←`/`
 - `/`→:::←`%`
-- `%`→:::←`++`
-- `++`→:::←`--`
-- `--`→:::←_(end)_
+- `%`→:::←`+`
+- `+`→:::←`-`
+- `-`→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-29T09:43:57.655354+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- `+`::addition
-- `-`::subtraction
-- `*`::multiplication
-- `/`::division; if both operands are of integral types, then round-to-zero division
-- `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator
 - `++`::increment a numerical variable by 1
 - `--`::decrement a numerical variable by 1
+- `*`::multiplication
+- `/`::division; if both operands are of integral types, then round-towards-zero division
+- `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator
+- `+`::addition
+- `-`::subtraction
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a `boolean` value}}:
+Below are common comparison operators, all of which returns {{a `boolean` value}}. Operators have higher precedence than or same precedence as operators below it in the list:
 
 %%
 
@@ -239,12 +239,12 @@ from itertools import chain as _chain
 e = __env__
 headers = "operator", "description"
 table = (
+  ("`<`", "lesser than",),
+  ("`>`", "greater than",),
+  ("`<=`", "lesser than or equal to",),
+  ("`>=`", "greater than or equal to",),
   ("`==`", "equal to",),
   ("`!=`", "not equal to",),
-  ("`>`", "greater than",),
-  ("`<`", "lesser than",),
-  ("`>=`", "greater than or equal to",),
-  ("`<=`", "lesser than or equal to",),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -261,39 +261,39 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd23"--><!-- The following content is generated at 2024-01-29T09:03:17.952034+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.668328+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
+> | `<` | lesser than |
+> | `>` | greater than |
+> | `<=` | lesser than or equal to |
+> | `>=` | greater than or equal to |
 > | `==` | equal to |
 > | `!=` | not equal to |
-> | `>` | greater than |
-> | `<` | lesser than |
-> | `>=` | greater than or equal to |
-> | `<=` | lesser than or equal to |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-29T09:03:17.885672+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`==`
+- _(begin)_→:::←`<`
+- `<`→:::←`>`
+- `>`→:::←`<=`
+- `<=`→:::←`>=`
+- `>=`→:::←`==`
 - `==`→:::←`!=`
-- `!=`→:::←`>`
-- `>`→:::←`<`
-- `<`→:::←`>=`
-- `>=`→:::←`<=`
-- `<=`→:::←_(end)_
+- `!=`→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-29T09:03:17.844640+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.690328+08:00. Any edits will be overridden! -->
 
+- `<`::lesser than
+- `>`::greater than
+- `<=`::lesser than or equal to
+- `>=`::greater than or equal to
 - `==`::equal to
 - `!=`::not equal to
-- `>`::greater than
-- `<`::lesser than
-- `>=`::greater than or equal to
-- `<=`::lesser than or equal to
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -303,7 +303,7 @@ Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Condit
 
 ### conditional operators
 
-Below are common conditional operators, all of which {{accept two booleans and return a boolean}}:
+Below are common conditional operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
 
 %%
 
@@ -314,9 +314,9 @@ from itertools import chain as _chain
 e = __env__
 headers = "operator", "description"
 table = (
+  ("`!`", "negate",),
   ("`&&`", "and",),
   ("`||`", "or",),
-  ("`!`", "negate",),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -333,29 +333,29 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-01-29T09:32:57.652827+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
+> | `!` | negate |
 > | `&&` | and |
 > | `\|\|` | or |
-> | `!` | negate |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-29T09:21:35.430345+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.738334+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`&&`
+- _(begin)_→:::←`!`
+- `!`→:::←`&&`
 - `&&`→:::←`||`
-- `||`→:::←`!`
-- `!`→:::←_(end)_
+- `||`→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-29T09:21:36.360650+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.752902+08:00. Any edits will be overridden! -->
 
+- `!`::negate
 - `&&`::and
 - `||`::or
-- `!`::negate
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
