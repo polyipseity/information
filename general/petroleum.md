@@ -111,7 +111,7 @@ return _chain.from_iterable(await _gather(
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)::-40 to -1 °C <!--SR:!2024-08-12,338,290-->
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
-- [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-01-30,7,190-->
+- [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-02-14,15,190-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-04-08,81,210-->
 - [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-02-03,9,170-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-01-31,2,150-->
@@ -145,7 +145,7 @@ return _chain.from_iterable(await _gather(
 - [gasoline/petrol](gasoline.md)::fuel for [motor vehicles](motor%20vehicle.md) <!--SR:!2024-09-05,386,314-->
 - [naphtha](naphtha.md)::production of [plastics](plastic.md) and [town gas](coal%20gas.md) <!--SR:!2024-06-09,228,234-->
 - [jet fuel](jet%20fuel.md)::fuel for [aeroplanes](airplane.md) <!--SR:!2024-07-16,340,294-->
-- [kerosene](kerosene.md)::fuel for domestic use <!--SR:!2024-01-30,217,294-->
+- [kerosene](kerosene.md)::fuel for domestic use <!--SR:!2025-10-28,637,294-->
 - [fuel oil](fuel%20oil.md)::fuel for [power plants](power%20station.md) and [ships](ship.md) <!--SR:!2024-03-15,224,274-->
 - [diesel fuel](diesel%20fuel.md)::fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2024-04-07,95,254-->
 - [paraffin wax](paraffin%20wax.md)::[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2025-02-25,522,314-->
