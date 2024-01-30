@@ -69,7 +69,7 @@ return await memorize_table(
 - _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 - affirming the consequent→:::←appeal to authority <!--SR:!2024-04-15,90,275!2024-04-23,278,315-->
 - appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-- appeal to tradition→:::←guilt by association <!--SR:!2024-01-30,23,170!2024-04-02,226,275-->
+- appeal to tradition→:::←guilt by association <!--SR:!2024-02-11,12,150!2024-04-02,226,275-->
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
@@ -442,7 +442,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-02-09,57,190!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-01-30,6,150!2024-08-18,268,230-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-02-07,8,150!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-07,44,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -523,7 +523,7 @@ return await memorize_seq(
 - _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-02-01,46,195!2024-04-08,264,315-->
 - Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2024-04-15,132,250!2024-11-25,349,250-->
 - Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2024-11-09,343,255!2024-01-31,110,195-->
-- Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2024-01-30,193,290!2024-11-12,346,255-->
+- Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2025-08-11,559,290!2024-11-12,346,255-->
 - Suggesting legislation without considering enforcement.→:::←_(end)_ <!--SR:!2024-04-03,259,315!2024-05-03,96,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

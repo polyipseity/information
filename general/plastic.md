@@ -139,7 +139,7 @@ return _chain.from_iterable(await _gather(
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2024-08-13,318,261-->
 - [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-02-11,26,130-->
 - [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2024-04-16,144,201-->
-- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2024-01-30,176,249-->
+- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2024-04-26,87,229-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
