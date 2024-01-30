@@ -11,7 +11,7 @@ tags:
 
 Recursion is all about {{reducing any problem to a simpler similar problem,  repeating this process until you get several base problems that are irreducible}}.
 
-Usually, we {{don't do recursion}} in Java. But if it is required, it is as simple as {{conditionally calling the method itself in a method and adding base cases to the method}}. For example, a recursive way to reverse a string:
+Usually, we {{do not use recursion}} in Java. But if it is required, it is as simple as {{conditionally calling the method itself in a method and adding base cases to the method}}. For example, a recursive way to reverse a string:
 
 ```Java
 public static String reverse(String input) {

@@ -76,7 +76,7 @@ void aMethod(String arg1, int arg2) {
 
 The return type indicates the {{type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}.
 
-The parameters indicates the {{type(s) of the method input(s)}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}.
+The parameter types indicates the {{type(s) of the method input(s)}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}.
 
 ### constructor
 
