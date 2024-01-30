@@ -19,3 +19,7 @@ public static String reverse(String input) {
   return reverse(input.substring(1)) + input.charAt(0); // call the method itself
 }
 ```
+
+## see also
+
+- [general/recursion](../../../../general/recursion%20(computer%20science).md)

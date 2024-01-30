@@ -81,6 +81,15 @@ Note that there is subtly with the `switch` statement. First, {{only constant va
 
 ## iteration
 
+A `for` statement consists of {{an initial statement, a condition, a loop statement, and a statement to execute}}:
+
+```Java
+for (initial_statement; condition; loop_statement)
+  statement
+```
+
+The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement following `for` is executed. Otherwise, the `for` statement finishes}}. Each time the statement following `for` has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}.
+
 One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here:
 
 ```Java
@@ -89,8 +98,6 @@ for (int ii = 1; ii < 11; ++ii) {
   System.out.println(ii);
 }
 ```
-
-The semantics of `for` is not discussed here.
 
 A `while` statement consists of {{a condition and a statement}}:
 
