@@ -291,7 +291,7 @@ Directly integrating the integral is very difficult and will result in a very lo
 
 > [!tip] tip
 >
-> - takeaway: {{The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.}} <!--SR:!2024-01-31,14,308-->
+> - takeaway: {{The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.}} <!--SR:!2024-03-13,42,308-->
 
 #### example 4: Green's theorem
 
