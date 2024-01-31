@@ -108,7 +108,7 @@ while (condition)
 
 The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}.
 
-One can also run the statement instead of the condition by using a `do...while` statement, which consists of {{a statement and a condition}}:
+One can also first run the statement instead of the condition by using a `do...while` statement, which consists of {{a statement and a condition}}:
 
 ```Java
 do
@@ -116,4 +116,4 @@ do
 while (condition);
 ```
 
-The semantics of `do...while` is {{that the statement is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. if the condition. If the condition is `false`, the `do...while` statement ends its execution}}.
+The semantics of `do...while` is {{that the statement is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}.
