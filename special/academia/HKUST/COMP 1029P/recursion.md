@@ -16,7 +16,7 @@ Usually, we {{do not use recursion}} in Python. But if it is required, it is as 
 ```Python
 def factorial(n):
   if n == 0: return 1 # base case
-  return n * factorial(n - 1) # call the method itself
+  return n * factorial(n - 1) # call the function itself
 ```
 
 ## see also
