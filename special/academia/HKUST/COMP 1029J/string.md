@@ -3,7 +3,7 @@ aliases:
   - Java string
   - Java strings
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/string
+  - flashcards/special/academia/HKUST/COMP_1029J/string
   - languages/in/English
 ---
 

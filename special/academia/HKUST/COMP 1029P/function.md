@@ -3,7 +3,7 @@ aliases:
   - Python function
   - Python functions
 tags:
-  - flashcards/special/academia/HKUST/COPM_1029P/function
+  - flashcards/special/academia/HKUST/COMP_1029P/function
   - languages/in/English
 ---
 

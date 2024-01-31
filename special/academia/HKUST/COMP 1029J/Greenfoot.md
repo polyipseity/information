@@ -2,7 +2,7 @@
 aliases:
   - Greenfoot
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/Greenfoot
+  - flashcards/special/academia/HKUST/COMP_1029J/Greenfoot
   - languages/in/English
 ---
 

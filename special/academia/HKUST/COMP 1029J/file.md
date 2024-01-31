@@ -3,7 +3,7 @@ aliases:
   - Java file
   - Java files
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/file
+  - flashcards/special/academia/HKUST/COMP_1029J/file
   - languages/in/English
 ---
 

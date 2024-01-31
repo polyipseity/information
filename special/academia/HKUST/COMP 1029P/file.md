@@ -3,7 +3,7 @@ aliases:
   - Python file
   - Python files
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029P/file
+  - flashcards/special/academia/HKUST/COMP_1029P/file
   - languages/in/English
 ---
 

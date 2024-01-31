@@ -3,7 +3,7 @@ aliases:
   - Python basic
   - Python basics
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029P/basics
+  - flashcards/special/academia/HKUST/COMP_1029P/basics
   - languages/in/English
 ---
 
