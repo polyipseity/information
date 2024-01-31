@@ -211,11 +211,12 @@ async def memorize_table(
     Result(
       location=locations[0],
       text=cloze_text(
-        TextCode.compile(rows_to_table(
+        TextCode.compile(escaper(rows_to_table(
           data,
-          names=map(escaper, headers),
-          values=lambda data: map(escaper, transformer(data)),
-        )),
+          names=headers,
+          values=lambda data: transformer(data),
+          escape=escape,
+        ))),
         states=states[0],
       ),
     ),
