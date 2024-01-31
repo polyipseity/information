@@ -233,7 +233,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-## variables
+## variable
 
 To assign a value or the result of an expression to a variable, use {{`=`}}:
 
