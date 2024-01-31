@@ -116,7 +116,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="577a"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←_n_ < 0 <!--SR:!2024-02-17,48,290!2024-03-12,66,310-->
-- _n_ < 0→:::←_n_ = 0 <!--SR:!2024-02-24,52,310!2024-01-31,34,290-->
+- _n_ < 0→:::←_n_ = 0 <!--SR:!2024-02-24,52,310!2024-06-15,136,310-->
 - _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-03-07,62,310!2024-03-16,70,310-->
 - 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-03-01,58,310!2024-02-15,46,290-->
 - _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-03-04,60,310!2024-02-22,51,310-->
@@ -129,7 +129,7 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5599"--><!-- The following content is generated at 2024-01-04T20:17:52.438922+08:00. Any edits will be overridden! -->
 
-- _n_ < 0::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too <!--SR:!2024-01-31,32,270-->
+- _n_ < 0::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too <!--SR:!2024-04-25,85,270-->
 - _n_ = 0::$p = C$; equivalent to [isobaric process](isobaric%20process.md) <!--SR:!2024-02-24,53,310-->
 - 0 < _n_ < 1::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2024-02-03,32,270-->
 - _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md) <!--SR:!2024-03-07,62,310-->

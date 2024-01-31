@@ -269,7 +269,7 @@ return chain.from_iterable(await gather(
 - hydrogen ion:::H<sup>+</sup> <!--SR:!2025-05-22,945,332!2025-07-11,927,339-->
 - sodium ion:::Na<sup>+</sup> <!--SR:!2027-03-03,1486,370!2027-09-21,1649,373-->
 - potassium ion:::K<sup>+</sup> <!--SR:!2027-10-09,1647,359!2028-03-04,1780,373-->
-- copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2024-01-31,376,310-->
+- copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2028-06-30,1612,330-->
 - silver ion:::Ag<sup>+</sup> <!--SR:!2026-05-27,1086,290!2025-06-25,897,336-->
 - mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
 - ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2027-01-08,1335,313-->
@@ -345,7 +345,7 @@ return chain.from_iterable(await gather(
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
-- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-01-31,28,130-->
+- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-02-13,13,130-->
 - zinc ion::colorless <!--SR:!2024-02-23,535,314-->
 - manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion::_(n/a)_ <!--SR:!2024-06-27,366,256-->
@@ -366,7 +366,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
 - <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-02-03,64,201-->
-- <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2024-01-31,197,281-->
+- <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2025-03-30,513,321-->
 - <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2024-06-15,253,261-->
 - <span style="color: yellow; background-color: black;">yellow</span> (dilute)::iron(III) ion <!--SR:!2024-06-17,328,361-->

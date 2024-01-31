@@ -102,7 +102,7 @@ return await memorize_map(
 - [iron](iron.md)(III)::orange-brown <!--SR:!2024-02-09,53,230-->
 - [magnesium](magnesium.md)::intense white <!--SR:!2024-08-06,196,270-->
 - [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-04-11,79,190-->
-- [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-01-31,98,190-->
+- [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-08-03,185,190-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -216,7 +216,7 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ef82"--><!-- The following content is generated at 2024-01-04T20:17:51.757639+08:00. Any edits will be overridden! -->
 
-- [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2024-01-31,23,230-->
+- [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2024-03-23,52,230-->
 - [Kelvin](Kelvin.md)::from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R <!--SR:!2024-02-27,53,310-->
 - [Fahrenheit](Fahrenheit.md)::from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R <!--SR:!2024-02-06,14,250-->
 
