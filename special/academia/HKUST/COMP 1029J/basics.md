@@ -3,7 +3,7 @@ aliases:
   - Java basic
   - Java basics
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/basics
+  - flashcards/special/academia/HKUST/COMP_1029J/basics
   - languages/in/English
 ---
 

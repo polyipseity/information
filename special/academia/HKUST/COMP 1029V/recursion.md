@@ -3,7 +3,7 @@ aliases:
   - VBA recursion
   - VBA recursions
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029V/recursion
+  - flashcards/special/academia/HKUST/COMP_1029V/recursion
   - languages/in/English
 ---
 

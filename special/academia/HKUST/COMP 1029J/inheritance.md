@@ -3,7 +3,7 @@ aliases:
   - Java inheritance
   - Java inheritances
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/inheritance
+  - flashcards/special/academia/HKUST/COMP_1029J/inheritance
   - languages/in/English
 ---
 
