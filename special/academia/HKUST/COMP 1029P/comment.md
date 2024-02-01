@@ -13,14 +13,14 @@ tags:
 
 ## comment
 
-In Python, comments start {{with `#` and ends at the end of the line}}: <!--SR:!2024-02-04,4,270-->
+In Python, comments start {{with `#` and end at end of line}}: <!--SR:!2024-02-04,4,270-->
 
 ```Python
 a = 1 # assign 1 to `a`
 a += 1 # increment `a` by 1
 ```
 
-If you want multiline comments, there you can use {{multiline strings to emulate it}}: <!--SR:!2024-02-04,4,270-->
+If you want multiline comments, you can use {{multiline strings to emulate it}}: <!--SR:!2024-02-04,4,270-->
 
 ```Python
 a = 1

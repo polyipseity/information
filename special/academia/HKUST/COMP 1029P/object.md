@@ -3,7 +3,7 @@ aliases:
   - Python object
   - Python objects
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029P/object
+  - flashcards/special/academia/HKUST/COMP_1029P/object
   - languages/in/English
 ---
 
@@ -13,7 +13,7 @@ A Python class is never complete without teaching objects! (Sounds oddly familia
 
 ## class
 
-To create a object, one needs to first create a class. A class consists of {{a name, attributes, and methods}}: <!--SR:!2024-02-04,4,270-->
+To create an object, one needs to first create a class. A class consists of {{a name, attributes, and methods}}: <!--SR:!2024-02-04,4,270-->
 
 ```Python
 class Name:
@@ -25,7 +25,7 @@ class Name:
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-Then to create a object, one uses {{the name of the class}}: <!--SR:!2024-02-04,4,270-->
+Then to create an object, one uses {{the name of the class}}: <!--SR:!2024-02-04,4,270-->
 
 ```Python
 name_object = Name(42)
@@ -57,7 +57,7 @@ It is possible to have {{no parameters}}. Each parameter is {{separated by a com
 
 ### constructor
 
-A constructor is {{a special method that is called when you create a object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statements}}: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statements}}: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ```Python
 def __init__(parameter_names):

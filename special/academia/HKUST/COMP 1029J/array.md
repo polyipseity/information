@@ -3,7 +3,7 @@ aliases:
   - Java array
   - Java arrays
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/array
+  - flashcards/special/academia/HKUST/COMP_1029J/array
   - languages/in/English
 ---
 
@@ -33,7 +33,7 @@ aStringArray[3] = "!";
 
 To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-02-04,4,270-->
 
-If the index does not refer to values inside the array, like {{the index being negative or larger than the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ## multi-dimensional array
 

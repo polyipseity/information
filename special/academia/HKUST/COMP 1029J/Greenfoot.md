@@ -2,7 +2,7 @@
 aliases:
   - Greenfoot
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029J/Greenfoot
+  - flashcards/special/academia/HKUST/COMP_1029J/Greenfoot
   - languages/in/English
 ---
 
@@ -24,11 +24,11 @@ See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html>.
 
 - `Actor` :: `Actor()`: Remember to add to the world using `World#addObject`. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#%3Cinit%3E()>. <!--SR:!2024-02-04,4,270-->
 - `getObjectsInRange` :: `<A> List<A> getObjectsInRange(int radius, Class<A> cls)`: `radius` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getObjectsInRange(int,java.lang.Class)>. <!--SR:!2024-02-04,4,270-->
-- `getRotation` :: `int getRotation()`: [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>. <!--SR:!2024-02-04,4,270-->
+- `getRotation` :: `int getRotation()`: [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>. <!--SR:!2024-02-04,4,270-->
 - `getX` :: `int getX()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getX()>. <!--SR:!2024-02-04,4,270-->
 - `getY` :: `int getY()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getY()>. <!--SR:!2024-02-04,4,270-->
 - `move` :: `void move(int distance)`: `distance` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#move(int)>. <!--SR:!2024-02-04,4,270-->
-- `setRotation` :: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>. <!--SR:!2024-02-04,4,270-->
+- `setRotation` :: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>. <!--SR:!2024-02-04,4,270-->
 - `turn` :: `void turn(int amount)`: `amount` in degree. Positive is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#turn(int)>. <!--SR:!2024-02-04,4,270-->
 
 ### `Greenfoot`
