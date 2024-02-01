@@ -13,7 +13,7 @@ A VBA class ~~is never~~ could be complete without teaching objects... But we wi
 
 ## class
 
-To create a object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}:
+To create an object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}:
 
 ```VB
 Public HaHa As String
@@ -29,7 +29,7 @@ Sub NoHeHe()
 End Sub
 ```
 
-Then to create a object, one uses {{`New`. Also call the method that is intended to be the constructor if any, commonly `Initialize`}}:
+Then to create an object, one uses {{`New`. Also call the method that is intended to be the constructor if any, commonly called `Initialize`}}:
 
 ```VB
 Dim HaHaObject As HaHaClass

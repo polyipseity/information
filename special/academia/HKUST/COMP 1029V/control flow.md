@@ -11,7 +11,7 @@ tags:
 
 ## branching
 
-An `If...Then...End If` statement consists of {{a condition and statements}}:
+An `If...Then...End If` statement consists of {{a condition and a statement block}}:
 
 ```VB
 If condition Then
@@ -19,7 +19,7 @@ If condition Then
 End If
 ```
 
-The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the following statements are executed. Otherwise, they are not executed. Note that the condition itself is always executed.}}
+The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}}
 
 An `If...Then...Else...End If` statement consists of {{a condition and two statement blocks}}:
 
@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed. Note that the conditions up until the first `True` condition (inclusive) are themselves always executed in the order of appearance. If there are no `True` conditions, all conditions are always executed in the order of appearance.}}
+The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the order of appearance. If there are no `True` conditions, all conditions are always executed in the order of appearance.}}
 
 ## iteration
 
@@ -63,7 +63,7 @@ While
 Wend
 ```
 
-The semantics of `While...Wend` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}}.
+The semantics of `While...Wend` is {{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}}.
 
 ### `Do`
 

@@ -115,8 +115,8 @@ There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbIn
 
 ## input
 
-To accept user input, we can use {{a input box by calling `Input = InputBox(prompt[, title][, default])`}}. `prompt` refers to {{the message, `title`, by default `Microsoft Excel`, is the title, and `default`, by default empty, is the initial value in the input box. The user input is assigned to the variable `Input`}}. Similar to [output](#output), you can skip optional arguments by {{leaving it blank}}.
+To accept user input, we can use {{an input box by calling `Input = InputBox(prompt[, title][, default])`}}. `prompt` refers to {{the message, `title`, by default `Microsoft Excel`, is the title, and `default`, by default empty, is the initial value in the input box. The user input is assigned to the variable `Input`}}. Similar to [output](#output), you can skip optional arguments by {{leaving it blank}}.
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never need parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}.
+When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}.

@@ -52,9 +52,9 @@ if (condition1) {
 }
 ```
 
-The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed. Note that the conditions up until the first `true` condition (inclusive) are themselves always executed in the order of appearance. If there are no `true` conditions, all conditions are always executed in the order of appearance.}}
+The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the order of appearance. If there are no `true` conditions, all conditions are always executed in the order of appearance.}}
 
-Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equal to constant values}}:
+Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equals some constant values}}:
 
 ```Java
 switch (string) {
@@ -77,7 +77,7 @@ if ("abc".equals(string)) {
 }
 ```
 
-Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `switch`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}.
+Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}.
 
 ## iteration
 

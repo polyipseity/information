@@ -24,11 +24,11 @@ See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html>.
 
 - `Actor` :: `Actor()`: Remember to add to the world using `World#addObject`. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#%3Cinit%3E()>.
 - `getObjectsInRange` :: `<A> List<A> getObjectsInRange(int radius, Class<A> cls)`: `radius` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getObjectsInRange(int,java.lang.Class)>.
-- `getRotation` :: `int getRotation()`: [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>.
+- `getRotation` :: `int getRotation()`: [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>.
 - `getX` :: `int getX()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getX()>.
 - `getY` :: `int getY()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getY()>.
 - `move` :: `void move(int distance)`: `distance` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#move(int)>.
-- `setRotation` :: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>.
+- `setRotation` :: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>.
 - `turn` :: `void turn(int amount)`: `amount` in degree. Positive is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#turn(int)>.
 
 ### `Greenfoot`
