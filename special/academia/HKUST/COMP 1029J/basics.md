@@ -33,7 +33,7 @@ To assign a value or the result of an expression to a variable, use {{`=`}}:
 variableName = 1 + 2;
 ```
 
-One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Optionally, {{one can declare a variable and assign to it}} simultaneously:
+One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Alternatively, {{one can declare a variable and assign to it}} simultaneously:
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers
@@ -59,8 +59,8 @@ table = (
   ("`String`", "A piece of text. Example: `\"Hello\"`",),
   ("`boolean`", "Either true or false. Example: `true`, `false`",),
   ("`char`", "A single character. Example: `'a'`, `'3'`, `' '`",),
-  ("`double`", "A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `3.14`, `6.29d`, `3.12D`, `5.`",),
-  ("`float`", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `3.14f`, `9.20F`, `1.f`",),
+  ("`double`", "A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14`",),
+  ("`float`", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F`",),
   ("`int`", "An integer. Example: `42`",),
 )
 return _chain.from_iterable(await _gather(
@@ -78,15 +78,15 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2f02"--><!-- The following content is generated at 2024-01-29T08:31:35.212812+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2f02"--><!-- The following content is generated at 2024-02-01T11:50:25.897878+08:00. Any edits will be overridden! -->
 
 > | type | description |
 > |-|-|
 > | `String` | A piece of text. Example: `"Hello"` |
 > | `boolean` | Either true or false. Example: `true`, `false` |
 > | `char` | A single character. Example: `'a'`, `'3'`, `' '` |
-> | `double` | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `3.14`, `6.29d`, `3.12D`, `5.` |
-> | `float` | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `3.14f`, `9.20F`, `1.f` |
+> | `double` | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` |
+> | `float` | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` |
 > | `int` | An integer. Example: `42` |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -103,13 +103,13 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-01-29T08:24:20.610949+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-02-01T11:50:25.871864+08:00. Any edits will be overridden! -->
 
 - `String`::A piece of text. Example: `"Hello"`
 - `boolean`::Either true or false. Example: `true`, `false`
 - `char`::A single character. Example: `'a'`, `'3'`, `' '`
-- `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `3.14`, `6.29d`, `3.12D`, `5.`
-- `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `3.14f`, `9.20F`, `1.f`
+- `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14`
+- `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F`
 - `int`::An integer. Example: `42`
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -300,11 +300,11 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}.
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Conditional operators](#conditional%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}.
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}.
 
-### conditional operators
+### logic operators
 
-Below are common conditional operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
 
 %%
 

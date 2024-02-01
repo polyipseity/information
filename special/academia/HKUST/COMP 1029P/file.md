@@ -11,7 +11,7 @@ tags:
 
 ## opening and closing
 
-To open a file, use {{`open(path, "r")` or `open(path)`}}. By default, it is in reading mode. To open the file in writing mode, use {{`open(path, "w")`}}.
+To open a file in reading mode, use {{`open(path, "r")` or `open(path)`}}. To open the file in writing mode, use {{`open(path, "w")`}}.
 
 Always remember to {{close the file by calling `file.close()`}}. This is to ensure {{the file is unlocked or saved properly}}. A better method is using {{`with`}}, but it will not be mentioned here.
 
