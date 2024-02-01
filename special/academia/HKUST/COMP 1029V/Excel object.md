@@ -17,13 +17,13 @@ The `Range` object can refer to {{a cell or a range}}. We can pass {{a cell refe
 
 ### `Cells`
 
-The `Cells` object can refer to {{a cell}}. We pass {{the row and the column in order: `Cells(row, column)`, such as `Cells(2, 1)`}}. By default, the worksheet the range is on is {{the currently active worksheet}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270-->
+The `Cells` object can refer to {{a cell}}. We pass {{the row and the column in order: `Cells(row, column)`, such as `Cells(2, 1)`}}. By default, the worksheet the cell is on is {{the currently active worksheet}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270-->
 
 ### `Worksheets`
 
 The `Worksheets` object can refer to {{a worksheet}}. We get a worksheet {{by name: `Worksheets(name)`, such as `Worksheets("Sheet1")`}}. We can also access `Range` and `Cells` in a specific worksheet by accessing them under the `Worksheets` object, like {{`Worksheets("Sheet1").Range("A1")`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270-->
 
-One can make a worksheet active using the {{`Activate` method, like `Worksheets("My Potential").Activate`}}. <!--SR:!2024-02-04,4,270-->
+One can make a worksheet active using {{the `Activate` method, like `Worksheets("My Potential").Activate`}}. <!--SR:!2024-02-04,4,270-->
 
 ## selection
 

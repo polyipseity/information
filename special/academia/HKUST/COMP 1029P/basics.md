@@ -3,7 +3,7 @@ aliases:
   - Python basic
   - Python basics
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029P/basics
+  - flashcards/special/academia/HKUST/COMP_1029P/basics
   - languages/in/English
 ---
 
@@ -172,11 +172,11 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-02-04,4,270-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Conditional operators](#conditional%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-02-04,4,270-->
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-02-04,4,270-->
 
-### conditional operators
+### logic operators
 
-Below are common conditional operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-04,4,270-->
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-04,4,270-->
 
 %%
 

@@ -3,7 +3,7 @@ aliases:
   - Python file
   - Python files
 tags:
-  - flashcards/special/academic/HKUST/COMP_1029P/file
+  - flashcards/special/academia/HKUST/COMP_1029P/file
   - languages/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ## opening and closing
 
-To open a file, use {{`open(path, "r")` or `open(path)`}}. By default, it is in reading mode. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+To open a file in reading mode, use {{`open(path, "r")` or `open(path)`}}. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 Always remember to {{close the file by calling `file.close()`}}. This is to ensure {{the file is unlocked or saved properly}}. A better method is using {{`with`}}, but it will not be mentioned here. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270-->
 

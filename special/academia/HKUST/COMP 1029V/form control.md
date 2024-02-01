@@ -3,7 +3,7 @@ aliases:
   - Excel form control
   - Excel form controls
 tags:
-  - flashcards/special/academia/HKSUT/COMP_1029V/form_control
+  - flashcards/special/academia/HKUST/COMP_1029V/form_control
   - languages/in/English
 ---
 

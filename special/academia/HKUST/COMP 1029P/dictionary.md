@@ -3,7 +3,7 @@ aliases:
   - Python dictionaries
   - Python dictionary
 tags:
-  - flashcards/special/academia/HKUST/COPM_1029P/dictionary
+  - flashcards/special/academia/HKUST/COMP_1029P/dictionary
   - languages/in/English
 ---
 

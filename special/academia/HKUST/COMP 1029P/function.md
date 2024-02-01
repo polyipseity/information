@@ -3,13 +3,13 @@ aliases:
   - Python function
   - Python functions
 tags:
-  - flashcards/special/academia/HKUST/COPM_1029P/function
+  - flashcards/special/academia/HKUST/COMP_1029P/function
   - languages/in/English
 ---
 
 # Python function
 
-A function {{receives zero or more inputs and returns nothing or a output}}. A Python consists of {{a name, arguments, and statements}}: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+A function {{receives zero or more inputs and returns nothing or a output}}. A Python function consists of {{a name, arguments, and statements}}: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ```Python
 def name(arguments):
