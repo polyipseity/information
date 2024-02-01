@@ -12,7 +12,7 @@ Visual Basic for Applications (VBA) is a programming language {{based on Visual 
 
 ## running
 
-To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{macros or events}}. For example, the event when the Excel file opens is {{`Workbook_Open`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{macros or events}}. For example, the event when the Excel file opens is {{`Workbook_Open`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-05,4,279-->
 
 ## editing
 
