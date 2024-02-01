@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the order of appearance. If there are no `True` conditions, all conditions are always executed in the order of appearance.}} <!--SR:!2024-02-04,4,270-->
+The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the order of appearance. If there are no `True` conditions, all conditions are always executed in the order of appearance.}} <!--SR:!2024-02-04,4,270!2024-02-05,4,289-->
 
 ## iteration
 
