@@ -31,7 +31,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 
 Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2024-03-01,176,212-->
 
-Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2024-02-01,191,252-->
+Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2025-05-26,480,252-->
 
 ## advantages and disadvantages
 

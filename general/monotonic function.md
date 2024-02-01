@@ -31,4 +31,4 @@ tags:
 >   3. weakly monotone/weakly monotonic/weakly increasing/weakly decreasing: {{(1) but not (2)}}
 >   4. increasing/decreasing: {{either (1) or (2) (confusing; bad terminology)}}
 >   5. non-increasing/non-decreasing: {{monotonically decreasing/monotonically increasing ([double negative](double%20negative.md); the worst terminology ever)}}
->   6. not increasing/not decreasing: {{not (4) (simply adds to the worst terminology ever)}} <!--SR:!2024-02-01,4,270!2024-02-01,4,270!2024-02-01,4,270!2024-02-01,4,270!2024-02-01,4,270!2024-02-01,4,270-->
+>   6. not increasing/not decreasing: {{not (4) (simply adds to the worst terminology ever)}} <!--SR:!2024-02-18,17,290!2024-02-14,13,290!2024-02-17,16,290!2024-02-15,14,290!2024-02-17,16,290!2024-02-16,15,290-->
