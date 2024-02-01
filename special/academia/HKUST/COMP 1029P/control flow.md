@@ -42,7 +42,7 @@ else:
   ...
 ```
 
-The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the order of appearance. If there are no `true` conditions, all conditions are always executed in the order of appearance.}}
+The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement execution. If there are no `true` conditions, all conditions are always executed in the appearance order, alternated with statement execution.}}
 
 Python has no {{`switch` statements}}.
 
