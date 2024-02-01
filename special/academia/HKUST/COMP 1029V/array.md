@@ -11,25 +11,25 @@ tags:
 
 ## declaration
 
-Arrays are declared like {{[variables](basics.md#variable) but with a piece of extra syntax: the indices of the array}}. The syntax is {{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}}. You can omit {{the `start_index To`, in which case the `start_index` depends on the option `Base`}}. By default, the option `Base` {{is `0`, but you can change it by running `Option Base value` first}}.
+Arrays are declared like {{[variables](basics.md#variable) but with a piece of extra syntax: the indices of the array}}. The syntax is {{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}}. You can omit {{the `start_index To`, in which case the `start_index` depends on the option `Base`}}. By default, the option `Base` {{is `0`, but you can change it by running `Option Base value` first}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-03,3,250!2024-02-04,4,270-->
 
 ## indexing
 
-To index into an array, write {{`Array(Index)`}}. Assignment uses the same syntax.
+To index into an array, write {{`Array(Index)`}}. Assignment uses the same syntax. <!--SR:!2024-02-04,4,270-->
 
 ## multidimensional
 
-To make a multidimensional array, {{specify each dimension using `start_index To end_index` or `end_index` separated by commas `,` and use `Variant` as the `ElementType`, like `Dim VariableName(start_index1 To end_index1, end_index2, start_index3 To end_index3) As Variant`}}. Indexing a multidimensional array is simply {{adding commas in between the multiple indices, like `Array(Index1, Index2, Index3)`}}.
+To make a multidimensional array, {{specify each dimension using `start_index To end_index` or `end_index` separated by commas `,` and use `Variant` as the `ElementType`, like `Dim VariableName(start_index1 To end_index1, end_index2, start_index3 To end_index3) As Variant`}}. Indexing a multidimensional array is simply {{adding commas in between the multiple indices, like `Array(Index1, Index2, Index3)`}}. <!--SR:!2024-02-03,3,250!2024-02-04,4,270-->
 
-For two-dimensional arrays, one can initialize the content by {{separating elements in the same row by commas `,`, separating rows by `;`, and enclose the entire thing in `[{...}]`, like `2DArray = [{1, 2, 3; 4, 5, 6; 7, 8, 9}]`}}.
+For two-dimensional arrays, one can initialize the content by {{separating elements in the same row by commas `,`, separating rows by `;`, and enclose the entire thing in `[{...}]`, like `2DArray = [{1, 2, 3; 4, 5, 6; 7, 8, 9}]`}}. <!--SR:!2024-02-04,4,270-->
 
 ## bounds
 
-One can obtain the lower bound and upper bound, both inclusive, via {{`LBound(array[, rank])` and `UBound(array[, rank])` respectively}}. The `rank` means {{the bound for which inner array to return. It is by default `1`, meaning it returns the bounds for the outermost array}}.
+One can obtain the lower bound and upper bound, both inclusive, via {{`LBound(array[, rank])` and `UBound(array[, rank])` respectively}}. The `rank` means {{the bound for which inner array to return. It is by default `1`, meaning it returns the bounds for the outermost array}}. <!--SR:!2024-02-04,4,270!2024-02-03,3,250-->
 
 ## interaction with range
 
-Assigning `Range` values from an array {{can be done using a simple assignment}}:
+Assigning `Range` values from an array {{can be done using a simple assignment}}: <!--SR:!2024-02-04,4,270-->
 
 ```VB
 Dim NumberArray(0 To 2) As Integer

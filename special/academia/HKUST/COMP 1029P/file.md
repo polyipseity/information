@@ -11,16 +11,16 @@ tags:
 
 ## opening and closing
 
-To open a file, use {{`open(path, "r")` or `open(path)`}}. By default, it is in reading mode. To open the file in writing mode, use {{`open(path, "w")`}}.
+To open a file, use {{`open(path, "r")` or `open(path)`}}. By default, it is in reading mode. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
-Always remember to {{close the file by calling `file.close()`}}. This is to ensure {{the file is unlocked or saved properly}}. A better method is using {{`with`}}, but it will not be mentioned here.
+Always remember to {{close the file by calling `file.close()`}}. This is to ensure {{the file is unlocked or saved properly}}. A better method is using {{`with`}}, but it will not be mentioned here. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270-->
 
-Note that opening a nonexistent file {{will throw a `FileNotFoundError`. Furthermore, there are other possible errors that will throw an `IOError` or a subclass of it}}. So it is generally good to {{catch errors}} when opening files.
+Note that opening a nonexistent file {{will throw a `FileNotFoundError`. Furthermore, there are other possible errors that will throw an `IOError` or a subclass of it}}. So it is generally good to {{catch errors}} when opening files. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ## reading
 
-We can read the entire file into a string by {{calling `file.read()`}}. Alternatively, we can read the entire file into a list of lines by {{calling `file.readlines()`}}.
+We can read the entire file into a string by {{calling `file.read()`}}. Alternatively, we can read the entire file into a list of lines by {{calling `file.readlines()`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ## writing
 
-We can write string into a file by {{calling `file.write()`}}. Calling it multiple times {{concatenates the strings}}.
+We can write string into a file by {{calling `file.write()`}}. Calling it multiple times {{concatenates the strings}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->

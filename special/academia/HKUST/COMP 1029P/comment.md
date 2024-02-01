@@ -13,14 +13,14 @@ tags:
 
 ## comment
 
-In Python, comments start {{with `#` and ends at the end of the line}}:
+In Python, comments start {{with `#` and ends at the end of the line}}: <!--SR:!2024-02-04,4,270-->
 
 ```Python
 a = 1 # assign 1 to `a`
 a += 1 # increment `a` by 1
 ```
 
-If you want multiline comments, there you can use {{multiline strings to emulate it}}:
+If you want multiline comments, there you can use {{multiline strings to emulate it}}: <!--SR:!2024-02-04,4,270-->
 
 ```Python
 a = 1
@@ -33,7 +33,7 @@ a += 1
 
 ## docstring
 
-Docstrings {{are documentations for classes and functions}}. To add a docstring, {{add a multiline comment right below the start of the class or function}}:
+Docstrings {{are documentations for classes and functions}}. To add a docstring, {{add a multiline comment right below the start of the class or function}}: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ```Python
 class A:
