@@ -173,7 +173,7 @@ A combination of zero or more of the following in any order:
 
 ### width
 
-An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2024-05-01,180,317!2024-03-28,146,309!2024-02-01,39,269-->
+An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2024-05-01,180,317!2024-03-28,146,309!2024-05-17,106,269-->
 
 ### precision
 

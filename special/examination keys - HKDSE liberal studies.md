@@ -520,7 +520,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2024-01-04T20:18:00.828927+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-02-01,46,195!2024-04-08,264,315-->
+- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-02-23,22,175!2024-04-08,264,315-->
 - Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2024-04-15,132,250!2024-11-25,349,250-->
 - Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2024-11-09,343,255!2024-03-24,53,175-->
 - Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2025-08-11,559,290!2024-11-12,346,255-->
