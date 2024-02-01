@@ -10,7 +10,7 @@ tags:
 
 ## installation
 
-Follow the instructions on {{<https://greenfoot.org/>}}.
+Follow the instructions on {{<https://greenfoot.org/>}}. <!--SR:!2024-02-04,4,270-->
 
 ## usage
 
@@ -22,31 +22,31 @@ Explore the user interface yourself.
 
 See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html>.
 
-- `Actor` :: `Actor()`: Remember to add to the world using `World#addObject`. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#%3Cinit%3E()>.
-- `getObjectsInRange` :: `<A> List<A> getObjectsInRange(int radius, Class<A> cls)`: `radius` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getObjectsInRange(int,java.lang.Class)>.
-- `getRotation` :: `int getRotation()`: [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>.
-- `getX` :: `int getX()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getX()>.
-- `getY` :: `int getY()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getY()>.
-- `move` :: `void move(int distance)`: `distance` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#move(int)>.
-- `setRotation` :: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>.
-- `turn` :: `void turn(int amount)`: `amount` in degree. Positive is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#turn(int)>.
+- `Actor` :: `Actor()`: Remember to add to the world using `World#addObject`. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#%3Cinit%3E()>. <!--SR:!2024-02-04,4,270-->
+- `getObjectsInRange` :: `<A> List<A> getObjectsInRange(int radius, Class<A> cls)`: `radius` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getObjectsInRange(int,java.lang.Class)>. <!--SR:!2024-02-04,4,270-->
+- `getRotation` :: `int getRotation()`: [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>. <!--SR:!2024-02-04,4,270-->
+- `getX` :: `int getX()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getX()>. <!--SR:!2024-02-04,4,270-->
+- `getY` :: `int getY()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getY()>. <!--SR:!2024-02-04,4,270-->
+- `move` :: `void move(int distance)`: `distance` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#move(int)>. <!--SR:!2024-02-04,4,270-->
+- `setRotation` :: `void setRotation(int rotation)`: `rotation` is in [0, 359]. 0 is east. Clockwise increase. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#setRotation(int)>. <!--SR:!2024-02-04,4,270-->
+- `turn` :: `void turn(int amount)`: `amount` in degree. Positive is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#turn(int)>. <!--SR:!2024-02-04,4,270-->
 
 ### `Greenfoot`
 
 See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html>.
 
-- `getRandomNumber` :: `static int getRandomNumber(int limit)`: [0, limit). See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#getRandomNumber(int)>.
-- `isKeyDown` :: `static boolean isKeyDown(String keyName)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#isKeyDown(java.lang.String)>.
+- `getRandomNumber` :: `static int getRandomNumber(int limit)`: [0, limit). See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#getRandomNumber(int)>. <!--SR:!2024-02-04,4,270-->
+- `isKeyDown` :: `static boolean isKeyDown(String keyName)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#isKeyDown(java.lang.String)>. <!--SR:!2024-02-04,4,270-->
 
 ### `World`
 
 See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html>.
 
-- `World` :: `World(int worldWidth, int worldHeight, int cellSize[, boolean unbounded = false])`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#%3Cinit%3E(int,int,int,boolean)>.
-- `addObject` :: `void addObject(Actor object, int x, int y)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#addObject(greenfoot.Actor,int,int)>.
-- `getHeight` :: `int getHeight()`: In cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getHeight()>.
-- `getObjects` :: `<A> List<A> getObjects(Class<A> cls)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getObjects(java.lang.Class)>.
-- `getWidth` :: `int getWidth()`: In cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getWidth()>.
+- `World` :: `World(int worldWidth, int worldHeight, int cellSize[, boolean unbounded = false])`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#%3Cinit%3E(int,int,int,boolean)>. <!--SR:!2024-02-04,4,270-->
+- `addObject` :: `void addObject(Actor object, int x, int y)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#addObject(greenfoot.Actor,int,int)>. <!--SR:!2024-02-04,4,270-->
+- `getHeight` :: `int getHeight()`: In cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getHeight()>. <!--SR:!2024-02-04,4,270-->
+- `getObjects` :: `<A> List<A> getObjects(Class<A> cls)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getObjects(java.lang.Class)>. <!--SR:!2024-02-04,4,270-->
+- `getWidth` :: `int getWidth()`: In cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/World.html#getWidth()>. <!--SR:!2024-02-04,4,270-->
 
 ## see also
 

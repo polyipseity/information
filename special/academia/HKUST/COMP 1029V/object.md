@@ -13,7 +13,7 @@ A VBA class ~~is never~~ could be complete without teaching objects... But we wi
 
 ## class
 
-To create a object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}:
+To create a object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ```VB
 Public HaHa As String
@@ -29,7 +29,7 @@ Sub NoHeHe()
 End Sub
 ```
 
-Then to create a object, one uses {{`New`. Also call the method that is intended to be the constructor if any, commonly `Initialize`}}:
+Then to create a object, one uses {{`New`. Also call the method that is intended to be the constructor if any, commonly `Initialize`}}: <!--SR:!2024-02-04,4,270-->
 
 ```VB
 Dim HaHaObject As HaHaClass
@@ -37,19 +37,19 @@ Set HaHaObject = New HaHaObject
 HaHaObject.Initialize "omg", 123 ' constructor is not part of the language natively
 ```
 
-The above object stored under `HaHaObject` is also called {{an _instance_ of the class `HaHaClass`}}.
+The above object stored under `HaHaObject` is also called {{an _instance_ of the class `HaHaClass`}}. <!--SR:!2024-02-04,4,270-->
 
 ## attribute
 
-An attribute is declared like a {{[variable](basics.md#variable)}}.
+An attribute is declared like a {{[variable](basics.md#variable)}}. <!--SR:!2024-02-04,4,270-->
 
 ## method
 
-A method is declared like a {{[subroutine or function](subroutine%20and%20function.md)}}.
+A method is declared like a {{[subroutine or function](subroutine%20and%20function.md)}}. <!--SR:!2024-02-04,4,270-->
 
 ### constructor
 
-VBA {{does not support constructors natively}}. However, we can emulate it by {{adding a subroutine that acts like a constructor and hopes the user remembers to call the constructor after creating the object}}. Using the example above:
+VBA {{does not support constructors natively}}. However, we can emulate it by {{adding a subroutine that acts like a constructor and hopes the user remembers to call the constructor after creating the object}}. Using the example above: <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 ```VB
 Sub Initialize(ByVal NewHaHa As String, ByVal NewHeHe As Double)
