@@ -41,7 +41,7 @@ English
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h_e) Perceive things that are not actually present.
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i_y) Existing only in the [imagination](../../../general/imagination.md).
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md).
-- [infimum](https://en.wiktionary.org/wiki/infimum) ::: (s_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$.
+- [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$.
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::: (i_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md).
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l_l) Of or pertaining to the [larynx](../../../general/larynx.md).
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md).
