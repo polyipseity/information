@@ -284,11 +284,11 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-02-03,3,250!2024-02-02,1,210-->
+- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-02-03,3,250!2024-02-03,1,190-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-02,1,210!2024-02-03,3,250-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-03,1,190!2024-02-03,3,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-02,1,210!2024-02-04,4,270-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-03,1,190!2024-02-04,4,270-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

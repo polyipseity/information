@@ -123,7 +123,7 @@ return await memorize_table(
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 - comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
-- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-02-02,17,130-->
+- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-02-11,9,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
 - solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -172,7 +172,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2024-02-03,19,150!2025-06-24,539,295!2024-02-02,125,195-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-02-22,212,310!2024-02-03,19,150!2025-06-24,539,295!2024-04-04,62,175-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
