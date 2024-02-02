@@ -68,7 +68,7 @@ return await memorize_table(
 > |-|-|
 > | {{[combustion](#combustion)}} |  |
 > | {{[cracking](#cracking)}} |  |
-> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2024-02-02,228,318!2024-07-05,353,338!2024-05-22,320,338!2025-04-15,550,357-->
+> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} | <!--SR:!2026-01-26,724,318!2024-07-05,353,338!2024-05-22,320,338!2025-04-15,550,357-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

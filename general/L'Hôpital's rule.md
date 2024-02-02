@@ -104,7 +104,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:52.125767+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←$\frac00$ <!--SR:!2024-02-15,60,310!2024-02-02,50,310-->
+- _(begin)_→:::←$\frac00$ <!--SR:!2024-02-15,60,310!2024-09-03,214,330-->
 - $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-02-23,67,310!2024-02-10,56,310-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2024-06-09,144,310!2024-02-24,31,270-->
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-06-13,142,290!2024-02-24,68,310-->
