@@ -31,7 +31,7 @@ A _simple set_, or _polyrectangle_, is then {{finite [unions](union%20(set%20the
 
 $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 
-However, the Jordan measure of a simple set cannot be defined as {{the sum of measures of individual rectangles}}. This is because {{a simple set does not have a unique representation}}, and the different representations give {{inconsistent results if the above definition is used, as the amount of overlap can vary}}.
+However, the Jordan measure of a simple set cannot be defined as {{the sum of measures of individual rectangles}}. This is because {{a simple set does not have an unique representation}}, and the different representations give {{inconsistent results if the above definition is used, as the amount of overlap can vary}}.
 
 > {{![finite union of 2D rectangles](../archives/Wikimedia%20Commons/Simple%20set1.png)}}
 >
@@ -47,7 +47,7 @@ One can show the above definition of Jordan measure for simple set is {{independ
 
 ## extension to more complicated sets
 
-Using the above definition with half-open rectangles, {{notice that a closed rectangle is not a simple set, and neither is a $n$-dimensional ball}}. This shows {{the set of Jordan measurable sets is very limited}}.
+Using the above definition with half-open rectangles, {{notice that a closed rectangle is not a simple set, and neither is a $n$-dimensional ball}}. This shows {{the set of Jordan measurable sets, as currently defined, is very limited}}.
 
 We can extend the above restricted definition by defining {{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}}.
 
