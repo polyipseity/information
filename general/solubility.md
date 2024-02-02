@@ -43,11 +43,11 @@ data: typing.Mapping[str, typing.Mapping[str, str]] = {
   },
   'NH<sub>4</sub><sup>+</sup> compounds': {
     'general solubility': soluble,
-    'exception(s)': '_(none)_',
+    'exception(s)': '(none)',
   },
   'nitrates': {
     'general solubility': soluble,
-    'exception(s)': '_(none)_',
+    'exception(s)': '(none)',
   },
   'acetates (ethanoates)': {
     'general solubility': soluble,
@@ -108,7 +108,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2023-12-30T11:09:40.250552+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2024-02-01T20:43:13.427525+08:00. Any edits will be overridden! -->
 
 > group I compounds
 >
@@ -120,14 +120,14 @@ return (
 > NH<sub>4</sub><sup>+</sup> compounds
 >
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2026-03-15,1012,282!2027-08-17,1301,309-->
+> - exception(s): {{(none)}} <!--SR:!2026-03-15,1012,282!2027-08-17,1301,309-->
 
 <!-- markdownlint MD028 -->
 
 > nitrates
 >
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{_(none)_}} <!--SR:!2025-10-17,822,236!2024-07-15,454,289-->
+> - exception(s): {{(none)}} <!--SR:!2025-10-17,822,236!2024-07-15,454,289-->
 
 <!-- markdownlint MD028 -->
 
