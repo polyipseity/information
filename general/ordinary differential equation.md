@@ -140,7 +140,7 @@ xe^y\,\mathrm{d}y-y\sin{x}\,\mathrm{d}x&=0\\
 \operatorname{Ei}(y)-\operatorname{Si}(x)&=C\\
 \operatorname{Ei}(y)&=\operatorname{Si}(x)+C\\
 y&=\operatorname{Ei}^{-1}(\operatorname{Si}(x)+C)
-\end{aligned}$ <!--SR:!2024-02-03,92,320!2024-03-05,123,340!2024-02-29,118,340-->
+\end{aligned}$ <!--SR:!2024-11-22,293,320!2024-03-05,123,340!2024-02-29,118,340-->
 
 <!-- markdownlint MD028 -->
 

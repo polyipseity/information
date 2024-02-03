@@ -51,7 +51,7 @@ A good way to satisfy the third normal form is by following the below three rule
 
 - _(begin)_→:::←No duplicated data. To deduplicate data, move them to a new table. <!--SR:!2024-02-06,95,310!2025-01-22,377,330-->
 - No duplicated data. To deduplicate data, move them to a new table.→:::←Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended. <!--SR:!2024-09-20,259,310!2024-02-07,96,310-->
-- Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→:::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys". <!--SR:!2024-07-14,205,290!2024-02-03,92,310-->
+- Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→:::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys". <!--SR:!2024-07-14,205,290!2024-11-13,284,310-->
 - Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".→:::←_(end)_ <!--SR:!2024-02-11,100,310!2024-03-18,115,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -284,11 +284,11 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-02-03,3,250!2024-02-03,1,190-->
+- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-02-11,8,250!2024-02-06,3,210-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-03,1,190!2024-02-03,3,250-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-05,2,190!2024-02-12,9,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-03,1,190!2024-02-04,4,270-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-05,2,190!2024-02-04,4,270-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -362,10 +362,10 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-02-04,4,270!2024-02-04,3,250-->
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-02-03,2,230!2024-02-03,2,230-->
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-02-07,4,230!2024-02-04,1,210-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-03,3,250!2024-02-03,2,230-->
-- `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-03,3,250!2024-02-04,4,270-->
+- `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-05,2,230!2024-02-07,4,230-->
+- `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-05,2,230!2024-02-04,4,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
 

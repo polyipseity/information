@@ -19,7 +19,7 @@ tags:
 
 ## formal definition
 
-Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}: <!--SR:!2024-02-06,4,270!2024-02-03,1,230-->
+Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}: <!--SR:!2024-02-06,4,270!2024-02-05,2,230-->
 
 %%
 
@@ -68,11 +68,11 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-02-01T16:56:31.292229+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2024-02-06,4,270!2024-02-06,4,270-->
-- [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-02-05,3,250!2024-02-03,1,230-->
-- positivity→:::←rectangle <!--SR:!2024-02-05,3,250!2024-02-03,1,230-->
-- rectangle→:::←squeezing <!--SR:!2024-02-03,1,230!2024-02-03,1,230-->
-- squeezing→:::←subtraction <!--SR:!2024-02-03,1,230!2024-02-03,1,230-->
-- subtraction→:::←union and intersection <!--SR:!2024-02-06,4,270!2024-02-03,1,230-->
+- [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-02-05,3,250!2024-02-05,2,230-->
+- positivity→:::←rectangle <!--SR:!2024-02-05,3,250!2024-02-04,1,210-->
+- rectangle→:::←squeezing <!--SR:!2024-02-05,2,230!2024-02-05,2,230-->
+- squeezing→:::←subtraction <!--SR:!2024-02-05,2,230!2024-02-04,1,210-->
+- subtraction→:::←union and intersection <!--SR:!2024-02-06,4,270!2024-02-05,2,230-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-02-06,4,270!2024-02-05,3,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -82,8 +82,8 @@ return _chain.from_iterable(await _gather(
 - [congruence](congruence%20(geometry).md)::If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. <!--SR:!2024-02-06,4,270-->
 - positivity::For all set $S$ in $M$, $a(S) \ge 0$. <!--SR:!2024-02-06,4,270-->
 - rectangle::Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$. <!--SR:!2024-02-06,4,270-->
-- squeezing::Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $Q$ are in $M$. If there exists a unique number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$. <!--SR:!2024-02-03,1,230-->
-- subtraction::If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$. <!--SR:!2024-02-03,1,230-->
+- squeezing::Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $Q$ are in $M$. If there exists a unique number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$. <!--SR:!2024-02-05,2,230-->
+- subtraction::If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$. <!--SR:!2024-02-06,3,250-->
 - union and intersection::If two sets $S$ and $T$ are in $M$, then their union $S \cup T$ and their intersection $S \cap T$ are in $M$ and $a(S \cup T) = a(S) + a(T) - a(S \cap T).$ <!--SR:!2024-02-06,4,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
