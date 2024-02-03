@@ -65,7 +65,7 @@ Molecules can be classified based on atomicity as:
 - Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-18,298,330-->
 - Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-06-06,340,330-->
 - H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-02-20,254,330-->
-- N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-02-03,242,330-->
+- N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2027-02-07,1100,350-->
 - O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-03-05,266,330-->
 - O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2024-02-17,251,330-->
 - P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2024-06-05,339,330-->

@@ -11,7 +11,7 @@ tags:
 
 ## declaration
 
-Arrays are declared like {{[variables](basics.md#variable) but with extra syntax: indicating the indices of the array}}. The syntax is {{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}}. You can omit {{the `start_index To`, in which case the `start_index` depends on the option `Base`}}. By default, the option `Base` {{is `0`, but you can change it by running `Option Base value` first}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-03,3,250!2024-02-04,4,270-->
+Arrays are declared like {{[variables](basics.md#variable) but with extra syntax: indicating the indices of the array}}. The syntax is {{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}}. You can omit {{the `start_index To`, in which case the `start_index` depends on the option `Base`}}. By default, the option `Base` {{is `0`, but you can change it by running `Option Base value` first}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-12,9,270!2024-02-04,4,270-->
 
 ## indexing
 
@@ -19,13 +19,13 @@ To index into an array, write {{`Array(Index)`}}. Assignment uses the same synta
 
 ## multidimensional
 
-To make a multidimensional array, {{specify each dimension using `start_index To end_index` or `end_index` separated by commas `,` and use `Variant` as the element type, like `Dim VariableName(3 To 5, 2, 0 To 6) As Variant`}}. Indexing a multidimensional array is simply {{adding commas in between the multiple indices, like `Array(4, 2, 5)`}}. <!--SR:!2024-02-03,3,250!2024-02-04,4,270-->
+To make a multidimensional array, {{specify each dimension using `start_index To end_index` or `end_index` separated by commas `,` and use `Variant` as the element type, like `Dim VariableName(3 To 5, 2, 0 To 6) As Variant`}}. Indexing a multidimensional array is simply {{adding commas in between the multiple indices, like `Array(4, 2, 5)`}}. <!--SR:!2024-02-13,10,270!2024-02-04,4,270-->
 
 For two-dimensional arrays, one can initialize the content by {{separating elements in the same row by commas `,`, separating rows by `;`, and enclose the entire thing in `[{...}]`, like `2DArray = [{1, 2, 3; 4, 5, 6; 7, 8, 9}]`}}. <!--SR:!2024-02-04,4,270-->
 
 ## bounds
 
-One can obtain the lower bound and upper bound, both inclusive, via {{`LBound(array[, rank])` and `UBound(array[, rank])` respectively}}. The `rank` means {{the bound for which inner array to return. It is by default `1`, meaning it returns the bounds for the outermost array}}. <!--SR:!2024-02-04,4,270!2024-02-03,3,250-->
+One can obtain the lower bound and upper bound, both inclusive, via {{`LBound(array[, rank])` and `UBound(array[, rank])` respectively}}. The `rank` means {{the bound for which inner array to return. It is by default `1`, meaning it returns the bounds for the outermost array}}. <!--SR:!2024-02-04,4,270!2024-02-09,6,250-->
 
 ## interaction with range
 

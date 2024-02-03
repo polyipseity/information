@@ -52,7 +52,7 @@ if (condition1) {
 }
 ```
 
-The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement execution. If there are no `true` conditions, all conditions are always executed in the appearance order, alternated with statement execution.}} <!--SR:!2024-02-03,3,250!2024-02-05,4,281-->
+The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement execution. If there are no `true` conditions, all conditions are always executed in the appearance order, alternated with statement execution.}} <!--SR:!2024-02-13,10,270!2024-02-05,4,281-->
 
 Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equals some constant values}}: <!--SR:!2024-02-04,4,270-->
 
@@ -77,7 +77,7 @@ if ("abc".equals(string)) {
 }
 ```
 
-Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}. <!--SR:!2024-02-03,3,250!2024-02-04,4,270-->
+Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}. <!--SR:!2024-02-16,13,270!2024-02-04,4,270-->
 
 ## iteration
 
@@ -116,4 +116,4 @@ do
 while (condition);
 ```
 
-The semantics of `do...while` is {{that the statement is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}. <!--SR:!2024-02-03,3,250-->
+The semantics of `do...while` is {{that the statement is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}. <!--SR:!2024-02-15,12,270-->

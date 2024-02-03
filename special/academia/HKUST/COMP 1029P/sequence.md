@@ -13,7 +13,7 @@ Here, we are interested in two sequence types: {{strings and lists}}. <!--SR:!20
 
 ## string
 
-To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. <!--SR:!2024-02-04,4,270!2024-02-03,3,250-->
+To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. <!--SR:!2024-02-04,4,270!2024-02-13,10,270-->
 
 ## list
 
@@ -55,7 +55,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270!2024-02-03,3,250!2024-02-04,4,270-->
+Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270!2024-02-16,13,270!2024-02-04,4,270-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"

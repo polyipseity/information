@@ -111,7 +111,7 @@ ALong = 2.5 ' `ALong` is rounded to 2 as VBA uses banker's rounding
 
 To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-02-04,4,285!2024-02-04,4,285!2024-02-04,4,270-->
 
-There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}}. <!--SR:!2024-02-03,3,265-->
+There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}}. <!--SR:!2024-02-05,2,245-->
 
 ## input
 
