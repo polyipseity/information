@@ -15,17 +15,17 @@ tags:
 
 # subroutine and function
 
-In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {{group code together}}, making them very similar things. The difference is that {{subroutines always return nothing while functions always return something}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {{group code together}}, making them very similar things. The difference is that {{subroutines always return nothing while functions always return something}}. <!--SR:!2024-02-20,15,290!2024-02-22,17,290-->
 
 ## exiting
 
-You can exit a subroutine or function by {{`Exit Sub` and `Exit Function`}}. <!--SR:!2024-02-04,4,270-->
+You can exit a subroutine or function by {{`Exit Sub` and `Exit Function`}}. <!--SR:!2024-02-21,16,290-->
 
-For functions, there is no `return` keyword. Instead, it is accomplished by doing two things: {{setting the result by `FunctionName = Result` and then exiting the function}}: <!--SR:!2024-02-04,4,270-->
+For functions, there is no `return` keyword. Instead, it is accomplished by doing two things: {{setting the result by `FunctionName = Result` and then exiting the function}}: <!--SR:!2024-02-19,14,290-->
 
 ## parameters
 
-You can specify parameters by {{separating each parameter name by commas `,`}}: <!--SR:!2024-02-04,4,270-->
+You can specify parameters by {{separating each parameter name by commas `,`}}: <!--SR:!2024-02-20,15,290-->
 
 ```VB
 Function Multiply(Left, Right)
@@ -33,7 +33,7 @@ Function Multiply(Left, Right)
 End Function
 ```
 
-You can also specify the parameter types by {{appending `As ParameterType` and prepending `ByVal` to the parameter name}}. `ByVal` means {{storing the inputted value to the parameter}}. Note that {{`ByRef` is also another option apart from `ByVal`, but it will not be mentioned here}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-04,4,270-->
+You can also specify the parameter types by {{appending `As ParameterType` and prepending `ByVal` to the parameter name}}. `ByVal` means {{storing the inputted value to the parameter}}. Note that {{`ByRef` is also another option apart from `ByVal`, but it will not be mentioned here}}. <!--SR:!2024-02-18,13,290!2024-02-18,13,290!2024-02-21,16,290-->
 
 ```VB
 Function Multiply(ByVal Left As Integer, ByVal Right As Integer)
@@ -43,7 +43,7 @@ End Function
 
 ## return type
 
-For functions, you can specify the return type by {{appending `As ReturnType` after the parameters}}: <!--SR:!2024-02-04,4,270-->
+For functions, you can specify the return type by {{appending `As ReturnType` after the parameters}}: <!--SR:!2024-02-22,17,290-->
 
 ```VB
 Function SquareSize(SideLength) As Integer

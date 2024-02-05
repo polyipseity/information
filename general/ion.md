@@ -273,7 +273,7 @@ return chain.from_iterable(await gather(
 - silver ion:::Ag<sup>+</sup> <!--SR:!2026-05-27,1086,290!2025-06-25,897,336-->
 - mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
 - ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2027-01-08,1335,313-->
-- magnesium ion:::Mg<sup>2+</sup> <!--SR:!2024-03-08,336,247!2024-02-04,523,316-->
+- magnesium ion:::Mg<sup>2+</sup> <!--SR:!2024-03-08,336,247!2030-05-06,2283,336-->
 - calcium ion:::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2028-01-19,1745,374-->
 - barium ion:::Ba<sup>2+</sup> <!--SR:!2025-06-02,665,250!2025-02-15,770,294-->
 - lead(II) ion:::Pb<sup>2+</sup> <!--SR:!2027-06-06,1566,374!2024-02-24,536,314-->
@@ -332,7 +332,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2024-01-28T09:35:09.995261+08:00. Any edits will be overridden! -->
 
-- hydrogen ion::colorless <!--SR:!2024-02-05,519,309-->
+- hydrogen ion::colorless <!--SR:!2030-03-04,2219,329-->
 - sodium ion::colorless <!--SR:!2025-11-02,919,293-->
 - potassium ion::colorless <!--SR:!2029-06-22,2017,324-->
 - copper(I) ion::_(n/a)_ <!--SR:!2024-07-07,392,276-->

@@ -12,8 +12,8 @@ tags:
 
 English
 
-- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B_y a_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2024-04-25,82,363!2024-02-05,19,343-->
-- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::: (B_y b_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-03-27,54,343!2024-02-04,18,343-->
+- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B_y a_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2024-04-25,82,363!2024-04-12,67,343-->
+- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::: (B_y b_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-03-27,54,343!2024-04-06,61,343-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::: (W_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2024-04-02,74,324!2024-03-28,69,324-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::: (a_e) To adapt. <!--SR:!2024-03-24,66,324!2024-02-28,45,304-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a_e) To gradually increase in quantity. <!--SR:!2024-02-26,42,332!2024-04-19,86,354-->
@@ -31,7 +31,7 @@ English
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c_n) A standard or test to judge and compare things. <!--SR:!2024-02-08,6,370!2024-02-06,4,350-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d_e) To make different. <!--SR:!2024-04-07,74,324!2024-04-10,77,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d_e) That dissipates or causes dissipation. <!--SR:!2024-04-13,80,324!2024-03-26,68,324-->
-- [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2024-04-04,76,324!2024-02-05,25,264-->
+- [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2024-04-04,76,324!2024-04-10,65,264-->
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::: (e_n) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2024-03-29,71,324!2024-03-05,51,304-->
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::: (f_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-03-17,61,324!2024-03-31,72,324-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::: (f_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-03-17,60,324!2024-04-13,80,324-->
@@ -53,7 +53,7 @@ English
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2024-03-28,69,324!2024-03-28,70,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::: (p_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2024-03-04,39,264!2024-02-10,33,284-->
-- [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::: (p_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2024-02-04,18,343!2024-02-06,13,283-->
+- [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::: (p_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2024-04-28,83,363!2024-02-06,13,283-->
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::: (p_m) Copying of others' work and presenting it as one's own. <!--SR:!2024-04-06,73,324!2024-05-12,101,304-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::: (p_e) To copy others' work and present it as one's own. <!--SR:!2024-03-24,67,324!2024-03-31,61,284-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-03-29,71,324!2024-03-03,49,304-->
@@ -61,7 +61,7 @@ English
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p_e) The state of preceding in importance or priority. <!--SR:!2024-02-08,6,370!2024-02-06,3,330-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r_t) The act of receiving or having been received. <!--SR:!2024-03-07,33,388!2024-02-06,3,348-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-02-18,16,368!2024-02-27,24,368-->
-- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r_t) One who receives. <!--SR:!2024-02-28,26,388!2024-02-04,6,348-->
+- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r_t) One who receives. <!--SR:!2024-02-28,26,388!2024-03-04,28,368-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r_y) Mutual dependence, action, or influence. <!--SR:!2024-02-25,23,388!2024-02-10,10,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,3522!2024-03-31,72,352-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
@@ -72,7 +72,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-02-08,27,284!2024-03-11,55,324-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t_y) The extent to which something is transmissible. <!--SR:!2024-03-20,63,324!2024-03-27,68,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2024-03-03,52,270!2024-04-08,75,290-->
-- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u_s) Widespread. <!--SR:!2024-02-14,14,368!2024-02-04,6,348-->
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u_s) Widespread. <!--SR:!2024-02-14,14,368!2024-02-08,3,328-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v_s) Empty, void. <!--SR:!2024-03-15,59,324!2024-02-20,38,304-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2024-03-23,65,324!2024-03-16,60,324-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-03-13,57,324!2024-02-12,32,304-->

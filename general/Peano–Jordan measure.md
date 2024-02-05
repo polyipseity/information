@@ -27,7 +27,7 @@ Then, like how you calculate the length, area, or volume of the above familiar o
 
 $$m(R) := (b_1 - a_1) (b_2 - a_2) \cdots (b_n - a_n)$$
 
-A _simple set_, or _polyrectangle_, is then {{finite [unions](union%20(set%20theory).md) of rectangles}}: <!--SR:!2024-02-05,3,250-->
+A _simple set_, or _polyrectangle_, is then {{finite [unions](union%20(set%20theory).md) of rectangles}}: <!--SR:!2024-02-18,13,270-->
 
 $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 
@@ -51,7 +51,7 @@ Using the above definition with half-open rectangles, {{notice that a closed rec
 
 We can extend the above restricted definition by defining {{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}}. <!--SR:!2024-02-06,4,270-->
 
-Formally, {{for a bounded set $B$, define its _inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$ and _outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}}: <!--SR:!2024-02-05,3,250-->
+Formally, {{for a bounded set $B$, define its _inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$ and _outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}}: <!--SR:!2024-02-15,10,270-->
 
 $$\begin{aligned}
 m_*(B) := \sup_{S \subseteq B} m(S) \\

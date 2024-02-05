@@ -10,7 +10,7 @@ tags:
 
 ## installation
 
-Follow the instructions on {{<https://python.org/>}}. <!--SR:!2024-02-04,4,270-->
+Follow the instructions on {{<https://python.org/>}}. <!--SR:!2024-02-19,14,290-->
 
 ## see also
 

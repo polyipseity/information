@@ -136,7 +136,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{typically extremely high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{typically high when [liquid](liquid.md) or [aqueous](aqueous%20solution.md), otherwise typically low}} |
 > | {{[melting point](melting%20point.md)}} | {{typically moderately high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{typically intermediate}} | <!--SR:!2024-02-23,220,270!2024-02-04,243,330!2026-02-09,801,330!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2024-12-27,392,250!2026-03-15,827,330!2024-09-16,265,353!2024-08-31,251,353-->
+> | {{[strength](strength%20of%20materials.md)}} | {{typically intermediate}} | <!--SR:!2024-02-23,220,270!2024-06-04,121,310!2026-02-09,801,330!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2024-12-27,392,250!2026-03-15,827,330!2024-09-16,265,353!2024-08-31,251,353-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -182,7 +182,7 @@ return await memorize_table(
 > | {{[malleability](malleability.md)}} | {{typically high}} |
 > | {{[melting point](melting%20point.md)}} | {{typically high ([mercury](mercury.md): low)}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low when pure}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-05-11,108,270!2024-02-22,256,330!2024-03-25,99,290!2024-04-21,301,330!2024-02-05,7,210!2024-04-20,300,330!2024-02-29,90,290!2024-03-06,267,330!2025-02-02,436,270!2024-06-07,341,330!2024-02-24,43,253!2025-02-24,397,373!2024-04-23,91,362!2024-02-21,41,322!2024-02-21,39,341!2024-04-13,81,362-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-05-11,108,270!2024-02-22,256,330!2024-03-25,99,290!2024-04-21,301,330!2024-02-25,20,230!2024-04-20,300,330!2024-02-29,90,290!2024-03-06,267,330!2025-02-02,436,270!2024-06-07,341,330!2024-02-24,43,253!2025-02-24,397,373!2024-04-23,91,362!2024-02-21,41,322!2024-02-21,39,341!2024-04-13,81,362-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

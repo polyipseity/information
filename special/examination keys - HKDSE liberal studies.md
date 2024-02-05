@@ -125,7 +125,7 @@ return await memorize_table(
 - comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
 - factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-02-11,9,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
-- phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-02-05,174,250-->
+- phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
 - solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
 - value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
 
@@ -223,7 +223,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-02-05,94,215!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-02-04,142,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -370,7 +370,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 - Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2024-02-09,132,215-->
-- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-02-05,8,130-->
+- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-02-09,4,130-->
 - Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

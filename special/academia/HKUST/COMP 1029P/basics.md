@@ -72,32 +72,32 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`**` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `**`→:::←`*` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `*`→:::←`/` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `/`→:::←`//` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `//`→:::←`%` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `%`→:::←`+` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `+`→:::←`-` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `-`→:::←_(end)_ <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+- _(begin)_→:::←`**` <!--SR:!2024-02-18,13,290!2024-02-20,15,290-->
+- `**`→:::←`*` <!--SR:!2024-02-18,13,290!2024-02-19,14,290-->
+- `*`→:::←`/` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
+- `/`→:::←`//` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
+- `//`→:::←`%` <!--SR:!2024-02-22,17,290!2024-02-22,17,290-->
+- `%`→:::←`+` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
+- `+`→:::←`-` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
+- `-`→:::←_(end)_ <!--SR:!2024-02-22,17,290!2024-02-20,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
-- `**`::power <!--SR:!2024-02-04,4,270-->
-- `*`::multiplication <!--SR:!2024-02-04,4,270-->
-- `/`::division <!--SR:!2024-02-04,4,270-->
-- `//`::floor division <!--SR:!2024-02-04,4,270-->
-- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-02-04,4,270-->
-- `+`::addition <!--SR:!2024-02-04,4,270-->
-- `-`::subtraction <!--SR:!2024-02-04,4,270-->
+- `**`::power <!--SR:!2024-02-18,13,290-->
+- `*`::multiplication <!--SR:!2024-02-22,17,290-->
+- `/`::division <!--SR:!2024-02-22,17,290-->
+- `//`::floor division <!--SR:!2024-02-20,15,290-->
+- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-02-18,13,290-->
+- `+`::addition <!--SR:!2024-02-20,15,290-->
+- `-`::subtraction <!--SR:!2024-02-19,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-04,4,270-->
+Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-22,17,290-->
 
 %%
 
@@ -147,36 +147,36 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`in` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `in`→:::←`<` <!--SR:!2024-02-04,4,270!2024-02-05,2,230-->
-- `<`→:::←`<=` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `<=`→:::←`>` <!--SR:!2024-02-04,4,270!2024-02-09,6,250-->
-- `>`→:::←`>=` <!--SR:!2024-02-10,7,250!2024-02-04,4,270-->
-- `>=`→:::←`!=` <!--SR:!2024-02-11,8,250!2024-02-04,4,270-->
-- `!=`→:::←`==` <!--SR:!2024-02-12,9,270!2024-02-04,4,270-->
-- `==`→:::←_(end)_ <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+- _(begin)_→:::←`in` <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
+- `in`→:::←`<` <!--SR:!2024-02-22,17,290!2024-02-11,6,230-->
+- `<`→:::←`<=` <!--SR:!2024-02-20,15,290!2024-02-20,15,290-->
+- `<=`→:::←`>` <!--SR:!2024-02-21,16,290!2024-02-09,6,250-->
+- `>`→:::←`>=` <!--SR:!2024-02-10,7,250!2024-02-21,16,290-->
+- `>=`→:::←`!=` <!--SR:!2024-02-11,8,250!2024-02-07,2,250-->
+- `!=`→:::←`==` <!--SR:!2024-02-12,9,270!2024-02-19,14,290-->
+- `==`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-02-20,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`::membership test <!--SR:!2024-02-04,4,270-->
-- `<`::lesser than <!--SR:!2024-02-04,4,270-->
-- `<=`::lesser than or equal to <!--SR:!2024-02-04,4,270-->
-- `>`::greater than <!--SR:!2024-02-04,4,270-->
-- `>=`::greater than or equal to <!--SR:!2024-02-04,4,270-->
-- `!=`::not equal to <!--SR:!2024-02-04,4,270-->
-- `==`::equal to <!--SR:!2024-02-04,4,270-->
+- `in`::membership test <!--SR:!2024-02-21,16,290-->
+- `<`::lesser than <!--SR:!2024-02-22,17,290-->
+- `<=`::lesser than or equal to <!--SR:!2024-02-15,10,270-->
+- `>`::greater than <!--SR:!2024-02-18,13,290-->
+- `>=`::greater than or equal to <!--SR:!2024-02-22,17,290-->
+- `!=`::not equal to <!--SR:!2024-02-18,13,290-->
+- `==`::equal to <!--SR:!2024-02-20,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-02-04,4,270-->
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-02-18,13,290-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-02-04,4,270-->
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-02-19,14,290-->
 
 ### logic operators
 
-Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-04,4,270-->
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-19,14,290-->
 
 %%
 
@@ -218,29 +218,29 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`not` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `not`→:::←`and` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `and`→:::←`or` <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
-- `or`→:::←_(end)_ <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+- _(begin)_→:::←`not` <!--SR:!2024-02-21,16,290!2024-02-19,14,290-->
+- `not`→:::←`and` <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
+- `and`→:::←`or` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
+- `or`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`::negate <!--SR:!2024-02-04,4,270-->
-- `and`::and <!--SR:!2024-02-04,4,270-->
-- `or`::or <!--SR:!2024-02-04,4,270-->
+- `not`::negate <!--SR:!2024-02-19,14,290-->
+- `and`::and <!--SR:!2024-02-18,13,290-->
+- `or`::or <!--SR:!2024-02-18,13,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-02-04,4,270-->
+To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-02-19,14,290-->
 
 ```Python
 variableName = 1 + 2
 ```
 
-One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-02-04,4,270-->
+One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-02-22,17,290-->
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-02-04,4,270-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-02-20,15,290-->

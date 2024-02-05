@@ -8,19 +8,19 @@ tags:
 
 # Visual Basic for Applications
 
-Visual Basic for Applications (VBA) is a programming language {{based on Visual Basic and is designed for use in applications, like Microsoft Excel}}. <!--SR:!2024-02-04,4,270-->
+Visual Basic for Applications (VBA) is a programming language {{based on Visual Basic and is designed for use in applications, like Microsoft Excel}}. <!--SR:!2024-02-19,14,290-->
 
 ## running
 
-To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{macros or events}}. For example, the event when the Excel file opens is {{`Workbook_Open`}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-05,4,279-->
+To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{macros or events}}. For example, the event when the Excel file opens is {{`Workbook_Open`}}. <!--SR:!2024-02-20,15,290!2024-02-22,17,290!2024-02-23,18,299-->
 
 ## editing
 
-To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Just press random buttons and learn for yourself. <!--SR:!2024-02-04,4,270-->
+To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Just press random buttons and learn for yourself. <!--SR:!2024-02-19,14,290-->
 
 ### macro
 
-It is not necessary to {{write VBA code yourself for simple automation}}. You can {{record a macro and it will generate VBA code for you}}. If you open the VBA editor, you should see {{VBA code in a subroutine with a name same as the macro name}}. Text beginning from `'` to end of line {{are comments and are ignored}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270!2024-02-16,13,270!2024-02-04,4,270-->
+It is not necessary to {{write VBA code yourself for simple automation}}. You can {{record a macro and it will generate VBA code for you}}. If you open the VBA editor, you should see {{VBA code in a subroutine with a name same as the macro name}}. Text beginning from `'` to end of line {{are comments and are ignored}}. <!--SR:!2024-02-21,16,290!2024-02-22,17,290!2024-02-16,13,270!2024-02-18,13,290-->
 
 ## see also
 

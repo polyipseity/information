@@ -66,7 +66,7 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2394"--><!-- The following content is generated at 2024-01-04T20:17:51.880136+08:00. Any edits will be overridden! -->
 
-- [fluorine](fluorine.md)::reacts explosively in the dark and cold <!--SR:!2024-02-04,230,310-->
+- [fluorine](fluorine.md)::reacts explosively in the dark and cold <!--SR:!2026-01-16,712,310-->
 - [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2024-07-03,298,270-->
 - [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2024-02-15,212,250-->
 - [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2024-12-27,420,290-->
@@ -81,7 +81,7 @@ return await memorize_map(
 - reacts explosively in light and heat; slowly without::[chlorine](chlorine.md) <!--SR:!2024-11-30,344,230-->
 - reacts explosively in flames; moderately in light and heat::[bromine](bromine.md) <!--SR:!2024-02-21,229,310-->
 - reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2024-05-31,329,330-->
-- unknown::[tennessine](tennessine.md) <!--SR:!2024-02-05,66,210-->
+- unknown::[tennessine](tennessine.md) <!--SR:!2024-06-22,138,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

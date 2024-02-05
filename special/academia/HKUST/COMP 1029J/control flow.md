@@ -11,16 +11,16 @@ tags:
 
 ## branching
 
-An `if` statement consists of {{a condition and a statement}}: <!--SR:!2024-02-04,4,270-->
+An `if` statement consists of {{a condition and a statement}}: <!--SR:!2024-02-18,14,290-->
 
 ```Java
 if (condition)
   statement
 ```
 
-The semantics of `if` is obvious: {{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-04,4,270-->
+The semantics of `if` is obvious: {{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-17,13,290-->
 
-An `if...else` statement consists of {{a condition and two statements}}: <!--SR:!2024-02-04,4,270-->
+An `if...else` statement consists of {{a condition and two statements}}: <!--SR:!2024-02-20,16,290-->
 
 ```Java
 if (condition)
@@ -29,9 +29,9 @@ else
   statement
 ```
 
-The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement is executed. Otherwise, the second statement is executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-04,4,270-->
+The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement is executed. Otherwise, the second statement is executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-20,16,290-->
 
-One can chain `if...else` by {{using another `if...else` statement as the `else` statement}}: <!--SR:!2024-02-04,4,270-->
+One can chain `if...else` by {{using another `if...else` statement as the `else` statement}}: <!--SR:!2024-02-21,17,290-->
 
 ```Java
 if (condition1) {
@@ -52,9 +52,9 @@ if (condition1) {
 }
 ```
 
-The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement execution. If there are no `true` conditions, all conditions are always executed in the appearance order, alternated with statement execution.}} <!--SR:!2024-02-13,10,270!2024-02-05,4,281-->
+The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement execution. If there are no `true` conditions, all conditions are always executed in the appearance order, alternated with statement execution.}} <!--SR:!2024-02-13,10,270!2024-02-23,18,301-->
 
-Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equals some constant values}}: <!--SR:!2024-02-04,4,270-->
+Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equals some constant values}}: <!--SR:!2024-02-18,14,290-->
 
 ```Java
 switch (string) {
@@ -77,20 +77,20 @@ if ("abc".equals(string)) {
 }
 ```
 
-Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}. <!--SR:!2024-02-16,13,270!2024-02-04,4,270-->
+Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}. <!--SR:!2024-02-16,13,270!2024-02-19,15,290-->
 
 ## iteration
 
-A `for` statement consists of {{an initial statement, a condition, a loop statement, and a statement to execute}}: <!--SR:!2024-02-04,4,270-->
+A `for` statement consists of {{an initial statement, a condition, a loop statement, and a statement to execute}}: <!--SR:!2024-02-21,17,290-->
 
 ```Java
 for (initial_statement; condition; loop_statement)
   statement
 ```
 
-The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement following `for` is executed. Otherwise, the `for` statement finishes}}. Each time the statement following `for` has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement following `for` is executed. Otherwise, the `for` statement finishes}}. Each time the statement following `for` has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-02-21,17,290!2024-02-17,13,290-->
 
-One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2024-02-04,4,270-->
+One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2024-02-19,15,290-->
 
 ```Java
 for (int ii = 1; ii < 11; ++ii) {
@@ -99,16 +99,16 @@ for (int ii = 1; ii < 11; ++ii) {
 }
 ```
 
-A `while` statement consists of {{a condition and a statement}}: <!--SR:!2024-02-04,4,270-->
+A `while` statement consists of {{a condition and a statement}}: <!--SR:!2024-02-17,13,290-->
 
 ```Java
 while (condition)
   statement
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-02-04,4,270-->
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-02-20,16,290-->
 
-One can also first run the statement instead of the condition by using a `do...while` statement, which consists of {{a statement and a condition}}: <!--SR:!2024-02-04,4,270-->
+One can also first run the statement instead of the condition by using a `do...while` statement, which consists of {{a statement and a condition}}: <!--SR:!2024-02-18,14,290-->
 
 ```Java
 do
