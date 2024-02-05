@@ -111,7 +111,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\infty-\infty$→:::←$0^0$ <!--SR:!2024-02-24,29,230!2024-04-19,94,270-->
 - $0^0$→:::←$1^\infty$ <!--SR:!2024-02-25,63,290!2024-05-30,136,310-->
 - $1^\infty$→:::←$\infty^0$ <!--SR:!2024-03-04,53,270!2024-07-22,178,310-->
-- $\infty^0$→:::←_(end)_ <!--SR:!2024-02-05,52,310!2024-02-09,17,270-->
+- $\infty^0$→:::←_(end)_ <!--SR:!2024-09-14,222,330!2024-02-09,17,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -168,7 +168,7 @@ The following table lists out transformation from other [indeterminate forms](in
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff01"--><!-- The following content is generated at 2024-02-01T20:28:01.993744+08:00. Any edits will be overridden! -->
 
 - $\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$::$\frac00$ <!--SR:!2024-02-15,60,310-->
-- $\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$::$0\cdot\infty$ <!--SR:!2024-02-05,53,310-->
+- $\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$::$0\cdot\infty$ <!--SR:!2024-09-18,226,330-->
 - $\lim_{x\to{c} }(f(x)-g(x))=\ln\lim_{x\to{c} }\frac{e^{f(x)} }{e^{g(x)} }$::$\infty-\infty$ <!--SR:!2024-02-19,64,310-->
 - $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$::$0^0$, $\infty^0$ <!--SR:!2024-02-23,59,270-->
 - $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$::$1^\infty$ <!--SR:!2024-02-08,37,230-->

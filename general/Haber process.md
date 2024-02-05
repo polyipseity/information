@@ -124,7 +124,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="485b"--><!-- The following content is generated at 2024-01-04T20:17:51.833127+08:00. Any edits will be overridden! -->
 
 - _(large scale implementation of the Haber process)_→:::←Purify and dry [syngas](syngas.md) in purifiers and driers. <!--SR:!2024-03-01,214,310!2024-05-11,288,330-->
-- Purify and dry [syngas](syngas.md) in purifiers and driers.→:::←Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume. <!--SR:!2024-02-05,195,310!2024-03-20,229,310-->
+- Purify and dry [syngas](syngas.md) in purifiers and driers.→:::←Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume. <!--SR:!2025-10-01,604,310!2024-03-20,229,310-->
 - Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.→:::←The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md). <!--SR:!2024-04-18,201,230!2024-03-06,77,270-->
 - The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).→:::←The gas mixture is preheated in [heat exchangers](heat%20exchanger.md). <!--SR:!2025-01-31,434,290!2024-02-13,10,170-->
 - The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).→:::←The gas mixture enters catalytic chambers for reaction. <!--SR:!2024-03-03,216,310!2025-03-20,454,290-->

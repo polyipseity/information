@@ -28,7 +28,7 @@ The first part implies that when $f$ is [continuous](continuous%20function.md), 
 
 > __corollary of the first fundamental theorem of calculus__
 >
-> {{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $F'(x)=f(x)\quad\forall{x}\in(a,b)$, then $\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$.}} <!--SR:!2024-02-05,38,230-->
+> {{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $F'(x)=f(x)\quad\forall{x}\in(a,b)$, then $\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$.}} <!--SR:!2024-05-01,86,230-->
 
 The corollary requires {{$f$ to be [continuous](continuous%20function.md) on the entire [interval](interval%20(mathematics).md). This condition is removed in the [second part of the theorem](#second%20part)}}. <!--SR:!2024-02-14,60,310-->
 

@@ -9,17 +9,17 @@ tags:
 
 # Java array
 
-A variable can store a single value while an array can {{store multiple values}}. <!--SR:!2024-02-04,4,270-->
+A variable can store a single value while an array can {{store multiple values}}. <!--SR:!2024-02-21,17,290-->
 
 ## creation
 
-To create an array, {{enclose the multiple values in `{}`}}: <!--SR:!2024-02-04,4,270-->
+To create an array, {{enclose the multiple values in `{}`}}: <!--SR:!2024-02-18,14,290-->
 
 ```Java
 String[] aStringArray = { "Hello", ",", "world", "!" };
 ```
 
-Less ideally, an array can be {{created and initialized}} separately: <!--SR:!2024-02-04,4,270-->
+Less ideally, an array can be {{created and initialized}} separately: <!--SR:!2024-02-20,16,290-->
 
 ```Java
 String[] aStringArray = new String[4];
@@ -31,13 +31,13 @@ aStringArray[3] = "!";
 
 ## indexing
 
-To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-02-04,4,270-->
+To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-02-17,13,290-->
 
-If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-02-04,4,270!2024-02-04,4,270-->
+If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-02-18,14,290!2024-02-19,15,290-->
 
 ## multi-dimensional array
 
-A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-02-04,4,270-->
+A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-02-19,15,290-->
 
 ```Java
 boolean[][] threeByThreeSquare = {
@@ -52,7 +52,7 @@ assert threeByThreeSquare[2][1];
 
 ## length
 
-The length of an array can be determined by {{accessing the field `.length`}}: <!--SR:!2024-02-04,4,270-->
+The length of an array can be determined by {{accessing the field `.length`}}: <!--SR:!2024-02-17,13,290-->
 
 ```Java
 int[] anIntArray = new int[123];
