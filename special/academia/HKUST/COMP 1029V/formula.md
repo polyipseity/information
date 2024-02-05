@@ -184,9 +184,9 @@ from itertools import chain as _chain
 e = __env__
 headers = "function", "description"
 table = (
+  ("`NOT(boolean)`", "negate",),
   ("`AND(booleans...)`", "every input is true",),
   ("`OR(booleans...)`", "there exists true inputs",),
-  ("`NOT(boolean)`", "negate",),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -203,30 +203,30 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-01-31T12:40:30.898889+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-02-05T12:43:06.967772+08:00. Any edits will be overridden! -->
 
 > | function | description |
 > |-|-|
+> | `NOT(boolean)` | negate |
 > | `AND(booleans...)` | every input is true |
 > | `OR(booleans...)` | there exists true inputs |
-> | `NOT(boolean)` | negate |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-31T12:40:30.865232+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`AND(booleans...)`
+- _(begin)_→:::←`NOT(boolean)`
+- `NOT(boolean)`→:::←`AND(booleans...)`
 - `AND(booleans...)`→:::←`OR(booleans...)`
-- `OR(booleans...)`→:::←`NOT(boolean)`
-- `NOT(boolean)`→:::←_(end)_
+- `OR(booleans...)`→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-31T12:40:30.881783+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
+- `NOT(boolean)`::negate
 - `AND(booleans...)`::every input is true
 - `OR(booleans...)`::there exists true inputs
-- `NOT(boolean)`::negate
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
