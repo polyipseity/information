@@ -29,6 +29,7 @@ English
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c_y) Acting as a complement to make something else whole.
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge.
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c_n) A standard or test to judge and compare things.
+- [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d_s) The process, or an instance of, of identification of the cause and nature of something.
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d_e) To make different.
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d_e) That dissipates or causes dissipation.
 - [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md).
@@ -39,6 +40,7 @@ English
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g_e) The action or manner of governing.
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g_e) Assure that something will be done.
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h_e) Perceive things that are not actually present.
+- [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h_c) Of or pertaining to [water](../../../general/water.md).
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i_y) Existing only in the [imagination](../../../general/imagination.md).
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md).
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$.
@@ -48,6 +50,7 @@ English
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n_m) Excessive [love](../../../general/love.md) of oneself.
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n_e) Can be not considered as it is too small or unimportant.
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md).
+- [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o_n) An activity or task one usually occupies oneself.
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o_e) An event or happening.
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely.
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md).
@@ -68,6 +71,7 @@ English
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r_y) Basic, minimal.
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md).
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$.
+- [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117.
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t_l) Of or relating to theory rather than practice.
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md).
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t_y) The extent to which something is transmissible.
