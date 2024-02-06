@@ -115,7 +115,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2024-02-21,41,190!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-02-06,62,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2024-02-14,208,310!2024-05-20,253,270!2024-02-21,41,190!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-06-30,145,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -233,7 +233,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 - according to/refer to→:::←cause/reason <!--SR:!2024-02-16,23,135!2024-06-23,313,295-->
 - cause/reason→:::←effectiveness <!--SR:!2024-02-08,28,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
-- factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2024-02-06,201,295-->
+- factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
 - feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-02-07,20,130-->
 - pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
 - trend→:::←with reference to <!--SR:!2024-02-29,166,230!2024-03-24,113,190-->

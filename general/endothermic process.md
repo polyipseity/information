@@ -47,7 +47,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abbb"--><!-- The following content is generated at 2024-01-04T20:17:51.694623+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md) <!--SR:!2024-11-26,410,290!2024-06-12,341,330-->
-- [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)→:::←[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md) <!--SR:!2024-10-07,393,290!2024-02-06,219,310-->
+- [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)→:::←[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md) <!--SR:!2024-10-07,393,290!2025-12-15,678,310-->
 - [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→:::←_(end)_ <!--SR:!2024-05-12,315,330!2024-05-13,316,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
