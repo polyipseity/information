@@ -17,7 +17,7 @@ A constant of integration can absorb {{expressions such that the constant remain
 
 ### restricted arbitrariness
 
-Consider $\sin{C}$. It is tempting to {{absorb $\sin{C}$ to become $C$}}. Notice that {{the [image](image%20(mathematics).md) of $\sin{C}$ is $[-1,1]$}}. That means the resulting absorbed $C$ is {{restricted to $[-1,1]$, which makes it no longer fully arbitrary}}. To fix this, {{either do not absorb such expressions or indicate the range of the absorbed $C$ like $C_{[-1,1]}$}}. <!--SR:!2024-02-06,95,310!2024-02-19,108,310!2024-02-15,104,310!2024-02-10,99,310-->
+Consider $\sin{C}$. It is tempting to {{absorb $\sin{C}$ to become $C$}}. Notice that {{the [image](image%20(mathematics).md) of $\sin{C}$ is $[-1,1]$}}. That means the resulting absorbed $C$ is {{restricted to $[-1,1]$, which makes it no longer fully arbitrary}}. To fix this, {{either do not absorb such expressions or indicate the range of the absorbed $C$ like $C_{[-1,1]}$}}. <!--SR:!2025-03-18,406,330!2024-02-19,108,310!2024-02-15,104,310!2024-02-10,99,310-->
 
 ### spurious invariants
 

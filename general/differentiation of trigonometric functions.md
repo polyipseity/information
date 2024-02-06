@@ -92,7 +92,7 @@ return await memorize_map(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b023"--><!-- The following content is generated at 2024-01-04T20:17:51.605095+08:00. Any edits will be overridden! -->
 
 - $\cos{x}$::$\sin{x}$ <!--SR:!2024-02-11,57,310-->
-- $-\sin{x}$::$\cos{x}$ <!--SR:!2024-02-06,53,310-->
+- $-\sin{x}$::$\cos{x}$ <!--SR:!2024-09-19,226,330-->
 - $\sec^2{x}$::$\tan{x}$ <!--SR:!2024-02-10,56,310-->
 - $-\csc^2{x}$::$\cot{x}$ <!--SR:!2024-07-05,154,310-->
 - $\sec{x}\tan{x}$::$\sec{x}$ <!--SR:!2024-04-08,87,310-->
