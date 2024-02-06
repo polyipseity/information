@@ -9,11 +9,11 @@ tags:
 
 # Python function
 
-A function {{receives zero or more inputs and returns nothing or a output}}. A Python function consists of {{a name, arguments, and statements}}:
+A function {{receives zero or more inputs and returns nothing or a output}}. A Python function consists of {{a name, arguments, and a statement block}}:
 
 ```Python
 def name(arguments):
-  statements
+  statement_block
 ```
 
 This is an example of a function that takes in a number and returns the square of the number:
