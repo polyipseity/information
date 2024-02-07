@@ -115,11 +115,10 @@ Apriori_gen(L, k)
 >         )
 >     return reduce(add, all_frequent_sets, ())
 >
-> print(
->     "\n".join(str(", ".join(sorted(item_set))) for item_set in apriori(transactions, 2))
-> )
 >
-> """Output:
+> assert (
+>     "\n".join(str(", ".join(sorted(item_set))) for item_set in apriori(transactions, 2))
+>     == """
 > likes Alice
 > likes Charles
 > likes David
@@ -131,7 +130,8 @@ Apriori_gen(L, k)
 > likes David, likes Eve
 > likes Alice, likes Charles, likes Eve
 > likes Alice, likes David, likes Eve
-> """
+> """.strip()
+> )
 > ```
 
 ## references
