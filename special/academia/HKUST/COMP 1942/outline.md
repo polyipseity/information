@@ -18,7 +18,7 @@ tags:
 
 The lists below are in teaching order.
 
-## lecture 1
+## week 1 lecture
 
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database
   - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B.
@@ -29,14 +29,14 @@ The lists below are in teaching order.
   - web database ::: Using data from the web, e.g. ranking webpages.
 - [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`.
 
-## lecture 2
+## week 2 lecture 1
 
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
   - support definition ::: We use "the number of transactions containing $X$" definition here.
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 
-## lecture 3
+## week 2 lecture 2
 
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
