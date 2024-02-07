@@ -28,7 +28,7 @@ tags:
 - `create_definition`
   - {{`column_name column_definition`}}: {{define a column named `column_name` with the definition `column_definition`}}
   - {{`{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)`}}: {{an index indexed by `key_part` using the specified algorithm}}
-  - {{`PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)`}}: {{a unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm}}
+  - {{`PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)`}}: {{an unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm}}
 - `select_expression`
   - {{`*`}}: {{select all columns}}
   - {{`COUNT(expression)`}}: {{number of selected non-`NULL` rows for `expression`}}
