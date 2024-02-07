@@ -12,7 +12,7 @@ tags:
 
 ## physical quantities
 
-1. [displacement ($\vec{s}$)](../general/displacement%20(geometry).md):::[angular displacement ($\vec{\theta}$, $\vec{\phi}$)](../general/angular%20displacement.md) <!--SR:!2024-02-21,65,310!2024-02-07,53,310-->
+1. [displacement ($\vec{s}$)](../general/displacement%20(geometry).md):::[angular displacement ($\vec{\theta}$, $\vec{\phi}$)](../general/angular%20displacement.md) <!--SR:!2024-02-21,65,310!2024-09-20,226,330-->
 2. [velocity ($\vec{v}$)](../general/velocity.md):::[angular velocity ($\vec{\omega}$)](../general/angular%20velocity.md) <!--SR:!2024-02-12,57,310!2024-09-01,212,330-->
 3. [acceleration ($\vec{a}$)](../general/acceleration.md):::[angular acceleration ($\vec{\alpha}$)](../general/angular%20acceleration.md) <!--SR:!2024-02-13,58,310!2024-08-29,209,330-->
 4. [momentum ($\vec{p}$)](../general/momentum.md):::[angular momentum ($\vec{L}$)](../general/angular%20momentum.md) <!--SR:!2024-02-25,68,310!2024-02-18,62,310-->
