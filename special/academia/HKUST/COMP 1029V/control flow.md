@@ -15,7 +15,7 @@ An `If...Then...End If` statement consists of {{a condition and a statement bloc
 
 ```VB
 If condition Then
-  statements
+  statement_block
 End If
 ```
 
@@ -25,9 +25,9 @@ An `If...Then...Else...End If` statement consists of {{a condition and two state
 
 ```VB
 If condition Then
-  statements
+  statement_block
 Else
-  statements
+  statement_block
 End If
 ```
 
@@ -59,7 +59,7 @@ You can of course put nested iterations inside iterations.
 
 ```VB
 While
-  statement
+  statement_block
 Wend
 ```
 
@@ -71,7 +71,7 @@ Another way is using `Do While...Loop`. A `Do While...Loop` statement consists o
 
 ```VB
 Do While condition
-  statements
+  statement_block
 Loop
 ```
 
@@ -81,7 +81,7 @@ One can also first run the statement block instead of the condition by using a `
 
 ```VB
 Do
-  statements
+  statement_block
 Loop While condition
 ```
 
@@ -95,7 +95,7 @@ VBA also has for-loops. A `For...To...Step...Next` statement consists of {{a loo
 
 ```VB
 For LoopVariable = start To end Step step ' `Step step` optional
-  statements
+  statement_block
 Next LoopVariable
 ```
 

@@ -29,6 +29,7 @@ English
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c_y) Acting as a complement to make something else whole. <!--SR:!2024-03-21,64,324!2024-03-12,56,324-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-03-10,39,264!2024-03-16,59,324-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c_n) A standard or test to judge and compare things. <!--SR:!2024-02-08,6,370!2024-02-08,2,330-->
+- [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d_s) The process, or an instance of, of identification of the cause and nature of something.
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d_e) To make different. <!--SR:!2024-04-07,74,324!2024-04-10,77,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d_e) That dissipates or causes dissipation. <!--SR:!2024-04-13,80,324!2024-03-26,68,324-->
 - [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2024-04-04,76,324!2024-04-10,65,264-->
@@ -39,15 +40,17 @@ English
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g_e) The action or manner of governing. <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-03-19,45,303-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h_e) Perceive things that are not actually present. <!--SR:!2024-03-05,31,388!2024-02-19,16,348-->
+- [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h_c) Of or pertaining to [water](../../../general/water.md).
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2024-03-28,69,324!2024-03-18,61,324-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2024-02-21,40,304!2024-04-03,60,264-->
-- [infimum](https://en.wiktionary.org/wiki/infimum) ::: (s_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2024-02-27,20,370!2024-02-17,11,330-->
+- [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2024-02-27,20,370!2024-02-17,11,330-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::: (i_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2024-03-29,70,324!2024-04-03,75,324-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2024-04-01,73,324!2024-04-08,75,324-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2024-02-23,42,304!2024-03-27,69,324-->
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2024-03-06,32,388!2024-02-21,19,368-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n_e) Can be not considered as it is too small or unimportant. <!--SR:!2024-04-06,73,324!2024-04-04,64,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2024-04-07,74,324!2024-03-07,48,304-->
+- [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o_n) An activity or task one usually occupies oneself.
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o_e) An event or happening. <!--SR:!2024-02-08,6,370!2024-02-23,16,350-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2024-04-12,78,358-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
@@ -68,6 +71,7 @@ English
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-02-29,46,332-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-04-01,73,324!2024-02-21,15,264-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-02-08,6,370!2024-02-26,20,370-->
+- [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117.
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t_l) Of or relating to theory rather than practice. <!--SR:!2024-03-05,58,310!2024-02-28,48,270-->
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-02-08,27,284!2024-03-11,55,324-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t_y) The extent to which something is transmissible. <!--SR:!2024-03-20,63,324!2024-03-27,68,324-->

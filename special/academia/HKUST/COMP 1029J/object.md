@@ -58,7 +58,7 @@ The above object stored under `nameObject` is also called {{an _instance_ of the
 
 ## method
 
-A method consists of {{a return type, name, parameters, parameter names, and statements}}: <!--SR:!2024-02-20,15,290-->
+A method consists of {{a return type, name, parameters, parameter names, and a statement block}}: <!--SR:!2024-02-20,15,290-->
 
 ```Java
 ReturnType name(ParameterTypes parameterNames) {

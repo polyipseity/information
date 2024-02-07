@@ -17,7 +17,7 @@ The `Range` object can refer to {{a cell or a range}}. We can pass {{a cell refe
 
 ### `Cells`
 
-The `Cells` object can refer to {{a cell}}. We pass {{the row and the column in order: `Cells(row, column)`, such as `Cells(2, 1)`}}. By default, the worksheet the cell is on is {{the currently active worksheet}}. <!--SR:!2024-02-20,15,290!2024-02-16,11,270!2024-02-19,14,290-->
+The `Cells` object can refer to {{a cell}}. We pass {{the 1-based row and the 1-based column in order: `Cells(row, column)`, such as `Cells(2, 1)`}}. By default, the worksheet the cell is on is {{the currently active worksheet}}. <!--SR:!2024-02-20,15,290!2024-02-16,11,270!2024-02-19,14,290-->
 
 ### `Worksheets`
 
