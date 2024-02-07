@@ -45,7 +45,7 @@ The above [inhomogeneous ordinary differential equation](ordinary%20differential
 
 - see: [step response](step%20response.md)
 
-Consider a system {{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t > 0 \end{cases}$$}}. Physically, we expect {{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}}. Solve the equation: <!--SR:!2024-02-07,27,250!2024-03-05,50,312-->
+Consider a system {{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t > 0 \end{cases}$$}}. Physically, we expect {{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}}. Solve the equation: <!--SR:!2024-04-14,67,250!2024-03-05,50,312-->
 
 > [!info]- details
 >
@@ -92,7 +92,7 @@ The solution is as below, which matches with our physical intuition:
 
 ### sinusoidal driving force
 
-Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-02-07,26,272-->
+Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-04-17,70,272-->
 
 > [!info]- details
 >

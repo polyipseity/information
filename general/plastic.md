@@ -109,7 +109,7 @@ return _chain.from_iterable(await _gather(
 - ![polyethylene terephthalate](../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg)::[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2024-04-14,155,274-->
 - ![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg)::[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2025-03-23,478,294-->
 - ![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg)::[polypropylene](polypropylene.md) (PP) <!--SR:!2026-01-05,746,321-->
-- ![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg)::[polystyrene](polystyrene.md) (PS) <!--SR:!2024-02-07,233,321-->
+- ![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg)::[polystyrene](polystyrene.md) (PS) <!--SR:!2026-02-23,747,321-->
 - ![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)::[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-07-28,373,349-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

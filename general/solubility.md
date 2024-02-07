@@ -176,7 +176,7 @@ return (
 > sulfites
 >
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-26,415,206!2024-02-07,260,210-->
+> - exception(s): {{group I and NH<sub>4</sub><sup>+</sup> compounds}} <!--SR:!2024-07-26,415,206!2024-06-15,129,190-->
 
 <!-- markdownlint MD028 -->
 
@@ -357,7 +357,7 @@ return await memorize_map(
 - [ammonium chloride](ammonium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-24,189,318-->
 - [ammonium hydroxide](ammonia%20solution.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-05,197,318-->
 - [ammonium phosphate](ammonium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-04,196,318-->
-- [ammonium sulfide](ammonium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-02-07,68,278-->
+- [ammonium sulfide](ammonium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-08-13,188,278-->
 - [ammonium sulfite](ammonium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-11,202,318-->
 - [barium hydroxide](barium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-03-20,89,258-->
 - [barium oxide](barium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-02-27,85,278-->
@@ -366,7 +366,7 @@ return await memorize_map(
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-07,33,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-13,16,178-->
 - [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-02-16,19,178-->
-- [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-02-07,8,130-->
+- [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-02-11,4,130-->
 - [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-04,112,258-->
 - [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-23,102,278-->
 - [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-17,87,258-->

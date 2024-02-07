@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-02-14,9,250!2024-02-09,4,230-->
 - positivity→:::←rectangle <!--SR:!2024-02-13,8,250!2024-02-08,3,210-->
 - rectangle→:::←squeezing <!--SR:!2024-02-11,6,230!2024-02-10,5,230-->
-- squeezing→:::←subtraction <!--SR:!2024-02-07,1,190!2024-02-10,4,210-->
+- squeezing→:::←subtraction <!--SR:!2024-02-08,1,170!2024-02-10,4,210-->
 - subtraction→:::←union and intersection <!--SR:!2024-02-18,12,270!2024-02-10,5,230-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-02-22,16,290!2024-02-15,10,270-->
 

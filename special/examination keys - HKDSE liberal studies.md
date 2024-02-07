@@ -75,7 +75,7 @@ return await memorize_table(
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
 - post hoc→:::←self-contradiction <!--SR:!2024-02-12,29,175!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
-- virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-02-07,75,275-->
+- virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-08-30,205,275-->
 - weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -234,7 +234,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 - cause/reason→:::←effectiveness <!--SR:!2024-02-08,28,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
-- feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-02-07,20,130-->
+- feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-02-19,12,130-->
 - pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
 - trend→:::←with reference to <!--SR:!2024-02-29,166,230!2024-03-24,113,190-->
 - with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-05-02,97,275-->
@@ -442,8 +442,8 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-02-09,57,190!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-02-07,8,150!2024-08-18,268,230-->
-- Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-07,44,150-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-02-20,13,150!2024-08-18,268,230-->
+- Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-28,21,130-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

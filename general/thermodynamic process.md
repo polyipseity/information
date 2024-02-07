@@ -58,7 +58,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e939"--><!-- The following content is generated at 2024-01-04T20:17:52.923705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[adiabatic process](adiabatic%20process.md): $Q = 0$ <!--SR:!2024-02-11,31,290!2024-03-08,65,310-->
-- [adiabatic process](adiabatic%20process.md): $Q = 0$→:::←[isobaric process](isobaric%20process.md): $\Delta p = 0$ <!--SR:!2024-03-05,63,310!2024-02-07,27,290-->
+- [adiabatic process](adiabatic%20process.md): $Q = 0$→:::←[isobaric process](isobaric%20process.md): $\Delta p = 0$ <!--SR:!2024-03-05,63,310!2024-05-25,108,310-->
 - [isobaric process](isobaric%20process.md): $\Delta p = 0$→:::←[isochoric process](isochoric%20process.md): $\Delta V = 0$ <!--SR:!2024-02-15,47,290!2024-02-20,51,310-->
 - [isochoric process](isochoric%20process.md): $\Delta V = 0$→:::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$ <!--SR:!2024-03-11,67,310!2024-04-29,92,290-->
 - [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→:::←[isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md) <!--SR:!2024-02-23,54,310!2024-03-24,72,310-->
