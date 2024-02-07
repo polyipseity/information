@@ -20,5 +20,10 @@ tags:
 
 The items below are ordered in teaching order.
 
-- lecture 1
-  - [area § formal definition](../../../../general/area.md#formal%20definition)
+## week 1 lecture
+
+- [area § formal definition](../../../../general/area.md#formal%20definition)
+
+## week 2 lecture
+
+## week 2 tutorial
