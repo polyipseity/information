@@ -21,14 +21,14 @@ English
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::: (a_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2024-03-02,55,310!2024-03-23,72,310-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2024-02-09,37,290!2024-02-23,49,290-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2024-03-22,65,324!2024-03-22,58,284-->
-- [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a_l) Man-made. <!--SR:!2024-03-06,28,390!2024-02-08,6,370-->
-- [attitude](https://en.wiktionary.org/wiki/attitude) ::: (a_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-03-14,58,324!2024-02-08,6,264-->
+- [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a_l) Man-made. <!--SR:!2024-03-06,28,390!2024-03-10,31,390-->
+- [attitude](https://en.wiktionary.org/wiki/attitude) ::: (a_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-03-14,58,324!2024-03-03,24,284-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::: (b_i) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2024-04-03,66,337!2024-03-06,48,337-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::: (b_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2024-02-22,38,284!2024-04-08,75,324-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-03-19,62,324!2024-03-22,65,324-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c_y) Acting as a complement to make something else whole. <!--SR:!2024-03-21,64,324!2024-03-12,56,324-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-03-10,39,264!2024-03-16,59,324-->
-- [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c_n) A standard or test to judge and compare things. <!--SR:!2024-02-08,6,370!2024-02-08,2,330-->
+- [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c_n) A standard or test to judge and compare things. <!--SR:!2024-03-12,33,390!2024-02-15,7,330-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2024-02-13,6,372!2024-02-13,6,373-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d_e) To make different. <!--SR:!2024-04-07,74,324!2024-04-10,77,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d_e) That dissipates or causes dissipation. <!--SR:!2024-04-13,80,324!2024-03-26,68,324-->
@@ -51,7 +51,7 @@ English
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n_e) Can be not considered as it is too small or unimportant. <!--SR:!2024-04-06,73,324!2024-04-04,64,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2024-04-07,74,324!2024-03-07,48,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o_n) An activity or task one usually occupies oneself. <!--SR:!2024-02-12,5,372!2024-02-11,4,352-->
-- [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o_e) An event or happening. <!--SR:!2024-02-08,6,370!2024-02-23,16,350-->
+- [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o_e) An event or happening. <!--SR:!2024-03-11,32,390!2024-02-23,16,350-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2024-04-12,78,358-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2024-03-28,69,324!2024-03-28,70,324-->
@@ -61,8 +61,8 @@ English
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::: (p_e) To copy others' work and present it as one's own. <!--SR:!2024-03-24,67,324!2024-03-31,61,284-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-03-29,71,324!2024-03-03,49,304-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p_e) An introduction to a [document](../../../general/document.md). <!--SR:!2024-04-18,85,352!2024-04-14,81,352-->
-- [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p_e) The state of preceding in importance or priority. <!--SR:!2024-02-08,6,370!2024-02-20,14,350-->
-- [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r_t) The act of receiving or having been received. <!--SR:!2024-03-07,33,388!2024-02-08,2,328-->
+- [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p_e) The state of preceding in importance or priority. <!--SR:!2024-03-05,26,390!2024-02-20,14,350-->
+- [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r_t) The act of receiving or having been received. <!--SR:!2024-03-07,33,388!2024-02-14,6,328-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-02-18,16,368!2024-02-27,24,368-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r_t) One who receives. <!--SR:!2024-02-28,26,388!2024-03-04,28,368-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r_y) Mutual dependence, action, or influence. <!--SR:!2024-02-25,23,388!2024-02-10,10,348-->
@@ -70,13 +70,13 @@ English
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-02-29,46,332-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-04-01,73,324!2024-02-21,15,264-->
-- [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-02-08,6,370!2024-02-26,20,370-->
+- [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-03-09,30,390!2024-02-26,20,370-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2024-02-11,4,352!2024-02-13,6,372-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t_l) Of or relating to theory rather than practice. <!--SR:!2024-03-05,58,310!2024-02-28,48,270-->
-- [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-02-08,27,284!2024-03-11,55,324-->
+- [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-04-24,76,284!2024-03-11,55,324-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t_y) The extent to which something is transmissible. <!--SR:!2024-03-20,63,324!2024-03-27,68,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2024-03-03,52,270!2024-04-08,75,290-->
-- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u_s) Widespread. <!--SR:!2024-02-14,14,368!2024-02-08,3,328-->
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u_s) Widespread. <!--SR:!2024-02-14,14,368!2024-02-24,16,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v_s) Empty, void. <!--SR:!2024-03-15,59,324!2024-02-20,38,304-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2024-03-23,65,324!2024-03-16,60,324-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-03-13,57,324!2024-02-12,32,304-->

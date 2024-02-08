@@ -90,7 +90,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 
 ### concavity test
 
-The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md) can {{determine whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}}. A [twice-differentiable function](differentiable%20function.md) is {{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$, [concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}}. <!--SR:!2024-02-08,55,314!2024-02-19,65,319-->
+The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md) can {{determine whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}}. A [twice-differentiable function](differentiable%20function.md) is {{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$, [concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}}. <!--SR:!2024-10-03,238,334!2024-02-19,65,319-->
 
 ### second derivative test
 

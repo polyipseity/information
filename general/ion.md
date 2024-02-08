@@ -300,7 +300,7 @@ return chain.from_iterable(await gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
 
 - hydrogen ion::1+ <!--SR:!2027-04-14,1522,373-->
-- sodium ion::1+ <!--SR:!2024-02-08,522,310-->
+- sodium ion::1+ <!--SR:!2030-03-26,2238,330-->
 - potassium ion::1+ <!--SR:!2028-04-05,1699,312-->
 - copper(I) ion::1+ <!--SR:!2028-03-23,1794,372-->
 - silver ion::1+ <!--SR:!2028-01-13,1541,290-->
