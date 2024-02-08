@@ -127,7 +127,7 @@ return await conversion_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50fb"--><!-- The following content is generated at 2024-01-04T20:17:51.639096+08:00. Any edits will be overridden! -->
 
 - [Celsius](Celsius.md)::from: x K ≘ (x − 273.15) °C, to: x °C ≘ (x + 273.15) K <!--SR:!2024-03-05,59,310-->
-- [Fahrenheit](Fahrenheit.md)::from: x K ≘ (x × 9/5 − 459.67) °F, to: x °F ≘ (x + 459.67) × 5/9 K <!--SR:!2024-02-08,31,230-->
+- [Fahrenheit](Fahrenheit.md)::from: x K ≘ (x × 9/5 − 459.67) °F, to: x °F ≘ (x + 459.67) × 5/9 K <!--SR:!2024-04-18,70,230-->
 - [Rankine](Rankine%20scale.md)::from: x K ≘ x × 9/5 °R, to: x °R ≘ x × 5/9 K <!--SR:!2024-07-02,148,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -11,7 +11,7 @@ tags:
 
 The content below is in teaching order.
 
-- occupational health ::: general community environment, occupational hygiene, occupational medicine, occupational rehabilitation, workers, workplace <!--SR:!2024-02-08,1,242!2024-02-11,4,270-->
+- occupational health ::: general community environment, occupational hygiene, occupational medicine, occupational rehabilitation, workers, workplace <!--SR:!2024-02-09,1,222!2024-02-11,4,270-->
 - occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: Under Labour Department, there is an occupational hygiene section and an occupational medicine section. <!--SR:!2024-02-11,4,282!2024-02-11,4,270-->
   - occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards
   - occupational medicine section ::: conduct medical clearance, diagnosis, education, promotion, treatment
@@ -28,14 +28,14 @@ The content below is in teaching order.
 - noise ::: unwanted sound <!--SR:!2024-02-11,4,282!2024-02-11,4,270-->
     - human audible frequency range ::: 20~20000 Hz
 - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-02-11,4,282!2024-02-11,4,282-->
-- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2000-01-01,1,250!2024-02-08,1,242-->
+- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2000-01-01,1,250!2024-02-10,2,242-->
 - noise types ::: continuous, impact, intermittent <!--SR:!2000-01-01,1,250!2024-02-11,4,282-->
 - temperature hazards ::: Too hot or too cold. Usually too hot for most industries. Present in cold storages, glassworks, kitchens, laundries, steelworks, for example. <!--SR:!2000-01-01,1,250!2024-02-11,4,282-->
 - heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke <!--SR:!2000-01-01,1,250!2024-02-11,4,282-->
 - heat rash ::: red spots on skin <!--SR:!2024-02-11,4,282!2024-02-11,4,270-->
       - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss
 - heat cramps ::: muscle cramps, often painful, due to electrolyte loss and core temperature increase <!--SR:!2024-02-11,4,282!2000-01-01,1,250-->
-- heat stroke ::: most serious, can be fatal; convulsions, dry hot skin, elevated core temperature, high temperature, mental confusion, reduced sweating <!--SR:!2024-02-08,1,242!2000-01-01,1,250-->
+- heat stroke ::: most serious, can be fatal; convulsions, dry hot skin, elevated core temperature, high temperature, mental confusion, reduced sweating <!--SR:!2024-02-09,1,222!2000-01-01,1,250-->
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2000-01-01,1,250!2024-02-11,4,282-->
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Symptoms include pneumonia. Symptoms include breathlessness, cough, fever, headache, malaise, muscle ache, and pneumonia. Related occupations include maintenance of systems using water. A notifiable occupational disease under Compensation Ordinance. <!--SR:!2000-01-01,1,250!2024-02-11,4,270-->
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2000-01-01,1,250!2024-02-11,4,270-->

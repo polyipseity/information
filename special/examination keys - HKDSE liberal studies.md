@@ -231,7 +231,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
 - according to/refer to→:::←cause/reason <!--SR:!2024-02-16,23,135!2024-06-23,313,295-->
-- cause/reason→:::←effectiveness <!--SR:!2024-02-08,28,130!2024-03-18,191,235-->
+- cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
 - feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-02-19,12,130-->
@@ -291,7 +291,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2024-07-10,236,
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-02-22,35,270!2024-02-25,189,255!2024-02-08,50,190-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-02-22,35,270!2024-02-25,189,255!2024-03-03,24,170-->
 
 ## essay patterns
 
