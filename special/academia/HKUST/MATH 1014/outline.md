@@ -27,3 +27,5 @@ The items below are ordered in teaching order.
 ## week 2 lecture
 
 ## week 2 tutorial
+
+## week 2 lecture 2
