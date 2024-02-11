@@ -1,3 +1,7 @@
+[submodule "CTF"]
+	path = self/CTF
+	url = ../ctf.git
+	branch = main
 [submodule "arts"]
 	path = self/arts
 	url = ../information-arts.git
