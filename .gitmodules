@@ -4,15 +4,15 @@
 	branch = main
 [submodule "arts"]
 	path = self/arts
-	url = ../information-arts.git
+	url = ../arts.git
 	branch = main
 [submodule "ledger"]
 	path = self/ledger
-	url = ../information-ledger.git
+	url = ../ledger.git
 	branch = main
 [submodule "passwords"]
 	path = self/passwords
-	url = ../information-passwords.git
+	url = ../passwords.git
 	branch = main
 [submodule "polyipseity"]
 	path = self/polyipseity
