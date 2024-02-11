@@ -16,7 +16,7 @@ tags:
 > {{$$V = IR \text{ or } I = \frac V R \text{ or } R = \frac V I$$}}
 >
 > - where
->   - {{$V$ is the [voltage](voltage.md), $I$ is the [current](electric%20current.md), and $R$ is the [resistance](electrical%20resistance%20and%20conductance.md)}} <!--SR:!2024-02-11,4,270!2024-02-11,4,270-->
+>   - {{$V$ is the [voltage](voltage.md), $I$ is the [current](electric%20current.md), and $R$ is the [resistance](electrical%20resistance%20and%20conductance.md)}} <!--SR:!2024-02-24,13,290!2024-02-25,14,290-->
 
 ## references
 

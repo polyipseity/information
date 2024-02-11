@@ -354,9 +354,9 @@ return chain.from_iterable(await gather(
 - iron(III) ion::<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-03-01,85,302-->
-- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-02-10,3,130-->
+- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-02-15,4,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-02-20,40,182-->
-- vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-02-09,23,182-->
+- vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-02-20,11,162-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -431,7 +431,7 @@ return chain.from_iterable(await gather(
 - carbonate ion:::CO<sub>3</sub><sup>2-</sup> <!--SR:!2024-04-18,528,270!2029-10-30,2133,333-->
 - chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2028-07-31,1651,278!2024-06-29,618,313-->
 - dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2028-08-20,1669,278!2029-05-12,1985,325-->
-- nitride ion:::N<sup>3-</sup> <!--SR:!2024-02-11,479,267!2025-03-18,705,310-->
+- nitride ion:::N<sup>3-</sup> <!--SR:!2029-01-01,1786,287!2025-03-18,705,310-->
 - phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2025-03-25,502,239!2024-08-25,617,276-->
 - manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2024-12-04,484,382!2024-08-08,387,362-->
 
@@ -457,7 +457,7 @@ return chain.from_iterable(await gather(
 - sulfide ion::2- <!--SR:!2024-10-30,507,250-->
 - sulfate ion::2- <!--SR:!2028-06-08,1688,310-->
 - sulfite ion::2- <!--SR:!2024-12-20,695,279-->
-- carbonate ion::2- <!--SR:!2024-02-10,478,270-->
+- carbonate ion::2- <!--SR:!2029-01-16,1801,290-->
 - chromate ion::2- <!--SR:!2024-09-12,631,279-->
 - dichromate ion::2- <!--SR:!2026-12-30,1322,310-->
 - nitride ion::3- <!--SR:!2027-01-20,1338,310-->
