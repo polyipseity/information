@@ -28,7 +28,7 @@ __Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](
 
 - see: [acid–base titration](acid–base%20titration.md)
 
-Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2024-08-31,323,290!2026-05-14,866,330!2024-04-27,300,330!2025-08-31,616,310!2024-04-25,254,270!2024-02-09,235,310-->
+Acid–base titrations {{depend on [neutralization](neutralization%20(chemistry).md) between an [acid](acid.md) and a [base](base%20(chemistry).md)}}. It is measured {{using a [pH indicator](pH%20indicator.md)}}. The equivalence point is {{when complete neutralization occurs}}. The end point is {{when the [pH indicator](pH%20indicator.md) changes color sharply}}. For this reason, {{the pH indicator is chosen such that the equivalence point falls in its range of color change}}. For more accuracy, {{a [pH meter](pH%20meter.md) can be used}}. <!--SR:!2024-08-31,323,290!2026-05-14,866,330!2024-04-27,300,330!2025-08-31,616,310!2024-04-25,254,270!2026-11-12,1007,330-->
 
 If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) are used, {{the [titration curve](#titration%20curve) is regular and many pH indicators are appropriate}}. If one is strong while the other is weak, {{the equivalence point shifts to the stronger side}}. If both are weak, {{the titration curve is very irregular and a [pH meter](pH%20meter.md) is often used instead of a [pH indicator](pH%20indicator.md)}}. <!--SR:!2025-02-26,523,310!2026-07-17,917,330!2024-02-16,242,330-->
 
@@ -75,7 +75,7 @@ Methods to determine the end point include:
 
 ### equivalence and end point
 
-The _equivalence point_ is {{the theoretical completion of titration}}. The _end point_ is {{the actual measured change}}. <!--SR:!2026-01-09,758,330!2024-02-10,236,310-->
+The _equivalence point_ is {{the theoretical completion of titration}}. The _end point_ is {{the actual measured change}}. <!--SR:!2026-01-09,758,330!2026-11-18,1011,330-->
 
 ### back titration
 

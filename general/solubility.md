@@ -366,7 +366,7 @@ return await memorize_map(
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-07,33,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-13,16,178-->
 - [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-02-16,19,178-->
-- [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-02-11,4,130-->
+- [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-02-13,2,130-->
 - [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-04,112,258-->
 - [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-23,102,278-->
 - [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-17,87,258-->
@@ -382,9 +382,9 @@ return await memorize_map(
 - [copper(II) sulfide](copper(II)%20sulfide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-06,92,278-->
 - [lead(II) bromide](lead(II)%20bromide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-09,37,238-->
 - [lead(II) chloride](lead(II)%20chloride.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-10,94,278-->
-- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-09,4,130-->
+- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-15,6,130-->
 - [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-06,31,178-->
-- [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-09,8,158-->
+- [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-27,18,178-->
 - [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-06-05,160,298-->
 - [mercury(I) chloride](mercury(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-04-28,94,258-->
 - [mercury(I) iodide](mercury(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-16,100,298-->

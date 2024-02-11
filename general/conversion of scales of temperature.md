@@ -173,7 +173,7 @@ return await conversion_table(
 
 - [Celsius](Celsius.md)::from: x °F ≘ (x − 32) × 5/9 °C, to: x °C ≘ (x × 9/5 + 32) °F <!--SR:!2024-02-20,49,290-->
 - [Kelvin](Kelvin.md)::from: x °F ≘ (x + 459.67) × 5/9 K, to: x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2024-02-22,41,250-->
-- [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2024-02-09,38,290-->
+- [Rankine](Rankine%20scale.md)::from: x °F ≘ (x + 459.67) °R, to: x °R ≘ (x − 459.67) °F <!--SR:!2024-07-12,154,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

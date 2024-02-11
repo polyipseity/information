@@ -69,7 +69,7 @@ return await memorize_table(
 - _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 - affirming the consequent→:::←appeal to authority <!--SR:!2024-04-15,90,275!2024-04-23,278,315-->
 - appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-- appeal to tradition→:::←guilt by association <!--SR:!2024-02-11,12,150!2024-04-02,226,275-->
+- appeal to tradition→:::←guilt by association <!--SR:!2024-02-16,5,130!2024-04-02,226,275-->
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
@@ -123,7 +123,7 @@ return await memorize_table(
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
 - comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
-- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-02-11,9,130-->
+- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-02-22,11,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
 - solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -369,8 +369,8 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2024-01-04T20:17:58.459904+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
-- Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-02-11,178,250!2024-02-09,132,215-->
-- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-02-09,4,130-->
+- Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-05-09,88,230!2024-04-14,65,195-->
+- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-02-15,6,130-->
 - Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -441,7 +441,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-02-09,57,190!2024-11-25,388,295-->
+- _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-03-08,28,170!2024-11-25,388,295-->
 - Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-02-20,13,150!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-28,21,130-->
 

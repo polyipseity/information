@@ -165,7 +165,7 @@ return _chain.from_iterable(await _gather(
 - [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2024-11-23,330,230!2024-04-04,114,250-->
 - [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2024-04-01,73,230!2024-06-27,292,270-->
 - [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-06-16,131,210!2025-07-15,581,310-->
-- [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-03-22,79,230!2024-02-11,17,130-->
+- [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-03-22,79,230!2024-03-03,21,130-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2024-04-09,85,190!2024-10-15,381,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-06-14,132,230!2024-05-13,110,150-->
 - [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2024-08-04,178,210-->
@@ -250,7 +250,7 @@ return _chain.from_iterable(await _gather(
 - ![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg)::[Liebig condenser](Liebig%20condenser.md) <!--SR:!2024-03-06,261,330-->
 - ![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg)::[beaker](beaker.md) <!--SR:!2024-02-25,251,330-->
 - ![burette](../archives/Wikimedia%20Commons/Burette.svg)::[burette](burette.md) <!--SR:!2024-10-27,429,310-->
-- ![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg)::[burette clamp](burette%20clamp.md) <!--SR:!2024-02-10,243,330-->
+- ![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg)::[burette clamp](burette%20clamp.md) <!--SR:!2027-02-20,1105,350-->
 - ![clamp](../archives/Wikimedia%20Commons/Utility%20clamp1.jpg)::[clamp](clamp.md) <!--SR:!2024-03-03,257,330-->
 - ![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg)::[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2025-06-29,569,310-->
 - ![crucible](../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg)::[crucible](crucible.md) <!--SR:!2024-06-02,331,330-->
@@ -269,7 +269,7 @@ return _chain.from_iterable(await _gather(
 - ![measuring cylinder/graduated cylinder/mixing cylinder](../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg)::[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2025-11-14,728,330-->
 - ![mortar and pestle](../archives/Wikimedia%20Commons/White-Mortar-and-Pestle.jpg)::[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-03-09,264,330-->
 - ![pipeclay triangle](../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg)::[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2024-05-01,304,330-->
-- ![reagent bottle](../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg)::[reagent bottle](reagent%20bottle.md) <!--SR:!2024-02-09,242,330-->
+- ![reagent bottle](../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg)::[reagent bottle](reagent%20bottle.md) <!--SR:!2027-02-13,1100,350-->
 - ![round-bottom(ed) flask](../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg)::[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2024-04-09,289,330-->
 - ![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg)::[rubber bulb](rubber%20bulb.md) <!--SR:!2026-02-08,797,330-->
 - ![rubber stopper/rubber bung/rubber cork](../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg)::[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2027-02-03,1091,350-->
@@ -281,7 +281,7 @@ return _chain.from_iterable(await _gather(
 - ![test tube holder](../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG)::[test tube holder](test%20tube%20holder.md) <!--SR:!2024-04-08,288,330-->
 - ![test tube rack](../archives/Wikimedia%20Commons/Metal%20tube%20rack-laboratory%202.jpg)::[test tube rack](test%20tube%20rack.md) <!--SR:!2024-04-25,298,330-->
 - ![thermometer](../archives/Wikimedia%20Commons/Mercury%20Thermometer.jpg)::[thermometer](thermometer.md) <!--SR:!2024-05-02,305,330-->
-- ![tripod](../archives/Wikimedia%20Commons/Laboratory%20tripod.jpg)::[tripod](tripod.md) <!--SR:!2024-02-09,241,330-->
+- ![tripod](../archives/Wikimedia%20Commons/Laboratory%20tripod.jpg)::[tripod](tripod.md) <!--SR:!2027-02-09,1096,350-->
 - ![volumetric flask](../archives/Wikimedia%20Commons/10mL%20Messkolben%20mit%20Schliff%20A.jpg)::[volumetric flask](volumetric%20flask.md) <!--SR:!2026-06-04,883,330-->
 - ![volumetric pipette/bulb pipette/belly pipette](../archives/Wikimedia%20Commons/Vollpipetten.jpg)::[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-10-24,411,290-->
 - ![wash bottle](../archives/Wikimedia%20Commons/Lab%20wash-bottles%20water%20EtOH.jpg)::[wash bottle](wash%20bottle.md) <!--SR:!2024-02-28,254,330-->

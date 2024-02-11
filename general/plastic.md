@@ -83,7 +83,7 @@ return _chain.from_iterable(await _gather(
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→:::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2024-03-06,196,254!2024-06-05,334,334-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-02-26,87,289!2024-02-28,74,249-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2024-03-11,71,194!2024-04-18,161,274-->
-- [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2024-05-06,258,274!2024-02-10,65,254-->
+- [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2024-05-06,258,274!2024-10-01,233,274-->
 - [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-05-11,314,334!2024-07-16,260,281-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)→:::←_(end)_ <!--SR:!2024-05-12,315,334!2024-06-07,336,334-->
 
@@ -137,7 +137,7 @@ return _chain.from_iterable(await _gather(
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2024-05-06,194,210-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-02-12,11,130-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2024-08-13,318,261-->
-- [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-02-11,26,130-->
+- [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-03-13,31,130-->
 - [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2024-04-16,144,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2024-04-26,87,229-->
 

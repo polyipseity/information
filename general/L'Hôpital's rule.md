@@ -42,7 +42,7 @@ __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theor
 > 1. {{Given [real-valued functions](real-valued%20function.md) $f$ and $g$ which are [differentiable](differentiable%20function.md) on, for two-sided limit, an open [interval](interval%20(mathematics).md) $I$ except possibly at an [extended real number](extended%20real%20number%20line.md) $c$ which is in $I$, or for limit at infinity or [one-sided limit](one-sided%20limit.md), an open [interval](interval%20(mathematics).md) with endpoint $c$,}}
 > 2. {{if $\lim_{x\to{}c}f(x)=\lim_{x\to{}c}g(x)=0$ or $\lim_{x\to{}c}\lvert{g(x)}\rvert=\infty$, $g'(x)\ne0$ for all $x$ in $I$ except possibly $c$, and the [limit](limit%20of%20a%20functino.md) $\lim_{x\to{}c}\frac{f'(x)}{g'(x)}$ exists or equals positive or negative [infinity](infinity.md),}}
 > 3. {{then $\lim_{x\to{}c}\frac{f(x)}{g(x)}=\lim_{x\to{}c}\frac{f'(x)}{g'(x)}$.}}
-> 4. {{If $c$ is a finite endpoint of $I$, the limits can be also be [one-sided limits](one-sided%20limit.md) $x\to{}c^+$ or $x\to{}c^-$.}} <!--SR:!2024-03-31,80,280!2024-02-09,46,260!2024-03-05,77,320!2024-08-08,190,320-->
+> 4. {{If $c$ is a finite endpoint of $I$, the limits can be also be [one-sided limits](one-sided%20limit.md) $x\to{}c^+$ or $x\to{}c^-$.}} <!--SR:!2024-03-31,80,280!2024-06-07,119,260!2024-03-05,77,320!2024-08-08,190,320-->
 
 ## other indeterminate forms
 
@@ -105,13 +105,13 @@ The following table lists out transformation from other [indeterminate forms](in
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:52.125767+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←$\frac00$ <!--SR:!2024-02-15,60,310!2024-09-03,214,330-->
-- $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-02-23,67,310!2024-02-10,56,310-->
+- $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-02-23,67,310!2024-10-07,239,330-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2024-06-09,144,310!2024-02-24,31,270-->
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-06-13,142,290!2024-02-24,68,310-->
 - $\infty-\infty$→:::←$0^0$ <!--SR:!2024-02-24,29,230!2024-04-19,94,270-->
 - $0^0$→:::←$1^\infty$ <!--SR:!2024-02-25,63,290!2024-05-30,136,310-->
 - $1^\infty$→:::←$\infty^0$ <!--SR:!2024-03-04,53,270!2024-07-22,178,310-->
-- $\infty^0$→:::←_(end)_ <!--SR:!2024-09-14,222,330!2024-02-09,17,270-->
+- $\infty^0$→:::←_(end)_ <!--SR:!2024-09-14,222,330!2024-03-25,45,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -120,9 +120,9 @@ The following table lists out transformation from other [indeterminate forms](in
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dab"--><!-- The following content is generated at 2024-01-04T20:17:52.261336+08:00. Any edits will be overridden! -->
 
 - $\frac00$::$\lim_{x\to{c} }f(x)=0,\lim_{x\to{c} }g(x)=0$ <!--SR:!2024-02-14,60,310-->
-- $\frac\infty\infty$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-02-11,58,310-->
+- $\frac\infty\infty$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-10-15,247,330-->
 - $0\cdot\infty$::$\lim_{x\to{c} }f(x)=0,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-02-15,61,310-->
-- $\infty-\infty$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-02-09,56,310-->
+- $\infty-\infty$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-10-07,241,330-->
 - $0^0$::$\lim_{x\to{c} }f(x)=0^+,\lim_{x\to{c} }g(x)=0$ <!--SR:!2024-02-16,19,270-->
 - $1^\infty$::$\lim_{x\to{c} }f(x)=1,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-02-24,68,310-->
 - $\infty^0$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=0$ <!--SR:!2024-09-08,218,330-->
@@ -133,7 +133,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="679d"--><!-- The following content is generated at 2024-02-01T20:28:01.809542+08:00. Any edits will be overridden! -->
 
-- $\frac\infty\infty$::$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$ <!--SR:!2024-02-11,58,310-->
+- $\frac\infty\infty$::$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$ <!--SR:!2024-10-16,248,330-->
 - $0\cdot\infty$::$\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{f(x)}{1/g(x)}$ <!--SR:!2024-02-16,61,310-->
 - $\infty-\infty$::$\lim_{x\to{c} }(f(x)-g(x))=\lim_{x\to{c} }\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ <!--SR:!2024-05-30,123,290-->
 - $0^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2024-03-28,83,270-->
@@ -157,7 +157,7 @@ The following table lists out transformation from other [indeterminate forms](in
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1e32"--><!-- The following content is generated at 2024-02-01T20:28:01.927217+08:00. Any edits will be overridden! -->
 
 - $\frac00$::$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$ <!--SR:!2024-08-23,205,330-->
-- $0\cdot\infty$::$\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$ <!--SR:!2024-02-11,57,310-->
+- $0\cdot\infty$::$\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$ <!--SR:!2024-10-11,243,330-->
 - $\infty-\infty$::$\lim_{x\to{c} }(f(x)-g(x))=\ln\lim_{x\to{c} }\frac{e^{f(x)} }{e^{g(x)} }$ <!--SR:!2024-02-22,66,310-->
 - $0^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2024-07-26,170,310-->
 - $1^\infty$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2024-02-15,61,310-->

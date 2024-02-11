@@ -18,7 +18,7 @@ tags:
 > where
 >
 > - [function](function%20(mathematics).md) properties: {{$y$ is [displacement](displacement%20(geometry).md) at [position](position%20(geometry).md) $x$ and [time](time.md) $t$, and for $\pm$, positive is moving to the left and negative is moving to the right}}
-> - [wave](wave.md) properties: {{$A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset, and $D$ is equilibrium offset}} <!--SR:!2024-03-10,54,314!2024-02-10,30,294!2024-02-19,35,294-->
+> - [wave](wave.md) properties: {{$A$ is [amplitude](amplitude.md), $k$ is [angular wavenumber](wavenumber.md), $\omega$ is [angular frequency](angular%20frequency.md), $\phi$ is phase offset, and $D$ is equilibrium offset}} <!--SR:!2024-03-10,54,314!2024-06-08,118,314!2024-02-19,35,294-->
 
 <!-- markdownlint MD028 -->
 

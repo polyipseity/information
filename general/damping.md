@@ -18,7 +18,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2024-02-11,37,290!2024-03-17,66,310!2024-02-12,39,290-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2024-07-07,147,310!2024-03-17,66,310!2024-02-12,39,290-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -98,7 +98,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
->   - initial properties: {{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}} <!--SR:!2024-02-16,41,290!2024-02-10,37,290!2024-04-22,79,270!2024-04-22,89,290!2024-05-06,88,270!2024-02-13,28,243-->
+>   - initial properties: {{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}} <!--SR:!2024-02-16,41,290!2024-07-08,148,310!2024-04-22,79,270!2024-04-22,89,290!2024-05-06,88,270!2024-02-13,28,243-->
 
 <!-- markdownlint MD028 -->
 
@@ -124,7 +124,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
->   - initial properties: {{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}} <!--SR:!2024-02-19,44,290!2024-04-14,82,290!2024-04-07,69,270!2024-02-09,36,290!2024-02-16,31,230!2024-02-14,12,243-->
+>   - initial properties: {{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}} <!--SR:!2024-02-19,44,290!2024-04-14,82,290!2024-04-07,69,270!2024-07-02,144,310!2024-02-16,31,230!2024-02-14,12,243-->
 
 Additionally, for negative damping ratios:
 
