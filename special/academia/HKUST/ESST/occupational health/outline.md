@@ -64,7 +64,7 @@ The content below is in teaching order.
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading
   - direct reading ::: colorimetry like color detection tubes, electronic instruments
   - air or surface and laboratory analysis ::: active sampling and passive sampling like badges
-- [hazard control hierarchy](#hazard%20control%20hierarchy) 
+- [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
     - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden
       - eye and face protection ::: face shields, safety glasses, safety goggles

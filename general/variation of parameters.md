@@ -17,8 +17,8 @@ Consider {{a $n$-th order linear [ordinary differential equation](ordinary%20dif
 
 Now we [differentiate](derivative.md) {{the complementary solution $y_c(x)$ and the particular solution $y_p(x)$ $n$-times side by side and compare them}}:
 
-| $n$-th [derivative](derivative.md) | $y_c(x)$ | $y_p(x)$ | comments
-|-|-|-|-|
+| $n$-th [derivative](derivative.md) | $y_c(x)$ | $y_p(x)$ | comments |
+| - | - | - | - |
 | $y_*(x)$ | $C_1 y_1(x) + C_2 y_2(x) + \cdots + C_n y_n(x)$ | $c_1(x) y_1(x) + c_2(x) y_2(x) + \cdots + c_n(x) y_n(x)$ | |
 | $y_*^{(1)}(x)$ | $C_1 y_1^{(1)}(x) + C_2 y_2^{(1)}(x) + \cdots + C_n y_n^{(1)}(x)$ | $c_1(x) y_1^{(1)}(x) + c_2(x) y_2^{(1)}(x) + \cdots + c_n(x) y_n^{(1)}(x)$ | {{By the [product rule](product%20rule.md), there should be an extra expression $c_1'(x) y_1(x) + c_2'(x) y_2(x) + \cdots + c_n'(x) y_n(x)$. However, the one of the assumptions made by the method means this expression equals zero. This continues to apply as we [differentiate](derivative.md) further.}} |
 | $y_*^{(2)}(x)$ | $C_1 y_1^{(2)}(x) + C_2 y_2^{(2)}(x) + \cdots + C_n y_n^{(2)}(x)$ | $c_1(x) y_1^{(2)}(x) + c_2(x) y_2^{(2)}(x) + \cdots + c_n(x) y_n^{(2)}(x)$ | See above. |
