@@ -35,7 +35,7 @@ return await memorize_table(
     ('[color](color.md)', '',),
     ('[density](density.md)', '',),
     ('[ductility](ductility.md)', '',),
-    ('[electrical conductivity](electrical%20conductivity.md)',),
+    ('[electrical conductivity](electrical%20conductivity.md)', '',),
     ('[hardness](hardness.md)', '',),
     ('[malleability](malleability.md)', '',),
     ('[melting point](melting%20point.md)', '',),
@@ -51,7 +51,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2023-03-20T16:20:31.192611+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2024-02-12T15:58:39.876383+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -59,7 +59,7 @@ return await memorize_table(
 > | {{[color](color.md)}} |  |
 > | {{[density](density.md)}} |  |
 > | {{[ductility](ductility.md)}} |  |
-> | {{[electrical conductivity](electrical%20conductivity.md)}} |
+> | {{[electrical conductivity](electrical%20conductivity.md)}} |  |
 > | {{[hardness](hardness.md)}} |  |
 > | {{[malleability](malleability.md)}} |  |
 > | {{[melting point](melting%20point.md)}} |  |
