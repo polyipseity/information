@@ -18,7 +18,7 @@ tags:
 
 %%
 
-The content below is in teaching order.
+The content is in teaching order.
 
 - [occupational health areas](#occupational%20health%20areas)
 - occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: Under Labour Department, there is an occupational hygiene section and an occupational medicine section.

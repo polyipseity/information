@@ -18,7 +18,7 @@ tags:
 
 %%
 
-The content below is in teaching order.
+The content is in teaching order.
 
 - [Ohm's law](../../../../../general/Ohm's%20law.md) ::: _V_ = _IR_
 - [electric current](../../../../../general/electric%20current.md) types ::: [alternating current](../../../../../general/alternating%20current.md) (AC), [direct current](../../../../../general/direct%20current.md) (DC)
