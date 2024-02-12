@@ -37,12 +37,12 @@ Apriori(T, ε)
     return Union(L_k)
 
 Apriori_gen(L, k)
-     result ← list()
-     for all p ∈ L, q ∈ L where p1 = q1, p2 = q2, ..., pk-2 = qk-2 and pk-1 < qk-1
-         c = p ∪ {qk-1}
-         if u ∈ L for all u ⊆ c where |u| = k-1
-             result.add(c)
-      return result
+    result ← list()
+    for all p ∈ L, q ∈ L where p_1 = q_1, p_2 = q_2, ..., p_(k-2) = q_(k-2) and p_(k-1) < q_(k-1)
+        c = p ∪ {q_(k-1)}
+        if u ∈ L for all u ⊆ c where |u| = k-1
+            result.add(c)
+    return result
 ```
 
 > [!example]- implementations
