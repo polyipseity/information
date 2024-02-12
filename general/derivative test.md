@@ -67,7 +67,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 >
 > 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md). $I$ is an [interval](interval%20(mathematics).md) containing $c$. $f$ is [right/left-differentiable](differentiable%20function.md) at $c$, i.e. $f'_\pm(c)$ exists. (Choose either right (`+`) or left (`-`).)}}
 > 2. {{then:<ul><li>If $f'_-(c)<0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_-(c)>0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_+(c)<0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>If $f'_+(c)>0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>Otherwise, the test is inconclusive.</li></ul>}}
-> 3. {{If needed, combine the above conclusions from both sides. Strictness of [extremum](maximum%20and%20minimum.md) at $c$ is preserved if and only if both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md).}} <!--SR:!2024-04-04,71,239!2024-04-02,82,279!2024-02-12,11,309-->
+> 3. {{If needed, combine the above conclusions from both sides. Strictness of [extremum](maximum%20and%20minimum.md) at $c$ is preserved if and only if both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md).}} <!--SR:!2024-04-04,71,239!2024-04-02,82,279!2024-03-29,46,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -86,7 +86,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 > - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$: {{Increasing (actually, weakly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
 > - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+x\sin{\frac1x}\right)&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive by the two-sided test because no suitable $\epsilon$ exist and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
 > - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0 or do not exist.}}
-> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}} <!--SR:!2024-06-13,148,319!2024-04-24,97,279!2024-05-19,116,292!2024-05-26,110,259!2024-06-17,137,299!2024-07-03,151,299!2024-07-30,183,314!2024-06-24,143,299!2024-02-20,32,254!2024-03-06,78,319!2024-06-09,133,299!2024-02-12,27,254!2024-06-05,128,294!2024-05-24,122,299-->
+> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}} <!--SR:!2024-06-13,148,319!2024-04-24,97,279!2024-05-19,116,292!2024-05-26,110,259!2024-06-17,137,299!2024-07-03,151,299!2024-07-30,183,314!2024-06-24,143,299!2024-02-20,32,254!2024-03-06,78,319!2024-06-09,133,299!2024-04-20,68,254!2024-06-05,128,294!2024-05-24,122,299-->
 
 ### concavity test
 

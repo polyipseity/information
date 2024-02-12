@@ -61,12 +61,12 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←appearance <!--SR:!2024-04-21,294,330!2024-05-16,314,330-->
-- appearance→:::←deformability (as a solid) <!--SR:!2024-02-12,80,250!2024-08-19,360,290-->
+- appearance→:::←deformability (as a solid) <!--SR:!2024-08-29,199,250!2024-08-19,360,290-->
 - deformability (as a solid)→:::←[density](density.md) <!--SR:!2026-03-01,768,290!2024-03-16,90,290-->
 - [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-04-08,63,190-->
 - [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2024-06-04,279,270!2024-05-02,86,210-->
 - form→:::←[melting point](melting%20point.md) <!--SR:!2024-05-08,113,190!2024-02-24,74,210-->
-- [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2025-07-28,539,270!2024-02-12,1,130-->
+- [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2025-07-28,539,270!2024-02-14,2,150-->
 - [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2024-02-19,87,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
