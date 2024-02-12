@@ -213,32 +213,32 @@ protective bonding
 return await memorize_seq(
   __env__.cwf_sects("b234", "46f1",),
   """
+Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
+Electricity Ordinance (Cap. 406)
 _Code of Practice for the Electricity (Wiring) Regulations_
 Consumer Goods Safety Ordinance (Cap. 456)
-Electricity Ordinance (Cap. 406)
-Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b234"--><!-- The following content is generated at 2024-02-09T09:14:53.771438+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b234"--><!-- The following content is generated at 2024-02-12T16:43:42.627779+08:00. Any edits will be overridden! -->
 
-> 1. _Code of Practice for the Electricity (Wiring) Regulations_
-> 2. Consumer Goods Safety Ordinance (Cap. 456)
-> 3. Electricity Ordinance (Cap. 406)
-> 4. Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
+> 1. Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
+> 2. Electricity Ordinance (Cap. 406)
+> 3. _Code of Practice for the Electricity (Wiring) Regulations_
+> 4. Consumer Goods Safety Ordinance (Cap. 456)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-09T09:14:53.784624+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_Code of Practice for the Electricity (Wiring) Regulations_
+- _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406)
+- Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456)
-- Consumer Goods Safety Ordinance (Cap. 456)→:::←Electricity Ordinance (Cap. 406)
-- Electricity Ordinance (Cap. 406)→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←_(end)_
+- Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

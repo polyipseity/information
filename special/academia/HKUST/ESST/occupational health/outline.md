@@ -441,19 +441,19 @@ engineering
 administration
 personal protective equipment
 """.strip().splitlines(),
-  prefix="_(in decreasing preference)_",
-  suffix="_(in decreasing preference)_",
+  pretext="in decreasing preference",
+  posttext="in decreasing preference",
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-02-09T10:21:06.271390+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-02-12T16:43:42.695370+08:00. Any edits will be overridden! -->
 
-> _(in decreasing preference)_1. hazard reduction or elimination
+> 1. hazard reduction or elimination
 > 2. engineering
 > 3. administration
-> 4. personal protective equipment_(in decreasing preference)_
+> 4. personal protective equipment
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
