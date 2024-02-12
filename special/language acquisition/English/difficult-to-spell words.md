@@ -40,7 +40,7 @@ English
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g_e) The action or manner of governing. <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-03-19,45,303-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h_e) Perceive things that are not actually present. <!--SR:!2024-03-05,31,388!2024-02-19,16,348-->
-- [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2024-02-13,6,372!2024-02-12,5,372-->
+- [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2024-02-13,6,372!2024-03-05,22,392-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2024-03-28,69,324!2024-03-18,61,324-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2024-02-21,40,304!2024-04-03,60,264-->
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2024-02-27,20,370!2024-02-17,11,330-->
@@ -50,7 +50,7 @@ English
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2024-03-06,32,388!2024-02-21,19,368-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n_e) Can be not considered as it is too small or unimportant. <!--SR:!2024-04-06,73,324!2024-04-04,64,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2024-04-07,74,324!2024-03-07,48,304-->
-- [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o_n) An activity or task one usually occupies oneself. <!--SR:!2024-02-12,5,372!2024-02-25,14,352-->
+- [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o_n) An activity or task one usually occupies oneself. <!--SR:!2024-03-07,24,392!2024-02-25,14,352-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o_e) An event or happening. <!--SR:!2024-03-11,32,390!2024-02-23,16,350-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2024-04-12,78,358-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
@@ -79,7 +79,7 @@ English
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u_s) Widespread. <!--SR:!2024-02-14,14,368!2024-02-24,16,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v_s) Empty, void. <!--SR:!2024-03-15,59,324!2024-02-20,38,304-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2024-03-23,65,324!2024-03-16,60,324-->
-- [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-03-13,57,324!2024-02-12,32,304-->
+- [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-03-13,57,324!2024-06-25,134,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::: (v_r) To do or offer to do something voluntarily. <!--SR:!2024-04-02,74,352!2024-04-04,76,352-->
 
 ## references

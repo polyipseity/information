@@ -60,7 +60,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2024-02-14,204,270!2024-05-15,295,315!2024-04-12,268,315!2024-03-01,79,270!2024-03-24,223,275!2024-02-12,72,235!2024-04-21,93,275!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
+> | {{weak analogies}} | <!--SR:!2024-02-14,204,270!2024-05-15,295,315!2024-04-12,268,315!2024-03-01,79,270!2024-03-24,223,275!2024-03-20,37,215!2024-04-21,93,275!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -73,7 +73,7 @@ return await memorize_table(
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
-- post hoc→:::←self-contradiction <!--SR:!2024-02-12,29,175!2024-04-04,260,315-->
+- post hoc→:::←self-contradiction <!--SR:!2024-02-27,15,155!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 - virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-08-30,205,275-->
 - weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->

@@ -11,7 +11,7 @@ tags:
 
 The content below is in teaching order.
 
-- occupational health ::: general community environment, occupational hygiene, occupational medicine, occupational rehabilitation, workers, workplace <!--SR:!2024-02-12,1,182!2024-02-25,14,290-->
+- occupational health ::: general community environment, occupational hygiene, occupational medicine, occupational rehabilitation, workers, workplace <!--SR:!2024-02-14,2,182!2024-02-25,14,290-->
 - occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: Under Labour Department, there is an occupational hygiene section and an occupational medicine section. <!--SR:!2024-02-27,16,302!2024-02-26,15,290-->
   - occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards
   - occupational medicine section ::: conduct medical clearance, diagnosis, education, promotion, treatment
@@ -35,7 +35,7 @@ The content below is in teaching order.
 - heat rash ::: red spots on skin <!--SR:!2024-02-28,17,302!2024-02-24,13,290-->
       - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss
 - heat cramps ::: muscle cramps, often painful, due to electrolyte loss and core temperature increase <!--SR:!2024-02-23,12,282!2000-01-01,1,250-->
-- heat stroke ::: most serious, can be fatal; convulsions, dry hot skin, elevated core temperature, high temperature, mental confusion, reduced sweating <!--SR:!2024-02-12,1,202!2000-01-01,1,250-->
+- heat stroke ::: most serious, can be fatal; convulsions, dry hot skin, elevated core temperature, high temperature, mental confusion, reduced sweating <!--SR:!2024-02-14,2,202!2000-01-01,1,250-->
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2000-01-01,1,250!2024-02-28,17,302-->
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Symptoms include pneumonia. Symptoms include breathlessness, cough, fever, headache, malaise, muscle ache, and pneumonia. Related occupations include maintenance of systems using water. A notifiable occupational disease under Compensation Ordinance. <!--SR:!2000-01-01,1,250!2024-02-26,15,290-->
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2000-01-01,1,250!2024-02-26,15,290-->
