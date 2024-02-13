@@ -78,6 +78,225 @@ The content is in teaching order.
 
 ## oversized data
 
+### Legionnaires' Disease syndromes
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("29ba", "857e",),
+  """
+breathlessness
+cough
+fever
+headache
+malaise
+muscle ache
+pneumonia
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29ba"--><!-- The following content is generated at 2024-02-09T10:20:46.039466+08:00. Any edits will be overridden! -->
+
+> 1. breathlessness
+> 2. cough
+> 3. fever
+> 4. headache
+> 5. malaise
+> 6. muscle ache
+> 7. pneumonia
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←breathlessness
+- breathlessness→:::←cough
+- cough→:::←fever
+- fever→:::←headache
+- headache→:::←malaise
+- malaise→:::←muscle ache
+- muscle ache→:::←pneumonia
+- pneumonia→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### hazard control hierarchy
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("93ab", "ee35",),
+  """
+hazard reduction or elimination
+engineering
+administration
+personal protective equipment
+""".strip().splitlines(),
+  pretext="in decreasing preference",
+  posttext="in decreasing preference",
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-02-12T16:43:42.695370+08:00. Any edits will be overridden! -->
+
+> 1. hazard reduction or elimination
+> 2. engineering
+> 3. administration
+> 4. personal protective equipment
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-09T10:21:06.254826+08:00. Any edits will be overridden! -->
+
+- _(in decreasing preference)_→:::←hazard reduction or elimination
+- hazard reduction or elimination→:::←engineering
+- engineering→:::←administration
+- administration→:::←personal protective equipment
+- personal protective equipment→:::←_(in decreasing preference)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### heat stroke syndromes
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("b12d", "7832",),
+  """
+convulsions
+dry hot skin
+elevated core temperature
+high temperature
+mental confusion
+reduced sweating
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b12d"--><!-- The following content is generated at 2024-02-09T10:20:45.970034+08:00. Any edits will be overridden! -->
+
+> 1. convulsions
+> 2. dry hot skin
+> 3. elevated core temperature
+> 4. high temperature
+> 5. mental confusion
+> 6. reduced sweating
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←convulsions
+- convulsions→:::←dry hot skin
+- dry hot skin→:::←elevated core temperature
+- elevated core temperature→:::←high temperature
+- high temperature→:::←mental confusion
+- mental confusion→:::←reduced sweating
+- reduced sweating→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### occupational hazard factors
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("1a67", "058b",),
+  """
+control
+environment
+equipment
+material
+process
+user
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1a67"--><!-- The following content is generated at 2024-02-09T10:20:45.730827+08:00. Any edits will be overridden! -->
+
+> 1. control
+> 2. environment
+> 3. equipment
+> 4. material
+> 5. process
+> 6. user
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←control
+- control→:::←environment
+- environment→:::←equipment
+- equipment→:::←material
+- material→:::←process
+- process→:::←user
+- user→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### occupational hazard types
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("f9a2", "b123",),
+  """
+biological
+chemical
+ergonomics
+occupation-specific
+physical
+socio-psychological
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-02-09T10:20:45.680704+08:00. Any edits will be overridden! -->
+
+> 1. biological
+> 2. chemical
+> 3. ergonomics
+> 4. occupation-specific
+> 5. physical
+> 6. socio-psychological
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-02-09T10:20:45.641711+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←biological
+- biological→:::←chemical
+- chemical→:::←ergonomics
+- ergonomics→:::←occupation-specific
+- occupation-specific→:::←physical
+- physical→:::←socio-psychological
+- socio-psychological→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
 ### occupational health areas
 
 %%
@@ -163,94 +382,6 @@ treatment
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### occupational hazard types
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("f9a2", "b123",),
-  """
-biological
-chemical
-ergonomics
-occupation-specific
-physical
-socio-psychological
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-02-09T10:20:45.680704+08:00. Any edits will be overridden! -->
-
-> 1. biological
-> 2. chemical
-> 3. ergonomics
-> 4. occupation-specific
-> 5. physical
-> 6. socio-psychological
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-02-09T10:20:45.641711+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←biological
-- biological→:::←chemical
-- chemical→:::←ergonomics
-- ergonomics→:::←occupation-specific
-- occupation-specific→:::←physical
-- physical→:::←socio-psychological
-- socio-psychological→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### occupational hazard factors
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("1a67", "058b",),
-  """
-control
-environment
-equipment
-material
-process
-user
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1a67"--><!-- The following content is generated at 2024-02-09T10:20:45.730827+08:00. Any edits will be overridden! -->
-
-> 1. control
-> 2. environment
-> 3. equipment
-> 4. material
-> 5. process
-> 6. user
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←control
-- control→:::←environment
-- environment→:::←equipment
-- equipment→:::←material
-- material→:::←process
-- process→:::←user
-- user→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
 ### physical hazards
 
 %%
@@ -333,136 +464,5 @@ steelworks
 - kitchens→:::←laundries
 - laundries→:::←steelworks
 - steelworks→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### heat stroke syndromes
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("b12d", "7832",),
-  """
-convulsions
-dry hot skin
-elevated core temperature
-high temperature
-mental confusion
-reduced sweating
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b12d"--><!-- The following content is generated at 2024-02-09T10:20:45.970034+08:00. Any edits will be overridden! -->
-
-> 1. convulsions
-> 2. dry hot skin
-> 3. elevated core temperature
-> 4. high temperature
-> 5. mental confusion
-> 6. reduced sweating
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←convulsions
-- convulsions→:::←dry hot skin
-- dry hot skin→:::←elevated core temperature
-- elevated core temperature→:::←high temperature
-- high temperature→:::←mental confusion
-- mental confusion→:::←reduced sweating
-- reduced sweating→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### Legionnaires' Disease syndromes
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("29ba", "857e",),
-  """
-breathlessness
-cough
-fever
-headache
-malaise
-muscle ache
-pneumonia
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29ba"--><!-- The following content is generated at 2024-02-09T10:20:46.039466+08:00. Any edits will be overridden! -->
-
-> 1. breathlessness
-> 2. cough
-> 3. fever
-> 4. headache
-> 5. malaise
-> 6. muscle ache
-> 7. pneumonia
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←breathlessness
-- breathlessness→:::←cough
-- cough→:::←fever
-- fever→:::←headache
-- headache→:::←malaise
-- malaise→:::←muscle ache
-- muscle ache→:::←pneumonia
-- pneumonia→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### hazard control hierarchy
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("93ab", "ee35",),
-  """
-hazard reduction or elimination
-engineering
-administration
-personal protective equipment
-""".strip().splitlines(),
-  pretext="in decreasing preference",
-  posttext="in decreasing preference",
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-02-12T16:43:42.695370+08:00. Any edits will be overridden! -->
-
-> 1. hazard reduction or elimination
-> 2. engineering
-> 3. administration
-> 4. personal protective equipment
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-09T10:21:06.254826+08:00. Any edits will be overridden! -->
-
-- _(in decreasing preference)_→:::←hazard reduction or elimination
-- hazard reduction or elimination→:::←engineering
-- engineering→:::←administration
-- administration→:::←personal protective equipment
-- personal protective equipment→:::←_(in decreasing preference)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

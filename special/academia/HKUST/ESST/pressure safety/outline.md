@@ -65,6 +65,88 @@ The content is in teaching order.
 
 ## oversized data
 
+### air or steam receiver requirements
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("29a2", "3842",),
+  """
+automatic mechanism like reducing valve to prevent over-pressurizing
+marked with a distinguishing number
+pressure gauge with red marking showing the maximum permissible working pressure
+spring-loaded safety valve for controlling the maximum permissible working pressure
+withstand the maximum permissible working pressure
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-09T19:56:52.979288+08:00. Any edits will be overridden! -->
+
+> 1. automatic mechanism like reducing valve to prevent over-pressurizing
+> 2. marked with a distinguishing number
+> 3. pressure gauge with red marking showing the maximum permissible working pressure
+> 4. spring-loaded safety valve for controlling the maximum permissible working pressure
+> 5. withstand the maximum permissible working pressure
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-09T19:56:52.962765+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←automatic mechanism like reducing valve to prevent over-pressurizing
+- automatic mechanism like reducing valve to prevent over-pressurizing→:::←marked with a distinguishing number
+- marked with a distinguishing number→:::←pressure gauge with red marking showing the maximum permissible working pressure
+- pressure gauge with red marking showing the maximum permissible working pressure→:::←spring-loaded safety valve for controlling the maximum permissible working pressure
+- spring-loaded safety valve for controlling the maximum permissible working pressure→:::←withstand the maximum permissible working pressure
+- withstand the maximum permissible working pressure→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### auxiliary equipments
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("5920", "9281",),
+  """
+flue damper
+fuel pump
+heater
+multiple burner
+pipe
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5920"--><!-- The following content is generated at 2024-02-09T19:56:53.046293+08:00. Any edits will be overridden! -->
+
+> 1. flue damper
+> 2. fuel pump
+> 3. heater
+> 4. multiple burner
+> 5. pipe
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←flue damper
+- flue damper→:::←fuel pump
+- fuel pump→:::←heater
+- heater→:::←multiple burner
+- multiple burner→:::←pipe
+- pipe→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
 ### boiler examples
 
 %%
@@ -106,41 +188,170 @@ thermal oil heater
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### pressure vessel examples
+### boiler requirements
 
 %%
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 return await memorize_seq(
-  __env__.cwf_sects("948b", "152a",),
+  __env__.cwf_sects("96ff", "3e9a",),
   """
-air receiver
-fixed vessel for starting internal combustion engine
-pressured fuel container
-spraying paint container
+fusible pressure release plug or efficient low-water alarm
+marked with a distinguishing number
+pressure gauge with red marking showing the maximum permissible working pressure
+spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
+transparent water level gauge
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="948b"--><!-- The following content is generated at 2024-02-09T19:56:52.672841+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-09T19:56:52.929757+08:00. Any edits will be overridden! -->
 
-> 1. air receiver
-> 2. fixed vessel for starting internal combustion engine
-> 3. pressured fuel container
-> 4. spraying paint container
+> 1. fusible pressure release plug or efficient low-water alarm
+> 2. marked with a distinguishing number
+> 3. pressure gauge with red marking showing the maximum permissible working pressure
+> 4. spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
+> 5. transparent water level gauge
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="152a"--><!-- The following content is generated at 2024-02-09T19:56:52.689301+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-09T19:56:52.944756+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air receiver
-- air receiver→:::←fixed vessel for starting internal combustion engine
-- fixed vessel for starting internal combustion engine→:::←pressured fuel container
-- pressured fuel container→:::←spraying paint container
-- spraying paint container→:::←_(end)_
+- _(begin)_→:::←fusible pressure release plug or efficient low-water alarm
+- fusible pressure release plug or efficient low-water alarm→:::←marked with a distinguishing number
+- marked with a distinguishing number→:::←pressure gauge with red marking showing the maximum permissible working pressure
+- pressure gauge with red marking showing the maximum permissible working pressure→:::←spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
+- spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure→:::←transparent water level gauge
+- transparent water level gauge→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### compressed gas cylinder safety measures
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("9012", "33bb",),
+  """
+close inactive valves
+correct fittings and regulators
+empty cylinders are marked empty
+flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
+frequent inspection, keep upright
+no electric arcs or heat sources nearby
+no oily or greasy substances or otherwise explosion
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-09T19:56:53.126839+08:00. Any edits will be overridden! -->
+
+> 1. close inactive valves
+> 2. correct fittings and regulators
+> 3. empty cylinders are marked empty
+> 4. flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
+> 5. frequent inspection, keep upright
+> 6. no electric arcs or heat sources nearby
+> 7. no oily or greasy substances or otherwise explosion
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-09T19:56:53.116815+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←close inactive valves
+- close inactive valves→:::←correct fittings and regulators
+- correct fittings and regulators→:::←empty cylinders are marked empty
+- empty cylinders are marked empty→:::←flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
+- flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites→:::←frequent inspection, keep upright
+- frequent inspection, keep upright→:::←no electric arcs or heat sources nearby
+- no electric arcs or heat sources nearby→:::←no oily or greasy substances or otherwise explosion
+- no oily or greasy substances or otherwise explosion→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### design safety considerations
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("2929", "dd81",),
+  """
+expected working life
+fluid type and properties
+operating limits
+valve operating conditions
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2929"--><!-- The following content is generated at 2024-02-09T19:56:52.911757+08:00. Any edits will be overridden! -->
+
+> 1. expected working life
+> 2. fluid type and properties
+> 3. operating limits
+> 4. valve operating conditions
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd81"--><!-- The following content is generated at 2024-02-09T19:56:52.892630+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←expected working life
+- expected working life→:::←fluid type and properties
+- fluid type and properties→:::←operating limits
+- operating limits→:::←valve operating conditions
+- valve operating conditions→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### design safety goals
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("038b", "857e",),
+  """
+examinable
+has protective devices
+protective devices that release contents do so safely
+safely accessible interior
+suitable material
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-09T19:56:52.853822+08:00. Any edits will be overridden! -->
+
+> 1. examinable
+> 2. has protective devices
+> 3. protective devices that release contents do so safely
+> 4. safely accessible interior
+> 5. suitable material
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T19:56:52.874126+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←examinable
+- examinable→:::←has protective devices
+- has protective devices→:::←protective devices that release contents do so safely
+- protective devices that release contents do so safely→:::←safely accessible interior
+- safely accessible interior→:::←suitable material
+- suitable material→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -188,59 +399,6 @@ overheating
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor
 - ignition or detonation of oil or oil vapor→:::←overheating
 - overheating→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### hazard types
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("837b", "937a",),
-  """
-blast
-chemical burn
-explosion
-fire
-flying debris
-poisoning
-shockwave
-suffocation
-thermal burn
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="837b"--><!-- The following content is generated at 2024-02-09T19:56:52.769306+08:00. Any edits will be overridden! -->
-
-> 1. blast
-> 2. chemical burn
-> 3. explosion
-> 4. fire
-> 5. flying debris
-> 6. poisoning
-> 7. shockwave
-> 8. suffocation
-> 9. thermal burn
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="937a"--><!-- The following content is generated at 2024-02-09T19:56:52.792818+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←blast
-- blast→:::←chemical burn
-- chemical burn→:::←explosion
-- explosion→:::←fire
-- fire→:::←flying debris
-- flying debris→:::←poisoning
-- poisoning→:::←shockwave
-- shockwave→:::←suffocation
-- suffocation→:::←thermal burn
-- thermal burn→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -297,293 +455,56 @@ worker skills
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### design safety goals
+### hazard types
 
 %%
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 return await memorize_seq(
-  __env__.cwf_sects("038b", "857e",),
+  __env__.cwf_sects("837b", "937a",),
   """
-examinable
-has protective devices
-protective devices that release contents do so safely
-safely accessible interior
-suitable material
+blast
+chemical burn
+explosion
+fire
+flying debris
+poisoning
+shockwave
+suffocation
+thermal burn
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-09T19:56:52.853822+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="837b"--><!-- The following content is generated at 2024-02-09T19:56:52.769306+08:00. Any edits will be overridden! -->
 
-> 1. examinable
-> 2. has protective devices
-> 3. protective devices that release contents do so safely
-> 4. safely accessible interior
-> 5. suitable material
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T19:56:52.874126+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←examinable
-- examinable→:::←has protective devices
-- has protective devices→:::←protective devices that release contents do so safely
-- protective devices that release contents do so safely→:::←safely accessible interior
-- safely accessible interior→:::←suitable material
-- suitable material→:::←_(end)_
+> 1. blast
+> 2. chemical burn
+> 3. explosion
+> 4. fire
+> 5. flying debris
+> 6. poisoning
+> 7. shockwave
+> 8. suffocation
+> 9. thermal burn
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### design safety considerations
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="937a"--><!-- The following content is generated at 2024-02-09T19:56:52.792818+08:00. Any edits will be overridden! -->
 
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("2929", "dd81",),
-  """
-expected working life
-fluid type and properties
-operating limits
-valve operating conditions
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2929"--><!-- The following content is generated at 2024-02-09T19:56:52.911757+08:00. Any edits will be overridden! -->
-
-> 1. expected working life
-> 2. fluid type and properties
-> 3. operating limits
-> 4. valve operating conditions
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd81"--><!-- The following content is generated at 2024-02-09T19:56:52.892630+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←expected working life
-- expected working life→:::←fluid type and properties
-- fluid type and properties→:::←operating limits
-- operating limits→:::←valve operating conditions
-- valve operating conditions→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### boiler requirements
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("96ff", "3e9a",),
-  """
-fusible pressure release plug or efficient low-water alarm
-marked with a distinguishing number
-pressure gauge with red marking showing the maximum permissible working pressure
-spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
-transparent water level gauge
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-09T19:56:52.929757+08:00. Any edits will be overridden! -->
-
-> 1. fusible pressure release plug or efficient low-water alarm
-> 2. marked with a distinguishing number
-> 3. pressure gauge with red marking showing the maximum permissible working pressure
-> 4. spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
-> 5. transparent water level gauge
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-09T19:56:52.944756+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←fusible pressure release plug or efficient low-water alarm
-- fusible pressure release plug or efficient low-water alarm→:::←marked with a distinguishing number
-- marked with a distinguishing number→:::←pressure gauge with red marking showing the maximum permissible working pressure
-- pressure gauge with red marking showing the maximum permissible working pressure→:::←spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
-- spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure→:::←transparent water level gauge
-- transparent water level gauge→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### air or steam receiver requirements
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("29a2", "3842",),
-  """
-automatic mechanism like reducing valve to prevent over-pressurizing
-marked with a distinguishing number
-pressure gauge with red marking showing the maximum permissible working pressure
-spring-loaded safety valve for controlling the maximum permissible working pressure
-withstand the maximum permissible working pressure
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-09T19:56:52.979288+08:00. Any edits will be overridden! -->
-
-> 1. automatic mechanism like reducing valve to prevent over-pressurizing
-> 2. marked with a distinguishing number
-> 3. pressure gauge with red marking showing the maximum permissible working pressure
-> 4. spring-loaded safety valve for controlling the maximum permissible working pressure
-> 5. withstand the maximum permissible working pressure
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-09T19:56:52.962765+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←automatic mechanism like reducing valve to prevent over-pressurizing
-- automatic mechanism like reducing valve to prevent over-pressurizing→:::←marked with a distinguishing number
-- marked with a distinguishing number→:::←pressure gauge with red marking showing the maximum permissible working pressure
-- pressure gauge with red marking showing the maximum permissible working pressure→:::←spring-loaded safety valve for controlling the maximum permissible working pressure
-- spring-loaded safety valve for controlling the maximum permissible working pressure→:::←withstand the maximum permissible working pressure
-- withstand the maximum permissible working pressure→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### pressurized fuel container requirements
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("10ab", "23fb",),
-  """
-accessible valves and safety devices
-all piping properly secured save for 0.6 m immediately before the burner
-maximum permissible working pressure not more than 500 kPa
-pressure release valve
-remote control valve as close to burner as possible
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10ab"--><!-- The following content is generated at 2024-02-09T19:56:53.014286+08:00. Any edits will be overridden! -->
-
-> 1. accessible valves and safety devices
-> 2. all piping properly secured save for 0.6 m immediately before the burner
-> 3. maximum permissible working pressure not more than 500 kPa
-> 4. pressure release valve
-> 5. remote control valve as close to burner as possible
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23fb"--><!-- The following content is generated at 2024-02-09T19:56:52.996287+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←accessible valves and safety devices
-- accessible valves and safety devices→:::←all piping properly secured save for 0.6 m immediately before the burner
-- all piping properly secured save for 0.6 m immediately before the burner→:::←maximum permissible working pressure not more than 500 kPa
-- maximum permissible working pressure not more than 500 kPa→:::←pressure release valve
-- pressure release valve→:::←remote control valve as close to burner as possible
-- remote control valve as close to burner as possible→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### auxiliary equipments
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("5920", "9281",),
-  """
-flue damper
-fuel pump
-heater
-multiple burner
-pipe
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5920"--><!-- The following content is generated at 2024-02-09T19:56:53.046293+08:00. Any edits will be overridden! -->
-
-> 1. flue damper
-> 2. fuel pump
-> 3. heater
-> 4. multiple burner
-> 5. pipe
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←flue damper
-- flue damper→:::←fuel pump
-- fuel pump→:::←heater
-- heater→:::←multiple burner
-- multiple burner→:::←pipe
-- pipe→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### safety control measures
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("eeef", "184a",),
-  """
-air inlet and outlet monitoring
-calibrated pressure gauge
-coolant protection
-explosion protection
-lubricant protection
-safety valve
-thermal protection
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeef"--><!-- The following content is generated at 2024-02-09T19:56:53.064301+08:00. Any edits will be overridden! -->
-
-> 1. air inlet and outlet monitoring
-> 2. calibrated pressure gauge
-> 3. coolant protection
-> 4. explosion protection
-> 5. lubricant protection
-> 6. safety valve
-> 7. thermal protection
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="184a"--><!-- The following content is generated at 2024-02-09T19:56:53.080815+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←air inlet and outlet monitoring
-- air inlet and outlet monitoring→:::←calibrated pressure gauge
-- calibrated pressure gauge→:::←coolant protection
-- coolant protection→:::←explosion protection
-- explosion protection→:::←lubricant protection
-- lubricant protection→:::←safety valve
-- safety valve→:::←thermal protection
-- thermal protection→:::←_(end)_
+- _(begin)_→:::←blast
+- blast→:::←chemical burn
+- chemical burn→:::←explosion
+- explosion→:::←fire
+- fire→:::←flying debris
+- flying debris→:::←poisoning
+- poisoning→:::←shockwave
+- shockwave→:::←suffocation
+- suffocation→:::←thermal burn
+- thermal burn→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -637,50 +558,82 @@ segregate and indicate work area
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### compressed gas cylinder safety measures
+### pressure vessel examples
 
 %%
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 return await memorize_seq(
-  __env__.cwf_sects("9012", "33bb",),
+  __env__.cwf_sects("948b", "152a",),
   """
-close inactive valves
-correct fittings and regulators
-empty cylinders are marked empty
-flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-frequent inspection, keep upright
-no electric arcs or heat sources nearby
-no oily or greasy substances or otherwise explosion
+air receiver
+fixed vessel for starting internal combustion engine
+pressured fuel container
+spraying paint container
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-09T19:56:53.126839+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="948b"--><!-- The following content is generated at 2024-02-09T19:56:52.672841+08:00. Any edits will be overridden! -->
 
-> 1. close inactive valves
-> 2. correct fittings and regulators
-> 3. empty cylinders are marked empty
-> 4. flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-> 5. frequent inspection, keep upright
-> 6. no electric arcs or heat sources nearby
-> 7. no oily or greasy substances or otherwise explosion
+> 1. air receiver
+> 2. fixed vessel for starting internal combustion engine
+> 3. pressured fuel container
+> 4. spraying paint container
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-09T19:56:53.116815+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="152a"--><!-- The following content is generated at 2024-02-09T19:56:52.689301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←close inactive valves
-- close inactive valves→:::←correct fittings and regulators
-- correct fittings and regulators→:::←empty cylinders are marked empty
-- empty cylinders are marked empty→:::←flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-- flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites→:::←frequent inspection, keep upright
-- frequent inspection, keep upright→:::←no electric arcs or heat sources nearby
-- no electric arcs or heat sources nearby→:::←no oily or greasy substances or otherwise explosion
-- no oily or greasy substances or otherwise explosion→:::←_(end)_
+- _(begin)_→:::←air receiver
+- air receiver→:::←fixed vessel for starting internal combustion engine
+- fixed vessel for starting internal combustion engine→:::←pressured fuel container
+- pressured fuel container→:::←spraying paint container
+- spraying paint container→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### pressurized fuel container requirements
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("10ab", "23fb",),
+  """
+accessible valves and safety devices
+all piping properly secured save for 0.6 m immediately before the burner
+maximum permissible working pressure not more than 500 kPa
+pressure release valve
+remote control valve as close to burner as possible
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10ab"--><!-- The following content is generated at 2024-02-09T19:56:53.014286+08:00. Any edits will be overridden! -->
+
+> 1. accessible valves and safety devices
+> 2. all piping properly secured save for 0.6 m immediately before the burner
+> 3. maximum permissible working pressure not more than 500 kPa
+> 4. pressure release valve
+> 5. remote control valve as close to burner as possible
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23fb"--><!-- The following content is generated at 2024-02-09T19:56:52.996287+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←accessible valves and safety devices
+- accessible valves and safety devices→:::←all piping properly secured save for 0.6 m immediately before the burner
+- all piping properly secured save for 0.6 m immediately before the burner→:::←maximum permissible working pressure not more than 500 kPa
+- maximum permissible working pressure not more than 500 kPa→:::←pressure release valve
+- pressure release valve→:::←remote control valve as close to burner as possible
+- remote control valve as close to burner as possible→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -719,5 +672,52 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B)
 - Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### safety control measures
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("eeef", "184a",),
+  """
+air inlet and outlet monitoring
+calibrated pressure gauge
+coolant protection
+explosion protection
+lubricant protection
+safety valve
+thermal protection
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeef"--><!-- The following content is generated at 2024-02-09T19:56:53.064301+08:00. Any edits will be overridden! -->
+
+> 1. air inlet and outlet monitoring
+> 2. calibrated pressure gauge
+> 3. coolant protection
+> 4. explosion protection
+> 5. lubricant protection
+> 6. safety valve
+> 7. thermal protection
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="184a"--><!-- The following content is generated at 2024-02-09T19:56:53.080815+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←air inlet and outlet monitoring
+- air inlet and outlet monitoring→:::←calibrated pressure gauge
+- calibrated pressure gauge→:::←coolant protection
+- coolant protection→:::←explosion protection
+- explosion protection→:::←lubricant protection
+- lubricant protection→:::←safety valve
+- safety valve→:::←thermal protection
+- thermal protection→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

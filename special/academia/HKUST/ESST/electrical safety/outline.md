@@ -72,41 +72,6 @@ The content is in teaching order.
 
 ## oversized data
 
-### hazardous scenarios
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("d929", "afb9",),
-  """
-contact with overhead power lines
-damaged cover
-use of inappropriate measurement tools
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
-
-> 1. contact with overhead power lines
-> 2. damaged cover
-> 3. use of inappropriate measurement tools
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←contact with overhead power lines
-- contact with overhead power lines→:::←damaged cover
-- damaged cover→:::←use of inappropriate measurement tools
-- use of inappropriate measurement tools→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
 ### hazard causes
 
 %%
@@ -201,6 +166,41 @@ protective bonding
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding
 - protective bonding→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### hazardous scenarios
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("d929", "afb9",),
+  """
+contact with overhead power lines
+damaged cover
+use of inappropriate measurement tools
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
+
+> 1. contact with overhead power lines
+> 2. damaged cover
+> 3. use of inappropriate measurement tools
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←contact with overhead power lines
+- contact with overhead power lines→:::←damaged cover
+- damaged cover→:::←use of inappropriate measurement tools
+- use of inappropriate measurement tools→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
