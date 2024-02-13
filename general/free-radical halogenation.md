@@ -17,7 +17,7 @@ tags:
 
 %%
 
-__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2024-02-13,210,279-->
+__Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2026-05-08,815,299-->
 
 ## general mechanism
 

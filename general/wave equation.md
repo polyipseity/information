@@ -29,7 +29,7 @@ tags:
 > where
 >
 > - [function](function%20(mathematics).md) properties: {{$u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
-> - [wave](wave.md) properties: {{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling [waveforms](waveform.md)}} <!--SR:!2024-02-24,55,310!2024-02-13,44,290!2024-03-12,69,310-->
+> - [wave](wave.md) properties: {{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling [waveforms](waveform.md)}} <!--SR:!2024-02-24,55,310!2024-08-07,176,310!2024-03-12,69,310-->
 
 ### algebraic approach
 
