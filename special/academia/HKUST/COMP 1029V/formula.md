@@ -286,7 +286,7 @@ return _chain.from_iterable(await _gather(
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-20,15,290!2024-02-17,12,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-02-14,6,210-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-13,2,150!2024-03-04,21,250-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-14,1,130!2024-03-04,21,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-02-16,11,270!2024-02-15,10,270-->
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-15,3,230-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-02-18,13,290!2024-02-14,9,270-->
@@ -366,7 +366,7 @@ return _chain.from_iterable(await _gather(
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-14,3,230!2024-02-17,10,230-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-25,14,230!2024-02-29,17,270-->
-- `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-22,17,290!2024-02-13,6,250-->
+- `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-22,17,290!2024-03-03,19,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-02-14,2,210-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

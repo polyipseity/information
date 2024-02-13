@@ -25,4 +25,4 @@ errno_t strcat_s(char *restrict dest, rsize_t destsz, const char *restrict src);
 >
 > - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
 > - `destsz`: {{includes [null terminator](null-terminated%20string)}}
-> - overload selection: {{use the `_s`-ending overloads whenever feasible}} <!--SR:!2024-04-22,171,310!2024-05-09,188,310!2024-02-23,67,328!2024-02-13,59,328-->
+> - overload selection: {{use the `_s`-ending overloads whenever feasible}} <!--SR:!2024-04-22,171,310!2024-05-09,188,310!2024-02-23,67,328!2024-11-05,266,348-->

@@ -67,7 +67,7 @@ The content below is in teaching order.
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
     - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden
-- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-02-13,2,262!2000-01-01,1,250-->
+- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-02-14,1,242!2000-01-01,1,250-->
         - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent
 - breathing protection ::: air-purifying respirators <!--SR:!2024-02-29,18,302!2000-01-01,1,250-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2000-01-01,1,250!2024-02-26,15,302-->
