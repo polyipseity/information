@@ -70,7 +70,7 @@ The content is in teaching order.
   - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings.
   - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406).
 
-## data
+## oversized data
 
 ### hazardous scenarios
 
