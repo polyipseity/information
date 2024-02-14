@@ -16,7 +16,7 @@ tags:
 
 # HKUST COMP 1029P outline
 
-The lists below are in teaching order.
+The content is in teaching order.
 
 ## lesson 1
 
