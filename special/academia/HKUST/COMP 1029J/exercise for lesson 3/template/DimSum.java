@@ -9,15 +9,15 @@ public class DimSum
     //
     // The name of the dim sum
     // The price of the dim sum
-    // The quantity ordered    
-    
+    // The quantity ordered
+
     // Constructor of the class
     public DimSum(String name, float price) {
         //
         // Task 1 - Initialize the attributes of the dim sum
-        // 
+        //
     }
-    
+
     // Return the name of the dim sum
     public String getName() {
         //
@@ -25,7 +25,7 @@ public class DimSum
         //
         return "DimSum";
     }
-    
+
     // Return the price of the dim sum
     public float getPrice() {
         //
@@ -33,15 +33,15 @@ public class DimSum
         //
         return 0f;
     }
-    
+
     // Return the quantity ordered
     public int getQuantity() {
         //
         // Task 1 - Return the quantity of the dim sum
-        // 
+        //
         return 0;
     }
-    
+
     // Order this dim sum dish
     public void order(int quantity) {
         //

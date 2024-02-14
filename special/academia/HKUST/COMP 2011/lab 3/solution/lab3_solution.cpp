@@ -93,7 +93,7 @@ int main() {
 
     // Check if the file can be opened
     if (!fin) {
-        cout << "Error: Can not open " << file_path << endl; 
+        cout << "Error: Can not open " << file_path << endl;
         return -1;
     }
 
@@ -103,7 +103,7 @@ int main() {
     // TODO: fill this part
     // Read the option, the 4-letter text and the key from fin
     // Close the file after reading
-    
+
     fin >> option >> c1 >> c2 >> c3 >> c4 >> key;
     fin.close();
 
@@ -116,7 +116,7 @@ int main() {
 
         encrypt_text_to_numbers(c1, c2, c3, c4, key, num1, num2);
         numbers_to_text(num1, num2, e1, e2, e3, e4);
-        
+
         cout << "The encrypted numbers are: " << num1 << " and " << num2 << endl;
         cout << "The encrypted text is: " << e1 << e2 << e3 << e4 << endl;
     }
