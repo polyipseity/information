@@ -75,12 +75,14 @@ Apriori_gen(L, k)
 >     for row in table
 > )
 >
+>
 > def count_item_set(
 >     transactions: Iterable[Mapping[str, bool]], item_set: AbstractSet[str]
 > ):
 >     return sum(
 >         1 for transaction in transactions if all(transaction[item] for item in item_set)
 >     )
+>
 >
 > def apriori_candidate_gen(previous_frequent_sets: Collection[AbstractSet[str]]):
 >     candidates = (
@@ -96,11 +98,16 @@ Apriori_gen(L, k)
 >     )
 >     return tuple({frozenset(candidate): False for candidate in candidates})
 >
-> def apriori(transactions: Iterable[Mapping[str, bool]], support_threshold: int):
+>
+> def apriori(
+>     columns: Iterable[str],
+>     transactions: Collection[Mapping[str, bool]],
+>     support_threshold: int,
+> ):
 >     all_frequent_sets = [
 >         tuple(
 >             frozenset({column})
->             for column in columns[1:]
+>             for column in columns
 >             if count_item_set(transactions, {column}) >= support_threshold
 >         )
 >     ]
@@ -116,9 +123,13 @@ Apriori_gen(L, k)
 >     return reduce(add, all_frequent_sets, ())
 >
 >
-> assert (
->     "\n".join(str(", ".join(sorted(item_set))) for item_set in apriori(transactions, 2))
->     == """
+> if __name__ == "__main__":
+>     assert (
+>         "\n".join(
+>             str(", ".join(sorted(item_set)))
+>             for item_set in apriori(columns[1:], transactions, 2)
+>         )
+>         == """
 > likes Alice
 > likes Charles
 > likes David
@@ -131,7 +142,7 @@ Apriori_gen(L, k)
 > likes Alice, likes Charles, likes Eve
 > likes Alice, likes David, likes Eve
 > """.strip()
-> )
+>     )
 > ```
 
 ## references
