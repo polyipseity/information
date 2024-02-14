@@ -20,8 +20,10 @@ The items below are ordered in teaching order.
 
 ## week 1 lecture
 
-## week 1 lecture 2
-
-## week 2 lecture
+## week 2 lecture 1
 
 ## week 2 lecture 2
+
+## week 3 lecture 1
+
+## week 3 lecture 2
