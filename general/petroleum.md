@@ -111,10 +111,10 @@ return _chain.from_iterable(await _gather(
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)::-40 to -1 °C <!--SR:!2024-08-12,338,290-->
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
-- [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-02-14,15,190-->
+- [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-02-24,10,170-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-04-08,81,210-->
 - [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-02-16,3,150-->
-- [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-02-14,7,150-->
+- [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-02-18,4,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-03-27,64,170-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-02-19,8,130-->
 - [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-03-13,110,214-->

@@ -37,4 +37,4 @@ assert aChar == 'd';
 
 ## equality
 
-One should (almost) always use {{`equals` instead of `==` to compare whether two strings are the same, like `string1.equals(string2)`}}. In general, comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. See [object § equality](object.md#equality). <!--SR:!2024-02-20,15,296!2024-02-14,11,276-->
+One should (almost) always use {{`equals` instead of `==` to compare whether two strings are the same, like `string1.equals(string2)`}}. In general, comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. See [object § equality](object.md#equality). <!--SR:!2024-02-20,15,296!2024-03-27,42,296-->

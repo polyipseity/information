@@ -60,14 +60,14 @@ The content below is in teaching order.
   - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) ::: Last resort. Electrical protective equipment includes arc-rating clothing, insulating gloves, etc. <!--SR:!2024-02-22,11,289!2024-02-28,17,309-->
 - [lockout–tagout](../../../../../general/lockout–tagout.md) ::: Safety procedure to follow to ensure that dangerous equipment is shut off and cannot start before completing maintenance or repair. Especially important when more than one person are working on the same system. <!--SR:!2024-02-27,16,304!2024-02-29,18,304-->
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
-  - Electricity Ordinance (Cap. 406) ::: Governs the generation, transmission, distribution, and utilization of electricity. Important sub-chapters include Electricity (Registration) Regulations (Cap. 406D), Electricity (Wiring) Regulations (Cap. 406E), and Electrical Products (Safety) Regulation (Cap. 406G). <!--SR:!2024-02-14,3,224!2024-02-29,18,309-->
+- Electricity Ordinance (Cap. 406) ::: Governs the generation, transmission, distribution, and utilization of electricity. Important sub-chapters include Electricity (Registration) Regulations (Cap. 406D), Electricity (Wiring) Regulations (Cap. 406E), and Electrical Products (Safety) Regulation (Cap. 406G). <!--SR:!2024-02-25,11,244!2024-02-29,18,309-->
 - Electricity (Wiring) Regulations (Cap. 406E) ::: Stipulates safety requirements of the design, installation, testing, and certification of fixed electrical installations. To ensure the quality and workmanship of the installations. A practical guideline is provided by [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md) as the _Code of Practice for the Electricity (Wiring) Regulations_. <!--SR:!2024-02-19,6,249!2024-02-28,17,304-->
     - Electricity (Registration) Regulations (Cap. 406D) ::: Stipulates the experience and qualifications of registered electrical contractors and workers. To ensure the quality and workmanship of electrical work. A grading system with A, B, C, H, and R is established to match workers and the type of work. <!--SR:!2024-02-23,12,270!2024-02-26,15,290-->
     - Electrical Products (Safety) Regulation (Cap. 406G) ::: Stipulates the safety of all household electrical products supplied in [Hong Kong](../../../../../general/Hong%20Kong.md). Requires suppliers to ensure a "certificate of safety compliance" has been issued. Enforced by the [Customs and Excise Department](../../../../../general/Customs%20and%20Excise%20Department%20(Hong%20Kong).md). Classifies six kinds of prescribed products that shall comply with the Essential and Specific Safety Requirements. <!--SR:!2024-02-15,4,244!2024-02-19,8,264-->
       - [six kinds of prescribed products](#six%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-02-24,13,289!2024-02-26,15,290-->
-- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings. <!--SR:!2024-02-14,1,210!2024-02-19,6,249-->
+- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings. <!--SR:!2024-02-16,2,210!2024-02-19,6,249-->
   - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-02-15,4,249!2024-02-17,6,264-->
 
 ## data
@@ -143,9 +143,9 @@ wet condition
 
 - _(begin)_→:::←improper contact <!--SR:!2024-02-15,3,287!2024-02-16,4,307-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-02-16,4,307!2024-02-15,3,287-->
-- lack of maintenance→:::←overloading <!--SR:!2024-02-16,4,307!2024-02-14,1,247-->
+- lack of maintenance→:::←overloading <!--SR:!2024-02-16,4,307!2024-02-16,2,247-->
 - overloading→:::←short circuiting <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
-- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-02-14,1,247!2024-02-15,3,287-->
+- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-02-16,2,247!2024-02-15,3,287-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-02-15,3,287!2024-02-15,3,287-->
 - wet condition→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
 
@@ -192,7 +192,7 @@ protective bonding
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2024-02-09T00:10:28.927666+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[center tap](../../../../../general/center%20tap.md) <!--SR:!2024-02-17,4,287!2024-02-16,4,307-->
-- [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-02-14,1,247!2024-02-15,3,287-->
+- [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-02-16,2,247!2024-02-15,3,287-->
 - [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-02-16,3,267!2024-02-15,3,287-->
 - compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-02-15,3,287!2024-02-15,3,287-->
 - [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-02-15,3,287!2024-02-15,3,287-->

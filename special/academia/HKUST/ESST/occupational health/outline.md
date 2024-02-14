@@ -46,7 +46,7 @@ The content below is in teaching order.
       - heat rash ::: red spots on skin <!--SR:!2024-02-28,17,302!2024-02-24,13,290-->
       - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss
       - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-02-23,12,282!2000-01-01,1,250-->
-      - heat stroke ::: most serious, can be fatal <!--SR:!2024-02-14,2,202!2000-01-01,1,250-->
+- heat stroke ::: most serious, can be fatal <!--SR:!2024-02-19,5,222!2000-01-01,1,250-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2000-01-01,1,250!2024-02-28,17,302-->
   - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Compensation Ordinance. <!--SR:!2000-01-01,1,250!2024-02-26,15,290-->
@@ -67,7 +67,7 @@ The content below is in teaching order.
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
     - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden
-- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-02-14,1,242!2000-01-01,1,250-->
+- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-02-17,3,262!2000-01-01,1,250-->
         - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent
 - breathing protection ::: air-purifying respirators <!--SR:!2024-02-29,18,302!2000-01-01,1,250-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2000-01-01,1,250!2024-02-26,15,302-->
