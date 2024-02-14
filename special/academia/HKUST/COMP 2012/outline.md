@@ -16,7 +16,7 @@ tags:
 
 # HKUST COMP 2012 outline
 
-The items below are ordered in teaching order.
+The content is in teaching order.
 
 ## week 1 lecture
 

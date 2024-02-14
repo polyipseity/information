@@ -16,7 +16,7 @@ tags:
 
 # HKUST COMP 1942 outline
 
-The lists below are in teaching order.
+The content is in teaching order.
 
 ## week 1 lecture
 
@@ -40,3 +40,9 @@ The lists below are in teaching order.
 
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
+
+## week 3 lecture
+
+- [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
+- [Apriori algorithm § limitations](../../../../general/Apriori%20algorithm.md#limitations)
+- [association rule learning § FP-growth algorithm](../../../../general/association%20rule%20learning.md#FP-growth%20algorithm)

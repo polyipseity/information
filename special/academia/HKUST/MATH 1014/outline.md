@@ -18,7 +18,7 @@ tags:
 
 - prerequisite: [MATH 1013](../MATH%201013/outline.md)
 
-The items below are ordered in teaching order.
+The content is in teaching order.
 
 ## week 1 lecture
 
