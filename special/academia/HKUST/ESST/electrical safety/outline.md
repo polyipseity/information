@@ -67,10 +67,55 @@ The content is in teaching order.
       - [six kinds of prescribed products](#six%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E).
-  - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings.
+  - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement.
+    - [General Safety Requirement stipulations](#General%20Safety%20Requirement%20stipulations)
   - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406).
 
 ## oversized data
+
+### General Safety Requirement stipulations
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("ee23", "292d",),
+  """
+instructions
+manner of presentation
+safety
+standards
+use of marks
+warnings
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee23"--><!-- The following content is generated at 2024-02-14T17:52:38.899168+08:00. Any edits will be overridden! -->
+
+> 1. instructions
+> 2. manner of presentation
+> 3. safety
+> 4. standards
+> 5. use of marks
+> 6. warnings
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←instructions
+- instructions→:::←manner of presentation
+- manner of presentation→:::←safety
+- safety→:::←standards
+- standards→:::←use of marks
+- use of marks→:::←warnings
+- warnings→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### hazard causes
 
