@@ -35,15 +35,15 @@ tags:
 
 > {{__Si(x), si(x)__}}
 >
-> - {{$\operatorname{Si}(x)=\int_0^x\!\frac{\sin{t} }t\,\mathrm{d}t$}}
-> - {{$\operatorname{si}(x)=-\int_x^\infty\!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2024-02-15,104,310!2024-06-10,171,270!2024-03-04,40,190-->
+> - {{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}}
+> - {{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2024-02-15,104,310!2024-06-10,171,270!2024-03-04,40,190-->
 
 ## cosine integral
 
 > {{__Cin(x), Ci(x)__}}
 >
-> - {{$\operatorname{Cin}(x)=\int_0^x\!\frac{1-\cos{t} }t\,\mathrm{d}t$}}
-> - {{$\operatorname{Ci}(x)=-\int_x^\infty\!\frac{\cos{t} }t\,\mathrm{d}t=\gamma+\ln{x}-\operatorname{Cin}(x)$}}
+> - {{$\operatorname{Cin}(x)=\int _0 ^x \! \frac {1 - \cos t} t \,\mathrm{d}t$}}
+> - {{$\operatorname{Ci}(x)=\int _\infty ^x \! \frac{\cos t} t \,\mathrm{d}t = \gamma + \ln x - \operatorname{Cin}(x)$}}
 > - where
 >   - $\gamma$ is the [Euler's constant](Euler's%20constant.md) <!--SR:!2024-02-18,107,310!2024-05-26,119,230!2024-03-08,26,170-->
 

@@ -19,7 +19,7 @@ BreakBeforeBraces: Linux
 #          other styles
 ###################################
 
-# 
+#
 # for more conf, you can ref: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 #
 

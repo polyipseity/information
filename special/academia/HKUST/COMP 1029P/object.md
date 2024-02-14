@@ -20,7 +20,7 @@ class Name:
   def __init__(self, an_attribute):
     self.an_attribute = an_attribute # attribute `an_attribute`
     self.another_attribute = 'asd' # attribute `another_attribute`
-  
+
   def a_method(arg1, arg2):
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
