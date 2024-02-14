@@ -9,7 +9,7 @@ int main(int const argc, char *const *const argv) noexcept {
     bool choose;
     do {
         choose = false;
-        
+
         string choice;
         cout << "Choose a task: ";
         getline(cin, choice);

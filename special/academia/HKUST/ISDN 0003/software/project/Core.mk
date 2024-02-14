@@ -1,7 +1,7 @@
 # ------------------------------------------------
 # Core.mk
 #
-# @authors: 
+# @authors:
 #			-JIANG Yicheng (RM2024)
 #			-Zou Hetai (RM2024)
 #
@@ -100,8 +100,8 @@ CPPFLAGS += -fno-threadsafe-statics					# Disable thread safe statics
 LDSCRIPT = STM32F103C8Tx_FLASH.ld
 
 # libraries
-LIBS = -lc -lm -lnosys 
-LIBDIR = 
+LIBS = -lc -lm -lnosys
+LIBDIR =
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
 # Hide details (silent mode)
@@ -134,7 +134,7 @@ C_INCLUDES += $(FreeRTOS_INC) $(SystemView_INC)
 
 BUILD_SUCCESS = @echo -e "\033[2K\033[92mBuild success!\033[m\n"
 
-ifndef ECHO 
+ifndef ECHO
 HIT_TOTAL != ${MAKE} ${MAKECMDGOALS} --dry-run ECHO="HIT_MARK" | grep -c "HIT_MARK"
 HIT_COUNT = $(eval HIT_N != expr ${HIT_N} + 1)${HIT_N}
 ECHO = @echo -e "\033[2K\033[96;49;4m[`expr ${HIT_COUNT} '*' 100 / ${HIT_TOTAL}`%]\033[m\033[93m$(notdir $<)\033[m\r\c"
@@ -170,13 +170,13 @@ $(info ASM sources: $(ASM_SOURCES))
 $(info O sources: $(O_SRC))
 
 # Build .c files
-$(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR) 
+$(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR)
 	$(ECHO) $@
 	@mkdir -p $(dir $@)
 	$(Q)$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(<:.c=.lst) $< -o $@
 
 # Build .cpp files
-$(BUILD_DIR)/%.o: %.cpp Makefile | $(BUILD_DIR) 
+$(BUILD_DIR)/%.o: %.cpp Makefile | $(BUILD_DIR)
 	$(ECHO) $@
 	@mkdir -p $(dir $@)
 	$(Q)$(CPPC) -c $(CPPFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(<:.cpp=.lst) $< -o $@
