@@ -89,14 +89,14 @@ $(wildcard Core/Src/*.cpp)
 ASM_SOURCES =  \
 startup_stm32f103xb.s
 
- 
+
 #######################################
 # CFLAGS
 #######################################
 
 # macros for gcc
 # AS defines
-AS_DEFS = 
+AS_DEFS =
 
 # C defines
 C_DEFS =  \
@@ -104,7 +104,7 @@ C_DEFS =  \
 -DSTM32F103xB
 
 # AS includes
-AS_INCLUDES = 
+AS_INCLUDES =
 
 # C includes
 C_INCLUDES =  \

@@ -18,7 +18,7 @@ tags:
 
 %%
 
-The content below is in teaching order.
+The content is in teaching order.
 
 - [Ohm's law](../../../../../general/Ohm's%20law.md) ::: _V_ = _IR_ <!--SR:!2024-02-26,15,290!2024-02-27,16,290-->
 - [electric current](../../../../../general/electric%20current.md) types ::: [alternating current](../../../../../general/alternating%20current.md) (AC), [direct current](../../../../../general/direct%20current.md) (DC) <!--SR:!2024-02-24,13,290!2024-02-29,18,304-->
@@ -70,42 +70,7 @@ The content below is in teaching order.
 - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings. <!--SR:!2024-02-16,2,210!2024-02-19,6,249-->
   - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-02-15,4,249!2024-02-17,6,264-->
 
-## data
-
-### hazardous scenarios
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("d929", "afb9",),
-  """
-contact with overhead power lines
-damaged cover
-use of inappropriate measurement tools
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
-
-> 1. contact with overhead power lines
-> 2. damaged cover
-> 3. use of inappropriate measurement tools
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←contact with overhead power lines <!--SR:!2024-02-15,3,287!2024-02-16,4,307-->
-- contact with overhead power lines→:::←damaged cover <!--SR:!2024-02-15,3,287!2024-02-15,3,287-->
-- damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
-- use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+## oversized data
 
 ### hazard causes
 
@@ -201,6 +166,41 @@ protective bonding
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-02-15,3,287!2024-02-15,3,287-->
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-02-16,4,307!2024-02-15,3,287-->
 - protective bonding→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-15,3,287-->
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+### hazardous scenarios
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("d929", "afb9",),
+  """
+contact with overhead power lines
+damaged cover
+use of inappropriate measurement tools
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
+
+> 1. contact with overhead power lines
+> 2. damaged cover
+> 3. use of inappropriate measurement tools
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←contact with overhead power lines <!--SR:!2024-02-15,3,287!2024-02-16,4,307-->
+- contact with overhead power lines→:::←damaged cover <!--SR:!2024-02-15,3,287!2024-02-15,3,287-->
+- damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
+- use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
