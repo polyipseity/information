@@ -49,7 +49,7 @@ public:
     // Constructor
     LinkNode(char *name, float score) : score{score}, name{strcpy(new char[strlen(name) + 1], name)}, prev{}, next{}
     {
-        
+
     }
     // Destructor
     ~LinkNode()
@@ -185,7 +185,7 @@ public:
     // Constructor
     DoubledLink() : head{}, tail{}
     {
-        
+
     }
     // Destructor
     ~DoubledLink()

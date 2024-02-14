@@ -1,4 +1,4 @@
-# A list of lists storing the Scrabble 
+# A list of lists storing the Scrabble
 # scores of all of the 26 letters
 values = [ ["a", 1], ["b", 3], ["c", 3], ["d", 2], ["e", 1], \
 ["f", 4], ["g", 2], ["h", 4], ["i", 1], ["j", 8], ["k", 5], \

@@ -9,16 +9,16 @@ int main() {
     // Get the range from the user
     cin >> number1 >> number2;
 
-    /* Please do not change the code above this line */ 
+    /* Please do not change the code above this line */
 
     // Task 1 - Find the small and large bounds of the range
     ///////////////////
     // Your Code Here //
     ///////////////////
     small = number1 < number2 ? number1 : number2;
-    large = number1 > number2 ? number1 : number2; 
+    large = number1 > number2 ? number1 : number2;
 
-    
+
 
     // Task 2 - Find the perfect numbers in the range and update the final score
     for (int num = small; num <= large; ++num) {
@@ -45,7 +45,7 @@ int main() {
     }
 
     /* Please do not change the code below this line */
-    
+
     cout << finalScore;
     return 0;
 }

@@ -57,7 +57,7 @@ def db_add():
         try:
             # Ask the user for the file name of the database
             filename = input("Enter the filename of the database: ")
-            
+
             # Try reading the file with the given name
             db = open(filename, "r")
         except IOError: # If the file does not exist
@@ -65,10 +65,10 @@ def db_add():
         else: # No problem opening the file
             # Close it
             db.close()
-            
+
             # Open the file again for appending new contact data
             db = open(filename, "a")
-            
+
             # Exit the infinite while loop
             break
 
@@ -99,7 +99,7 @@ def db_add():
 def db_query():
     """ Retrieve contact data from the database """
 
-    # Keep trying until we successfully read 
+    # Keep trying until we successfully read
     # an existing database file
     while True:
         try:
@@ -147,7 +147,7 @@ def db_query():
     # to be searched for.
     # The while loop ends when the entered name is "done".
     while name != "done":
-        # 1. Check if the contact name can be found in 
+        # 1. Check if the contact name can be found in
         #    the phone book
         #    1.1. If yes, then show the phone number
         #    1.2. If no, then show an error message
@@ -182,5 +182,5 @@ while choice != "x":
         db_add()
     elif choice == "q":
         db_query()
-        
+
 print("Bye!")

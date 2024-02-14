@@ -66,17 +66,17 @@ public class PhoneBook
         //
         // Task 1 - Checking for duplicated new entry
         //
-        
+
         // Get the path of the text file
-       
+
         // Use a BufferedReader to read the data one by one
-        
+
         // For each data line create a PhoneBookEntry
 
         // If the name in the PhoneBookEntry is equal to the input name
         // return true
-        
-        
+
+
         // Return false if nothing matches the input name
         return false;
     }
@@ -100,7 +100,7 @@ public class PhoneBook
 
         // Get the path of the text file
         Path path = Paths.get("phonebook.txt");
-        
+
         try {
             // Get a BufferedWriter from the file
             BufferedWriter writer =
@@ -126,7 +126,7 @@ public class PhoneBook
     public void listNumbers() {
         // Get the path of the text file
         Path path = Paths.get("phonebook.txt");
-        
+
         try {
             // Get a BufferedReader from the file
             BufferedReader reader =
@@ -157,18 +157,18 @@ public class PhoneBook
         //
         // Task 2 - Finding and printing an entry by name
         //
-        
+
         // Get the path of the text file
-       
+
         // Use a BufferedReader to read the data one by one
-        
+
         // For each data line create a PhoneBookEntry
 
         // If the name in the PhoneBookEntry is equal to the input name
         // print the PhoneBookEntry appropriately and exit the method
-        
+
         // Print a message if the name cannot be found
-        
+
 
     }
 
@@ -187,16 +187,16 @@ public class PhoneBook
         //
         // Task 3 - Deleting a phone book entry by name
         //
-        
+
         // Get the path of the text file
-       
+
         // Use a BufferedReader to read the data one by one
-        
+
         // For each data line create a PhoneBookEntry
 
         // If the name in the PhoneBookEntry is NOT equal to the input name
         // add the entry to the entries array
-        
+
         // Use a BufferedWriter to write the stored data from the array into
         // the text file one by one
 

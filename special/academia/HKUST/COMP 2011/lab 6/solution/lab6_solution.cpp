@@ -51,7 +51,7 @@ int main()
 {
    char word[MAX_LEN];
    char c;
-   
+
    do{
       cout << "Enter a word: ";
       cin >> word;
@@ -60,9 +60,9 @@ int main()
       else
          cout << "The word is INCORRECT!\n";
       cout << "Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)? ";
-      cin >> c; 
+      cin >> c;
    } while(c == 'Y' || c=='y');
-      
+
 
    return 0;
 }

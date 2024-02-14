@@ -7,13 +7,13 @@ using namespace std;
 // g++ -std=c++11 -c detect_corner_points.cpp
 // g++ -std=c++11 -c check_rectangle.cpp
 // g++ -std=c++11 -c calculate_area_size.cpp
-// g++ -std=c++11 -c main.cpp 
+// g++ -std=c++11 -c main.cpp
 // g++ -std=c++11 -o lab5 main.o detect_corner_points.o check_rectangle.o calculate_area_size.o
 
 
 /* YOU MUST NOT MODIFY THE MAIN FUNCTION BELOW */
 int main() {
-        
+
     int arr[MAX_DIMENSION][MAX_DIMENSION];
     int row = MAX_DIMENSION;
     int col = MAX_DIMENSION;

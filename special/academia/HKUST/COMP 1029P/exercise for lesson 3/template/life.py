@@ -160,10 +160,10 @@ def life(currentGen, generation):
 # Here is a simple 2D array to test your work
 
 start = [
-    [0, 0, 0, 0, 0], 
-    [0, 0, 0, 0, 0], 
-    [0, 1, 1, 1, 0], 
-    [0, 0, 0, 0, 0], 
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 0],
+    [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0]
 ]
 

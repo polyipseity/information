@@ -1,7 +1,7 @@
 // The following #ifndef/#define/#endif is used to avoid multiple include during the separate compilation
 // Please don't delete these statements
 
-#ifndef LAB5_FUNCTIONS_H  
+#ifndef LAB5_FUNCTIONS_H
 #define LAB5_FUNCTIONS_H
 
 const int MAX_DIMENSION = 8;

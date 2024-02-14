@@ -1,4 +1,4 @@
-/* 
+/*
  * File: lab6_skeleton.cpp
  *
  * Lab 6: Recursion - Alien Word Parsing
@@ -9,11 +9,11 @@
 
 using namespace std;
 
-const int MAX_LEN = 256; 
+const int MAX_LEN = 256;
 
 bool correct_word(char const string[], int begin, int end)
 {
-    
+
 
    /* ADD YOUR CODE HERE */
    /* THIS MUST BE A RECURSIVE FUNCTION */
@@ -52,7 +52,7 @@ int main()
 {
    char word[MAX_LEN];
    char c;
-   
+
    do{
       cout << "Enter a word: ";
       cin >> word;
@@ -61,7 +61,7 @@ int main()
       else
          cout << "The word is INCORRECT!\n";
       cout << "Do you want to enter a new word ('Y'/'y' for Yes, 'N'/'n' for No)? ";
-      cin >> c; 
+      cin >> c;
    } while (c == 'Y' || c=='y');
 
    return 0;

@@ -1,4 +1,4 @@
-#ifndef LAB7_FUNCTIONS_H  
+#ifndef LAB7_FUNCTIONS_H
 #define LAB7_FUNCTIONS_H
 
 const int   MAX_STUDENT_NUM = 8;
