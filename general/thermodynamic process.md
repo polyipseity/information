@@ -41,7 +41,7 @@ return await memorize_seq(
 
 %%
 
-### iso- processes
+### processes classified by variable
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ffa"--><!-- The following content is generated at 2023-12-14T23:46:14.016807+08:00. Any edits will be overridden! -->
 
