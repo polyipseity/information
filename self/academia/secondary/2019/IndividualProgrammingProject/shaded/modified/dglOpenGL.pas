@@ -4538,7 +4538,7 @@ const
   GL_TEXTURE_MAX_ANISOTROPY = $84FE;
   GL_MAX_TEXTURE_MAX_ANISOTROPY = $84FF;
   GL_TRANSFORM_FEEDBACK_OVERFLOW = $82EC;
-  GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW = $82ED;  
+  GL_TRANSFORM_FEEDBACK_STREAM_OVERFLOW = $82ED;
 
   // GL_ATI_draw_buffers
   GL_MAX_DRAW_BUFFERS_ATI = $8824;
@@ -12966,7 +12966,7 @@ var
   glMultiDrawArraysIndirectCount : TglMultiDrawArraysIndirectCount;
   glMultiDrawElementsIndirectCount : TglMultiDrawElementsIndirectCount;
   glPolygonOffsetClamp : TglPolygonOffsetClamp;
-  
+
   // GL_ARB_sparse_buffer
   glBufferPageCommitmentARB : TglBufferPageCommitmentARB;
   glNamedBufferPageCommitmentEXT : TglNamedBufferPageCommitmentEXT;
@@ -17330,7 +17330,7 @@ end;
 
 procedure Read_GL_4_6;
 begin
-  glSpecializeShader := dglGetProcAddress('glSpecializeShader'); 
+  glSpecializeShader := dglGetProcAddress('glSpecializeShader');
   glMultiDrawArraysIndirectCount := dglGetProcAddress('glMultiDrawArraysIndirectCount');
   glMultiDrawElementsIndirectCount := dglGetProcAddress('glMultiDrawElementsIndirectCount');
   glPolygonOffsetClamp := dglGetProcAddress('glPolygonOffsetClamp');
@@ -19445,7 +19445,7 @@ begin
   Read_GL_APPLE_vertex_array_range;
   Read_GL_APPLE_texture_range;
   Read_GL_APPLE_vertex_program_evaluators;
-  Read_GL_APPLE_object_purgeable; 
+  Read_GL_APPLE_object_purgeable;
   Read_GL_ATI_draw_buffers;
   Read_GL_ATI_element_array;
   Read_GL_ATI_envmap_bumpmap;

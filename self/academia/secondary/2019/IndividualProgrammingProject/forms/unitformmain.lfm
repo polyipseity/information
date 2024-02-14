@@ -205,7 +205,7 @@ object FormMain: TFormMain
         Height = 250
         Top = 0
         Width = 300
-        AxisList = <        
+        AxisList = <
           item
             Grid.Color = clWhite
             AtDataOnly = True
@@ -215,7 +215,7 @@ object FormMain: TFormMain
             Title.Visible = True
             Title.Caption = 'FPS'
             Title.LabelBrush.Style = bsClear
-          end        
+          end
           item
             Grid.Color = clWhite
             Alignment = calBottom
