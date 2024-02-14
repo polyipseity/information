@@ -1,13 +1,13 @@
 ---
 aliases:
-  - HKUST COMP 2012
-  - HKUST COMP 2012 outline
-  - HKUST COMP2012
-  - HKUST COMP2012 outline
   - COMP 2012
   - COMP 2012 outline
   - COMP2012
   - COMP2012 outline
+  - HKUST COMP 2012
+  - HKUST COMP 2012 outline
+  - HKUST COMP2012
+  - HKUST COMP2012 outline
 tags:
   - flashcards/special/academia/HKUST/COMP_2012/outline
   - functional/outlines
