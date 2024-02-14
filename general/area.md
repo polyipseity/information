@@ -68,10 +68,10 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-02-01T16:56:31.292229+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2024-02-20,14,290!2024-02-23,17,290-->
-- [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-02-14,9,250!2024-02-15,4,210-->
+- [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-03-10,25,250!2024-02-15,4,210-->
 - positivity→:::←rectangle <!--SR:!2024-03-03,19,250!2024-02-15,4,190-->
 - rectangle→:::←squeezing <!--SR:!2024-02-23,12,230!2024-02-29,18,250-->
-- squeezing→:::←subtraction <!--SR:!2024-02-14,3,170!2024-02-24,13,230-->
+- squeezing→:::←subtraction <!--SR:!2024-02-20,6,170!2024-02-24,13,230-->
 - subtraction→:::←union and intersection <!--SR:!2024-02-18,12,270!2024-02-21,10,230-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-02-22,16,290!2024-02-15,10,270-->
 

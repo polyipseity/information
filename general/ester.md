@@ -26,7 +26,7 @@ Due to increased [polarizability](polarizability.md), esters have {{[boiling poi
 
 ### density
 
-Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrease}} with increasing size. <!--SR:!2024-02-14,211,250!2024-03-17,243,270-->
+Esters are {{less [dense](density.md) than [water](water.md)}}. Density {{decrease}} with increasing size. <!--SR:!2025-07-25,527,250!2024-03-17,243,270-->
 
 ### odor
 
