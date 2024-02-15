@@ -244,7 +244,7 @@ The steps for naming an organic compound are:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-01-04T20:17:52.087770+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2024-02-21,247,230!2024-11-29,563,322-->
-- prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2024-02-15,205,287-->
+- prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2024-05-29,104,267-->
 - bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -197,7 +197,7 @@ return (
 
 - ~8.3:::colorless <!--SR:!2024-04-13,349,230!2024-06-09,343,230-->
 - 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-04-27,906,250!2024-09-28,357,210-->
-- 10~:::<span style="color: pink;">pink</span> <!--SR:!2024-05-03,391,250!2024-02-15,455,250-->
+- 10~:::<span style="color: pink;">pink</span> <!--SR:!2024-05-03,391,250!2028-06-29,1596,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

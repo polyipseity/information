@@ -30,7 +30,7 @@ The content is in teaching order.
   - gases or vapors hazards ::: benzene; epoxy; hydrogen sulphide, a common sewer gas; polyurethane <!--SR:!2024-02-17,6,262!2024-02-27,16,302-->
   - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-02-19,8,262!2024-02-29,18,302-->
 - [physical hazards](#physical%20hazards)
-- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-02-15,1,269!2000-01-01,1,250-->
+- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-02-16,1,249!2000-01-01,1,250-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-02-17,3,295!2024-02-18,4,315-->
     - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-02-17,3,289!2024-02-27,16,302-->
@@ -38,7 +38,7 @@ The content is in teaching order.
 - noise ::: unwanted sound <!--SR:!2024-02-25,14,302!2024-02-28,17,290-->
 - human audible frequency range ::: 20~20000 Hz <!--SR:!2024-02-18,4,315!2024-02-18,4,315-->
     - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-02-26,15,302!2024-02-28,17,302-->
-- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-02-15,1,275!2024-02-16,5,262-->
+- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-02-18,3,275!2024-02-16,5,262-->
 - noise types ::: continuous, impact, intermittent <!--SR:!2024-02-18,4,309!2024-02-27,16,302-->
 - temperature hazards ::: Too hot or too cold. Usually too hot for most industries. <!--SR:!2024-02-18,4,306!2024-02-27,16,302-->
     - [workplaces with temperature hazards](#workplaces%20with%20temperature%20hazards)
@@ -49,7 +49,7 @@ The content is in teaching order.
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-02-19,5,222!2024-02-18,4,309-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2000-01-01,1,250!2024-02-28,17,302-->
-- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Compensation Ordinance. <!--SR:!2024-02-15,1,269!2024-02-26,15,290-->
+- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Compensation Ordinance. <!--SR:!2024-02-18,3,269!2024-02-26,15,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-02-18,4,315!2024-02-26,15,290-->
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-02-17,6,262!2024-02-17,3,286-->
@@ -289,7 +289,7 @@ socio-psychological
 
 - _(begin)_→:::←biological <!--SR:!2000-01-01,1,250!2024-02-18,4,309-->
 - biological→:::←chemical
-- chemical→:::←ergonomics <!--SR:!2000-01-01,1,250!2024-02-15,1,275-->
+- chemical→:::←ergonomics <!--SR:!2000-01-01,1,250!2024-02-18,3,275-->
 - ergonomics→:::←occupation-specific
 - occupation-specific→:::←physical
 - physical→:::←socio-psychological
@@ -463,6 +463,6 @@ steelworks
 - glassworks→:::←kitchens <!--SR:!2000-01-01,1,250!2024-02-17,3,295-->
 - kitchens→:::←laundries
 - laundries→:::←steelworks <!--SR:!2000-01-01,1,250!2024-02-17,3,295-->
-- steelworks→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-02-15,1,275-->
+- steelworks→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-02-19,4,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

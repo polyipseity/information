@@ -17,7 +17,7 @@ tags:
 
 %%
 
-__Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}. <!--SR:!2024-02-26,214,270!2024-02-15,249,330-->
+__Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}. <!--SR:!2024-02-26,214,270!2027-03-23,1132,350-->
 
 The most common method is [cryogenic distillation](#cryogenic%20distillation).
 
