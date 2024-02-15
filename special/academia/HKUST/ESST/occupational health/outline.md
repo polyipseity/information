@@ -30,9 +30,9 @@ The content is in teaching order.
   - gases or vapors hazards ::: benzene; epoxy; hydrogen sulphide, a common sewer gas; polyurethane <!--SR:!2024-02-17,6,262!2024-02-27,16,302-->
   - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-02-19,8,262!2024-02-29,18,302-->
 - [physical hazards](#physical%20hazards)
-- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-02-16,1,249!2000-01-01,1,250-->
+- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-02-16,1,249!2024-02-19,4,319-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-02-17,3,295!2024-02-18,4,315-->
-    - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization
+- UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-02-19,4,319!2024-02-19,4,319-->
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-02-17,3,289!2024-02-27,16,302-->
 - ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-02-22,11,282!2024-02-18,4,315-->
 - noise ::: unwanted sound <!--SR:!2024-02-25,14,302!2024-02-28,17,290-->
@@ -48,7 +48,7 @@ The content is in teaching order.
 - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-02-23,12,282!2024-02-18,4,309-->
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-02-19,5,222!2024-02-18,4,309-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
-- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2000-01-01,1,250!2024-02-28,17,302-->
+- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-02-16,1,279!2024-02-28,17,302-->
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Compensation Ordinance. <!--SR:!2024-02-18,3,269!2024-02-26,15,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-02-18,4,315!2024-02-26,15,290-->
@@ -59,16 +59,16 @@ The content is in teaching order.
 - toxicity equation ::: toxicity × quantity × time <!--SR:!2024-02-18,4,315!2024-02-18,4,309-->
 - occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-02-18,4,309!2024-02-21,10,282-->
 - ceiling (C) ::: at any time <!--SR:!2024-02-18,4,309!2024-02-18,4,315-->
-- short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2000-01-01,1,250!2024-02-18,4,309-->
+- short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-02-18,3,299!2024-02-18,4,309-->
 - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-02-29,18,299!2024-02-18,4,309-->
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-02-18,4,309!2024-02-26,15,290-->
   - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-02-20,9,270!2024-02-25,14,290-->
 - air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-02-26,15,302!2024-02-18,4,309-->
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
-- personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2000-01-01,1,250!2024-02-18,4,309-->
+- personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-02-18,3,299!2024-02-18,4,309-->
 - eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-02-17,3,262!2024-02-18,4,306-->
-        - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent
+- safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-02-18,3,299!2024-02-19,4,319-->
 - breathing protection ::: air-purifying respirators <!--SR:!2024-02-29,18,302!2024-02-18,4,309-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-02-17,3,295!2024-02-26,15,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-02-25,14,302!2024-02-27,16,302-->
@@ -118,10 +118,10 @@ pneumonia
 - breathlessness→:::←cough <!--SR:!2024-02-18,4,315!2024-02-18,4,315-->
 - cough→:::←fever <!--SR:!2024-02-18,4,315!2024-02-18,4,315-->
 - fever→:::←headache <!--SR:!2024-02-18,4,315!2024-02-18,4,315-->
-- headache→:::←malaise
-- malaise→:::←muscle ache <!--SR:!2024-02-18,4,315!2000-01-01,1,250-->
-- muscle ache→:::←pneumonia <!--SR:!2024-02-17,3,289!2000-01-01,1,250-->
-- pneumonia→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-02-17,3,295-->
+- headache→:::←malaise <!--SR:!2024-02-18,3,299!2024-02-16,1,279-->
+- malaise→:::←muscle ache <!--SR:!2024-02-18,4,315!2024-02-16,1,279-->
+- muscle ache→:::←pneumonia <!--SR:!2024-02-17,3,289!2024-02-18,3,299-->
+- pneumonia→:::←_(end)_ <!--SR:!2024-02-19,4,319!2024-02-17,3,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -158,8 +158,8 @@ personal protective equipment
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-09T10:21:06.254826+08:00. Any edits will be overridden! -->
 
 - _(in decreasing preference)_→:::←hazard reduction or elimination <!--SR:!2024-02-18,4,309!2024-02-18,4,315-->
-- hazard reduction or elimination→:::←engineering <!--SR:!2024-02-18,4,306!2000-01-01,1,250-->
-- engineering→:::←administration <!--SR:!2000-01-01,1,250!2024-02-18,4,315-->
+- hazard reduction or elimination→:::←engineering <!--SR:!2024-02-18,4,306!2024-02-19,4,319-->
+- engineering→:::←administration <!--SR:!2024-02-19,4,319!2024-02-18,4,315-->
 - administration→:::←personal protective equipment <!--SR:!2024-02-18,4,306!2024-02-18,4,309-->
 - personal protective equipment→:::←_(in decreasing preference)_ <!--SR:!2024-02-17,3,286!2024-02-18,4,309-->
 
@@ -199,13 +199,13 @@ reduced sweating
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convulsions
+- _(begin)_→:::←convulsions <!--SR:!2024-02-18,3,299!2024-02-19,4,319-->
 - convulsions→:::←dry hot skin <!--SR:!2024-02-17,3,295!2024-02-17,3,295-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-02-17,3,289!2024-02-18,4,309-->
-- elevated core temperature→:::←high temperature
-- high temperature→:::←mental confusion <!--SR:!2000-01-01,1,250!2024-02-17,3,289-->
+- elevated core temperature→:::←high temperature <!--SR:!2024-02-19,4,319!2024-02-19,4,319-->
+- high temperature→:::←mental confusion <!--SR:!2024-02-16,1,279!2024-02-17,3,289-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-02-17,3,295!2024-02-17,3,295-->
-- reduced sweating→:::←_(end)_ <!--SR:!2024-02-18,4,309!2000-01-01,1,250-->
+- reduced sweating→:::←_(end)_ <!--SR:!2024-02-18,4,309!2024-02-16,1,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -243,12 +243,12 @@ user
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control
-- control→:::←environment
-- environment→:::←equipment
-- equipment→:::←material <!--SR:!2000-01-01,1,250!2024-02-17,3,289-->
-- material→:::←process <!--SR:!2000-01-01,1,250!2024-02-17,3,289-->
-- process→:::←user
+- _(begin)_→:::←control <!--SR:!2024-02-18,3,299!2024-02-19,4,319-->
+- control→:::←environment <!--SR:!2024-02-18,3,299!2024-02-16,1,279-->
+- environment→:::←equipment <!--SR:!2024-02-18,3,299!2024-02-16,1,279-->
+- equipment→:::←material <!--SR:!2024-02-16,1,279!2024-02-17,3,289-->
+- material→:::←process <!--SR:!2024-02-16,1,279!2024-02-17,3,289-->
+- process→:::←user <!--SR:!2024-02-16,1,279!2024-02-19,4,319-->
 - user→:::←_(end)_ <!--SR:!2024-02-18,4,309!2024-02-18,4,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -287,12 +287,12 @@ socio-psychological
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-02-09T10:20:45.641711+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological <!--SR:!2000-01-01,1,250!2024-02-18,4,309-->
-- biological→:::←chemical
-- chemical→:::←ergonomics <!--SR:!2000-01-01,1,250!2024-02-18,3,275-->
-- ergonomics→:::←occupation-specific
-- occupation-specific→:::←physical
-- physical→:::←socio-psychological
+- _(begin)_→:::←biological <!--SR:!2024-02-18,3,299!2024-02-18,4,309-->
+- biological→:::←chemical <!--SR:!2024-02-18,3,299!2024-02-18,3,299-->
+- chemical→:::←ergonomics <!--SR:!2024-02-16,1,279!2024-02-18,3,275-->
+- ergonomics→:::←occupation-specific <!--SR:!2024-02-16,1,279!2024-02-18,3,299-->
+- occupation-specific→:::←physical <!--SR:!2024-02-18,3,299!2024-02-18,3,299-->
+- physical→:::←socio-psychological <!--SR:!2024-02-18,3,299!2024-02-18,3,299-->
 - socio-psychological→:::←_(end)_ <!--SR:!2024-02-18,4,309!2024-02-18,4,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -331,13 +331,13 @@ workplace
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←general community environment <!--SR:!2000-01-01,1,250!2024-02-18,4,309-->
-- general community environment→:::←occupational hygiene <!--SR:!2000-01-01,1,250!2024-02-17,3,289-->
-- occupational hygiene→:::←occupational medicine <!--SR:!2024-02-17,3,295!2000-01-01,1,250-->
+- _(begin)_→:::←general community environment <!--SR:!2024-02-16,1,279!2024-02-18,4,309-->
+- general community environment→:::←occupational hygiene <!--SR:!2024-02-16,1,279!2024-02-17,3,289-->
+- occupational hygiene→:::←occupational medicine <!--SR:!2024-02-17,3,295!2024-02-19,4,319-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-02-17,3,295!2024-02-18,4,315-->
-- occupational rehabilitation→:::←workers <!--SR:!2000-01-01,1,250!2024-02-17,3,289-->
-- workers→:::←workplace <!--SR:!2024-02-18,4,309!2000-01-01,1,250-->
-- workplace→:::←_(end)_ <!--SR:!2024-02-18,4,315!2000-01-01,1,250-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-02-18,3,299!2024-02-17,3,289-->
+- workers→:::←workplace <!--SR:!2024-02-18,4,309!2024-02-19,4,319-->
+- workplace→:::←_(end)_ <!--SR:!2024-02-18,4,315!2024-02-16,1,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -374,8 +374,8 @@ treatment
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="207b"--><!-- The following content is generated at 2024-02-09T10:20:45.596886+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←conduct medical clearance <!--SR:!2024-02-18,4,315!2024-02-18,4,309-->
-- conduct medical clearance→:::←diagnosis <!--SR:!2000-01-01,1,250!2024-02-18,4,315-->
-- diagnosis→:::←education <!--SR:!2024-02-17,3,289!2000-01-01,1,250-->
+- conduct medical clearance→:::←diagnosis <!--SR:!2024-02-18,3,299!2024-02-18,4,315-->
+- diagnosis→:::←education <!--SR:!2024-02-17,3,289!2024-02-16,1,279-->
 - education→:::←promotion <!--SR:!2024-02-18,4,315!2024-02-17,3,295-->
 - promotion→:::←treatment <!--SR:!2024-02-17,3,289!2024-02-18,4,315-->
 - treatment→:::←_(end)_ <!--SR:!2024-02-18,4,315!2024-02-18,4,315-->
@@ -416,13 +416,13 @@ vibration
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="81ab"--><!-- The following content is generated at 2024-02-09T10:20:45.804458+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←ionizing radiation <!--SR:!2024-02-17,3,295!2000-01-01,1,250-->
+- _(begin)_→:::←ionizing radiation <!--SR:!2024-02-17,3,295!2024-02-18,3,299-->
 - ionizing radiation→:::←noise <!--SR:!2024-02-17,3,289!2024-02-17,3,289-->
-- noise→:::←nonionizing radiation
+- noise→:::←nonionizing radiation <!--SR:!2024-02-18,3,299!2024-02-18,3,299-->
 - nonionizing radiation→:::←pressure <!--SR:!2024-02-17,3,289!2024-02-17,3,289-->
-- pressure→:::←temperature <!--SR:!2024-02-18,4,315!2000-01-01,1,250-->
-- temperature→:::←vibration
-- vibration→:::←_(end)_ <!--SR:!2024-02-18,4,309!2000-01-01,1,250-->
+- pressure→:::←temperature <!--SR:!2024-02-18,4,315!2024-02-16,1,279-->
+- temperature→:::←vibration <!--SR:!2024-02-16,1,279!2024-02-18,3,299-->
+- vibration→:::←_(end)_ <!--SR:!2024-02-18,4,309!2024-02-16,1,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -458,11 +458,11 @@ steelworks
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←cold storages <!--SR:!2000-01-01,1,250!2024-02-18,4,309-->
-- cold storages→:::←glassworks <!--SR:!2000-01-01,1,250!2024-02-17,3,295-->
-- glassworks→:::←kitchens <!--SR:!2000-01-01,1,250!2024-02-17,3,295-->
-- kitchens→:::←laundries
-- laundries→:::←steelworks <!--SR:!2000-01-01,1,250!2024-02-17,3,295-->
-- steelworks→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-02-19,4,295-->
+- _(begin)_→:::←cold storages <!--SR:!2024-02-19,4,319!2024-02-18,4,309-->
+- cold storages→:::←glassworks <!--SR:!2024-02-16,1,279!2024-02-17,3,295-->
+- glassworks→:::←kitchens <!--SR:!2024-02-18,3,299!2024-02-17,3,295-->
+- kitchens→:::←laundries <!--SR:!2024-02-18,3,299!2024-02-18,3,299-->
+- laundries→:::←steelworks <!--SR:!2024-02-18,3,299!2024-02-17,3,295-->
+- steelworks→:::←_(end)_ <!--SR:!2024-02-19,4,319!2024-02-19,4,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
