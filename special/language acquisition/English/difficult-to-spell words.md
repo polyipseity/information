@@ -28,7 +28,7 @@ English
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-03-19,62,324!2024-03-22,65,324-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c\_y) Acting as a complement to make something else whole. <!--SR:!2024-03-21,64,324!2024-03-12,56,324-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-03-10,39,264!2024-03-16,59,324-->
-- [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-03-12,33,390!2024-02-15,7,330-->
+- [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-03-12,33,390!2024-03-19,33,350-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2024-03-16,32,392!2024-03-12,28,393-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2024-04-07,74,324!2024-04-10,77,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation. <!--SR:!2024-04-13,80,324!2024-03-26,68,324-->

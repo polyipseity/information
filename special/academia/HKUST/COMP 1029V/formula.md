@@ -150,7 +150,7 @@ return _chain.from_iterable(await _gather(
 - `=`→:::←`<` <!--SR:!2024-02-22,17,290!2024-02-16,11,270-->
 - `<`→:::←`>` <!--SR:!2024-02-19,14,290!2024-02-21,16,290-->
 - `>`→:::←`<=` <!--SR:!2024-02-21,16,290!2024-02-23,11,250-->
-- `<=`→:::←`>=` <!--SR:!2024-02-19,14,290!2024-02-15,10,270-->
+- `<=`→:::←`>=` <!--SR:!2024-02-19,14,290!2024-03-11,25,270-->
 - `>=`→:::←`<>` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
 - `<>`→:::←_(end)_ <!--SR:!2024-02-18,13,290!2024-02-19,14,290-->
 
@@ -286,9 +286,9 @@ return _chain.from_iterable(await _gather(
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-20,15,290!2024-02-17,12,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-03-01,16,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-15,1,130!2024-03-04,21,250-->
-- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-02-16,11,270!2024-02-15,10,270-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-15,3,230-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-17,2,150!2024-03-04,21,250-->
+- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-02-16,11,270!2024-02-19,4,250-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-17,2,210-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-02-18,13,290!2024-03-07,22,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -360,9 +360,9 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-03-03,18,270!2024-02-18,13,290-->
-- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-02-15,8,270!2024-02-18,13,290-->
+- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-03-17,31,290!2024-02-18,13,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-02-22,17,290!2024-02-16,11,270-->
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-02-15,6,230!2024-02-17,9,250-->
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-03-01,15,230!2024-02-17,9,250-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-23,9,230!2024-02-17,10,230-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-25,14,230!2024-02-29,17,270-->

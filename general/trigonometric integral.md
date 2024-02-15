@@ -36,7 +36,7 @@ tags:
 > {{__Si(x), si(x)__}}
 >
 > - {{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}}
-> - {{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2024-02-15,104,310!2024-06-10,171,270!2024-03-04,40,190-->
+> - {{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2025-05-05,445,330!2024-06-10,171,270!2024-03-04,40,190-->
 
 ## cosine integral
 
