@@ -8,7 +8,7 @@ tags:
 
 # mixture
 
-A __mixture__ is {{a matter made up of multiple [chemical substances](chemical%20substance.md) which are not chemically bonded}}. It is impure. <!--SR:!2024-02-16,213,250-->
+A __mixture__ is {{a matter made up of multiple [chemical substances](chemical%20substance.md) which are not chemically bonded}}. It is impure. <!--SR:!2025-08-01,532,250-->
 
 ## properties
 
