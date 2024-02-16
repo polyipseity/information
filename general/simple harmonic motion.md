@@ -88,7 +88,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-02-16,43,316!2024-03-26,78,336!2024-03-20,73,336!2024-02-21,50,316!2024-02-28,52,316!2024-03-16,70,336!2024-03-23,76,336-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-03-08,21,296!2024-03-26,78,336!2024-03-20,73,336!2024-02-21,50,316!2024-02-28,52,316!2024-03-16,70,336!2024-03-23,76,336-->
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 

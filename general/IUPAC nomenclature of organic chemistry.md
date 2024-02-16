@@ -501,7 +501,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2024-02-16,369,362!2024-04-25,426,362!2024-04-21,423,362!2025-11-12,732,282!2026-01-09,832,302!2028-12-05,1775,387-->
+> - infix: {{(locant)}} <!--SR:!2029-02-20,1831,382!2024-04-25,426,362!2024-04-21,423,362!2025-11-12,732,282!2026-01-09,832,302!2028-12-05,1775,387-->
 
 <!-- markdownlint MD028 -->
 

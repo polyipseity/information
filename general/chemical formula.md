@@ -14,7 +14,7 @@ tags:
 
 ### empirical formula
 
-Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2024-02-16,206,270-->
+Empirical formulas {{show the simplest whole number ratio of [atoms](atom.md) in a [chemical compound](chemical%20compound.md)}}. <!--SR:!2025-08-24,555,270-->
 
 ### molecular formula
 

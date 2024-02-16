@@ -49,7 +49,7 @@ The content is in teaching order.
 - [hazard control](#hazard%20control)
   - [grounding](../../../../../general/ground%20(electricity).md) ::: Connect dead parts to the earth so that said dead part has zero potential during a fault. [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md): Z<sub>2</sub> <= 50 Z<sub>S</sub>/U<sub>O</sub> Ω, where Z<sub>S</sub> is the sum of live wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>1</sub>, ground wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>2</sub>, and ground [impedance](../../../../../general/electrical%20impedance.md) Z<sub>e</sub>, and U<sub>O</sub> is the source [voltage](../../../../../general/voltage.md), [diameter](../../../../../general/diameter.md) >= 12.5 mm <!--SR:!2024-02-18,7,264!2024-02-20,9,270-->
   - protective bonding ::: Connect several conductive parts to ensure the parts have the same potential so that they do not conduct current during a fault. May be used with [grounding](../../../../../general/ground%20(electrical).md). <!--SR:!2024-02-23,12,284!2024-02-29,18,309-->
-- [circuit breaker](../../../../../general/circult%20breaker.md) ::: [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB), [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI), [residual-current device](../../../../../general/residual-current%20device.md) (RCD) <!--SR:!2024-02-24,9,287!2024-02-16,4,307-->
+- [circuit breaker](../../../../../general/circult%20breaker.md) ::: [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB), [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI), [residual-current device](../../../../../general/residual-current%20device.md) (RCD) <!--SR:!2024-02-24,9,287!2024-03-05,18,327-->
     - [residual-current device](../../../../../general/residual-current%20device.md) (RCD) ::: Breaks a circuit when it detects leakage current to [ground](../../../../../general/ground%20(electricity).md). <!--SR:!2024-02-27,16,290!2024-02-27,16,290-->
     - [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB) ::: A resettable [fuse](../../../../../general/fuse%20(electrical).md). Breaks a circuit when it detects overload. <!--SR:!2024-02-29,18,304!2024-02-26,15,290-->
     - [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI) ::: A combination of RCD and MCB. <!--SR:!2024-02-25,14,290!2024-02-29,18,309-->
@@ -67,7 +67,7 @@ The content is in teaching order.
       - [six kinds of prescribed products](#six%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-02-24,13,289!2024-02-26,15,290-->
-- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings. <!--SR:!2024-02-16,2,210!2024-02-19,6,249-->
+- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement, stipulating instructions, manner of presentation, safety, standards, use of marks, and warnings. <!--SR:!2024-02-17,1,190!2024-02-19,6,249-->
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-02-27,12,249!2024-02-17,6,264-->
 
 ## oversized data
@@ -108,11 +108,11 @@ wet condition
 
 - _(begin)_→:::←improper contact <!--SR:!2024-02-17,2,267!2024-02-16,4,307-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-02-16,4,307!2024-02-17,2,267-->
-- lack of maintenance→:::←overloading <!--SR:!2024-02-16,4,307!2024-02-16,2,247-->
+- lack of maintenance→:::←overloading <!--SR:!2024-02-16,4,307!2024-02-17,1,227-->
 - overloading→:::←short circuiting <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
 - short circuiting→:::←using substandard electrical appliances <!--SR:!2024-02-16,2,247!2024-02-17,2,267-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-02-22,7,287!2024-02-26,11,287-->
-- wet condition→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
+- wet condition→:::←_(end)_ <!--SR:!2024-03-06,19,327!2024-03-01,14,307-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -157,12 +157,12 @@ protective bonding
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2024-02-09T00:10:28.927666+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[center tap](../../../../../general/center%20tap.md) <!--SR:!2024-02-17,4,287!2024-02-16,4,307-->
-- [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-02-16,2,247!2024-02-29,14,307-->
-- [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-02-16,3,267!2024-02-24,9,287-->
+- [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-02-21,5,247!2024-02-29,14,307-->
+- [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-02-24,8,267!2024-02-24,9,287-->
 - compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-02-17,2,267!2024-02-29,14,307-->
 - [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-02-29,14,307!2024-02-22,7,287-->
 - grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-02-16,3,267!2024-02-24,9,287-->
-- [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-02-16,3,267!2024-02-16,3,267-->
+- [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-02-16,3,267!2024-02-24,8,267-->
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-02-17,2,267!2024-02-26,11,287-->
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-02-16,4,307!2024-02-17,2,267-->
 - protective bonding→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-17,2,267-->
@@ -197,10 +197,10 @@ use of inappropriate measurement tools
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←contact with overhead power lines <!--SR:!2024-02-28,13,307!2024-02-16,4,307-->
+- _(begin)_→:::←contact with overhead power lines <!--SR:!2024-02-28,13,307!2024-03-03,16,327-->
 - contact with overhead power lines→:::←damaged cover <!--SR:!2024-02-29,14,307!2024-02-28,13,307-->
-- damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
-- use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
+- damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-02-16,4,307!2024-03-05,18,327-->
+- use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-03-05,18,327!2024-02-27,11,307-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -235,9 +235,9 @@ Consumer Goods Safety Ordinance (Cap. 456)
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) <!--SR:!2024-02-23,8,287!2024-02-16,4,307-->
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-02-16,4,307!2024-02-23,8,287-->
-- Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-02-16,4,307!2024-02-29,14,307-->
-- _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-02-22,7,287!2024-02-16,4,307-->
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-04,17,327!2024-02-23,8,287-->
+- Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-03-04,17,327!2024-02-29,14,307-->
+- _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-02-22,7,287!2024-02-27,11,307-->
 - Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-24,9,287-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -279,7 +279,7 @@ unventilated thermal storage type electric water heaters
 - _(begin)_→:::←adaptors <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
 - adaptors→:::←extension units <!--SR:!2024-02-16,4,307!2024-02-29,14,307-->
 - extension units→:::←flexible cords <!--SR:!2024-02-16,4,307!2024-02-16,4,307-->
-- flexible cords→:::←lamp holders <!--SR:!2024-02-17,2,267!2024-02-16,4,307-->
+- flexible cords→:::←lamp holders <!--SR:!2024-02-17,2,267!2024-02-27,11,307-->
 - lamp holders→:::←plugs <!--SR:!2024-02-23,8,287!2024-02-25,10,287-->
 - plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-02-22,7,287!2024-02-16,4,307-->
 - unventilated thermal storage type electric water heaters→:::←_(end)_ <!--SR:!2024-02-16,4,307!2024-02-25,10,307-->
@@ -318,10 +318,10 @@ no safety shutter
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3905"--><!-- The following content is generated at 2024-02-09T09:14:53.797631+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←cannot withstand high [temperature](../../../../../general/temperature.md) <!--SR:!2024-02-17,2,267!2024-02-16,4,307-->
+- _(begin)_→:::←cannot withstand high [temperature](../../../../../general/temperature.md) <!--SR:!2024-02-17,2,267!2024-03-05,18,327-->
 - cannot withstand high [temperature](../../../../../general/temperature.md)→:::←loose electric plug <!--SR:!2024-02-26,11,307!2024-02-27,12,307-->
 - loose electric plug→:::←no [fuse](../../../../../general/fuse%20(electrical).md) <!--SR:!2024-02-16,4,307!2024-02-16,3,267-->
-- no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-02-16,4,307!2024-02-23,8,287-->
+- no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-02-27,11,307!2024-02-23,8,287-->
 - no insulating sleeves→:::←no safety shutter <!--SR:!2024-02-16,4,307!2024-02-26,11,307-->
 - no safety shutter→:::←_(end)_ <!--SR:!2024-02-28,13,307!2024-02-26,11,307-->
 

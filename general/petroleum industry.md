@@ -65,7 +65,7 @@ return await memorize_seq(
 - -: emits gaseous pollutants→:::←-: generates waste that may be harmful or toxic <!--SR:!2024-03-30,223,274!2024-03-15,87,294-->
 - -: generates waste that may be harmful or toxic→:::←-: pollution control cost is high <!--SR:!2025-09-06,644,314!2025-02-12,370,254-->
 - -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2024-04-26,230,274!2026-09-14,946,334-->
-- -: safety control cost is high→:::←_(end)_ <!--SR:!2024-05-28,305,334!2024-02-16,206,314-->
+- -: safety control cost is high→:::←_(end)_ <!--SR:!2024-05-28,305,334!2025-11-23,646,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
