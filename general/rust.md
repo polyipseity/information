@@ -73,7 +73,7 @@ return await memorize_table(
 > | {{[cathodic protection](#cathodic%20protection)}} |  |
 > | {{[coating and painting](#coating%20and%20painting)}} |  |
 > | {{[electroplating](#electroplating)}} |  |
-> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2025-05-07,551,310!2024-02-17,243,330!2024-03-29,276,330!2024-06-16,310,290-->
+> | {{[rust-resistant alloys](#rust-resistant%20alloys)}} |  | <!--SR:!2025-05-07,551,310!2026-04-27,800,330!2024-03-29,276,330!2024-06-16,310,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

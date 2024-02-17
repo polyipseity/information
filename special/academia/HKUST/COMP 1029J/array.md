@@ -31,7 +31,7 @@ aStringArray[3] = "!";
 
 ## indexing
 
-To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-02-17,13,290-->
+To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-04-05,48,310-->
 
 If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-02-18,14,290!2024-02-19,15,290-->
 
@@ -52,7 +52,7 @@ assert threeByThreeSquare[2][1];
 
 ## length
 
-The length of an array can be determined by {{accessing the field `.length`}}: <!--SR:!2024-02-17,13,290-->
+The length of an array can be determined by {{accessing the field `.length`}}: <!--SR:!2024-03-26,38,290-->
 
 ```Java
 int[] anIntArray = new int[123];

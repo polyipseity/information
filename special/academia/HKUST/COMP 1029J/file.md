@@ -23,15 +23,15 @@ Path path2 = Paths.get("C:\\Documents", "aFileNotInTheProjectDirectory.txt");
 
 ## file metadata
 
-One can check whether {{an __existing__ file}} is readable or writeable using {{`java.nio.file.Files.isReadable(path)` or `java.nio.file.Files.isWritable(path)` respectively}}. <!--SR:!2024-02-17,13,290!2024-02-19,15,290-->
+One can check whether {{an __existing__ file}} is readable or writeable using {{`java.nio.file.Files.isReadable(path)` or `java.nio.file.Files.isWritable(path)` respectively}}. <!--SR:!2024-04-12,55,310!2024-02-19,15,290-->
 
 ## text files
 
-One can read from or write to a text file using {{`java.io.BufferedReader` or `java.io.BufferedWriter` respectively}}. <!--SR:!2024-02-17,13,290-->
+One can read from or write to a text file using {{`java.io.BufferedReader` or `java.io.BufferedWriter` respectively}}. <!--SR:!2024-04-11,54,310-->
 
 ### reading text files
 
-Use {{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by passing `java.nio.charset.Charset.defaultCharset()`}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-02-17,13,290!2024-02-19,15,290!2024-02-20,16,290-->
+Use {{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by passing `java.nio.charset.Charset.defaultCharset()`}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-03-24,36,290!2024-02-19,15,290!2024-02-20,16,290-->
 
 To read a line, use {{`reader.readLine()`, which returns `null` when the end of file has reached}}. An example: <!--SR:!2024-02-21,17,290-->
 
