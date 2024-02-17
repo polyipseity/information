@@ -62,8 +62,8 @@ id_num_dir: gen.TextCode = gen.seq_to_code((
   prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
   suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 arrange: gen.TextCode = gen.seq_to_code((
-    'prefix order: alphabetical order ignoring prefixes for type count',
     'bond order: single bond, double bond, triple bond, ...',
+    'prefix order: alphabetical order ignoring prefixes for type count',
   ),
   index=1,
   prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
@@ -234,18 +234,18 @@ The steps for naming an organic compound are:
 
 #### arrange
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2022-11-05T00:24:43.690374+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2024-02-17T20:15:49.350229+08:00. Any edits will be overridden! -->
 
-> 1. prefix order: alphabetical order ignoring prefixes for type count
-> 2. bond order: single bond, double bond, triple bond, ...
+> 1. bond order: single bond, double bond, triple bond, ...
+> 2. prefix order: alphabetical order ignoring prefixes for type count
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-01-04T20:17:52.087770+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count
-- prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ...
-- bond order: single bond, double bond, triple bond, ...→:::←_(end)_
+- _(begin)_→:::←bond order: single bond, double bond, triple bond, ...
+- bond order: single bond, double bond, triple bond, ...→:::←prefix order: alphabetical order ignoring prefixes for type count
+- prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
