@@ -71,15 +71,15 @@ return _chain.from_iterable(await _gather(
   ),
   memorize_map(
     e.cwf_sects(None, "5dab", None,),
-    items_to_map(*(entry[:2] for entry in table)),
+    items_to_map(*((entry[0], entry[1],) for entry in table if entry[1])),
   ),
   memorize_map(
     e.cwf_sects(None, "679d", "39ba",),
-    items_to_map(*((entry[0], entry[2]) for entry in table if entry[2])),
+    items_to_map(*((entry[0], entry[2],) for entry in table if entry[2])),
   ),
   memorize_map(
     e.cwf_sects(None, "1e32", "ff01",),
-    items_to_map(*((entry[0], entry[3]) for entry in table if entry[3])),
+    items_to_map(*((entry[0], entry[3],) for entry in table if entry[3])),
   ),
 ))
 ```
