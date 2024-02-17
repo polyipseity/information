@@ -65,12 +65,12 @@ return await memorize_table(
   e.cwf_sects('0692', '3810',),
   ('name', 'description',),
   (
-    ('[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines', '',),
-    (R'reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)', '',),
-    ('relative brightness of spectral lines', '',),
-    ('spectra of [atoms](atom.md) with multiple [electrons](electron.md)', '',),
+    ('brightness', 'relative brightness of spectral lines',),
+    ('multiple [electrons](electron.md)', 'spectra of [atoms](atom.md) with multiple [electrons](electron.md)',),
+    (R'naturalness', 'reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)',),
+    ('structures', '[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines',),
   ),
-  lambda datum: map(cloze, datum),
+  lambda datum: (datum[0], *map(cloze, datum[1:])),
 )
 ```
 
@@ -78,24 +78,24 @@ return await memorize_table(
 
 The Bohr model fails to explain:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0692"--><!-- The following content is generated at 2023-05-07T09:39:21.532649+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0692"--><!-- The following content is generated at 2024-02-17T18:00:08.067050+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
-> | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
-> | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
-> | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  |
+> | brightness | {{relative brightness of spectral lines}} |
+> | multiple [electrons](electron.md) | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |
+> | naturalness | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
+> | structures | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-01-04T20:17:51.354362+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines
-- [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)
-- reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines
-- relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md)
-- spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_
+- _(begin)_→:::←brightness
+- brightness→:::←multiple [electrons](electron.md)
+- multiple [electrons](electron.md)→:::←naturalness
+- naturalness→:::←structures
+- structures→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
