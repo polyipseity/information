@@ -1,12 +1,12 @@
 ---
 aliases:
-  - civil engineering
+  - introduction to civil engineering
 tags:
-  - flashcard/special/academia/HKUST/CIVL_1100/civil_engineering
+  - flashcard/special/academia/HKUST/CIVL_1100/introduction_to_civil_engineering
   - language/in/English
 ---
 
-# civil engineering
+# introduction to civil engineering
 
 %%
 

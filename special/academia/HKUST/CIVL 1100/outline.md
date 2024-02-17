@@ -21,4 +21,4 @@ The content is in teaching order.
 ## week 2 lecture
 
 - 3 covered fields ::: civil and structural engineering, environmental engineering, geo-technical engineering
-- [civil engineering](civil%20engineering.md)
+- [introduction to civil engineering](introduction%20to%20civil%20engineering.md)
