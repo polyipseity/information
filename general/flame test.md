@@ -23,9 +23,8 @@ The test involves {{introducing the sample into a hot, non-luminous flame and ob
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('abcdef', 'bd92ec'),
+  __env__.cwf_sects('abcdef', 'bd92ec'),
   (
     'Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).',
     'Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).',
@@ -62,9 +61,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_map(
-  e.cwf_sects('4905', '2837ca', 'b8283e'),
+  __env__.cwf_sects('4905', '2837ca', 'b8283e'),
   {
     '[calcium](calcium.md)': ('brick red', 'light green (through [cobalt blue glass](cobalt%20glass.md))',),
     '[copper](copper.md)(I)': ('blue-green',),

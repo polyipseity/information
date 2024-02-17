@@ -32,9 +32,8 @@ The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20t
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from itertools import chain
-e = __env__
 return await memorize_table(
-  e.cwf_sects('309d', '284d'),
+  __env__.cwf_sects('309d', '284d'),
   ('name', 'description',),
   (
     ('__duplet rule__', '2 electrons in valence shell', '<a id="^duplet-rule"></a>^duplet-rule'),

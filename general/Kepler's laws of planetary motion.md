@@ -30,9 +30,8 @@ The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('23aa', '45ba',),
+  __env__.cwf_sects('23aa', '45ba',),
   (
     R'The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$',
     R'A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$',

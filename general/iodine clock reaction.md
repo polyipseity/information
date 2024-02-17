@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('d951', 'cf9a',),
+  __env__.cwf_sects('d951', 'cf9a',),
   (
     'A solution containing [potassium iodide](potassium%20iodide.md), [sodium thiosulfate](sodium%20thiosulfate.md), and [starch](starch.md) is added to another solution containing [hydrogen peroxide](hydrogen%20peroxide.md) and [sulfuric acid](sulfuric%20acid.md).',
     'slow reaction: H<sub>2</sub>O<sub>2</sub>(aq) + 2I<sup>-</sup>(aq) + 2H<sup>+</sup>(aq) → I<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)',

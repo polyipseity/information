@@ -60,9 +60,8 @@ The energy of a photon emitted by a hydrogen atom is:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('0692', '3810',),
+  __env__.cwf_sects('0692', '3810',),
   ('name', 'description',),
   (
     ('brightness', 'relative brightness of spectral lines',),

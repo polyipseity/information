@@ -26,7 +26,6 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = ("[color](color.md)", "[wavelength](wavelength.md) ([nm](nanometer.md))", "[frequency](frequency.md) ([THz](hertz.md))", "[photon energy](photon%20energy.md) ([eV](electronvolt.md))",)
 table = (
   (f"{colored_block("#7f00ff")} [violet](violet%20(color).md)", "380–450", "670–790", "2.75–3.26",),
@@ -38,17 +37,17 @@ table = (
   (f"{colored_block("red")} [red](red.md)", "625–750", "400–480", "1.65–1.98",),
 )
 return _chain.from_iterable(await _gather(
-  memorize_table(e.cwf_sects("d951", "5861",), headers, table,),
+  memorize_table(__env__.cwf_sects("d951", "5861",), headers, table,),
   memorize_map(
-    e.cwf_sects(None, "948f", "679d",),
+    __env__.cwf_sects(None, "948f", "679d",),
     items_to_map(*(entry[:2] for entry in table)),
   ),
   memorize_map(
-    e.cwf_sects(None, "da12", "3349",),
+    __env__.cwf_sects(None, "da12", "3349",),
     items_to_map(*((entry[0], entry[2]) for entry in table)),
   ),
   memorize_map(
-    e.cwf_sects(None, "5680", "e224",),
+    __env__.cwf_sects(None, "5680", "e224",),
     items_to_map(*((entry[0], entry[3]) for entry in table)),
   ),
 ))

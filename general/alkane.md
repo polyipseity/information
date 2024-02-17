@@ -47,9 +47,8 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('dd12', '102a'),
+  __env__.cwf_sects('dd12', '102a'),
   ('name', 'description',),
   (
     ('[combustion](#combustion)', '',),

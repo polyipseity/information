@@ -666,9 +666,8 @@ return (
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('f91a', 'dd91'),
+  __env__.cwf_sects('f91a', 'dd91'),
   ('trivial name', 'systematic name',),
   (
     ('[acetic acid](acetic%20acid.md)', 'ethanoic acid',),

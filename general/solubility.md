@@ -214,13 +214,12 @@ return (
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 insoluble = '<span style="color: red;">insoluble</span>'
 reacts = '<span style="color: violet;">reacts</span>'
 slightly_soluble = '<span style="background-color: black; color: yellow;">slightly soluble</span>'
 soluble = '<span style="color: green;">soluble</span>'
 return await memorize_map(
-  e.cwf_sects("059f", "b92d", None,),
+  __env__.cwf_sects("059f", "b92d", None,),
   {
     "[ammonium carbonate](ammonium%20carbonate.md)": soluble,
     "[ammonium chloride](ammonium%20chloride.md)": soluble,

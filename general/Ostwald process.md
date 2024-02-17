@@ -25,10 +25,9 @@ The __Ostwald process__ is {{a [chemical process](chemical%20process.md) for the
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 context = 'the Ostwald process'
 return await memorize_seq(
-  e.cwf_sects('4861', 'ba22',),
+  __env__.cwf_sects('4861', 'ba22',),
   (
     R'[catalytic oxidation](catalytic%20oxidation.md) of [ammonia](ammonia.md) in a catalytic chamber: $\ce{4NH3(g) + 5O2(g) ->[Pt][\text{900 °C, 8 atm}] 4NO(g) + 6H2O(g)}\qquad\Delta{}H=-905.2\ \text{kJ mol}^{-1}$',
     R'[oxidation](oxidation.md) of [nitric oxide](nitric%20oxide.md) in a oxidation chamber: $\ce{2NO(g) + O2(g) -> 2NO2(g)}\qquad\Delta{}H=-114\ \text{kJ mol}^{-1}$',

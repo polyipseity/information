@@ -31,8 +31,6 @@ tags:
 # import ../../tools/utility.py.md
 from asyncio import gather as _gather
 from itertools import chain as _chain
-
-e = __env__
 header = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)
 table = (
   ("[translation](translation%20(geometry).md) ($x, y, z$)", "3", "3", "3",),
@@ -41,11 +39,11 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("dee2", None,),
+    __env__.cwf_sects("dee2", None,),
     header, table,
   ),
   memorize_map(
-    e.cwf_sects(None, "2bba", "baa2",),
+    __env__.cwf_sects(None, "2bba", "baa2",),
     items_to_map(*((row[0], ", ".join(f"{header[ii]}: {row[ii]}" for ii in range(1, 4)),) for row in table)),
   ),
 ))

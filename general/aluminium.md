@@ -25,9 +25,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('320d', 'f123'),
+  __env__.cwf_sects('320d', 'f123'),
   ('name', 'description',),
   (
     ('aircraft bodies', '[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)',),

@@ -25,9 +25,8 @@ __Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}.
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_map(
-  e.cwf_sects('f9d1', '049e', '384d'),
+  __env__.cwf_sects('f9d1', '049e', '384d'),
   {
     '[monatomic](monoatomic%20molecule.md)': ('all [noble gases](noble%20gas.md)', 'Ar ([argon](argon.md))',),
     '[diatomic](diatomic%20molecule.md)': ('Cl<sub>2</sub> ([chlorine](chlorine.md))', 'H<sub>2</sub> ([hydrogen](hydrogen.md))', 'N<sub>2</sub> ([nitrogen](nitrogen.md))', 'O<sub>2</sub> ([oxygen](oxygen.md))',),

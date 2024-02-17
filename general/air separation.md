@@ -31,9 +31,8 @@ Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md).
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('28370e', '293842'),
+  __env__.cwf_sects('28370e', '293842'),
   (
     'Filter air to remove [dust](dust.md).',
     'Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.',

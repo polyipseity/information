@@ -58,9 +58,8 @@ return {
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await conversion_table(
-  e.cwf_sects("5ffa", "33dd", "76bc",),
+  __env__.cwf_sects("5ffa", "33dd", "76bc",),
   (t_kelvin, "x °C ≘ (x + 273.15) K", "x K ≘ (x − 273.15) °C",),
   (t_fahrenheit, "x °C ≘ (x × 9/5 + 32) °F", "x °F ≘ (x − 32) × 5/9 °C",),
   (t_rankine, "x °C ≘ (x + 273.15) × 9/5 °R", "x °R ≘ (x − 491.67) × 5/9 °C",),
@@ -103,9 +102,8 @@ return await conversion_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await conversion_table(
-  e.cwf_sects("955a", "50fb", "1234",),
+  __env__.cwf_sects("955a", "50fb", "1234",),
   (t_celsius, "x K ≘ (x − 273.15) °C", "x °C ≘ (x + 273.15) K",),
   (t_fahrenheit, "x K ≘ (x × 9/5 − 459.67) °F", "x °F ≘ (x + 459.67) × 5/9 K",),
   (t_rankine, "x K ≘ x × 9/5 °R", "x °R ≘ x × 5/9 K",),
@@ -148,9 +146,8 @@ return await conversion_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await conversion_table(
-  e.cwf_sects("46ab", "aad2", "3496",),
+  __env__.cwf_sects("46ab", "aad2", "3496",),
   (t_celsius, "x °F ≘ (x − 32) × 5/9 °C", "x °C ≘ (x × 9/5 + 32) °F",),
   (t_kelvin, "x °F ≘ (x + 459.67) × 5/9 K", "x K ≘ (x × 9/5 − 459.67) °F",),
   (t_rankine, "x °F ≘ (x + 459.67) °R", "x °R ≘ (x − 459.67) °F",),
@@ -193,9 +190,8 @@ return await conversion_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await conversion_table(
-  e.cwf_sects("b0a9", "ef82", "35a1",),
+  __env__.cwf_sects("b0a9", "ef82", "35a1",),
   (t_celsius, "x °R ≘ (x − 491.67) × 5/9 °C", "x °C ≘ (x + 273.15) × 9/5 °R",),
   (t_kelvin, "x °R ≘ x × 5/9 K", "x K ≘ x × 9/5 °R",),
   (t_fahrenheit, "x °R ≘ (x − 459.67) °F", "x °F ≘ (x + 459.67) °R",),
