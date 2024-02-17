@@ -3,8 +3,8 @@ aliases:
   - VSEPR theory
   - valence shell electron pair repulsion theory
 tags:
-  - flashcards/general/VSEPR_theory
-  - languages/in/English
+  - flashcard/general/VSEPR_theory
+  - language/in/English
 ---
 
 # VSEPR theory

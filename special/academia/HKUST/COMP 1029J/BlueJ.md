@@ -2,8 +2,8 @@
 aliases:
   - BlueJ
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/BlueJ
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/BlueJ
+  - language/in/English
 ---
 
 # BlueJ

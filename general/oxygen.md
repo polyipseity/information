@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/oxygen
-  - languages/in/English
+  - flashcard/general/oxygen
+  - language/in/English
 ---
 
 # oxygen

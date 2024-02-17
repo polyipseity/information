@@ -5,8 +5,8 @@ aliases:
   - Routh’s rule
   - stretch rule
 tags:
-  - flashcards/general/stretch_rule
-  - languages/in/English
+  - flashcard/general/stretch_rule
+  - language/in/English
 ---
 
 # stretch rule

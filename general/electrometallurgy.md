@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/electrometallurgy
-  - languages/in/English
+  - flashcard/general/electrometallurgy
+  - language/in/English
 ---
 
 # electrometallurgy

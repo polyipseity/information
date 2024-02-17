@@ -2,8 +2,8 @@
 aliases:
   - virial theorem
 tags:
-  - flashcards/general/virial_theorem
-  - languages/in/English
+  - flashcard/general/virial_theorem
+  - language/in/English
 ---
 
 # virial theorem

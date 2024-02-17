@@ -2,8 +2,8 @@
 aliases:
   - Python
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029P/Python
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029P/Python
+  - language/in/English
 ---
 
 # Python

@@ -3,8 +3,8 @@ aliases:
   - Ag
   - silver
 tags:
-  - flashcards/general/silver
-  - languages/in/English
+  - flashcard/general/silver
+  - language/in/English
 ---
 
 # silver

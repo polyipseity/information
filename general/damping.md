@@ -2,8 +2,8 @@
 aliases:
   - damping
 tags:
-  - flashcards/general/damping
-  - languages/in/English
+  - flashcard/general/damping
+  - language/in/English
 ---
 
 # damping

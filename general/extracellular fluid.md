@@ -3,8 +3,8 @@ aliases:
   - extracellular fluid
   - extracellular fluids
 tags:
-  - flashcards/general/extracellular_fluid
-  - languages/in/English
+  - flashcard/general/extracellular_fluid
+  - language/in/English
 ---
 
 # extracellular fluid

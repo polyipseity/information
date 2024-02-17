@@ -2,8 +2,8 @@
 aliases:
   - Ostwald process
 tags:
-  - flashcards/general/Ostwald_process
-  - languages/in/English
+  - flashcard/general/Ostwald_process
+  - language/in/English
 ---
 
 # Ostwald process

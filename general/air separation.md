@@ -2,8 +2,8 @@
 aliases:
   - air separation
 tags:
-  - flashcards/general/air_separation
-  - languages/in/English
+  - flashcard/general/air_separation
+  - language/in/English
 ---
 
 # air separation

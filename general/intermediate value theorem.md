@@ -2,8 +2,8 @@
 aliases:
   - intermediate value theorem
 tags:
-  - flashcards/general/intermediate_value_theorem
-  - languages/in/English
+  - flashcard/general/intermediate_value_theorem
+  - language/in/English
 ---
 
 # intermediate value theorem

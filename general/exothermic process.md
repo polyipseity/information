@@ -4,8 +4,8 @@ aliases:
   - exothermic process
   - exothermic processes
 tags:
-  - flashcards/general/exothermic_process
-  - languages/in/English
+  - flashcard/general/exothermic_process
+  - language/in/English
 ---
 
 # exothermic process

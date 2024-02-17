@@ -6,8 +6,8 @@ aliases:
   - gold foil experiment
   - gold foil experiments
 tags:
-  - flashcards/general/Geiger-Marsden_experiments
-  - languages/in/English
+  - flashcard/general/Geiger-Marsden_experiments
+  - language/in/English
 ---
 
 # Geiger–Marsden experiments

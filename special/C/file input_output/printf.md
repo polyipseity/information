@@ -17,8 +17,8 @@ aliases:
   - sprintf
   - sprintf_s
 tags:
-  - flashcards/special/C/file_intput_output/printf
-  - languages/in/English
+  - flashcard/special/C/file_intput_output/printf
+  - language/in/English
 ---
 
 # `printf`

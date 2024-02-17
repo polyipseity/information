@@ -3,8 +3,8 @@ aliases:
   - entropies
   - entropy
 tags:
-  - flashcards/general/entropy
-  - languages/in/English
+  - flashcard/general/entropy
+  - language/in/English
 ---
 
 # entropy

@@ -2,8 +2,8 @@
 aliases:
   - cover letter
 tags:
-  - flashcards/special/cover_letter
-  - languages/in/English
+  - flashcard/special/cover_letter
+  - language/in/English
 ---
 
 # cover letter

@@ -9,9 +9,9 @@ aliases:
   - HKUST CIVL1100
   - HKUST CIVL1100 outline
 tags:
-  - flashcards/special/academia/HKUST/CIVL_1100/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/CIVL_1100/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST CIVL 1100 outline

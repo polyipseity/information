@@ -6,8 +6,8 @@ aliases:
   - coefficient of performance
   - coefficients of performance
 tags:
-  - flashcards/general/coefficient_of_performance
-  - languages/in/English
+  - flashcard/general/coefficient_of_performance
+  - language/in/English
 ---
 
 # coefficient of performance

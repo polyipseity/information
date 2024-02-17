@@ -4,8 +4,8 @@ aliases:
   - derivatives of trigonometric functions
   - differentiation of trigonometric functions
 tags:
-  - flashcards/general/differentiation_of_trigonometric_functions
-  - languages/in/English
+  - flashcard/general/differentiation_of_trigonometric_functions
+  - language/in/English
 ---
 
 # differentiation of trigonometric functions

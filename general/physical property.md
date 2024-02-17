@@ -3,8 +3,8 @@ aliases:
   - physical properties
   - physical property
 tags:
-  - flashcards/general/physical_property
-  - languages/in/English
+  - flashcard/general/physical_property
+  - language/in/English
 ---
 
 # physical property

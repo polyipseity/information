@@ -2,8 +2,8 @@
 aliases:
   - Reichstein process
 tags:
-  - flashcards/general/Reichstein_process
-  - languages/in/English
+  - flashcard/general/Reichstein_process
+  - language/in/English
 ---
 
 # Reichstein process

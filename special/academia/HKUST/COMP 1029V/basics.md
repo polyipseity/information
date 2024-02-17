@@ -3,8 +3,8 @@ aliases:
   - VBA basic
   - VBA basics
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029V/basics
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029V/basics
+  - language/in/English
 ---
 
 # VBA basics

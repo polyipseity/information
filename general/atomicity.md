@@ -2,8 +2,8 @@
 aliases:
   - atomicity
 tags:
-  - flashcards/general/atomicity
-  - languages/in/English
+  - flashcard/general/atomicity
+  - language/in/English
 ---
 
 # atomicity

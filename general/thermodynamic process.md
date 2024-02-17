@@ -3,8 +3,8 @@ aliases:
   - thermodynamic process
   - thermodynamic processes
 tags:
-  - flashcards/general/thermodynamic_process
-  - languages/in/English
+  - flashcard/general/thermodynamic_process
+  - language/in/English
 ---
 
 # thermodynamic process

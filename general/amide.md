@@ -3,8 +3,8 @@ aliases:
   - amide
   - amides
 tags:
-  - flashcards/general/amide
-  - languages/in/English
+  - flashcard/general/amide
+  - language/in/English
 ---
 
 # amide

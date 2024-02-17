@@ -3,8 +3,8 @@ aliases:
   - ZnO
   - zinc oxide
 tags:
-  - flashcards/general/zinc_oxide
-  - languages/in/English
+  - flashcard/general/zinc_oxide
+  - language/in/English
 ---
 
 # zinc oxide

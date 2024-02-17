@@ -2,8 +2,8 @@
 aliases:
   - statements
 tags:
-  - flashcards/special/MySQL/statements
-  - languages/in/English
+  - flashcard/special/MySQL/statements
+  - language/in/English
 ---
 
 # statements

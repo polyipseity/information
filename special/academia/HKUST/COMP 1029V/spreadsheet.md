@@ -3,8 +3,8 @@ aliases:
   - Excel spreadsheet
   - Excel spreadsheets
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029V/spreadsheet
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029V/spreadsheet
+  - language/in/English
 ---
 
 # Excel spreadsheet

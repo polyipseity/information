@@ -3,8 +3,8 @@ aliases:
   - pH indicator
   - pH indicators
 tags:
-  - flashcards/general/pH_indicator
-  - languages/in/English
+  - flashcard/general/pH_indicator
+  - language/in/English
 ---
 
 # pH indicator

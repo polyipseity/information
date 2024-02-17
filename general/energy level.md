@@ -2,8 +2,8 @@
 aliases:
   - energy levels
 tags:
-  - flashcards/general/energy_level
-  - languages/in/English
+  - flashcard/general/energy_level
+  - language/in/English
 ---
 
 # energy level

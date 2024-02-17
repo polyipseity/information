@@ -2,8 +2,8 @@
 aliases:
   - Greenfoot
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/Greenfoot
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/Greenfoot
+  - language/in/English
 ---
 
 # Greenfoot

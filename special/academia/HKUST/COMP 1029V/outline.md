@@ -9,9 +9,9 @@ aliases:
   - HKUST COMP1029V
   - HKUST COMP1029V outline
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029V/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029V/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST COMP 1029V outline

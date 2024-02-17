@@ -3,8 +3,8 @@ aliases:
   - primary standard
   - primary standards
 tags:
-  - flashcards/general/primary_standard
-  - languages/in/English
+  - flashcard/general/primary_standard
+  - language/in/English
 ---
 
 # primary standard

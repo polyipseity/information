@@ -3,9 +3,9 @@ aliases:
   - command libraries
   - command library
 tags:
-  - flashcards/special/command_library
-  - functional/libraries
-  - languages/in/English
+  - flashcard/special/command_library
+  - functional/library
+  - language/in/English
 ---
 
 # command library

@@ -1,11 +1,11 @@
 ---
-tags:
+aliases:
   - regex libraries
   - regex library
 tags:
-  - flashcards/special/regex_library
-  - functional/libraries
-  - languages/in/English
+  - flashcard/special/regex_library
+  - functional/library
+  - language/in/English
 ---
 
 # regex library

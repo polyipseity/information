@@ -11,8 +11,8 @@ aliases:
   - repeating unit
   - repeating units
 tags:
-  - flashcards/general/repeat_unit
-  - languages/in/English
+  - flashcard/general/repeat_unit
+  - language/in/English
 ---
 
 # repeat unit

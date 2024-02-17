@@ -3,8 +3,8 @@ aliases:
   - ice 1h
   - ice Ih
 tags:
-  - flashcards/general/ice_Ih
-  - languages/in/English
+  - flashcard/general/ice_Ih
+  - language/in/English
 ---
 
 # ice I<sub>h</sub>

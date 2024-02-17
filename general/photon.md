@@ -2,8 +2,8 @@
 aliases:
   - photons
 tags:
-  - flashcards/general/photon
-  - languages/in/English
+  - flashcard/general/photon
+  - language/in/English
 ---
 
 # photon

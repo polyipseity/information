@@ -2,7 +2,7 @@
 aliases: []
 tags:
   - date/2023/10/03
-  - languages/in/English
+  - language/in/English
 ---
 
 # Homework

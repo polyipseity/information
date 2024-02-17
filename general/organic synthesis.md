@@ -2,8 +2,8 @@
 aliases:
   - organic synthesis
 tags:
-  - flashcards/general/organic_synthesis
-  - languages/in/English
+  - flashcard/general/organic_synthesis
+  - language/in/English
 ---
 
 # organic synthesis

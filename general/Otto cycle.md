@@ -5,8 +5,8 @@ aliases:
   - otto cycle
   - otto cycles
 tags:
-  - flashcards/general/Otto_cycle
-  - languages/in/English
+  - flashcard/general/Otto_cycle
+  - language/in/English
 ---
 
 # Otto cycle

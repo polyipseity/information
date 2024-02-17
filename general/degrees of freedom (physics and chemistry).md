@@ -5,8 +5,8 @@ aliases:
   - degrees of freedom
   - degrees of freedom (physics and chemistry)
 tags:
-  - flashcards/general/degrees_of_freedom__physics_and_chemistry_
-  - languages/in/English
+  - flashcard/general/degrees_of_freedom__physics_and_chemistry_
+  - language/in/English
 ---
 
 # degrees of freedom (physics and chemistry)

@@ -3,8 +3,8 @@ aliases:
   - Python turtle
   - Python turtles
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029P/turtle
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029P/turtle
+  - language/in/English
 ---
 
 # Python turtle

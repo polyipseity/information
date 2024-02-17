@@ -9,9 +9,9 @@ aliases:
   - HKUST COMP1942
   - HKUST COMP1942 outline
 tags:
-  - flashcards/special/academia/HKUST/COMP_1942/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1942/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST COMP 1942 outline

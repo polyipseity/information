@@ -3,8 +3,8 @@ aliases:
   - intermolecular force
   - intermolecular forces
 tags:
-  - flashcards/general/intermolecular_force
-  - languages/in/English
+  - flashcard/general/intermolecular_force
+  - language/in/English
 ---
 
 # intermolecular force

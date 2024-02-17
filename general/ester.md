@@ -3,8 +3,8 @@ aliases:
   - ester
   - esters
 tags:
-  - flashcards/general/ester
-  - languages/in/English
+  - flashcard/general/ester
+  - language/in/English
 ---
 
 # ester

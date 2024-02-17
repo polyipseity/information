@@ -4,8 +4,8 @@ aliases:
   - mean value theorem
   - mean-value theorem
 tags:
-  - flashcards/general/mean_value_theorem
-  - languages/in/English
+  - flashcard/general/mean_value_theorem
+  - language/in/English
 ---
 
 # mean value theorem

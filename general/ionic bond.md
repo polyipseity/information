@@ -5,8 +5,8 @@ aliases:
   - ionic bonding
   - ionic bonds
 tags:
-  - flashcards/general/ionic_bond
-  - languages/in/English
+  - flashcard/general/ionic_bond
+  - language/in/English
 ---
 
 # ionic bond

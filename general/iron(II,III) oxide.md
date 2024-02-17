@@ -6,8 +6,8 @@ aliases:
   - iron(II, III) oxide
   - iron(II,III) oxide
 tags:
-  - flashcards/general/iron_II,III__oxide
-  - languages/in/English
+  - flashcard/general/iron_II,III__oxide
+  - language/in/English
 ---
 
 # iron(II,III) oxide

@@ -9,9 +9,9 @@ aliases:
   - HKUST MATH1014
   - HKUST MATH1014 outline
 tags:
-  - flashcards/special/academia/HKUST/MATH_1014/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/MATH_1014/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST MATH 1014 outline

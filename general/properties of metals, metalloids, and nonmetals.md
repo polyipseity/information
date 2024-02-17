@@ -2,8 +2,8 @@
 aliases:
   - property of metals, metalloids, and nonmetals
 tags:
-  - flashcards/general/properties_of_metals,_metalloids,_and_nonmetals
-  - languages/in/English
+  - flashcard/general/properties_of_metals,_metalloids,_and_nonmetals
+  - language/in/English
 ---
 
 # properties of metals, metalloids, and nonmetals

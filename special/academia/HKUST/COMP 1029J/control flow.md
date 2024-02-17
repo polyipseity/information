@@ -3,8 +3,8 @@ aliases:
   - Java control flow
   - Java control flows
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/control_flow
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/control_flow
+  - language/in/English
 ---
 
 # Java control flow

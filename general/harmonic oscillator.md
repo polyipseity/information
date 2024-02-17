@@ -3,8 +3,8 @@ aliases:
   - harmonic oscillator
   - harmonic oscillators
 tags:
-  - flashcards/general/harmonic_oscillator
-  - languages/in/English
+  - flashcard/general/harmonic_oscillator
+  - language/in/English
 ---
 
 # harmonic oscillator

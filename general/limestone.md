@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/limestone
-  - languages/in/English
+  - flashcard/general/limestone
+  - language/in/English
 ---
 
 # limestone

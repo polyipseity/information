@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/panning
-  - languages/in/English
+  - flashcard/general/panning
+  - language/in/English
 ---
 
 # panning

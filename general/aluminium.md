@@ -4,8 +4,8 @@ aliases:
   - aluminium
   - aluminum
 tags:
-  - flashcards/general/aluminium
-  - languages/in/English
+  - flashcard/general/aluminium
+  - language/in/English
 ---
 
 # aluminium

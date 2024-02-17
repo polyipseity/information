@@ -2,8 +2,8 @@
 aliases:
   - octet rule
 tags:
-  - flashcards/general/octet_rule
-  - languages/in/English
+  - flashcard/general/octet_rule
+  - language/in/English
 ---
 
 # octet rule

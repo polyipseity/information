@@ -2,7 +2,7 @@
 aliases: []
 tags:
   - functional/data
-  - languages/in/English
+  - language/in/English
 ---
 
 # Redoxon Triple Action

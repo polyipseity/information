@@ -9,9 +9,9 @@ aliases:
   - HKUST COMP2012
   - HKUST COMP2012 outline
 tags:
-  - flashcards/special/academia/HKUST/COMP_2012/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_2012/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST COMP 2012 outline

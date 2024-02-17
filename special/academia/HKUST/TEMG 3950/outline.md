@@ -9,9 +9,9 @@ aliases:
   - TEMG3950
   - TEMG3950 outline
 tags:
-  - flashcards/special/academia/HKUST/PHYS_1002/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/PHYS_1002/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST TEMG 3950 outline

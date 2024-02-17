@@ -5,8 +5,8 @@ aliases:
   - Ohm’s Law
   - Ohm’s law
 tags:
-  - flashcards/general/Ohm_s_law
-  - languages/in/English
+  - flashcard/general/Ohm_s_law
+  - language/in/English
 ---
 
 # Ohm's law

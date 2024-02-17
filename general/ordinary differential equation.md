@@ -3,8 +3,8 @@ aliases:
   - ODE
   - ordinary differential equation
 tags:
-  - flashcards/general/ordinary_differential_equation
-  - languages/in/English
+  - flashcard/general/ordinary_differential_equation
+  - language/in/English
 ---
 
 # ordinary differential equation
