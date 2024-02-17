@@ -753,20 +753,14 @@ wood
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee10"--><!-- The following content is generated at 2024-02-16T21:59:47.514463+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee10"--><!-- The following content is generated at 2024-02-17T22:07:04.929721+08:00. Any edits will be overridden! -->
 
-> 1. agricultural
-> 2. architectural
-> 3. biomedical
-> 4. ceramic
-> 5. civil
-> 6. chemical
-> 7. computer
-> 8. electrical
-> 9. industrial
-> 10. manufacturing
-> 11. mechanical
-> 12. nuclear
+> 1. brick
+> 2. concrete
+> 3. new synthetic materials
+> 4. steel
+> 5. stone
+> 6. wood
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -789,7 +783,7 @@ wood
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 return await memorize_seq(
-  __env__.cwf_sects("ee10", "ee13",),
+  __env__.cwf_sects("39ba", "ee13",),
   """
 agricultural
 architectural
@@ -809,7 +803,22 @@ nuclear
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39ba"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39ba"--><!-- The following content is generated at 2024-02-17T22:07:05.005339+08:00. Any edits will be overridden! -->
+
+> 1. agricultural
+> 2. architectural
+> 3. biomedical
+> 4. ceramic
+> 5. civil
+> 6. chemical
+> 7. computer
+> 8. electrical
+> 9. industrial
+> 10. manufacturing
+> 11. mechanical
+> 12. nuclear
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-16T21:59:47.533086+08:00. Any edits will be overridden! -->
 
@@ -930,20 +939,22 @@ soil liquefaction
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2024-02-16T21:59:47.831069+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2024-02-17T22:07:05.106933+08:00. Any edits will be overridden! -->
 
-> 1. choose suitable materials to resurface a road like asphalt pavement
-> 2. design a concrete mix for a large building
-> 3. develop strengthening techniques for damaged structures or structural members like a damaged column
+> 1. debris flows
+> 2. landslides
+> 3. rockfalls
+> 4. soil liquefaction
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ba"--><!-- The following content is generated at 2024-02-16T21:59:47.813071+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ba"--><!-- The following content is generated at 2024-02-17T22:07:05.158955+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choose suitable materials to resurface a road like asphalt pavement
-- choose suitable materials to resurface a road like asphalt pavement→:::←design a concrete mix for a large building
-- design a concrete mix for a large building→:::←develop strengthening techniques for damaged structures or structural members like a damaged column
-- develop strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_
+- _(begin)_→:::←debris flows
+- debris flows→:::←landslides
+- landslides→:::←rockfalls
+- rockfalls→:::←soil liquefaction
+- soil liquefaction→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -1109,7 +1120,7 @@ Tsing Ma Bridge
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 return await memorize_seq(
-  __env__.cwf_sects("aad2", "50ba",),
+  __env__.cwf_sects("3681", "198b",),
   """
 choose suitable materials to resurface a road like asphalt pavement
 design a concrete mix for a large building
@@ -1120,9 +1131,22 @@ develop strengthening techniques for damaged structures or structural members li
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3681"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3681"--><!-- The following content is generated at 2024-02-17T22:07:05.265864+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="198b"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. choose suitable materials to resurface a road like asphalt pavement
+> 2. design a concrete mix for a large building
+> 3. develop strengthening techniques for damaged structures or structural members like a damaged column
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="198b"--><!-- The following content is generated at 2024-02-17T22:07:05.230868+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←choose suitable materials to resurface a road like asphalt pavement
+- choose suitable materials to resurface a road like asphalt pavement→:::←design a concrete mix for a large building
+- design a concrete mix for a large building→:::←develop strengthening techniques for damaged structures or structural members like a damaged column
+- develop strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### materials engineering material examples
 
