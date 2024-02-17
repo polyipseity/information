@@ -5,9 +5,9 @@ aliases:
 tags:
   - by/self
   - date/2023/10/03
-  - functional/texts
-  - languages/for/English
-  - languages/in/English
+  - functional/text
+  - language/for/English
+  - language/in/English
 ---
 
 # The Curious Case of Ineffective Study Strategies

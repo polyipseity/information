@@ -5,9 +5,9 @@ aliases:
 tags:
   - by/self
   - date/2023/12/01
-  - functional/texts
-  - languages/for/English
-  - languages/in/English
+  - functional/text
+  - language/for/English
+  - language/in/English
 ---
 
 # Reflection on Breaking Studying Mis-strategies
