@@ -4,8 +4,8 @@ aliases:
 tags:
   - by/self
   - date/2023/11/04
-  - functional/texts
-  - languages/in/English
+  - functional/text
+  - language/in/English
 ---
 
 # networking practicum reflection
