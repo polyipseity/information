@@ -3,8 +3,8 @@ aliases:
   - Java array
   - Java arrays
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/array
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/array
+  - language/in/English
 ---
 
 # Java array

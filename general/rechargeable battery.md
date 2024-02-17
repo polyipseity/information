@@ -9,8 +9,8 @@ aliases:
   - storage batteries
   - storage battery
 tags:
-  - flashcards/general/rechargeable_battery
-  - languages/in/English
+  - flashcard/general/rechargeable_battery
+  - language/in/English
 ---
 
 # rechargeable battery

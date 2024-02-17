@@ -3,8 +3,8 @@ aliases:
   - database normalisation
   - database normalization
 tags:
-  - flashcards/general/database_normalization
-  - languages/in/English
+  - flashcard/general/database_normalization
+  - language/in/English
 ---
 
 # database normalization

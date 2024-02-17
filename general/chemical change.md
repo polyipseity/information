@@ -2,8 +2,8 @@
 aliases:
   - chemical changes
 tags:
-  - flashcards/general/chemical_change
-  - languages/in/English
+  - flashcard/general/chemical_change
+  - language/in/English
 ---
 
 # chemical change

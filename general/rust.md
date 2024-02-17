@@ -3,8 +3,8 @@ aliases:
   - rust
   - rusting
 tags:
-  - flashcards/general/rust
-  - languages/in/English
+  - flashcard/general/rust
+  - language/in/English
 ---
 
 # rust
@@ -50,9 +50,8 @@ After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('39da', '192a'),
+  __env__.cwf_sects('39da', '192a'),
   ('name', 'description',),
   (
     ('[cathodic protection](#cathodic%20protection)', '',),

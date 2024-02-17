@@ -3,8 +3,8 @@ aliases:
   - Vim help
   - Vim usage
 tags:
-  - flashcards/special/Vim_usage
-  - languages/in/English
+  - flashcard/special/Vim_usage
+  - language/in/English
 ---
 
 # Vim usage

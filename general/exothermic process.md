@@ -4,8 +4,8 @@ aliases:
   - exothermic process
   - exothermic processes
 tags:
-  - flashcards/general/exothermic_process
-  - languages/in/English
+  - flashcard/general/exothermic_process
+  - language/in/English
 ---
 
 # exothermic process
@@ -25,9 +25,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('d924', 'abba'),
+  __env__.cwf_sects('d924', 'abba'),
   (
     'all [combustion reactions](combustion.md)',
     'all [neutralization reactions](neutralization%20(chemistry).md)',

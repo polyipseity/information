@@ -5,8 +5,8 @@ aliases:
   - equipartition theorem
   - law of equipartition
 tags:
-  - flashcards/general/equipartition_theorem
-  - languages/in/English
+  - flashcard/general/equipartition_theorem
+  - language/in/English
 ---
 
 # equipartition theorem

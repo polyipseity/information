@@ -2,8 +2,8 @@
 aliases:
   - metals
 tags:
-  - flashcards/general/metal
-  - languages/in/English
+  - flashcard/general/metal
+  - language/in/English
 ---
 
 # metal

@@ -6,8 +6,8 @@ aliases:
   - laboratory instrument
   - laboratory instruments
 tags:
-  - flashcards/general/laboratory_equipment
-  - languages/in/English
+  - flashcard/general/laboratory_equipment
+  - language/in/English
 ---
 
 # laboratory equipment
@@ -30,7 +30,6 @@ tags:
 from asyncio import gather as _gather
 from itertools import chain as _chain
 from pytextgen.gen import markdown_sanitizer as _md_san
-e = __env__
 rinse_water = 'Rinse the equipment with deionized [water](water.md) before use.'
 rinse_water_soln = 'Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered.'
 table = (
@@ -80,17 +79,17 @@ table = (
 table = tuple((*entry[:1], entry[1].format(_md_san(entry[0])), *entry[2:]) for entry in table)
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects('fadd2e', 'b81237'),
+    __env__.cwf_sects('fadd2e', 'b81237'),
     ('name & image', 'description',),
     table,
     lambda datum: (f'{datum[0]}<br/>{datum[1]}', *datum[2:]),
   ),
   memorize_map(
-    e.cwf_sects(None, 'dd23', 'f002'),
+    __env__.cwf_sects(None, 'dd23', 'f002'),
     items_to_map(*(entry[:2] for entry in table)),
   ),
   memorize_map(
-    e.cwf_sects(None, '3934', None),
+    __env__.cwf_sects(None, '3934', None),
     items_to_map(*((entry[0], entry[2]) for entry in table if entry[2])),
   ),
 ))

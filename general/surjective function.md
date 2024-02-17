@@ -7,8 +7,8 @@ aliases:
   - surjective function
   - surjective functions
 tags:
-  - flashcards/general/surjective_function
-  - languages/in/English
+  - flashcard/general/surjective_function
+  - language/in/English
 ---
 
 # surjective function

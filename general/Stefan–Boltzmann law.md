@@ -11,8 +11,8 @@ aliases:
   - stefan-boltzmann law
   - stefan–boltzmann law
 tags:
-  - flashcards/general/Stefan-Boltzmann_law
-  - languages/in/English
+  - flashcard/general/Stefan-Boltzmann_law
+  - language/in/English
 ---
 
 # Stefan–Boltzmann law

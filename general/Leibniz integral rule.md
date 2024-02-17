@@ -2,8 +2,8 @@
 aliases:
   - Leibniz integral rule
 tags:
-  - flashcards/general/Leibniz_integral_rule
-  - languages/in/English
+  - flashcard/general/Leibniz_integral_rule
+  - language/in/English
 ---
 
 # Leibniz integral rule

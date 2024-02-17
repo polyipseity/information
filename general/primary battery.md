@@ -5,8 +5,8 @@ aliases:
   - primary cell
   - primary cells
 tags:
-  - flashcards/general/primary_battery
-  - languages/in/English
+  - flashcard/general/primary_battery
+  - language/in/English
 ---
 
 # primary battery

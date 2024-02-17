@@ -7,8 +7,8 @@ aliases:
   - rust indicator solution
   - rust indicators
 tags:
-  - flashcards/general/ferroxyl_indicator_solution
-  - languages/in/English
+  - flashcard/general/ferroxyl_indicator_solution
+  - language/in/English
 ---
 
 # ferroxyl indicator solution

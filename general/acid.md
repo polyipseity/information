@@ -5,8 +5,8 @@ aliases:
   - acidified
   - acids
 tags:
-  - flashcards/general/acid
-  - languages/in/English
+  - flashcard/general/acid
+  - language/in/English
 ---
 
 # acid

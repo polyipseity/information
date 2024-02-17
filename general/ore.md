@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/ore
-  - languages/in/English
+  - flashcard/general/ore
+  - language/in/English
 ---
 
 # ore
@@ -27,9 +27,8 @@ See [extractive metallurgy](extractive%20metallurgy.md).
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('283749', '0398da'),
+  __env__.cwf_sects('283749', '0398da'),
   ('name', 'formula',),
   (
     ('[bauxite](bauxite.md)', 'Al(OH)<sub>3</sub>, AlOOH',),

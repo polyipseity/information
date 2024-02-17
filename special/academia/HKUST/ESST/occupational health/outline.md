@@ -3,8 +3,8 @@ aliases:
   - ESST occupational health outline
   - HKUST ESST occupational health outline
 tags:
-  - flashcards/special/academia/HKUST/ESST/occupational_health/outline
-  - languages/in/English
+  - flashcard/special/academia/HKUST/ESST/occupational_health/outline
+  - language/in/English
 ---
 
 # HKUST ESST occupational health outline
@@ -26,8 +26,8 @@ The content is in teaching order.
   - [occupational medicine section](#occupational%20medicine%20section)
 - [occupational hazard types](#occupational%20hazard%20types)
 - [occupational hazard factors](#occupational%20hazard%20factors)
-- chemical hazards ::: gases or vapors, dusts or particulates <!--SR:!2024-03-01,13,315!2024-02-25,14,302-->
-- gases or vapors hazards ::: benzene; epoxy; hydrogen sulphide, a common sewer gas; polyurethane <!--SR:!2024-03-03,15,262!2024-02-27,16,302-->
+- chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-03-01,13,315!2024-02-25,14,302-->
+- gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-03-03,15,262!2024-02-27,16,302-->
   - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-02-19,8,262!2024-02-29,18,302-->
 - [physical hazards](#physical%20hazards)
 - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-02-20,3,269!2024-02-19,4,319-->
@@ -49,7 +49,7 @@ The content is in teaching order.
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-02-19,5,222!2024-02-18,4,309-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-02-20,3,279!2024-02-28,17,302-->
-- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Compensation Ordinance. <!--SR:!2024-02-18,3,269!2024-02-26,15,290-->
+- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees’ Compensation Ordinance (Cap. 282). <!--SR:!2024-02-18,3,269!2024-02-26,15,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-02-18,4,315!2024-02-26,15,290-->
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-03-03,15,262!2024-02-28,11,306-->

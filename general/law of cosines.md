@@ -7,8 +7,8 @@ aliases:
   - laws of cosine
   - laws of cosines
 tags:
-  - flashcards/general/law_of_cosines
-  - languages/in/English
+  - flashcard/general/law_of_cosines
+  - language/in/English
 ---
 
 # law of cosines

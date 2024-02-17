@@ -3,8 +3,8 @@ aliases:
   - carboxylic acid
   - carboxylic acids
 tags:
-  - flashcards/general/carboxylic_acid
-  - languages/in/English
+  - flashcard/general/carboxylic_acid
+  - language/in/English
 ---
 
 # carboxylic acid
@@ -60,9 +60,8 @@ Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly usi
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('f23a', 'dd11'),
+  __env__.cwf_sects('f23a', 'dd11'),
   ('name', 'description',),
   (
     ('[dehydration](#dehydration)', '',),

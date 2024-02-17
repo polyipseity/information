@@ -11,8 +11,8 @@ aliases:
   - _Q_ factor
   - _Q_ factors
 tags:
-  - flashcards/general/Q_factor
-  - languages/in/English
+  - flashcard/general/Q_factor
+  - language/in/English
 ---
 
 # _Q_ factor

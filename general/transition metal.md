@@ -5,8 +5,8 @@ aliases:
   - transition metal
   - transition metals
 tags:
-  - flashcards/general/transition_metal
-  - languages/in/English
+  - flashcard/general/transition_metal
+  - language/in/English
 ---
 
 # transition metal
@@ -28,9 +28,8 @@ A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('223d', 'dafb',),
+  __env__.cwf_sects('223d', 'dafb',),
   ('property', 'description',),
   (
     ('[catalytic](catalysis.md) properties', 'Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).',),

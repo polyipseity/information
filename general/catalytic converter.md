@@ -3,8 +3,8 @@ aliases:
   - catalytic converter
   - catalytic converters
 tags:
-  - flashcards/general/catalytic_converter
-  - languages/in/English
+  - flashcard/general/catalytic_converter
+  - language/in/English
 ---
 
 # catalytic converter

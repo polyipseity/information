@@ -3,8 +3,8 @@ aliases:
   - stellar classification
   - stellar classifications
 tags:
-  - flashcards/general/stellar_classification
-  - languages/in/English
+  - flashcard/general/stellar_classification
+  - language/in/English
 ---
 
 # stellar classification

@@ -5,8 +5,8 @@ aliases:
   - nanomaterial
   - nanomaterials
 tags:
-  - flashcards/general/nanomaterials
-  - languages/in/English
+  - flashcard/general/nanomaterials
+  - language/in/English
 ---
 
 # nanomaterials

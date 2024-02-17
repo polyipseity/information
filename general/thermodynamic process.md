@@ -3,8 +3,8 @@ aliases:
   - thermodynamic process
   - thermodynamic processes
 tags:
-  - flashcards/general/thermodynamic_process
-  - languages/in/English
+  - flashcard/general/thermodynamic_process
+  - language/in/English
 ---
 
 # thermodynamic process
@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects("9ffa", "e939",),
+  __env__.cwf_sects("9ffa", "e939",),
   (
     R"[adiabatic process](adiabatic%20process.md): $Q = 0$",
     R"[isobaric process](isobaric%20process.md): $\Delta p = 0$",

@@ -5,8 +5,8 @@ aliases:
   - standard atmosphere (unit)
   - standard atmospheres
 tags:
-  - flashcards/general/standard_atmosphere__unit_
-  - languages/in/English
+  - flashcard/general/standard_atmosphere__unit_
+  - language/in/English
 ---
 
 # standard atmosphere (unit)

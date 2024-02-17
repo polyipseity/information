@@ -4,8 +4,8 @@ aliases:
   - Na<sub>2</sub>CO<sub>3</sub>
   - sodium carbonate
 tags:
-  - flashcards/general/sodium_carbonate
-  - languages/in/English
+  - flashcard/general/sodium_carbonate
+  - language/in/English
 ---
 
 # sodium carbonate
@@ -25,9 +25,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('d234', 'ddee'),
+  __env__.cwf_sects('d234', 'ddee'),
   ('name', 'description',),
   (
     ('[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)', '',),

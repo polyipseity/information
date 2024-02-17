@@ -1,8 +1,8 @@
 ---
 aliases: []
 tags:
-  - flashcards/special/Microsoft_Windows_usage
-  - languages/in/English
+  - flashcard/special/Microsoft_Windows_usage
+  - language/in/English
 ---
 
 # Microsoft Windows usage

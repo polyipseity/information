@@ -3,8 +3,8 @@ aliases:
   - log derivative
   - logarithmic derivative
 tags:
-  - flashcards/general/logarithmic_derivative
-  - languages/in/English
+  - flashcard/general/logarithmic_derivative
+  - language/in/English
 ---
 
 # logarithmic derivative

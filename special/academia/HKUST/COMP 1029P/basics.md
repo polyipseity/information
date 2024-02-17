@@ -3,8 +3,8 @@ aliases:
   - Python basic
   - Python basics
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029P/basics
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029P/basics
+  - language/in/English
 ---
 
 # Python basics
@@ -30,7 +30,6 @@ Below are common arithmetic operators. Operators have higher precedence than or 
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "operator", "description"
 table = (
   ("`**`", "power",),
@@ -43,12 +42,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("93ab", "f21a",),
+    __env__.cwf_sects("93ab", "f21a",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "9cda", None,),
+    __env__.cwf_sects(None, "9cda", None,),
     items_to_map(*table),
   )
 ))
@@ -105,7 +104,6 @@ Below are common comparison operators, all of which returns {{a boolean}}. Opera
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "operator", "description"
 table = (
   ("`in`", "membership test",),
@@ -118,12 +116,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("bd23", "d123",),
+    __env__.cwf_sects("bd23", "d123",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "cc23", None,),
+    __env__.cwf_sects(None, "cc23", None,),
     items_to_map(*table),
   )
 ))
@@ -184,7 +182,6 @@ Below are common logic operators, all of which {{accept two booleans and return 
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "operator", "description"
 table = (
   ("`not`", "negate",),
@@ -193,12 +190,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("2856", "d882",),
+    __env__.cwf_sects("2856", "d882",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "ee13", None,),
+    __env__.cwf_sects(None, "ee13", None,),
     items_to_map(*table),
   )
 ))

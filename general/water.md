@@ -3,8 +3,8 @@ aliases:
   - H2O
   - water
 tags:
-  - flashcards/general/water
-  - languages/in/English
+  - flashcard/general/water
+  - language/in/English
 ---
 
 # water

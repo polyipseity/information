@@ -7,8 +7,8 @@ aliases:
   - group II
   - group IIA
 tags:
-  - flashcards/general/alkaline_earth_metal
-  - languages/in/English
+  - flashcard/general/alkaline_earth_metal
+  - language/in/English
 ---
 
 # alkaline earth metal
@@ -34,10 +34,9 @@ Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [no
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 ca_or_below = 'reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above'
 return await memorize_map(
-  e.cwf_sects('0439', '1d5e', 'ffa2'),
+  __env__.cwf_sects('0439', '1d5e', 'ffa2'),
   items_to_map(
     ('[beryllium](beryllium.md)', 'no reaction with water or steam',),
     ('[magnesium](magnesium.md)', 'reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas',),

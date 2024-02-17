@@ -4,8 +4,8 @@ aliases:
   - "`scanf`"
   - scanf
 tags:
-  - flashcards/general/scanf
-  - languages/in/English
+  - flashcard/general/scanf
+  - language/in/English
 ---
 
 # `scanf`

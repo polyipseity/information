@@ -4,8 +4,8 @@ aliases:
   - derivatives of trigonometric functions
   - differentiation of trigonometric functions
 tags:
-  - flashcards/general/differentiation_of_trigonometric_functions
-  - languages/in/English
+  - flashcard/general/differentiation_of_trigonometric_functions
+  - language/in/English
 ---
 
 # differentiation of trigonometric functions
@@ -25,9 +25,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_map(
-  e.cwf_sects("49fa", "e934", "b023"),
+  __env__.cwf_sects("49fa", "e934", "b023"),
   {
     R"$\sin{x}$": R"$\cos{x}$",
     R"$\cos{x}$": R"$-\sin{x}$",

@@ -2,8 +2,8 @@
 aliases:
   - Reichstein process
 tags:
-  - flashcards/general/Reichstein_process
-  - languages/in/English
+  - flashcard/general/Reichstein_process
+  - language/in/English
 ---
 
 # Reichstein process
@@ -25,9 +25,8 @@ The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) an
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('d894', '4051',),
+  __env__.cwf_sects('d894', '4051',),
   (
     '[hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md)',
     'microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C',

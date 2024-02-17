@@ -4,8 +4,8 @@ aliases:
   - alkaline fuel cell
   - alkaline fuel cells
 tags:
-  - flashcards/general/alkaline_fuel_cell
-  - languages/in/English
+  - flashcard/general/alkaline_fuel_cell
+  - language/in/English
 ---
 
 # alkaline fuel cell
@@ -39,9 +39,8 @@ Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('d929', 'afb9'),
+  __env__.cwf_sects('d929', 'afb9'),
   (
     '+: efficiency as high as 70%',
     '+: operate continuously, producing a stable supply of [electricity](electricity.md)',
@@ -81,9 +80,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('2939', '2901'),
+  __env__.cwf_sects('2939', '2901'),
   (
     'auxiliary heat and water source',
     'backup power source',

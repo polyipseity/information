@@ -5,8 +5,8 @@ aliases:
   - vitaminc C
   - ʟ-ascorbic acid
 tags:
-  - flashcards/general/vitamin_C
-  - languages/in/English
+  - flashcard/general/vitamin_C
+  - language/in/English
 ---
 
 # vitamin C

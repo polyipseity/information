@@ -2,8 +2,8 @@
 aliases:
   - photoemission
 tags:
-  - flashcards/general/photoelectric_effect
-  - languages/in/English
+  - flashcard/general/photoelectric_effect
+  - language/in/English
 ---
 
 # photoelectric effect

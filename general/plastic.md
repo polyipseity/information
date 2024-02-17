@@ -3,8 +3,8 @@ aliases:
   - plastic
   - plastics
 tags:
-  - flashcards/general/plastic
-  - languages/in/English
+  - flashcard/general/plastic
+  - language/in/English
 ---
 
 # plastic
@@ -28,8 +28,6 @@ __Plastics__ are {{[synthetic](synthetic%20polymers.md) or semi-synthetic [mater
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-
-e = __env__
 headers = ('name', '[chemical formula](chemical%20formula.md)', '[property(s)](property.md)', 'use(s)',)
 table = (
   ('[high-density polyethylene](high-density%20polyethylene.md) (HDPE)', '![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg)', 'higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md)', '[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md)'),
@@ -42,19 +40,19 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects('9403', '234a',),
+    __env__.cwf_sects('9403', '234a',),
     headers, table,
   ),
   memorize_map(
-    e.cwf_sects(None, '30f9', '9283',),
+    __env__.cwf_sects(None, '30f9', '9283',),
     items_to_map(*(row[:2] for row in table)),
   ),
   memorize_map(
-    e.cwf_sects(None, 'e928', None,),
+    __env__.cwf_sects(None, 'e928', None,),
     items_to_map(*((row[0], row[2]) for row in table)),
   ),
   memorize_map(
-    e.cwf_sects(None, 'aa92', None,),
+    __env__.cwf_sects(None, 'aa92', None,),
     items_to_map(*((row[0], row[3]) for row in table)),
   ),
 ))

@@ -3,7 +3,7 @@ aliases: []
 tags:
   - date/2023/09/23/from
   - date/2023/09/24/to
-  - languages/in/English
+  - language/in/English
 ---
 
 # 2019 fall midterm attempt

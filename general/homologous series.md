@@ -2,8 +2,8 @@
 aliases:
   - homologous series
 tags:
-  - flashcards/general/homologous_series
-  - languages/in/English
+  - flashcard/general/homologous_series
+  - language/in/English
 ---
 
 # homologous series

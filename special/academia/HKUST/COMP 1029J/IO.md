@@ -5,8 +5,8 @@ aliases:
   - Java input output
   - Java input/output
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/IO
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/IO
+  - language/in/English
 ---
 
 # Java input/output

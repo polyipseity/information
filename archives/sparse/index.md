@@ -1,8 +1,8 @@
 ---
 aliases: []
 tags:
-  - functional/indices
-  - languages/in/English
+  - functional/index
+  - language/in/English
 ---
 
 # index

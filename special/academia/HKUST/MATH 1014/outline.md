@@ -9,23 +9,25 @@ aliases:
   - HKUST MATH1014
   - HKUST MATH1014 outline
 tags:
-  - flashcards/special/academia/HKUST/MATH_1014/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/MATH_1014/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST MATH 1014 outline
 
 - prerequisite: [MATH 1013](../MATH%201013/outline.md)
 
-The items below are ordered in teaching order.
+The content is in teaching order.
 
 ## week 1 lecture
 
 - [area § formal definition](../../../../general/area.md#formal%20definition)
 
-## week 2 lecture
+## week 2 lecture 1
 
 ## week 2 tutorial
 
 ## week 2 lecture 2
+
+## week 3 tutorial

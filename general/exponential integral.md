@@ -5,8 +5,8 @@ aliases:
   - Ei(x)
   - exponential integral
 tags:
-  - flashcards/general/exponential_integral
-  - languages/in/English
+  - flashcard/general/exponential_integral
+  - language/in/English
 ---
 
 # exponential integral

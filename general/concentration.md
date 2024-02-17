@@ -3,8 +3,8 @@ aliases:
   - concentration
   - concentrations
 tags:
-  - flashcards/general/concentration
-  - languages/in/English
+  - flashcard/general/concentration
+  - language/in/English
 ---
 
 # concentration

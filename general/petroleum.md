@@ -6,8 +6,8 @@ aliases:
   - oils
   - petroleum
 tags:
-  - flashcards/general/petroleum
-  - languages/in/English
+  - flashcard/general/petroleum
+  - language/in/English
 ---
 
 # petroleum
@@ -37,8 +37,6 @@ Petroleum is {{separated by [fractional distillation](fractional%20distillation.
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-
-e = __env__
 headers = ('[fraction](fraction%20(chemistry).md)', '[boiling point](boiling%20point.md) range', 'use(s)',)
 table = (
   ('[liqueified petroleum gas](liqueified%20petroleum%20gas.md)', '-40 to -1 °C', '[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md)',),
@@ -54,15 +52,15 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects('2039', 'd5f1',),
+    __env__.cwf_sects('2039', 'd5f1',),
     headers, table,
   ),
   memorize_map(
-    e.cwf_sects(None, '3984', 'e8ff',),
+    __env__.cwf_sects(None, '3984', 'e8ff',),
     items_to_map(*(row[:2] for row in table)),
   ),
   memorize_map(
-    e.cwf_sects(None, '495a', None,),
+    __env__.cwf_sects(None, '495a', None,),
     items_to_map(*((row[0], row[2]) for row in table if row[2])),
   ),
 ))

@@ -2,8 +2,8 @@
 aliases:
   - nylon
 tags:
-  - flashcards/general/nylon
-  - languages/in/English
+  - flashcard/general/nylon
+  - language/in/English
 ---
 
 # nylon
@@ -31,9 +31,8 @@ Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('bba2', 'd83e'),
+  __env__.cwf_sects('bba2', 'd83e'),
   ('property', 'description',),
   (
     ('dyeable', '',),

@@ -2,8 +2,8 @@
 aliases:
   - cover letter
 tags:
-  - flashcards/special/cover_letter
-  - languages/in/English
+  - flashcard/special/cover_letter
+  - language/in/English
 ---
 
 # cover letter
@@ -23,9 +23,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('49cc', 'ab23'),
+  __env__.cwf_sects('49cc', 'ab23'),
   (
     'create positive first impression',
     'emphasize your knowledge of the company',
@@ -71,9 +70,8 @@ my CV and cover letter for your consideration.; (signature)}}
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('a723', 'f123'),
+  __env__.cwf_sects('a723', 'f123'),
   (
     'your address, date, name and address of the company, recipient, and title',
     'why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job',

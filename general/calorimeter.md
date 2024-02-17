@@ -5,8 +5,8 @@ aliases:
   - calorimeter
   - calorimeters
 tags:
-  - flashcards/general/calorimeter
-  - languages/in/English
+  - flashcard/general/calorimeter
+  - language/in/English
 ---
 
 # calorimeter
@@ -30,9 +30,8 @@ A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('aa02', '2845'),
+  __env__.cwf_sects('aa02', '2845'),
   (
     'conditions are not standard conditions',
     'heat capacities of equipment are not accounted for',

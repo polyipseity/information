@@ -2,8 +2,8 @@
 aliases:
   - work functions
 tags:
-  - flashcards/general/work_function
-  - languages/in/English
+  - flashcard/general/work_function
+  - language/in/English
 ---
 
 # work function

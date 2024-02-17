@@ -2,8 +2,8 @@
 aliases:
   - IUPAC nomenclature of organic chemistry
 tags:
-  - flashcards/general/IUPAC_nomenclature_of_organic_chemistry
-  - languages/in/English
+  - flashcard/general/IUPAC_nomenclature_of_organic_chemistry
+  - language/in/English
 ---
 
 # IUPAC nomenclature of organic chemistry
@@ -62,8 +62,8 @@ id_num_dir: gen.TextCode = gen.seq_to_code((
   prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
   suffix=f'{{{gen.Tag.MEMORIZE}:_(end)_}}',)
 arrange: gen.TextCode = gen.seq_to_code((
-    'prefix order: alphabetical order ignoring prefixes for type count',
     'bond order: single bond, double bond, triple bond, ...',
+    'prefix order: alphabetical order ignoring prefixes for type count',
   ),
   index=1,
   prefix=f'{{{gen.Tag.MEMORIZE}:_(begin)_}}',
@@ -234,18 +234,18 @@ The steps for naming an organic compound are:
 
 #### arrange
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2022-11-05T00:24:43.690374+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2024-02-17T20:15:49.350229+08:00. Any edits will be overridden! -->
 
-> 1. prefix order: alphabetical order ignoring prefixes for type count
-> 2. bond order: single bond, double bond, triple bond, ...
+> 1. bond order: single bond, double bond, triple bond, ...
+> 2. prefix order: alphabetical order ignoring prefixes for type count
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-01-04T20:17:52.087770+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2024-02-21,247,230!2024-11-29,563,322-->
-- prefix order: alphabetical order ignoring prefixes for type count→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2024-05-29,104,267-->
-- bond order: single bond, double bond, triple bond, ...→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
+- _(begin)_→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2024-05-29,104,267-->
+- bond order: single bond, double bond, triple bond, ...→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2024-02-21,247,230!2024-11-29,563,322-->
+- prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -666,9 +666,8 @@ return (
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('f91a', 'dd91'),
+  __env__.cwf_sects('f91a', 'dd91'),
   ('trivial name', 'systematic name',),
   (
     ('[acetic acid](acetic%20acid.md)', 'ethanoic acid',),

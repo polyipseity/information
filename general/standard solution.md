@@ -3,8 +3,8 @@ aliases:
   - standard solution
   - standard solutions
 tags:
-  - flashcards/general/standard_solution
-  - languages/in/English
+  - flashcard/general/standard_solution
+  - language/in/English
 ---
 
 # standard solution

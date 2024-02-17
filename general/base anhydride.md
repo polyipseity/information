@@ -3,8 +3,8 @@ aliases:
   - base anhydride
   - base anhydrides
 tags:
-  - flashcards/general/base_anhydride
-  - languages/in/English
+  - flashcard/general/base_anhydride
+  - language/in/English
 ---
 
 # base anhydride
