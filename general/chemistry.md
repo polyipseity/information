@@ -3,8 +3,8 @@ aliases:
   - chemical
   - chemistry
 tags:
-  - flashcards/general/chemistry
-  - languages/in/English
+  - flashcard/general/chemistry
+  - language/in/English
 ---
 
 # chemistry

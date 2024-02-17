@@ -6,8 +6,8 @@ aliases:
   - single-displacement reaction
   - single-replacement reaction
 tags:
-  - flashcards/general/single_displacement_reaction
-  - languages/in/English
+  - flashcard/general/single_displacement_reaction
+  - language/in/English
 ---
 
 # single displacement reaction

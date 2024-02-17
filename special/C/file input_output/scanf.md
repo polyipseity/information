@@ -13,8 +13,8 @@ aliases:
   - sscanf
   - sscanf_s
 tags:
-  - flashcards/special/C/file_intput_output/scanf
-  - languages/in/English
+  - flashcard/special/C/file_intput_output/scanf
+  - language/in/English
 ---
 
 # `scanf`

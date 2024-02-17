@@ -7,8 +7,8 @@ aliases:
   - Newton–Raphson’s method
   - Newton’s method
 tags:
-  - flashcards/general/Newton_s_method
-  - languages/in/English
+  - flashcard/general/Newton_s_method
+  - language/in/English
 ---
 
 # Newton's method

@@ -3,8 +3,8 @@ aliases:
   - Cu
   - copper
 tags:
-  - flashcards/general/copper
-  - languages/in/English
+  - flashcard/general/copper
+  - language/in/English
 ---
 
 # copper
@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('23d1', 'fa13'),
+  __env__.cwf_sects('23d1', 'fa13'),
   ('name', 'description',),
   (
     ('cooking utensils', '[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)',),

@@ -5,8 +5,8 @@ aliases:
   - International Phonetic Alphabet help
   - International Phonetic Alphabet usage
 tags:
-  - flashcards/special/language_acquisition/International_Phonetic_Alphabet
-  - languages/in/English
+  - flashcard/special/language_acquisition/International_Phonetic_Alphabet
+  - language/in/English
 ---
 
 # International Phonetic Alphabet
@@ -39,7 +39,6 @@ tags:
 from asyncio import gather
 from itertools import chain
 from pytextgen.util import NULL_LOCATION, Result
-e = __env__
 letters = (
   ('[open front unrounded vowel](open%20front%20unrounded%20vowel.md)', R'\[a\]', '![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _h**a**t_ \[hat\]',),
   ('[open central unrounded vowel](open%20central%20unrounded%20vowel.md)', R'\[ä\]', '![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)', R'[English](English%20language.md) _br**a**_ \[bɹäː\]',),
@@ -179,33 +178,33 @@ diacritics = (
 )
 return chain.from_iterable(await gather(
   memorize_table(
-    e.cwf_sects("958a", None),
+    __env__.cwf_sects("958a", None),
     ("name", "symbol", "audio", "description",),
     letters,
   ),
   memorize_map(
-    e.cwf_sects(None, "059f", "d92e"),
+    __env__.cwf_sects(None, "059f", "d92e"),
     items_to_map(*(datum[:2] for datum in letters)),
   ),
   memorize_map(
-    e.cwf_sects(None, "5dfb", "f9aa"),
+    __env__.cwf_sects(None, "5dfb", "f9aa"),
     items_to_map(*((datum[0], datum[2]) for datum in letters if datum[2])),
   ),
   memorize_map(
-    e.cwf_sects(None, "50b0", None),
+    __env__.cwf_sects(None, "50b0", None),
     items_to_map(*((datum[0], datum[3]) for datum in letters)),
   ),
   memorize_table(
-    e.cwf_sects("485d", None),
+    __env__.cwf_sects("485d", None),
     ("name", "symbol", "description",),
     diacritics,
   ),
   memorize_map(
-    e.cwf_sects(None, "ffa2", "94fb"),
+    __env__.cwf_sects(None, "ffa2", "94fb"),
     items_to_map(*(datum[:2] for datum in diacritics)),
   ),
   memorize_map(
-    e.cwf_sects(None, "50bd", None),
+    __env__.cwf_sects(None, "50bd", None),
     items_to_map(*((datum[0], datum[2]) for datum in diacritics)),
   ),
 ))

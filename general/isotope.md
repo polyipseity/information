@@ -3,8 +3,8 @@ aliases:
   - isotope
   - isotopes
 tags:
-  - flashcards/general/isotope
-  - languages/in/English
+  - flashcard/general/isotope
+  - language/in/English
 ---
 
 # isotope

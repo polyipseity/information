@@ -3,8 +3,8 @@ aliases:
   - Lenz law
   - Lenz's law
 tags:
-  - flashcards/general/Lenz's_law
-  - languages/in/English
+  - flashcard/general/Lenz's_law
+  - language/in/English
 ---
 
 # Lenz's law

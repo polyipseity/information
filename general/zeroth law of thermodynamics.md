@@ -3,8 +3,8 @@ aliases:
   - 0th law of thermodynamics
   - zeroth law of thermodynamics
 tags:
-  - flashcards/general/zeroth_law_of_thermodynamics
-  - languages/in/English
+  - flashcard/general/zeroth_law_of_thermodynamics
+  - language/in/English
 ---
 
 # zeroth law of thermodynamics

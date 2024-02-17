@@ -4,8 +4,8 @@ aliases:
   - "`EOF`"
   - file input/output
 tags:
-  - flashcards/special/C/file_input_output
-  - languages/in/English
+  - flashcard/special/C/file_input_output
+  - language/in/English
 ---
 
 # file input/output

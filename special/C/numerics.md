@@ -2,8 +2,8 @@
 aliases:
   - numerics
 tags:
-  - flashcards/special/C/numerics
-  - languages/in/English
+  - flashcard/special/C/numerics
+  - language/in/English
 ---
 
 # numerics

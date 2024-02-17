@@ -2,8 +2,8 @@
 aliases:
   - atoms
 tags:
-  - flashcards/general/atom
-  - languages/in/English
+  - flashcard/general/atom
+  - language/in/English
 ---
 
 # atom

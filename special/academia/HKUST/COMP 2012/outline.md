@@ -9,19 +9,21 @@ aliases:
   - HKUST COMP2012
   - HKUST COMP2012 outline
 tags:
-  - flashcards/special/academia/HKUST/COMP_2012/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_2012/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST COMP 2012 outline
 
-The items below are ordered in teaching order.
+The content is in teaching order.
 
 ## week 1 lecture
 
-## week 1 lecture 2
-
-## week 2 lecture
+## week 2 lecture 1
 
 ## week 2 lecture 2
+
+## week 3 lecture 1
+
+## week 3 lecture 2

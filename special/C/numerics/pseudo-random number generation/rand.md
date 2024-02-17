@@ -3,8 +3,8 @@ aliases:
   - "`rand`"
   - rand
 tags:
-  - flashcards/special/C/numerics/pseudo-random_number_generation/rand
-  - languages/in/English
+  - flashcard/special/C/numerics/pseudo-random_number_generation/rand
+  - language/in/English
 ---
 
 # `rand`

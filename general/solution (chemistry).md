@@ -6,8 +6,8 @@ aliases:
   - solution (chemistry)
   - solutions
 tags:
-  - flashcards/general/solution__chemistry_
-  - languages/in/English
+  - flashcard/general/solution__chemistry_
+  - language/in/English
 ---
 
 # solution (chemistry)

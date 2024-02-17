@@ -5,8 +5,8 @@ aliases:
   - ideal gas law
   - ideal gas laws
 tags:
-  - flashcards/general/ideal_gas_law
-  - languages/in/English
+  - flashcard/general/ideal_gas_law
+  - language/in/English
 ---
 
 # ideal gas law

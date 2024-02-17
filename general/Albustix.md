@@ -2,8 +2,8 @@
 aliases:
   - Albustix
 tags:
-  - flashcards/general/Albustix
-  - languages/in/English
+  - flashcard/general/Albustix
+  - language/in/English
 ---
 
 # Albustix

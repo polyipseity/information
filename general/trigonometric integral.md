@@ -25,8 +25,8 @@ aliases:
   - trigonometric integral
   - trigonometric integrals
 tags:
-  - flashcards/general/trigonometric_integral
-  - languages/in/English
+  - flashcard/general/trigonometric_integral
+  - language/in/English
 ---
 
 # trigonometric integral

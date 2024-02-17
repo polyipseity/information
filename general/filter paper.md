@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/filter_paper
-  - languages/in/English
+  - flashcard/general/filter_paper
+  - language/in/English
 ---
 
 # filter paper

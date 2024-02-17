@@ -3,8 +3,8 @@ aliases:
   - VSEPR theory
   - valence shell electron pair repulsion theory
 tags:
-  - flashcards/general/VSEPR_theory
-  - languages/in/English
+  - flashcard/general/VSEPR_theory
+  - language/in/English
 ---
 
 # VSEPR theory
@@ -29,9 +29,8 @@ The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import markdown_sanitizer
-e = __env__
 return await memorize_table(
-  e.cwf_sects('2900', '8daf'),
+  __env__.cwf_sects('2900', '8daf'),
   ('AXE', '[shape](molecular%20geometry.md)', 'ideal bond angle(s)', 'example(s)',),
   (
     ('AX<sub>2</sub>E<sub>0</sub>', '[linear](linear%20molecular%20geometry.md)', '![{}](../archives/Wikimedia%20Commons/AX2E0-3D-balls.png)', '180°', '[CO<sub>2</sub>](carbon%20dioxide.md)',),

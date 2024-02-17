@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/plum_pudding_model
-  - languages/in/English
+  - flashcard/general/plum_pudding_model
+  - language/in/English
 ---
 
 # plum pudding model

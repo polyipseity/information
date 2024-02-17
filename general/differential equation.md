@@ -3,8 +3,8 @@ aliases:
   - DE
   - differential equation
 tags:
-  - flashcards/general/differential_equation
-  - languages/in/English
+  - flashcard/general/differential_equation
+  - language/in/English
 ---
 
 # differential equation

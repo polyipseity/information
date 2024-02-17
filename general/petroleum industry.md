@@ -3,8 +3,8 @@ aliases:
   - petroleum industries
   - petroleum industry
 tags:
-  - flashcards/general/petroleum_industry
-  - languages/in/English
+  - flashcard/general/petroleum_industry
+  - language/in/English
 ---
 
 # petroleum industry
@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('4432', 'fbda'),
+  __env__.cwf_sects('4432', 'fbda'),
   (
     '+: attracts local or overseas investment',
     '+: creates job opportunities',

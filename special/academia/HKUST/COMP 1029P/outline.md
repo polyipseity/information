@@ -9,14 +9,14 @@ aliases:
   - HKUST COMP1029P
   - HKUST COMP1029P outline
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029P/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029P/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST COMP 1029P outline
 
-The lists below are in teaching order.
+The content is in teaching order.
 
 ## lesson 1
 

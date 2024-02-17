@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/erosion
-  - languages/in/English
+  - flashcard/general/erosion
+  - language/in/English
 ---
 
 # erosion

@@ -2,8 +2,8 @@
 aliases:
   - ice
 tags:
-  - flashcards/general/ice
-  - languages/in/English
+  - flashcard/general/ice
+  - language/in/English
 ---
 
 # ice

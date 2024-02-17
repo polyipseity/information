@@ -5,8 +5,8 @@ aliases:
   - strcat
   - strcat_s
 tags:
-  - flashcards/special/C/strings_library/null-terminated_byte_strings/strcat
-  - languages/in/English
+  - flashcard/special/C/strings_library/null-terminated_byte_strings/strcat
+  - language/in/English
 ---
 
 # `strcat`

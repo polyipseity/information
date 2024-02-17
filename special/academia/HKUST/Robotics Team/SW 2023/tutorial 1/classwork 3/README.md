@@ -2,7 +2,7 @@
 aliases: []
 tags:
   - date/2023/09/26
-  - languages/in/English
+  - language/in/English
 ---
 
 <!-- markdownlint-disable MD024 -->

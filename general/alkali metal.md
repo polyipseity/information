@@ -4,8 +4,8 @@ aliases:
   - alkali metals
   - lithium group
 tags:
-  - flashcards/general/alkali_metal
-  - languages/in/English
+  - flashcard/general/alkali_metal
+  - language/in/English
 ---
 
 # alkali metal
@@ -31,9 +31,8 @@ Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals]
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_map(
-  e.cwf_sects('7f8c', '938d', 'bb89'),
+  __env__.cwf_sects('7f8c', '938d', 'bb89'),
   items_to_map(
     ('[lithium](lithium.md)', 'floats, producing hydrogen gas steadily',),
     ('[sodium](sodium.md)', 'melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly',),

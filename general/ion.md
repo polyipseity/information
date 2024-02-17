@@ -7,8 +7,8 @@ aliases:
   - ion
   - ions
 tags:
-  - flashcards/general/ion
-  - languages/in/English
+  - flashcard/general/ion
+  - language/in/English
 ---
 
 # ion
@@ -142,7 +142,7 @@ class Section:
     return cls(
       data=rows,
       table=gen.quotette(gen.rows_to_table(rows,
-          names=('name', 'symbol', 'charage', 'color'),
+          names=('name', 'symbol', 'charge', 'color'),
           values=lambda datum: (
             *datum[:2],
             charge_str(datum[2]),
@@ -202,24 +202,23 @@ class Section:
     )
 cation_sect = Section.from_rows(cations)
 anion_sect = Section.from_rows(anions)
-e = __env__
 return chain.from_iterable(await gather(
   cation_sect.memorize(
     (
-      e.cwf_sect('d9192d'),
-      e.cwf_sect('3928fd'),
-      e.cwf_sect('8d8dee'),
-      e.cwf_sect('a5defa'),
-      e.cwf_sect('394a'),
+      __env__.cwf_sect('d9192d'),
+      __env__.cwf_sect('3928fd'),
+      __env__.cwf_sect('8d8dee'),
+      __env__.cwf_sect('a5defa'),
+      __env__.cwf_sect('394a'),
     ),
   ),
   anion_sect.memorize(
     (
-      e.cwf_sect('a9fdfe'),
-      e.cwf_sect('2fde12'),
-      e.cwf_sect('8c7820'),
-      e.cwf_sect('104852'),
-      e.cwf_sect('50ad'),
+      __env__.cwf_sect('a9fdfe'),
+      __env__.cwf_sect('2fde12'),
+      __env__.cwf_sect('8c7820'),
+      __env__.cwf_sect('104852'),
+      __env__.cwf_sect('50ad'),
     ),
   ),
 ))
@@ -229,9 +228,9 @@ return chain.from_iterable(await gather(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2024-01-28T09:35:10.040769+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2024-02-17T20:40:56.103599+08:00. Any edits will be overridden! -->
 
-> | name | symbol | charage | color |
+> | name | symbol | charge | color |
 > |-|-|-|-|
 > | hydrogen ion | H<sup>+</sup> | 1+ | colorless |
 > | sodium ion | Na<sup>+</sup> | 1+ | colorless |
@@ -379,9 +378,9 @@ return chain.from_iterable(await gather(
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2024-01-28T09:35:10.085769+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2024-02-17T20:40:56.159738+08:00. Any edits will be overridden! -->
 
-> | name | symbol | charage | color |
+> | name | symbol | charge | color |
 > |-|-|-|-|
 > | hydride ion | H<sup>-</sup> | 1- | colorless |
 > | fluoride ion | F<sup>-</sup> | 1- | colorless |

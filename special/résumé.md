@@ -3,8 +3,8 @@ aliases:
   - resume
   - résumé
 tags:
-  - flashcards/special/résumé
-  - languages/in/English
+  - flashcard/special/résumé
+  - language/in/English
 ---
 
 # résumé
@@ -35,9 +35,8 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('50ff', '20fa'),
+  __env__.cwf_sects('50ff', '20fa'),
   (
     '[profile summary](#profile%20summary)',
     '[education](#education)',

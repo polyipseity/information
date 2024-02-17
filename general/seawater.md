@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/seawater
-  - languages/in/English
+  - flashcard/general/seawater
+  - language/in/English
 ---
 
 # seawater

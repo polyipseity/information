@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/GHS_hazard_pictograms
-  - languages/in/English
+  - flashcard/general/GHS_hazard_pictograms
+  - language/in/English
 ---
 
 # GHS hazard pictograms
@@ -21,9 +21,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('b9a823', 'dee23a'),
+  __env__.cwf_sects('b9a823', 'dee23a'),
   ('name & pictogram', 'description',),
   (
     ('GHS01: [explosive](explosive.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)', '',),

@@ -3,8 +3,8 @@ aliases:
   - amine
   - amines
 tags:
-  - flashcards/general/amine
-  - languages/in/English
+  - flashcard/general/amine
+  - language/in/English
 ---
 
 # amine

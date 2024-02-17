@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/pyrometallurgy
-  - languages/in/English
+  - flashcard/general/pyrometallurgy
+  - language/in/English
 ---
 
 # pyrometallurgy

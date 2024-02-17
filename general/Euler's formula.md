@@ -4,8 +4,8 @@ aliases:
   - Euler's formula
   - Euler’s formula
 tags:
-  - flashcards/general/Euler_s_formula
-  - languages/in/English
+  - flashcard/general/Euler_s_formula
+  - language/in/English
 ---
 
 # Euler's formula

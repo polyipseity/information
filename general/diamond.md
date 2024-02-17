@@ -3,8 +3,8 @@ aliases:
   - diamond
   - diamonds
 tags:
-  - flashcards/general/diamond
-  - languages/in/English
+  - flashcard/general/diamond
+  - language/in/English
 ---
 
 # diamond

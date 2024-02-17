@@ -10,8 +10,8 @@ aliases:
   - cstdlib
   - stdlib.h
 tags:
-  - flashcards/general/C_standard_library
-  - languages/in/English
+  - flashcard/general/C_standard_library
+  - language/in/English
 ---
 
 # C standard library

@@ -2,8 +2,8 @@
 aliases:
   - fractional distillation
 tags:
-  - flashcards/general/fractional_distillation
-  - languages/in/English
+  - flashcard/general/fractional_distillation
+  - language/in/English
 ---
 
 # fractional distillation

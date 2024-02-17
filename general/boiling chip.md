@@ -3,8 +3,8 @@ aliases:
   - anti-bumping granule
   - boiling stone
 tags:
-  - flashcards/general/boiling_chip
-  - languages/in/English
+  - flashcard/general/boiling_chip
+  - language/in/English
 ---
 
 # boiling chip

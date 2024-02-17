@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/extractive_metallurgy
-  - languages/in/English
+  - flashcard/general/extractive_metallurgy
+  - language/in/English
 ---
 
 # extractive metallurgy

@@ -10,8 +10,8 @@ aliases:
   - cstring
   - string.h
 tags:
-  - flashcards/general/C_string_handling
-  - languages/in/English
+  - flashcard/general/C_string_handling
+  - language/in/English
 ---
 
 # C string handling

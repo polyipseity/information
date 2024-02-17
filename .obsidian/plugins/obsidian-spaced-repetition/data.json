@@ -4,7 +4,7 @@
     "flashcardGoodText": "Good",
     "flashcardHardText": "Hard",
     "flashcardTags": [
-      "#flashcards"
+      "#flashcard"
     ],
     "convertFoldersToDecks": false,
     "cardCommentOnSameLine": true,
@@ -12,7 +12,9 @@
     "showContextInCards": true,
     "flashcardHeightPercentage": 100,
     "flashcardWidthPercentage": 100,
-    "randomizeCardOrder": true,
+    "randomizeCardOrder": null,
+    "flashcardCardOrder": "DueFirstRandom",
+    "flashcardDeckOrder": "PrevDeckComplete_Random",
     "convertHighlightsToClozes": false,
     "convertBoldTextToClozes": false,
     "convertCurlyBracketsToClozes": true,
@@ -41,7 +43,7 @@
     "singlelineCardSeparator": "::",
     "singlelineReversedCardSeparator": ":::"
   },
-  "buryDate": "2024-02-14",
+  "buryDate": "2024-02-17",
   "buryList": [],
   "historyDeck": null
 }

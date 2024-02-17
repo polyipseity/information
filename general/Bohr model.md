@@ -3,8 +3,8 @@ aliases:
   - Bohr model
   - Rutherford–Bohr model
 tags:
-  - flashcards/general/Bohr_model
-  - languages/in/English
+  - flashcard/general/Bohr_model
+  - language/in/English
 ---
 
 # Bohr model
@@ -60,17 +60,16 @@ The energy of a photon emitted by a hydrogen atom is:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('0692', '3810',),
+  __env__.cwf_sects('0692', '3810',),
   ('name', 'description',),
   (
-    ('[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines', '',),
-    (R'reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)', '',),
-    ('relative brightness of spectral lines', '',),
-    ('spectra of [atoms](atom.md) with multiple [electrons](electron.md)', '',),
+    ('brightness', 'relative brightness of spectral lines',),
+    ('multiple [electrons](electron.md)', 'spectra of [atoms](atom.md) with multiple [electrons](electron.md)',),
+    (R'naturalness', 'reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)',),
+    ('structures', '[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines',),
   ),
-  lambda datum: map(cloze, datum),
+  lambda datum: (datum[0], *map(cloze, datum[1:])),
 )
 ```
 
@@ -78,24 +77,24 @@ return await memorize_table(
 
 The Bohr model fails to explain:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0692"--><!-- The following content is generated at 2023-05-07T09:39:21.532649+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0692"--><!-- The following content is generated at 2024-02-17T18:00:08.067050+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
-> | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |  |
-> | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |  |
-> | {{relative brightness of spectral lines}} |  |
-> | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |  | <!--SR:!2024-11-07,391,324!2024-03-05,132,284!2024-02-19,199,304!2024-06-05,303,324-->
+> | brightness | {{relative brightness of spectral lines}} |
+> | multiple [electrons](electron.md) | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |
+> | naturalness | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
+> | structures | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-01-04T20:17:51.354362+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines <!--SR:!2024-03-30,85,284!2025-03-27,531,344-->
-- [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines→:::←reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant) <!--SR:!2024-02-18,198,304!2024-05-27,100,284-->
-- reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)→:::←relative brightness of spectral lines <!--SR:!2024-03-08,119,244!2024-02-28,208,284-->
-- relative brightness of spectral lines→:::←spectra of [atoms](atom.md) with multiple [electrons](electron.md) <!--SR:!2024-03-07,60,224!2024-04-07,213,264-->
-- spectra of [atoms](atom.md) with multiple [electrons](electron.md)→:::←_(end)_ <!--SR:!2025-04-01,536,344!2024-09-01,345,324-->
+- _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324-->
+- brightness→:::←multiple [electrons](electron.md) <!--SR:!2024-03-05,132,284-->
+- multiple [electrons](electron.md)→:::←naturalness <!--SR:!2024-02-19,199,304-->
+- naturalness→:::←structures <!--SR:!2024-06-05,303,324-->
+- structures→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

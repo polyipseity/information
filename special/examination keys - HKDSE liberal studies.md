@@ -1,8 +1,8 @@
 ---
 aliases: []
 tags:
-  - flashcards/special/examination_keys_-_HKDSE_liberal_studies
-  - languages/in/English
+  - flashcard/special/examination_keys_-_HKDSE_liberal_studies
+  - language/in/English
 ---
 
 # examination keys
@@ -25,9 +25,8 @@ HKDSE liberal studies
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('ff91', '83da',),
+  __env__.cwf_sects('ff91', '83da',),
   ('fallacy',),
   (
     ('affirming the consequent',),
@@ -88,9 +87,8 @@ return await memorize_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('385a', '4940',),
+  __env__.cwf_sects('385a', '4940',),
   ('question type', 'description',),
   (
     ('comparison', 'analyze similarities and differences of multiple things',),
@@ -137,9 +135,8 @@ return await memorize_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('102d', '384f',),
+  __env__.cwf_sects('102d', '384f',),
   ('question word(s)', 'description',),
   (
     (
@@ -190,9 +187,8 @@ return await memorize_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('21aa', '38ff',),
+  __env__.cwf_sects('21aa', '38ff',),
   ('keyword', 'description',),
   (
     ('according to/refer to', 'quote and focus on the reference',),
@@ -249,9 +245,8 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('dd1a', '43ff',),
+  __env__.cwf_sects('dd1a', '43ff',),
   (
     'Sort or group data.',
     'Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.',
@@ -303,9 +298,8 @@ In general, essays consists of {{introduction, body, and conclusion}}. They shou
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('2ea8', '39fa',),
+  __env__.cwf_sects('2ea8', '39fa',),
   (
     '(Introduction) State your stance: To a large/small extent, I agree…',
     'Define or explain key terms or criteria required.',
@@ -345,9 +339,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('48fa', 'add9',),
+  __env__.cwf_sects('48fa', 'add9',),
   (
     'Evaluating effectiveness only by instantaneous effects.',
     'Hasty generalization with a single example.',
@@ -381,9 +374,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('4491', 'eeff',),
+  __env__.cwf_sects('4491', 'eeff',),
   (
     '(Introduction) State your stance.',
     'Define or explain key terms or criteria required.',
@@ -420,9 +412,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('3dda', '32ab',),
+  __env__.cwf_sects('3dda', '32ab',),
   (
     'Only stating views of stakeholders instead of macroscopic effects.',
     'Oversimplification of examples.',
@@ -453,9 +444,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('5fab', '5aab',),
+  __env__.cwf_sects('5fab', '5aab',),
   (
     '(Introduction) State your solutions.',
     'State the problem or criteria required.',
@@ -495,9 +485,8 @@ return await memorize_seq(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('4401', '4ecd',),
+  __env__.cwf_sects('4401', '4ecd',),
   (
     'Hetergenous nature of people not considered when evaluating effectiveness.',
     'Making education and promotion too similar. Focus on schools in the former while governments in the latter.',

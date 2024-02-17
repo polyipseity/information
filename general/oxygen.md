@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/oxygen
-  - languages/in/English
+  - flashcard/general/oxygen
+  - language/in/English
 ---
 
 # oxygen
@@ -21,9 +21,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('923dac', 'aaee9e'),
+  __env__.cwf_sects('923dac', 'aaee9e'),
   ('name', 'description',),
   (
     ('breathing', '',),

@@ -3,8 +3,8 @@ aliases:
   - periodic trend
   - periodic trends
 tags:
-  - flashcards/general/periodic_trends
-  - languages/in/English
+  - flashcard/general/periodic_trends
+  - language/in/English
 ---
 
 # periodic trends
@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('b928', '029e'),
+  __env__.cwf_sects('b928', '029e'),
   ('periodic property', 'across the period', 'down the group',),
   (
     ('[atomic radius](#atomic%20radius)', 'decreases', 'increases',),

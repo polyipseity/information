@@ -3,8 +3,8 @@ aliases:
   - angular resolution
   - angular resolutions
 tags:
-  - flashcards/general/angular_resolution
-  - languages/in/English
+  - flashcard/general/angular_resolution
+  - language/in/English
 ---
 
 # angular resolution

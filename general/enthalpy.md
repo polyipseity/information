@@ -3,8 +3,8 @@ aliases:
   - enthalpies
   - enthalpy
 tags:
-  - flashcards/general/enthalpy
-  - languages/in/English
+  - flashcard/general/enthalpy
+  - language/in/English
 ---
 
 # enthalpy
@@ -41,9 +41,8 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('d92a', '9911'),
+  __env__.cwf_sects('d92a', '9911'),
   (
     '[concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>',
     '[physical states](physical%20state.md): [standard states](standard%20state.md)',
@@ -82,9 +81,8 @@ Enthalpy changes are measured under the following {{standard conditions}}: <!--S
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_map(
-  e.cwf_sects('1294', 'abba', '9687'),
+  __env__.cwf_sects('1294', 'abba', '9687'),
   {
     '[enthalpy of combustion](standard%20enthalpy%20of%20combustion.md)': 'enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md)',
     '[enthalpy of formation](standard%20enthalpy%20of%20formation.md)': 'enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states',

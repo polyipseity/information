@@ -3,8 +3,8 @@ aliases:
   - Na2O
   - sodium oxide
 tags:
-  - flashcards/general/sodium_oxide
-  - languages/in/English
+  - flashcard/general/sodium_oxide
+  - language/in/English
 ---
 
 # sodium oxide

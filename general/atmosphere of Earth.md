@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/atmosphere_of_Earth
-  - languages/in/English
+  - flashcard/general/atmosphere_of_Earth
+  - language/in/English
 ---
 
 # atmosphere of Earth

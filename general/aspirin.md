@@ -5,8 +5,8 @@ aliases:
   - acetylsaylicylic acid
   - aspirin
 tags:
-  - flashcards/general/aspirin
-  - languages/in/English
+  - flashcard/general/aspirin
+  - language/in/English
 ---
 
 # aspirin
@@ -30,9 +30,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('332a', '45af'),
+  __env__.cwf_sects('332a', '45af'),
   ('name', 'description',),
   (
     ('[analgesic](analgesic.md)', '',),
@@ -73,9 +72,8 @@ return await memorize_table(
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('11af', '78ae'),
+  __env__.cwf_sects('11af', '78ae'),
   ('name', 'description',),
   (
     ('increased bleeding risk', '',),

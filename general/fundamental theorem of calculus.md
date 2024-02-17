@@ -6,8 +6,8 @@ aliases:
   - fundamental theorems of calculus
   - second fundamental theorem of calculus
 tags:
-  - flashcards/general/fundamental_theorem_of_calculus
-  - languages/in/English
+  - flashcard/general/fundamental_theorem_of_calculus
+  - language/in/English
 ---
 
 # fundamental theorem of calculus

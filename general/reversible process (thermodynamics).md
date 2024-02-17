@@ -4,8 +4,8 @@ aliases:
   - reversible process (thermodynamics)
   - reversible processes
 tags:
-  - flashcards/general/reversible_process__thermodynamics_
-  - languages/in/English
+  - flashcard/general/reversible_process__thermodynamics_
+  - language/in/English
 ---
 
 # reversible process (thermodynamics)

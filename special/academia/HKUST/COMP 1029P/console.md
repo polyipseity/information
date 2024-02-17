@@ -3,8 +3,8 @@ aliases:
   - Python console
   - Python consoles
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029P/console
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029P/console
+  - language/in/English
 ---
 
 # Python console

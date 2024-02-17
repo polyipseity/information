@@ -4,8 +4,8 @@ aliases:
   - "`printf`"
   - printf
 tags:
-  - flashcards/general/printf
-  - languages/in/English
+  - flashcard/general/printf
+  - language/in/English
 ---
 
 # `printf`
@@ -27,7 +27,6 @@ tags:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.gen import text
 from pytextgen.util import Result
-e = __env__
 def link(name: str):
   return f"[{name}](#{name})"
 def opt(string: str):
@@ -42,11 +41,11 @@ components = [
 ]
 return (
   Result(
-    location=e.cwf_sect("b23d"),
+    location=__env__.cwf_sect("b23d"),
     text=text(f"<code>%{''.join(components)}</code>"),
   ),
   *await memorize_seq(
-    e.cwf_sects("49bd", "ee2f"),
+    __env__.cwf_sects("49bd", "ee2f"),
     components,
   ),
 )
@@ -92,12 +91,11 @@ return (
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
-e = __env__
 options = {
   "_n_$": "([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier",
 }
 return await memorize_table(
-  e.cwf_sects("f192", "c19d"),
+  __env__.cwf_sects("f192", "c19d"),
   ("character", "description"),
   options.items(),
   partial(map, cloze),
@@ -128,7 +126,6 @@ return await memorize_table(
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
-e = __env__
 options = {
   "(space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
   R"\#": "use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`",
@@ -137,7 +134,7 @@ options = {
   "0": "prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`",
 }
 return await memorize_table(
-  e.cwf_sects("ff12", "123d"),
+  __env__.cwf_sects("ff12", "123d"),
   ("character", "description"),
   options.items(),
   partial(map, cloze),
@@ -186,7 +183,6 @@ An integer or {{`*` specifying the precision, the meaning of which depends on th
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
-e = __env__
 options = {
   "L": "`long double`-sized float",
   "h": "`short`-sized integer",
@@ -198,7 +194,7 @@ options = {
   "z": "`size_t`-sized integer",
 }
 return await memorize_table(
-  e.cwf_sects("3052", "beff"),
+  __env__.cwf_sects("3052", "beff"),
   ("character", "description"),
   options.items(),
   partial(map, cloze),
@@ -245,7 +241,6 @@ A combination of zero or more of the following in any order:
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
-e = __env__
 options = {
   "%": "literal %; rejects all other options",
   "a, A": "float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result",
@@ -262,7 +257,7 @@ options = {
   "x, X": "unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result",
 }
 return await memorize_table(
-  e.cwf_sects("40db", "45dd"),
+  __env__.cwf_sects("40db", "45dd"),
   ("character", "description"),
   options.items(),
   partial(map, cloze),

@@ -5,8 +5,8 @@ aliases:
   - linearly dependent
   - linearly independent
 tags:
-  - flashcards/general/linear_independence
-  - languages/in/English
+  - flashcard/general/linear_independence
+  - language/in/English
 ---
 
 # linear independence

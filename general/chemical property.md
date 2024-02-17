@@ -3,8 +3,8 @@ aliases:
   - chemical properties
   - chemical property
 tags:
-  - flashcards/general/chemical_property
-  - languages/in/English
+  - flashcard/general/chemical_property
+  - language/in/English
 ---
 
 # chemical property
