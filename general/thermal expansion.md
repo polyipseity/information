@@ -2,8 +2,8 @@
 aliases:
   - thermal expansion
 tags:
-  - flashcards/general/thermal_expansion
-  - languages/in/English
+  - flashcard/general/thermal_expansion
+  - language/in/English
 ---
 
 # thermal expansion

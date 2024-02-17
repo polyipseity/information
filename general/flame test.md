@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/flame_test
-  - languages/in/English
+  - flashcard/general/flame_test
+  - language/in/English
 ---
 
 # flame test

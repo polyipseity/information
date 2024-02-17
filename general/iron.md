@@ -3,8 +3,8 @@ aliases:
   - Fe
   - iron
 tags:
-  - flashcards/general/iron
-  - languages/in/English
+  - flashcard/general/iron
+  - language/in/English
 ---
 
 # iron

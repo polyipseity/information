@@ -3,8 +3,8 @@ aliases:
   - halogen addition reaction
   - halogen addition reactions
 tags:
-  - flashcards/general/halogen_addition_reaction
-  - languages/in/English
+  - flashcard/general/halogen_addition_reaction
+  - language/in/English
 ---
 
 # halogen addition reaction

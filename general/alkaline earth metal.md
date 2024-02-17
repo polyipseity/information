@@ -7,8 +7,8 @@ aliases:
   - group II
   - group IIA
 tags:
-  - flashcards/general/alkaline_earth_metal
-  - languages/in/English
+  - flashcard/general/alkaline_earth_metal
+  - language/in/English
 ---
 
 # alkaline earth metal

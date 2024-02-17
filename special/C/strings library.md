@@ -2,8 +2,8 @@
 aliases:
   - strings library
 tags:
-  - flashcards/special/C/strings_library
-  - languages/in/English
+  - flashcard/special/C/strings_library
+  - language/in/English
 ---
 
 # strings library

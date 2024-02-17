@@ -3,8 +3,8 @@ aliases:
   - Python recursion
   - Python recursions
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029P/recursion
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029P/recursion
+  - language/in/English
 ---
 
 # Python recursion

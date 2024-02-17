@@ -9,9 +9,9 @@ aliases:
   - HKUST DASC2210
   - HKUST DASC2210 outline
 tags:
-  - flashcards/special/academia/HKUST/DASC_2210/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/DASC_2210/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST DASC 2210 outline

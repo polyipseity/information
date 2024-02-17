@@ -2,8 +2,8 @@
 aliases:
   - area
 tags:
-  - flashcards/general/area
-  - languages/in/English
+  - flashcard/general/area
+  - language/in/English
 ---
 
 # area

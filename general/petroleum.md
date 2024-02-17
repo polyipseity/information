@@ -6,8 +6,8 @@ aliases:
   - oils
   - petroleum
 tags:
-  - flashcards/general/petroleum
-  - languages/in/English
+  - flashcard/general/petroleum
+  - language/in/English
 ---
 
 # petroleum

@@ -6,8 +6,8 @@ aliases:
   - substance
   - substances
 tags:
-  - flashcards/general/chemical_substance
-  - languages/in/English
+  - flashcard/general/chemical_substance
+  - language/in/English
 ---
 
 # chemical substance

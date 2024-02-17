@@ -2,8 +2,8 @@
 aliases:
   - nonmetals
 tags:
-  - flashcards/general/nonmetal
-  - languages/in/English
+  - flashcard/general/nonmetal
+  - language/in/English
 ---
 
 # nonmetal

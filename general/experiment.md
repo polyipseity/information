@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/experiment
-  - languages/in/English
+  - flashcard/general/experiment
+  - language/in/English
 ---
 
 # experiment

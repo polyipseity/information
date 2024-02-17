@@ -3,8 +3,8 @@ aliases:
   - ESST pressure safety outline
   - HKUST ESST pressure safety outline
 tags:
-  - flashcards/special/academia/HKUST/ESST/pressure_safety/outline
-  - languages/in/English
+  - flashcard/special/academia/HKUST/ESST/pressure_safety/outline
+  - language/in/English
 ---
 
 # HKUST ESST pressure safety outline

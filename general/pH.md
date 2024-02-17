@@ -4,8 +4,8 @@ aliases:
   - pH
   - pOH
 tags:
-  - flashcards/general/pH
-  - languages/in/English
+  - flashcard/general/pH
+  - language/in/English
 ---
 
 # pH

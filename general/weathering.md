@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/weathering
-  - languages/in/English
+  - flashcard/general/weathering
+  - language/in/English
 ---
 
 # weathering

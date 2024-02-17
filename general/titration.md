@@ -5,8 +5,8 @@ aliases:
   - titrimetry
   - volumetric analysis
 tags:
-  - flashcards/general/titration
-  - languages/in/English
+  - flashcard/general/titration
+  - language/in/English
 ---
 
 # titration

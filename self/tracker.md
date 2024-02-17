@@ -1,8 +1,8 @@
 ---
 aliases: []
 tags:
-  - functional/texts
-  - languages/in/English
+  - functional/text
+  - language/in/English
 ---
 
 # tracker

@@ -3,8 +3,8 @@ aliases:
   - periodic table
   - periodic tables
 tags:
-  - flashcards/general/periodic_table
-  - languages/in/English
+  - flashcard/general/periodic_table
+  - language/in/English
 ---
 
 # periodic table

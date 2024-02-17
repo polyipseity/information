@@ -9,8 +9,8 @@ aliases:
   - Peano–Jordan measure
   - Peano–Jordan measures
 tags:
-  - flashcards/general/Peano-Jordan_measure
-  - languages/in/English
+  - flashcard/general/Peano-Jordan_measure
+  - language/in/English
 ---
 
 # Peano–Jordan measure

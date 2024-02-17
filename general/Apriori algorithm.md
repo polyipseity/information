@@ -2,8 +2,8 @@
 aliases:
   - Apriori algorithm
 tags:
-  - flashcards/general/Apriori_algorithm
-  - languages/in/English
+  - flashcard/general/Apriori_algorithm
+  - language/in/English
 ---
 
 # Apriori algorithm

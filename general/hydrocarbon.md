@@ -3,8 +3,8 @@ aliases:
   - hydrocarbon
   - hydrocarbons
 tags:
-  - flashcards/general/hydrocarbon
-  - languages/in/English
+  - flashcard/general/hydrocarbon
+  - language/in/English
 ---
 
 # hydrocarbon

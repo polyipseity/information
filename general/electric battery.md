@@ -7,8 +7,8 @@ aliases:
   - electrical batteries
   - electrical battery
 tags:
-  - flashcards/general/electric_battery
-  - languages/in/English
+  - flashcard/general/electric_battery
+  - language/in/English
 ---
 
 # electric battery

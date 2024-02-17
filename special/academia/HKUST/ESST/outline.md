@@ -5,8 +5,8 @@ aliases:
   - HKUST ESST outline
   - HKUST Engineering Student Safety Training outline
 tags:
-  - flashcards/special/academia/HKUST/ESST/outline
-  - languages/in/English
+  - flashcard/special/academia/HKUST/ESST/outline
+  - language/in/English
 ---
 
 # HKUST Engineering Student Safety Training outline

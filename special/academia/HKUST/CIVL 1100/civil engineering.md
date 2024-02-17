@@ -2,8 +2,8 @@
 aliases:
   - civil engineering
 tags:
-  - flashcards/special/academia/HKUST/CIVL_1100/civil_engineering
-  - languages/in/English
+  - flashcard/special/academia/HKUST/CIVL_1100/civil_engineering
+  - language/in/English
 ---
 
 # civil engineering

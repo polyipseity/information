@@ -4,8 +4,8 @@ aliases:
   - alkaline
   - alkalis
 tags:
-  - flashcards/general/alkali
-  - languages/in/English
+  - flashcard/general/alkali
+  - language/in/English
 ---
 
 # alkali

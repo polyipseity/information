@@ -4,8 +4,8 @@ aliases:
   - period (periodic table)
   - periods
 tags:
-  - flashcards/general/period__periodic_table_
-  - languages/in/English
+  - flashcard/general/period__periodic_table_
+  - language/in/English
 ---
 
 # period (periodic table)

@@ -6,8 +6,8 @@ aliases:
   - stone
   - stones
 tags:
-  - flashcards/general/rock__geology_
-  - languages/in/English
+  - flashcard/general/rock__geology_
+  - language/in/English
 ---
 
 # rock (geology)

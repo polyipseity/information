@@ -3,8 +3,8 @@ aliases:
   - Java error
   - Java errors
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/error
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/error
+  - language/in/English
 ---
 
 # Java error

@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/ore
-  - languages/in/English
+  - flashcard/general/ore
+  - language/in/English
 ---
 
 # ore

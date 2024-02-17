@@ -5,8 +5,8 @@ aliases:
   - variations of parameter
   - variations of parameters
 tags:
-  - flashcards/general/variation_of_parameters
-  - languages/in/English
+  - flashcard/general/variation_of_parameters
+  - language/in/English
 ---
 
 # variation of parameters

@@ -2,8 +2,8 @@
 aliases:
   - IUPAC nomenclature of organic chemistry
 tags:
-  - flashcards/general/IUPAC_nomenclature_of_organic_chemistry
-  - languages/in/English
+  - flashcard/general/IUPAC_nomenclature_of_organic_chemistry
+  - language/in/English
 ---
 
 # IUPAC nomenclature of organic chemistry

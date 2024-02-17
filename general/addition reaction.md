@@ -3,8 +3,8 @@ aliases:
   - addition reaction
   - addition reactions
 tags:
-  - flashcards/general/addition_reaction
-  - languages/in/English
+  - flashcard/general/addition_reaction
+  - language/in/English
 ---
 
 # addition reaction

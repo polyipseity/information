@@ -3,8 +3,8 @@ aliases:
   - 3NF
   - third normal form
 tags:
-  - flashcards/general/third_normal_form
-  - languages/in/English
+  - flashcard/general/third_normal_form
+  - language/in/English
 ---
 
 # third normal form

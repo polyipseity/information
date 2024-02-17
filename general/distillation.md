@@ -4,8 +4,8 @@ aliases:
   - distillation
   - distills
 tags:
-  - flashcards/general/distillation
-  - languages/in/English
+  - flashcard/general/distillation
+  - language/in/English
 ---
 
 # distillation

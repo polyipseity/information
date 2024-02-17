@@ -4,8 +4,8 @@ aliases:
   - metallic bonding
   - metallic bonds
 tags:
-  - flashcards/general/metallic_bond
-  - languages/in/English
+  - flashcard/general/metallic_bond
+  - language/in/English
 ---
 
 # metallic bond

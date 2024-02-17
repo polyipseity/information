@@ -2,8 +2,8 @@
 aliases:
   - functions and operators
 tags:
-  - flashcards/special/MySQL/functions_and_operators
-  - languages/in/English
+  - flashcard/special/MySQL/functions_and_operators
+  - language/in/English
 ---
 
 # functions and operators

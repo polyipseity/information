@@ -3,8 +3,8 @@ aliases:
   - VBA control flow
   - VBA control flows
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029V/control_flow
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029V/control_flow
+  - language/in/English
 ---
 
 # VBA control flow

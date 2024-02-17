@@ -3,8 +3,8 @@ aliases:
   - AgNO3
   - silver nitrate
 tags:
-  - flashcards/general/silver_nitrate
-  - languages/in/English
+  - flashcard/general/silver_nitrate
+  - language/in/English
 ---
 
 # silver nitrate

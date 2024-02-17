@@ -4,8 +4,8 @@ aliases:
   - parsecs
   - pc
 tags:
-  - flashcards/general/parsec
-  - languages/in/English
+  - flashcard/general/parsec
+  - language/in/English
 ---
 
 # parsec

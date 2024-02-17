@@ -2,8 +2,8 @@
 aliases:
   - kwashiorkor
 tags:
-  - flashcards/general/kwashiorkor
-  - languages/in/English
+  - flashcard/general/kwashiorkor
+  - language/in/English
 ---
 
 # kwashiorkor

@@ -3,8 +3,8 @@ aliases:
   - cracking
   - cracking (chemistry)
 tags:
-  - flashcards/general/cracking__chemistry_
-  - languages/in/English
+  - flashcard/general/cracking__chemistry_
+  - language/in/English
 ---
 
 # cracking (chemistry)

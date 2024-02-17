@@ -9,9 +9,9 @@ aliases:
   - PHYS1112
   - PHYS1112 outline
 tags:
-  - flashcards/special/academia/HKUST/PHYS_1112/outline
-  - functional/outlines
-  - languages/in/English
+  - flashcard/special/academia/HKUST/PHYS_1112/outline
+  - functional/outline
+  - language/in/English
 ---
 
 # HKUST PHYS 1112 outline

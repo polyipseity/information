@@ -2,8 +2,8 @@
 aliases:
   - free radical halogenation
 tags:
-  - flashcards/general/free-radical_halogenation
-  - languages/in/English
+  - flashcard/general/free-radical_halogenation
+  - language/in/English
 ---
 
 # free-radical halogenation

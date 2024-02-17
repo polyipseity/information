@@ -5,8 +5,8 @@ aliases:
   - reaction rate
   - reaction rates
 tags:
-  - flashcards/general/reaction_rate
-  - languages/in/English
+  - flashcard/general/reaction_rate
+  - language/in/English
 ---
 
 # reaction rate

@@ -3,8 +3,8 @@ aliases:
   - Haber process
   - Haber–Bosch process
 tags:
-  - flashcards/general/Haber_process
-  - languages/in/English
+  - flashcard/general/Haber_process
+  - language/in/English
 ---
 
 # Haber process

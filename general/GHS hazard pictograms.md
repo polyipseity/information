@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/GHS_hazard_pictograms
-  - languages/in/English
+  - flashcard/general/GHS_hazard_pictograms
+  - language/in/English
 ---
 
 # GHS hazard pictograms

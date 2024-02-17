@@ -3,8 +3,8 @@ aliases:
   - NaOH
   - sodium hydroxide
 tags:
-  - flashcards/general/sodium_hydroxide
-  - languages/in/English
+  - flashcard/general/sodium_hydroxide
+  - language/in/English
 ---
 
 # sodium hydroxide

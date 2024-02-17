@@ -4,8 +4,8 @@ aliases:
   - Excel formulae
   - Excel formulas
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029V/formula
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029V/formula
+  - language/in/English
 ---
 
 # Excel formula

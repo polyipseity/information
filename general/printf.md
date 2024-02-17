@@ -4,8 +4,8 @@ aliases:
   - "`printf`"
   - printf
 tags:
-  - flashcards/general/printf
-  - languages/in/English
+  - flashcard/general/printf
+  - language/in/English
 ---
 
 # `printf`

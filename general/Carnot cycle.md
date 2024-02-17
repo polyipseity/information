@@ -3,8 +3,8 @@ aliases:
   - Carnot cycle
   - Carnot cycles
 tags:
-  - flashcards/general/Carnot_cycle
-  - languages/in/English
+  - flashcard/general/Carnot_cycle
+  - language/in/English
 ---
 
 # Carnot cycle

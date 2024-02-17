@@ -12,8 +12,8 @@ aliases:
   - ctime
   - time.h
 tags:
-  - flashcards/general/C_date_and_time_functions
-  - languages/in/English
+  - flashcard/general/C_date_and_time_functions
+  - language/in/English
 ---
 
 # C date and time functions

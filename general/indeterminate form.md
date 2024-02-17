@@ -11,8 +11,8 @@ aliases:
   - L'Hospital's rule
   - L'Hôspital's rule
 tags:
-  - flashcards/general/L_Hôpital_s_rule
-  - languages/in/English
+  - flashcard/general/L_Hôpital_s_rule
+  - language/in/English
 ---
 
 # indeterminate form

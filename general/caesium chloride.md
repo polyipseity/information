@@ -4,8 +4,8 @@ aliases:
   - caesium chloride
   - cesium chloride
 tags:
-  - flashcards/general/caesium_chloride
-  - languages/in/English
+  - flashcard/general/caesium_chloride
+  - language/in/English
 ---
 
 # caesium chloride

@@ -7,8 +7,8 @@ aliases:
   - latent heat of evaporation
   - latent heat of vaporization
 tags:
-  - flashcards/general/enthalpy_of_vaporization
-  - languages/in/English
+  - flashcard/general/enthalpy_of_vaporization
+  - language/in/English
 ---
 
 # enthalpy of vaporization

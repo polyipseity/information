@@ -5,8 +5,8 @@ aliases:
   - neutralize
   - neutralizes
 tags:
-  - flashcards/general/neutralization__chemistry_
-  - languages/in/English
+  - flashcard/general/neutralization__chemistry_
+  - language/in/English
 ---
 
 # neutralization (chemistry)

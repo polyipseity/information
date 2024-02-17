@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/sea_salt
-  - languages/in/English
+  - flashcard/general/sea_salt
+  - language/in/English
 ---
 
 # sea salt

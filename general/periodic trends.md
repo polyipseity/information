@@ -3,8 +3,8 @@ aliases:
   - periodic trend
   - periodic trends
 tags:
-  - flashcards/general/periodic_trends
-  - languages/in/English
+  - flashcard/general/periodic_trends
+  - language/in/English
 ---
 
 # periodic trends

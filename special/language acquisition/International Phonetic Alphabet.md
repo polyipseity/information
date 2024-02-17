@@ -5,8 +5,8 @@ aliases:
   - International Phonetic Alphabet help
   - International Phonetic Alphabet usage
 tags:
-  - flashcards/special/language_acquisition/International_Phonetic_Alphabet
-  - languages/in/English
+  - flashcard/special/language_acquisition/International_Phonetic_Alphabet
+  - language/in/English
 ---
 
 # International Phonetic Alphabet

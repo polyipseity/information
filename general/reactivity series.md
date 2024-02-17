@@ -3,8 +3,8 @@ aliases:
   - activity series
   - reactivity series
 tags:
-  - flashcards/general/reactivity_series
-  - languages/in/English
+  - flashcard/general/reactivity_series
+  - language/in/English
 ---
 
 # reactivity series

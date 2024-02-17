@@ -3,8 +3,8 @@ aliases:
   - bonding in solids
   - bondings in solids
 tags:
-  - flashcards/general/bonding_in_solids
-  - languages/in/English
+  - flashcard/general/bonding_in_solids
+  - language/in/English
 ---
 
 # bonding in solids

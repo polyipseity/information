@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/internal_structure_of_Earth
-  - languages/in/English
+  - flashcard/general/internal_structure_of_Earth
+  - language/in/English
 ---
 
 # internal structure of Earth

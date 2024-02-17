@@ -2,8 +2,8 @@
 aliases:
   - chain rule
 tags:
-  - flashcards/general/chain_rule
-  - languages/in/English
+  - flashcard/general/chain_rule
+  - language/in/English
 ---
 
 # chain rule

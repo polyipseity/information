@@ -4,8 +4,8 @@ aliases:
   - association rules
   - association rule learning
 tags:
-  - flashcards/general/association_rule_learning
-  - languages/in/English
+  - flashcard/general/association_rule_learning
+  - language/in/English
 ---
 
 # association rule learning

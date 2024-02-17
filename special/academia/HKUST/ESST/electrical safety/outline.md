@@ -3,8 +3,8 @@ aliases:
   - ESST electrical safety outline
   - HKUST ESST electrical safety outline
 tags:
-  - flashcards/special/academia/HKUST/ESST/electrical_safety/outline
-  - languages/in/English
+  - flashcard/special/academia/HKUST/ESST/electrical_safety/outline
+  - language/in/English
 ---
 
 # HKUST ESST electrical safety outline

@@ -1,7 +1,7 @@
 ---
 tags:
-  - flashcards/general/filtration
-  - languages/in/English
+  - flashcard/general/filtration
+  - language/in/English
 ---
 
 # filtration

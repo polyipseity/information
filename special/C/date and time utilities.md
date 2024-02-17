@@ -2,8 +2,8 @@
 aliases:
   - date and time utilities
 tags:
-  - flashcards/special/C/date_and_time_utilities
-  - languages/in/English
+  - flashcard/special/C/date_and_time_utilities
+  - language/in/English
 ---
 
 # date and time utilities

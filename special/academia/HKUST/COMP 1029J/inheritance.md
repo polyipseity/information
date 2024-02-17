@@ -3,8 +3,8 @@ aliases:
   - Java inheritance
   - Java inheritances
 tags:
-  - flashcards/special/academia/HKUST/COMP_1029J/inheritance
-  - languages/in/English
+  - flashcard/special/academia/HKUST/COMP_1029J/inheritance
+  - language/in/English
 ---
 
 # Java inheritance
