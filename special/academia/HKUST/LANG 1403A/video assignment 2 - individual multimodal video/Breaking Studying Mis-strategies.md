@@ -6,9 +6,9 @@ tags:
   - by/self
   - date/2023/11/27/from
   - date/2023/12/01/to
-  - functional/texts
-  - languages/for/English
-  - languages/in/English
+  - functional/text
+  - language/for/English
+  - language/in/English
 ---
 
 # Breaking Studying Mis-strategies
