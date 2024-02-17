@@ -47,7 +47,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b923ed"--><!-- The following content is generated at 2024-01-04T20:17:51.706624+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Observe <!--SR:!2024-03-12,275,310!2024-05-31,341,330-->
-- Observe→:::←Record <!--SR:!2024-02-17,255,310!2025-11-21,720,310-->
+- Observe→:::←Record <!--SR:!2026-04-17,790,310!2025-11-21,720,310-->
 - Record→:::←Analyze <!--SR:!2024-02-28,262,310!2024-06-17,125,290-->
 - Analyze→:::←Conclude <!--SR:!2026-04-16,790,310!2025-02-18,515,310-->
 - Conclude→:::←_(end)_ <!--SR:!2024-08-18,408,330!2024-06-26,365,330-->

@@ -283,12 +283,12 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-03-11,26,290!2024-02-22,17,290-->
-- (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-20,15,290!2024-02-17,12,270-->
+- (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-20,15,290!2024-03-16,28,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-03-01,16,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-17,2,150!2024-03-04,21,250-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-20,3,150!2024-03-04,21,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-03-19,32,270!2024-02-19,4,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-17,2,210-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-21,4,210-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-02-18,13,290!2024-03-07,22,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -362,9 +362,9 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-03-03,18,270!2024-02-18,13,290-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-03-17,31,290!2024-02-18,13,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-02-22,17,290!2024-03-26,39,290-->
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-03-01,15,230!2024-02-17,9,250-->
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-03-01,15,230!2024-03-10,22,250-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
-- `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-23,9,230!2024-02-17,10,230-->
+- `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-23,9,230!2024-03-18,30,250-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-25,14,230!2024-02-29,17,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-22,17,290!2024-03-03,19,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-02-21,7,230-->

@@ -27,7 +27,7 @@ printing
 
 One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-02-21,17,290!2024-02-20,16,290-->
 
-To align output, a primitive way is {{using the tab character `\t`, which usually aligns text in 8-character intervals}}. <!--SR:!2024-02-17,13,290-->
+To align output, a primitive way is {{using the tab character `\t`, which usually aligns text in 8-character intervals}}. <!--SR:!2024-04-07,50,310-->
 
 ## input
 

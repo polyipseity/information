@@ -18,7 +18,7 @@ if (condition)
   statement_block
 ```
 
-The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-17,13,290-->
+The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-07,50,310-->
 
 An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-02-20,16,290-->
 
@@ -88,7 +88,7 @@ for (initial_statement; condition; loop_statement)
   statement
 ```
 
-The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-02-21,17,290!2024-02-17,13,290-->
+The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-02-21,17,290!2024-04-05,48,310-->
 
 One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2024-02-19,15,290-->
 
@@ -99,7 +99,7 @@ for (int ii = 1; ii < 11; ++ii) {
 }
 ```
 
-A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-02-17,13,290-->
+A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-06,49,310-->
 
 ```Java
 while (condition)
