@@ -29,9 +29,8 @@ It is a test for an [oxidizing](oxidization.md) gas.
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('28a383', '23ba9d'),
+  __env__.cwf_sects('28a383', '23ba9d'),
   (
     'Light a wooden splint.',
     'Blow out the flame.',

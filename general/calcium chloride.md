@@ -25,9 +25,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('3455', 'dd21'),
+  __env__.cwf_sects('3455', 'dd21'),
   ('name', 'description',),
   (
     ('[desiccant](desiccant.md)', 'The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.',),

@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_map(
-  e.cwf_sects('b9de', '3384', 'dd92'),
+  __env__.cwf_sects('b9de', '3384', 'dd92'),
   {
     '1': 'mono-',
     '2': 'di-',

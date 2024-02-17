@@ -36,10 +36,9 @@ Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.m
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 i_or_below = 'reacts partially; virtually no reaction'
 return await memorize_map(
-  e.cwf_sects('49d8', '2394', '6900'),
+  __env__.cwf_sects('49d8', '2394', '6900'),
   items_to_map(
     ('[fluorine](fluorine.md)', 'reacts explosively in the dark and cold',),
     ('[chlorine](chlorine.md)', 'reacts explosively in light and heat; slowly without',),

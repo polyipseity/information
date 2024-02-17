@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('0d93', 'ff11'),
+  __env__.cwf_sects('0d93', 'ff11'),
   ('name', 'description',),
   (
     ('[implants](implant%20(medicine).md)', '[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)',),

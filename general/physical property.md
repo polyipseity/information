@@ -26,9 +26,8 @@ A __physical property__ is {{a [property](property.md) measurable without [chemi
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('1238ff', 'bad29e'),
+  __env__.cwf_sects('1238ff', 'bad29e'),
   ('name', 'description',),
   (
     ('[boiling point](boiling%20point.md)', '',),

@@ -19,9 +19,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('2182ff', '239e8f'),
+  __env__.cwf_sects('2182ff', '239e8f'),
   ('name', 'description',),
   (
     ('[atmosphere](atmosphere%20of%20Earth.md)', html_ul('~80 km thick', 'gas',),),

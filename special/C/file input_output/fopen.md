@@ -47,7 +47,6 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from functools import partial
-e = __env__
 options = {
   "a": "append",
   "a+": "append extended",
@@ -57,7 +56,7 @@ options = {
   "w+": "write extended",
 }
 return await memorize_table(
-  e.cwf_sects("ee2f", "b23d"),
+  __env__.cwf_sects("ee2f", "b23d"),
   ("character", "description"),
   options.items(),
   partial(map, cloze),

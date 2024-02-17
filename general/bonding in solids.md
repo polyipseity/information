@@ -31,9 +31,8 @@ A __molecular solid__, also called __simple molecular structure__, {{consists of
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_table(
-  (e.cwf_sect('9d9d'), NULL_LOCATION,),
+  (__env__.cwf_sect('9d9d'), NULL_LOCATION,),
   ('property', 'description',),
   (
     ('[boiling point](boiling%20point.md)', 'typically low',),
@@ -71,9 +70,8 @@ A __network covalent solid__, also called __giant covalent structure__, {{consis
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_table(
-  (e.cwf_sect('357d'), NULL_LOCATION,),
+  (__env__.cwf_sect('357d'), NULL_LOCATION,),
   ('property', 'description',),
   (
     ('[boiling point](boiling%20point.md)', 'typically high',),
@@ -111,9 +109,8 @@ A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](a
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_table(
-  (e.cwf_sect('5460'), NULL_LOCATION,),
+  (__env__.cwf_sect('5460'), NULL_LOCATION,),
   ('property', 'description',),
   (
     ('[boiling point](boiling%20point.md)', 'typically moderately high',),
@@ -151,9 +148,8 @@ A __metallic solid__, also called __giant metallic structure__, {{consists of [m
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_table(
-  (e.cwf_sect('435d'), NULL_LOCATION,),
+  (__env__.cwf_sect('435d'), NULL_LOCATION,),
   ('property', 'description',),
   (
     ('[boiling point](boiling%20point.md)', 'typically high ([mercury](mercury.md): low)',),

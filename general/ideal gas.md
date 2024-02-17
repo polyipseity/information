@@ -26,9 +26,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('33dd', '39fb',),
+  __env__.cwf_sects('33dd', '39fb',),
   (
     "[classical physics](classical%20physics.md): [Newton's laws of motion](Newton's%20laws%20of%20motion.md) apply; less important",
     "[collision](collision.md) only: no [forces](force.md) between particles, particles and the walls, and particles and the surroundings except for point-like [collisions](collision.md); explains failing at low [temperatures](temperature.md) and with gases with strong [intermolecular forces](intermolecular%20force.md) like [water vapor](water%20vapor.md)",

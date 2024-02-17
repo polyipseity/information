@@ -28,9 +28,8 @@ A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from itertools import chain
-e = __env__
 return await memorize_table(
-  e.cwf_sects('8462', '92de'),
+  __env__.cwf_sects('8462', '92de'),
   ('name (IUPAC/old IUPAC/old CAS)', 'IUPAC recommended trivial name',),
   (
     ('[group 1](#^group-1)/IA/IA', '[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)', '<a id="^group-1"></a>^group-1',),

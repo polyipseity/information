@@ -71,8 +71,6 @@ pV^{(1 - \gamma)K + \gamma} &= C
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-
-e = __env__
 headers = ("polytropic index", "effects",)
 table = (
   ("_n_ < 0", "under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too",),
@@ -86,11 +84,11 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("029f", "577a",),
+    __env__.cwf_sects("029f", "577a",),
     headers, table,
   ),
   memorize_map(
-    e.cwf_sects(None, "5599", "0033",),
+    __env__.cwf_sects(None, "5599", "0033",),
     items_to_map(*(row[:2] for row in table)),
   ),
 ))

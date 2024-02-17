@@ -26,9 +26,8 @@ The Carnot cycle provides {{the upper limit of [efficiency](thermal%20efficiency
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects("bb11", "2944",),
+  __env__.cwf_sects("bb11", "2944",),
   (
     R"__[reversible](reversible%20process%20(thermodynamics).md) [isothermal](isothermal%20process.md) expansion__: $Q_\mathrm{H}$ is transferred from the hot reservoir to the gas, performing the same amount of [work](work%20(physics).md); [temperature](temperature.md) is $T_\mathrm{H}$ and remains constant; [entropy](entropy.md) increases by $\Delta S = Q_\mathrm{H} / T_\mathrm{H}$",
     R"__[isentropic](isentropic%20process.md) expansion__: [temperature](temperature.md) decreases from $T_\mathrm{H}$ to $T_\mathrm{C}$, performing [work](work%20(physics).md); [entropy](entropy.md) remains constant",

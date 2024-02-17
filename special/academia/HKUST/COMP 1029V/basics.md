@@ -34,7 +34,6 @@ Below are common data types:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "type", "description"
 table = (
   ("Boolean", "Either `True` or `False`."),
@@ -45,12 +44,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("2f02", "652a",),
+    __env__.cwf_sects("2f02", "652a",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "3b1a", None,),
+    __env__.cwf_sects(None, "3b1a", None,),
     items_to_map(*table),
   )
 ))

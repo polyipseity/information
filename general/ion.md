@@ -202,24 +202,23 @@ class Section:
     )
 cation_sect = Section.from_rows(cations)
 anion_sect = Section.from_rows(anions)
-e = __env__
 return chain.from_iterable(await gather(
   cation_sect.memorize(
     (
-      e.cwf_sect('d9192d'),
-      e.cwf_sect('3928fd'),
-      e.cwf_sect('8d8dee'),
-      e.cwf_sect('a5defa'),
-      e.cwf_sect('394a'),
+      __env__.cwf_sect('d9192d'),
+      __env__.cwf_sect('3928fd'),
+      __env__.cwf_sect('8d8dee'),
+      __env__.cwf_sect('a5defa'),
+      __env__.cwf_sect('394a'),
     ),
   ),
   anion_sect.memorize(
     (
-      e.cwf_sect('a9fdfe'),
-      e.cwf_sect('2fde12'),
-      e.cwf_sect('8c7820'),
-      e.cwf_sect('104852'),
-      e.cwf_sect('50ad'),
+      __env__.cwf_sect('a9fdfe'),
+      __env__.cwf_sect('2fde12'),
+      __env__.cwf_sect('8c7820'),
+      __env__.cwf_sect('104852'),
+      __env__.cwf_sect('50ad'),
     ),
   ),
 ))

@@ -39,7 +39,6 @@ Below are common arithmetic and string operators. Operators have higher preceden
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "operator", "description"
 table = (
   ("`^`", "power",),
@@ -50,12 +49,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("93ab", "f21a",),
+    __env__.cwf_sects("93ab", "f21a",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "9cda", None,),
+    __env__.cwf_sects(None, "9cda", None,),
     items_to_map(*table),
   )
 ))
@@ -106,7 +105,6 @@ Below are common comparison operators, all of which returns {{booleans}}. Operat
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "operator", "description"
 table = (
   ("`=`", "equal to",),
@@ -118,12 +116,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("bd23", "d123",),
+    __env__.cwf_sects("bd23", "d123",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "cc23", None,),
+    __env__.cwf_sects(None, "cc23", None,),
     items_to_map(*table),
   )
 ))
@@ -181,7 +179,6 @@ Below are common logic functions, all of which {{accept booleans and return bool
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "function", "description"
 table = (
   ("`NOT(boolean)`", "negate",),
@@ -190,12 +187,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("2856", "d882",),
+    __env__.cwf_sects("2856", "d882",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "ee13", None,),
+    __env__.cwf_sects(None, "ee13", None,),
     items_to_map(*table),
   )
 ))
@@ -240,7 +237,6 @@ Below are common string functions and operators:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "function", "description"
 table = (
   ("(operator) `&`", "concatenation",),
@@ -253,12 +249,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("0ff2", "305b",),
+    __env__.cwf_sects("0ff2", "305b",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "29ca", None,),
+    __env__.cwf_sects(None, "29ca", None,),
     items_to_map(*table),
   )
 ))
@@ -315,7 +311,6 @@ Below are common functions:
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = "function", "description"
 table = (
   ("`AVERAGE(numbers...)`", "average",),
@@ -329,12 +324,12 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("93ba", "ee42",),
+    __env__.cwf_sects("93ba", "ee42",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "f123", None,),
+    __env__.cwf_sects(None, "f123", None,),
     items_to_map(*table),
   )
 ))

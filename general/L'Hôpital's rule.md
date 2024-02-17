@@ -52,7 +52,6 @@ __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theor
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
-e = __env__
 headers = (R"indeterminate form", R"conditions", R"transformation to 0/0", R"transformation to ∞/∞",)
 table = (
   (R"$\frac00$", R"$\lim_{x\to{c} }f(x)=0,\lim_{x\to{c} }g(x)=0$", R"", R"$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$",),
@@ -65,20 +64,20 @@ table = (
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
-    e.cwf_sects("948f", "dd11",),
+    __env__.cwf_sects("948f", "dd11",),
     headers,
     table,
   ),
   memorize_map(
-    e.cwf_sects(None, "5dab", None,),
+    __env__.cwf_sects(None, "5dab", None,),
     items_to_map(*((entry[0], entry[1],) for entry in table if entry[1])),
   ),
   memorize_map(
-    e.cwf_sects(None, "679d", "39ba",),
+    __env__.cwf_sects(None, "679d", "39ba",),
     items_to_map(*((entry[0], entry[2],) for entry in table if entry[2])),
   ),
   memorize_map(
-    e.cwf_sects(None, "1e32", "ff01",),
+    __env__.cwf_sects(None, "1e32", "ff01",),
     items_to_map(*((entry[0], entry[3],) for entry in table if entry[3])),
   ),
 ))

@@ -52,9 +52,8 @@ An [implicit](implicit%20function.md) ordinary differential equation of order _n
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_seq(
-  e.cwf_sects('0d9f', 'ff12'),
+  __env__.cwf_sects('0d9f', 'ff12'),
   (
     '[autonomous](#^autonomous)',
     '[homogeneous](#^homogeneous)',

@@ -37,9 +37,8 @@ tags:
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from itertools import chain as _chain
-e = __env__
 return await memorize_map(
-  e.cwf_sects("499f", "39dd", "f234",),
+  __env__.cwf_sects("499f", "39dd", "f234",),
   {
     R"$\sin{x}$": R"$x$",
     R"$\arcsin{x}$": R"$x$",

@@ -24,9 +24,8 @@ tags:
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-e = __env__
 return await memorize_table(
-  e.cwf_sects('4949', 'd996',),
+  __env__.cwf_sects('4949', 'd996',),
   ('name',),
   (
     ('[Pythagorean identities](#Pythagorean%20identities)',),
@@ -70,9 +69,8 @@ return await memorize_table(
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_map(
-  e.cwf_sects('958f', 'ba01', None,),
+  __env__.cwf_sects('958f', 'ba01', None,),
   items_to_map(
     ('normal', R'$\sin^2 \theta + \cos^2 \theta = 1$',),
     ('divided by sine', R'$1 + \cot^2 \theta = \csc^2 \theta$',),
@@ -116,9 +114,8 @@ return await memorize_map(
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_map(
-  e.cwf_sects('f823', '394a', None,),
+  __env__.cwf_sects('f823', '394a', None,),
   items_to_map(
     ('sine', R'$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$',),
     ('cosine', R'$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$',),
@@ -158,9 +155,8 @@ return await memorize_map(
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return await memorize_map(
-  e.cwf_sects('b023', 'ab2d', None,),
+  __env__.cwf_sects('b023', 'ab2d', None,),
   items_to_map(
     ('sine', R'$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$',),
     ('cosine', R'$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$',),
@@ -215,10 +211,9 @@ return await memorize_map(
 from asyncio import gather
 from itertools import chain
 from pytextgen.util import NULL_LOCATION
-e = __env__
 return chain.from_iterable(await gather(
   memorize_map(
-    e.cwf_sects('dd91', '3213', None,),
+    __env__.cwf_sects('dd91', '3213', None,),
     items_to_map(
       ('sine cosine', R'$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$',),
       ('cosine sine', R'$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$',),
@@ -227,7 +222,7 @@ return chain.from_iterable(await gather(
     ),
   ),
   memorize_map(
-    e.cwf_sects('96fb', '39cd', None,),
+    __env__.cwf_sects('96fb', '39cd', None,),
     items_to_map(
       ('sine ± sine', R'$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$',),
       ('cosine + cosine', R'$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$',),
