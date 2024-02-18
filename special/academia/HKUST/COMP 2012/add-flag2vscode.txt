@@ -1,4 +1,4 @@
-Method 1 
+Method 1
 --------
 
 If you use Code Runner:
@@ -14,7 +14,7 @@ Or you may edit the file "settings.json" directly using an editor.  On my Mac, t
         ~/Library/Application\ Support/Code/User/settings.json
 
 
-Method 2 
+Method 2
 --------
 If you don't use Code Runner, configure the building process by:
 
@@ -23,5 +23,5 @@ If you don't use Code Runner, configure the building process by:
         -> add the compilation flag
 
 - To compile,
-        -> Terminal 
+        -> Terminal
         -> Run Build Task
