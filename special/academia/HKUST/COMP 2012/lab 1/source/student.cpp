@@ -30,22 +30,22 @@ void Student::setGrade(const CourseGrade& grade) {
 }
 
 // TODO 4: Implement Student accesor functions.
-string Student::getName() const { 
+string Student::getName() const {
     // TODO
 }
 
-int Student::getSID() const { 
+int Student::getSID() const {
     // TODO
 }
 
-string Student::getDepartment() const { 
+string Student::getDepartment() const {
     // TODO
 }
 
-int Student::getYear() const { 
+int Student::getYear() const {
     // TODO
 }
 
-double Student::getTotalPercentage() const { 
+double Student::getTotalPercentage() const {
     // TODO
 }

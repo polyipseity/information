@@ -26,7 +26,7 @@ void StudentList::displaySortedName(const string& depFilter, int yearFilter) con
     cout << "======================================================" << endl;
 
     Student sortedStudents[CLASS_CAPACITY];
-    for (int i=0; i<numStudents; ++i) 
+    for (int i=0; i<numStudents; ++i)
         sortedStudents[i] = students[i];
     for (int i=0; i<numStudents; ++i) {
         for (int j=i+1; j<numStudents; ++j) {
@@ -55,7 +55,7 @@ void StudentList::displaySortedGrade(const string& depFilter, int yearFilter) co
     cout << "======================================================" << endl;
 
     Student sortedStudents[CLASS_CAPACITY];
-    for (int i=0; i<numStudents; ++i) 
+    for (int i=0; i<numStudents; ++i)
         sortedStudents[i] = students[i];
     for (int i=0; i<numStudents; ++i) {
         for (int j=i+1; j<numStudents; ++j) {

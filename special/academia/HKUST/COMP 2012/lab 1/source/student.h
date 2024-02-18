@@ -33,7 +33,7 @@ class Student {
 
         void setGrade(const CourseGrade& grade);
 
-        string getName() const; 
+        string getName() const;
         int getSID() const;
         string getDepartment() const;
         int getYear() const;
