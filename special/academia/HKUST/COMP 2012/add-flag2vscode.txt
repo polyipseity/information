@@ -1,0 +1,27 @@
+Method 1 
+--------
+
+If you use Code Runner:
+- Go Extension
+        -> Click "Code Runner" 's gear icon
+        -> Click "Configure Extension Settings"
+        -> Search "Code-runner: Executor Map"
+        -> Click "Edit in settings.json"
+        -> Search for "cpp:" under "code-runner.executorMap"
+        -> Add the flag "-std=c++11" after "g++"
+
+Or you may edit the file "settings.json" directly using an editor.  On my Mac, the file is located as:
+        ~/Library/Application\ Support/Code/User/settings.json
+
+
+Method 2 
+--------
+If you don't use Code Runner, configure the building process by:
+
+- Go Terminal
+        -> Configure Default Build Task
+        -> add the compilation flag
+
+- To compile,
+        -> Terminal 
+        -> Run Build Task
