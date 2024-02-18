@@ -18,7 +18,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allow
 
 <!-- markdownlint MD028 -->
 
-> [!tip] tip
+> [!tip] tips
 >
 > - [intuition](intuition.md): {{$f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$.}}
 
@@ -90,7 +90,7 @@ f(a) & = \begin{cases} 0, & a = 0 \\
 -\arctan a + \frac\pi2 \operatorname{sgn}(a), & a \ne 0 \end{cases}
 \end{aligned}$$
 
-> [!tip] tip
+> [!tip] tips
 >
 > - takeaway: {{No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered.}}
 
@@ -167,7 +167,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 & = \left(\frac\pi2 - 1\right) \lvert a \rvert
 \end{aligned}$$
 
-> [!tip] tip
+> [!tip] tips
 >
 > - takeaway: {{Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule.}}
 
@@ -289,7 +289,7 @@ $$f(a) = \begin{cases} 0, & \lvert a \rvert \le 1 \\
 
 Directly integrating the integral is very difficult and will result in a very long expression, so using the Leibniz integral rule simplifies the evaluation significantly.
 
-> [!tip] tip
+> [!tip] tips
 >
 > - takeaway: {{The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.}}
 
@@ -351,7 +351,7 @@ $$\int_0^{2\pi}\! \sin \theta \cos(\sin \theta) \,\mathrm{d}\theta = f(1) = C = 
 
 One may check that the [integral](integral.md) is indeed zero by considering the [symmetry](symmetry.md) of $\sin \theta$ from $0$ to $2 \pi$.
 
-> [!tip] tip
+> [!tip] tips
 >
 > - takeaway: {{Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.}}
 
@@ -584,7 +584,7 @@ f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
 
 <!-- markdownlint MD028 -->
 
-> [!tip] tip
+> [!tip] tips
 >
 > - takeaway: {{The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md).}}
 

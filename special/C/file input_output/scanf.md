@@ -39,7 +39,7 @@ int fscanf_s(FILE *restrict stream, char const *restrict format, ...); // (since
 int sscanf_s(char const *restrict buffer, char const *restrict format, ...); // (since C11)
 ```
 
-> [!tip] tip
+> [!tip] tips
 >
 > - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
 > - overload selection: {{use the `_s`-ending overloads whenever feasible}}

@@ -22,7 +22,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> [!tip] tip
+> [!tip] tips
 >
 > - adding sine waves: {{one can use [phasors](phasor.md) to help with that, i.e. adding the [phase space](phase%20space.md) [vectors](vector%20(mathematics%20and%20physics).md)}}
 
