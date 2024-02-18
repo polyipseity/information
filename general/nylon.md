@@ -45,7 +45,7 @@ return await memorize_table(
     ('washable', '',),
     ('[waterproof](waterproof.md)', '',),
   ),
-  lambda datum: map(cloze, datum),
+  lambda datum: (datum[0], *map(cloze, datum[1:])),
 )
 ```
 
@@ -53,19 +53,19 @@ return await memorize_table(
 
 The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2023-04-08T00:21:13.395338+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2024-02-18T15:03:20.798754+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
-> | {{dyeable}} |  |
-> | {{elastic}} |  |
-> | {{high tensile strength}} |  |
-> | {{oil-proof}} |  |
-> | {{smooth}} |  |
-> | {{[strong](strength%20of%20materials.md)}} |  |
-> | {{[tough](toughness.md)}} |  |
-> | {{washable}} |  |
-> | {{[waterproof](waterproof.md)}} |  |
+> | dyeable |  |
+> | elastic |  |
+> | high tensile strength |  |
+> | oil-proof |  |
+> | smooth |  |
+> | [strong](strength%20of%20materials.md) |  |
+> | [tough](toughness.md) |  |
+> | washable |  |
+> | [waterproof](waterproof.md) |  |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
