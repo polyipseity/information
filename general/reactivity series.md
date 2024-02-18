@@ -76,7 +76,10 @@ table = (
 )
 
 return _chain.from_iterable(await _gather(
-  memorize_table(__env__.cwf_sects("a2994d", "299018"), headers, table),
+  memorize_table(
+    __env__.cwf_sects("a2994d", "299018"), headers, table,
+    pretext="most reactive", posttext="least reactive",
+  ),
   memorize_map(
     __env__.cwf_sects(None, "1e32", "8912",),
     items_to_map(*((entry[0], entry[1],) for entry in table if entry[1])),
@@ -130,9 +133,9 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[caesium](caesium.md)
+- _(most reactive)_→:::←[caesium](caesium.md)
 - [caesium](caesium.md)→:::←[rubidium](rubidium.md)
 - [rubidium](rubidium.md)→:::←[potassium](potassium.md)
 - [potassium](potassium.md)→:::←[sodium](sodium.md)
@@ -161,7 +164,7 @@ return _chain.from_iterable(await _gather(
 - [mercury](mercury%20(element).md)→:::←[silver](silver.md)
 - [silver](silver.md)→:::←[gold](gold.md)
 - [gold](gold.md)→:::←[platinum](platinum.md)
-- [platinum](platinum.md)→:::←_(end)_
+- [platinum](platinum.md)→:::←_(least reactive)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
