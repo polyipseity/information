@@ -21,10 +21,10 @@ The `Cells` object can refer to {{a cell}}. We pass {{the 1-based row and the 1-
 
 ### `Worksheets`
 
-The `Worksheets` object can refer to {{a worksheet}}. We get a worksheet {{by name: `Worksheets(name)`, such as `Worksheets("Sheet1")`}}. We can also access `Range` and `Cells` in a specific worksheet by accessing them under the `Worksheets` object, like {{`Worksheets("Sheet1").Range("A1")`}}. <!--SR:!2024-02-21,16,290!2024-02-20,15,290!2024-02-18,13,290-->
+The `Worksheets` object can refer to {{a worksheet}}. We get a worksheet {{by name: `Worksheets(name)`, such as `Worksheets("Sheet1")`}}. We can also access `Range` and `Cells` in a specific worksheet by accessing them under the `Worksheets` object, like {{`Worksheets("Sheet1").Range("A1")`}}. <!--SR:!2024-02-21,16,290!2024-02-20,15,290!2024-04-08,50,310-->
 
 One can make a worksheet active using {{the `Activate` method, like `Worksheets("My Potential").Activate`}}. <!--SR:!2024-02-22,17,290-->
 
 ## selection
 
-You can get the currently selected cell or range using {{`Selection`}}. You can change the currently selected cell or range by doing {{`CellOrRange.Select`. Note that the worksheet the cell or range is on must be active, otherwise you get an error}}. <!--SR:!2024-02-18,13,290!2024-02-19,14,290-->
+You can get the currently selected cell or range using {{`Selection`}}. You can change the currently selected cell or range by doing {{`CellOrRange.Select`. Note that the worksheet the cell or range is on must be active, otherwise you get an error}}. <!--SR:!2024-04-09,51,310!2024-02-19,14,290-->

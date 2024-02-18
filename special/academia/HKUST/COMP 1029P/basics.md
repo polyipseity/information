@@ -71,10 +71,10 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`**` <!--SR:!2024-02-18,13,290!2024-02-20,15,290-->
-- `**`→:::←`*` <!--SR:!2024-02-18,13,290!2024-02-19,14,290-->
-- `*`→:::←`/` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
-- `/`→:::←`//` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
+- _(begin)_→:::←`**` <!--SR:!2024-04-11,53,310!2024-02-20,15,290-->
+- `**`→:::←`*` <!--SR:!2024-04-09,51,310!2024-02-19,14,290-->
+- `*`→:::←`/` <!--SR:!2024-02-21,16,290!2024-04-09,51,310-->
+- `/`→:::←`//` <!--SR:!2024-02-19,14,290!2024-04-08,50,310-->
 - `//`→:::←`%` <!--SR:!2024-02-22,17,290!2024-02-22,17,290-->
 - `%`→:::←`+` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
 - `+`→:::←`-` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
@@ -84,11 +84,11 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
-- `**`::power <!--SR:!2024-02-18,13,290-->
+- `**`::power <!--SR:!2024-04-06,48,310-->
 - `*`::multiplication <!--SR:!2024-02-22,17,290-->
 - `/`::division <!--SR:!2024-02-22,17,290-->
 - `//`::floor division <!--SR:!2024-02-20,15,290-->
-- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-02-18,13,290-->
+- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-04-07,49,310-->
 - `+`::addition <!--SR:!2024-02-20,15,290-->
 - `-`::subtraction <!--SR:!2024-02-19,14,290-->
 
@@ -148,7 +148,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`in` <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
 - `in`→:::←`<` <!--SR:!2024-02-22,17,290!2024-02-19,5,210-->
 - `<`→:::←`<=` <!--SR:!2024-02-20,15,290!2024-02-20,15,290-->
-- `<=`→:::←`>` <!--SR:!2024-02-21,16,290!2024-02-18,4,210-->
+- `<=`→:::←`>` <!--SR:!2024-02-21,16,290!2024-03-01,12,230-->
 - `>`→:::←`>=` <!--SR:!2024-02-21,4,210!2024-02-21,16,290-->
 - `>=`→:::←`!=` <!--SR:!2024-03-12,30,270!2024-02-19,8,250-->
 - `!=`→:::←`==` <!--SR:!2024-03-16,33,290!2024-02-19,14,290-->
@@ -161,14 +161,14 @@ return _chain.from_iterable(await _gather(
 - `in`::membership test <!--SR:!2024-02-21,16,290-->
 - `<`::lesser than <!--SR:!2024-02-22,17,290-->
 - `<=`::lesser than or equal to <!--SR:!2024-03-23,37,290-->
-- `>`::greater than <!--SR:!2024-02-18,13,290-->
+- `>`::greater than <!--SR:!2024-04-12,54,310-->
 - `>=`::greater than or equal to <!--SR:!2024-02-22,17,290-->
-- `!=`::not equal to <!--SR:!2024-02-18,13,290-->
+- `!=`::not equal to <!--SR:!2024-04-08,50,310-->
 - `==`::equal to <!--SR:!2024-02-20,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-02-18,13,290-->
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-04-13,55,310-->
 
 Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-02-19,14,290-->
 
@@ -217,16 +217,16 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`not` <!--SR:!2024-02-21,16,290!2024-02-19,14,290-->
 - `not`→:::←`and` <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
-- `and`→:::←`or` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
-- `or`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
+- `and`→:::←`or` <!--SR:!2024-02-21,16,290!2024-04-14,56,310-->
+- `or`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-04-07,49,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
 - `not`::negate <!--SR:!2024-02-19,14,290-->
-- `and`::and <!--SR:!2024-02-18,13,290-->
-- `or`::or <!--SR:!2024-02-18,13,290-->
+- `and`::and <!--SR:!2024-04-06,48,310-->
+- `or`::or <!--SR:!2024-04-10,52,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

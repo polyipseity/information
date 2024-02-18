@@ -13,7 +13,7 @@ A variable can store a single value while an array can {{store multiple values}}
 
 ## creation
 
-To create an array, {{enclose the multiple values in `{}`}}: <!--SR:!2024-02-18,14,290-->
+To create an array, {{enclose the multiple values in `{}`}}: <!--SR:!2024-04-15,57,310-->
 
 ```Java
 String[] aStringArray = { "Hello", ",", "world", "!" };
@@ -33,7 +33,7 @@ aStringArray[3] = "!";
 
 To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-04-05,48,310-->
 
-If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-02-18,14,290!2024-02-19,15,290-->
+If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-04-16,58,310!2024-02-19,15,290-->
 
 ## multi-dimensional array
 

@@ -35,7 +35,7 @@ The above object stored under `name_object` is also called {{an _instance_ of th
 
 ## attribute
 
-Note that Python attributes are not {{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}}. <!--SR:!2024-02-18,13,290-->
+Note that Python attributes are not {{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}}. <!--SR:!2024-04-13,55,310-->
 
 ## method
 
@@ -53,7 +53,7 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {{no parameters}}. Each parameter is {{separated by a comma `,`}}. <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
+It is possible to have {{no parameters}}. Each parameter is {{separated by a comma `,`}}. <!--SR:!2024-02-19,14,290!2024-04-12,54,310-->
 
 ### constructor
 

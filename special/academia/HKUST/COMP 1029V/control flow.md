@@ -67,7 +67,7 @@ The semantics of `While...Wend` is {{that the condition is executed first. If th
 
 ### `Do`
 
-Another way is using `Do While...Loop`. A `Do While...Loop` statement consists of {{a condition and a statement block}}: <!--SR:!2024-02-18,13,290-->
+Another way is using `Do While...Loop`. A `Do While...Loop` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-10,52,310-->
 
 ```VB
 Do While condition
