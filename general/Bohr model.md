@@ -84,17 +84,17 @@ The Bohr model fails to explain:
 > | brightness | {{relative brightness of spectral lines}} |
 > | multiple [electrons](electron.md) | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |
 > | naturalness | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
-> | structures | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} |
+> | structures | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2024-02-22,4,293!2024-02-22,4,293!2024-02-22,4,293!2024-02-22,4,293-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324-->
-- brightness→:::←multiple [electrons](electron.md) <!--SR:!2024-03-05,132,284-->
-- multiple [electrons](electron.md)→:::←naturalness <!--SR:!2024-02-19,199,304-->
-- naturalness→:::←structures <!--SR:!2024-06-05,303,324-->
-- structures→:::←_(end)_
+- _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-02-22,4,293-->
+- brightness→:::←multiple [electrons](electron.md) <!--SR:!2024-03-05,132,284!2024-02-21,3,273-->
+- multiple [electrons](electron.md)→:::←naturalness <!--SR:!2024-02-19,199,304!2024-02-21,3,273-->
+- naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-02-21,3,273-->
+- structures→:::←_(end)_ <!--SR:!2024-02-22,4,293!2024-02-19,1,253-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
