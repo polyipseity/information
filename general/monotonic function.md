@@ -23,7 +23,7 @@ tags:
 
 # monotonic function
 
-> [!info] tips
+> [!tip] tips
 >
 > - [terminology](terminology.md): Terminology is very funny when it comes to describing monotonic functions...
 >   1. monotone/monotonic/monotonically increasing/monotonically decreasing: {{$x < y \implies f(x) < f(y)$; $x < y \implies f(x) > f(y)$}}
