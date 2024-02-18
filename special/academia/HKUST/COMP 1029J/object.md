@@ -19,7 +19,7 @@ In Java, {{everything except for primitive types}} are objects. Primitive types 
 
 ## equality
 
-Comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. <!--SR:!2024-02-18,13,290-->
+Comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. <!--SR:!2024-04-11,53,310-->
 
 This explains why `equals` is used instead of `==` for `String`s in [string § equality](string.md#equality).
 
@@ -74,9 +74,9 @@ void aMethod(String arg1, int arg2) {
 }
 ```
 
-The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-02-21,16,290!2024-02-20,15,290!2024-02-18,13,290-->
+The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-02-21,16,290!2024-02-20,15,290!2024-04-12,54,310-->
 
-The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-02-20,15,290!2024-02-18,13,290!2024-02-22,17,290-->
+The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-02-20,15,290!2024-04-13,55,310!2024-02-22,17,290-->
 
 ### constructor
 
@@ -107,7 +107,7 @@ name.aMethod("42", 42);
 Name.aStaticMethod();
 ```
 
-Importantly, {{the `main` method}} is `static` and has the following form: <!--SR:!2024-02-18,13,290-->
+Importantly, {{the `main` method}} is `static` and has the following form: <!--SR:!2024-04-14,56,310-->
 
 ```Java
 public static void main(String[] args) {

@@ -55,7 +55,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-02-18,13,290!2024-02-21,16,290!2024-02-18,13,290!2024-04-02,46,290!2024-02-20,15,290-->
+Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-04-09,51,310!2024-02-21,16,290!2024-04-08,50,310!2024-04-02,46,290!2024-02-20,15,290-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"
@@ -66,14 +66,14 @@ assert "abcdefg"[:0:-1] == "gfedcb"
 
 ## concatenation
 
-Concatenation means {{joining several sequences into one larger sequence}}. It is as simple as using {{the operator `+`}}: <!--SR:!2024-02-22,17,290!2024-02-18,13,290-->
+Concatenation means {{joining several sequences into one larger sequence}}. It is as simple as using {{the operator `+`}}: <!--SR:!2024-02-22,17,290!2024-04-08,50,310-->
 
 ```Python
 assert "abc" + "def" == "abcdef"
 assert [39, "omg"] + ['asd', 3.4] == [39, "omg", "asd", 3.4]
 ```
 
-Extrapolation the addition above further to multiplication, {{the operator `*` repeats the sequence itself for the specified number of times}}: <!--SR:!2024-02-18,13,290-->
+Extrapolation the addition above further to multiplication, {{the operator `*` repeats the sequence itself for the specified number of times}}: <!--SR:!2024-04-14,56,310-->
 
 ```Python
 assert 'ab' * 3 == "ababab"
@@ -82,7 +82,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-02-22,17,290!2024-02-22,17,290!2024-02-18,13,290!2024-02-20,15,290-->
+Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-02-22,17,290!2024-02-22,17,290!2024-04-13,55,310!2024-02-20,15,290-->
 
 ```Python
 original = [1, 2, 3]

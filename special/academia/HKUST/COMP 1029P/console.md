@@ -13,7 +13,7 @@ How to control the output?
 
 ## print
 
-Note that when you call `print`, even if you have not added newlines to the string, {{a newline is always printed at the end}}. To prevent that, {{pass `end=""` to `print` as well, like `print(value, end="")`}}. You can also specify {{nonempty strings}} for `end`. The effect of `end` is that {{it will be also be printed after printing the value to be printed. Since `end` is by default a newline `\n`, a newline is always printed at the end when you only do `print(value)`}}. <!--SR:!2024-03-18,33,290!2024-02-21,16,290!2024-02-18,13,290!2024-02-22,17,290-->
+Note that when you call `print`, even if you have not added newlines to the string, {{a newline is always printed at the end}}. To prevent that, {{pass `end=""` to `print` as well, like `print(value, end="")`}}. You can also specify {{nonempty strings}} for `end`. The effect of `end` is that {{it will be also be printed after printing the value to be printed. Since `end` is by default a newline `\n`, a newline is always printed at the end when you only do `print(value)`}}. <!--SR:!2024-03-18,33,290!2024-02-21,16,290!2024-04-08,50,310!2024-02-22,17,290-->
 
 ## clear
 
@@ -24,7 +24,7 @@ for _ in range(4):
   print("\n" * 25)
 ```
 
-Note that the above only prints 25 newlines a time. This is because {{IDLE does not show identical lines if the number of lines printed at once is 50 or more}}. <!--SR:!2024-02-18,13,290-->
+Note that the above only prints 25 newlines a time. This is because {{IDLE does not show identical lines if the number of lines printed at once is 50 or more}}. <!--SR:!2024-04-09,51,310-->
 
 If your console is an actual console, then you can use {{call a system command via `os.system`, which is `cls` on Windows and `clear` on UNIX systems}}. One can detect whether the current OS is Windows by writing {{`os.name == "nt"`}}. <!--SR:!2024-02-22,17,290!2024-02-21,16,290-->
 

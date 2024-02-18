@@ -17,8 +17,8 @@ tags:
   - `TIMESTAMP` ::: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!2024-11-21,328,330!2024-03-03,23,150-->
   - `YEAR` ::: `Y[YYY]` that ranges from `1901` to `2155`. <!--SR:!2025-01-04,363,330!2024-05-17,120,290-->
 - numeric data types ::: `BIGINT`, `BIT`, `DECIMAL`, `DOUBLE`, `FLOAT`, `INT`, `INTEGER`, `MEDIUMINT`, `NUMERIC`, `SMALLINT`, `TINYINT` <!--SR:!2025-03-29,415,330!2024-04-14,134,270-->
-  - floating-point data types ::: `FLOAT`, `DOUBLE`; inexact <!--SR:!2025-04-01,432,330!2024-02-18,107,310-->
-    - `FLOAT` ::: Likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md). <!--SR:!2024-02-18,107,310!2025-04-13,427,330-->
+  - floating-point data types ::: `FLOAT`, `DOUBLE`; inexact <!--SR:!2025-04-01,432,330!2025-05-20,457,330-->
+    - `FLOAT` ::: Likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md). <!--SR:!2025-05-21,458,330!2025-04-13,427,330-->
     - `DOUBLE` ::: Likely [double-precision floating-point format](../../general/double-precision%20floating-point%20format.md). <!--SR:!2024-11-28,334,330!2025-04-29,440,330-->
   - integer data types ::: `TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT` <!--SR:!2025-01-09,368,330!2025-03-09,410,330-->
     - `TINYINT` ::: Signed is from -2<sup>7</sup> to 2<sup>7</sup> - 1 and unsigned is from 0 to 2<sup>8</sup> - 1. <!--SR:!2024-10-03,269,310!2025-03-01,407,330-->

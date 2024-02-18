@@ -76,7 +76,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1233"--><!-- The following content is generated at 2024-01-04T20:17:51.381884+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2024-02-18,238,321!2024-07-04,352,341-->
+- _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2026-03-22,763,321!2024-07-04,352,341-->
 - [oxidation](#oxidation)→:::←[reduction](#reduction) <!--SR:!2024-07-22,370,341!2024-07-23,371,341-->
 - [reduction](#reduction)→:::←_(end)_ <!--SR:!2024-07-21,369,341!2025-04-03,496,301-->
 

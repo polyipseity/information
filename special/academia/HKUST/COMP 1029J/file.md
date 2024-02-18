@@ -11,7 +11,7 @@ tags:
 
 ## path
 
-To interact with a file, we need to first {{get a path to the file}}. This can be done {{using `java.nio.file.Path` and `java.nio.file.Paths`}}: <!--SR:!2024-02-20,15,290!2024-02-18,14,290-->
+To interact with a file, we need to first {{get a path to the file}}. This can be done {{using `java.nio.file.Path` and `java.nio.file.Paths`}}: <!--SR:!2024-02-20,15,290!2024-04-15,57,310-->
 
 ```Java
 import java.nio.file.Path;
@@ -46,13 +46,13 @@ When done with reading, {{close the reader to avoid locking the file by calling 
 
 ### writing text files
 
-Use {{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by calling `java.nio.charset.Charset.defaultCharset()`}}. For `options`, if you leave it blank, {{`StandardOpenOption.WRITE` is used. It creates the file if not exist and empties the content. If appending to an existing file, use `StandardOpenOption.APPEND` instead}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-02-19,14,290!2024-02-18,14,290!2024-03-26,41,290!2024-02-21,16,290-->
+Use {{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by calling `java.nio.charset.Charset.defaultCharset()`}}. For `options`, if you leave it blank, {{`StandardOpenOption.WRITE` is used. It creates the file if not exist and empties the content. If appending to an existing file, use `StandardOpenOption.APPEND` instead}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-02-19,14,290!2024-03-31,42,290!2024-03-26,41,290!2024-02-21,16,290-->
 
-To write something, use {{`writer.write(string)`}}. To write a newline, use {{`writer.newLine()`}}. An example: <!--SR:!2024-02-18,14,290!2024-02-20,16,290-->
+To write something, use {{`writer.write(string)`}}. To write a newline, use {{`writer.newLine()`}}. An example: <!--SR:!2024-04-17,59,310!2024-02-20,16,290-->
 
 ```Java
 writer.write("Hello, world!");
 writer.newLine();
 ```
 
-When done with writing, {{close the writer to save the file by calling `writer.close()`}}. A better method is {{using `try...catch...finally`, and the best is using `try-with-resources`}}, but they will not be mentioned here. <!--SR:!2024-02-18,13,290!2024-02-19,15,290-->
+When done with writing, {{close the writer to save the file by calling `writer.close()`}}. A better method is {{using `try...catch...finally`, and the best is using `try-with-resources`}}, but they will not be mentioned here. <!--SR:!2024-04-06,48,310!2024-02-19,15,290-->

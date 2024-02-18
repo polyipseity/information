@@ -78,7 +78,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`^` <!--SR:!2024-03-21,36,290!2024-02-22,17,290-->
 - `^`→:::←`*` <!--SR:!2024-02-20,15,290!2024-02-19,14,290-->
-- `*`→:::←`/` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
+- `*`→:::←`/` <!--SR:!2024-02-19,14,290!2024-04-08,50,310-->
 - `/`→:::←`+` <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
 - `+`→:::←`-` <!--SR:!2024-02-19,14,290!2024-02-19,14,290-->
 - `-`→:::←_(end)_ <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
@@ -91,7 +91,7 @@ return _chain.from_iterable(await _gather(
 - `*`::multiplication <!--SR:!2024-02-20,15,290-->
 - `/`::division <!--SR:!2024-02-19,14,290-->
 - `+`::addition <!--SR:!2024-02-19,14,290-->
-- `-`::subtraction <!--SR:!2024-02-18,13,290-->
+- `-`::subtraction <!--SR:!2024-04-10,52,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -150,14 +150,14 @@ return _chain.from_iterable(await _gather(
 - `>`→:::←`<=` <!--SR:!2024-02-21,16,290!2024-02-23,11,250-->
 - `<=`→:::←`>=` <!--SR:!2024-02-19,14,290!2024-03-11,25,270-->
 - `>=`→:::←`<>` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
-- `<>`→:::←_(end)_ <!--SR:!2024-02-18,13,290!2024-02-19,14,290-->
+- `<>`→:::←_(end)_ <!--SR:!2024-04-10,52,310!2024-02-19,14,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-31T12:32:22.829082+08:00. Any edits will be overridden! -->
 
 - `=`::equal to <!--SR:!2024-02-22,17,290-->
-- `<`::lesser than <!--SR:!2024-02-18,13,290-->
+- `<`::lesser than <!--SR:!2024-04-09,51,310-->
 - `>`::greater than <!--SR:!2024-02-22,17,290-->
 - `<=`::lesser than or equal to <!--SR:!2024-02-20,15,290-->
 - `>=`::greater than or equal to <!--SR:!2024-02-20,15,290-->
@@ -213,7 +213,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
-- `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-02-18,13,290!2024-02-22,17,290-->
+- `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-04-07,49,310!2024-02-22,17,290-->
 - `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-02-20,15,290!2024-02-19,14,290-->
 - `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
 
@@ -281,23 +281,23 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-03-11,26,290!2024-02-22,17,290-->
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-20,15,290!2024-03-16,28,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-03-01,16,230-->
-- `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-02-18,13,290-->
+- `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-03-23,34,290-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-20,3,150!2024-03-04,21,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-03-19,32,270!2024-02-19,4,250-->
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-21,4,210-->
-- `UPPER(string)`→:::←_(end)_ <!--SR:!2024-02-18,13,290!2024-03-07,22,270-->
+- `UPPER(string)`→:::←_(end)_ <!--SR:!2024-04-14,56,310!2024-03-07,22,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
 
-- (operator) `&`::concatenation <!--SR:!2024-02-18,13,290-->
+- (operator) `&`::concatenation <!--SR:!2024-04-13,55,310-->
 - `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2024-02-21,16,290-->
 - `LEN(string)`::length of `string` <!--SR:!2024-02-19,14,290-->
-- `LOWER(string)`::convert to lowercase <!--SR:!2024-02-18,13,290-->
+- `LOWER(string)`::convert to lowercase <!--SR:!2024-04-06,48,310-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-02-21,16,290-->
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-02-21,16,290-->
-- `UPPER(string)`::convert to uppercase <!--SR:!2024-02-18,13,290-->
+- `UPPER(string)`::convert to uppercase <!--SR:!2024-04-12,54,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -354,11 +354,11 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-03-03,18,270!2024-02-18,13,290-->
-- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-03-17,31,290!2024-02-18,13,290-->
+- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-03-03,18,270!2024-04-12,54,310-->
+- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-03-17,31,290!2024-04-11,53,310-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-02-22,17,290!2024-03-26,39,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-03-01,15,230!2024-03-10,22,250-->
-- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-19,14,290!2024-02-18,13,290-->
+- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-19,14,290!2024-04-11,53,310-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-23,9,230!2024-03-18,30,250-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-25,14,230!2024-02-29,17,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-22,17,290!2024-03-03,19,270-->
@@ -368,7 +368,7 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
-- `AVERAGE(numbers...)`::average <!--SR:!2024-02-18,13,290-->
+- `AVERAGE(numbers...)`::average <!--SR:!2024-04-13,55,310-->
 - `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2024-02-21,16,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2024-02-20,15,290-->
 - `MAX(numbers...)`::maximum <!--SR:!2024-02-20,15,290-->

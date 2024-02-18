@@ -16,7 +16,7 @@ tags:
 - restore window size:::Alt+Space, R <!--SR:!2024-07-31,370,270!2024-12-17,350,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->
 - resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2024-03-12,54,170!2025-06-22,631,290-->
-- move window to bottom:::Alt+Esc <!--SR:!2024-12-23,406,230!2024-02-18,45,230-->
+- move window to bottom:::Alt+Esc <!--SR:!2024-12-23,406,230!2024-07-12,145,250-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2024-06-08,136,190!2025-02-24,534,270-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-01-27,422,230!2025-07-22,593,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2025-01-05,429,250!2025-02-01,427,230-->

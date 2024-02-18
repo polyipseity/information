@@ -88,7 +88,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:51.458466+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-07-03,502,269!2024-02-18,244,329-->
+- _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-07-03,502,269!2026-04-30,802,329-->
 - [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2024-06-01,277,293!2024-03-12,238,313-->
 - [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2024-03-01,139,229!2024-03-22,35,269-->
 - [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2025-02-26,481,309!2025-05-13,524,309-->
