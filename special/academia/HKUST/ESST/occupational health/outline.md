@@ -139,8 +139,8 @@ engineering
 administration
 personal protective equipment
 """.strip().splitlines(),
-  pretext="in decreasing preference",
-  posttext="in decreasing preference",
+  pretext="most preferable",
+  posttext="least preferable",
 )
 ```
 
@@ -155,13 +155,13 @@ personal protective equipment
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-09T10:21:06.254826+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
-- _(in decreasing preference)_→:::←hazard reduction or elimination
+- _(most preferable)_→:::←hazard reduction or elimination
 - hazard reduction or elimination→:::←engineering
 - engineering→:::←administration
 - administration→:::←personal protective equipment
-- personal protective equipment→:::←_(in decreasing preference)_
+- personal protective equipment→:::←_(least preferable)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
