@@ -7,6 +7,9 @@
 // For simplicity, you don't need to handle if the name/SID already exists.
 void StudentList::addStudent(const string& name, int SID, const string& department, int year) {
     // TODO
+    if (numStudents >= CLASS_CAPACITY)
+        return;
+    students[numStudents++] = {name, SID, department, year};
 }
 
 // TODO 6: Implement StudentList::setStudentGrade.
@@ -15,6 +18,14 @@ void StudentList::addStudent(const string& name, int SID, const string& departme
 // For simplicity, you may assume there are no multiple students with the same SID.
 void StudentList::setStudentGrade(int SID, const CourseGrade& grade) {
     // TODO
+    for (int idx{}; idx < numStudents; ++idx)
+    {
+        if (students[idx].getSID() == SID)
+        {
+            students[idx].setGrade(grade);
+            break;
+        }
+    }
 }
 
 // Given function to print the content of the list,
@@ -59,7 +70,7 @@ void StudentList::displaySortedGrade(const string& depFilter, int yearFilter) co
         sortedStudents[i] = students[i];
     for (int i=0; i<numStudents; ++i) {
         for (int j=i+1; j<numStudents; ++j) {
-            if (false) { // TODO: add the correct swap condition here
+            if (sortedStudents[i].getTotalPercentage() < sortedStudents[j].getTotalPercentage()) { // TODO: add the correct swap condition here
                 Student temp = sortedStudents[i];
                 sortedStudents[i] = sortedStudents[j];
                 sortedStudents[j] = temp;
