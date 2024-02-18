@@ -64,7 +64,7 @@ The content is in teaching order.
     - Electricity (Wiring) Regulations (Cap. 406E) ::: Stipulates safety requirements of the design, installation, testing, and certification of fixed electrical installations. To ensure the quality and workmanship of the installations. A practical guideline is provided by [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md) as the _Code of Practice for the Electricity (Wiring) Regulations_.
     - Electricity (Registration) Regulations (Cap. 406D) ::: Stipulates the experience and qualifications of registered electrical contractors and workers. To ensure the quality and workmanship of electrical work. A grading system with A, B, C, H, and R is established to match workers and the type of work.
     - Electrical Products (Safety) Regulation (Cap. 406G) ::: Stipulates the safety of all household electrical products supplied in [Hong Kong](../../../../../general/Hong%20Kong.md). Requires suppliers to ensure a certificate of safety compliance has been issued. Enforced by the [Customs and Excise Department](../../../../../general/Customs%20and%20Excise%20Department%20(Hong%20Kong).md). Classifies 6 kinds of prescribed products that shall comply with the essential and specific safety requirements.
-      - [six kinds of prescribed products](#six%20kinds%20of%20prescribed%20products)
+      - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E).
   - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement.
@@ -72,6 +72,50 @@ The content is in teaching order.
   - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406).
 
 ## oversized data
+
+### 6 kinds of prescribed products
+
+%%
+
+```Python
+# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+return await memorize_seq(
+  __env__.cwf_sects("5671", "2bc7",),
+  """
+adaptors
+extension units
+flexible cords
+lamp holders
+plugs
+unventilated thermal storage type electric water heaters
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5671"--><!-- The following content is generated at 2024-02-09T09:19:32.611770+08:00. Any edits will be overridden! -->
+
+> 1. adaptors
+> 2. extension units
+> 3. flexible cords
+> 4. lamp holders
+> 5. plugs
+> 6. unventilated thermal storage type electric water heaters
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2bc7"--><!-- The following content is generated at 2024-02-09T09:19:32.596318+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←adaptors
+- adaptors→:::←extension units
+- extension units→:::←flexible cords
+- flexible cords→:::←lamp holders
+- lamp holders→:::←plugs
+- plugs→:::←unventilated thermal storage type electric water heaters
+- unventilated thermal storage type electric water heaters→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### General Safety Requirement stipulations
 
@@ -284,50 +328,6 @@ Consumer Goods Safety Ordinance (Cap. 456)
 - Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456)
 - Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### six kinds of prescribed products
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("5671", "2bc7",),
-  """
-adaptors
-extension units
-flexible cords
-lamp holders
-plugs
-unventilated thermal storage type electric water heaters
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5671"--><!-- The following content is generated at 2024-02-09T09:19:32.611770+08:00. Any edits will be overridden! -->
-
-> 1. adaptors
-> 2. extension units
-> 3. flexible cords
-> 4. lamp holders
-> 5. plugs
-> 6. unventilated thermal storage type electric water heaters
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2bc7"--><!-- The following content is generated at 2024-02-09T09:19:32.596318+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←adaptors
-- adaptors→:::←extension units
-- extension units→:::←flexible cords
-- flexible cords→:::←lamp holders
-- lamp holders→:::←plugs
-- plugs→:::←unventilated thermal storage type electric water heaters
-- unventilated thermal storage type electric water heaters→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
