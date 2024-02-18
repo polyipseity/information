@@ -97,6 +97,20 @@ from typing import Any, Callable, Iterable, Mapping, Sequence, TypeVar
 
 T = TypeVar('T')
 
+def _prefix_or_pretext(prefix: None | str, pretext: str):
+  if prefix is None:
+    return f'{{{Tag.MEMORIZE}:_({TextCode.escape(pretext or "begin")})_}}'
+  if pretext:
+    raise ValueError(pretext)
+  return prefix
+
+def _suffix_or_posttext(suffix: None | str, posttext: str):
+  if suffix is None:
+    return f'{{{Tag.MEMORIZE}:_({TextCode.escape(posttext or "end")})_}}'
+  if posttext:
+    raise ValueError(posttext)
+  return suffix
+
 def cloze(string: str, escape = False):
   cl, cr = CONFIG.cloze_token
   return (TextCode.escape if escape else identity)(f'{cl}{string}{cr}') if string else ''
@@ -158,16 +172,13 @@ async def memorize_seq(
   locations: tuple[Location, Location],
   seq: Iterable[str],
   *,
-  pretext = '',
-  posttext = '',
+  escape: bool = True,
+  pretext: str = '',
+  posttext: str = '',
   prefix: None | str = None,
   suffix: None | str = None,
-  escape = True,
 ) -> tuple[Result, Result]:
-  if prefix is None:
-    prefix = f'{{{Tag.MEMORIZE}:_({pretext if pretext else "begin"})_}}'
-  if suffix is None:
-    suffix = f'{{{Tag.MEMORIZE}:_({posttext if posttext else "end"})_}}'
+  prefix, suffix = _prefix_or_pretext(prefix, pretext), _suffix_or_posttext(suffix, posttext)
   states = read_states(locations)
   code = seq_to_code(
     seq,
@@ -200,10 +211,13 @@ async def memorize_table(
   data: Iterable[T],
   transformer: Callable[[T], Iterable[Any]] = lambda data: data if isinstance(data, Iterable) else (data,),
   *,
-  prefix = f'{{{Tag.MEMORIZE}:_(begin)_}}',
-  suffix = f'{{{Tag.MEMORIZE}:_(end)_}}',
   escape = True,
+  pretext: str = '',
+  posttext: str = '',
+  prefix: None | str = None,
+  suffix: None | str = None,
 ) -> tuple[Result, Result]:
+  prefix, suffix = _prefix_or_pretext(prefix, pretext), _suffix_or_posttext(suffix, posttext)
   states = read_states(locations)
   escaper = TextCode.escape if escape else identity
   states = await states
