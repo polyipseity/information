@@ -29,7 +29,7 @@ The content is in teaching order.
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience
     - engineer sustainability ::: restore and safeguard the biophysical environment
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature.
+  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-02-22,3,259!2000-01-01,1,250-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes.
   - civil engineer characteristics ::: problem solvers
@@ -53,7 +53,7 @@ The content is in teaching order.
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
 - civil engineering solutions ::: smart cities
-  - smart cities examples ::: Using technology to gather information, predict events, and notify people.
+  - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2024-02-23,4,275!2000-01-01,1,250-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters
   - [structural engineering examples](#structural%20engineering%20examples)
@@ -85,7 +85,7 @@ The content is in teaching order.
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997.
-- transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably
+- transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2000-01-01,1,250!2024-02-23,4,279-->
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering ::: spans almost all engineering disciplines because materials are used in designs
@@ -104,7 +104,7 @@ The content is in teaching order.
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (as civil servants)
     - government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools
-      - Buildings Department (BD) ::: illegal structures, private buildings
+      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-02-23,4,275!2000-01-01,1,250-->
       - Housing Department (HD) ::: home ownership scheme, public housing
 
 ## data
@@ -170,7 +170,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m
-- shape ::: exponential
+- shape ::: exponential <!--SR:!2000-01-01,1,250!2024-02-23,4,275-->
 
 ### HSBC Main Building
 
@@ -184,7 +184,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
-- description ::: events venue in Wan Chai, Hong Kong
+- description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-02-23,4,275!2000-01-01,1,250-->
 - shape ::: bird/turtle rooftop
 
 ### Hong Kong–Zhuhai–Macau Bridge
@@ -718,7 +718,7 @@ testing materials
 
 - _(begin)_→:::←budgeting
 - budgeting→:::←contracts
-- contracts→:::←designing temporary structures
+- contracts→:::←designing temporary structures <!--SR:!2024-02-20,1,235!2000-01-01,1,250-->
 - designing temporary structures→:::←logistics
 - logistics→:::←planning
 - planning→:::←procuring materials
@@ -766,7 +766,7 @@ wood
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brick
+- _(begin)_→:::←brick <!--SR:!2000-01-01,1,250!2024-02-23,4,272-->
 - brick→:::←concrete
 - concrete→:::←new synthetic materials
 - new synthetic materials→:::←steel
@@ -1295,7 +1295,7 @@ Taipei 101
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building
+- _(begin)_→:::←HSBC Main Building <!--SR:!2000-01-01,1,250!2024-02-23,4,270-->
 - HSBC Main Building→:::←International Commerce Centre
 - International Commerce Centre→:::←John Hancock Center
 - John Hancock Center→:::←Taipei 101
