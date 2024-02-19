@@ -18,7 +18,7 @@ tags:
 
 %%
 
-The Carnot cycle provides {{the upper limit of [efficiency](thermal%20efficiency.md) of any [heat engine](heat%20engine.md) in converting [heat](heat.md) into [work](work%20(physics).md) by [Carnot's theorem](Carnot's%20theorem%20(thermodynamics).md)}}. <!--SR:!2024-02-19,50,310-->
+The Carnot cycle provides {{the upper limit of [efficiency](thermal%20efficiency.md) of any [heat engine](heat%20engine.md) in converting [heat](heat.md) into [work](work%20(physics).md) by [Carnot's theorem](Carnot's%20theorem%20(thermodynamics).md)}}. <!--SR:!2024-09-20,214,330-->
 
 ## stages
 

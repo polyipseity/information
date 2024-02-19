@@ -33,11 +33,11 @@ aStringArray[3] = "!";
 
 To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-04-05,48,310-->
 
-If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-04-16,58,310!2024-02-19,15,290-->
+If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-04-16,58,310!2024-04-20,61,310-->
 
 ## multi-dimensional array
 
-A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-02-19,15,290-->
+A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-04-21,62,310-->
 
 ```Java
 boolean[][] threeByThreeSquare = {

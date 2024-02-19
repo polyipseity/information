@@ -8,7 +8,7 @@ tags:
 
 # Leibniz integral rule
 
-In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allows evaluation of [differentiating](derivative.md) an [integral](integral.md) in the form of $$\int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t$$}}. <!--SR:!2024-02-19,54,310-->
+In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allows evaluation of [differentiating](derivative.md) an [integral](integral.md) in the form of $$\int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t$$}}. <!--SR:!2024-10-07,231,330-->
 
 > __Leibniz integral rule__
 >

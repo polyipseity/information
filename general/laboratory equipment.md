@@ -174,7 +174,7 @@ return _chain.from_iterable(await _gather(
 - [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2024-04-19,249,270!2024-04-30,86,170-->
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-04-09,155,270-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-03-26,38,170!2024-04-04,174,210-->
-- [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2024-02-19,207,270!2024-08-23,362,290-->
+- [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2024-08-23,362,290-->
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-02-29,14,130!2024-03-25,198,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2024-06-03,278,270!2024-08-14,358,290-->
 - [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2024-06-16,254,230!2024-03-22,224,290-->
@@ -276,7 +276,7 @@ return _chain.from_iterable(await _gather(
 - ![spatula](../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG)::[spatula](spatula.md) <!--SR:!2024-06-05,334,330-->
 - ![stand/retort stand/ring stand/support stand](../archives/Wikimedia%20Commons/Retort%20stand.jpg)::[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2026-06-09,887,330-->
 - ![test tube, boiling tube](../archives/Wikimedia%20Commons/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg)::[test tube](test%20tube.md), boiling tube <!--SR:!2024-06-06,335,330-->
-- ![test tube brush](../archives/Wikimedia%20Commons/Test%20tube%20brushes.jpg)::[test tube brush](test%20tube%20brush.md) <!--SR:!2024-02-19,245,330-->
+- ![test tube brush](../archives/Wikimedia%20Commons/Test%20tube%20brushes.jpg)::[test tube brush](test%20tube%20brush.md) <!--SR:!2027-03-12,1117,350-->
 - ![test tube holder](../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG)::[test tube holder](test%20tube%20holder.md) <!--SR:!2024-04-08,288,330-->
 - ![test tube rack](../archives/Wikimedia%20Commons/Metal%20tube%20rack-laboratory%202.jpg)::[test tube rack](test%20tube%20rack.md) <!--SR:!2024-04-25,298,330-->
 - ![thermometer](../archives/Wikimedia%20Commons/Mercury%20Thermometer.jpg)::[thermometer](thermometer.md) <!--SR:!2024-05-02,305,330-->

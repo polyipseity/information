@@ -20,7 +20,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-02-21,16,290!2024-02-19,14,290!2024-04-09,51,310-->
+Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-02-21,16,290!2024-04-17,58,310!2024-04-09,51,310-->
 
 To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-02-22,17,290!2024-04-07,49,310-->
 
@@ -71,10 +71,10 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-01-31T22:17:45.602573+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Boolean <!--SR:!2024-02-23,18,305!2024-02-19,14,290-->
+- _(begin)_→:::←Boolean <!--SR:!2024-02-23,18,305!2024-04-19,60,310-->
 - Boolean→:::←Double <!--SR:!2024-02-20,15,290!2024-02-22,17,290-->
 - Double→:::←Integer <!--SR:!2024-02-22,17,290!2024-02-20,15,290-->
-- Integer→:::←Long <!--SR:!2024-02-19,14,290!2024-02-23,18,305-->
+- Integer→:::←Long <!--SR:!2024-04-02,43,290!2024-02-23,18,305-->
 - Long→:::←Single <!--SR:!2024-02-23,18,305!2024-02-23,18,305-->
 - Single→:::←_(end)_ <!--SR:!2024-02-20,15,290!2024-02-22,17,290-->
 
@@ -83,7 +83,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-01-31T22:17:45.587449+08:00. Any edits will be overridden! -->
 
 - Boolean::Either `True` or `False`. <!--SR:!2024-02-21,16,290-->
-- Double::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-02-19,14,290-->
+- Double::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
 - Integer::An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. <!--SR:!2024-02-23,18,305-->
 - Long::An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. <!--SR:!2024-02-21,16,290-->
 - Single::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-02-22,17,290-->
@@ -118,4 +118,4 @@ To accept user input, we can use {{an input box by calling `Input = InputBox(pro
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-02-19,14,290!2024-04-09,51,310!2024-04-07,49,310!2024-02-23,18,305-->
+When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-04-14,55,310!2024-04-09,51,310!2024-04-07,49,310!2024-02-23,18,305-->

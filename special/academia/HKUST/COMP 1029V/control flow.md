@@ -11,7 +11,7 @@ tags:
 
 ## branching
 
-An `If...Then...End If` statement consists of {{a condition and a statement block}}: <!--SR:!2024-02-19,14,290-->
+An `If...Then...End If` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-16,57,310-->
 
 ```VB
 If condition Then
@@ -85,7 +85,7 @@ Do
 Loop While condition
 ```
 
-The semantics of `Do...Loop While` is {{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}}. <!--SR:!2024-02-19,14,290-->
+The semantics of `Do...Loop While` is {{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}}. <!--SR:!2024-04-15,56,310-->
 
 As VBA is intended to be English like, it also provides the unconventional {{`Do Until...Loop` and `Do...Loop Until` constructs}}. The semantics is exactly the same except that {{the loop stops if the condition is `True`}}. <!--SR:!2024-02-23,18,301!2024-02-23,18,301-->
 

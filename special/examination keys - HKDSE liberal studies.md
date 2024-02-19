@@ -230,7 +230,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 - cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
-- feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-02-19,12,130-->
+- feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-03-06,16,130-->
 - pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
 - trend→:::←with reference to <!--SR:!2024-02-29,166,230!2024-03-24,113,190-->
 - with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-05-02,97,275-->

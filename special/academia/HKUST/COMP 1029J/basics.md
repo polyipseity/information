@@ -21,19 +21,19 @@ tags:
 ## basics
 
 - comment :: A comment is either enclosed by `/*` and `*/` like `/* example */` or starts with `//` like `// example`. For the first one, the comment ends when the `*/` is first encountered. For the second one, the comment ends when the line ends. <!--SR:!2024-04-18,60,310-->
-- package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-02-19,15,290-->
+- package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-04-19,60,310-->
 - spacing :: Java ignores whitespace in most places. Whitespace are not ignored in some places, such as in strings `"This string has a space."` or before the names of method calls `. thisIsInvalidJavaCode()`. Usually whitespace are added before statements systematically, with more spaces per level of code block `{ /* code block */ }`. This is called indentation. <!--SR:!2024-03-29,41,290-->
 - statement :: A Java program is a collection of statements. A statement can be multiline and ends with a semicolon `;`. A statement can also be a code block `{ /* code block */ }`, which is also a collection of statements itself. <!--SR:!2024-02-21,17,290-->
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-02-19,15,290-->
+To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-04-19,60,310-->
 
 ```Java
 variableName = 1 + 2;
 ```
 
-One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Alternatively, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-04-08,51,310!2024-02-19,15,290-->
+One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Alternatively, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-04-08,51,310!2024-04-22,63,310-->
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers
@@ -41,7 +41,7 @@ anIntegerVariable = 1 + 2;
 String aStringVariable = "a string"; // variables can be declared and assigned simultaneously
 ```
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-02-19,15,290-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-04-23,64,310-->
 
 ## types
 
@@ -92,8 +92,8 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-01-29T08:31:35.198780+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`String` <!--SR:!2024-02-19,15,290!2024-04-07,50,310-->
-- `String`→:::←`boolean` <!--SR:!2024-04-13,56,310!2024-02-19,15,290-->
+- _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-04-07,50,310-->
+- `String`→:::←`boolean` <!--SR:!2024-04-13,56,310!2024-04-20,61,310-->
 - `boolean`→:::←`char` <!--SR:!2024-02-20,16,290!2024-02-21,17,290-->
 - `char`→:::←`double` <!--SR:!2024-03-29,44,290!2024-02-20,16,290-->
 - `double`→:::←`float` <!--SR:!2024-03-30,41,290!2024-04-11,54,310-->
@@ -104,8 +104,8 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-02-01T11:50:25.871864+08:00. Any edits will be overridden! -->
 
-- `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-02-19,15,290-->
-- `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-02-19,15,290-->
+- `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-04-17,58,310-->
+- `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-04-15,56,310-->
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-02-20,16,290-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-04-13,56,310-->
 - `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-04-16,58,310-->
@@ -145,7 +145,7 @@ int anInteger2 = (int) "-3.14"; // no compilation error; but a runtime error whe
 
 ## operators
 
-The assignment operator {{assigns a value to a variable}}: <!--SR:!2024-02-19,15,290-->
+The assignment operator {{assigns a value to a variable}}: <!--SR:!2024-04-19,60,310-->
 
 ```Java
 theAnswerToLifeTheUniverseAndEverything = 42
@@ -203,7 +203,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.620801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`++` <!--SR:!2024-02-21,17,290!2024-02-21,17,290-->
-- `++`→:::←`--` <!--SR:!2024-02-19,15,290!2024-02-21,17,290-->
+- `++`→:::←`--` <!--SR:!2024-04-22,63,310!2024-02-21,17,290-->
 - `--`→:::←`*` <!--SR:!2024-03-20,35,290!2024-03-31,45,290-->
 - `*`→:::←`/` <!--SR:!2024-04-15,57,310!2024-04-15,57,310-->
 - `/`→:::←`%` <!--SR:!2024-02-20,16,290!2024-03-23,37,290-->
@@ -227,7 +227,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a `boolean` value}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-19,15,290-->
+Below are common comparison operators, all of which returns {{a `boolean` value}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-04-22,63,310-->
 
 %%
 
@@ -274,11 +274,11 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`<` <!--SR:!2024-02-19,2,210!2024-02-22,5,270-->
+- _(begin)_→:::←`<` <!--SR:!2024-02-26,7,230!2024-02-22,5,270-->
 - `<`→:::←`>` <!--SR:!2024-02-20,16,290!2024-02-21,17,290-->
 - `>`→:::←`<=` <!--SR:!2024-04-14,56,310!2024-03-06,21,270-->
-- `<=`→:::←`>=` <!--SR:!2024-02-19,15,290!2024-03-22,37,290-->
-- `>=`→:::←`==` <!--SR:!2024-02-21,17,290!2024-02-19,2,170-->
+- `<=`→:::←`>=` <!--SR:!2024-04-16,57,310!2024-03-22,37,290-->
+- `>=`→:::←`==` <!--SR:!2024-02-21,17,290!2024-02-20,1,150-->
 - `==`→:::←`!=` <!--SR:!2024-02-20,16,290!2024-02-20,16,290-->
 - `!=`→:::←_(end)_ <!--SR:!2024-02-20,16,290!2024-02-21,17,290-->
 
@@ -287,9 +287,9 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.690328+08:00. Any edits will be overridden! -->
 
 - `<`::lesser than <!--SR:!2024-04-12,54,310-->
-- `>`::greater than <!--SR:!2024-02-19,15,290-->
+- `>`::greater than <!--SR:!2024-04-18,59,310-->
 - `<=`::lesser than or equal to <!--SR:!2024-02-21,17,290-->
-- `>=`::greater than or equal to <!--SR:!2024-02-19,15,290-->
+- `>=`::greater than or equal to <!--SR:!2024-04-22,63,310-->
 - `==`::equal to <!--SR:!2024-02-21,17,290-->
 - `!=`::not equal to <!--SR:!2024-04-10,53,310-->
 
@@ -297,7 +297,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-04-13,55,310-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2024-02-19,15,290-->
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2024-04-20,61,310-->
 
 ### logic operators
 
@@ -342,9 +342,9 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.738334+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`!` <!--SR:!2024-02-19,15,290!2024-03-17,33,290-->
+- _(begin)_→:::←`!` <!--SR:!2024-04-20,61,310!2024-03-17,33,290-->
 - `!`→:::←`&&` <!--SR:!2024-02-20,16,290!2024-04-16,58,310-->
-- `&&`→:::←`||` <!--SR:!2024-02-19,15,290!2024-02-20,16,290-->
+- `&&`→:::←`||` <!--SR:!2024-04-21,62,310!2024-02-20,16,290-->
 - `||`→:::←_(end)_ <!--SR:!2024-04-12,55,310!2024-04-05,48,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

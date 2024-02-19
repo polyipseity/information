@@ -11,11 +11,11 @@ tags:
 
 A `String` is a piece of text. It is declared by {{enclosing the text in double quotes `"`, like `"example"`}}. A `char` is a single character. It is declared by {{enclosing the character in single quotes `'`, like `'a'`}}. <!--SR:!2024-02-22,17,296!2024-04-12,54,316-->
 
-To put double quotes inside a `String`, one needs to {{escape them by adding `\` before the double quote, like `"quote, \"something\", unquote"`}}. Similarly, for `char`, one needs to {{escape the single quote, like `'\''`}}. <!--SR:!2024-02-21,16,296!2024-02-19,14,290-->
+To put double quotes inside a `String`, one needs to {{escape them by adding `\` before the double quote, like `"quote, \"something\", unquote"`}}. Similarly, for `char`, one needs to {{escape the single quote, like `'\''`}}. <!--SR:!2024-02-21,16,296!2024-04-11,52,310-->
 
 ## parsing
 
-If you want to convert a `String` representing a number into {{an `int`, use `Integer.parseInt`}}. Similarly, for `float` and `double` respectively, use {{`Float.parseFloat` and `Double.parseDouble` respectively}}: <!--SR:!2024-02-21,16,290!2024-02-19,14,296-->
+If you want to convert a `String` representing a number into {{an `int`, use `Integer.parseInt`}}. Similarly, for `float` and `double` respectively, use {{`Float.parseFloat` and `Double.parseDouble` respectively}}: <!--SR:!2024-02-21,16,290!2024-04-13,54,316-->
 
 ```Java
 int anInteger = Integer.parseInt("3");

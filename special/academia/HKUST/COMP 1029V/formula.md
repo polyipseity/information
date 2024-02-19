@@ -23,7 +23,7 @@ A formula always {{starts with an equals sign `=`}}. <!--SR:!2024-02-22,17,290--
 
 ## cell reference
 
-To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-02-19,14,290-->
+To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-04-11,52,310-->
 
 When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-02-22,17,290!2024-02-21,16,290-->
 
@@ -77,10 +77,10 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`^` <!--SR:!2024-03-21,36,290!2024-02-22,17,290-->
-- `^`→:::←`*` <!--SR:!2024-02-20,15,290!2024-02-19,14,290-->
-- `*`→:::←`/` <!--SR:!2024-02-19,14,290!2024-04-08,50,310-->
+- `^`→:::←`*` <!--SR:!2024-02-20,15,290!2024-04-14,55,310-->
+- `*`→:::←`/` <!--SR:!2024-04-15,56,310!2024-04-08,50,310-->
 - `/`→:::←`+` <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
-- `+`→:::←`-` <!--SR:!2024-02-19,14,290!2024-02-19,14,290-->
+- `+`→:::←`-` <!--SR:!2024-04-17,58,310!2024-04-14,55,310-->
 - `-`→:::←_(end)_ <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -89,8 +89,8 @@ return _chain.from_iterable(await _gather(
 
 - `^`::power <!--SR:!2024-02-20,15,290-->
 - `*`::multiplication <!--SR:!2024-02-20,15,290-->
-- `/`::division <!--SR:!2024-02-19,14,290-->
-- `+`::addition <!--SR:!2024-02-19,14,290-->
+- `/`::division <!--SR:!2024-04-17,58,310-->
+- `+`::addition <!--SR:!2024-04-18,59,310-->
 - `-`::subtraction <!--SR:!2024-04-10,52,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -144,13 +144,13 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`=` <!--SR:!2024-02-19,14,290!2024-02-22,17,290-->
+- _(begin)_→:::←`=` <!--SR:!2024-02-25,6,270!2024-02-22,17,290-->
 - `=`→:::←`<` <!--SR:!2024-02-22,17,290!2024-02-21,5,250-->
-- `<`→:::←`>` <!--SR:!2024-02-19,14,290!2024-02-21,16,290-->
+- `<`→:::←`>` <!--SR:!2024-04-19,60,310!2024-02-21,16,290-->
 - `>`→:::←`<=` <!--SR:!2024-02-21,16,290!2024-02-23,11,250-->
-- `<=`→:::←`>=` <!--SR:!2024-02-19,14,290!2024-03-11,25,270-->
+- `<=`→:::←`>=` <!--SR:!2024-04-18,59,310!2024-03-11,25,270-->
 - `>=`→:::←`<>` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
-- `<>`→:::←_(end)_ <!--SR:!2024-04-10,52,310!2024-02-19,14,290-->
+- `<>`→:::←_(end)_ <!--SR:!2024-04-10,52,310!2024-04-12,53,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -214,7 +214,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
 - `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-04-07,49,310!2024-02-22,17,290-->
-- `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-02-20,15,290!2024-02-19,14,290-->
+- `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-02-20,15,290!2024-04-13,54,310-->
 - `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -222,7 +222,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
 - `NOT(boolean)`::negate <!--SR:!2024-02-20,15,290-->
-- `AND(booleans...)`::every input is true <!--SR:!2024-02-19,14,290-->
+- `AND(booleans...)`::every input is true <!--SR:!2024-04-16,57,310-->
 - `OR(booleans...)`::there exists true inputs <!--SR:!2024-02-22,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -283,7 +283,7 @@ return _chain.from_iterable(await _gather(
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-03-01,16,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-03-23,34,290-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-20,3,150!2024-03-04,21,250-->
-- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-03-19,32,270!2024-02-19,4,250-->
+- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-03-19,32,270!2024-03-01,11,250-->
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-21,4,210-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-04-14,56,310!2024-03-07,22,270-->
 
@@ -293,7 +293,7 @@ return _chain.from_iterable(await _gather(
 
 - (operator) `&`::concatenation <!--SR:!2024-04-13,55,310-->
 - `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2024-02-21,16,290-->
-- `LEN(string)`::length of `string` <!--SR:!2024-02-19,14,290-->
+- `LEN(string)`::length of `string` <!--SR:!2024-04-19,60,310-->
 - `LOWER(string)`::convert to lowercase <!--SR:!2024-04-06,48,310-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-02-21,16,290-->
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-02-21,16,290-->
@@ -358,11 +358,11 @@ return _chain.from_iterable(await _gather(
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-03-17,31,290!2024-04-11,53,310-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-02-22,17,290!2024-03-26,39,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-03-01,15,230!2024-03-10,22,250-->
-- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-02-19,14,290!2024-04-11,53,310-->
+- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-04-17,58,310!2024-04-11,53,310-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-23,9,230!2024-03-18,30,250-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-25,14,230!2024-02-29,17,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-22,17,290!2024-03-03,19,270-->
-- `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-19,14,290!2024-02-21,7,230-->
+- `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-27,8,270!2024-02-21,7,230-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
