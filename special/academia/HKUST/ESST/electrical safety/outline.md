@@ -67,8 +67,8 @@ The content is in teaching order.
       - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E).
-  - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the General Safety Requirement.
-    - [General Safety Requirement stipulations](#General%20Safety%20Requirement%20stipulations)
+  - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement.
+    - [general safety requirement stipulations](#general%20safety%20requirement%20stipulations)
   - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406).
 
 ## oversized data
@@ -117,7 +117,7 @@ unventilated thermal storage type electric water heaters
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### General Safety Requirement stipulations
+### general safety requirement stipulations
 
 %%
 

@@ -41,7 +41,7 @@ The content is in teaching order.
   - [auxiliary equipments](#auxiliary%20equipments)
 - [safety control measures](#safety%20control%20measures)
   - spring-loaded safety valve ::: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances.
-  - calibrated pressure gauge ::: Has red marking indicating the the maximum permissible working pressure. Allows a test device to be fitted.
+  - calibrated pressure gauge ::: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted.
   - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug.
   - coolant protection ::: Shuts down compressors when the water temperature exceeds maximum.
   - lubricant protection ::: Shuts down compressors when the lubricant pressure drops below minimum.
@@ -54,8 +54,8 @@ The content is in teaching order.
   - compressed gas cylinder hazards ::: Pressure can reach over 100 bars. Leaking gas produce a force 20 to 50 times the cylinder weight, which is about 100 kg, similar to a rocket or guided missile. Over-pressurized vessel fail at a weak point if it exists. If that point is very weak, the vessel can fail at or below normal operating pressure.
   - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
-  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of fitness and certificate of examination.
-  - certificate of fitness ::: Required for boiler pressure vessel, steam container, and auxiliary equipment, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after repair, prohibition order, hired, or sold. The examination process is outlined under hydraulic test.
+  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness.
+  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test.
   - hydraulic test
     - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$.
     - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$.
@@ -242,7 +242,8 @@ close inactive valves
 correct fittings and regulators
 empty cylinders are marked empty
 flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-frequent inspection, keep upright
+frequent inspection
+keep upright
 no electric arcs or heat sources nearby
 no oily or greasy substances or otherwise explosion
 """.strip().splitlines(),
@@ -251,26 +252,28 @@ no oily or greasy substances or otherwise explosion
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-09T19:56:53.126839+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-19T19:05:14.574577+08:00. Any edits will be overridden! -->
 
 > 1. close inactive valves
 > 2. correct fittings and regulators
 > 3. empty cylinders are marked empty
 > 4. flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-> 5. frequent inspection, keep upright
-> 6. no electric arcs or heat sources nearby
-> 7. no oily or greasy substances or otherwise explosion
+> 5. frequent inspection
+> 6. keep upright
+> 7. no electric arcs or heat sources nearby
+> 8. no oily or greasy substances or otherwise explosion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-09T19:56:53.116815+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-19T19:05:14.588577+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←close inactive valves
 - close inactive valves→:::←correct fittings and regulators
 - correct fittings and regulators→:::←empty cylinders are marked empty
 - empty cylinders are marked empty→:::←flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-- flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites→:::←frequent inspection, keep upright
-- frequent inspection, keep upright→:::←no electric arcs or heat sources nearby
+- flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites→:::←frequent inspection
+- frequent inspection→:::←keep upright
+- keep upright→:::←no electric arcs or heat sources nearby
 - no electric arcs or heat sources nearby→:::←no oily or greasy substances or otherwise explosion
 - no oily or greasy substances or otherwise explosion→:::←_(end)_
 
@@ -324,8 +327,7 @@ return await memorize_seq(
   __env__.cwf_sects("038b", "857e",),
   """
 examinable
-has protective devices
-protective devices that release contents do so safely
+has protective devices that release contents do so safely
 safely accessible interior
 suitable material
 """.strip().splitlines(),
@@ -334,22 +336,20 @@ suitable material
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-09T19:56:52.853822+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T19:05:14.626689+08:00. Any edits will be overridden! -->
 
 > 1. examinable
-> 2. has protective devices
-> 3. protective devices that release contents do so safely
-> 4. safely accessible interior
-> 5. suitable material
+> 2. has protective devices that release contents do so safely
+> 3. safely accessible interior
+> 4. suitable material
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T19:56:52.874126+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T19:05:14.609689+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable
-- examinable→:::←has protective devices
-- has protective devices→:::←protective devices that release contents do so safely
-- protective devices that release contents do so safely→:::←safely accessible interior
+- examinable→:::←has protective devices that release contents do so safely
+- has protective devices that release contents do so safely→:::←safely accessible interior
 - safely accessible interior→:::←suitable material
 - suitable material→:::←_(end)_
 
