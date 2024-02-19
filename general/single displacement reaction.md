@@ -23,7 +23,7 @@ A __single displacement reaction__, also called {{__single replacement reaction_
 
 This often happens when {{$\text{A}$ is more [reactive](reactivity%20(chemistry).md) than $\text{B}$}}. <!--SR:!2024-05-24,322,330-->
 
-> [!tip] tip
+> [!tip] tips
 >
 > - [intuition](intuition.md): {{Reactive [elements](chemical%20element.md) prefer being in a [compound](chemical%20compound.md) to minimize its [energy](energy.md) level.}} <!--SR:!2024-03-04,76,330-->
 

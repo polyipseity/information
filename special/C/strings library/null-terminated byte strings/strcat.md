@@ -21,7 +21,7 @@ char *strcat(char *restrict dest, char const *restrict src); // (since C99)
 errno_t strcat_s(char *restrict dest, rsize_t destsz, const char *restrict src); // (since C11)
 ```
 
-> [!tip] tip
+> [!tip] tips
 >
 > - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
 > - `destsz`: {{includes [null terminator](null-terminated%20string)}}

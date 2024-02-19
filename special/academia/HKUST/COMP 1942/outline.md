@@ -46,3 +46,7 @@ The content is in teaching order.
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
 - [Apriori algorithm § limitations](../../../../general/Apriori%20algorithm.md#limitations)
 - [association rule learning § FP-growth algorithm](../../../../general/association%20rule%20learning.md#FP-growth%20algorithm)
+
+## week 4 lecture 1
+
+- [association rule learning § FP-growth algorithm](../../../../general/association%20rule%20learning.md#FP-growth%20algorithm)

@@ -26,7 +26,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> [!tip] tip
+> [!tip] tips
 >
 > - phonetic symbols: {{notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols}} <!--SR:!2024-03-15,76,354-->
 
