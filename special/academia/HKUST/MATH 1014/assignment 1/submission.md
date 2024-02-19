@@ -183,7 +183,7 @@ $$\int_{a - \frac 1 2}^{a + \frac 1 2} \! \ln x \,\mathrm{d}x \le \ln a \qquad \
 > & y = (\ln a - \ln (a - 1)) (x - a) + \ln a \text{.} \\
 > & \text{Since }\ln x\text{ is a concave function,} \\
 > & \text{all points in a line segment connecting two points on }\ln x \\
-> & \text{is always lower than }\ln x\text{ except for the end points, where they meet.} \\
+> & \text{are always lower than }\ln x\text{ except for the end points, where they meet.} \\
 > & \text{Then,} \\
 > & \begin{aligned} \ln x & \ge (\ln a - \ln (a - 1))(x - a) + \ln a && (x \in \left[ a - 1, a \right]) \\
 > \int_{a - 1}^a \! \ln x \,\mathrm{d}x & \ge \int_{a - 1}^a \! ((\ln a - \ln (a - 1))(x - a) + \ln a) \,\mathrm{d}x \\
@@ -255,13 +255,13 @@ Let $t$ be a real number such that $\sin \frac t 2 \ne 0$ and let $n$ be a posit
 $$\sum_{k = 1}^n \sin kt = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2}$$
 
 > $$\begin{aligned}
-> \sum_{k = 1}^n \sin kt & = \sum_{k = 1}^n \operatorname{Im} \left( e^{kti} \right) \\
-> & = \operatorname{Im} \left( \sum_{k = 1}^n e^{kti} \right) \\
-> & = \operatorname{Im} \left( \frac {e^{(n + 1)ti} - e^{ti}} {e^{ti} - 1} \right) \\
-> & = \operatorname{Im} \left( \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}} {e^{\frac t 2 i} - e^{-\frac t 2 i}} \right) \\
-> & = \operatorname{Im} \left( \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}} {2i \sin \frac t 2} \right) \\
-> & = \operatorname{Im} \left( \frac {\cos \left( n + \frac 1 2 \right) t + i \sin \left( n + \frac 1 2 \right) t - \cos \frac t 2 - i \sin \frac t 2} {2i \sin \frac t 2} \right) \\
-> & = \operatorname{Im} \left( \frac {-i \cos \left( n + \frac 1 2 \right) t + \sin \left( n + \frac 1 2 \right) t + i \cos \frac t 2 - \sin \frac t 2} {2 \sin \frac t 2} \right) \\
+> \sum_{k = 1}^n \sin kt & = \sum_{k = 1}^n \operatorname{Im} \left\{ e^{kti} \right\} \\
+> & = \operatorname{Im} \left\{ \sum_{k = 1}^n e^{kti} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {e^{(n + 1)ti} - e^{ti}} {e^{ti} - 1} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}} {e^{\frac t 2 i} - e^{-\frac t 2 i}} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}} {2i \sin \frac t 2} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {\cos \left( n + \frac 1 2 \right) t + i \sin \left( n + \frac 1 2 \right) t - \cos \frac t 2 - i \sin \frac t 2} {2i \sin \frac t 2} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {-i \cos \left( n + \frac 1 2 \right) t + \sin \left( n + \frac 1 2 \right) t + i \cos \frac t 2 - \sin \frac t 2} {2 \sin \frac t 2} \right\} \\
 > & = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2}
 > \end{aligned}$$
 
