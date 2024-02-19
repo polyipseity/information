@@ -11,7 +11,7 @@ tags:
 
 ## types
 
-There are two types of errors: {{syntax errors and runtime errors}}. The former {{occurs during compilation and is detected by the compiler, while the latter occurs during execution}}. <!--SR:!2024-02-20,15,290!2024-02-19,14,290-->
+There are two types of errors: {{syntax errors and runtime errors}}. The former {{occurs during compilation and is detected by the compiler, while the latter occurs during execution}}. <!--SR:!2024-02-20,15,290!2024-04-14,55,310-->
 
 ## runtime errors
 
@@ -19,7 +19,7 @@ Runtime errors occur when {{something error or unexpected}} happens. The program
 
 ## catching errors
 
-Sometimes, we can {{handle some errors using `try...except...else`}}. It consists of {{a statement block, and one or more error types (optional), error names (optional), error handler statement blocks, and a no-error statement block (optional)}}: <!--SR:!2024-02-19,14,290!2024-03-28,39,290-->
+Sometimes, we can {{handle some errors using `try...except...else`}}. It consists of {{a statement block, and one or more error types (optional), error names (optional), error handler statement blocks, and a no-error statement block (optional)}}: <!--SR:!2024-04-17,58,310!2024-03-28,39,290-->
 
 ```Python
 try:

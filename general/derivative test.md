@@ -53,7 +53,7 @@ tags:
 
 ### first derivative test
 
-The _first derivative test_ can {{determine [extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}}. <!--SR:!2024-02-19,64,319-->
+The _first derivative test_ can {{determine [extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}}. <!--SR:!2024-11-26,281,339-->
 
 > __first derivative test__
 >
@@ -90,7 +90,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 
 ### concavity test
 
-The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md) can {{determine whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}}. A [twice-differentiable function](differentiable%20function.md) is {{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$, [concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}}. <!--SR:!2024-10-03,238,334!2024-02-19,65,319-->
+The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md) can {{determine whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}}. A [twice-differentiable function](differentiable%20function.md) is {{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$, [concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}}. <!--SR:!2024-10-03,238,334!2024-09-14,208,319-->
 
 ### second derivative test
 
@@ -98,7 +98,7 @@ The _second derivative test_ is {{a special case of $n=2$ in the [higher-order d
 
 ### higher-order derivative test
 
-The _higher-order derivative test_ or _general derivative test_ can {{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}}. <!--SR:!2024-02-19,65,319-->
+The _higher-order derivative test_ or _general derivative test_ can {{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}}. <!--SR:!2024-12-02,287,339-->
 
 > __higher-order derivative test__
 >

@@ -99,7 +99,7 @@ return await memorize_map(
 - $\frac1{\sqrt{1-x^2} }$::$\arcsin{x}$ <!--SR:!2024-02-27,71,310-->
 - $-\frac1{\sqrt{1-x^2} }$::$\arccos{x}$ <!--SR:!2024-02-24,68,310-->
 - $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2024-04-18,101,290-->
-- $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2024-02-19,64,310-->
+- $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2024-11-22,277,330-->
 - $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arcsec}{x}$ <!--SR:!2024-05-31,136,310-->
 - $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arccsc}{x}$ <!--SR:!2024-07-10,168,310-->
 

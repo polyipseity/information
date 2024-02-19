@@ -17,7 +17,7 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 ## list
 
-To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. Note that a list can {{contain items of different types like the example just now}}. <!--SR:!2024-02-19,14,290!2024-02-21,16,290-->
+To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. Note that a list can {{contain items of different types like the example just now}}. <!--SR:!2024-04-13,54,310!2024-02-21,16,290-->
 
 ## length
 
@@ -25,7 +25,7 @@ The length of a sequence can be determined by {{`len(sequence)`}}. <!--SR:!2024-
 
 ## indexing
 
-To access the n-th item, simply write {{`sequence[n-1]`}}: <!--SR:!2024-02-19,14,290-->
+To access the n-th item, simply write {{`sequence[n-1]`}}: <!--SR:!2024-04-14,55,310-->
 
 ```Python
 assert "asd"[2] == "d"
@@ -39,7 +39,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-One can obtain subsequences, i.e. smaller sequences, via {{slicing}}. To obtain a subsequence from the a-th item to the b-th item, write {{`sequence[a-1:b]`}}: <!--SR:!2024-02-19,14,290!2024-02-20,15,290-->
+One can obtain subsequences, i.e. smaller sequences, via {{slicing}}. To obtain a subsequence from the a-th item to the b-th item, write {{`sequence[a-1:b]`}}: <!--SR:!2024-04-11,52,310!2024-02-20,15,290-->
 
 ```Python
 assert "asd"[1:3] == 'sd'
@@ -47,7 +47,7 @@ assert [39, "omg", 'asd', 3.4][1:2] == ['omg']
 assert "asd"[1:1] == ""
 ```
 
-Slicing also accepts {{negative indices, in which case the meaning is still the same as that for indexing}}. Slicing also allows {{omitting one or both indices. Omitting the starting point means the starting point is the first element, i.e. `0` (or if step is negative, then the last element, i.e. `len(sequence) - 1`). Omitting the ending point means the ending point is after the last element, i.e. `len(sequence)` (or if step is negative, then before the first element, i.e. `-len(sequence) - 1`)}}: <!--SR:!2024-02-19,14,290!2024-02-19,14,290-->
+Slicing also accepts {{negative indices, in which case the meaning is still the same as that for indexing}}. Slicing also allows {{omitting one or both indices. Omitting the starting point means the starting point is the first element, i.e. `0` (or if step is negative, then the last element, i.e. `len(sequence) - 1`). Omitting the ending point means the ending point is after the last element, i.e. `len(sequence)` (or if step is negative, then before the first element, i.e. `-len(sequence) - 1`)}}: <!--SR:!2024-04-12,53,310!2024-04-12,53,310-->
 
 ```Python
 assert "asd"[:2] = "as"

@@ -11,7 +11,7 @@ tags:
 
 A Java class is never complete without teaching objects!
 
-To help with debugging objects, one can use {{the [object bench](BlueJ.md#object%20bench)}} in BlueJ. <!--SR:!2024-02-19,14,290-->
+To help with debugging objects, one can use {{the [object bench](BlueJ.md#object%20bench)}} in BlueJ. <!--SR:!2024-04-11,52,310-->
 
 ## almost everything is an object
 
@@ -80,7 +80,7 @@ The parameter types indicates {{the types of the method inputs}}. It is possible
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-02-19,14,290!2024-02-19,14,290-->
+A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-04-11,52,310!2024-04-13,54,310-->
 
 ```Java
 ClassName(ParameterTypes parameterNames) {

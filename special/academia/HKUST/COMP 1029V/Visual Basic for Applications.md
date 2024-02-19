@@ -8,7 +8,7 @@ tags:
 
 # Visual Basic for Applications
 
-Visual Basic for Applications (VBA) is a programming language {{based on Visual Basic and is designed for use in applications, like Microsoft Excel}}. <!--SR:!2024-02-19,14,290-->
+Visual Basic for Applications (VBA) is a programming language {{based on Visual Basic and is designed for use in applications, like Microsoft Excel}}. <!--SR:!2024-04-14,55,310-->
 
 ## running
 
@@ -16,7 +16,7 @@ To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{mac
 
 ## editing
 
-To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Just press random buttons and learn for yourself. <!--SR:!2024-02-19,14,290-->
+To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Just press random buttons and learn for yourself. <!--SR:!2024-04-19,60,310-->
 
 ### macro
 

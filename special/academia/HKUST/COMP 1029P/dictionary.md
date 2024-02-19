@@ -13,14 +13,14 @@ A Python dictionary works like a dictionary. In the latter, you lookup a word to
 
 ## creation
 
-To create a dictionary, use {{curly brackets `{}`}}. To add keys and values, {{separate each key-value pair with a comma `,` and separate the key and the value with a colon `:`}}: <!--SR:!2024-02-19,14,290!2024-02-21,16,290-->
+To create a dictionary, use {{curly brackets `{}`}}. To add keys and values, {{separate each key-value pair with a comma `,` and separate the key and the value with a colon `:`}}: <!--SR:!2024-04-15,56,310!2024-02-21,16,290-->
 
 ```Python
 empty_dict = {}
 nonempty_dict = {"key": "value", "key2": 123, 123: "value3", 96: 42}
 ```
 
-The values can be {{anything}} while the keys can be {{almost anything, as there are some restrictions on the type of keys. It is not mentioned here}}. <!--SR:!2024-02-20,15,290!2024-02-19,14,290-->
+The values can be {{anything}} while the keys can be {{almost anything, as there are some restrictions on the type of keys. It is not mentioned here}}. <!--SR:!2024-02-20,15,290!2024-04-11,52,310-->
 
 ## lookup
 

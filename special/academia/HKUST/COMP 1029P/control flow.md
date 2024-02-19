@@ -18,9 +18,9 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: {{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-19,14,290-->
+The semantics of `if` is obvious: {{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-14,55,310-->
 
-An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-02-19,14,290-->
+An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-04-11,52,310-->
 
 ```Python
 if condition:
@@ -55,7 +55,7 @@ for loop_variables in iterable:
   statement_block
 ```
 
-Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. The semantics of `for...in` is that {{for each element in the iterable, the loop variables are assigned that element and then the statement block is executed}}. <!--SR:!2024-02-21,16,290!2024-02-19,14,290-->
+Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. The semantics of `for...in` is that {{for each element in the iterable, the loop variables are assigned that element and then the statement block is executed}}. <!--SR:!2024-02-21,16,290!2024-04-13,54,310-->
 
 To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}. <!--SR:!2024-02-20,15,290!2024-04-10,52,310!2024-02-21,16,290-->
 

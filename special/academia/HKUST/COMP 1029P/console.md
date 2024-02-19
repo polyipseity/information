@@ -17,7 +17,7 @@ Note that when you call `print`, even if you have not added newlines to the stri
 
 ## clear
 
-A primitive way to clear the console that also works on IDLE is by {{printing a lot of newlines}}: <!--SR:!2024-02-19,14,290-->
+A primitive way to clear the console that also works on IDLE is by {{printing a lot of newlines}}: <!--SR:!2024-04-17,58,310-->
 
 ```Python
 for _ in range(4):

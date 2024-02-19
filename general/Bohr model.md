@@ -92,9 +92,9 @@ The Bohr model fails to explain:
 
 - _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-02-22,4,293-->
 - brightness→:::←multiple [electrons](electron.md) <!--SR:!2024-03-05,132,284!2024-02-21,3,273-->
-- multiple [electrons](electron.md)→:::←naturalness <!--SR:!2024-02-19,199,304!2024-02-21,3,273-->
+- multiple [electrons](electron.md)→:::←naturalness <!--SR:!2026-06-05,837,324!2024-02-21,3,273-->
 - naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-02-21,3,273-->
-- structures→:::←_(end)_ <!--SR:!2024-02-22,4,293!2024-02-19,1,253-->
+- structures→:::←_(end)_ <!--SR:!2024-02-22,4,293!2024-02-23,4,273-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

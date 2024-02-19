@@ -442,7 +442,7 @@ worker skills
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1192"--><!-- The following content is generated at 2024-02-09T19:56:52.813819+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control complexity <!--SR:!2000-01-01,1,250!2024-02-19,4,270-->
+- _(begin)_→:::←control complexity <!--SR:!2000-01-01,1,250!2024-03-06,16,290-->
 - control complexity→:::←equipment age
 - equipment age→:::←equipment condition
 - equipment condition→:::←equipment suitability
