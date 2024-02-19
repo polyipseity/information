@@ -127,13 +127,13 @@ $\int_0^1 \! f(x) \,\mathrm{d}x$ and $\int_0^1 \! g(x) \,\mathrm{d}x$
 > f(x) & < g(x) \\
 > \int_0^1 \! f(x) \,\mathrm{d}x & < \int_0^1 \! g(x) \,\mathrm{d}x && (\text{the values of } f(0), f(1), g(0), g(1) \text{ do not affect the inequality as }\set{0, 1}\text{ has zero Lebesgue measure}) \end{aligned}
 > \end{aligned}
-
-### 3.b
-
-$\int_0^1 \! f(x) \,\mathrm{d}x$ and $\int_{\cos 1}^1 f^{-1} (x) \,\mathrm{d}x$
-
-(Note that $f$ has an inverse defined on $[\cos 1, 1]$ because $f: [0, 1] \to [\cos 1, 1]$ is strictly decreasing.)
-
+> 
+> ### 3.b
+> 
+> $\int_0^1 \! f(x) \,\mathrm{d}x$ and $\int_{\cos 1}^1 f^{-1} (x) \,\mathrm{d}x$
+> 
+> (Note that $f$ has an inverse defined on $[\cos 1, 1]$ because $f: [0, 1] \to [\cos 1, 1]$ is strictly decreasing.)
+> 
 > ![sketch 3.b](attachments/Pasted%20image%2020240218174815.png)
 >
 > $$\begin{aligned}
