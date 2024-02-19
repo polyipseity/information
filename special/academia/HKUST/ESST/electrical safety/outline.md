@@ -67,7 +67,7 @@ The content is in teaching order.
       - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-02-24,13,289!2024-02-26,15,290-->
-- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement.
+- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-02-22,3,294!2024-02-23,4,314-->
     - [general safety requirement stipulations](#general%20safety%20requirement%20stipulations) <!--SR:!2024-02-19,2,190!2024-02-19,6,249-->
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-02-27,12,249!2024-03-03,15,264-->
 
@@ -151,13 +151,13 @@ warnings
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←instructions
-- instructions→:::←manner of presentation
-- manner of presentation→:::←safety
-- safety→:::←standards
-- standards→:::←use of marks
-- use of marks→:::←warnings
-- warnings→:::←_(end)_
+- _(begin)_→:::←instructions <!--SR:!2024-02-22,3,294!2024-02-23,4,314-->
+- instructions→:::←manner of presentation <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
+- manner of presentation→:::←safety <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
+- safety→:::←standards <!--SR:!2024-02-22,3,294!2024-02-20,1,274-->
+- standards→:::←use of marks <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
+- use of marks→:::←warnings <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
+- warnings→:::←_(end)_ <!--SR:!2024-02-23,4,314!2024-02-23,4,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
