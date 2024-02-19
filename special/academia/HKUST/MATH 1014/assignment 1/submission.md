@@ -225,7 +225,7 @@ $$\lim_{n \to +\infty} \sum_{k = 1}^n \frac { \sqrt{n^2 - k^2} } {n^2}$$
 > $$\begin{aligned}
 > \lim_{n \to +\infty} \sum_{k = 1}^n \frac { \sqrt{n^2 - k^2} } {n^2} & = \lim_{n \to +\infty} \frac 1 n \sum_{k = 1}^n \frac{ \sqrt{n^2 - k^2} } n \\
 > & = \lim_{n \to +\infty} \frac 1 n \sum_{k = 1}^n \sqrt{1 - \left( \frac k n \right)^2} \\
-> & = \int_0^1 \! \sqrt{1 - x^2} \,\mathrm{d}x \\
+> & = \int_0^1 \! \sqrt{1 - x^2} \,\mathrm{d}x && (\text{the integrand is bounded and continuous, so it is integrable}) \\
 > & = \frac \pi 4 && (\text{area of quarter of circle of radius }1)
 > \end{aligned}$$
 
@@ -234,13 +234,10 @@ $$\lim_{n \to +\infty} \sum_{k = 1}^n \frac { \sqrt{n^2 - k^2} } {n^2}$$
 $$\lim_{n \to +\infty} \frac 1 {n^2} \left( \sqrt{n - 1} + \sqrt{2n - 4} + \sqrt{3n - 9} + \cdots + \sqrt{n^2 - n^2} \right)$$
 
 > $$\begin{aligned}
-> \lim_{n \to +\infty} \frac 1 {n^2} \left( \sqrt{n - 1} + \sqrt{2n - 4} + \sqrt{3n - 9} + \cdots + \sqrt{n^2 - n^2} \right) & = \lim_{n \to +\infty} \frac 1 {n^2} \sum_{k = 1}^n \sqrt{kn - k^2} \\
-> & = \lim_{n \to +\infty} \frac 1 n \sum_{k = 1}^n \sqrt{\frac k n - \left( \frac k n \right)^2} \\
-> & = \int_0^1 \! \sqrt{x - x^2} \,\mathrm{d}x \\
+> \lim_{n \to +\infty} \frac 1 n \sum_{k = 1}^n \sqrt{\frac k n - \left( \frac k n \right)^2} & = \int_0^1 \! \sqrt{x - x^2} \,\mathrm{d}x && (\text{the integrand is bounded and continuous, so it is integrable}) \\
 > & = \int_0^1 \! \sqrt{x(1 - x)} \,\mathrm{d}x \\
-> & = \int_0^{\frac 1 2} \! \sqrt{x(1 - x)} \,\mathrm{d}x + \int_{\frac 1 2}^1 \! \sqrt{x(1 - x)} \,\mathrm{d}x \\
-> & = 2 \int_0^{\frac 1 2} \! \sqrt{x(1 - x)} \,\mathrm{d}x \\
-> & = 2 \int_0^{\frac 1 2} \! \sqrt{\left( \frac 1 2 + x \right) \left( \frac 1 2 - x \right)} \,\mathrm{d}x \\
+> & = 2 \int_0^{\frac 1 2} \! \sqrt{x(1 - x)} \,\mathrm{d}x && (\text{symmetry}) \\
+> & = 2 \int_0^{\frac 1 2} \! \sqrt{\left( \frac 1 2 + x \right) \left( \frac 1 2 - x \right)} \,\mathrm{d}x && (\text{integrate in reverse direction}) \\
 > & = 2 \int_0^{\frac 1 2} \! \sqrt{\frac 1 4 - x^2} \,\mathrm{d}x \\
 > & = 2 \cdot \frac \pi 4 \left( \frac 1 2 \right)^2 && \left( \text{area of quarter of circle of radius } \frac 1 2 \right) \\
 > & = \frac \pi 8
@@ -255,14 +252,20 @@ Let $t$ be a real number such that $\sin \frac t 2 \ne 0$ and let $n$ be a posit
 $$\sum_{k = 1}^n \sin kt = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2}$$
 
 > $$\begin{aligned}
-> \sum_{k = 1}^n \sin kt & = \sum_{k = 1}^n \operatorname{Im} \left\{ e^{kti} \right\} \\
+> & \begin{aligned} \sum_{k = 1}^n \sin kt & = \frac 1 {\sin \frac t 2} \sum_{k = 1}^n \sin \frac t 2 \sin kt \\
+> & = \frac 1 {2 \sin \frac t 2} \sum_{k = 1}^n \left( \cos \left( k - \frac 1 2 \right) t - \cos \left(k + \frac 1 2 \right) t \right) \\
+> & = \frac 1 {2 \sin \frac t 2} \left( \cos \left( 1 - \frac 1 2 \right) t - \cos \left( n + \frac 1 2 \right) t \right) \\
+> & = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2} \end{aligned} \\
+> \\
+> & \text{Alternatively,} \\
+> & \begin{aligned} \sum_{k = 1}^n \sin kt & = \sum_{k = 1}^n \operatorname{Im} \left\{ e^{kti} \right\} \\
 > & = \operatorname{Im} \left\{ \sum_{k = 1}^n e^{kti} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {e^{(n + 1)ti} - e^{ti}} {e^{ti} - 1} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}} {e^{\frac t 2 i} - e^{-\frac t 2 i}} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}} {2i \sin \frac t 2} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {\cos \left( n + \frac 1 2 \right) t + i \sin \left( n + \frac 1 2 \right) t - \cos \frac t 2 - i \sin \frac t 2} {2i \sin \frac t 2} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {-i \cos \left( n + \frac 1 2 \right) t + \sin \left( n + \frac 1 2 \right) t + i \cos \frac t 2 - \sin \frac t 2} {2 \sin \frac t 2} \right\} \\
-> & = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2}
+> & = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2} \end{aligned}
 > \end{aligned}$$
 
 ### 10.b
