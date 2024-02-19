@@ -23,12 +23,12 @@ tags:
 
 # monotonic function
 
-> [!info] tips
+> [!tip] tips
 >
 > - [terminology](terminology.md): Terminology is very funny when it comes to describing monotonic functions...
 >   1. monotone/monotonic/monotonically increasing/monotonically decreasing: {{$x < y \implies f(x) < f(y)$; $x < y \implies f(x) > f(y)$}}
 >   2. strictly monotone/strictly monotonic/strictly increasing/strictly decreasing: {{$x < y \implies f(x) \le f(y)$; $x < y \implies f(x) \ge f(y)$}}
 >   3. weakly monotone/weakly monotonic/weakly increasing/weakly decreasing: {{(1) but not (2)}}
 >   4. increasing/decreasing: {{either (1) or (2) (confusing; bad terminology)}}
->   5. non-increasing/non-decreasing: {{monotonically decreasing/monotonically increasing ([double negative](double%20negative.md); the worst terminology ever)}}
+>   5. non-increasing/non-decreasing: {{monotonically decreasing/monotonically increasing (unnecessary negation; the worst terminology ever)}}
 >   6. not increasing/not decreasing: {{not (4) (simply adds to the worst terminology ever)}} <!--SR:!2024-05-01,73,310!2024-04-07,53,310!2024-04-20,63,310!2024-04-08,53,310!2024-04-17,60,310!2024-04-17,61,310-->

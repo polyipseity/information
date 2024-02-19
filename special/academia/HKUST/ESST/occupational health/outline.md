@@ -49,7 +49,7 @@ The content is in teaching order.
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-03-04,14,242!2024-03-08,19,329-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-02-20,3,279!2024-02-28,17,302-->
-- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees’ Compensation Ordinance (Cap. 282). <!--SR:!2024-02-27,9,289!2024-02-26,15,290-->
+- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-02-27,9,289!2024-02-26,15,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-03-07,18,335!2024-02-26,15,290-->
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-03-03,15,262!2024-02-28,11,306-->
@@ -139,8 +139,8 @@ engineering
 administration
 personal protective equipment
 """.strip().splitlines(),
-  pretext="in decreasing preference",
-  posttext="in decreasing preference",
+  pretext="most preferable",
+  posttext="least preferable",
 )
 ```
 
@@ -155,13 +155,13 @@ personal protective equipment
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-09T10:21:06.254826+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
-- _(in decreasing preference)_→:::←hazard reduction or elimination <!--SR:!2024-03-08,19,329!2024-03-05,16,335-->
+- _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-03-08,19,329!2024-03-05,16,335-->
 - hazard reduction or elimination→:::←engineering <!--SR:!2024-03-05,16,326!2024-03-07,17,339-->
 - engineering→:::←administration <!--SR:!2024-03-09,19,339!2024-03-07,18,335-->
 - administration→:::←personal protective equipment <!--SR:!2024-03-06,17,326!2024-03-08,19,329-->
-- personal protective equipment→:::←_(in decreasing preference)_ <!--SR:!2024-02-29,12,306!2024-03-07,18,329-->
+- personal protective equipment→:::←_(least preferable)_ <!--SR:!2024-02-29,12,306!2024-03-07,18,329-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

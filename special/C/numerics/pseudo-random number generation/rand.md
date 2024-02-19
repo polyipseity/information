@@ -15,6 +15,6 @@ tags:
 int rand();
 ```
 
-> [!tip] tip
+> [!tip] tips
 >
 > - remember: {{set the seed using [`srand`](srand.md) before calling `rand`}} <!--SR:!2024-06-10,143,316-->

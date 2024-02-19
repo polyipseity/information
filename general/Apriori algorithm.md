@@ -230,6 +230,14 @@ Apriori_gen(L, k)
 >     )
 > ```
 
+## limitations
+
+Candidate generation {{spawns a large numbers of subsets, which is costly for computation}}. Its bottom-up exploration nature means {{finding any subset $S$ requires finding all its $2^{\lvert S \rvert} - 1$ proper subsets first}}.
+
+The algorithm also requires {{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}}. Therefore, the algorithm works best if {{the database is permanently stored in the memory, which might not be practical for very large database}}.
+
+Also, the time and space complexity of the algorithm is {{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}}.
+
 ## references
 
 This text incorporates [content](https://en.wikipedia.org/wiki/Aprior_algorithm) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

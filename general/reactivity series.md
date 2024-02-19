@@ -76,7 +76,10 @@ table = (
 )
 
 return _chain.from_iterable(await _gather(
-  memorize_table(__env__.cwf_sects("a2994d", "299018"), headers, table),
+  memorize_table(
+    __env__.cwf_sects("a2994d", "299018"), headers, table,
+    pretext="most reactive", posttext="least reactive",
+  ),
   memorize_map(
     __env__.cwf_sects(None, "1e32", "8912",),
     items_to_map(*((entry[0], entry[1],) for entry in table if entry[1])),
@@ -130,9 +133,9 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[caesium](caesium.md) <!--SR:!2024-03-03,258,330!2024-03-06,260,330-->
+- _(most reactive)_→:::←[caesium](caesium.md) <!--SR:!2024-03-03,258,330!2024-03-06,260,330-->
 - [caesium](caesium.md)→:::←[rubidium](rubidium.md) <!--SR:!2024-10-25,391,270!2025-02-13,397,250-->
 - [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2025-01-07,392,250!2024-07-12,286,250-->
 - [potassium](potassium.md)→:::←[sodium](sodium.md) <!--SR:!2024-05-06,293,290!2025-11-14,655,310-->
@@ -161,7 +164,7 @@ return _chain.from_iterable(await _gather(
 - [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2024-03-17,266,330!2024-04-24,297,330-->
 - [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2024-05-09,312,330-->
 - [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2024-04-28,301,330!2024-02-26,252,330-->
-- [platinum](platinum.md)→:::←_(end)_ <!--SR:!2027-03-09,1114,350!2024-03-21,270,330-->
+- [platinum](platinum.md)→:::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2024-03-21,270,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

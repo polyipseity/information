@@ -60,7 +60,7 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-> [!tip] tip
+> [!tip] tips
 >
 > - [intuition](intuition.md):
 >     1. {{Let's imagine you have two infinite heat reservoirs, one of higher [temperature](temperature.md) $T_\mathrm{H}$ and one of lower [temperature](temperature.md) $T_\mathrm{C}$. Your goal is to create a heat engine that maximizes efficiency, i.e. max work per heat accepted}}.
