@@ -30,16 +30,14 @@ The content is in teaching order.
 - hazards
   - [hazard causes](#hazard%20causes)
   - [hazard types](#hazard%20types)
-  - [hazard control factors](#hazard%20control%20factors)
-- design safety
-  - [design safety goals](#design%20safety%20goals)
-  - [design safety considerations](#design%20safety%20considerations)
+  - [hazard factors](#hazard%20factors)
+- [design safety](#design%20safety)
 - technical requirements ::: Boilers and Pressure Vessels Regulations 2002 (Cap. 56A)
   - [boiler requirements](#boiler%20requirements)
   - [air or steam receiver requirements](#air%20or%20steam%20receiver%20requirements)
   - [pressurized fuel container requirements](#pressurized%20fuel%20container%20requirements)
   - [auxiliary equipments](#auxiliary%20equipments)
-- [safety control measures](#safety%20control%20measures)
+- [safety measures](#safety%20measures)
   - spring-loaded safety valve ::: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances.
   - calibrated pressure gauge ::: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted.
   - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug.
@@ -279,45 +277,7 @@ no oily or greasy substances or otherwise explosion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### design safety considerations
-
-%%
-
-```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_seq(
-  __env__.cwf_sects("2929", "dd81",),
-  """
-expected working life
-fluid type and properties
-operating limits
-valve operating conditions
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2929"--><!-- The following content is generated at 2024-02-09T19:56:52.911757+08:00. Any edits will be overridden! -->
-
-> 1. expected working life
-> 2. fluid type and properties
-> 3. operating limits
-> 4. valve operating conditions
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd81"--><!-- The following content is generated at 2024-02-09T19:56:52.892630+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←expected working life
-- expected working life→:::←fluid type and properties
-- fluid type and properties→:::←operating limits
-- operating limits→:::←valve operating conditions
-- valve operating conditions→:::←_(end)_
-
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
-
-### design safety goals
+### design safety
 
 %%
 
@@ -326,32 +286,38 @@ valve operating conditions
 return await memorize_seq(
   __env__.cwf_sects("038b", "857e",),
   """
-examinable
-has protective devices that release contents do so safely
-safely accessible interior
-suitable material
+examinable with safely accessible interior
+expected working life
+fluid type and properties
+operating limits, like valve operating conditions
+proper material
+protective devices that release contents do so safely
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T19:05:14.626689+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T19:24:59.267093+08:00. Any edits will be overridden! -->
 
-> 1. examinable
-> 2. has protective devices that release contents do so safely
-> 3. safely accessible interior
-> 4. suitable material
+> 1. examinable with safely accessible interior
+> 2. expected working life
+> 3. fluid type and properties
+> 4. operating limits, like valve operating conditions
+> 5. proper material
+> 6. protective devices that release contents do so safely
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T19:05:14.609689+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T19:24:59.291714+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←examinable
-- examinable→:::←has protective devices that release contents do so safely
-- has protective devices that release contents do so safely→:::←safely accessible interior
-- safely accessible interior→:::←suitable material
-- suitable material→:::←_(end)_
+- _(begin)_→:::←examinable with safely accessible interior
+- examinable with safely accessible interior→:::←expected working life
+- expected working life→:::←fluid type and properties
+- fluid type and properties→:::←operating limits, like valve operating conditions
+- operating limits, like valve operating conditions→:::←proper material
+- proper material→:::←protective devices that release contents do so safely
+- protective devices that release contents do so safely→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -402,7 +368,7 @@ overheating
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### hazard control factors
+### hazard factors
 
 %%
 
@@ -675,7 +641,7 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-### safety control measures
+### safety measures
 
 %%
 
