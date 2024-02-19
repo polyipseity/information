@@ -35,13 +35,13 @@ However, the Jordan measure of a simple set cannot be defined as {{the sum of me
 
 > {{![finite union of 2D rectangles](../archives/Wikimedia%20Commons/Simple%20set1.png)}}
 >
-> {{finite union of 2D rectangles}} <!--SR:!2024-04-09,50,310-->
+> {{finite union of 2D rectangles}} <!--SR:!2024-04-09,50,310!2024-02-23,4,303-->
 
 The above can be fixed by {{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}}. Then the Jordan measure of a simple set can be defined as {{the sum of measures of disjoint rectangles}}. <!--SR:!2024-02-21,15,290!2024-02-20,14,290!2024-04-09,50,310-->
 
 > {{![rewritten union of disjoint rectangles](../archives/Wikimedia%20Commons/Simple%20set2.png)}}
 >
-> {{rewritten union of disjoint rectangles}} <!--SR:!2024-02-22,16,290-->
+> {{rewritten union of disjoint rectangles}} <!--SR:!2024-02-22,16,290!2024-02-23,4,303-->
 
 One can show the above definition of Jordan measure for simple set is {{independent of the representation of simple set as disjoint rectangles, and the openness and closeness of the rectangles. They all give the same value for $m(S)$}}. In fact, the rectangles having disjoint [interior](interior%20(topology).md) suffices. <!--SR:!2024-04-11,52,310-->
 
@@ -60,7 +60,7 @@ m^*(B) := \inf_{S \supseteq B} m(S)
 
 > {{![squeezing a bounded set by simple sets](../archives/Wikimedia%20Commons/Jordan%20illustration.png)}}
 >
-> {{squeezing a bounded set by simple sets}} <!--SR:!2024-02-21,15,290-->
+> {{squeezing a bounded set by simple sets}} <!--SR:!2024-02-21,15,290!2024-02-23,4,303-->
 
 If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. The _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}. <!--SR:!2024-02-20,14,290!2024-02-20,14,290-->
 

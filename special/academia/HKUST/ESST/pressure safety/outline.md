@@ -97,7 +97,7 @@ safety: withstand the maximum permissible working pressure
 
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
 - control: spring-loaded safety valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-23,4,284!2024-02-23,4,284-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
 - safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-02-20,1,246!2024-02-20,1,243-->
 - safety: withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
