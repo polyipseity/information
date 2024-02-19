@@ -287,7 +287,7 @@ examinable with safely accessible interior
 expected working life
 fluid properties
 operating limits, like valve operating conditions
-proper material
+proper materials
 protective devices that release contents do so safely
 """.strip().splitlines(),
 )
@@ -295,25 +295,25 @@ protective devices that release contents do so safely
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T20:13:03.070208+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T20:56:23.901793+08:00. Any edits will be overridden! -->
 
 > 1. examinable with safely accessible interior
 > 2. expected working life
 > 3. fluid properties
 > 4. operating limits, like valve operating conditions
-> 5. proper material
+> 5. proper materials
 > 6. protective devices that release contents do so safely
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:13:03.051484+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior
 - examinable with safely accessible interior→:::←expected working life
 - expected working life→:::←fluid properties
 - fluid properties→:::←operating limits, like valve operating conditions
-- operating limits, like valve operating conditions→:::←proper material
-- proper material→:::←protective devices that release contents do so safely
+- operating limits, like valve operating conditions→:::←proper materials
+- proper materials→:::←protective devices that release contents do so safely
 - protective devices that release contents do so safely→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
