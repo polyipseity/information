@@ -72,35 +72,35 @@ The content is in teaching order.
 return await memorize_seq(
   __env__.cwf_sects("29a2", "3842",),
   """
-automatic mechanism like reducing valve to prevent over-pressurizing
-marked with a distinguishing number
-pressure gauge with red marking showing the maximum permissible working pressure
-spring-loaded safety valve for controlling the maximum permissible working pressure
-withstand the maximum permissible working pressure
+control: spring-loaded safety valve for controlling the working pressure
+identity: marked with a distinguishing number
+indication: pressure gauge with red marking showing the maximum permissible working pressure
+safety: automatic mechanism like reducing valve to prevent over-pressurizing
+safety: withstand the maximum permissible working pressure
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-09T19:56:52.979288+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-19T20:13:02.889277+08:00. Any edits will be overridden! -->
 
-> 1. automatic mechanism like reducing valve to prevent over-pressurizing
-> 2. marked with a distinguishing number
-> 3. pressure gauge with red marking showing the maximum permissible working pressure
-> 4. spring-loaded safety valve for controlling the maximum permissible working pressure
-> 5. withstand the maximum permissible working pressure
+> 1. control: spring-loaded safety valve for controlling the working pressure
+> 2. identity: marked with a distinguishing number
+> 3. indication: pressure gauge with red marking showing the maximum permissible working pressure
+> 4. safety: automatic mechanism like reducing valve to prevent over-pressurizing
+> 5. safety: withstand the maximum permissible working pressure
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-09T19:56:52.962765+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-19T20:13:02.906507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- automatic mechanism like reducing valve to prevent over-pressurizing→:::←marked with a distinguishing number <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- marked with a distinguishing number→:::←pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- pressure gauge with red marking showing the maximum permissible working pressure→:::←spring-loaded safety valve for controlling the maximum permissible working pressure <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- spring-loaded safety valve for controlling the maximum permissible working pressure→:::←withstand the maximum permissible working pressure <!--SR:!2024-02-20,1,246!2024-02-20,1,243-->
-- withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
+- _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- control: spring-loaded safety valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-02-20,1,246!2024-02-20,1,243-->
+- safety: withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -195,35 +195,35 @@ thermal oil heater
 return await memorize_seq(
   __env__.cwf_sects("96ff", "3e9a",),
   """
-fusible pressure release plug or efficient low-water alarm
-marked with a distinguishing number
-pressure gauge with red marking showing the maximum permissible working pressure
-spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
-transparent water level gauge
+control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
+identity: marked with a distinguishing number
+indication: pressure gauge with red marking showing the maximum permissible working pressure
+indication: transparent water level gauge
+safety: fusible pressure release plug or efficient low-water alarm
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-09T19:56:52.929757+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-19T20:13:02.974320+08:00. Any edits will be overridden! -->
 
-> 1. fusible pressure release plug or efficient low-water alarm
-> 2. marked with a distinguishing number
-> 3. pressure gauge with red marking showing the maximum permissible working pressure
-> 4. spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure
-> 5. transparent water level gauge
+> 1. control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
+> 2. identity: marked with a distinguishing number
+> 3. indication: pressure gauge with red marking showing the maximum permissible working pressure
+> 4. indication: transparent water level gauge
+> 5. safety: fusible pressure release plug or efficient low-water alarm
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-09T19:56:52.944756+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-19T20:13:02.938279+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←fusible pressure release plug or efficient low-water alarm <!--SR:!2024-02-20,1,246!2024-02-23,4,286-->
-- fusible pressure release plug or efficient low-water alarm→:::←marked with a distinguishing number <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- marked with a distinguishing number→:::←pressure gauge with red marking showing the maximum permissible working pressure
-- pressure gauge with red marking showing the maximum permissible working pressure→:::←spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
-- spring-loaded safety valve and a separate stop-valve for controlling the maximum permissible working pressure→:::←transparent water level gauge <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
-- transparent water level gauge→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-22,3,266-->
+- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
+- indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-02-20,1,246!2024-02-23,4,286-->
+- safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-22,3,266-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -236,44 +236,41 @@ transparent water level gauge
 return await memorize_seq(
   __env__.cwf_sects("9012", "33bb",),
   """
-close inactive valves
-correct fittings and regulators
-empty cylinders are marked empty
-flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-frequent inspection
-keep upright
-no electric arcs or heat sources nearby
-no oily or greasy substances or otherwise explosion
+operator: close inactive valves
+operator: frequent examination for damages
+operator: keep upright
+operator: mark empty cylinders
+operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
+design: correct fittings and regulators
+design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-19T19:05:14.574577+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-19T20:13:02.996252+08:00. Any edits will be overridden! -->
 
-> 1. close inactive valves
-> 2. correct fittings and regulators
-> 3. empty cylinders are marked empty
-> 4. flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites
-> 5. frequent inspection
-> 6. keep upright
-> 7. no electric arcs or heat sources nearby
-> 8. no oily or greasy substances or otherwise explosion
+> 1. operator: close inactive valves
+> 2. operator: frequent examination for damages
+> 3. operator: keep upright
+> 4. operator: mark empty cylinders
+> 5. operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
+> 6. design: correct fittings and regulators
+> 7. design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-19T19:05:14.588577+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-19T20:13:03.019454+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←close inactive valves <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
-- close inactive valves→:::←correct fittings and regulators <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- correct fittings and regulators→:::←empty cylinders are marked empty <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- empty cylinders are marked empty→:::←flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- flashback arrestor when a flammable or oxidizing gas is used or otherwise the cylinder gas ignites→:::←frequent inspection <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
-- frequent inspection→:::←keep upright
-- keep upright→:::←no electric arcs or heat sources nearby <!--SR:!2024-02-20,1,243!2024-02-20,1,246-->
-- no electric arcs or heat sources nearby→:::←no oily or greasy substances or otherwise explosion <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
-- no oily or greasy substances or otherwise explosion→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
+- _(begin)_→:::←operator: close inactive valves <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
+- operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
+- operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
+- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-02-20,1,243!2024-02-20,1,246-->
+- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←design: correct fittings and regulators <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -288,7 +285,7 @@ return await memorize_seq(
   """
 examinable with safely accessible interior
 expected working life
-fluid type and properties
+fluid properties
 operating limits, like valve operating conditions
 proper material
 protective devices that release contents do so safely
@@ -298,23 +295,23 @@ protective devices that release contents do so safely
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T19:24:59.267093+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T20:13:03.070208+08:00. Any edits will be overridden! -->
 
 > 1. examinable with safely accessible interior
 > 2. expected working life
-> 3. fluid type and properties
+> 3. fluid properties
 > 4. operating limits, like valve operating conditions
 > 5. proper material
 > 6. protective devices that release contents do so safely
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T19:24:59.291714+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:13:03.051484+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
 - examinable with safely accessible interior→:::←expected working life <!--SR:!2024-02-22,3,266!2024-02-23,4,283-->
-- expected working life→:::←fluid type and properties <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- fluid type and properties→:::←operating limits, like valve operating conditions <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- expected working life→:::←fluid properties <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
 - operating limits, like valve operating conditions→:::←proper material <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
 - proper material→:::←protective devices that release contents do so safely <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-20,1,246-->
@@ -378,46 +375,37 @@ return await memorize_seq(
   __env__.cwf_sects("aa98", "1192",),
   """
 control complexity
-equipment age
-equipment condition
-equipment suitability
-fluid type and properties
+equipment age, condition, and suitability
+fluid properties
 pressure
 prevailing conditions
-worker knowledge
-worker skills
+worker knowledge and skills
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa98"--><!-- The following content is generated at 2024-02-09T19:56:52.829846+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa98"--><!-- The following content is generated at 2024-02-19T20:13:03.105296+08:00. Any edits will be overridden! -->
 
 > 1. control complexity
-> 2. equipment age
-> 3. equipment condition
-> 4. equipment suitability
-> 5. fluid type and properties
-> 6. pressure
-> 7. prevailing conditions
-> 8. worker knowledge
-> 9. worker skills
+> 2. equipment age, condition, and suitability
+> 3. fluid properties
+> 4. pressure
+> 5. prevailing conditions
+> 6. worker knowledge and skills
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1192"--><!-- The following content is generated at 2024-02-09T19:56:52.813819+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1192"--><!-- The following content is generated at 2024-02-19T20:13:03.087677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control complexity <!--SR:!2024-02-22,3,266!2024-03-06,16,290-->
-- control complexity→:::←equipment age <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- equipment age→:::←equipment condition <!--SR:!2024-02-22,3,266!2024-02-23,4,286-->
-- equipment condition→:::←equipment suitability <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
-- equipment suitability→:::←fluid type and properties <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- fluid type and properties→:::←pressure <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- control complexity→:::←equipment age, condition, and suitability <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- equipment age, condition, and suitability→:::←fluid properties <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- fluid properties→:::←pressure <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - pressure→:::←prevailing conditions <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- prevailing conditions→:::←worker knowledge <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- worker knowledge→:::←worker skills <!--SR:!2024-02-23,4,286!2024-02-22,3,266-->
-- worker skills→:::←_(end)_ <!--SR:!2024-02-23,4,283!2024-02-22,3,263-->
+- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- worker knowledge and skills→:::←_(end)_ <!--SR:!2024-02-23,4,283!2024-02-22,3,263-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -430,47 +418,35 @@ worker skills
 return await memorize_seq(
   __env__.cwf_sects("837b", "937a",),
   """
-blast
+blast, explosion, flying debris, and shockwave
 chemical burn
-explosion
-fire
-flying debris
+fire and thermal burn
 poisoning
-shockwave
 suffocation
-thermal burn
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="837b"--><!-- The following content is generated at 2024-02-09T19:56:52.769306+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="837b"--><!-- The following content is generated at 2024-02-19T20:13:03.130902+08:00. Any edits will be overridden! -->
 
-> 1. blast
+> 1. blast, explosion, flying debris, and shockwave
 > 2. chemical burn
-> 3. explosion
-> 4. fire
-> 5. flying debris
-> 6. poisoning
-> 7. shockwave
-> 8. suffocation
-> 9. thermal burn
+> 3. fire and thermal burn
+> 4. poisoning
+> 5. suffocation
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="937a"--><!-- The following content is generated at 2024-02-09T19:56:52.792818+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="937a"--><!-- The following content is generated at 2024-02-19T20:13:03.118404+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blast <!--SR:!2024-02-20,1,243!2024-02-22,3,263-->
-- blast→:::←chemical burn <!--SR:!2024-02-22,3,266!2024-02-23,4,286-->
-- chemical burn→:::←explosion <!--SR:!2024-02-23,4,283!2024-02-22,3,266-->
-- explosion→:::←fire <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
-- fire→:::←flying debris <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
-- flying debris→:::←poisoning <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- poisoning→:::←shockwave <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
-- shockwave→:::←suffocation <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
-- suffocation→:::←thermal burn <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- thermal burn→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,263-->
+- _(begin)_→:::←blast, explosion, flying debris, and shockwave <!--SR:!2024-02-20,1,243!2024-02-22,3,263-->
+- blast, explosion, flying debris, and shockwave→:::←chemical burn <!--SR:!2024-02-22,3,266!2024-02-23,4,286-->
+- chemical burn→:::←fire and thermal burn <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
+- fire and thermal burn→:::←poisoning <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- poisoning→:::←suffocation <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
+- suffocation→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,263-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -483,44 +459,38 @@ thermal burn
 return await memorize_seq(
   __env__.cwf_sects("cd12", "93fa",),
   """
-fix hose strap to restrain the failing motion of flexible hoses when dislocated
-frequent examination for damages
-high flashpoint hydraulic oil
-pressurize in stages
-proper construction
-proper design
-proper material
-segregate and indicate work area
+design: fix hose strap to restrain the failing motion of dislocated flexible hoses
+design: high flashpoint hydraulic oil
+design: proper construction, design, and material
+operator: frequent examination for damages
+operator: pressurize in stages
+operator: segregate and indicate work area
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-09T19:56:53.096835+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-19T20:13:03.157195+08:00. Any edits will be overridden! -->
 
-> 1. fix hose strap to restrain the failing motion of flexible hoses when dislocated
-> 2. frequent examination for damages
-> 3. high flashpoint hydraulic oil
-> 4. pressurize in stages
-> 5. proper construction
-> 6. proper design
-> 7. proper material
-> 8. segregate and indicate work area
+> 1. design: fix hose strap to restrain the failing motion of dislocated flexible hoses
+> 2. design: high flashpoint hydraulic oil
+> 3. design: proper construction, design, and material
+> 4. operator: frequent examination for damages
+> 5. operator: pressurize in stages
+> 6. operator: segregate and indicate work area
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-09T19:56:53.106816+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-19T20:13:03.144600+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←fix hose strap to restrain the failing motion of flexible hoses when dislocated <!--SR:!2024-02-20,1,246!2024-02-22,3,263-->
-- fix hose strap to restrain the failing motion of flexible hoses when dislocated→:::←frequent examination for damages <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- frequent examination for damages→:::←high flashpoint hydraulic oil <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- high flashpoint hydraulic oil→:::←pressurize in stages <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- pressurize in stages→:::←proper construction <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- proper construction→:::←proper design <!--SR:!2024-02-22,3,263!2024-02-22,3,263-->
-- proper design→:::←proper material <!--SR:!2024-02-23,4,286!2024-02-22,3,266-->
-- proper material→:::←segregate and indicate work area <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- segregate and indicate work area→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
+- _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-02-20,1,246!2024-02-22,3,263-->
+- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and material <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- design: proper construction, design, and material→:::←operator: frequent examination for damages <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- operator: segregate and indicate work area→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -571,35 +541,35 @@ spraying paint container
 return await memorize_seq(
   __env__.cwf_sects("10ab", "23fb",),
   """
-accessible valves and safety devices
-all piping properly secured save for 0.6 m immediately before the burner
-maximum permissible working pressure not more than 500 kPa
-pressure release valve
-remote control valve as close to burner as possible
+control: accessible valves and safety devices
+control: remote control valve as close to burner as possible
+safety: all piping properly secured save for 0.6 m immediately before the burner
+safety: maximum permissible working pressure not more than 500 kPa
+safety: pressure release valve
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10ab"--><!-- The following content is generated at 2024-02-09T19:56:53.014286+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10ab"--><!-- The following content is generated at 2024-02-19T20:13:03.173682+08:00. Any edits will be overridden! -->
 
-> 1. accessible valves and safety devices
-> 2. all piping properly secured save for 0.6 m immediately before the burner
-> 3. maximum permissible working pressure not more than 500 kPa
-> 4. pressure release valve
-> 5. remote control valve as close to burner as possible
+> 1. control: accessible valves and safety devices
+> 2. control: remote control valve as close to burner as possible
+> 3. safety: all piping properly secured save for 0.6 m immediately before the burner
+> 4. safety: maximum permissible working pressure not more than 500 kPa
+> 5. safety: pressure release valve
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23fb"--><!-- The following content is generated at 2024-02-09T19:56:52.996287+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23fb"--><!-- The following content is generated at 2024-02-19T20:13:03.186373+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessible valves and safety devices <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
-- accessible valves and safety devices→:::←all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
-- all piping properly secured save for 0.6 m immediately before the burner→:::←maximum permissible working pressure not more than 500 kPa <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- maximum permissible working pressure not more than 500 kPa→:::←pressure release valve <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- pressure release valve→:::←remote control valve as close to burner as possible <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- remote control valve as close to burner as possible→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
+- _(begin)_→:::←control: accessible valves and safety devices <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
+- control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
+- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
