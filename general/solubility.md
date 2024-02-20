@@ -360,7 +360,7 @@ return await memorize_map(
 - [ammonium sulfite](ammonium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-11,202,318-->
 - [barium hydroxide](barium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-03-20,89,258-->
 - [barium oxide](barium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-02-27,85,278-->
-- [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-02-20,5,158-->
+- [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-02-28,8,158-->
 - [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-10,158,298-->
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-07,33,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-24,40,198-->
@@ -406,7 +406,7 @@ return await memorize_map(
 - [sodium sulfite](sodium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-08,166,278-->
 - [strontium hydroxide](strontium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-06,18,150-->
 - [strontium oxide](strontium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-04-22,116,278-->
-- [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-02-20,49,198-->
+- [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-15,24,178-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-09,76,258-->
 - [thallium(I) oxide](thallium(I)%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-07-29,187,278-->
 - [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-06-17,143,258-->

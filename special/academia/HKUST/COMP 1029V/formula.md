@@ -77,18 +77,18 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`^` <!--SR:!2024-03-21,36,290!2024-02-22,17,290-->
-- `^`→:::←`*` <!--SR:!2024-02-20,15,290!2024-04-14,55,310-->
+- `^`→:::←`*` <!--SR:!2024-04-20,60,310!2024-04-14,55,310-->
 - `*`→:::←`/` <!--SR:!2024-04-15,56,310!2024-04-08,50,310-->
-- `/`→:::←`+` <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
+- `/`→:::←`+` <!--SR:!2024-02-21,16,290!2024-04-24,64,310-->
 - `+`→:::←`-` <!--SR:!2024-04-17,58,310!2024-04-14,55,310-->
-- `-`→:::←_(end)_ <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
+- `-`→:::←_(end)_ <!--SR:!2024-02-21,16,290!2024-04-23,63,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
 
-- `^`::power <!--SR:!2024-02-20,15,290-->
-- `*`::multiplication <!--SR:!2024-02-20,15,290-->
+- `^`::power <!--SR:!2024-04-22,62,310-->
+- `*`::multiplication <!--SR:!2024-04-19,59,310-->
 - `/`::division <!--SR:!2024-04-17,58,310-->
 - `+`::addition <!--SR:!2024-04-18,59,310-->
 - `-`::subtraction <!--SR:!2024-04-10,52,310-->
@@ -97,7 +97,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{booleans}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-02-20,15,290-->
+Below are common comparison operators, all of which returns {{booleans}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-04-20,60,310-->
 
 %%
 
@@ -159,8 +159,8 @@ return _chain.from_iterable(await _gather(
 - `=`::equal to <!--SR:!2024-02-22,17,290-->
 - `<`::lesser than <!--SR:!2024-04-09,51,310-->
 - `>`::greater than <!--SR:!2024-02-22,17,290-->
-- `<=`::lesser than or equal to <!--SR:!2024-02-20,15,290-->
-- `>=`::greater than or equal to <!--SR:!2024-02-20,15,290-->
+- `<=`::lesser than or equal to <!--SR:!2024-04-20,60,310-->
+- `>=`::greater than or equal to <!--SR:!2024-04-16,56,310-->
 - `<>`::not equal to <!--SR:!2024-02-21,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -214,14 +214,14 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
 - `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-04-07,49,310!2024-02-22,17,290-->
-- `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-02-20,15,290!2024-04-13,54,310-->
-- `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
+- `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-04-16,56,310!2024-04-13,54,310-->
+- `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-04-18,58,310!2024-02-21,16,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
-- `NOT(boolean)`::negate <!--SR:!2024-02-20,15,290-->
+- `NOT(boolean)`::negate <!--SR:!2024-04-21,61,310-->
 - `AND(booleans...)`::every input is true <!--SR:!2024-04-16,57,310-->
 - `OR(booleans...)`::there exists true inputs <!--SR:!2024-02-22,17,290-->
 
@@ -279,10 +279,10 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-03-11,26,290!2024-02-22,17,290-->
-- (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-02-20,15,290!2024-03-16,28,270-->
+- (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-04-07,47,290!2024-03-16,28,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-03-01,16,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-03-23,34,290-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-20,3,150!2024-03-04,21,250-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-22,2,130!2024-03-04,21,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-03-19,32,270!2024-03-01,11,250-->
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-21,4,210-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-04-14,56,310!2024-03-07,22,270-->
@@ -370,11 +370,11 @@ return _chain.from_iterable(await _gather(
 
 - `AVERAGE(numbers...)`::average <!--SR:!2024-04-13,55,310-->
 - `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2024-02-21,16,290-->
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2024-02-20,15,290-->
-- `MAX(numbers...)`::maximum <!--SR:!2024-02-20,15,290-->
-- `MIN(numbers...)`::minimum <!--SR:!2024-02-20,15,290-->
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2024-04-21,61,310-->
+- `MAX(numbers...)`::maximum <!--SR:!2024-04-17,57,310-->
+- `MIN(numbers...)`::minimum <!--SR:!2024-04-17,57,310-->
 - `RANK(number, numbers...)`::rank of `number` in `numbers`, starting from 1 <!--SR:!2024-02-21,16,290-->
 - `STDEV(numbers...)`::standard deviation <!--SR:!2024-02-22,17,290-->
-- `SUM(numbers...)`::summation <!--SR:!2024-02-20,15,290-->
+- `SUM(numbers...)`::summation <!--SR:!2024-04-21,61,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -63,7 +63,7 @@ Molecules can be classified based on atomicity as:
 - all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-17,297,330-->
 - Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-18,298,330-->
 - Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-06-06,340,330-->
-- H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-02-20,254,330-->
+- H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2027-04-20,1155,350-->
 - N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2027-02-07,1100,350-->
 - O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-03-05,266,330-->
 - O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2027-04-03,1141,350-->

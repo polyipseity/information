@@ -25,7 +25,7 @@ class Name:
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-Then to create an object, one uses {{the name of the class}}: <!--SR:!2024-02-20,15,290-->
+Then to create an object, one uses {{the name of the class}}: <!--SR:!2024-04-18,58,310-->
 
 ```Python
 name_object = Name(42)

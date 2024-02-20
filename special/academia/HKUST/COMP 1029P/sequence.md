@@ -39,7 +39,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-One can obtain subsequences, i.e. smaller sequences, via {{slicing}}. To obtain a subsequence from the a-th item to the b-th item, write {{`sequence[a-1:b]`}}: <!--SR:!2024-04-11,52,310!2024-02-20,15,290-->
+One can obtain subsequences, i.e. smaller sequences, via {{slicing}}. To obtain a subsequence from the a-th item to the b-th item, write {{`sequence[a-1:b]`}}: <!--SR:!2024-04-11,52,310!2024-04-17,57,310-->
 
 ```Python
 assert "asd"[1:3] == 'sd'
@@ -55,7 +55,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-04-09,51,310!2024-02-21,16,290!2024-04-08,50,310!2024-04-02,46,290!2024-02-20,15,290-->
+Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-04-09,51,310!2024-02-21,16,290!2024-04-08,50,310!2024-04-02,46,290!2024-04-20,60,310-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"
@@ -82,7 +82,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-02-22,17,290!2024-02-22,17,290!2024-04-13,55,310!2024-02-20,15,290-->
+Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-02-22,17,290!2024-02-22,17,290!2024-04-13,55,310!2024-04-19,59,310-->
 
 ```Python
 original = [1, 2, 3]
@@ -101,7 +101,7 @@ assert id(original) == id(new) # `id` can determine whether two objects are the 
 
 ## multidimensional
 
-In Python, there is {{nothing special}} about multidimensional sequences. It is literally {{lists inside a list}}: <!--SR:!2024-02-20,15,290!2024-02-20,15,290-->
+In Python, there is {{nothing special}} about multidimensional sequences. It is literally {{lists inside a list}}: <!--SR:!2024-04-16,56,310!2024-04-18,58,310-->
 
 ```Python
 sudoku = [

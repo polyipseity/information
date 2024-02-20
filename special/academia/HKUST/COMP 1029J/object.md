@@ -15,7 +15,7 @@ To help with debugging objects, one can use {{the [object bench](BlueJ.md#object
 
 ## almost everything is an object
 
-In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
+In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-04-18,58,310!2024-02-21,16,290-->
 
 ## equality
 
@@ -58,7 +58,7 @@ The above object stored under `nameObject` is also called {{an _instance_ of the
 
 ## method
 
-A method consists of {{a return type, name, parameters, parameter names, and a statement block}}: <!--SR:!2024-02-20,15,290-->
+A method consists of {{a return type, name, parameters, parameter names, and a statement block}}: <!--SR:!2024-04-16,56,310-->
 
 ```Java
 ReturnType name(ParameterTypes parameterNames) {
@@ -74,9 +74,9 @@ void aMethod(String arg1, int arg2) {
 }
 ```
 
-The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-02-21,16,290!2024-02-20,15,290!2024-04-12,54,310-->
+The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-02-21,16,290!2024-04-19,59,310!2024-04-12,54,310-->
 
-The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-02-20,15,290!2024-04-13,55,310!2024-02-22,17,290-->
+The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-04-18,58,310!2024-04-13,55,310!2024-02-22,17,290-->
 
 ### constructor
 

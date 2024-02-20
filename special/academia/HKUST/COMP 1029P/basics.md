@@ -71,14 +71,14 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`**` <!--SR:!2024-04-11,53,310!2024-02-20,15,290-->
+- _(begin)_→:::←`**` <!--SR:!2024-04-11,53,310!2024-04-21,61,310-->
 - `**`→:::←`*` <!--SR:!2024-04-09,51,310!2024-04-14,55,310-->
 - `*`→:::←`/` <!--SR:!2024-02-21,16,290!2024-04-09,51,310-->
 - `/`→:::←`//` <!--SR:!2024-04-11,52,310!2024-04-08,50,310-->
 - `//`→:::←`%` <!--SR:!2024-02-22,17,290!2024-02-22,17,290-->
 - `%`→:::←`+` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
 - `+`→:::←`-` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
-- `-`→:::←_(end)_ <!--SR:!2024-02-22,17,290!2024-02-20,15,290-->
+- `-`→:::←_(end)_ <!--SR:!2024-02-22,17,290!2024-04-24,64,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -87,9 +87,9 @@ return _chain.from_iterable(await _gather(
 - `**`::power <!--SR:!2024-04-06,48,310-->
 - `*`::multiplication <!--SR:!2024-02-22,17,290-->
 - `/`::division <!--SR:!2024-02-22,17,290-->
-- `//`::floor division <!--SR:!2024-02-20,15,290-->
+- `//`::floor division <!--SR:!2024-04-23,63,310-->
 - `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-04-07,49,310-->
-- `+`::addition <!--SR:!2024-02-20,15,290-->
+- `+`::addition <!--SR:!2024-04-24,64,310-->
 - `-`::subtraction <!--SR:!2024-04-14,55,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -145,14 +145,14 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`in` <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
+- _(begin)_→:::←`in` <!--SR:!2024-04-17,57,310!2024-02-21,16,290-->
 - `in`→:::←`<` <!--SR:!2024-02-22,17,290!2024-03-04,14,230-->
-- `<`→:::←`<=` <!--SR:!2024-02-20,15,290!2024-02-20,15,290-->
+- `<`→:::←`<=` <!--SR:!2024-04-16,56,310!2024-04-22,62,310-->
 - `<=`→:::←`>` <!--SR:!2024-02-21,16,290!2024-03-01,12,230-->
 - `>`→:::←`>=` <!--SR:!2024-02-21,4,210!2024-02-21,16,290-->
 - `>=`→:::←`!=` <!--SR:!2024-03-12,30,270!2024-03-11,21,250-->
 - `!=`→:::←`==` <!--SR:!2024-03-16,33,290!2024-04-13,54,310-->
-- `==`→:::←_(end)_ <!--SR:!2024-04-18,59,310!2024-02-20,15,290-->
+- `==`→:::←_(end)_ <!--SR:!2024-04-18,59,310!2024-04-19,59,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -164,7 +164,7 @@ return _chain.from_iterable(await _gather(
 - `>`::greater than <!--SR:!2024-04-12,54,310-->
 - `>=`::greater than or equal to <!--SR:!2024-02-22,17,290-->
 - `!=`::not equal to <!--SR:!2024-04-08,50,310-->
-- `==`::equal to <!--SR:!2024-02-20,15,290-->
+- `==`::equal to <!--SR:!2024-04-20,60,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -216,7 +216,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`not` <!--SR:!2024-02-21,16,290!2024-04-16,57,310-->
-- `not`→:::←`and` <!--SR:!2024-02-20,15,290!2024-02-21,16,290-->
+- `not`→:::←`and` <!--SR:!2024-04-19,59,310!2024-02-21,16,290-->
 - `and`→:::←`or` <!--SR:!2024-02-21,16,290!2024-04-14,56,310-->
 - `or`→:::←_(end)_ <!--SR:!2024-04-17,58,310!2024-04-07,49,310-->
 
@@ -240,4 +240,4 @@ variableName = 1 + 2
 
 One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-02-22,17,290-->
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-02-20,15,290-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-04-18,58,310-->

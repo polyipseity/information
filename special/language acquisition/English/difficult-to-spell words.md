@@ -61,7 +61,7 @@ English
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::: (p\_e) To copy others' work and present it as one's own. <!--SR:!2024-03-24,67,324!2024-03-31,61,284-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-03-29,71,324!2024-03-03,49,304-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2024-04-18,85,352!2024-04-14,81,352-->
-- [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-03-05,26,390!2024-02-20,14,350-->
+- [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-03-05,26,390!2024-04-29,69,370-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-03-07,33,388!2024-02-24,5,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-02-27,24,368-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-02-28,26,388!2024-03-04,28,368-->
@@ -69,7 +69,7 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,352!2024-03-31,72,352-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-02-29,46,332-->
-- [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-02-20,1,312!2024-02-20,1,312-->
+- [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-02-24,4,332!2024-02-24,4,332-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-04-01,73,324!2024-02-21,15,264-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-03-09,30,390!2024-02-26,20,370-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2024-02-23,12,352!2024-03-05,21,372-->
@@ -78,7 +78,7 @@ English
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t\_y) The extent to which something is transmissible. <!--SR:!2024-03-20,63,324!2024-03-27,68,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2024-03-03,52,270!2024-04-08,75,290-->
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2024-04-29,75,388!2024-02-24,16,348-->
-- [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-03-15,59,324!2024-02-20,38,304-->
+- [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-03-15,59,324!2024-07-28,159,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2024-03-23,65,324!2024-03-16,60,324-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-03-13,57,324!2024-06-25,134,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::: (v\_r) To do or offer to do something voluntarily. <!--SR:!2024-04-02,74,352!2024-04-04,76,352-->

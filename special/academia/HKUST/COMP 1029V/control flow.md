@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `True` conditions, all conditions are always executed in the appearance order, alternated with statement block execution.}} <!--SR:!2024-02-20,15,290!2024-02-23,18,309-->
+The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `True` conditions, all conditions are always executed in the appearance order, alternated with statement block execution.}} <!--SR:!2024-04-17,57,310!2024-02-23,18,309-->
 
 ## iteration
 
@@ -63,7 +63,7 @@ While
 Wend
 ```
 
-The semantics of `While...Wend` is {{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}}. <!--SR:!2024-02-20,15,290-->
+The semantics of `While...Wend` is {{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}}. <!--SR:!2024-04-18,58,310-->
 
 ### `Do`
 

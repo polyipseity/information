@@ -19,4 +19,4 @@ Just read the Excel dialogs carefully.
 
 ## event
 
-For a button control, the default macro that activates after clicking is {{`(form control name)_Click`}}. <!--SR:!2024-02-20,15,290-->
+For a button control, the default macro that activates after clicking is {{`(form control name)_Click`}}. <!--SR:!2024-04-23,63,310-->

@@ -40,8 +40,8 @@ The content is in teaching order.
 - [safety measures](#safety%20measures)
   - spring-loaded safety valve ::: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances. <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
   - calibrated pressure gauge ::: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted. <!--SR:!2024-02-23,4,277!2024-02-23,4,286-->
-  - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-02-20,1,246!2024-02-23,4,286-->
-  - coolant protection ::: Shuts down compressors when the water temperature exceeds maximum. <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
+  - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-02-23,3,266!2024-02-23,4,286-->
+  - coolant protection ::: Shuts down compressors when the water temperature exceeds maximum. <!--SR:!2024-02-22,3,266!2024-02-23,3,266-->
   - lubricant protection ::: Shuts down compressors when the lubricant pressure drops below minimum. <!--SR:!2024-02-23,4,286!2024-02-23,4,277-->
   - air inlet and outlet monitoring ::: A water manometer or pressure-indicating device for each compressor air inlet. <!--SR:!2024-02-22,3,263!2024-02-22,3,263-->
 - hydraulic system
@@ -56,10 +56,10 @@ The content is in teaching order.
   - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-02-22,3,266!2024-02-20,1,243-->
   - hydraulic test
     - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-    - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-02-20,1,243!2024-02-22,3,263-->
+    - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-02-21,1,223!2024-02-22,3,263-->
   - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::: Governs pressurized cylinders. <!--SR:!2024-02-22,3,263!2024-02-22,3,263-->
 - pressurized cylinder ::: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years. <!--SR:!2024-02-22,3,263!2024-03-01,12,270-->
-  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-02-20,1,246!2024-02-22,3,257-->
+  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-02-22,2,246!2024-02-22,3,257-->
 
 ## oversized data
 
@@ -95,7 +95,7 @@ safety: withstand the maximum permissible working pressure
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-19T20:13:02.906507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-02-22,2,246!2024-02-22,3,266-->
 - control: spring-loaded safety valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-23,4,284!2024-02-23,4,284-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
@@ -138,7 +138,7 @@ pipe
 
 - _(begin)_→:::←flue damper <!--SR:!2024-02-22,3,266!2024-02-23,4,286-->
 - flue damper→:::←fuel pump <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
-- fuel pump→:::←heater <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
+- fuel pump→:::←heater <!--SR:!2024-02-22,3,266!2024-02-23,3,266-->
 - heater→:::←multiple burner <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - multiple burner→:::←pipe <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
 - pipe→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
@@ -219,7 +219,7 @@ safety: fusible pressure release plug or efficient low-water alarm
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-19T20:13:02.938279+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-22,2,246!2024-02-22,3,266-->
 - identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-02-20,1,246!2024-02-23,4,286-->
@@ -358,8 +358,8 @@ overheating
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - compressor malfunction→:::←external fire <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - external fire→:::←failure of automatic controls <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-02-20,1,246!2024-02-22,3,263-->
-- formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-02-22,3,263!2024-02-20,1,243-->
+- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-02-21,1,226!2024-02-22,3,263-->
+- formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-02-22,3,263!2024-02-23,3,263-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - overheating→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-22,3,266-->
 
@@ -603,7 +603,7 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2876"--><!-- The following content is generated at 2024-02-09T19:56:53.136813+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56) <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
+- _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56) <!--SR:!2024-02-21,1,226!2024-02-23,4,283-->
 - Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A) <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
 - Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B) <!--SR:!2024-02-23,4,283!2024-02-23,4,283-->
 - Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
@@ -648,8 +648,8 @@ thermal protection
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="184a"--><!-- The following content is generated at 2024-02-09T19:56:53.080815+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air inlet and outlet monitoring <!--SR:!2024-02-20,1,246!2024-02-22,3,263-->
-- air inlet and outlet monitoring→:::←calibrated pressure gauge <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- air inlet and outlet monitoring→:::←calibrated pressure gauge <!--SR:!2024-02-22,2,246!2024-02-20,1,246-->
+- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-02-20,1,246!2024-02-22,2,246-->
 - coolant protection→:::←explosion protection <!--SR:!2024-02-20,1,243!2024-02-22,3,266-->
 - explosion protection→:::←lubricant protection <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - lubricant protection→:::←safety valve <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
