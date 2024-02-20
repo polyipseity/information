@@ -34,52 +34,52 @@ Solving the [ordinary differential equation](orindary%20differential%20equation.
 
 > [!info]- details
 > $$\begin{aligned}
-\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + 2 \zeta \omega_n \frac{\mathrm{d}x}{\mathrm{d}t} + \omega_n^2 x & = 0 \\
-r^2 + 2 \zeta \omega_n r + \omega_n^2 & = 0 \\
-r & = \frac{-2 \zeta \omega_n \pm \sqrt{(2 \zeta \omega_n)^2 - 4 \omega_n^2} }2 \\
-& = -\zeta\omega_n \pm \sqrt{\zeta^2 \omega_n^2 - \omega_n^2} \\
-& = -\zeta\omega_n \pm \omega_n \sqrt{\zeta^2 - 1} \\
-& = -\omega_n \left(\zeta \pm i\sqrt{1-\zeta^2} \right) \\
-x(t) & = \begin{cases} e^{-t \omega_n \zeta} \left(c_1 \cos\left(t \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(t \omega_n \sqrt{1 - \zeta^2}\right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
-e^{-t \omega_n \zeta} (c_1 + t c_2) & \text{if } \lvert \zeta \rvert = 1 \\
-e^{-t \omega_n \zeta} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-\\
-v(t) & = x'(t) \\
-& = \begin{cases} -e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 \cos\left(t \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(t \omega_n \sqrt{1 - \zeta^2}\right)\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{1 - \zeta^2} \left(-c_1 \sin\left(t \omega_n \sqrt{1 - \zeta^2} \right) + c_2 \cos\left(t \omega_n \sqrt{1 - \zeta^2} \right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
--e^{-t \omega_n \zeta} \omega_n \zeta (c_1 + t c_2) + e^{-t \omega_n \zeta} c_2 & \text{if } \lvert \zeta \rvert = 1 \\
--e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } - c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-\\
-x_0 & = \begin{cases} e^{-0 \omega_n \zeta} \left(c_1 \cos\left(0 \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(0 \omega_n \sqrt{1 - \zeta^2}\right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
-e^{-0 \omega_n \zeta} (c_1 + 0 c_2) & \text{if } \lvert \zeta \rvert = 1 \\
-e^{-0 \omega_n \zeta} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
-c_1 + c_2 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-\\
-v_0 & = \begin{cases} -e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 \cos\left(0 \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(0 \omega_n \sqrt{1 - \zeta^2}\right)\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{1 - \zeta^2} \left(-c_1 \sin\left(0 \omega_n \sqrt{1 - \zeta^2} \right) + c_2 \cos\left(0 \omega_n \sqrt{1 - \zeta^2} \right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
--e^{-0 \omega_n \zeta} \omega_n \zeta (c_1 + 0 c_2) + e^{-0 \omega_n \zeta} c_2 & \text{if } \lvert \zeta \rvert = 1 \\
--e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } - c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases} -c_1 \omega_n \zeta + c_2 \omega_n \sqrt{1 - \zeta^2} & \text{if } \lvert \zeta \rvert < 1 \\
--c_1 \omega_n \zeta + c_2 & \text{if } \lvert \zeta \rvert = 1 \\
--\omega_n \zeta (c_1 + c_2) + \omega_n \sqrt{\zeta^2 - 1} (c_1 - c_2) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases} -x_0 \omega_n \zeta + c_2 \omega_n \sqrt{1 - \zeta^2} & \text{if } \lvert \zeta \rvert < 1 \\
--x_0 \omega_n \zeta + c_2 & \text{if } \lvert \zeta \rvert = 1 \\
--x_0 \omega_n \zeta + \omega_n \sqrt{\zeta^2 - 1} (x_0 - 2c_2) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-c_2 & = \begin{cases} \frac{v_0 + x_0 \omega_n \zeta}{\omega_n \sqrt{1 - \zeta^2} } & \text{if } \lvert \zeta \rvert < 1 \\
-v_0 + x_0 \omega_n \zeta & \text{if } \lvert \zeta \rvert = 1 \\
-\frac{x_0}2 - \frac{v_0 + x_0 \omega_n \zeta}{2 \omega_n \sqrt{\zeta^2 - 1} } & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases} \frac\zeta{\sqrt{1 - \zeta^2} } x_0 + \frac1{\omega_n \sqrt{1 - \zeta^2} } v_0 & \text{if } \lvert \zeta \rvert < 1 \\
-\omega_n \zeta x_0 + v_0 & \text{if } \lvert \zeta \rvert = 1 \\
-\frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-\\
-x_0 & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
-c_1 + c_2 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
-c_1 + \frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-c_1 & = \begin{cases}x_0 & \text{if } \lvert \zeta \rvert \le 1 \\
-\frac{2\sqrt{\zeta^2 - 1} - \sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
-& = \begin{cases}x_0 & \text{if } \lvert \zeta \rvert \le 1 \\
-\frac{\sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases}
-\end{aligned}$$
+> \frac{\mathrm{d}^2x}{\mathrm{d}t^2} + 2 \zeta \omega_n \frac{\mathrm{d}x}{\mathrm{d}t} + \omega_n^2 x & = 0 \\
+> r^2 + 2 \zeta \omega_n r + \omega_n^2 & = 0 \\
+> r & = \frac{-2 \zeta \omega_n \pm \sqrt{(2 \zeta \omega_n)^2 - 4 \omega_n^2} }2 \\
+> & = -\zeta\omega_n \pm \sqrt{\zeta^2 \omega_n^2 - \omega_n^2} \\
+> & = -\zeta\omega_n \pm \omega_n \sqrt{\zeta^2 - 1} \\
+> & = -\omega_n \left(\zeta \pm i\sqrt{1-\zeta^2} \right) \\
+> x(t) & = \begin{cases} e^{-t \omega_n \zeta} \left(c_1 \cos\left(t \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(t \omega_n \sqrt{1 - \zeta^2}\right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
+> e^{-t \omega_n \zeta} (c_1 + t c_2) & \text{if } \lvert \zeta \rvert = 1 \\
+> e^{-t \omega_n \zeta} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> \\
+> v(t) & = x'(t) \\
+> & = \begin{cases} -e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 \cos\left(t \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(t \omega_n \sqrt{1 - \zeta^2}\right)\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{1 - \zeta^2} \left(-c_1 \sin\left(t \omega_n \sqrt{1 - \zeta^2} \right) + c_2 \cos\left(t \omega_n \sqrt{1 - \zeta^2} \right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
+> -e^{-t \omega_n \zeta} \omega_n \zeta (c_1 + t c_2) + e^{-t \omega_n \zeta} c_2 & \text{if } \lvert \zeta \rvert = 1 \\
+> -e^{-t \omega_n \zeta} \omega_n \zeta \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) + e^{-t \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{t \omega_n \sqrt{\zeta^2 - 1} } - c_2 e^{-t \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> \\
+> x_0 & = \begin{cases} e^{-0 \omega_n \zeta} \left(c_1 \cos\left(0 \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(0 \omega_n \sqrt{1 - \zeta^2}\right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
+> e^{-0 \omega_n \zeta} (c_1 + 0 c_2) & \text{if } \lvert \zeta \rvert = 1 \\
+> e^{-0 \omega_n \zeta} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
+> c_1 + c_2 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> \\
+> v_0 & = \begin{cases} -e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 \cos\left(0 \omega_n \sqrt{1 - \zeta^2}\right) + c_2 \sin\left(0 \omega_n \sqrt{1 - \zeta^2}\right)\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{1 - \zeta^2} \left(-c_1 \sin\left(0 \omega_n \sqrt{1 - \zeta^2} \right) + c_2 \cos\left(0 \omega_n \sqrt{1 - \zeta^2} \right)\right) & \text{if } \lvert \zeta \rvert < 1 \\
+> -e^{-0 \omega_n \zeta} \omega_n \zeta (c_1 + 0 c_2) + e^{-0 \omega_n \zeta} c_2 & \text{if } \lvert \zeta \rvert = 1 \\
+> -e^{-0 \omega_n \zeta} \omega_n \zeta \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } + c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) + e^{-0 \omega_n \zeta} \omega_n \sqrt{\zeta^2 - 1} \left(c_1 e^{0 \omega_n \sqrt{\zeta^2 - 1} } - c_2 e^{-0 \omega_n \sqrt{\zeta^2 - 1} }\right) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> & = \begin{cases} -c_1 \omega_n \zeta + c_2 \omega_n \sqrt{1 - \zeta^2} & \text{if } \lvert \zeta \rvert < 1 \\
+> -c_1 \omega_n \zeta + c_2 & \text{if } \lvert \zeta \rvert = 1 \\
+> -\omega_n \zeta (c_1 + c_2) + \omega_n \sqrt{\zeta^2 - 1} (c_1 - c_2) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> & = \begin{cases} -x_0 \omega_n \zeta + c_2 \omega_n \sqrt{1 - \zeta^2} & \text{if } \lvert \zeta \rvert < 1 \\
+> -x_0 \omega_n \zeta + c_2 & \text{if } \lvert \zeta \rvert = 1 \\
+> -x_0 \omega_n \zeta + \omega_n \sqrt{\zeta^2 - 1} (x_0 - 2c_2) & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> c_2 & = \begin{cases} \frac{v_0 + x_0 \omega_n \zeta}{\omega_n \sqrt{1 - \zeta^2} } & \text{if } \lvert \zeta \rvert < 1 \\
+> v_0 + x_0 \omega_n \zeta & \text{if } \lvert \zeta \rvert = 1 \\
+> \frac{x_0}2 - \frac{v_0 + x_0 \omega_n \zeta}{2 \omega_n \sqrt{\zeta^2 - 1} } & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> & = \begin{cases} \frac\zeta{\sqrt{1 - \zeta^2} } x_0 + \frac1{\omega_n \sqrt{1 - \zeta^2} } v_0 & \text{if } \lvert \zeta \rvert < 1 \\
+> \omega_n \zeta x_0 + v_0 & \text{if } \lvert \zeta \rvert = 1 \\
+> \frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> \\
+> x_0 & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
+> c_1 + c_2 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> & = \begin{cases} c_1 & \text{if } \lvert \zeta \rvert \le 1 \\
+> c_1 + \frac{\sqrt{\zeta^2 - 1} - \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 - \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> c_1 & = \begin{cases}x_0 & \text{if } \lvert \zeta \rvert \le 1 \\
+> \frac{2\sqrt{\zeta^2 - 1} - \sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases} \\
+> & = \begin{cases}x_0 & \text{if } \lvert \zeta \rvert \le 1 \\
+> \frac{\sqrt{\zeta^2 - 1} + \zeta}{2 \sqrt{\zeta^2 - 1} } x_0 + \frac1{2 \omega_n \sqrt{\zeta^2 - 1} } v_0 & \text{if } \lvert \zeta \rvert > 1 \end{cases}
+> \end{aligned}$$
 
 There are four regimes depending on the value of the damping ratio $\zeta$:
 
