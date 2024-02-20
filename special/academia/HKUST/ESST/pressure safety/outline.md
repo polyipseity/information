@@ -73,7 +73,7 @@ return await memorize_seq(
   __env__.cwf_sects("29a2", "3842",),
   """
 control: spring-loaded safety valve for controlling the working pressure
-identity: marked with a distinguishing number
+identity: mark each receiver with a distinguishing number
 indication: pressure gauge with red marking showing the maximum permissible working pressure
 safety: automatic mechanism like reducing valve to prevent over-pressurizing
 safety: withstand the maximum permissible working pressure
@@ -83,21 +83,21 @@ safety: withstand the maximum permissible working pressure
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-19T20:13:02.889277+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-20T14:07:01.573880+08:00. Any edits will be overridden! -->
 
 > 1. control: spring-loaded safety valve for controlling the working pressure
-> 2. identity: marked with a distinguishing number
+> 2. identity: mark each receiver with a distinguishing number
 > 3. indication: pressure gauge with red marking showing the maximum permissible working pressure
 > 4. safety: automatic mechanism like reducing valve to prevent over-pressurizing
 > 5. safety: withstand the maximum permissible working pressure
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-19T20:13:02.906507+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-20T14:07:01.560765+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure
-- control: spring-loaded safety valve for controlling the working pressure→:::←identity: marked with a distinguishing number
-- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
+- control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number
+- identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing
 - safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure
 - safety: withstand the maximum permissible working pressure→:::←_(end)_
@@ -196,7 +196,7 @@ return await memorize_seq(
   __env__.cwf_sects("96ff", "3e9a",),
   """
 control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
-identity: marked with a distinguishing number
+identity: mark each boiler with a distinguishing number
 indication: pressure gauge with red marking showing the maximum permissible working pressure
 indication: transparent water level gauge
 safety: fusible pressure release plug or efficient low-water alarm
@@ -206,21 +206,21 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-19T20:13:02.974320+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-20T14:07:01.649622+08:00. Any edits will be overridden! -->
 
 > 1. control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
-> 2. identity: marked with a distinguishing number
+> 2. identity: mark each boiler with a distinguishing number
 > 3. indication: pressure gauge with red marking showing the maximum permissible working pressure
 > 4. indication: transparent water level gauge
 > 5. safety: fusible pressure release plug or efficient low-water alarm
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-19T20:13:02.938279+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: marked with a distinguishing number
-- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number
+- identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_
