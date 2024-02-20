@@ -61,24 +61,24 @@ Mathematically, this can be written as {{an [initial value problem](initial%20va
 > [!info]- details
 >
 > $$\begin{aligned}
-x_0''(t) + 2x_0'(t) + x_0(t) & = 0 \\
-r^2 + 2r + 1 & = 0  \\
-r & = -1 \,(\text{multiplicity 2}) \\
-x_0(t) & = (c_1 + c_2 t) e^{-t} \\
-x_0'(t) & = (-c_1 + c_2 - c_2 t) e^{-t} \\
-\\
-x_0(t_0) & = 0 \\
-(c_1 + c_2 t_0) e^{-t_0} & = 0 \\
-c_1 & = -c_2 t_0 \\
-\\
-x_0'(t_0) & = F(t_0) \,\mathrm{d}t_0 \\
-(-c_1 + c_2 - c_2 t_0) e^{-t_0} & = F(t_0) \,\mathrm{d}t_0 \\
-c_2 e^{-t_0} & = F(t_0) \,\mathrm{d}t_0 \\
-c_2 & = e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
-c_1 & = -t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
-\\
-x_0(t) & = (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0
-\end{aligned}$$
+> x_0''(t) + 2x_0'(t) + x_0(t) & = 0 \\
+> r^2 + 2r + 1 & = 0  \\
+> r & = -1 \,(\text{multiplicity 2}) \\
+> x_0(t) & = (c_1 + c_2 t) e^{-t} \\
+> x_0'(t) & = (-c_1 + c_2 - c_2 t) e^{-t} \\
+> \\
+> x_0(t_0) & = 0 \\
+> (c_1 + c_2 t_0) e^{-t_0} & = 0 \\
+> c_1 & = -c_2 t_0 \\
+> \\
+> x_0'(t_0) & = F(t_0) \,\mathrm{d}t_0 \\
+> (-c_1 + c_2 - c_2 t_0) e^{-t_0} & = F(t_0) \,\mathrm{d}t_0 \\
+> c_2 e^{-t_0} & = F(t_0) \,\mathrm{d}t_0 \\
+> c_2 & = e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
+> c_1 & = -t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
+> \\
+> x_0(t) & = (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0
+> \end{aligned}$$
 
 Consider the physical meaning of $x_0(t)$. It {{describes $x(t)$, [translated](translatio%20(geometry).md) such that $x(t_0) = 0$, during an infinitesimal time slice $\mathrm{d}t_0$. Then, $x_0(t_0 + \,\mathrm{d}t_0)$ is simply how much $x(t)$ has moved during that time slice $\mathrm{d}t_0$. Thus, summing $x_0(t)$ from $0$ to $t$ produces $x(t) - x(0)$}}. Finally, the solution, {{assuming $x(0) = 0$, is: $$\begin{aligned} x(t) & = \int_0^t\! (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0 \\ & = e^{-t} \int_0^t\! (t - t_0) e^{t_0} F(t_0) \,\mathrm{d}t_0 \\ & = e^{-t} t \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - e^{-t} \int_0^t\! t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \end{aligned}$$}}. <!--SR:!2024-03-16,60,310!2024-03-03,48,310-->
 

@@ -366,88 +366,88 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 > [!info]- proof for integral 1
 >
 > $$\begin{aligned}
-f(a) & = \int _0 ^1 \! \frac {x^a - 1} {\ln x} \,\mathrm{d}x \\
-f'(a) & = \int _0 ^1 \! \frac \partial {\partial a} \frac {x^a - 1} {\ln x} \,\mathrm{d}x \\
-& = \int _0 ^1 \! \frac{(\ln x) x^a}{\ln x} \,\mathrm{d}x \\
-& = \int _0 ^1 \! x^a \,\mathrm{d}x \\
-& = \frac 1 {a + 1} \left[ x^{a + 1} \right] _{x = 0} ^{x = 1} \\
-& = \frac 1 {a + 1} \\
-f(a) & = \int ^a \! \frac 1 {\xi + 1} \,\mathrm{d}\xi \\
-& = \ln (a + 1) + C \\
-f(0) & = \ln(0 + 1) + C \\
-C & = \int _0 ^1 \! \frac {x^0 - 1} {\ln x} \,\mathrm{d}x \\
-& = \int _0 ^1 \! 0 \,\mathrm{d}x \\
-& = 0 \\
-f(a) & = \ln (a + 1) \\
-f(1) & = \ln (1 + 1) \\
-\int _0 ^1 \! \frac {x - 1} {\ln x} \,\mathrm{d}x & = \ln 2
-\end{aligned}$$
+> f(a) & = \int _0 ^1 \! \frac {x^a - 1} {\ln x} \,\mathrm{d}x \\
+> f'(a) & = \int _0 ^1 \! \frac \partial {\partial a} \frac {x^a - 1} {\ln x} \,\mathrm{d}x \\
+> & = \int _0 ^1 \! \frac{(\ln x) x^a}{\ln x} \,\mathrm{d}x \\
+> & = \int _0 ^1 \! x^a \,\mathrm{d}x \\
+> & = \frac 1 {a + 1} \left[ x^{a + 1} \right] _{x = 0} ^{x = 1} \\
+> & = \frac 1 {a + 1} \\
+> f(a) & = \int ^a \! \frac 1 {\xi + 1} \,\mathrm{d}\xi \\
+> & = \ln (a + 1) + C \\
+> f(0) & = \ln(0 + 1) + C \\
+> C & = \int _0 ^1 \! \frac {x^0 - 1} {\ln x} \,\mathrm{d}x \\
+> & = \int _0 ^1 \! 0 \,\mathrm{d}x \\
+> & = 0 \\
+> f(a) & = \ln (a + 1) \\
+> f(1) & = \ln (1 + 1) \\
+> \int _0 ^1 \! \frac {x - 1} {\ln x} \,\mathrm{d}x & = \ln 2
+> \end{aligned}$$
 
 <!-- markdownlint MD028 -->
 
 > [!info]- proof for integral 2
 >
 > $$\begin{aligned}
-f(a) & = \int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x \\
-f'(a) & = \int _0 ^{\frac \pi 2} \! \frac \partial {\partial a} \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x \\
-& = \int _0 ^{\frac \pi 2} \! \frac {\tan x} {\left( (a \tan x)^2 + 1 \right) \tan x} \,\mathrm{d}x \\
-& = \int _0 ^{\frac \pi 2} \! \frac 1 {a^2 \tan^2 x + 1} \, \mathrm{d}x \\
-& = \int _0 ^{\frac \pi 2} \! \frac {\sec^2 x} {\left( \tan^2 x + 1 \right) \left( a^2 \tan^2 x + 1 \right)} \,\mathrm{d}x \\
-& = \int _0 ^\infty \! \frac 1 {\left(x^2 + 1\right) \left(a^2 x^2 + 1\right)} \,\mathrm{d}x && (\text{change of variables } \tan x \mapsto x) \\
-& = \frac 1 {1 - a^2} \int _0 ^\infty \! \left( \frac 1 {x^2 + 1} - \frac {a^2} {a^2 x^2 + 1} \right) \,\mathrm{d}x \\
-& = \frac 1 {1 - a^2} [\arctan x - a \arctan ax] _{x = 0} ^{x = \infty} \\
-& = \frac 1 {1 - a^2} (1 - a) \frac \pi 2 && (\text{assume } a \ge 0) \\
-& = \frac \pi 2 \frac 1 {a + 1} \\
-f(a) & = \frac \pi 2 \int ^a \! \frac 1 {\xi + 1} \,\mathrm{d}\xi \\
-& = \frac \pi 2 \ln \lvert a + 1 \rvert + C \\
-f(0) & = \frac \pi 2 \ln \lvert 0 + 1 \rvert + C \\
-C & = \int _0 ^{\frac \pi 2} \! \frac {\arctan (0 \tan x)} {\tan x} \,\mathrm{d}x \\
-& = \int _0 ^{\frac \pi 2} \! 0 \,\mathrm{d}x \\
-& = 0 \\
-f(a) & = \frac \pi 2 \ln \lvert a + 1 \rvert \\
-f(1) & = \frac \pi 2 \ln \lvert 1 + 1 \rvert \\
-\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x & = \frac \pi 2 \ln 2
-\end{aligned}$$
+> f(a) & = \int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x \\
+> f'(a) & = \int _0 ^{\frac \pi 2} \! \frac \partial {\partial a} \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x \\
+> & = \int _0 ^{\frac \pi 2} \! \frac {\tan x} {\left( (a \tan x)^2 + 1 \right) \tan x} \,\mathrm{d}x \\
+> & = \int _0 ^{\frac \pi 2} \! \frac 1 {a^2 \tan^2 x + 1} \, \mathrm{d}x \\
+> & = \int _0 ^{\frac \pi 2} \! \frac {\sec^2 x} {\left( \tan^2 x + 1 \right) \left( a^2 \tan^2 x + 1 \right)} \,\mathrm{d}x \\
+> & = \int _0 ^\infty \! \frac 1 {\left(x^2 + 1\right) \left(a^2 x^2 + 1\right)} \,\mathrm{d}x && (\text{change of variables } \tan x \mapsto x) \\
+> & = \frac 1 {1 - a^2} \int _0 ^\infty \! \left( \frac 1 {x^2 + 1} - \frac {a^2} {a^2 x^2 + 1} \right) \,\mathrm{d}x \\
+> & = \frac 1 {1 - a^2} [\arctan x - a \arctan ax] _{x = 0} ^{x = \infty} \\
+> & = \frac 1 {1 - a^2} (1 - a) \frac \pi 2 && (\text{assume } a \ge 0) \\
+> & = \frac \pi 2 \frac 1 {a + 1} \\
+> f(a) & = \frac \pi 2 \int ^a \! \frac 1 {\xi + 1} \,\mathrm{d}\xi \\
+> & = \frac \pi 2 \ln \lvert a + 1 \rvert + C \\
+> f(0) & = \frac \pi 2 \ln \lvert 0 + 1 \rvert + C \\
+> C & = \int _0 ^{\frac \pi 2} \! \frac {\arctan (0 \tan x)} {\tan x} \,\mathrm{d}x \\
+> & = \int _0 ^{\frac \pi 2} \! 0 \,\mathrm{d}x \\
+> & = 0 \\
+> f(a) & = \frac \pi 2 \ln \lvert a + 1 \rvert \\
+> f(1) & = \frac \pi 2 \ln \lvert 1 + 1 \rvert \\
+> \int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x & = \frac \pi 2 \ln 2
+> \end{aligned}$$
 
 <!-- markdownlint MD028 -->
 
 > [!info]- proof for integral 3
 >
 > $$\begin{aligned}
-f(a) & = \int _0 ^\infty \! \frac{\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x \\
-f'(a) & = \int _0 ^\infty \! \frac \partial {\partial a} \frac{\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x \\
-& = \int _0 ^\infty \! \frac {2ax^2} {\left(1 + a^2 x^2\right) \left(1 + x^2\right)} \,\mathrm{d}x \\
-& = \frac {2a} {a^2 - 1} \int _0 ^\infty \! \left( \frac 1 {1 + x^2} - \frac 1 {1 + a^2 x^2} \right) \,\mathrm{d}x \\
-& = \frac {2a} {a^2 - 1} \left[ \arctan x - \frac 1 a \arctan ax \right] _0 ^\infty \\
-& = \frac {2a} {a^2 - 1} \frac \pi 2 \left(1 - \frac 1 a\right) && (\text{assume } a \ge 0) \\
-& = \pi \frac {a} {(a + 1) (a - 1)} \frac {a - 1} a \\
-& = \pi \frac 1 {a + 1} \\
-f(a) & = \pi \int ^a \! \frac 1 {\xi + 1} \,\mathrm{d}\xi \\
-& = \pi \ln \lvert a + 1 \rvert + C \\
-f(0) & = \pi \ln \lvert 0 + 1 \rvert + C \\
-C & = \int _0 ^\infty \! \frac {\ln \left(1 + 0^2 x^2\right)} {1 + x^2} \,\mathrm{d}x \\
-& = \int _0 ^\infty \! 0 \,\mathrm{d}x \\
-& = 0 \\
-f(a) & = \pi \ln \lvert a + 1 \rvert \\
-f(1) & = \pi \ln \lvert 1 + 1 \rvert \\
-\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x & = \pi \ln 2
-\end{aligned}$$
+> f(a) & = \int _0 ^\infty \! \frac{\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x \\
+> f'(a) & = \int _0 ^\infty \! \frac \partial {\partial a} \frac{\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x \\
+> & = \int _0 ^\infty \! \frac {2ax^2} {\left(1 + a^2 x^2\right) \left(1 + x^2\right)} \,\mathrm{d}x \\
+> & = \frac {2a} {a^2 - 1} \int _0 ^\infty \! \left( \frac 1 {1 + x^2} - \frac 1 {1 + a^2 x^2} \right) \,\mathrm{d}x \\
+> & = \frac {2a} {a^2 - 1} \left[ \arctan x - \frac 1 a \arctan ax \right] _0 ^\infty \\
+> & = \frac {2a} {a^2 - 1} \frac \pi 2 \left(1 - \frac 1 a\right) && (\text{assume } a \ge 0) \\
+> & = \pi \frac {a} {(a + 1) (a - 1)} \frac {a - 1} a \\
+> & = \pi \frac 1 {a + 1} \\
+> f(a) & = \pi \int ^a \! \frac 1 {\xi + 1} \,\mathrm{d}\xi \\
+> & = \pi \ln \lvert a + 1 \rvert + C \\
+> f(0) & = \pi \ln \lvert 0 + 1 \rvert + C \\
+> C & = \int _0 ^\infty \! \frac {\ln \left(1 + 0^2 x^2\right)} {1 + x^2} \,\mathrm{d}x \\
+> & = \int _0 ^\infty \! 0 \,\mathrm{d}x \\
+> & = 0 \\
+> f(a) & = \pi \ln \lvert a + 1 \rvert \\
+> f(1) & = \pi \ln \lvert 1 + 1 \rvert \\
+> \int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x & = \pi \ln 2
+> \end{aligned}$$
 
 <!-- markdownlint MD028 -->
 
 > [!info]- proof for integral 4
 >
 > $$\begin{aligned}
-f(a) & = \int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x && n \in \mathbb{N}_{\ge 0} \\
-& = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \int _0 ^1 \! x^a \,\mathrm{d}x \\
-& = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \left[ \frac {x^{a + 1}} {a + 1} \right]_{x = 0}^{x = 1} \\
-& = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \frac 1 {a + 1} \\
-& = \frac {\mathrm{d}^{n - 1}} {\mathrm{d}a^{n - 1}} \frac {-1} {(a + 1)^2} \\
-& = \frac {\mathrm{d}^{n - 2}} {\mathrm{d}a^{n - 2}} \frac {(-1)(-2)} {(a + 1)^3} \\
-& = \frac{(-1)^n n!}{(a + 1)^{n + 1}} \\
-f(n) & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \\
-\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \quad n \in \mathbb{N}_{\ge 0}
-\end{aligned}$$
+> f(a) & = \int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x && n \in \mathbb{N}_{\ge 0} \\
+> & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \int _0 ^1 \! x^a \,\mathrm{d}x \\
+> & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \left[ \frac {x^{a + 1}} {a + 1} \right]_{x = 0}^{x = 1} \\
+> & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \frac 1 {a + 1} \\
+> & = \frac {\mathrm{d}^{n - 1}} {\mathrm{d}a^{n - 1}} \frac {-1} {(a + 1)^2} \\
+> & = \frac {\mathrm{d}^{n - 2}} {\mathrm{d}a^{n - 2}} \frac {(-1)(-2)} {(a + 1)^3} \\
+> & = \frac{(-1)^n n!}{(a + 1)^{n + 1}} \\
+> f(n) & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \\
+> \int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \quad n \in \mathbb{N}_{\ge 0}
+> \end{aligned}$$
 
 <!-- markdownlint MD028 -->
 
@@ -464,35 +464,35 @@ f(n) & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \\
 > When $a = 0$, the integral is [conditionally convergent](conditional%20convergence.md), so it is not [Lebesgue integrable](Lebesgue%20integration.md), and the conditions of [Leibniz integral rule § measure theory statement](#measure%20theory%20statement) are not satisfied. Assuming $a > 0$ so that the integral is Lebesgue integrable for applying the Leibniz integral rule:
 >
 > $$\begin{aligned}
-f(a) & = \int_0^\infty e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
-f'(a) & = -\int_0^\infty e^{-ax} \sin x \,\mathrm{d}x \\
-& = -\left[-e^{-ax} \cos x\right]_0^\infty + a \int_0^\infty e^{-ax} \cos x \,\mathrm{d}x \\
-& = \left[e^{-ax} \cos x\right]_0^\infty + a \left[e^{-ax} \sin x\right]_0^\infty + a^2 \int_0^\infty e^{-ax} \sin x \,\mathrm{d}x \\
-& = \left[e^{-ax} \cos x\right]_0^\infty + a \left[e^{-ax} \sin x\right]_0^\infty - a^2 f'(a) \\
-& = \frac{\left[e^{-ax} \cos x\right]_0^\infty + a \left[e^{-ax} \sin x\right]_0^\infty}{1 + a^2} \\
-& = \frac{(0 - 1)+a(0 - 0)}{1 + a^2} \\
-& = -\frac{1}{1 + a^2} \\
-f(a) & = \int\! f'(\xi) \,\mathrm{d}\xi \\
-& = -\int\! \frac{1}{1 + \xi^2} \,\mathrm{d}\xi \\
-& = - \arctan a + C
-\end{aligned}$$
+> f(a) & = \int_0^\infty e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
+> f'(a) & = -\int_0^\infty e^{-ax} \sin x \,\mathrm{d}x \\
+> & = -\left[-e^{-ax} \cos x\right]_0^\infty + a \int_0^\infty e^{-ax} \cos x \,\mathrm{d}x \\
+> & = \left[e^{-ax} \cos x\right]_0^\infty + a \left[e^{-ax} \sin x\right]_0^\infty + a^2 \int_0^\infty e^{-ax} \sin x \,\mathrm{d}x \\
+> & = \left[e^{-ax} \cos x\right]_0^\infty + a \left[e^{-ax} \sin x\right]_0^\infty - a^2 f'(a) \\
+> & = \frac{\left[e^{-ax} \cos x\right]_0^\infty + a \left[e^{-ax} \sin x\right]_0^\infty}{1 + a^2} \\
+> & = \frac{(0 - 1)+a(0 - 0)}{1 + a^2} \\
+> & = -\frac{1}{1 + a^2} \\
+> f(a) & = \int\! f'(\xi) \,\mathrm{d}\xi \\
+> & = -\int\! \frac{1}{1 + \xi^2} \,\mathrm{d}\xi \\
+> & = - \arctan a + C
+> \end{aligned}$$
 >
 > Find $C$ by taking the [limit](limit%20of%20a%20function.md) at $\infty$:
 >
 > $$\begin{aligned}
-\lim_{a \to \infty} \lvert f(a) \rvert & = \lim_{a \to 0} \left\lvert \int_0^\infty e^{-ax} \frac{\sin x}x \,\mathrm{d}x \right\rvert \\
-& \le \lim_{a \to \infty} \int_0^\infty \left\lvert e^{-ax} \frac{\sin x}x \right\rvert \,\mathrm{d}x \\
-&= \lim_{a \to \infty} \int_0^\infty e^{-ax} \left\lvert \frac{\sin x}x \right\rvert \,\mathrm{d}x && \left(e^{-ax} \ge 0 \right) \\
-& \le \lim_{a \to \infty} \int_0^\infty e^{-ax} \,\mathrm{d}x && \left(\left\lvert \frac{\sin x}x \right\rvert \le 1\right) \\
-& = -\lim_{a \to \infty} \frac1a \left[e^{-ax}\right]_{x = 0}^{x = \infty} \\
-& = \lim_{a \to \infty} \frac1a \\
-& = 0 \\
-\lim_{a \to \infty} \lvert f(a) \rvert & = 0 && (0 \le \lvert f(a) \rvert \le 0) \\
-\lim_{a \to \infty} f(a) & = 0 \\
-\lim_{a \to \infty} (- \arctan a + C) & = 0\\
--\frac\pi2 + C & = 0 \\
-C & = \frac\pi2
-\end{aligned}$$
+> \lim_{a \to \infty} \lvert f(a) \rvert & = \lim_{a \to 0} \left\lvert \int_0^\infty e^{-ax} \frac{\sin x}x \,\mathrm{d}x \right\rvert \\
+> & \le \lim_{a \to \infty} \int_0^\infty \left\lvert e^{-ax} \frac{\sin x}x \right\rvert \,\mathrm{d}x \\
+> &= \lim_{a \to \infty} \int_0^\infty e^{-ax} \left\lvert \frac{\sin x}x \right\rvert \,\mathrm{d}x && \left(e^{-ax} \ge 0 \right) \\
+> & \le \lim_{a \to \infty} \int_0^\infty e^{-ax} \,\mathrm{d}x && \left(\left\lvert \frac{\sin x}x \right\rvert \le 1\right) \\
+> & = -\lim_{a \to \infty} \frac1a \left[e^{-ax}\right]_{x = 0}^{x = \infty} \\
+> & = \lim_{a \to \infty} \frac1a \\
+> & = 0 \\
+> \lim_{a \to \infty} \lvert f(a) \rvert & = 0 && (0 \le \lvert f(a) \rvert \le 0) \\
+> \lim_{a \to \infty} f(a) & = 0 \\
+> \lim_{a \to \infty} (- \arctan a + C) & = 0\\
+> -\frac\pi2 + C & = 0 \\
+> C & = \frac\pi2
+> \end{aligned}$$
 >
 > Hence:
 >
@@ -501,73 +501,73 @@ C & = \frac\pi2
 > Now we need to prove that the original integral we want to solve equals $\lim_{a \to 0^+} f(a)$ to use the above expression. This is because even though $f(0)$ is the original integral by definition, $f(0) \not\equiv \lim_{a \to 0^+} f(a)$. We show that the original integral equals a [convergent](convergent%20series.md) integral:
 >
 > $$\begin{aligned}
-\int_0^\infty\! \frac{\sin x}x \,\mathrm{d}x & = \int_0^\infty\! \frac{\sin \frac{x}2 \cos \frac{x}2}{\frac{x}2} \,\mathrm{d}x \\
-& = 2 \int_0^\infty\! \frac{\sin x \cos x}{x} \,\mathrm{d}x && \left( \text{change of variables } \frac{x}2 \mapsto x \right) \\
-& = 2 \int_{x = 0}^{x = \infty} \frac{\sin x}x \,\mathrm{d}(\sin x) && (\text{substitution}) \\
-& = 2\left[ \frac{\sin^2 x}x \right]_{x = 0}^{x = \infty} - 2\int_{x = 0}^{x = \infty}\! \sin x \,\mathrm{d}\!\left(\frac{\sin x}x\right) && (\text{integration by parts}) \\
-& = - 2\int_0^\infty\! \frac{\sin x(x \cos x - \sin x)}{x^2} \,\mathrm{d}x \\
-& = - 2\int_0^\infty\! \frac{\sin x \cos x}x \,\mathrm{d}x + 2\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-& = -\int_0^\infty\! \frac{\sin x}x \,\mathrm{d}x + 2 \int_0^\infty \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-& = \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x
-\end{aligned}$$
+> \int_0^\infty\! \frac{\sin x}x \,\mathrm{d}x & = \int_0^\infty\! \frac{\sin \frac{x}2 \cos \frac{x}2}{\frac{x}2} \,\mathrm{d}x \\
+> & = 2 \int_0^\infty\! \frac{\sin x \cos x}{x} \,\mathrm{d}x && \left( \text{change of variables } \frac{x}2 \mapsto x \right) \\
+> & = 2 \int_{x = 0}^{x = \infty} \frac{\sin x}x \,\mathrm{d}(\sin x) && (\text{substitution}) \\
+> & = 2\left[ \frac{\sin^2 x}x \right]_{x = 0}^{x = \infty} - 2\int_{x = 0}^{x = \infty}\! \sin x \,\mathrm{d}\!\left(\frac{\sin x}x\right) && (\text{integration by parts}) \\
+> & = - 2\int_0^\infty\! \frac{\sin x(x \cos x - \sin x)}{x^2} \,\mathrm{d}x \\
+> & = - 2\int_0^\infty\! \frac{\sin x \cos x}x \,\mathrm{d}x + 2\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> & = -\int_0^\infty\! \frac{\sin x}x \,\mathrm{d}x + 2 \int_0^\infty \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> & = \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x
+> \end{aligned}$$
 >
 > The resulting [integral](integral.md) is [absolutely convergent](absolute%20convergence.md). We can perform the same operation on $f(a)$:
 >
 > $$\begin{aligned}
-f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
-& = \int_0^\infty\! e^{-ax} \frac{\sin \frac{x}2 \cos \frac{x}2}{\frac{x}2} \,\mathrm{d}x \\
-& = 2 \int_0^\infty\! e^{-2ax} \frac{\sin x \cos x}x \,\mathrm{d}x && \left( \text{change of variables } \frac{x}2 \mapsto x \right) \\
-& = 2 \int_{x = 0}^{x = \infty}\! e^{-2ax} \frac{\sin x}x \,\mathrm{d}(\sin x) && (\text{substitution}) \\
-& = 2 \left[ e^{-2ax} \frac{\sin^2 x}x \right]_0^\infty - 2 \int_{x = 0}^{x = \infty}\! \sin x \,\mathrm{d}\!\left(e^{-2ax} \frac{\sin x}x\right) && (\text{integration by parts}) \\
-& = -2 \int_0^\infty\! \frac{\sin x \left(-2a e^{-2ax} x \sin x + e^{-2ax} x \cos x - e^{-2ax} \sin x\right)}{x^2} \,\mathrm{d}x \\
-& = 4a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x - 2 \int_0^\infty\! e^{-2ax} \frac{\sin x \cos x}{x} \,\mathrm{d}x + 2 \int_0^\infty e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x \\
-& = - f(a) + 4a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x + 2 \int_0^\infty e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x \\
-& = 2a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x + \int_0^\infty e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x
-\end{aligned}$$
+> f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
+> & = \int_0^\infty\! e^{-ax} \frac{\sin \frac{x}2 \cos \frac{x}2}{\frac{x}2} \,\mathrm{d}x \\
+> & = 2 \int_0^\infty\! e^{-2ax} \frac{\sin x \cos x}x \,\mathrm{d}x && \left( \text{change of variables } \frac{x}2 \mapsto x \right) \\
+> & = 2 \int_{x = 0}^{x = \infty}\! e^{-2ax} \frac{\sin x}x \,\mathrm{d}(\sin x) && (\text{substitution}) \\
+> & = 2 \left[ e^{-2ax} \frac{\sin^2 x}x \right]_0^\infty - 2 \int_{x = 0}^{x = \infty}\! \sin x \,\mathrm{d}\!\left(e^{-2ax} \frac{\sin x}x\right) && (\text{integration by parts}) \\
+> & = -2 \int_0^\infty\! \frac{\sin x \left(-2a e^{-2ax} x \sin x + e^{-2ax} x \cos x - e^{-2ax} \sin x\right)}{x^2} \,\mathrm{d}x \\
+> & = 4a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x - 2 \int_0^\infty\! e^{-2ax} \frac{\sin x \cos x}{x} \,\mathrm{d}x + 2 \int_0^\infty e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x \\
+> & = - f(a) + 4a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x + 2 \int_0^\infty e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x \\
+> & = 2a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x + \int_0^\infty e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x
+> \end{aligned}$$
 >
 > The resulting [integrals](integral.md) are [convergent](convergent%20series.md). Now we take the right-sided [limit](limit%20of%20a%20function.md) of the above result at $0$ to show that it equals our original integral to be solved:
 >
 > $$\begin{aligned}
-\lim_{a \to 0^+} f(a) & = \lim_{a \to 0^+} \left( 2a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x + \int_0^\infty\! e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x \right) \\
-& = \lim_{a \to 0^+} \left( 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x + \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) && (\text{change of variables } \lvert a \rvert x \mapsto x) \\
-& = \lim_{a \to 0^+} 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x + \lim_{a \to 0^+} \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && (\text{both integrals are convergent})
-\end{aligned}$$
+> \lim_{a \to 0^+} f(a) & = \lim_{a \to 0^+} \left( 2a \int_0^\infty\! e^{-2ax} \frac{\sin^2 x}x \,\mathrm{d}x + \int_0^\infty\! e^{-2ax} \left( \frac{\sin x}x \right)^2 \,\mathrm{d}x \right) \\
+> & = \lim_{a \to 0^+} \left( 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x + \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) && (\text{change of variables } \lvert a \rvert x \mapsto x) \\
+> & = \lim_{a \to 0^+} 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x + \lim_{a \to 0^+} \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && (\text{both integrals are convergent})
+> \end{aligned}$$
 >
 > Evaluate the [limits](limit%20of%20a%20function.md) of two [integrals](integral.md) separately. For the first integral, it equals zero as $a \to 0^+$:
 >
 > $$\begin{aligned}
-0 \le \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & = 2a \int_0^\infty\! \left\lvert e^{-2x} \frac{\sin^2 \frac{x}a}{x} \right\rvert \,\mathrm{d}x && (\text{assuming } a > 0) \\
-& = 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac{x}a}{x} \,\mathrm{d}x \\
-& = 2a \left(\int_0^a\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x + \int_a^1\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x \right) \\
-& \le 2a \left(\int_0^a\! \frac{\frac {x^2} {a^2}}{x} \,\mathrm{d}x + \int_a^1\! \frac{1}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \,\mathrm{d}x \right) && (\text{replace integrands with larger integrands}) \\
-& = 2a \left(\frac12 - \ln a + \frac1{2 e^2} \right) \\
-0 \le \lim_{a \to 0^+} \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & \le \lim_{a \to 0^+} 2a \left(\frac12 - \ln a + \frac1{2 e^2} \right) \\
-& = 0 \\
-\lim_{a \to 0^+} \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & = 0 \\
-\lim_{a \to 0^+} 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x & = 0
-\end{aligned}$$
+> 0 \le \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & = 2a \int_0^\infty\! \left\lvert e^{-2x} \frac{\sin^2 \frac{x}a}{x} \right\rvert \,\mathrm{d}x && (\text{assuming } a > 0) \\
+> & = 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac{x}a}{x} \,\mathrm{d}x \\
+> & = 2a \left(\int_0^a\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x + \int_a^1\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x \right) \\
+> & \le 2a \left(\int_0^a\! \frac{\frac {x^2} {a^2}}{x} \,\mathrm{d}x + \int_a^1\! \frac{1}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \,\mathrm{d}x \right) && (\text{replace integrands with larger integrands}) \\
+> & = 2a \left(\frac12 - \ln a + \frac1{2 e^2} \right) \\
+> 0 \le \lim_{a \to 0^+} \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & \le \lim_{a \to 0^+} 2a \left(\frac12 - \ln a + \frac1{2 e^2} \right) \\
+> & = 0 \\
+> \lim_{a \to 0^+} \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & = 0 \\
+> \lim_{a \to 0^+} 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x & = 0
+> \end{aligned}$$
 >
 > For the second [integral](integral.md), we will prove that it equals $\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x$ as $a \to 0^+$ by the [dominated convergence theorem](dominated%20convergence%20theorem.md):
 >
 > $$\begin{aligned}
-\lim_{a \to 0^+} \int_0^\infty e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty \lim_{a \to 0^+} e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && \left( \text{the integrand is dominated by } \left(\frac{\sin x}x\right)^2 \text{ on } (0, \infty) \text{ when } a > 0 \right) \\
-& = \int_0^\infty \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x
-\end{aligned}$$
+> \lim_{a \to 0^+} \int_0^\infty e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty \lim_{a \to 0^+} e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && \left( \text{the integrand is dominated by } \left(\frac{\sin x}x\right)^2 \text{ on } (0, \infty) \text{ when } a > 0 \right) \\
+> & = \int_0^\infty \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x
+> \end{aligned}$$
 >
 > Alternatively, manipulate the second [integral](integral.md) algebraically:
 >
 > $$\begin{aligned}
-0 \le \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-& = \int_0^{\frac1{\sqrt a}}\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-& \le \int_0^{\frac1{\sqrt a}}\! \left(1 - e^{-2a \frac1{\sqrt a}}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && (\text{replace integrands with larger integrands, assuming } a > 0) \\
-& = \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-0 \le \lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & \le \lim_{a \to 0^+} \left( \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) \\
-& = 0 + 0 && \left(\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \text{ is convergent}\right) \\
-& = 0 \\
-\lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & = 0 \\
-\lim_{a \to 0^+} \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \lim_{a \to 0^+} \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = 0 && (\text{both integrals are convergent}) \\
-\lim_{a \to 0^+} \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x
-\end{aligned}$$
+> 0 \le \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> & = \int_0^{\frac1{\sqrt a}}\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> & \le \int_0^{\frac1{\sqrt a}}\! \left(1 - e^{-2a \frac1{\sqrt a}}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && (\text{replace integrands with larger integrands, assuming } a > 0) \\
+> & = \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> 0 \le \lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & \le \lim_{a \to 0^+} \left( \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) \\
+> & = 0 + 0 && \left(\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \text{ is convergent}\right) \\
+> & = 0 \\
+> \lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & = 0 \\
+> \lim_{a \to 0^+} \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \lim_{a \to 0^+} \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = 0 && (\text{both integrals are convergent}) \\
+> \lim_{a \to 0^+} \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x
+> \end{aligned}$$
 >
 > Hence, add the above results to produce another expression for $f(a)$ as $a \to 0^+$:
 >
@@ -576,11 +576,11 @@ f(a) & = \int_0^\infty\! e^{-ax} \frac{\sin x}x \,\mathrm{d}x \\
 > Finally, evaluate the [limit](limit%20of%20a%20function.md) of $f(a)$ as $a \to 0^+$, equating both expressions of $f(a)$:
 >
 > $$\begin{aligned}
-\lim_{a \to 0^+} f(a) & = \lim_{a \to 0^+} f(a) \\
-\lim_{a \to 0^+} \left(-\arctan a + \frac\pi2\right) & = \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \frac\pi2 \\
-\int_0^\infty\! \frac{\sin x}x \,\mathrm{d}x & = \frac\pi2
-\end{aligned}$$
+> \lim_{a \to 0^+} f(a) & = \lim_{a \to 0^+} f(a) \\
+> \lim_{a \to 0^+} \left(-\arctan a + \frac\pi2\right) & = \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \frac\pi2 \\
+> \int_0^\infty\! \frac{\sin x}x \,\mathrm{d}x & = \frac\pi2
+> \end{aligned}$$
 
 <!-- markdownlint MD028 -->
 

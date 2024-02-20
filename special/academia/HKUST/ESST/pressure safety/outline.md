@@ -236,41 +236,41 @@ safety: fusible pressure release plug or efficient low-water alarm
 return await memorize_seq(
   __env__.cwf_sects("9012", "33bb",),
   """
+design: correct fittings and regulators
+design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
 operator: close inactive valves
 operator: frequent examination for damages
 operator: keep upright
 operator: mark empty cylinders
 operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
-design: correct fittings and regulators
-design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-19T20:13:02.996252+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-20T13:14:06.434725+08:00. Any edits will be overridden! -->
 
-> 1. operator: close inactive valves
-> 2. operator: frequent examination for damages
-> 3. operator: keep upright
-> 4. operator: mark empty cylinders
-> 5. operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
-> 6. design: correct fittings and regulators
-> 7. design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
+> 1. design: correct fittings and regulators
+> 2. design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
+> 3. operator: close inactive valves
+> 4. operator: frequent examination for damages
+> 5. operator: keep upright
+> 6. operator: mark empty cylinders
+> 7. operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-19T20:13:03.019454+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-20T13:14:06.445729+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←operator: close inactive valves <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
+- _(begin)_→:::←design: correct fittings and regulators <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
+- design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
+- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves <!--SR:!2024-02-20,1,246!2024-02-23,4,283-->
 - operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
 - operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
 - operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-02-20,1,243!2024-02-20,1,246-->
-- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←design: correct fittings and regulators <!--SR:!2024-02-20,1,246!2024-02-20,1,246-->
-- design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
+- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-20,1,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -287,7 +287,7 @@ examinable with safely accessible interior
 expected working life
 fluid properties
 operating limits, like valve operating conditions
-proper material
+proper materials
 protective devices that release contents do so safely
 """.strip().splitlines(),
 )
@@ -295,25 +295,25 @@ protective devices that release contents do so safely
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T20:13:03.070208+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T20:56:23.901793+08:00. Any edits will be overridden! -->
 
 > 1. examinable with safely accessible interior
 > 2. expected working life
 > 3. fluid properties
 > 4. operating limits, like valve operating conditions
-> 5. proper material
+> 5. proper materials
 > 6. protective devices that release contents do so safely
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:13:03.051484+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-02-22,3,266!2024-02-22,3,263-->
 - examinable with safely accessible interior→:::←expected working life <!--SR:!2024-02-22,3,266!2024-02-23,4,283-->
 - expected working life→:::←fluid properties <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
 - fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-02-20,1,246!2024-02-22,3,266-->
-- operating limits, like valve operating conditions→:::←proper material <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
-- proper material→:::←protective devices that release contents do so safely <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
+- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-02-22,3,266!2024-02-20,1,246-->
+- proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-02-23,4,286!2024-02-23,4,283-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-20,1,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
