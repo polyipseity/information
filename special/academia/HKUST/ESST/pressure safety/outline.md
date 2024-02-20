@@ -461,7 +461,7 @@ return await memorize_seq(
   """
 design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 design: high flashpoint hydraulic oil
-design: proper construction, design, and material
+design: proper construction, design, and materials
 operator: frequent examination for damages
 operator: pressurize in stages
 operator: segregate and indicate work area
@@ -471,23 +471,23 @@ operator: segregate and indicate work area
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-19T20:13:03.157195+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-20T13:55:14.042175+08:00. Any edits will be overridden! -->
 
 > 1. design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 > 2. design: high flashpoint hydraulic oil
-> 3. design: proper construction, design, and material
+> 3. design: proper construction, design, and materials
 > 4. operator: frequent examination for damages
 > 5. operator: pressurize in stages
 > 6. operator: segregate and indicate work area
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-19T20:13:03.144600+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 - design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil
-- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and material
-- design: proper construction, design, and material→:::←operator: frequent examination for damages
+- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials
+- design: proper construction, design, and materials→:::←operator: frequent examination for damages
 - operator: frequent examination for damages→:::←operator: pressurize in stages
 - operator: pressurize in stages→:::←operator: segregate and indicate work area
 - operator: segregate and indicate work area→:::←_(end)_
