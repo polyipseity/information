@@ -113,6 +113,8 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
+### conversion
+
 One cannot usually assign a value of a type to a variable {{declared with a different type}}:
 
 ```Java
@@ -128,7 +130,7 @@ float aFloat = 3; // the `int` of value 3 is implicitly converted into a `float`
 assert aFloat == 3;
 ```
 
-One can also {{explicitly convert the value to the type of the variable, but with loss of data}}:
+If implicit conversion is disallowed, one can also {{explicitly convert the value to the type of the variable, but with loss of data}}:
 
 ```Java
 int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly converted into an `int` of value 3
@@ -313,7 +315,7 @@ headers = "operator", "description"
 table = (
   ("`!`", "negate",),
   ("`&&`", "and",),
-  ("`||`", "or",),
+  ("<code>&#124;&#124;</code>", "or",),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -330,29 +332,29 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-02-20T14:26:41.018968+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
 > | `!` | negate |
 > | `&&` | and |
-> | `\|\|` | or |
+> | <code>&#124;&#124;</code> | or |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.738334+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-02-20T14:26:40.998968+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`!`
 - `!`→:::←`&&`
-- `&&`→:::←`||`
-- `||`→:::←_(end)_
+- `&&`→:::←<code>&#124;&#124;</code>
+- <code>&#124;&#124;</code>→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.752902+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-20T14:26:41.011968+08:00. Any edits will be overridden! -->
 
 - `!`::negate
 - `&&`::and
-- `||`::or
+- <code>&#124;&#124;</code>::or
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
