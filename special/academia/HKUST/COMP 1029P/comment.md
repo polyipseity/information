@@ -13,7 +13,7 @@ tags:
 
 ## comment
 
-In Python, comments start {{with `#` and end at end of line}}: <!--SR:!2024-02-20,15,290-->
+In Python, comments start {{with `#` and end at end of line}}: <!--SR:!2024-04-23,63,310-->
 
 ```Python
 a = 1 # assign 1 to `a`

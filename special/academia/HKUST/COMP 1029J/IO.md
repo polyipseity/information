@@ -25,12 +25,12 @@ printing
 */
 ```
 
-One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-02-21,17,290!2024-02-20,16,290-->
+One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-02-21,17,290!2024-04-20,60,310-->
 
 To align output, a primitive way is {{using the tab character `\t`, which usually aligns text in 8-character intervals}}. <!--SR:!2024-04-07,50,310-->
 
 ## input
 
-While we can use {{`System.in` directly}}, it is easier to use {{`java.util.Scanner` to read the input: `Scanner scanner = new Scanner(System.in);`}}. <!--SR:!2024-04-19,60,310!2024-02-20,16,290-->
+While we can use {{`System.in` directly}}, it is easier to use {{`java.util.Scanner` to read the input: `Scanner scanner = new Scanner(System.in);`}}. <!--SR:!2024-04-19,60,310!2024-04-21,61,310-->
 
 To ask the user for input, use {{`String input = scanner.nextLine();`}}. Since our constructed `Scanner` uses `System.in`, the code {{blocks until the user has entered the input and pressed the enter key, and the input excluding the newline is returned and assigned to `input`}}. if `next()` is used instead, the difference is {{the returned string only contains the text just before the next delimiter (by default spaces). Any further `nextLine()` or `next()` do not block and process the rest of the string after the delimiter as if the remaining string is inputted by the user. This is true until the rest of the string is all processed}}. <!--SR:!2024-04-17,59,310!2024-03-10,26,270!2024-03-24,38,290-->

@@ -68,7 +68,7 @@ return await memorize_table(
 - _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 - affirming the consequent→:::←appeal to authority <!--SR:!2024-04-15,90,275!2024-04-23,278,315-->
 - appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-- appeal to tradition→:::←guilt by association <!--SR:!2024-02-20,3,130!2024-04-02,226,275-->
+- appeal to tradition→:::←guilt by association <!--SR:!2024-02-24,4,130!2024-04-02,226,275-->
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
@@ -219,7 +219,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2024-04-05,261,315!2024-02-20,190,235!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2024-04-05,261,315!2024-05-23,93,215!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -433,7 +433,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-03-08,28,170!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-02-20,13,150!2024-08-18,268,230-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-03-09,18,150!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-02-28,21,130-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

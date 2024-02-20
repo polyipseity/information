@@ -26,7 +26,7 @@ A mixture is {{either _[homogeneous](#homogeneous%20mixture)_ or _[heterogeneous
 
 ### homogeneous mixture
 
-A homogeneous mixture has {{uniformly distributed constituents}}. <!--SR:!2024-02-20,208,270-->
+A homogeneous mixture has {{uniformly distributed constituents}}. <!--SR:!2026-04-13,783,290-->
 
 ### heterogeneous mixture
 

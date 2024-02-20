@@ -718,7 +718,7 @@ testing materials
 
 - _(begin)_→:::←budgeting
 - budgeting→:::←contracts
-- contracts→:::←designing temporary structures <!--SR:!2024-02-20,1,235!2000-01-01,1,250-->
+- contracts→:::←designing temporary structures <!--SR:!2024-02-21,1,215!2000-01-01,1,250-->
 - designing temporary structures→:::←logistics
 - logistics→:::←planning
 - planning→:::←procuring materials

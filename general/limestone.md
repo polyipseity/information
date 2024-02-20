@@ -44,7 +44,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[construction](construction.md) <!--SR:!2024-10-17,415,310!2024-02-23,249,330-->
 - [construction](construction.md)→:::←[glass making](glass%20making.md) <!--SR:!2024-03-09,226,290!2025-12-20,697,310-->
-- [glass making](glass%20making.md)→:::←raw material <!--SR:!2024-02-20,19,190!2025-06-27,573,310-->
+- [glass making](glass%20making.md)→:::←raw material <!--SR:!2024-03-26,35,190!2025-06-27,573,310-->
 - raw material→:::←_(end)_ <!--SR:!2026-09-18,969,330!2024-04-03,100,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

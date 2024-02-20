@@ -72,11 +72,11 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-01-31T22:17:45.602573+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Boolean <!--SR:!2024-02-23,18,305!2024-04-19,60,310-->
-- Boolean→:::←Double <!--SR:!2024-02-20,15,290!2024-02-22,17,290-->
-- Double→:::←Integer <!--SR:!2024-02-22,17,290!2024-02-20,15,290-->
+- Boolean→:::←Double <!--SR:!2024-04-22,62,310!2024-02-22,17,290-->
+- Double→:::←Integer <!--SR:!2024-02-22,17,290!2024-04-23,63,310-->
 - Integer→:::←Long <!--SR:!2024-04-02,43,290!2024-02-23,18,305-->
 - Long→:::←Single <!--SR:!2024-02-23,18,305!2024-02-23,18,305-->
-- Single→:::←_(end)_ <!--SR:!2024-02-20,15,290!2024-02-22,17,290-->
+- Single→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-02-22,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-02-20,15,290-->
+One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-04-24,64,310-->
 
 ```VB
 Dim ADouble As Double, AnObject As Object

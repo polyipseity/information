@@ -10,7 +10,7 @@ tags:
 
 ## common data types
 
-- date and time data types ::: `DATE`, `DATETIME`, `TIME`, `TIMESTAMP`, `YEAR` <!--SR:!2024-02-20,109,310!2025-02-13,394,330-->
+- date and time data types ::: `DATE`, `DATETIME`, `TIME`, `TIMESTAMP`, `YEAR` <!--SR:!2025-01-24,339,310!2025-02-13,394,330-->
   - `DATE` ::: `YYYY-MM-DD` that ranges from `1000-01-01` to `9999-12-31`. <!--SR:!2025-01-04,364,330!2024-03-14,98,290-->
   - `DATETIME` ::: `YYYY-MM-DD hh:mm:ss[.fraction]` that ranges from `1000-01-01 00:00:00.000000` to `9999-12-31 23:59:59.499999`. <!--SR:!2025-03-10,411,330!2024-03-22,67,270-->
   - `TIME` ::: `hh[h]:mm:ss[.fraction]` that ranges from `-838:59:59.000000` to `838:59:59.000000`. <!--SR:!2025-03-31,431,330!2024-03-11,37,190-->
@@ -42,4 +42,4 @@ tags:
     - `TINYTEXT` ::: Up to 2<sup>8</sup> - 1 bytes of string. <!--SR:!2024-02-28,48,290!2025-03-23,424,330-->
     - `TEXT` ::: Up to 2<sup>16</sup> - 1 bytes of string. <!--SR:!2024-05-07,116,290!2025-04-25,437,330-->
     - `MEDIUMTEXT` ::: Up to 2<sup>24</sup> - 1 bytes of string. <!--SR:!2025-02-22,401,330!2024-12-08,341,330-->
-    - `LONGTEXT` ::: Up to 2<sup>32</sup> - 1 bytes of string. <!--SR:!2024-06-14,182,290!2024-02-20,109,310-->
+    - `LONGTEXT` ::: Up to 2<sup>32</sup> - 1 bytes of string. <!--SR:!2024-06-14,182,290!2024-04-16,56,290-->

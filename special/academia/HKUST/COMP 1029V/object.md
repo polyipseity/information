@@ -13,7 +13,7 @@ A VBA class ~~is never~~ could be complete without teaching objects... But we wi
 
 ## class
 
-To create an object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}: <!--SR:!2024-02-21,16,290!2024-02-20,15,290-->
+To create an object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}: <!--SR:!2024-02-21,16,290!2024-04-20,60,310-->
 
 ```VB
 Public HaHa As String
@@ -49,7 +49,7 @@ A method is declared like a {{[subroutine or function](subroutine%20and%20functi
 
 ### constructor
 
-VBA {{only supports constructors with no parameters by having a subroutine named `Class_Initialize`, but not parameterized constructors natively}}. However, we can emulate the latter by {{adding a subroutine that acts like a constructor and hopes the user remembers to call the constructor after creating the object}}. A better method is using {{the factory pattern, but it will not be introduced here}}. Using the example above: <!--SR:!2024-04-07,49,310!2024-02-20,15,290!2024-02-23,18,300-->
+VBA {{only supports constructors with no parameters by having a subroutine named `Class_Initialize`, but not parameterized constructors natively}}. However, we can emulate the latter by {{adding a subroutine that acts like a constructor and hopes the user remembers to call the constructor after creating the object}}. A better method is using {{the factory pattern, but it will not be introduced here}}. Using the example above: <!--SR:!2024-04-07,49,310!2024-04-16,56,310!2024-02-23,18,300-->
 
 ```VB
 Sub Initialize(ByVal NewHaHa As String, ByVal NewHeHe As Double)

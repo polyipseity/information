@@ -20,7 +20,7 @@ if (condition)
 
 The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-07,50,310-->
 
-An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-02-20,16,290-->
+An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-04-27,67,310-->
 
 ```Java
 if (condition)
@@ -29,7 +29,7 @@ else
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-20,16,290-->
+The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-26,66,310-->
 
 One can chain `if...else` by {{using another `if...else` statement as the `else` statement}}: <!--SR:!2024-02-21,17,290-->
 
@@ -106,7 +106,7 @@ while (condition)
   statement_block
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-02-20,16,290-->
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-04-25,65,310-->
 
 One can also first run the statement block instead of the condition by using a `do...while` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-04-14,56,310-->
 

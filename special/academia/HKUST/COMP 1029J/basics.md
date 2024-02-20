@@ -94,8 +94,8 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-04-07,50,310-->
 - `String`→:::←`boolean` <!--SR:!2024-04-13,56,310!2024-04-20,61,310-->
-- `boolean`→:::←`char` <!--SR:!2024-02-20,16,290!2024-02-21,17,290-->
-- `char`→:::←`double` <!--SR:!2024-03-29,44,290!2024-02-20,16,290-->
+- `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-02-21,17,290-->
+- `char`→:::←`double` <!--SR:!2024-03-29,44,290!2024-04-21,61,310-->
 - `double`→:::←`float` <!--SR:!2024-03-30,41,290!2024-04-11,54,310-->
 - `float`→:::←`int` <!--SR:!2024-03-24,36,290!2024-02-21,17,290-->
 - `int`→:::←_(end)_ <!--SR:!2024-04-17,59,310!2024-04-08,51,310-->
@@ -106,7 +106,7 @@ return _chain.from_iterable(await _gather(
 
 - `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-04-17,58,310-->
 - `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-04-15,56,310-->
-- `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-02-20,16,290-->
+- `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-04-28,68,310-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-04-13,56,310-->
 - `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-04-16,58,310-->
 - `int`::An integer. Example: `42` <!--SR:!2024-04-12,55,310-->
@@ -128,7 +128,7 @@ float aFloat = 3; // the `int` of value 3 is implicitly converted into a `float`
 assert aFloat == 3;
 ```
 
-One can also {{explicitly convert the value to the type of the variable, but with loss of data}}: <!--SR:!2024-02-20,16,290-->
+One can also {{explicitly convert the value to the type of the variable, but with loss of data}}: <!--SR:!2024-04-28,68,310-->
 
 ```Java
 int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly converted into an `int` of value 3
@@ -206,10 +206,10 @@ return _chain.from_iterable(await _gather(
 - `++`→:::←`--` <!--SR:!2024-04-22,63,310!2024-02-21,17,290-->
 - `--`→:::←`*` <!--SR:!2024-03-20,35,290!2024-03-31,45,290-->
 - `*`→:::←`/` <!--SR:!2024-04-15,57,310!2024-04-15,57,310-->
-- `/`→:::←`%` <!--SR:!2024-02-20,16,290!2024-03-23,37,290-->
+- `/`→:::←`%` <!--SR:!2024-04-22,62,310!2024-03-23,37,290-->
 - `%`→:::←`+` <!--SR:!2024-02-21,17,290!2024-03-27,42,290-->
-- `+`→:::←`-` <!--SR:!2024-02-21,17,290!2024-02-20,16,290-->
-- `-`→:::←_(end)_ <!--SR:!2024-04-06,49,310!2024-02-20,16,290-->
+- `+`→:::←`-` <!--SR:!2024-02-21,17,290!2024-04-26,66,310-->
+- `-`→:::←_(end)_ <!--SR:!2024-04-06,49,310!2024-04-23,63,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -220,8 +220,8 @@ return _chain.from_iterable(await _gather(
 - `*`::multiplication <!--SR:!2024-02-21,17,290-->
 - `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-03-31,42,290-->
 - `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2024-03-27,39,290-->
-- `+`::addition <!--SR:!2024-02-20,16,290-->
-- `-`::subtraction <!--SR:!2024-02-20,16,290-->
+- `+`::addition <!--SR:!2024-04-22,62,310-->
+- `-`::subtraction <!--SR:!2024-04-21,61,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -275,12 +275,12 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`<` <!--SR:!2024-02-26,7,230!2024-02-22,5,270-->
-- `<`→:::←`>` <!--SR:!2024-02-20,16,290!2024-02-21,17,290-->
+- `<`→:::←`>` <!--SR:!2024-04-27,67,310!2024-02-21,17,290-->
 - `>`→:::←`<=` <!--SR:!2024-04-14,56,310!2024-03-06,21,270-->
 - `<=`→:::←`>=` <!--SR:!2024-04-16,57,310!2024-03-22,37,290-->
-- `>=`→:::←`==` <!--SR:!2024-02-21,17,290!2024-02-20,1,150-->
-- `==`→:::←`!=` <!--SR:!2024-02-20,16,290!2024-02-20,16,290-->
-- `!=`→:::←_(end)_ <!--SR:!2024-02-20,16,290!2024-02-21,17,290-->
+- `>=`→:::←`==` <!--SR:!2024-02-21,17,290!2024-02-21,1,130-->
+- `==`→:::←`!=` <!--SR:!2024-04-23,63,310!2024-04-25,65,310-->
+- `!=`→:::←_(end)_ <!--SR:!2024-04-24,64,310!2024-02-21,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -343,8 +343,8 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.738334+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`!` <!--SR:!2024-04-20,61,310!2024-03-17,33,290-->
-- `!`→:::←`&&` <!--SR:!2024-02-20,16,290!2024-04-16,58,310-->
-- `&&`→:::←`||` <!--SR:!2024-04-21,62,310!2024-02-20,16,290-->
+- `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-04-16,58,310-->
+- `&&`→:::←`||` <!--SR:!2024-04-21,62,310!2024-04-20,60,310-->
 - `||`→:::←_(end)_ <!--SR:!2024-04-12,55,310!2024-04-05,48,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -352,7 +352,7 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.752902+08:00. Any edits will be overridden! -->
 
 - `!`::negate <!--SR:!2024-04-10,52,310-->
-- `&&`::and <!--SR:!2024-02-20,16,290-->
+- `&&`::and <!--SR:!2024-04-20,60,310-->
 - `||`::or <!--SR:!2024-04-14,56,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -30,7 +30,7 @@ The content is in teaching order.
 - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-03-03,15,262!2024-02-27,16,302-->
   - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-02-23,4,242!2024-02-29,18,302-->
 - [physical hazards](#physical%20hazards)
-- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-02-20,3,269!2024-03-10,20,339-->
+- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-03-03,12,289!2024-03-10,20,339-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-02-27,10,295!2024-03-04,15,335-->
 - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-03-02,12,319!2024-03-08,18,339-->
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-02-27,10,289!2024-02-27,16,302-->
@@ -48,7 +48,7 @@ The content is in teaching order.
 - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-02-23,12,282!2024-03-06,17,329-->
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-03-04,14,242!2024-03-08,19,329-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
-- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-02-20,3,279!2024-02-28,17,302-->
+- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-02-28,8,279!2024-02-28,17,302-->
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-02-27,9,289!2024-02-26,15,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-03-07,18,335!2024-02-26,15,290-->
@@ -62,7 +62,7 @@ The content is in teaching order.
 - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-03-02,13,319!2024-03-06,17,329-->
 - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-02-29,18,299!2024-03-06,17,329-->
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-03-07,18,329!2024-02-26,15,290-->
-  - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-02-20,9,270!2024-02-25,14,290-->
+  - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-03-17,26,270!2024-02-25,14,290-->
 - air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-02-26,15,302!2024-03-08,19,329-->
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
@@ -116,7 +116,7 @@ pneumonia
 
 - _(begin)_→:::←breathlessness <!--SR:!2024-03-06,17,335!2024-03-05,16,329-->
 - breathlessness→:::←cough <!--SR:!2024-03-08,19,335!2024-03-05,16,335-->
-- cough→:::←fever <!--SR:!2024-02-20,2,295!2024-03-03,14,315-->
+- cough→:::←fever <!--SR:!2024-02-25,5,295!2024-03-03,14,315-->
 - fever→:::←headache <!--SR:!2024-03-02,13,315!2024-03-04,15,335-->
 - headache→:::←malaise <!--SR:!2024-02-27,9,299!2024-02-21,4,299-->
 - malaise→:::←muscle ache <!--SR:!2024-03-06,17,335!2024-02-22,4,279-->
@@ -199,13 +199,13 @@ reduced sweating
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convulsions <!--SR:!2024-02-20,2,279!2024-03-07,17,339-->
-- convulsions→:::←dry hot skin <!--SR:!2024-02-20,1,255!2024-03-02,14,315-->
+- _(begin)_→:::←convulsions <!--SR:!2024-02-25,5,279!2024-03-07,17,339-->
+- convulsions→:::←dry hot skin <!--SR:!2024-02-21,1,235!2024-03-02,14,315-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-02-27,10,309!2024-02-29,11,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-02-21,2,299!2024-03-08,18,339-->
-- high temperature→:::←mental confusion <!--SR:!2024-02-20,3,279!2024-02-25,8,289-->
+- high temperature→:::←mental confusion <!--SR:!2024-02-28,8,279!2024-02-25,8,289-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-02-27,10,315!2024-02-26,9,295-->
-- reduced sweating→:::←_(end)_ <!--SR:!2024-03-07,18,329!2024-02-20,3,279-->
+- reduced sweating→:::←_(end)_ <!--SR:!2024-03-07,18,329!2024-02-26,6,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -243,11 +243,11 @@ user
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control <!--SR:!2024-02-20,2,279!2024-03-06,16,339-->
-- control→:::←environment <!--SR:!2024-02-20,2,279!2024-02-20,3,279-->
-- environment→:::←equipment <!--SR:!2024-03-01,12,319!2024-02-20,3,279-->
-- equipment→:::←material <!--SR:!2024-02-20,3,279!2024-02-26,9,289-->
-- material→:::←process <!--SR:!2024-02-20,3,279!2024-02-26,9,289-->
+- _(begin)_→:::←control <!--SR:!2024-02-21,1,259!2024-03-06,16,339-->
+- control→:::←environment <!--SR:!2024-02-29,9,299!2024-03-01,10,279-->
+- environment→:::←equipment <!--SR:!2024-03-01,12,319!2024-02-22,2,259-->
+- equipment→:::←material <!--SR:!2024-02-27,7,279!2024-02-26,9,289-->
+- material→:::←process <!--SR:!2024-03-02,11,299!2024-02-26,9,289-->
 - process→:::←user <!--SR:!2024-02-22,4,279!2024-03-06,16,339-->
 - user→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-03-05,16,335-->
 
@@ -331,13 +331,13 @@ workplace
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←general community environment <!--SR:!2024-02-20,3,279!2024-03-05,16,329-->
+- _(begin)_→:::←general community environment <!--SR:!2024-02-27,7,279!2024-03-05,16,329-->
 - general community environment→:::←occupational hygiene <!--SR:!2024-02-21,3,259!2024-02-24,5,269-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-02-28,11,315!2024-03-07,17,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-02-29,12,315!2024-03-06,17,335-->
-- occupational rehabilitation→:::←workers <!--SR:!2024-02-20,2,279!2024-03-02,14,309-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-02-21,1,259!2024-03-02,14,309-->
 - workers→:::←workplace <!--SR:!2024-03-08,19,329!2024-03-05,15,319-->
-- workplace→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-02-20,3,279-->
+- workplace→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-03-01,10,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -418,11 +418,11 @@ vibration
 
 - _(begin)_→:::←ionizing radiation <!--SR:!2024-02-25,8,295!2024-02-26,8,299-->
 - ionizing radiation→:::←noise <!--SR:!2024-02-27,10,289!2024-02-27,10,289-->
-- noise→:::←nonionizing radiation <!--SR:!2024-02-27,9,299!2024-02-20,2,279-->
-- nonionizing radiation→:::←pressure <!--SR:!2024-02-20,1,249!2024-02-25,6,269-->
+- noise→:::←nonionizing radiation <!--SR:!2024-02-27,9,299!2024-03-01,10,299-->
+- nonionizing radiation→:::←pressure <!--SR:!2024-02-22,2,249!2024-02-25,6,269-->
 - pressure→:::←temperature <!--SR:!2024-03-06,17,335!2024-02-22,4,279-->
 - temperature→:::←vibration <!--SR:!2024-02-22,4,279!2024-02-29,11,319-->
-- vibration→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-02-20,3,279-->
+- vibration→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-02-22,2,259-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -462,7 +462,7 @@ steelworks
 - cold storages→:::←glassworks <!--SR:!2024-02-21,4,299!2024-02-29,12,315-->
 - glassworks→:::←kitchens <!--SR:!2024-02-28,10,319!2024-02-26,9,295-->
 - kitchens→:::←laundries <!--SR:!2024-02-29,11,319!2024-02-28,10,319-->
-- laundries→:::←steelworks <!--SR:!2024-02-20,2,279!2024-02-27,10,295-->
+- laundries→:::←steelworks <!--SR:!2024-02-25,5,279!2024-02-27,10,295-->
 - steelworks→:::←_(end)_ <!--SR:!2024-03-10,20,339!2024-03-01,11,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
