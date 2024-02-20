@@ -236,41 +236,41 @@ safety: fusible pressure release plug or efficient low-water alarm
 return await memorize_seq(
   __env__.cwf_sects("9012", "33bb",),
   """
+design: correct fittings and regulators
+design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
 operator: close inactive valves
 operator: frequent examination for damages
 operator: keep upright
 operator: mark empty cylinders
 operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
-design: correct fittings and regulators
-design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-19T20:13:02.996252+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-20T13:14:06.434725+08:00. Any edits will be overridden! -->
 
-> 1. operator: close inactive valves
-> 2. operator: frequent examination for damages
-> 3. operator: keep upright
-> 4. operator: mark empty cylinders
-> 5. operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
-> 6. design: correct fittings and regulators
-> 7. design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
+> 1. design: correct fittings and regulators
+> 2. design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
+> 3. operator: close inactive valves
+> 4. operator: frequent examination for damages
+> 5. operator: keep upright
+> 6. operator: mark empty cylinders
+> 7. operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-19T20:13:03.019454+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-20T13:14:06.445729+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←operator: close inactive valves
+- _(begin)_→:::←design: correct fittings and regulators
+- design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
+- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves
 - operator: close inactive valves→:::←operator: frequent examination for damages
 - operator: frequent examination for damages→:::←operator: keep upright
 - operator: keep upright→:::←operator: mark empty cylinders
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
-- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←design: correct fittings and regulators
-- design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
-- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←_(end)_
+- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
