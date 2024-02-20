@@ -73,7 +73,7 @@ return await memorize_seq(
   __env__.cwf_sects("29a2", "3842",),
   """
 control: spring-loaded safety valve for controlling the working pressure
-identity: marked with a distinguishing number
+identity: mark each receiver with a distinguishing number
 indication: pressure gauge with red marking showing the maximum permissible working pressure
 safety: automatic mechanism like reducing valve to prevent over-pressurizing
 safety: withstand the maximum permissible working pressure
@@ -83,21 +83,21 @@ safety: withstand the maximum permissible working pressure
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-19T20:13:02.889277+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-20T14:07:01.573880+08:00. Any edits will be overridden! -->
 
 > 1. control: spring-loaded safety valve for controlling the working pressure
-> 2. identity: marked with a distinguishing number
+> 2. identity: mark each receiver with a distinguishing number
 > 3. indication: pressure gauge with red marking showing the maximum permissible working pressure
 > 4. safety: automatic mechanism like reducing valve to prevent over-pressurizing
 > 5. safety: withstand the maximum permissible working pressure
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-19T20:13:02.906507+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-20T14:07:01.560765+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-02-22,2,246!2024-02-22,3,266-->
-- control: spring-loaded safety valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-24,4,284!2024-02-24,4,284-->
+- control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-02-24,4,284!2024-02-24,4,284-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-02-21,1,226!2024-02-22,3,266-->
 - safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-02-22,2,246!2024-02-22,2,243-->
 - safety: withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-02-22,3,263!2024-02-22,3,266-->
@@ -196,7 +196,7 @@ return await memorize_seq(
   __env__.cwf_sects("96ff", "3e9a",),
   """
 control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
-identity: marked with a distinguishing number
+identity: mark each boiler with a distinguishing number
 indication: pressure gauge with red marking showing the maximum permissible working pressure
 indication: transparent water level gauge
 safety: fusible pressure release plug or efficient low-water alarm
@@ -206,21 +206,21 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-19T20:13:02.974320+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-20T14:07:01.649622+08:00. Any edits will be overridden! -->
 
 > 1. control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
-> 2. identity: marked with a distinguishing number
+> 2. identity: mark each boiler with a distinguishing number
 > 3. indication: pressure gauge with red marking showing the maximum permissible working pressure
 > 4. indication: transparent water level gauge
 > 5. safety: fusible pressure release plug or efficient low-water alarm
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-19T20:13:02.938279+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-02-22,2,243!2024-02-22,3,266-->
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: marked with a distinguishing number <!--SR:!2024-02-22,2,246!2024-02-22,3,266-->
-- identity: marked with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-02-22,2,246!2024-02-22,3,266-->
+- identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-02-23,3,263!2024-02-22,3,266-->
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-02-21,1,226!2024-02-23,4,286-->
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-22,3,266-->
@@ -461,7 +461,7 @@ return await memorize_seq(
   """
 design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 design: high flashpoint hydraulic oil
-design: proper construction, design, and material
+design: proper construction, design, and materials
 operator: frequent examination for damages
 operator: pressurize in stages
 operator: segregate and indicate work area
@@ -471,23 +471,23 @@ operator: segregate and indicate work area
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-19T20:13:03.157195+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-20T13:55:14.042175+08:00. Any edits will be overridden! -->
 
 > 1. design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 > 2. design: high flashpoint hydraulic oil
-> 3. design: proper construction, design, and material
+> 3. design: proper construction, design, and materials
 > 4. operator: frequent examination for damages
 > 5. operator: pressurize in stages
 > 6. operator: segregate and indicate work area
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-19T20:13:03.144600+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-02-22,2,246!2024-02-22,3,263-->
 - design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-02-21,1,226!2024-02-22,2,246-->
-- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and material <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
-- design: proper construction, design, and material→:::←operator: frequent examination for damages <!--SR:!2024-02-22,2,246!2024-02-22,2,246-->
+- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-02-22,3,266!2024-02-22,3,266-->
+- design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-02-22,2,246!2024-02-22,2,246-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-02-21,1,226!2024-02-22,2,246-->
 - operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-02-21,1,226!2024-02-22,3,266-->
 - operator: segregate and indicate work area→:::←_(end)_ <!--SR:!2024-02-23,4,286!2024-02-21,1,226-->
