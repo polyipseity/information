@@ -39,7 +39,7 @@ Note that Python attributes are not {{declared inside the class. Instead, they a
 
 ## method
 
-A method consists of {{a name, parameter names, and statement_block}}: <!--SR:!2024-02-21,16,290-->
+A method consists of {{a name, parameter names, and statement_block}}: <!--SR:!2024-04-28,67,310-->
 
 ```Python
 def name(parameter_names):
@@ -57,7 +57,7 @@ It is possible to have {{no parameters}}. Each parameter is {{separated by a com
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement_block}}: <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
+A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement_block}}: <!--SR:!2024-04-27,66,310!2024-02-22,17,290-->
 
 ```Python
 def __init__(parameter_names):

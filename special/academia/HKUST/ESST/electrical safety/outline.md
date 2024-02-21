@@ -39,7 +39,7 @@ The content is in teaching order.
 - 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-03-09,19,264-->
   - 2 A :: [cardiac arrest](../../../../../general/cardiac%20arrest.md) and internal [organ](../../../../../general/organ%20(biology).md) damage <!--SR:!2024-02-22,11,289-->
   - 15 A, 20 A :: common [fuse](fuse%20(electrical).md) or [circuit breaker](../../../../../general/circuit%20breaker.md) triggers <!--SR:!2024-02-29,18,304-->
-- electrical hazards ::: [electric arc](../../../../../general/electric%20arc.md), [electrical injury](../../../../../general/electrical%20injury.md), [explosion](../../../../../general/explosion.md), [fire](../../../../../general/fire.md) <!--SR:!2024-02-21,10,289!2024-02-29,18,309-->
+- electrical hazards ::: [electric arc](../../../../../general/electric%20arc.md), [electrical injury](../../../../../general/electrical%20injury.md), [explosion](../../../../../general/explosion.md), [fire](../../../../../general/fire.md) <!--SR:!2024-02-26,5,269!2024-02-29,18,309-->
   - [electric arc](../../../../../general/electric%20arc.md) ::: Electric arcs can go through air to a person. They can also vaporize materials and produce extremely loud noises. These can cause non-contact burns. Emitted [infrared](../../../../../general/infrared.md) and [ultraviolet](../../../../../general/ultraviolete.md) radiation can cause eye damage. <!--SR:!2024-03-09,20,269!2024-02-26,15,309-->
   - [electrical injury](../../../../../general/electrical%20injury.md) ::: Electricity can interfere with normal electrical signals in the body. Involuntary muscle contraction can cause falls. Electricity can also cause contact burns, damaging internal organs. <!--SR:!2024-03-10,21,269!2024-02-28,17,309-->
   - [explosion](../../../../../general/explosion.md) ::: Electricity can detonate. <!--SR:!2024-02-24,13,290!2024-02-27,16,304-->
@@ -110,7 +110,7 @@ unventilated thermal storage type electric water heaters
 - _(begin)_→:::←adaptors <!--SR:!2024-03-07,19,327!2024-03-05,17,327-->
 - adaptors→:::←extension units <!--SR:!2024-03-03,15,327!2024-02-29,14,307-->
 - extension units→:::←flexible cords <!--SR:!2024-03-06,18,327!2024-03-07,19,327-->
-- flexible cords→:::←lamp holders <!--SR:!2024-02-21,4,267!2024-02-27,11,307-->
+- flexible cords→:::←lamp holders <!--SR:!2024-03-05,13,267!2024-02-27,11,307-->
 - lamp holders→:::←plugs <!--SR:!2024-02-23,8,287!2024-02-25,10,287-->
 - plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-02-22,7,287!2024-02-24,4,287-->
 - unventilated thermal storage type electric water heaters→:::←_(end)_ <!--SR:!2024-03-06,18,327!2024-02-25,10,307-->
@@ -154,7 +154,7 @@ warnings
 - _(begin)_→:::←instructions <!--SR:!2024-02-22,3,294!2024-02-23,4,314-->
 - instructions→:::←manner of presentation <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
 - manner of presentation→:::←safety <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
-- safety→:::←standards <!--SR:!2024-02-22,3,294!2024-02-21,1,254-->
+- safety→:::←standards <!--SR:!2024-02-22,3,294!2024-02-22,1,234-->
 - standards→:::←use of marks <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
 - use of marks→:::←warnings <!--SR:!2024-02-22,3,294!2024-02-22,3,294-->
 - warnings→:::←_(end)_ <!--SR:!2024-02-23,4,314!2024-02-23,4,314-->
@@ -197,9 +197,9 @@ wet condition
 
 - _(begin)_→:::←improper contact <!--SR:!2024-02-23,6,267!2024-03-06,18,327-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-02-27,10,307!2024-02-26,9,287-->
-- lack of maintenance→:::←overloading <!--SR:!2024-02-24,5,287!2024-02-21,1,187-->
+- lack of maintenance→:::←overloading <!--SR:!2024-02-24,5,287!2024-02-23,2,187-->
 - overloading→:::←short circuiting <!--SR:!2024-03-06,18,327!2024-03-05,17,327-->
-- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-02-21,4,247!2024-02-22,5,267-->
+- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-03-04,12,247!2024-02-22,5,267-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-02-22,7,287!2024-02-26,11,287-->
 - wet condition→:::←_(end)_ <!--SR:!2024-03-06,19,327!2024-03-01,14,307-->
 
@@ -246,13 +246,13 @@ protective bonding
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2024-02-09T00:10:28.927666+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[center tap](../../../../../general/center%20tap.md) <!--SR:!2024-03-03,15,307!2024-03-05,17,327-->
-- [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-02-21,5,247!2024-02-29,14,307-->
+- [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-03-06,14,247!2024-02-29,14,307-->
 - [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-02-24,8,267!2024-02-24,9,287-->
 - compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-02-22,5,267!2024-02-29,14,307-->
 - [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-02-29,14,307!2024-02-22,7,287-->
 - grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-02-25,6,247!2024-02-24,9,287-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-02-25,8,267!2024-02-24,8,267-->
-- live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-02-21,2,227!2024-02-26,11,287-->
+- live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-02-22,1,207!2024-02-26,11,287-->
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-03-06,18,327!2024-02-23,6,287-->
 - protective bonding→:::←_(end)_ <!--SR:!2024-03-05,17,327!2024-02-24,7,287-->
 

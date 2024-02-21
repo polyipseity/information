@@ -20,11 +20,11 @@ tags:
 
 Every cell has a location. Its location is in the format of {{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}}. <!--SR:!2024-04-19,59,310-->
 
-Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2024-02-21,16,290!2024-04-18,59,310-->
+Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2024-04-24,63,310!2024-04-18,59,310-->
 
 ## formula
 
-Apart from inputting data into cells, cells can also {{compute}}. To do so, use {{[formulas](formula.md)}}. <!--SR:!2024-02-22,17,290!2024-02-21,16,290-->
+Apart from inputting data into cells, cells can also {{compute}}. To do so, use {{[formulas](formula.md)}}. <!--SR:!2024-02-22,17,290!2024-04-23,62,310-->
 
 ## see also
 

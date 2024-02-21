@@ -57,7 +57,7 @@ The content is in teaching order.
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-03-08,19,329!2024-02-29,18,302-->
 - particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-02-23,12,282!2024-03-07,18,335-->
 - toxicity equation ::: toxicity × quantity × time <!--SR:!2024-03-06,17,335!2024-03-07,18,329-->
-- occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-03-04,15,329!2024-02-21,10,282-->
+- occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-03-04,15,329!2024-03-29,37,302-->
 - ceiling (C) ::: at any time <!--SR:!2024-03-08,19,329!2024-03-07,18,335-->
 - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-03-02,13,319!2024-03-06,17,329-->
 - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-02-29,18,299!2024-03-06,17,329-->
@@ -118,7 +118,7 @@ pneumonia
 - breathlessness→:::←cough <!--SR:!2024-03-08,19,335!2024-03-05,16,335-->
 - cough→:::←fever <!--SR:!2024-02-25,5,295!2024-03-03,14,315-->
 - fever→:::←headache <!--SR:!2024-03-02,13,315!2024-03-04,15,335-->
-- headache→:::←malaise <!--SR:!2024-02-27,9,299!2024-02-21,4,299-->
+- headache→:::←malaise <!--SR:!2024-02-27,9,299!2024-03-05,13,299-->
 - malaise→:::←muscle ache <!--SR:!2024-03-06,17,335!2024-02-22,4,279-->
 - muscle ache→:::←pneumonia <!--SR:!2024-02-25,8,289!2024-02-25,7,299-->
 - pneumonia→:::←_(end)_ <!--SR:!2024-03-08,18,339!2024-02-28,11,315-->
@@ -200,9 +200,9 @@ reduced sweating
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←convulsions <!--SR:!2024-02-25,5,279!2024-03-07,17,339-->
-- convulsions→:::←dry hot skin <!--SR:!2024-02-21,1,235!2024-03-02,14,315-->
+- convulsions→:::←dry hot skin <!--SR:!2024-02-23,2,235!2024-03-02,14,315-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-02-27,10,309!2024-02-29,11,309-->
-- elevated core temperature→:::←high temperature <!--SR:!2024-02-21,2,299!2024-03-08,18,339-->
+- elevated core temperature→:::←high temperature <!--SR:!2024-03-02,10,319!2024-03-08,18,339-->
 - high temperature→:::←mental confusion <!--SR:!2024-02-28,8,279!2024-02-25,8,289-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-02-27,10,315!2024-02-26,9,295-->
 - reduced sweating→:::←_(end)_ <!--SR:!2024-03-07,18,329!2024-02-26,6,279-->
@@ -243,7 +243,7 @@ user
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control <!--SR:!2024-02-21,1,259!2024-03-06,16,339-->
+- _(begin)_→:::←control <!--SR:!2024-02-22,1,239!2024-03-06,16,339-->
 - control→:::←environment <!--SR:!2024-02-29,9,299!2024-03-01,10,279-->
 - environment→:::←equipment <!--SR:!2024-03-01,12,319!2024-02-22,2,259-->
 - equipment→:::←material <!--SR:!2024-02-27,7,279!2024-02-26,9,289-->
@@ -332,10 +332,10 @@ workplace
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←general community environment <!--SR:!2024-02-27,7,279!2024-03-05,16,329-->
-- general community environment→:::←occupational hygiene <!--SR:!2024-02-21,3,259!2024-02-24,5,269-->
+- general community environment→:::←occupational hygiene <!--SR:!2024-03-01,9,259!2024-02-24,5,269-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-02-28,11,315!2024-03-07,17,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-02-29,12,315!2024-03-06,17,335-->
-- occupational rehabilitation→:::←workers <!--SR:!2024-02-21,1,259!2024-03-02,14,309-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-02-24,3,259!2024-03-02,14,309-->
 - workers→:::←workplace <!--SR:!2024-03-08,19,329!2024-03-05,15,319-->
 - workplace→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-03-01,10,279-->
 
@@ -459,7 +459,7 @@ steelworks
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←cold storages <!--SR:!2024-03-07,17,339!2024-03-06,17,329-->
-- cold storages→:::←glassworks <!--SR:!2024-02-21,4,299!2024-02-29,12,315-->
+- cold storages→:::←glassworks <!--SR:!2024-03-04,12,299!2024-02-29,12,315-->
 - glassworks→:::←kitchens <!--SR:!2024-02-28,10,319!2024-02-26,9,295-->
 - kitchens→:::←laundries <!--SR:!2024-02-29,11,319!2024-02-28,10,319-->
 - laundries→:::←steelworks <!--SR:!2024-02-25,5,279!2024-02-27,10,295-->

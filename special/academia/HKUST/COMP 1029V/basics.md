@@ -20,7 +20,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-02-21,16,290!2024-04-17,58,310!2024-04-09,51,310-->
+Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-04-17,58,310!2024-04-09,51,310-->
 
 To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-02-22,17,290!2024-04-07,49,310-->
 
@@ -82,10 +82,10 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-01-31T22:17:45.587449+08:00. Any edits will be overridden! -->
 
-- Boolean::Either `True` or `False`. <!--SR:!2024-02-21,16,290-->
+- Boolean::Either `True` or `False`. <!--SR:!2024-04-22,61,310-->
 - Double::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
 - Integer::An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. <!--SR:!2024-02-23,18,305-->
-- Long::An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. <!--SR:!2024-02-21,16,290-->
+- Long::An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. <!--SR:!2024-04-21,60,310-->
 - Single::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-02-22,17,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -108,7 +108,7 @@ ALong = 2.5 ' `ALong` is rounded to 2 as VBA uses banker's rounding
 
 ## output
 
-To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-02-23,18,305!2024-03-31,44,305!2024-02-21,16,290-->
+To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-02-23,18,305!2024-03-31,44,305!2024-04-24,63,310-->
 
 There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}}. <!--SR:!2024-03-04,20,265-->
 

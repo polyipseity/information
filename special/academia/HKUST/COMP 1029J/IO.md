@@ -13,7 +13,7 @@ tags:
 
 ## output
 
-One can print to stdout using {{`System.out.print` and `System.out.println`}}. The first one prints {{the provided string as is while the second one also prints an additional newline}}. <!--SR:!2024-02-21,17,290!2024-03-15,32,290-->
+One can print to stdout using {{`System.out.print` and `System.out.println`}}. The first one prints {{the provided string as is while the second one also prints an additional newline}}. <!--SR:!2024-05-01,70,310!2024-03-15,32,290-->
 
 ```Java
 System.out.println("println");
@@ -25,7 +25,7 @@ printing
 */
 ```
 
-One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-02-21,17,290!2024-04-20,60,310-->
+One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-04-30,69,310!2024-04-20,60,310-->
 
 To align output, a primitive way is {{using the tab character `\t`, which usually aligns text in 8-character intervals}}. <!--SR:!2024-04-07,50,310-->
 

@@ -9,19 +9,19 @@ tags:
 
 # Python sequence
 
-Here, we are interested in two sequence types: {{strings and lists}}. <!--SR:!2024-02-21,16,290-->
+Here, we are interested in two sequence types: {{strings and lists}}. <!--SR:!2024-04-25,64,310-->
 
 ## string
 
-To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. <!--SR:!2024-02-21,16,290!2024-03-20,36,290-->
+To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. <!--SR:!2024-04-21,60,310!2024-03-20,36,290-->
 
 ## list
 
-To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. Note that a list can {{contain items of different types like the example just now}}. <!--SR:!2024-04-13,54,310!2024-02-21,16,290-->
+To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. Note that a list can {{contain items of different types like the example just now}}. <!--SR:!2024-04-13,54,310!2024-04-22,61,310-->
 
 ## length
 
-The length of a sequence can be determined by {{`len(sequence)`}}. <!--SR:!2024-02-21,16,290-->
+The length of a sequence can be determined by {{`len(sequence)`}}. <!--SR:!2024-04-23,62,310-->
 
 ## indexing
 
@@ -55,7 +55,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-04-09,51,310!2024-02-21,16,290!2024-04-08,50,310!2024-04-02,46,290!2024-04-20,60,310-->
+Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-04-09,51,310!2024-04-24,63,310!2024-04-08,50,310!2024-04-02,46,290!2024-04-20,60,310-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"

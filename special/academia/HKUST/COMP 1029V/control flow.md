@@ -19,7 +19,7 @@ If condition Then
 End If
 ```
 
-The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-02-21,16,290-->
+The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-21,60,310-->
 
 An `If...Then...Else...End If` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-02-22,17,290-->
 
@@ -103,4 +103,4 @@ The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loo
 
 ### ending iteration early
 
-One can end a loop prematurely. This is done by {{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}}. As mentioned before, {{`While`-loops cannot be ended prematurely}}. <!--SR:!2024-02-21,16,290!2024-02-23,18,301-->
+One can end a loop prematurely. This is done by {{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}}. As mentioned before, {{`While`-loops cannot be ended prematurely}}. <!--SR:!2024-04-22,61,310!2024-02-23,18,301-->

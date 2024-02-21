@@ -13,7 +13,7 @@ A VBA class ~~is never~~ could be complete without teaching objects... But we wi
 
 ## class
 
-To create an object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}: <!--SR:!2024-02-21,16,290!2024-04-20,60,310-->
+To create an object, one needs to first create a class. In VBA, we need to {{add a new module for each class under "Class Modules"}}. A class consists of {{attributes and methods}}: <!--SR:!2024-04-27,66,310!2024-04-20,60,310-->
 
 ```VB
 Public HaHa As String
@@ -45,7 +45,7 @@ An attribute is declared like a {{[variable](basics.md#variable)}}. <!--SR:!2024
 
 ## method
 
-A method is declared like a {{[subroutine or function](subroutine%20and%20function.md)}}. <!--SR:!2024-02-21,16,290-->
+A method is declared like a {{[subroutine or function](subroutine%20and%20function.md)}}. <!--SR:!2024-04-26,65,310-->
 
 ### constructor
 

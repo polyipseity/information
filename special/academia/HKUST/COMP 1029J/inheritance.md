@@ -15,7 +15,7 @@ Too advanced, so inheritance will be described in very simple terms.
 
 The idea of inheritance is the have {{a base class containing common behaviors, and then derive classes that inherit behaviors from the base class and then add their own behaviors on top of it}}. In practice, this means {{methods and fields from the base class are usable in derived classes}}. <!--SR:!2024-03-21,38,290!2024-02-22,17,290-->
 
-To inherit a class, one use {{the `extends` keyword, like `class Derived extends Base`}}. Only {{one class}} be be inherited. <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
+To inherit a class, one use {{the `extends` keyword, like `class Derived extends Base`}}. Only {{one class}} be be inherited. <!--SR:!2024-04-25,64,310!2024-02-22,17,290-->
 
 ### interfaces
 
