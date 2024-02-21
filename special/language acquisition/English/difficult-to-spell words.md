@@ -14,6 +14,7 @@ English
 
 - [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md).
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md).
+- [Thursday](https://en.wiktionary.org/wiki/Thursday) ::: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week.
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md).
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::: (a\_e) To adapt.
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a\_e) To gradually increase in quantity.
@@ -31,6 +32,7 @@ English
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge.
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect.
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things.
+- [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination.
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something.
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different.
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation.
@@ -39,6 +41,7 @@ English
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md).
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md).
 - [finance](https://en.wiktionary.org/wiki/finance) ::: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md).
+- [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts.
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing.
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done.
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present.
@@ -82,6 +85,7 @@ English
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread.
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void.
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md).
+- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things.
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md).
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::: (v\_r) To do or offer to do something voluntarily.
 
