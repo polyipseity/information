@@ -25,7 +25,7 @@ A formula always {{starts with an equals sign `=`}}. <!--SR:!2024-02-22,17,290--
 
 To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-04-11,52,310-->
 
-When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-02-22,17,290!2024-02-21,16,290-->
+When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-02-22,17,290!2024-04-28,67,310-->
 
 ## operators
 
@@ -79,9 +79,9 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`^` <!--SR:!2024-03-21,36,290!2024-02-22,17,290-->
 - `^`→:::←`*` <!--SR:!2024-04-20,60,310!2024-04-14,55,310-->
 - `*`→:::←`/` <!--SR:!2024-04-15,56,310!2024-04-08,50,310-->
-- `/`→:::←`+` <!--SR:!2024-02-21,16,290!2024-04-24,64,310-->
+- `/`→:::←`+` <!--SR:!2024-04-24,63,310!2024-04-24,64,310-->
 - `+`→:::←`-` <!--SR:!2024-04-17,58,310!2024-04-14,55,310-->
-- `-`→:::←_(end)_ <!--SR:!2024-02-21,16,290!2024-04-23,63,310-->
+- `-`→:::←_(end)_ <!--SR:!2024-04-27,66,310!2024-04-23,63,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -145,11 +145,11 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`=` <!--SR:!2024-02-25,6,270!2024-02-22,17,290-->
-- `=`→:::←`<` <!--SR:!2024-02-22,17,290!2024-02-21,5,250-->
-- `<`→:::←`>` <!--SR:!2024-04-19,60,310!2024-02-21,16,290-->
-- `>`→:::←`<=` <!--SR:!2024-02-21,16,290!2024-02-23,11,250-->
+- `=`→:::←`<` <!--SR:!2024-02-22,17,290!2024-03-10,18,270-->
+- `<`→:::←`>` <!--SR:!2024-04-19,60,310!2024-04-28,67,310-->
+- `>`→:::←`<=` <!--SR:!2024-04-29,68,310!2024-02-23,11,250-->
 - `<=`→:::←`>=` <!--SR:!2024-04-18,59,310!2024-03-11,25,270-->
-- `>=`→:::←`<>` <!--SR:!2024-02-21,16,290!2024-02-21,16,290-->
+- `>=`→:::←`<>` <!--SR:!2024-04-23,62,310!2024-04-21,60,310-->
 - `<>`→:::←_(end)_ <!--SR:!2024-04-10,52,310!2024-04-12,53,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -161,7 +161,7 @@ return _chain.from_iterable(await _gather(
 - `>`::greater than <!--SR:!2024-02-22,17,290-->
 - `<=`::lesser than or equal to <!--SR:!2024-04-20,60,310-->
 - `>=`::greater than or equal to <!--SR:!2024-04-16,56,310-->
-- `<>`::not equal to <!--SR:!2024-02-21,16,290-->
+- `<>`::not equal to <!--SR:!2024-04-25,64,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -171,7 +171,7 @@ Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic funct
 
 ### logic functions
 
-Below are common logic functions, all of which {{accept booleans and return booleans}}: <!--SR:!2024-02-21,16,290-->
+Below are common logic functions, all of which {{accept booleans and return booleans}}: <!--SR:!2024-04-26,65,310-->
 
 %%
 
@@ -212,10 +212,10 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-02-21,16,290!2024-02-22,17,290-->
+- _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-04-22,61,310!2024-02-22,17,290-->
 - `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-04-07,49,310!2024-02-22,17,290-->
 - `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-04-16,56,310!2024-04-13,54,310-->
-- `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-04-18,58,310!2024-02-21,16,290-->
+- `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-04-18,58,310!2024-04-26,65,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -281,10 +281,10 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-03-11,26,290!2024-02-22,17,290-->
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-04-07,47,290!2024-03-16,28,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-03-10,28,270!2024-03-01,16,230-->
-- `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-21,16,290!2024-03-23,34,290-->
+- `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-02-29,8,270!2024-03-23,34,290-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-02-22,2,130!2024-03-04,21,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-03-19,32,270!2024-03-01,11,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-21,4,210-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-02-29,18,230!2024-02-23,2,190-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-04-14,56,310!2024-03-07,22,270-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -292,11 +292,11 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
 
 - (operator) `&`::concatenation <!--SR:!2024-04-13,55,310-->
-- `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2024-02-21,16,290-->
+- `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2024-04-23,62,310-->
 - `LEN(string)`::length of `string` <!--SR:!2024-04-19,60,310-->
 - `LOWER(string)`::convert to lowercase <!--SR:!2024-04-06,48,310-->
-- `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-02-21,16,290-->
-- `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-02-21,16,290-->
+- `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-04-21,60,310-->
+- `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-04-27,66,310-->
 - `UPPER(string)`::convert to uppercase <!--SR:!2024-04-12,54,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -362,18 +362,18 @@ return _chain.from_iterable(await _gather(
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-02-23,9,230!2024-03-18,30,250-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-02-25,14,230!2024-02-29,17,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-02-22,17,290!2024-03-03,19,270-->
-- `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-27,8,270!2024-02-21,7,230-->
+- `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-02-27,8,270!2024-03-16,24,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
 - `AVERAGE(numbers...)`::average <!--SR:!2024-04-13,55,310-->
-- `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2024-02-21,16,290-->
+- `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2024-04-25,64,310-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2024-04-21,61,310-->
 - `MAX(numbers...)`::maximum <!--SR:!2024-04-17,57,310-->
 - `MIN(numbers...)`::minimum <!--SR:!2024-04-17,57,310-->
-- `RANK(number, numbers...)`::rank of `number` in `numbers`, starting from 1 <!--SR:!2024-02-21,16,290-->
+- `RANK(number, numbers...)`::rank of `number` in `numbers`, starting from 1 <!--SR:!2024-04-22,61,310-->
 - `STDEV(numbers...)`::standard deviation <!--SR:!2024-02-22,17,290-->
 - `SUM(numbers...)`::summation <!--SR:!2024-04-21,61,310-->
 

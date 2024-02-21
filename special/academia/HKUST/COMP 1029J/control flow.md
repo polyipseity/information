@@ -31,7 +31,7 @@ else
 
 The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-26,66,310-->
 
-One can chain `if...else` by {{using another `if...else` statement as the `else` statement}}: <!--SR:!2024-02-21,17,290-->
+One can chain `if...else` by {{using another `if...else` statement as the `else` statement}}: <!--SR:!2024-05-03,72,310-->
 
 ```Java
 if (condition1) {
@@ -81,14 +81,14 @@ Note that there is subtly with the `switch` statement. First, {{only constant va
 
 ## iteration
 
-A `for` statement consists of {{an initial statement, a condition, a loop statement, and a statement block to execute}}: <!--SR:!2024-02-21,17,290-->
+A `for` statement consists of {{an initial statement, a condition, a loop statement, and a statement block to execute}}: <!--SR:!2024-05-02,71,310-->
 
 ```Java
 for (initial_statement; condition; loop_statement)
   statement
 ```
 
-The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-02-21,17,290!2024-04-05,48,310-->
+The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-05-04,73,310!2024-04-05,48,310-->
 
 One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2024-04-17,58,310-->
 

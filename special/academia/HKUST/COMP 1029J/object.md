@@ -15,7 +15,7 @@ To help with debugging objects, one can use {{the [object bench](BlueJ.md#object
 
 ## almost everything is an object
 
-In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-04-18,58,310!2024-02-21,16,290-->
+In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-04-18,58,310!2024-04-23,62,310-->
 
 ## equality
 
@@ -46,7 +46,7 @@ public class Name {
 }
 ```
 
-To make the class accessible to code in other files, {{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}}. <!--SR:!2024-02-21,16,290-->
+To make the class accessible to code in other files, {{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}}. <!--SR:!2024-04-25,64,310-->
 
 Then to create an object, one uses {{`new`}}: <!--SR:!2024-02-22,17,290-->
 
@@ -74,7 +74,7 @@ void aMethod(String arg1, int arg2) {
 }
 ```
 
-The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-02-21,16,290!2024-04-19,59,310!2024-04-12,54,310-->
+The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-04-22,61,310!2024-04-19,59,310!2024-04-12,54,310-->
 
 The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-04-18,58,310!2024-04-13,55,310!2024-02-22,17,290-->
 
@@ -98,7 +98,7 @@ Name(int aField) {
 
 ### static
 
-By adding `static` before {{the return type of a method, the method can be called without creating an object first. The restriction is that non-`static` methods and non-`static` fields cannot be accessed directly without an object, as there are no objects to access them on}}. For example, invoking `aStaticMethod` in the above example: <!--SR:!2024-02-21,16,290-->
+By adding `static` before {{the return type of a method, the method can be called without creating an object first. The restriction is that non-`static` methods and non-`static` fields cannot be accessed directly without an object, as there are no objects to access them on}}. For example, invoking `aStaticMethod` in the above example: <!--SR:!2024-04-21,60,310-->
 
 ```Java
 Name name = new Name(42);

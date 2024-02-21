@@ -113,7 +113,7 @@ return await memorize_table(
 > | {{impact/problem}} | {{analyze consequences}} |
 > | {{phenomenon}} | {{analyze characteristics}} |
 > | {{solution}} | {{solve a problem}} |
-> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2025-11-19,644,310!2024-05-20,253,270!2024-02-21,41,190!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-06-30,145,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
+> | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} | <!--SR:!2024-04-29,283,330!2025-11-19,644,310!2024-05-20,253,270!2024-03-12,20,170!2025-02-07,433,295!2024-08-06,304,275!2024-04-18,274,315!2024-06-30,145,235!2024-04-19,275,315!2024-04-10,266,315!2024-04-14,270,315!2024-08-07,312,255-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

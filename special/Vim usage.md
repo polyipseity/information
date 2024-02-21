@@ -75,7 +75,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2024-04-26,351,333!2026-01-07,796,328-->
 - undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2024-05-24,126,293-->
 - restore last changed line:::U <!--SR:!2026-05-07,825,313!2026-02-28,848,328-->
-- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2024-04-14,287,273!2024-02-21,281,328-->
+- copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2024-04-14,287,273!2026-08-30,921,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2025-12-24,782,327!2024-05-29,381,348-->
 - paste \["register=(latest)\] before cursor:::\[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2026-12-25,1077,333!2025-12-19,777,327-->
 
@@ -91,7 +91,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2024-02-21,182,268!2024-03-15,51,148-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2026-01-01,680,288!2024-03-15,51,148-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2025-02-05,460,273!2026-01-09,741,313-->
 
 ## options
