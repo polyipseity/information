@@ -50,3 +50,7 @@ The content is in teaching order.
 ## week 4 lecture 1
 
 - [association rule learning § FP-growth algorithm](../../../../general/association%20rule%20learning.md#FP-growth%20algorithm)
+
+## week 4 lecture 2
+
+- [association rule learning § FP-growth algorithm](../../../../general/association%20rule%20learning.md#FP-growth%20algorithm)
