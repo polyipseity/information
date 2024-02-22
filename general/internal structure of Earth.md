@@ -49,7 +49,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2024-01-04T20:17:51.918666+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2027-03-08,1118,350!2024-02-22,248,330-->
+- _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2027-03-08,1118,350!2027-03-24,1126,350-->
 - [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2024-04-18,296,330!2024-06-06,335,330-->
 - [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2024-04-11,291,330!2024-04-19,297,330-->
 - [mantle](mantle.md)→:::←[outer core](outer%20core.md) <!--SR:!2024-06-07,336,330!2025-12-16,753,330-->

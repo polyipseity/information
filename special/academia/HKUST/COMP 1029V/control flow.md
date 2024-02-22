@@ -21,7 +21,7 @@ End If
 
 The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-21,60,310-->
 
-An `If...Then...Else...End If` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-02-22,17,290-->
+An `If...Then...Else...End If` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-05-03,71,310-->
 
 ```VB
 If condition Then
@@ -55,7 +55,7 @@ You can of course put nested iterations inside iterations.
 
 ### `While`
 
-`While...Wend` can also perform iteration. A `While...Wend` statement consists of {{a condition and a statement block}}: <!--SR:!2024-02-22,17,290-->
+`While...Wend` can also perform iteration. A `While...Wend` statement consists of {{a condition and a statement block}}: <!--SR:!2024-05-04,72,310-->
 
 ```VB
 While

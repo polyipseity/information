@@ -20,5 +20,5 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- 3 covered fields ::: civil and structural engineering, environmental engineering, geo-technical engineering <!--SR:!2024-02-22,3,250!2024-02-23,4,270-->
+- 3 covered fields ::: civil and structural engineering, environmental engineering, geo-technical engineering <!--SR:!2024-03-01,8,250!2024-02-23,4,270-->
 - [introduction to civil engineering](introduction%20to%20civil%20engineering.md)

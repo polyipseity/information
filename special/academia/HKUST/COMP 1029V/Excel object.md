@@ -13,7 +13,7 @@ tags:
 
 ### `Range`
 
-The `Range` object can refer to {{a cell or a range}}. We can pass {{a cell reference, a range reference, or even a user-defined name: `Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}}. By default, the worksheet the range is on is {{the currently active worksheet}}. <!--SR:!2024-04-16,57,310!2024-02-22,17,290!2024-04-26,65,310-->
+The `Range` object can refer to {{a cell or a range}}. We can pass {{a cell reference, a range reference, or even a user-defined name: `Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}}. By default, the worksheet the range is on is {{the currently active worksheet}}. <!--SR:!2024-04-16,57,310!2024-05-05,73,310!2024-04-26,65,310-->
 
 ### `Cells`
 
@@ -23,7 +23,7 @@ The `Cells` object can refer to {{a cell}}. We pass {{the 1-based row and the 1-
 
 The `Worksheets` object can refer to {{a worksheet}}. We get a worksheet {{by name: `Worksheets(name)`, such as `Worksheets("Sheet1")`}}. We can also access `Range` and `Cells` in a specific worksheet by accessing them under the `Worksheets` object, like {{`Worksheets("Sheet1").Range("A1")`}}. <!--SR:!2024-04-25,64,310!2024-04-17,57,310!2024-04-08,50,310-->
 
-One can make a worksheet active using {{the `Activate` method, like `Worksheets("My Potential").Activate`}}. <!--SR:!2024-02-22,17,290-->
+One can make a worksheet active using {{the `Activate` method, like `Worksheets("My Potential").Activate`}}. <!--SR:!2024-02-29,7,270-->
 
 ## selection
 

@@ -32,7 +32,7 @@ assert "asd"[2] == "d"
 assert [39, "omg", 'asd', 3.4][2] == "asd"
 ```
 
-Indices can be {{negative, in which case it counts from the back}}: <!--SR:!2024-02-22,17,290-->
+Indices can be {{negative, in which case it counts from the back}}: <!--SR:!2024-05-02,70,310-->
 
 ```Python
 assert "asd"[-1] == "d"
@@ -66,7 +66,7 @@ assert "abcdefg"[:0:-1] == "gfedcb"
 
 ## concatenation
 
-Concatenation means {{joining several sequences into one larger sequence}}. It is as simple as using {{the operator `+`}}: <!--SR:!2024-02-22,17,290!2024-04-08,50,310-->
+Concatenation means {{joining several sequences into one larger sequence}}. It is as simple as using {{the operator `+`}}: <!--SR:!2024-05-05,73,310!2024-04-08,50,310-->
 
 ```Python
 assert "abc" + "def" == "abcdef"
@@ -82,7 +82,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-02-22,17,290!2024-02-22,17,290!2024-04-13,55,310!2024-04-19,59,310-->
+Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-05-03,71,310!2024-05-04,72,310!2024-04-13,55,310!2024-04-19,59,310-->
 
 ```Python
 original = [1, 2, 3]

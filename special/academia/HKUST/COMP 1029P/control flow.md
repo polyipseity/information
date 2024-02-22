@@ -44,11 +44,11 @@ else:
 
 The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `true` conditions, all conditions are always executed in the appearance order, alternated with statement block execution.}} <!--SR:!2024-04-24,63,310!2024-02-23,18,303-->
 
-Python has no {{`switch` statements}}. <!--SR:!2024-02-22,17,290-->
+Python has no {{`switch` statements}}. <!--SR:!2024-05-01,69,310-->
 
 ## iteration
 
-In Python, iteration is done through using `for...in`. A `for...in` statement consists of {{loop variables, iterable, and a statement block}}: <!--SR:!2024-02-22,17,290-->
+In Python, iteration is done through using `for...in`. A `for...in` statement consists of {{loop variables, iterable, and a statement block}}: <!--SR:!2024-04-28,66,310-->
 
 ```Python
 for loop_variables in iterable:
@@ -66,6 +66,6 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-02-22,17,290-->
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-04-27,65,310-->
 
 You can of course put loops inside loops.

@@ -31,7 +31,7 @@ Then to create an object, one uses {{the name of the class}}: <!--SR:!2024-04-18
 name_object = Name(42)
 ```
 
-The above object stored under `name_object` is also called {{an _instance_ of the class `Name`}}. <!--SR:!2024-02-22,17,290-->
+The above object stored under `name_object` is also called {{an _instance_ of the class `Name`}}. <!--SR:!2024-05-04,72,310-->
 
 ## attribute
 
@@ -57,7 +57,7 @@ It is possible to have {{no parameters}}. Each parameter is {{separated by a com
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement_block}}: <!--SR:!2024-04-27,66,310!2024-02-22,17,290-->
+A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement_block}}: <!--SR:!2024-04-27,66,310!2024-05-05,73,310-->
 
 ```Python
 def __init__(parameter_names):

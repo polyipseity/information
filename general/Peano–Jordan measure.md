@@ -31,7 +31,7 @@ A _simple set_, or _polyrectangle_, is then {{finite [unions](union%20(set%20the
 
 $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 
-However, the Jordan measure of a simple set cannot be defined as {{the sum of measures of individual rectangles}}. This is because {{a simple set does not have an unique representation}}, and the different representations give {{inconsistent results if the above definition is used, as the amount of overlap can vary}}. <!--SR:!2024-04-16,56,310!2024-02-22,16,290!2024-04-24,63,310-->
+However, the Jordan measure of a simple set cannot be defined as {{the sum of measures of individual rectangles}}. This is because {{a simple set does not have an unique representation}}, and the different representations give {{inconsistent results if the above definition is used, as the amount of overlap can vary}}. <!--SR:!2024-04-16,56,310!2024-04-24,62,310!2024-04-24,63,310-->
 
 > {{![finite union of 2D rectangles](../archives/Wikimedia%20Commons/Simple%20set1.png)}}
 >
@@ -41,7 +41,7 @@ The above can be fixed by {{rewriting any simple set as the union of mutually [d
 
 > {{![rewritten union of disjoint rectangles](../archives/Wikimedia%20Commons/Simple%20set2.png)}}
 >
-> {{rewritten union of disjoint rectangles}} <!--SR:!2024-02-22,16,290!2024-02-23,4,303-->
+> {{rewritten union of disjoint rectangles}} <!--SR:!2024-04-25,63,310!2024-02-23,4,303-->
 
 One can show the above definition of Jordan measure for simple set is {{independent of the representation of simple set as disjoint rectangles, and the openness and closeness of the rectangles. They all give the same value for $m(S)$}}. In fact, the rectangles having disjoint [interior](interior%20(topology).md) suffices. <!--SR:!2024-04-11,52,310-->
 
