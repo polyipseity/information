@@ -27,3 +27,11 @@ The content is in teaching order.
 ## week 3 lecture 1
 
 ## week 3 lecture 2
+
+## week 4 lecture 1
+
+- [most vexing parse](../../../../general/most%20vexing%20parse.md)
+
+## week 4 lecture 2
+
+## week 4 lab 1
