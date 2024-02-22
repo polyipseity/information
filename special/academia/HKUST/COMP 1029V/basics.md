@@ -22,7 +22,7 @@ tags:
 
 Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-04-17,58,310!2024-04-09,51,310-->
 
-To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-02-22,17,290!2024-04-07,49,310-->
+To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-05-03,71,310!2024-04-07,49,310-->
 
 ## types
 
@@ -72,11 +72,11 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-01-31T22:17:45.602573+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Boolean <!--SR:!2024-02-23,18,305!2024-04-19,60,310-->
-- Boolean→:::←Double <!--SR:!2024-04-22,62,310!2024-02-22,17,290-->
-- Double→:::←Integer <!--SR:!2024-02-22,17,290!2024-04-23,63,310-->
+- Boolean→:::←Double <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
+- Double→:::←Integer <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
 - Integer→:::←Long <!--SR:!2024-04-02,43,290!2024-02-23,18,305-->
 - Long→:::←Single <!--SR:!2024-02-23,18,305!2024-02-23,18,305-->
-- Single→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-02-22,17,290-->
+- Single→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -86,7 +86,7 @@ return _chain.from_iterable(await _gather(
 - Double::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
 - Integer::An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. <!--SR:!2024-02-23,18,305-->
 - Long::An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. <!--SR:!2024-04-21,60,310-->
-- Single::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-02-22,17,290-->
+- Single::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-05-05,73,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

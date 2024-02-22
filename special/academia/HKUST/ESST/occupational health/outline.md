@@ -34,7 +34,7 @@ The content is in teaching order.
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-02-27,10,295!2024-03-04,15,335-->
 - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-03-02,12,319!2024-03-08,18,339-->
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-02-27,10,289!2024-02-27,16,302-->
-- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-02-22,11,282!2024-03-06,17,335-->
+- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-03-22,29,282!2024-03-06,17,335-->
 - noise ::: unwanted sound <!--SR:!2024-02-25,14,302!2024-02-28,17,290-->
 - human audible frequency range ::: 20~20000 Hz <!--SR:!2024-03-06,17,335!2024-03-07,18,335-->
     - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-02-26,15,302!2024-02-28,17,302-->
@@ -119,7 +119,7 @@ pneumonia
 - cough→:::←fever <!--SR:!2024-02-25,5,295!2024-03-03,14,315-->
 - fever→:::←headache <!--SR:!2024-03-02,13,315!2024-03-04,15,335-->
 - headache→:::←malaise <!--SR:!2024-02-27,9,299!2024-03-05,13,299-->
-- malaise→:::←muscle ache <!--SR:!2024-03-06,17,335!2024-02-22,4,279-->
+- malaise→:::←muscle ache <!--SR:!2024-03-06,17,335!2024-03-05,12,279-->
 - muscle ache→:::←pneumonia <!--SR:!2024-02-25,8,289!2024-02-25,7,299-->
 - pneumonia→:::←_(end)_ <!--SR:!2024-03-08,18,339!2024-02-28,11,315-->
 
@@ -243,12 +243,12 @@ user
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control <!--SR:!2024-02-22,1,239!2024-03-06,16,339-->
+- _(begin)_→:::←control <!--SR:!2024-02-24,2,239!2024-03-06,16,339-->
 - control→:::←environment <!--SR:!2024-02-29,9,299!2024-03-01,10,279-->
-- environment→:::←equipment <!--SR:!2024-03-01,12,319!2024-02-22,2,259-->
+- environment→:::←equipment <!--SR:!2024-03-01,12,319!2024-02-27,5,259-->
 - equipment→:::←material <!--SR:!2024-02-27,7,279!2024-02-26,9,289-->
 - material→:::←process <!--SR:!2024-03-02,11,299!2024-02-26,9,289-->
-- process→:::←user <!--SR:!2024-02-22,4,279!2024-03-06,16,339-->
+- process→:::←user <!--SR:!2024-03-06,13,279!2024-03-06,16,339-->
 - user→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-03-05,16,335-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -289,8 +289,8 @@ socio-psychological
 
 - _(begin)_→:::←biological <!--SR:!2024-02-29,11,319!2024-03-05,16,329-->
 - biological→:::←chemical <!--SR:!2024-02-28,10,319!2024-03-03,14,319-->
-- chemical→:::←ergonomics <!--SR:!2024-02-22,4,279!2024-02-24,6,275-->
-- ergonomics→:::←occupation-specific <!--SR:!2024-02-22,4,279!2024-02-27,9,299-->
+- chemical→:::←ergonomics <!--SR:!2024-02-24,2,259!2024-02-24,6,275-->
+- ergonomics→:::←occupation-specific <!--SR:!2024-02-24,2,259!2024-02-27,9,299-->
 - occupation-specific→:::←physical <!--SR:!2024-02-27,9,299!2024-02-25,7,299-->
 - physical→:::←socio-psychological <!--SR:!2024-02-29,11,299!2024-03-01,12,319-->
 - socio-psychological→:::←_(end)_ <!--SR:!2024-03-08,19,329!2024-03-04,15,335-->
@@ -375,7 +375,7 @@ treatment
 
 - _(begin)_→:::←conduct medical clearance <!--SR:!2024-03-04,15,315!2024-03-04,15,329-->
 - conduct medical clearance→:::←diagnosis <!--SR:!2024-02-29,11,319!2024-03-04,15,335-->
-- diagnosis→:::←education <!--SR:!2024-02-25,8,289!2024-02-22,3,259-->
+- diagnosis→:::←education <!--SR:!2024-02-25,8,289!2024-03-03,10,279-->
 - education→:::←promotion <!--SR:!2024-03-01,12,315!2024-02-26,9,295-->
 - promotion→:::←treatment <!--SR:!2024-02-28,9,289!2024-03-03,14,315-->
 - treatment→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-03-02,13,315-->
@@ -419,10 +419,10 @@ vibration
 - _(begin)_→:::←ionizing radiation <!--SR:!2024-02-25,8,295!2024-02-26,8,299-->
 - ionizing radiation→:::←noise <!--SR:!2024-02-27,10,289!2024-02-27,10,289-->
 - noise→:::←nonionizing radiation <!--SR:!2024-02-27,9,299!2024-03-01,10,299-->
-- nonionizing radiation→:::←pressure <!--SR:!2024-02-22,2,249!2024-02-25,6,269-->
-- pressure→:::←temperature <!--SR:!2024-03-06,17,335!2024-02-22,4,279-->
-- temperature→:::←vibration <!--SR:!2024-02-22,4,279!2024-02-29,11,319-->
-- vibration→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-02-22,2,259-->
+- nonionizing radiation→:::←pressure <!--SR:!2024-02-26,4,249!2024-02-25,6,269-->
+- pressure→:::←temperature <!--SR:!2024-03-06,17,335!2024-03-05,12,279-->
+- temperature→:::←vibration <!--SR:!2024-03-04,11,279!2024-02-29,11,319-->
+- vibration→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-02-29,7,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

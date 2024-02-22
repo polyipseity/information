@@ -29,7 +29,7 @@ The content is in teaching order.
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience
     - engineer sustainability ::: restore and safeguard the biophysical environment
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-02-22,3,259!2000-01-01,1,250-->
+  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-03-06,13,279!2000-01-01,1,250-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes.
   - civil engineer characteristics ::: problem solvers

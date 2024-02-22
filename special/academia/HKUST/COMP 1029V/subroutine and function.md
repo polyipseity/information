@@ -15,7 +15,7 @@ tags:
 
 # subroutine and function
 
-In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {{group code together}}, making them very similar things. The difference is that {{subroutines always return nothing while functions always return something}}. <!--SR:!2024-04-22,62,310!2024-02-22,17,290-->
+In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {{group code together}}, making them very similar things. The difference is that {{subroutines always return nothing while functions always return something}}. <!--SR:!2024-04-22,62,310!2024-05-05,73,310-->
 
 ## exiting
 
@@ -43,7 +43,7 @@ End Function
 
 ## return type
 
-For functions, you can specify the return type by {{appending `As ReturnType` after the parameters}}: <!--SR:!2024-02-22,17,290-->
+For functions, you can specify the return type by {{appending `As ReturnType` after the parameters}}: <!--SR:!2024-04-30,68,310-->
 
 ```VB
 Function SquareSize(SideLength) As Integer

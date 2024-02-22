@@ -12,7 +12,7 @@ Visual Basic for Applications (VBA) is a programming language {{based on Visual 
 
 ## running
 
-To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{macros or events}}. For example, the event when the Excel file opens is {{`Workbook_Open`}}. <!--SR:!2024-04-16,56,310!2024-02-22,17,290!2024-02-23,18,299-->
+To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{macros or events}}. For example, the event when the Excel file opens is {{`Workbook_Open`}}. <!--SR:!2024-04-16,56,310!2024-05-01,69,310!2024-02-23,18,299-->
 
 ## editing
 
@@ -20,7 +20,7 @@ To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Jus
 
 ### macro
 
-It is not necessary to {{write VBA code yourself for simple automation}}. You can {{record a macro and it will generate VBA code for you}}. If you open the VBA editor, you should see {{VBA code in a subroutine with a name same as the macro name}}. Text beginning from `'` to end of line {{are comments and are ignored}}. <!--SR:!2024-04-25,64,310!2024-02-22,17,290!2024-04-05,49,290!2024-04-06,48,310-->
+It is not necessary to {{write VBA code yourself for simple automation}}. You can {{record a macro and it will generate VBA code for you}}. If you open the VBA editor, you should see {{VBA code in a subroutine with a name same as the macro name}}. Text beginning from `'` to end of line {{are comments and are ignored}}. <!--SR:!2024-04-25,64,310!2024-04-27,65,310!2024-04-05,49,290!2024-04-06,48,310-->
 
 ## see also
 
