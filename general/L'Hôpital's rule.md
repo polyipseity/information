@@ -104,7 +104,7 @@ The following table lists out transformation from other [indeterminate forms](in
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:52.125767+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←$\frac00$ <!--SR:!2024-10-28,256,330!2024-09-03,214,330-->
-- $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-02-23,67,310!2024-10-07,239,330-->
+- $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-12-05,286,330!2024-10-07,239,330-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2024-06-09,144,310!2024-02-24,31,270-->
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-06-13,142,290!2024-02-24,68,310-->
 - $\infty-\infty$→:::←$0^0$ <!--SR:!2024-02-24,29,230!2024-04-19,94,270-->
@@ -169,7 +169,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$::$\frac00$ <!--SR:!2024-10-28,256,330-->
 - $\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$::$0\cdot\infty$ <!--SR:!2024-09-18,226,330-->
 - $\lim_{x\to{c} }(f(x)-g(x))=\ln\lim_{x\to{c} }\frac{e^{f(x)} }{e^{g(x)} }$::$\infty-\infty$ <!--SR:!2024-09-05,199,310-->
-- $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$::$0^0$, $\infty^0$ <!--SR:!2024-02-23,59,270-->
+- $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$::$0^0$, $\infty^0$ <!--SR:!2024-08-01,160,270-->
 - $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$::$1^\infty$ <!--SR:!2024-06-06,119,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

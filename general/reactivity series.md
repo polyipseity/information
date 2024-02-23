@@ -268,7 +268,7 @@ return _chain.from_iterable(await _gather(
 - [copper](copper.md)::reacts slowly with [air](air.md) <!--SR:!2024-02-25,208,270-->
 - [tungsten](tungsten.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2024-02-24,250,330-->
 - [mercury](mercury%20(element).md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2024-03-19,268,330-->
-- [silver](silver.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2024-02-23,249,330-->
+- [silver](silver.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-03-31,1132,350-->
 - [gold](gold.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2024-03-04,259,330-->
 - [platinum](platinum.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2024-04-02,280,330-->
 
@@ -324,7 +324,7 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
 
-- [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-02-23,2,265-->
+- [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-02-24,1,245-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md)::[titanium](titanium.md) <!--SR:!2024-03-01,9,287-->
 - [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-02-24,2,245-->
 - [aluminothermic reaction](aluminothermic%20reaction.md)::[chromium](chromium.md) <!--SR:!2024-02-29,8,287-->

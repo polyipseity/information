@@ -76,7 +76,7 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39dd"--><!-- The following content is generated at 2024-01-04T20:17:52.099769+08:00. Any edits will be overridden! -->
 
-- $\sin{x}$::$x$ <!--SR:!2024-02-23,67,310-->
+- $\sin{x}$::$x$ <!--SR:!2024-12-04,285,330-->
 - $\arcsin{x}$::$x$ <!--SR:!2024-11-12,269,330-->
 - $\sinh{x}$::$x$ <!--SR:!2024-11-07,265,330-->
 - $\tan{x}$::$x$ <!--SR:!2024-09-13,222,330-->

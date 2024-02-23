@@ -33,7 +33,7 @@ The content is in teaching order.
 - [low voltage](../../../../../general/low%20voltage.md) ::: defining risk: [electrical shock](../../../../../general/electrical%20injury.md); [BS 7671](../../../../../general/BS%207671.md): AC [RMS](../../../../../general/root%20mean%20square.md): > 50 V, <= 1000 V, <= 600 V between conductors and earth, DC: > 120 V ignoring [ripple](ripple%20(electrical).md), <= 1500 V, <= 900 V between conductors and earth <!--SR:!2024-03-11,21,269!2024-02-26,15,304-->
 - [high voltage](../../../../../general/high%20voltage.md) ::: defining risk: [electrical arcing](../../../../../general/electric%20arc.md); [BS 7671](../../../../../general/BS%207671.md): AC [RMS](../../../../../general/root%20mean%20square.md): > 1000 V, > 600 V between conductors and earth, DC: > 1500 V, > 900 V between conductors and earth <!--SR:!2024-03-24,31,284!2024-02-29,18,309-->
 - examples of effects of [current](../../../../../general/electric%20current.md)
-  - 1 mA :: barely perceptible <!--SR:!2024-02-23,12,270-->
+  - 1 mA :: barely perceptible <!--SR:!2024-04-07,44,290-->
   - 16 mA :: let go threshold, i.e. maximum current a person can still control the muscle to stop touching the electricity source <!--SR:!2024-02-27,5,269-->
 - 20 mA :: respiratory paralysis <!--SR:!2024-03-02,14,269-->
 - 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-03-09,19,264-->
@@ -48,13 +48,13 @@ The content is in teaching order.
 - [hazard causes](#hazard%20causes)
 - [hazard control](#hazard%20control)
   - [grounding](../../../../../general/ground%20(electricity).md) ::: Connect dead parts to the earth so that said dead part has zero potential during a fault. [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md): Z<sub>2</sub> <= 50 Z<sub>S</sub>/U<sub>O</sub> Ω, where Z<sub>S</sub> is the sum of live wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>1</sub>, ground wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>2</sub>, and ground [impedance](../../../../../general/electrical%20impedance.md) Z<sub>e</sub>, and U<sub>O</sub> is the source [voltage](../../../../../general/voltage.md), [diameter](../../../../../general/diameter.md) >= 12.5 mm <!--SR:!2024-03-07,18,264!2024-03-24,33,290-->
-  - protective bonding ::: Connect several conductive parts to ensure the parts have the same potential so that they do not conduct current during a fault. May be used with [grounding](../../../../../general/ground%20(electrical).md). <!--SR:!2024-02-23,12,284!2024-02-29,18,309-->
+  - protective bonding ::: Connect several conductive parts to ensure the parts have the same potential so that they do not conduct current during a fault. May be used with [grounding](../../../../../general/ground%20(electrical).md). <!--SR:!2024-03-27,33,284!2024-02-29,18,309-->
 - [circuit breaker](../../../../../general/circult%20breaker.md) ::: [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB), [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI), [residual-current device](../../../../../general/residual-current%20device.md) (RCD) <!--SR:!2024-02-24,9,287!2024-03-05,18,327-->
     - [residual-current device](../../../../../general/residual-current%20device.md) (RCD) ::: Breaks a circuit when it detects leakage current to [ground](../../../../../general/ground%20(electricity).md). <!--SR:!2024-02-27,16,290!2024-02-27,16,290-->
     - [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB) ::: A resettable [fuse](../../../../../general/fuse%20(electrical).md). Breaks a circuit when it detects overload. <!--SR:!2024-02-29,18,304!2024-02-26,15,290-->
     - [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI) ::: A combination of RCD and MCB. <!--SR:!2024-02-25,14,290!2024-02-29,18,309-->
 - [center tap](../../../../../general/center%20tap.md) ::: Used if one wants to provide two separate secondary voltage sources half of the original voltage. Make a contact halfway along a winding of a [transformer](../../../../../general/transformer.md) and ground it. Then the voltage of both wires in contact with the end of the winding is only half the potential difference of the entire winding. The voltages in the two wires are 180 degree out-of-phase of each other (or negative voltage in one of the wire). This can be used to provide extra-low voltage by reducing voltage from 220 V to 110 V, and then use a center tap to split it to two 55 V sources. <!--SR:!2024-03-03,15,264!2024-02-26,15,290-->
-- [double insulation](../../../../../general/appliance%20classes.md#Class%20II) ::: Indicated by the double insulation symbol: ⧈ (a square inside another square). No single failure can cause dangerous voltage to be exposed as to cause [electric shock](../../../../../general/electrical%20injury.md), all without the use of an earthed metal casing. Usually this is done by adding supplementary insulation on top of the basic insulation. Earthing is unnecessary in this case as any fault causes a fault current too low to trigger a [fuse](../../../../../general/fuse%20(electrical).md), because of the high-[impedance](../../../../../general/electrical%20impedance.md) casing. <!--SR:!2024-03-04,16,269!2024-02-23,12,289-->
+- [double insulation](../../../../../general/appliance%20classes.md#Class%20II) ::: Indicated by the double insulation symbol: ⧈ (a square inside another square). No single failure can cause dangerous voltage to be exposed as to cause [electric shock](../../../../../general/electrical%20injury.md), all without the use of an earthed metal casing. Usually this is done by adding supplementary insulation on top of the basic insulation. Earthing is unnecessary in this case as any fault causes a fault current too low to trigger a [fuse](../../../../../general/fuse%20(electrical).md), because of the high-[impedance](../../../../../general/electrical%20impedance.md) casing. <!--SR:!2024-03-04,16,269!2024-04-10,47,309-->
   - compliance with cable standards ::: [BS 1363](../../../../../general/BS%201363.md): Live (L) wire is brown, has a [fuse](../../../../../general/fuse%20(electrical).md), and on the right side of the plug when viewed from the plug cover. Neutral (N) wire is blue, and on the left side of the plug when viewed from the plug cover. Earth wire is green and yellow, and on the top side of the plug. <!--SR:!2024-03-16,25,270!2024-02-28,17,290-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md) ::: Applicable for devices operating on low [current](../../../../../general/electric%20current.md) and low [voltage](../../../../../general/voltage.md). Especially useful for operation in hazardous environment, like sewages, coal mines, and chemical storage. Such a device cannot produce enough heat or spark to cause ignition, even if the device has deteriorated or is damaged. See [IEC](../../../../../general/International%20Electrotechnical%20Commission.md) 60079-11. <!--SR:!2024-03-05,15,249!2024-02-26,15,309-->
   - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) ::: Last resort. Electrical protective equipment includes arc-rating clothing, insulating gloves, etc. <!--SR:!2024-02-27,5,269!2024-02-28,17,309-->
@@ -62,12 +62,12 @@ The content is in teaching order.
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
 - Electricity Ordinance (Cap. 406) ::: Governs the generation, transmission, distribution, and utilization of electricity. Important sub-chapters include Electricity (Registration) Regulations (Cap. 406D), Electricity (Wiring) Regulations (Cap. 406E), and Electrical Products (Safety) Regulation (Cap. 406G). <!--SR:!2024-02-25,11,244!2024-02-29,18,309-->
 - Electricity (Wiring) Regulations (Cap. 406E) ::: Stipulates safety requirements of the design, installation, testing, and certification of fixed electrical installations. To ensure the quality and workmanship of the installations. A practical guideline is provided by [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md) as the _Code of Practice for the Electricity (Wiring) Regulations_. <!--SR:!2024-03-06,16,249!2024-02-28,17,304-->
-    - Electricity (Registration) Regulations (Cap. 406D) ::: Stipulates the experience and qualifications of registered electrical contractors and workers. To ensure the quality and workmanship of electrical work. A grading system with A, B, C, H, and R is established to match workers and the type of work. <!--SR:!2024-02-23,12,270!2024-02-26,15,290-->
+    - Electricity (Registration) Regulations (Cap. 406D) ::: Stipulates the experience and qualifications of registered electrical contractors and workers. To ensure the quality and workmanship of electrical work. A grading system with A, B, C, H, and R is established to match workers and the type of work. <!--SR:!2024-03-28,34,270!2024-02-26,15,290-->
 - Electrical Products (Safety) Regulation (Cap. 406G) ::: Stipulates the safety of all household electrical products supplied in [Hong Kong](../../../../../general/Hong%20Kong.md). Requires suppliers to ensure a certificate of safety compliance has been issued. Enforced by the [Customs and Excise Department](../../../../../general/Customs%20and%20Excise%20Department%20(Hong%20Kong).md). Classifies 6 kinds of prescribed products that shall comply with the essential and specific safety requirements. <!--SR:!2024-02-24,4,204!2024-03-08,18,264-->
       - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-02-24,13,289!2024-02-26,15,290-->
-- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-03-03,10,294!2024-02-23,4,314-->
+- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-03-03,10,294!2024-03-06,12,314-->
     - [general safety requirement stipulations](#general%20safety%20requirement%20stipulations) <!--SR:!2024-02-19,2,190!2024-02-19,6,249-->
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-02-27,12,249!2024-03-03,15,264-->
 
@@ -111,7 +111,7 @@ unventilated thermal storage type electric water heaters
 - adaptors→:::←extension units <!--SR:!2024-03-03,15,327!2024-02-29,14,307-->
 - extension units→:::←flexible cords <!--SR:!2024-03-06,18,327!2024-03-07,19,327-->
 - flexible cords→:::←lamp holders <!--SR:!2024-03-05,13,267!2024-02-27,11,307-->
-- lamp holders→:::←plugs <!--SR:!2024-02-23,8,287!2024-02-25,10,287-->
+- lamp holders→:::←plugs <!--SR:!2024-03-30,36,307!2024-02-25,10,287-->
 - plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-03-16,23,287!2024-02-24,4,287-->
 - unventilated thermal storage type electric water heaters→:::←_(end)_ <!--SR:!2024-03-06,18,327!2024-02-25,10,307-->
 
@@ -151,13 +151,13 @@ warnings
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←instructions <!--SR:!2024-02-24,2,274!2024-02-23,4,314-->
+- _(begin)_→:::←instructions <!--SR:!2024-02-24,2,274!2024-03-12,18,334-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-03,10,294!2024-03-04,11,294-->
 - manner of presentation→:::←safety <!--SR:!2024-02-24,2,274!2024-03-01,8,294-->
 - safety→:::←standards <!--SR:!2024-02-29,7,294!2024-02-24,2,234-->
 - standards→:::←use of marks <!--SR:!2024-02-24,2,274!2024-03-02,9,294-->
 - use of marks→:::←warnings <!--SR:!2024-03-04,11,294!2024-03-01,8,294-->
-- warnings→:::←_(end)_ <!--SR:!2024-02-23,4,314!2024-02-23,4,314-->
+- warnings→:::←_(end)_ <!--SR:!2024-03-13,19,334!2024-03-06,12,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -195,9 +195,9 @@ wet condition
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5bab"--><!-- The following content is generated at 2024-02-09T00:05:47.457257+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←improper contact <!--SR:!2024-02-23,6,267!2024-03-06,18,327-->
+- _(begin)_→:::←improper contact <!--SR:!2024-02-26,3,247!2024-03-06,18,327-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-02-27,10,307!2024-02-26,9,287-->
-- lack of maintenance→:::←overloading <!--SR:!2024-02-24,5,287!2024-02-23,2,187-->
+- lack of maintenance→:::←overloading <!--SR:!2024-02-24,5,287!2024-02-27,4,187-->
 - overloading→:::←short circuiting <!--SR:!2024-03-06,18,327!2024-03-05,17,327-->
 - short circuiting→:::←using substandard electrical appliances <!--SR:!2024-03-04,12,247!2024-03-08,15,267-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-03-16,23,287!2024-02-26,11,287-->
@@ -253,7 +253,7 @@ protective bonding
 - grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-02-25,6,247!2024-02-24,9,287-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-02-25,8,267!2024-02-24,8,267-->
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-02-24,2,207!2024-02-26,11,287-->
-- [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-03-06,18,327!2024-02-23,6,287-->
+- [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-03-06,18,327!2024-03-13,19,287-->
 - protective bonding→:::←_(end)_ <!--SR:!2024-03-05,17,327!2024-02-24,7,287-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -323,8 +323,8 @@ Consumer Goods Safety Ordinance (Cap. 456)
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) <!--SR:!2024-02-23,8,287!2024-03-05,17,327-->
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-04,17,327!2024-02-23,8,287-->
+- _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) <!--SR:!2024-03-27,33,307!2024-03-05,17,327-->
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-04,17,327!2024-03-25,31,307-->
 - Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-03-04,17,327!2024-02-29,14,307-->
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-03-16,23,287!2024-02-27,11,307-->
 - Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-03-04,16,327!2024-02-24,9,287-->
@@ -366,7 +366,7 @@ no safety shutter
 - _(begin)_→:::←cannot withstand high [temperature](../../../../../general/temperature.md) <!--SR:!2024-02-25,8,287!2024-03-05,18,327-->
 - cannot withstand high [temperature](../../../../../general/temperature.md)→:::←loose electric plug <!--SR:!2024-02-26,11,307!2024-02-27,12,307-->
 - loose electric plug→:::←no [fuse](../../../../../general/fuse%20(electrical).md) <!--SR:!2024-03-07,19,327!2024-02-26,9,287-->
-- no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-02-27,11,307!2024-02-23,8,287-->
+- no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-02-27,11,307!2024-02-27,4,267-->
 - no insulating sleeves→:::←no safety shutter <!--SR:!2024-03-06,18,327!2024-02-26,11,307-->
 - no safety shutter→:::←_(end)_ <!--SR:!2024-02-28,13,307!2024-02-26,11,307-->
 

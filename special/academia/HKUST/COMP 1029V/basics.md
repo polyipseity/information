@@ -71,11 +71,11 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-01-31T22:17:45.602573+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Boolean <!--SR:!2024-02-23,18,305!2024-04-19,60,310-->
+- _(begin)_→:::←Boolean <!--SR:!2024-05-08,75,325!2024-04-19,60,310-->
 - Boolean→:::←Double <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
 - Double→:::←Integer <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
-- Integer→:::←Long <!--SR:!2024-04-02,43,290!2024-02-23,18,305-->
-- Long→:::←Single <!--SR:!2024-02-23,18,305!2024-02-23,18,305-->
+- Integer→:::←Long <!--SR:!2024-04-02,43,290!2024-05-05,72,325-->
+- Long→:::←Single <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
 - Single→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -84,7 +84,7 @@ return _chain.from_iterable(await _gather(
 
 - Boolean::Either `True` or `False`. <!--SR:!2024-04-22,61,310-->
 - Double::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
-- Integer::An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. <!--SR:!2024-02-23,18,305-->
+- Integer::An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. <!--SR:!2024-05-06,73,325-->
 - Long::An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. <!--SR:!2024-04-21,60,310-->
 - Single::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-05-05,73,310-->
 
@@ -99,7 +99,7 @@ ADouble = Range("A1") ' runtime error
 ADouble = 3.14 ' okay
 ```
 
-In some circumstances, the value can be {{implicitly converted to the type of the variable, though sometimes with loss of data}}: <!--SR:!2024-02-23,18,305-->
+In some circumstances, the value can be {{implicitly converted to the type of the variable, though sometimes with loss of data}}: <!--SR:!2024-05-07,74,325-->
 
 ```VB
 Dim ALong as Long
@@ -108,14 +108,14 @@ ALong = 2.5 ' `ALong` is rounded to 2 as VBA uses banker's rounding
 
 ## output
 
-To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-02-23,18,305!2024-03-31,44,305!2024-04-24,63,310-->
+To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-05-06,73,325!2024-03-31,44,305!2024-04-24,63,310-->
 
 There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}}. <!--SR:!2024-03-04,20,265-->
 
 ## input
 
-To accept user input, we can use {{an input box by calling `Input = InputBox(prompt[, title][, default])`}}. `prompt` refers to {{the message, `title`, by default `Microsoft Excel`, is the title, and `default`, by default empty, is the initial value in the input box. The user input is assigned to the variable `Input`}}. Similar to [output](#output), you can skip optional arguments by {{leaving it blank}}. <!--SR:!2024-03-10,25,290!2024-02-23,18,305!2024-04-07,49,310-->
+To accept user input, we can use {{an input box by calling `Input = InputBox(prompt[, title][, default])`}}. `prompt` refers to {{the message, `title`, by default `Microsoft Excel`, is the title, and `default`, by default empty, is the initial value in the input box. The user input is assigned to the variable `Input`}}. Similar to [output](#output), you can skip optional arguments by {{leaving it blank}}. <!--SR:!2024-03-10,25,290!2024-05-08,75,325!2024-04-07,49,310-->
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-04-14,55,310!2024-04-09,51,310!2024-04-07,49,310!2024-02-23,18,305-->
+When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-04-14,55,310!2024-04-09,51,310!2024-04-07,49,310!2024-04-15,52,305-->

@@ -345,7 +345,7 @@ return chain.from_iterable(await gather(
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
 - copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-02-29,16,130-->
-- zinc ion::colorless <!--SR:!2024-02-23,535,314-->
+- zinc ion::colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion::_(n/a)_ <!--SR:!2024-06-27,366,256-->
 - cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2024-03-03,461,239-->
