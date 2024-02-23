@@ -363,7 +363,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 - Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-05-09,88,230!2024-04-14,65,195-->
-- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-02-23,8,130-->
+- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-02-28,145,195!2024-03-06,12,130-->
 - Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -509,7 +509,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2024-01-04T20:18:00.828927+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-02-23,22,175!2024-04-08,264,315-->
+- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-04-03,40,175!2024-04-08,264,315-->
 - Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2024-04-15,132,250!2024-11-25,349,250-->
 - Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2024-11-09,343,255!2024-03-24,53,175-->
 - Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2025-08-11,559,290!2024-11-12,346,255-->

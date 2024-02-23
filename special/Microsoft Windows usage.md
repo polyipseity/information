@@ -11,7 +11,7 @@ tags:
 
 ### window management
 
-- pop up window menu:::Alt+Space <!--SR:!2024-02-23,146,230!2025-07-09,582,270-->
+- pop up window menu:::Alt+Space <!--SR:!2025-06-11,474,250!2025-07-09,582,270-->
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2026-01-06,697,270!2024-06-18,347,270-->
 - restore window size:::Alt+Space, R <!--SR:!2024-07-31,370,270!2024-12-17,350,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->

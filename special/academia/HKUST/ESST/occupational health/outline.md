@@ -28,7 +28,7 @@ The content is in teaching order.
 - [occupational hazard factors](#occupational%20hazard%20factors)
 - chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-03-01,13,315!2024-02-25,14,302-->
 - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-03-03,15,262!2024-02-27,16,302-->
-  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-02-23,4,242!2024-02-29,18,302-->
+  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-02-25,2,222!2024-02-29,18,302-->
 - [physical hazards](#physical%20hazards)
 - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-03-03,12,289!2024-03-10,20,339-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-02-27,10,295!2024-03-04,15,335-->
@@ -45,7 +45,7 @@ The content is in teaching order.
 - heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke <!--SR:!2024-02-29,12,315!2024-02-28,17,302-->
       - heat rash ::: red spots on skin <!--SR:!2024-02-28,17,302!2024-02-24,13,290-->
 - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-02-25,6,269!2024-03-04,15,326-->
-- heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-02-23,12,282!2024-03-06,17,329-->
+- heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-03-26,32,282!2024-03-06,17,329-->
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-03-04,14,242!2024-03-08,19,329-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-02-28,8,279!2024-02-28,17,302-->
@@ -55,7 +55,7 @@ The content is in teaching order.
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-03-03,15,262!2024-02-28,11,306-->
 - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-03-09,20,262!2024-03-02,14,315-->
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-03-08,19,329!2024-02-29,18,302-->
-- particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-02-23,12,282!2024-03-07,18,335-->
+- particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-03-31,37,282!2024-03-07,18,335-->
 - toxicity equation ::: toxicity × quantity × time <!--SR:!2024-03-06,17,335!2024-03-07,18,329-->
 - occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-03-04,15,329!2024-03-29,37,302-->
 - ceiling (C) ::: at any time <!--SR:!2024-03-08,19,329!2024-03-07,18,335-->
@@ -72,7 +72,7 @@ The content is in teaching order.
 - breathing protection ::: air-purifying respirators <!--SR:!2024-02-29,18,302!2024-03-08,19,329-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-02-25,8,295!2024-02-26,15,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-02-25,14,302!2024-02-27,16,302-->
-- skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-02-23,12,282!2024-02-28,17,299-->
+- skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-03-27,33,282!2024-02-28,17,299-->
 - chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-02-25,14,302!2024-03-07,18,335-->
 - occupational health goals ::: protect the environment, general community, and workers' health <!--SR:!2024-02-29,18,302!2024-03-07,18,329-->
 
@@ -200,7 +200,7 @@ reduced sweating
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←convulsions <!--SR:!2024-02-25,5,279!2024-03-07,17,339-->
-- convulsions→:::←dry hot skin <!--SR:!2024-02-23,2,235!2024-03-02,14,315-->
+- convulsions→:::←dry hot skin <!--SR:!2024-03-01,7,255!2024-03-02,14,315-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-02-27,10,309!2024-02-29,11,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-03-02,10,319!2024-03-08,18,339-->
 - high temperature→:::←mental confusion <!--SR:!2024-02-28,8,279!2024-02-25,8,289-->
