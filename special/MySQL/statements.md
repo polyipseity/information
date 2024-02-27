@@ -28,9 +28,9 @@ tags:
 - `create_definition`
   - `column_name column_definition` ::: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2024-11-22,303,310!2025-04-20,434,330-->
   - `{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::: An index indexed by `key_part` using the specified algorithm. <!--SR:!2024-08-15,214,299!2024-12-24,331,319-->
-  - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2024-08-05,169,319!2024-02-26,46,299-->
+  - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2024-08-05,169,319!2024-09-03,190,319-->
 - `select_expression`
-  - `*` ::: Select all columns. <!--SR:!2024-02-24,113,319!2024-10-02,270,319-->
+  - `*` ::: Select all columns. <!--SR:!2025-07-06,497,339!2024-10-02,270,319-->
   - `COUNT(expression)` ::: Number of selected non-`NULL` rows for `expression`. <!--SR:!2025-05-12,453,339!2024-10-20,283,319-->
 - `table_reference`
   - `table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]` ::: [`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ - 1 expressions `on_expression`. <!--SR:!2024-04-10,85,279!2024-08-09,223,299-->

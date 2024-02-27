@@ -49,7 +49,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←create positive first impression <!--SR:!2024-06-12,128,310!2024-10-27,290,330-->
 - create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-02-29,89,290!2024-09-30,269,330-->
-- emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-02-26,9,230!2024-03-26,42,270-->
+- emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-03-26,29,250!2024-03-26,42,270-->
 - include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-03-25,72,270!2024-03-02,28,270-->
 - mention your referees→:::←_(end)_ <!--SR:!2024-04-27,100,310!2024-05-19,92,250-->
 
@@ -99,7 +99,7 @@ return await memorize_seq(
 - _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-03-16,85,250!2024-11-12,304,330-->
 - your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-03-09,65,270-->
 - why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-06-05,119,230!2024-04-02,69,270-->
-- why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-03-07,79,250!2024-02-25,83,270-->
+- why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-03-07,79,250!2024-10-06,223,270-->
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-04-15,70,230-->
 - from or signature→:::←_(end)_ <!--SR:!2024-09-20,261,330!2024-03-18,101,290-->
 
