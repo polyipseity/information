@@ -258,7 +258,7 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2024-06-14,124,307!2024-06-02,111,287-->
-> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-03-02,56,307!2024-02-27,10,247-->
+> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-03-02,56,307!2024-03-21,23,247-->
 > - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2024-05-07,100,307!2024-03-27,55,227-->
 > - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2024-04-05,71,287!2024-03-10,58,287-->
 
@@ -299,14 +299,14 @@ return chain.from_iterable(await gather(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2024-02-27,51,309!2024-04-07,74,289!2024-03-18,67,329-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-08-02,157,309!2024-04-07,74,289!2024-03-18,67,329-->
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-04-19,85,289!2024-03-25,51,249-->
-> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-04-13,81,289!2024-02-25,28,249-->
+> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-04-13,81,289!2024-05-04,69,249-->
 > - $0 \cos 5x - 1.23 \sin 5x$ ::: $1.23 \sin(-5x)$ <!--SR:!2024-03-16,65,329!2024-03-28,76,329-->
 
 ## references

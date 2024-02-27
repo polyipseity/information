@@ -471,7 +471,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-02-24,21,130!2025-09-10,677,285!2028-10-10,1730,387-->
+> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-03-23,28,130!2025-09-10,677,285!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -589,7 +589,7 @@ return (
 > | fluorine | {{fluoro-}} | {{fluoride}} |
 > | chlorine | {{chloro-}} | {{chloride}} |
 > | bromine | {{bromo-}} | {{bromide}} |
-> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2030-01-01,2169,321!2027-06-10,1524,364!2029-08-18,2063,324!2027-07-17,1556,366!2029-01-05,1878,327!2029-07-16,2137,367!2024-02-25,539,312!2028-10-14,1915,373-->
+> | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2030-01-01,2169,321!2027-06-10,1524,364!2029-08-18,2063,324!2027-07-17,1556,366!2029-01-05,1878,327!2029-07-16,2137,367!2030-07-08,2325,332!2028-10-14,1915,373-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -699,7 +699,7 @@ return await memorize_table(
 - _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2024-11-11,469,384!2024-11-22,478,384-->
 - [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2024-12-05,489,384-->
 - [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2024-05-22,302,344!2024-05-20,117,344-->
-- [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-07-08,282,364!2024-02-24,162,324-->
+- [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-07-08,282,364!2024-05-14,80,304-->
 - [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2024-05-06,104,324!2024-07-17,351,364-->
 - [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2024-09-20,233,304-->
 

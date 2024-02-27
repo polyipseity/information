@@ -33,7 +33,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 > - {{$\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$}}
-> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}} <!--SR:!2024-03-07,68,310!2024-02-25,59,310!2024-09-26,222,330!2024-10-12,235,330!2024-05-19,116,290!2024-02-29,52,250-->
+> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}} <!--SR:!2024-03-07,68,310!2024-11-03,252,330!2024-09-26,222,330!2024-10-12,235,330!2024-05-19,116,290!2024-02-29,52,250-->
 
 #### determinate forms
 
@@ -52,7 +52,7 @@ When the limit on the right of the equation does not exist but are in the follow
 
 ### limits of compositions of functions
 
-In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}. <!--SR:!2024-02-24,48,250-->
+In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}. <!--SR:!2024-06-22,119,250-->
 
 ## references
 

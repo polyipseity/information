@@ -89,7 +89,7 @@ return await conversion_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="76bc"--><!-- The following content is generated at 2024-01-04T20:17:51.591589+08:00. Any edits will be overridden! -->
 
 - from: x °C ≘ (x + 273.15) K, to: x K ≘ (x − 273.15) °C::[Kelvin](Kelvin.md) <!--SR:!2024-03-09,64,310-->
-- from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C::[Fahrenheit](Fahrenheit.md) <!--SR:!2024-02-27,54,310-->
+- from: x °C ≘ (x × 9/5 + 32) °F, to: x °F ≘ (x − 32) × 5/9 °C::[Fahrenheit](Fahrenheit.md) <!--SR:!2024-10-08,224,330-->
 - from: x °C ≘ (x + 273.15) × 9/5 °R, to: x °R ≘ (x − 491.67) × 5/9 °C::[Rankine](Rankine%20scale.md) <!--SR:!2024-03-08,62,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -213,7 +213,7 @@ return await conversion_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ef82"--><!-- The following content is generated at 2024-01-04T20:17:51.757639+08:00. Any edits will be overridden! -->
 
 - [Celsius](Celsius.md)::from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2024-03-23,52,230-->
-- [Kelvin](Kelvin.md)::from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R <!--SR:!2024-02-27,53,310-->
+- [Kelvin](Kelvin.md)::from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R <!--SR:!2024-10-12,228,330-->
 - [Fahrenheit](Fahrenheit.md)::from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R <!--SR:!2024-03-11,34,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -222,7 +222,7 @@ return await conversion_table(
 
 - from: x °R ≘ (x − 491.67) × 5/9 °C, to: x °C ≘ (x + 273.15) × 9/5 °R::[Celsius](Celsius.md) <!--SR:!2024-03-07,61,310-->
 - from: x °R ≘ x × 5/9 K, to: x K ≘ x × 9/5 °R::[Kelvin](Kelvin.md) <!--SR:!2024-03-06,61,310-->
-- from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R::[Fahrenheit](Fahrenheit.md) <!--SR:!2024-02-24,51,310-->
+- from: x °R ≘ (x − 459.67) °F, to: x °F ≘ (x + 459.67) °R::[Fahrenheit](Fahrenheit.md) <!--SR:!2024-09-29,218,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -207,7 +207,7 @@ return _chain.from_iterable(await _gather(
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)::![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg) <!--SR:!2027-01-21,1082,350-->
 - [crucible](crucible.md)::![crucible](../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg) <!--SR:!2027-01-10,1073,350-->
 - [crucible tongs](crucible%20tongs.md)::![crucible tongs](../archives/Wikimedia%20Commons/Crucible%20tong.jpg) <!--SR:!2024-04-29,302,330-->
-- [desiccator](desiccator.md)::![desiccator](../archives/Wikimedia%20Commons/Desiccator.jpg) <!--SR:!2024-02-26,252,330-->
+- [desiccator](desiccator.md)::![desiccator](../archives/Wikimedia%20Commons/Desiccator.jpg) <!--SR:!2027-04-17,1146,350-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md)::![(eye) dropper/Pasteur pipette](../archives/Wikimedia%20Commons/Transfer%20pipette.jpg) <!--SR:!2024-03-21,270,330-->
 - dropping bottle::![dropping bottle](../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg) <!--SR:!2024-06-01,330,330-->
 - [electronic balance](weighing%20scale.md)::![electronic balance](../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg) <!--SR:!2024-03-20,269,330-->
@@ -219,7 +219,7 @@ return _chain.from_iterable(await _gather(
 - [graduated pipette](graduated%20pipette.md)::![graduated pipette](../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg) <!--SR:!2025-05-09,532,310-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)::![heat-resistant mat/heatproof mat](../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg) <!--SR:!2024-03-08,263,330-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)::![measuring cylinder/graduated cylinder/mixing cylinder](../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg) <!--SR:!2024-03-04,258,330-->
-- [mortar and pestle](mortar%20and%20pestle.md)::![mortar and pestle](../archives/Wikimedia%20Commons/White-Mortar-and-Pestle.jpg) <!--SR:!2024-02-24,250,330-->
+- [mortar and pestle](mortar%20and%20pestle.md)::![mortar and pestle](../archives/Wikimedia%20Commons/White-Mortar-and-Pestle.jpg) <!--SR:!2027-04-06,1137,350-->
 - [pipeclay triangle](pipeclay%20triangle.md)::![pipeclay triangle](../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg) <!--SR:!2026-02-24,805,330-->
 - [reagent bottle](reagent%20bottle.md)::![reagent bottle](../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg) <!--SR:!2024-03-05,260,330-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)::![round-bottom(ed) flask](../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg) <!--SR:!2024-04-01,281,330-->
@@ -247,13 +247,13 @@ return _chain.from_iterable(await _gather(
 
 - ![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg)::[Bunsen burner](Bunsen%20burner.md) <!--SR:!2024-05-16,319,330-->
 - ![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg)::[Liebig condenser](Liebig%20condenser.md) <!--SR:!2024-03-06,261,330-->
-- ![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg)::[beaker](beaker.md) <!--SR:!2024-02-25,251,330-->
+- ![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg)::[beaker](beaker.md) <!--SR:!2027-04-11,1141,350-->
 - ![burette](../archives/Wikimedia%20Commons/Burette.svg)::[burette](burette.md) <!--SR:!2024-10-27,429,310-->
 - ![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg)::[burette clamp](burette%20clamp.md) <!--SR:!2027-02-20,1105,350-->
 - ![clamp](../archives/Wikimedia%20Commons/Utility%20clamp1.jpg)::[clamp](clamp.md) <!--SR:!2024-03-03,257,330-->
 - ![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg)::[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2025-06-29,569,310-->
 - ![crucible](../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg)::[crucible](crucible.md) <!--SR:!2024-06-02,331,330-->
-- ![crucible tongs](../archives/Wikimedia%20Commons/Crucible%20tong.jpg)::[crucible tongs](crucible%20tongs.md) <!--SR:!2024-02-27,253,330-->
+- ![crucible tongs](../archives/Wikimedia%20Commons/Crucible%20tong.jpg)::[crucible tongs](crucible%20tongs.md) <!--SR:!2027-04-21,1149,350-->
 - ![desiccator](../archives/Wikimedia%20Commons/Desiccator.jpg)::[desiccator](desiccator.md) <!--SR:!2026-08-01,930,330-->
 - ![(eye) dropper/Pasteur pipette](../archives/Wikimedia%20Commons/Transfer%20pipette.jpg)::[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-04-02,282,330-->
 - ![dropping bottle](../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg)::dropping bottle <!--SR:!2024-03-22,271,330-->
@@ -263,7 +263,7 @@ return _chain.from_iterable(await _gather(
 - ![flat-bottom(ed) flask](../archives/Wikimedia%20Commons/TGI%20250.jpg)::[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2026-04-12,794,330-->
 - ![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg)::[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-01-23,784,330-->
 - ![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg)::[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-03-18,535,310-->
-- ![graduated pipette](../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg)::[graduated pipette](graduated%20pipette.md) <!--SR:!2024-02-26,87,290-->
+- ![graduated pipette](../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg)::[graduated pipette](graduated%20pipette.md) <!--SR:!2025-02-10,350,310-->
 - ![heat-resistant mat/heatproof mat](../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg)::[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-12-08,737,330-->
 - ![measuring cylinder/graduated cylinder/mixing cylinder](../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg)::[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2025-11-14,728,330-->
 - ![mortar and pestle](../archives/Wikimedia%20Commons/White-Mortar-and-Pestle.jpg)::[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-03-09,264,330-->

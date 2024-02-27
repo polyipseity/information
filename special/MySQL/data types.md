@@ -34,7 +34,7 @@ tags:
     - `TINYBLOB` ::: Up to 2<sup>8</sup> - 1 bytes of binary string. <!--SR:!2024-08-30,243,310!2025-03-28,414,330-->
     - `BLOB` ::: Up to 2<sup>16</sup> - 1 bytes of binary string. <!--SR:!2025-04-12,426,330!2025-02-23,402,330-->
     - `MEDIUMBLOB` ::: Up to 2<sup>24</sup> - 1 bytes of binary string. <!--SR:!2024-09-12,253,310!2025-01-31,385,330-->
-    - `LONGBLOB` ::: Up to 2<sup>32</sup> - 1 bytes of binary string. <!--SR:!2024-02-27,47,290!2024-09-30,266,310-->
+    - `LONGBLOB` ::: Up to 2<sup>32</sup> - 1 bytes of binary string. <!--SR:!2024-07-11,135,290!2024-09-30,266,310-->
   - `CHAR`, `VARCHAR` ::: Strings. Length of the former is fixed and of the latter is variable. <!--SR:!2025-02-12,393,330!2024-12-02,299,310-->
     - `CHAR` ::: Up to 2<sup>8</sup> - 1 bytes of fixed-size string. <!--SR:!2024-12-09,342,330!2024-10-01,268,310-->
     - `VARCHAR` ::: Up to 2<sup>16</sup> - 1 bytes of string. Shared among columns in a row. <!--SR:!2025-03-27,428,330!2025-04-18,432,330-->

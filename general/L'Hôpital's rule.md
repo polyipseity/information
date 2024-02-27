@@ -105,10 +105,10 @@ The following table lists out transformation from other [indeterminate forms](in
 
 - _(begin)_→:::←$\frac00$ <!--SR:!2024-10-28,256,330!2024-09-03,214,330-->
 - $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-12-05,286,330!2024-10-07,239,330-->
-- $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2024-06-09,144,310!2024-02-24,31,270-->
-- $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-06-13,142,290!2024-02-24,68,310-->
-- $\infty-\infty$→:::←$0^0$ <!--SR:!2024-02-24,29,230!2024-04-19,94,270-->
-- $0^0$→:::←$1^\infty$ <!--SR:!2024-02-25,63,290!2024-05-30,136,310-->
+- $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2024-06-09,144,310!2024-06-19,116,290-->
+- $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2024-06-13,142,290!2024-09-23,212,310-->
+- $\infty-\infty$→:::←$0^0$ <!--SR:!2024-03-09,14,210!2024-04-19,94,270-->
+- $0^0$→:::←$1^\infty$ <!--SR:!2024-11-06,255,310!2024-05-30,136,310-->
 - $1^\infty$→:::←$\infty^0$ <!--SR:!2024-03-04,53,270!2024-07-22,178,310-->
 - $\infty^0$→:::←_(end)_ <!--SR:!2024-09-14,222,330!2024-03-25,45,270-->
 
@@ -123,7 +123,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $0\cdot\infty$::$\lim_{x\to{c} }f(x)=0,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-11-02,261,330-->
 - $\infty-\infty$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-10-07,241,330-->
 - $0^0$::$\lim_{x\to{c} }f(x)=0^+,\lim_{x\to{c} }g(x)=0$ <!--SR:!2024-04-27,71,290-->
-- $1^\infty$::$\lim_{x\to{c} }f(x)=1,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-02-24,68,310-->
+- $1^\infty$::$\lim_{x\to{c} }f(x)=1,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-12-14,294,330-->
 - $\infty^0$::$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=0$ <!--SR:!2024-09-08,218,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

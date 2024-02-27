@@ -68,11 +68,11 @@ return await memorize_table(
 - _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 - affirming the consequent→:::←appeal to authority <!--SR:!2024-04-15,90,275!2024-04-23,278,315-->
 - appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-- appeal to tradition→:::←guilt by association <!--SR:!2024-02-24,4,130!2024-04-02,226,275-->
+- appeal to tradition→:::←guilt by association <!--SR:!2024-03-04,7,150!2024-04-02,226,275-->
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
-- post hoc→:::←self-contradiction <!--SR:!2024-02-27,15,155!2024-04-04,260,315-->
+- post hoc→:::←self-contradiction <!--SR:!2024-03-05,7,135!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 - virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-08-30,205,275-->
 - weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->
@@ -119,7 +119,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2024-02-24,214,310-->
+- _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2026-08-31,917,330-->
 - comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
 - factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-03-07,14,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
@@ -286,7 +286,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2024-07-10,236,
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-03-13,20,250!2024-02-25,189,255!2024-03-03,24,170-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-03-13,20,250!2025-06-21,481,255!2024-03-03,24,170-->
 
 ## essay patterns
 
@@ -473,7 +473,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Introduction) State your solutions. <!--SR:!2026-03-05,771,315!2024-08-14,340,290-->
 - (Introduction) State your solutions.→:::←State the problem or criteria required. <!--SR:!2024-11-06,314,250!2026-03-07,800,335-->
 - State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2024-04-14,111,215!2024-11-05,410,295-->
-- (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2024-02-26,190,250!2024-03-01,194,250-->
+- (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2025-06-14,474,250!2024-03-01,194,250-->
 - For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2024-08-08,313,275-->
 - (Conclusion) Summarize solutions.→:::←_(end)_ <!--SR:!2024-05-24,304,330!2024-03-25,91,295-->
 
