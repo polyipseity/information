@@ -98,8 +98,8 @@ safety: withstand the maximum permissible working pressure
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-03-13,15,266!2024-03-06,13,286-->
 - control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number <!--SR:!2024-03-03,6,266!2024-03-02,9,286-->
 - identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-03-10,13,284!2024-03-14,17,304-->
-- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-02-28,1,166!2024-02-28,6,266-->
-- safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-02-28,2,206!2024-03-01,3,243-->
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-03-01,2,166!2024-03-15,16,266-->
+- safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-03-03,4,206!2024-03-01,3,243-->
 - safety: withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-03-02,9,283!2024-03-05,8,266-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -136,10 +136,10 @@ pipe
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←flue damper <!--SR:!2024-02-28,6,266!2024-03-08,14,306-->
+- _(begin)_→:::←flue damper <!--SR:!2024-03-20,21,286!2024-03-08,14,306-->
 - flue damper→:::←fuel pump <!--SR:!2024-03-03,10,283!2024-03-01,3,246-->
 - fuel pump→:::←heater <!--SR:!2024-03-04,11,286!2024-03-03,9,286-->
-- heater→:::←multiple burner <!--SR:!2024-02-28,6,266!2024-03-01,8,266-->
+- heater→:::←multiple burner <!--SR:!2024-03-13,14,266!2024-03-01,8,266-->
 - multiple burner→:::←pipe <!--SR:!2024-03-03,10,286!2024-03-06,12,286-->
 - pipe→:::←_(end)_ <!--SR:!2024-03-03,10,283!2024-03-06,13,286-->
 
@@ -181,7 +181,7 @@ thermal oil heater
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-03-06,13,286!2024-03-04,11,286-->
 - electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-02,9,263!2024-03-02,9,266-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-03-09,11,243!2024-02-29,7,266-->
-- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-02-28,6,266!2024-03-01,3,226-->
+- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-02,3,246!2024-03-01,3,226-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-03-04,11,286!2024-03-03,10,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -222,7 +222,7 @@ safety: fusible pressure release plug or efficient low-water alarm
 - control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-08,11,266!2024-02-29,7,266-->
 - identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-03-13,16,304!2024-03-14,17,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-03-02,8,263!2024-03-06,13,286-->
-- indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-02-28,1,130!2024-03-03,9,286-->
+- indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-01,2,150!2024-03-03,9,286-->
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-03-09,15,306!2024-03-03,6,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -265,10 +265,10 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 
 - _(begin)_→:::←design: correct fittings and regulators <!--SR:!2024-03-09,12,246!2024-03-05,11,286-->
 - design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition <!--SR:!2024-03-02,5,226!2024-03-03,6,246-->
-- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves <!--SR:!2024-02-28,2,206!2024-03-05,11,283-->
+- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves <!--SR:!2024-03-03,4,206!2024-03-05,11,283-->
 - operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-03-03,10,286!2024-03-08,11,246-->
 - operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-03-03,9,286!2024-03-08,14,303-->
-- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-02-28,6,266!2024-03-03,6,246-->
+- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-03-20,21,286!2024-03-03,6,246-->
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-03-06,12,283!2024-02-29,7,266-->
 - operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-03-09,15,306!2024-03-08,10,246-->
 
@@ -309,12 +309,12 @@ protective devices that release contents do so safely
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-03-02,9,266!2024-03-06,13,283-->
-- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-02-29,7,266!2024-02-28,1,223-->
+- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-02-29,7,266!2024-03-01,2,223-->
 - expected working life→:::←fluid properties <!--SR:!2024-03-02,9,286!2024-03-02,5,246-->
-- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-02-28,2,206!2024-02-28,6,266-->
-- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-02-28,1,206!2024-03-08,11,246-->
+- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-02-29,1,186!2024-03-02,3,246-->
+- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-02-29,1,186!2024-03-08,11,246-->
 - proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-11,17,306!2024-03-07,13,283-->
-- protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-03-05,12,283!2024-02-28,2,206-->
+- protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-03-05,12,283!2024-03-03,4,206-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -356,9 +356,9 @@ overheating
 
 - _(begin)_→:::←blocked or restricted flow <!--SR:!2024-03-05,12,286!2024-03-11,17,303-->
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-03-02,5,246!2024-03-04,11,286-->
-- compressor malfunction→:::←external fire <!--SR:!2024-02-28,6,266!2024-03-02,5,246-->
+- compressor malfunction→:::←external fire <!--SR:!2024-03-02,3,246!2024-03-02,5,246-->
 - external fire→:::←failure of automatic controls <!--SR:!2024-03-05,12,286!2024-03-03,10,286-->
-- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-01,7,246!2024-02-28,6,263-->
+- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-01,7,246!2024-03-15,16,263-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-03-04,11,283!2024-03-06,12,283-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-03-03,10,286!2024-03-03,10,286-->
 - overheating→:::←_(end)_ <!--SR:!2024-03-10,16,306!2024-02-29,2,226-->
@@ -404,7 +404,7 @@ worker knowledge and skills
 - equipment age, condition, and suitability→:::←fluid properties <!--SR:!2024-03-03,9,286!2024-03-05,8,226-->
 - fluid properties→:::←pressure <!--SR:!2024-03-01,8,266!2024-02-29,7,266-->
 - pressure→:::←prevailing conditions <!--SR:!2024-03-04,10,286!2024-03-02,9,286-->
-- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-02-29,2,226!2024-02-28,6,246-->
+- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-02-29,2,226!2024-03-12,13,246-->
 - worker knowledge and skills→:::←_(end)_ <!--SR:!2024-03-10,16,303!2024-03-05,12,283-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -485,9 +485,9 @@ operator: segregate and indicate work area
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-03-09,12,246!2024-03-05,12,283-->
-- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-02-28,5,226!2024-03-08,11,246-->
+- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-11,12,226!2024-03-08,11,246-->
 - design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-01,8,266!2024-03-02,9,266-->
-- design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-03,6,226!2024-02-28,2,206-->
+- design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-03,6,226!2024-03-03,4,206-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-03-01,4,206!2024-03-12,14,246-->
 - operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-03-01,5,206!2024-02-29,7,266-->
 - operator: segregate and indicate work area→:::←_(end)_ <!--SR:!2024-03-10,16,306!2024-03-01,4,186-->
@@ -569,7 +569,7 @@ safety: pressure release valve
 - control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-01,8,266!2024-02-29,7,263-->
 - safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-02-29,2,226!2024-02-29,2,226-->
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-03-13,15,266!2024-03-02,9,286-->
-- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-03-05,11,286!2024-02-28,2,206-->
+- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-03-05,11,286!2024-02-29,1,186-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -606,7 +606,7 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56) <!--SR:!2024-03-04,7,246!2024-03-12,18,303-->
 - Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A) <!--SR:!2024-03-09,15,306!2024-03-09,15,303-->
 - Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B) <!--SR:!2024-03-09,15,303!2024-03-08,14,303-->
-- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-02-28,1,206!2024-03-02,9,263-->
+- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-03-01,2,206!2024-03-02,9,263-->
 - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_ <!--SR:!2024-03-11,17,306!2024-03-02,5,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -649,8 +649,8 @@ thermal protection
 
 - _(begin)_→:::←air inlet and outlet monitoring <!--SR:!2024-03-10,12,266!2024-03-03,10,283-->
 - air inlet and outlet monitoring→:::←calibrated pressure gauge <!--SR:!2024-03-02,5,226!2024-03-05,8,266-->
-- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-02-28,2,206!2024-02-28,6,266-->
-- coolant protection→:::←explosion protection <!--SR:!2024-02-28,2,223!2024-03-04,11,286-->
+- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-02-29,1,186!2024-03-13,14,266-->
+- coolant protection→:::←explosion protection <!--SR:!2024-02-29,1,203!2024-03-04,11,286-->
 - explosion protection→:::←lubricant protection <!--SR:!2024-03-04,11,286!2024-03-05,12,286-->
 - lubricant protection→:::←safety valve <!--SR:!2024-02-29,2,226!2024-03-05,11,286-->
 - safety valve→:::←thermal protection <!--SR:!2024-03-04,11,286!2024-03-03,10,283-->
