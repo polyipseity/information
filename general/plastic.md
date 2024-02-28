@@ -79,7 +79,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←[high-density polyethylene](high-density%20polyethylene.md) (HDPE) <!--SR:!2024-06-08,337,334!2024-08-11,390,341-->
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)→:::←[low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2024-06-06,335,334!2024-08-10,389,341-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→:::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2024-03-06,196,254!2024-06-05,334,334-->
-- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-04-09,43,269!2024-02-28,74,249-->
+- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-04-09,43,269!2024-08-31,185,249-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2024-03-11,71,194!2024-04-18,161,274-->
 - [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2024-05-06,258,274!2024-10-01,233,274-->
 - [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-05-11,314,334!2024-07-16,260,281-->
@@ -94,7 +94,7 @@ return _chain.from_iterable(await _gather(
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2024-04-22,295,330-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2024-05-23,321,334-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::![polyethylene terephthalate](../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg) <!--SR:!2024-09-27,384,274-->
-- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!2024-02-28,63,190-->
+- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!2024-06-28,121,190-->
 - [polypropylene](polypropylene.md) (PP)::![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg) <!--SR:!2024-08-09,388,341-->
 - [polystyrene](polystyrene.md) (PS)::![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg) <!--SR:!2024-03-14,263,321-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) <!--SR:!2024-07-26,372,349-->
