@@ -344,7 +344,7 @@ return chain.from_iterable(await gather(
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
-- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-02-29,16,130-->
+- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-03-20,20,130-->
 - zinc ion::colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion::_(n/a)_ <!--SR:!2024-06-27,366,256-->
@@ -479,7 +479,7 @@ return chain.from_iterable(await gather(
 - nitrite ion::_(n/a)_ <!--SR:!2024-07-26,245,256-->
 - hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
 - hydrogensulfite ion::colorless <!--SR:!2026-11-15,1203,270-->
-- hydrogensulfate ion::colorless <!--SR:!2024-02-29,497,270-->
+- hydrogensulfate ion::colorless <!--SR:!2027-11-01,1341,270-->
 - permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-09-19,216,230-->
 - oxide ion::_(n/a)_ <!--SR:!2024-09-17,438,276-->
 - sulfide ion::_(n/a)_ <!--SR:!2025-04-24,452,256-->

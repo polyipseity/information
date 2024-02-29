@@ -48,7 +48,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:57.909356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create positive first impression <!--SR:!2024-06-12,128,310!2024-10-27,290,330-->
-- create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-02-29,89,290!2024-09-30,269,330-->
+- create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-11-12,257,290!2024-09-30,269,330-->
 - emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-03-26,29,250!2024-03-26,42,270-->
 - include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-03-25,72,270!2024-03-02,28,270-->
 - mention your referees→:::←_(end)_ <!--SR:!2024-04-27,100,310!2024-05-19,92,250-->

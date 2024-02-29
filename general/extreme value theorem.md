@@ -12,7 +12,7 @@ In [mathematics](mathematics.md), the __extreme value theorem__ states that {{if
 
 > __extreme value theorem__
 >
-> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I=[a,b]$ and a [continuous function](continuous%20function.md) $f:I\to\mathbb{R}$, there exists $c,d\in{I}$ such that $f(c)\le{f(x)}\le{f(d)}\quad\forall{x}\in{I}$.}} <!--SR:!2024-02-29,73,310-->
+> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I=[a,b]$ and a [continuous function](continuous%20function.md) $f:I\to\mathbb{R}$, there exists $c,d\in{I}$ such that $f(c)\le{f(x)}\le{f(d)}\quad\forall{x}\in{I}$.}} <!--SR:!2024-10-11,225,310-->
 
 ## references
 
