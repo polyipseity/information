@@ -119,7 +119,7 @@ return _chain.from_iterable(await _gather(
 - 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-03-01,58,310!2024-08-17,184,310-->
 - _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-03-04,60,310!2024-09-27,218,330-->
 - 1 < _n_ < _γ_→:::←_n_ = _γ_ <!--SR:!2024-10-14,231,330!2024-10-18,235,330-->
-- _n_ = _γ_→:::←_γ_ < _n_ < +∞ <!--SR:!2024-03-15,69,310!2024-02-29,56,310-->
+- _n_ = _γ_→:::←_γ_ < _n_ < +∞ <!--SR:!2024-03-15,69,310!2024-10-25,239,330-->
 - _γ_ < _n_ < +∞→:::←_n_ = +∞ <!--SR:!2024-03-02,58,310!2024-03-05,61,310-->
 - _n_ = +∞→:::←_(end)_ <!--SR:!2024-03-06,61,310!2024-10-02,222,330-->
 
@@ -134,7 +134,7 @@ return _chain.from_iterable(await _gather(
 - 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-03-26,63,270-->
 - _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md) <!--SR:!2024-03-01,57,310-->
 - _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2024-09-09,201,310-->
-- _n_ = +∞::$V = C$; equivalent to [isochoric process](isochoric%20process.md) <!--SR:!2024-02-29,57,310-->
+- _n_ = +∞::$V = C$; equivalent to [isochoric process](isochoric%20process.md) <!--SR:!2024-10-30,244,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

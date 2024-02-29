@@ -169,7 +169,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-06-06,105,290!2024-02-29,26,150!2025-06-24,539,295!2024-04-04,62,175-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-06-06,105,290!2024-04-07,38,150!2025-06-24,539,295!2024-04-04,62,175-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -226,13 +226,13 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
-- according to/refer to→:::←cause/reason <!--SR:!2024-02-29,12,130!2024-06-23,313,295-->
+- according to/refer to→:::←cause/reason <!--SR:!2024-03-07,7,130!2024-06-23,313,295-->
 - cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
 - feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-03-06,16,130-->
 - pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
-- trend→:::←with reference to <!--SR:!2024-02-29,166,230!2024-03-24,113,190-->
+- trend→:::←with reference to <!--SR:!2024-05-21,82,210!2024-03-24,113,190-->
 - with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-05-02,97,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

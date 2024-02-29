@@ -10,7 +10,7 @@ tags:
 
 # mean value theorem
 
-In [mathematics](mathematics.md), the __mean value theorem__ or __{{Lagrange}} theorem__ states that {{a [curve](curve.md) between two [points](point%20(geometry).md) has at least one point at which its [tangent](tangent.md) to the curve is parallel to the [secant](secant%20line.md) joining the two points}}. <!--SR:!2024-02-29,24,270!2024-05-12,120,290-->
+In [mathematics](mathematics.md), the __mean value theorem__ or __{{Lagrange}} theorem__ states that {{a [curve](curve.md) between two [points](point%20(geometry).md) has at least one point at which its [tangent](tangent.md) to the curve is parallel to the [secant](secant%20line.md) joining the two points}}. <!--SR:!2024-05-28,89,290!2024-05-12,120,290-->
 
 ## formal statement
 

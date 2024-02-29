@@ -53,9 +53,9 @@ The content is in teaching order.
   - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
   - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-03-07,13,286!2024-03-01,8,266-->
-  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-02-29,2,226!2024-03-02,8,263-->
+  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-03-06,6,226!2024-03-02,8,263-->
   - hydraulic test
-    - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-02-29,2,226!2024-02-29,7,266-->
+    - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-05,5,226!2024-03-25,25,286-->
     - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-06,8,223!2024-03-04,11,283-->
   - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::: Governs pressurized cylinders. <!--SR:!2024-03-06,13,283!2024-03-03,10,263-->
 - pressurized cylinder ::: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years. <!--SR:!2024-03-05,12,283!2024-03-01,12,270-->
@@ -180,7 +180,7 @@ thermal oil heater
 - _(begin)_→:::←electric heated boiler <!--SR:!2024-03-06,13,283!2024-03-06,13,286-->
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-03-06,13,286!2024-03-04,11,286-->
 - electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-02,9,263!2024-03-02,9,266-->
-- fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-03-09,11,243!2024-02-29,7,266-->
+- fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-03-09,11,243!2024-03-04,4,246-->
 - fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-02,3,246!2024-03-01,3,226-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-03-04,11,286!2024-03-03,10,286-->
 
@@ -219,7 +219,7 @@ safety: fusible pressure release plug or efficient low-water alarm
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-01,3,223!2024-03-04,11,286-->
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-08,11,266!2024-02-29,7,266-->
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-08,11,266!2024-03-17,17,266-->
 - identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-03-13,16,304!2024-03-14,17,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-03-02,8,263!2024-03-06,13,286-->
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-01,2,150!2024-03-03,9,286-->
@@ -269,7 +269,7 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 - operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-03-03,10,286!2024-03-08,11,246-->
 - operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-03-03,9,286!2024-03-08,14,303-->
 - operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-03-20,21,286!2024-03-03,6,246-->
-- operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-03-06,12,283!2024-02-29,7,266-->
+- operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-03-06,12,283!2024-03-28,28,286-->
 - operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-03-09,15,306!2024-03-08,10,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -309,10 +309,10 @@ protective devices that release contents do so safely
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-03-02,9,266!2024-03-06,13,283-->
-- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-02-29,7,266!2024-03-01,2,223-->
+- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-03-19,19,266!2024-03-01,2,223-->
 - expected working life→:::←fluid properties <!--SR:!2024-03-02,9,286!2024-03-02,5,246-->
-- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-02-29,1,186!2024-03-02,3,246-->
-- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-02-29,1,186!2024-03-08,11,246-->
+- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-02,2,186!2024-03-02,3,246-->
+- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-02,2,186!2024-03-08,11,246-->
 - proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-11,17,306!2024-03-07,13,283-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-03-05,12,283!2024-03-03,4,206-->
 
@@ -361,7 +361,7 @@ overheating
 - failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-01,7,246!2024-03-15,16,263-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-03-04,11,283!2024-03-06,12,283-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-03-03,10,286!2024-03-03,10,286-->
-- overheating→:::←_(end)_ <!--SR:!2024-03-10,16,306!2024-02-29,2,226-->
+- overheating→:::←_(end)_ <!--SR:!2024-03-10,16,306!2024-03-06,6,246-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -399,12 +399,12 @@ worker knowledge and skills
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1192"--><!-- The following content is generated at 2024-02-19T20:13:03.087677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control complexity <!--SR:!2024-02-29,2,226!2024-03-06,16,290-->
-- control complexity→:::←equipment age, condition, and suitability <!--SR:!2024-03-06,13,286!2024-02-29,7,266-->
+- _(begin)_→:::←control complexity <!--SR:!2024-03-06,6,246!2024-03-06,16,290-->
+- control complexity→:::←equipment age, condition, and suitability <!--SR:!2024-03-06,13,286!2024-03-25,25,286-->
 - equipment age, condition, and suitability→:::←fluid properties <!--SR:!2024-03-03,9,286!2024-03-05,8,226-->
-- fluid properties→:::←pressure <!--SR:!2024-03-01,8,266!2024-02-29,7,266-->
+- fluid properties→:::←pressure <!--SR:!2024-03-01,8,266!2024-03-21,21,266-->
 - pressure→:::←prevailing conditions <!--SR:!2024-03-04,10,286!2024-03-02,9,286-->
-- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-02-29,2,226!2024-03-12,13,246-->
+- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-03-06,6,246!2024-03-12,13,246-->
 - worker knowledge and skills→:::←_(end)_ <!--SR:!2024-03-10,16,303!2024-03-05,12,283-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -444,7 +444,7 @@ suffocation
 - _(begin)_→:::←blast, explosion, flying debris, and shockwave <!--SR:!2024-03-01,3,243!2024-03-05,12,283-->
 - blast, explosion, flying debris, and shockwave→:::←chemical burn <!--SR:!2024-03-02,9,266!2024-03-03,9,286-->
 - chemical burn→:::←fire and thermal burn <!--SR:!2024-03-01,8,266!2024-03-02,9,263-->
-- fire and thermal burn→:::←poisoning <!--SR:!2024-03-04,11,286!2024-02-29,7,266-->
+- fire and thermal burn→:::←poisoning <!--SR:!2024-03-04,11,286!2024-03-04,4,246-->
 - poisoning→:::←suffocation <!--SR:!2024-03-11,17,306!2024-03-04,10,286-->
 - suffocation→:::←_(end)_ <!--SR:!2024-03-06,9,263!2024-03-05,12,283-->
 
@@ -489,7 +489,7 @@ operator: segregate and indicate work area
 - design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-01,8,266!2024-03-02,9,266-->
 - design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-03,6,226!2024-03-03,4,206-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-03-01,4,206!2024-03-12,14,246-->
-- operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-03-01,5,206!2024-02-29,7,266-->
+- operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-03-01,5,206!2024-03-20,20,266-->
 - operator: segregate and indicate work area→:::←_(end)_ <!--SR:!2024-03-10,16,306!2024-03-01,4,186-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -566,10 +566,10 @@ safety: pressure release valve
 
 - _(begin)_→:::←control: accessible valves and safety devices <!--SR:!2024-03-02,8,266!2024-03-08,14,303-->
 - control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible <!--SR:!2024-03-06,13,286!2024-03-05,12,286-->
-- control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-01,8,266!2024-02-29,7,263-->
-- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-02-29,2,226!2024-02-29,2,226-->
+- control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-01,8,266!2024-03-04,4,243-->
+- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-01,1,206!2024-03-05,5,226-->
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-03-13,15,266!2024-03-02,9,286-->
-- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-03-05,11,286!2024-02-29,1,186-->
+- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-03-05,11,286!2024-03-02,2,186-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -649,10 +649,10 @@ thermal protection
 
 - _(begin)_→:::←air inlet and outlet monitoring <!--SR:!2024-03-10,12,266!2024-03-03,10,283-->
 - air inlet and outlet monitoring→:::←calibrated pressure gauge <!--SR:!2024-03-02,5,226!2024-03-05,8,266-->
-- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-02-29,1,186!2024-03-13,14,266-->
-- coolant protection→:::←explosion protection <!--SR:!2024-02-29,1,203!2024-03-04,11,286-->
+- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-03-02,2,186!2024-03-13,14,266-->
+- coolant protection→:::←explosion protection <!--SR:!2024-03-01,1,183!2024-03-04,11,286-->
 - explosion protection→:::←lubricant protection <!--SR:!2024-03-04,11,286!2024-03-05,12,286-->
-- lubricant protection→:::←safety valve <!--SR:!2024-02-29,2,226!2024-03-05,11,286-->
+- lubricant protection→:::←safety valve <!--SR:!2024-03-06,6,246!2024-03-05,11,286-->
 - safety valve→:::←thermal protection <!--SR:!2024-03-04,11,286!2024-03-03,10,283-->
 - thermal protection→:::←_(end)_ <!--SR:!2024-03-11,17,303!2024-03-01,3,226-->
 
