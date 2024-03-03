@@ -95,7 +95,7 @@ return await memorize_map(
 
 - normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-04-15,83,340-->
 - divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2024-04-04,72,340-->
-- divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-03-01,46,320-->
+- divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-07-27,148,320-->
 - divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-04-11,79,340-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -194,12 +194,12 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \cos 3.71 \sin 3.71$ <!--SR:!2024-08-09,178,327!2024-03-25,74,327-->
-> - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2024-05-24,105,287!2024-03-01,21,287-->
+> - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2024-05-24,105,287!2024-04-29,59,287-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-06-18,127,307!2024-03-16,31,247-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2024-03-06,59,327!2024-04-18,81,287-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-03-26,75,327!2024-03-11,63,327-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-03-12,64,327!2024-03-10,62,327-->
-> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$ <!--SR:!2024-03-03,52,307!2024-03-31,73,287-->
+> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$ <!--SR:!2024-08-09,159,307!2024-03-31,73,287-->
 > - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2024-04-28,95,307!2024-04-25,64,287-->
 
 ## product-to-sum and sum-to-product
@@ -258,7 +258,7 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2024-06-14,124,307!2024-06-02,111,287-->
-> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-03-02,56,307!2024-03-21,23,247-->
+> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-08-22,173,307!2024-03-21,23,247-->
 > - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2024-05-07,100,307!2024-03-27,55,227-->
 > - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2024-04-05,71,287!2024-03-10,58,287-->
 

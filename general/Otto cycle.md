@@ -58,7 +58,7 @@ return await memorize_seq(
 
 - _(starts outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_→:::←__[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md) <!--SR:!2024-08-07,161,312!2024-09-14,198,312-->
 - __[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←__[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received <!--SR:!2024-03-04,56,312!2024-03-19,20,232-->
-- __[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received→:::←__[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases <!--SR:!2024-06-27,139,292!2024-03-03,55,312-->
+- __[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received→:::←__[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases <!--SR:!2024-06-27,139,292!2024-08-21,171,312-->
 - __[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases→:::←__[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done <!--SR:!2024-03-11,60,312!2024-03-10,59,312-->
 - __[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done→:::←__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases <!--SR:!2024-03-15,64,312!2024-03-19,68,312-->
 - __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→:::←__[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md) <!--SR:!2024-03-22,71,312!2024-05-20,103,292-->
@@ -73,7 +73,7 @@ return await memorize_seq(
 > {{$$\eta_\mathrm{th} = 1 - \frac1{r^{\gamma - 1} }$$}}
 >
 > - where
->   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}} <!--SR:!2024-05-04,88,270!2024-03-02,55,310-->
+>   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}} <!--SR:!2024-05-04,88,270!2024-08-19,170,310-->
 
 ## references
 

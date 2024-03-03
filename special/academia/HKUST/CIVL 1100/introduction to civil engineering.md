@@ -184,7 +184,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
-- description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-03-03,9,275!2000-01-01,1,250-->
+- description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-04-11,39,295!2000-01-01,1,250-->
 - shape ::: bird/turtle rooftop
 
 ### Hong Kong–Zhuhai–Macau Bridge

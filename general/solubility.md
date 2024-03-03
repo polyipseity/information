@@ -365,7 +365,7 @@ return await memorize_map(
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-07,33,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-24,40,198-->
 - [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-10,14,158-->
-- [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-02,2,130-->
+- [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-05,3,130-->
 - [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-04,112,258-->
 - [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-23,102,278-->
 - [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-17,87,258-->
@@ -373,7 +373,7 @@ return await memorize_map(
 - [copper(II) carbonate](copper(II)%20carbonate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-04-13,121,298-->
 - [copper(II) chloride](copper(II)%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-16,123,298-->
 - [copper(II) ethanoate](copper(II)%20ethanoate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-05-11,142,298-->
-- [copper(II) hydroxide](copper(II)%20hydroxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-01,87,278-->
+- [copper(II) hydroxide](copper(II)%20hydroxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-10-28,241,278-->
 - [copper(II) iodide](copper(II)%20iodide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-06,116,298-->
 - [copper(II) oxide](copper(II)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-08,118,258-->
 - [copper(II) phosphate](copper(II)%20phosphate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-04-29,113,258-->
@@ -395,7 +395,7 @@ return await memorize_map(
 - [silver ethanoate](silver%20ethanoate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-05-25,153,298-->
 - [silver iodide](silver%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-03,136,298-->
 - [silver nitrate](silver%20nitrate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-31,218,318-->
-- [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-02,23,218-->
+- [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-15,13,198-->
 - [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-02,112,298-->
 - [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-19,184,318-->
 - [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-20,185,318-->

@@ -23,7 +23,7 @@ tags:
 
 ### algebraic limit theorem
 
-The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [complex](complex%20number.md)-valued functions $f(x)$ and $g(x)$, the limit of an operation on $f(x)$ and $g(x)$, i.e. $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \cdot g(x)$, $f(x) / g(x)$, and ${f(x)}^{g(x)}$, is compatible with the same operation on the limits of $f(x)$ and $g(x)$ under some conditions}}. <!--SR:!2024-03-01,63,310-->
+The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [complex](complex%20number.md)-valued functions $f(x)$ and $g(x)$, the limit of an operation on $f(x)$ and $g(x)$, i.e. $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \cdot g(x)$, $f(x) / g(x)$, and ${f(x)}^{g(x)}$, is compatible with the same operation on the limits of $f(x)$ and $g(x)$ under some conditions}}. <!--SR:!2024-11-25,269,330-->
 
 > __algebraic limit theorem__
 > Also valid for one-sided limits and limits at infinity.
@@ -48,7 +48,7 @@ When the limit on the right of the equation does not exist but are in the follow
 > - {{$\frac{q}\infty = 0 \quad \text{if } q \ne \infty \text{ and } q \ne -\infty$}}
 > - {{$\infty^q = \begin{cases} 0 & \text{if } q < 0 \\ \infty & \text{if } q > 0 \end{cases}$}}
 > - {{$q^\infty = \begin{cases} 0 & \text{if } 0 < q < 1 \\ \infty & \text{if } q > 1 \end{cases}$}}
-> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2024-06-24,148,310!2024-06-12,127,290!2024-05-19,104,270!2024-03-01,56,270!2024-04-27,95,290!2024-03-11,26,290-->
+> - {{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}} <!--SR:!2024-06-24,148,310!2024-06-12,127,290!2024-05-19,104,270!2024-07-29,150,270!2024-04-27,95,290!2024-03-11,26,290-->
 
 ### limits of compositions of functions
 
