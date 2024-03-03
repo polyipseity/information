@@ -29,7 +29,7 @@ Energy is produced through {{a [redox reaction](redox%20reaction.md) between [hy
 > - [cathode](cathode.md): {{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)}}
 > - overall: {{2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l)}} <!--SR:!2024-11-30,402,290!2024-03-27,100,292!2024-05-15,318,332-->
 
-Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2024-03-01,176,212-->
+Electrodes {{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}}. <!--SR:!2025-03-08,372,212-->
 
 Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium hydroxide into [potassium carbonate](potassium%20carbonate.md)}}. <!--SR:!2025-05-26,480,252-->
 

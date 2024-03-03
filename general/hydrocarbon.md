@@ -44,7 +44,7 @@ return await memorize_table(
 > |-|-|
 > | {{[aromatic hydrocarbons](aromatic%20compound.md)}} | {{Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).}} |
 > | {{[saturated hydrocarbons](saturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [single bonds](single%20bond.md) only.}} |
-> | {{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [multiple bonds](bond%20order.md).}} | <!--SR:!2024-04-04,284,330!2024-11-16,428,290!2024-04-06,286,330!2024-04-03,283,330!2024-03-03,258,330!2024-04-05,285,330-->
+> | {{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [multiple bonds](bond%20order.md).}} | <!--SR:!2024-04-04,284,330!2024-11-16,428,290!2024-04-06,286,330!2024-04-03,283,330!2027-05-20,1173,350!2024-04-05,285,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -53,7 +53,7 @@ return await memorize_table(
 - _(begin)_→:::←[aromatic hydrocarbons](aromatic%20compound.md) <!--SR:!2025-06-24,566,310!2024-06-02,331,330-->
 - [aromatic hydrocarbons](aromatic%20compound.md)→:::←[saturated hydrocarbons](saturated%20hydrocarbon.md) <!--SR:!2024-06-03,332,330!2024-04-17,295,330-->
 - [saturated hydrocarbons](saturated%20hydrocarbon.md)→:::←[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md) <!--SR:!2024-05-08,311,330!2024-05-07,310,330-->
-- [unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)→:::←_(end)_ <!--SR:!2024-03-01,256,330!2024-04-16,294,330-->
+- [unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)→:::←_(end)_ <!--SR:!2027-05-08,1163,350!2024-04-16,294,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

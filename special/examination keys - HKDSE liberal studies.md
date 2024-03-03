@@ -59,7 +59,7 @@ return await memorize_table(
 > | {{post hoc}} |
 > | {{self-contradiction}} |
 > | {{virtue by association}} |
-> | {{weak analogies}} | <!--SR:!2024-05-25,101,250!2024-05-15,295,315!2024-04-12,268,315!2024-03-01,79,270!2024-03-24,223,275!2024-03-20,37,215!2024-04-21,93,275!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
+> | {{weak analogies}} | <!--SR:!2024-05-25,101,250!2024-05-15,295,315!2024-04-12,268,315!2024-12-23,297,290!2024-03-24,223,275!2024-03-20,37,215!2024-04-21,93,275!2024-04-06,262,315!2024-05-18,288,295!2024-04-07,263,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -125,7 +125,7 @@ return await memorize_table(
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
 - solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
-- value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-03-02,195,255-->
+- value judgement→:::←_(end)_ <!--SR:!2024-06-11,320,330!2024-06-05,95,235-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -177,7 +177,7 @@ return await memorize_table(
 
 - _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul> <!--SR:!2024-03-24,108,210!2024-04-16,271,315-->
 - <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul> <!--SR:!2024-10-12,343,275!2024-04-10,266,315-->
-- <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2026-02-18,787,335!2024-03-01,153,215-->
+- <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_ <!--SR:!2026-02-18,787,335!2024-05-15,75,195-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -206,7 +206,7 @@ return await memorize_table(
 
 %%
 
-Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2024-03-02,63,230-->
+Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2024-04-02,31,210-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
 
@@ -286,7 +286,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2024-07-10,236,
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-03-13,20,250!2025-06-21,481,255!2024-03-03,24,170-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-03-13,20,250!2025-06-21,481,255!2024-03-14,11,150-->
 
 ## essay patterns
 
@@ -473,7 +473,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Introduction) State your solutions. <!--SR:!2026-03-05,771,315!2024-08-14,340,290-->
 - (Introduction) State your solutions.→:::←State the problem or criteria required. <!--SR:!2024-11-06,314,250!2026-03-07,800,335-->
 - State the problem or criteria required.→:::←(Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples. <!--SR:!2024-04-14,111,215!2024-11-05,410,295-->
-- (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2025-06-14,474,250!2024-03-01,194,250-->
+- (Body) Write 3 to 4 solutions from different perspectives separated by paragraphing. Highlight the problem and explain how the solution works contextually using similar examples.→:::←For at least 1 solution, assess feasibility or limitation. Attempt to overcome them. <!--SR:!2025-06-14,474,250!2025-06-28,484,250-->
 - For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions. <!--SR:!2024-05-25,305,330!2024-08-08,313,275-->
 - (Conclusion) Summarize solutions.→:::←_(end)_ <!--SR:!2024-05-24,304,330!2024-03-25,91,295-->
 

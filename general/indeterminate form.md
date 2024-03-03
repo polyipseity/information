@@ -92,8 +92,8 @@ return await memorize_map(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2024-01-04T20:17:52.183338+08:00. Any edits will be overridden! -->
 
-- $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2024-03-02,16,210-->
-- $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2024-03-03,25,270-->
+- $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2024-04-04,33,210-->
+- $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2024-05-09,67,270-->
 - $x\ln{a}$::$a^x-1$ <!--SR:!2024-05-16,114,290-->
 - $ax$::$(1+x)^a-1$ <!--SR:!2024-03-17,71,290-->
 
