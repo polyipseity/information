@@ -371,7 +371,7 @@ return chain.from_iterable(await gather(
 - <span style="color: yellow; background-color: black;">yellow</span> (dilute)::iron(III) ion <!--SR:!2024-06-17,328,361-->
 - <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2024-09-11,421,381-->
 - <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2024-04-20,196,242-->
-- <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2024-03-04,217,282-->
+- <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2024-06-20,108,262-->
 - <span style="color: red;">red</color>::manganese(III) ion <!--SR:!2024-12-03,423,322-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

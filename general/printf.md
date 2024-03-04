@@ -153,7 +153,7 @@ A combination of zero or more of the following in any order:
 > | {{\#}} | {{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}} |
 > | {{+}} | {{prepend + before positive numbers}} |
 > | {{-}} | {{align left}} |
-> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} | <!--SR:!2024-04-27,176,317!2024-05-09,160,277!2024-05-18,197,317!2024-03-04,40,217!2024-05-08,187,317!2024-12-21,333,309!2024-05-17,196,329!2025-04-24,457,329!2024-05-19,198,329!2024-12-24,336,309-->
+> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} | <!--SR:!2024-04-27,176,317!2024-05-09,160,277!2024-05-18,197,317!2024-05-29,86,217!2024-05-08,187,317!2024-12-21,333,309!2024-05-17,196,329!2025-04-24,457,329!2024-05-19,198,329!2024-12-24,336,309-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

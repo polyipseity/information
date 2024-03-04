@@ -64,7 +64,7 @@ return await memorize_table(
 - [antacids](antacid.md)→:::←control of [soil pH](soil%20pH.md) <!--SR:!2025-12-14,686,318!2024-04-06,239,298-->
 - control of [soil pH](soil%20pH.md)→:::←production of [fertilizer](fertilizer.md) <!--SR:!2024-04-15,90,238!2024-09-02,223,258-->
 - production of [fertilizer](fertilizer.md)→:::←[wastewater treatment](water%20treatment.md) <!--SR:!2025-03-16,478,298!2025-02-01,449,298-->
-- [wastewater treatment](water%20treatment.md)→:::←_(end)_ <!--SR:!2024-03-26,275,330!2024-03-04,241,318-->
+- [wastewater treatment](water%20treatment.md)→:::←_(end)_ <!--SR:!2024-03-26,275,330!2026-04-08,765,318-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
