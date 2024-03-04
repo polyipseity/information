@@ -1,6 +1,6 @@
 ---
 aliases:
-  - MATH 1014 L1 assignment 1 submission
+  - HKUST MATH 1014 L1 assignment 1 submission
 tags:
   - language/in/English
 ---
