@@ -5,7 +5,7 @@ tags:
   - language/in/English
 ---
 
-# MATH 1014 L1 assignment 1 submission
+# HKUST MATH 1014 L1 assignment 1 submission
 
 Please do not use the [fundamental theorem of calculus](../../../../../general/fundamental%20theorem%20of%20calculus.md) in this assignment.
 

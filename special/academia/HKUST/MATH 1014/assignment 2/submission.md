@@ -5,7 +5,7 @@ tags:
   - language/in/English
 ---
 
-# MATH 1014 L1 assignment 2 submission
+# HKUST MATH 1014 L1 assignment 2 submission
 
 ## 1
 
@@ -18,7 +18,7 @@ $$\lim_{x \to 0} \frac 1 {x^n} \int_0^{x^n} \! \cos\left(t^2\right) \,\mathrm{d}
 > $$\begin{aligned}
 > \lim_{x \to 0} \frac 1 {x^n} \int_0^{x^n} \! \cos\left(t^2\right) \,\mathrm{d}t & = \lim_{x \to 0} \int_0^1 \! \cos\left(x^{2n} t^2\right) \,\mathrm{d}t && \left( \text{change of variable } \frac t {x^n} \mapsto t \right) \\
 > & = \int_0^1 \! \lim_{x \to 0} \cos\left(x^{2n} t^2\right) \,\mathrm{d}t && (\text{dominated convergence theorem; dominated by } f(x) = 1 \text{ on } [0, 1]) \\
-> & = \int_0^1 \! \cos\left( \left( \lim_{x \to 0} x \right)^{2n} t \right) && \left( f(x) = \cos \left(x^{2n} t\right) \text{continuous at } 0 \right) \\
+> & = \int_0^1 \! \cos\left( \left( \lim_{x \to 0} x \right)^{2n} t \right) && \left( f(x) = \cos \left(x^{2n} t\right) \text{ is continuous at } 0 \right) \\
 > & = \int_0^1 \! \cos 0 \,\mathrm{d}t && (n > 0) \\
 > & = \int_0^1 \! \mathrm{d}t \\
 > & = 1
@@ -125,7 +125,7 @@ $$\cos x \ge 1 - \frac {x^2} 2$$
 > $$\begin{aligned}
 > \forall x \ge 0 \\
 > \sin x & \le x \\
-> \int_0^x \! \sin \xi \,\mathrm{d}\xi & \le \int_0^x \! \xi \,\mathrm{d}\xi \\
+> \int_0^x \! \sin \xi \,\mathrm{d}\xi & \le \int_0^x \! \xi \,\mathrm{d}\xi && (\text{the integrands are continuous and thus integrable by FTC I; }x \ge 0) \\
 > [-\cos \xi]_0^x & \le \left[ \frac {\xi^2} 2 \right]_0^x \\
 > \cos 0 - \cos x & \le \frac {x^2} 2 - \frac {0^2} 2 \\
 > 1 - \cos x & \le \frac {x^2} 2 \\
@@ -140,7 +140,7 @@ $$\sin x \ge x - \frac {x^3} 6$$
 > $$\begin{aligned}
 > \forall x \ge 0 \\
 > \cos x & \ge 1 - \frac {x^2} 2 \\
-> \int_0^x \! \cos \xi \,\mathrm{d}\xi & \ge \int_0^x \! \left( 1 - \frac {\xi^2} 2 \right) \,\mathrm{d}\xi \\
+> \int_0^x \! \cos \xi \,\mathrm{d}\xi & \ge \int_0^x \! \left( 1 - \frac {\xi^2} 2 \right) \,\mathrm{d}\xi && (\text{the integrands are continuous and thus integrable by FTC I; } x \ge 0) \\
 > [\sin \xi]_0^x & \ge \left[\xi - \frac {\xi^3} 6 \right]_0^x \\
 > \sin x - \sin 0 & \ge x - \frac {x^3} 6 - 0 + \frac{0^3} 6 \\
 > \sin x & \ge x - \frac {x^3} 6
@@ -153,7 +153,7 @@ $$\cos x \le 1 - \frac {x^2} 2 + \frac {x^4} 24$$
 > $$\begin{aligned}
 > \forall x \ge 0 \\
 > \sin x & \ge x - \frac {x^3} 6 \\
-> \int_0^x \! \sin \xi \,\mathrm{d}\xi & \ge \int_0^x \! \left( \xi - \frac {\xi^3} 6 \right) \,\mathrm{d}\xi \\
+> \int_0^x \! \sin \xi \,\mathrm{d}\xi & \ge \int_0^x \! \left( \xi - \frac {\xi^3} 6 \right) \,\mathrm{d}\xi && (\text{the integrands are continuous and thus integrable by FTC I; }x \ge 0) \\
 > [-\cos \xi]_0^x & \ge \left[ \frac {\xi^2} 2 - \frac {\xi^4} {24} \right]_0^x \\
 > \cos 0 - \cos x & \ge \frac {x^2} 2 - \frac {x^4} {24} - \frac {0^2} 2 + \frac {0^4} {24} \\
 > 1 - \cos x & \ge \frac {x^2} 2 - \frac {x^4} {24} \\
@@ -190,7 +190,7 @@ Using the result from [7.a](#7.a) and Cauchy-Schwarz inequality again, show that
 
 > $$\begin{aligned}
 > f(x) & := \sqrt{1 - \frac 1 2 \cos x} && x \in \mathbb{R} \\
-> f(x) & \text{ is continuous.} \\
+> f(x) & \text{ is continuous and bounded.} \\
 > \cos x & \in [-1, 1] \\
 > 1 - \frac 1 2 \cos x & \in [0.5, 1.5] \\
 > \sqrt{1 - \frac 1 2 \cos x} & > 0 \\
@@ -243,17 +243,9 @@ Show that $f(x) \ge x$ for every $x > 0$. Hence deduce that $$\lim_{x \to +\inft
 > \forall x > 0 \\
 > \frac 1 {\sqrt{1 - m \sin^2 x} } & \in [1, +\infty) \\
 > & \ge 1 \\
-> \int_0^x \! \frac 1 {\sqrt{1 - m \sin^2 \xi} } \,\mathrm{d}\xi & \ge \int_0^x \,\mathrm{d}\xi && (x > 0) \\
+> \int_0^x \! \frac 1 {\sqrt{1 - m \sin^2 \xi} } \,\mathrm{d}\xi & \ge \int_0^x \,\mathrm{d}\xi && (\text{the integrands are continuous and thus integrable by FTC I; }x > 0) \\
 > f(x) & \ge [\xi]_0^x \\
 > & \ge x \\
-> \\
-> \forall x < 0 \\
-> \frac 1 {\sqrt{1 - m \sin^2 x} } & \in [1, +\infty) \\
-> & \ge 1 \\
-> \int_x^0 \! \frac 1 {\sqrt{1 - m \sin^2 \xi} } \,\mathrm{d}\xi & \ge \int_x^0 \,\mathrm{d}\xi && (0 > x) \\
-> -f(x) & \ge [\xi]_x^0 \\
-> & \ge -x \\
-> f(x) & \le x \\
 > \\
 > \text{When }x > 0\text{,} \\
 > f(x) & \ge x \\
@@ -261,10 +253,16 @@ Show that $f(x) \ge x$ for every $x > 0$. Hence deduce that $$\lim_{x \to +\inft
 > & \ge +\infty \\
 > \lim_{x \to +\infty} f(x) & = +\infty \\
 > \\
+> f(-x) & = \int_0^{-x} \! \frac 1 {\sqrt{1 - m \sin^2 x} } \,\mathrm{d}x \\
+> & = -\int_0^x \frac 1 {\sqrt{1 - m \sin^2 (-x)} } \,\mathrm{d}x && (\text{change of variable }-x \mapsto x) \\
+> & = -\int_0^x \frac 1 {\sqrt{1 - m \sin^2 x} } \,\mathrm{d}x \\
+> & = -f(x) \\
+> \\
 > \text{When }x < 0\text{,} \\
-> f(x) & \le x \\
-> \lim_{x \to -\infty} f(x) & \le \lim_{x \to -\infty} x && (x < 0) \\
-> & \le -\infty \\
+> f(-x) & \ge -x \\
+> \lim_{x \to -\infty} f(-x) & \ge \lim_{x \to -\infty} -x && (x < 0) \\
+> -\lim_{x \to -\infty} f(x) & \ge +\infty \\
+> \lim_{x \to -\infty} f(x) & \le -\infty \\
 > \lim_{x \to -\infty} f(x) & = -\infty
 > \end{aligned}$$
 
@@ -360,7 +358,7 @@ Using the result from [12.a](#12.a), find the value of $a$ so that $f$ is a cont
 Using the substitution $u = \frac 1 x$, show that $$\int_{\frac 1 2}^2 \! \frac {\ln x} {1 + x^2} \,\mathrm{d}x = 0$$.
 
 > $$\begin{aligned}
-> \int_{\frac 1 2}^2 \! \frac {\ln x} {1 + x^2} \,\mathrm{d}x & = -\int_2^{\frac 1 2} \! \frac {\ln x} {1 + x^{-2} } \,\mathrm{d}u && (\text{change of variable}) \\
+> \int_{\frac 1 2}^2 \! \frac {\ln x} {1 + x^2} \,\mathrm{d}x & = -\int_{u = 2}^{u = \frac 1 2} \! \frac {\ln x} {1 + x^{-2} } \,\mathrm{d}u && (\text{change of variable}) \\
 > & = \int_2^{\frac 1 2} \! \frac{\ln u} {1 + u^2} \,\mathrm{d}u \\
 > & = \int_2^{\frac 1 2} \! \frac{\ln x} {1 + x^2} \,\mathrm{d}x && (\text{rename dummy variable}) \\
 > & = -\int_{\frac 1 2}^2 \! \frac{\ln x} {1 + x^2} \,\mathrm{d}x \\
