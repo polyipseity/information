@@ -174,7 +174,7 @@ x\left(\frac1w-1\right)&=C\\
 e^\frac{x}y&=\frac1{\frac{C}x+1}\\
 \frac{x}y&=-\ln\left(\frac{C}x+1\right)\\
 y&=-\frac{x}{\ln\left(\frac{C}x+1\right)}
-\end{aligned}$ <!--SR:!2024-03-04,122,340!2025-03-31,397,340!2024-10-16,265,320-->
+\end{aligned}$ <!--SR:!2025-04-22,414,340!2025-03-31,397,340!2024-10-16,265,320-->
 
 #### second-order equation
 

@@ -54,7 +54,7 @@ The content is in teaching order.
     - [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB) ::: A resettable [fuse](../../../../../general/fuse%20(electrical).md). Breaks a circuit when it detects overload. <!--SR:!2024-05-12,73,324!2024-04-25,59,310-->
     - [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI) ::: A combination of RCD and MCB. <!--SR:!2024-04-19,53,310!2024-04-27,58,309-->
 - [center tap](../../../../../general/center%20tap.md) ::: Used if one wants to provide two separate secondary voltage sources half of the original voltage. Make a contact halfway along a winding of a [transformer](../../../../../general/transformer.md) and ground it. Then the voltage of both wires in contact with the end of the winding is only half the potential difference of the entire winding. The voltages in the two wires are 180 degree out-of-phase of each other (or negative voltage in one of the wire). This can be used to provide extra-low voltage by reducing voltage from 220 V to 110 V, and then use a center tap to split it to two 55 V sources. <!--SR:!2024-04-16,44,264!2024-04-23,57,310-->
-- [double insulation](../../../../../general/appliance%20classes.md#Class%20II) ::: Indicated by the double insulation symbol: ⧈ (a square inside another square). No single failure can cause dangerous voltage to be exposed as to cause [electric shock](../../../../../general/electrical%20injury.md), all without the use of an earthed metal casing. Usually this is done by adding supplementary insulation on top of the basic insulation. Earthing is unnecessary in this case as any fault causes a fault current too low to trigger a [fuse](../../../../../general/fuse%20(electrical).md), because of the high-[impedance](../../../../../general/electrical%20impedance.md) casing. <!--SR:!2024-03-04,16,269!2024-04-10,47,309-->
+- [double insulation](../../../../../general/appliance%20classes.md#Class%20II) ::: Indicated by the double insulation symbol: ⧈ (a square inside another square). No single failure can cause dangerous voltage to be exposed as to cause [electric shock](../../../../../general/electrical%20injury.md), all without the use of an earthed metal casing. Usually this is done by adding supplementary insulation on top of the basic insulation. Earthing is unnecessary in this case as any fault causes a fault current too low to trigger a [fuse](../../../../../general/fuse%20(electrical).md), because of the high-[impedance](../../../../../general/electrical%20impedance.md) casing. <!--SR:!2024-04-15,42,269!2024-04-10,47,309-->
   - compliance with cable standards ::: [BS 1363](../../../../../general/BS%201363.md): Live (L) wire is brown, has a [fuse](../../../../../general/fuse%20(electrical).md), and on the right side of the plug when viewed from the plug cover. Neutral (N) wire is blue, and on the left side of the plug when viewed from the plug cover. Earth wire is green and yellow, and on the top side of the plug. <!--SR:!2024-03-16,25,270!2024-05-06,68,310-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md) ::: Applicable for devices operating on low [current](../../../../../general/electric%20current.md) and low [voltage](../../../../../general/voltage.md). Especially useful for operation in hazardous environment, like sewages, coal mines, and chemical storage. Such a device cannot produce enough heat or spark to cause ignition, even if the device has deteriorated or is damaged. See [IEC](../../../../../general/International%20Electrotechnical%20Commission.md) 60079-11. <!--SR:!2024-03-05,15,249!2024-05-02,66,329-->
   - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) ::: Last resort. Electrical protective equipment includes arc-rating clothing, insulating gloves, etc. <!--SR:!2024-03-12,14,269!2024-05-13,75,329-->
@@ -152,11 +152,11 @@ warnings
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←instructions <!--SR:!2024-03-10,7,254!2024-03-12,18,334-->
-- instructions→:::←manner of presentation <!--SR:!2024-03-07,4,274!2024-03-04,11,294-->
+- instructions→:::←manner of presentation <!--SR:!2024-03-07,4,274!2024-04-07,34,294-->
 - manner of presentation→:::←safety <!--SR:!2024-03-06,3,254!2024-03-27,26,294-->
-- safety→:::←standards <!--SR:!2024-03-20,20,294!2024-03-04,7,254-->
+- safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-03-09,6,274-->
-- use of marks→:::←warnings <!--SR:!2024-03-04,11,294!2024-03-25,24,294-->
+- use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
 - warnings→:::←_(end)_ <!--SR:!2024-03-13,19,334!2024-03-06,12,314-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -195,11 +195,11 @@ wet condition
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5bab"--><!-- The following content is generated at 2024-02-09T00:05:47.457257+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←improper contact <!--SR:!2024-03-04,7,247!2024-03-06,18,327-->
+- _(begin)_→:::←improper contact <!--SR:!2024-03-20,16,247!2024-03-06,18,327-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-04-08,41,327!2024-03-25,28,287-->
 - lack of maintenance→:::←overloading <!--SR:!2024-03-20,23,307!2024-03-10,12,207-->
 - overloading→:::←short circuiting <!--SR:!2024-03-06,18,327!2024-03-05,17,327-->
-- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-03-04,12,247!2024-03-08,15,267-->
+- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-04-02,29,247!2024-03-08,15,267-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-03-16,23,287!2024-03-06,3,247-->
 - wet condition→:::←_(end)_ <!--SR:!2024-03-06,19,327!2024-03-10,9,287-->
 
@@ -324,10 +324,10 @@ Consumer Goods Safety Ordinance (Cap. 456)
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) <!--SR:!2024-03-27,33,307!2024-03-05,17,327-->
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-04,17,327!2024-03-25,31,307-->
-- Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-03-04,17,327!2024-04-09,40,307-->
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-15,11,307!2024-03-25,31,307-->
+- Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-05-21,78,347!2024-04-09,40,307-->
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-03-16,23,287!2024-03-30,32,307-->
-- Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-03-04,16,327!2024-03-22,25,287-->
+- Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-05-14,71,347!2024-03-22,25,287-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

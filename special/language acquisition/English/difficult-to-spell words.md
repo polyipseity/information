@@ -57,7 +57,7 @@ English
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2024-04-12,78,358-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p\_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2024-03-28,69,324!2024-03-28,70,324-->
-- [pharynx](https://en.wiktionary.org/wiki/pharynx) ::: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2024-03-04,39,264!2024-06-19,129,304-->
+- [pharynx](https://en.wiktionary.org/wiki/pharynx) ::: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2024-06-16,104,264!2024-06-19,129,304-->
 - [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::: (p\_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2024-04-28,83,363!2024-03-16,39,283-->
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::: (p\_m) Copying of others' work and presenting it as one's own. <!--SR:!2024-04-06,73,324!2024-05-12,101,304-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::: (p\_e) To copy others' work and present it as one's own. <!--SR:!2024-03-24,67,324!2024-03-31,61,284-->
@@ -66,7 +66,7 @@ English
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-03-05,26,390!2024-04-29,69,370-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-03-07,33,388!2024-03-11,14,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-03-09,11,348-->
-- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-04,28,368-->
+- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-19,15,348-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2024-06-26,121,408!2024-03-16,34,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,352!2024-03-31,72,352-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
