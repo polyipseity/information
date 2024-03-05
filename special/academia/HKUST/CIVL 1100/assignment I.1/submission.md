@@ -16,7 +16,7 @@ __Assignment I-1__: Civil and Structural Engineering 1
 
 1. NOTE 1. Submit your completed assignment online to Canvas. Submit your work in a <u>PDF</u> file. Late submission will not be accepted.
 2. NOTE 2. Show your work with steps <u>clearly</u>. When appropriate, illustrate your work with diagrams and/or figures and write down any assumptions you made.
-3. NOTE 3. Use the sign conventions taught in lectures. Take _g_ = 9.81 m/s2 when necessary.
+3. NOTE 3. Use the sign conventions taught in lectures. Take _g_ = 9.81 m/s<sup>2</sup> when necessary.
 
 > Take up, right, and counterclockwise as positive, as taught in lectures.
 
