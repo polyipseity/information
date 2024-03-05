@@ -1,11 +1,11 @@
 ---
 aliases:
-  - CIVL 1100 assignment I.1 submission
+  - HKUST CIVL 1100 assignment I.1 submission
 tags:
   - language/in/English
 ---
 
-# CIVL 1100 assignment I.1 submission
+# HKUST CIVL 1100 assignment I.1 submission
 
 CIVL 1100 Discovering Civil and Environmental Engineering
 
