@@ -18,8 +18,6 @@ __Assignment I-2__: Civil and Structural Engineering II
 2. NOTE 2. Show your work with steps <u>clearly</u>. When appropriate, illustrate your work with diagrams and/or figures and write down any assumptions you made.
 3. NOTE 3. Use the sign conventions taught in lectures. Take _g_ = 9.81 m/s<sup>2</sup> when necessary.
 
-> Take up, right, counterclockwise, and tension as positive, as taught in lectures.
-
 ## 2.1
 
 Use the method of joints to determine the axial forces in all members of the truss structure in Fig. 2.1, under the two applied loads as shown.
@@ -39,7 +37,9 @@ At the end of calculation, summarize the forces in the members in a table like t
 | _EF_   |            | _CE_   |            |
 | _FG_   |            |        |            |
 
-> Let $A$ be the reaction at the roller support. Let $C = (C_x, C_y)$ be the reaction at the pin support. Let $\tau_A$ be the moment about the roller support. Let $T_{XY}$ be the tensile force between joint $X$ and $Y$.
+> Take up for vertical forces, right for horizontal forces, counterclockwise for moments, and tension as positive. Take down for vertical forces, left for horizontal forces, clockwise for moments, and compression as negative.
+>
+> Let $A = (0\text{ N}, A_y)$ be the reaction at the roller support. Let $C = (C_x, C_y)$ be the reaction at the pin support. Let $\tau_A$ be the moment about the roller support. Let $T_{XY}$ be the tensile force between joint $X$ and $Y$.
 >
 > Treating the truss structure as a rigid body:
 >
@@ -52,14 +52,14 @@ At the end of calculation, summarize the forces in the members in a table like t
 > 0 & = -300\,000 + 6 C_y \\
 > C_y & = 50\,000\text{ N} \\
 > \\
-> F_{\text{net}, y} & = -75\,000 + A + C_y \\
-> 0 & = -75\,000 + A + 50\,000 \\
-> A & = 25\,000\text{ N} \\
+> F_{\text{net}, y} & = -75\,000 + A_y + C_y \\
+> 0 & = -75\,000 + A_y + 50\,000 \\
+> A_y & = 25\,000\text{ N} \\
 > \\
-> (A, C_x, C_y) & = (25\,000\text{ N}, -25\,000\text{ N}, 50\,000\text{ N}) \\
+> (A_y, C_x, C_y) & = (25\,000\text{ N}, -25\,000\text{ N}, 50\,000\text{ N}) \\
 > \end{aligned}$$
 >
-> Assume forces in all members are tensile. Now we draw a table of known and unknown forces of each joint:
+> Assume forces in all members are tension, so take tension as positive. Now we draw a table of known and unknown forces of each joint:
 >
 > | forces\joints | A | B | C | D | E | F | G |
 > |---------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -106,7 +106,7 @@ At the end of calculation, summarize the forces in the members in a table like t
 > & \approx (-25\text{ kN}, -35.4\text{ kN}) \\
 > \\
 > \text{For joint }A \\
-> (F_{\text{net}, x}, F_{\text{net}, y}) & = (F_{AF} \cos 45 \degree + F_{AB}, A + F_{AG} + F_{AF} \sin 45 \degree) \\
+> (F_{\text{net}, x}, F_{\text{net}, y}) & = (F_{AF} \cos 45 \degree + F_{AB}, A_y + F_{AG} + F_{AF} \sin 45 \degree) \\
 > (0, 0) & = (-25\,000 + 25\,000, 25\,000 + F_{AG} - 25\,000) \\
 > (0, F_{AG}) & = (0, 0) \\
 > F_{AG} & = 0\text{ N} \\
@@ -137,9 +137,11 @@ Determine all support reactions for the three-hinged arch shown in Fig. 2.2.
 
 Fig. 2.2
 
+> Take up for vertical forces, right for horizontal forces, counterclockwise for moments, and tension as positive. Take down for vertical forces, left for horizontal forces, clockwise for moments, and compression as negative.
+>
 > Let $L = (L_x, L_y)$ and $\tau_L$ respectively be the reaction and moment at the left hinge. Let $R = (R_x, R_y)$ and $\tau_R$ respectively be the reaction and moment at the right hinge. Let $\tau_M$ be the moment at the middle hinge.
 >
-> Now, find the vertical reactions at the left and right support by considering the whole arch as a rigid body:
+> Now, find the vertical reactions at the left and right support by considering the entire arch as a rigid body:
 >
 > $$\begin{aligned}
 > \tau_L & = -2(300\,000) - 4(200\,000) - 5(150\,000) + 8 R_y \\
@@ -167,11 +169,13 @@ Fig. 2.2
 > & = -308\,333\text{ N (cor. to 6 sig. fig.)}
 > \end{aligned}$$
 >
-> We can validate the answer by finding out that the net force of the entire arch is zero:
+> We can validate the answer by checking whether the net force for the entire arch is zero:
 >
 > $$\begin{aligned}
 > (F_{\text{net}, x}, F_{\text{net}, y}) & = \left( \frac {925\,000} 3 - \frac {925\,000} 3, 268\,750 + 381\,250 - 300\,000 - 200\,000 - 150\,000 \right) \\
 > & = (0\text{ N}, 0\text{ N})
 > \end{aligned}$$
 >
-> Hence, the answer is $(L_x, L_y, R_x, R_y) = (308\,333\text{ N (cor. to 6 sig. fig.)}, 381\,250\text{ N}, -308\,333\text{ N (cor. to 6 sig. fig.)}, 268\,750\text{ N})$.
+> Hence, the answer is:
+>
+> $$(L_x, L_y, R_x, R_y) = (308\,333\text{ N (cor. to 6 sig. fig.)}, 381\,250\text{ N}, -308\,333\text{ N (cor. to 6 sig. fig.)}, 268\,750\text{ N})$$
