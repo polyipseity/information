@@ -139,8 +139,7 @@ engineering
 administration
 personal protective equipment
 """.strip().splitlines(),
-  pretext="most preferable",
-  posttext="least preferable",
+  pretext="most preferable", posttext="least preferable",
 )
 ```
 
@@ -264,7 +263,7 @@ return await memorize_seq(
   """
 biological
 chemical
-ergonomics
+ergonomic
 occupation-specific
 physical
 socio-psychological
@@ -274,23 +273,23 @@ socio-psychological
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-02-09T10:20:45.680704+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-03-07T00:02:22.082267+08:00. Any edits will be overridden! -->
 
 > 1. biological
 > 2. chemical
-> 3. ergonomics
+> 3. ergonomic
 > 4. occupation-specific
 > 5. physical
 > 6. socio-psychological
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-02-09T10:20:45.641711+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-03-07T00:02:22.051287+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological
 - biological→:::←chemical
-- chemical→:::←ergonomics
-- ergonomics→:::←occupation-specific
+- chemical→:::←ergonomic
+- ergonomic→:::←occupation-specific
 - occupation-specific→:::←physical
 - physical→:::←socio-psychological
 - socio-psychological→:::←_(end)_

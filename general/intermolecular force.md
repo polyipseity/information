@@ -37,6 +37,7 @@ return await memorize_table(
     ('[London dispersion force](London%20dispersion%20force.md)', '0.01–63 kJ/mol',),
   ),
   lambda datum: map(cloze, datum),
+  pretext="strongest", posttext="weakest",
 )
 ```
 
@@ -52,12 +53,12 @@ return await memorize_table(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff83"--><!-- The following content is generated at 2024-01-04T20:17:51.953671+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff83"--><!-- The following content is generated at 2024-03-07T00:12:03.503454+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[covalent bond](covalent%20bond.md)
+- _(strongest)_→:::←[covalent bond](covalent%20bond.md)
 - [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md)
 - [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md)
-- [London dispersion force](London%20dispersion%20force.md)→:::←_(end)_
+- [London dispersion force](London%20dispersion%20force.md)→:::←_(weakest)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

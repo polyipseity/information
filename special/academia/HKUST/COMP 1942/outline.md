@@ -34,6 +34,7 @@ The content is in teaching order.
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
   - support definition ::: We use "the number of transactions containing $X$" definition here.
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
+- [association rule learning § lift](../../../../general/association%20rule%20learning.md#lift)
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 
 ## week 2 lecture 2

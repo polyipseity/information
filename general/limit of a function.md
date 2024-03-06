@@ -26,6 +26,7 @@ Note that the above definition is still too restrictive because {{the limits are
 > - [complement](complement%20(set%20theory).md) of a real interval ::: For example, for $a, b \in \mathbb{R}$, $(-\infty, a] \cup (b, +\infty)$ is the [complement](complement%20(set%20theory).md) of $(a, b]$.
 > - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$.
 > - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$.
+> - reason why limits are not defined at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless.
 
 <!-- markdownlint MD028 -->
 
@@ -81,7 +82,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 > - {{$\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$}}
-> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}}
+> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$}}
 
 #### determinate forms
 
@@ -100,7 +101,7 @@ When the limit on the right of the equation does not exist but are in the follow
 
 ### limits of compositions of functions
 
-In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equals to $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x}\in\mathbb{R})(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}.
+In general, $\lim_{x \to G} f(x) = F$ and $\lim_{x \to a} g(x) = G$ {{does not imply $\lim_{x \to a} f(g(x)) = F$ unless either $f$ is continuous at $G$ (i.e. $f(G) = F$) or $g$ is defined and does not equal $G$ near $a$ (i.e. $(\exists \delta > 0)(\forall{x} \in \operatorname{domain} g)(0 < \lvert{x - a}\rvert < \delta \implies \lvert{g(x) - G}\rvert > 0)$)}}.
 
 ## references
 
