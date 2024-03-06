@@ -342,7 +342,7 @@ return chain.from_iterable(await gather(
 - calcium ion::colorless <!--SR:!2029-05-08,1893,292-->
 - barium ion::colorless <!--SR:!2024-09-20,630,274-->
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
-- iron(II) ion::<span style="color: green;">green</span> <!--SR:!2024-03-06,484,254-->
+- iron(II) ion::<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
 - copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-03-20,20,130-->
 - zinc ion::colorless <!--SR:!2030-07-03,2322,334-->
@@ -353,7 +353,7 @@ return chain.from_iterable(await gather(
 - iron(III) ion::<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-04-12,42,282-->
-- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-03-06,4,130-->
+- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-03-11,5,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-05-02,72,182-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-03-10,19,162-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
@@ -364,7 +364,7 @@ return chain.from_iterable(await gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-03-05,31,181-->
+- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-03-21,16,161-->
 - <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2025-03-30,513,321-->
 - <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2024-06-15,253,261-->

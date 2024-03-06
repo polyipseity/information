@@ -29,7 +29,7 @@ The content is in teaching order.
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience
     - engineer sustainability ::: restore and safeguard the biophysical environment
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-03-06,13,279!2000-01-01,1,250-->
+  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-04-10,35,279!2000-01-01,1,250-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes.
   - civil engineer characteristics ::: problem solvers
@@ -104,7 +104,7 @@ The content is in teaching order.
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (as civil servants)
     - government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools
-      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-03-06,12,275!2000-01-01,1,250-->
+      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-04-20,45,295!2000-01-01,1,250-->
       - Housing Department (HD) ::: home ownership scheme, public housing
 
 ## data
@@ -718,7 +718,7 @@ testing materials
 
 - _(begin)_→:::←budgeting
 - budgeting→:::←contracts
-- contracts→:::←designing temporary structures <!--SR:!2024-03-06,8,215!2000-01-01,1,250-->
+- contracts→:::←designing temporary structures <!--SR:!2024-03-22,16,215!2000-01-01,1,250-->
 - designing temporary structures→:::←logistics
 - logistics→:::←planning
 - planning→:::←procuring materials

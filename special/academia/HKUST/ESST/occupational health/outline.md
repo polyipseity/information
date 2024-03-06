@@ -34,18 +34,18 @@ The content is in teaching order.
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-03-27,29,295!2024-05-11,68,355-->
 - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-04-08,36,319!2024-03-08,18,339-->
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-03-26,28,289!2024-04-15,48,302-->
-- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-03-22,29,282!2024-03-06,17,335-->
+- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-03-22,29,282!2024-05-27,82,355-->
 - noise ::: unwanted sound <!--SR:!2024-04-21,55,322!2024-05-03,65,310-->
-- human audible frequency range ::: 20~20000 Hz <!--SR:!2024-03-06,17,335!2024-03-07,18,335-->
+- human audible frequency range ::: 20~20000 Hz <!--SR:!2024-05-22,77,355!2024-03-07,18,335-->
     - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-04-09,43,302!2024-05-09,71,322-->
-- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-03-31,31,295!2024-03-05,17,282-->
-- noise types ::: continuous, impact, intermittent <!--SR:!2024-03-06,17,329!2024-05-07,70,322-->
+- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-03-31,31,295!2024-04-21,47,282-->
+- noise types ::: continuous, impact, intermittent <!--SR:!2024-05-21,76,349!2024-05-07,70,322-->
 - temperature hazards ::: Too hot or too cold. Usually too hot for most industries. <!--SR:!2024-05-12,69,346!2024-04-30,63,322-->
     - [workplaces with temperature hazards](#workplaces%20with%20temperature%20hazards)
 - heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke <!--SR:!2024-04-20,51,335!2024-05-07,69,322-->
       - heat rash ::: red spots on skin <!--SR:!2024-05-07,69,322!2024-04-17,51,310-->
 - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-03-15,18,269!2024-05-10,67,346-->
-- heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-03-26,32,282!2024-03-06,17,329-->
+- heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-03-26,32,282!2024-05-25,80,349-->
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-03-08,19,329-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-03-22,23,279!2024-05-05,67,322-->
@@ -56,11 +56,11 @@ The content is in teaching order.
 - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-03-09,20,262!2024-05-06,64,335-->
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-03-08,19,329!2024-05-11,72,322-->
 - particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-03-31,37,282!2024-03-07,18,335-->
-- toxicity equation ::: toxicity × quantity × time <!--SR:!2024-03-06,17,335!2024-03-07,18,329-->
+- toxicity equation ::: toxicity × quantity × time <!--SR:!2024-05-25,80,355!2024-03-07,18,329-->
 - occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-05-14,71,349!2024-03-29,37,302-->
 - ceiling (C) ::: at any time <!--SR:!2024-03-08,19,329!2024-03-07,18,335-->
-- short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-03-06,17,329-->
-- time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-03-06,17,329-->
+- short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-05-21,76,349-->
+- time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-05-24,79,349-->
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-03-07,18,329!2024-04-28,62,310-->
   - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-03-17,26,270!2024-04-19,53,310-->
 - air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-03-08,19,329-->
@@ -68,7 +68,7 @@ The content is in teaching order.
   - personal protective equipment
 - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-03-08,19,329-->
 - eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-03-22,24,282!2024-04-18,49,326-->
-- safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-04-04,37,319!2024-03-06,16,339-->
+- safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-04-04,37,319!2024-05-19,74,359-->
 - breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-03-08,19,329-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-03-29,32,315!2024-04-11,45,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
@@ -114,12 +114,12 @@ pneumonia
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←breathlessness <!--SR:!2024-03-06,17,335!2024-03-05,16,329-->
-- breathlessness→:::←cough <!--SR:!2024-03-08,19,335!2024-03-05,16,335-->
+- _(begin)_→:::←breathlessness <!--SR:!2024-05-27,82,355!2024-05-17,73,349-->
+- breathlessness→:::←cough <!--SR:!2024-03-08,19,335!2024-05-18,74,355-->
 - cough→:::←fever <!--SR:!2024-03-12,15,295!2024-04-17,45,315-->
 - fever→:::←headache <!--SR:!2024-03-12,9,295!2024-04-27,54,335-->
-- headache→:::←malaise <!--SR:!2024-03-25,27,299!2024-03-05,13,299-->
-- malaise→:::←muscle ache <!--SR:!2024-03-06,17,335!2024-03-05,12,279-->
+- headache→:::←malaise <!--SR:!2024-03-25,27,299!2024-04-28,54,319-->
+- malaise→:::←muscle ache <!--SR:!2024-05-05,60,335!2024-04-07,33,279-->
 - muscle ache→:::←pneumonia <!--SR:!2024-03-30,33,309!2024-03-17,20,299-->
 - pneumonia→:::←_(end)_ <!--SR:!2024-03-08,18,339!2024-04-15,47,335-->
 
@@ -157,10 +157,10 @@ personal protective equipment
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
-- _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-03-08,19,329!2024-03-05,16,335-->
-- hazard reduction or elimination→:::←engineering <!--SR:!2024-03-05,16,326!2024-03-07,17,339-->
+- _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-03-08,19,329!2024-05-19,75,355-->
+- hazard reduction or elimination→:::←engineering <!--SR:!2024-05-13,69,346!2024-03-07,17,339-->
 - engineering→:::←administration <!--SR:!2024-03-09,19,339!2024-03-07,18,335-->
-- administration→:::←personal protective equipment <!--SR:!2024-03-06,17,326!2024-03-08,19,329-->
+- administration→:::←personal protective equipment <!--SR:!2024-05-18,73,346!2024-03-08,19,329-->
 - personal protective equipment→:::←_(least preferable)_ <!--SR:!2024-04-19,50,326!2024-03-07,18,329-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -200,10 +200,10 @@ reduced sweating
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←convulsions <!--SR:!2024-03-18,21,299!2024-03-07,17,339-->
-- convulsions→:::←dry hot skin <!--SR:!2024-03-05,4,235!2024-05-02,60,335-->
+- convulsions→:::←dry hot skin <!--SR:!2024-03-19,14,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-03-08,18,339-->
-- high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-06,2,229-->
+- high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-11,5,229-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
 - reduced sweating→:::←_(end)_ <!--SR:!2024-03-07,18,329!2024-03-15,18,279-->
 
@@ -243,13 +243,13 @@ user
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control <!--SR:!2024-03-15,12,239!2024-03-06,16,339-->
+- _(begin)_→:::←control <!--SR:!2024-03-15,12,239!2024-05-20,75,359-->
 - control→:::←environment <!--SR:!2024-03-16,12,279!2024-03-30,29,279-->
 - environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-03-12,14,259-->
-- equipment→:::←material <!--SR:!2024-03-05,2,239!2024-03-21,18,269-->
+- equipment→:::←material <!--SR:!2024-03-09,3,239!2024-03-21,18,269-->
 - material→:::←process <!--SR:!2024-04-06,34,299!2024-03-20,17,269-->
-- process→:::←user <!--SR:!2024-03-06,13,279!2024-03-06,16,339-->
-- user→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-03-05,16,335-->
+- process→:::←user <!--SR:!2024-04-26,51,299!2024-05-17,72,359-->
+- user→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-20,76,355-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -287,9 +287,9 @@ socio-psychological
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-02-09T10:20:45.641711+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-03-05,16,329-->
+- _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-05-17,73,349-->
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
-- chemical→:::←ergonomics <!--SR:!2024-03-05,5,239!2024-03-21,24,295-->
+- chemical→:::←ergonomics <!--SR:!2024-03-16,11,239!2024-03-21,24,295-->
 - ergonomics→:::←occupation-specific <!--SR:!2024-03-18,15,259!2024-03-23,25,299-->
 - occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-03-19,22,299-->
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->
@@ -331,12 +331,12 @@ workplace
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←general community environment <!--SR:!2024-03-18,20,279!2024-03-05,16,329-->
-- general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-06,2,209-->
+- _(begin)_→:::←general community environment <!--SR:!2024-03-18,20,279!2024-05-20,76,349-->
+- general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-12,6,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-03-07,17,339-->
-- occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-03-06,17,335-->
-- occupational rehabilitation→:::←workers <!--SR:!2024-03-05,6,239!2024-05-05,63,329-->
-- workers→:::←workplace <!--SR:!2024-03-08,19,329!2024-03-05,15,319-->
+- occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-03-08,3,219!2024-05-05,63,329-->
+- workers→:::←workplace <!--SR:!2024-03-08,19,329!2024-05-11,67,339-->
 - workplace→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-03-07,6,259-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -419,10 +419,10 @@ vibration
 - _(begin)_→:::←ionizing radiation <!--SR:!2024-03-12,9,275!2024-04-01,35,319-->
 - ionizing radiation→:::←noise <!--SR:!2024-03-29,31,289!2024-03-31,33,289-->
 - noise→:::←nonionizing radiation <!--SR:!2024-03-25,27,299!2024-04-15,45,319-->
-- nonionizing radiation→:::←pressure <!--SR:!2024-03-09,12,249!2024-03-06,6,249-->
-- pressure→:::←temperature <!--SR:!2024-03-06,17,335!2024-03-05,12,279-->
+- nonionizing radiation→:::←pressure <!--SR:!2024-03-09,12,249!2024-03-20,14,249-->
+- pressure→:::←temperature <!--SR:!2024-05-23,78,355!2024-04-10,36,279-->
 - temperature→:::←vibration <!--SR:!2024-04-14,41,299!2024-04-14,45,339-->
-- vibration→:::←_(end)_ <!--SR:!2024-03-05,16,329!2024-03-19,19,279-->
+- vibration→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-03-19,19,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -458,7 +458,7 @@ steelworks
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←cold storages <!--SR:!2024-03-07,17,339!2024-03-06,17,329-->
+- _(begin)_→:::←cold storages <!--SR:!2024-03-07,17,339!2024-05-24,79,349-->
 - cold storages→:::←glassworks <!--SR:!2024-04-10,37,299!2024-03-07,7,295-->
 - glassworks→:::←kitchens <!--SR:!2024-03-31,32,319!2024-03-26,29,295-->
 - kitchens→:::←laundries <!--SR:!2024-04-03,34,319!2024-03-28,29,319-->
