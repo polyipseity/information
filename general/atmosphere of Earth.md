@@ -71,7 +71,7 @@ return (
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123480"--><!-- The following content is generated at 2024-01-04T20:17:51.453474+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[N<sub>2</sub>](nitrogen.md) <!--SR:!2024-11-30,670,270!2024-08-30,680,327-->
-- [N<sub>2</sub>](nitrogen.md)→:::←[O<sub>2</sub>](oxygen.md) <!--SR:!2026-02-17,1059,290!2024-03-05,497,267-->
+- [N<sub>2</sub>](nitrogen.md)→:::←[O<sub>2</sub>](oxygen.md) <!--SR:!2026-02-17,1059,290!2029-04-01,1853,287-->
 - [O<sub>2</sub>](oxygen.md)→:::←[Ar](argon.md) <!--SR:!2024-04-29,533,270!2027-07-30,1422,287-->
 - [Ar](argon.md)→:::←[CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-01-01,1326,310!2025-05-02,765,270-->
 - [CO<sub>2</sub>](carbon%20dioxide.md)→:::←_others_ <!--SR:!2027-05-11,1422,310!2027-05-29,1373,287-->

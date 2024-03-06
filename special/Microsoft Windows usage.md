@@ -28,7 +28,7 @@ tags:
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2024-07-01,241,230!2024-05-29,332,270-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2024-03-11,118,150!2024-06-12,329,270-->
 - close dialog:::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
-- toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2024-03-06,255,250-->
+- toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2026-08-17,894,270-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2024-12-30,409,230!2025-02-28,504,270-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2025-02-10,434,230!2024-03-11,129,210-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2024-12-08,301,250!2025-06-28,574,270-->

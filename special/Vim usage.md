@@ -39,7 +39,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## write and quit
 
-- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2024-03-06,306,333!2025-07-20,625,313-->
+- quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2025-07-20,625,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2024-03-21,320,333!2025-09-14,709,313-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2024-05-27,379,348-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2024-03-27,325,333!2024-06-11,393,348-->
@@ -104,5 +104,5 @@ See also [Vim help files](https://vimhelp.org/).
 ### list of options
 
 - ignorecase, ic:::ignore case in search <!--SR:!2025-11-09,758,328!2026-01-11,800,328-->
-- incsearch, is:::highlight while typing search <!--SR:!2025-06-23,647,313!2024-03-06,166,253-->
+- incsearch, is:::highlight while typing search <!--SR:!2025-06-23,647,313!2025-04-29,419,253-->
 - hlsearch, hls:::highlight last search matches <!--SR:!2025-07-17,677,310!2025-12-26,784,328-->

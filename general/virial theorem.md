@@ -17,7 +17,7 @@ tags:
 >
 > - {{$K_N$ is the total [kinetic energy](kinetic%20energy.md) of the $N$ particles}}
 > - {{$\vec{F}_i$ is the [force](force.md) on the $i$-th particle}}
-> - {{$\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle}} <!--SR:!2024-05-14,102,290!2024-03-12,57,250!2024-10-27,244,330!2024-03-05,63,310!2024-03-10,67,310-->
+> - {{$\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle}} <!--SR:!2024-05-14,102,290!2024-03-12,57,250!2024-10-27,244,330!2024-09-14,193,310!2024-03-10,67,310-->
 
 ## examples
 

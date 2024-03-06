@@ -72,7 +72,7 @@ return await memorize_table(
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
-- post hoc→:::←self-contradiction <!--SR:!2024-03-05,7,135!2024-04-04,260,315-->
+- post hoc→:::←self-contradiction <!--SR:!2024-03-09,4,130!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 - virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-08-30,205,275-->
 - weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->
@@ -230,7 +230,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 - cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
-- feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-03-06,16,130-->
+- feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-03-26,20,130-->
 - pattern→:::←trend <!--SR:!2024-12-04,397,295!2024-07-16,329,295-->
 - trend→:::←with reference to <!--SR:!2024-05-21,82,210!2024-03-24,113,190-->
 - with reference to→:::←_(end)_ <!--SR:!2024-06-10,319,330!2024-05-02,97,275-->
@@ -363,7 +363,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 - Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-05-09,88,230!2024-04-14,65,195-->
-- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-12-06,282,195!2024-03-06,12,130-->
+- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-12-06,282,195!2024-03-21,15,130-->
 - Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

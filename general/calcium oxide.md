@@ -55,7 +55,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9591"--><!-- The following content is generated at 2024-01-04T20:17:51.467474+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[flue-gas desulfurization](flue-gas%20desulfurization.md) <!--SR:!2025-01-13,446,301!2024-07-10,358,341-->
-- [flue-gas desulfurization](flue-gas%20desulfurization.md)→:::←_(end)_ <!--SR:!2024-07-09,357,341!2024-03-05,63,281-->
+- [flue-gas desulfurization](flue-gas%20desulfurization.md)→:::←_(end)_ <!--SR:!2024-07-09,357,341!2024-08-28,176,281-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
