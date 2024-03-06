@@ -17,7 +17,7 @@ tags:
 
 ## simple sets
 
-Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!---->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}:
+Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!-- LaTeX separator -->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}:
 
 $$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}$$
 
@@ -62,7 +62,7 @@ m^*(B) := \inf_{S \supseteq B} m(S)
 >
 > {{squeezing a bounded set by simple sets}}
 
-If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. The _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}.
+If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. Then the _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}.
 
 ## references
 
