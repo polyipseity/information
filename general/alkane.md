@@ -47,27 +47,23 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('dd12', '102a'),
-  ('name', 'description',),
   (
-    ('[combustion](#combustion)', '',),
-    ('[cracking](#cracking)', '',),
-    ('[halogenation](#halogenation)', '[free radical halogenation](free-radical%20halogenation.md)',),
+    '[combustion](#combustion)',
+    '[cracking](#cracking)',
+    '[halogenation](#halogenation)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd12"--><!-- The following content is generated at 2023-05-07T22:54:11.272590+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd12"--><!-- The following content is generated at 2024-03-07T10:21:21.092666+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[combustion](#combustion)}} |  |
-> | {{[cracking](#cracking)}} |  |
-> | {{[halogenation](#halogenation)}} | {{[free radical halogenation](free-radical%20halogenation.md)}} |
+> 1. [combustion](#combustion)
+> 2. [cracking](#cracking)
+> 3. [halogenation](#halogenation)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

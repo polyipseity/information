@@ -54,33 +54,29 @@ Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('d924', '9581'),
-  ('name', 'description',),
   (
-    ('[combustion](#combustion)', '',),
-    ('[dihydroxylation](dihydroxylation.md)', '',),
-    ('[halogen addition reaction](halogen%20addition%20reaction.md)', '',),
-    ('[hydrogenation](#hydrogenation)', '',),
-    ('[hydrohalogenation](#hydrohalogenation)', '',),
-    ('[polymerization](#polymerization)', '',),
+    '[combustion](#combustion)',
+    '[dihydroxylation](dihydroxylation.md)',
+    '[halogen addition reaction](halogen%20addition%20reaction.md)',
+    '[hydrogenation](#hydrogenation)',
+    '[hydrohalogenation](#hydrohalogenation)',
+    '[polymerization](#polymerization)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2023-04-05T09:33:57.187962+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2024-03-07T10:22:08.855746+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[combustion](#combustion)}} |  |
-> | {{[dihydroxylation](dihydroxylation.md)}} |  |
-> | {{[halogen addition reaction](halogen%20addition%20reaction.md)}} |  |
-> | {{[hydrogenation](#hydrogenation)}} |  |
-> | {{[hydrohalogenation](#hydrohalogenation)}} |  |
-> | {{[polymerization](#polymerization)}} |  |
+> 1. [combustion](#combustion)
+> 2. [dihydroxylation](dihydroxylation.md)
+> 3. [halogen addition reaction](halogen%20addition%20reaction.md)
+> 4. [hydrogenation](#hydrogenation)
+> 5. [hydrohalogenation](#hydrohalogenation)
+> 6. [polymerization](#polymerization)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
