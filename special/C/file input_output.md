@@ -32,4 +32,4 @@ tags:
 ## macro constants
 
 - _defined in {{[`<stdio.h>`](../../general/C%20file%20input_output.md)}}_
-- `EOF`: {{negative `int` constant expression}}
+- `EOF` ::: negative `int` constant expression indicating end-of-file
