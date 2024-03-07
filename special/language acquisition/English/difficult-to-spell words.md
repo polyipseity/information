@@ -14,12 +14,14 @@ English
 
 - [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2024-04-25,82,363!2024-04-12,67,343-->
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-03-27,54,343!2024-04-06,61,343-->
+- [Thursday](https://en.wiktionary.org/wiki/Thursday) ::: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week.
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2024-04-02,74,324!2024-03-28,69,324-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::: (a\_e) To adapt. <!--SR:!2024-03-24,66,324!2024-03-20,21,284-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a\_e) To gradually increase in quantity. <!--SR:!2024-07-16,141,332!2024-04-19,86,354-->
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2024-03-28,70,324!2024-03-31,72,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2024-08-20,170,310!2024-03-23,72,310-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2024-07-06,148,310!2024-07-13,141,290-->
+- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations.
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::: (a\_t) Earlier, in time or order. <!--SR:!2024-03-25,27,372!2024-03-15,18,352-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2024-03-22,65,324!2024-03-22,58,284-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a\_l) Man-made. <!--SR:!2024-08-01,148,410!2024-03-10,31,390-->
@@ -31,6 +33,7 @@ English
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-03-10,39,264!2024-03-16,59,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2024-03-10,13,352!2024-03-26,28,372-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-03-12,33,390!2024-03-19,33,350-->
+- [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination.
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2024-03-16,32,392!2024-03-12,28,393-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2024-04-07,74,324!2024-04-10,77,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation. <!--SR:!2024-04-13,80,324!2024-03-26,68,324-->
@@ -39,6 +42,7 @@ English
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-03-17,61,324!2024-03-31,72,324-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-03-17,60,324!2024-04-13,80,324-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2024-03-27,69,324!2024-03-23,66,324-->
+- [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts.
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-03-19,45,303-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2024-07-04,121,388!2024-04-19,60,348-->
@@ -64,6 +68,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-03-29,71,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2024-04-18,85,352!2024-04-14,81,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-07-21,138,410!2024-04-29,69,370-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership.
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-03-11,14,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-03-09,11,348-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-19,15,348-->
@@ -71,6 +76,9 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,352!2024-03-31,72,352-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-09-25,209,352-->
+- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable.
+- [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare.
+- [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened.
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-03-11,14,332!2024-03-13,16,352-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-04-01,73,324!2024-03-15,16,244-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-03-09,30,390!2024-05-06,70,370-->
@@ -82,6 +90,7 @@ English
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2024-04-29,75,388!2024-04-20,54,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-03-15,59,324!2024-07-28,159,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2024-03-23,65,324!2024-03-16,60,324-->
+- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things.
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-03-13,57,324!2024-06-25,134,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::: (v\_r) To do or offer to do something voluntarily. <!--SR:!2024-04-02,74,352!2024-04-04,76,352-->
 

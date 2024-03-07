@@ -36,27 +36,73 @@ A __battery__ is {{a source of [electricity](electricity.md) composed of one or 
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 from asyncio import gather
 from itertools import chain
-headers = 'chemistry', '[anode](anode.md) (-)', '[cathode](cathode.md) (+)', '[electrolyte](electrolyte.md)', 'nominal/max [voltage](voltage.md)', 'properties', 'elaboration',
+headers = 'chemistry', '[anode](anode.md) (-)', '[cathode](cathode.md) (+)', '[electrolyte](electrolyte.md)', 'nominal and max [voltage](voltage.md)', 'properties', 'elaboration',
+primary_batteries = (
+  ('[alkaline](alkaline%20battery.md)', '[Zn](zinc.md)', '[MnO<sub>2</sub>](manganese%20dioxide.md)', '[KOH](potassium%20hydroxide.md)', '1.15/1.5 V', ", ".join(('high discharge rate', 'longer [shelf life](shelf%20life.md)', 'low [internal resistance](internal%20resistance.md)', 'slightly more expensive',)), 'Usually cylindrical. Suitable for high-drain or continuous-use devices.',),
+  ('[silver oxide](silver%20oxide%20battery.md)', '[Zn](zinc.md)', '[Ag<sub>2</sub>O](silver%20oxide.md)', '[KOH](potassium%20hydroxide.md)', '1.5/1.6 V', ", ".join(('expensive', 'lightweight', 'small', 'wide operating temperature range',)), 'Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.',),
+  ('[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride', '[Zn](zinc.md)', '[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)', '[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)', '1.2/1.5 V', ", ".join(('cheap', 'low performance in high-drain or continuous-use devices', 'short [shelf life](shelf%20life.md)',)), 'Usually cylindrical. Suitable for low-drain or intermittent-use devices.',),
+)
+secondary_batteries = (
+  ('[NiMH](nickel–metal%20hydride%20battery.md)', '[H](hydrogen.md)-absorbing [alloy](alloy.md)', '[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md)', '[KOH](potassium%20hydroxide.md)', '/1.2 V', ", ".join(('expensive', 'high discharge rate', 'high energy density', 'low [internal resistance](internal%20resistance.md)', 'rechargeable up to 180–2000 times',)), 'Usually cylindrical. Suitable for high-drain devices.',),
+  ('[lead–acid](lead–acid%20battery.md)', '[Pb](lead.md)', '[PbO<sub>2</sub>](lead%20dioxide.md)', '[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md)', '/2.1 V (6 cells: 12 V)', ", ".join(('cheap [electricity](electricity.md)', 'expensive', 'heavy', 'high [current](electric%20current.md)', 'high discharge rate', '[lead](lead.md) [toxicity](toxicity.md)', 'rechargeable <350 times',)), 'Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md).',),
+  ('[lithium-ion](lithium-ion%20battery.md)', '[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))', '[Li](lithium.md) metal [oxide](oxide.md)', '[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)', '/3.7 V', ", ".join(('aging', 'very expensive', 'high discharge rate', 'high energy density', 'lightweight', 'protection circuitry needed for safety', 'rechargeable up to 400–1200 times', 'susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)',)), 'Usually cylindrical or prismatic. Suitable for portable devices.',),
+)
 return chain.from_iterable(await gather(
   memorize_table(
-    __env__.cwf_sects('d923', 'aa92'),
-    headers,
-    (
-      ('[alkaline](alkaline%20battery.md)', '[Zn](zinc.md)', '[MnO<sub>2</sub>](manganese%20dioxide.md)', '[KOH](potassium%20hydroxide.md)', '1.15/1.5 V', html_ul('high discharge rate', 'longer [shelf life](shelf%20life.md)', 'low [internal resistance](internal%20resistance.md)', 'slightly more expensive',), 'Usually cylindrical. Suitable for high-drain or continuous-use devices.',),
-      ('[silver oxide](silver%20oxide%20battery.md)', '[Zn](zinc.md)', '[Ag<sub>2</sub>O](silver%20oxide.md)', '[KOH](potassium%20hydroxide.md)', '1.5/1.6 V', html_ul('expensive', 'lightweight', 'small', 'wide operating temperature range',), 'Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.'),
-      ('[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride', '[Zn](zinc.md)', '[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)', '[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)', '1.2/1.5 V', html_ul('cheap', 'low performance in high-drain or continuous-use devices', 'short [shelf life](shelf%20life.md)',), 'Usually cylindrical. Suitable for low-drain or intermittent-use devices.',),
-    ),
-    lambda datum: map(cloze, datum),
+    __env__.cwf_sects('d923', 'aa92',),
+    headers, primary_batteries,
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '98ab', None,),
+    items_to_map(*((row[0], row[1]) for row in primary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '27ee', None,),
+    items_to_map(*((row[0], row[2]) for row in primary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '9583', None,),
+    items_to_map(*((row[0], row[3]) for row in primary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '8104', None,),
+    items_to_map(*((row[0], row[4]) for row in primary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, 'bba9', '209f',),
+    items_to_map(*((row[0], row[5]) for row in primary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '983e', None,),
+    items_to_map(*((row[0], row[6]) for row in primary_batteries)),
   ),
   memorize_table(
-    __env__.cwf_sects('4214', '6661'),
-    headers,
-    (
-      ('[NiMH](nickel–metal%20hydride%20battery.md)', '[H](hydrogen.md)-absorbing [alloy](alloy.md)', '[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md)', '[KOH](potassium%20hydroxide.md)', '/1.2 V', html_ul('expensive', 'high discharge rate', 'high energy density', 'low [internal resistance](internal%20resistance.md)', 'rechargeable up to 180–2000 times'), 'Usually cylindrical. Suitable for high-drain devices.',),
-      ('[lead–acid](lead–acid%20battery.md)', '[Pb](lead.md)', '[PbO<sub>2</sub>](lead%20dioxide.md)', '[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md)', '/2.1 V (6 cells: 12 V)', html_ul('cheap [electricity](electricity.md)', 'expensive', 'heavy', 'high [current](electric%20current.md)', 'high discharge rate', '[lead](lead.md) [toxicity](toxicity.md)', 'rechargeable <350 times',), 'Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md).',),
-      ('[lithium-ion](lithium-ion%20battery.md)', '[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))', '[Li](lithium.md) metal [oxide](oxide.md)', '[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)', '/3.7 V', html_ul('aging', 'very expensive', 'high discharge rate', 'high energy density', 'lightweight', 'protection circuitry needed for safety', 'rechargeable up to 400–1200 times', 'susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)'), 'Usually cylindrical or prismatic. Suitable for portable devices.',),
-    ),
-    lambda datum: map(cloze, datum),
+    __env__.cwf_sects('4214', '6661',),
+    headers, secondary_batteries,
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '7801', None,),
+    items_to_map(*((row[0], row[1]) for row in secondary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '38ab', None,),
+    items_to_map(*((row[0], row[2]) for row in secondary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '863b', None,),
+    items_to_map(*((row[0], row[3]) for row in secondary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '018e', None,),
+    items_to_map(*((row[0], row[4]) for row in secondary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '46ff', '99ab',),
+    items_to_map(*((row[0], row[5]) for row in secondary_batteries)),
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, '8c52', None,),
+    items_to_map(*((row[0], row[6]) for row in secondary_batteries)),
   ),
 ))
 ```
@@ -65,13 +111,13 @@ return chain.from_iterable(await gather(
 
 #### primary batteries
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d923"--><!-- The following content is generated at 2023-03-30T18:11:29.694080+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d923"--><!-- The following content is generated at 2024-03-06T23:36:40.659768+08:00. Any edits will be overridden! -->
 
-> | chemistry | [anode](anode.md) (-) | [cathode](cathode.md) (+) | [electrolyte](electrolyte.md) | nominal/max [voltage](voltage.md) | properties | elaboration |
+> | chemistry | [anode](anode.md) (-) | [cathode](cathode.md) (+) | [electrolyte](electrolyte.md) | nominal and max [voltage](voltage.md) | properties | elaboration |
 > |-|-|-|-|-|-|-|
-> | {{[alkaline](alkaline%20battery.md)}} | {{[Zn](zinc.md)}} | {{[MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{1.15/1.5 V}} | {{<ul><li>high discharge rate</li><li>longer [shelf life](shelf%20life.md)</li><li>low [internal resistance](internal%20resistance.md)</li><li>slightly more expensive</li></ul>}} | {{Usually cylindrical. Suitable for high-drain or continuous-use devices.}} |
-> | {{[silver oxide](silver%20oxide%20battery.md)}} | {{[Zn](zinc.md)}} | {{[Ag<sub>2</sub>O](silver%20oxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{1.5/1.6 V}} | {{<ul><li>expensive</li><li>lightweight</li><li>small</li><li>wide operating temperature range</li></ul>}} | {{Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.}} |
-> | {{[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride}} | {{[Zn](zinc.md)}} | {{[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)}} | {{[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)}} | {{1.2/1.5 V}} | {{<ul><li>cheap</li><li>low performance in high-drain or continuous-use devices</li><li>short [shelf life](shelf%20life.md)</li></ul>}} | {{Usually cylindrical. Suitable for low-drain or intermittent-use devices.}} | <!--SR:!2024-11-08,439,310!2024-09-11,383,290!2024-03-21,96,290!2026-02-04,793,330!2024-07-26,300,250!2024-03-28,70,170!2024-03-18,272,330!2025-12-02,684,310!2024-06-23,321,290!2025-07-19,585,310!2025-12-13,750,330!2024-04-17,247,270!2025-01-06,384,250!2024-04-22,251,270!2024-04-14,294,330!2024-04-27,305,330!2024-10-19,344,250!2024-08-07,356,290!2024-03-15,13,190!2024-05-17,96,230!2024-04-09,289,330-->
+> | [alkaline](alkaline%20battery.md) | [Zn](zinc.md) | [MnO<sub>2</sub>](manganese%20dioxide.md) | [KOH](potassium%20hydroxide.md) | 1.15/1.5 V | high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive | Usually cylindrical. Suitable for high-drain or continuous-use devices. |
+> | [silver oxide](silver%20oxide%20battery.md) | [Zn](zinc.md) | [Ag<sub>2</sub>O](silver%20oxide.md) | [KOH](potassium%20hydroxide.md) | 1.5/1.6 V | expensive, lightweight, small, wide operating temperature range | Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. |
+> | [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride | [Zn](zinc.md) | [C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md) | [NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md) | 1.2/1.5 V | cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) | Usually cylindrical. Suitable for low-drain or intermittent-use devices. | <!--SR:!2024-11-08,439,310!2024-09-11,383,290!2024-03-21,96,290!2026-02-04,793,330!2024-07-26,300,250!2024-03-28,70,170!2024-03-18,272,330!2025-12-02,684,310!2024-06-23,321,290!2025-07-19,585,310!2025-12-13,750,330!2024-04-17,247,270!2025-01-06,384,250!2024-04-22,251,270!2024-04-14,294,330!2024-04-27,305,330!2024-10-19,344,250!2024-08-07,356,290!2024-03-15,13,190!2024-05-17,96,230!2024-04-09,289,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -84,15 +130,83 @@ return chain.from_iterable(await gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
+##### chemistry–anode (primary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="98ab"--><!-- The following content is generated at 2024-03-06T23:33:30.624136+08:00. Any edits will be overridden! -->
+
+- [alkaline](alkaline%20battery.md)::[Zn](zinc.md)
+- [silver oxide](silver%20oxide%20battery.md)::[Zn](zinc.md)
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–cathode (primary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="27ee"--><!-- The following content is generated at 2024-03-06T23:33:30.705237+08:00. Any edits will be overridden! -->
+
+- [alkaline](alkaline%20battery.md)::[MnO<sub>2</sub>](manganese%20dioxide.md)
+- [silver oxide](silver%20oxide%20battery.md)::[Ag<sub>2</sub>O](silver%20oxide.md)
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–electrolyte (primary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9583"--><!-- The following content is generated at 2024-03-06T23:33:30.525732+08:00. Any edits will be overridden! -->
+
+- [alkaline](alkaline%20battery.md)::[KOH](potassium%20hydroxide.md)
+- [silver oxide](silver%20oxide%20battery.md)::[KOH](potassium%20hydroxide.md)
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–nominal and max voltage (primary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8104"--><!-- The following content is generated at 2024-03-06T23:33:30.679623+08:00. Any edits will be overridden! -->
+
+- [alkaline](alkaline%20battery.md)::1.15/1.5 V
+- [silver oxide](silver%20oxide%20battery.md)::1.5/1.6 V
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2/1.5 V
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–properties (primary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba9"--><!-- The following content is generated at 2024-03-06T23:36:40.572889+08:00. Any edits will be overridden! -->
+
+- [alkaline](alkaline%20battery.md)::high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive
+- [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="209f"--><!-- The following content is generated at 2024-03-06T23:36:40.557902+08:00. Any edits will be overridden! -->
+
+- high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive::[alkaline](alkaline%20battery.md)
+- expensive, lightweight, small, wide operating temperature range::[silver oxide](silver%20oxide%20battery.md)
+- cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md)::[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–elaboration (primary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="983e"--><!-- The following content is generated at 2024-03-06T23:33:30.602829+08:00. Any edits will be overridden! -->
+
+- [alkaline](alkaline%20battery.md)::Usually cylindrical. Suitable for high-drain or continuous-use devices.
+- [silver oxide](silver%20oxide%20battery.md)::Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices.
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::Usually cylindrical. Suitable for low-drain or intermittent-use devices.
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
 #### secondary batteries
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4214"--><!-- The following content is generated at 2023-12-17T15:00:05.456161+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4214"--><!-- The following content is generated at 2024-03-06T23:36:40.591641+08:00. Any edits will be overridden! -->
 
-> | chemistry | [anode](anode.md) (-) | [cathode](cathode.md) (+) | [electrolyte](electrolyte.md) | nominal/max [voltage](voltage.md) | properties | elaboration |
+> | chemistry | [anode](anode.md) (-) | [cathode](cathode.md) (+) | [electrolyte](electrolyte.md) | nominal and max [voltage](voltage.md) | properties | elaboration |
 > |-|-|-|-|-|-|-|
-> | {{[NiMH](nickel–metal%20hydride%20battery.md)}} | {{[H](hydrogen.md)-absorbing [alloy](alloy.md)}} | {{[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md)}} | {{[KOH](potassium%20hydroxide.md)}} | {{/1.2 V}} | {{<ul><li>expensive</li><li>high discharge rate</li><li>high energy density</li><li>low [internal resistance](internal%20resistance.md)</li><li>rechargeable up to 180–2000 times</li></ul>}} | {{Usually cylindrical. Suitable for high-drain devices.}} |
-> | {{[lead–acid](lead–acid%20battery.md)}} | {{[Pb](lead.md)}} | {{[PbO<sub>2</sub>](lead%20dioxide.md)}} | {{[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md)}} | {{/2.1 V (6 cells: 12 V)}} | {{<ul><li>cheap [electricity](electricity.md)</li><li>expensive</li><li>heavy</li><li>high [current](electric%20current.md)</li><li>high discharge rate</li><li>[lead](lead.md) [toxicity](toxicity.md)</li><li>rechargeable &lt;350 times</li></ul>}} | {{Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md).}} |
-> | {{[lithium-ion](lithium-ion%20battery.md)}} | {{[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))}} | {{[Li](lithium.md) metal [oxide](oxide.md)}} | {{[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)}} | {{/3.7 V}} | {{<ul><li>aging</li><li>very expensive</li><li>high discharge rate</li><li>high energy density</li><li>lightweight</li><li>protection circuitry needed for safety</li><li>rechargeable up to 400–1200 times</li><li>susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)</li></ul>}} | {{Usually cylindrical or prismatic. Suitable for portable devices.}} | <!--SR:!2026-03-06,814,330!2024-03-29,70,210!2024-10-23,347,250!2026-03-14,779,290!2024-03-14,19,130!2024-03-15,138,190!2025-01-12,374,250!2024-05-19,322,330!2024-04-15,295,330!2024-10-12,399,290!2024-04-08,251,270!2024-03-17,271,330!2024-07-27,228,210!2025-12-14,649,290!2024-04-17,297,330!2024-04-18,248,270!2024-07-06,165,210!2024-04-14,87,230!2024-06-24,213,230!2024-03-21,35,170!2026-01-25,724,310-->
+> | [NiMH](nickel–metal%20hydride%20battery.md) | [H](hydrogen.md)-absorbing [alloy](alloy.md) | [Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md) | [KOH](potassium%20hydroxide.md) | /1.2 V | expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times | Usually cylindrical. Suitable for high-drain devices. |
+> | [lead–acid](lead–acid%20battery.md) | [Pb](lead.md) | [PbO<sub>2</sub>](lead%20dioxide.md) | [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) | /2.1 V (6 cells: 12 V) | cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times | Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md). |
+> | [lithium-ion](lithium-ion%20battery.md) | [C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md)) | [Li](lithium.md) metal [oxide](oxide.md) | [Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) | /3.7 V | aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md) | Usually cylindrical or prismatic. Suitable for portable devices. | <!--SR:!2026-03-06,814,330!2024-03-29,70,210!2024-10-23,347,250!2026-03-14,779,290!2024-03-14,19,130!2024-03-15,138,190!2025-01-12,374,250!2024-05-19,322,330!2024-04-15,295,330!2024-10-12,399,290!2024-04-08,251,270!2024-03-17,271,330!2024-07-27,228,210!2025-12-14,649,290!2024-04-17,297,330!2024-04-18,248,270!2024-07-06,165,210!2024-04-14,87,230!2024-06-24,213,230!2024-03-21,35,170!2026-01-25,724,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -102,6 +216,74 @@ return chain.from_iterable(await gather(
 - [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md) <!--SR:!2025-06-15,599,310!2024-05-18,321,330-->
 - [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2024-03-16,270,330!2024-04-16,296,330-->
 - [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_ <!--SR:!2024-05-20,323,330!2024-03-10,265,330-->
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–anode (secondary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7801"--><!-- The following content is generated at 2024-03-06T23:33:30.574761+08:00. Any edits will be overridden! -->
+
+- [NiMH](nickel–metal%20hydride%20battery.md)::[H](hydrogen.md)-absorbing [alloy](alloy.md)
+- [lead–acid](lead–acid%20battery.md)::[Pb](lead.md)
+- [lithium-ion](lithium-ion%20battery.md)::[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–cathode (secondary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ab"--><!-- The following content is generated at 2024-03-06T23:33:30.754640+08:00. Any edits will be overridden! -->
+
+- [NiMH](nickel–metal%20hydride%20battery.md)::[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md)
+- [lead–acid](lead–acid%20battery.md)::[PbO<sub>2</sub>](lead%20dioxide.md)
+- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) metal [oxide](oxide.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–electrolyte (secondary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="863b"--><!-- The following content is generated at 2024-03-06T23:33:30.773973+08:00. Any edits will be overridden! -->
+
+- [NiMH](nickel–metal%20hydride%20battery.md)::[KOH](potassium%20hydroxide.md)
+- [lead–acid](lead–acid%20battery.md)::[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md)
+- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–nominal and max voltage (secondary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="018e"--><!-- The following content is generated at 2024-03-06T23:33:30.648153+08:00. Any edits will be overridden! -->
+
+- [NiMH](nickel–metal%20hydride%20battery.md)::/1.2 V
+- [lead–acid](lead–acid%20battery.md)::/2.1 V (6 cells: 12 V)
+- [lithium-ion](lithium-ion%20battery.md)::/3.7 V
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–properties (secondary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46ff"--><!-- The following content is generated at 2024-03-06T23:36:40.541906+08:00. Any edits will be overridden! -->
+
+- [NiMH](nickel–metal%20hydride%20battery.md)::expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times
+- [lead–acid](lead–acid%20battery.md)::cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times
+- [lithium-ion](lithium-ion%20battery.md)::aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="99ab"--><!-- The following content is generated at 2024-03-06T23:36:40.619769+08:00. Any edits will be overridden! -->
+
+- expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times::[NiMH](nickel–metal%20hydride%20battery.md)
+- cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times::[lead–acid](lead–acid%20battery.md)
+- aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)::[lithium-ion](lithium-ion%20battery.md)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+##### chemistry–elaboration (secondary batteries)
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c52"--><!-- The following content is generated at 2024-03-06T23:33:30.718238+08:00. Any edits will be overridden! -->
+
+- [NiMH](nickel–metal%20hydride%20battery.md)::Usually cylindrical. Suitable for high-drain devices.
+- [lead–acid](lead–acid%20battery.md)::Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md).
+- [lithium-ion](lithium-ion%20battery.md)::Usually cylindrical or prismatic. Suitable for portable devices.
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -60,29 +60,25 @@ Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly usi
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('f23a', 'dd11'),
-  ('name', 'description',),
   (
-    ('[dehydration](#dehydration)', '',),
-    ('[esterification](#esterification)', '',),
-    ('[nucleophilic substitution](#nucleophilic%20substitution)', '',),
-    ('[reduction](#reduction)', '',),
+    '[dehydration](#dehydration)',
+    '[esterification](#esterification)',
+    '[nucleophilic substitution](#nucleophilic%20substitution)',
+    '[reduction](#reduction)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f23a"--><!-- The following content is generated at 2023-04-08T23:59:05.297098+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f23a"--><!-- The following content is generated at 2024-03-07T10:21:38.261307+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[dehydration](#dehydration)}} |  |
-> | {{[esterification](#esterification)}} |  |
-> | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[reduction](#reduction)}} |  | <!--SR:!2025-03-10,535,329!2026-04-25,798,329!2024-12-05,453,309!2024-05-30,263,273-->
+> 1. [dehydration](#dehydration)
+> 2. [esterification](#esterification)
+> 3. [nucleophilic substitution](#nucleophilic%20substitution)
+> 4. [reduction](#reduction)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

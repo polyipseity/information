@@ -15,7 +15,7 @@ tags:
 
 ## avatar
 
-### set 1
+### avatar set 1
 
 - contacts
 - <https://account.microsoft.com/profile/edit-picture>: <polyipseity@outlook.com>
@@ -28,11 +28,26 @@ tags:
 - <https://twitter.com/polyipseity>
 - <https://whatsapp.com/>: (redacted)
 
-### set 2
+### avatar set 2
 
 - <https://linkedin.com/in/(redacted)>
 
-## exports
+## email
+
+### email set 1
+
+- <https://appleid.apple.com/account/manage/section/information>: <polyipseity@gmail.com>
+- <https://buymeacoffee.com/polyipseity>
+- <https://discord.com/>: polyipseity
+- <https://github.com/polyipseity>
+- <https://t.me/quizzaciously>
+- <https://twitter.com/polyipseity>
+
+### email set 2
+
+- <https://linkedin.com/in/(redacted)>
+
+## export
 
 - <https://calendar.google.com/calendar/u/0/r/settings/export>
 - <https://contacts.google.com/>

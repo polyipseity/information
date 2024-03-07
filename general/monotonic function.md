@@ -26,8 +26,8 @@ tags:
 > [!tip] tips
 >
 > - [terminology](terminology.md): Terminology is very funny when it comes to describing monotonic functions...
->   - monotone/monotonic/monotonically increasing/monotonically decreasing ::: $x < y \implies f(x) < f(y)$; $x < y \implies f(x) > f(y)$ <!--SR:!2024-05-01,73,310!2024-03-11,17,317-->
->   - strictly monotone/strictly monotonic/strictly increasing/strictly decreasing ::: $x < y \implies f(x) \le f(y)$; $x < y \implies f(x) \ge f(y)$ <!--SR:!2024-04-07,53,310!2024-03-08,14,317-->
+>   - monotone/monotonic/monotonically increasing/monotonically decreasing ::: $x < y \implies f(x) \le f(y)$; $x < y \implies f(x) \ge f(y)$ <!--SR:!2024-05-01,73,310!2024-03-11,17,317-->
+>   - strictly monotone/strictly monotonic/strictly increasing/strictly decreasing ::: $x < y \implies f(x) < f(y)$; $x < y \implies f(x) > f(y)$ <!--SR:!2024-04-07,53,310!2024-03-08,14,317-->
 >   - weakly monotone/weakly monotonic/weakly increasing/weakly decreasing ::: _monotonic_ but not _strictly monotonic_ <!--SR:!2024-04-20,63,310!2024-03-08,14,317-->
 >   - increasing/decreasing ::: either _monotonic_ or _strictly monotonic_ (confusing; bad terminology) <!--SR:!2024-04-08,53,310!2024-03-12,18,317-->
 >   - non-increasing/non-decreasing ::: _monotonically decreasing_/_monotonically increasing_ (unnecessary negation; the worst terminology ever) <!--SR:!2024-04-17,60,310!2024-03-09,15,317-->
