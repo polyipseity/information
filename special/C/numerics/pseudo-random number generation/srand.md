@@ -17,4 +17,4 @@ void srand(unsigned seed);
 
 > [!tip] tips
 >
-> - seed source: {{standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md)}}
+> - seed source ::: standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md)

@@ -23,4 +23,4 @@ tags:
 
 > [!tip] tips
 >
-> - deriving rotational analogs of [formulas](../general/formula.md): {{replace the linear [physical quantities](#physical%20quantities) with rotational ones in [formulas](../general/formula.md)}}
+> - deriving rotational analogs of [formulas](../general/formula.md) ::: replace the linear [physical quantities](#physical%20quantities) with rotational ones in [formulas](../general/formula.md)

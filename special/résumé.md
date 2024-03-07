@@ -22,12 +22,12 @@ tags:
 
 To optimize the résumé for successful application and {{[applicant tracking system](applicant%20tracking%20system.md)}}:
 
-- content: {{include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address}}
-- fonts: {{1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold}}
-- formatting: {{consistent, minimal}}
-- length: {{1 page}}
-- line spacing: {{single}}
-- order: {{reverse chronological}}
+- content ::: include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address
+- fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold
+- formatting ::: consistent, minimal
+- length ::: 1 page
+- line spacing ::: single
+- order ::: reverse chronological
 
 ## content
 
@@ -77,21 +77,14 @@ return await memorize_seq(
 
 Two recommended formats:
 
-1. I–you
-    1. {{what I want from you}}
-    2. {{what I can do for you}}
-    3. {{requirements, if any}}
-2. A.S.K.
-    1. {{attitude}}
-    2. {{skills}}
-    3. {{knowledge}}
-    4. {{requirements, if any}}
+1. I–you ::: what I want from you; what I can do for you; requirements, if any
+2. A.S.K. ::: attitude; skills; knowledge; requirements, if any
 
 ### experience
 
-- industry experience: {{if no salary}}
-- work experience: {{all, 0 to 3 sub-points according to importance}}
-  - sub-points: {{statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities}}
+- industry experience ::: if no salary
+- work experience ::: all, 0 to 3 sub-points according to importance
+  - work experience sub-points ::: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities
 
 ### skills
 

@@ -17,4 +17,4 @@ int rand();
 
 > [!tip] tips
 >
-> - remember: {{set the seed using [`srand`](srand.md) before calling `rand`}}
+> - remember ::: set the seed using [`srand`](srand.md) before calling `rand`

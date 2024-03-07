@@ -73,20 +73,20 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 
 > [!example] examples
 >
-> - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{Decreasing (actually, weakly decreasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{Increasing (actually, weakly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$: {{[Right-sided strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Strict local maximum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+\sin{\frac1x}\right)&\text{if }\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive by the two-sided test because no suitable $\epsilon$ exist and inconclusive by the one-sided test because the one-sided [derivaties](derivative.md) do not exist. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
-> - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=\lvert{x}\rvert,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided or one-sided test.}}
-> - $f(x):=x^\frac13,c=0$: {{Increasing (actually, strictly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) do not exist.}}
-> - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive by the two-sided test because no suitable $\epsilon$ exist and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are both 0. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md).}}
-> - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$: {{Increasing (actually, weakly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
-> - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+x\sin{\frac1x}\right)&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive by the two-sided test because no suitable $\epsilon$ exist and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
-> - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0 or do not exist.}}
-> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.}}
+> - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :: Decreasing (actually, weakly decreasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :: Increasing (actually, weakly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$ :: [Right-sided strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local maximum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+\sin{\frac1x}\right)&\text{if }\ne0\\0&\text{if }x=0\end{cases},c=0$ :: Inconclusive by the two-sided test because no suitable $\epsilon$ exist and inconclusive by the one-sided test because the one-sided [derivaties](derivative.md) do not exist. Actual is [strict local minimum](maximum%20and%20minimum.md).
+> - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) by the two-sided and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=\lvert{x}\rvert,c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) by the two-sided or one-sided test.
+> - $f(x):=x^\frac13,c=0$ :: Increasing (actually, strictly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) do not exist.
+> - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :: Inconclusive by the two-sided test because no suitable $\epsilon$ exist and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are both 0. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md).
+> - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$ :: Increasing (actually, weakly increasing) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
+> - $f(x):=\begin{cases}\lvert{x}\rvert\left(2+x\sin{\frac1x}\right)&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :: Inconclusive by the two-sided test because no suitable $\epsilon$ exist and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.
+> - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0 or do not exist.
+> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) by the two-sided test and inconclusive by the one-sided test because the one-sided [derivatives](derivative.md) are 0.
 
 ### concavity test
 
@@ -119,24 +119,24 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 
 > [!tip] tips
 >
-> - [intuition](intuition.md): {{Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities.}}
+> - [intuition](intuition.md) ::: Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities.
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Strict local maximum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [concave](convex%20function.md).}}
-> - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Strict local minimum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [convex](convex%20function.md).}}
-> - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
-> - $f(x):=x\lvert{x}\rvert,c=0$: {{Inconclusive by the two-sided test and [stationary rising inflection point](maximum%20and%20minimum.md) and not local [extremum](maximum%20and%20minimumm.md) by the one-sided test.}}
-> - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{[Stationary rising inflection point](inflection%20point.md) and not local [extremum](maximum%20and%20minimumm.md).}}
-> - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive because $\forall{n\in\mathbb{N}^+}\,f^{(n)}(0)=0$. Actual is [strict local minimum](maximum%20and%20minimum.md).}}
-> - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [right-sided strict local minimum](maximum%20and%20minimum.md).}}
-> - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$: {{[stationary falling inflection point](inflection%20point.md) and not [local extremum](maximum%20and%20minimum.md).}}
-> - $f(x):=x^\frac13,c=0$: {{Inconclusive because $f^{(n)}(0)$ for all $n\in\mathbb{N}^+$ does not exist $(f^{(n)}(0)=\pm\infty)$. Actual is [vertically rising inflection point](inflection%20point.md).}}
-> - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$: {{Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [stationary rising inflection point](inflection%20point.md).}}
-> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$: {{Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.}}
-> - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$: {{Inconclusive because the two-sided [second derivative](second%20derivative.md) $f''(0)$ and one-sided [second derivatives](second%20derivative.md) $f''_\pm(0)$ do not exist. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md).}}
+> - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local maximum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [concave](convex%20function.md).
+> - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [convex](convex%20function.md).
+> - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$ :: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md).
+> - $f(x):=x\lvert{x}\rvert,c=0$ :: Inconclusive by the two-sided test and [stationary rising inflection point](maximum%20and%20minimum.md) and not local [extremum](maximum%20and%20minimumm.md) by the one-sided test.
+> - $f(x):=x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Stationary rising inflection point](inflection%20point.md) and not local [extremum](maximum%20and%20minimumm.md).
+> - $f(x):=\begin{cases}e^{-\frac1{x^2} }&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :: Inconclusive because $\forall{n\in\mathbb{N}^+}\,f^{(n)}(0)=0$. Actual is [strict local minimum](maximum%20and%20minimum.md).
+> - $f(x):=x^\frac{2n+1}2,n\in\mathbb{N}_0,c=0$ :: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [right-sided strict local minimum](maximum%20and%20minimum.md).
+> - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :: [stationary falling inflection point](inflection%20point.md) and not [local extremum](maximum%20and%20minimum.md).
+> - $f(x):=x^\frac13,c=0$ :: Inconclusive because $f^{(n)}(0)$ for all $n\in\mathbb{N}^+$ does not exist $(f^{(n)}(0)=\pm\infty)$. Actual is [vertically rising inflection point](inflection%20point.md).
+> - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$ :: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [stationary rising inflection point](inflection%20point.md).
+> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$ :: Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test.
+> - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :: Inconclusive because the two-sided [second derivative](second%20derivative.md) $f''(0)$ and one-sided [second derivatives](second%20derivative.md) $f''_\pm(0)$ do not exist. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md).
 
 ## references
 

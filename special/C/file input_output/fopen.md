@@ -34,9 +34,9 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 
 > [!tip] tips
 >
-> - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}}: {{define to `1` to disable errors from using non-`_s`-ending functions}}
-> - overload selection: {{use the `_s`-ending overloads whenever feasible}}
-> - remember: {{call [`fclose`](fclose.md) on the file after you are done with it}}
+> - {{`_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md))}} ::: define to `1` to disable errors from using non-`_s`-ending functions
+> - overload selection ::: use the `_s`-ending overloads whenever feasible
+> - remember ::: call [`fclose`](fclose.md) on the file after you are done with it
 
 ## parameters
 
