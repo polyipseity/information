@@ -26,47 +26,43 @@ A __physical property__ is {{a [property](property.md) measurable without [chemi
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('1238ff', 'bad29e'),
-  ('name', 'description',),
   (
-    ('[boiling point](boiling%20point.md)', '',),
-    ('[color](color.md)', '',),
-    ('[density](density.md)', '',),
-    ('[ductility](ductility.md)', '',),
-    ('[electrical conductivity](electrical%20conductivity.md)', '',),
-    ('[hardness](hardness.md)', '',),
-    ('[malleability](malleability.md)', '',),
-    ('[melting point](melting%20point.md)', '',),
-    ('[odor](odor.md)', '',),
-    ('[physical state](physical%20state.md)', '',),
-    ('[solubility](solubility.md)', 'Varies with [solvent](solvent.md).',),
-    ('[taste](taste.md)', '',),
-    ('[thermal conductivity](thermal%20conductivity.md)', '',),
+    '[boiling point](boiling%20point.md)',
+    '[color](color.md)',
+    '[density](density.md)',
+    '[ductility](ductility.md)',
+    '[electrical conductivity](electrical%20conductivity.md)',
+    '[hardness](hardness.md)',
+    '[malleability](malleability.md)',
+    '[melting point](melting%20point.md)',
+    '[odor](odor.md)',
+    '[physical state](physical%20state.md)',
+    '[solubility](solubility.md)',
+    '[taste](taste.md)',
+    '[thermal conductivity](thermal%20conductivity.md)',
   ),
-  lambda data: map(cloze, data),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2024-02-12T15:58:39.876383+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2024-03-07T10:32:08.823451+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[boiling point](boiling%20point.md)}} |  |
-> | {{[color](color.md)}} |  |
-> | {{[density](density.md)}} |  |
-> | {{[ductility](ductility.md)}} |  |
-> | {{[electrical conductivity](electrical%20conductivity.md)}} |  |
-> | {{[hardness](hardness.md)}} |  |
-> | {{[malleability](malleability.md)}} |  |
-> | {{[melting point](melting%20point.md)}} |  |
-> | {{[odor](odor.md)}} |  |
-> | {{[physical state](physical%20state.md)}} |  |
-> | {{[solubility](solubility.md)}} | {{Varies with [solvent](solvent.md).}} |
-> | {{[taste](taste.md)}} |  |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} |  |
+> 1. [boiling point](boiling%20point.md)
+> 2. [color](color.md)
+> 3. [density](density.md)
+> 4. [ductility](ductility.md)
+> 5. [electrical conductivity](electrical%20conductivity.md)
+> 6. [hardness](hardness.md)
+> 7. [malleability](malleability.md)
+> 8. [melting point](melting%20point.md)
+> 9. [odor](odor.md)
+> 10. [physical state](physical%20state.md)
+> 11. [solubility](solubility.md)
+> 12. [taste](taste.md)
+> 13. [thermal conductivity](thermal%20conductivity.md)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

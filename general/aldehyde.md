@@ -52,25 +52,21 @@ Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqu
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('ff02', '1233'),
-  ('name', 'description',),
   (
-    ('[oxidation](#oxidation)', '',),
-    ('[reduction](#reduction)', '',),
+    '[oxidation](#oxidation)',
+    '[reduction](#reduction)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff02"--><!-- The following content is generated at 2023-04-06T10:39:35.661961+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff02"--><!-- The following content is generated at 2024-03-07T10:21:21.024126+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[oxidation](#oxidation)}} |  |
-> | {{[reduction](#reduction)}} |  |
+> 1. [oxidation](#oxidation)
+> 2. [reduction](#reduction)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

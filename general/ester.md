@@ -50,23 +50,19 @@ In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic]
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('23af', '333d'),
-  ('name', 'description',),
   (
-    ('[hydrolysis](#hydrolysis)', '',),
+    '[hydrolysis](#hydrolysis)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23af"--><!-- The following content is generated at 2023-04-07T00:25:31.914964+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23af"--><!-- The following content is generated at 2024-03-07T10:32:08.801444+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[hydrolysis](#hydrolysis)}} |  |
+> 1. [hydrolysis](#hydrolysis)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

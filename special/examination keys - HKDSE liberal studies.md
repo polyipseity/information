@@ -25,41 +25,37 @@ HKDSE liberal studies
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('ff91', '83da',),
-  ('fallacy',),
   (
-    ('affirming the consequent',),
-    ('appeal to authority',),
-    ('appeal to tradition',),
-    ('guilt by association',),
-    ('hasty generalization',),
-    ('popularity and testimonials',),
-    ('post hoc',),
-    ('self-contradiction',),
-    ('virtue by association',),
-    ('weak analogies',),
+    'affirming the consequent',
+    'appeal to authority',
+    'appeal to tradition',
+    'guilt by association',
+    'hasty generalization',
+    'popularity and testimonials',
+    'post hoc',
+    'self-contradiction',
+    'virtue by association',
+    'weak analogies',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff91"--><!-- The following content is generated at 2023-04-25T22:04:29.810183+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff91"--><!-- The following content is generated at 2024-03-07T10:32:08.827449+08:00. Any edits will be overridden! -->
 
-> | fallacy |
-> |-|
-> | {{affirming the consequent}} |
-> | {{appeal to authority}} |
-> | {{appeal to tradition}} |
-> | {{guilt by association}} |
-> | {{hasty generalization}} |
-> | {{popularity and testimonials}} |
-> | {{post hoc}} |
-> | {{self-contradiction}} |
-> | {{virtue by association}} |
-> | {{weak analogies}} |
+> 1. affirming the consequent
+> 2. appeal to authority
+> 3. appeal to tradition
+> 4. guilt by association
+> 5. hasty generalization
+> 6. popularity and testimonials
+> 7. post hoc
+> 8. self-contradiction
+> 9. virtue by association
+> 10. weak analogies
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

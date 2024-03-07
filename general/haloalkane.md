@@ -52,25 +52,21 @@ In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('321a', '4441'),
-  ('name', 'description',),
   (
-    ('[hydrolysis](#hydrolysis)', '',),
-    ('[substitution](#substitution)', '',),
+    '[hydrolysis](#hydrolysis)',
+    '[substitution](#substitution)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="321a"--><!-- The following content is generated at 2023-04-08T23:59:05.288590+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="321a"--><!-- The following content is generated at 2024-03-07T10:32:08.808445+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[hydrolysis](#hydrolysis)}} |  |
-> | {{[substitution](#substitution)}} |  |
+> 1. [hydrolysis](#hydrolysis)
+> 2. [substitution](#substitution)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
