@@ -35,7 +35,7 @@ The content is in teaching order.
   - civil engineer characteristics ::: problem solvers
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector.
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning
-    - built environment example ::: Hoover Dam, a hydroelectric and reservoir project started on the Colorado River in 1931, affects Las Vegas, United States significantly to the present.
+    - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present.
 - civil engineering importance ::: improving living environments, productivity, and working efficiency
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
@@ -101,8 +101,8 @@ The content is in teaching order.
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial and management sectors.
   - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (as civil servants)
-    - government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
+  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants)
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools
       - Buildings Department (BD) ::: illegal structures, private buildings
       - Housing Department (HD) ::: home ownership scheme, public housing
