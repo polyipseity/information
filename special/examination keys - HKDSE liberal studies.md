@@ -121,7 +121,7 @@ return await memorize_table(
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2026-08-31,917,330-->
 - comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
-- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-03-07,14,130-->
+- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-03-26,19,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
 - solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -226,7 +226,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
-- according to/refer to→:::←cause/reason <!--SR:!2024-03-07,7,130!2024-06-23,313,295-->
+- according to/refer to→:::←cause/reason <!--SR:!2024-03-11,4,130!2024-06-23,313,295-->
 - cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->

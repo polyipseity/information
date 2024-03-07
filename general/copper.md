@@ -53,7 +53,7 @@ return await memorize_table(
 - _(begin)_→:::←cooking utensils <!--SR:!2024-03-21,225,290!2024-03-30,285,330-->
 - cooking utensils→:::←electric wires <!--SR:!2024-06-28,217,250!2024-03-14,269,320-->
 - electric wires→:::←water pipes <!--SR:!2026-06-28,854,330!2024-08-18,362,290-->
-- water pipes→:::←_(end)_ <!--SR:!2024-03-07,268,330!2024-03-07,38,250-->
+- water pipes→:::←_(end)_ <!--SR:!2027-07-08,1218,350!2024-06-11,96,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
