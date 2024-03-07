@@ -52,7 +52,7 @@ The content is in teaching order.
   - compressed gas cylinder hazards ::: Pressure can reach over 100 bars. Leaking gas produce a force 20 to 50 times the cylinder weight, which is about 100 kg, similar to a rocket or guided missile. Over-pressurized vessel fail at a weak point if it exists. If that point is very weak, the vessel can fail at or below normal operating pressure. <!--SR:!2024-03-27,24,286!2024-04-04,32,303-->
   - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
-  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-03-07,13,286!2024-03-23,22,266-->
+  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-04-10,34,286!2024-03-23,22,266-->
   - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-03-19,13,226!2024-03-22,19,263-->
   - hydraulic test
     - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-16,11,226!2024-03-25,25,286-->
@@ -218,7 +218,7 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-07,4,203!2024-04-21,48,306-->
+- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-14,7,203!2024-04-21,48,306-->
 - control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-08,11,266!2024-03-17,17,266-->
 - identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-03-13,16,304!2024-03-14,17,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-03-21,18,263!2024-04-24,49,306-->
@@ -309,11 +309,11 @@ protective devices that release contents do so safely
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-03-09,6,246!2024-04-22,47,303-->
-- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-03-19,19,266!2024-03-07,6,243-->
+- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-03-19,19,266!2024-03-29,22,263-->
 - expected working life→:::←fluid properties <!--SR:!2024-04-07,35,306!2024-03-16,13,246-->
-- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-07,4,186!2024-03-14,11,266-->
+- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-12,5,186!2024-03-14,11,266-->
 - operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-08,2,166!2024-03-08,11,246-->
-- proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-11,17,306!2024-03-07,13,283-->
+- proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-11,17,306!2024-04-28,52,303-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-04-19,45,303!2024-03-11,8,206-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -525,9 +525,9 @@ spraying paint container
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="152a"--><!-- The following content is generated at 2024-02-09T19:56:52.689301+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air receiver <!--SR:!2024-03-12,18,306!2024-03-11,17,306-->
-- air receiver→:::←fixed vessel for starting internal combustion engine <!--SR:!2024-04-13,38,286!2024-03-07,2,223-->
+- air receiver→:::←fixed vessel for starting internal combustion engine <!--SR:!2024-04-13,38,286!2024-03-13,6,243-->
 - fixed vessel for starting internal combustion engine→:::←pressured fuel container <!--SR:!2024-03-11,6,263!2024-04-05,32,286-->
-- pressured fuel container→:::←spraying paint container <!--SR:!2024-03-09,15,306!2024-03-07,4,266-->
+- pressured fuel container→:::←spraying paint container <!--SR:!2024-03-09,15,306!2024-03-23,16,286-->
 - spraying paint container→:::←_(end)_ <!--SR:!2024-03-12,18,306!2024-03-29,23,263-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -569,7 +569,7 @@ safety: pressure release valve
 - control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-24,23,266!2024-03-16,12,243-->
 - safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-08,2,186!2024-03-08,3,206-->
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-03-13,15,266!2024-04-08,36,306-->
-- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-04-17,43,306!2024-03-07,4,186-->
+- safety: pressure release valve→:::←_(end)_ <!--SR:!2024-04-17,43,306!2024-03-16,9,186-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -654,6 +654,6 @@ thermal protection
 - explosion protection→:::←lubricant protection <!--SR:!2024-04-16,43,306!2024-04-22,48,306-->
 - lubricant protection→:::←safety valve <!--SR:!2024-03-30,24,266!2024-04-16,42,306-->
 - safety valve→:::←thermal protection <!--SR:!2024-04-14,41,306!2024-04-13,41,303-->
-- thermal protection→:::←_(end)_ <!--SR:!2024-03-11,17,303!2024-03-07,3,206-->
+- thermal protection→:::←_(end)_ <!--SR:!2024-03-11,17,303!2024-03-18,11,226-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

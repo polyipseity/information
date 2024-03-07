@@ -362,7 +362,7 @@ return await memorize_map(
 - [barium oxide](barium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-10-25,241,278-->
 - [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-11,12,158-->
 - [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-10,158,298-->
-- [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-07,33,258-->
+- [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-05-30,84,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-03-24,40,198-->
 - [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-03-10,14,158-->
 - [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-03-09,4,130-->

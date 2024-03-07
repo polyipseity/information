@@ -36,7 +36,7 @@ The content is in teaching order.
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-03-26,28,289!2024-04-15,48,302-->
 - ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-03-22,29,282!2024-05-27,82,355-->
 - noise ::: unwanted sound <!--SR:!2024-04-21,55,322!2024-05-03,65,310-->
-- human audible frequency range ::: 20~20000 Hz <!--SR:!2024-05-22,77,355!2024-03-07,18,335-->
+- human audible frequency range ::: 20~20000 Hz <!--SR:!2024-05-22,77,355!2024-05-27,81,355-->
     - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-04-09,43,302!2024-05-09,71,322-->
 - noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-03-31,31,295!2024-04-21,47,282-->
 - noise types ::: continuous, impact, intermittent <!--SR:!2024-05-21,76,349!2024-05-07,70,322-->
@@ -51,17 +51,17 @@ The content is in teaching order.
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-03-22,23,279!2024-05-05,67,322-->
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-03-22,24,289!2024-04-14,48,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
-- ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-03-07,18,335!2024-04-29,63,310-->
+- ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-05-08,62,335!2024-04-29,63,310-->
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-03-13,10,242!2024-04-12,44,326-->
 - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-03-09,20,262!2024-05-06,64,335-->
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-03-08,19,329!2024-05-11,72,322-->
-- particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-03-31,37,282!2024-03-07,18,335-->
-- toxicity equation ::: toxicity × quantity × time <!--SR:!2024-05-25,80,355!2024-03-07,18,329-->
+- particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-03-31,37,282!2024-06-02,87,355-->
+- toxicity equation ::: toxicity × quantity × time <!--SR:!2024-05-25,80,355!2024-05-25,79,349-->
 - occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-05-14,71,349!2024-03-29,37,302-->
-- ceiling (C) ::: at any time <!--SR:!2024-03-08,19,329!2024-03-07,18,335-->
+- ceiling (C) ::: at any time <!--SR:!2024-03-08,19,329!2024-05-28,82,355-->
 - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-05-21,76,349-->
 - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-05-24,79,349-->
-- exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-03-07,18,329!2024-04-28,62,310-->
+- exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-05-01,55,329!2024-04-28,62,310-->
   - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-03-17,26,270!2024-04-19,53,310-->
 - air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-03-08,19,329-->
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
@@ -73,8 +73,8 @@ The content is in teaching order.
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-03-29,32,315!2024-04-11,45,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
 - skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-03-27,33,282!2024-05-08,70,319-->
-- chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-04-27,61,322!2024-03-07,18,335-->
-- occupational health goals ::: protect the environment, general community, and workers' health <!--SR:!2024-04-23,54,302!2024-03-07,18,329-->
+- chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-04-27,61,322!2024-03-16,9,315-->
+- occupational health goals ::: protect the environment, general community, and workers' health <!--SR:!2024-04-23,54,302!2024-05-26,80,349-->
 
 ## oversized data
 
@@ -158,10 +158,10 @@ personal protective equipment
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
 - _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-03-08,19,329!2024-05-19,75,355-->
-- hazard reduction or elimination→:::←engineering <!--SR:!2024-05-13,69,346!2024-03-07,17,339-->
-- engineering→:::←administration <!--SR:!2024-03-09,19,339!2024-03-07,18,335-->
+- hazard reduction or elimination→:::←engineering <!--SR:!2024-05-13,69,346!2024-05-22,76,359-->
+- engineering→:::←administration <!--SR:!2024-03-09,19,339!2024-05-03,57,335-->
 - administration→:::←personal protective equipment <!--SR:!2024-05-18,73,346!2024-03-08,19,329-->
-- personal protective equipment→:::←_(least preferable)_ <!--SR:!2024-04-19,50,326!2024-03-07,18,329-->
+- personal protective equipment→:::←_(least preferable)_ <!--SR:!2024-04-19,50,326!2024-05-29,83,349-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -199,13 +199,13 @@ reduced sweating
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convulsions <!--SR:!2024-03-18,21,299!2024-03-07,17,339-->
+- _(begin)_→:::←convulsions <!--SR:!2024-03-18,21,299!2024-05-26,80,359-->
 - convulsions→:::←dry hot skin <!--SR:!2024-03-19,14,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-03-08,18,339-->
 - high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-11,5,229-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
-- reduced sweating→:::←_(end)_ <!--SR:!2024-03-07,18,329!2024-03-15,18,279-->
+- reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-15,18,279-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -333,11 +333,11 @@ workplace
 
 - _(begin)_→:::←general community environment <!--SR:!2024-03-18,20,279!2024-05-20,76,349-->
 - general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-12,6,229-->
-- occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-03-07,17,339-->
+- occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
 - occupational rehabilitation→:::←workers <!--SR:!2024-03-08,3,219!2024-05-05,63,329-->
 - workers→:::←workplace <!--SR:!2024-03-08,19,329!2024-05-11,67,339-->
-- workplace→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-03-07,6,259-->
+- workplace→:::←_(end)_ <!--SR:!2024-05-28,82,355!2024-03-23,16,259-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -376,9 +376,9 @@ treatment
 - _(begin)_→:::←conduct medical clearance <!--SR:!2024-04-24,51,315!2024-05-13,70,349-->
 - conduct medical clearance→:::←diagnosis <!--SR:!2024-04-16,47,339!2024-05-16,73,355-->
 - diagnosis→:::←education <!--SR:!2024-03-22,25,289!2024-03-30,27,279-->
-- education→:::←promotion <!--SR:!2024-03-07,6,295!2024-04-02,36,315-->
+- education→:::←promotion <!--SR:!2024-03-31,24,315!2024-04-02,36,315-->
 - promotion→:::←treatment <!--SR:!2024-03-26,27,289!2024-04-17,45,315-->
-- treatment→:::←_(end)_ <!--SR:!2024-03-07,18,335!2024-05-01,59,335-->
+- treatment→:::←_(end)_ <!--SR:!2024-06-01,86,355!2024-05-01,59,335-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -458,8 +458,8 @@ steelworks
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←cold storages <!--SR:!2024-03-07,17,339!2024-05-24,79,349-->
-- cold storages→:::←glassworks <!--SR:!2024-04-10,37,299!2024-03-07,7,295-->
+- _(begin)_→:::←cold storages <!--SR:!2024-05-24,78,359!2024-05-24,79,349-->
+- cold storages→:::←glassworks <!--SR:!2024-04-10,37,299!2024-03-27,20,295-->
 - glassworks→:::←kitchens <!--SR:!2024-03-31,32,319!2024-03-26,29,295-->
 - kitchens→:::←laundries <!--SR:!2024-04-03,34,319!2024-03-28,29,319-->
 - laundries→:::←steelworks <!--SR:!2024-03-10,13,279!2024-03-29,31,295-->

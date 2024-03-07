@@ -28,7 +28,7 @@ tags:
 > {{$$\begin{aligned} \mathrm{COP}_\mathrm{cooling} & = \frac{\lvert Q_C \rvert}W = \frac{Q_C}W \\ \mathrm{COP}_\mathrm{heating} & = \frac{\lvert Q_H \rvert}W = \frac{Q_C + W}W = \mathrm{COP}_\mathrm{cooling} + 1 \end{aligned}$$}}
 >
 > - where
->   - {{$Q_C > 0$ and $Q_H < 0$ are respectively [heat](heat.md) absorbed and dissipated by the system, and $W > 0$ is the net [work](work%20(physics).md) put into the system}} <!--SR:!2024-07-04,130,290!2024-03-07,59,310-->
+>   - {{$Q_C > 0$ and $Q_H < 0$ are respectively [heat](heat.md) absorbed and dissipated by the system, and $W > 0$ is the net [work](work%20(physics).md) put into the system}} <!--SR:!2024-07-04,130,290!2024-09-05,182,310-->
 
 ## references
 

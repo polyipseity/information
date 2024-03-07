@@ -190,7 +190,7 @@ return _chain.from_iterable(await _gather(
 - [iron](iron.md)::Fe<sup>2+</sup> <!--SR:!2026-04-29,853,330-->
 - [cadmium](cadmium.md)::Cd<sup>2+</sup> <!--SR:!2024-05-05,308,330-->
 - [cobalt](cobalt.md)::Co<sup>2+</sup> <!--SR:!2024-05-07,310,330-->
-- [nickel](nickel.md)::Ni<sup>2+</sup> <!--SR:!2024-03-07,262,330-->
+- [nickel](nickel.md)::Ni<sup>2+</sup> <!--SR:!2027-06-10,1190,350-->
 - [tin](tin.md)::Sn<sup>2+</sup> <!--SR:!2024-05-18,316,330-->
 - [lead](lead.md)::Pb<sup>2+</sup> <!--SR:!2026-05-15,866,330-->
 - [antimony](antimony.md)::Sb<sup>3+</sup> <!--SR:!2024-05-07,72,210-->
@@ -302,7 +302,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-07-17,133,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
 - [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-03-10,28,150-->
-- [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-03-07,41,190-->
+- [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-03-27,20,170-->
 - [zinc](zinc.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-16,379,290-->
 - [chromium](chromium.md)::[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->
 - [iron](iron.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-04-01,251,310-->

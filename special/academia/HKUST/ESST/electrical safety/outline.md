@@ -47,7 +47,7 @@ The content is in teaching order.
 - [hazardous scenarios](#hazardous%20scenarios)
 - [hazard causes](#hazard%20causes)
 - [hazard control](#hazard%20control)
-  - [grounding](../../../../../general/ground%20(electricity).md) ::: Connect dead parts to the earth so that said dead part has zero potential during a fault. [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md): Z<sub>2</sub> <= 50 Z<sub>S</sub>/U<sub>O</sub> Ω, where Z<sub>S</sub> is the sum of live wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>1</sub>, ground wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>2</sub>, and ground [impedance](../../../../../general/electrical%20impedance.md) Z<sub>e</sub>, and U<sub>O</sub> is the source [voltage](../../../../../general/voltage.md), [diameter](../../../../../general/diameter.md) >= 12.5 mm <!--SR:!2024-03-07,18,264!2024-03-24,33,290-->
+  - [grounding](../../../../../general/ground%20(electricity).md) ::: Connect dead parts to the earth so that said dead part has zero potential during a fault. [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md): Z<sub>2</sub> <= 50 Z<sub>S</sub>/U<sub>O</sub> Ω, where Z<sub>S</sub> is the sum of live wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>1</sub>, ground wire [impedance](../../../../../general/electrical%20impedance.md) Z<sub>2</sub>, and ground [impedance](../../../../../general/electrical%20impedance.md) Z<sub>e</sub>, and U<sub>O</sub> is the source [voltage](../../../../../general/voltage.md), [diameter](../../../../../general/diameter.md) >= 12.5 mm <!--SR:!2024-04-23,47,264!2024-03-24,33,290-->
   - protective bonding ::: Connect several conductive parts to ensure the parts have the same potential so that they do not conduct current during a fault. May be used with [grounding](../../../../../general/ground%20(electrical).md). <!--SR:!2024-03-27,33,284!2024-04-21,52,309-->
 - [circuit breaker](../../../../../general/circult%20breaker.md) ::: [miniature circuit breaker](../../../../../general/circuit%20breaker.md) (MCB), [residual-current circuit breaker with over-current protection/ground-fault circuit interrupter](../../../../../general/residual-current%20device.md) (RCBO/GFCI), [residual-current device](../../../../../general/residual-current%20device.md) (RCD) <!--SR:!2024-03-25,28,287!2024-05-28,84,347-->
     - [residual-current device](../../../../../general/residual-current%20device.md) (RCD) ::: Breaks a circuit when it detects leakage current to [ground](../../../../../general/ground%20(electricity).md). <!--SR:!2024-04-29,62,310!2024-04-28,61,310-->
@@ -61,7 +61,7 @@ The content is in teaching order.
 - [lockout–tagout](../../../../../general/lockout–tagout.md) ::: Safety procedure to follow to ensure that dangerous equipment is shut off and cannot start before completing maintenance or repair. Especially important when more than one person are working on the same system. <!--SR:!2024-04-17,50,304!2024-05-15,76,324-->
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
 - Electricity Ordinance (Cap. 406) ::: Governs the generation, transmission, distribution, and utilization of electricity. Important sub-chapters include Electricity (Registration) Regulations (Cap. 406D), Electricity (Wiring) Regulations (Cap. 406E), and Electrical Products (Safety) Regulation (Cap. 406G). <!--SR:!2024-03-26,29,244!2024-05-18,79,329-->
-- Electricity (Wiring) Regulations (Cap. 406E) ::: Stipulates safety requirements of the design, installation, testing, and certification of fixed electrical installations. To ensure the quality and workmanship of the installations. A practical guideline is provided by [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md) as the _Code of Practice for the Electricity (Wiring) Regulations_. <!--SR:!2024-04-19,44,249!2024-03-07,8,284-->
+- Electricity (Wiring) Regulations (Cap. 406E) ::: Stipulates safety requirements of the design, installation, testing, and certification of fixed electrical installations. To ensure the quality and workmanship of the installations. A practical guideline is provided by [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md) as the _Code of Practice for the Electricity (Wiring) Regulations_. <!--SR:!2024-04-19,44,249!2024-03-29,22,284-->
     - Electricity (Registration) Regulations (Cap. 406D) ::: Stipulates the experience and qualifications of registered electrical contractors and workers. To ensure the quality and workmanship of electrical work. A grading system with A, B, C, H, and R is established to match workers and the type of work. <!--SR:!2024-03-28,34,270!2024-04-08,42,290-->
 - Electrical Products (Safety) Regulation (Cap. 406G) ::: Stipulates the safety of all household electrical products supplied in [Hong Kong](../../../../../general/Hong%20Kong.md). Requires suppliers to ensure a certificate of safety compliance has been issued. Enforced by the [Customs and Excise Department](../../../../../general/Customs%20and%20Excise%20Department%20(Hong%20Kong).md). Classifies 6 kinds of prescribed products that shall comply with the essential and specific safety requirements. <!--SR:!2024-03-24,18,204!2024-03-08,18,264-->
       - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
@@ -107,9 +107,9 @@ unventilated thermal storage type electric water heaters
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2bc7"--><!-- The following content is generated at 2024-02-09T09:19:32.596318+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←adaptors <!--SR:!2024-03-07,19,327!2024-05-25,81,347-->
+- _(begin)_→:::←adaptors <!--SR:!2024-05-07,61,327!2024-05-25,81,347-->
 - adaptors→:::←extension units <!--SR:!2024-04-20,48,327!2024-04-15,46,307-->
-- extension units→:::←flexible cords <!--SR:!2024-03-16,10,307!2024-03-07,19,327-->
+- extension units→:::←flexible cords <!--SR:!2024-03-16,10,307!2024-06-02,87,347-->
 - flexible cords→:::←lamp holders <!--SR:!2024-04-11,37,267!2024-03-31,33,307-->
 - lamp holders→:::←plugs <!--SR:!2024-03-30,36,307!2024-04-05,39,307-->
 - plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-03-16,23,287!2024-03-13,16,307-->
@@ -152,7 +152,7 @@ warnings
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←instructions <!--SR:!2024-03-10,7,254!2024-03-12,18,334-->
-- instructions→:::←manner of presentation <!--SR:!2024-03-07,4,274!2024-04-07,34,294-->
+- instructions→:::←manner of presentation <!--SR:!2024-03-18,11,274!2024-04-07,34,294-->
 - manner of presentation→:::←safety <!--SR:!2024-03-08,2,234!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-03-09,6,274-->
@@ -365,7 +365,7 @@ no safety shutter
 
 - _(begin)_→:::←cannot withstand high [temperature](../../../../../general/temperature.md) <!--SR:!2024-03-30,33,307!2024-05-26,82,347-->
 - cannot withstand high [temperature](../../../../../general/temperature.md)→:::←loose electric plug <!--SR:!2024-04-14,48,327!2024-04-22,55,327-->
-- loose electric plug→:::←no [fuse](../../../../../general/fuse%20(electrical).md) <!--SR:!2024-03-07,19,327!2024-04-01,35,307-->
+- loose electric plug→:::←no [fuse](../../../../../general/fuse%20(electrical).md) <!--SR:!2024-05-10,64,327!2024-04-01,35,307-->
 - no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-04-16,49,327!2024-03-14,16,287-->
 - no insulating sleeves→:::←no safety shutter <!--SR:!2024-05-26,81,347!2024-04-01,35,307-->
 - no safety shutter→:::←_(end)_ <!--SR:!2024-04-27,59,327!2024-03-19,16,287-->

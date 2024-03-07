@@ -115,7 +115,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←_n_ < 0 <!--SR:!2024-08-25,190,310!2024-03-12,66,310-->
 - _n_ < 0→:::←_n_ = 0 <!--SR:!2024-10-03,222,330!2024-06-15,136,310-->
-- _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-03-07,62,310!2024-03-16,70,310-->
+- _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-11-25,263,330!2024-03-16,70,310-->
 - 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-11-03,247,330!2024-08-17,184,310-->
 - _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-11-15,256,330!2024-09-27,218,330-->
 - 1 < _n_ < _γ_→:::←_n_ = _γ_ <!--SR:!2024-10-14,231,330!2024-10-18,235,330-->
@@ -130,7 +130,7 @@ return _chain.from_iterable(await _gather(
 - _n_ < 0::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too <!--SR:!2024-04-25,85,270-->
 - _n_ = 0::$p = C$; equivalent to [isobaric process](isobaric%20process.md) <!--SR:!2024-10-07,226,330-->
 - 0 < _n_ < 1::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2024-03-29,39,250-->
-- _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md) <!--SR:!2024-03-07,62,310-->
+- _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md) <!--SR:!2024-12-02,270,330-->
 - 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-03-26,63,270-->
 - _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md) <!--SR:!2024-10-31,244,330-->
 - _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2024-09-09,201,310-->

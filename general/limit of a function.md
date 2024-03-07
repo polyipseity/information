@@ -33,7 +33,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 > - {{$\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$}}
 > - {{$\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$}}
-> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}} <!--SR:!2024-03-07,68,310!2024-11-03,252,330!2024-09-26,222,330!2024-10-12,235,330!2024-05-19,116,290!2024-07-07,129,250-->
+> - {{$\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, \lim_{x \to p} g(x) > 0))$}} <!--SR:!2024-12-23,291,330!2024-11-03,252,330!2024-09-26,222,330!2024-10-12,235,330!2024-05-19,116,290!2024-07-07,129,250-->
 
 #### determinate forms
 
