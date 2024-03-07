@@ -36,11 +36,11 @@ from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "type", "description"
 table = (
-  ("Boolean", "Either `True` or `False`."),
-  ("Double", "A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes.",),
-  ("Integer", "An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767.",),
-  ("Long", "An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647.",),
-  ("Single", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes.",),
+  ("`Boolean`", "Either `True` or `False`."),
+  ("`Double`", "A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes.",),
+  ("`Integer`", "An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767.",),
+  ("`Long`", "An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647.",),
+  ("`Single`", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes.",),
 )
 return _chain.from_iterable(await _gather(
   memorize_table(
@@ -57,36 +57,36 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2f02"--><!-- The following content is generated at 2024-01-31T22:17:45.635102+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2f02"--><!-- The following content is generated at 2024-03-07T00:04:17.315438+08:00. Any edits will be overridden! -->
 
 > | type | description |
 > |-|-|
-> | Boolean | Either `True` or `False`. |
-> | Double | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. |
-> | Integer | An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. |
-> | Long | An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. |
-> | Single | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. |
+> | `Boolean` | Either `True` or `False`. |
+> | `Double` | A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. |
+> | `Integer` | An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767. |
+> | `Long` | An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. |
+> | `Single` | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. |
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-01-31T22:17:45.602573+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-03-07T00:04:17.291438+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Boolean <!--SR:!2024-05-08,75,325!2024-04-19,60,310-->
-- Boolean→:::←Double <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
-- Double→:::←Integer <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
-- Integer→:::←Long <!--SR:!2024-04-02,43,290!2024-05-05,72,325-->
-- Long→:::←Single <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
-- Single→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
+- _(begin)_→:::←`Boolean` <!--SR:!2024-05-08,75,325!2024-04-19,60,310-->
+- `Boolean`→:::←`Double` <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
+- `Double`→:::←`Integer` <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
+- `Integer`→:::←`Long` <!--SR:!2024-04-02,43,290!2024-05-05,72,325-->
+- `Long`→:::←`Single` <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
+- `Single`→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-01-31T22:17:45.587449+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-03-07T00:04:17.302448+08:00. Any edits will be overridden! -->
 
-- Boolean::Either `True` or `False`. <!--SR:!2024-04-22,61,310-->
-- Double::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
-- Integer::An integer from -2<sup>15</sup>=-32768 to 2<sup>15</sup>-1=32767. <!--SR:!2024-05-06,73,325-->
-- Long::An integer from -2<sup>31</sup>=-2147483648 to 2<sup>31</sup>-1=2147483647. <!--SR:!2024-04-21,60,310-->
-- Single::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-05-05,73,310-->
+- `Boolean`::Either `True` or `False`. <!--SR:!2024-04-22,61,310-->
+- `Double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
+- `Integer`::An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767. <!--SR:!2024-05-06,73,325-->
+- `Long`::An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!2024-04-21,60,310-->
+- `Single`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-05-05,73,310-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

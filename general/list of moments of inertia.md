@@ -17,11 +17,11 @@ tags:
 ### cuboid, axis through center
 
 - definition: a homogeneous [cuboid](cuboid.md) {{of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center}}
-- equation: {{$I_a=\frac1{12}m\left(b^2+c^2\right)$}}
-  - thin plate correction: {{use the same equation}}
-  - cuboid, axis through center of edge $c$: {{$I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$}}
-  - thin plate with $c=0$, axis through edge $a$: {{$I_{a@c=0}=\frac13mb^2$}}
-- proof: $\begin{aligned}
+- equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2024-03-16,72,250-->
+  - thin plate correction ::: use the same equation <!--SR:!2024-08-20,239,330-->
+  - cuboid, axis through center of edge $c$ ::: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2024-03-28,41,250-->
+  - thin plate with $c=0$, axis through edge $a$ ::: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2024-06-23,179,310-->
+- proof: $$\begin{aligned}
 m&=\rho{}HLW\\
 I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-\frac{W^2}2\right)^2\right)\,\mathrm{d}h\,\mathrm{d}l\,\mathrm{d}w\\
 &=\rho{}H\int_0^W\!\int_0^L\!\left(l^2-Ll+\frac{L^2}4+w^2-Ww+\frac{W^2}4\right)\,\mathrm{d}l\,\mathrm{d}w\\
@@ -32,15 +32,15 @@ I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-
 &=\frac1{12}m\left(L^2+W^2\right)\\
 I_L&=\frac1{12}m\left(H^2+W^2\right)\\
 I_W&=\frac1{12}m\left(L^2+H^2\right)\\
-\end{aligned}$ <!--SR:!2024-05-25,157,310!2024-03-16,72,250!2024-08-20,239,330!2024-03-28,41,250!2024-06-23,179,310-->
+\end{aligned}$ <!--SR:!2024-05-25,157,310-->
 
 ### cylindrical shell, axis through base center
 
 - definition: a homogeneous [cylindrical](cylinder.md) shell {{of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center}}
-- equation: {{$I=\frac12m\left(R_O^2+R_I^2\right)$}}
-  - solid cylinder: {{$I=\frac12mR_O^2$}}
-  - thin-walled hollow cylinder: {{$I=mR_O^2$}}
-- proof: $\begin{aligned}
+- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310-->
+  - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2024-09-05,252,330-->
+  - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2024-05-11,159,310-->
+- proof: $$\begin{aligned}
 m&=\rho\pi{}H\left(R_O^2-R_I^2\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\mathrm{d}h\,\mathrm{d}r\\
 &=2\rho\pi{}H\int_{R_I}^{R_O}\!r^3\,\mathrm{d}r\\
@@ -48,16 +48,16 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 &=\frac12\rho\pi{}H\left(R_O^4-R_I^4\right)\\
 &=\frac12\rho\pi{}H\left(R_O^2-R_I^2\right)\left(R_O^2+R_I^2\right)\\
 &=\frac12m\left(R_O^2+R_I^2\right)
-\end{aligned}$ <!--SR:!2024-10-12,282,330!2024-05-27,172,310!2024-09-05,252,330!2024-05-11,159,310-->
+\end{aligned}$ <!--SR:!2024-10-12,282,330-->
 
 ### rod, axis through certain distance from one end
 
 - definition: a homogeneous rod {{of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end}}
-- equation: {{$I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$}}
-  - thin rod correction: {{use the same equation and set $R = 0$}}
-  - slender rod, axis through center: {{$\frac1{12}mL^2$}}
-  - slender rod, axis through one end: {{$\frac13mL^2$}}
-- proof: $\begin{aligned}
+- equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2024-08-18,167,250-->
+  - thin rod correction ::: use the same equation and set $R = 0$ <!--SR:!2024-10-23,291,330-->
+  - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2024-03-11,101,290-->
+  - slender rod, axis through one end ::: $\frac13mL^2$ <!--SR:!2024-04-13,127,290-->
+- proof: $$\begin{aligned}
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
 &=\rho\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\left(\frac12r^3+\frac12r^3\cos2\theta+r(z-Z)^2\right)\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
@@ -86,15 +86,15 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 &=\frac14mR^2+\frac\pi3\rho{}R^2(L-Z+Z)\left((L-Z)^2-Z(L-Z)+Z^2\right)\\
 &=\frac14mR^2+\frac13m\left(L^2-2LZ+Z^2-LZ+Z^2+Z^2\right)\\
 &=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2
-\end{aligned}$ <!--SR:!2024-09-27,269,330!2024-08-18,167,250!2024-10-23,291,330!2024-03-11,101,290!2024-04-13,127,290-->
+\end{aligned}$ <!--SR:!2024-09-27,269,330-->
 
 ### spherical shell, axis through center
 
 - definition: a homogeneous [spherical](sphere.md) shell {{of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center}}
-- equation: {{$I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$}}
-  - solid sphere: {{$I=\frac25mR_O^2$}}
-  - thin-walled hollow sphere: {{$I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$}}
-- proof: $\begin{aligned}
+- equation ::: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$ <!--SR:!2024-05-16,112,250-->
+  - solid sphere ::: $I=\frac25mR_O^2$ <!--SR:!2024-07-01,185,310-->
+  - thin-walled hollow sphere ::: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$ <!--SR:!2024-03-27,106,290-->
+- proof: $$\begin{aligned}
 m&=\frac43\rho\pi\left(R_O^3-R_I^3\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d}\theta\,\mathrm{d}\phi\,\mathrm{d}r\\
 &=-\rho\int_{R_I}^{R_O}\!r^4\int_0^{2\pi}\!\int_{\theta=0}^{\theta=\pi}\!\left(1-\cos^2\theta\right)\,\mathrm{d}\!(\cos\theta)\,\mathrm{d}\phi\,\mathrm{d}r\\
@@ -105,7 +105,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d
 &=\frac8{15}\pi\rho\left[r^5\right]_{R_I}^{R_O}\\
 &=\frac8{15}\pi\rho\left(R_O^5-R_I^5\right)\\
 &=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}
-\end{aligned}$$ <!--SR:!2024-06-11,170,310!2024-05-16,112,250!2024-07-01,185,310!2024-03-27,106,290-->
+\end{aligned}$$ <!--SR:!2024-06-11,170,310-->
 
 ## references
 

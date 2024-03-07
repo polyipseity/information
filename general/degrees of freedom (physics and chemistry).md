@@ -31,7 +31,7 @@ tags:
 # import ../../tools/utility.py.md
 from asyncio import gather as _gather
 from itertools import chain as _chain
-header = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)
+headers = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)
 table = (
   ("[translation](translation%20(geometry).md) ($x, y, z$)", "3", "3", "3",),
   ("[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))", "0", "2", "3",),
@@ -40,11 +40,11 @@ table = (
 return _chain.from_iterable(await _gather(
   memorize_table(
     __env__.cwf_sects("dee2", None,),
-    header, table,
+    headers, table,
   ),
   memorize_map(
     __env__.cwf_sects(None, "2bba", "baa2",),
-    items_to_map(*((row[0], ", ".join(f"{header[ii]}: {row[ii]}" for ii in range(1, 4)),) for row in table)),
+    items_to_map(*((row[0], ", ".join(f"{headers[ii]}: {row[ii]}" for ii in range(1, 4)),) for row in table)),
   ),
 ))
 ```

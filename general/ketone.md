@@ -48,23 +48,19 @@ Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqu
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('204e', '249a'),
-  ('name', 'description',),
   (
-    ('[reduction](#reduction)', '',),
+    '[reduction](#reduction)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="204e"--><!-- The following content is generated at 2023-04-06T10:40:18.725586+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="204e"--><!-- The following content is generated at 2024-03-07T10:32:08.807445+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[reduction](#reduction)}} |  | <!--SR:!2024-06-26,344,339-->
+> 1. [reduction](#reduction)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

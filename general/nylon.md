@@ -31,21 +31,19 @@ Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('bba2', 'd83e'),
-  ('property', 'description',),
   (
-    ('dyeable', '',),
-    ('elastic', '',),
-    ('high tensile strength', '',),
-    ('oil-proof', '',),
-    ('smooth', '',),
-    ('[strong](strength%20of%20materials.md)', '',),
-    ('[tough](toughness.md)', '',),
-    ('washable', '',),
-    ('[waterproof](waterproof.md)', '',),
+    'dyeable',
+    'elastic',
+    'high tensile strength',
+    'oil-proof',
+    'smooth',
+    '[strong](strength%20of%20materials.md)',
+    '[tough](toughness.md)',
+    'washable',
+    '[waterproof](waterproof.md)',
   ),
-  lambda datum: (datum[0], *map(cloze, datum[1:])),
 )
 ```
 
@@ -53,19 +51,17 @@ return await memorize_table(
 
 The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2024-05-22,144,170-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2024-02-18T15:03:20.798754+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2024-03-07T10:21:21.098669+08:00. Any edits will be overridden! -->
 
-> | property | description |
-> |-|-|
-> | dyeable |  |
-> | elastic |  |
-> | high tensile strength |  |
-> | oil-proof |  |
-> | smooth |  |
-> | [strong](strength%20of%20materials.md) |  |
-> | [tough](toughness.md) |  |
-> | washable |  |
-> | [waterproof](waterproof.md) |  |
+> 1. dyeable
+> 2. elastic
+> 3. high tensile strength
+> 4. oil-proof
+> 5. smooth
+> 6. [strong](strength%20of%20materials.md)
+> 7. [tough](toughness.md)
+> 8. washable
+> 9. [waterproof](waterproof.md)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -56,27 +56,23 @@ To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{h
 
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
-return await memorize_table(
+return await memorize_seq(
   __env__.cwf_sects('ff11', 'abba'),
-  ('name', 'description',),
   (
-    ('[dehydration](#dehydration)', '',),
-    ('[nucleophilic substitution](#nucleophilic%20substitution)', '',),
-    ('[oxidation](#oxidation)', '',),
+    '[dehydration](#dehydration)',
+    '[nucleophilic substitution](#nucleophilic%20substitution)',
+    '[oxidation](#oxidation)',
   ),
-  lambda datum: map(cloze, datum),
 )
 ```
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2023-04-06T10:09:50.059971+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2024-03-07T10:21:21.022126+08:00. Any edits will be overridden! -->
 
-> | name | description |
-> |-|-|
-> | {{[dehydration](#dehydration)}} |  |
-> | {{[nucleophilic substitution](#nucleophilic%20substitution)}} |  |
-> | {{[oxidation](#oxidation)}} |  | <!--SR:!2024-03-18,93,295!2024-07-01,349,340!2024-07-02,350,340-->
+> 1. [dehydration](#dehydration)
+> 2. [nucleophilic substitution](#nucleophilic%20substitution)
+> 3. [oxidation](#oxidation)
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

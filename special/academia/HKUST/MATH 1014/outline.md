@@ -31,3 +31,15 @@ The content is in teaching order.
 ## week 2 lecture 2
 
 ## week 3 tutorial
+
+## week 3 lecture
+
+## week 4 lecture 1
+
+- [fundamental theorem of calculus § formal statements](../../../../general/fundamental%20theorem%20of%20calculus.md#formal%20statements)
+
+## week 4 tutorial
+
+- [fundamental theorem of calculus § formal statements](../../../../general/fundamental%20theorem%20of%20calculus.md#formal%20statements)
+
+## week 4 lecture 2

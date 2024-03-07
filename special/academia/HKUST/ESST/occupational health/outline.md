@@ -139,8 +139,7 @@ engineering
 administration
 personal protective equipment
 """.strip().splitlines(),
-  pretext="most preferable",
-  posttext="least preferable",
+  pretext="most preferable", posttext="least preferable",
 )
 ```
 
@@ -264,7 +263,7 @@ return await memorize_seq(
   """
 biological
 chemical
-ergonomics
+ergonomic
 occupation-specific
 physical
 socio-psychological
@@ -274,23 +273,23 @@ socio-psychological
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-02-09T10:20:45.680704+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-03-07T00:02:22.082267+08:00. Any edits will be overridden! -->
 
 > 1. biological
 > 2. chemical
-> 3. ergonomics
+> 3. ergonomic
 > 4. occupation-specific
 > 5. physical
 > 6. socio-psychological
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-02-09T10:20:45.641711+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-03-07T00:02:22.051287+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-05-17,73,349-->
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
-- chemical→:::←ergonomics <!--SR:!2024-03-16,11,239!2024-03-21,24,295-->
-- ergonomics→:::←occupation-specific <!--SR:!2024-03-18,15,259!2024-03-23,25,299-->
+- chemical→:::←ergonomic <!--SR:!2024-03-16,11,239!2024-03-21,24,295-->
+- ergonomic→:::←occupation-specific <!--SR:!2024-03-18,15,259!2024-03-23,25,299-->
 - occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-03-19,22,299-->
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->
 - socio-psychological→:::←_(end)_ <!--SR:!2024-03-08,19,329!2024-03-14,10,315-->
