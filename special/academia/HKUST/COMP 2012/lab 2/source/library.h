@@ -10,7 +10,7 @@ class Book {
         char* name;
         char* author;
         int publishYear;
-    
+
     public:
         Book(const char* name, const char* author, int publishYear);
         ~Book();
@@ -25,7 +25,7 @@ class Bookcase {
         Book** books;
         int numBooks;
         const int capacity;
-    
+
     public:
         Bookcase(int capacity);
         ~Bookcase();
@@ -44,7 +44,7 @@ enum BookcaseID { SCIENCE, HUMANITIES, MISC, NUM_OF_BOOKCASES };
 class Library {
     private:
         Bookcase bookcases[NUM_OF_BOOKCASES];
-    
+
     public:
         Library(int sciCapacity, int hmnCapacity, int miscCapacity);
         ~Library();

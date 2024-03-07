@@ -58,7 +58,7 @@ string PlayList::getUsername() const {
 }
 
 void PlayList::display() const {
-    cout << "========================================" << endl; 
+    cout << "========================================" << endl;
     cout << "Playlist of " << username << endl;
     for (int i = 0; i < capacity; i++) {
         if (songs[i] != nullptr) {
