@@ -39,8 +39,8 @@ A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mat
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discountinuous at every point. <!--SR:!2024-03-12,4,270-->
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It is continuous. Note that an isolated point is closed under usual definitions. <!--SR:!2024-03-12,4,270-->
+> - empty function $\varnothing \to X$ :: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discountinuous at every [real](real%20number.md), and it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-03-12,4,270-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It is continuous. Note that an isolated point is closed under the usual definition of "closed". <!--SR:!2024-03-12,4,270-->
 
 ### discontinuity at a point
 
@@ -48,18 +48,18 @@ A function is _discontinuous_ function at a point {{if the point is in the [topo
 
 > [!tip] tips
 >
-> - neither continuous nor discountinuous ::: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at -1. It is however discontinuous at 0. <!--SR:!2024-03-12,4,270!2024-03-12,4,270-->
+> - neither continuous nor discountinuous ::: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$. <!--SR:!2024-03-12,4,270!2024-03-12,4,270-->
 > - [topological closure](closure%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$. <!--SR:!2024-03-12,4,270!2024-03-12,4,284-->
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is not discontinuous at every point. <!--SR:!2024-03-12,4,270-->
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is not discontinuous at 0. <!--SR:!2024-03-12,4,270-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is not discontinuous at 0. <!--SR:!2024-03-12,4,284-->
-> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at 0. <!--SR:!2024-03-12,4,270-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not discontinuous at -1. <!--SR:!2024-03-12,4,270-->
+> - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-03-12,4,270-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2024-03-12,4,270-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2024-03-12,4,284-->
+> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$. <!--SR:!2024-03-12,4,270-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not discontinuous at $-1$. <!--SR:!2024-03-12,4,270-->
 
 ### definition in terms of limits of functions
 
@@ -71,11 +71,11 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is not continuous at every point. <!--SR:!2024-03-12,4,270-->
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at 0. <!--SR:!2024-03-12,4,284-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at 0. <!--SR:!2024-03-12,4,270-->
-> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at 0. <!--SR:!2024-03-12,4,270-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at -1. <!--SR:!2024-03-11,3,250-->
+> - empty function $\varnothing \to X$ :: It is not continuous at every [real](real%20number.md). However, it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-03-12,4,270-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at $0$. <!--SR:!2024-03-12,4,284-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$. <!--SR:!2024-03-12,4,270-->
+> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$. <!--SR:!2024-03-12,4,270-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-03-11,3,250-->
 
 ## references
 
