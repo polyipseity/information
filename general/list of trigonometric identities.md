@@ -187,7 +187,7 @@ return await memorize_map(
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::: use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization <!--SR:!2024-03-10,64,325-->
+> - [mnemonic](mnemonic.md) ::: use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization <!--SR:!2024-03-10,64,325!2024-03-12,4,314-->
 
 <!-- markdownlint MD028 -->
 

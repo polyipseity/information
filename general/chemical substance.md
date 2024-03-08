@@ -18,11 +18,11 @@ A __chemical substance__ is {{a matter with characteristic properties and consta
 
 Compare with [mixture § properties](mixture.md#properties).
 
-- composition ::: fixed, definite, constant <!--SR:!2024-09-06,381,290-->
-- formation ::: [chemical reaction](chemical%20reaction.md) occurs <!--SR:!2024-03-28,283,330-->
-- properties ::: different from its constituents <!--SR:!2024-09-19,370,290-->
-- separation ::: separable by chemical methods but not physical methods <!--SR:!2026-01-01,769,330-->
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::: sharp <!--SR:!2026-02-14,806,330-->
+- composition ::: fixed, definite, constant <!--SR:!2024-09-06,381,290!2024-03-12,4,298-->
+- formation ::: [chemical reaction](chemical%20reaction.md) occurs <!--SR:!2024-03-28,283,330!2024-03-12,4,298-->
+- properties ::: different from its constituents <!--SR:!2024-09-19,370,290!2024-03-12,4,298-->
+- separation ::: separable by chemical methods but not physical methods <!--SR:!2026-01-01,769,330!2024-03-12,4,298-->
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::: sharp <!--SR:!2026-02-14,806,330!2024-03-12,4,298-->
 
 ## chemical element
 

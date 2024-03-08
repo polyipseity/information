@@ -12,20 +12,20 @@ tags:
 
 ### statement for definite integrals
 
-1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [continuously differentiable](differentiable%20function.md). $f$ is [continuous](continuous%20function.md).
-2. result ::: $$\int_a^b \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int_{g(a)}^{g(b)} \! f(u) \,\mathrm{d}u$$
+1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [continuously differentiable](differentiable%20function.md). $f$ is [continuous](continuous%20function.md). <!--SR:!2024-03-12,4,270!2024-03-12,4,270-->
+2. result ::: $$\int_a^b \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int_{g(a)}^{g(b)} \! f(u) \,\mathrm{d}u$$ <!--SR:!2024-03-12,4,270!2024-03-12,4,270-->
 
 ### statement for indefinite integrals
 
 1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [continuously differentiable](differentiable%20function.md). $f$ is [continuous](continuous%20function.md).
-2. result ::: $$\int \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int \! f(u) \,\mathrm{d}u \qquad u := g(x), x \in [a, b]$$
+2. result ::: $$\int \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int \! f(u) \,\mathrm{d}u \qquad u := g(x), x \in [a, b]$$ <!--SR:!2024-03-12,4,270!2024-03-12,4,270-->
 
 ### proof
 
-Integration by substitution can be derived from {{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md)}}.
+Integration by substitution can be derived from {{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md)}}. <!--SR:!2024-03-12,4,270-->
 
-1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [differentiable](differentiable%20function.md) and $g'$ is [integrable](integral.md) on $[a, b]$. $f$ is [continuous](continuous%20function.md).
-2. existence of integrals :::
+1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [differentiable](differentiable%20function.md) and $g'$ is [integrable](integral.md) on $[a, b]$. $f$ is [continuous](continuous%20function.md). <!--SR:!2024-03-11,3,250!2024-03-12,4,270-->
+2. existence of integrals ::: <!--SR:!2024-03-12,4,270!2024-03-09,1,230-->
 
 ## references
 
