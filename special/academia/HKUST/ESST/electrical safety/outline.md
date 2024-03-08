@@ -63,11 +63,11 @@ The content is in teaching order.
 - Electricity Ordinance (Cap. 406) ::: Governs the generation, transmission, distribution, and utilization of electricity. Important sub-chapters include Electricity (Registration) Regulations (Cap. 406D), Electricity (Wiring) Regulations (Cap. 406E), and Electrical Products (Safety) Regulation (Cap. 406G). <!--SR:!2024-03-26,29,244!2024-05-18,79,329-->
 - Electricity (Wiring) Regulations (Cap. 406E) ::: Stipulates safety requirements of the design, installation, testing, and certification of fixed electrical installations. To ensure the quality and workmanship of the installations. A practical guideline is provided by [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md) as the _Code of Practice for the Electricity (Wiring) Regulations_. <!--SR:!2024-04-19,44,249!2024-03-29,22,284-->
     - Electricity (Registration) Regulations (Cap. 406D) ::: Stipulates the experience and qualifications of registered electrical contractors and workers. To ensure the quality and workmanship of electrical work. A grading system with A, B, C, H, and R is established to match workers and the type of work. <!--SR:!2024-03-28,34,270!2024-04-08,42,290-->
-- Electrical Products (Safety) Regulation (Cap. 406G) ::: Stipulates the safety of all household electrical products supplied in [Hong Kong](../../../../../general/Hong%20Kong.md). Requires suppliers to ensure a certificate of safety compliance has been issued. Enforced by the [Customs and Excise Department](../../../../../general/Customs%20and%20Excise%20Department%20(Hong%20Kong).md). Classifies 6 kinds of prescribed products that shall comply with the essential and specific safety requirements. <!--SR:!2024-03-24,18,204!2024-03-08,18,264-->
+- Electrical Products (Safety) Regulation (Cap. 406G) ::: Stipulates the safety of all household electrical products supplied in [Hong Kong](../../../../../general/Hong%20Kong.md). Requires suppliers to ensure a certificate of safety compliance has been issued. Enforced by the [Customs and Excise Department](../../../../../general/Customs%20and%20Excise%20Department%20(Hong%20Kong).md). Classifies 6 kinds of prescribed products that shall comply with the essential and specific safety requirements. <!--SR:!2024-03-24,18,204!2024-04-24,47,264-->
       - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-04-03,37,289!2024-04-24,58,310-->
-- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-03-08,5,274!2024-04-17,42,314-->
+- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-03-22,14,274!2024-04-17,42,314-->
     - [general safety requirement stipulations](#general%20safety%20requirement%20stipulations) <!--SR:!2024-02-19,2,190!2024-02-19,6,249-->
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-03-27,29,249!2024-03-12,9,244-->
 
@@ -153,7 +153,7 @@ warnings
 
 - _(begin)_→:::←instructions <!--SR:!2024-03-10,7,254!2024-03-12,18,334-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-18,11,274!2024-04-07,34,294-->
-- manner of presentation→:::←safety <!--SR:!2024-03-08,2,234!2024-03-27,26,294-->
+- manner of presentation→:::←safety <!--SR:!2024-03-09,1,214!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-03-09,6,274-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
@@ -199,7 +199,7 @@ wet condition
 - improper contact→:::←lack of maintenance <!--SR:!2024-04-08,41,327!2024-03-25,28,287-->
 - lack of maintenance→:::←overloading <!--SR:!2024-03-20,23,307!2024-03-10,12,207-->
 - overloading→:::←short circuiting <!--SR:!2024-05-07,62,327!2024-05-21,77,347-->
-- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-04-02,29,247!2024-03-08,15,267-->
+- short circuiting→:::←using substandard electrical appliances <!--SR:!2024-04-02,29,247!2024-05-02,55,287-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-03-16,23,287!2024-03-18,12,267-->
 - wet condition→:::←_(end)_ <!--SR:!2024-06-01,87,347!2024-03-10,9,287-->
 

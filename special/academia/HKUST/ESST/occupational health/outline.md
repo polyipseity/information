@@ -26,13 +26,13 @@ The content is in teaching order.
   - [occupational medicine section](#occupational%20medicine%20section)
 - [occupational hazard types](#occupational%20hazard%20types)
 - [occupational hazard factors](#occupational%20hazard%20factors)
-- chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-03-08,7,295!2024-04-24,58,322-->
+- chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-04-08,31,315!2024-04-24,58,322-->
 - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-04-10,38,262!2024-05-01,64,322-->
   - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-03-12,11,222!2024-04-22,53,302-->
 - [physical hazards](#physical%20hazards)
 - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-04-06,34,289!2024-03-10,20,339-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-03-27,29,295!2024-05-11,68,355-->
-- UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-04-08,36,319!2024-03-08,18,339-->
+- UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-04-08,36,319!2024-05-30,83,359-->
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-03-26,28,289!2024-04-15,48,302-->
 - ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-03-22,29,282!2024-05-27,82,355-->
 - noise ::: unwanted sound <!--SR:!2024-04-21,55,322!2024-05-03,65,310-->
@@ -46,7 +46,7 @@ The content is in teaching order.
       - heat rash ::: red spots on skin <!--SR:!2024-05-07,69,322!2024-04-17,51,310-->
 - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-03-15,18,269!2024-05-10,67,346-->
 - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-03-26,32,282!2024-05-25,80,349-->
-- heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-03-08,19,329-->
+- heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-06-01,85,349-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-03-22,23,279!2024-05-05,67,322-->
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-03-22,24,289!2024-04-14,48,290-->
@@ -54,22 +54,22 @@ The content is in teaching order.
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-05-08,62,335!2024-04-29,63,310-->
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-03-13,10,242!2024-04-12,44,326-->
 - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-03-09,20,262!2024-05-06,64,335-->
-- socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-03-08,19,329!2024-05-11,72,322-->
+- socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-05-31,84,349!2024-05-11,72,322-->
 - particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-03-31,37,282!2024-06-02,87,355-->
 - toxicity equation ::: toxicity × quantity × time <!--SR:!2024-05-25,80,355!2024-05-25,79,349-->
 - occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-05-14,71,349!2024-03-29,37,302-->
-- ceiling (C) ::: at any time <!--SR:!2024-03-08,19,329!2024-05-28,82,355-->
+- ceiling (C) ::: at any time <!--SR:!2024-06-03,87,349!2024-05-28,82,355-->
 - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-05-21,76,349-->
 - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-05-24,79,349-->
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-05-01,55,329!2024-04-28,62,310-->
   - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-03-17,26,270!2024-04-19,53,310-->
-- air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-03-08,19,329-->
+- air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-06-06,90,349-->
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
-- personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-03-08,19,329-->
+- personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-06-01,85,349-->
 - eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-03-22,24,282!2024-04-18,49,326-->
 - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-04-04,37,319!2024-05-19,74,359-->
-- breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-03-08,19,329-->
+- breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-06-05,89,349-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-03-29,32,315!2024-04-11,45,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
 - skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-03-27,33,282!2024-05-08,70,319-->
@@ -115,13 +115,13 @@ pneumonia
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←breathlessness <!--SR:!2024-05-27,82,355!2024-05-17,73,349-->
-- breathlessness→:::←cough <!--SR:!2024-03-08,19,335!2024-05-18,74,355-->
+- breathlessness→:::←cough <!--SR:!2024-05-31,84,355!2024-05-18,74,355-->
 - cough→:::←fever <!--SR:!2024-03-12,15,295!2024-04-17,45,315-->
 - fever→:::←headache <!--SR:!2024-03-12,9,295!2024-04-27,54,335-->
 - headache→:::←malaise <!--SR:!2024-03-25,27,299!2024-04-28,54,319-->
 - malaise→:::←muscle ache <!--SR:!2024-05-05,60,335!2024-04-07,33,279-->
 - muscle ache→:::←pneumonia <!--SR:!2024-03-30,33,309!2024-03-17,20,299-->
-- pneumonia→:::←_(end)_ <!--SR:!2024-03-08,18,339!2024-04-15,47,335-->
+- pneumonia→:::←_(end)_ <!--SR:!2024-05-27,80,359!2024-04-15,47,335-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -157,10 +157,10 @@ personal protective equipment
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
-- _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-03-08,19,329!2024-05-19,75,355-->
+- _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-05-31,84,349!2024-05-19,75,355-->
 - hazard reduction or elimination→:::←engineering <!--SR:!2024-05-13,69,346!2024-05-22,76,359-->
 - engineering→:::←administration <!--SR:!2024-03-09,19,339!2024-05-03,57,335-->
-- administration→:::←personal protective equipment <!--SR:!2024-05-18,73,346!2024-03-08,19,329-->
+- administration→:::←personal protective equipment <!--SR:!2024-05-18,73,346!2024-05-30,83,349-->
 - personal protective equipment→:::←_(least preferable)_ <!--SR:!2024-04-19,50,326!2024-05-29,83,349-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -202,7 +202,7 @@ reduced sweating
 - _(begin)_→:::←convulsions <!--SR:!2024-03-18,21,299!2024-05-26,80,359-->
 - convulsions→:::←dry hot skin <!--SR:!2024-03-19,14,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
-- elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-03-08,18,339-->
+- elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-05-28,81,359-->
 - high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-11,5,229-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
 - reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-15,18,279-->
@@ -293,7 +293,7 @@ socio-psychological
 - ergonomics→:::←occupation-specific <!--SR:!2024-03-18,15,259!2024-03-23,25,299-->
 - occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-03-19,22,299-->
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->
-- socio-psychological→:::←_(end)_ <!--SR:!2024-03-08,19,329!2024-03-14,10,315-->
+- socio-psychological→:::←_(end)_ <!--SR:!2024-06-06,90,349!2024-03-14,10,315-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -335,8 +335,8 @@ workplace
 - general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-12,6,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
-- occupational rehabilitation→:::←workers <!--SR:!2024-03-08,3,219!2024-05-05,63,329-->
-- workers→:::←workplace <!--SR:!2024-03-08,19,329!2024-05-11,67,339-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-03-10,2,199!2024-05-05,63,329-->
+- workers→:::←workplace <!--SR:!2024-05-29,82,349!2024-05-11,67,339-->
 - workplace→:::←_(end)_ <!--SR:!2024-05-28,82,355!2024-03-23,16,259-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

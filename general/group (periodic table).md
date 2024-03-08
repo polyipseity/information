@@ -50,7 +50,7 @@ return await memorize_table(
 > | {{[group 1](#^group-1)/IA/IA}} | {{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}} <a id="^group-1"></a>^group-1 |
 > | {{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}} | {{[alkaline earth metals](alkaline%20earth%20metal.md)}} |
 > | {{[group 17](halogen.md)/VIIB/VIIA}} | {{[halogens](halogen.md)}} |
-> | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} | <!--SR:!2024-04-13,293,330!2026-06-02,870,330!2024-04-14,294,330!2024-03-19,273,330!2024-06-02,117,310!2024-04-01,281,330!2024-05-04,307,330!2024-03-08,263,330-->
+> | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} | <!--SR:!2024-04-13,293,330!2026-06-02,870,330!2024-04-14,294,330!2024-03-19,273,330!2024-06-02,117,310!2024-04-01,281,330!2024-05-04,307,330!2027-06-17,1196,350-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
