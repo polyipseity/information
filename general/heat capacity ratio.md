@@ -41,7 +41,7 @@ tags:
 
 #### derivation
 
-Consider an [ideal gas](ideal%20gas.md). For [constant volume](isochoric%20process.md) condition, {{no [work](work%20(physics).md) is done on the surroundings. Therefore, all supplied [heat](heat.md) increases the [internal energy](internal%20energy.md): $\Delta U = Q$}}. Compare that with [constant pressure](constant%20pressure.md) condition, {{where the [volume](volume.md) increases, so [work](work%20(physics).md) is done on the surroundings. Therefore, some supplied [heat](heat.md) goes to [work](work%20(physics).md) instead of [internal energy](internal%20energy.md): $\Delta U = Q - W$}}. We can derive this ratio: <!--SR:!2024-08-07,176,310!2024-03-08,57,270-->
+Consider an [ideal gas](ideal%20gas.md). For [constant volume](isochoric%20process.md) condition, {{no [work](work%20(physics).md) is done on the surroundings. Therefore, all supplied [heat](heat.md) increases the [internal energy](internal%20energy.md): $\Delta U = Q$}}. Compare that with [constant pressure](constant%20pressure.md) condition, {{where the [volume](volume.md) increases, so [work](work%20(physics).md) is done on the surroundings. Therefore, some supplied [heat](heat.md) goes to [work](work%20(physics).md) instead of [internal energy](internal%20energy.md): $\Delta U = Q - W$}}. We can derive this ratio: <!--SR:!2024-08-07,176,310!2024-10-08,214,290-->
 
 > __derivation of relation between heat capacity ratio and degrees of freedom for an ideal gas__
 >

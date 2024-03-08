@@ -60,7 +60,7 @@ return await memorize_seq(
 - no [energy](energy.md) loss: [elastic collisions](elastic%20collision.md) and [frictionless](friction.md) motion; less important→:::←point-like [particle](particle.md): indistinguishable, small, and rigid [spheres](sphere.md); sphericity forbids rotational modes like in a [diatomic molecule](diatomic%20molecule.md) <!--SR:!2024-03-20,68,270!2024-06-25,121,270-->
 - point-like [particle](particle.md): indistinguishable, small, and rigid [spheres](sphere.md); sphericity forbids rotational modes like in a [diatomic molecule](diatomic%20molecule.md)→:::←[randomness](randomness.md): particles are constantly moving in random directions with a distribution of speeds; less important <!--SR:!2024-04-03,78,270!2024-03-15,43,210-->
 - [randomness](randomness.md): particles are constantly moving in random directions with a distribution of speeds; less important→:::←spacious: average distance between particles is much larger than the size of the particles; explains failing at high [pressures](pressure.md) and with large particles <!--SR:!2024-05-24,99,250!2024-05-11,101,290-->
-- spacious: average distance between particles is much larger than the size of the particles; explains failing at high [pressures](pressure.md) and with large particles→:::←_(end)_ <!--SR:!2024-03-08,66,310!2024-04-28,82,250-->
+- spacious: average distance between particles is much larger than the size of the particles; explains failing at high [pressures](pressure.md) and with large particles→:::←_(end)_ <!--SR:!2024-09-28,204,310!2024-04-28,82,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

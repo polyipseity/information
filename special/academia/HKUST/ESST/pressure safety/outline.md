@@ -20,7 +20,7 @@ tags:
 
 The content is in teaching order.
 
-- [pressure](../../../../../general/pressure.md) _P_ ::: [force](../../../../../general/force.md) applied perpendicular to a surface per unit area <!--SR:!2024-03-10,16,302!2024-03-08,14,297-->
+- [pressure](../../../../../general/pressure.md) _P_ ::: [force](../../../../../general/force.md) applied perpendicular to a surface per unit area <!--SR:!2024-03-10,16,302!2024-05-03,56,317-->
   - [pressure](../../../../../general/pressure.md) [units of measurement](../../../../../general/unit%20of%20measurement.md) ::: [SI unit](../../../../../general/International%20System%20of%20Units.md): [pascal](../../../../../general/pascal%20(unit).md) (Pa), Pa = N/m<sup>2</sup>, 1 bar = 100000 Pa, 1 atm = 101325 Pa <!--SR:!2024-03-10,16,297!2024-03-11,17,306-->
 - pressured system ::: One or more [pressure vessels](../../../../../general/pressure%20vessel.md), pipework, and associated protective devices. <!--SR:!2024-04-07,35,306!2024-03-10,16,297-->
   - pressured system classification in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: [boiler](../../../../../general/boiler.md) and [pressure vessel](../../../../../general/pressure%20vessel.md) <!--SR:!2024-03-11,17,303!2024-03-12,18,306-->
@@ -40,12 +40,12 @@ The content is in teaching order.
 - [safety measures](#safety%20measures)
   - spring-loaded safety valve ::: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances. <!--SR:!2024-03-25,24,266!2024-04-24,49,303-->
   - calibrated pressure gauge ::: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted. <!--SR:!2024-03-09,15,297!2024-03-10,16,306-->
-  - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-04-21,46,306!2024-03-08,14,306-->
+  - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-04-21,46,306!2024-05-04,57,326-->
   - coolant protection ::: Shuts down compressors when the water temperature exceeds maximum. <!--SR:!2024-04-27,52,306!2024-04-09,36,306-->
   - lubricant protection ::: Shuts down compressors when the lubricant pressure drops below minimum. <!--SR:!2024-03-10,16,306!2024-04-20,45,297-->
   - air inlet and outlet monitoring ::: A water manometer or pressure-indicating device for each compressor air inlet. <!--SR:!2024-03-22,21,263!2024-04-16,43,303-->
 - hydraulic system
-  - hydraulic system hazards ::: burns, flailing or ruptured fittings or hoses, pinhole leak injury <!--SR:!2024-03-12,7,263!2024-03-08,14,303-->
+  - hydraulic system hazards ::: burns, flailing or ruptured fittings or hoses, pinhole leak injury <!--SR:!2024-03-12,7,263!2024-05-06,59,323-->
   - [hydraulic system safety measures](#hydraulic%20system%20safety%20measures)
   - [combined gas law](../../../../../general/ideal%20gas%20law.md#combined%20gas%20law) ::: _PV_/_T_ = _k_: When volume decreases or temperature increases, pressure increases. <!--SR:!2024-03-12,18,303!2024-03-10,16,303-->
 - compressed gas cylinder
@@ -59,7 +59,7 @@ The content is in teaching order.
     - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-23,17,223!2024-04-08,35,283-->
   - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::: Governs pressurized cylinders. <!--SR:!2024-04-11,36,283!2024-03-30,27,263-->
 - pressurized cylinder ::: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years. <!--SR:!2024-04-12,38,283!2024-04-02,32,270-->
-  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-03-08,10,246!2024-03-27,24,277-->
+  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-04-01,24,246!2024-03-27,24,277-->
 
 ## oversized data
 
@@ -136,7 +136,7 @@ pipe
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←flue damper <!--SR:!2024-03-20,21,286!2024-03-08,14,306-->
+- _(begin)_→:::←flue damper <!--SR:!2024-03-20,21,286!2024-05-05,58,326-->
 - flue damper→:::←fuel pump <!--SR:!2024-04-08,36,303!2024-03-13,12,266-->
 - fuel pump→:::←heater <!--SR:!2024-04-05,32,286!2024-03-31,28,286-->
 - heater→:::←multiple burner <!--SR:!2024-03-13,14,266!2024-03-22,21,266-->
@@ -181,7 +181,7 @@ thermal oil heater
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-04-01,28,286-->
 - electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-09,6,246-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-03-09,11,243!2024-03-13,9,246-->
-- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-10,7,246!2024-03-08,2,166-->
+- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-10,7,246!2024-03-11,3,166-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-04-18,45,306!2024-04-03,31,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -219,10 +219,10 @@ safety: fusible pressure release plug or efficient low-water alarm
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-14,7,203!2024-04-21,48,306-->
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-08,11,266!2024-03-17,17,266-->
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-14,6,246!2024-03-17,17,266-->
 - identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-03-13,16,304!2024-03-14,17,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-03-21,18,263!2024-04-24,49,306-->
-- indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-08,2,150!2024-03-28,25,286-->
+- indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-09,1,130!2024-03-28,25,286-->
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-03-09,15,306!2024-03-12,6,226-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -266,11 +266,11 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 - _(begin)_→:::←design: correct fittings and regulators <!--SR:!2024-03-09,12,246!2024-04-14,40,306-->
 - design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition <!--SR:!2024-03-18,15,246!2024-03-17,14,246-->
 - design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves <!--SR:!2024-03-11,8,206!2024-04-04,30,283-->
-- operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-04-03,31,286!2024-03-08,11,246-->
-- operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-04-09,37,306!2024-03-08,14,303-->
+- operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-04-03,31,286!2024-03-31,23,246-->
+- operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-04-09,37,306!2024-04-21,44,303-->
 - operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-03-20,21,286!2024-03-23,20,266-->
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-04-18,43,303!2024-03-28,28,286-->
-- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-03-09,15,306!2024-03-08,10,246-->
+- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-03-09,15,306!2024-03-14,6,226-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -312,7 +312,7 @@ protective devices that release contents do so safely
 - examinable with safely accessible interior→:::←expected working life <!--SR:!2024-03-19,19,266!2024-03-29,22,263-->
 - expected working life→:::←fluid properties <!--SR:!2024-04-07,35,306!2024-03-16,13,246-->
 - fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-12,5,186!2024-03-14,11,266-->
-- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-08,2,166!2024-03-08,11,246-->
+- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-12,4,186!2024-04-03,26,246-->
 - proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-11,17,306!2024-04-28,52,303-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-04-19,45,303!2024-03-11,8,206-->
 
@@ -485,7 +485,7 @@ operator: segregate and indicate work area
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-03-09,12,246!2024-04-19,45,303-->
-- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-11,12,226!2024-03-08,11,246-->
+- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-11,12,226!2024-04-01,24,246-->
 - design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-20,19,266!2024-04-04,32,286-->
 - design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-24,21,246!2024-03-13,10,206-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-03-11,10,206!2024-03-12,14,246-->
@@ -564,10 +564,10 @@ safety: pressure release valve
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23fb"--><!-- The following content is generated at 2024-02-19T20:13:03.186373+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: accessible valves and safety devices <!--SR:!2024-03-23,20,266!2024-03-08,14,303-->
+- _(begin)_→:::←control: accessible valves and safety devices <!--SR:!2024-03-23,20,266!2024-05-03,56,323-->
 - control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible <!--SR:!2024-04-15,40,286!2024-04-11,37,286-->
 - control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-24,23,266!2024-03-16,12,243-->
-- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-08,2,186!2024-03-08,3,206-->
+- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-12,4,186!2024-03-14,6,206-->
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-03-13,15,266!2024-04-08,36,306-->
 - safety: pressure release valve→:::←_(end)_ <!--SR:!2024-04-17,43,306!2024-03-16,9,186-->
 
@@ -605,7 +605,7 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
 - _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56) <!--SR:!2024-03-28,24,266!2024-03-12,18,303-->
 - Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A) <!--SR:!2024-03-09,15,306!2024-03-09,15,303-->
-- Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B) <!--SR:!2024-03-09,15,303!2024-03-08,14,303-->
+- Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B) <!--SR:!2024-03-09,15,303!2024-05-02,55,323-->
 - Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-03-13,8,206!2024-03-28,25,263-->
 - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_ <!--SR:!2024-03-11,17,306!2024-03-21,18,266-->
 
