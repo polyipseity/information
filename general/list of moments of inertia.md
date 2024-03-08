@@ -16,7 +16,7 @@ tags:
 
 ### cuboid, axis through center
 
-- definition: a homogeneous [cuboid](cuboid.md) {{of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center}}
+- definition ::: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center
 - equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2024-03-16,72,250!2024-03-12,4,298-->
   - thin plate correction ::: use the same equation <!--SR:!2024-08-20,239,330!2024-03-12,4,298-->
   - cuboid, axis through center of edge $c$ ::: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2024-03-28,41,250!2024-03-12,4,298-->
@@ -36,7 +36,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 
 ### cylindrical shell, axis through base center
 
-- definition: a homogeneous [cylindrical](cylinder.md) shell {{of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center}}
+- definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center
 - equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310!2024-03-12,4,298-->
   - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2024-09-05,252,330!2024-03-12,4,298-->
   - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2024-05-11,159,310!2024-03-12,4,298-->
@@ -52,7 +52,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 
 ### rod, axis through certain distance from one end
 
-- definition: a homogeneous rod {{of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end}}
+- definition ::: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end
 - equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2024-08-18,167,250!2024-03-11,3,278-->
   - thin rod correction ::: use the same equation and set $R = 0$ <!--SR:!2024-10-23,291,330!2024-03-12,4,298-->
   - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2024-03-11,101,290!2024-03-11,3,278-->
@@ -90,7 +90,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 
 ### spherical shell, axis through center
 
-- definition: a homogeneous [spherical](sphere.md) shell {{of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center}}
+- definition ::: a homogeneous [spherical](sphere.md) shell of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center
 - equation ::: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$ <!--SR:!2024-05-16,112,250!2024-03-12,4,298-->
   - solid sphere ::: $I=\frac25mR_O^2$ <!--SR:!2024-07-01,185,310!2024-03-11,3,278-->
   - thin-walled hollow sphere ::: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$ <!--SR:!2024-03-27,106,290!2024-03-12,4,298-->

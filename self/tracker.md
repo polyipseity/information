@@ -32,6 +32,10 @@ tags:
 
 - <https://linkedin.com/in/(redacted)>
 
+### avatar set 3
+
+- <https://discord.com/>: (redacted)
+
 ## email
 
 ### email set 1
