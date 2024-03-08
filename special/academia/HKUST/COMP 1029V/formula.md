@@ -359,7 +359,7 @@ return _chain.from_iterable(await _gather(
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-04-27,65,310!2024-03-26,39,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-04-04,34,230!2024-03-10,22,250-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-04-17,58,310!2024-04-11,53,310-->
-- `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-03-08,3,170!2024-03-18,30,250-->
+- `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-03-10,2,150!2024-03-18,30,250-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-03-31,34,230!2024-04-18,49,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-05-03,71,310!2024-04-22,50,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-03-21,23,270!2024-03-16,24,250-->
