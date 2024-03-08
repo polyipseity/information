@@ -60,7 +60,7 @@ int an_int(static_cast<int>(a_double)); // named cast, preferred in C++
 
 ### solutions for temporaries
 
-Since [C++11](C++11.md), the preferred solution is {{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables. Additionally, sometimes the type name can be omitted}}:
+Since [C++11](C++11.md), the preferred solution is {{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables. Additionally, sometimes the type name can be omitted with the brace syntax}}:
 
 ```C++
 // Any one works:
