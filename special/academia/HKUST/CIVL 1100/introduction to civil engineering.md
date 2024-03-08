@@ -766,7 +766,7 @@ wood
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brick <!--SR:!2000-01-01,1,250!2024-03-08,14,292-->
+- _(begin)_→:::←brick <!--SR:!2000-01-01,1,250!2024-05-05,58,312-->
 - brick→:::←concrete
 - concrete→:::←new synthetic materials
 - new synthetic materials→:::←steel
