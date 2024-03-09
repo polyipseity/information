@@ -589,8 +589,8 @@ return await memorize_seq(
   __env__.cwf_sects("019e", "cc12",),
   """
 Beijing National Stadium
-Burj Khalifa
 Burj Al Arab
+Burj Khalifa
 CCTV Headquarters
 Eiffel Tower
 Hong Kong Convention and Exhibition Centre
@@ -601,11 +601,11 @@ Water Cube
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="019e"--><!-- The following content is generated at 2024-02-16T21:59:47.306760+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="019e"--><!-- The following content is generated at 2024-03-10T00:25:48.755033+08:00. Any edits will be overridden! -->
 
 > 1. Beijing National Stadium
-> 2. Burj Khalifa
-> 3. Burj Al Arab
+> 2. Burj Al Arab
+> 3. Burj Khalifa
 > 4. CCTV Headquarters
 > 5. Eiffel Tower
 > 6. Hong Kong Convention and Exhibition Centre
@@ -613,12 +613,12 @@ Water Cube
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-02-16T21:59:47.330760+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium
-- Beijing National Stadium→:::←Burj Khalifa
-- Burj Khalifa→:::←Burj Al Arab
-- Burj Al Arab→:::←CCTV Headquarters
+- Beijing National Stadium→:::←Burj Al Arab
+- Burj Al Arab→:::←Burj Khalifa
+- Burj Khalifa→:::←CCTV Headquarters
 - CCTV Headquarters→:::←Eiffel Tower
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube
