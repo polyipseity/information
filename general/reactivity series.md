@@ -145,14 +145,14 @@ return _chain.from_iterable(await _gather(
 - [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2025-01-09,360,230!2024-10-15,347,270-->
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-04-07,153,270-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-11-19,263,290!2024-07-23,341,290-->
-- [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-03-10,56,230!2024-05-01,92,230-->
+- [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-07-17,128,230!2024-05-01,92,230-->
 - [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-03-23,222,250!2024-04-30,95,250-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-06-29,294,270-->
 - [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-03-13,22,150!2024-03-13,61,210-->
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2024-04-13,217,230!2024-04-18,167,230-->
 - [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2024-06-15,280,290!2024-04-15,68,190-->
 - [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-04-07,237,270-->
-- [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-03-09,35,210!2024-03-13,37,150-->
+- [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-03-31,20,190!2024-03-13,37,150-->
 - [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-06-10,151,230-->
 - [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-04-03,49,190-->
 - [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2025-07-07,539,250-->
@@ -177,7 +177,7 @@ return _chain.from_iterable(await _gather(
 - [potassium](potassium.md)::K<sup>+</sup> <!--SR:!2027-01-16,1077,350-->
 - [sodium](sodium.md)::Na<sup>+</sup> <!--SR:!2027-02-19,1104,350-->
 - [lithium](lithium.md)::Li<sup>+</sup> <!--SR:!2024-04-03,281,330-->
-- [barium](barium.md)::Ba<sup>2+</sup> <!--SR:!2024-03-09,264,330-->
+- [barium](barium.md)::Ba<sup>2+</sup> <!--SR:!2027-06-23,1199,350-->
 - [strontium](strontium.md)::Sr<sup>2+</sup> <!--SR:!2027-04-10,1140,350-->
 - [calcium](calcium.md)::Ca<sup>2+</sup> <!--SR:!2024-05-19,317,330-->
 - [magnesium](magnesium.md)::Mg<sup>2+</sup> <!--SR:!2024-04-03,283,330-->
@@ -206,34 +206,34 @@ return _chain.from_iterable(await _gather(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8912"--><!-- The following content is generated at 2024-02-17T20:43:15.136674+08:00. Any edits will be overridden! -->
 
-- Cs<sup>+</sup>::[caesium](caesium.md) <!--SR:!2024-03-10,17,325-->
-- Rb<sup>+</sup>::[rubidium](rubidium.md) <!--SR:!2024-03-09,16,325-->
-- K<sup>+</sup>::[potassium](potassium.md) <!--SR:!2024-03-09,16,327-->
+- Cs<sup>+</sup>::[caesium](caesium.md) <!--SR:!2024-05-26,76,345-->
+- Rb<sup>+</sup>::[rubidium](rubidium.md) <!--SR:!2024-05-19,69,345-->
+- K<sup>+</sup>::[potassium](potassium.md) <!--SR:!2024-05-24,74,347-->
 - Na<sup>+</sup>::[sodium](sodium.md) <!--SR:!2024-03-12,19,325-->
-- Li<sup>+</sup>::[lithium](lithium.md) <!--SR:!2024-03-09,16,327-->
+- Li<sup>+</sup>::[lithium](lithium.md) <!--SR:!2024-05-20,70,347-->
 - Ba<sup>2+</sup>::[barium](barium.md) <!--SR:!2024-05-18,71,347-->
 - Sr<sup>2+</sup>::[strontium](strontium.md) <!--SR:!2024-05-11,64,345-->
-- Ca<sup>2+</sup>::[calcium](calcium.md) <!--SR:!2024-03-11,18,325-->
-- Mg<sup>2+</sup>::[magnesium](magnesium.md) <!--SR:!2024-03-09,16,325-->
+- Ca<sup>2+</sup>::[calcium](calcium.md) <!--SR:!2024-06-01,82,345-->
+- Mg<sup>2+</sup>::[magnesium](magnesium.md) <!--SR:!2024-05-21,71,345-->
 - Be<sup>2+</sup>::[beryllium](beryllium.md) <!--SR:!2024-05-19,72,347-->
 - Al<sup>3+</sup>::[aluminium](aluminium.md) <!--SR:!2024-05-17,70,345-->
-- Ti<sup>4+</sup>::[titanium](titanium.md) <!--SR:!2024-03-11,18,325-->
+- Ti<sup>4+</sup>::[titanium](titanium.md) <!--SR:!2024-05-29,79,345-->
 - Mn<sup>2+</sup>::[manganese](manganese.md) <!--SR:!2024-03-12,19,325-->
 - Zn<sup>2+</sup>::[zinc](zinc.md) <!--SR:!2024-05-13,66,345-->
-- Cr<sup>3+</sup>::[chromium](chromium.md) <!--SR:!2024-03-11,18,327-->
-- Fe<sup>2+</sup>::[iron](iron.md) <!--SR:!2024-03-10,17,325-->
-- Cd<sup>2+</sup>::[cadmium](cadmium.md) <!--SR:!2024-03-10,17,325-->
+- Cr<sup>3+</sup>::[chromium](chromium.md) <!--SR:!2024-06-02,83,347-->
+- Fe<sup>2+</sup>::[iron](iron.md) <!--SR:!2024-05-25,75,345-->
+- Cd<sup>2+</sup>::[cadmium](cadmium.md) <!--SR:!2024-05-25,75,345-->
 - Co<sup>2+</sup>::[cobalt](cobalt.md) <!--SR:!2024-03-12,19,325-->
-- Ni<sup>2+</sup>::[nickel](nickel.md) <!--SR:!2024-03-10,17,325-->
+- Ni<sup>2+</sup>::[nickel](nickel.md) <!--SR:!2024-05-28,78,345-->
 - Sn<sup>2+</sup>::[tin](tin.md) <!--SR:!2024-05-16,69,347-->
-- Pb<sup>2+</sup>::[lead](lead.md) <!--SR:!2024-03-11,18,325-->
+- Pb<sup>2+</sup>::[lead](lead.md) <!--SR:!2024-05-30,80,345-->
 - Sb<sup>3+</sup>::[antimony](antimony.md) <!--SR:!2024-03-12,19,325-->
 - Bi<sup>3+</sup>::[bismuth](bismuth.md) <!--SR:!2024-03-12,19,325-->
-- Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2024-03-10,17,327-->
-- W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2024-03-09,16,325-->
-- Hg<sup>2+</sup>::[mercury](mercury%20(element).md) <!--SR:!2024-03-11,18,325-->
-- Ag<sup>+</sup>::[silver](silver.md) <!--SR:!2024-03-10,17,327-->
-- Au<sup>3+</sup>::[gold](gold.md) <!--SR:!2024-03-11,18,327-->
+- Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2024-05-26,76,347-->
+- W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2024-05-22,72,345-->
+- Hg<sup>2+</sup>::[mercury](mercury%20(element).md) <!--SR:!2024-06-03,84,345-->
+- Ag<sup>+</sup>::[silver](silver.md) <!--SR:!2024-05-28,78,347-->
+- Au<sup>3+</sup>::[gold](gold.md) <!--SR:!2024-05-31,81,347-->
 - Pt<sup>4+</sup>::[platinum](platinum.md) <!--SR:!2024-03-12,19,325-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -252,7 +252,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)::reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
 - [magnesium](magnesium.md)::reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2024-03-29,44,170-->
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-03-16,57,170-->
-- [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-03-11,27,130-->
+- [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-03-27,16,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
 - [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-03-13,5,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
@@ -277,12 +277,12 @@ return _chain.from_iterable(await _gather(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="671a"--><!-- The following content is generated at 2024-02-17T20:43:15.023699+08:00. Any edits will be overridden! -->
 
 - reacts with cold [water](water.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2024-03-20,15,225-->
-- reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)::[magnesium](magnesium.md) <!--SR:!2024-03-09,16,325-->
+- reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)::[magnesium](magnesium.md) <!--SR:!2024-05-04,54,325-->
 - reacts with [steam](steam.md) and [acids](acid.md)::[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-03-21,20,267-->
 - reacts with concentrated [mineral acids](mineral%20acid.md)::[titanium](titanium.md) <!--SR:!2024-04-17,45,325-->
-- reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-03-09,9,245-->
+- reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-04-03,23,245-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-03-24,24,285-->
-- reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2024-03-09,16,325-->
+- reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2024-05-22,72,345-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -301,7 +301,7 @@ return _chain.from_iterable(await _gather(
 - [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-05-11,258,270-->
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-07-17,133,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
-- [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-03-10,28,150-->
+- [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-03-27,16,130-->
 - [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-03-27,20,170-->
 - [zinc](zinc.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-16,379,290-->
 - [chromium](chromium.md)::[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->
@@ -326,7 +326,7 @@ return _chain.from_iterable(await _gather(
 
 - [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-03-12,4,205-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md)::[titanium](titanium.md) <!--SR:!2024-03-26,25,287-->
-- [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-03-09,4,185-->
+- [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-03-16,5,185-->
 - [aluminothermic reaction](aluminothermic%20reaction.md)::[chromium](chromium.md) <!--SR:!2024-03-17,13,267-->
 - heat or physical extraction::[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-03-31,29,285-->
 

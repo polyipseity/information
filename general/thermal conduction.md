@@ -31,7 +31,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 > - where
 >   - {{$\phi_\text{q,x}$ is the [heat flux](heat%20flux.md) along the $x$-direction, in W⋅m<sup>-2</sup>}}
 >   - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
->   - {{$\frac{\partial T}{\partial x}$ is the [temperature gradient](temperature%20gradient.md) along the $x$-direction, in K⋅m<sup>-1</sup>}} <!--SR:!2024-03-10,64,310!2024-07-17,148,310!2024-04-04,69,270!2024-10-17,233,330!2024-10-03,222,330-->
+>   - {{$\frac{\partial T}{\partial x}$ is the [temperature gradient](temperature%20gradient.md) along the $x$-direction, in K⋅m<sup>-1</sup>}} <!--SR:!2024-12-09,274,330!2024-07-17,148,310!2024-04-04,69,270!2024-10-17,233,330!2024-10-03,222,330-->
 
 ### integral form
 

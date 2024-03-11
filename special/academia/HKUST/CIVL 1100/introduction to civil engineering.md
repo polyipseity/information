@@ -43,7 +43,7 @@ The content is in teaching order.
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives.
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage
-    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-03-21,10,270!2000-01-01,1,250-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures
     - [complex shape examples](#complex%20shape%20examples)
@@ -53,7 +53,7 @@ The content is in teaching order.
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
 - civil engineering solutions ::: smart cities
-  - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2024-03-11,17,295!2000-01-01,1,250-->
+  - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2024-05-20,70,315!2000-01-01,1,250-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters
   - [structural engineering examples](#structural%20engineering%20examples)
@@ -66,12 +66,12 @@ The content is in teaching order.
       - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2024-03-12,4,290!2000-01-01,1,250-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-03-11,3,285!2000-01-01,1,250-->
+- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-03-23,12,305!2000-01-01,1,250-->
   - geo-technical engineering structures ::: design and construction of earthworks and foundations
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-03-11,3,285!2000-01-01,1,250-->
+- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-03-13,2,265!2000-01-01,1,250-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources
@@ -82,7 +82,7 @@ The content is in teaching order.
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-03-13,2,250!2000-01-01,1,250-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997.
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2000-01-01,1,250!2024-04-29,53,299-->
@@ -98,14 +98,14 @@ The content is in teaching order.
 - construction engineering ::: planning and execution of the designs from other fields of engineers
   - [construction engineer characteristics](#construction%20engineer%20characteristics)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial and management sectors. <!--SR:!2024-03-11,3,285!2024-03-12,4,290-->
+- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial and management sectors. <!--SR:!2024-03-20,9,285!2024-03-12,4,290-->
   - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-03-11,3,285!2024-03-12,4,290-->
+  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-03-21,10,285!2024-03-12,4,290-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2000-01-01,1,250!2024-03-12,4,290-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-04-20,45,295!2000-01-01,1,250-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-03-20,9,270!2000-01-01,1,250-->
 
 ## data
 
@@ -170,7 +170,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2000-01-01,1,250!2024-03-12,4,290-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2000-01-01,1,250!2024-03-12,4,290-->
-- shape ::: exponential <!--SR:!2024-03-12,4,290!2024-03-09,15,295-->
+- shape ::: exponential <!--SR:!2024-03-12,4,290!2024-05-07,57,315-->
 
 ### HSBC Main Building
 
@@ -234,7 +234,7 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-03-11,3,285!2000-01-01,1,250-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-03-20,9,285!2000-01-01,1,250-->
 - description ::: bridge in Hong Kong
 - length ::: 1596 m, longest span: 1018 m
 
@@ -489,7 +489,7 @@ workmanship
 - lifecycle→:::←maintenance
 - maintenance→:::←politics
 - politics→:::←social
-- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-11,3,270-->
+- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-13,2,250-->
 - workmanship→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -616,9 +616,9 @@ Water Cube
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-02-16T21:59:47.330760+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium
-- Beijing National Stadium→:::←Burj Khalifa <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+- Beijing National Stadium→:::←Burj Khalifa <!--SR:!2024-03-17,6,270!2000-01-01,1,250-->
 - Burj Khalifa→:::←Burj Al Arab
-- Burj Al Arab→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-11,3,270-->
+- Burj Al Arab→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-18,7,270-->
 - CCTV Headquarters→:::←Eiffel Tower
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube
@@ -822,7 +822,7 @@ nuclear
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-16T21:59:47.533086+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←agricultural <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+- _(begin)_→:::←agricultural <!--SR:!2024-03-23,12,290!2000-01-01,1,250-->
 - agricultural→:::←architectural
 - architectural→:::←biomedical
 - biomedical→:::←ceramic
@@ -953,7 +953,7 @@ soil liquefaction
 - _(begin)_→:::←debris flows
 - debris flows→:::←landslides
 - landslides→:::←rockfalls
-- rockfalls→:::←soil liquefaction <!--SR:!2000-01-01,1,250!2024-03-11,3,270-->
+- rockfalls→:::←soil liquefaction <!--SR:!2000-01-01,1,250!2024-03-19,8,270-->
 - soil liquefaction→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -1028,7 +1028,7 @@ levees
 
 - _(begin)_→:::←canals
 - canals→:::←channels
-- channels→:::←dams <!--SR:!2000-01-01,1,250!2024-03-11,3,270-->
+- channels→:::←dams <!--SR:!2000-01-01,1,250!2024-03-19,8,270-->
 - dams→:::←levees
 - levees→:::←_(end)_
 
@@ -1109,7 +1109,7 @@ Tsing Ma Bridge
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge
-- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-11,3,270-->
+- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-22,11,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -1182,7 +1182,7 @@ polypropylene fiber reinforced concrete
 
 - _(begin)_→:::←artificial stone <!--SR:!2000-01-01,1,250!2024-03-12,4,305-->
 - artificial stone→:::←cellular concrete
-- cellular concrete→:::←engineered cement composite <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+- cellular concrete→:::←engineered cement composite <!--SR:!2024-03-13,2,250!2000-01-01,1,250-->
 - engineered cement composite→:::←fly ash concrete
 - fly ash concrete→:::←polypropylene fiber reinforced concrete
 - polypropylene fiber reinforced concrete→:::←_(end)_
@@ -1225,7 +1225,7 @@ waves
 - earthquakes→:::←fires
 - fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-12,4,306-->
 - floods→:::←strong winds
-- strong winds→:::←waves <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+- strong winds→:::←waves <!--SR:!2024-03-19,8,270!2000-01-01,1,250-->
 - waves→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -1295,7 +1295,7 @@ Taipei 101
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building <!--SR:!2000-01-01,1,250!2024-03-11,17,290-->
+- _(begin)_→:::←HSBC Main Building <!--SR:!2000-01-01,1,250!2024-05-23,73,310-->
 - HSBC Main Building→:::←International Commerce Centre
 - International Commerce Centre→:::←John Hancock Center
 - John Hancock Center→:::←Taipei 101
@@ -1436,7 +1436,7 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2000-01-01,1,250!2024-03-12,4,290-->
 - On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-03-18,7,270!2000-01-01,1,250-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
 - The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI),
@@ -1486,7 +1486,7 @@ water
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a928"--><!-- The following content is generated at 2024-02-16T21:59:48.076725+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air
-- air→:::←airports <!--SR:!2024-03-11,3,270!2000-01-01,1,250-->
+- air→:::←airports <!--SR:!2024-03-23,12,290!2000-01-01,1,250-->
 - airports→:::←bicycle paths
 - bicycle paths→:::←highways
 - highways→:::←piers
@@ -1534,6 +1534,6 @@ water treatment
 - wastewater recycling→:::←wastewater treatment
 - wastewater treatment→:::←water quality monitoring
 - water quality monitoring→:::←water treatment
-- water treatment→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-11,3,286-->
+- water treatment→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-21,10,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

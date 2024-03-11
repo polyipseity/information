@@ -27,7 +27,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-07-26,157,312!2024-03-09,54,312!2024-03-23,65,312-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-07-26,157,312!2024-10-31,235,332!2024-03-23,65,312-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -88,7 +88,7 @@ The solution is as below, which matches with our physical intuition:
 
 > [!tip] tips
 >
-> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$. <!--SR:!2024-03-09,51,316!2024-03-12,4,308-->
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$. <!--SR:!2024-10-18,222,336!2024-03-12,4,308-->
 
 ### sinusoidal driving force
 
@@ -145,14 +145,14 @@ Z'(\omega_d) & = \frac12 \left((2 \zeta \omega_n \omega_d)^2 + \left(\omega_n^2 
 
 ## universal oscillator equation
 
-Through [nondimensionalization](nondimensionalization.md), the equation below {{known as the __universal oscillator equation__ can be obtained. It is named so because all second-order oscillatory system can be reduced into this form}}. <!--SR:!2024-03-09,53,312-->
+Through [nondimensionalization](nondimensionalization.md), the equation below {{known as the __universal oscillator equation__ can be obtained. It is named so because all second-order oscillatory system can be reduced into this form}}. <!--SR:!2024-10-25,228,332-->
 
 > __universal oscillator equation__
 >
 > {{$$\frac{\mathrm{d}^2 q}{\mathrm{d}\tau^2} + 2 \zeta \frac{\mathrm{d} q}{\mathrm{d}\tau} + q = f(\tau)$$}}
 >
 > - where
->   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2024-03-11,55,312!2024-10-22,228,332-->
+>   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2024-11-02,236,332!2024-10-22,228,332-->
 
 In terms of properties, the universal oscillator equation is {{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}}. <!--SR:!2024-03-20,63,312-->
 

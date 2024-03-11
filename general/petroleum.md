@@ -27,7 +27,7 @@ Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of 
 
 ## uses
 
-Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2024-05-19,177,234!2024-03-09,220,274!2024-10-06,347,294-->
+Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2024-05-19,177,234!2025-11-02,602,274!2024-10-06,347,294-->
 
 ### fuels
 
@@ -109,10 +109,10 @@ return _chain.from_iterable(await _gather(
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)::-40 to -1 °C <!--SR:!2024-08-12,338,290-->
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
-- [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-03-11,16,170-->
+- [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-04-06,26,170-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-04-08,81,210-->
 - [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-03-22,14,150-->
-- [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-03-11,5,130-->
+- [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-03-17,6,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-03-27,64,170-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-03-12,12,130-->
 - [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-03-13,110,214-->

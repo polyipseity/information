@@ -55,7 +55,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff83"--><!-- The following content is generated at 2024-03-07T00:12:03.503454+08:00. Any edits will be overridden! -->
 
-- _(strongest)_→:::←[covalent bond](covalent%20bond.md) <!--SR:!2024-03-09,264,330!2027-03-03,1114,350-->
+- _(strongest)_→:::←[covalent bond](covalent%20bond.md) <!--SR:!2027-06-22,1198,350!2027-03-03,1114,350-->
 - [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md) <!--SR:!2024-04-07,287,330!2024-05-10,313,330-->
 - [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2024-03-14,268,330!2024-03-13,268,330-->
 - [London dispersion force](London%20dispersion%20force.md)→:::←_(weakest)_ <!--SR:!2024-06-05,334,330!2027-04-06,1137,350-->

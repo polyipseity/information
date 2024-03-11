@@ -18,7 +18,7 @@ tags:
 
 %%
 
-The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2024-03-10,265,270!2026-06-04,964,330!2024-07-10,229,170!2025-01-27,570,310!2025-01-21,424,232!2026-02-12,826,332!2024-04-27,218,192-->
+The __Bohr model__ or __{{Rutherford–Bohr}} model__ is {{an [atom](atom.md) model}} where {{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}}. They are attracted by {{electrostatic forces}}. It was presented by {{[Niels Bohr](Niels%20Bohr.md)}} and {{[Ernest Rutherford](Ernest%20Rutherford.md)}} in {{1913}}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2024-07-10,229,170!2025-01-27,570,310!2025-01-21,424,232!2026-02-12,826,332!2024-04-27,218,192-->
 
 The model gives almost exact results only when {{two charged points orbit each other much slower than light}}, like {{an atom where one electron is far away from everything else}}. <!--SR:!2024-12-24,417,290!2025-01-12,445,272-->
 
@@ -84,13 +84,13 @@ The Bohr model fails to explain:
 > | {{brightness}} | {{relative brightness of spectral lines}} |
 > | {{multiple [electrons](electron.md)}} | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |
 > | {{naturalness}} | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
-> | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2024-03-11,18,313!2024-05-15,68,333!2024-05-06,60,333!2024-03-09,16,313!2024-03-12,4,301!2024-03-12,4,301!2024-03-12,4,301!2024-03-12,4,301-->
+> | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2024-05-30,80,333!2024-05-15,68,333!2024-05-06,60,333!2024-05-17,68,333!2024-03-12,4,301!2024-03-12,4,301!2024-03-12,4,301!2024-03-12,4,301-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-03-10,17,313-->
+- _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-05-22,73,333-->
 - brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2024-03-17,18,273-->
 - multiple [electrons](electron.md)→:::←naturalness <!--SR:!2026-06-05,837,324!2024-04-05,35,293-->
 - naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-03-21,21,273-->

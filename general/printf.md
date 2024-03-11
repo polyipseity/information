@@ -77,7 +77,7 @@ return (
 - _(begin)_→:::←\[[parameter](#parameter)\] <!--SR:!2024-05-26,205,317!2024-05-29,208,329-->
 - \[[parameter](#parameter)\]→:::←\[[flags](#flags)\] <!--SR:!2024-06-09,219,329!2024-05-30,209,329-->
 - \[[flags](#flags)\]→:::←\[[width](#width)\] <!--SR:!2024-04-30,59,269!2025-01-10,348,309-->
-- \[[width](#width)\]→:::←\[.[precision](#precision)\] <!--SR:!2024-03-09,127,297!2024-03-23,141,289-->
+- \[[width](#width)\]→:::←\[.[precision](#precision)\] <!--SR:!2024-05-13,63,277!2024-03-23,141,289-->
 - \[.[precision](#precision)\]→:::←\[[length](#length)\] <!--SR:!2024-06-19,229,329!2024-12-28,339,309-->
 - \[[length](#length)\]→:::←[type](#type) <!--SR:!2024-06-06,216,329!2024-04-11,153,289-->
 - [type](#type)→:::←_(end)_ <!--SR:!2024-05-12,191,317!2024-05-26,205,329-->
@@ -108,7 +108,7 @@ return await memorize_table(
 
 > | character | description |
 > |-|-|
-> | {{_n_$}} | {{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}} | <!--SR:!2024-03-11,129,297!2024-06-12,222,329-->
+> | {{_n_$}} | {{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}} | <!--SR:!2025-08-24,531,317!2024-06-12,222,329-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

@@ -234,7 +234,7 @@ Apriori_gen(L, k)
 
 Candidate generation {{spawns a large numbers of subsets, which is costly for computation}}. Its bottom-up exploration nature means {{finding any subset $S$ requires finding all its $2^{\lvert S \rvert} - 1$ proper subsets, including the [empty set](empty%20set.md), first}}. <!--SR:!2024-03-12,18,324!2024-03-13,19,324-->
 
-The algorithm also requires {{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}}. Therefore, the algorithm works best if {{the database is permanently stored in the memory, which might not be practical for very large database}}. <!--SR:!2024-03-11,17,324!2024-03-10,16,324-->
+The algorithm also requires {{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}}. Therefore, the algorithm works best if {{the database is permanently stored in the memory, which might not be practical for very large database}}. <!--SR:!2024-05-04,54,324!2024-05-20,71,344-->
 
 Also, the time and space complexity of the algorithm is {{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}}. <!--SR:!2024-03-12,18,324-->
 
