@@ -72,7 +72,7 @@ return await memorize_seq(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2024-01-04T20:17:51.842124+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2024-06-21,285,272!2024-03-11,237,312-->
+- _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2024-06-21,285,272!2024-07-07,118,292-->
 - [hydrolysis](#hydrolysis)→:::←[substitution](#substitution) <!--SR:!2024-07-12,257,232!2024-07-09,270,252-->
 - [substitution](#substitution)→:::←_(end)_ <!--SR:!2024-06-26,245,277!2025-02-21,468,297-->
 

@@ -28,7 +28,7 @@ There are {{several incompatible definitions}} of the (global) continuity of a f
 
 A function is continuous on an open [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}}. <!--SR:!2024-03-12,4,270!2024-03-12,4,284-->
 
-A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md)}} is also called a continuous function. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. The partial functions are however {{not everywhere continuous}}. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called discontinuous functions instead, confusingly. <!--SR:!2024-03-12,4,270!2024-03-12,4,270!2024-03-12,4,284!2024-03-11,3,250!2024-03-12,4,284!2024-03-12,4,270-->
+A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md)}} is also called a continuous function. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. The partial functions are however {{not everywhere continuous}}. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called discontinuous functions instead, confusingly. <!--SR:!2024-03-12,4,270!2024-03-12,4,270!2024-03-12,4,284!2024-03-22,11,270!2024-03-12,4,284!2024-03-12,4,270-->
 
 > [!tip] tips
 >
@@ -65,7 +65,7 @@ A function is _discontinuous_ function at a point {{if the point is in the [topo
 
 A function $f$ is _continuous_ at a point $c$ {{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of $f$}}. <!--SR:!2024-03-12,4,284-->
 
-Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}}. The part about [isolated point](isolated%20point.md) is needed because {{[limit](limit%20of%20A%20function.md) is not defined for isolated points}}. <!--SR:!2024-03-11,3,250!2024-03-12,4,270-->
+Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}}. The part about [isolated point](isolated%20point.md) is needed because {{[limit](limit%20of%20A%20function.md) is not defined for isolated points}}. <!--SR:!2024-03-23,12,270!2024-03-12,4,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -75,7 +75,7 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at $0$. <!--SR:!2024-03-12,4,284-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$. <!--SR:!2024-03-12,4,270-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$. <!--SR:!2024-03-12,4,270-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-03-11,3,250-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-03-21,10,270-->
 
 ## references
 

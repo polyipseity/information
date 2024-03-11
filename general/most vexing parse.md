@@ -39,7 +39,7 @@ struct Parent { explicit Parent(Child child); };
 Parent parent(Child());
 ```
 
-The intuitive interpretation of line 3 is {{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}}. The alternative interpretation is {{a function declaration named `parent` that has an unnamed parameter, whose type is (a pointer to) a function that accepts no inputs and returns a `Child`, equivalent to}}: <!--SR:!2024-03-11,3,250!2024-03-12,4,270-->
+The intuitive interpretation of line 3 is {{declaring a variable `parent`, initialized by passing a temporary instance of `Child` to the constructor parameter}}. The alternative interpretation is {{a function declaration named `parent` that has an unnamed parameter, whose type is (a pointer to) a function that accepts no inputs and returns a `Child`, equivalent to}}: <!--SR:!2024-03-21,10,270!2024-03-12,4,270-->
 
 ```C++
 Parent parent(Child(*)());

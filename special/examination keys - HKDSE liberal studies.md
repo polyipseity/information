@@ -68,7 +68,7 @@ return await memorize_seq(
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
-- post hoc→:::←self-contradiction <!--SR:!2024-03-09,4,130!2024-04-04,260,315-->
+- post hoc→:::←self-contradiction <!--SR:!2024-03-13,2,130!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 - virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-08-30,205,275-->
 - weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->
@@ -116,7 +116,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2026-08-31,917,330-->
-- comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-03-09,58,155-->
+- comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-04-08,28,135-->
 - factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-03-26,19,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
@@ -222,7 +222,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
-- according to/refer to→:::←cause/reason <!--SR:!2024-03-11,4,130!2024-06-23,313,295-->
+- according to/refer to→:::←cause/reason <!--SR:!2024-03-13,2,130!2024-06-23,313,295-->
 - cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
@@ -429,7 +429,7 @@ return await memorize_seq(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-03-24,16,150!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-03-09,18,150!2024-08-18,268,230-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-04-06,26,150!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-03-25,26,130-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

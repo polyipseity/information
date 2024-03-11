@@ -30,18 +30,18 @@ The content is in teaching order.
 - [voltage](../../../../../general/voltage.md) _V_ ::: [volt](../../../../../general/volt.md) V <!--SR:!2024-05-08,71,324!2024-05-20,81,329-->
 - [voltage](../../../../../general/voltage.md) classification ::: [extra-low voltage](../../../../../general/extra-low%20voltage.md), [low voltage](../../../../../general/low%20voltage.md), [high voltage](../../../../../general/high%20voltage.md) <!--SR:!2024-05-01,65,324!2024-05-11,73,324-->
 - [extra-low voltage](../../../../../general/extra-low%20voltage.md) ::: defining risk: low; [BS 7671](../../../../../general/BS%207671.md): AC [RMS](../../../../../general/root%20mean%20square.md): <= 50 V, DC: <= 120 V ignoring [ripple](ripple%20(electrical).md) <!--SR:!2024-03-26,33,289!2024-05-12,74,329-->
-- [low voltage](../../../../../general/low%20voltage.md) ::: defining risk: [electrical shock](../../../../../general/electrical%20injury.md); [BS 7671](../../../../../general/BS%207671.md): AC [RMS](../../../../../general/root%20mean%20square.md): > 50 V, <= 1000 V, <= 600 V between conductors and earth, DC: > 120 V ignoring [ripple](ripple%20(electrical).md), <= 1500 V, <= 900 V between conductors and earth <!--SR:!2024-03-11,21,269!2024-05-03,67,324-->
+- [low voltage](../../../../../general/low%20voltage.md) ::: defining risk: [electrical shock](../../../../../general/electrical%20injury.md); [BS 7671](../../../../../general/BS%207671.md): AC [RMS](../../../../../general/root%20mean%20square.md): > 50 V, <= 1000 V, <= 600 V between conductors and earth, DC: > 120 V ignoring [ripple](ripple%20(electrical).md), <= 1500 V, <= 900 V between conductors and earth <!--SR:!2024-05-05,55,269!2024-05-03,67,324-->
 - [high voltage](../../../../../general/high%20voltage.md) ::: defining risk: [electrical arcing](../../../../../general/electric%20arc.md); [BS 7671](../../../../../general/BS%207671.md): AC [RMS](../../../../../general/root%20mean%20square.md): > 1000 V, > 600 V between conductors and earth, DC: > 1500 V, > 900 V between conductors and earth <!--SR:!2024-03-24,31,284!2024-05-18,79,329-->
 - examples of effects of [current](../../../../../general/electric%20current.md)
   - 1 mA :: barely perceptible <!--SR:!2024-04-07,44,290-->
-  - 16 mA :: let go threshold, i.e. maximum current a person can still control the muscle to stop touching the electricity source <!--SR:!2024-03-11,13,269-->
+  - 16 mA :: let go threshold, i.e. maximum current a person can still control the muscle to stop touching the electricity source <!--SR:!2024-04-26,46,289-->
 - 20 mA :: respiratory paralysis <!--SR:!2024-04-13,41,269-->
-- 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-03-09,19,264-->
+- 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-03-20,9,244-->
   - 2 A :: [cardiac arrest](../../../../../general/cardiac%20arrest.md) and internal [organ](../../../../../general/organ%20(biology).md) damage <!--SR:!2024-03-12,14,269-->
   - 15 A, 20 A :: common [fuse](fuse%20(electrical).md) or [circuit breaker](../../../../../general/circuit%20breaker.md) triggers <!--SR:!2024-05-15,76,324-->
 - electrical hazards ::: [electric arc](../../../../../general/electric%20arc.md), [electrical injury](../../../../../general/electrical%20injury.md), [explosion](../../../../../general/explosion.md), [fire](../../../../../general/fire.md) <!--SR:!2024-03-20,14,249!2024-05-15,76,329-->
-  - [electric arc](../../../../../general/electric%20arc.md) ::: Electric arcs can go through air to a person. They can also vaporize materials and produce extremely loud noises. These can cause non-contact burns. Emitted [infrared](../../../../../general/infrared.md) and [ultraviolet](../../../../../general/ultraviolete.md) radiation can cause eye damage. <!--SR:!2024-03-09,20,269!2024-05-04,68,329-->
-  - [electrical injury](../../../../../general/electrical%20injury.md) ::: Electricity can interfere with normal electrical signals in the body. Involuntary muscle contraction can cause falls. Electricity can also cause contact burns, damaging internal organs. <!--SR:!2024-03-10,21,269!2024-05-12,74,329-->
+  - [electric arc](../../../../../general/electric%20arc.md) ::: Electric arcs can go through air to a person. They can also vaporize materials and produce extremely loud noises. These can cause non-contact burns. Emitted [infrared](../../../../../general/infrared.md) and [ultraviolet](../../../../../general/ultraviolete.md) radiation can cause eye damage. <!--SR:!2024-05-02,52,269!2024-05-04,68,329-->
+  - [electrical injury](../../../../../general/electrical%20injury.md) ::: Electricity can interfere with normal electrical signals in the body. Involuntary muscle contraction can cause falls. Electricity can also cause contact burns, damaging internal organs. <!--SR:!2024-05-04,54,269!2024-05-12,74,329-->
   - [explosion](../../../../../general/explosion.md) ::: Electricity can detonate. <!--SR:!2024-04-16,50,310!2024-05-03,66,324-->
   - [fire](../../../../../general/fire.md) ::: Electricity can ignite. <!--SR:!2024-04-30,64,310!2024-05-05,67,310-->
 - [hazardous scenarios](#hazardous%20scenarios)
@@ -151,13 +151,13 @@ warnings
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←instructions <!--SR:!2024-03-10,7,254!2024-03-12,18,334-->
+- _(begin)_→:::←instructions <!--SR:!2024-03-28,17,254!2024-03-12,18,334-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-18,11,274!2024-04-07,34,294-->
-- manner of presentation→:::←safety <!--SR:!2024-03-09,1,214!2024-03-27,26,294-->
+- manner of presentation→:::←safety <!--SR:!2024-03-14,3,234!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
-- standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-03-09,6,274-->
+- standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-04-02,22,294-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
-- warnings→:::←_(end)_ <!--SR:!2024-03-13,19,334!2024-03-11,5,294-->
+- warnings→:::←_(end)_ <!--SR:!2024-03-13,19,334!2024-03-25,14,294-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -197,11 +197,11 @@ wet condition
 
 - _(begin)_→:::←improper contact <!--SR:!2024-03-20,16,247!2024-05-30,85,347-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-04-08,41,327!2024-03-25,28,287-->
-- lack of maintenance→:::←overloading <!--SR:!2024-03-20,23,307!2024-03-10,12,207-->
+- lack of maintenance→:::←overloading <!--SR:!2024-03-20,23,307!2024-04-05,25,207-->
 - overloading→:::←short circuiting <!--SR:!2024-05-07,62,327!2024-05-21,77,347-->
 - short circuiting→:::←using substandard electrical appliances <!--SR:!2024-04-02,29,247!2024-05-02,55,287-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-03-16,23,287!2024-03-18,12,267-->
-- wet condition→:::←_(end)_ <!--SR:!2024-06-01,87,347!2024-03-10,9,287-->
+- wet condition→:::←_(end)_ <!--SR:!2024-06-01,87,347!2024-03-17,6,267-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -248,10 +248,10 @@ protective bonding
 - _(begin)_→:::←[center tap](../../../../../general/center%20tap.md) <!--SR:!2024-05-08,66,327!2024-05-24,80,347-->
 - [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-04-23,48,267!2024-04-08,39,307-->
 - [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-03-19,22,267!2024-04-05,39,307-->
-- compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-03-10,5,247!2024-04-13,44,307-->
+- compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-03-23,12,247!2024-04-13,44,307-->
 - [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-04-12,43,307!2024-03-12,19,287-->
 - grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-03-12,15,247!2024-03-29,32,307-->
-- [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-03-09,6,227!2024-03-27,30,287-->
+- [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-03-24,13,227!2024-03-27,30,287-->
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-03-16,13,227!2024-03-28,31,287-->
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-05-29,84,347!2024-03-13,19,287-->
 - protective bonding→:::←_(end)_ <!--SR:!2024-05-22,78,347!2024-03-16,19,287-->
@@ -288,7 +288,7 @@ use of inappropriate measurement tools
 
 - _(begin)_→:::←contact with overhead power lines <!--SR:!2024-04-26,58,327!2024-05-15,73,347-->
 - contact with overhead power lines→:::←damaged cover <!--SR:!2024-04-29,60,327!2024-04-24,56,327-->
-- damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-03-09,9,267!2024-05-26,82,347-->
+- damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-04-12,32,287!2024-05-26,82,347-->
 - use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-05-23,79,347!2024-03-19,16,287-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
