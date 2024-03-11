@@ -15,8 +15,8 @@ tags:
 
 An __argument__ of a [complex number](complex%20number.md) $z = x + iy$, denoted $\operatorname{arg}(z)$, is defined in two equivalent ways:
 
-1. Geometrically, ::: $\arg z$ is the polar angle $\varphi$ measured counterclockwise in [radians](radian.md) from the positive [real](real%20number.md) axis to the vector representing the [complex number](complex%20number.md) $z$ in the [complex plane](complex%20plane.md). <!--SR:!2024-10-20,235,330-->
-2. Algebraically, ::: any [real number](real%20number.md) $\varphi$ such that $z = \lvert z \rvert (\cos \varphi + i \sin \varphi) = \lvert z \rvert e^{i \varphi}$. <!--SR:!2024-05-28,109,290-->
+1. Geometrically, ::: $\arg z$ is the polar angle $\varphi$ measured counterclockwise in [radians](radian.md) from the positive [real](real%20number.md) axis to the vector representing the [complex number](complex%20number.md) $z$ in the [complex plane](complex%20plane.md). <!--SR:!2024-10-20,235,330!2024-03-15,4,288-->
+2. Algebraically, ::: any [real number](real%20number.md) $\varphi$ such that $z = \lvert z \rvert (\cos \varphi + i \sin \varphi) = \lvert z \rvert e^{i \varphi}$. <!--SR:!2024-05-28,109,290!2024-03-15,4,288-->
 
 ## principal value
 

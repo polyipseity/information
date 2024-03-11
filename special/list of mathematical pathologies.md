@@ -15,16 +15,16 @@ tags:
 
 - see: [Dirichlet function](../general/Dirichlet%20function.md)
 
-The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}.
+The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}. <!--SR:!2024-03-15,4,270-->
 
-- [continuity](../general/continuous%20function.md) ::: It is not continuous at every [real](../general/real%20number.md).
-- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md).
+- [continuity](../general/continuous%20function.md) ::: It is not continuous at every [real](../general/real%20number.md). <!--SR:!2024-03-15,4,270!2024-03-15,4,270-->
+- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md). <!--SR:!2024-03-15,4,270!2024-03-15,4,270-->
 
 ### empty function
 
 - see: [function (mathematics)](../general/function%20(mathematics).md)
 
-{{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}} called the __empty function__.
+{{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}} called the __empty function__. <!--SR:!2024-03-15,4,270-->
 
-- [continuity](../general/continuous%20function.md) ::: It is continuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md).
-- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md).
+- [continuity](../general/continuous%20function.md) ::: It is continuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-03-15,4,270!2024-03-15,4,270-->
+- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-03-15,4,270!2024-03-15,4,270-->
