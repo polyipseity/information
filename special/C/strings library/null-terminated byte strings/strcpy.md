@@ -24,5 +24,5 @@ errno_t strcpy_s(char *restrict dest, rsize_t destsz, const char *restrict stc);
 > [!tip] tips
 >
 > - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2024-05-23,202,310!2024-04-09,158,310-->
-> - `destsz` ::: includes [null terminator](null-terminated%20string) <!--SR:!2024-09-24,215,328-->
-> - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2025-01-30,334,348-->
+> - `destsz` ::: includes [null terminator](null-terminated%20string) <!--SR:!2024-09-24,215,328!2024-03-15,4,299-->
+> - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2025-01-30,334,348!2024-03-15,4,299-->
