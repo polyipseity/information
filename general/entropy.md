@@ -15,7 +15,7 @@ There are two main ways to describe entropy: {{the macroscopic description from 
 
 > [!tip] tips
 >
-> - physical analogy ::: There is no easy physical analogy for entropy. The best analogy one can make is that entropy is a [state variable](state%20variable.md) of a [thermodynamic equilibrium](thermodynamic%20equilibrium.md), similar to [internal energy](internal%20energy.md), [pressure](pressure.md), [temperature](temperature.md), [volume](volume.md), etc. <!--SR:!2024-05-04,101,290!2024-03-12,4,283-->
+> - physical analogy ::: There is no easy physical analogy for entropy. The best analogy one can make is that entropy is a [state variable](state%20variable.md) of a [thermodynamic equilibrium](thermodynamic%20equilibrium.md), similar to [internal energy](internal%20energy.md), [pressure](pressure.md), [temperature](temperature.md), [volume](volume.md), etc. <!--SR:!2024-05-04,101,290!2024-03-29,16,303-->
 
 ### classical thermodynamics
 

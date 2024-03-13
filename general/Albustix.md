@@ -12,7 +12,7 @@ tags:
 
 > [!tip] tips
 >
-> - color change [mnemonic](mnemonic.md) ::: your face when eating disgusting proteins: 🙂 (yellow) becomes 🤢 (green) <!--SR:!2024-03-27,42,214!2024-03-12,4,272-->
+> - color change [mnemonic](mnemonic.md) ::: your face when eating disgusting proteins: 🙂 (yellow) becomes 🤢 (green) <!--SR:!2024-03-27,42,214!2024-03-26,14,292-->
 
 ## see also
 

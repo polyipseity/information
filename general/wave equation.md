@@ -29,7 +29,7 @@ tags:
 > where
 >
 > - [function](function%20(mathematics).md) properties: {{$u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}}
-> - [wave](wave.md) properties: {{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling [waveforms](waveform.md)}} <!--SR:!2024-08-12,170,310!2024-08-07,176,310!2024-03-12,69,310-->
+> - [wave](wave.md) properties: {{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md), and $F$ and $G$ are arbitrary [generalized functions](generalized%20function.md) representing respectively the right and left-traveling [waveforms](waveform.md)}} <!--SR:!2024-08-12,170,310!2024-08-07,176,310!2025-01-02,295,330-->
 
 ### algebraic approach
 
@@ -51,7 +51,7 @@ u(x, t) &= F(x - ct) + G(x + ct)
 
 > [!tip] tips
 >
-> - reason why one can swap [partial derivatives](partial%20derivative.md) ::: Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem). <!--SR:!2024-07-12,127,250!2024-03-12,4,294-->
+> - reason why one can swap [partial derivatives](partial%20derivative.md) ::: Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem). <!--SR:!2024-07-12,127,250!2024-03-31,18,314-->
 
 ## references
 

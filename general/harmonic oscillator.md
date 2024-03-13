@@ -82,13 +82,13 @@ The solution is as below, which matches with our physical intuition:
 >   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >   - [phase space](phase%20space.md): {{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$ is steady-state equilibrium position with the driving [force](force.md) $F(t)$ and $\varphi = -\arcsin \zeta$ is the initial [phase](phase%20(waves).md)}}
-> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-03-13,41,232!2024-05-03,75,292!2024-03-25,66,312!2024-04-07,64,272!2024-06-06,96,252!2024-03-17,60,312-->
+> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-06-17,96,232!2024-05-03,75,292!2024-03-25,66,312!2024-04-07,64,272!2024-06-06,96,252!2024-03-17,60,312-->
 
 <!-- markdownlint MD028 -->
 
 > [!tip] tips
 >
-> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$. <!--SR:!2024-10-18,222,336!2024-03-12,4,308-->
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$. <!--SR:!2024-10-18,222,336!2024-04-01,19,328-->
 
 ### sinusoidal driving force
 
@@ -128,7 +128,7 @@ The steady-state solution is as below (the transient solution can be found {{fro
 >   - [force](force.md) properties: {{$F(t) = F_\mathrm{max} \cos(\omega_d t)$ is the driving [force](force.md) with max value $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$, and $Z_m = \sqrt{(2 \zeta \omega_n)^2 + \frac1{\omega_d^2} \left( \omega_n^2 - \omega_d^2 \right)^2}$ is the [mechanical impedance](mechanical%20impedance.md) or [linear response function](linear%20response%20function.md)}}
 >   - [phase space](phase%20space.md): {{$A = \frac{F_\mathrm{max} }{m \omega_d Z_m}$ is steady-state [amplitude](amplitude.md) and $\varphi = \arctan \left(\frac{2 \zeta \omega_n \omega_d}{\omega_d^2 - \omega_n^2}\right) + n \pi$ is the initial [phase](phase%20(waves).md) for any [integer](integer.md) $n$, which is usually chosen such that $\varphi \in (-\pi, 0]$ to always represent a phase lag}}
 > - [resonance](resonance.md): {{Resonance happens when the [amplitude](amplitude.md) is maximum. The resonant [angular frequency](angular%20frequency.md) is $\omega_r = \omega_n \sqrt{1 - 2 \zeta^2}$, thus resonance only occurs for significantly underdamped systems where $\zeta < 1 / \sqrt 2 \approx 0.707\,106\,781$.}}
-> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}. <!--SR:!2024-07-09,141,312!2024-06-07,107,292!2024-03-27,68,310!2024-06-29,125,292!2024-04-09,45,232!2024-03-28,22,212!2024-05-20,79,252!2024-08-22,176,312!2024-03-13,57,312!2024-09-02,184,312!2024-07-09,132,316-->
+> - transient solution: In the full solution, the transient solution is {{added onto the steady-state solution and can be found from solving the homogeneous equation}}. Adding the transient solution is required to {{match any [initial values](initial%20value%20problem.md)}}. It represents {{the system's response to the prior state before being applied the driving [force](force.md)}}. Usually, {{it can be ignored as it decays quickly if the system is [damped](damping.md)}}. <!--SR:!2024-07-09,141,312!2024-06-07,107,292!2024-03-27,68,310!2024-06-29,125,292!2024-04-09,45,232!2024-03-28,22,212!2024-05-20,79,252!2024-08-22,176,312!2024-11-13,245,332!2024-09-02,184,312!2024-07-09,132,316-->
 
 <!-- markdownlint MD028 -->
 

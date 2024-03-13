@@ -119,7 +119,7 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::: Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities. <!--SR:!2024-04-21,104,299!2024-03-12,4,315-->
+> - [intuition](intuition.md) ::: Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities. <!--SR:!2024-04-21,104,299!2024-03-31,19,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -135,7 +135,7 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 > - $f(x):=-x^{2n+1}\text{ for }n\in\mathbb{N}^+,c=0$ :: [stationary falling inflection point](inflection%20point.md) and not [local extremum](maximum%20and%20minimum.md). <!--SR:!2024-06-20,140,299-->
 > - $f(x):=x^\frac13,c=0$ :: Inconclusive because $f^{(n)}(0)$ for all $n\in\mathbb{N}^+$ does not exist $(f^{(n)}(0)=\pm\infty)$. Actual is [vertically rising inflection point](inflection%20point.md). <!--SR:!2024-06-17,139,292-->
 > - $f(x):=x^\frac{2n+3}3,n\in\mathbb{N}^+,c=0$ :: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [stationary rising inflection point](inflection%20point.md). <!--SR:!2024-03-28,77,279-->
-> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$ :: Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test. <!--SR:!2024-03-13,43,274-->
+> - $f(x):=\frac16\lvert{x}\rvert{}x^2,c=0$ :: Inconclusive by the two-sided test and [strict local minimum](maximum%20and%20minimum.md) by the one-sided test. <!--SR:!2024-07-08,117,274-->
 > - $f(x):=\begin{cases}x^2\sin{\frac1x}&\text{if }x\ne0\\0&\text{if }x=0\end{cases},c=0$ :: Inconclusive because the two-sided [second derivative](second%20derivative.md) $f''(0)$ and one-sided [second derivatives](second%20derivative.md) $f''_\pm(0)$ do not exist. Actual is neither [local extremum](maximum%20and%20minimum.md) nor [inflection point](inflection%20point.md). <!--SR:!2024-06-19,139,299-->
 
 ## references
