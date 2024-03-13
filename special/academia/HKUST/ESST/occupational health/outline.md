@@ -28,7 +28,7 @@ The content is in teaching order.
 - [occupational hazard factors](#occupational%20hazard%20factors)
 - chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-04-08,31,315!2024-04-24,58,322-->
 - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-04-10,38,262!2024-05-01,64,322-->
-  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-03-12,11,222!2024-04-22,53,302-->
+  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-04-08,26,222!2024-04-22,53,302-->
 - [physical hazards](#physical%20hazards)
 - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-04-06,34,289!2024-06-13,94,359-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-03-27,29,295!2024-05-11,68,355-->
@@ -52,7 +52,7 @@ The content is in teaching order.
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-03-22,24,289!2024-04-14,48,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-05-08,62,335!2024-04-29,63,310-->
-- ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-03-13,10,242!2024-04-12,44,326-->
+- ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-04-05,23,242!2024-04-12,44,326-->
 - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-05-03,53,262!2024-05-06,64,335-->
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-05-31,84,349!2024-05-11,72,322-->
 - particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-03-31,37,282!2024-06-02,87,355-->
@@ -116,8 +116,8 @@ pneumonia
 
 - _(begin)_→:::←breathlessness <!--SR:!2024-05-27,82,355!2024-05-17,73,349-->
 - breathlessness→:::←cough <!--SR:!2024-05-31,84,355!2024-05-18,74,355-->
-- cough→:::←fever <!--SR:!2024-03-12,15,295!2024-04-17,45,315-->
-- fever→:::←headache <!--SR:!2024-03-12,9,295!2024-04-27,54,335-->
+- cough→:::←fever <!--SR:!2024-04-28,46,295!2024-04-17,45,315-->
+- fever→:::←headache <!--SR:!2024-04-11,29,295!2024-04-27,54,335-->
 - headache→:::←malaise <!--SR:!2024-03-25,27,299!2024-04-28,54,319-->
 - malaise→:::←muscle ache <!--SR:!2024-05-05,60,335!2024-04-07,33,279-->
 - muscle ache→:::←pneumonia <!--SR:!2024-03-30,33,309!2024-03-17,20,299-->
@@ -244,8 +244,8 @@ user
 
 - _(begin)_→:::←control <!--SR:!2024-03-15,12,239!2024-05-20,75,359-->
 - control→:::←environment <!--SR:!2024-03-16,12,279!2024-03-30,29,279-->
-- environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-03-12,14,259-->
-- equipment→:::←material <!--SR:!2024-03-13,2,219!2024-03-21,18,269-->
+- environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-04-17,35,259-->
+- equipment→:::←material <!--SR:!2024-03-14,1,199!2024-03-21,18,269-->
 - material→:::←process <!--SR:!2024-04-06,34,299!2024-03-20,17,269-->
 - process→:::←user <!--SR:!2024-04-26,51,299!2024-05-17,72,359-->
 - user→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-20,76,355-->
@@ -331,7 +331,7 @@ workplace
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←general community environment <!--SR:!2024-03-18,20,279!2024-05-20,76,349-->
-- general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-12,6,229-->
+- general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-28,15,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
 - occupational rehabilitation→:::←workers <!--SR:!2024-03-15,4,199!2024-05-05,63,329-->
@@ -415,7 +415,7 @@ vibration
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="81ab"--><!-- The following content is generated at 2024-02-09T10:20:45.804458+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←ionizing radiation <!--SR:!2024-03-12,9,275!2024-04-01,35,319-->
+- _(begin)_→:::←ionizing radiation <!--SR:!2024-04-09,27,275!2024-04-01,35,319-->
 - ionizing radiation→:::←noise <!--SR:!2024-03-29,31,289!2024-03-31,33,289-->
 - noise→:::←nonionizing radiation <!--SR:!2024-03-25,27,299!2024-04-15,45,319-->
 - nonionizing radiation→:::←pressure <!--SR:!2024-03-16,5,229!2024-03-20,14,249-->

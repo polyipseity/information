@@ -58,7 +58,7 @@ return await memorize_table(
 - formation of [by-products](by-product.md)→:::←number of steps <!--SR:!2024-07-04,115,292!2024-07-01,349,332-->
 - number of steps→:::←[reaction rate](reaction%20rate.md) <!--SR:!2024-05-14,312,332!2025-01-30,440,292-->
 - [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md) <!--SR:!2024-12-15,417,292!2024-04-18,240,272-->
-- [yield](yield%20(chemistry).md)→:::←_(end)_ <!--SR:!2024-03-19,266,332!2024-03-13,262,332-->
+- [yield](yield%20(chemistry).md)→:::←_(end)_ <!--SR:!2024-03-19,266,332!2027-06-24,1198,352-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

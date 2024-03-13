@@ -37,7 +37,7 @@ The content is in teaching order.
   - 16 mA :: let go threshold, i.e. maximum current a person can still control the muscle to stop touching the electricity source <!--SR:!2024-04-26,46,289-->
 - 20 mA :: respiratory paralysis <!--SR:!2024-04-13,41,269-->
 - 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-03-20,9,244-->
-  - 2 A :: [cardiac arrest](../../../../../general/cardiac%20arrest.md) and internal [organ](../../../../../general/organ%20(biology).md) damage <!--SR:!2024-03-12,14,269-->
+  - 2 A :: [cardiac arrest](../../../../../general/cardiac%20arrest.md) and internal [organ](../../../../../general/organ%20(biology).md) damage <!--SR:!2024-05-09,57,289-->
   - 15 A, 20 A :: common [fuse](fuse%20(electrical).md) or [circuit breaker](../../../../../general/circuit%20breaker.md) triggers <!--SR:!2024-05-15,76,324-->
 - electrical hazards ::: [electric arc](../../../../../general/electric%20arc.md), [electrical injury](../../../../../general/electrical%20injury.md), [explosion](../../../../../general/explosion.md), [fire](../../../../../general/fire.md) <!--SR:!2024-03-20,14,249!2024-05-15,76,329-->
   - [electric arc](../../../../../general/electric%20arc.md) ::: Electric arcs can go through air to a person. They can also vaporize materials and produce extremely loud noises. These can cause non-contact burns. Emitted [infrared](../../../../../general/infrared.md) and [ultraviolet](../../../../../general/ultraviolete.md) radiation can cause eye damage. <!--SR:!2024-05-02,52,269!2024-05-04,68,329-->
@@ -57,7 +57,7 @@ The content is in teaching order.
 - [double insulation](../../../../../general/appliance%20classes.md#Class%20II) ::: Indicated by the double insulation symbol: ⧈ (a square inside another square). No single failure can cause dangerous voltage to be exposed as to cause [electric shock](../../../../../general/electrical%20injury.md), all without the use of an earthed metal casing. Usually this is done by adding supplementary insulation on top of the basic insulation. Earthing is unnecessary in this case as any fault causes a fault current too low to trigger a [fuse](../../../../../general/fuse%20(electrical).md), because of the high-[impedance](../../../../../general/electrical%20impedance.md) casing. <!--SR:!2024-04-15,42,269!2024-04-10,47,309-->
   - compliance with cable standards ::: [BS 1363](../../../../../general/BS%201363.md): Live (L) wire is brown, has a [fuse](../../../../../general/fuse%20(electrical).md), and on the right side of the plug when viewed from the plug cover. Neutral (N) wire is blue, and on the left side of the plug when viewed from the plug cover. Earth wire is green and yellow, and on the top side of the plug. <!--SR:!2024-03-16,25,270!2024-05-06,68,310-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md) ::: Applicable for devices operating on low [current](../../../../../general/electric%20current.md) and low [voltage](../../../../../general/voltage.md). Especially useful for operation in hazardous environment, like sewages, coal mines, and chemical storage. Such a device cannot produce enough heat or spark to cause ignition, even if the device has deteriorated or is damaged. See [IEC](../../../../../general/International%20Electrotechnical%20Commission.md) 60079-11. <!--SR:!2024-04-13,39,249!2024-05-02,66,329-->
-  - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) ::: Last resort. Electrical protective equipment includes arc-rating clothing, insulating gloves, etc. <!--SR:!2024-03-12,14,269!2024-05-13,75,329-->
+  - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) ::: Last resort. Electrical protective equipment includes arc-rating clothing, insulating gloves, etc. <!--SR:!2024-04-20,38,269!2024-05-13,75,329-->
 - [lockout–tagout](../../../../../general/lockout–tagout.md) ::: Safety procedure to follow to ensure that dangerous equipment is shut off and cannot start before completing maintenance or repair. Especially important when more than one person are working on the same system. <!--SR:!2024-04-17,50,304!2024-05-15,76,324-->
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
 - Electricity Ordinance (Cap. 406) ::: Governs the generation, transmission, distribution, and utilization of electricity. Important sub-chapters include Electricity (Registration) Regulations (Cap. 406D), Electricity (Wiring) Regulations (Cap. 406E), and Electrical Products (Safety) Regulation (Cap. 406G). <!--SR:!2024-03-26,29,244!2024-05-18,79,329-->
@@ -69,7 +69,7 @@ The content is in teaching order.
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-04-03,37,289!2024-04-24,58,310-->
 - Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-03-22,14,274!2024-04-17,42,314-->
     - [general safety requirement stipulations](#general%20safety%20requirement%20stipulations) <!--SR:!2024-02-19,2,190!2024-02-19,6,249-->
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-03-27,29,249!2024-03-12,9,244-->
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-03-27,29,249!2024-04-04,22,244-->
 
 ## oversized data
 
@@ -112,7 +112,7 @@ unventilated thermal storage type electric water heaters
 - extension units→:::←flexible cords <!--SR:!2024-03-16,10,307!2024-06-02,87,347-->
 - flexible cords→:::←lamp holders <!--SR:!2024-04-11,37,267!2024-03-31,33,307-->
 - lamp holders→:::←plugs <!--SR:!2024-03-30,36,307!2024-04-05,39,307-->
-- plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-03-16,23,287!2024-03-13,16,307-->
+- plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-03-16,23,287!2024-03-21,8,287-->
 - unventilated thermal storage type electric water heaters→:::←_(end)_ <!--SR:!2024-05-30,85,347!2024-04-13,47,327-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -151,13 +151,13 @@ warnings
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←instructions <!--SR:!2024-03-28,17,254!2024-03-12,18,334-->
+- _(begin)_→:::←instructions <!--SR:!2024-03-28,17,254!2024-06-03,82,354-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-18,11,274!2024-04-07,34,294-->
 - manner of presentation→:::←safety <!--SR:!2024-03-14,3,234!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-04-02,22,294-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
-- warnings→:::←_(end)_ <!--SR:!2024-03-13,19,334!2024-03-25,14,294-->
+- warnings→:::←_(end)_ <!--SR:!2024-06-06,85,354!2024-03-25,14,294-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -249,11 +249,11 @@ protective bonding
 - [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-04-23,48,267!2024-04-08,39,307-->
 - [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-03-19,22,267!2024-04-05,39,307-->
 - compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-03-23,12,247!2024-04-13,44,307-->
-- [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-04-12,43,307!2024-03-12,19,287-->
-- grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-03-12,15,247!2024-03-29,32,307-->
+- [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-04-12,43,307!2024-03-22,9,267-->
+- grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-03-22,9,227!2024-03-29,32,307-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-03-24,13,227!2024-03-27,30,287-->
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-03-16,13,227!2024-03-28,31,287-->
-- [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-05-29,84,347!2024-03-13,19,287-->
+- [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-05-29,84,347!2024-05-31,79,307-->
 - protective bonding→:::←_(end)_ <!--SR:!2024-05-22,78,347!2024-03-16,19,287-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
