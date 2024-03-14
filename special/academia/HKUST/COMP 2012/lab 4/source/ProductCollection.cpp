@@ -86,13 +86,13 @@ void ProductCollection::increaseCapacity(int additionalSpace) {
     // TODO 1
     // Your code starts here
 
-
-
-
-
-
-
-
+    if (additionalSpace <= 0)
+        return;
+    int *const old_products = products;
+    products = new int[capacity += additionalSpace];
+    for (int idx{}; idx < size; ++idx)
+        products[idx] = old_products[idx];
+    delete[] old_products;
 
     // Your code ends here
 }
