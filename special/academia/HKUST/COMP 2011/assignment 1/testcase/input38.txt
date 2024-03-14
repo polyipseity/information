@@ -1,0 +1,23 @@
+7
+A 100
+B 99
+C 101
+D 100
+E 100
+F 100
+G 100
+7 1
+A
+B
+C
+D
+E
+F
+G
+G shoots north
+G shoots north
+G shoots north
+G shoots north
+G shoots north
+G shoots north
+!

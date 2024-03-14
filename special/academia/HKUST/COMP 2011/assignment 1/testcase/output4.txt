@@ -1,0 +1,47 @@
+The initial game information:
+Robot A HP=1000
+Robot B HP=300
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+. B . 
+C A D 
+. E . 
+Success: Robot A hits B
+Robot B health point is reduced from 300 to 100
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=100
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+Success: Robot A hits C
+Robot C health point is reduced from 201 to 1
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=100
+Robot C HP=1
+Robot D HP=200
+Robot E HP=199
+Success: Robot A hits D
+Robot D health point is reduced from 200 to 0
+Robot D is being destroyed by A
+. B . 
+C A . 
+. E . 
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=100
+Robot C HP=1
+Robot E HP=199
+Success: Robot A hits E
+Robot E health point is reduced from 199 to 0
+Robot E is being destroyed by A
+. B . 
+C A . 
+. . . 
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=100
+Robot C HP=1
+=== Game Ended ===
