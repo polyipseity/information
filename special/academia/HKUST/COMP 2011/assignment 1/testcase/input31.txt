@@ -1,0 +1,9 @@
+1
+A 100
+1 1
+A
+A shoots north
+A shoots east
+A shoots south
+A shoots west
+!

@@ -1,0 +1,12 @@
+3
+A 100
+B 100
+C 100
+3 3
+..A
+..B
+..C
+A moves west 3
+B moves west 4
+C moves west 5
+!

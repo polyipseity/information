@@ -1,0 +1,27 @@
+5
+A 100
+B 100
+C 100
+D 100
+E 100
+7 7
+A.....B
+.......
+.......
+...E...
+.......
+.......
+C.....D
+A shoots east
+A shoots south
+B shoots west
+B shoots south
+C shoots north
+C shoots east
+D shoots west
+D shoots north
+E shoots north
+E shoots east
+E shoots south
+E shoots west
+!

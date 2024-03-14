@@ -1,0 +1,10 @@
+2
+A 100
+B 201
+2 1
+A
+B
+A hits south
+A hits south
+A hits south
+!

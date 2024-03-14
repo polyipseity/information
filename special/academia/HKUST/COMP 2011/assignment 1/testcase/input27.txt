@@ -1,0 +1,10 @@
+2
+A 100
+B 201
+2 1
+B
+A
+A hits north
+A hits north
+A hits north
+!

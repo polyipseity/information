@@ -1,0 +1,15 @@
+5
+A 1000
+B 300
+C 201
+D 200
+E 199
+3 3
+.B.
+CAD
+.E.
+A hits north
+A hits west
+A hits east
+A hits south
+!
