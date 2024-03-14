@@ -1,37 +1,61 @@
 #include "Menu.h"
 
 // Task 3.1
-Menu::Menu(){
+Menu::Menu() : foodItems{new Food[10]}, currentSize{}, capacity{10}, nextFoodId{1} {
 }
 
 // Task 3.2
 Menu::~Menu() {
-
+    delete[] foodItems;
 }
 
 // Task 3.3
 void Menu::addFood(const Food& food) {
-
+    if (currentSize >= capacity)
+    {
+        resizeArray();
+    }
+    foodItems[currentSize++] = food;
+    ++nextFoodId;
 }
 
 // Task 3.4
 bool Menu::removeFood(int id) {
-
+    int foundIdx{findFoodIndex(id)};
+    if (foundIdx == -1)
+        return false;
+    --currentSize;
+    for (int idx{foundIdx}; idx < currentSize; ++idx)
+        foodItems[idx] = foodItems[idx + 1];
+    return true;
 }
 
 // Task 3.5
 int Menu::findFoodIndex(int id) const {
-
+    for (int idx{}; idx < currentSize; ++idx)
+    {
+        if (foodItems[idx].getFoodId() == id)
+            return idx;
+    }
+    return -1;
 }
 
 // Task 3.6
 const Food* Menu::getFoodById(int id) const {
-
+    int foundIdx{findFoodIndex(id)};
+    return foundIdx == -1 ? nullptr : &foodItems[foundIdx];
 }
 
 // Task 3.7
 void Menu::resizeArray() {
-
+    Food *const newFoodItems{new Food[capacity * 2]};
+    for (int idx{}; idx < currentSize; ++idx)
+    {
+        newFoodItems[idx] = foodItems[idx];
+    }
+    delete[] foodItems;
+    foodItems = newFoodItems;
+    capacity *= 2;
 }
 
 // ---------------------- provided functions: DO NOT MODIFY --------------------------
