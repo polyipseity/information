@@ -96,7 +96,7 @@ return _chain.from_iterable(await _gather(
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::![polyethylene terephthalate](../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg) <!--SR:!2024-09-27,384,274-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!2024-06-28,121,190-->
 - [polypropylene](polypropylene.md) (PP)::![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg) <!--SR:!2024-08-09,388,341-->
-- [polystyrene](polystyrene.md) (PS)::![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg) <!--SR:!2024-03-14,263,321-->
+- [polystyrene](polystyrene.md) (PS)::![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg) <!--SR:!2024-07-23,131,301-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) <!--SR:!2024-07-26,372,349-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -133,7 +133,7 @@ return _chain.from_iterable(await _gather(
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2025-04-21,454,254-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2024-05-06,194,210-->
-- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-03-14,17,130-->
+- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-03-25,11,130-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2024-08-13,318,261-->
 - [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-04-21,39,130-->
 - [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2024-04-16,144,201-->

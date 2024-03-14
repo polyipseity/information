@@ -97,7 +97,7 @@ safety: withstand the maximum permissible working pressure
 
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-04-21,39,266!2024-04-23,48,306-->
 - control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number <!--SR:!2024-03-24,21,286!2024-04-08,36,306-->
-- identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-04-30,50,304!2024-03-14,17,304-->
+- identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-04-30,50,304!2024-05-04,51,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-03-18,7,166!2024-03-15,16,266-->
 - safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-03-17,14,226!2024-04-10,30,263-->
 - safety: withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-04-10,38,303!2024-04-01,27,286-->
@@ -141,7 +141,7 @@ pipe
 - fuel pump→:::←heater <!--SR:!2024-04-05,32,286!2024-03-31,28,286-->
 - heater→:::←multiple burner <!--SR:!2024-05-03,51,286!2024-03-22,21,266-->
 - multiple burner→:::←pipe <!--SR:!2024-04-04,24,286!2024-04-07,32,286-->
-- pipe→:::←_(end)_ <!--SR:!2024-04-15,43,303!2024-03-14,8,266-->
+- pipe→:::←_(end)_ <!--SR:!2024-04-15,43,303!2024-04-04,21,266-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -179,7 +179,7 @@ thermal oil heater
 
 - _(begin)_→:::←electric heated boiler <!--SR:!2024-04-09,34,283!2024-04-28,53,306-->
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-04-01,28,286-->
-- electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-14,3,226-->
+- electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-16,2,206-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-04-09,29,243!2024-04-06,24,246-->
 - fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-15,4,226!2024-03-20,9,186-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-04-18,45,306!2024-04-03,31,286-->
@@ -218,9 +218,9 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-14,7,203!2024-04-21,48,306-->
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-14,6,246!2024-03-17,17,266-->
-- identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-05-20,68,324!2024-03-14,17,304-->
+- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-30,16,203!2024-04-21,48,306-->
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-28,14,246!2024-03-17,17,266-->
+- identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-05-20,68,324!2024-05-03,50,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-03-21,18,263!2024-04-24,49,306-->
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-17,4,170!2024-03-28,25,286-->
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-05-13,63,326!2024-03-27,14,226-->
@@ -270,7 +270,7 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 - operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-04-09,37,306!2024-04-21,44,303-->
 - operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-03-20,21,286!2024-03-23,20,266-->
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-04-18,43,303!2024-03-28,28,286-->
-- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-05-11,61,326!2024-03-14,6,226-->
+- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-05-11,61,326!2024-03-30,16,226-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -311,7 +311,7 @@ protective devices that release contents do so safely
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-04-03,23,266!2024-04-22,47,303-->
 - examinable with safely accessible interior→:::←expected working life <!--SR:!2024-03-19,19,266!2024-03-29,22,263-->
 - expected working life→:::←fluid properties <!--SR:!2024-04-07,35,306!2024-03-16,13,246-->
-- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-22,9,186!2024-03-14,11,266-->
+- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-22,9,186!2024-04-14,31,266-->
 - operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-26,13,206!2024-04-03,26,246-->
 - proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-22,11,286!2024-04-28,52,303-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-04-19,45,303!2024-04-07,27,226-->
@@ -357,7 +357,7 @@ overheating
 - _(begin)_→:::←blocked or restricted flow <!--SR:!2024-04-08,34,286!2024-05-19,69,323-->
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-03-16,13,246!2024-04-20,47,306-->
 - compressor malfunction→:::←external fire <!--SR:!2024-03-19,6,226!2024-03-15,12,246-->
-- external fire→:::←failure of automatic controls <!--SR:!2024-03-14,3,246!2024-04-12,40,306-->
+- external fire→:::←failure of automatic controls <!--SR:!2024-03-20,6,246!2024-04-12,40,306-->
 - failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-03-15,16,263-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-04-15,42,303!2024-04-20,45,303-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-04-12,40,306!2024-04-02,30,286-->
@@ -567,7 +567,7 @@ safety: pressure release valve
 - _(begin)_→:::←control: accessible valves and safety devices <!--SR:!2024-03-23,20,266!2024-05-03,56,323-->
 - control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible <!--SR:!2024-04-15,40,286!2024-04-11,37,286-->
 - control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-24,23,266!2024-03-16,12,243-->
-- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-15,2,166!2024-03-14,6,206-->
+- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-15,2,166!2024-03-17,3,186-->
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-05-10,58,286!2024-04-08,36,306-->
 - safety: pressure release valve→:::←_(end)_ <!--SR:!2024-04-17,43,306!2024-03-16,9,186-->
 

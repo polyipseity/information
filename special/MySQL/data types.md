@@ -11,7 +11,7 @@ tags:
 ## common data types
 
 - date and time data types ::: `DATE`, `DATETIME`, `TIME`, `TIMESTAMP`, `YEAR` <!--SR:!2025-01-24,339,310!2025-02-13,394,330-->
-  - `DATE` ::: `YYYY-MM-DD` that ranges from `1000-01-01` to `9999-12-31`. <!--SR:!2025-01-04,364,330!2024-03-14,98,290-->
+  - `DATE` ::: `YYYY-MM-DD` that ranges from `1000-01-01` to `9999-12-31`. <!--SR:!2025-01-04,364,330!2025-04-12,394,310-->
   - `DATETIME` ::: `YYYY-MM-DD hh:mm:ss[.fraction]` that ranges from `1000-01-01 00:00:00.000000` to `9999-12-31 23:59:59.499999`. <!--SR:!2025-03-10,411,330!2024-03-22,67,270-->
   - `TIME` ::: `hh[h]:mm:ss[.fraction]` that ranges from `-838:59:59.000000` to `838:59:59.000000`. <!--SR:!2025-03-31,431,330!2024-06-19,100,210-->
   - `TIMESTAMP` ::: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!2024-11-21,328,330!2024-04-06,34,150-->

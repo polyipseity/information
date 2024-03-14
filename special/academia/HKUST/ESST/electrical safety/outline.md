@@ -153,7 +153,7 @@ warnings
 
 - _(begin)_→:::←instructions <!--SR:!2024-03-28,17,254!2024-06-03,82,354-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-18,11,274!2024-04-07,34,294-->
-- manner of presentation→:::←safety <!--SR:!2024-03-14,3,234!2024-03-27,26,294-->
+- manner of presentation→:::←safety <!--SR:!2024-03-21,7,234!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-04-02,22,294-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
@@ -366,7 +366,7 @@ no safety shutter
 - _(begin)_→:::←cannot withstand high [temperature](../../../../../general/temperature.md) <!--SR:!2024-03-30,33,307!2024-05-26,82,347-->
 - cannot withstand high [temperature](../../../../../general/temperature.md)→:::←loose electric plug <!--SR:!2024-04-14,48,327!2024-04-22,55,327-->
 - loose electric plug→:::←no [fuse](../../../../../general/fuse%20(electrical).md) <!--SR:!2024-05-10,64,327!2024-04-01,35,307-->
-- no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-04-16,49,327!2024-03-14,16,287-->
+- no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-04-16,49,327!2024-03-23,9,267-->
 - no insulating sleeves→:::←no safety shutter <!--SR:!2024-05-26,81,347!2024-04-01,35,307-->
 - no safety shutter→:::←_(end)_ <!--SR:!2024-04-27,59,327!2024-03-19,16,287-->
 
