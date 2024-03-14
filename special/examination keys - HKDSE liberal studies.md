@@ -222,8 +222,8 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
-- according to/refer to→:::←cause/reason <!--SR:!2024-03-14,1,130!2024-06-23,313,295-->
-- cause/reason→:::←effectiveness <!--SR:!2024-03-14,35,130!2024-03-18,191,235-->
+- according to/refer to→:::←cause/reason <!--SR:!2024-03-15,1,130!2024-06-23,313,295-->
+- cause/reason→:::←effectiveness <!--SR:!2024-04-03,20,130!2024-03-18,191,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
 - feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-03-26,20,130-->
@@ -282,7 +282,7 @@ Identify {{values, attitudes, or conflicts of stances}}. <!--SR:!2024-07-10,236,
 
 ### images
 
-Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-05-01,49,250!2025-06-21,481,255!2024-03-14,11,150-->
+Identify {{when, where, who, what, how, and why}}. Images may use {{analogy, exaggeration, irony, labeling, and symbolism}}. Use them to {{identify concepts, stakeholders, and problems; and explain symbols}}. <!--SR:!2024-05-01,49,250!2025-06-21,481,255!2024-03-29,15,150-->
 
 ## essay patterns
 

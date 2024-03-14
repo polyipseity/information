@@ -218,7 +218,7 @@ return (
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)::-0.7618 <!--SR:!2024-03-19,16,130-->
 - Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s)::-0.744 <!--SR:!2024-04-08,36,136-->
 - Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s)::-0.44 <!--SR:!2024-04-08,88,170-->
-- Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq)::-0.407 <!--SR:!2024-03-14,4,130-->
+- Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq)::-0.407 <!--SR:!2024-03-18,4,130-->
 - Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s)::-0.28 <!--SR:!2024-03-18,11,130-->
 - Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s)::-0.257 <!--SR:!2024-03-21,8,130-->
 - Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s)::-0.13 <!--SR:!2024-03-17,24,150-->
@@ -234,7 +234,7 @@ return (
 - SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l)::0.5 <!--SR:!2024-03-17,4,130-->
 - CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l)::0.52 <!--SR:!2024-06-09,90,190-->
 - I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup> ⇌ 3I<sup>-</sup>(aq)::0.53 <!--SR:!2024-09-27,284,199-->
-- I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq)::0.54 <!--SR:!2024-03-14,28,130-->
+- I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq)::0.54 <!--SR:!2024-04-20,37,130-->
 - S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l)::0.6 <!--SR:!2024-03-27,30,130-->
 - Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq)::0.77 <!--SR:!2024-05-20,360,190-->
 - Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s)::0.7996 <!--SR:!2024-03-21,70,150-->
@@ -247,7 +247,7 @@ return (
 - Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq)::1.36 <!--SR:!2024-03-17,35,130-->
 - MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l)::1.51 <!--SR:!2024-03-24,25,130-->
 - Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq)::1.92 <!--SR:!2024-03-16,11,130-->
-- S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq)::2.01 <!--SR:!2024-03-14,6,130-->
+- S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq)::2.01 <!--SR:!2024-03-24,10,130-->
 - F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq)::2.87 <!--SR:!2024-03-17,32,150-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

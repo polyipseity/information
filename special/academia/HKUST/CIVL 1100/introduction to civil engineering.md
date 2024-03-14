@@ -489,7 +489,7 @@ workmanship
 - lifecycle→:::←maintenance
 - maintenance→:::←politics
 - politics→:::←social
-- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-14,1,230-->
+- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-16,2,230-->
 - workmanship→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -181,7 +181,7 @@ return await conversion_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3496"--><!-- The following content is generated at 2024-03-07T00:30:25.444393+08:00. Any edits will be overridden! -->
 
-- from [Fahrenheit](Fahrenheit.md): x °F ≘ (x − 32) × 5/9 °C, to [Fahrenheit](Fahrenheit.md): x °C ≘ (x × 9/5 + 32) °F::[Celsius](Celsius.md) <!--SR:!2024-03-14,67,310-->
+- from [Fahrenheit](Fahrenheit.md): x °F ≘ (x − 32) × 5/9 °C, to [Fahrenheit](Fahrenheit.md): x °C ≘ (x × 9/5 + 32) °F::[Celsius](Celsius.md) <!--SR:!2024-12-24,285,330-->
 - from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) × 5/9 K, to [Fahrenheit](Fahrenheit.md): x K ≘ (x × 9/5 − 459.67) °F::[Kelvin](Kelvin.md) <!--SR:!2024-11-26,264,330-->
 - from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) °R, to [Fahrenheit](Fahrenheit.md): x °R ≘ (x − 459.67) °F::[Rankine](Rankine%20scale.md) <!--SR:!2024-08-09,176,310-->
 

@@ -29,7 +29,7 @@ For an ideal [monoatomic gas](monoatomic%20gas.md), {{its [potential energy](pot
 > __energy of an ideal [monoatomic gas](monoatomic%20gas.md)__
 >
 > - one [mole](mole%20(unit).md): {{$E = K = \frac32 R T$}}
-> - one [atom](atom.md): {{$E = K = \frac32 k_\text{B} T$}} <!--SR:!2024-10-09,229,330!2024-03-14,71,310-->
+> - one [atom](atom.md): {{$E = K = \frac32 k_\text{B} T$}} <!--SR:!2024-10-09,229,330!2025-01-14,306,330-->
 
 ## deviations from behavior of real gases
 

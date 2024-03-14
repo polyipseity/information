@@ -69,7 +69,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2024-04-18,58,310!2024-05-01,68,310-->
 - [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-06-06,87,270!2024-03-31,26,210-->
 - positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-03-19,6,150-->
-- rectangle→:::←squeezing <!--SR:!2024-03-14,13,210!2024-04-13,44,250-->
+- rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-04-13,44,250-->
 - squeezing→:::←subtraction <!--SR:!2024-03-18,10,150!2024-03-26,31,230-->
 - subtraction→:::←union and intersection <!--SR:!2024-03-23,34,270!2024-03-15,23,230-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-04-04,42,290!2024-06-12,93,290-->
@@ -82,7 +82,7 @@ return _chain.from_iterable(await _gather(
 - positivity::For all set $S$ in $M$, $a(S) \ge 0$. <!--SR:!2024-04-20,59,310-->
 - rectangle::Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$. <!--SR:!2024-04-17,57,310-->
 - squeezing::Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $U$ are in $M$ by the other axioms. If there exists an unique number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$. <!--SR:!2024-05-02,50,230-->
-- subtraction::If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$. <!--SR:!2024-03-14,20,270-->
+- subtraction::If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$. <!--SR:!2024-05-06,53,270-->
 - union and intersection::If two sets $S$ and $T$ are in $M$, then their union $S \cup T$ and their intersection $S \cap T$ are in $M$ and $a(S \cup T) = a(S) + a(T) - a(S \cap T).$ <!--SR:!2024-03-19,33,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

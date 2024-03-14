@@ -25,7 +25,7 @@ tags:
 Integration by substitution can be derived from {{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md)}}. <!--SR:!2024-03-26,13,290-->
 
 1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [differentiable](differentiable%20function.md) and $g'$ is [integrable](integral.md) on $[a, b]$. $f$ is [continuous](continuous%20function.md). <!--SR:!2024-03-21,10,270!2024-03-27,14,290-->
-2. existence of integrals ::: <!--SR:!2024-03-28,15,290!2024-03-14,3,250-->
+2. existence of integrals ::: <!--SR:!2024-03-28,15,290!2024-03-24,10,270-->
 
 ## references
 

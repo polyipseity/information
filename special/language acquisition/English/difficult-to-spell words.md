@@ -25,7 +25,7 @@ English
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::: (a\_t) Earlier, in time or order. <!--SR:!2024-03-25,27,372!2024-03-15,18,352-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2024-03-22,65,324!2024-03-22,58,284-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a\_l) Man-made. <!--SR:!2024-08-01,148,410!2024-08-21,163,410-->
-- [attitude](https://en.wiktionary.org/wiki/attitude) ::: (a\_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-03-14,58,324!2024-06-05,94,304-->
+- [attitude](https://en.wiktionary.org/wiki/attitude) ::: (a\_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-11-27,258,344!2024-06-05,94,304-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::: (b\_i) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2024-04-03,66,337!2024-10-14,222,357-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::: (b\_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2024-07-20,149,304!2024-04-08,75,324-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-03-19,62,324!2024-03-22,65,324-->
@@ -68,7 +68,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-03-29,71,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2024-04-18,85,352!2024-04-14,81,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-07-21,138,410!2024-04-29,69,370-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-03-17,6,356!2024-03-14,3,336-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-03-17,6,356!2024-03-24,10,336-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-05-07,57,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-05-03,53,368-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-19,15,348-->
@@ -76,8 +76,8 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,352!2024-03-31,72,352-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-09-25,209,352-->
-- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-03-17,6,356!2024-03-14,3,336-->
-- [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-03-17,6,356!2024-03-14,3,336-->
+- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-03-17,6,356!2024-03-29,15,356-->
+- [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-03-17,6,356!2024-03-24,10,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2024-03-17,6,356!2024-03-16,5,356-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-04-25,45,332!2024-05-30,78,372-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-04-01,73,324!2024-03-15,16,244-->
