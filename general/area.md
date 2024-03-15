@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-03-19,6,150-->
 - rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-04-13,44,250-->
 - squeezing→:::←subtraction <!--SR:!2024-03-18,10,150!2024-03-26,31,230-->
-- subtraction→:::←union and intersection <!--SR:!2024-03-23,34,270!2024-03-15,23,230-->
+- subtraction→:::←union and intersection <!--SR:!2024-03-23,34,270!2024-05-28,74,250-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-04-04,42,290!2024-06-12,93,290-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

@@ -22,12 +22,12 @@ tags:
 
 To optimize the résumé for successful application and {{[applicant tracking system](applicant%20tracking%20system.md)}}: <!--SR:!2024-10-29,291,330-->
 
-- content ::: include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address <!--SR:!2024-06-07,134,250!2024-03-15,4,313-->
-- fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2024-04-14,106,250!2024-03-15,4,313-->
-- formatting ::: consistent, minimal <!--SR:!2024-07-01,181,310!2024-03-15,4,313-->
-- length ::: 1 page <!--SR:!2024-09-26,265,330!2024-03-15,4,313-->
-- line spacing ::: single <!--SR:!2024-10-14,280,330!2024-03-15,4,313-->
-- order ::: reverse chronological <!--SR:!2024-06-02,160,310!2024-03-15,4,313-->
+- content ::: include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address <!--SR:!2024-06-07,134,250!2024-04-03,19,333-->
+- fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2024-04-14,106,250!2024-04-03,19,333-->
+- formatting ::: consistent, minimal <!--SR:!2024-07-01,181,310!2024-03-30,15,333-->
+- length ::: 1 page <!--SR:!2024-09-26,265,330!2024-03-30,15,333-->
+- line spacing ::: single <!--SR:!2024-10-14,280,330!2024-03-31,16,333-->
+- order ::: reverse chronological <!--SR:!2024-06-02,160,310!2024-03-31,16,333-->
 
 ## content
 
@@ -77,14 +77,14 @@ return await memorize_seq(
 
 Two recommended formats:
 
-1. I–you ::: what I want from you; what I can do for you; requirements, if any <!--SR:!2024-06-11,166,310!2024-03-15,4,313-->
-2. A.S.K. ::: attitude; skills; knowledge; requirements, if any <!--SR:!2024-11-07,299,330!2024-03-15,4,313-->
+1. I–you ::: what I want from you; what I can do for you; requirements, if any <!--SR:!2024-06-11,166,310!2024-03-31,16,333-->
+2. A.S.K. ::: attitude; skills; knowledge; requirements, if any <!--SR:!2024-11-07,299,330!2024-04-01,17,333-->
 
 ### experience
 
-- industry experience ::: if no salary <!--SR:!2024-05-18,110,310!2024-03-15,4,313-->
-- work experience ::: all, 0 to 3 sub-points according to importance <!--SR:!2024-08-19,234,330!2024-03-15,4,313-->
-  - work experience sub-points ::: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-03-23,32,210!2024-03-15,4,313-->
+- industry experience ::: if no salary <!--SR:!2024-05-18,110,310!2024-04-03,19,333-->
+- work experience ::: all, 0 to 3 sub-points according to importance <!--SR:!2024-08-19,234,330!2024-03-31,16,333-->
+  - work experience sub-points ::: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-03-23,32,210!2024-04-02,18,333-->
 
 ### skills
 

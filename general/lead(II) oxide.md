@@ -9,7 +9,7 @@ tags:
 
 # lead(II) oxide
 
-__Lead(II) oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Pb](lead.md)[O](oxygen.md)__}}. It looks like {{yellow or red [powder](powder.md), and orange on heating due to [theromochromism](theromochromism.md)}}. <!--SR:!2027-05-26,1177,350!2024-03-15,22,170-->
+__Lead(II) oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Pb](lead.md)[O](oxygen.md)__}}. It looks like {{yellow or red [powder](powder.md), and orange on heating due to [theromochromism](theromochromism.md)}}. <!--SR:!2027-05-26,1177,350!2024-04-25,41,170-->
 
 ## references
 

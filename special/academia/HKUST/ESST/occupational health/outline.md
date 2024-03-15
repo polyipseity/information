@@ -44,7 +44,7 @@ The content is in teaching order.
     - [workplaces with temperature hazards](#workplaces%20with%20temperature%20hazards)
 - heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke <!--SR:!2024-04-20,51,335!2024-05-07,69,322-->
       - heat rash ::: red spots on skin <!--SR:!2024-05-07,69,322!2024-04-17,51,310-->
-- heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-03-15,18,269!2024-05-10,67,346-->
+- heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-04-29,45,269!2024-05-10,67,346-->
 - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-03-26,32,282!2024-05-25,80,349-->
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-06-01,85,349-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
@@ -204,7 +204,7 @@ reduced sweating
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-05-28,81,359-->
 - high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-22,11,229-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
-- reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-15,18,279-->
+- reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-22,7,259-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
@@ -242,7 +242,7 @@ user
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control <!--SR:!2024-03-15,12,239!2024-05-20,75,359-->
+- _(begin)_→:::←control <!--SR:!2024-04-13,29,239!2024-05-20,75,359-->
 - control→:::←environment <!--SR:!2024-03-16,12,279!2024-03-30,29,279-->
 - environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-04-17,35,259-->
 - equipment→:::←material <!--SR:!2024-03-16,2,199!2024-03-21,18,269-->
@@ -334,7 +334,7 @@ workplace
 - general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-28,15,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
-- occupational rehabilitation→:::←workers <!--SR:!2024-03-15,4,199!2024-05-05,63,329-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-03-22,7,199!2024-05-05,63,329-->
 - workers→:::←workplace <!--SR:!2024-05-29,82,349!2024-05-11,67,339-->
 - workplace→:::←_(end)_ <!--SR:!2024-05-28,82,355!2024-03-23,16,259-->
 

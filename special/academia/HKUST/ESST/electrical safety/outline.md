@@ -155,7 +155,7 @@ warnings
 - instructions→:::←manner of presentation <!--SR:!2024-03-18,11,274!2024-04-07,34,294-->
 - manner of presentation→:::←safety <!--SR:!2024-03-21,7,234!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
-- standards→:::←use of marks <!--SR:!2024-03-15,12,274!2024-04-02,22,294-->
+- standards→:::←use of marks <!--SR:!2024-04-16,32,274!2024-04-02,22,294-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
 - warnings→:::←_(end)_ <!--SR:!2024-06-06,85,354!2024-03-25,14,294-->
 
@@ -324,7 +324,7 @@ Consumer Goods Safety Ordinance (Cap. 456)
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) <!--SR:!2024-03-27,33,307!2024-05-23,79,347-->
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-15,11,307!2024-03-25,31,307-->
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-20,5,287!2024-03-25,31,307-->
 - Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-05-21,78,347!2024-04-09,40,307-->
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-03-16,23,287!2024-03-30,32,307-->
 - Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-05-14,71,347!2024-03-22,25,287-->

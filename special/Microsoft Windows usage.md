@@ -24,7 +24,7 @@ tags:
 - toggle unfocused windows:::⊞Win+Home <!--SR:!2024-04-15,48,190!2024-03-17,10,130-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2024-11-04,401,250!2024-12-14,493,310-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-04-29,96,230!2025-07-27,666,290-->
-- move window to the left/right side:::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2024-03-15,123,190-->
+- move window to the left/right side:::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2025-02-13,335,210-->
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2024-07-01,241,230!2024-05-29,332,270-->
 - quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2024-11-26,260,170!2024-06-12,329,270-->
 - close dialog:::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
