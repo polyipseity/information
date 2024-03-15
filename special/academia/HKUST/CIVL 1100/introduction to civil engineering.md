@@ -1223,7 +1223,7 @@ waves
 
 - _(begin)_→:::←earthquakes
 - earthquakes→:::←fires
-- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-15,2,286-->
+- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-16,1,266-->
 - floods→:::←strong winds
 - strong winds→:::←waves <!--SR:!2024-03-19,8,270!2000-01-01,1,250-->
 - waves→:::←_(end)_

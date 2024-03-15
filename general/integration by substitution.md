@@ -12,7 +12,7 @@ tags:
 
 ### statement for definite integrals
 
-1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [continuously differentiable](differentiable%20function.md). $f$ is [continuous](continuous%20function.md). <!--SR:!2024-03-15,4,281!2024-03-15,4,281-->
+1. conditions ::: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $g$ is [continuously differentiable](differentiable%20function.md). $f$ is [continuous](continuous%20function.md). <!--SR:!2024-04-02,18,301!2024-03-30,15,301-->
 2. result ::: $$\int_a^b \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int_{g(a)}^{g(b)} \! f(u) \,\mathrm{d}u$$ <!--SR:!2024-03-30,17,290!2024-03-27,14,290-->
 
 ### statement for indefinite integrals

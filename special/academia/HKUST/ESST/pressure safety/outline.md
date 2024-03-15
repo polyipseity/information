@@ -98,7 +98,7 @@ safety: withstand the maximum permissible working pressure
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure <!--SR:!2024-04-21,39,266!2024-04-23,48,306-->
 - control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number <!--SR:!2024-03-24,21,286!2024-04-08,36,306-->
 - identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-04-30,50,304!2024-05-04,51,304-->
-- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-03-18,7,166!2024-03-15,16,266-->
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing <!--SR:!2024-03-18,7,166!2024-04-28,44,266-->
 - safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure <!--SR:!2024-03-17,14,226!2024-04-10,30,263-->
 - safety: withstand the maximum permissible working pressure→:::←_(end)_ <!--SR:!2024-04-10,38,303!2024-04-01,27,286-->
 
@@ -181,7 +181,7 @@ thermal oil heater
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-04-01,28,286-->
 - electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-16,2,206-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-04-09,29,243!2024-04-06,24,246-->
-- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-15,4,226!2024-03-20,9,186-->
+- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-17,2,206!2024-03-20,9,186-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-04-18,45,306!2024-04-03,31,286-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -356,9 +356,9 @@ overheating
 
 - _(begin)_→:::←blocked or restricted flow <!--SR:!2024-04-08,34,286!2024-05-19,69,323-->
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-03-16,13,246!2024-04-20,47,306-->
-- compressor malfunction→:::←external fire <!--SR:!2024-03-19,6,226!2024-03-15,12,246-->
+- compressor malfunction→:::←external fire <!--SR:!2024-03-19,6,226!2024-04-15,31,246-->
 - external fire→:::←failure of automatic controls <!--SR:!2024-03-20,6,246!2024-04-12,40,306-->
-- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-03-15,16,263-->
+- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-03-22,7,243-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-04-15,42,303!2024-04-20,45,303-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-04-12,40,306!2024-04-02,30,286-->
 - overheating→:::←_(end)_ <!--SR:!2024-05-18,68,326!2024-03-28,22,266-->
@@ -444,7 +444,7 @@ suffocation
 - _(begin)_→:::←blast, explosion, flying debris, and shockwave <!--SR:!2024-03-31,20,243!2024-04-18,44,303-->
 - blast, explosion, flying debris, and shockwave→:::←chemical burn <!--SR:!2024-04-06,34,286!2024-04-06,34,306-->
 - chemical burn→:::←fire and thermal burn <!--SR:!2024-03-17,12,246!2024-03-26,23,263-->
-- fire and thermal burn→:::←poisoning <!--SR:!2024-03-15,4,246!2024-03-16,12,246-->
+- fire and thermal burn→:::←poisoning <!--SR:!2024-03-24,9,246!2024-03-16,12,246-->
 - poisoning→:::←suffocation <!--SR:!2024-05-25,75,326!2024-03-31,27,286-->
 - suffocation→:::←_(end)_ <!--SR:!2024-04-05,30,283!2024-04-19,45,303-->
 
@@ -567,7 +567,7 @@ safety: pressure release valve
 - _(begin)_→:::←control: accessible valves and safety devices <!--SR:!2024-03-23,20,266!2024-05-03,56,323-->
 - control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible <!--SR:!2024-04-15,40,286!2024-04-11,37,286-->
 - control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner <!--SR:!2024-03-24,23,266!2024-03-16,12,243-->
-- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-15,2,166!2024-03-17,3,186-->
+- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa <!--SR:!2024-03-18,3,166!2024-03-17,3,186-->
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve <!--SR:!2024-05-10,58,286!2024-04-08,36,306-->
 - safety: pressure release valve→:::←_(end)_ <!--SR:!2024-04-17,43,306!2024-03-16,9,186-->
 

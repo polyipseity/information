@@ -13,7 +13,7 @@ tags:
 
 ## output
 
-One can print to stdout using {{`System.out.print` and `System.out.println`}}. The first one prints {{the provided string as is while the second one also prints an additional newline}}. <!--SR:!2024-05-01,70,310!2024-03-15,32,290-->
+One can print to stdout using {{`System.out.print` and `System.out.println`}}. The first one prints {{the provided string as is while the second one also prints an additional newline}}. <!--SR:!2024-05-01,70,310!2024-07-22,129,310-->
 
 ```Java
 System.out.println("println");

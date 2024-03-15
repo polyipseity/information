@@ -17,4 +17,4 @@ int rand();
 
 > [!tip] tips
 >
-> - remember ::: set the seed using [`srand`](srand.md) before calling `rand` <!--SR:!2024-06-10,143,316!2024-03-15,4,284-->
+> - remember ::: set the seed using [`srand`](srand.md) before calling `rand` <!--SR:!2024-06-10,143,316!2024-04-02,18,304-->
