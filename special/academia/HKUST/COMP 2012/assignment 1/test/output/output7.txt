@@ -1,0 +1,3 @@
+Testing TODO 3: Menu class functions
+Test case 1 selected.
+Menu is empty.
