@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
 
-#include "Buyer.h"
-#include "Food.h"
-#include "Menu.h"
-#include "Order.h"
-#include "OrderList.h"
+#include "../source/Buyer.h"
+#include "../source/Food.h"
+#include "../source/Menu.h"
+#include "../source/Order.h"
+#include "../source/OrderList.h"
 
 using namespace std;
 
