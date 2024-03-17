@@ -34,7 +34,7 @@ void Order::setBuyer(int newBuyerId, string newBuyerName){
 
 // Task 4.7
 bool Order::addItem(const Food& item) {
-  if (currentNum >= 10) {
+  if (currentNum < 10) {
     orderedItems[currentNum++] = item;
     return true;
   }
@@ -47,7 +47,11 @@ else {
 
 // Task 4.8
 void Order::cloneOrder(const Order& other) {
+  int orderIdOld{orderId};
+  Buyer buyerOld{buyer};
   *this = other;
+  buyer = buyerOld;
+  orderId = orderIdOld;
 }
 
 // ---------------------- provided functions: DO NOT MODIFY --------------------------

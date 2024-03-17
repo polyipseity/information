@@ -15,8 +15,9 @@ void Menu::addFood(const Food& food) {
     {
         resizeArray();
     }
-    foodItems[currentSize++] = food;
-    ++nextFoodId;
+    Food &my_food{foodItems[currentSize++]};
+    my_food = food;
+    my_food.setFoodId(nextFoodId++);
 }
 
 // Task 3.4
