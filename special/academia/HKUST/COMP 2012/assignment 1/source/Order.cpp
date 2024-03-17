@@ -34,7 +34,7 @@ void Order::setBuyer(int newBuyerId, string newBuyerName){
 
 // Task 4.7
 bool Order::addItem(const Food& item) {
-  if (currentNum < 10) {
+  if (currentNum < sizeof(orderedItems) / sizeof(*orderedItems)) {
     orderedItems[currentNum++] = item;
     return true;
   }
