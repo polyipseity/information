@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html lang=en style><!--
  Page saved with SingleFile 
  url: https://course.cse.ust.hk/comp2012/assignments/assignment1/ 
- saved date: Fri Mar 15 2024 01:30:54 GMT+0800 (香港標準時間)
+ saved date: Sun Mar 17 2024 09:20:47 GMT+0800 (香港標準時間)
 --><meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name=description content>
@@ -248,7 +248,7 @@
  <li><strong><code>foodItems</code></strong>: A pointer to a dynamic array of `Food` objects. This array stores the actual food items included in the menu.</li>
  <li><strong><code>currentSize</code></strong>: An integer variable that keeps track of the current number of food items stored in the `foodItems` array.</li>
  <li><strong><code>capacity</code></strong>: An integer variable that specifies the maximum number of food items the `foodItems` array can hold.</li>
- <li><strong><code>nextFoodId</code></strong>: An integer variable that is used as a counter to track the next available food item ID. This is also helpful when adding a new Food item in menu.</li>
+ <li><strong><code>nextFoodId</code></strong>: An integer variable that is used as a counter to track the next available food item ID which should be a unique value. This variable is then used to assign new Food item ID (a new and unique value) when added to menu.</li>
  </ul>
  <h6>Public Member Functions</h6>
  <ul>
@@ -258,7 +258,7 @@
  <li><strong><code>removeFood(int id)</code></strong>: This function removes a food item from the menu based on its ID (`id`). It searches for the food item with the matching ID and removes it from the `foodItems` array.</li>
  <li><strong><code>displayMenu() const</code></strong>: This function displays the information about all food items currently in the menu. It iterates through the `foodItems` array and displays details of each food item.</li>
  <li><strong><code>manageFoodItems()</code></strong>: This function provides an interface for managing food items in the menu. It offer options to add, remove, edit, or perform other operations on the food items.</li>
- <li><strong><code>getFoodById(int id) const</code></strong>: This function retrieves a pointer to a `Food` object from the menu based on its ID (`id`). It searches for the food item with the matching ID and returns a pointer to it, allowing access to its details.</li>
+ <li><strong><code>getFoodById(int id) const</code></strong>: This function retrieves a pointer to a `Food` object from the menu based on its ID (`id`). It searches for the food item with the matching ID and returns a pointer to it, or `nullptr` if not found.</li>
  </ul>
  <h6>Private Helper Functions</h6>
  <ul>
@@ -306,10 +306,10 @@
  </ul>
  <h6>Public Member Functions</h6>
  <ul>
- <li><strong><code>Order()</code> (Default Constructor)</strong>: This function automatically initializes a new `Order` object upon its creation. It will assign the 'currentNum' value to 0.</li>
+ <li><strong><code>Order()</code> (Default Constructor)</strong>: This function automatically initializes a new `Order` object upon its creation. It will assign the 'orderId' and 'currentNum' value to 0.</li>
  <li><strong><code>addItem(const Food&amp; item)</code></strong>: This function is responsible for adding a new `Food` item to the `orderedItems` array. It takes a reference to a `Food` object (`item`) as input. However, it needs to manage the fixed size of the array, by returning a success/failure indicator.</li>
  <li><strong><code>displayOrder() const</code></strong>: This function presents a visual summary of the order's details, including the order ID, buyer information, and a list of the ordered food items with their relevant details. It provides a clear readout of the order's contents.</li>
- <li><strong><code>cloneOrder(const Order&amp; other)</code></strong>: This function generates a self-contained copy of another existing `Order` object (`other`). It involves replicating the `orderId`, `currentSize`, and potentially performing deep copies of the `orderedItems` array and `buyer` object to ensure independent memory storage.</li>
+ <li><strong><code>cloneOrder(const Order&amp; other)</code></strong>: This function generates a self-contained copy of another existing `Order` object (`other`). It involves replicating the `currentSize`, and performing deep copies of the `orderedItems` array to ensure independent memory storage.</li>
  <li><strong><code>getBuyer() const</code></strong>: This function grants read-only access to the `buyer` object within the order, enabling retrieval of buyer information without the ability to modify the original object. It maintains data integrity.</li>
  <li><strong><code>getCurrentNum() const</code></strong>: This function reveals the current count of food items within the order, providing insight into the order's size and contents.</li>
  <li><strong><code>setOrderId() const</code></strong>: Sets a new value for the `orderId` member variable.</li>
@@ -367,7 +367,7 @@
  <li><strong><code>~OrderList()</code> (Destructor)</strong>: This destructor is responsible for deallocating all the nodes in the linked list when an `OrderList` object goes out of scope, preventing memory leaks. It iterate through the list, starting from the `head`, and delete each node appropriately, ensuring proper memory management.</li>
  <li><strong><code>addOrder(const Order&amp; order)</code></strong>: This function adds a new `Order` object to the `OrderList`. It creates a new `OrderNode` with the provided `order` and <strong>inserts it at the end of list.</strong></li>
  <li><strong><code>removeOrder(int orderId)</code></strong>: This function attempts to remove an order from the list based on its unique ID (`orderId`). It searches for the node containing the matching order and removes it from the linked list.</li>
- <li><strong><code>findOrder(int orderId) const</code></strong>: This function searches for an order in the list based on its ID (`orderId`). It iterates through the linked list and returns a pointer to the `OrderNode` containing the matching order, or `nullptr` if not found.</li>
+ <li><strong><code>findOrder(int orderId) const</code></strong>: This function searches for an order in the list based on its ID (`orderId`). It iterates through the linked list and returns a pointer to the `Order` containing the matching order, or `nullptr` if not found.</li>
  <li><strong><code>displayOrderList() const</code></strong>: This function displays information about all orders currently in the list. It iterates through the linked list and calls the `displayOrder` function of each `OrderNode`'s `order` object to display details.</li>
  <li><strong><code>displayOrdersForBuyer(int buyerId) const</code></strong>: This function displays information about orders placed by a specific buyer identified by their ID (`buyerId`). It iterates through the list and checks the `buyer` reference within each `OrderNode` using the `getBuyer().getId()` (assuming `Buyer` has a `getId` function) to see if it matches the provided `buyerId`. If there's a match, the order details are displayed.</li>
  <li><strong><code>isEmpty() const</code></strong>: This function check if the order list is empty or not.</li>
@@ -553,11 +553,26 @@
  
  <div class="card mb-4"> 
  <div class=card-body id=download>
- <h3 class=card-title>Grading &amp; Test Cases</h3>
- <h3 style=color:red>TBA</h3>
+ <h3 class=card-title>Test Cases</h3>
+ <ul>
+ <li>Testing main: <a href=https://course.cse.ust.hk/comp2012/assignments/assignment1/resources/main_test.zip>main_test.zip</a> <b style=color:red>(Last updated 05:12 PM March 16)</b></li>
+ <ul>
+ <li><b>main_test.cpp:</b> Contains all the test cases to check your TODOs</li>
+ <li><b>make:</b> Modified Make file to run the main_test.cpp</li>
+ <li><b>input:</b> A folder contains all the input commands for main_test.cpp file</li>
+ <li><b>output:</b> A folder contains all the expected output</li>
+ </ul>
+ </ul>
+ <p>To test your all <code>.cpp</code> files before submission you can test them using <code>main_test.cpp</code> file. <b>NOTE: While testing your code please use the given modified make file inside the main_test.zip</b></p>
+ <p>Once you put all the files and folders into your main PA1 directory then you can run the main_test.cpp file by typing the following command in terminal.</p>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>make test</code></pre>
+ <p>When you execute the program, the prompt will ask you to input the TODOs number to test from 1 to 5 and input the task number for each TODO. Alternatively, you can pass a text file to the program as input:</p>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token punctuation">.</span><span class="token operator">/</span>PA1_test<span class="token punctuation">.</span>exe <span class="token operator">&lt;</span> input<span class="token operator">/</span>inputX<span class="token punctuation">.</span>txt</code></pre>
+ <p><strong>NOTE: Change the value of X in range from 1-21 to get the output for desired test case.</strong> Then compare your results with respective given output results inside <b>output/outputX.txt</b></p>
+ <p><i>Note: If your machine cannot run the files/commands above, you may consider using one of the CS Lab machines. For more details please refer to Lab1 and Lab 3 tutorials</i></p>
  </div> 
  <div class="card-footer text-muted">
- End of Grading and Test Cases
+ End of Test Cases
  </div>
  </div>
  
@@ -572,7 +587,7 @@
  <br>
  <h4>ZINC Submission</h4>
  <p>
- Create a single zip file that contains <b>Buyer.cpp</b>, <b>Food.cpp</b>, <b>Menu.cpp</b>, <b>Order.cpp</b>, and <b>OrderList.cpp</b> files. Zip only these files, NOT a folder containing them. Submit the zip file to <a href=https://zinc.cse.ust.hk/>ZINC</a>. ZINC usage instructions can be found <a href=https://zinc.cse.ust.hk/guide>here</a>.
+ Create a single zip file that contains <b>Buyer.cpp</b>, <b>Food.cpp</b>, <b>Menu.cpp</b>, <b>Order.cpp</b>, and <b>OrderList.cpp</b> files. Zip only these files, NOT a folder containing them. Submit the zip file to <a href=https://console.zinc.cse.ust.hk/>ZINC</a>. ZINC usage instructions can be found <a href=https://zinc.cse.ust.hk/guide>here</a>.
  <br><br>
  Notes:
  <ul>
@@ -646,6 +661,9 @@
  <div class="card mb-4"> 
  <div class=card-body id=changelog>
  <h3 class=card-title>Changelog</h3>
+ <p><b>01:57 AM 17/03/2024: </b>In <code>OrderList</code> class description <code>findOrder(int orderId) const</code> function detail is updated. Furthermore, In <code>Menu</code> class description <code>nextFoodId</code> variable and <code>getFoodById(int id) const</code> function details are updated.</p>
+ <p><b>01:26 AM 17/03/2024: </b>In <code>Order</code> class description, more details on <code>Order()</code> and <code>cloneOrder(const Order&amp; other)</code> is added for further clarification.</p>
+ <p><b>06:14 PM 16/03/2024:</b> Test Cases section is updated. ZINC submission is also available now.</p>
  <p><b>05:58 AM 14/03/2024:</b> Removed the <code>OrderList</code> class helper function, <code> cleatList()</code> from OrderList.h file. Where this functionality needs to be implement in <code>OrderList</code> class destructor. Please download the lastest skeleton file.</p>
  <p><b>06:22 AM 14/03/2024:</b> Updated the definition of <code>Menu()</code> constructor in Menu class and <code>Order()</code> constructor in Order class.</p> 
  
@@ -704,7 +722,7 @@
  <li>
  Email: <a href=mailto:usman@ust.hk>usman@ust.hk</a>
  </li>
- <li>Last Modified: 03/14/2024 06:27:31</li>
+ <li>Last Modified: 03/17/2024 01:57:43</li>
  </ul>
  </div> 
  </div>
