@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html lang=en style><!--
  Page saved with SingleFile 
  url: https://course.cse.ust.hk/comp2012/assignments/assignment1/ 
- saved date: Sun Mar 17 2024 09:20:47 GMT+0800 (香港標準時間)
+ saved date: Mon Mar 18 2024 15:54:46 GMT+0800 (香港標準時間)
 --><meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name=description content>
@@ -587,7 +587,7 @@
  <br>
  <h4>ZINC Submission</h4>
  <p>
- Create a single zip file that contains <b>Buyer.cpp</b>, <b>Food.cpp</b>, <b>Menu.cpp</b>, <b>Order.cpp</b>, and <b>OrderList.cpp</b> files. Zip only these files, NOT a folder containing them. Submit the zip file to <a href=https://console.zinc.cse.ust.hk/>ZINC</a>. ZINC usage instructions can be found <a href=https://zinc.cse.ust.hk/guide>here</a>.
+ Create a single zip file that contains <b>Buyer.cpp</b>, <b>Food.cpp</b>, <b>Menu.cpp</b>, <b>Order.cpp</b>, and <b>OrderList.cpp</b> files. Zip only these files, NOT a folder containing them. Submit the zip file to <a href=http://zinc.cse.ust.hk/>ZINC</a>. ZINC usage instructions can be found <a href=https://zinc.cse.ust.hk/guide>here</a>.
  <br><br>
  Notes:
  <ul>
@@ -661,6 +661,48 @@
  <div class="card mb-4"> 
  <div class=card-body id=changelog>
  <h3 class=card-title>Changelog</h3>
+ <p><b>10:57 AM 18/03/2024: </b>Skeleton code file Menu.cpp is revised. In Menu.cpp file in the given function <code>void Menu::manageFoodItems()</code> please update only the case 1:
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Current Menu items: "</span><span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+                <span class="token function">displayMenu</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">isFull</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Menu is full. Cannot add more food items."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+                    <span class="token keyword">return</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+                    <span class="token comment">// Get user input for food details</span>
+                    string name<span class="token punctuation">;</span>
+                    <span class="token keyword">float</span> price<span class="token punctuation">;</span> <span class="token comment">// Ensure this is float to match the constructor</span>
+
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Enter food name: "</span><span class="token punctuation">;</span>
+                    cin <span class="token operator">&gt;&gt;</span> name<span class="token punctuation">;</span>
+
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Enter food price: "</span><span class="token punctuation">;</span>
+                    cin <span class="token operator">&gt;&gt;</span> price<span class="token punctuation">;</span>
+                    Food <span class="token function">newFood</span><span class="token punctuation">(</span>nextFoodId<span class="token punctuation">,</span> name<span class="token punctuation">,</span> price<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Use nextFoodId here</span>
+                    <span class="token function">addFood</span><span class="token punctuation">(</span>newFood<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Food item added successfully."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span></code></pre><br>
+ <strong>is changed to </strong> 
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Current Menu items: "</span><span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+                <span class="token function">displayMenu</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token comment">// Get user input for food details</span>
+                    string name<span class="token punctuation">;</span>
+                    <span class="token keyword">float</span> price<span class="token punctuation">;</span> <span class="token comment">// Ensure this is float to match the constructor</span>
+
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Enter food name: "</span><span class="token punctuation">;</span>
+                    cin <span class="token operator">&gt;&gt;</span> name<span class="token punctuation">;</span>
+
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Enter food price: "</span><span class="token punctuation">;</span>
+                    cin <span class="token operator">&gt;&gt;</span> price<span class="token punctuation">;</span>
+                    Food <span class="token function">newFood</span><span class="token punctuation">(</span>nextFoodId<span class="token punctuation">,</span> name<span class="token punctuation">,</span> price<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Use nextFoodId here</span>
+                    <span class="token function">addFood</span><span class="token punctuation">(</span>newFood<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Food item added successfully."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span></code></pre>
+ <p></p>
+ <p><b>10:57 AM 18/03/2024: </b>Skeleton code <strong>zip</strong> file is now updated with the new Menu.cpp file.</p>
  <p><b>01:57 AM 17/03/2024: </b>In <code>OrderList</code> class description <code>findOrder(int orderId) const</code> function detail is updated. Furthermore, In <code>Menu</code> class description <code>nextFoodId</code> variable and <code>getFoodById(int id) const</code> function details are updated.</p>
  <p><b>01:26 AM 17/03/2024: </b>In <code>Order</code> class description, more details on <code>Order()</code> and <code>cloneOrder(const Order&amp; other)</code> is added for further clarification.</p>
  <p><b>06:14 PM 16/03/2024:</b> Test Cases section is updated. ZINC submission is also available now.</p>
@@ -722,7 +764,7 @@
  <li>
  Email: <a href=mailto:usman@ust.hk>usman@ust.hk</a>
  </li>
- <li>Last Modified: 03/17/2024 01:57:43</li>
+ <li>Last Modified: 03/18/2024 11:03:48</li>
  </ul>
  </div> 
  </div>
