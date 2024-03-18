@@ -26,7 +26,7 @@ Note that the above definition is still too restrictive because {{the limits are
 > - [complement](complement%20(set%20theory).md) of a real interval ::: For example, for $a, b \in \mathbb{R}$, $(-\infty, a] \cup (b, +\infty)$ is the [complement](complement%20(set%20theory).md) of $(a, b]$. <!--SR:!2024-03-28,15,324!2024-03-31,18,324-->
 > - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2024-04-01,19,324!2024-03-29,16,324-->
 > - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2024-03-30,17,324!2024-03-28,15,324-->
-> - reason why limits are not defined at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless. <!--SR:!2024-03-30,17,324!2024-03-31,18,324-->
+> - motivation of not defining limits at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless. <!--SR:!2024-03-30,17,324!2024-03-31,18,324-->
 
 <!-- markdownlint MD028 -->
 
@@ -77,12 +77,12 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 >
 > Also valid for one-sided limits and limits at infinity.
 >
-> - condition ::: limit on the right side of the equations exist or is in [determinate form](#determinate%20forms) <!--SR:!2024-12-23,291,330!2024-03-31,18,324-->
+> - condition ::: $x$ is [real](real%20number.md) or [complex](complex%20number). Limits on the right side of the equations exist or are in [determinate form](#determinate%20forms). <!--SR:!2024-12-23,291,330!2024-03-31,18,324-->
 > - addition ::: $\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$ <!--SR:!2024-11-03,252,330!2024-03-28,15,324-->
 > - subtraction ::: $\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$ <!--SR:!2024-09-26,222,330!2024-03-30,17,324-->
 > - multiplication ::: $\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$ <!--SR:!2024-10-12,235,330!2024-03-28,15,324-->
 > - division ::: $\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$ <!--SR:!2024-05-19,116,290!2024-03-28,15,324-->
-> - exponentiation ::: $\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$ <!--SR:!2024-07-07,129,250!2024-03-30,17,324-->
+> - exponentiation ::: $\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$ <!--SR:!2024-07-07,129,250!2024-03-30,17,324--> (If only [real](real%20number.md) $x$ is considered, the base, if it approaches 0, must approach it from the positive.)
 
 #### determinate forms
 

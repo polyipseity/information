@@ -28,7 +28,7 @@ tags:
 
 > [!tip] tips
 >
-> - phonetic symbols ::: notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols <!--SR:!2024-12-08,268,354!2000-01-01,1,250-->
+> - phonetic symbol pattern ::: notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols <!--SR:!2024-12-08,268,354!2000-01-01,1,250-->
 
 ## help
 

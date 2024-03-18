@@ -99,6 +99,10 @@ return await memorize_map(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
+#### x→∞
+
+To derive the equivalent infinitesimals when $x \to \infty$, {{replace all $x$ with $\frac 1 x$ in the [equivalent infinitesimals when $x \to 0$](#x→0)}}.
+
 ### L'Hôpital's rule
 
 - see: [L'Hôpital's rule](L'Hôpital's%20rule.md)
