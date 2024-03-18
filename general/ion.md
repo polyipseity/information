@@ -16,7 +16,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -31,7 +31,7 @@ A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic i
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather
 from dataclasses import dataclass
 from itertools import chain
@@ -228,7 +228,7 @@ return chain.from_iterable(await gather(
 
 ### cation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d9192d"--><!-- The following content is generated at 2024-02-17T20:40:56.103599+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d9192d"--><!-- The following content is generated at 2024-02-17T20:40:56.103599+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charge | color |
 > |-|-|-|-|
@@ -259,11 +259,11 @@ return chain.from_iterable(await gather(
 > | vanadium(III) ion | V<sup>3+</sup> | 3+ | <span style="color: green;">green</span> |
 > | manganese(III) ion | Mn<sup>3+</sup> | 3+ | <span style="color: red;">red</color> |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–symbol (cation)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3928fd"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3928fd"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
 - hydrogen ion:::H<sup>+</sup>
 - sodium ion:::Na<sup>+</sup>
@@ -292,11 +292,11 @@ return chain.from_iterable(await gather(
 - vanadium(III) ion:::V<sup>3+</sup>
 - manganese(III) ion:::Mn<sup>3+</sup>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–charge (cation)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8d8dee"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8d8dee"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
 
 - hydrogen ion::1+
 - sodium ion::1+
@@ -325,11 +325,11 @@ return chain.from_iterable(await gather(
 - vanadium(III) ion::3+
 - manganese(III) ion::3+
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–color (cation)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a5defa"--><!-- The following content is generated at 2024-01-28T09:35:09.995261+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a5defa"--><!-- The following content is generated at 2024-01-28T09:35:09.995261+08:00. Any edits will be overridden! -->
 
 - hydrogen ion::colorless
 - sodium ion::colorless
@@ -358,11 +358,11 @@ return chain.from_iterable(await gather(
 - vanadium(III) ion::<span style="color: green;">green</span>
 - manganese(III) ion::<span style="color: red;">red</color>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### color–name (cation)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
 - <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion
 - <span style="color: blue; background-color: white;">blue</span>::copper(II) ion
@@ -374,11 +374,11 @@ return chain.from_iterable(await gather(
 - <span style="color: violet;">violet</span>::vanadium(II) ion
 - <span style="color: red;">red</color>::manganese(III) ion
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### anion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9fdfe"--><!-- The following content is generated at 2024-02-17T20:40:56.159738+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a9fdfe"--><!-- The following content is generated at 2024-02-17T20:40:56.159738+08:00. Any edits will be overridden! -->
 
 > | name | symbol | charge | color |
 > |-|-|-|-|
@@ -405,11 +405,11 @@ return chain.from_iterable(await gather(
 > | phosphate ion | PO<sub>4</sub><sup>3-</sup> | 3- | colorless |
 > | manganate ion | MnO<sub>4</sub><sup>2-</sup> | 2- | <span style="color: green;">green</span> |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–symbol (anion)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2fde12"--><!-- The following content is generated at 2024-01-04T20:17:52.102773+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2fde12"--><!-- The following content is generated at 2024-01-04T20:17:52.102773+08:00. Any edits will be overridden! -->
 
 - hydride ion:::H<sup>-</sup>
 - fluoride ion:::F<sup>-</sup>
@@ -434,11 +434,11 @@ return chain.from_iterable(await gather(
 - phosphate ion:::PO<sub>4</sub><sup>3-</sup>
 - manganate ion:::MnO<sub>4</sub><sup>2-</sup>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–charge (anion)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8c7820"--><!-- The following content is generated at 2024-01-04T20:17:51.950669+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8c7820"--><!-- The following content is generated at 2024-01-04T20:17:51.950669+08:00. Any edits will be overridden! -->
 
 - hydride ion::1-
 - fluoride ion::1-
@@ -463,11 +463,11 @@ return chain.from_iterable(await gather(
 - phosphate ion::3-
 - manganate ion::2-
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–color (anion)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="104852"--><!-- The following content is generated at 2024-01-28T09:35:10.058768+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="104852"--><!-- The following content is generated at 2024-01-28T09:35:10.058768+08:00. Any edits will be overridden! -->
 
 - hydride ion::colorless
 - fluoride ion::colorless
@@ -492,18 +492,18 @@ return chain.from_iterable(await gather(
 - phosphate ion::colorless
 - manganate ion::<span style="color: green;">green</span>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### color–name (anion)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ad"--><!-- The following content is generated at 2024-01-28T09:35:10.075768+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="50ad"--><!-- The following content is generated at 2024-01-28T09:35:10.075768+08:00. Any edits will be overridden! -->
 
 - <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion
 - <span style="color: yellow; background-color: black;">yellow</span>::chromate ion
 - <span style="color: orange;">orange</span>::dichromate ion
 - <span style="color: green;">green</span>::manganate ion
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

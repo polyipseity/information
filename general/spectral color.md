@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = ("[color](color.md)", "[wavelength](wavelength.md) ([nm](nanometer.md))", "[frequency](frequency.md) ([THz](hertz.md))", "[photon energy](photon%20energy.md) ([eV](electronvolt.md))",)
@@ -61,7 +61,7 @@ return _chain.from_iterable(await _gather(
 
 The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}}. These values are {{approximations as the spectrum is continuous without clear boundaries}}.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d951"--><!-- The following content is generated at 2023-11-26T19:27:40.284980+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d951"--><!-- The following content is generated at 2023-11-26T19:27:40.284980+08:00. Any edits will be overridden! -->
 
 > | [color](color.md) | [wavelength](wavelength.md) ([nm](nanometer.md)) | [frequency](frequency.md) ([THz](hertz.md)) | [photon energy](photon%20energy.md) ([eV](electronvolt.md)) |
 > |-|-|-|-|
@@ -73,9 +73,9 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 > | <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) | 590–625 | 480–510 | 1.98–2.10 |
 > | <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md) | 625–750 | 400–480 | 1.65–1.98 |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5861"--><!-- The following content is generated at 2024-03-07T00:24:26.039449+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5861"--><!-- The following content is generated at 2024-03-07T00:24:26.039449+08:00. Any edits will be overridden! -->
 
 - _(<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md))_→:::←<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
 - <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)→:::←<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
@@ -86,11 +86,11 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)→:::←<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
 - <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)→:::←_(<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md))_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### color–wavelength (nm)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="948f"--><!-- The following content is generated at 2024-03-08T00:40:16.696044+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="948f"--><!-- The following content is generated at 2024-03-08T00:40:16.696044+08:00. Any edits will be overridden! -->
 
 - <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::380–450
 - <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::450–485
@@ -100,9 +100,9 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::590–625
 - <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::625–750
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="679d"--><!-- The following content is generated at 2024-03-08T00:40:16.942509+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="679d"--><!-- The following content is generated at 2024-03-08T00:40:16.942509+08:00. Any edits will be overridden! -->
 
 - 380–450::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
 - 450–485::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
@@ -112,11 +112,11 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - 590–625::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
 - 625–750::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### color–frequency (THz)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="da12"--><!-- The following content is generated at 2024-01-04T20:17:52.799153+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="da12"--><!-- The following content is generated at 2024-01-04T20:17:52.799153+08:00. Any edits will be overridden! -->
 
 - <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::670–790
 - <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::620–670
@@ -126,9 +126,9 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::480–510
 - <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::400–480
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3349"--><!-- The following content is generated at 2024-01-04T20:17:52.754609+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3349"--><!-- The following content is generated at 2024-01-04T20:17:52.754609+08:00. Any edits will be overridden! -->
 
 - 670–790::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
 - 620–670::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
@@ -138,11 +138,11 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - 480–510::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
 - 400–480::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### color–photon energy (eV)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5680"--><!-- The following content is generated at 2024-01-04T20:17:52.725602+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5680"--><!-- The following content is generated at 2024-01-04T20:17:52.725602+08:00. Any edits will be overridden! -->
 
 - <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)::2.75–3.26
 - <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)::2.56–2.75
@@ -152,9 +152,9 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::1.98–2.10
 - <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::1.65–1.98
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e224"--><!-- The following content is generated at 2024-01-04T20:17:52.828152+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e224"--><!-- The following content is generated at 2024-01-04T20:17:52.828152+08:00. Any edits will be overridden! -->
 
 - 2.75–3.26::<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md)
 - 2.56–2.75::<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md)
@@ -164,7 +164,7 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - 1.98–2.10::<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)
 - 1.65–1.98::<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

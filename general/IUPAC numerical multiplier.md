@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_map(
   __env__.cwf_sects('b9de', '3384', 'dd92'),
   {
@@ -53,7 +53,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9de"--><!-- The following content is generated at 2023-03-20T22:41:22.058927+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b9de"--><!-- The following content is generated at 2023-03-20T22:41:22.058927+08:00. Any edits will be overridden! -->
 
 > 1. 1: mono-
 > 2. 2: di-
@@ -76,9 +76,9 @@ return await memorize_map(
 > 19. 19: nonadeca-
 > 20. 20: icosa-
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3384"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3384"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
 
 - 1::mono-
 - 2::di-
@@ -101,9 +101,9 @@ return await memorize_map(
 - 19::nonadeca-
 - 20::icosa-
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd92"--><!-- The following content is generated at 2024-01-04T20:17:52.100768+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd92"--><!-- The following content is generated at 2024-01-04T20:17:52.100768+08:00. Any edits will be overridden! -->
 
 - mono-::1
 - di-::2
@@ -126,7 +126,7 @@ return await memorize_map(
 - nonadeca-::19
 - icosa-::20
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

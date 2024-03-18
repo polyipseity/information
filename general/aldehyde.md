@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -51,7 +51,7 @@ Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqu
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('ff02', '1233'),
   (
@@ -63,20 +63,20 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff02"--><!-- The following content is generated at 2024-03-07T10:21:21.024126+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff02"--><!-- The following content is generated at 2024-03-07T10:21:21.024126+08:00. Any edits will be overridden! -->
 
 > 1. [oxidation](#oxidation)
 > 2. [reduction](#reduction)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1233"--><!-- The following content is generated at 2024-01-04T20:17:51.381884+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1233"--><!-- The following content is generated at 2024-01-04T20:17:51.381884+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[oxidation](#oxidation)
 - [oxidation](#oxidation)→:::←[reduction](#reduction)
 - [reduction](#reduction)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

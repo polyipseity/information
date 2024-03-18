@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -37,7 +37,7 @@ If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) a
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('d981', '248f'),
   ('name', 'description',),
@@ -53,7 +53,7 @@ return await memorize_table(
 
 Methods to determine the end point include:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d981"--><!-- The following content is generated at 2023-03-23T18:13:41.619815+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d981"--><!-- The following content is generated at 2023-03-23T18:13:41.619815+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -61,16 +61,16 @@ Methods to determine the end point include:
 > | [pH meter](pH%20meter.md) | The [pH](pH.md) is measured throughout the reaction. A sudden pH change happens at the end point. |
 > | [thermometric titration](thermometric%20titration.md) | The [temperature](temperature.md) change is measured and then plotted to find the end point. |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="248f"--><!-- The following content is generated at 2024-01-04T20:17:52.903712+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="248f"--><!-- The following content is generated at 2024-01-04T20:17:52.903712+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←indicator
 - indicator→:::←[pH meter](pH%20meter.md)
 - [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md)
 - [thermometric titration](thermometric%20titration.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### equivalence and end point
 

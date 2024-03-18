@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -30,7 +30,7 @@ Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md).
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('28370e', '293842'),
   (
@@ -46,7 +46,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28370e"--><!-- The following content is generated at 2023-03-24T01:07:46.430558+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28370e"--><!-- The following content is generated at 2023-03-24T01:07:46.430558+08:00. Any edits will be overridden! -->
 
 > 1. Filter air to remove [dust](dust.md).
 > 2. Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.
@@ -55,9 +55,9 @@ return await memorize_seq(
 > 5. Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top.
 > 6. Products are warmed against incoming air to ambient temperatures.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293842"--><!-- The following content is generated at 2024-01-04T20:17:51.438466+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="293842"--><!-- The following content is generated at 2024-01-04T20:17:51.438466+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Filter air to remove [dust](dust.md).
 - Filter air to remove [dust](dust.md).→:::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.
@@ -67,7 +67,7 @@ return await memorize_seq(
 - Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top.→:::←Products are warmed against incoming air to ambient temperatures.
 - Products are warmed against incoming air to ambient temperatures.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

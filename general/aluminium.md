@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('320d', 'f123'),
   ('name', 'description',),
@@ -41,7 +41,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="320d"--><!-- The following content is generated at 2023-03-21T16:20:25.313146+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="320d"--><!-- The following content is generated at 2023-03-21T16:20:25.313146+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -51,9 +51,9 @@ return await memorize_table(
 > | {{soft drink cans}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}} |
 > | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←aircraft bodies
 - aircraft bodies→:::←kitchen foil
@@ -62,7 +62,7 @@ return await memorize_table(
 - soft drink cans→:::←window frames
 - window frames→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

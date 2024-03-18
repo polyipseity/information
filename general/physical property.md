@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -25,7 +25,7 @@ A __physical property__ is {{a [property](property.md) measurable without [chemi
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('1238ff', 'bad29e'),
   (
@@ -48,7 +48,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1238ff"--><!-- The following content is generated at 2024-03-07T10:32:08.823451+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1238ff"--><!-- The following content is generated at 2024-03-07T10:32:08.823451+08:00. Any edits will be overridden! -->
 
 > 1. [boiling point](boiling%20point.md)
 > 2. [color](color.md)
@@ -64,9 +64,9 @@ return await memorize_seq(
 > 12. [taste](taste.md)
 > 13. [thermal conductivity](thermal%20conductivity.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bad29e"--><!-- The following content is generated at 2024-01-04T20:17:52.433922+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bad29e"--><!-- The following content is generated at 2024-01-04T20:17:52.433922+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[boiling point](boiling%20point.md)
 - [boiling point](boiling%20point.md)→:::←[color](color.md)
@@ -83,7 +83,7 @@ return await memorize_seq(
 - [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md)
 - [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

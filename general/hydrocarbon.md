@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('d828', '295f'),
   ('type', 'description',),
@@ -38,7 +38,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d828"--><!-- The following content is generated at 2023-03-25T13:08:53.658927+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d828"--><!-- The following content is generated at 2023-03-25T13:08:53.658927+08:00. Any edits will be overridden! -->
 
 > | type | description |
 > |-|-|
@@ -46,16 +46,16 @@ return await memorize_table(
 > | {{[saturated hydrocarbons](saturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [single bonds](single%20bond.md) only.}} |
 > | {{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}} | {{Hydrocarbons that have [multiple bonds](bond%20order.md).}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="295f"--><!-- The following content is generated at 2024-01-04T20:17:51.835140+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="295f"--><!-- The following content is generated at 2024-01-04T20:17:51.835140+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[aromatic hydrocarbons](aromatic%20compound.md)
 - [aromatic hydrocarbons](aromatic%20compound.md)→:::←[saturated hydrocarbons](saturated%20hydrocarbon.md)
 - [saturated hydrocarbons](saturated%20hydrocarbon.md)→:::←[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)
 - [unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## reactions
 

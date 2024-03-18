@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -27,7 +27,7 @@ The [electron pairs](electron%20pair.md) of the central [atom](atom.md) can be {
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.gen import markdown_sanitizer
 return await memorize_table(
   __env__.cwf_sects('2900', '8daf'),
@@ -58,7 +58,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2900"--><!-- The following content is generated at 2023-03-26T17:23:22.932532+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2900"--><!-- The following content is generated at 2023-03-26T17:23:22.932532+08:00. Any edits will be overridden! -->
 
 > | AXE | [shape](molecular%20geometry.md) | ideal bond angle(s) | example(s) |
 > |-|-|-|-|
@@ -81,9 +81,9 @@ return await memorize_table(
 > | {{AX<sub>8</sub>E<sub>0</sub>}} | {{[square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../archives/Wikimedia%20Commons/AX8E0-3D-balls.png)}} |  | {{XeF<sub>8</sub><sup>2-</sup>}} |
 > | {{AX<sub>9</sub>E<sub>0</sub>}} | {{[tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../archives/Wikimedia%20Commons/AX9E0-3D-balls.png)}} |  | {{ReH<sub>9</sub><sup>2-</sup>}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8daf"--><!-- The following content is generated at 2024-01-04T20:17:52.751605+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8daf"--><!-- The following content is generated at 2024-01-04T20:17:52.751605+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←AX<sub>2</sub>E<sub>0</sub>
 - AX<sub>2</sub>E<sub>0</sub>→:::←AX<sub>2</sub>E<sub>1</sub>
@@ -105,7 +105,7 @@ return await memorize_table(
 - AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub>
 - AX<sub>9</sub>E<sub>0</sub>→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

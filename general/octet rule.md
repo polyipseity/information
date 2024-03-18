@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -30,7 +30,7 @@ The __octet rule__ is {{a [chemical](chemistry.md) [rule of thumb](rule%20of%20t
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from itertools import chain
 return await memorize_table(
   __env__.cwf_sects('309d', '284d'),
@@ -45,22 +45,22 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="309d"--><!-- The following content is generated at 2023-09-26T08:43:44.011903+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="309d"--><!-- The following content is generated at 2023-09-26T08:43:44.011903+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{__duplet rule__}} | {{2 electrons in valence shell}} <a id="^duplet-rule"></a>^duplet-rule |
 > | {{__[18-electron rule](18-electron%20rule.md)__}} | {{18 electrons in valence shell}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="284d"--><!-- The following content is generated at 2024-01-04T20:17:52.390426+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="284d"--><!-- The following content is generated at 2024-01-04T20:17:52.390426+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←__duplet rule__
 - __duplet rule__→:::←__[18-electron rule](18-electron%20rule.md)__
 - __[18-electron rule](18-electron%20rule.md)__→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

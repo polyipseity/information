@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('4432', 'fbda'),
   (
@@ -41,7 +41,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4432"--><!-- The following content is generated at 2023-06-25T22:22:49.863529+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4432"--><!-- The following content is generated at 2023-06-25T22:22:49.863529+08:00. Any edits will be overridden! -->
 
 > 1. +: attracts local or overseas investment
 > 2. +: creates job opportunities
@@ -52,9 +52,9 @@ return await memorize_seq(
 > 7. -: pollution control cost is high
 > 8. -: safety control cost is high
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fbda"--><!-- The following content is generated at 2024-01-04T20:17:52.437922+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="fbda"--><!-- The following content is generated at 2024-01-04T20:17:52.437922+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←+: attracts local or overseas investment
 - +: attracts local or overseas investment→:::←+: creates job opportunities
@@ -66,7 +66,7 @@ return await memorize_seq(
 - -: pollution control cost is high→:::←-: safety control cost is high
 - -: safety control cost is high→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

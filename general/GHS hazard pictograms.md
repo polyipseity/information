@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -20,7 +20,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('b9a823', 'dee23a'),
   ('name & pictogram', 'description',),
@@ -44,7 +44,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
 
 > | name & pictogram | description |
 > |-|-|
@@ -58,9 +58,9 @@ return await memorize_table(
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}} |  |
 > | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←GHS01: [explosive](explosive.md)
 - GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md)
@@ -73,7 +73,7 @@ return await memorize_table(
 - GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md)
 - GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

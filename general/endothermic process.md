@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d925', 'abbb'),
   (
@@ -36,20 +36,20 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d925"--><!-- The following content is generated at 2023-03-31T14:05:22.404181+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d925"--><!-- The following content is generated at 2023-03-31T14:05:22.404181+08:00. Any edits will be overridden! -->
 
 > 1. [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)
 > 2. [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abbb"--><!-- The following content is generated at 2024-01-04T20:17:51.694623+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="abbb"--><!-- The following content is generated at 2024-01-04T20:17:51.694623+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)
 - [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)→:::←[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)
 - [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

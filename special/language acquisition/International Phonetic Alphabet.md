@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../tools/utility.py.md
 ```
 
@@ -35,7 +35,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather
 from itertools import chain
 from pytextgen.util import NULL_LOCATION, Result
@@ -306,7 +306,7 @@ Different brackets used to enclose IPA transcriptions have different meanings:
 
 Here is a list of common IPA letters and their pronunciations:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958a"--><!-- The following content is generated at 2024-02-14T16:42:37.353397+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="958a"--><!-- The following content is generated at 2024-02-14T16:42:37.353397+08:00. Any edits will be overridden! -->
 
 > | name | symbol | audio | description |
 > |-|-|-|-|
@@ -430,11 +430,11 @@ Here is a list of common IPA letters and their pronunciations:
 > | [tenuis bilabial click](tenuis%20bilabial%20click.md) | \[ʘ\] | ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg) | [ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" |
 > | [tenuis palatal click](tenuis%20palatal%20click.md) | \[ǂ\] | ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg) | [Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–symbol (letters)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="059f"--><!-- The following content is generated at 2024-01-04T20:18:01.221392+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="059f"--><!-- The following content is generated at 2024-01-04T20:18:01.221392+08:00. Any edits will be overridden! -->
 
 - [open front unrounded vowel](open%20front%20unrounded%20vowel.md)::\[a\]
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md)::\[ä\]
@@ -556,9 +556,9 @@ Here is a list of common IPA letters and their pronunciations:
 - [tenuis bilabial click](tenuis%20bilabial%20click.md)::\[ʘ\]
 - [tenuis palatal click](tenuis%20palatal%20click.md)::\[ǂ\]
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d92e"--><!-- The following content is generated at 2024-01-04T20:18:00.795972+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d92e"--><!-- The following content is generated at 2024-01-04T20:18:00.795972+08:00. Any edits will be overridden! -->
 
 - \[a\]::[open front unrounded vowel](open%20front%20unrounded%20vowel.md)
 - \[ä\]::[open central unrounded vowel](open%20central%20unrounded%20vowel.md)
@@ -680,11 +680,11 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ʘ\]::[tenuis bilabial click](tenuis%20bilabial%20click.md)
 - \[ǂ\]::[tenuis palatal click](tenuis%20palatal%20click.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–audio (letters)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5dfb"--><!-- The following content is generated at 2024-02-14T16:42:37.258792+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5dfb"--><!-- The following content is generated at 2024-02-14T16:42:37.258792+08:00. Any edits will be overridden! -->
 
 - [open front unrounded vowel](open%20front%20unrounded%20vowel.md)::![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg)
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md)::![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)
@@ -802,9 +802,9 @@ Here is a list of common IPA letters and their pronunciations:
 - [tenuis bilabial click](tenuis%20bilabial%20click.md)::![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)
 - [tenuis palatal click](tenuis%20palatal%20click.md)::![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9aa"--><!-- The following content is generated at 2024-02-14T16:42:37.178940+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f9aa"--><!-- The following content is generated at 2024-02-14T16:42:37.178940+08:00. Any edits will be overridden! -->
 
 - ![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg)::[open front unrounded vowel](open%20front%20unrounded%20vowel.md)
 - ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg)::[open central unrounded vowel](open%20central%20unrounded%20vowel.md)
@@ -922,11 +922,11 @@ Here is a list of common IPA letters and their pronunciations:
 - ![tenuis bilabial click](../../archives/Wikimedia%20Commons/Clic%20bilabial%20sourd.ogg)::[tenuis bilabial click](tenuis%20bilabial%20click.md)
 - ![tenuis palatal click](../../archives/Wikimedia%20Commons/Palatoalveolar%20click.ogg)::[tenuis palatal click](tenuis%20palatal%20click.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–description (letters)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50b0"--><!-- The following content is generated at 2024-01-04T20:18:01.048113+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="50b0"--><!-- The following content is generated at 2024-01-04T20:18:01.048113+08:00. Any edits will be overridden! -->
 
 - [open front unrounded vowel](open%20front%20unrounded%20vowel.md)::[English](English%20language.md) _h**a**t_ \[hat\]
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md)::[English](English%20language.md) _br**a**_ \[bɹäː\]
@@ -1048,13 +1048,13 @@ Here is a list of common IPA letters and their pronunciations:
 - [tenuis bilabial click](tenuis%20bilabial%20click.md)::[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two"
 - [tenuis palatal click](tenuis%20palatal%20click.md)::[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth"
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### diacritics
 
 Here is a list of common IPA diacritics and their descriptions:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="485d"--><!-- The following content is generated at 2023-11-12T00:31:30.816306+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="485d"--><!-- The following content is generated at 2023-11-12T00:31:30.816306+08:00. Any edits will be overridden! -->
 
 > | name | symbol | description |
 > |-|-|-|
@@ -1073,11 +1073,11 @@ Here is a list of common IPA diacritics and their descriptions:
 > | [secondary stress](secondary%20stress.md) | \[ˌ◌\] (e.g. [ˌa]) | [English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\] |
 > | [syllable break](syllable.md) | \[.\] | [English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\] |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–symbol (diacritics)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ffa2"--><!-- The following content is generated at 2024-01-04T20:18:01.097852+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ffa2"--><!-- The following content is generated at 2024-01-04T20:18:01.097852+08:00. Any edits will be overridden! -->
 
 - [nasalized](nasal%20vowel.md)::\[◌̃\] (e.g. [ã])
 - [centralized](central%20vowel.md)::\[◌̈\] (e.g. [ä])
@@ -1094,9 +1094,9 @@ Here is a list of common IPA diacritics and their descriptions:
 - [secondary stress](secondary%20stress.md)::\[ˌ◌\] (e.g. [ˌa])
 - [syllable break](syllable.md)::\[.\]
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="94fb"--><!-- The following content is generated at 2024-01-04T20:17:59.931857+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="94fb"--><!-- The following content is generated at 2024-01-04T20:17:59.931857+08:00. Any edits will be overridden! -->
 
 - \[◌̃\] (e.g. [ã])::[nasalized](nasal%20vowel.md)
 - \[◌̈\] (e.g. [ä])::[centralized](central%20vowel.md)
@@ -1113,11 +1113,11 @@ Here is a list of common IPA diacritics and their descriptions:
 - \[ˌ◌\] (e.g. [ˌa])::[secondary stress](secondary%20stress.md)
 - \[.\]::[syllable break](syllable.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### name–description (diacritics)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50bd"--><!-- The following content is generated at 2024-01-04T20:18:01.248419+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="50bd"--><!-- The following content is generated at 2024-01-04T20:18:01.248419+08:00. Any edits will be overridden! -->
 
 - [nasalized](nasal%20vowel.md)::[French](French%20language.md) _vi**n** bla**n**c_ \[vɛ̃ blɑ̃\] "white wine"
 - [centralized](central%20vowel.md)::[Portuguese](Protuguese%20language.md) _v**á**_ \[vä\] "go"
@@ -1134,4 +1134,4 @@ Here is a list of common IPA diacritics and their descriptions:
 - [secondary stress](secondary%20stress.md)::[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\]
 - [syllable break](syllable.md)::[English](English%20language.md) _courtship_ \[ˈkʰɔrt.ʃɪp\]
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

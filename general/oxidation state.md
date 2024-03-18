@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
     R'element in a free form\: 0',
@@ -46,7 +46,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2d99fe"--><!-- The following content is generated at 2022-11-05T00:25:01.101869+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2d99fe"--><!-- The following content is generated at 2022-11-05T00:25:01.101869+08:00. Any edits will be overridden! -->
 
 > 1. element in a free form: 0
 > 2. ionic compound or ion: _charge_
@@ -58,9 +58,9 @@ return (
 > 8. hydrogen: +1
 > 9. (if not bonded to oxygen or flourine) oxygen: -2
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="341d9e"--><!-- The following content is generated at 2024-01-04T20:17:52.416402+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="341d9e"--><!-- The following content is generated at 2024-01-04T20:17:52.416402+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←element in a free form: 0
 - element in a free form: 0→:::←ionic compound or ion: _charge_
@@ -73,7 +73,7 @@ return (
 - hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2
 - (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

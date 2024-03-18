@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -22,7 +22,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('49cc', 'ab23'),
   (
@@ -36,16 +36,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49cc"--><!-- The following content is generated at 2023-10-08T17:13:33.408871+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="49cc"--><!-- The following content is generated at 2023-10-08T17:13:33.408871+08:00. Any edits will be overridden! -->
 
 > 1. create positive first impression
 > 2. emphasize your knowledge of the company
 > 3. include extra information not in the [résumé](résumé.md)
 > 4. mention your referees
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:57.909356+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:57.909356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create positive first impression
 - create positive first impression→:::←emphasize your knowledge of the company
@@ -53,7 +53,7 @@ return await memorize_seq(
 - include extra information not in the [résumé](résumé.md)→:::←mention your referees
 - mention your referees→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## format
 
@@ -69,7 +69,7 @@ my CV and cover letter for your consideration.; (signature)
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('a723', 'f123'),
   (
@@ -84,7 +84,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a723"--><!-- The following content is generated at 2023-10-09T23:03:32.658566+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a723"--><!-- The following content is generated at 2023-10-09T23:03:32.658566+08:00. Any edits will be overridden! -->
 
 > 1. your address, date, name and address of the company, recipient, and title
 > 2. why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job
@@ -92,9 +92,9 @@ return await memorize_seq(
 > 4. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up
 > 5. from or signature
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:57.940249+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:57.940249+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←your address, date, name and address of the company, recipient, and title
 - your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job
@@ -103,4 +103,4 @@ return await memorize_seq(
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature
 - from or signature→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

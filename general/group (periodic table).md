@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -26,7 +26,7 @@ A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from itertools import chain
 return await memorize_table(
   __env__.cwf_sects('8462', '92de'),
@@ -43,7 +43,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8462"--><!-- The following content is generated at 2023-09-26T08:44:21.496687+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8462"--><!-- The following content is generated at 2023-09-26T08:44:21.496687+08:00. Any edits will be overridden! -->
 
 > | name (IUPAC/old IUPAC/old CAS) | IUPAC recommended trivial name |
 > |-|-|
@@ -52,9 +52,9 @@ return await memorize_table(
 > | {{[group 17](halogen.md)/VIIB/VIIA}} | {{[halogens](halogen.md)}} |
 > | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="92de"--><!-- The following content is generated at 2024-01-04T20:17:51.853130+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="92de"--><!-- The following content is generated at 2024-01-04T20:17:51.853130+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[group 1](#^group-1)/IA/IA
 - [group 1](#^group-1)/IA/IA→:::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA
@@ -62,7 +62,7 @@ return await memorize_table(
 - [group 17](halogen.md)/VIIB/VIIA→:::←[group 18](noble%20gas.md)/0/VIIIA
 - [group 18](noble%20gas.md)/0/VIIIA→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -28,7 +28,7 @@ It is a test for an [oxidizing](oxidization.md) gas.
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('28a383', '23ba9d'),
   (
@@ -42,16 +42,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28a383"--><!-- The following content is generated at 2023-03-14T22:56:07.078677+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28a383"--><!-- The following content is generated at 2023-03-14T22:56:07.078677+08:00. Any edits will be overridden! -->
 
 > 1. Light a wooden splint.
 > 2. Blow out the flame.
 > 3. Introduce the [ember](ember.md) into the gas sample trapped in a container.
 > 4. Positive: The ember flares and reignites.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23ba9d"--><!-- The following content is generated at 2024-01-04T20:17:52.690628+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="23ba9d"--><!-- The following content is generated at 2024-01-04T20:17:52.690628+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Light a wooden splint.
 - Light a wooden splint.→:::←Blow out the flame.
@@ -59,7 +59,7 @@ return await memorize_seq(
 - Introduce the [ember](ember.md) into the gas sample trapped in a container.→:::←Positive: The ember flares and reignites.
 - Positive: The ember flares and reignites.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

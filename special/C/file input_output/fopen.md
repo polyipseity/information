@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../tools/utility.py.md
 ```
 
@@ -45,7 +45,7 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from functools import partial
 options = {
   "a": "append",
@@ -65,7 +65,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2023-08-25T12:57:43.306675+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2023-08-25T12:57:43.306675+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
@@ -76,9 +76,9 @@ return await memorize_table(
 > | {{w}} | {{write}} |
 > | {{w+}} | {{write extended}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b23d"--><!-- The following content is generated at 2024-01-04T20:17:58.525781+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b23d"--><!-- The following content is generated at 2024-01-04T20:17:58.525781+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←a
 - a→:::←a+
@@ -88,7 +88,7 @@ return await memorize_table(
 - w→:::←w+
 - w+→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## return value
 

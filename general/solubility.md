@@ -16,7 +16,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -31,7 +31,7 @@ It is measured as {{the [concentration](concentration.md) of the solute in a sat
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 import typing
 soluble = R'<span style="color\: green;">soluble</span>'
@@ -108,7 +108,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901862"--><!-- The following content is generated at 2024-02-01T20:43:13.427525+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="901862"--><!-- The following content is generated at 2024-02-01T20:43:13.427525+08:00. Any edits will be overridden! -->
 
 > group I compounds
 >
@@ -206,14 +206,14 @@ return (
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
 > - exception(s): {{group I, group II, and NH<sub>4</sub><sup>+</sup> compounds}}
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 insoluble = '<span style="color: red;">insoluble</span>'
 reacts = '<span style="color: violet;">reacts</span>'
 slightly_soluble = '<span style="background-color: black; color: yellow;">slightly soluble</span>'
@@ -286,7 +286,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="059f"--><!-- The following content is generated at 2023-11-04T02:46:37.245967+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="059f"--><!-- The following content is generated at 2023-11-04T02:46:37.245967+08:00. Any edits will be overridden! -->
 
 > 1. [ammonium carbonate](ammonium%20carbonate.md): <span style="color: green;">soluble</span>
 > 2. [ammonium chloride](ammonium%20chloride.md): <span style="color: green;">soluble</span>
@@ -348,9 +348,9 @@ return await memorize_map(
 > 58. [thallium(III) oxide](thallium(III)%20oxide.md): <span style="color: red;">insoluble</span>
 > 59. [uranyl carbonate](uranyl%20carbonate.md): <span style="color: green;">soluble</span>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b92d"--><!-- The following content is generated at 2024-01-04T20:17:52.642068+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b92d"--><!-- The following content is generated at 2024-01-04T20:17:52.642068+08:00. Any edits will be overridden! -->
 
 - [ammonium carbonate](ammonium%20carbonate.md)::<span style="color: green;">soluble</span>
 - [ammonium chloride](ammonium%20chloride.md)::<span style="color: green;">soluble</span>
@@ -412,7 +412,7 @@ return await memorize_map(
 - [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span>
 - [uranyl carbonate](uranyl%20carbonate.md)::<span style="color: green;">soluble</span>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
 
@@ -68,7 +68,7 @@ The content is in teaching order.
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("29a2", "3842",),
   """
@@ -83,7 +83,7 @@ safety: withstand the maximum permissible working pressure
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29a2"--><!-- The following content is generated at 2024-02-20T14:07:01.573880+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="29a2"--><!-- The following content is generated at 2024-02-20T14:07:01.573880+08:00. Any edits will be overridden! -->
 
 > 1. control: spring-loaded safety valve for controlling the working pressure
 > 2. identity: mark each receiver with a distinguishing number
@@ -91,9 +91,9 @@ safety: withstand the maximum permissible working pressure
 > 4. safety: automatic mechanism like reducing valve to prevent over-pressurizing
 > 5. safety: withstand the maximum permissible working pressure
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3842"--><!-- The following content is generated at 2024-02-20T14:07:01.560765+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3842"--><!-- The following content is generated at 2024-02-20T14:07:01.560765+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure
 - control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number
@@ -102,14 +102,14 @@ safety: withstand the maximum permissible working pressure
 - safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure
 - safety: withstand the maximum permissible working pressure→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### auxiliary equipments
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("5920", "9281",),
   """
@@ -124,7 +124,7 @@ pipe
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5920"--><!-- The following content is generated at 2024-02-09T19:56:53.046293+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5920"--><!-- The following content is generated at 2024-02-09T19:56:53.046293+08:00. Any edits will be overridden! -->
 
 > 1. flue damper
 > 2. fuel pump
@@ -132,9 +132,9 @@ pipe
 > 4. multiple burner
 > 5. pipe
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←flue damper
 - flue damper→:::←fuel pump
@@ -143,14 +143,14 @@ pipe
 - multiple burner→:::←pipe
 - pipe→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### boiler examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("d929", "afb9",),
   """
@@ -165,7 +165,7 @@ thermal oil heater
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T19:56:52.638827+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d929"--><!-- The following content is generated at 2024-02-09T19:56:52.638827+08:00. Any edits will be overridden! -->
 
 > 1. electric heated boiler
 > 2. electric steam boiler
@@ -173,9 +173,9 @@ thermal oil heater
 > 4. fossil fuel boiler
 > 5. thermal oil heater
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T19:56:52.621799+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T19:56:52.621799+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←electric heated boiler
 - electric heated boiler→:::←electric steam boiler
@@ -184,14 +184,14 @@ thermal oil heater
 - fossil fuel boiler→:::←thermal oil heater
 - thermal oil heater→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### boiler requirements
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("96ff", "3e9a",),
   """
@@ -206,7 +206,7 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="96ff"--><!-- The following content is generated at 2024-02-20T14:07:01.649622+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="96ff"--><!-- The following content is generated at 2024-02-20T14:07:01.649622+08:00. Any edits will be overridden! -->
 
 > 1. control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
 > 2. identity: mark each boiler with a distinguishing number
@@ -214,9 +214,9 @@ safety: fusible pressure release plug or efficient low-water alarm
 > 4. indication: transparent water level gauge
 > 5. safety: fusible pressure release plug or efficient low-water alarm
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
 - control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number
@@ -225,14 +225,14 @@ safety: fusible pressure release plug or efficient low-water alarm
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### compressed gas cylinder safety measures
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("9012", "33bb",),
   """
@@ -249,7 +249,7 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9012"--><!-- The following content is generated at 2024-02-20T13:14:06.434725+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9012"--><!-- The following content is generated at 2024-02-20T13:14:06.434725+08:00. Any edits will be overridden! -->
 
 > 1. design: correct fittings and regulators
 > 2. design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
@@ -259,9 +259,9 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 > 6. operator: mark empty cylinders
 > 7. operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33bb"--><!-- The following content is generated at 2024-02-20T13:14:06.445729+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="33bb"--><!-- The following content is generated at 2024-02-20T13:14:06.445729+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: correct fittings and regulators
 - design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
@@ -272,14 +272,14 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
 - operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### design safety
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("038b", "857e",),
   """
@@ -295,7 +295,7 @@ protective devices that release contents do so safely
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="038b"--><!-- The following content is generated at 2024-02-19T20:56:23.901793+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="038b"--><!-- The following content is generated at 2024-02-19T20:56:23.901793+08:00. Any edits will be overridden! -->
 
 > 1. examinable with safely accessible interior
 > 2. expected working life
@@ -304,9 +304,9 @@ protective devices that release contents do so safely
 > 5. proper materials
 > 6. protective devices that release contents do so safely
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior
 - examinable with safely accessible interior→:::←expected working life
@@ -316,14 +316,14 @@ protective devices that release contents do so safely
 - proper materials→:::←protective devices that release contents do so safely
 - protective devices that release contents do so safely→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazard causes
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("98ba", "2984",),
   """
@@ -340,7 +340,7 @@ overheating
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="98ba"--><!-- The following content is generated at 2024-02-09T19:56:52.734301+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-02-09T19:56:52.734301+08:00. Any edits will be overridden! -->
 
 > 1. blocked or restricted flow
 > 2. compressor malfunction
@@ -350,9 +350,9 @@ overheating
 > 6. ignition or detonation of oil or oil vapor
 > 7. overheating
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2984"--><!-- The following content is generated at 2024-02-09T19:56:52.708301+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2984"--><!-- The following content is generated at 2024-02-09T19:56:52.708301+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←blocked or restricted flow
 - blocked or restricted flow→:::←compressor malfunction
@@ -363,14 +363,14 @@ overheating
 - ignition or detonation of oil or oil vapor→:::←overheating
 - overheating→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazard factors
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("aa98", "1192",),
   """
@@ -386,7 +386,7 @@ worker knowledge and skills
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa98"--><!-- The following content is generated at 2024-02-19T20:13:03.105296+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aa98"--><!-- The following content is generated at 2024-02-19T20:13:03.105296+08:00. Any edits will be overridden! -->
 
 > 1. control complexity
 > 2. equipment age, condition, and suitability
@@ -395,9 +395,9 @@ worker knowledge and skills
 > 5. prevailing conditions
 > 6. worker knowledge and skills
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1192"--><!-- The following content is generated at 2024-02-19T20:13:03.087677+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1192"--><!-- The following content is generated at 2024-02-19T20:13:03.087677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control complexity
 - control complexity→:::←equipment age, condition, and suitability
@@ -407,14 +407,14 @@ worker knowledge and skills
 - prevailing conditions→:::←worker knowledge and skills
 - worker knowledge and skills→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazard types
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("837b", "937a",),
   """
@@ -429,7 +429,7 @@ suffocation
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="837b"--><!-- The following content is generated at 2024-02-19T20:13:03.130902+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="837b"--><!-- The following content is generated at 2024-02-19T20:13:03.130902+08:00. Any edits will be overridden! -->
 
 > 1. blast, explosion, flying debris, and shockwave
 > 2. chemical burn
@@ -437,9 +437,9 @@ suffocation
 > 4. poisoning
 > 5. suffocation
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="937a"--><!-- The following content is generated at 2024-02-19T20:13:03.118404+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="937a"--><!-- The following content is generated at 2024-02-19T20:13:03.118404+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←blast, explosion, flying debris, and shockwave
 - blast, explosion, flying debris, and shockwave→:::←chemical burn
@@ -448,14 +448,14 @@ suffocation
 - poisoning→:::←suffocation
 - suffocation→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hydraulic system safety measures
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("cd12", "93fa",),
   """
@@ -471,7 +471,7 @@ operator: segregate and indicate work area
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cd12"--><!-- The following content is generated at 2024-02-20T13:55:14.042175+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cd12"--><!-- The following content is generated at 2024-02-20T13:55:14.042175+08:00. Any edits will be overridden! -->
 
 > 1. design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 > 2. design: high flashpoint hydraulic oil
@@ -480,9 +480,9 @@ operator: segregate and indicate work area
 > 5. operator: pressurize in stages
 > 6. operator: segregate and indicate work area
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses
 - design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil
@@ -492,14 +492,14 @@ operator: segregate and indicate work area
 - operator: pressurize in stages→:::←operator: segregate and indicate work area
 - operator: segregate and indicate work area→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### pressure vessel examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("948b", "152a",),
   """
@@ -513,16 +513,16 @@ spraying paint container
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="948b"--><!-- The following content is generated at 2024-02-09T19:56:52.672841+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="948b"--><!-- The following content is generated at 2024-02-09T19:56:52.672841+08:00. Any edits will be overridden! -->
 
 > 1. air receiver
 > 2. fixed vessel for starting internal combustion engine
 > 3. pressured fuel container
 > 4. spraying paint container
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="152a"--><!-- The following content is generated at 2024-02-09T19:56:52.689301+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="152a"--><!-- The following content is generated at 2024-02-09T19:56:52.689301+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air receiver
 - air receiver→:::←fixed vessel for starting internal combustion engine
@@ -530,14 +530,14 @@ spraying paint container
 - pressured fuel container→:::←spraying paint container
 - spraying paint container→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### pressurized fuel container requirements
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("10ab", "23fb",),
   """
@@ -552,7 +552,7 @@ safety: pressure release valve
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10ab"--><!-- The following content is generated at 2024-02-19T20:13:03.173682+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="10ab"--><!-- The following content is generated at 2024-02-19T20:13:03.173682+08:00. Any edits will be overridden! -->
 
 > 1. control: accessible valves and safety devices
 > 2. control: remote control valve as close to burner as possible
@@ -560,9 +560,9 @@ safety: pressure release valve
 > 4. safety: maximum permissible working pressure not more than 500 kPa
 > 5. safety: pressure release valve
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23fb"--><!-- The following content is generated at 2024-02-19T20:13:03.186373+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="23fb"--><!-- The following content is generated at 2024-02-19T20:13:03.186373+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control: accessible valves and safety devices
 - control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible
@@ -571,14 +571,14 @@ safety: pressure release valve
 - safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve
 - safety: pressure release valve→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### relevant legislation in Hong Kong
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("78bb", "2876",),
   """
@@ -592,16 +592,16 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="78bb"--><!-- The following content is generated at 2024-02-09T19:56:53.153815+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="78bb"--><!-- The following content is generated at 2024-02-09T19:56:53.153815+08:00. Any edits will be overridden! -->
 
 > 1. Boilers and Pressure Vessels Ordinance (Cap. 56)
 > 2. Boilers and Pressure Vessels Regulations (Cap. 56A)
 > 3. Boilers and Pressure Vessels (Forms) Order (Cap. 56B)
 > 4. Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2876"--><!-- The following content is generated at 2024-02-09T19:56:53.136813+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2876"--><!-- The following content is generated at 2024-02-09T19:56:53.136813+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56)
 - Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A)
@@ -609,14 +609,14 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### safety measures
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("eeef", "184a",),
   """
@@ -633,7 +633,7 @@ thermal protection
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeef"--><!-- The following content is generated at 2024-02-09T19:56:53.064301+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="eeef"--><!-- The following content is generated at 2024-02-09T19:56:53.064301+08:00. Any edits will be overridden! -->
 
 > 1. air inlet and outlet monitoring
 > 2. calibrated pressure gauge
@@ -643,9 +643,9 @@ thermal protection
 > 6. safety valve
 > 7. thermal protection
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="184a"--><!-- The following content is generated at 2024-02-09T19:56:53.080815+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="184a"--><!-- The following content is generated at 2024-02-09T19:56:53.080815+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air inlet and outlet monitoring
 - air inlet and outlet monitoring→:::←calibrated pressure gauge
@@ -656,4 +656,4 @@ thermal protection
 - safety valve→:::←thermal protection
 - thermal protection→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

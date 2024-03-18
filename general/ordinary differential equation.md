@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -29,7 +29,7 @@ An _[implicit](implicit%20function.md) ordinary differential equation of order n
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('0d9f', 'ff12'),
   (
@@ -46,7 +46,7 @@ return await memorize_seq(
 
 Ordinary differential equations are furthered classified:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0d9f"--><!-- The following content is generated at 2023-09-26T08:47:40.039221+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0d9f"--><!-- The following content is generated at 2023-09-26T08:47:40.039221+08:00. Any edits will be overridden! -->
 
 > 1. [autonomous](#^autonomous)
 > 2. [homogeneous](#^homogeneous)
@@ -54,9 +54,9 @@ Ordinary differential equations are furthered classified:
 > 4. [nonhomogeneous](#^nonhomogeneous)/inhomogeneous
 > 5. [nonlinear](#^nonlinear)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2024-01-04T20:17:52.323867+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff12"--><!-- The following content is generated at 2024-01-04T20:17:52.323867+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[autonomous](#^autonomous)
 - [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous)
@@ -65,7 +65,7 @@ Ordinary differential equations are furthered classified:
 - [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear)
 - [nonlinear](#^nonlinear)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
