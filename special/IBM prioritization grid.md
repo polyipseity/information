@@ -24,7 +24,7 @@ tags:
 ```Python
 # 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
 return await memorize_seq(
-  __env__.cwf_sects('2e33', '8baa'),
+  __env__.cwf_sects("2e33", "8baa",),
   R"""
 Prepare many ideas. Each idea is a pair of sticky notes, one with drawing, one with title and caption.
 Each person evaluate every idea of the whole team on their own. Each person has the same number of votes for "[feasibility for us](#feasibility%20for%20us)" and "[value to the user](#value%20to%20the%20user)" (recommended 4 dot stickers). Vote based on the two qualities.
