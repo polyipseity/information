@@ -98,7 +98,7 @@ The content is in teaching order.
 - construction engineering ::: planning and execution of the designs from other fields of engineers
   - [construction engineer characteristics](#construction%20engineer%20characteristics)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial and management sectors.
+- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors.
   - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants)
