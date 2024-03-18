@@ -51,9 +51,34 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28ba"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28ba"--><!-- The following content is generated at 2024-03-18T19:56:56.282991+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e441"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. (CS) [customer segments](#customer%20segments)
+> 2. (VP) [value propositions](#value%20propositions)
+> 3. (CH) [channels](#channels)
+> 4. (CR) [customer relationships](#customer%20relationships)
+> 5. (R$) [revenue streams](#revenue%20streams)
+> 6. (KR) [key resources](#key%20resources)
+> 7. (KA) [key activities](#key%20activities)
+> 8. (KP) [key partnerships](#key%20partnerships)
+> 9. (C$) [cost structure](#cost%20structure)
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e441"--><!-- The following content is generated at 2024-03-18T19:56:56.301510+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←(CS) [customer segments](#customer%20segments)
+- (CS) [customer segments](#customer%20segments)→:::←(VP) [value propositions](#value%20propositions)
+- (VP) [value propositions](#value%20propositions)→:::←(CH) [channels](#channels)
+- (CH) [channels](#channels)→:::←(CR) [customer relationships](#customer%20relationships)
+- (CR) [customer relationships](#customer%20relationships)→:::←(R$) [revenue streams](#revenue%20streams)
+- (R$) [revenue streams](#revenue%20streams)→:::←(KR) [key resources](#key%20resources)
+- (KR) [key resources](#key%20resources)→:::←(KA) [key activities](#key%20activities)
+- (KA) [key activities](#key%20activities)→:::←(KP) [key partnerships](#key%20partnerships)
+- (KP) [key partnerships](#key%20partnerships)→:::←(C$) [cost structure](#cost%20structure)
+- (C$) [cost structure](#cost%20structure)→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### customer segments
 
@@ -83,9 +108,26 @@ segmented, splitting slightly different customer segments
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc13"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc13"--><!-- The following content is generated at 2024-03-18T19:56:56.314505+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9b8a"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. diversified, serving unrelated customer segments
+> 2. mass market, not distinguishing between customer segments
+> 3. multi-sided platforms, serving interdependent customer segments
+> 4. niche market, focusing on specific, specialized customer segments
+> 5. segmented, splitting slightly different customer segments
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9b8a"--><!-- The following content is generated at 2024-03-18T19:56:56.495257+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←diversified, serving unrelated customer segments
+- diversified, serving unrelated customer segments→:::←mass market, not distinguishing between customer segments
+- mass market, not distinguishing between customer segments→:::←multi-sided platforms, serving interdependent customer segments
+- multi-sided platforms, serving interdependent customer segments→:::←niche market, focusing on specific, specialized customer segments
+- niche market, focusing on specific, specialized customer segments→:::←segmented, splitting slightly different customer segments
+- segmented, splitting slightly different customer segments→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### value propositions
 
@@ -119,9 +161,38 @@ risk reduction
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ab1"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ab1"--><!-- The following content is generated at 2024-03-18T19:56:56.527256+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c321"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. accessibility
+> 2. brand or status
+> 3. convenience or usability
+> 4. cost reduction
+> 5. customization
+> 6. design
+> 7. newness
+> 8. performance
+> 9. performing the job well
+> 10. price
+> 11. risk reduction
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←accessibility
+- accessibility→:::←brand or status
+- brand or status→:::←convenience or usability
+- convenience or usability→:::←cost reduction
+- cost reduction→:::←customization
+- customization→:::←design
+- design→:::←newness
+- newness→:::←performance
+- performance→:::←performing the job well
+- performing the job well→:::←price
+- price→:::←risk reduction
+- risk reduction→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### channels
 
@@ -153,9 +224,26 @@ personal assistance
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0362"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0362"--><!-- The following content is generated at 2024-03-18T19:56:56.624998+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca84"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. automated services
+> 2. co-creation
+> 3. communities
+> 4. dedicated personal assistance
+> 5. personal assistance
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←automated services
+- automated services→:::←co-creation
+- co-creation→:::←communities
+- communities→:::←dedicated personal assistance
+- dedicated personal assistance→:::←personal assistance
+- personal assistance→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### revenue streams
 
@@ -185,9 +273,30 @@ subscription fee
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb35"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb35"--><!-- The following content is generated at 2024-03-18T19:56:56.654999+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1942"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. advertising
+> 2. asset sale
+> 3. brokerage fee
+> 4. lending, renting, or leasing
+> 5. licensing
+> 6. usage fee
+> 7. subscription fee
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←advertising
+- advertising→:::←asset sale
+- asset sale→:::←brokerage fee
+- brokerage fee→:::←lending, renting, or leasing
+- lending, renting, or leasing→:::←licensing
+- licensing→:::←usage fee
+- usage fee→:::←subscription fee
+- subscription fee→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 #### key resources
 

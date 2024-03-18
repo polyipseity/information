@@ -100,9 +100,28 @@ vague jobs, pains, and gains
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee21"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee21"--><!-- The following content is generated at 2024-03-18T19:56:56.289497+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39ba"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. focusing on functional jobs only
+> 2. listing jobs, pains, and gains using your product value propositions
+> 3. mixing customer segments
+> 4. mixing jobs and outcomes
+> 5. not enough jobs, pains, and gains
+> 6. vague jobs, pains, and gains
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39ba"--><!-- The following content is generated at 2024-03-18T19:56:56.268986+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←focusing on functional jobs only
+- focusing on functional jobs only→:::←listing jobs, pains, and gains using your product value propositions
+- listing jobs, pains, and gains using your product value propositions→:::←mixing customer segments
+- mixing customer segments→:::←mixing jobs and outcomes
+- mixing jobs and outcomes→:::←not enough jobs, pains, and gains
+- not enough jobs, pains, and gains→:::←vague jobs, pains, and gains
+- vague jobs, pains, and gains→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### value map
 
@@ -133,9 +152,24 @@ offer irrelevant pain relievers and gain creators
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ec13"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ec13"--><!-- The following content is generated at 2024-03-18T19:56:56.335505+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8ba2"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. addressing all customer pains and gains
+> 2. listing all products and services without considering the customer segment
+> 3. mixing products and services with pain relievers and gain creators
+> 4. offer irrelevant pain relievers and gain creators
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8ba2"--><!-- The following content is generated at 2024-03-18T19:56:56.299513+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←addressing all customer pains and gains
+- addressing all customer pains and gains→:::←listing all products and services without considering the customer segment
+- listing all products and services without considering the customer segment→:::←mixing products and services with pain relievers and gain creators
+- mixing products and services with pain relievers and gain creators→:::←offer irrelevant pain relievers and gain creators
+- offer irrelevant pain relievers and gain creators→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### fit
 
@@ -223,9 +257,30 @@ making progress
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ba1"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ba1"--><!-- The following content is generated at 2024-03-18T19:56:56.524257+08:00. Any edits will be overridden! -->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c301"--><!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+> 1. extracting hypotheses
+> 2. prioritizing hypotheses
+> 3. designing tests
+> 4. prioritizing tests
+> 5. running tests
+> 6. capturing findings
+> 7. making progress
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c301"--><!-- The following content is generated at 2024-03-18T19:56:56.553260+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←extracting hypotheses
+- extracting hypotheses→:::←prioritizing hypotheses
+- prioritizing hypotheses→:::←designing tests
+- designing tests→:::←prioritizing tests
+- prioritizing tests→:::←running tests
+- running tests→:::←capturing findings
+- capturing findings→:::←making progress
+- making progress→:::←_(end)_
+
+<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 ### test card
 
