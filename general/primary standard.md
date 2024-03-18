@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -27,7 +27,7 @@ A primary standard can be used {{in [titration](titration.md) and to prepare a [
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d928', 'fb92'),
   (
@@ -46,7 +46,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d928"--><!-- The following content is generated at 2023-03-23T16:01:43.599717+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d928"--><!-- The following content is generated at 2023-03-23T16:01:43.599717+08:00. Any edits will be overridden! -->
 
 > 1. high purity
 > 2. low [reactivity](reactivity%20(chemistry).md)
@@ -56,9 +56,9 @@ return await memorize_seq(
 > 6. non-[toxicity](toxicity.md)
 > 7. ready and cheap availability
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2024-03-18T19:56:56.252984+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="fb92"--><!-- The following content is generated at 2024-03-18T19:56:56.252984+08:00. Any edits will be overridden! -->
 
 - _(most important)_→:::←high purity
 - high purity→:::←low [reactivity](reactivity%20(chemistry).md)
@@ -69,7 +69,7 @@ return await memorize_seq(
 - non-[toxicity](toxicity.md)→:::←ready and cheap availability
 - ready and cheap availability→:::←_(least important)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
 
@@ -36,7 +36,7 @@ Below are common arithmetic and string operators. Operators have higher preceden
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "operator", "description"
@@ -62,7 +62,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-01-31T12:32:22.690955+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-31T12:32:22.690955+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
@@ -72,9 +72,9 @@ return _chain.from_iterable(await _gather(
 > | `+` | addition |
 > | `-` | subtraction |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`^`
 - `^`→:::←`*`
@@ -83,9 +83,9 @@ return _chain.from_iterable(await _gather(
 - `+`→:::←`-`
 - `-`→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
 
 - `^`::power
 - `*`::multiplication
@@ -93,7 +93,7 @@ return _chain.from_iterable(await _gather(
 - `+`::addition
 - `-`::subtraction
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### comparison operators
 
@@ -102,7 +102,7 @@ Below are common comparison operators, all of which returns {{booleans}}. Operat
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "operator", "description"
@@ -129,7 +129,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd23"--><!-- The following content is generated at 2024-01-31T12:32:22.894695+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-31T12:32:22.894695+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
@@ -140,9 +140,9 @@ return _chain.from_iterable(await _gather(
 > | `>=` | greater than or equal to |
 > | `<>` | not equal to |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`=`
 - `=`→:::←`<`
@@ -152,9 +152,9 @@ return _chain.from_iterable(await _gather(
 - `>=`→:::←`<>`
 - `<>`→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-31T12:32:22.829082+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-31T12:32:22.829082+08:00. Any edits will be overridden! -->
 
 - `=`::equal to
 - `<`::lesser than
@@ -163,7 +163,7 @@ return _chain.from_iterable(await _gather(
 - `>=`::greater than or equal to
 - `<>`::not equal to
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}}.
 
@@ -176,7 +176,7 @@ Below are common logic functions, all of which {{accept booleans and return bool
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "function", "description"
@@ -200,7 +200,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-02-05T12:43:06.967772+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-02-05T12:43:06.967772+08:00. Any edits will be overridden! -->
 
 > | function | description |
 > |-|-|
@@ -208,24 +208,24 @@ return _chain.from_iterable(await _gather(
 > | `AND(booleans...)` | every input is true |
 > | `OR(booleans...)` | there exists true inputs |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`NOT(boolean)`
 - `NOT(boolean)`→:::←`AND(booleans...)`
 - `AND(booleans...)`→:::←`OR(booleans...)`
 - `OR(booleans...)`→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
 - `NOT(boolean)`::negate
 - `AND(booleans...)`::every input is true
 - `OR(booleans...)`::there exists true inputs
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### string functions and operators
 
@@ -234,7 +234,7 @@ Below are common string functions and operators:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "function", "description"
@@ -262,7 +262,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0ff2"--><!-- The following content is generated at 2024-01-31T12:40:30.974267+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0ff2"--><!-- The following content is generated at 2024-01-31T12:40:30.974267+08:00. Any edits will be overridden! -->
 
 > | function | description |
 > |-|-|
@@ -274,9 +274,9 @@ return _chain.from_iterable(await _gather(
 > | `SUBSTITUTE(string, old, new)` | replace all occurrences of `old` with `new` in `string` |
 > | `UPPER(string)` | convert to uppercase |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(operator) `&`
 - (operator) `&`→:::←`LEFT(string, length)`
@@ -287,9 +287,9 @@ return _chain.from_iterable(await _gather(
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)`
 - `UPPER(string)`→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
 
 - (operator) `&`::concatenation
 - `LEFT(string, length)`::get the first `length` characters in `string`
@@ -299,7 +299,7 @@ return _chain.from_iterable(await _gather(
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string`
 - `UPPER(string)`::convert to uppercase
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### common functions
 
@@ -308,7 +308,7 @@ Below are common functions:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "function", "description"
@@ -337,7 +337,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ba"--><!-- The following content is generated at 2024-01-31T12:52:39.241194+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ba"--><!-- The following content is generated at 2024-01-31T12:52:39.241194+08:00. Any edits will be overridden! -->
 
 > | function | description |
 > |-|-|
@@ -350,9 +350,9 @@ return _chain.from_iterable(await _gather(
 > | `STDEV(numbers...)` | standard deviation |
 > | `SUM(numbers...)` | summation |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`AVERAGE(numbers...)`
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)`
@@ -364,9 +364,9 @@ return _chain.from_iterable(await _gather(
 - `STDEV(numbers...)`→:::←`SUM(numbers...)`
 - `SUM(numbers...)`→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
 - `AVERAGE(numbers...)`::average
 - `COUNTIF(values, criteria)`::number of `values` satisfying `criteria`
@@ -377,4 +377,4 @@ return _chain.from_iterable(await _gather(
 - `STDEV(numbers...)`::standard deviation
 - `SUM(numbers...)`::summation
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

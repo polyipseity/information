@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
 
@@ -78,7 +78,7 @@ The content is in teaching order.
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("5671", "2bc7",),
   """
@@ -94,7 +94,7 @@ unventilated thermal storage type electric water heaters
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5671"--><!-- The following content is generated at 2024-02-09T09:19:32.611770+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5671"--><!-- The following content is generated at 2024-02-09T09:19:32.611770+08:00. Any edits will be overridden! -->
 
 > 1. adaptors
 > 2. extension units
@@ -103,9 +103,9 @@ unventilated thermal storage type electric water heaters
 > 5. plugs
 > 6. unventilated thermal storage type electric water heaters
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2bc7"--><!-- The following content is generated at 2024-02-09T09:19:32.596318+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2bc7"--><!-- The following content is generated at 2024-02-09T09:19:32.596318+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←adaptors
 - adaptors→:::←extension units
@@ -115,14 +115,14 @@ unventilated thermal storage type electric water heaters
 - plugs→:::←unventilated thermal storage type electric water heaters
 - unventilated thermal storage type electric water heaters→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### general safety requirement stipulations
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("ee23", "292d",),
   """
@@ -138,7 +138,7 @@ warnings
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee23"--><!-- The following content is generated at 2024-02-14T17:52:38.899168+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-14T17:52:38.899168+08:00. Any edits will be overridden! -->
 
 > 1. instructions
 > 2. manner of presentation
@@ -147,9 +147,9 @@ warnings
 > 5. use of marks
 > 6. warnings
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="292d"--><!-- The following content is generated at 2024-02-14T17:52:38.914301+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←instructions
 - instructions→:::←manner of presentation
@@ -159,14 +159,14 @@ warnings
 - use of marks→:::←warnings
 - warnings→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazard causes
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("3219", "5bab",),
   """
@@ -182,7 +182,7 @@ wet condition
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3219"--><!-- The following content is generated at 2024-02-09T00:05:47.436681+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3219"--><!-- The following content is generated at 2024-02-09T00:05:47.436681+08:00. Any edits will be overridden! -->
 
 > 1. improper contact
 > 2. lack of maintenance
@@ -191,9 +191,9 @@ wet condition
 > 5. using substandard electrical appliances
 > 6. wet condition
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5bab"--><!-- The following content is generated at 2024-02-09T00:05:47.457257+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5bab"--><!-- The following content is generated at 2024-02-09T00:05:47.457257+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←improper contact
 - improper contact→:::←lack of maintenance
@@ -203,14 +203,14 @@ wet condition
 - using substandard electrical appliances→:::←wet condition
 - wet condition→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazard control
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("a257", "f234",),
   """
@@ -229,7 +229,7 @@ protective bonding
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a257"--><!-- The following content is generated at 2024-02-09T00:10:28.980504+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a257"--><!-- The following content is generated at 2024-02-09T00:10:28.980504+08:00. Any edits will be overridden! -->
 
 > 1. [center tap](../../../../../general/center%20tap.md)
 > 2. [circuit breaker](../../../../../general/circult%20breaker.md)
@@ -241,9 +241,9 @@ protective bonding
 > 8. [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)
 > 9. protective bonding
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2024-02-09T00:10:28.927666+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f234"--><!-- The following content is generated at 2024-02-09T00:10:28.927666+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[center tap](../../../../../general/center%20tap.md)
 - [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md)
@@ -256,14 +256,14 @@ protective bonding
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding
 - protective bonding→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazardous scenarios
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("d929", "afb9",),
   """
@@ -276,29 +276,29 @@ use of inappropriate measurement tools
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
 
 > 1. contact with overhead power lines
 > 2. damaged cover
 > 3. use of inappropriate measurement tools
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T00:01:47.212615+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←contact with overhead power lines
 - contact with overhead power lines→:::←damaged cover
 - damaged cover→:::←use of inappropriate measurement tools
 - use of inappropriate measurement tools→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### relevant legislation in Hong Kong
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("b234", "46f1",),
   """
@@ -312,16 +312,16 @@ Consumer Goods Safety Ordinance (Cap. 456)
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b234"--><!-- The following content is generated at 2024-02-12T16:43:42.627779+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b234"--><!-- The following content is generated at 2024-02-12T16:43:42.627779+08:00. Any edits will be overridden! -->
 
 > 1. Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
 > 2. Electricity Ordinance (Cap. 406)
 > 3. _Code of Practice for the Electricity (Wiring) Regulations_
 > 4. Consumer Goods Safety Ordinance (Cap. 456)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406)
@@ -329,14 +329,14 @@ Consumer Goods Safety Ordinance (Cap. 456)
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456)
 - Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### substandard plugs
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("662a", "3905",),
   """
@@ -351,7 +351,7 @@ no safety shutter
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="662a"--><!-- The following content is generated at 2024-02-09T09:14:53.814167+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="662a"--><!-- The following content is generated at 2024-02-09T09:14:53.814167+08:00. Any edits will be overridden! -->
 
 > 1. cannot withstand high [temperature](../../../../../general/temperature.md)
 > 2. loose electric plug
@@ -359,9 +359,9 @@ no safety shutter
 > 4. no insulating sleeves
 > 5. no safety shutter
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3905"--><!-- The following content is generated at 2024-02-09T09:14:53.797631+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3905"--><!-- The following content is generated at 2024-02-09T09:14:53.797631+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←cannot withstand high [temperature](../../../../../general/temperature.md)
 - cannot withstand high [temperature](../../../../../general/temperature.md)→:::←loose electric plug
@@ -370,4 +370,4 @@ no safety shutter
 - no insulating sleeves→:::←no safety shutter
 - no safety shutter→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -27,7 +27,7 @@ Attractive forces include {{[van der Waals forces](van%20der%20Waals%20force.md)
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('294a', 'ff83'),
   ('type', 'dissociation energy',),
@@ -43,7 +43,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="294a"--><!-- The following content is generated at 2023-03-26T19:44:39.015343+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="294a"--><!-- The following content is generated at 2023-03-26T19:44:39.015343+08:00. Any edits will be overridden! -->
 
 > | type | dissociation energy |
 > |-|-|
@@ -51,16 +51,16 @@ return await memorize_table(
 > | {{[hydrogen bond](hydrogen%20bond.md)}} | {{4–50 kJ/mol}} |
 > | {{[London dispersion force](London%20dispersion%20force.md)}} | {{0.01–63 kJ/mol}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff83"--><!-- The following content is generated at 2024-03-07T00:12:03.503454+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff83"--><!-- The following content is generated at 2024-03-07T00:12:03.503454+08:00. Any edits will be overridden! -->
 
 - _(strongest)_→:::←[covalent bond](covalent%20bond.md)
 - [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md)
 - [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md)
 - [London dispersion force](London%20dispersion%20force.md)→:::←_(weakest)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

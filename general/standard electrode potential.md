@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -28,7 +28,7 @@ Increase in standard electrode potential {{increases [oxidizing power](oxidation
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from collections import defaultdict
 from dataclasses import dataclass
 from decimal import Decimal
@@ -153,7 +153,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="230419"--><!-- The following content is generated at 2023-04-08T14:12:19.031933+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="230419"--><!-- The following content is generated at 2023-04-08T14:12:19.031933+08:00. Any edits will be overridden! -->
 
 >
 > (lowest oxidizing power/highest reducing power)
@@ -203,11 +203,11 @@ return (
 >
 > (highest oxidizing power/lowest reducing power)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### potentials
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9209fd"--><!-- The following content is generated at 2024-01-04T20:17:52.729608+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9209fd"--><!-- The following content is generated at 2024-01-04T20:17:52.729608+08:00. Any edits will be overridden! -->
 
 - K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s)::-2.931
 - Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s)::-2.868
@@ -250,11 +250,11 @@ return (
 - S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq)::2.01
 - F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq)::2.87
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### elements
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab92dd"--><!-- The following content is generated at 2024-01-04T20:17:52.685603+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ab92dd"--><!-- The following content is generated at 2024-01-04T20:17:52.685603+08:00. Any edits will be overridden! -->
 
 - Ag:::Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s)
 - Al:::Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s)
@@ -281,7 +281,7 @@ return (
 - Sn:::Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s)<br/>Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq)
 - Zn:::Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

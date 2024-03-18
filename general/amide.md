@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -45,7 +45,7 @@ In alkaline [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylates](
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('be34', 'ab23'),
   (
@@ -56,18 +56,18 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="be34"--><!-- The following content is generated at 2024-03-07T10:22:01.941626+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="be34"--><!-- The following content is generated at 2024-03-07T10:22:01.941626+08:00. Any edits will be overridden! -->
 
 > 1. [hydrolysis](#hydrolysis)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:51.379374+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:51.379374+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[hydrolysis](#hydrolysis)
 - [hydrolysis](#hydrolysis)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

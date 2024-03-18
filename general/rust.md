@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -49,7 +49,7 @@ After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('39da', '192a'),
   (
@@ -63,16 +63,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39da"--><!-- The following content is generated at 2024-03-07T10:32:08.813444+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39da"--><!-- The following content is generated at 2024-03-07T10:32:08.813444+08:00. Any edits will be overridden! -->
 
 > 1. [cathodic protection](#cathodic%20protection)
 > 2. [coating and painting](#coating%20and%20painting)
 > 3. [electroplating](#electroplating)
 > 4. [rust-resistant alloys](#rust-resistant%20alloys)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="192a"--><!-- The following content is generated at 2024-01-04T20:17:52.534830+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="192a"--><!-- The following content is generated at 2024-01-04T20:17:52.534830+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[cathodic protection](#cathodic%20protection)
 - [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting)
@@ -80,7 +80,7 @@ return await memorize_seq(
 - [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys)
 - [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### rust-resistant alloys
 

@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -18,7 +18,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('2182ff', '239e8f'),
   ('name', 'description',),
@@ -35,7 +35,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2182ff"--><!-- The following content is generated at 2023-03-20T16:20:30.892404+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2182ff"--><!-- The following content is generated at 2023-03-20T16:20:30.892404+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -45,9 +45,9 @@ return await memorize_table(
 > | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
 > | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2024-01-04T20:17:51.918666+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="239e8f"--><!-- The following content is generated at 2024-01-04T20:17:51.918666+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md)
 - [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md)
@@ -56,7 +56,7 @@ return await memorize_table(
 - [outer core](outer%20core.md)→:::←[inner core](inner%20core.md)
 - [inner core](inner%20core.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

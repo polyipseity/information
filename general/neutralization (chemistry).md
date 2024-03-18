@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -31,7 +31,7 @@ __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical react
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('d927', '185a'),
   ('name', 'description',),
@@ -47,7 +47,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d927"--><!-- The following content is generated at 2023-06-13T11:10:50.266473+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d927"--><!-- The following content is generated at 2023-06-13T11:10:50.266473+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -56,9 +56,9 @@ return await memorize_table(
 > | {{production of [fertilizer](fertilizer.md)}} | {{Neutralization of [nitric acid](nitric%20acid.md) or [sulfuric acid](sulfuric%20acid.md) with [ammonia](ammonia.md) [gas](gas.md) is used to make [ammonium nitrate](ammonium%20nitrate.md) or [ammonium sulfate](ammonium%20sulfate.md).}} |
 > | {{[wastewater treatment](water%20treatment.md)}} | {{[Slaked lime](calcium%20hydroxide.md) or [sodium carbonate](sodium%20carbonate.md) can neutralize [acidic](acid.md) waste. [Sulfuric acid](sulfuric%20acid) can neutralize [alkaline](alkali.md) waste.}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="185a"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="185a"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[antacids](antacid.md)
 - [antacids](antacid.md)→:::←control of [soil pH](soil%20pH.md)
@@ -66,7 +66,7 @@ return await memorize_table(
 - production of [fertilizer](fertilizer.md)→:::←[wastewater treatment](water%20treatment.md)
 - [wastewater treatment](water%20treatment.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

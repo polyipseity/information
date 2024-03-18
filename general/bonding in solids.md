@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -29,7 +29,7 @@ A __molecular solid__, also called __simple molecular structure__, {{consists of
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('9d9d'), NULL_LOCATION,),
@@ -47,7 +47,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9d9d"--><!-- The following content is generated at 2023-12-25T08:13:56.305002+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9d9d"--><!-- The following content is generated at 2023-12-25T08:13:56.305002+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -57,7 +57,7 @@ return await memorize_table(
 > | {{[melting point](melting%20point.md)}} | {{typically low}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### network covalent solid
 
@@ -68,7 +68,7 @@ A __network covalent solid__, also called __giant covalent structure__, {{consis
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('357d'), NULL_LOCATION,),
@@ -86,7 +86,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="357d"--><!-- The following content is generated at 2023-12-25T08:00:46.096288+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="357d"--><!-- The following content is generated at 2023-12-25T08:00:46.096288+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -96,7 +96,7 @@ return await memorize_table(
 > | {{[melting point](melting%20point.md)}} | {{typically high}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically high ([graphite](graphite.md): low)}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### ionic solid
 
@@ -107,7 +107,7 @@ A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](a
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('5460'), NULL_LOCATION,),
@@ -125,7 +125,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5460"--><!-- The following content is generated at 2023-12-25T08:13:56.331587+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5460"--><!-- The following content is generated at 2023-12-25T08:13:56.331587+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -135,7 +135,7 @@ return await memorize_table(
 > | {{[melting point](melting%20point.md)}} | {{typically moderately high}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically intermediate}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### metallic solid
 
@@ -146,7 +146,7 @@ A __metallic solid__, also called __giant metallic structure__, {{consists of [m
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('435d'), NULL_LOCATION,),
@@ -167,7 +167,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="435d"--><!-- The following content is generated at 2023-12-25T08:18:39.407540+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="435d"--><!-- The following content is generated at 2023-12-25T08:18:39.407540+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -180,7 +180,7 @@ return await memorize_table(
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low when pure}} |
 > | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

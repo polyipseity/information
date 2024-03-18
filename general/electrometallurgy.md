@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -20,7 +20,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('basdde', 'a3958e'),
   ('name', 'description',),
@@ -33,20 +33,20 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="basdde"--><!-- The following content is generated at 2023-03-20T16:20:30.802460+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="basdde"--><!-- The following content is generated at 2023-03-20T16:20:30.802460+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[electrolysis](electrolysis.md)}} |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a3958e"--><!-- The following content is generated at 2024-01-04T20:17:51.667097+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a3958e"--><!-- The following content is generated at 2024-01-04T20:17:51.667097+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[electrolysis](electrolysis.md)
 - [electrolysis](electrolysis.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

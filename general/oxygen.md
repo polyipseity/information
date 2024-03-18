@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -20,7 +20,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('923dac', 'aaee9e'),
   ('name', 'description',),
@@ -35,7 +35,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="923dac"--><!-- The following content is generated at 2023-03-20T16:20:31.118657+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="923dac"--><!-- The following content is generated at 2023-03-20T16:20:31.118657+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -43,16 +43,16 @@ return await memorize_table(
 > | {{burning of fuels}} |  |
 > | {{medical use}} |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aaee9e"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aaee9e"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←breathing
 - breathing→:::←burning of fuels
 - burning of fuels→:::←medical use
 - medical use→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## tests
 

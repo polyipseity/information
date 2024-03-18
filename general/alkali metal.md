@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -30,7 +30,7 @@ Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals]
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_map(
   __env__.cwf_sects('7f8c', '938d', 'bb89'),
   items_to_map(
@@ -46,7 +46,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7f8c"--><!-- The following content is generated at 2023-03-31T11:11:36.664051+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="7f8c"--><!-- The following content is generated at 2023-03-31T11:11:36.664051+08:00. Any edits will be overridden! -->
 
 > 1. [lithium](lithium.md): floats, producing hydrogen gas steadily
 > 2. [sodium](sodium.md): melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly
@@ -55,9 +55,9 @@ return await memorize_map(
 > 5. [caesium](caesium.md): explosive
 > 6. [francium](francium.md): unknown
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="938d"--><!-- The following content is generated at 2024-01-04T20:17:51.342355+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="938d"--><!-- The following content is generated at 2024-01-04T20:17:51.342355+08:00. Any edits will be overridden! -->
 
 - [lithium](lithium.md)::floats, producing hydrogen gas steadily
 - [sodium](sodium.md)::melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly
@@ -66,9 +66,9 @@ return await memorize_map(
 - [caesium](caesium.md)::explosive
 - [francium](francium.md)::unknown
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb89"--><!-- The following content is generated at 2024-01-04T20:17:51.309364+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bb89"--><!-- The following content is generated at 2024-01-04T20:17:51.309364+08:00. Any edits will be overridden! -->
 
 - floats, producing hydrogen gas steadily::[lithium](lithium.md)
 - melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md)
@@ -76,7 +76,7 @@ return await memorize_map(
 - explosive::[rubidium](rubidium.md), [caesium](caesium.md)
 - unknown::[francium](francium.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

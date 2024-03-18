@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -33,7 +33,7 @@ Catalysts can {{increase production throughput, reducing production cost and sav
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('ad24', '394f'),
   ('name', 'description',),
@@ -50,7 +50,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -60,9 +60,9 @@ return await memorize_table(
 > | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
 > | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394f"--><!-- The following content is generated at 2024-01-04T20:17:51.442492+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="394f"--><!-- The following content is generated at 2024-01-04T20:17:51.442492+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[Haber process](Haber%20process.md)
 - [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md)
@@ -71,7 +71,7 @@ return await memorize_table(
 - [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md)
 - [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

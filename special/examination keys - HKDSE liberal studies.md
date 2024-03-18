@@ -10,7 +10,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ HKDSE liberal studies
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('ff91', '83da',),
   (
@@ -44,7 +44,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff91"--><!-- The following content is generated at 2024-03-07T10:32:08.827449+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff91"--><!-- The following content is generated at 2024-03-07T10:32:08.827449+08:00. Any edits will be overridden! -->
 
 > 1. affirming the consequent
 > 2. appeal to authority
@@ -57,9 +57,9 @@ return await memorize_seq(
 > 9. virtue by association
 > 10. weak analogies
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="83da"--><!-- The following content is generated at 2024-01-04T20:17:58.209272+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="83da"--><!-- The following content is generated at 2024-01-04T20:17:58.209272+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←affirming the consequent
 - affirming the consequent→:::←appeal to authority
@@ -73,7 +73,7 @@ return await memorize_seq(
 - virtue by association→:::←weak analogies
 - weak analogies→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## questions
 
@@ -82,7 +82,7 @@ return await memorize_seq(
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('385a', '4940',),
   ('question type', 'description',),
@@ -100,7 +100,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="385a"--><!-- The following content is generated at 2023-04-25T22:14:31.359212+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="385a"--><!-- The following content is generated at 2023-04-25T22:14:31.359212+08:00. Any edits will be overridden! -->
 
 > | question type | description |
 > |-|-|
@@ -111,9 +111,9 @@ return await memorize_table(
 > | {{solution}} | {{solve a problem}} |
 > | {{value judgement}} | {{comment on good and bad or values positioning stakeholders}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←comparison
 - comparison→:::←factor/reason
@@ -123,14 +123,14 @@ return await memorize_table(
 - solution→:::←value judgement
 - value judgement→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### question words
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('102d', '384f',),
   ('question word(s)', 'description',),
@@ -160,29 +160,29 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102d"--><!-- The following content is generated at 2023-12-04T08:21:59.272356+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="102d"--><!-- The following content is generated at 2023-12-04T08:21:59.272356+08:00. Any edits will be overridden! -->
 
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
 > | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="384f"--><!-- The following content is generated at 2024-01-04T20:17:58.281276+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="384f"--><!-- The following content is generated at 2024-01-04T20:17:58.281276+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>
 - <ul><li>assess</li><li>compare</li><li>evaluate</li></ul>→:::←<ul><li>comment</li><li>to what extent do you agree</li></ul>
 - <ul><li>comment</li><li>to what extent do you agree</li></ul>→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### keywords
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('21aa', '38ff',),
   ('keyword', 'description',),
@@ -204,7 +204,7 @@ return await memorize_table(
 
 Identify {{keywords in the question. When appropriate, define or explain them}}.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="21aa"--><!-- The following content is generated at 2023-04-25T22:32:43.563641+08:00. Any edits will be overridden! -->
 
 > | keyword | description |
 > |-|-|
@@ -217,9 +217,9 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
 > | {{with reference to}} | {{paraphrase the reference and deduce implications}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to
 - according to/refer to→:::←cause/reason
@@ -231,7 +231,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 - trend→:::←with reference to
 - with reference to→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## sources
 
@@ -240,7 +240,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('dd1a', '43ff',),
   (
@@ -255,7 +255,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd1a"--><!-- The following content is generated at 2023-04-25T22:46:19.896422+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd1a"--><!-- The following content is generated at 2023-04-25T22:46:19.896422+08:00. Any edits will be overridden! -->
 
 > 1. Sort or group data.
 > 2. Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.
@@ -263,9 +263,9 @@ return await memorize_seq(
 > 4. Analyze the figures by performing simple calculations.
 > 5. Deduce causes and reasons.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="43ff"--><!-- The following content is generated at 2024-01-04T20:17:58.376802+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="43ff"--><!-- The following content is generated at 2024-01-04T20:17:58.376802+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Sort or group data.
 - Sort or group data.→:::←Identify major findings, maximum and minimum, similarities and differences, multiple variables, and hidden trends.
@@ -274,7 +274,7 @@ return await memorize_seq(
 - Analyze the figures by performing simple calculations.→:::←Deduce causes and reasons.
 - Deduce causes and reasons.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### dialogues
 
@@ -293,7 +293,7 @@ In general, essays consists of {{introduction, body, and conclusion}}. They shou
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('2ea8', '39fa',),
   (
@@ -308,7 +308,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2ea8"--><!-- The following content is generated at 2023-04-26T19:16:21.070897+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2ea8"--><!-- The following content is generated at 2023-04-26T19:16:21.070897+08:00. Any edits will be overridden! -->
 
 > 1. (Introduction) State your stance: To a large/small extent, I agree…
 > 2. Define or explain key terms or criteria required.
@@ -316,9 +316,9 @@ return await memorize_seq(
 > 4. Write 1 to 2 counterarguments with partial rebuttal.
 > 5. (Conclusion) Summarize arguments and restate your stance.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2024-01-04T20:17:58.418327+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-01-04T20:17:58.418327+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree…
 - (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required.
@@ -327,14 +327,14 @@ return await memorize_seq(
 - Write 1 to 2 counterarguments with partial rebuttal.→:::←(Conclusion) Summarize arguments and restate your stance.
 - (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### common mistakes for to what extent
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('48fa', 'add9',),
   (
@@ -347,29 +347,29 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48fa"--><!-- The following content is generated at 2023-04-26T23:59:07.510478+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="48fa"--><!-- The following content is generated at 2023-04-26T23:59:07.510478+08:00. Any edits will be overridden! -->
 
 > 1. Evaluating effectiveness only by instantaneous effects.
 > 2. Hasty generalization with a single example.
 > 3. Perspectives are incorrect.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="add9"--><!-- The following content is generated at 2024-01-04T20:17:58.459904+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="add9"--><!-- The following content is generated at 2024-01-04T20:17:58.459904+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Evaluating effectiveness only by instantaneous effects.
 - Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example.
 - Hasty generalization with a single example.→:::←Perspectives are incorrect.
 - Perspectives are incorrect.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### comparison
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('4491', 'eeff',),
   (
@@ -383,16 +383,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4491"--><!-- The following content is generated at 2023-04-26T19:16:21.093837+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4491"--><!-- The following content is generated at 2023-04-26T19:16:21.093837+08:00. Any edits will be overridden! -->
 
 > 1. (Introduction) State your stance.
 > 2. Define or explain key terms or criteria required.
 > 3. (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.
 > 4. (Conclusion) Summarize arguments and restate your stance.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eeff"--><!-- The following content is generated at 2024-01-04T20:17:58.481913+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="eeff"--><!-- The following content is generated at 2024-01-04T20:17:58.481913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Introduction) State your stance.
 - (Introduction) State your stance.→:::←Define or explain key terms or criteria required.
@@ -400,14 +400,14 @@ return await memorize_seq(
 - (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance.
 - (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### common mistakes for comparison
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('3dda', '32ab',),
   (
@@ -419,27 +419,27 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3dda"--><!-- The following content is generated at 2023-04-26T19:16:21.155751+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3dda"--><!-- The following content is generated at 2023-04-26T19:16:21.155751+08:00. Any edits will be overridden! -->
 
 > 1. Only stating views of stakeholders instead of macroscopic effects.
 > 2. Oversimplification of examples.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects.
 - Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples.
 - Oversimplification of examples.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### solution
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('5fab', '5aab',),
   (
@@ -454,7 +454,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5fab"--><!-- The following content is generated at 2023-11-04T02:32:58.267357+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5fab"--><!-- The following content is generated at 2023-11-04T02:32:58.267357+08:00. Any edits will be overridden! -->
 
 > 1. (Introduction) State your solutions.
 > 2. State the problem or criteria required.
@@ -462,9 +462,9 @@ return await memorize_seq(
 > 4. For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.
 > 5. (Conclusion) Summarize solutions.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5aab"--><!-- The following content is generated at 2024-01-04T20:17:59.928856+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5aab"--><!-- The following content is generated at 2024-01-04T20:17:59.928856+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Introduction) State your solutions.
 - (Introduction) State your solutions.→:::←State the problem or criteria required.
@@ -473,14 +473,14 @@ return await memorize_seq(
 - For at least 1 solution, assess feasibility or limitation. Attempt to overcome them.→:::←(Conclusion) Summarize solutions.
 - (Conclusion) Summarize solutions.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### common mistakes for solution
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('4401', '4ecd',),
   (
@@ -494,16 +494,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4401"--><!-- The following content is generated at 2023-04-26T22:09:23.283310+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4401"--><!-- The following content is generated at 2023-04-26T22:09:23.283310+08:00. Any edits will be overridden! -->
 
 > 1. Hetergenous nature of people not considered when evaluating effectiveness.
 > 2. Making education and promotion too similar. Focus on schools in the former while governments in the latter.
 > 3. Overstating effectiveness of education.
 > 4. Suggesting legislation without considering enforcement.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4ecd"--><!-- The following content is generated at 2024-01-04T20:18:00.828927+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4ecd"--><!-- The following content is generated at 2024-01-04T20:18:00.828927+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness.
 - Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter.
@@ -511,4 +511,4 @@ return await memorize_seq(
 - Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement.
 - Suggesting legislation without considering enforcement.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

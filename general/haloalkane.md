@@ -16,7 +16,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -51,7 +51,7 @@ In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('321a', '4441'),
   (
@@ -63,20 +63,20 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="321a"--><!-- The following content is generated at 2024-03-07T10:32:08.808445+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="321a"--><!-- The following content is generated at 2024-03-07T10:32:08.808445+08:00. Any edits will be overridden! -->
 
 > 1. [hydrolysis](#hydrolysis)
 > 2. [substitution](#substitution)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4441"--><!-- The following content is generated at 2024-01-04T20:17:51.842124+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4441"--><!-- The following content is generated at 2024-01-04T20:17:51.842124+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[hydrolysis](#hydrolysis)
 - [hydrolysis](#hydrolysis)→:::←[substitution](#substitution)
 - [substitution](#substitution)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

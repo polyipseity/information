@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('b928', '029e'),
   ('periodic property', 'across the period', 'down the group',),
@@ -41,7 +41,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b928"--><!-- The following content is generated at 2023-04-19T12:13:02.213812+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b928"--><!-- The following content is generated at 2023-04-19T12:13:02.213812+08:00. Any edits will be overridden! -->
 
 > | periodic property | across the period | down the group |
 > |-|-|-|
@@ -52,9 +52,9 @@ return await memorize_table(
 > | {{[metallic character](#metallic%20character)}} | {{decreases}} | {{increases}} |
 > | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029e"--><!-- The following content is generated at 2024-01-04T20:17:52.350867+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="029e"--><!-- The following content is generated at 2024-01-04T20:17:52.350867+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[atomic radius](#atomic%20radius)
 - [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity)
@@ -64,7 +64,7 @@ return await memorize_table(
 - [metallic character](#metallic%20character)→:::←[valence](#valence)
 - [valence](#valence)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### atomic radius
 

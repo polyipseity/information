@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -59,7 +59,7 @@ Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly usi
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('f23a', 'dd11'),
   (
@@ -73,16 +73,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f23a"--><!-- The following content is generated at 2024-03-07T10:21:38.261307+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f23a"--><!-- The following content is generated at 2024-03-07T10:21:38.261307+08:00. Any edits will be overridden! -->
 
 > 1. [dehydration](#dehydration)
 > 2. [esterification](#esterification)
 > 3. [nucleophilic substitution](#nucleophilic%20substitution)
 > 4. [reduction](#reduction)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:51.458466+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:51.458466+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[dehydration](#dehydration)
 - [dehydration](#dehydration)→:::←[esterification](#esterification)
@@ -90,7 +90,7 @@ return await memorize_seq(
 - [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction)
 - [reduction](#reduction)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

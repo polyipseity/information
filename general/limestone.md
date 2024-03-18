@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -18,7 +18,7 @@ tags:
 ## uses
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('bab829', '9387dd'),
   ('name', 'description',),
@@ -30,7 +30,7 @@ return await memorize_table(
 )
 ```
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bab829"--><!-- The following content is generated at 2023-03-20T16:20:31.020633+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bab829"--><!-- The following content is generated at 2023-03-20T16:20:31.020633+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -38,16 +38,16 @@ return await memorize_table(
 > | [glass making](glass%20making.md) | manufacturing of [soda–lime glass](soda–lime%20glass.md) |
 > | raw material | [cement](cement.md) |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9387dd"--><!-- The following content is generated at 2024-01-04T20:17:52.186337+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9387dd"--><!-- The following content is generated at 2024-01-04T20:17:52.186337+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[construction](construction.md)
 - [construction](construction.md)→:::←[glass making](glass%20making.md)
 - [glass making](glass%20making.md)→:::←raw material
 - raw material→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -22,7 +22,7 @@ The test involves {{introducing the sample into a hot, non-luminous flame and ob
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('abcdef', 'bd92ec'),
   (
@@ -36,16 +36,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abcdef"--><!-- The following content is generated at 2023-04-01T22:38:27.910087+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="abcdef"--><!-- The following content is generated at 2023-04-01T22:38:27.910087+08:00. Any edits will be overridden! -->
 
 > 1. Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
 > 2. Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).
 > 3. Heat the end of the wire in a hot, non-luminous flame.
 > 4. Observe the color of the resulting flame.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd92ec"--><!-- The following content is generated at 2024-01-04T20:17:51.763624+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bd92ec"--><!-- The following content is generated at 2024-01-04T20:17:51.763624+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
 - Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).
@@ -53,14 +53,14 @@ return await memorize_seq(
 - Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame.
 - Observe the color of the resulting flame.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## common elements
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_map(
   __env__.cwf_sects('4905', '2837ca', 'b8283e'),
   {
@@ -78,7 +78,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4905"--><!-- The following content is generated at 2023-04-23T13:13:45.557923+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4905"--><!-- The following content is generated at 2023-04-23T13:13:45.557923+08:00. Any edits will be overridden! -->
 
 > 1. [calcium](calcium.md): brick red, light green (through [cobalt blue glass](cobalt%20glass.md))
 > 2. [copper](copper.md)(I): blue-green
@@ -89,9 +89,9 @@ return await memorize_map(
 > 7. [potassium](potassium.md): lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
 > 8. [sodium](sodium.md): intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
 
 - [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md))
 - [copper](copper.md)(I)::blue-green
@@ -102,9 +102,9 @@ return await memorize_map(
 - [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
 - [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b8283e"--><!-- The following content is generated at 2024-01-04T20:17:51.834162+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b8283e"--><!-- The following content is generated at 2024-01-04T20:17:51.834162+08:00. Any edits will be overridden! -->
 
 - brick red::[calcium](calcium.md)
 - light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md)
@@ -121,7 +121,7 @@ return await memorize_map(
 - invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md)
 - intense yellow::[sodium](sodium.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -20,7 +20,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 data: gen.TextCode = gen.seq_to_code((
   fR'[N<sub>2</sub>](nitrogen.md){{{gen.Tag.TEXT}:\: 78.084%}}',
@@ -58,7 +58,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a34f1d"--><!-- The following content is generated at 2023-03-14T22:09:57.723829+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a34f1d"--><!-- The following content is generated at 2023-03-14T22:09:57.723829+08:00. Any edits will be overridden! -->
 
 > 1. [N<sub>2</sub>](nitrogen.md): 78.084%
 > 2. [O<sub>2</sub>](oxygen.md): 20.946%
@@ -66,9 +66,9 @@ return (
 > 4. [CO<sub>2</sub>](carbon%20dioxide.md): 0.0417% (2022-04-xx)
 > 5. _others_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123480"--><!-- The following content is generated at 2024-01-04T20:17:51.453474+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="123480"--><!-- The following content is generated at 2024-01-04T20:17:51.453474+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[N<sub>2</sub>](nitrogen.md)
 - [N<sub>2</sub>](nitrogen.md)→:::←[O<sub>2</sub>](oxygen.md)
@@ -77,16 +77,16 @@ return (
 - [CO<sub>2</sub>](carbon%20dioxide.md)→:::←_others_
 - _others_→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1ad236"--><!-- The following content is generated at 2024-01-04T20:17:51.424468+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1ad236"--><!-- The following content is generated at 2024-01-04T20:17:51.424468+08:00. Any edits will be overridden! -->
 
 - [N<sub>2</sub>](nitrogen.md)::78.084%
 - [O<sub>2</sub>](oxygen.md)::20.946%
 - [Ar](argon.md)::0.9340%
 - [CO<sub>2</sub>](carbon%20dioxide.md)::0.0417% (2022-04-xx)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

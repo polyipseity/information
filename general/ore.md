@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -26,7 +26,7 @@ See [extractive metallurgy](extractive%20metallurgy.md).
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('283749', '0398da'),
   ('name', 'formula',),
@@ -43,7 +43,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="283749"--><!-- The following content is generated at 2023-03-22T00:41:25.734579+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="283749"--><!-- The following content is generated at 2023-03-22T00:41:25.734579+08:00. Any edits will be overridden! -->
 
 > | name | formula |
 > |-|-|
@@ -53,9 +53,9 @@ return await memorize_table(
 > | {{[galena](galena.md)}} | {{PbS}} |
 > | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0398da"--><!-- The following content is generated at 2024-01-04T20:17:52.269345+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0398da"--><!-- The following content is generated at 2024-01-04T20:17:52.269345+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[bauxite](bauxite.md)
 - [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite
@@ -64,7 +64,7 @@ return await memorize_table(
 - [galena](galena.md)→:::←[hematite](hematite.md)
 - [hematite](hematite.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

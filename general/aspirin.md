@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -29,7 +29,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('332a', '45af'),
   ('name', 'description',),
@@ -45,7 +45,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="332a"--><!-- The following content is generated at 2023-04-07T10:57:11.007075+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="332a"--><!-- The following content is generated at 2023-04-07T10:57:11.007075+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -54,9 +54,9 @@ return await memorize_table(
 > | {{prevention of [heart attack](myocardial%20infarction.md)}} | {{It has [blood thinning](anticoagulant.md) and [antiplatelet](antiplatelet%20drug.md) effect.}} |
 > | {{relieve [fever](fever.md)}} |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45af"--><!-- The following content is generated at 2024-01-04T20:17:51.291378+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="45af"--><!-- The following content is generated at 2024-01-04T20:17:51.291378+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[analgesic](analgesic.md)
 - [analgesic](analgesic.md)→:::←[anti-inflammation](anti-inflammatory.md)
@@ -64,14 +64,14 @@ return await memorize_table(
 - prevention of [heart attack](myocardial%20infarction.md)→:::←relieve [fever](fever.md)
 - relieve [fever](fever.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### side effects
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('11af', '78ae'),
   ('name', 'description',),
@@ -86,7 +86,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="11af"--><!-- The following content is generated at 2023-04-07T11:04:50.174254+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="11af"--><!-- The following content is generated at 2023-04-07T11:04:50.174254+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -94,16 +94,16 @@ return await memorize_table(
 > | {{[stomach ulcer](peptic%20ulcer%20disease.md)}} |  |
 > | {{[stomach upset](abdominal%20pain.md)}} |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="78ae"--><!-- The following content is generated at 2024-01-04T20:17:51.327355+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="78ae"--><!-- The following content is generated at 2024-01-04T20:17:51.327355+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←increased bleeding risk
 - increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md)
 - [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md)
 - [stomach upset](abdominal%20pain.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

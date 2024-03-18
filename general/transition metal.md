@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -27,7 +27,7 @@ A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('223d', 'dafb',),
   ('property', 'description',),
@@ -42,7 +42,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="223d"--><!-- The following content is generated at 2023-04-09T14:14:06.744759+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="223d"--><!-- The following content is generated at 2023-04-09T14:14:06.744759+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -50,16 +50,16 @@ return await memorize_table(
 > | {{colored [ions](ion.md)}} | {{Most transition metals ions are colored.}} |
 > | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dafb"--><!-- The following content is generated at 2024-01-04T20:17:52.737603+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dafb"--><!-- The following content is generated at 2024-01-04T20:17:52.737603+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[catalytic](catalysis.md) properties
 - [catalytic](catalysis.md) properties→:::←colored [ions](ion.md)
 - colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md)
 - variable [oxidation states](oxidation%20state.md)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

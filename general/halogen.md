@@ -16,7 +16,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -35,7 +35,7 @@ Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.m
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 i_or_below = 'reacts partially; virtually no reaction'
 return await memorize_map(
   __env__.cwf_sects('49d8', '2394', '6900'),
@@ -52,7 +52,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49d8"--><!-- The following content is generated at 2023-03-20T22:20:19.404644+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="49d8"--><!-- The following content is generated at 2023-03-20T22:20:19.404644+08:00. Any edits will be overridden! -->
 
 > 1. [fluorine](fluorine.md): reacts explosively in the dark and cold
 > 2. [chlorine](chlorine.md): reacts explosively in light and heat; slowly without
@@ -61,9 +61,9 @@ return await memorize_map(
 > 5. [astatine](astatine.md): reacts partially; virtually no reaction
 > 6. [tennessine](tennessine.md): unknown
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2394"--><!-- The following content is generated at 2024-01-04T20:17:51.880136+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2394"--><!-- The following content is generated at 2024-01-04T20:17:51.880136+08:00. Any edits will be overridden! -->
 
 - [fluorine](fluorine.md)::reacts explosively in the dark and cold
 - [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without
@@ -72,9 +72,9 @@ return await memorize_map(
 - [astatine](astatine.md)::reacts partially; virtually no reaction
 - [tennessine](tennessine.md)::unknown
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="6900"--><!-- The following content is generated at 2024-01-04T20:17:51.910666+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="6900"--><!-- The following content is generated at 2024-01-04T20:17:51.910666+08:00. Any edits will be overridden! -->
 
 - reacts explosively in the dark and cold::[fluorine](fluorine.md)
 - reacts explosively in light and heat; slowly without::[chlorine](chlorine.md)
@@ -82,7 +82,7 @@ return await memorize_map(
 - reacts partially; virtually no reaction::[iodine](iodine.md), [astatine](astatine.md)
 - unknown::[tennessine](tennessine.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

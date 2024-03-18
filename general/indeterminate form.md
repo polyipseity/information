@@ -20,7 +20,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -35,7 +35,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from itertools import chain as _chain
 return await memorize_map(
   __env__.cwf_sects("499f", "39dd", "f234",),
@@ -58,7 +58,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="499f"--><!-- The following content is generated at 2023-11-21T12:44:22.983521+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="499f"--><!-- The following content is generated at 2023-11-21T12:44:22.983521+08:00. Any edits will be overridden! -->
 
 > 1. $\sin{x}$ $\sim$ $x$
 > 2. $\arcsin{x}$ $\sim$ $x$
@@ -72,9 +72,9 @@ return await memorize_map(
 > 10. $e^x-1$ $\sim$ $x$
 > 11. $(1+x)^a-1$ $\sim$ $ax$
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39dd"--><!-- The following content is generated at 2024-01-04T20:17:52.099769+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39dd"--><!-- The following content is generated at 2024-01-04T20:17:52.099769+08:00. Any edits will be overridden! -->
 
 - $\sin{x}$::$x$
 - $\arcsin{x}$::$x$
@@ -88,16 +88,16 @@ return await memorize_map(
 - $e^x-1$::$x$
 - $(1+x)^a-1$::$ax$
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f234"--><!-- The following content is generated at 2024-01-04T20:17:52.183338+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f234"--><!-- The following content is generated at 2024-01-04T20:17:52.183338+08:00. Any edits will be overridden! -->
 
 - $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$
 - $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$
 - $x\ln{a}$::$a^x-1$
 - $ax$::$(1+x)^a-1$
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### x→∞
 

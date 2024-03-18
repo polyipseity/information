@@ -15,7 +15,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -68,7 +68,7 @@ pV^{(1 - \gamma)K + \gamma} &= C
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = ("polytropic index", "effects",)
@@ -96,7 +96,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="029f"--><!-- The following content is generated at 2023-12-15T10:02:45.991107+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="029f"--><!-- The following content is generated at 2023-12-15T10:02:45.991107+08:00. Any edits will be overridden! -->
 
 > | polytropic index | effects |
 > |-|-|
@@ -109,9 +109,9 @@ return _chain.from_iterable(await _gather(
 > | _γ_ < _n_ < +∞ | under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction |
 > | _n_ = +∞ | $V = C$; equivalent to [isochoric process](isochoric%20process.md) |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="577a"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="577a"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←_n_ < 0
 - _n_ < 0→:::←_n_ = 0
@@ -123,9 +123,9 @@ return _chain.from_iterable(await _gather(
 - _γ_ < _n_ < +∞→:::←_n_ = +∞
 - _n_ = +∞→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5599"--><!-- The following content is generated at 2024-01-04T20:17:52.438922+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5599"--><!-- The following content is generated at 2024-01-04T20:17:52.438922+08:00. Any edits will be overridden! -->
 
 - _n_ < 0::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too
 - _n_ = 0::$p = C$; equivalent to [isobaric process](isobaric%20process.md)
@@ -136,9 +136,9 @@ return _chain.from_iterable(await _gather(
 - _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction
 - _n_ = +∞::$V = C$; equivalent to [isochoric process](isochoric%20process.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0033"--><!-- The following content is generated at 2024-01-04T20:17:52.404405+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0033"--><!-- The following content is generated at 2024-01-04T20:17:52.404405+08:00. Any edits will be overridden! -->
 
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too::_n_ < 0
 - $p = C$; equivalent to [isobaric process](isobaric%20process.md)::_n_ = 0
@@ -149,7 +149,7 @@ return _chain.from_iterable(await _gather(
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction::_γ_ < _n_ < +∞
 - $V = C$; equivalent to [isochoric process](isochoric%20process.md)::_n_ = +∞
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 
