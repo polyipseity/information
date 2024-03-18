@@ -169,7 +169,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 
 > [!tip] tips
 >
-> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-03-16,47,308!2024-03-29,16,324-->
+> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-04-10,23,288!2024-03-29,16,324-->
 
 ## applications
 

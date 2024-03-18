@@ -156,7 +156,7 @@ return _chain.from_iterable(await _gather(
 - [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-05-03,306,330!2024-05-31,329,330-->
 - [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2024-05-24,192,230!2024-03-22,17,130-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2024-03-23,101,150!2024-06-25,290,270-->
-- [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2024-03-19,274,330!2024-03-17,272,330-->
+- [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2024-03-19,274,330!2027-08-07,1237,350-->
 - [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2025-10-07,631,310!2024-05-04,142,190-->
 - [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-07-24,351,290!2024-05-08,103,290-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2025-09-24,635,310!2024-04-06,286,330-->
@@ -182,9 +182,9 @@ return _chain.from_iterable(await _gather(
 - [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2024-06-04,333,330!2024-06-07,336,330-->
 - [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2024-06-03,234,270!2024-04-18,296,330-->
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2025-01-07,428,290-->
-- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-03-30,84,230!2024-03-17,63,230-->
+- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-03-30,84,230!2024-04-18,31,210-->
 - [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2024-05-17,101,250!2024-08-29,348,290-->
-- [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-03-18,5,130!2025-04-05,511,310-->
+- [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-03-24,6,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-06-24,109,250!2024-05-01,166,270-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2024-09-12,363,290!2024-12-08,401,270-->
 - [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2024-04-29,253,270!2024-06-02,84,230-->
@@ -272,7 +272,7 @@ return _chain.from_iterable(await _gather(
 - ![round-bottom(ed) flask](../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg)::[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2024-04-09,289,330-->
 - ![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg)::[rubber bulb](rubber%20bulb.md) <!--SR:!2026-02-08,797,330-->
 - ![rubber stopper/rubber bung/rubber cork](../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg)::[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2027-02-03,1091,350-->
-- ![safety spectacles/safety glasses/goggles](../archives/Wikimedia%20Commons/Safety%20Goggles.jpg)::[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-03-18,273,330-->
+- ![safety spectacles/safety glasses/goggles](../archives/Wikimedia%20Commons/Safety%20Goggles.jpg)::[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2027-08-11,1241,350-->
 - ![spatula](../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG)::[spatula](spatula.md) <!--SR:!2024-06-05,334,330-->
 - ![stand/retort stand/ring stand/support stand](../archives/Wikimedia%20Commons/Retort%20stand.jpg)::[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2026-06-09,887,330-->
 - ![test tube, boiling tube](../archives/Wikimedia%20Commons/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg)::[test tube](test%20tube.md), boiling tube <!--SR:!2024-06-06,335,330-->

@@ -70,7 +70,7 @@ return _chain.from_iterable(await _gather(
 - [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-06-06,87,270!2024-03-31,26,210-->
 - positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-03-19,6,150-->
 - rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-04-13,44,250-->
-- squeezing→:::←subtraction <!--SR:!2024-03-18,10,150!2024-03-26,31,230-->
+- squeezing→:::←subtraction <!--SR:!2024-04-02,15,150!2024-03-26,31,230-->
 - subtraction→:::←union and intersection <!--SR:!2024-03-23,34,270!2024-05-28,74,250-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-04-04,42,290!2024-06-12,93,290-->
 
@@ -87,7 +87,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-It can be proved that {{such a function actually exists}}. An example is {{the [Jordan content](Peano–Jordan%20measure.md)}}. However, it is {{not a true [measure](measure%20(mathematics).md) and thus is less well-behaved with infinite countable sets, so [Lebesgue measure](Lebesgue%20measure.md) is more commonly used}}. <!--SR:!2024-04-07,48,290!2024-04-24,62,310!2024-03-17,28,270-->
+It can be proved that {{such a function actually exists}}. An example is {{the [Jordan content](Peano–Jordan%20measure.md)}}. However, it is {{not a true [measure](measure%20(mathematics).md) and thus is less well-behaved with infinite countable sets, so [Lebesgue measure](Lebesgue%20measure.md) is more commonly used}}. <!--SR:!2024-04-07,48,290!2024-04-24,62,310!2024-05-30,74,270-->
 
 ## references
 

@@ -17,7 +17,7 @@ tags:
 ### cuboid, axis through center
 
 - definition ::: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center <!--SR:!2024-03-29,14,307!2024-03-27,12,307-->
-- equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2024-03-16,72,250!2024-04-01,19,318-->
+- equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2024-09-13,179,250!2024-04-01,19,318-->
   - thin plate correction ::: use the same equation <!--SR:!2024-08-20,239,330!2024-03-31,18,318-->
   - cuboid, axis through center of edge $c$ ::: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2024-03-28,41,250!2024-03-24,11,298-->
   - thin plate with $c=0$, axis through edge $a$ ::: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2024-06-23,179,310!2024-03-23,12,298-->

@@ -11,7 +11,7 @@ tags:
 
 # ideal gas law
 
-The __ideal gas law__, also called the __general gas equation__, is {{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}}. It is a combination of {{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$), [Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}}. <!--SR:!2024-03-16,73,310!2024-03-21,28,190-->
+The __ideal gas law__, also called the __general gas equation__, is {{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}}. It is a combination of {{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$), [Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}}. <!--SR:!2024-10-28,225,310!2024-03-21,28,190-->
 
 > __ideal gas law__
 >
@@ -33,7 +33,7 @@ For an ideal [monoatomic gas](monoatomic%20gas.md), {{its [potential energy](pot
 
 ## deviations from behavior of real gases
 
-The ideal gas law is most accurate for {{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md) due to the neglect of [molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}}. At low [temperatures](temperature.md), {{the [pressure](pressure.md) of a [real gas](real%20gas.md) is often lower than that of an [ideal gas](ideal%20gas.md)}}. At high [pressures](pressure.md), {{the [volume](volume.md) of a [real gas](real%20gas.md) is often higher than that of an [ideal gas](ideal%20gas.md)}}. <!--SR:!2024-07-15,144,290!2024-06-19,126,290!2024-03-17,59,270-->
+The ideal gas law is most accurate for {{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md) due to the neglect of [molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}}. At low [temperatures](temperature.md), {{the [pressure](pressure.md) of a [real gas](real%20gas.md) is often lower than that of an [ideal gas](ideal%20gas.md)}}. At high [pressures](pressure.md), {{the [volume](volume.md) of a [real gas](real%20gas.md) is often higher than that of an [ideal gas](ideal%20gas.md)}}. <!--SR:!2024-07-15,144,290!2024-06-19,126,290!2024-10-24,221,290-->
 
 ## references
 

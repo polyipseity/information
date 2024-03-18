@@ -10,7 +10,7 @@ tags:
 
 ## derivation
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for damped harmonic oscillator can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous damping coefficient_}}: <!--SR:!2024-03-16,65,310-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for damped harmonic oscillator can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous damping coefficient_}}: <!--SR:!2024-12-20,278,330-->
 
 > __ordinary differential equation__
 >
@@ -18,7 +18,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2024-07-07,147,310!2024-03-17,66,310!2024-07-17,156,310-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2024-07-07,147,310!2024-10-07,204,310!2024-07-17,156,310-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -85,7 +85,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > __undamped__
 >
-> When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}}. This is {{rare in the natural world due to [dissipation](dissipation.md)}}. <!--SR:!2024-03-18,67,310!2024-03-30,71,323-->
+> When $\zeta = 0$, {{this is equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}}. This is {{rare in the natural world due to [dissipation](dissipation.md)}}. <!--SR:!2024-12-29,286,330!2024-03-30,71,323-->
 
 <!-- markdownlint MD028 -->
 

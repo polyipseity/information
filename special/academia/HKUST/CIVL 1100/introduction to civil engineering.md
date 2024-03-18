@@ -71,7 +71,7 @@ The content is in teaching order.
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-03-18,5,265!2000-01-01,1,250-->
+- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-04-07,20,285!2000-01-01,1,250-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources
@@ -82,7 +82,7 @@ The content is in teaching order.
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-03-17,4,250!2000-01-01,1,250-->
+    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-03-27,9,250!2000-01-01,1,250-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997.
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2000-01-01,1,250!2024-04-29,53,299-->
@@ -489,7 +489,7 @@ workmanship
 - lifecycle→:::←maintenance
 - maintenance→:::←politics
 - politics→:::←social
-- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-16,2,230-->
+- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-24,6,230-->
 - workmanship→:::←_(end)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -616,9 +616,9 @@ Water Cube
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-02-16T21:59:47.330760+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium
-- Beijing National Stadium→:::←Burj Khalifa <!--SR:!2024-03-17,6,270!2000-01-01,1,250-->
+- Beijing National Stadium→:::←Burj Khalifa <!--SR:!2024-04-05,18,270!2000-01-01,1,250-->
 - Burj Khalifa→:::←Burj Al Arab
-- Burj Al Arab→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-18,7,270-->
+- Burj Al Arab→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-22,4,250-->
 - CCTV Headquarters→:::←Eiffel Tower
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube
@@ -1223,7 +1223,7 @@ waves
 
 - _(begin)_→:::←earthquakes
 - earthquakes→:::←fires
-- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-16,1,266-->
+- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-21,3,266-->
 - floods→:::←strong winds
 - strong winds→:::←waves <!--SR:!2024-03-19,8,270!2000-01-01,1,250-->
 - waves→:::←_(end)_
@@ -1436,7 +1436,7 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2000-01-01,1,250!2024-03-30,17,310-->
 - On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-03-18,7,270!2000-01-01,1,250-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-04-06,19,270!2000-01-01,1,250-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
 - The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI),

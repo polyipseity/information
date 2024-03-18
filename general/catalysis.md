@@ -69,7 +69,7 @@ return await memorize_table(
 - [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2024-05-27,325,330!2024-12-18,411,290-->
 - [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2024-05-20,318,330!2024-08-02,315,270-->
 - [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2024-05-23,321,330!2025-11-04,720,330-->
-- [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2024-03-17,223,270-->
+- [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2024-07-08,113,250-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 

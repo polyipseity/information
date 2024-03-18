@@ -101,7 +101,7 @@ return await memorize_table(
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394d"--><!-- The following content is generated at 2024-01-04T20:17:51.960665+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←lowest <!--SR:!2025-12-29,766,337!2024-05-08,311,337-->
-- lowest→:::←highest <!--SR:!2024-04-24,302,337!2024-03-17,272,337-->
+- lowest→:::←highest <!--SR:!2024-04-24,302,337!2026-09-20,916,337-->
 - highest→:::←_(end)_ <!--SR:!2024-04-06,286,330!2024-05-07,310,330-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

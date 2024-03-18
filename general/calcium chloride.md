@@ -49,7 +49,7 @@ return await memorize_table(
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd21"--><!-- The following content is generated at 2024-01-04T20:17:51.476474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2024-04-20,97,290!2024-03-16,263,330-->
+- _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2024-04-20,97,290!2026-08-02,867,330-->
 - [desiccant](desiccant.md)→:::←[separation](separation%20process.md) <!--SR:!2025-08-02,532,310!2024-05-16,314,330-->
 - [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2024-07-08,356,330!2024-05-15,313,330-->
 
