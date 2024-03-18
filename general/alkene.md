@@ -42,7 +42,7 @@ Hydrogenation converts {{alkenes into corresponding [alkanes](alkane.md) by addi
 
 - see: [hydrohalogenation](hyydrohalogenation.md)
 
-Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}. <!--SR:!2024-03-17,266,331!2025-03-16,418,251-->
+Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding [hydrogen halides](hydrogen%20halide.md)}}. If the alkene is asymmetric, {{[Markovnikov's rule](Markovnikov's%20rule.md) states that the [hydrogen](hydrogen.md) or [electropositive](electronegativity.md) part preferentially attaches to the [carbon](carbon.md) [atom](atom.md) with more hydrogen substituents, while the [halide](halide.md) or electronegative part preferentially attaches to the carbon atom with more alkyl substituents}}. <!--SR:!2026-08-13,879,331!2025-03-16,418,251-->
 
 ### polymerization
 
@@ -86,7 +86,7 @@ return await memorize_seq(
 - [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-06-19,124,310!2024-07-28,199,290-->
 - [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2024-06-04,193,270-->
 - [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2026-04-12,848,330!2024-04-13,237,270-->
-- [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2024-03-18,267,331-->
+- [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2026-08-18,883,331-->
 - [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2025-05-16,473,271!2024-12-22,449,311-->
 - [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2024-07-25,373,351!2024-07-18,365,351-->
 

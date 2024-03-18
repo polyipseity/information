@@ -41,7 +41,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{n^2\hbar^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-03-18,5,130!2024-04-12,182,254-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2n^2}\approx\frac{-13.6Z^2}{n^2}~\mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2024-03-20,211,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-03-24,6,130!2024-04-12,182,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2025-10-24,669,279!2024-11-23,484,299-->
 
@@ -91,7 +91,7 @@ The Bohr model fails to explain:
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-05-22,73,333-->
-- brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2024-03-17,18,273-->
+- brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2024-05-06,50,273-->
 - multiple [electrons](electron.md)→:::←naturalness <!--SR:!2026-06-05,837,324!2024-04-05,35,293-->
 - naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-03-21,21,273-->
 - structures→:::←_(end)_ <!--SR:!2024-05-13,66,333!2024-04-28,52,313-->

@@ -71,7 +71,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[combustion](#combustion) <!--SR:!2025-04-21,556,357!2025-06-02,586,357-->
 - [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2024-04-28,96,258!2024-05-21,319,338-->
-- [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2024-03-16,242,318!2024-04-27,300,338-->
+- [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2024-07-16,120,298!2024-04-27,300,338-->
 - [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2026-01-22,721,318!2024-10-07,318,298-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

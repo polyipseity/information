@@ -68,7 +68,7 @@ return await memorize_seq(
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
-- post hoc→:::←self-contradiction <!--SR:!2024-03-16,3,130!2024-04-04,260,315-->
+- post hoc→:::←self-contradiction <!--SR:!2024-03-22,4,130!2024-04-04,260,315-->
 - self-contradiction→:::←virtue by association <!--SR:!2024-10-13,387,295!2024-05-23,144,250-->
 - virtue by association→:::←weak analogies <!--SR:!2025-08-17,567,295!2024-08-30,205,275-->
 - weak analogies→:::←_(end)_ <!--SR:!2024-07-02,337,330!2024-04-23,90,275-->
@@ -117,7 +117,7 @@ return await memorize_table(
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2026-08-31,917,330-->
 - comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-04-08,28,135-->
-- factor/reason→:::←impact/problem <!--SR:!2024-03-18,136,215!2024-03-26,19,130-->
+- factor/reason→:::←impact/problem <!--SR:!2024-05-23,66,195!2024-03-26,19,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-03-28,95,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
 - solution→:::←value judgement <!--SR:!2024-04-15,142,255!2024-10-01,312,250-->
@@ -215,15 +215,15 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 > | {{feasibilities}} | {{consider practicalitiy contextually from both sides}} |
 > | {{pattern}} | {{describe the overall distribution, relations of variables, and trends}} |
 > | {{trend}} | {{describe the variation of data over time (e.g. increase, decrease, unchanged)}} |
-> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2024-04-05,261,315!2024-05-23,93,215!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-03-17,190,235-->
+> | {{with reference to}} | {{paraphrase the reference and deduce implications}} | <!--SR:!2024-04-02,258,310!2024-11-17,286,235!2024-08-25,361,295!2024-06-12,276,255!2025-09-08,610,315!2024-07-27,339,295!2024-04-05,261,315!2024-05-23,93,215!2024-04-09,265,315!2025-01-11,421,295!2025-03-13,490,295!2024-11-28,297,210!2024-03-29,254,315!2024-05-16,250,275!2025-05-08,552,315!2024-06-19,93,215-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
-- according to/refer to→:::←cause/reason <!--SR:!2024-03-16,1,130!2024-06-23,313,295-->
-- cause/reason→:::←effectiveness <!--SR:!2024-04-03,20,130!2024-03-18,191,235-->
+- according to/refer to→:::←cause/reason <!--SR:!2024-03-20,2,150!2024-06-23,313,295-->
+- cause/reason→:::←effectiveness <!--SR:!2024-04-03,20,130!2025-06-09,448,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
 - factor→:::←feasibilities <!--SR:!2024-11-20,411,290!2025-09-20,592,295-->
 - feasibilities→:::←pattern <!--SR:!2024-05-10,217,230!2024-03-26,20,130-->
@@ -397,7 +397,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Introduction) State your stance. <!--SR:!2024-07-30,340,295!2024-04-17,272,315-->
 - (Introduction) State your stance.→:::←Define or explain key terms or criteria required. <!--SR:!2024-08-17,322,255!2024-04-18,273,315-->
 - Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations. <!--SR:!2024-05-15,228,235!2024-11-07,341,255-->
-- (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-10-13,339,270!2024-03-16,189,235-->
+- (Body) Write 2 to 3 arguments from different parameters separated by paragraphing: topic sentence, evidence, elaboration, conclusion. Parameters can be weighed. State limitations.→:::←(Conclusion) Summarize arguments and restate your stance. <!--SR:!2024-10-13,339,270!2025-06-06,445,235-->
 - (Conclusion) Summarize arguments and restate your stance.→:::←_(end)_ <!--SR:!2024-03-30,255,315!2024-08-21,320,275-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->

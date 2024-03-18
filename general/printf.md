@@ -174,7 +174,7 @@ An integer or {{`*` specifying the minimum width}}. The result is {{padded with 
 
 ### precision
 
-An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}. <!--SR:!2024-03-21,139,297!2024-03-18,44,229-->
+An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}. <!--SR:!2024-03-21,139,297!2024-06-26,100,229-->
 
 ### length
 
@@ -228,7 +228,7 @@ A combination of zero or more of the following in any order:
 - hh→:::←j <!--SR:!2025-04-09,391,297!2024-04-23,172,309-->
 - j→:::←l <!--SR:!2024-06-13,223,329!2024-05-27,206,329-->
 - l→:::←ll <!--SR:!2024-04-29,178,317!2024-05-29,208,329-->
-- ll→:::←t <!--SR:!2024-03-25,143,297!2024-03-17,135,289-->
+- ll→:::←t <!--SR:!2024-03-25,143,297!2025-04-10,389,289-->
 - t→:::←z <!--SR:!2024-05-05,184,317!2024-04-08,157,297-->
 - z→:::←_(end)_ <!--SR:!2024-05-12,191,329!2024-06-01,211,329-->
 

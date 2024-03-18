@@ -62,7 +62,7 @@ The content is in teaching order.
 - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-05-21,76,349-->
 - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-05-24,79,349-->
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-05-01,55,329!2024-04-28,62,310-->
-  - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-03-17,26,270!2024-04-19,53,310-->
+  - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-05-27,70,270!2024-04-19,53,310-->
 - air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-06-06,90,349-->
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
@@ -73,7 +73,7 @@ The content is in teaching order.
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-03-29,32,315!2024-04-11,45,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
 - skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-03-27,33,282!2024-05-08,70,319-->
-- chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-04-27,61,322!2024-03-16,9,315-->
+- chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-04-27,61,322!2024-04-25,38,335-->
 - occupational health goals ::: protect the environment, general community, and workers' health <!--SR:!2024-04-23,54,302!2024-05-26,80,349-->
 
 ## oversized data
@@ -120,7 +120,7 @@ pneumonia
 - fever→:::←headache <!--SR:!2024-04-11,29,295!2024-04-27,54,335-->
 - headache→:::←malaise <!--SR:!2024-03-25,27,299!2024-04-28,54,319-->
 - malaise→:::←muscle ache <!--SR:!2024-05-05,60,335!2024-04-07,33,279-->
-- muscle ache→:::←pneumonia <!--SR:!2024-03-30,33,309!2024-03-17,20,299-->
+- muscle ache→:::←pneumonia <!--SR:!2024-03-30,33,309!2024-03-30,12,279-->
 - pneumonia→:::←_(end)_ <!--SR:!2024-05-27,80,359!2024-04-15,47,335-->
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
@@ -198,7 +198,7 @@ reduced sweating
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convulsions <!--SR:!2024-03-18,21,299!2024-05-26,80,359-->
+- _(begin)_→:::←convulsions <!--SR:!2024-05-18,61,299!2024-05-26,80,359-->
 - convulsions→:::←dry hot skin <!--SR:!2024-03-19,14,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-05-28,81,359-->
@@ -243,9 +243,9 @@ user
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control <!--SR:!2024-04-13,29,239!2024-05-20,75,359-->
-- control→:::←environment <!--SR:!2024-03-16,12,279!2024-03-30,29,279-->
+- control→:::←environment <!--SR:!2024-03-24,6,259!2024-03-30,29,279-->
 - environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-04-17,35,259-->
-- equipment→:::←material <!--SR:!2024-03-16,2,199!2024-03-21,18,269-->
+- equipment→:::←material <!--SR:!2024-03-22,4,199!2024-03-21,18,269-->
 - material→:::←process <!--SR:!2024-04-06,34,299!2024-03-20,17,269-->
 - process→:::←user <!--SR:!2024-04-26,51,299!2024-05-17,72,359-->
 - user→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-20,76,355-->
@@ -288,8 +288,8 @@ socio-psychological
 
 - _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-05-17,73,349-->
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
-- chemical→:::←ergonomic <!--SR:!2024-03-16,11,239!2024-03-21,24,295-->
-- ergonomic→:::←occupation-specific <!--SR:!2024-03-18,15,259!2024-03-23,25,299-->
+- chemical→:::←ergonomic <!--SR:!2024-04-12,25,239!2024-03-21,24,295-->
+- ergonomic→:::←occupation-specific <!--SR:!2024-04-25,38,259!2024-03-23,25,299-->
 - occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-03-19,22,299-->
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->
 - socio-psychological→:::←_(end)_ <!--SR:!2024-06-06,90,349!2024-04-26,43,335-->
@@ -330,7 +330,7 @@ workplace
 
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←general community environment <!--SR:!2024-03-18,20,279!2024-05-20,76,349-->
+- _(begin)_→:::←general community environment <!--SR:!2024-05-13,56,279!2024-05-20,76,349-->
 - general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-28,15,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
@@ -418,7 +418,7 @@ vibration
 - _(begin)_→:::←ionizing radiation <!--SR:!2024-04-09,27,275!2024-04-01,35,319-->
 - ionizing radiation→:::←noise <!--SR:!2024-03-29,31,289!2024-03-31,33,289-->
 - noise→:::←nonionizing radiation <!--SR:!2024-03-25,27,299!2024-04-15,45,319-->
-- nonionizing radiation→:::←pressure <!--SR:!2024-03-16,5,229!2024-03-20,14,249-->
+- nonionizing radiation→:::←pressure <!--SR:!2024-03-30,12,229!2024-03-20,14,249-->
 - pressure→:::←temperature <!--SR:!2024-05-23,78,355!2024-04-10,36,279-->
 - temperature→:::←vibration <!--SR:!2024-04-14,41,299!2024-04-14,45,339-->
 - vibration→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-03-19,19,279-->
