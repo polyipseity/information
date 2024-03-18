@@ -128,7 +128,6 @@ return _chain.from_iterable(await _gather(
 
 ### name–use(s)
 
-<<<<<<< HEAD
 <!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-12-21T13:06:37.104253+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2025-04-21,454,254-->
