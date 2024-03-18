@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -22,7 +22,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('49cc', 'ab23'),
   (
@@ -36,16 +36,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49cc"--><!-- The following content is generated at 2023-10-08T17:13:33.408871+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="49cc"--><!-- The following content is generated at 2023-10-08T17:13:33.408871+08:00. Any edits will be overridden! -->
 
 > 1. create positive first impression
 > 2. emphasize your knowledge of the company
 > 3. include extra information not in the [résumé](résumé.md)
 > 4. mention your referees
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:57.909356+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ab23"--><!-- The following content is generated at 2024-01-04T20:17:57.909356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create positive first impression <!--SR:!2024-06-12,128,310!2024-10-27,290,330-->
 - create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-11-12,257,290!2024-09-30,269,330-->
@@ -53,7 +53,7 @@ return await memorize_seq(
 - include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-03-25,72,270!2024-04-21,34,250-->
 - mention your referees→:::←_(end)_ <!--SR:!2024-04-27,100,310!2024-05-19,92,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## format
 
@@ -69,7 +69,7 @@ my CV and cover letter for your consideration.; (signature) <!--SR:!2024-04-18,1
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('a723', 'f123'),
   (
@@ -84,7 +84,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a723"--><!-- The following content is generated at 2023-10-09T23:03:32.658566+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a723"--><!-- The following content is generated at 2023-10-09T23:03:32.658566+08:00. Any edits will be overridden! -->
 
 > 1. your address, date, name and address of the company, recipient, and title
 > 2. why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job
@@ -92,9 +92,9 @@ return await memorize_seq(
 > 4. together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up
 > 5. from or signature
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:57.940249+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:57.940249+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-10-16,212,250!2024-11-12,304,330-->
 - your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-11-10,244,290-->
@@ -103,4 +103,4 @@ return await memorize_seq(
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-04-15,70,230-->
 - from or signature→:::←_(end)_ <!--SR:!2024-09-20,261,330!2024-05-07,50,270-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

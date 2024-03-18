@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -55,7 +55,7 @@ To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{h
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('ff11', 'abba'),
   (
@@ -68,22 +68,22 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2024-03-07T10:21:21.022126+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff11"--><!-- The following content is generated at 2024-03-07T10:21:21.022126+08:00. Any edits will be overridden! -->
 
 > 1. [dehydration](#dehydration)
 > 2. [nucleophilic substitution](#nucleophilic%20substitution)
 > 3. [oxidation](#oxidation)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.145207+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.145207+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-05-04,466,255!2024-07-18,366,340-->
 - [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2024-03-19,81,235!2024-06-14,119,300-->
 - [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2024-08-06,208,275!2024-03-20,21,200-->
 - [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2026-04-12,758,315!2024-06-30,348,335-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('d234', 'ddee'),
   ('name', 'description',),
@@ -37,20 +37,20 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d234"--><!-- The following content is generated at 2023-04-07T10:18:03.937580+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d234"--><!-- The following content is generated at 2023-04-07T10:18:03.937580+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}} |  | <!--SR:!2025-12-23,700,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ddee"--><!-- The following content is generated at 2024-01-04T20:17:52.669058+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ddee"--><!-- The following content is generated at 2024-01-04T20:17:52.669058+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md) <!--SR:!2024-07-02,350,330!2024-07-03,351,330-->
 - [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→:::←_(end)_ <!--SR:!2026-07-24,917,330!2024-04-29,145,270-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

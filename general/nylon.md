@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -30,7 +30,7 @@ Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('bba2', 'd83e'),
   (
@@ -51,7 +51,7 @@ return await memorize_seq(
 
 The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}. <!--SR:!2024-05-22,144,170-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bba2"--><!-- The following content is generated at 2024-03-07T10:21:21.098669+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bba2"--><!-- The following content is generated at 2024-03-07T10:21:21.098669+08:00. Any edits will be overridden! -->
 
 > 1. dyeable
 > 2. elastic
@@ -63,9 +63,9 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 > 8. washable
 > 9. [waterproof](waterproof.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d83e"--><!-- The following content is generated at 2024-01-04T20:17:52.459920+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d83e"--><!-- The following content is generated at 2024-01-04T20:17:52.459920+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←dyeable <!--SR:!2024-11-07,370,290!2024-04-22,279,290-->
 - dyeable→:::←elastic <!--SR:!2024-04-01,61,230!2025-12-16,684,310-->
@@ -78,7 +78,7 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 - washable→:::←[waterproof](waterproof.md) <!--SR:!2027-07-01,1200,350!2024-06-28,346,330-->
 - [waterproof](waterproof.md)→:::←_(end)_ <!--SR:!2027-06-13,1187,350!2024-07-28,317,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

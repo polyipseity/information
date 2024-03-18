@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -47,7 +47,7 @@ Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqu
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('204e', '249a'),
   (
@@ -58,18 +58,18 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="204e"--><!-- The following content is generated at 2024-03-07T10:32:08.807445+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="204e"--><!-- The following content is generated at 2024-03-07T10:32:08.807445+08:00. Any edits will be overridden! -->
 
 > 1. [reduction](#reduction)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="249a"--><!-- The following content is generated at 2024-01-04T20:17:51.957664+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="249a"--><!-- The following content is generated at 2024-01-04T20:17:51.957664+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[reduction](#reduction) <!--SR:!2025-01-13,436,299!2024-06-25,343,339-->
 - [reduction](#reduction)→:::←_(end)_ <!--SR:!2024-07-08,355,339!2024-07-13,361,339-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

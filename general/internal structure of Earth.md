@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -18,7 +18,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('2182ff', '239e8f'),
   ('name', 'description',),
@@ -35,7 +35,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2182ff"--><!-- The following content is generated at 2023-03-20T16:20:30.892404+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2182ff"--><!-- The following content is generated at 2023-03-20T16:20:30.892404+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -45,9 +45,9 @@ return await memorize_table(
 > | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
 > | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} | <!--SR:!2027-07-20,1223,350!2025-12-31,675,290!2027-02-02,1091,350!2024-09-18,348,270!2024-04-27,300,330!2024-07-06,217,210!2024-05-11,314,330!2025-01-19,448,290!2024-04-10,290,330!2024-12-23,425,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="239e8f"--><!-- The following content is generated at 2024-01-04T20:17:51.918666+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="239e8f"--><!-- The following content is generated at 2024-01-04T20:17:51.918666+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2027-03-08,1118,350!2027-03-24,1126,350-->
 - [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2024-04-18,296,330!2024-06-06,335,330-->
@@ -56,7 +56,7 @@ return await memorize_table(
 - [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2024-04-09,289,330!2027-07-28,1230,350-->
 - [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2027-03-31,1132,350!2024-05-12,315,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

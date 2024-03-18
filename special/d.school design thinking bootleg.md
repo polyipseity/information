@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ There are 5 "modes" to design thinking. Note that the "mode" order is {{only rec
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("2e33", "8baa",),
   R"""
@@ -39,7 +39,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2e33"--><!-- The following content is generated at 2024-03-12T21:10:03.104230+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2e33"--><!-- The following content is generated at 2024-03-12T21:10:03.104230+08:00. Any edits will be overridden! -->
 
 > 1. [empathize](#empathize) (blue)
 > 2. [define](#define) (green)
@@ -47,9 +47,9 @@ return await memorize_seq(
 > 4. [prototype](#prototype) (red)
 > 5. [test](#test) (brown)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[empathize](#empathize) (blue)
 - [empathize](#empathize) (blue)→:::←[define](#define) (green)
@@ -58,7 +58,7 @@ return await memorize_seq(
 - [prototype](#prototype) (red)→:::←[test](#test) (brown)
 - [test](#test) (brown)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### empathize
 
@@ -85,7 +85,7 @@ Test is {{testing your idea, gather feedback, and reiterate your design}}. It is
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("c123", "0a8b",),
   R"""
@@ -108,7 +108,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c123"--><!-- The following content is generated at 2024-03-12T22:01:55.495753+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-03-12T22:01:55.495753+08:00. Any edits will be overridden! -->
 
 > 1. (empathize) assume a beginner's mindset
 > 2. (empathize) extreme users: find amplified pains and gains
@@ -124,9 +124,9 @@ return await memorize_seq(
 > 12. (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board
 > 13. (define/ideate) powers of ten: change the scale by orders of magnitude
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0a8b"--><!-- The following content is generated at 2024-03-12T22:01:55.484735+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-12T22:01:55.484735+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(empathize) assume a beginner's mindset
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains
@@ -143,4 +143,4 @@ return await memorize_seq(
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
 
@@ -27,7 +27,7 @@ Below are common arithmetic operators. Operators have higher precedence than or 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "operator", "description"
@@ -55,7 +55,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-01-30T13:35:46.570804+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-30T13:35:46.570804+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
@@ -67,9 +67,9 @@ return _chain.from_iterable(await _gather(
 > | `+` | addition |
 > | `-` | subtraction |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`**` <!--SR:!2024-04-11,53,310!2024-04-21,61,310-->
 - `**`→:::←`*` <!--SR:!2024-04-09,51,310!2024-04-14,55,310-->
@@ -80,9 +80,9 @@ return _chain.from_iterable(await _gather(
 - `+`→:::←`-` <!--SR:!2024-04-22,61,310!2024-04-28,66,310-->
 - `-`→:::←_(end)_ <!--SR:!2024-05-04,72,310!2024-04-24,64,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
 - `**`::power <!--SR:!2024-04-06,48,310-->
 - `*`::multiplication <!--SR:!2024-04-29,67,310-->
@@ -92,7 +92,7 @@ return _chain.from_iterable(await _gather(
 - `+`::addition <!--SR:!2024-04-24,64,310-->
 - `-`::subtraction <!--SR:!2024-04-14,55,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### comparison operators
 
@@ -101,7 +101,7 @@ Below are common comparison operators, all of which returns {{a boolean}}. Opera
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "operator", "description"
@@ -129,7 +129,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.650809+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.650809+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
@@ -141,9 +141,9 @@ return _chain.from_iterable(await _gather(
 > | `!=` | not equal to |
 > | `==` | equal to |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`in` <!--SR:!2024-04-17,57,310!2024-04-24,63,310-->
 - `in`→:::←`<` <!--SR:!2024-05-05,73,310!2024-03-30,19,230-->
@@ -154,9 +154,9 @@ return _chain.from_iterable(await _gather(
 - `!=`→:::←`==` <!--SR:!2024-06-23,97,290!2024-04-13,54,310-->
 - `==`→:::←_(end)_ <!--SR:!2024-04-18,59,310!2024-04-19,59,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
 - `in`::membership test <!--SR:!2024-04-21,60,310-->
 - `<`::lesser than <!--SR:!2024-05-01,69,310-->
@@ -166,7 +166,7 @@ return _chain.from_iterable(await _gather(
 - `!=`::not equal to <!--SR:!2024-04-08,50,310-->
 - `==`::equal to <!--SR:!2024-04-20,60,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-04-13,55,310-->
 
@@ -179,7 +179,7 @@ Below are common logic operators, all of which {{accept two booleans and return 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "operator", "description"
@@ -203,7 +203,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.667324+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.667324+08:00. Any edits will be overridden! -->
 
 > | operator | description |
 > |-|-|
@@ -211,24 +211,24 @@ return _chain.from_iterable(await _gather(
 > | `and` | and |
 > | `or` | or |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`not` <!--SR:!2024-04-21,60,310!2024-04-16,57,310-->
 - `not`→:::←`and` <!--SR:!2024-04-19,59,310!2024-04-27,66,310-->
 - `and`→:::←`or` <!--SR:!2024-04-25,64,310!2024-04-14,56,310-->
 - `or`→:::←_(end)_ <!--SR:!2024-04-17,58,310!2024-04-07,49,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
 - `not`::negate <!--SR:!2024-04-15,56,310-->
 - `and`::and <!--SR:!2024-04-06,48,310-->
 - `or`::or <!--SR:!2024-04-10,52,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## variable
 

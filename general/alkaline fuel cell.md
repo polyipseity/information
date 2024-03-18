@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -38,7 +38,7 @@ Pure oxygen is needed {{to avoid poisoning the fuel cell by converting potassium
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d929', 'afb9'),
   (
@@ -53,7 +53,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2023-04-01T12:33:20.447271+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d929"--><!-- The following content is generated at 2023-04-01T12:33:20.447271+08:00. Any edits will be overridden! -->
 
 > 1. +: efficiency as high as 70%
 > 2. +: operate continuously, producing a stable supply of [electricity](electricity.md)
@@ -61,9 +61,9 @@ return await memorize_seq(
 > 4. -: expensive
 > 5. -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-01-04T20:17:51.172248+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-01-04T20:17:51.172248+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←+: efficiency as high as 70% <!--SR:!2024-07-24,195,272!2025-08-10,607,312-->
 - +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2024-05-04,68,172!2026-01-17,704,312-->
@@ -72,14 +72,14 @@ return await memorize_seq(
 - -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2024-10-25,357,250!2024-04-12,103,292-->
 - -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2026-01-28,789,332!2025-05-31,554,312-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## uses
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('2939', '2901'),
   (
@@ -93,16 +93,16 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2939"--><!-- The following content is generated at 2023-03-31T22:39:40.309569+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2939"--><!-- The following content is generated at 2023-03-31T22:39:40.309569+08:00. Any edits will be overridden! -->
 
 > 1. auxiliary heat and water source
 > 2. backup power source
 > 3. [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)
 > 4. remote power source
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2901"--><!-- The following content is generated at 2024-01-04T20:17:51.276821+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2901"--><!-- The following content is generated at 2024-01-04T20:17:51.276821+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←auxiliary heat and water source <!--SR:!2024-07-11,306,270!2024-05-13,316,332-->
 - auxiliary heat and water source→:::←backup power source <!--SR:!2025-08-17,607,310!2026-05-20,875,332-->
@@ -110,7 +110,7 @@ return await memorize_seq(
 - [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2024-10-12,344,292!2024-04-26,304,332-->
 - remote power source→:::←_(end)_ <!--SR:!2024-05-24,327,335!2025-03-18,480,295-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -20,7 +20,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('b9a823', 'dee23a'),
   ('name & pictogram', 'description',),
@@ -44,7 +44,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
 
 > | name & pictogram | description |
 > |-|-|
@@ -58,9 +58,9 @@ return await memorize_table(
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}} |  |
 > | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2024-04-05,285,330!2025-11-27,741,330!2026-05-19,870,330!2024-05-16,319,330!2027-07-14,1218,350!2026-07-21,921,330!2024-04-22,300,330!2027-07-03,1209,350!2024-05-17,320,330!2025-08-08,600,310!2024-04-23,301,330!2026-06-28,891,330!2025-06-28,569,310!2025-11-30,737,330!2027-07-21,1223,350!2025-07-26,620,310!2024-04-04,284,330!2026-03-03,781,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2027-07-09,1214,350!2024-04-15,295,330-->
 - GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2025-04-01,434,250!2027-08-02,1232,350-->
@@ -73,7 +73,7 @@ return await memorize_table(
 - GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2024-04-14,294,330!2025-10-21,656,310-->
 - GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2024-05-05,308,330!2024-04-21,299,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

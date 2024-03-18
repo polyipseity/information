@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("9ffa", "e939",),
   (
@@ -42,7 +42,7 @@ return await memorize_seq(
 
 ### processes classified by variable
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ffa"--><!-- The following content is generated at 2023-12-14T23:46:14.016807+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9ffa"--><!-- The following content is generated at 2023-12-14T23:46:14.016807+08:00. Any edits will be overridden! -->
 
 > 1. [adiabatic process](adiabatic%20process.md): $Q = 0$
 > 2. [isobaric process](isobaric%20process.md): $\Delta p = 0$
@@ -52,9 +52,9 @@ return await memorize_seq(
 > 6. [isothermal process](isothermal%20process.md): $\Delta T = 0$
 > 7. [polytropic process](polytropic%20process.md): $pV^n = C$
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e939"--><!-- The following content is generated at 2024-01-04T20:17:52.923705+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e939"--><!-- The following content is generated at 2024-01-04T20:17:52.923705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[adiabatic process](adiabatic%20process.md): $Q = 0$ <!--SR:!2024-06-17,127,310!2024-12-11,278,330-->
 - [adiabatic process](adiabatic%20process.md): $Q = 0$→:::←[isobaric process](isobaric%20process.md): $\Delta p = 0$ <!--SR:!2024-09-15,194,310!2024-05-25,108,310-->
@@ -65,7 +65,7 @@ return await memorize_seq(
 - [isothermal process](isothermal%20process.md): $\Delta T = 0$→:::←[polytropic process](polytropic%20process.md): $pV^n = C$ <!--SR:!2024-03-23,13,250!2024-08-09,180,310-->
 - [polytropic process](polytropic%20process.md): $pV^n = C$→:::←_(end)_ <!--SR:!2024-12-29,291,330!2024-06-27,134,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

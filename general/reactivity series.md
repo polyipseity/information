@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -25,7 +25,7 @@ A __reactivity series__ is {{a progression of series of [metals](metal.md) arran
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 
@@ -97,7 +97,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a2994d"--><!-- The following content is generated at 2024-02-17T20:43:15.082424+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a2994d"--><!-- The following content is generated at 2024-02-17T20:43:15.082424+08:00. Any edits will be overridden! -->
 
 > | [metal](metal.md) | [ion](ion.md) | [reactivity](reactivity%20(chemistry).md) | [extraction](extractive%20metallurgy.md) |
 > |-|-|-|-|
@@ -131,9 +131,9 @@ return _chain.from_iterable(await _gather(
 > | [gold](gold.md) | Au<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md) | heat or physical extraction |
 > | [platinum](platinum.md) | Pt<sup>4+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md) | heat or physical extraction |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
 - _(most reactive)_→:::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
 - [caesium](caesium.md)→:::←[rubidium](rubidium.md) <!--SR:!2024-10-25,391,270!2025-02-13,397,250-->
@@ -166,11 +166,11 @@ return _chain.from_iterable(await _gather(
 - [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2024-04-28,301,330!2027-04-17,1146,350-->
 - [platinum](platinum.md)→:::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2024-03-21,270,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### metal–ion
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1e32"--><!-- The following content is generated at 2024-02-17T20:43:14.994069+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1e32"--><!-- The following content is generated at 2024-02-17T20:43:14.994069+08:00. Any edits will be overridden! -->
 
 - [caesium](caesium.md)::Cs<sup>+</sup> <!--SR:!2026-12-21,1055,350-->
 - [rubidium](rubidium.md)::Rb<sup>+</sup> <!--SR:!2024-11-27,411,290-->
@@ -202,9 +202,9 @@ return _chain.from_iterable(await _gather(
 - [gold](gold.md)::Au<sup>3+</sup> <!--SR:!2025-04-23,526,310-->
 - [platinum](platinum.md)::Pt<sup>4+</sup> <!--SR:!2025-03-27,498,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8912"--><!-- The following content is generated at 2024-02-17T20:43:15.136674+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8912"--><!-- The following content is generated at 2024-02-17T20:43:15.136674+08:00. Any edits will be overridden! -->
 
 - Cs<sup>+</sup>::[caesium](caesium.md) <!--SR:!2024-05-26,76,345-->
 - Rb<sup>+</sup>::[rubidium](rubidium.md) <!--SR:!2024-05-19,69,345-->
@@ -236,11 +236,11 @@ return _chain.from_iterable(await _gather(
 - Au<sup>3+</sup>::[gold](gold.md) <!--SR:!2024-05-31,81,347-->
 - Pt<sup>4+</sup>::[platinum](platinum.md) <!--SR:!2024-06-08,87,345-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### metal–reactivity
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="22ba"--><!-- The following content is generated at 2024-02-17T20:43:15.064424+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-02-17T20:43:15.064424+08:00. Any edits will be overridden! -->
 
 - [caesium](caesium.md)::reacts with cold [water](water.md) <!--SR:!2024-04-02,282,330-->
 - [rubidium](rubidium.md)::reacts with cold [water](water.md) <!--SR:!2024-05-03,306,330-->
@@ -272,9 +272,9 @@ return _chain.from_iterable(await _gather(
 - [gold](gold.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-05-25,1177,350-->
 - [platinum](platinum.md)::may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2024-04-02,280,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="671a"--><!-- The following content is generated at 2024-02-17T20:43:15.023699+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="671a"--><!-- The following content is generated at 2024-02-17T20:43:15.023699+08:00. Any edits will be overridden! -->
 
 - reacts with cold [water](water.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2024-03-20,15,225-->
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)::[magnesium](magnesium.md) <!--SR:!2024-05-04,54,325-->
@@ -284,11 +284,11 @@ return _chain.from_iterable(await _gather(
 - may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-03-24,24,285-->
 - reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2024-05-22,72,345-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### metal–extraction
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba24"--><!-- The following content is generated at 2024-02-17T20:43:15.115428+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ba24"--><!-- The following content is generated at 2024-02-17T20:43:15.115428+08:00. Any edits will be overridden! -->
 
 - [caesium](caesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-04-21,294,330-->
 - [rubidium](rubidium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-04-22,295,330-->
@@ -320,9 +320,9 @@ return _chain.from_iterable(await _gather(
 - [gold](gold.md)::heat or physical extraction <!--SR:!2027-04-23,1150,350-->
 - [platinum](platinum.md)::heat or physical extraction <!--SR:!2024-05-30,328,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
 
 - [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-03-19,4,185-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md)::[titanium](titanium.md) <!--SR:!2024-03-26,25,287-->
@@ -330,7 +330,7 @@ return _chain.from_iterable(await _gather(
 - [aluminothermic reaction](aluminothermic%20reaction.md)::[chromium](chromium.md) <!--SR:!2024-04-21,34,267-->
 - heat or physical extraction::[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-03-31,29,285-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## reactions
 

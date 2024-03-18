@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -23,7 +23,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('0d93', 'ff11'),
   ('name', 'description',),
@@ -37,22 +37,22 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0d93"--><!-- The following content is generated at 2023-03-21T16:20:25.402524+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0d93"--><!-- The following content is generated at 2023-03-21T16:20:25.402524+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{[implants](implant%20(medicine).md)}} | {{[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}} |
 > | {{supersonic aircraft bodies}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2024-05-28,326,330!2024-12-13,367,250!2024-04-26,299,330!2025-04-27,429,230-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff11"--><!-- The following content is generated at 2024-01-04T20:17:52.894713+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff11"--><!-- The following content is generated at 2024-01-04T20:17:52.894713+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[implants](implant%20(medicine).md) <!--SR:!2024-05-29,327,330!2024-05-27,325,330-->
 - [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies <!--SR:!2025-04-09,461,310!2024-05-11,309,330-->
 - supersonic aircraft bodies→:::←_(end)_ <!--SR:!2024-04-25,298,330!2024-04-20,293,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

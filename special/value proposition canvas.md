@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ Value proposition design is for:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("28ba", "e441",),
   R"""
@@ -38,16 +38,16 @@ overwhelmed by true value creation vs. understand patterns of value creation
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28ba"--><!-- The following content is generated at 2024-03-13T20:27:37.405079+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-13T20:27:37.405079+08:00. Any edits will be overridden! -->
 
 > 1. disappointed by failure of a good idea vs. design, test, and deliver what customers want
 > 2. frustrated by unproductive meetings and teams vs. leverage the team fully
 > 3. involved in failed bold shiny projects vs. avoid wasting time in bad ideas
 > 4. overwhelmed by true value creation vs. understand patterns of value creation
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e441"--><!-- The following content is generated at 2024-03-13T20:27:37.439260+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-13T20:27:37.439260+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←disappointed by failure of a good idea vs. design, test, and deliver what customers want
 - disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←frustrated by unproductive meetings and teams vs. leverage the team fully
@@ -55,7 +55,7 @@ overwhelmed by true value creation vs. understand patterns of value creation
 - involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←overwhelmed by true value creation vs. understand patterns of value creation
 - overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}.
 
@@ -84,7 +84,7 @@ There are several [common mistakes](#customer%20profile%20common%20mistakes) to 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("ee21", "39ba",),
   R"""
@@ -100,7 +100,7 @@ vague jobs, pains, and gains
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee21"--><!-- The following content is generated at 2024-03-18T19:56:56.289497+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-03-18T19:56:56.289497+08:00. Any edits will be overridden! -->
 
 > 1. focusing on functional jobs only
 > 2. listing jobs, pains, and gains using your product value propositions
@@ -109,9 +109,9 @@ vague jobs, pains, and gains
 > 5. not enough jobs, pains, and gains
 > 6. vague jobs, pains, and gains
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39ba"--><!-- The following content is generated at 2024-03-18T19:56:56.268986+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-18T19:56:56.268986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←focusing on functional jobs only
 - focusing on functional jobs only→:::←listing jobs, pains, and gains using your product value propositions
@@ -121,7 +121,7 @@ vague jobs, pains, and gains
 - not enough jobs, pains, and gains→:::←vague jobs, pains, and gains
 - vague jobs, pains, and gains→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### value map
 
@@ -138,7 +138,7 @@ There are several [common mistakes](#value%20map%20common%20mistakes) to be awar
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("ec13", "8ba2",),
   R"""
@@ -152,16 +152,16 @@ offer irrelevant pain relievers and gain creators
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ec13"--><!-- The following content is generated at 2024-03-18T19:56:56.335505+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ec13"--><!-- The following content is generated at 2024-03-18T19:56:56.335505+08:00. Any edits will be overridden! -->
 
 > 1. addressing all customer pains and gains
 > 2. listing all products and services without considering the customer segment
 > 3. mixing products and services with pain relievers and gain creators
 > 4. offer irrelevant pain relievers and gain creators
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8ba2"--><!-- The following content is generated at 2024-03-18T19:56:56.299513+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-18T19:56:56.299513+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←addressing all customer pains and gains
 - addressing all customer pains and gains→:::←listing all products and services without considering the customer segment
@@ -169,7 +169,7 @@ offer irrelevant pain relievers and gain creators
 - mixing products and services with pain relievers and gain creators→:::←offer irrelevant pain relievers and gain creators
 - offer irrelevant pain relievers and gain creators→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### fit
 
@@ -192,7 +192,7 @@ Interviewing your customers has several steps:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("123f", "49ba",),
   R"""
@@ -208,7 +208,7 @@ find customer patterns
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123f"--><!-- The following content is generated at 2024-03-13T22:31:33.758027+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="123f"--><!-- The following content is generated at 2024-03-13T22:31:33.758027+08:00. Any edits will be overridden! -->
 
 > 1. create a customer profile
 > 2. outline the interview
@@ -217,9 +217,9 @@ find customer patterns
 > 5. review interview, and repeat from "outline the interview" several times, like 10 times
 > 6. find customer patterns
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create a customer profile
 - create a customer profile→:::←outline the interview
@@ -229,7 +229,7 @@ find customer patterns
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns
 - find customer patterns→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## test
 
@@ -240,7 +240,7 @@ Test is {{reducing risk and uncertainty of new ideas and then improving your val
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("9ba1", "c301",),
   R"""
@@ -257,7 +257,7 @@ making progress
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ba1"--><!-- The following content is generated at 2024-03-18T19:56:56.524257+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9ba1"--><!-- The following content is generated at 2024-03-18T19:56:56.524257+08:00. Any edits will be overridden! -->
 
 > 1. extracting hypotheses
 > 2. prioritizing hypotheses
@@ -267,9 +267,9 @@ making progress
 > 6. capturing findings
 > 7. making progress
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c301"--><!-- The following content is generated at 2024-03-18T19:56:56.553260+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-18T19:56:56.553260+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←extracting hypotheses
 - extracting hypotheses→:::←prioritizing hypotheses
@@ -280,7 +280,7 @@ making progress
 - capturing findings→:::←making progress
 - making progress→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### test card
 

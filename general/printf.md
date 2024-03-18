@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.gen import text
 from pytextgen.util import Result
 def link(name: str):
@@ -55,13 +55,13 @@ return (
 
 ### syntax
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b23d"--><!-- The following content is generated at 2023-08-24T21:36:58.847817+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b23d"--><!-- The following content is generated at 2023-08-24T21:36:58.847817+08:00. Any edits will be overridden! -->
 
 <code>%\[[parameter](#parameter)\]\[[flags](#flags)\]\[[width](#width)\]\[.[precision](#precision)\]\[[length](#length)\][type](#type)</code>
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="49bd"--><!-- The following content is generated at 2023-08-28T21:01:29.628061+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="49bd"--><!-- The following content is generated at 2023-08-28T21:01:29.628061+08:00. Any edits will be overridden! -->
 
 > 1. \[[parameter](#parameter)\]
 > 2. \[[flags](#flags)\]
@@ -70,9 +70,9 @@ return (
 > 5. \[[length](#length)\]
 > 6. [type](#type)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee2f"--><!-- The following content is generated at 2024-01-04T20:17:52.556525+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2024-01-04T20:17:52.556525+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←\[[parameter](#parameter)\] <!--SR:!2024-05-26,205,317!2024-05-29,208,329-->
 - \[[parameter](#parameter)\]→:::←\[[flags](#flags)\] <!--SR:!2024-06-09,219,329!2024-05-30,209,329-->
@@ -82,14 +82,14 @@ return (
 - \[[length](#length)\]→:::←[type](#type) <!--SR:!2024-06-06,216,329!2024-04-11,153,289-->
 - [type](#type)→:::←_(end)_ <!--SR:!2024-05-12,191,317!2024-05-26,205,329-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### parameter
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from functools import partial
 options = {
   "_n_$": "([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier",
@@ -104,27 +104,27 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f192"--><!-- The following content is generated at 2023-08-24T22:47:11.290253+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f192"--><!-- The following content is generated at 2023-08-24T22:47:11.290253+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
 > | {{_n_$}} | {{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}} | <!--SR:!2025-08-24,531,317!2024-06-12,222,329-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←_n_$ <!--SR:!2024-05-20,66,277!2024-06-11,221,329-->
 - _n_$→:::←_(end)_ <!--SR:!2024-04-29,178,317!2024-05-24,203,329-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### flags
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from functools import partial
 options = {
   "(space)": 'prepend a space before positive numbers; overridden by the [flag](#flag) `+`',
@@ -145,7 +145,7 @@ return await memorize_table(
 
 A combination of zero or more of the following in any order:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ff12"--><!-- The following content is generated at 2024-01-04T19:31:50.120526+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff12"--><!-- The following content is generated at 2024-01-04T19:31:50.120526+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
@@ -155,9 +155,9 @@ A combination of zero or more of the following in any order:
 > | {{-}} | {{align left}} |
 > | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} | <!--SR:!2024-04-27,176,317!2024-05-09,160,277!2024-05-18,197,317!2024-05-29,86,217!2024-05-08,187,317!2024-12-21,333,309!2024-05-17,196,329!2025-04-24,457,329!2024-05-19,198,329!2024-12-24,336,309-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(space) <!--SR:!2024-05-01,180,317!2024-05-20,199,329-->
 - (space)→:::←\# <!--SR:!2024-03-19,61,249!2024-06-03,213,329-->
@@ -166,7 +166,7 @@ A combination of zero or more of the following in any order:
 - -→:::←0 <!--SR:!2024-05-12,191,317!2024-03-30,148,297-->
 - 0→:::←_(end)_ <!--SR:!2024-06-22,232,329!2024-05-30,209,329-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### width
 
@@ -181,7 +181,7 @@ An integer or {{`*` specifying the precision, the meaning of which depends on th
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from functools import partial
 options = {
   "L": "`long double`-sized float",
@@ -205,7 +205,7 @@ return await memorize_table(
 
 A combination of zero or more of the following in any order:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3052"--><!-- The following content is generated at 2023-08-25T01:23:36.864394+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3052"--><!-- The following content is generated at 2023-08-25T01:23:36.864394+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
@@ -218,9 +218,9 @@ A combination of zero or more of the following in any order:
 > | {{t}} | {{`ptrdiff_t`-sized integer}} |
 > | {{z}} | {{`size_t`-sized integer}} | <!--SR:!2024-04-12,161,297!2024-04-23,172,317!2024-05-08,187,317!2025-03-15,423,317!2024-04-21,170,317!2024-04-23,172,317!2024-12-13,298,277!2025-04-15,420,297!2025-02-19,348,277!2024-05-05,184,317!2024-05-21,200,329!2024-06-15,225,329!2024-04-26,175,309!2024-04-14,163,309!2024-06-03,213,329!2024-04-02,151,309-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="beff"--><!-- The following content is generated at 2024-01-04T20:17:52.664065+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="beff"--><!-- The following content is generated at 2024-01-04T20:17:52.664065+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←L <!--SR:!2024-05-04,183,317!2024-06-22,232,329-->
 - L→:::←h <!--SR:!2024-05-27,133,257!2024-06-05,215,329-->
@@ -232,14 +232,14 @@ A combination of zero or more of the following in any order:
 - t→:::←z <!--SR:!2024-05-05,184,317!2024-04-08,157,297-->
 - z→:::←_(end)_ <!--SR:!2024-05-12,191,329!2024-06-01,211,329-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### type
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from functools import partial
 options = {
   "%": "literal %; rejects all other options",
@@ -266,7 +266,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="40db"--><!-- The following content is generated at 2023-09-16T08:38:52.742774+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="40db"--><!-- The following content is generated at 2023-09-16T08:38:52.742774+08:00. Any edits will be overridden! -->
 
 > | character | description |
 > |-|-|
@@ -284,9 +284,9 @@ return await memorize_table(
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
 > | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2024-04-15,164,310!2024-05-04,183,317!2024-04-27,176,317!2024-06-07,196,277!2024-05-08,187,317!2024-05-13,192,317!2024-05-04,183,317!2024-04-15,54,257!2024-04-19,168,317!2024-07-02,198,277!2024-04-30,179,317!2025-04-02,385,297!2024-05-10,189,317!2024-06-15,127,237!2024-06-07,217,329!2024-08-04,224,289!2024-04-03,152,309!2024-04-21,170,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2024-05-22,109,269!2024-06-10,220,329!2024-04-04,153,309-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="45dd"--><!-- The following content is generated at 2024-01-04T20:17:52.718619+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="45dd"--><!-- The following content is generated at 2024-01-04T20:17:52.718619+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←% <!--SR:!2024-05-21,200,329!2024-06-13,223,329-->
 - %→:::←a, A <!--SR:!2024-04-19,168,310!2024-06-07,217,329-->
@@ -303,7 +303,7 @@ return await memorize_table(
 - u→:::←x, X <!--SR:!2024-05-03,182,309!2024-05-29,208,329-->
 - x, X→:::←_(end)_ <!--SR:!2024-06-13,223,329!2024-05-30,209,329-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

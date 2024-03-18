@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -53,7 +53,7 @@ Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d924', '9581'),
   (
@@ -69,7 +69,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d924"--><!-- The following content is generated at 2024-03-07T10:22:08.855746+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d924"--><!-- The following content is generated at 2024-03-07T10:22:08.855746+08:00. Any edits will be overridden! -->
 
 > 1. [combustion](#combustion)
 > 2. [dihydroxylation](dihydroxylation.md)
@@ -78,9 +78,9 @@ return await memorize_seq(
 > 5. [hydrohalogenation](#hydrohalogenation)
 > 6. [polymerization](#polymerization)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9581"--><!-- The following content is generated at 2024-01-04T20:17:51.170254+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9581"--><!-- The following content is generated at 2024-01-04T20:17:51.170254+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[combustion](#combustion) <!--SR:!2026-03-24,784,330!2024-03-20,275,330-->
 - [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-06-19,124,310!2024-07-28,199,290-->
@@ -90,7 +90,7 @@ return await memorize_seq(
 - [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2025-05-16,473,271!2024-12-22,449,311-->
 - [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2024-07-25,373,351!2024-07-18,365,351-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

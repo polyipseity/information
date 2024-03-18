@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -29,7 +29,7 @@ A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('aa02', '2845'),
   (
@@ -45,16 +45,16 @@ return await memorize_seq(
 
 [Measurement errors](observational%20error.md) may be caused by:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa02"--><!-- The following content is generated at 2023-04-02T00:29:33.569770+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aa02"--><!-- The following content is generated at 2023-04-02T00:29:33.569770+08:00. Any edits will be overridden! -->
 
 > 1. conditions are not standard conditions
 > 2. heat capacities of equipment are not accounted for
 > 3. heat loss to the surroundings
 > 4. reaction is incomplete
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2845"--><!-- The following content is generated at 2024-01-04T20:17:51.455468+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2845"--><!-- The following content is generated at 2024-01-04T20:17:51.455468+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←conditions are not standard conditions <!--SR:!2024-03-24,54,230!2024-06-03,332,330-->
 - conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2024-04-04,41,250!2024-06-19,174,230-->
@@ -62,7 +62,7 @@ return await memorize_seq(
 - heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2024-06-01,330,330!2024-06-09,338,330-->
 - reaction is incomplete→:::←_(end)_ <!--SR:!2024-05-31,329,330!2024-04-10,84,230-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

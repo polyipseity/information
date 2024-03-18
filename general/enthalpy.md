@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -40,7 +40,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d92a', '9911'),
   (
@@ -56,16 +56,16 @@ return await memorize_seq(
 
 Enthalpy changes are measured under the following {{standard conditions}}: <!--SR:!2024-06-07,336,330-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d92a"--><!-- The following content is generated at 2023-04-01T23:56:04.117433+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d92a"--><!-- The following content is generated at 2023-04-01T23:56:04.117433+08:00. Any edits will be overridden! -->
 
 > 1. [concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>
 > 2. [physical states](physical%20state.md): [standard states](standard%20state.md)
 > 3. [pressure](pressure.md): 1 [atm](atmosphere%20(unit).md)
 > 4. [temperature](temperature.md): 25 °C/298.15 K
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9911"--><!-- The following content is generated at 2024-01-04T20:17:51.631097+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9911"--><!-- The following content is generated at 2024-01-04T20:17:51.631097+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup> <!--SR:!2024-10-13,229,278!2024-06-15,344,338-->
 - [concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>→:::←[physical states](physical%20state.md): [standard states](standard%20state.md) <!--SR:!2024-06-08,337,330!2024-06-06,335,330-->
@@ -73,14 +73,14 @@ Enthalpy changes are measured under the following {{standard conditions}}: <!--S
 - [pressure](pressure.md): 1 [atm](atmosphere%20(unit).md)→:::←[temperature](temperature.md): 25 °C/298.15 K <!--SR:!2025-10-10,676,310!2024-11-06,315,290-->
 - [temperature](temperature.md): 25 °C/298.15 K→:::←_(end)_ <!--SR:!2024-06-16,345,338!2024-10-03,220,258-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### chemical properties
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_map(
   __env__.cwf_sects('1294', 'abba', '9687'),
   {
@@ -95,29 +95,29 @@ return await memorize_map(
 
 For [chemical properties](chemical%20property.md):
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1294"--><!-- The following content is generated at 2023-04-02T00:13:11.400053+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1294"--><!-- The following content is generated at 2023-04-02T00:13:11.400053+08:00. Any edits will be overridden! -->
 
 > 1. [enthalpy of combustion](standard%20enthalpy%20of%20combustion.md): enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md)
 > 2. [enthalpy of formation](standard%20enthalpy%20of%20formation.md): enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states
 > 3. [enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md): enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.719624+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.719624+08:00. Any edits will be overridden! -->
 
 - [enthalpy of combustion](standard%20enthalpy%20of%20combustion.md)::enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md) <!--SR:!2025-08-03,628,310-->
 - [enthalpy of formation](standard%20enthalpy%20of%20formation.md)::enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states <!--SR:!2025-03-26,480,290-->
 - [enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md)::enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md) <!--SR:!2026-01-19,724,318-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9687"--><!-- The following content is generated at 2024-01-04T20:17:51.682615+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9687"--><!-- The following content is generated at 2024-01-04T20:17:51.682615+08:00. Any edits will be overridden! -->
 
 - enthalpy change of complete [combustion](combustion.md) of a [mole](mole%20(unit).md) of a [substance](chemical%20substance.md)::[enthalpy of combustion](standard%20enthalpy%20of%20combustion.md) <!--SR:!2024-06-14,343,338-->
 - enthalpy change of formation of a [mole](mole%20(unit).md) of a [compound](chemical%20compound.md) from its constituent [elements](chemical%20element.md) in their reference states::[enthalpy of formation](standard%20enthalpy%20of%20formation.md) <!--SR:!2024-06-17,346,338-->
 - enthalpy change of [neutralization](neutralization%20(chemistry).md) with the formation of a [mole](mole%20(unit).md) of [water](water.md)::[enthalpy of neutralization](standard%20enthalpy%20of%20neutralization.md) <!--SR:!2024-06-13,342,338-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

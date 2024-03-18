@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
 
@@ -299,7 +299,7 @@ See [Water Cube](../../../../general/Water%20Cube.md).
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("5920", "9281",),
   """
@@ -318,7 +318,7 @@ quantity surveyor
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5920"--><!-- The following content is generated at 2024-02-16T21:59:46.862014+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5920"--><!-- The following content is generated at 2024-02-16T21:59:46.862014+08:00. Any edits will be overridden! -->
 
 > 1. building services engineer
 > 2. consulting civil engineer
@@ -330,9 +330,9 @@ quantity surveyor
 > 8. environmental consultant
 > 9. quantity surveyor
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←building services engineer
 - building services engineer→:::←consulting civil engineer
@@ -345,14 +345,14 @@ quantity surveyor
 - environmental consultant→:::←quantity surveyor
 - quantity surveyor→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### civil engineering examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("22ba", "39fa",),
   """
@@ -371,7 +371,7 @@ water
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="22ba"--><!-- The following content is generated at 2024-02-16T21:59:47.075698+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-02-16T21:59:47.075698+08:00. Any edits will be overridden! -->
 
 > 1. bridge
 > 2. building
@@ -383,9 +383,9 @@ water
 > 8. transport
 > 9. water
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fa"--><!-- The following content is generated at 2024-02-16T21:59:47.042572+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-02-16T21:59:47.042572+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge
 - bridge→:::←building
@@ -398,14 +398,14 @@ water
 - transport→:::←water
 - water→:::←_(end)_ <!--SR:!2024-03-31,18,326!2024-03-25,12,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### civil engineering new challenges
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("958b", "9f12",),
   """
@@ -420,7 +420,7 @@ water security
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="958b"--><!-- The following content is generated at 2024-02-16T21:59:47.124114+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="958b"--><!-- The following content is generated at 2024-02-16T21:59:47.124114+08:00. Any edits will be overridden! -->
 
 > 1. climate change
 > 2. extreme weather
@@ -428,9 +428,9 @@ water security
 > 4. mega-cities
 > 5. water security
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←climate change <!--SR:!2024-03-26,13,305!2000-01-01,1,250-->
 - climate change→:::←extreme weather
@@ -439,14 +439,14 @@ water security
 - mega-cities→:::←water security
 - water security→:::←_(end)_ <!--SR:!2024-03-29,16,310!2000-01-01,1,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### civil engineering non-technical issues
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("847b", "1e12",),
   """
@@ -465,7 +465,7 @@ workmanship
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="847b"--><!-- The following content is generated at 2024-02-16T21:59:47.141114+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="847b"--><!-- The following content is generated at 2024-02-16T21:59:47.141114+08:00. Any edits will be overridden! -->
 
 > 1. budget
 > 2. construction management
@@ -477,9 +477,9 @@ workmanship
 > 8. social
 > 9. workmanship
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1e12"--><!-- The following content is generated at 2024-02-16T21:59:47.165148+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-02-16T21:59:47.165148+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budget
 - budget→:::←construction management
@@ -492,14 +492,14 @@ workmanship
 - social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-03-24,6,230-->
 - workmanship→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### civil engineering slogans in Hong Kong
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("09a1", "e823",),
   """
@@ -513,16 +513,16 @@ We Engineer Hong Kong’s Development
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="09a1"--><!-- The following content is generated at 2024-02-16T21:59:47.189715+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="09a1"--><!-- The following content is generated at 2024-02-16T21:59:47.189715+08:00. Any edits will be overridden! -->
 
 > 1. 興土木 利民生 齊拓展 創明天
 > 2. We Bring The Best Engineering To Life
 > 3. 卓越工程 建設香港
 > 4. We Engineer Hong Kong’s Development
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2000-01-01,1,250!2024-03-29,16,310-->
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life
@@ -530,14 +530,14 @@ We Engineer Hong Kong’s Development
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development
 - We Engineer Hong Kong’s Development→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### civil engineering subdisciplines
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("ba02", "137b",),
   """
@@ -554,7 +554,7 @@ transportation
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ba02"--><!-- The following content is generated at 2024-02-16T21:59:47.257694+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ba02"--><!-- The following content is generated at 2024-02-16T21:59:47.257694+08:00. Any edits will be overridden! -->
 
 > 1. construction
 > 2. environmental
@@ -564,9 +564,9 @@ transportation
 > 6. structural
 > 7. transportation
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="137b"--><!-- The following content is generated at 2024-02-16T21:59:47.274701+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-02-16T21:59:47.274701+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←construction
 - construction→:::←environmental
@@ -577,14 +577,14 @@ transportation
 - structural→:::←transportation
 - transportation→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### complex shape examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("019e", "cc12",),
   """
@@ -601,7 +601,7 @@ Water Cube
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="019e"--><!-- The following content is generated at 2024-03-10T00:25:48.755033+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="019e"--><!-- The following content is generated at 2024-03-10T00:25:48.755033+08:00. Any edits will be overridden! -->
 
 > 1. Beijing National Stadium
 > 2. Burj Al Arab
@@ -611,9 +611,9 @@ Water Cube
 > 6. Hong Kong Convention and Exhibition Centre
 > 7. Water Cube
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium
 - Beijing National Stadium→:::←Burj Al Arab
@@ -624,14 +624,14 @@ Water Cube
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube
 - Water Cube→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### construction engineer characteristics
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("a461", "ee20",),
   """
@@ -647,7 +647,7 @@ teaming up with others
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a461"--><!-- The following content is generated at 2024-02-16T21:59:47.354759+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a461"--><!-- The following content is generated at 2024-02-16T21:59:47.354759+08:00. Any edits will be overridden! -->
 
 > 1. business procedures
 > 2. economics
@@ -656,9 +656,9 @@ teaming up with others
 > 5. strong communication skills
 > 6. teaming up with others
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures
 - business procedures→:::←economics
@@ -668,14 +668,14 @@ teaming up with others
 - strong communication skills→:::←teaming up with others
 - teaming up with others→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### construction engineer jobs
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("9338", "a93e",),
   """
@@ -697,7 +697,7 @@ testing materials
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9338"--><!-- The following content is generated at 2024-02-16T21:59:47.407186+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9338"--><!-- The following content is generated at 2024-02-16T21:59:47.407186+08:00. Any edits will be overridden! -->
 
 > 1. budgeting
 > 2. contracts
@@ -712,9 +712,9 @@ testing materials
 > 11. surveying building site
 > 12. testing materials
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a93e"--><!-- The following content is generated at 2024-02-16T21:59:47.431612+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-02-16T21:59:47.431612+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budgeting
 - budgeting→:::←contracts
@@ -730,14 +730,14 @@ testing materials
 - surveying building site→:::←testing materials
 - testing materials→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### construction material examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("ee10", "20b9",),
   """
@@ -753,7 +753,7 @@ wood
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee10"--><!-- The following content is generated at 2024-02-17T22:07:04.929721+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee10"--><!-- The following content is generated at 2024-02-17T22:07:04.929721+08:00. Any edits will be overridden! -->
 
 > 1. brick
 > 2. concrete
@@ -762,9 +762,9 @@ wood
 > 5. stone
 > 6. wood
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brick <!--SR:!2000-01-01,1,250!2024-05-05,58,312-->
 - brick→:::←concrete
@@ -774,14 +774,14 @@ wood
 - stone→:::←wood
 - wood→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### engineer types
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("39ba", "ee13",),
   """
@@ -803,7 +803,7 @@ nuclear
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39ba"--><!-- The following content is generated at 2024-02-17T22:07:05.005339+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-02-17T22:07:05.005339+08:00. Any edits will be overridden! -->
 
 > 1. agricultural
 > 2. architectural
@@ -818,9 +818,9 @@ nuclear
 > 11. mechanical
 > 12. nuclear
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee13"--><!-- The following content is generated at 2024-02-16T21:59:47.533086+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-16T21:59:47.533086+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←agricultural <!--SR:!2024-03-23,12,290!2000-01-01,1,250-->
 - agricultural→:::←architectural
@@ -836,14 +836,14 @@ nuclear
 - mechanical→:::←nuclear
 - nuclear→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-01,19,325-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### environmental engineering areas
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("3ab2", "736f",),
   """
@@ -858,7 +858,7 @@ water
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3ab2"--><!-- The following content is generated at 2024-02-16T21:59:47.560674+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3ab2"--><!-- The following content is generated at 2024-02-16T21:59:47.560674+08:00. Any edits will be overridden! -->
 
 > 1. air
 > 2. environmental impact assessment (EIA)
@@ -866,9 +866,9 @@ water
 > 4. waste
 > 5. water
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air <!--SR:!2000-01-01,1,250!2024-03-27,14,310-->
 - air→:::←environmental impact assessment (EIA)
@@ -877,14 +877,14 @@ water
 - waste→:::←water
 - water→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### environmental impact components
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("3577", "238a",),
   """
@@ -899,7 +899,7 @@ socioeconomic
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3577"--><!-- The following content is generated at 2024-02-16T21:59:47.614103+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3577"--><!-- The following content is generated at 2024-02-16T21:59:47.614103+08:00. Any edits will be overridden! -->
 
 > 1. biological
 > 2. chemical
@@ -907,9 +907,9 @@ socioeconomic
 > 4. physical
 > 5. socioeconomic
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological
 - biological→:::←chemical
@@ -918,14 +918,14 @@ socioeconomic
 - physical→:::←socioeconomic
 - socioeconomic→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### geo-technical engineering risks
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("aad2", "50ba",),
   """
@@ -939,16 +939,16 @@ soil liquefaction
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aad2"--><!-- The following content is generated at 2024-02-17T22:07:05.106933+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-02-17T22:07:05.106933+08:00. Any edits will be overridden! -->
 
 > 1. debris flows
 > 2. landslides
 > 3. rockfalls
 > 4. soil liquefaction
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="50ba"--><!-- The following content is generated at 2024-02-17T22:07:05.158955+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-02-17T22:07:05.158955+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←debris flows
 - debris flows→:::←landslides
@@ -956,14 +956,14 @@ soil liquefaction
 - rockfalls→:::←soil liquefaction <!--SR:!2000-01-01,1,250!2024-03-19,8,270-->
 - soil liquefaction→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### geo-technical engineering structure examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("300f", "11ab",),
   """
@@ -977,16 +977,16 @@ tunnels
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="300f"--><!-- The following content is generated at 2024-02-16T21:59:47.692514+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="300f"--><!-- The following content is generated at 2024-02-16T21:59:47.692514+08:00. Any edits will be overridden! -->
 
 > 1. embankments
 > 2. pile foundations
 > 3. shallow foundations
 > 4. tunnels
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="11ab"--><!-- The following content is generated at 2024-02-16T21:59:47.674464+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-02-16T21:59:47.674464+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←embankments
 - embankments→:::←pile foundations
@@ -994,14 +994,14 @@ tunnels
 - shallow foundations→:::←tunnels
 - tunnels→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hydraulic engineering structure examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("901a", "234f",),
   """
@@ -1015,16 +1015,16 @@ levees
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="901a"--><!-- The following content is generated at 2024-02-16T21:59:47.709515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="901a"--><!-- The following content is generated at 2024-02-16T21:59:47.709515+08:00. Any edits will be overridden! -->
 
 > 1. canals
 > 2. channels
 > 3. dams
 > 4. levees
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="234f"--><!-- The following content is generated at 2024-02-16T21:59:47.727515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-02-16T21:59:47.727515+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←canals
 - canals→:::←channels
@@ -1032,14 +1032,14 @@ levees
 - dams→:::←levees
 - levees→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hydraulic engineering system examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("942a", "019b",),
   """
@@ -1053,16 +1053,16 @@ water distribution networks
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="942a"--><!-- The following content is generated at 2024-02-16T21:59:47.753515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="942a"--><!-- The following content is generated at 2024-02-16T21:59:47.753515+08:00. Any edits will be overridden! -->
 
 > 1. sewage collection networks
 > 2. storm water management
 > 3. water collection networks
 > 4. water distribution networks
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="019b"--><!-- The following content is generated at 2024-02-16T21:59:47.738515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-02-16T21:59:47.738515+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←sewage collection networks
 - sewage collection networks→:::←storm water management
@@ -1070,14 +1070,14 @@ water distribution networks
 - water collection networks→:::←water distribution networks
 - water distribution networks→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### long-span structure examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("928b", "e7f2",),
   """
@@ -1092,7 +1092,7 @@ Tsing Ma Bridge
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="928b"--><!-- The following content is generated at 2024-02-16T21:59:47.794069+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="928b"--><!-- The following content is generated at 2024-02-16T21:59:47.794069+08:00. Any edits will be overridden! -->
 
 > 1. Akashi Kaikyo Bridge
 > 2. Hong Kong–Zhuhai–Macau Bridge
@@ -1100,9 +1100,9 @@ Tsing Ma Bridge
 > 4. Sutong Yangtze River Bridge
 > 5. Tsing Ma Bridge
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Akashi Kaikyo Bridge
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge
@@ -1111,14 +1111,14 @@ Tsing Ma Bridge
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-22,11,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### materials engineer job examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("3681", "198b",),
   """
@@ -1131,29 +1131,29 @@ develop strengthening techniques for damaged structures or structural members li
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3681"--><!-- The following content is generated at 2024-02-17T22:07:05.265864+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3681"--><!-- The following content is generated at 2024-02-17T22:07:05.265864+08:00. Any edits will be overridden! -->
 
 > 1. choose suitable materials to resurface a road like asphalt pavement
 > 2. design a concrete mix for a large building
 > 3. develop strengthening techniques for damaged structures or structural members like a damaged column
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="198b"--><!-- The following content is generated at 2024-02-17T22:07:05.230868+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-02-17T22:07:05.230868+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←choose suitable materials to resurface a road like asphalt pavement
 - choose suitable materials to resurface a road like asphalt pavement→:::←design a concrete mix for a large building
 - design a concrete mix for a large building→:::←develop strengthening techniques for damaged structures or structural members like a damaged column
 - develop strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### materials engineering material examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("628b", "eee1",),
   """
@@ -1168,7 +1168,7 @@ polypropylene fiber reinforced concrete
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="628b"--><!-- The following content is generated at 2024-02-16T21:59:47.848067+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="628b"--><!-- The following content is generated at 2024-02-16T21:59:47.848067+08:00. Any edits will be overridden! -->
 
 > 1. artificial stone
 > 2. cellular concrete
@@ -1176,9 +1176,9 @@ polypropylene fiber reinforced concrete
 > 4. fly ash concrete
 > 5. polypropylene fiber reinforced concrete
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←artificial stone <!--SR:!2000-01-01,1,250!2024-04-01,19,325-->
 - artificial stone→:::←cellular concrete
@@ -1187,14 +1187,14 @@ polypropylene fiber reinforced concrete
 - fly ash concrete→:::←polypropylene fiber reinforced concrete
 - polypropylene fiber reinforced concrete→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### natural disaster examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("27b6", "4372",),
   """
@@ -1209,7 +1209,7 @@ waves
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="27b6"--><!-- The following content is generated at 2024-02-16T21:59:47.869588+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="27b6"--><!-- The following content is generated at 2024-02-16T21:59:47.869588+08:00. Any edits will be overridden! -->
 
 > 1. earthquakes
 > 2. fires
@@ -1217,9 +1217,9 @@ waves
 > 4. strong winds
 > 5. waves
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4372"--><!-- The following content is generated at 2024-02-16T21:59:47.880110+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-02-16T21:59:47.880110+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←earthquakes
 - earthquakes→:::←fires
@@ -1228,14 +1228,14 @@ waves
 - strong winds→:::←waves <!--SR:!2024-03-19,8,270!2000-01-01,1,250-->
 - waves→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### reinforced concrete structure examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("385a", "daaf",),
   """
@@ -1248,29 +1248,29 @@ Two Prudential Plaza
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="385a"--><!-- The following content is generated at 2024-02-16T21:59:47.914537+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="385a"--><!-- The following content is generated at 2024-02-16T21:59:47.914537+08:00. Any edits will be overridden! -->
 
 > 1. Central Plaza (Hong Kong)
 > 2. China International Trust and Investment (CITIC) Plaza
 > 3. Two Prudential Plaza
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Central Plaza (Hong Kong)
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza
 - Two Prudential Plaza→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### steel or concrete–steel composite structure examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("238b", "938f",),
   """
@@ -1284,16 +1284,16 @@ Taipei 101
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="238b"--><!-- The following content is generated at 2024-02-16T21:59:47.935623+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="238b"--><!-- The following content is generated at 2024-02-16T21:59:47.935623+08:00. Any edits will be overridden! -->
 
 > 1. HSBC Main Building
 > 2. International Commerce Centre
 > 3. John Hancock Center
 > 4. Taipei 101
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2000-01-01,1,250!2024-05-23,73,310-->
 - HSBC Main Building→:::←International Commerce Centre
@@ -1301,14 +1301,14 @@ Taipei 101
 - John Hancock Center→:::←Taipei 101
 - Taipei 101→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### structural code of practice examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("0102", "2ff2",),
   """
@@ -1323,7 +1323,7 @@ Hong Kong Code
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0102"--><!-- The following content is generated at 2024-02-16T21:59:47.965624+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0102"--><!-- The following content is generated at 2024-02-16T21:59:47.965624+08:00. Any edits will be overridden! -->
 
 > 1. American Code
 > 2. Austrian Standard
@@ -1331,9 +1331,9 @@ Hong Kong Code
 > 4. Eurocode
 > 5. Hong Kong Code
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2ff2"--><!-- The following content is generated at 2024-02-16T21:59:47.984175+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-02-16T21:59:47.984175+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←American Code
 - American Code→:::←Austrian Standard
@@ -1342,14 +1342,14 @@ Hong Kong Code
 - Eurocode→:::←Hong Kong Code
 - Hong Kong Code→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-27,14,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### structural engineering examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("67bb", "1002",),
   """
@@ -1367,7 +1367,7 @@ water towers
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="67bb"--><!-- The following content is generated at 2024-02-16T21:59:48.019178+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="67bb"--><!-- The following content is generated at 2024-02-16T21:59:48.019178+08:00. Any edits will be overridden! -->
 
 > 1. bridges
 > 2. buildings
@@ -1378,9 +1378,9 @@ water towers
 > 7. unusual structures
 > 8. water towers
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1002"--><!-- The following content is generated at 2024-02-16T21:59:48.005175+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-02-16T21:59:48.005175+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridges
 - bridges→:::←buildings
@@ -1392,14 +1392,14 @@ water towers
 - unusual structures→:::←water towers
 - water towers→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### structural failure example
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("5a34", "34aa",),
   """
@@ -1418,7 +1418,7 @@ and the Structural Engineering Institute (SEI).
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5a34"--><!-- The following content is generated at 2024-02-16T21:59:48.041209+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-02-16T21:59:48.041209+08:00. Any edits will be overridden! -->
 
 > 1. On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 > 2. Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
@@ -1430,9 +1430,9 @@ and the Structural Engineering Institute (SEI).
 > 8. the Geode Institute (GI),
 > 9. and the Structural Engineering Institute (SEI).
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="34aa"--><!-- The following content is generated at 2024-02-16T21:59:48.061176+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-02-16T21:59:48.061176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2000-01-01,1,250!2024-03-30,17,310-->
 - On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
@@ -1445,14 +1445,14 @@ and the Structural Engineering Institute (SEI).
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2000-01-01,1,250!2024-03-28,15,310-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2024-03-30,17,310!2024-03-27,14,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### transportation engineering structure examples
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("38b7", "a928",),
   """
@@ -1470,7 +1470,7 @@ water
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="38b7"--><!-- The following content is generated at 2024-02-16T21:59:48.094737+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-02-16T21:59:48.094737+08:00. Any edits will be overridden! -->
 
 > 1. air
 > 2. airports
@@ -1481,9 +1481,9 @@ water
 > 7. railroads
 > 8. water
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a928"--><!-- The following content is generated at 2024-02-16T21:59:48.076725+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-02-16T21:59:48.076725+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air
 - air→:::←airports <!--SR:!2024-03-23,12,290!2000-01-01,1,250-->
@@ -1495,14 +1495,14 @@ water
 - railroads→:::←water
 - water→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### water engineering
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("448b", "1123",),
   """
@@ -1517,7 +1517,7 @@ water treatment
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="448b"--><!-- The following content is generated at 2024-02-16T21:59:48.116755+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="448b"--><!-- The following content is generated at 2024-02-16T21:59:48.116755+08:00. Any edits will be overridden! -->
 
 > 1. groundwater quality control
 > 2. wastewater recycling
@@ -1525,9 +1525,9 @@ water treatment
 > 4. water quality monitoring
 > 5. water treatment
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←groundwater quality control
 - groundwater quality control→:::←wastewater recycling
@@ -1536,4 +1536,4 @@ water treatment
 - water quality monitoring→:::←water treatment
 - water treatment→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-21,10,286-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

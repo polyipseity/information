@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -25,7 +25,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('33dd', '39fb',),
   (
@@ -41,7 +41,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="33dd"--><!-- The following content is generated at 2024-03-18T20:03:11.156734+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="33dd"--><!-- The following content is generated at 2024-03-18T20:03:11.156734+08:00. Any edits will be overridden! -->
 
 > 1. [classical physics](classical%20physics.md): [Newton's laws of motion](Newton's%20laws%20of%20motion.md) apply. Less important.
 > 2. [collision](collision.md) only: No [forces](force.md) between particles, particles and the walls, and particles and the surroundings except for point-like [collisions](collision.md). Explains failing at low [temperatures](temperature.md) and with gases with strong [intermolecular forces](intermolecular%20force.md) like [water vapor](water%20vapor.md).
@@ -50,9 +50,9 @@ return await memorize_seq(
 > 5. [randomness](randomness.md): Particles are constantly moving in random directions with a distribution of speeds. Less important.
 > 6. spacious: Average distance between particles is much larger than the size of the particles. Explains failing at high [pressures](pressure.md) and with large particles.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="39fb"--><!-- The following content is generated at 2024-03-18T20:03:11.126018+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39fb"--><!-- The following content is generated at 2024-03-18T20:03:11.126018+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[classical physics](classical%20physics.md): [Newton's laws of motion](Newton's%20laws%20of%20motion.md) apply. Less important. <!--SR:!2024-08-28,181,310!2024-05-13,91,290-->
 - [classical physics](classical%20physics.md): [Newton's laws of motion](Newton's%20laws%20of%20motion.md) apply. Less important.→:::←[collision](collision.md) only: No [forces](force.md) between particles, particles and the walls, and particles and the surroundings except for point-like [collisions](collision.md). Explains failing at low [temperatures](temperature.md) and with gases with strong [intermolecular forces](intermolecular%20force.md) like [water vapor](water%20vapor.md). <!--SR:!2024-03-27,59,250!2024-12-27,291,330-->
@@ -62,7 +62,7 @@ return await memorize_seq(
 - [randomness](randomness.md): Particles are constantly moving in random directions with a distribution of speeds. Less important.→:::←spacious: Average distance between particles is much larger than the size of the particles. Explains failing at high [pressures](pressure.md) and with large particles. <!--SR:!2024-05-24,99,250!2024-05-11,101,290-->
 - spacious: Average distance between particles is much larger than the size of the particles. Explains failing at high [pressures](pressure.md) and with large particles.→:::←_(end)_ <!--SR:!2024-09-28,204,310!2024-04-28,82,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

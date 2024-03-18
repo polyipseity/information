@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 principles: gen.TextCode = gen.seq_to_code((
     '[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)',
@@ -153,7 +153,7 @@ return (
 %%
 
 The steps for naming an organic compound are:
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5193cd"--><!-- The following content is generated at 2022-11-05T00:24:43.599371+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5193cd"--><!-- The following content is generated at 2022-11-05T00:24:43.599371+08:00. Any edits will be overridden! -->
 
 > 1. [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
 > 2. identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
@@ -168,9 +168,9 @@ The steps for naming an organic compound are:
 > 11. [modify punctuations](#modify%20punctuations)
 > 12. prefix notation for _cis_–_trans_ isomerism
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="48dca2"--><!-- The following content is generated at 2024-01-04T20:17:52.046217+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="48dca2"--><!-- The following content is generated at 2024-01-04T20:17:52.046217+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2026-02-20,924,345-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
@@ -186,13 +186,13 @@ The steps for naming an organic compound are:
 - [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-05-05,413,273!2024-06-14,400,307-->
 - prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2024-05-06,376,307-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### subprinciples
 
 #### identify parent hydrocarbon chain
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="12cd9e"--><!-- The following content is generated at 2022-11-05T00:24:43.629369+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="12cd9e"--><!-- The following content is generated at 2022-11-05T00:24:43.629369+08:00. Any edits will be overridden! -->
 
 > 1. most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
 > 2. most multiple bonds
@@ -200,9 +200,9 @@ The steps for naming an organic compound are:
 > 4. most prefixes
 > 5. most single bonds
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
 - most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
@@ -211,80 +211,80 @@ The steps for naming an organic compound are:
 - most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2024-04-04,127,262-->
 - most single bonds→:::←_(end)_ <!--SR:!2024-04-27,145,325!2025-03-21,668,345-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### identify numbering direction
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="10dacd"--><!-- The following content is generated at 2022-11-05T00:24:43.659370+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="10dacd"--><!-- The following content is generated at 2022-11-05T00:24:43.659370+08:00. Any edits will be overridden! -->
 
 > 1. smallest locant for the suffix functional group
 > 2. smallest locant for multiple bonds
 > 3. smallest locant for prefixes
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2024-05-06,433,362-->
 - smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2024-09-02,481,322-->
 - smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2028-02-06,1523,286!2026-02-13,908,345-->
 - smallest locant for prefixes→:::←_(end)_ <!--SR:!2029-03-04,1841,382!2024-05-21,381,305-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### arrange
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ab93dd"--><!-- The following content is generated at 2024-02-17T20:15:49.350229+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ab93dd"--><!-- The following content is generated at 2024-02-17T20:15:49.350229+08:00. Any edits will be overridden! -->
 
 > 1. bond order: single bond, double bond, triple bond, ...
 > 2. prefix order: alphabetical order ignoring prefixes for type count
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2024-05-29,104,267-->
 - bond order: single bond, double bond, triple bond, ...→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2024-11-29,563,322-->
 - prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### modify words for pronunciation
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="299372"--><!-- The following content is generated at 2022-11-05T00:24:43.721370+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="299372"--><!-- The following content is generated at 2022-11-05T00:24:43.721370+08:00. Any edits will be overridden! -->
 
 > - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u): drop '-e'
 > - bond suffix is followed by prefix for type count: keep '-e'
 > - prefix for carbon count is followed by prefix for type count: add '-a'
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
 - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
 - bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2024-03-25,117,201-->
 - prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2025-08-29,636,230!2024-06-11,211,210-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### modify punctuations
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a920de"--><!-- The following content is generated at 2022-11-05T00:24:43.754371+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a920de"--><!-- The following content is generated at 2022-11-05T00:24:43.754371+08:00. Any edits will be overridden! -->
 
 > 1. commas (,) between locants
 > 2. hyphens (-) between word and locant
 > 3. remove (most) spaces ( )
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9293da"--><!-- The following content is generated at 2024-01-04T20:17:52.218337+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9293da"--><!-- The following content is generated at 2024-01-04T20:17:52.218337+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←commas (,) between locants <!--SR:!2025-05-09,838,332!2025-03-14,596,320-->
 - commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2027-12-20,1550,313!2024-09-15,436,321-->
 - hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2027-07-15,1340,362-->
 - remove (most) spaces ( )→:::←_(end)_ <!--SR:!2024-04-06,410,367!2026-02-19,925,347-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### prefix for type count
 
@@ -299,7 +299,7 @@ See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 import typing
 @typing.final
@@ -368,7 +368,7 @@ return (
 
 Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bonds must use suffixes. Always add infixes.
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28dcee"--><!-- The following content is generated at 2024-03-18T20:03:11.193569+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28dcee"--><!-- The following content is generated at 2024-03-18T20:03:11.193569+08:00. Any edits will be overridden! -->
 
 > | class | group | formula | prefix | suffix | infix | misc |
 > |-|-|-|-|-|-|-|
@@ -388,9 +388,9 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > | amide | amide | RCONH<sub>2</sub>, RCONHR', RCONR'R'' | amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>) | -amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>) | (locant) & _N_ (R', R'') |  |
 > | nitrile | nitrile | RCN | cyano- | -nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN) | (locant) |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a39fd2"--><!-- The following content is generated at 2024-03-18T20:03:11.252900+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a39fd2"--><!-- The following content is generated at 2024-03-18T20:03:11.252900+08:00. Any edits will be overridden! -->
 
 > {{alkane}}
 >
@@ -543,14 +543,14 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
 > - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2027-10-13,1401,368!2024-04-08,411,368!2026-03-30,958,348!2025-07-18,623,268!2024-04-14,417,368-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### affixes for halogen
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 import typing
 @typing.final
@@ -582,7 +582,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="adc061"--><!-- The following content is generated at 2023-03-20T16:20:31.116658+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="adc061"--><!-- The following content is generated at 2023-03-20T16:20:31.116658+08:00. Any edits will be overridden! -->
 
 > | element | prefix | suffix |
 > |-|-|-|
@@ -591,14 +591,14 @@ return (
 > | bromine | {{bromo-}} | {{bromide}} |
 > | iodine | {{iodo-}} | {{iodide}} | <!--SR:!2030-01-01,2169,321!2027-06-10,1524,364!2029-08-18,2063,324!2027-07-17,1556,366!2029-01-05,1878,327!2029-07-16,2137,367!2030-07-08,2325,332!2028-10-14,1915,373-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### precedence of functional groups
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 text: gen.TextCode = gen.seq_to_code((
   'cation',
@@ -631,7 +631,7 @@ return (
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="19cfa2"--><!-- The following content is generated at 2023-11-27T13:04:06.855552+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="19cfa2"--><!-- The following content is generated at 2023-11-27T13:04:06.855552+08:00. Any edits will be overridden! -->
 
 > 1. cation
 > 2. carboxylic acid
@@ -643,9 +643,9 @@ return (
 > 8. hydroperoxide
 > 9. amine
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad92c1"--><!-- The following content is generated at 2024-01-04T20:17:52.277346+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ad92c1"--><!-- The following content is generated at 2024-01-04T20:17:52.277346+08:00. Any edits will be overridden! -->
 
 - _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2028-10-09,1910,372-->
 - cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2026-01-18,914,276-->
@@ -658,14 +658,14 @@ return (
 - hydroperoxide→:::←amine <!--SR:!2024-06-08,197,244!2024-05-21,515,272-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-08-28,171,247-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## trivial names
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('f91a', 'dd91'),
   ('trivial name', 'systematic name',),
@@ -682,7 +682,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f91a"--><!-- The following content is generated at 2023-04-04T23:50:24.828005+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f91a"--><!-- The following content is generated at 2023-04-04T23:50:24.828005+08:00. Any edits will be overridden! -->
 
 > | trivial name | systematic name |
 > |-|-|
@@ -692,9 +692,9 @@ return await memorize_table(
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
 > | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2024-04-25,303,364!2024-07-16,350,364!2025-06-13,493,324!2024-05-10,237,364!2026-10-12,956,364!2024-04-29,307,364-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd91"--><!-- The following content is generated at 2024-01-04T20:17:52.316866+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd91"--><!-- The following content is generated at 2024-01-04T20:17:52.316866+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2024-11-11,469,384!2024-11-22,478,384-->
 - [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2024-12-05,489,384-->
@@ -703,7 +703,7 @@ return await memorize_table(
 - [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2024-05-06,104,324!2024-07-17,351,364-->
 - [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2024-09-20,233,304-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

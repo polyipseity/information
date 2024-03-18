@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ The __Reichstein process__ is {{a combined [chemical](chemical%20reaction.md) an
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d894', '4051',),
   (
@@ -44,7 +44,7 @@ return await memorize_seq(
 >
 > overview of Reichstein process <!--SR:!2024-03-21,205,255-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d894"--><!-- The following content is generated at 2023-05-03T15:02:08.407219+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d894"--><!-- The following content is generated at 2023-05-03T15:02:08.407219+08:00. Any edits will be overridden! -->
 
 > 1. [hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md)
 > 2. microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C
@@ -53,9 +53,9 @@ return await memorize_seq(
 > 5. ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)
 > 6. purification of [ʟ-ascorbic acid](vitamin%20C.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="4051"--><!-- The following content is generated at 2024-01-04T20:17:52.516473+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4051"--><!-- The following content is generated at 2024-01-04T20:17:52.516473+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md) <!--SR:!2024-05-03,91,250!2024-05-14,294,330-->
 - [hydrogenation](hydrogenation.md) of ᴅ-[glucose](glucose.md) to ᴅ-[sorbitol](sorbitol.md) with [nickel](nickel.md) as a [catalyst](catalysis.md) in high [temperature](temperature.md) and [pressure](pressure.md)→:::←microbial [oxidation](oxidation.md) of ᴅ-[sorbitol](sorbitol.md) to ʟ-[sorbose](sorbose.md) with [acetobacter](acetobacter.md) at [pH](pH.md) 4 to 6 and 30 °C <!--SR:!2024-08-30,310,270!2024-05-10,246,270-->
@@ -65,7 +65,7 @@ return await memorize_seq(
 - ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)→:::←purification of [ʟ-ascorbic acid](vitamin%20C.md) <!--SR:!2025-12-15,659,310!2024-07-25,292,270-->
 - purification of [ʟ-ascorbic acid](vitamin%20C.md)→:::←_(end)_ <!--SR:!2024-04-05,262,330!2024-08-06,311,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## importance
 

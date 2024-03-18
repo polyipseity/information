@@ -16,7 +16,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -33,7 +33,7 @@ Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [no
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 ca_or_below = 'reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above'
 return await memorize_map(
   __env__.cwf_sects('0439', '1d5e', 'ffa2'),
@@ -50,7 +50,7 @@ return await memorize_map(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0439"--><!-- The following content is generated at 2023-03-20T22:20:19.330004+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0439"--><!-- The following content is generated at 2023-03-20T22:20:19.330004+08:00. Any edits will be overridden! -->
 
 > 1. [beryllium](beryllium.md): no reaction with water or steam
 > 2. [magnesium](magnesium.md): reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas
@@ -59,9 +59,9 @@ return await memorize_map(
 > 5. [barium](barium.md): reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above
 > 6. [radium](radium.md): unknown
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1d5e"--><!-- The following content is generated at 2024-01-04T20:17:51.324357+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1d5e"--><!-- The following content is generated at 2024-01-04T20:17:51.324357+08:00. Any edits will be overridden! -->
 
 - [beryllium](beryllium.md)::no reaction with water or steam <!--SR:!2024-04-18,119,210-->
 - [magnesium](magnesium.md)::reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2024-06-05,120,190-->
@@ -70,16 +70,16 @@ return await memorize_map(
 - [barium](barium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2024-04-14,68,190-->
 - [radium](radium.md)::unknown <!--SR:!2024-06-04,338,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ffa2"--><!-- The following content is generated at 2024-01-04T20:17:51.367373+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ffa2"--><!-- The following content is generated at 2024-01-04T20:17:51.367373+08:00. Any edits will be overridden! -->
 
 - no reaction with water or steam::[beryllium](beryllium.md) <!--SR:!2024-10-03,377,290-->
 - reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas::[magnesium](magnesium.md) <!--SR:!2024-05-16,270,270-->
 - reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2024-04-02,86,230-->
 - unknown::[radium](radium.md) <!--SR:!2024-03-25,43,230-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### reaction with acids
 

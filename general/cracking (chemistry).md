@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -27,7 +27,7 @@ It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('923d', '395a'),
   ('name', 'description',),
@@ -41,22 +41,22 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="923d"--><!-- The following content is generated at 2023-03-25T13:57:02.622846+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="923d"--><!-- The following content is generated at 2023-03-25T13:57:02.622846+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | {{catalytic cracking}} | {{Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
 > | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2026-12-15,1055,350!2024-04-11,215,230!2027-07-29,1231,350!2024-10-29,292,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="395a"--><!-- The following content is generated at 2024-01-04T20:17:51.499997+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="395a"--><!-- The following content is generated at 2024-01-04T20:17:51.499997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←catalytic cracking <!--SR:!2024-05-28,331,330!2024-04-28,308,330-->
 - catalytic cracking→:::←thermal cracking <!--SR:!2026-08-27,893,330!2024-05-03,311,330-->
 - thermal cracking→:::←_(end)_ <!--SR:!2024-04-27,307,330!2024-04-01,287,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### laboratory
 

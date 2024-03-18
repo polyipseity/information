@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -46,7 +46,7 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('dd12', '102a'),
   (
@@ -59,22 +59,22 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd12"--><!-- The following content is generated at 2024-03-07T10:21:21.092666+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd12"--><!-- The following content is generated at 2024-03-07T10:21:21.092666+08:00. Any edits will be overridden! -->
 
 > 1. [combustion](#combustion)
 > 2. [cracking](#cracking)
 > 3. [halogenation](#halogenation)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="102a"--><!-- The following content is generated at 2024-01-04T20:17:51.259818+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="102a"--><!-- The following content is generated at 2024-01-04T20:17:51.259818+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[combustion](#combustion) <!--SR:!2025-04-21,556,357!2025-06-02,586,357-->
 - [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2024-04-28,96,258!2024-05-21,319,338-->
 - [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2024-07-16,120,298!2024-04-27,300,338-->
 - [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2026-01-22,721,318!2024-10-07,318,298-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 
