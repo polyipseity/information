@@ -88,7 +88,7 @@ The solution is as below, which matches with our physical intuition:
 
 > [!tip] tips
 >
-> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$.
+> - why $\cos(\omega t + \varphi)$ increases (for negative $\zeta$, decreases) initially ::: One may note that initially, $\cos(\omega t + \varphi)$ increases (decreases) while $e^{-\lambda t}$ decreases (increases). These effects cancel out to give a [derivative](derivative.md) of 0 at $t = 0$, matching the given initial values.
 
 ### sinusoidal driving force
 
@@ -116,7 +116,7 @@ Consider a system with {{a sinusoidal driving [force](force.md) with max force $
 > & = A \cos(\omega_d t + \varphi) && (\text{drop the imaginary part}) \end{aligned}
 > \end{aligned}$$
 
-The steady-state solution is as below (the transient solution can be found {{from the homogeneous equation}}):
+The transient solution can be found {{from the homogeneous equation}}. The steady-state solution is as below:
 
 > __driven, damped harmonic oscillator with sinusoidal driving force, {{steady-state solution}}__
 >

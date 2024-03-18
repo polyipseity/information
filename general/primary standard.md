@@ -39,6 +39,8 @@ return await memorize_seq(
     'non-[toxicity](toxicity.md)',
     'ready and cheap availability',
   ),
+  pretext="most important",
+  posttext="least important",
 )
 ```
 
@@ -56,16 +58,16 @@ return await memorize_seq(
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2024-01-04T20:17:52.521477+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fb92"--><!-- The following content is generated at 2024-03-18T19:56:56.252984+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←high purity
+- _(most important)_→:::←high purity
 - high purity→:::←low [reactivity](reactivity%20(chemistry).md)
 - low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)
 - low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions
 - high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md)
 - high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md)
 - non-[toxicity](toxicity.md)→:::←ready and cheap availability
-- ready and cheap availability→:::←_(end)_
+- ready and cheap availability→:::←_(least important)_
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
