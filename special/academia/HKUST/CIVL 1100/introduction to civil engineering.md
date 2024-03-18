@@ -98,7 +98,7 @@ The content is in teaching order.
 - construction engineering ::: planning and execution of the designs from other fields of engineers
   - [construction engineer characteristics](#construction%20engineer%20characteristics)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial and management sectors. <!--SR:!2024-03-20,9,285!2024-03-28,15,310-->
+- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-03-20,9,285!2024-03-28,15,310-->
   - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-03-21,10,285!2024-03-31,18,310-->
@@ -589,8 +589,8 @@ return await memorize_seq(
   __env__.cwf_sects("019e", "cc12",),
   """
 Beijing National Stadium
-Burj Khalifa
 Burj Al Arab
+Burj Khalifa
 CCTV Headquarters
 Eiffel Tower
 Hong Kong Convention and Exhibition Centre
@@ -601,11 +601,11 @@ Water Cube
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="019e"--><!-- The following content is generated at 2024-02-16T21:59:47.306760+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="019e"--><!-- The following content is generated at 2024-03-10T00:25:48.755033+08:00. Any edits will be overridden! -->
 
 > 1. Beijing National Stadium
-> 2. Burj Khalifa
-> 3. Burj Al Arab
+> 2. Burj Al Arab
+> 3. Burj Khalifa
 > 4. CCTV Headquarters
 > 5. Eiffel Tower
 > 6. Hong Kong Convention and Exhibition Centre
@@ -613,12 +613,12 @@ Water Cube
 
 <!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-02-16T21:59:47.330760+08:00. Any edits will be overridden! -->
+<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium
-- Beijing National Stadium→:::←Burj Khalifa <!--SR:!2024-04-05,18,270!2000-01-01,1,250-->
-- Burj Khalifa→:::←Burj Al Arab
-- Burj Al Arab→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-22,4,250-->
+- Beijing National Stadium→:::←Burj Al Arab
+- Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-04-05,18,270!2000-01-01,1,250-->
+- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-22,4,250-->
 - CCTV Headquarters→:::←Eiffel Tower
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube
