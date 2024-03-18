@@ -88,10 +88,6 @@ void Menu::manageFoodItems() {
             case 1: {
                 cout << "Current Menu items: "<< endl;
                 displayMenu();
-                if (isFull()) {
-                    cout << "Menu is full. Cannot add more food items." << endl;
-                    return;
-                }
                     // Get user input for food details
                     string name;
                     float price; // Ensure this is float to match the constructor
