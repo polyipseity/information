@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen import gen, read, util
 import typing
 @typing.final
@@ -116,7 +116,7 @@ return (
 
 ## methyl orange
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="a9208f"--><!-- The following content is generated at 2023-08-01T10:43:41.600103+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a9208f"--><!-- The following content is generated at 2023-08-01T10:43:41.600103+08:00. Any edits will be overridden! -->
 
 > | pH | color |
 > |-|-|
@@ -124,28 +124,28 @@ return (
 > | 3.1~4.4 | <span style="color: orange;">orange</span> |
 > | 4.4~ | <span style="color: yellow;">yellow</span> |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d82740"--><!-- The following content is generated at 2024-01-04T20:17:52.374886+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d82740"--><!-- The following content is generated at 2024-01-04T20:17:52.374886+08:00. Any edits will be overridden! -->
 
 - _(acidic)_→:::←~3.1 <!--SR:!2024-03-19,316,261!2027-09-11,1369,341-->
 - ~3.1→:::←3.1~4.4 <!--SR:!2027-04-27,1208,301!2027-07-28,1309,321-->
 - 3.1~4.4→:::←4.4~ <!--SR:!2025-03-27,641,301!2025-05-01,618,261-->
 - 4.4~→:::←_(basic)_ <!--SR:!2027-09-27,1382,341!2024-05-04,376,261-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1389d0"--><!-- The following content is generated at 2024-01-04T20:17:52.448925+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1389d0"--><!-- The following content is generated at 2024-01-04T20:17:52.448925+08:00. Any edits will be overridden! -->
 
 - ~3.1:::<span style="color: red;">red</span> <!--SR:!2025-07-03,814,270!2025-10-28,844,250-->
 - 3.1~4.4:::<span style="color: orange;">orange</span> <!--SR:!2027-02-04,1210,270!2025-12-15,881,250-->
 - 4.4~:::<span style="color: yellow;">yellow</span> <!--SR:!2025-02-10,584,250!2024-07-06,250,190-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## litmus
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2acde1"--><!-- The following content is generated at 2023-08-01T10:43:41.619622+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2acde1"--><!-- The following content is generated at 2023-08-01T10:43:41.619622+08:00. Any edits will be overridden! -->
 
 > | pH | color |
 > |-|-|
@@ -153,28 +153,28 @@ return (
 > | 5~8 | <span style="color: purple; background-color: white;">purple</span> |
 > | 8~ | <span style="color: blue; background-color: white;">blue</span> |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f25a99"--><!-- The following content is generated at 2024-01-04T20:17:52.407406+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f25a99"--><!-- The following content is generated at 2024-01-04T20:17:52.407406+08:00. Any edits will be overridden! -->
 
 - _(acidic)_→:::←~5 <!--SR:!2024-07-22,442,281!2028-05-06,1555,341-->
 - ~5→:::←5~8 <!--SR:!2024-05-04,389,281!2025-06-12,724,321-->
 - 5~8→:::←8~ <!--SR:!2027-07-23,1305,321!2026-06-22,829,261-->
 - 8~→:::←_(basic)_ <!--SR:!2026-04-03,931,321!2024-11-04,516,281-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29f820"--><!-- The following content is generated at 2024-01-04T20:17:52.498475+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="29f820"--><!-- The following content is generated at 2024-01-04T20:17:52.498475+08:00. Any edits will be overridden! -->
 
 - ~5:::<span style="color: red;">red</span> <!--SR:!2026-05-11,1063,290!2026-10-31,1141,270-->
 - 5~8:::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-10-04,553,250!2025-10-29,845,250-->
 - 8~:::<span style="color: blue; background-color: white;">blue</span> <!--SR:!2026-02-06,999,290!2025-02-20,517,230-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## phenolphthalein
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5c8883"--><!-- The following content is generated at 2023-08-01T10:43:41.457564+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5c8883"--><!-- The following content is generated at 2023-08-01T10:43:41.457564+08:00. Any edits will be overridden! -->
 
 > | pH | color |
 > |-|-|
@@ -182,24 +182,24 @@ return (
 > | 8.3~10 | <span style="color: lightPink;">very pale pink</span> |
 > | 10~ | <span style="color: pink;">pink</span> |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="155d9a"--><!-- The following content is generated at 2024-01-04T20:17:52.334864+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="155d9a"--><!-- The following content is generated at 2024-01-04T20:17:52.334864+08:00. Any edits will be overridden! -->
 
 - _(acidic)_→:::←~8.3 <!--SR:!2025-04-10,524,241!2028-01-31,1480,341-->
 - ~8.3→:::←8.3~10 <!--SR:!2024-12-23,553,281!2025-06-28,704,301-->
 - 8.3~10→:::←10~ <!--SR:!2026-02-19,833,301!2026-02-04,796,261-->
 - 10~→:::←_(basic)_ <!--SR:!2028-05-01,1551,341!2024-12-18,548,281-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0245d8"--><!-- The following content is generated at 2024-01-04T20:17:52.306888+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0245d8"--><!-- The following content is generated at 2024-01-04T20:17:52.306888+08:00. Any edits will be overridden! -->
 
 - ~8.3:::colorless <!--SR:!2024-04-13,349,230!2024-06-09,343,230-->
 - 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-04-27,906,250!2024-09-28,357,210-->
 - 10~:::<span style="color: pink;">pink</span> <!--SR:!2024-05-03,391,250!2028-06-29,1596,270-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

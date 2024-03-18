@@ -13,7 +13,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('320d', 'f123'),
   ('name', 'description',),
@@ -41,7 +41,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="320d"--><!-- The following content is generated at 2023-03-21T16:20:25.313146+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="320d"--><!-- The following content is generated at 2023-03-21T16:20:25.313146+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -51,9 +51,9 @@ return await memorize_table(
 > | {{soft drink cans}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}} |
 > | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} | <!--SR:!2024-03-23,92,190!2025-09-15,581,250!2024-10-12,353,270!2024-05-11,232,230!2024-05-07,270,290!2024-03-31,72,130!2025-09-14,628,310!2024-05-04,192,210!2027-01-27,1091,350!2025-03-04,395,230-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←aircraft bodies <!--SR:!2026-05-09,866,330!2024-04-07,292,330-->
 - aircraft bodies→:::←kitchen foil <!--SR:!2024-06-18,144,230!2024-04-12,249,270-->
@@ -62,7 +62,7 @@ return await memorize_table(
 - soft drink cans→:::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
 - window frames→:::←_(end)_ <!--SR:!2027-03-12,1123,350!2024-04-29,109,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

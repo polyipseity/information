@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -25,7 +25,7 @@ __Plastics__ are {{[synthetic](synthetic%20polymers.md) or semi-synthetic [mater
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = ('name', '[chemical formula](chemical%20formula.md)', '[property(s)](property.md)', 'use(s)',)
@@ -60,7 +60,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9403"--><!-- The following content is generated at 2023-12-04T08:10:23.099047+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9403"--><!-- The following content is generated at 2023-12-04T08:10:23.099047+08:00. Any edits will be overridden! -->
 
 > | name | [chemical formula](chemical%20formula.md) | [property(s)](property.md) | use(s) |
 > |-|-|-|-|
@@ -72,9 +72,9 @@ return _chain.from_iterable(await _gather(
 > | [polystyrene](polystyrene.md) (PS) | ![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg) | expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) | expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) |
 > | [polyvinyl chloride](polyvinyl%20chloride.md) (PVC) | ![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) | [brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) | [electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="234a"--><!-- The following content is generated at 2024-01-04T20:17:52.496485+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="234a"--><!-- The following content is generated at 2024-01-04T20:17:52.496485+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[high-density polyethylene](high-density%20polyethylene.md) (HDPE) <!--SR:!2024-06-08,337,334!2024-08-11,390,341-->
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)→:::←[low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2024-06-06,335,334!2024-08-10,389,341-->
@@ -85,11 +85,11 @@ return _chain.from_iterable(await _gather(
 - [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-05-11,314,334!2024-07-16,260,281-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)→:::←_(end)_ <!--SR:!2024-05-12,315,334!2024-06-07,336,334-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### name–chemical formula
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="30f9"--><!-- The following content is generated at 2024-01-04T20:17:52.436922+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="30f9"--><!-- The following content is generated at 2024-01-04T20:17:52.436922+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2024-04-22,295,330-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2024-05-23,321,334-->
@@ -99,9 +99,9 @@ return _chain.from_iterable(await _gather(
 - [polystyrene](polystyrene.md) (PS)::![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg) <!--SR:!2024-07-23,131,301-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) <!--SR:!2024-07-26,372,349-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9283"--><!-- The following content is generated at 2024-01-04T20:17:52.533818+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9283"--><!-- The following content is generated at 2024-01-04T20:17:52.533818+08:00. Any edits will be overridden! -->
 
 - ![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg)::[high-density polyethylene](high-density%20polyethylene.md) (HDPE), [low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2024-06-04,333,334-->
 - ![polyethylene terephthalate](../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg)::[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2024-04-14,155,274-->
@@ -110,11 +110,11 @@ return _chain.from_iterable(await _gather(
 - ![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg)::[polystyrene](polystyrene.md) (PS) <!--SR:!2026-02-23,747,321-->
 - ![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)::[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-07-28,373,349-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### name–property(s)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e928"--><!-- The following content is generated at 2024-01-04T20:17:52.406405+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e928"--><!-- The following content is generated at 2024-01-04T20:17:52.406405+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md) <!--SR:!2024-04-27,90,194-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2024-06-15,222,214-->
@@ -124,11 +124,11 @@ return _chain.from_iterable(await _gather(
 - [polystyrene](polystyrene.md) (PS)::expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2024-06-26,108,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2024-03-21,52,130-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### name–use(s)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="aa92"--><!-- The following content is generated at 2023-12-21T13:06:37.104253+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-01-04T20:17:52.377880+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2025-04-21,454,254-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2024-05-06,194,210-->
@@ -138,7 +138,7 @@ return _chain.from_iterable(await _gather(
 - [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2024-04-16,144,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2024-04-26,87,229-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

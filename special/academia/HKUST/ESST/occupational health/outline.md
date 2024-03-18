@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
 
@@ -83,7 +83,7 @@ The content is in teaching order.
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("29ba", "857e",),
   """
@@ -100,7 +100,7 @@ pneumonia
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="29ba"--><!-- The following content is generated at 2024-02-09T10:20:46.039466+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="29ba"--><!-- The following content is generated at 2024-02-09T10:20:46.039466+08:00. Any edits will be overridden! -->
 
 > 1. breathlessness
 > 2. cough
@@ -110,9 +110,9 @@ pneumonia
 > 6. muscle ache
 > 7. pneumonia
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←breathlessness <!--SR:!2024-05-27,82,355!2024-05-17,73,349-->
 - breathlessness→:::←cough <!--SR:!2024-05-31,84,355!2024-05-18,74,355-->
@@ -123,14 +123,14 @@ pneumonia
 - muscle ache→:::←pneumonia <!--SR:!2024-03-30,33,309!2024-03-30,12,279-->
 - pneumonia→:::←_(end)_ <!--SR:!2024-05-27,80,359!2024-04-15,47,335-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### hazard control hierarchy
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("93ab", "ee35",),
   """
@@ -145,16 +145,16 @@ personal protective equipment
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="93ab"--><!-- The following content is generated at 2024-02-12T16:43:42.695370+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-02-12T16:43:42.695370+08:00. Any edits will be overridden! -->
 
 > 1. hazard reduction or elimination
 > 2. engineering
 > 3. administration
 > 4. personal protective equipment
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
 - _(most preferable)_→:::←hazard reduction or elimination <!--SR:!2024-05-31,84,349!2024-05-19,75,355-->
 - hazard reduction or elimination→:::←engineering <!--SR:!2024-05-13,69,346!2024-05-22,76,359-->
@@ -162,14 +162,14 @@ personal protective equipment
 - administration→:::←personal protective equipment <!--SR:!2024-05-18,73,346!2024-05-30,83,349-->
 - personal protective equipment→:::←_(least preferable)_ <!--SR:!2024-04-19,50,326!2024-05-29,83,349-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### heat stroke syndromes
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("b12d", "7832",),
   """
@@ -185,7 +185,7 @@ reduced sweating
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b12d"--><!-- The following content is generated at 2024-02-09T10:20:45.970034+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b12d"--><!-- The following content is generated at 2024-02-09T10:20:45.970034+08:00. Any edits will be overridden! -->
 
 > 1. convulsions
 > 2. dry hot skin
@@ -194,9 +194,9 @@ reduced sweating
 > 5. mental confusion
 > 6. reduced sweating
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←convulsions <!--SR:!2024-05-18,61,299!2024-05-26,80,359-->
 - convulsions→:::←dry hot skin <!--SR:!2024-03-19,14,255!2024-05-02,60,335-->
@@ -206,14 +206,14 @@ reduced sweating
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
 - reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-22,7,259-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### occupational hazard factors
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("1a67", "058b",),
   """
@@ -229,7 +229,7 @@ user
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1a67"--><!-- The following content is generated at 2024-02-09T10:20:45.730827+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1a67"--><!-- The following content is generated at 2024-02-09T10:20:45.730827+08:00. Any edits will be overridden! -->
 
 > 1. control
 > 2. environment
@@ -238,9 +238,9 @@ user
 > 5. process
 > 6. user
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←control <!--SR:!2024-04-13,29,239!2024-05-20,75,359-->
 - control→:::←environment <!--SR:!2024-03-24,6,259!2024-03-30,29,279-->
@@ -250,14 +250,14 @@ user
 - process→:::←user <!--SR:!2024-04-26,51,299!2024-05-17,72,359-->
 - user→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-20,76,355-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### occupational hazard types
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("f9a2", "b123",),
   """
@@ -273,7 +273,7 @@ socio-psychological
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f9a2"--><!-- The following content is generated at 2024-03-07T00:02:22.082267+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f9a2"--><!-- The following content is generated at 2024-03-07T00:02:22.082267+08:00. Any edits will be overridden! -->
 
 > 1. biological
 > 2. chemical
@@ -282,9 +282,9 @@ socio-psychological
 > 5. physical
 > 6. socio-psychological
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b123"--><!-- The following content is generated at 2024-03-07T00:02:22.051287+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b123"--><!-- The following content is generated at 2024-03-07T00:02:22.051287+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-05-17,73,349-->
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
@@ -294,14 +294,14 @@ socio-psychological
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->
 - socio-psychological→:::←_(end)_ <!--SR:!2024-06-06,90,349!2024-04-26,43,335-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### occupational health areas
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("d929", "afb9",),
   """
@@ -317,7 +317,7 @@ workplace
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d929"--><!-- The following content is generated at 2024-02-09T10:20:45.574880+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d929"--><!-- The following content is generated at 2024-02-09T10:20:45.574880+08:00. Any edits will be overridden! -->
 
 > 1. general community environment
 > 2. occupational hygiene
@@ -326,9 +326,9 @@ workplace
 > 5. workers
 > 6. workplace
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←general community environment <!--SR:!2024-05-13,56,279!2024-05-20,76,349-->
 - general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-28,15,229-->
@@ -338,14 +338,14 @@ workplace
 - workers→:::←workplace <!--SR:!2024-05-29,82,349!2024-05-11,67,339-->
 - workplace→:::←_(end)_ <!--SR:!2024-05-28,82,355!2024-03-23,16,259-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### occupational medicine section
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("b36a", "207b",),
   """
@@ -360,7 +360,7 @@ treatment
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b36a"--><!-- The following content is generated at 2024-02-09T10:20:45.620870+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b36a"--><!-- The following content is generated at 2024-02-09T10:20:45.620870+08:00. Any edits will be overridden! -->
 
 > 1. conduct medical clearance
 > 2. diagnosis
@@ -368,9 +368,9 @@ treatment
 > 4. promotion
 > 5. treatment
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="207b"--><!-- The following content is generated at 2024-02-09T10:20:45.596886+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="207b"--><!-- The following content is generated at 2024-02-09T10:20:45.596886+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←conduct medical clearance <!--SR:!2024-04-24,51,315!2024-05-13,70,349-->
 - conduct medical clearance→:::←diagnosis <!--SR:!2024-04-16,47,339!2024-05-16,73,355-->
@@ -379,14 +379,14 @@ treatment
 - promotion→:::←treatment <!--SR:!2024-03-26,27,289!2024-04-17,45,315-->
 - treatment→:::←_(end)_ <!--SR:!2024-06-01,86,355!2024-05-01,59,335-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### physical hazards
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("e372", "81ab",),
   """
@@ -402,7 +402,7 @@ vibration
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e372"--><!-- The following content is generated at 2024-02-09T10:20:45.768548+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e372"--><!-- The following content is generated at 2024-02-09T10:20:45.768548+08:00. Any edits will be overridden! -->
 
 > 1. ionizing radiation
 > 2. noise
@@ -411,9 +411,9 @@ vibration
 > 5. temperature
 > 6. vibration
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="81ab"--><!-- The following content is generated at 2024-02-09T10:20:45.804458+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="81ab"--><!-- The following content is generated at 2024-02-09T10:20:45.804458+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←ionizing radiation <!--SR:!2024-04-09,27,275!2024-04-01,35,319-->
 - ionizing radiation→:::←noise <!--SR:!2024-03-29,31,289!2024-03-31,33,289-->
@@ -423,14 +423,14 @@ vibration
 - temperature→:::←vibration <!--SR:!2024-04-14,41,299!2024-04-14,45,339-->
 - vibration→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-03-19,19,279-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### workplaces with temperature hazards
 
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("f272", "41ab",),
   """
@@ -445,7 +445,7 @@ steelworks
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f272"--><!-- The following content is generated at 2024-02-09T10:20:45.886183+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f272"--><!-- The following content is generated at 2024-02-09T10:20:45.886183+08:00. Any edits will be overridden! -->
 
 > 1. cold storages
 > 2. glassworks
@@ -453,9 +453,9 @@ steelworks
 > 4. laundries
 > 5. steelworks
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←cold storages <!--SR:!2024-05-24,78,359!2024-05-24,79,349-->
 - cold storages→:::←glassworks <!--SR:!2024-04-10,37,299!2024-03-27,20,295-->
@@ -464,4 +464,4 @@ steelworks
 - laundries→:::←steelworks <!--SR:!2024-04-20,40,279!2024-03-29,31,295-->
 - steelworks→:::←_(end)_ <!--SR:!2024-05-16,66,339!2024-04-02,32,295-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->

@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -59,7 +59,7 @@ The energy of a photon emitted by a hydrogen atom is:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('0692', '3810',),
   ('name', 'description',),
@@ -77,7 +77,7 @@ return await memorize_table(
 
 The Bohr model fails to explain:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0692"--><!-- The following content is generated at 2024-03-07T10:22:56.394226+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0692"--><!-- The following content is generated at 2024-03-07T10:22:56.394226+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -86,9 +86,9 @@ The Bohr model fails to explain:
 > | {{naturalness}} | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
 > | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2024-05-30,80,333!2024-05-15,68,333!2024-05-06,60,333!2024-05-17,68,333!2024-03-29,16,321!2024-03-31,18,321!2024-03-28,15,321!2024-03-30,17,321-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3810"--><!-- The following content is generated at 2024-02-17T18:00:08.056049+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-05-22,73,333-->
 - brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2024-05-06,50,273-->
@@ -96,7 +96,7 @@ The Bohr model fails to explain:
 - naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-03-21,21,273-->
 - structures→:::←_(end)_ <!--SR:!2024-05-13,66,333!2024-04-28,52,313-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

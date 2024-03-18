@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -29,7 +29,7 @@ A __molecular solid__, also called __simple molecular structure__, {{consists of
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('9d9d'), NULL_LOCATION,),
@@ -47,7 +47,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9d9d"--><!-- The following content is generated at 2023-12-25T08:13:56.305002+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9d9d"--><!-- The following content is generated at 2023-12-25T08:13:56.305002+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -57,7 +57,7 @@ return await memorize_table(
 > | {{[melting point](melting%20point.md)}} | {{typically low}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low}} | <!--SR:!2024-12-08,410,290!2024-06-08,342,330!2024-05-12,320,330!2024-05-11,319,330!2025-05-09,553,290!2024-03-22,277,330!2025-01-16,368,373!2025-02-18,392,373!2024-09-12,183,341!2024-04-07,79,362-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### network covalent solid
 
@@ -68,7 +68,7 @@ A __network covalent solid__, also called __giant covalent structure__, {{consis
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('357d'), NULL_LOCATION,),
@@ -86,7 +86,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="357d"--><!-- The following content is generated at 2023-12-25T08:00:46.096288+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="357d"--><!-- The following content is generated at 2023-12-25T08:00:46.096288+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -96,7 +96,7 @@ return await memorize_table(
 > | {{[melting point](melting%20point.md)}} | {{typically high}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically high ([graphite](graphite.md): low)}} | <!--SR:!2025-08-20,569,270!2027-04-15,1150,350!2024-06-27,188,270!2025-08-03,600,310!2024-12-04,454,310!2024-04-19,299,330!2024-08-08,336,290!2025-01-29,441,250!2024-06-16,181,333!2024-06-01,169,333-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### ionic solid
 
@@ -107,7 +107,7 @@ A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](a
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('5460'), NULL_LOCATION,),
@@ -125,7 +125,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="5460"--><!-- The following content is generated at 2023-12-25T08:13:56.331587+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5460"--><!-- The following content is generated at 2023-12-25T08:13:56.331587+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -135,7 +135,7 @@ return await memorize_table(
 > | {{[melting point](melting%20point.md)}} | {{typically moderately high}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically intermediate}} | <!--SR:!2025-10-08,593,270!2024-06-04,121,310!2026-02-09,801,330!2024-08-31,343,290!2024-10-18,378,290!2024-03-21,276,330!2024-12-27,392,250!2026-03-15,827,330!2024-09-16,265,353!2024-08-31,251,353-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### metallic solid
 
@@ -146,7 +146,7 @@ A __metallic solid__, also called __giant metallic structure__, {{consists of [m
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from pytextgen.util import NULL_LOCATION
 return await memorize_table(
   (__env__.cwf_sect('435d'), NULL_LOCATION,),
@@ -167,7 +167,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="435d"--><!-- The following content is generated at 2023-12-25T08:18:39.407540+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="435d"--><!-- The following content is generated at 2023-12-25T08:18:39.407540+08:00. Any edits will be overridden! -->
 
 > | property | description |
 > |-|-|
@@ -180,7 +180,7 @@ return await memorize_table(
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low when pure}} |
 > | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-05-11,108,270!2027-05-01,1164,350!2024-03-25,99,290!2024-04-21,301,330!2024-03-29,22,210!2024-04-20,300,330!2025-02-25,362,310!2027-07-03,1214,350!2025-02-02,436,270!2024-06-07,341,330!2024-07-25,152,273!2025-02-24,397,373!2024-04-23,91,362!2024-05-11,59,302!2024-07-04,134,341!2024-04-13,81,362-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

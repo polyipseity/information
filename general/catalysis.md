@@ -14,7 +14,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -33,7 +33,7 @@ Catalysts can {{increase production throughput, reducing production cost and sav
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('ad24', '394f'),
   ('name', 'description',),
@@ -50,7 +50,7 @@ return await memorize_table(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
@@ -60,9 +60,9 @@ return await memorize_table(
 > | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
 > | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2024-05-24,322,330!2024-05-29,327,330!2024-05-26,324,330!2024-08-18,310,290!2024-05-28,326,330!2024-05-14,184,210!2024-05-18,316,330!2024-08-22,342,290!2024-05-22,320,330!2024-11-10,352,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="394f"--><!-- The following content is generated at 2024-01-04T20:17:51.442492+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="394f"--><!-- The following content is generated at 2024-01-04T20:17:51.442492+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2024-05-30,328,330!2024-05-21,319,330-->
 - [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2025-01-09,475,310!2024-05-19,317,330-->
@@ -71,7 +71,7 @@ return await memorize_table(
 - [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2024-05-23,321,330!2025-11-04,720,330-->
 - [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2024-07-08,113,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

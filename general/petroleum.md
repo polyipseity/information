@@ -15,7 +15,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -34,7 +34,7 @@ Petroleum is {{separated by [fractional distillation](fractional%20distillation.
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = ('[fraction](fraction%20(chemistry).md)', '[boiling point](boiling%20point.md) range', 'use(s)',)
@@ -70,7 +70,7 @@ return _chain.from_iterable(await _gather(
 
 [Fuels](fuel.md) by ascending [boiling point](boiling%20point.md) include:
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2039"--><!-- The following content is generated at 2023-12-04T08:18:54.256450+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2039"--><!-- The following content is generated at 2023-12-04T08:18:54.256450+08:00. Any edits will be overridden! -->
 
 > | [fraction](fraction%20(chemistry).md) | [boiling point](boiling%20point.md) range | use(s) |
 > |-|-|-|
@@ -85,9 +85,9 @@ return _chain.from_iterable(await _gather(
 > | [paraffin wax](paraffin%20wax.md) | 370 °C or above | [candles](candle.md), [lubrication](lubrication.md) |
 > | [bitumen](bitumen.md) | 500 °C or above | [road construction](road%20construction.md) |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d5f1"--><!-- The following content is generated at 2024-01-04T20:17:52.536836+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d5f1"--><!-- The following content is generated at 2024-01-04T20:17:52.536836+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2024-03-27,276,330!2024-05-19,322,334-->
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2024-03-23,278,334!2024-03-22,277,334-->
@@ -101,11 +101,11 @@ return _chain.from_iterable(await _gather(
 - [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2024-10-28,432,314!2025-05-06,539,314-->
 - [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2027-05-09,1164,350!2024-04-15,295,334-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### fraction–boiling point range
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3984"--><!-- The following content is generated at 2024-01-04T20:17:52.568538+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3984"--><!-- The following content is generated at 2024-01-04T20:17:52.568538+08:00. Any edits will be overridden! -->
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)::-40 to -1 °C <!--SR:!2024-08-12,338,290-->
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
@@ -118,9 +118,9 @@ return _chain.from_iterable(await _gather(
 - [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-05-06,54,194-->
 - [bitumen](bitumen.md)::500 °C or above <!--SR:!2024-04-21,110,294-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e8ff"--><!-- The following content is generated at 2024-01-04T20:17:52.452954+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e8ff"--><!-- The following content is generated at 2024-01-04T20:17:52.452954+08:00. Any edits will be overridden! -->
 
 - -40 to -1 °C::[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2025-04-25,529,310-->
 - -12 to -1 °C::[butane](butane.md) <!--SR:!2024-03-20,274,334-->
@@ -133,11 +133,11 @@ return _chain.from_iterable(await _gather(
 - 370 °C or above::[paraffin wax](paraffin%20wax.md) <!--SR:!2025-12-07,690,314-->
 - 500 °C or above::[bitumen](bitumen.md) <!--SR:!2024-05-18,321,334-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### fraction–use(s)
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="495a"--><!-- The following content is generated at 2024-01-04T20:17:52.496485+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="495a"--><!-- The following content is generated at 2024-01-04T20:17:52.496485+08:00. Any edits will be overridden! -->
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)::[chemical synthesis](chemical%20synthesis.md), [fuel](fuel.md) <!--SR:!2025-02-20,339,254-->
 - [gasoline/petrol](gasoline.md)::fuel for [motor vehicles](motor%20vehicle.md) <!--SR:!2024-09-05,386,314-->
@@ -149,7 +149,7 @@ return _chain.from_iterable(await _gather(
 - [paraffin wax](paraffin%20wax.md)::[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2025-02-25,522,314-->
 - [bitumen](bitumen.md)::[road construction](road%20construction.md) <!--SR:!2024-06-10,339,334-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## industry
 

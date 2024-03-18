@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
 
@@ -31,7 +31,7 @@ Below are common data types:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 headers = "type", "description"
@@ -57,7 +57,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2f02"--><!-- The following content is generated at 2024-03-07T00:04:17.315438+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-03-07T00:04:17.315438+08:00. Any edits will be overridden! -->
 
 > | type | description |
 > |-|-|
@@ -67,9 +67,9 @@ return _chain.from_iterable(await _gather(
 > | `Long` | An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. |
 > | `Single` | A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="652a"--><!-- The following content is generated at 2024-03-07T00:04:17.291438+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-03-07T00:04:17.291438+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`Boolean` <!--SR:!2024-05-08,75,325!2024-04-19,60,310-->
 - `Boolean`→:::←`Double` <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
@@ -78,9 +78,9 @@ return _chain.from_iterable(await _gather(
 - `Long`→:::←`Single` <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
 - `Single`→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3b1a"--><!-- The following content is generated at 2024-03-07T00:04:17.302448+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-03-07T00:04:17.302448+08:00. Any edits will be overridden! -->
 
 - `Boolean`::Either `True` or `False`. <!--SR:!2024-04-22,61,310-->
 - `Double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-04-18,59,310-->
@@ -88,7 +88,7 @@ return _chain.from_iterable(await _gather(
 - `Long`::An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!2024-04-21,60,310-->
 - `Single`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-05-05,73,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-04-24,64,310-->
 

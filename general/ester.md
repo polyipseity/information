@@ -12,7 +12,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -49,7 +49,7 @@ In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic]
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('23af', '333d'),
   (
@@ -60,18 +60,18 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="23af"--><!-- The following content is generated at 2024-03-07T10:32:08.801444+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="23af"--><!-- The following content is generated at 2024-03-07T10:32:08.801444+08:00. Any edits will be overridden! -->
 
 > 1. [hydrolysis](#hydrolysis)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="333d"--><!-- The following content is generated at 2024-01-04T20:17:51.620099+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="333d"--><!-- The following content is generated at 2024-01-04T20:17:51.620099+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[hydrolysis](#hydrolysis) <!--SR:!2026-01-10,697,316!2024-07-12,360,336-->
 - [hydrolysis](#hydrolysis)→:::←_(end)_ <!--SR:!2024-05-18,316,336!2026-01-06,694,316-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

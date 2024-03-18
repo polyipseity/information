@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -24,7 +24,7 @@ __Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), wh
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects('d927', 'fda0'),
   (
@@ -37,22 +37,22 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="d927"--><!-- The following content is generated at 2023-03-25T13:43:14.281115+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d927"--><!-- The following content is generated at 2023-03-25T13:43:14.281115+08:00. Any edits will be overridden! -->
 
 > 1. [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)
 > 2. [propagation](chain%20propagation.md)
 > 3. [termination](chain%20termination.md)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fda0"--><!-- The following content is generated at 2024-01-04T20:17:51.801148+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="fda0"--><!-- The following content is generated at 2024-01-04T20:17:51.801148+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2025-12-05,690,317!2024-07-30,378,339-->
 - [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2024-07-28,376,339!2024-10-11,392,279-->
 - [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2027-08-02,1238,357!2024-06-16,345,339-->
 - [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2024-06-17,346,339!2024-07-27,375,339-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 An example of chlorination of [methane](methane.md):
 

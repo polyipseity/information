@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -22,7 +22,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("2e33", "8baa",),
   R"""
@@ -39,7 +39,7 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="2e33"--><!-- The following content is generated at 2024-03-12T13:50:52.826539+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2e33"--><!-- The following content is generated at 2024-03-12T13:50:52.826539+08:00. Any edits will be overridden! -->
 
 > 1. Prepare many ideas. Each idea is a pair of sticky notes, one with drawing, one with title and caption.
 > 2. Each person evaluate every idea of the whole team on their own. Each person has the same number of votes for "[feasibility for us](#feasibility%20for%20us)" and "[value to the user](#value%20to%20the%20user)" (recommended 4 dot stickers). Vote based on the two qualities.
@@ -49,9 +49,9 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 > 6. Assess the ideas by drawing two arcs, splitting the grid into 3 quadrants. Label the top quadrant "no-brainers", the middle quadrant "big bets" for higher [value](#value%20to%20the%20user) and "utilities" for higher [feasibility](#feasibility%20for%20us), and the bottom quadrant "further exploration".
 > 7. Focus the discussion around "big bets", though do not completely ignore the other ideas.
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="8baa"--><!-- The following content is generated at 2024-03-12T13:50:52.839642+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T13:50:52.839642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Prepare many ideas. Each idea is a pair of sticky notes, one with drawing, one with title and caption.
 - Prepare many ideas. Each idea is a pair of sticky notes, one with drawing, one with title and caption.→:::←Each person evaluate every idea of the whole team on their own. Each person has the same number of votes for "[feasibility for us](#feasibility%20for%20us)" and "[value to the user](#value%20to%20the%20user)" (recommended 4 dot stickers). Vote based on the two qualities.
@@ -62,7 +62,7 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 - Assess the ideas by drawing two arcs, splitting the grid into 3 quadrants. Label the top quadrant "no-brainers", the middle quadrant "big bets" for higher [value](#value%20to%20the%20user) and "utilities" for higher [feasibility](#feasibility%20for%20us), and the bottom quadrant "further exploration".→:::←Focus the discussion around "big bets", though do not completely ignore the other ideas.
 - Focus the discussion around "big bets", though do not completely ignore the other ideas.→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## feasibility for us
 

@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -22,7 +22,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_table(
   __env__.cwf_sects('b9ae', '293d'),
   ('property', 'metal', 'metalloid', 'nonmetal',),
@@ -43,7 +43,7 @@ return await memorize_table(
 
 Compare with [nonmetal § properties](nonmetal.md#properties).
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b9ae"--><!-- The following content is generated at 2023-03-20T16:20:31.202605+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b9ae"--><!-- The following content is generated at 2023-03-20T16:20:31.202605+08:00. Any edits will be overridden! -->
 
 > | property | metal | metalloid | nonmetal |
 > |-|-|-|-|
@@ -55,9 +55,9 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 > | {{[melting point](melting%20point.md)}} | {{<ul><li>mostly high</li><li>exceptional example(s): [Na](sodium.md)</li></ul>}} | {{<ul><li>mostly high</li></ul>}} | {{<ul><li>mostly low</li></ul>}} |
 > | {{[thermal conductivity](thermal%20conductivity.md)}} | {{<ul><li>medium to high</li></ul>}} | {{<ul><li>mostly intermediate</li><li>high: [Si](silicon.md)</li></ul>}} | {{<ul><li>almost negligible to very high</li></ul>}} | <!--SR:!2024-04-25,298,330!2025-10-21,637,270!2024-12-26,384,250!2024-06-03,304,290!2024-03-20,225,270!2024-04-03,238,290!2025-02-17,414,250!2024-06-23,282,250!2024-12-29,471,310!2025-01-01,415,270!2024-03-21,82,230!2025-05-31,515,270!2025-10-14,650,310!2024-08-01,300,250!2024-03-28,118,150!2024-03-30,88,150!2024-05-21,319,330!2024-04-04,100,190!2025-12-13,750,330!2024-12-09,346,230!2025-03-02,519,310!2024-12-04,369,250!2024-05-04,59,170!2024-11-25,388,270!2024-05-22,320,330!2024-04-19,161,210!2024-03-27,43,170!2024-05-21,249,250-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="293d"--><!-- The following content is generated at 2024-01-04T20:17:52.491478+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←appearance <!--SR:!2024-04-21,294,330!2024-05-16,314,330-->
 - appearance→:::←deformability (as a solid) <!--SR:!2024-08-29,199,250!2024-08-19,360,290-->
@@ -68,7 +68,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 - [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2025-07-28,539,270!2024-03-19,16,170-->
 - [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-15,313,330!2024-10-29,253,290-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

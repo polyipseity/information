@@ -15,7 +15,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -26,7 +26,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 from asyncio import gather as _gather
 from itertools import chain as _chain
 from pytextgen.gen import markdown_sanitizer as _md_san
@@ -97,7 +97,7 @@ return _chain.from_iterable(await _gather(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="fadd2e"--><!-- The following content is generated at 2023-11-26T19:12:56.438295+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="fadd2e"--><!-- The following content is generated at 2023-11-26T19:12:56.438295+08:00. Any edits will be overridden! -->
 
 > | name & image | description |
 > |-|-|
@@ -144,9 +144,9 @@ return _chain.from_iterable(await _gather(
 > | [weighing bottle](weighing%20bottle.md)<br/>![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg) |  |
 > | [wire gauze](wire%20gauze.md)<br/>![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg) |  |
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="b81237"--><!-- The following content is generated at 2024-01-04T20:17:52.174780+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b81237"--><!-- The following content is generated at 2024-01-04T20:17:52.174780+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2024-03-30,99,290!2024-04-04,284,330-->
 - [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2024-04-10,290,330!2024-04-17,295,330-->
@@ -192,11 +192,11 @@ return _chain.from_iterable(await _gather(
 - [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2025-01-21,449,290!2025-03-31,507,310-->
 - [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2024-04-23,296,330!2024-03-23,272,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### name–image
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="dd23"--><!-- The following content is generated at 2024-01-04T20:17:52.234332+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-01-04T20:17:52.234332+08:00. Any edits will be overridden! -->
 
 - [Bunsen burner](Bunsen%20burner.md)::![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg) <!--SR:!2027-05-10,1164,350-->
 - [Liebig condenser](Liebig%20condenser.md)::![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:!2026-06-14,891,330-->
@@ -241,9 +241,9 @@ return _chain.from_iterable(await _gather(
 - [weighing bottle](weighing%20bottle.md)::![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg) <!--SR:!2026-06-06,883,330-->
 - [wire gauze](wire%20gauze.md)::![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg) <!--SR:!2027-05-14,1168,350-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="f002"--><!-- The following content is generated at 2024-01-04T20:17:52.211338+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f002"--><!-- The following content is generated at 2024-01-04T20:17:52.211338+08:00. Any edits will be overridden! -->
 
 - ![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg)::[Bunsen burner](Bunsen%20burner.md) <!--SR:!2024-05-16,319,330-->
 - ![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg)::[Liebig condenser](Liebig%20condenser.md) <!--SR:!2027-06-06,1187,350-->
@@ -288,11 +288,11 @@ return _chain.from_iterable(await _gather(
 - ![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg)::[weighing bottle](weighing%20bottle.md) <!--SR:!2024-03-27,276,330-->
 - ![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)::[wire gauze](wire%20gauze.md) <!--SR:!2024-03-24,273,330-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ### name–description
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="3934"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3934"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
 
 - [burette](burette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-11-27,411,290-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)::Rinse the equipment with deionized [water](water.md) before use. <!--SR:!2024-04-24,297,330-->
@@ -302,7 +302,7 @@ return _chain.from_iterable(await _gather(
 - [volumetric flask](volumetric%20flask.md)::Rinse the equipment with deionized [water](water.md) before use. <!--SR:!2024-12-24,471,310-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)::Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-12-15,463,310-->
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 ## references
 

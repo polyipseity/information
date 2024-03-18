@@ -11,7 +11,7 @@ tags:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
@@ -32,7 +32,7 @@ There are 9 building blocks to a business model canvas:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("28ba", "e441",),
   R"""
@@ -51,7 +51,7 @@ return await memorize_seq(
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="28ba"--><!-- The following content is generated at 2024-03-18T19:56:56.282991+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-18T19:56:56.282991+08:00. Any edits will be overridden! -->
 
 > 1. (CS) [customer segments](#customer%20segments)
 > 2. (VP) [value propositions](#value%20propositions)
@@ -63,9 +63,9 @@ return await memorize_seq(
 > 8. (KP) [key partnerships](#key%20partnerships)
 > 9. (C$) [cost structure](#cost%20structure)
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="e441"--><!-- The following content is generated at 2024-03-18T19:56:56.301510+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-18T19:56:56.301510+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(CS) [customer segments](#customer%20segments)
 - (CS) [customer segments](#customer%20segments)→:::←(VP) [value propositions](#value%20propositions)
@@ -78,7 +78,7 @@ return await memorize_seq(
 - (KP) [key partnerships](#key%20partnerships)→:::←(C$) [cost structure](#cost%20structure)
 - (C$) [cost structure](#cost%20structure)→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### customer segments
 
@@ -93,7 +93,7 @@ There are different types of customer segments. Examples include:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("cc13", "9b8a",),
   R"""
@@ -108,7 +108,7 @@ segmented, splitting slightly different customer segments
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="cc13"--><!-- The following content is generated at 2024-03-18T19:56:56.314505+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cc13"--><!-- The following content is generated at 2024-03-18T19:56:56.314505+08:00. Any edits will be overridden! -->
 
 > 1. diversified, serving unrelated customer segments
 > 2. mass market, not distinguishing between customer segments
@@ -116,9 +116,9 @@ segmented, splitting slightly different customer segments
 > 4. niche market, focusing on specific, specialized customer segments
 > 5. segmented, splitting slightly different customer segments
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9b8a"--><!-- The following content is generated at 2024-03-18T19:56:56.495257+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-18T19:56:56.495257+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←diversified, serving unrelated customer segments
 - diversified, serving unrelated customer segments→:::←mass market, not distinguishing between customer segments
@@ -127,7 +127,7 @@ segmented, splitting slightly different customer segments
 - niche market, focusing on specific, specialized customer segments→:::←segmented, splitting slightly different customer segments
 - segmented, splitting slightly different customer segments→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### value propositions
 
@@ -140,7 +140,7 @@ Values can come from many things:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("9ab1", "c321",),
   R"""
@@ -161,7 +161,7 @@ risk reduction
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="9ab1"--><!-- The following content is generated at 2024-03-18T19:56:56.527256+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9ab1"--><!-- The following content is generated at 2024-03-18T19:56:56.527256+08:00. Any edits will be overridden! -->
 
 > 1. accessibility
 > 2. brand or status
@@ -175,9 +175,9 @@ risk reduction
 > 10. price
 > 11. risk reduction
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←accessibility
 - accessibility→:::←brand or status
@@ -192,7 +192,7 @@ risk reduction
 - price→:::←risk reduction
 - risk reduction→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### channels
 
@@ -209,7 +209,7 @@ There are different types of customer relationships. Examples include:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("0362", "ca84",),
   R"""
@@ -224,7 +224,7 @@ personal assistance
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="0362"--><!-- The following content is generated at 2024-03-18T19:56:56.624998+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0362"--><!-- The following content is generated at 2024-03-18T19:56:56.624998+08:00. Any edits will be overridden! -->
 
 > 1. automated services
 > 2. co-creation
@@ -232,9 +232,9 @@ personal assistance
 > 4. dedicated personal assistance
 > 5. personal assistance
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←automated services
 - automated services→:::←co-creation
@@ -243,7 +243,7 @@ personal assistance
 - dedicated personal assistance→:::←personal assistance
 - personal assistance→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### revenue streams
 
@@ -256,7 +256,7 @@ There are different types of revenue streams. Examples include:
 %%
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate data
+# pytextgen generate data
 return await memorize_seq(
   __env__.cwf_sects("bb35", "1942",),
   R"""
@@ -273,7 +273,7 @@ subscription fee
 
 %%
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="bb35"--><!-- The following content is generated at 2024-03-18T19:56:56.654999+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="bb35"--><!-- The following content is generated at 2024-03-18T19:56:56.654999+08:00. Any edits will be overridden! -->
 
 > 1. advertising
 > 2. asset sale
@@ -283,9 +283,9 @@ subscription fee
 > 6. usage fee
 > 7. subscription fee
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
-<!--08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←advertising
 - advertising→:::←asset sale
@@ -296,7 +296,7 @@ subscription fee
 - usage fee→:::←subscription fee
 - subscription fee→:::←_(end)_
 
-<!--/08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e-->
+<!--/pytextgen-->
 
 #### key resources
 

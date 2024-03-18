@@ -9,7 +9,7 @@ tags:
 ## utilities
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 from pytextgen.util import export_seq
 from types import MappingProxyType
 from typing import Iterable, Mapping, TypeVar
@@ -30,7 +30,7 @@ return export_seq(fast_hash, items_to_map,)
 ## HTML
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 from html import escape as h_esc
 from pytextgen.util import export_seq
 from typing import Iterable, Literal
@@ -70,7 +70,7 @@ return export_seq(
 ## hard
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 from pytextgen.config import CONFIG
 from pytextgen.gen import Tag, TextCode
 from pytextgen.util import export_seq
@@ -85,7 +85,7 @@ return export_seq(hard,)
 ## memorization
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 from asyncio import gather
 from collections import defaultdict
 from itertools import starmap
@@ -263,7 +263,7 @@ return export_seq(
 ## notes
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 from pytextgen.gen import TextCode, memorize_two_sided, two_columns_to_code
 from pytextgen.read import read_flashcard_states
 from pytextgen.util import Location, export_seq
@@ -303,7 +303,7 @@ return export_seq(Notes,)
 ## tags
 
 ```Python
-# 08e5b0a3-f78a-46af-bf50-eb9b12f7fa1e generate module
+# pytextgen generate module
 from enum import StrEnum, unique
 from pytextgen.util import export_seq
 from typing import ClassVar, final
