@@ -13,7 +13,7 @@ Here, we are interested in two sequence types: {{strings and lists}}. <!--SR:!20
 
 ## string
 
-To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. <!--SR:!2024-04-21,60,310!2024-03-20,36,290-->
+To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. <!--SR:!2024-04-21,60,310!2024-08-13,146,310-->
 
 ## list
 

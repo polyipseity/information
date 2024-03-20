@@ -184,7 +184,7 @@ The steps for naming an organic compound are:
 - (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-05-10,103,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2024-05-23,211,267-->
 - [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-05-05,413,273!2024-06-14,400,307-->
-- prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2024-03-20,398,362!2024-05-06,376,307-->
+- prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2029-08-16,1975,382!2024-05-06,376,307-->
 
 <!--/pytextgen-->
 

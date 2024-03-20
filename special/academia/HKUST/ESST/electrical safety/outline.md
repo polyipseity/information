@@ -36,10 +36,10 @@ The content is in teaching order.
   - 1 mA :: barely perceptible <!--SR:!2024-04-07,44,290-->
   - 16 mA :: let go threshold, i.e. maximum current a person can still control the muscle to stop touching the electricity source <!--SR:!2024-04-26,46,289-->
 - 20 mA :: respiratory paralysis <!--SR:!2024-04-13,41,269-->
-- 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-03-20,9,244-->
+- 100 mA :: [ventricular fibrillation](../../../../../general/ventricular%20fibrillation.md) <!--SR:!2024-04-10,21,244-->
   - 2 A :: [cardiac arrest](../../../../../general/cardiac%20arrest.md) and internal [organ](../../../../../general/organ%20(biology).md) damage <!--SR:!2024-05-09,57,289-->
   - 15 A, 20 A :: common [fuse](fuse%20(electrical).md) or [circuit breaker](../../../../../general/circuit%20breaker.md) triggers <!--SR:!2024-05-15,76,324-->
-- electrical hazards ::: [electric arc](../../../../../general/electric%20arc.md), [electrical injury](../../../../../general/electrical%20injury.md), [explosion](../../../../../general/explosion.md), [fire](../../../../../general/fire.md) <!--SR:!2024-03-20,14,249!2024-05-15,76,329-->
+- electrical hazards ::: [electric arc](../../../../../general/electric%20arc.md), [electrical injury](../../../../../general/electrical%20injury.md), [explosion](../../../../../general/explosion.md), [fire](../../../../../general/fire.md) <!--SR:!2024-04-23,34,249!2024-05-15,76,329-->
   - [electric arc](../../../../../general/electric%20arc.md) ::: Electric arcs can go through air to a person. They can also vaporize materials and produce extremely loud noises. These can cause non-contact burns. Emitted [infrared](../../../../../general/infrared.md) and [ultraviolet](../../../../../general/ultraviolete.md) radiation can cause eye damage. <!--SR:!2024-05-02,52,269!2024-05-04,68,329-->
   - [electrical injury](../../../../../general/electrical%20injury.md) ::: Electricity can interfere with normal electrical signals in the body. Involuntary muscle contraction can cause falls. Electricity can also cause contact burns, damaging internal organs. <!--SR:!2024-05-04,54,269!2024-05-12,74,329-->
   - [explosion](../../../../../general/explosion.md) ::: Electricity can detonate. <!--SR:!2024-04-16,50,310!2024-05-03,66,324-->
@@ -154,7 +154,7 @@ warnings
 - _(begin)_→:::←instructions <!--SR:!2024-03-28,17,254!2024-06-03,82,354-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-25,7,254!2024-04-07,34,294-->
 - manner of presentation→:::←safety <!--SR:!2024-03-21,7,234!2024-03-27,26,294-->
-- safety→:::←standards <!--SR:!2024-03-20,20,294!2024-04-01,28,274-->
+- safety→:::←standards <!--SR:!2024-05-17,58,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-04-16,32,274!2024-04-02,22,294-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->
 - warnings→:::←_(end)_ <!--SR:!2024-06-06,85,354!2024-03-25,14,294-->
@@ -195,9 +195,9 @@ wet condition
 
 <!--pytextgen generate section="5bab"--><!-- The following content is generated at 2024-02-09T00:05:47.457257+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←improper contact <!--SR:!2024-03-20,16,247!2024-05-30,85,347-->
+- _(begin)_→:::←improper contact <!--SR:!2024-03-26,6,227!2024-05-30,85,347-->
 - improper contact→:::←lack of maintenance <!--SR:!2024-04-08,41,327!2024-03-25,28,287-->
-- lack of maintenance→:::←overloading <!--SR:!2024-03-20,23,307!2024-04-05,25,207-->
+- lack of maintenance→:::←overloading <!--SR:!2024-03-31,11,287!2024-04-05,25,207-->
 - overloading→:::←short circuiting <!--SR:!2024-05-07,62,327!2024-05-21,77,347-->
 - short circuiting→:::←using substandard electrical appliances <!--SR:!2024-04-02,29,247!2024-05-02,55,287-->
 - using substandard electrical appliances→:::←wet condition <!--SR:!2024-05-21,64,287!2024-03-25,7,247-->
@@ -324,7 +324,7 @@ Consumer Goods Safety Ordinance (Cap. 456)
 <!--pytextgen generate section="46f1"--><!-- The following content is generated at 2024-02-12T16:43:42.666363+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) <!--SR:!2024-03-27,33,307!2024-05-23,79,347-->
-- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-20,5,287!2024-03-25,31,307-->
+- Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-23,3,267!2024-03-25,31,307-->
 - Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-05-21,78,347!2024-04-09,40,307-->
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-03-30,12,267!2024-03-30,32,307-->
 - Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-05-14,71,347!2024-03-22,25,287-->

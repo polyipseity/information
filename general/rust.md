@@ -108,7 +108,7 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2024-12-18,466,310-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2024-04-08,238,270!2024-04-27,300,330!2024-11-28,391,270!2025-07-01,520,270!2024-06-30,326,290!2024-03-20,187,230-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2024-04-08,238,270!2024-04-27,300,330!2024-11-28,391,270!2025-07-01,520,270!2024-06-30,326,290!2025-05-23,429,230-->
 
 ## references
 
