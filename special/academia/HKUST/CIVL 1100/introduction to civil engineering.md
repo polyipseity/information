@@ -98,14 +98,14 @@ The content is in teaching order.
 - construction engineering ::: planning and execution of the designs from other fields of engineers
   - [construction engineer characteristics](#construction%20engineer%20characteristics)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-03-20,9,285!2024-03-28,15,310-->
+- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-04-28,39,305!2024-03-28,15,310-->
   - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-03-21,10,285!2024-03-31,18,310-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2000-01-01,1,250!2024-03-28,15,310-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-04-20,45,295!2000-01-01,1,250-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-03-20,9,270!2000-01-01,1,250-->
+      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-04-13,24,270!2000-01-01,1,250-->
 
 ## data
 
@@ -234,7 +234,7 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-03-20,9,285!2000-01-01,1,250-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-04-18,29,285!2000-01-01,1,250-->
 - description ::: bridge in Hong Kong
 - length ::: 1596 m, longest span: 1018 m
 

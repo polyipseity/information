@@ -136,7 +136,7 @@ pipe
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←flue damper <!--SR:!2024-03-20,21,286!2024-05-05,58,326-->
+- _(begin)_→:::←flue damper <!--SR:!2024-05-21,62,286!2024-05-05,58,326-->
 - flue damper→:::←fuel pump <!--SR:!2024-04-08,36,303!2024-04-26,44,286-->
 - fuel pump→:::←heater <!--SR:!2024-04-05,32,286!2024-03-31,28,286-->
 - heater→:::←multiple burner <!--SR:!2024-05-03,51,286!2024-03-22,21,266-->
@@ -181,7 +181,7 @@ thermal oil heater
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-04-01,28,286-->
 - electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-22,4,206-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-04-09,29,243!2024-04-06,24,246-->
-- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-22,4,206!2024-03-20,9,186-->
+- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-22,4,206!2024-03-25,5,166-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-04-18,45,306!2024-04-03,31,286-->
 
 <!--/pytextgen-->
@@ -268,7 +268,7 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 - design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves <!--SR:!2024-03-26,15,206!2024-04-04,30,283-->
 - operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-04-03,31,286!2024-03-31,23,246-->
 - operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-04-09,37,306!2024-04-21,44,303-->
-- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-03-20,21,286!2024-03-23,20,266-->
+- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-05-22,63,286!2024-03-23,20,266-->
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-04-18,43,303!2024-03-28,28,286-->
 - operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-05-11,61,326!2024-03-30,16,226-->
 
@@ -357,7 +357,7 @@ overheating
 - _(begin)_→:::←blocked or restricted flow <!--SR:!2024-04-08,34,286!2024-05-19,69,323-->
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-04-21,34,246!2024-04-20,47,306-->
 - compressor malfunction→:::←external fire <!--SR:!2024-03-22,3,206!2024-04-15,31,246-->
-- external fire→:::←failure of automatic controls <!--SR:!2024-03-20,6,246!2024-04-12,40,306-->
+- external fire→:::←failure of automatic controls <!--SR:!2024-04-03,14,246!2024-04-12,40,306-->
 - failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-03-22,7,243-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-04-15,42,303!2024-04-20,45,303-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-04-12,40,306!2024-04-02,30,286-->
@@ -486,10 +486,10 @@ operator: segregate and indicate work area
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-04-08,28,246!2024-04-19,45,303-->
 - design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-21,3,186!2024-04-01,24,246-->
-- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-20,19,266!2024-04-04,32,286-->
+- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-30,10,246!2024-04-04,32,286-->
 - design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-24,21,246!2024-04-02,20,206-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-03-28,10,186!2024-04-16,34,246-->
-- operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-04-20,33,226!2024-03-20,20,266-->
+- operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-04-20,33,226!2024-05-11,52,266-->
 - operator: segregate and indicate work area→:::←_(end)_ <!--SR:!2024-05-18,68,326!2024-04-06,26,206-->
 
 <!--/pytextgen-->
@@ -606,7 +606,7 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56) <!--SR:!2024-03-28,24,266!2024-05-31,79,323-->
 - Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A) <!--SR:!2024-05-11,61,326!2024-05-09,59,323-->
 - Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B) <!--SR:!2024-04-22,42,303!2024-05-02,55,323-->
-- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-03-20,2,166!2024-03-28,25,263-->
+- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-03-21,1,146!2024-03-28,25,263-->
 - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_ <!--SR:!2024-05-23,73,326!2024-03-21,18,266-->
 
 <!--/pytextgen-->

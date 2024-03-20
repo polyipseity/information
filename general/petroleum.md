@@ -123,7 +123,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="e8ff"--><!-- The following content is generated at 2024-01-04T20:17:52.452954+08:00. Any edits will be overridden! -->
 
 - -40 to -1 °C::[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2025-04-25,529,310-->
-- -12 to -1 °C::[butane](butane.md) <!--SR:!2024-03-20,274,334-->
+- -12 to -1 °C::[butane](butane.md) <!--SR:!2026-09-20,914,334-->
 - -1 to 110 °C::[gasoline/petrol](gasoline.md) <!--SR:!2024-05-08,110,294-->
 - 30 to 200 °C::[naphtha](naphtha.md) <!--SR:!2024-03-22,231,274-->
 - 150 to 205 °C::[jet fuel](jet%20fuel.md) <!--SR:!2024-09-09,365,294-->

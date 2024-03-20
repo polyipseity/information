@@ -20,7 +20,7 @@ tags:
 
 %%
 
-A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}}. <!--SR:!2024-03-20,166,230-->
+A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}}. <!--SR:!2025-04-05,381,230-->
 
 ## characteristic properties
 

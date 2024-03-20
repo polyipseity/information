@@ -19,7 +19,7 @@ tags:
 
 ## driven, damped harmonic oscillator
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}}: <!--SR:!2024-03-20,62,312-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}}: <!--SR:!2024-12-12,267,332-->
 
 > __ordinary differential equation__
 >
@@ -154,7 +154,7 @@ Through [nondimensionalization](nondimensionalization.md), the equation below {{
 > - where
 >   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2024-11-02,236,332!2024-10-22,228,332-->
 
-In terms of properties, the universal oscillator equation is {{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}}. <!--SR:!2024-03-20,63,312-->
+In terms of properties, the universal oscillator equation is {{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}}. <!--SR:!2024-12-16,271,332-->
 
 ## references
 

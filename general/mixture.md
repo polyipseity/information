@@ -18,7 +18,7 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 - formation ::: no [chemical reactions](chemical%20reaction.md), no to little energy change ([enthalpy of mixing](enthalpy%20of%20mixing.md)) <!--SR:!2024-04-05,94,250!2024-03-31,18,313-->
 - properties ::: each constituent keeps its properties <!--SR:!2025-08-29,644,310!2024-03-29,16,313-->
 - separation ::: separable by physical and chemical methods <!--SR:!2024-05-05,308,330!2024-03-30,17,313-->
-- [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::: wide <!--SR:!2024-03-20,275,330!2024-03-27,14,313-->
+- [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::: wide <!--SR:!2026-09-13,907,330!2024-03-27,14,313-->
 
 ## uniformity
 
