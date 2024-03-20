@@ -22,7 +22,7 @@ The content is in teaching order.
 
 - [occupational health areas](#occupational%20health%20areas) <!--SR:!2024-02-14,2,182!2024-02-25,14,290-->
 - occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: Under Labour Department, there is an occupational hygiene section and an occupational medicine section. <!--SR:!2024-05-02,65,322!2024-04-29,63,310-->
-- occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards <!--SR:!2024-03-19,22,295!2024-04-28,56,335-->
+- occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards <!--SR:!2024-05-22,64,295!2024-04-28,56,335-->
   - [occupational medicine section](#occupational%20medicine%20section)
 - [occupational hazard types](#occupational%20hazard%20types)
 - [occupational hazard factors](#occupational%20hazard%20factors)
@@ -199,7 +199,7 @@ reduced sweating
 <!--pytextgen generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←convulsions <!--SR:!2024-05-18,61,299!2024-05-26,80,359-->
-- convulsions→:::←dry hot skin <!--SR:!2024-03-19,14,255!2024-05-02,60,335-->
+- convulsions→:::←dry hot skin <!--SR:!2024-04-23,35,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-05-28,81,359-->
 - high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-22,11,229-->
@@ -290,7 +290,7 @@ socio-psychological
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
 - chemical→:::←ergonomic <!--SR:!2024-04-12,25,239!2024-03-21,24,295-->
 - ergonomic→:::←occupation-specific <!--SR:!2024-04-25,38,259!2024-03-23,25,299-->
-- occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-03-19,22,299-->
+- occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-05-25,67,299-->
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->
 - socio-psychological→:::←_(end)_ <!--SR:!2024-06-06,90,349!2024-04-26,43,335-->
 
@@ -421,7 +421,7 @@ vibration
 - nonionizing radiation→:::←pressure <!--SR:!2024-03-30,12,229!2024-03-20,14,249-->
 - pressure→:::←temperature <!--SR:!2024-05-23,78,355!2024-04-10,36,279-->
 - temperature→:::←vibration <!--SR:!2024-04-14,41,299!2024-04-14,45,339-->
-- vibration→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-03-19,19,279-->
+- vibration→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-09,51,279-->
 
 <!--/pytextgen-->
 
