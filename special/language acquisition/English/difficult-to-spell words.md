@@ -28,11 +28,11 @@ English
 - [attitude](https://en.wiktionary.org/wiki/attitude) ::: (a\_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-11-27,258,344!2024-06-05,94,304-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::: (b\_i) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2024-04-03,66,337!2024-10-14,222,357-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::: (b\_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2024-07-20,149,304!2024-04-08,75,324-->
-- [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-03-19,62,324!2024-03-22,65,324-->
+- [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-12-20,276,344!2024-03-22,65,324-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c\_y) Acting as a complement to make something else whole. <!--SR:!2024-03-21,64,324!2024-11-17,249,344-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-06-21,102,264!2024-09-26,192,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2024-05-16,66,372!2024-03-26,28,372-->
-- [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-09-04,175,410!2024-03-19,33,350-->
+- [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-09-04,175,410!2024-07-14,117,350-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2024-04-06,19,356!2024-04-14,27,376-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2024-07-20,124,392!2024-08-09,149,413-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2024-04-07,74,324!2024-04-10,77,324-->
@@ -43,8 +43,8 @@ English
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-09-27,193,324!2024-04-13,80,324-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2024-03-27,69,324!2024-03-23,66,324-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2024-04-19,32,376!2024-04-10,23,376-->
-- [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2024-03-19,68,310!2024-03-24,73,310-->
-- [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-03-19,45,303-->
+- [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2025-01-02,289,330!2024-03-24,73,310-->
+- [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-08-08,142,303-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2024-07-04,121,388!2024-04-19,60,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2024-08-02,144,412!2024-06-30,117,412-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2024-03-28,69,324!2024-12-14,271,344-->
@@ -71,7 +71,7 @@ English
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-04-18,31,376!2024-03-24,10,336-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-05-07,57,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-05-03,53,368-->
-- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-19,15,348-->
+- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-27,8,328-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2024-06-26,121,408!2024-07-13,117,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,352!2024-03-31,72,352-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->

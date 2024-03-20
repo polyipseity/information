@@ -156,7 +156,7 @@ return _chain.from_iterable(await _gather(
 - [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-05-03,306,330!2024-05-31,329,330-->
 - [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2024-05-24,192,230!2024-03-22,17,130-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2024-03-23,101,150!2024-06-25,290,270-->
-- [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2024-03-19,274,330!2027-08-07,1237,350-->
+- [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
 - [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2025-10-07,631,310!2024-05-04,142,190-->
 - [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-07-24,351,290!2024-05-08,103,290-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2025-09-24,635,310!2024-04-06,286,330-->
@@ -175,7 +175,7 @@ return _chain.from_iterable(await _gather(
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-04-09,155,270-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-03-26,38,170!2024-04-04,174,210-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2024-08-23,362,290-->
-- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-03-19,19,130!2024-03-25,198,230-->
+- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-04-12,24,130!2024-03-25,198,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2024-06-03,278,270!2024-08-14,358,290-->
 - [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2024-06-16,254,230!2024-03-22,224,290-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2024-04-01,62,230!2024-04-21,82,210-->

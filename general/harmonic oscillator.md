@@ -37,7 +37,7 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-09-28,194,312!2024-09-30,210,332!2024-03-19,51,250-->
+>   - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-09-28,194,312!2024-09-30,210,332!2024-07-24,127,250-->
 
 The above [inhomogeneous ordinary differential equation](ordinary%20differential%20equation.md#^nonhomogeneous) can always {{be solved exactly for any driving [force](force.md), usually by first solving the homogeneous counterpart of the above equation}}. <!--SR:!2024-09-14,180,312-->
 

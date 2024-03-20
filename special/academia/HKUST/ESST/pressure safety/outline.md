@@ -53,7 +53,7 @@ The content is in teaching order.
   - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
   - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-04-10,34,286!2024-03-23,22,266-->
-  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-03-19,13,226!2024-03-22,19,263-->
+  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-04-18,30,226!2024-03-22,19,263-->
   - hydraulic test
     - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-04-09,22,226!2024-03-25,25,286-->
     - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-23,17,223!2024-04-08,35,283-->
@@ -309,7 +309,7 @@ protective devices that release contents do so safely
 <!--pytextgen generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-04-03,23,266!2024-04-22,47,303-->
-- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-03-19,19,266!2024-03-29,22,263-->
+- examinable with safely accessible interior→:::←expected working life <!--SR:!2024-05-06,48,266!2024-03-29,22,263-->
 - expected working life→:::←fluid properties <!--SR:!2024-04-07,35,306!2024-04-18,31,246-->
 - fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-22,9,186!2024-04-14,31,266-->
 - operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-26,13,206!2024-04-03,26,246-->
@@ -356,7 +356,7 @@ overheating
 
 - _(begin)_→:::←blocked or restricted flow <!--SR:!2024-04-08,34,286!2024-05-19,69,323-->
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-04-21,34,246!2024-04-20,47,306-->
-- compressor malfunction→:::←external fire <!--SR:!2024-03-19,6,226!2024-04-15,31,246-->
+- compressor malfunction→:::←external fire <!--SR:!2024-03-22,3,206!2024-04-15,31,246-->
 - external fire→:::←failure of automatic controls <!--SR:!2024-03-20,6,246!2024-04-12,40,306-->
 - failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-03-22,7,243-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-04-15,42,303!2024-04-20,45,303-->
@@ -402,9 +402,9 @@ worker knowledge and skills
 - _(begin)_→:::←control complexity <!--SR:!2024-03-26,20,266!2024-05-11,66,310-->
 - control complexity→:::←equipment age, condition, and suitability <!--SR:!2024-04-14,39,286!2024-03-25,25,286-->
 - equipment age, condition, and suitability→:::←fluid properties <!--SR:!2024-03-26,23,286!2024-03-24,19,226-->
-- fluid properties→:::←pressure <!--SR:!2024-03-19,18,266!2024-03-21,21,266-->
+- fluid properties→:::←pressure <!--SR:!2024-03-27,8,246!2024-03-21,21,266-->
 - pressure→:::←prevailing conditions <!--SR:!2024-03-29,25,286!2024-04-04,32,306-->
-- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-03-19,8,226!2024-03-19,6,226-->
+- prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-04-05,17,226!2024-04-01,13,226-->
 - worker knowledge and skills→:::←_(end)_ <!--SR:!2024-05-16,66,323!2024-04-10,36,283-->
 
 <!--/pytextgen-->
@@ -649,7 +649,7 @@ thermal protection
 
 - _(begin)_→:::←air inlet and outlet monitoring <!--SR:!2024-04-12,32,266!2024-04-14,42,303-->
 - air inlet and outlet monitoring→:::←calibrated pressure gauge <!--SR:!2024-04-18,31,246!2024-03-27,22,266-->
-- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-03-19,8,186!2024-05-02,50,286-->
+- calibrated pressure gauge→:::←coolant protection <!--SR:!2024-04-04,16,186!2024-05-02,50,286-->
 - coolant protection→:::←explosion protection <!--SR:!2024-03-25,12,203!2024-04-15,42,306-->
 - explosion protection→:::←lubricant protection <!--SR:!2024-04-16,43,306!2024-04-22,48,306-->
 - lubricant protection→:::←safety valve <!--SR:!2024-03-30,24,266!2024-04-16,42,306-->

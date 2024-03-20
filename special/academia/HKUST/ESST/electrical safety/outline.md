@@ -247,7 +247,7 @@ protective bonding
 
 - _(begin)_→:::←[center tap](../../../../../general/center%20tap.md) <!--SR:!2024-05-08,66,327!2024-05-24,80,347-->
 - [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-04-23,48,267!2024-04-08,39,307-->
-- [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-03-19,22,267!2024-04-05,39,307-->
+- [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-05-16,58,267!2024-04-05,39,307-->
 - compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-03-23,12,247!2024-04-13,44,307-->
 - [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-04-12,43,307!2024-03-22,9,267-->
 - grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-03-22,9,227!2024-03-29,32,307-->
@@ -289,7 +289,7 @@ use of inappropriate measurement tools
 - _(begin)_→:::←contact with overhead power lines <!--SR:!2024-04-26,58,327!2024-05-15,73,347-->
 - contact with overhead power lines→:::←damaged cover <!--SR:!2024-04-29,60,327!2024-04-24,56,327-->
 - damaged cover→:::←use of inappropriate measurement tools <!--SR:!2024-04-12,32,287!2024-05-26,82,347-->
-- use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-05-23,79,347!2024-03-19,16,287-->
+- use of inappropriate measurement tools→:::←_(end)_ <!--SR:!2024-05-23,79,347!2024-05-03,45,287-->
 
 <!--/pytextgen-->
 
@@ -368,6 +368,6 @@ no safety shutter
 - loose electric plug→:::←no [fuse](../../../../../general/fuse%20(electrical).md) <!--SR:!2024-05-10,64,327!2024-04-01,35,307-->
 - no [fuse](../../../../../general/fuse%20(electrical).md)→:::←no insulating sleeves <!--SR:!2024-04-16,49,327!2024-03-23,9,267-->
 - no insulating sleeves→:::←no safety shutter <!--SR:!2024-05-26,81,347!2024-04-01,35,307-->
-- no safety shutter→:::←_(end)_ <!--SR:!2024-04-27,59,327!2024-03-19,16,287-->
+- no safety shutter→:::←_(end)_ <!--SR:!2024-04-27,59,327!2024-05-02,44,287-->
 
 <!--/pytextgen-->
