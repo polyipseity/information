@@ -75,7 +75,7 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at $0$. <!--SR:!2024-03-30,17,304-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$. <!--SR:!2024-03-29,16,290-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$. <!--SR:!2024-03-28,15,290-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-03-21,10,270-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-04-27,37,290-->
 
 ## references
 

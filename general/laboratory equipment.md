@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 - [crucible](crucible.md)::![crucible](../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg) <!--SR:!2027-01-10,1073,350-->
 - [crucible tongs](crucible%20tongs.md)::![crucible tongs](../archives/Wikimedia%20Commons/Crucible%20tong.jpg) <!--SR:!2024-04-29,302,330-->
 - [desiccator](desiccator.md)::![desiccator](../archives/Wikimedia%20Commons/Desiccator.jpg) <!--SR:!2027-04-17,1146,350-->
-- [(eye) dropper/Pasteur pipette](eye%20dropper.md)::![(eye) dropper/Pasteur pipette](../archives/Wikimedia%20Commons/Transfer%20pipette.jpg) <!--SR:!2024-03-21,270,330-->
+- [(eye) dropper/Pasteur pipette](eye%20dropper.md)::![(eye) dropper/Pasteur pipette](../archives/Wikimedia%20Commons/Transfer%20pipette.jpg) <!--SR:!2027-08-01,1228,350-->
 - dropping bottle::![dropping bottle](../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg) <!--SR:!2024-06-01,330,330-->
 - [electronic balance](weighing%20scale.md)::![electronic balance](../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg) <!--SR:!2026-08-24,887,330-->
 - [evaporating dish](evaporating%20dish.md)::![evaporating dish](../archives/Wikimedia%20Commons/Abdampfschalen%20verschiedene%20Groessen.jpg) <!--SR:!2024-04-16,294,330-->

@@ -43,7 +43,7 @@ The content is in teaching order.
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives.
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage
-    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-03-21,10,270!2000-01-01,1,250-->
+    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-04-16,26,270!2000-01-01,1,250-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures
     - [complex shape examples](#complex%20shape%20examples)
@@ -101,7 +101,7 @@ The content is in teaching order.
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-04-28,39,305!2024-03-28,15,310-->
   - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-03-21,10,285!2024-03-31,18,310-->
+  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-04-20,30,285!2024-03-31,18,310-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2000-01-01,1,250!2024-03-28,15,310-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-04-20,45,295!2000-01-01,1,250-->
@@ -1223,7 +1223,7 @@ waves
 
 - _(begin)_→:::←earthquakes
 - earthquakes→:::←fires
-- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-21,3,266-->
+- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-03-23,2,246-->
 - floods→:::←strong winds
 - strong winds→:::←waves <!--SR:!2024-04-10,22,270!2000-01-01,1,250-->
 - waves→:::←_(end)_
@@ -1534,6 +1534,6 @@ water treatment
 - wastewater recycling→:::←wastewater treatment
 - wastewater treatment→:::←water quality monitoring
 - water quality monitoring→:::←water treatment
-- water treatment→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-21,10,286-->
+- water treatment→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-19,29,286-->
 
 <!--/pytextgen-->

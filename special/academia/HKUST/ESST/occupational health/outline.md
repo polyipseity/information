@@ -202,7 +202,7 @@ reduced sweating
 - convulsions→:::←dry hot skin <!--SR:!2024-04-23,35,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-05-28,81,359-->
-- high temperature→:::←mental confusion <!--SR:!2024-03-21,22,279!2024-03-22,11,229-->
+- high temperature→:::←mental confusion <!--SR:!2024-05-20,60,279!2024-03-22,11,229-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
 - reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-22,7,259-->
 
@@ -245,7 +245,7 @@ user
 - _(begin)_→:::←control <!--SR:!2024-04-13,29,239!2024-05-20,75,359-->
 - control→:::←environment <!--SR:!2024-03-24,6,259!2024-03-30,29,279-->
 - environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-04-17,35,259-->
-- equipment→:::←material <!--SR:!2024-03-22,4,199!2024-03-21,18,269-->
+- equipment→:::←material <!--SR:!2024-03-22,4,199!2024-05-07,47,269-->
 - material→:::←process <!--SR:!2024-04-06,34,299!2024-05-04,45,269-->
 - process→:::←user <!--SR:!2024-04-26,51,299!2024-05-17,72,359-->
 - user→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-20,76,355-->
@@ -288,7 +288,7 @@ socio-psychological
 
 - _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-05-17,73,349-->
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
-- chemical→:::←ergonomic <!--SR:!2024-04-12,25,239!2024-03-21,24,295-->
+- chemical→:::←ergonomic <!--SR:!2024-04-12,25,239!2024-06-02,73,295-->
 - ergonomic→:::←occupation-specific <!--SR:!2024-04-25,38,259!2024-03-23,25,299-->
 - occupation-specific→:::←physical <!--SR:!2024-03-25,27,299!2024-05-25,67,299-->
 - physical→:::←socio-psychological <!--SR:!2024-04-01,32,299!2024-04-22,52,339-->

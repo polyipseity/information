@@ -221,7 +221,7 @@ safety: fusible pressure release plug or efficient low-water alarm
 - _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-30,16,203!2024-04-21,48,306-->
 - control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-28,14,246!2024-05-03,46,266-->
 - identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-05-20,68,324!2024-05-03,50,304-->
-- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-03-21,18,263!2024-04-24,49,306-->
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-05-05,45,263!2024-04-24,49,306-->
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-26,8,170!2024-03-28,25,286-->
 - safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-05-13,63,326!2024-03-27,14,226-->
 
@@ -402,7 +402,7 @@ worker knowledge and skills
 - _(begin)_→:::←control complexity <!--SR:!2024-03-26,20,266!2024-05-11,66,310-->
 - control complexity→:::←equipment age, condition, and suitability <!--SR:!2024-04-14,39,286!2024-03-25,25,286-->
 - equipment age, condition, and suitability→:::←fluid properties <!--SR:!2024-03-26,23,286!2024-03-24,19,226-->
-- fluid properties→:::←pressure <!--SR:!2024-03-27,8,246!2024-03-21,21,266-->
+- fluid properties→:::←pressure <!--SR:!2024-03-27,8,246!2024-04-03,13,246-->
 - pressure→:::←prevailing conditions <!--SR:!2024-03-29,25,286!2024-04-04,32,306-->
 - prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-04-05,17,226!2024-04-01,13,226-->
 - worker knowledge and skills→:::←_(end)_ <!--SR:!2024-05-16,66,323!2024-04-10,36,283-->
@@ -485,7 +485,7 @@ operator: segregate and indicate work area
 <!--pytextgen generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-04-08,28,246!2024-04-19,45,303-->
-- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-21,3,186!2024-04-01,24,246-->
+- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-26,5,186!2024-04-01,24,246-->
 - design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-30,10,246!2024-04-04,32,286-->
 - design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-24,21,246!2024-04-02,20,206-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-03-28,10,186!2024-04-16,34,246-->
@@ -606,8 +606,8 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 - _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56) <!--SR:!2024-03-28,24,266!2024-05-31,79,323-->
 - Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A) <!--SR:!2024-05-11,61,326!2024-05-09,59,323-->
 - Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B) <!--SR:!2024-04-22,42,303!2024-05-02,55,323-->
-- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-03-21,1,146!2024-03-28,25,263-->
-- Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_ <!--SR:!2024-05-23,73,326!2024-03-21,18,266-->
+- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) <!--SR:!2024-03-23,2,166!2024-03-28,25,263-->
+- Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_ <!--SR:!2024-05-23,73,326!2024-05-07,47,266-->
 
 <!--/pytextgen-->
 
