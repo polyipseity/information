@@ -62,11 +62,11 @@ return (
 
 <!--pytextgen generate section="341d9e"--><!-- The following content is generated at 2024-01-04T20:17:52.416402+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←element in a free form: 0 <!--SR:!2024-11-24,560,310!2024-03-22,395,330-->
+- _(begin)_→:::←element in a free form: 0 <!--SR:!2024-11-24,560,310!2029-02-20,1796,350-->
 - element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2025-02-21,620,310-->
 - ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2025-11-05,662,250!2024-03-26,372,290-->
 - fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2024-10-16,403,230!2025-09-19,714,270-->
-- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2024-07-31,408,270!2024-03-22,111,210-->
+- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2024-07-31,408,270!2024-11-09,232,210-->
 - group I metal: +1→:::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2026-01-08,892,330-->
 - group II metal: +2→:::←metallic hydride: -1 <!--SR:!2024-07-25,126,230!2024-05-03,395,290-->
 - metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->

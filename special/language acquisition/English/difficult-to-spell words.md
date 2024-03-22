@@ -23,12 +23,12 @@ English
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2024-07-06,148,310!2024-07-13,141,290-->
 - [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations. <!--SR:!2024-04-10,23,376!2024-04-10,23,376-->
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::: (a\_t) Earlier, in time or order. <!--SR:!2024-03-25,27,372!2024-05-15,61,352-->
-- [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2024-03-22,65,324!2024-03-22,58,284-->
+- [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2025-01-05,289,344!2024-11-05,228,304-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a\_l) Man-made. <!--SR:!2024-08-01,148,410!2024-08-21,163,410-->
 - [attitude](https://en.wiktionary.org/wiki/attitude) ::: (a\_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-11-27,258,344!2024-06-05,94,304-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::: (b\_i) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2024-04-03,66,337!2024-10-14,222,357-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::: (b\_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2024-07-20,149,304!2024-04-08,75,324-->
-- [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-12-20,276,344!2024-03-22,65,324-->
+- [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-12-20,276,344!2025-01-06,290,344-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c\_y) Acting as a complement to make something else whole. <!--SR:!2024-12-31,285,344!2024-11-17,249,344-->
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-06-21,102,264!2024-09-26,192,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2024-05-16,66,372!2024-03-26,28,372-->
@@ -74,7 +74,7 @@ English
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-03-27,8,328-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2024-06-26,121,408!2024-07-13,117,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2024-03-26,68,352!2024-03-31,72,352-->
-- [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2024-03-22,71,310!2024-04-26,93,290-->
+- [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2024-04-26,93,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-09-25,209,352-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-04-17,30,376!2024-03-29,15,356-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-04-08,21,356!2024-03-24,10,336-->

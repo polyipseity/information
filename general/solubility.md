@@ -134,7 +134,7 @@ return (
 > acetates (ethanoates)
 >
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{Ag<sup>+</sup> compounds}} <!--SR:!2024-10-17,551,242!2024-03-22,329,230-->
+> - exception(s): {{Ag<sup>+</sup> compounds}} <!--SR:!2024-10-17,551,242!2026-04-17,756,230-->
 
 <!-- markdownlint MD028 -->
 

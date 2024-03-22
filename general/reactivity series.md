@@ -182,7 +182,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)::Ca<sup>2+</sup> <!--SR:!2024-05-19,317,330-->
 - [magnesium](magnesium.md)::Mg<sup>2+</sup> <!--SR:!2024-04-03,283,330-->
 - [beryllium](beryllium.md)::Be<sup>2+</sup> <!--SR:!2025-04-06,511,310-->
-- [aluminium](aluminium.md)::Al<sup>3+</sup> <!--SR:!2024-03-22,271,330-->
+- [aluminium](aluminium.md)::Al<sup>3+</sup> <!--SR:!2027-08-06,1232,350-->
 - [titanium](titanium.md)::Ti<sup>4+</sup> <!--SR:!2025-03-21,498,310-->
 - [manganese](manganese.md)::Mn<sup>2+</sup> <!--SR:!2025-05-26,548,310-->
 - [zinc](zinc.md)::Zn<sup>2+</sup> <!--SR:!2026-04-22,848,330-->
@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-04-16,29,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-03-27,16,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-03-22,3,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-03-24,2,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-30,252,270-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
