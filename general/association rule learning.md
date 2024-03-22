@@ -72,6 +72,14 @@ Assume one has two criteria for finding rules: {{minimum support and minimum con
 
 See [Apriori algorithm](Apriori%20algorithm.md).
 
+### Eclat algorithm
+
+See [Eclat algorithm](Eclat%20algorithm.md).
+
+### FP-growth algorithm
+
+See [FP-growth algorithm](FP-growth%20algorithm.md).
+
 ## references
 
 This text incorporates [content](https://en.wikipedia.org/wiki/association_rule_learning) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
