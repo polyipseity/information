@@ -57,25 +57,25 @@ overwhelmed by true value creation vs. understand patterns of value creation
 
 <!--/pytextgen-->
 
-Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}.
+Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-03-24,3,250!2000-01-01,1,250-->
 
-Value proposition design works for {{both new ventures and established organizations}}.
+Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2024-03-25,4,270-->
 
 ## canvas
 
 The value proposition canvas has two parts: {{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}}.
 
-The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}.
+The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2000-01-01,1,250!2024-03-25,4,270!2000-01-01,1,250-->
 
 ### customer profile
 
 Customer jobs can be split into three categories: {{functional jobs, social jobs, and personal or emotional jobs}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.
 
-Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}.
+Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-03-25,4,270!2000-01-01,1,250!2000-01-01,1,250-->
 
-Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}.
+Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270-->
 
-Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.
+Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. <!--SR:!2024-03-25,4,270!2000-01-01,1,250-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. Jobs to be done can be improved by {{asking why repeatedly until you find the root job}}.
 
@@ -125,9 +125,9 @@ vague jobs, pains, and gains
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, and financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}.
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, and financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-03-25,4,270!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270!2000-01-01,1,250-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}.
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270!2024-03-25,4,270-->
 
 Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}.
 
@@ -173,9 +173,9 @@ offer irrelevant pain relievers and gain creators
 
 ### fit
 
-Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfying customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}.
+Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfying customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-03-25,4,270!2024-03-25,4,270-->
 
-However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}.
+However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270-->
 
 ## design
 
@@ -225,7 +225,7 @@ find customer patterns
 - create a customer profile→:::←outline the interview
 - outline the interview→:::←interview
 - interview→:::←capture new customer profile
-- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times
+- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-03-25,4,270!2000-01-01,1,250-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns
 - find customer patterns→:::←_(end)_
 
@@ -273,18 +273,18 @@ making progress
 
 - _(begin)_→:::←extracting hypotheses
 - extracting hypotheses→:::←prioritizing hypotheses
-- prioritizing hypotheses→:::←designing tests
-- designing tests→:::←prioritizing tests
-- prioritizing tests→:::←running tests
+- prioritizing hypotheses→:::←designing tests <!--SR:!2000-01-01,1,250!2024-03-24,3,250-->
+- designing tests→:::←prioritizing tests <!--SR:!2000-01-01,1,250!2024-03-25,4,270-->
+- prioritizing tests→:::←running tests <!--SR:!2000-01-01,1,250!2024-03-25,4,270-->
 - running tests→:::←capturing findings
 - capturing findings→:::←making progress
-- making progress→:::←_(end)_
+- making progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-25,4,270-->
 
 <!--/pytextgen-->
 
 ### test card
 
-When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}.
+When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-03-25,4,270!2024-03-24,3,250-->
 
 One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}.
 
