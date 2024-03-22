@@ -593,25 +593,25 @@ Please find a C4.5 decision tree according to the above example. In the decision
 > T & = \set{1, 2, 3, 4, 5, 6, 7, 8} \\
 > \operatorname{Info}(T) & = -\frac 4 8 \log_2 \frac 4 8 - \frac 4 8 \log_2 \frac 4 8 = 1 \\
 > \\
-> \operatorname{Info}(T \vert \text{HasMacBook} = \text{no}) & = -\frac 2 4 \log_2 \frac 2 4 - \frac 2 4 \log_2 \frac 2 4 = 1 \\
-> \operatorname{Info}(T \vert \text{HasMacBook} = \text{yes}) & = -\frac 2 4 \log_2 \frac 2 4 - \frac 2 4 \log_2 \frac 2 4 = 1 \\
-> \operatorname{Info}(\text{HasMacBook} \vert T) & = \frac 4 8 (1) + \frac 4 8 (1) = 1 \\
-> \operatorname{SplitInfo}(\text{HasMacBook} \vert T) & = -\frac 4 8 \log_2 \frac 4 8 - \frac 4 8 \log_2 \frac 4 8 = 1 \\
-> \operatorname{Gain}(\text{HasMacBook} \vert T) & = \frac {1 - 1} 1 = 0 \\
+> \operatorname{Info}(T_{ \text{HasMacBook} = \text{no} }) & = -\frac 2 4 \log_2 \frac 2 4 - \frac 2 4 \log_2 \frac 2 4 = 1 \\
+> \operatorname{Info}(T_{ \text{HasMacBook} = \text{yes} }) & = -\frac 2 4 \log_2 \frac 2 4 - \frac 2 4 \log_2 \frac 2 4 = 1 \\
+> \operatorname{Info}(\text{HasMacBook} | T) & = \frac 4 8 (1) + \frac 4 8 (1) = 1 \\
+> \operatorname{SplitInfo}(\text{HasMacBook}) & = -\frac 4 8 \log_2 \frac 4 8 - \frac 4 8 \log_2 \frac 4 8 = 1 \\
+> \operatorname{Gain}(T, \text{HasMacBook}) & = \frac {1 - 1} 1 = 0 \\
 > \\
-> \operatorname{Info}(T \vert \text{Income} = \text{low}) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
-> \operatorname{Info}(T \vert \text{Income} = \text{medium}) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
-> \operatorname{Info}(T \vert \text{Income} = \text{high}) & = -\frac 2 4 \log_2 \frac 2 4 - \frac 2 4 \log_2 \frac 2 4 = 1 \\
-> \operatorname{Info}(\text{Income} \vert T) & = \frac 2 8 (1) + \frac 2 8 (1) + \frac 4 8 (1) = 1 \\
-> \operatorname{SplitInfo}(\text{Income} \vert T) & = -\frac 2 8 \log_2 \frac 2 8 - \frac 2 8 \log_2 \frac 2 8 - \frac 4 8 \log_2 \frac 4 8 = 1.5 \\
-> \operatorname{Gain}(\text{Income} \vert T) & = \frac {1 - 1} {1.5} = 0 \\
+> \operatorname{Info}(T_{ \text{Income} = \text{low} }) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
+> \operatorname{Info}(T_{ \text{Income} = \text{medium} }) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
+> \operatorname{Info}(T_{ \text{Income} = \text{high} }) & = -\frac 2 4 \log_2 \frac 2 4 - \frac 2 4 \log_2 \frac 2 4 = 1 \\
+> \operatorname{Info}(\text{Income} | T) & = \frac 2 8 (1) + \frac 2 8 (1) + \frac 4 8 (1) = 1 \\
+> \operatorname{SplitInfo}(\text{Income}) & = -\frac 2 8 \log_2 \frac 2 8 - \frac 2 8 \log_2 \frac 2 8 - \frac 4 8 \log_2 \frac 4 8 = 1.5 \\
+> \operatorname{Gain}(T, \text{Income}) & = \frac {1 - 1} {1.5} = 0 \\
 > \\
-> \operatorname{Info}(T \vert \text{Age} = \text{young}) & = -\frac 3 3 \log_2 \frac 3 3 = 0 \\
-> \operatorname{Info}(T \vert \text{Age} = \text{middle}) & = -\frac 1 1 \log_2 \frac 1 1 = 0 \\
-> \operatorname{Info}(T \vert \text{Age} = \text{old}) & = -\frac 1 4 \log_2 \frac 1 4 - \frac 3 4 \log_2 \frac 3 4 \approx 0.811278124 \\
-> \operatorname{Info}(\text{Age} \vert T) & = \frac 3 8 (0) + \frac 1 8 (0) + \frac 5 8 (0.811278124) = 0.507048828 \\
-> \operatorname{SplitInfo}(\text{Age} \vert T) & = -\frac 3 8 \log_2 \frac 3 8 - \frac 1 8 \log_2 \frac 1 8 - \frac 4 8 \log_2 \frac 4 8 \approx 1.40563906 \\
-> \operatorname{Gain}(\text{Age} \vert T) & = \frac {1 - 0.507048828} {1.40563906} \approx 0.35069541 \\
+> \operatorname{Info}(T_{ \text{Age} = \text{young} }) & = -\frac 3 3 \log_2 \frac 3 3 = 0 \\
+> \operatorname{Info}(T_{ \text{Age} = \text{middle} }) & = -\frac 1 1 \log_2 \frac 1 1 = 0 \\
+> \operatorname{Info}(T_{ \text{Age} = \text{old} }) & = -\frac 1 4 \log_2 \frac 1 4 - \frac 3 4 \log_2 \frac 3 4 \approx 0.811278124 \\
+> \operatorname{Info}(\text{Age} | T) & = \frac 3 8 (0) + \frac 1 8 (0) + \frac 5 8 (0.811278124) = 0.507048828 \\
+> \operatorname{SplitInfo}(\text{Age}) & = -\frac 3 8 \log_2 \frac 3 8 - \frac 1 8 \log_2 \frac 1 8 - \frac 4 8 \log_2 \frac 4 8 \approx 1.40563906 \\
+> \operatorname{Gain}(T, \text{Age}) & = \frac {1 - 0.507048828} {1.40563906} \approx 0.35069541 \\
 > \\
 > & \text{Split by Age as it has the highest gain:} \\
 > T_1 & = \set{6, 7, 8} \qquad \text{Age} = \text{young} \\
@@ -624,18 +624,18 @@ Please find a C4.5 decision tree according to the above example. In the decision
 > T_3 & = \set{1, 3, 4, 5} \\
 > \operatorname{Info}(T_3) & = -\frac 1 4 \log_2 \frac 1 4 - \frac 3 4 \log_2 \frac 3 4 \approx 0.811278124 \\
 > \\
-> \operatorname{Info}(T_3 \vert \text{HasMacBook} = \text{no}) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
-> \operatorname{Info}(T_3 \vert \text{HasMacBook} = \text{yes}) & = -\frac 2 2 \log_2 \frac 2 2 = 0 \\
-> \operatorname{Info}(\text{HasMacBook} \vert T_3) & = \frac 2 4 (1) + \frac 2 4 (0) = \frac 1 2 \\
-> \operatorname{SplitInfo}(\text{HasMacBook} \vert T_3) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
-> \operatorname{Gain}(\text{HasMacBook} \vert T_3) & = \frac {0.811278124 - \frac 1 2} 1 = 0.311278124 \\
+> \operatorname{Info}(T_{3; \text{HasMacBook} = \text{no} }) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
+> \operatorname{Info}(T_{3; \text{HasMacBook} = \text{yes} }) & = -\frac 2 2 \log_2 \frac 2 2 = 0 \\
+> \operatorname{Info}(\text{HasMacBook} | T_3) & = \frac 2 4 (1) + \frac 2 4 (0) = \frac 1 2 \\
+> \operatorname{SplitInfo}(\text{HasMacBook}) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
+> \operatorname{Gain}(T_3, \text{HasMacBook}) & = \frac {0.811278124 - \frac 1 2} 1 = 0.311278124 \\
 > \\
-> \operatorname{Info}(T_3 \vert \text{Income} = \text{low}) & = -\frac 1 1 \log_2 \frac 1 1 = 0 \\
-> \operatorname{Info}(T_3 \vert \text{Income} = \text{medium}) & = -\frac 1 1 \log_2 \frac 1 1 = 0 \\
-> \operatorname{Info}(T_3 \vert \text{Income} = \text{high}) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
-> \operatorname{Info}(\text{Income} \vert T_3) & = \frac 1 4 (0) + \frac 1 4 (0) + \frac 2 4 (1) = \frac 1 2 \\
-> \operatorname{SplitInfo}(\text{Income} \vert T) & = -\frac 1 4 \log_2 \frac 1 4 - \frac 1 4 \log_2 \frac 1 4 - \frac 2 4 \log_2 \frac 2 4 = 1.5 \\
-> \operatorname{Gain}(\text{Income} \vert T) & = \frac {0.811278124 - \frac 1 2} {1.5} \approx 0.20751875 \\
+> \operatorname{Info}(T_{3; \text{Income} = \text{low} }) & = -\frac 1 1 \log_2 \frac 1 1 = 0 \\
+> \operatorname{Info}(T_{3; \text{Income} = \text{medium} }) & = -\frac 1 1 \log_2 \frac 1 1 = 0 \\
+> \operatorname{Info}(T_{3; \text{Income} = \text{high} }) & = -\frac 1 2 \log_2 \frac 1 2 - \frac 1 2 \log_2 \frac 1 2 = 1 \\
+> \operatorname{Info}(\text{Income} | T_3) & = \frac 1 4 (0) + \frac 1 4 (0) + \frac 2 4 (1) = \frac 1 2 \\
+> \operatorname{SplitInfo}(\text{Income}) & = -\frac 1 4 \log_2 \frac 1 4 - \frac 1 4 \log_2 \frac 1 4 - \frac 2 4 \log_2 \frac 2 4 = 1.5 \\
+> \operatorname{Gain}(T_3, \text{Income}) & = \frac {0.811278124 - \frac 1 2} {1.5} \approx 0.20751875 \\
 > \\
 > & \text{Split by HasMacBook as it has the highest gain:} \\
 > T_{3, 1} & = \set{1, 5} \qquad \text{HasMacBook} = \text{no} \\
