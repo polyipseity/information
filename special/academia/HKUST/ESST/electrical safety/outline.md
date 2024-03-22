@@ -67,7 +67,7 @@ The content is in teaching order.
       - [6 kinds of prescribed products](#6%20kinds%20of%20prescribed%20products)
       - [substandard plugs](#substandard%20plugs)
   - _Code of Practice for the Electricity (Wiring) Regulations_ ::: By [EMSD](../../../../../general/Electrical%20and%20Mechanical%20Services%20Department.md). Has many examples of regulated standards to ensure compliance with Electricity (Wiring) Regulations (Cap. 406E). <!--SR:!2024-04-03,37,289!2024-04-24,58,310-->
-- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-03-22,14,274!2024-04-17,42,314-->
+- Consumer Goods Safety Ordinance (Cap. 456) ::: In addition to Electrical Products (Safety) Regulation (Cap. 406G), all consumer goods in Hong Kong also need to comply with the general safety requirement. <!--SR:!2024-05-01,40,274!2024-04-17,42,314-->
     - [general safety requirement stipulations](#general%20safety%20requirement%20stipulations) <!--SR:!2024-02-19,2,190!2024-02-19,6,249-->
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W) ::: Under the Factories and Industrial Undertakings Ordinance (Cap. 59). To protect workers from electrical hazards. Applicable to all industrial activities in which electricity is generated, transmitted, distributed, or used, but NOT applicable to supplying electricity in accordance with the Electricity Ordinance (Cap. 406). <!--SR:!2024-03-27,29,249!2024-04-04,22,244-->
 
@@ -249,8 +249,8 @@ protective bonding
 - [center tap](../../../../../general/center%20tap.md)→:::←[circuit breaker](../../../../../general/circult%20breaker.md) <!--SR:!2024-04-23,48,267!2024-04-08,39,307-->
 - [circuit breaker](../../../../../general/circult%20breaker.md)→:::←compliance with cable standards <!--SR:!2024-05-16,58,267!2024-04-05,39,307-->
 - compliance with cable standards→:::←[double insulation](../../../../../general/appliance%20classes.md#Class%20II) <!--SR:!2024-03-23,12,247!2024-04-13,44,307-->
-- [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-04-12,43,307!2024-03-22,9,267-->
-- grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-03-22,9,227!2024-03-29,32,307-->
+- [double insulation](../../../../../general/appliance%20classes.md#Class%20II)→:::←grounding <!--SR:!2024-04-12,43,307!2024-04-14,23,267-->
+- grounding→:::←[intrinsic safety](../../../../../general/intrinsic%20safety.md) <!--SR:!2024-04-11,20,227!2024-03-29,32,307-->
 - [intrinsic safety](../../../../../general/intrinsic%20safety.md)→:::←live parts are either insulated or unreachable <!--SR:!2024-03-24,13,227!2024-03-27,30,287-->
 - live parts are either insulated or unreachable→:::←[personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE) <!--SR:!2024-04-16,29,227!2024-03-28,31,287-->
 - [personal protective equipment](../../../../../general/personal%20protective%20equipment.md) (PPE)→:::←protective bonding <!--SR:!2024-05-29,84,347!2024-05-31,79,307-->
@@ -327,7 +327,7 @@ Consumer Goods Safety Ordinance (Cap. 456)
 - Factories and Industrial Undertakings (Electricity) Regulations (Cap. 59W)→:::←Electricity Ordinance (Cap. 406) <!--SR:!2024-03-23,3,267!2024-03-25,31,307-->
 - Electricity Ordinance (Cap. 406)→:::←_Code of Practice for the Electricity (Wiring) Regulations_ <!--SR:!2024-05-21,78,347!2024-04-09,40,307-->
 - _Code of Practice for the Electricity (Wiring) Regulations_→:::←Consumer Goods Safety Ordinance (Cap. 456) <!--SR:!2024-03-30,12,267!2024-03-30,32,307-->
-- Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-05-14,71,347!2024-03-22,25,287-->
+- Consumer Goods Safety Ordinance (Cap. 456)→:::←_(end)_ <!--SR:!2024-05-14,71,347!2024-06-01,71,287-->
 
 <!--/pytextgen-->
 

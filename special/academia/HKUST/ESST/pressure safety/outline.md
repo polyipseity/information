@@ -43,7 +43,7 @@ The content is in teaching order.
   - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-04-21,46,306!2024-05-04,57,326-->
   - coolant protection ::: Shuts down compressors when the water temperature exceeds maximum. <!--SR:!2024-04-27,52,306!2024-04-09,36,306-->
   - lubricant protection ::: Shuts down compressors when the lubricant pressure drops below minimum. <!--SR:!2024-05-19,69,326!2024-04-20,45,297-->
-  - air inlet and outlet monitoring ::: A water manometer or pressure-indicating device for each compressor air inlet. <!--SR:!2024-03-22,21,263!2024-04-16,43,303-->
+  - air inlet and outlet monitoring ::: A water manometer or pressure-indicating device for each compressor air inlet. <!--SR:!2024-05-17,56,263!2024-04-16,43,303-->
 - hydraulic system
   - hydraulic system hazards ::: burns, flailing or ruptured fittings or hoses, pinhole leak injury <!--SR:!2024-04-01,19,263!2024-05-06,59,323-->
   - [hydraulic system safety measures](#hydraulic%20system%20safety%20measures)
@@ -53,7 +53,7 @@ The content is in teaching order.
   - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
   - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-04-10,34,286!2024-03-23,22,266-->
-  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-04-18,30,226!2024-03-22,19,263-->
+  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-04-18,30,226!2024-05-30,69,283-->
   - hydraulic test
     - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-04-09,22,226!2024-03-25,25,286-->
     - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-23,17,223!2024-04-08,35,283-->
@@ -139,7 +139,7 @@ pipe
 - _(begin)_→:::←flue damper <!--SR:!2024-05-21,62,286!2024-05-05,58,326-->
 - flue damper→:::←fuel pump <!--SR:!2024-04-08,36,303!2024-04-26,44,286-->
 - fuel pump→:::←heater <!--SR:!2024-04-05,32,286!2024-03-31,28,286-->
-- heater→:::←multiple burner <!--SR:!2024-05-03,51,286!2024-03-22,21,266-->
+- heater→:::←multiple burner <!--SR:!2024-05-03,51,286!2024-05-16,55,266-->
 - multiple burner→:::←pipe <!--SR:!2024-04-04,24,286!2024-04-07,32,286-->
 - pipe→:::←_(end)_ <!--SR:!2024-04-15,43,303!2024-04-04,21,266-->
 
@@ -179,9 +179,9 @@ thermal oil heater
 
 - _(begin)_→:::←electric heated boiler <!--SR:!2024-04-09,34,283!2024-04-28,53,306-->
 - electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-04-01,28,286-->
-- electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-22,4,206-->
+- electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-30,8,206-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-04-09,29,243!2024-04-06,24,246-->
-- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-22,4,206!2024-03-25,5,166-->
+- fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-29,7,206!2024-03-25,5,166-->
 - thermal oil heater→:::←_(end)_ <!--SR:!2024-04-18,45,306!2024-04-03,31,286-->
 
 <!--/pytextgen-->
@@ -311,9 +311,9 @@ protective devices that release contents do so safely
 - _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-04-03,23,266!2024-04-22,47,303-->
 - examinable with safely accessible interior→:::←expected working life <!--SR:!2024-05-06,48,266!2024-03-29,22,263-->
 - expected working life→:::←fluid properties <!--SR:!2024-04-07,35,306!2024-04-18,31,246-->
-- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-22,9,186!2024-04-14,31,266-->
+- fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-26,4,166!2024-04-14,31,266-->
 - operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-26,13,206!2024-04-03,26,246-->
-- proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-03-22,11,286!2024-04-28,52,303-->
+- proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-04-21,30,286!2024-04-28,52,303-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-04-19,45,303!2024-04-07,27,226-->
 
 <!--/pytextgen-->
@@ -356,9 +356,9 @@ overheating
 
 - _(begin)_→:::←blocked or restricted flow <!--SR:!2024-04-08,34,286!2024-05-19,69,323-->
 - blocked or restricted flow→:::←compressor malfunction <!--SR:!2024-04-21,34,246!2024-04-20,47,306-->
-- compressor malfunction→:::←external fire <!--SR:!2024-03-22,3,206!2024-04-15,31,246-->
+- compressor malfunction→:::←external fire <!--SR:!2024-03-24,2,186!2024-04-15,31,246-->
 - external fire→:::←failure of automatic controls <!--SR:!2024-04-03,14,246!2024-04-12,40,306-->
-- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-03-22,7,243-->
+- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits <!--SR:!2024-03-27,26,266!2024-04-07,16,243-->
 - formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor <!--SR:!2024-04-15,42,303!2024-04-20,45,303-->
 - ignition or detonation of oil or oil vapor→:::←overheating <!--SR:!2024-04-12,40,306!2024-04-02,30,286-->
 - overheating→:::←_(end)_ <!--SR:!2024-05-18,68,326!2024-03-28,22,266-->

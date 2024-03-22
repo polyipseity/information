@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d5f1"--><!-- The following content is generated at 2024-01-04T20:17:52.536836+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2024-03-27,276,330!2024-05-19,322,334-->
-- [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2024-03-23,278,334!2024-03-22,277,334-->
+- [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2024-03-23,278,334!2026-10-02,924,334-->
 - [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2024-10-26,413,294!2024-04-13,291,334-->
 - [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2024-03-29,235,274!2024-04-04,17,130-->
 - [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-04-03,26,130!2024-03-29,63,214-->
@@ -111,7 +111,7 @@ return _chain.from_iterable(await _gather(
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
 - [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-04-06,26,170-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-04-08,81,210-->
-- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-03-22,14,150-->
+- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-04-11,20,150-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-03-25,7,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-03-27,64,170-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-03-28,15,130-->
@@ -125,7 +125,7 @@ return _chain.from_iterable(await _gather(
 - -40 to -1 °C::[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2025-04-25,529,310-->
 - -12 to -1 °C::[butane](butane.md) <!--SR:!2026-09-20,914,334-->
 - -1 to 110 °C::[gasoline/petrol](gasoline.md) <!--SR:!2024-05-08,110,294-->
-- 30 to 200 °C::[naphtha](naphtha.md) <!--SR:!2024-03-22,231,274-->
+- 30 to 200 °C::[naphtha](naphtha.md) <!--SR:!2025-12-14,632,274-->
 - 150 to 205 °C::[jet fuel](jet%20fuel.md) <!--SR:!2024-09-09,365,294-->
 - 205 to 260 °C::[kerosene](kerosene.md) <!--SR:!2025-01-21,435,274-->
 - 205 to 290 °C::[fuel oil](fuel%20oil.md) <!--SR:!2024-08-11,337,274-->

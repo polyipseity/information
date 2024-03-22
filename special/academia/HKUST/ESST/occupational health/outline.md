@@ -34,7 +34,7 @@ The content is in teaching order.
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-03-27,29,295!2024-05-11,68,355-->
 - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-04-08,36,319!2024-05-30,83,359-->
 - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-03-26,28,289!2024-04-15,48,302-->
-- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-03-22,29,282!2024-05-27,82,355-->
+- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-06-11,81,282!2024-05-27,82,355-->
 - noise ::: unwanted sound <!--SR:!2024-04-21,55,322!2024-05-03,65,310-->
 - human audible frequency range ::: 20~20000 Hz <!--SR:!2024-05-22,77,355!2024-05-27,81,355-->
     - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-04-09,43,302!2024-05-09,71,322-->
@@ -48,8 +48,8 @@ The content is in teaching order.
 - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-03-26,32,282!2024-05-25,80,349-->
 - heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-06-01,85,349-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
-- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-03-22,23,279!2024-05-05,67,322-->
-- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-03-22,24,289!2024-04-14,48,290-->
+- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-05-23,62,279!2024-05-05,67,322-->
+- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-04-02,11,269!2024-04-14,48,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-05-08,62,335!2024-04-29,63,310-->
 - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-04-05,23,242!2024-04-12,44,326-->
@@ -67,7 +67,7 @@ The content is in teaching order.
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
 - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-06-01,85,349-->
-- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-03-22,24,282!2024-04-18,49,326-->
+- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-05-28,67,282!2024-04-18,49,326-->
 - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-04-04,37,319!2024-05-19,74,359-->
 - breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-06-05,89,349-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-03-29,32,315!2024-04-11,45,302-->
@@ -202,9 +202,9 @@ reduced sweating
 - convulsions→:::←dry hot skin <!--SR:!2024-04-23,35,255!2024-05-02,60,335-->
 - dry hot skin→:::←elevated core temperature <!--SR:!2024-04-09,42,329!2024-03-30,30,309-->
 - elevated core temperature→:::←high temperature <!--SR:!2024-04-16,44,339!2024-05-28,81,359-->
-- high temperature→:::←mental confusion <!--SR:!2024-05-20,60,279!2024-03-22,11,229-->
+- high temperature→:::←mental confusion <!--SR:!2024-05-20,60,279!2024-04-26,35,249-->
 - mental confusion→:::←reduced sweating <!--SR:!2024-03-31,33,315!2024-03-27,30,295-->
-- reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-03-22,7,259-->
+- reduced sweating→:::←_(end)_ <!--SR:!2024-05-02,56,329!2024-04-09,18,259-->
 
 <!--/pytextgen-->
 
@@ -245,7 +245,7 @@ user
 - _(begin)_→:::←control <!--SR:!2024-04-13,29,239!2024-05-20,75,359-->
 - control→:::←environment <!--SR:!2024-03-24,6,259!2024-03-30,29,279-->
 - environment→:::←equipment <!--SR:!2024-04-26,56,339!2024-04-17,35,259-->
-- equipment→:::←material <!--SR:!2024-03-22,4,199!2024-05-07,47,269-->
+- equipment→:::←material <!--SR:!2024-03-31,9,199!2024-05-07,47,269-->
 - material→:::←process <!--SR:!2024-04-06,34,299!2024-05-04,45,269-->
 - process→:::←user <!--SR:!2024-04-26,51,299!2024-05-17,72,359-->
 - user→:::←_(end)_ <!--SR:!2024-05-15,71,349!2024-05-20,76,355-->
@@ -334,7 +334,7 @@ workplace
 - general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-03-28,15,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
 - occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
-- occupational rehabilitation→:::←workers <!--SR:!2024-03-22,7,199!2024-05-05,63,329-->
+- occupational rehabilitation→:::←workers <!--SR:!2024-04-12,21,219!2024-05-05,63,329-->
 - workers→:::←workplace <!--SR:!2024-05-29,82,349!2024-05-11,67,339-->
 - workplace→:::←_(end)_ <!--SR:!2024-05-28,82,355!2024-03-23,16,259-->
 
@@ -374,7 +374,7 @@ treatment
 
 - _(begin)_→:::←conduct medical clearance <!--SR:!2024-04-24,51,315!2024-05-13,70,349-->
 - conduct medical clearance→:::←diagnosis <!--SR:!2024-04-16,47,339!2024-05-16,73,355-->
-- diagnosis→:::←education <!--SR:!2024-03-22,25,289!2024-03-30,27,279-->
+- diagnosis→:::←education <!--SR:!2024-06-04,74,289!2024-03-30,27,279-->
 - education→:::←promotion <!--SR:!2024-03-31,24,315!2024-04-02,36,315-->
 - promotion→:::←treatment <!--SR:!2024-03-26,27,289!2024-04-17,45,315-->
 - treatment→:::←_(end)_ <!--SR:!2024-06-01,86,355!2024-05-01,59,335-->

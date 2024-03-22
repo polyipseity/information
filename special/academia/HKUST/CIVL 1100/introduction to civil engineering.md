@@ -618,7 +618,7 @@ Water Cube
 - _(begin)_→:::←Beijing National Stadium
 - Beijing National Stadium→:::←Burj Al Arab
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-04-05,18,270!2000-01-01,1,250-->
-- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-03-22,4,250-->
+- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-04-01,10,250-->
 - CCTV Headquarters→:::←Eiffel Tower
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube
@@ -718,7 +718,7 @@ testing materials
 
 - _(begin)_→:::←budgeting
 - budgeting→:::←contracts
-- contracts→:::←designing temporary structures <!--SR:!2024-03-22,16,215!2000-01-01,1,250-->
+- contracts→:::←designing temporary structures <!--SR:!2024-04-29,38,215!2000-01-01,1,250-->
 - designing temporary structures→:::←logistics
 - logistics→:::←planning
 - planning→:::←procuring materials
@@ -1109,7 +1109,7 @@ Tsing Ma Bridge
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge
-- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-22,11,290-->
+- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-19,28,290-->
 
 <!--/pytextgen-->
 
