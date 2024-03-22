@@ -174,7 +174,7 @@ An integer or {{`*` specifying the minimum width}}. The result is {{padded with 
 
 ### precision
 
-An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}. <!--SR:!2024-03-21,139,297!2024-06-26,100,229-->
+An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}. <!--SR:!2025-05-07,412,297!2024-06-26,100,229-->
 
 ### length
 

@@ -74,12 +74,12 @@ return await memorize_seq(
 - [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2024-03-23,12,150!2024-05-29,327,330-->
 - [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-06-24,322,290!2025-08-17,531,270-->
 - [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2024-07-26,270,230!2024-12-19,467,310-->
-- [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2024-12-14,411,290!2024-03-21,8,130-->
+- [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2024-12-14,411,290!2024-03-30,9,130-->
 - [malleability](malleability.md)→:::←[melting point](melting%20point.md) <!--SR:!2025-04-11,517,310!2024-05-05,128,230-->
 - [melting point](melting%20point.md)→:::←[odor](odor.md) <!--SR:!2024-09-28,329,250!2024-05-20,99,250-->
 - [odor](odor.md)→:::←[physical state](physical%20state.md) <!--SR:!2025-10-04,598,270!2024-09-09,391,310-->
 - [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2024-04-18,95,230!2024-05-30,96,170-->
-- [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2024-03-21,10,150!2024-04-29,42,170-->
+- [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2024-04-07,17,150!2024-04-29,42,170-->
 - [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2024-05-19,317,330!2024-05-22,320,330-->
 - [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-31,329,330!2024-05-27,325,330-->
 

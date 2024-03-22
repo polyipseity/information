@@ -112,7 +112,7 @@ unventilated thermal storage type electric water heaters
 - extension units→:::←flexible cords <!--SR:!2024-04-18,31,307!2024-06-02,87,347-->
 - flexible cords→:::←lamp holders <!--SR:!2024-04-11,37,267!2024-03-31,33,307-->
 - lamp holders→:::←plugs <!--SR:!2024-03-30,36,307!2024-04-05,39,307-->
-- plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-05-26,69,287!2024-03-21,8,287-->
+- plugs→:::←unventilated thermal storage type electric water heaters <!--SR:!2024-05-26,69,287!2024-04-12,22,287-->
 - unventilated thermal storage type electric water heaters→:::←_(end)_ <!--SR:!2024-05-30,85,347!2024-04-13,47,327-->
 
 <!--/pytextgen-->
@@ -153,7 +153,7 @@ warnings
 
 - _(begin)_→:::←instructions <!--SR:!2024-03-28,17,254!2024-06-03,82,354-->
 - instructions→:::←manner of presentation <!--SR:!2024-03-25,7,254!2024-04-07,34,294-->
-- manner of presentation→:::←safety <!--SR:!2024-03-21,7,234!2024-03-27,26,294-->
+- manner of presentation→:::←safety <!--SR:!2024-04-06,16,234!2024-03-27,26,294-->
 - safety→:::←standards <!--SR:!2024-05-17,58,294!2024-04-01,28,274-->
 - standards→:::←use of marks <!--SR:!2024-04-16,32,274!2024-04-02,22,294-->
 - use of marks→:::←warnings <!--SR:!2024-04-04,31,294!2024-03-25,24,294-->

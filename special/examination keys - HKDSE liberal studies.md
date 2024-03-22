@@ -64,7 +64,7 @@ return await memorize_seq(
 - _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2024-04-01,257,315-->
 - affirming the consequent→:::←appeal to authority <!--SR:!2024-04-15,90,275!2024-04-23,278,315-->
 - appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
-- appeal to tradition→:::←guilt by association <!--SR:!2024-03-21,6,130!2024-04-02,226,275-->
+- appeal to tradition→:::←guilt by association <!--SR:!2024-03-29,8,130!2024-04-02,226,275-->
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
 - popularity and testimonials→:::←post hoc <!--SR:!2024-05-13,132,270!2024-07-07,302,295-->
@@ -221,7 +221,7 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 <!--pytextgen generate section="38ff"--><!-- The following content is generated at 2024-01-04T20:17:58.322794+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←according to/refer to <!--SR:!2024-03-21,70,270!2026-03-16,809,335-->
+- _(begin)_→:::←according to/refer to <!--SR:!2024-09-24,187,270!2026-03-16,809,335-->
 - according to/refer to→:::←cause/reason <!--SR:!2024-03-23,3,150!2024-06-23,313,295-->
 - cause/reason→:::←effectiveness <!--SR:!2024-04-03,20,130!2025-06-09,448,235-->
 - effectiveness→:::←factor <!--SR:!2024-07-15,328,295!2024-11-07,319,230-->
@@ -359,7 +359,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←Evaluating effectiveness only by instantaneous effects. <!--SR:!2024-09-26,377,290!2024-04-24,279,315-->
 - Evaluating effectiveness only by instantaneous effects.→:::←Hasty generalization with a single example. <!--SR:!2024-05-09,88,230!2024-04-14,65,195-->
-- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-12-06,282,195!2024-03-21,15,130-->
+- Hasty generalization with a single example.→:::←Perspectives are incorrect. <!--SR:!2024-12-06,282,195!2024-04-09,19,130-->
 - Perspectives are incorrect.→:::←_(end)_ <!--SR:!2024-05-21,301,330!2024-12-15,442,295-->
 
 <!--/pytextgen-->

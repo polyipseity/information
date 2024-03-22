@@ -93,7 +93,7 @@ The Bohr model fails to explain:
 - _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-05-22,73,333-->
 - brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2024-05-06,50,273-->
 - multiple [electrons](electron.md)→:::←naturalness <!--SR:!2026-06-05,837,324!2024-04-05,35,293-->
-- naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-03-21,21,273-->
+- naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-04-03,13,253-->
 - structures→:::←_(end)_ <!--SR:!2024-05-13,66,333!2024-04-28,52,313-->
 
 <!--/pytextgen-->

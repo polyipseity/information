@@ -11,7 +11,7 @@ tags:
 
 ## declaration
 
-Arrays are declared like {{[variables](basics.md#variable) but with extra syntax: indicating the indices of the array}}. The syntax is {{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}}. You can omit {{the `start_index To`, in which case the `start_index` depends on the option `Base`}}. By default, the option `Base` {{is `0`, but you can change it by running `Option Base value` first}}. <!--SR:!2024-04-29,68,310!2024-03-21,35,290!2024-07-23,130,310!2024-04-01,33,290-->
+Arrays are declared like {{[variables](basics.md#variable) but with extra syntax: indicating the indices of the array}}. The syntax is {{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}}. You can omit {{the `start_index To`, in which case the `start_index` depends on the option `Base`}}. By default, the option `Base` {{is `0`, but you can change it by running `Option Base value` first}}. <!--SR:!2024-04-29,68,310!2024-06-29,100,290!2024-07-23,130,310!2024-04-01,33,290-->
 
 ## indexing
 
