@@ -36,47 +36,47 @@ There are 9 building blocks to a business model canvas:
 return await memorize_seq(
   __env__.cwf_sects("28ba", "e441",),
   R"""
-(CS) [customer segments](#customer%20segments)
-(VP) [value propositions](#value%20propositions)
-(CH) [channels](#channels)
-(CR) [customer relationships](#customer%20relationships)
-(R$) [revenue streams](#revenue%20streams)
-(KR) [key resources](#key%20resources)
-(KA) [key activities](#key%20activities)
-(KP) [key partnerships](#key%20partnerships)
-(C$) [cost structure](#cost%20structure)
+CS: [customer segments](#customer%20segments)
+VP: [value propositions](#value%20propositions)
+CH: [channels](#channels)
+CR: [customer relationships](#customer%20relationships)
+R$: [revenue streams](#revenue%20streams)
+KR: [key resources](#key%20resources)
+KA: [key activities](#key%20activities)
+KP: [key partnerships](#key%20partnerships)
+C$: [cost structure](#cost%20structure)
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-18T19:56:56.282991+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-22T20:40:48.884980+08:00. Any edits will be overridden! -->
 
-> 1. (CS) [customer segments](#customer%20segments)
-> 2. (VP) [value propositions](#value%20propositions)
-> 3. (CH) [channels](#channels)
-> 4. (CR) [customer relationships](#customer%20relationships)
-> 5. (R$) [revenue streams](#revenue%20streams)
-> 6. (KR) [key resources](#key%20resources)
-> 7. (KA) [key activities](#key%20activities)
-> 8. (KP) [key partnerships](#key%20partnerships)
-> 9. (C$) [cost structure](#cost%20structure)
+> 1. CS: [customer segments](#customer%20segments)
+> 2. VP: [value propositions](#value%20propositions)
+> 3. CH: [channels](#channels)
+> 4. CR: [customer relationships](#customer%20relationships)
+> 5. R$: [revenue streams](#revenue%20streams)
+> 6. KR: [key resources](#key%20resources)
+> 7. KA: [key activities](#key%20activities)
+> 8. KP: [key partnerships](#key%20partnerships)
+> 9. C$: [cost structure](#cost%20structure)
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-18T19:56:56.301510+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(CS) [customer segments](#customer%20segments)
-- (CS) [customer segments](#customer%20segments)→:::←(VP) [value propositions](#value%20propositions)
-- (VP) [value propositions](#value%20propositions)→:::←(CH) [channels](#channels)
-- (CH) [channels](#channels)→:::←(CR) [customer relationships](#customer%20relationships)
-- (CR) [customer relationships](#customer%20relationships)→:::←(R$) [revenue streams](#revenue%20streams)
-- (R$) [revenue streams](#revenue%20streams)→:::←(KR) [key resources](#key%20resources)
-- (KR) [key resources](#key%20resources)→:::←(KA) [key activities](#key%20activities)
-- (KA) [key activities](#key%20activities)→:::←(KP) [key partnerships](#key%20partnerships)
-- (KP) [key partnerships](#key%20partnerships)→:::←(C$) [cost structure](#cost%20structure)
-- (C$) [cost structure](#cost%20structure)→:::←_(end)_
+- _(begin)_→:::←CS: [customer segments](#customer%20segments)
+- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions)
+- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels)
+- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships)
+- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams)
+- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources)
+- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities)
+- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships)
+- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure)
+- C$: [cost structure](#cost%20structure)→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -97,35 +97,35 @@ There are different types of customer segments. Examples include:
 return await memorize_seq(
   __env__.cwf_sects("cc13", "9b8a",),
   R"""
-diversified, serving unrelated customer segments
-mass market, not distinguishing between customer segments
-multi-sided platforms, serving interdependent customer segments
-niche market, focusing on specific, specialized customer segments
-segmented, splitting slightly different customer segments
+diversified: serving unrelated customer segments
+mass market: not distinguishing between customer segments
+multi-sided platforms: serving interdependent customer segments
+niche market: focusing on specific, specialized customer segments
+segmented: splitting slightly different customer segments
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="cc13"--><!-- The following content is generated at 2024-03-18T19:56:56.314505+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cc13"--><!-- The following content is generated at 2024-03-22T20:40:48.976504+08:00. Any edits will be overridden! -->
 
-> 1. diversified, serving unrelated customer segments
-> 2. mass market, not distinguishing between customer segments
-> 3. multi-sided platforms, serving interdependent customer segments
-> 4. niche market, focusing on specific, specialized customer segments
-> 5. segmented, splitting slightly different customer segments
+> 1. diversified: serving unrelated customer segments
+> 2. mass market: not distinguishing between customer segments
+> 3. multi-sided platforms: serving interdependent customer segments
+> 4. niche market: focusing on specific, specialized customer segments
+> 5. segmented: splitting slightly different customer segments
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-18T19:56:56.495257+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←diversified, serving unrelated customer segments
-- diversified, serving unrelated customer segments→:::←mass market, not distinguishing between customer segments
-- mass market, not distinguishing between customer segments→:::←multi-sided platforms, serving interdependent customer segments
-- multi-sided platforms, serving interdependent customer segments→:::←niche market, focusing on specific, specialized customer segments
-- niche market, focusing on specific, specialized customer segments→:::←segmented, splitting slightly different customer segments
-- segmented, splitting slightly different customer segments→:::←_(end)_
+- _(begin)_→:::←diversified: serving unrelated customer segments
+- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments
+- mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments
+- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments
+- segmented: splitting slightly different customer segments→:::←_(end)_
 
 <!--/pytextgen-->
 

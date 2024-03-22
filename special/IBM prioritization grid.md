@@ -66,11 +66,11 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 
 ## feasibility for us
 
-- questions to ask ::: Does it alleviate user pain? Does it provide user gain? Does it differentiate the product?
+- questions to ask ::: Is it achievable as a team? Is it marketable? Is it technically feasible?
 
 ## value to the user
 
-- questions to ask ::: Is it achievable as a team? Is it marketable? Is it technically feasible?
+- questions to ask ::: Does it alleviate user pain? Does it provide user gain? Does it differentiate the product?
 
 ## assessment
 
