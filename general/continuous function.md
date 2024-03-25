@@ -65,7 +65,7 @@ A function is _discontinuous_ function at a point {{if the point is in the [topo
 
 A function $f$ is _continuous_ at a point $c$ {{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of $f$}}. <!--SR:!2024-03-27,14,304-->
 
-Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}}. The part about [isolated point](isolated%20point.md) is needed because {{[limit](limit%20of%20A%20function.md) is not defined for isolated points}}. <!--SR:!2024-03-23,12,270!2024-03-30,17,290-->
+Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}}. The part about [isolated point](isolated%20point.md) is needed because {{[limit](limit%20of%20A%20function.md) is not defined for isolated points}}. <!--SR:!2024-05-08,44,290!2024-03-30,17,290-->
 
 <!-- markdownlint MD028 -->
 

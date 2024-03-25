@@ -174,7 +174,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2026-02-20,924,345-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
-- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-03-23,10,130-->
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-04-07,13,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2024-06-27,118,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2024-05-09,145,190!2024-08-06,334,207-->
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2024-03-26,5,130-->
@@ -262,7 +262,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
 - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
-- bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2024-03-25,117,201-->
+- bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2024-04-13,475,250!2024-11-14,234,201-->
 - prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2025-08-29,636,230!2024-06-11,211,210-->
 
 <!--/pytextgen-->
@@ -471,7 +471,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-03-23,28,130!2025-09-10,677,285!2028-10-10,1730,387-->
+> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-05-01,37,130!2025-09-10,677,285!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -521,7 +521,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
 > - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (N<sub>4</sub>N<sup>+</sup>)}}
 > - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (N<sub>4</sub>N<sup>+</sup>)}}
-> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2027-03-08,1174,365!2024-03-24,397,365!2025-02-17,627,325!2024-11-18,518,325!2024-10-03,419,287!2025-06-09,664,327-->
+> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}} <!--SR:!2027-03-08,1174,365!2029-09-01,1986,385!2025-02-17,627,325!2024-11-18,518,325!2024-10-03,419,287!2025-06-09,664,327-->
 
 <!-- markdownlint MD028 -->
 
@@ -531,7 +531,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
 > - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
 > - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2024-03-25,398,365!2026-05-02,984,345!2026-01-13,733,285!2026-04-27,911,305!2027-08-26,1378,367-->
+> - infix: {{(locant) & _N_ (R', R'')}} <!--SR:!2026-08-17,1073,365!2029-09-06,1991,385!2026-05-02,984,345!2026-01-13,733,285!2026-04-27,911,305!2027-08-26,1378,367-->
 
 <!-- markdownlint MD028 -->
 

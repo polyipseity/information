@@ -27,7 +27,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-07-26,157,312!2024-10-31,235,332!2024-03-23,65,312-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md), $c$ is the _viscous damping coefficient_, and $F(t)$ is the driving [force](force.md)}} <!--SR:!2024-07-26,157,312!2024-10-31,235,332!2024-10-13,202,312-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -82,7 +82,7 @@ The solution is as below, which matches with our physical intuition:
 >   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >   - [phase space](phase%20space.md): {{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$ is steady-state equilibrium position with the driving [force](force.md) $F(t)$ and $\varphi = -\arcsin \zeta$ is the initial [phase](phase%20(waves).md)}}
-> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-06-17,96,232!2024-05-03,75,292!2024-03-25,66,312!2024-04-07,64,272!2024-06-06,96,252!2024-09-26,192,312-->
+> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-06-17,96,232!2024-05-03,75,292!2025-01-01,282,332!2024-04-07,64,272!2024-06-06,96,252!2024-09-26,192,312-->
 
 <!-- markdownlint MD028 -->
 

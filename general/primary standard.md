@@ -66,7 +66,7 @@ return await memorize_seq(
 - low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2024-04-03,21,150!2024-12-13,349,230-->
 - high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-04-05,78,210!2024-06-28,259,270-->
 - high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-04-12,26,190!2024-06-23,109,250-->
-- non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-05-22,98,230!2024-03-24,56,230-->
+- non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-05-22,98,230!2024-07-31,128,230-->
 - ready and cheap availability→:::←_(least important)_ <!--SR:!2024-05-17,315,330!2024-04-06,20,250-->
 
 <!--/pytextgen-->

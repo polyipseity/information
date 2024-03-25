@@ -74,7 +74,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::: The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [radius](radius.md), which is [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md). <!--SR:!2024-05-18,108,273!2024-03-24,13,339-->
+> - [mnemonic](mnemonic.md) ::: The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [radius](radius.md), which is [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md). <!--SR:!2024-05-18,108,273!2024-05-24,60,359-->
 
 ## energy
 
@@ -88,7 +88,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-05-07,60,296!2024-03-26,78,336!2025-02-20,337,356!2024-09-25,217,336!2024-08-09,163,316!2025-02-03,323,356!2024-03-23,76,336-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2024-05-07,60,296!2024-03-26,78,336!2025-02-20,337,356!2024-09-25,217,336!2024-08-09,163,316!2025-02-03,323,356!2024-12-04,254,336-->
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 
@@ -136,7 +136,7 @@ E & = K + U \\
 > - where
 >     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
 >     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-03-25,61,296!2024-03-25,77,336!2024-04-17,83,358!2024-04-11,78,358!2024-04-06,62,350-->
+>     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}} <!--SR:!2024-09-21,180,296!2024-12-08,258,336!2024-04-17,83,358!2024-04-11,78,358!2024-04-06,62,350-->
 
 ### mass of a physical pendulum
 

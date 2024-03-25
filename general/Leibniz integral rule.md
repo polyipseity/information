@@ -291,7 +291,7 @@ Directly integrating the integral is very difficult and will result in a very lo
 
 > [!tip] tips
 >
-> - takeaway ::: The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals. <!--SR:!2024-07-19,128,308!2024-03-23,10,304-->
+> - takeaway ::: The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals. <!--SR:!2024-07-19,128,308!2024-05-10,46,324-->
 
 #### example 4: Green's theorem
 
@@ -359,9 +359,9 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 - integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$ <!--SR:!2024-04-10,68,332-->
 - integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$ <!--SR:!2024-06-15,102,288-->
-- integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$ <!--SR:!2024-03-25,19,268-->
+- integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$ <!--SR:!2024-06-06,73,288-->
 - integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ <!--SR:!2024-04-02,36,319-->
-- [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$ <!--SR:!2024-03-25,51,304-->
+- [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$ <!--SR:!2024-10-25,214,324-->
 
 > [!info]- proof for integral 1
 >
