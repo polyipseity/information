@@ -18,7 +18,7 @@ tags:
 
 %%
 
-A __reactivity series__ is {{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}}. <!--SR:!2024-03-23,232,270-->
+A __reactivity series__ is {{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}}. <!--SR:!2026-08-16,874,290-->
 
 ## data
 
@@ -146,7 +146,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-04-07,153,270-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-11-19,263,290!2024-07-23,341,290-->
 - [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-07-17,128,230!2024-05-01,92,230-->
-- [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-03-23,222,250!2024-04-30,95,250-->
+- [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-07-13,110,230!2024-04-30,95,250-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-06-29,294,270-->
 - [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-04-14,32,150!2024-07-18,127,210-->
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2024-04-13,217,230!2024-04-18,167,230-->
@@ -156,7 +156,7 @@ return _chain.from_iterable(await _gather(
 - [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-06-10,151,230-->
 - [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-04-03,49,190-->
 - [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2025-07-07,539,250-->
-- [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-03-23,38,210!2024-06-15,267,250-->
+- [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-06-14,81,210!2024-06-15,267,250-->
 - [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2024-12-31,415,270!2025-11-08,643,290-->
 - [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-05-03,96,250!2025-01-25,397,250-->
 - [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-02-02,436,270-->
@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-04-16,29,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-03-27,16,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-03-24,2,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-03-28,3,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-30,252,270-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
@@ -281,7 +281,7 @@ return _chain.from_iterable(await _gather(
 - reacts with [steam](steam.md) and [acids](acid.md)::[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-05-12,52,267-->
 - reacts with concentrated [mineral acids](mineral%20acid.md)::[titanium](titanium.md) <!--SR:!2024-04-17,45,325-->
 - reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-04-03,23,245-->
-- may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-03-24,24,285-->
+- may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-05-31,67,285-->
 - reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2024-05-22,72,345-->
 
 <!--/pytextgen-->

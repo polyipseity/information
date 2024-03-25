@@ -8,7 +8,7 @@ tags:
 
 # most vexing parse
 
-The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2024-03-25,13,290!2024-03-26,14,290-->
+The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2024-05-19,55,310!2024-03-26,14,290-->
 
 ## examples
 
@@ -60,7 +60,7 @@ int an_int(static_cast<int>(a_double)); // named cast, preferred in C++
 
 ### solutions for temporaries
 
-Since [C++11](C++11.md), the preferred solution is {{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables. Additionally, sometimes the type name can be omitted with the brace syntax}}: <!--SR:!2024-03-25,13,290-->
+Since [C++11](C++11.md), the preferred solution is {{using uniform brace initialization, which uses `{}` instead of `()` to initialize variables. Additionally, sometimes the type name can be omitted with the brace syntax}}: <!--SR:!2024-05-01,37,290-->
 
 ```C++
 // Any one works:
@@ -71,7 +71,7 @@ Parent parent(     {});
 Parent parent{     {}};
 ```
 
-Before [C++11](C++11.md), the two common solutions are {{using extra parentheses or copy-initialization}}: <!--SR:!2024-03-25,13,290-->
+Before [C++11](C++11.md), the two common solutions are {{using extra parentheses or copy-initialization}}: <!--SR:!2024-05-15,51,310-->
 
 ```C++
 Parent parent((Child())); // extra parentheses

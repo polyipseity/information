@@ -155,7 +155,7 @@ return _chain.from_iterable(await _gather(
 - [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2024-04-21,294,330!2027-05-07,1162,350-->
 - [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-05-03,306,330!2024-05-31,329,330-->
 - [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2024-05-24,192,230!2024-04-12,21,130-->
-- [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2024-03-23,101,150!2024-06-25,290,270-->
+- [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2024-08-22,150,150!2024-06-25,290,270-->
 - [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
 - [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2025-10-07,631,310!2024-05-04,142,190-->
 - [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2024-07-24,351,290!2024-05-08,103,290-->
@@ -175,7 +175,7 @@ return _chain.from_iterable(await _gather(
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-04-09,155,270-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-03-26,38,170!2024-04-04,174,210-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2024-08-23,362,290-->
-- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-04-12,24,130!2024-03-25,198,230-->
+- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-04-12,24,130!2025-06-21,453,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2024-06-03,278,270!2024-08-14,358,290-->
 - [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2024-06-16,254,230!2024-07-11,111,270-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2024-04-01,62,230!2024-04-21,82,210-->
@@ -184,13 +184,13 @@ return _chain.from_iterable(await _gather(
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2025-01-07,428,290-->
 - [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-03-30,84,230!2024-04-18,31,210-->
 - [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2024-05-17,101,250!2024-08-29,348,290-->
-- [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-03-24,6,130!2025-04-05,511,310-->
+- [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-04-03,9,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-06-24,109,250!2024-05-01,166,270-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2024-09-12,363,290!2024-12-08,401,270-->
 - [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2024-04-29,253,270!2024-06-02,84,230-->
 - [watch glass](watch%20glass.md)→:::←[weighing bottle](weighing%20bottle.md) <!--SR:!2025-10-23,638,310!2025-10-14,588,270-->
 - [weighing bottle](weighing%20bottle.md)→:::←[wire gauze](wire%20gauze.md) <!--SR:!2025-01-21,449,290!2025-03-31,507,310-->
-- [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2024-04-23,296,330!2024-03-23,272,330-->
+- [wire gauze](wire%20gauze.md)→:::←_(end)_ <!--SR:!2024-04-23,296,330!2026-09-08,897,330-->
 
 <!--/pytextgen-->
 
@@ -224,7 +224,7 @@ return _chain.from_iterable(await _gather(
 - [reagent bottle](reagent%20bottle.md)::![reagent bottle](../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg) <!--SR:!2027-06-03,1185,350-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)::![round-bottom(ed) flask](../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg) <!--SR:!2024-04-01,281,330-->
 - [rubber bulb](rubber%20bulb.md)::![rubber bulb](../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg) <!--SR:!2026-11-21,1032,350-->
-- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)::![rubber stopper/rubber bung/rubber cork](../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg) <!--SR:!2024-03-25,274,330-->
+- [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)::![rubber stopper/rubber bung/rubber cork](../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg) <!--SR:!2027-08-22,1245,350-->
 - [safety spectacles/safety glasses/goggles](goggles.md)::![safety spectacles/safety glasses/goggles](../archives/Wikimedia%20Commons/Safety%20Goggles.jpg) <!--SR:!2027-01-15,1077,350-->
 - [spatula](spatula.md)::![spatula](../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG) <!--SR:!2027-01-05,1068,350-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)::![stand/retort stand/ring stand/support stand](../archives/Wikimedia%20Commons/Retort%20stand.jpg) <!--SR:!2024-04-14,292,330-->
@@ -286,7 +286,7 @@ return _chain.from_iterable(await _gather(
 - ![wash bottle](../archives/Wikimedia%20Commons/Lab%20wash-bottles%20water%20EtOH.jpg)::[wash bottle](wash%20bottle.md) <!--SR:!2027-04-27,1154,350-->
 - ![watch glass](../archives/Wikimedia%20Commons/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg)::[watch glass](watch%20glass.md) <!--SR:!2024-04-07,287,330-->
 - ![weighing bottle](../archives/Wikimedia%20Commons/Weighing%20bottles.jpg)::[weighing bottle](weighing%20bottle.md) <!--SR:!2024-03-27,276,330-->
-- ![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)::[wire gauze](wire%20gauze.md) <!--SR:!2024-03-24,273,330-->
+- ![wire gauze](../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg)::[wire gauze](wire%20gauze.md) <!--SR:!2027-08-18,1241,350-->
 
 <!--/pytextgen-->
 
