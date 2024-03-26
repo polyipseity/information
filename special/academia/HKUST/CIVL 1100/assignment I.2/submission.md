@@ -2,6 +2,7 @@
 aliases:
   - HKUST CIVL 1100 assignment I.2 submission
 tags:
+  - date/2024/03/05
   - language/in/English
 ---
 
