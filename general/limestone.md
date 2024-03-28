@@ -44,7 +44,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[construction](construction.md) <!--SR:!2024-10-17,415,310!2027-03-31,1132,350-->
 - [construction](construction.md)→:::←[glass making](glass%20making.md) <!--SR:!2025-12-25,654,290!2025-12-20,697,310-->
-- [glass making](glass%20making.md)→:::←raw material <!--SR:!2024-03-26,35,190!2025-06-27,573,310-->
+- [glass making](glass%20making.md)→:::←raw material <!--SR:!2024-05-31,66,190!2025-06-27,573,310-->
 - raw material→:::←_(end)_ <!--SR:!2026-09-18,969,330!2024-04-03,100,290-->
 
 <!--/pytextgen-->

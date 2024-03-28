@@ -310,7 +310,7 @@ return _chain.from_iterable(await _gather(
 - [cobalt](cobalt.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-07-07,573,310-->
 - [nickel](nickel.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-04-23,296,330-->
 - [tin](tin.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-18,257,290-->
-- [lead](lead.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-03-26,97,290-->
+- [lead](lead.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-12-31,280,290-->
 - [antimony](antimony.md)::heat or physical extraction <!--SR:!2025-06-20,562,310-->
 - [bismuth](bismuth.md)::heat or physical extraction <!--SR:!2025-07-22,576,310-->
 - [copper](copper.md)::heat or physical extraction <!--SR:!2025-11-24,662,310-->
@@ -324,9 +324,9 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
 
-- [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-03-26,7,185-->
-- [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md)::[titanium](titanium.md) <!--SR:!2024-03-26,25,287-->
-- [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-03-26,8,185-->
+- [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-04-09,14,185-->
+- [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md)::[titanium](titanium.md) <!--SR:!2024-04-08,13,267-->
+- [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-04-08,13,185-->
 - [aluminothermic reaction](aluminothermic%20reaction.md)::[chromium](chromium.md) <!--SR:!2024-04-21,34,267-->
 - heat or physical extraction::[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-03-31,29,285-->
 

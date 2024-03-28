@@ -136,7 +136,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::[Zn](zinc.md) <!--SR:!2024-04-04,16,303-->
 - [silver oxide](silver%20oxide%20battery.md)::[Zn](zinc.md) <!--SR:!2024-05-08,44,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md) <!--SR:!2024-03-26,15,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md) <!--SR:!2024-05-12,47,323-->
 
 <!--/pytextgen-->
 
@@ -144,7 +144,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="27ee"--><!-- The following content is generated at 2024-03-06T23:33:30.705237+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::[MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-03-26,8,283-->
+- [alkaline](alkaline%20battery.md)::[MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-04-17,22,283-->
 - [silver oxide](silver%20oxide%20battery.md)::[Ag<sub>2</sub>O](silver%20oxide.md) <!--SR:!2024-04-26,32,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-05-12,48,323-->
 
@@ -164,7 +164,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8104"--><!-- The following content is generated at 2024-03-08T13:15:49.071658+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-03-26,15,323-->
+- [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-04-01,6,303-->
 - [silver oxide](silver%20oxide%20battery.md)::1.5 V, 1.6 V <!--SR:!2024-04-07,17,303-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2024-03-28,14,303-->
 
@@ -176,7 +176,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2024-04-10,23,303-->
 - [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range <!--SR:!2024-03-28,15,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2024-03-26,14,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2024-05-12,47,323-->
 
 <!--/pytextgen-->
 
@@ -253,9 +253,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="018e"--><!-- The following content is generated at 2024-03-08T13:15:49.087660+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-03-26,4,263-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-04-07,12,263-->
 - [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2024-04-01,19,343-->
-- [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-03-26,11,303-->
+- [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-04-26,31,303-->
 
 <!--/pytextgen-->
 
@@ -264,7 +264,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="46ff"--><!-- The following content is generated at 2024-03-06T23:36:40.541906+08:00. Any edits will be overridden! -->
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times <!--SR:!2024-04-15,21,263-->
-- [lead–acid](lead–acid%20battery.md)::cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times <!--SR:!2024-03-26,6,283-->
+- [lead–acid](lead–acid%20battery.md)::cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times <!--SR:!2024-04-11,16,283-->
 - [lithium-ion](lithium-ion%20battery.md)::aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md) <!--SR:!2024-04-11,23,303-->
 
 <!--/pytextgen-->
