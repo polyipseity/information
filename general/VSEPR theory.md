@@ -102,7 +102,7 @@ return await memorize_table(
 - AX<sub>6</sub>E<sub>0</sub>→:::←AX<sub>6</sub>E<sub>1</sub> <!--SR:!2024-08-29,355,290!2024-04-23,296,330-->
 - AX<sub>6</sub>E<sub>1</sub>→:::←AX<sub>7</sub>E<sub>0</sub> <!--SR:!2025-09-18,625,310!2024-05-13,249,270-->
 - AX<sub>7</sub>E<sub>0</sub>→:::←AX<sub>8</sub>E<sub>0</sub> <!--SR:!2024-05-24,322,330!2024-06-04,102,270-->
-- AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub> <!--SR:!2027-04-06,1137,350!2024-03-26,275,330-->
+- AX<sub>8</sub>E<sub>0</sub>→:::←AX<sub>9</sub>E<sub>0</sub> <!--SR:!2027-04-06,1137,350!2026-09-19,907,330-->
 - AX<sub>9</sub>E<sub>0</sub>→:::←_(end)_ <!--SR:!2024-04-25,298,330!2026-11-21,1032,350-->
 
 <!--/pytextgen-->

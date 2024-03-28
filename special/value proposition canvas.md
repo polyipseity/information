@@ -127,7 +127,7 @@ vague jobs, pains, and gains
 
 Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, and financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-03-25,4,270!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270!2000-01-01,1,250-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270!2024-03-25,4,270-->
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-04-04,9,270!2024-03-25,4,270-->
 
 Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}.
 
@@ -173,7 +173,7 @@ offer irrelevant pain relievers and gain creators
 
 ### fit
 
-Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfying customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-03-25,4,270!2024-03-25,4,270-->
+Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfying customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-03-25,4,270!2024-04-06,11,270-->
 
 However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2024-03-25,4,270-->
 
@@ -278,7 +278,7 @@ making progress
 - prioritizing tests→:::←running tests <!--SR:!2000-01-01,1,250!2024-03-25,4,270-->
 - running tests→:::←capturing findings
 - capturing findings→:::←making progress
-- making progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-03-25,4,270-->
+- making progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-07,12,270-->
 
 <!--/pytextgen-->
 
