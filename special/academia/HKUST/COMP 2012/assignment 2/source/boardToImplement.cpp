@@ -64,7 +64,7 @@ void Board::move(const Position& destPos)
     Piece *&captured{piece(destPos)};
     if (captured)
     {
-        if (isRoyal(captured))
+        if (royalPieces[captured->getColor()] == captured)
         {
             royalPieces[captured->getColor()] = nullptr;
         }
