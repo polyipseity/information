@@ -1,0 +1,1566 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://course.cse.ust.hk/comp2012/assignments/assignment2/ 
+ saved date: Mon Apr 01 2024 13:46:48 GMT+0800 (香港標準時間)
+--><meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name=description content>
+<meta name=author content>
+<title>COMP 2012 Assignment 2: Fairy Chess Pieces</title>
+<style>/*!
+ * Bootstrap v4.1.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}@-ms-viewport{width:device-width}footer{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h3,h4,h5{margin-top:0}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}b{font-weight:bolder}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}a:hover{color:#0056b3;text-decoration:underline}a:not([href]):not([tabindex]){color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}code{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}pre{margin-top:0;-ms-overflow-style:scrollbar}img{vertical-align:middle;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h2,h3,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}h2{font-size:2rem}h3{font-size:1.75rem}h4{font-size:1.5rem}h5{font-size:1.25rem}small{font-size:80%;font-weight:400}.list-unstyled{padding-left:0;list-style:none}code{color:#e83e8c;word-break:break-word}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media(min-width:576px){.container{max-width:540px}}@media(min-width:768px){.container{max-width:720px}}@media(min-width:992px){.container{max-width:960px}}@media(min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-12,.col-md-3,.col-md-9{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media(min-width:576px){}@media(min-width:768px){.col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}}@media(min-width:992px){.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media(min-width:1200px){}@media(max-width:575.98px){}@media(max-width:767.98px){}@media(max-width:991.98px){}@media(max-width:1199.98px){}@media screen and (prefers-reduced-motion:reduce){}@media(min-width:576px){}@media screen and (prefers-reduced-motion:reduce){}@media screen and (prefers-reduced-motion:reduce){}@media screen and (prefers-reduced-motion:reduce){}@media(max-width:575.98px){}@media(min-width:576px){}@media(max-width:767.98px){}@media(min-width:768px){}@media(max-width:991.98px){}@media(min-width:992px){}@media(max-width:1199.98px){}@media(min-width:1200px){}.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}.card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem}.card-title{margin-bottom:.75rem}.card-text:last-child{margin-bottom:0}.card-header{padding:.75rem 1.25rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}.card-header:first-child{border-radius:calc(.25rem - 1px) calc(.25rem - 1px)0 0}.card-footer{padding:.75rem 1.25rem;background-color:rgba(0,0,0,.03);border-top:1px solid rgba(0,0,0,.125)}.card-footer:last-child{border-radius:0 0 calc(.25rem - 1px) calc(.25rem - 1px)}.card-img-top{width:100%;border-top-left-radius:calc(.25rem - 1px);border-top-right-radius:calc(.25rem - 1px)}@media(min-width:576px){}@media(min-width:576px){}@media(min-width:576px){}@media(min-width:576px){}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@media screen and (prefers-reduced-motion:reduce){}@media screen and (prefers-reduced-motion:reduce){}@media(min-width:576px){}@media(min-width:992px){}@media screen and (prefers-reduced-motion:reduce){}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.active.carousel-item-right,.carousel-item-next{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.active.carousel-item-left,.carousel-item-prev{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.carousel-fade .active.carousel-item-left,.carousel-fade .active.carousel-item-prev,.carousel-fade .carousel-item-next,.carousel-fade .carousel-item-prev,.carousel-fade .carousel-item.active{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.bg-dark{background-color:#343a40 !important}.rounded{border-radius:.25rem !important}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}@media print{}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}@supports((position:-webkit-sticky) or (position:sticky)){.sticky-top{position:-webkit-sticky;position:sticky;top:0;z-index:1020}}.shadow-sm{box-shadow:0 .125rem .25rem rgba(0,0,0,.075) !important}.m-0{margin:0 !important}.mb-0{margin-bottom:0 !important}.my-4{margin-top:1.5rem !important}.mb-4,.my-4{margin-bottom:1.5rem !important}.py-5{padding-top:3rem !important}.py-5{padding-bottom:3rem !important}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}.text-center{text-align:center !important}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}.text-white{color:#fff !important}.text-muted{color:#6c757d !important}@media print{*,::after,::before{text-shadow:none !important;box-shadow:none !important}a:not(.btn){text-decoration:underline}pre{white-space:pre-wrap !important}pre{border:1px solid #adb5bd;page-break-inside:avoid}img{page-break-inside:avoid}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}@page{size:a3}body{min-width:992px !important}.container{min-width:992px !important}}</style>
+<style>/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */body{padding-top:54px}@media(min-width:992px){body{padding-top:56px}}</style>
+<style>code[class*="language-"],pre[class*="language-"]{color:black;background:0;text-shadow:0 1px white;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*="language-"]::selection,pre[class*="language-"] ::selection,code[class*="language-"]::selection,code[class*="language-"] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*="language-"],pre[class*="language-"]{text-shadow:none}}pre[class*="language-"]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*="language-"],pre[class*="language-"]{background:#f5f2f0}:not(pre)>code[class*="language-"]{padding:.1em;border-radius:.3em;white-space:normal}.token.comment{color:slategray}.token.punctuation{color:#999}.token.boolean,.token.number{color:#905}.token.string{color:#690}.token.operator{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.keyword{color:#07a}.token.function,.token.class-name{color:#dd4a68}</style>
+<style>pre{background:#f4f4f4;border:1px solid #ddd;border-left:3px solid #f36d33;color:#666;page-break-inside:avoid;font-family:monospace;font-size:14px;line-height:1.6;margin-bottom:1.6em;max-width:100%;overflow:auto;padding:1em 1.5em;display:block;word-wrap:break-word}code{font-size:1em}</style>
+<meta name=referrer content=no-referrer><link type=image/x-icon rel="shortcut icon" href=data:image/x-icon;base64, data-sf-original-href=https://course.cse.ust.hk/favicon.ico><link rel=canonical href=https://course.cse.ust.hk/comp2012/assignments/assignment2/><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body>
+ 
+ 
+ 
+ 
+ <div class=container>
+ 
+ <div class=row>
+ 
+ 
+ <div class=col-md-9>
+ 
+ <h2 class=my-4><span style=color:darkblue>COMP 2012</span>
+ <small>Object-Oriented Programming and Data Structures</small>
+ </h2>
+ 
+ 
+ <h3 class=my-4>Assignment 2
+ <span style=color:#660066>Fairy Chess Pieces</span>
+ </h3>
+ 
+ 
+ 
+ <div class="card mb-4">
+ 
+ 
+ <img class=card-img-top src="data:image/png;base64,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LXVNdW11jXWtdc21faSHxoIPXm+FJiJ68cUXTanyqHlR8I2SPy644AJTEsgeEmwsQsWJtJkzZ477tHWppZayfo+CoWT7+eefN2vbqTlGcL1yxp622XXXXUPbeuihh8xSO42zHRx/WollJTeyOj9//OMfC7albZe6gdVQfv51FG3btjVL47E9xd9nn33MUrvJkyc77dq1C61nC52bnj17VnwThGTZxoD34k9/+pPbgbYcGoe9WbNm1u14oYc9lTbfAmqNBBuLUHEiTR5//HFn+eWXt35/ioXaVJ933nmRzT70hDm4znbbbRd7BI3XXnst1PZYyW05zat23333gvUUehoe16WXXhraTseOHc3SaNrHYJKvYynVdjtI58z2BP3mm282JQrpmqgzpW387lLRtGlT54knnjBbQq2UqtuXW265km+TdGOoGVOD69omPnr66afNWkC2kGBjESpOpIUStOCT2bix7777Wm/iPv30U2uCd8stt5gSpekptJo1BLehaczLcdNNN4XW1e/rnXfeMSVK08gnf/7zn0PbiUpug2xJfps2bWI137Idh86tznGQroWebAfLxwl9J+JcJyQvOElTsP29Qg9r5s6da9YopJsy21skTbP/yiuvuH11/P9+ySWXmDWBbCHBxiJUnEiDhx9+OPRkOBh6mqnJYUqVO+GEE8xWCx144IGhsroJLGeClJ9++snp1q1baH3Ff/7zH1OqOP2GbDe0GnKvnOnW33//feuNrLapmSrLoTcEwfUVBx98sDsVeinDhw+33jjr3Ngcf/zxobL+0LXUNdW1tS33QuUeffRRs1U0tmWWWabgelx33XXOpptuWvBvikMOOcSsUeiOO+4IldUbTX2nZc899yxYFvV9AtKOBBuLUHGi1vTkU09y/d8TLzSpy+233+6+JfHoSbISRXWIs62jsLWvVjMmW3Kop68nnXSS8+WXX5qShZ555hlniy22CK2n0BPhOPr372/djmaDVOc+29N3PV3WE+rgzaoX6rwYR1Q76K222ipywhyNsa0bF9tbAJ1T7/fuZ2un7YWGGVTTD11Lz+zZs91hA21jfCvUdGjGjBmmNBpT8EHMnXfe6XZEXX311Qv+XaG/CX66sdQIM/4y+s688MILpoTj9OrVq2A5Y6ojq0iwsQgVJ2pNwzj6vyNenHrqqSXb7OuJavA7rND3V0+dg6699tpQWS/09qZ9+/bu555//vlOjx493JEtbGUVenL88ccfmy2XR8ez2267WbenUBJ90EEHOX369HFDN6S2GSC96NChQ1nTtPt9+OGHbkJv255CT8l17DoHOhc6J7Y3W17opjxo/vz51jpE16rUGwPdUJxyyimhdRXaLzQ+vZH0XweNPCW6IQs261ITpnvuucf9bSqOOuqoguWKfv36uet7NKuqf7k+z3/zBWQFCTYWoeJELenJp63Jh0a3KZfa9dsSQD0ttlGSFiwbN3QjWW4H4CCNHGKbbj1uaBvffPON2Wo8eipve5ofN4499lizxUK2J/W6RqNHjzYlSjv99NND21CdpBsENK5ddtml4Dp06tTJLHHcIRf9y0qFpucP3jjrjVOwnOoFjWalG7zjjjvOfcPz+uuvu0PLAmlFgo1FqDhRS7qhC34/Ntlkk9jfBY1SEdyOOu/ZaFQL26QrcULf9UonqhFNvLTzzjtbt11OaKhANamolPZdx2DbdjmhpiLFRm2xjYVfajKeID2Z33jjjUPbueaaa0wJNJbg3wLd6Lz66qvuMl2nHXbYoWB5sbC1pX/ggQesZW2hBz16c6P+PBqesyG/QyBpJNhYhIoTtaQkOPg9uO+++8zS8ulJbnDcbN3IFZtBVONC2zoNlhuVTjPuUVMI2wQ4pULtweOM+mGjfbdtu5xQG+li437rnAffSjRp0sT59ttvTYny6bvg345CNyZoXO+++26o/b36QHj0N6NYMyIvNDSmjeZQsJUvJ9TcSU0RNW9D3GE3gaSRYGMRKk7UUrAtsJLkH374wSyNR8Pl+belKDUBjRLVAQMGuG9Tgk2ivNA+2n4D6sxbzvjXUZRwagbD4HZLhdapJFn1aJ+178Ht6hijOlLq3KjtuBLzUu3ix48fH1rfX6fEoe9CsCnLyiuvbJaiMXXu3LngOugNiJ/eVmpEGH8ZLzSnwjbbbOP+PYiitvxqQmjrU1FutGjRwu07wEygqBUSbBSg4kQtqBNi8DqrU2GlbG12hw4dapaWpv4FwfXVwVDNVfRWJbhMoc+slG3yG8Vtt93m/Pvf/3ZD/20rU2pq9mJs50mhY9Sx2obMu/fee83apd1///2h9Xv37m2WxrfOOuuEtmfrwIrqCs5gqmEvq0EdZCdNmuT+Hi+77DLnmGOOcUe4iboBtoXKHn744e648UBjIsFGASpO1II6+wWvr9pfV0ptgoPbGzx4sFlampo9BNf3npYqobMlenrq+9Zbb7ll4tKxBren30OQ/i1YrtLzpH21PY3XsXlJq445uLzUVPB+OufB9XVzXClbO+xKO3eiMuqMHHzT6XWIbyw//vijM2bMGHcmU70R0cMd//7YQk2VjjzyyNij/QCVIsHGIlScqBU1+1HbXP91VXOMStmG+yt3EhgplmDLyJEjQ8sVccfCFg1laduWnlgHRT3F9g+HWS7bTI4KHZunoQm2xrcOrq+b6UroOxJstqL6gSZjjUt1rf8aqP795JNPzNLa0A3hI4884o5mFZzPIRj6zqiT7bx588zaQHWQYGMRKk7Ukm2caa+TbRxKuDQyTXBbcZ4ul0qwJSpBVWfeOLp37x7ahjr52mZk1L9pWbC8thFHVIfj4A1CQxPsN954I7S+rk0lSfHUqVND21InSzQe9YEJdlqttE19tait/t13320dvcYfGtpSb1GBaiHBhouKE7WmYRqD17Jnz55mafkee+yx0HbU7j/OSDTlJNjqa2AbP1oJpJpAlUOdDG03jppWPIrtPKmzY7lNJXTT2rJly9A21FxECbFfQxNsnXP1mQhuQ7NvxmWbar2S7wcqo+nzg0109MZz8uTJpkT66O9aly5dCvbZH/rOX3TRRQwLi6ogwQYVJ1LBlhjrOsa5WdITXtuYzpraO45yEmw57bTTQuUUauJUDk1tblv/5ZdfNiXCXnrpJes65XZ2jNNJs6EJtthuCFq3bh1rhJiJEyda+2foO4PGoaY9wfN/2GGHmaXppr9lGt0quP9eaNQh9QMBkkSCDSpOpIKGfNtggw1C11BPn998801TKpra7++5556h9fVmRpMXxVFugq0h8mzD3OmJ8vTp002paJtuumloXY1tXcrWW28dWm+jjTYyS6PNmDHDOoKPjs32O0kiwX7ttddCb8cUekOma1aKrr1t5CLdSMWdGh6VufHGG0PnX9+NL7/80pRIPzVLUqd6WxMrhd7qvPfee6Y00HAk2HWOihNpEtV5cLnllnNuvvnmyHGXNd23bYQJhd50xFVugi0DBw4MlVUcfPDBpoRdVOdGjcVdSlRnxwkTJpgSdgcddJB1vaiJcpJIsCU4/KcXusGImmZe11r1k669bd24bd1RGb0lCI42ozecmpzJozeFal70zjvvmH9J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ess59NBD3Q5YtsokC6ExetWE5O233zZHBdhNnjzZueCCC9y2+ZoaWeM+ayKaOG9e5Mwzz7R+F/2h5DqLTZSikjEdM7KF5LoyJNmwIcFGRb755hu3uYemRLZVKGkMTSCjSk77DjQW9QmwfR/9oeZTWUyuJar5mBIOZAfJdcOQZCOIBBsNpuYjt99+u9u+NOqVei1CTUs0LN8dd9xBMxDUxMsvv+xOrW77fnrRu3dvUzqbVlppJetxHXvssaYE0k51pBJA23VU7L777s6wYcOc4cOHE0VC50jnynYOFTrHOteoDyTYSJSecKgj4v333+/06dPHrWw0u12xJyMNDbWlXnvttd3POuuss9zPVgfKrD4RRD7MnTu35PCQWU+uZY011rAem5phIf3mzJmT6SZ/WQuda51z5B8JNhKlERWmTZvmPP30084tt9zinHLKKW7iW80n23pSrc/o1auXO/bo6NGj3X1ozCECgaDjjjvO+n31QlMt5+EmUOPg245PbdaRfsUmCyKqEzrnyD8S7DqijlmavliTrygJffLJJwteb2ncWk2Jq1C7UQ2z5cU555zjhjou9ezZ0216sddeezk77bSTs9lmmznrrLNOYjPkaYQGhW1Z3NA+ad801rH2Vfusfdcx6Fi84/Ifq9rJeedB58R/jnTOdO50DnUu43Z2Q3147bXXio6407FjR3fYvjzQ7992jPqtIf3uu+8+6/Ujqhc658g/Euwc0RNbzax27bXXuglk+/btnVatWjkrr7xy0fZ1aQm1VT3mmGPc9tJq13300UeXbL+ahtC51TnWudY5P+GEE9xrMHbsWGf+/Pnm6qCe7LHHHtbvikLja+fpFfF2221nPc62bduaEkgzPTSwXb8DDzyw4MEDET90Dm3nVucc+UeCnXGzZ892rrnmGmeHHXZwllhiCeuPOe2h5PS8885zPv/8c3NUi82aNcs599xzIztSpT2WXHJJd6a/I4880hkwYIAzc+ZMc2TIq3Hjxlm/Cwr1RdDyPNl1112tx7r99tubEkizqASbzngNp3NoO7ck2PWBBDujlHiqg5RmIbT9gNMeq6yyivuUXRVNOa/KVUZljz/+eKd58+bWbWYh1GxAr86fffZZc2TIG42Zbbv2Cr2hyZs999zTeqxqloX0I8GuHhLs+kaCnTHff/+9OzqHJkux/XDTGHqKu/HGG7uduvQUV5PVNKRzl0YqefPNN53bbrvNfTK80UYbuZ9h++w0hzpmvvPOO+aokAfq5BvVf2DppZd2mz7lTadOnazHq7bZSD8S7Oohwa5vJNgZMnLkSHf6cNsPthahp+faH7U93mabbdyEUdNB6wZAk9A8+OCDbgLZGJ259BkaOWTUqFHODTfc4O6DhgnTPmnftI/a17Q98dckHbpRYEjBfFCnWNt1VmhEnTzSGxnb8W6xxRamBNKMBLt6SLDrGwl2BuiptZ7U2n6oxULjbW6yySZOu3btnAMOOMAdNkzjRF911VXuk2RNDuMfIeOJJ55wR8hQjB8/3pkyZcqi0IgZH330kTN9+nR35Iwsz+ilfdcx6Fh0TDo2/7Hq2L3zoHPiP0c6Zzp3V155pXsuNbvZ/vvv73bo0lP6SseTVdOBX3/91ewhskoj1Niur0KTzuRRVBMRzZyK9CPBrh4S7PpGgp1y7777rtO6dWvrjzQYaiqhdtkPPPCAmzxmNQn+8ssv3cginXOde71t0PTX6uBY7hjgStQXLFhgtoQsatmypfXa6reZV1Ejpui7j/Qjwa4eEuz6RoKdYnqC2rRpU+sP1B8777xz5n+wapt6/fXXu805vOPSf/fv3z/z05yr+YfGzT755JNLtp3X5BxZfjtQzzSij+2aKjQJUl516NDBeswa2Qjp19AEWw9D9OZGnc816VdSodFppk6daj4lPq2rbdi2XWnoGHWs5T4AIsGubyTYKfX444+XTMbU/ENJeJYo2dRQdWPGjHFuvvlmp0ePHs56661nPT5/aLY4ldU6WlfbyGK7Zd1I7LvvvtZj9KJv376mNLJEv1nb9VQMGTLElMqf3XbbzXrMO+64oymBNGtogq0HPLb1k4hmzZpVNJmX1tG6tm0mETrmcpBg1zcS7BT6z3/+U7QtryZf6devX2SbXXX4e//9990/+JqNUONkX3DBBe5TNLXl7tq1q/vUqVTsvffe7t26QutpWD1/eLMg+sOb6VFtirVely5d3G3paZYm2EhytA9ta4011nC3rc/Qcekz9dnaB3V0tO2j/xgURxxxxKLj1DH7z0FU6LM0KorOqc6tzvGgQYPcNts696U6dmpK96hxyzVxzUMPPWRKIivUWdV2PRVvv/22KZU/mlzJdsyaORXp15AEW28XbesmGer7EpfWsW0rySjnzSoJdn0jwU4ZJWYtWrSw/igVauMZfG2mu/WhQ4e6yd6WW26Z2Qln8hS6BroWuia6NranMBrxJOpGSt+Bxhh9Bcm57rrrrNdSoVlJgzd2eYnVVlvNesy77LKLOTNIs4Yk2LpxtK2bZJT7JN0vKrFNMsq5aSbBrm8k2CmjUS1sP0iFnlzrKemECROcRx55xLn88svdp6lZHAO63kLXSNdK10zXbuLEiW6C7W9zHgx9F5Adura261ivodGLkH4k2JUFCTZKIcFOmZ9//rnsUSfyGhtuuKEbtmX1EvoO6LuA7Dj//POt17JeQ2PQI/2qkWCvu+66BU3qyomtttrKuq0kE2x9hu2zi4WOxbYtEmyUQoKdQsUmq8hjLLfccu5YuldccYU7DrVH4warrbmWRc2Ol9cYPHiwOQvICg2RabuW9RodO3Y0ZwZpVo0Eu5KO2g3Zj6AkE1sdi21bJNgohQQ7pTSJie2HmUSo3a9tCKJgJDHroWYq1LbWXHNNtzmEOj2q3aYmu9FMj+oQWM4EKyrz3nvvueto3eOPP97dliaz0Lb1GZqK2rYPcULH7D8HUaHmOrb1kwh1xET2nHDCCdbrWa+hG2OkX1Ri2717d7eTfLG45JJLrOsmmWCXsx/B0Dq2bSWZYOvYbZ/tjyT3A9lDgp1imm48bodFJc8aQujUU091brzxRuexxx5zJk+e7E5Y88UXXzg//fST2Xo8v/zyi9tRzx+ffvqp207YH/o3LZs/f75Zs/Hps0vtnz90bJXQudQ51bnVOda51jVTx0aNoBB3Vke1077pppvM1pE1UX9M6zU0Ig/SLyqxbUgkmWAnGUkm2A0JEuz6QIKdcnoNpSHyinVkbNWqlZtQP/PMM8wEmCK6FromSrg1jrft2in0NFxD/k2bNs2siSzS8JC2tx31Goceeqg5M0gzEuziSLBRKRLsjNBT2bFjx7qvnfRkWm10n3rqKfcJKrJB10rXTG3s9aRa11LXtJZP+wHUNz0EsCWBDQn1p4mrGvsRDH1GXDoW27YaEpXsB7KHBBsAgDr19ddfJ9J/xR+VJJDV2A9/aNv6jLiSTvwr3Q9kDwk2AAB17L777nM7pNsSwjjxhz/8we2gX6mk9iMY2qa2XSkdk47Ntu040dD9QLaQYAMAUOe++eYbZ9y4cc7o0aMrijFjxjgzZswwW6tcQ/cjGNqWttlQOjYdo+0zyomk9gPZQYINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJIgEGwAAAEgQCTYAAACQIBJsAAAAIEEk2AAAAECCSLABAACABJFgAwAAAAkiwQYAAAASRIINAAAAJMZx/h/ezL+zyajReAAAAABJRU5ErkJggg==" alt="Card image cap" data-sf-original-src=https://course.cse.ust.hk/comp2012/assignments/assignment2/images/pieces.png>
+ 
+ <div class=card-body id=introduction>
+ <h3 class=card-title>Introduction</h3>
+ <p>
+ In this assignment, we will make use of the C++ concepts learned in the lectures: <b>inheritance</b>, <b>polymorphism</b>, <b>templates</b> and
+ <b>operator overloading</b> to create different pieces in the game of chess. We will create not only the basic 6 pieces used in international
+ chess, but also other <a href=https://en.wikipedia.org/wiki/Fairy_chess_piece>fairy chess pieces</a> used in chess variants.
+ While there are numerous variant pieces with different complexity of moves and rules, many of the simple pieces fall into a few categories
+ which we will implement using C++ template classes.
+ </p>
+ <p>
+ If you are not familiar with the basic rules of chess, you may read the rules <a href=https://en.wikipedia.org/wiki/Chess>here</a>.
+ Brief explanations of the relevant concepts will also be included where necessary.
+ </p>
+ <h4>Type aliasing</h4>
+ <p>
+ In the code, we will use C++ type aliasing feature to give alternative names to classes. This is accomplished with the <code>using</code> keyword:
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">int</span> N<span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Integer</span> <span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">using</span> Five <span class="token operator">=</span> Integer<span class="token operator">&lt;</span><span class="token number">5</span><span class="token operator">&gt;</span><span class="token punctuation">;</span>
+
+Five fiveObj<span class="token punctuation">;</span> <span class="token comment">// Equivalent to Integer&lt;5&gt; fiveObj;</span>
+</code></pre>
+ Type aliasing is useful for giving "readable" names to classes, especially template classes. In the assignment, after defining
+ a template class that represent some category of chess pieces, we can use type aliasing to define a specific instantiation of that class,
+ and give it a meaningful name.
+ <p></p>
+ <h4>Template inheritance</h4>
+ <p>
+ From the lectures, you have learned about inheritance and templates. We can combine both concepts and have a class <em>inherit a template class</em>:
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">typename</span> <span class="token class-name">T</span><span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Base</span> <span class="token punctuation">{</span> 
+	<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+	<span class="token keyword">void</span> <span class="token function">baseFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Class inheriting a specific instantiation of base template class</span>
+<span class="token keyword">class</span> <span class="token class-name">Derived</span><span class="token operator">:</span> <span class="token base-clause"><span class="token keyword">public</span> <span class="token class-name">Base</span><span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span></span> <span class="token punctuation">{</span>
+	<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+	<span class="token function">Derived</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token operator">:</span> Base<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span>
+	<span class="token keyword">void</span> <span class="token function">derivedFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+		<span class="token function">baseFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// No problem</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Template class inheriting a base template class</span>
+<span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">typename</span> <span class="token class-name">T</span><span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">S</span><span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">DerivedTemplate</span><span class="token operator">:</span> <span class="token base-clause"><span class="token keyword">public</span> <span class="token class-name">Base</span><span class="token operator">&lt;</span><span class="token class-name">T</span><span class="token operator">&gt;</span></span> <span class="token punctuation">{</span>
+	<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+	<span class="token function">DerivedTemplate</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token operator">:</span> Base<span class="token operator">&lt;</span>T<span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span>
+	<span class="token keyword">void</span> <span class="token function">derivedFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+		<span class="token function">baseFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Compilation error!</span>
+		<span class="token keyword">this</span><span class="token operator">-&gt;</span><span class="token function">baseFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// No problem</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ It is essentially the same as inheriting a normal class, however the constructor(s) will have to provide the base class template parameter(s) as well.
+ Additionally, in a derived template class, you may encounter compilation error when trying to call a base class data member/member function
+ (see <a href=https://stackoverflow.com/questions/39667599/template-inheritance-there-are-no-arguments-that-depend-on-a-template-parameter>this post</a>
+ for a more in-depth explanation). To resolve the problem, add <code>this-&gt;</code> to the base class data member/member function.
+ <p></p>
+ </div>
+ <div class="card-footer text-muted">
+ End of Introduction
+ </div>
+ </div>
+ 
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=overview>
+ <h3 class=card-title>Code overview</h3>
+ <p>
+ The following section describes the classes and functions given, in the order of tasks that you need to implement.
+ </p>
+ <p>
+ <b>Brief overview:</b> The class <code>Board</code> is a chessboard representing an 8x8 grid of squares, which are pointers that may point to
+ <code>Piece</code>-derived objects. The classes deriving <code>Piece</code> will be implemented to represent different movement
+ categories of chess pieces, utilizing several custom data types such as <code>Position</code>, <code>Vector</code>
+ and <code>BooleanMap</code> for convenient calculation.
+ </p>
+ <br>
+ <h4>Utilities</h4>
+ <p class=card-text>
+ The files <b>utility.h</b> and <b>utility.cpp</b> define some constants, structs and classes that will be helpful for processing chess piece classes.
+ </p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">enum</span> <span class="token class-name">_FILE</span> <span class="token punctuation">{</span> _A<span class="token punctuation">,</span> _B<span class="token punctuation">,</span> _C<span class="token punctuation">,</span> _D<span class="token punctuation">,</span> _E<span class="token punctuation">,</span> _F<span class="token punctuation">,</span> _G<span class="token punctuation">,</span> _H <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">enum</span> <span class="token class-name">_RANK</span> <span class="token punctuation">{</span> _1<span class="token punctuation">,</span> _2<span class="token punctuation">,</span> _3<span class="token punctuation">,</span> _4<span class="token punctuation">,</span> _5<span class="token punctuation">,</span> _6<span class="token punctuation">,</span> _7<span class="token punctuation">,</span> _8 <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ The enums <code>_FILE</code> and <code>_RANK</code> represent the coordinates of the chessboard, which is an 8x8 grid. For example,
+ <code>arr[_8][_A]</code> is the same as <code>arr[7][0]</code>, and represents the following cell on the board:
+ <p></p>
+ <p>
+<pre class="shadow-sm rounded">---------------------------------
+| x |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |   |   |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ Note that the board is displayed in a similar orientation as an actual chessboard (starting from rank 8).
+ <p></p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">struct</span> <span class="token class-name">Position</span> <span class="token punctuation">{</span>
+    _FILE file<span class="token punctuation">;</span>
+    _RANK rank<span class="token punctuation">;</span>
+
+    <span class="token keyword">friend</span> std<span class="token operator">::</span>ostream<span class="token operator">&amp;</span> <span class="token keyword">operator</span><span class="token operator">&lt;&lt;</span><span class="token punctuation">(</span>std<span class="token operator">::</span>ostream<span class="token operator">&amp;</span> os<span class="token punctuation">,</span> <span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">bool</span> <span class="token keyword">operator</span><span class="token operator">==</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ The struct <code>Position</code> encodes the position of a cell on the chessboard - therefore, it contains the coordinates <code>file</code>
+ and <code>rank</code>. The friend <code>operator&lt;&lt;</code> is implemented for <code>cout</code> operations - this is already implemented
+ for you. The function <code>operator==</code> will need to be implemented to check whether 2 <code>Positions</code> are the same.
+ <p></p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">struct</span> <span class="token class-name">Vector</span> <span class="token punctuation">{</span>
+    <span class="token keyword">int</span> file<span class="token punctuation">;</span>
+    <span class="token keyword">int</span> rank<span class="token punctuation">;</span>
+
+    Position <span class="token keyword">operator</span><span class="token operator">+</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+    Vector <span class="token keyword">operator</span><span class="token operator">*</span><span class="token punctuation">(</span><span class="token keyword">int</span> mul<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ The struct <code>Vector</code> represents an arrow from one <code>Position</code> to another. Because an arrow can go backwards, the <code>file</code>
+ and <code>rank</code> components are signed integers. You will need to implement 2 operators: one to add a <code>Vector</code> with a <code>Position</code>
+ to get a new <code>Position</code>, and one to multiply a <code>Vector</code> with a number.
+ <p></p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">class</span> <span class="token class-name">BooleanMap</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span><span class="token operator">:</span>
+        <span class="token keyword">bool</span> cells<span class="token punctuation">[</span>NUM_RANKS<span class="token punctuation">]</span><span class="token punctuation">[</span>NUM_FILES<span class="token punctuation">]</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span><span class="token operator">:</span>
+        <span class="token keyword">bool</span><span class="token operator">&amp;</span> <span class="token function">cell</span><span class="token punctuation">(</span>_FILE f<span class="token punctuation">,</span> _RANK r<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> cells<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">[</span>f<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">bool</span><span class="token operator">&amp;</span> <span class="token function">cell</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> cells<span class="token punctuation">[</span>pos<span class="token punctuation">.</span>rank<span class="token punctuation">]</span><span class="token punctuation">[</span>pos<span class="token punctuation">.</span>file<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">bool</span> <span class="token function">cell</span><span class="token punctuation">(</span>_FILE f<span class="token punctuation">,</span> _RANK r<span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> cells<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">[</span>f<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">bool</span> <span class="token function">cell</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> cells<span class="token punctuation">[</span>pos<span class="token punctuation">.</span>rank<span class="token punctuation">]</span><span class="token punctuation">[</span>pos<span class="token punctuation">.</span>file<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+        BooleanMap<span class="token operator">&amp;</span> <span class="token keyword">operator</span><span class="token operator">|=</span><span class="token punctuation">(</span><span class="token keyword">const</span> BooleanMap<span class="token operator">&amp;</span> other<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        BooleanMap<span class="token operator">&amp;</span> <span class="token keyword">operator</span><span class="token operator">&amp;=</span><span class="token punctuation">(</span><span class="token keyword">const</span> BooleanMap<span class="token operator">&amp;</span> other<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        BooleanMap <span class="token keyword">operator</span><span class="token operator">~</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ The class <code>BooleanMap</code> is an 8x8 array of booleans, which is used for several chess piece calculations (e.g. the map represents which
+ cells the current piece can move to). It is initialized to be all <code>false</code>, and the cells can be modified afterwards. The function
+ <code>cell</code> is provided for convenient access and modification of the array; instead of directly accessing the array, you can call this function
+ e.g. <code>cell(_A, _8)</code> and not have to worry about out-of-bound index or confusing rows and columns.
+ <p></p>
+ <p>
+ You will need to implement 3 operators (these are similar to basic operators such as + or +=) 
+ to perform bitwise operations with another <code>BooleanMap</code> (bitwise OR and bitwise AND), or to
+ negate all values in a 2D array.
+ </p>
+ <br>
+ <h4>Piece</h4>
+ <p class=card-text>
+ The files <b>piece.h</b> and <b>pieceToImplement.h</b> define the base classes of the different chess pieces.
+ </p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">class</span> <span class="token class-name">Piece</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span><span class="token operator">:</span>
+        <span class="token keyword">virtual</span> <span class="token keyword">char</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">protected</span><span class="token operator">:</span>
+        Position position<span class="token punctuation">;</span>
+        Color color<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span><span class="token operator">:</span>
+        <span class="token function">Piece</span><span class="token punctuation">(</span>Color color<span class="token punctuation">)</span><span class="token operator">:</span> <span class="token function">color</span><span class="token punctuation">(</span>color<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+        <span class="token keyword">virtual</span> <span class="token operator">~</span><span class="token function">Piece</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token keyword">default</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">virtual</span> Piece<span class="token operator">*</span> <span class="token function">clone</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">char</span> <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token punctuation">(</span><span class="token function">isWhite</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token number">0</span> <span class="token operator">:</span> <span class="token string">'A'</span> <span class="token operator">-</span> <span class="token string">'a'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        Position <span class="token function">getPosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> position<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        Color <span class="token function">getColor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> color<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+        <span class="token keyword">bool</span> <span class="token function">isWhite</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> color <span class="token operator">==</span> WHITE<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">bool</span> <span class="token function">isOpponent</span><span class="token punctuation">(</span><span class="token keyword">const</span> Piece<span class="token operator">&amp;</span> other<span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> color <span class="token operator">!=</span> other<span class="token punctuation">.</span>color<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+        <span class="token keyword">void</span> <span class="token function">setPosition</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token punctuation">{</span> position <span class="token operator">=</span> pos<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+        <span class="token keyword">virtual</span> BooleanMap <span class="token function">getMoves</span><span class="token punctuation">(</span><span class="token keyword">const</span> Board<span class="token operator">&amp;</span> board<span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ The class <code>Piece</code> is the base class of all chess pieces. It is an <b>abstract base class</b>, since it contains <em>pure virtual functions</em>
+ that will need to be implemented by the derived classes. Its data members include:
+ <ul>
+ <li><code>position</code>: The piece's current <code>Position</code>. It needs to be updated whenever the piece is moved on the <code>Board</code>.</li>
+ <li><code>color</code>: The piece's <code>Color</code>, which is an enum indicating whether the piece is <code>WHITE</code> or <code>BLACK</code>.</li>
+ </ul>
+ This class contains the following 3 pure virtual functions:
+ <ul>
+ <li><code>name</code>: Return the character representing the piece type. For example, <code>'R'</code> is typically used to represent a <b>R</b>ook piece.</li>
+ <li><code>clone</code>: Return a dynamic-allocated instance of the concrete derived class. Since <code>Board</code> contains pointers to <code>Piece</code>-derived
+ objects but cannot know what concrete classes will be implemented, it needs to use this function when copying pieces in the copy constructor.
+ </li>
+ <li><code>getMoves</code>: Return a <code>BooleanMap</code> indicating where this piece can move to (including captures).</li>
+ </ul>
+ The remaining member functions are provided for accessing the data members, or to modify the piece's <code>Position</code>.
+ <p></p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">NamedPiece</span> <span class="token operator">:</span> <span class="token base-clause"><span class="token keyword">public</span> <span class="token class-name">Piece</span></span> <span class="token punctuation">{</span>
+	<span class="token keyword">private</span><span class="token operator">:</span>
+		<span class="token keyword">virtual</span> <span class="token keyword">char</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> override <span class="token punctuation">{</span> <span class="token keyword">return</span> N<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+	
+	<span class="token keyword">public</span><span class="token operator">:</span>
+		<span class="token function">NamedPiece</span><span class="token punctuation">(</span>Color color<span class="token punctuation">)</span><span class="token operator">:</span> <span class="token function">Piece</span><span class="token punctuation">(</span>color<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ <code>NamedPiece</code> is a template class that inherits the <code>Piece</code> class. It implements the <code>name</code>
+ function, which returns the template parameter <code>N</code>. The purpose of this class is for the further-derived classes
+ to inherit this class and not have to re-implement the <code>name</code> function.
+ <p></p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">int</span> F<span class="token punctuation">,</span> <span class="token keyword">int</span> R<span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Leaper</span><span class="token punctuation">;</span>
+
+<span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">int</span> F<span class="token punctuation">,</span> <span class="token keyword">int</span> R<span class="token punctuation">,</span> <span class="token keyword">int</span> RANGE <span class="token operator">=</span> MAX_RANGE<span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Rider</span><span class="token punctuation">;</span>
+
+<span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">P1</span><span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">P2</span><span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Compound</span><span class="token punctuation">;</span>
+
+<span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">M</span><span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">C</span><span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Divergent</span><span class="token punctuation">;</span>
+</code></pre>
+ These 4 classes are the categories of chess pieces that you will need to implement in <b>pieceToImplement.h</b>. These classes will
+ inherit the <code>NamedPiece</code> template class and implement the remaining 2 pure virtual functions, such that instantiations
+ of them will behave as fully-functional chess pieces. The <a href=#tasks>Tasks</a> section will describe in detail what each class should represent.
+ <p></p>
+ <br>
+ <h4>User-defined Pieces</h4>
+ <p class=card-text>
+ The files <b>userPiece.h</b> and <b>userPiece.cpp</b> are where the user can define the actual concrete <code>Piece</code>-derived classes.
+ With the templates defined above and the <code>using</code> keyword, we can define most pieces here without having to write a new class
+ definition. Some special cases will still need a class/function definition, which is described in the <a href=#tasks>Tasks</a> section.
+ </p>
+ <br>
+ <h4>Board</h4>
+ <p class=card-text>
+ The files <b>board.h</b>, <b>board.cpp</b> and <b>boardToImplement.cpp</b> define the class representing a chessboard.
+ </p>
+ <p>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">class</span> <span class="token class-name">Board</span> <span class="token punctuation">{</span>
+    <span class="token keyword">friend</span> <span class="token keyword">class</span> <span class="token class-name">BoardTester</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">protected</span><span class="token operator">:</span> 
+        Piece<span class="token operator">*</span> pieces<span class="token punctuation">[</span>NUM_RANKS<span class="token punctuation">]</span><span class="token punctuation">[</span>NUM_FILES<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">bool</span> isWhiteTurn <span class="token punctuation">{</span><span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+        Piece<span class="token operator">*</span> selectedPiece <span class="token punctuation">{</span><span class="token keyword">nullptr</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+        BooleanMap moveMap<span class="token punctuation">;</span>
+        Piece<span class="token operator">*</span> royalPieces<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">{</span><span class="token keyword">nullptr</span><span class="token punctuation">,</span> <span class="token keyword">nullptr</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        Piece<span class="token operator">*</span><span class="token operator">&amp;</span> <span class="token function">piece</span><span class="token punctuation">(</span>_FILE f<span class="token punctuation">,</span> _RANK r<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> pieces<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">[</span>f<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        Piece<span class="token operator">*</span><span class="token operator">&amp;</span> <span class="token function">piece</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> pieces<span class="token punctuation">[</span>pos<span class="token punctuation">.</span>rank<span class="token punctuation">]</span><span class="token punctuation">[</span>pos<span class="token punctuation">.</span>file<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+        <span class="token keyword">virtual</span> <span class="token keyword">void</span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> destPos<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        BooleanMap <span class="token function">getAttackingMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+        <span class="token keyword">void</span> <span class="token function">validateMoveMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span><span class="token operator">:</span>
+        <span class="token function">Board</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> pieces<span class="token punctuation">{</span><span class="token keyword">nullptr</span><span class="token punctuation">}</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+        <span class="token function">Board</span><span class="token punctuation">(</span><span class="token keyword">const</span> Board<span class="token operator">&amp;</span> board<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">virtual</span> <span class="token operator">~</span><span class="token function">Board</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">const</span> Piece<span class="token operator">*</span> <span class="token function">piece</span><span class="token punctuation">(</span>_FILE f<span class="token punctuation">,</span> _RANK r<span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> pieces<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">[</span>f<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token keyword">const</span> Piece<span class="token operator">*</span> <span class="token function">piece</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> pieces<span class="token punctuation">[</span>pos<span class="token punctuation">.</span>rank<span class="token punctuation">]</span><span class="token punctuation">[</span>pos<span class="token punctuation">.</span>file<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+
+        <span class="token keyword">void</span> <span class="token function">addPiece</span><span class="token punctuation">(</span>Piece<span class="token operator">*</span> piece<span class="token punctuation">,</span> <span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">bool</span> <span class="token function">select</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        Board <span class="token function">getTempBoard</span><span class="token punctuation">(</span>Piece<span class="token operator">*</span> newPiece<span class="token punctuation">,</span> <span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+        BooleanMap <span class="token function">getOpponentMap</span><span class="token punctuation">(</span><span class="token keyword">bool</span> white<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">void</span> <span class="token function">display</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+ The class <code>Board</code> represents the chessboard, containing pointers to <code>Piece</code> objects and other attributes. Here is the list
+ of all <code>Board</code> data members:
+ <ul>
+ <li><code>pieces</code>: A 2D array of pointers to dynamic-allocated <code>Piece</code>-derived objects. <code>nullptr</code>
+ represents a square with no piece on it (an empty board would therefore be all <code>nullptr</code>). We suggest using the provided
+ <code>piece</code> function to access this array using <code>_FILE</code>, <code>_RANK</code> or <code>Position</code>,
+ similar to <code>BooleanMap</code>.
+ </li>
+ <li><code>isWhiteTurn</code>: A boolean representing whether the current turn is White's or Black's. By default, this is set to <code>true</code>
+ as White moves first. This boolean should be toggled whenever a move is made.
+ </li>
+ <li><code>selectedPiece</code>: A pointer to the "selected" <code>Piece</code>. The user selects a piece in order to move it each turn.
+ If the pointer is <code>nullptr</code>, no piece is selected.
+ </li>
+ <li><code>moveMap</code>: When a piece is selected, this <code>BooleanMap</code> indicates which square the piece can move to.
+ When no piece is selected, the map becomes all <code>false</code>.
+ </li>
+ <li><code>royalPieces</code>: An array of 2 pointers to the "royal" pieces, one for each player. Royal pieces cannot be captured, and
+ therefore affects the movement of other pieces. For example, in international chess, you cannot move a piece if it allows your King
+ to be captured.
+ </li>
+ </ul>
+ Note that the class contains some inheritance keywords such as <code>protected</code> and <code>virtual</code>, since we will extend this class
+ with another class later. However, it is outside of the requirements for this assignment, so you can treat them as <code>private</code> members
+ and non-virtual functions. Additionally, we declare the class <code>BoardTester</code> to be a <code>friend</code> of this class. Its purpose is
+ for <b>main_test.cpp</b> to be able to access <code>Board</code>'s private members.
+ <p></p>
+ <p>
+ The public member functions have been implemented in <b>board.cpp</b>. You can read the comments in <b>board.h</b> or <b>board.cpp</b> to understand
+ what they do, as you may need to use them for other tasks. The protected member functions, copy constructor and destructor will need to be implemented
+ in <b>boardToImplement.cpp</b>.
+ </p>
+ <br>
+ <h4>User-defined Board</h4>
+ <p class=card-text>
+ There are several rules in chess that cannot be represented using simple piece movesets, but rather some special attributes of the board.
+ Therefore, the class <code>WesternBoard</code> is given in <b>userBoard.h</b> to implement (most of) the remaining special rules, by inheriting
+ the <code>Board</code> class. You don't need to handle this class, it is given to you so that once you finish the tasks, you can play
+ a (mostly) complete game of international chess after compiling with <b>main.cpp</b>. Feel free to take a look at it to get references on
+ how to write your functions.
+ </p>
+ <br>
+ <h4>main.cpp</h4>
+ <p class=card-text>
+ The main code used in the sample program. To compile with this file, run <code>make</code> in the terminal, which will generate <b>PA2.exe</b>.
+ You can play with it and compare the behaviour with the sample program; however all tasks must be completed for the code to compile.
+ </p>
+ <br>
+ <h4>main_test.cpp</h4>
+ <p class=card-text>
+ The testing program used on ZINC. It is split into test cases divided into tasks. Most of the code are disabled at the beginning,
+ which can be enabled by uncommenting corresponding lines in <b>taskProgress.h</b>. After completing each task, follow
+ the described steps to enable the test cases and compare your output with the given sample outputs. To compile with this file, 
+ run <code>make test</code> in the terminal, which will generate <b>PA2_test.exe</b>.
+ </p>
+ <p>
+ <b style=color:red>Important:</b> The file <b>taskProgress.h</b> is one of the files to be submitted. You need to uncomment the
+ corresponding tasks as you finish them. If you cannot complete a task, leave it commented and submit to ZINC - your program should
+ still be able to compile and you can run the other test cases, but you will lose points for the unimplemented tasks.
+ </p>
+ 
+ </div>
+ <div class="card-footer text-muted">
+ End of Code overview
+ </div>
+ </div>
+ 
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=tasks>
+ <h3 class=card-title>Tasks</h3>
+ <br>
+ <h4>Task 1: Utilities</h4>
+ <p class=card-text>
+ In this part, you will implement the overloaded operators in <b>utility.cpp</b>.
+ </p>
+ <p>
+ <h5>Task 1.1:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">bool</span> Position<span class="token operator">::</span><span class="token keyword">operator</span><span class="token operator">==</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span></code></pre>
+ Return true if the specified <code>pos</code> is the same position as the current <code>Position</code>.
+ <p></p>
+ <p>
+ <h5>Task 1.2:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Position Vector<span class="token operator">::</span><span class="token keyword">operator</span><span class="token operator">+</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> pos<span class="token punctuation">)</span> <span class="token keyword">const</span></code></pre>
+ Return a <code>Position</code> object representing the addition of this <code>Vector</code> with another <code>Position</code>.
+ If the resulting position would be out of bounds (e.g. rank 9), return <code>pos</code> directly. Examples:
+ <ul>
+ <li><code>Vector{1, 2} + Position{_C, _3}</code>: Returns <code>Position{_D, _5}</code></li>
+ <li><code>Vector{-2, 0} + Position{_G, _5}</code>: Returns <code>Position{_E, _5}</code></li>
+ <li><code>Vector{3, 1} + Position{_H, _1}</code>: Returns <code>Position{_H, _1}</code>, as the file would go out of bounds</li>
+ </ul>
+ <p></p>
+ <p>
+ <h5>Task 1.3:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Vector Vector<span class="token operator">::</span><span class="token keyword">operator</span><span class="token operator">*</span><span class="token punctuation">(</span><span class="token keyword">int</span> mul<span class="token punctuation">)</span> <span class="token keyword">const</span></code></pre>
+ Return a <code>Vector</code> object that is the multiplication of this <code>Vector</code> with <code>mul</code>. Examples:
+ <ul>
+ <li><code>Vector{1, 2} * 2</code>: Returns <code>Vector{2, 4}</code></li>
+ <li><code>Vector{-3, 1} * -3</code>: Returns <code>Vector{9, -3}</code></li>
+ </ul>
+ <p></p>
+ <p>
+ <h5>Task 1.4:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>BooleanMap<span class="token operator">&amp;</span> BooleanMap<span class="token operator">::</span><span class="token keyword">operator</span><span class="token operator">|=</span><span class="token punctuation">(</span><span class="token keyword">const</span> BooleanMap<span class="token operator">&amp;</span> other<span class="token punctuation">)</span></code></pre>
+ Perform bitwise OR operation on the current <code>BooleanMap</code> and return it by reference. This means the value at position
+ <code>pos</code> is equal to <code>cell(pos) || other.cell(pos)</code>. An example can be seen in <b>output/output7.txt</b>.
+ <p></p>
+ <p>
+ <h5>Task 1.5:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>BooleanMap<span class="token operator">&amp;</span> BooleanMap<span class="token operator">::</span><span class="token keyword">operator</span><span class="token operator">&amp;=</span><span class="token punctuation">(</span><span class="token keyword">const</span> BooleanMap<span class="token operator">&amp;</span> other<span class="token punctuation">)</span></code></pre>
+ Perform bitwise AND operation on the current <code>BooleanMap</code> and return it by reference, similar to the above function.
+ <p></p>
+ <p>
+ <h5>Task 1.6:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>BooleanMap BooleanMap<span class="token operator">::</span><span class="token keyword">operator</span><span class="token operator">~</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span></code></pre>
+ Return a new <code>BooleanMap</code> where all cell values are negated from the current map; in other words, perform bitwise NOT operation.
+ <em>Tip</em>: To use this function on object <code>map</code>, you can write <code>~map</code>.
+ <p></p>
+ <br>
+ <h4>Task 2: Board constructor/destructor</h4>
+ <p class=card-text>
+ For this part, you need to finish the <code>Board</code> copy constructor and destructor in <b>boardToImplement.cpp</b>.
+ This will set up the board for implementing and testing the different pieces in the next task.
+ </p>
+ <p>
+ <h5>Task 2.1:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token class-name">Board</span><span class="token operator">::</span><span class="token function">Board</span><span class="token punctuation">(</span><span class="token keyword">const</span> Board<span class="token operator">&amp;</span> board<span class="token punctuation">)</span></code></pre>
+ <code>Board</code> copy constructor. You need to perform deep copy on the data members in the correct way:
+ <ul>
+ <li><code>pieces</code>: Use <code>Piece</code>'s <code>clone</code> function to create a copied <code>Piece</code> object,
+ since the actual type of the Piece is not known to this class.
+ </li>
+ <li><code>isWhiteTurn</code>: Copy from <code>board</code> directly.</li>
+ <li><code>selectedPiece</code>: If <code>board.selectedPiece</code> is not <code>nullptr</code>, set this data member to
+ point to the corresponding <code>Piece</code> on the new board (<em>Hint</em>: they have the same position).
+ </li>
+ <li><code>moveMap</code>: Copy from <code>board</code> directly, since it is just an array of booleans.</li>
+ <li><code>royalPieces</code>: Copy in a similar way to <code>selectedPiece</code>.</li>
+ </ul>
+ <p></p>
+ <p>
+ <h5>Task 2.2:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token class-name">Board</span><span class="token operator">::</span><span class="token operator">~</span><span class="token function">Board</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+ <code>Board</code> destructor. Consider what dynamic objects need to be deallocated (<em>Hint</em>: be careful not to cause double-deletion).
+ <p></p>
+ <br>
+ <h4>Task 3: Piece</h4>
+ <p class=card-text>
+ In this part, you will implement the 4 <code>Piece</code>-derived template classes in <b>pieceToImplement.h</b>. For each of the following classes,
+ you need to write the class definition and implement the member functions.
+ </p>
+ <p>
+ <em>Hint:</em> As described, all classes should inherit the <code>NamedPiece</code> class. 
+ Other than the following 3 functions, anything else to implement in each class?
+ <ul>
+ <li>Constructor: Required since the base class constructor is non-default.</li>
+ <li><code>clone</code>: Return a new dynamic-allocated instance of this class by calling the default copy constructor.</li>
+ <li><code>getMoves</code>: Return a <code>BooleanMap</code> representing the moves as described below.</li>
+ </ul>
+ <p></p>
+ <p>
+ <h5>Task 3.1: Leaper</h5>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">int</span> F<span class="token punctuation">,</span> <span class="token keyword">int</span> R<span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Leaper</span><span class="token punctuation">;</span></code></pre>
+ A <code>Leaper</code> piece can <em>leap</em> from its current position to a new position specified by a <code>Vector</code>. This vector is
+ specified with the 2 <code>int</code> parameters: <code>F</code> (file) and <code>R</code> (rank). For example, the following class 
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Leaper<span class="token operator">&lt;</span><span class="token string">'N'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">&gt;</span></code></pre>
+ defines a piece that can move <u>forward</u> to a position specified by <code>Vector{2, 1}</code> (2 squares to the <span style=color:red>right</span>, 1 square up):
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   | . |   |   | 5
+---------------------------------
+|   |   |   |(N)|   |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ In other words, calling <code>getMoves</code> on this object at position <code>d4</code> should return a <code>BooleanMap</code>
+ where only <code>cell(_F, _5)</code> is <code>true</code>.
+ <p></p>
+ <p>
+ Note that the <code>Vector</code> should be reversed if the piece is Black, since the Black player sits on the other side of the board:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |(n)|   |   |   |   | 4
+---------------------------------
+|   | . |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ <p></p>
+ <p>
+ In the <code>getMoves</code> function, the <code>Board</code> is provided. If the destination cell is empty, the piece can move there.
+ Alternatively, if it contains an opponent piece, the piece can also move there and capture the opponent piece. Otherwise, if there is
+ a piece of the same color, the piece cannot move and the returned <code>BooleanMap</code> should be all <code>false</code>.
+ </p>
+ <p>
+ <h5>Task 3.2: Rider</h5>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">int</span> F<span class="token punctuation">,</span> <span class="token keyword">int</span> R<span class="token punctuation">,</span> <span class="token keyword">int</span> RANGE <span class="token operator">=</span> MAX_RANGE<span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Rider</span><span class="token punctuation">;</span></code></pre>
+ A <code>Rider</code> piece can <em>ride</em> from its current position to positions where the direction vector is a multiple of the
+ <code>Vector</code> specified by <code>F</code> and <code>R</code>. For example, the following class 
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Rider<span class="token operator">&lt;</span><span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token operator">&gt;</span></code></pre>
+ defines a piece that can repeatedly move like a <code>Leaper</code> with <code>Vector{1, 0}</code>:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |(R)| . | . | . | . | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ The parameter <code>RANGE</code> specifies how far the piece can move - in other words, the maximum multiplier of the <code>Vector</code>.
+ By default, <code>RANGE</code> is equal to the board size, which means the piece has unlimited range. The following class:
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Rider<span class="token operator">&lt;</span><span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token operator">&gt;</span></code></pre>
+ would have the following moveset (note that the piece cannot move to <code>d7</code>):
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   | . |   |   |   |   | 5
+---------------------------------
+|   |   |   |   |   |   |   |   | 4
+---------------------------------
+|   |   |   | . |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |(R)|   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ Note that this piece "rides" to the destination square by "leaping" to each square one by one. If there is a piece on its way,
+ it can capture the piece if it is an opponent piece and cannot move further, or stop right before if the piece is the same color.
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |(R)| . | . | . |[n]|   | 5
+---------------------------------
+|   |   |   |   |   |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ In the above example, the piece <code>R</code> of type <code>Rider&lt;'R', 1, 0&gt;</code> can move to <code>d5</code>, <code>e5</code>,
+ <code>f5</code>, or capture the opponent piece on <code>g5</code> (indicated by square brackets), 
+ but cannot move to <code>h5</code>. If the piece on <code>g5</code>
+ was a White piece instead, <code>R</code> would also not be able to move to <code>g5</code>.
+ <p></p>
+ <p>
+ <em>Hint</em>: To implement <code>getMoves</code>, create a for-loop from 1 to <code>RANGE</code>, calculate the <code>Vector</code> multiples
+ and check the board at each destination position, similar to <code>Leaper</code> class.
+ </p>
+ 
+ <p>
+ <h5>Task 3.3: Compound</h5>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">P1</span><span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">P2</span><span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Compound</span><span class="token punctuation">;</span></code></pre>
+ A <code>Compound</code> piece combines the moveset of two pieces of types <code>P1</code> and <code>P2</code>. For example, the following class 
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Compound<span class="token operator">&lt;</span><span class="token string">'C'</span><span class="token punctuation">,</span> Leaper<span class="token operator">&lt;</span><span class="token string">'N'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token punctuation">,</span> Rider<span class="token operator">&lt;</span><span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token operator">&gt;&gt;</span></code></pre>
+ defines a piece with the following moveset:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   | . |   |   | 5
+---------------------------------
+|   |   |   |(C)| . | . | . | . | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ To implement this class's <code>getMoves</code>, you can create temporary <code>P1</code> and <code>P2</code> objects and
+ use <code>Board</code>'s <code>getTempBoard</code> function to get the movesets of both component pieces,
+ then use bitwise OR to get the combined moveset. You can use the operators implemented in Task 1.
+ <p></p>
+ <p>
+ <em>Note:</em> The <code>getTempBoard</code> function requires the <code>Board</code> copy constructor.
+ </p>
+ <p>
+ <h5>Task 3.4: Divergent</h5>
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">template</span> <span class="token operator">&lt;</span><span class="token keyword">char</span> N<span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">M</span><span class="token punctuation">,</span> <span class="token keyword">typename</span> <span class="token class-name">C</span><span class="token operator">&gt;</span>
+<span class="token keyword">class</span> <span class="token class-name">Divergent</span><span class="token punctuation">;</span></code></pre>
+ A <code>Divergent</code> piece moves like a <code>M</code> piece, but captures like a <code>C</code> piece. For example, the following class 
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Divergent<span class="token operator">&lt;</span><span class="token string">'D'</span><span class="token punctuation">,</span> Leaper<span class="token operator">&lt;</span><span class="token string">'N'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token punctuation">,</span> Rider<span class="token operator">&lt;</span><span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token operator">&gt;&gt;</span></code></pre>
+ defines a piece with the following moveset:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   | . |   |   | 5
+---------------------------------
+|   |   |   |(D)|   |   |[n]|   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ This piece moves like a <code>Leaper&lt;'N', 2, 1&gt;</code> and can move to <code>f5</code>, but cannot move like a <code>Rider&lt;'R', 1, 0&gt;</code>
+ and thus cannot move to <code>e4</code> or <code>f4</code>. However, it can capture an opponent piece on <code>g4</code>.
+ <p></p>
+ <p>
+ If the component pieces are swapped:
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>Divergent<span class="token operator">&lt;</span><span class="token string">'D'</span><span class="token punctuation">,</span> Rider<span class="token operator">&lt;</span><span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token operator">&gt;</span><span class="token punctuation">,</span> Leaper<span class="token operator">&lt;</span><span class="token string">'N'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">&gt;&gt;</span></code></pre>
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |(D)| . | . | n |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre> 
+ This piece cannot move to <code>f5</code>, however it can if there is an opponent piece on it. On the other hand, this piece can "ride"
+ to <code>e4</code> and <code>f4</code>, but cannot capture the opponent piece on <code>g4</code>.
+ <p></p>
+ <p>
+ To implement <code>getMoves</code>, you may use similar code to <code>Compound</code> class. However, you also need to call <code>Board</code>'s
+ <code>getOpponentMap</code> function to get a <code>BooleanMap</code> representing squares with opponent pieces. Then, a bitwise AND operation
+ between the <code>C</code> piece's moveset and the opponent map results in the capture moves, and a bitwise AND operation
+ between the <code>M</code> piece's moveset and the <u>negation</u> of opponent map results in the non-capture moves, which can be combined into the final moveset.
+ </p>
+ <br>
+ <h4>Task 4: User-defined Pieces</h4>
+ <p class=card-text>
+ With the template classes defined above, we can now define the basic chess pieces in <b>userPiece.h</b> and <b>userPiece.cpp</b>.
+ </p>
+ <p>
+ Most chess pieces are omni-directional: for example, the <code>Knight</code> is not just a <code>Leaper</code> that can leap to
+ the position specified by <code>Vector{2, 1}</code>; it can move to any squares 2-by-1 cells away. We can create it by making use
+ of <code>Compound</code>, combining the moveset of 8 such <code>Leapers</code> in 8 directions. Therefore, we use type aliasing
+ to define <code>OmniLeaper</code> and <code>OmniRider</code> in <b>piece.h</b>. This has been given to you and
+ they can be used to complete the next task.
+ </p>
+ <p>
+ In <b>userPiece.h</b>, the definitions of <code>Knight</code> and <code>Rook</code> have been provided:
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">using</span> Knight <span class="token operator">=</span> OmniLeaper<span class="token operator">&lt;</span><span class="token string">'N'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token operator">&gt;</span></code></pre>
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   | . |   |[p]|   |   |   | 6
+---------------------------------
+|   | . |   |   |   | R |   |   | 5
+---------------------------------
+|   |   |   |(N)|   |   |   |   | 4
+---------------------------------
+|   | . |   |   | p | . |   |   | 3
+---------------------------------
+|   |   | . |   | . |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ The <code>Knight</code> can move to any of the 6 squares indicated, or capture on <code>e6</code>, but cannot move to <code>f5</code>.
+ Note that the piece on <code>e3</code> does not affect the <code>Knight</code>'s movement.
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">using</span> Rook <span class="token operator">=</span> OmniRider<span class="token operator">&lt;</span><span class="token string">'R'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token operator">&gt;</span></code></pre>
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   | N |   |   |   |   | 6
+---------------------------------
+|   |   |   | . |   |   |   |   | 5
+---------------------------------
+| . | . | . |(R)| . | . |[p]|   | 4
+---------------------------------
+|   |   |   | . |   |   |   |   | 3
+---------------------------------
+|   |   |   | . |   |   |   |   | 2
+---------------------------------
+|   |   |   | . |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ The <code>Rook</code> can move to any of the squares on the same file or rank as indicated, or capture on <code>g4</code>, 
+ but cannot move to <code>h4</code>, <code>d6</code> or further.
+ <p></p>
+ <p>
+ <h5>Task 4.1: Bishop, Queen, King</h5>
+ With the <code>using</code> keyword, define the other 3 major pieces.
+ <p></p>
+ <p>
+ The <code>Bishop</code> moves like a <code>Rook</code>, but diagonally:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+| . |   |   |   |   |   |   |   | 7
+---------------------------------
+|   | . |   |   |   |[n]|   |   | 6
+---------------------------------
+|   |   | . |   | . |   |   |   | 5
+---------------------------------
+|   |   |   |(B)|   |   |   |   | 4
+---------------------------------
+|   |   | . |   | . |   |   |   | 3
+---------------------------------
+|   | . |   |   |   | N |   |   | 2
+---------------------------------
+| . |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ <p></p>
+ <p>
+ The <code>Queen</code> combines the <code>Rook</code> and <code>Bishop</code>:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   | . |   |   |   | . | 8
+---------------------------------
+| . |   |   | . |   |   | . |   | 7
+---------------------------------
+|   | . |   | . |   | . |   |   | 6
+---------------------------------
+|   |   | . | . | . |   |   |   | 5
+---------------------------------
+| . | . | . |(Q)| . |[n]|   |   | 4
+---------------------------------
+|   |   | . | . | . |   |   |   | 3
+---------------------------------
+|   | N |   | . |   | . |   |   | 2
+---------------------------------
+|   |   |   | . |   |   | . |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ <p></p>
+ <p>
+ The <code>King</code> only moves to the 8 adjacent squares (ignoring castling and check):
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   | . | . |[n]|   |   |   | 5
+---------------------------------
+|   |   | . |(K)| . |   |   |   | 4
+---------------------------------
+|   |   | . | N | . |   |   |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ <p></p>
+ <p>
+ <h5>Task 4.2:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">bool</span> <span class="token function">isRoyal</span><span class="token punctuation">(</span><span class="token keyword">const</span> Piece<span class="token operator">*</span> piece<span class="token punctuation">)</span></code></pre>
+ The global function <code>isRoyal</code> returns true if the provided <code>piece</code> is a royal piece.
+ In international chess, <code>King</code> is the only royal piece. For this task, you need to implement this function in <b>userPiece.cpp</b>
+ to return true if the pointer <code>piece</code> is pointing to a <code>King</code> object, as this function will be
+ needed by <code>Board</code> to keep track of the royal pieces.
+ <p></p>
+ <p>
+ <em>Hint:</em> Refer to the lecture notes to review how to find the actual derived type a base class pointer is pointing to.
+ You may also look at <b>userBoard.h</b> for hints. Pay attention to the parameter being of type <code>const Piece*</code>.
+ </p>
+ <p>
+ <h5>Task 4.3: Pawn</h5>
+ The <code>Pawn</code> is actually the most complicated piece in chess. It has the following moveset:
+ <ul>
+ <li>Can move 1 square forward, but cannot capture.</li>
+ <li>Can capture the 2 adjacent forward diagonal squares, but cannot move there.</li>
+ <li>On first move, can move 2 squares forward if both of them are empty.</li>
+ </ul>
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   | . |   |   |   |   | 4
+---------------------------------
+|   |   |   | . |[p]|   |   |   | 3
+---------------------------------
+|   |   |   |(P)|   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ There are 2 other special moves, <em>en passant</em> and <em>promotion</em>, but they are implemented in <b>userBoard.h</b> for you.
+ You will need to implement the <code>Pawn</code> class in <b>userPiece.h</b> (and <b>userPiece.cpp</b> if needed) with the above 3 rules.
+ <p></p>
+ <p>
+ <em>Hint:</em> The first 2 movesets can be represented with a <code>Divergent</code> piece. Then, define class <code>Pawn</code>
+ that inherits this <code>Divergent</code> piece, and override the <code>getMoves</code> function to add the first-move square to the map
+ if it can be moved there. A <code>Pawn</code> has not moved if its rank is 2 (for White) or 7 (for Black).
+ </p>
+ <br>
+ <h4>Task 5: Board member functions</h4>
+ <p class=card-text>
+ In this part, you will implement the remaining <code>Board</code> functions in <b>boardToImplement.cpp</b>.
+ </p>
+ <p>
+ <h5>Task 5.1:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">void</span> <span class="token class-name">Board</span><span class="token operator">::</span><span class="token function">move</span><span class="token punctuation">(</span><span class="token keyword">const</span> Position<span class="token operator">&amp;</span> destPos<span class="token punctuation">)</span></code></pre>
+ Move <code>selectedPiece</code> to the specified destination position.
+ <ul>
+ <li>If <code>destPos</code> contains a piece, de-allocate it. This is a capturing move.</li>
+ <li>Modify <code>pieces</code> correspondingly to represent the piece being moved.</li>
+ <li>Update <code>selectedPiece</code>'s position.</li>
+ <li>Toggle <code>isWhiteTurn</code> (from <code>true</code> to <code>false</code> or vice versa).</li>
+ </ul>
+ <em>Note:</em> You don't need to use <code>moveMap</code> to check whether the piece can be moved there or not.
+ <p></p>
+ <p>
+ <h5>Task 5.2:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp>BooleanMap <span class="token class-name">Board</span><span class="token operator">::</span><span class="token function">getAttackingMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span></code></pre>
+ Return a <code>BooleanMap</code> representing which cells the current player can capture. For each position
+ <code>pos</code> (file <code>f</code>, rank <code>r</code>) where <code>piece(pos)</code> points to a <code>Piece</code> <em>of the current player</em>:
+ <ul>
+ <li>Call <code>Piece</code>'s <code>getMoves</code> to get the moveset of the piece.</li>
+ <li>Get the <code>BooleanMap</code> representing the opponent's pieces using <code>getOpponentMap</code> function.</li>
+ <li>Calculate a map representing which cells this piece can capture (see task 3.4).</li>
+ </ul>
+ Perform bitwise OR on all of the above capture maps to get the final map.
+ <br><br>
+ <em>Hint:</em> To loop through all pieces of the current player, write a double for-loop through all files and ranks,
+ and check which <code>piece</code> cells are not <code>nullptr</code>,
+ then use <code>isWhite</code> function to compare with <code>isWhiteTurn</code>.
+ <p></p>
+ <p>
+ <h5>Task 5.3:</h5>
+ <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">void</span> <span class="token class-name">Board</span><span class="token operator">::</span><span class="token function">validateMoveMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+ Modify <code>moveMap</code> such that none of the possible move positions cause the royal piece to be captured. As an example,
+ consider the following board where it is White's turn to move:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |   |   |   |   |   | 4
+---------------------------------
+|   | q |   |   | R |   | K |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ The white <code>Rook</code> on <code>e3</code> can move in a straight line. However, if it moves to a different rank, Black can capture the
+ white <code>King</code> on <code>g3</code> using the <code>Queen</code> on <code>b3</code>. Therefore, the movement of the <code>Rook</code>
+ needs to be restricted as follows:
+<pre class="shadow-sm rounded">---------------------------------
+|   |   |   |   |   |   |   |   | 8
+---------------------------------
+|   |   |   |   |   |   |   |   | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |   |   |   |   |   | 4
+---------------------------------
+|   |[q]| . | . |(R)| . | K |   | 3
+---------------------------------
+|   |   |   |   |   |   |   |   | 2
+---------------------------------
+|   |   |   |   |   |   |   |   | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+</pre>
+ <p></p>
+ <p>
+ For each position <code>pos</code> (file <code>f</code>, rank <code>r</code>) where <code>moveMap.cell(f, r)</code> is <code>true</code>:
+ <ul>
+ <li>Create a temporary <code>Board</code> using the copy constructor.</li>
+ <li>Call <code>move(pos)</code> using that <code>Board</code> to simulate the move. This function is called when <code>selectedPiece</code>
+ has been set, so the copied <code>Board</code> will also have the piece selected.
+ </li>
+ <li>Call <code>getAttackingMap</code> using the <code>Board</code> to get a <code>BooleanMap</code> representing which cells the opponent can capture.</li>
+ <li>Get the current player's royal piece using <code>royalPieces</code> and <code>isWhiteTurn</code>.</li>
+ <li>If the attacking map at the royal piece's position is <code>true</code>, set <code>moveMap.cell(f, r)</code> to <code>false</code>.</li>
+ </ul>
+ <p></p>
+ 
+ </div>
+ <div class="card-footer text-muted">
+ End of Tasks
+ </div>
+ </div>
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=compile>
+ <h3 class=card-title>Compile &amp; Test</h3>
+ <h4>main.cpp</h4>
+ <p>
+ If you have completed all 5 tasks, you can compile the main program by running <code>make</code>. You can run executable <b>PA2.exe</b>
+ to play a full game of chess with most of the rules implemented (other than <em>three-fold repetition</em>, <em>50-move rule</em>
+ and game-end condition). Each turn, the current player selects a piece by typing its position (e.g. <code>e2</code>), and type the position it moves
+ to (e.g. <code>e4</code>).
+ </p>
+ <p>
+ Example game:
+<pre>Board attributes: KQkq -
+Current turn: White
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p | p | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |   |   |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+| P | P | P | P | P | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B | N | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>e2</span>
+Selecting e2
+Board attributes: KQkq -
+Current turn: White
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p | p | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |   | . |   |   |   | 4
+---------------------------------
+|   |   |   |   | . |   |   |   | 3
+---------------------------------
+| P | P | P | P |(P)| P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B | N | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select the destination square: <span style=color:red>e4</span>
+Moving e2 to e4
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p | p | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |   |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B | N | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>e7</span>
+Selecting e7
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |(p)| p | p | p | 7
+---------------------------------
+|   |   |   |   | . |   |   |   | 6
+---------------------------------
+|   |   |   |   | . |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B | N | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select the destination square: <span style=color:red>e5</span>
+Moving e7 to e5
+Board attributes: KQkq -
+Current turn: White
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | p |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B | N | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>g1</span>
+Selecting g1
+Board attributes: KQkq -
+Current turn: White
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | p |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   | . |   | . | 3
+---------------------------------
+| P | P | P | P | . | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |(N)| R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h 
+Select the destination square: <span style=color:red>f3</span>
+Moving g1 to f3
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | p |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   | N |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |   | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>d8</span>
+Selecting d8
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r | n | b |(q)| k | b | n | r | 8
+---------------------------------
+| p | p | p | p | . | p | p | p | 7
+---------------------------------
+|   |   |   |   |   | . |   |   | 6
+---------------------------------
+|   |   |   |   | p |   | . |   | 5
+---------------------------------
+|   |   |   |   | P |   |   | . | 4
+---------------------------------
+|   |   |   |   |   | N |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |   | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select the destination square: <span style=color:red>d8</span>
+Unselecting d8
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r | n | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   |   |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | p |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   | N |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |   | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>b8</span>
+Selecting b8
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r |(n)| b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+| . |   | . |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | p |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   | N |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |   | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select the destination square: <span style=color:red>c6</span>
+Moving b8 to c6
+Board attributes: KQkq -
+Current turn: White
+---------------------------------
+| r |   | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   | n |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | p |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   | N |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |   | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>f3</span>
+Selecting f3
+Board attributes: KQkq -
+Current turn: White
+---------------------------------
+| r |   | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   | n |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   |[p]|   | . |   | 5
+---------------------------------
+|   |   |   | . | P |   |   | . | 4
+---------------------------------
+|   |   |   |   |   |(N)|   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B | . | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select the destination square: <span style=color:red>e5</span>  
+Moving f3 to e5
+Board attributes: KQkq -
+Current turn: Black
+---------------------------------
+| r |   | b | q | k | b | n | r | 8
+---------------------------------
+| p | p | p | p |   | p | p | p | 7
+---------------------------------
+|   |   | n |   |   |   |   |   | 6
+---------------------------------
+|   |   |   |   | N |   |   |   | 5
+---------------------------------
+|   |   |   |   | P |   |   |   | 4
+---------------------------------
+|   |   |   |   |   |   |   |   | 3
+---------------------------------
+| P | P | P | P |   | P | P | P | 2
+---------------------------------
+| R | N | B | Q | K | B |   | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h
+Select your piece to move: <span style=color:red>exit</span>
+</pre>
+ <p></p>
+ <p>
+ By default, the program loads up the starting position in international chess. You can also supply a string as an argument to the program
+ in the <a href=https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation>FEN format</a> to set a custom starting position.
+ Additionally, the program supports a variety of fairy pieces, which are defined in <b>supportedPieces.txt</b>. The characters representing these
+ pieces can be put into the FEN starting position to load them into the game, for example:
+ <pre>.\PA2.exe "rnbqkbnr/paeflmdp/1pppppp1/8/8/1PPPPPP1/PCHWGSZP/RNBQKBNR w KQkq - 0 1"</pre>
+ <p></p>
+ <br>
+ <h4>main_test.cpp</h4>
+ <p>
+ The above program is mainly for you to play around with different pieces after you have finished the assignment.
+ For checking your progress with completing the tasks, you can compile the testing program by running <code>make test</code>.
+ Similar to PA1, the program <b>PA2_test.exe</b> is generated. Run the program and type a number from 1 to 36 to run each test case,
+ and compare with the provided <b>output/output{}.txt</b> files corresponding to each test case number. These are the same
+ test cases used on ZINC.
+ </p>
+ <p>
+ After completing each task, uncomment the corresponding lines in <b>taskProgress.h</b> in order to enable the test cases.
+ This is provided so that <b>PA2_test.exe</b> can be compiled even if you have not finished the implementation of some tasks.
+ This file needs to be submitted to ZINC - <u>make sure you have uncommented all lines corresponding to tasks you have finished</u>.
+ </p>
+ <p>
+ You may also add your own personal test case in the <code>userTest</code> function, which is executed when the input to the test program is <code>0</code>.
+ </p>
+ </div>
+ <div class="card-footer text-muted">
+ End of Compile &amp; Test
+ </div>
+ </div>
+ 
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=download>
+ <h3 class=card-title>Resources &amp; Sample I/O</h3>
+ <ul>
+ <li>Skeleton code: <a href=https://course.cse.ust.hk/comp2012/assignments/assignment2/resources/skeleton.zip>skeleton.zip</a></li>
+ <li>Demo program (executable for Windows): <a href=https://course.cse.ust.hk/comp2012/assignments/assignment2/resources/PA2.exe>PA2.exe</a></li>
+ </ul>
+ </div>
+ <div class="card-footer text-muted">
+ End of Download
+ </div>
+ </div>
+ 
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=submission>
+ <h3 class=card-title>Submission and Deadline</h3> 
+ <p style=color:red>
+ Deadline: 23:59:00 on <b>April 17, 2024</b>.
+ </p>
+ <br>
+ <h4>ZINC Submission</h4>
+ <p>
+ Submit the following files to <a href=https://zinc.cse.ust.hk/>ZINC</a>. ZINC usage instructions can be found <a href=https://zinc.cse.ust.hk/guide>here</a>.
+<pre>- utility.cpp
+- pieceToImplement.h
+- userPiece.cpp
+- userPiece.h
+- boardToImplement.cpp
+- taskProgress.h
+</pre>
+ Notes:
+ <ul>
+ <li>You may submit your files multiple times, but only the latest version will be graded. <b>Please be minded that in this semester, you will have a limited number of submission attempts (150).</b></li>
+ <li>Submit early to avoid any last-minute problem. Only ZINC submissions will be accepted.</li>
+ <li>The ZINC server will be very busy in the last day especially in the last few hours, so you should expect you would get the grading result report not-very-quickly. However, as long as your submission is successful, we would grade your latest submission with all test cases after the deadline.</li>
+ <li>If you have encountered any server-side problem or webpage glitches with ZINC, you may post on the <a href=https://support.zinc.ust.dev/>ZINC support forum</a> to get attention and help from the ZINC team quickly and directly. If you post on Piazza, you may not get the fastest response as we need to forward your report to them, and then forward their reply to you, etc.
+ </li>
+ </ul>
+ <p></p>
+ <br>
+ <h4>Compilation Requirement</h4>
+ <p>It is <span style=font-weight:bold>required</span> that your submissions can be compiled and run successfully in our online autograder ZINC. If we cannot even compile your work, it won't be graded. Therefore, for parts that you cannot finish, just put in dummy implementation so that your whole program can be compiled for ZINC to grade the other parts that you have done. Empty implementations can be like:
+<pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">int</span> <span class="token class-name">SomeClass</span><span class="token operator">::</span><span class="token function">SomeFunctionICannotFinishRightNow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">void</span> <span class="token class-name">SomeClass</span><span class="token operator">::</span><span class="token function">SomeFunctionICannotFinishRightNowButIWantOtherPartsGraded</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token punctuation">}</span></code></pre>
+ For this assignment, we provided <b>taskProgress.h</b> for you to mark which tasks you have completed and would like to be graded.
+ <b style=color:red>Please make sure your code submitted to ZINC can be compiled successfully in the score report</b>.
+ <p></p>
+ <br>
+ <h4>Grading Scheme</h4>
+ <p>
+ The grading will be separated into test cases, which may test individual functions or the whole program flow. Therefore, try to finish as many tasks/functions as you can.
+ </p>
+ <p>
+ On ZINC, test case <b>#1XY</b> is the <code>-fsanitize</code> version of <b>#XY</b>. If your program has correct output but also has runtime errors including memory leak,
+ you will lose points for the <code>-fsanitize</code> test case versions.
+ </p>
+ <br>
+ <h4>Reminders</h4>
+ <p>
+ <span style=font-weight:bold>Make sure you actually upload the correct version of your source files - we only grade what you upload</span>. Some students in the past submitted an empty file or a wrong file or an exe file which is worth zero mark. So <span style=font-weight:bold>you must double-check the file you have submitted</span>.
+ </p>
+ <br>
+ <h4>Late Submission Policy</h4>
+ <p>
+ There will be a penalty of -1 point (out of a maximum 100 points) for every minute you are late. For instance, since the deadline of assignment 1 is 23:59:00 on Apr 17th, 
+ if you submit your solution at 1:00:00 on Apr 18th, there will be a penalty of -61 points for your assignment. However, the lowest grade you may get from an assignment is zero: any negative score after the deduction due to late penalty (and any other penalties) will be reset to zero.
+ </p>
+ </div>
+ <div class="card-footer text-muted">
+ End of Submission and Deadline
+ </div>
+ </div>
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=changelog>
+ <h3 class=card-title>Changelog</h3> 
+ <p><b>3:00 PM 28/03/2024:</b> Fixed a typo in the description of Leaper and added more information in Template inheritance.</p>
+ </div>
+ <div class="card-footer text-muted">
+ End of Changelog
+ </div> 
+ </div>
+ 
+ 
+ 
+ <div class="card mb-4"> 
+ <div class=card-body id=faq>
+ <h3 class=card-title>Frequently Asked Questions</h3> 
+ <h4>Frequently Asked Questions</h4>
+ <p><b>Q:</b> My code doesn't work / there is an error. Here is the code. Can you help me fix it?<br>
+ <b>A:</b> As the assignment is a major course assessment, to be fair, you are supposed to work on it on your own, and we should not finish the tasks for you. We might provide some very general hints, but we shall not fix the problem or debug it for you.</p>
+ 
+ <p><b>Q:</b> Can I change the function parameters (e.g. change pass-by-reference to pass-by-value)?<br>
+ <b>A:</b> You are <b>not</b> allowed to change the signature of any functions you need to implement, as there may be unexpected compilation errors.</p>
+ 
+ <p><b>Q:</b> Can I add extra helper / global functions?<br>
+ <b>A:</b> You may do so in the files that you are allowed to submit.</p>
+ 
+ <p><b>Q:</b> Can I include additional libraries?<br>
+ <b>A:</b> No, other than <b>&lt;iostream&gt;</b> for debugging purposes.</p>
+ 
+ <p><b>Q:</b> Can I use global or static variables such as <code>static int x</code>?<br>
+ <b>A:</b> No.</p>
+ 
+ <p><b>Q:</b> Can I use <code>auto</code>?<br>
+ <b>A:</b> No.</p> 
+ </div>
+ <div class="card-footer text-muted">
+ End of Frequently Asked Questions
+ </div> 
+ </div>
+ </div>
+ 
+ 
+ <div class=col-md-3>
+ <div class=sticky-top>
+ 
+ <div class="card my-12">
+ <h5 class=card-header>Menu</h5>
+ <div class=card-body>
+ <div class=row>
+ <div class=col-lg-12>
+ <ul class=mb-0 type=circle style=padding-left:20px>
+ <li>
+ <a href=#introduction>Introduction</a>
+ </li>
+ <li>
+ <a href=#overview>Overview</a>
+ </li>
+ <li>
+ <a href=#tasks>Tasks</a>
+ </li>
+ <li>
+ <a href=#compile>Compile &amp; Test</a>
+ </li>
+ <li>
+ <a href=#download>Resources &amp; Sample I/O</a>
+ </li>
+ <li>
+ <a href=#submission>Submission &amp; Deadline</a>
+ </li>
+ <li>
+ <a href=#changelog>Changelog</a>
+ </li>
+ <li>
+ <a href=#faq>Frequently Asked Questions</a>
+ </li>
+ </ul>
+ </div> 
+ </div>
+ </div>
+ </div>
+ 
+ 
+ <div class="card my-4">
+ <h5 class=card-header>Page maintained by</h5>
+ <div class=card-body>
+ <div class=row>
+ <div class=col-lg-12>
+ <ul class="list-unstyled mb-0">
+ <li>
+ DINH Anh Dung
+ </li>
+ <li>
+ Email: <a href=mailto:dzung@ust.hk>dzung@ust.hk</a>
+ </li>
+ <li>Last Modified: 03/28/2024 15:54:34</li>
+ </ul>
+ </div> 
+ </div>
+ </div>
+ </div>
+ 
+ 
+ 
+ <div class="card my-4">
+ <h5 class=card-header>Homepage</h5>
+ <div class=card-body>
+ <div class=row>
+ <div class=col-lg-12>
+ <ul class="list-unstyled mb-0">
+ <li>
+ <a href=http://course.cse.ust.hk/comp2012>Course Homepage</a>
+ </li>
+ </ul>
+ </div> 
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ </div>
+ 
+ 
+ 
+ <footer class="py-5 bg-dark">
+ <div class=container>
+ <p class="m-0 text-center text-white">Maintained by COMP 2012 Teaching Team © 2024 HKUST Computer Science and Engineering</p>
+ </div>
+ 
+ </footer>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
