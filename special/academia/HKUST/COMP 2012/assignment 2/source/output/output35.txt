@@ -1,0 +1,40 @@
+Selecting d2
+Moving d2 to d4
+Selecting d7
+Moving d7 to d5
+Selecting c1
+Moving c1 to f4
+Selecting g8
+Moving g8 to f6
+Selecting e2
+Moving e2 to e3
+Selecting c7
+Moving c7 to c5
+Selecting f4
+Moving f4 to b8
+Selecting a8
+Moving a8 to b8
+Selecting f1
+Moving f1 to b5
+Selecting c8
+Moving c8 to d7
+Board attributes: KQk -
+Current turn: White
+---------------------------------
+|   | r |   | q | k | b |   | r | 8
+---------------------------------
+| p | p |   | b | p | p | p | p | 7
+---------------------------------
+|   |   |   |   |   | n |   |   | 6
+---------------------------------
+|   | B | p | p |   |   |   |   | 5
+---------------------------------
+|   |   |   | P |   |   |   |   | 4
+---------------------------------
+|   |   |   |   | P |   |   |   | 3
+---------------------------------
+| P | P | P |   |   | P | P | P | 2
+---------------------------------
+| R | N |   | Q | K |   | N | R | 1
+---------------------------------
+  a   b   c   d   e   f   g   h 
