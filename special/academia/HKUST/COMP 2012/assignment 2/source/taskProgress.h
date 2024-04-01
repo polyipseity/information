@@ -1,15 +1,15 @@
 // Uncomment each of the following lines after you have completed the corresponding tasks
 // Tip: Use Ctrl/Cmd + / on VS Code
 
-// #define TASK1_UTILITY_COMPLETE
-// #define TASK2_BOARD_COMPLETE
-// #define TASK3_1_LEAPER_COMPLETE
-// #define TASK3_2_RIDER_COMPLETE
-// #define TASK3_3_COMPOUND_COMPLETE
-// #define TASK3_4_DIVERGENT_COMPLETE
-// #define TASK4_1_2_PIECES_COMPLETE
-// #define TASK4_3_PAWN_COMPLETE
-// #define TASK5_BOARD_FUNC_COMPLETE
+#define TASK1_UTILITY_COMPLETE
+#define TASK2_BOARD_COMPLETE
+#define TASK3_1_LEAPER_COMPLETE
+#define TASK3_2_RIDER_COMPLETE
+#define TASK3_3_COMPOUND_COMPLETE
+#define TASK3_4_DIVERGENT_COMPLETE
+#define TASK4_1_2_PIECES_COMPLETE
+#define TASK4_3_PAWN_COMPLETE
+#define TASK5_BOARD_FUNC_COMPLETE
 
 
 // Do not modify anything below this line
