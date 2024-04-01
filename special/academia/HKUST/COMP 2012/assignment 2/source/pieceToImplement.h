@@ -22,7 +22,9 @@ template <char N, int F, int R, int RANGE>
 class Rider : public NamedPiece<N>
 {
 public:
-  using NamedPiece::NamedPiece;
+  using NamedPiece<N>::NamedPiece;
+  using NamedPiece<N>::color;
+  using NamedPiece<N>::position;
 
   Rider *clone() const override
   {
@@ -52,7 +54,9 @@ template <char N, typename P1, typename P2>
 class Compound : public NamedPiece<N>
 {
 public:
-  using NamedPiece::NamedPiece;
+  using NamedPiece<N>::NamedPiece;
+  using NamedPiece<N>::color;
+  using NamedPiece<N>::position;
 
   Compound *clone() const override
   {
@@ -65,8 +69,8 @@ public:
     p1.setPosition(position);
     P2 p2{color};
     p2.setPosition(position);
-    BooleanMap ret{p1.getMoves(board.getTempBoard(new P1{color}, position))};
-    ret |= p2.getMoves(board.getTempBoard(new P2{color}, position));
+    BooleanMap ret{p1.getMoves(board.getTempBoard(new P1{p1}, position))};
+    ret |= p2.getMoves(board.getTempBoard(new P2{p2}, position));
     return ret;
   }
 };
@@ -78,7 +82,9 @@ template <char N, typename M, typename C>
 class Divergent : public NamedPiece<N>
 {
 public:
-  using NamedPiece::NamedPiece;
+  using NamedPiece<N>::NamedPiece;
+  using NamedPiece<N>::color;
+  using NamedPiece<N>::position;
 
   Divergent *clone() const override
   {
