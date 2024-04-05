@@ -22,7 +22,7 @@ tags:
 
 %%
 
-The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}}. The alkaline earth metals are {{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2024-04-02,155,190!2024-07-28,277,230-->
+The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}}. The alkaline earth metals are {{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2025-01-24,296,190!2024-07-28,277,230-->
 
 ## representative reactions
 
@@ -76,7 +76,7 @@ return await memorize_map(
 
 - no reaction with water or steam::[beryllium](beryllium.md) <!--SR:!2024-10-03,377,290-->
 - reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas::[magnesium](magnesium.md) <!--SR:!2024-05-16,270,270-->
-- reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2024-04-02,86,230-->
+- reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2024-05-15,42,210-->
 - unknown::[radium](radium.md) <!--SR:!2024-04-15,21,210-->
 
 <!--/pytextgen-->

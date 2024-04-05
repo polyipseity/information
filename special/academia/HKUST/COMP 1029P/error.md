@@ -19,7 +19,7 @@ Runtime errors occur when {{something error or unexpected}} happens. The program
 
 ## catching errors
 
-Sometimes, we can {{handle some errors using `try...except...else`}}. It consists of {{a statement block, and one or more error types (optional), error names (optional), error handler statement blocks, and a no-error statement block (optional)}}: <!--SR:!2024-04-17,58,310!2024-03-28,39,290-->
+Sometimes, we can {{handle some errors using `try...except...else`}}. It consists of {{a statement block, and one or more error types (optional), error names (optional), error handler statement blocks, and a no-error statement block (optional)}}: <!--SR:!2024-04-17,58,310!2024-07-27,114,290-->
 
 ```Python
 try:

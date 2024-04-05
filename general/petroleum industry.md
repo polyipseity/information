@@ -61,7 +61,7 @@ return await memorize_seq(
 - +: creates job opportunities→:::←+: generates income for the government <!--SR:!2025-02-06,440,294!2026-09-18,950,334-->
 - +: generates income for the government→:::←+: improves infrastructure <!--SR:!2024-06-22,117,274!2026-04-06,753,314-->
 - +: improves infrastructure→:::←-: emits gaseous pollutants <!--SR:!2024-07-10,119,290!2024-05-26,92,234-->
-- -: emits gaseous pollutants→:::←-: generates waste that may be harmful or toxic <!--SR:!2024-03-30,223,274!2024-11-27,257,294-->
+- -: emits gaseous pollutants→:::←-: generates waste that may be harmful or toxic <!--SR:!2025-12-01,610,274!2024-11-27,257,294-->
 - -: generates waste that may be harmful or toxic→:::←-: pollution control cost is high <!--SR:!2025-09-06,644,314!2025-02-12,370,254-->
 - -: pollution control cost is high→:::←-: safety control cost is high <!--SR:!2024-04-26,230,274!2026-09-14,946,334-->
 - -: safety control cost is high→:::←_(end)_ <!--SR:!2024-05-28,305,334!2025-11-23,646,314-->

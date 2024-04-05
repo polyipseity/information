@@ -21,7 +21,7 @@ tags:
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-01-27,422,230!2025-07-22,593,270-->
 - maximize window vertically:::⊞Win+⇧Shift+↑ <!--SR:!2025-01-05,429,250!2025-02-01,427,230-->
 - minimize all windows:::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2024-05-17,77,170!2025-01-27,479,270-->
-- toggle unfocused windows:::⊞Win+Home <!--SR:!2024-04-15,48,190!2024-04-02,7,130-->
+- toggle unfocused windows:::⊞Win+Home <!--SR:!2024-04-15,48,190!2024-04-11,7,130-->
 - toggle fullscreen:::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2024-11-04,401,250!2024-12-14,493,310-->
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-04-29,96,230!2025-07-27,666,290-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2025-02-13,335,210-->
@@ -32,4 +32,4 @@ tags:
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2024-12-30,409,230!2025-02-28,504,270-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2025-02-10,434,230!2024-12-06,270,210-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2024-12-08,301,250!2025-06-28,574,270-->
-- manage external displays:::⊞Win+P <!--SR:!2024-10-30,403,250!2024-04-04,208,250-->
+- manage external displays:::⊞Win+P <!--SR:!2024-10-30,403,250!2025-09-06,519,250-->

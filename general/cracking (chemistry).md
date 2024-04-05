@@ -54,7 +54,7 @@ return await memorize_table(
 
 - _(begin)_→:::←catalytic cracking <!--SR:!2024-05-28,331,330!2024-04-28,308,330-->
 - catalytic cracking→:::←thermal cracking <!--SR:!2026-08-27,893,330!2024-05-03,311,330-->
-- thermal cracking→:::←_(end)_ <!--SR:!2024-04-27,307,330!2024-04-01,287,330-->
+- thermal cracking→:::←_(end)_ <!--SR:!2024-04-27,307,330!2026-11-03,946,330-->
 
 <!--/pytextgen-->
 

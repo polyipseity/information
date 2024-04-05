@@ -44,7 +44,7 @@ Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md
 
 #### esterification
 
-In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md)}} in the presence of {{an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md)}} to give [esters](ester.md) with {{heating to speed up the reaction}}. The reaction is {{[reversible](reversible%20reaction.md)}}. <!--SR:!2025-08-17,602,309!2024-03-27,48,169!2024-07-26,134,313!2024-08-23,154,313!2024-04-12,70,333-->
+In {{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}}, carboxylic acids {{react with primary or secondary [alcohols](alcohol.md)}} in the presence of {{an [acid catalyst](acid%20catalyst) like concentrated [sulfuric acid](sulfuric%20acid.md)}} to give [esters](ester.md) with {{heating to speed up the reaction}}. The reaction is {{[reversible](reversible%20reaction.md)}}. <!--SR:!2025-08-17,602,309!2024-06-16,80,169!2024-07-26,134,313!2024-08-23,154,313!2024-04-12,70,333-->
 
 ### nucleophilic substitution
 
@@ -52,7 +52,7 @@ Similary to [alcohols](alcohol.md), carboxylic acids can {{react with [phosphoro
 
 ### reduction
 
-Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2024-04-05,46,189-->
+Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2024-06-30,86,189-->
 
 ### reactions
 

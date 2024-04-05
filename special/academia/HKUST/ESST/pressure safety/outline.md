@@ -32,7 +32,7 @@ The content is in teaching order.
   - [hazard types](#hazard%20types)
   - [hazard factors](#hazard%20factors)
 - [design safety](#design%20safety)
-- technical requirements ::: Boilers and Pressure Vessels Regulations 2002 (Cap. 56A) <!--SR:!2024-03-25,14,266!2024-04-10,38,303-->
+- technical requirements ::: Boilers and Pressure Vessels Regulations 2002 (Cap. 56A) <!--SR:!2024-04-10,6,246!2024-04-10,38,303-->
   - [boiler requirements](#boiler%20requirements)
   - [air or steam receiver requirements](#air%20or%20steam%20receiver%20requirements)
   - [pressurized fuel container requirements](#pressurized%20fuel%20container%20requirements)
@@ -59,7 +59,7 @@ The content is in teaching order.
     - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-03-23,17,223!2024-04-08,35,283-->
   - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::: Governs pressurized cylinders. <!--SR:!2024-04-11,36,283!2024-03-30,27,263-->
 - pressurized cylinder ::: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years. <!--SR:!2024-04-12,38,283!2024-04-02,32,270-->
-  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-04-01,24,246!2024-03-27,24,277-->
+  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-04-01,24,246!2024-07-05,92,297-->
 
 ## oversized data
 
@@ -178,7 +178,7 @@ thermal oil heater
 <!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T19:56:52.621799+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←electric heated boiler <!--SR:!2024-04-09,34,283!2024-04-28,53,306-->
-- electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-04-01,28,286-->
+- electric heated boiler→:::←electric steam boiler <!--SR:!2024-04-28,53,306!2024-06-25,82,286-->
 - electric steam boiler→:::←fire-tube boiler <!--SR:!2024-03-27,24,263!2024-03-30,8,206-->
 - fire-tube boiler→:::←fossil fuel boiler <!--SR:!2024-04-09,29,243!2024-04-06,24,246-->
 - fossil fuel boiler→:::←thermal oil heater <!--SR:!2024-03-29,7,206!2024-03-25,5,166-->
@@ -218,12 +218,12 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 <!--pytextgen generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-03-30,16,203!2024-04-21,48,306-->
+- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure <!--SR:!2024-05-03,29,203!2024-04-21,48,306-->
 - control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number <!--SR:!2024-03-28,14,246!2024-05-03,46,266-->
 - identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure <!--SR:!2024-05-20,68,324!2024-05-03,50,304-->
 - indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge <!--SR:!2024-05-05,45,263!2024-04-24,49,306-->
 - indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm <!--SR:!2024-03-26,8,170!2024-03-28,25,286-->
-- safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-05-13,63,326!2024-03-27,14,226-->
+- safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_ <!--SR:!2024-05-13,63,326!2024-05-04,30,226-->
 
 <!--/pytextgen-->
 
@@ -266,9 +266,9 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 - _(begin)_→:::←design: correct fittings and regulators <!--SR:!2024-04-14,34,246!2024-04-14,40,306-->
 - design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition <!--SR:!2024-04-23,36,246!2024-04-20,33,246-->
 - design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves <!--SR:!2024-03-26,15,206!2024-04-04,30,283-->
-- operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-04-03,31,286!2024-03-31,23,246-->
+- operator: close inactive valves→:::←operator: frequent examination for damages <!--SR:!2024-06-29,86,286!2024-04-17,13,226-->
 - operator: frequent examination for damages→:::←operator: keep upright <!--SR:!2024-04-09,37,306!2024-04-21,44,303-->
-- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-05-22,63,286!2024-03-23,20,266-->
+- operator: keep upright→:::←operator: mark empty cylinders <!--SR:!2024-05-22,63,286!2024-04-13,9,246-->
 - operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion <!--SR:!2024-04-18,43,303!2024-03-28,28,286-->
 - operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_ <!--SR:!2024-05-11,61,326!2024-03-30,16,226-->
 
@@ -308,11 +308,11 @@ protective devices that release contents do so safely
 
 <!--pytextgen generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-04-03,23,266!2024-04-22,47,303-->
+- _(begin)_→:::←examinable with safely accessible interior <!--SR:!2024-06-06,63,266!2024-04-22,47,303-->
 - examinable with safely accessible interior→:::←expected working life <!--SR:!2024-05-06,48,266!2024-03-29,22,263-->
 - expected working life→:::←fluid properties <!--SR:!2024-04-07,35,306!2024-04-18,31,246-->
 - fluid properties→:::←operating limits, like valve operating conditions <!--SR:!2024-03-26,4,166!2024-04-14,31,266-->
-- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-03-26,13,206!2024-04-03,26,246-->
+- operating limits, like valve operating conditions→:::←proper materials <!--SR:!2024-04-09,5,186!2024-04-03,26,246-->
 - proper materials→:::←protective devices that release contents do so safely <!--SR:!2024-04-21,30,286!2024-04-28,52,303-->
 - protective devices that release contents do so safely→:::←_(end)_ <!--SR:!2024-04-19,45,303!2024-04-07,27,226-->
 
@@ -402,7 +402,7 @@ worker knowledge and skills
 - _(begin)_→:::←control complexity <!--SR:!2024-03-26,20,266!2024-05-11,66,310-->
 - control complexity→:::←equipment age, condition, and suitability <!--SR:!2024-04-14,39,286!2024-03-25,25,286-->
 - equipment age, condition, and suitability→:::←fluid properties <!--SR:!2024-03-26,23,286!2024-03-24,19,226-->
-- fluid properties→:::←pressure <!--SR:!2024-03-27,8,246!2024-04-03,13,246-->
+- fluid properties→:::←pressure <!--SR:!2024-03-27,8,246!2024-05-05,31,246-->
 - pressure→:::←prevailing conditions <!--SR:!2024-03-29,25,286!2024-04-04,32,306-->
 - prevailing conditions→:::←worker knowledge and skills <!--SR:!2024-04-05,17,226!2024-04-01,13,226-->
 - worker knowledge and skills→:::←_(end)_ <!--SR:!2024-05-16,66,323!2024-04-10,36,283-->
@@ -445,7 +445,7 @@ suffocation
 - blast, explosion, flying debris, and shockwave→:::←chemical burn <!--SR:!2024-04-06,34,286!2024-04-06,34,306-->
 - chemical burn→:::←fire and thermal burn <!--SR:!2024-04-16,29,246!2024-03-26,23,263-->
 - fire and thermal burn→:::←poisoning <!--SR:!2024-03-24,9,246!2024-03-23,5,226-->
-- poisoning→:::←suffocation <!--SR:!2024-05-25,75,326!2024-03-31,27,286-->
+- poisoning→:::←suffocation <!--SR:!2024-05-25,75,326!2024-06-19,76,286-->
 - suffocation→:::←_(end)_ <!--SR:!2024-04-05,30,283!2024-04-19,45,303-->
 
 <!--/pytextgen-->
@@ -485,9 +485,9 @@ operator: segregate and indicate work area
 <!--pytextgen generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses <!--SR:!2024-04-08,28,246!2024-04-19,45,303-->
-- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-26,5,186!2024-04-01,24,246-->
+- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil <!--SR:!2024-03-26,5,186!2024-06-04,61,246-->
 - design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials <!--SR:!2024-03-30,10,246!2024-04-04,32,286-->
-- design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-03-24,21,246!2024-04-02,20,206-->
+- design: proper construction, design, and materials→:::←operator: frequent examination for damages <!--SR:!2024-05-22,48,246!2024-04-02,20,206-->
 - operator: frequent examination for damages→:::←operator: pressurize in stages <!--SR:!2024-03-28,10,186!2024-04-16,34,246-->
 - operator: pressurize in stages→:::←operator: segregate and indicate work area <!--SR:!2024-04-20,33,226!2024-05-11,52,266-->
 - operator: segregate and indicate work area→:::←_(end)_ <!--SR:!2024-05-18,68,326!2024-04-06,26,206-->
@@ -528,7 +528,7 @@ spraying paint container
 - air receiver→:::←fixed vessel for starting internal combustion engine <!--SR:!2024-04-13,38,286!2024-04-02,20,263-->
 - fixed vessel for starting internal combustion engine→:::←pressured fuel container <!--SR:!2024-03-27,16,263!2024-04-05,32,286-->
 - pressured fuel container→:::←spraying paint container <!--SR:!2024-05-13,63,326!2024-03-23,16,286-->
-- spraying paint container→:::←_(end)_ <!--SR:!2024-05-29,77,326!2024-03-29,23,263-->
+- spraying paint container→:::←_(end)_ <!--SR:!2024-05-29,77,326!2024-04-14,10,243-->
 
 <!--/pytextgen-->
 

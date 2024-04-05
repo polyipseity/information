@@ -20,7 +20,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allow
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$. <!--SR:!2024-06-04,132,310!2024-03-29,16,324-->
+> - [intuition](intuition.md) ::: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$. <!--SR:!2024-06-04,132,310!2024-05-21,51,324-->
 
 ## examples
 
@@ -92,7 +92,7 @@ f(a) & = \begin{cases} 0, & a = 0 \\
 
 > [!tip] tips
 >
-> - takeaway ::: No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered. <!--SR:!2024-04-03,62,324!2024-04-01,19,324-->
+> - takeaway ::: No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered. <!--SR:!2024-10-20,200,324!2024-06-01,61,324-->
 
 ### example 2: variable limits
 
@@ -169,7 +169,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 
 > [!tip] tips
 >
-> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-04-10,23,288!2024-03-29,16,324-->
+> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-04-10,23,288!2024-05-20,50,324-->
 
 ## applications
 
@@ -353,14 +353,14 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tips
 >
-> - takeaway ::: Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule. <!--SR:!2024-09-18,189,324!2024-04-01,19,324-->
+> - takeaway ::: Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule. <!--SR:!2024-09-18,189,324!2024-05-31,60,324-->
 
 #### other problems to solve
 
 - integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$ <!--SR:!2024-04-10,68,332-->
 - integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$ <!--SR:!2024-06-15,102,288-->
 - integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$ <!--SR:!2024-06-06,73,288-->
-- integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ <!--SR:!2024-04-02,36,319-->
+- integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ <!--SR:!2024-07-26,114,319-->
 - [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$ <!--SR:!2024-10-25,214,324-->
 
 > [!info]- proof for integral 1
@@ -586,7 +586,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tips
 >
-> - takeaway ::: The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md) with [limits](limit%20of%20a%20function.md). <!--SR:!2024-05-26,88,288!2024-04-01,19,324-->
+> - takeaway ::: The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md) with [limits](limit%20of%20a%20function.md). <!--SR:!2024-05-26,88,288!2024-06-23,83,344-->
 
 ## references
 

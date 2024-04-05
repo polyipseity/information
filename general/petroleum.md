@@ -89,15 +89,15 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d5f1"--><!-- The following content is generated at 2024-01-04T20:17:52.536836+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2024-03-27,276,330!2024-05-19,322,334-->
+- _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2026-09-26,912,330!2024-05-19,322,334-->
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
 - [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2024-10-26,413,294!2024-04-13,291,334-->
-- [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2024-03-29,235,274!2024-04-04,17,130-->
-- [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-04-03,26,130!2024-03-29,63,214-->
-- [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2025-01-24,437,274!2024-04-03,194,194-->
-- [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-04-04,40,214!2024-03-29,4,130-->
-- [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-04-01,89,254-->
-- [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2024-04-01,19,154-->
+- [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2026-01-03,643,274!2024-05-05,31,150-->
+- [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-05-06,33,130!2024-08-12,134,214-->
+- [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2025-01-24,437,274!2025-04-13,375,194-->
+- [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-06-27,84,214!2024-04-06,2,130-->
+- [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-11-12,225,254-->
+- [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2024-05-13,42,174-->
 - [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2024-10-28,432,314!2025-05-06,539,314-->
 - [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2027-05-09,1164,350!2024-04-15,295,334-->
 
@@ -112,9 +112,9 @@ return _chain.from_iterable(await _gather(
 - [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-04-06,26,170-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-04-08,81,210-->
 - [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-04-11,20,150-->
-- [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-04-05,11,130-->
-- [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-03-27,64,170-->
-- [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-03-28,15,130-->
+- [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-04-18,13,130-->
+- [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-04-29,32,150-->
+- [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-04-17,20,130-->
 - [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-05-06,54,194-->
 - [bitumen](bitumen.md)::500 °C or above <!--SR:!2024-04-21,110,294-->
 

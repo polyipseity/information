@@ -31,8 +31,8 @@ See also [Vim help files](https://vimhelp.org/).
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2027-07-12,1243,348!2026-08-08,904,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2024-04-24,115,253!2024-07-12,353,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-05-20,125,293!2024-04-25,350,333-->
-- beginning of line:::0 <!--SR:!2024-04-03,330,330!2024-04-24,349,333-->
-- end of line:::$ <!--SR:!2024-04-01,329,333!2024-04-22,348,333-->
+- beginning of line:::0 <!--SR:!2028-05-15,1501,350!2024-04-24,349,333-->
+- end of line:::$ <!--SR:!2028-05-19,1509,353!2024-04-22,348,333-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2024-08-29,386,290!2026-04-17,810,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2027-02-14,1061,333!2024-05-15,124,293-->
 - matching character:::% <!--SR:!2024-10-24,457,293!2025-06-07,631,313-->
@@ -42,16 +42,16 @@ See also [Vim help files](https://vimhelp.org/).
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2025-07-20,625,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2025-09-14,709,313-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2024-05-27,379,348-->
-- write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2024-03-27,325,333!2024-06-11,393,348-->
+- write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2024-06-11,393,348-->
 
 ## insert
 
-- quit insert mode:::\<Esc\> <!--SR:!2024-04-20,347,333!2024-03-31,328,333-->
+- quit insert mode:::\<Esc\> <!--SR:!2024-04-20,347,333!2028-05-13,1504,353-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2025-10-10,727,313!2026-08-22,914,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2026-01-03,792,328-->
 - insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2025-10-05,640,273!2024-04-21,348,333-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2025-07-01,648,313-->
-- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2024-03-27,281,273!2024-04-20,300,293-->
+- insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2026-05-03,766,273!2024-04-20,300,293-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2025-10-09,727,313!2025-08-22,692,313-->
 
 ## replace
@@ -98,7 +98,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2024-08-16,366,293!2026-08-15,908,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2026-11-05,1038,333!2025-05-10,497,268-->
-- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2024-04-02,237,273!2024-05-12,364,333-->
+- unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2026-01-11,646,273!2024-05-12,364,333-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2024-08-02,151,313!2025-08-25,695,313-->
 
 ### list of options

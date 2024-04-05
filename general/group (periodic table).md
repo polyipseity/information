@@ -50,14 +50,14 @@ return await memorize_table(
 > | {{[group 1](#^group-1)/IA/IA}} | {{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}} <a id="^group-1"></a>^group-1 |
 > | {{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}} | {{[alkaline earth metals](alkaline%20earth%20metal.md)}} |
 > | {{[group 17](halogen.md)/VIIB/VIIA}} | {{[halogens](halogen.md)}} |
-> | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} | <!--SR:!2024-04-13,293,330!2026-06-02,870,330!2024-04-14,294,330!2026-09-05,900,330!2024-06-02,117,310!2024-04-01,281,330!2024-05-04,307,330!2027-06-17,1196,350-->
+> | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} | <!--SR:!2024-04-13,293,330!2026-06-02,870,330!2024-04-14,294,330!2026-09-05,900,330!2024-06-02,117,310!2026-10-14,926,330!2024-05-04,307,330!2027-06-17,1196,350-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="92de"--><!-- The following content is generated at 2024-01-04T20:17:51.853130+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[group 1](#^group-1)/IA/IA <!--SR:!2024-04-29,302,330!2024-06-13,342,330-->
-- [group 1](#^group-1)/IA/IA→:::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA <!--SR:!2026-03-12,771,330!2024-04-02,282,330-->
+- [group 1](#^group-1)/IA/IA→:::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA <!--SR:!2026-03-12,771,330!2027-10-05,1280,350-->
 - [group 2](alkaline%20earth%20metal.md)/IIA/IIA→:::←[group 17](halogen.md)/VIIB/VIIA <!--SR:!2024-04-28,252,270!2026-07-10,857,330-->
 - [group 17](halogen.md)/VIIB/VIIA→:::←[group 18](noble%20gas.md)/0/VIIIA <!--SR:!2025-08-26,604,310!2024-04-22,300,330-->
 - [group 18](noble%20gas.md)/0/VIIIA→:::←_(end)_ <!--SR:!2024-06-12,341,330!2024-04-21,299,330-->
