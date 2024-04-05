@@ -16,21 +16,15 @@ Board::Board(const Board& board)
         {
             Piece *&cur_piece{piece(static_cast<_FILE>(file), static_cast<_RANK>(rank))};
             if (cur_piece)
-            {
                 cur_piece = cur_piece->clone();
-            }
         }
     }
     if (selectedPiece)
-    {
         selectedPiece = piece(selectedPiece->getPosition());
-    }
     for (Piece *&cur_piece : royalPieces)
     {
         if (cur_piece)
-        {
             cur_piece = piece(cur_piece->getPosition());   
-        }
     }
 }
 
@@ -43,9 +37,7 @@ Board::~Board()
     for (int file{}; file < NUM_FILES; ++file)
     {
         for (int rank{}; rank < NUM_RANKS; ++rank)
-        {
             delete piece(static_cast<_FILE>(file), static_cast<_RANK>(rank));
-        }
     }
 }
 
@@ -90,13 +82,10 @@ BooleanMap Board::getAttackingMap() const
         {
             Piece const *const cur_piece{piece(static_cast<_FILE>(file), static_cast<_RANK>(rank))};
             if (cur_piece && cur_piece->isWhite() == isWhiteTurn)
-            {
-                BooleanMap moves{cur_piece->getMoves(*this)};
-                moves &= getOpponentMap(isWhiteTurn);
-                ret |= moves;
-            }
+                ret |= cur_piece->getMoves(*this);
         }
     }
+    ret &= getOpponentMap(isWhiteTurn);
     return ret;
 }
 
@@ -118,9 +107,7 @@ void Board::validateMoveMap()
                 BooleanMap attacking{temp.getAttackingMap()};
                 Piece const *const &royal{temp.royalPieces[isWhiteTurn ? Color::WHITE : Color::BLACK]};
                 if (royal && attacking.cell(royal->getPosition()))
-                {
                     moveMap.cell(pos) = false;
-                }
             }
         }
     }
