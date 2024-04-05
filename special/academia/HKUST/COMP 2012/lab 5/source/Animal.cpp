@@ -5,19 +5,22 @@ using namespace std;
 
 
 
-Animal::Animal() {
+Animal::Animal(string const &name, int age, double foodPerDay, FoodType foodType)
+    : name{name}, age{age}, foodPerDay{foodPerDay}, foodType{foodType} {
     // Todo 1: Implement the Animal constructor
 }
 
 
 
-Carnivore::Carnivore() {
+Carnivore::Carnivore(string const &name, int age, double foodPerDay, int teethCount)
+    : Animal{name, age, foodPerDay, FoodType::Meat}, teethCount{teethCount} {
     // Todo 2.1: Implement the Carnivore constructor
 }
 
 
 
-Herbivore::Herbivore() {
+Herbivore::Herbivore(string const &name, int age, double foodPerDay, string const &favoritePlant, string const &habitatPreference)
+    : Animal{name, age, foodPerDay, FoodType::Vegetable}, favoritePlant{favoritePlant}, habitatPreference{habitatPreference} {
     // Todo 2.2: Implement the Herbivore constructor
 }
 
