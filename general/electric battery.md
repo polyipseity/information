@@ -134,7 +134,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="98ab"--><!-- The following content is generated at 2024-03-06T23:33:30.624136+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::[Zn](zinc.md) <!--SR:!2024-04-04,16,303-->
+- [alkaline](alkaline%20battery.md)::[Zn](zinc.md) <!--SR:!2024-05-21,47,303-->
 - [silver oxide](silver%20oxide%20battery.md)::[Zn](zinc.md) <!--SR:!2024-05-08,44,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md) <!--SR:!2024-05-12,47,323-->
 
@@ -154,9 +154,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="9583"--><!-- The following content is generated at 2024-03-06T23:33:30.525732+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-03-30,18,343-->
-- [silver oxide](silver%20oxide%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-03-31,19,343-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md) <!--SR:!2024-03-31,19,343-->
+- [alkaline](alkaline%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-06-25,86,363-->
+- [silver oxide](silver%20oxide%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-06-27,88,363-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md) <!--SR:!2024-06-26,87,363-->
 
 <!--/pytextgen-->
 
@@ -164,9 +164,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8104"--><!-- The following content is generated at 2024-03-08T13:15:49.071658+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-04-01,6,303-->
+- [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-04-18,17,303-->
 - [silver oxide](silver%20oxide%20battery.md)::1.5 V, 1.6 V <!--SR:!2024-04-07,17,303-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2024-03-28,14,303-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2024-05-08,41,303-->
 
 <!--/pytextgen-->
 
@@ -175,16 +175,16 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="bba9"--><!-- The following content is generated at 2024-03-06T23:36:40.572889+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md)::high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2024-04-10,23,303-->
-- [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range <!--SR:!2024-03-28,15,323-->
+- [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range <!--SR:!2024-05-19,52,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2024-05-12,47,323-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="209f"--><!-- The following content is generated at 2024-03-06T23:36:40.557902+08:00. Any edits will be overridden! -->
 
-- high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive::[alkaline](alkaline%20battery.md) <!--SR:!2024-03-30,18,343-->
-- expensive, lightweight, small, wide operating temperature range::[silver oxide](silver%20oxide%20battery.md) <!--SR:!2024-03-28,16,343-->
-- cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md)::[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2024-03-31,19,343-->
+- high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive::[alkaline](alkaline%20battery.md) <!--SR:!2024-05-30,60,343-->
+- expensive, lightweight, small, wide operating temperature range::[silver oxide](silver%20oxide%20battery.md) <!--SR:!2024-05-21,54,343-->
+- cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md)::[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2024-07-03,94,363-->
 
 <!--/pytextgen-->
 
@@ -192,9 +192,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="983e"--><!-- The following content is generated at 2024-03-06T23:33:30.602829+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::Usually cylindrical. Suitable for high-drain or continuous-use devices. <!--SR:!2024-03-30,18,343-->
-- [silver oxide](silver%20oxide%20battery.md)::Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. <!--SR:!2024-03-31,18,343-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::Usually cylindrical. Suitable for low-drain or intermittent-use devices. <!--SR:!2024-04-02,20,343-->
+- [alkaline](alkaline%20battery.md)::Usually cylindrical. Suitable for high-drain or continuous-use devices. <!--SR:!2024-06-24,85,363-->
+- [silver oxide](silver%20oxide%20battery.md)::Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. <!--SR:!2024-06-21,82,363-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::Usually cylindrical. Suitable for low-drain or intermittent-use devices. <!--SR:!2024-06-10,68,343-->
 
 <!--/pytextgen-->
 
@@ -223,8 +223,8 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="7801"--><!-- The following content is generated at 2024-03-06T23:33:30.574761+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2024-03-27,6,243-->
-- [lead–acid](lead–acid%20battery.md)::[Pb](lead.md) <!--SR:!2024-03-30,12,283-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2024-04-11,14,243-->
+- [lead–acid](lead–acid%20battery.md)::[Pb](lead.md) <!--SR:!2024-05-03,33,283-->
 - [lithium-ion](lithium-ion%20battery.md)::[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md)) <!--SR:!2024-04-23,29,283-->
 
 <!--/pytextgen-->
@@ -233,9 +233,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="38ab"--><!-- The following content is generated at 2024-03-06T23:33:30.754640+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md) <!--SR:!2024-03-31,13,283-->
-- [lead–acid](lead–acid%20battery.md)::[PbO<sub>2</sub>](lead%20dioxide.md) <!--SR:!2024-04-05,16,303-->
-- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) metal [oxide](oxide.md) <!--SR:!2024-04-03,9,283-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md) <!--SR:!2024-05-06,36,283-->
+- [lead–acid](lead–acid%20battery.md)::[PbO<sub>2</sub>](lead%20dioxide.md) <!--SR:!2024-05-22,47,303-->
+- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) metal [oxide](oxide.md) <!--SR:!2024-04-28,25,283-->
 
 <!--/pytextgen-->
 
@@ -254,7 +254,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="018e"--><!-- The following content is generated at 2024-03-08T13:15:49.087660+08:00. Any edits will be overridden! -->
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-04-07,12,263-->
-- [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2024-04-01,19,343-->
+- [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2024-07-01,91,363-->
 - [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-04-26,31,303-->
 
 <!--/pytextgen-->
@@ -271,9 +271,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="99ab"--><!-- The following content is generated at 2024-03-06T23:36:40.619769+08:00. Any edits will be overridden! -->
 
-- expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times::[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2024-03-31,19,343-->
-- cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times::[lead–acid](lead–acid%20battery.md) <!--SR:!2024-03-30,18,343-->
-- aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)::[lithium-ion](lithium-ion%20battery.md) <!--SR:!2024-03-30,17,343-->
+- expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times::[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2024-06-07,68,343-->
+- cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times::[lead–acid](lead–acid%20battery.md) <!--SR:!2024-06-26,87,363-->
+- aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)::[lithium-ion](lithium-ion%20battery.md) <!--SR:!2024-05-27,57,343-->
 
 <!--/pytextgen-->
 
@@ -281,9 +281,9 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8c52"--><!-- The following content is generated at 2024-03-06T23:33:30.718238+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::Usually cylindrical. Suitable for high-drain devices. <!--SR:!2024-03-28,15,323-->
-- [lead–acid](lead–acid%20battery.md)::Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md). <!--SR:!2024-03-30,18,343-->
-- [lithium-ion](lithium-ion%20battery.md)::Usually cylindrical or prismatic. Suitable for portable devices. <!--SR:!2024-03-31,19,343-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::Usually cylindrical. Suitable for high-drain devices. <!--SR:!2024-05-14,47,323-->
+- [lead–acid](lead–acid%20battery.md)::Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md). <!--SR:!2024-05-31,61,343-->
+- [lithium-ion](lithium-ion%20battery.md)::Usually cylindrical or prismatic. Suitable for portable devices. <!--SR:!2024-06-28,89,363-->
 
 <!--/pytextgen-->
 

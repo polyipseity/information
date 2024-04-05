@@ -20,8 +20,8 @@ When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deriv
 ### select properties
 
 - functional [power rule](power%20rule.md) ::: $$\frac {(x^y)'} {x^y} = y \frac {x'} x + y' \ln x \qquad x > 0$$ <!--SR:!2024-05-15,61,230!2024-04-10,55,310-->
-- [power rule](power%20rule.md) ::: $$\frac {(u^k)'} {u^k} = k \frac {u'} u \qquad u > 0, k = \mathrm{const} $$ <!--SR:!2024-04-04,50,310!2024-04-16,60,310-->
-- [product rule](product%20rule.md) ::: $$\frac {(\prod _{i = 1} ^n x_i)'} {\prod _{i = 1} ^n x_i} = \sum _{i = 1} ^n \frac {x_i'} {x_i}$$ <!--SR:!2024-04-14,58,310!2024-04-02,48,310-->
+- [power rule](power%20rule.md) ::: $$\frac {(u^k)'} {u^k} = k \frac {u'} u \qquad u > 0, k = \mathrm{const} $$ <!--SR:!2024-09-05,154,310!2024-04-16,60,310-->
+- [product rule](product%20rule.md) ::: $$\frac {(\prod _{i = 1} ^n x_i)'} {\prod _{i = 1} ^n x_i} = \sum _{i = 1} ^n \frac {x_i'} {x_i}$$ <!--SR:!2024-04-14,58,310!2024-10-25,205,330-->
 - [quotient rule](quotient%20rule.md) ::: $$\frac {(u / v)'} {u / v} = \frac {u'} u - \frac {v'} v$$ <!--SR:!2024-04-30,72,310!2024-04-19,62,310-->
 - [reciprocal rule](reciprocal%20rule.md) ::: $$\frac {(1 / f)'} {1 / f} = -\frac {f'} f$$ <!--SR:!2024-04-08,53,310!2024-04-15,60,310-->
 
@@ -29,7 +29,7 @@ When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deriv
 >
 > Define $\operatorname{Logder}(f)$ to be the logarithmic derivative of $f$.
 >
-> - $f := (7xy)^5, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 5 \frac {x'} x + 5 \frac {y'} y$ <!--SR:!2024-04-03,49,310-->
+> - $f := (7xy)^5, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 5 \frac {x'} x + 5 \frac {y'} y$ <!--SR:!2024-10-29,209,330-->
 > - $f := -2.692u, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder} = \frac {u'} u$ <!--SR:!2024-04-06,52,310-->
 > - $f := -\frac {(78.38uvw)^{8.39}} {(59.2xy)^{9682} z^{-386}}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 8.39 \frac {u'} u + 8.39 \frac {v'} v + 8.39 \frac {w'} w - 9682 \frac {x'} x - 9682 \frac {y'} y + 386 \frac {z'} z$ <!--SR:!2024-07-03,106,290-->
 > - $f := 4 x^{2y}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 2y \frac {x'} x + 2y y' \ln 4x \qquad x > 0$ <!--SR:!2024-05-05,68,270-->

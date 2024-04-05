@@ -27,7 +27,7 @@ Then, like how you calculate the length, area, or volume of the above familiar o
 
 $$m(R) := (b_1 - a_1) (b_2 - a_2) \cdots (b_n - a_n)$$
 
-A _simple set_, or _polyrectangle_, is then {{finite [unions](union%20(set%20theory).md) of rectangles}}: <!--SR:!2024-04-04,46,290-->
+A _simple set_, or _polyrectangle_, is then {{finite [unions](union%20(set%20theory).md) of rectangles}}: <!--SR:!2024-08-14,132,290-->
 
 $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 
@@ -37,7 +37,7 @@ However, the Jordan measure of a simple set cannot be defined as {{the sum of me
 >
 > {{finite union of 2D rectangles}} <!--SR:!2024-04-09,50,310!2024-05-24,74,343-->
 
-The above can be fixed by {{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}}. Then the Jordan measure of a simple set can be defined as {{the sum of measures of disjoint rectangles}}. <!--SR:!2024-04-04,43,290!2024-04-13,53,310!2024-04-09,50,310-->
+The above can be fixed by {{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}}. Then the Jordan measure of a simple set can be defined as {{the sum of measures of disjoint rectangles}}. <!--SR:!2024-09-25,174,310!2024-04-13,53,310!2024-04-09,50,310-->
 
 > {{![rewritten union of disjoint rectangles](../archives/Wikimedia%20Commons/Simple%20set2.png)}}
 >
@@ -49,7 +49,7 @@ One can show the above definition of Jordan measure for simple set is {{independ
 
 Using the above definition with half-open rectangles, {{notice that a closed rectangle is not a simple set, and neither is a $n$-dimensional ball}}. This shows {{the set of Jordan measurable sets, as currently defined, is very limited}}. <!--SR:!2024-08-10,138,310!2024-05-01,68,310-->
 
-We can extend the above restricted definition by defining {{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}}. <!--SR:!2024-04-03,45,290-->
+We can extend the above restricted definition by defining {{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}}. <!--SR:!2024-09-30,180,310-->
 
 Formally, {{for a bounded set $B$, define its _inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$ and _outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}}: <!--SR:!2024-06-18,97,290-->
 

@@ -42,7 +42,7 @@ int sscanf_s(char const *restrict buffer, char const *restrict format, ...); // 
 > [!tip] tips
 >
 > - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2024-04-23,172,310!2024-05-17,196,310-->
-> - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2024-12-10,295,353!2024-03-31,16,319-->
+> - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2024-12-10,295,353!2024-06-10,70,339-->
 
 ## parameters
 
@@ -53,4 +53,4 @@ See [`scanf` § placeholder](../../../general/scanf.md#placeholder).
 ## return value
 
 - 1-3) {{Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument.}}
-- 4-6) {{Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation.}} <!--SR:!2024-03-28,146,290!2024-05-15,194,310-->
+- 4-6) {{Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation.}} <!--SR:!2025-05-24,422,290!2024-05-15,194,310-->

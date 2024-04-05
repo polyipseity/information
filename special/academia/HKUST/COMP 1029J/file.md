@@ -31,9 +31,9 @@ One can read from or write to a text file using {{`java.io.BufferedReader` or `j
 
 ### reading text files
 
-Use {{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by passing `java.nio.charset.Charset.defaultCharset()`}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-03-24,36,290!2024-04-21,62,310!2024-04-24,64,310-->
+Use {{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by passing `java.nio.charset.Charset.defaultCharset()`}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-08-25,144,310!2024-04-21,62,310!2024-04-24,64,310-->
 
-To read a line, use {{`reader.readLine()`, which returns `null` when the end of file has reached}}. An example: <!--SR:!2024-03-27,27,290-->
+To read a line, use {{`reader.readLine()`, which returns `null` when the end of file has reached}}. An example: <!--SR:!2024-07-20,108,310-->
 
 ```Java
 String line;
@@ -46,7 +46,7 @@ When done with reading, {{close the reader to avoid locking the file by calling 
 
 ### writing text files
 
-Use {{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by calling `java.nio.charset.Charset.defaultCharset()`}}. For `options`, if you leave it blank, {{`StandardOpenOption.WRITE` is used. It creates the file if not exist and empties the content. If appending to an existing file, use `StandardOpenOption.APPEND` instead}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-04-14,55,310!2024-03-31,42,290!2024-03-26,41,290!2024-04-23,62,310-->
+Use {{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by calling `java.nio.charset.Charset.defaultCharset()`}}. For `options`, if you leave it blank, {{`StandardOpenOption.WRITE` is used. It creates the file if not exist and empties the content. If appending to an existing file, use `StandardOpenOption.APPEND` instead}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-04-14,55,310!2024-09-18,168,310!2024-07-30,118,290!2024-04-23,62,310-->
 
 To write something, use {{`writer.write(string)`}}. To write a newline, use {{`writer.newLine()`}}. An example: <!--SR:!2024-04-17,59,310!2024-04-27,67,310-->
 

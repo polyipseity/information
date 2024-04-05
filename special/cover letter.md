@@ -57,12 +57,12 @@ return await memorize_seq(
 
 ## format
 
-- cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-03-31,16,318!2024-04-02,18,318-->
+- cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-05-22,51,318!2024-06-25,81,338-->
 my CV and cover letter for your consideration.; (signature) <!--SR:!2024-04-18,124,290-->
-- date format ::: 1<sup>st</sup> January, 1970 <!--SR:!2024-11-17,308,330!2024-04-03,19,318-->
-- formatting ::: minimal <!--SR:!2024-04-06,115,290!2024-04-01,17,318-->
-- recipient ::: Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam <!--SR:!2024-07-02,182,310!2024-03-30,15,318-->
-- signature ::: Yours sincerely/faithfully,; signature; name <!--SR:!2024-04-02,18,318!2024-04-01,17,318-->
+- date format ::: 1<sup>st</sup> January, 1970 <!--SR:!2024-11-17,308,330!2024-06-06,62,318-->
+- formatting ::: minimal <!--SR:!2024-04-06,115,290!2024-06-14,74,338-->
+- recipient ::: Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam <!--SR:!2024-07-02,182,310!2024-05-19,48,318-->
+- signature ::: Yours sincerely/faithfully,; signature; name <!--SR:!2024-06-03,59,318!2024-05-23,52,318-->
 
 ## content
 
@@ -98,7 +98,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-10-16,212,250!2024-11-12,304,330-->
 - your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-11-10,244,290-->
-- why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-06-05,119,230!2024-04-02,69,270-->
+- why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-06-05,119,230!2024-10-07,185,270-->
 - why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-09-20,197,250!2024-10-06,223,270-->
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-04-15,70,230-->
 - from or signature→:::←_(end)_ <!--SR:!2024-09-20,261,330!2024-05-07,50,270-->

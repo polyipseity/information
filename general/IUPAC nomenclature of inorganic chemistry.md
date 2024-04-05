@@ -58,7 +58,7 @@ return await memorize_seq(
 - [Compounds](chemical%20compound.md) with [cations](ion.md) are named by joining the name of cation and [anion](ion.md).→:::←[Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge. <!--SR:!2025-09-30,629,277!2024-06-17,115,297-->
 - [Cations](ion.md) capable of taking multiple [charges](electric%20charge.md) are labelled with [Roman numerals](Roman%20numerals.md) in parentheses to indicate their charge.→:::←[Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used. <!--SR:!2025-04-05,451,257!2024-06-27,279,257-->
 - [Oxyanions](oxyanion.md) are named in the form of _\*-ate_ (group number), _\*-ite_ (group number - 2), or _hypo-\*-ite_ (group number - 4). If the central atom is in [group 17](halogen.md) or [group 18](noble%20gas.md), _per-\*-ate_ (group number; subtract an additional -2 from others) is also used.→:::←"[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate". <!--SR:!2024-05-22,325,337!2024-08-06,201,277-->
-- "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_ <!--SR:!2024-05-21,324,337!2024-03-29,94,297-->
+- "[Hydrogencarbonate](bicarbonate.md)" superseds "bicarbonate".→:::←_(end)_ <!--SR:!2024-05-21,324,337!2025-01-03,278,297-->
 
 <!--/pytextgen-->
 

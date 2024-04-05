@@ -74,7 +74,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`Boolean` <!--SR:!2024-05-08,75,325!2024-04-19,60,310-->
 - `Boolean`→:::←`Double` <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
 - `Double`→:::←`Integer` <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
-- `Integer`→:::←`Long` <!--SR:!2024-04-02,43,290!2024-05-05,72,325-->
+- `Integer`→:::←`Long` <!--SR:!2024-08-06,124,290!2024-05-05,72,325-->
 - `Long`→:::←`Single` <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
 - `Single`→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
 
@@ -108,7 +108,7 @@ ALong = 2.5 ' `ALong` is rounded to 2 as VBA uses banker's rounding
 
 ## output
 
-To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-05-06,73,325!2024-03-31,44,305!2024-04-24,63,310-->
+To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-05-06,73,325!2024-08-16,134,305!2024-04-24,63,310-->
 
 There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}}. <!--SR:!2024-04-27,54,265-->
 

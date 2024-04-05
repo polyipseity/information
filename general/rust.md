@@ -76,7 +76,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2024-05-12,315,330!2024-04-06,286,330-->
 - [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2024-08-18,375,310!2024-07-21,261,310-->
-- [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-07-24,131,310!2024-04-04,282,330-->
+- [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-07-24,131,310!2026-10-21,930,330-->
 - [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-04-20,104,290!2024-06-15,114,290-->
 - [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2024-04-20,293,330!2024-05-17,315,330-->
 
@@ -92,7 +92,7 @@ Stainless steel {{forms a [passivation](passivation%20(chemistry).md) layer of [
 
 Coating and painting {{isolate iron from the environment}}. <!--SR:!2027-03-03,1109,350-->
 
-[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2025-08-05,532,250!2025-06-03,556,310!2024-04-05,285,330!2024-06-07,272,250!2025-04-27,529,310!2025-05-26,501,270-->
+[Paint](paint.md) can be used for {{small structures and vehicle bodies}}. It is {{cheap but easy to scratch off}}. [Plastic](plastic.md) can be used for {{small objects}}. It is {{good-looking and long-lasting but relatively more expensive}}. [Oil](oil.md) or [grease](grease.md) can be used for {{machines and tools}}. They are {{sticky and can lubricate the moving parts}}. <!--SR:!2025-08-05,532,250!2025-06-03,556,310!2027-10-21,1294,350!2024-06-07,272,250!2025-04-27,529,310!2025-05-26,501,270-->
 
 ### electroplating
 

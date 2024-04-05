@@ -64,7 +64,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 
 <!--pytextgen generate section="4956"--><!-- The following content is generated at 2024-01-04T20:17:51.755623+08:00. Any edits will be overridden! -->
 
-- _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→:::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2024-03-31,6,150!2025-11-23,655,330-->
+- _([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_→:::←[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$ <!--SR:!2024-04-10,10,150!2025-11-23,655,330-->
 - [steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$→:::←[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$ <!--SR:!2024-05-30,72,210!2025-05-22,454,250-->
 - [water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$→:::←_([natural gas](natural%20gas.md) to [hydrogen](hydrogen.md))_ <!--SR:!2024-07-08,336,330!2024-07-03,217,210-->
 
@@ -83,7 +83,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#cadaeb" title="#CADAEB">&#xFEFF;</span></span> washing tower
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#f2c500" title="#F2C500">&#xFEFF;</span></span> ammonia reactor
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#4d94e1" title="#4D94E1">&#xFEFF;</span></span> heat exchanger
-> - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#fffc51" title="#FFFC51">&#xFEFF;</span></span> ammonia condenser <!--SR:!2024-03-29,79,230-->
+> - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#fffc51" title="#FFFC51">&#xFEFF;</span></span> ammonia condenser <!--SR:!2024-09-28,181,230-->
 
 %%
 

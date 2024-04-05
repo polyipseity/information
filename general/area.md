@@ -67,12 +67,12 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-02-01T16:56:31.292229+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2024-04-18,58,310!2024-05-01,68,310-->
-- [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-06-06,87,270!2024-03-31,26,210-->
-- positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-04-03,15,170-->
+- [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-06-06,87,270!2024-05-24,54,210-->
+- positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-04-28,25,170-->
 - rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-04-13,44,250-->
-- squeezing→:::←subtraction <!--SR:!2024-04-02,15,150!2024-06-04,70,230-->
+- squeezing→:::←subtraction <!--SR:!2024-04-25,22,150!2024-06-04,70,230-->
 - subtraction→:::←union and intersection <!--SR:!2024-06-24,91,270!2024-05-28,74,250-->
-- union and intersection→:::←_(end)_ <!--SR:!2024-04-04,42,290!2024-06-12,93,290-->
+- union and intersection→:::←_(end)_ <!--SR:!2024-08-03,121,290!2024-06-12,93,290-->
 
 <!--/pytextgen-->
 

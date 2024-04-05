@@ -18,7 +18,7 @@ tags:
 
 %%
 
-In [chemistry](chemistry.md), the enthalpy of reaction is {{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}}. <!--SR:!2024-03-27,233,270-->
+In [chemistry](chemistry.md), the enthalpy of reaction is {{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}}. <!--SR:!2025-12-16,628,270-->
 
 For [endothermic processes](endothermic%20process.md), {{heat is absorbed while for [exothermic processes](exothermic%20process.md), heat is released}}. <!--SR:!2025-04-18,560,310-->
 
@@ -29,7 +29,7 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 > {{$$H = U + pV$$}}
 >
 > - where
->   - [state variables](state%20variable.md): {{$H$ is the enthalpy, $U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}} <!--SR:!2024-07-31,166,334!2024-04-03,88,354-->
+>   - [state variables](state%20variable.md): {{$H$ is the enthalpy, $U$ is the [internal energy](internal%20energy.md), $p$ is the [pressure](pressure.md), and $V$ is the [volume](volume.md)}} <!--SR:!2024-07-31,166,334!2025-06-04,427,374-->
 
 ## applications
 

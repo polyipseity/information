@@ -50,7 +50,7 @@ return await memorize_table(
 > | {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}} |
 > | {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}} |
 > | {{[metallic character](#metallic%20character)}} | {{decreases}} | {{increases}} |
-> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} | <!--SR:!2026-01-10,771,330!2026-08-11,938,330!2027-08-23,1246,350!2025-06-03,612,330!2025-08-14,604,310!2024-06-30,149,250!2024-03-28,277,330!2024-04-11,289,330!2025-11-29,666,310!2025-01-02,283,290!2025-10-19,635,310!2025-07-28,591,310!2026-03-22,778,330!2026-02-27,761,330!2024-05-23,321,330!2024-07-25,133,310!2024-05-25,111,290!2025-10-21,711,330-->
+> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} | <!--SR:!2026-01-10,771,330!2026-08-11,938,330!2027-08-23,1246,350!2025-06-03,612,330!2025-08-14,604,310!2024-06-30,149,250!2026-09-29,915,330!2024-04-11,289,330!2025-11-29,666,310!2025-01-02,283,290!2025-10-19,635,310!2025-07-28,591,310!2026-03-22,778,330!2026-02-27,761,330!2024-05-23,321,330!2024-07-25,133,310!2024-05-25,111,290!2025-10-21,711,330-->
 
 <!--/pytextgen-->
 
@@ -62,7 +62,7 @@ return await memorize_table(
 - [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2024-06-28,280,250!2025-05-12,535,310-->
 - [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2024-04-15,272,290!2024-04-07,12,170-->
 - [metallic character](#metallic%20character)→:::←[valence](#valence) <!--SR:!2024-04-12,290,330!2026-06-30,850,330-->
-- [valence](#valence)→:::←_(end)_ <!--SR:!2024-04-01,281,330!2024-08-13,339,290-->
+- [valence](#valence)→:::←_(end)_ <!--SR:!2027-10-01,1278,350!2024-08-13,339,290-->
 
 <!--/pytextgen-->
 
