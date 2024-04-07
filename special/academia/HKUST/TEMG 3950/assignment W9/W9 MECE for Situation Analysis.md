@@ -1,6 +1,6 @@
 ---
 aliases:
-  - W9 MECE for Situation Analysis
+  - MECE for Situation Analysis
 tags:
   - by/self
   - date/2024/04/07
@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-# W9 MECE for Situation Analysis
+# MECE for Situation Analysis
 
 This is an individual assignment.
 
