@@ -87,7 +87,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-It can be proved that {{such a function actually exists}}. An example is {{the [Jordan content](Peano–Jordan%20measure.md)}}. However, it is {{not a true [measure](measure%20(mathematics).md) and thus is less well-behaved with infinite countable sets, so [Lebesgue measure](Lebesgue%20measure.md) is more commonly used}}. <!--SR:!2024-04-07,48,290!2024-04-24,62,310!2024-05-30,74,270-->
+It can be proved that {{such a function actually exists}}. An example is {{the [Jordan content](Peano–Jordan%20measure.md)}}. However, it is {{not a true [measure](measure%20(mathematics).md) and thus is less well-behaved with infinite countable sets, so [Lebesgue measure](Lebesgue%20measure.md) is more commonly used}}. <!--SR:!2024-08-22,136,290!2024-04-24,62,310!2024-05-30,74,270-->
 
 ## references
 

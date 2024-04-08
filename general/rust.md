@@ -74,7 +74,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="192a"--><!-- The following content is generated at 2024-01-04T20:17:52.534830+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2024-05-12,315,330!2024-04-06,286,330-->
+- _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2024-05-12,315,330!2026-11-07,943,330-->
 - [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2024-08-18,375,310!2024-07-21,261,310-->
 - [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-07-24,131,310!2026-10-21,930,330-->
 - [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2024-04-20,104,290!2024-06-15,114,290-->
@@ -108,7 +108,7 @@ In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvaniz
 
 Cathodic protection can be achieved via {{using [galvanic anode](galvanic%20anode.md), impressed current cathodic protection, or a mix of both}}. <!--SR:!2024-12-18,466,310-->
 
-In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2024-04-08,238,270!2024-04-27,300,330!2024-11-28,391,270!2025-07-01,520,270!2024-06-30,326,290!2025-05-23,429,230-->
+In the former, {{a more reactive [metal](metal.md) is attached to the iron}}. The metal requires {{replacement from time to time}}. Examples include {{[galvanized iron](galvanization.md), attaching [zinc](zinc.md) blocks to the ship hull, connecting [magnesium](magnesium.md) to underground pipelines, etc.}}. In the latter, {{an [electric current](electric%20current.md) is applied with iron as the [cathode](cathode.md)}}. It is {{convenient but applicable to few situations}}. It can be used {{car bodies, pipelines, and storages}}. <!--SR:!2026-01-10,642,270!2024-04-27,300,330!2024-11-28,391,270!2025-07-01,520,270!2024-06-30,326,290!2025-05-23,429,230-->
 
 ## references
 

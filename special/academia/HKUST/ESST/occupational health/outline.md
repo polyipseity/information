@@ -28,7 +28,7 @@ The content is in teaching order.
 - [occupational hazard factors](#occupational%20hazard%20factors)
 - chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-04-08,31,315!2024-04-24,58,322-->
 - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-04-10,38,262!2024-05-01,64,322-->
-  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-04-08,26,222!2024-04-22,53,302-->
+  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-06-06,59,222!2024-04-22,53,302-->
 - [physical hazards](#physical%20hazards)
 - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-04-06,34,289!2024-06-13,94,359-->
 - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-06-28,85,295!2024-05-11,68,355-->

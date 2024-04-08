@@ -18,7 +18,7 @@ if (condition)
   statement_block
 ```
 
-The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-07,50,310-->
+The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-09-13,158,310-->
 
 An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-04-27,67,310-->
 
@@ -99,7 +99,7 @@ for (int ii = 1; ii < 11; ++ii) {
 }
 ```
 
-A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-06,49,310-->
+A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-09-05,150,310-->
 
 ```Java
 while (condition)

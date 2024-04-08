@@ -104,7 +104,7 @@ return await memorize_map(
 >
 > - $\cos^2 6.52 + \sin^2 6.52$ ::: $1$ <!--SR:!2024-04-11,79,340!2025-03-19,350,360-->
 > - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2024-11-23,237,340!2024-04-10,78,340-->
-> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2024-04-06,74,340!2024-06-14,116,320-->
+> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2024-12-15,251,340!2024-06-14,116,320-->
 > - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2024-11-16,233,339!2024-04-25,34,320-->
 
 ## angle sum and difference
@@ -258,7 +258,7 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2024-06-14,124,307!2024-06-02,111,287-->
-> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-08-22,173,307!2024-04-06,5,207-->
+> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-08-22,173,307!2024-04-19,11,207-->
 > - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2024-05-07,100,307!2024-07-30,124,227-->
 > - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2024-05-10,35,267!2024-08-25,168,287-->
 
@@ -277,7 +277,7 @@ return chain.from_iterable(await gather(
 
 - sine ± sine::$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$ <!--SR:!2024-11-03,359,250-->
 - cosine + cosine::$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-05-30,195,230-->
-- cosine - cosine::$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-04-06,134,190-->
+- cosine - cosine::$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-12-18,254,190-->
 - tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$ <!--SR:!2024-08-17,134,150-->
 
 <!--/pytextgen-->
@@ -299,7 +299,7 @@ return chain.from_iterable(await gather(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}}
-> - conditions: {{$a \ne 0$}} <!--SR:!2024-08-02,157,309!2024-04-07,74,289!2024-10-23,219,329-->
+> - conditions: {{$a \ne 0$}} <!--SR:!2024-08-02,157,309!2024-11-07,213,289!2024-10-23,219,329-->
 
 <!-- markdownlint MD028 -->
 

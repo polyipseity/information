@@ -165,7 +165,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="8104"--><!-- The following content is generated at 2024-03-08T13:15:49.071658+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-04-18,17,303-->
-- [silver oxide](silver%20oxide%20battery.md)::1.5 V, 1.6 V <!--SR:!2024-04-07,17,303-->
+- [silver oxide](silver%20oxide%20battery.md)::1.5 V, 1.6 V <!--SR:!2024-05-29,51,303-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2024-05-08,41,303-->
 
 <!--/pytextgen-->
@@ -245,7 +245,7 @@ return chain.from_iterable(await gather(
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-04-19,25,323-->
 - [lead–acid](lead–acid%20battery.md)::[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) <!--SR:!2024-04-13,24,323-->
-- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!2024-04-07,20,303-->
+- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!2024-06-07,60,303-->
 
 <!--/pytextgen-->
 
@@ -253,7 +253,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="018e"--><!-- The following content is generated at 2024-03-08T13:15:49.087660+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-04-07,12,263-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-05-09,31,263-->
 - [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2024-07-01,91,363-->
 - [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-04-26,31,303-->
 

@@ -60,7 +60,7 @@ return await memorize_seq(
 - cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-05-22,51,318!2024-06-25,81,338-->
 my CV and cover letter for your consideration.; (signature) <!--SR:!2024-04-18,124,290-->
 - date format ::: 1<sup>st</sup> January, 1970 <!--SR:!2024-11-17,308,330!2024-06-06,62,318-->
-- formatting ::: minimal <!--SR:!2024-04-06,115,290!2024-06-14,74,338-->
+- formatting ::: minimal <!--SR:!2025-03-07,333,290!2024-06-14,74,338-->
 - recipient ::: Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam <!--SR:!2024-07-02,182,310!2024-05-19,48,318-->
 - signature ::: Yours sincerely/faithfully,; signature; name <!--SR:!2024-06-03,59,318!2024-05-23,52,318-->
 

@@ -9,7 +9,7 @@ tags:
 
 # Excel form control
 
-We can use form controls to create {{user interface in spreadsheets}}. The other option is using {{the more flexible ActiveX controls, but they are unavailable on MacOS while form controls are}}. <!--SR:!2024-04-27,66,310!2024-04-08,50,310-->
+We can use form controls to create {{user interface in spreadsheets}}. The other option is using {{the more flexible ActiveX controls, but they are unavailable on MacOS while form controls are}}. <!--SR:!2024-04-27,66,310!2024-09-15,160,310-->
 
 Some examples of form control are {{`Button`, which is a button, and `ComboBox`, which is a dropdown selection list}}. <!--SR:!2024-05-02,70,310-->
 

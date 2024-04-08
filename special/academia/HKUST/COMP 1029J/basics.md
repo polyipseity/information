@@ -33,7 +33,7 @@ To assign a value or the result of an expression to a variable, use {{`=`}}: <!-
 variableName = 1 + 2;
 ```
 
-One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Alternatively, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-04-08,51,310!2024-04-22,63,310-->
+One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Alternatively, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-09-15,160,310!2024-04-22,63,310-->
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers
@@ -92,13 +92,13 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-01-29T08:31:35.198780+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-04-07,50,310-->
+- _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-11-08,214,330-->
 - `String`→:::←`boolean` <!--SR:!2024-04-13,56,310!2024-04-20,61,310-->
 - `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-05-01,70,310-->
 - `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-04-21,61,310-->
 - `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-04-11,54,310-->
 - `float`→:::←`int` <!--SR:!2024-07-14,100,290!2024-04-30,69,310-->
-- `int`→:::←_(end)_ <!--SR:!2024-04-17,59,310!2024-04-08,51,310-->
+- `int`→:::←_(end)_ <!--SR:!2024-04-17,59,310!2024-09-09,154,310-->
 
 <!--/pytextgen-->
 
@@ -206,18 +206,18 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`++` <!--SR:!2024-05-03,72,310!2024-04-30,69,310-->
 - `++`→:::←`--` <!--SR:!2024-04-22,63,310!2024-04-26,65,310-->
-- `--`→:::←`*` <!--SR:!2024-04-06,17,270!2024-09-26,174,310-->
+- `--`→:::←`*` <!--SR:!2024-06-10,63,290!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-04-15,57,310!2024-04-15,57,310-->
 - `/`→:::←`%` <!--SR:!2024-04-22,62,310!2024-07-20,106,290-->
 - `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
 - `+`→:::←`-` <!--SR:!2024-04-28,67,310!2024-04-26,66,310-->
-- `-`→:::←_(end)_ <!--SR:!2024-04-06,49,310!2024-04-23,63,310-->
+- `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2024-04-23,63,310-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- `++`::increment a numerical variable by 1 <!--SR:!2024-04-07,50,310-->
+- `++`::increment a numerical variable by 1 <!--SR:!2024-11-07,213,330-->
 - `--`::decrement a numerical variable by 1 <!--SR:!2024-05-03,72,310-->
 - `*`::multiplication <!--SR:!2024-05-02,71,310-->
 - `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-08-04,121,290-->

@@ -174,7 +174,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2026-02-20,924,345-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
-- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-04-07,13,130-->
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-04-24,16,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2024-06-27,118,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2024-05-09,145,190!2024-08-06,334,207-->
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2024-04-09,5,130-->
@@ -282,7 +282,7 @@ The steps for naming an organic compound are:
 - _(begin)_→:::←commas (,) between locants <!--SR:!2025-05-09,838,332!2025-03-14,596,320-->
 - commas (,) between locants→:::←hyphens (-) between word and locant <!--SR:!2027-12-20,1550,313!2024-09-15,436,321-->
 - hyphens (-) between word and locant→:::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2027-07-15,1340,362-->
-- remove (most) spaces ( )→:::←_(end)_ <!--SR:!2024-04-06,410,367!2026-02-19,925,347-->
+- remove (most) spaces ( )→:::←_(end)_ <!--SR:!2028-05-21,1504,367!2026-02-19,925,347-->
 
 <!--/pytextgen-->
 
@@ -399,7 +399,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
 > - suffix: {{-ane}}
 > - infix: {{(none), (locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2024-04-09,412,368!2024-04-07,411,368!2024-12-06,523,348!2027-10-17,1405,368!2028-05-09,1497,368!2026-09-16,1012,348!2029-11-21,2057,388-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2024-04-09,412,368!2028-05-28,1511,368!2024-12-06,523,348!2027-10-17,1405,368!2028-05-09,1497,368!2026-09-16,1012,348!2029-11-21,2057,388-->
 
 <!-- markdownlint MD028 -->
 
@@ -541,7 +541,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCN}}
 > - prefix: {{cyano-}}
 > - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2027-10-13,1401,368!2024-04-08,411,368!2026-03-30,958,348!2025-07-18,623,268!2024-04-14,417,368-->
+> - infix: {{(locant)}} <!--SR:!2024-04-23,425,368!2027-10-13,1401,368!2028-05-27,1510,368!2026-03-30,958,348!2025-07-18,623,268!2024-04-14,417,368-->
 
 <!--/pytextgen-->
 
