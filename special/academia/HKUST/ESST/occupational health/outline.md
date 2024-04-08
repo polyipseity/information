@@ -52,7 +52,7 @@ The content is in teaching order.
 - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-05-02,28,269!2024-04-14,48,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-05-08,62,335!2024-04-29,63,310-->
-- ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-04-05,23,242!2024-04-12,44,326-->
+- ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-06-01,57,242!2024-04-12,44,326-->
 - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-05-03,53,262!2024-05-06,64,335-->
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-05-31,84,349!2024-05-11,72,322-->
 - particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-07-16,103,282!2024-06-02,87,355-->
@@ -68,7 +68,7 @@ The content is in teaching order.
   - personal protective equipment
 - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-06-01,85,349-->
 - eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-05-28,67,282!2024-04-18,49,326-->
-- safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-04-04,37,319!2024-05-19,74,359-->
+- safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-07-31,117,319!2024-05-19,74,359-->
 - breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-06-05,89,349-->
 - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-07-12,99,315!2024-04-11,45,302-->
 - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
@@ -286,7 +286,7 @@ socio-psychological
 
 <!--pytextgen generate section="b123"--><!-- The following content is generated at 2024-03-07T00:02:22.051287+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological <!--SR:!2024-04-05,36,319!2024-05-17,73,349-->
+- _(begin)_→:::←biological <!--SR:!2024-08-02,119,319!2024-05-17,73,349-->
 - biological→:::←chemical <!--SR:!2024-04-10,42,339!2024-05-03,61,339-->
 - chemical→:::←ergonomic <!--SR:!2024-04-12,25,239!2024-06-02,73,295-->
 - ergonomic→:::←occupation-specific <!--SR:!2024-04-25,38,259!2024-06-14,71,299-->
@@ -331,9 +331,9 @@ workplace
 <!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←general community environment <!--SR:!2024-05-13,56,279!2024-05-20,76,349-->
-- general community environment→:::←occupational hygiene <!--SR:!2024-04-05,35,279!2024-05-07,33,229-->
+- general community environment→:::←occupational hygiene <!--SR:!2024-07-11,97,279!2024-05-07,33,229-->
 - occupational hygiene→:::←occupational medicine <!--SR:!2024-04-12,44,335!2024-05-04,58,339-->
-- occupational medicine→:::←occupational rehabilitation <!--SR:!2024-04-05,36,315!2024-05-22,77,355-->
+- occupational medicine→:::←occupational rehabilitation <!--SR:!2024-07-24,110,315!2024-05-22,77,355-->
 - occupational rehabilitation→:::←workers <!--SR:!2024-04-12,21,219!2024-05-05,63,329-->
 - workers→:::←workplace <!--SR:!2024-05-29,82,349!2024-05-11,67,339-->
 - workplace→:::←_(end)_ <!--SR:!2024-05-28,82,355!2024-04-11,7,239-->

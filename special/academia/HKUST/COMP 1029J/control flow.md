@@ -88,7 +88,7 @@ for (initial_statement; condition; loop_statement)
   statement
 ```
 
-The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-05-04,73,310!2024-04-05,48,310-->
+The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-05-04,73,310!2024-11-04,213,330-->
 
 One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2024-04-17,58,310-->
 
@@ -116,4 +116,4 @@ do
 while (condition);
 ```
 
-The semantics of `do...while` is {{that the statement block is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}. <!--SR:!2024-04-02,47,290-->
+The semantics of `do...while` is {{that the statement block is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}. <!--SR:!2024-10-20,198,310-->
