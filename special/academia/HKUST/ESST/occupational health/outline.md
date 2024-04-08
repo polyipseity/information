@@ -3,7 +3,7 @@ aliases:
   - ESST occupational health outline
   - HKUST ESST occupational health outline
 tags:
-  - flashcard/special/academia/HKUST/ESST/occupational_health/outline
+  - flashcard_disabled/special/academia/HKUST/ESST/occupational_health/outline
   - language/in/English
 ---
 
