@@ -63,7 +63,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←affirming the consequent <!--SR:!2024-04-13,269,315!2027-04-27,1118,335-->
 - affirming the consequent→:::←appeal to authority <!--SR:!2024-04-15,90,275!2024-04-23,278,315-->
-- appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2024-04-08,264,315-->
+- appeal to authority→:::←appeal to tradition <!--SR:!2024-05-07,287,315!2026-07-18,831,315-->
 - appeal to tradition→:::←guilt by association <!--SR:!2024-04-13,12,130!2025-12-16,621,275-->
 - guilt by association→:::←hasty generalization <!--SR:!2024-09-27,357,295!2025-02-06,396,290-->
 - hasty generalization→:::←popularity and testimonials <!--SR:!2024-05-31,259,270!2024-09-12,314,270-->
@@ -116,7 +116,7 @@ return await memorize_table(
 <!--pytextgen generate section="4940"--><!-- The following content is generated at 2024-01-04T20:17:58.243383+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←comparison <!--SR:!2025-01-25,420,290!2026-08-31,917,330-->
-- comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-04-08,28,135-->
+- comparison→:::←factor/reason <!--SR:!2024-08-28,230,210!2024-04-22,14,130-->
 - factor/reason→:::←impact/problem <!--SR:!2024-05-23,66,195!2024-04-29,25,130-->
 - impact/problem→:::←phenomenon <!--SR:!2024-06-06,234,235!2024-09-28,184,195-->
 - phenomenon→:::←solution <!--SR:!2024-04-15,219,255!2024-05-01,86,230-->
@@ -165,7 +165,7 @@ return await memorize_table(
 > | question word(s) | description |
 > |-|-|
 > | {{<ul><li>assess</li><li>compare</li><li>evaluate</li></ul>}} | {{<ol><li>State your stance.</li><li>Select comparison parameters.</li><li>Describe similarities and differences with arguments and counterarguments.</li><li>State the limits of comparison.</li></ol>}} |
-> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-06-06,105,290!2024-04-07,38,150!2025-06-24,539,295!2024-07-22,108,175-->
+> | {{<ul><li>comment</li><li>to what extent do you agree</li></ul>}} | {{<ol><li>State your stance with value judgement.</li><li>Compare positive and negative arguments.</li><li>Give reasons on your stance with arguments and counterarguments.</li><li>Rebut counterarguments.</li></ol>}} | <!--SR:!2024-06-06,105,290!2024-06-06,59,150!2025-06-24,539,295!2024-07-22,108,175-->
 
 <!--/pytextgen-->
 
@@ -320,7 +320,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-01-04T20:17:58.418327+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-04-06,204,255!2024-04-17,273,315-->
+- _(begin)_→:::←(Introduction) State your stance: To a large/small extent, I agree… <!--SR:!2024-07-18,101,235!2024-04-17,273,315-->
 - (Introduction) State your stance: To a large/small extent, I agree…→:::←Define or explain key terms or criteria required. <!--SR:!2025-08-09,558,290!2024-04-11,267,315-->
 - Define or explain key terms or criteria required.→:::←(Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion. <!--SR:!2024-09-28,308,255!2024-08-12,304,275-->
 - (Body) Write 2 to 3 arguments from different perspectives separated by paragraphing: topic sentence, evidence, elaboration, conclusion.→:::←Write 1 to 2 counterarguments with partial rebuttal. <!--SR:!2024-08-09,301,270!2024-07-23,304,275-->
@@ -428,8 +428,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="32ab"--><!-- The following content is generated at 2024-01-04T20:17:58.510514+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-04-08,6,130!2024-11-25,388,295-->
-- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-04-06,26,150!2024-08-18,268,230-->
+- _(begin)_→:::←Only stating views of stakeholders instead of macroscopic effects. <!--SR:!2024-04-11,3,130!2024-11-25,388,295-->
+- Only stating views of stakeholders instead of macroscopic effects.→:::←Oversimplification of examples. <!--SR:!2024-05-18,40,150!2024-08-18,268,230-->
 - Oversimplification of examples.→:::←_(end)_ <!--SR:!2024-09-11,307,275!2024-04-10,13,130-->
 
 <!--/pytextgen-->
@@ -505,7 +505,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="4ecd"--><!-- The following content is generated at 2024-01-04T20:18:00.828927+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-06-13,70,175!2024-04-08,264,315-->
+- _(begin)_→:::←Hetergenous nature of people not considered when evaluating effectiveness. <!--SR:!2024-06-13,70,175!2026-07-17,830,315-->
 - Hetergenous nature of people not considered when evaluating effectiveness.→:::←Making education and promotion too similar. Focus on schools in the former while governments in the latter. <!--SR:!2024-04-15,132,250!2024-11-25,349,250-->
 - Making education and promotion too similar. Focus on schools in the former while governments in the latter.→:::←Overstating effectiveness of education. <!--SR:!2024-11-09,343,255!2024-04-23,26,155-->
 - Overstating effectiveness of education.→:::←Suggesting legislation without considering enforcement. <!--SR:!2025-08-11,559,290!2024-11-12,346,255-->

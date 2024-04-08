@@ -11,7 +11,7 @@ tags:
 
 ## branching
 
-An `if` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-06,48,310-->
+An `if` statement consists of {{a condition and a statement block}}: <!--SR:!2024-10-30,205,330-->
 
 ```Python
 if condition:

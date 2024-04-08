@@ -74,7 +74,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`**` <!--SR:!2024-04-11,53,310!2024-04-21,61,310-->
 - `**`→:::←`*` <!--SR:!2024-04-09,51,310!2024-04-14,55,310-->
 - `*`→:::←`/` <!--SR:!2024-04-25,64,310!2024-04-09,51,310-->
-- `/`→:::←`//` <!--SR:!2024-04-11,52,310!2024-04-08,50,310-->
+- `/`→:::←`//` <!--SR:!2024-04-11,52,310!2024-11-19,225,330-->
 - `//`→:::←`%` <!--SR:!2024-05-05,73,310!2024-05-02,70,310-->
 - `%`→:::←`+` <!--SR:!2024-04-29,68,310!2024-04-23,62,310-->
 - `+`→:::←`-` <!--SR:!2024-04-22,61,310!2024-04-28,66,310-->
@@ -84,11 +84,11 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
-- `**`::power <!--SR:!2024-04-06,48,310-->
+- `**`::power <!--SR:!2024-10-27,202,330-->
 - `*`::multiplication <!--SR:!2024-04-29,67,310-->
 - `/`::division <!--SR:!2024-05-04,72,310-->
 - `//`::floor division <!--SR:!2024-04-23,63,310-->
-- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-04-07,49,310-->
+- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-09-07,152,310-->
 - `+`::addition <!--SR:!2024-04-24,64,310-->
 - `-`::subtraction <!--SR:!2024-04-14,55,310-->
 
@@ -163,7 +163,7 @@ return _chain.from_iterable(await _gather(
 - `<=`::lesser than or equal to <!--SR:!2024-08-29,148,310-->
 - `>`::greater than <!--SR:!2024-04-12,54,310-->
 - `>=`::greater than or equal to <!--SR:!2024-04-30,68,310-->
-- `!=`::not equal to <!--SR:!2024-04-08,50,310-->
+- `!=`::not equal to <!--SR:!2024-11-08,214,330-->
 - `==`::equal to <!--SR:!2024-04-20,60,310-->
 
 <!--/pytextgen-->
@@ -218,14 +218,14 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`not` <!--SR:!2024-04-21,60,310!2024-04-16,57,310-->
 - `not`→:::←`and` <!--SR:!2024-04-19,59,310!2024-04-27,66,310-->
 - `and`→:::←`or` <!--SR:!2024-04-25,64,310!2024-04-14,56,310-->
-- `or`→:::←_(end)_ <!--SR:!2024-04-17,58,310!2024-04-07,49,310-->
+- `or`→:::←_(end)_ <!--SR:!2024-04-17,58,310!2024-11-05,211,330-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
 - `not`::negate <!--SR:!2024-04-15,56,310-->
-- `and`::and <!--SR:!2024-04-06,48,310-->
+- `and`::and <!--SR:!2024-10-25,200,330-->
 - `or`::or <!--SR:!2024-04-10,52,310-->
 
 <!--/pytextgen-->

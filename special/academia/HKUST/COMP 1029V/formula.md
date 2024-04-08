@@ -78,7 +78,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`^` <!--SR:!2024-08-14,146,310!2024-05-05,73,310-->
 - `^`→:::←`*` <!--SR:!2024-04-20,60,310!2024-04-14,55,310-->
-- `*`→:::←`/` <!--SR:!2024-04-15,56,310!2024-04-08,50,310-->
+- `*`→:::←`/` <!--SR:!2024-04-15,56,310!2024-11-06,212,330-->
 - `/`→:::←`+` <!--SR:!2024-04-24,63,310!2024-04-24,64,310-->
 - `+`→:::←`-` <!--SR:!2024-04-17,58,310!2024-04-14,55,310-->
 - `-`→:::←_(end)_ <!--SR:!2024-04-27,66,310!2024-04-23,63,310-->
@@ -213,7 +213,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-04-22,61,310!2024-05-01,69,310-->
-- `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-04-07,49,310!2024-04-30,68,310-->
+- `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-09-05,150,310!2024-04-30,68,310-->
 - `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-04-16,56,310!2024-04-13,54,310-->
 - `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-04-18,58,310!2024-04-26,65,310-->
 
@@ -279,12 +279,12 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-06-23,104,310!2024-05-04,72,310-->
-- (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-04-07,47,290!2024-06-01,75,270-->
-- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-06-26,107,290!2024-04-07,37,230-->
+- (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-05-02,24,270!2024-06-01,75,270-->
+- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-06-26,107,290!2024-07-01,84,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-09,35,250!2024-04-21,17,270-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-04-24,20,150!2024-04-26,53,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-04-17,28,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-04-06,37,230!2024-04-14,10,150-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-04-25,17,210!2024-04-14,10,150-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-04-14,56,310!2024-05-29,83,290-->
 
 <!--/pytextgen-->
@@ -294,7 +294,7 @@ return _chain.from_iterable(await _gather(
 - (operator) `&`::concatenation <!--SR:!2024-04-13,55,310-->
 - `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2024-04-23,62,310-->
 - `LEN(string)`::length of `string` <!--SR:!2024-04-19,60,310-->
-- `LOWER(string)`::convert to lowercase <!--SR:!2024-04-06,48,310-->
+- `LOWER(string)`::convert to lowercase <!--SR:!2024-10-29,204,330-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-04-21,60,310-->
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-04-27,66,310-->
 - `UPPER(string)`::convert to uppercase <!--SR:!2024-04-12,54,310-->

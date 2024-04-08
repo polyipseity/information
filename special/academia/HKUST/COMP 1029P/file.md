@@ -11,7 +11,7 @@ tags:
 
 ## opening and closing
 
-To open a file in reading mode, use {{`open(path, "r")` or `open(path)`}}. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-04-21,60,310!2024-04-06,48,310-->
+To open a file in reading mode, use {{`open(path, "r")` or `open(path)`}}. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-04-21,60,310!2024-10-21,196,330-->
 
 Always remember to {{close the file by calling `file.close()`}}. This is to ensure {{the file is unlocked or saved properly}}. A better method is using {{`with`}}, but it will not be mentioned here. <!--SR:!2024-04-16,57,310!2024-04-28,66,310!2024-04-27,65,310-->
 
@@ -23,4 +23,4 @@ We can read the entire file into a string by {{calling `file.read()`}}. Alternat
 
 ## writing
 
-We can write string into a file by {{calling `file.write()`}}. Calling it multiple times {{concatenates the strings}}. <!--SR:!2024-04-07,49,310!2024-04-17,58,310-->
+We can write string into a file by {{calling `file.write()`}}. Calling it multiple times {{concatenates the strings}}. <!--SR:!2024-11-07,213,330!2024-04-17,58,310-->
