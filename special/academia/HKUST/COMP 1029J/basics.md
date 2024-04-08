@@ -22,7 +22,7 @@ tags:
 
 - comment :: A comment is either enclosed by `/*` and `*/` like `/* example */` or starts with `//` like `// example`. For the first one, the comment ends when the `*/` is first encountered. For the second one, the comment ends when the line ends. <!--SR:!2024-04-18,60,310-->
 - package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-04-19,60,310-->
-- spacing :: Java ignores whitespace in most places. Whitespace are not ignored in some places, such as in strings `"This string has a space."` or before the names of method calls `. thisIsInvalidJavaCode()`. Usually whitespace are added before statements systematically, with more spaces per level of code block `{ /* code block */ }`. This is called indentation. <!--SR:!2024-03-29,41,290-->
+- spacing :: Java ignores whitespace in most places. Whitespace are not ignored in some places, such as in strings `"This string has a space."` or before the names of method calls `. thisIsInvalidJavaCode()`. Usually whitespace are added before statements systematically, with more spaces per level of code block `{ /* code block */ }`. This is called indentation. <!--SR:!2024-08-05,122,290-->
 - statement :: A Java program is a collection of statements. A statement can be multiline and ends with a semicolon `;`. A statement can also be a code block `{ /* code block */ }`, which is also a collection of statements itself. <!--SR:!2024-05-04,73,310-->
 
 ## variable
@@ -95,9 +95,9 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-04-07,50,310-->
 - `String`→:::←`boolean` <!--SR:!2024-04-13,56,310!2024-04-20,61,310-->
 - `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-05-01,70,310-->
-- `char`→:::←`double` <!--SR:!2024-03-29,44,290!2024-04-21,61,310-->
-- `double`→:::←`float` <!--SR:!2024-03-30,41,290!2024-04-11,54,310-->
-- `float`→:::←`int` <!--SR:!2024-03-24,36,290!2024-04-30,69,310-->
+- `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-04-21,61,310-->
+- `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-04-11,54,310-->
+- `float`→:::←`int` <!--SR:!2024-07-14,100,290!2024-04-30,69,310-->
 - `int`→:::←_(end)_ <!--SR:!2024-04-17,59,310!2024-04-08,51,310-->
 
 <!--/pytextgen-->
@@ -123,7 +123,7 @@ float aFloat = 3.14; // compilation error
 double aDouble = 3.14; // okay
 ```
 
-In some circumstances, the value can be {{implicitly converted to the type of the variable, since there is no loss of data}}: <!--SR:!2024-03-25,37,290-->
+In some circumstances, the value can be {{implicitly converted to the type of the variable, since there is no loss of data}}: <!--SR:!2024-08-27,144,310-->
 
 ```Java
 float aFloat = 3; // the `int` of value 3 is implicitly converted into a `float` of value 3
@@ -137,7 +137,7 @@ int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly conver
 assert anInteger == 3;
 ```
 
-The above explicit conversion is called {{casting. A value can be casted to any type without any compilation error. However, only casting that makes sense will not result in a runtime error}}: <!--SR:!2024-03-28,39,290-->
+The above explicit conversion is called {{casting. A value can be casted to any type without any compilation error. However, only casting that makes sense will not result in a runtime error}}: <!--SR:!2024-09-10,158,310-->
 
 ```Java
 int anInteger = (int) -3.14; // no compilation error and runtime error
@@ -206,9 +206,9 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`++` <!--SR:!2024-05-03,72,310!2024-04-30,69,310-->
 - `++`→:::←`--` <!--SR:!2024-04-22,63,310!2024-04-26,65,310-->
-- `--`→:::←`*` <!--SR:!2024-04-06,17,270!2024-03-31,45,290-->
+- `--`→:::←`*` <!--SR:!2024-04-06,17,270!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-04-15,57,310!2024-04-15,57,310-->
-- `/`→:::←`%` <!--SR:!2024-04-22,62,310!2024-03-23,37,290-->
+- `/`→:::←`%` <!--SR:!2024-04-22,62,310!2024-07-20,106,290-->
 - `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
 - `+`→:::←`-` <!--SR:!2024-04-28,67,310!2024-04-26,66,310-->
 - `-`→:::←_(end)_ <!--SR:!2024-04-06,49,310!2024-04-23,63,310-->
@@ -220,8 +220,8 @@ return _chain.from_iterable(await _gather(
 - `++`::increment a numerical variable by 1 <!--SR:!2024-04-07,50,310-->
 - `--`::decrement a numerical variable by 1 <!--SR:!2024-05-03,72,310-->
 - `*`::multiplication <!--SR:!2024-05-02,71,310-->
-- `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-03-31,42,290-->
-- `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2024-03-27,39,290-->
+- `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-08-04,121,290-->
+- `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2024-07-26,112,290-->
 - `+`::addition <!--SR:!2024-04-22,62,310-->
 - `-`::subtraction <!--SR:!2024-04-21,61,310-->
 
@@ -276,7 +276,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`<` <!--SR:!2024-03-28,14,190!2024-05-13,60,290-->
+- _(begin)_→:::←`<` <!--SR:!2024-04-10,5,170!2024-05-13,60,290-->
 - `<`→:::←`>` <!--SR:!2024-04-27,67,310!2024-04-26,65,310-->
 - `>`→:::←`<=` <!--SR:!2024-04-14,56,310!2024-05-01,56,270-->
 - `<=`→:::←`>=` <!--SR:!2024-04-16,57,310!2024-07-06,106,290-->
@@ -347,7 +347,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`!` <!--SR:!2024-04-20,61,310!2024-07-29,133,310-->
 - `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-04-16,58,310-->
 - `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2024-04-21,62,310!2024-04-20,60,310-->
-- <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-04-12,55,310!2024-04-05,48,310-->
+- <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-04-12,55,310!2024-09-02,150,310-->
 
 <!--/pytextgen-->
 
