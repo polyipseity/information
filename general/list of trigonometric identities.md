@@ -53,7 +53,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-01-04T20:17:52.198336+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-04-14,82,340!2024-04-09,77,342-->
+- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-04-14,82,340!2025-04-05,361,362-->
 - [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-04-19,80,289!2024-11-16,236,329-->
 - [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
