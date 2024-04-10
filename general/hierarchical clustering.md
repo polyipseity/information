@@ -39,12 +39,13 @@ from asyncio import gather
 from itertools import chain
 headers = (R"cluster linkage", R"aliases", R"formula", R"description")
 table = (
-  (R"centroid linkage clustering", R"UPGMC", R"$\lVert \mu_A - \mu_B \rVert$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$", R"Centroid linkage clustering does not preserve well small clusters that are merged into large clusters."),
+  (R"[Ward's method](Ward's%20method.md)", R"MISSQ, minimum increase of sum of squares", R"$\frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$", R""),
+  (R"centroid linkage clustering", R"UPGMC", R"$\lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$", R"Centroid linkage clustering does not preserve well small clusters that are merged into large clusters."),
   (R"[complete-linkage clustering](complete-linkage%20clustering.md)", R"maximum linkage clustering", R"$\max_{a \in A, b \in B} d(a, b)$", R""),
   (R"median linkage clustering", R"WPGMC", R"$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$", R"Median linkage clustering can better preserve small clusters that are merged into large clusters."),
   (R"[single-linkage clustering](single-linkage%20clustering.md)", R"minimum linkage clustering, nearest neighbor technique", R"$\min_{a \in A, b \in B} d(a, b)$", R""),
   (R"unweighted average linkage clustering", R"[UPGMA](UPGMA.md), group average linkage clustering", R"$\frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$", R""),
-  (R"weighted average linkage clustering", R"[WPGMA](WPGMA.md)", R"$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$", R""),
+  (R"weighted average linkage clustering", R"McQuitty's Method, [WPGMA](WPGMA.md)", R"$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$", R""),
 )
 return chain.from_iterable(await gather(
   memorize_table(
@@ -65,22 +66,24 @@ return chain.from_iterable(await gather(
 
 %%
 
-<!--pytextgen generate section="84ba"--><!-- The following content is generated at 2024-03-20T18:21:12.762711+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="84ba"--><!-- The following content is generated at 2024-03-25T02:33:59.375517+08:00. Any edits will be overridden! -->
 
 > | cluster linkage | aliases | formula | description |
 > |-|-|-|-|
-> | centroid linkage clustering | UPGMC | $\lVert \mu_A - \mu_B \rVert$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ | {{Centroid linkage clustering does not preserve well small clusters that are merged into large clusters.}} |
+> | [Ward's method](Ward's%20method.md) | MISSQ, minimum increase of sum of squares | $\frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ |  |
+> | centroid linkage clustering | UPGMC | $\lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ | {{Centroid linkage clustering does not preserve well small clusters that are merged into large clusters.}} |
 > | [complete-linkage clustering](complete-linkage%20clustering.md) | maximum linkage clustering | $\max_{a \in A, b \in B} d(a, b)$ |  |
 > | median linkage clustering | WPGMC | $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ | {{Median linkage clustering can better preserve small clusters that are merged into large clusters.}} |
 > | [single-linkage clustering](single-linkage%20clustering.md) | minimum linkage clustering, nearest neighbor technique | $\min_{a \in A, b \in B} d(a, b)$ |  |
 > | unweighted average linkage clustering | [UPGMA](UPGMA.md), group average linkage clustering | $\frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ |  |
-> | weighted average linkage clustering | [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  |
+> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  |
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="c471"--><!-- The following content is generated at 2024-03-20T18:09:53.357002+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c471"--><!-- The following content is generated at 2024-03-25T02:33:59.339528+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←centroid linkage clustering
+- _(begin)_→:::←[Ward's method](Ward's%20method.md)
+- [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md)
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md)
@@ -92,33 +95,36 @@ return chain.from_iterable(await gather(
 
 ### cluster linkage–aliases
 
-<!--pytextgen generate section="e892"--><!-- The following content is generated at 2024-03-20T18:09:53.385341+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e892"--><!-- The following content is generated at 2024-03-25T02:33:59.419985+08:00. Any edits will be overridden! -->
 
+- [Ward's method](Ward's%20method.md)::MISSQ, minimum increase of sum of squares
 - centroid linkage clustering::UPGMC
 - [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering
 - median linkage clustering::WPGMC
 - [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique
 - unweighted average linkage clustering::[UPGMA](UPGMA.md), group average linkage clustering
-- weighted average linkage clustering::[WPGMA](WPGMA.md)
+- weighted average linkage clustering::McQuitty's Method, [WPGMA](WPGMA.md)
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="259f"--><!-- The following content is generated at 2024-03-20T18:09:53.404349+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="259f"--><!-- The following content is generated at 2024-03-25T02:33:59.389625+08:00. Any edits will be overridden! -->
 
+- MISSQ, minimum increase of sum of squares::[Ward's method](Ward's%20method.md)
 - UPGMC::centroid linkage clustering
 - maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md)
 - WPGMC::median linkage clustering
 - minimum linkage clustering, nearest neighbor technique::[single-linkage clustering](single-linkage%20clustering.md)
 - [UPGMA](UPGMA.md), group average linkage clustering::unweighted average linkage clustering
-- [WPGMA](WPGMA.md)::weighted average linkage clustering
+- McQuitty's Method, [WPGMA](WPGMA.md)::weighted average linkage clustering
 
 <!--/pytextgen-->
 
 ### cluster linkage–formula
 
-<!--pytextgen generate section="0196"--><!-- The following content is generated at 2024-03-20T18:16:02.276381+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0196"--><!-- The following content is generated at 2024-03-25T02:33:59.359794+08:00. Any edits will be overridden! -->
 
-- centroid linkage clustering::$\lVert \mu_A - \mu_B \rVert$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$
+- [Ward's method](Ward's%20method.md)::$\frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$
+- centroid linkage clustering::$\lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$
 - [complete-linkage clustering](complete-linkage%20clustering.md)::$\max_{a \in A, b \in B} d(a, b)$
 - median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$
 - [single-linkage clustering](single-linkage%20clustering.md)::$\min_{a \in A, b \in B} d(a, b)$
@@ -127,9 +133,10 @@ return chain.from_iterable(await gather(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ff72"--><!-- The following content is generated at 2024-03-20T18:16:02.336643+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ff72"--><!-- The following content is generated at 2024-03-25T02:33:59.405711+08:00. Any edits will be overridden! -->
 
-- $\lVert \mu_A - \mu_B \rVert$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::centroid linkage clustering
+- $\frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::[Ward's method](Ward's%20method.md)
+- $\lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::centroid linkage clustering
 - $\max_{a \in A, b \in B} d(a, b)$::[complete-linkage clustering](complete-linkage%20clustering.md)
 - $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$::median linkage clustering
 - $\min_{a \in A, b \in B} d(a, b)$::[single-linkage clustering](single-linkage%20clustering.md)
