@@ -28,7 +28,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {{certain orbits only with certain distances from the nucleus called stationary orbits}} {{without radiating energy}}. <a id="^23e80f"></a>^23e80f
 2. The stationary orbits have distances {{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e} v r = \hbar n$}}, where {{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}}. The orbits have definite energies called {{[energy levels](energy%20level.md), energy shells, or energy states}}. <a id="^f5a73f"></a>^f5a73f
-3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2024-10-29,340,230!2024-04-16,94,250!2024-04-09,200,210!2024-07-06,365,270!2024-07-03,362,270!2024-11-29,449,252!2026-03-28,918,332!2024-08-02,410,272!2027-07-06,1198,332-->
+3. Electrons only gain or lose energy by {{jumping from one stationary orbit to another}}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {{absorbed or emitted}} according to the {{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}}, where {{$h$ is the [Planck constant](Planck%20constant)}}. <!--SR:!2024-10-29,340,230!2024-04-16,94,250!2025-06-04,421,210!2024-07-06,365,270!2024-07-03,362,270!2024-11-29,449,252!2026-03-28,918,332!2024-08-02,410,272!2027-07-06,1198,332-->
 
 ## electron energy levels
 
@@ -41,7 +41,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{\hbar^2 n^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-04-09,8,130!2024-04-12,182,254-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-04-19,10,130!2024-04-12,182,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2025-10-24,669,279!2024-11-23,484,299-->
 

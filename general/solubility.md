@@ -401,13 +401,13 @@ return await memorize_map(
 - [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-20,185,318-->
 - [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-10,177,318-->
 - [sodium oxide](sodium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-01-08,301,318-->
-- [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-09,107,278-->
+- [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2025-01-30,296,278-->
 - [sodium sulfide](sodium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-12-03,258,278-->
 - [sodium sulfite](sodium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-08,166,278-->
 - [strontium hydroxide](strontium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-04-13,12,130-->
 - [strontium oxide](strontium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-04-22,116,278-->
 - [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-04-26,42,178-->
-- [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-04-09,76,258-->
+- [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-10-21,195,258-->
 - [thallium(I) oxide](thallium(I)%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-07-29,187,278-->
 - [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-06-17,143,258-->
 - [uranyl carbonate](uranyl%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-11-22,267,298-->

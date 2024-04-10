@@ -29,7 +29,7 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2024-09-16,190,329!2024-08-31,182,329!2024-04-09,87,349-->
+>   - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}} <!--SR:!2024-09-16,190,329!2024-08-31,182,329!2025-05-30,416,369-->
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 

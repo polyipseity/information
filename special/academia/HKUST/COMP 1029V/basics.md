@@ -20,7 +20,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-04-17,58,310!2024-04-09,51,310-->
+Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-04-17,58,310!2024-09-08,152,310-->
 
 To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-05-03,71,310!2024-09-09,154,310-->
 
@@ -118,4 +118,4 @@ To accept user input, we can use {{an input box by calling `Input = InputBox(pro
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-04-14,55,310!2024-04-09,51,310!2024-09-10,155,310!2024-04-15,52,305-->
+When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-04-14,55,310!2024-09-09,153,310!2024-09-10,155,310!2024-04-15,52,305-->

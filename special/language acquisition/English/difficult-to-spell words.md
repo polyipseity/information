@@ -49,7 +49,7 @@ English
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2024-08-02,144,412!2024-06-30,117,412-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2025-02-10,311,344!2024-12-14,271,344-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i\_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2024-08-08,169,324!2024-11-13,222,284-->
-- [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2024-06-06,100,390!2024-04-09,52,350-->
+- [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2024-06-06,100,390!2024-05-05,26,330-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::: (i\_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2025-02-11,312,344!2025-03-05,334,344-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2025-02-23,324,344!2025-03-08,334,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2024-06-29,127,304!2024-11-14,223,324-->
@@ -71,7 +71,7 @@ English
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-04-18,31,376!2024-04-10,5,316-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-05-07,57,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-05-03,53,368-->
-- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-04-09,4,308-->
+- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-04-22,13,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2024-06-26,121,408!2024-07-13,117,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2024-04-26,93,290-->
