@@ -21,7 +21,7 @@ English
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2024-11-12,226,324!2024-12-05,244,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2024-08-20,170,310!2025-02-08,309,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2024-07-06,148,310!2024-07-13,141,290-->
-- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations. <!--SR:!2024-04-10,23,376!2024-04-10,23,376-->
+- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations. <!--SR:!2024-07-07,88,376!2024-04-21,11,356-->
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::: (a\_t) Earlier, in time or order. <!--SR:!2024-08-20,137,392!2024-05-15,61,352-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2025-01-05,289,344!2024-11-05,228,304-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a\_l) Man-made. <!--SR:!2024-08-01,148,410!2024-08-21,163,410-->
@@ -35,14 +35,14 @@ English
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-09-04,175,410!2024-07-14,117,350-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2024-07-09,92,376!2024-04-14,27,376-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2024-07-20,124,392!2024-08-09,149,413-->
-- [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2024-04-10,77,324-->
+- [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2024-12-14,248,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation. <!--SR:!2024-04-13,80,324!2025-02-04,305,344-->
-- [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e\_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2024-12-06,245,324!2024-04-10,65,264-->
+- [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e\_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2024-12-06,245,324!2024-09-30,173,264-->
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::: (e\_n) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2025-02-18,319,344!2024-08-05,153,304-->
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-12-15,272,344!2025-02-20,321,344-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-09-27,193,324!2024-04-13,80,324-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2025-01-24,294,344-->
-- [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2024-04-19,32,376!2024-04-10,23,376-->
+- [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2024-04-19,32,376!2024-07-06,87,376-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2025-01-02,289,330!2025-02-14,315,330-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-08-08,142,303-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2024-07-04,121,388!2024-04-19,60,348-->
@@ -68,7 +68,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2024-04-18,85,352!2024-04-14,81,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-07-21,138,410!2024-04-29,69,370-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-04-18,31,376!2024-04-10,5,316-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-04-18,31,376!2024-04-27,17,316-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-05-07,57,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-05-03,53,368-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-04-22,13,308-->

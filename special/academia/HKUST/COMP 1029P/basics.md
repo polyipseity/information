@@ -226,7 +226,7 @@ return _chain.from_iterable(await _gather(
 
 - `not`::negate <!--SR:!2024-04-15,56,310-->
 - `and`::and <!--SR:!2024-10-25,200,330-->
-- `or`::or <!--SR:!2024-04-10,52,310-->
+- `or`::or <!--SR:!2024-11-18,222,330-->
 
 <!--/pytextgen-->
 

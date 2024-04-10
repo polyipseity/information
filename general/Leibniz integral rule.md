@@ -169,7 +169,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 
 > [!tip] tips
 >
-> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-04-10,23,288!2024-05-20,50,324-->
+> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-06-16,67,288!2024-05-20,50,324-->
 
 ## applications
 
@@ -357,7 +357,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 #### other problems to solve
 
-- integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$ <!--SR:!2024-04-10,68,332-->
+- integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$ <!--SR:!2024-11-21,225,332-->
 - integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$ <!--SR:!2024-06-15,102,288-->
 - integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$ <!--SR:!2024-06-06,73,288-->
 - integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ <!--SR:!2024-07-26,114,319-->

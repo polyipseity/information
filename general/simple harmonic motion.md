@@ -19,7 +19,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2024-04-10,88,349!2024-12-19,266,349!2025-04-26,388,369-->
+>   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}} <!--SR:!2025-02-10,306,349!2024-12-19,266,349!2025-04-26,388,369-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -68,7 +68,7 @@ The solution yields the [position](position%20(geometry).md) of a simple harmoni
 > - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
 > - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
 > - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2025-04-30,441,330!2024-09-13,185,270!2025-01-31,301,270!2024-10-05,251,340!2024-11-25,291,340!2024-12-16,308,340!2024-10-21,264,340!2024-04-10,104,300!2024-07-11,164,300-->
+> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}} <!--SR:!2025-04-30,441,330!2024-09-13,185,270!2025-01-31,301,270!2024-10-05,251,340!2024-11-25,291,340!2024-12-16,308,340!2024-10-21,264,340!2025-02-17,313,300!2024-07-11,164,300-->
 
 <!-- markdownlint MD028 -->
 
