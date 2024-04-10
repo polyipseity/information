@@ -29,7 +29,7 @@ The content is in teaching order.
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2000-01-01,1,250!2024-06-20,76,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-04-10,35,279!2024-05-20,45,310-->
+  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-05-20,45,310-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2000-01-01,1,250-->
   - civil engineer characteristics ::: problem solvers
@@ -1223,9 +1223,9 @@ waves
 
 - _(begin)_→:::←earthquakes
 - earthquakes→:::←fires
-- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-04-10,2,226-->
+- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-04-15,5,226-->
 - floods→:::←strong winds
-- strong winds→:::←waves <!--SR:!2024-04-10,22,270!2000-01-01,1,250-->
+- strong winds→:::←waves <!--SR:!2024-06-07,58,270!2000-01-01,1,250-->
 - waves→:::←_(end)_
 
 <!--/pytextgen-->
