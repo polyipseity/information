@@ -5,6 +5,14 @@
 
 using namespace std;
 
+template<typename T>
+void stupid_swap(T &left, T &right)
+{
+    T temp{left};
+    left = right;
+    right = temp;
+}
+
 template <typename T>
 class Matrix {
 private:
@@ -37,6 +45,12 @@ public:
     /*
     ...
     */
+        Matrix temp{other};
+        stupid_swap(rows, temp.rows);
+        stupid_swap(cols, temp.cols);
+        stupid_swap(data, temp.data);
+        stupid_swap(dummy, temp.dummy);
+        return *this;
     }
 
     T& operator()(size_t row, size_t col) {
@@ -63,6 +77,19 @@ public:
     /*
     ...
     */
+        for (size_t row{}; row < matrix.rows; ++row)
+        {
+            for (size_t col{}; col < matrix.cols; ++col)
+            {
+                if (col > 0)
+                    os << ' ';
+                os << matrix(row, col);
+            }
+            if (row < matrix.rows - 1)
+                os << '\n';
+        }
+        os << flush;
+        return os;
     }
 
 
@@ -73,6 +100,13 @@ public:
     /*
     ...
     */
+        Matrix temp{*this};
+        for (size_t row{}; row < rows; ++row)
+        {
+            for (size_t col{}; col < cols; ++col)
+                temp(row, col) += rhs(row, col);
+        }
+        return temp;
     }
 
     // TODO3.2: Implement the subtraction operator to subtract one matrix from another
@@ -84,6 +118,13 @@ public:
     ...
     */
 
+        Matrix temp{*this};
+        for (size_t row{}; row < rows; ++row)
+        {
+            for (size_t col{}; col < cols; ++col)
+                temp(row, col) -= rhs(row, col);
+        }
+        return temp;
     }
 
     // TODO4: Implement the multiplication operator to multiply two matrices
@@ -96,6 +137,17 @@ public:
     ...
     */
 
+        Matrix temp{rows, rhs.cols};
+        for (size_t row{}; row < rows; ++row)
+        {
+            for (size_t col{}; col < rhs.cols; ++col)
+            {
+                temp(row, col) = 0;
+                for (size_t com{}; com < cols; ++com)
+                    temp(row, col) += (*this)(row, com) * rhs(com, col);
+            }
+        }
+        return temp;
     }
 
     // TODO5: Implement the inversion operator (~) to calculate the inverse of a 2x2 matrix
@@ -105,6 +157,13 @@ public:
     /*
     ...
     */
+        T det{(*this)(0, 0) * (*this)(1, 1) - (*this)(0, 1) * (*this)(1, 0)};
+        Matrix temp{2, 2};
+        temp(0, 0) = (*this)(1, 1) / det;
+        temp(0, 1) = -(*this)(0, 1) / det;
+        temp(1, 0) = -(*this)(1, 0) / det;
+        temp(1, 1) = (*this)(0, 0) / det;
+        return temp;
     }
 
 };
