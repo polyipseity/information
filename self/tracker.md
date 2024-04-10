@@ -20,10 +20,10 @@ tags:
 - contacts
 - <https://account.microsoft.com/profile/edit-picture>: <polyipseity@outlook.com>
 - <https://appleid.apple.com/account/manage/section/information>: <polyipseity@gmail.com>
-- <https://buymeacoffee.com/polyipseity>
 - <https://discord.com/>: polyipseity
 - <https://github.com/polyipseity>
 - <https://myaccount.google.com/>: <polyipseity@gmail.com>
+- <https://studio.buymeacoffee.com/my-account/edit-profile>: polyipseity
 - <https://t.me/quizzaciously>
 - <https://twitter.com/polyipseity>
 - <https://whatsapp.com/>: (redacted)
@@ -35,6 +35,8 @@ tags:
 ### avatar set 3
 
 - <https://discord.com/>: (redacted)
+- <https://im.qq.com/>: (redacted)
+- <https://wechat.com/>: (redacted)
 
 ## email
 
