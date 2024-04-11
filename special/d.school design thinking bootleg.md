@@ -19,7 +19,7 @@ tags:
 
 ## process modules
 
-There are 5 "modes" to design thinking. Note that the "mode" order is {{only recommended and does not need to be followed. In fact, the process is nonlinear}}. <!--SR:!2024-04-21,16,290-->
+There are 5 "modes" to design thinking. Note that the "mode" order is {{only recommended and is not must be followed. In fact, the process is nonlinear}}. <!--SR:!2024-04-21,16,290-->
 
 %%
 
@@ -62,7 +62,7 @@ return await memorize_seq(
 
 ### empathize
 
-Empathy is {{the foundation of human-centered design}}. To empathize, {{observe, view users and their behaviors in their lives; engage, interact and interview users in scheduled or short intercept counters; and immerse, experience users for some time}}. <!--SR:!2024-04-22,17,290!2024-04-26,15,250-->
+Empathy is {{the foundation of human-centered design}}. To empathize: {{observe, view users and their behaviors in their lives; engage, interact and interview users in scheduled or short intercept counters; and immerse, experience in users' shoes for some time}}. <!--SR:!2024-04-22,17,290!2024-04-26,15,250-->
 
 ### define
 
@@ -78,7 +78,7 @@ Prototype is {{making your idea physical}}. In early stages, {{keep the prototyp
 
 ### test
 
-Test is {{testing your idea, gather feedback, and reiterate your design}}. It is different from prototype that {{prototype finds success while test finds failure in your design}}. <!--SR:!2024-04-16,11,270!2024-04-14,9,270-->
+Test is {{testing your idea, gather feedback, and reiterate your design}}. It is different from prototype that {{prototype finds success in your design while test finds failure}}. <!--SR:!2024-04-16,11,270!2024-04-14,9,270-->
 
 ## methods and tools
 
@@ -96,7 +96,7 @@ return await memorize_seq(
 (empathize) what, how, why: from the concrete to the abstract
 (empathize/define) journey map: dissect a user process to gain insights
 (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights
-(define) 2×2 matrix: plot a xy graph to reveal relations and for visualization
+(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization
 (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions
 (define) point of view (POV): make your design challenge into an actionable statement
 (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain
@@ -108,7 +108,7 @@ return await memorize_seq(
 
 %%
 
-<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-03-12T22:01:55.495753+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-03-22T20:40:48.750307+08:00. Any edits will be overridden! -->
 
 > 1. (empathize) assume a beginner's mindset
 > 2. (empathize) extreme users: find amplified pains and gains
@@ -117,7 +117,7 @@ return await memorize_seq(
 > 5. (empathize) what, how, why: from the concrete to the abstract
 > 6. (empathize/define) journey map: dissect a user process to gain insights
 > 7. (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights
-> 8. (define) 2×2 matrix: plot a xy graph to reveal relations and for visualization
+> 8. (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization
 > 9. (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions
 > 10. (define) point of view (POV): make your design challenge into an actionable statement
 > 11. (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain
@@ -126,7 +126,7 @@ return await memorize_seq(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-12T22:01:55.484735+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-22T20:40:48.789313+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(empathize) assume a beginner's mindset <!--SR:!2024-04-15,10,270!2024-04-22,17,290-->
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2024-04-28,17,250!2024-04-16,11,270-->
@@ -135,8 +135,8 @@ return await memorize_seq(
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-04-12,1,170!2024-04-13,5,230-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-04-12,1,190!2024-04-14,6,230-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-04-17,8,230!2024-04-20,11,230-->
-- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a xy graph to reveal relations and for visualization <!--SR:!2024-04-14,4,190!2024-04-12,4,230-->
-- (define) 2×2 matrix: plot a xy graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-04-23,13,250!2024-04-12,2,170-->
+- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-04-14,4,190!2024-04-12,4,230-->
+- (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-04-23,13,250!2024-04-12,2,170-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-04-12,4,230!2024-04-12,4,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-04-12,2,150!2024-04-17,8,230-->
 - (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-04-13,2,170!2024-04-12,4,230-->

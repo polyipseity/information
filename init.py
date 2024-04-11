@@ -7,11 +7,11 @@ from argparse import (
     Namespace as _NS,
     ONE_OR_MORE as _ONE_OR_MORE,
 )
-from asyncio import TaskGroup as _TskGrp, gather as _gather, run as _run
-from asyncstdlib import sync as _sync, tuple as _atuple
+from asyncio import Task, TaskGroup, create_task, gather as _gather, run as _run
+from asyncstdlib import sync as _sync
 from collections import defaultdict as _defdict
 from dataclasses import dataclass as _dc
-from functools import cache as _cache, wraps as _wraps
+from functools import wraps as _wraps
 from inspect import currentframe as _curframe, getframeinfo as _frameinfo
 from itertools import chain as _chain, starmap as _smap, zip_longest as _zip_l
 from json import dumps as _dumps, loads as _loads
@@ -142,12 +142,15 @@ async def main(args: Arguments):
                             open_opts = _OPEN_TXT_OPTS.copy()
                             open_opts.update({"newline": ""})
                             async with await path.open(mode="r+t", **open_opts) as file:
-                                text = await file.read()
-                                async with _TskGrp() as group:
-                                    group.create_task(file.seek(0))
-                                    text = text.replace(_linesep, "\n")
-                                await file.write(text)
-                                await file.truncate()
+                                read = await file.read()
+                                seek = create_task(file.seek(0))
+                                try:
+                                    if (text := read.replace(_linesep, "\n")) != read:
+                                        await seek
+                                        await file.write(text)
+                                        await file.truncate()
+                                finally:
+                                    seek.cancel()
                             cache[path_s] = (
                                 (await _sync(_lstat)(path)).st_mtime_ns,
                                 text,
@@ -196,9 +199,10 @@ async def main(args: Arguments):
                         finalizers.append(finalize)
                         results.append(path)
 
-                async with _TskGrp() as group:
+                async with TaskGroup() as tg:
+                    tasks = list[Task[object]]()
                     async for file in potential_files():
-                        group.create_task(process_file(file))
+                        tasks.append(tg.create_task(process_file(file)))
                 return results
 
             inputs = await gen_inputs()

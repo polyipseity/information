@@ -3,6 +3,9 @@ aliases:
   - continuity
   - continuous function
   - continuous functions
+  - discontinuity
+  - discontinuous function
+  - discontinuous functions
 tags:
   - flashcard/general/continuous_function
   - language/in/English
@@ -12,7 +15,9 @@ tags:
 
 ## real functions
 
-### continuity at a point
+### definition
+
+#### continuity at a point
 
 There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of $f$}}. <!--SR:!2024-05-07,40,290!2024-05-06,39,290-->
 
@@ -22,13 +27,15 @@ There are {{several ways}} to define whether a function is _continuous_ at a poi
 >
 > - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2024-05-09,42,290!2024-05-07,40,290-->
 
-### global continuity
+#### global continuity
 
 There are {{several incompatible definitions}} of the (global) continuity of a function, depending on the nature of its domain. <!--SR:!2024-05-08,41,290-->
 
 A function is continuous on an open [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}}. <!--SR:!2024-05-15,48,290!2024-05-14,47,304-->
 
-A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}} is also called a continuous function, but it is {{not continuous everywhere}}. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called discontinuous functions instead, confusingly. <!--SR:!2024-06-01,62,310!2024-05-11,44,290!2024-05-29,59,304!2024-05-03,42,290!2024-05-24,54,304!2024-05-04,39,290-->
+A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}} is also called a continuous function, but it is {{not continuous everywhere}}. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called _discontinuous functions_ instead, confusingly. <!--SR:!2024-06-01,62,310!2024-05-11,44,290!2024-05-29,59,304!2024-05-03,42,290!2024-05-24,54,304!2024-05-04,39,290-->
+
+A __discontinuous function__ is {{a function that is _not continuous_, so a function is either continuous or discontinuous}}.
 
 > [!tip] tips
 >
@@ -39,16 +46,16 @@ A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mat
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discountinuous at every [real](real%20number.md), and it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-05-18,48,290-->
+> - empty function $\varnothing \to X$ :: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discontinuous at every [real](real%20number.md), and it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-05-18,48,290-->
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It is continuous. Note that an isolated point is closed under the usual definition of "closed". <!--SR:!2024-05-04,37,290-->
 
-### discontinuity at a point
+#### discontinuity at a point
 
-A function is _discontinuous_ function at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}. <!--SR:!2024-04-29,34,290-->
+A function is _discontinuous_ at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}. <!--SR:!2024-04-29,34,290-->
 
 > [!tip] tips
 >
-> - neither continuous nor discountinuous ::: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$. <!--SR:!2024-05-05,38,290!2024-05-22,55,310-->
+> - neither continuous nor discontinuous ::: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$. <!--SR:!2024-05-05,38,290!2024-05-22,55,310--> An exaggerated example is that all [real-valued functions](real-valued%20function.md) are not defined at [Mount Everest](Mount%20Everest.md).
 > - [topological closure](closure%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$. <!--SR:!2024-06-02,63,310!2024-05-09,42,304-->
 
 <!-- markdownlint MD028 -->
@@ -61,7 +68,7 @@ A function is _discontinuous_ function at a point {{if the point is in the [topo
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$. <!--SR:!2024-05-03,38,290-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not discontinuous at $-1$. <!--SR:!2024-05-18,53,310-->
 
-### definition in terms of limits of functions
+#### definition in terms of limits of functions
 
 A function $f$ is _continuous_ at a point $c$ {{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of $f$}}. <!--SR:!2024-05-09,42,304-->
 
@@ -76,6 +83,55 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$. <!--SR:!2024-05-31,61,310-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$. <!--SR:!2024-05-10,43,290-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-04-27,37,290-->
+
+### construction of continuous functions
+
+The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot f^{-1} = f / f = 1$ are continuous, so the antecedent and the consequent cannot be swapped}}.
+
+> [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
+>
+> Using the above definitions...
+>
+> $f \pm g$: Let $\epsilon > 0$ be an arbitrary real. Choose any $c$ in $D$. By continuity, there is a $\delta_f > 0$ such that $0 < \lvert f(x) - f(c) \rvert < \epsilon / 2$ for all $x$ in $D$ that satisfies $0 < \lvert x - c \rvert < \delta_f$. Similarly, there is a $\delta_g > 0$ such that $0 < \lvert g(x) - g(c) \rvert < \epsilon / 2$ for all $x$ in $D$ that satisfies $0 < \lvert x - c \rvert < \delta_g$. Let $\delta > 0$ be the minimum of $\delta_f$ and $\delta_g$. Then for all $x$ in $D$ that satisfies $0 < \lvert x - c \rvert < \delta$, we have $$\begin{aligned}
+> \lvert (f(x) \pm g(x)) - (f(c) \pm g(c)) \rvert & = \lvert (f(x) - f(c)) \pm (g(x) - g(c)) \rvert \\
+> & \le \lvert f(x) - f(c) \rvert + \lvert g(x) - g(c) \rvert \\
+> & < \epsilon / 2 + \epsilon / 2 \\
+> & = \epsilon
+> \end{aligned}$$, as required.
+>
+> $f \cdot g$: Let $\epsilon > 0$ be an arbitrary real. Choose any $c$ in $D$. Consider $$\begin{aligned}
+> \lvert f(x) g(x) - f(c) g(c) \rvert & = \lvert (f(x) - f(c)) (g(x) - g(c)) + f(x) g(c) + f(c) g(x) - 2 f(c) g(c) \rvert \\
+> & = \lvert (f(x) - f(c)) (g(x) - g(c)) + (f(x) - f(c)) g(c) + f(c) (g(x) - g(c)) \rvert \\
+> & \le \lvert f(x) - f(c) \rvert \lvert g(x) - g(c) \rvert + \lvert f(x) - f(c) \rvert \lvert g(c) \rvert + \lvert f(c) \rvert \lvert g(x) - g(c) \rvert
+> \end{aligned}$$. By continuity, $\lvert f(x) - f(c) \rvert > 0$ and $\lvert g(x) - g(c) \rvert > 0$ can be as small as we want for all $x$ in an interval near $c$ in $D$. So we can always choose two small enough errors for the above two expressions such that $0 < \lvert f(x) - f(c) \rvert \lvert g(x) - g(c) \rvert + \lvert f(x) - f(c) \rvert \lvert g(c) \rvert + \lvert f(c) \rvert \lvert g(x) - g(c) \rvert < \epsilon$. Note that $\lvert f(c) \rvert$ and $\lvert g(c) \rvert$ do not depend on $x$ and are constants. Finally, $0 < \lvert f(x) g(x) - f(c) g(c) \rvert < \epsilon$, as required.
+>
+> $1 / g$: Let $\epsilon > 0$ be an arbitrary real. Let $g'$ be the restriction of $g$ to $D' := \set{x \in D : g(x) \ne 0}$. Choose any $c$ in $D'$. Let $\epsilon' := \lvert g(x) - g(c) \rvert$. Consider $$\begin{aligned}
+> \lvert 1 / g'(x) - 1 / g'(c) \rvert & = \lvert (g'(c) - g'(x)) / (g'(x) g'(c)) \rvert \\
+> & = \lvert g'(x) - g'(c) \rvert / \lvert g'(x) g'(c) \rvert \\
+> & = \frac {\epsilon'} {\left\lvert (g'(x) - g'(c)) g'(c) + (g'(c))^2 \right\rvert} \\
+> & = \frac {\epsilon'} {\lvert (g'(x) - g'(c)) g'(c) \rvert + (g'(c))^2} \\
+> & = \frac {\epsilon'} {\lvert (g'(x) - g'(c)) \rvert \lvert g'(c) \rvert + (g'(c))^2} \\
+> & = \frac {\epsilon'} {\epsilon' \lvert g'(c) \rvert + (g'(c))^2}
+> \end{aligned}$$. Set the expression to be less than $\epsilon$: $$\begin{aligned}
+> \frac {\epsilon'} {\epsilon' \lvert g'(c) \rvert + (g'(c))^2} & < \epsilon \\
+> \epsilon' & < \epsilon' \epsilon \lvert g'(c) \rvert + \epsilon (g'(c))^2 \\
+> \epsilon' - \epsilon' \epsilon \lvert g'(c) \rvert & < \epsilon (g'(c))^2 \\
+> \epsilon' (1 - \epsilon \lvert g'(c) \rvert) & < \epsilon (g'(c))^2 \\
+> \epsilon' & \begin{cases} < \frac {\epsilon (g'(c))^2} {1 - \epsilon \lvert g'(c) \rvert} & \text{if } 1 - \epsilon \lvert g'(c) \rvert > 0 \\
+> \in \mathbb{R}, \epsilon (g'(c))^2 > 0 & \text{if } 1 - \epsilon \lvert g'(c) \rvert = 0 \\
+> {>} \frac {\epsilon (g'(c))^2} {1 - \epsilon \lvert g'(c) \rvert} & \text{if } 1 - \epsilon \lvert g'(c) \rvert < 0
+> \end{cases}
+> \end{aligned}$$. Note that the above $\epsilon'$ only depends on $\epsilon$ and $c$ but not $x$. So by the continuity of $g'$, we can choose $\epsilon' > 0$ arbitrarily small (or large) for all $x$ near $c$ in $D'$. The first case can always be satisfied by choosing $\epsilon'$ small enough. The second case can always be satisfied as $\epsilon (g'(c))^2 > 0$. The third case can always be satisfied as the expression on the right is always negative. So $0 < \lvert 1 / g'(x) - 1 / g'(c) \rvert < \epsilon$, as required.
+>
+> $f / g$: Let $f'$ and $g'$ be the restriction of respectively $f$ and $g$ to $D' := \set{x \in D : g(x) \ne 0}$. Let $h := 1 / g'$. Then $h$ is continuous by above. Let $f' / g' := f' \cdot h$. Then $f' / g'$ is continuous by above, as required.
+
+Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md) such that $g \circ f$ is continuous, so the antecedent and the consequent cannot be swapped}}.
+
+> [!info]- proof of the set of continuous functions being closed under function composition
+>
+> Using the above definitions...
+>
+> $g \circ f$: Let $\epsilon > 0$ be an arbitrary real. Choose any $c_g$ in $D_g$. By continuity, there is a $\delta_g > 0$ such that $0 < \lvert g(x) - g(c_g) \rvert < \epsilon$ for all $x$ in $D_g$ that satisfies $0 < \lvert x - c_g \rvert < \delta_g$. Now choose any $c$ in $D_f$. By continuity, using $\delta_g$ as the error, there is a $\delta > 0$ such that $0 < \lvert f(x) - f(c) \rvert < \delta_g$ for all $x$ in $D_f$ that satisfies $0 < \lvert x - c \rvert < \delta$. By combining them, there is a $\delta > 0$ such that $0 < \lvert g(f(x)) - g(f(c)) \rvert < \epsilon$ for all $x$ in $D_f$ that satisfies $0 < \lvert x - c \rvert < \delta$, as required.
 
 ## references
 
