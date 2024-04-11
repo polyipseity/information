@@ -17,7 +17,7 @@ tags:
 
 The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}.
 
-- [continuity](../general/continuous%20function.md) and discontinuity ::: It is not continuous and discontinuous at every [real](../general/real%20number.md).
+- [continuity](../general/continuous%20function.md) and discontinuity ::: It is neither continuous nor discontinuous at every [real](../general/real%20number.md).
   - global continuity ::: It is a [discontinuous function](../general/continuous%20function.md).
 - [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md).
 

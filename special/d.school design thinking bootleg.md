@@ -78,7 +78,7 @@ Prototype is {{making your idea physical}}. In early stages, {{keep the prototyp
 
 ### test
 
-Test is {{testing your idea, gather feedback, and reiterate your design}}. It is different from prototype that {{prototype finds success while test finds failure in your design}}.
+Test is {{testing your idea, gather feedback, and reiterate your design}}. It is different from prototype that {{prototype finds success in your design while test finds failure}}.
 
 ## methods and tools
 
