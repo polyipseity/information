@@ -11,7 +11,7 @@ tags:
 
 A Java class is never complete without teaching objects!
 
-To help with debugging objects, one can use {{the [object bench](BlueJ.md#object%20bench)}} in BlueJ. <!--SR:!2024-04-11,52,310-->
+To help with debugging objects, one can use {{the [object bench](BlueJ.md#object%20bench)}} in BlueJ. <!--SR:!2024-09-15,157,310-->
 
 ## almost everything is an object
 
@@ -19,7 +19,7 @@ In Java, {{everything except for primitive types}} are objects. Primitive types 
 
 ## equality
 
-Comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. <!--SR:!2024-04-11,53,310-->
+Comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. <!--SR:!2024-11-21,224,330-->
 
 This explains why `equals` is used instead of `==` for `String`s in [string § equality](string.md#equality).
 
@@ -80,7 +80,7 @@ The parameter types indicates {{the types of the method inputs}}. It is possible
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-04-11,52,310!2024-04-13,54,310-->
+A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-09-11,153,310!2024-04-13,54,310-->
 
 ```Java
 ClassName(ParameterTypes parameterNames) {

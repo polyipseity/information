@@ -355,7 +355,7 @@ return chain.from_iterable(await gather(
 - scandium(III) ion::colorless <!--SR:!2024-04-12,42,282-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-04-13,4,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-05-02,72,182-->
-- vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-04-11,1,130-->
+- vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-04-13,2,150-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
 
 <!--/pytextgen-->
@@ -446,7 +446,7 @@ return chain.from_iterable(await gather(
 - bromide ion::1- <!--SR:!2025-03-11,823,293-->
 - iodide ion::1- <!--SR:!2027-03-29,1317,279-->
 - hydroxide ion::1- <!--SR:!2026-10-01,1257,313-->
-- nitrate ion::1- <!--SR:!2024-04-11,436,270-->
+- nitrate ion::1- <!--SR:!2027-07-01,1176,270-->
 - nitrite ion::1- <!--SR:!2028-08-11,1747,312-->
 - hydrogencarbonate ion::1- <!--SR:!2028-08-20,1752,310-->
 - hydrogensulfite ion::1- <!--SR:!2024-12-16,746,319-->

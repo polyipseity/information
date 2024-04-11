@@ -96,13 +96,13 @@ return await memorize_map(
 - normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-04-15,83,340-->
 - divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2025-03-06,336,360-->
 - divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-07-27,148,320-->
-- divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2024-04-11,79,340-->
+- divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2025-04-14,368,360-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\cos^2 6.52 + \sin^2 6.52$ ::: $1$ <!--SR:!2024-04-11,79,340!2025-03-19,350,360-->
+> - $\cos^2 6.52 + \sin^2 6.52$ ::: $1$ <!--SR:!2025-04-15,369,360!2025-03-19,350,360-->
 > - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$ <!--SR:!2024-11-23,237,340!2025-04-09,364,360-->
 > - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$ <!--SR:!2024-12-15,251,340!2024-06-14,116,320-->
 > - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2024-11-16,233,339!2024-04-25,34,320-->
