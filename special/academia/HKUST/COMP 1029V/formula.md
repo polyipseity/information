@@ -23,7 +23,7 @@ A formula always {{starts with an equals sign `=`}}. <!--SR:!2024-05-02,70,310--
 
 ## cell reference
 
-To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-04-11,52,310-->
+To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-11-10,213,330-->
 
 When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-04-29,67,310!2024-04-28,67,310-->
 
@@ -355,10 +355,10 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-04-20,48,270!2024-04-12,54,310-->
-- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-06-15,89,290!2024-04-11,53,310-->
+- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-06-15,89,290!2024-05-12,31,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-04-27,65,310!2024-04-26,22,270-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-06-22,78,230!2024-05-29,79,270-->
-- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-04-17,58,310!2024-04-11,53,310-->
+- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-04-17,58,310!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-05-15,40,210!2024-07-04,108,270-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-07-23,110,250!2024-04-18,49,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-05-03,71,310!2024-04-22,50,270-->

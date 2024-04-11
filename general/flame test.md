@@ -50,7 +50,7 @@ return await memorize_seq(
 - _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2024-07-01,296,270!2024-04-12,292,330-->
 - Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2024-08-15,358,290!2024-08-08,354,290-->
 - Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2024-08-13,357,290!2025-01-07,473,310-->
-- Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2024-04-11,291,330!2025-07-06,616,310-->
+- Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2026-11-26,959,330!2025-07-06,616,310-->
 - Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2024-04-20,298,330!2026-07-16,917,330-->
 
 <!--/pytextgen-->
@@ -99,7 +99,7 @@ return await memorize_map(
 - [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-06-17,92,190-->
 - [iron](iron.md)(III)::orange-brown <!--SR:!2024-04-29,54,210-->
 - [magnesium](magnesium.md)::intense white <!--SR:!2024-08-06,196,270-->
-- [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-04-11,79,190-->
+- [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-09-07,149,190-->
 - [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-08-03,185,190-->
 
 <!--/pytextgen-->

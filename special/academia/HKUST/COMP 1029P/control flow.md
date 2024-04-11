@@ -20,7 +20,7 @@ if condition:
 
 The semantics of `if` is obvious: {{If the condition is `true`, then the following statement is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-14,55,310-->
 
-An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-04-11,52,310-->
+An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-09-24,166,310-->
 
 ```Python
 if condition:
@@ -29,7 +29,7 @@ else:
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-11,53,310-->
+The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-09-26,168,310-->
 
 In Python, one usually does not chain `if...else`. Instead, Python provides {{the keyword `elif` so that `if...elif...else` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2024-04-21,61,310-->
 

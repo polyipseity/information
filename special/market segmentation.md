@@ -14,7 +14,7 @@ A market segment is {{a group of customers sharing the same interest, traits, an
 
 ### segmentation variables
 
-Traditional variables include {{[demographic](#demographic%20segmentation), [geographic](#geographic%20segmentation), [psychographic](#psychographic-segmentation), [behavioral](#behavioral-segmentation), and [product-specific](#product-specific%20segmentation)}}. <!--SR:!2024-04-11,6,250-->
+Traditional variables include {{[demographic](#demographic%20segmentation), [geographic](#geographic%20segmentation), [psychographic](#psychographic-segmentation), [behavioral](#behavioral-segmentation), and [product-specific](#product-specific%20segmentation)}}. <!--SR:!2024-04-27,16,250-->
 
 #### demographic segmentation
 
@@ -26,7 +26,7 @@ Geographic segmentation divides the market by {{location-related variables}}. <!
 
 #### psychographic segmentation
 
-Psychographic segmenetation divides the market by {{interests, lifestyles, motives, personality, and values}}. <!--SR:!2024-04-11,6,250-->
+Psychographic segmenetation divides the market by {{interests, lifestyles, motives, personality, and values}}. <!--SR:!2024-04-26,15,250-->
 
 #### behavioral segmentation
 
