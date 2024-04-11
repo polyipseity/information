@@ -35,7 +35,7 @@ A function is continuous on an open [interval](interval%20(mathematics).md) {{if
 
 A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}} is also called a continuous function, but it is {{not continuous everywhere}}. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called _discontinuous functions_ instead, confusingly. <!--SR:!2024-06-01,62,310!2024-05-11,44,290!2024-05-29,59,304!2024-05-03,42,290!2024-05-24,54,304!2024-05-04,39,290-->
 
-A __discontinuous function__ is {{a function that is _not continuous_, so a function is either continuous or discontinuous}}.
+A __discontinuous function__ is {{a function that is _not continuous_, so a function is either continuous or discontinuous}}. <!--SR:!2024-04-16,4,313-->
 
 > [!tip] tips
 >
@@ -86,7 +86,7 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 
 ### construction of continuous functions
 
-The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot f^{-1} = f / f = 1$ are continuous, so the antecedent and the consequent cannot be swapped}}.
+The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot f^{-1} = f / f = 1$ are continuous, so the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-04-16,4,313!2024-04-16,4,313!2024-04-16,4,313!2024-04-16,4,313-->
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
@@ -125,7 +125,7 @@ The set of continuous functions is closed under {{addition, subtraction, multipl
 >
 > $f / g$: Let $f'$ and $g'$ be the restriction of respectively $f$ and $g$ to $D' := \set{x \in D : g(x) \ne 0}$. Let $h := 1 / g'$. Then $h$ is continuous by above. Let $f' / g' := f' \cdot h$. Then $f' / g'$ is continuous by above, as required.
 
-Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md) such that $g \circ f$ is continuous, so the antecedent and the consequent cannot be swapped}}.
+Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md) such that $g \circ f$ is continuous, so the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-04-16,4,313!2024-04-16,4,313!2024-04-16,4,313!2024-04-16,4,313-->
 
 > [!info]- proof of the set of continuous functions being closed under function composition
 >
