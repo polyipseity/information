@@ -28,32 +28,32 @@ Value proposition design is for:
 return await memorize_seq(
   __env__.cwf_sects("28ba", "e441",),
   R"""
-disappointed by failure of a good idea vs. design, test, and deliver what customers want
-frustrated by unproductive meetings and teams vs. leverage the team fully
-involved in failed bold shiny projects vs. avoid wasting time in bad ideas
-overwhelmed by true value creation vs. understand patterns of value creation
+idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas
+implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want
+teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully
+value: overwhelmed by true value creation vs. understand patterns of value creation
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-13T20:27:37.405079+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-22T20:40:48.774310+08:00. Any edits will be overridden! -->
 
-> 1. disappointed by failure of a good idea vs. design, test, and deliver what customers want
-> 2. frustrated by unproductive meetings and teams vs. leverage the team fully
-> 3. involved in failed bold shiny projects vs. avoid wasting time in bad ideas
-> 4. overwhelmed by true value creation vs. understand patterns of value creation
+> 1. idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas
+> 2. implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want
+> 3. teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully
+> 4. value: overwhelmed by true value creation vs. understand patterns of value creation
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-13T20:27:37.439260+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.753308+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←disappointed by failure of a good idea vs. design, test, and deliver what customers want
-- disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←frustrated by unproductive meetings and teams vs. leverage the team fully
-- frustrated by unproductive meetings and teams vs. leverage the team fully→:::←involved in failed bold shiny projects vs. avoid wasting time in bad ideas
-- involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←overwhelmed by true value creation vs. understand patterns of value creation
-- overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_
+- _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas
+- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want
+- implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully
+- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation
+- value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -88,38 +88,38 @@ There are several [common mistakes](#customer%20profile%20common%20mistakes) to 
 return await memorize_seq(
   __env__.cwf_sects("ee21", "39ba",),
   R"""
-focusing on functional jobs only
-listing jobs, pains, and gains using your product value propositions
-mixing customer segments
-mixing jobs and outcomes
-not enough jobs, pains, and gains
-vague jobs, pains, and gains
+hyperfocus: focusing on functional jobs only
+insufficiency: not enough jobs, pains, and gains
+mix: mixing customer segments
+mix: mixing jobs and outcomes
+reversed: listing jobs, pains, and gains from your product value propositions
+vagueness: vague jobs, pains, and gains
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-03-18T19:56:56.289497+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-03-22T20:40:48.820922+08:00. Any edits will be overridden! -->
 
-> 1. focusing on functional jobs only
-> 2. listing jobs, pains, and gains using your product value propositions
-> 3. mixing customer segments
-> 4. mixing jobs and outcomes
-> 5. not enough jobs, pains, and gains
-> 6. vague jobs, pains, and gains
+> 1. hyperfocus: focusing on functional jobs only
+> 2. insufficiency: not enough jobs, pains, and gains
+> 3. mix: mixing customer segments
+> 4. mix: mixing jobs and outcomes
+> 5. reversed: listing jobs, pains, and gains from your product value propositions
+> 6. vagueness: vague jobs, pains, and gains
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-18T19:56:56.268986+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←focusing on functional jobs only
-- focusing on functional jobs only→:::←listing jobs, pains, and gains using your product value propositions
-- listing jobs, pains, and gains using your product value propositions→:::←mixing customer segments
-- mixing customer segments→:::←mixing jobs and outcomes
-- mixing jobs and outcomes→:::←not enough jobs, pains, and gains
-- not enough jobs, pains, and gains→:::←vague jobs, pains, and gains
-- vague jobs, pains, and gains→:::←_(end)_
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only
+- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments
+- mix: mixing customer segments→:::←mix: mixing jobs and outcomes
+- mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains
+- vagueness: vague jobs, pains, and gains→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -142,38 +142,38 @@ There are several [common mistakes](#value%20map%20common%20mistakes) to be awar
 return await memorize_seq(
   __env__.cwf_sects("ec13", "8ba2",),
   R"""
-addressing all customer pains and gains
-listing all products and services without considering the customer segment
-mixing products and services with pain relievers and gain creators
-offer irrelevant pain relievers and gain creators
+all: addressing all customer pains and gains
+irrelevance: listing all products and services without considering the customer segment
+irrelevance: offer irrelevant pain relievers and gain creators
+mix: mixing products and services with pain relievers and gain creators
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="ec13"--><!-- The following content is generated at 2024-03-18T19:56:56.335505+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ec13"--><!-- The following content is generated at 2024-03-22T20:40:48.940505+08:00. Any edits will be overridden! -->
 
-> 1. addressing all customer pains and gains
-> 2. listing all products and services without considering the customer segment
-> 3. mixing products and services with pain relievers and gain creators
-> 4. offer irrelevant pain relievers and gain creators
+> 1. all: addressing all customer pains and gains
+> 2. irrelevance: listing all products and services without considering the customer segment
+> 3. irrelevance: offer irrelevant pain relievers and gain creators
+> 4. mix: mixing products and services with pain relievers and gain creators
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-18T19:56:56.299513+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←addressing all customer pains and gains
-- addressing all customer pains and gains→:::←listing all products and services without considering the customer segment
-- listing all products and services without considering the customer segment→:::←mixing products and services with pain relievers and gain creators
-- mixing products and services with pain relievers and gain creators→:::←offer irrelevant pain relievers and gain creators
-- offer irrelevant pain relievers and gain creators→:::←_(end)_
+- _(begin)_→:::←all: addressing all customer pains and gains
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment
+- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_
 
 <!--/pytextgen-->
 
 ### fit
 
-Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfying customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-04-19,14,290!2024-05-08,30,270-->
+Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-04-19,14,290!2024-05-08,30,270-->
 
 However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2024-04-22,17,290-->
 
@@ -244,41 +244,41 @@ Test is {{reducing risk and uncertainty of new ideas and then improving your val
 return await memorize_seq(
   __env__.cwf_sects("9ba1", "c301",),
   R"""
-extracting hypotheses
-prioritizing hypotheses
-designing tests
-prioritizing tests
-running tests
-capturing findings
-making progress
+hypothesis: extract hypotheses
+hypothesis: prioritize hypotheses
+test: design tests
+test: prioritize tests
+test: run tests
+conclusion: capture findings
+conclusion: make progress
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="9ba1"--><!-- The following content is generated at 2024-03-18T19:56:56.524257+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="9ba1"--><!-- The following content is generated at 2024-03-22T20:40:48.970504+08:00. Any edits will be overridden! -->
 
-> 1. extracting hypotheses
-> 2. prioritizing hypotheses
-> 3. designing tests
-> 4. prioritizing tests
-> 5. running tests
-> 6. capturing findings
-> 7. making progress
+> 1. hypothesis: extract hypotheses
+> 2. hypothesis: prioritize hypotheses
+> 3. test: design tests
+> 4. test: prioritize tests
+> 5. test: run tests
+> 6. conclusion: capture findings
+> 7. conclusion: make progress
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-18T19:56:56.553260+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←extracting hypotheses
-- extracting hypotheses→:::←prioritizing hypotheses
-- prioritizing hypotheses→:::←designing tests <!--SR:!2000-01-01,1,250!2024-04-13,8,250-->
-- designing tests→:::←prioritizing tests <!--SR:!2000-01-01,1,250!2024-04-15,10,270-->
-- prioritizing tests→:::←running tests <!--SR:!2000-01-01,1,250!2024-04-19,14,290-->
-- running tests→:::←capturing findings
-- capturing findings→:::←making progress
-- making progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-15,7,250-->
+- _(begin)_→:::←hypothesis: extract hypotheses
+- hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses
+- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2000-01-01,1,250!2024-04-13,8,250-->
+- test: design tests→:::←test: prioritize tests <!--SR:!2000-01-01,1,250!2024-04-15,10,270-->
+- test: prioritize tests→:::←test: run tests <!--SR:!2000-01-01,1,250!2024-04-19,14,290-->
+- test: run tests→:::←conclusion: capture findings
+- conclusion: capture findings→:::←conclusion: make progress
+- conclusion: make progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-15,7,250-->
 
 <!--/pytextgen-->
 

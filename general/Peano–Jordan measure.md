@@ -19,7 +19,7 @@ tags:
 
 Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!-- LaTeX separator -->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}: <!--SR:!2024-09-14,157,310!2024-04-14,54,310-->
 
-$$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}$$
+$$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}, a_i < b_i$$
 
 Note that the intervals being half-open is {{a technical choice and it could also be open or closed, as seen below in this section}}. When $n = 1, 2, 3$, a $n$-dimensional rectangle corresponds to {{respectively a [line segment](line%20segment.md), a [rectangle](rectangle.md), and a [cuboid](cuboid.md)}}. <!--SR:!2024-04-30,67,310!2024-04-23,62,310-->
 

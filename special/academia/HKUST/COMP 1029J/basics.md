@@ -33,7 +33,7 @@ To assign a value or the result of an expression to a variable, use {{`=`}}: <!-
 variableName = 1 + 2;
 ```
 
-One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Alternatively, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-09-15,160,310!2024-04-22,63,310-->
+One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Optionally, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-09-15,160,310!2024-04-22,63,310-->
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers

@@ -1,4 +1,7 @@
 ---
+aliases:
+  - CoCl2
+  - cobalt(II) chloride
 tags:
   - flashcard/general/cobalt_II__chloride
   - language/in/English
