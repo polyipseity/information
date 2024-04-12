@@ -74,7 +74,7 @@ The content is in teaching order.
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach the sequential _k_-means and forgetful sequential _k_-means.
+  - _k_-means clustering variations ::: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means.
 
 ## week 5 tutorial
 
@@ -86,7 +86,6 @@ The content is in teaching order.
 ## week 5 lecture 2
 
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach the sequential _k_-means and forgetful sequential _k_-means.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
