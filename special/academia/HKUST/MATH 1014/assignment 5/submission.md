@@ -151,10 +151,10 @@ A __median__ of a triangle is a line that passes through both a vertex of the tr
 > $$\begin{aligned}
 > & n \in \mathbb{Z}_{\ge 2} \\
 > & \text{Let }\mathbf{a}, \mathbf{b}, \mathbf{c} \in \mathbb{R}^n\text{ be the position vectors of vertices of a triangle.} \\
-> & \mathbf{x} := \frac {\mathbf{a} + \mathbf{b} + \mathbf{c}} 3\text{.} \\
+> & \mathbf{x} := \frac {\mathbf{a} + \mathbf{b} + \mathbf{c} } 3\text{.} \\
 > & \mathbf{x_a} := \mathbf{x} - \mathbf{a} = \frac{-2 \mathbf{a} + \mathbf{b} + \mathbf{c} } 3 \\
 > & \mathbf{x_b} := \mathbf{x} - \mathbf{b} = \frac{\mathbf{a} - 2 \mathbf{b} + \mathbf{c} } 3 \\
-> & \mathbf{x_c} := \mathbf{x} - \mathbf{c} = \frac{\mathbf{a} + \mathbf{b} - 2\mathbf{c}} 3 \\
+> & \mathbf{x_c} := \mathbf{x} - \mathbf{c} = \frac{\mathbf{a} + \mathbf{b} - 2\mathbf{c} } 3 \\
 > & \phantom{=} \frac 3 2 \mathbf{x_a} \\
 > & = \frac {-6 \mathbf{a} + 3 \mathbf{b} + 3 \mathbf{c} } 6 \\
 > & = -\mathbf{a} + \frac 1 2 \mathbf{b} + \frac 1 2 \mathbf{c} \\
@@ -227,7 +227,7 @@ Prove that the three altitudes of a triangle are concurrent.
 > \mathbf{b} + y\mathbf{A_b} & = \mathbf{b} + \frac {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - \lVert \mathbf{a} \rVert^2 \lVert \mathbf{b} \rVert^2} {\lVert \mathbf{a} \rVert ^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \left(-\frac {\mathbf{a} \cdot \mathbf{b} } {\lVert \mathbf{a} \rVert^2} \mathbf{a} + \mathbf{b} \right) \\
 > & = \frac {\lVert \mathbf{b} \rVert^2 \mathbf{a} \cdot \mathbf{b}  - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert ^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \mathbf{a} + \frac {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \mathbf{b} \\
 > & = \frac {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \left(\frac {\lVert \mathbf{b} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} \mathbf{a} + \mathbf{b} \right) \\
-> & = \frac {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \left(\frac {\lVert \mathbf{b} \rVert^2 - \mathbf{a} \cdot \mathbf{b}} {\lVert \mathbf{a} \rVert^2 - \mathbf{a} \cdot \mathbf{b}} \mathbf{a} + \mathbf{b} \right) \\
+> & = \frac {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \left(\frac {\lVert \mathbf{b} \rVert^2 - \mathbf{a} \cdot \mathbf{b} } {\lVert \mathbf{a} \rVert^2 - \mathbf{a} \cdot \mathbf{b} } \mathbf{a} + \mathbf{b} \right) \\
 > & = \frac {\lVert \mathbf{a} \rVert^2 \mathbf{a} \cdot \mathbf{b} - (\mathbf{a} \cdot \mathbf{b})^2} {\lVert \mathbf{a} \rVert^2 \lVert \mathbf{b} \rVert^2 - (\mathbf{a} \cdot \mathbf{b})^2} \mathbf{A_o} \end{aligned} \\
 > & \because \text{The intersection of the two altitudes starting from }\mathbf{a}\text{ and }\mathbf{b} \\
 > & \phantom{\because} \text{is a direction vector of the altitude starting from }\mathbf{o}\text{,} \\
@@ -359,14 +359,30 @@ Let $P$ be a point on a <span style="color: red;">smooth</span> curve $r = f(\th
 -->
 
 > $$\begin{aligned}
-> & \text{Rotate the curve such that }\theta = \frac \pi 2\text{.} \\
-> & \alpha\text{ does not change in this transformation by symmetry.} \\
-> & (x, y) = (r \cos\theta, r \sin\theta) = (f(\theta) \cos\theta, f(\theta) \sin\theta) \\
+> \mathbf{p} & := \langle \cos\theta, \sin\theta \rangle \\
+> \mathbf{p} \cdot \mathbf{p} & = 1 \\
 > \\
-> & \text{Then the line starting with }f'(\theta)\text{ as the slope is the tangent.} \\
-> & \text{Consider the triangle enclosed by the horizontal, the vertical, and the line.} \\
-> & \begin{aligned} \cos \alpha & = \frac {f(\theta)} {\sqrt{f(\theta)^2 + \frac {f(\theta)^2} {f'(\theta)^2} } } \\
-> & = \frac {f(\theta)} {f(\theta) \frac 1 {\lvert f'(\theta) \rvert} \sqrt{f'(\theta)^2 + 1}} \end{aligned}
+> \mathbf{p}' & = \langle -\sin\theta, \cos\theta \rangle \\
+> \mathbf{p}' \cdot \mathbf{p}' & = 1 \\
+> \\
+> \mathbf{p} \cdot \mathbf{p'} & = -\sin\theta \cos\theta + \sin\theta \cos\theta \\
+> & = 0 \\
+> \\
+> \mathbf{P} & = \langle r \cos\theta, r \sin\theta \rangle \\
+> & = \langle f(\theta) \cos\theta, f(\theta) \sin\theta \rangle \\
+> & = f(\theta) \langle \cos\theta, \sin\theta \rangle \\
+> & = f(\theta) \mathbf{p} \\
+> \mathbf{P} \cdot \mathbf{P} & = f(\theta)^2 \mathbf{p} \cdot \mathbf{p} \\
+> & = f(\theta)^2 \\
+> \\
+> \mathbf{P}' & = f'(\theta) \mathbf{p} + f(\theta) \mathbf{p}' \\
+> \mathbf{P}' \cdot \mathbf{P}' & = f'(\theta)^2 + f(\theta)^2 \\
+> \\
+> \mathbf{P} \cdot \mathbf{P'} & = f(\theta)f'(\theta) \\
+> \\
+> \cos\alpha & = \frac {\lvert \mathbf{P} \cdot \mathbf{P}' \rvert} {\lVert \mathbf{P} \rVert \lVert \mathbf{P}' \rVert} && (\alpha\text{ is acute}) \\
+> & = \frac{\lvert f(\theta) f'(\theta) \rvert} { \lvert f(\theta) \rvert  \sqrt{f(\theta)^2 + f'(\theta)^2} } \\
+> & = \frac {\lvert f'(\theta) \rvert} {\sqrt{f(\theta)^2 + f'(\theta)^2} }
 > \end{aligned}$$
 
 ### Q22.b
