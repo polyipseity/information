@@ -109,7 +109,7 @@ return _chain.from_iterable(await _gather(
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-04-28,68,310-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-04-13,56,310-->
 - `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-04-16,58,310-->
-- `int`::An integer. Example: `42` <!--SR:!2024-04-12,55,310-->
+- `int`::An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
 
 <!--/pytextgen-->
 
@@ -288,7 +288,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.690328+08:00. Any edits will be overridden! -->
 
-- `<`::lesser than <!--SR:!2024-04-12,54,310-->
+- `<`::lesser than <!--SR:!2024-12-02,234,330-->
 - `>`::greater than <!--SR:!2024-04-18,59,310-->
 - `<=`::lesser than or equal to <!--SR:!2024-04-29,68,310-->
 - `>=`::greater than or equal to <!--SR:!2024-04-22,63,310-->
@@ -347,7 +347,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`!` <!--SR:!2024-04-20,61,310!2024-07-29,133,310-->
 - `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-04-16,58,310-->
 - `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2024-04-21,62,310!2024-04-20,60,310-->
-- <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-04-12,55,310!2024-09-02,150,310-->
+- <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-12-06,238,330!2024-09-02,150,310-->
 
 <!--/pytextgen-->
 

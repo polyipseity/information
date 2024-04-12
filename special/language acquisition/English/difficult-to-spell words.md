@@ -12,7 +12,7 @@ tags:
 
 English
 
-- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2024-04-25,82,363!2024-04-12,67,343-->
+- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2024-04-25,82,363!2024-11-27,229,343-->
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-12-15,254,363!2024-11-02,208,343-->
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2024-04-16,29,376!2024-04-20,33,376-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2025-01-28,298,344-->
@@ -58,7 +58,7 @@ English
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2024-07-30,145,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2024-07-15,130,412!2024-05-05,69,372-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o\_e) An event or happening. <!--SR:!2024-08-28,170,410!2024-04-22,59,350-->
-- [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2024-04-12,78,358-->
+- [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2025-01-15,278,358-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p\_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2025-02-09,310,344!2024-11-17,226,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2024-06-16,104,264!2024-06-19,129,304-->
@@ -75,7 +75,7 @@ English
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2024-06-26,121,408!2024-07-13,117,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2024-04-26,93,290-->
-- [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2024-04-12,79,352!2024-09-25,209,352-->
+- [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-04-17,30,376!2024-05-27,52,356-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-07-22,105,376!2024-05-06,31,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2024-04-14,27,376!2024-04-13,26,376-->

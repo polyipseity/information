@@ -150,7 +150,7 @@ return _chain.from_iterable(await _gather(
 - `>`→:::←`<=` <!--SR:!2024-04-29,68,310!2024-04-27,23,250-->
 - `<=`→:::←`>=` <!--SR:!2024-04-18,59,310!2024-05-15,65,270-->
 - `>=`→:::←`<>` <!--SR:!2024-04-23,62,310!2024-04-21,60,310-->
-- `<>`→:::←_(end)_ <!--SR:!2024-11-11,215,330!2024-04-12,53,310-->
+- `<>`→:::←_(end)_ <!--SR:!2024-11-11,215,330!2024-09-20,161,310-->
 
 <!--/pytextgen-->
 
@@ -297,7 +297,7 @@ return _chain.from_iterable(await _gather(
 - `LOWER(string)`::convert to lowercase <!--SR:!2024-10-29,204,330-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-04-21,60,310-->
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-04-27,66,310-->
-- `UPPER(string)`::convert to uppercase <!--SR:!2024-04-12,54,310-->
+- `UPPER(string)`::convert to uppercase <!--SR:!2024-12-02,234,330-->
 
 <!--/pytextgen-->
 
@@ -354,7 +354,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-04-20,48,270!2024-04-12,54,310-->
+- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-04-20,48,270!2024-12-03,235,330-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-06-15,89,290!2024-05-12,31,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-04-27,65,310!2024-04-26,22,270-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-06-22,78,230!2024-05-29,79,270-->

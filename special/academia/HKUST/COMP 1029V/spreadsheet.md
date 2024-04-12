@@ -12,7 +12,7 @@ tags:
 ## concepts
 
 - cell :: The boxes you see when you open a spreadsheet. It can contain a piece of data. <!--SR:!2024-04-24,64,310-->
-- range :: A bunch of cells. <!--SR:!2024-04-12,54,310-->
+- range :: A bunch of cells. <!--SR:!2024-12-01,233,330-->
 - workbook :: The entire Excel file. A workbook can contain multiple worksheets. <!--SR:!2024-04-17,58,310-->
 - worksheet :: Like a piece of paper containing cells. <!--SR:!2024-04-28,66,310-->
 

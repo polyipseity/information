@@ -161,7 +161,7 @@ return _chain.from_iterable(await _gather(
 - `in`::membership test <!--SR:!2024-04-21,60,310-->
 - `<`::lesser than <!--SR:!2024-05-01,69,310-->
 - `<=`::lesser than or equal to <!--SR:!2024-08-29,148,310-->
-- `>`::greater than <!--SR:!2024-04-12,54,310-->
+- `>`::greater than <!--SR:!2024-11-29,231,330-->
 - `>=`::greater than or equal to <!--SR:!2024-04-30,68,310-->
 - `!=`::not equal to <!--SR:!2024-11-08,214,330-->
 - `==`::equal to <!--SR:!2024-04-20,60,310-->
@@ -232,7 +232,7 @@ return _chain.from_iterable(await _gather(
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-04-12,53,310-->
+To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-11-24,226,330-->
 
 ```Python
 variableName = 1 + 2

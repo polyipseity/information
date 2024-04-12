@@ -9,7 +9,7 @@ tags:
 
 # logarithmic derivative
 
-The __logarithmic derivative__ of a [function](function%20(mathematics).md) is defined by {{$\frac {f'} f$ when $f \ne 0$}}. Intuitively, this is the {{infinitesimal [relative change](relative%20change.md) in $f$}}. <!--SR:!2024-04-12,56,310!2024-04-18,61,310-->
+The __logarithmic derivative__ of a [function](function%20(mathematics).md) is defined by {{$\frac {f'} f$ when $f \ne 0$}}. Intuitively, this is the {{infinitesimal [relative change](relative%20change.md) in $f$}}. <!--SR:!2024-12-07,239,330!2024-04-18,61,310-->
 
 When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic derivative equals the derivative of $\ln \lvert f \rvert$, and hence its name}}. This follows directly from {{the [chain rule](chain%20rule.md): $(\ln \lvert f \rvert)' = \frac 1 {\lvert f \rvert} \cdot \operatorname{sgn}(f) \cdot f' = \frac {f'} f$}}. <!--SR:!2024-04-13,57,310!2024-04-28,70,310-->
 
