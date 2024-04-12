@@ -74,7 +74,7 @@ The content is in teaching order.
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach the sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-04-14,3,291!2024-04-14,3,291-->
+  - _k_-means clustering variations ::: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-04-14,3,291!2024-04-14,3,291-->
 
 ## week 5 tutorial
 
@@ -86,11 +86,10 @@ The content is in teaching order.
 ## week 5 lecture 2
 
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach the sequential _k_-means and forgetful sequential _k_-means.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
-  - cluster linkage ::: We only teach single linkage, centroid linkage, complete linkage, group average linkage, and median linkage. <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
+  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 
 ## week 6 lecture 1
@@ -128,6 +127,7 @@ The content is in teaching order.
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
+  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred.
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
@@ -145,6 +145,7 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - [confusion matrix](../../../../general/confusion%20matrix.md)
+  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class.
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)

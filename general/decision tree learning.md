@@ -16,7 +16,7 @@ Notable decision tree algorithms include:
 
 - [C4.5](C4.5%20algorithm.md) ::: Classification 4.5 <!--SR:!2024-04-15,4,270!2024-04-15,4,270-->
 - [CART](classification%20and%20regression%20tree.md) ::: classification and regression tree <!--SR:!2024-04-15,4,270!2024-04-15,4,270-->
-- [ID3](ID3%20algorithm.md) ::: Iterative Dichotomiser <!--SR:!2024-04-14,3,250!2024-04-15,4,270-->
+- [ID3](ID3%20algorithm.md) ::: Iterative Dichotomiser 3 <!--SR:!2024-04-14,3,250!2024-04-15,4,270-->
 
 ### metrics
 
