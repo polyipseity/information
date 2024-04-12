@@ -57,7 +57,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 <!--/pytextgen-->
 
-Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-04-12,7,250!2000-01-01,1,250-->
+Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-04-16,4,230!2000-01-01,1,250-->
 
 Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2024-04-18,13,270-->
 
@@ -284,7 +284,7 @@ conclusion: make progress
 
 ### test card
 
-When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-04-19,14,290!2024-04-12,7,250-->
+When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-04-19,14,290!2024-05-01,19,250-->
 
 One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}.
 

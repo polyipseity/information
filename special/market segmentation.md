@@ -10,7 +10,7 @@ tags:
 
 ## how
 
-A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-04-13,8,250!2024-04-12,7,250-->
+A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-04-13,8,250!2024-04-29,17,250-->
 
 ### segmentation variables
 
@@ -44,6 +44,6 @@ By segmenting the market, marketers {{can better understand and tailor to their 
 
 ## strategy
 
-It is necessary for the company to decide {{which segments to serve}}. It can be {{undifferentiated, ignoring segments; concentrated or focused, one segment; differentiated, two or more segments; or hypersegmented, thousands of or more segments}}. <!--SR:!2024-04-21,16,290!2024-04-12,7,250-->
+It is necessary for the company to decide {{which segments to serve}}. It can be {{undifferentiated, ignoring segments; concentrated or focused, one segment; differentiated, two or more segments; or hypersegmented, thousands of or more segments}}. <!--SR:!2024-04-21,16,290!2024-04-28,16,250-->
 
 Undifferentiated marketing is {{rare because customers are demanding nowadays}}. Differentiated marketing is {{used by most companies, but it incurs a greater cost than undifferentiated marketing}}. Some companies use focused marketing, which {{usually has high rate of return but also higher risk}}. For startups, {{focused marketing is more suitable as the cost is lower than differentiated marketing}}. Hypersegmented marketing is {{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}}. <!--SR:!2024-05-06,28,270!2024-04-17,12,270!2024-04-18,13,290!2024-04-20,15,290!2024-05-17,39,270-->

@@ -13,7 +13,7 @@ A Python class is never complete without teaching objects! (Sounds oddly familia
 
 ## class
 
-To create an object, one needs to first create a class. A class consists of {{a name, attributes, and methods}}: <!--SR:!2024-04-12,53,310-->
+To create an object, one needs to first create a class. A class consists of {{a name, attributes, and methods}}: <!--SR:!2024-11-24,226,330-->
 
 ```Python
 class Name:
@@ -53,7 +53,7 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {{no parameters}}. Each parameter is {{separated by a comma `,`}}. <!--SR:!2024-04-13,54,310!2024-04-12,54,310-->
+It is possible to have {{no parameters}}. Each parameter is {{separated by a comma `,`}}. <!--SR:!2024-04-13,54,310!2024-11-29,231,330-->
 
 ### constructor
 

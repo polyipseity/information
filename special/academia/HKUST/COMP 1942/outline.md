@@ -24,7 +24,7 @@ The content is in teaching order.
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-04-13,46,290!2024-04-17,51,310-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-04-28,62,310!2024-05-02,65,310-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2024-05-05,67,310-->
-- data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-04-12,45,290!2024-04-16,50,310-->
+- data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-04-16,50,310-->
 - dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2024-07-29,115,290!2024-05-01,64,310-->
 - web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2024-05-03,65,310!2024-05-07,69,310-->
 - [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2024-04-29,63,310!2024-04-27,61,310-->

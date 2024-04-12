@@ -25,7 +25,7 @@ A optical microscope contains {{one or more convex [lens](lens.md)}}. The set of
 
 The two main types of electron microscopes are {{[transmission electron microscopes](transmission%20electron%20microscope.md) (TEMs) and [scanning electron microscopes](scanning%20electron%20microscope.md) (SEMs)}}. They both have {{electromagnetic and electrostatic lenses}}. <!--SR:!2024-11-14,431,330!2024-05-09,254,310-->
 
-In TEMs, {{high energy (40 to 400 keV)}} [electrons](electron.md) pass through, {{in order, condenser lens, a very thin (less than 100 nm) sample, objective lens, projector lens, and viewing screen}}. Drawbacks of TEMs include {{requiring a very thin sample and an ultra-high [vacuum](vacuum.md) to transmit electrons through and avoid deflection, and the sample may be damaged by fast-moving electrons}}. <!--SR:!2024-04-12,216,290!2024-04-22,68,190!2024-06-01,220,230-->
+In TEMs, {{high energy (40 to 400 keV)}} [electrons](electron.md) pass through, {{in order, condenser lens, a very thin (less than 100 nm) sample, objective lens, projector lens, and viewing screen}}. Drawbacks of TEMs include {{requiring a very thin sample and an ultra-high [vacuum](vacuum.md) to transmit electrons through and avoid deflection, and the sample may be damaged by fast-moving electrons}}. <!--SR:!2025-12-28,625,290!2024-04-22,68,190!2024-06-01,220,230-->
 
 ### scanning probe
 
