@@ -14,7 +14,7 @@ To understand the Apriori algorithm, notice that {{for any database and two item
 
 Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{start from one item and then are extended one item at a time, called _candidate generation_}}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}}. Repeat this process until {{there are no more candidates}}. The output is {{all frequent sets in all generations}}. <!--SR:!2024-05-01,64,319!2024-04-20,55,310!2024-05-31,75,270!2024-05-06,68,319!2024-04-14,50,310-->
 
-Filtering the candidate, called the {{_count step_}}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {{_join step_ and _prune step_}}. <!--SR:!2024-05-10,67,336-->
+Filtering the candidate, called the {{_count step_}}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {{_join step_ and _prune step_}}. <!--SR:!2024-05-10,67,336!2024-04-15,4,323-->
 
 For _join step_, one first consider, from the previous generation of frequent sets, all possible pairs of sets that {{have a [symmetric difference](symmetric%20difference.md) of size 2, i.e. the set are the same except for 1 item, like $\set{1, 2, 3}$ and $\set{1, 20, 3}$}}. Then, for each pair, {{the union of the two sets is a new _possible_ candidate set, like $\set{1, 2, 3, 20}$ using the same example}}. <!--SR:!2024-05-13,74,319!2024-04-27,61,310-->
 
@@ -24,7 +24,7 @@ Note that the above is a slower variant of the Apriori algorithm. There is a muc
 
 If we consider each set is directionally linked from itself to the new candidate sets it has generated, {{a tree-like structure}} appears, and the Apriori algorithm is similar to {{[breadth-first search](breadth-first%20search.md)}}. <!--SR:!2024-04-19,55,310!2024-05-05,67,319-->
 
-Creation of association rules from the frequent item sets is {{not covered by this algorithm}}.
+Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-04-15,4,323-->
 
 ## the algorithm
 
@@ -265,9 +265,9 @@ The algorithm also requires {{scanning the database many times to check the cand
 
 Also, the time and space complexity of the algorithm is {{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}}. <!--SR:!2024-05-29,77,344-->
 
-Common alternatives include {{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}}.
+Common alternatives include {{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}}. <!--SR:!2024-04-15,4,323-->
 
-The [Eclat algorithm](Eclat%20algorithm.md) is {{generally faster than the Apriori algorithm, and might be slower when the database is large}}. The [FP-growth algorithm](FP-growth%20algorithm.md) {{outperforms both the Apriori and Eclat algorithms, because it does not generate and test candidates, uses a compact data structure, and requires only one (or two, depending on how you define "scan") database scan}}.
+The [Eclat algorithm](Eclat%20algorithm.md) is {{generally faster than the Apriori algorithm, and might be slower when the database is large}}. The [FP-growth algorithm](FP-growth%20algorithm.md) {{outperforms both the Apriori and Eclat algorithms, because it does not generate and test candidates, uses a compact data structure, and requires only one (or two, depending on how you define "scan") database scan}}. <!--SR:!2024-04-14,3,303!2024-04-14,3,303-->
 
 ## references
 

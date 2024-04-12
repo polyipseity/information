@@ -53,7 +53,7 @@ The content is in teaching order.
 
 - [FP-growth algorithm § FP-tree](../../../../general/FP-growth%20algorithm.md#FP-tree)
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
-  - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut.
+  - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
 
 ## week 4 tutorial
@@ -74,7 +74,7 @@ The content is in teaching order.
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach the sequential _k_-means and forgetful sequential _k_-means.
+  - _k_-means clustering variations ::: We only teach the sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-04-14,3,291!2024-04-14,3,291-->
 
 ## week 5 tutorial
 
@@ -90,7 +90,7 @@ The content is in teaching order.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
-  - cluster linkage ::: We only teach single linkage, centroid linkage, complete linkage, group average linkage, and median linkage.
+  - cluster linkage ::: We only teach single linkage, centroid linkage, complete linkage, group average linkage, and median linkage. <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 
 ## week 6 lecture 1
@@ -98,7 +98,7 @@ The content is in teaching order.
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
-  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md).
+  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
@@ -112,17 +112,17 @@ The content is in teaching order.
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
-  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not.
+  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-04-15,4,311!2024-04-15,4,307-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
-  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier.
+  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-04-15,4,311!2024-04-14,3,291-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-  - entropy base ::: We use base 2.
+  - entropy base ::: We use base 2. <!--SR:!2024-04-15,4,307!2024-04-15,4,307-->
 
 ## week 7 lecture 1
 
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
-  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART.
+  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-04-15,4,311!2024-04-15,4,307-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
 - [information gain § general definition](../../../../general/information%20gain%20(decision%20tree).md#general%20definition)
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
@@ -150,7 +150,7 @@ The content is in teaching order.
 - [lift chart § construction](../../../lift%20chart.md#construction)
 - [lift chart § interpretation](../../../lift%20chart.md#interpretation)
 - [lift chart § decile-wise](../../../lift%20chart.md#decile-wise)
-- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later.
+- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-04-14,3,291!2024-04-15,4,307-->
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 
 ## week 8 lecture 1
