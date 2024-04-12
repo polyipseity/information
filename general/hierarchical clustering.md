@@ -76,7 +76,7 @@ return chain.from_iterable(await gather(
 > | median linkage clustering | WPGMC, weighted centroid clustering | $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ | {{Median linkage clustering can better preserve small clusters that are merged into large clusters.}} |
 > | [single-linkage clustering](single-linkage%20clustering.md) | minimum linkage clustering, nearest neighbor technique | $d(A, B) = \min_{a \in A, b \in B} d(a, b)$ |  |
 > | unweighted average linkage clustering | [UPGMA](UPGMA.md), group average linkage clustering | $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ |  |
-> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2024-04-16,4,270!2024-04-14,3,255-->
+> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2024-04-16,4,270!2024-04-14,3,255!2024-04-15,4,289-->
 
 <!--/pytextgen-->
 
@@ -155,7 +155,7 @@ One way to implement this is, after creating a cluster for each observation, {{c
 
 ## divisive clustering
 
-Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}}.
+Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}}. <!--SR:!2024-04-15,4,289!2024-04-15,4,289-->
 
 The basic principle of divisive clustering was {{published as the DIANA (DIvisive ANAlysis clustering) algorithm}}.[<sup>[1]</sup>](#^ref-Kaufman-2009) <!--SR:!2024-04-15,4,275-->
 
