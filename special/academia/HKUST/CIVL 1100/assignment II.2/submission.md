@@ -37,10 +37,10 @@ Height of the sedimentation tank (assuming a criterion of diameter/height ratio 
 > & = \frac {8500} {50} \\
 > & = 170\mathrm{\ m^2} \\
 > \text{diameter} & = 2 \sqrt{\frac {170} \pi }\mathrm{\ m} \\
-> \text{height} & = 3.5 \cdot \text{diameter} \\
-> & = 7 \sqrt{\frac {170} \pi } \\
-> & = 51.4929253\mathrm{\ m}\text{ (cor. to 9 sig. fig.)} \\
-> & = 51.49\mathrm{\ m}\text{ (cor. to 2 d.p.)}
+> \text{height} & = \frac {\text{diameter} } {3.5} \\
+> & = \frac 4 7 \sqrt{\frac {170} \pi } \\
+> & = 4.20350410\mathrm{\ m}\text{ (cor. to 9 sig. fig.)} \\
+> & = 4.20\mathrm{\ m}\text{ (cor. to 2 d.p.)}
 > \end{aligned}$$
 
 ### problem 4.1.ii
@@ -48,12 +48,12 @@ Height of the sedimentation tank (assuming a criterion of diameter/height ratio 
 Hydraulic retention time (HRT) of the sedimentation tank. (<span style="color: red;">1 mark</span>)
 
 > $$\begin{aligned}
-> \text{volume} & = 170 \cdot 51.4929253 \\
-> & = 8753.7973\mathrm{\ m^3}\text{(cor to 8. sig. fig.)} \\
+> \text{volume} & = 170 \cdot 4.20350410 \\
+> & = 714.59570\mathrm{\ m^3}\text{(cor to 8. sig. fig.)} \\
 > \text{HRT} & = \frac {\text{volume} } {\text{flow rate} } \\
-> & = \frac {8753.7973} {8500} \\
-> & = 1.029859\mathrm{\ d}\text{ (cor. to 7 sig. fig.)} \\
-> & = 1.03\mathrm{\ d}\text{ (cor. to 2 d.p.)}
+> & = \frac {714.59570} {8500} \\
+> & = 0.08407008\mathrm{\ d}\text{ (cor. to 7 sig. fig.)} \\
+> & = 0.08\mathrm{\ d}\text{ (cor. to 2 d.p.)}
 > \end{aligned}$$
 
 ## problem 4.2
@@ -85,9 +85,9 @@ Hence, if you are living on the 8<sup>th</sup> floor, and the measured noise lev
 >
 > The 8/F is twice as far away from the G/F as the 4/F, and 4/F is twice as far away from the G/F as the 2/F.
 >
-> Then, if the noise level on the 2/F is 98 dB, then the noise level on the 4/F is 98 - 6 = 92 dB. If the noise level on the 4/F is 92 dB, then the noise level on the 8/F is 92 - 6 = 86 dB.
+> Then, if the noise level on the 2/F is 98 dB, then the noise level on the 4/F is approximately 98 - 6 = 92 dB. If the noise level on the 4/F is 92 dB, then the noise level on the 8/F is approximately 92 - 6 = 86 dB.
 >
-> Therefore, the estimated noise level at my room without any mitigation measures is 86 dB.
+> Therefore, the estimated noise level at my room without any mitigation measures is approximately 86 dB.
 
 ### problem 4.2.iii
 
@@ -149,8 +149,8 @@ By [(i)](#problem%204.3.i), [(ii)](#problem%204.3.ii) and __Table 1__, calculate
 
 > $$\begin{aligned}
 > & \phantom{=} \text{annual carbon footprint in the first ativity} \\
-> & = 23.78 \cdot 366 \\
-> & = 8703.48\mathrm{\ kg\ CO_2e} \\
+> & = 23.7804 \cdot 366 \\
+> & = 8703.6264\mathrm{\ kg\ CO_2e} \\
 > & \phantom{=} \text{annual carbon footprint in the second activity} \\
 > & = 5000 \cdot 12 \cdot 0.37 \\
 > & = 22200\mathrm{\ kg\ CO_2e} \\
@@ -162,7 +162,7 @@ By [(i)](#problem%204.3.i), [(ii)](#problem%204.3.ii) and __Table 1__, calculate
 > & = 4.8 \cdot 8 \cdot 1000 \\
 > & = 38400\mathrm{\ kg\ CO_2e} \\
 > & \phantom{=} \text{required total annual carbon footprint} \\
-> & = 8703.48 + 22200 + 71779.743 + 38400 \\
-> & = 141083.223\mathrm{\ kg\ CO_2e} \\
-> & = 141083.22\mathrm{\ kg\ CO_2e}\text{ (cor. to 2 d.p.)}
+> & = 8703.6264 + 22200 + 71779.743 + 38400 \\
+> & = 141083.3694\mathrm{\ kg\ CO_2e} \\
+> & = 141083.37\mathrm{\ kg\ CO_2e}\text{ (cor. to 2 d.p.)}
 > \end{aligned}$$
