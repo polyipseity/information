@@ -142,7 +142,7 @@ public:
         {
             for (size_t col{}; col < rhs.cols; ++col)
             {
-                temp(row, col) = 0;
+                temp(row, col) = T{};
                 for (size_t com{}; com < cols; ++com)
                     temp(row, col) += (*this)(row, com) * rhs(com, col);
             }
