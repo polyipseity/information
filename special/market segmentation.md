@@ -10,7 +10,7 @@ tags:
 
 ## how
 
-A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-04-13,8,250!2024-04-29,17,250-->
+A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-05-04,19,250!2024-04-29,17,250-->
 
 ### segmentation variables
 
@@ -18,7 +18,7 @@ Traditional variables include {{[demographic](#demographic%20segmentation), [geo
 
 #### demographic segmentation
 
-Demographic segmentation divides the market by {{factual and physical data}}. <!--SR:!2024-04-15,10,270-->
+Demographic segmentation divides the market by {{factual and physical data}}. <!--SR:!2024-05-11,26,270-->
 
 #### geographic segmentation
 

@@ -101,7 +101,7 @@ return await memorize_map(
 
 #### x→∞
 
-To derive the equivalent infinitesimals when $x \to \infty$, {{replace all $x$ with $\frac 1 x$ in the [equivalent infinitesimals when $x \to 0$](#x→0)}}. <!--SR:!2024-04-13,19,324-->
+To derive the equivalent infinitesimals when $x \to \infty$, {{replace all $x$ with $\frac 1 x$ in the [equivalent infinitesimals when $x \to 0$](#x→0)}}. <!--SR:!2024-07-09,85,344-->
 
 ### L'Hôpital's rule
 

@@ -54,7 +54,7 @@ if (condition1) {
 
 The semantics of chaining `if...else` can be found by consider the semantics of `if...else`: {{The statement block after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one.}} <!--SR:!2024-07-05,106,290!2024-05-09,76,321-->
 
-Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equals some constant values}}: <!--SR:!2024-04-13,55,310-->
+Alternatively, a `switch` statement can be used if {{the conditions are checking if a value equals some constant values}}: <!--SR:!2024-09-25,163,310-->
 
 ```Java
 switch (string) {
@@ -108,7 +108,7 @@ while (condition)
 
 The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-04-25,65,310-->
 
-One can also first run the statement block instead of the condition by using a `do...while` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-04-14,56,310-->
+One can also first run the statement block instead of the condition by using a `do...while` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-10-12,180,310-->
 
 ```Java
 do

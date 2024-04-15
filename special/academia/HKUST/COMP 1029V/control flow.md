@@ -75,9 +75,9 @@ Do While condition
 Loop
 ```
 
-The semantics of `Do While...Loop` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}}. You can see it is exactly {{the same as that for [`While...Wend`](#`While`)}}. The only difference is that you cannot {{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}}. <!--SR:!2024-05-08,75,321!2024-05-05,72,321!2024-04-14,51,301-->
+The semantics of `Do While...Loop` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}}. You can see it is exactly {{the same as that for [`While...Wend`](#`While`)}}. The only difference is that you cannot {{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}}. <!--SR:!2024-05-08,75,321!2024-05-05,72,321!2024-05-10,25,281-->
 
-One can also first run the statement block instead of the condition by using a `Do...Loop While` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-04-15,52,301-->
+One can also first run the statement block instead of the condition by using a `Do...Loop While` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-09-18,156,301-->
 
 ```VB
 Do
@@ -85,13 +85,13 @@ Do
 Loop While condition
 ```
 
-The semantics of `Do...Loop While` is {{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}}. <!--SR:!2024-04-15,56,310-->
+The semantics of `Do...Loop While` is {{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}}. <!--SR:!2024-10-09,177,310-->
 
 As VBA is intended to be English like, it also provides the unconventional {{`Do Until...Loop` and `Do...Loop Until` constructs}}. The semantics is exactly the same except that {{the loop stops if the condition is `True`}}. <!--SR:!2024-05-08,75,321!2024-04-21,58,301-->
 
 ### `For`
 
-VBA also has for-loops. A `For...To...Step...Next` statement consists of {{a loop variable, a starting point, a stopping point, a step (optional, by default 1), and a statement block to execute}}: <!--SR:!2024-04-14,51,301-->
+VBA also has for-loops. A `For...To...Step...Next` statement consists of {{a loop variable, a starting point, a stopping point, a step (optional, by default 1), and a statement block to execute}}: <!--SR:!2024-09-17,155,301-->
 
 ```VB
 For LoopVariable = start To end Step step ' `Step step` optional

@@ -23,7 +23,7 @@ tags:
 To optimize the résumé for successful application and {{[applicant tracking system](applicant%20tracking%20system.md)}}: <!--SR:!2024-10-29,291,330-->
 
 - content ::: include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address <!--SR:!2024-06-07,134,250!2024-06-09,65,333-->
-- fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2024-04-14,106,250!2024-06-07,63,333-->
+- fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2025-01-04,264,250!2024-06-07,63,333-->
 - formatting ::: consistent, minimal <!--SR:!2024-07-01,181,310!2024-06-08,68,353-->
 - length ::: 1 page <!--SR:!2024-09-26,265,330!2024-06-06,66,353-->
 - line spacing ::: single <!--SR:!2024-10-14,280,330!2024-06-17,77,353-->

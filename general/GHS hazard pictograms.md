@@ -62,7 +62,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="dee23a"--><!-- The following content is generated at 2024-01-04T20:17:51.744625+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2027-07-09,1214,350!2024-04-15,295,330-->
+- _(begin)_→:::←GHS01: [explosive](explosive.md) <!--SR:!2027-07-09,1214,350!2027-12-17,1341,350-->
 - GHS01: [explosive](explosive.md)→:::←GHS02: [flammable](flammability.md) <!--SR:!2025-04-01,434,250!2027-08-02,1232,350-->
 - GHS02: [flammable](flammability.md)→:::←GHS03: [oxidizing](oxidizing%20agent.md) <!--SR:!2026-08-22,890,330!2026-04-22,801,330-->
 - GHS03: [oxidizing](oxidizing%20agent.md)→:::←GHS04: [compressed gas](compressed%20fluid.md) <!--SR:!2025-01-18,322,250!2024-10-14,403,290-->
@@ -70,7 +70,7 @@ return await memorize_table(
 - GHS05: [corrosive](corrosive%20substance.md)→:::←GHS06: [toxic](toxicity.md) <!--SR:!2025-07-10,620,310!2024-10-13,402,290-->
 - GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2025-10-30,662,310!2024-09-09,331,290-->
 - GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2025-10-20,641,310!2024-07-16,305,270-->
-- GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2024-04-14,294,330!2025-10-21,656,310-->
+- GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2026-12-10,969,330!2025-10-21,656,310-->
 - GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2024-05-05,308,330!2024-04-21,299,330-->
 
 <!--/pytextgen-->

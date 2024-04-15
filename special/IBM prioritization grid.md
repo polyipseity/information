@@ -66,7 +66,7 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 
 ## feasibility for us
 
-- questions to ask ::: Is it achievable as a team? Is it marketable? Is it technically feasible? <!--SR:!2024-04-15,14,252!2024-05-28,47,292-->
+- questions to ask ::: Is it achievable as a team? Is it marketable? Is it technically feasible? <!--SR:!2024-05-19,34,252!2024-05-28,47,292-->
 
 ## value to the user
 

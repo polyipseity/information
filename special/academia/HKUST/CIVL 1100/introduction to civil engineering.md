@@ -105,7 +105,7 @@ The content is in teaching order.
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2000-01-01,1,250!2024-05-21,46,310-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-04-20,45,295!2000-01-01,1,250-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-04-13,24,270!2000-01-01,1,250-->
+      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-04-26,11,250!2000-01-01,1,250-->
 
 ## data
 
@@ -1223,7 +1223,7 @@ waves
 
 - _(begin)_→:::←earthquakes
 - earthquakes→:::←fires
-- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-04-15,5,226-->
+- fires→:::←floods <!--SR:!2000-01-01,1,250!2024-04-24,9,226-->
 - floods→:::←strong winds
 - strong winds→:::←waves <!--SR:!2024-06-07,58,270!2000-01-01,1,250-->
 - waves→:::←_(end)_

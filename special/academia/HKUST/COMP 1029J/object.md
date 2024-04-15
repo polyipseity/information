@@ -76,11 +76,11 @@ void aMethod(String arg1, int arg2) {
 
 The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-04-22,61,310!2024-04-19,59,310!2024-09-25,166,310-->
 
-The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-04-18,58,310!2024-04-13,55,310!2024-05-02,70,310-->
+The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-04-18,58,310!2024-10-02,170,310!2024-05-02,70,310-->
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-09-11,153,310!2024-04-13,54,310-->
+A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-09-11,153,310!2024-09-28,166,310-->
 
 ```Java
 ClassName(ParameterTypes parameterNames) {
@@ -107,7 +107,7 @@ name.aMethod("42", 42);
 Name.aStaticMethod();
 ```
 
-Importantly, {{the `main` method}} is `static` and has the following form: <!--SR:!2024-04-14,56,310-->
+Importantly, {{the `main` method}} is `static` and has the following form: <!--SR:!2024-10-05,173,310-->
 
 ```Java
 public static void main(String[] args) {
