@@ -17,7 +17,7 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 ## list
 
-To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. Note that a list can {{contain items of different types like the example just now}}. <!--SR:!2024-04-13,54,310!2024-04-22,61,310-->
+To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. Note that a list can {{contain items of different types like the example just now}}. <!--SR:!2024-12-02,231,330!2024-04-22,61,310-->
 
 ## length
 
@@ -25,7 +25,7 @@ The length of a sequence can be determined by {{`len(sequence)`}}. <!--SR:!2024-
 
 ## indexing
 
-To access the n-th item, simply write {{`sequence[n-1]`}}: <!--SR:!2024-04-14,55,310-->
+To access the n-th item, simply write {{`sequence[n-1]`}}: <!--SR:!2024-12-06,235,330-->
 
 ```Python
 assert "asd"[2] == "d"
@@ -73,7 +73,7 @@ assert "abc" + "def" == "abcdef"
 assert [39, "omg"] + ['asd', 3.4] == [39, "omg", "asd", 3.4]
 ```
 
-Extrapolation the addition above further to multiplication, {{the operator `*` repeats the sequence itself for the specified number of times}}: <!--SR:!2024-04-14,56,310-->
+Extrapolation the addition above further to multiplication, {{the operator `*` repeats the sequence itself for the specified number of times}}: <!--SR:!2024-10-05,173,310-->
 
 ```Python
 assert 'ab' * 3 == "ababab"
@@ -82,7 +82,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-05-03,71,310!2024-05-04,72,310!2024-04-13,55,310!2024-04-19,59,310-->
+Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-05-03,71,310!2024-05-04,72,310!2024-12-05,234,330!2024-04-19,59,310-->
 
 ```Python
 original = [1, 2, 3]

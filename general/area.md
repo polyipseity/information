@@ -19,7 +19,7 @@ tags:
 
 ## formal definition
 
-Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}: <!--SR:!2024-04-14,55,310!2024-05-06,66,270-->
+Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}: <!--SR:!2024-10-02,170,310!2024-05-06,66,270-->
 
 %%
 
@@ -69,7 +69,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2024-04-18,58,310!2024-05-01,68,310-->
 - [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-06-06,87,270!2024-05-24,54,210-->
 - positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-04-28,25,170-->
-- rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-04-13,44,250-->
+- rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-08-02,109,250-->
 - squeezing→:::←subtraction <!--SR:!2024-04-25,22,150!2024-06-04,70,230-->
 - subtraction→:::←union and intersection <!--SR:!2024-06-24,91,270!2024-05-28,74,250-->
 - union and intersection→:::←_(end)_ <!--SR:!2024-08-03,121,290!2024-06-12,93,290-->

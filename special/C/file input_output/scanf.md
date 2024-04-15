@@ -19,7 +19,7 @@ tags:
 
 # `scanf`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2024-04-13,162,310-->
+- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2025-08-29,501,310-->
 
 ```C
 // (1)

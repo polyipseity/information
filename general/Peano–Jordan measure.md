@@ -17,7 +17,7 @@ tags:
 
 ## simple sets
 
-Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!-- LaTeX separator -->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}: <!--SR:!2024-09-14,157,310!2024-04-14,54,310-->
+Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!-- LaTeX separator -->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}: <!--SR:!2024-09-14,157,310!2024-09-30,168,310-->
 
 $$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}, a_i < b_i$$
 
@@ -37,7 +37,7 @@ However, the Jordan measure of a simple set cannot be defined as {{the sum of me
 >
 > {{finite union of 2D rectangles}} <!--SR:!2024-09-10,154,310!2024-05-24,74,343-->
 
-The above can be fixed by {{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}}. Then the Jordan measure of a simple set can be defined as {{the sum of measures of disjoint rectangles}}. <!--SR:!2024-09-25,174,310!2024-04-13,53,310!2024-09-09,153,310-->
+The above can be fixed by {{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}}. Then the Jordan measure of a simple set can be defined as {{the sum of measures of disjoint rectangles}}. <!--SR:!2024-09-25,174,310!2024-09-27,165,310!2024-09-09,153,310-->
 
 > {{![rewritten union of disjoint rectangles](../archives/Wikimedia%20Commons/Simple%20set2.png)}}
 >
@@ -62,7 +62,7 @@ m^*(B) := \inf_{S \supseteq B} m(S)
 >
 > {{squeezing a bounded set by simple sets}} <!--SR:!2024-04-22,61,310!2024-05-16,66,343-->
 
-If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. Then the _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}. <!--SR:!2024-11-20,222,330!2024-04-15,55,310-->
+If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. Then the _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}. <!--SR:!2024-11-20,222,330!2024-10-01,169,310-->
 
 ## references
 

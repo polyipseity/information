@@ -125,7 +125,7 @@ vagueness: vague jobs, pains, and gains
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, and financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-04-22,17,290!2000-01-01,1,250!2000-01-01,1,250!2024-04-15,10,270!2000-01-01,1,250-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, and financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-04-22,17,290!2000-01-01,1,250!2000-01-01,1,250!2024-05-16,31,270!2000-01-01,1,250-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-05-09,34,290!2024-04-19,14,290-->
 
@@ -225,7 +225,7 @@ find customer patterns
 - create a customer profile→:::←outline the interview
 - outline the interview→:::←interview
 - interview→:::←capture new customer profile
-- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-04-15,10,270!2000-01-01,1,250-->
+- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2000-01-01,1,250-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns
 - find customer patterns→:::←_(end)_
 
@@ -273,12 +273,12 @@ conclusion: make progress
 
 - _(begin)_→:::←hypothesis: extract hypotheses
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses
-- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2000-01-01,1,250!2024-04-13,8,250-->
-- test: design tests→:::←test: prioritize tests <!--SR:!2000-01-01,1,250!2024-04-15,10,270-->
+- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2000-01-01,1,250!2024-05-07,22,250-->
+- test: design tests→:::←test: prioritize tests <!--SR:!2000-01-01,1,250!2024-05-15,30,270-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2000-01-01,1,250!2024-04-19,14,290-->
 - test: run tests→:::←conclusion: capture findings
 - conclusion: capture findings→:::←conclusion: make progress
-- conclusion: make progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-15,7,250-->
+- conclusion: make progress→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-19,4,230-->
 
 <!--/pytextgen-->
 

@@ -28,7 +28,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2025-09-03,725,315!2026-02-08,678,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2025-11-29,812,336-->
 - quick access:::Q <!--SR:!2025-11-25,753,290!2024-10-27,393,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2024-04-15,7,130!2024-10-16,397,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2024-04-22,7,130!2024-10-16,397,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-07-29,125,190!2025-06-03,434,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
@@ -42,7 +42,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### editor
 
 - select all:::A <!--SR:!2025-08-27,690,296!2026-06-24,964,336-->
-- select none:::Alt+A <!--SR:!2024-08-23,413,276!2024-04-14,115,256-->
+- select none:::Alt+A <!--SR:!2024-08-23,413,276!2025-02-02,293,256-->
 - invert selection:::Ctrl+I <!--SR:!2025-11-14,592,250!2026-06-13,892,296-->
 - hide selection:::H <!--SR:!2025-10-25,645,270!2024-11-29,511,310-->
 - reveal hidden:::Alt+H <!--SR:!2025-04-09,565,270!2024-12-06,426,256-->
@@ -55,6 +55,6 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2024-06-23,370,276!2024-04-16,165,216-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2025-08-08,723,336!2024-08-12,390,296-->
 - toggle vertex/edge/face mode + multiple modes:::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
-- toggle vertex/edge/face mode + expand/contract selection:::+Ctrl <!--SR:!2025-05-30,476,276!2024-04-14,218,256-->
+- toggle vertex/edge/face mode + expand/contract selection:::+Ctrl <!--SR:!2025-05-30,476,276!2025-10-24,557,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2024-04-28,27,130!2024-06-29,103,216-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2024-05-24,53,230!2024-04-13,8,130-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2024-05-24,53,230!2024-04-23,8,130-->

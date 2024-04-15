@@ -16,7 +16,7 @@ tags:
   - `TIME` ::: `hh[h]:mm:ss[.fraction]` that ranges from `-838:59:59.000000` to `838:59:59.000000`. <!--SR:!2025-03-31,431,330!2024-06-19,100,210-->
   - `TIMESTAMP` ::: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!2024-11-21,328,330!2024-05-28,50,150-->
   - `YEAR` ::: `Y[YYY]` that ranges from `1901` to `2155`. <!--SR:!2025-01-04,363,330!2024-05-17,120,290-->
-- numeric data types ::: `BIGINT`, `BIT`, `DECIMAL`, `DOUBLE`, `FLOAT`, `INT`, `INTEGER`, `MEDIUMINT`, `NUMERIC`, `SMALLINT`, `TINYINT` <!--SR:!2025-03-29,415,330!2024-04-14,134,270-->
+- numeric data types ::: `BIGINT`, `BIT`, `DECIMAL`, `DOUBLE`, `FLOAT`, `INT`, `INTEGER`, `MEDIUMINT`, `NUMERIC`, `SMALLINT`, `TINYINT` <!--SR:!2025-03-29,415,330!2025-04-11,361,270-->
   - floating-point data types ::: `FLOAT`, `DOUBLE`; inexact <!--SR:!2025-04-01,432,330!2025-05-20,457,330-->
     - `FLOAT` ::: Likely [single-precision floating-point format](../../general/single-precision%20floating-point%20format.md). <!--SR:!2025-05-21,458,330!2025-04-13,427,330-->
     - `DOUBLE` ::: Likely [double-precision floating-point format](../../general/double-precision%20floating-point%20format.md). <!--SR:!2024-11-28,334,330!2025-04-29,440,330-->

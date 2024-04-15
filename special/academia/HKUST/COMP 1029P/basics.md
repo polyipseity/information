@@ -72,7 +72,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`**` <!--SR:!2024-09-23,165,310!2024-04-21,61,310-->
-- `**`→:::←`*` <!--SR:!2024-11-11,216,330!2024-04-14,55,310-->
+- `**`→:::←`*` <!--SR:!2024-11-11,216,330!2024-11-28,227,330-->
 - `*`→:::←`/` <!--SR:!2024-04-25,64,310!2024-11-08,213,330-->
 - `/`→:::←`//` <!--SR:!2024-11-21,224,330!2024-11-19,225,330-->
 - `//`→:::←`%` <!--SR:!2024-05-05,73,310!2024-05-02,70,310-->
@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 - `//`::floor division <!--SR:!2024-04-23,63,310-->
 - `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-09-07,152,310-->
 - `+`::addition <!--SR:!2024-04-24,64,310-->
-- `-`::subtraction <!--SR:!2024-04-14,55,310-->
+- `-`::subtraction <!--SR:!2024-12-06,235,330-->
 
 <!--/pytextgen-->
 
@@ -151,7 +151,7 @@ return _chain.from_iterable(await _gather(
 - `<=`→:::←`>` <!--SR:!2024-04-26,65,310!2024-06-10,68,230-->
 - `>`→:::←`>=` <!--SR:!2024-07-14,94,250!2024-04-28,67,310-->
 - `>=`→:::←`!=` <!--SR:!2024-06-01,80,270!2024-04-17,14,210-->
-- `!=`→:::←`==` <!--SR:!2024-06-23,97,290!2024-04-13,54,310-->
+- `!=`→:::←`==` <!--SR:!2024-06-23,97,290!2024-05-12,27,290-->
 - `==`→:::←_(end)_ <!--SR:!2024-04-18,59,310!2024-04-19,59,310-->
 
 <!--/pytextgen-->
@@ -168,9 +168,9 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-04-13,55,310-->
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-11-26,225,330-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-04-14,55,310-->
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-11-30,229,330-->
 
 ### logic operators
 
@@ -217,14 +217,14 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`not` <!--SR:!2024-04-21,60,310!2024-04-16,57,310-->
 - `not`→:::←`and` <!--SR:!2024-04-19,59,310!2024-04-27,66,310-->
-- `and`→:::←`or` <!--SR:!2024-04-25,64,310!2024-04-14,56,310-->
+- `and`→:::←`or` <!--SR:!2024-04-25,64,310!2024-12-18,247,330-->
 - `or`→:::←_(end)_ <!--SR:!2024-04-17,58,310!2024-11-05,211,330-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`::negate <!--SR:!2024-04-15,56,310-->
+- `not`::negate <!--SR:!2024-12-20,249,330-->
 - `and`::and <!--SR:!2024-10-25,200,330-->
 - `or`::or <!--SR:!2024-11-18,222,330-->
 

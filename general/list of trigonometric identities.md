@@ -53,7 +53,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-01-04T20:17:52.198336+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2024-04-14,82,340!2025-04-05,361,362-->
+- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2025-04-05,361,362-->
 - [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2024-06-17,335,330!2024-06-22,340,330-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-04-19,80,289!2024-11-16,236,329-->
 - [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
@@ -93,7 +93,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="ba01"--><!-- The following content is generated at 2024-01-04T20:17:52.215336+08:00. Any edits will be overridden! -->
 
-- normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2024-04-15,83,340-->
+- normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2025-05-07,387,360-->
 - divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2025-03-06,336,360-->
 - divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-07-27,148,320-->
 - divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2025-04-14,368,360-->
@@ -306,7 +306,7 @@ return chain.from_iterable(await gather(
 > [!example] examples
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-04-19,85,289!2024-07-29,126,249-->
-> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-04-13,81,289!2024-05-04,69,249-->
+> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-05-30,45,269!2024-05-04,69,249-->
 > - $0 \cos 5x - 1.23 \sin 5x$ ::: $1.23 \sin(-5x)$ <!--SR:!2024-10-17,213,329!2024-12-02,249,329-->
 
 ## references

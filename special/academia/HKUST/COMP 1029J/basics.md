@@ -93,7 +93,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-01-29T08:31:35.198780+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-11-08,214,330-->
-- `String`→:::←`boolean` <!--SR:!2024-04-13,56,310!2024-04-20,61,310-->
+- `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2024-04-20,61,310-->
 - `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-05-01,70,310-->
 - `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-04-21,61,310-->
 - `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-09-24,166,310-->
@@ -105,9 +105,9 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-02-01T11:50:25.871864+08:00. Any edits will be overridden! -->
 
 - `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-04-17,58,310-->
-- `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-04-15,56,310-->
+- `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-04-28,68,310-->
-- `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-04-13,56,310-->
+- `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-10-09,177,310-->
 - `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-04-16,58,310-->
 - `int`::An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
 
@@ -115,7 +115,7 @@ return _chain.from_iterable(await _gather(
 
 ### conversion
 
-One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-04-13,55,310-->
+One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-10-05,173,310-->
 
 ```Java
 int anInteger = 3.14; // compilation error
@@ -207,7 +207,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`++` <!--SR:!2024-05-03,72,310!2024-04-30,69,310-->
 - `++`→:::←`--` <!--SR:!2024-04-22,63,310!2024-04-26,65,310-->
 - `--`→:::←`*` <!--SR:!2024-06-10,63,290!2024-09-26,174,310-->
-- `*`→:::←`/` <!--SR:!2024-04-15,57,310!2024-04-15,57,310-->
+- `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
 - `/`→:::←`%` <!--SR:!2024-04-22,62,310!2024-07-20,106,290-->
 - `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
 - `+`→:::←`-` <!--SR:!2024-04-28,67,310!2024-04-26,66,310-->
@@ -278,7 +278,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`<` <!--SR:!2024-04-18,8,170!2024-05-13,60,290-->
 - `<`→:::←`>` <!--SR:!2024-04-27,67,310!2024-04-26,65,310-->
-- `>`→:::←`<=` <!--SR:!2024-04-14,56,310!2024-05-01,56,270-->
+- `>`→:::←`<=` <!--SR:!2024-09-28,166,310!2024-05-01,56,270-->
 - `<=`→:::←`>=` <!--SR:!2024-04-16,57,310!2024-07-06,106,290-->
 - `>=`→:::←`==` <!--SR:!2024-05-01,70,310!2024-04-23,13,150-->
 - `==`→:::←`!=` <!--SR:!2024-04-23,63,310!2024-04-25,65,310-->
@@ -297,7 +297,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-04-13,55,310-->
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-12-08,237,330-->
 
 Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2024-04-20,61,310-->
 
@@ -355,6 +355,6 @@ return _chain.from_iterable(await _gather(
 
 - `!`::negate <!--SR:!2024-11-17,221,330-->
 - `&&`::and <!--SR:!2024-04-20,60,310-->
-- <code>&#124;&#124;</code>::or <!--SR:!2024-04-14,56,310-->
+- <code>&#124;&#124;</code>::or <!--SR:!2024-10-11,179,310-->
 
 <!--/pytextgen-->

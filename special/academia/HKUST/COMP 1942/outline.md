@@ -21,7 +21,7 @@ The content is in teaching order.
 ## week 1 lecture
 
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2024-04-16,36,250!2024-04-28,61,310-->
-- association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-04-13,46,290!2024-04-17,51,310-->
+- association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-08-25,132,290!2024-04-17,51,310-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-04-28,62,310!2024-05-02,65,310-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2024-05-05,67,310-->
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-04-16,50,310-->
@@ -53,7 +53,7 @@ The content is in teaching order.
 
 - [FP-growth algorithm § FP-tree](../../../../general/FP-growth%20algorithm.md#FP-tree)
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
-  - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
+  - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-04-28,13,311!2024-04-25,10,307-->
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
 
 ## week 4 tutorial
@@ -74,7 +74,7 @@ The content is in teaching order.
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-04-14,3,291!2024-04-14,3,291-->
+  - _k_-means clustering variations ::: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-04-25,10,311!2024-04-25,10,311-->
 
 ## week 5 tutorial
 
@@ -89,7 +89,7 @@ The content is in teaching order.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
-  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
+  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-04-24,9,291!2024-04-25,10,307-->
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 
 ## week 6 lecture 1
@@ -97,7 +97,7 @@ The content is in teaching order.
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
-  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-04-14,3,291!2024-04-14,3,287-->
+  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-04-24,9,291!2024-04-27,12,307-->
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
@@ -111,17 +111,17 @@ The content is in teaching order.
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
-  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-04-15,4,311!2024-04-15,4,307-->
+  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-04-30,15,331!2024-04-26,11,307-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
-  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-04-15,4,311!2024-04-14,3,291-->
+  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-05-04,19,331!2024-04-27,12,311-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-  - entropy base ::: We use base 2. <!--SR:!2024-04-15,4,307!2024-04-15,4,307-->
+  - entropy base ::: We use base 2. <!--SR:!2024-05-01,16,327!2024-05-03,18,327-->
 
 ## week 7 lecture 1
 
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
-  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-04-15,4,311!2024-04-15,4,307-->
+  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-05-02,17,331!2024-04-26,11,307-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
 - [information gain § general definition](../../../../general/information%20gain%20(decision%20tree).md#general%20definition)
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
@@ -151,7 +151,7 @@ The content is in teaching order.
 - [lift chart § construction](../../../lift%20chart.md#construction)
 - [lift chart § interpretation](../../../lift%20chart.md#interpretation)
 - [lift chart § decile-wise](../../../lift%20chart.md#decile-wise)
-- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-04-14,3,291!2024-04-15,4,307-->
+- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-04-23,8,291!2024-04-26,11,307-->
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 
 ## week 8 lecture 1

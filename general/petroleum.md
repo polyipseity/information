@@ -91,15 +91,15 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2026-09-26,912,330!2024-05-19,322,334-->
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
-- [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2024-10-26,413,294!2024-04-13,291,334-->
+- [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2024-10-26,413,294!2024-09-12,150,314-->
 - [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2026-01-03,643,274!2024-05-05,31,150-->
 - [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-05-06,33,130!2024-08-12,134,214-->
 - [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2025-01-24,437,274!2025-04-13,375,194-->
-- [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-06-27,84,214!2024-04-15,4,130-->
+- [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-06-27,84,214!2024-04-17,2,130-->
 - [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-11-12,225,254-->
 - [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2024-05-13,42,174-->
 - [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2024-10-28,432,314!2025-05-06,539,314-->
-- [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2027-05-09,1164,350!2024-04-15,295,334-->
+- [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2027-05-09,1164,350!2026-12-25,984,334-->
 
 <!--/pytextgen-->
 

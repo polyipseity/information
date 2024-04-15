@@ -40,7 +40,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} | <!--SR:!2024-04-15,293,330!2024-07-02,297,270-->
+> | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} | <!--SR:!2027-12-12,1336,350!2024-07-02,297,270-->
 
 <!--/pytextgen-->
 
