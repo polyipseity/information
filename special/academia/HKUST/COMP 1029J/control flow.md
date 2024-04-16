@@ -77,7 +77,7 @@ if ("abc".equals(string)) {
 }
 ```
 
-Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}.
+Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed before the next `case` or `default` to get the desirable behavior. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}.
 
 ## iteration
 
