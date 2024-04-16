@@ -3,8 +3,8 @@
 //  COMP2011 Fall 2023
 //  PA3: A Simplified Version of USTSPAC
 //
-//  Your name: So Chun Hin
-//  Your ITSC email: chsoap@connect.ust.hk
+//  Your name: SUO, Xun Xin
+//  Your ITSC email: xxsuoaa@connect.ust.hk
 //
 //  Project TA: PAPPAS Christodoulos (cpappas@connect.ust.hk);
 //              XU Shuangjie (shuangjie.xu@connect.ust.hk)

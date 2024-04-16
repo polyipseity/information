@@ -6,7 +6,7 @@ Buyer::Buyer(int id, const string& name) : buyerID{id}, buyerName{name} {
 }
 
 // Task 1.2
-void Buyer::setBuyerId(int newId) { 
+void Buyer::setBuyerId(int newId) {
   buyerID = newId;
 }
 
@@ -16,11 +16,11 @@ int Buyer::getBuyerId() const {
 }
 
 // Task 1.4
-void Buyer::setBuyerName(const string& newName) { 
+void Buyer::setBuyerName(const string& newName) {
   buyerName = newName;
 }
 
 // Task 1.5
-string Buyer::getBuyerName() const { 
+string Buyer::getBuyerName() const {
   return buyerName;
 }

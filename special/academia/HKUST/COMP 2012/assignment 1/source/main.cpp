@@ -90,19 +90,19 @@ void handleSellerActions(Menu& menu, OrderList& orderList) {
             case 4:
             if (orderList.isEmpty()) {
                     cout << "Order list is empty. No order to process." << endl;
-                } 
+                }
             else {
                     orderList.displayOrderList();
                     cout << "Enter OrderID to process it: ";
                     cin >> pOrderID;
                     if (orderList.removeOrder(pOrderID)) {
                 cout << "Order ID " << pOrderID << " processed and removed from the list.\n";
-                    } 
+                    }
                     else {
                         cout << "Order ID " << pOrderID << " not found.\n";
                         }
                     }
-                break;    
+                break;
             case 5:
                 cout << "Exiting seller actions.\n \n";
                 break;
@@ -145,14 +145,14 @@ void handleBuyerActions(Menu& menu, OrderList& orderList) {
             case 4:
             if (orderList.isEmpty()) {
                     cout << "Order list is empty. No order to copy." << endl;
-                } 
+                }
             else {
                 Order newOrder; // Create a new order
                 orderList.displayOrderList();
-                
+
                 cout << "Enter your name: ";
                 cin >> buyerName;
-                buyerId = buyerIDCounter++; 
+                buyerId = buyerIDCounter++;
                 newOrder.setBuyer(buyerId, buyerName);
                 newOrder.setOrderId(orderIdCounter++);
                 cout << "Please enter the Order Id you want to copy: ";
@@ -171,7 +171,7 @@ void handleBuyerActions(Menu& menu, OrderList& orderList) {
                 } else {
                 cout << "Order with ID " << cOrderId << " not found.\n";
                     }
-                }   
+                }
                 break;
             case 5:
                 cout << "Exiting buyer actions.\n";
@@ -187,11 +187,11 @@ void placeOrder(Menu& menu, OrderList& orderList) {
     string buyerName;
     cout << "Enter your name: ";
     cin >> buyerName;
-    int buyerId = buyerIDCounter++; 
-    
+    int buyerId = buyerIDCounter++;
+
     newOrder.setBuyer(buyerId, buyerName);
     newOrder.setOrderId(orderIdCounter++);
-    
+
     menu.displayMenu();
     bool addingItems = true;
     while (addingItems) {

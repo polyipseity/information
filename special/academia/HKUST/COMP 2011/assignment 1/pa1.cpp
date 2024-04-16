@@ -3,8 +3,8 @@
 //  COMP2011 Fall 2023
 //  PA1: A Simpified Robot Wars Game
 //
-//  Your name: SO, Chun Hin
-//  Your ITSC email: chsoap@connect.ust.hk
+//  Your name: SUO, Xun Xin
+//  Your ITSC email: xxsuoaa@connect.ust.hk
 //
 //  Declaration:
 //  I declare that I am not involved in plagiarism

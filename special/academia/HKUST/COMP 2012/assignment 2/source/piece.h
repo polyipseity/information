@@ -34,7 +34,7 @@ class Piece {
         // Pure virtual function that returns a dynamic-allocated instance of the concrete derived class
         virtual Piece* clone() const = 0;
 
-        // Returns the character representing this piece (uppercase for white, lowercase for black) 
+        // Returns the character representing this piece (uppercase for white, lowercase for black)
         char getName() const { return name() - (isWhite() ? 0 : 'A' - 'a'); }
 
         // Accessor functions
@@ -57,7 +57,7 @@ template <char N>
 class NamedPiece : public Piece {
     private:
         virtual char name() const override { return N; }
-    
+
     public:
         NamedPiece(Color color): Piece(color) {}
 };

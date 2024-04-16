@@ -189,7 +189,7 @@ int main() {
         std::cin >> caseNum;
         if (SELECT_PROMPT) std::cout << std::endl;
         std::cin.get();
- 
+
         switch (caseNum) {
             case 1:
                 {
@@ -292,7 +292,7 @@ int main() {
                 std::cout << "Test case 4 selected." << std::endl;
                 Order newOrder;
                 OrderList orderList;
-                if (orderList.isEmpty()) 
+                if (orderList.isEmpty())
                 {
                     std::cout << "Order list is empty. No order to process." << std::endl;
                 }
@@ -309,12 +309,12 @@ int main() {
                 orderList.addOrder(newOrder);
                 if (orderList.isEmpty()) {
                     std::cout << "Order list is empty. No order to process." << std::endl;
-                } 
+                }
             else {
                 std::cout << "Enter OrderID to process it: ";
                 if (orderList.removeOrder(orderId)) {
                 std::cout << "Order ID " << orderId << " processed and removed from the list.\n";
-                    } 
+                    }
                     else{
                         std::cout << "Order ID " << orderId << " not found.\n";
                         }
@@ -337,7 +337,7 @@ int main() {
 
                 std::cout << "Enter your name: ";
                 std::cin >> buyerName;
-                buyerId = buyerIDCounter++; 
+                buyerId = buyerIDCounter++;
                 secondOrder.setBuyer(buyerId, buyerName);
                 secondOrder.setOrderId(orderIdCounter++);
                 std::cout << "Please enter the Order Id you want to copy: ";
@@ -359,27 +359,27 @@ int main() {
                     }
                 }
             break;
-            
+
             default:
                 std::cout << "Unrecognized test case." << std::endl;
                 break;
-    
+
         }
     }
     else {
         std::cout << "Unrecognized test case." << std::endl;
     }
-    
+
 return 0;
 }
 
 void placeOrder(Order& newOrder, Menu& menu) {
     string buyerName = "Alex";
-    int buyerId = buyerIDCounter++; 
-    
+    int buyerId = buyerIDCounter++;
+
     newOrder.setBuyer(buyerId, buyerName);
     newOrder.setOrderId(orderIdCounter++);
-    
+
     menu.displayMenu();
     bool addingItems = true;
     while (addingItems) {

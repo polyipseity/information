@@ -28,13 +28,13 @@ Herbivore::Herbivore(string const &name, int age, double foodPerDay, string cons
 // describe implementations
 void Carnivore::describe() const {
     cout << "Carnivore: " << name << ", Age: " << age
-              << ", Consumes " << getFoodPerDay() << " kg of meat per day." 
+              << ", Consumes " << getFoodPerDay() << " kg of meat per day."
               << " Teeth Count: " << teethCount << endl;
 }
 
 void Herbivore::describe() const {
     cout << "Herbivore: " << name << ", Age: " << age
-              << ", Consumes " << getFoodPerDay() << " kg of vegetation per day." 
+              << ", Consumes " << getFoodPerDay() << " kg of vegetation per day."
               << " Favorite Plant: " << favoritePlant
               << ", Habitat Preference: " << habitatPreference << endl;
 }

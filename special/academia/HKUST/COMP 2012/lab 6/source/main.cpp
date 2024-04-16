@@ -29,13 +29,13 @@ int main() {
 
     for (size_t i = 0; i < 4; ++i) {
         for (size_t j = 0; j < 4; ++j) {
-            matA(i, j) = i * 4 + j + 1; 
+            matA(i, j) = i * 4 + j + 1;
         }
     }
 
     for (size_t i = 0; i < 4; ++i) {
         for (size_t j = 0; j < 4; ++j) {
-            matB(i, j) = (i * 4 + j + 1) * 2; 
+            matB(i, j) = (i * 4 + j + 1) * 2;
         }
     }
 
@@ -54,7 +54,7 @@ int main() {
     cout << "\n================================Case3================================\n";
 
     // case 3 Multiplication operation
-        
+
     Matrix<double> matC(2, 3); // Matrix of 2 rows and 3 columns
     matC(0, 0) = 1; matC(0, 1) = 2; matC(0, 2) = 3;
     matC(1, 0) = 4; matC(1, 1) = 5; matC(1, 2) = 6;
@@ -69,7 +69,7 @@ int main() {
 
 
     Matrix<double> multiplicationResult = matC * matD;
-    
+
     cout << "Multiplication Result:\n" << multiplicationResult << endl;
 
 

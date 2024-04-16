@@ -11,7 +11,7 @@ class OrderList {
 public:
     OrderList();
     ~OrderList();
-    
+
     void addOrder(const Order& order);
     bool removeOrder(int orderId);
     Order* findOrder(int orderId) const;

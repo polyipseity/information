@@ -12,7 +12,7 @@ Piece* getPromotionPiece(Color color);
 // Extends Board class to add international chess special rules
 class WesternBoard: public Board {
     friend class BoardTester;
-    
+
     private:
         bool castleKingside[2] {true, true};
         bool castleQueenside[2] {true, true};
@@ -47,7 +47,7 @@ class WesternBoard: public Board {
                     }
                 }
                 castleKingside[selectedPiece->getColor()] = false;
-                
+
                 if ((destPos == Position{_C, isWhiteTurn ? _1 : _8})) {
                     if (castleQueenside[selectedPiece->getColor()]) {
                         piece(_D, isWhiteTurn ? _1 : _8) = piece(_A, isWhiteTurn ? _1 : _8);
@@ -215,11 +215,11 @@ class WesternBoard: public Board {
             }
             else
                 castleQueenside[BLACK] = false;
-            if (fen.at(0) == '-') 
+            if (fen.at(0) == '-')
                 fen = fen.substr(2);
             else
                 fen = fen.substr(1);
-            
+
             if (fen.at(0) != '-') {
                 char file = fen[0];
                 char rank = fen[1];

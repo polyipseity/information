@@ -13,7 +13,7 @@ bool isRoyal(const Piece* piece);
 class Board {
     // This allows the BoardTester class to access and test private member functions
     friend class BoardTester;
-    
+
     // The following data members and member functions are protected since this class can be inherited
     // It is outside of the requirements for this assignment however, so you can treat them as private
     protected:

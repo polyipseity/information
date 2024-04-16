@@ -22,7 +22,7 @@ public:
   const Buyer& getBuyer() const;
   void setBuyer(int newBuyerId, string newBuyerName);
 
-  int getcurrentNum() const; 
+  int getcurrentNum() const;
   void setOrderId(int newId);
   int getOrderId() const;
 

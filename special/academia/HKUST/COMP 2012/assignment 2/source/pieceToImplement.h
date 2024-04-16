@@ -1,5 +1,5 @@
 // TASK 3: Implement the 4 Piece-derived classes here
-// All classes will inherit the NamedPiece class 
+// All classes will inherit the NamedPiece class
 // and implement the remaining pure virtual functions
 
 

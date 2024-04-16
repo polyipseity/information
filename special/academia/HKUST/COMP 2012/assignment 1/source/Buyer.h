@@ -8,7 +8,7 @@ class Buyer {
 private:
     int buyerID;
     string buyerName;
-    
+
 public:
     //Default Constructor
     Buyer(int id = 0, const string& name = "");

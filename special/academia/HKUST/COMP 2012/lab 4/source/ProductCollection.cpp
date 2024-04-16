@@ -60,24 +60,24 @@ bool ProductCollection::contain(int productID) const {
 
 int ProductCollection::remove(int productID) {
     int i;
-    
+
     for (i = 0; i < size; i++) {
         if (products[i] == productID) {
             break;
         }
     }
-    
+
     // productID not found, cancel remove, return 1
     if (i == size) {
         return 1;
     }
-    
+
     // Shift products forward
     for (int j = i; j < size - 1; j++) {
         products[j] = products[j + 1];
     }
     size--;
-    
+
     // successfully remove the first-found productID, return 0
     return 0;
 }

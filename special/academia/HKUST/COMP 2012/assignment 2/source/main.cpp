@@ -58,7 +58,7 @@ int main(int argc, char* argv[]) {
             char next = fen.at(0);
             fen = fen.substr(1);
 
-            switch (next) {        
+            switch (next) {
                 case 'r': case 'R': board.addPiece(new Rook(isupper(next) ? WHITE : BLACK), Position{f, r}); break;
                 case 'n': case 'N': board.addPiece(new Knight(isupper(next) ? WHITE : BLACK), Position{f, r}); break;
                 case 'b': case 'B': board.addPiece(new Bishop(isupper(next) ? WHITE : BLACK), Position{f, r}); break;
@@ -79,7 +79,7 @@ int main(int argc, char* argv[]) {
                 case 'w': case 'W': board.addPiece(new OmniLeaper<'W', 1, 0>(isupper(next) ? WHITE : BLACK), Position{f, r}); break;
                 case 'z': case 'Z': board.addPiece(new OmniLeaper<'Z', 2, 3>(isupper(next) ? WHITE : BLACK), Position{f, r}); break;
 
-                case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8': 
+                case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8':
                     blankCount = next - '1';
                     break;
                 default:
