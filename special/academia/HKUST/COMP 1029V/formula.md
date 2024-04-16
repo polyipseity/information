@@ -160,7 +160,7 @@ return _chain.from_iterable(await _gather(
 - `<`::lesser than <!--SR:!2024-11-13,218,330-->
 - `>`::greater than <!--SR:!2024-05-02,70,310-->
 - `<=`::lesser than or equal to <!--SR:!2024-04-20,60,310-->
-- `>=`::greater than or equal to <!--SR:!2024-04-16,56,310-->
+- `>=`::greater than or equal to <!--SR:!2024-12-09,237,330-->
 - `<>`::not equal to <!--SR:!2024-04-25,64,310-->
 
 <!--/pytextgen-->
@@ -214,7 +214,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`NOT(boolean)` <!--SR:!2024-04-22,61,310!2024-05-01,69,310-->
 - `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-09-05,150,310!2024-04-30,68,310-->
-- `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-04-16,56,310!2024-09-30,168,310-->
+- `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-12-10,238,330!2024-09-30,168,310-->
 - `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-04-18,58,310!2024-04-26,65,310-->
 
 <!--/pytextgen-->
@@ -222,7 +222,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
 - `NOT(boolean)`::negate <!--SR:!2024-04-21,61,310-->
-- `AND(booleans...)`::every input is true <!--SR:!2024-04-16,57,310-->
+- `AND(booleans...)`::every input is true <!--SR:!2024-12-16,244,330-->
 - `OR(booleans...)`::there exists true inputs <!--SR:!2024-04-27,65,310-->
 
 <!--/pytextgen-->

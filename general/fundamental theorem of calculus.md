@@ -24,7 +24,7 @@ The first part is sometimes called the _first fundamental theorem of calculus_.
 
 The first part implies that when $f$ is [continuous](continuous%20function.md), {{[antiderivatives](antiderivative.md) of $f$ always exists}}. <!--SR:!2024-08-23,205,330-->
 
-The conditions above can be relaxed. If $f$ is {{[Lebesgue integrable](Lebesgue%20integration.md) on $[a, b]$, and [continuous](continuous%20function.md) at $x_0 \in (a, b)$}}, then {{$F$ is [differentiable](differentiable%20function.md) at $x_0$ and $F'(x_0) = f(x_0)$}}. This is still valid for the more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md)}}. <!--SR:!2024-04-16,4,280!2024-04-24,9,260!2024-04-16,4,280-->
+The conditions above can be relaxed. If $f$ is {{[Lebesgue integrable](Lebesgue%20integration.md) on $[a, b]$, and [continuous](continuous%20function.md) at $x_0 \in (a, b)$}}, then {{$F$ is [differentiable](differentiable%20function.md) at $x_0$ and $F'(x_0) = f(x_0)$}}. This is still valid for the more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md)}}. <!--SR:!2024-04-25,9,280!2024-04-24,9,260!2024-04-25,9,280-->
 
 Additionally, if {{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md), then $F$ is [absolutely continuous](absolute%20continuity.md)}}. <!--SR:!2024-04-24,9,260-->
 
@@ -48,7 +48,7 @@ The second part is {{stronger than the [corollary](#corollary) because $f$ may n
 
 The conditions above can be relaxed. The result still holds if {{$f$ is [Lebesgue integrable](Lebesgue%20integration.md) instead}}. Continuing with the replaced definition, however, if {{$F$ admits a derivative _[almost everywhere](almost%20everywhere.md)_ instead of everywhere}}, this result may fail. Instead, if {{$F$ is [absolutely continuous](absolute%20continuity.md), then it admits a derivative almost everywhere, $F'$ is Lebesgue integrable, and the above result holds again. Note that we do not need to assume $f$ is integrable}}. <!--SR:!2024-04-22,7,260!2024-04-21,6,260!2024-04-23,8,260-->
 
-If the even more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md) is used}}, then if {{a [continuous function](continuous%20function.md) $F$ admits an [antiderivative](antiderivative.md) $f$ at all but _countably_ many points (not the same as almost everywhere), then $f$ is Henstock–Kurzweil integrable and the above results hold. Note that we do not even need to assume that $f$ is integrable}}. <!--SR:!2024-04-16,4,280!2024-04-17,2,240-->
+If the even more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md) is used}}, then if {{a [continuous function](continuous%20function.md) $F$ admits an [antiderivative](antiderivative.md) $f$ at all but _countably_ many points (not the same as almost everywhere), then $f$ is Henstock–Kurzweil integrable and the above results hold. Note that we do not even need to assume that $f$ is integrable}}. <!--SR:!2024-04-26,10,280!2024-04-17,2,240-->
 
 ## references
 

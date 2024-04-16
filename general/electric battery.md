@@ -22,7 +22,7 @@ tags:
 
 %%
 
-A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2024-04-16,174,230!2024-05-17,320,330-->
+A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2025-05-20,399,230!2024-05-17,320,330-->
 
 [Primary batteries](primary%20battery.md) are {{discharged once only and then [discarded](disposable%20product.md)}}. [Secondary batteries](rechargeable%20battery.md) can be {{discharged and recharged multiple times before being discarded}}. <!--SR:!2026-07-12,913,330!2026-02-20,801,330-->
 
@@ -214,7 +214,7 @@ return chain.from_iterable(await gather(
 
 - _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2024-05-21,324,330!2027-07-07,1213,350-->
 - [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md) <!--SR:!2025-06-15,599,310!2024-05-18,321,330-->
-- [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2026-08-25,890,330!2024-04-16,296,330-->
+- [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2026-08-25,890,330!2026-12-18,976,330-->
 - [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_ <!--SR:!2024-05-20,323,330!2027-06-28,1204,350-->
 
 <!--/pytextgen-->
