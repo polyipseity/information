@@ -120,7 +120,7 @@ index b233b84..144a19d 100644
 +        }
 +        if (read_button(BUTTON1)) {
 +            if (tft) {
-+                tft_prints(0, 0, "Hello, chsoap");
++                tft_prints(0, 0, "Hello, xxsuoaa");
 +            }
 +            led_off(LED1);
 +        } else {
@@ -132,7 +132,7 @@ index b233b84..144a19d 100644
 +        }
 +        if (button2.first_press && tick - button2.pressed <= 1000) {
 +            if (tft) {
-+                tft_prints(0, 1, "Hello, chsoap");
++                tft_prints(0, 1, "Hello, xxsuoaa");
 +            }
 +        }
 +        if (button2.first_release && tick - button2.released <= 1000) {
