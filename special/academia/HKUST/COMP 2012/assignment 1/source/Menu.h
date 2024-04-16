@@ -12,7 +12,7 @@ private:
     int currentSize; // Current number of food items
     int capacity; // Maximum capacity of the array
     int nextFoodId; //Track the next available food item ID
-    
+
 public:
     Menu(); // Constructor to initialize currentSize and allocate memory for foodItems
     ~Menu(); // Destructor to free allocated memory

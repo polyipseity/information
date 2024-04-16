@@ -21,7 +21,7 @@ ostream& operator<<(ostream& os, const Vector& v) {
 
 ostream& operator<<(ostream& os, const BooleanMap& m) {
     os << endl;
-    for (int i=0; i<4*NUM_FILES+1; ++i) 
+    for (int i=0; i<4*NUM_FILES+1; ++i)
         os << '-';
     os << endl;
 
@@ -34,7 +34,7 @@ ostream& operator<<(ostream& os, const BooleanMap& m) {
             os << ' ';
         }
         os << "| " << rankNum-- << endl;
-        for (int i=0; i<4*NUM_FILES+1; ++i) 
+        for (int i=0; i<4*NUM_FILES+1; ++i)
             os << '-';
         os << endl;
     }
@@ -51,15 +51,15 @@ ostream& operator<<(ostream& os, const BooleanMap& m) {
 class DummyPiece : public Piece {
     private:
         virtual char name() const override { return 'X'; }
-    
+
     public:
         DummyPiece(Color color): Piece(color) {}
         virtual Piece* clone() const override { return new DummyPiece{*this}; }
 
-        virtual BooleanMap getMoves(const Board& board) const override { 
+        virtual BooleanMap getMoves(const Board& board) const override {
             BooleanMap map{};
             map.cell(_E, _8) = true;
-            return map; 
+            return map;
         }
 };
 
@@ -197,7 +197,7 @@ class BoardTester {
             BooleanMap map2 {};
             for (int i=0; i<64; i+=4) map2.cell(static_cast<_FILE>(i/8), static_cast<_RANK>(i%8)) = true;
             cout << "Map 2: " << map2 << endl;
-            
+
             map1 |= map2;
             cout << "Map 1 bitwise-OR Map 2: " << map1 << endl;
         }
@@ -210,7 +210,7 @@ class BoardTester {
             BooleanMap map2 {};
             for (int i=0; i<64; i+=4) map2.cell(static_cast<_FILE>(i/8), static_cast<_RANK>(i%8)) = true;
             cout << "Map 2: " << map2 << endl;
-            
+
             map1 &= map2;
             cout << "Map 1 bitwise-AND Map 2: " << map1 << endl;
         }
@@ -219,7 +219,7 @@ class BoardTester {
             BooleanMap map1 {};
             for (int i=0; i<64; i+=3) map1.cell(static_cast<_FILE>(i/8), static_cast<_RANK>(i%8)) = true;
             cout << "Map 1: " << map1 << endl;
-            
+
             map1 = ~map1;
             cout << "Bitwise-NOT Map 1: " << map1 << endl;
         }
@@ -237,7 +237,7 @@ class BoardTester {
             board2.display();
         }
 #endif
-        
+
 #ifdef TASK3_1_LEAPER_COMPLETE
         void test12() {
             board.addPiece(new Leaper<'N', 2, 1>(WHITE), Position{_D, _4});
@@ -252,7 +252,7 @@ class BoardTester {
             board.display();
         }
 #endif
-        
+
 #ifdef TASK3_2_RIDER_COMPLETE
         void test14() {
             board.addPiece(new Rider<'R', 1, 0>(WHITE), Position{_D, _4});
@@ -273,7 +273,7 @@ class BoardTester {
             board.display();
         }
 #endif
-        
+
 #ifdef TASK3_3_COMPOUND_COMPLETE
         void test17() {
             board.addPiece(new Compound<'C', Leaper<'N', 2, 1>, Rider<'R', 1, 0>>(WHITE), Position{_D, _4});
@@ -281,7 +281,7 @@ class BoardTester {
             board.display();
         }
 #endif
-        
+
 #ifdef TASK3_4_DIVERGENT_COMPLETE
         void test18() {
             board.addPiece(new Divergent<'D', Leaper<'N', 2, 1>, Rider<'R', 1, 0>>(WHITE), Position{_D, _4});
@@ -297,7 +297,7 @@ class BoardTester {
             board.display();
         }
 #endif
-        
+
 #if defined(TASK3_3_COMPOUND_COMPLETE) & defined(TASK3_4_DIVERGENT_COMPLETE)
         void test20() {
             board.addPiece(new Divergent<'D', Compound<'C', Leaper<'N', 2, 1>, Rider<'R', 1, 0>>, Compound<'C', Leaper<'N', -2, 1>, Rider<'R', 0, -1>>>(WHITE), Position{_D, _4});
@@ -309,7 +309,7 @@ class BoardTester {
             board.display();
         }
 #endif
-        
+
 #ifdef TASK4_1_2_PIECES_COMPLETE
         void test21() {
             board.addPiece(new Bishop(WHITE), Position{_D, _4});
@@ -340,7 +340,7 @@ class BoardTester {
             cout << "King is royal: " << isRoyal(&kingPiece) << endl;
         }
 #endif
-        
+
 #ifdef TASK4_3_PAWN_COMPLETE
         void test25() {
             board.addPiece(new Pawn(WHITE), Position{_D, _2});
@@ -455,7 +455,7 @@ class BoardTester {
 
         void test32() {
             testOpening({
-                MOVE(e2, e4), MOVE(e7, e5), 
+                MOVE(e2, e4), MOVE(e7, e5),
                 MOVE(g1, f3), MOVE(b8, c6),
                 MOVE(f1, b5), MOVE(g8, f6),
             });
@@ -463,7 +463,7 @@ class BoardTester {
 
         void test33() {
             testOpening({
-                MOVE(d2, d4), MOVE(d7, d5), 
+                MOVE(d2, d4), MOVE(d7, d5),
                 MOVE(c2, c4), MOVE(d5, c4),
                 MOVE(e2, e4), MOVE(e7, e5),
                 MOVE(f1, c4),
@@ -472,7 +472,7 @@ class BoardTester {
 
         void test34() {
             testOpening({
-                MOVE(e2, e4), MOVE(e7, e5), 
+                MOVE(e2, e4), MOVE(e7, e5),
                 MOVE(d1, h5), MOVE(b8, c6),
                 MOVE(f1, c4), MOVE(g8, f6),
                 MOVE(h5, f7),
@@ -481,7 +481,7 @@ class BoardTester {
 
         void test35() {
             testOpening({
-                MOVE(d2, d4), MOVE(d7, d5), 
+                MOVE(d2, d4), MOVE(d7, d5),
                 MOVE(c1, f4), MOVE(g8, f6),
                 MOVE(e2, e3), MOVE(c7, c5),
                 MOVE(f4, b8), MOVE(a8, b8),
@@ -491,7 +491,7 @@ class BoardTester {
 
         void test36() {
             testOpening({
-                MOVE(d2, d4), MOVE(d7, d5), 
+                MOVE(d2, d4), MOVE(d7, d5),
                 MOVE(c2, c4), MOVE(e7, e5),
                 MOVE(d4, e5), MOVE(d5, d4),
                 MOVE(e2, e3), MOVE(f8, b4),

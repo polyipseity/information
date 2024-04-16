@@ -11,10 +11,10 @@ OBJS = $(SRCS:.cpp=.o)
 DEPS = $(SRCS:.cpp=.d)
 EXE = $(ASGN_NAME).exe
 
-# Rules: 
+# Rules:
 # target: dependencies
 #   command used to create the target
-$(EXE): $(OBJS) 
+$(EXE): $(OBJS)
 	g++ $(CPPFLAGS) -o $@ $(OBJS)
 
 # To include the .d dependency files

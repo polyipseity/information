@@ -8,9 +8,9 @@ OBJS_TEST = $(SRCS_TEST:.cpp=.o)
 DEPS	= $(OBJS:.o=.d)
 DEPS_TEST = $(OBJS_TEST:.o=.d)
 
-all: PA1.exe 
+all: PA1.exe
 
-PA1.exe: $(OBJS) 
+PA1.exe: $(OBJS)
 	g++ $(CPPFLAGS) -o $@ $^
 
 test: PA1_test.exe

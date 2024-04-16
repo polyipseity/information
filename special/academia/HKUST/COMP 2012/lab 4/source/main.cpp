@@ -51,11 +51,11 @@ int main() {
     memberOrder->addFromOrder(ordinaryOrder2);
     memberOrder->printProducts();
     std::cout << memberOrder->getCollectionID() << ": reward points is " << memberOrder->getPoints() << std::endl;
-    
+
     delete productCollection;
     delete ordinaryOrder1;
     delete ordinaryOrder2;
     delete memberOrder;
-    
+
     return 0;
 }

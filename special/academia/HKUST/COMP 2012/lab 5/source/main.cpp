@@ -7,10 +7,10 @@ using namespace std;
 
 int main() {
     ZooSystem zoo(50);
-    
+
     zoo.addAnimal(new Lion("Simba", 5, 5.0, 20));
     zoo.addAnimal(new Elephant("Dumbo", 10, 50.0, "Grass", "Savanna"));
-   
+
     // list all animals in the zoo
     cout << "All animals in the zoo:" << endl;
     zoo.listAllAnimals();

@@ -41,7 +41,7 @@ bool Order::addItem(const Food& item) {
 // ---------------------- provided code: DO NOT MODIFY --------------------------
 else {
     cout << "Order is full, cannot add more items.\n";
-    return false; 
+    return false;
   }
 }
 

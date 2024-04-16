@@ -24,14 +24,14 @@ Board::Board(const Board& board)
     for (Piece *&cur_piece : royalPieces)
     {
         if (cur_piece)
-            cur_piece = piece(cur_piece->getPosition());   
+            cur_piece = piece(cur_piece->getPosition());
     }
 }
 
 /**
  * TASK 2.2: Board destructor
 */
-Board::~Board() 
+Board::~Board()
 {
     // TODO
     for (int file{}; file < NUM_FILES; ++file)
