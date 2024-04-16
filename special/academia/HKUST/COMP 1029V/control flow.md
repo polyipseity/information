@@ -11,7 +11,7 @@ tags:
 
 ## branching
 
-An `If...Then...End If` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-16,57,310-->
+An `If...Then...End If` statement consists of {{a condition and a statement block}}: <!--SR:!2024-12-22,250,330-->
 
 ```VB
 If condition Then
@@ -99,7 +99,7 @@ For LoopVariable = start To end Step step ' `Step step` optional
 Next LoopVariable
 ```
 
-The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loop variable is assigned the starting point. Then the loop variable is checked. If the loop variable is in between start and end, both ends inclusive, the statement block is executed. Otherwise, the `For...To...Step...Next` statement finishes}}. Each time the statement block has finished execution, {{the loop variable is incremented by `step`. Then we go back to checking the loop variable and repeat}}. <!--SR:!2024-04-16,53,301!2024-05-06,73,321-->
+The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loop variable is assigned the starting point. Then the loop variable is checked. If the loop variable is in between start and end, both ends inclusive, the statement block is executed. Otherwise, the `For...To...Step...Next` statement finishes}}. Each time the statement block has finished execution, {{the loop variable is incremented by `step`. Then we go back to checking the loop variable and repeat}}. <!--SR:!2024-09-22,159,301!2024-05-06,73,321-->
 
 ### ending iteration early
 

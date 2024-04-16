@@ -57,7 +57,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 <!--/pytextgen-->
 
-Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-04-16,4,230!2024-04-18,3,267-->
+Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-04-23,7,230!2024-04-18,3,267-->
 
 Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2024-04-18,13,270-->
 
@@ -73,11 +73,11 @@ Customer jobs can be split into three categories: {{functional jobs, social jobs
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-04-18,13,270!2024-04-19,4,289!2024-04-19,4,289-->
 
-Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-04-16,1,249!2024-04-19,4,289!2024-04-20,15,290-->
+Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-04-18,2,249!2024-04-19,4,289!2024-04-20,15,290-->
 
 Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. <!--SR:!2024-04-22,17,290!2024-04-18,3,269-->
 
-There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. Jobs to be done can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-04-16,1,249-->
+There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. Jobs to be done can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-04-19,3,269-->
 
 #### customer profile common mistakes
 
@@ -114,12 +114,12 @@ vagueness: vague jobs, pains, and gains
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-18,3,269!2024-04-19,4,289-->
-- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-16,1,249!2024-04-18,3,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-16,1,249!2024-04-16,1,249-->
+- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-18,2,249!2024-04-18,3,269-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-17,1,229!2024-04-17,1,229-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-18,3,269!2024-04-16,1,249-->
-- vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-04-19,4,289!2024-04-16,1,249-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-18,3,269!2024-04-17,1,229-->
+- vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-04-19,4,289!2024-04-19,3,269-->
 
 <!--/pytextgen-->
 
@@ -164,10 +164,10 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-04-18,3,269!2024-04-19,4,289-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-16,1,249!2024-04-18,3,269-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-18,2,249!2024-04-18,3,269-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-04-18,3,269!2024-04-16,1,249-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-04-18,3,269!2024-04-17,1,229-->
 
 <!--/pytextgen-->
 
@@ -175,11 +175,11 @@ mix: mixing products and services with pain relievers and gain creators
 
 Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-04-19,14,290!2024-05-08,30,270-->
 
-However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-04-19,4,289!2024-04-16,1,249!2024-04-18,3,269!2024-04-22,17,290-->
+However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-04-19,4,289!2024-04-18,2,249!2024-04-18,3,269!2024-04-22,17,290-->
 
 ## design
 
-Design is {{designing business models from your value proposition}}. <!--SR:!2024-04-16,1,249-->
+Design is {{designing business models from your value proposition}}. <!--SR:!2024-04-17,1,229-->
 
 ### prototyping
 
@@ -224,16 +224,16 @@ find customer patterns
 - _(begin)_→:::←create a customer profile <!--SR:!2024-04-18,3,269!2024-04-19,4,289-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
 - outline the interview→:::←interview <!--SR:!2024-04-19,4,289!2024-04-18,3,269-->
-- interview→:::←capture new customer profile <!--SR:!2024-04-16,1,249!2024-04-19,4,289-->
+- interview→:::←capture new customer profile <!--SR:!2024-04-19,3,269!2024-04-19,4,289-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2024-04-18,3,269-->
-- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-04-16,1,249!2024-04-18,3,269-->
+- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-04-18,2,249!2024-04-18,3,269-->
 - find customer patterns→:::←_(end)_ <!--SR:!2024-04-19,4,289!2024-04-19,4,289-->
 
 <!--/pytextgen-->
 
 ## test
 
-Test is {{reducing risk and uncertainty of new ideas and then improving your value propositions}}. <!--SR:!2024-04-16,1,249-->
+Test is {{reducing risk and uncertainty of new ideas and then improving your value propositions}}. <!--SR:!2024-04-18,2,249-->
 
 ### test steps
 
@@ -274,7 +274,7 @@ conclusion: make progress
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-04-18,3,269!2024-04-19,4,287-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-04-19,4,289!2024-04-19,4,289-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-04-19,4,289!2024-05-07,22,250-->
-- test: design tests→:::←test: prioritize tests <!--SR:!2024-04-16,1,249!2024-05-15,30,270-->
+- test: design tests→:::←test: prioritize tests <!--SR:!2024-04-19,3,269!2024-05-15,30,270-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-04-18,3,269!2024-04-19,14,290-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-04-18,3,269!2024-04-19,4,289-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-04-19,4,289!2024-04-18,3,269-->

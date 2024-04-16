@@ -15,9 +15,9 @@ tags:
 
 # confusion matrix
 
-In [machine learning](machine%20learning.md) and specifically [statistical classification](statistical%20classification.md), a __confusion matrix__ or {{__error matrix__}}, is {{a table that visualizes the performance of a classification algorithm}}. <!--SR:!2024-04-16,4,270!2024-04-16,4,270-->
+In [machine learning](machine%20learning.md) and specifically [statistical classification](statistical%20classification.md), a __confusion matrix__ or {{__error matrix__}}, is {{a table that visualizes the performance of a classification algorithm}}. <!--SR:!2024-04-29,13,290!2024-04-25,9,270-->
 
-Each row represents {{an actual class while each column represents a predicted class. The reverse is less common but also possible, and both are found in the literature}}. <!--SR:!2024-04-16,4,270-->
+Each row represents {{an actual class while each column represents a predicted class. The reverse is less common but also possible, and both are found in the literature}}. <!--SR:!2024-04-30,14,290-->
 
 > [!example] examples
 >
@@ -26,7 +26,7 @@ Each row represents {{an actual class while each column represents a predicted c
 > | actual class \ predicted class | __yes__ | __no__ |
 > |:------------------------------:|:-------:|:------:|
 > | __yes__                        | 3       | 1      |
-> | __no__                         | 2       | 2      | <!--SR:!2024-04-16,4,270-->
+> | __no__                         | 2       | 2      | <!--SR:!2024-05-03,17,290-->
 
 ## error report
 
@@ -40,7 +40,7 @@ An __error report__ {{is a related table that can be constructed from a confusio
 > |:---------:|:-----------:|:------------:|:-----------:|
 > | __yes__   | 4           | 1            | 25.00       |
 > | __no__    | 4           | 2            | 50.00       |
-> | __total__ | 8           | 3            | 37.50       | <!--SR:!2024-04-16,4,270-->
+> | __total__ | 8           | 3            | 37.50       | <!--SR:!2024-04-26,10,270-->
 
 ## references
 

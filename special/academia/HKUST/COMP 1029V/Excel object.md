@@ -13,7 +13,7 @@ tags:
 
 ### `Range`
 
-The `Range` object can refer to {{a cell or a range}}. We can pass {{a cell reference, a range reference, or even a user-defined name: `Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}}. By default, the worksheet the range is on is {{the currently active worksheet}}. <!--SR:!2024-04-16,57,310!2024-05-05,73,310!2024-04-26,65,310-->
+The `Range` object can refer to {{a cell or a range}}. We can pass {{a cell reference, a range reference, or even a user-defined name: `Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}}. By default, the worksheet the range is on is {{the currently active worksheet}}. <!--SR:!2024-12-18,246,330!2024-05-05,73,310!2024-04-26,65,310-->
 
 ### `Cells`
 

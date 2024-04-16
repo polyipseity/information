@@ -11,7 +11,7 @@ tags:
 
 ## path
 
-To interact with a file, we need to first {{get a path to the file}}. This can be done {{using `java.nio.file.Path` and `java.nio.file.Paths`}}: <!--SR:!2024-04-16,56,310!2024-12-20,249,330-->
+To interact with a file, we need to first {{get a path to the file}}. This can be done {{using `java.nio.file.Path` and `java.nio.file.Paths`}}: <!--SR:!2024-12-12,240,330!2024-12-20,249,330-->
 
 ```Java
 import java.nio.file.Path;

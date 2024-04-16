@@ -108,7 +108,7 @@ return _chain.from_iterable(await _gather(
 - `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-04-28,68,310-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-10-09,177,310-->
-- `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-04-16,58,310-->
+- `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-10-16,183,310-->
 - `int`::An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
 
 <!--/pytextgen-->
@@ -279,7 +279,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`<` <!--SR:!2024-04-18,8,170!2024-05-13,60,290-->
 - `<`→:::←`>` <!--SR:!2024-04-27,67,310!2024-04-26,65,310-->
 - `>`→:::←`<=` <!--SR:!2024-09-28,166,310!2024-05-01,56,270-->
-- `<=`→:::←`>=` <!--SR:!2024-04-16,57,310!2024-07-06,106,290-->
+- `<=`→:::←`>=` <!--SR:!2024-10-12,179,310!2024-07-06,106,290-->
 - `>=`→:::←`==` <!--SR:!2024-05-01,70,310!2024-04-23,13,150-->
 - `==`→:::←`!=` <!--SR:!2024-04-23,63,310!2024-04-25,65,310-->
 - `!=`→:::←_(end)_ <!--SR:!2024-04-24,64,310!2024-05-02,71,310-->
@@ -345,7 +345,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-20T14:26:40.998968+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`!` <!--SR:!2024-04-20,61,310!2024-07-29,133,310-->
-- `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-04-16,58,310-->
+- `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-10-14,181,310-->
 - `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2024-04-21,62,310!2024-04-20,60,310-->
 - <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-12-06,238,330!2024-09-02,150,310-->
 

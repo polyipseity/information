@@ -11,7 +11,7 @@ tags:
 
 ## branching
 
-An `if` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-16,58,310-->
+An `if` statement consists of {{a condition and a statement block}}: <!--SR:!2024-12-31,259,330-->
 
 ```Java
 if (condition)
@@ -77,7 +77,7 @@ if ("abc".equals(string)) {
 }
 ```
 
-Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}. <!--SR:!2024-08-18,135,290!2024-04-16,57,310-->
+Note that there is subtly with the `switch` statement. First, {{only constant values but not variables can be used after `case`}}. Second, {{a `break` is needed to get the desirable behavior before the next `case` or `default`. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}}. <!--SR:!2024-08-18,135,290!2024-12-19,247,330-->
 
 ## iteration
 

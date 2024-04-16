@@ -72,7 +72,7 @@ C$: [cost structure](#cost%20structure)
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-04-19,4,274!2024-04-18,3,257-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-04-19,4,274!2024-04-19,4,274-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-04-18,3,254!2024-04-19,4,272-->
-- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-18,3,257!2024-04-16,1,237-->
+- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-18,3,257!2024-04-18,2,237-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
@@ -82,7 +82,7 @@ C$: [cost structure](#cost%20structure)
 
 #### customer segments
 
-The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-04-16,1,234!2024-04-19,4,274-->
+The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-04-19,3,254!2024-04-19,4,274-->
 
 Customers should be separated into different segments if {{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}}. <!--SR:!2024-04-18,3,257-->
 
@@ -124,7 +124,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-04-18,3,254!2024-04-18,3,257-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-18,3,254!2024-04-16,1,237-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-18,3,254!2024-04-19,3,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-04-18,3,254!2024-04-18,3,254-->
 
 <!--/pytextgen-->
@@ -182,9 +182,9 @@ risk reduction
 - _(begin)_→:::←accessibility <!--SR:!2024-04-18,3,257!2024-04-19,4,274-->
 - accessibility→:::←brand or status <!--SR:!2024-04-18,3,254!2024-04-18,3,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-04-18,3,254!2024-04-18,3,254-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-04-18,3,254!2024-04-16,1,237-->
-- cost reduction→:::←customization <!--SR:!2024-04-18,3,254!2024-04-16,1,237-->
-- customization→:::←design <!--SR:!2024-04-18,3,257!2024-04-16,1,234-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-04-18,3,254!2024-04-19,3,257-->
+- cost reduction→:::←customization <!--SR:!2024-04-18,3,254!2024-04-17,1,217-->
+- customization→:::←design <!--SR:!2024-04-18,3,257!2024-04-18,2,234-->
 - design→:::←newness <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
 - newness→:::←performance <!--SR:!2024-04-18,3,257!2024-04-18,3,257-->
 - performance→:::←performing the job well <!--SR:!2024-04-19,4,277!2024-04-18,3,254-->
@@ -291,16 +291,16 @@ subscription fee
 - advertising→:::←asset sale <!--SR:!2024-04-18,3,254!2024-04-19,4,277-->
 - asset sale→:::←brokerage fee <!--SR:!2024-04-18,3,254!2024-04-18,3,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
-- lending, renting, or leasing→:::←licensing <!--SR:!2024-04-16,1,237!2024-04-18,3,254-->
+- lending, renting, or leasing→:::←licensing <!--SR:!2024-04-18,2,237!2024-04-18,3,254-->
 - licensing→:::←usage fee <!--SR:!2024-04-19,4,274!2024-04-19,4,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-04-18,3,254!2024-04-18,3,257-->
-- subscription fee→:::←_(end)_ <!--SR:!2024-04-18,3,254!2024-04-16,1,237-->
+- subscription fee→:::←_(end)_ <!--SR:!2024-04-18,3,254!2024-04-19,3,257-->
 
 <!--/pytextgen-->
 
 #### key resources
 
-The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-04-19,4,274!2024-04-16,1,237-->
+The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-04-19,4,274!2024-04-18,2,237-->
 
 #### key activities
 
@@ -308,7 +308,7 @@ The key resources building block shows {{important activities required for the b
 
 #### key partnerships
 
-The key resources building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-18,3,254!2024-04-16,1,237!2024-04-18,3,257-->
+The key resources building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-18,3,254!2024-04-18,2,237!2024-04-18,3,257-->
 
 #### cost structure
 
