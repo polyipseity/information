@@ -19,6 +19,8 @@ tags:
 
 ## value proposition design
 
+### target audience
+
 Value proposition design is for:
 
 %%
@@ -125,7 +127,7 @@ vagueness: vague jobs, pains, and gains
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, and financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-04-22,17,290!2024-04-18,3,269!2024-04-18,3,269!2024-05-16,31,270!2024-04-18,3,269-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-04-22,17,290!2024-04-18,3,269!2024-04-18,3,269!2024-05-16,31,270!2024-04-18,3,269-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-04-19,4,289!2024-04-19,4,289!2024-05-09,34,290!2024-04-19,14,290-->
 

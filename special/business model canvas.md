@@ -196,7 +196,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {{the way to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-04-19,4,274!2024-04-18,3,257!2024-04-18,3,254-->
+The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-04-19,4,274!2024-04-18,3,257!2024-04-18,3,254-->
 
 #### customer relationships
 
@@ -304,11 +304,11 @@ The key resources building block shows {{important assets required for the busin
 
 #### key activities
 
-The key resources building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-04-19,4,274!2024-04-18,3,257-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-04-19,4,274!2024-04-18,3,257-->
 
 #### key partnerships
 
-The key resources building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-18,3,254!2024-04-18,2,237!2024-04-18,3,257-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-18,3,254!2024-04-18,2,237!2024-04-18,3,257-->
 
 #### cost structure
 
