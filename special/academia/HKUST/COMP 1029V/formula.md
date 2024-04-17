@@ -80,7 +80,7 @@ return _chain.from_iterable(await _gather(
 - `^`→:::←`*` <!--SR:!2024-04-20,60,310!2024-09-25,163,310-->
 - `*`→:::←`/` <!--SR:!2024-10-11,179,310!2024-11-06,212,330-->
 - `/`→:::←`+` <!--SR:!2024-04-24,63,310!2024-04-24,64,310-->
-- `+`→:::←`-` <!--SR:!2024-04-17,58,310!2024-12-14,243,330-->
+- `+`→:::←`-` <!--SR:!2024-12-24,251,330!2024-12-14,243,330-->
 - `-`→:::←_(end)_ <!--SR:!2024-04-27,66,310!2024-04-23,63,310-->
 
 <!--/pytextgen-->
@@ -89,7 +89,7 @@ return _chain.from_iterable(await _gather(
 
 - `^`::power <!--SR:!2024-04-22,62,310-->
 - `*`::multiplication <!--SR:!2024-04-19,59,310-->
-- `/`::division <!--SR:!2024-04-17,58,310-->
+- `/`::division <!--SR:!2025-01-01,259,330-->
 - `+`::addition <!--SR:!2024-04-18,59,310-->
 - `-`::subtraction <!--SR:!2024-11-12,216,330-->
 
@@ -283,7 +283,7 @@ return _chain.from_iterable(await _gather(
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-06-26,107,290!2024-07-01,84,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-09,35,250!2024-04-21,17,270-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-04-24,20,150!2024-04-26,53,250-->
-- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-04-17,28,250-->
+- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-06-25,69,250-->
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-04-25,17,210!2024-04-20,5,130-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-10-09,177,310!2024-05-29,83,290-->
 
@@ -358,7 +358,7 @@ return _chain.from_iterable(await _gather(
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-06-15,89,290!2024-05-12,31,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-04-27,65,310!2024-04-26,22,270-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-06-22,78,230!2024-05-29,79,270-->
-- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-04-17,58,310!2024-12-04,237,330-->
+- `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-05-15,40,210!2024-07-04,108,270-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-07-23,110,250!2024-04-18,49,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-05-03,71,310!2024-04-22,50,270-->
@@ -371,8 +371,8 @@ return _chain.from_iterable(await _gather(
 - `AVERAGE(numbers...)`::average <!--SR:!2024-12-04,233,330-->
 - `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2024-04-25,64,310-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2024-04-21,61,310-->
-- `MAX(numbers...)`::maximum <!--SR:!2024-04-17,57,310-->
-- `MIN(numbers...)`::minimum <!--SR:!2024-04-17,57,310-->
+- `MAX(numbers...)`::maximum <!--SR:!2024-12-14,241,330-->
+- `MIN(numbers...)`::minimum <!--SR:!2024-12-12,239,330-->
 - `RANK(number, numbers...)`::rank of `number` in `numbers`, starting from 1 <!--SR:!2024-04-22,61,310-->
 - `STDEV(numbers...)`::standard deviation <!--SR:!2024-05-01,69,310-->
 - `SUM(numbers...)`::summation <!--SR:!2024-04-21,61,310-->

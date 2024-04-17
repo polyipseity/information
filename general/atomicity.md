@@ -60,7 +60,7 @@ Molecules can be classified based on atomicity as:
 
 <!--pytextgen generate section="384d"--><!-- The following content is generated at 2024-01-04T20:17:51.340359+08:00. Any edits will be overridden! -->
 
-- all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-17,297,330-->
+- all [noble gases](noble%20gas.md)::[monatomic](monoatomic%20molecule.md) <!--SR:!2027-12-28,1350,350-->
 - Ar ([argon](argon.md))::[monatomic](monoatomic%20molecule.md) <!--SR:!2024-04-18,298,330-->
 - Cl<sub>2</sub> ([chlorine](chlorine.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2024-06-06,340,330-->
 - H<sub>2</sub> ([hydrogen](hydrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2027-04-20,1155,350-->

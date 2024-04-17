@@ -183,7 +183,7 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-04-18,3,254!2024-04-18,3,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-04-18,3,254!2024-04-18,3,254-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-04-18,3,254!2024-04-19,3,257-->
-- cost reduction→:::←customization <!--SR:!2024-04-18,3,254!2024-04-17,1,217-->
+- cost reduction→:::←customization <!--SR:!2024-04-18,3,254!2024-04-18,1,197-->
 - customization→:::←design <!--SR:!2024-04-18,3,257!2024-04-18,2,234-->
 - design→:::←newness <!--SR:!2024-04-18,3,257!2024-04-18,3,254-->
 - newness→:::←performance <!--SR:!2024-04-18,3,257!2024-04-18,3,257-->

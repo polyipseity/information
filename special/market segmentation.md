@@ -34,11 +34,11 @@ Behavioral segmentation divides the market by {{individual purchase behaviors}}.
 
 #### product-specific segmentation
 
-Product-specific segmentation divides the market by {{product or service-specific factors}}. <!--SR:!2024-04-17,12,270-->
+Product-specific segmentation divides the market by {{product or service-specific factors}}. <!--SR:!2024-06-05,49,290-->
 
 ## benefits
 
-Business {{may not be able to satisfy all of their customers}}. <!--SR:!2024-04-17,12,270-->
+Business {{may not be able to satisfy all of their customers}}. <!--SR:!2024-05-22,35,270-->
 
 By segmenting the market, marketers {{can better understand and tailor to their customers}}. <!--SR:!2024-04-20,15,290-->
 
@@ -46,4 +46,4 @@ By segmenting the market, marketers {{can better understand and tailor to their 
 
 It is necessary for the company to decide {{which segments to serve}}. It can be {{undifferentiated, ignoring segments; concentrated or focused, one segment; differentiated, two or more segments; or hypersegmented, thousands of or more segments}}. <!--SR:!2024-04-21,16,290!2024-04-28,16,250-->
 
-Undifferentiated marketing is {{rare because customers are demanding nowadays}}. Differentiated marketing is {{used by most companies, but it incurs a greater cost than undifferentiated marketing}}. Some companies use focused marketing, which {{usually has high rate of return but also higher risk}}. For startups, {{focused marketing is more suitable as the cost is lower than differentiated marketing}}. Hypersegmented marketing is {{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}}. <!--SR:!2024-05-06,28,270!2024-04-17,12,270!2024-04-18,13,290!2024-04-20,15,290!2024-05-17,39,270-->
+Undifferentiated marketing is {{rare because customers are demanding nowadays}}. Differentiated marketing is {{used by most companies, but it incurs a greater cost than undifferentiated marketing}}. Some companies use focused marketing, which {{usually has high rate of return but also higher risk}}. For startups, {{focused marketing is more suitable as the cost is lower than differentiated marketing}}. Hypersegmented marketing is {{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}}. <!--SR:!2024-05-06,28,270!2024-05-19,32,270!2024-04-18,13,290!2024-04-20,15,290!2024-05-17,39,270-->

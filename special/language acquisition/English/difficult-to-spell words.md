@@ -59,7 +59,7 @@ English
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2024-07-15,130,412!2024-05-05,69,372-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o\_e) An event or happening. <!--SR:!2024-08-28,170,410!2024-04-22,59,350-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2025-01-15,278,358-->
-- [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2024-04-17,84,352!2024-04-23,90,352-->
+- [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2025-02-05,294,352!2024-04-23,90,352-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p\_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2025-02-09,310,344!2024-11-17,226,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2024-06-16,104,264!2024-06-19,129,304-->
 - [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::: (p\_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2024-04-28,83,363!2024-07-05,109,283-->
@@ -76,7 +76,7 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2024-04-26,93,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->
-- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-04-17,30,376!2024-05-27,52,356-->
+- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-08-09,114,376!2024-05-27,52,356-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-07-22,105,376!2024-05-06,31,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2024-07-27,103,376!2024-08-26,133,396-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-04-25,45,332!2024-05-30,78,372-->

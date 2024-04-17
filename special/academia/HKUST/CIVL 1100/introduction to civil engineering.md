@@ -953,7 +953,7 @@ soil liquefaction
 - _(begin)_→:::←debris flows
 - debris flows→:::←landslides
 - landslides→:::←rockfalls
-- rockfalls→:::←soil liquefaction <!--SR:!2000-01-01,1,250!2024-04-17,12,250-->
+- rockfalls→:::←soil liquefaction <!--SR:!2000-01-01,1,250!2024-05-21,34,250-->
 - soil liquefaction→:::←_(end)_
 
 <!--/pytextgen-->
