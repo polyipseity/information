@@ -1,4 +1,6 @@
+#ifndef DECISION_TREE_INCLUDED
 #include "DecisionTree.h"
+#endif
 
 class RandomForest {
 public:

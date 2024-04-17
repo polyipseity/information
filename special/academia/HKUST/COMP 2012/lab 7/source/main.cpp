@@ -1,4 +1,6 @@
+#ifndef RANDOM_FOREST_INCLUDED
 #include "RandomForest.h"
+#endif
 #include <iostream>
 using namespace std;
 
