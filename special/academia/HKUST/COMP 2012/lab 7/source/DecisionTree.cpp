@@ -51,7 +51,12 @@ void DecisionTree::AddEndNode( int label, int &position, int &height) {
 // Returns the predicted label using the rules as described in the website
 int DecisionTree::TreePredict( int *x) { 
     // You can change this
-    return 0;
+    if (is_empty())
+        return 0;
+    Node &root{*this->root};
+    if (root.IsEndNode())
+        return root.label;
+    return (x[root.split_attribute] <= root.split_value ? root.left : root.right)->TreePredict(x);
 }
 
 

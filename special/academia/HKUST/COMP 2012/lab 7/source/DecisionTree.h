@@ -27,6 +27,7 @@ private:
 
         // Task 1 (Step 1): Implement Tree prediction
         bool IsEndNode(){
+            return !left || left->is_empty() || !right || right->is_empty();
         }
     };
    Node* root = nullptr;
