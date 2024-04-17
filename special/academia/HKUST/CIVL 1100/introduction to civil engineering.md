@@ -48,7 +48,7 @@ The content is in teaching order.
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 270 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels
+    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
@@ -84,7 +84,7 @@ The content is in teaching order.
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997.
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
