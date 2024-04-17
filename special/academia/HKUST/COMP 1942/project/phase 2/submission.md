@@ -134,14 +134,15 @@ Note that we only use continuous variables here. This is because _k_-nearest nei
 
 Press on "Data Science > Classify > _k_-Nearest Neighbors". Then, configure the model as follows:
 
-| Data                             |                  |
-|----------------------------------|------------------|
-| Workbook                         | model1.xlsx      |
-| Worksheet                        | training         |
-| Partitioning Method              | Random Partition |
-| Seed Value                       | 12345            |
-| # Records in the training data   | 6000             |
-| # Records in the validation data | 4000             |
+| Data                             |                   |
+|----------------------------------|-------------------|
+| Workbook                         | model1.xlsx       |
+| Worksheet                        | training          |
+| Data Range                       | \$A\$1:\$N\$10001 |
+| Partitioning Method              | Random Partition  |
+| Seed Value                       | 12345             |
+| # Records in the training data   | 6000              |
+| # Records in the validation data | 4000              |
 
 | Variables             |                                                                |
 |-----------------------|----------------------------------------------------------------|
@@ -202,14 +203,15 @@ Note that we do not use the `education` column because `education-num` is the co
 
 Press on "Data Science > Classify > Classification Tree". Then, configure the model as follows:
 
-| Data                             |                  |
-|----------------------------------|------------------|
-| Workbook                         | model2.xlsx      |
-| Worksheet                        | training         |
-| Partitioning Method              | Random Partition |
-| Seed Value                       | 12345            |
-| # Records in the training data   | 6000             |
-| # Records in the validation data | 4000             |
+| Data                             |                   |
+|----------------------------------|-------------------|
+| Workbook                         | model2.xlsx       |
+| Worksheet                        | training          |
+| Data Range                       | \$A\$1:\$N\$10001 |
+| Partitioning Method              | Random Partition  |
+| Seed Value                       | 12345             |
+| # Records in the training data   | 6000              |
+| # Records in the validation data | 4000              |
 
 | Variables             |                                                                                |
 |-----------------------|--------------------------------------------------------------------------------|
@@ -263,12 +265,12 @@ Also note that we do not partition the training–validation data into training 
 
 Press on "Data Science > Classify > Naive Bayes". Then, configure the model as follows:
 
-| Data       |               |
-|------------|---------------|
-| Workbook   | model3.xlsx   |
-| Worksheet  | training      |
-| Data Range | $A$1:$N$10001 |
-| # Records  | 10000         |
+| Data       |                   |
+|------------|-------------------|
+| Workbook   | model3.xlsx       |
+| Worksheet  | training          |
+| Data Range | \$A\$1:\$N\$10001 |
+| # Records  | 10000             |
 
 | Variables       |                                                                                                                                                |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,14 +308,15 @@ Note that we do not use the `education` column because `education-num` is the co
 
 Press on "Data Science > Classify > Neural Network > Manual Network". Then, configure the model as follows:
 
-| Data                             |                  |
-|----------------------------------|------------------|
-| Workbook                         | model4.xlsx      |
-| Worksheet                        | training         |
-| Partitioning Method              | Random Partition |
-| Seed Value                       | 12345            |
-| # Records in the training data   | 6000             |
-| # Records in the validation data | 4000             |
+| Data                             |                   |
+|----------------------------------|-------------------|
+| Workbook                         | model4.xlsx       |
+| Worksheet                        | training          |
+| Data Range                       | \$A\$1:\$N\$10001 |
+| Partitioning Method              | Random Partition  |
+| Seed Value                       | 12345             |
+| # Records in the training data   | 6000              |
+| # Records in the validation data | 4000              |
 
 | Variables             |                                                                    |
 |-----------------------|--------------------------------------------------------------------|
@@ -382,14 +385,15 @@ Note that we do not use the `education` column because `education-num` is the co
 
 Press on "Data Science > Classify > Neural Network > Manual Network". Then, configure the model as follows:
 
-| Data                             |                  |
-|----------------------------------|------------------|
-| Workbook                         | model5.xlsx      |
-| Worksheet                        | training         |
-| Partitioning Method              | Random Partition |
-| Seed Value                       | 12345            |
-| # Records in the training data   | 6000             |
-| # Records in the validation data | 4000             |
+| Data                             |                   |
+|----------------------------------|-------------------|
+| Workbook                         | model5.xlsx       |
+| Worksheet                        | training          |
+| Data Range                       | \$A\$1:\$N\$10001 |
+| Partitioning Method              | Random Partition  |
+| Seed Value                       | 12345             |
+| # Records in the training data   | 6000              |
+| # Records in the validation data | 4000              |
 
 | Variables             |                                                                    |
 |-----------------------|--------------------------------------------------------------------|
