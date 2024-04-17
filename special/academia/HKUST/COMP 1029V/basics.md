@@ -20,7 +20,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-04-17,58,310!2024-09-08,152,310-->
+Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-10-20,186,310!2024-09-08,152,310-->
 
 To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-05-03,71,310!2024-09-09,154,310-->
 

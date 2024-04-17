@@ -117,10 +117,10 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-18,3,269!2024-04-19,4,289-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-18,2,249!2024-04-18,3,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-17,1,229!2024-04-17,1,229-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-18,1,209!2024-04-18,1,209-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-18,3,269!2024-04-17,1,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-18,3,269!2024-04-19,2,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-04-19,4,289!2024-04-19,3,269-->
 
 <!--/pytextgen-->
@@ -169,7 +169,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-18,2,249!2024-04-18,3,269-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-04-18,3,269!2024-04-18,3,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-04-18,3,269!2024-04-17,1,229-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-04-18,3,269!2024-04-19,2,229-->
 
 <!--/pytextgen-->
 
@@ -181,7 +181,7 @@ However, checking the fit on paper like above is {{not enough}}. Fit happens in 
 
 ## design
 
-Design is {{designing business models from your value proposition}}. <!--SR:!2024-04-17,1,229-->
+Design is {{designing business models from your value proposition}}. <!--SR:!2024-04-19,2,229-->
 
 ### prototyping
 

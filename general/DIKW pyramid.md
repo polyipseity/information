@@ -15,7 +15,7 @@ tags:
 
 # DIKW pyramid
 
-The __DKIW pyramid__ is {{a class of [models](model.md) representing purported relationships between <b>d</b>ata, <b>i</b>nformation, <b>k</b>nowledge, and <b>w</b>isdom}}. Typically the model states that {{information is processed data, knowledge is interpreted information, and wisdom is applied knowledge}}. <!--SR:!2024-08-15,235,330!2024-04-17,127,290-->
+The __DKIW pyramid__ is {{a class of [models](model.md) representing purported relationships between <b>d</b>ata, <b>i</b>nformation, <b>k</b>nowledge, and <b>w</b>isdom}}. Typically the model states that {{information is processed data, knowledge is interpreted information, and wisdom is applied knowledge}}. <!--SR:!2024-08-15,235,330!2025-04-19,367,290-->
 
 ## references
 

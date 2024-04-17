@@ -98,13 +98,13 @@ return _chain.from_iterable(await _gather(
 - `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-04-21,61,310-->
 - `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-09-24,166,310-->
 - `float`→:::←`int` <!--SR:!2024-07-14,100,290!2024-04-30,69,310-->
-- `int`→:::←_(end)_ <!--SR:!2024-04-17,59,310!2024-09-09,154,310-->
+- `int`→:::←_(end)_ <!--SR:!2025-01-06,264,330!2024-09-09,154,310-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-02-01T11:50:25.871864+08:00. Any edits will be overridden! -->
 
-- `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-04-17,58,310-->
+- `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-12-22,249,330-->
 - `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-04-28,68,310-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-10-09,177,310-->

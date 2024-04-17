@@ -92,7 +92,7 @@ The solution is as below, which matches with our physical intuition:
 
 ### sinusoidal driving force
 
-Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-04-17,70,272-->
+Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-10-25,191,272-->
 
 > [!info]- details
 >

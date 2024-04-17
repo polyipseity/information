@@ -33,7 +33,7 @@ End If
 
 The semantics of `If...Then...Else...End If` is also obvious: {{If the condition is `True`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-05-06,73,321-->
 
-In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2024-04-17,54,301-->
+In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2024-09-26,162,301-->
 
 ```VB
 If condition1 Then
@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `True` conditions, all conditions are always executed in the appearance order, followed by the `Else` statement block if there is one.}} <!--SR:!2024-04-17,57,310!2024-04-22,59,309-->
+The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `True` conditions, all conditions are always executed in the appearance order, followed by the `Else` statement block if there is one.}} <!--SR:!2024-10-08,174,310!2024-04-22,59,309-->
 
 ## iteration
 
