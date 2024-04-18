@@ -180,9 +180,9 @@ return _chain.from_iterable(await _gather(
 - [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2024-06-16,254,230!2024-07-11,111,270-->
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2024-05-01,30,210!2024-04-21,82,210-->
 - [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2024-06-04,333,330!2024-06-07,336,330-->
-- [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2024-06-03,234,270!2024-04-18,296,330-->
+- [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2024-06-03,234,270!2024-09-08,143,310-->
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2025-01-07,428,290-->
-- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-05-11,41,210!2024-04-18,31,210-->
+- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-05-11,41,210!2024-06-21,64,210-->
 - [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2024-05-17,101,250!2024-08-29,348,290-->
 - [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-05-05,19,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-06-24,109,250!2024-05-01,166,270-->

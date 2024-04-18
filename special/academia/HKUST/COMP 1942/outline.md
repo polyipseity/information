@@ -145,7 +145,7 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-04-18,3,300!2024-04-19,4,320-->
+  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-04-30,12,320!2024-04-19,4,320-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)

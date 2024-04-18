@@ -243,7 +243,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)
-- description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-04-18,1,290!2024-04-21,4,324-->
+- description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-04-21,3,290!2024-04-21,4,324-->
 - length ::: 8206 m, longest span: 1088 m
 
 ### Taipei 101
@@ -341,7 +341,7 @@ quantity surveyor
 - consulting geo-technical engineer→:::←consulting structural engineer
 - consulting structural engineer→:::←contracting civil engineer
 - contracting civil engineer→:::←engineering geologist
-- engineering geologist→:::←environmental consultant <!--SR:!2024-04-21,4,325!2024-04-18,1,285-->
+- engineering geologist→:::←environmental consultant <!--SR:!2024-04-21,4,325!2024-04-21,3,285-->
 - environmental consultant→:::←quantity surveyor
 - quantity surveyor→:::←_(end)_
 
@@ -489,7 +489,7 @@ workmanship
 - lifecycle→:::←maintenance <!--SR:!2000-01-01,1,250!2024-04-21,3,312-->
 - maintenance→:::←politics <!--SR:!2000-01-01,1,250!2024-04-21,3,312-->
 - politics→:::←social
-- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-04-18,13,230-->
+- social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-04-24,6,210-->
 - workmanship→:::←_(end)_ <!--SR:!2024-04-21,4,325!2000-01-01,1,250-->
 
 <!--/pytextgen-->
