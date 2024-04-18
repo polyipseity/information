@@ -20,7 +20,7 @@ tags:
 
 ## basics
 
-- comment :: A comment is either enclosed by `/*` and `*/` like `/* example */` or starts with `//` like `// example`. For the first one, the comment ends when the `*/` is first encountered. For the second one, the comment ends when the line ends. <!--SR:!2024-04-18,60,310-->
+- comment :: A comment is either enclosed by `/*` and `*/` like `/* example */` or starts with `//` like `// example`. For the first one, the comment ends when the `*/` is first encountered. For the second one, the comment ends when the line ends. <!--SR:!2025-01-01,258,330-->
 - package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-04-19,60,310-->
 - spacing :: Java ignores whitespace in most places. Whitespace are not ignored in some places, such as in strings `"This string has a space."` or before the names of method calls `. thisIsInvalidJavaCode()`. Usually whitespace are added before statements systematically, with more spaces per level of code block `{ /* code block */ }`. This is called indentation. <!--SR:!2024-08-05,122,290-->
 - statement :: A Java program is a collection of statements. A statement can be multiline and ends with a semicolon `;`. A statement can also be a code block `{ /* code block */ }`, which is also a collection of statements itself. <!--SR:!2024-05-04,73,310-->
@@ -276,7 +276,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`<` <!--SR:!2024-04-18,8,170!2024-05-13,60,290-->
+- _(begin)_→:::←`<` <!--SR:!2024-05-01,13,170!2024-05-13,60,290-->
 - `<`→:::←`>` <!--SR:!2024-04-27,67,310!2024-04-26,65,310-->
 - `>`→:::←`<=` <!--SR:!2024-09-28,166,310!2024-05-01,56,270-->
 - `<=`→:::←`>=` <!--SR:!2024-10-12,179,310!2024-07-06,106,290-->
@@ -289,7 +289,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.690328+08:00. Any edits will be overridden! -->
 
 - `<`::lesser than <!--SR:!2024-12-02,234,330-->
-- `>`::greater than <!--SR:!2024-04-18,59,310-->
+- `>`::greater than <!--SR:!2024-12-29,255,330-->
 - `<=`::lesser than or equal to <!--SR:!2024-04-29,68,310-->
 - `>=`::greater than or equal to <!--SR:!2024-04-22,63,310-->
 - `==`::equal to <!--SR:!2024-04-27,66,310-->

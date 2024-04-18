@@ -63,7 +63,7 @@ While
 Wend
 ```
 
-The semantics of `While...Wend` is {{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}}. <!--SR:!2024-04-18,58,310-->
+The semantics of `While...Wend` is {{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}}. <!--SR:!2024-12-18,244,330-->
 
 ### `Do`
 
@@ -103,4 +103,4 @@ The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loo
 
 ### ending iteration early
 
-One can end a loop prematurely. This is done by {{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}}. As mentioned before, {{`While`-loops cannot be ended prematurely}}. <!--SR:!2024-04-22,61,310!2024-04-18,55,301-->
+One can end a loop prematurely. This is done by {{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}}. As mentioned before, {{`While`-loops cannot be ended prematurely}}. <!--SR:!2024-04-22,61,310!2024-12-03,229,321-->

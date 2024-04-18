@@ -15,7 +15,7 @@ tags:
 
 - life :: Any live cell with 2 or 3 neighbors lives to the next generation. <!--SR:!2024-04-22,61,310-->
 - underpopulation :: Any live cell with less than 2 neighbors dies. <!--SR:!2024-09-09,154,310-->
-- overpopulation :: Any live cell with more than 3 neighbors dies. <!--SR:!2024-04-18,58,310-->
+- overpopulation :: Any live cell with more than 3 neighbors dies. <!--SR:!2024-12-24,250,330-->
 - reproduction :: Any dead cell with exactly 3 neighbors becomes a live cell. <!--SR:!2024-05-03,71,310-->
 
 ## see also

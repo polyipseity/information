@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - `>`→:::←`>=` <!--SR:!2024-07-14,94,250!2024-04-28,67,310-->
 - `>=`→:::←`!=` <!--SR:!2024-06-01,80,270!2024-05-16,29,210-->
 - `!=`→:::←`==` <!--SR:!2024-06-23,97,290!2024-05-12,27,290-->
-- `==`→:::←_(end)_ <!--SR:!2024-04-18,59,310!2024-04-19,59,310-->
+- `==`→:::←_(end)_ <!--SR:!2024-12-28,254,330!2024-04-19,59,310-->
 
 <!--/pytextgen-->
 
@@ -240,4 +240,4 @@ variableName = 1 + 2
 
 One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-04-27,65,310-->
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-04-18,58,310-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-10-15,180,310-->

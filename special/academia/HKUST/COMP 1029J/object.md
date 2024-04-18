@@ -15,7 +15,7 @@ To help with debugging objects, one can use {{the [object bench](BlueJ.md#object
 
 ## almost everything is an object
 
-In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-04-18,58,310!2024-04-23,62,310-->
+In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-12-20,246,330!2024-04-23,62,310-->
 
 ## equality
 
@@ -76,7 +76,7 @@ void aMethod(String arg1, int arg2) {
 
 The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-04-22,61,310!2024-04-19,59,310!2024-09-25,166,310-->
 
-The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-04-18,58,310!2024-10-02,170,310!2024-05-02,70,310-->
+The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-12-21,247,330!2024-10-02,170,310!2024-05-02,70,310-->
 
 ### constructor
 
