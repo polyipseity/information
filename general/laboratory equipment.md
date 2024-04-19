@@ -171,7 +171,7 @@ return _chain.from_iterable(await _gather(
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2024-05-08,215,270-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-04-21,6,130!2024-08-29,279,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2024-07-04,155,230!2024-06-26,291,270-->
-- [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2024-04-19,249,270!2024-04-30,86,170-->
+- [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-04-30,86,170-->
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-06-25,77,250-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-05-29,64,170!2024-06-29,86,190-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2024-08-23,362,290-->
@@ -233,7 +233,7 @@ return _chain.from_iterable(await _gather(
 - [test tube holder](test%20tube%20holder.md)::![test tube holder](../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG) <!--SR:!2027-09-25,1273,350-->
 - [test tube rack](test%20tube%20rack.md)::![test tube rack](../archives/Wikimedia%20Commons/Metal%20tube%20rack-laboratory%202.jpg) <!--SR:!2027-10-12,1287,350-->
 - [thermometer](thermometer.md)::![thermometer](../archives/Wikimedia%20Commons/Mercury%20Thermometer.jpg) <!--SR:!2027-05-19,1172,350-->
-- [tripod](tripod.md)::![tripod](../archives/Wikimedia%20Commons/Laboratory%20tripod.jpg) <!--SR:!2024-04-19,297,330-->
+- [tripod](tripod.md)::![tripod](../archives/Wikimedia%20Commons/Laboratory%20tripod.jpg) <!--SR:!2028-01-02,1353,350-->
 - [volumetric flask](volumetric%20flask.md)::![volumetric flask](../archives/Wikimedia%20Commons/10mL%20Messkolben%20mit%20Schliff%20A.jpg) <!--SR:!2024-06-08,337,330-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)::![volumetric pipette/bulb pipette/belly pipette](../archives/Wikimedia%20Commons/Vollpipetten.jpg) <!--SR:!2027-05-02,1158,350-->
 - [wash bottle](wash%20bottle.md)::![wash bottle](../archives/Wikimedia%20Commons/Lab%20wash-bottles%20water%20EtOH.jpg) <!--SR:!2024-04-22,295,330-->

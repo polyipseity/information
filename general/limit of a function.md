@@ -65,7 +65,7 @@ The functions {{$$f(x) = \begin{cases} x & x\text{ rational} \\ 0 & x\text{ irra
 
 #### limits at countably many points
 
-The function {{$$f(x) = \begin{cases} \cos x & x\text{ rational} \\ 1 & x\text{ irrational} \end{cases}$$}} has a limit that equals 1 at every $x = 2n \pi$, where $n$ is any integer. <!--SR:!2024-04-19,29,284-->
+The function {{$$f(x) = \begin{cases} \cos x & x\text{ rational} \\ 1 & x\text{ irrational} \end{cases}$$}} has a limit that equals 1 at every $x = 2n \pi$, where $n$ is any integer. <!--SR:!2024-07-07,79,284-->
 
 ## properties
 

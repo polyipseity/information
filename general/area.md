@@ -68,7 +68,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2024-05-16,28,290!2024-05-01,68,310-->
 - [congruence](congruence%20(geometry).md)→:::←positivity <!--SR:!2024-06-06,87,270!2024-05-24,54,210-->
-- positivity→:::←rectangle <!--SR:!2024-04-19,47,250!2024-04-28,25,170-->
+- positivity→:::←rectangle <!--SR:!2024-08-14,117,250!2024-04-28,25,170-->
 - rectangle→:::←squeezing <!--SR:!2024-04-21,38,230!2024-08-02,109,250-->
 - squeezing→:::←subtraction <!--SR:!2024-04-25,22,150!2024-06-04,70,230-->
 - subtraction→:::←union and intersection <!--SR:!2024-06-24,91,270!2024-05-28,74,250-->
@@ -78,7 +78,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-03-18T20:03:11.117016+08:00. Any edits will be overridden! -->
 
-- [congruence](congruence%20(geometry).md)::If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. <!--SR:!2024-04-19,58,310-->
+- [congruence](congruence%20(geometry).md)::If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. <!--SR:!2024-10-15,179,310-->
 - positivity::For all set $S$ in $M$, $a(S) \ge 0$. <!--SR:!2024-04-20,59,310-->
 - rectangle::Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$. <!--SR:!2024-10-10,176,310-->
 - squeezing::Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $U$ are in $M$ by the other axioms. If there exists an __unique__ number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$. <!--SR:!2024-05-02,50,230-->

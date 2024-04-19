@@ -68,7 +68,7 @@ Methods to determine the end point include:
 - _(begin)_→:::←indicator <!--SR:!2026-05-04,857,330!2026-11-10,946,330-->
 - indicator→:::←[pH meter](pH%20meter.md) <!--SR:!2024-05-30,328,330!2025-06-17,551,310-->
 - [pH meter](pH%20meter.md)→:::←[thermometric titration](thermometric%20titration.md) <!--SR:!2024-09-15,366,290!2025-09-07,619,310-->
-- [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2024-04-19,292,330!2025-04-20,444,250-->
+- [thermometric titration](thermometric%20titration.md)→:::←_(end)_ <!--SR:!2027-12-08,1328,350!2025-04-20,444,250-->
 
 <!--/pytextgen-->
 

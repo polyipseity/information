@@ -9,7 +9,7 @@ tags:
 
 # Python function
 
-A function {{receives zero or more inputs and returns nothing or a output}}. A Python function consists of {{a name, arguments, and a statement block}}: <!--SR:!2024-04-19,60,310!2024-10-08,175,310-->
+A function {{receives zero or more inputs and returns nothing or a output}}. A Python function consists of {{a name, arguments, and a statement block}}: <!--SR:!2025-01-05,261,330!2024-10-08,175,310-->
 
 ```Python
 def name(arguments):

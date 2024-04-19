@@ -51,12 +51,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-04-19,14,290!2024-04-22,17,290-->
+- _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-06-02,44,290!2024-04-22,17,290-->
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-05-19,33,270!2024-04-22,17,290-->
 - [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-04-29,14,250!2024-05-06,21,250-->
 - [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-05-16,30,270!2024-05-19,31,270-->
 - [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-05-11,26,270!2024-04-20,15,290-->
-- [test](#test) (brown)→:::←_(end)_ <!--SR:!2024-04-22,17,290!2024-04-19,14,290-->
+- [test](#test) (brown)→:::←_(end)_ <!--SR:!2024-04-22,17,290!2024-06-13,55,310-->
 
 <!--/pytextgen-->
 
@@ -70,11 +70,11 @@ Define is {{unpacking your findings from empathize into insights, and coming up 
 
 ### ideate
 
-Ideate is {{generating _radical_ design alternatives, going wild with your imagination}}. While ideating, it is also important to curtail {{bad behaviors, like evaluating ideas}}. <!--SR:!2024-05-07,22,250!2024-04-19,14,290-->
+Ideate is {{generating _radical_ design alternatives, going wild with your imagination}}. While ideating, it is also important to curtail {{bad behaviors, like evaluating ideas}}. <!--SR:!2024-05-07,22,250!2024-06-01,43,290-->
 
 ### prototype
 
-Prototype is {{making your idea physical}}. In early stages, {{keep the prototypes inexpensive to reiterate quickly}}. Ideally, the prototypes are {{interactive}}. <!--SR:!2024-05-09,24,270!2024-05-18,31,270!2024-04-19,14,290-->
+Prototype is {{making your idea physical}}. In early stages, {{keep the prototypes inexpensive to reiterate quickly}}. Ideally, the prototypes are {{interactive}}. <!--SR:!2024-05-09,24,270!2024-05-18,31,270!2024-06-18,60,310-->
 
 ### test
 
@@ -132,14 +132,14 @@ return await memorize_seq(
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2024-04-28,17,250!2024-05-25,39,290-->
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-05-17,31,270!2024-04-29,14,250-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-04-25,14,250!2024-04-22,17,290-->
-- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-04-19,2,150!2024-04-28,13,230-->
-- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-04-19,1,130!2024-05-01,16,230-->
+- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-04-22,3,150!2024-04-28,13,230-->
+- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-04-20,1,130!2024-05-01,16,230-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-05-03,16,230!2024-04-20,11,230-->
-- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-04-23,8,190!2024-04-19,4,210-->
+- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-04-23,8,190!2024-04-27,8,210-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-04-23,13,250!2024-04-20,3,150-->
-- (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-04-20,8,230!2024-04-19,7,210-->
+- (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-04-20,8,230!2024-05-06,17,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-04-20,3,130!2024-04-21,4,210-->
-- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-04-21,3,150!2024-04-19,4,210-->
+- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-04-21,3,150!2024-04-26,7,210-->
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-04-22,4,170!2024-04-21,6,210-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-05-21,36,290!2024-05-23,36,270-->
 

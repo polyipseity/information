@@ -353,7 +353,7 @@ return chain.from_iterable(await gather(
 - iron(III) ion::<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-08-07,117,282-->
-- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-04-19,4,130-->
+- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-04-23,4,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-05-02,72,182-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-04-22,4,150-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
@@ -470,7 +470,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="104852"--><!-- The following content is generated at 2024-01-28T09:35:10.058768+08:00. Any edits will be overridden! -->
 
 - hydride ion::colorless <!--SR:!2027-07-23,1489,319-->
-- fluoride ion::colorless <!--SR:!2024-04-19,532,274-->
+- fluoride ion::colorless <!--SR:!2029-11-11,2032,294-->
 - chloride ion::colorless <!--SR:!2024-06-23,612,314-->
 - bromide ion::colorless <!--SR:!2027-04-07,1324,279-->
 - iodide ion::colorless <!--SR:!2027-10-28,1427,307-->

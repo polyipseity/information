@@ -23,7 +23,7 @@ Business model generation is for {{the entrepreneurial-spirited, value creators,
 
 ## canvas
 
-The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {{new or existing business models}}. It works best when {{it is on a large surface and groups of people can contribute and discuss}}. <!--SR:!2024-04-19,4,274!2024-04-26,8,254-->
+The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {{new or existing business models}}. It works best when {{it is on a large surface and groups of people can contribute and discuss}}. <!--SR:!2024-04-29,10,274!2024-04-26,8,254-->
 
 ### building blocks
 
@@ -67,11 +67,11 @@ C$: [cost structure](#cost%20structure)
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-04-19,4,277!2024-04-19,4,277-->
-- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-05-01,13,274!2024-04-19,4,277-->
-- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-04-19,4,274!2024-04-24,6,257-->
-- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-04-19,4,274!2024-04-19,4,274-->
-- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-04-27,9,254!2024-04-19,4,272-->
+- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-04-28,9,277!2024-05-02,13,297-->
+- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-05-01,13,274!2024-05-04,15,297-->
+- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-04-24,6,257-->
+- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
+- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-04-27,9,254!2024-04-29,10,272-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-25,7,257!2024-04-23,5,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-04-27,9,257!2024-04-25,7,254-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-04-26,8,257!2024-04-27,9,254-->
@@ -82,7 +82,7 @@ C$: [cost structure](#cost%20structure)
 
 #### customer segments
 
-The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-04-19,3,254!2024-04-19,4,274-->
+The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-04-26,7,254!2024-05-03,14,294-->
 
 Customers should be separated into different segments if {{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}}. <!--SR:!2024-04-27,9,257-->
 
@@ -120,11 +120,11 @@ segmented: splitting slightly different customer segments
 
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-04-24,6,257!2024-04-19,4,277-->
+- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-04-24,6,257!2024-05-06,17,297-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-20,2,237!2024-04-24,6,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-04-26,8,254!2024-04-27,9,257-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-04-25,7,257!2024-04-26,8,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-26,8,254!2024-04-19,3,257-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-26,8,254!2024-04-26,7,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-04-25,7,254!2024-04-27,9,254-->
 
 <!--/pytextgen-->
@@ -179,15 +179,15 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-04-20,2,237!2024-04-19,4,274-->
+- _(begin)_→:::←accessibility <!--SR:!2024-04-20,2,237!2024-05-05,16,294-->
 - accessibility→:::←brand or status <!--SR:!2024-04-24,6,254!2024-04-26,8,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-04-25,7,254!2024-04-20,2,234-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-19,3,257-->
-- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-19,1,177-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-21,2,237-->
+- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-20,1,157-->
 - customization→:::←design <!--SR:!2024-04-28,10,277!2024-04-22,4,234-->
 - design→:::←newness <!--SR:!2024-04-24,6,257!2024-04-24,6,254-->
 - newness→:::←performance <!--SR:!2024-04-24,6,257!2024-04-20,2,237-->
-- performance→:::←performing the job well <!--SR:!2024-04-19,4,277!2024-04-30,12,274-->
+- performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-04-30,12,274-->
 - performing the job well→:::←price <!--SR:!2024-04-28,10,254!2024-04-24,6,254-->
 - price→:::←risk reduction <!--SR:!2024-04-26,8,254!2024-04-27,9,254-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-05-01,13,277!2024-04-26,8,257-->
@@ -196,7 +196,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-04-19,4,274!2024-04-26,8,257!2024-05-01,13,274-->
+The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-05-05,16,294!2024-04-26,8,257!2024-05-01,13,274-->
 
 #### customer relationships
 
@@ -236,18 +236,18 @@ personal assistance
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←automated services <!--SR:!2024-04-19,4,274!2024-04-30,12,270-->
+- _(begin)_→:::←automated services <!--SR:!2024-04-30,11,274!2024-04-30,12,270-->
 - automated services→:::←co-creation <!--SR:!2024-04-27,9,254!2024-04-20,2,234-->
 - co-creation→:::←communities <!--SR:!2024-04-25,7,254!2024-04-28,10,254-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-04-26,8,257!2024-04-28,10,254-->
-- dedicated personal assistance→:::←personal assistance <!--SR:!2024-04-19,4,277!2024-04-19,4,277-->
-- personal assistance→:::←_(end)_ <!--SR:!2024-04-19,4,277!2024-04-19,4,277-->
+- dedicated personal assistance→:::←personal assistance <!--SR:!2024-05-05,16,297!2024-05-03,14,297-->
+- personal assistance→:::←_(end)_ <!--SR:!2024-05-05,16,297!2024-05-06,17,297-->
 
 <!--/pytextgen-->
 
 #### revenue streams
 
-The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-04-28,10,254!2024-04-19,4,277!2024-04-19,4,277-->
+The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-04-28,10,254!2024-04-29,10,277!2024-05-05,16,297-->
 
 ##### revenue stream examples
 
@@ -287,24 +287,24 @@ subscription fee
 
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←advertising <!--SR:!2024-04-28,10,254!2024-04-19,4,277-->
-- advertising→:::←asset sale <!--SR:!2024-04-27,9,254!2024-04-19,4,277-->
+- _(begin)_→:::←advertising <!--SR:!2024-04-28,10,254!2024-05-06,17,297-->
+- advertising→:::←asset sale <!--SR:!2024-04-27,9,254!2024-05-04,15,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-04-25,7,254!2024-04-24,6,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-04-26,8,257!2024-04-25,7,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-04-23,5,237!2024-04-26,8,254-->
-- licensing→:::←usage fee <!--SR:!2024-04-19,4,274!2024-04-19,4,274-->
+- licensing→:::←usage fee <!--SR:!2024-04-28,9,274!2024-04-29,10,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-04-25,7,254!2024-04-27,9,257-->
-- subscription fee→:::←_(end)_ <!--SR:!2024-04-30,12,274!2024-04-19,3,257-->
+- subscription fee→:::←_(end)_ <!--SR:!2024-04-30,12,274!2024-04-26,7,257-->
 
 <!--/pytextgen-->
 
 #### key resources
 
-The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-04-19,4,274!2024-04-23,5,237-->
+The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-05-01,12,274!2024-04-23,5,237-->
 
 #### key activities
 
-The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-04-19,4,274!2024-04-20,2,237-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-04-28,9,274!2024-04-20,2,237-->
 
 #### key partnerships
 
@@ -314,4 +314,4 @@ The key partnerships building block shows {{important suppliers and networks req
 
 The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-04-24,6,254!2024-04-27,9,254-->
 
-In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-04-19,4,270!2024-04-24,6,254-->
+In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-04-29,10,270!2024-04-24,6,254-->

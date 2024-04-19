@@ -71,12 +71,12 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-03-07T00:04:17.291438+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`Boolean` <!--SR:!2024-05-08,75,325!2024-04-19,60,310-->
+- _(begin)_→:::←`Boolean` <!--SR:!2024-05-08,75,325!2024-12-29,254,330-->
 - `Boolean`→:::←`Double` <!--SR:!2024-04-22,62,310!2024-04-30,68,310-->
 - `Double`→:::←`Integer` <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
 - `Integer`→:::←`Long` <!--SR:!2024-08-06,124,290!2024-05-05,72,325-->
 - `Long`→:::←`Single` <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
-- `Single`→:::←_(end)_ <!--SR:!2024-04-19,59,310!2024-05-02,70,310-->
+- `Single`→:::←_(end)_ <!--SR:!2024-12-28,253,330!2024-05-02,70,310-->
 
 <!--/pytextgen-->
 

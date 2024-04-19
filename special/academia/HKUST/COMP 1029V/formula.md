@@ -88,7 +88,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
 
 - `^`::power <!--SR:!2024-04-22,62,310-->
-- `*`::multiplication <!--SR:!2024-04-19,59,310-->
+- `*`::multiplication <!--SR:!2025-01-06,262,330-->
 - `/`::division <!--SR:!2025-01-01,259,330-->
 - `+`::addition <!--SR:!2025-01-03,260,330-->
 - `-`::subtraction <!--SR:!2024-11-12,216,330-->
@@ -146,7 +146,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`=` <!--SR:!2024-05-03,49,270!2024-05-27,42,270-->
 - `=`→:::←`<` <!--SR:!2024-09-09,147,290!2024-05-18,68,290-->
-- `<`→:::←`>` <!--SR:!2024-04-19,60,310!2024-04-28,67,310-->
+- `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-04-28,67,310-->
 - `>`→:::←`<=` <!--SR:!2024-04-29,68,310!2024-04-27,23,250-->
 - `<=`→:::←`>=` <!--SR:!2024-10-09,174,310!2024-05-15,65,270-->
 - `>=`→:::←`<>` <!--SR:!2024-04-23,62,310!2024-04-21,60,310-->
@@ -293,7 +293,7 @@ return _chain.from_iterable(await _gather(
 
 - (operator) `&`::concatenation <!--SR:!2024-11-28,227,330-->
 - `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2024-04-23,62,310-->
-- `LEN(string)`::length of `string` <!--SR:!2024-04-19,60,310-->
+- `LEN(string)`::length of `string` <!--SR:!2025-01-01,257,330-->
 - `LOWER(string)`::convert to lowercase <!--SR:!2024-10-29,204,330-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-04-21,60,310-->
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-04-27,66,310-->

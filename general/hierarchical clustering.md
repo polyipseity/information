@@ -21,7 +21,7 @@ tags:
 
 In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}}. The methods can be classified into two main types: {{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters recursively}}; and {{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then spltting the cluster into two clusters recursively}}. <!--SR:!2024-04-28,13,275!2024-04-24,9,275!2024-04-23,8,255-->
 
-The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-04-19,4,235!2024-04-24,9,275-->
+The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-05-01,12,255!2024-04-24,9,275-->
 
 ## cluster linkage
 
@@ -182,7 +182,7 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 > | __1__     | $a$   | $b$   |
 > | __0__     | $c$   | $d$   |
 >
-> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}}. The equation in words, which may be easier to remember, is {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})} $$}}. <!--SR:!2024-04-26,11,275!2024-04-25,10,275!2024-04-19,4,235-->
+> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}}. The equation in words, which may be easier to remember, is {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})} $$}}. <!--SR:!2024-04-26,11,275!2024-04-25,10,275!2024-04-27,8,235-->
 
 The chi-squared measure describes {{the degree of correlation between two variables}}. <!--SR:!2024-04-25,10,275-->
 
