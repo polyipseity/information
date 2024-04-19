@@ -1,6 +1,6 @@
 ---
 aliases:
-  - TEMG 3950 product design presentation script
+  - TEMG 3950 product innovation presentation script
 tags:
   - by/self
   - date/2024/03/19
@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-# TEMG 3950 product design presentation script
+# TEMG 3950 product innovation presentation script
 
 ## pricing model
 
