@@ -82,7 +82,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-05-03,71,310!2024-05-04,72,310!2024-12-05,234,330!2024-04-19,59,310-->
+Note that there is a difference between strings and lists when it comes to {{mutability}}. Strings are {{always immutable, while lists are mutable}}. So any operation you have done on strings {{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}}. Meanwhile, for lists, {{there are operations that can change the original list. Compare using `+` and `append` to extend a list}}: <!--SR:!2024-05-03,71,310!2024-05-04,72,310!2024-12-05,234,330!2024-10-12,176,310-->
 
 ```Python
 original = [1, 2, 3]

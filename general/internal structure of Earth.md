@@ -51,7 +51,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md) <!--SR:!2027-03-08,1118,350!2027-03-24,1126,350-->
 - [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md) <!--SR:!2027-12-25,1346,350!2024-06-06,335,330-->
-- [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2026-11-25,958,330!2024-04-19,297,330-->
+- [crust](crust.md)→:::←[mantle](mantle.md) <!--SR:!2026-11-25,958,330!2028-01-01,1352,350-->
 - [mantle](mantle.md)→:::←[outer core](outer%20core.md) <!--SR:!2024-06-07,336,330!2025-12-16,753,330-->
 - [outer core](outer%20core.md)→:::←[inner core](inner%20core.md) <!--SR:!2027-11-12,1312,350!2027-07-28,1230,350-->
 - [inner core](inner%20core.md)→:::←_(end)_ <!--SR:!2027-03-31,1132,350!2024-05-12,315,330-->

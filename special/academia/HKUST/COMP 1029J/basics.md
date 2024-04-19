@@ -21,13 +21,13 @@ tags:
 ## basics
 
 - comment :: A comment is either enclosed by `/*` and `*/` like `/* example */` or starts with `//` like `// example`. For the first one, the comment ends when the `*/` is first encountered. For the second one, the comment ends when the line ends. <!--SR:!2025-01-01,258,330-->
-- package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-04-19,60,310-->
+- package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-10-18,182,310-->
 - spacing :: Java ignores whitespace in most places. Whitespace are not ignored in some places, such as in strings `"This string has a space."` or before the names of method calls `. thisIsInvalidJavaCode()`. Usually whitespace are added before statements systematically, with more spaces per level of code block `{ /* code block */ }`. This is called indentation. <!--SR:!2024-08-05,122,290-->
 - statement :: A Java program is a collection of statements. A statement can be multiline and ends with a semicolon `;`. A statement can also be a code block `{ /* code block */ }`, which is also a collection of statements itself. <!--SR:!2024-05-04,73,310-->
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-04-19,60,310-->
+To assign a value or the result of an expression to a variable, use {{`=`}}: <!--SR:!2024-12-31,256,330-->
 
 ```Java
 variableName = 1 + 2;
@@ -147,7 +147,7 @@ int anInteger2 = (int) "-3.14"; // no compilation error; but a runtime error whe
 
 ## operators
 
-The assignment operator {{assigns a value to a variable}}: <!--SR:!2024-04-19,60,310-->
+The assignment operator {{assigns a value to a variable}}: <!--SR:!2024-12-30,255,330-->
 
 ```Java
 theAnswerToLifeTheUniverseAndEverything = 42

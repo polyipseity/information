@@ -123,7 +123,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-01-04T20:17:51.686624+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2024-04-19,297,330!2024-06-15,344,330-->
+- _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2026-12-24,979,330!2024-06-15,344,330-->
 - [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2026-02-03,795,330!2026-04-11,843,330-->
 - [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2025-12-17,754,330!2025-08-05,597,310-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_ <!--SR:!2028-01-02,1354,350!2026-02-25,806,330-->
@@ -243,7 +243,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="863b"--><!-- The following content is generated at 2024-03-06T23:33:30.773973+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-04-19,25,323-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-04-30,11,303-->
 - [lead–acid](lead–acid%20battery.md)::[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) <!--SR:!2024-07-30,106,343-->
 - [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!2024-06-07,60,303-->
 

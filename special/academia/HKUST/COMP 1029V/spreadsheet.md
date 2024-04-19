@@ -18,7 +18,7 @@ tags:
 
 ## cell
 
-Every cell has a location. Its location is in the format of {{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}}. <!--SR:!2024-04-19,59,310-->
+Every cell has a location. Its location is in the format of {{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}}. <!--SR:!2024-10-14,178,310-->
 
 Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2024-04-24,63,310!2024-12-27,253,330-->
 

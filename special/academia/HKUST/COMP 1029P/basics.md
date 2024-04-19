@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - `>`→:::←`>=` <!--SR:!2024-07-14,94,250!2024-04-28,67,310-->
 - `>=`→:::←`!=` <!--SR:!2024-06-01,80,270!2024-05-16,29,210-->
 - `!=`→:::←`==` <!--SR:!2024-06-23,97,290!2024-05-12,27,290-->
-- `==`→:::←_(end)_ <!--SR:!2024-12-28,254,330!2024-04-19,59,310-->
+- `==`→:::←_(end)_ <!--SR:!2024-12-28,254,330!2024-10-13,177,310-->
 
 <!--/pytextgen-->
 
@@ -174,7 +174,7 @@ Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic 
 
 ### logic operators
 
-Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-04-19,60,310-->
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-07,263,330-->
 
 %%
 
@@ -216,7 +216,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`not` <!--SR:!2024-04-21,60,310!2024-12-17,245,330-->
-- `not`→:::←`and` <!--SR:!2024-04-19,59,310!2024-04-27,66,310-->
+- `not`→:::←`and` <!--SR:!2024-12-23,248,330!2024-04-27,66,310-->
 - `and`→:::←`or` <!--SR:!2024-04-25,64,310!2024-12-18,247,330-->
 - `or`→:::←_(end)_ <!--SR:!2024-10-21,187,310!2024-11-05,211,330-->
 

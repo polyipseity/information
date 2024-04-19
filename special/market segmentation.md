@@ -22,7 +22,7 @@ Demographic segmentation divides the market by {{factual and physical data}}. <!
 
 #### geographic segmentation
 
-Geographic segmentation divides the market by {{location-related variables}}. <!--SR:!2024-04-19,14,290-->
+Geographic segmentation divides the market by {{location-related variables}}. <!--SR:!2024-06-03,45,290-->
 
 #### psychographic segmentation
 

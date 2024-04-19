@@ -483,14 +483,14 @@ workmanship
 
 - _(begin)_→:::←budget
 - budget→:::←construction management <!--SR:!2000-01-01,1,250!2024-04-21,3,315-->
-- construction management→:::←economy <!--SR:!2024-04-19,1,295!2000-01-01,1,250-->
+- construction management→:::←economy <!--SR:!2024-04-20,1,275!2000-01-01,1,250-->
 - economy→:::←impacts to surrounding
 - impacts to surrounding→:::←lifecycle
 - lifecycle→:::←maintenance <!--SR:!2024-04-21,3,317!2024-04-21,3,312-->
 - maintenance→:::←politics <!--SR:!2000-01-01,1,250!2024-04-21,3,312-->
 - politics→:::←social
 - social→:::←workmanship <!--SR:!2000-01-01,1,250!2024-04-24,6,210-->
-- workmanship→:::←_(end)_ <!--SR:!2024-04-21,4,325!2024-04-19,1,295-->
+- workmanship→:::←_(end)_ <!--SR:!2024-04-21,4,325!2024-04-23,4,315-->
 
 <!--/pytextgen-->
 
@@ -619,7 +619,7 @@ Water Cube
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-04-20,3,304!2024-04-21,4,330-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-05-27,52,270!2024-04-20,3,312-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2000-01-01,1,250!2024-05-09,34,270-->
-- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-04-20,3,305!2024-04-19,1,292-->
+- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-04-20,3,305!2024-04-20,1,272-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-04-21,3,314!2024-04-20,3,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-04-21,3,317!2000-01-01,1,250-->
 - Water Cube→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-04-21,3,317-->
@@ -915,7 +915,7 @@ socioeconomic
 - biological→:::←chemical
 - chemical→:::←cultural
 - cultural→:::←physical <!--SR:!2024-04-20,3,305!2000-01-01,1,250-->
-- physical→:::←socioeconomic <!--SR:!2024-04-19,1,297!2000-01-01,1,250-->
+- physical→:::←socioeconomic <!--SR:!2024-04-22,3,297!2000-01-01,1,250-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-04-22,4,334!2024-04-20,1,297-->
 
 <!--/pytextgen-->
@@ -1109,7 +1109,7 @@ Tsing Ma Bridge
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-04-21,3,317!2000-01-01,1,250-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-04-21,3,315!2024-04-20,3,307-->
-- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-04-21,4,324!2024-04-19,28,290-->
+- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-04-21,4,324!2024-08-09,112,310-->
 
 <!--/pytextgen-->
 
@@ -1534,6 +1534,6 @@ water treatment
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-04-21,3,315!2024-04-21,3,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2000-01-01,1,250!2024-04-21,3,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-04-20,3,304!2024-04-21,3,314-->
-- water treatment→:::←_(end)_ <!--SR:!2024-04-22,4,334!2024-04-19,29,286-->
+- water treatment→:::←_(end)_ <!--SR:!2024-04-22,4,334!2024-05-03,14,266-->
 
 <!--/pytextgen-->

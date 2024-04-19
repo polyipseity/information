@@ -17,7 +17,7 @@ English
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2024-09-14,151,396!2024-04-20,33,376-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2025-01-28,298,344-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::: (a\_e) To adapt. <!--SR:!2025-01-23,293,344!2024-05-18,59,284-->
-- [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a\_e) To gradually increase in quantity. <!--SR:!2024-07-16,141,332!2024-04-19,86,354-->
+- [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a\_e) To gradually increase in quantity. <!--SR:!2024-07-16,141,332!2025-06-10,417,374-->
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2024-11-12,226,324!2024-12-05,244,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2024-08-20,170,310!2025-02-08,309,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2024-07-06,148,310!2024-07-13,141,290-->
@@ -42,10 +42,10 @@ English
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-12-15,272,344!2025-02-20,321,344-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-09-27,193,324!2025-04-07,357,344-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2025-01-24,294,344-->
-- [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2024-04-19,32,376!2024-07-06,87,376-->
+- [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2024-08-18,121,376!2024-07-06,87,376-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2025-01-02,289,330!2025-02-14,315,330-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2024-05-09,93,363!2024-08-08,142,303-->
-- [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2024-07-04,121,388!2024-04-19,60,348-->
+- [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2024-07-04,121,388!2024-11-13,208,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2024-08-02,144,412!2024-06-30,117,412-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2025-02-10,311,344!2024-12-14,271,344-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i\_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2024-08-08,169,324!2024-11-13,222,284-->
