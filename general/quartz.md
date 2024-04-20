@@ -12,7 +12,7 @@ tags:
 > |-|-|
 > | {{![structure of α-quartz](../archives/Wikimedia%20Commons/Α-Quartz.svg)}} | {{![structure of β-quartz](../archives/Wikimedia%20Commons/Β-Quartz.svg)}} |
 >
-> {{structure of quartz}} <!--SR:!2026-08-10,930,330!2026-08-14,934,330!2024-08-28,299,250!2024-04-20,54,190!2025-08-15,600,310-->
+> {{structure of quartz}} <!--SR:!2026-08-10,930,330!2026-08-14,934,330!2024-08-28,299,250!2024-07-31,102,190!2025-08-15,600,310-->
 
 ## references
 

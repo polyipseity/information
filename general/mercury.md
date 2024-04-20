@@ -47,7 +47,7 @@ return await memorize_table(
 <!--pytextgen generate section="fda3"--><!-- The following content is generated at 2024-01-04T20:17:52.113769+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[thermometers](thermometer.md) <!--SR:!2027-12-05,1332,350!2024-05-04,307,330-->
-- [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2024-04-20,293,330!2027-06-27,1204,350-->
+- [thermometers](thermometer.md)→:::←_(end)_ <!--SR:!2027-12-15,1334,350!2027-06-27,1204,350-->
 
 <!--/pytextgen-->
 

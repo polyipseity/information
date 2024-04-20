@@ -51,7 +51,7 @@ return await memorize_seq(
 - Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2024-08-15,358,290!2024-08-08,354,290-->
 - Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2024-08-13,357,290!2025-01-07,473,310-->
 - Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2026-11-26,959,330!2025-07-06,616,310-->
-- Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2024-04-20,298,330!2026-07-16,917,330-->
+- Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2028-01-05,1355,350!2026-07-16,917,330-->
 
 <!--/pytextgen-->
 

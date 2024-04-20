@@ -75,7 +75,7 @@ Customer jobs can be split into three categories: {{functional jobs, social jobs
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-05-21,33,270!2024-05-06,17,309!2024-05-05,16,309-->
 
-Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-04-22,4,249!2024-04-29,10,289!2024-04-20,15,290-->
+Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-04-22,4,249!2024-04-29,10,289!2024-06-21,62,310-->
 
 Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. <!--SR:!2024-04-22,17,290!2024-04-28,10,289-->
 
@@ -115,12 +115,12 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-20,2,249!2024-05-04,15,309-->
-- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-20,1,209!2024-04-27,9,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-20,2,209!2024-04-21,3,229-->
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-25,5,249!2024-05-04,15,309-->
+- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-23,3,229!2024-04-27,9,269-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-21,1,189!2024-04-21,3,229-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-05-01,13,289!2024-04-28,10,289-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-27,9,269!2024-04-25,7,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-20,2,249!2024-04-24,5,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-21,1,229!2024-04-24,5,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-04-29,10,289-->
 
 <!--/pytextgen-->
@@ -165,11 +165,11 @@ mix: mixing products and services with pain relievers and gain creators
 
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-04-20,2,249!2024-05-06,17,309-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-22,4,249!2024-04-20,2,249-->
+- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-04-24,4,249!2024-05-06,17,309-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-22,4,249!2024-04-26,6,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-25,7,269!2024-04-26,8,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-04-24,6,269!2024-04-27,9,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-20,1,209-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-22,2,209-->
 
 <!--/pytextgen-->
 
@@ -185,7 +185,7 @@ Design is {{designing business models from your value proposition}}. <!--SR:!202
 
 ### prototyping
 
-Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-04-20,2,249-->
+Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-04-25,5,249-->
 
 ### interview your customers
 

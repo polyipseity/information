@@ -92,8 +92,8 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-01-29T08:31:35.198780+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`String` <!--SR:!2024-04-20,61,310!2024-11-08,214,330-->
-- `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2024-04-20,61,310-->
+- _(begin)_→:::←`String` <!--SR:!2025-01-20,275,330!2024-11-08,214,330-->
+- `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2025-01-14,269,330-->
 - `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-05-01,70,310-->
 - `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-04-21,61,310-->
 - `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-09-24,166,310-->
@@ -299,7 +299,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-12-08,237,330-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2024-04-20,61,310-->
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2024-10-27,190,310-->
 
 ### logic operators
 
@@ -344,9 +344,9 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-20T14:26:40.998968+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`!` <!--SR:!2024-04-20,61,310!2024-07-29,133,310-->
+- _(begin)_→:::←`!` <!--SR:!2025-01-18,273,330!2024-07-29,133,310-->
 - `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-10-14,181,310-->
-- `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2024-04-21,62,310!2024-04-20,60,310-->
+- `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2024-04-21,62,310!2025-01-12,267,330-->
 - <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-12-06,238,330!2024-09-02,150,310-->
 
 <!--/pytextgen-->
@@ -354,7 +354,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-20T14:26:41.011968+08:00. Any edits will be overridden! -->
 
 - `!`::negate <!--SR:!2024-11-17,221,330-->
-- `&&`::and <!--SR:!2024-04-20,60,310-->
+- `&&`::and <!--SR:!2024-12-21,245,330-->
 - <code>&#124;&#124;</code>::or <!--SR:!2024-10-11,179,310-->
 
 <!--/pytextgen-->

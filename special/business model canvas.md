@@ -121,7 +121,7 @@ segmented: splitting slightly different customer segments
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-04-24,6,257!2024-05-06,17,297-->
-- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-20,2,237!2024-04-24,6,254-->
+- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-26,6,237!2024-04-24,6,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-04-26,8,254!2024-04-27,9,257-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-04-25,7,257!2024-04-26,8,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-26,8,254!2024-04-26,7,257-->
@@ -131,7 +131,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-04-24,6,254!2024-04-20,2,234-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-04-24,6,254!2024-04-21,1,214-->
 
 ##### value sources
 
@@ -179,14 +179,14 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-04-20,2,237!2024-05-05,16,294-->
+- _(begin)_→:::←accessibility <!--SR:!2024-04-24,4,237!2024-05-05,16,294-->
 - accessibility→:::←brand or status <!--SR:!2024-04-24,6,254!2024-04-26,8,254-->
-- brand or status→:::←convenience or usability <!--SR:!2024-04-25,7,254!2024-04-20,2,234-->
+- brand or status→:::←convenience or usability <!--SR:!2024-04-25,7,254!2024-04-25,5,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-21,2,237-->
-- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-20,1,157-->
+- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-22,2,157-->
 - customization→:::←design <!--SR:!2024-04-28,10,277!2024-04-22,4,234-->
 - design→:::←newness <!--SR:!2024-04-24,6,257!2024-04-24,6,254-->
-- newness→:::←performance <!--SR:!2024-04-24,6,257!2024-04-20,2,237-->
+- newness→:::←performance <!--SR:!2024-04-24,6,257!2024-04-21,1,217-->
 - performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-04-30,12,274-->
 - performing the job well→:::←price <!--SR:!2024-04-28,10,254!2024-04-24,6,254-->
 - price→:::←risk reduction <!--SR:!2024-04-26,8,254!2024-04-27,9,254-->
@@ -237,7 +237,7 @@ personal assistance
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←automated services <!--SR:!2024-04-30,11,274!2024-04-30,12,270-->
-- automated services→:::←co-creation <!--SR:!2024-04-27,9,254!2024-04-20,2,234-->
+- automated services→:::←co-creation <!--SR:!2024-04-27,9,254!2024-04-26,6,234-->
 - co-creation→:::←communities <!--SR:!2024-04-25,7,254!2024-04-28,10,254-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-04-26,8,257!2024-04-28,10,254-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-05-05,16,297!2024-05-03,14,297-->
@@ -304,11 +304,11 @@ The key resources building block shows {{important assets required for the busin
 
 #### key activities
 
-The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-04-28,9,274!2024-04-20,2,237-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-04-28,9,274!2024-04-26,6,237-->
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-25,7,254!2024-04-23,5,237!2024-04-20,2,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-25,7,254!2024-04-23,5,237!2024-04-25,5,237-->
 
 #### cost structure
 

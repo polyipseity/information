@@ -77,7 +77,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`^` <!--SR:!2024-08-14,146,310!2024-05-05,73,310-->
-- `^`→:::←`*` <!--SR:!2024-04-20,60,310!2024-09-25,163,310-->
+- `^`→:::←`*` <!--SR:!2024-12-26,250,330!2024-09-25,163,310-->
 - `*`→:::←`/` <!--SR:!2024-10-11,179,310!2024-11-06,212,330-->
 - `/`→:::←`+` <!--SR:!2024-04-24,63,310!2024-04-24,64,310-->
 - `+`→:::←`-` <!--SR:!2024-12-24,251,330!2024-12-14,243,330-->
@@ -97,7 +97,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{booleans}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-04-20,60,310-->
+Below are common comparison operators, all of which returns {{booleans}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-12-25,249,330-->
 
 %%
 
@@ -159,7 +159,7 @@ return _chain.from_iterable(await _gather(
 - `=`::equal to <!--SR:!2024-04-28,66,310-->
 - `<`::lesser than <!--SR:!2024-11-13,218,330-->
 - `>`::greater than <!--SR:!2024-05-02,70,310-->
-- `<=`::lesser than or equal to <!--SR:!2024-04-20,60,310-->
+- `<=`::lesser than or equal to <!--SR:!2024-12-24,248,330-->
 - `>=`::greater than or equal to <!--SR:!2024-12-09,237,330-->
 - `<>`::not equal to <!--SR:!2024-04-25,64,310-->
 
@@ -284,7 +284,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-09,35,250!2024-04-21,17,270-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-04-24,20,150!2024-04-26,53,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-06-25,69,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-04-25,17,210!2024-04-20,5,130-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-04-25,17,210!2024-04-27,7,130-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-10-09,177,310!2024-05-29,83,290-->
 
 <!--/pytextgen-->
@@ -354,7 +354,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-04-20,48,270!2024-12-03,235,330-->
+- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-08-27,129,270!2024-12-03,235,330-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-06-15,89,290!2024-05-12,31,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-04-27,65,310!2024-04-26,22,270-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-06-22,78,230!2024-05-29,79,270-->
