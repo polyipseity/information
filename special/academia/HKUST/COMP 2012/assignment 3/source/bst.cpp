@@ -100,7 +100,10 @@ void BSTnode::addAnimal(const Animal* a) {
     for (AnimalLLnode *node{head}; node; node = node->next)
     {
         if (!node->next || !node->next->animal)
-            continue;
+        {
+            node->next = new AnimalLLnode{a, node->next};
+            return;
+        }
         if (node->next->animal->getID() == a->getID())
             return;
         if (node->next->animal->getID() < a->getID())
@@ -204,22 +207,26 @@ void BST::remove(const Animal* a)
         if (root->left.isEmpty())
         {
             BSTnode *old_root{root};
-            root = root->right.root;
+            root = old_root->right.root;
+            old_root->right.root = nullptr;
             delete old_root;
             return;
         }
         if (root->right.isEmpty())
         {
             BSTnode *old_root{root};
-            root = root->left.root;
+            root = old_root->left.root;
+            old_root->left.root = nullptr;
             delete old_root;
             return;
         }
         BSTnode *&right_min{root->right.findMinNode()};
-        root->head = right_min->head;
-        right_min->head = nullptr;
-        delete right_min;
-        right_min = nullptr;
+        BSTnode *old_right_min{right_min};
+        root->head = old_right_min->head;
+        old_right_min->head = nullptr;
+        right_min = old_right_min->right.root;
+        old_right_min->right.root = nullptr;
+        delete old_right_min;
     }
 }
 

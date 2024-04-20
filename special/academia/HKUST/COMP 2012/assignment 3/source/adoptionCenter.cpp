@@ -101,8 +101,7 @@ bool AdoptionCenter::removeAnimal(unsigned int id) {
             {
                 if (idx2 == idx)
                     continue;
-                newAnimals[new_idx] = animals[idx2];
-                ++new_idx;
+                newAnimals[new_idx++] = animals[idx2];
             }
             --numAnimals;
             delete[] animals;
@@ -143,9 +142,9 @@ void AdoptionCenter::setAnimalHealthCondition(unsigned int id, const HealthCondi
     {
         if (animals[idx]->getID() != id)
             continue;
-        sortedAnimals[SortCriteria::AGE].remove(animals[idx]);
+        sortedAnimals[SortCriteria::HEALTH].remove(animals[idx]);
         animals[idx]->setHealthCondition(h);
-        sortedAnimals[SortCriteria::AGE].insert(animals[idx]);
+        sortedAnimals[SortCriteria::HEALTH].insert(animals[idx]);
         break;
     }
 }

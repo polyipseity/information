@@ -55,6 +55,7 @@ void VaccinationStatus::addVaccine(const string& v)
 
     // TODO: Quadratic probing
     vaccineHashTable[key] = v;
+    ++numVaccines;
 }
 
 // TASK 1.3: VaccinationStatus::hasVaccine(const string&) const
