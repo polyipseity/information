@@ -1,0 +1,6 @@
+#include "adoptionCenter.cpp"
+#include "animal.cpp"
+#include "bst.cpp"
+#include "datatypes.cpp"
+#include "main_test.cpp"
+#include "randomAnimalGenerator.cpp"

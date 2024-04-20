@@ -35,6 +35,13 @@ bool Filter::match(const Animal& a) const
 {
     
     // TODO
+    if (!(containAnyWords(a.getSpecies(), speciesFilter) && containAnyWords(a.getHealthCondition().description, healthFilter)))
+        return false;
+    for (size_t idx{}; idx < sizeof(vaccineFilter) / sizeof(*vaccineFilter); ++idx)
+    {
+        if (!vaccineFilter[idx].empty() && !a.getVaccinationStatus().hasVaccine(vaccineFilter[idx]))
+            return false;
+    }
 
     return true;
 }
@@ -56,14 +63,22 @@ void AnimalLLnode::print(unsigned int& ignoreCount, unsigned int& displayCount, 
 {
     
     // TODO
-
+    if (next)
+        next->print(ignoreCount, displayCount, filter);
+    if (animal && filter.match(*animal))
+        animal->display(ignoreCount, displayCount);
 }
 
 // TASK 2.3: BSTnode destructor
 BSTnode::~BSTnode()  {
     
     // TODO
-
+    for (AnimalLLnode *node{head}; node;)
+    {
+        AnimalLLnode *next{node->next};
+        delete node;
+        node = next;
+    }
 }
 
 // TASK 2.4: BSTnode::addAnimal(const Animal* a)
@@ -74,7 +89,26 @@ BSTnode::~BSTnode()  {
 void BSTnode::addAnimal(const Animal* a) {
     
     // TODO
+    if (!head || (head->animal && head->animal->getID() < a->getID()))
+    {
+        head = new AnimalLLnode{a, head};
+        return;
+    }
+    if (head->animal->getID() == a->getID())
+        return;
 
+    for (AnimalLLnode *node{head}; node; node = node->next)
+    {
+        if (!node->next || !node->next->animal)
+            continue;
+        if (node->next->animal->getID() == a->getID())
+            return;
+        if (node->next->animal->getID() < a->getID())
+        {
+            node->next = new AnimalLLnode{a, node->next};
+            break;
+        }
+    }
 }
 
 // TASK 2.5: BSTnode::addAnimal(const Animal* a)
@@ -85,7 +119,18 @@ void BSTnode::addAnimal(const Animal* a) {
 void BSTnode::removeAnimal(const Animal* a) {
     
     // TODO
-
+    for (AnimalLLnode *prev{}, *node{head}; node; prev = node, node = node->next)
+    {
+        if (node->animal && node->animal->getID() == a->getID())
+        {
+            if (prev)
+                prev->next = node->next;
+            else
+                head = node->next;
+            delete node;
+            break;
+        }
+    }
 }
 
 
@@ -93,7 +138,7 @@ void BSTnode::removeAnimal(const Animal* a) {
 BST::~BST() {
     
     // TODO
-
+    delete root;
 }
 
 // TASK 3.2: BST::findMinNode()
@@ -103,7 +148,12 @@ BSTnode*& BST::findMinNode()
 {
     
     // TODO
-
+    if (!root)
+        return root;
+    BSTnode *&left_min{root->left.findMinNode()};
+    if (left_min)
+        return left_min;
+    return root;
 }
 
 // TASK 3.3: BST::insert(const Animal* a)
@@ -117,7 +167,14 @@ void BST::insert(const Animal* a)
 {
     
     // TODO
-
+    if (!root)
+        root = new BSTnode{a, comparator};
+    else if (comparator(a, root->head->animal) < 0)
+        root->left.insert(a);
+    else if (comparator(a, root->head->animal) > 0)
+        root->right.insert(a);
+    else
+        root->addAnimal(a);
 }
 
 // TASK 3.4: BST::remove(const Animal* a)
@@ -133,7 +190,37 @@ void BST::remove(const Animal* a)
 {
     
     // TODO
-
+    if (!root)
+        return;
+    if (comparator(a, root->head->animal) < 0)
+        root->left.remove(a);
+    else if (comparator(a, root->head->animal) > 0)
+        root->right.remove(a);
+    else
+    {
+        root->removeAnimal(a);
+        if (root->head)
+            return;
+        if (root->left.isEmpty())
+        {
+            BSTnode *old_root{root};
+            root = root->right.root;
+            delete old_root;
+            return;
+        }
+        if (root->right.isEmpty())
+        {
+            BSTnode *old_root{root};
+            root = root->left.root;
+            delete old_root;
+            return;
+        }
+        BSTnode *&right_min{root->right.findMinNode()};
+        root->head = right_min->head;
+        right_min->head = nullptr;
+        delete right_min;
+        right_min = nullptr;
+    }
 }
 
 // TASK 3.5: BST::print(unsigned int&, unsigned int&, const Filter&) const
@@ -156,5 +243,9 @@ void BST::print(unsigned int& ignoreCount, unsigned int& displayCount, const Fil
 {
     
     // TOD
-
+    if (!root)
+        return;
+    root->left.print(ignoreCount, displayCount, filter);
+    root->head->print(ignoreCount, displayCount, filter);
+    root->right.print(ignoreCount, displayCount, filter);
 }

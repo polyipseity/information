@@ -17,7 +17,7 @@ unsigned int sumStringChars(const string& str)
 
 
 // TASK 1.1: VaccinationStatus default constructor
-VaccinationStatus::VaccinationStatus() {
+VaccinationStatus::VaccinationStatus() : vaccineHashTable{}, numVaccines{} {
 
     // TODO
 
@@ -31,19 +31,30 @@ VaccinationStatus::VaccinationStatus() {
 //   If the vaccine already exists, output the second error message and return.
 void VaccinationStatus::addVaccine(const string& v)
 {
-    if (false /* TODO: Table is not half-empty */) {
+    if (numVaccines >= sizeof(vaccineHashTable) / sizeof(*vaccineHashTable) / 2 /* TODO: Table is not half-empty */) {
         cout << "This system does not support having taken more than " << numVaccines << " vaccines." << endl;
         return;
     }
 
     // TODO: Quadratic probing
+    unsigned int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
+    unsigned int key{base_key};
 
-    if (false /* TODO: Vaccine exists */) {
-        cout << "This animal has already taken " << v << "." << endl;
-        return;
+    for (int probe_times{};; ++probe_times)
+    {
+        key = (base_key + probe_times * probe_times) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable));
+
+        if (vaccineHashTable[key] == v /* TODO: Vaccine exists */) {
+            cout << "This animal has already taken " << v << "." << endl;
+            return;
+        }
+
+        if (vaccineHashTable[key].empty())
+            break;
     }
 
     // TODO: Quadratic probing
+    vaccineHashTable[key] = v;
 }
 
 // TASK 1.3: VaccinationStatus::hasVaccine(const string&) const
@@ -52,6 +63,18 @@ bool VaccinationStatus::hasVaccine(const string& v) const
 {
     
     // TODO
+    unsigned int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
+
+    for (int probe_times{};; ++probe_times)
+    {
+        unsigned int key{(base_key + probe_times * probe_times) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
+
+        if (vaccineHashTable[key] == v)
+            return true;
+
+        if (vaccineHashTable[key].empty())
+            break;
+    }
 
     return false;
 }
