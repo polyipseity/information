@@ -22,26 +22,26 @@ using namespace std;
 // - Be careful when performing arithmetic calculations with unsigned int
 AdoptionCenter::AdoptionCenter()
     : animals{}, numAnimals{}, sortedAnimals{
-                                   [](Animal const *left, Animal const *right)
-                                   {
-                                       return left->getSpecies() < right->getSpecies() ? -1 : left->getSpecies() > right->getSpecies() ? 1
-                                                                                                                                       : 0;
-                                   },
-                                   [](Animal const *left, Animal const *right)
-                                   {
-                                       return left->getAge() < right->getAge() ? -1 : left->getAge() > right->getAge() ? 1
-                                                                                                                       : 0;
-                                   },
-                                   [](Animal const *left, Animal const *right)
-                                   {
-                                       return left->getHealthCondition().severity < right->getHealthCondition().severity ? -1 : left->getHealthCondition().severity > right->getHealthCondition().severity ? 1
-                                                                                                                                                                                                           : 0;
-                                   },
-                                   [](Animal const *left, Animal const *right)
-                                   {
-                                       return left->getVaccinationStatus().getTotalHashValue() < right->getVaccinationStatus().getTotalHashValue() ? -1 : left->getVaccinationStatus().getTotalHashValue() > right->getVaccinationStatus().getTotalHashValue() ? 1
-                                                                                                                                                                                                                                                               : 0;
-                                   },
+                                   BST{[](Animal const *left, Animal const *right)
+                                       {
+                                           return left->getSpecies() < right->getSpecies() ? -1 : left->getSpecies() > right->getSpecies() ? 1
+                                                                                                                                           : 0;
+                                       }},
+                                   BST{[](Animal const *left, Animal const *right)
+                                       {
+                                           return left->getAge() < right->getAge() ? -1 : left->getAge() > right->getAge() ? 1
+                                                                                                                           : 0;
+                                       }},
+                                   BST{[](Animal const *left, Animal const *right)
+                                       {
+                                           return left->getHealthCondition().severity < right->getHealthCondition().severity ? -1 : left->getHealthCondition().severity > right->getHealthCondition().severity ? 1
+                                                                                                                                                                                                               : 0;
+                                       }},
+                                   BST{[](Animal const *left, Animal const *right)
+                                       {
+                                           return left->getVaccinationStatus().getTotalHashValue() < right->getVaccinationStatus().getTotalHashValue() ? -1 : left->getVaccinationStatus().getTotalHashValue() > right->getVaccinationStatus().getTotalHashValue() ? 1
+                                                                                                                                                                                                                                                                   : 0;
+                                       }},
                                } {
     
     // TODO
