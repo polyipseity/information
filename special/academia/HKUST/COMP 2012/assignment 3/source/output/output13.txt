@@ -1,0 +1,5 @@
+2	Cat (British Shorthair)       	29	Healthy        	3 (3735 )	                         
+3	Dog (Labrador Retriever)      	9	Healthy        	0 (0    )	                         
+4	Bird (Green-Cheeked Conure)   	19	Healthy        	1 (880  )	                         
+5	Rabbit (N/A)                  	14	Healthy        	1 (1128 )	                         
+6	Reptiles (Ball Python)        	9	Very poor      	0 (0    )	                         

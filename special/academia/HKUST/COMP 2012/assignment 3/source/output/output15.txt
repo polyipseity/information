@@ -1,0 +1,2 @@
+Displaying linked list nodes manually: 
+0	Bird (Budgerigar)             	14	Healthy        	0 (0    )	                         
