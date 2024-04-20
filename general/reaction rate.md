@@ -56,7 +56,7 @@ There are many factors affecting the reaction rate:
 
 <!--pytextgen generate section="22dd"--><!-- The following content is generated at 2024-01-04T20:17:52.611048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[catalyst](catalysis.md) presence: correlated <!--SR:!2024-04-26,299,330!2024-04-20,293,330-->
+- _(begin)_→:::←[catalyst](catalysis.md) presence: correlated <!--SR:!2024-04-26,299,330!2024-09-10,143,310-->
 - [catalyst](catalysis.md) presence: correlated→:::←[concentration](concentration.md) of [reactants](reagent.md): correlated <!--SR:!2024-05-29,327,330!2024-05-25,323,330-->
 - [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated <!--SR:!2024-06-27,237,250!2024-05-28,326,330-->
 - [surface area](surface%20area.md) of [solids](solid.md): correlated→:::←[temperature](temperature.md): correlated <!--SR:!2024-05-24,322,330!2024-06-26,236,270-->

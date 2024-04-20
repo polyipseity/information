@@ -25,7 +25,7 @@ printing
 */
 ```
 
-One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-04-30,69,310!2024-04-20,60,310-->
+One can also print {{numerical types, `char`s, `boolean`s, and even objects using `print` and `println`}}. `println` can also be called {{without arguments, in which case it simply prints a newline}}. <!--SR:!2024-04-30,69,310!2025-01-01,256,330-->
 
 To align output, a primitive way is {{using the tab character `\t`, which usually aligns text in 8-character intervals}}. <!--SR:!2024-11-10,216,330-->
 
