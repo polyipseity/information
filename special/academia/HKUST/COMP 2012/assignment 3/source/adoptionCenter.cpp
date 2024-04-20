@@ -20,7 +20,29 @@ using namespace std;
 // - You can write lambda functions to pass into the BST constructors
 // - For comparing strings, look up the documentation for std::string::compare()
 // - Be careful when performing arithmetic calculations with unsigned int
-AdoptionCenter::AdoptionCenter() {
+AdoptionCenter::AdoptionCenter()
+    : animals{}, numAnimals{}, sortedAnimals{
+                                   [](Animal const *left, Animal const *right)
+                                   {
+                                       return left->getSpecies() < right->getSpecies() ? -1 : left->getSpecies() > right->getSpecies() ? 1
+                                                                                                                                       : 0;
+                                   },
+                                   [](Animal const *left, Animal const *right)
+                                   {
+                                       return left->getAge() < right->getAge() ? -1 : left->getAge() > right->getAge() ? 1
+                                                                                                                       : 0;
+                                   },
+                                   [](Animal const *left, Animal const *right)
+                                   {
+                                       return left->getHealthCondition().severity < right->getHealthCondition().severity ? -1 : left->getHealthCondition().severity > right->getHealthCondition().severity ? 1
+                                                                                                                                                                                                           : 0;
+                                   },
+                                   [](Animal const *left, Animal const *right)
+                                   {
+                                       return left->getVaccinationStatus().getTotalHashValue() < right->getVaccinationStatus().getTotalHashValue() ? -1 : left->getVaccinationStatus().getTotalHashValue() > right->getVaccinationStatus().getTotalHashValue() ? 1
+                                                                                                                                                                                                                                                               : 0;
+                                   },
+                               } {
     
     // TODO
 
@@ -32,7 +54,9 @@ AdoptionCenter::AdoptionCenter() {
 AdoptionCenter::~AdoptionCenter() {
     
     // TODO
-
+    for (unsigned int idx{}; idx < numAnimals; ++idx)
+        delete animals[idx];
+    delete[] animals;
 }
 
 // TASK 4.3: AdoptionCenter::addAnimal(Animal*)
@@ -44,7 +68,17 @@ AdoptionCenter::~AdoptionCenter() {
 void AdoptionCenter::addAnimal(Animal* a) {
     
     // TODO
-
+    Animal **newAnimals{new Animal*[numAnimals + 1]};
+    if (animals)
+    {
+        for (unsigned int idx{}; idx < numAnimals; ++idx)
+            newAnimals[idx] = animals[idx];
+    }
+    delete[] animals;
+    animals = newAnimals;
+    newAnimals[numAnimals++] = a;
+    for (unsigned int idx{}; idx < sizeof(sortedAnimals) / sizeof(*sortedAnimals); ++idx)
+        sortedAnimals[idx].insert(a);
 }
 
 // TASK 4.4: AdoptionCenter::removeAnimal(unsigned int)
@@ -57,7 +91,33 @@ void AdoptionCenter::addAnimal(Animal* a) {
 bool AdoptionCenter::removeAnimal(unsigned int id) {
     
     // TODO
-
+    for (unsigned int idx{}; idx < numAnimals; ++idx)
+    {
+        Animal *animal{animals[idx]};
+        if (animal->getID() == id)
+        {
+            Animal **newAnimals{new Animal*[numAnimals - 1]};
+            for (unsigned int idx2{}, new_idx{}; idx2 < numAnimals; ++idx2)
+            {
+                if (idx2 == idx)
+                    continue;
+                newAnimals[new_idx] = animals[idx2];
+                ++new_idx;
+            }
+            --numAnimals;
+            delete[] animals;
+            animals = newAnimals;
+            if (numAnimals <= 0)
+            {
+                delete[] animals;
+                animals = nullptr;
+            }
+            for (unsigned int idx2{}; idx2 < sizeof(sortedAnimals) / sizeof(*sortedAnimals); ++idx2)
+                sortedAnimals[idx2].remove(animal);
+            delete animal;
+            return true;
+        }
+    }
     return false;
 }
 
@@ -67,7 +127,8 @@ void AdoptionCenter::incrementAge()
 {
     
     // TODO
-
+    for (unsigned int idx{}; idx < numAnimals; ++idx)
+        animals[idx]->incrementAge();
 }
 
 // TASK 4.6: AdoptionCenter::setAnimalHealthCondition(unsigned int, const HealthCondition&)
@@ -78,7 +139,15 @@ void AdoptionCenter::setAnimalHealthCondition(unsigned int id, const HealthCondi
 {
     
     // TODO
-
+    for (unsigned int idx{}; idx < numAnimals; ++idx)
+    {
+        if (animals[idx]->getID() != id)
+            continue;
+        sortedAnimals[SortCriteria::AGE].remove(animals[idx]);
+        animals[idx]->setHealthCondition(h);
+        sortedAnimals[SortCriteria::AGE].insert(animals[idx]);
+        break;
+    }
 }
 
 // TASK 4.7: AdoptionCenter:addAnimalVaccine(unsigned int, const string&)
@@ -89,7 +158,15 @@ void AdoptionCenter::addAnimalVaccine(unsigned int id, const string& v)
 {
     
     // TODO
-
+    for (unsigned int idx{}; idx < numAnimals; ++idx)
+    {
+        if (animals[idx]->getID() != id)
+            continue;
+        sortedAnimals[SortCriteria::VACCINE].remove(animals[idx]);
+        animals[idx]->addVaccine(v);
+        sortedAnimals[SortCriteria::VACCINE].insert(animals[idx]);
+        break;
+    }
 }
 
 // TASK 4.8: AdoptionCenter::setAnimalSpecialNeeds(unsigned int, const std::string&)
@@ -99,7 +176,13 @@ void AdoptionCenter::setAnimalSpecialNeeds(unsigned int id, const std::string& n
 {
     
     // TODO
-
+    for (unsigned int idx{}; idx < numAnimals; ++idx)
+    {
+        if (animals[idx]->getID() != id)
+            continue;
+        animals[idx]->setSpecialNeeds(n);
+        break;
+    }
 }
 
 
