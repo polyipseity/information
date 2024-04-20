@@ -1,0 +1,20 @@
+Adding animal with ID 5
+Adding animal with ID 6
+Adding animal with ID 1
+Adding animal with ID 0
+Adding animal with ID 4
+Adding animal with ID 8
+Adding animal with ID 7
+Adding animal with ID 2
+Adding animal with ID 3
+Displaying linked list nodes manually: 
+9	Rabbit (N/A)                  	20	Poor           	5 (28400)	                         
+8	Cat (Persian)                 	10	Healthy        	2 (3414 )	                         
+7	Rabbit (Flemish Giant)        	13	Healthy        	4 (25348)	                         
+6	Reptiles (Ball Python)        	9	Very poor      	0 (0    )	                         
+5	Rabbit (N/A)                  	14	Healthy        	1 (1128 )	                         
+4	Bird (Green-Cheeked Conure)   	19	Healthy        	1 (880  )	                         
+3	Dog (Labrador Retriever)      	9	Healthy        	0 (0    )	                         
+2	Cat (British Shorthair)       	29	Healthy        	3 (3735 )	                         
+1	Cat (Persian)                 	19	Fair           	0 (0    )	                         
+0	Bird (Budgerigar)             	14	Healthy        	0 (0    )	                         
