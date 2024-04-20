@@ -37,8 +37,8 @@ void VaccinationStatus::addVaccine(const string& v)
     }
 
     // TODO: Quadratic probing
-    unsigned int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
-    unsigned int key{base_key};
+    unsigned long int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
+    unsigned long int key{base_key};
 
     for (int probe_times{};; ++probe_times)
     {
@@ -64,11 +64,11 @@ bool VaccinationStatus::hasVaccine(const string& v) const
 {
     
     // TODO
-    unsigned int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
+    unsigned long int const base_key{sumStringChars(v) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
 
     for (int probe_times{};; ++probe_times)
     {
-        unsigned int key{(base_key + probe_times * probe_times) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
+        unsigned long int key{(base_key + probe_times * probe_times) % (sizeof(vaccineHashTable) / sizeof(*vaccineHashTable))};
 
         if (vaccineHashTable[key] == v)
             return true;
