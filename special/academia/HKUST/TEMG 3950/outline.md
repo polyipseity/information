@@ -20,6 +20,17 @@ The content is in teaching order.
 
 ## week 2 lecture
 
+- [information § context](information.md#context)
+- [information § part 1: product innovation](information.md#part%201%20product%20innovation)
+- [information § product innovation elements](information.md#production%20innovation%20elements)
+- [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
+- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns.
+- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time
+- [buyer utility map](../../../buyer%20utility%20map.md)
+- [_Blue Ocean Strategy_ § concepts](../../../../general/Blue%20Ocean%20Strategy.md#concepts)
+  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md)
+- International Business Plan Competition ::: IBPC
+- transferrable technology ::: Technology that can potentially target multiple market segments.
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [marketing segmentation](../../../market%20segmentation.md)
 
 ## week 4 lecture
@@ -38,3 +49,18 @@ The content is in teaching order.
 
 - quiz; time limit: 40 minutes; multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
 - presentation skills
+
+## week 8 lecture
+
+- 15-minute group presentation
+- questions and answers
+
+## week 9 lecture
+
+- [information § context](information.md#context)
+- [information § part 2: case analysis](information.md#part%202%20case%20analysis)
+
+## week 10 lecture
+
+- midterm break
+
