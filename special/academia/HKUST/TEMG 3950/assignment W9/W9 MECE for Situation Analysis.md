@@ -14,6 +14,15 @@ This is an individual assignment.
 
 For each of the questions below, please choose from these four MECE frameworks: 4Ps, 4Cs, PESTEL and 5Fs.
 
+__MECE analysis rubrics__ <!-- markdownlint-disable-line MD036 -->
+
+| Criteria                         | Ratings | Pts               |
+| -------------------------------- | ------- | ----------------- |
+| Q1 Restaurant Situation Analysis |         | 40 pts            |
+| Q2 eVTOL Situation Analysis      |         | 30 pts            |
+| Q3 AI Chip Situation Analysis    |         | 30 pts            |
+|                                  |         | Total Points: 100 |
+
 ## Q1
 
 Case 1: Your uncle owns a restaurant in one of the older malls in Tsuen Kwan O (TKO). Ever since new malls like Ocean Popwalk opened in TKO with many new restaurants that have ocean view and welcome pets, your uncle has seen a dramatic drop in business in the last 6 months. (40 pts)

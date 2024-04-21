@@ -12,8 +12,8 @@ tags:
 
 This is an individual assignment. Past assignment example is provided here to level the playing field.  You are NOT allowed to approach other students for theirs past assignment, and penalty will be imposed if you do so - to both students. Similarity % reported by TurnItIn will be subtracted from the final score. (i.e. If TurnItIn discovers 20% similarities, total points will be deducted by 20%).
 
-- Case paper: W10 Starbucks Digital Transformation 922-0003-1 clean.pdf
-- Past assignment: W10 Starbucks student example RCA.pdf
+- Case paper: [W10 Starbucks Digital Transformation 922-0003-1 clean.pdf](https://canvas.ust.hk/courses/56300/files/8864292?wrap=1)
+- Past assignment: [W10 Starbucks student example RCA.pdf](https://canvas.ust.hk/courses/56300/files/8747325?wrap=1)
 
 __<u>Case summary:</u>__
 
@@ -26,6 +26,16 @@ __<u>Situation analysis of Starbucks in 2008:</u>__
 3. __<u>Compose an email in 5-Step Persuasive Selling format using exactly 1 slide</u>__: your name is Bruce Lee, who is the head of the committee that produced the "seven points of transformation".  Your email should be 200-250 words in >= 8 pt. font size.
 
 Please submit a .pdf or .pptx file in landscape orientation with a cover page with your name.
+
+__DRW rubrics__ <!-- markdownlint-disable-line MD036 -->
+
+| Criteria                           | Ratings | Pts               |
+| ---------------------------------- | ------- | ----------------- |
+| 1. Root Cause Analysis             |         | 40 pts            |
+| 2. Solutions Table                 |         | 20 pts            |
+| 3. 5-Step Persuasive Selling eMail |         | 30 pts            |
+| 4. Miscellaneous                   |         | 10 pts            |
+|                                    |         | Total Points: 100 |
 
 ## Q1
 
