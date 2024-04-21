@@ -58,32 +58,32 @@ value proposition canvas
 
 %%
 
-<!--pytextgen generate section="b91d"--><!-- The following content is generated at 2024-04-19T19:11:21.562543+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b91d"--><!-- The following content is generated at 2024-04-22T01:23:52.625964+08:00. Any edits will be overridden! -->
 
-> 1. blue ocean strategy
+> 1. blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).
 > 2. business model canvas
 > 3. competitor analysis
 > 4. customer discovery
 > 5. customer segmentation
 > 6. customer validation
 > 7. design thinking
-> 8. idea generation
+> 8. idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.
 > 9. product validation
 > 10. value proposition canvas
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-19T19:11:21.543684+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blue ocean strategy
-- blue ocean strategy→:::←business model canvas
+- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).
+- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas
 - business model canvas→:::←competitor analysis
 - competitor analysis→:::←customer discovery
 - customer discovery→:::←customer segmentation
 - customer segmentation→:::←customer validation
 - customer validation→:::←design thinking
-- design thinking→:::←idea generation
-- idea generation→:::←product validation
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.
+- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation
 - product validation→:::←value proposition canvas
 - value proposition canvas→:::←_(end)_
 
