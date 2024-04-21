@@ -12,7 +12,13 @@ In [mathematics](mathematics.md), the __extreme value theorem__ states that {{if
 
 > __extreme value theorem__
 >
-> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I=[a,b]$ and a [continuous function](continuous%20function.md) $f:I\to\mathbb{R}$, there exists $c,d\in{I}$ such that $f(c)\le{f(x)}\le{f(d)}\quad\forall{x}\in{I}$.}} <!--SR:!2024-10-11,225,310-->
+> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $l, u \in I$ such that $$f(l) \le f(x) \le f(u) \qquad \forall x \in I$$.}}
+
+The extreme value theorem is more specific than the related {{__boundedness theorem__}}. It states {{a [continuous function](continuous%20function.md) on a closed interval is [bounded](bounded%20function.md) on that interval}}.
+
+> __boundedness theorem__
+>
+> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $L, U \in \mathbb{R}$ such that $$L \le f(x) \le U \qquad \forall x \in I$$.}} <!--SR:!2024-10-11,225,310-->
 
 ## references
 

@@ -48,7 +48,7 @@ The content is in teaching order.
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2000-01-01,1,250!2024-04-22,4,337-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 270 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2000-01-01,1,250!2024-04-21,3,312-->
+    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2000-01-01,1,250!2024-04-21,3,312-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-05-01,10,307!2000-01-01,1,250-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-04-22,3,317!2000-01-01,1,250-->
@@ -84,7 +84,7 @@ The content is in teaching order.
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-04-29,8,307!2024-04-21,4,330-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-04-27,22,250!2024-04-21,4,332-->
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997. <!--SR:!2024-04-21,3,314!2024-04-22,4,332-->
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-04-21,3,314!2024-04-22,4,332-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-04-21,3,312!2024-04-29,53,299-->
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
