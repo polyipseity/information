@@ -23,15 +23,15 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}.
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-04-24,4,270!2024-04-24,4,270!2024-04-24,4,270-->
 
-Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}.
+Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-04-23,3,250-->
 
 ## part 1: product innovation
 
 _Previously, case analysis was part 1._
 
-The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}.
+The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2024-04-24,4,270-->
 
 ### product innovation elements
 
@@ -75,17 +75,17 @@ value proposition canvas
 
 <!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-19T19:11:21.543684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blue ocean strategy
-- blue ocean strategy→:::←business model canvas
-- business model canvas→:::←competitor analysis
-- competitor analysis→:::←customer discovery
-- customer discovery→:::←customer segmentation
-- customer segmentation→:::←customer validation
-- customer validation→:::←design thinking
-- design thinking→:::←idea generation
-- idea generation→:::←product validation
-- product validation→:::←value proposition canvas
-- value proposition canvas→:::←_(end)_
+- _(begin)_→:::←blue ocean strategy <!--SR:!2024-04-23,3,250!2024-04-24,4,270-->
+- blue ocean strategy→:::←business model canvas <!--SR:!2024-04-21,1,230!2024-04-23,3,250-->
+- business model canvas→:::←competitor analysis <!--SR:!2024-04-23,3,250!2024-04-23,3,250-->
+- competitor analysis→:::←customer discovery <!--SR:!2024-04-23,3,250!2024-04-23,3,250-->
+- customer discovery→:::←customer segmentation <!--SR:!2024-04-23,3,250!2024-04-23,3,250-->
+- customer segmentation→:::←customer validation <!--SR:!2024-04-23,3,250!2024-04-21,1,230-->
+- customer validation→:::←design thinking <!--SR:!2024-04-23,3,250!2024-04-23,3,250-->
+- design thinking→:::←idea generation <!--SR:!2024-04-21,1,230!2024-04-21,1,230-->
+- idea generation→:::←product validation <!--SR:!2024-04-23,3,250!2024-04-23,3,250-->
+- product validation→:::←value proposition canvas <!--SR:!2024-04-21,1,230!2024-04-23,3,250-->
+- value proposition canvas→:::←_(end)_ <!--SR:!2024-04-24,4,270!2024-04-23,3,250-->
 
 <!--/pytextgen-->
 
