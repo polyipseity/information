@@ -5,7 +5,7 @@ aliases:
   - Le Châtelier's Principle
   - Le Châtelier's principle
 tags: []
-  - languages/in/English
+  - language/in/English
 ---
 
 # Le Chatelier's principle
