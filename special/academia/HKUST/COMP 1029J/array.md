@@ -19,7 +19,7 @@ To create an array, {{enclose the multiple values in `{}`}}: <!--SR:!2024-10-15,
 String[] aStringArray = { "Hello", ",", "world", "!" };
 ```
 
-Less ideally, an array can be {{created and initialized}} separately: <!--SR:!2024-04-22,62,310-->
+Less ideally, an array can be {{created and initialized}} separately: <!--SR:!2025-01-22,275,330-->
 
 ```Java
 String[] aStringArray = new String[4];
@@ -37,7 +37,7 @@ If the index does not refer to values inside the array, like {{the index being n
 
 ## multi-dimensional array
 
-A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-04-21,62,310-->
+A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-10-30,191,310-->
 
 ```Java
 boolean[][] threeByThreeSquare = {

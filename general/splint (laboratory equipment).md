@@ -53,7 +53,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="23ba9d"--><!-- The following content is generated at 2024-01-04T20:17:52.690628+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Light a wooden splint. <!--SR:!2024-04-22,295,330!2024-05-25,323,330-->
+- _(begin)_→:::←Light a wooden splint. <!--SR:!2026-12-21,973,330!2024-05-25,323,330-->
 - Light a wooden splint.→:::←Blow out the flame. <!--SR:!2024-04-23,296,330!2024-04-24,297,330-->
 - Blow out the flame.→:::←Introduce the [ember](ember.md) into the gas sample trapped in a container. <!--SR:!2025-08-22,596,270!2026-02-01,724,310-->
 - Introduce the [ember](ember.md) into the gas sample trapped in a container.→:::←Positive: The ember flares and reignites. <!--SR:!2024-09-29,399,310!2024-07-04,328,290-->

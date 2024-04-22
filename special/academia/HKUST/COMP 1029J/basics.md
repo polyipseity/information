@@ -33,7 +33,7 @@ To assign a value or the result of an expression to a variable, use {{`=`}}: <!-
 variableName = 1 + 2;
 ```
 
-One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Optionally, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-09-15,160,310!2024-04-22,63,310-->
+One must {{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}}, before assigning things to it. Optionally, {{one can declare a variable and assign to it}} simultaneously: <!--SR:!2024-09-15,160,310!2025-01-28,281,330-->
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers
@@ -95,7 +95,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`String` <!--SR:!2025-01-20,275,330!2024-11-08,214,330-->
 - `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2025-01-14,269,330-->
 - `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-05-01,70,310-->
-- `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-04-21,61,310-->
+- `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-10-28,189,310-->
 - `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-09-24,166,310-->
 - `float`→:::←`int` <!--SR:!2024-07-14,100,290!2024-04-30,69,310-->
 - `int`→:::←_(end)_ <!--SR:!2025-01-06,264,330!2024-09-09,154,310-->
@@ -205,10 +205,10 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.620801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`++` <!--SR:!2024-05-03,72,310!2024-04-30,69,310-->
-- `++`→:::←`--` <!--SR:!2024-04-22,63,310!2024-04-26,65,310-->
+- `++`→:::←`--` <!--SR:!2025-01-21,274,330!2024-04-26,65,310-->
 - `--`→:::←`*` <!--SR:!2024-06-10,63,290!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
-- `/`→:::←`%` <!--SR:!2024-04-22,62,310!2024-07-20,106,290-->
+- `/`→:::←`%` <!--SR:!2025-01-17,270,330!2024-07-20,106,290-->
 - `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
 - `+`→:::←`-` <!--SR:!2024-04-28,67,310!2024-04-26,66,310-->
 - `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2024-04-23,63,310-->
@@ -222,14 +222,14 @@ return _chain.from_iterable(await _gather(
 - `*`::multiplication <!--SR:!2024-05-02,71,310-->
 - `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-08-04,121,290-->
 - `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2024-07-26,112,290-->
-- `+`::addition <!--SR:!2024-04-22,62,310-->
-- `-`::subtraction <!--SR:!2024-04-21,61,310-->
+- `+`::addition <!--SR:!2025-01-19,272,330-->
+- `-`::subtraction <!--SR:!2025-01-03,256,330-->
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a `boolean` value}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-04-22,63,310-->
+Below are common comparison operators, all of which returns {{a `boolean` value}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-30,283,330-->
 
 %%
 
@@ -291,7 +291,7 @@ return _chain.from_iterable(await _gather(
 - `<`::lesser than <!--SR:!2024-12-02,234,330-->
 - `>`::greater than <!--SR:!2024-12-29,255,330-->
 - `<=`::lesser than or equal to <!--SR:!2024-04-29,68,310-->
-- `>=`::greater than or equal to <!--SR:!2024-04-22,63,310-->
+- `>=`::greater than or equal to <!--SR:!2025-01-23,276,330-->
 - `==`::equal to <!--SR:!2024-04-27,66,310-->
 - `!=`::not equal to <!--SR:!2024-11-24,228,330-->
 
@@ -346,7 +346,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`!` <!--SR:!2025-01-18,273,330!2024-07-29,133,310-->
 - `!`→:::←`&&` <!--SR:!2024-04-24,64,310!2024-10-14,181,310-->
-- `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2024-04-21,62,310!2025-01-12,267,330-->
+- `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2025-01-24,277,330!2025-01-12,267,330-->
 - <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-12-06,238,330!2024-09-02,150,310-->
 
 <!--/pytextgen-->

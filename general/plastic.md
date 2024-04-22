@@ -91,7 +91,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="30f9"--><!-- The following content is generated at 2024-01-04T20:17:52.436922+08:00. Any edits will be overridden! -->
 
-- [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2024-04-22,295,330-->
+- [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2026-12-25,977,330-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::![polyethylene](../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2024-05-23,321,334-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::![polyethylene terephthalate](../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg) <!--SR:!2024-09-27,384,274-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!2024-06-28,121,190-->
@@ -120,7 +120,7 @@ return _chain.from_iterable(await _gather(
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2024-06-15,222,214-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::high chemical resistance, high [water](water.md) resistance, low [density](density.md), smooth, [strong](strength%20of%20materials.md), [tough](toughness.md) <!--SR:!2024-04-23,125,170-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2024-06-02,254,241-->
-- [polypropylene](polypropylene.md) (PP)::high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2024-04-21,13,130-->
+- [polypropylene](polypropylene.md) (PP)::high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2024-04-28,6,130-->
 - [polystyrene](polystyrene.md) (PS)::expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2024-06-26,108,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2024-04-29,14,130-->
 
@@ -132,9 +132,9 @@ return _chain.from_iterable(await _gather(
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2025-04-21,454,254-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2024-05-06,194,210-->
-- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-04-21,5,130-->
+- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2024-04-30,8,130-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2024-08-13,318,261-->
-- [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-04-21,39,130-->
+- [polypropylene](polypropylene.md) (PP)::[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2024-06-11,50,130-->
 - [polystyrene](polystyrene.md) (PS)::expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2025-01-29,288,201-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2024-04-26,87,229-->
 

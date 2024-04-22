@@ -74,7 +74,7 @@ void aMethod(String arg1, int arg2) {
 }
 ```
 
-The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2024-04-22,61,310!2024-12-25,250,330!2024-09-25,166,310-->
+The return type indicates {{the type of the method output}}. The `void` type is {{a special return type indicating no method output}}. To return a non-`void` value, use {{`return`, like `return valueOfReturnType;`}}. <!--SR:!2025-01-15,268,330!2024-12-25,250,330!2024-09-25,166,310-->
 
 The parameter types indicates {{the types of the method inputs}}. It is possible to have {{no parameters}}. Each parameter is {{separated by `,`, with the parameter type appearing before the parameter name}}. <!--SR:!2024-12-21,247,330!2024-10-02,170,310!2024-05-02,70,310-->
 
@@ -98,7 +98,7 @@ Name(int aField) {
 
 ### static
 
-By adding `static` before {{the return type of a method, the method can be called without creating an object first. The restriction is that non-`static` methods and non-`static` fields cannot be accessed directly without an object, as there are no objects to access them on}}. For example, invoking `aStaticMethod` in the above example: <!--SR:!2024-04-21,60,310-->
+By adding `static` before {{the return type of a method, the method can be called without creating an object first. The restriction is that non-`static` methods and non-`static` fields cannot be accessed directly without an object, as there are no objects to access them on}}. For example, invoking `aStaticMethod` in the above example: <!--SR:!2024-10-21,182,310-->
 
 ```Java
 Name name = new Name(42);

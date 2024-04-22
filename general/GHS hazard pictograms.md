@@ -56,7 +56,7 @@ return await memorize_table(
 > | {{GHS06: [toxic](toxicity.md)}}<br/>{{![GHS06: [toxic](toxicity.md)](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}} |  |
 > | {{GHS07: harmful}}<br/>{{![GHS07: harmful](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}} |  |
 > | {{GHS08: [health hazard](health%20hazard.md)}}<br/>{{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}} |  |
-> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2027-10-22,1295,350!2025-11-27,741,330!2026-05-19,870,330!2024-05-16,319,330!2027-07-14,1218,350!2026-07-21,921,330!2024-04-22,300,330!2027-07-03,1209,350!2024-05-17,320,330!2025-08-08,600,310!2024-04-23,301,330!2026-06-28,891,330!2025-06-28,569,310!2025-11-30,737,330!2027-07-21,1223,350!2025-07-26,620,310!2027-10-16,1290,350!2026-03-03,781,310-->
+> | {{GHS09: [environmental hazard](environmental%20hazard.md)}}<br/>{{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}} |  | <!--SR:!2027-10-22,1295,350!2025-11-27,741,330!2026-05-19,870,330!2024-05-16,319,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2024-05-17,320,330!2025-08-08,600,310!2024-04-23,301,330!2026-06-28,891,330!2025-06-28,569,310!2025-11-30,737,330!2027-07-21,1223,350!2025-07-26,620,310!2027-10-16,1290,350!2026-03-03,781,310-->
 
 <!--/pytextgen-->
 
@@ -71,7 +71,7 @@ return await memorize_table(
 - GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2025-10-30,662,310!2024-09-09,331,290-->
 - GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2025-10-20,641,310!2024-07-16,305,270-->
 - GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2026-12-10,969,330!2025-10-21,656,310-->
-- GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2024-05-05,308,330!2024-04-21,299,330-->
+- GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2024-05-05,308,330!2028-01-13,1361,350-->
 
 <!--/pytextgen-->
 

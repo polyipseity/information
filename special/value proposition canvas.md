@@ -67,7 +67,7 @@ Value proposition design works for {{both new ventures and established organizat
 
 The value proposition canvas has two parts: {{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}}. <!--SR:!2024-04-26,8,269-->
 
-The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-05-04,15,307!2024-04-22,17,290!2024-05-02,13,289-->
+The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-05-04,15,307!2024-07-02,71,310!2024-05-02,13,289-->
 
 ### customer profile
 
@@ -75,9 +75,9 @@ Customer jobs can be split into three categories: {{functional jobs, social jobs
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-05-21,33,270!2024-05-06,17,309!2024-05-05,16,309-->
 
-Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-04-22,4,249!2024-04-29,10,289!2024-06-21,62,310-->
+Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-05-01,9,249!2024-04-29,10,289!2024-06-21,62,310-->
 
-Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. <!--SR:!2024-04-22,17,290!2024-04-28,10,289-->
+Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. <!--SR:!2024-06-11,50,290!2024-04-28,10,289-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. Jobs to be done can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-04-26,7,269-->
 
@@ -117,17 +117,17 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-25,5,249!2024-05-04,15,309-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-23,3,229!2024-04-27,9,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-21,1,189!2024-04-21,3,229-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-24,2,189!2024-04-28,6,229-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-05-01,13,289!2024-04-28,10,289-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-27,9,269!2024-04-25,7,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-21,1,229!2024-04-24,5,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-23,1,209!2024-04-24,5,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-04-29,10,289-->
 
 <!--/pytextgen-->
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-04-22,17,290!2024-04-24,6,269!2024-04-24,6,269!2024-05-16,31,270!2024-04-28,10,289-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-04-24,6,269!2024-04-24,6,269!2024-05-16,31,270!2024-04-28,10,289-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-05-01,12,289!2024-05-04,15,309!2024-05-09,34,290!2024-06-11,53,310-->
 
@@ -166,10 +166,10 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-04-24,4,249!2024-05-06,17,309-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-22,4,249!2024-04-26,6,249-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-24,2,229!2024-04-26,6,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-25,7,269!2024-04-26,8,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-04-24,6,269!2024-04-27,9,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-22,2,209-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-23,1,189-->
 
 <!--/pytextgen-->
 
@@ -177,7 +177,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-05-30,41,290!2024-05-08,30,270-->
 
-However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-05-06,17,309!2024-04-23,5,249!2024-04-25,7,269!2024-04-22,17,290-->
+However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-05-06,17,309!2024-04-23,5,249!2024-04-25,7,269!2024-06-13,52,290-->
 
 ## design
 

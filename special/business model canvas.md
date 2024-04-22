@@ -131,7 +131,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-04-24,6,254!2024-04-21,1,214-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-04-24,6,254!2024-04-24,2,214-->
 
 ##### value sources
 
@@ -182,11 +182,11 @@ risk reduction
 - _(begin)_→:::←accessibility <!--SR:!2024-04-24,4,237!2024-05-05,16,294-->
 - accessibility→:::←brand or status <!--SR:!2024-04-24,6,254!2024-04-26,8,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-04-25,7,254!2024-04-25,5,234-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-21,2,237-->
-- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-22,2,157-->
-- customization→:::←design <!--SR:!2024-04-28,10,277!2024-04-22,4,234-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-27,5,237-->
+- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-25,3,157-->
+- customization→:::←design <!--SR:!2024-04-28,10,277!2024-05-01,9,234-->
 - design→:::←newness <!--SR:!2024-04-24,6,257!2024-04-24,6,254-->
-- newness→:::←performance <!--SR:!2024-04-24,6,257!2024-04-21,1,217-->
+- newness→:::←performance <!--SR:!2024-04-24,6,257!2024-04-24,2,217-->
 - performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-04-30,12,274-->
 - performing the job well→:::←price <!--SR:!2024-04-28,10,254!2024-04-24,6,254-->
 - price→:::←risk reduction <!--SR:!2024-04-26,8,254!2024-04-27,9,254-->

@@ -17,7 +17,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - cycle forward:::\<Tab\> <!--SR:!2026-06-18,886,348!2025-12-30,788,328-->
 - cycle backward:::\<Ctrl\>+p <!--SR:!2026-01-16,805,328!2024-05-07,317,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2024-04-21,170,173!2024-05-05,178,248-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2025-06-22,426,193!2024-05-05,178,248-->
 
 ## pattern
 
@@ -32,7 +32,7 @@ See also [Vim help files](https://vimhelp.org/).
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2024-04-24,115,253!2024-07-12,353,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-05-20,125,293!2024-04-25,350,333-->
 - beginning of line:::0 <!--SR:!2028-05-15,1501,350!2024-04-24,349,333-->
-- end of line:::$ <!--SR:!2028-05-19,1509,353!2024-04-22,348,333-->
+- end of line:::$ <!--SR:!2028-05-19,1509,353!2028-09-06,1598,353-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2024-08-29,386,290!2026-04-17,810,313-->
 - line \[N=1\]:::\[N\]gg <!--SR:!2027-02-14,1061,333!2024-05-15,124,293-->
 - matching character:::% <!--SR:!2024-10-24,457,293!2025-06-07,631,313-->
@@ -49,7 +49,7 @@ See also [Vim help files](https://vimhelp.org/).
 - quit insert mode:::\<Esc\> <!--SR:!2028-08-28,1591,353!2028-05-13,1504,353-->
 - insert before cursor:::\[[repeat N](#^repeatN)\]i <!--SR:!2025-10-10,727,313!2026-08-22,914,328-->
 - insert after cursor:::\[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2026-01-03,792,328-->
-- insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2025-10-05,640,273!2024-04-21,348,333-->
+- insert after end of line:::\[[repeat N](#^repeatN)\]A <!--SR:!2025-10-05,640,273!2027-06-24,1158,333-->
 - change text from cursor to ([motion](#motion)):::c([motion](#motion)) <!--SR:!2025-07-20,680,313!2025-07-01,648,313-->
 - insert lines below cursor:::\[[repeat N](#^repeatN)\]o <!--SR:!2026-05-03,766,273!2027-08-23,1220,313-->
 - insert lines above cursor:::\[[repeat N](#^repeatN)\]O <!--SR:!2025-10-09,727,313!2025-08-22,692,313-->

@@ -31,7 +31,7 @@ else:
 
 The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-09-26,168,310-->
 
-In Python, one usually does not chain `if...else`. Instead, Python provides {{the keyword `elif` so that `if...elif...else` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2024-04-21,61,310-->
+In Python, one usually does not chain `if...else`. Instead, Python provides {{the keyword `elif` so that `if...elif...else` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2025-01-22,275,330-->
 
 ```Python
 if condition1:
@@ -57,7 +57,7 @@ for loop_variables in iterable:
 
 Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. The semantics of `for...in` is that {{for each element in the iterable, the loop variables are assigned that element and then the statement block is executed}}. <!--SR:!2024-04-23,62,310!2024-09-24,162,310-->
 
-To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}. <!--SR:!2024-04-22,62,310!2024-09-16,159,310!2024-04-29,68,310-->
+To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}. <!--SR:!2025-01-25,278,330!2024-09-16,159,310!2024-04-29,68,310-->
 
 In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-04-23,63,310-->
 
