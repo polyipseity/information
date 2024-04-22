@@ -18,7 +18,7 @@ Explore the user interface yourself.
 
 ### object bench
 
-One can use the object bench to {{create new instances of a class and test them}}. <!--SR:!2024-04-21,62,310-->
+One can use the object bench to {{create new instances of a class and test them}}. <!--SR:!2025-01-15,268,330-->
 
 ## see also
 

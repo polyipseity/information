@@ -21,7 +21,7 @@ English
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2024-11-12,226,324!2024-12-05,244,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2024-08-20,170,310!2025-02-08,309,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2024-07-06,148,310!2024-07-13,141,290-->
-- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations. <!--SR:!2024-07-07,88,376!2024-04-21,11,356-->
+- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations. <!--SR:!2024-07-07,88,376!2024-05-31,39,356-->
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::: (a\_t) Earlier, in time or order. <!--SR:!2024-08-20,137,392!2024-05-15,61,352-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2025-01-05,289,344!2024-11-05,228,304-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::: (a\_l) Man-made. <!--SR:!2024-08-01,148,410!2024-08-21,163,410-->
@@ -57,7 +57,7 @@ English
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2024-10-03,181,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2024-07-30,145,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2024-07-15,130,412!2024-05-05,69,372-->
-- [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o\_e) An event or happening. <!--SR:!2024-08-28,170,410!2024-04-22,59,350-->
+- [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o\_e) An event or happening. <!--SR:!2024-08-28,170,410!2025-02-01,285,370-->
 - [pendulum](https://en.wiktionary.org/wiki/pendulum) ::: (p\_m) A device with a [weight](../../../general/weight%20(object).md) suspended from a pivot so that it can swing freely. <!--SR:!2024-04-30,93,358!2025-01-15,278,358-->
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2025-02-05,294,352!2024-04-23,90,352-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p\_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2025-02-09,310,344!2024-11-17,226,324-->
@@ -71,7 +71,7 @@ English
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-04-27,17,316-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-05-07,57,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-05-03,53,368-->
-- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-04-22,13,308-->
+- [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-05-30,38,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2024-06-26,121,408!2024-07-13,117,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2024-04-26,93,290-->
@@ -80,7 +80,7 @@ English
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-07-22,105,376!2024-05-06,31,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2024-07-27,103,376!2024-08-26,133,396-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-04-25,45,332!2024-05-30,78,372-->
-- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-11-27,236,324!2024-04-22,38,244-->
+- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-11-27,236,324!2024-07-26,95,244-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-08-16,158,410!2024-05-06,70,370-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2024-05-19,62,332!2024-05-21,77,372-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t\_l) Of or relating to theory rather than practice. <!--SR:!2024-11-10,250,330!2024-08-26,180,290-->

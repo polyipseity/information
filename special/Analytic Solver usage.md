@@ -23,7 +23,7 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 The decision tree ends are called {{_leaf nodes_ or _terminal nodes_}}. The rest of the nodes are called {{_decision nodes_ or _internal nodes_}}. <!--SR:!2024-04-29,14,290!2024-04-27,12,270-->
 
-The _error rate_ of a decision tree is {{the number of mispredicted observations divided by the number of all observations}}. <!--SR:!2024-04-22,7,250-->
+The _error rate_ of a decision tree is {{the number of mispredicted observations divided by the number of all observations}}. <!--SR:!2024-05-11,19,250-->
 
 ### random seed
 

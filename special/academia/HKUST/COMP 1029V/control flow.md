@@ -19,7 +19,7 @@ If condition Then
 End If
 ```
 
-The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-21,60,310-->
+The semantics of `If...Then...End If` is obvious: {{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-12-30,252,330-->
 
 An `If...Then...Else...End If` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-05-03,71,310-->
 
@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `True` conditions, all conditions are always executed in the appearance order, followed by the `Else` statement block if there is one.}} <!--SR:!2024-10-08,174,310!2024-04-22,59,309-->
+The semantics of `If...Then...ElseIf...Then...Else...End If` can be found by consider the semantics of chaining `If...Then...Else...End If`: {{The statement block after the first `True` condition is executed. If there are no `True` conditions, the statement block after `Else` is executed if there is an `Else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `True` condition (inclusive) are themselves always executed in the appearance order, alternated with statement block execution. If there are no `True` conditions, all conditions are always executed in the appearance order, followed by the `Else` statement block if there is one.}} <!--SR:!2024-10-08,174,310!2024-10-18,179,309-->
 
 ## iteration
 
@@ -87,7 +87,7 @@ Loop While condition
 
 The semantics of `Do...Loop While` is {{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}}. <!--SR:!2024-10-09,177,310-->
 
-As VBA is intended to be English like, it also provides the unconventional {{`Do Until...Loop` and `Do...Loop Until` constructs}}. The semantics is exactly the same except that {{the loop stops if the condition is `True`}}. <!--SR:!2024-05-08,75,321!2024-04-21,58,301-->
+As VBA is intended to be English like, it also provides the unconventional {{`Do Until...Loop` and `Do...Loop Until` constructs}}. The semantics is exactly the same except that {{the loop stops if the condition is `True`}}. <!--SR:!2024-05-08,75,321!2024-12-19,241,321-->
 
 ### `For`
 
@@ -103,4 +103,4 @@ The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loo
 
 ### ending iteration early
 
-One can end a loop prematurely. This is done by {{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}}. As mentioned before, {{`While`-loops cannot be ended prematurely}}. <!--SR:!2024-04-22,61,310!2024-12-03,229,321-->
+One can end a loop prematurely. This is done by {{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}}. As mentioned before, {{`While`-loops cannot be ended prematurely}}. <!--SR:!2024-10-27,188,310!2024-12-03,229,321-->

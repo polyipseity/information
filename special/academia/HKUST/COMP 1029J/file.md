@@ -31,7 +31,7 @@ One can read from or write to a text file using {{`java.io.BufferedReader` or `j
 
 ### reading text files
 
-Use {{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by passing `java.nio.charset.Charset.defaultCharset()`}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-08-25,144,310!2024-04-21,62,310!2024-04-24,64,310-->
+Use {{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}}. For `charset`, if you leave it blank, {{UTF-8 is used. You can use the system charset by passing `java.nio.charset.Charset.defaultCharset()`}}. If needed, handle {{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}}. <!--SR:!2024-08-25,144,310!2024-11-08,200,310!2024-04-24,64,310-->
 
 To read a line, use {{`reader.readLine()`, which returns `null` when the end of file has reached}}. An example: <!--SR:!2024-07-20,108,310-->
 
@@ -42,7 +42,7 @@ while ((line = reader.readLine()) != null) {
 }
 ```
 
-When done with reading, {{close the reader to avoid locking the file by calling `reader.close()`}}. A better method is {{using `try...catch...finally`, and the best is using `try-with-resources`}}, but they will not be mentioned here. <!--SR:!2024-05-02,71,310!2024-04-22,62,310-->
+When done with reading, {{close the reader to avoid locking the file by calling `reader.close()`}}. A better method is {{using `try...catch...finally`, and the best is using `try-with-resources`}}, but they will not be mentioned here. <!--SR:!2024-05-02,71,310!2025-01-19,272,330-->
 
 ### writing text files
 
@@ -55,4 +55,4 @@ writer.write("Hello, world!");
 writer.newLine();
 ```
 
-When done with writing, {{close the writer to save the file by calling `writer.close()`}}. A better method is {{using `try...catch...finally`, and the best is using `try-with-resources`}}, but they will not be mentioned here. <!--SR:!2024-10-30,205,330!2024-04-22,63,310-->
+When done with writing, {{close the writer to save the file by calling `writer.close()`}}. A better method is {{using `try...catch...finally`, and the best is using `try-with-resources`}}, but they will not be mentioned here. <!--SR:!2024-10-30,205,330!2025-01-30,283,330-->
