@@ -58,32 +58,32 @@ value proposition canvas
 
 %%
 
-<!--pytextgen generate section="b91d"--><!-- The following content is generated at 2024-04-19T19:11:21.562543+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="b91d"--><!-- The following content is generated at 2024-04-22T01:23:52.625964+08:00. Any edits will be overridden! -->
 
-> 1. blue ocean strategy
+> 1. blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).
 > 2. business model canvas
 > 3. competitor analysis
 > 4. customer discovery
 > 5. customer segmentation
 > 6. customer validation
 > 7. design thinking
-> 8. idea generation
+> 8. idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.
 > 9. product validation
 > 10. value proposition canvas
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-19T19:11:21.543684+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blue ocean strategy <!--SR:!2024-04-29,6,250!2024-04-24,4,270-->
-- blue ocean strategy→:::←business model canvas <!--SR:!2024-04-25,3,250!2024-05-06,13,270-->
+- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-04-29,6,250!2024-04-24,4,270-->
+- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-04-25,3,250!2024-05-06,13,270-->
 - business model canvas→:::←competitor analysis <!--SR:!2024-05-01,8,250!2024-04-29,6,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-05-02,9,250!2024-05-03,10,250-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-05-03,10,270!2024-05-06,13,270-->
 - customer segmentation→:::←customer validation <!--SR:!2024-05-06,13,270!2024-04-24,2,230-->
 - customer validation→:::←design thinking <!--SR:!2024-04-30,7,250!2024-05-05,12,270-->
-- design thinking→:::←idea generation <!--SR:!2024-04-24,2,230!2024-04-24,2,230-->
-- idea generation→:::←product validation <!--SR:!2024-04-29,6,250!2024-05-02,9,250-->
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-04-24,2,230!2024-04-24,2,230-->
+- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-04-29,6,250!2024-05-02,9,250-->
 - product validation→:::←value proposition canvas <!--SR:!2024-04-25,2,210!2024-04-30,7,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2024-04-24,4,270!2024-04-30,7,250-->
 
