@@ -33,7 +33,7 @@ The content is in teaching order.
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-05-10,17,357-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-05-01,9,315!2024-05-04,12,332-->
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2000-01-01,1,250!2024-04-27,4,340-->
+  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-04-26,3,321!2024-04-27,4,340-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-04-29,7,312!2024-05-26,51,310-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-04-24,2,297!2024-05-12,20,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-04-26,3,320!2024-05-02,10,312-->
@@ -48,7 +48,7 @@ The content is in teaching order.
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-04-26,3,320!2024-05-13,21,357-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2000-01-01,1,250!2024-04-29,7,312-->
+    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-04-26,3,321!2024-04-29,7,312-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-05-01,10,307!2024-04-27,4,340-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-05-01,9,317!2024-04-27,4,340-->
@@ -76,7 +76,7 @@ The content is in teaching order.
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-04-26,3,320!2024-05-06,14,332-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2000-01-01,1,250!2024-05-03,11,336-->
+- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-04-26,3,321!2024-05-03,11,336-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-04-24,2,295!2024-05-09,17,350-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-04-24,2,295!2024-05-10,18,352-->
@@ -86,7 +86,7 @@ The content is in teaching order.
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-05-01,9,314!2024-05-11,19,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-04-30,8,312!2024-04-29,53,299-->
-  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-04-24,1,300!2000-01-01,1,250-->
+  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-04-24,1,300!2024-04-27,4,341-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-05-01,9,317!2024-05-12,20,347-->
   - materials engineer jobs ::: highly varied <!--SR:!2024-06-11,67,330!2024-05-11,19,352-->
@@ -115,7 +115,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2024-04-24,2,294!2024-04-27,4,340-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2024-05-11,19,347!2024-05-08,16,355-->
-- length ::: 3911 m, longest span: 1991 m <!--SR:!2000-01-01,1,250!2024-05-10,18,352-->
+- length ::: 3911 m, longest span: 1991 m <!--SR:!2024-04-26,3,321!2024-05-10,18,352-->
 
 ### Beijing National Stadium
 
@@ -137,8 +137,8 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-04-24,2,297!2024-05-11,19,354-->
-- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2000-01-01,1,250!2024-05-14,21,357-->
-- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel <!--SR:!2000-01-01,1,250!2024-06-14,70,330-->
+- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-04-24,1,301!2024-05-14,21,357-->
+- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel <!--SR:!2024-04-26,3,321!2024-06-14,70,330-->
 
 ### CCTV Headquarters
 
@@ -153,15 +153,15 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-05-03,11,335!2024-05-13,21,357-->
-- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2000-01-01,1,250!2024-05-13,21,356-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete <!--SR:!2000-01-01,1,250!2024-04-27,4,340-->
+- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-04-24,1,301!2024-05-13,21,356-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete <!--SR:!2024-04-27,4,341!2024-04-27,4,341-->
 
 ### China International Trust and Investment Plaza
 
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-04-26,3,272!2024-05-11,19,347-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2000-01-01,1,250!2024-05-06,14,332-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-04-24,1,301!2024-05-06,14,332-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Eiffel Tower
@@ -177,8 +177,8 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2024-05-05,13,334!2024-06-22,78,330-->
-- height ::: roof: 178.8 m <!--SR:!2000-01-01,1,250!2024-06-16,72,330-->
-- [structural system](../../../../general/structural%20system.md) ::: steel <!--SR:!2000-01-01,1,250!2024-04-27,4,340-->
+- height ::: roof: 178.8 m <!--SR:!2024-04-24,1,301!2024-06-16,72,330-->
+- [structural system](../../../../general/structural%20system.md) ::: steel <!--SR:!2024-04-26,3,321!2024-04-27,4,341-->
 
 ### Hong Kong Convention and Exhibition Centre
 
@@ -200,16 +200,16 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-04-24,1,300!2024-05-11,19,355-->
-- height ::: 221.4 m <!--SR:!2000-01-01,1,250!2024-05-03,11,327-->
-- length ::: 379 m <!--SR:!2000-01-01,1,250!2024-05-03,11,330-->
+- height ::: 221.4 m <!--SR:!2024-04-24,1,301!2024-05-03,11,327-->
+- length ::: 379 m <!--SR:!2024-04-24,1,301!2024-05-03,11,330-->
 
 ### International Commerce Centre
 
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-05-25,50,310!2024-05-12,20,350-->
-- height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2000-01-01,1,250!2024-05-29,54,310-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2000-01-01,1,250!2024-04-27,4,340-->
+- height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-04-24,1,301!2024-05-29,54,310-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-04-24,1,301!2024-04-27,4,341-->
 
 ### John Hancock Center
 
@@ -234,7 +234,7 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-04-27,4,341!2024-04-27,4,341-->
 - description ::: bridge in Hong Kong <!--SR:!2024-05-05,13,325!2024-05-13,20,357-->
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-04-24,1,300!2024-05-04,12,330-->
 
@@ -251,15 +251,15 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-04-27,4,340-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2000-01-01,1,250!2024-05-17,42,310-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-04-24,1,301!2024-05-17,42,310-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite
 
 ### Thames Barrier
 
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
-- [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2000-01-01,1,250!2024-05-11,18,357-->
-- height ::: 20.1 m <!--SR:!2000-01-01,1,250!2024-04-27,4,340-->
+- [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-04-26,3,321!2024-05-11,18,357-->
+- height ::: 20.1 m <!--SR:!2024-04-24,1,301!2024-04-27,4,340-->
 - length ::: 520 m <!--SR:!2024-04-24,1,300!2024-05-21,46,310-->
 
 ### Tsing Ma Bridge
@@ -282,7 +282,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-04-26,3,320!2024-05-09,17,345-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2000-01-01,1,250!2024-05-12,20,344-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-04-24,1,301!2024-05-12,20,344-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Water Cube
@@ -390,13 +390,13 @@ water
 - _(begin)_→:::←bridge <!--SR:!2024-05-10,17,357!2024-05-11,19,354-->
 - bridge→:::←building <!--SR:!2024-05-08,16,352!2024-04-27,4,340-->
 - building→:::←dam <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
-- dam→:::←pipeline <!--SR:!2024-04-24,1,264!2000-01-01,1,250-->
-- pipeline→:::←power plant <!--SR:!2024-04-24,1,300!2000-01-01,1,250-->
+- dam→:::←pipeline <!--SR:!2024-04-24,1,264!2024-04-26,3,321-->
+- pipeline→:::←power plant <!--SR:!2024-04-24,1,300!2024-04-24,1,301-->
 - power plant→:::←reservoir <!--SR:!2024-04-24,2,295!2024-04-26,3,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-04-24,2,297!2000-01-01,1,250-->
-- sewage treatment→:::←transport <!--SR:!2024-04-30,7,290!2000-01-01,1,250-->
+- reservoir→:::←sewage treatment <!--SR:!2024-04-24,2,297!2024-04-24,1,301-->
+- sewage treatment→:::←transport <!--SR:!2024-04-30,7,290!2024-04-26,3,321-->
 - transport→:::←water <!--SR:!2024-04-26,3,320!2024-04-24,1,270-->
-- water→:::←_(end)_ <!--SR:!2024-04-27,4,340!2024-04-26,3,320-->
+- water→:::←_(end)_ <!--SR:!2024-04-27,4,341!2024-04-27,4,341-->
 
 <!--/pytextgen-->
 
@@ -481,13 +481,13 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-02-16T21:59:47.165148+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budget <!--SR:!2000-01-01,1,250!2024-04-27,4,340-->
+- _(begin)_→:::←budget <!--SR:!2024-04-27,4,341!2024-04-27,4,340-->
 - budget→:::←construction management <!--SR:!2024-04-26,3,320!2024-04-29,7,315-->
 - construction management→:::←economy <!--SR:!2024-04-25,2,235!2024-04-26,3,320-->
 - economy→:::←impacts to surrounding <!--SR:!2024-04-24,1,300!2024-04-26,3,320-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-04-24,2,297!2024-04-24,2,292-->
-- maintenance→:::←politics <!--SR:!2000-01-01,1,250!2024-04-24,2,292-->
+- maintenance→:::←politics <!--SR:!2024-04-26,3,321!2024-04-24,2,292-->
 - politics→:::←social <!--SR:!2024-04-27,4,340!2024-05-02,10,317-->
 - social→:::←workmanship <!--SR:!2024-04-24,1,300!2024-04-24,6,210-->
 - workmanship→:::←_(end)_ <!--SR:!2024-05-10,18,345!2024-05-09,16,335-->
@@ -575,7 +575,7 @@ transportation
 - hydraulics→:::←materials <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
 - materials→:::←structural <!--SR:!2024-05-01,9,317!2024-04-24,1,300-->
 - structural→:::←transportation <!--SR:!2024-04-27,4,340!2024-05-06,15,327-->
-- transportation→:::←_(end)_ <!--SR:!2024-05-05,13,330!2000-01-01,1,250-->
+- transportation→:::←_(end)_ <!--SR:!2024-05-05,13,330!2024-04-27,4,341-->
 
 <!--/pytextgen-->
 
@@ -622,7 +622,7 @@ Water Cube
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-04-28,5,285!2024-04-25,4,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-04-24,2,294!2024-05-04,13,325-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-05-02,10,317!2024-04-26,3,320-->
-- Water Cube→:::←_(end)_ <!--SR:!2000-01-01,1,250!2024-05-02,10,317-->
+- Water Cube→:::←_(end)_ <!--SR:!2024-04-27,4,341!2024-05-02,10,317-->
 
 <!--/pytextgen-->
 
@@ -660,11 +660,11 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-04-24,2,292!2000-01-01,1,250-->
-- business procedures→:::←economics <!--SR:!2000-01-01,1,250!2024-04-24,1,265-->
+- _(begin)_→:::←business procedures <!--SR:!2024-04-24,2,292!2024-04-27,4,341-->
+- business procedures→:::←economics <!--SR:!2024-04-26,3,321!2024-04-24,1,265-->
 - economics→:::←human behaviors <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
 - human behaviors→:::←management principles <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
-- management principles→:::←strong communication skills <!--SR:!2000-01-01,1,250!2024-04-24,1,300-->
+- management principles→:::←strong communication skills <!--SR:!2024-04-24,1,301!2024-04-24,1,300-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-05-06,14,335!2024-04-24,2,292-->
 
@@ -722,11 +722,11 @@ testing materials
 - designing temporary structures→:::←logistics <!--SR:!2024-04-25,3,320!2024-04-24,2,297-->
 - logistics→:::←planning <!--SR:!2024-05-01,9,314!2024-05-02,10,315-->
 - planning→:::←procuring materials <!--SR:!2024-04-30,8,317!2024-04-24,2,297-->
-- procuring materials→:::←quality assurance <!--SR:!2024-04-26,3,320!2000-01-01,1,250-->
+- procuring materials→:::←quality assurance <!--SR:!2024-04-26,3,320!2024-04-24,1,301-->
 - quality assurance→:::←quality control <!--SR:!2024-04-30,8,317!2024-05-09,17,352-->
-- quality control→:::←safety engineering <!--SR:!2000-01-01,1,250!2024-04-24,2,295-->
+- quality control→:::←safety engineering <!--SR:!2024-04-24,1,301!2024-04-24,2,295-->
 - safety engineering→:::←scheduling <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
-- scheduling→:::←surveying building site <!--SR:!2000-01-01,1,250!2024-04-26,3,320-->
+- scheduling→:::←surveying building site <!--SR:!2024-04-24,1,301!2024-04-26,3,320-->
 - surveying building site→:::←testing materials <!--SR:!2024-04-26,3,320!2024-04-24,2,292-->
 - testing materials→:::←_(end)_ <!--SR:!2024-05-07,15,327!2024-04-30,7,287-->
 
@@ -768,10 +768,10 @@ wood
 
 - _(begin)_→:::←brick <!--SR:!2024-05-12,19,357!2024-05-05,58,312-->
 - brick→:::←concrete <!--SR:!2024-05-01,10,305!2024-05-13,21,357-->
-- concrete→:::←new synthetic materials
+- concrete→:::←new synthetic materials <!--SR:!2024-04-26,3,321!2024-04-27,4,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-05-02,11,312!2024-04-26,3,320-->
 - steel→:::←stone <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
-- stone→:::←wood <!--SR:!2000-01-01,1,250!2024-04-29,7,312-->
+- stone→:::←wood <!--SR:!2024-04-26,3,321!2024-04-29,7,312-->
 - wood→:::←_(end)_ <!--SR:!2024-05-12,20,354!2024-04-27,4,340-->
 
 <!--/pytextgen-->
@@ -830,7 +830,7 @@ nuclear
 - chemical→:::←civil <!--SR:!2024-05-01,9,317!2024-05-02,10,317-->
 - civil→:::←computer <!--SR:!2024-04-30,8,314!2024-04-30,9,312-->
 - computer→:::←electrical <!--SR:!2024-05-05,13,327!2024-05-02,10,315-->
-- electrical→:::←industrial <!--SR:!2000-01-01,1,250!2024-05-14,39,290-->
+- electrical→:::←industrial <!--SR:!2024-04-26,3,321!2024-05-14,39,290-->
 - industrial→:::←manufacturing <!--SR:!2024-05-01,9,317!2024-04-30,8,312-->
 - manufacturing→:::←mechanical <!--SR:!2024-05-14,21,357!2024-04-24,2,297-->
 - mechanical→:::←nuclear <!--SR:!2024-05-12,19,357!2024-05-07,15,335-->
@@ -870,7 +870,7 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air <!--SR:!2024-04-27,4,340!2024-04-27,4,340-->
+- _(begin)_→:::←air <!--SR:!2024-04-27,4,341!2024-04-27,4,341-->
 - air→:::←environmental impact assessment (EIA) <!--SR:!2024-04-24,2,298!2024-04-30,8,318-->
 - environmental impact assessment (EIA)→:::←noise <!--SR:!2024-04-28,7,307!2024-04-27,4,340-->
 - noise→:::←waste <!--SR:!2024-04-27,4,340!2024-05-05,13,335-->
@@ -915,7 +915,7 @@ socioeconomic
 - biological→:::←chemical <!--SR:!2024-05-01,9,317!2024-05-06,14,337-->
 - chemical→:::←cultural <!--SR:!2024-04-26,3,320!2024-05-01,9,317-->
 - cultural→:::←physical <!--SR:!2024-04-28,7,305!2024-04-24,1,300-->
-- physical→:::←socioeconomic <!--SR:!2024-04-29,7,297!2000-01-01,1,250-->
+- physical→:::←socioeconomic <!--SR:!2024-04-29,7,297!2024-04-27,4,341-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-05-03,11,334!2024-04-24,3,297-->
 
 <!--/pytextgen-->
@@ -991,7 +991,7 @@ tunnels
 - _(begin)_→:::←embankments <!--SR:!2024-04-24,1,300!2024-04-27,4,340-->
 - embankments→:::←pile foundations <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
 - pile foundations→:::←shallow foundations <!--SR:!2024-05-01,9,317!2024-05-04,12,335-->
-- shallow foundations→:::←tunnels <!--SR:!2000-01-01,1,250!2024-05-01,9,312-->
+- shallow foundations→:::←tunnels <!--SR:!2024-04-27,4,341!2024-05-01,9,312-->
 - tunnels→:::←_(end)_ <!--SR:!2024-05-08,16,350!2024-05-02,10,317-->
 
 <!--/pytextgen-->
@@ -1064,11 +1064,11 @@ water distribution networks
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-02-16T21:59:47.738515+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection networks <!--SR:!2000-01-01,1,250!2024-04-24,2,297-->
-- sewage collection networks→:::←storm water management <!--SR:!2024-04-24,1,267!2000-01-01,1,250-->
+- _(begin)_→:::←sewage collection networks <!--SR:!2024-04-26,3,321!2024-04-24,2,297-->
+- sewage collection networks→:::←storm water management <!--SR:!2024-04-24,1,267!2024-04-26,3,321-->
 - storm water management→:::←water collection networks <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
 - water collection networks→:::←water distribution networks <!--SR:!2024-04-27,4,340!2024-04-24,2,312-->
-- water distribution networks→:::←_(end)_ <!--SR:!2024-04-24,2,307!2000-01-01,1,250-->
+- water distribution networks→:::←_(end)_ <!--SR:!2024-04-24,2,307!2024-04-26,3,321-->
 
 <!--/pytextgen-->
 
@@ -1298,8 +1298,8 @@ Taipei 101
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-04-30,8,317!2024-05-23,73,310-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-05-01,9,317!2024-04-24,2,294-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-04-26,3,320!2024-04-24,2,297-->
-- John Hancock Center→:::←Taipei 101 <!--SR:!2000-01-01,1,250!2024-05-02,11,312-->
-- Taipei 101→:::←_(end)_ <!--SR:!2024-05-06,14,327!2000-01-01,1,250-->
+- John Hancock Center→:::←Taipei 101 <!--SR:!2024-04-26,3,321!2024-05-02,11,312-->
+- Taipei 101→:::←_(end)_ <!--SR:!2024-05-06,14,327!2024-04-24,1,301-->
 
 <!--/pytextgen-->
 
@@ -1384,13 +1384,13 @@ water towers
 
 - _(begin)_→:::←bridges <!--SR:!2024-05-02,10,315!2024-04-27,4,340-->
 - bridges→:::←buildings <!--SR:!2024-05-08,16,350!2024-04-27,4,340-->
-- buildings→:::←dams
-- dams→:::←power plants <!--SR:!2000-01-01,1,250!2024-04-25,3,278-->
+- buildings→:::←dams <!--SR:!2024-04-27,4,341!2024-04-26,3,321-->
+- dams→:::←power plants <!--SR:!2024-04-24,1,301!2024-04-25,3,278-->
 - power plants→:::←storage facilities <!--SR:!2024-04-24,1,300!2024-04-29,7,314-->
 - storage facilities→:::←tunnels <!--SR:!2024-04-26,3,320!2024-04-24,1,300-->
 - tunnels→:::←unusual structures <!--SR:!2024-04-30,7,287!2024-04-24,1,300-->
 - unusual structures→:::←water towers <!--SR:!2024-05-01,10,310!2024-05-07,15,330-->
-- water towers→:::←_(end)_ <!--SR:!2024-05-12,20,347!2000-01-01,1,250-->
+- water towers→:::←_(end)_ <!--SR:!2024-05-12,20,347!2024-04-26,3,321-->
 
 <!--/pytextgen-->
 

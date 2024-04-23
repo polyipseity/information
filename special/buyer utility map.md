@@ -18,11 +18,11 @@ tags:
 
 %%
 
-It is similar to a {{[customer journey map](customer%20journey%20map.md)}}.
+It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--SR:!2024-04-27,4,270-->
 
 ## 6 stages of buyer experience cycle
 
-The {{6 stages of buyer experience}} cycle are the {{map row headers}}.
+The {{6 stages of buyer experience}} cycle are the {{map row headers}}. <!--SR:!2024-04-26,3,259!2024-04-27,4,270-->
 
 %%
 
@@ -56,19 +56,19 @@ disposal
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←purchase
-- purchase→:::←delivery
-- delivery→:::←use
-- use→:::←supplements
-- supplements→:::←maintenance
-- maintenance→:::←disposal
-- disposal→:::←_(end)_
+- _(begin)_→:::←purchase <!--SR:!2024-04-26,3,250!2024-04-27,4,279-->
+- purchase→:::←delivery <!--SR:!2024-04-27,4,270!2024-04-27,4,270-->
+- delivery→:::←use <!--SR:!2024-04-27,4,270!2024-04-27,4,270-->
+- use→:::←supplements <!--SR:!2024-04-26,3,259!2024-04-27,4,279-->
+- supplements→:::←maintenance <!--SR:!2024-04-27,4,270!2024-04-27,4,279-->
+- maintenance→:::←disposal <!--SR:!2024-04-27,4,270!2024-04-27,4,279-->
+- disposal→:::←_(end)_ <!--SR:!2024-04-27,4,279!2024-04-27,4,279-->
 
 <!--/pytextgen-->
 
 ## 6 utility levers
 
-The {{6 utility levers}} are the {{map column headers}}.
+The {{6 utility levers}} are the {{map column headers}}. <!--SR:!2024-04-26,3,259!2024-04-26,3,259-->
 
 %%
 
@@ -102,16 +102,16 @@ simplicity: remove complexity or hassle
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convenience: ease of spatial and temporal accessibility
-- convenience: ease of spatial and temporal accessibility→:::←environmental friendliness
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude
-- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money
-- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle
-- simplicity: remove complexity or hassle→:::←_(end)_
+- _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-04-26,3,259!2024-04-27,4,270-->
+- convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-04-27,4,279!2024-04-27,4,279-->
+- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-04-26,3,259!2024-04-27,4,279-->
+- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-04-26,3,259!2024-04-26,3,259-->
+- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-04-26,3,250!2024-04-27,4,279-->
+- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-04-24,1,230!2024-04-26,3,259-->
+- simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-04-27,4,270!2024-04-27,4,279-->
 
 <!--/pytextgen-->
 
 ## usage
 
-Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}.
+Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-04-27,4,279!2024-04-26,3,250!2024-04-27,4,270-->
