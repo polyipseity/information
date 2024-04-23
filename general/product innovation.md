@@ -2,8 +2,8 @@
 aliases:
   - product innovation
 tags:
-  - flashcards/general/product_innovation
-  - languages/in/English
+  - flashcard/general/product_innovation
+  - language/in/English
 ---
 
 # product innovation
