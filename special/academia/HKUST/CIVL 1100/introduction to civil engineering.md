@@ -59,7 +59,7 @@ The content is in teaching order.
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use
-  - construction materials ::: depends on availability, cost, project nature
+  - construction material factors ::: depends on availability, cost, project nature
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
@@ -99,7 +99,7 @@ The content is in teaching order.
   - [construction engineer characteristics](#construction%20engineer%20characteristics)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors.
-  - civil engineer demands ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
+  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants)
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
@@ -138,7 +138,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m
-- [structural system](../../../../general/structural%20system.md) ::: aluminium, reinforced concrete, steel
+- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel
 
 ### CCTV Headquarters
 
@@ -154,7 +154,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong
 - height ::: architectural: 373.9 m, top floor: 299 m
-- [structural system](../../../../general/structural%20system.md) ::: reinforced steel
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### China International Trust and Investment Plaza
 
@@ -162,7 +162,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China
 - height ::: architectural: 390.2 m, top floor: 296.9 m
-- [structural system](../../../../general/structural%20system.md) ::: reinforced steel
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Eiffel Tower
 
@@ -283,7 +283,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois
 - height ::: architectural: 303 m, top floor: 250 m
-- [structural system](../../../../general/structural%20system.md) ::: reinforced steel
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Water Cube
 
@@ -789,8 +789,8 @@ agricultural
 architectural
 biomedical
 ceramic
-civil
 chemical
+civil
 computer
 electrical
 industrial
@@ -803,14 +803,14 @@ nuclear
 
 %%
 
-<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-02-17T22:07:05.005339+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-04-23T18:07:51.673368+08:00. Any edits will be overridden! -->
 
 > 1. agricultural
 > 2. architectural
 > 3. biomedical
 > 4. ceramic
-> 5. civil
-> 6. chemical
+> 5. chemical
+> 6. civil
 > 7. computer
 > 8. electrical
 > 9. industrial
@@ -820,15 +820,15 @@ nuclear
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-16T21:59:47.533086+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←agricultural
 - agricultural→:::←architectural
 - architectural→:::←biomedical
 - biomedical→:::←ceramic
-- ceramic→:::←civil
-- civil→:::←chemical
-- chemical→:::←computer
+- ceramic→:::←chemical
+- chemical→:::←civil
+- civil→:::←computer
 - computer→:::←electrical
 - electrical→:::←industrial
 - industrial→:::←manufacturing
@@ -1313,7 +1313,7 @@ return await memorize_seq(
   __env__.cwf_sects("0102", "2ff2",),
   """
 American Code
-Austrian Standard
+Australian Standard
 Chinese Code
 Eurocode
 Hong Kong Code
@@ -1323,21 +1323,21 @@ Hong Kong Code
 
 %%
 
-<!--pytextgen generate section="0102"--><!-- The following content is generated at 2024-02-16T21:59:47.965624+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0102"--><!-- The following content is generated at 2024-04-23T18:07:51.831231+08:00. Any edits will be overridden! -->
 
 > 1. American Code
-> 2. Austrian Standard
+> 2. Australian Standard
 > 3. Chinese Code
 > 4. Eurocode
 > 5. Hong Kong Code
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-02-16T21:59:47.984175+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←American Code
-- American Code→:::←Austrian Standard
-- Austrian Standard→:::←Chinese Code
+- American Code→:::←Australian Standard
+- Australian Standard→:::←Chinese Code
 - Chinese Code→:::←Eurocode
 - Eurocode→:::←Hong Kong Code
 - Hong Kong Code→:::←_(end)_
@@ -1409,7 +1409,7 @@ Other possible factors include corruption, insufficient reinforcing steel, and l
 The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
 On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 with investigators coming from the American Concrete Institute (ACI),
-the American Society of Civil Engineers (ASCI),
+the American Society of Civil Engineers (ASCE),
 the Geode Institute (GI),
 and the Structural Engineering Institute (SEI).
 """.strip().splitlines(),
@@ -1418,7 +1418,7 @@ and the Structural Engineering Institute (SEI).
 
 %%
 
-<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-02-16T21:59:48.041209+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-04-23T18:07:51.855229+08:00. Any edits will be overridden! -->
 
 > 1. On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 > 2. Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
@@ -1426,13 +1426,13 @@ and the Structural Engineering Institute (SEI).
 > 4. The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
 > 5. On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 > 6. with investigators coming from the American Concrete Institute (ACI),
-> 7. the American Society of Civil Engineers (ASCI),
+> 7. the American Society of Civil Engineers (ASCE),
 > 8. the Geode Institute (GI),
 > 9. and the Structural Engineering Institute (SEI).
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-02-16T21:59:48.061176+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-04-23T18:07:51.887254+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 - On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
@@ -1440,8 +1440,8 @@ and the Structural Engineering Institute (SEI).
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
 - The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI),
-- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCI),
-- the American Society of Civil Engineers (ASCI),→:::←the Geode Institute (GI),
+- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE),
+- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI),
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI).
 - and the Structural Engineering Institute (SEI).→:::←_(end)_
 
