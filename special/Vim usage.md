@@ -11,7 +11,7 @@ tags:
 
 See also [Vim help files](https://vimhelp.org/).
 
-- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2026-01-04,738,313!2024-04-23,349,333-->
+- help with \[subject\]:::<ul><li>:h[elp] [subject]</li><li>&lt;F1&gt;</li><li>&lt;Help&gt;</li></ul> <!--SR:!2026-01-04,738,313!2028-09-10,1601,353-->
 
 ## autocomplete
 

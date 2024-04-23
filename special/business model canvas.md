@@ -72,7 +72,7 @@ C$: [cost structure](#cost%20structure)
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-04-24,6,257-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-04-27,9,254!2024-04-29,10,272-->
-- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-25,7,257!2024-04-23,5,257-->
+- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-25,7,257!2024-05-08,15,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-04-27,9,257!2024-04-25,7,254-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-04-26,8,257!2024-04-27,9,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-05-01,13,277!2024-04-28,10,254-->
@@ -291,7 +291,7 @@ subscription fee
 - advertising→:::←asset sale <!--SR:!2024-04-27,9,254!2024-05-04,15,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-04-25,7,254!2024-04-24,6,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-04-26,8,257!2024-04-25,7,254-->
-- lending, renting, or leasing→:::←licensing <!--SR:!2024-04-23,5,237!2024-04-26,8,254-->
+- lending, renting, or leasing→:::←licensing <!--SR:!2024-05-03,10,237!2024-04-26,8,254-->
 - licensing→:::←usage fee <!--SR:!2024-04-28,9,274!2024-04-29,10,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-04-25,7,254!2024-04-27,9,257-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-04-30,12,274!2024-04-26,7,257-->
@@ -300,7 +300,7 @@ subscription fee
 
 #### key resources
 
-The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-05-01,12,274!2024-04-23,5,237-->
+The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-05-01,12,274!2024-05-07,14,237-->
 
 #### key activities
 
@@ -308,7 +308,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-25,7,254!2024-04-23,5,237!2024-04-25,5,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-25,7,254!2024-05-04,11,237!2024-04-25,5,237-->
 
 #### cost structure
 

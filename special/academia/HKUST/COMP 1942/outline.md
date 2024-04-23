@@ -32,7 +32,7 @@ The content is in teaching order.
 ## week 2 lecture 1
 
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
-- support definition ::: We use "the number of transactions containing $X$" definition here. <!--SR:!2024-04-26,60,310!2024-04-23,57,310-->
+- support definition ::: We use "the number of transactions containing $X$" definition here. <!--SR:!2024-04-26,60,310!2024-12-23,244,330-->
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
 - [association rule learning § lift](../../../../general/association%20rule%20learning.md#lift)
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
@@ -151,7 +151,7 @@ The content is in teaching order.
 - [lift chart § construction](../../../lift%20chart.md#construction)
 - [lift chart § interpretation](../../../lift%20chart.md#interpretation)
 - [lift chart § decile-wise](../../../lift%20chart.md#decile-wise)
-- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-04-23,8,291!2024-04-26,11,307-->
+- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-05-19,26,291!2024-04-26,11,307-->
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 
 ## week 8 lecture 1

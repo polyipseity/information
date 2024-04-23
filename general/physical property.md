@@ -18,7 +18,7 @@ tags:
 
 %%
 
-A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}}. <!--SR:!2024-06-18,323,290!2024-04-23,296,330-->
+A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}}. <!--SR:!2024-06-18,323,290!2028-01-03,1350,350-->
 
 ## examples
 
@@ -71,7 +71,7 @@ return await memorize_seq(
 - _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2024-07-20,339,290!2024-06-01,330,330-->
 - [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2024-04-27,92,250!2024-07-14,145,270-->
 - [color](color.md)→:::←[density](density.md) <!--SR:!2025-02-23,439,270!2024-05-28,326,330-->
-- [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2024-04-23,6,130!2024-05-29,327,330-->
+- [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2024-05-03,10,130!2024-05-29,327,330-->
 - [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-06-24,322,290!2025-08-17,531,270-->
 - [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2024-07-26,270,230!2024-12-19,467,310-->
 - [hardness](hardness.md)→:::←[malleability](malleability.md) <!--SR:!2024-12-14,411,290!2024-04-25,13,130-->

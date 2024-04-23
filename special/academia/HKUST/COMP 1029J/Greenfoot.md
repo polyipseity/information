@@ -36,7 +36,7 @@ See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html>.
 See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html>.
 
 - `getRandomNumber` :: `static int getRandomNumber(int limit)`: [0, limit). See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#getRandomNumber(int)>. <!--SR:!2024-09-12,157,310-->
-- `isKeyDown` :: `static boolean isKeyDown(String keyName)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#isKeyDown(java.lang.String)>. <!--SR:!2024-04-23,63,310-->
+- `isKeyDown` :: `static boolean isKeyDown(String keyName)`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Greenfoot.html#isKeyDown(java.lang.String)>. <!--SR:!2024-11-09,200,310-->
 
 ### `World`
 

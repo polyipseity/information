@@ -88,7 +88,7 @@ Two recommended formats:
 
 ### skills
 
-The most important skills in general are {{adaptivity, fast learning, and resilience}}. <!--SR:!2024-04-23,127,290-->
+The most important skills in general are {{adaptivity, fast learning, and resilience}}. <!--SR:!2025-04-25,367,290-->
 
 ## referees
 

@@ -41,7 +41,7 @@ anIntegerVariable = 1 + 2;
 String aStringVariable = "a string"; // variables can be declared and assigned simultaneously
 ```
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-04-23,64,310-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-11-10,201,310-->
 
 ## types
 
@@ -211,7 +211,7 @@ return _chain.from_iterable(await _gather(
 - `/`→:::←`%` <!--SR:!2025-01-17,270,330!2024-07-20,106,290-->
 - `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
 - `+`→:::←`-` <!--SR:!2024-04-28,67,310!2024-04-26,66,310-->
-- `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2024-04-23,63,310-->
+- `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2025-01-29,281,330-->
 
 <!--/pytextgen-->
 
@@ -280,8 +280,8 @@ return _chain.from_iterable(await _gather(
 - `<`→:::←`>` <!--SR:!2024-04-27,67,310!2024-04-26,65,310-->
 - `>`→:::←`<=` <!--SR:!2024-09-28,166,310!2024-05-01,56,270-->
 - `<=`→:::←`>=` <!--SR:!2024-10-12,179,310!2024-07-06,106,290-->
-- `>=`→:::←`==` <!--SR:!2024-05-01,70,310!2024-04-23,13,150-->
-- `==`→:::←`!=` <!--SR:!2024-04-23,63,310!2024-04-25,65,310-->
+- `>=`→:::←`==` <!--SR:!2024-05-01,70,310!2024-05-02,9,130-->
+- `==`→:::←`!=` <!--SR:!2025-01-27,279,330!2024-04-25,65,310-->
 - `!=`→:::←_(end)_ <!--SR:!2024-04-24,64,310!2024-05-02,71,310-->
 
 <!--/pytextgen-->
