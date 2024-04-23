@@ -225,7 +225,7 @@ return chain.from_iterable(await gather(
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2024-05-06,18,223-->
 - [lead–acid](lead–acid%20battery.md)::[Pb](lead.md) <!--SR:!2024-05-03,33,283-->
-- [lithium-ion](lithium-ion%20battery.md)::[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md)) <!--SR:!2024-04-23,29,283-->
+- [lithium-ion](lithium-ion%20battery.md)::[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md)) <!--SR:!2024-07-13,81,283-->
 
 <!--/pytextgen-->
 

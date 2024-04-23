@@ -13,7 +13,7 @@ tags:
 ## types
 
 - _defined in {{[`<stdio.h>`](../../general/C%20file%20input_output.md)}}_
-- [`FILE`](file%20input_output/FILE.md) <!--SR:!2024-04-23,172,310-->
+- [`FILE`](file%20input_output/FILE.md) <!--SR:!2026-04-27,734,330-->
 
 ## functions
 

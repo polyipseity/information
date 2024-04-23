@@ -21,7 +21,7 @@ To define a list in Python, {{enclose all items in square brackets `[]` and sepa
 
 ## length
 
-The length of a sequence can be determined by {{`len(sequence)`}}. <!--SR:!2024-04-23,62,310-->
+The length of a sequence can be determined by {{`len(sequence)`}}. <!--SR:!2025-01-11,263,330-->
 
 ## indexing
 

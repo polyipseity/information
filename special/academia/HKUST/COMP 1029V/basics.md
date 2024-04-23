@@ -20,7 +20,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2024-04-23,62,310!2024-10-20,186,310!2024-09-08,152,310-->
+Before using a variable, it needs to be {{declared using the keyword `Dim` first}}. The syntax is {{`Dim VariableName As Type`}}. You can also declare multiple variables in one line, like {{`Dim VariableName1 As Type1, VariableName2 As Type2`}}. <!--SR:!2025-01-19,271,330!2024-10-20,186,310!2024-09-08,152,310-->
 
 To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. For object types (basically anything that are not simple like numbers, strings, booleans), you need to {{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}}. <!--SR:!2024-05-03,71,310!2024-09-09,154,310-->
 
@@ -73,7 +73,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`Boolean` <!--SR:!2024-05-08,75,325!2024-12-29,254,330-->
 - `Boolean`→:::←`Double` <!--SR:!2025-01-19,272,330!2024-04-30,68,310-->
-- `Double`→:::←`Integer` <!--SR:!2024-05-04,72,310!2024-04-23,63,310-->
+- `Double`→:::←`Integer` <!--SR:!2024-05-04,72,310!2024-11-08,199,310-->
 - `Integer`→:::←`Long` <!--SR:!2024-08-06,124,290!2024-05-05,72,325-->
 - `Long`→:::←`Single` <!--SR:!2024-05-07,74,325!2024-05-05,72,325-->
 - `Single`→:::←_(end)_ <!--SR:!2024-12-28,253,330!2024-05-02,70,310-->

@@ -10,7 +10,7 @@ tags:
 
 ## installation
 
-Follow the instructions on {{<https://bluej.org/>}}. <!--SR:!2024-04-23,63,310-->
+Follow the instructions on {{<https://bluej.org/>}}. <!--SR:!2025-01-21,273,330-->
 
 ## usage
 

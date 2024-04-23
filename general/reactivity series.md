@@ -308,7 +308,7 @@ return _chain.from_iterable(await _gather(
 - [iron](iron.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-05-18,777,310-->
 - [cadmium](cadmium.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-08-22,610,310-->
 - [cobalt](cobalt.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-07-07,573,310-->
-- [nickel](nickel.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-04-23,296,330-->
+- [nickel](nickel.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-25,976,330-->
 - [tin](tin.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-18,257,290-->
 - [lead](lead.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-12-31,280,290-->
 - [antimony](antimony.md)::heat or physical extraction <!--SR:!2025-06-20,562,310-->
