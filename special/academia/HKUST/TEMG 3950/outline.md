@@ -24,13 +24,13 @@ The content is in teaching order.
 - [information § part 1: product innovation](information.md#part%201%20product%20innovation)
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
-- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-04-24,4,270!2024-04-24,4,270-->
-- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-05-02,9,250!2024-04-24,4,270-->
+- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-05-04,10,270!2024-05-10,16,290-->
+- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-05-02,9,250!2024-05-09,15,290-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concepts](../../../../general/Blue%20Ocean%20Strategy.md#concepts)
-  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-04-24,4,270!2024-04-24,4,270-->
-- International Business Plan Competition ::: IBPC <!--SR:!2024-04-24,4,270!2024-04-24,4,270-->
-- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-04-24,4,270!2024-04-24,4,270-->
+  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-05-04,10,270!2024-05-09,15,290-->
+- International Business Plan Competition ::: IBPC <!--SR:!2024-05-07,13,290!2024-05-10,16,290-->
+- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-05-10,16,290!2024-05-09,15,290-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [marketing segmentation](../../../market%20segmentation.md)
 
 ## week 4 lecture

@@ -20,11 +20,11 @@ Support is {{how frequently the item set appears in the data set}}. For a item s
 
 Confidence is {{the ratio of all transactions satisfying the antecedent that also satisfies the consequent}}. For two item sets X and Y, and {{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the confidence of the rule is defined as $\operatorname{conf}(X \Rightarrow Y) = P(Y | X) = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X)} = \frac {\text{number of transactions containing both }X\text{ and }Y} {\text{number of transactions containing }X}$}}. <!--SR:!2024-09-28,163,310!2024-05-30,80,310-->
 
-Confidence expresses {{how confident you can be about Y being true given X is true}}. <!--SR:!2024-04-24,58,310-->
+Confidence expresses {{how confident you can be about Y being true given X is true}}. <!--SR:!2024-10-19,178,310-->
 
 ### lift
 
-Lift is {{the ratio of the observed support of a rule to that expected if the antecedent and the consequent are [independent](independence%20(probability%20theory).md)}}. For two item sets X and Y, and {{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{lift}(X \Rightarrow Y) = \frac {\operatorname{conf}(X \Rightarrow Y)} {\operatorname{supp}(Y)} = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X) \times \operatorname{supp}(Y)}$}}. <!--SR:!2024-04-24,58,310!2024-12-06,231,330-->
+Lift is {{the ratio of the observed support of a rule to that expected if the antecedent and the consequent are [independent](independence%20(probability%20theory).md)}}. For two item sets X and Y, and {{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{lift}(X \Rightarrow Y) = \frac {\operatorname{conf}(X \Rightarrow Y)} {\operatorname{supp}(Y)} = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X) \times \operatorname{supp}(Y)}$}}. <!--SR:!2024-10-20,179,310!2024-12-06,231,330-->
 
 Lift expresses {{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}}. Note that the lift is unchanged even if {{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}}. <!--SR:!2024-05-02,65,310!2024-04-25,59,310-->
 

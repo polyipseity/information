@@ -15,7 +15,7 @@ There are two types of errors: {{syntax errors and runtime errors}}. The former 
 
 ## runtime errors
 
-Runtime errors occur when {{something error or unexpected}} happens. The program {{generally crashes}} when an error occurs. There are {{many types of errors, such as `IndexError`, `ValueError`, `ZeroDivisionError`, etc.}} <!--SR:!2024-12-19,246,330!2024-04-29,67,310!2024-04-24,63,310-->
+Runtime errors occur when {{something error or unexpected}} happens. The program {{generally crashes}} when an error occurs. There are {{many types of errors, such as `IndexError`, `ValueError`, `ZeroDivisionError`, etc.}} <!--SR:!2024-12-19,246,330!2024-04-29,67,310!2025-01-18,269,330-->
 
 ## catching errors
 

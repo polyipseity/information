@@ -55,7 +55,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-05-01,12,289!2024-04-27,9,269-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-04-25,7,269!2024-04-29,10,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-04-25,7,269!2024-04-27,9,269-->
-- value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-04-24,6,269-->
+- value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-10,16,269-->
 
 <!--/pytextgen-->
 
@@ -117,17 +117,17 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-25,5,249!2024-05-04,15,309-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-29,6,229!2024-04-27,9,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-24,2,189!2024-04-28,6,229-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-28,4,189!2024-04-28,6,229-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-05-01,13,289!2024-04-28,10,289-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-27,9,269!2024-04-25,7,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-24,1,189!2024-04-24,5,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-26,2,189!2024-05-03,9,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-04-29,10,289-->
 
 <!--/pytextgen-->
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-04-24,6,269!2024-04-24,6,269!2024-05-16,31,270!2024-04-28,10,289-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-05-14,20,289!2024-05-08,14,269!2024-05-16,31,270!2024-04-28,10,289-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-05-01,12,289!2024-05-04,15,309!2024-05-09,34,290!2024-06-11,53,310-->
 
@@ -165,10 +165,10 @@ mix: mixing products and services with pain relievers and gain creators
 
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-04-24,4,249!2024-05-06,17,309-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-24,2,229!2024-04-26,6,249-->
+- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-05-10,16,269!2024-05-06,17,309-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-30,6,229!2024-04-26,6,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-25,7,269!2024-04-26,8,269-->
-- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-04-24,6,269!2024-04-27,9,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-08,14,269!2024-04-27,9,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-25,2,189-->
 
 <!--/pytextgen-->
@@ -224,11 +224,11 @@ find customer patterns
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-04-27,9,269!2024-05-06,17,309-->
-- create a customer profile→:::←outline the interview <!--SR:!2024-04-24,6,269!2024-04-30,12,289-->
+- create a customer profile→:::←outline the interview <!--SR:!2024-05-10,16,269!2024-04-30,12,289-->
 - outline the interview→:::←interview <!--SR:!2024-05-07,18,309!2024-05-01,13,289-->
 - interview→:::←capture new customer profile <!--SR:!2024-04-26,7,269!2024-05-06,17,309-->
-- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2024-04-24,6,269-->
-- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-04-24,6,269!2024-04-24,6,269-->
+- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2024-05-11,17,269-->
+- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-05-09,15,269!2024-05-12,18,269-->
 - find customer patterns→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-04,15,309-->
 
 <!--/pytextgen-->

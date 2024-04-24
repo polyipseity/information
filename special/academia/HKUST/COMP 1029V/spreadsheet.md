@@ -11,7 +11,7 @@ tags:
 
 ## concepts
 
-- cell :: The boxes you see when you open a spreadsheet. It can contain a piece of data. <!--SR:!2024-04-24,64,310-->
+- cell :: The boxes you see when you open a spreadsheet. It can contain a piece of data. <!--SR:!2025-01-23,274,330-->
 - range :: A bunch of cells. <!--SR:!2024-12-01,233,330-->
 - workbook :: The entire Excel file. A workbook can contain multiple worksheets. <!--SR:!2025-01-02,260,330-->
 - worksheet :: Like a piece of paper containing cells. <!--SR:!2024-04-28,66,310-->
@@ -20,7 +20,7 @@ tags:
 
 Every cell has a location. Its location is in the format of {{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}}. <!--SR:!2024-10-14,178,310-->
 
-Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2024-04-24,63,310!2024-12-27,253,330-->
+Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2024-11-06,196,310!2024-12-27,253,330-->
 
 ## formula
 
