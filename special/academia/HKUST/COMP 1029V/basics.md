@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-04-24,64,310-->
+One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-11-04,194,310-->
 
 ```VB
 Dim ADouble As Double, AnObject As Object
@@ -108,7 +108,7 @@ ALong = 2.5 ' `ALong` is rounded to 2 as VBA uses banker's rounding
 
 ## output
 
-To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-05-06,73,325!2024-08-16,134,305!2024-04-24,63,310-->
+To output things, we can use {{a message box by calling `MsgBox message[, icon][, title]`}}. `message` refers to {{the message, `icon`, by default no icon, refers to icon shown next to the message, and `title`, by default `Microsoft Excel`, is the title}}. If you want to specify a optional argument that is after another optional argument that you do not want to specify, leave the argument blank, like {{`MsgBox "message", , "title"`}}. <!--SR:!2024-05-06,73,325!2024-08-16,134,305!2025-01-16,267,330-->
 
 There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbInformation`, and `vbQuestion`}}. <!--SR:!2024-04-27,54,265-->
 

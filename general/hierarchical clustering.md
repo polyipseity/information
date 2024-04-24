@@ -19,9 +19,9 @@ tags:
 
 %%
 
-In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}}. The methods can be classified into two main types: {{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters repeatedly}}; and {{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then splitting the cluster into two clusters repeatedly}}. <!--SR:!2024-04-28,13,275!2024-04-24,9,275!2024-05-14,21,255-->
+In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}}. The methods can be classified into two main types: {{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters repeatedly}}; and {{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then splitting the cluster into two clusters repeatedly}}. <!--SR:!2024-04-28,13,275!2024-05-21,27,275!2024-05-14,21,255-->
 
-The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-05-01,12,255!2024-04-24,9,275-->
+The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-05-01,12,255!2024-05-22,28,275-->
 
 ## cluster linkage
 
@@ -87,8 +87,8 @@ return chain.from_iterable(await gather(
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-04-27,12,275!2024-04-26,3,235-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-04-26,11,275!2024-05-06,14,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-04-28,13,275!2024-04-27,12,275-->
-- [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-04-25,10,275!2024-04-24,4,235-->
-- unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-04-27,12,275!2024-04-24,9,275-->
+- [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-04-25,10,275!2024-05-01,7,235-->
+- unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-04-27,12,275!2024-05-19,25,275-->
 - weighted average linkage clustering→:::←_(end)_ <!--SR:!2024-05-02,17,295!2024-04-26,11,275-->
 
 <!--/pytextgen-->
@@ -115,7 +115,7 @@ return chain.from_iterable(await gather(
 - WPGMC, weighted centroid clustering::median linkage clustering <!--SR:!2024-04-26,4,235-->
 - minimum linkage clustering, nearest neighbor technique::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-04-29,14,295-->
 - [UPGMA](UPGMA.md), group average linkage clustering::unweighted average linkage clustering <!--SR:!2024-05-08,16,255-->
-- McQuitty's Method, [WPGMA](WPGMA.md)::weighted average linkage clustering <!--SR:!2024-04-24,9,275-->
+- McQuitty's Method, [WPGMA](WPGMA.md)::weighted average linkage clustering <!--SR:!2024-05-18,24,275-->
 
 <!--/pytextgen-->
 
@@ -123,7 +123,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="0196"--><!-- The following content is generated at 2024-04-12T10:15:07.434836+08:00. Any edits will be overridden! -->
 
-- [Ward's method](Ward's%20method.md)::$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-04-24,9,275-->
+- [Ward's method](Ward's%20method.md)::$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-05-16,22,275-->
 - centroid linkage clustering::$d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-04-26,11,275-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)::$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2024-04-30,15,295-->
 - median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2024-04-27,12,275-->
@@ -138,7 +138,7 @@ return chain.from_iterable(await gather(
 - $d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::[Ward's method](Ward's%20method.md) <!--SR:!2024-05-05,13,255-->
 - $d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::centroid linkage clustering <!--SR:!2024-05-01,16,295-->
 - $d(A, B) = \max_{a \in A, b \in B} d(a, b)$::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-05-02,17,295-->
-- $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$::median linkage clustering <!--SR:!2024-04-24,9,275-->
+- $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$::median linkage clustering <!--SR:!2024-05-20,26,275-->
 - $d(A, B) = \min_{a \in A, b \in B} d(a, b)$::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-05-01,16,295-->
 - $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$::unweighted average linkage clustering <!--SR:!2024-04-25,10,275-->
 - $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$::weighted average linkage clustering <!--SR:!2024-05-02,17,295-->
@@ -149,9 +149,9 @@ return chain.from_iterable(await gather(
 
 Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard a2c1b40f-e67e-45fd-ad01-b9449a7c2df4 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard 9bb1c2ee-7fda-427b-8bc0-8af05b09ab26-->}}. <!--SR:!2024-05-21,29,289!2024-05-03,18,309-->
 
-To perform agglomerative clustering, initially {{create a cluster for each observation, containing the observation itself}}. Then {{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}}. Keep track of the {{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}}. Repeat this until {{you have only one cluster left}}. Then your dendrogram is the result, and {{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}}. <!--SR:!2024-04-27,12,275!2024-04-25,10,275!2024-04-25,10,275!2024-04-24,9,275!2024-05-11,19,250-->
+To perform agglomerative clustering, initially {{create a cluster for each observation, containing the observation itself}}. Then {{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}}. Keep track of the {{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}}. Repeat this until {{you have only one cluster left}}. Then your dendrogram is the result, and {{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}}. <!--SR:!2024-04-27,12,275!2024-04-25,10,275!2024-04-25,10,275!2024-05-18,24,275!2024-05-11,19,250-->
 
-One way to implement this is, after creating a cluster for each observation, {{construct a [distance matrix](distance%20matrix.md) of all clusters, where the number in the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}}. Use the matrix to {{identify the pair of clusters with the least distance}}. After merging the pair of clusters, {{the distance matrix should decrease in dimension by one in both axes. Update the distances to the new merged cluster from other untouched clusters}}. Repeat this until {{you have only one cluster left}}. An optimization is that since distance is symmetric, we can use {{a lower [triangular matrix](triangular%20matrix.md) to store the distances}}. <!--SR:!2024-05-06,14,255!2024-04-29,14,295!2024-04-27,12,275!2024-04-28,13,275!2024-04-24,9,275-->
+One way to implement this is, after creating a cluster for each observation, {{construct a [distance matrix](distance%20matrix.md) of all clusters, where the number in the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}}. Use the matrix to {{identify the pair of clusters with the least distance}}. After merging the pair of clusters, {{the distance matrix should decrease in dimension by one in both axes. Update the distances to the new merged cluster from other untouched clusters}}. Repeat this until {{you have only one cluster left}}. An optimization is that since distance is symmetric, we can use {{a lower [triangular matrix](triangular%20matrix.md) to store the distances}}. <!--SR:!2024-05-06,14,255!2024-04-29,14,295!2024-04-27,12,275!2024-04-28,13,275!2024-05-17,23,275-->
 
 ## divisive clustering
 
@@ -161,11 +161,11 @@ The basic principle of divisive clustering was {{published as the DIANA (DIvisiv
 
 Initially, {{create a cluster that contain all observations}}. Find the cluster {{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}}. Then, in said cluster, {{find the observation that has the highest distance from the belonging cluster excluding the observation itself}}. Next, {{move the observation from said cluster to a new _splinter cluster_}}. Now, keep {{moving observations one by one from the old cluster to the new cluster}}. To choose the observation to be moved, {{calculate the _dissimilarity difference_ for each observation in the old cluster}}. The _dissimilarity difference_ of an observation in the old cluster is {{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}}. Move the observation {{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}}. If all _dissimilarity differences_ are negative, {{stop moving the observations}}. If there is only one item left, {{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}}. Repeat the above steps {{until you reach the desirable number of clusters}}. <!--SR:!2024-04-29,14,295!2024-05-08,16,255!2024-05-10,17,255!2024-04-26,11,275!2024-05-11,19,255!2024-05-11,19,255!2024-05-10,18,255!2024-04-27,12,275!2024-04-26,11,275!2024-05-11,18,255!2024-04-26,11,275-->
 
-Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-05-13,20,255!2024-04-24,9,275!2024-05-07,15,255!2024-04-30,10,294-->
+Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-05-13,20,255!2024-05-18,24,275!2024-05-07,15,255!2024-04-30,10,294-->
 
 ### monothetic clustering
 
-The above algorithm is {{polythetic clustering because it considers all variables of each observation}}. Consider an observation with $n$ numerical variables, define the _<!-- LaTeX separator -->$n$-dimensional location_ of an observation {{as the values of the $n$ numerical variables. Then note that the distance function applied to two observations considers all variables at once}}. An another type of divisive clustering is {{monothetic clustering, where only one variable is considered when splitting}}. <!--SR:!2024-04-24,9,275!2024-04-26,11,275!2024-04-29,13,270-->
+The above algorithm is {{polythetic clustering because it considers all variables of each observation}}. Consider an observation with $n$ numerical variables, define the _<!-- LaTeX separator -->$n$-dimensional location_ of an observation {{as the values of the $n$ numerical variables. Then note that the distance function applied to two observations considers all variables at once}}. An another type of divisive clustering is {{monothetic clustering, where only one variable is considered when splitting}}. <!--SR:!2024-05-21,27,275!2024-04-26,11,275!2024-04-29,13,270-->
 
 Monothetic clustering is usually used {{when the data consists of binary or boolean variables, though some variants also support non-binary variables}}. <!--SR:!2024-04-28,12,270-->
 

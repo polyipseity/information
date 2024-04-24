@@ -16,7 +16,7 @@ The information gain ratio of an [attribute](feature%20(machine%20learning).md) 
 
 ## advantages
 
-Information gain ratio {{makes [decision tree learning](decision%20tree%20learning.md) penalizes splitting on attributes with many possible values}}. <!--SR:!2024-04-24,9,250-->
+Information gain ratio {{makes [decision tree learning](decision%20tree%20learning.md) penalizes splitting on attributes with many possible values}}. <!--SR:!2024-05-23,29,270-->
 
 ## disadvantages
 

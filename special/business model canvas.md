@@ -69,7 +69,7 @@ C$: [cost structure](#cost%20structure)
 
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-04-28,9,277!2024-05-02,13,297-->
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-05-01,13,274!2024-05-04,15,297-->
-- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-04-24,6,257-->
+- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-05-18,24,277-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-04-27,9,254!2024-04-29,10,272-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-25,7,257!2024-05-08,15,257-->
@@ -120,8 +120,8 @@ segmented: splitting slightly different customer segments
 
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-04-24,6,257!2024-05-06,17,297-->
-- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-26,6,237!2024-04-24,6,254-->
+- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-05-07,13,257!2024-05-06,17,297-->
+- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-26,6,237!2024-05-09,15,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-04-26,8,254!2024-04-27,9,257-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-04-25,7,257!2024-04-26,8,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-26,8,254!2024-04-26,7,257-->
@@ -131,7 +131,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-04-24,6,254!2024-04-24,2,214-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-05-07,13,254!2024-04-28,4,214-->
 
 ##### value sources
 
@@ -179,16 +179,16 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-04-24,4,237!2024-05-05,16,294-->
-- accessibility→:::←brand or status <!--SR:!2024-04-24,6,254!2024-04-26,8,254-->
+- _(begin)_→:::←accessibility <!--SR:!2024-05-02,8,237!2024-05-05,16,294-->
+- accessibility→:::←brand or status <!--SR:!2024-05-09,15,254!2024-04-26,8,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-04-25,7,254!2024-04-25,5,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-27,5,237-->
 - cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-25,3,157-->
 - customization→:::←design <!--SR:!2024-04-28,10,277!2024-05-01,9,234-->
-- design→:::←newness <!--SR:!2024-04-24,6,257!2024-04-24,6,254-->
-- newness→:::←performance <!--SR:!2024-04-24,6,257!2024-04-24,2,217-->
+- design→:::←newness <!--SR:!2024-05-08,14,257!2024-05-09,15,254-->
+- newness→:::←performance <!--SR:!2024-05-16,22,277!2024-04-28,4,217-->
 - performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-04-30,12,274-->
-- performing the job well→:::←price <!--SR:!2024-04-28,10,254!2024-04-24,6,254-->
+- performing the job well→:::←price <!--SR:!2024-04-28,10,254!2024-05-11,17,254-->
 - price→:::←risk reduction <!--SR:!2024-04-26,8,254!2024-04-27,9,254-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-05-01,13,277!2024-04-26,8,257-->
 
@@ -289,7 +289,7 @@ subscription fee
 
 - _(begin)_→:::←advertising <!--SR:!2024-04-28,10,254!2024-05-06,17,297-->
 - advertising→:::←asset sale <!--SR:!2024-04-27,9,254!2024-05-04,15,297-->
-- asset sale→:::←brokerage fee <!--SR:!2024-04-25,7,254!2024-04-24,6,254-->
+- asset sale→:::←brokerage fee <!--SR:!2024-04-25,7,254!2024-04-27,3,234-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-04-26,8,257!2024-04-25,7,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-03,10,237!2024-04-26,8,254-->
 - licensing→:::←usage fee <!--SR:!2024-04-28,9,274!2024-04-29,10,274-->
@@ -312,6 +312,6 @@ The key partnerships building block shows {{important suppliers and networks req
 
 #### cost structure
 
-The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-04-24,6,254!2024-04-27,9,254-->
+The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-05-18,24,274!2024-04-27,9,254-->
 
-In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-04-29,10,270!2024-04-24,6,254-->
+In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-04-29,10,270!2024-05-10,16,254-->

@@ -23,7 +23,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-04-24,4,270!2024-04-24,4,270!2024-04-24,4,270-->
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-05-06,12,270!2024-05-11,17,290!2024-05-08,14,290-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-05-01,8,250-->
 
@@ -31,7 +31,7 @@ Some important metaknowledge in this 21st century are the 4Cs: {{collaboration t
 
 _Previously, case analysis was part 1._
 
-The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2024-04-24,4,270-->
+The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2024-05-05,11,270-->
 
 ### product innovation elements
 
@@ -75,17 +75,17 @@ value proposition canvas
 
 <!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-04-29,6,250!2024-04-24,4,270-->
+- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-04-29,6,250!2024-05-08,14,290-->
 - blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-04-25,3,250!2024-05-06,13,270-->
 - business model canvas→:::←competitor analysis <!--SR:!2024-05-01,8,250!2024-04-29,6,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-05-02,9,250!2024-05-03,10,250-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-05-03,10,270!2024-05-06,13,270-->
-- customer segmentation→:::←customer validation <!--SR:!2024-05-06,13,270!2024-04-24,2,230-->
+- customer segmentation→:::←customer validation <!--SR:!2024-05-06,13,270!2024-05-01,7,250-->
 - customer validation→:::←design thinking <!--SR:!2024-04-30,7,250!2024-05-05,12,270-->
-- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-04-24,2,230!2024-04-24,2,230-->
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-04-29,5,230!2024-04-29,5,230-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-04-29,6,250!2024-05-02,9,250-->
 - product validation→:::←value proposition canvas <!--SR:!2024-04-25,2,210!2024-04-30,7,250-->
-- value proposition canvas→:::←_(end)_ <!--SR:!2024-04-24,4,270!2024-04-30,7,250-->
+- value proposition canvas→:::←_(end)_ <!--SR:!2024-05-08,14,290!2024-04-30,7,250-->
 
 <!--/pytextgen-->
 

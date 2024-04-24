@@ -161,7 +161,7 @@ return _chain.from_iterable(await _gather(
 - [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-05-03,96,250!2025-01-25,397,250-->
 - [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-02-02,436,270-->
 - [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2024-08-30,262,250!2024-06-09,83,210-->
-- [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2024-04-24,297,330-->
+- [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2024-09-21,150,310-->
 - [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2024-05-09,312,330-->
 - [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2024-04-28,301,330!2027-04-17,1146,350-->
 - [platinum](platinum.md)→:::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-29,43,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-04-27,12,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-24,8,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-28,4,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-30,252,270-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
