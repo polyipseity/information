@@ -168,7 +168,7 @@ Press on "Data Science > Classify > _k_-Nearest Neighbors". Then, configure the 
 | Nearest-Neighbors Classification: Model Parameters |      |
 |----------------------------------------------------|------|
 | # Classes                                          | 2    |
-| Success Class                                      | >50K |
+| Success Class                                      | >50k |
 | Success Probability                                | 0.5  |
 
 | Nearest-Neighbors: Reporting Parameters |       |
@@ -239,7 +239,7 @@ Press on "Data Science > Classify > Classification Tree". Then, configure the mo
 | Decision Tree Classification: Model Parameters |      |
 |------------------------------------------------|------|
 | # Classes                                      | 2    |
-| Success Class                                  | >50K |
+| Success Class                                  | >50k |
 | Success Probability                            | 0.5  |
 
 | Decision Tree: Reporting Parameters |                                     |
@@ -291,7 +291,7 @@ Press on "Data Science > Classify > Naive Bayes". Then, configure the model as f
 | Naive Bayes: Model Parameters |      |
 |-------------------------------|------|
 | # Classes                     | 2    |
-| Success Classes               | >50K |
+| Success Classes               | >50k |
 | Success Probability           | 0.5  |
 
 | Naive Bayes: Reporting Parameters   |      |
@@ -362,7 +362,7 @@ Press on "Data Science > Classify > Neural Network > Manual Network". Then, conf
 | Neural Network Classification: Model Parameters |      |
 |-------------------------------------------------|------|
 | # Classes                                       | 2    |
-| Success Class                                   | >50K |
+| Success Class                                   | >50k |
 | Success Probability                             | 0.5  |
 
 | Neural Network: Reporting Parameters |       |
@@ -440,7 +440,7 @@ Press on "Data Science > Classify > Neural Network > Manual Network". Then, conf
 | Neural Network Classification: Model Parameters |      |
 |-------------------------------------------------|------|
 | # Classes                                       | 2    |
-| Success Class                                   | >50K |
+| Success Class                                   | >50k |
 | Success Probability                             | 0.5  |
 
 | Neural Network: Reporting Parameters |       |
@@ -475,17 +475,17 @@ These are the results of the model on the training dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 3088      | 570      |
-| __>50K__             | 551       | 1791     |
+| __<=50k__            | 3088      | 570      |
+| __>50k__             | 551       | 1791     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 3658        | 570          | 15.5822854  |
-| __>50K__    | 2342        | 551          | 23.52690009 |
+| __<=50k__   | 3658        | 570          | 15.5822854  |
+| __>50k__    | 2342        | 551          | 23.52690009 |
 | __Overall__ | 6000        | 1121         | 18.68333333 |
 
 Metrics are as follows:
@@ -498,7 +498,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.764730999 |
 | __Precision__            | 0.758576874 |
 | __F1 score__             | 0.761641505 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -513,17 +513,17 @@ These are the results of the model on the validation dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 1996      | 441      |
-| __>50K__             | 469       | 1094     |
+| __<=50k__            | 1996      | 441      |
+| __>50k__             | 469       | 1094     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 2437        | 441          | 18.0960197  |
-| __>50K__    | 1563        | 469          | 30.00639795 |
+| __<=50k__   | 2437        | 441          | 18.0960197  |
+| __>50k__    | 1563        | 469          | 30.00639795 |
 | __Overall__ | 4000        | 910          | 22.75       |
 
 Metrics are as follows:
@@ -536,7 +536,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.69993602  |
 | __Precision__            | 0.712703583 |
 | __F1 score__             | 0.706262105 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -545,17 +545,21 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 1: Validation: Lift Chart](attachments/model1_validation_lc.png) | ![Model 1: Validation: Decile-wise Lift Chart](attachments/model1_validation_dwlc.png) |
 
-#### Model 1: Importance
+#### Model 1: Examples
 
 TODO
 
 #### Model 1: Conclusion
 
-The accuracy drops from 81.3% in the training dataset to 77.25% in the validation dataset. This is rather significant compared to other models, as we will see later. It shows that _k_-nearest neighbors is inferior at generalizing to new data.
+First, for the model interpretation, ... TODO
+
+Next, for the model performance, the accuracy drops from 81.3% in the training dataset to 77.25% in the validation dataset, a 4.05% point decrease. This is a rather significant drop compared to other models, as we will see later. The validation accuracy is also significantly lower than other models.
 
 Specifically, we can observe both its specificity (84.4% to 81.9%) and sensitivity (76.4% to 70.0%) drops significantly. This shows _k_-nearest neighbors is inferior at predicting both `<=50k` and `>50k` for unseen data.
 
 The above makes sense if you consider that _k_-nearest neighbors does prediction by looking at the _k_-nearest data points in the training dataset. If a data point is new, it might be very far away from any data points in the training dataset, so predicting such a data point would be inaccurate. So it makes sense that _k_-nearest neighbors is inferior at predicting new data.
+
+To conclude, for predicting the test dataset, we should probably use other better models, as the test dataset is unseen data.
 
 ### Model 2
 
@@ -567,17 +571,17 @@ These are the results of the model on the training dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 3296      | 362      |
-| __>50K__             | 706       | 1636     |
+| __<=50k__            | 3296      | 362      |
+| __>50k__             | 706       | 1636     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 3658        | 362          | 9.896118097 |
-| __>50K__    | 2342        | 706          | 30.14517506 |
+| __<=50k__   | 3658        | 362          | 9.896118097 |
+| __>50k__    | 2342        | 706          | 30.14517506 |
 | __Overall__ | 6000        | 1068         | 17.8        |
 
 Metrics are as follows:
@@ -590,7 +594,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.698548249 |
 | __Precision__            | 0.818818819 |
 | __F1 score__             | 0.753917051 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -605,17 +609,17 @@ These are the results of the model on the validation dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 2186      | 251      |
-| __>50K__             | 519       | 1044     |
+| __<=50k__            | 2186      | 251      |
+| __>50k__             | 519       | 1044     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 2437        | 251          | 10.29954863 |
-| __>50K__    | 1563        | 519          | 33.20537428 |
+| __<=50k__   | 2437        | 251          | 10.29954863 |
+| __>50k__    | 1563        | 519          | 33.20537428 |
 | __Overall__ | 4000        | 770          | 19.25       |
 
 Metrics are as follows:
@@ -628,7 +632,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.667946257 |
 | __Precision__            | 0.806177606 |
 | __F1 score__             | 0.730580826 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -637,7 +641,7 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 2: Validation: Lift Chart](attachments/model2_validation_lc.png) | ![Model 2: Validation: Decile-wise Lift Chart](attachments/model2_validation_dwlc.png) |
 
-#### Model 2: Importance
+#### Model 2: Examples
 
 In this model, we are using the best pruned tree. This makes the decision tree small enough so we can explain it very easily. Below is the decision tree:
 
@@ -648,14 +652,50 @@ In this model, we are using the best pruned tree. This makes the decision tree s
 > - Decision nodes with numbers: Go left if the attribute is smaller than the value, otherwise go right.
 > - `relationship` (root): Go left if in {Not-in-family, Other-relative, Own-child, Unmarried}; otherwise go right.
 > - `occupation` (root->right): Go left if in {Adm-clerical, Armed-Forces, Exec-managerial, Prof-specialty, Protective-serv, Sales, Tech-support}; otherwise go right.
-> - `native country` (root->right->left->right): Go left if in {1, 3, 14}; otherwise go right.
-> - `native country` (root->right->left->left->left): Go left if in {1, 10, 12, 8}; otherwise go right.
+> - `native country` (root->right->left->right): Go left if in {1 (Germany), 3 (Canada), 14 (Ecuador)}; otherwise go right.
+> - `native country` (root->right->left->left->left): Go left if in {1 (Germany), 10 (Dominican-Republic), 12 (Iran), 8 (Guatemala)}; otherwise go right.
+>
+> Note that the attribute values are standardized, i.e. replaced by their standard deviation scores, so the threshold numbers of the decision nodes are in terms of the standard deviation scores.
 
-TODO
+Take the below 2 examples, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
+
+| no.  | age               | workclass | education    | education-num     | martial-status     | occupation   | relationship | race  | sex    | capital-gain       | capital-loss     | hours-per-week    | native-country | income |
+| ---- | ----------------- | --------- | ------------ | ----------------- | ------------------ | ------------ | ------------ | ----- | ------ | ------------------ | ---------------- | ----------------- | -------------- | ------ |
+| 2578 | 31 (-0.768137983) | Private   | Some-college | 10 (-0.098751615) | Divorced           | Adm-clerical | Unmarried    | Black | Female | 0 (-0.185244089)   | 0 (-0.295045917) | 40 (-0.472349883) | 15             | <=50k  |
+| 9473 | 61 (1.744415932)  | Private   | 7th-8th      | 4 (-2.173365369)  | Married-civ-spouse | Craft-repair | Husband      | White | Male   | 7688 (0.765795929) | 0 (-0.295045917) | 40 (-0.472349883) | 15             | >50k   |
+
+Our model results for the 2 examples are as follows:
+
+| no.  | income | prediction: income | posterior probability: <=50k | posterior probability: >50k |
+| ---- | ------ | ------------------ | ---------------------------- | --------------------------- |
+| 2578 | <=50k  | <=50k              | 0.888135593                  | 0.111864407                 |
+| 9473 | >50k   | >50k               | 0.024096386                  | 0.975903614                 |
+
+To predict the income given some data, we just need to start from the topmost (root) node, and follow the decision tree. Using the examples:
+
+For the 1st example, we predict the person to have `<=50k` income. Start from the topmost (root) node. The `relationship` value is `Unmarried`, which is in the set, so we go left. Then the standardized `capital-gain` is `-0.185244089`, which is lower than the threshold `0.68`, so we go left. Finally, we predict the person to have `<=50k` income. This matches the actual income.
+
+For the 2nd example, we predict the person to have `>50k` income. Start from the topmost (root) node. The `relationship` is `Husband`, which is not in the set, so we go right. Then the `occupation` is `Craft-repair`, which is not in the set, so we go right. Then the standardized `capital-gain` is `0.765795929`, which is higher than or equal to the threshold `0.44`, so we go right. Finally, we predict the person to have `>50k` income. This matches the actual income.
 
 #### Model 2: Conclusion
 
-TODO
+First, for the model interpretation, the examples clearly show that higher capital gain correlates with having high income. Apart from that, from the decision tree above, we can infer that having higher education and lower working hours per week correlate with having high income.
+
+Additionally, if the relationship requires the person to be mostly independent, then their capital gain becomes the determining factor of income.
+
+Lastly, the decision made based on native country does not make much sense. It is likely an artifact of overfitting on the training data, or that the native country is not necessarily the place a person is living right now.
+
+Next, for the model performance, the accuracy drops from 82.2% in the training dataset to 80.75% in the validation dataset, a 1.45% point decrease. This drop is mediocre compared to other better models, as we will see in later models. One interesting thing is that the training accuracy is the highest among all 5 models, but the validation accuracy is lower than the best models.
+
+The above shows that decision tree is prone to overfitting to the training data. That is, the model "memorizes" the training dataset rather than "generalizing" it.
+
+The above makes sense if you consider that decision nodes classifies the dataset abruptly. For example, an attribute value very near a decision node threshold is forced into one of the decision node children, rather than smoothly interpolating between the multiple node children. This non-smooth classification makes the model more likely to classify the dataset such that it fits the training data. It also does not generalize well, as generalization generally wants smooth boundaries.
+
+Also, comparing specificity and sensitivity, we can see that specificity is much higher than sensitivity. This means the model is better at predicting `<=50k` correctly than predicting `>50k` correctly. This is good if the model application prefers identifying `<=50k` correctly more, such as a model for identifying low-income people for social welfare. In our case though, both are equally important.
+
+The one advantage is that decision tree models are very explainable. This is good if we are trying to convince someone else who does not know a lot about classification models, like a company executive, to use our models.
+
+To conclude, we prefer to use other models for predicting the test dataset, as there are other models that generalize better. However, if we were to convince someone else, such as a company executive, to use our models, the decision tree model is a good backup model.
 
 ### Model 3
 
@@ -667,17 +707,17 @@ These are the results of the model on the training–validation dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 4653      | 1442     |
-| __>50K__             | 818       | 3087     |
+| __<=50k__            | 4653      | 1442     |
+| __>50k__             | 818       | 3087     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 6095        | 1442         | 23.65873667 |
-| __>50K__    | 3905        | 818          | 20.9475032  |
+| __<=50k__   | 6095        | 1442         | 23.65873667 |
+| __>50k__    | 3905        | 818          | 20.9475032  |
 | __Overall__ | 10000       | 2260         | 22.6        |
 
 Metrics are as follows:
@@ -690,7 +730,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.790524968 |
 | __Precision__            | 0.681607419 |
 | __F1 score__             | 0.732036993 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -699,13 +739,296 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | ![Model 3: Training–Validation: Lift Chart](attachments/model3_training-validation_lc.png) | ![Model 3: Training–Validation: Decile-wise Lift Chart](attachments/model3_training-validation_dwlc.png) |
 
-#### Model 3: Importance
+#### Model 3: Examples
 
-TODO
+These are the prior probabilities of the possible `income` values:
+
+| Class | Probability |
+| ----- | ----------- |
+| <=50k | 0.6095      |
+| >50k  | 0.3905      |
+
+These are the prior conditional probabilities of input variables in the model:
+
+<!-- markdownlint-disable-next-line MD036 -->
+__age__
+
+| Value/Class | <=50k       | >50k        |
+| ----------- | ----------- | ----------- |
+| 17          | 0.003568532 | 0.000251572 |
+| 18          | 0.005190592 | 0.000251572 |
+| 19          | 0.01216545  | 0.000251572 |
+| 20          | 0.014111922 | 0.000251572 |
+| 21          | 0.015896188 | 0.000754717 |
+| 22          | 0.020437956 | 0.001257862 |
+| 23          | 0.025304136 | 0.002012579 |
+| 24          | 0.025628548 | 0.003522013 |
+| 25          | 0.034225466 | 0.008301887 |
+| 26          | 0.03163017  | 0.007295597 |
+| 27          | 0.036009732 | 0.011572327 |
+| 28          | 0.03568532  | 0.018867925 |
+| 29          | 0.0324412   | 0.020628931 |
+| 30          | 0.031305758 | 0.020880503 |
+| 31          | 0.035360908 | 0.026163522 |
+| 32          | 0.03163017  | 0.023899371 |
+| 33          | 0.034712084 | 0.022893082 |
+| 34          | 0.029845904 | 0.031446541 |
+| 35          | 0.034387672 | 0.030188679 |
+| 36          | 0.029845904 | 0.036477987 |
+| 37          | 0.02838605  | 0.039245283 |
+| 38          | 0.029521492 | 0.03245283  |
+| 39          | 0.02514193  | 0.036226415 |
+| 40          | 0.026277372 | 0.03572327  |
+| 41          | 0.024979724 | 0.035471698 |
+| 42          | 0.021735604 | 0.034465409 |
+| 43          | 0.022384428 | 0.038238994 |
+| 44          | 0.021735604 | 0.033962264 |
+| 45          | 0.020113544 | 0.036226415 |
+| 46          | 0.019789132 | 0.038490566 |
+| 47          | 0.020113544 | 0.034716981 |
+| 48          | 0.017680454 | 0.025157233 |
+| 49          | 0.016869424 | 0.024654088 |
+| 50          | 0.013463098 | 0.03245283  |
+| 51          | 0.01459854  | 0.029937107 |
+| 52          | 0.013463098 | 0.022138365 |
+| 53          | 0.016058394 | 0.026666667 |
+| 54          | 0.011841038 | 0.021132075 |
+| 55          | 0.012003244 | 0.01509434  |
+| 56          | 0.010218978 | 0.018113208 |
+| 57          | 0.009245742 | 0.014842767 |
+| 58          | 0.011192214 | 0.015597484 |
+| 59          | 0.009894566 | 0.012830189 |
+| 60          | 0.008596918 | 0.01509434  |
+| 61          | 0.007461476 | 0.011069182 |
+| 62          | 0.006326034 | 0.007044025 |
+| 63          | 0.00486618  | 0.004528302 |
+| 64          | 0.006163828 | 0.004528302 |
+| 65          | 0.003406326 | 0.004779874 |
+| 66          | 0.003730738 | 0.006037736 |
+| 67          | 0.003406326 | 0.00427673  |
+| 68          | 0.00324412  | 0.00327044  |
+| 69          | 0.001297648 | 0.003018868 |
+| 70          | 0.002757502 | 0.001006289 |
+| 71          | 0.001459854 | 0.002264151 |
+| 72          | 0.001946472 | 0.000754717 |
+| 73          | 0.001784266 | 0.001509434 |
+| 74          | 0.000648824 | 0.001509434 |
+| 75          | 0.000648824 | 0.000754717 |
+| 76          | 0.000648824 | 0.000251572 |
+| 77          | 0.00081103  | 0.001257862 |
+| 78          | 0.000486618 | 0.001257862 |
+| 79          | 0.000324412 | 0.000754717 |
+| 80          | 0.000162206 | 0.000503145 |
+| 81          | 0.000973236 | 0.000754717 |
+| 82          | 0.000648824 | 0.000251572 |
+| 83          | 0.000324412 | 0.000251572 |
+| 84          | 0.000324412 | 0.000251572 |
+| 85          | 0.000324412 | 0.000251572 |
+| 90          | 0.001135442 | 0.001761006 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__workclass__
+
+| Value/Class      | <=50k       | >50k        |
+| ---------------- | ----------- | ----------- |
+| Federal-gov      | 0.018518519 | 0.049591002 |
+| Local-gov        | 0.05670272  | 0.084100204 |
+| Private          | 0.745493281 | 0.672801636 |
+| Self-emp-inc     | 0.033267781 | 0.068762781 |
+| Self-emp-not-inc | 0.114552606 | 0.077198364 |
+| State-gov        | 0.030481809 | 0.047034765 |
+| Without-pay      | 0.000983284 | 0.000511247 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__education-num__
+
+| Value/Class | <=50k       | >50k        |
+| ----------- | ----------- | ----------- |
+| 1           | 0.006381934 | 0.000255037 |
+| 2           | 0.018491245 | 0.001530222 |
+| 3           | 0.033218786 | 0.003315481 |
+| 4           | 0.03207331  | 0.004845703 |
+| 5           | 0.025855016 | 0.003060444 |
+| 6           | 0.027655048 | 0.007396072 |
+| 7           | 0.033873343 | 0.007906146 |
+| 8           | 0.013091147 | 0.004590666 |
+| 9           | 0.340369825 | 0.198673808 |
+| 10          | 0.190312551 | 0.188217292 |
+| 11          | 0.038782523 | 0.047181841 |
+| 12          | 0.033546064 | 0.03800051  |
+| 13          | 0.148093602 | 0.312165264 |
+| 14          | 0.043037146 | 0.114766641 |
+| 15          | 0.008345606 | 0.036980362 |
+| 16          | 0.006872852 | 0.031114512 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__martial-status__
+
+| Value/Class           | <=50k       | >50k        |
+| --------------------- | ----------- | ----------- |
+| Divorced              | 0.154211734 | 0.060838446 |
+| Married-AF-spouse     | 0.000491642 | 0.002300613 |
+| Married-civ-spouse    | 0.435431006 | 0.847392638 |
+| Married-spouse-absent | 0.025565388 | 0.004856851 |
+| Never-married         | 0.326614225 | 0.065439673 |
+| Separated             | 0.034414946 | 0.009969325 |
+| Widowed               | 0.023271059 | 0.009202454 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__occupation__
+
+| Value/Class       | <=50k       | >50k        |
+| ----------------- | ----------- | ----------- |
+| Adm-clerical      | 0.0854477   | 0.0729778   |
+| Armed-Forces      | 0.000163693 | 0.000765501 |
+| Craft-repair      | 0.137338353 | 0.104108191 |
+| Exec-managerial   | 0.128335243 | 0.22174024  |
+| Farming-fishing   | 0.091504338 | 0.009441184 |
+| Handlers-cleaners | 0.046161401 | 0.010206685 |
+| Machine-op-inspct | 0.075953511 | 0.033682062 |
+| Other-service     | 0.10116222  | 0.015310028 |
+| Priv-house-serv   | 0.010640039 | 0.000255167 |
+| Prof-specialty    | 0.108528401 | 0.24751212  |
+| Protective-serv   | 0.017842527 | 0.035978566 |
+| Sales             | 0.111965952 | 0.144679765 |
+| Tech-support      | 0.023899165 | 0.055371268 |
+| Transport-moving  | 0.061057456 | 0.047971421 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__relationship__
+
+| Value/Class    | <=50k       | >50k        |
+| -------------- | ----------- | ----------- |
+| Husband        | 0.396984101 | 0.742265405 |
+| Not-in-family  | 0.312243894 | 0.113270263 |
+| Other-relative | 0.049827897 | 0.003835336 |
+| Own-child      | 0.098180626 | 0.011506009 |
+| Unmarried      | 0.114571382 | 0.026847354 |
+| Wife           | 0.0281921   | 0.102275633 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__race__
+
+| Value/Class        | <=50k       | >50k        |
+| ------------------ | ----------- | ----------- |
+| Amer-Indian-Eskimo | 0.006885246 | 0.006649616 |
+| Asian-Pac-Islander | 0.068688525 | 0.055754476 |
+| Black              | 0.062459016 | 0.059079284 |
+| Other              | 0.018852459 | 0.006649616 |
+| White              | 0.843114754 | 0.871867008 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__sex__
+
+| Value/Class | <=50k       | >50k        |
+| ----------- | ----------- | ----------- |
+| Female      | 0.269760577 | 0.162743091 |
+| Male        | 0.729911446 | 0.837001024 |
+| auto        | 0.000327976 | 0.000255885 |
+
+<!-- markdownlint-disable-next-line MD036 -->
+__native-country__
+
+| Value/Class | <=50k       | >50k        |
+| ----------- | ----------- | ----------- |
+| 1           | 0.013387755 | 0.009402795 |
+| 2           | 0.009795918 | 0.012198221 |
+| 3           | 0.011265306 | 0.009148666 |
+| 4           | 0.014530612 | 0.001778907 |
+| 5           | 0.009306122 | 0.005844981 |
+| 6           | 0.007183673 | 0.008894536 |
+| 7           | 0.007346939 | 0.005590851 |
+| 8           | 0.010122449 | 0.00025413  |
+| 9           | 0.009306122 | 0.001016518 |
+| 10          | 0.008816327 | 0.000762389 |
+| 11          | 0.006367347 | 0.001778907 |
+| 12          | 0.004081633 | 0.003049555 |
+| 13          | 0.002938776 | 0.003049555 |
+| 14          | 0.004081633 | 0.001016518 |
+| 15          | 0.011755102 | 0.009148666 |
+| 16          | 0.666612245 | 0.867344346 |
+| 17          | 0.090285714 | 0.008386277 |
+| 18          | 0.02155102  | 0.013977128 |
+| 19          | 0.016653061 | 0.004066074 |
+| 20          | 0.008653061 | 0.004320203 |
+| 21          | 0.009306122 | 0.002541296 |
+| 22          | 0.007020408 | 0.005590851 |
+| 23          | 0.006367347 | 0.004828463 |
+| 24          | 0.007836735 | 0.000762389 |
+| 25          | 0.006040816 | 0.003049555 |
+| 26          | 0.004734694 | 0.002033037 |
+| 27          | 0.003102041 | 0.004320203 |
+| 28          | 0.004571429 | 0.000762389 |
+| 29          | 0.004244898 | 0.001016518 |
+| 30          | 0.012734694 | 0.004066074 |
+
+Consider 2 examples, one for each possible `income`, from the training–validation dataset (values in parentheses are the values after standardization):
+
+| no. | age               | workclass   | education | education-num    | martial-status     | occupation     | relationship  | race  | sex    | capital-gain     | capital-loss       | hours-per-week     | native-country | income |
+| --- | ----------------- | ----------- | --------- | ---------------- | ------------------ | -------------- | ------------- | ----- | ------ | ---------------- | ------------------ | ------------------ | -------------- | ------ |
+| 1   | 17 (-1.940663143) | Federal-gov | 11th      | 7 (-1.136058492) | Never-married      | Adm-clerical   | Not-in-family | Black | Female | 0 (-0.185244089) | 1602 (2.758553238) | 40  (-0.472349883) | 16             | <=50k  |
+| 640 | 24 (-1.354400563) | Private     | Assoc-voc | 11 (0.247017344) | Married-civ-spouse | Prof-specialty | Husband       | White | Male   | 0 (-0.185244089) | 0  (-0.295045917)  | 40 (-0.472349883)  | 16             | >50k   |
+
+Our model results for the 2 examples are as follows:
+
+| no. | income | prediction: income | posterior probability: <=50k | posterior probability: >50k |
+| --- | ------ | ------------------ | ---------------------------- | --------------------------- |
+| 1   | <=50k  | <=50k              | 0.998700548                  | 0.001299452                 |
+| 640 | >50k   | >50k               | 0.446874278                  | 0.553125722                 |
+
+To predict the income given some data, we need to find the (posterior) probability of the income being `<50k` and `>=50k`, then choose the larger one. To find the probability of the income being a specific value, start with the prior probability of that income value, and then multiply it by the corresponding prior conditional probability for each input feature. Using the 2 examples:
+
+For the 1st example, we predict the person to have `<=50k` income. This matches the actual income. Tabulating the probabilities:
+
+| feature\income                 | <=50k                    | >50k                     |
+| ------------------------------ | ------------------------ | ------------------------ |
+| (prior)                        | 0.6095                   | 0.3905                   |
+| age (17)                       | 0.003568532              | 0.000251572              |
+| workclass (Federal-gov)        | 0.018518519              | 0.049591002              |
+| education-num (7)              | 0.033873343              | 0.007906146              |
+| martial-status (Never-married) | 0.326614225              | 0.065439673              |
+| occupation (Adm-clerical)      | 0.0854477                | 0.0729778                |
+| relationship (Not-in-family)   | 0.312243894              | 0.113270263              |
+| race (Black)                   | 0.062459016              | 0.059079284              |
+| sex (Female)                   | 0.269760577              | 0.162743091              |
+| native-country (16)            | 0.666612245              | 0.867344346              |
+| __(posterior)__                | 1.33538×10<sup>-10</sup> | 1.73751×10<sup>-13</sup> |
+| __(normalized posterior)__     | 0.998701                 | 0.00129945               |
+
+The posterior probabilities match those given by our model. As the posterior probability for `<=50k` is larger than `>50k`, so we predict the person to have an income of `<=50k`. This matches the actual income.
+
+For the 2nd example, we predict the person to have `>50k` income. This matches the actual income. Tabulating the probabilities:
+
+| feature\income                      | <=50k                   | >50k                    |
+| ----------------------------------- | ----------------------- | ----------------------- |
+| (prior)                             | 0.6095                  | 0.3905                  |
+| age (24)                            | 0.025628548             | 0.003522013             |
+| workclass (Private)                 | 0.745493281             | 0.672801636             |
+| education-num (11)                  | 0.038782523             | 0.047181841             |
+| martial-status (Married-civ-spouse) | 0.435431006             | 0.847392638             |
+| occupation (Prof-specialty)         | 0.108528401             | 0.24751212              |
+| relationship (Husband)              | 0.396984101             | 0.742265405             |
+| race (White)                        | 0.843114754             | 0.871867008             |
+| sex (Male)                          | 0.729911446             | 0.837001024             |
+| native-country (16)                 | 0.666612245             | 0.867344346             |
+| __(posterior)__                     | 3.47571×10<sup>-6</sup> | 4.30212×10<sup>-6</sup> |
+| __(normalized posterior)__          | 0.446874                | 0.553126                |
+
+The posterior probabilities match those given by our model. As the posterior probability for `>50k` is larger than `<=50k`, so we predict the person to have an income of `>50k`. This matches the actual income.
 
 #### Model 3: Conclusion
 
-TODO
+First, for the model interpretation, we can compare the examples above. The most significant factors are the martial status and relationship. Being never married makes one's income more likely to be `<50k`, while being married does the opposite. Same as for relationship, being in a relationship that requires independence, e.g. not in a family, makes one's income more likely to be `<50k`, while having a family, e.g. being a husband, makes one's income more likely to be `>50k`.
+
+By comparing the ratio of prior conditional probabilities, we can infer additional correlations. For example, males are more likely to have income of `>50k` them females. White is the only race that is more likely to have an income of `>50k` than `<=50k`.
+
+The above conclusions do make sense. Having a family or relationship could make one more richer as one can focus on work, leading to higher income. That males and whites are more likely to be richer is a well-known fact in the United States.
+
+Next, for the model performance, the accuracy of the model is 77.4% on the whole training–validation dataset, which is significantly lower than the training accuracy of other models. So if the model is applied to a new unseen dataset, the accuracy is likely to be worse.
+
+Furthermore, the naive Bayesian classifier, as implemented in XLMiner, requires each attribute value to appear at least once. even for continuous variables. This means there are likely data in the test dataset that has attributes with never-seen-before values, making the classifier unable to classify the data. In fact, our model is unable to classify 1 data in the test dataset, as mentioned in the model setup above, and we have to manually set its prediction to the majority outcome `<=50k`.
+
+To conclude, we will definitely not use this model, as it cannot handle unseen values and its accuracy is very low compared to other models.
 
 ### Model 4
 
@@ -717,17 +1040,17 @@ These are the results of the model on the training dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 3144      | 514      |
-| __>50K__             | 625       | 1717     |
+| __<=50k__            | 3144      | 514      |
+| __>50k__             | 625       | 1717     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 3658        | 514          | 14.0513942  |
-| __>50K__    | 2342        | 625          | 26.68659266 |
+| __<=50k__   | 3658        | 514          | 14.0513942  |
+| __>50k__    | 2342        | 625          | 26.68659266 |
 | __Overall__ | 6000        | 1139         | 18.98333333 |
 
 Metrics are as follows:
@@ -740,14 +1063,14 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.733134073 |
 | __Precision__            | 0.76961004  |
 | __F1 score__             | 0.750929368 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
 
-| __Lift Chart__                                                          | __Decile-wise Lift Chart__                                                            |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| ![Model 4: Training: Lift Chart](attachments/training4_training_lc.png) | ![Model 4: Training: Decile-wise Lift Chart](attachments/training4_training_dwlc.png) |
+| __Lift Chart__                                                       | __Decile-wise Lift Chart__                                                         |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ![Model 4: Training: Lift Chart](attachments/model4_training_lc.png) | ![Model 4: Training: Decile-wise Lift Chart](attachments/model4_training_dwlc.png) |
 
 #### Model 4: Validation
 
@@ -755,17 +1078,17 @@ These are the results of the model on the validation dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 2088      | 349      |
-| __>50K__             | 414       | 1149     |
+| __<=50k__            | 2088      | 349      |
+| __>50k__             | 414       | 1149     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 2437        | 349          | 14.32088634 |
-| __>50K__    | 1563        | 414          | 26.48752399 |
+| __<=50k__   | 2437        | 349          | 14.32088634 |
+| __>50k__    | 1563        | 414          | 26.48752399 |
 | __Overall__ | 4000        | 763          | 19.075      |
 
 Metrics are as follows:
@@ -778,7 +1101,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.73512476  |
 | __Precision__            | 0.767022697 |
 | __F1 score__             | 0.750735054 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -787,7 +1110,7 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 4: Validation: Lift Chart](attachments/model4_validation_lc.png) | ![Model 4: Validation: Decile-wise Lift Chart](attachments/model4_validation_dwlc.png) |
 
-#### Model 4: Importance
+#### Model 4: Examples
 
 TODO
 
@@ -805,17 +1128,17 @@ These are the results of the model on the training dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 3151      | 507      |
-| __>50K__             | 574       | 1768     |
+| __<=50k__            | 3151      | 507      |
+| __>50k__             | 574       | 1768     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 3658        | 507          | 13.8600328  |
-| __>50K__    | 2342        | 574          | 24.5089667  |
+| __<=50k__   | 3658        | 507          | 13.8600328  |
+| __>50k__    | 2342        | 574          | 24.5089667  |
 | __Overall__ | 6000        | 1081         | 18.01666667 |
 
 Metrics are as follows:
@@ -828,7 +1151,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.754910333 |
 | __Precision__            | 0.777142857 |
 | __F1 score__             | 0.76586528  |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -843,17 +1166,17 @@ These are the results of the model on the validation dataset.
 
 Confusion matrix is as follows:
 
-| __Actual\Predicted__ | __<=50K__ | __>50K__ |
+| __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50K__            | 2105      | 332      |
-| __>50K__             | 400       | 1163     |
+| __<=50k__            | 2105      | 332      |
+| __>50k__             | 400       | 1163     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50K__   | 2437        | 332          | 13.62330735 |
-| __>50K__    | 1563        | 400          | 25.59181062 |
+| __<=50k__   | 2437        | 332          | 13.62330735 |
+| __>50k__    | 1563        | 400          | 25.59181062 |
 | __Overall__ | 4000        | 732          | 18.3        |
 
 Metrics are as follows:
@@ -866,7 +1189,7 @@ Metrics are as follows:
 | __Sensitivity (Recall)__ | 0.744081894 |
 | __Precision__            | 0.777926421 |
 | __F1 score__             | 0.760627861 |
-| __Success Class__        | >50K        |
+| __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
 The lift charts are as follows:
@@ -875,9 +1198,9 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 5: Validation: Lift Chart](attachments/model5_validation_lc.png) | ![Model 5: Validation: Decile-wise Lift Chart](attachments/model5_validation_dwlc.png) |
 
-#### Model 5: Importance
+#### Model 5: Examples
 
-TODO
+In this model, we are using Neural Network with hidden layer `2` , that means we undergo backward propagation twice and check whether the trained neuron weights and bias are accurate to the target attribute `income` in training set or n
 
 #### Model 5: Conclusion
 
