@@ -760,7 +760,7 @@ For the 2nd example, we predict the person to have `>50k` income. Start from the
 
 #### Model 2: Conclusion
 
-First, for the model interpretation, the examples clearly show that higher capital gain correlates with having high income. Apart from that, from the decision tree above, we can infer that having higher education and lower working hours per week correlate with having high income.
+First, for the model interpretation, the examples clearly show that higher capital gain correlates with having high income. Apart from that, from the decision tree above, we can infer that having higher education level and lower working hours per week correlate with having high income.
 
 Additionally, if the relationship requires the person to be mostly independent, then their capital gain becomes the determining factor of income.
 
@@ -776,7 +776,9 @@ Also, comparing specificity and sensitivity, we can see that specificity is much
 
 The one advantage is that decision tree models are very explainable. This is good if we are trying to convince someone else who does not know a lot about classification models, like a company executive, to use our models.
 
-To conclude, we prefer to use other models for predicting the test dataset, as there are other models that generalize better. However, if we were to convince someone else, such as a company executive, to use our models, the decision tree model is a good backup model.
+Additionally, the decision tree model does not require much computation. A human can run the classifier manually confidently.
+
+To conclude, if we only consider accuracy, we prefer to use other models for predicting the test dataset, as there are other models that generalize better. However, if we are to convince someone else, such as a company executive, to use our models, the decision tree model is a good backup model. Also, if we need humans to run the classifier manually, then this is a good model too as it is computationally cheap.
 
 ### Model 3
 
@@ -1165,6 +1167,10 @@ The lift charts are as follows:
 | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | ![Model 4: Training: Lift Chart](attachments/model4_training_lc.png) | ![Model 4: Training: Decile-wise Lift Chart](attachments/model4_training_dwlc.png) |
 
+387 epochs are used to train the neural network to reach a network error of 0.421959513 and data error of 0.189833333. The training error graph is as follows:
+
+![Model 4: Training: Error](attachments/model4_training_error.png)
+
 #### Model 4: Validation
 
 These are the results of the model on the validation dataset.
@@ -1205,11 +1211,94 @@ The lift charts are as follows:
 
 #### Model 4: Examples
 
-TODO
+For neural networks, we will not show the model parameters here as it would take too much space. You can use XLMiner to train the neural network yourself to get the parameters instead. We will still explain how the neural network computes the output though using 2 examples.
+
+Take 2 examples, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
+
+| no.            | 2578              | 6197               |
+| -------------- | ----------------- | ------------------ |
+| age            | 31 (-0.768137983) | 43 (0.236883583)   |
+| workclass      | Private           | Private            |
+| education      | Some-college      | Masters            |
+| education-num  | 10 (-0.098751615) | 14 (1.284324222)   |
+| martial-status | Divorced          | Married-civ-spouse |
+| occupation     | Adm-clerical      | Prof-specialty     |
+| relationship   | Unmarried         | Husband            |
+| race           | Black             | White              |
+| sex            | Female            | Male               |
+| capital-gain   | 0 (-0.185244089)  | 5178 (0.455297692) |
+| capital-loss   | 0 (-0.295045917)  | 0 (-0.295045917)   |
+| hours-per-week | 40 (-0.472349883) | 40 (-0.472349883)  |
+| native-country | 23                | 16                 |
+| income         | <=50k             | >50k               |
+
+Our model results for the 2 examples are as follows:
+
+| no.  | income | prediction: income | posterior probability: <=50k | posterior probability: >50k |
+| ---- | ------ | ------------------ | ---------------------------- | --------------------------- |
+| 2578 | <=50k  | <=50k              | 0.933338702                  | 0.066661298                 |
+| 6197 | >50k   | >50k               | 0.073078258                  | 0.926921742                 |
+
+How does the neural network compute the above results? For this model, there are only 2 layers: the input layer and the output layer.
+
+For the input layer, we need to set the neurons using the input variables of a data point. For each continuous variable, there is a corresponding neuron. We set the neuron value to the standardized value of the input variable. For each discrete variable, there is a neuron for each possible distinct value of the input variable. We set the neuron corresponding to the data point's input variable value to 1, and all others neurons to 0. This is also known as one-hot encoding.
+
+Then for the output layer, we have 2 neurons. One corresponds to income `<=50k`, and the other one corresponds to `>50k`. Each output layer neuron is connected to every input layer neuron, and each connection has a numeric property called _weight_. Also, each output layer neuron itself has a numeric property called _bias_. You can find the weights and the biases in the output spreadsheet after training the model using XLMiner. To compute the value of an output layer neuron, we use the following formula:
+
+$$\begin{aligned}
+& \phantom{=} \text{raw output neuron value} \\
+& = \text{input neuron 1 value} \times \text{input neuron 1 weight} \\
+& + \text{input neuron 2 value} \times \text{input neuron 2 weight} \\
+& + \text{input neuron 3 value} \times \text{input neuron 3 weight} \\
+& + \cdots \text{(calculate for all input neurons)} \\
+& + \text{output neuron bias}
+\end{aligned}$$
+
+After calculating the raw output neuron values for the 2 output neurons, we still have one more step: Compute the actual output neuron values from the raw output neuron value using a function called the _activation function_. For the output layer in this model, we use a function called the _softmax_ function, where $e \approx 2.71828$ is Euler's number:
+
+$$\begin{aligned}
+& \phantom{=} \text{output neuron }n\text{ value} \\
+& = \frac {e^{\text{raw output neuron }n\text{ value} } } {e^{\text{raw output neuron 1 value} } + e^{\text{raw output neuron 2 value} } + \cdots \text{(calculate for all output neurons)} }
+\end{aligned}$$
+
+In our case of 2 output neurons, it is simply:
+
+$$\begin{aligned}
+& \phantom{=} \text{output neuron }n\text{ value} \\
+& = \frac {e^{\text{raw output neuron }n\text{ value} } } {e^\text{raw output neuron 1 value} + e^\text{raw output neuron 2 value} }
+\end{aligned}$$
+
+After doing so, the neuron output values should be the same as the corresponding posterior probabilities in the model 4 results table above. Then the income with the higher posterior probability is the predicted income. In this case, the predicted incomes match the actual incomes for both examples.
 
 #### Model 4: Conclusion
 
-TODO
+First, for the model interpretation, it is better to inspect the neuron weights. Below is an excerpt of the model weights of some continuous variables:
+
+| Neurons | age          | education-num | capital-gain | capital-loss | hours-per-week |
+| ------- | ------------ | ------------- | ------------ | ------------ | -------------- |
+| <=50k   | -0.059852273 | -0.389898315  | -0.744215156 | 0.025939536  | 0.33353513     |
+| >50k    | 0.23559292   | 0.467407413   | 0.50751397   | 0.141311773  | -0.071915669   |
+
+As seen from above, higher age, higher education level, and more capital gain is correlated with having higher income. Also, capital gain is the most correlated with having higher income. This is inline with our intuition. For hours per week, lower is correlated with having higher income. This might be because work with lower wages have longer working hours due to their laborious nature.
+
+For capital loss, the effect is only slightly correlated with having higher income. This is likely because those without any capital loss does not have high income in the first place, but having capital loss leads to lower income.
+
+Below is an excerpt of the model weights of some discrete variables:
+
+| Neurons | race: Amer-Indian-Eskimo | race: Asian-Pac-Islander | race: Black  | race: Other  | race: White  | sex: Female  | sex: Male    |
+| ------- | ------------------------ | ------------------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| <=50k   | -0.084469431             | 0.205841695              | -0.127755709 | -0.049210954 | 0.182961375  | 0.12704553   | 0.075367632  |
+| >50k    | 0.002062304              | -0.186163566             | -0.148790342 | -0.083863942 | -0.123100166 | -0.427805761 | -0.316222817 |
+
+As seen from above, the weights of `<=50k` is higher than the weights of `>50k` for all input neurons (the column headers) except for `Amer-Indian-Eskimo`. This simply reflects that there are people with `<=50k` income than people with `>50k`.
+
+Instead, we should compare the weight difference between different output neurons (the row headers) for the same input neuron (the column header). If we do so, then we can find that being `Asian-Pac-Islander` is the least likely to be high income, as the weight `-0.186163566` is much lower than the weight `0.205841695`. Being `Amer-Indian-Eskimo` is the most likely to be high income, as the weight `0.002062304` is higher than the weight `-0.084469431`. For sex, being male is more likely to be high income than being female, as the weight difference for male is less than that for female.
+
+Next, for the model performance, the accuracy of the model is 81.0% on the training dataset and 80.9% on the validation dataset. The accuracy itself is on the high-end compared to other models. The accuracy drop, 0.1%, is the lowest among the 5 models, showing that neural network models can generalize to unseen new data well.
+
+Furthermore, while neural network models are unexplainable in general, this model does not have any hidden layers, making it somewhat explainable.
+
+To conclude, we are likely to use this model, as it can handle unseen values well and its accuracy is comparatively high compared to other models. That we can also somewhat explain its decision adds to its advantage.
 
 ### Model 5
 
@@ -1291,16 +1380,76 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 5: Validation: Lift Chart](attachments/model5_validation_lc.png) | ![Model 5: Validation: Decile-wise Lift Chart](attachments/model5_validation_dwlc.png) |
 
+596 epochs are used to train the neural network to reach a network error of 0.391787034 and data error of 0.180166667. The training error graph is as follows:
+
+![Model 5: Training: Error](attachments/model5_training_error.png)
+
 #### Model 5: Examples
 
-TODO
+Same as model 4, for neural networks, we will not show the model parameters here as it would take too much space. You can use XLMiner to train the neural network yourself to get the parameters instead. We will still explain how the neural network computes the output though using 2 examples.
+
+Take the same 2 examples as that in model 4, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
+
+| no.            | 2578              | 6197               |
+| -------------- | ----------------- | ------------------ |
+| age            | 31 (-0.768137983) | 43 (0.236883583)   |
+| workclass      | Private           | Private            |
+| education      | Some-college      | Masters            |
+| education-num  | 10 (-0.098751615) | 14 (1.284324222)   |
+| martial-status | Divorced          | Married-civ-spouse |
+| occupation     | Adm-clerical      | Prof-specialty     |
+| relationship   | Unmarried         | Husband            |
+| race           | Black             | White              |
+| sex            | Female            | Male               |
+| capital-gain   | 0 (-0.185244089)  | 5178 (0.455297692) |
+| capital-loss   | 0 (-0.295045917)  | 0 (-0.295045917)   |
+| hours-per-week | 40 (-0.472349883) | 40 (-0.472349883)  |
+| native-country | 23                | 16                 |
+| income         | <=50k             | >50k               |
+
+We are using the same examples so that we can compare the 2 neural network models.
+
+Our model results for the 2 examples are as follows:
+
+| no.  | income | prediction: income | posterior probability: <=50k | posterior probability: >50k |
+| ---- | ------ | ------------------ | ---------------------------- | --------------------------- |
+| 2578 | <=50k  | <=50k              | 0.973058066                  | 0.026941934                 |
+| 6197 | >50k   | >50k               | 0.033392265                  | 0.966607735                 |
+
+The steps to predict the income of an example are mostly the same as that in [§ Model 4 Examples](#Model%204%20Examples). There are slight differences though, due to the presence of an extra layer in the middle between the input layer and the output layer.
+
+First difference is that the steps described needs to be run twice. For the first run, treat the input layer as the input and the extra layer as the output. For the second run, treat the extra layer as the input and the output layer as the output.
+
+Second difference is that the activation function used is different. For the second run, we are still using the softmax activation function. However, for the first run, the activation function used is the _ReLu_ function:
+
+$$\begin{aligned}
+& \phantom{=} \text{output neuron }n\text{ value} \\
+& = \begin{cases} \text{raw output neuron }n\text{ value}, & \text{if raw output neuron }n\text{ value} \ge 0 \\
+0, & \text{otherwise} \end{cases}
+\end{aligned}$$
+
+For example, if the raw output neuron value is 2, then the output neuron value is 2. If the raw output neuron value is -1, then the output neuron value is 0.
+
+After doing the above steps, the neuron output values in the output layer should be the same as the corresponding posterior probabilities in the model 5 results table above. Then the income with the higher posterior probability is the predicted income. In this case, the predicted incomes match the actual incomes for both examples.
+
+Comparing model 4 results and model 5 results using the same examples, we can see that while the predicted incomes are still the same, the posterior probabilities are not. In particular, the probabilities of the correct incomes for model 5 is higher than that of model 4. This shows that model 5 is more confident at its prediction than model 4.
 
 #### Model 5: Conclusion
 
-TODO
+First, for the model interpretation, it is better to inspect the neuron weights. However, the difference between this and model 4 is that we have an extra layer, which makes the relationship between the input layer and the output layer much more complicated. Adding an extra layer already makes it too complicated to be explained here easily.
+
+We can only try to explain the model by comparing the examples, but 2 examples is insufficient to make any good conclusions. If we try anyway, the most we could say is that the classification makes sense, considering the one example with predicted higher income has higher education level, capital gain, and has a family.
+
+Next, for the model performance, the accuracy of the model is 82.0% on the training dataset and 81.7% on the validation dataset, a 0.3% accuracy drop. The validation accuracy is the highest among the 5 models. The accuracy drop, 0.3%, is very low compared to other models, showing that neural network models can generalize to unseen new data well.
+
+Unfortunately, neural network models with hidden layers are unexplainable in general. This might make it difficult to convince someone else less knowledgeable about technology to use this model.
+
+To conclude, we are also likely to use this model, as it can handle unseen values well and its accuracy is the highest among the 5 models. However, if we need to convince someone who is less knowledgeable about technology, then we would prefer the more explainable model 4 over this model.
 
 ## Conclusion
 
-TODO
+Gathering the 5 conclusions we made for each model, we prefer to use model 2, model 4, and model 5.
+
+If we are simply aiming for the highest accuracy, we would simply use model 5. If we are trying to convince non-tech-savvy people, however, then model 5 is out of the question, and model 2 or model 4 is used instead, depending on which model the person understands better. And if the classifier is meant to be used by a human manually instead of being calculated by machines, then model 2 is the only option, as it is the model with the least computation involved, and its accuracy is still reasonably well.
 
 ## End of Report
