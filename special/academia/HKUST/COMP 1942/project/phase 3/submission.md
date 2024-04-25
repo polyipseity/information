@@ -148,7 +148,7 @@ Press on "Data Science > Classify > _k_-Nearest Neighbors". Then, configure the 
 
 | Variables             |                                                                |
 |-----------------------|----------------------------------------------------------------|
-| # Variables           | 6                                                              |
+| # Variables           | 5                                                              |
 | Scale Variables       | age, education-num, capital-gain, capital-loss, hours-per-week |
 | Output Variable       | income                                                         |
 
@@ -547,11 +547,68 @@ The lift charts are as follows:
 
 #### Model 1: Examples
 
-TODO
+As _k_-nearest neighbor is based on measuring distances to data in the training dataset, interpreting the model is best done by looking at some examples.
+
+Take 2 examples, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
+
+| no.  | age               | workclass | education    | education-num     | martial-status     | occupation     | relationship | race  | sex    | capital-gain       | capital-loss     | hours-per-week    | native-country | income |
+| ---- | ----------------- | --------- | ------------ | ----------------- | ------------------ | -------------- | ------------ | ----- | ------ | ------------------ | ---------------- | ----------------- | -------------- | ------ |
+| 2578 | 31 (-0.768137983) | Private   | Some-college | 10 (-0.098751615) | Divorced           | Adm-clerical   | Unmarried    | Black | Female | 0 (-0.185244089)   | 0 (-0.295045917) | 40 (-0.472349883) | 23             | <=50k  |
+| 6197 | 43 (0.236883583)  | Private   | Masters      | 14 (1.284324222)  | Married-civ-spouse | Prof-specialty | Husband      | White | Male   | 5178 (0.455297692) | 0 (-0.295045917) | 40 (-0.472349883) | 16             | >50k   |
+
+Our model results for the 2 examples are as follows:
+
+| no.  | income | prediction: income | posterior probability: <=50k | posterior probability: >50k |
+| ---- | ------ | ------------------ | ---------------------------- | --------------------------- |
+| 2578 | <=50k  | <=50k              | 0.533333333                  | 0.466666667                 |
+| 6197 | >50k   | >50k               | 0.3                          | 0.7                         |
+
+To predict the income given some data, we just need to find the _k_-nearest data points in the training dataset. _k_ is 10 in this case. Using the examples:
+
+For the 1st example, there are actually 15 data points in the training dataset that has a squared Euclidean distance of 0. The tie-breaking rule of XLMiner says that those 15 data points will all be considered. So, the 15 nearest data points in the training dataset are given as below. Note that only input variables used in the model are shown, the continuous variable values are standardized, and distance is the squared Euclidean distance:
+
+| no.  | distance | age          | education-num | capital-gain | capital-loss | hours-per-week | income |
+| ---- | -------- | ------------ | ------------- | ------------ | ------------ | -------------- | ------ |
+| 2374 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+| 2375 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+| 2587 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+| 2588 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2594 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+| 2597 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2599 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2609 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+| 2612 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2614 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2615 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2617 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+| 2626 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2627 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | <=50k  |
+| 2668 | 0        | -0.764748212 | -0.121896628  | -0.183882933 | -0.293671746 | -0.462585038   | >50k   |
+
+To predict the 1st example, we count the number of neighbors that has income `<=50k` and `>50k` separately, and then find the majority income in the neighbors. We have 8 `<=50k` and 7 `>50k`. As `<=50k` has more neighbors, we predict the example to have an income of `<=50k`. This matches the actual income.
+
+For the 2nd example, the 10 nearest data points in the training dataset are given as below. Note that only input variables used in the model are shown, the continuous variable values are standardized, and distance is the squared Euclidean distance:
+
+| no.  | distance    | age          | education-num | capital-gain | capital-loss | hours-per-week | income |
+| ---- | ----------- | ------------ | ------------- | ------------ | ------------ | -------------- | ------ |
+| 6468 | 0.007051835 | 0.326929476  | 1.286634461   | 0.451945117  | -0.293671746 | -0.462585038   | >50k   |
+| 5914 | 0.011255452 | 0.158979062  | 1.286634461   | 0.387109812  | -0.293671746 | -0.462585038   | <=50k  |
+| 6747 | 0.037665479 | 0.410904683  | 1.286634461   | 0.354692159  | -0.293671746 | -0.462585038   | <=50k  |
+| 5349 | 0.063466518 | -0.008971351 | 1.286634461   | 0.451945117  | -0.293671746 | -0.462585038   | >50k   |
+| 6472 | 0.074820199 | 0.326929476  | 1.286634461   | 0.712268691  | -0.293671746 | -0.462585038   | >50k   |
+| 6585 | 0.095975705 | 0.410904683  | 1.286634461   | 0.712268691  | -0.293671746 | -0.462585038   | >50k   |
+| 5910 | 0.102047266 | 0.158979062  | 1.286634461   | 0.760158405  | -0.293671746 | -0.462585038   | >50k   |
+| 5359 | 0.11523985  | -0.008971351 | 1.286634461   | 0.224407578  | -0.293671746 | -0.462585038   | <=50k  |
+| 5770 | 0.131049325 | 0.158979062  | 0.934501689   | 0.451945117  | -0.293671746 | -0.462585038   | >50k   |
+| 6400 | 0.131049325 | 0.326929476  | 0.934501689   | 0.451945117  | -0.293671746 | -0.462585038   | >50k   |
+
+To predict the 2nd example, we count the number of neighbors that has income `<=50k` and `>50k` separately, and then find the majority income in the neighbors. We have 3 `<=50k` and 7 `>50k`. As `>50k` has more neighbors, we predict the example to have an income of `>50k`. This matches the actual income.
 
 #### Model 1: Conclusion
 
-First, for the model interpretation, ... TODO
+First, for the model interpretation, comparing the nearest neighbors of example 1 and example 2, we can see having higher age, education, and capital gain is correlated with having `>50k` income, and vice versa for `<=50k`. The effect of capital loss and hours per week is not apparent from the 2 examples above, as they are the same for neighbors of both examples.
+
+Another obvious thing from example 1 is that even if all the 5 input variables are the same, the income might still be different. This might be caused by differences in other discrete variables, which are not supported by _k_-nearest neighbors.
 
 Next, for the model performance, the accuracy drops from 81.3% in the training dataset to 77.25% in the validation dataset, a 4.05% point decrease. This is a rather significant drop compared to other models, as we will see later. The validation accuracy is also significantly lower than other models.
 
@@ -976,7 +1033,7 @@ Our model results for the 2 examples are as follows:
 | 1   | <=50k  | <=50k              | 0.998700548                  | 0.001299452                 |
 | 640 | >50k   | >50k               | 0.446874278                  | 0.553125722                 |
 
-To predict the income given some data, we need to find the (posterior) probability of the income being `<50k` and `>=50k`, then choose the larger one. To find the probability of the income being a specific value, start with the prior probability of that income value, and then multiply it by the corresponding prior conditional probability for each input feature. Using the 2 examples:
+To predict the income given some data, we need to find the (posterior) probability of the income being `<=50k` and `>50k`, then choose the larger one. To find the probability of the income being a specific value, start with the prior probability of that income value, and then multiply it by the corresponding prior conditional probability for each input feature. Using the 2 examples:
 
 For the 1st example, we predict the person to have `<=50k` income. This matches the actual income. Tabulating the probabilities:
 
@@ -1018,7 +1075,7 @@ The posterior probabilities match those given by our model. As the posterior pro
 
 #### Model 3: Conclusion
 
-First, for the model interpretation, we can compare the examples above. The most significant factors are the martial status and relationship. Being never married makes one's income more likely to be `<50k`, while being married does the opposite. Same as for relationship, being in a relationship that requires independence, e.g. not in a family, makes one's income more likely to be `<50k`, while having a family, e.g. being a husband, makes one's income more likely to be `>50k`.
+First, for the model interpretation, we can compare the examples above. The most significant factors are the martial status and relationship. Being never married makes one's income more likely to be `<=50k`, while being married does the opposite. Same as for relationship, being in a relationship that requires independence, e.g. not in a family, makes one's income more likely to be `<=50k`, while having a family, e.g. being a husband, makes one's income more likely to be `>50k`.
 
 By comparing the ratio of prior conditional probabilities, we can infer additional correlations. For example, males are more likely to have income of `>50k` them females. White is the only race that is more likely to have an income of `>50k` than `<=50k`.
 
