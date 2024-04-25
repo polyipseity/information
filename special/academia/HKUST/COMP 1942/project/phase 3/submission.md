@@ -551,10 +551,22 @@ As _k_-nearest neighbor is based on measuring distances to data in the training 
 
 Take 2 examples, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
 
-| no.  | age               | workclass | education    | education-num     | martial-status     | occupation     | relationship | race  | sex    | capital-gain       | capital-loss     | hours-per-week    | native-country | income |
-| ---- | ----------------- | --------- | ------------ | ----------------- | ------------------ | -------------- | ------------ | ----- | ------ | ------------------ | ---------------- | ----------------- | -------------- | ------ |
-| 2578 | 31 (-0.768137983) | Private   | Some-college | 10 (-0.098751615) | Divorced           | Adm-clerical   | Unmarried    | Black | Female | 0 (-0.185244089)   | 0 (-0.295045917) | 40 (-0.472349883) | 23             | <=50k  |
-| 6197 | 43 (0.236883583)  | Private   | Masters      | 14 (1.284324222)  | Married-civ-spouse | Prof-specialty | Husband      | White | Male   | 5178 (0.455297692) | 0 (-0.295045917) | 40 (-0.472349883) | 16             | >50k   |
+| no.            | 2578              | 6197               |
+| -------------- | ----------------- | ------------------ |
+| age            | 31 (-0.768137983) | 43 (0.236883583)   |
+| workclass      | Private           | Private            |
+| education      | Some-college      | Masters            |
+| education-num  | 10 (-0.098751615) | 14 (1.284324222)   |
+| martial-status | Divorced          | Married-civ-spouse |
+| occupation     | Adm-clerical      | Prof-specialty     |
+| relationship   | Unmarried         | Husband            |
+| race           | Black             | White              |
+| sex            | Female            | Male               |
+| capital-gain   | 0 (-0.185244089)  | 5178 (0.455297692) |
+| capital-loss   | 0 (-0.295045917)  | 0 (-0.295045917)   |
+| hours-per-week | 40 (-0.472349883) | 40 (-0.472349883)  |
+| native-country | 23                | 16                 |
+| income         | <=50k             | >50k               |
 
 Our model results for the 2 examples are as follows:
 
@@ -716,10 +728,22 @@ In this model, we are using the best pruned tree. This makes the decision tree s
 
 Take the below 2 examples, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
 
-| no.  | age               | workclass | education    | education-num     | martial-status     | occupation   | relationship | race  | sex    | capital-gain       | capital-loss     | hours-per-week    | native-country | income |
-| ---- | ----------------- | --------- | ------------ | ----------------- | ------------------ | ------------ | ------------ | ----- | ------ | ------------------ | ---------------- | ----------------- | -------------- | ------ |
-| 2578 | 31 (-0.768137983) | Private   | Some-college | 10 (-0.098751615) | Divorced           | Adm-clerical | Unmarried    | Black | Female | 0 (-0.185244089)   | 0 (-0.295045917) | 40 (-0.472349883) | 15             | <=50k  |
-| 9473 | 61 (1.744415932)  | Private   | 7th-8th      | 4 (-2.173365369)  | Married-civ-spouse | Craft-repair | Husband      | White | Male   | 7688 (0.765795929) | 0 (-0.295045917) | 40 (-0.472349883) | 15             | >50k   |
+| no.            | 2578              | 9473               |
+| -------------- | ----------------- | ------------------ |
+| age            | 31 (-0.768137983) | 61 (1.744415932)   |
+| workclass      | Private           | Private            |
+| education      | Some-college      | 7th-8th            |
+| education-num  | 10 (-0.098751615) | 4 (-2.173365369)   |
+| martial-status | Divorced          | Married-civ-spouse |
+| occupation     | Adm-clerical      | Craft-repair       |
+| relationship   | Unmarried         | Husband            |
+| race           | Black             | White              |
+| sex            | Female            | Male               |
+| capital-gain   | 0 (-0.185244089)  | 7688 (0.765795929) |
+| capital-loss   | 0 (-0.295045917)  | 0 (-0.295045917)   |
+| hours-per-week | 40 (-0.472349883) | 40 (-0.472349883)  |
+| native-country | 15                | 15                 |
+| income         | <=50k             | >50k               |
 
 Our model results for the 2 examples are as follows:
 
@@ -1021,10 +1045,22 @@ __native-country__
 
 Consider 2 examples, one for each possible `income`, from the training–validation dataset (values in parentheses are the values after standardization):
 
-| no. | age               | workclass   | education | education-num    | martial-status     | occupation     | relationship  | race  | sex    | capital-gain     | capital-loss       | hours-per-week     | native-country | income |
-| --- | ----------------- | ----------- | --------- | ---------------- | ------------------ | -------------- | ------------- | ----- | ------ | ---------------- | ------------------ | ------------------ | -------------- | ------ |
-| 1   | 17 (-1.940663143) | Federal-gov | 11th      | 7 (-1.136058492) | Never-married      | Adm-clerical   | Not-in-family | Black | Female | 0 (-0.185244089) | 1602 (2.758553238) | 40  (-0.472349883) | 16             | <=50k  |
-| 640 | 24 (-1.354400563) | Private     | Assoc-voc | 11 (0.247017344) | Married-civ-spouse | Prof-specialty | Husband       | White | Male   | 0 (-0.185244089) | 0  (-0.295045917)  | 40 (-0.472349883)  | 16             | >50k   |
+| no.            | 1                  | 640                |
+| -------------- | ------------------ | ------------------ |
+| age            | 17 (-1.940663143)  | 24 (-1.354400563)  |
+| workclass      | Federal-gov        | Private            |
+| education      | 11th               | Assoc-voc          |
+| education-num  | 7 (-1.136058492)   | 11 (0.247017344)   |
+| martial-status | Never-married      | Married-civ-spouse |
+| occupation     | Adm-clerical       | Prof-specialty     |
+| relationship   | Not-in-family      | Husband            |
+| race           | Black              | White              |
+| sex            | Female             | Male               |
+| capital-gain   | 0 (-0.185244089)   | 0 (-0.185244089)   |
+| capital-loss   | 1602 (2.758553238) | 0  (-0.295045917)  |
+| hours-per-week | 40  (-0.472349883) | 40 (-0.472349883)  |
+| native-country | 16                 | 16                 |
+| income         | <=50k              | >50k               |
 
 Our model results for the 2 examples are as follows:
 
