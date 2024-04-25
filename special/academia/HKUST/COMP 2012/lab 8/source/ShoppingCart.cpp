@@ -51,7 +51,7 @@ void ShoppingCart::applyDiscount(double discountRate) {
 // TODO6: Implement the getProductsInPriceRange method in the ShoppingCart class.
 std::vector<Product> ShoppingCart::getProductsInPriceRange(double minPrice, double maxPrice) {
     std::vector<Product> ret{};
-    std::copy_if(std::begin(products), std::end(products), std::begin(ret), [minPrice, maxPrice](Product const &element)
+    std::copy_if(std::begin(products), std::end(products), std::back_inserter(ret), [minPrice, maxPrice](Product const &element)
                  { return minPrice <= element.price && element.price <= maxPrice; });
     return ret;
 }
