@@ -53,8 +53,8 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 - _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-05-01,12,289!2024-05-05,16,309-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-05-01,12,289!2024-04-27,9,269-->
-- implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-04-25,7,269!2024-04-29,10,289-->
-- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-04-25,7,269!2024-04-27,9,269-->
+- implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-05-14,19,269!2024-04-29,10,289-->
+- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-04-29,4,249!2024-04-27,9,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-10,16,269-->
 
 <!--/pytextgen-->
@@ -71,7 +71,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 ### customer profile
 
-Customer jobs can be split into three categories: {{functional jobs, social jobs, and personal or emotional jobs}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}. <!--SR:!2024-04-26,8,269!2024-04-25,7,269!2024-04-29,10,289-->
+Customer jobs can be split into three categories: {{functional jobs, social jobs, and personal or emotional jobs}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}. <!--SR:!2024-04-26,8,269!2024-05-15,20,269!2024-04-29,10,289-->
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-05-21,33,270!2024-05-06,17,309!2024-05-05,16,309-->
 
@@ -115,11 +115,11 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-25,5,249!2024-05-04,15,309-->
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-28,3,229!2024-05-04,15,309-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-04-29,6,229!2024-04-27,9,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-04-28,4,189!2024-04-28,6,229-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-05-01,13,289!2024-04-28,10,289-->
-- mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-27,9,269!2024-04-25,7,269-->
+- mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-04-27,9,269!2024-05-14,19,269-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-04-26,2,189!2024-05-03,9,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-04-29,10,289-->
 
@@ -167,9 +167,9 @@ mix: mixing products and services with pain relievers and gain creators
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-05-10,16,269!2024-05-06,17,309-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-30,6,229!2024-04-26,6,249-->
-- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-25,7,269!2024-04-26,8,269-->
+- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-04-29,4,249!2024-04-26,8,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-08,14,269!2024-04-27,9,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-25,2,189-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-04-29,4,189-->
 
 <!--/pytextgen-->
 
@@ -177,7 +177,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. <!--SR:!2024-05-30,41,290!2024-05-08,30,270-->
 
-However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-05-06,17,309!2024-05-05,12,249!2024-04-25,7,269!2024-06-13,52,290-->
+However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-05-06,17,309!2024-05-05,12,249!2024-05-21,26,289!2024-06-13,52,290-->
 
 ## design
 
@@ -185,7 +185,7 @@ Design is {{designing business models from your value proposition}}. <!--SR:!202
 
 ### prototyping
 
-Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-04-25,5,249-->
+Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-05-08,13,249-->
 
 ### interview your customers
 
@@ -288,7 +288,7 @@ conclusion: make progress
 
 When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-06-13,55,310!2024-05-01,19,250-->
 
-One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-04-25,7,269!2024-04-30,11,289-->
+One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-05-22,27,289!2024-04-30,11,289-->
 
 ## evolve
 

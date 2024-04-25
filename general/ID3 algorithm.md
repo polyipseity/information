@@ -15,7 +15,7 @@ The algorithm starts {{with the entire set as the root node}}. On each iteration
 
 There are three or four base cases to note: First, {{if every element in the set has the same class, the node becomes a leaf node labeled with said class}}. Second, {{if all attributes have been used, the node becomes a leaf node labeled with the [most common class](mode%20(statistics).md) of the set (arbitrary choosing one if tied)}}. Third, {{if the set is empty, the node becomes a leaf node labeled with the most common class of the set in the parent node}}. Optionally, {{the algorithm can additionally accept a threshold, then if the set size is less than the threshold, the node is treated like the second case above}}. <!--SR:!2024-04-26,10,270!2024-04-27,11,270!2024-05-10,18,250!2024-05-05,13,250-->
 
-Throughout the algorithm, the decision tree is constructed by {{letting the internal nodes represent the selected attribute on which the set is split, and the leaf nodes be labeled with the predicted result}}. <!--SR:!2024-04-25,9,270-->
+Throughout the algorithm, the decision tree is constructed by {{letting the internal nodes represent the selected attribute on which the set is split, and the leaf nodes be labeled with the predicted result}}. <!--SR:!2024-05-16,21,270-->
 
 ### properties
 

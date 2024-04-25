@@ -161,7 +161,7 @@ return _chain.from_iterable(await _gather(
 - `>`::greater than <!--SR:!2024-05-02,70,310-->
 - `<=`::lesser than or equal to <!--SR:!2024-12-24,248,330-->
 - `>=`::greater than or equal to <!--SR:!2024-12-09,237,330-->
-- `<>`::not equal to <!--SR:!2024-04-25,64,310-->
+- `<>`::not equal to <!--SR:!2025-01-23,273,330-->
 
 <!--/pytextgen-->
 
@@ -284,7 +284,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-09,35,250!2024-04-29,7,250-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-05-23,29,150!2024-04-26,53,250-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-06-25,69,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-04-25,17,210!2024-04-27,7,130-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-06-16,52,230!2024-04-27,7,130-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-10-09,177,310!2024-05-29,83,290-->
 
 <!--/pytextgen-->
@@ -369,7 +369,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
 - `AVERAGE(numbers...)`::average <!--SR:!2024-12-04,233,330-->
-- `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2024-04-25,64,310-->
+- `COUNTIF(values, criteria)`::number of `values` satisfying `criteria` <!--SR:!2025-01-22,272,330-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2025-01-05,258,330-->
 - `MAX(numbers...)`::maximum <!--SR:!2024-12-14,241,330-->
 - `MIN(numbers...)`::minimum <!--SR:!2024-12-12,239,330-->

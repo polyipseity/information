@@ -501,7 +501,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOO<sup>-</sup>}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}} <!--SR:!2029-02-20,1831,382!2024-04-25,426,362!2030-01-21,2100,382!2025-11-12,732,282!2026-01-09,832,302!2028-12-05,1775,387-->
+> - infix: {{(locant)}} <!--SR:!2029-02-20,1831,382!2030-02-08,2115,382!2030-01-21,2100,382!2025-11-12,732,282!2026-01-09,832,302!2028-12-05,1775,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -690,7 +690,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2024-04-25,303,364!2024-07-16,350,364!2025-06-13,493,324!2024-05-10,237,364!2026-10-12,956,364!2024-04-29,307,364-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2027-05-02,1102,364!2024-07-16,350,364!2025-06-13,493,324!2024-05-10,237,364!2026-10-12,956,364!2024-04-29,307,364-->
 
 <!--/pytextgen-->
 

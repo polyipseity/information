@@ -30,7 +30,7 @@ See also [Vim help files](https://vimhelp.org/).
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2024-09-07,440,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2027-07-12,1243,348!2026-08-08,904,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2025-02-08,290,253!2024-07-12,353,288-->
-- end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-05-20,125,293!2024-04-25,350,333-->
+- end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-05-20,125,293!2028-09-16,1605,353-->
 - beginning of line:::0 <!--SR:!2028-05-15,1501,350!2028-09-11,1601,353-->
 - end of line:::$ <!--SR:!2028-05-19,1509,353!2028-09-06,1598,353-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2024-08-29,386,290!2026-04-17,810,313-->
