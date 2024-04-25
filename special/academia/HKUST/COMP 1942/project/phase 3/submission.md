@@ -477,27 +477,27 @@ Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50k__            | 3088      | 570      |
-| __>50k__             | 551       | 1791     |
+| __<=50k__            | 3037      | 621      |
+| __>50k__             | 637       | 1705     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50k__   | 3658        | 570          | 15.5822854  |
-| __>50k__    | 2342        | 551          | 23.52690009 |
-| __Overall__ | 6000        | 1121         | 18.68333333 |
+| __<=50k__   | 3658        | 621          | 16.97648989 |
+| __>50k__    | 2342        | 637          | 27.19897523 |
+| __Overall__ | 6000        | 1258         | 20.96666667 |
 
 Metrics are as follows:
 
 | __Metric__               | __Value__   |
 | ------------------------ | ----------- |
-| __Accuracy (#correct)__  | 4879        |
-| __Accuracy (%correct)__  | 81.31666667 |
-| __Specificity__          | 0.844177146 |
-| __Sensitivity (Recall)__ | 0.764730999 |
-| __Precision__            | 0.758576874 |
-| __F1 score__             | 0.761641505 |
+| __Accuracy (#correct)__  | 4742        |
+| __Accuracy (%correct)__  | 79.03333333 |
+| __Specificity__          | 0.830235101 |
+| __Sensitivity (Recall)__ | 0.728010248 |
+| __Precision__            | 0.733018057 |
+| __F1 score__             | 0.73050557  |
 | __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
@@ -515,27 +515,27 @@ Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
 | -------------------- | --------- | -------- |
-| __<=50k__            | 1996      | 441      |
-| __>50k__             | 469       | 1094     |
+| __<=50k__            | 1963      | 474      |
+| __>50k__             | 486       | 1077     |
 
 Error report is as follows:
 
 | __Class__   | __# Cases__ | __# Errors__ | __% Error__ |
 | ----------- | ----------- | ------------ | ----------- |
-| __<=50k__   | 2437        | 441          | 18.0960197  |
-| __>50k__    | 1563        | 469          | 30.00639795 |
-| __Overall__ | 4000        | 910          | 22.75       |
+| __<=50k__   | 2437        | 474          | 19.45014362 |
+| __>50k__    | 1563        | 486          | 31.0940499  |
+| __Overall__ | 4000        | 960          | 24          |
 
 Metrics are as follows:
 
 | __Metric__               | __Value__   |
 | ------------------------ | ----------- |
-| __Accuracy (#correct)__  | 3090        |
-| __Accuracy (%correct)__  | 77.25       |
-| __Specificity__          | 0.819039803 |
-| __Sensitivity (Recall)__ | 0.69993602  |
-| __Precision__            | 0.712703583 |
-| __F1 score__             | 0.706262105 |
+| __Accuracy (#correct)__  | 3040        |
+| __Accuracy (%correct)__  | 76          |
+| __Specificity__          | 0.805498564 |
+| __Sensitivity (Recall)__ | 0.689059501 |
+| __Precision__            | 0.694390716 |
+| __F1 score__             | 0.691714836 |
 | __Success Class__        | >50k        |
 | __Success Probability__  | 0.5         |
 
@@ -610,13 +610,13 @@ First, for the model interpretation, comparing the nearest neighbors of example 
 
 Another obvious thing from example 1 is that even if all the 5 input variables are the same, the income might still be different. This might be caused by differences in other discrete variables, which are not supported by _k_-nearest neighbors.
 
-Next, for the model performance, the accuracy drops from 81.3% in the training dataset to 77.25% in the validation dataset, a 4.05% point decrease. This is a rather significant drop compared to other models, as we will see later. The validation accuracy is also significantly lower than other models.
+Next, for the model performance, the accuracy drops from 79.0% in the training dataset to 76% in the validation dataset, a 3% point decrease. This is a rather significant drop compared to other models, as we will see later. The validation accuracy is also significantly lower than other models.
 
-Specifically, we can observe both its specificity (84.4% to 81.9%) and sensitivity (76.4% to 70.0%) drops significantly. This shows _k_-nearest neighbors is inferior at predicting both `<=50k` and `>50k` for unseen data.
+Specifically, we can observe both its specificity (83.0% to 80.5%) and sensitivity (72.8% to 68.9%) drops significantly. This shows _k_-nearest neighbors is inferior at predicting both `<=50k` and `>50k` for unseen data.
 
 The above makes sense if you consider that _k_-nearest neighbors does prediction by looking at the _k_-nearest data points in the training dataset. If a data point is new, it might be very far away from any data points in the training dataset, so predicting such a data point would be inaccurate. So it makes sense that _k_-nearest neighbors is inferior at predicting new data.
 
-To conclude, for predicting the test dataset, we should probably use other better models, as the test dataset is unseen data.
+To conclude, for predicting the test dataset, we should not use this model. The accuracy on seen data is not high compared to other models, and the test dataset is unseen data, so the accuracy would be even lower.
 
 ### Model 2
 
@@ -1257,7 +1257,7 @@ The lift charts are as follows:
 
 #### Model 5: Examples
 
-In this model, we are using Neural Network with hidden layer `2` , that means we undergo backward propagation twice and check whether the trained neuron weights and bias are accurate to the target attribute `income` in training set or n
+TODO
 
 #### Model 5: Conclusion
 
