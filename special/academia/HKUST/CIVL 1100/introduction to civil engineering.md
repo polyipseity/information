@@ -129,7 +129,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-05-01,10,307!2024-05-13,21,357-->
-- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-04-25,1,280!2024-05-12,20,345-->
+- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-04-28,3,280!2024-05-12,20,345-->
 - shape ::: sail of a ship <!--SR:!2024-05-13,20,357!2024-05-08,16,352-->
 
 ### Burj Khalifa
@@ -153,7 +153,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-05-03,11,335!2024-05-13,21,357-->
-- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-04-25,1,281!2024-05-13,21,356-->
+- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-04-28,3,281!2024-05-13,21,356-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete <!--SR:!2024-04-27,4,341!2024-04-27,4,341-->
 
 ### China International Trust and Investment Plaza
@@ -161,7 +161,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-04-26,3,272!2024-05-11,19,347-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-04-25,1,281!2024-05-06,14,332-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-04-26,1,261!2024-05-06,14,332-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Eiffel Tower
@@ -208,7 +208,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-05-25,50,310!2024-05-12,20,350-->
-- height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-04-25,1,281!2024-05-29,54,310-->
+- height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-04-28,3,281!2024-05-29,54,310-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-04-27,3,301!2024-04-27,4,341-->
 
 ### John Hancock Center
@@ -216,7 +216,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-04-29,5,295!2024-05-08,16,347-->
-- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-04-25,1,277!2024-05-29,54,310-->
+- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-04-26,1,257!2024-05-29,54,310-->
 - [structural system](../../../../general/structural%20system.md) ::: steel
 
 ### MOSE
@@ -251,7 +251,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-04-27,4,340-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-04-25,1,281!2024-05-17,42,310-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-04-28,3,281!2024-05-17,42,310-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite
 
 ### Thames Barrier
@@ -392,10 +392,10 @@ water
 - building→:::←dam <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
 - dam→:::←pipeline <!--SR:!2024-04-27,3,264!2024-04-26,3,321-->
 - pipeline→:::←power plant <!--SR:!2024-04-28,4,320!2024-04-27,3,301-->
-- power plant→:::←reservoir <!--SR:!2024-04-25,1,275!2024-04-26,3,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-04-25,1,277!2024-04-25,1,281-->
+- power plant→:::←reservoir <!--SR:!2024-04-28,3,275!2024-04-26,3,320-->
+- reservoir→:::←sewage treatment <!--SR:!2024-04-28,3,277!2024-04-28,3,281-->
 - sewage treatment→:::←transport <!--SR:!2024-04-30,7,290!2024-04-26,3,321-->
-- transport→:::←water <!--SR:!2024-04-26,3,320!2024-04-25,1,250-->
+- transport→:::←water <!--SR:!2024-04-26,3,320!2024-04-28,3,250-->
 - water→:::←_(end)_ <!--SR:!2024-04-27,4,341!2024-04-27,4,341-->
 
 <!--/pytextgen-->
@@ -483,7 +483,7 @@ workmanship
 
 - _(begin)_→:::←budget <!--SR:!2024-04-27,4,341!2024-04-27,4,340-->
 - budget→:::←construction management <!--SR:!2024-04-26,3,320!2024-04-29,7,315-->
-- construction management→:::←economy <!--SR:!2024-04-25,2,235!2024-04-26,3,320-->
+- construction management→:::←economy <!--SR:!2024-05-01,6,235!2024-04-26,3,320-->
 - economy→:::←impacts to surrounding <!--SR:!2024-04-27,3,300!2024-04-26,3,320-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-04-29,5,297!2024-05-02,8,312-->
@@ -619,7 +619,7 @@ Water Cube
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-04-30,9,304!2024-05-03,11,330-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-05-27,52,270!2024-05-04,13,332-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-04-26,3,320!2024-05-09,34,270-->
-- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-04-28,5,285!2024-04-25,4,292-->
+- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-04-28,5,285!2024-04-27,2,272-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-04-29,5,294!2024-05-04,13,325-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-05-02,10,317!2024-04-26,3,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-04-27,4,341!2024-05-02,10,317-->
@@ -660,7 +660,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-04-25,1,272!2024-04-27,4,341-->
+- _(begin)_→:::←business procedures <!--SR:!2024-04-28,3,272!2024-04-27,4,341-->
 - business procedures→:::←economics <!--SR:!2024-04-26,3,321!2024-04-27,3,265-->
 - economics→:::←human behaviors <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
 - human behaviors→:::←management principles <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
@@ -719,14 +719,14 @@ testing materials
 - _(begin)_→:::←budgeting <!--SR:!2024-05-01,10,307!2024-05-08,16,355-->
 - budgeting→:::←contracts <!--SR:!2024-05-01,9,314!2024-05-01,10,307-->
 - contracts→:::←designing temporary structures <!--SR:!2024-04-29,38,215!2024-05-01,9,315-->
-- designing temporary structures→:::←logistics <!--SR:!2024-04-25,3,320!2024-04-25,1,277-->
+- designing temporary structures→:::←logistics <!--SR:!2024-05-04,9,320!2024-04-28,3,277-->
 - logistics→:::←planning <!--SR:!2024-05-01,9,314!2024-05-02,10,315-->
 - planning→:::←procuring materials <!--SR:!2024-04-30,8,317!2024-05-01,7,297-->
 - procuring materials→:::←quality assurance <!--SR:!2024-04-26,3,320!2024-04-27,3,301-->
 - quality assurance→:::←quality control <!--SR:!2024-04-30,8,317!2024-05-09,17,352-->
 - quality control→:::←safety engineering <!--SR:!2024-04-27,3,301!2024-05-03,9,315-->
 - safety engineering→:::←scheduling <!--SR:!2024-04-26,3,320!2024-04-26,3,320-->
-- scheduling→:::←surveying building site <!--SR:!2024-04-25,1,281!2024-04-26,3,320-->
+- scheduling→:::←surveying building site <!--SR:!2024-04-26,1,261!2024-04-26,3,320-->
 - surveying building site→:::←testing materials <!--SR:!2024-04-26,3,320!2024-05-01,7,292-->
 - testing materials→:::←_(end)_ <!--SR:!2024-05-07,15,327!2024-04-30,7,287-->
 
@@ -1185,7 +1185,7 @@ polypropylene fiber reinforced concrete
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-05-19,44,250!2024-05-02,11,310-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-05-01,9,317!2024-04-26,3,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-04-26,3,320!2024-04-29,7,315-->
-- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-05-10,18,352!2024-04-25,3,320-->
+- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-05-10,18,352!2024-05-07,12,320-->
 
 <!--/pytextgen-->
 
@@ -1385,7 +1385,7 @@ water towers
 - _(begin)_→:::←bridges <!--SR:!2024-05-02,10,315!2024-04-27,4,340-->
 - bridges→:::←buildings <!--SR:!2024-05-08,16,350!2024-04-27,4,340-->
 - buildings→:::←dams <!--SR:!2024-04-27,4,341!2024-04-26,3,321-->
-- dams→:::←power plants <!--SR:!2024-04-27,3,301!2024-04-25,3,278-->
+- dams→:::←power plants <!--SR:!2024-04-27,3,301!2024-04-27,2,258-->
 - power plants→:::←storage facilities <!--SR:!2024-04-27,3,300!2024-04-29,7,314-->
 - storage facilities→:::←tunnels <!--SR:!2024-04-26,3,320!2024-04-27,3,300-->
 - tunnels→:::←unusual structures <!--SR:!2024-04-30,7,287!2024-04-28,4,320-->
@@ -1442,7 +1442,7 @@ and the Structural Engineering Institute (SEI).
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-05-01,10,307!2024-05-02,11,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-05-06,14,334!2024-04-29,8,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-05-05,30,290!2024-05-02,10,317-->
-- the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-04-25,2,317!2024-05-22,47,310-->
+- the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-05-02,7,317!2024-05-22,47,310-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2024-06-16,72,330!2024-05-21,46,310-->
 
 <!--/pytextgen-->

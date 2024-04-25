@@ -46,7 +46,7 @@ public class Name {
 }
 ```
 
-To make the class accessible to code in other files, {{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}}. <!--SR:!2024-04-25,64,310-->
+To make the class accessible to code in other files, {{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}}. <!--SR:!2025-01-15,265,330-->
 
 Then to create an object, one uses {{`new`}}: <!--SR:!2024-04-30,68,310-->
 

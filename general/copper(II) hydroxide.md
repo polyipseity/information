@@ -9,7 +9,7 @@ tags:
 
 # copper(II) hydroxide
 
-__Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Cu](copper.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{blue or blue-green [solid](solid.md)}}. <!--SR:!2024-04-25,305,330!2024-12-09,316,210-->
+__Copper(II) hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Cu](copper.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{blue or blue-green [solid](solid.md)}}. <!--SR:!2028-02-11,1387,350!2024-12-09,316,210-->
 
 ## preparation
 

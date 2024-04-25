@@ -50,7 +50,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[implants](implant%20(medicine).md) <!--SR:!2024-05-29,327,330!2024-05-27,325,330-->
 - [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies <!--SR:!2025-04-09,461,310!2024-05-11,309,330-->
-- supersonic aircraft bodies→:::←_(end)_ <!--SR:!2024-04-25,298,330!2026-12-12,966,330-->
+- supersonic aircraft bodies→:::←_(end)_ <!--SR:!2027-01-01,981,330!2026-12-12,966,330-->
 
 <!--/pytextgen-->
 

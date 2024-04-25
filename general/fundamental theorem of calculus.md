@@ -24,7 +24,7 @@ The first part is sometimes called the _first fundamental theorem of calculus_.
 
 The first part implies that when $f$ is [continuous](continuous%20function.md), {{[antiderivatives](antiderivative.md) of $f$ always exists}}. <!--SR:!2024-08-23,205,330-->
 
-The conditions above can be relaxed. If $f$ is {{[Lebesgue integrable](Lebesgue%20integration.md) on $[a, b]$, and [continuous](continuous%20function.md) at $x_0 \in (a, b)$}}, then {{$F$ is [differentiable](differentiable%20function.md) at $x_0$ and $F'(x_0) = f(x_0)$}}. This is still valid for the more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md)}}. <!--SR:!2024-04-25,9,280!2024-05-15,21,260!2024-04-25,9,280-->
+The conditions above can be relaxed. If $f$ is {{[Lebesgue integrable](Lebesgue%20integration.md) on $[a, b]$, and [continuous](continuous%20function.md) at $x_0 \in (a, b)$}}, then {{$F$ is [differentiable](differentiable%20function.md) at $x_0$ and $F'(x_0) = f(x_0)$}}. This is still valid for the more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md)}}. <!--SR:!2024-05-17,22,280!2024-05-15,21,260!2024-06-01,37,300-->
 
 Additionally, if {{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md), then $F$ is [absolutely continuous](absolute%20continuity.md)}}. <!--SR:!2024-05-20,26,260-->
 

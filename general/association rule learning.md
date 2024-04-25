@@ -14,7 +14,7 @@ tags:
 
 ### support
 
-Support is {{how frequently the item set appears in the data set}}. For a item set X, it is defined as {{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}}. An alternative definition is simply {{the number of transactions containing X}}, in which case adjust the equations below yourself accordingly. <!--SR:!2024-04-28,61,310!2024-04-25,59,310!2024-11-15,214,330-->
+Support is {{how frequently the item set appears in the data set}}. For a item set X, it is defined as {{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}}. An alternative definition is simply {{the number of transactions containing X}}, in which case adjust the equations below yourself accordingly. <!--SR:!2024-04-28,61,310!2025-01-05,255,330!2024-11-15,214,330-->
 
 ### confidence
 
@@ -26,7 +26,7 @@ Confidence expresses {{how confident you can be about Y being true given X is tr
 
 Lift is {{the ratio of the observed support of a rule to that expected if the antecedent and the consequent are [independent](independence%20(probability%20theory).md)}}. For two item sets X and Y, and {{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{lift}(X \Rightarrow Y) = \frac {\operatorname{conf}(X \Rightarrow Y)} {\operatorname{supp}(Y)} = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X) \times \operatorname{supp}(Y)}$}}. <!--SR:!2024-10-20,179,310!2024-12-06,231,330-->
 
-Lift expresses {{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}}. Note that the lift is unchanged even if {{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}}. <!--SR:!2024-05-02,65,310!2024-04-25,59,310-->
+Lift expresses {{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}}. Note that the lift is unchanged even if {{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}}. <!--SR:!2024-05-02,65,310!2025-01-02,252,330-->
 
 ### conviction
 
@@ -38,7 +38,7 @@ Conviction expresses {{how often X fails to predict Y if X and Y are [independen
 
 ### naive algorithms
 
-Assume one has two criteria for finding rules: {{minimum support and minimum confidence}}. A naive algorithm can simply {{enumerate all possible rules and filter the rules by minimum support and minimum confidence}}. However, this is impractical for even moderately-sized datasets because {{the number of all possible rules increases exponentially with the number of columns}}. A less naive approach is first filter for {{large item sets using the minimum support, enumerate all the possible rules, then filter the rules by minimum confidence}}. It significantly decreases {{the number of possible rules, though still not enough for even larger datasets}}. We can prove these two algorithms are equivalent by {{proving that their respective output sets $S_1, S_2$ are equal, i.e. $S_1 = S_2$}}, which is usually done by proving {{$S_1 \subseteq S_2$ i.e. every item in $S_1$ is in $S_2$, and $S_1 \supseteq S_2$ i.e. every item in $S_2$ is in $S_1$}}. <!--SR:!2024-11-21,220,330!2024-04-25,59,310!2024-09-19,157,310!2024-07-21,112,290!2024-05-26,69,270!2024-05-03,66,310!2024-05-11,73,310-->
+Assume one has two criteria for finding rules: {{minimum support and minimum confidence}}. A naive algorithm can simply {{enumerate all possible rules and filter the rules by minimum support and minimum confidence}}. However, this is impractical for even moderately-sized datasets because {{the number of all possible rules increases exponentially with the number of columns}}. A less naive approach is first filter for {{large item sets using the minimum support, enumerate all the possible rules, then filter the rules by minimum confidence}}. It significantly decreases {{the number of possible rules, though still not enough for even larger datasets}}. We can prove these two algorithms are equivalent by {{proving that their respective output sets $S_1, S_2$ are equal, i.e. $S_1 = S_2$}}, which is usually done by proving {{$S_1 \subseteq S_2$ i.e. every item in $S_1$ is in $S_2$, and $S_1 \supseteq S_2$ i.e. every item in $S_2$ is in $S_1$}}. <!--SR:!2024-11-21,220,330!2024-10-26,184,310!2024-09-19,157,310!2024-07-21,112,290!2024-05-26,69,270!2024-05-03,66,310!2024-05-11,73,310-->
 
 > [!info]- details
 >

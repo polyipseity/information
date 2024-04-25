@@ -72,8 +72,8 @@ C$: [cost structure](#cost%20structure)
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-05-18,24,277-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-04-27,9,254!2024-04-29,10,272-->
-- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-04-25,7,257!2024-05-08,15,257-->
-- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-04-27,9,257!2024-04-25,7,254-->
+- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-05-13,18,257!2024-05-08,15,257-->
+- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-04-27,9,257!2024-05-23,28,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-04-26,8,257!2024-04-27,9,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-05-01,13,277!2024-04-28,10,254-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-05-01,13,274!2024-05-01,13,274-->
@@ -123,9 +123,9 @@ segmented: splitting slightly different customer segments
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-05-07,13,257!2024-05-06,17,297-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-04-26,6,237!2024-05-09,15,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-04-26,8,254!2024-04-27,9,257-->
-- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-04-25,7,257!2024-04-26,8,254-->
+- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-05-13,18,257!2024-04-26,8,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-04-26,8,254!2024-04-26,7,257-->
-- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-04-25,7,254!2024-04-27,9,254-->
+- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-05-14,19,254!2024-04-27,9,254-->
 
 <!--/pytextgen-->
 
@@ -181,9 +181,9 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-05-02,8,237!2024-05-05,16,294-->
 - accessibility→:::←brand or status <!--SR:!2024-05-09,15,254!2024-04-26,8,254-->
-- brand or status→:::←convenience or usability <!--SR:!2024-04-25,7,254!2024-04-25,5,234-->
+- brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-06,11,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-04-26,8,254!2024-04-27,5,237-->
-- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-04-25,3,157-->
+- cost reduction→:::←customization <!--SR:!2024-04-28,10,254!2024-05-01,6,157-->
 - customization→:::←design <!--SR:!2024-04-28,10,277!2024-05-01,9,234-->
 - design→:::←newness <!--SR:!2024-05-08,14,257!2024-05-09,15,254-->
 - newness→:::←performance <!--SR:!2024-05-16,22,277!2024-04-28,4,217-->
@@ -238,7 +238,7 @@ personal assistance
 
 - _(begin)_→:::←automated services <!--SR:!2024-04-30,11,274!2024-04-30,12,270-->
 - automated services→:::←co-creation <!--SR:!2024-04-27,9,254!2024-04-26,6,234-->
-- co-creation→:::←communities <!--SR:!2024-04-25,7,254!2024-04-28,10,254-->
+- co-creation→:::←communities <!--SR:!2024-05-13,18,254!2024-04-28,10,254-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-04-26,8,257!2024-04-28,10,254-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-05-05,16,297!2024-05-03,14,297-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-05-05,16,297!2024-05-06,17,297-->
@@ -289,11 +289,11 @@ subscription fee
 
 - _(begin)_→:::←advertising <!--SR:!2024-04-28,10,254!2024-05-06,17,297-->
 - advertising→:::←asset sale <!--SR:!2024-04-27,9,254!2024-05-04,15,297-->
-- asset sale→:::←brokerage fee <!--SR:!2024-04-25,7,254!2024-04-27,3,234-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-04-26,8,257!2024-04-25,7,254-->
+- asset sale→:::←brokerage fee <!--SR:!2024-05-11,16,254!2024-04-27,3,234-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-04-26,8,257!2024-05-14,19,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-03,10,237!2024-04-26,8,254-->
 - licensing→:::←usage fee <!--SR:!2024-04-28,9,274!2024-04-29,10,274-->
-- usage fee→:::←subscription fee <!--SR:!2024-04-25,7,254!2024-04-27,9,257-->
+- usage fee→:::←subscription fee <!--SR:!2024-05-14,19,254!2024-04-27,9,257-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-04-30,12,274!2024-04-26,7,257-->
 
 <!--/pytextgen-->
@@ -308,7 +308,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-04-25,7,254!2024-05-04,11,237!2024-04-25,5,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-05-12,17,254!2024-05-04,11,237!2024-05-09,14,237-->
 
 #### cost structure
 
