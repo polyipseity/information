@@ -101,7 +101,8 @@ Such a curve can be viewed as a polar curve on the one hand, and as a parameteri
 > & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \int_0^\pi \! \left(f(\theta)^2 \cos^2 \theta + f(\theta) f'(\theta) \sin\theta \cos\theta \right) \,\mathrm{d}\theta \\
 > & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \int_0^\pi \! (f(\theta) \cos \theta)\left(f(\theta) \cos \theta + f'(\theta) \sin \theta \right) \,\mathrm{d}\theta \\
 > & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \int_0^\pi \! (f(\theta) \cos\theta) (f(\theta) \sin\theta)' \,\mathrm{d}\theta \\
-> & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \left[f(\theta)^2 \sin \theta \cos \theta \right]_0^\pi - \int_0^\pi \! (f(\theta) \sin \theta) (f(\theta) \cos \theta)' \,\mathrm{d}\theta \\
+> & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \left[f(\theta)^2 \sin \theta \cos \theta \right]_0^\pi + \int_0^\pi \! (f(\theta) \sin \theta) (f(\theta) \cos \theta)' \,\mathrm{d}\theta \\
+> & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \left[f(\theta)^2 \sin \theta \cos \theta \right]_0^\pi - A_2 \\
 > 2 A_2 & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \left[f(\theta)^2 \sin \theta \cos \theta \right]_0^\pi \\
 > & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - (0 - 0) \\
 > A_2 & = \frac 1 2 \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta \\
