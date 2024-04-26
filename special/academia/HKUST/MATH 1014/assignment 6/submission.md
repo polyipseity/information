@@ -104,7 +104,8 @@ Such a curve can be viewed as a polar curve on the one hand, and as a parameteri
 > & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \left[f(\theta)^2 \sin \theta \cos \theta \right]_0^\pi - \int_0^\pi \! (f(\theta) \sin \theta) (f(\theta) \cos \theta)' \,\mathrm{d}\theta \\
 > 2 A_2 & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - \left[f(\theta)^2 \sin \theta \cos \theta \right]_0^\pi \\
 > & = \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta - (0 - 0) \\
-> A_2 & = \frac 1 2 \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta
+> A_2 & = \frac 1 2 \int_0^\pi \! f(\theta)^2 \,\mathrm{d}\theta \\
+> & = A_1
 > \end{aligned}$$
 
 ## Q8
@@ -168,7 +169,7 @@ Show that the surface obtained revolving the graph of $f$ about the $x$-axis has
 > & = 2\pi \int_1^{+\infty} \! \frac 1 x \sqrt{1 + \left(- \frac 1 {x^2}\right)^2 } \,\mathrm{d}x \\
 > & = 2\pi \int_1^{+\infty} \! \frac 1 x \sqrt{1 + \frac 1 {x^4} } \,\mathrm{d}x \\
 > & > 2\pi \int_1^{+\infty} \! \frac 1 x \,\mathrm{d}x && \left(x \in [1, +\infty) \implies \sqrt{1 + \frac 1 {x^4} } > 1 \right) \\
-> & \text{By the }p\text{-test, the integral one line above is divergent.} \\
+> & \text{By the }p\text{-test, the integral one line above this line is divergent.} \\
 > & \text{By the comparison test, the original integral is divergent.} \\
 > & \text{So the surface area is infinite.}
 > \end{aligned}
