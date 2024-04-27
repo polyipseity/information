@@ -40,7 +40,7 @@ An __error report__ {{is a related table that can be constructed from a confusio
 > |:---------:|:-----------:|:------------:|:-----------:|
 > | __yes__   | 4           | 1            | 25.00       |
 > | __no__    | 4           | 2            | 50.00       |
-> | __total__ | 8           | 3            | 37.50       | <!--SR:!2024-04-26,10,270-->
+> | __total__ | 8           | 3            | 37.50       | <!--SR:!2024-06-03,37,290-->
 
 ## references
 

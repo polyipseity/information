@@ -57,7 +57,7 @@ It is possible to have {{no parameters}}. Each parameter is {{separated by a com
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement block}}: <!--SR:!2024-04-27,66,310!2024-05-05,73,310-->
+A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement block}}: <!--SR:!2025-02-10,289,330!2024-05-05,73,310-->
 
 ```Python
 def __init__(parameter_names):

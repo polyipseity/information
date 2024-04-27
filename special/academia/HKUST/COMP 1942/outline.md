@@ -27,12 +27,12 @@ The content is in teaching order.
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-09-17,154,310-->
 - dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2024-07-29,115,290!2024-05-01,64,310-->
 - web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2024-05-03,65,310!2024-05-07,69,310-->
-- [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2024-04-29,63,310!2024-04-27,61,310-->
+- [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2024-04-29,63,310!2025-01-13,261,330-->
 
 ## week 2 lecture 1
 
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
-- support definition ::: We use "the number of transactions containing $X$" definition here. <!--SR:!2024-04-26,60,310!2024-12-23,244,330-->
+- support definition ::: We use "the number of transactions containing $X$" definition here. <!--SR:!2025-01-08,256,330!2024-12-23,244,330-->
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
 - [association rule learning § lift](../../../../general/association%20rule%20learning.md#lift)
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
@@ -97,7 +97,7 @@ The content is in teaching order.
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
-  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-05-21,27,291!2024-04-27,12,307-->
+  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-05-21,27,291!2024-06-18,52,327-->
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
@@ -111,9 +111,9 @@ The content is in teaching order.
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
-  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-04-30,15,331!2024-04-26,11,307-->
+  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-04-30,15,331!2024-06-02,36,307-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
-  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-05-04,19,331!2024-04-27,12,311-->
+  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-05-04,19,331!2024-06-06,40,311-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
   - entropy base ::: We use base 2. <!--SR:!2024-05-01,16,327!2024-05-03,18,327-->
 
@@ -121,7 +121,7 @@ The content is in teaching order.
 
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
-  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-05-02,17,331!2024-04-26,11,307-->
+  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-05-02,17,331!2024-06-16,50,327-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
 - [information gain § general definition](../../../../general/information%20gain%20(decision%20tree).md#general%20definition)
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
@@ -151,7 +151,7 @@ The content is in teaching order.
 - [lift chart § construction](../../../lift%20chart.md#construction)
 - [lift chart § interpretation](../../../lift%20chart.md#interpretation)
 - [lift chart § decile-wise](../../../lift%20chart.md#decile-wise)
-- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-05-19,26,291!2024-04-26,11,307-->
+- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-05-19,26,291!2024-06-14,48,327-->
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 
 ## week 8 lecture 1

@@ -82,7 +82,7 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at $0$. <!--SR:!2024-05-21,51,304-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$. <!--SR:!2024-05-31,61,310-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$. <!--SR:!2024-05-10,43,290-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-04-27,37,290-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-09-22,148,310-->
 
 ### construction of continuous functions
 
@@ -125,7 +125,7 @@ The set of continuous functions is closed under {{addition, subtraction, multipl
 >
 > $f / g$: Let $f'$ and $g'$ be the restriction of respectively $f$ and $g$ to $D' := \set{x \in D : g(x) \ne 0}$. Let $h := 1 / g'$. Then $h$ is continuous by above. Let $f' / g' := f' \cdot h$. Then $f' / g'$ is continuous by above, as required.
 
-Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md). Then $g \circ f$ is continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-05-05,19,333!2024-04-27,11,313!2024-04-27,11,313!2024-04-30,14,313-->
+Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md). Then $g \circ f$ is continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-05-05,19,333!2024-05-30,33,313!2024-06-15,49,333!2024-04-30,14,313-->
 
 > [!info]- proof of the set of continuous functions being closed under function composition
 >

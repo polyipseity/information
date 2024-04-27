@@ -66,6 +66,6 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-04-27,65,310-->
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2025-01-26,274,330-->
 
 You can of course put loops inside loops.

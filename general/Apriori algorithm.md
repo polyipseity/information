@@ -16,7 +16,7 @@ Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{
 
 Filtering the candidate, called the {{_count step_}}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {{_join step_ and _prune step_}}. <!--SR:!2024-05-10,67,336!2024-04-30,15,323-->
 
-For _join step_, one first consider, from the previous generation of frequent sets, all possible pairs of sets that {{have a [symmetric difference](symmetric%20difference.md) of size 2, i.e. the set are the same except for 1 item, like $\set{1, 2, 3}$ and $\set{1, 20, 3}$}}. Then, for each pair, {{the union of the two sets is a new _possible_ candidate set, like $\set{1, 2, 3, 20}$ using the same example}}. <!--SR:!2024-05-13,74,319!2024-04-27,61,310-->
+For _join step_, one first consider, from the previous generation of frequent sets, all possible pairs of sets that {{have a [symmetric difference](symmetric%20difference.md) of size 2, i.e. the set are the same except for 1 item, like $\set{1, 2, 3}$ and $\set{1, 20, 3}$}}. Then, for each pair, {{the union of the two sets is a new _possible_ candidate set, like $\set{1, 2, 3, 20}$ using the same example}}. <!--SR:!2024-05-13,74,319!2024-11-01,188,310-->
 
 For _prune step_, confirm the _possible_ candidate sets. For each _possible_ candidate set, {{check that all subsets that are one item less in size than the possible candidate set are in the previous generation of frequent sets, like checking $\set{1, 2, 3}, \set{1, 2, 20}, \set{1, 3, 20}, \set{2, 3, 20}$ using the same example}}. One may note that {{two subsets are guaranteed to be in the previous generation frequent sets because of how we generated the _possible_ candidate set, so we can skip checking the two subsets}}. After checking, if the check passes, {{it is part of the candidate for the new generation, otherwise it is not}}. <!--SR:!2024-07-29,117,290!2024-04-30,64,319!2024-05-07,69,319-->
 
@@ -267,7 +267,7 @@ Also, the time and space complexity of the algorithm is {{very high: $O \left( 2
 
 Common alternatives include {{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}}. <!--SR:!2024-04-29,14,323-->
 
-The [Eclat algorithm](Eclat%20algorithm.md) is {{generally faster than the Apriori algorithm, and might be slower when the database is large}}. The [FP-growth algorithm](FP-growth%20algorithm.md) {{outperforms both the Apriori and Eclat algorithms, because it does not generate and test candidates, uses a compact data structure, and requires only one (or two, depending on how you define "scan") database scan}}. <!--SR:!2024-06-09,45,323!2024-04-26,11,303-->
+The [Eclat algorithm](Eclat%20algorithm.md) is {{generally faster than the Apriori algorithm, and might be slower when the database is large}}. The [FP-growth algorithm](FP-growth%20algorithm.md) {{outperforms both the Apriori and Eclat algorithms, because it does not generate and test candidates, uses a compact data structure, and requires only one (or two, depending on how you define "scan") database scan}}. <!--SR:!2024-06-09,45,323!2024-05-31,34,303-->
 
 ## references
 
