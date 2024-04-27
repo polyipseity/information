@@ -209,7 +209,7 @@ The steps for naming an organic compound are:
 - most multiple bonds→:::←maximum length <!--SR:!2025-02-16,416,256!2025-10-04,690,282-->
 - maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
 - most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2025-03-02,332,262-->
-- most single bonds→:::←_(end)_ <!--SR:!2024-04-27,145,325!2025-03-21,668,345-->
+- most single bonds→:::←_(end)_ <!--SR:!2025-08-10,470,325!2025-03-21,668,345-->
 
 <!--/pytextgen-->
 
@@ -441,7 +441,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RX}}
 > - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
 > - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}} <!--SR:!2026-11-16,1064,320!2025-06-25,688,321!2024-05-26,453,362!2028-03-22,1477,322!2026-04-24,903,305!2024-04-27,428,367-->
+> - infix: {{(locant)}} <!--SR:!2026-11-16,1064,320!2025-06-25,688,321!2024-05-26,453,362!2028-03-22,1477,322!2026-04-24,903,305!2030-03-19,2152,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -461,7 +461,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{ROR'}}
 > - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
 > - suffix: {{ether}}
-> - infix: {{(locant)}} <!--SR:!2024-04-26,427,360!2024-04-27,425,362!2029-03-16,1851,382!2024-08-08,211,210!2026-02-24,925,345!2028-09-02,1699,387-->
+> - infix: {{(locant)}} <!--SR:!2030-02-03,2108,380!2030-02-05,2110,382!2029-03-16,1851,382!2024-08-08,211,210!2026-02-24,925,345!2028-09-02,1699,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -481,7 +481,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2024-04-26,22,130!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2024-05-26,29,130!2024-06-02,458,362!2024-05-01,429,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -653,7 +653,7 @@ return (
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 - nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
-- ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-04-26,9,130-->
+- ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-05-09,12,130-->
 - alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2024-06-08,197,244!2024-05-21,515,272-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-08-28,171,247-->

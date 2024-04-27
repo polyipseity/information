@@ -81,7 +81,7 @@ return _chain.from_iterable(await _gather(
 - `*`→:::←`/` <!--SR:!2024-10-11,179,310!2024-11-06,212,330-->
 - `/`→:::←`+` <!--SR:!2025-01-14,265,330!2025-01-26,277,330-->
 - `+`→:::←`-` <!--SR:!2024-12-24,251,330!2024-12-14,243,330-->
-- `-`→:::←_(end)_ <!--SR:!2024-04-27,66,310!2025-01-20,272,330-->
+- `-`→:::←_(end)_ <!--SR:!2025-02-13,292,330!2025-01-20,272,330-->
 
 <!--/pytextgen-->
 
@@ -147,7 +147,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`=` <!--SR:!2024-05-03,49,270!2024-05-27,42,270-->
 - `=`→:::←`<` <!--SR:!2024-09-09,147,290!2024-05-18,68,290-->
 - `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-04-28,67,310-->
-- `>`→:::←`<=` <!--SR:!2024-04-29,68,310!2024-04-27,23,250-->
+- `>`→:::←`<=` <!--SR:!2024-04-29,68,310!2024-06-23,57,250-->
 - `<=`→:::←`>=` <!--SR:!2024-10-09,174,310!2024-05-15,65,270-->
 - `>=`→:::←`<>` <!--SR:!2024-05-27,34,290!2024-05-21,29,290-->
 - `<>`→:::←_(end)_ <!--SR:!2024-11-11,215,330!2024-09-20,161,310-->
@@ -171,7 +171,7 @@ Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic funct
 
 ### logic functions
 
-Below are common logic functions, all of which {{accept booleans and return booleans}}: <!--SR:!2024-04-26,65,310-->
+Below are common logic functions, all of which {{accept booleans and return booleans}}: <!--SR:!2025-02-11,290,330-->
 
 %%
 
@@ -215,7 +215,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`NOT(boolean)` <!--SR:!2025-01-07,260,330!2024-05-01,69,310-->
 - `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-09-05,150,310!2024-04-30,68,310-->
 - `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-12-10,238,330!2024-09-30,168,310-->
-- `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-12-16,242,330!2024-04-26,65,310-->
+- `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-12-16,242,330!2025-01-24,272,330-->
 
 <!--/pytextgen-->
 
@@ -223,7 +223,7 @@ return _chain.from_iterable(await _gather(
 
 - `NOT(boolean)`::negate <!--SR:!2025-01-16,269,330-->
 - `AND(booleans...)`::every input is true <!--SR:!2024-12-16,244,330-->
-- `OR(booleans...)`::there exists true inputs <!--SR:!2024-04-27,65,310-->
+- `OR(booleans...)`::there exists true inputs <!--SR:!2025-02-10,289,330-->
 
 <!--/pytextgen-->
 
@@ -282,9 +282,9 @@ return _chain.from_iterable(await _gather(
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-05-02,24,270!2024-06-01,75,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-06-26,107,290!2024-07-01,84,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-09,35,250!2024-04-29,7,250-->
-- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-05-23,29,150!2024-04-26,53,250-->
+- `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-05-23,29,150!2024-05-23,26,230-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-06-25,69,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-06-16,52,230!2024-04-27,7,130-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-06-16,52,230!2024-05-11,14,150-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-10-09,177,310!2024-05-29,83,290-->
 
 <!--/pytextgen-->
@@ -296,7 +296,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`::length of `string` <!--SR:!2025-01-01,257,330-->
 - `LOWER(string)`::convert to lowercase <!--SR:!2024-10-29,204,330-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-12-24,246,330-->
-- `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-04-27,66,310-->
+- `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-11-23,210,310-->
 - `UPPER(string)`::convert to uppercase <!--SR:!2024-12-02,234,330-->
 
 <!--/pytextgen-->
@@ -356,7 +356,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-08-27,129,270!2024-12-03,235,330-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2024-06-15,89,290!2024-05-12,31,290-->
-- `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-04-27,65,310!2024-04-26,22,270-->
+- `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-11-09,196,310!2024-07-18,82,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-06-22,78,230!2024-05-29,79,270-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-05-15,40,210!2024-07-04,108,270-->

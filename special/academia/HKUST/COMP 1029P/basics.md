@@ -148,7 +148,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`in` <!--SR:!2024-10-05,171,310!2025-01-18,269,330-->
 - `in`→:::←`<` <!--SR:!2024-05-05,73,310!2024-05-16,43,230-->
 - `<`→:::←`<=` <!--SR:!2024-10-09,176,310!2024-05-23,31,290-->
-- `<=`→:::←`>` <!--SR:!2024-04-26,65,310!2024-06-10,68,230-->
+- `<=`→:::←`>` <!--SR:!2024-11-14,201,310!2024-06-10,68,230-->
 - `>`→:::←`>=` <!--SR:!2024-07-14,94,250!2024-04-28,67,310-->
 - `>=`→:::←`!=` <!--SR:!2024-06-01,80,270!2024-05-16,29,210-->
 - `!=`→:::←`==` <!--SR:!2024-06-23,97,290!2024-05-12,27,290-->
@@ -216,7 +216,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`not` <!--SR:!2025-01-01,254,330!2024-12-17,245,330-->
-- `not`→:::←`and` <!--SR:!2024-12-23,248,330!2024-04-27,66,310-->
+- `not`→:::←`and` <!--SR:!2024-12-23,248,330!2025-02-03,282,330-->
 - `and`→:::←`or` <!--SR:!2025-01-14,264,330!2024-12-18,247,330-->
 - `or`→:::←_(end)_ <!--SR:!2024-10-21,187,310!2024-11-05,211,330-->
 
@@ -238,6 +238,6 @@ To assign a value or the result of an expression to a variable, use {{`=`}}: <!-
 variableName = 1 + 2
 ```
 
-One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-04-27,65,310-->
+One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-11-13,200,310-->
 
 Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-10-15,180,310-->

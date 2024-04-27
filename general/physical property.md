@@ -69,7 +69,7 @@ return await memorize_seq(
 <!--pytextgen generate section="bad29e"--><!-- The following content is generated at 2024-01-04T20:17:52.433922+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2024-07-20,339,290!2024-06-01,330,330-->
-- [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2024-04-27,92,250!2024-07-14,145,270-->
+- [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2024-12-12,229,250!2024-07-14,145,270-->
 - [color](color.md)→:::←[density](density.md) <!--SR:!2025-02-23,439,270!2024-05-28,326,330-->
 - [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2024-05-03,10,130!2024-05-29,327,330-->
 - [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-06-24,322,290!2025-08-17,531,270-->

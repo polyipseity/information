@@ -20,7 +20,7 @@ if (condition)
 
 The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-09-13,158,310-->
 
-An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2024-04-27,67,310-->
+An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2025-02-09,288,330-->
 
 ```Java
 if (condition)
@@ -29,7 +29,7 @@ else
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-04-26,66,310-->
+The semantics of `if...else` is also obvious: {{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-11-20,207,310-->
 
 One can chain `if...else` by {{using another `if...else` statement as the `else` statement}}: <!--SR:!2024-05-03,72,310-->
 

@@ -18,11 +18,11 @@ tags:
 
 %%
 
-It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--SR:!2024-04-27,4,270-->
+It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--SR:!2024-05-11,14,290-->
 
 ## 6 stages of buyer experience cycle
 
-The {{6 stages of buyer experience}} cycle are the {{map row headers}}. <!--SR:!2024-04-26,3,259!2024-04-27,4,270-->
+The {{6 stages of buyer experience}} cycle are the {{map row headers}}. <!--SR:!2024-05-06,9,259!2024-05-14,17,290-->
 
 %%
 
@@ -56,19 +56,19 @@ disposal
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←purchase <!--SR:!2024-04-26,3,250!2024-04-27,4,279-->
-- purchase→:::←delivery <!--SR:!2024-04-27,4,270!2024-04-27,4,270-->
-- delivery→:::←use <!--SR:!2024-04-27,4,270!2024-04-27,4,270-->
-- use→:::←supplements <!--SR:!2024-04-26,3,259!2024-04-27,4,279-->
-- supplements→:::←maintenance <!--SR:!2024-04-27,4,270!2024-04-27,4,279-->
-- maintenance→:::←disposal <!--SR:!2024-04-27,4,270!2024-04-27,4,279-->
-- disposal→:::←_(end)_ <!--SR:!2024-04-27,4,279!2024-04-27,4,279-->
+- _(begin)_→:::←purchase <!--SR:!2024-05-08,11,270!2024-05-08,11,279-->
+- purchase→:::←delivery <!--SR:!2024-05-14,17,290!2024-05-11,14,290-->
+- delivery→:::←use <!--SR:!2024-05-14,17,290!2024-05-10,13,270-->
+- use→:::←supplements <!--SR:!2024-05-06,9,279!2024-05-14,17,299-->
+- supplements→:::←maintenance <!--SR:!2024-05-11,14,290!2024-05-10,13,279-->
+- maintenance→:::←disposal <!--SR:!2024-05-12,15,290!2024-05-13,16,299-->
+- disposal→:::←_(end)_ <!--SR:!2024-05-13,16,299!2024-05-13,16,299-->
 
 <!--/pytextgen-->
 
 ## 6 utility levers
 
-The {{6 utility levers}} are the {{map column headers}}. <!--SR:!2024-04-26,3,259!2024-04-26,3,259-->
+The {{6 utility levers}} are the {{map column headers}}. <!--SR:!2024-05-05,8,259!2024-05-08,11,279-->
 
 %%
 
@@ -102,16 +102,16 @@ simplicity: remove complexity or hassle
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-04-26,3,259!2024-04-27,4,270-->
-- convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-04-27,4,279!2024-04-27,4,279-->
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-04-26,3,259!2024-04-27,4,279-->
-- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-04-26,3,259!2024-04-26,3,259-->
-- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-04-26,3,250!2024-04-27,4,279-->
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-04-26,2,230!2024-04-26,3,259-->
-- simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-04-27,4,270!2024-04-27,4,279-->
+- _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-05-05,8,259!2024-05-11,14,290-->
+- convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-05-09,12,279!2024-05-15,18,299-->
+- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-05-05,8,259!2024-04-29,2,259-->
+- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-05-05,8,259!2024-05-05,8,259-->
+- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-05-06,9,250!2024-04-29,2,259-->
+- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-05-02,5,250!2024-05-05,8,259-->
+- simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-05-11,14,290!2024-05-07,10,279-->
 
 <!--/pytextgen-->
 
 ## usage
 
-Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-04-27,4,279!2024-04-26,3,250!2024-04-27,4,270-->
+Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-05-06,9,279!2024-05-04,7,250!2024-05-07,10,270-->

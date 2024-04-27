@@ -30,7 +30,7 @@ The content is in teaching order.
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2024-05-04,13,325!2024-05-04,13,325-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-05-20,45,310-->
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-04-26,3,320!2024-04-27,4,340-->
+- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-04-26,3,320!2024-05-15,18,360-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-05-10,17,357-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-05-01,9,315!2024-05-04,12,332-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-04-26,3,321!2024-04-27,4,340-->
