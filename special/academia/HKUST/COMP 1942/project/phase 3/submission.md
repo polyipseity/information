@@ -1450,6 +1450,10 @@ To conclude, we are also likely to use this model, as it can handle unseen value
 
 Gathering the 5 conclusions we made for each model, we prefer to use model 2, model 4, and model 5.
 
-If we are simply aiming for the highest accuracy, we would simply use model 5. If we are trying to convince non-tech-savvy people, however, then model 5 is out of the question, and model 2 or model 4 is used instead, depending on which model the person understands better. And if the classifier is meant to be used by a human manually instead of being calculated by machines, then model 2 is the only option, as it is the model with the least computation involved, and its accuracy is still reasonably well.
+We found that model 1 has very low accuracy (79.0% for training, 76% for validation) compared to other models. Also, it can only consider continuous variables. This further makes it less accurate, and unable to discriminate data with the same continuous variable values but different discrete variable values.
+
+As for model 3, it has similar issue as model 1, as the model accuracy is low (77.4%) compared to other models. We also observed that the naive Bayes classifier in XLMiner requires each the attribute values to appear at least once in the training dataset, even for continuous attributes. This might make it unable to predict new data with unseen attribute values.
+
+If we are simply aiming for the highest accuracy, we would simply use model 5. If we are trying to convince the general public, however, then model 5 is out of the question, and model 2 or model 4 is used instead, depending on which model the person understands better. And if the classifier is meant to be used by a human manually instead of being calculated by machines, then model 2 is the only option, as it is the model that could be interpreted by a layman, and its accuracy is still reasonably well compared to other models.
 
 ## End of Report
