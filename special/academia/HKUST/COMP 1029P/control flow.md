@@ -48,7 +48,7 @@ Python has {{no `switch` statements before Python 3.10. Since Python 3.10, Pytho
 
 ## iteration
 
-In Python, iteration is done through using `for...in`. A `for...in` statement consists of {{loop variables, iterable, and a statement block}}: <!--SR:!2024-04-28,66,310-->
+In Python, iteration is done through using `for...in`. A `for...in` statement consists of {{loop variables, iterable, and a statement block}}: <!--SR:!2025-01-24,271,330-->
 
 ```Python
 for loop_variables in iterable:

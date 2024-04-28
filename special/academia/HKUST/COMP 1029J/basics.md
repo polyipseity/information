@@ -94,7 +94,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`String` <!--SR:!2025-01-20,275,330!2024-11-08,214,330-->
 - `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2025-01-14,269,330-->
-- `boolean`→:::←`char` <!--SR:!2024-04-26,66,310!2024-05-01,70,310-->
+- `boolean`→:::←`char` <!--SR:!2025-02-03,281,330!2024-05-01,70,310-->
 - `char`→:::←`double` <!--SR:!2024-08-10,127,290!2024-10-28,189,310-->
 - `double`→:::←`float` <!--SR:!2024-08-03,120,290!2024-09-24,166,310-->
 - `float`→:::←`int` <!--SR:!2024-07-14,100,290!2024-04-30,69,310-->
@@ -106,7 +106,7 @@ return _chain.from_iterable(await _gather(
 
 - `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-12-22,249,330-->
 - `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
-- `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2024-04-28,68,310-->
+- `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-02-12,290,330-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-10-09,177,310-->
 - `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-10-16,183,310-->
 - `int`::An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
@@ -130,7 +130,7 @@ float aFloat = 3; // the `int` of value 3 is implicitly converted into a `float`
 assert aFloat == 3;
 ```
 
-If implicit conversion is disallowed, one can also {{explicitly convert the value to the type of the variable, but with loss of data}}: <!--SR:!2024-04-28,68,310-->
+If implicit conversion is disallowed, one can also {{explicitly convert the value to the type of the variable, but with loss of data}}: <!--SR:!2025-02-13,291,330-->
 
 ```Java
 int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly converted into an `int` of value 3
@@ -205,12 +205,12 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.620801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`++` <!--SR:!2024-05-03,72,310!2024-04-30,69,310-->
-- `++`→:::←`--` <!--SR:!2025-01-21,274,330!2024-04-26,65,310-->
+- `++`→:::←`--` <!--SR:!2025-01-21,274,330!2025-01-30,277,330-->
 - `--`→:::←`*` <!--SR:!2024-06-10,63,290!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
 - `/`→:::←`%` <!--SR:!2025-01-17,270,330!2024-07-20,106,290-->
 - `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
-- `+`→:::←`-` <!--SR:!2024-04-28,67,310!2024-04-26,66,310-->
+- `+`→:::←`-` <!--SR:!2025-02-10,288,330!2025-02-04,282,330-->
 - `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2025-01-29,281,330-->
 
 <!--/pytextgen-->
@@ -277,7 +277,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`<` <!--SR:!2024-05-01,13,170!2024-05-13,60,290-->
-- `<`→:::←`>` <!--SR:!2025-02-17,296,330!2024-04-26,65,310-->
+- `<`→:::←`>` <!--SR:!2025-02-17,296,330!2025-01-28,275,330-->
 - `>`→:::←`<=` <!--SR:!2024-09-28,166,310!2024-05-01,56,270-->
 - `<=`→:::←`>=` <!--SR:!2024-10-12,179,310!2024-07-06,106,290-->
 - `>=`→:::←`==` <!--SR:!2024-05-01,70,310!2024-05-02,9,130-->
@@ -292,7 +292,7 @@ return _chain.from_iterable(await _gather(
 - `>`::greater than <!--SR:!2024-12-29,255,330-->
 - `<=`::lesser than or equal to <!--SR:!2024-04-29,68,310-->
 - `>=`::greater than or equal to <!--SR:!2025-01-23,276,330-->
-- `==`::equal to <!--SR:!2024-04-27,66,310-->
+- `==`::equal to <!--SR:!2025-02-01,279,330-->
 - `!=`::not equal to <!--SR:!2024-11-24,228,330-->
 
 <!--/pytextgen-->

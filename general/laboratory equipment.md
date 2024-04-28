@@ -150,7 +150,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2025-01-11,286,290!2027-10-17,1291,350-->
 - [Bunsen burner](Bunsen%20burner.md)→:::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2026-11-25,959,330!2027-12-18,1340,350-->
-- [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2025-06-11,595,310!2024-04-28,301,330-->
+- [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2025-06-11,595,310!2028-01-26,1368,350-->
 - [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2024-05-03,33,210!2026-11-03,942,330-->
 - [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2024-09-12,143,310!2027-05-07,1162,350-->
 - [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-05-03,306,330!2024-05-31,329,330-->

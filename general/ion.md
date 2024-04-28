@@ -364,7 +364,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-04-28,13,141-->
+- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-05-07,9,130-->
 - <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2025-03-30,513,321-->
 - <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2024-06-15,253,261-->
@@ -498,7 +498,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="50ad"--><!-- The following content is generated at 2024-01-28T09:35:10.075768+08:00. Any edits will be overridden! -->
 
-- <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2024-04-28,306,361-->
+- <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2028-06-21,1515,381-->
 - <span style="color: yellow; background-color: black;">yellow</span>::chromate ion <!--SR:!2026-10-30,1008,361-->
 - <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2024-06-19,348,361-->
 - <span style="color: green;">green</span>::manganate ion <!--SR:!2024-05-02,85,262-->

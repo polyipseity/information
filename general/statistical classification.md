@@ -15,7 +15,7 @@ tags:
 
 ## application domains
 
-Classification has {{many application across many fields}}. Usually, it is used to {{predict outcomes given some other measurable inputs}}. <!--SR:!2024-04-28,12,270!2024-06-06,40,290-->
+Classification has {{many application across many fields}}. Usually, it is used to {{predict outcomes given some other measurable inputs}}. <!--SR:!2024-06-10,43,290!2024-06-06,40,290-->
 
 ## references
 

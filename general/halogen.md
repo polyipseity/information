@@ -70,7 +70,7 @@ return await memorize_map(
 - [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2024-05-30,105,230-->
 - [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2024-12-27,420,290-->
 - [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2024-06-01,330,330-->
-- [tennessine](tennessine.md)::unknown <!--SR:!2024-04-28,301,330-->
+- [tennessine](tennessine.md)::unknown <!--SR:!2028-01-27,1369,350-->
 
 <!--/pytextgen-->
 
