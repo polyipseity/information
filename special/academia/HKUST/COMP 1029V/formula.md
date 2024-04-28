@@ -25,7 +25,7 @@ A formula always {{starts with an equals sign `=`}}. <!--SR:!2024-05-02,70,310--
 
 To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-11-10,213,330-->
 
-When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-04-29,67,310!2024-04-28,67,310-->
+When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-04-29,67,310!2024-11-23,209,310-->
 
 ## operators
 
@@ -146,7 +146,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`=` <!--SR:!2024-05-03,49,270!2024-05-27,42,270-->
 - `=`→:::←`<` <!--SR:!2024-09-09,147,290!2024-05-18,68,290-->
-- `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-04-28,67,310-->
+- `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-11-24,210,310-->
 - `>`→:::←`<=` <!--SR:!2024-04-29,68,310!2024-06-23,57,250-->
 - `<=`→:::←`>=` <!--SR:!2024-10-09,174,310!2024-05-15,65,270-->
 - `>=`→:::←`<>` <!--SR:!2024-05-27,34,290!2024-05-21,29,290-->
@@ -156,7 +156,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-31T12:32:22.829082+08:00. Any edits will be overridden! -->
 
-- `=`::equal to <!--SR:!2024-04-28,66,310-->
+- `=`::equal to <!--SR:!2025-02-04,282,330-->
 - `<`::lesser than <!--SR:!2024-11-13,218,330-->
 - `>`::greater than <!--SR:!2024-05-02,70,310-->
 - `<=`::lesser than or equal to <!--SR:!2024-12-24,248,330-->

@@ -39,7 +39,7 @@ Note that Python attributes are not {{declared inside the class. Instead, they a
 
 ## method
 
-A method consists of {{a name, parameter names, and statement block}}: <!--SR:!2024-04-28,67,310-->
+A method consists of {{a name, parameter names, and statement block}}: <!--SR:!2024-11-13,199,310-->
 
 ```Python
 def name(parameter_names):

@@ -33,7 +33,7 @@ Function Multiply(Left, Right)
 End Function
 ```
 
-You can also specify the parameter types by {{appending `As ParameterType` and prepending `ByVal` to the parameter name}}. `ByVal` means {{storing the inputted value to the parameter}}. Note that {{`ByRef` is also another option apart from `ByVal`, but it will not be mentioned here}}. <!--SR:!2024-09-11,155,310!2024-09-12,157,310!2024-04-28,67,310-->
+You can also specify the parameter types by {{appending `As ParameterType` and prepending `ByVal` to the parameter name}}. `ByVal` means {{storing the inputted value to the parameter}}. Note that {{`ByRef` is also another option apart from `ByVal`, but it will not be mentioned here}}. <!--SR:!2024-09-11,155,310!2024-09-12,157,310!2025-02-18,296,330-->
 
 ```VB
 Function Multiply(ByVal Left As Integer, ByVal Right As Integer)
