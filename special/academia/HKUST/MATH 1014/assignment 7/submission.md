@@ -76,11 +76,71 @@ _Hint_: AM-GM inequality.
 
 ## Q7
 
+For each of the following series, find all the values of $p \in \mathbb{R}$ such that the series converges.
+
 ### Q7.a
+
+$$\sum_{k = 1}^{+\infty} k^2 \sin^p \frac 1 k$$
+
+> $$\begin{aligned}
+> & \phantom \implies \frac 1 k \in (0, 1] \\
+> & \implies \sin^p \frac 1 k > 0 \\
+> & \implies k^2 \sin^p \frac 1 k > 0 \\
+> \\
+> & \phantom \implies k > 0 \\
+> & \implies k^{2 - p} > 0 \\
+> \\
+> & \phantom = \lim_{k \to +\infty} \frac {k^2 \sin^p \frac 1 k} {k^{2 - p} } \\
+> & = \lim_{k \to +\infty} \frac {\sin^p \frac 1 k} {k^{-p} } \\
+> & = \lim_{k \to +\infty} \left(\frac {\sin \frac 1 k} {\frac 1 k}\right)^p \\
+> & = 1^p \\
+> & = 1 \\
+> \\
+> & \phantom \implies \sum_{k = 1}^{+\infty} k^{2 - p}\text{ converges by the }p\text{-test iff }p \in (3, +\infty) \\
+> & \phantom \implies \sum_{k = 1}^{+\infty} k^2 \sin^p \frac 1 k\text{ converges by the limit comparison test iff }p \in (3, +\infty)
+> \end{aligned}$$
 
 ### Q7.b
 
+$$\sum_{k = 2}^{+\infty} \frac 1 {(\ln \ln k)^{p \ln k}}$$
+
+> $$\begin{aligned}
+> & \phantom = \sum_{k = 2}^{+\infty} \frac 1 {(\ln \ln k)^{p \ln k} } && \cdots (1) \\
+> \\
+> & \phantom = \int_2^{+\infty} \! \frac 1 {(\ln \ln k)^{p \ln k} } \,\mathrm{d}k && \cdots (2) \\
+> & = \int_{\ln 2}^{+\infty} \! \frac {e^k} {(\ln k)^{p k} } \,\mathrm{d}k && \cdots (3) \quad (\text{change of variable: }\ln k \mapsto k) \\
+> \\
+> & \phantom = \sum_{k = 1}^{+\infty} \frac {e^k} {(\ln k)^{pk} } && \cdots (4) \\
+> & = \sum_{k = 1}^{+\infty} \left(\frac e {(\ln k)^p} \right)^k && \cdots (5) \\
+> \\
+> & \phantom = \lim_{k \to +\infty} \sqrt[k]{\left\lvert \left(\frac e {(\ln k)^p} \right)^k \right\rvert} && \cdots (6) \\
+> & = \lim_{k \to +\infty} \sqrt[k]{\left(\frac e {(\ln k)^p} \right)^k} && \left(k > 1 \implies \frac e {\ln k} > 0 \right) \\
+> & = \lim_{k \to +\infty} \frac e {(\ln k)^p} \\
+> & = \begin{cases} 0, & p > 0 \\ e, & p = 0 \\ +\infty, & p < 0 \end{cases} \\
+> \\
+> & \phantom \implies (6) < 1\text{ iff }p \in (0, +\infty) \\
+> & \implies (5)\text{ is convergent iff }p \in (0, +\infty)\text{ by the root test} \\
+> & \implies (4)\text{ is convergent iff }p \in (0, +\infty) \\
+> & \implies (3)\text{ is convergent iff }p \in (0, +\infty)\text{ by the integral test} \\
+> & \implies (2)\text{ is convergent iff }p \in (0, +\infty) \\
+> & \implies (1)\text{ is convergent iff }p \in (0, +\infty)\text{ by the integral test}
+> \end{aligned}$$
+
 ### Q7.c
+
+$$\sum_{k = 3}^{+\infty} \frac 1 {k (\ln k)(\ln \ln k)^p}$$
+
+> $$\begin{aligned}
+> & \phantom = \sum_{k = 3}^{+\infty} \frac 1 {k (\ln k) (\ln \ln k)^p} && \cdots (1) \\
+> \\
+> & \phantom = \int_3^{+\infty} \frac 1 {k (\ln k) (\ln \ln k)^p} \,\mathrm{d}k && \cdots (2) \\
+> & = \int_{\ln 3}^{+\infty} \frac 1 {k (\ln k)^p} \,\mathrm{d}k && (\text{change of variable: }\ln k \mapsto k) \\
+> & = \int_{\ln \ln 3}^{+\infty} \frac 1 {k^p} \,\mathrm{d}k && \cdots (3) \quad (\text{change of variable: }\ln k \mapsto k) \\
+> \\
+> & \phantom \implies (3)\text{ is convergent iff }p \in (1, +\infty)\text{ by the }p\text{-test} \\
+> & \implies (2)\text{ is convergent iff }p \in (1, +\infty) \\
+> & \implies (1)\text{ is convergent iff }p \in (1, +\infty)\text{ by the integral test}
+> \end{aligned}$$
 
 ## Q8
 
