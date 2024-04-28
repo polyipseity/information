@@ -473,6 +473,8 @@ The training–validation dataset (10000 data) is randomly split into a training
 
 These are the results of the model on the training dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -511,6 +513,8 @@ The lift charts are as follows:
 
 These are the results of the model on the validation dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -544,6 +548,19 @@ The lift charts are as follows:
 | __Lift Chart__                                                           | __Decile-wise Lift Chart__                                                             |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 1: Validation: Lift Chart](attachments/model1_validation_lc.png) | ![Model 1: Validation: Decile-wise Lift Chart](attachments/model1_validation_dwlc.png) |
+
+#### Model 1: Test
+
+These are the results of the model on the validation dataset.
+
+The predicted frequencies are as follows:
+
+| __Predicted__ | __Frequency__ |
+| ------------- | ------------- |
+| __<=50k__     | 5246          |
+| __>50k__      | 2754          |
+
+The prediction results are available as `predicted1.txt`. `0` represents `<=50k` while `1` represents `>50k`.
 
 #### Model 1: Examples
 
@@ -638,6 +655,8 @@ The training–validation dataset (10000 data) is randomly split into a training
 
 These are the results of the model on the training dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -676,6 +695,8 @@ The lift charts are as follows:
 
 These are the results of the model on the validation dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -710,6 +731,19 @@ The lift charts are as follows:
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 2: Validation: Lift Chart](attachments/model2_validation_lc.png) | ![Model 2: Validation: Decile-wise Lift Chart](attachments/model2_validation_dwlc.png) |
 
+#### Model 2: Test
+
+These are the results of the model on the validation dataset.
+
+The predicted frequencies are as follows:
+
+| __Predicted__ | __Frequency__ |
+| ------------- | ------------- |
+| __<=50k__     | 5401          |
+| __>50k__      | 2599          |
+
+The prediction results are available as `predicted2.txt`. `0` represents `<=50k` while `1` represents `>50k`.
+
 #### Model 2: Examples
 
 In this model, we are using the best pruned tree. This makes the decision tree small enough so we can explain it very easily. Below is the decision tree:
@@ -725,6 +759,14 @@ In this model, we are using the best pruned tree. This makes the decision tree s
 > - `native country` (root->right->left->left->left): Go left if in {1 (Germany), 10 (Dominican-Republic), 12 (Iran), 8 (Guatemala)}; otherwise go right.
 >
 > Note that the attribute values are standardized, i.e. replaced by their standard deviation scores, so the threshold numbers of the decision nodes are in terms of the standard deviation scores.
+>
+> ![Model 2: Decision Tree: Drawn](attachments/model2_tree_drawn.png)
+>
+> __Model 2: Decision Tree: Drawn__
+>
+> Same as above, just a differently-styled decision tree.
+>
+> - Text in picture: Note that all numeric continuous attributes must be standardized first! You can standardize a continuous attribute by finding the mean and the standard deviation of the entire attribute column, then find the standard scores for all data points.
 
 Take the below 2 examples, one from each possible `income`, from the validation dataset (values in parentheses are the values after standardization):
 
@@ -788,6 +830,8 @@ The training–validation dataset (10000 data) is not split. That means the data
 
 These are the results of the model on the training–validation dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -821,6 +865,19 @@ The lift charts are as follows:
 | __Lift Chart__                                                                             | __Decile-wise Lift Chart__                                                                               |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | ![Model 3: Training–Validation: Lift Chart](attachments/model3_training-validation_lc.png) | ![Model 3: Training–Validation: Decile-wise Lift Chart](attachments/model3_training-validation_dwlc.png) |
+
+#### Model 3: Test
+
+These are the results of the model on the validation dataset.
+
+The predicted frequencies are as follows:
+
+| __Predicted__ | __Frequency__ |
+| ------------- | ------------- |
+| __<=50k__     | 4551          |
+| __>50k__      | 3449          |
+
+The prediction results are available as `predicted3.txt`. `0` represents `<=50k` while `1` represents `>50k`.
 
 #### Model 3: Examples
 
@@ -1133,6 +1190,8 @@ The training–validation dataset (10000 data) is randomly split into a training
 
 These are the results of the model on the training dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better. For training error, it describes how far the neural network is from perfectly predicting the data perfectly, so the lower the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -1175,6 +1234,8 @@ The lift charts are as follows:
 
 These are the results of the model on the validation dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -1208,6 +1269,19 @@ The lift charts are as follows:
 | __Lift Chart__                                                           | __Decile-wise Lift Chart__                                                             |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | ![Model 4: Validation: Lift Chart](attachments/model4_validation_lc.png) | ![Model 4: Validation: Decile-wise Lift Chart](attachments/model4_validation_dwlc.png) |
+
+#### Model 4: Test
+
+These are the results of the model on the validation dataset.
+
+The predicted frequencies are as follows:
+
+| __Predicted__ | __Frequency__ |
+| ------------- | ------------- |
+| __<=50k__     | 5258          |
+| __>50k__      | 2742          |
+
+The prediction results are available as `predicted4.txt`. `0` represents `<=50k` while `1` represents `>50k`.
 
 #### Model 4: Examples
 
@@ -1308,6 +1382,8 @@ The training–validation dataset (10000 data) is randomly split into a training
 
 These are the results of the model on the training dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better. For training error, it describes how far the neural network is from perfectly predicting the data perfectly, so the lower the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -1346,6 +1422,8 @@ The lift charts are as follows:
 
 These are the results of the model on the validation dataset.
 
+How to interpret the results below? The confusion matrix shows that number of data falling into the 4 possible combinations of actual income/predicted income: `<=50k`/`<=50k`, `<=50k`/`>50k`, `>50k`/`<=50k`, `>50k`/`>50k`. The error reports shows, for each actual income, the total number of data points, how many data points are predicted wrongly, and the percentage error of the data predicted wrongly. The metrics show the several ways to measure the performance of this model. The accuracy is simply how many data points are predicted correctly. The accuracy percentage is the portion of data points predicted correctly. The specificity is the portion of correctly predicted `<=50k` data points over data points that are actually `<=50k`. The sensitivity is the portion of correctly predicted `>50k` data points over data points that are actually `>50k`. The precision is the portion of data points that are correctly predicted `>50k` over data points that are correctly or incorrectly predicted `50k`. The F1 score is defined as $2 \frac {\text{precision} \cdot \text{recall} } {\text{precision} + \text{recall} }$ and describes both the precision and recall in one metric, making it a more comprehensive measurement of model performance than simply using precision or recall alone. The success class is simply which income is treated as the "positive" condition, which is `>50k`. The success probability is the minimum confidence (inclusive) of being `>50k` required to predict `>50k` for that data point. Both the lift chart and the decile-wise lift chart describe the model performance compared to the baseline model, i.e. the average model. For the lift chart, the higher the (signed) area between the two curves is, the better. For the decile-wise lift chart, the more abrupt the transition from the 1st decile to the 10th decile is, the better.
+
 Confusion matrix is as follows:
 
 | __Actual\Predicted__ | __<=50k__ | __>50k__ |
@@ -1383,6 +1461,19 @@ The lift charts are as follows:
 596 epochs are used to train the neural network to reach a network error of 0.391787034 and data error of 0.180166667. The training error graph is as follows:
 
 ![Model 5: Training: Error](attachments/model5_training_error.png)
+
+#### Model 5: Test
+
+These are the results of the model on the validation dataset.
+
+The predicted frequencies are as follows:
+
+| __Predicted__ | __Frequency__ |
+| ------------- | ------------- |
+| __<=50k__     | 5258          |
+| __>50k__      | 2742          |
+
+The prediction results are available as `predicted5.txt`. `0` represents `<=50k` while `1` represents `>50k`.
 
 #### Model 5: Examples
 
