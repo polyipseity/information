@@ -9,7 +9,7 @@ tags:
 
 # Java array
 
-A variable can store a single value while an array can {{store multiple values}}. <!--SR:!2024-04-29,68,310-->
+A variable can store a single value while an array can {{store multiple values}}. <!--SR:!2025-02-26,303,330-->
 
 ## creation
 

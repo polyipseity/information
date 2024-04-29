@@ -60,7 +60,7 @@ return await memorize_table(
 - kitchen foil→:::←overhead power cables <!--SR:!2024-09-01,127,250!2024-04-30,19,150-->
 - overhead power cables→:::←soft drink cans <!--SR:!2024-10-07,373,290!2024-05-29,44,210-->
 - soft drink cans→:::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
-- window frames→:::←_(end)_ <!--SR:!2027-03-12,1123,350!2024-04-29,109,290-->
+- window frames→:::←_(end)_ <!--SR:!2027-03-12,1123,350!2025-03-10,315,290-->
 
 <!--/pytextgen-->
 

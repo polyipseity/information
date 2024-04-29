@@ -19,7 +19,7 @@ Note that opening a nonexistent file {{will throw a `FileNotFoundError`. Further
 
 ## reading
 
-We can read the entire file into a string by {{calling `file.read()`}}. Alternatively, we can read the entire file into a list of lines by {{calling `file.readlines()`}}. <!--SR:!2025-01-16,267,330!2024-04-29,67,310-->
+We can read the entire file into a string by {{calling `file.read()`}}. Alternatively, we can read the entire file into a list of lines by {{calling `file.readlines()`}}. <!--SR:!2025-01-16,267,330!2024-11-17,202,310-->
 
 ## writing
 

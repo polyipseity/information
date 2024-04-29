@@ -21,7 +21,7 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 - see: [general/decision tree](../general/decision%20tree.md)
 
-The decision tree ends are called {{_leaf nodes_ or _terminal nodes_}}. The rest of the nodes are called {{_decision nodes_ or _internal nodes_}}. <!--SR:!2024-04-29,14,290!2024-06-10,44,290-->
+The decision tree ends are called {{_leaf nodes_ or _terminal nodes_}}. The rest of the nodes are called {{_decision nodes_ or _internal nodes_}}. <!--SR:!2024-06-09,41,290!2024-06-10,44,290-->
 
 The _error rate_ of a decision tree is {{the number of mispredicted observations divided by the number of all observations}}. <!--SR:!2024-05-11,19,250-->
 

@@ -296,7 +296,7 @@ return _chain.from_iterable(await _gather(
 - [sodium](sodium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-05-31,329,330-->
 - [lithium](lithium.md)::[electrolysis](electrolysis.md) <!--SR:!2026-01-26,782,330-->
 - [barium](barium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-05-08,311,330-->
-- [strontium](strontium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-04-29,302,330-->
+- [strontium](strontium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-29,153,310-->
 - [calcium](calcium.md)::[electrolysis](electrolysis.md) <!--SR:!2026-10-03,916,330-->
 - [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-05-11,258,270-->
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-07-17,133,310-->

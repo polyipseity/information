@@ -261,7 +261,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
-- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2024-04-29,345,224!2024-11-08,626,267-->
+- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2026-06-12,774,224!2024-11-08,626,267-->
 - bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2027-07-16,1187,250!2024-11-14,234,201-->
 - prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2025-08-29,636,230!2024-06-11,211,210-->
 
@@ -491,7 +491,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}} <!--SR:!2025-08-29,784,340!2024-11-03,544,322!2024-04-29,427,362!2024-12-13,543,322!2026-10-27,966,305!2029-11-05,2042,387-->
+> - infix: {{(locant)}} <!--SR:!2025-08-29,784,340!2024-11-03,544,322!2028-07-22,1545,362!2024-12-13,543,322!2026-10-27,966,305!2029-11-05,2042,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -690,7 +690,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2027-05-02,1102,364!2024-07-16,350,364!2025-06-13,493,324!2024-05-10,237,364!2026-10-12,956,364!2024-04-29,307,364-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2027-05-02,1102,364!2024-07-16,350,364!2025-06-13,493,324!2024-05-10,237,364!2026-10-12,956,364!2027-05-20,1116,364-->
 
 <!--/pytextgen-->
 

@@ -53,7 +53,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-06-02,44,290!2024-06-26,65,310-->
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-05-19,33,270!2024-06-29,68,310-->
-- [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-04-29,14,250!2024-05-06,21,250-->
+- [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-06-02,34,250!2024-05-06,21,250-->
 - [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-05-16,30,270!2024-05-19,31,270-->
 - [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-05-11,26,270!2024-06-20,60,310-->
 - [test](#test) (brown)→:::←_(end)_ <!--SR:!2024-06-29,68,310!2024-06-13,55,310-->
@@ -130,7 +130,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←(empathize) assume a beginner's mindset <!--SR:!2024-05-12,27,270!2024-06-28,67,310-->
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2024-06-26,59,270!2024-05-25,39,290-->
-- (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-05-17,31,270!2024-04-29,14,250-->
+- (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-05-17,31,270!2024-06-18,50,270-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-06-12,48,270!2024-06-27,66,310-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-05-09,11,150!2024-05-07,9,210-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-04-30,3,150!2024-05-01,16,230-->

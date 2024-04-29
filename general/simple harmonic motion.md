@@ -125,7 +125,7 @@ E & = K + U \\
 >
 > - where
 >     - output properties: {{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}}
->     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-08-05,164,296!2025-02-01,323,356!2024-04-29,92,358-->
+>     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}} <!--SR:!2024-08-05,164,296!2025-02-01,323,356!2025-03-23,328,358-->
 
 ### mass of a simple pendulum
 
