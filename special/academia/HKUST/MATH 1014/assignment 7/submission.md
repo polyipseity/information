@@ -144,9 +144,79 @@ $$\sum_{k = 3}^{+\infty} \frac 1 {k (\ln k)(\ln \ln k)^p}$$
 
 ## Q8
 
+Let $(a_n)$ be a sequence of real numbers, and define $$a_n^+ := \max\{a_n, 0\} \qquad \text{and} \qquad a_n^- := \max\{-a_n, 0\}$$ for every $n$. Show that
+
 ### Q8.a
 
+If $\sum_{k = 1}^{+\infty} a_k$ __converges absolutely__, then both $\sum_{k = 1}^{+\infty} a_k^+$ and $\sum_{k = 1}^{+\infty} a_k^-$ converge.
+
+> $$\begin{aligned}
+> & \phantom \implies \sum_{k = 1}^{+\infty} a_k\text{ converges absolutely} \\
+> & \implies \sum_{k = 1}^{+\infty} \lvert a_k \rvert\text{ converges} \\
+> \\
+> & \phantom \implies a_n \ge 0 \\
+> & \implies a_n^+ = a_n = \lvert a_n \rvert \\
+> & \phantom \implies a_n < 0 \\
+> & \implies a_n^+ = 0 < \lvert a_n \rvert \\
+> \\
+> & \phantom \implies a_n^+ \le \lvert a_n \rvert \\
+> & \implies \sum_{k = 1}^{+\infty} a_n^+\text{ converges by the direct comparison test} \\
+> \\
+> & \phantom \implies a_n \le 0 \\
+> & \implies a_n^- = -a_n = \lvert a_n \rvert \\
+> & \phantom \implies a_n > 0 \\
+> & \implies a_n^- = 0 < \lvert a_n \rvert \\
+> \\
+> & \phantom \implies a_n^- \le \lvert a_n \rvert \\
+> & \implies \sum_{k = 1}^{+\infty} a_n^-\text{ converges by the direct comparison test}
+> \end{aligned}$$
+
 ### Q8.b
+
+If $\sum_{k = 1}^{+\infty} a_k$ __converges conditionally__, then both $\sum_{k = 1}^{+\infty} a_k^+$ and $\sum_{k = 1}^{+\infty} a_k^-$ diverge.
+
+> $$\begin{aligned}
+> & \phantom \implies \sum_{k = 1}^{+\infty} a_k\text{ converges conditionally} \\
+> & \implies \sum_{k = 1}^{+\infty} \lvert a_k \rvert\text{ diverges} \\
+> \\
+> & \phantom \implies a_n \ge 0 \\
+> & \implies a_n^+ = a_n \\
+> & \phantom \implies a_n < 0 \\
+> & \implies a_n^- = -a_n \implies a_n = -a_n^- \\
+> & \therefore (a_n)\text{ can be rewritten as a sequence in terms of }a_n^+\text{ and }-a_n^-\text{ only.} \\
+> & \phantom \therefore (\lvert a_n \rvert)\text{ can be rewritten as a sequence in terms of }a_n^+\text{ and }a_n^-\text{ only.} \\
+> \\
+> & \phantom \implies a_k^+ \ge 0 \implies a_k^+ = \lvert a_k^+ \rvert \\
+> & \phantom \implies a_k^- \ge 0 \implies a_k^- = \lvert a_k^- \rvert \\
+> \\
+> & \phantom \implies \text{assume both }\sum_{k = 1}^{+\infty} a_k^+ = L^+\text{ and }\sum_{k = 1}^{+\infty} a_k^- = L^-\text{ converge} \\
+> & \implies \text{both }\sum_{k = 1}^{+\infty} a_k^+\text{ and }\sum_{k = 1}^{+\infty} a_k^-\text{ converge absolutely} \\
+> & \implies\sum_{k = 1}^{+\infty} \lvert a_n \rvert = L^+ + L^- \text{ converges} \\
+> & \phantom \implies \text{...since absolutely converging sequences can be rearranged} \\
+> & \phantom \implies \text{without changing their sums.} \\
+> & \phantom \implies \text{the above conclusion contradicts that }\sum_{k = 1}^{+\infty} \lvert a_k \rvert\text{ diverges} \\
+> & \implies \text{both }\sum_{k = 1}^{+\infty} a_k^+\text{ and }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot converge simultaneously} && \cdots (1) \\
+> \\
+> & \text{Without loss of generality,} \\
+> & \text{assume one of the sum converges while the other diverges:} \\
+> & \text{Assume }\sum_{k = 1}^{+\infty} a_k^+ = L^+\text{ converges and }\sum_{k = 1}^{+\infty} a_k^-\text{ diverges.} \\
+> & \text{Then, }\sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k^+ \le L^+\text{ by the monotone convergence theorem.} \\
+> & \text{Consider }\sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k = \sum_{k = 1}^n a_k^+ - \sum_{k = 1}^n a_k^-\text{.} \\
+> & \begin{aligned} \sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k & = \sum_{k = 1}^n a_k^+ - \sum_{k = 1}^n a_k^-\text{.} \\
+> & \le L^+ - \sum_{k = 1}^n a_k^- \end{aligned} \\
+> \\
+> & \phantom \implies a_k^- \ge 0\text{ and }\sum_{k = 1}^n a_k^-\text{ diverges} \\
+> & \implies \sum_{k = 1}^n a_k^- = +\infty
+> \\
+> & \phantom \implies \sum_{k = 1}^n a_k^- = +\infty\text{ diverges} \\
+> & \implies L^+ - \sum_{k = 1}^n a_k^- = -\infty\text{ diverges} \\
+> & \implies \sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k \le -\infty\text{ diverges by the direct comparison test} \\
+> & \phantom \implies \text{the above conclusion contradicts that }\sum_{k = 1}^{+\infty} a_k \text{ converges} \\
+> & \implies \sum_{k = 1}^{+\infty} a_k^+\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot diverge simultaneously} && \cdots (2) \\
+> & \text{Similarly, }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^+\text{ cannot diverge simultaneously} && \cdots (3) \\
+> \\
+> & (1), (2), (3)\text{ combined implies that both integrals must diverge simultaneously.}
+> \end{aligned}$$
 
 ## Q9
 
