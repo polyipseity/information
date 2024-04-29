@@ -14,7 +14,8 @@ This is an individual assignment.
 
 For each of the questions below, please choose from these four MECE frameworks: 4Ps, 4Cs, PESTEL and 5Fs.
 
-__MECE analysis rubrics__ <!-- markdownlint-disable-line MD036 -->
+<!-- markdownlint-disable-next-line MD036 -->
+__MECE analysis rubrics__
 
 | Criteria                         | Ratings | Pts               |
 | -------------------------------- | ------- | ----------------- |

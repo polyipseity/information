@@ -27,7 +27,8 @@ __<u>Situation analysis of Starbucks in 2008:</u>__
 
 Please submit a .pdf or .pptx file in landscape orientation with a cover page with your name.
 
-__DRW rubrics__ <!-- markdownlint-disable-line MD036 -->
+<!-- markdownlint-disable-next-line MD036 -->
+__DRW rubrics__
 
 | Criteria                           | Ratings | Pts               |
 | ---------------------------------- | ------- | ----------------- |

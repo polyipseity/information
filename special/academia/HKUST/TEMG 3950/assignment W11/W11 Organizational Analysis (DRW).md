@@ -27,7 +27,8 @@ Please submit a .pdf or .pptx file in landscape orientation.
 
 A past assignment is provided here.
 
-__DRW rubrics__ <!-- markdownlint-disable-line MD036 -->
+<!-- markdownlint-disable-next-line MD036 -->
+__DRW rubrics__
 
 | Criteria                           | Ratings | Pts               |
 | ---------------------------------- | ------- | ----------------- |
