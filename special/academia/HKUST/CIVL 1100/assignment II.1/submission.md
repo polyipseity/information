@@ -11,7 +11,8 @@ tags:
 CIVL 1100<br/>
 Discovering Civil and Environmental Engineering
 
-__Assignment II.1__ <!-- markdownlint-disable-line MD036 -->
+<!-- markdownlint-disable-next-line MD036 -->
+__Assignment II.1__
 
 __Complete all the problems. Give the answers in <span style="color: red;">two decimal places</span>.__
 

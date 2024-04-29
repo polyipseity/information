@@ -11,9 +11,11 @@ tags:
 CIVL 1100<br/>
 Discovering Civil and Environmental Engineering
 
-__Assignment II.2__ <!-- markdownlint-disable-line MD036 -->
+<!-- markdownlint-disable-next-line MD036 -->
+__Assignment II.2__
 
-__Assigned date: 8 April 2024__ <!-- markdownlint-disable-line MD036 -->
+<!-- markdownlint-disable-next-line MD036 -->
+__Assigned date: 8 April 2024__
 
 __Due date: <span style="color: red;"><u>15 April 2024</u></span>__
 
