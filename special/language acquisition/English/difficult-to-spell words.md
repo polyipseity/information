@@ -53,7 +53,7 @@ English
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::: (i\_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2025-02-11,312,344!2025-03-05,334,344-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2025-02-23,324,344!2025-03-08,334,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2024-06-29,127,304!2024-11-14,223,324-->
-- [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2024-08-22,169,408!2024-04-29,68,368-->
+- [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2024-08-22,169,408!2024-05-30,31,348-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2024-10-03,181,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2024-07-30,145,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2024-07-15,130,412!2024-05-05,69,372-->
@@ -67,7 +67,7 @@ English
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::: (p\_e) To copy others' work and present it as one's own. <!--SR:!2025-01-29,299,344!2024-12-03,242,304-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
-- [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-07-21,138,410!2024-04-29,69,370-->
+- [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-07-21,138,410!2025-01-08,254,370-->
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-05-07,10,296-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-05-07,57,308-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2024-05-08,80,388!2024-05-03,53,368-->
@@ -87,7 +87,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-11-25,215,284!2024-09-06,179,324-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t\_y) The extent to which something is transmissible. <!--SR:!2024-12-26,281,344!2024-11-10,219,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2024-09-14,195,290!2024-11-11,217,290-->
-- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2024-04-29,75,388!2024-10-29,192,348-->
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2024-10-29,192,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2024-07-28,159,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things. <!--SR:!2024-09-07,145,396!2024-07-09,89,376-->

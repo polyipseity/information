@@ -51,7 +51,7 @@ A __discontinuous function__ is {{a function that is _not continuous_, so a func
 
 #### discontinuity at a point
 
-A function is _discontinuous_ at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}. <!--SR:!2024-04-29,34,290-->
+A function is _discontinuous_ at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}. <!--SR:!2024-08-05,98,290-->
 
 > [!tip] tips
 >
@@ -86,7 +86,7 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 
 ### construction of continuous functions
 
-The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot f^{-1} = f / f = 1$ are continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-06-04,37,313!2024-04-29,13,313!2024-04-29,13,313!2024-06-03,36,313-->
+The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot f^{-1} = f / f = 1$ are continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-06-04,37,313!2024-06-12,44,313!2024-06-09,41,313!2024-06-03,36,313-->
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >

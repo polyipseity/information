@@ -75,16 +75,16 @@ value proposition canvas
 
 <!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-04-29,6,250!2024-05-08,14,290-->
+- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-05-21,22,270!2024-05-08,14,290-->
 - blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-05-06,11,270!2024-05-06,13,270-->
-- business model canvas→:::←competitor analysis <!--SR:!2024-05-01,8,250!2024-04-29,6,250-->
+- business model canvas→:::←competitor analysis <!--SR:!2024-05-01,8,250!2024-05-16,17,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-05-02,9,250!2024-05-03,10,250-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-05-03,10,270!2024-05-06,13,270-->
 - customer segmentation→:::←customer validation <!--SR:!2024-05-06,13,270!2024-05-01,7,250-->
 - customer validation→:::←design thinking <!--SR:!2024-04-30,7,250!2024-05-05,12,270-->
-- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-04-29,5,230!2024-04-29,5,230-->
-- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-04-29,6,250!2024-05-02,9,250-->
-- product validation→:::←value proposition canvas <!--SR:!2024-04-29,4,210!2024-04-30,7,250-->
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-05-10,11,230!2024-05-10,11,230-->
+- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-05-14,15,250!2024-05-02,9,250-->
+- product validation→:::←value proposition canvas <!--SR:!2024-05-01,2,190!2024-04-30,7,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2024-05-08,14,290!2024-04-30,7,250-->
 
 <!--/pytextgen-->

@@ -65,7 +65,7 @@ return await memorize_seq(
 - Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→:::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2024-07-02,214,230!2025-10-31,645,270-->
 - Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K.→:::←Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top. <!--SR:!2024-06-15,234,230!2024-05-16,98,230-->
 - Liquid air is passed into [fractionating columns](fractionating%20column.md). Nitrogen, argon, and oxygen respectively boils at 77.4 K, 87.3 K, and 90.2 K. Gases that have lower [boiling points](boiling%20point.md) are collected at the top.→:::←Products are warmed against incoming air to ambient temperatures. <!--SR:!2026-02-05,666,270!2025-01-11,369,230-->
-- Products are warmed against incoming air to ambient temperatures.→:::←_(end)_ <!--SR:!2024-04-29,309,330!2025-01-04,428,290-->
+- Products are warmed against incoming air to ambient temperatures.→:::←_(end)_ <!--SR:!2028-03-04,1405,350!2025-01-04,428,290-->
 
 <!--/pytextgen-->
 

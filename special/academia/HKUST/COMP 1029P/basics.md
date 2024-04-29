@@ -76,7 +76,7 @@ return _chain.from_iterable(await _gather(
 - `*`→:::←`/` <!--SR:!2025-02-06,287,330!2024-11-08,213,330-->
 - `/`→:::←`//` <!--SR:!2024-11-21,224,330!2024-11-19,225,330-->
 - `//`→:::←`%` <!--SR:!2024-05-05,73,310!2024-05-02,70,310-->
-- `%`→:::←`+` <!--SR:!2024-04-29,68,310!2025-01-12,264,330-->
+- `%`→:::←`+` <!--SR:!2024-11-28,213,310!2025-01-12,264,330-->
 - `+`→:::←`-` <!--SR:!2025-01-10,263,330!2025-02-06,284,330-->
 - `-`→:::←_(end)_ <!--SR:!2024-05-04,72,310!2025-01-26,277,330-->
 
@@ -85,7 +85,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
 - `**`::power <!--SR:!2024-10-27,202,330-->
-- `*`::multiplication <!--SR:!2024-04-29,67,310-->
+- `*`::multiplication <!--SR:!2025-02-12,289,330-->
 - `/`::division <!--SR:!2024-05-04,72,310-->
 - `//`::floor division <!--SR:!2025-01-24,276,330-->
 - `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-09-07,152,310-->

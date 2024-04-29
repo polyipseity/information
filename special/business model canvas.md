@@ -23,7 +23,7 @@ Business model generation is for {{the entrepreneurial-spirited, value creators,
 
 ## canvas
 
-The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {{new or existing business models}}. It works best when {{it is on a large surface and groups of people can contribute and discuss}}. <!--SR:!2024-04-29,10,274!2024-05-25,28,274-->
+The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {{new or existing business models}}. It works best when {{it is on a large surface and groups of people can contribute and discuss}}. <!--SR:!2024-05-23,24,274!2024-05-25,28,274-->
 
 ### building blocks
 
@@ -71,7 +71,7 @@ C$: [cost structure](#cost%20structure)
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-05-01,13,274!2024-05-04,15,297-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-05-18,24,277-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
-- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-04-29,10,272-->
+- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-05-25,26,272-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-05-13,18,257!2024-05-08,15,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-05-17,20,257!2024-05-23,28,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-05-18,21,257!2024-05-02,5,234-->
@@ -247,7 +247,7 @@ personal assistance
 
 #### revenue streams
 
-The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-05-25,27,254!2024-04-29,10,277!2024-05-05,16,297-->
+The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-05-25,27,254!2024-05-25,26,277!2024-05-05,16,297-->
 
 ##### revenue stream examples
 
@@ -292,7 +292,7 @@ subscription fee
 - asset sale→:::←brokerage fee <!--SR:!2024-05-11,16,254!2024-05-08,11,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-05-14,19,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-03,10,237!2024-05-17,20,254-->
-- licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-04-29,10,274-->
+- licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-05-14,19,254!2024-05-18,21,257-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-04-30,12,274!2024-05-13,16,257-->
 
@@ -314,4 +314,4 @@ The key partnerships building block shows {{important suppliers and networks req
 
 The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-05-18,24,274!2024-05-27,30,274-->
 
-In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-04-29,10,270!2024-05-10,16,254-->
+In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-05-22,23,270!2024-05-10,16,254-->
