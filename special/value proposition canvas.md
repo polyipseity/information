@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-04-30,2,209!2024-05-04,15,309-->
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-05-04,4,209!2024-05-04,15,309-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-05-14,15,229!2024-05-21,23,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-05-05,7,189!2024-05-01,3,209-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-05-01,13,289!2024-05-24,26,289-->
@@ -166,7 +166,7 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-05-10,16,269!2024-05-06,17,309-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-04-30,6,229!2024-05-14,16,249-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-05-12,12,229!2024-05-14,16,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-05-08,9,249!2024-05-18,20,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-08,14,269!2024-05-21,23,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-05-01,2,169-->
@@ -224,7 +224,7 @@ find customer patterns
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-06-03,36,289!2024-05-06,17,309-->
-- create a customer profile→:::←outline the interview <!--SR:!2024-05-10,16,269!2024-04-30,12,289-->
+- create a customer profile→:::←outline the interview <!--SR:!2024-05-10,16,269!2024-06-07,38,289-->
 - outline the interview→:::←interview <!--SR:!2024-05-07,18,309!2024-05-01,13,289-->
 - interview→:::←capture new customer profile <!--SR:!2024-05-16,18,269!2024-05-06,17,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2024-05-11,17,269-->
@@ -277,7 +277,7 @@ conclusion: make progress
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-05-07,18,309!2024-05-01,12,289-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-05-03,14,289!2024-05-07,22,250-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-07,40,309!2024-05-15,30,270-->
-- test: prioritize tests→:::←test: run tests <!--SR:!2024-04-30,12,289!2024-06-12,54,310-->
+- test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-05-02,4,249!2024-05-04,15,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-05-05,16,309!2024-05-30,31,289-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-05-05,16,309!2024-05-01,12,250-->
@@ -288,7 +288,7 @@ conclusion: make progress
 
 When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-06-13,55,310!2024-05-01,19,250-->
 
-One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-05-22,27,289!2024-04-30,11,289-->
+One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-05-22,27,289!2024-05-28,28,289-->
 
 ## evolve
 

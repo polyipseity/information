@@ -171,7 +171,7 @@ return _chain.from_iterable(await _gather(
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2024-05-08,215,270-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-05-05,6,130!2024-08-29,279,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2024-07-04,155,230!2024-06-26,291,270-->
-- [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-04-30,86,170-->
+- [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-06-09,40,150-->
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-06-25,77,250-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2024-05-29,64,170!2024-06-29,86,190-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2024-08-23,362,290-->
@@ -259,7 +259,7 @@ return _chain.from_iterable(await _gather(
 - ![dropping bottle](../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg)::dropping bottle <!--SR:!2027-08-04,1230,350-->
 - ![electronic balance](../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg)::[electronic balance](weighing%20scale.md) <!--SR:!2027-06-09,1189,350-->
 - ![evaporating dish](../archives/Wikimedia%20Commons/Abdampfschalen%20verschiedene%20Groessen.jpg)::[evaporating dish](evaporating%20dish.md) <!--SR:!2027-05-28,1180,350-->
-- ![filter funnel](../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg)::[filter funnel](filter%20funnel.md) <!--SR:!2024-04-30,303,330-->
+- ![filter funnel](../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg)::[filter funnel](filter%20funnel.md) <!--SR:!2027-01-23,998,330-->
 - ![flat-bottom(ed) flask](../archives/Wikimedia%20Commons/TGI%20250.jpg)::[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2026-04-12,794,330-->
 - ![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg)::[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-01-23,784,330-->
 - ![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg)::[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-03-18,535,310-->
