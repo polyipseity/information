@@ -205,12 +205,12 @@ If $\sum_{k = 1}^{+\infty} a_k$ __converges conditionally__, then both $\sum_{k 
 > & \begin{aligned} \sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k & = \sum_{k = 1}^n a_k^+ - \sum_{k = 1}^n a_k^-\text{.} \\
 > & \le L^+ - \sum_{k = 1}^n a_k^- \end{aligned} \\
 > \\
-> & \phantom \implies a_k^- \ge 0\text{ and }\sum_{k = 1}^n a_k^-\text{ diverges} \\
-> & \implies \sum_{k = 1}^n a_k^- = +\infty
+> & \phantom \implies a_k^- \ge 0\text{ and }\sum_{k = 1}^{+\infty} a_k^-\text{ diverges} \\
+> & \implies \sum_{k = 1}^{+\infty} a_k^- = +\infty
 > \\
-> & \phantom \implies \sum_{k = 1}^n a_k^- = +\infty\text{ diverges} \\
-> & \implies L^+ - \sum_{k = 1}^n a_k^- = -\infty\text{ diverges} \\
-> & \implies \sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k \le -\infty\text{ diverges by the direct comparison test} \\
+> & \phantom \implies \sum_{k = 1}^{+\infty} a_k^- = +\infty\text{ diverges} \\
+> & \implies L^+ - \sum_{k = 1}^{+\infty} a_k^- = -\infty\text{ diverges} \\
+> & \implies \sum_{k = 1}^{+\infty} a_k \le -\infty\text{ diverges by the direct comparison test} \\
 > & \phantom \implies \text{the above conclusion contradicts that }\sum_{k = 1}^{+\infty} a_k \text{ converges} \\
 > & \implies \sum_{k = 1}^{+\infty} a_k^+\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot diverge simultaneously} && \cdots (2) \\
 > & \text{Similarly, }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^+\text{ cannot diverge simultaneously} && \cdots (3) \\
@@ -220,9 +220,86 @@ If $\sum_{k = 1}^{+\infty} a_k$ __converges conditionally__, then both $\sum_{k 
 
 ## Q9
 
+For each of the following series, determine whether it diverges, converges absolutely or converges conditionally.
+
 ### Q9.b
 
+$$\sum_{k = 0}^{+\infty} (-1)^{k + 1} \left(\sqrt{k + 1} - \sqrt k \right)$$
+
+> $$\begin{aligned}
+> & \phantom = \sum_{k = 0}^{+\infty} (-1)^{k + 1} \left(\sqrt{k + 1} - \sqrt k \right) && \cdots (1) \\
+> \\
+> a_k & := \sqrt{k + 1} - \sqrt k \qquad k \ge 0 \\
+> a_{k + 1} & = \sqrt{k + 2} - \sqrt{k + 1} \\
+> \\
+> a_k & > 0 && (\sqrt{*}\text{ is increasing}) \\
+> \\
+> & \phantom = \lvert a_k \rvert - \lvert a_{k + 1} \rvert \\
+> & = \left\lvert \sqrt{k + 1} - \sqrt k \right\rvert - \left\lvert \sqrt{k + 2} - \sqrt{k + 1} \right\rvert \\
+> & = \sqrt{k + 1} - \sqrt k + \sqrt{k + 2} - \sqrt{k + 1} \\
+> & = \sqrt{k + 2} - \sqrt k \\
+> & > 0 \\
+> & \therefore \lvert a_k \rvert \ge \lvert a_{k + 1} \rvert && \cdots (2) \\
+> \\
+> & \phantom = \lim_{k \to +\infty} a_k \\
+> & = \lim_{k \to +\infty} \left(\sqrt{k + 1} - \sqrt k \right) \\
+> & = \lim_{k \to +\infty} \frac {(k + 1) - k} {\sqrt{k + 1} + \sqrt k } \\
+> & = \lim_{k \to +\infty} \frac 1 {\sqrt{k + 1} + \sqrt k } \\
+> & = 0 && \cdots (3) \\
+> \\
+> & (1)\text{ is an alternating series in terms of }a_k\text{.} \\
+> & (1)\text{ converges by the alternating series test due to }(2), (3)\text. \\
+> \\
+> & \phantom = \sum_{k = 0}^{+\infty} \left\lvert (-1)^{k + 1} \left(\sqrt{k + 1} - \sqrt k \right) \right\rvert && \cdots (4) \\
+> & = \sum_{k = 0}^{+\infty} \left(\sqrt {k + 1} - \sqrt k \right) && \left(\left\lvert (-1)^{k + 1} \right\rvert = 1, \sqrt{k + 1} - \sqrt k > 0 \right) \\
+> & = \lim_{n \to +\infty} \sum_{k = 0}^n \left(\sqrt {k + 1} - \sqrt k \right) \\
+> & = \lim_{n \to +\infty} \sqrt{n + 1} && (\text{telescope}) \\
+> & = +\infty \\
+> & \therefore (4)\text{ diverges} \\
+> \\
+> & \because (1)\text{ converges but }(4)\text{ diverges} \\
+> & \therefore (1)\text{ converges conditionally}
+> \end{aligned}$$
+
 ### Q9.d
+
+$$\sum_{k = 2}^{+\infty} \frac {(-1)^k} {\sqrt k + (-1)^k}$$
+
+> $$\begin{aligned}
+> & \phantom = \sum_{k = 2}^{+\infty} \frac {(-1)^k} {\sqrt k + (-1)^k} && \cdots (1) \\
+> & = \sum_{k = 2}^{+\infty} \frac {(-1)^k \left(\sqrt{k} - (-1)^k \right)} {k - 1} \\
+> & = \sum_{k = 2}^{+\infty} \frac {(-1)^k \sqrt k - 1} {k - 1} \\
+> & = \sum_{k = 2}^{+\infty} \left( \frac {(-1)^k \sqrt k} {k - 1} - \frac 1 {k - 1} \right) && \cdots (2) \\
+> \\
+> & \text{Consider the sum }\sum_{k = 2}^{+\infty} \frac {(-1)^k \sqrt k} {k - 1}\text{.} \\
+> & \text{It is alternating series with }a_k = \frac {\sqrt k} {k - 1}\text{.} \\
+> & \text{Also, }\frac {\mathrm{d} a_k} {\mathrm{d}k} = \frac {0.5 k^{-0.5}(k - 1) - \sqrt k} {(k - 1)^2} = \frac {-0.5 \sqrt k - 0.5k^{-0.5} } {(k - 1)^2} < 0\text{.} \\
+> & \text{Thus }a_k\text{ is strictly decreasing when }k \ge 2\text{.} \\
+> & \text{Furthermore,} \lim_{k \to +\infty} \frac {\sqrt k} {k - 1} = \lim_{k \to +\infty} \frac {\sqrt {\frac k {k^2} } } {1 - \frac 1 k} = 0 \text{.} \\
+> & \text{By the alternating series test,} \\
+> & \text{the sum being considered converges.} \\
+> \\
+> & \text{Consider the sum}\sum_{k = 2}^{+\infty} \frac 1 {k - 1} = \sum_{k = 1}^{+\infty} \frac 1 k\text{.} \\
+> & \text{The sum diverges by the }p\text{-test.} \\
+> \\
+> & \text{Finally, by above and the algebraic limit theorem,} \\
+> & (2)\text{ equals } \sum_{k = 2}^{+\infty} \frac {(-1)^k \sqrt k} {k - 1} - \sum_{k = 2}^{+\infty} \frac 1 {k - 1}\text{ and diverges.} \\
+> & \text{Thus }(1)\text{ diverges.}
+> \end{aligned}$$
+>
+> <!-- $$\begin{aligned}
+> & \text{When }k > 2\text{, }\sqrt{k} > (-1)^k\text{, so }\sqrt k + (-1)^k > 0\text{.} \\
+> & \phantom = \sum_{k = 2}^{+\infty} \left\lvert \frac {(-1)^k} {\sqrt k + (-1)^k} \right\rvert \\
+> & = \sum_{k = 2}^{+\infty} \frac 1 {\sqrt k + (-1)^k} \\
+> & \ge \sum_{k = 2}^{+\infty} \frac 1 {\sqrt k + 1} && \cdots (3) \\
+> & \\
+> & \phantom = \lim_{k \to +\infty} \frac {\frac 1 {\sqrt k} } {\frac 1 {\sqrt k + 1} } \\
+> & = \lim_{k \to +\infty} \frac {\sqrt k + 1} {\sqrt k} \\
+> & = 1 \\
+> \\
+> & \sum_{k = 2}^{+\infty} \frac 1 {\sqrt k}\text{ diverges by the }p\text{-test.} \\
+> & \text{Thus, }(3)\text{ diverges by the limit comparison test.} \\
+> \end{aligned}$$ -->
 
 ## Q11
 
