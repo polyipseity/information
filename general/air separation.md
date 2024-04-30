@@ -59,7 +59,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="293842"--><!-- The following content is generated at 2024-01-04T20:17:51.438466+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2026-06-02,834,330!2024-04-30,310,330-->
+- _(begin)_→:::←Filter air to remove [dust](dust.md). <!--SR:!2026-06-02,834,330!2028-03-10,1410,350-->
 - Filter air to remove [dust](dust.md).→:::←Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K. <!--SR:!2024-07-09,306,270!2026-11-16,956,330-->
 - Compress air. Most [water](water.md) is condensed out in [inter-stage coolers](intercooler.md). [Temperature](temperature.md) decreases to about 193 K.→:::←Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md). <!--SR:!2024-11-08,206,230!2024-05-12,76,170-->
 - Pass air through a [molecular sieve](molecular%20sieve.md) bed to remove now-solid water vapor and [carbon dioxide](carbon%20dioxide.md).→:::←Air is cooled with [heat exchangers](heat%20exchanger.md) and [expanders](expander.md), becoming liquid. Temperature decreases to about 73 K. <!--SR:!2024-07-02,214,230!2025-10-31,645,270-->

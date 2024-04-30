@@ -146,7 +146,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-06-23,76,250-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-11-19,263,290!2024-07-23,341,290-->
 - [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-07-17,128,230!2024-05-01,92,230-->
-- [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-07-13,110,230!2024-04-30,95,250-->
+- [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-07-13,110,230!2024-06-19,50,230-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-06-29,294,270-->
 - [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-06-01,47,150!2024-07-18,127,210-->
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2024-08-01,108,210!2025-05-06,383,230-->
@@ -254,9 +254,9 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-29,43,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-03,6,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-30,2,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-05-03,3,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
-- [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-04-30,252,270-->
+- [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-09-02,125,250-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
 - [cadmium](cadmium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2025-04-01,507,310-->
 - [cobalt](cobalt.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2025-03-22,477,290-->

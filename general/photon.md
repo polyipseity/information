@@ -8,7 +8,7 @@ tags:
 
 # photon
 
-A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2024-04-30,298,290-->
+A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2026-09-10,863,290-->
 
 ## properties
 

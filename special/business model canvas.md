@@ -187,7 +187,7 @@ risk reduction
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-01,9,234-->
 - design→:::←newness <!--SR:!2024-05-08,14,257!2024-05-09,15,254-->
 - newness→:::←performance <!--SR:!2024-05-16,22,277!2024-05-10,12,237-->
-- performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-04-30,12,274-->
+- performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-06-03,34,274-->
 - performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-05-11,17,254-->
 - price→:::←risk reduction <!--SR:!2024-05-18,21,254!2024-05-19,22,254-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-05-01,13,277!2024-05-19,22,257-->
@@ -236,7 +236,7 @@ personal assistance
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←automated services <!--SR:!2024-04-30,11,274!2024-04-30,12,270-->
+- _(begin)_→:::←automated services <!--SR:!2024-05-29,29,274!2024-06-13,44,290-->
 - automated services→:::←co-creation <!--SR:!2024-05-18,21,254!2024-05-15,18,254-->
 - co-creation→:::←communities <!--SR:!2024-05-13,18,254!2024-06-02,35,274-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-05-24,27,277!2024-06-03,36,274-->
@@ -294,7 +294,7 @@ subscription fee
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-03,10,237!2024-05-17,20,254-->
 - licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-05-14,19,254!2024-05-18,21,257-->
-- subscription fee→:::←_(end)_ <!--SR:!2024-04-30,12,274!2024-05-13,16,257-->
+- subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-05-13,16,257-->
 
 <!--/pytextgen-->
 

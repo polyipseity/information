@@ -101,7 +101,7 @@ return chain.from_iterable(await gather(
 - centroid linkage clustering::UPGMC, unweighted centroid clustering <!--SR:!2024-05-02,17,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering <!--SR:!2024-06-08,42,295-->
 - median linkage clustering::WPGMC, weighted centroid clustering <!--SR:!2024-05-10,18,255-->
-- [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique <!--SR:!2024-04-30,15,295-->
+- [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique <!--SR:!2024-06-26,57,315-->
 - unweighted average linkage clustering::[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2024-05-28,31,275-->
 - weighted average linkage clustering::McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2024-05-06,14,255-->
 
@@ -111,7 +111,7 @@ return chain.from_iterable(await gather(
 
 - MISSQ, minimum increase of sum of squares::[Ward's method](Ward's%20method.md) <!--SR:!2024-06-23,55,315-->
 - UPGMC, unweighted centroid clustering::centroid linkage clustering <!--SR:!2024-06-16,49,295-->
-- maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-04-30,15,295-->
+- maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-07-01,62,315-->
 - WPGMC, weighted centroid clustering::median linkage clustering <!--SR:!2024-05-10,13,255-->
 - minimum linkage clustering, nearest neighbor technique::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-06-29,61,315-->
 - [UPGMA](UPGMA.md), group average linkage clustering::unweighted average linkage clustering <!--SR:!2024-05-08,16,255-->
@@ -125,7 +125,7 @@ return chain.from_iterable(await gather(
 
 - [Ward's method](Ward's%20method.md)::$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-05-16,22,275-->
 - centroid linkage clustering::$d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-06-05,39,295-->
-- [complete-linkage clustering](complete-linkage%20clustering.md)::$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2024-04-30,15,295-->
+- [complete-linkage clustering](complete-linkage%20clustering.md)::$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2024-06-27,58,315-->
 - median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2024-06-02,36,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)::$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2024-06-24,56,315-->
 - unweighted average linkage clustering::$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2024-05-13,20,255-->
@@ -161,7 +161,7 @@ The basic principle of divisive clustering was {{published as the DIANA (DIvisiv
 
 Initially, {{create a cluster that contain all observations}}. Find the cluster {{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}}. Then, in said cluster, {{find the observation that has the highest distance from the belonging cluster excluding the observation itself}}. Next, {{move the observation from said cluster to a new _splinter cluster_}}. Now, keep {{moving observations one by one from the old cluster to the new cluster}}. To choose the observation to be moved, {{calculate the _dissimilarity difference_ for each observation in the old cluster}}. The _dissimilarity difference_ of an observation in the old cluster is {{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}}. Move the observation {{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}}. If all _dissimilarity differences_ are negative, {{stop moving the observations}}. If there is only one item left, {{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}}. Repeat the above steps {{until you reach the desirable number of clusters}}. <!--SR:!2024-06-28,60,315!2024-05-08,16,255!2024-05-10,17,255!2024-05-29,32,275!2024-05-11,19,255!2024-05-11,19,255!2024-05-10,18,255!2024-05-31,34,275!2024-05-26,29,275!2024-05-11,18,255!2024-05-27,30,275-->
 
-Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-05-13,20,255!2024-05-18,24,275!2024-05-07,15,255!2024-04-30,10,294-->
+Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-05-13,20,255!2024-05-18,24,275!2024-05-07,15,255!2024-05-29,29,294-->
 
 ### monothetic clustering
 

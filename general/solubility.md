@@ -368,7 +368,7 @@ return await memorize_map(
 - [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-15,22,130-->
 - [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-04,112,258-->
 - [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-12-29,279,278-->
-- [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-04-30,43,238-->
+- [copper(I) iodide](copper(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-21,21,218-->
 - [copper(II) bromide](copper(II)%20bromide.md)::<span style="color: green;">soluble</span> <!--SR:!2025-02-15,321,298-->
 - [copper(II) carbonate](copper(II)%20carbonate.md)::<span style="color: red;">insoluble</span> <!--SR:!2025-04-10,360,298-->
 - [copper(II) chloride](copper(II)%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2025-04-17,366,298-->
@@ -389,13 +389,13 @@ return await memorize_map(
 - [mercury(I) iodide](mercury(I)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2025-01-09,297,298-->
 - [mercury(II) bromide](mercury(II)%20bromide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-05-03,49,278-->
 - [mercury(II) chloride](mercury(II)%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-05-17,147,298-->
-- [mercury(II) iodide](mercury(II)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-04-30,18,158-->
+- [mercury(II) iodide](mercury(II)%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-08,8,138-->
 - [silver bromide](silver%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-02,135,298-->
 - [silver chloride](silver%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2025-02-03,315,298-->
 - [silver ethanoate](silver%20ethanoate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-05-25,153,298-->
 - [silver iodide](silver%20iodide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-05-03,136,298-->
 - [silver nitrate](silver%20nitrate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-31,218,318-->
-- [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-04-30,6,158-->
+- [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-05-07,7,158-->
 - [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2025-03-02,333,298-->
 - [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-19,184,318-->
 - [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-20,185,318-->

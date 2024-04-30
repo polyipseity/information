@@ -81,11 +81,11 @@ value proposition canvas
 - competitor analysis→:::←customer discovery <!--SR:!2024-05-02,9,250!2024-05-03,10,250-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-05-03,10,270!2024-05-06,13,270-->
 - customer segmentation→:::←customer validation <!--SR:!2024-05-06,13,270!2024-05-01,7,250-->
-- customer validation→:::←design thinking <!--SR:!2024-04-30,7,250!2024-05-05,12,270-->
+- customer validation→:::←design thinking <!--SR:!2024-05-04,4,230!2024-05-05,12,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-05-10,11,230!2024-05-10,11,230-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-05-14,15,250!2024-05-02,9,250-->
-- product validation→:::←value proposition canvas <!--SR:!2024-05-01,2,190!2024-04-30,7,250-->
-- value proposition canvas→:::←_(end)_ <!--SR:!2024-05-08,14,290!2024-04-30,7,250-->
+- product validation→:::←value proposition canvas <!--SR:!2024-05-01,2,190!2024-05-17,17,250-->
+- value proposition canvas→:::←_(end)_ <!--SR:!2024-05-08,14,290!2024-05-17,17,250-->
 
 <!--/pytextgen-->
 

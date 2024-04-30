@@ -111,7 +111,7 @@ The content is in teaching order.
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
-  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-04-30,15,331!2024-06-02,36,307-->
+  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-07-05,66,351!2024-06-02,36,307-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
   - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-05-04,19,331!2024-06-06,40,311-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
@@ -127,7 +127,7 @@ The content is in teaching order.
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
-  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-04-30,11,320!2024-05-09,20,340-->
+  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-06-04,35,320!2024-05-09,20,340-->
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
@@ -145,7 +145,7 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-04-30,12,320!2024-05-08,19,340-->
+  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-06-11,42,320!2024-05-08,19,340-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)

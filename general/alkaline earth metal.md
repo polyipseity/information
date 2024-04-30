@@ -77,7 +77,7 @@ return await memorize_map(
 - no reaction with water or steam::[beryllium](beryllium.md) <!--SR:!2024-10-03,377,290-->
 - reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas::[magnesium](magnesium.md) <!--SR:!2024-05-16,270,270-->
 - reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2024-05-15,42,210-->
-- unknown::[radium](radium.md) <!--SR:!2024-04-30,5,170-->
+- unknown::[radium](radium.md) <!--SR:!2024-05-03,3,150-->
 
 <!--/pytextgen-->
 

@@ -410,7 +410,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
 > - suffix: {{-ene}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2029-02-17,1827,380!2024-05-07,437,362!2027-04-03,1256,362!2026-07-29,935,302!2024-05-02,430,362!2024-04-30,428,362!2025-03-06,644,327-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2029-02-17,1827,380!2024-05-07,437,362!2027-04-03,1256,362!2026-07-29,935,302!2024-05-02,430,362!2030-02-22,2124,382!2025-03-06,644,327-->
 
 <!-- markdownlint MD028 -->
 
