@@ -303,7 +303,36 @@ $$\sum_{k = 2}^{+\infty} \frac {(-1)^k} {\sqrt k + (-1)^k}$$
 
 ## Q11
 
+Find the radius and interval of convergence for each of the following power series.
+
 ### Q11.b
+
+$$\sum_{k = 1}^{+\infty} \frac {x^k} {2^k k^2}$$
+
+> $$\begin{aligned}
+> & \text{The center of the power series is }x = 0\text{.} \\
+> & \text{The coefficient of the power series is }c_k = \frac 1 {2^k k^2}\text{.} \\
+> \\
+> & \phantom = \text{radius of convergence} \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {c_k} {c_{k + 1} } \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {2^{k + 1} (k + 1)^2} {2^k k^2} \right\rvert \\
+> & = 2 \lim_{k \to +\infty} \left\lvert \frac {k^2 + 2k + 1} {k^2} \right\rvert \\
+> & = 2 \lim_{k \to +\infty} \left\lvert \frac {1 + 2k^{-1} + k^{-2} } {1} \right\rvert \\
+> & = 2 \\
+> \\
+> & \text{When }x = 2\text{,} \\
+> & \phantom = \sum_{k = 1}^{+\infty} \frac {2^k} {2^k k^2} \\
+> & = \sum_{k = 1}^{+\infty} \frac 1 {k^2} \\
+> & \text{which converges by the }p\text{-test.} \\
+> & \text{As }k \ge 1 \implies \frac 1 {k^2} > 0\text{,} \\
+> & \text{The integral converges absolutely.} \\
+> & \text{Then its alternating series counterpart,} \\
+> & \phantom = \sum_{k = 1}^{+\infty} \frac {(-1)^k 2^k} {2^k k^2} \\
+> & = \sum_{k = 1}^{+\infty} \frac {(-2)^k} {2^k k^2} \\
+> & \text{also converges by the direct comparison test,} \\
+> & \text{and is the expression when }x = -2\text{.} \\
+> & \text{interval of convergence} = [-2, 2]
+> \end{aligned}$$
 
 ## Q14
 
