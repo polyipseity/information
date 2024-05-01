@@ -114,7 +114,7 @@ The content is in teaching order.
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)
+- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 -->
 - description ::: suspension bridge in Kobe, Japan
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG)
 - length ::: 3911 m, longest span: 1991 m
@@ -143,7 +143,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 - description ::: skyscraper in Dubai, United Arab Emirates
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg)
-- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel
+- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 -->
 
 ### CCTV Headquarters
 
@@ -161,7 +161,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 - description ::: super tall skyscraper in Wan Chai, Hong Kong
 - height ::: architectural: 373.9 m, top floor: 299 m
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg)
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e -->
 
 ### China International Trust and Investment Plaza
 
@@ -170,7 +170,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China
 - height ::: architectural: 390.2 m, top floor: 296.9 m
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg)
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 -->
 
 ### Eiffel Tower
 
@@ -188,7 +188,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md)
 - height ::: roof: 178.8 m
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg)
-- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)
+- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f -->
 
 ### Hong Kong Convention and Exhibition Centre
 
@@ -202,7 +202,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)
+- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 -->
 - description ::: fixed link consisting of tunnels and multiple bridges
 - image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg)
 - length: 55 km
@@ -223,7 +223,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md)
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg)
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite or steel
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite or steel<!-- flashcard 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->
 
 ### John Hancock Center
 
@@ -232,7 +232,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 - description ::: skyscraper in Chicago, Illinois
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg)
-- [structural system](../../../../general/structural%20system.md) ::: steel
+- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->
 
 ### MOSE
 
@@ -250,7 +250,7 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb -->
 - description ::: bridge in Hong Kong
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg)
 - length ::: 1596 m, longest span: 1018 m
@@ -259,7 +259,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa -->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China
 - image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG)
 - length ::: 8206 m, longest span: 1088 m
@@ -271,7 +271,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::: skyscraper in Taipei, Taiwan
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg)
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a -->
 
 ### Thames Barrier
 
@@ -286,7 +286,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)
+- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 -->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md)
 - image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg)
 - length ::: 2160 m, longest span: 1377 m
@@ -305,7 +305,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois
 - height ::: architectural: 303 m, top floor: 250 m
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg)
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d -->
 
 ### Water Cube
 
@@ -387,14 +387,14 @@ power plant
 reservoir
 sewage treatment
 transport
-water
+water and sewage treatment system
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-02-16T21:59:47.075698+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-05-01T23:30:34.967240+08:00. Any edits will be overridden! -->
 
 > 1. bridge
 > 2. building
@@ -404,11 +404,11 @@ water
 > 6. reservoir
 > 7. sewage treatment
 > 8. transport
-> 9. water
+> 9. water and sewage treatment system
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-02-16T21:59:47.042572+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge
 - bridge→:::←building
@@ -418,8 +418,8 @@ water
 - power plant→:::←reservoir
 - reservoir→:::←sewage treatment
 - sewage treatment→:::←transport
-- transport→:::←water
-- water→:::←_(end)_
+- transport→:::←water and sewage treatment system
+- water and sewage treatment system→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1485,14 +1485,14 @@ highway
 pier
 pipeline
 railroad
-water
+water transport
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-05-01T19:22:35.565822+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-05-01T23:30:35.197399+08:00. Any edits will be overridden! -->
 
 > 1. airport
 > 2. bicycle path
@@ -1500,11 +1500,11 @@ water
 > 4. pier
 > 5. pipeline
 > 6. railroad
-> 7. water
+> 7. water transport
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T19:22:35.588449+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←airport
 - airport→:::←bicycle path
@@ -1512,8 +1512,8 @@ water
 - highway→:::←pier
 - pier→:::←pipeline
 - pipeline→:::←railroad
-- railroad→:::←water
-- water→:::←_(end)_
+- railroad→:::←water transport
+- water transport→:::←_(end)_
 
 <!--/pytextgen-->
 
