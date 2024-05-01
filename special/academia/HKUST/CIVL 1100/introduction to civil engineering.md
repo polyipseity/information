@@ -88,7 +88,8 @@ The content is in teaching order.
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
-- materials engineering ::: spans almost all engineering disciplines because materials are used in designs
+- materials engineering
+  - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs
   - materials engineer jobs ::: highly varied
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::: development of improved or new materials
@@ -96,7 +97,7 @@ The content is in teaching order.
   - materials engineering repair ::: design of materials and methods to repair
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer
 - construction engineering ::: planning and execution of the designs from other fields of engineers
-  - [construction engineer characteristics](#construction%20engineer%20characteristics)
+  - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors.
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
@@ -450,9 +451,9 @@ water security
 return await memorize_seq(
   __env__.cwf_sects("847b", "1e12",),
   """
-budget
+budgeting
 construction management
-economy
+economics
 impacts to surrounding
 lifecycle
 maintenance
@@ -465,11 +466,11 @@ workmanship
 
 %%
 
-<!--pytextgen generate section="847b"--><!-- The following content is generated at 2024-02-16T21:59:47.141114+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="847b"--><!-- The following content is generated at 2024-05-01T19:22:34.824717+08:00. Any edits will be overridden! -->
 
-> 1. budget
+> 1. budgeting
 > 2. construction management
-> 3. economy
+> 3. economics
 > 4. impacts to surrounding
 > 5. lifecycle
 > 6. maintenance
@@ -479,12 +480,12 @@ workmanship
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-02-16T21:59:47.165148+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budget
-- budget→:::←construction management
-- construction management→:::←economy
-- economy→:::←impacts to surrounding
+- _(begin)_→:::←budgeting
+- budgeting→:::←construction management
+- construction management→:::←economics
+- economics→:::←impacts to surrounding
 - impacts to surrounding→:::←lifecycle
 - lifecycle→:::←maintenance
 - maintenance→:::←politics
@@ -544,8 +545,8 @@ return await memorize_seq(
 construction
 environmental
 geo-technical
-hydraulics
-materials
+hydraulic
+material
 structural
 transportation
 """.strip().splitlines(),
@@ -554,26 +555,26 @@ transportation
 
 %%
 
-<!--pytextgen generate section="ba02"--><!-- The following content is generated at 2024-02-16T21:59:47.257694+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ba02"--><!-- The following content is generated at 2024-05-01T19:22:34.941115+08:00. Any edits will be overridden! -->
 
 > 1. construction
 > 2. environmental
 > 3. geo-technical
-> 4. hydraulics
-> 5. materials
+> 4. hydraulic
+> 5. material
 > 6. structural
 > 7. transportation
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-02-16T21:59:47.274701+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←construction
 - construction→:::←environmental
 - environmental→:::←geo-technical
-- geo-technical→:::←hydraulics
-- hydraulics→:::←materials
-- materials→:::←structural
+- geo-technical→:::←hydraulic
+- hydraulic→:::←material
+- material→:::←structural
 - structural→:::←transportation
 - transportation→:::←_(end)_
 
@@ -626,7 +627,69 @@ Water Cube
 
 <!--/pytextgen-->
 
-### construction engineer characteristics
+### construction engineer jobs
+
+%%
+
+```Python
+# pytextgen generate data
+return await memorize_seq(
+  __env__.cwf_sects("9338", "a93e",),
+  """
+budgeting
+contracting
+designing temporary structures
+logistics
+planning
+procuring materials
+quality assurance
+quality control
+safety engineering
+scheduling
+surveying building site
+testing materials
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--pytextgen generate section="9338"--><!-- The following content is generated at 2024-05-01T19:22:35.020877+08:00. Any edits will be overridden! -->
+
+> 1. budgeting
+> 2. contracting
+> 3. designing temporary structures
+> 4. logistics
+> 5. planning
+> 6. procuring materials
+> 7. quality assurance
+> 8. quality control
+> 9. safety engineering
+> 10. scheduling
+> 11. surveying building site
+> 12. testing materials
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←budgeting
+- budgeting→:::←contracting
+- contracting→:::←designing temporary structures
+- designing temporary structures→:::←logistics
+- logistics→:::←planning
+- planning→:::←procuring materials
+- procuring materials→:::←quality assurance
+- quality assurance→:::←quality control
+- quality control→:::←safety engineering
+- safety engineering→:::←scheduling
+- scheduling→:::←surveying building site
+- surveying building site→:::←testing materials
+- testing materials→:::←_(end)_
+
+<!--/pytextgen-->
+
+### construction engineer skills
 
 %%
 
@@ -667,68 +730,6 @@ teaming up with others
 - management principles→:::←strong communication skills
 - strong communication skills→:::←teaming up with others
 - teaming up with others→:::←_(end)_
-
-<!--/pytextgen-->
-
-### construction engineer jobs
-
-%%
-
-```Python
-# pytextgen generate data
-return await memorize_seq(
-  __env__.cwf_sects("9338", "a93e",),
-  """
-budgeting
-contracts
-designing temporary structures
-logistics
-planning
-procuring materials
-quality assurance
-quality control
-safety engineering
-scheduling
-surveying building site
-testing materials
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--pytextgen generate section="9338"--><!-- The following content is generated at 2024-02-16T21:59:47.407186+08:00. Any edits will be overridden! -->
-
-> 1. budgeting
-> 2. contracts
-> 3. designing temporary structures
-> 4. logistics
-> 5. planning
-> 6. procuring materials
-> 7. quality assurance
-> 8. quality control
-> 9. safety engineering
-> 10. scheduling
-> 11. surveying building site
-> 12. testing materials
-
-<!--/pytextgen-->
-
-<!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-02-16T21:59:47.431612+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←budgeting
-- budgeting→:::←contracts
-- contracts→:::←designing temporary structures
-- designing temporary structures→:::←logistics
-- logistics→:::←planning
-- planning→:::←procuring materials
-- procuring materials→:::←quality assurance
-- quality assurance→:::←quality control
-- quality control→:::←safety engineering
-- safety engineering→:::←scheduling
-- scheduling→:::←surveying building site
-- surveying building site→:::←testing materials
-- testing materials→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -929,9 +930,9 @@ socioeconomic
 return await memorize_seq(
   __env__.cwf_sects("aad2", "50ba",),
   """
-debris flows
-landslides
-rockfalls
+debris flow
+landslide
+rockfall
 soil liquefaction
 """.strip().splitlines(),
 )
@@ -939,21 +940,21 @@ soil liquefaction
 
 %%
 
-<!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-02-17T22:07:05.106933+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-05-01T19:22:35.123019+08:00. Any edits will be overridden! -->
 
-> 1. debris flows
-> 2. landslides
-> 3. rockfalls
+> 1. debris flow
+> 2. landslide
+> 3. rockfall
 > 4. soil liquefaction
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-02-17T22:07:05.158955+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←debris flows
-- debris flows→:::←landslides
-- landslides→:::←rockfalls
-- rockfalls→:::←soil liquefaction
+- _(begin)_→:::←debris flow
+- debris flow→:::←landslide
+- landslide→:::←rockfall
+- rockfall→:::←soil liquefaction
 - soil liquefaction→:::←_(end)_
 
 <!--/pytextgen-->
@@ -967,32 +968,32 @@ soil liquefaction
 return await memorize_seq(
   __env__.cwf_sects("300f", "11ab",),
   """
-embankments
-pile foundations
-shallow foundations
-tunnels
+embankment
+pile foundation
+shallow foundation
+tunnel
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="300f"--><!-- The following content is generated at 2024-02-16T21:59:47.692514+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="300f"--><!-- The following content is generated at 2024-05-01T19:22:35.187590+08:00. Any edits will be overridden! -->
 
-> 1. embankments
-> 2. pile foundations
-> 3. shallow foundations
-> 4. tunnels
+> 1. embankment
+> 2. pile foundation
+> 3. shallow foundation
+> 4. tunnel
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-02-16T21:59:47.674464+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←embankments
-- embankments→:::←pile foundations
-- pile foundations→:::←shallow foundations
-- shallow foundations→:::←tunnels
-- tunnels→:::←_(end)_
+- _(begin)_→:::←embankment
+- embankment→:::←pile foundation
+- pile foundation→:::←shallow foundation
+- shallow foundation→:::←tunnel
+- tunnel→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1005,32 +1006,32 @@ tunnels
 return await memorize_seq(
   __env__.cwf_sects("901a", "234f",),
   """
-canals
-channels
-dams
-levees
+canal
+channel
+dam
+levee
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="901a"--><!-- The following content is generated at 2024-02-16T21:59:47.709515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="901a"--><!-- The following content is generated at 2024-05-01T19:22:35.237499+08:00. Any edits will be overridden! -->
 
-> 1. canals
-> 2. channels
-> 3. dams
-> 4. levees
+> 1. canal
+> 2. channel
+> 3. dam
+> 4. levee
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-02-16T21:59:47.727515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←canals
-- canals→:::←channels
-- channels→:::←dams
-- dams→:::←levees
-- levees→:::←_(end)_
+- _(begin)_→:::←canal
+- canal→:::←channel
+- channel→:::←dam
+- dam→:::←levee
+- levee→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1043,32 +1044,32 @@ levees
 return await memorize_seq(
   __env__.cwf_sects("942a", "019b",),
   """
-sewage collection networks
+sewage collection network
 storm water management
-water collection networks
-water distribution networks
+water collection network
+water distribution network
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="942a"--><!-- The following content is generated at 2024-02-16T21:59:47.753515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="942a"--><!-- The following content is generated at 2024-05-01T19:22:35.304566+08:00. Any edits will be overridden! -->
 
-> 1. sewage collection networks
+> 1. sewage collection network
 > 2. storm water management
-> 3. water collection networks
-> 4. water distribution networks
+> 3. water collection network
+> 4. water distribution network
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-02-16T21:59:47.738515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection networks
-- sewage collection networks→:::←storm water management
-- storm water management→:::←water collection networks
-- water collection networks→:::←water distribution networks
-- water distribution networks→:::←_(end)_
+- _(begin)_→:::←sewage collection network
+- sewage collection network→:::←storm water management
+- storm water management→:::←water collection network
+- water collection network→:::←water distribution network
+- water distribution network→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1122,29 +1123,29 @@ Tsing Ma Bridge
 return await memorize_seq(
   __env__.cwf_sects("3681", "198b",),
   """
-choose suitable materials to resurface a road like asphalt pavement
-design a concrete mix for a large building
-develop strengthening techniques for damaged structures or structural members like a damaged column
+choosing suitable materials to resurface a road like asphalt pavement
+designing a concrete mix for a large building
+developing strengthening techniques for damaged structures or structural members like a damaged column
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="3681"--><!-- The following content is generated at 2024-02-17T22:07:05.265864+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3681"--><!-- The following content is generated at 2024-05-01T19:22:35.329190+08:00. Any edits will be overridden! -->
 
-> 1. choose suitable materials to resurface a road like asphalt pavement
-> 2. design a concrete mix for a large building
-> 3. develop strengthening techniques for damaged structures or structural members like a damaged column
+> 1. choosing suitable materials to resurface a road like asphalt pavement
+> 2. designing a concrete mix for a large building
+> 3. developing strengthening techniques for damaged structures or structural members like a damaged column
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-02-17T22:07:05.230868+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choose suitable materials to resurface a road like asphalt pavement
-- choose suitable materials to resurface a road like asphalt pavement→:::←design a concrete mix for a large building
-- design a concrete mix for a large building→:::←develop strengthening techniques for damaged structures or structural members like a damaged column
-- develop strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_
+- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement
+- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building
+- designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column
+- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1198,35 +1199,35 @@ polypropylene fiber reinforced concrete
 return await memorize_seq(
   __env__.cwf_sects("27b6", "4372",),
   """
-earthquakes
-fires
-floods
-strong winds
-waves
+earthquake
+fire
+flood
+strong wind
+wave
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="27b6"--><!-- The following content is generated at 2024-02-16T21:59:47.869588+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="27b6"--><!-- The following content is generated at 2024-05-01T19:22:35.418983+08:00. Any edits will be overridden! -->
 
-> 1. earthquakes
-> 2. fires
-> 3. floods
-> 4. strong winds
-> 5. waves
+> 1. earthquake
+> 2. fire
+> 3. flood
+> 4. strong wind
+> 5. wave
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-02-16T21:59:47.880110+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquakes
-- earthquakes→:::←fires
-- fires→:::←floods
-- floods→:::←strong winds
-- strong winds→:::←waves
-- waves→:::←_(end)_
+- _(begin)_→:::←earthquake
+- earthquake→:::←fire
+- fire→:::←flood
+- flood→:::←strong wind
+- strong wind→:::←wave
+- wave→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1353,44 +1354,44 @@ Hong Kong Code
 return await memorize_seq(
   __env__.cwf_sects("67bb", "1002",),
   """
-bridges
-buildings
-dams
-power plants
-storage facilities
-tunnels
-unusual structures
-water towers
+bridge
+building
+dam
+power plant
+storage facility
+tunnel
+unusual structure
+water tower
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="67bb"--><!-- The following content is generated at 2024-02-16T21:59:48.019178+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="67bb"--><!-- The following content is generated at 2024-05-01T19:22:35.482222+08:00. Any edits will be overridden! -->
 
-> 1. bridges
-> 2. buildings
-> 3. dams
-> 4. power plants
-> 5. storage facilities
-> 6. tunnels
-> 7. unusual structures
-> 8. water towers
+> 1. bridge
+> 2. building
+> 3. dam
+> 4. power plant
+> 5. storage facility
+> 6. tunnel
+> 7. unusual structure
+> 8. water tower
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-02-16T21:59:48.005175+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridges
-- bridges→:::←buildings
-- buildings→:::←dams
-- dams→:::←power plants
-- power plants→:::←storage facilities
-- storage facilities→:::←tunnels
-- tunnels→:::←unusual structures
-- unusual structures→:::←water towers
-- water towers→:::←_(end)_
+- _(begin)_→:::←bridge
+- bridge→:::←building
+- building→:::←dam
+- dam→:::←power plant
+- power plant→:::←storage facility
+- storage facility→:::←tunnel
+- tunnel→:::←unusual structure
+- unusual structure→:::←water tower
+- water tower→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1456,13 +1457,12 @@ and the Structural Engineering Institute (SEI).
 return await memorize_seq(
   __env__.cwf_sects("38b7", "a928",),
   """
-air
-airports
-bicycle paths
-highways
-piers
-pipelines
-railroads
+airport
+bicycle path
+highway
+pier
+pipeline
+railroad
 water
 """.strip().splitlines(),
 )
@@ -1470,29 +1470,27 @@ water
 
 %%
 
-<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-02-16T21:59:48.094737+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-05-01T19:22:35.565822+08:00. Any edits will be overridden! -->
 
-> 1. air
-> 2. airports
-> 3. bicycle paths
-> 4. highways
-> 5. piers
-> 6. pipelines
-> 7. railroads
-> 8. water
+> 1. airport
+> 2. bicycle path
+> 3. highway
+> 4. pier
+> 5. pipeline
+> 6. railroad
+> 7. water
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-02-16T21:59:48.076725+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T19:22:35.588449+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air
-- air→:::←airports
-- airports→:::←bicycle paths
-- bicycle paths→:::←highways
-- highways→:::←piers
-- piers→:::←pipelines
-- pipelines→:::←railroads
-- railroads→:::←water
+- _(begin)_→:::←airport
+- airport→:::←bicycle path
+- bicycle path→:::←highway
+- highway→:::←pier
+- pier→:::←pipeline
+- pipeline→:::←railroad
+- railroad→:::←water
 - water→:::←_(end)_
 
 <!--/pytextgen-->
