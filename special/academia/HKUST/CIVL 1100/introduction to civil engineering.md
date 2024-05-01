@@ -81,14 +81,15 @@ The content is in teaching order.
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-05-02,8,315!2024-05-09,17,350-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-05-15,16,295!2024-05-10,18,352-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-05-11,19,350-->
+    - noise engineering ::: noise mingyitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-05-11,19,350-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-05-10,12,230!2024-05-06,14,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-05-06,5,294!2024-05-11,19,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-05-27,27,312!2024-12-04,219,319-->
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-05-05,7,300!2024-05-15,17,361-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
-- materials engineering ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-05-29,28,317!2024-05-12,20,347-->
+- materials engineering
+  - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-05-29,28,317!2024-05-12,20,347-->
   - materials engineer jobs ::: highly varied <!--SR:!2024-06-11,67,330!2024-05-11,19,352-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::: development of improved or new materials <!--SR:!2024-05-16,17,297!2024-06-21,77,330-->
@@ -96,7 +97,7 @@ The content is in teaching order.
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-05-10,18,355-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-05-07,9,320!2024-05-04,10,312-->
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-05-27,27,317!2024-05-09,17,354-->
-  - [construction engineer characteristics](#construction%20engineer%20characteristics)
+  - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2024-06-06,62,330-->
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-05-14,16,340!2024-05-10,17,357-->
@@ -113,8 +114,9 @@ The content is in teaching order.
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2024-05-05,4,274!2024-05-18,20,360-->
+- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-05-05,4,274!2024-05-18,20,360-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2024-05-11,19,347!2024-05-08,16,355-->
+- image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG)
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2024-05-04,3,281!2024-05-10,18,352-->
 
 ### Beijing National Stadium
@@ -122,6 +124,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
 - description ::: stadium in Beijing, China <!--SR:!2024-06-03,59,310!2024-06-10,66,330-->
+- image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg)
 - shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-05-11,19,352!2024-05-10,18,345-->
 
 ### Burj Al Arab
@@ -130,6 +133,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-06-05,35,307!2024-05-13,21,357-->
 - height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-05-03,2,240!2024-05-12,20,345-->
+- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg)
 - shape ::: sail of a ship <!--SR:!2024-05-13,20,357!2024-05-08,16,352-->
 
 ### Burj Khalifa
@@ -138,7 +142,8 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-05-15,16,297!2024-05-11,19,354-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-05-06,6,281!2024-05-14,21,357-->
-- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel <!--SR:!2024-05-06,8,321!2024-06-14,70,330-->
+- image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg)
+- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-05-06,8,321!2024-06-14,70,330-->
 
 ### CCTV Headquarters
 
@@ -146,6 +151,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-06-03,33,312!2024-05-09,17,347-->
 - height ::: roof: 234 m <!--SR:!2024-05-04,3,260!2024-05-13,21,357-->
+- image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg)
 - shape ::: big pants <!--SR:!2024-05-12,20,345!2024-05-17,19,360-->
 
 ### Central Plaza (Hong Kong)
@@ -154,7 +160,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-05-03,11,335!2024-05-13,21,357-->
 - height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-05-04,6,281!2024-05-13,21,356-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete <!--SR:!2024-05-16,15,341!2024-05-02,4,341-->
+- image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg)
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-05-16,15,341!2024-05-02,4,341-->
 
 ### China International Trust and Investment Plaza
 
@@ -162,7 +169,8 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-05-04,6,272!2024-05-11,19,347-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-03,2,241!2024-05-06,14,332-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
+- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg)
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 -->
 
 ### Eiffel Tower
 
@@ -170,6 +178,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2024-05-07,15,327!2024-05-23,48,310-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-05-29,28,317!2024-06-01,57,310-->
+- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg)
 - shape ::: exponential <!--SR:!2024-06-04,60,330!2024-05-07,57,315-->
 
 ### HSBC Main Building
@@ -178,21 +187,24 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2024-05-05,13,334!2024-06-22,78,330-->
 - height ::: roof: 178.8 m <!--SR:!2024-05-07,7,281!2024-06-16,72,330-->
-- [structural system](../../../../general/structural%20system.md) ::: steel <!--SR:!2024-05-02,3,301!2024-05-02,4,341-->
+- image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg)
+- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-05-02,3,301!2024-05-02,4,341-->
 
 ### Hong Kong Convention and Exhibition Centre
 
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
 - description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-08-03,114,295!2024-05-09,17,354-->
+- image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg)
 - shape ::: bird/turtle rooftop <!--SR:!2024-05-30,55,310!2024-05-10,18,352-->
 
 ### Hong Kong–Zhuhai–Macau Bridge
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md) <!--SR:!2024-05-05,13,334!2024-05-08,16,354-->
+- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2024-05-05,13,334!2024-05-08,16,354-->
 - description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2024-05-12,20,355!2024-05-24,49,310-->
+- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg)
 - length: 55 km
 
 ### Hoover Dam
@@ -201,6 +213,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-05-07,9,300!2024-05-11,19,355-->
 - height ::: 221.4 m <!--SR:!2024-05-05,4,281!2024-05-03,11,327-->
+- image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg)
 - length ::: 379 m <!--SR:!2024-05-07,7,281!2024-05-03,11,330-->
 
 ### International Commerce Centre
@@ -209,7 +222,8 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-05-25,50,310!2024-05-12,20,350-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-05-04,6,281!2024-05-29,54,310-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-05-09,8,321!2024-05-02,4,341-->
+- image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg)
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-05-09,8,321!2024-05-02,4,341--><!-- flashcard 43a4af6d-72e9-4a63-a0c5-3fdea8fac2e9 -->
 
 ### John Hancock Center
 
@@ -217,10 +231,12 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-05-02,3,275!2024-05-08,16,347-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-05-06,5,237!2024-05-29,54,310-->
-- [structural system](../../../../general/structural%20system.md) ::: steel
+- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg)
+- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 -->
 
 ### MOSE
 
+- image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg)
 - type ::: mobile gates <!--SR:!2024-05-26,26,317!2024-05-05,14,327-->
 
 ### Mont Cenis Base Tunnel
@@ -234,16 +250,18 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) <!--SR:!2024-05-10,9,321!2024-05-02,4,341-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-05-10,9,321!2024-05-02,4,341-->
 - description ::: bridge in Hong Kong <!--SR:!2024-05-05,13,325!2024-05-13,20,357-->
+- image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg)
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-05-06,8,300!2024-05-04,12,330-->
 
 ### Sutong Yangtze River Bridge
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa -->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-05-20,20,290!2024-05-06,14,324-->
+- image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG)
 - length ::: 8206 m, longest span: 1088 m <!--SR:!2024-05-02,3,257!2024-05-05,13,335-->
 
 ### Taipei 101
@@ -252,7 +270,8 @@ See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-05-19,21,360-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-05-03,2,241!2024-05-17,42,310-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite
+- image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg)
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a -->
 
 ### Thames Barrier
 
@@ -260,14 +279,16 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-05-08,10,321!2024-05-11,18,357-->
 - height ::: 20.1 m <!--SR:!2024-05-05,7,301!2024-05-18,20,360-->
+- image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg)
 - length ::: 520 m <!--SR:!2024-05-07,7,280!2024-05-21,46,310-->
 
 ### Tsing Ma Bridge
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2024-05-03,5,277!2024-05-10,18,350-->
+- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-05-03,5,277!2024-05-10,18,350-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-06-13,69,330!2024-05-12,20,352-->
+- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg)
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-05-06,6,280!2024-05-18,20,360-->
 
 ### Turin–Lyon high-speed railway
@@ -283,13 +304,15 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-05-06,8,320!2024-05-09,17,345-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-06,8,301!2024-05-12,20,344-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
+- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg)
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d -->
 
 ### Water Cube
 
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-05-11,19,354-->
+- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg)
 - shape ::: cube covered with bubbles <!--SR:!2024-05-04,12,330!2024-06-07,63,330-->
 
 ## oversized data
@@ -364,14 +387,14 @@ power plant
 reservoir
 sewage treatment
 transport
-water
+water and sewage treatment system
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-02-16T21:59:47.075698+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-05-01T23:30:34.967240+08:00. Any edits will be overridden! -->
 
 > 1. bridge
 > 2. building
@@ -381,11 +404,11 @@ water
 > 6. reservoir
 > 7. sewage treatment
 > 8. transport
-> 9. water
+> 9. water and sewage treatment system
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-02-16T21:59:47.042572+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge <!--SR:!2024-05-10,17,357!2024-05-11,19,354-->
 - bridge→:::←building <!--SR:!2024-05-08,16,352!2024-05-14,16,340-->
@@ -395,8 +418,8 @@ water
 - power plant→:::←reservoir <!--SR:!2024-05-07,9,275!2024-05-07,9,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-05-02,1,217!2024-05-04,6,281-->
 - sewage treatment→:::←transport <!--SR:!2024-05-04,4,270!2024-05-05,5,301-->
-- transport→:::←water <!--SR:!2024-05-10,12,340!2024-05-05,5,230-->
-- water→:::←_(end)_ <!--SR:!2024-05-02,4,341!2024-05-02,4,341-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-05-10,12,340!2024-05-05,5,230-->
+- water and sewage treatment system→:::←_(end)_ <!--SR:!2024-05-02,4,341!2024-05-02,4,341-->
 
 <!--/pytextgen-->
 
@@ -450,9 +473,9 @@ water security
 return await memorize_seq(
   __env__.cwf_sects("847b", "1e12",),
   """
-budget
+budgeting
 construction management
-economy
+economics
 impacts to surrounding
 lifecycle
 maintenance
@@ -465,11 +488,11 @@ workmanship
 
 %%
 
-<!--pytextgen generate section="847b"--><!-- The following content is generated at 2024-02-16T21:59:47.141114+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="847b"--><!-- The following content is generated at 2024-05-01T19:22:34.824717+08:00. Any edits will be overridden! -->
 
-> 1. budget
+> 1. budgeting
 > 2. construction management
-> 3. economy
+> 3. economics
 > 4. impacts to surrounding
 > 5. lifecycle
 > 6. maintenance
@@ -479,12 +502,12 @@ workmanship
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-02-16T21:59:47.165148+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budget <!--SR:!2024-05-14,16,341!2024-05-19,21,360-->
-- budget→:::←construction management <!--SR:!2024-05-06,6,300!2024-05-22,23,315-->
-- construction management→:::←economy <!--SR:!2024-05-04,3,215!2024-05-04,3,280-->
-- economy→:::←impacts to surrounding <!--SR:!2024-05-05,7,300!2024-05-06,8,320-->
+- _(begin)_→:::←budgeting <!--SR:!2024-05-14,16,341!2024-05-19,21,360-->
+- budgeting→:::←construction management <!--SR:!2024-05-06,6,300!2024-05-22,23,315-->
+- construction management→:::←economics <!--SR:!2024-05-04,3,215!2024-05-04,3,280-->
+- economics→:::←impacts to surrounding <!--SR:!2024-05-05,7,300!2024-05-06,8,320-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-05-06,6,300!2024-05-06,6,300-->
 - lifecycle→:::←maintenance <!--SR:!2024-05-13,14,297!2024-05-02,8,312-->
 - maintenance→:::←politics <!--SR:!2024-05-04,3,281!2024-05-20,19,292-->
@@ -544,8 +567,8 @@ return await memorize_seq(
 construction
 environmental
 geo-technical
-hydraulics
-materials
+hydraulic
+material
 structural
 transportation
 """.strip().splitlines(),
@@ -554,26 +577,26 @@ transportation
 
 %%
 
-<!--pytextgen generate section="ba02"--><!-- The following content is generated at 2024-02-16T21:59:47.257694+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ba02"--><!-- The following content is generated at 2024-05-01T19:22:34.941115+08:00. Any edits will be overridden! -->
 
 > 1. construction
 > 2. environmental
 > 3. geo-technical
-> 4. hydraulics
-> 5. materials
+> 4. hydraulic
+> 5. material
 > 6. structural
 > 7. transportation
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-02-16T21:59:47.274701+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←construction <!--SR:!2024-05-05,13,335!2024-05-02,8,335-->
 - construction→:::←environmental <!--SR:!2024-05-07,7,320!2024-05-17,19,360-->
 - environmental→:::←geo-technical <!--SR:!2024-05-30,30,307!2024-06-16,46,325-->
-- geo-technical→:::←hydraulics <!--SR:!2024-05-11,13,340!2024-05-17,19,360-->
-- hydraulics→:::←materials <!--SR:!2024-05-07,9,320!2024-05-09,11,340-->
-- materials→:::←structural <!--SR:!2024-05-26,25,317!2024-05-04,3,260-->
+- geo-technical→:::←hydraulic <!--SR:!2024-05-11,13,340!2024-05-17,19,360-->
+- hydraulic→:::←material <!--SR:!2024-05-07,9,320!2024-05-09,11,340-->
+- material→:::←structural <!--SR:!2024-05-26,25,317!2024-05-04,3,260-->
 - structural→:::←transportation <!--SR:!2024-05-14,16,340!2024-05-06,15,327-->
 - transportation→:::←_(end)_ <!--SR:!2024-05-05,13,330!2024-05-18,20,361-->
 
@@ -626,7 +649,69 @@ Water Cube
 
 <!--/pytextgen-->
 
-### construction engineer characteristics
+### construction engineer jobs
+
+%%
+
+```Python
+# pytextgen generate data
+return await memorize_seq(
+  __env__.cwf_sects("9338", "a93e",),
+  """
+budgeting
+contracting
+designing temporary structures
+logistics
+planning
+procuring materials
+quality assurance
+quality control
+safety engineering
+scheduling
+surveying building site
+testing materials
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--pytextgen generate section="9338"--><!-- The following content is generated at 2024-05-01T19:22:35.020877+08:00. Any edits will be overridden! -->
+
+> 1. budgeting
+> 2. contracting
+> 3. designing temporary structures
+> 4. logistics
+> 5. planning
+> 6. procuring materials
+> 7. quality assurance
+> 8. quality control
+> 9. safety engineering
+> 10. scheduling
+> 11. surveying building site
+> 12. testing materials
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←budgeting <!--SR:!2024-06-13,43,327!2024-05-08,16,355-->
+- budgeting→:::←contracting <!--SR:!2024-05-29,28,314!2024-06-15,45,327-->
+- contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-05-07,6,295-->
+- designing temporary structures→:::←logistics <!--SR:!2024-05-04,9,320!2024-05-04,6,277-->
+- logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-02,10,315-->
+- planning→:::←procuring materials <!--SR:!2024-05-04,4,297!2024-05-05,4,277-->
+- procuring materials→:::←quality assurance <!--SR:!2024-05-09,11,320!2024-05-04,3,261-->
+- quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-05-09,17,352-->
+- quality control→:::←safety engineering <!--SR:!2024-05-05,7,301!2024-05-03,9,315-->
+- safety engineering→:::←scheduling <!--SR:!2024-05-07,9,320!2024-05-06,8,320-->
+- scheduling→:::←surveying building site <!--SR:!2024-05-03,2,241!2024-05-04,3,280-->
+- surveying building site→:::←testing materials <!--SR:!2024-05-06,6,300!2024-05-18,17,292-->
+- testing materials→:::←_(end)_ <!--SR:!2024-05-07,15,327!2024-05-20,20,287-->
+
+<!--/pytextgen-->
+
+### construction engineer skills
 
 %%
 
@@ -667,68 +752,6 @@ teaming up with others
 - management principles→:::←strong communication skills <!--SR:!2024-05-05,7,301!2024-05-07,9,300-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-05-11,13,340!2024-05-17,19,360-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-05-06,14,335!2024-05-03,3,272-->
-
-<!--/pytextgen-->
-
-### construction engineer jobs
-
-%%
-
-```Python
-# pytextgen generate data
-return await memorize_seq(
-  __env__.cwf_sects("9338", "a93e",),
-  """
-budgeting
-contracts
-designing temporary structures
-logistics
-planning
-procuring materials
-quality assurance
-quality control
-safety engineering
-scheduling
-surveying building site
-testing materials
-""".strip().splitlines(),
-)
-```
-
-%%
-
-<!--pytextgen generate section="9338"--><!-- The following content is generated at 2024-02-16T21:59:47.407186+08:00. Any edits will be overridden! -->
-
-> 1. budgeting
-> 2. contracts
-> 3. designing temporary structures
-> 4. logistics
-> 5. planning
-> 6. procuring materials
-> 7. quality assurance
-> 8. quality control
-> 9. safety engineering
-> 10. scheduling
-> 11. surveying building site
-> 12. testing materials
-
-<!--/pytextgen-->
-
-<!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-02-16T21:59:47.431612+08:00. Any edits will be overridden! -->
-
-- _(begin)_→:::←budgeting <!--SR:!2024-06-13,43,327!2024-05-08,16,355-->
-- budgeting→:::←contracts <!--SR:!2024-05-29,28,314!2024-06-15,45,327-->
-- contracts→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-05-07,6,295-->
-- designing temporary structures→:::←logistics <!--SR:!2024-05-04,9,320!2024-05-04,6,277-->
-- logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-02,10,315-->
-- planning→:::←procuring materials <!--SR:!2024-05-04,4,297!2024-05-05,4,277-->
-- procuring materials→:::←quality assurance <!--SR:!2024-05-09,11,320!2024-05-04,3,261-->
-- quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-05-09,17,352-->
-- quality control→:::←safety engineering <!--SR:!2024-05-05,7,301!2024-05-03,9,315-->
-- safety engineering→:::←scheduling <!--SR:!2024-05-07,9,320!2024-05-06,8,320-->
-- scheduling→:::←surveying building site <!--SR:!2024-05-03,2,241!2024-05-04,3,280-->
-- surveying building site→:::←testing materials <!--SR:!2024-05-06,6,300!2024-05-18,17,292-->
-- testing materials→:::←_(end)_ <!--SR:!2024-05-07,15,327!2024-05-20,20,287-->
 
 <!--/pytextgen-->
 
@@ -929,9 +952,9 @@ socioeconomic
 return await memorize_seq(
   __env__.cwf_sects("aad2", "50ba",),
   """
-debris flows
-landslides
-rockfalls
+debris flow
+landslide
+rockfall
 soil liquefaction
 """.strip().splitlines(),
 )
@@ -939,21 +962,21 @@ soil liquefaction
 
 %%
 
-<!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-02-17T22:07:05.106933+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-05-01T19:22:35.123019+08:00. Any edits will be overridden! -->
 
-> 1. debris flows
-> 2. landslides
-> 3. rockfalls
+> 1. debris flow
+> 2. landslide
+> 3. rockfall
 > 4. soil liquefaction
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-02-17T22:07:05.158955+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←debris flows <!--SR:!2024-05-23,24,314!2024-05-12,19,358-->
-- debris flows→:::←landslides <!--SR:!2024-05-19,20,315!2024-05-18,18,315-->
-- landslides→:::←rockfalls <!--SR:!2024-05-15,17,292!2024-05-08,10,320-->
-- rockfalls→:::←soil liquefaction <!--SR:!2024-05-16,17,290!2024-05-21,34,250-->
+- _(begin)_→:::←debris flow <!--SR:!2024-05-23,24,314!2024-05-12,19,358-->
+- debris flow→:::←landslide <!--SR:!2024-05-19,20,315!2024-05-18,18,315-->
+- landslide→:::←rockfall <!--SR:!2024-05-15,17,292!2024-05-08,10,320-->
+- rockfall→:::←soil liquefaction <!--SR:!2024-05-16,17,290!2024-05-21,34,250-->
 - soil liquefaction→:::←_(end)_ <!--SR:!2024-05-11,19,352!2024-05-03,4,295-->
 
 <!--/pytextgen-->
@@ -967,32 +990,32 @@ soil liquefaction
 return await memorize_seq(
   __env__.cwf_sects("300f", "11ab",),
   """
-embankments
-pile foundations
-shallow foundations
-tunnels
+embankment
+pile foundation
+shallow foundation
+tunnel
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="300f"--><!-- The following content is generated at 2024-02-16T21:59:47.692514+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="300f"--><!-- The following content is generated at 2024-05-01T19:22:35.187590+08:00. Any edits will be overridden! -->
 
-> 1. embankments
-> 2. pile foundations
-> 3. shallow foundations
-> 4. tunnels
+> 1. embankment
+> 2. pile foundation
+> 3. shallow foundation
+> 4. tunnel
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-02-16T21:59:47.674464+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←embankments <!--SR:!2024-05-09,11,320!2024-05-16,18,360-->
-- embankments→:::←pile foundations <!--SR:!2024-05-10,12,320!2024-05-15,17,360-->
-- pile foundations→:::←shallow foundations <!--SR:!2024-05-06,5,297!2024-05-04,12,335-->
-- shallow foundations→:::←tunnels <!--SR:!2024-05-14,16,341!2024-05-06,5,292-->
-- tunnels→:::←_(end)_ <!--SR:!2024-05-08,16,350!2024-05-02,10,317-->
+- _(begin)_→:::←embankment <!--SR:!2024-05-09,11,320!2024-05-16,18,360-->
+- embankment→:::←pile foundation <!--SR:!2024-05-10,12,320!2024-05-15,17,360-->
+- pile foundation→:::←shallow foundation <!--SR:!2024-05-06,5,297!2024-05-04,12,335-->
+- shallow foundation→:::←tunnel <!--SR:!2024-05-14,16,341!2024-05-06,5,292-->
+- tunnel→:::←_(end)_ <!--SR:!2024-05-08,16,350!2024-05-02,10,317-->
 
 <!--/pytextgen-->
 
@@ -1005,32 +1028,32 @@ tunnels
 return await memorize_seq(
   __env__.cwf_sects("901a", "234f",),
   """
-canals
-channels
-dams
-levees
+canal
+channel
+dam
+levee
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="901a"--><!-- The following content is generated at 2024-02-16T21:59:47.709515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="901a"--><!-- The following content is generated at 2024-05-01T19:22:35.237499+08:00. Any edits will be overridden! -->
 
-> 1. canals
-> 2. channels
-> 3. dams
-> 4. levees
+> 1. canal
+> 2. channel
+> 3. dam
+> 4. levee
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-02-16T21:59:47.727515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←canals <!--SR:!2024-05-05,5,300!2024-05-07,15,327-->
-- canals→:::←channels <!--SR:!2024-06-06,37,337!2024-05-04,10,332-->
-- channels→:::←dams <!--SR:!2024-05-05,13,327!2024-06-15,64,270-->
-- dams→:::←levees <!--SR:!2024-05-12,14,340!2024-05-05,13,332-->
-- levees→:::←_(end)_ <!--SR:!2024-05-10,18,355!2024-05-04,6,258-->
+- _(begin)_→:::←canal <!--SR:!2024-05-05,5,300!2024-05-07,15,327-->
+- canal→:::←channel <!--SR:!2024-06-06,37,337!2024-05-04,10,332-->
+- channel→:::←dam <!--SR:!2024-05-05,13,327!2024-06-15,64,270-->
+- dam→:::←levee <!--SR:!2024-05-12,14,340!2024-05-05,13,332-->
+- levee→:::←_(end)_ <!--SR:!2024-05-10,18,355!2024-05-04,6,258-->
 
 <!--/pytextgen-->
 
@@ -1043,32 +1066,32 @@ levees
 return await memorize_seq(
   __env__.cwf_sects("942a", "019b",),
   """
-sewage collection networks
+sewage collection network
 storm water management
-water collection networks
-water distribution networks
+water collection network
+water distribution network
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="942a"--><!-- The following content is generated at 2024-02-16T21:59:47.753515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="942a"--><!-- The following content is generated at 2024-05-01T19:22:35.304566+08:00. Any edits will be overridden! -->
 
-> 1. sewage collection networks
+> 1. sewage collection network
 > 2. storm water management
-> 3. water collection networks
-> 4. water distribution networks
+> 3. water collection network
+> 4. water distribution network
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-02-16T21:59:47.738515+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection networks <!--SR:!2024-05-06,8,321!2024-05-20,19,297-->
-- sewage collection networks→:::←storm water management <!--SR:!2024-05-05,5,247!2024-05-06,6,301-->
-- storm water management→:::←water collection networks <!--SR:!2024-05-07,9,320!2024-05-09,11,320-->
-- water collection networks→:::←water distribution networks <!--SR:!2024-05-18,20,360!2024-05-05,11,332-->
-- water distribution networks→:::←_(end)_ <!--SR:!2024-05-03,9,327!2024-05-07,9,321-->
+- _(begin)_→:::←sewage collection network <!--SR:!2024-05-06,8,321!2024-05-20,19,297-->
+- sewage collection network→:::←storm water management <!--SR:!2024-05-05,5,247!2024-05-06,6,301-->
+- storm water management→:::←water collection network <!--SR:!2024-05-07,9,320!2024-05-09,11,320-->
+- water collection network→:::←water distribution network <!--SR:!2024-05-18,20,360!2024-05-05,11,332-->
+- water distribution network→:::←_(end)_ <!--SR:!2024-05-03,9,327!2024-05-07,9,321-->
 
 <!--/pytextgen-->
 
@@ -1122,29 +1145,29 @@ Tsing Ma Bridge
 return await memorize_seq(
   __env__.cwf_sects("3681", "198b",),
   """
-choose suitable materials to resurface a road like asphalt pavement
-design a concrete mix for a large building
-develop strengthening techniques for damaged structures or structural members like a damaged column
+choosing suitable materials to resurface a road like asphalt pavement
+designing a concrete mix for a large building
+developing strengthening techniques for damaged structures or structural members like a damaged column
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="3681"--><!-- The following content is generated at 2024-02-17T22:07:05.265864+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3681"--><!-- The following content is generated at 2024-05-01T19:22:35.329190+08:00. Any edits will be overridden! -->
 
-> 1. choose suitable materials to resurface a road like asphalt pavement
-> 2. design a concrete mix for a large building
-> 3. develop strengthening techniques for damaged structures or structural members like a damaged column
+> 1. choosing suitable materials to resurface a road like asphalt pavement
+> 2. designing a concrete mix for a large building
+> 3. developing strengthening techniques for damaged structures or structural members like a damaged column
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-02-17T22:07:05.230868+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choose suitable materials to resurface a road like asphalt pavement <!--SR:!2024-05-20,21,315!2024-05-08,16,350-->
-- choose suitable materials to resurface a road like asphalt pavement→:::←design a concrete mix for a large building <!--SR:!2024-05-14,16,340!2024-05-31,31,307-->
-- design a concrete mix for a large building→:::←develop strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-05-22,23,315!2024-05-22,21,297-->
-- develop strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2024-05-07,15,325!2024-05-21,23,304-->
+- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-05-20,21,315!2024-05-08,16,350-->
+- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2024-05-14,16,340!2024-05-31,31,307-->
+- designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-05-22,23,315!2024-05-22,21,297-->
+- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2024-05-07,15,325!2024-05-21,23,304-->
 
 <!--/pytextgen-->
 
@@ -1198,35 +1221,35 @@ polypropylene fiber reinforced concrete
 return await memorize_seq(
   __env__.cwf_sects("27b6", "4372",),
   """
-earthquakes
-fires
-floods
-strong winds
-waves
+earthquake
+fire
+flood
+strong wind
+wave
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="27b6"--><!-- The following content is generated at 2024-02-16T21:59:47.869588+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="27b6"--><!-- The following content is generated at 2024-05-01T19:22:35.418983+08:00. Any edits will be overridden! -->
 
-> 1. earthquakes
-> 2. fires
-> 3. floods
-> 4. strong winds
-> 5. waves
+> 1. earthquake
+> 2. fire
+> 3. flood
+> 4. strong wind
+> 5. wave
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-02-16T21:59:47.880110+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquakes <!--SR:!2024-05-11,13,340!2024-05-07,15,337-->
-- earthquakes→:::←fires <!--SR:!2024-06-02,34,335!2024-05-13,15,340-->
-- fires→:::←floods <!--SR:!2024-05-06,14,324!2024-05-24,30,246-->
-- floods→:::←strong winds <!--SR:!2024-05-06,8,320!2024-05-27,26,317-->
-- strong winds→:::←waves <!--SR:!2024-06-07,58,270!2024-05-03,4,294-->
-- waves→:::←_(end)_ <!--SR:!2024-05-05,13,337!2024-05-16,16,295-->
+- _(begin)_→:::←earthquake <!--SR:!2024-05-11,13,340!2024-05-07,15,337-->
+- earthquake→:::←fire <!--SR:!2024-06-02,34,335!2024-05-13,15,340-->
+- fire→:::←flood <!--SR:!2024-05-06,14,324!2024-05-24,30,246-->
+- flood→:::←strong wind <!--SR:!2024-05-06,8,320!2024-05-27,26,317-->
+- strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-05-03,4,294-->
+- wave→:::←_(end)_ <!--SR:!2024-05-05,13,337!2024-05-16,16,295-->
 
 <!--/pytextgen-->
 
@@ -1353,44 +1376,44 @@ Hong Kong Code
 return await memorize_seq(
   __env__.cwf_sects("67bb", "1002",),
   """
-bridges
-buildings
-dams
-power plants
-storage facilities
-tunnels
-unusual structures
-water towers
+bridge
+building
+dam
+power plant
+storage facility
+tunnel
+unusual structure
+water tower
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="67bb"--><!-- The following content is generated at 2024-02-16T21:59:48.019178+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="67bb"--><!-- The following content is generated at 2024-05-01T19:22:35.482222+08:00. Any edits will be overridden! -->
 
-> 1. bridges
-> 2. buildings
-> 3. dams
-> 4. power plants
-> 5. storage facilities
-> 6. tunnels
-> 7. unusual structures
-> 8. water towers
+> 1. bridge
+> 2. building
+> 3. dam
+> 4. power plant
+> 5. storage facility
+> 6. tunnel
+> 7. unusual structure
+> 8. water tower
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-02-16T21:59:48.005175+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridges <!--SR:!2024-05-02,10,315!2024-05-16,18,360-->
-- bridges→:::←buildings <!--SR:!2024-05-08,16,350!2024-05-18,20,360-->
-- buildings→:::←dams <!--SR:!2024-05-14,16,341!2024-05-09,11,341-->
-- dams→:::←power plants <!--SR:!2024-05-05,7,301!2024-05-03,5,278-->
-- power plants→:::←storage facilities <!--SR:!2024-05-06,8,300!2024-05-24,25,314-->
-- storage facilities→:::←tunnels <!--SR:!2024-05-09,11,340!2024-05-05,7,300-->
-- tunnels→:::←unusual structures <!--SR:!2024-05-04,4,267!2024-05-10,12,320-->
-- unusual structures→:::←water towers <!--SR:!2024-06-15,45,330!2024-05-07,15,330-->
-- water towers→:::←_(end)_ <!--SR:!2024-05-12,20,347!2024-05-06,6,301-->
+- _(begin)_→:::←bridge <!--SR:!2024-05-02,10,315!2024-05-16,18,360-->
+- bridge→:::←building <!--SR:!2024-05-08,16,350!2024-05-18,20,360-->
+- building→:::←dam <!--SR:!2024-05-14,16,341!2024-05-09,11,341-->
+- dam→:::←power plant <!--SR:!2024-05-05,7,301!2024-05-03,5,278-->
+- power plant→:::←storage facility <!--SR:!2024-05-06,8,300!2024-05-24,25,314-->
+- storage facility→:::←tunnel <!--SR:!2024-05-09,11,340!2024-05-05,7,300-->
+- tunnel→:::←unusual structure <!--SR:!2024-05-04,4,267!2024-05-10,12,320-->
+- unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-05-07,15,330-->
+- water tower→:::←_(end)_ <!--SR:!2024-05-12,20,347!2024-05-06,6,301-->
 
 <!--/pytextgen-->
 
@@ -1406,7 +1429,7 @@ return await memorize_seq(
 On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
 Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.
-The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
+The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.
 On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 with investigators coming from the American Concrete Institute (ACI),
 the American Society of Civil Engineers (ASCE),
@@ -1418,12 +1441,12 @@ and the Structural Engineering Institute (SEI).
 
 %%
 
-<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-04-23T18:07:51.855229+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-04-29T17:46:56.921904+08:00. Any edits will be overridden! -->
 
 > 1. On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 > 2. Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
 > 3. Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.
-> 4. The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.
+> 4. The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.
 > 5. On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
 > 6. with investigators coming from the American Concrete Institute (ACI),
 > 7. the American Society of Civil Engineers (ASCE),
@@ -1432,13 +1455,13 @@ and the Structural Engineering Institute (SEI).
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-04-23T18:07:51.887254+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-04-29T17:46:56.910727+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-05-07,9,320!2024-06-21,77,330-->
 - On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-05-24,25,315!2024-05-25,25,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-05-28,50,270!2024-06-02,32,317-->
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-05-16,16,294!2024-05-26,26,316-->
-- The problems had been reported in 2018 and a 15 million USD program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-05-02,10,317!2024-05-28,28,315-->
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-05-16,16,294!2024-05-26,26,316-->
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-05-02,10,317!2024-05-28,28,315-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-05-02,11,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-05-06,14,334!2024-05-27,28,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-05-05,30,290!2024-05-02,10,317-->
@@ -1456,44 +1479,41 @@ and the Structural Engineering Institute (SEI).
 return await memorize_seq(
   __env__.cwf_sects("38b7", "a928",),
   """
-air
-airports
-bicycle paths
-highways
-piers
-pipelines
-railroads
-water
+airport
+bicycle path
+highway
+pier
+pipeline
+railroad
+water transport
 """.strip().splitlines(),
 )
 ```
 
 %%
 
-<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-02-16T21:59:48.094737+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-05-01T23:30:35.197399+08:00. Any edits will be overridden! -->
 
-> 1. air
-> 2. airports
-> 3. bicycle paths
-> 4. highways
-> 5. piers
-> 6. pipelines
-> 7. railroads
-> 8. water
+> 1. airport
+> 2. bicycle path
+> 3. highway
+> 4. pier
+> 5. pipeline
+> 6. railroad
+> 7. water transport
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-02-16T21:59:48.076725+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air
-- air→:::←airports <!--SR:!2024-05-07,32,290!2024-05-10,18,355-->
-- airports→:::←bicycle paths <!--SR:!2024-05-07,15,335!2024-05-23,23,317-->
-- bicycle paths→:::←highways <!--SR:!2024-05-10,12,340!2024-05-12,14,340-->
-- highways→:::←piers <!--SR:!2024-05-08,10,320!2024-05-05,7,300-->
-- piers→:::←pipelines <!--SR:!2024-05-15,17,360!2024-05-06,5,294-->
-- pipelines→:::←railroads <!--SR:!2024-05-03,4,295!2024-05-24,24,315-->
-- railroads→:::←water <!--SR:!2024-05-07,9,320!2024-05-23,24,315-->
-- water→:::←_(end)_
+- _(begin)_→:::←airport <!--SR:!2024-05-07,32,290!2024-05-10,18,355-->
+- airport→:::←bicycle path <!--SR:!2024-05-07,15,335!2024-05-23,23,317-->
+- bicycle path→:::←highway <!--SR:!2024-05-10,12,340!2024-05-12,14,340-->
+- highway→:::←pier <!--SR:!2024-05-08,10,320!2024-05-05,7,300-->
+- pier→:::←pipeline <!--SR:!2024-05-15,17,360!2024-05-06,5,294-->
+- pipeline→:::←railroad <!--SR:!2024-05-03,4,295!2024-05-24,24,315-->
+- railroad→:::←water transport <!--SR:!2024-05-07,9,320!2024-05-23,24,315-->
+- water transport→:::←_(end)_
 
 <!--/pytextgen-->
 

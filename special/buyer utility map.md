@@ -22,7 +22,7 @@ It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--
 
 ## 6 stages of buyer experience cycle
 
-The {{6 stages of buyer experience}} cycle are the {{map row headers}}. <!--SR:!2024-05-06,9,259!2024-05-14,17,290-->
+The {{6 stages of buyer experience}} cycle are the {{map column headers}}. <!--SR:!2024-05-06,9,259!2024-05-14,17,290-->
 
 %%
 
@@ -68,7 +68,7 @@ disposal
 
 ## 6 utility levers
 
-The {{6 utility levers}} are the {{map column headers}}. <!--SR:!2024-05-05,8,259!2024-05-08,11,279-->
+The {{6 utility levers}} are the {{map row headers}}. <!--SR:!2024-05-05,8,259!2024-05-08,11,279-->
 
 %%
 
