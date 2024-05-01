@@ -37,7 +37,7 @@ Set HaHaObject = New HaHaObject
 HaHaObject.Initialize "omg", 123 ' constructor is not part of the language natively
 ```
 
-The above object stored under `HaHaObject` is also called {{an _instance_ of the class `HaHaClass`}}.
+The above object stored under the `HaHaObject` variable is also called {{an _instance_ of the class `HaHaClass`}}.
 
 ## attribute
 
