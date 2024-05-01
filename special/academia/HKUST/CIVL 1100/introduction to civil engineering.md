@@ -81,7 +81,7 @@ The content is in teaching order.
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
+    - noise engineering ::: noise mingyitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997
@@ -116,6 +116,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)
 - description ::: suspension bridge in Kobe, Japan
+- image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG)
 - length ::: 3911 m, longest span: 1991 m
 
 ### Beijing National Stadium
@@ -123,6 +124,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
 - description ::: stadium in Beijing, China
+- image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg)
 - shape ::: [bird nest](../../../../general/bird%20nest.md)
 
 ### Burj Al Arab
@@ -131,6 +133,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates
 - height ::: architectural: 321 m, top floor: 197.5 m
+- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg)
 - shape ::: sail of a ship
 
 ### Burj Khalifa
@@ -139,6 +142,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m
+- image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg)
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel
 
 ### CCTV Headquarters
@@ -147,6 +151,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::: skyscraper in the central business district of Beijing, China
 - height ::: roof: 234 m
+- image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg)
 - shape ::: big pants
 
 ### Central Plaza (Hong Kong)
@@ -155,6 +160,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong
 - height ::: architectural: 373.9 m, top floor: 299 m
+- image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg)
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### China International Trust and Investment Plaza
@@ -163,6 +169,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China
 - height ::: architectural: 390.2 m, top floor: 296.9 m
+- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg)
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Eiffel Tower
@@ -171,6 +178,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m
+- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg)
 - shape ::: exponential
 
 ### HSBC Main Building
@@ -179,6 +187,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md)
 - height ::: roof: 178.8 m
+- image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg)
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)
 
 ### Hong Kong Convention and Exhibition Centre
@@ -186,6 +195,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
 - description ::: events venue in Wan Chai, Hong Kong
+- image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg)
 - shape ::: bird/turtle rooftop
 
 ### Hong Kong–Zhuhai–Macau Bridge
@@ -194,6 +204,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 - bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)
 - description ::: fixed link consisting of tunnels and multiple bridges
+- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg)
 - length: 55 km
 
 ### Hoover Dam
@@ -202,6 +213,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch
 - height ::: 221.4 m
+- image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg)
 - length ::: 379 m
 
 ### International Commerce Centre
@@ -210,6 +222,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md)
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m
+- image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg)
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite or steel
 
 ### John Hancock Center
@@ -218,10 +231,12 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m
+- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg)
 - [structural system](../../../../general/structural%20system.md) ::: steel
 
 ### MOSE
 
+- image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg)
 - type ::: mobile gates
 
 ### Mont Cenis Base Tunnel
@@ -237,6 +252,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)
 - description ::: bridge in Hong Kong
+- image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg)
 - length ::: 1596 m, longest span: 1018 m
 
 ### Sutong Yangtze River Bridge
@@ -245,6 +261,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China
+- image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG)
 - length ::: 8206 m, longest span: 1088 m
 
 ### Taipei 101
@@ -253,6 +270,7 @@ See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m
+- image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg)
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite
 
 ### Thames Barrier
@@ -261,6 +279,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md)
 - height ::: 20.1 m
+- image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg)
 - length ::: 520 m
 
 ### Tsing Ma Bridge
@@ -269,6 +288,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 - bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md)
+- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg)
 - length ::: 2160 m, longest span: 1377 m
 
 ### Turin–Lyon high-speed railway
@@ -284,6 +304,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois
 - height ::: architectural: 303 m, top floor: 250 m
+- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg)
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete
 
 ### Water Cube
@@ -291,6 +312,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::: swimming center in Beijing, China
+- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg)
 - shape ::: cube covered with bubbles
 
 ## oversized data
