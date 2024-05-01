@@ -21,7 +21,7 @@ tags:
 
 - _defined in {{[`<stdio.h>`](../../general/C%20file%20input_output.md)}}_
 - [`fclose`](file%20input_output/fclose.md)
-- [`fopen`, `fopen_s`](file%20input_output/fopen.md) <!--SR:!2024-05-01,180,310-->
+- [`fopen`, `fopen_s`](file%20input_output/fopen.md) <!--SR:!2026-06-11,771,330-->
 
 ### formatted input/output
 

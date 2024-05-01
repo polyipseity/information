@@ -22,13 +22,13 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2025-06-06,662,330!2024-09-09,282,236-->
 - quit:::Ctrl+Q <!--SR:!2024-10-30,486,310!2028-02-25,1436,336-->
 - help:::F1 <!--SR:!2024-10-31,487,310!2025-01-29,322,270-->
-- rename active:::F2 <!--SR:!2026-05-10,876,296!2024-05-01,94,176-->
+- rename active:::F2 <!--SR:!2026-05-10,876,296!2024-10-12,164,176-->
 - menu search:::F3 <!--SR:!2025-02-09,571,316!2024-06-29,225,256-->
 - file context menu:::F4 <!--SR:!2024-05-07,12,130!2026-08-27,855,276-->
 - show render window:::F11 <!--SR:!2025-09-03,725,315!2026-02-08,678,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2025-11-29,812,336-->
 - quick access:::Q <!--SR:!2025-11-25,753,290!2024-10-27,393,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2024-05-01,9,130!2024-10-16,397,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2024-05-13,12,130!2024-10-16,397,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-07-29,125,190!2025-06-03,434,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-05-27,337,270!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->

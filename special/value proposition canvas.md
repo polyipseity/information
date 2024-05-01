@@ -51,8 +51,8 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.753308+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-05-01,12,289!2024-05-05,16,309-->
-- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-05-01,12,289!2024-05-19,21,269-->
+- _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-06-04,34,289!2024-05-05,16,309-->
+- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-06-02,32,289!2024-05-19,21,269-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-05-14,19,269!2024-05-26,27,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-05-09,10,249!2024-05-22,24,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-10,16,269-->
@@ -75,7 +75,7 @@ Customer jobs can be split into three categories: {{functional jobs, social jobs
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-05-21,33,270!2024-05-06,17,309!2024-05-05,16,309-->
 
-Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-05-01,9,249!2024-06-08,40,309!2024-06-21,62,310-->
+Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-05-25,24,249!2024-06-08,40,309!2024-06-21,62,310-->
 
 Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. <!--SR:!2024-06-11,50,290!2024-06-08,41,309-->
 
@@ -117,10 +117,10 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-05-04,4,209!2024-05-04,15,309-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-05-14,15,229!2024-05-21,23,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-05-05,7,189!2024-05-01,3,209-->
-- mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-05-01,13,289!2024-05-24,26,289-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-05-05,7,189!2024-05-06,5,209-->
+- mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-06-09,39,289!2024-05-24,26,289-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-05-23,25,269!2024-05-14,19,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-05-01,2,169!2024-05-03,9,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-05-04,3,169!2024-05-03,9,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-28,29,289-->
 
 <!--/pytextgen-->
@@ -129,9 +129,9 @@ vagueness: vague jobs, pains, and gains
 
 Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-05-14,20,289!2024-05-08,14,269!2024-05-16,31,270!2024-06-10,43,309-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-05-01,12,289!2024-05-04,15,309!2024-05-09,34,290!2024-06-11,53,310-->
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-05-04,15,309!2024-05-09,34,290!2024-06-11,53,310-->
 
-Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-05-06,17,309!2024-05-03,14,309!2024-05-01,13,289!2024-05-07,18,309-->
+Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-05-06,17,309!2024-05-03,14,309!2024-06-08,38,289!2024-05-07,18,309-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 
@@ -169,7 +169,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-05-12,12,229!2024-05-14,16,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-05-08,9,249!2024-05-18,20,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-08,14,269!2024-05-21,23,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-05-01,13,289!2024-05-01,2,169-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-02,1,149-->
 
 <!--/pytextgen-->
 
@@ -225,7 +225,7 @@ find customer patterns
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-06-03,36,289!2024-05-06,17,309-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-05-10,16,269!2024-06-07,38,289-->
-- outline the interview→:::←interview <!--SR:!2024-05-07,18,309!2024-05-01,13,289-->
+- outline the interview→:::←interview <!--SR:!2024-05-07,18,309!2024-06-26,56,309-->
 - interview→:::←capture new customer profile <!--SR:!2024-05-16,18,269!2024-05-06,17,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2024-05-11,17,269-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-05-09,15,269!2024-05-12,18,269-->
@@ -274,19 +274,19 @@ conclusion: make progress
 <!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-05-29,31,289!2024-05-05,16,307-->
-- hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-05-07,18,309!2024-05-01,12,289-->
+- hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-05-07,18,309!2024-06-18,48,309-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-05-03,14,289!2024-05-07,22,250-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-07,40,309!2024-05-15,30,270-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-05-02,4,249!2024-05-04,15,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-05-05,16,309!2024-05-30,31,289-->
-- conclusion: make progress→:::←_(end)_ <!--SR:!2024-05-05,16,309!2024-05-01,12,250-->
+- conclusion: make progress→:::←_(end)_ <!--SR:!2024-05-05,16,309!2024-06-11,41,270-->
 
 <!--/pytextgen-->
 
 ### test card
 
-When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-06-13,55,310!2024-05-01,19,250-->
+When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-06-13,55,310!2024-06-17,47,250-->
 
 One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-05-22,27,289!2024-05-28,28,289-->
 

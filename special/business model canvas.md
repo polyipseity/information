@@ -68,15 +68,15 @@ C$: [cost structure](#cost%20structure)
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-05-26,28,277!2024-05-02,13,297-->
-- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-05-01,13,274!2024-05-04,15,297-->
+- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-06-04,34,274!2024-05-04,15,297-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-05-18,24,277-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-05-25,26,272-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-05-13,18,257!2024-05-08,15,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-05-17,20,257!2024-05-23,28,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-05-18,21,257!2024-05-02,5,234-->
-- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-05-01,13,277!2024-05-25,27,254-->
-- C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-05-01,13,274!2024-05-01,13,274-->
+- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-07,37,277!2024-05-25,27,254-->
+- C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2024-06-21,51,294-->
 
 <!--/pytextgen-->
 
@@ -183,20 +183,20 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-05-09,15,254!2024-05-17,20,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-06,11,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-05-14,17,254!2024-05-10,13,237-->
-- cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-01,6,157-->
-- customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-01,9,234-->
+- cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-12,11,157-->
+- customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
 - design→:::←newness <!--SR:!2024-05-08,14,257!2024-05-09,15,254-->
 - newness→:::←performance <!--SR:!2024-05-16,22,277!2024-05-10,12,237-->
 - performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-06-03,34,274-->
 - performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-05-11,17,254-->
 - price→:::←risk reduction <!--SR:!2024-05-18,21,254!2024-05-19,22,254-->
-- risk reduction→:::←_(end)_ <!--SR:!2024-05-01,13,277!2024-05-19,22,257-->
+- risk reduction→:::←_(end)_ <!--SR:!2024-06-02,32,277!2024-05-19,22,257-->
 
 <!--/pytextgen-->
 
 #### channels
 
-The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-05-05,16,294!2024-05-17,20,257!2024-05-01,13,274-->
+The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-05-05,16,294!2024-05-17,20,257!2024-06-05,35,274-->
 
 #### customer relationships
 
@@ -300,7 +300,7 @@ subscription fee
 
 #### key resources
 
-The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-05-01,12,274!2024-05-07,14,237-->
+The key resources building block shows {{important assets required for the business model}}. They can be categorized into {{financial, human, intellectual, and physical}} assets. <!--SR:!2024-06-15,45,294!2024-05-07,14,237-->
 
 #### key activities
 

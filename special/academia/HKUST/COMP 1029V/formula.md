@@ -212,7 +212,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`NOT(boolean)` <!--SR:!2025-01-07,260,330!2024-05-01,69,310-->
+- _(begin)_→:::←`NOT(boolean)` <!--SR:!2025-01-07,260,330!2025-03-01,304,330-->
 - `NOT(boolean)`→:::←`AND(booleans...)` <!--SR:!2024-09-05,150,310!2025-02-09,285,330-->
 - `AND(booleans...)`→:::←`OR(booleans...)` <!--SR:!2024-12-10,238,330!2024-09-30,168,310-->
 - `OR(booleans...)`→:::←_(end)_ <!--SR:!2024-12-16,242,330!2025-01-24,272,330-->
@@ -374,7 +374,7 @@ return _chain.from_iterable(await _gather(
 - `MAX(numbers...)`::maximum <!--SR:!2024-12-14,241,330-->
 - `MIN(numbers...)`::minimum <!--SR:!2024-12-12,239,330-->
 - `RANK(number, numbers...)`::rank of `number` in `numbers`, starting from 1 <!--SR:!2024-10-23,184,310-->
-- `STDEV(numbers...)`::standard deviation <!--SR:!2024-05-01,69,310-->
+- `STDEV(numbers...)`::standard deviation <!--SR:!2025-03-02,305,330-->
 - `SUM(numbers...)`::summation <!--SR:!2025-01-17,270,330-->
 
 <!--/pytextgen-->

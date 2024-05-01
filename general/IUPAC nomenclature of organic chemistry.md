@@ -471,7 +471,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-05-01,37,130!2025-09-10,677,285!2028-10-10,1730,387-->
+> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-05-20,19,130!2025-09-10,677,285!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -481,7 +481,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2024-05-26,29,130!2024-06-02,458,362!2024-05-01,429,362-->
+> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2024-05-26,29,130!2024-06-02,458,362!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -648,7 +648,7 @@ return (
 <!--pytextgen generate section="ad92c1"--><!-- The following content is generated at 2024-01-04T20:17:52.277346+08:00. Any edits will be overridden! -->
 
 - _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2028-10-09,1910,372-->
-- cation→:::←carboxylic acid <!--SR:!2024-05-01,517,275!2026-01-18,914,276-->
+- cation→:::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→:::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 - nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->

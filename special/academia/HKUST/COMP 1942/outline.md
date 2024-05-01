@@ -25,7 +25,7 @@ The content is in teaching order.
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2024-05-02,65,310-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2024-05-05,67,310-->
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-09-17,154,310-->
-- dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2024-07-29,115,290!2024-05-01,64,310-->
+- dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2024-07-29,115,290!2024-11-16,199,310-->
 - web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2024-05-03,65,310!2024-05-07,69,310-->
 - [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2025-01-23,269,330!2025-01-13,261,330-->
 
@@ -115,7 +115,7 @@ The content is in teaching order.
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
   - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-05-04,19,331!2024-06-06,40,311-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-  - entropy base ::: We use base 2. <!--SR:!2024-05-01,16,327!2024-05-03,18,327-->
+  - entropy base ::: We use base 2. <!--SR:!2024-07-11,71,347!2024-05-03,18,327-->
 
 ## week 7 lecture 1
 
