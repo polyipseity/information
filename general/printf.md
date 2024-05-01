@@ -159,7 +159,7 @@ A combination of zero or more of the following in any order:
 
 <!--pytextgen generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(space) <!--SR:!2024-05-01,180,317!2024-05-20,199,329-->
+- _(begin)_→:::←(space) <!--SR:!2026-06-28,788,337!2024-05-20,199,329-->
 - (space)→:::←\# <!--SR:!2024-05-07,17,209!2024-06-03,213,329-->
 - \#→:::←+ <!--SR:!2024-07-05,81,289!2024-09-13,213,289-->
 - +→:::←- <!--SR:!2024-05-28,207,329!2024-05-15,194,329-->
@@ -170,7 +170,7 @@ A combination of zero or more of the following in any order:
 
 ### width
 
-An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2024-05-01,180,317!2025-12-11,623,329!2024-05-17,106,269-->
+An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2025-11-24,572,317!2025-12-11,623,329!2024-05-17,106,269-->
 
 ### precision
 

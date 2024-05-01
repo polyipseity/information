@@ -32,7 +32,7 @@ Additionally, if {{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md), then 
 
 > __corollary of the first fundamental theorem of calculus__
 >
-> {{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$, then $$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$.}} <!--SR:!2024-05-01,86,230-->
+> {{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$, then $$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$.}} <!--SR:!2024-11-14,197,230-->
 
 The corollary requires {{$f$ to be [continuous](continuous%20function.md) on the entire [interval](interval%20(mathematics).md). This condition is removed in the [second part of the theorem](#second%20part)}}. <!--SR:!2024-08-17,185,310-->
 
@@ -42,7 +42,7 @@ The second part is sometimes called the _second fundamental theorem of calculus_
 
 > __second fundamental theorem of calculus__
 >
-> {{Given a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$, then $$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$.}} <!--SR:!2024-05-01,36,170-->
+> {{Given a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$ and $F$ a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$, then $$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$.}} <!--SR:!2024-06-29,59,170-->
 
 The second part is {{stronger than the [corollary](#corollary) because $f$ may not be [continuous](continuous%20function.md)}}. <!--SR:!2024-11-13,269,330-->
 
