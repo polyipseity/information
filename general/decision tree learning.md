@@ -14,9 +14,9 @@ tags:
 
 Notable decision tree algorithms include:
 
-- [C4.5](C4.5%20algorithm.md) ::: Classification 4.5 <!--SR:!2024-05-02,17,290!2024-05-02,17,290-->
-- [CART](classification%20and%20regression%20tree.md) ::: classification and regression tree <!--SR:!2024-06-24,56,310!2024-05-02,17,290-->
-- [ID3](ID3%20algorithm.md) ::: Iterative Dichotomiser 3 <!--SR:!2024-06-08,42,290!2024-05-02,17,290-->
+- [C4.5](C4.5%20algorithm.md) ::: Classification 4.5 <!--SR:!2024-07-07,66,310!2024-07-08,67,310-->
+- [CART](classification%20and%20regression%20tree.md) ::: classification and regression tree <!--SR:!2024-06-24,56,310!2024-07-09,68,310-->
+- [ID3](ID3%20algorithm.md) ::: Iterative Dichotomiser 3 <!--SR:!2024-06-08,42,290!2024-07-06,65,310-->
 
 ### metrics
 
@@ -24,7 +24,7 @@ Notable decision tree algorithms include:
 
 __Gini impurity__, {{__Gini's diversity index__, or __[Gini–Simpson index](diversity%20index.md#Gini–Simpson%20index)__ in biodiversity research}}, is {{the probability of sampling a [random variable](random%20variable.md) $X$ twice with replacement and getting different outcomes}}. Symbolically, {{$$\operatorname{I_G}(X) = \sum_{x \in \mathcal X} p(x) \left( \sum_{y \in \mathcal X, y \ne x} p(y) \right) = \sum_{x \in \mathcal X} p(x) (1 - p(x)) = \sum_{x \in \mathcal X} \left(p(x) - (p(x))^2 \right) = \sum_{x \in \mathcal X} p(x) - \sum_{x \in \mathcal X} (p(x))^2 = 1 - \sum_{x \in \mathcal X} (p(x))^2$$, where $\mathcal X$ is the [support set](support%20(mathematics).md) (e.g. possible values of a random variable) of $X$}}. <!--SR:!2024-05-26,26,230!2024-05-23,26,270!2024-05-19,25,270-->
 
-Note that the Gini impurity is also {{an [information entropy](entropy%20(information%20theory).md) measure, corresponding to the [Tsallis entropy](Tsallis%20entropy.md) with $q = 2$}}. The usual [Shannon entropy](entropy%20(information%20theory).md) is also {{the [Tsallis entropy](Tsallis%20entropy.md) when $q \to 1^+$}}, showing that the Gini impurity is {{simply a variation of the normal entropy}}. <!--SR:!2024-05-02,17,290!2024-05-02,17,290!2024-05-02,17,290-->
+Note that the Gini impurity is also {{an [information entropy](entropy%20(information%20theory).md) measure, corresponding to the [Tsallis entropy](Tsallis%20entropy.md) with $q = 2$}}. The usual [Shannon entropy](entropy%20(information%20theory).md) is also {{the [Tsallis entropy](Tsallis%20entropy.md) when $q \to 1^+$}}, showing that the Gini impurity is {{simply a variation of the normal entropy}}. <!--SR:!2024-06-19,48,290!2024-06-24,53,290!2024-07-09,68,310-->
 
 ## references
 

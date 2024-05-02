@@ -25,9 +25,9 @@ The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The resul
 
 ## cluster linkage
 
-To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2024-05-02,17,295!2024-06-04,38,295!2024-05-24,29,275-->
+To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2024-07-08,67,315!2024-06-04,38,295!2024-05-24,29,275-->
 
-Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-06-16,46,295!2024-05-30,33,275!2024-05-02,17,295-->
+Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-06-16,46,295!2024-05-30,33,275!2024-07-15,74,315-->
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
 
@@ -82,14 +82,14 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="c471"--><!-- The following content is generated at 2024-03-25T02:33:59.339528+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[Ward's method](Ward's%20method.md) <!--SR:!2024-05-02,17,295!2024-07-09,69,315-->
-- [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-05-04,7,255!2024-05-02,17,295-->
+- _(begin)_→:::←[Ward's method](Ward's%20method.md) <!--SR:!2024-07-09,68,315!2024-07-09,69,315-->
+- [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-05-04,7,255!2024-06-23,52,295-->
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-05-31,34,275!2024-05-07,10,255-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-05-23,26,275!2024-05-06,14,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-05-31,33,275!2024-06-03,37,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-06-06,42,295!2024-05-18,17,235-->
 - unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-06-14,48,295!2024-05-19,25,275-->
-- weighted average linkage clustering→:::←_(end)_ <!--SR:!2024-05-02,17,295!2024-05-25,28,275-->
+- weighted average linkage clustering→:::←_(end)_ <!--SR:!2024-07-11,70,315!2024-05-25,28,275-->
 
 <!--/pytextgen-->
 
@@ -98,7 +98,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="e892"--><!-- The following content is generated at 2024-04-12T02:13:02.070775+08:00. Any edits will be overridden! -->
 
 - [Ward's method](Ward's%20method.md)::MISSQ, minimum increase of sum of squares <!--SR:!2024-05-11,14,255-->
-- centroid linkage clustering::UPGMC, unweighted centroid clustering <!--SR:!2024-05-02,17,295-->
+- centroid linkage clustering::UPGMC, unweighted centroid clustering <!--SR:!2024-06-25,54,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering <!--SR:!2024-06-08,42,295-->
 - median linkage clustering::WPGMC, weighted centroid clustering <!--SR:!2024-05-10,18,255-->
 - [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique <!--SR:!2024-06-26,57,315-->
@@ -137,11 +137,11 @@ return chain.from_iterable(await gather(
 
 - $d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::[Ward's method](Ward's%20method.md) <!--SR:!2024-05-05,13,255-->
 - $d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$::centroid linkage clustering <!--SR:!2024-06-21,51,295-->
-- $d(A, B) = \max_{a \in A, b \in B} d(a, b)$::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-05-02,17,295-->
+- $d(A, B) = \max_{a \in A, b \in B} d(a, b)$::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-07-13,72,315-->
 - $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$::median linkage clustering <!--SR:!2024-05-20,26,275-->
 - $d(A, B) = \min_{a \in A, b \in B} d(a, b)$::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-07-05,65,315-->
 - $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$::unweighted average linkage clustering <!--SR:!2024-06-06,42,295-->
-- $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$::weighted average linkage clustering <!--SR:!2024-05-02,17,295-->
+- $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$::weighted average linkage clustering <!--SR:!2024-06-20,49,295-->
 
 <!--/pytextgen-->
 

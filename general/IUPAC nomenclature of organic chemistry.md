@@ -204,7 +204,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2024-05-02,432,362-->
+- _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2030-03-16,2144,382-->
 - most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
 - most multiple bonds→:::←maximum length <!--SR:!2025-02-16,416,256!2025-10-04,690,282-->
 - maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
@@ -410,7 +410,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
 > - suffix: {{-ene}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2029-02-17,1827,380!2024-05-07,437,362!2027-04-03,1256,362!2026-07-29,935,302!2024-05-02,430,362!2030-02-22,2124,382!2025-03-06,644,327-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2029-02-17,1827,380!2024-05-07,437,362!2027-04-03,1256,362!2026-07-29,935,302!2030-03-06,2134,382!2030-02-22,2124,382!2025-03-06,644,327-->
 
 <!-- markdownlint MD028 -->
 

@@ -14,7 +14,7 @@ tags:
 
 > [!tip] tips
 >
-> - color change [mnemonic](mnemonic.md) ::: eating disgusting (green, 🤢) brown sugar <!--SR:!2024-05-02,107,278!2024-05-11,44,300-->
+> - color change [mnemonic](mnemonic.md) ::: eating disgusting (green, 🤢) brown sugar <!--SR:!2025-02-22,296,278!2024-05-11,44,300-->
 
 ## see also
 

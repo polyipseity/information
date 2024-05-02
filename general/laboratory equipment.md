@@ -279,7 +279,7 @@ return _chain.from_iterable(await _gather(
 - ![test tube brush](../archives/Wikimedia%20Commons/Test%20tube%20brushes.jpg)::[test tube brush](test%20tube%20brush.md) <!--SR:!2027-03-12,1117,350-->
 - ![test tube holder](../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG)::[test tube holder](test%20tube%20holder.md) <!--SR:!2026-11-18,954,330-->
 - ![test tube rack](../archives/Wikimedia%20Commons/Metal%20tube%20rack-laboratory%202.jpg)::[test tube rack](test%20tube%20rack.md) <!--SR:!2028-01-08,1353,350-->
-- ![thermometer](../archives/Wikimedia%20Commons/Mercury%20Thermometer.jpg)::[thermometer](thermometer.md) <!--SR:!2024-05-02,305,330-->
+- ![thermometer](../archives/Wikimedia%20Commons/Mercury%20Thermometer.jpg)::[thermometer](thermometer.md) <!--SR:!2028-02-20,1389,350-->
 - ![tripod](../archives/Wikimedia%20Commons/Laboratory%20tripod.jpg)::[tripod](tripod.md) <!--SR:!2027-02-09,1096,350-->
 - ![volumetric flask](../archives/Wikimedia%20Commons/10mL%20Messkolben%20mit%20Schliff%20A.jpg)::[volumetric flask](volumetric%20flask.md) <!--SR:!2026-06-04,883,330-->
 - ![volumetric pipette/bulb pipette/belly pipette](../archives/Wikimedia%20Commons/Vollpipetten.jpg)::[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-10-24,411,290-->

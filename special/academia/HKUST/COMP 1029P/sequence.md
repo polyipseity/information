@@ -32,7 +32,7 @@ assert "asd"[2] == "d"
 assert [39, "omg", 'asd', 3.4][2] == "asd"
 ```
 
-Indices can be {{negative, in which case it counts from the back}}: <!--SR:!2024-05-02,70,310-->
+Indices can be {{negative, in which case it counts from the back}}: <!--SR:!2025-02-27,301,330-->
 
 ```Python
 assert "asd"[-1] == "d"
