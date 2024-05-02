@@ -144,7 +144,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`=` <!--SR:!2024-05-03,49,270!2024-05-27,42,270-->
+- _(begin)_→:::←`=` <!--SR:!2024-05-25,22,250!2024-05-27,42,270-->
 - `=`→:::←`<` <!--SR:!2024-09-09,147,290!2024-05-18,68,290-->
 - `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-11-24,210,310-->
 - `>`→:::←`<=` <!--SR:!2024-11-25,210,310!2024-06-23,57,250-->
@@ -165,7 +165,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}}. <!--SR:!2024-05-03,71,310-->
+Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}}. <!--SR:!2025-03-02,303,330-->
 
 ## functions
 
@@ -361,7 +361,7 @@ return _chain.from_iterable(await _gather(
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-05-15,40,210!2024-07-04,108,270-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-07-23,110,250!2024-08-29,133,270-->
-- `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2024-05-03,71,310!2024-09-03,134,270-->
+- `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2024-09-03,134,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-06-17,88,290!2024-06-04,41,230-->
 
 <!--/pytextgen-->
