@@ -336,6 +336,256 @@ $$\sum_{k = 1}^{+\infty} \frac {x^k} {2^k k^2}$$
 
 ## Q14
 
+For each of the following power series, evaluate its sum whenever it converges. What happens at the end-points of its interval of convergence?
+
+_Hint_: In each part, apply term-wise differentiation or integration on some power series whose sum is well-known.
+
 ### Q14.b
 
+$$\sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (x - 1)^k$$
+
+> $$\begin{aligned}
+> & \text{The center of the power series is } \\
+> & x = 1\text{.} \\
+> & \text{The coefficients of the power series are } \\
+> & c_k = \frac 1 {k (k - 1)}\text{.} \\
+> \\
+> & \phantom = \text{radius of convergence} \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {c_k} {c_{k + 1} } \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {\frac 1 {k (k - 1)} } {\frac 1 {(k + 1) k} } \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {k + 1} {k - 1} \right\rvert \\
+> & = \lim_{k \to +\infty} \frac {k + 1} {k - 1} && (k \to +\infty) \\
+> & = \lim_{k \to +\infty} \frac {1 + \frac 1 k} {1 - \frac 1 k} \\
+> & = 1 \\
+> \\
+> & \text{When }x = 2\text{,} \\
+> & \phantom = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (2 - 1)^k \\
+> & = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} \\
+> & = \sum_{k = 2}^{+\infty} \left(\frac 1 {k - 1} - \frac 1 k \right) \\
+> & = \lim_{k \to +\infty} \left(1 - \frac 1 k \right) && (\text{telescope}) \\
+> & = 1 \\
+> & \text{The sum converges.} \\
+> & \text{When }x = 0\text{,} \\
+> & \phantom = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (0 - 1)^k \\
+> & = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (-1)^k \\
+> & \le \sum_{k = 2}^{+\infty} \left\lvert \frac 1 {k (k - 1)} (-1)^k \right\rvert \\
+> & = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (2 - 1)^k \\
+> & = 1 \\
+> & \text{The sum converges by the direct comparison test.} \\
+> & \text{interval of convergence} = [0, 2] \\
+> \\
+> S(x) & := \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (x - 1)^k \qquad x \in [0, 2] \\
+> S(2) & = 1 \\
+> S'(x) & = \frac {\mathrm{d} } {\mathrm{d}x} \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (x - 1)^k \qquad x \in (0, 2) \\
+> & = \sum_{k = 2}^{+\infty} \frac {\mathrm{d} } {\mathrm{d}x} \frac 1 {k (k - 1)} (x - 1)^k && (\text{power series can be differentiated term-wise}) \\
+> & = \sum_{k = 2}^{+\infty} \frac 1 {k - 1} (x - 1)^{k - 1} \\
+> S'(1) & = \sum_{k = 2}^{+\infty} \frac 1 {k - 1} (1 - 1)^{k - 1} \\
+> & = \sum_{k = 2}^{+\infty} 0 && (k - 1 > 0) \\
+> & = 0 \\
+> S''(x) & = \frac {\mathrm{d}^2 } {\mathrm{d}x^2} \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (x - 1)^k \qquad x \in (0, 2) \\
+> & = \sum_{k = 2}^{+\infty} \frac {\mathrm{d}^2 } {\mathrm{d}x^2} \frac 1 {k (k - 1)} (x - 1)^k && (\text{power series can be differentiated term-wise}) \\
+> & = \sum_{k = 2}^{+\infty} (x - 1)^{k - 2} \\
+> & = \lim_{k \to +\infty} \frac {(x - 1)^{k - 1} - (x - 1)^0} {(x - 1) - 1} \\
+> & = \lim_{k \to +\infty} \frac {(x - 1)^{k - 1} - 1} {x - 2} \\
+> & = \frac {-1} {x - 2} && (x \in (0, 2) \implies \lvert x - 1\rvert < 1) \\
+> & = \frac 1 {2 - x} \\
+> S'(x) & = \int \! S''(x) \,\mathrm{d}x \\
+> & = \int \! \frac 1 {2 - x} \,\mathrm{d}x \\
+> & = -\ln \lvert 2 - x \rvert + C \\
+> S'(1) & = -\ln \lvert 2 - 1 \rvert + C \\
+> 0 & = C \\
+> C & = 0 \\
+> S'(x) & = -\ln \lvert 2 - x \rvert \qquad x \in (0, 2) \\
+> S(x) & = \int \! S'(x) \,\mathrm{d}x \\
+> & = - \int \! \ln \lvert 2 - x \rvert \,\mathrm{d}x \\
+> & = \int \! \ln \lvert u \rvert \,\mathrm{d}u && (u := 2 - x) \\
+> & = u \ln \lvert u \rvert - \int \! \frac u u \,\mathrm{d}u \\
+> & = u \ln \lvert u \rvert - u + C \\
+> & = (2 - x) \ln \lvert 2 - x \rvert - 2 + x + C \\
+> \\
+> & \phantom = \lim_{x \to 2^-} (2 - x) \ln \lvert 2 - x \rvert \\
+> & = \lim_{x \to 2^-} \frac {\ln \lvert 2 - x \rvert} {\frac 1 {2 - x} } \\
+> & = \lim_{x \to 2^-} \frac {-\frac 1 {2 - x} } {\frac 1 {(2 - x)^2} } && (\text{L'Hopital rule}) \\
+> & = \lim_{x \to 2^-} (x - 2) \\
+> & = 0 \\
+> \\
+> S(2) & = \lim_{x \to 2^-} ((2 - x) \ln \lvert 2 - x \rvert - 2 + x + C ) && (\text{make }S(x)\text{ continuous}) \\
+> 1 & = C && (\text{algebraic limit theorem}) \\
+> C & = 1 \\
+> S(x) & = \begin{cases}(2 - x) \ln \lvert 2 - x \rvert + x - 1, & x \in [0, 2) \\
+> 1, & x = 2 \end{cases} \\
+> & = \begin{cases}(2 - x) \ln(2 - x) + x - 1, & x \in [0, 2) \\
+> 1, & x = 2 \end{cases} && (2 - x > 0) \\
+> & \text{The sum converges on the endpoints of } \\
+> & \text{the interval of convergence.}
+> \end{aligned}$$
+
 ### Q14.e
+
+$$\sum_{k = 1}^{+\infty} \frac k {k + 1} x^k$$
+
+> $$\begin{aligned}
+> & \text{The center of the power series is } \\
+> & x = 0\text{.} \\
+> & \text{The coefficients of the power series are } \\
+> & c_k = \frac k {k + 1}\text{.} \\
+> \\
+> & \phantom = \text{radius of convergence} \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {c_k} {c_{k + 1} } \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {\frac k {k + 1} } {\frac {k + 1} {k + 2} } \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {k (k + 2)} {(k + 1)^2} \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert \frac {(k + 1)^2 - 1} {(k + 1)^2} \right\rvert \\
+> & = \lim_{k \to +\infty} \left\lvert 1 - \frac 1 {(k + 1)^2} \right\rvert \\
+> & = 1 \\
+> \\
+> & \text{When }x = -1\text{,} \\
+> & \sum_{k = 1}^{+\infty} \frac k {k + 1} (-1)^k \\
+> & \text{Consider }a_k = \frac k {k + 1} (-1)^k\text{.} \\
+> & \text{Consider the subsequence given by }b_k = a_{2k} = \frac {2k} {2k + 1} (-1)^{2k}\text{.} \\
+> & \lim_{k \to +\infty} \frac {2k} {2k + 1} (-1)^{2k} = \lim_{k \to +\infty} \frac 2 {2 + \frac 1 k} = 1 \\
+> & \text{Consider the subsequence given by }c_k = a_{2k - 1} = \frac {2k - 1} {2k} (-1)^{2k - 1}\text{.} \\
+> & \lim_{k \to +\infty} \frac {2k - 1} {2k} (-1)^{2k - 1} = \lim_{k \to +\infty} \left( -\frac {2 - \frac 1 k} 2 \right) = -1 \\
+> & \text{As the two subsequences of }(a_k)_{k \in \mathbb{N} }\text{ approaches different values } \\
+> & \text{as }k \to +\infty\text{,} \\
+> & \lim_{k \to +\infty} \frac k {k + 1} (-1)^k\text{ does not exist.} \\
+> & \text{Thus, }\sum_{k = 1}^{+\infty} \frac k {k + 1} (-1)^k\text{ diverges by the tail test.} \\
+> & \text{When }x = 1\text{,} \\
+> & \phantom = \sum_{k = 1}^{+\infty} \frac k {k + 1} 1^k \\
+> & \ge \sum_{k = 1}^{+\infty} \frac k {k + 1} (-1)^k \\
+> & \text{Thus, }\sum_{k = 1}^{+\infty} \frac k {k + 1} 1^k\text{ diverges by the direct comparison test.} \\
+> & \text{interval of convergence} = (-1, 1) \\
+> \\
+> & \phantom = \sum_{k = 1}^{+\infty} x^k \qquad x \in (-1, 1) \\
+> & = \lim_{k \to +\infty} \frac {x^{k + 1} - x} {x - 1} \\
+> & = \frac x {1 - x} && (\lvert x \rvert < 1) \\
+> \\
+> S(x) & := \sum_{k = 1}^{+\infty} \frac k {k + 1} x^k \qquad x \in (-1, 1) \\
+> S(0) & = \sum_{k = 1}^{+\infty} \frac k {k + 1} 0^k \\
+> & = \sum_{k = 1}^{+\infty} 0 \\
+> & = 0 \\
+> S(x) & = \sum_{k = 1}^{+\infty} \frac k {k + 1} x^k \\
+> & = \sum_{k = 1}^{+\infty} \left(1 - \frac 1 {k + 1}\right) x^k \\
+> & = \sum_{k = 1}^{+\infty} x^k + \sum_{k = 1}^{+\infty} \left(1 - \frac 1 {k + 1}\right) x^k - \sum_{k = 1}^{+\infty} x^k \\
+> & = \sum_{k = 1}^{+\infty} x^k - \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^k && (\text{algebraic limit theorem}) \\
+> & = \frac x {1 - x} - \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^k \\
+> \end{aligned}$$
+>
+> Not using differential equations:
+>
+> $$\begin{aligned}
+> T(x) & := \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^k \qquad x \in (-1, 1) \\
+> & = \begin{cases} \frac 1 x \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^{k + 1}, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> \\
+> U(x) & := \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^{k + 1} \qquad x \in (-1, 1) \\
+> U'(x) & = \frac {\mathrm{d} } {\mathrm{d}x} \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^{k + 1} \\
+> & = \sum_{k = 1}^{+\infty} \frac {\mathrm{d} } {\mathrm{d}x} \frac 1 {k + 1} x^{k + 1} && (\text{power series can be differentiated term-wise}) \\
+> & = \sum_{k = 1}^{+\infty} x^k \\
+> & = \frac x {1 - x} \\
+> U(0) & = \sum_{k = 1}^{+\infty} \frac 1 {k + 1} 0^{k + 1} \\
+> & = \sum_{k = 1}^{+\infty} 0 && (k + 1 > 0) \\
+> & = 0 \\
+> U(x) & = \int \! U'(x) \,\mathrm{d}x \\
+> & = \int \! \frac x {1 - x} \,\mathrm{d}x \\
+> & = \int \! \frac {u - 1} u \,\mathrm{d}u \qquad u := 1 - x \\
+> & = u - \ln \lvert u \rvert + C \\
+> & = 1 - x - \ln \lvert 1 - x \rvert + C \\
+> & = -x - \ln \lvert 1 - x \rvert + C && (C\text{ is arbitrary}) \\
+> U(0) & = -0 - \ln \lvert 1 - 0 \rvert + C \\
+> C & = 0 \\
+> U(x) & = -x - \ln \lvert 1 - x\rvert \qquad x \in (-1, 1) \\
+> \\
+> T(x) & = \begin{cases} \frac 1 x \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^{k + 1}, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & = \begin{cases} \frac 1 x U(x), & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & = \begin{cases} - 1 - \frac {\ln \lvert 1 - x \rvert} x, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> \\
+> S(x) & = \frac x {1 - x} - \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^k \\
+> & = \frac x {1 - x} - T(x) \\
+> & = \begin{cases} \frac x {1 - x} + 1 + \frac {\ln \lvert 1 - x \rvert} x, & x \in (-1, 0) \cup (0, 1) \\
+> \frac 0 {1 - 0}, & x = 0 \end{cases} \\
+> & = \begin{cases} \frac {x + 1 - x} {1 - x} + \frac {\ln \lvert 1 - x \rvert} x, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & = \begin{cases} \frac 1 {1 - x} + \frac {\ln \lvert 1 - x \rvert} x, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & \text{The sum diverges on the endpoints of } \\
+> & \text{the interval of convergence.}
+> \end{aligned}$$
+>
+> Alternatively, using differential equations:
+>
+> $$\begin{aligned}
+> S'(x) & = \frac {\mathrm{d} } {\mathrm{d}x} \left(\frac x {1 - x} - \sum_{k = 1}^{+\infty} \frac 1 {k + 1} x^k \right) \\
+> & = \frac {(1 - x) + x} {(1 - x)^2} - \sum_{k = 1}^{+\infty} \frac {\mathrm{d} } {\mathrm{d}x} \frac 1 {k + 1} x^k && (\text{power series can be differentiated term-wise}) \\
+> & = \begin{cases} \frac 1 {(1 - x)^2} - \sum_{k = 1}^{+\infty} \frac k {k + 1} x^{k - 1}, & x \in (-1, 0) \cup (0, 1) \\
+> 1 - \frac 1 2, & x = 0 \end{cases} \\
+> & = \begin{cases} \frac 1 {(1 - x)^2} - \frac 1 x \sum_{k = 1}^{+\infty} \frac k {k + 1} x^k, & x \in (-1, 0) \cup (0, 1) \\
+> \frac 1 2, & x = 0 \end{cases} \\
+> & = \begin{cases} \frac 1 {(1 - x)^2} - \frac {S(x)} x, & x \in (-1, 0) \cup (0, 1) \\
+> \frac 1 2, & x = 0 \end{cases} \\
+> \\
+> y & := S(x) \qquad x \in (-1, 0) \cup (0, 1) \\
+> y' & = \frac 1 {(1 - x)^2} - \frac y x \\
+> & \text{The above is a linear ordinary differential equation.} \\
+> & \text{An unique solution exists on each of }(-1, 0)\text{ and }(0, 1)\text{.} \\
+> \\
+> & \text{Solve the homogeneous equation.} \\
+> y' & = -\frac y x \qquad x \in (-1, 0) \cup (0, 1) \\
+> \frac {\mathrm{d}y} {\mathrm{d}x} & = - \frac y x \\
+> \frac 1 y \,\mathrm{d}y & =  - \frac 1 x \,\mathrm{d}x \\
+> \int \! \frac 1 y \,\mathrm{d}y & = -\int \! \frac 1 x \,\mathrm{d}x \\
+> \ln \lvert y \rvert & = -\ln \lvert x \rvert + C \\
+> e^{\ln \lvert y \rvert} & = e^{-\ln \lvert x \rvert + C} \\
+> \lvert y \rvert & = \frac {e^C} {\lvert x \rvert} \\
+> y & = \pm \frac {e^C} {\lvert x \rvert} \\
+> y & = \frac {c_1} x \qquad c_1 \in \mathbb{R}_{\ne 0} \\
+> & \text{When }c_1 = 0\text{,} \\
+> y & = \frac 0 x \qquad x \in (-1, 0) \cup (0, 1) \\
+> y & = 0 \\
+> y' & = 0 \\
+> & \text{... which satisfies the homogeneous equation.} \\
+> y & = \frac {c_1} x \qquad c_1 \in \mathbb{R} \\
+> & \text{Different }c_1\text{ can be chosen on each of }(-1, 0)\text{ and }(0, 1)\text{.} \\
+> \\
+> & \text{Solve the inhomogeneous equation.} \\
+> y & = \frac 1 x \int \! \frac {\det \begin{bmatrix} \frac 1 {(1 - x)^2} \end{bmatrix} } {\det \begin{bmatrix} \frac 1 x \end{bmatrix} } \,\mathrm{d}x \qquad x \in (-1, 0) \cup (0, 1) && (\text{variation of parameters}) \\
+> & = \frac 1 x \int \frac x {(1 - x)^2} \,\mathrm{d}x \\
+> & = -\frac 1 x \int \frac {-u + 1} {u^2} \,\mathrm{d}u \qquad u := 1 - x \\
+> & = -\frac 1 x \left(- \ln \lvert u \rvert - \frac 1 u + c_1 \right) \qquad c_1 \in \mathbb{R} \\
+> & = \frac {\ln \lvert 1 - x \rvert} x + \frac 1 {x (1 - x)} - \frac {c_1} x \\
+> & \text{Different }c_1\text{ can be chosen on each of }(-1, 0)\text{ and }(0, 1)\text{,} \\
+> & \text{which will be denoted }c_1^-\text{ and }c_1^+\text{ respectively below.} \\
+> \\
+> & \phantom = \lim_{x \to 0^+} \frac {\ln \lvert 1 - x \rvert} x \\
+> & = \lim_{x \to 0^+} \frac {\ln(1 - x)} x && (1 - x \ge 0) \\
+> & = \lim_{x \to 0^+} \frac {-\frac 1 {1 - x} } 1 && (\text{L'Hopital rule}) \\
+> & = -1 \\
+> & \phantom = \lim_{x \to 0^-} \frac {\ln \lvert 1 - x \rvert} x \\
+> & = \lim_{x \to 0^-} \frac {\ln(x - 1)} x && (1 - x \le 0) \\
+> & = \lim_{x \to 0^-} \frac {\frac 1 {x - 1} } 1 && (\text{L'Hopital rule}) \\
+> & = -1 \\
+> & \lim_{x \to 0} \frac {\ln \lvert 1 - x \rvert} x = -1 \\
+> \\
+> S(0) & = \lim_{x \to 0^+} \left( \frac {\ln \lvert 1 - x \rvert} x + \frac 1 {x (1 - x)} - \frac {c_1^+} x \right) && (\text{make }S(x)\text{ continuous}) \\
+> 0 & = -1 + \lim_{x \to 0^+} \frac {1 - c_1^+ + c_1^+ x} {x (1 - x)} && (\text{algebraic limit theorem}) \\
+> 1 & = \lim_{x \to 0^+} \frac {c_1^+} {(1 - x) - x} && (\text{L'Hoptial rule}) \\
+> 1 & = c_1^+ \\
+> c_1^+ & = 1 \\
+> S(0) & = \lim_{x \to 0^-} \left( \frac {\ln \lvert 1 - x \rvert} x + \frac 1 {x (1 - x)} - \frac {c_1^-} x \right) && (\text{make }S(x)\text{ continuous}) \\
+> 0 & = -1 + \lim_{x \to 0^-} \frac {1 - c_1^- + c_1^- x} {x (1 - x)} && (\text{algebraic limit theorem}) \\
+> 1 & = \lim_{x \to 0^-} \frac {c_1^-} {(1 - x) - x} && (\text{L'Hopital rule}) \\
+> 1 & = c_1^- \\
+> c_1^- & = 1 \\
+> \\
+> & \text{Therefore,} \\
+> S(x) & = \begin{cases}\frac {\ln \lvert 1 - x \rvert} x + \frac 1 {x (1 - x)} - \frac 1 x, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & = \begin{cases}\frac {\ln \lvert 1 - x \rvert} x + \frac {1 - 1 + x} {x (1 - x)}, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & = \begin{cases}\frac {\ln \lvert 1 - x \rvert} x + \frac 1 {1 - x}, & x \in (-1, 0) \cup (0, 1) \\
+> 0, & x = 0 \end{cases} \\
+> & \text{The sum diverges on the endpoints of } \\
+> & \text{the interval of convergence.}
+> \end{aligned}$$
