@@ -67,7 +67,7 @@ Value proposition design works for {{both new ventures and established organizat
 
 The value proposition canvas has two parts: {{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}}. <!--SR:!2024-05-20,22,269-->
 
-The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-05-04,15,307!2024-07-02,71,310!2024-05-02,13,289-->
+The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-05-04,15,307!2024-07-02,71,310!2024-06-26,55,309-->
 
 ### customer profile
 
@@ -169,7 +169,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-05-12,12,229!2024-05-14,16,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-05-08,9,249!2024-05-18,20,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-08,14,269!2024-05-21,23,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-02,1,149-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-03,1,149-->
 
 <!--/pytextgen-->
 
@@ -278,7 +278,7 @@ conclusion: make progress
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-05-03,14,289!2024-05-07,22,250-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-07,40,309!2024-05-15,30,270-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
-- test: run tests→:::←conclusion: capture findings <!--SR:!2024-05-02,4,249!2024-05-04,15,309-->
+- test: run tests→:::←conclusion: capture findings <!--SR:!2024-05-17,15,269!2024-05-04,15,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-05-05,16,309!2024-05-30,31,289-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-05-05,16,309!2024-06-11,41,270-->
 

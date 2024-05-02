@@ -12,7 +12,7 @@ The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguo
 
 ## examples
 
-Two common examples are caused by {{C-style casts and unnamed temporary}}. <!--SR:!2024-05-02,37,290-->
+Two common examples are caused by {{C-style casts and unnamed temporary}}. <!--SR:!2024-09-27,148,310-->
 
 ### C-style casts
 

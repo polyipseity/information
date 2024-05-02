@@ -67,14 +67,14 @@ C$: [cost structure](#cost%20structure)
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-05-26,28,277!2024-05-02,13,297-->
+- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-05-26,28,277!2024-06-28,57,317-->
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-06-04,34,274!2024-05-04,15,297-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-05-18,24,277-->
-- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-05-02,13,294-->
+- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-06-27,56,314-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-05-25,26,272-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-05-13,18,257!2024-05-08,15,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-05-17,20,257!2024-05-23,28,274-->
-- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-05-18,21,257!2024-05-02,5,234-->
+- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-05-18,21,257!2024-05-18,16,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-07,37,277!2024-05-25,27,254-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2024-06-21,51,294-->
 
@@ -179,7 +179,7 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-05-02,8,237!2024-05-05,16,294-->
+- _(begin)_→:::←accessibility <!--SR:!2024-05-30,28,257!2024-05-05,16,294-->
 - accessibility→:::←brand or status <!--SR:!2024-05-09,15,254!2024-05-17,20,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-06,11,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-05-14,17,254!2024-05-10,13,237-->
