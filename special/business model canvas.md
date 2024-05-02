@@ -82,7 +82,7 @@ C$: [cost structure](#cost%20structure)
 
 #### customer segments
 
-The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-05-21,24,274!2024-05-03,14,294-->
+The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-05-21,24,274!2024-06-30,58,314-->
 
 Customers should be separated into different segments if {{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}}. <!--SR:!2024-05-19,22,257-->
 
@@ -125,7 +125,7 @@ segmented: splitting slightly different customer segments
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-05-17,20,254!2024-05-26,29,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-05-13,18,257!2024-05-16,19,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-05-14,17,254!2024-05-15,18,257-->
-- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-05-14,19,254!2024-05-03,6,234-->
+- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-05-14,19,254!2024-05-17,14,234-->
 
 <!--/pytextgen-->
 
@@ -240,7 +240,7 @@ personal assistance
 - automated services→:::←co-creation <!--SR:!2024-05-18,21,254!2024-05-15,18,254-->
 - co-creation→:::←communities <!--SR:!2024-05-13,18,254!2024-06-02,35,274-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-05-24,27,277!2024-06-03,36,274-->
-- dedicated personal assistance→:::←personal assistance <!--SR:!2024-05-05,16,297!2024-05-03,14,297-->
+- dedicated personal assistance→:::←personal assistance <!--SR:!2024-05-05,16,297!2024-07-03,61,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-05-05,16,297!2024-05-06,17,297-->
 
 <!--/pytextgen-->
@@ -291,7 +291,7 @@ subscription fee
 - advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-05-04,15,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-05-11,16,254!2024-05-08,11,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-05-14,19,254-->
-- lending, renting, or leasing→:::←licensing <!--SR:!2024-05-03,10,237!2024-05-17,20,254-->
+- lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-05-17,20,254-->
 - licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-05-14,19,254!2024-05-18,21,257-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-05-13,16,257-->

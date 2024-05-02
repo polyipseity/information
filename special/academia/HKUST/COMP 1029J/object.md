@@ -54,7 +54,7 @@ Then to create an object, one uses {{`new`}}: <!--SR:!2024-11-26,210,310-->
 Name nameObject = new Name(42);
 ```
 
-The above object stored under `nameObject` is also called {{an _instance_ of the class `Name`}}. <!--SR:!2024-05-03,71,310-->
+The above object stored under `nameObject` is also called {{an _instance_ of the class `Name`}}. <!--SR:!2025-02-18,291,330-->
 
 ## method
 

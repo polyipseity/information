@@ -53,7 +53,7 @@ return await memorize_table(
 <!--pytextgen generate section="395a"--><!-- The following content is generated at 2024-01-04T20:17:51.499997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←catalytic cracking <!--SR:!2024-05-28,331,330!2028-02-27,1400,350-->
-- catalytic cracking→:::←thermal cracking <!--SR:!2026-08-27,893,330!2024-05-03,311,330-->
+- catalytic cracking→:::←thermal cracking <!--SR:!2026-08-27,893,330!2028-03-17,1414,350-->
 - thermal cracking→:::←_(end)_ <!--SR:!2028-02-22,1396,350!2026-11-03,946,330-->
 
 <!--/pytextgen-->

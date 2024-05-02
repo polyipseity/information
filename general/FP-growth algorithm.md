@@ -18,7 +18,7 @@ The FP-growth algorithm {{outperforms the [Apriori](Apriori%20algorithm.md) and 
 
 ### FP-tree
 
-The _FP-tree_ is {{a compact tree structure called [trie](trie.md), representing the entire database exactly while only discarding the order of transactions in the database}}. It is constructed with {{a _header table_}}. To construct a FP-tree for a set of transactions, {{two passes are required}}. <!--SR:!2024-05-06,14,250!2024-06-16,45,290!2024-05-03,17,290-->
+The _FP-tree_ is {{a compact tree structure called [trie](trie.md), representing the entire database exactly while only discarding the order of transactions in the database}}. It is constructed with {{a _header table_}}. To construct a FP-tree for a set of transactions, {{two passes are required}}. <!--SR:!2024-05-06,14,250!2024-06-16,45,290!2024-06-22,50,290-->
 
 A minimum support is given. (Here, we define support as "the number of transactions".) In the first pass, {{count the support for each individual item and store the supports into a header table}}. Then, for the header table, {{sort items by descending support and remove items below the minimum support}}. Also, for each item in the header table, {{add a list structure that will be storing FP-tree nodes}}. <!--SR:!2024-05-15,22,250!2024-05-25,28,270!2024-05-26,32,270-->
 
@@ -28,7 +28,7 @@ By ordering the items in each transaction by descending support, the FP-tree sto
 
 ### growth
 
-We can now describe how to grow the frequent item sets using {{the [FP-tree](#FP-tree) and header table}}. To find all frequent item sets in a set of transactions or database $D$, first {{construct its FP-tree and header table}}. Iterate through the header table, starting from {{the bottom of the header table (i.e. the item with the least support)}}. <!--SR:!2024-05-03,17,290!2024-05-06,14,250!2024-05-20,25,250-->
+We can now describe how to grow the frequent item sets using {{the [FP-tree](#FP-tree) and header table}}. To find all frequent item sets in a set of transactions or database $D$, first {{construct its FP-tree and header table}}. Iterate through the header table, starting from {{the bottom of the header table (i.e. the item with the least support)}}. <!--SR:!2024-06-21,49,290!2024-05-06,14,250!2024-05-20,25,250-->
 
 For each item $I$ in the header table iterated as described above, {{iterate through its corresponding FP-tree node list to construct a new set of transactions or sub-database $D_I$ that must have the item $I$, also described as conditional on item $I$}}. Specifically, for each node $N$ in the node list, {{find the corresponding item set by gathering the node, the node's parent, and further parents up to the root node}}. Then said item set has a count {{specified by the original node $N$ (i.e. the deepest node)}}. After iterating through the whole node list, the set of item sets is {{the new sub-database $D_I$}}. After removing $I$ from each transaction in the sub-database $D_I$, {{_recursively_ apply the growth step described in this section on the sub-database $D_I$ to get the new frequent item sets of $D_I$}}. _Add back_ item $I$ {{to each new frequent item sets, and save it for now}}. Note that the FP-tree constructed from the sub-database $D_I$ is {{the original FP-tree projected on $I$, also called the conditional FP-tree on $I$}}. <!--SR:!2024-05-07,15,250!2024-05-21,24,270!2024-05-15,21,250!2024-06-11,41,290!2024-05-22,27,250!2024-05-10,17,250!2024-05-24,27,270-->
 
@@ -44,7 +44,7 @@ One can prove that the shortcut above {{produces the same result as without usin
 
 ### association rule creation
 
-Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-05-03,17,290-->
+Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-07-14,72,310-->
 
 ## the algorithm
 
@@ -285,7 +285,7 @@ if __name__ == "__main__":
 
 Time-wise, building the FP-tree {{only requires one (or two, depending on how you define "scan") scan, and inserting one transaction into the FP-tree only grows with the number of frequent items in the transaction}}. This is good especially if {{the entire database is IO-bounded and too large to be fitted into memory}}. <!--SR:!2024-05-17,22,270!2024-06-01,34,270-->
 
-Space-wise, the FP-tree size, i.e. number of nodes, is {{bounded by the number of frequent item set patterns, and is usually much less than the bound}}. The height of the FP-tree, is {{bounded by the maximum number of items of frequent item sets}}. This is good because it means {{the FP-tree can be fitted into memory even if the database is very large}}. <!--SR:!2024-05-08,16,250!2024-05-05,13,250!2024-05-03,17,290-->
+Space-wise, the FP-tree size, i.e. number of nodes, is {{bounded by the number of frequent item set patterns, and is usually much less than the bound}}. The height of the FP-tree, is {{bounded by the maximum number of items of frequent item sets}}. This is good because it means {{the FP-tree can be fitted into memory even if the database is very large}}. <!--SR:!2024-05-08,16,250!2024-05-05,13,250!2024-06-23,51,290-->
 
 ## references
 

@@ -26,7 +26,7 @@ Each row represents {{an actual class while each column represents a predicted c
 > | actual class \ predicted class | __yes__ | __no__ |
 > |:------------------------------:|:-------:|:------:|
 > | __yes__                        | 3       | 1      |
-> | __no__                         | 2       | 2      | <!--SR:!2024-05-03,17,290-->
+> | __no__                         | 2       | 2      | <!--SR:!2024-07-09,67,310-->
 
 ## error report
 

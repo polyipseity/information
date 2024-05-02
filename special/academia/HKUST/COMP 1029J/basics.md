@@ -204,7 +204,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.620801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`++` <!--SR:!2024-05-03,72,310!2025-02-23,299,330-->
+- _(begin)_→:::←`++` <!--SR:!2025-03-17,318,330!2025-02-23,299,330-->
 - `++`→:::←`--` <!--SR:!2025-01-21,274,330!2025-01-30,277,330-->
 - `--`→:::←`*` <!--SR:!2024-06-10,63,290!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
@@ -218,7 +218,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
 - `++`::increment a numerical variable by 1 <!--SR:!2024-11-07,213,330-->
-- `--`::decrement a numerical variable by 1 <!--SR:!2024-05-03,72,310-->
+- `--`::decrement a numerical variable by 1 <!--SR:!2025-03-15,316,330-->
 - `*`::multiplication <!--SR:!2025-03-01,303,330-->
 - `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-08-04,121,290-->
 - `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2024-07-26,112,290-->

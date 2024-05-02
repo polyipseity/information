@@ -16,7 +16,7 @@ tags:
 - see: [Cantor set](../general/Cantor%20set.md)
 
 - integrability
-  - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2024-05-27,25,286!2024-05-03,10,286-->
+  - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2024-05-27,25,286!2024-06-13,41,306-->
 
 ### Dirichlet function
 
