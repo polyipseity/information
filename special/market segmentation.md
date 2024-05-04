@@ -8,9 +8,13 @@ tags:
 
 # market segmentation
 
+## why
+
+Business {{may not be able to satisfy all of their customers}}. There are few products that {{appeal to everyone}}. Segmentation allows {{the customer needs and wants to be similar enough for our product to target}}.
+
 ## how
 
-A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-06-20,47,250!2024-06-13,45,250-->
+A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment, affected by attractiveness or stickiness of products; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-06-20,47,250!2024-06-13,45,250-->
 
 ### segmentation variables
 
@@ -26,7 +30,7 @@ Geographic segmentation divides the market by {{location-related variables}}. <!
 
 #### psychographic segmentation
 
-Psychographic segmenetation divides the market by {{interests, lifestyles, motives, personality, and values}}. <!--SR:!2024-06-05,39,250-->
+Psychographic segmentation divides the market by {{interests, lifestyles, motives, personality, and values}}. <!--SR:!2024-06-05,39,250-->
 
 #### behavioral segmentation
 
@@ -38,9 +42,7 @@ Product-specific segmentation divides the market by {{product or service-specifi
 
 ## benefits
 
-Business {{may not be able to satisfy all of their customers}}. <!--SR:!2024-05-22,35,270-->
-
-By segmenting the market, marketers {{can better understand and tailor to their customers}}. <!--SR:!2024-06-01,42,290-->
+By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-06-01,42,290-->
 
 ## strategy
 

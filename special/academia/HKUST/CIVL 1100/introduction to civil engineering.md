@@ -81,7 +81,7 @@ The content is in teaching order.
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-05-24,22,315!2024-05-09,17,350-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-05-15,16,295!2024-05-10,18,352-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mingyitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-05-11,19,350-->
+    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-05-11,19,350-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-05-10,12,230!2024-05-06,14,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-05-06,5,294!2024-05-11,19,352-->
