@@ -68,7 +68,7 @@ C$: [cost structure](#cost%20structure)
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-05-26,28,277!2024-06-28,57,317-->
-- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-06-04,34,274!2024-05-04,15,297-->
+- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-06-04,34,274!2024-06-17,44,297-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-05-06,17,294!2024-05-18,24,277-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-05-05,16,294!2024-06-27,56,314-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-05-25,26,272-->
@@ -187,7 +187,7 @@ risk reduction
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
 - design→:::←newness <!--SR:!2024-05-08,14,257!2024-05-09,15,254-->
 - newness→:::←performance <!--SR:!2024-05-16,22,277!2024-05-10,12,237-->
-- performance→:::←performing the job well <!--SR:!2024-05-04,15,297!2024-06-03,34,274-->
+- performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-06-03,34,274-->
 - performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-05-11,17,254-->
 - price→:::←risk reduction <!--SR:!2024-05-18,21,254!2024-05-19,22,254-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-06-02,32,277!2024-05-19,22,257-->
@@ -288,7 +288,7 @@ subscription fee
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←advertising <!--SR:!2024-05-24,26,254!2024-05-06,17,297-->
-- advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-05-04,15,297-->
+- advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-06-14,41,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-05-11,16,254!2024-05-08,11,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-05-14,19,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-05-17,20,254-->
@@ -308,7 +308,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-05-12,17,254!2024-05-04,11,237!2024-05-09,14,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-05-12,17,254!2024-05-31,27,237!2024-05-09,14,237-->
 
 #### cost structure
 

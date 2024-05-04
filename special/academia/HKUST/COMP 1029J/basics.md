@@ -23,7 +23,7 @@ tags:
 - comment :: A comment is either enclosed by `/*` and `*/` like `/* example */` or starts with `//` like `// example`. For the first one, the comment ends when the `*/` is first encountered. For the second one, the comment ends when the line ends. <!--SR:!2025-01-01,258,330-->
 - package :: Packages are analogous to directories. The differences are that package names are more restricted and each package component is separated by `.` instead of `/`. One imports all the Java files in a package by `import a.package.*;`. More commonly, one imports a Java file, say `Example.java` in a package by `import a.package.Example;`. <!--SR:!2024-10-18,182,310-->
 - spacing :: Java ignores whitespace in most places. Whitespace are not ignored in some places, such as in strings `"This string has a space."` or before the names of method calls `. thisIsInvalidJavaCode()`. Usually whitespace are added before statements systematically, with more spaces per level of code block `{ /* code block */ }`. This is called indentation. <!--SR:!2024-08-05,122,290-->
-- statement :: A Java program is a collection of statements. A statement can be multiline and ends with a semicolon `;`. A statement can also be a code block `{ /* code block */ }`, which is also a collection of statements itself. <!--SR:!2024-05-04,73,310-->
+- statement :: A Java program is a collection of statements. A statement can be multiline and ends with a semicolon `;`. A statement can also be a code block `{ /* code block */ }`, which is also a collection of statements itself. <!--SR:!2024-12-15,225,310-->
 
 ## variable
 
@@ -209,7 +209,7 @@ return _chain.from_iterable(await _gather(
 - `--`→:::←`*` <!--SR:!2024-06-10,63,290!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
 - `/`→:::←`%` <!--SR:!2025-01-17,270,330!2024-07-20,106,290-->
-- `%`→:::←`+` <!--SR:!2024-05-04,73,310!2024-08-04,121,290-->
+- `%`→:::←`+` <!--SR:!2025-03-14,314,330!2024-08-04,121,290-->
 - `+`→:::←`-` <!--SR:!2025-02-10,288,330!2025-02-04,282,330-->
 - `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2025-01-29,281,330-->
 
