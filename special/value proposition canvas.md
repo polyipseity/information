@@ -71,15 +71,19 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 ### customer profile
 
-Customer jobs can be split into three categories: {{functional jobs, social jobs, and personal or emotional jobs}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.
+Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}. The jobs can be improved by {{asking why repeatedly until you find the root job}}.
+
+Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required.
+
+The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}.
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}.
 
 Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}.
 
-Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.
+Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}. Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}.
 
-There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. Jobs to be done can be improved by {{asking why repeatedly until you find the root job}}.
+There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of.
 
 #### customer profile common mistakes
 
@@ -94,6 +98,7 @@ hyperfocus: focusing on functional jobs only
 insufficiency: not enough jobs, pains, and gains
 mix: mixing customer segments
 mix: mixing jobs and outcomes
+opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation
 reversed: listing jobs, pains, and gains from your product value propositions
 vagueness: vague jobs, pains, and gains
 """.strip().splitlines(),
@@ -102,24 +107,26 @@ vagueness: vague jobs, pains, and gains
 
 %%
 
-<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-03-22T20:40:48.820922+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-05-03T17:30:19.568483+08:00. Any edits will be overridden! -->
 
 > 1. hyperfocus: focusing on functional jobs only
 > 2. insufficiency: not enough jobs, pains, and gains
 > 3. mix: mixing customer segments
 > 4. mix: mixing jobs and outcomes
-> 5. reversed: listing jobs, pains, and gains from your product value propositions
-> 6. vagueness: vague jobs, pains, and gains
+> 5. opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation
+> 6. reversed: listing jobs, pains, and gains from your product value propositions
+> 7. vagueness: vague jobs, pains, and gains
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-05-03T17:30:19.548044+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes
-- mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions
+- mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains
 - vagueness: vague jobs, pains, and gains→:::←_(end)_
 
@@ -175,7 +182,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 ### fit
 
-Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}.
+Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}.
 
 However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}.
 
