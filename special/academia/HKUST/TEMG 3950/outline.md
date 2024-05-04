@@ -31,36 +31,128 @@ The content is in teaching order.
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md)
 - International Business Plan Competition ::: IBPC
 - transferrable technology ::: Technology that can potentially target multiple market segments.
-- reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [marketing segmentation](../../../market%20segmentation.md)
+- reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
+- [assignment W2](assignment%20W2/)
+
+## week 3 lecture
+
+- public holiday
 
 ## week 4 lecture
 
+- [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
+- [customer development](../../../../general/customer%20development.md)
+  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer."
+  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development."
+  - [§ importance](../../../../general/customer%20development.md#importance)
+  - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
+  - [§ customer validation](../../../../general/customer%20development.md#customer%20validation)
+- [market segmentation](../../../market%20segmentation.md)
+  - [§ why](../../../market%20segmentation.md#why)
+  - [§ benefits](../../../market%20segmentation.md#benefits)
+  - [§ how](../../../market%20segmentation.md#how)
+  - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
+- market size
+  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market
+  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes.F
+  - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
+  - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
+    - [§ importance](../../../../general/total%20addressable%20market.md#importance)
+  - [serviceable available market](../../../../general/serviceable%20available%20market.md) (SAM)
+    - [§ importance](../../../../general/serviceable%20available%20market.md#importance)
+  - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
+    - [§ importance](../../../../general/target%20market.md#importance)
+  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others.
+  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM.
+- visualization ::: Visualization is important to bring your point across.
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
+- [assignment W4](assignment%20W4/)
 
 ## week 5 lecture
 
+- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas
+- [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
+- [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
+- [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
+- [empathic design § difference from sympathy](../../../../general/empathic%20design.md#difference%20from%20sympathy)
+- [empathic design § process](../../../../general/empathic%20design.md#process)
+- [empathy map § structure](../../../../general/empathy%20map.md#structure)
+- [value proposition canvas § customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
+- [value proposition canvas § customer profile common mistakes](../../../value%20proposition%20canvas.md#customer%20profile%20common%20mistakes)
+- [d.school design thinking bootleg § define](../../../d.school%20design%20thinking%20bootleg.md#define)
+- [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
+  - "how might we" statement
+    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!".
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
+- [assignment W5](assignment%20W5/)
 
 ## week 6 lecture
 
+- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers.
+- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University.
+- [value proposition canvas](../../../value%20proposition%20canvas.md)
+  - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
+    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile
+  - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
+  - [§ fit](../../../value%20proposition%20canvas.md#fit)
+- [business model canvas](../../../business%20model%20canvas.md)
+  - [§ building models](../../../business%20model%20canvas.md#building%20models)
+  - [§ value propositions](../../../business%20model%20canvas.md#value%20propositions)
+  - [§ customer segments](../../../business%20model%20canvas.md#customer%20segments)
+  - [§ channels](../../../business%20model%20canvas.md#channels)
+  - [§ key partnerships](../../../business%20model%20canvas.md#key%20partnerships)
+  - [§ customer relationships](../../../business%20model%20canvas.md#customer%20relationships)
+  - [§ cost structure](../../../business%20model%20canvas.md#cost%20structure)
+  - [§ revenue streams](../../../business%20model%20canvas.md#revenue%20streams)
+  - [§ key resources](../../../business%20model%20canvas.md#key%20resources)
+  - [§ key activities](../../../business%20model%20canvas.md#key%20activities)
+  - [§ fit](../../../business%20model%20canvas.md#fit)
+  - [§ comparison with other models](../../../business%20model%20canvas.md#comparison%20with%20other%20models)
 - reading assignment: [business model canvas](../../../business%20model%20canvas.md)
+- [assignment W6](assignment%20W6/)
 
 ## week 7 lecture
 
 - quiz; time limit: 40 minutes; multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
+- 15-minute group presentation briefing
+  - 12 minutes per team
+  - questions and answers: maximum 10 minutes
+  - 2 minutes break in between teams
+  - rubrics
+    - choice of problem
+    - technology & innovation
+    - business model
+    - team & presentation
+    - individual presentation
 - presentation skills
+- [executive summary](../../../../general/executive%20summary.md)
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team
+- [assignment W7](assignment%20W7/)
 
 ## week 8 lecture
 
 - 15-minute group presentation
-- questions and answers
+  - questions and answers
+- [assignment W8](assignment%20W8/)
 
 ## week 9 lecture
 
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
+- [assignment W9](assignment%20W9/)
 
 ## week 10 lecture
 
 - midterm break
 
+## week 11 lecture
+
+- [assignment W11](assignment%20W11/)
+
+## week 12 lecture
+
+- [assignment W12](assignment%20W12/)
+
+## week 13 lecture
+
+- [assignment W13](assignment%20W13/)
