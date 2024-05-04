@@ -10,7 +10,7 @@ tags:
 
 ## how
 
-A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-05-04,19,250!2024-06-13,45,250-->
+A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-06-20,47,250!2024-06-13,45,250-->
 
 ### segmentation variables
 

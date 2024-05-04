@@ -19,7 +19,7 @@ __Relative _isotopic_ mass__ is {{the _ratio_ of the [atomic mass](atomic%20mass
 
 ## standard atomic weight
 
-__Standard atomic weight__ {{(_A_<sub>r, standard</sub>)}} is {{the relative atomic mass of a sample containing isotopes present in [natural abundances](natural%20abundance.md)}}. It carries {{no unit}}. <!--SR:!2025-03-07,489,310!2025-02-17,370,210!2024-05-04,312,330-->
+__Standard atomic weight__ {{(_A_<sub>r, standard</sub>)}} is {{the relative atomic mass of a sample containing isotopes present in [natural abundances](natural%20abundance.md)}}. It carries {{no unit}}. <!--SR:!2025-03-07,489,310!2025-02-17,370,210!2028-03-23,1419,350-->
 
 ## references
 

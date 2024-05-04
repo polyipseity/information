@@ -67,7 +67,7 @@ Value proposition design works for {{both new ventures and established organizat
 
 The value proposition canvas has two parts: {{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}}. <!--SR:!2024-05-20,22,269-->
 
-The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-05-04,15,307!2024-07-02,71,310!2024-06-26,55,309-->
+The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-07-04,61,327!2024-07-02,71,310!2024-06-26,55,309-->
 
 ### customer profile
 
@@ -115,12 +115,12 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-03-22T20:40:48.864182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-05-04,4,209!2024-05-04,15,309-->
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-05-15,11,229!2024-07-07,64,329-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-05-14,15,229!2024-05-21,23,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-05-05,7,189!2024-05-06,5,209-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-06-09,39,289!2024-05-24,26,289-->
 - mix: mixing jobs and outcomes→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-05-23,25,269!2024-05-14,19,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-05-04,3,169!2024-05-29,26,249-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-05-09,5,169!2024-05-29,26,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-28,29,289-->
 
 <!--/pytextgen-->
@@ -129,7 +129,7 @@ vagueness: vague jobs, pains, and gains
 
 Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-05-14,20,289!2024-05-08,14,269!2024-05-16,31,270!2024-06-10,43,309-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-05-04,15,309!2024-05-09,34,290!2024-06-11,53,310-->
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-06-20,47,309!2024-05-09,34,290!2024-06-11,53,310-->
 
 Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-05-06,17,309!2024-07-03,61,329!2024-06-08,38,289!2024-05-07,18,309-->
 
@@ -169,7 +169,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-05-12,12,229!2024-05-14,16,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-05-08,9,249!2024-05-18,20,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-08,14,269!2024-05-21,23,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-04,1,149-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-05,1,149-->
 
 <!--/pytextgen-->
 
@@ -229,7 +229,7 @@ find customer patterns
 - interview→:::←capture new customer profile <!--SR:!2024-05-16,18,269!2024-05-06,17,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-05-13,28,270!2024-05-11,17,269-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-05-09,15,269!2024-05-12,18,269-->
-- find customer patterns→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-05-04,15,309-->
+- find customer patterns→:::←_(end)_ <!--SR:!2024-05-07,18,309!2024-06-21,48,309-->
 
 <!--/pytextgen-->
 
@@ -278,7 +278,7 @@ conclusion: make progress
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-07-02,60,309!2024-05-07,22,250-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-07,40,309!2024-05-15,30,270-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
-- test: run tests→:::←conclusion: capture findings <!--SR:!2024-05-17,15,269!2024-05-04,15,309-->
+- test: run tests→:::←conclusion: capture findings <!--SR:!2024-05-17,15,269!2024-06-15,42,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-05-05,16,309!2024-05-30,31,289-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-05-05,16,309!2024-06-11,41,270-->
 

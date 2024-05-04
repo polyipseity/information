@@ -57,7 +57,7 @@ return await memorize_seq(
 <!--pytextgen generate section="2845"--><!-- The following content is generated at 2024-01-04T20:17:51.455468+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←conditions are not standard conditions <!--SR:!2024-06-17,56,210!2024-06-03,332,330-->
-- conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2024-05-04,10,210!2024-06-19,174,230-->
+- conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2024-05-08,4,190!2024-06-19,174,230-->
 - heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2024-06-05,334,330!2025-11-08,650,310-->
 - heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2024-06-01,330,330!2024-06-09,338,330-->
 - reaction is incomplete→:::←_(end)_ <!--SR:!2024-05-31,329,330!2024-05-21,41,210-->

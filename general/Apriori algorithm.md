@@ -24,7 +24,7 @@ Note that the above is a slower variant of the Apriori algorithm. There is a muc
 
 If we consider each set is directionally linked from itself to the new candidate sets it has generated, {{a tree-like structure}} appears, and the Apriori algorithm is similar to {{[breadth-first search](breadth-first%20search.md)}}. <!--SR:!2024-10-06,170,310!2024-05-05,67,319-->
 
-Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-05-04,19,343-->
+Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-07-07,64,343-->
 
 ## the algorithm
 
@@ -261,7 +261,7 @@ crab roe noodle, roast duck, scallop congee
 
 Candidate generation {{spawns a large numbers of subsets, which is costly for computation}}. Its bottom-up exploration nature means {{finding any subset $S$ requires finding all its $2^{\lvert S \rvert} - 1$ proper subsets, including the [empty set](empty%20set.md), first}}. <!--SR:!2024-06-02,81,344!2024-06-05,84,344-->
 
-The algorithm also requires {{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}}. Therefore, the algorithm works best if {{the database is permanently stored in the memory, which might not be practical for very large database}}. <!--SR:!2024-05-04,54,324!2024-05-20,71,344-->
+The algorithm also requires {{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}}. Therefore, the algorithm works best if {{the database is permanently stored in the memory, which might not be practical for very large database}}. <!--SR:!2024-10-25,174,324!2024-05-20,71,344-->
 
 Also, the time and space complexity of the algorithm is {{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}}. <!--SR:!2024-05-29,77,344-->
 

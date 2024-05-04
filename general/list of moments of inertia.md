@@ -20,7 +20,7 @@ tags:
 - equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2024-09-13,179,250!2024-05-28,57,318-->
   - thin plate correction ::: use the same equation <!--SR:!2024-08-20,239,330!2024-05-28,58,318-->
   - cuboid, axis through center of edge $c$ ::: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2024-07-08,102,250!2024-08-06,100,298-->
-  - thin plate with $c=0$, axis through edge $a$ ::: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2024-06-23,179,310!2024-05-04,40,298-->
+  - thin plate with $c=0$, axis through edge $a$ ::: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2024-06-23,179,310!2024-08-30,118,298-->
 - proof: $$\begin{aligned}
 m&=\rho{}HLW\\
 I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-\frac{W^2}2\right)^2\right)\,\mathrm{d}h\,\mathrm{d}l\,\mathrm{d}w\\
