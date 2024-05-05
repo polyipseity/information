@@ -11,7 +11,7 @@
       "dependencies": {
         "body-parser": "1.20.2",
         "express": "4.19.2",
-        "flat": "5.0.0",
+        "flat": "5.0.1",
         "pug": "3.0.2"
       }
     },
@@ -352,13 +352,9 @@
       }
     },
     "node_modules/flat": {
-      "version": "5.0.0",
-      "resolved": "https://registry.npmjs.org/flat/-/flat-5.0.0.tgz",
-      "integrity": "sha512-6KSMM+cHHzXC/hpldXApL2S8Uz+QZv+tq5o/L0KQYleoG+GcwrnIJhTWC7tCOiKQp8D/fIvryINU1OZCCwevjA==",
-      "deprecated": "Fixed a prototype pollution security issue in 5.0.0, please upgrade to ^5.0.1.",
-      "dependencies": {
-        "is-buffer": "~2.0.4"
-      },
+      "version": "5.0.1",
+      "resolved": "https://registry.npmjs.org/flat/-/flat-5.0.1.tgz",
+      "integrity": "sha512-DUYDWLlMhV9qvhjbgmhDQ3ZycXmoOKzrj4KN0+5BEat5SqTlXcXzxNgwiSN1UQHA5Z0BsgYYPelhQHVhpfqaVA==",
       "bin": {
         "flat": "cli.js"
       }
@@ -511,28 +507,6 @@
       "integrity": "sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==",
       "engines": {
         "node": ">= 0.10"
-      }
-    },
-    "node_modules/is-buffer": {
-      "version": "2.0.5",
-      "resolved": "https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz",
-      "integrity": "sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==",
-      "funding": [
-        {
-          "type": "github",
-          "url": "https://github.com/sponsors/feross"
-        },
-        {
-          "type": "patreon",
-          "url": "https://www.patreon.com/feross"
-        },
-        {
-          "type": "consulting",
-          "url": "https://feross.org/support"
-        }
-      ],
-      "engines": {
-        "node": ">=4"
       }
     },
     "node_modules/is-core-module": {
