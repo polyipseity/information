@@ -60,10 +60,10 @@ Evaluate the stability of the slope when the groundwater table is at the ground 
 > $$\begin{aligned}
 > \text{factor of safety} & = \frac {\gamma'} {\gamma_\text{sat} } \frac {\tan \phi'} {\tan \alpha_\text{s} } \\
 > & = \frac {19.8 - 9.8} {19.8} \frac {\tan 36\degree} {\tan 30\degree} \\
-> & = 0.505050505\text{ (cor to 9 sig. fig.)} \\
-> & = 0.505\text{ (cor to 3 sig. fig.)} \\
+> & = 0.635559885\text{ (cor to 9 sig. fig.)} \\
+> & = 0.636\text{ (cor to 3 sig. fig.)} \\
 > \\
-> & \because \text{factor of safety} = 0.505 < 1 \\
+> & \because \text{factor of safety} = 0.636 < 1 \\
 > & \therefore \text{The slope is unstable.}
 > \end{aligned}$$
 
@@ -74,7 +74,7 @@ List three key assumptions made in the infinite slope safety calculation method.
 > The three assumptions are:
 >
 > - The slope has infinite length. The assumption would lead to a safe design. This is because an actual slope eventually ends on a flat land, limiting the amount of soil vulnerable to landslide.
-> - The slip plane is parallel to the slope. The assumption would lead to a safe design. This is because this is the steepest direction the landslide can move.
+> - The slope is assumed to be dry. The assumption would lead to a unsafe design. This is because if the slope gets wet, its cohension decreases, making the actual slope more unsafe than the therotical one.
 > - The effective cohesion is 0 Pa. The assumption would lead to a safe design. This is because the minimum cohesion of an actual slope is 0.
 
 ## 6.2
@@ -104,4 +104,4 @@ Which of the following options is __<u>CORRECT</u>__?
 - C. i, ii and iii
 - D. all
 
-> C
+> D
