@@ -25,9 +25,9 @@ Show that if $\sum_{k = 1}^{+\infty} a_k$ converges, then $\sum_{k = 1}^{+\infty
 
 > $$\begin{aligned}
 > & \phantom{\implies} \sum_{k = 1}^{+\infty} a_k\text{ converges} \\
-> & \implies \lim_{k \to +\infty} a_k = 0 \\
+> & \implies \lim_{k \to +\infty} a_k = 0 && (\text{tail test}) \\
 > & \implies \lim_{k \to +\infty} \frac 1 {a_k} = +\infty && (a_k > 0, \text{algebraic limit theorem}) \\
-> & \implies \sum_{k = 1}^{+\infty} \frac 1 {a_k}\text{ diverges}
+> & \implies \sum_{k = 1}^{+\infty} \frac 1 {a_k}\text{ diverges by the tail test}
 > \end{aligned}$$
 
 ### Q3.b
@@ -39,7 +39,7 @@ Show that if $\lim_{n \to +\infty} na_n = L > 0$, then $\sum_{k = 1}^{+\infty} a
 > \\
 > & \phantom{\implies} \lim_{n \to +\infty} n a_n = L > 0 \\
 > & \implies \lim_{n \to +\infty} \frac{a_n} {\frac 1 n} = L > 0 \\
-> & \implies \sum_{k = 1}^{+\infty} a_k\text{ diverges by the limit comparison test} && (a_k > 0)
+> & \implies \sum_{k = 1}^{+\infty} a_k\text{ diverges by the limit comparison test} && \left(a_n > 0, \frac 1 n > 0\right)
 > \end{aligned}$$
 
 ### Q3.c
@@ -51,11 +51,11 @@ Show that if $\sum_{k = 1}^{+\infty} a_k$ converges, then $\sum_{k = 1}^{+\infty
 > & \implies \lim_{k \to +\infty} a_k = 0 \\
 > & \\
 > & \lim_{n \to +\infty} \frac {a_k^2} {a_k} = \lim_{n \to +\infty} a_k = 0 \\
-> & \implies \sum_{k = 1}^{+\infty} a_k^2\text{ converges by the limit comparison test} && (a_k > 0) \\
+> & \implies \sum_{k = 1}^{+\infty} a_k^2\text{ converges by the limit comparison test} && \left(a_k^2 > 0, a_k > 0\right) \\
 > \\
 > & \text{The converse is not true. Let }a_k = \frac 1 k\text{.} \\
-> & \text{Then }\sum_{k = 1}^{+\infty} a_k^2\text{ converges by the }p\text{-test,} \\
-> & \text{But }\sum_{k = 1}^{+\infty} a_k\text{ diverges by the }p\text{-test.}
+> & \text{Then }\sum_{k = 1}^{+\infty} a_k^2 = \sum_{k = 1}^{+\infty} \frac 1 {k^2}\text{ converges by the }p\text{-test,} \\
+> & \text{But }\sum_{k = 1}^{+\infty} a_k = \sum_{k = 1}^{+\infty} \frac 1 k \text{ diverges by the }p\text{-test.}
 > \end{aligned}$$
 
 ### Q3.d
@@ -66,12 +66,12 @@ _Hint_: AM-GM inequality.
 
 > $$\begin{aligned}
 > & \phantom{\implies} \sum_{k = 1}^{+\infty} \frac 1 k\text{ diverges by the }p\text{-test}\text{ and }\sum_{k = 1}^{+\infty} a_k^2\text{ converges} \\
-> & \implies \lim_{k \to +\infty} \frac {a_k^2} {\frac 1 k} = 0 && \left(a_k^2 > 0, k > 0, \text{contrapositive of the limit comparison test} \right) \\
-> & \implies \lim_{k \to +\infty} \frac {a_k} {\frac 1 {\sqrt k} } = 0 && (a_k > 0, k > 0, \text{algebraic limit theorem}) \\
+> & \implies \lim_{k \to +\infty} \frac {a_k^2} {\frac 1 k} = 0 && \left(a_k^2 > 0, \frac 1 k > 0, \text{contrapositive of the limit comparison test} \right) \\
+> & \implies \lim_{k \to +\infty} \frac {a_k} {\frac 1 {\sqrt k} } = \sqrt 0 && \left(a_k^2 > 0, \frac 1 k > 0, \text{algebraic limit theorem}\right) \\
 > & \implies \lim_{k \to +\infty} \frac {\frac 1 k} {\frac 1 k} \cdot \frac {a_k} {\frac 1 {\sqrt k} } = \lim_{k \to +\infty} \frac {\frac {a_k} k} {\frac 1 {k^{\frac 3 2} } } = 0 \\
 > \\
 > & \phantom{\implies} \sum_{k = 1}^{+\infty} \frac 1 {k^{\frac 3 2} }\text{ converges by the }p\text{-test} \\
-> & \implies \sum_{k = 1}^{+\infty} \frac {a_k} k\text{ converges by the limit comparison test} && (a_k > 0)
+> & \implies \sum_{k = 1}^{+\infty} \frac {a_k} k\text{ converges by the limit comparison test} && \left(\frac 1 {k^{\frac 3 2} } > 0, \frac {a_k} k > 0 \right)
 > \end{aligned}$$
 
 ## Q7
@@ -97,7 +97,7 @@ $$\sum_{k = 1}^{+\infty} k^2 \sin^p \frac 1 k$$
 > & = 1 \\
 > \\
 > & \phantom \implies \sum_{k = 1}^{+\infty} k^{2 - p}\text{ converges by the }p\text{-test iff }p \in (3, +\infty) \\
-> & \phantom \implies \sum_{k = 1}^{+\infty} k^2 \sin^p \frac 1 k\text{ converges by the limit comparison test iff }p \in (3, +\infty)
+> & \phantom \implies \sum_{k = 1}^{+\infty} k^2 \sin^p \frac 1 k\text{ converges by the limit comparison test iff }p \in (3, +\infty) && \left(k^{2 - p} > 0, \frac 1 k \in (0, 1] \implies k^2 \sin^p \frac 1 k > 0 \right)
 > \end{aligned}$$
 
 ### Q7.b
@@ -160,7 +160,7 @@ If $\sum_{k = 1}^{+\infty} a_k$ __converges absolutely__, then both $\sum_{k = 1
 > & \implies a_n^+ = 0 < \lvert a_n \rvert \\
 > \\
 > & \phantom \implies a_n^+ \le \lvert a_n \rvert \\
-> & \implies \sum_{k = 1}^{+\infty} a_n^+\text{ converges by the direct comparison test} \\
+> & \implies \sum_{k = 1}^{+\infty} a_n^+\text{ converges by the direct comparison test} && \left(a_n^+ \ge 0, \lvert a_n \rvert \ge 0 \right) \\
 > \\
 > & \phantom \implies a_n \le 0 \\
 > & \implies a_n^- = -a_n = \lvert a_n \rvert \\
@@ -168,7 +168,7 @@ If $\sum_{k = 1}^{+\infty} a_k$ __converges absolutely__, then both $\sum_{k = 1
 > & \implies a_n^- = 0 < \lvert a_n \rvert \\
 > \\
 > & \phantom \implies a_n^- \le \lvert a_n \rvert \\
-> & \implies \sum_{k = 1}^{+\infty} a_n^-\text{ converges by the direct comparison test}
+> & \implies \sum_{k = 1}^{+\infty} a_n^-\text{ converges by the direct comparison test} && \left(a_n^- \ge 0, \lvert a_n \rvert \ge 0 \right)
 > \end{aligned}$$
 
 ### Q8.b
@@ -203,19 +203,19 @@ If $\sum_{k = 1}^{+\infty} a_k$ __converges conditionally__, then both $\sum_{k 
 > & \text{Then, }\sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k^+ \le L^+\text{ by the monotone convergence theorem.} \\
 > & \text{Consider }\sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k = \sum_{k = 1}^n a_k^+ - \sum_{k = 1}^n a_k^-\text{.} \\
 > & \begin{aligned} \sum_{k = 1}^{n \in \mathbb{Z}_{\ge 1} } a_k & = \sum_{k = 1}^n a_k^+ - \sum_{k = 1}^n a_k^-\text{.} \\
-> & \le L^+ - \sum_{k = 1}^n a_k^- \end{aligned} \\
+> & \le L^+ - \sum_{k = 1}^n a_k^- \end{aligned} && \cdots (2) \\
 > \\
 > & \phantom \implies a_k^- \ge 0\text{ and }\sum_{k = 1}^{+\infty} a_k^-\text{ diverges} \\
-> & \implies \sum_{k = 1}^{+\infty} a_k^- = +\infty
+> & \implies \sum_{k = 1}^{+\infty} a_k^- = +\infty\text{ as the partial sums are increasing}
 > \\
 > & \phantom \implies \sum_{k = 1}^{+\infty} a_k^- = +\infty\text{ diverges} \\
-> & \implies L^+ - \sum_{k = 1}^{+\infty} a_k^- = -\infty\text{ diverges} \\
-> & \implies \sum_{k = 1}^{+\infty} a_k \le -\infty\text{ diverges by the direct comparison test} \\
+> & \implies L^+ - \sum_{k = 1}^{+\infty} a_k^- = -\infty\text{ diverges by the algebraic limit theorem} \\
+> & \implies \sum_{k = 1}^{+\infty} a_k \le -\infty\text{ diverges by (2)} \\
 > & \phantom \implies \text{the above conclusion contradicts that }\sum_{k = 1}^{+\infty} a_k \text{ converges} \\
-> & \implies \sum_{k = 1}^{+\infty} a_k^+\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot diverge simultaneously} && \cdots (2) \\
-> & \text{Similarly, }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^+\text{ cannot diverge simultaneously} && \cdots (3) \\
+> & \implies \sum_{k = 1}^{+\infty} a_k^+\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot diverge simultaneously} && \cdots (3) \\
+> & \text{Similarly, }\sum_{k = 1}^{+\infty} a_k^-\text{ cannot converge and }\sum_{k = 1}^{+\infty} a_k^+\text{ cannot diverge simultaneously} && \cdots (4) \\
 > \\
-> & (1), (2), (3)\text{ combined implies that both integrals must diverge simultaneously.}
+> & (1), (3), (4)\text{ combined implies that both integrals must diverge simultaneously.}
 > \end{aligned}$$
 
 ## Q9
@@ -329,7 +329,7 @@ $$\sum_{k = 1}^{+\infty} \frac {x^k} {2^k k^2}$$
 > & \text{Then its alternating series counterpart,} \\
 > & \phantom = \sum_{k = 1}^{+\infty} \frac {(-1)^k 2^k} {2^k k^2} \\
 > & = \sum_{k = 1}^{+\infty} \frac {(-2)^k} {2^k k^2} \\
-> & \text{also converges by the direct comparison test,} \\
+> & \text{also converges by the absolute convergence test,} \\
 > & \text{and is the expression when }x = -2\text{.} \\
 > & \text{interval of convergence} = [-2, 2]
 > \end{aligned}$$
@@ -368,10 +368,10 @@ $$\sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (x - 1)^k$$
 > & \text{When }x = 0\text{,} \\
 > & \phantom = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (0 - 1)^k \\
 > & = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (-1)^k \\
-> & \le \sum_{k = 2}^{+\infty} \left\lvert \frac 1 {k (k - 1)} (-1)^k \right\rvert \\
-> & = \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (2 - 1)^k \\
-> & = 1 \\
-> & \text{The sum converges by the direct comparison test.} \\
+> & = \sum_{k = 2}^{+\infty} \frac {(-1)^k} {k (k - 1)} (2 - 1)^k \\
+> & \text{... which is the alternating counterpart of the series } \\
+> & \text{when }x = 2\text{.} \\
+> & \text{Thus, the sum converges by the absolute convergence test.} \\
 > & \text{interval of convergence} = [0, 2] \\
 > \\
 > S(x) & := \sum_{k = 2}^{+\infty} \frac 1 {k (k - 1)} (x - 1)^k \qquad x \in [0, 2] \\
@@ -451,8 +451,10 @@ $$\sum_{k = 1}^{+\infty} \frac k {k + 1} x^k$$
 > & \text{Thus, }\sum_{k = 1}^{+\infty} \frac k {k + 1} (-1)^k\text{ diverges by the tail test.} \\
 > & \text{When }x = 1\text{,} \\
 > & \phantom = \sum_{k = 1}^{+\infty} \frac k {k + 1} 1^k \\
-> & \ge \sum_{k = 1}^{+\infty} \frac k {k + 1} (-1)^k \\
-> & \text{Thus, }\sum_{k = 1}^{+\infty} \frac k {k + 1} 1^k\text{ diverges by the direct comparison test.} \\
+> & \phantom = \lim_{k \to +\infty} \frac k {k + 1} 1^k \\
+> & = \lim_{k \to +\infty} \frac 1 {1 + \frac 1 k} \\
+> & = 1 \\
+> & \text{Thus, }\sum_{k = 1}^{+\infty} \frac k {k + 1} 1^k\text{ diverges by the tail test.} \\
 > & \text{interval of convergence} = (-1, 1) \\
 > \\
 > & \phantom = \sum_{k = 1}^{+\infty} x^k \qquad x \in (-1, 1) \\
