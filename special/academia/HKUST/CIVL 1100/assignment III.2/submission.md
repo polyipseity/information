@@ -73,9 +73,9 @@ List three key assumptions made in the infinite slope safety calculation method.
 
 > The three assumptions are:
 >
-> - The slope has infinite length. The assumption would lead to a safe design. This is because an actual slope eventually ends on a flat land, limiting the amount of soil vulnerable to landslide.
-> - The slope is assumed to be dry. The assumption would lead to a unsafe design. This is because if the slope gets wet, its cohension decreases, making the actual slope more unsafe than the therotical one.
-> - The effective cohesion is 0 Pa. The assumption would lead to a safe design. This is because the minimum cohesion of an actual slope is 0.
+> - The slope has infinite length. The assumption would lead to an unsafe design. This is because an actual slope has edges (eventually ends), which introduces additional unconsidered edge effects that affect the slope safety.
+> - The slip plane is parallel to the slope. The assumption would lead to a unsafe design. This is because actual sliding angle may be steeper or gentler, affecting the slope safety.
+> - The effective cohesion is 0 Pa. The assumption would lead to a safe design. This is because the minimum cohesion of an actual slope is 0 Pa.
 
 ## 6.2
 
