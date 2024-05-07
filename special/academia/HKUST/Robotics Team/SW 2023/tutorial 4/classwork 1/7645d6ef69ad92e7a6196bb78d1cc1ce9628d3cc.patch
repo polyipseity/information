@@ -19,7 +19,7 @@ index 880aaa9..df14c4c 100644
 -            led_toggle(LED2);
 -            led_toggle(LED3);
 -            led_toggle(LED4);
-+            static unsigned char const data[] = "[Name: William][ID: 21062245].";
++            static unsigned char const data[] = "[Name: William][ID: 20703125].";
 +            HAL_UART_Transmit(&huart1, data, sizeof data / sizeof(char) - 1, HAL_MAX_DELAY);
              last_ticks = HAL_GetTick();
          }
