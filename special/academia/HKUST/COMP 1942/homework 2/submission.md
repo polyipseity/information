@@ -24,9 +24,9 @@ __Coupon Instructions:__
 6. Please write down the question no. you want to waive on the coupon.
 7. <span style="color: red;">\[New Requirement compared with HW1\] Please print this page (Page 1) of this homework specification as the first page of your HW submission. Fill in the correspondence information for the ease of marking.</span>
 
-- Student ID: 20703125
-- Student Name: Suo Xun Xin
-- Seat No.: 143
+- Student ID: <u>20703125</u>
+- Student Name: <u>Suo Xun Xin</u>
+- Seat No.: <u>143</u>
   - (Your seat number is the one used in the midterm exam. You could also check it in the HW page in Canvas.)
 
 | __Question__ | __Full Mark__ | __Mark__ |
@@ -207,20 +207,33 @@ x_1 & = -x_2 \end{aligned} \\
 & \text{Choose }\vec{x}\text{ such that its norm is }1\text{.} \\
 & \vec{x} = \begin{bmatrix} 1 / \sqrt 2 \\ -1 / \sqrt 2 \end{bmatrix} \\
 \end{aligned}$$
-- arrange the eigenvectors in descending eigenvalues: $$\begin{aligned}
+- sort the eigenvectors in descending eigenvalues: $$\begin{aligned}
 \vec{x}_1 & = \begin{bmatrix} 1 / \sqrt 2 \\ -1 / \sqrt 2 \end{bmatrix} && (\lambda = 4) \\
 \vec{x}_2 & = \begin{bmatrix} 1 / \sqrt 2 \\ 1 / \sqrt 2 \end{bmatrix} && (\lambda = 1)
 \end{aligned}$$
-- choose the first K=1 eigenvectors and combine them to make a transformation matrix: $$\begin{aligned}
-T & = \begin{bmatrix} \vec{x}_1^{\mathrm{T} } \end{bmatrix} \\
-& = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \end{bmatrix}
+- combine the sorted eigenvectors to make a transformation matrix: $$\begin{aligned}
+\Phi & = \begin{bmatrix} \vec{x}_1^{\mathrm{T} } \\ \vec{x}_2^{\mathrm{T} } \end{bmatrix} \\
+& = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \\ 1 / \sqrt 2 & 1 / \sqrt 2 \end{bmatrix}
 \end{aligned}$$
-- transform the original data points to get the PCA results: $$\begin{aligned}
-a_{\text{new} } & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 6 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \end{bmatrix} \\
-b_{\text{new} } & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 8 \\ 8 \end{bmatrix} = \begin{bmatrix} 0 \end{bmatrix} \\
-c_{\text{new} } & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 5 \\ 9 \end{bmatrix} = \begin{bmatrix} -2 \sqrt 2 \end{bmatrix} \\
-d_{\text{new} } & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 9 \\ 5 \end{bmatrix} = \begin{bmatrix} 2 \sqrt 2 \end{bmatrix} \\
+- transform the original data points: $$\begin{aligned}
+a_{\text{new} }' & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \\ 1 / \sqrt 2 & 1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 6 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 12 \sqrt 2 \end{bmatrix} \\
+b_{\text{new} }' & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \\ 1 / \sqrt 2 & 1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 8 \\ 8 \end{bmatrix} = \begin{bmatrix} 0 \\ 16 \sqrt 2 \end{bmatrix} \\
+c_{\text{new} }' & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \\ 1 / \sqrt 2 & 1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 5 \\ 9 \end{bmatrix} = \begin{bmatrix} -2 \sqrt 2 \\ 14 \sqrt 2 \end{bmatrix} \\
+d_{\text{new} }' & = \begin{bmatrix} 1 / \sqrt 2 & -1 / \sqrt 2 \\ 1 / \sqrt 2 & 1 / \sqrt 2 \end{bmatrix} \begin{bmatrix} 9 \\ 5 \end{bmatrix} = \begin{bmatrix} 2 \sqrt 2 \\ 14 \sqrt 2 \end{bmatrix} \\
 \end{aligned}$$
+- only keep the first K=1 coordinates of each data point: $$\begin{aligned}
+a_{\text{new} } & = \begin{bmatrix} 0 \end{bmatrix} \\
+b_{\text{new} } & = \begin{bmatrix} 0 \end{bmatrix} \\
+c_{\text{new} } & = \begin{bmatrix} -2 \sqrt 2 \end{bmatrix} \\
+d_{\text{new} } & = \begin{bmatrix} 2 \sqrt 2 \end{bmatrix} \\
+\end{aligned}$$
+
+Therefore, the new data points are:
+
+- a: (0)
+- b: (0)
+- c: (-2.83)
+- d: (2.83)
 
 ### Q2.b
 
@@ -234,10 +247,10 @@ Please use XLMiner to find the transformed data points when L=2 and K=1. Please 
 
 ---
 
-- a: (2.828427125)
+- a: (2.83)
 - b: (0)
 - c: (0)
-- d: (-2.828427125)
+- d: (-2.83)
 
 | Record ID | Comp1        |
 | --------- | ------------ |
@@ -256,7 +269,7 @@ In the view materialization method discussed in class, the constraint is given b
 
 ---
 
-Given input
+Given input:
 
 - X = available memory size
 
@@ -328,6 +341,8 @@ For this question, we will use a = 0.2, as taught in the class, so the equation 
 
 $$r_{\text{next} } = 0.8 M r_{\text{current} } + \begin{bmatrix} 0.2 \\ 0.2 \\ 0.2 \\ 0.2 \end{bmatrix}$$
 
+Initialize the initial importance values with $$r_{\text{initial} } = \begin{bmatrix} 1 \\ 1 \\ 1 \\ 1 \\ \end{bmatrix}$$.
+
 ### Q4.c
 
 What will be the resulting ranking? Please use the equation given in (b) for doing this part. Please show your steps where all numbers are shown up to 2 decimal places.
@@ -336,17 +351,17 @@ What will be the resulting ranking? Please use the equation given in (b) for doi
 
 Using a = 0.2 and the stochastic matrix $$M = \begin{bmatrix} 0 & 1 & 0 & 0 \\ 0.5 & 0 & 0 & 0 \\ 0.5 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{bmatrix}$$:
 
-| Iteration No. | \[A B C D\]             |
-| ------------- | ----------------------- |
-| 1             | \[1.00 1.00 1.00 1.00\] |
-| 2             | \[1.00 0.60 1.40 1.00\] |
-| 3             | \[0.68 0.60 1.40 1.32\] |
-| 4             | \[0.68 0.47 1.53 1.32\] |
-| 5             | \[0.58 0.47 1.53 1.42\] |
-| 6             | \[0.58 0.43 1.57 1.42\] |
-| 7             | \[0.54 0.43 1.57 1.46\] |
-| 8             | \[0.54 0.42 1.58 1.46\] |
-| 9             | \[0.54 0.42 1.58 1.46\] |
+| Iteration No. | \[A B C D\]<sup>T</sup>             |
+| ------------- | ----------------------------------- |
+| 1             | \[1.00 1.00 1.00 1.00\]<sup>T</sup> |
+| 2             | \[1.00 0.60 1.40 1.00\]<sup>T</sup> |
+| 3             | \[0.68 0.60 1.40 1.32\]<sup>T</sup> |
+| 4             | \[0.68 0.47 1.53 1.32\]<sup>T</sup> |
+| 5             | \[0.58 0.47 1.53 1.42\]<sup>T</sup> |
+| 6             | \[0.58 0.43 1.57 1.42\]<sup>T</sup> |
+| 7             | \[0.54 0.43 1.57 1.46\]<sup>T</sup> |
+| 8             | \[0.54 0.42 1.58 1.46\]<sup>T</sup> |
+| 9             | \[0.54 0.42 1.58 1.46\]<sup>T</sup> |
 
 The importance values has stopped changing, so the matrix has converged. Rank the pages by descending importance: C > D > A > B.
 
@@ -378,7 +393,53 @@ Please use Bayesian Belief Network classifier with the use of Bayesian Belief Ne
 
 ---
 
-probability = P(SIR = Yes | AP = Yes, P = Yes) = 0.7
+$$\begin{aligned}
+& \phantom = P(\text{AP = Yes, P = Yes}) \\
+& = P(\text{AP = Yes}) P(\text{P = Yes}) && (\text{independence}) \\
+& = 0.3 \cdot 0.6 \\
+& = 0.18 \\
+\\
+& \phantom = P(\text{WBC = High} | \text{AP = Yes, P = Yes}) \\
+& = \sum_{\text{SIR} \in \set{\text{Yes}, \text{No} }} P(\text{WBC = High} | \text{SIR}) P(\text{SIR} | \text{AP = Yes, P = Yes}) \\
+& = 0.6 \cdot 0.7 + 0.3 \cdot (1 - 0.7) \\
+& = 0.42 + 0.09 \\
+& = 0.51 \\
+\\
+& \phantom = P(\text{WBC = High} | \text{SIR = Yes, AP = Yes, P = Yes}) \\
+& = P(\text{WBC = High} | \text{SIR = Yes}) && (\text{conditional independence}) \\
+& = 0.6 \\
+\\
+& \phantom = P(\text{SIR = Yes, AP = Yes, P = Yes}) \\
+& = P(\text{SIR = Yes} | \text{AP = Yes, P = Yes}) P(\text{AP = Yes, P = Yes}) \\
+& = 0.7 \cdot 0.18 \\
+& = 0.126 \\
+\\
+& \phantom = P(\text{SIR = Yes, AP = Yes, P = Yes, WBC = High}) \\
+& = P(\text{WBC = High} | \text{SIR = Yes, AP = Yes, P = Yes}) P(\text{SIR = Yes, AP = Yes, P = Yes}) \\
+& = 0.6 \cdot 0.126 \\
+& = 0.0756 \\
+\\
+& \phantom = P(\text{AP = Yes, P = Yes, WBC = High}) \\
+& = P(\text{WBC = High} | \text{AP = Yes, P = Yes}) P(\text{AP = Yes, P = Yes}) \\
+& = 0.51 \cdot 0.18 \\
+& = 0.0918 \\
+\\
+& \phantom = P(\text{SIR = Yes} | \text{AP = Yes, P = Yes, WBC = High}) \\
+& = \frac {P(\text{SIR = Yes, AP = Yes, P = Yes, WBC = High})} {P(\text{AP = Yes, P = Yes, WBC = High})} \\
+& = \frac {0.0756} {0.0918} \\
+& = 0.823529412\text{ (cor. to 9 sig. fig.)} \\
+& = 0.824\text{ (cor to 3 sig. fig.)} \\
+\\
+& \phantom = P(\text{SIR = No} | \text{AP = Yes, P = Yes, WBC = High}) \\
+& = 1 - P(\text{SIR = Yes} | \text{AP = Yes, P = Yes, WBC = High}) \\
+& = 1 - 0.823529412 \\
+& = 0.176470588 \\
+& = 0.176\text{ (cor. to 3 sig. fig.)} \\
+\\
+& \because P(\text{SIR = Yes} | \text{AP = Yes, P = Yes, WBC = High}) \\
+& > P(\text{SIR = No} | \text{AP = Yes, P = Yes, WBC = High}) \\
+& \therefore \text{Yes, he is likely to have systemic inflammation reaction.}
+\end{aligned}$$
 
 ### Q5.b
 
@@ -386,4 +447,4 @@ Although Bayesian Belief Network classifier does not have an independent assumpt
 
 ---
 
-The disadvantage is that the complexity of the network increases very quickly with the number of variables, increasing its space and time complexity quickly.
+The disadvantage is that the complexity of the network increases very quickly with the number of variables, increasing its space and time complexity quickly, which makes it impractical if there are lot of variables. Also, the network cannot have cycles, so it cannot model cyclic relationship between variables.
