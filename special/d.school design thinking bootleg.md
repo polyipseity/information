@@ -55,7 +55,7 @@ return await memorize_seq(
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-05-19,33,270!2024-06-29,68,310-->
 - [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-06-02,34,250!2024-07-01,56,250-->
 - [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-05-16,30,270!2024-05-19,31,270-->
-- [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-05-11,26,270!2024-06-20,60,310-->
+- [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-08-18,99,290!2024-06-20,60,310-->
 - [test](#test) (brown)→:::←_(end)_ <!--SR:!2024-06-29,68,310!2024-06-13,55,310-->
 
 <!--/pytextgen-->
@@ -135,12 +135,12 @@ return await memorize_seq(
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-05-16,7,130!2024-05-27,18,210-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-05-18,9,150!2024-06-09,39,230-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-06-08,36,230!2024-05-15,24,230-->
-- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-06-02,24,190!2024-05-11,10,190-->
+- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-06-02,24,190!2024-05-16,5,170-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-05-30,37,250!2024-05-16,12,150-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-06-13,35,230!2024-06-14,39,210-->
-- (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-05-11,2,130!2024-05-19,18,210-->
-- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-05-14,5,130!2024-05-11,14,210-->
-- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-05-13,13,170!2024-05-10,7,190-->
+- (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-05-15,4,150!2024-05-19,18,210-->
+- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-05-14,5,130!2024-06-07,27,210-->
+- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-05-13,13,170!2024-05-26,15,190-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-05-21,36,290!2024-05-23,36,270-->
 
 <!--/pytextgen-->

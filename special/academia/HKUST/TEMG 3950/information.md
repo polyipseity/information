@@ -23,7 +23,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-06-08,33,270!2024-05-11,17,290!2024-07-04,56,310-->
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-06-08,33,270!2024-06-28,48,290!2024-07-04,56,310-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-05-18,17,250-->
 
@@ -82,7 +82,7 @@ value proposition canvas
 - customer discovery→:::←customer segmentation <!--SR:!2024-06-14,42,290!2024-06-09,34,270-->
 - customer segmentation→:::←customer validation <!--SR:!2024-06-06,31,270!2024-05-21,15,250-->
 - customer validation→:::←design thinking <!--SR:!2024-05-12,8,230!2024-06-07,32,270-->
-- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-05-10,11,230!2024-05-10,11,230-->
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-05-16,5,210!2024-06-03,23,230-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-05-14,15,250!2024-05-12,3,210-->
 - product validation→:::←value proposition canvas <!--SR:!2024-05-14,8,190!2024-05-17,17,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2024-07-05,57,310!2024-05-17,17,250-->

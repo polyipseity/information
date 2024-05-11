@@ -47,7 +47,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - hide selection:::H <!--SR:!2025-10-25,645,270!2024-11-29,511,310-->
 - reveal hidden:::Alt+H <!--SR:!2025-04-09,565,270!2024-12-06,426,256-->
 - toggle toolbar:::T <!--SR:!2024-09-28,459,310!2024-05-25,122,256-->
-- toggle sidebar:::N <!--SR:!2024-10-22,402,256!2024-05-11,102,156-->
+- toggle sidebar:::N <!--SR:!2024-10-22,402,256!2024-10-16,158,156-->
 
 ### 3D viewport
 

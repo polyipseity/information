@@ -22,7 +22,7 @@ Traditional variables include {{[demographic](#demographic%20segmentation), [geo
 
 #### demographic segmentation
 
-Demographic segmentation divides the market by {{factual and physical data}}. <!--SR:!2024-05-11,26,270-->
+Demographic segmentation divides the market by {{factual and physical data}}. <!--SR:!2024-07-19,69,270-->
 
 #### geographic segmentation
 
@@ -42,7 +42,7 @@ Product-specific segmentation divides the market by {{product or service-specifi
 
 ## benefits
 
-By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-06-01,42,290!2024-05-11,3,265!2000-01-01,1,250-->
+By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-06-01,42,290!2024-05-20,9,265!2000-01-01,1,250-->
 
 ## strategy
 

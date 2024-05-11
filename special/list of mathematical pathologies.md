@@ -60,7 +60,7 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 ##### $x^2 \sin(1 / x^2)$
 
-The function is {{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}}. <!--SR:!2024-05-11,17,326-->
+The function is {{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}}. <!--SR:!2024-07-03,53,326-->
 
 - derivative ::: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2024-06-15,40,306!2024-06-24,47,306-->
   - derivative integrability

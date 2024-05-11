@@ -36,7 +36,7 @@ After forming iron ions, {{[acid–base reactions](acid–base%20reaction.md) pr
 > - {{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}}
 > - {{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l) ⇌ Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}} <!--SR:!2025-03-03,507,310!2027-01-08,986,330-->
 
-After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs in equilibra}}: <!--SR:!2024-05-10,313,330-->
+After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs in equilibra}}: <!--SR:!2027-03-07,1030,330-->
 
 > - {{Fe(OH)<sub>2</sub>(s) ⇌ FeO(s) + H<sub>2</sub>O(l)}}
 > - {{Fe(OH)<sub>3</sub>(s) ⇌ FeO(OH)(s) + H<sub>2</sub>O(l)}}
@@ -100,7 +100,7 @@ Coating and painting {{isolate iron from the environment}}. <!--SR:!2027-03-03,1
 
 Electroplating {{isolate iron from the environment. The plating material may also provide [cathodic protection](#cathodic%20protection)}}. <!--SR:!2025-06-14,520,270-->
 
-In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2025-01-09,394,250!2024-12-13,440,270!2025-03-28,346,210!2024-09-24,391,290!2024-05-11,314,330!2025-08-22,558,270!2024-09-21,357,290-->
+In [galvanization](galvanization.md), {{[zinc](zinc.md) is used to make galvanized iron}}. The material can {{isolate and act as an [sacrificial anode](galvanic%20anode.md). However, it is [toxic](toxicity.md)}}. It can be used {{in [buckets](buckets.md) and [constructions](construction.md)}}. In [tin-plating](tinning.md), {{[tin](tin.md) is used for its non-toxicity. However, it accelerates rusting if iron is exposed}}. It can be used {{in [tin cans](tin%20can.md)}}. [Chromium](chromium.md) can also be used for {{its [shininess](gloss%20(optics).md) but it is expensive}}. It can be used {{in [car bumpers](car%20bumper.md) and [water taps](water%20tap.md)}}. <!--SR:!2025-01-09,394,250!2024-12-13,440,270!2025-03-28,346,210!2024-09-24,391,290!2028-04-07,1427,350!2025-08-22,558,270!2024-09-21,357,290-->
 
 ### cathodic protection
 

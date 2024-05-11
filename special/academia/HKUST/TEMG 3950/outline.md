@@ -24,13 +24,13 @@ The content is in teaching order.
 - [information § part 1: product innovation](information.md#part%201%20product%20innovation)
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
-- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-06-02,29,270!2024-05-10,16,290-->
+- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-06-02,29,270!2024-07-13,63,310-->
 - good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-05-15,9,230!2024-07-05,57,310-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concepts](../../../../general/Blue%20Ocean%20Strategy.md#concepts)
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-06-03,30,270!2024-07-07,59,310-->
-- International Business Plan Competition ::: IBPC <!--SR:!2024-07-03,55,310!2024-05-10,16,290-->
-- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-05-10,16,290!2024-07-06,58,310-->
+- International Business Plan Competition ::: IBPC <!--SR:!2024-07-03,55,310!2024-07-16,66,310-->
+- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-07-13,63,310!2024-07-06,58,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/)
 

@@ -57,7 +57,7 @@ return await memorize_table(
 <!--pytextgen generate section="029e"--><!-- The following content is generated at 2024-01-04T20:17:52.350867+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[atomic radius](#atomic%20radius) <!--SR:!2025-05-05,457,290!2027-03-03,1109,350-->
-- [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity) <!--SR:!2024-05-10,313,330!2026-08-15,885,330-->
+- [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity) <!--SR:!2027-03-11,1034,330!2026-08-15,885,330-->
 - [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity) <!--SR:!2025-11-03,720,330!2026-05-09,810,330-->
 - [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy) <!--SR:!2024-06-28,280,250!2025-05-12,535,310-->
 - [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character) <!--SR:!2026-06-12,788,290!2024-05-29,32,170-->

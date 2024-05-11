@@ -39,7 +39,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 - definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2024-09-01,118,307!2024-05-15,45,327-->
 - equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310!2024-05-20,50,318-->
   - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2024-09-05,252,330!2024-05-30,59,318-->
-  - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2024-05-11,159,310!2024-05-19,49,318-->
+  - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2025-09-15,492,310!2024-05-19,49,318-->
 - proof: $$\begin{aligned}
 m&=\rho\pi{}H\left(R_O^2-R_I^2\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\mathrm{d}h\,\mathrm{d}r\\
