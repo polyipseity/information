@@ -55,7 +55,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{typically [anisotropic](anisotropy.md)}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{typically low}} |
 > | {{[melting point](melting%20point.md)}} | {{typically low}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{typically low}} | <!--SR:!2024-12-08,410,290!2024-06-08,342,330!2024-05-12,320,330!2024-05-11,319,330!2025-05-09,553,290!2027-09-02,1259,350!2025-01-16,368,373!2025-02-18,392,373!2024-09-12,183,341!2025-01-18,285,362-->
+> | {{[strength](strength%20of%20materials.md)}} | {{typically low}} | <!--SR:!2024-12-08,410,290!2024-06-08,342,330!2024-05-12,320,330!2024-10-17,159,310!2025-05-09,553,290!2027-09-02,1259,350!2025-01-16,368,373!2025-02-18,392,373!2024-09-12,183,341!2025-01-18,285,362-->
 
 <!--/pytextgen-->
 
@@ -178,7 +178,7 @@ return await memorize_table(
 > | {{[malleability](malleability.md)}} | {{typically high}} |
 > | {{[melting point](melting%20point.md)}} | {{typically high ([mercury](mercury.md): low)}} |
 > | {{[strength](strength%20of%20materials.md)}} | {{typically low when pure}} |
-> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2024-05-11,108,270!2027-05-01,1164,350!2025-01-07,288,290!2027-01-09,992,330!2024-05-15,45,210!2027-01-04,989,330!2025-02-25,362,310!2027-07-03,1214,350!2025-02-02,436,270!2024-06-07,341,330!2024-07-25,152,273!2025-02-24,397,373!2025-03-17,328,362!2024-05-11,59,302!2024-07-04,134,341!2025-05-21,401,382-->
+> | {{[thermal conductivity](thermal%20conductivity.md)}} | {{typically high}} | <!--SR:!2025-02-25,290,270!2027-05-01,1164,350!2025-01-07,288,290!2027-01-09,992,330!2024-05-15,45,210!2027-01-04,989,330!2025-02-25,362,310!2027-07-03,1214,350!2025-02-02,436,270!2024-06-07,341,330!2024-07-25,152,273!2025-02-24,397,373!2025-03-17,328,362!2025-01-12,246,322!2024-07-04,134,341!2025-05-21,401,382-->
 
 <!--/pytextgen-->
 

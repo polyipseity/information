@@ -212,7 +212,7 @@ return _chain.from_iterable(await _gather(
 - Na<sup>+</sup>::[sodium](sodium.md) <!--SR:!2024-06-08,87,345-->
 - Li<sup>+</sup>::[lithium](lithium.md) <!--SR:!2024-05-20,70,347-->
 - Ba<sup>2+</sup>::[barium](barium.md) <!--SR:!2024-05-18,71,347-->
-- Sr<sup>2+</sup>::[strontium](strontium.md) <!--SR:!2024-05-11,64,345-->
+- Sr<sup>2+</sup>::[strontium](strontium.md) <!--SR:!2025-03-10,303,365-->
 - Ca<sup>2+</sup>::[calcium](calcium.md) <!--SR:!2024-06-01,82,345-->
 - Mg<sup>2+</sup>::[magnesium](magnesium.md) <!--SR:!2024-05-21,71,345-->
 - Be<sup>2+</sup>::[beryllium](beryllium.md) <!--SR:!2024-05-19,72,347-->
@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-29,43,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-12,9,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-05-11,4,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-05-15,4,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-09-02,125,250-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
@@ -280,7 +280,7 @@ return _chain.from_iterable(await _gather(
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)::[magnesium](magnesium.md) <!--SR:!2024-10-26,175,325-->
 - reacts with [steam](steam.md) and [acids](acid.md)::[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-05-12,52,267-->
 - reacts with concentrated [mineral acids](mineral%20acid.md)::[titanium](titanium.md) <!--SR:!2024-09-11,147,325-->
-- reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-05-11,26,225-->
+- reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-07-08,58,225-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-05-31,67,285-->
 - reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2024-05-22,72,345-->
 
@@ -298,7 +298,7 @@ return _chain.from_iterable(await _gather(
 - [barium](barium.md)::[electrolysis](electrolysis.md) <!--SR:!2027-02-27,1025,330-->
 - [strontium](strontium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-29,153,310-->
 - [calcium](calcium.md)::[electrolysis](electrolysis.md) <!--SR:!2026-10-03,916,330-->
-- [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-05-11,258,270-->
+- [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-18,130,250-->
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-07-17,133,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
 - [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-05-12,25,130-->

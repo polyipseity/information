@@ -139,7 +139,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-10,4,270!2000-01-01,1,250!2000-01-01,1,250-->
+Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2000-01-01,1,250!2000-01-01,1,250-->
 
 ### comparison parameters
 
@@ -183,7 +183,7 @@ number of features
 
 - _(begin)_→:::←price
 - price→:::←benefit
-- benefit→:::←quality <!--SR:!2024-05-10,3,254!2000-01-01,1,250-->
+- benefit→:::←quality <!--SR:!2024-05-17,6,254!2000-01-01,1,250-->
 - quality→:::←durability
 - durability→:::←service
 - service→:::←convenience
@@ -197,7 +197,7 @@ number of features
 
 It is very important to {{add our own products to the visualization and make it obvious that product is our own}}.
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-05-10,4,270-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-05-20,9,270-->
 
 When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}.
 

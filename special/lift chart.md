@@ -43,4 +43,4 @@ To construct a decile-wise lift chart, {{follow the same [instructions above](#c
 
 For the normal lift chart, the baseline curve represents {{the average lift curve of all possible classifiers}}. Consider {{the area enclosed between the model curve and the baseline curve}}. Treat {{all enclosed areas above the baseline curve as positive and below the baseline curve as negative, which we will call the _signed area_ here}}. Add {{the signed areas together}}. The larger the signed area, {{the better the model at predicting the "success" value, and vice versa}}. <!--SR:!2024-05-19,27,278!2024-06-01,38,290!2024-06-04,40,290!2024-06-09,43,290!2024-06-02,38,290-->
 
-For the decile-wise lift chart, the classifier is ideal when {{the bars are maximum starting from the first decile, dropping off suddenly in one of the decile, and then zero for the rest of the deciles}}. <!--SR:!2024-05-11,19,258-->
+For the decile-wise lift chart, the classifier is ideal when {{the bars are maximum starting from the first decile, dropping off suddenly in one of the decile, and then zero for the rest of the deciles}}. <!--SR:!2024-06-28,48,258-->

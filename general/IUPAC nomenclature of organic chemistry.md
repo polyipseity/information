@@ -181,7 +181,7 @@ The steps for naming an organic compound are:
 - [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2024-06-17,305,190!2026-03-01,749,265-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-07-31,143,227!2024-12-25,360,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2024-05-23,50,207-->
-- (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-05-10,103,225-->
+- (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-12-28,231,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2024-05-23,211,267-->
 - [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-11-28,206,253!2024-06-14,400,307-->
 - prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2029-08-16,1975,382!2027-07-03,1153,307-->
@@ -208,7 +208,7 @@ The steps for naming an organic compound are:
 - most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
 - most multiple bonds→:::←maximum length <!--SR:!2025-02-16,416,256!2025-10-04,690,282-->
 - maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
-- most prefixes→:::←most single bonds <!--SR:!2024-05-11,501,261!2025-03-02,332,262-->
+- most prefixes→:::←most single bonds <!--SR:!2027-12-09,1307,261!2025-03-02,332,262-->
 - most single bonds→:::←_(end)_ <!--SR:!2025-08-10,470,325!2025-03-21,668,345-->
 
 <!--/pytextgen-->
@@ -651,7 +651,7 @@ return (
 - cation→:::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→:::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
-- nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-05-11,181,230-->
+- nitrile→:::←aldehyde <!--SR:!2024-05-15,194,210!2024-08-09,90,210-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
 - ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-05-26,17,130-->
 - alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2026-10-20,1068,272-->
@@ -690,7 +690,7 @@ return await memorize_table(
 > | {{[acetone](acetone.md)}} | {{propanone}} |
 > | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
 > | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2027-05-02,1102,364!2024-07-16,350,364!2025-06-13,493,324!2024-05-10,237,364!2026-10-12,956,364!2027-05-20,1116,364-->
+> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} | <!--SR:!2024-07-14,349,364!2025-08-15,625,344!2024-12-20,501,384!2024-06-01,253,364!2027-05-02,1102,364!2024-07-16,350,364!2025-06-13,493,324!2027-08-06,1182,384!2026-10-12,956,364!2027-05-20,1116,364-->
 
 <!--/pytextgen-->
 

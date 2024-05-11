@@ -12,7 +12,7 @@ tags:
 
 ### _u_ not satisfying conditions
 
-The substituting $u$ {{should be [differentiable](../general/differentiable%20function.md) and $u'$ should be [integrable](../general/integral.md)}}. An example is {{substituting $u = \frac 1 x$ into $\int_{-1}^1 \! \mathrm{d}x$}}: <!--SR:!2024-05-11,17,290!2024-06-02,30,290-->
+The substituting $u$ {{should be [differentiable](../general/differentiable%20function.md) and $u'$ should be [integrable](../general/integral.md)}}. An example is {{substituting $u = \frac 1 x$ into $\int_{-1}^1 \! \mathrm{d}x$}}: <!--SR:!2024-07-02,52,290!2024-06-02,30,290-->
 
 $$\begin{aligned}
 & \phantom{=} \int_{-1}^1 \! \mathrm{d}x \\
@@ -23,7 +23,7 @@ $$\begin{aligned}
 & = -2
 \end{aligned}$$
 
-But the integral value is obviously 2, not -2. This is because {{$u$ is not even defined at $x = 0$}}. <!--SR:!2024-05-10,16,290-->
+But the integral value is obviously 2, not -2. This is because {{$u$ is not even defined at $x = 0$}}. <!--SR:!2024-06-26,46,290-->
 
 ### integrand is non-rewritable
 

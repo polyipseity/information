@@ -131,7 +131,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-06-10,32,254!2024-05-11,13,234-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-06-10,32,254!2024-06-21,41,254-->
 
 ##### value sources
 
@@ -181,14 +181,14 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-05-30,28,257!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-05-17,20,254-->
-- brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-11,5,214-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-05-14,17,254!2024-05-10,13,237-->
+- brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-25,14,234-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-05-14,17,254!2024-06-22,42,257-->
 - cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-12,11,157-->
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
-- newness→:::←performance <!--SR:!2024-05-16,22,277!2024-05-10,12,237-->
+- newness→:::←performance <!--SR:!2024-05-16,22,277!2024-06-19,39,257-->
 - performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-06-03,34,274-->
-- performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-05-11,17,254-->
+- performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-07-10,60,274-->
 - price→:::←risk reduction <!--SR:!2024-05-18,21,254!2024-05-19,22,254-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-06-02,32,277!2024-05-19,22,257-->
 
@@ -289,7 +289,7 @@ subscription fee
 
 - _(begin)_→:::←advertising <!--SR:!2024-05-24,26,254!2024-07-16,71,317-->
 - advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-06-14,41,297-->
-- asset sale→:::←brokerage fee <!--SR:!2024-05-11,16,254!2024-06-19,41,274-->
+- asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-05-14,19,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-05-17,20,254-->
 - licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
@@ -304,7 +304,7 @@ The key resources building block shows {{important assets required for the busin
 
 #### key activities
 
-The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-05-31,33,294!2024-05-11,14,237-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-05-31,33,294!2024-06-26,46,257-->
 
 #### key partnerships
 
@@ -314,7 +314,7 @@ The key partnerships building block shows {{important suppliers and networks req
 
 The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-05-18,24,274!2024-05-27,30,274-->
 
-In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-05-22,23,270!2024-05-10,16,254-->
+In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-05-22,23,270!2024-07-06,56,274-->
 
 ### fit
 

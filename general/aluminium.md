@@ -49,7 +49,7 @@ return await memorize_table(
 > | {{kitchen foil}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}} |
 > | {{overhead power cables}} | {{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}} |
 > | {{soft drink cans}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}} |
-> | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} | <!--SR:!2024-07-24,76,170!2025-09-15,581,250!2024-10-12,353,270!2024-05-11,232,230!2026-06-29,782,290!2024-07-05,96,130!2025-09-14,628,310!2025-06-10,402,210!2027-01-27,1091,350!2025-03-04,395,230-->
+> | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} | <!--SR:!2024-07-24,76,170!2025-09-15,581,250!2024-10-12,353,270!2025-10-26,533,230!2026-06-29,782,290!2024-07-05,96,130!2025-09-14,628,310!2025-06-10,402,210!2027-01-27,1091,350!2025-03-04,395,230-->
 
 <!--/pytextgen-->
 
@@ -57,7 +57,7 @@ return await memorize_table(
 
 - _(begin)_→:::←aircraft bodies <!--SR:!2026-05-09,866,330!2027-11-27,1328,350-->
 - aircraft bodies→:::←kitchen foil <!--SR:!2024-06-18,144,230!2026-02-12,671,270-->
-- kitchen foil→:::←overhead power cables <!--SR:!2024-09-01,127,250!2024-05-11,11,130-->
+- kitchen foil→:::←overhead power cables <!--SR:!2024-09-01,127,250!2024-05-17,6,130-->
 - overhead power cables→:::←soft drink cans <!--SR:!2024-10-07,373,290!2024-05-29,44,210-->
 - soft drink cans→:::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
 - window frames→:::←_(end)_ <!--SR:!2027-03-12,1123,350!2025-03-10,315,290-->

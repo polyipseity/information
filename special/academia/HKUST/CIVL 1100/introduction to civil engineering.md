@@ -21,8 +21,8 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-05-13,15,340!2024-05-11,18,358-->
-    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-05-21,15,320!2024-05-11,13,340-->
+    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-05-13,15,340!2024-08-08,89,378-->
+    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-05-21,15,320!2024-07-11,61,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-06-12,43,330!2024-05-13,21,357-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-06-03,33,317!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
@@ -30,10 +30,10 @@ The content is in teaching order.
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2024-06-19,46,325!2024-06-30,57,345-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-05-20,45,310-->
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-05-10,4,300!2024-05-15,18,360-->
-  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-05-10,17,357-->
+- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-05-24,13,300!2024-05-15,18,360-->
+  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-05-29,28,315!2024-06-25,52,352-->
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-05-28,19,301!2024-05-11,13,340-->
+  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-05-28,19,301!2024-07-13,63,360-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-05-24,25,312!2024-05-26,51,310-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-05-20,19,297!2024-05-12,20,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-06-03,28,320!2024-06-10,39,332-->
@@ -66,11 +66,11 @@ The content is in teaching order.
       - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-05-29,20,265!2024-07-16,71,344-->
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2024-06-19,75,330!2024-05-13,21,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-05-11,36,305!2024-06-25,52,347-->
-  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-05-10,4,300!2024-06-23,48,330-->
+- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2024-06-25,52,347-->
+  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-05-27,16,320!2024-06-23,48,330-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-05-11,18,357-->
+    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-08-08,89,377-->
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-06-03,56,285!2024-07-11,63,345-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-05-25,26,304!2024-07-07,62,345-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
@@ -79,28 +79,28 @@ The content is in teaching order.
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-06-07,29,321!2024-06-27,55,356-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-05-24,22,315!2024-07-29,81,370-->
-    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-05-15,16,295!2024-05-10,18,352-->
+    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-05-15,16,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-05-11,19,350-->
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-05-10,12,230!2024-06-24,49,332-->
+    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-07-18,68,350-->
+    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-06-07,27,230!2024-06-24,49,332-->
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-05-22,16,294!2024-05-11,19,352-->
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-05-22,16,294!2024-07-17,67,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-05-27,27,312!2024-12-04,219,319-->
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-05-29,23,300!2024-05-15,17,361-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-05-29,28,317!2024-05-12,20,347-->
-  - materials engineer jobs ::: highly varied <!--SR:!2024-06-11,67,330!2024-05-11,19,352-->
+  - materials engineer jobs ::: highly varied <!--SR:!2024-06-11,67,330!2024-08-13,94,372-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::: development of improved or new materials <!--SR:!2024-05-16,17,297!2024-06-21,77,330-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-05-10,18,355-->
+  - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-06-07,29,320!2024-06-04,31,312-->
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-05-27,27,317!2024-08-01,84,374-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2024-06-06,62,330-->
-  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-05-14,16,340!2024-05-10,17,357-->
+  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-05-14,16,340!2024-07-29,79,377-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-07-17,87,285!2024-06-25,81,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-05-28,27,312!2024-05-12,20,355-->
@@ -115,9 +115,9 @@ The content is in teaching order.
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-05-17,11,274!2024-05-18,20,360-->
-- description ::: suspension bridge in Kobe, Japan <!--SR:!2024-05-11,19,347!2024-07-26,78,375-->
+- description ::: suspension bridge in Kobe, Japan <!--SR:!2024-07-18,68,347!2024-07-26,78,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-05-22,16,340!2024-05-23,17,360-->
-- length ::: 3911 m, longest span: 1991 m <!--SR:!2024-05-11,7,281!2024-05-10,18,352-->
+- length ::: 3911 m, longest span: 1991 m <!--SR:!2024-06-03,23,281!2024-08-05,86,372-->
 
 ### Beijing National Stadium
 
@@ -125,7 +125,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 
 - description ::: stadium in Beijing, China <!--SR:!2024-06-03,59,310!2024-06-10,66,330-->
 - image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2024-05-21,15,340!2024-05-24,18,360-->
-- shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-05-11,19,352!2024-05-10,18,345-->
+- shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-08-11,92,372!2024-07-31,81,365-->
 
 ### Burj Al Arab
 
@@ -140,7 +140,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
-- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-05-15,16,297!2024-05-11,19,354-->
+- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-05-15,16,297!2024-08-15,96,374-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-05-23,17,281!2024-05-14,21,357-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-05-24,18,360!2024-05-18,12,340-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-06-03,28,321!2024-06-14,70,330-->
@@ -167,7 +167,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
-- description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-05-22,18,272!2024-05-11,19,347-->
+- description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-05-22,18,272!2024-08-09,90,367-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-12,3,221!2024-07-11,66,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-05-22,16,340!2024-05-27,21,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-05-27,21,360!2024-05-24,18,360-->
@@ -196,7 +196,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 - description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-08-03,114,295!2024-08-04,87,374-->
 - image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2024-05-21,15,340!2024-05-25,19,360-->
-- shape ::: bird/turtle rooftop <!--SR:!2024-05-30,55,310!2024-05-10,18,352-->
+- shape ::: bird/turtle rooftop <!--SR:!2024-05-30,55,310!2024-08-04,85,372-->
 
 ### Hong Kong–Zhuhai–Macau Bridge
 
@@ -211,7 +211,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
-- [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-06-01,23,300!2024-05-11,19,355-->
+- [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-06-01,23,300!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-05-18,12,281!2024-06-24,52,347-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-05-22,16,340!2024-05-26,20,360-->
 - length ::: 379 m <!--SR:!2024-05-28,19,281!2024-06-21,49,350-->
@@ -229,7 +229,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 See [John Hancock Center](John%20Hancock%20Center.md).
 
-- description ::: skyscraper in Chicago, Illinois <!--SR:!2024-05-10,8,275!2024-07-23,75,367-->
+- description ::: skyscraper in Chicago, Illinois <!--SR:!2024-06-01,21,275!2024-07-23,75,367-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-05-17,11,237!2024-05-29,54,310-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-05-23,17,360!2024-05-27,21,360-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-05-16,10,280!2024-05-24,18,360-->
@@ -244,16 +244,16 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
 - access tunnel lengths ::: up to 4 km <!--SR:!2024-05-13,20,357!2024-06-28,56,345-->
-- length ::: 57.5 km <!--SR:!2024-05-11,7,317!2024-05-10,18,354-->
+- length ::: 57.5 km <!--SR:!2024-06-13,33,337!2024-08-06,87,374-->
 
 ### Stonecutters Bridge
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-05-10,9,321!2024-05-22,20,361-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-06-18,38,341!2024-05-22,20,361-->
 - description ::: bridge in Hong Kong <!--SR:!2024-06-16,41,325!2024-05-13,20,357-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-05-25,19,360!2024-05-19,13,340-->
-- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-05-10,4,280!2024-06-27,54,350-->
+- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-05-24,13,280!2024-06-27,54,350-->
 
 ### Sutong Yangtze River Bridge
 
@@ -277,8 +277,8 @@ See [Taipei 101](Taipei%20101.md).
 
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
-- [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-06-08,30,321!2024-05-11,18,357-->
-- height ::: 20.1 m <!--SR:!2024-05-10,4,281!2024-05-18,20,360-->
+- [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-06-08,30,321!2024-08-03,84,377-->
+- height ::: 20.1 m <!--SR:!2024-05-24,13,281!2024-05-18,20,360-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-05-15,11,320!2024-05-24,18,360-->
 - length ::: 520 m <!--SR:!2024-05-13,4,260!2024-05-21,46,310-->
 
@@ -286,7 +286,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-05-17,14,277!2024-05-10,18,350-->
+- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-05-17,14,277!2024-08-10,91,370-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-06-13,69,330!2024-05-12,20,352-->
 - image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-05-25,19,360!2024-05-22,16,340-->
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-05-22,16,280!2024-05-18,20,360-->
@@ -295,7 +295,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
-- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-06-03,33,307!2024-05-10,18,350-->
+- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-06-03,33,307!2024-08-06,87,370-->
 - length ::: 271 km <!--SR:!2024-05-27,18,317!2024-05-13,21,357-->
 
 ### Two Prudential Plaza
@@ -303,7 +303,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-06-04,29,320!2024-07-28,80,365-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-10,4,281!2024-05-12,20,344-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-13,2,261!2024-05-12,20,344-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-05-23,17,340!2024-05-21,15,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-05-20,14,340!2024-05-25,19,360-->
 
@@ -311,7 +311,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 See [Water Cube](../../../../general/Water%20Cube.md).
 
-- description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-05-11,19,354-->
+- description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-08-12,93,374-->
 - image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-05-26,20,360!2024-05-27,21,360-->
 - shape ::: cube covered with bubbles <!--SR:!2024-06-28,55,350!2024-06-07,63,330-->
 
@@ -365,7 +365,7 @@ quantity surveyor
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-05-26,25,315!2024-05-27,27,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-05-15,11,297!2024-05-21,22,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-05-12,13,305!2024-05-24,23,285-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-05-13,15,340!2024-05-10,1,260-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2024-05-13,15,340!2024-05-12,1,240-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2024-05-13,15,340!2024-05-17,19,360-->
 
 <!--/pytextgen-->
@@ -410,15 +410,15 @@ water and sewage treatment system
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2024-05-10,17,357!2024-05-11,19,354-->
+- _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-05-14,16,340-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-05-19,21,360-->
-- dam→:::←pipeline <!--SR:!2024-05-11,2,224!2024-06-14,36,321-->
+- dam→:::←pipeline <!--SR:!2024-05-15,4,224!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-05-12,6,260!2024-05-14,5,281-->
 - power plant→:::←reservoir <!--SR:!2024-05-31,22,275!2024-06-06,28,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-05-10,4,197!2024-05-19,10,261-->
+- reservoir→:::←sewage treatment <!--SR:!2024-05-13,2,177!2024-05-19,10,261-->
 - sewage treatment→:::←transport <!--SR:!2024-05-12,6,250!2024-05-23,17,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-05-10,12,340!2024-05-11,2,190-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-05-12,1,170-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-05-21,19,361!2024-05-21,19,361-->
 
 <!--/pytextgen-->
@@ -506,14 +506,14 @@ workmanship
 
 - _(begin)_→:::←budgeting <!--SR:!2024-05-14,16,341!2024-05-19,21,360-->
 - budgeting→:::←construction management <!--SR:!2024-05-22,16,300!2024-05-22,23,315-->
-- construction management→:::←economics <!--SR:!2024-05-10,6,215!2024-05-11,7,280-->
-- economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-05-10,4,300-->
+- construction management→:::←economics <!--SR:!2024-05-29,18,235!2024-06-01,21,280-->
+- economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-05-13,2,280-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-05-24,18,300!2024-06-01,26,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-05-13,14,297!2024-05-26,24,312-->
-- maintenance→:::←politics <!--SR:!2024-05-11,7,281!2024-05-20,19,292-->
+- maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-05-20,19,292-->
 - politics→:::←social <!--SR:!2024-05-13,15,340!2024-05-27,18,317-->
 - social→:::←workmanship <!--SR:!2024-06-05,27,300!2024-06-02,27,210-->
-- workmanship→:::←_(end)_ <!--SR:!2024-05-10,18,345!2024-07-21,73,355-->
+- workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
 
 <!--/pytextgen-->
 
@@ -551,7 +551,7 @@ We Engineer Hong Kong’s Development
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-05-30,30,304!2024-06-09,38,307-->
 - We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-05-25,24,312!2024-05-15,11,297-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-06-10,41,330-->
-- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-05-11,19,352!2024-05-17,19,360-->
+- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-05-17,19,360-->
 
 <!--/pytextgen-->
 
@@ -594,7 +594,7 @@ transportation
 - _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-06-05,34,355-->
 - construction→:::←environmental <!--SR:!2024-05-31,22,320!2024-05-17,19,360-->
 - environmental→:::←geo-technical <!--SR:!2024-05-30,30,307!2024-06-16,46,325-->
-- geo-technical→:::←hydraulic <!--SR:!2024-05-11,13,340!2024-05-17,19,360-->
+- geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-05-17,19,360-->
 - hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
 - material→:::←structural <!--SR:!2024-05-26,25,317!2024-05-13,9,260-->
 - structural→:::←transportation <!--SR:!2024-05-14,16,340!2024-06-26,51,327-->
@@ -701,7 +701,7 @@ testing materials
 - designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-05-22,18,277-->
 - logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-31,29,315-->
 - planning→:::←procuring materials <!--SR:!2024-05-18,14,297!2024-05-15,6,257-->
-- procuring materials→:::←quality assurance <!--SR:!2024-05-16,7,300!2024-05-11,7,261-->
+- procuring materials→:::←quality assurance <!--SR:!2024-05-16,7,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-05-20,11,332-->
 - quality control→:::←safety engineering <!--SR:!2024-05-28,22,301!2024-05-30,27,315-->
 - safety engineering→:::←scheduling <!--SR:!2024-06-04,26,320!2024-06-02,27,320-->
@@ -745,12 +745,12 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-05-11,2,232!2024-05-19,21,361-->
-- business procedures→:::←economics <!--SR:!2024-05-10,4,301!2024-05-22,18,265-->
+- _(begin)_→:::←business procedures <!--SR:!2024-05-16,5,232!2024-05-19,21,361-->
+- business procedures→:::←economics <!--SR:!2024-05-13,2,281!2024-05-22,18,265-->
 - economics→:::←human behaviors <!--SR:!2024-05-30,24,320!2024-06-14,39,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-05-14,10,280-->
 - management principles→:::←strong communication skills <!--SR:!2024-05-30,24,301!2024-06-01,23,300-->
-- strong communication skills→:::←teaming up with others <!--SR:!2024-05-11,13,340!2024-05-17,19,360-->
+- strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-05-17,19,360-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-05-12,3,252-->
 
 <!--/pytextgen-->
@@ -793,7 +793,7 @@ wood
 - brick→:::←concrete <!--SR:!2024-06-11,41,325!2024-05-13,21,357-->
 - concrete→:::←new synthetic materials <!--SR:!2024-05-19,10,281!2024-05-12,14,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-06-05,27,320-->
-- steel→:::←stone <!--SR:!2024-06-20,42,340!2024-05-11,13,340-->
+- steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
 - stone→:::←wood <!--SR:!2024-05-14,5,301!2024-05-23,24,312-->
 - wood→:::←_(end)_ <!--SR:!2024-05-12,20,354!2024-05-12,14,340-->
 
@@ -845,11 +845,11 @@ nuclear
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-05-11,19,352-->
+- _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
 - agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
 - architectural→:::←biomedical <!--SR:!2024-06-13,42,337!2024-05-12,14,340-->
 - biomedical→:::←ceramic <!--SR:!2024-05-12,14,320!2024-06-03,34,337-->
-- ceramic→:::←chemical <!--SR:!2024-05-10,4,300!2024-05-28,27,315-->
+- ceramic→:::←chemical <!--SR:!2024-05-23,12,300!2024-05-28,27,315-->
 - chemical→:::←civil <!--SR:!2024-06-10,40,337!2024-06-13,42,337-->
 - civil→:::←computer <!--SR:!2024-06-05,36,334!2024-06-11,42,332-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
@@ -857,7 +857,7 @@ nuclear
 - industrial→:::←manufacturing <!--SR:!2024-05-30,29,317!2024-05-31,31,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-05-14,21,357!2024-06-11,39,337-->
 - mechanical→:::←nuclear <!--SR:!2024-05-12,19,357!2024-06-29,51,335-->
-- nuclear→:::←_(end)_ <!--SR:!2024-05-10,18,354!2024-06-27,83,345-->
+- nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2024-06-27,83,345-->
 
 <!--/pytextgen-->
 
@@ -936,7 +936,7 @@ socioeconomic
 
 - _(begin)_→:::←biological <!--SR:!2024-05-18,18,307!2024-07-27,79,374-->
 - biological→:::←chemical <!--SR:!2024-05-31,30,317!2024-07-14,69,357-->
-- chemical→:::←cultural <!--SR:!2024-05-10,4,300!2024-06-07,37,337-->
+- chemical→:::←cultural <!--SR:!2024-05-13,2,280!2024-06-07,37,337-->
 - cultural→:::←physical <!--SR:!2024-05-29,31,325!2024-05-28,22,300-->
 - physical→:::←socioeconomic <!--SR:!2024-05-18,19,297!2024-05-17,19,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-05-12,3,257-->
@@ -977,7 +977,7 @@ soil liquefaction
 - debris flow→:::←landslide <!--SR:!2024-05-19,20,315!2024-05-18,18,315-->
 - landslide→:::←rockfall <!--SR:!2024-05-15,17,292!2024-05-14,5,300-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-05-16,17,290!2024-05-21,34,250-->
-- soil liquefaction→:::←_(end)_ <!--SR:!2024-05-11,19,352!2024-05-16,13,295-->
+- soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-05-16,13,295-->
 
 <!--/pytextgen-->
 
@@ -1012,9 +1012,9 @@ tunnel
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-05-16,18,360-->
-- embankment→:::←pile foundation <!--SR:!2024-05-10,12,320!2024-05-15,17,360-->
+- embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-05-15,17,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-05-20,14,297!2024-06-27,54,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-05-14,16,341!2024-05-11,2,252-->
+- shallow foundation→:::←tunnel <!--SR:!2024-05-14,16,341!2024-05-17,6,252-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-05-26,17,297-->
 
 <!--/pytextgen-->
@@ -1053,7 +1053,7 @@ levee
 - canal→:::←channel <!--SR:!2024-06-06,37,337!2024-06-21,48,352-->
 - channel→:::←dam <!--SR:!2024-06-15,40,327!2024-06-15,64,270-->
 - dam→:::←levee <!--SR:!2024-05-12,14,340!2024-06-16,41,332-->
-- levee→:::←_(end)_ <!--SR:!2024-05-10,18,355!2024-05-11,2,218-->
+- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-05-17,6,238-->
 
 <!--/pytextgen-->
 
@@ -1130,9 +1130,9 @@ Tsing Ma Bridge
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-05-27,26,318!2024-07-10,65,357-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-05-20,22,307!2024-05-13,15,287-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-05-14,16,340!2024-06-07,29,320-->
-- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-05-31,30,317!2024-05-11,13,340-->
+- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-05-31,30,317!2024-06-23,43,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-06-21,46,335!2024-05-30,30,307-->
-- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-05-10,18,344!2024-08-09,112,310-->
+- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
 
 <!--/pytextgen-->
 
@@ -1204,11 +1204,11 @@ polypropylene fiber reinforced concrete
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←artificial stone <!--SR:!2024-05-26,17,297!2024-06-28,84,345-->
-- artificial stone→:::←cellular concrete <!--SR:!2024-05-10,4,280!2024-05-23,23,315-->
+- artificial stone→:::←cellular concrete <!--SR:!2024-05-23,12,280!2024-05-23,23,315-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-05-19,44,250!2024-06-22,51,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-06-12,42,337!2024-06-11,33,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-05-19,10,280!2024-05-22,23,315-->
-- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-05-10,18,352!2024-06-15,37,320-->
+- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-06-15,37,320-->
 
 <!--/pytextgen-->
 
@@ -1244,10 +1244,10 @@ wave
 
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquake <!--SR:!2024-05-11,13,340!2024-06-30,52,337-->
+- _(begin)_→:::←earthquake <!--SR:!2024-06-22,42,340!2024-06-30,52,337-->
 - earthquake→:::←fire <!--SR:!2024-06-02,34,335!2024-05-13,15,340-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-05-24,30,246-->
-- flood→:::←strong wind <!--SR:!2024-05-10,4,300!2024-05-27,26,317-->
+- flood→:::←strong wind <!--SR:!2024-05-30,19,320!2024-05-27,26,317-->
 - strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-05-16,13,294-->
 - wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-05-16,16,295-->
 
@@ -1281,9 +1281,9 @@ Two Prudential Plaza
 
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-05-23,22,297!2024-05-11,19,347-->
+- _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-05-23,22,297!2024-08-14,95,367-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-05-20,21,314!2024-06-08,30,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-05-10,12,340!2024-06-03,25,300-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-06-03,25,300-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-06-06,31,320-->
 
 <!--/pytextgen-->
@@ -1359,11 +1359,11 @@ Hong Kong Code
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←American Code <!--SR:!2024-05-18,20,360!2024-07-27,79,374-->
-- American Code→:::←Australian Standard <!--SR:!2024-06-17,42,335!2024-05-11,19,355-->
+- American Code→:::←Australian Standard <!--SR:!2024-06-17,42,335!2024-08-14,95,375-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-06-08,38,335!2024-07-18,70,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-06-11,36,337-->
-- Hong Kong Code→:::←_(end)_ <!--SR:!2024-05-10,18,347!2024-06-02,58,330-->
+- Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2024-06-02,58,330-->
 
 <!--/pytextgen-->
 
@@ -1411,7 +1411,7 @@ water tower
 - dam→:::←power plant <!--SR:!2024-05-29,23,301!2024-05-16,10,258-->
 - power plant→:::←storage facility <!--SR:!2024-05-28,22,300!2024-05-24,25,314-->
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-06-04,29,320-->
-- tunnel→:::←unusual structure <!--SR:!2024-05-11,5,247!2024-05-10,12,320-->
+- tunnel→:::←unusual structure <!--SR:!2024-05-25,14,247!2024-06-18,38,320-->
 - unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-06-29,51,330-->
 - water tower→:::←_(end)_ <!--SR:!2024-05-12,20,347!2024-05-17,8,281-->
 
@@ -1506,12 +1506,12 @@ water transport
 
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←airport <!--SR:!2024-05-25,16,270!2024-05-10,18,355-->
+- _(begin)_→:::←airport <!--SR:!2024-05-25,16,270!2024-08-03,84,375-->
 - airport→:::←bicycle path <!--SR:!2024-07-15,67,355!2024-05-23,23,317-->
-- bicycle path→:::←highway <!--SR:!2024-05-10,12,340!2024-05-12,14,340-->
+- bicycle path→:::←highway <!--SR:!2024-07-05,55,360!2024-05-12,14,340-->
 - highway→:::←pier <!--SR:!2024-06-14,36,320!2024-05-30,24,300-->
 - pier→:::←pipeline <!--SR:!2024-05-15,17,360!2024-05-22,16,294-->
-- pipeline→:::←railroad <!--SR:!2024-05-10,1,235!2024-05-24,24,315-->
+- pipeline→:::←railroad <!--SR:!2024-05-13,2,235!2024-05-24,24,315-->
 - railroad→:::←water transport <!--SR:!2024-06-06,28,320!2024-05-23,24,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-05-27,21,360!2024-05-23,17,360-->
 

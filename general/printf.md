@@ -282,7 +282,7 @@ return await memorize_table(
 > | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
 > | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}} |
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2026-03-19,703,330!2026-07-17,804,337!2025-11-07,559,317!2024-06-07,196,277!2026-08-06,820,337!2024-05-13,192,317!2025-12-04,579,317!2024-08-31,138,257!2025-10-03,532,317!2024-07-02,198,277!2026-06-22,783,337!2025-04-02,385,297!2024-05-10,189,317!2024-06-15,127,237!2024-06-07,217,329!2024-08-04,224,289!2025-07-16,469,309!2025-09-28,524,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2024-05-22,109,269!2024-06-10,220,329!2025-07-20,472,309-->
+> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2026-03-19,703,330!2026-07-17,804,337!2025-11-07,559,317!2024-06-07,196,277!2026-08-06,820,337!2024-05-13,192,317!2025-12-04,579,317!2024-08-31,138,257!2025-10-03,532,317!2024-07-02,198,277!2026-06-22,783,337!2025-04-02,385,297!2025-12-30,598,317!2024-06-15,127,237!2024-06-07,217,329!2024-08-04,224,289!2025-07-16,469,309!2025-09-28,524,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2024-05-17,196,329!2024-05-22,109,269!2024-06-10,220,329!2025-07-20,472,309-->
 
 <!--/pytextgen-->
 

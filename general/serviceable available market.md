@@ -12,7 +12,7 @@ tags:
 
 ## importance
 
-SOM can be treated as a {{medium-term goal, which may be realized if your company is good enough}}. <!--SR:!2024-05-10,4,270-->
+SOM can be treated as a {{medium-term goal, which may be realized if your company is good enough}}. <!--SR:!2024-05-28,17,290-->
 
 ## references
 
