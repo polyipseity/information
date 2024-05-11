@@ -19,7 +19,7 @@ tags:
 
 ## outline
 
-This section {{outlines how one might do competitor analysis and present it to others}}.
+This section {{outlines how one might do competitor analysis and present it to others}}. <!--SR:!2024-05-15,4,274-->
 
 ### competitor classification
 
@@ -30,7 +30,7 @@ Depending on the 2 factors of {{meeting the same customer needs and possessing t
 3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so
 
-Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}.
+Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-05-15,4,274-->
 
 > [!example] examples
 >
@@ -77,8 +77,8 @@ why: Why are people using competitors' products?
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←compare: Identify similarities and differences between our and their products.
-- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others.
+- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2000-01-01,1,250!2024-05-15,4,274-->
+- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-05-14,3,254!2000-01-01,1,250-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs.
 - discover: Identify unmet needs.→:::←how: What is our strategy?
 - how: What is our strategy?→:::←pricing: Compare prices.
@@ -127,7 +127,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers.
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products.
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky.
-- know ourselves: See if our products are sticky.→:::←know themselves: See how big of a threat competitors pose.
+- know ourselves: See if our products are sticky.→:::←know themselves: See how big of a threat competitors pose. <!--SR:!2000-01-01,1,250!2024-05-15,4,274-->
 - know themselves: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies.
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_
 
@@ -139,11 +139,11 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2000-01-01,1,250!2000-01-01,1,250-->
+Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2000-01-01,1,250!2024-05-14,3,254-->
 
 ### comparison parameters
 
-Common parameters used for comparison, {{most important first}}:
+Common parameters used for comparison, {{most important first}}: <!--SR:!2024-05-15,4,274-->
 
 %%
 
@@ -182,14 +182,14 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←price
-- price→:::←benefit
+- price→:::←benefit <!--SR:!2024-05-14,3,254!2000-01-01,1,250-->
 - benefit→:::←quality <!--SR:!2024-05-17,6,254!2000-01-01,1,250-->
 - quality→:::←durability
 - durability→:::←service
 - service→:::←convenience
-- convenience→:::←ease of use
-- ease of use→:::←number of features
-- number of features→:::←_(end)_
+- convenience→:::←ease of use <!--SR:!2000-01-01,1,250!2024-05-15,4,274-->
+- ease of use→:::←number of features <!--SR:!2000-01-01,1,250!2024-05-14,3,254-->
+- number of features→:::←_(end)_ <!--SR:!2024-05-15,4,274!2000-01-01,1,250-->
 
 <!--/pytextgen-->
 
@@ -197,7 +197,7 @@ number of features
 
 It is very important to {{add our own products to the visualization and make it obvious that product is our own}}.
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2024-05-20,9,270-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2000-01-01,1,250!2024-05-15,4,274!2024-05-20,9,270-->
 
 When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}.
 
