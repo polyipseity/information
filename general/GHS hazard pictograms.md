@@ -71,7 +71,7 @@ return await memorize_table(
 - GHS06: [toxic](toxicity.md)→:::←GHS07: harmful <!--SR:!2025-10-30,662,310!2024-09-09,331,290-->
 - GHS07: harmful→:::←GHS08: [health hazard](health%20hazard.md) <!--SR:!2025-10-20,641,310!2024-07-16,305,270-->
 - GHS08: [health hazard](health%20hazard.md)→:::←GHS09: [environmental hazard](environmental%20hazard.md) <!--SR:!2026-12-10,969,330!2025-10-21,656,310-->
-- GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2024-05-05,308,330!2028-01-13,1361,350-->
+- GHS09: [environmental hazard](environmental%20hazard.md)→:::←_(end)_ <!--SR:!2028-03-08,1402,350!2028-01-13,1361,350-->
 
 <!--/pytextgen-->
 

@@ -16,8 +16,8 @@ See also [Vim help files](https://vimhelp.org/).
 ## autocomplete
 
 - cycle forward:::\<Tab\> <!--SR:!2026-06-18,886,348!2025-12-30,788,328-->
-- cycle backward:::\<Ctrl\>+p <!--SR:!2026-01-16,805,328!2024-05-07,317,288-->
-- show possibilities:::\<Ctrl\>+d <!--SR:!2025-06-22,426,193!2024-05-05,178,248-->
+- cycle backward:::\<Ctrl\>+p <!--SR:!2026-01-16,805,328!2026-11-07,912,288-->
+- show possibilities:::\<Ctrl\>+d <!--SR:!2025-06-22,426,193!2024-08-04,90,228-->
 
 ## pattern
 
@@ -26,7 +26,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## motion
 
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2024-06-10,392,348!2025-04-06,588,308-->
-- down:::\[[repeat N](#^repeatN)\]j <!--SR:!2024-05-09,361,333!2025-12-17,775,328-->
+- down:::\[[repeat N](#^repeatN)\]j <!--SR:!2028-11-22,1658,353!2025-12-17,775,328-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2024-09-07,440,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2027-07-12,1243,348!2026-08-08,904,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2025-02-08,290,253!2024-07-12,353,288-->

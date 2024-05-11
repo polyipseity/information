@@ -76,7 +76,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`^` <!--SR:!2024-08-14,146,310!2024-05-05,73,310-->
+- _(begin)_→:::←`^` <!--SR:!2024-08-14,146,310!2025-03-09,307,330-->
 - `^`→:::←`*` <!--SR:!2024-12-26,250,330!2024-09-25,163,310-->
 - `*`→:::←`/` <!--SR:!2024-10-11,179,310!2024-11-06,212,330-->
 - `/`→:::←`+` <!--SR:!2025-01-14,265,330!2025-01-26,277,330-->
@@ -281,7 +281,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←(operator) `&` <!--SR:!2024-06-23,104,310!2025-03-07,307,330-->
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-07-30,89,290!2024-06-01,75,270-->
 - `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2024-06-26,107,290!2024-07-01,84,230-->
-- `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-09,35,250!2024-05-23,24,270-->
+- `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-05-26,17,230!2024-05-23,24,270-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-05-23,29,150!2024-05-23,26,230-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2024-06-12,85,270!2024-06-25,69,250-->
 - `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-06-16,52,230!2024-05-11,14,150-->

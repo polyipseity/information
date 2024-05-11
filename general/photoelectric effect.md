@@ -12,7 +12,7 @@ The __photoelectric effect__ is {{the ejection of [electrons](electron.md) from 
 
 ## observation
 
-A {{[photocell](photocell.md)}} can be used to observe the effect. It consists of {{a [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube}}. When the photocathode is shone by light, {{emitted electrons escape to the anode}}, {{producing an [electric current](electric%20current.md)}}. The current is called {{photoelectric current, a kind of [photocurrent](photocurrent.md)}}. <!--SR:!2024-05-05,377,290!2025-05-05,406,230!2026-09-26,975,290!2026-03-25,786,250!2024-05-17,383,290-->
+A {{[photocell](photocell.md)}} can be used to observe the effect. It consists of {{a [photocathode](photocathode.md), curving around an [anode](anode.md) inside an [evacuated](vacuum.md) glass tube}}. When the photocathode is shone by light, {{emitted electrons escape to the anode}}, {{producing an [electric current](electric%20current.md)}}. The current is called {{photoelectric current, a kind of [photocurrent](photocurrent.md)}}. <!--SR:!2028-07-02,1518,310!2025-05-05,406,230!2026-09-26,975,290!2026-03-25,786,250!2024-05-17,383,290-->
 
 If the light frequency is lower than the {{threshold frequency}}, {{no photoemission occurs}}. Otherwise, {{immediate photoemission occurs}}. {{Light [intensity](intensity.md) or duration of exposure}} does not affect photoemission of a single electron. {{Light intensity}} only affects the photoelectric current. <!--SR:!2027-05-27,1273,350!2024-09-22,488,310!2024-09-06,432,290!2025-11-27,693,270!2027-08-30,1285,310-->
 

@@ -23,7 +23,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-05-06,12,270!2024-05-11,17,290!2024-05-08,14,290-->
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-06-08,33,270!2024-05-11,17,290!2024-07-04,56,310-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-05-18,17,250-->
 
@@ -31,7 +31,7 @@ Some important metaknowledge in this 21st century are the 4Cs: {{collaboration t
 
 _Previously, case analysis was part 1._
 
-The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2024-05-05,11,270-->
+The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2024-06-04,29,270-->
 
 ### product innovation elements
 
@@ -75,17 +75,17 @@ value proposition canvas
 
 <!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-05-21,22,270!2024-05-08,14,290-->
-- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-05-06,11,270!2024-05-06,13,270-->
+- _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-05-21,22,270!2024-07-06,58,310-->
+- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-06-05,30,270!2024-06-12,37,270-->
 - business model canvas→:::←competitor analysis <!--SR:!2024-05-21,20,250!2024-05-16,17,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-05-23,21,250!2024-05-29,26,250-->
-- customer discovery→:::←customer segmentation <!--SR:!2024-06-14,42,290!2024-05-06,13,270-->
-- customer segmentation→:::←customer validation <!--SR:!2024-05-06,13,270!2024-05-05,4,230-->
-- customer validation→:::←design thinking <!--SR:!2024-05-12,8,230!2024-05-05,12,270-->
+- customer discovery→:::←customer segmentation <!--SR:!2024-06-14,42,290!2024-06-09,34,270-->
+- customer segmentation→:::←customer validation <!--SR:!2024-06-06,31,270!2024-05-21,15,250-->
+- customer validation→:::←design thinking <!--SR:!2024-05-12,8,230!2024-06-07,32,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-05-10,11,230!2024-05-10,11,230-->
-- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-05-14,15,250!2024-05-07,5,230-->
-- product validation→:::←value proposition canvas <!--SR:!2024-05-05,4,190!2024-05-17,17,250-->
-- value proposition canvas→:::←_(end)_ <!--SR:!2024-05-08,14,290!2024-05-17,17,250-->
+- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-05-14,15,250!2024-05-12,3,210-->
+- product validation→:::←value proposition canvas <!--SR:!2024-05-14,8,190!2024-05-17,17,250-->
+- value proposition canvas→:::←_(end)_ <!--SR:!2024-07-05,57,310!2024-05-17,17,250-->
 
 <!--/pytextgen-->
 

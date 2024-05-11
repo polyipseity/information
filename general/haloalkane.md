@@ -34,7 +34,7 @@ Density {{decreases}} with increasing size. <!--SR:!2025-08-22,607,310-->
 
 ### solubility
 
-Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}. <!--SR:!2024-05-05,292,290-->
+Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}. <!--SR:!2026-08-30,846,290-->
 
 ## chemical properties
 

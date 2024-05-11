@@ -25,12 +25,12 @@ The content is in teaching order.
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
 - investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-06-02,29,270!2024-05-10,16,290-->
-- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-05-06,4,230!2024-05-09,15,290-->
+- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-05-15,9,230!2024-07-05,57,310-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concepts](../../../../general/Blue%20Ocean%20Strategy.md#concepts)
-  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-06-03,30,270!2024-05-09,15,290-->
-- International Business Plan Competition ::: IBPC <!--SR:!2024-05-07,13,290!2024-05-10,16,290-->
-- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-05-10,16,290!2024-05-09,15,290-->
+  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-06-03,30,270!2024-07-07,59,310-->
+- International Business Plan Competition ::: IBPC <!--SR:!2024-07-03,55,310!2024-05-10,16,290-->
+- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-05-10,16,290!2024-07-06,58,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/)
 
@@ -64,7 +64,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others.
   - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM.
-- visualization ::: Visualization is important to bring your point across.
+- visualization ::: Visualization is important to bring your point across. <!--SR:!2024-05-13,4,287!2000-01-01,1,250-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/)
 

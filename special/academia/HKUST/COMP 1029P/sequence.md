@@ -66,7 +66,7 @@ assert "abcdefg"[:0:-1] == "gfedcb"
 
 ## concatenation
 
-Concatenation means {{joining several sequences into one larger sequence}}. It is as simple as using {{the operator `+`}}: <!--SR:!2024-05-05,73,310!2024-11-17,223,330-->
+Concatenation means {{joining several sequences into one larger sequence}}. It is as simple as using {{the operator `+`}}: <!--SR:!2024-12-13,221,310!2024-11-17,223,330-->
 
 ```Python
 assert "abc" + "def" == "abcdef"

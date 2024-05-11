@@ -31,7 +31,7 @@ Else
 End If
 ```
 
-The semantics of `If...Then...Else...End If` is also obvious: {{If the condition is `True`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2024-05-06,73,321-->
+The semantics of `If...Then...Else...End If` is also obvious: {{If the condition is `True`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2025-01-05,244,321-->
 
 In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2024-09-26,162,301-->
 
@@ -75,7 +75,7 @@ Do While condition
 Loop
 ```
 
-The semantics of `Do While...Loop` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}}. You can see it is exactly {{the same as that for [`While...Wend`](#`While`)}}. The only difference is that you cannot {{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}}. <!--SR:!2024-05-08,75,321!2024-05-05,72,321!2024-05-10,25,281-->
+The semantics of `Do While...Loop` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}}. You can see it is exactly {{the same as that for [`While...Wend`](#`While`)}}. The only difference is that you cannot {{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}}. <!--SR:!2025-01-10,246,321!2024-12-22,230,321!2024-05-10,25,281-->
 
 One can also first run the statement block instead of the condition by using a `Do...Loop While` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-09-18,156,301-->
 
@@ -87,7 +87,7 @@ Loop While condition
 
 The semantics of `Do...Loop While` is {{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}}. <!--SR:!2024-10-09,177,310-->
 
-As VBA is intended to be English like, it also provides the unconventional {{`Do Until...Loop` and `Do...Loop Until` constructs}}. The semantics is exactly the same except that {{the loop stops if the condition is `True`}}. <!--SR:!2024-05-08,75,321!2024-12-19,241,321-->
+As VBA is intended to be English like, it also provides the unconventional {{`Do Until...Loop` and `Do...Loop Until` constructs}}. The semantics is exactly the same except that {{the loop stops if the condition is `True`}}. <!--SR:!2025-01-11,247,321!2024-12-19,241,321-->
 
 ### `For`
 
@@ -99,7 +99,7 @@ For LoopVariable = start To end Step step ' `Step step` optional
 Next LoopVariable
 ```
 
-The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loop variable is assigned the starting point. Then the loop variable is checked. If the loop variable is in between start and end, both ends inclusive, the statement block is executed. Otherwise, the `For...To...Step...Next` statement finishes}}. Each time the statement block has finished execution, {{the loop variable is incremented by `step`. Then we go back to checking the loop variable and repeat}}. <!--SR:!2024-09-22,159,301!2024-05-06,73,321-->
+The semantics of `For...To...Step...Next` is a bit complicated. First, {{the loop variable is assigned the starting point. Then the loop variable is checked. If the loop variable is in between start and end, both ends inclusive, the statement block is executed. Otherwise, the `For...To...Step...Next` statement finishes}}. Each time the statement block has finished execution, {{the loop variable is incremented by `step`. Then we go back to checking the loop variable and repeat}}. <!--SR:!2024-09-22,159,301!2024-12-26,234,321-->
 
 ### ending iteration early
 

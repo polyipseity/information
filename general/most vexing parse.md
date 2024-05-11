@@ -8,7 +8,7 @@ tags:
 
 # most vexing parse
 
-The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2024-05-19,55,310!2024-05-07,42,290-->
+The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2024-05-19,55,310!2024-10-22,168,310-->
 
 ## examples
 
@@ -23,7 +23,7 @@ double a_double(3.14);
 int an_int(int(a_double));
 ```
 
-The intuitive interpretation of line 2 is {{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}}. However, since {{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}}: <!--SR:!2024-05-17,47,290!2024-05-08,41,290-->
+The intuitive interpretation of line 2 is {{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}}. However, since {{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}}: <!--SR:!2024-05-17,47,290!2024-09-03,118,290-->
 
 ```C++
 int an_int(int a_double);
@@ -78,7 +78,7 @@ Parent parent((Child())); // extra parentheses
 Parent parent = Parent(Child()); // copy-initialization
 ```
 
-For copy-initialization, {{the construction of a temporary after `=` is likely [optimized out](optimizing%20compiler.md) by the [compiler](compiler.md). Since [C++17](C++17.md), this optimization is guaranteed by the standard}}. Note that the [C++17](C++17.md) standard {{does not specify this as an optimization. It does not formally describe it as "[copy elision](copy%20elision.md)". Rather, it describes the temporary is not _materialized_ until the variable is initialized. This is called _deferred temporary materialization_}}. <!--SR:!2024-05-14,47,290!2024-05-08,43,290-->
+For copy-initialization, {{the construction of a temporary after `=` is likely [optimized out](optimizing%20compiler.md) by the [compiler](compiler.md). Since [C++17](C++17.md), this optimization is guaranteed by the standard}}. Note that the [C++17](C++17.md) standard {{does not specify this as an optimization. It does not formally describe it as "[copy elision](copy%20elision.md)". Rather, it describes the temporary is not _materialized_ until the variable is initialized. This is called _deferred temporary materialization_}}. <!--SR:!2024-05-14,47,290!2024-09-09,124,290-->
 
 ## references
 
