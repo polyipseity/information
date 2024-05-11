@@ -18,7 +18,7 @@ Typical cluster models include:
 
 ## applications
 
-Clustering are used in {{many fields}}, and can be used for {{compressing, summarizing, or understanding}} data. <!--SR:!2024-07-09,68,310!2024-05-08,15,250-->
+Clustering are used in {{many fields}}, and can be used for {{compressing, summarizing, or understanding}} data. <!--SR:!2024-07-09,68,310!2024-06-12,35,250-->
 
 ## references
 

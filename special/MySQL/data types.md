@@ -40,6 +40,6 @@ tags:
     - `VARCHAR` ::: Up to 2<sup>16</sup> - 1 bytes of string. Shared among columns in a row. <!--SR:!2025-03-27,428,330!2025-04-18,432,330-->
   - `TINYTEXT`, `TEXT`, `MEDIUMTEXT`, `LONGTEXT` ::: Unindexed prefix-indexable long strings. <!--SR:!2024-10-08,271,310!2024-10-26,286,310-->
     - `TINYTEXT` ::: Up to 2<sup>8</sup> - 1 bytes of string. <!--SR:!2024-09-07,192,310!2025-03-23,424,330-->
-    - `TEXT` ::: Up to 2<sup>16</sup> - 1 bytes of string. <!--SR:!2024-05-07,116,290!2025-04-25,437,330-->
+    - `TEXT` ::: Up to 2<sup>16</sup> - 1 bytes of string. <!--SR:!2025-04-09,335,290!2025-04-25,437,330-->
     - `MEDIUMTEXT` ::: Up to 2<sup>24</sup> - 1 bytes of string. <!--SR:!2025-02-22,401,330!2024-12-08,341,330-->
     - `LONGTEXT` ::: Up to 2<sup>32</sup> - 1 bytes of string. <!--SR:!2024-06-14,182,290!2024-09-24,161,290-->

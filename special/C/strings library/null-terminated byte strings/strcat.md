@@ -11,7 +11,7 @@ tags:
 
 # `strcat`
 
-- _defined in {{[`<string.h>`](../../../../general/C%20string%20handling.md)}}_ <!--SR:!2024-05-05,184,310-->
+- _defined in {{[`<string.h>`](../../../../general/C%20string%20handling.md)}}_ <!--SR:!2026-07-02,787,330-->
 
 ```C
 // (1)
@@ -23,6 +23,6 @@ errno_t strcat_s(char *restrict dest, rsize_t destsz, const char *restrict src);
 
 > [!tip] tips
 >
-> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2026-04-24,732,330!2024-05-09,188,310-->
+> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2026-04-24,732,330!2026-07-24,806,330-->
 > - `destsz` ::: includes [null terminator](null-terminated%20string) <!--SR:!2024-12-21,302,348!2024-06-25,83,341-->
 > - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2024-11-05,266,348!2024-06-24,82,341-->

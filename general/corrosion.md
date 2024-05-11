@@ -8,7 +8,7 @@ tags:
 
 # corrosion
 
-__Corrosion__ is {{a type of [erosion](erosion.md) that deteriorates [materials](material.md) by [chemical reaction](chemical%20reaction.md) with their environment}}. <!--SR:!2024-05-05,150,170-->
+__Corrosion__ is {{a type of [erosion](erosion.md) that deteriorates [materials](material.md) by [chemical reaction](chemical%20reaction.md) with their environment}}. <!--SR:!2025-05-11,370,190-->
 
 It most commonly refers to {{the [electrochemical](electrochemistry.md) [oxidation](oxidation.md) of [metal](metal.md) by an [oxidizing agent](oxidizing%20agent.md) like [oxygen](oxygen.md), [hydrogen](hydrogen.md), or [hydroxide](hydroxide.md)}}. {{[Rusting](rust.md)}} is an well-known example of this. <!--SR:!2025-05-15,467,250!2027-05-29,1187,350-->
 

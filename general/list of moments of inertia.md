@@ -36,7 +36,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 
 ### cylindrical shell, axis through base center
 
-- definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2024-05-05,38,307!2024-05-15,45,327-->
+- definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2024-09-01,118,307!2024-05-15,45,327-->
 - equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310!2024-05-20,50,318-->
   - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2024-09-05,252,330!2024-05-30,59,318-->
   - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2024-05-11,159,310!2024-05-19,49,318-->
@@ -53,9 +53,9 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 ### rod, axis through certain distance from one end
 
 - definition ::: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end <!--SR:!2024-05-31,58,327!2024-06-15,75,347-->
-- equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2024-08-18,167,250!2024-05-05,41,298-->
+- equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2024-08-18,167,250!2024-09-04,121,298-->
   - thin rod correction ::: use the same equation and set $R = 0$ <!--SR:!2024-10-23,291,330!2024-06-03,67,338-->
-  - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2025-04-21,406,310!2024-05-06,42,298-->
+  - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2025-04-21,406,310!2024-10-26,173,318-->
   - slender rod, axis through one end ::: $\frac13mL^2$ <!--SR:!2025-04-17,367,290!2024-05-17,47,318-->
 - proof: $$\begin{aligned}
 m&=\rho\pi{}R^2L\\
@@ -92,7 +92,7 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 
 - definition ::: a homogeneous [spherical](sphere.md) shell of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center <!--SR:!2024-05-26,56,327!2024-06-27,85,347-->
 - equation ::: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$ <!--SR:!2024-05-16,112,250!2024-05-23,53,318-->
-  - solid sphere ::: $I=\frac25mR_O^2$ <!--SR:!2024-07-01,185,310!2024-05-08,44,298-->
+  - solid sphere ::: $I=\frac25mR_O^2$ <!--SR:!2024-07-01,185,310!2024-09-15,130,298-->
   - thin-walled hollow sphere ::: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$ <!--SR:!2025-01-28,306,290!2024-08-02,97,298-->
 - proof: $$\begin{aligned}
 m&=\frac43\rho\pi\left(R_O^3-R_I^3\right)\\

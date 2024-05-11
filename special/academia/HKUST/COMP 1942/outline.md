@@ -23,10 +23,10 @@ The content is in teaching order.
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2024-07-14,89,250!2025-01-13,260,330-->
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-08-25,132,290!2024-11-21,218,330-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
-- classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2024-05-05,67,310-->
+- classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2025-02-16,286,330-->
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-09-17,154,310-->
 - dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2024-07-29,115,290!2024-11-16,199,310-->
-- web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2025-02-05,278,330!2024-05-07,69,310-->
+- web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2025-02-05,278,330!2025-02-28,295,330-->
 - [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2025-01-23,269,330!2025-01-13,261,330-->
 
 ## week 2 lecture 1
@@ -127,7 +127,7 @@ The content is in teaching order.
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
-  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-06-04,35,320!2024-05-09,20,340-->
+  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-06-04,35,320!2024-07-17,69,340-->
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
@@ -145,7 +145,7 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-06-11,42,320!2024-05-08,19,340-->
+  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-06-11,42,320!2024-07-12,64,340-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)
