@@ -10,7 +10,7 @@ tags:
 
 ## why
 
-Business {{may not be able to satisfy all of their customers}}. There are few products that {{appeal to everyone}}. Segmentation allows {{the customer needs and wants to be similar enough for our product to target}}.
+Business {{may not be able to satisfy all of their customers}}. There are few products that {{appeal to everyone}}. Segmentation allows {{the customer needs and wants to be similar enough for our product to target}}. <!--SR:!2024-05-15,4,285!2024-05-15,4,285!2024-05-15,4,285-->
 
 ## how
 
@@ -42,7 +42,7 @@ Product-specific segmentation divides the market by {{product or service-specifi
 
 ## benefits
 
-By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-06-01,42,290!2024-05-20,9,265!2000-01-01,1,250-->
+By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-06-01,42,290!2024-05-20,9,265!2024-05-15,4,285-->
 
 ## strategy
 
