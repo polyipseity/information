@@ -19,7 +19,7 @@ tags:
 
 #### continuity at a point
 
-There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of $f$}}.
+There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}.
 
 > [!tip] tips
 >
@@ -70,7 +70,7 @@ A function is _discontinuous_ at a point {{if the point is in the [topological c
 
 #### definition in terms of limits of functions
 
-A function $f$ is _continuous_ at a point $c$ {{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of $f$}}.
+A function $f$ is _continuous_ at a point $c$ {{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}.
 
 Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}}. The part about [isolated point](isolated%20point.md) is needed because {{[limit](limit%20of%20A%20function.md) is not defined for isolated points}}.
 
