@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html lang=en style><!--
  Page saved with SingleFile 
  url: https://course.cse.ust.hk/comp2012/assignments/assignment3/ 
- saved date: Sat Apr 20 2024 23:34:18 GMT+0800 (香港標準時間)
+ saved date: Sun May 12 2024 19:36:22 GMT+0800 (香港標準時間)
 --><meta charset=utf-8>
 <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name=description content>
@@ -272,7 +272,7 @@
  for the animal above.
 </li>
 </ul>
-<h5>Structure: AnimalLLnode (Doubly Linked List Node)</h5>
+<h5>Structure: AnimalLLnode (Linked List Node)</h5>
 <pre class="shadow-sm rounded language-cpp"><code class=language-cpp><span class="token keyword">struct</span> <span class="token class-name">AnimalLLnode</span> <span class="token punctuation">{</span>
     <span class="token keyword">const</span> Animal<span class="token operator">*</span> animal<span class="token punctuation">;</span>
     AnimalLLnode<span class="token operator">*</span> next<span class="token punctuation">;</span>
@@ -644,6 +644,7 @@ For criterias other than ID, the function utilizes the BSTs to efficiently trave
  <li><code>HEALTH</code>: Sort by <em>health condition severity</em>, in <b>increasing order</b>.</li>
  <li><code>VACCINE</code>: Sort by <em>vaccine status <u>total hash value</u></em>, in <b>increasing order</b>.</li>
  </ul>
+ <span style=color:red>Note: You can assume the age, health severity and vaccine hash values will not cause integer overflow.</span>
  <p></p>
  <p>
  <h5>Task 4.2:</h5>
@@ -1473,6 +1474,7 @@ Select your choice:
  <div class="card mb-4"> 
  <div class=card-body id=changelog>
  <h3 class=card-title>Changelog</h3> 
+ <p><b>3/5/2024 4:15PM:</b> Added clarification that the numerical values will not cause integer overflow.</p>
  </div>
  <div class="card-footer text-muted">
  End of Changelog
@@ -1568,7 +1570,7 @@ Select your choice:
  <li>
  Email: <a href=mailto:usman@ust.hk>usman@ust.hk</a>
  </li>
- <li>Last Modified: 04/20/2024 16:35:16</li>
+ <li>Last Modified: 05/03/2024 16:16:09</li>
  </ul>
  </div> 
  </div>
