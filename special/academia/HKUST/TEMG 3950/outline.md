@@ -54,7 +54,7 @@ The content is in teaching order.
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
   - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market
-  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes.F
+  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes.
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
     - [§ importance](../../../../general/total%20addressable%20market.md#importance)
