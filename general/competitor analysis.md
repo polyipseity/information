@@ -23,12 +23,12 @@ This section {{outlines how one might do competitor analysis and present it to o
 
 ### competitor classification
 
-Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it):
+Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
 
-1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so
-2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so
-3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so
-4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so
+1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
+2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-05-15,4,274-->
 
@@ -36,10 +36,10 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 >
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
-> - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need
-> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need
-> - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need
-> - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need
+> - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+> - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
+> - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
 
 ### questions to ask
 
@@ -77,20 +77,20 @@ why: Why are people using competitors' products?
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2000-01-01,1,250!2024-05-15,4,274-->
-- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-05-14,3,254!2000-01-01,1,250-->
-- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs.
-- discover: Identify unmet needs.→:::←how: What is our strategy?
-- how: What is our strategy?→:::←pricing: Compare prices.
-- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough.
-- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products?
-- why: Why are people using competitors' products?→:::←_(end)_
+- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-05-14,1,241!2024-05-15,4,274-->
+- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-05-14,3,254!2024-05-16,3,261-->
+- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-05-14,1,241!2024-05-14,1,241-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-05-16,3,261!2024-05-16,3,261-->
+- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-05-14,1,241!2024-05-16,3,261-->
+- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-05-16,3,261!2024-05-14,1,241-->
+- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-05-17,4,281!2024-05-14,1,241-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - Early Google differentiates itself by {{offering some of their services for free}}.
+> - Early Google differentiates itself by {{offering some of their services for free}}. <!--SR:!2024-05-17,4,281-->
 
 ### benefits
 
@@ -124,22 +124,22 @@ pricing: Find suitable prices catering to different market segment and economies
 
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-03T13:49:10.525716+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers.
-- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products.
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky.
-- know ourselves: See if our products are sticky.→:::←know themselves: See how big of a threat competitors pose. <!--SR:!2000-01-01,1,250!2024-05-15,4,274-->
-- know themselves: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies.
-- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_
+- _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
+- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-05-14,1,241!2024-05-16,3,261-->
+- know ourselves: See if our products are sticky.→:::←know themselves: See how big of a threat competitors pose. <!--SR:!2024-05-17,4,281!2024-05-15,4,274-->
+- know themselves: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-05-16,3,261!2024-05-14,1,241-->
+- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-05-17,4,281!2024-05-16,3,261-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - In Africa, phones are {{sold for very cheap}}.
+> - In Africa, phones are {{sold for very cheap}}. <!--SR:!2024-05-17,4,281-->
 
 ### when to do
 
-Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2000-01-01,1,250!2024-05-14,3,254-->
+Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2024-05-17,4,281!2024-05-14,3,254-->
 
 ### comparison parameters
 
@@ -181,25 +181,25 @@ number of features
 
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←price
-- price→:::←benefit <!--SR:!2024-05-14,3,254!2000-01-01,1,250-->
-- benefit→:::←quality <!--SR:!2024-05-17,6,254!2000-01-01,1,250-->
-- quality→:::←durability
-- durability→:::←service
-- service→:::←convenience
-- convenience→:::←ease of use <!--SR:!2000-01-01,1,250!2024-05-15,4,274-->
-- ease of use→:::←number of features <!--SR:!2000-01-01,1,250!2024-05-14,3,254-->
-- number of features→:::←_(end)_ <!--SR:!2024-05-15,4,274!2000-01-01,1,250-->
+- _(begin)_→:::←price <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
+- price→:::←benefit <!--SR:!2024-05-14,3,254!2024-05-17,4,281-->
+- benefit→:::←quality <!--SR:!2024-05-17,6,254!2024-05-16,3,261-->
+- quality→:::←durability <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+- durability→:::←service <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
+- service→:::←convenience <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
+- convenience→:::←ease of use <!--SR:!2024-05-14,1,241!2024-05-15,4,274-->
+- ease of use→:::←number of features <!--SR:!2024-05-14,1,241!2024-05-14,3,254-->
+- number of features→:::←_(end)_ <!--SR:!2024-05-15,4,274!2024-05-17,4,281-->
 
 <!--/pytextgen-->
 
 ### visualization
 
-It is very important to {{add our own products to the visualization and make it obvious that product is our own}}.
+It is very important to {{add our own products to the visualization and make it obvious that product is our own}}. <!--SR:!2024-05-16,3,261-->
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2000-01-01,1,250!2024-05-15,4,274!2024-05-20,9,270-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-05-17,4,281!2024-05-15,4,274!2024-05-20,9,270-->
 
-When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}.
+When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2024-05-17,4,281!2024-05-17,4,281!2024-05-16,3,261-->
 
 ## references
 
