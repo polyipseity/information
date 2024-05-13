@@ -146,21 +146,214 @@ g(x) & = \exp 0 + \frac {\exp 0} {1!} x^1 + \frac {\exp 0} {2!} x^2 + O\left(x^4
 
 ## Q5
 
+In Examples 9.31 and 9.32, we have seen that in some cases, Lagrange's remainder formula is not strong enough to show that $\lim_{n \to +\infty} R_n(x) = 0$. Let's develop another remainder formula.
+
 ### Q5.a
+
+Let $a$ be real number and let $x > a$, let $n$ be a non-negative integer and let $f$ be a function such that $f^{(n)}$ is continuous on $[a, x]$ and differentiable on $(a, x)$.
 
 #### Q5.a.i
 
+Let $g: [a, x] \to \mathbb{R}$ be the function $$g(t) = f(x) - \sum_{k = 0}^n \frac {f^{(k)}(t)} {k!} (x - t)^k$$.
+
+Compute $g'(t)$ for $t \in (a, x)$
+
+---
+
+$$\begin{aligned}
+& \phantom = g(t) \\
+& = f(x) - \sum_{k = 0}^n \frac {f^{(k)}(t)} {k!} (x - t)^k \\
+& = f(x) - f(t) - \sum_{k = 1}^n \frac {f^{(k)}(t)} {k!} (x - t)^k \\
+& \phantom = g'(t) \\
+& = -f'(t) -\sum_{k = 1}^n \frac 1 {k!} \left( f^{(k + 1)}(t) (x - t)^k - k f^{(k)}(t) (x - t)^{k - 1} \right) \\
+& = -f'(t) -\sum_{k = 1}^n \frac {f^{(k + 1)}(t)} {k!} (x - t)^k + \sum_{k = 1}^n \frac {f^{(k)}(t)} {(k - 1)!} (x - t)^{(k - 1)} \\
+& = -f'(t) - \sum_{k = 1}^n \frac {f^{(k + 1)}(t)} {k!} (x - t)^k + \sum_{k = 0}^{n - 1} \frac {f^{(k + 1)}(t)} {k!} (x - t)^k \\
+& = -f'(t) - \frac {f^{(n + 1)}(t)} {n!} (x - t)^n + f'(t) \\
+& = -\frac {f^{(n + 1)}(t)} {n!} (x - t)^n
+\end{aligned}$$
+
 #### Q5.a.ii
+
+__(Cauchy's remainder formula)__ By applying Mean Value Theorem to the function $g$, show that there exists a  number $c \in (a, x)$ such that $$f(x) = \sum_{k = 0}^n \frac {f^{(k)}(a)} {k!} (x - a)^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n (x - a)$$.
+
+_Remark_: If we assume further that $f^{(n + 1)}$ is integrable on $[a, x]$, then another way of obtaining [(a) (ii)](#Q5.a.ii) is to use [Q4(a)](#Q4.a) and then the MVT for integrals.
+
+---
+
+$$\begin{aligned}\
+& f^{(n)}(t)\text{ is continuous on }[a, x]\text{.} \\
+& \implies f^{(k)}(t)\text{ is continuous on }[a, x]\text{ for all }k \in \mathbb{Z}_{[0, n]}\text{.} \\
+& g(t)\text{ is continuous on }[a, x]\text{.} \\
+\\
+& \text{Additionally, }f^{(n + 1)}(t)\text{ exists on }(a, x)\text{.} \\
+& g(t)\text{ is differentiable on }(a, x)\text{.} \\
+\\
+& \text{By the mean value theorem,} \\
+& \exists c \in (a, x) \\
+g'(c) & = \frac {g(x) - g(a)} {x - a} \\
+-\frac {f^{(n + 1)}(c)} {n!} (x - c)^n & = \frac {f(x) - \sum_{k = 0}^n \frac {f^{(k)}(x)} {k!} (x - x)^k - f(x) + \sum_{k = 0}^n \frac {f^{(k)}(a)} {k!} (x - a)^k} {x - a} \\
+& = \frac {-f(x) + \sum_{k = 0}^n \frac {f^{(k)}(a)} {k!} (x - a)^k} {x - a} && \left(0^0 = 1\text{ in this context} \right) \\
+-\frac {f^{(n + 1)}(c)} {n!} (x - c)^n (x - a) & = -f(x) + \sum_{k = 0}^n \frac {f^{(k)}(a)} {k!} (x - a)^k \\
+f(x) & = \sum_{k = 0}^n \frac {f^{(k)}(a)} {k!} (x - a)^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n (x - a)
+\end{aligned}$$
 
 ### Q5.b
 
+Using the result from [(a) (ii)](#Q5.a.ii) (which obviously still holds if $x < a$), show that for each of the following functions, the remainder term at $0$ satisfies $$\lim_{n \to +\infty} R_n(x) = 0 \qquad \text{for each fixed }x \in (-1, 1)$$.
+
 #### Q5.b.i
+
+__(Example 9.31)__ $$f(x) = \ln(1 + x)$$
+
+---
+
+$$\begin{aligned}
+f(x) & \in C^\infty((-1, 1], \mathbb{R}) \\
+& \text{By Q5.a.ii...} \\
+& \text{Set }a = 0\text{.} \\
+& (\forall x \in (0, 1])(\exists c \in (0, x)) \\
+f(x) & = \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} (x - 0)^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n (x - 0) \\
+& = \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n x \\
+& (\forall x \in (-1, 0))(\exists c \in (x, 0)) \\
+f(x) & = \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n x \\
+\\
+& \phantom = \lim_{n \to +\infty} R_n(x) \\
+& = \lim_{n \to +\infty} \left( f(x) - \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k \right) \\
+\\
+& \text{When }x = 0\text{,} \\
+& \phantom = \lim_{n \to +\infty} R_n(0) \\
+& = \lim_{n \to +\infty} \left( f(0) - \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} 0^k \right) \\
+& = \lim_{n \to +\infty} (f(0) - f(0)) && \left(0^0 = 1\text{ in this context}\right) \\
+& = \lim_{n \to +\infty} 0 \\
+& = 0 \\
+\\
+& \text{When }x \in (-1, 1) \setminus \set{0}\text{,} \\
+& \exists c\text{ in between }0\text{ and }x \\
+& \phantom = \lim_{n \to +\infty} R_n(x) \\
+& = \lim_{n \to +\infty} \left( f(x) - \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k \right) \\
+& = \lim_{n \to +\infty} \left(\sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n x - \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k \right) && (n\text{ in the above formula is arbitrary}) \\
+& = \lim_{n \to +\infty} \frac {f^{(n + 1)}(c)} {n!} (x - c)^n x \\
+& = \lim_{n \to +\infty} \frac {n! (-1)^{n + 1} (1 + c)^{-(n + 1)}} {n!} (x - c)^n x \\
+& = \lim_{n \to +\infty} (-1)^{n + 1} \left(\frac {x - c} {1 + c} \right)^n \frac x {1 + x} \\
+& = \frac x {1 + x} \lim_{n \to +\infty} (-1)^{n + 1} \left(\frac {x - c} {1 + c} \right)^n \\
+\\
+& \text{When }x \in (0, 1)\text{, }c \in (0, x)\text{, and} \\
+& \phantom = \left\lvert \frac {x - c} {1 + c} \right\rvert \\
+& = \frac {x - c} {1 + c} && (x > c, c > 0) \\
+& < \frac {1 - c} {1 + c} && (x < 1, c > 0) \\
+& < 1 && (c < x < 1) \\
+& \text{When }x \in (-1, 0)\text{, }c \in (x, 0)\text{ and} \\
+& \phantom = \left\lvert \frac {x - c} {1 + c} \right\rvert \\
+& = \frac {c - x} {1 + c} && (x < c, c > x > -1) \\
+& < \frac {c + 1} {1 + c} && (-x < 1, c > x > -1) \\
+& = 1 \\
+\\
+& \text{Therefore...} \\
+& \text{When }x \in (0, 1)\text{, }c \in (0, x)\text{, and} \\
+& \phantom = \lim_{n \to +\infty} R_n(x) \\
+& = \frac x {1 + x} \lim_{n \to +\infty} (-1)^{n + 1} \left(\frac {x - c} {1 + c} \right)^n \\
+& = \frac x {1 + x} \cdot 0 && \left(\left\lvert \frac {x - c} {1 + c} \right\rvert < 1 \right) \\
+& = 0 \\
+\\
+& \forall x \in (-1, 1) \\
+& \phantom = \lim_{n \to +\infty} R_n(x) \\
+& = 0
+\end{aligned}$$
 
 ## Q7
 
+For each of the following, compute its Maclaurin series and find its radius of convergence.
+
 ### Q7.b
 
+$$f(x) = \int_0^x \! \frac {\sin t} t \,\mathrm{d}t$$
+
+---
+
+$$\begin{aligned}
+& \phantom = f'(x) \\
+& = \frac {\sin x} x \\
+\\
+& \phantom = \sin x \\
+& = \sum_{k = 0}^{+\infty} \left(\frac {\sin 0} {(4k)!} x^{4k} + \frac {\cos 0} {(4k + 1)!} x^{4k + 1} + \frac {-\sin 0} {(4k + 2)!} x^{4k + 2} + \frac {-\cos 0} {(4k + 3)!} x^{4k + 3} \right) \\
+& = \sum_{k = 0}^{+\infty} \left(\frac {x^{4k + 1} } {(4k + 1)!} - \frac {x^{4k + 3} } {(4k + 3)!} \right) \\
+& = \sum_{k = 0}^{+\infty} (-1)^{k} \frac {x^{2k + 1} } {(2k + 1)!} \\
+\\
+& \phantom = f'(x) \\
+& = \frac {\sin x} x \\
+& = \sum_{k = 0}^{+\infty} (-1)^{k} \frac {x^{2k} } {(2k + 1)!} \\
+\\
+& \phantom = f(x) \\
+& = \int_0^x \! f'(x) \,\mathrm{d}x \\
+& = \int_0^x \! \left( \sum_{k = 0}^{+\infty} (-1)^k \frac {x^{2k} } {(2k + 1)!} \right) \,\mathrm{d}x \\
+& = \sum_{k = 0}^{+\infty} \frac {(-1)^k} {(2k + 1)!} \int_0^x \! x^{2k} \,\mathrm{d}x && (\text{Maclaurin series can be integrated term-wise}) \\
+& = \sum_{k = 0}^{+\infty} \frac {(-1)^k} {(2k + 1)!(2k + 1)} x^{2k + 1} \\
+\\
+& \phantom = f(x) \\
+& = x \sum_{k = 0}^{+\infty} \frac {(-1)^k} {(2k + 1)!(2k + 1)} \left(x^2\right)^k \\
+& \text{The center of the power series is }x^2 = 0\text{.} \\
+& \text{The coefficients are }c_k = \frac {(-1)^k} {(2k + 1)!(2k + 1)}\text{.} \\
+\\
+& \phantom = \text{radius of convergence of the power series} \\
+& = \lim_{k \to +\infty} \left\lvert \frac {\frac {(-1)^k} {(2k + 1)!(2k + 1)} } {\frac {(-1)^{k + 1} } {(2k + 3)!(2k + 3)} } \right\rvert \\
+& = \lim_{k \to +\infty} \left\lvert \frac {(2k + 3)!(2k + 3)} {(2k + 1)!(2k + 1)} \right\rvert \\
+& = \lim_{k \to +\infty} \left\lvert \frac {(2k + 2)(2k + 3)^2} {2k + 1} \right\vert \\
+& = +\infty \\
+\\
+& \phantom = \text{radius of convergence of the Maclurin series of }f(x) \\
+& = \sqrt{+\infty} \\
+& = +\infty
+\end{aligned}$$
+
 ### Q7.d
+
+$$f(x) = \ln \left(x + \sqrt{1 + x^2} \right)$$
+
+_Hint_: In [(d)](#Q7.d), first consider $f'$.
+
+---
+
+$$\begin{aligned}
+& \phantom = f'(x) \\
+& = \frac {1 + \frac x {\sqrt{1 + x^2} } } {x + \sqrt{1 + x^2} } \\
+& = \frac {\frac {x + \sqrt{1 + x^2} } {\sqrt{1 + x^2} } } {x + \sqrt{1 + x^2} } \\
+& = \frac 1 {\sqrt{1 + x^2} } \\
+\\
+& \phantom = g(x) \\
+& := \frac 1 {\sqrt{1 + x} } \\
+& \phantom = \text{Macluarin series of }g(x) \\
+& = \sum_{k = 0}^{+\infty} \frac {g^{(k)}(0)} {k!} x^k \\
+& = \sum_{k = 0}^{+\infty} \frac {(-1)^k \left( \prod_{i = 0}^{k - 1} \frac {2i + 1} 2 \right) (1 + 0)^{-\frac {2k + 1} 2} } {k!} x^k \\
+& = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } x^k \\
+\\
+& \phantom = f'(x) \\
+& = \frac 1 {\sqrt{1 + x^2} } \\
+& = g(x^2) \\
+& \phantom = \text{Macluarin series of }f'(x) \\
+& = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } x^{2k} \\
+\\
+& \phantom = f(x) \\
+& = \int \! f'(x) \,\mathrm{d}x \\
+& \phantom = \text{Macluarin series of }f(x) \\
+& = \int \! \left( \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } x^{2k} \right) \,\mathrm{d}x \\
+& = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } \int \! x^{2k} \,\mathrm{d}x && (\text{Macluarin series can be integrated term-wise}) \\
+& = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)} x^{2k + 1} \\
+\\
+& \phantom = \text{Macluarin series of }f(x) \\
+& = x \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)} \left(x^2\right)^k \\
+& \text{The center of the power series is }x^2 = 0\text{.} \\
+& \text{The coefficients are }c_k = (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)}\text{.} \\
+\\
+& \text{radius of convergence of the power series} \\
+& = \lim_{k \to +\infty} \left\lvert \frac {(-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)} } {(-1)^{k + 1} \frac {\prod_{i = 0}^k (2i + 1)} {(k + 1)! 2^{k + 1} (2k + 3)} } \right\rvert \\
+& = \lim_{k \to +\infty} \left\lvert \frac {2 (k + 1) (2k + 3)} {(2k + 1)^2} \right\rvert \\
+& = \lim_{k \to +\infty} \left\lvert \frac {\left(1 + \frac 1 k \right) \left(1 + \frac 3 {2k} \right)} {(1 + \frac 1 {2k} )^2} \right\rvert \\
+& = 1 \\
+\\
+& \text{radius of convergence of the Macluarin series of }f(x) \\
+& = \sqrt 1 \\
+& = 1
+\end{aligned}$$
 
 ## Q9
 
