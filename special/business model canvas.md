@@ -72,7 +72,7 @@ C$: [cost structure](#cost%20structure)
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-06-25,50,294!2024-05-18,24,277-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-07-07,62,314!2024-06-27,56,314-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-05-25,26,272-->
-- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-05-13,18,257!2024-06-17,39,257-->
+- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-06-17,39,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-05-17,20,257!2024-05-23,28,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-05-18,21,257!2024-05-18,16,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-07,37,277!2024-05-25,27,254-->
@@ -121,9 +121,9 @@ segmented: splitting slightly different customer segments
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-06-10,32,257!2024-07-14,69,317-->
-- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-05-12,15,237!2024-06-17,39,254-->
+- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-05-17,20,254!2024-05-26,29,277-->
-- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-05-13,18,257!2024-05-16,19,254-->
+- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-05-16,19,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-05-14,17,254!2024-05-15,18,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-05-14,19,254!2024-05-17,14,234-->
 
@@ -183,7 +183,7 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-05-17,20,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-25,14,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-05-14,17,254!2024-06-22,42,257-->
-- cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-12,11,157-->
+- cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-31,18,157-->
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
 - newness→:::←performance <!--SR:!2024-05-16,22,277!2024-06-19,39,257-->
@@ -238,7 +238,7 @@ personal assistance
 
 - _(begin)_→:::←automated services <!--SR:!2024-05-29,29,274!2024-06-13,44,290-->
 - automated services→:::←co-creation <!--SR:!2024-05-18,21,254!2024-05-15,18,254-->
-- co-creation→:::←communities <!--SR:!2024-05-13,18,254!2024-06-02,35,274-->
+- co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-06-02,35,274-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-05-24,27,277!2024-06-03,36,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2024-07-03,61,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-07-08,63,317!2024-07-15,70,317-->
@@ -294,7 +294,7 @@ subscription fee
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-05-17,20,254-->
 - licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-05-14,19,254!2024-05-18,21,257-->
-- subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-05-13,16,257-->
+- subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-06-19,37,257-->
 
 <!--/pytextgen-->
 
@@ -308,7 +308,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-05-12,17,254!2024-05-31,27,237!2024-06-08,30,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-06-24,42,254!2024-05-31,27,237!2024-06-08,30,237-->
 
 #### cost structure
 

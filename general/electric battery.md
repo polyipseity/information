@@ -136,7 +136,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::[Zn](zinc.md) <!--SR:!2024-05-21,47,303-->
 - [silver oxide](silver%20oxide%20battery.md)::[Zn](zinc.md) <!--SR:!2024-09-26,141,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md) <!--SR:!2024-05-12,47,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md) <!--SR:!2024-12-10,211,343-->
 
 <!--/pytextgen-->
 
@@ -146,7 +146,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::[MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-06-19,63,283-->
 - [silver oxide](silver%20oxide%20battery.md)::[Ag<sub>2</sub>O](silver%20oxide.md) <!--SR:!2024-08-09,104,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-05-12,48,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-10-15,155,323-->
 
 <!--/pytextgen-->
 
@@ -176,7 +176,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2024-06-18,69,303-->
 - [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range <!--SR:!2024-05-19,52,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2024-05-12,47,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2024-10-10,150,323-->
 
 <!--/pytextgen-->
 
@@ -235,7 +235,7 @@ return chain.from_iterable(await gather(
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::[Ni(OH)<sub>2</sub>](nickel(II)%20hydroxide.md) <!--SR:!2024-08-15,101,283-->
 - [lead–acid](lead–acid%20battery.md)::[PbO<sub>2</sub>](lead%20dioxide.md) <!--SR:!2024-05-22,47,303-->
-- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) metal [oxide](oxide.md) <!--SR:!2024-05-12,14,263-->
+- [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) metal [oxide](oxide.md) <!--SR:!2024-06-23,41,263-->
 
 <!--/pytextgen-->
 
@@ -255,7 +255,7 @@ return chain.from_iterable(await gather(
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-07-29,81,263-->
 - [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2024-07-01,91,363-->
-- [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-05-12,15,283-->
+- [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-07-10,58,303-->
 
 <!--/pytextgen-->
 

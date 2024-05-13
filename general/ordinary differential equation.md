@@ -60,7 +60,7 @@ Ordinary differential equations are furthered classified:
 
 - _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2024-05-30,173,310!2024-09-20,268,330-->
 - [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2024-05-25,170,310!2024-10-21,293,330-->
-- [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2024-09-21,269,330!2024-05-13,160,310-->
+- [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2024-09-21,269,330!2024-07-31,79,290-->
 - [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2024-07-17,225,330!2024-07-30,210,310-->
 - [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2024-09-16,265,330!2024-09-04,255,330-->
 - [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2024-05-26,170,310!2024-05-17,163,310-->

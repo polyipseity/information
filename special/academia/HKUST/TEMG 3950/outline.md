@@ -64,7 +64,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-05-15,4,295!2024-05-15,4,295-->
   - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-05-15,4,295!2024-05-15,4,295-->
-- visualization ::: Visualization is important to bring your point across. <!--SR:!2024-05-13,4,287!2024-05-15,4,295-->
+- visualization ::: Visualization is important to bring your point across. <!--SR:!2024-05-31,18,307!2024-05-15,4,295-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/)
 
@@ -126,7 +126,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-05-12,1,255!2024-05-15,4,295-->
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-05-16,3,255!2024-05-15,4,295-->
 - [assignment W7](assignment%20W7/)
 
 ## week 8 lecture

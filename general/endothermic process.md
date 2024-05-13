@@ -47,7 +47,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md) <!--SR:!2024-11-26,410,290!2024-06-12,341,330-->
 - [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)→:::←[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md) <!--SR:!2024-10-07,393,290!2025-12-15,678,310-->
-- [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→:::←_(end)_ <!--SR:!2024-05-12,315,330!2024-05-13,316,330-->
+- [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→:::←_(end)_ <!--SR:!2027-03-18,1039,330!2027-03-21,1042,330-->
 
 <!--/pytextgen-->
 
