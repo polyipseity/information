@@ -41,7 +41,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need
 > - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need
 
-### questions to ask
+### considerations
 
 %%
 
@@ -104,7 +104,7 @@ return await memorize_seq(
 differentiate: Differentiate our products to make it a hit with customers.
 discover: Find holes in existing products.
 know ourselves: See if our products are sticky.
-know themselves: See how big of a threat competitors pose.
+know them: See how big of a threat competitors pose.
 pricing: Find suitable prices catering to different market segment and economies.
 """.strip().splitlines(),
 )
@@ -112,30 +112,30 @@ pricing: Find suitable prices catering to different market segment and economies
 
 %%
 
-<!--pytextgen generate section="48ba"--><!-- The following content is generated at 2024-05-03T13:49:10.545497+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="48ba"--><!-- The following content is generated at 2024-05-14T00:47:53.324260+08:00. Any edits will be overridden! -->
 
 > 1. differentiate: Differentiate our products to make it a hit with customers.
 > 2. discover: Find holes in existing products.
 > 3. know ourselves: See if our products are sticky.
-> 4. know themselves: See how big of a threat competitors pose.
+> 4. know them: See how big of a threat competitors pose.
 > 5. pricing: Find suitable prices catering to different market segment and economies.
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-03T13:49:10.525716+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers.
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products.
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky.
-- know ourselves: See if our products are sticky.→:::←know themselves: See how big of a threat competitors pose.
-- know themselves: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies.
+- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose.
+- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies.
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - In Africa, phones are {{sold for very cheap}}.
+> - In Africa, phones are {{sold for very cheap because of Africa's less developed economies}}.
 
 ### when to do
 
@@ -195,7 +195,7 @@ number of features
 
 ### visualization
 
-It is very important to {{add our own products to the visualization and make it obvious that product is our own}}.
+It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}.
 
 If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible.
 
