@@ -57,7 +57,7 @@ return await memorize_seq(
 - Light a wooden splint.→:::←Blow out the flame. <!--SR:!2026-12-24,975,330!2028-01-04,1350,350-->
 - Blow out the flame.→:::←Introduce the [ember](ember.md) into the gas sample trapped in a container. <!--SR:!2025-08-22,596,270!2026-02-01,724,310-->
 - Introduce the [ember](ember.md) into the gas sample trapped in a container.→:::←Positive: The ember flares and reignites. <!--SR:!2024-09-29,399,310!2024-07-04,328,290-->
-- Positive: The ember flares and reignites.→:::←_(end)_ <!--SR:!2024-05-12,310,330!2026-01-11,771,330-->
+- Positive: The ember flares and reignites.→:::←_(end)_ <!--SR:!2028-03-23,1410,350!2026-01-11,771,330-->
 
 <!--/pytextgen-->
 

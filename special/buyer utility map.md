@@ -61,8 +61,8 @@ disposal
 - delivery→:::←use <!--SR:!2024-05-14,17,290!2024-07-03,53,290-->
 - use→:::←supplements <!--SR:!2024-05-30,24,279!2024-05-14,17,299-->
 - supplements→:::←maintenance <!--SR:!2024-06-22,42,290!2024-06-14,34,279-->
-- maintenance→:::←disposal <!--SR:!2024-05-12,15,290!2024-05-13,16,299-->
-- disposal→:::←_(end)_ <!--SR:!2024-05-13,16,299!2024-05-13,16,299-->
+- maintenance→:::←disposal <!--SR:!2024-07-14,62,310!2024-07-21,69,319-->
+- disposal→:::←_(end)_ <!--SR:!2024-07-17,65,319!2024-07-20,68,319-->
 
 <!--/pytextgen-->
 
@@ -107,7 +107,7 @@ simplicity: remove complexity or hassle
 - environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-05-26,20,259!2024-05-14,8,239-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-05-21,10,239!2024-05-24,18,259-->
 - productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-05-29,18,250!2024-05-17,13,259-->
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-05-13,4,210!2024-05-26,20,259-->
+- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-05-21,8,210!2024-05-26,20,259-->
 - simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-07-03,53,310!2024-06-16,38,299-->
 
 <!--/pytextgen-->
