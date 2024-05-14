@@ -384,7 +384,7 @@ $$\begin{aligned}
 & \phantom = \text{Macluarin series of }f(x) \\
 & = \sum_{k = 0}^{+\infty} \frac {f^{(n)}(0)} {n!} x^n \\
 \\
-& \text{Since Taylor (Macluarin) series is unique for a function,} \\
+& \text{Since Taylor (Macluarin) series is unique for a }C^\infty\text{ function,} \\
 & \text{by comparing coefficients:} \\
 & \text{When }0 \le n < 3\text{,} \\
 & \begin{aligned} \frac {f^{(n)}(0)} {n!} & = 0 \\
@@ -422,7 +422,7 @@ $$\begin{aligned}
 & \phantom = \text{Taylor series of }f(x)\text{ at }1 \\
 & = \sum_{k = 0}^{+\infty} \frac {f^{(n)}(1)} {n!} (x - 1)^n \\
 \\
-& \text{Since Taylor series is unique for a function,} \\
+& \text{Since Taylor series is unique for a }C^\infty\text{ function,} \\
 & \text{by comparing coefficients:} \\
 & \begin{aligned} \frac {f^{(n)}(1)} {n!} & = \begin{cases} \frac e {n!}, & n = 0 \\
 \frac e {n!} + \frac {3e} {(n - 1)!}, & n = 1 \\
