@@ -1,0 +1,31 @@
+{
+  "author": "polyipseity",
+  "bugs": {
+    "url": "https://github.com/polyipseity/information/issues"
+  },
+  "description": "",
+  "homepage": "https://github.com/polyipseity/information#readme",
+  "keywords": [
+    "3633",
+    "COMP3633"
+  ],
+  "license": "MIT",
+  "main": "",
+  "name": "comp3633-2024-spring-presentation-10",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyipseity/information.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "express": "4.19.2",
+    "flat": "5.0.0",
+    "pug": "3.0.2"
+  }
+}
