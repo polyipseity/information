@@ -357,11 +357,162 @@ $$\begin{aligned}
 
 ## Q9
 
+Let $f(x) = x^3 e^x$. Using the Taylor series of $f$, compute...
+
+for every positive integer $n$. (Do not try to really differentiate for $n$ times!)
+
 ### Q9.a
+
+... $$f^{(n)}(0)$$ and
+
+---
+
+$$\begin{aligned}
+& \phantom = \exp x \\
+& \phantom = \text{Macluarin series of }\exp x \\
+& = \sum_{n = 0}^{+\infty} \frac {\exp 0} {n!} x^n \\
+& = \sum_{n = 0}^{+\infty} \frac {x^n} {n!} \\
+\\
+& \phantom = f(x) \\
+& = x^3 \exp x \\
+& \phantom = \text{Macluarin series of }f(x) \\
+& = x^3 \sum_{n = 0}^{+\infty} \frac {x^n} {n!} \\
+& = \sum_{n = 0}^{+\infty} \frac {x^{n + 3} } {n!} \\
+& = \sum_{n = 3}^{+\infty} \frac {x^n} {(n - 3)!} \\
+\\
+& \phantom = f(x) \\
+& \phantom = \text{Macluarin series of }f(x) \\
+& = \sum_{k = 0}^{+\infty} \frac {f^{(n)}(0)} {n!} x^n \\
+\\
+& \text{Since Taylor (Macluarin) series is unique for a function,} \\
+& \text{by comparing coefficients:} \\
+& \text{When }0 \le n < 3\text{,} \\
+& \begin{aligned} \frac {f^{(n)}(0)} {n!} & = 0 \\
+f^{(n)}(0) & = 0 \end{aligned} \\
+& \text{When }n \ge 3\text{,} \\
+& \begin{aligned} \frac {f^{(n)}(0)} {n!} & = \frac 1 {(n - 3)!} \\
+f^{(n)}(0) & = \frac {n!} {(n - 3)!} \\
+& = n (n - 1) (n - 2) \end{aligned}
+\end{aligned}$$
 
 ### Q9.b
 
+$$f^{(n)}(1)$$
+
+---
+
+$$\begin{aligned}
+& \phantom = \exp x \\
+& \phantom = \text{Taylor series of }\exp x\text{ at }1 \\
+& = \sum_{n = 0}^{+\infty} \frac {\exp 1} {n!} (x - 1)^n \\
+& = e \sum_{n = 0}^{+\infty} \frac {(x - 1)^n} {n!} \\
+\\
+& \phantom = f(x) \\
+& = x^3 \exp x \\
+& = \left(\left(x^3 - 3 x^2 + 3 x - 1\right) + 3x^2 - 3x + 1 \right) \exp x \\
+& = \left(\left(x^3 - 3 x^2 + 3 x - 1\right) + 3\left(x^2 - 2x + 1\right) + 3x - 2 \right) \exp x \\
+& = \left(\left(x^3 - 3 x^2 + 3 x - 1\right) + 3\left(x^2 - 2x + 1\right) + 3(x - 1) + 1 \right) \exp x \\
+& = \left((x - 1)^3 + 3 (x - 1)^2 + 3 (x - 1) + 1 \right) \exp x \\
+& \phantom = \text{Taylor series of }f(x)\text{ at }1 \\
+& = e \left((x - 1)^3 + 3 (x - 1)^2 + 3 (x - 1) + 1 \right) \sum_{n = 0}^{+\infty} \frac {(x - 1)^n} {n!} \\
+& = e \left( \sum_{n = 0}^{+\infty} \frac {(x - 1)^{n + 3} } {n!} + 3 \sum_{n = 0}^{+\infty} \frac {(x - 1)^{n + 2} } {n!} + 3 \sum_{n = 0}^{+\infty} \frac {(x - 1)^{n + 1} } {n!} + \sum_{n = 0}^{+\infty} \frac {(x - 1)^n} {n!} \right) \\
+& = e \left( \sum_{n = 3}^{+\infty} \frac {(x - 1)^n} {(n - 3)!} + 3 \sum_{n = 2}^{+\infty} \frac {(x - 1)^n} {(n - 2)!} + 3 \sum_{n = 1}^{+\infty} \frac {(x - 1)^n} {(n - 1)!} + \sum_{n = 0}^{+\infty} \frac {(x - 1)^n} {n!} \right) \\
+\\
+& \phantom = f(x) \\
+& \phantom = \text{Taylor series of }f(x)\text{ at }1 \\
+& = \sum_{k = 0}^{+\infty} \frac {f^{(n)}(1)} {n!} (x - 1)^n \\
+\\
+& \text{Since Taylor series is unique for a function,} \\
+& \text{by comparing coefficients:} \\
+& \begin{aligned} \frac {f^{(n)}(1)} {n!} & = \begin{cases} \frac e {n!}, & n = 0 \\
+\frac e {n!} + \frac {3e} {(n - 1)!}, & n = 1 \\
+\frac e {n!} + \frac {3e} {(n - 1)!} + \frac {3e} {(n - 2)!}, & n = 2 \\
+\frac e {n!} + \frac {3e} {(n - 1)!} + \frac {3e} {(n - 2)!} + \frac e {(n - 3)!}, & n \ge 3 \end{cases} \\
+f^{(n)}(1) & = \begin{cases} e, & n = 0 \\
+e + 3e n, & n = 1 \\
+e + 3e n + 3e n (n - 1), & n = 2 \\
+e + 3e n + 3e n (n - 1) + e n (n - 1)(n - 2), & n \ge 3 \end{cases} \\
+& = \begin{cases} e, & n = 0 \\
+4e, & n = 1 \\
+13e, & n = 2 \\
+e + 3e n + 3e n (n - 1) + e n (n - 1)(n - 2), & n \ge 3 \end{cases} \end{aligned}
+\end{aligned}$$
+
 ## Q11
+
+Let $a_0, a_1, \ldots, a_n, b_1, \ldots, b_n$ be real numbers and let $$f(x) = \frac {a_0} 2 + \sum_{k = 1}^n \left(a_k \cos kx + b_k \sin kx \right)$$ be a trigonometric polynomial. (Note that $f$ is a finite sum.) Show that $$\frac 1 \pi \int_{-\pi}^\pi \! f(x)^2 \,\mathrm{d}x = \frac {a_0^2} 2 + \sum_{k = 1}^n \left(a_k^2 + b_k^2 \right)$$.
+
+---
+
+$$\begin{aligned}
+& \text{Let }m, n\text{ be two integers.} \\
+\\
+& \phantom{=} \int_{-\pi}^\pi \! \cos mx \cos nx \,\mathrm{d}x \\
+& = \frac 1 2 \int_{-\pi}^\pi \! (\cos((m + n)x) + \cos((m - n)x)) \,\mathrm{d}x \\
+& = \begin{cases} \frac 1 2 \int_{-\pi}^\pi \! ( 1 + 1 ) \,\mathrm{d}x & m + n = 0, m - n = 0 \\
+\frac 1 2 \int_{-\pi}^\pi \! (1 + \cos ((m - n) x) ) \,\mathrm{d}x & m + n = 0 \\
+\frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m + n) x) + 1 ) \,\mathrm{d}x & m - n = 0 \\
+\frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m + n) x) + \cos ((m - n) x) ) \,\mathrm{d}x & \text{otherwise} \end{cases} \\
+& = \begin{cases} \frac 1 2 [2x]_{x = -\pi}^{x = \pi} & m + n = 0, m - n = 0 \\
+\frac 1 2 \left[x + \frac 1 {m - n} \sin((m - n)x) \right]_{x = -\pi}^{x = \pi} & m + n = 0 \\
+\frac 1 2 \left[\frac 1 {m + n} \sin((m + n)x) + x \right]_{x = -\pi}^{x = \pi} & m - n = 0 \\
+\frac 1 2 \left[\frac 1 {m + n} \sin((m + n)x) + \frac 1 {m - n} \sin((m - n)x) \right]_{x = -\pi}^{x = \pi} & \text{otherwise} \end{cases} \\
+& = \begin{cases} 2\pi & m + n = 0, m - n = 0 \\
+\pi & m + n = 0 \\
+\pi & m - n = 0 \\
+0 & \text{otherwise} \end{cases} \\
+& = \begin{cases} 2\pi & m = n = 0 \\
+\pi & m = -n \\
+\pi & m = n \\
+0 & \text{otherwise} \end{cases} \\
+\\
+& \phantom{=} \int_{-\pi}^\pi \! \sin mx \sin nx \\
+& = \frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m - n) x) - \cos ((m + n) x) ) \,\mathrm{d}x \\
+& = \begin{cases} \frac 1 2 \int_{-\pi}^\pi \! ( 1 - 1 ) \,\mathrm{d}x & m + n = 0, m - n = 0 \\
+\frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m - n) x) - 1 ) \,\mathrm{d}x & m + n = 0 \\
+\frac 1 2 \int_{-\pi}^\pi \! (1 - \cos ((m + n) x) ) \,\mathrm{d}x & m - n = 0 \\
+\frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m - n) x) - \cos ((m + n) x) ) \,\mathrm{d}x & \text{otherwise} \end{cases} \\
+& = \begin{cases} 0 & m + n = 0, m - n = 0 \\
+\frac 1 2 \left[\frac 1 {m - n} \sin((m - n)x) - x \right]_{x = -\pi}^{x = \pi} & m + n = 0 \\
+\frac 1 2 \left[x - \frac 1 {m + n} \sin((m + n)x) \right]_{x = -\pi}^{x = \pi} & m - n = 0 \\
+\frac 1 2 \left[\frac 1 {m - n} \sin((m - n)x) - \frac 1 {m + n} \sin((m + n)x) \right]_{x = -\pi}^{x = \pi} & \text{otherwise} \end{cases} \\
+& = \begin{cases} 0 & m + n = 0, m - n = 0 \\
+-\pi & m + n = 0 \\
+\pi & m - n = 0 \\
+0 & \text{otherwise} \end{cases} \\
+& = \begin{cases} 0 & m = n = 0 \\
+-\pi & m = -n \\
+\pi & m = n \\
+0 & \text{otherwise} \end{cases} \\
+\\
+& \phantom{=} \int_{-\pi}^\pi \! \cos mx \sin nx \,\mathrm{d}x \\
+& = \int_0^\pi \! \cos mx \sin nx \,\mathrm{d}x + \int_{-\pi}^0 \! \cos mx \sin nx \,\mathrm{d}x \\
+& = \int_0^\pi \! \cos mx \sin nx \,\mathrm{d}x - \int_\pi^0 \! \cos (-mu) \sin (-nu) \,\mathrm{d}u && (u := -x) \\
+& = \int_0^\pi \! \cos mx \sin nx \,\mathrm{d}x - \int_0^\pi \! \cos mu \sin nu \,\mathrm{d}u \\
+& = 0 \\
+\\
+& \text{(The above is adapted from my own work in assignment 3 Q1.)} \\
+\\
+& \phantom = \int_{-\pi}^\pi \! f(x) \,\mathrm{d}x \\
+& = \int_{-\pi}^\pi \! \left(  \frac {a_0} 2 + \sum_{k = 1}^n \left(a_k \cos kx + b_k \sin kx \right) \right) \,\mathrm{d}x \\
+& = \int_{-\pi}^\pi \! \frac {a_0} 2 \,\mathrm{d}x + \sum_{k = 1}^n a_k \int_{-\pi}^\pi \cos kx \,\mathrm{d}x + \sum_{k = 1}^n b_k \int_{-\pi}^\pi \! \sin kx \,\mathrm{d}x && (\text{linearity}) \\
+& = \pi a_0 + \sum_{k = 1}^n \frac {a_k} k \left[\sin kx \right]_{x = -\pi}^\pi - \sum_{k = 1}^n \frac {b_k} k \left[\cos kx \right]_{x = -\pi}^\pi \\
+& = \pi a_0 + 0 - 0 \\
+& = \pi a_0 \\
+\\
+& \phantom = \frac 1 \pi \int_{-\pi}^\pi \! f(x)^2 \,\mathrm{d}x \\
+& = \frac 1 \pi \int_{-\pi}^\pi \! \left( \frac {a_0} 2 + \sum_{k = 1}^n \left(a_k \cos kx + b_k \sin kx \right) \right)^2 \,\mathrm{d}x \\
+& = \frac 1 \pi \int_{-\pi}^\pi \! \left(a_0 f(x) - \frac {a_0^2} 4 + \sum_{1 \le i, j \le n} \left(a_i \cos ix + b_i \sin ix \right) \left(a_j \cos jx + b_j \sin jx \right) \right) \,\mathrm{d}x \\
+& = \frac 1 \pi \int_{-\pi}^\pi \! \left( a_0 f(x) - \frac {a_0^2} 4 + \sum_{1 \le i, j \le n} (a_i a_j \cos ix \cos jx + a_i b_j \cos ix \sin jx + \right. \\
+& \phantom = \left. \phantom {\sum_{} } b_i a_j \sin ix \cos jx + b_i b_j \sin ix \sin jx) \right) \,\mathrm{d}x \\
+& = \frac {a_0} \pi \int_{-\pi}^\pi \! \left( f(x) - \frac {a_0} 4 \right) \,\mathrm{d}x + \frac 1 \pi \sum_{1 \le i, j \le n} a_i a_j \int_{-\pi}^\pi \! \cos ix \cos jx \,\mathrm{d}x && (\text{linearity}) \\
+& \phantom = + \frac 1 \pi \sum_{1 \le i, j \le n} a_i b_j \int_{-\pi}^\pi \! \cos ix \sin jx \,\mathrm{d}x \\
+& \phantom = + \frac 1 \pi \sum_{1 \le i, j \le n} b_i a_j \int_{-\pi}^\pi \! \sin ix \cos jx \,\mathrm{d}x \\
+& \phantom = + \frac 1 \pi \sum_{1 \le i, j \le n} b_i b_j \int_{-\pi}^\pi \! \sin ix \sin jx \,\mathrm{d}x \\
+& = \frac {a_0} \pi \int_{-\pi}^\pi \! f(x) \,\mathrm{d}x - \frac {a_0^2} 2 + \sum_{k = 1}^n a_k^2 + 0 + 0 + \sum_{k = 1}^n b_k^2 && (\text{apply equations above}) \\
+& = a_0^2 - \frac {a_0^2} 2 + \sum_{k = 1}^n \left(a_k^2 + b_k^2 \right) \\
+& = \frac {a_0^2} 2 + \sum_{k = 1}^n \left(a_k^2 + b_k^2 \right)
+\end{aligned}$$
 
 ## Q13
 
