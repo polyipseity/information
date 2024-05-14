@@ -124,8 +124,8 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-05-17,20,254!2024-05-26,29,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-05-16,19,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-05-14,17,254!2024-05-15,18,257-->
-- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-05-14,19,254!2024-05-17,14,234-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-06-22,39,254!2024-05-15,18,257-->
+- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-05-17,14,234-->
 
 <!--/pytextgen-->
 
@@ -182,7 +182,7 @@ risk reduction
 - _(begin)_→:::←accessibility <!--SR:!2024-05-30,28,257!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-05-17,20,254-->
 - brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-25,14,234-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-05-14,17,254!2024-06-22,42,257-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
 - cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-31,18,157-->
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
@@ -290,10 +290,10 @@ subscription fee
 - _(begin)_→:::←advertising <!--SR:!2024-05-24,26,254!2024-07-16,71,317-->
 - advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-06-14,41,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-05-14,19,254-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-07-01,48,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-05-17,20,254-->
 - licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
-- usage fee→:::←subscription fee <!--SR:!2024-05-14,19,254!2024-05-18,21,257-->
+- usage fee→:::←subscription fee <!--SR:!2024-06-27,44,254!2024-05-18,21,257-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-06-19,37,257-->
 
 <!--/pytextgen-->

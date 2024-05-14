@@ -19,7 +19,7 @@ tags:
 
 %%
 
-The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2024-07-15,297,250!2024-05-14,317,332-->
+The __alkaline fuel cell__ (__AFC__) is {{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}}. It has an efficiency of {{70%}}. <!--SR:!2024-07-15,297,250!2028-05-03,1450,352-->
 
 ## chemistry
 

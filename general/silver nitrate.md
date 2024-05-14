@@ -9,7 +9,7 @@ tags:
 
 # silver nitrate
 
-__Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Ag](silver.md)[NO<sub>3</sub>](nitrate.md)}}. <!--SR:!2024-05-14,312,330-->
+__Silver nitrate__ is {{an [inorganic compound](inorganic%20compound.md) with [chemical formula](chemical%20formula.md) [Ag](silver.md)[NO<sub>3</sub>](nitrate.md)}}. <!--SR:!2028-04-04,1421,350-->
 
 ## uses
 

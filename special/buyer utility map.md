@@ -22,7 +22,7 @@ It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--
 
 ## 6 stages of buyer experience cycle
 
-The {{6 stages of buyer experience}} cycle are the {{map column headers}}. <!--SR:!2024-05-28,22,259!2024-05-14,17,290-->
+The {{6 stages of buyer experience}} cycle are the {{map column headers}}. <!--SR:!2024-05-28,22,259!2024-07-01,48,290-->
 
 %%
 
@@ -57,9 +57,9 @@ disposal
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←purchase <!--SR:!2024-06-18,40,290!2024-06-20,42,299-->
-- purchase→:::←delivery <!--SR:!2024-05-14,17,290!2024-07-06,56,310-->
-- delivery→:::←use <!--SR:!2024-05-14,17,290!2024-07-03,53,290-->
-- use→:::←supplements <!--SR:!2024-05-30,24,279!2024-05-14,17,299-->
+- purchase→:::←delivery <!--SR:!2024-07-18,65,310!2024-07-06,56,310-->
+- delivery→:::←use <!--SR:!2024-07-22,69,310!2024-07-03,53,290-->
+- use→:::←supplements <!--SR:!2024-05-30,24,279!2024-07-20,67,319-->
 - supplements→:::←maintenance <!--SR:!2024-06-22,42,290!2024-06-14,34,279-->
 - maintenance→:::←disposal <!--SR:!2024-07-14,62,310!2024-07-21,69,319-->
 - disposal→:::←_(end)_ <!--SR:!2024-07-17,65,319!2024-07-20,68,319-->
@@ -104,7 +104,7 @@ simplicity: remove complexity or hassle
 
 - _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-05-28,22,259!2024-07-04,54,310-->
 - convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-06-10,32,279!2024-05-15,18,299-->
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-05-26,20,259!2024-05-14,8,239-->
+- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-05-26,20,259!2024-05-31,17,239-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-05-21,10,239!2024-05-24,18,259-->
 - productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-05-29,18,250!2024-05-17,13,259-->
 - risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-05-21,8,210!2024-05-26,20,259-->

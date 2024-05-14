@@ -70,7 +70,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
-- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-05-14,3,275!2024-05-15,4,295-->
+- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-05-20,6,275!2024-05-15,4,295-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
@@ -88,11 +88,11 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-05-14,3,275!2024-05-15,4,295-->
-- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-05-14,3,275!2024-05-15,4,295-->
+- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-05-27,13,295!2024-05-15,4,295-->
+- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-05-24,10,275!2024-05-15,4,295-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
-    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-05-14,3,275!2024-05-15,4,295-->
+    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-05-21,7,275!2024-05-15,4,295-->
   - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
   - [§ fit](../../../value%20proposition%20canvas.md#fit)
 - [business model canvas](../../../business%20model%20canvas.md)

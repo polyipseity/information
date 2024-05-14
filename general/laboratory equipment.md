@@ -169,7 +169,7 @@ return _chain.from_iterable(await _gather(
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-06-14,132,230!2024-10-24,164,150-->
 - [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2024-08-04,178,210-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2024-08-22,361,290!2024-08-25,109,250-->
-- [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-05-14,5,150!2024-08-29,279,250-->
+- [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-05-21,7,150!2024-08-29,279,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2024-07-04,155,230!2024-06-26,291,270-->
 - [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-06-09,40,150-->
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-06-25,77,250-->
@@ -203,7 +203,7 @@ return _chain.from_iterable(await _gather(
 - [beaker](beaker.md)::![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:!2026-09-27,913,330-->
 - [burette](burette.md)::![burette](../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2026-01-13,771,330-->
 - [burette clamp](burette%20clamp.md)::![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:!2025-01-03,427,290-->
-- [clamp](clamp.md)::![clamp](../archives/Wikimedia%20Commons/Utility%20clamp1.jpg) <!--SR:!2024-05-14,317,330-->
+- [clamp](clamp.md)::![clamp](../archives/Wikimedia%20Commons/Utility%20clamp1.jpg) <!--SR:!2028-04-24,1441,350-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)::![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg) <!--SR:!2027-01-21,1082,350-->
 - [crucible](crucible.md)::![crucible](../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg) <!--SR:!2027-01-10,1073,350-->
 - [crucible tongs](crucible%20tongs.md)::![crucible tongs](../archives/Wikimedia%20Commons/Crucible%20tong.jpg) <!--SR:!2028-02-04,1376,350-->
