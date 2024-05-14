@@ -43,3 +43,9 @@ The content is in teaching order.
 - [fundamental theorem of calculus § formal statements](../../../../general/fundamental%20theorem%20of%20calculus.md#formal%20statements)
 
 ## week 4 lecture 2
+
+- integration by sub
+
+## week 5 lecture 1
+
+## week 5 tutorial
