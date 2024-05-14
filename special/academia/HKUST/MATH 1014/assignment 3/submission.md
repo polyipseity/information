@@ -43,8 +43,7 @@ $$\int_{-\pi}^\pi \! \sin mx \sin nx \,\mathrm{d}x$$
 > & \phantom{=} \int_{-\pi}^\pi \! \sin mx \sin nx \\
 > & = \frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m + n) x) - \cos ((m - n) x) ) \,\mathrm{d}x \\
 > & = \begin{cases} \frac 1 2 \int_{-\pi}^\pi \! ( 1 - 1 ) \,\mathrm{d}x & m + n = 0, m - n = 0 \\
-> \frac 1 2 \int> & \phantom{=} \\
-> _{-\pi}^\pi \! (1 - \cos ((m - n) x) ) \,\mathrm{d}x & m + n = 0 \\
+> \frac 1 2 \int_{-\pi}^\pi \! (1 - \cos ((m - n) x) ) \,\mathrm{d}x & m + n = 0 \\
 > \frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m + n) x) - 1 ) \,\mathrm{d}x & m - n = 0 \\
 > \frac 1 2 \int_{-\pi}^\pi \! ( \cos ((m + n) x) - \cos ((m - n) x) ) \,\mathrm{d}x & \text{otherwise} \end{cases} \\
 > & = \begin{cases} 0 & m + n = 0, m - n = 0 \\
