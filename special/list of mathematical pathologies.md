@@ -22,7 +22,7 @@ tags:
 
 - see: [Dirichlet function](../general/Dirichlet%20function.md)
 
-The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}. <!--SR:!2024-05-14,40,290-->
+The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}. <!--SR:!2024-09-06,115,290-->
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::: It is neither continuous nor discontinuous at every [real](../general/real%20number.md). <!--SR:!2024-06-09,66,310!2024-06-04,61,310-->
   - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2024-06-21,54,323!2024-06-08,42,323-->

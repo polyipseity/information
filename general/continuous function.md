@@ -31,7 +31,7 @@ There are {{several ways}} to define whether a function is _continuous_ at a poi
 
 There are {{several incompatible definitions}} of the (global) continuity of a function, depending on the nature of its domain. <!--SR:!2024-10-21,166,310-->
 
-A function is continuous on an open [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}}. <!--SR:!2024-05-15,48,290!2024-05-14,47,304-->
+A function is continuous on an open [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}}. <!--SR:!2024-05-15,48,290!2024-10-03,142,304-->
 
 A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}} is also called a continuous function, but it is {{not continuous everywhere}}. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called _discontinuous functions_ instead, confusingly. <!--SR:!2024-06-01,62,310!2024-11-03,176,310!2024-05-29,59,304!2024-09-01,121,290!2024-05-24,54,304!2024-08-24,112,290-->
 
@@ -39,7 +39,7 @@ A __discontinuous function__ is {{a function that is _not continuous_, so a func
 
 > [!tip] tips
 >
-> - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2024-06-16,77,324!2024-05-14,49,310-->
+> - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2024-06-16,77,324!2024-12-13,213,330-->
 > - relation of definitions between open intervals and semi-closed or closed intervals ::: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2024-05-20,50,290!2024-05-27,57,304-->
 
 <!-- markdownlint MD028 -->
@@ -62,7 +62,7 @@ A function is _discontinuous_ at a point {{if the point is in the [topological c
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-05-14,49,310-->
+> - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-10-11,150,310-->
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2024-08-11,103,290-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2024-11-20,191,324-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$. <!--SR:!2024-10-06,156,310-->

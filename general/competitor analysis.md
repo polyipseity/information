@@ -77,14 +77,14 @@ why: Why are people using competitors' products?
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-05-14,1,241!2024-05-15,4,274-->
-- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-05-14,3,254!2024-05-16,3,261-->
-- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-05-14,1,241!2024-05-14,1,241-->
+- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-05-16,2,241!2024-05-15,4,274-->
+- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-05-22,8,254!2024-05-16,3,261-->
+- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-05-16,2,241!2024-05-16,2,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-05-16,3,261!2024-05-16,3,261-->
-- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-05-14,1,241!2024-05-16,3,261-->
-- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-05-16,3,261!2024-05-14,1,241-->
-- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-05-17,4,281!2024-05-14,1,241-->
+- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-05-16,2,241!2024-05-16,3,261-->
+- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-05-16,3,261!2024-05-15,1,221-->
+- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-05-17,4,281!2024-05-17,3,261-->
 
 <!--/pytextgen-->
 
@@ -126,9 +126,9 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-05-14,1,241!2024-05-16,3,261-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-05-15,1,221!2024-05-16,3,261-->
 - know ourselves: See if our products are sticky.→:::←know themselves: See how big of a threat competitors pose. <!--SR:!2024-05-17,4,281!2024-05-15,4,274-->
-- know themselves: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-05-16,3,261!2024-05-14,1,241-->
+- know themselves: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-05-16,3,261!2024-05-15,1,221-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-05-17,4,281!2024-05-16,3,261-->
 
 <!--/pytextgen-->
@@ -139,7 +139,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2024-05-17,4,281!2024-05-14,3,254-->
+Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-05-21,10,270!2024-05-17,4,281!2024-05-23,9,274-->
 
 ### comparison parameters
 
@@ -182,13 +182,13 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←price <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
-- price→:::←benefit <!--SR:!2024-05-14,3,254!2024-05-17,4,281-->
+- price→:::←benefit <!--SR:!2024-05-24,10,274!2024-05-17,4,281-->
 - benefit→:::←quality <!--SR:!2024-05-17,6,254!2024-05-16,3,261-->
 - quality→:::←durability <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
 - durability→:::←service <!--SR:!2024-05-17,4,281!2024-05-17,4,281-->
 - service→:::←convenience <!--SR:!2024-05-16,3,261!2024-05-17,4,281-->
-- convenience→:::←ease of use <!--SR:!2024-05-14,1,241!2024-05-15,4,274-->
-- ease of use→:::←number of features <!--SR:!2024-05-14,1,241!2024-05-14,3,254-->
+- convenience→:::←ease of use <!--SR:!2024-05-16,2,241!2024-05-15,4,274-->
+- ease of use→:::←number of features <!--SR:!2024-05-17,3,261!2024-05-27,13,274-->
 - number of features→:::←_(end)_ <!--SR:!2024-05-15,4,274!2024-05-17,4,281-->
 
 <!--/pytextgen-->

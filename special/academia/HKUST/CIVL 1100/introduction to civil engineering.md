@@ -100,7 +100,7 @@ The content is in teaching order.
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2024-06-06,62,330-->
-  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-05-14,16,340!2024-07-29,79,377-->
+  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2024-07-29,79,377-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-07-17,87,285!2024-06-25,81,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-05-28,27,312!2024-08-22,101,375-->
@@ -141,7 +141,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-05-15,16,297!2024-08-15,96,374-->
-- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-05-23,17,281!2024-05-14,21,357-->
+- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-05-23,17,281!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-05-24,18,360!2024-05-18,12,340-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-06-03,28,321!2024-06-14,70,330-->
 
@@ -303,7 +303,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-06-04,29,320!2024-07-28,80,365-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-14,1,241!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-17,3,261!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-05-23,17,340!2024-05-21,15,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-05-20,14,340!2024-05-25,19,360-->
 
@@ -411,10 +411,10 @@ water and sewage treatment system
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
-- bridge→:::←building <!--SR:!2024-07-24,76,372!2024-05-14,16,340-->
+- bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-05-19,21,360-->
 - dam→:::←pipeline <!--SR:!2024-05-15,4,224!2024-06-14,36,321-->
-- pipeline→:::←power plant <!--SR:!2024-05-16,3,240!2024-05-14,5,281-->
+- pipeline→:::←power plant <!--SR:!2024-05-16,3,240!2024-05-29,15,281-->
 - power plant→:::←reservoir <!--SR:!2024-05-31,22,275!2024-06-06,28,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-05-17,4,177!2024-05-19,10,261-->
 - sewage treatment→:::←transport <!--SR:!2024-05-29,16,250!2024-05-23,17,301-->
@@ -455,7 +455,7 @@ water security
 
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←climate change <!--SR:!2024-05-14,39,305!2024-07-11,66,350-->
+- _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2024-07-11,66,350-->
 - climate change→:::←extreme weather <!--SR:!2024-05-29,23,317!2024-06-19,44,330-->
 - extreme weather→:::←food security <!--SR:!2024-06-15,45,330!2024-07-13,68,347-->
 - food security→:::←mega-cities <!--SR:!2024-05-20,21,332!2024-06-10,32,320-->
@@ -504,10 +504,10 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2024-05-14,16,341!2024-05-19,21,360-->
+- _(begin)_→:::←budgeting <!--SR:!2024-07-08,55,341!2024-05-19,21,360-->
 - budgeting→:::←construction management <!--SR:!2024-05-22,16,300!2024-05-22,23,315-->
 - construction management→:::←economics <!--SR:!2024-05-29,18,235!2024-06-01,21,280-->
-- economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-05-14,1,260-->
+- economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-05-17,3,260-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-05-24,18,300!2024-06-01,26,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-05-22,9,277!2024-05-26,24,312-->
 - maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-05-20,19,292-->
@@ -597,7 +597,7 @@ transportation
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-05-17,19,360-->
 - hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
 - material→:::←structural <!--SR:!2024-05-26,25,317!2024-06-06,24,260-->
-- structural→:::←transportation <!--SR:!2024-05-14,16,340!2024-06-26,51,327-->
+- structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
 - transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-05-18,20,361-->
 
 <!--/pytextgen-->
@@ -705,7 +705,7 @@ testing materials
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-05-20,11,332-->
 - quality control→:::←safety engineering <!--SR:!2024-05-28,22,301!2024-05-30,27,315-->
 - safety engineering→:::←scheduling <!--SR:!2024-06-04,26,320!2024-06-02,27,320-->
-- scheduling→:::←surveying building site <!--SR:!2024-05-20,11,241!2024-05-14,10,280-->
+- scheduling→:::←surveying building site <!--SR:!2024-05-20,11,241!2024-06-22,39,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-05-18,9,280!2024-05-18,17,292-->
 - testing materials→:::←_(end)_ <!--SR:!2024-06-30,52,327!2024-05-20,20,287-->
 
@@ -746,9 +746,9 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-05-16,5,232!2024-05-19,21,361-->
-- business procedures→:::←economics <!--SR:!2024-05-14,1,261!2024-05-22,18,265-->
+- business procedures→:::←economics <!--SR:!2024-05-17,3,261!2024-05-22,18,265-->
 - economics→:::←human behaviors <!--SR:!2024-05-30,24,320!2024-06-14,39,340-->
-- human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-05-14,10,280-->
+- human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-06-13,30,280-->
 - management principles→:::←strong communication skills <!--SR:!2024-05-30,24,301!2024-06-01,23,300-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-05-17,19,360-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-05-23,10,272-->
@@ -794,7 +794,7 @@ wood
 - concrete→:::←new synthetic materials <!--SR:!2024-05-19,10,281!2024-06-29,47,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-06-05,27,320-->
 - steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
-- stone→:::←wood <!--SR:!2024-05-14,5,301!2024-05-23,24,312-->
+- stone→:::←wood <!--SR:!2024-05-31,17,301!2024-05-23,24,312-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
 
 <!--/pytextgen-->
@@ -853,9 +853,9 @@ nuclear
 - chemical→:::←civil <!--SR:!2024-06-10,40,337!2024-06-13,42,337-->
 - civil→:::←computer <!--SR:!2024-06-05,36,334!2024-06-11,42,332-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
-- electrical→:::←industrial <!--SR:!2024-06-03,25,321!2024-05-14,39,290-->
+- electrical→:::←industrial <!--SR:!2024-06-03,25,321!2024-06-02,19,270-->
 - industrial→:::←manufacturing <!--SR:!2024-05-30,29,317!2024-05-31,31,332-->
-- manufacturing→:::←mechanical <!--SR:!2024-05-14,21,357!2024-06-11,39,337-->
+- manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-06-11,39,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-06-29,51,335-->
 - nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2024-06-27,83,345-->
 
@@ -975,7 +975,7 @@ soil liquefaction
 
 - _(begin)_→:::←debris flow <!--SR:!2024-05-23,24,314!2024-08-10,89,378-->
 - debris flow→:::←landslide <!--SR:!2024-05-19,20,315!2024-05-18,18,315-->
-- landslide→:::←rockfall <!--SR:!2024-05-15,17,292!2024-05-14,5,300-->
+- landslide→:::←rockfall <!--SR:!2024-05-15,17,292!2024-05-30,16,300-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-05-16,17,290!2024-05-21,34,250-->
 - soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-05-16,13,295-->
 
@@ -1014,7 +1014,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-05-16,18,360-->
 - embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-05-15,17,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-05-20,14,297!2024-06-27,54,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-05-14,16,341!2024-05-17,6,252-->
+- shallow foundation→:::←tunnel <!--SR:!2024-05-24,10,321!2024-05-17,6,252-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-05-26,17,297-->
 
 <!--/pytextgen-->
@@ -1091,7 +1091,7 @@ water distribution network
 - sewage collection network→:::←storm water management <!--SR:!2024-05-18,12,247!2024-05-31,25,321-->
 - storm water management→:::←water collection network <!--SR:!2024-06-05,27,320!2024-06-10,32,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-05-18,20,360!2024-06-26,51,352-->
-- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-05-14,5,301-->
+- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-05-17,3,281-->
 
 <!--/pytextgen-->
 
@@ -1129,7 +1129,7 @@ Tsing Ma Bridge
 
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-05-27,26,318!2024-07-10,65,357-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-05-20,22,307!2024-05-21,8,267-->
-- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-05-14,16,340!2024-06-07,29,320-->
+- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-07,29,320-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-05-31,30,317!2024-06-23,43,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-06-21,46,335!2024-05-30,30,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
@@ -1165,7 +1165,7 @@ developing strengthening techniques for damaged structures or structural members
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-05-20,21,315!2024-07-24,76,370-->
-- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2024-05-14,16,340!2024-05-31,31,307-->
+- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2024-07-09,56,340!2024-05-31,31,307-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-05-22,23,315!2024-05-22,21,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2024-07-14,66,345!2024-05-21,23,304-->
 
@@ -1407,7 +1407,7 @@ water tower
 
 - _(begin)_→:::←bridge <!--SR:!2024-06-03,32,315!2024-05-16,18,360-->
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-05-18,20,360-->
-- building→:::←dam <!--SR:!2024-05-14,16,341!2024-07-03,55,361-->
+- building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
 - dam→:::←power plant <!--SR:!2024-05-29,23,301!2024-05-16,10,258-->
 - power plant→:::←storage facility <!--SR:!2024-05-28,22,300!2024-05-24,25,314-->
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-06-04,29,320-->
@@ -1551,8 +1551,8 @@ water treatment
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-06-03,28,320!2024-06-07,38,337-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-05-22,21,295!2024-05-18,12,280-->
-- wastewater recycling→:::←wastewater treatment <!--SR:!2024-05-14,11,295!2024-05-16,14,297-->
-- wastewater treatment→:::←water quality monitoring <!--SR:!2024-05-18,5,260!2024-05-14,12,295-->
+- wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-05-16,14,297-->
+- wastewater treatment→:::←water quality monitoring <!--SR:!2024-05-18,5,260!2024-07-03,50,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-06-17,46,324!2024-05-26,26,314-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-05-18,5,226-->
 
