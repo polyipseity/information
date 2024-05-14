@@ -38,7 +38,7 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 - derivative
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on any non-trivial interval. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2024-06-16,39,306!2024-06-17,40,306-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2024-06-16,39,306!2024-06-17,40,306-->
 
 ### empty function
 

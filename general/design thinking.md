@@ -22,7 +22,7 @@ Ideation consists of {{alternation between [divergent](divergent%20thinking.md) 
 
 Divergent thinking is supposed to {{enhance creativity of thinkers}}. During divergent thinking, having {{a diverse group of people}} involved is important. Good practice is {{encouraging people to go wild with many ideas, and avoiding evaluation}}. <!--SR:!2024-05-22,13,270!2024-05-28,17,290!2024-05-25,14,290-->
 
-Convergent thinking is supposed to {{find the best and concrete solution}}. <!--SR:!2024-05-24,13,270-->
+Convergent thinking is supposed to {{find the best and the most concrete solution}}. <!--SR:!2024-05-24,13,270-->
 
 ## applications
 
