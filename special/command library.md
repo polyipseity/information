@@ -41,6 +41,21 @@ ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=60,scale=in_color_matrix=
 ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=60,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=full" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g 300 -preset medium -pix_fmt yuv420p -color_range pc -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a 320000 -movflags +faststart "$output.mov"
 ```
 
+## PowerShell
+
+### create hard link
+
+```PowerShell
+New-Item -ItemType HardLink -Path "$from" -Value "$to" # for file
+New-Item -ItemType Junction -Path "$from" -Value "$to" # for directory
+```
+
+### create symbolic link
+
+```PowerShell
+New-Item -ItemType SymbolicLink -Path "$from" -Value "$to"
+```
+
 ## rsync
 
 ### sync
