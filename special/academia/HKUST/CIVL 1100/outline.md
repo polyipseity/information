@@ -33,11 +33,11 @@ The content is in teaching order.
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
-  - compression conventions ::: __negative__; arrows pointing outwards for the force applied on the object in compression <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
+  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-05-18,4,290!2024-05-19,4,281-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-05-17,3,270!2024-05-17,3,270-->
-  - tension conventions ::: __positive__; arrows pointing inwards for the force applied on the object in tension <!--SR:!2024-05-18,4,290!2024-05-17,3,270-->
+  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-05-18,4,290!2024-05-17,3,270-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-05-18,4,290!2024-05-18,3,261-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
@@ -45,7 +45,7 @@ The content is in teaching order.
     - "strong" object examples ::: table leg <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
     - "weak" object examples ::: mattress <!--SR:!2024-05-18,4,290!2024-05-19,4,281-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
-    - relative deformation examples ::: Compare a thin mattress and a thick mattress. <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
+    - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)
@@ -95,9 +95,6 @@ The content is in teaching order.
 - [zero force member](../../../../general/zero%20force%20member.md)
   - [§ description](../../../../general/zero%20force%20member.md#description)
 - [arch § three-hinged arches](../../../../general/arch.md#three-hinged%20arches)
-
-## week 6 lecture
-
 - [structural load](../../../../general/structural%20load.md)
   - [§ loads on architectural and civil engineering structures](../../../../general/structural%20load.md#loads%20on%20architectural%20and%20civil%20engineering%20structures)
   - [§ load combinations](../../../../general/structural%20load.md#load%20combination)
