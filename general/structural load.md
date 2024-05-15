@@ -76,13 +76,13 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-05-18,4,280!2024-05-19,4,270!2024-05-18,3,250!2024-05-19,4,270-->
 
-Generally, dead load (and live load) internally {{deflects beams and floors, such as dishing or sagging}}. As a whole, it causes {{foundations to settle, which may be uniform or tilt ([Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-05-19,4,290!2024-05-19,4,290!2024-05-18,3,270-->
+Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-05-19,4,290!2024-05-19,4,290!2024-05-18,3,270-->
 
 ### live load
 
 The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-05-19,4,270!2024-05-17,3,260!2024-05-18,3,250!2024-05-18,3,250!2024-05-16,1,230!2024-05-17,3,260-->
 
-Generally, dead load (and live load) internally {{deflects beams and floors, such as dishing or sagging}}. As a whole, it causes {{foundations to settle, which may be uniform or tilt ([Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}.
+Generally, live load has {{similar effects to dead load}}.
 
 ### environmental loads
 
