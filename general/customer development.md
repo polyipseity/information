@@ -44,7 +44,7 @@ One can create {{a customer profile that shows a typical person}} for each custo
 
 ### customer validation
 
-After [customer discovery](#customer%20discovery), we need to do {{customer validation}}. The goal of customer validation is to {{determine whether your product should be created in the first place}}. Even if yor customer profile is accurate, {{the customer might not use your products anyway when put into actual practice}}. This is because {{most customer do not switch to a new product unless the gain is outweighs the perceived loss from switching from an existing product}}.
+After [customer discovery](#customer%20discovery), we need to do {{customer validation}}. The goal of customer validation is to {{determine whether your product should be created in the first place}}. Even if yor customer profile is accurate, {{the customer might not use your products anyway when put into actual practice}}. This is because {{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}}.
 
 To validate your customers, {{interact with your customers, such as talking to them, showing them your product prototype}}, etc.
 

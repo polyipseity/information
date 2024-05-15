@@ -33,11 +33,11 @@ The content is in teaching order.
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only.
   - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house)
-  - compression conventions ::: __negative__; arrows pointing outwards for the force applied on the object in compression
+  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only.
   - tension examples in structures ::: cable, hanging column, rope, swing, tie
-  - tension conventions ::: __positive__; arrows pointing inwards for the force applied on the object in tension
+  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object.
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
@@ -45,7 +45,7 @@ The content is in teaching order.
     - "strong" object examples ::: table leg
     - "weak" object examples ::: mattress
   - relative deformation ::: Amount of deformation also depends on the original length of the object.
-    - relative deformation examples ::: Compare a thin mattress and a thick mattress.
+    - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress.
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)
