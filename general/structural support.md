@@ -13,29 +13,29 @@ tags:
 
 ### roller support
 
-A roller support prevents {{vertical translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}.
+A roller support prevents {{vertical translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-05-18,3,250!2024-05-18,3,250!2024-05-18,3,250-->
 
-A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}.
+A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-05-19,4,270-->
 
-Examples include {{roller supports under an overhanging highway, wheels of a table with wheels}}.
+Examples include {{roller supports under an overhanging highway, wheels of a table with wheels}}. <!--SR:!2024-05-19,4,270-->
 
 ### pinned support
 
-A pinned support prevents {{translation in any direction}}, but not {{rotation}}. Its reaction force is {{a single linear force in any direction}}.
+A pinned support prevents {{translation in any direction}}, but not {{rotation}}. Its reaction force is {{a single linear force in any direction}}. <!--SR:!2024-05-18,3,250!2024-05-19,4,270!2024-05-18,4,270-->
 
-A pinned support is drawn as {{a triangle or a square with a circle in the middle}}.
+A pinned support is drawn as {{a triangle or a square with a circle in the middle}}. <!--SR:!2024-05-18,3,250-->
 
-Examples include {{a table leg pinned by a single screw only, joints of a truss}}.
+Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2024-05-18,3,250-->
 
 ### fixed support
 
-A fixed support prevents {{translation and rotation in any direction}}. Its reaction forces are {{a single linear force in any direction and a [torque](torque.md)}}.
+A fixed support prevents {{translation and rotation in any direction}}. Its reaction forces are {{a single linear force in any direction and a [torque](torque.md)}}. <!--SR:!2024-05-18,3,250!2024-05-18,3,250-->
 
-A fixed support is {{usually not drawn specifically and represented by being connected to a fixed wall or ground}}.
+A fixed support is {{usually not drawn specifically and represented by being connected to a fixed wall or ground}}. <!--SR:!2024-05-19,4,270-->
 
-Examples include {{a computer monitor with a single non-rotatable support, fixed supports under a bridge}}.
+Examples include {{a computer monitor with a single non-rotatable support, fixed supports under a bridge}}. <!--SR:!2024-05-18,3,250-->
 
-Note that the reaction [torque](torque.md) only makes sense when {{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}}.
+Note that the reaction [torque](torque.md) only makes sense when {{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}}. <!--SR:!2024-05-18,3,250-->
 
 ## references
 

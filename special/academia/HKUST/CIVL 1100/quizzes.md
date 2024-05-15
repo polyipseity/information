@@ -32,4 +32,4 @@ Example quiz questions for preparing exams.
 > 3. The horizontal reaction force at Y is 40 kN in magnitude.
 > 4. The vertical reaction force at Y is 30 kN in magnitude
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-18,4,270-->
