@@ -95,9 +95,6 @@ The content is in teaching order.
 - [zero force member](../../../../general/zero%20force%20member.md)
   - [§ description](../../../../general/zero%20force%20member.md#description)
 - [arch § three-hinged arches](../../../../general/arch.md#three-hinged%20arches)
-
-## week 6 lecture
-
 - [structural load](../../../../general/structural%20load.md)
   - [§ loads on architectural and civil engineering structures](../../../../general/structural%20load.md#loads%20on%20architectural%20and%20civil%20engineering%20structures)
   - [§ load combinations](../../../../general/structural%20load.md#load%20combination)
