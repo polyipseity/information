@@ -71,7 +71,7 @@ Parent parent(     {});
 Parent parent{     {}};
 ```
 
-Before [C++11](C++11.md), the two common solutions are {{using extra parentheses or copy-initialization}}: <!--SR:!2024-05-15,51,310-->
+Before [C++11](C++11.md), the two common solutions are {{using extra parentheses or copy-initialization}}: <!--SR:!2024-10-22,160,310-->
 
 ```C++
 Parent parent((Child())); // extra parentheses

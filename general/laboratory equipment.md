@@ -178,7 +178,7 @@ return _chain.from_iterable(await _gather(
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-06-04,24,130!2025-06-21,453,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→:::←[spatula](spatula.md) <!--SR:!2024-06-03,278,270!2024-08-14,358,290-->
 - [spatula](spatula.md)→:::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2024-06-16,254,230!2024-07-11,111,270-->
-- [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2024-05-15,14,190!2024-06-05,44,190-->
+- [stand/retort stand/ring stand/support stand](retort%20stand.md)→:::←[test tube](test%20tube.md), boiling tube <!--SR:!2024-06-12,28,190!2024-06-05,44,190-->
 - [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2024-06-04,333,330!2024-06-07,336,330-->
 - [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2024-06-03,234,270!2024-09-08,143,310-->
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2025-01-07,428,290-->
@@ -215,7 +215,7 @@ return _chain.from_iterable(await _gather(
 - [filter funnel](filter%20funnel.md)::![filter funnel](../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg) <!--SR:!2024-05-17,320,330-->
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)::![flat-bottom(ed) flask](../archives/Wikimedia%20Commons/TGI%20250.jpg) <!--SR:!2024-06-03,332,330-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)::![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg) <!--SR:!2024-10-23,410,290-->
-- [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)::![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg) <!--SR:!2024-05-15,318,330-->
+- [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)::![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg) <!--SR:!2028-04-29,1445,350-->
 - [graduated pipette](graduated%20pipette.md)::![graduated pipette](../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg) <!--SR:!2025-05-09,532,310-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)::![heat-resistant mat/heatproof mat](../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg) <!--SR:!2027-06-15,1194,350-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)::![measuring cylinder/graduated cylinder/mixing cylinder](../archives/Wikimedia%20Commons/Different%20types%20of%20graduated%20cylinder-%2010ml,%2025ml,%2050ml%20and%20100%20ml%20graduated%20cylinder.jpg) <!--SR:!2027-05-21,1173,350-->

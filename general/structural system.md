@@ -72,8 +72,8 @@ The following interior structures are possible.
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-05-17,3,250!2024-05-18,4,275-->
-- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-05-15,1,235!2024-05-17,3,255-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-05-15,1,235!2024-05-17,3,255-->
+- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-05-18,3,255!2024-05-17,3,255-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-05-18,3,255!2024-05-17,3,255-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-05-18,4,275!2024-05-17,3,255-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-05-17,3,255!2024-05-17,3,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-05-18,4,275!2024-05-17,3,255-->
@@ -128,7 +128,7 @@ return await memorize_seq(
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->
-- [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-05-15,1,235!2024-05-18,4,275-->
+- [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-05-18,3,255!2024-05-18,4,275-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-05-17,3,255!2024-05-18,4,275-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-05-17,3,255!2024-05-17,3,255-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->

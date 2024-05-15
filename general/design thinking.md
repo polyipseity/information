@@ -28,7 +28,7 @@ Convergent thinking is supposed to {{find the best and the most concrete solutio
 
 ### in business
 
-Design thinking can integrate {{human values like usability and desirability, technology feasibility, and business viability}} together for innovation. Innovation depends on {{the context. For example, commercialization of creative ideas is the definition for venture capitalists}}. <!--SR:!2024-05-15,6,250!2024-05-25,14,290-->
+Design thinking can integrate {{human values like usability and desirability, technology feasibility, and business viability}} together for innovation. Innovation depends on {{the context. For example, commercialization of creative ideas is the definition for venture capitalists}}. <!--SR:!2024-05-30,15,250!2024-05-25,14,290-->
 
 User desirability describes {{how much people want the product, depending on their needs and desires}}. This can be achieved by {{deeply understanding users via an empathetic design process, such as putting ourselves in the shoes of the customers}}. <!--SR:!2024-05-17,8,250!2024-05-17,8,250-->
 
@@ -36,11 +36,11 @@ Technology feasibility describes {{the possibility of producing a product within
 
 Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2024-05-16,7,250!2024-05-17,8,250-->
 
-The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the market, technology, and business model}} is required. <!--SR:!2024-05-16,7,250!2024-05-15,6,250-->
+The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the market, technology, and business model}} is required. <!--SR:!2024-05-16,7,250!2024-06-06,22,270-->
 
 Design thinking can be used in {{design conceptualization}}. It is the {{most important stage of product development}} because it is {{at the start of the product development and requires the least effort, so it produces the highest rate of return}}. The rate of return decreases along the stages as {{mistakes in later stages become much more costly}}. <!--SR:!2024-05-19,10,250!2024-05-27,16,290!2024-05-22,11,270!2024-05-23,12,270-->
 
-During ideation, we can use divergent and convergent thinking to {{find the right problem (from many pains to a problem), and then find the right solution (from many solutions to few prototypes)}}, but {{do not mix these processes}}. <!--SR:!2024-05-15,6,250!2024-05-28,17,290-->
+During ideation, we can use divergent and convergent thinking to {{find the right problem (from many pains to a problem), and then find the right solution (from many solutions to few prototypes)}}, but {{do not mix these processes}}. <!--SR:!2024-05-28,13,250!2024-05-28,17,290-->
 
 ## references
 

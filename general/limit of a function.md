@@ -80,7 +80,7 @@ The __algebraic limit theorem__ states that {{for [real](real%20number.md) or [c
 > - condition ::: $x$ is [real](real%20number.md) or [complex](complex%20number). Limits on the right side of the equations exist or are in [determinate form](#determinate%20forms). <!--SR:!2024-12-23,291,330!2024-05-30,59,324-->
 > - addition ::: $\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$ <!--SR:!2024-11-03,252,330!2024-05-19,52,324-->
 > - subtraction ::: $\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$ <!--SR:!2024-09-26,222,330!2024-06-13,73,344-->
-> - multiplication ::: $\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$ <!--SR:!2024-10-12,235,330!2024-05-15,48,324-->
+> - multiplication ::: $\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$ <!--SR:!2024-10-12,235,330!2024-10-16,154,324-->
 > - division ::: $\lim_{x \to p} (f(x) / g(x)) = \lim_{x \to p} f(x) / \lim_{x \to p} g(x)\qquad(\lim_{x \to p} g(x) \ne 0)$ <!--SR:!2024-05-19,116,290!2024-06-06,70,344-->
 > - exponentiation ::: $\lim_{x \to p} {f(x)}^{g(x)} = \lim_{x \to p} f(x)^{\lim_{x \to p} g(x)}\qquad(\lim_{x \to p} f(x) > 0 \text{ or } (\lim_{x \to p} f(x) = 0, 0 < \lim_{x \to p} g(x) < +\infty))$  (If only [real](real%20number.md) $x$ is considered, the base, if it approaches 0, must approach it from the positive.) <!--SR:!2024-07-07,129,250!2024-05-24,53,324-->
 

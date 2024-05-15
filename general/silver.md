@@ -49,7 +49,7 @@ return await memorize_table(
 <!--pytextgen generate section="ba04"--><!-- The following content is generated at 2024-01-04T20:17:52.603049+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←coins, jewellery <!--SR:!2024-05-23,321,330!2028-03-04,1400,350-->
-- coins, jewellery→:::←electrical and electronic components <!--SR:!2026-01-20,767,330!2024-05-15,313,330-->
+- coins, jewellery→:::←electrical and electronic components <!--SR:!2026-01-20,767,330!2028-04-09,1425,350-->
 - electrical and electronic components→:::←_(end)_ <!--SR:!2024-05-22,320,330!2027-01-31,1005,330-->
 
 <!--/pytextgen-->
