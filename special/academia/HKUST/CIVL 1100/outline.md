@@ -18,10 +18,13 @@ tags:
 
 The content is in teaching order.
 
+- [data](data.md)
+
 ## week 2 lecture
 
 - 3 covered fields ::: civil and structural engineering, environmental engineering, geo-technical engineering
 - [introduction to civil engineering](introduction%20to%20civil%20engineering.md)
+- [data](data.md)
 
 ## week 4 lecture
 
