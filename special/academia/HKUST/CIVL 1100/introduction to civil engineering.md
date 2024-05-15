@@ -30,7 +30,7 @@ The content is in teaching order.
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2024-06-19,46,325!2024-06-30,57,345-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-05-20,45,310-->
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-05-24,13,300!2024-05-15,18,360-->
+- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-05-24,13,300!2024-07-18,64,360-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-05-29,28,315!2024-06-25,52,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-05-28,19,301!2024-07-13,63,360-->
@@ -79,14 +79,14 @@ The content is in teaching order.
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-06-07,29,321!2024-06-27,55,356-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-05-24,22,315!2024-07-29,81,370-->
-    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-05-15,16,295!2024-08-05,86,372-->
+    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-06-28,44,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-07-18,68,350-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-06-07,27,230!2024-06-24,49,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-05-22,16,294!2024-07-17,67,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-05-27,27,312!2024-12-04,219,319-->
-  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-05-29,23,300!2024-05-15,17,361-->
+  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-05-29,23,300!2024-08-06,83,381-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-05-29,28,317!2024-07-19,67,347-->
@@ -140,7 +140,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
-- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-05-15,16,297!2024-08-15,96,374-->
+- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-07-01,47,297!2024-08-15,96,374-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-05-23,17,281!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-05-24,18,360!2024-05-18,12,340-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-06-03,28,321!2024-06-14,70,330-->
@@ -168,7 +168,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-05-22,18,272!2024-08-09,90,367-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-15,2,201!2024-07-11,66,352-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-16,1,181!2024-07-11,66,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-05-22,16,340!2024-05-27,21,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-05-27,21,360!2024-05-24,18,360-->
 
@@ -279,7 +279,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-06-08,30,321!2024-08-03,84,377-->
 - height ::: 20.1 m <!--SR:!2024-05-24,13,281!2024-05-18,20,360-->
-- image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-05-15,11,320!2024-05-24,18,360-->
+- image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-07-03,49,340!2024-05-24,18,360-->
 - length ::: 520 m <!--SR:!2024-05-24,11,260!2024-05-21,46,310-->
 
 ### Tsing Ma Bridge
@@ -361,9 +361,9 @@ quantity surveyor
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-06-28,50,337!2024-05-22,21,317-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-06-25,53,347!2024-06-29,47,340-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-05-21,12,245!2024-09-02,112,306-->
-- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-05-15,13,295!2024-05-26,25,317-->
+- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-05-26,25,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-05-26,25,315!2024-05-27,27,315-->
-- contracting civil engineer→:::←engineering geologist <!--SR:!2024-05-15,11,297!2024-05-21,22,315-->
+- contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-05-21,22,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-05-24,23,285-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-05-16,3,260-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-05-17,19,360-->
@@ -413,12 +413,12 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-05-19,21,360-->
-- dam→:::←pipeline <!--SR:!2024-05-15,4,224!2024-06-14,36,321-->
+- dam→:::←pipeline <!--SR:!2024-05-22,7,224!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-05-16,3,240!2024-05-29,15,281-->
 - power plant→:::←reservoir <!--SR:!2024-05-31,22,275!2024-06-06,28,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-05-17,4,177!2024-05-19,10,261-->
 - sewage treatment→:::←transport <!--SR:!2024-05-29,16,250!2024-05-23,17,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-05-15,2,170-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-05-18,3,170-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-05-21,19,361!2024-05-21,19,361-->
 
 <!--/pytextgen-->
@@ -549,7 +549,7 @@ We Engineer Hong Kong’s Development
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2024-05-19,19,294!2024-05-24,49,310-->
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-05-30,30,304!2024-06-09,38,307-->
-- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-05-25,24,312!2024-05-15,11,297-->
+- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-05-25,24,312!2024-05-20,5,277-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-06-10,41,330-->
 - We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-05-17,19,360-->
 
@@ -645,7 +645,7 @@ Water Cube
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-05-17,14,272-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-06-14,41,325-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-11,40,337!2024-06-04,26,320-->
-- Water Cube→:::←_(end)_ <!--SR:!2024-05-15,17,361!2024-06-15,44,337-->
+- Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2024-06-15,44,337-->
 
 <!--/pytextgen-->
 
@@ -700,7 +700,7 @@ testing materials
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-05-26,17,295-->
 - designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-05-22,18,277-->
 - logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-31,29,315-->
-- planning→:::←procuring materials <!--SR:!2024-05-18,14,297!2024-05-15,6,257-->
+- planning→:::←procuring materials <!--SR:!2024-05-18,14,297!2024-06-06,22,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-05-16,7,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-05-20,11,332-->
 - quality control→:::←safety engineering <!--SR:!2024-05-28,22,301!2024-05-30,27,315-->
@@ -975,7 +975,7 @@ soil liquefaction
 
 - _(begin)_→:::←debris flow <!--SR:!2024-05-23,24,314!2024-08-10,89,378-->
 - debris flow→:::←landslide <!--SR:!2024-05-19,20,315!2024-05-18,18,315-->
-- landslide→:::←rockfall <!--SR:!2024-05-15,17,292!2024-05-30,16,300-->
+- landslide→:::←rockfall <!--SR:!2024-07-22,68,312!2024-05-30,16,300-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-05-16,17,290!2024-05-21,34,250-->
 - soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-05-16,13,295-->
 
@@ -1012,7 +1012,7 @@ tunnel
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-05-16,18,360-->
-- embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-05-15,17,360-->
+- embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-05-20,14,297!2024-06-27,54,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-05-24,10,321!2024-05-17,6,252-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-05-26,17,297-->
@@ -1510,7 +1510,7 @@ water transport
 - airport→:::←bicycle path <!--SR:!2024-07-15,67,355!2024-05-23,23,317-->
 - bicycle path→:::←highway <!--SR:!2024-07-05,55,360!2024-07-16,64,360-->
 - highway→:::←pier <!--SR:!2024-06-14,36,320!2024-05-30,24,300-->
-- pier→:::←pipeline <!--SR:!2024-05-15,17,360!2024-05-22,16,294-->
+- pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-05-22,16,294-->
 - pipeline→:::←railroad <!--SR:!2024-05-18,5,235!2024-05-24,24,315-->
 - railroad→:::←water transport <!--SR:!2024-06-06,28,320!2024-05-23,24,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-05-27,21,360!2024-05-23,17,360-->

@@ -124,7 +124,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-05-17,20,254!2024-05-26,29,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-05-16,19,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-06-22,39,254!2024-05-15,18,257-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-06-22,39,254!2024-06-26,42,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-05-17,14,234-->
 
 <!--/pytextgen-->
@@ -181,7 +181,7 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-05-30,28,257!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-05-17,20,254-->
-- brand or status→:::←convenience or usability <!--SR:!2024-05-15,20,254!2024-05-25,14,234-->
+- brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-05-25,14,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
 - cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-31,18,157-->
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
@@ -237,7 +237,7 @@ personal assistance
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←automated services <!--SR:!2024-05-29,29,274!2024-06-13,44,290-->
-- automated services→:::←co-creation <!--SR:!2024-05-18,21,254!2024-05-15,18,254-->
+- automated services→:::←co-creation <!--SR:!2024-05-18,21,254!2024-07-17,63,274-->
 - co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-06-02,35,274-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-05-24,27,277!2024-06-03,36,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2024-07-03,61,317-->
@@ -318,8 +318,8 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-05-15,4,289!2024-05-15,4,289!2024-05-15,4,289!2024-05-15,4,289!2024-05-15,4,289-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-05-27,12,289!2024-05-26,11,289!2024-05-28,13,289!2024-05-25,10,289!2024-05-29,14,289-->
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-05-15,4,289!2024-05-15,4,289!2024-05-15,4,289-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-05-28,13,289!2024-05-27,12,289!2024-06-01,17,309-->

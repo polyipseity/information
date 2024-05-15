@@ -19,7 +19,7 @@ When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deriv
 
 ### select properties
 
-- functional [power rule](power%20rule.md) ::: $$\frac {(x^y)'} {x^y} = y \frac {x'} x + y' \ln x \qquad x > 0$$ <!--SR:!2024-05-15,61,230!2024-09-27,170,310-->
+- functional [power rule](power%20rule.md) ::: $$\frac {(x^y)'} {x^y} = y \frac {x'} x + y' \ln x \qquad x > 0$$ <!--SR:!2024-10-01,139,230!2024-09-27,170,310-->
 - [power rule](power%20rule.md) ::: $$\frac {(u^k)'} {u^k} = k \frac {u'} u \qquad u > 0, k = \mathrm{const} $$ <!--SR:!2024-09-05,154,310!2024-12-28,256,330-->
 - [product rule](product%20rule.md) ::: $$\frac {(\prod _{i = 1} ^n x_i)'} {\prod _{i = 1} ^n x_i} = \sum _{i = 1} ^n \frac {x_i'} {x_i}$$ <!--SR:!2024-12-19,248,330!2024-10-25,205,330-->
 - [quotient rule](quotient%20rule.md) ::: $$\frac {(u / v)'} {u / v} = \frac {u'} u - \frac {v'} v$$ <!--SR:!2024-12-10,224,310!2025-01-09,265,330-->
