@@ -516,6 +516,52 @@ $$\begin{aligned}
 
 ## Q13
 
+Let $a$ be a real number which is not an integer. Let $f(x) = \cos ax$ be defined on $[-\pi, \pi]$ and extended periodically to become a function with period $2\pi$.
+
 ### Q13.a
 
+Compute the Fourier series of $f$.
+
+---
+
+$$\begin{aligned}
+& \because f\text{ is a periodic function of period }2\pi \\
+& \phantom \because f\text{ is continuously differentiable on }\mathbb{R} \\
+& \therefore f\text{ equals its Fourier series on }\mathbb{R} \\
+\\
+& \phantom = f(x) \\
+& = \frac 1 {2\pi} \! \int_{-\pi}^\pi \! f(x) \,\mathrm{d}x + \sum_{n = 1}^{+\infty} \left( \cos(nx) \frac 1 \pi \int_{-\pi}^\pi \! f(x) \cos(nx) \,\mathrm{d}x + \sin(nx) \frac 1 \pi \int_{-\pi}^\pi \! f(x) \sin(nx) \,\mathrm{d}x \right) \\
+& = \frac 1 {2\pi} \! \int_{-\pi}^\pi \! \cos(ax) \,\mathrm{d}x + \sum_{n = 1}^{+\infty} \left( \cos(nx) \frac 1 \pi \int_{-\pi}^\pi \! \cos(ax) \cos(nx) \,\mathrm{d}x + \sin(nx) \frac 1 \pi \int_{-\pi}^\pi \! \cos(ax) \sin(nx) \,\mathrm{d}x \right) \\
+& = \frac 1 {2a\pi} [\sin(ax)]_{x = -\pi}^\pi + \sum_{n = 1}^{+\infty} \left(\cos(nx) \frac 1 {2\pi} \int_{-\pi}^\pi \left(\cos((a - n)x) + \cos((a + n)x) \right) \,\mathrm{d}x \right. \\
+& \phantom = \left. + \sin(nx) \frac 1 {2\pi} \int_{-\pi}^\pi \! \left(\sin((a + n)x) - \sin((a - n)x) \right) \,\mathrm{d}x \right) \\
+& = \frac {\sin(a\pi)} {a\pi} + \sum_{n = 1}^{+\infty} \left(\frac {\cos(nx)} {2\pi} \left[\frac {\sin((a - n)x)} {a - n} + \frac {\sin((a + n)x)} {a + n} \right]_{x = -\pi}^\pi \right. && (a \notin \mathbb{Z}) \\
+& \phantom = \left. - \frac {\sin(nx)} {2\pi} \left[\frac {\cos((a + n)x)} {a + n} - \frac {\cos((a - n)x)} {a - n} \right]_{x = -\pi}^\pi \right) \\
+& = \frac {\sin(a\pi)} {a\pi} + \frac 1 \pi \sum_{n = 1}^{+\infty} \cos(nx) \left(\frac {\sin((a - n)\pi)} {a - n} + \frac {\sin((a + n)\pi)} {a + n} \right) \\
+& = \frac {\sin(a\pi)} {a\pi} + \frac 1 \pi \sum_{n = 1}^{+\infty} \cos(nx) \frac {(a + n)\sin((a - n)\pi) + (a - n)\sin((a + n)\pi)} {a^2 - n^2} \\
+& = \frac {\sin(a\pi)} {a\pi} + \frac 1 \pi \sum_{n = 1}^{+\infty} \cos(nx) \frac {2a \sin\left(a\pi\right) \cos (n\pi) + 2n \sin(n\pi) \cos(a\pi)} {a^2 - n^2} \\
+& = \frac {\sin(a\pi)} {a\pi} + \frac {2a} \pi \sum_{n = 1}^{+\infty} \cos(nx) \frac {(-1)^n \sin(a\pi)} {a^2 - n^2} \\
+& = \frac {\sin(a\pi)} {a\pi} + \frac {2a\sin(a\pi)} \pi \sum_{n = 1}^{+\infty} (-1)^n \frac {\cos(nx)} {a^2 - n^2}
+\end{aligned}$$
+
 ### Q13.b
+
+Using [(a)](#Q13.a), prove that $$\sum_{k = 1}^{+\infty} \frac {(-1)^{k - 1} } {k^2 - a^2} = - \frac 1 {2a^2} + \frac \pi {2a \sin(a\pi)}$$.
+
+and in a similar way also compute $$\sum_{k = 1}^{+\infty} \frac 1 {k^2 - a^2}$$.
+
+---
+
+$$\begin{aligned}
+f(x) & = \frac {\sin(a\pi)} {a\pi} + \frac {2a\sin(a\pi)} \pi \sum_{n = 1}^{+\infty} (-1)^n \frac {\cos(nx)} {a^2 - n^2} && (\text{Q13.a}) \\
+\\
+f(0) & = \frac {\sin(a\pi)} {a\pi} + \frac {2a\sin(a\pi)} \pi \sum_{n = 1}^{+\infty} (-1)^n \frac {\cos(0n)} {a^2 - n^2} \\
+\cos(0a) & = \frac {\sin(a\pi)} {a\pi} + \frac {2a\sin(a\pi)} \pi \sum_{k = 1}^{+\infty} \frac {(-1)^{k - 1} } {k^2 - a^2} \\
+1 - \frac {\sin(a\pi)} {a\pi} & = \frac {2a\sin(a\pi)} \pi \sum_{k = 1}^{+\infty} \frac {(-1)^{k - 1} } {k^2 - a^2} \\
+\sum_{k = 1}^{+\infty} \frac {(-1)^{k - 1} } {k^2 - a^2} & = - \frac {1} {2a^2} + \frac \pi {2a\sin(a\pi)} \\
+\\
+f(\pi) & = \frac {\sin(a\pi)} {a\pi} + \frac {2a\sin(a\pi)} \pi \sum_{n = 1}^{+\infty} (-1)^n \frac {\cos(n\pi)} {a^2 - n^2} \\
+\cos(a\pi) & = \frac {\sin(a\pi)} {a\pi} + \frac {2a\sin(a\pi)} \pi \sum_{k = 1}^{+\infty} \frac 1 {a^2 - k^2} \\
+\cos(a\pi) - \frac {\sin(a\pi)} {a\pi} & = -\frac {2a\sin(a\pi)} \pi \sum_{k = 1}^{+\infty} \frac 1 {k^2 - a^2} \\
+\sum_{k = 1}^{+\infty} \frac 1 {k^2 - a^2} & = \frac {1} {2a^2} - \frac {\pi\cos(a\pi)} {2a \sin(a\pi)} \\
+& = \frac 1 {2a^2} - \frac \pi {2a} \cot(a\pi)
+\end{aligned}$$
