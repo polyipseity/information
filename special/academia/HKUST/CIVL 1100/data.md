@@ -72,14 +72,14 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-06-09,37,335!2024-08-27,106,377-->
 - height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-05-19,10,261!2024-08-25,104,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-05-19,13,340!2024-05-24,18,360-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-05-16,15,341!2024-05-20,18,361-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-07-06,51,341!2024-05-20,18,361-->
 
 ## China International Trust and Investment Plaza
 
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-05-22,18,272!2024-08-09,90,367-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-16,1,181!2024-07-11,66,352-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-18,2,181!2024-07-11,66,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-05-22,16,340!2024-05-27,21,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-05-27,21,360!2024-05-24,18,360-->
 
@@ -143,7 +143,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-06-01,21,275!2024-07-23,75,367-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-05-17,11,237!2024-05-29,54,310-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-05-23,17,360!2024-05-27,21,360-->
-- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-05-16,10,280!2024-05-24,18,360-->
+- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-06-12,27,280!2024-05-24,18,360-->
 
 ## MOSE
 

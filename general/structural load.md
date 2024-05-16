@@ -64,7 +64,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-05-18,4,288!2024-05-18,4,280-->
-- [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-05-19,4,270!2024-05-16,1,230-->
+- [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-05-19,4,270!2024-05-19,3,250-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-05-18,3,250!2024-05-18,4,288-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2024-05-18,4,280!2024-05-18,3,250-->
 - [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-05-19,4,270!2024-05-18,4,280-->
@@ -80,7 +80,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-05-19,4,270!2024-05-17,3,260!2024-05-18,3,250!2024-05-18,3,250!2024-05-16,1,230!2024-05-17,3,260-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-05-19,4,270!2024-05-17,3,260!2024-05-18,3,250!2024-05-18,3,250!2024-05-18,2,230!2024-05-17,3,260-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-05-19,4,290-->
 
@@ -121,7 +121,7 @@ return await memorize_seq(
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-05-17,3,268!2024-05-17,3,260-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-05-17,3,268!2024-05-17,3,260-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-05-17,3,260!2024-05-17,3,260-->
-- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-05-17,3,260!2024-05-16,1,230-->
+- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-05-17,3,260!2024-05-18,2,230-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-05-18,4,280!2024-05-18,4,288-->
 
 <!--/pytextgen-->
