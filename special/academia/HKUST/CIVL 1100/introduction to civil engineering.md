@@ -1219,7 +1219,7 @@ water tower
 return await memorize_seq(
   __env__.cwf_sects("5a34", "34aa",),
   """
-On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
+On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
 Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.
 The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.
@@ -1234,9 +1234,9 @@ and the Structural Engineering Institute (SEI).
 
 %%
 
-<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-04-29T17:46:56.921904+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-05-16T15:46:41.765927+08:00. Any edits will be overridden! -->
 
-> 1. On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.
+> 1. On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.
 > 2. Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
 > 3. Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.
 > 4. The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.
@@ -1248,10 +1248,10 @@ and the Structural Engineering Institute (SEI).
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-04-29T17:46:56.910727+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
-- On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-05-24,25,315!2024-05-25,25,315-->
+- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
+- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-05-24,25,315!2024-05-25,25,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-05-28,50,270!2024-06-02,32,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-05-26,26,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-05-28,28,315-->
