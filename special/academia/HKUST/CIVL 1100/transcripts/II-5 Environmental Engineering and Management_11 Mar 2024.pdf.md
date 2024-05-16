@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../../../../tools/utility.py.md
 ```
 
 %%
@@ -56,9 +56,26 @@ return await memorize_seq(
 
 %%
 
-<!--pytextgen generate section="b823"--><!--/pytextgen-->
+<!--pytextgen generate section="b823"--><!-- The following content is generated at 2024-05-16T15:50:23.916263+08:00. Any edits will be overridden! -->
 
-<!--pytextgen generate section="48ff"--><!--/pytextgen-->
+> 1. air pollution
+> 2. land contamination
+> 3. noise pollution
+> 4. solid waste disposal
+> 5. water pollution
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←air pollution
+- air pollution→:::←land contamination
+- land contamination→:::←noise pollution
+- noise pollution→:::←solid waste disposal
+- solid waste disposal→:::←water pollution
+- water pollution→:::←_(end)_
+
+<!--/pytextgen-->
 
 ### environmental laws
 
@@ -81,9 +98,26 @@ return await memorize_seq(
 
 %%
 
-<!--pytextgen generate section="a123"--><!--/pytextgen-->
+<!--pytextgen generate section="a123"--><!-- The following content is generated at 2024-05-16T15:50:24.092123+08:00. Any edits will be overridden! -->
 
-<!--pytextgen generate section="a92d"--><!--/pytextgen-->
+> 1. air sparging
+> 2. bioremediation
+> 3. catalytic oxidation
+> 4. ex-situ biopile
+> 5. ex-situ solidification or stabilization
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-05-16T15:50:24.044512+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←air sparging
+- air sparging→:::←bioremediation
+- bioremediation→:::←catalytic oxidation
+- catalytic oxidation→:::←ex-situ biopile
+- ex-situ biopile→:::←ex-situ solidification or stabilization
+- ex-situ solidification or stabilization→:::←_(end)_
+
+<!--/pytextgen-->
 
 ## page 4
 
@@ -345,9 +379,28 @@ return await memorize_seq(
 
 %%
 
-<!--pytextgen generate section="927b"--><!--/pytextgen-->
+<!--pytextgen generate section="927b"--><!-- The following content is generated at 2024-05-16T15:50:24.170867+08:00. Any edits will be overridden! -->
 
-<!--pytextgen generate section="ff34"--><!--/pytextgen-->
+> 1. carbon dioxide (CO<sub>2</sub>)
+> 2. hydroflurocarbons (HFCs)
+> 3. methane (CH<sub>4</sub>)
+> 4. nitrous oxide (N<sub>2</sub>O)
+> 5. perflurocarbons (PFCs)
+> 6. sulfur hexafluoride (SF<sub>6</sub>)
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←carbon dioxide (CO<sub>2</sub>)
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs)
+- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>)
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O)
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs)
+- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>)
+- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_
+
+<!--/pytextgen-->
 
 ## page 31
 
