@@ -34,9 +34,9 @@ User desirability describes {{how much people want the product, depending on the
 
 Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2024-05-18,9,250!2024-05-25,14,290-->
 
-Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2024-05-16,7,250!2024-05-17,8,250-->
+Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2024-06-08,23,270!2024-05-17,8,250-->
 
-The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the market, technology, and business model}} is required. <!--SR:!2024-05-16,7,250!2024-06-06,22,270-->
+The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the market, technology, and business model}} is required. <!--SR:!2024-06-09,24,270!2024-06-06,22,270-->
 
 Design thinking can be used in {{design conceptualization}}. It is the {{most important stage of product development}} because it is {{at the start of the product development and requires the least effort, so it produces the highest rate of return}}. The rate of return decreases along the stages as {{mistakes in later stages become much more costly}}. <!--SR:!2024-05-19,10,250!2024-05-27,16,290!2024-05-22,11,270!2024-05-23,12,270-->
 

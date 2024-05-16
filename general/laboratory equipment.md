@@ -245,7 +245,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f002"--><!-- The following content is generated at 2024-01-04T20:17:52.211338+08:00. Any edits will be overridden! -->
 
-- ![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg)::[Bunsen burner](Bunsen%20burner.md) <!--SR:!2024-05-16,319,330-->
+- ![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg)::[Bunsen burner](Bunsen%20burner.md) <!--SR:!2028-05-09,1454,350-->
 - ![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg)::[Liebig condenser](Liebig%20condenser.md) <!--SR:!2027-06-06,1187,350-->
 - ![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg)::[beaker](beaker.md) <!--SR:!2027-04-11,1141,350-->
 - ![burette](../archives/Wikimedia%20Commons/Burette.svg)::[burette](burette.md) <!--SR:!2024-10-27,429,310-->

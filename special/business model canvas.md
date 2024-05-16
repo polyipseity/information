@@ -123,7 +123,7 @@ segmented: splitting slightly different customer segments
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-06-10,32,257!2024-07-14,69,317-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-05-17,20,254!2024-05-26,29,277-->
-- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-05-16,19,254-->
+- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-05-25,9,234-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-06-22,39,254!2024-06-26,42,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-05-17,14,234-->
 
@@ -186,7 +186,7 @@ risk reduction
 - cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-31,18,157-->
 - customization→:::←design <!--SR:!2024-05-27,29,277!2024-05-23,22,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
-- newness→:::←performance <!--SR:!2024-05-16,22,277!2024-06-19,39,257-->
+- newness→:::←performance <!--SR:!2024-07-16,61,277!2024-06-19,39,257-->
 - performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-06-03,34,274-->
 - performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-07-10,60,274-->
 - price→:::←risk reduction <!--SR:!2024-05-18,21,254!2024-05-19,22,254-->

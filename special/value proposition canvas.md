@@ -134,7 +134,7 @@ vagueness: vague jobs, pains, and gains
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-06-14,37,269!2024-05-16,31,270!2024-06-10,43,309-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves, but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-06-14,37,269!2024-08-06,82,270!2024-06-10,43,309-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-06-20,47,309!2024-08-15,98,290!2024-06-11,53,310-->
 
@@ -175,7 +175,7 @@ mix: mixing products and services with pain relievers and gain creators
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-06-20,40,269!2024-07-22,77,329-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-06-09,27,229!2024-07-08,55,269-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-05-30,22,249!2024-05-18,20,269-->
-- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-05-16,8,249!2024-05-21,23,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-06-05,20,249!2024-05-21,23,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-19,5,189-->
 
 <!--/pytextgen-->
@@ -233,7 +233,7 @@ find customer patterns
 - _(begin)_→:::←create a customer profile <!--SR:!2024-06-03,36,289!2024-07-19,74,329-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-07-09,59,289!2024-06-07,38,289-->
 - outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2024-06-26,56,309-->
-- interview→:::←capture new customer profile <!--SR:!2024-05-16,18,269!2024-06-29,54,309-->
+- interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2024-06-29,54,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2024-07-13,63,289-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-06-17,39,269!2024-07-17,65,289-->
 - find customer patterns→:::←_(end)_ <!--SR:!2024-07-22,75,329!2024-06-21,48,309-->

@@ -92,7 +92,7 @@ The content is in teaching order.
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-05-29,28,317!2024-07-19,67,347-->
   - materials engineer jobs ::: highly varied <!--SR:!2024-06-11,67,330!2024-08-13,94,372-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::: development of improved or new materials <!--SR:!2024-05-16,17,297!2024-06-21,77,330-->
+  - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2024-06-21,77,330-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-06-07,29,320!2024-06-04,31,312-->
@@ -158,7 +158,7 @@ quantity surveyor
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-05-26,25,315!2024-05-27,27,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-05-21,22,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-05-24,23,285-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-05-16,3,260-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-05-22,6,260-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-05-17,19,360-->
 
 <!--/pytextgen-->
@@ -207,7 +207,7 @@ water and sewage treatment system
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-05-19,21,360-->
 - dam→:::←pipeline <!--SR:!2024-05-22,7,224!2024-06-14,36,321-->
-- pipeline→:::←power plant <!--SR:!2024-05-16,3,240!2024-05-29,15,281-->
+- pipeline→:::←power plant <!--SR:!2024-05-23,7,240!2024-05-29,15,281-->
 - power plant→:::←reservoir <!--SR:!2024-05-31,22,275!2024-06-06,28,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-05-17,4,177!2024-05-19,10,261-->
 - sewage treatment→:::←transport <!--SR:!2024-05-29,16,250!2024-05-23,17,301-->
@@ -494,7 +494,7 @@ testing materials
 - designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-05-22,18,277-->
 - logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-31,29,315-->
 - planning→:::←procuring materials <!--SR:!2024-05-18,14,297!2024-06-06,22,277-->
-- procuring materials→:::←quality assurance <!--SR:!2024-05-16,7,300!2024-06-06,26,281-->
+- procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-05-20,11,332-->
 - quality control→:::←safety engineering <!--SR:!2024-05-28,22,301!2024-05-30,27,315-->
 - safety engineering→:::←scheduling <!--SR:!2024-06-04,26,320!2024-06-02,27,320-->
@@ -538,7 +538,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-05-16,5,232!2024-05-19,21,361-->
+- _(begin)_→:::←business procedures <!--SR:!2024-05-30,14,232!2024-05-19,21,361-->
 - business procedures→:::←economics <!--SR:!2024-05-17,3,261!2024-05-22,18,265-->
 - economics→:::←human behaviors <!--SR:!2024-05-30,24,320!2024-06-14,39,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-06-13,30,280-->
@@ -686,7 +686,7 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air <!--SR:!2024-05-16,15,341!2024-05-21,19,361-->
+- _(begin)_→:::←air <!--SR:!2024-07-09,54,341!2024-05-21,19,361-->
 - air→:::←environmental impact assessment (EIA) <!--SR:!2024-06-23,41,298!2024-05-24,24,318-->
 - environmental impact assessment (EIA)→:::←noise <!--SR:!2024-05-22,24,307!2024-05-18,20,360-->
 - noise→:::←waste <!--SR:!2024-07-14,62,360!2024-06-16,41,335-->
@@ -769,8 +769,8 @@ soil liquefaction
 - _(begin)_→:::←debris flow <!--SR:!2024-05-23,24,314!2024-08-10,89,378-->
 - debris flow→:::←landslide <!--SR:!2024-05-19,20,315!2024-05-18,18,315-->
 - landslide→:::←rockfall <!--SR:!2024-07-22,68,312!2024-05-30,16,300-->
-- rockfall→:::←soil liquefaction <!--SR:!2024-05-16,17,290!2024-05-21,34,250-->
-- soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-05-16,13,295-->
+- rockfall→:::←soil liquefaction <!--SR:!2024-07-02,47,290!2024-05-21,34,250-->
+- soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-06-25,40,295-->
 
 <!--/pytextgen-->
 
@@ -804,7 +804,7 @@ tunnel
 
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-05-16,18,360-->
+- _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-05-20,14,297!2024-06-27,54,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-05-24,10,321!2024-05-17,6,252-->
@@ -1041,8 +1041,8 @@ wave
 - earthquake→:::←fire <!--SR:!2024-06-02,34,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-05-24,30,246-->
 - flood→:::←strong wind <!--SR:!2024-05-30,19,320!2024-05-27,26,317-->
-- strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-05-16,13,294-->
-- wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-05-16,16,295-->
+- strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-06-22,37,294-->
+- wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-07-22,67,315-->
 
 <!--/pytextgen-->
 
@@ -1198,10 +1198,10 @@ water tower
 
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2024-06-03,32,315!2024-05-16,18,360-->
+- _(begin)_→:::←bridge <!--SR:!2024-06-03,32,315!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-05-18,20,360-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
-- dam→:::←power plant <!--SR:!2024-05-29,23,301!2024-05-16,10,258-->
+- dam→:::←power plant <!--SR:!2024-05-29,23,301!2024-06-10,25,258-->
 - power plant→:::←storage facility <!--SR:!2024-05-28,22,300!2024-05-24,25,314-->
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-06-04,29,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-05-25,14,247!2024-06-18,38,320-->
@@ -1253,7 +1253,7 @@ and the Structural Engineering Institute (SEI).
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
 - On 24 June 2021, a 12-story beachfront condominium in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-05-24,25,315!2024-05-25,25,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-05-28,50,270!2024-06-02,32,317-->
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-05-16,16,294!2024-05-26,26,316-->
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-05-26,26,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-05-28,28,315-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-06-01,30,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-05-27,28,310-->
@@ -1344,7 +1344,7 @@ water treatment
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-06-03,28,320!2024-06-07,38,337-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-05-22,21,295!2024-05-18,12,280-->
-- wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-05-16,14,297-->
+- wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-05-18,5,260!2024-07-03,50,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-06-17,46,324!2024-05-26,26,314-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-05-18,5,226-->
