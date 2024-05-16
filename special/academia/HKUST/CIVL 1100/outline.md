@@ -121,3 +121,28 @@ The content is in teaching order.
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-05-18,4,290!2024-05-19,4,281-->
+
+## week 6 lecture
+
+- [`I-4.1 History of civil engineering and Infrastructure.pdf`](transcripts/I-4.1%20History%20of%20civil%20engineering%20and%20Infrastructure.pdf.md)
+-
+
+## week 7 lecture
+
+- [`II-5 Environmental Engineering and Management_11 Mar 2024.pdf`](transcripts/II-5%20Environmental%20Engineering%20and%20Management_11%20Mar%202024.pdf.md)
+
+## week 8 lecture
+
+- [`II-6 Land Decontamination and Solid Waste_18 Mar 2024.pdf`](transcripts/II-6%20Land%20Decontamination%20and%20Solid%20Waste_18%20Mar%202024.pdf.md)
+
+## week 9 lecture
+
+## week 11 lecture
+
+## week 12 lecture
+
+## week 13 lecture
+
+## week 14 lecture
+
+## week 15 lecture

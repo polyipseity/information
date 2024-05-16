@@ -19,7 +19,7 @@ tags:
 
 > __Maxwell–Boltzmann distribution in [three-dimensional space](three-dimensional%20space.md)__
 >
-> {{$$\begin{aligned} f(\vec{v}) \,\mathrm{d}^3\vec{v} & = \left(\frac{m}{2\pi k T}\right)^\frac32 \exp\left( -\frac{m\lvert\vec{v}\rvert^2}{2kT} \right) \,\mathrm{d}^3\vec{v} \\ f(v) & = 4\pi v^2 \left(\frac{m}{2\pi k T}\right)^\frac32 \exp\left(-\frac{mv^2}{2kT}\right) \end{aligned}$$}}
+> {{$$\begin{aligned} f(\vec{v}) \,\mathrm{d}^3\vec{v} & = \left(\frac{m}{2\pi k T}\right)^\frac32 \exp\left( -\frac{m\lvert\vec{v}\rvert^2}{2kT} \right) \,\mathrm{d}^3\vec{v} \\ f(v) \,\mathrm{d}v & = 4\pi v^2 \left(\frac{m}{2\pi k T}\right)^\frac32 \exp\left(-\frac{mv^2}{2kT}\right) \,\mathrm{d}v \end{aligned}$$}}
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$f(\vec{v})$ is a [probability density function](probability%20density%20function.md), showing the fraction of [particles](particle.md) within an infinitesimal element of the three-dimensional velocity space $\mathrm{d}^3\vec{v}$ centered on a velocity vector $\vec{v}$, properly normalized such that $\int f(\vec{v}) \,\mathrm{d}^3\vec{v}$ over all velocity vectors is unity; and $f(v)$ is another [probability density function](probability%20density%20function.md), showing the density of [particles](particle.md) with velocity $v$, properly normalized such that $\int_0^\infty f(v) \,\mathrm{d}v$ is unity}}
