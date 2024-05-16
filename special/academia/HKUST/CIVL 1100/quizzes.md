@@ -32,7 +32,7 @@ Example quiz questions for preparing exams.
 > 3. RBRGs were developed because no local standard existed in the past
 > 4. RBRGs were developed for contaminated land management
 >
-> - solution: {{1}}
+> - solution: {{1}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -45,7 +45,7 @@ Example quiz questions for preparing exams.
 > 3. Urban residential
 > 4. Public parks
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -58,7 +58,7 @@ Example quiz questions for preparing exams.
 > 3. C3S (tricalcium silicates)
 > 4. C3A (tricalcium aluminate)
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -71,7 +71,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial waste is classified as MSW
 > 4. Food waste is classified as MSW
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -84,7 +84,7 @@ Example quiz questions for preparing exams.
 > 3. Food waste has higher energy content because of its rich organic content
 > 4. Food waste is the most preferable energy source for incineration because it is environmental friendly
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -97,7 +97,7 @@ Example quiz questions for preparing exams.
 > 3. Lime scrubber is used to neutralize acid gases (NOx, SOx, HCl)
 > 4. Selective catalytic reactor is used to convert nitrogen to nitrogen oxides
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-19,3,252-->
 
 ## environmental engineering quiz 2
 
@@ -110,7 +110,7 @@ Example quiz questions for preparing exams.
 > 3. Groundwater
 > 4. Desalination from sea water
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -123,7 +123,7 @@ Example quiz questions for preparing exams.
 > 3. To enhance coagulation and flocculation
 > 4. To remove odor
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -136,7 +136,7 @@ Example quiz questions for preparing exams.
 > 3. Bacteria get inactive permanently
 > 4. Bacteria may re-grow
 >
-> - solution: {{4}}
+> - solution: {{4}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -149,7 +149,7 @@ Example quiz questions for preparing exams.
 > 3. Filtration
 > 4. Chemical enhanced sedimentation
 >
-> - solution: {{1}}
+> - solution: {{1}} <!--SR:!2024-05-17,1,232-->
 
 <!-- markdownlint MD028 -->
 
@@ -162,7 +162,7 @@ Example quiz questions for preparing exams.
 > 3. High concentration of BOD increases the solubility and toxicity of metals in water body
 > 4. High concentration of BOD leads to the algae bloom
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -175,7 +175,7 @@ Example quiz questions for preparing exams.
 > 3. COD > BODu < BOD5
 > 4. COD > BODu > BOD5
 >
-> - solution: {{4}}
+> - solution: {{4}} <!--SR:!2024-05-19,3,252-->
 
 ## environmental engineering quiz 3
 
@@ -188,7 +188,7 @@ Example quiz questions for preparing exams.
 > 3. When the distance away from a point source reduces by half, the sound level increases by 6 dB
 > 4. When the sound pressure increases 100 times, the sound level increases by 10 dB
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -201,7 +201,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial block is used as noise tolerant building to protect the residential building from road traffic noise
 > 4. Residential building with no balcony is built to reduce the impact of road traffic noise
 >
-> - solution: {{4}}
+> - solution: {{4}} <!--SR:!2024-05-17,1,232-->
 
 <!-- markdownlint MD028 -->
 
@@ -214,7 +214,7 @@ Example quiz questions for preparing exams.
 > 3. Nitrogen oxides
 > 4. Solvents
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -227,7 +227,7 @@ Example quiz questions for preparing exams.
 > 3. Amount of greenhouse gases is expressed in terms of equivalent amount of carbon
 > 4. Global warming is due to the presence of greenhouse gases (GHG)
 >
-> - solution: {{1}}
+> - solution: {{1}} <!--SR:!2024-05-17,1,232-->
 
 <!-- markdownlint MD028 -->
 
@@ -240,7 +240,7 @@ Example quiz questions for preparing exams.
 > 3. 9.80 kg CO2/gal
 > 4. 10.80 kg CO2/gal
 >
-> - solution: {{1}}
+> - solution: {{1}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -253,7 +253,7 @@ Example quiz questions for preparing exams.
 > 3. Buildings
 > 4. Transportation
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 ## geotechnical engineering quiz 1
 
@@ -266,7 +266,7 @@ Example quiz questions for preparing exams.
 > 3. Soil can stand up 90 degree, even without any lateral weight
 > 4. Soil strength does not depend on its self-weight
 >
-> - solution: {{4}}
+> - solution: {{4}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -279,7 +279,7 @@ Example quiz questions for preparing exams.
 > 3. A soil is described as "plastic" when  the soil moisture content is higher than the plasticity index
 > 4. Soil with moisture content above the liquid limit "feels" like toothpaste
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-17,1,232-->
 
 <!-- markdownlint MD028 -->
 
@@ -292,7 +292,7 @@ Example quiz questions for preparing exams.
 > 3. shallow foundation on tuff materials
 > 4. deep foundation on tuff materials
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -305,7 +305,7 @@ Example quiz questions for preparing exams.
 > 3. 220.89 MN
 > 4. 110.4 MN
 >
-> - solution: {{4}}
+> - solution: {{4}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -318,7 +318,7 @@ Example quiz questions for preparing exams.
 > 3. The soil underneath is too soft
 > 4. The wind loading is too high
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-05-20,4,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -333,7 +333,7 @@ Example quiz questions for preparing exams.
 > 3. In a soil slide, a soil mass slides along a slip surface
 > 4. In a rock fall, pieces of rock blocks detach from the rock mass and fall down the hill
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -346,7 +346,7 @@ Example quiz questions for preparing exams.
 > 3. It is possible when the true cohesion of the sand disappears under rainfall
 > 4. It is not possible the friction angle is higher than the slope angle.
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -359,7 +359,7 @@ Example quiz questions for preparing exams.
 > 3. Drill and blast
 > 4. Immersed tube tunnel
 >
-> - solution: {{4}}
+> - solution: {{4}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -372,7 +372,7 @@ Example quiz questions for preparing exams.
 > 3. The seabed mud must always be dredged before placing the fill
 > 4. The settlement of a newly reclaimed land can take a long time
 >
-> - solution: {{1, 4}}
+> - solution: {{1, 4}} <!--SR:!2024-05-19,3,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Example quiz questions for preparing exams.
 > 3. To eliminate the risk of liquefaction in seismic zones
 > 4. To minimize the future settlement
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-05-20,4,272-->
 
 ## week 4 lecture quiz
 

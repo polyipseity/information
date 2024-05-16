@@ -69,7 +69,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 See [CN Tower](../../../../general/CN%20Tower.md).
 
-- image ::: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg)
+- image ::: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
 
 ## Central Plaza (Hong Kong)
 
@@ -84,8 +84,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994
-- rail tunnel length ::: 50.5 km (37.9 km underseas)
+- completion time ::: 1994 <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-17,1,316!2024-05-21,5,356-->
 
 ## China International Trust and Investment Plaza
 
@@ -100,12 +100,12 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 See [Colosseum](../../../../general/Colosseum.md).
 
-- base widths ::: length: 189 m, width: 156 m
-- construction period ::: AD 72 to AD 80, 8 years
-- description ::: elliptical amphitheater in the center of Rome
-- geographic location ::: Rome
-- height ::: 48 m (4 storeys)
-- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering
+- base widths ::: length: 189 m, width: 156 m <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+- description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- geographic location ::: Rome <!--SR:!2024-05-21,5,356!2024-05-21,5,356-->
+- height ::: 48 m (4 storeys) <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
 
 ## Eiffel Tower
 
@@ -120,33 +120,33 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
-- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg)
+- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-05-22,6,356!2024-05-19,3,336-->
 
 ## Golden Gate Bridge
 
 See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
-- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg)
+- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2024-05-21,5,356!2024-05-22,6,356-->
 
 ## Great Pyramid of Giza
 
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
-- base width ::: 230.33 m
-- construction period ::: 10~20 years around 2560 BC
-- description ::: largest pyramid in the Giza Necropolis, Egypt
-- height ::: current: 138.5 m, original: 146.6 m
-- weight ::: 5.9 million tonnes
-- tomb for ::: Egypt's 4th dynasty pharaoh Khufu
+- base width ::: 230.33 m <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-17,1,316!2024-05-21,5,356-->
+- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-05-21,5,356!2024-05-21,5,356-->
+- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-05-19,3,336!2024-05-21,5,356-->
+- weight ::: 5.9 million tonnes <!--SR:!2024-05-21,5,356!2024-05-22,6,356-->
+- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-05-22,6,356!2024-05-19,3,336-->
 
 ## Great Wall of China
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower
-- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644)
-- geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu
-- length ::: 21196.18 km
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-05-17,1,316!2024-05-21,5,356-->
+- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- length ::: 21196.18 km <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
 
 ## HSBC Main Building
 
@@ -196,7 +196,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
-- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg)
+- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-05-22,6,356!2024-05-19,3,336-->
 
 ## John Hancock Center
 
@@ -216,15 +216,15 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
-- bridge type ::: cable-stayed road bridge
-- designers ::: Michel Virlogeux, Norman Foster
-- geographic location ::: across the gorge valley of the Tarn near Millau in southern France
-- height ::: max pylon above base: 343 m, structural: 336.4 m
-  - height record ::: as of October 2023, tallest bridge in the world
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m
-- image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg)
-- opening time ::: 2024-12-16, 09:00
-- width ::: 32.05 m
+- bridge type ::: cable-stayed road bridge <!--SR:!2024-05-22,6,356!2024-05-21,5,356-->
+- designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-05-19,3,336!2024-05-19,3,336-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-05-21,5,356!2024-05-21,5,356-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-05-19,3,336!2024-05-21,5,356-->
+- image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-05-22,6,356!2024-05-19,3,336-->
+- opening time ::: 2024-12-16, 09:00 <!--SR:!2024-05-17,1,316!2024-05-19,3,336-->
+- width ::: 32.05 m <!--SR:!2024-05-17,1,316!2024-05-17,1,316-->
 
 ## Mont Cenis Base Tunnel
 
@@ -237,23 +237,23 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](../../../../general/Zuiderzee%20Works.md).
 
-- image ::: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg)
+- image ::: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
 
 ## Panama Canal
 
 See [Panama Canal](../../../../general/Panama%20Canal.md).
 
-- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg)
+- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2024-05-21,5,356!2024-05-22,6,356-->
 
 ## Parthenon
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years
-- dedication ::: Greek goddess Athena
-- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena
-- geographic location ::: Athenian Acropolis, Greece
-- importance ::: most important surviving building of classical Greece
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+- dedication ::: Greek goddess Athena <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
+- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
+- geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-05-19,3,336!2024-05-21,5,356-->
+- importance ::: most important surviving building of classical Greece <!--SR:!2024-05-22,6,356!2024-05-21,5,356-->
 
 ## Stonecutters Bridge
 
