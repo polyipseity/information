@@ -33,8 +33,8 @@ Former Penny's Bay Contaminated by Cheoy Lee Shipyard → Disney Theme Park
 Brownfield site development
 
 - brownfield
-  - brownfield in Hong Kong ::: agricultural or rural land in New Territories that is deserted and has been changed for container yards, depots, open storage, recycling yards, or rural industries <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
-    - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwu Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-05-17,1,230!2024-05-19,3,250-->
+  - brownfield in Hong Kong ::: agricultural or rural land in New Territories that is deserted and has been changed for container yards, depots, open storage, recycling yards, or rural industries <!--SR:!2024-05-20,3,250!2024-05-20,4,270-->
+    - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwu Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-05-19,2,230!2024-05-19,3,250-->
   - brownfield in the United States ::: currently unused land that was used with known or suspected not-very-serious pollution <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
 
 ## page 4
@@ -45,7 +45,7 @@ For example: Lok Ma Chau Loop or North East NT New Development Areas
 
 Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
-- soil standard for arsenic (As) ::: 21.8 mg/kg <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+- soil standard for arsenic (As) ::: 21.8 mg/kg <!--SR:!2024-05-20,3,250!2024-05-20,4,270-->
 
 <!-- TODO: expand -->
 
@@ -53,7 +53,7 @@ Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
 Land Contamination Assessment in Hong Kong
 
-- Environmental Impact Assessment Ordinance (EIAO) requirements ::: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation (RR) <!--SR:!2024-05-17,1,230!2024-05-19,3,250-->
+- Environmental Impact Assessment Ordinance (EIAO) requirements ::: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation (RR) <!--SR:!2024-05-19,2,230!2024-05-19,3,250-->
 
 <!-- TODO: expand -->
 

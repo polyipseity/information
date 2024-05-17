@@ -15,7 +15,7 @@ In [mechanics](mechanics.md), __stress__ is defined as {{relative [deformation](
 
 ### engineering strain
 
-__Engineering strain__, also known as {{__Cauchy strain__}}, is expressed as {{the ratio of the deformation to the initial dimension on the body}}. For an {{axial object}}, this is {{the _relative elongation_ (symbol: $e$ or $\varepsilon$) or the change in length $\Delta L$ per unit length of the original length $L$}}: {{$$e = \frac {\Delta L} L$$}}. <!--SR:!2024-05-18,4,270!2024-05-18,4,270!2024-05-18,4,270!2024-05-17,3,250!2024-05-18,4,270-->
+__Engineering strain__, also known as {{__Cauchy strain__}}, is expressed as {{the ratio of the deformation to the initial dimension on the body}}. For an {{axial object}}, this is {{the _relative elongation_ (symbol: $e$ or $\varepsilon$) or the change in length $\Delta L$ per unit length of the original length $L$}}: {{$$e = \frac {\Delta L} L$$}}. <!--SR:!2024-05-18,4,270!2024-05-18,4,270!2024-05-18,4,270!2024-05-28,11,270!2024-05-18,4,270-->
 
 Strain has {{no units and is dimensionless}}. <!--SR:!2024-05-18,4,270-->
 

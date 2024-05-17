@@ -159,7 +159,7 @@ quantity surveyor
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-05-21,22,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-05-24,23,285-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-05-22,6,260-->
-- quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-05-17,19,360-->
+- quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-08-18,93,380-->
 
 <!--/pytextgen-->
 
@@ -209,7 +209,7 @@ water and sewage treatment system
 - dam→:::←pipeline <!--SR:!2024-05-22,7,224!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-05-23,7,240!2024-05-29,15,281-->
 - power plant→:::←reservoir <!--SR:!2024-05-31,22,275!2024-06-06,28,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-05-17,4,177!2024-05-19,10,261-->
+- reservoir→:::←sewage treatment <!--SR:!2024-05-25,8,197!2024-05-19,10,261-->
 - sewage treatment→:::←transport <!--SR:!2024-05-29,16,250!2024-05-23,17,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-05-18,3,170-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-05-21,19,361!2024-05-21,19,361-->
@@ -300,7 +300,7 @@ workmanship
 - _(begin)_→:::←budgeting <!--SR:!2024-07-08,55,341!2024-05-19,21,360-->
 - budgeting→:::←construction management <!--SR:!2024-05-22,16,300!2024-05-22,23,315-->
 - construction management→:::←economics <!--SR:!2024-05-29,18,235!2024-06-01,21,280-->
-- economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-05-17,3,260-->
+- economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-05-24,7,260-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-05-24,18,300!2024-06-01,26,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-05-22,9,277!2024-05-26,24,312-->
 - maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-05-20,19,292-->
@@ -344,7 +344,7 @@ We Engineer Hong Kong’s Development
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-05-30,30,304!2024-06-09,38,307-->
 - We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-05-25,24,312!2024-05-20,5,277-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-06-10,41,330-->
-- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-05-17,19,360-->
+- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-08-21,96,380-->
 
 <!--/pytextgen-->
 
@@ -385,9 +385,9 @@ transportation
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-06-05,34,355-->
-- construction→:::←environmental <!--SR:!2024-05-31,22,320!2024-05-17,19,360-->
+- construction→:::←environmental <!--SR:!2024-05-31,22,320!2024-05-27,10,340-->
 - environmental→:::←geo-technical <!--SR:!2024-05-30,30,307!2024-06-16,46,325-->
-- geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-05-17,19,360-->
+- geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-21,65,360-->
 - hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
 - material→:::←structural <!--SR:!2024-05-26,25,317!2024-06-06,24,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
@@ -431,11 +431,11 @@ Water Cube
 
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Beijing National Stadium <!--SR:!2024-05-17,19,360!2024-06-27,54,347-->
+- _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-22,97,380!2024-06-27,54,347-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-05-28,28,304!2024-06-07,35,330-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-05-27,52,270!2024-06-15,42,332-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-06-05,28,320!2024-08-12,95,270-->
-- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-05-17,14,272-->
+- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-08,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-06-14,41,325-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-11,40,337!2024-06-04,26,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2024-06-15,44,337-->
@@ -539,11 +539,11 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-05-30,14,232!2024-05-19,21,361-->
-- business procedures→:::←economics <!--SR:!2024-05-17,3,261!2024-05-22,18,265-->
+- business procedures→:::←economics <!--SR:!2024-05-24,7,261!2024-05-22,18,265-->
 - economics→:::←human behaviors <!--SR:!2024-05-30,24,320!2024-06-14,39,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-06-13,30,280-->
 - management principles→:::←strong communication skills <!--SR:!2024-05-30,24,301!2024-06-01,23,300-->
-- strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-05-17,19,360-->
+- strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-19,94,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-05-23,10,272-->
 
 <!--/pytextgen-->
@@ -731,7 +731,7 @@ socioeconomic
 - biological→:::←chemical <!--SR:!2024-05-31,30,317!2024-07-14,69,357-->
 - chemical→:::←cultural <!--SR:!2024-05-19,6,280!2024-06-07,37,337-->
 - cultural→:::←physical <!--SR:!2024-05-29,31,325!2024-05-28,22,300-->
-- physical→:::←socioeconomic <!--SR:!2024-05-18,19,297!2024-05-17,19,361-->
+- physical→:::←socioeconomic <!--SR:!2024-05-18,19,297!2024-08-15,90,381-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-05-25,12,277-->
 
 <!--/pytextgen-->
@@ -807,7 +807,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-05-20,14,297!2024-06-27,54,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-05-24,10,321!2024-05-17,6,252-->
+- shallow foundation→:::←tunnel <!--SR:!2024-05-24,10,321!2024-06-08,22,272-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-05-26,17,297-->
 
 <!--/pytextgen-->
@@ -846,7 +846,7 @@ levee
 - canal→:::←channel <!--SR:!2024-06-06,37,337!2024-06-21,48,352-->
 - channel→:::←dam <!--SR:!2024-06-15,40,327!2024-06-15,64,270-->
 - dam→:::←levee <!--SR:!2024-07-02,50,340!2024-06-16,41,332-->
-- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-05-17,6,238-->
+- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-06-07,21,258-->
 
 <!--/pytextgen-->
 
@@ -884,7 +884,7 @@ water distribution network
 - sewage collection network→:::←storm water management <!--SR:!2024-05-18,12,247!2024-05-31,25,321-->
 - storm water management→:::←water collection network <!--SR:!2024-06-05,27,320!2024-06-10,32,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-05-18,20,360!2024-06-26,51,352-->
-- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-05-17,3,281-->
+- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-05-31,14,301-->
 
 <!--/pytextgen-->
 
@@ -1206,7 +1206,7 @@ water tower
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-06-04,29,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-05-25,14,247!2024-06-18,38,320-->
 - unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-06-29,51,330-->
-- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-05-17,8,281-->
+- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-06-18,32,301-->
 
 <!--/pytextgen-->
 

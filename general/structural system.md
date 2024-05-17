@@ -24,13 +24,13 @@ Buildings can be {{categorized by height}}: {{single-storey, multi-storey with h
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-05-18,4,270!2024-05-18,4,275-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-05-17,3,250!2024-05-18,4,275!2024-05-18,4,275!2024-05-18,4,270-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-05-28,11,270!2024-05-18,4,275!2024-05-18,4,275!2024-05-18,4,270-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->
 
-The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-05-18,4,275!2024-05-18,4,275!2024-05-18,4,275!2024-05-17,3,255!2024-05-17,3,255-->
+The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-05-18,4,275!2024-05-18,4,275!2024-05-18,4,275!2024-05-23,6,255!2024-05-27,10,275-->
 
-We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-05-18,4,275!2024-05-18,4,275!2024-05-17,3,255!2024-05-18,4,275!2024-05-18,4,275-->
+We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-05-18,4,275!2024-05-18,4,275!2024-05-24,7,255!2024-05-18,4,275!2024-05-18,4,275-->
 
 ### classification
 
@@ -71,12 +71,12 @@ The following interior structures are possible.
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-05-17,3,250!2024-05-18,4,275-->
-- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-05-18,3,255!2024-05-17,3,255-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-05-18,3,255!2024-05-17,3,255-->
-- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-05-18,4,275!2024-05-17,3,255-->
-- [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-05-17,3,255!2024-05-17,3,255-->
-- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-05-18,4,275!2024-05-17,3,255-->
+- _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-05-29,12,270!2024-05-18,4,275-->
+- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-05-18,3,255!2024-05-28,11,275-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-05-18,3,255!2024-05-25,8,255-->
+- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-05-18,4,275!2024-05-23,6,255-->
+- [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-05-19,2,235!2024-05-19,2,235-->
+- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-05-18,4,275!2024-05-28,11,275-->
 
 <!--/pytextgen-->
 
@@ -86,7 +86,7 @@ The following interior structures are possible.
 
 Intuitively, if a high-rise building is {{a skier}}, then {{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}}. <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->
 
-Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-05-17,3,255-->
+Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-05-26,9,255-->
 
 For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-05-18,4,270!2024-05-18,4,275!2024-05-18,4,275-->
 
@@ -129,10 +129,10 @@ return await memorize_seq(
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-05-18,3,255!2024-05-18,4,275-->
-- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-05-17,3,255!2024-05-18,4,275-->
-- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-05-17,3,255!2024-05-17,3,255-->
+- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-05-24,7,255!2024-05-18,4,275-->
+- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-05-24,7,255!2024-05-29,12,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-05-18,4,275!2024-05-17,3,255-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-05-18,4,275!2024-05-25,8,255-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-05-18,4,275!2024-05-18,4,275-->
 
 <!--/pytextgen-->

@@ -39,8 +39,8 @@ The content is in teaching order.
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-05-18,4,290!2024-05-19,4,281-->
-  - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-05-17,3,270!2024-05-17,3,270-->
-  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-05-18,4,290!2024-05-17,3,270-->
+  - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-05-29,12,290!2024-05-28,11,290-->
+  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-05-18,4,290!2024-05-27,10,290-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-05-18,4,290!2024-05-18,3,261-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
@@ -70,13 +70,13 @@ The content is in teaching order.
 - [bending](../../../../general/bending.md)
   - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-05-18,3,261!2024-05-19,4,281-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
-- [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-05-17,3,270!2024-05-18,4,290-->
+- [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-05-23,6,270!2024-05-18,4,290-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
-  - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-05-17,3,270!2024-05-18,4,290-->
+  - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-05-30,13,290!2024-05-18,4,290-->
 - [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
-  - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-05-17,3,270!2024-05-18,4,290-->
+  - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-05-29,12,290!2024-05-18,4,290-->
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
   - [§ pinned support](../../../../general/structural%20support.md#pinned%20support)
@@ -117,7 +117,7 @@ The content is in teaching order.
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
-  - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-05-18,4,290!2024-05-17,3,270-->
+  - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-05-18,4,290!2024-05-28,11,290-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-05-18,4,290!2024-05-18,4,290-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-05-18,4,290!2024-05-19,4,281-->

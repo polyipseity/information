@@ -67,7 +67,7 @@ return await memorize_seq(
 - high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-05-31,18,170!2024-06-28,259,270-->
 - high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-05-25,12,150!2024-06-23,109,250-->
 - non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-05-22,98,230!2024-07-31,128,230-->
-- ready and cheap availability→:::←_(least important)_ <!--SR:!2024-05-17,315,330!2024-05-27,49,250-->
+- ready and cheap availability→:::←_(least important)_ <!--SR:!2028-04-18,1432,350!2024-05-27,49,250-->
 
 <!--/pytextgen-->
 

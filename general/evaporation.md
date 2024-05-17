@@ -43,7 +43,7 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[intermolecular forces](intermolecular%20force.md)}} | {{The stronger the intermolecular forces, the lower the evaporation rate, as more energy is required for a [molecule](molecule.md) to escape.}} | <!--SR:!2024-05-17,320,330!2024-06-28,325,290-->
+> | {{[intermolecular forces](intermolecular%20force.md)}} | {{The stronger the intermolecular forces, the lower the evaporation rate, as more energy is required for a [molecule](molecule.md) to escape.}} | <!--SR:!2028-05-09,1453,350!2024-06-28,325,290-->
 
 <!--/pytextgen-->
 

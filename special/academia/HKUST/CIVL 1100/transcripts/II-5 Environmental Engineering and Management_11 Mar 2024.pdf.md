@@ -72,7 +72,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
 - land contamination→:::←noise pollution <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-05-19,3,250!2024-05-19,3,250-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-05-20,4,270!2024-05-17,1,230-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-05-20,4,270!2024-05-18,1,210-->
 - water pollution→:::←_(end)_ <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
 
 <!--/pytextgen-->
@@ -113,7 +113,7 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
 - air sparging→:::←bioremediation <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-05-19,2,230!2024-05-20,4,270-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
 
@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-05-17,1,230!2024-05-19,3,250-->
+- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-05-19,2,230!2024-05-19,3,250-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
@@ -228,7 +228,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
-  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-05-19,3,250!2024-05-17,1,230-->
+  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-05-19,3,250!2024-05-20,3,250-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
 
 ## page 16
@@ -243,8 +243,8 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-05-19,3,250!2024-05-19,3,250-->
-  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-05-20,4,270!2024-05-17,1,230-->
-  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-05-20,4,270!2024-05-20,3,250-->
+  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-05-19,2,230!2024-05-20,4,270-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-05-19,3,250!2024-05-20,4,270-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-05-19,3,250!2024-05-19,3,250-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
@@ -268,7 +268,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
-    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-05-19,2,230!2024-05-20,4,270-->
 
 ## page 21
 
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-05-19,2,230!2024-05-20,4,270-->
 
 ## page 23
 
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
-  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-05-19,2,230!2024-05-20,4,270-->
   - AQHI scale ::: 1 to 10 and 10, grouped into 5 health risk categories <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
 
@@ -393,9 +393,9 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
-- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-05-17,1,230!2024-05-19,3,250-->
-- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-05-17,1,230!2024-05-17,1,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-05-19,2,230!2024-05-19,3,250-->
+- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-05-20,3,250!2024-05-18,1,210-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-05-18,1,210!2024-05-20,4,270-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-05-19,3,250!2024-05-19,3,250-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-05-20,4,270!2024-05-19,3,250-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
@@ -415,7 +415,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-05-20,4,270!2024-05-20,4,270-->
-  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-05-17,1,230!2024-05-20,4,270-->
+  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-05-19,2,230!2024-05-20,4,270-->
 
 ## page 33
 

@@ -10,11 +10,11 @@ tags:
 
 # torque
 
-In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known as {{__moment of force__ or simply __moment__}}, is {{the [rotational](rotation.md) analogue of linear [force](force.md)}}. <!--SR:!2024-05-17,3,250!2024-05-18,4,270-->
+In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known as {{__moment of force__ or simply __moment__}}, is {{the [rotational](rotation.md) analogue of linear [force](force.md)}}. <!--SR:!2024-05-28,11,270!2024-05-18,4,270-->
 
 ## principles of moments
 
-The principle of moments, also known as {{[Varignon's theorem](Varignon's%20theorem%20(mechanics).md)}}, states {{the resultant torques about several forces applied to a point equals the sum of the individual torques}}: {{$$\tau = \vec{r}_1 \times \vec{F}_1 + \vec{r}_2 \times \vec{F}_2 + \cdots + r_N \times \vec{F}_N = \sum_{i = 1}^N \vec{r}_i \times \vec{F}_i$$}} <!--SR:!2024-05-19,3,230!2024-05-18,4,270!2024-05-17,3,250-->
+The principle of moments, also known as {{[Varignon's theorem](Varignon's%20theorem%20(mechanics).md)}}, states {{the resultant torques about several forces applied to a point equals the sum of the individual torques}}: {{$$\tau = \vec{r}_1 \times \vec{F}_1 + \vec{r}_2 \times \vec{F}_2 + \cdots + r_N \times \vec{F}_N = \sum_{i = 1}^N \vec{r}_i \times \vec{F}_i$$}} <!--SR:!2024-05-19,3,230!2024-05-18,4,270!2024-05-29,12,270-->
 
 ## special cases and other facts
 
