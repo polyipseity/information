@@ -80,7 +80,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-05-19,4,270!2024-05-17,3,260!2024-05-18,3,250!2024-05-18,3,250!2024-05-18,2,230!2024-05-17,3,260-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-05-19,4,270!2024-05-30,13,280!2024-05-18,3,250!2024-05-18,3,250!2024-05-18,2,230!2024-05-24,7,260-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-05-19,4,290-->
 
@@ -118,10 +118,10 @@ return await memorize_seq(
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:09:52.106487+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-05-19,4,270!2024-05-18,4,280-->
-- [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-05-17,3,268!2024-05-17,3,260-->
-- [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-05-17,3,268!2024-05-17,3,260-->
-- [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-05-17,3,260!2024-05-17,3,260-->
-- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-05-17,3,260!2024-05-18,2,230-->
+- [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-05-24,7,268!2024-05-23,6,260-->
+- [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-05-25,8,268!2024-05-26,9,260-->
+- [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-05-28,11,280!2024-05-29,12,280-->
+- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-05-29,12,280!2024-05-18,2,230-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-05-18,4,280!2024-05-18,4,288-->
 
 <!--/pytextgen-->
@@ -138,11 +138,11 @@ Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), o
 
 For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-05-18,4,280!2024-05-18,4,280-->
 
-To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-05-17,3,260!2024-05-17,3,260-->
+To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-05-24,7,260!2024-05-24,7,260-->
 
 #### seismic load
 
-Seismic load are {{caused by [earthquakes](earthquake.md)}}. It can induce {{both horizontal and vertical load on structures}}. <!--SR:!2024-05-19,4,270!2024-05-17,3,260-->
+Seismic load are {{caused by [earthquakes](earthquake.md)}}. It can induce {{both horizontal and vertical load on structures}}. <!--SR:!2024-05-19,4,270!2024-05-29,12,280-->
 
 The consequences are {{partial or complete collapse of structural elements or entire buildings}}. <!--SR:!2024-05-19,4,270-->
 
@@ -162,7 +162,7 @@ Wind load causes {{lateral deflection, which may further lead to toppling of the
 
 ### load combinations
 
-{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-05-19,4,270!2024-05-19,4,270!2024-05-18,4,280!2024-05-17,3,260-->
+{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-05-19,4,270!2024-05-19,4,270!2024-05-18,4,280!2024-05-27,10,280-->
 
 ## references
 

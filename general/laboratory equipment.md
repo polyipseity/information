@@ -183,7 +183,7 @@ return _chain.from_iterable(await _gather(
 - [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2024-06-03,234,270!2024-09-08,143,310-->
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2024-08-09,355,290!2025-01-07,428,290-->
 - [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-06-02,22,190!2024-06-21,64,210-->
-- [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2024-05-17,101,250!2024-08-29,348,290-->
+- [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2025-01-24,252,250!2024-08-29,348,290-->
 - [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-05-18,12,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-06-24,109,250!2025-07-22,447,270-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2024-09-12,363,290!2024-12-08,401,270-->
@@ -212,7 +212,7 @@ return _chain.from_iterable(await _gather(
 - dropping bottle::![dropping bottle](../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg) <!--SR:!2024-06-01,330,330-->
 - [electronic balance](weighing%20scale.md)::![electronic balance](../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg) <!--SR:!2026-08-24,887,330-->
 - [evaporating dish](evaporating%20dish.md)::![evaporating dish](../archives/Wikimedia%20Commons/Abdampfschalen%20verschiedene%20Groessen.jpg) <!--SR:!2027-12-14,1337,350-->
-- [filter funnel](filter%20funnel.md)::![filter funnel](../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg) <!--SR:!2024-05-17,320,330-->
+- [filter funnel](filter%20funnel.md)::![filter funnel](../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg) <!--SR:!2027-04-07,1055,330-->
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)::![flat-bottom(ed) flask](../archives/Wikimedia%20Commons/TGI%20250.jpg) <!--SR:!2024-06-03,332,330-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)::![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg) <!--SR:!2024-10-23,410,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)::![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg) <!--SR:!2028-04-29,1445,350-->

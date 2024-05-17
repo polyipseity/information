@@ -25,7 +25,7 @@ Things to memorize. Yes... 🫠
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-05-17,11,274!2024-05-18,20,360-->
+- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-06-28,42,294!2024-05-18,20,360-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2024-07-18,68,347!2024-07-26,78,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-05-22,16,340!2024-05-23,17,360-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2024-06-03,23,281!2024-08-05,86,372-->
@@ -63,7 +63,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-06-03,33,312!2024-07-27,79,367-->
 - height ::: roof: 234 m <!--SR:!2024-05-19,6,240!2024-08-29,108,377-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-05-20,14,340!2024-05-25,19,360-->
-- shape ::: big pants <!--SR:!2024-08-15,94,365!2024-05-17,19,360-->
+- shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-20,95,380-->
 
 ## CN Tower
 
@@ -84,8 +84,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-17,1,316!2024-05-21,5,356-->
+- completion time ::: 1994 <!--SR:!2024-05-20,3,316!2024-05-22,6,356-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-20,3,316!2024-05-21,5,356-->
 
 ## China International Trust and Investment Plaza
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-05-18,1,296!2024-05-22,6,356-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
 - geographic location ::: Rome <!--SR:!2024-05-21,5,356!2024-05-21,5,356-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-17,1,316!2024-05-21,5,356-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-20,3,316!2024-05-21,5,356-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-05-21,5,356!2024-05-21,5,356-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-05-19,3,336!2024-05-21,5,356-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-05-21,5,356!2024-05-22,6,356-->
@@ -143,7 +143,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-05-17,1,316!2024-05-21,5,356-->
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-05-20,3,316!2024-05-21,5,356-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
 - length ::: 21196.18 km <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
@@ -203,7 +203,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-06-01,21,275!2024-07-23,75,367-->
-- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-05-17,11,237!2024-05-29,54,310-->
+- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-25,39,257!2024-05-29,54,310-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-05-23,17,360!2024-05-27,21,360-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-06-12,27,280!2024-05-24,18,360-->
 
@@ -219,12 +219,12 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-05-22,6,356!2024-05-21,5,356-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-05-19,3,336!2024-05-19,3,336-->
-- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-05-21,4,336!2024-05-22,6,356-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-05-21,5,356!2024-05-21,5,356-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-05-19,3,336!2024-05-21,5,356-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-05-22,6,356!2024-05-19,3,336-->
-- opening time ::: 2024-12-16, 09:00 <!--SR:!2024-05-17,1,316!2024-05-19,3,336-->
-- width ::: 32.05 m <!--SR:!2024-05-17,1,316!2024-05-17,1,316-->
+- opening time ::: 2024-12-16, 09:00 <!--SR:!2024-05-20,3,316!2024-05-19,3,336-->
+- width ::: 32.05 m <!--SR:!2024-05-20,3,316!2024-05-21,4,336-->
 
 ## Mont Cenis Base Tunnel
 
@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-05-17,1,316!2024-05-22,6,356-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-05-18,1,296!2024-05-22,6,356-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-05-22,6,356!2024-05-22,6,356-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-05-19,3,336!2024-05-22,6,356-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-05-19,3,336!2024-05-21,5,356-->
@@ -278,7 +278,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-05-19,21,360-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-05-20,7,221!2024-05-17,42,310-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-05-20,7,221!2024-11-12,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-05-18,12,340!2024-05-24,18,360-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-06-10,28,320!2024-05-25,19,360-->
 
@@ -295,7 +295,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-05-17,14,277!2024-08-10,91,370-->
+- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-07-10,54,297!2024-08-10,91,370-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-06-13,69,330!2024-08-17,96,372-->
 - image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-05-25,19,360!2024-05-22,16,340-->
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-05-22,16,280!2024-05-18,20,360-->
@@ -312,7 +312,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-06-04,29,320!2024-07-28,80,365-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-17,3,261!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-05-28,11,281!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-05-23,17,340!2024-05-21,15,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-05-20,14,340!2024-05-25,19,360-->
 

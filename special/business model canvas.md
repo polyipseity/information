@@ -19,7 +19,7 @@ tags:
 
 ## business model generation
 
-Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-05-17,20,252!2024-05-22,24,250-->
+Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-07-31,75,272!2024-05-22,24,250-->
 
 ## canvas
 
@@ -73,7 +73,7 @@ C$: [cost structure](#cost%20structure)
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-07-07,62,314!2024-06-27,56,314-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-05-19,22,254!2024-05-25,26,272-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-06-17,39,257-->
-- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-05-17,20,257!2024-05-23,28,274-->
+- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-07,51,257!2024-05-23,28,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-05-18,21,257!2024-05-18,16,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-07,37,277!2024-05-25,27,254-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2024-06-21,51,294-->
@@ -122,10 +122,10 @@ segmented: splitting slightly different customer segments
 
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-06-10,32,257!2024-07-14,69,317-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
-- mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-05-17,20,254!2024-05-26,29,277-->
+- mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-07-10,54,254!2024-05-26,29,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-05-25,9,234-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-06-22,39,254!2024-06-26,42,257-->
-- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-05-17,14,234-->
+- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-06-21,35,234-->
 
 <!--/pytextgen-->
 
@@ -180,7 +180,7 @@ risk reduction
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←accessibility <!--SR:!2024-05-30,28,257!2024-07-10,65,314-->
-- accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-05-17,20,254-->
+- accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-07-28,72,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-05-25,14,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
 - cost reduction→:::←customization <!--SR:!2024-05-25,27,254!2024-05-31,18,157-->
@@ -196,7 +196,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-06-19,44,294!2024-05-17,20,257!2024-06-05,35,274-->
+The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-06-19,44,294!2024-07-27,71,277!2024-06-05,35,274-->
 
 #### customer relationships
 
@@ -291,7 +291,7 @@ subscription fee
 - advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-06-14,41,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-05-19,22,257!2024-07-01,48,254-->
-- lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-05-17,20,254-->
+- lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-07-05,49,254-->
 - licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-05-24,25,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-06-27,44,254!2024-05-18,21,257-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-06-19,37,257-->

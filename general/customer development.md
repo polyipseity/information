@@ -44,13 +44,13 @@ One can create {{a customer profile that shows a typical person}} for each custo
 
 ### customer validation
 
-After [customer discovery](#customer%20discovery), we need to do {{customer validation}}. The goal of customer validation is to {{determine whether your product should be created in the first place}}. Even if yor customer profile is accurate, {{the customer might not use your products anyway when put into actual practice}}. This is because {{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}}. <!--SR:!2024-05-22,11,270!2024-05-17,8,250!2024-06-05,21,270!2024-05-28,13,250-->
+After [customer discovery](#customer%20discovery), we need to do {{customer validation}}. The goal of customer validation is to {{determine whether your product should be created in the first place}}. Even if yor customer profile is accurate, {{the customer might not use your products anyway when put into actual practice}}. This is because {{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}}. <!--SR:!2024-05-22,11,270!2024-06-03,17,250!2024-06-05,21,270!2024-05-28,13,250-->
 
-To validate your customers, {{interact with your customers, such as talking to them, showing them your product prototype}}, etc. <!--SR:!2024-05-17,8,250-->
+To validate your customers, {{interact with your customers, such as talking to them, showing them your product prototype}}, etc. <!--SR:!2024-06-14,28,270-->
 
 > [!example] examples
 >
-> - Old people are unhappy. Is it because they cannot move around easily? ::: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2024-05-17,8,250!2024-05-25,14,290-->
+> - Old people are unhappy. Is it because they cannot move around easily? ::: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2024-06-10,24,270!2024-05-25,14,290-->
 
 ## references
 
