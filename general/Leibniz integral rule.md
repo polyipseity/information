@@ -20,7 +20,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allow
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$. <!--SR:!2024-06-04,132,310!2024-05-21,51,324-->
+> - [intuition](intuition.md) ::: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$. <!--SR:!2024-06-04,132,310!2025-01-03,227,344-->
 
 ## examples
 
@@ -169,7 +169,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 
 > [!tip] tips
 >
-> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-06-16,67,288!2024-05-20,50,324-->
+> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule. <!--SR:!2024-06-16,67,288!2024-12-30,223,344-->
 
 ## applications
 

@@ -54,12 +54,12 @@ Solid mechanics are concerned with several types of forces specific to solids. F
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-13T20:26:41.539825+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[bending](bending.md) <!--SR:!2024-05-19,4,270!2024-05-19,4,270-->
-- [bending](bending.md)→:::←[compression](compression%20(physics).md): pushing along the axial direction or towards object inward <!--SR:!2024-05-19,4,270!2024-05-18,3,250-->
-- [compression](compression%20(physics).md): pushing along the axial direction or towards object inward→:::←[shear](shear%20force.md): cutting or tearing <!--SR:!2024-05-18,3,250!2024-05-19,4,270-->
-- [shear](shear%20force.md): cutting or tearing→:::←[tension](tension%20(physics).md): pulling along the axial direction or away from object inward <!--SR:!2024-05-18,3,250!2024-05-18,2,230-->
-- [tension](tension%20(physics).md): pulling along the axial direction or away from object inward→:::←[torsion](torsion%20(mechanics).md): twisting <!--SR:!2024-05-18,3,250!2024-05-19,4,270-->
-- [torsion](torsion%20(mechanics).md): twisting→:::←_(end)_ <!--SR:!2024-05-19,4,270!2024-05-18,3,250-->
+- _(begin)_→:::←[bending](bending.md) <!--SR:!2024-06-01,13,290!2024-06-02,14,290-->
+- [bending](bending.md)→:::←[compression](compression%20(physics).md): pushing along the axial direction or towards object inward <!--SR:!2024-06-04,16,290!2024-05-27,9,270-->
+- [compression](compression%20(physics).md): pushing along the axial direction or towards object inward→:::←[shear](shear%20force.md): cutting or tearing <!--SR:!2024-05-27,9,250!2024-06-03,15,290-->
+- [shear](shear%20force.md): cutting or tearing→:::←[tension](tension%20(physics).md): pulling along the axial direction or away from object inward <!--SR:!2024-05-29,11,270!2024-05-23,5,250-->
+- [tension](tension%20(physics).md): pulling along the axial direction or away from object inward→:::←[torsion](torsion%20(mechanics).md): twisting <!--SR:!2024-05-24,6,250!2024-06-05,17,290-->
+- [torsion](torsion%20(mechanics).md): twisting→:::←_(end)_ <!--SR:!2024-06-01,13,290!2024-05-28,10,270-->
 
 <!--/pytextgen-->
 

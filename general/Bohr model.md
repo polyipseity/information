@@ -41,7 +41,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{\hbar^2 n^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-06-05,19,130!2025-07-17,461,254-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-06-09,20,130!2025-07-17,461,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2025-10-24,669,279!2024-11-23,484,299-->
 
@@ -84,7 +84,7 @@ The Bohr model fails to explain:
 > | {{brightness}} | {{relative brightness of spectral lines}} |
 > | {{multiple [electrons](electron.md)}} | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |
 > | {{naturalness}} | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
-> | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2024-05-30,80,333!2025-03-22,311,353!2024-11-20,198,333!2025-03-24,311,353!2024-06-09,70,341!2024-05-27,57,321!2024-12-07,207,341!2024-05-23,53,321-->
+> | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2024-05-30,80,333!2025-03-22,311,353!2024-11-20,198,333!2024-12-31,225,333!2024-06-09,70,341!2024-05-27,57,321!2024-12-07,207,341!2024-05-23,53,321-->
 
 <!--/pytextgen-->
 
@@ -93,7 +93,7 @@ The Bohr model fails to explain:
 - _(begin)_→:::←brightness <!--SR:!2024-11-07,391,324!2024-05-22,73,333-->
 - brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2024-05-30,24,253-->
 - multiple [electrons](electron.md)→:::←naturalness <!--SR:!2026-06-05,837,324!2024-07-16,102,293-->
-- naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-05-21,48,273-->
+- naturalness→:::←structures <!--SR:!2024-06-05,303,324!2024-09-28,130,273-->
 - structures→:::←_(end)_ <!--SR:!2024-12-18,219,333!2024-05-23,25,293-->
 
 <!--/pytextgen-->

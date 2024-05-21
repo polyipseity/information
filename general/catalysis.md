@@ -20,7 +20,7 @@ tags:
 
 %%
 
-__Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. If the reaction is fast and the catalyst replenishes quickly, {{only small amounts of catalyst is needed}}. {{Surface area, [temperature](temperature.md), and mixing}} affect the catalyzed [reaction rate](reaction%20rate.md). <!--SR:!2025-05-15,538,310!2024-05-18,206,290!2024-09-14,396,363!2024-05-21,102,303-->
+__Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. If the reaction is fast and the catalyst replenishes quickly, {{only small amounts of catalyst is needed}}. {{Surface area, [temperature](temperature.md), and mixing}} affect the catalyzed [reaction rate](reaction%20rate.md). <!--SR:!2025-05-15,538,310!2026-01-06,596,290!2024-09-14,396,363!2025-03-25,308,303-->
 
 Catalysts are often {{specific in action and [poisoned](catalyst%20poisoning.md) by small amounts of impurities}}. <!--SR:!2025-07-07,567,323-->
 
@@ -58,16 +58,16 @@ return await memorize_table(
 > | {{[contact process](contact%20process.md)}} | {{[Vanadium(V) oxide](vanadium(V)%20oxide.md) catalyzes the [oxidation](redox%20reaction.md) of [SO<sub>2</sub>](sulfur%20dioxide.md) to [SO<sub>3</sub>](sulfur%20trioxide.md) in making [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md).}} |
 > | {{[fermentation](fermentation.md)}} | {{[Enzymes](enzyme.md) catalyze [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyze the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).}} |
 > | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
-> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2024-05-24,322,330!2024-05-29,327,330!2024-05-26,324,330!2024-08-18,310,290!2024-05-28,326,330!2025-06-03,385,210!2024-05-18,316,330!2024-08-22,342,290!2024-05-22,320,330!2024-11-10,352,250-->
+> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2024-05-24,322,330!2024-05-29,327,330!2024-05-26,324,330!2024-08-18,310,290!2024-05-28,326,330!2025-06-03,385,210!2027-03-28,1042,330!2024-08-22,342,290!2024-05-22,320,330!2024-11-10,352,250-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="394f"--><!-- The following content is generated at 2024-01-04T20:17:51.442492+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2024-05-30,328,330!2024-05-21,319,330-->
-- [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2025-01-09,475,310!2024-05-19,317,330-->
+- _(begin)_→:::←[Haber process](Haber%20process.md) <!--SR:!2024-05-30,328,330!2028-05-10,1450,350-->
+- [Haber process](Haber%20process.md)→:::←[contact process](contact%20process.md) <!--SR:!2025-01-09,475,310!2028-04-29,1440,350-->
 - [contact process](contact%20process.md)→:::←[fermentation](fermentation.md) <!--SR:!2024-05-27,325,330!2024-12-18,411,290-->
-- [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2024-05-20,318,330!2024-08-02,315,270-->
+- [fermentation](fermentation.md)→:::←[food browning](food%20browning.md) <!--SR:!2027-04-03,1048,330!2024-08-02,315,270-->
 - [food browning](food%20browning.md)→:::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2024-05-23,321,330!2025-11-04,720,330-->
 - [hydrolysis](hydrolysis.md) of [starch](starch.md)→:::←_(end)_ <!--SR:!2024-05-25,323,330!2024-07-08,113,250-->
 

@@ -16,7 +16,7 @@ tags:
 
 ### cuboid, axis through center
 
-- definition ::: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center <!--SR:!2024-09-18,128,307!2024-05-21,54,327-->
+- definition ::: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center <!--SR:!2024-09-18,128,307!2025-01-19,243,347-->
 - equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2024-09-13,179,250!2024-05-28,57,318-->
   - thin plate correction ::: use the same equation <!--SR:!2024-08-20,239,330!2024-05-28,58,318-->
   - cuboid, axis through center of edge $c$ ::: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2024-07-08,102,250!2024-08-06,100,298-->
@@ -37,9 +37,9 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 ### cylindrical shell, axis through base center
 
 - definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2024-09-01,118,307!2024-12-03,202,347-->
-- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310!2024-05-20,50,318-->
+- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310!2024-10-26,158,318-->
   - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2024-09-05,252,330!2024-05-30,59,318-->
-  - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2025-09-15,492,310!2024-05-19,49,318-->
+  - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2025-09-15,492,310!2024-12-21,214,338-->
 - proof: $$\begin{aligned}
 m&=\rho\pi{}H\left(R_O^2-R_I^2\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\mathrm{d}h\,\mathrm{d}r\\
@@ -56,7 +56,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 - equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2024-08-18,167,250!2024-09-04,121,298-->
   - thin rod correction ::: use the same equation and set $R = 0$ <!--SR:!2024-10-23,291,330!2024-06-03,67,338-->
   - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2025-04-21,406,310!2024-10-26,173,318-->
-  - slender rod, axis through one end ::: $\frac13mL^2$ <!--SR:!2025-04-17,367,290!2024-10-12,148,318-->
+  - slender rod, axis through one end ::: $\frac13mL^2$ <!--SR:!2025-04-17,367,290!2024-10-16,148,318-->
 - proof: $$\begin{aligned}
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\

@@ -63,7 +63,7 @@ Ordinary differential equations are furthered classified:
 - [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2024-09-21,269,330!2024-07-31,79,290-->
 - [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2024-07-17,225,330!2024-07-30,210,310-->
 - [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2024-09-16,265,330!2024-09-04,255,330-->
-- [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2024-05-26,170,310!2026-04-15,698,330-->
+- [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2024-05-26,170,310!2026-04-18,698,330-->
 
 <!--/pytextgen-->
 
