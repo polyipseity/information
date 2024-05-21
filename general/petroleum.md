@@ -27,7 +27,7 @@ Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of 
 
 ## uses
 
-Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2024-05-19,177,234!2025-11-02,602,274!2024-10-06,347,294-->
+Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2025-12-23,583,254!2025-11-02,602,274!2024-10-06,347,294-->
 
 ### fuels
 
@@ -89,13 +89,13 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d5f1"--><!-- The following content is generated at 2024-01-04T20:17:52.536836+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2026-09-26,912,330!2024-05-19,322,334-->
+- _(begin)_→:::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2026-09-26,912,330!2028-06-08,1481,354-->
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
 - [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2024-10-26,413,294!2024-09-12,150,314-->
 - [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2026-01-03,643,274!2024-06-18,43,150-->
 - [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-05-24,18,130!2024-08-12,134,214-->
 - [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2025-01-24,437,274!2025-04-13,375,194-->
-- [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-06-27,84,214!2024-05-18,3,150-->
+- [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-06-27,84,214!2024-05-25,6,170-->
 - [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-11-12,225,254-->
 - [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2024-07-26,74,174-->
 - [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2024-10-28,432,314!2025-05-06,539,314-->
@@ -108,10 +108,10 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="3984"--><!-- The following content is generated at 2024-01-04T20:17:52.568538+08:00. Any edits will be overridden! -->
 
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)::-40 to -1 °C <!--SR:!2024-08-12,338,290-->
-- [butane](butane.md)::-12 to -1 °C <!--SR:!2024-05-20,307,314-->
+- [butane](butane.md)::-12 to -1 °C <!--SR:!2027-01-08,963,314-->
 - [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-05-24,46,170-->
-- [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-05-20,42,190-->
-- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-05-18,4,150-->
+- [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-09-11,114,210-->
+- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-05-24,5,150-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-05-26,17,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-06-02,19,130-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-06-14,34,130-->
@@ -131,7 +131,7 @@ return _chain.from_iterable(await _gather(
 - 205 to 290 °C::[fuel oil](fuel%20oil.md) <!--SR:!2024-08-11,337,274-->
 - 260 to 315 °C::[diesel fuel](diesel%20fuel.md) <!--SR:!2025-04-17,429,274-->
 - 370 °C or above::[paraffin wax](paraffin%20wax.md) <!--SR:!2025-12-07,690,314-->
-- 500 °C or above::[bitumen](bitumen.md) <!--SR:!2024-05-18,321,334-->
+- 500 °C or above::[bitumen](bitumen.md) <!--SR:!2028-06-03,1476,354-->
 
 <!--/pytextgen-->
 

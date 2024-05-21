@@ -9,14 +9,14 @@ tags:
 
 # zero force member
 
-In [engineering mechanics](applied%20mechanics.md), a __zero force member__ is {{a member in a [truss](truss.md) which, given a specific [load](structural%20load.md), is neither in [tension](tension%20(physics).md) nor in [compression](compression%20(physics).md)}}. <!--SR:!2024-05-18,4,270-->
+In [engineering mechanics](applied%20mechanics.md), a __zero force member__ is {{a member in a [truss](truss.md) which, given a specific [load](structural%20load.md), is neither in [tension](tension%20(physics).md) nor in [compression](compression%20(physics).md)}}. <!--SR:!2024-06-05,16,290-->
 
 ## description
 
-Zero force members are found {{at joints with no external load and three or fewer truss members meet}}. Specifically, there are {{2}} situations: <!--SR:!2024-05-18,4,270!2024-05-18,4,270-->
+Zero force members are found {{at joints with no external load and three or fewer truss members meet}}. Specifically, there are {{2}} situations: <!--SR:!2024-06-06,17,290!2024-06-04,15,290-->
 
-- 2 truss members ::: If they are non-collinear and meet in an unloaded joint, they are both zero force members. <!--SR:!2024-05-18,4,270!2024-05-23,6,250-->
-- 3 truss members ::: If they meet in an unloaded joint and two of them are collinear, then the non-collinear member is a zero force member. <!--SR:!2024-05-18,4,270!2024-05-26,9,270-->
+- 2 truss members ::: If they are non-collinear and meet in an unloaded joint, they are both zero force members. <!--SR:!2024-06-03,14,290!2024-05-29,9,270-->
+- 3 truss members ::: If they meet in an unloaded joint and two of them are collinear, then the non-collinear member is a zero force member. <!--SR:!2024-06-02,13,290!2024-05-30,10,270-->
 
 ## references
 

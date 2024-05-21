@@ -22,7 +22,7 @@ tags:
 
 %%
 
-A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2025-05-20,399,230!2027-04-06,1054,330-->
+A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}. <!--SR:!2025-05-20,399,230!2028-05-14,1455,350-->
 
 [Primary batteries](primary%20battery.md) are {{discharged once only and then [discarded](disposable%20product.md)}}. [Secondary batteries](rechargeable%20battery.md) can be {{discharged and recharged multiple times before being discarded}}. <!--SR:!2026-07-12,913,330!2026-02-20,801,330-->
 
@@ -134,7 +134,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="98ab"--><!-- The following content is generated at 2024-03-06T23:33:30.624136+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::[Zn](zinc.md) <!--SR:!2024-05-21,47,303-->
+- [alkaline](alkaline%20battery.md)::[Zn](zinc.md) <!--SR:!2024-12-03,196,323-->
 - [silver oxide](silver%20oxide%20battery.md)::[Zn](zinc.md) <!--SR:!2024-09-26,141,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[Zn](zinc.md) <!--SR:!2024-12-10,211,343-->
 
@@ -175,7 +175,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="bba9"--><!-- The following content is generated at 2024-03-06T23:36:40.572889+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md)::high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2024-06-18,69,303-->
-- [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range <!--SR:!2024-05-19,52,323-->
+- [silver oxide](silver%20oxide%20battery.md)::expensive, lightweight, small, wide operating temperature range <!--SR:!2024-11-03,167,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2024-10-10,150,323-->
 
 <!--/pytextgen-->
@@ -183,7 +183,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="209f"--><!-- The following content is generated at 2024-03-06T23:36:40.557902+08:00. Any edits will be overridden! -->
 
 - high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive::[alkaline](alkaline%20battery.md) <!--SR:!2024-05-30,60,343-->
-- expensive, lightweight, small, wide operating temperature range::[silver oxide](silver%20oxide%20battery.md) <!--SR:!2024-05-21,54,343-->
+- expensive, lightweight, small, wide operating temperature range::[silver oxide](silver%20oxide%20battery.md) <!--SR:!2025-01-30,254,363-->
 - cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md)::[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2024-07-03,94,363-->
 
 <!--/pytextgen-->
@@ -212,10 +212,10 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="6661"--><!-- The following content is generated at 2024-01-04T20:17:51.711635+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2024-05-21,324,330!2027-07-07,1213,350-->
-- [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md) <!--SR:!2025-06-15,599,310!2024-05-18,321,330-->
+- _(begin)_→:::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2027-04-24,1068,330!2027-07-07,1213,350-->
+- [NiMH](nickel–metal%20hydride%20battery.md)→:::←[lead–acid](lead–acid%20battery.md) <!--SR:!2025-06-15,599,310!2028-05-19,1460,350-->
 - [lead–acid](lead–acid%20battery.md)→:::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2026-08-25,890,330!2026-12-18,976,330-->
-- [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_ <!--SR:!2024-05-20,323,330!2027-06-28,1204,350-->
+- [lithium-ion](lithium-ion%20battery.md)→:::←_(end)_ <!--SR:!2028-05-28,1469,350!2027-06-28,1204,350-->
 
 <!--/pytextgen-->
 

@@ -60,7 +60,7 @@ return await memorize_table(
 
 ### laboratory
 
-Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}. <!--SR:!2024-05-19,273,289!2025-01-05,457,289!2025-12-23,672,289!2024-07-25,299,250!2024-11-14,386,289!2025-06-01,585,329!2024-05-18,272,289-->
+Cracking can be performed in the laboratory. {{[Glass wool](glass%20wool.md) soaked with [liquid](liquid.md) [paraffin](alkane.md)}} can be used as the reactant. {{Broken pieces of unglazed porcelain}} can be used as the [catalyst](catalysis.md). {{The catalyst, instead of the reactant to prevent rapid [vaporization](vaporization.md) of the reactant}}, is {{heated inside a container in the absence of air to prevent [combustion](combustion.md)}}. {{Vapors from the paraffin}} crack on the catalyst. Gaseous products {{are collected over [water](water.md)}}. The container {{is removed from water before stopping the heating to prevent flowing back or sucking back of water, which may crack the container}}. <!--SR:!2027-05-21,1096,309!2025-01-05,457,289!2025-12-23,672,289!2024-07-25,299,250!2024-11-14,386,289!2025-06-01,585,329!2026-07-14,785,289-->
 
 ## references
 

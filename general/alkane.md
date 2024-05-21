@@ -70,7 +70,7 @@ return await memorize_seq(
 <!--pytextgen generate section="102a"--><!-- The following content is generated at 2024-01-04T20:17:51.259818+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[combustion](#combustion) <!--SR:!2025-04-21,556,357!2025-06-02,586,357-->
-- [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2024-12-31,247,258!2024-05-21,319,338-->
+- [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2024-12-31,247,258!2028-06-13,1484,358-->
 - [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2024-07-16,120,298!2027-02-06,1015,338-->
 - [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2026-01-22,721,318!2024-10-07,318,298-->
 

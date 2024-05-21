@@ -8,7 +8,7 @@ tags:
 
 # most vexing parse
 
-The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2024-05-19,55,310!2024-10-22,168,310-->
+The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2025-01-10,235,330!2024-10-22,168,310-->
 
 ## examples
 
@@ -23,7 +23,7 @@ double a_double(3.14);
 int an_int(int(a_double));
 ```
 
-The intuitive interpretation of line 2 is {{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}}. However, since {{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}}: <!--SR:!2024-11-21,188,310!2024-09-03,118,290-->
+The intuitive interpretation of line 2 is {{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}}. However, since {{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}}: <!--SR:!2024-11-24,188,310!2024-09-03,118,290-->
 
 ```C++
 int an_int(int a_double);
@@ -51,7 +51,7 @@ The required interpretation of {{a function declaration for the above ambiguous 
 
 ### solutions for C-style casts
 
-For C-style casts, one can use two alternative syntaxes: {{the alternative syntax for C-style casts, or more preferably in [C++](C++.md), a named cast}}: <!--SR:!2024-05-18,48,290-->
+For C-style casts, one can use two alternative syntaxes: {{the alternative syntax for C-style casts, or more preferably in [C++](C++.md), a named cast}}: <!--SR:!2024-11-27,191,310-->
 
 ```C++
 int an_int((int)a_double); // C-style cast

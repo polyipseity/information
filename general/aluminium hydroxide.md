@@ -13,7 +13,7 @@ __Aluminium hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) wi
 
 ## preparation
 
-Treating {{aluminium [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white aluminium hydroxide}}. Excess {{strong base redissolves the precipitate and forms colorless tetrahydroxoaluminate ions}}: <!--SR:!2025-08-28,558,270!2024-05-21,273,270-->
+Treating {{aluminium [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white aluminium hydroxide}}. Excess {{strong base redissolves the precipitate and forms colorless tetrahydroxoaluminate ions}}: <!--SR:!2025-08-28,558,270!2027-03-15,1028,290-->
 
 > treating with [bases](base%20(chemistry).md)
 >

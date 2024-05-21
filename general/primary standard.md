@@ -60,14 +60,14 @@ return await memorize_seq(
 
 <!--pytextgen generate section="fb92"--><!-- The following content is generated at 2024-03-18T19:56:56.252984+08:00. Any edits will be overridden! -->
 
-- _(most important)_→:::←high purity <!--SR:!2024-10-08,246,290!2024-05-20,318,330-->
+- _(most important)_→:::←high purity <!--SR:!2024-10-08,246,290!2028-05-06,1446,350-->
 - high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2024-12-23,328,230!2024-07-02,48,230-->
 - low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2024-09-16,185,230!2024-06-19,85,210-->
-- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2024-05-19,3,130!2024-12-13,349,230-->
+- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2024-05-25,4,130!2024-12-13,349,230-->
 - high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-05-31,18,170!2024-06-28,259,270-->
 - high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-05-25,12,150!2024-06-23,109,250-->
 - non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2024-05-22,98,230!2024-07-31,128,230-->
-- ready and cheap availability→:::←_(least important)_ <!--SR:!2028-04-18,1432,350!2024-05-27,49,250-->
+- ready and cheap availability→:::←_(least important)_ <!--SR:!2028-04-22,1432,350!2024-05-27,49,250-->
 
 <!--/pytextgen-->
 

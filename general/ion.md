@@ -344,7 +344,7 @@ return chain.from_iterable(await gather(
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
-- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-06-30,44,130-->
+- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-06-29,41,130-->
 - zinc ion::colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion::_(n/a)_ <!--SR:!2024-06-27,366,256-->
@@ -355,7 +355,7 @@ return chain.from_iterable(await gather(
 - scandium(III) ion::colorless <!--SR:!2024-08-07,117,282-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-05-22,14,130-->
 - vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-06-06,35,162-->
-- vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-05-20,14,150-->
+- vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-06-19,30,170-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2024-06-03,157,230-->
 
 <!--/pytextgen-->
@@ -364,7 +364,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-05-19,11,130-->
+- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-06-02,14,130-->
 - <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2025-03-30,513,321-->
 - <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2024-06-15,253,261-->

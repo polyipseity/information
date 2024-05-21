@@ -114,7 +114,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_n_$ <!--SR:!2024-05-20,66,277!2024-06-11,221,329-->
+- _(begin)_→:::←_n_$ <!--SR:!2025-01-29,254,297!2024-06-11,221,329-->
 - _n_$→:::←_(end)_ <!--SR:!2026-06-16,778,337!2024-05-24,203,329-->
 
 <!--/pytextgen-->
@@ -153,13 +153,13 @@ A combination of zero or more of the following in any order:
 > | {{\#}} | {{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}} |
 > | {{+}} | {{prepend + before positive numbers}} |
 > | {{-}} | {{align left}} |
-> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} | <!--SR:!2026-06-06,770,337!2025-07-27,444,277!2024-05-18,197,317!2024-05-29,86,217!2025-12-21,592,317!2024-12-21,333,309!2026-10-24,890,349!2025-04-24,457,329!2024-05-19,198,329!2024-12-24,336,309-->
+> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} | <!--SR:!2026-06-06,770,337!2025-07-27,444,277!2026-09-29,862,337!2024-05-29,86,217!2025-12-21,592,317!2024-12-21,333,309!2026-10-25,888,349!2025-04-24,457,329!2026-11-03,897,349!2024-12-24,336,309-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(space) <!--SR:!2026-06-28,788,337!2024-05-20,199,329-->
+- _(begin)_→:::←(space) <!--SR:!2026-06-28,788,337!2026-11-06,900,349-->
 - (space)→:::←\# <!--SR:!2024-06-11,34,209!2024-06-03,213,329-->
 - \#→:::←+ <!--SR:!2024-07-05,81,289!2024-09-13,213,289-->
 - +→:::←- <!--SR:!2024-05-28,207,329!2026-10-11,879,349-->
@@ -170,7 +170,7 @@ A combination of zero or more of the following in any order:
 
 ### width
 
-An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2025-11-24,572,317!2025-12-11,623,329!2025-02-25,284,269-->
+An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}. <!--SR:!2025-11-24,572,317!2025-12-11,623,329!2025-02-28,284,269-->
 
 ### precision
 
@@ -216,7 +216,7 @@ A combination of zero or more of the following in any order:
 > | {{l}} | {{`long`-sized integer; `double`-sized (ignored for) float}} |
 > | {{ll}} | {{`long long`-sized integer}} |
 > | {{t}} | {{`ptrdiff_t`-sized integer}} |
-> | {{z}} | {{`size_t`-sized integer}} | <!--SR:!2025-08-02,477,297!2025-10-19,544,317!2026-08-07,821,337!2025-03-15,423,317!2026-05-06,744,337!2025-10-18,543,317!2024-12-13,298,277!2025-04-15,420,297!2025-02-19,348,277!2025-12-11,584,317!2024-05-21,200,329!2024-06-15,225,329!2025-10-19,540,309!2024-07-04,80,289!2024-06-03,213,329!2025-07-13,466,309-->
+> | {{z}} | {{`size_t`-sized integer}} | <!--SR:!2025-08-02,477,297!2025-10-19,544,317!2026-08-07,821,337!2025-03-15,423,317!2026-05-06,744,337!2025-10-18,543,317!2024-12-13,298,277!2025-04-15,420,297!2025-02-19,348,277!2025-12-11,584,317!2026-03-11,659,329!2024-06-15,225,329!2025-10-19,540,309!2024-07-04,80,289!2024-06-03,213,329!2025-07-13,466,309-->
 
 <!--/pytextgen-->
 
@@ -282,19 +282,19 @@ return await memorize_table(
 > | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
 > | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}} |
 > | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2026-03-19,703,330!2026-07-17,804,337!2025-11-07,559,317!2024-06-07,196,277!2026-08-06,820,337!2026-08-31,840,337!2025-12-04,579,317!2024-08-31,138,257!2025-10-03,532,317!2024-07-02,198,277!2026-06-22,783,337!2025-04-02,385,297!2025-12-30,598,317!2024-06-15,127,237!2024-06-07,217,329!2024-08-04,224,289!2025-07-16,469,309!2025-09-28,524,309!2024-05-20,199,329!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2026-02-20,644,329!2024-05-22,109,269!2024-06-10,220,329!2025-07-20,472,309-->
+> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} | <!--SR:!2026-03-19,703,330!2026-07-17,804,337!2025-11-07,559,317!2024-06-07,196,277!2026-08-06,820,337!2026-08-31,840,337!2025-12-04,579,317!2024-08-31,138,257!2025-10-03,532,317!2024-07-02,198,277!2026-06-22,783,337!2025-04-02,385,297!2025-12-30,598,317!2024-06-15,127,237!2024-06-07,217,329!2024-08-04,224,289!2025-07-16,469,309!2025-09-28,524,309!2026-11-07,901,349!2024-06-15,225,329!2024-06-05,215,329!2024-05-25,204,329!2026-10-24,887,349!2024-05-22,109,269!2024-06-10,220,329!2025-07-20,472,309-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="45dd"--><!-- The following content is generated at 2024-01-04T20:17:52.718619+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←% <!--SR:!2024-05-21,200,329!2024-06-13,223,329-->
+- _(begin)_→:::←% <!--SR:!2026-11-13,906,349!2024-06-13,223,329-->
 - %→:::←a, A <!--SR:!2025-09-21,520,310!2024-06-07,217,329-->
 - a, A→:::←c <!--SR:!2024-05-30,209,329!2024-06-12,222,329-->
 - c→:::←d, i <!--SR:!2025-12-30,634,317!2024-06-02,212,329-->
 - d, i→:::←e, E <!--SR:!2024-05-25,204,329!2025-01-05,345,309-->
 - e, E→:::←f, F <!--SR:!2026-04-25,733,330!2026-07-20,805,337-->
-- f, F→:::←g, G <!--SR:!2024-05-20,199,329!2026-10-06,875,349-->
+- f, F→:::←g, G <!--SR:!2026-11-08,902,349!2026-10-06,875,349-->
 - g, G→:::←n <!--SR:!2024-07-09,57,229!2025-01-01,342,309-->
 - n→:::←o <!--SR:!2024-05-22,201,317!2024-06-28,79,289-->
 - o→:::←p <!--SR:!2024-06-17,227,329!2024-05-28,207,329-->
