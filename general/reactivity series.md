@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 
 - Cs<sup>+</sup>::[caesium](caesium.md) <!--SR:!2024-05-26,76,345-->
 - Rb<sup>+</sup>::[rubidium](rubidium.md) <!--SR:!2025-04-12,326,365-->
-- K<sup>+</sup>::[potassium](potassium.md) <!--SR:!2024-05-24,74,347-->
+- K<sup>+</sup>::[potassium](potassium.md) <!--SR:!2025-05-11,352,367-->
 - Na<sup>+</sup>::[sodium](sodium.md) <!--SR:!2024-06-08,87,345-->
 - Li<sup>+</sup>::[lithium](lithium.md) <!--SR:!2025-04-19,333,367-->
 - Ba<sup>2+</sup>::[barium](barium.md) <!--SR:!2025-04-24,338,367-->
@@ -230,7 +230,7 @@ return _chain.from_iterable(await _gather(
 - Sb<sup>3+</sup>::[antimony](antimony.md) <!--SR:!2024-06-06,85,345-->
 - Bi<sup>3+</sup>::[bismuth](bismuth.md) <!--SR:!2024-06-07,86,345-->
 - Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2024-05-26,76,347-->
-- W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2024-05-22,72,345-->
+- W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2025-04-30,343,365-->
 - Hg<sup>2+</sup>::[mercury](mercury%20(element).md) <!--SR:!2024-06-03,84,345-->
 - Ag<sup>+</sup>::[silver](silver.md) <!--SR:!2024-05-28,78,347-->
 - Au<sup>3+</sup>::[gold](gold.md) <!--SR:!2024-05-31,81,347-->
@@ -252,7 +252,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)::reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
 - [magnesium](magnesium.md)::reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2024-05-29,15,130-->
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-29,43,150-->
-- [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-24,11,130-->
+- [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-06-07,14,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
 - [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-05-27,6,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
@@ -282,7 +282,7 @@ return _chain.from_iterable(await _gather(
 - reacts with concentrated [mineral acids](mineral%20acid.md)::[titanium](titanium.md) <!--SR:!2024-09-11,147,325-->
 - reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-07-08,58,225-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-05-31,67,285-->
-- reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2024-05-22,72,345-->
+- reacts slowly with [air](air.md)::[copper](copper.md) <!--SR:!2025-01-24,247,345-->
 
 <!--/pytextgen-->
 

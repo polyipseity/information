@@ -89,7 +89,7 @@ The content is in teaching order.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
-  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-05-21,27,291!2024-06-08,44,327-->
+  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-08-13,83,291!2024-06-08,44,327-->
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 
 ## week 6 lecture 1
@@ -97,7 +97,7 @@ The content is in teaching order.
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
-  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-05-21,27,291!2024-06-18,52,327-->
+  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-09-06,107,311!2024-06-18,52,327-->
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
@@ -151,7 +151,7 @@ The content is in teaching order.
 - [lift chart § construction](../../../lift%20chart.md#construction)
 - [lift chart § interpretation](../../../lift%20chart.md#interpretation)
 - [lift chart § decile-wise](../../../lift%20chart.md#decile-wise)
-- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-05-19,26,291!2024-06-14,48,327-->
+- other classification performance measures ::: We will teach F1-score, precision, recall, specificity, and more later. <!--SR:!2024-09-03,104,311!2024-06-14,48,327-->
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 
 ## week 8 lecture 1

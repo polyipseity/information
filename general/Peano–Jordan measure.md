@@ -35,7 +35,7 @@ However, the Jordan measure of a simple set cannot be defined as {{the sum of me
 
 > {{![finite union of 2D rectangles](../archives/Wikimedia%20Commons/Simple%20set1.png)}}
 >
-> {{finite union of 2D rectangles}} <!--SR:!2024-09-10,154,310!2024-05-24,74,343-->
+> {{finite union of 2D rectangles}} <!--SR:!2024-09-10,154,310!2025-02-03,255,343-->
 
 The above can be fixed by {{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}}. Then the Jordan measure of a simple set can be defined as {{the sum of measures of disjoint rectangles}}. <!--SR:!2024-09-25,174,310!2024-09-27,165,310!2024-09-09,153,310-->
 

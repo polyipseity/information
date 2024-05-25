@@ -51,18 +51,18 @@ return await memorize_seq(
 - create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-11-12,257,290!2024-09-30,269,330-->
 - emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-06-11,77,250!2024-07-16,112,270-->
 - include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-10-07,195,270!2024-07-20,89,250-->
-- mention your referees→:::←_(end)_ <!--SR:!2025-03-03,309,310!2024-05-19,92,250-->
+- mention your referees→:::←_(end)_ <!--SR:!2025-03-03,309,310!2025-04-09,322,270-->
 
 <!--/pytextgen-->
 
 ## format
 
-- cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-05-22,51,318!2024-06-25,81,338-->
+- cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-12-30,222,338!2024-06-25,81,338-->
 my CV and cover letter for your consideration.; (signature) <!--SR:!2024-04-18,124,290-->
 - date format ::: 1<sup>st</sup> January, 1970 <!--SR:!2024-11-17,308,330!2024-06-06,62,318-->
 - formatting ::: minimal <!--SR:!2025-03-07,333,290!2024-06-14,74,338-->
-- recipient ::: Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam <!--SR:!2024-07-02,182,310!2024-05-19,48,318-->
-- signature ::: Yours sincerely/faithfully,; signature; name <!--SR:!2024-06-03,59,318!2024-05-23,52,318-->
+- recipient ::: Dear (honorific, e.g. Mr., Ms.) (surname), Dear Hiring Manager, Dear Sir/Madam <!--SR:!2024-07-02,182,310!2024-10-21,152,318-->
+- signature ::: Yours sincerely/faithfully,; signature; name <!--SR:!2024-06-03,59,318!2025-01-04,226,338-->
 
 ## content
 
@@ -100,7 +100,7 @@ return await memorize_seq(
 - your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-11-10,244,290-->
 - why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2024-06-05,119,230!2024-10-07,185,270-->
 - why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-09-20,197,250!2024-10-06,223,270-->
-- together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-05-18,33,210-->
+- together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-07-29,68,210-->
 - from or signature→:::←_(end)_ <!--SR:!2024-09-20,261,330!2024-09-20,134,270-->
 
 <!--/pytextgen-->

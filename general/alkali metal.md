@@ -70,7 +70,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="bb89"--><!-- The following content is generated at 2024-01-04T20:17:51.309364+08:00. Any edits will be overridden! -->
 
-- floats, producing hydrogen gas steadily::[lithium](lithium.md) <!--SR:!2024-05-23,115,290-->
+- floats, producing hydrogen gas steadily::[lithium](lithium.md) <!--SR:!2025-04-21,333,290-->
 - melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md) <!--SR:!2024-05-30,277,270-->
 - melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites::[potassium](potassium.md) <!--SR:!2024-07-04,335,290-->
 - explosive::[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2024-06-17,27,150-->

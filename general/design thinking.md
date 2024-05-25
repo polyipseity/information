@@ -20,9 +20,9 @@ tags:
 
 Ideation consists of {{alternation between [divergent](divergent%20thinking.md) and [convergent thinking](convergent%20thinking.md)}}. <!--SR:!2024-05-28,17,290-->
 
-Divergent thinking is supposed to {{enhance creativity of thinkers}}. During divergent thinking, having {{a diverse group of people}} involved is important. Good practice is {{encouraging people to go wild with many ideas, and avoiding evaluation}}. <!--SR:!2024-05-22,13,270!2024-05-28,17,290!2024-05-25,14,290-->
+Divergent thinking is supposed to {{enhance creativity of thinkers}}. During divergent thinking, having {{a diverse group of people}} involved is important. Good practice is {{encouraging people to go wild with many ideas, and avoiding evaluation}}. <!--SR:!2024-07-09,48,290!2024-05-28,17,290!2024-05-25,14,290-->
 
-Convergent thinking is supposed to {{find the best and the most concrete solution}}. <!--SR:!2024-05-24,13,270-->
+Convergent thinking is supposed to {{find the best and the most concrete solution}}. <!--SR:!2024-07-11,48,290-->
 
 ## applications
 
@@ -38,7 +38,7 @@ Business viability describes {{how the business can survive}}. The three importa
 
 The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the market, technology, and business model}} is required. <!--SR:!2024-06-09,24,270!2024-06-06,22,270-->
 
-Design thinking can be used in {{design conceptualization}}. It is the {{most important stage of product development}} because it is {{at the start of the product development and requires the least effort, so it produces the highest rate of return}}. The rate of return decreases along the stages as {{mistakes in later stages become much more costly}}. <!--SR:!2024-06-28,38,270!2024-05-27,16,290!2024-05-22,11,270!2024-05-23,12,270-->
+Design thinking can be used in {{design conceptualization}}. It is the {{most important stage of product development}} because it is {{at the start of the product development and requires the least effort, so it produces the highest rate of return}}. The rate of return decreases along the stages as {{mistakes in later stages become much more costly}}. <!--SR:!2024-06-28,38,270!2024-05-27,16,290!2024-07-03,42,290!2024-06-23,31,270-->
 
 During ideation, we can use divergent and convergent thinking to {{find the right problem (from many pains to a problem), and then find the right solution (from many solutions to few prototypes)}}, but {{do not mix these processes}}. <!--SR:!2024-05-28,13,250!2024-05-28,17,290-->
 

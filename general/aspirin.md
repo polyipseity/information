@@ -22,7 +22,7 @@ tags:
 
 > {{![skeletal formula of aspirin](../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}}
 >
-> {{[skeletal formula](skeletal%20formula.md) of aspirin}} <!--SR:!2024-05-24,39,190!2024-07-17,364,344-->
+> {{[skeletal formula](skeletal%20formula.md) of aspirin}} <!--SR:!2024-08-05,73,190!2024-07-17,364,344-->
 
 ## medical use
 

@@ -34,7 +34,7 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 
 > [!tip] tips
 >
-> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2025-07-18,499,310!2024-05-22,201,310-->
+> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2025-07-18,499,310!2026-09-30,861,330-->
 > - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2025-04-23,406,377!2024-07-07,93,361-->
 > - remember ::: call [`fclose`](fclose.md) on the file after you are done with it <!--SR:!2024-12-09,291,357!2024-07-06,92,361-->
 
@@ -74,7 +74,7 @@ return await memorize_table(
 > | {{r}} | {{read}} |
 > | {{r+}} | {{read extended}} |
 > | {{w}} | {{write}} |
-> | {{w+}} | {{write extended}} | <!--SR:!2026-06-08,769,330!2024-05-17,196,310!2026-05-10,745,330!2024-05-25,204,310!2026-04-11,722,330!2026-03-03,690,330!2024-05-20,199,310!2026-02-22,683,330!2026-07-19,801,330!2026-04-20,728,330!2025-09-13,514,310!2026-06-26,783,330-->
+> | {{w+}} | {{write extended}} | <!--SR:!2026-06-08,769,330!2026-09-09,840,330!2026-05-10,745,330!2024-05-25,204,310!2026-04-11,722,330!2026-03-03,690,330!2026-09-22,853,330!2026-02-22,683,330!2026-07-19,801,330!2026-04-20,728,330!2025-09-13,514,310!2026-06-26,783,330-->
 
 <!--/pytextgen-->
 
