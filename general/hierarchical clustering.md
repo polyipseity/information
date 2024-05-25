@@ -21,11 +21,11 @@ tags:
 
 In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}}. The methods can be classified into two main types: {{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters repeatedly}}; and {{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then splitting the cluster into two clusters repeatedly}}. <!--SR:!2024-05-30,32,275!2024-08-31,102,295!2024-07-03,50,255-->
 
-The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-05-30,29,255!2024-05-22,28,275-->
+The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-05-30,29,255!2024-09-05,106,295-->
 
 ## cluster linkage
 
-To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2024-07-08,67,315!2024-06-04,38,295!2024-05-24,29,275-->
+To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2024-07-08,67,315!2024-06-04,38,295!2024-09-11,110,295-->
 
 Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-06-16,46,295!2024-05-30,33,275!2024-07-15,74,315-->
 
@@ -76,7 +76,7 @@ return chain.from_iterable(await gather(
 > | median linkage clustering | WPGMC, weighted centroid clustering | $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ | {{Median linkage clustering can better preserve small clusters that are merged into large clusters.}} |
 > | [single-linkage clustering](single-linkage%20clustering.md) | minimum linkage clustering, nearest neighbor technique | $d(A, B) = \min_{a \in A, b \in B} d(a, b)$ |  |
 > | unweighted average linkage clustering | [UPGMA](UPGMA.md), group average linkage clustering | $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ |  |
-> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2024-05-25,28,270!2024-05-22,29,275!2024-06-06,38,289-->
+> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2024-05-25,28,270!2024-09-09,110,295!2024-06-06,38,289-->
 
 <!--/pytextgen-->
 
@@ -85,7 +85,7 @@ return chain.from_iterable(await gather(
 - _(begin)_→:::←[Ward's method](Ward's%20method.md) <!--SR:!2024-07-09,68,315!2024-07-09,69,315-->
 - [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-07-15,56,275!2024-06-23,52,295-->
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-05-31,34,275!2024-06-01,24,255-->
-- [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-05-23,26,275!2024-06-12,37,255-->
+- [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-06-12,37,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-05-31,33,275!2024-06-03,37,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-06-06,42,295!2024-06-26,39,235-->
 - unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-06-14,48,295!2024-08-23,95,295-->
@@ -149,7 +149,7 @@ return chain.from_iterable(await gather(
 
 Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard a2c1b40f-e67e-45fd-ad01-b9449a7c2df4 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard 9bb1c2ee-7fda-427b-8bc0-8af05b09ab26-->}}. <!--SR:!2024-09-13,115,309!2024-07-17,75,329-->
 
-To perform agglomerative clustering, initially {{create a cluster for each observation, containing the observation itself}}. Then {{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}}. Keep track of the {{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}}. Repeat this until {{you have only one cluster left}}. Then your dendrogram is the result, and {{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}}. <!--SR:!2024-05-29,32,275!2024-07-31,71,275!2024-05-22,27,275!2024-07-22,65,275!2024-06-29,49,250-->
+To perform agglomerative clustering, initially {{create a cluster for each observation, containing the observation itself}}. Then {{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}}. Keep track of the {{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}}. Repeat this until {{you have only one cluster left}}. Then your dendrogram is the result, and {{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}}. <!--SR:!2024-05-29,32,275!2024-07-31,71,275!2024-08-03,73,275!2024-07-22,65,275!2024-06-29,49,250-->
 
 One way to implement this is, after creating a cluster for each observation, {{construct a [distance matrix](distance%20matrix.md) of all clusters, where the number in the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}}. Use the matrix to {{identify the pair of clusters with the least distance}}. After merging the pair of clusters, {{the distance matrix should decrease in dimension by one in both axes. Update the distances to the new merged cluster from other untouched clusters}}. Repeat this until {{you have only one cluster left}}. An optimization is that since distance is symmetric, we can use {{a lower [triangular matrix](triangular%20matrix.md) to store the distances}}. <!--SR:!2024-06-13,38,255!2024-06-13,45,295!2024-06-02,36,275!2024-06-14,47,295!2024-08-13,87,295-->
 

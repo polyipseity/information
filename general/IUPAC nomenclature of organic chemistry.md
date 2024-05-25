@@ -180,9 +180,9 @@ The steps for naming an organic compound are:
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2024-05-26,239,230!2024-06-06,19,130-->
 - [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2024-06-17,305,190!2026-03-01,749,265-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-07-31,143,227!2024-12-25,360,230-->
-- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2024-05-23,50,207-->
+- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2024-09-03,103,207-->
 - (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-12-28,231,225-->
-- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2024-05-23,211,267-->
+- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2025-12-06,562,267-->
 - [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-11-28,206,253!2024-06-14,400,307-->
 - prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2029-08-16,1975,382!2027-07-03,1153,307-->
 
@@ -204,7 +204,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-05-22,507,256!2030-03-16,2144,382-->
+- _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2027-12-10,1297,256!2030-03-16,2144,382-->
 - most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2024-06-04,391,305-->
 - most multiple bonds→:::←maximum length <!--SR:!2025-02-16,416,256!2025-10-04,690,282-->
 - maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
@@ -431,7 +431,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
 > - prefix: {{phenyl-}}
 > - suffix: {{-benzene}}
-> - infix: {{(locant)}} <!--SR:!2024-06-29,406,300!2025-06-11,723,340!2027-07-13,1326,362!2026-12-12,1177,362!2024-05-22,383,302!2026-10-01,1023,347-->
+> - infix: {{(locant)}} <!--SR:!2024-06-29,406,300!2025-06-11,723,340!2027-07-13,1326,362!2026-12-12,1177,362!2028-10-10,1602,322!2026-10-01,1023,347-->
 
 <!-- markdownlint MD028 -->
 
@@ -698,7 +698,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2024-11-11,469,384!2024-11-22,478,384-->
 - [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2024-12-05,489,384-->
-- [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2024-05-22,302,344!2025-11-25,553,364-->
+- [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
 - [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-07-08,282,364!2025-01-11,242,304-->
 - [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2024-07-17,351,364-->
 - [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2024-09-20,233,304-->

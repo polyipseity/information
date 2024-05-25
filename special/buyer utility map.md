@@ -105,13 +105,13 @@ simplicity: remove complexity or hassle
 - _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-05-28,22,259!2024-07-04,54,310-->
 - convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-06-10,32,279!2024-07-05,51,299-->
 - environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-05-26,20,259!2024-05-31,17,239-->
-- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-05-21,10,239!2024-05-24,18,259-->
-- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-05-29,18,250!2024-05-17,13,259-->
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-05-21,8,210!2024-05-26,20,259-->
+- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-06-16,25,239!2024-06-03,10,239-->
+- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-05-29,18,250!2024-06-28,37,259-->
+- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-06-17,26,230!2024-05-26,20,259-->
 - simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-07-03,53,310!2024-06-16,38,299-->
 
 <!--/pytextgen-->
 
 ## usage
 
-Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-05-31,25,279!2024-05-21,17,250!2024-06-04,26,270-->
+Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-05-31,25,279!2024-07-08,47,250!2024-06-04,26,270-->

@@ -64,7 +64,7 @@ return await memorize_seq(
 <!--pytextgen generate section="20fa"--><!-- The following content is generated at 2024-01-26T12:42:06.646432+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2024-08-17,232,330!2024-08-20,235,330-->
-- [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2024-05-19,116,310-->
+- [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2025-05-16,359,310-->
 - [education](#education)→:::←[experience](#experience) <!--SR:!2024-07-18,194,310!2024-07-22,70,270-->
 - [experience](#experience)→:::←[achievements](#achievements) <!--SR:!2024-07-04,87,250!2024-10-29,221,290-->
 - [achievements](#achievements)→:::←[skills](#skills) <!--SR:!2024-12-01,258,270!2024-07-22,197,310-->
@@ -82,7 +82,7 @@ Two recommended formats:
 
 ### experience
 
-- industry experience ::: if no salary <!--SR:!2024-05-18,110,310!2024-07-01,87,353-->
+- industry experience ::: if no salary <!--SR:!2025-04-27,340,310!2024-07-01,87,353-->
 - work experience ::: all, 0 to 3 sub-points according to importance <!--SR:!2024-08-19,234,330!2024-06-12,72,353-->
   - work experience sub-points ::: statistics (numbers); IROAR: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-06-02,68,210!2024-06-26,82,353-->
 

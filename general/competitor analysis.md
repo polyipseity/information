@@ -37,7 +37,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
 > - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-05-26,10,281!2024-06-02,15,301-->
-> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-05-23,7,261!2024-06-05,18,301-->
+> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-06-09,17,261!2024-06-05,18,301-->
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2024-06-04,17,301!2024-06-05,18,301-->
 > - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-06-05,18,301!2024-06-02,15,301-->
 
@@ -78,12 +78,12 @@ why: Why are people using competitors' products?
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-06-03,13,261!2024-05-30,15,294-->
-- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-05-22,8,254!2024-05-24,8,261-->
+- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-06-16,25,274!2024-06-18,25,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-06-04,14,261!2024-06-02,12,241-->
-- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-22,3,241!2024-05-27,9,281-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-30,8,241!2024-05-27,9,281-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-05-26,10,261!2024-05-25,9,261-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-06-02,12,241!2024-05-25,9,261-->
-- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-05-26,10,261!2024-05-23,5,241-->
+- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-05-26,10,261!2024-06-04,12,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-06-03,16,301!2024-05-26,8,261-->
 
 <!--/pytextgen-->
@@ -126,10 +126,10 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-06-03,16,301!2024-05-30,12,281-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-05-27,11,281!2024-06-04,17,301-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-05-22,4,201!2024-05-22,6,261-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-03,12,221!2024-06-08,17,261-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-06-05,18,301!2024-05-31,16,294-->
-- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-05-23,7,261!2024-05-26,8,261-->
-- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-06-02,15,301!2024-05-23,7,261-->
+- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-06-08,16,261!2024-05-26,8,261-->
+- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-06-02,15,301!2024-06-09,17,261-->
 
 <!--/pytextgen-->
 
@@ -139,7 +139,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-07-01,41,290!2024-06-01,14,301!2024-05-23,9,274-->
+Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-07-01,41,290!2024-06-01,14,301!2024-06-15,23,274-->
 
 ### comparison parameters
 
@@ -182,12 +182,12 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←price <!--SR:!2024-06-04,17,301!2024-06-03,16,301-->
-- price→:::←benefit <!--SR:!2024-05-24,10,274!2024-05-28,10,281-->
+- price→:::←benefit <!--SR:!2024-06-30,37,294!2024-05-28,10,281-->
 - benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-05-28,12,281-->
-- quality→:::←durability <!--SR:!2024-05-24,8,261!2024-06-01,14,301-->
+- quality→:::←durability <!--SR:!2024-06-15,22,261!2024-06-01,14,301-->
 - durability→:::←service <!--SR:!2024-06-05,18,301!2024-05-31,13,281-->
 - service→:::←convenience <!--SR:!2024-05-26,10,261!2024-05-25,5,281-->
-- convenience→:::←ease of use <!--SR:!2024-05-24,4,221!2024-05-28,13,294-->
+- convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-05-28,13,294-->
 - ease of use→:::←number of features <!--SR:!2024-05-31,13,281!2024-05-27,13,274-->
 - number of features→:::←_(end)_ <!--SR:!2024-05-31,16,294!2024-06-04,17,301-->
 

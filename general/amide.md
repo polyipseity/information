@@ -30,7 +30,7 @@ Amides are {{slightly more [dense](density.md) than [water](water.md)}}. <!--SR:
 
 ### solubility
 
-Amides {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the amide. <!--SR:!2025-08-26,640,310!2024-05-23,321,330-->
+Amides {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the amide. <!--SR:!2025-08-26,640,310!2027-04-15,1057,330-->
 
 ## chemical properties
 

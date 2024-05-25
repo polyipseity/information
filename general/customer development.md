@@ -34,17 +34,17 @@ When defining customers, one should avoid {{vagueness}}. To avoid it, some facto
 
 ### customer discovery
 
-Discovering and defining your customer segments is important so that {{the market size can be accurately estimated}}. Also, they affect {{your products' properties}}. Customer segments can be broadly classified into {{mass market, a large group with broadly similar needs; niche market, a small group with specific needs; and in the middle of the road, segmented market, different groups with different needs}}. In terms of profits, {{mass market has lower profit margins but higher volume, while the opposite is true for niche market}}. <!--SR:!2024-05-22,11,270!2024-05-23,12,270!2024-06-02,17,250!2024-05-23,12,270-->
+Discovering and defining your customer segments is important so that {{the market size can be accurately estimated}}. Also, they affect {{your products' properties}}. Customer segments can be broadly classified into {{mass market, a large group with broadly similar needs; niche market, a small group with specific needs; and in the middle of the road, segmented market, different groups with different needs}}. In terms of profits, {{mass market has lower profit margins but higher volume, while the opposite is true for niche market}}. <!--SR:!2024-07-01,40,290!2024-07-08,46,290!2024-06-02,17,250!2024-06-23,31,270-->
 
 One can create {{a customer profile that shows a typical person}} for each customer segment. The profile lists {{the customer information, jobs, pains, and gains}}. Note that in a customer segment, users of the product {{might not be the buyers, such as children buying stuff for elderly}}. In that case, {{the buyer should have a customer profile as well}}. <!--SR:!2024-05-25,14,290!2024-05-30,15,250!2024-06-02,17,250!2024-05-28,17,290-->
 
 > [!example] examples
 >
-> - customers of a service selling meal plans to elderly ::: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2024-05-28,17,290!2024-05-23,12,270-->
+> - customers of a service selling meal plans to elderly ::: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2024-05-28,17,290!2024-07-09,47,290-->
 
 ### customer validation
 
-After [customer discovery](#customer%20discovery), we need to do {{customer validation}}. The goal of customer validation is to {{determine whether your product should be created in the first place}}. Even if yor customer profile is accurate, {{the customer might not use your products anyway when put into actual practice}}. This is because {{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}}. <!--SR:!2024-05-22,11,270!2024-06-17,28,270!2024-06-05,21,270!2024-05-28,13,250-->
+After [customer discovery](#customer%20discovery), we need to do {{customer validation}}. The goal of customer validation is to {{determine whether your product should be created in the first place}}. Even if yor customer profile is accurate, {{the customer might not use your products anyway when put into actual practice}}. This is because {{most customer do not switch to a new product unless the gain outweighs the perceived loss from switching from an existing product}}. <!--SR:!2024-06-30,39,290!2024-06-17,28,270!2024-06-05,21,270!2024-05-28,13,250-->
 
 To validate your customers, {{interact with your customers, such as talking to them, showing them your product prototype}}, etc. <!--SR:!2024-06-18,29,270-->
 

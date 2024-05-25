@@ -30,7 +30,7 @@ See also [Vim help files](https://vimhelp.org/).
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2024-09-07,440,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2027-07-12,1243,348!2026-08-08,904,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2025-02-08,290,253!2024-07-12,353,288-->
-- end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2024-05-20,125,293!2028-09-16,1605,353-->
+- end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2025-10-12,508,313!2028-09-16,1605,353-->
 - beginning of line:::0 <!--SR:!2028-05-15,1501,350!2028-09-11,1601,353-->
 - end of line:::$ <!--SR:!2028-05-19,1509,353!2028-09-06,1598,353-->
 - line \[N=(last)\]:::\[N\]G <!--SR:!2024-08-29,386,290!2026-04-17,810,313-->
@@ -65,7 +65,7 @@ See also [Vim help files](https://vimhelp.org/).
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2024-06-05,385,348!2024-06-15,396,348-->
 - highlight characters:::v <!--SR:!2026-07-03,967,348!2026-01-12,801,328-->
 - highlight lines:::V <!--SR:!2027-05-17,1126,293!2025-10-01,654,288-->
-- highlight block:::\<Ctrl\>+v <!--SR:!2024-07-10,136,253!2024-05-24,375,348-->
+- highlight block:::\<Ctrl\>+v <!--SR:!2024-07-10,136,253!2027-12-19,1304,348-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2024-08-09,368,288-->
 
 ## edit
@@ -73,7 +73,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete under cursor:::<ul><li>\[[repeat N](#^repeatN)\]x</li><li>\[[repeat N](#^repeatN)\]Delete</li></ul> <!--SR:!2024-05-28,380,347!2025-11-13,762,328-->
 - delete from cursor to ([motion](#motion)):::d([motion](#motion)) <!--SR:!2027-08-21,1197,330!2027-08-28,1204,333-->
 - delete lines:::\[[repeat N](#^repeatN)\]dd <!--SR:!2028-09-23,1610,353!2026-01-07,796,328-->
-- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2024-05-24,126,293-->
+- undo:::\[[repeat N](#^repeatN)\]u <!--SR:!2024-06-30,376,313!2025-10-18,512,313-->
 - restore last changed line:::U <!--SR:!2026-05-07,825,313!2026-02-28,848,328-->
 - copy from cursor to (motion) into \["register=(latest)\]:::\["register\]y(motion) <!--SR:!2026-06-07,783,273!2026-08-30,921,328-->
 - paste \["register=(latest)\] after cursor:::\[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2025-12-24,782,327!2024-05-29,381,348-->

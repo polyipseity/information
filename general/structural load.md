@@ -80,7 +80,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-06-03,15,290!2024-05-28,9,280!2024-05-31,12,270!2024-05-29,9,270!2024-05-24,5,250!2024-05-28,9,280-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-06-03,15,290!2024-05-28,9,280!2024-05-31,12,270!2024-05-29,9,270!2024-06-10,17,270!2024-05-28,9,280-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-06-05,17,310-->
 

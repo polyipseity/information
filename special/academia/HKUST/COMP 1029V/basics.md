@@ -114,7 +114,7 @@ There are several icons. Some of them are {{`vbCritical`, `vbExclamation`, `vbIn
 
 ## input
 
-To accept user input, we can use {{an input box by calling `Input = InputBox(prompt[, title][, default])`}}. `prompt` refers to {{the message, `title`, by default `Microsoft Excel`, is the title, and `default`, by default empty, is the initial value in the input box. The user input is assigned to the variable `Input`}}. Similar to [output](#output), you can skip optional arguments by {{leaving it blank}}. <!--SR:!2024-05-24,74,290!2025-01-09,245,325!2024-11-05,211,330-->
+To accept user input, we can use {{an input box by calling `Input = InputBox(prompt[, title][, default])`}}. `prompt` refers to {{the message, `title`, by default `Microsoft Excel`, is the title, and `default`, by default empty, is the initial value in the input box. The user input is assigned to the variable `Input`}}. Similar to [output](#output), you can skip optional arguments by {{leaving it blank}}. <!--SR:!2024-12-22,212,290!2025-01-09,245,325!2024-11-05,211,330-->
 
 ## parentheses
 
