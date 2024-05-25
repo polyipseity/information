@@ -120,8 +120,8 @@ return await memorize_seq(
 - _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-06-02,14,290!2024-06-06,18,300-->
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-05-30,11,288!2024-05-31,11,280-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-05-29,10,288!2024-06-01,12,280-->
-- [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-05-28,9,280!2024-05-25,6,260-->
-- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-05-29,10,280!2024-05-25,5,250-->
+- [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-05-28,9,280!2024-06-09,15,260-->
+- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-05-29,10,280!2024-06-11,17,270-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-06-05,17,300!2024-06-04,16,308-->
 
 <!--/pytextgen-->

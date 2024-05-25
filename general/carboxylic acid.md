@@ -34,7 +34,7 @@ Carboxylic acids have {{a characteristic pungent smell and sour taste}}. <!--SR:
 
 ### solubility
 
-Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2024-07-31,299,230!2024-05-25,323,330-->
+Carboxylic acids {{that are small (1 to 4 carbons) are [miscible](miscibility.md) with [water](water.md) in all proportions}}. Solubility {{decreases}} the larger the carboxylic acid. <!--SR:!2024-07-31,299,230!2028-06-02,1469,350-->
 
 ## chemical properties
 

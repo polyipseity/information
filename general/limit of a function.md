@@ -25,8 +25,8 @@ Note that the above definition is still too restrictive because {{the limits are
 >
 > - [complement](complement%20(set%20theory).md) of a real interval ::: For example, for $a, b \in \mathbb{R}$, $(-\infty, a] \cup (b, +\infty)$ is the [complement](complement%20(set%20theory).md) of $(a, b]$. <!--SR:!2024-06-03,67,344!2024-06-19,79,344-->
 > - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2024-06-26,86,344!2024-06-14,74,344-->
-> - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2024-05-25,54,324!2024-06-04,68,344-->
-> - motivation of not defining limits at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless. <!--SR:!2024-05-25,54,324!2024-06-16,76,344-->
+> - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2025-01-22,242,344!2024-06-04,68,344-->
+> - motivation of not defining limits at [isolated points](isolated%20point.md) of the [function domain](domain%20of%20a%20function.md) ::: Limits are meant for describing the behavior of a function around a point, but not at the point itself. As an isolated point has no other points around it, so defining the limit there is useless. <!--SR:!2024-11-15,174,324!2024-06-16,76,344-->
 
 <!-- markdownlint MD028 -->
 
@@ -47,7 +47,7 @@ If the limit does not exist, then {{the [oscillation](oscillation%20(mathematics
 
 > [!example] examples
 >
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It has no one-sided limits at every [real](real%20number.md), including $0$. <!--SR:!2024-05-25,54,324-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It has no one-sided limits at every [real](real%20number.md), including $0$. <!--SR:!2025-01-23,243,344-->
 
 ### examples
 

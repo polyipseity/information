@@ -27,7 +27,7 @@ Depending on the 2 factors of {{meeting the same customer needs and possessing t
 
 1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-06-02,15,301!2024-06-03,16,301-->
 2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-05-27,11,281!2024-06-04,17,301-->
-3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-05-25,9,261!2024-06-02,15,301-->
+3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-06-26,32,281!2024-06-02,15,301-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2024-06-01,14,301!2024-06-03,16,301-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-06-01,17,294-->
@@ -81,8 +81,8 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-06-16,25,274!2024-06-18,25,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-06-04,14,261!2024-06-02,12,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-30,8,241!2024-05-27,9,281-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-05-26,10,261!2024-05-25,9,261-->
-- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-06-02,12,241!2024-05-25,9,261-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-05-26,10,261!2024-06-25,31,281-->
+- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-06-02,12,241!2024-06-18,24,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-05-26,10,261!2024-06-04,12,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-06-03,16,301!2024-05-26,8,261-->
 
@@ -186,7 +186,7 @@ number of features
 - benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-05-28,12,281-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-06-01,14,301-->
 - durability→:::←service <!--SR:!2024-06-05,18,301!2024-05-31,13,281-->
-- service→:::←convenience <!--SR:!2024-05-26,10,261!2024-05-25,5,281-->
+- service→:::←convenience <!--SR:!2024-05-26,10,261!2024-06-13,19,301-->
 - convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-05-28,13,294-->
 - ease of use→:::←number of features <!--SR:!2024-05-31,13,281!2024-05-27,13,274-->
 - number of features→:::←_(end)_ <!--SR:!2024-05-31,16,294!2024-06-04,17,301-->
@@ -195,7 +195,7 @@ number of features
 
 ### visualization
 
-It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-05-25,9,261-->
+It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-06-26,32,281-->
 
 If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-06-04,17,301!2024-05-29,14,294!2024-06-27,38,290-->
 

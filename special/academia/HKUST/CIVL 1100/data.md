@@ -62,7 +62,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-06-03,33,312!2024-07-27,79,367-->
 - height ::: roof: 234 m <!--SR:!2024-06-11,18,260!2024-08-29,108,377-->
-- image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-07-26,63,360!2024-05-25,19,360-->
+- image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-07-26,63,360!2024-08-29,96,380-->
 - shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-25,93,380-->
 
 ## CN Tower
@@ -162,7 +162,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
 - description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-08-03,114,295!2024-08-04,87,374-->
-- image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2024-08-02,70,360!2024-05-25,19,360-->
+- image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2024-08-02,70,360!2024-08-28,95,380-->
 - shape ::: bird/turtle rooftop <!--SR:!2024-05-30,55,310!2024-08-04,85,372-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
@@ -187,9 +187,9 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
-- description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-05-25,50,310!2024-08-14,93,370-->
+- description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2024-08-14,93,370-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-07-30,67,301!2024-05-29,54,310-->
-- image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2024-07-26,63,360!2024-05-25,19,360-->
+- image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2024-07-26,63,360!2024-08-24,91,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-05-27,14,301!2024-09-04,103,381-->
 
 ## Itaipu Dam
@@ -261,7 +261,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-06-18,38,341!2024-08-30,98,381-->
 - description ::: bridge in Hong Kong <!--SR:!2024-06-16,41,325!2024-08-21,100,377-->
-- image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-05-25,19,360!2024-07-21,58,360-->
+- image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2024-07-21,58,360-->
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-06-27,34,280!2024-06-27,54,350-->
 
 ## Sutong Yangtze River Bridge
@@ -280,7 +280,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-09-04,103,380-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-07,14,221!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-06-10,28,320!2024-05-25,19,360-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-06-10,28,320!2024-08-23,90,380-->
 
 ## Thames Barrier
 
@@ -297,7 +297,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 - bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-07-16,53,297!2024-08-10,91,370-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-06-13,69,330!2024-08-17,96,372-->
-- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-05-25,19,360!2024-08-11,79,360-->
+- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-08-30,97,380!2024-08-11,79,360-->
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-07-09,46,280!2024-08-29,97,380-->
 
 ## Turin–Lyon high-speed railway
@@ -314,7 +314,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-06-04,29,320!2024-07-28,80,365-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-06-01,8,261!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-05-25,19,360-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-08-27,94,380-->
 
 ## Water Cube
 

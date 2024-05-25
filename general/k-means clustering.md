@@ -24,14 +24,14 @@ The algorithm may not converge if {{using a distance function other than the (sq
 
 #### initialization methods
 
-The clustering result {{depends on the initial means, so it is important to find "good" initial means to get more optimal clustering}}. An extreme example is {{an initial mean that is so far away from all observations that no observation ever gets assigned to it}}. <!--SR:!2024-08-26,96,293!2024-05-25,28,270-->
+The clustering result {{depends on the initial means, so it is important to find "good" initial means to get more optimal clustering}}. An extreme example is {{an initial mean that is so far away from all observations that no observation ever gets assigned to it}}. <!--SR:!2024-08-26,96,293!2024-09-06,104,290-->
 
 A naive way to initialize the means is {{randomly choose $k$ observations}}. A less naive way is {{repeat the standard algorithm several times with different random initial means and take their average}}. <!--SR:!2024-06-30,60,313!2024-06-24,44,250-->
 
 #### variations
 
 - generalized sequential _k_-means ::: Make $k$ initial means. Instead of running the assignment step on all observations and the update step on all means each time, run the assignment step on one observation and the update step on one mean each time. Specifically, for each observation $x$ and its closest mean $m_*$, the new mean is $m_* + \alpha (x - m_*) = (1 - \alpha) m_* + \alpha x$, where the weight $\alpha$ is an arbitrary variable. <!--SR:!2024-06-18,40,250!2024-09-07,108,290-->
-  - generalized sequential _k_-means advantages ::: The advantage is that it can update the clustering incrementally as new observations are made instead of requiring all observations at once. Incremental updates can also save computation compared to recalculation. <!--SR:!2024-05-25,28,270!2024-07-25,67,270-->
+  - generalized sequential _k_-means advantages ::: The advantage is that it can update the clustering incrementally as new observations are made instead of requiring all observations at once. Incremental updates can also save computation compared to recalculation. <!--SR:!2024-09-05,103,290!2024-07-25,67,270-->
   - sequential _k_-means ::: The weight $\alpha = \frac 1 {n + 1}$, where $n$ is the number of observations that has modified the closest mean $m_*$, not including the current one. <!--SR:!2024-06-20,43,250!2024-06-29,47,250-->
     - sequential _k_-means interpretation ::: The resulting mean is the same as the mean of all incoming observations calculated at once, i.e. $m_n = \frac 1 n \sum_{k = 1}^n x_k$. This is simply the [cumulative average](moving%20average.md#cumulative%20average) of the incoming observations. <!--SR:!2024-05-26,29,270!2024-06-07,39,293-->
   - forgetful sequential _k_-means ::: The weight $\alpha \in [0, 1]$ is a constant. It is useful for clusters that drift over time. <!--SR:!2024-05-31,32,273!2024-06-28,58,313-->

@@ -11,7 +11,7 @@ tags:
 
 ## characteristics
 
-Empathy is the foundation of {{a human-centered design process}}. <!--SR:!2024-05-25,14,290-->
+Empathy is the foundation of {{a human-centered design process}}. <!--SR:!2024-07-20,56,310-->
 
 ### difference from sympathy
 
@@ -25,7 +25,7 @@ In an empathic design process, we need to {{observe, immerse, engage, and unders
 
 Observe {{views users and their behavior in the context of their lives}}. <!--SR:!2024-06-16,27,270-->
 
-Immerse is {{experiencing in your users' shoes}}. <!--SR:!2024-05-25,14,290-->
+Immerse is {{experiencing in your users' shoes}}. <!--SR:!2024-07-21,57,310-->
 
 Engage is {{interacting and interviewing users}}. When choosing people to interview, {{apart from normal users, also choose extreme users, as they can magnify the needs and potential solutions}}. For example, for a knife handle, {{apart from housewives and cooks, also interview people having problems holding a knife and master chefs}}. There are several methods to interview, such as {{interview or ethnographic research, focus group, survey or questionnaire, and other new methods like social media}}. Before the interview, {{prepare thoroughly, such as deciding on a goal, research user background, and prepare and prioritize questions}}. During interviews, one can use {{[5W1H](Five%20Ws.md): when, where, who, what, why, how; and draw a table}}. After interviewing, one can {{write the findings on sticky notes and paste it onto the [empathy map](empathy%20map.md)}}. Additionally, we can add {{2 new sections, pains and gains, to the map}}. <!--SR:!2024-07-18,55,310!2024-05-27,16,290!2024-06-23,34,270!2024-06-10,21,250!2024-06-11,22,250!2024-07-14,51,310!2024-06-26,37,270!2024-06-03,18,250-->
 
