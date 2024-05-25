@@ -98,7 +98,7 @@ return await memorize_seq(
 
 %%
 
-<!--pytextgen generate section="a123"--><!-- The following content is generated at 2024-05-16T15:50:24.092123+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a123"--><!-- The following content is generated at 2024-05-25T19:07:44.634739+08:00. Any edits will be overridden! -->
 
 > 1. air sparging
 > 2. bioremediation
@@ -108,7 +108,7 @@ return await memorize_seq(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-05-16T15:50:24.044512+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-05-25T19:07:44.595535+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air sparging <!--SR:!2024-06-02,10,270!2024-06-08,16,290-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-08,16,290!2024-06-01,9,270-->
@@ -198,7 +198,7 @@ Sustainable Waste Management
 3Rs Concept
 
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
-  - reduce ::: reduce the amount of sold waste generation <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
+  - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-06-05,13,290!2024-06-05,13,290-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-06-04,12,270!2024-06-08,16,290-->
     - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-06-04,12,270!2024-06-06,14,290-->
@@ -208,7 +208,7 @@ Sustainable Waste Management
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-06-03,11,270!2024-06-06,14,290-->
-  - quantity-based system example ::: Taipei implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-06-03,11,270!2024-06-04,12,270-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-06-03,11,270!2024-06-04,12,270-->
 
 ## page 14
 
@@ -329,7 +329,7 @@ Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-06-01,7,250!2024-06-08,16,290-->
-  - AQHI scale ::: 1 to 10 and 10, grouped into 5 health risk categories <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
+  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
 
 ## page 28
@@ -347,8 +347,8 @@ Indoor Air Quality
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-06-06,14,290!2024-06-08,16,290-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-06-02,10,270!2024-06-05,13,290-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-06-02,10,270!2024-06-05,13,290-->
-    - carbon monoxide limits ::: excellent: < 2000 mg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 mg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-05,13,270!2024-06-07,15,290-->
-    - respirable suspended particulate limits ::: excellent: < 20 mg/m<sup>3</sup>; good: < 180 mg/m<sup>3</sup> <!--SR:!2024-06-05,13,270!2024-06-02,10,270-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-05,13,270!2024-06-07,15,290-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-06-05,13,270!2024-06-02,10,270-->
 
 ## page 30
 
@@ -462,5 +462,5 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ (mg/m^3)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-06-06,14,290!2024-06-05,13,290-->
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ (mg/m^3)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {\mathrm{T (K)} } \times \frac {\mathrm{p\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-06-04,12,270!2024-06-01,9,270-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-06-06,14,290!2024-06-05,13,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-06-04,12,270!2024-06-01,9,270-->
