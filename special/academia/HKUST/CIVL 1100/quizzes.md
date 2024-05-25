@@ -45,7 +45,7 @@ Example quiz questions for preparing exams.
 > 3. Urban residential
 > 4. Public parks
 >
-> - solution: {{3}} <!--SR:!2024-06-07,14,292-->
+> - solution: {{1}} <!--SR:!2024-06-07,14,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -54,7 +54,7 @@ Example quiz questions for preparing exams.
 > Which of the following cement hydration products is the most important component for entrapping metal pollutants in soil using solidification/stabilization technology?
 >
 > 1. C2S (dicalcium silicates)
-> 2. C3H (calcium silicate hydrate)
+> 2. CSH (calcium silicate hydrate)
 > 3. C3S (tricalcium silicates)
 > 4. C3A (tricalcium aluminate)
 >
@@ -222,7 +222,7 @@ Example quiz questions for preparing exams.
 >
 > Which of the following statements regarding global warming/carbon emission is INCORRECT?
 >
-> 1. China has the highest in total carbon emission, followed by US and then India
+> 1. As of , China has the highest in total carbon emission, followed by US and then India
 > 2. Some infrared radiation is absorbed and re-emitted to the earth by greenhouse gases causing global warming
 > 3. Amount of greenhouse gases is expressed in terms of equivalent amount of carbon
 > 4. Global warming is due to the presence of greenhouse gases (GHG)
