@@ -1,15 +1,9 @@
 ---
 aliases:
-  - Bernoulli rule
-  - Bernoulli's rule
-  - L'Hopital rule
-  - L'Hôpital rule
-  - L'Hopital's rule
-  - L'Hôpital's rule
-  - L'Hospital rule
-  - L'Hôspital rule
-  - L'Hospital's rule
-  - L'Hôspital's rule
+  - equivalent infinitesimal
+  - equivalent infinitesimals
+  - indeterminate form
+  - indeterminate forms
 tags:
   - flashcard/general/L_Hôpital_s_rule
   - language/in/English
