@@ -58,7 +58,7 @@ The content is in teaching order.
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-06-04,29,320!2024-06-17,42,327-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-05-25,12,272!2024-06-25,81,330-->
+  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-07-10,46,292!2024-06-25,81,330-->
   - construction material factors ::: depends on availability, cost, project nature <!--SR:!2024-08-24,92,337!2024-07-08,60,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
@@ -72,7 +72,7 @@ The content is in teaching order.
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-08-08,89,377-->
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-06-03,56,285!2024-07-11,63,345-->
-  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-05-25,26,304!2024-07-07,62,345-->
+  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2024-07-07,62,345-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-06-08,30,320!2024-06-21,46,332-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
@@ -150,7 +150,7 @@ quantity surveyor
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←building services engineer <!--SR:!2024-05-25,25,315!2024-08-23,102,377-->
+- _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2024-08-23,102,377-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-06-28,50,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-06-25,53,347!2024-06-29,47,340-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
@@ -342,7 +342,7 @@ We Engineer Hong Kong’s Development
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2024-08-10,78,314!2024-12-19,209,330-->
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-05-30,30,304!2024-06-09,38,307-->
-- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-05-25,24,312!2024-06-11,18,297-->
+- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-08-06,73,312!2024-06-11,18,297-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-06-10,41,330-->
 - We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-08-24,92,380-->
 
@@ -732,7 +732,7 @@ socioeconomic
 - chemical→:::←cultural <!--SR:!2024-06-09,16,280!2024-06-07,37,337-->
 - cultural→:::←physical <!--SR:!2024-05-29,31,325!2024-05-28,22,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
-- socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-05-25,12,277-->
+- socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-06-26,32,277-->
 
 <!--/pytextgen-->
 
@@ -1204,7 +1204,7 @@ water tower
 - dam→:::←power plant <!--SR:!2024-05-29,23,301!2024-06-10,25,258-->
 - power plant→:::←storage facility <!--SR:!2024-05-28,22,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-06-04,29,320-->
-- tunnel→:::←unusual structure <!--SR:!2024-05-25,14,247!2024-06-18,38,320-->
+- tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-06-18,38,320-->
 - unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-06-29,51,330-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-06-27,34,301-->
 
@@ -1251,7 +1251,7 @@ and the Structural Engineering Institute (SEI).
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
-- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-05-25,25,315-->
+- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-05-28,50,270!2024-06-02,32,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-05-26,26,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-05-28,28,315-->
@@ -1299,7 +1299,7 @@ water transport
 
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←airport <!--SR:!2024-05-25,16,270!2024-08-03,84,375-->
+- _(begin)_→:::←airport <!--SR:!2024-07-26,62,290!2024-08-03,84,375-->
 - airport→:::←bicycle path <!--SR:!2024-07-15,67,355!2024-09-03,102,337-->
 - bicycle path→:::←highway <!--SR:!2024-07-05,55,360!2024-07-16,64,360-->
 - highway→:::←pier <!--SR:!2024-06-14,36,320!2024-05-30,24,300-->

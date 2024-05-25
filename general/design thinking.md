@@ -20,7 +20,7 @@ tags:
 
 Ideation consists of {{alternation between [divergent](divergent%20thinking.md) and [convergent thinking](convergent%20thinking.md)}}. <!--SR:!2024-05-28,17,290-->
 
-Divergent thinking is supposed to {{enhance creativity of thinkers}}. During divergent thinking, having {{a diverse group of people}} involved is important. Good practice is {{encouraging people to go wild with many ideas, and avoiding evaluation}}. <!--SR:!2024-07-09,48,290!2024-05-28,17,290!2024-05-25,14,290-->
+Divergent thinking is supposed to {{enhance creativity of thinkers}}. During divergent thinking, having {{a diverse group of people}} involved is important. Good practice is {{encouraging people to go wild with many ideas, and avoiding evaluation}}. <!--SR:!2024-07-09,48,290!2024-05-28,17,290!2024-07-23,59,310-->
 
 Convergent thinking is supposed to {{find the best and the most concrete solution}}. <!--SR:!2024-07-11,48,290-->
 
@@ -28,11 +28,11 @@ Convergent thinking is supposed to {{find the best and the most concrete solutio
 
 ### in business
 
-Design thinking can integrate {{human values like usability and desirability, technology feasibility, and business viability}} together for innovation. Innovation depends on {{the context. For example, commercialization of creative ideas is the definition for venture capitalists}}. <!--SR:!2024-05-30,15,250!2024-05-25,14,290-->
+Design thinking can integrate {{human values like usability and desirability, technology feasibility, and business viability}} together for innovation. Innovation depends on {{the context. For example, commercialization of creative ideas is the definition for venture capitalists}}. <!--SR:!2024-05-30,15,250!2024-07-24,60,310-->
 
 User desirability describes {{how much people want the product, depending on their needs and desires}}. This can be achieved by {{deeply understanding users via an empathetic design process, such as putting ourselves in the shoes of the customers}}. <!--SR:!2024-06-20,30,270!2024-06-11,21,250-->
 
-Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2024-06-24,34,270!2024-05-25,14,290-->
+Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2024-06-24,34,270!2024-07-22,58,310-->
 
 Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2024-06-08,23,270!2024-06-18,28,270-->
 

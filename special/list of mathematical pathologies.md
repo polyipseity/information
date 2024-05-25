@@ -28,7 +28,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \
   - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2024-06-21,54,323!2024-06-08,42,323-->
 - integrability
   - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md). <!--SR:!2024-06-28,50,326!2024-07-16,68,346-->
-- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md). <!--SR:!2024-05-25,51,310!2024-06-06,63,310-->
+- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md). <!--SR:!2024-12-29,218,330!2024-06-06,63,310-->
 
 ### Volterra's function
 
@@ -46,7 +46,7 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 {{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}} called the __empty function__. <!--SR:!2024-06-02,59,310-->
 
-- [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-05-25,51,310!2024-05-27,53,310-->
+- [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-27,216,330!2024-05-27,53,310-->
   - global continuity or discontinuity ::: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2024-06-17,51,323!2024-06-08,44,323-->
 - [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-23,213,330!2024-06-11,68,310-->
 

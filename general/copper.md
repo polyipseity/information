@@ -44,7 +44,7 @@ return await memorize_table(
 > |-|-|
 > | {{cooking utensils}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](mallability.md), [strong](strength%20of%20materials.md), [thermally conductive](thermal%20conductivity.md)}} |
 > | {{electric wires}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md)}} |
-> | {{water pipes}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2026-01-01,758,330!2025-04-10,392,210!2026-08-31,897,330!2024-07-01,275,230!2024-05-25,116,290!2024-06-01,232,220-->
+> | {{water pipes}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), low [toxicity](toxicity.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} | <!--SR:!2026-01-01,758,330!2025-04-10,392,210!2026-08-31,897,330!2024-07-01,275,230!2025-04-25,335,290!2024-06-01,232,220-->
 
 <!--/pytextgen-->
 

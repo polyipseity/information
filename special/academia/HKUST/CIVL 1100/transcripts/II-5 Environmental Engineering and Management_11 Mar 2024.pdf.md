@@ -72,7 +72,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-06-03,11,270!2024-06-06,14,290-->
 - land contamination→:::←noise pollution <!--SR:!2024-06-05,13,290!2024-06-02,10,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-06-03,11,270!2024-06-03,11,270-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-05-25,2,230-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-05-29,4,230-->
 - water pollution→:::←_(end)_ <!--SR:!2024-06-05,13,290!2024-06-04,12,270-->
 
 <!--/pytextgen-->
@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-05-25,2,230!2024-05-31,8,250-->
+- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-05-31,6,230!2024-05-31,8,250-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-06-07,15,290!2024-06-01,9,270-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-02,10,270!2024-06-06,14,290-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-06-05,13,290!2024-06-07,15,290-->
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
-  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-05-25,2,230!2024-06-08,16,290-->
+  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-06-01,7,250!2024-06-08,16,290-->
   - AQHI scale ::: 1 to 10 and 10, grouped into 5 health risk categories <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
 
@@ -394,8 +394,8 @@ return await memorize_seq(
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-05-26,3,250!2024-06-03,11,270-->
-- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-05-26,3,250!2024-05-25,2,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-05-25,2,230!2024-06-09,17,290-->
+- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-05-26,3,250!2024-05-30,5,230-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-02,8,250!2024-06-09,17,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-01,9,270!2024-05-30,7,250-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-02,10,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
@@ -415,7 +415,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-06-06,14,290!2024-06-06,14,290-->
-  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-05-25,2,230!2024-06-08,16,290-->
+  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-05-31,6,230!2024-06-08,16,290-->
 
 ## page 33
 

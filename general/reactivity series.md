@@ -139,7 +139,7 @@ return _chain.from_iterable(await _gather(
 - [caesium](caesium.md)→:::←[rubidium](rubidium.md) <!--SR:!2024-10-25,391,270!2025-02-13,397,250-->
 - [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2025-01-07,392,250!2024-07-12,286,250-->
 - [potassium](potassium.md)→:::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2025-11-14,655,310-->
-- [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2024-06-24,42,230!2024-05-25,285,290-->
+- [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2024-06-24,42,230!2026-08-29,826,290-->
 - [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2024-10-24,314,230!2024-06-18,139,230-->
 - [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2025-06-09,520,270!2024-06-03,167,250-->
 - [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2025-01-09,360,230!2024-10-15,347,270-->
@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2024-08-01,108,210!2025-05-06,383,230-->
 - [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2024-06-15,280,290!2024-08-20,127,190-->
 - [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-08-06,120,250-->
-- [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-05-25,18,170!2024-06-03,27,130-->
+- [cadmium](cadmium.md)→:::←[cobalt](cobalt.md) <!--SR:!2024-07-11,47,190!2024-06-03,27,130-->
 - [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-06-10,151,230-->
 - [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-07-04,92,190-->
 - [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2025-07-07,539,250-->
@@ -221,8 +221,8 @@ return _chain.from_iterable(await _gather(
 - Mn<sup>2+</sup>::[manganese](manganese.md) <!--SR:!2024-06-02,81,345-->
 - Zn<sup>2+</sup>::[zinc](zinc.md) <!--SR:!2025-03-20,311,365-->
 - Cr<sup>3+</sup>::[chromium](chromium.md) <!--SR:!2024-06-02,83,347-->
-- Fe<sup>2+</sup>::[iron](iron.md) <!--SR:!2024-05-25,75,345-->
-- Cd<sup>2+</sup>::[cadmium](cadmium.md) <!--SR:!2024-05-25,75,345-->
+- Fe<sup>2+</sup>::[iron](iron.md) <!--SR:!2025-05-15,355,365-->
+- Cd<sup>2+</sup>::[cadmium](cadmium.md) <!--SR:!2025-05-14,354,365-->
 - Co<sup>2+</sup>::[cobalt](cobalt.md) <!--SR:!2024-06-07,86,345-->
 - Ni<sup>2+</sup>::[nickel](nickel.md) <!--SR:!2024-05-28,78,345-->
 - Sn<sup>2+</sup>::[tin](tin.md) <!--SR:!2025-04-09,328,367-->

@@ -12,7 +12,7 @@ tags:
 
 # chemical substance
 
-A __chemical substance__ is {{a matter with characteristic properties and constant [chemical composition](chemical%20composition.md)}}. It can either be {{a [chemical element](#chemical%20element) or a [chemical compound](#chemical%20compound)}}.<sup>[1](#^note-1)</sup> It is pure, {{while impure ones are [mixtures](mixture.md)}}. <!--SR:!2024-12-28,358,230!2024-09-07,382,290!2024-05-25,328,330-->
+A __chemical substance__ is {{a matter with characteristic properties and constant [chemical composition](chemical%20composition.md)}}. It can either be {{a [chemical element](#chemical%20element) or a [chemical compound](#chemical%20compound)}}.<sup>[1](#^note-1)</sup> It is pure, {{while impure ones are [mixtures](mixture.md)}}. <!--SR:!2024-12-28,358,230!2024-09-07,382,290!2028-06-24,1491,350-->
 
 ## properties
 
