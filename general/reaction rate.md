@@ -22,7 +22,7 @@ tags:
 
 ## definition
 
-The reaction rate is always {{positive}}. <!--SR:!2024-05-26,324,330-->
+The reaction rate is always {{positive}}. <!--SR:!2028-06-03,1469,350-->
 
 ## factors
 

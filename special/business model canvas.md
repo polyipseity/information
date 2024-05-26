@@ -67,7 +67,7 @@ C$: [cost structure](#cost%20structure)
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-05-26,28,277!2024-06-28,57,317-->
+- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2024-06-28,57,317-->
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-06-04,34,274!2024-06-17,44,297-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-06-25,50,294!2024-08-22,92,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-07-07,62,314!2024-06-27,56,314-->
@@ -122,7 +122,7 @@ segmented: splitting slightly different customer segments
 
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-06-10,32,257!2024-07-14,69,317-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
-- mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-05-26,29,277-->
+- mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-06-24,30,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-06-22,39,254!2024-06-26,42,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-07-06,45,254-->
@@ -200,7 +200,7 @@ The channels building block shows {{the ways to reach customers and deliver valu
 
 #### customer relationships
 
-The customer relationships building block shows {{the types of relationships with customer segments}}. Proper customer relationships help with {{customer acquisition, customer retention, and upselling}}. <!--SR:!2024-05-26,28,254!2024-06-02,36,277-->
+The customer relationships building block shows {{the types of relationships with customer segments}}. Proper customer relationships help with {{customer acquisition, customer retention, and upselling}}. <!--SR:!2024-09-05,102,274!2024-06-02,36,277-->
 
 ##### customer relationship examples
 
@@ -292,7 +292,7 @@ subscription fee
 - asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-07-01,48,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-08-01,71,274-->
-- licensing→:::←usage fee <!--SR:!2024-05-26,28,274!2024-07-31,68,274-->
+- licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-06-27,44,254!2024-08-04,74,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-06-19,37,257-->
 
@@ -318,7 +318,7 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-05-27,12,289!2024-05-26,11,289!2024-05-28,13,289!2024-07-06,42,309!2024-05-29,14,289-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-05-27,12,289!2024-07-10,45,309!2024-05-28,13,289!2024-07-06,42,309!2024-05-29,14,289-->
 
 ## comparison with other models
 

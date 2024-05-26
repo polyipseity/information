@@ -9,7 +9,7 @@ tags:
 
 # many-to-many (data model)
 
-A __many-to-many__ relationship {{is a [cardinality](cardinality%20(data%20modeling).md) referring to a relationship between two entities A and B in which A is related to multiple Bs and vice versa}}. <!--SR:!2024-05-26,184,290-->
+A __many-to-many__ relationship {{is a [cardinality](cardinality%20(data%20modeling).md) referring to a relationship between two entities A and B in which A is related to multiple Bs and vice versa}}. <!--SR:!2026-06-06,741,310-->
 
 ## data relationships
 

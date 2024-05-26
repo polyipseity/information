@@ -30,7 +30,7 @@ Each row represents {{an actual class while each column represents a predicted c
 
 ## error report
 
-An __error report__ {{is a related table that can be constructed from a confusion matrix}}. The column headers are, in order, {{(actual) class, number of cases (# cases), number of errors (# errors), and percentage error (% error)}}. The row headers are {{all possible classes, with an additional "total" at the end that considers all classes at once}}. <!--SR:!2024-08-29,101,290!2024-05-27,11,230!2024-05-26,12,230-->
+An __error report__ {{is a related table that can be constructed from a confusion matrix}}. The column headers are, in order, {{(actual) class, number of cases (# cases), number of errors (# errors), and percentage error (% error)}}. The row headers are {{all possible classes, with an additional "total" at the end that considers all classes at once}}. <!--SR:!2024-08-29,101,290!2024-05-27,11,230!2024-07-04,39,250-->
 
 > [!example] examples
 >

@@ -34,7 +34,7 @@ The content is in teaching order.
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-05-29,28,315!2024-06-25,52,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-05-28,19,301!2024-07-13,63,360-->
-  - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-05-26,51,310-->
+  - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-07-18,55,297!2024-07-21,69,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-06-03,28,320!2024-06-10,39,332-->
   - [civil engineering examples](#civil%20engineering%20examples)
@@ -51,7 +51,7 @@ The content is in teaching order.
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-06-09,31,321!2024-06-01,33,332-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-07-05,42,287!2024-08-30,98,380-->
-      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-05-26,25,317!2024-06-26,44,340-->
+      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-06-26,44,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2024-08-21,100,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2024-08-29,97,380-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
@@ -81,7 +81,7 @@ The content is in teaching order.
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2024-07-29,81,370-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-06-28,44,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-05-26,27,307!2024-07-18,68,350-->
+    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2024-07-18,68,350-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-06-07,27,230!2024-06-24,49,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-07-27,64,314!2024-07-17,67,352-->
@@ -154,8 +154,8 @@ quantity surveyor
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-06-28,50,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-06-25,53,347!2024-06-29,47,340-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
-- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-05-26,25,317-->
-- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-05-26,25,315!2024-05-27,27,315-->
+- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
+- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-05-27,27,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-06-14,21,280-->
@@ -302,7 +302,7 @@ workmanship
 - construction management→:::←economics <!--SR:!2024-05-29,18,235!2024-06-01,21,280-->
 - economics→:::←impacts to surrounding <!--SR:!2024-05-30,24,300!2024-06-04,11,280-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-06-01,26,320-->
-- lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-05-26,24,312-->
+- lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-05-27,18,317-->
 - social→:::←workmanship <!--SR:!2024-06-05,27,300!2024-06-02,27,210-->
@@ -389,7 +389,7 @@ transportation
 - environmental→:::←geo-technical <!--SR:!2024-05-30,30,307!2024-06-16,46,325-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
 - hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
-- material→:::←structural <!--SR:!2024-05-26,25,317!2024-06-06,24,260-->
+- material→:::←structural <!--SR:!2024-08-15,81,317!2024-06-06,24,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
 - transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-06-01,8,341-->
 
@@ -490,7 +490,7 @@ testing materials
 
 - _(begin)_→:::←budgeting <!--SR:!2024-06-13,43,327!2024-07-05,57,355-->
 - budgeting→:::←contracting <!--SR:!2024-05-29,28,314!2024-06-15,45,327-->
-- contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-05-26,17,295-->
+- contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-04,9,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-07-31,68,297-->
 - logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-31,29,315-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
@@ -539,7 +539,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-05-30,14,232!2024-09-08,107,381-->
-- business procedures→:::←economics <!--SR:!2024-05-26,2,241!2024-07-31,68,285-->
+- business procedures→:::←economics <!--SR:!2024-06-01,6,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-05-30,24,320!2024-06-14,39,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-06-13,30,280-->
 - management principles→:::←strong communication skills <!--SR:!2024-05-30,24,301!2024-06-01,23,300-->
@@ -808,7 +808,7 @@ tunnel
 - embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-06-10,17,252-->
-- tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-05-26,17,297-->
+- tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
 
 <!--/pytextgen-->
 
@@ -996,7 +996,7 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone <!--SR:!2024-05-26,17,297!2024-06-28,84,345-->
+- _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2024-06-28,84,345-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-06-22,51,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-06-12,42,337!2024-06-11,33,320-->
@@ -1253,7 +1253,7 @@ and the Structural Engineering Institute (SEI).
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-05-28,50,270!2024-06-02,32,317-->
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-05-26,26,316-->
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-05-28,28,315-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-06-01,30,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-05-27,28,310-->
@@ -1346,7 +1346,7 @@ water treatment
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-06-11,18,280!2024-07-03,50,315-->
-- water quality monitoring→:::←water treatment <!--SR:!2024-06-17,46,324!2024-05-26,26,314-->
+- water quality monitoring→:::←water treatment <!--SR:!2024-06-17,46,324!2024-09-20,117,334-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-06-10,17,246-->
 
 <!--/pytextgen-->

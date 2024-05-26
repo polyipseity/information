@@ -206,7 +206,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="8912"--><!-- The following content is generated at 2024-02-17T20:43:15.136674+08:00. Any edits will be overridden! -->
 
-- Cs<sup>+</sup>::[caesium](caesium.md) <!--SR:!2024-05-26,76,345-->
+- Cs<sup>+</sup>::[caesium](caesium.md) <!--SR:!2025-05-21,360,365-->
 - Rb<sup>+</sup>::[rubidium](rubidium.md) <!--SR:!2025-04-12,326,365-->
 - K<sup>+</sup>::[potassium](potassium.md) <!--SR:!2025-05-11,352,367-->
 - Na<sup>+</sup>::[sodium](sodium.md) <!--SR:!2024-06-08,87,345-->
@@ -229,7 +229,7 @@ return _chain.from_iterable(await _gather(
 - Pb<sup>2+</sup>::[lead](lead.md) <!--SR:!2024-05-30,80,345-->
 - Sb<sup>3+</sup>::[antimony](antimony.md) <!--SR:!2024-06-06,85,345-->
 - Bi<sup>3+</sup>::[bismuth](bismuth.md) <!--SR:!2024-06-07,86,345-->
-- Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2024-05-26,76,347-->
+- Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2025-05-23,362,367-->
 - W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2025-04-30,343,365-->
 - Hg<sup>2+</sup>::[mercury](mercury%20(element).md) <!--SR:!2024-06-03,84,345-->
 - Ag<sup>+</sup>::[silver](silver.md) <!--SR:!2024-05-28,78,347-->
@@ -302,7 +302,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-07-17,133,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
 - [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-06-14,32,130-->
-- [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-05-26,28,150-->
+- [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-07-06,41,150-->
 - [zinc](zinc.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-16,379,290-->
 - [chromium](chromium.md)::[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->
 - [iron](iron.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-05-18,777,310-->

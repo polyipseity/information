@@ -201,7 +201,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial block is used as noise tolerant building to protect the residential building from road traffic noise
 > 4. Residential building with no balcony is built to reduce the impact of road traffic noise
 >
-> - solution: {{4}} <!--SR:!2024-05-26,2,232-->
+> - solution: {{4}} <!--SR:!2024-06-01,6,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -227,7 +227,7 @@ Example quiz questions for preparing exams.
 > 3. Amount of greenhouse gases is expressed in terms of equivalent amount of carbon
 > 4. Global warming is due to the presence of greenhouse gases (GHG)
 >
-> - solution: {{1}} <!--SR:!2024-05-26,2,232-->
+> - solution: {{1}} <!--SR:!2024-05-31,5,252-->
 
 <!-- markdownlint MD028 -->
 

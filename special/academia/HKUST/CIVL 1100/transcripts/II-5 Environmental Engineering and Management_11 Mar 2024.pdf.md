@@ -113,7 +113,7 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-06-02,10,270!2024-06-08,16,290-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-08,16,290!2024-06-01,9,270-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-02,10,270!2024-06-09,17,290-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-05-26,3,250!2024-06-08,16,290-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-04,9,250!2024-06-08,16,290-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-09,17,290!2024-06-04,12,270-->
 
@@ -228,7 +228,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-06-06,14,290!2024-06-09,17,290-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-06-03,11,270!2024-06-05,13,290-->
-  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-02,10,270!2024-05-26,3,250-->
+  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-02,10,270!2024-06-08,13,270-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-01,9,270!2024-06-06,14,290-->
 
 ## page 16
@@ -243,8 +243,8 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-06-05,13,290!2024-06-07,15,290-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-06-04,12,270!2024-06-04,12,270-->
-  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-06-05,13,290!2024-05-26,3,250-->
-  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-05-26,3,250!2024-06-07,15,290-->
+  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-06-05,13,290!2024-06-07,12,270-->
+  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-06-04,9,250!2024-06-07,15,290-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-06-03,11,270!2024-06-05,13,290-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-06-05,13,270!2024-06-01,9,270-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-06-03,11,270!2024-06-03,11,270-->
@@ -268,7 +268,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
-    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-05-26,3,250!2024-06-09,17,290-->
+    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-04,9,250!2024-06-09,17,290-->
 
 ## page 21
 
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2024-06-08,16,290!2024-06-06,14,290-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-05-26,3,250!2024-06-07,15,290-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-03,8,250!2024-06-07,15,290-->
 
 ## page 23
 
@@ -393,8 +393,8 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
-- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-05-26,3,250!2024-06-03,11,270-->
-- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-05-26,3,250!2024-05-30,5,230-->
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-05-28,2,230!2024-06-03,11,270-->
+- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-06-08,13,270!2024-05-30,5,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-02,8,250!2024-06-09,17,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-01,9,270!2024-05-30,7,250-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-02,10,270-->

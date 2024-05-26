@@ -74,13 +74,13 @@ return (
 
 <!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2024-01-04T20:17:52.556525+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←\[[parameter](#parameter)\] <!--SR:!2024-05-26,205,317!2024-05-29,208,329-->
+- _(begin)_→:::←\[[parameter](#parameter)\] <!--SR:!2026-11-09,897,337!2024-05-29,208,329-->
 - \[[parameter](#parameter)\]→:::←\[[flags](#flags)\] <!--SR:!2024-06-09,219,329!2024-05-30,209,329-->
 - \[[flags](#flags)\]→:::←\[[width](#width)\] <!--SR:!2024-10-05,158,269!2025-01-10,348,309-->
 - \[[width](#width)\]→:::←\[.[precision](#precision)\] <!--SR:!2025-01-13,245,297!2025-05-05,406,289-->
 - \[.[precision](#precision)\]→:::←\[[length](#length)\] <!--SR:!2024-06-19,229,329!2024-12-28,339,309-->
 - \[[length](#length)\]→:::←[type](#type) <!--SR:!2024-06-06,216,329!2025-06-26,441,289-->
-- [type](#type)→:::←_(end)_ <!--SR:!2026-08-26,835,337!2024-05-26,205,329-->
+- [type](#type)→:::←_(end)_ <!--SR:!2026-08-26,835,337!2026-12-11,929,349-->
 
 <!--/pytextgen-->
 

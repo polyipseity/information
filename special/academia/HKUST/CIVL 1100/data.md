@@ -44,7 +44,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-06-05,35,307!2024-08-29,108,377-->
 - height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-06-06,13,220!2024-08-13,92,365-->
-- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-05-27,21,360!2024-05-26,20,360-->
+- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-05-27,21,360!2024-08-30,96,380-->
 - shape ::: sail of a ship <!--SR:!2024-07-23,71,357!2024-07-23,75,372-->
 
 ## Burj Khalifa
@@ -153,8 +153,8 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2024-07-01,56,354!2024-06-22,78,330-->
-- height ::: roof: 178.8 m <!--SR:!2024-05-26,17,281!2024-06-16,72,330-->
-- image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2024-07-26,63,360!2024-05-26,20,360-->
+- height ::: roof: 178.8 m <!--SR:!2024-07-12,47,281!2024-06-16,72,330-->
+- image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2024-07-26,63,360!2024-09-03,100,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-06-13,31,301!2024-08-15,83,381-->
 
 ## Hong Kong Convention and Exhibition Centre
@@ -180,7 +180,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-06-01,23,300!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-06-26,33,281!2024-06-24,52,347-->
-- image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-05-26,20,360-->
+- image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
 - length ::: 379 m <!--SR:!2024-05-28,19,281!2024-06-21,49,350-->
 
 ## International Commerce Centre
@@ -210,7 +210,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 ## MOSE
 
 - image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2024-08-08,76,360!2024-05-27,21,360-->
-- type ::: mobile gates <!--SR:!2024-05-26,26,317!2024-07-06,61,347-->
+- type ::: mobile gates <!--SR:!2024-09-16,113,337!2024-07-06,61,347-->
 
 ## Millau Viaduct
 
@@ -321,5 +321,5 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-08-12,93,374-->
-- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-05-26,20,360!2024-05-27,21,360-->
+- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-05-27,21,360-->
 - shape ::: cube covered with bubbles <!--SR:!2024-06-28,55,350!2024-06-07,63,330-->
