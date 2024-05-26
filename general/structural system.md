@@ -72,11 +72,11 @@ The following interior structures are possible.
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-06-01,12,270!2024-06-03,14,295-->
-- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-05-27,7,255!2024-05-26,6,255-->
+- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-05-27,7,255!2024-05-29,3,235-->
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-05-28,8,255!2024-05-27,7,255-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-06-02,13,275!2024-05-31,11,275-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-05-27,7,255!2024-05-27,7,255-->
-- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-06-03,14,295!2024-05-26,6,255-->
+- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-06-03,14,295!2024-06-15,20,275-->
 
 <!--/pytextgen-->
 
@@ -128,7 +128,7 @@ return await memorize_seq(
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-06-03,14,295!2024-06-05,16,295-->
-- [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-05-26,6,255!2024-06-04,15,295-->
+- [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-06-12,17,255!2024-06-04,15,295-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-05-29,9,275!2024-06-04,15,295-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-05-28,8,255!2024-05-30,10,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->

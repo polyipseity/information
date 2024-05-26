@@ -13,7 +13,7 @@ tags:
 
 The algorithm is similar to the [ID3 algorithm](ID3%20algorithm.md), with several changes described below. First, instead of {{using [Shannon entropy](entropy%20(information%20theory).md), replace all use of [Shannon entropy](entropy%20(information%20theory).md) with [Gini impurity](decision%20tree%20learning.md#Gini%20impurity)}}. Note that when replacing {{[conditional Shannon entropy](conditional%20entropy.md), there are many inconsistent ways to replace it with a conditional analog of Gini impurity.[<sup>[1]</sup>](#^ref-Teixeira-2021) In this case, use this definition of conditional Gini impurity: $$\operatorname{I_G}(Y | X) = \sum_{x \in \mathcal X} p(x) \left(1 - \sum_{y \in \mathcal Y} (p(y | x))^2 \right)$$, using the same notation in conditional entropy}}. <!--SR:!2024-05-28,33,290!2024-07-12,57,250-->
 
-Note that that the Gini impurity is {{simply a variation of the usual [Shannon entropy](entropy%20(information%20theory).md)}}. Both variations can be obtained from {{the more general [Tsallis entropy](Tsallis%20entropy.md)}}. <!--SR:!2024-05-26,31,270!2024-07-21,66,270-->
+Note that that the Gini impurity is {{simply a variation of the usual [Shannon entropy](entropy%20(information%20theory).md)}}. Both variations can be obtained from {{the more general [Tsallis entropy](Tsallis%20entropy.md)}}. <!--SR:!2024-09-18,115,290!2024-07-21,66,270-->
 
 ## references
 

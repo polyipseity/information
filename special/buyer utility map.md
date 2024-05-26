@@ -104,10 +104,10 @@ simplicity: remove complexity or hassle
 
 - _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-05-28,22,259!2024-07-04,54,310-->
 - convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-06-10,32,279!2024-07-05,51,299-->
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-05-26,20,259!2024-05-31,17,239-->
+- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-07-16,51,259!2024-05-31,17,239-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-06-16,25,239!2024-06-03,10,239-->
 - productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-05-29,18,250!2024-06-28,37,259-->
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-06-17,26,230!2024-05-26,20,259-->
+- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-06-17,26,230!2024-07-20,55,259-->
 - simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-07-03,53,310!2024-06-16,38,299-->
 
 <!--/pytextgen-->
