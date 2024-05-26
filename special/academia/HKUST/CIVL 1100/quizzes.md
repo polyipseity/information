@@ -222,7 +222,7 @@ Example quiz questions for preparing exams.
 >
 > Which of the following statements regarding global warming/carbon emission is INCORRECT?
 >
-> 1. As of , China has the highest in total carbon emission, followed by US and then India
+> 1. As of 2005, China has the highest in total carbon emission, followed by US and then India
 > 2. Some infrared radiation is absorbed and re-emitted to the earth by greenhouse gases causing global warming
 > 3. Amount of greenhouse gases is expressed in terms of equivalent amount of carbon
 > 4. Global warming is due to the presence of greenhouse gases (GHG)
