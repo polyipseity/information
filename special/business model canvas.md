@@ -184,7 +184,7 @@ risk reduction
 - brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-06-30,36,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-05-31,18,157-->
-- customization→:::←design <!--SR:!2024-05-27,29,277!2024-07-17,55,234-->
+- customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-06-19,39,257-->
 - performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-06-03,34,274-->
@@ -312,14 +312,14 @@ The key partnerships building block shows {{important suppliers and networks req
 
 #### cost structure
 
-The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-08-24,94,294!2024-05-27,30,274-->
+The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-08-24,94,294!2024-08-17,82,274-->
 
 In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-08-18,88,290!2024-07-06,56,274-->
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-05-27,12,289!2024-07-10,45,309!2024-05-28,13,289!2024-07-06,42,309!2024-05-29,14,289-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-06-30,34,289!2024-07-10,45,309!2024-05-28,13,289!2024-07-06,42,309!2024-05-29,14,289-->
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-05-28,13,289!2024-05-27,12,289!2024-06-01,17,309-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-05-28,13,289!2024-07-05,39,289!2024-06-01,17,309-->

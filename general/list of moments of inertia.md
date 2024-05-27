@@ -37,7 +37,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 ### cylindrical shell, axis through base center
 
 - definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2024-09-01,118,307!2024-12-03,202,347-->
-- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2024-05-27,172,310!2024-10-26,158,318-->
+- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2025-11-10,532,310!2024-10-26,158,318-->
   - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2024-09-05,252,330!2024-05-30,59,318-->
   - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2025-09-15,492,310!2024-12-21,214,338-->
 - proof: $$\begin{aligned}

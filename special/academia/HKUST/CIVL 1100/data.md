@@ -44,7 +44,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-06-05,35,307!2024-08-29,108,377-->
 - height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-06-06,13,220!2024-08-13,92,365-->
-- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-05-27,21,360!2024-08-30,96,380-->
+- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2024-08-30,96,380-->
 - shape ::: sail of a ship <!--SR:!2024-07-23,71,357!2024-07-23,75,372-->
 
 ## Burj Khalifa
@@ -85,7 +85,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-05-28,4,336!2024-06-22,29,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-27,3,316!2024-06-17,24,376-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-29,2,296!2024-06-17,24,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -93,15 +93,15 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-08-02,70,292!2024-08-09,90,367-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-28,4,181!2024-07-11,66,352-->
-- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-08-09,77,360!2024-05-27,21,360-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-05-27,21,360!2024-08-22,90,380-->
+- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-08-09,77,360!2024-09-08,104,380-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-08-08,73,360!2024-08-22,90,380-->
 
 ## Colosseum
 
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-06-04,11,336!2024-06-22,29,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-05-27,3,316!2024-06-26,33,376-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-06,10,316!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-06-07,14,356!2024-06-22,29,376-->
 - geographic location ::: Rome <!--SR:!2024-06-16,23,376!2024-06-18,25,376-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-05,12,336!2024-06-21,28,376-->
@@ -113,7 +113,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2024-06-27,49,327!2024-12-15,205,330-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-05-29,28,317!2024-06-01,57,310-->
-- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-05-27,21,360!2024-05-27,21,360-->
+- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-09-09,105,380!2024-09-10,106,380-->
 - shape ::: exponential <!--SR:!2024-06-04,60,330!2025-01-16,252,335-->
 
 ## Empire State Building
@@ -143,7 +143,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-05-27,3,316!2024-06-19,26,376-->
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-06-05,9,316!2024-06-19,26,376-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-06-08,15,356!2024-06-24,31,376-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-06-09,16,356!2024-06-22,29,376-->
 - length ::: 21196.18 km <!--SR:!2024-06-02,9,336!2024-06-21,28,376-->
@@ -171,7 +171,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 - bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2024-07-04,59,354!2024-07-27,79,374-->
 - description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2024-08-19,98,375!2024-12-19,209,330-->
-- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-05-27,21,360!2024-08-19,87,380-->
+- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-09-10,106,380!2024-08-19,87,380-->
 - length: 55 km
 
 ## Hoover Dam
@@ -190,7 +190,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2024-08-14,93,370-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-07-30,67,301!2024-05-29,54,310-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2024-07-26,63,360!2024-08-24,91,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-05-27,14,301!2024-09-04,103,381-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-07-24,58,321!2024-09-04,103,381-->
 
 ## Itaipu Dam
 
@@ -204,12 +204,12 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-06-01,21,275!2024-07-23,75,367-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-18,25,237!2024-05-29,54,310-->
-- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-05-27,21,360-->
+- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-06-12,27,280!2024-08-20,88,380-->
 
 ## MOSE
 
-- image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2024-08-08,76,360!2024-05-27,21,360-->
+- image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2024-08-08,76,360!2024-09-09,105,380-->
 - type ::: mobile gates <!--SR:!2024-09-16,113,337!2024-07-06,61,347-->
 
 ## Millau Viaduct
@@ -219,11 +219,11 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-06-08,15,356!2024-06-21,28,376-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-06-07,14,356!2024-06-08,15,356-->
-- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-05-27,3,316!2024-06-20,27,376-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-04,8,316!2024-06-20,27,376-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-07,14,356!2024-06-16,23,376-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-06-09,16,356-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-05-27,3,316!2024-06-08,15,356-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-06-04,8,316!2024-06-08,15,356-->
 - width ::: 32.05 m <!--SR:!2024-05-28,4,336!2024-05-28,4,336-->
 
 ## Mont Cenis Base Tunnel
@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-05-27,3,316!2024-06-24,31,376-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-05-29,2,296!2024-06-24,31,376-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-06-20,27,376-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-06-01,8,336!2024-06-20,27,376-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-06-05,12,356!2024-06-16,23,376-->
@@ -305,7 +305,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
 - core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-06-03,33,307!2024-08-06,87,370-->
-- length ::: 271 km <!--SR:!2024-05-27,18,317!2024-08-23,102,377-->
+- length ::: 271 km <!--SR:!2024-07-24,58,317!2024-08-23,102,377-->
 
 ## Two Prudential Plaza
 
@@ -321,5 +321,5 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-08-12,93,374-->
-- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-05-27,21,360-->
+- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-09-12,108,380-->
 - shape ::: cube covered with bubbles <!--SR:!2024-06-28,55,350!2024-06-07,63,330-->

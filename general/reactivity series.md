@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-05-29,43,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-06-07,14,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-05-27,6,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-04,8,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-09-02,125,250-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->

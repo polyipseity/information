@@ -76,7 +76,7 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2025-01-21,269,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->
-- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-08-09,114,376!2024-05-27,52,356-->
+- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-08-09,114,376!2024-06-22,26,336-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2024-07-22,105,376!2024-08-17,103,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2024-07-27,103,376!2024-08-26,133,396-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-09-17,145,332!2024-05-30,78,372-->

@@ -26,7 +26,7 @@ This section {{outlines how one might do competitor analysis and present it to o
 Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-06-04,17,301!2024-06-01,14,301-->
 
 1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-06-02,15,301!2024-06-03,16,301-->
-2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-05-27,11,281!2024-06-04,17,301-->
+2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-06-28,32,281!2024-06-04,17,301-->
 3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-06-26,32,281!2024-06-02,15,301-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2024-06-01,14,301!2024-06-03,16,301-->
 
@@ -80,7 +80,7 @@ why: Why are people using competitors' products?
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-06-03,13,261!2024-05-30,15,294-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-06-16,25,274!2024-06-18,25,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-06-04,14,261!2024-06-02,12,241-->
-- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-30,8,241!2024-05-27,9,281-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-30,8,241!2024-06-22,26,281-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-06-20,25,261!2024-06-25,31,281-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-06-02,12,241!2024-06-18,24,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-07-02,37,281!2024-06-04,12,241-->
@@ -125,7 +125,7 @@ pricing: Find suitable prices catering to different market segment and economies
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-06-03,16,301!2024-05-30,12,281-->
-- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-05-27,11,281!2024-06-04,17,301-->
+- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-06-01,5,261!2024-06-04,17,301-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-03,12,221!2024-06-08,17,261-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-06-05,18,301!2024-05-31,16,294-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-06-08,16,261!2024-06-15,20,261-->
@@ -188,7 +188,7 @@ number of features
 - durability→:::←service <!--SR:!2024-06-05,18,301!2024-05-31,13,281-->
 - service→:::←convenience <!--SR:!2024-06-01,6,241!2024-06-13,19,301-->
 - convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-05-28,13,294-->
-- ease of use→:::←number of features <!--SR:!2024-05-31,13,281!2024-05-27,13,274-->
+- ease of use→:::←number of features <!--SR:!2024-05-31,13,281!2024-07-04,38,274-->
 - number of features→:::←_(end)_ <!--SR:!2024-05-31,16,294!2024-06-04,17,301-->
 
 <!--/pytextgen-->

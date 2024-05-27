@@ -16,7 +16,7 @@ tags:
 - see: [Cantor set](../general/Cantor%20set.md)
 
 - integrability
-  - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2024-05-27,25,286!2024-06-13,41,306-->
+  - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2024-08-06,71,286!2024-06-13,41,306-->
 
 ### Dirichlet function
 
@@ -46,7 +46,7 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 {{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}} called the __empty function__. <!--SR:!2024-06-02,59,310-->
 
-- [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-27,216,330!2024-05-27,53,310-->
+- [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-27,216,330!2025-01-10,228,330-->
   - global continuity or discontinuity ::: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2024-06-17,51,323!2024-06-08,44,323-->
 - [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-23,213,330!2024-06-11,68,310-->
 
