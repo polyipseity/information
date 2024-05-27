@@ -67,7 +67,7 @@ The content is in teaching order.
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2024-06-19,75,330!2024-07-28,76,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2024-06-25,52,347-->
-  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-05-27,16,320!2024-06-23,48,330-->
+  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2024-06-23,48,330-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-08-08,89,377-->
@@ -85,7 +85,7 @@ The content is in teaching order.
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-06-07,27,230!2024-06-24,49,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-07-27,64,314!2024-07-17,67,352-->
-- transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-05-27,27,312!2024-12-04,219,319-->
+- transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-08-20,85,312!2024-12-04,219,319-->
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-05-29,23,300!2024-08-06,83,381-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
@@ -96,7 +96,7 @@ The content is in teaching order.
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-06-07,29,320!2024-06-04,31,312-->
-- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-05-27,27,317!2024-08-01,84,374-->
+- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2024-08-01,84,374-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2024-06-06,62,330-->
@@ -155,7 +155,7 @@ quantity surveyor
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-06-25,53,347!2024-06-29,47,340-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
-- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-05-27,27,315-->
+- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-06-14,21,280-->
@@ -304,7 +304,7 @@ workmanship
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-06-01,26,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-08-12,80,312-->
-- politics→:::←social <!--SR:!2024-07-21,69,360!2024-05-27,18,317-->
+- politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
 - social→:::←workmanship <!--SR:!2024-06-05,27,300!2024-06-02,27,210-->
 - workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
 
@@ -433,7 +433,7 @@ Water Cube
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2024-06-27,54,347-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-05-28,28,304!2024-06-07,35,330-->
-- Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-05-27,52,270!2024-06-15,42,332-->
+- Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-06-15,42,332-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-06-05,28,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-06-14,41,325-->
@@ -492,7 +492,7 @@ testing materials
 - budgeting→:::←contracting <!--SR:!2024-05-29,28,314!2024-06-15,45,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-04,9,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-07-31,68,297-->
-- logistics→:::←planning <!--SR:!2024-05-27,26,314!2024-05-31,29,315-->
+- logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-05-31,29,315-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-07-15,52,352-->
@@ -920,7 +920,7 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-05-27,26,318!2024-07-10,65,357-->
+- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2024-07-10,65,357-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-06-19,26,287-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-07,29,320-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-05-31,30,317!2024-06-23,43,340-->
@@ -1040,7 +1040,7 @@ wave
 - _(begin)_→:::←earthquake <!--SR:!2024-06-22,42,340!2024-06-30,52,337-->
 - earthquake→:::←fire <!--SR:!2024-06-02,34,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
-- flood→:::←strong wind <!--SR:!2024-05-30,19,320!2024-05-27,26,317-->
+- flood→:::←strong wind <!--SR:!2024-05-30,19,320!2024-06-09,13,297-->
 - strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-06-22,37,294-->
 - wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-07-22,67,315-->
 
@@ -1256,7 +1256,7 @@ and the Structural Engineering Institute (SEI).
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-05-28,28,315-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-06-01,30,307-->
-- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-05-27,28,310-->
+- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-08-22,87,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-06-01,30,317-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-05-29,27,337!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2024-06-16,72,330!2024-12-06,196,330-->
@@ -1306,7 +1306,7 @@ water transport
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
 - pipeline→:::←railroad <!--SR:!2024-06-10,17,255!2024-08-07,75,315-->
 - railroad→:::←water transport <!--SR:!2024-06-06,28,320!2024-08-11,79,315-->
-- water transport→:::←_(end)_ <!--SR:!2024-05-27,21,360!2024-08-17,85,380-->
+- water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->
 
 <!--/pytextgen-->
 

@@ -149,7 +149,7 @@ Example quiz questions for preparing exams.
 > 3. Filtration
 > 4. Chemical enhanced sedimentation
 >
-> - solution: {{1}} <!--SR:!2024-05-27,3,252-->
+> - solution: {{1}} <!--SR:!2024-06-03,7,252-->
 
 <!-- markdownlint MD028 -->
 
@@ -279,7 +279,7 @@ Example quiz questions for preparing exams.
 > 3. A soil is described as "plastic" when  the soil moisture content is higher than the plasticity index
 > 4. Soil with moisture content above the liquid limit "feels" like toothpaste
 >
-> - solution: {{3}} <!--SR:!2024-05-27,3,252-->
+> - solution: {{3}} <!--SR:!2024-06-02,6,252-->
 
 <!-- markdownlint MD028 -->
 

@@ -60,7 +60,7 @@ There are many factors affecting the reaction rate:
 - [catalyst](catalysis.md) presence: correlated→:::←[concentration](concentration.md) of [reactants](reagent.md): correlated <!--SR:!2024-05-29,327,330!2028-06-06,1473,350-->
 - [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated <!--SR:!2024-06-27,237,250!2024-05-28,326,330-->
 - [surface area](surface%20area.md) of [solids](solid.md): correlated→:::←[temperature](temperature.md): correlated <!--SR:!2028-05-24,1461,350!2024-06-26,236,270-->
-- [temperature](temperature.md): correlated→:::←_(end)_ <!--SR:!2028-01-24,1367,350!2024-05-27,325,330-->
+- [temperature](temperature.md): correlated→:::←_(end)_ <!--SR:!2028-01-24,1367,350!2027-05-01,1069,330-->
 
 <!--/pytextgen-->
 

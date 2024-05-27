@@ -81,7 +81,7 @@ return await memorize_seq(
 - [physical state](physical%20state.md)→:::←[solubility](solubility.md) <!--SR:!2024-11-22,218,230!2024-05-30,96,170-->
 - [solubility](solubility.md)→:::←[taste](taste.md) <!--SR:!2024-06-09,37,150!2024-06-18,29,150-->
 - [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2028-04-30,1441,350!2027-04-12,1055,330-->
-- [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-31,329,330!2024-05-27,325,330-->
+- [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2024-05-31,329,330!2027-05-03,1071,330-->
 
 <!--/pytextgen-->
 

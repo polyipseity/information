@@ -56,7 +56,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="fbda"--><!-- The following content is generated at 2024-01-04T20:17:52.437922+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←+: attracts local or overseas investment <!--SR:!2024-05-27,305,334!2024-08-24,376,334-->
+- _(begin)_→:::←+: attracts local or overseas investment <!--SR:!2028-03-30,1403,354!2024-08-24,376,334-->
 - +: attracts local or overseas investment→:::←+: creates job opportunities <!--SR:!2024-07-13,340,330!2026-09-07,941,334-->
 - +: creates job opportunities→:::←+: generates income for the government <!--SR:!2025-02-06,440,294!2026-09-18,950,334-->
 - +: generates income for the government→:::←+: improves infrastructure <!--SR:!2024-06-22,117,274!2026-04-06,753,314-->

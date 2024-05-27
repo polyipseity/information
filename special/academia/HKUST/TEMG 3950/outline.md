@@ -43,7 +43,7 @@ The content is in teaching order.
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-05-29,7,295-->
-  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-07-10,45,315!2024-05-27,12,295-->
+  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-07-10,45,315!2024-06-27,31,295-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
   - [§ customer validation](../../../../general/customer%20development.md#customer%20validation)
@@ -88,7 +88,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-05-27,13,295!2024-05-29,14,315-->
+- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-07-03,37,295!2024-05-29,14,315-->
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-07-02,39,295!2024-05-29,14,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
@@ -126,7 +126,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-06-18,24,255!2024-05-27,12,295-->
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-06-18,24,255!2024-06-29,33,295-->
 - [assignment W7](assignment%20W7/)
 
 ## week 8 lecture

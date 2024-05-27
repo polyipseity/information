@@ -41,7 +41,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2025-07-20,625,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2025-09-14,709,313-->
-- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2024-05-27,379,348-->
+- write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2029-05-13,1812,368-->
 - write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2024-06-11,393,348-->
 
 ## insert
@@ -91,7 +91,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## command
 
-- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2026-01-01,680,288!2024-05-27,73,148-->
+- show filepath and cursor position:::\<Ctrl\>+g <!--SR:!2026-01-01,680,288!2024-09-10,106,148-->
 - execute (command) in shell::::!(command)\<Enter\> <!--SR:!2025-02-05,460,273!2026-01-09,741,313-->
 
 ## options
