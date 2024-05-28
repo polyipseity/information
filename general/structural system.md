@@ -28,7 +28,7 @@ The structural system of a high-rise building should support {{vertical loads su
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-06-06,17,295!2024-06-05,16,295-->
 
-The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-06-03,14,295!2024-06-06,17,295!2024-06-06,17,295!2024-06-01,12,275!2024-05-28,8,255-->
+The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-06-03,14,295!2024-06-06,17,295!2024-06-06,17,295!2024-06-01,12,275!2024-06-28,31,275-->
 
 We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-06-03,14,295!2024-06-04,15,295!2024-06-01,12,275!2024-06-03,14,295!2024-06-04,15,295-->
 
@@ -73,7 +73,7 @@ The following interior structures are possible.
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-06-01,12,270!2024-06-03,14,295-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-06-13,17,255!2024-05-29,3,235-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-05-28,8,255!2024-05-31,4,235-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-06-01,4,235!2024-05-31,4,235-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-06-02,13,275!2024-05-31,11,275-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-06-16,20,255!2024-06-12,16,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-06-03,14,295!2024-06-15,20,275-->
@@ -86,7 +86,7 @@ The following interior structures are possible.
 
 Intuitively, if a high-rise building is {{a skier}}, then {{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}}. <!--SR:!2024-06-05,16,295!2024-06-03,14,295-->
 
-Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-05-28,8,255-->
+Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-06-25,28,275-->
 
 For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-06-06,17,290!2024-06-02,13,275!2024-06-05,16,295-->
 
@@ -130,7 +130,7 @@ return await memorize_seq(
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-06-03,14,295!2024-06-05,16,295-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-06-12,17,255!2024-06-04,15,295-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-05-29,9,275!2024-06-04,15,295-->
-- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-05-28,8,255!2024-05-30,10,275-->
+- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-05-30,10,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->
 - [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-06-02,13,295!2024-06-15,19,255-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->

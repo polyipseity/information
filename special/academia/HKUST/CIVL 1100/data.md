@@ -84,7 +84,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-05-28,4,336!2024-06-22,29,376-->
+- completion time ::: 1994 <!--SR:!2024-05-30,2,316!2024-06-22,29,376-->
 - rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-29,2,296!2024-06-17,24,376-->
 
 ## China International Trust and Investment Plaza
@@ -92,7 +92,7 @@ See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-08-02,70,292!2024-08-09,90,367-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-05-28,4,181!2024-07-11,66,352-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-06-05,8,181!2024-07-11,66,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-08-09,77,360!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-08-08,73,360!2024-08-22,90,380-->
 
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-06-19,26,376-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-28,4,336!2024-06-16,23,376-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-30,2,316!2024-06-16,23,376-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-06-15,22,376!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-06-05,12,356!2024-06-19,26,376-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-06-17,24,376!2024-06-21,28,376-->
@@ -181,7 +181,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-06-01,23,300!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-06-26,33,281!2024-06-24,52,347-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
-- length ::: 379 m <!--SR:!2024-05-28,19,281!2024-06-21,49,350-->
+- length ::: 379 m <!--SR:!2024-06-07,10,261!2024-06-21,49,350-->
 
 ## International Commerce Centre
 
@@ -224,7 +224,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-07,14,356!2024-06-16,23,376-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-06-09,16,356-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-06-04,8,316!2024-06-08,15,356-->
-- width ::: 32.05 m <!--SR:!2024-05-28,4,336!2024-05-28,4,336-->
+- width ::: 32.05 m <!--SR:!2024-06-15,18,356!2024-06-15,18,356-->
 
 ## Mont Cenis Base Tunnel
 

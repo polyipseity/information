@@ -132,7 +132,7 @@ return await memorize_seq(
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2024-06-26,59,270!2024-10-27,155,310-->
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-06-18,50,270-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-06-12,48,270!2024-06-27,66,310-->
-- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-05-28,6,130!2024-07-04,38,210-->
+- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-06-05,8,130!2024-07-04,38,210-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-06-04,13,150!2024-06-09,39,230-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-06-08,36,230!2024-07-13,59,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-06-02,24,190!2024-05-31,6,150-->

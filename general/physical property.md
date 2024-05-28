@@ -70,7 +70,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[boiling point](boiling%20point.md) <!--SR:!2024-07-20,339,290!2024-06-01,330,330-->
 - [boiling point](boiling%20point.md)→:::←[color](color.md) <!--SR:!2024-12-12,229,250!2024-07-14,145,270-->
-- [color](color.md)→:::←[density](density.md) <!--SR:!2025-02-23,439,270!2024-05-28,326,330-->
+- [color](color.md)→:::←[density](density.md) <!--SR:!2025-02-23,439,270!2027-05-11,1078,330-->
 - [density](density.md)→:::←[ductility](ductility.md) <!--SR:!2024-06-10,19,150!2024-05-29,327,330-->
 - [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-06-24,322,290!2025-08-17,531,270-->
 - [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md) <!--SR:!2024-07-26,270,230!2024-12-19,467,310-->
