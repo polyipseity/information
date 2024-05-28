@@ -291,7 +291,7 @@ subscription fee
 - advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-06-14,41,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-07-01,48,254-->
-- lending, renting, or leasing→:::←licensing <!--SR:!2024-05-28,25,237!2024-08-01,71,274-->
+- lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
 - licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-06-27,44,254!2024-08-04,74,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-06-17,48,294!2024-06-19,37,257-->
@@ -318,8 +318,8 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-06-30,34,289!2024-07-10,45,309!2024-05-28,13,289!2024-07-06,42,309!2024-05-29,14,289-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-06-30,34,289!2024-07-10,45,309!2024-07-19,52,309!2024-07-06,42,309!2024-05-29,14,289-->
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-05-28,13,289!2024-07-05,39,289!2024-06-01,17,309-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-07-06,39,289!2024-07-05,39,289!2024-06-01,17,309-->

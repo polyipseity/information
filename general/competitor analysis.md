@@ -182,12 +182,12 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←price <!--SR:!2024-06-04,17,301!2024-06-03,16,301-->
-- price→:::←benefit <!--SR:!2024-06-30,37,294!2024-05-28,10,281-->
-- benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-05-28,12,281-->
+- price→:::←benefit <!--SR:!2024-06-30,37,294!2024-06-22,25,281-->
+- benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-06-01,14,301-->
 - durability→:::←service <!--SR:!2024-06-05,18,301!2024-05-31,13,281-->
 - service→:::←convenience <!--SR:!2024-06-01,6,241!2024-06-13,19,301-->
-- convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-05-28,13,294-->
+- convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-05-31,13,281!2024-07-04,38,274-->
 - number of features→:::←_(end)_ <!--SR:!2024-05-31,16,294!2024-06-04,17,301-->
 

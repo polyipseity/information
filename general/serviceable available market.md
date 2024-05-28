@@ -12,7 +12,7 @@ tags:
 
 ## importance
 
-SAM can be treated as a {{medium-term goal, which may be realized if your company is good enough}}. <!--SR:!2024-05-28,17,290-->
+SAM can be treated as a {{medium-term goal, which may be realized if your company is good enough}}. <!--SR:!2024-08-04,68,310-->
 
 ## references
 

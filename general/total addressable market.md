@@ -12,7 +12,7 @@ tags:
 
 ## importance
 
-TAM shows {{the potential of your company to you and investors}}. Ideally, when calculating TAM, do not {{make up numbers, but instead use references to data sources}}. It can be treated as a {{long-term goal, though unrealistic to reach}}. <!--SR:!2024-05-28,17,292!2024-07-09,47,292!2024-07-18,54,312-->
+TAM shows {{the potential of your company to you and investors}}. Ideally, when calculating TAM, do not {{make up numbers, but instead use references to data sources}}. It can be treated as a {{long-term goal, though unrealistic to reach}}. <!--SR:!2024-08-02,66,312!2024-07-09,47,292!2024-07-18,54,312-->
 
 ## difference between TAM, SAM, and SOM
 

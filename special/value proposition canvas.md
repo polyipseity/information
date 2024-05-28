@@ -75,7 +75,7 @@ Customer jobs can be split into three categories: {{functional jobs; social jobs
 
 Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-06-03,19,325!2024-06-02,18,325!2024-07-16,51,325!2024-07-18,53,325!2024-06-02,18,325!2024-06-03,19,325!2024-05-31,16,325-->
 
-The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2024-05-28,13,305!2024-05-28,14,305-->
+The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2024-07-22,55,325!2024-07-30,63,325-->
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-09-22,123,290!2024-07-14,69,329!2024-06-22,47,309-->
 
@@ -128,7 +128,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-06-13,22,285!2024-06-24,31,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-06-17,25,189!2024-05-29,26,249-->
-- vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-05-28,29,289-->
+- vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
 
@@ -295,7 +295,7 @@ conclusion: make progress
 
 When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2024-06-13,55,310!2024-06-17,47,250-->
 
-One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-08-07,77,289!2024-05-28,28,289-->
+One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-08-07,77,289!2024-09-18,113,309-->
 
 ## evolve
 

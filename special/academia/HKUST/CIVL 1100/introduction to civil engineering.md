@@ -33,7 +33,7 @@ The content is in teaching order.
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-07-01,38,300!2024-07-18,64,360-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-05-29,28,315!2024-06-25,52,352-->
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-05-28,19,301!2024-07-13,63,360-->
+  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-07-18,55,297!2024-07-21,69,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-06-03,28,320!2024-06-10,39,332-->
@@ -103,7 +103,7 @@ The content is in teaching order.
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2024-07-29,79,377-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-07-17,87,285!2024-06-25,81,330-->
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-05-28,27,312!2024-08-22,101,375-->
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-06-06,35,317!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2024-07-24,72,354-->
       - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-06-06,39,270!2024-07-11,63,354-->
@@ -432,7 +432,7 @@ Water Cube
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2024-06-27,54,347-->
-- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-05-28,28,304!2024-06-07,35,330-->
+- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-06-07,35,330-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-06-15,42,332-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-06-05,28,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
@@ -496,7 +496,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-07-15,52,352-->
-- quality control→:::←safety engineering <!--SR:!2024-05-28,22,301!2024-05-30,27,315-->
+- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-05-30,27,315-->
 - safety engineering→:::←scheduling <!--SR:!2024-06-04,26,320!2024-06-02,27,320-->
 - scheduling→:::←surveying building site <!--SR:!2024-06-19,26,241!2024-06-22,39,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-06-19,26,280!2024-07-12,49,292-->
@@ -642,7 +642,7 @@ nuclear
 - agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
 - architectural→:::←biomedical <!--SR:!2024-06-13,42,337!2024-06-26,44,340-->
 - biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-06-03,34,337-->
-- ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-05-28,27,315-->
+- ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-06-10,40,337!2024-06-13,42,337-->
 - civil→:::←computer <!--SR:!2024-06-05,36,334!2024-06-11,42,332-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
@@ -730,7 +730,7 @@ socioeconomic
 - _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2024-07-27,79,374-->
 - biological→:::←chemical <!--SR:!2024-05-31,30,317!2024-07-14,69,357-->
 - chemical→:::←cultural <!--SR:!2024-06-09,16,280!2024-06-07,37,337-->
-- cultural→:::←physical <!--SR:!2024-05-29,31,325!2024-05-28,22,300-->
+- cultural→:::←physical <!--SR:!2024-05-29,31,325!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-06-26,32,277-->
 
@@ -1111,7 +1111,7 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building <!--SR:!2024-05-28,28,317!2025-04-01,312,330-->
+- _(begin)_→:::←HSBC Main Building <!--SR:!2024-06-10,13,297!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-06-13,35,320!2024-08-06,74,317-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-06-09,38,312-->
@@ -1202,7 +1202,7 @@ water tower
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
 - dam→:::←power plant <!--SR:!2024-05-29,23,301!2024-06-10,25,258-->
-- power plant→:::←storage facility <!--SR:!2024-05-28,22,300!2024-09-12,111,334-->
+- power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-06-04,29,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-06-18,38,320-->
 - unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-06-29,51,330-->
@@ -1252,9 +1252,9 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-05-28,50,270!2024-06-02,32,317-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-06-02,32,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
-- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-05-28,28,315-->
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-06-01,30,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-08-22,87,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-06-01,30,317-->
