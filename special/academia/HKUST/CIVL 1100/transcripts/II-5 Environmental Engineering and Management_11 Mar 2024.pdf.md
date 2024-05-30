@@ -72,7 +72,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-06-03,11,270!2024-06-06,14,290-->
 - land contamination→:::←noise pollution <!--SR:!2024-06-05,13,290!2024-06-02,10,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-06-03,11,270!2024-06-03,11,270-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-05-29,4,230-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-06-11,13,250-->
 - water pollution→:::←_(end)_ <!--SR:!2024-06-05,13,290!2024-06-04,12,270-->
 
 <!--/pytextgen-->
@@ -255,7 +255,7 @@ HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-06-08,16,290!2024-06-07,15,290-->
-  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-05-30,7,250!2024-06-01,9,270-->
+  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-06-17,18,250!2024-06-01,9,270-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
 
 ## page 19
@@ -337,7 +337,7 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
-  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-05-29,6,250!2024-06-06,14,290-->
+  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-06-15,17,250!2024-06-06,14,290-->
 
 ## page 29
 
@@ -394,9 +394,9 @@ return await memorize_seq(
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-03,6,230!2024-06-03,11,270-->
-- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-06-08,13,270!2024-05-30,5,230-->
+- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-06-08,13,270!2024-06-13,14,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-02,8,250!2024-06-09,17,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-01,9,270!2024-05-30,7,250-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-01,9,270!2024-06-03,4,230-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-02,10,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
 

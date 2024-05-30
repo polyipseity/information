@@ -42,7 +42,7 @@ The content is in teaching order.
 
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
-  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-05-29,7,295-->
+  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-06-26,28,315-->
   - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-07-10,45,315!2024-06-27,31,295-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
@@ -82,17 +82,17 @@ The content is in teaching order.
 - [d.school design thinking bootleg § define](../../../d.school%20design%20thinking%20bootleg.md#define)
 - [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
   - "how might we" statement
-    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-05-29,14,295!2024-05-31,16,315-->
+    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-07-10,42,295!2024-05-31,16,315-->
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
 - [assignment W5](assignment%20W5/)
 
 ## week 6 lecture
 
-- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-07-03,37,295!2024-05-29,14,315-->
-- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-07-02,39,295!2024-05-29,14,315-->
+- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-07-03,37,295!2024-07-12,44,315-->
+- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-07-02,39,295!2024-07-15,47,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
-    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-06-17,26,295!2024-05-30,15,315-->
+    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-06-17,26,295!2024-08-02,64,335-->
   - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
   - [§ fit](../../../value%20proposition%20canvas.md#fit)
 - [business model canvas](../../../business%20model%20canvas.md)

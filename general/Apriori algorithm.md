@@ -263,7 +263,7 @@ Candidate generation {{spawns a large numbers of subsets, which is costly for co
 
 The algorithm also requires {{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}}. Therefore, the algorithm works best if {{the database is permanently stored in the memory, which might not be practical for very large database}}. <!--SR:!2024-10-25,174,324!2025-01-18,243,344-->
 
-Also, the time and space complexity of the algorithm is {{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}}. <!--SR:!2024-05-29,77,344-->
+Also, the time and space complexity of the algorithm is {{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}}. <!--SR:!2025-05-27,363,364-->
 
 Common alternatives include {{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}}. <!--SR:!2024-06-15,47,323-->
 

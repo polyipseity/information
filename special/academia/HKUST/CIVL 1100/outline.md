@@ -39,7 +39,7 @@ The content is in teaching order.
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-06-09,17,310!2024-06-05,13,290-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-06-08,16,310!2024-06-08,16,301-->
-  - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-05-30,7,270!2024-06-01,9,290-->
+  - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-06-20,21,270!2024-06-01,9,290-->
   - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-06-08,16,310!2024-06-03,11,290-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-06-10,18,310!2024-06-01,9,281-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
@@ -68,7 +68,7 @@ The content is in teaching order.
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-06-02,10,290!2024-06-05,13,290-->
 - [bending](../../../../general/bending.md)
-  - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-05-29,6,261!2024-06-07,15,301-->
+  - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-06-18,20,281!2024-06-07,15,301-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-06-01,9,290!2024-06-08,16,310-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-06-02,10,290!2024-06-08,16,310-->

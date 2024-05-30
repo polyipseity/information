@@ -77,10 +77,10 @@ why: Why are people using competitors' products?
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-06-03,13,261!2024-05-30,15,294-->
+- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-06-03,13,261!2024-07-29,60,314-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-06-16,25,274!2024-06-18,25,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-06-04,14,261!2024-06-02,12,241-->
-- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-05-30,8,241!2024-06-22,26,281-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-06-19,20,241!2024-06-22,26,281-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-06-20,25,261!2024-06-25,31,281-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-06-02,12,241!2024-06-18,24,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-07-02,37,281!2024-06-04,12,241-->
@@ -124,7 +124,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-06-03,16,301!2024-05-30,12,281-->
+- _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-06-03,16,301!2024-07-15,46,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-06-01,5,261!2024-06-04,17,301-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-03,12,221!2024-06-08,17,261-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-06-05,18,301!2024-05-31,16,294-->
@@ -143,7 +143,7 @@ Competitor analysis can be done {{anytime as needed}}. For example, it can expos
 
 ### comparison parameters
 
-Common parameters used for comparison, {{most important first}}: <!--SR:!2024-05-30,15,294-->
+Common parameters used for comparison, {{most important first}}: <!--SR:!2024-07-14,45,294-->
 
 %%
 
@@ -197,7 +197,7 @@ number of features
 
 It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-06-26,32,281-->
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-06-04,17,301!2024-05-29,14,294!2024-06-27,38,290-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-06-04,17,301!2024-07-24,56,314!2024-06-27,38,290-->
 
 When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2024-06-05,18,301!2024-06-02,15,301!2024-07-04,39,281-->
 

@@ -243,7 +243,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2024-05-29,104,267-->
+- _(begin)_→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2025-06-20,387,287-->
 - bond order: single bond, double bond, triple bond, ...→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2024-11-29,563,322-->
 - prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
 
@@ -653,7 +653,7 @@ return (
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 - nitrile→:::←aldehyde <!--SR:!2024-08-19,96,190!2024-08-09,90,210-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
-- ketone→:::←alcohol <!--SR:!2024-05-29,229,230!2024-06-14,19,130-->
+- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-06-14,19,130-->
 - alcohol→:::←hydroperoxide <!--SR:!2024-06-25,468,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2024-06-08,197,244!2025-02-02,257,252-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-08-28,171,247-->

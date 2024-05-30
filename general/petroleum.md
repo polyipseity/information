@@ -111,7 +111,7 @@ return _chain.from_iterable(await _gather(
 - [butane](butane.md)::-12 to -1 °C <!--SR:!2027-01-08,963,314-->
 - [gasoline/petrol](gasoline.md)::-1 to 110 °C <!--SR:!2024-08-09,77,170-->
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-09-11,114,210-->
-- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-05-30,6,150-->
+- [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-06-07,8,150-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-06-16,21,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-06-02,19,130-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-06-14,34,130-->
@@ -145,7 +145,7 @@ return _chain.from_iterable(await _gather(
 - [jet fuel](jet%20fuel.md)::fuel for [aeroplanes](airplane.md) <!--SR:!2024-07-16,340,294-->
 - [kerosene](kerosene.md)::fuel for domestic use <!--SR:!2025-10-28,637,294-->
 - [fuel oil](fuel%20oil.md)::fuel for [power plants](power%20station.md) and [ships](ship.md) <!--SR:!2025-11-18,613,274-->
-- [diesel fuel](diesel%20fuel.md)::fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2024-05-29,51,234-->
+- [diesel fuel](diesel%20fuel.md)::fuel for [buses](bus.md) and [trucks](truck.md) <!--SR:!2024-09-22,116,234-->
 - [paraffin wax](paraffin%20wax.md)::[candles](candle.md), [lubrication](lubrication.md) <!--SR:!2025-02-25,522,314-->
 - [bitumen](bitumen.md)::[road construction](road%20construction.md) <!--SR:!2024-06-10,339,334-->
 

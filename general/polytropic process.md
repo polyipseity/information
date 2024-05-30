@@ -37,7 +37,7 @@ tags:
 > - where
 >   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
 >   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
-> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-06-21,91,230!2024-08-16,172,310!2024-05-29,112,290!2025-07-04,414,310-->
+> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-06-21,91,230!2024-08-16,172,310!2025-04-18,324,290!2025-07-04,414,310-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows:
 

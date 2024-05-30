@@ -74,7 +74,7 @@ C$: [cost structure](#cost%20structure)
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-08-06,76,274!2024-09-02,100,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-06-17,39,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
-- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-05-29,7,234-->
+- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-06-21,23,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-07,37,277!2024-08-31,98,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2024-06-21,51,294-->
 
@@ -179,7 +179,7 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-05-30,28,257!2024-07-10,65,314-->
+- _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-08-02,72,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-06-30,36,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
@@ -236,7 +236,7 @@ personal assistance
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←automated services <!--SR:!2024-05-29,29,274!2024-06-13,44,290-->
+- _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-06-13,44,290-->
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
 - co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-06-02,35,274-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-06-03,36,274-->
@@ -288,7 +288,7 @@ subscription fee
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←advertising <!--SR:!2024-08-24,92,274!2024-07-16,71,317-->
-- advertising→:::←asset sale <!--SR:!2024-05-30,33,274!2024-06-14,41,297-->
+- advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-06-14,41,297-->
 - asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-07-01,48,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
@@ -318,7 +318,7 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-06-30,34,289!2024-07-10,45,309!2024-07-19,52,309!2024-07-06,42,309!2024-05-29,14,289-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-06-30,34,289!2024-07-10,45,309!2024-07-19,52,309!2024-07-06,42,309!2024-07-22,54,309-->
 
 ## comparison with other models
 
