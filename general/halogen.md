@@ -67,7 +67,7 @@ return await memorize_map(
 
 - [fluorine](fluorine.md)::reacts explosively in the dark and cold <!--SR:!2026-01-16,712,310-->
 - [chlorine](chlorine.md)::reacts explosively in light and heat; slowly without <!--SR:!2024-07-03,298,270-->
-- [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2024-05-30,105,230-->
+- [bromine](bromine.md)::reacts explosively in flames; moderately in light and heat <!--SR:!2024-07-21,52,210-->
 - [iodine](iodine.md)::reacts partially; virtually no reaction <!--SR:!2024-12-27,420,290-->
 - [astatine](astatine.md)::reacts partially; virtually no reaction <!--SR:!2024-06-01,330,330-->
 - [tennessine](tennessine.md)::unknown <!--SR:!2028-01-27,1369,350-->

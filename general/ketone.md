@@ -34,7 +34,7 @@ Most ketones have {{a pleasant and sweet smell}}. <!--SR:!2025-03-01,512,310-->
 
 ### solubility
 
-Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ketone. <!--SR:!2024-05-30,328,330!2028-04-29,1441,350-->
+Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ketone. <!--SR:!2027-05-15,1080,330!2028-04-29,1441,350-->
 
 ## chemical properties
 

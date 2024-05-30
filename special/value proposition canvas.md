@@ -127,7 +127,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-06-09,39,289!2024-06-08,15,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-06-13,22,285!2024-06-24,31,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-06-17,25,189!2024-05-29,26,249-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-06-17,25,189!2024-08-01,64,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
@@ -174,15 +174,15 @@ mix: mixing products and services with pain relievers and gain creators
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-06-20,40,269!2024-07-22,77,329-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-06-09,27,229!2024-07-08,55,269-->
-- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-05-30,22,249!2024-08-05,75,289-->
+- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-06-11,12,229!2024-08-05,75,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-06-05,20,249!2024-07-26,65,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-05-29,7,189-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-06-11,13,189-->
 
 <!--/pytextgen-->
 
 ### fit
 
-Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}. <!--SR:!2024-05-30,41,290!2024-08-28,112,290!2024-07-15,50,325-->
+Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}. <!--SR:!2024-11-10,164,310!2024-08-28,112,290!2024-07-15,50,325-->
 
 However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-07-01,56,309!2024-06-04,29,249!2024-08-31,101,309!2024-06-13,52,290-->
 
@@ -280,13 +280,13 @@ conclusion: make progress
 
 <!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-05-29,31,289!2024-07-12,67,327-->
+- _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-08-26,89,289!2024-07-12,67,327-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-07-28,81,329!2024-06-18,48,309-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-07-02,60,309!2024-07-21,74,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-07,40,309!2024-09-04,112,290-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-06-15,42,309-->
-- conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-05-30,31,289-->
+- conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-06-11,41,270-->
 
 <!--/pytextgen-->

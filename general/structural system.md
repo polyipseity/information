@@ -20,11 +20,11 @@ tags:
 
 ## high-rise buildings
 
-Buildings can be {{categorized by height}}: {{single-storey, multi-storey with height less than 24 m, high-rise with height more than 24 m but less than 100 m, tall, and supertall}}. <!--SR:!2024-05-30,10,275!2024-06-03,14,295-->
+Buildings can be {{categorized by height}}: {{single-storey, multi-storey with height less than 24 m, high-rise with height more than 24 m but less than 100 m, tall, and supertall}}. <!--SR:!2024-07-04,35,295!2024-06-03,14,295-->
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-06-01,12,270!2024-06-03,14,295-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-05-29,9,270!2024-06-01,12,275!2024-06-01,12,275!2024-06-06,17,290-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-06-24,26,270!2024-06-01,12,275!2024-06-01,12,275!2024-06-06,17,290-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-06-06,17,295!2024-06-05,16,295-->
 
@@ -72,7 +72,7 @@ The following interior structures are possible.
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-06-01,12,270!2024-06-03,14,295-->
-- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-06-13,17,255!2024-05-29,3,235-->
+- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-06-13,17,255!2024-06-05,7,235-->
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-06-01,4,235!2024-05-31,4,235-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-06-02,13,275!2024-05-31,11,275-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-06-16,20,255!2024-06-12,16,255-->
@@ -129,8 +129,8 @@ return await memorize_seq(
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-06-03,14,295!2024-06-05,16,295-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-06-12,17,255!2024-06-04,15,295-->
-- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-05-29,9,275!2024-06-04,15,295-->
-- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-05-30,10,275-->
+- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-06-26,28,275!2024-06-04,15,295-->
+- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-06-27,28,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->
 - [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-06-02,13,295!2024-06-15,19,255-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->

@@ -336,7 +336,7 @@ return chain.from_iterable(await gather(
 - potassium ion::colorless <!--SR:!2029-06-22,2017,324-->
 - copper(I) ion::_(n/a)_ <!--SR:!2024-07-07,392,276-->
 - silver ion::colorless <!--SR:!2027-03-01,1295,279-->
-- mercury(I) ion::_(n/a)_ <!--SR:!2024-05-30,368,276-->
+- mercury(I) ion::_(n/a)_ <!--SR:!2028-04-14,1415,296-->
 - ammonium ion::colorless <!--SR:!2026-05-12,1149,339-->
 - magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
 - calcium ion::colorless <!--SR:!2029-05-08,1893,292-->

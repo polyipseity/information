@@ -45,7 +45,7 @@ For example: Lok Ma Chau Loop or North East NT New Development Areas
 
 Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
-- soil standard for arsenic (As) ::: 21.8 mg/kg <!--SR:!2024-05-29,5,230!2024-06-06,15,290-->
+- soil standard for arsenic (As) ::: 21.8 mg/kg <!--SR:!2024-06-10,11,230!2024-06-06,15,290-->
 
 <!-- TODO: expand -->
 
@@ -53,7 +53,7 @@ Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
 Land Contamination Assessment in Hong Kong
 
-- Environmental Impact Assessment Ordinance (EIAO) requirements ::: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation report (RR) <!--SR:!2024-05-29,5,230!2024-05-29,7,250-->
+- Environmental Impact Assessment Ordinance (EIAO) requirements ::: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation report (RR) <!--SR:!2024-06-09,10,230!2024-06-23,24,270-->
 
 <!-- TODO: expand -->
 

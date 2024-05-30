@@ -84,8 +84,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-05-30,2,316!2024-06-22,29,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-05-29,2,296!2024-06-17,24,376-->
+- completion time ::: 1994 <!--SR:!2024-06-06,7,336!2024-06-22,29,376-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-06-06,8,316!2024-06-17,24,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -112,7 +112,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2024-06-27,49,327!2024-12-15,205,330-->
-- height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-05-29,28,317!2024-06-01,57,310-->
+- height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-08-26,89,317!2024-06-01,57,310-->
 - image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-09-09,105,380!2024-09-10,106,380-->
 - shape ::: exponential <!--SR:!2024-06-04,60,330!2025-01-16,252,335-->
 
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-06-19,26,376-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-30,2,316!2024-06-16,23,376-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-31,1,296!2024-06-16,23,376-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-06-15,22,376!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-06-05,12,356!2024-06-19,26,376-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-06-17,24,376!2024-06-21,28,376-->
@@ -163,7 +163,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 - description ::: events venue in Wan Chai, Hong Kong <!--SR:!2024-08-03,114,295!2024-08-04,87,374-->
 - image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2024-08-02,70,360!2024-08-28,95,380-->
-- shape ::: bird/turtle rooftop <!--SR:!2024-05-30,55,310!2024-08-04,85,372-->
+- shape ::: bird/turtle rooftop <!--SR:!2025-01-20,235,330!2024-08-04,85,372-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
 
@@ -188,7 +188,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2024-08-14,93,370-->
-- height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-07-30,67,301!2024-05-29,54,310-->
+- height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-07-30,67,301!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2024-07-26,63,360!2024-08-24,91,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-07-24,58,321!2024-09-04,103,381-->
 
@@ -203,7 +203,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-06-01,21,275!2024-07-23,75,367-->
-- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-18,25,237!2024-05-29,54,310-->
+- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-18,25,237!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-06-12,27,280!2024-08-20,88,380-->
 
@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-05-29,2,296!2024-06-24,31,376-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-06-04,6,296!2024-06-24,31,376-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-06-20,27,376-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-06-01,8,336!2024-06-20,27,376-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-06-05,12,356!2024-06-16,23,376-->
