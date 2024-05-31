@@ -421,7 +421,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
 > - suffix: {{-yne}}
 > - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}} <!--SR:!2026-02-11,918,340!2025-03-16,649,320!2030-01-30,2103,380!2025-09-25,682,281!2024-05-31,456,362!2029-03-10,1846,382!2026-10-21,1140,367-->
+> - cyclic prefix: {{cyclo-}} <!--SR:!2026-02-11,918,340!2025-03-16,649,320!2030-01-30,2103,380!2025-09-25,682,281!2030-08-11,2263,382!2029-03-10,1846,382!2026-10-21,1140,367-->
 
 <!-- markdownlint MD028 -->
 

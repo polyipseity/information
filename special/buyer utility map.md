@@ -104,7 +104,7 @@ simplicity: remove complexity or hassle
 
 - _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-07-25,58,259!2024-07-04,54,310-->
 - convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-06-10,32,279!2024-07-05,51,299-->
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-07-16,51,259!2024-05-31,17,239-->
+- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-07-16,51,259!2024-07-29,59,259-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-06-16,25,239!2024-06-03,10,239-->
 - productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-07-14,46,250!2024-06-28,37,259-->
 - risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-06-17,26,230!2024-07-20,55,259-->
@@ -114,4 +114,4 @@ simplicity: remove complexity or hassle
 
 ## usage
 
-Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-05-31,25,279!2024-07-08,47,250!2024-06-04,26,270-->
+Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}. <!--SR:!2024-09-09,101,299!2024-07-08,47,250!2024-06-04,26,270-->

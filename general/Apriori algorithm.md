@@ -12,7 +12,7 @@ tags:
 
 To understand the Apriori algorithm, notice that {{for any database and two item sets _A_ and _B_ where $A \subseteq B$, then $\operatorname{supp}(A) \ge \operatorname{supp}(B)$}}. This is easily seen by considering that {{any transaction that satisfies _B_ contains all the items of _B_, so must also satisfy _A_, as it contains all the items of _A_ as a subset of _B_}}. This is called the {{_downward closure lemma_}}. <!--SR:!2024-08-08,121,290!2024-12-31,232,319!2024-11-05,191,310-->
 
-Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{start from one item and then are extended one item at a time, called _candidate generation_}}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}}. Repeat this process until {{there are no more candidates}}. The output is {{all frequent sets in all generations}}. <!--SR:!2024-11-20,203,319!2024-10-07,170,310!2024-05-31,75,270!2025-03-01,299,339!2024-09-18,156,310-->
+Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{start from one item and then are extended one item at a time, called _candidate generation_}}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}}. Repeat this process until {{there are no more candidates}}. The output is {{all frequent sets in all generations}}. <!--SR:!2024-11-20,203,319!2024-10-07,170,310!2025-03-09,282,290!2025-03-01,299,339!2024-09-18,156,310-->
 
 Filtering the candidate, called the {{_count step_}}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {{_join step_ and _prune step_}}. <!--SR:!2024-12-21,224,336!2024-07-05,66,343-->
 
@@ -267,7 +267,7 @@ Also, the time and space complexity of the algorithm is {{very high: $O \left( 2
 
 Common alternatives include {{[Eclat algorithm](Eclat%20algorithm.md) and [FP-growth algorithm](FP-growth%20algorithm.md)}}. <!--SR:!2024-06-15,47,323-->
 
-The [Eclat algorithm](Eclat%20algorithm.md) is {{generally faster than the Apriori algorithm, and might be slower when the database is large}}. The [FP-growth algorithm](FP-growth%20algorithm.md) {{outperforms both the Apriori and Eclat algorithms, because it does not generate and test candidates, uses a compact data structure, and requires only one (or two, depending on how you define "scan") database scan}}. <!--SR:!2024-06-09,45,323!2024-05-31,34,303-->
+The [Eclat algorithm](Eclat%20algorithm.md) is {{generally faster than the Apriori algorithm, and might be slower when the database is large}}. The [FP-growth algorithm](FP-growth%20algorithm.md) {{outperforms both the Apriori and Eclat algorithms, because it does not generate and test candidates, uses a compact data structure, and requires only one (or two, depending on how you define "scan") database scan}}. <!--SR:!2024-06-09,45,323!2024-10-20,142,323-->
 
 ## references
 

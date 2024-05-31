@@ -208,7 +208,7 @@ water and sewage treatment system
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-06-11,18,224!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-06-16,23,260!2024-07-06,38,281-->
-- power plant→:::←reservoir <!--SR:!2024-05-31,22,275!2024-06-06,28,320-->
+- power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-06-06,28,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-06-01,8,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-09,10,190-->
@@ -385,7 +385,7 @@ transportation
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-06-05,34,355-->
-- construction→:::←environmental <!--SR:!2024-05-31,22,320!2024-08-25,93,380-->
+- construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2024-06-16,46,325-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
 - hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
@@ -492,7 +492,7 @@ testing materials
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-06-15,45,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-04,9,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-07-31,68,297-->
-- logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-05-31,29,315-->
+- logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-07-15,52,352-->
@@ -587,7 +587,7 @@ wood
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-06-05,27,320-->
 - steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
-- stone→:::←wood <!--SR:!2024-05-31,17,301!2024-09-10,109,332-->
+- stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
 
 <!--/pytextgen-->
@@ -647,7 +647,7 @@ nuclear
 - civil→:::←computer <!--SR:!2024-06-05,36,334!2024-06-11,42,332-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
 - electrical→:::←industrial <!--SR:!2024-06-03,25,321!2024-06-02,19,270-->
-- industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-05-31,31,332-->
+- industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-06-11,39,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-06-29,51,335-->
 - nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2024-06-27,83,345-->
@@ -728,7 +728,7 @@ socioeconomic
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2024-07-27,79,374-->
-- biological→:::←chemical <!--SR:!2024-05-31,30,317!2024-07-14,69,357-->
+- biological→:::←chemical <!--SR:!2024-10-04,126,337!2024-07-14,69,357-->
 - chemical→:::←cultural <!--SR:!2024-06-09,16,280!2024-06-07,37,337-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
@@ -881,7 +881,7 @@ water distribution network
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←sewage collection network <!--SR:!2024-06-01,26,321!2024-08-11,79,317-->
-- sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-05-31,25,321-->
+- sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-06-05,27,320!2024-06-10,32,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-06-03,10,301-->
@@ -923,7 +923,7 @@ Tsing Ma Bridge
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2024-07-10,65,357-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-06-19,26,287-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-07,29,320-->
-- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-05-31,30,317!2024-06-23,43,340-->
+- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-06-23,43,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-06-21,46,335!2024-08-31,93,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
 
@@ -958,7 +958,7 @@ developing strengthening techniques for damaged structures or structural members
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-08-23,91,335!2024-07-24,76,370-->
-- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2024-07-09,56,340!2024-05-31,31,307-->
+- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2024-07-09,56,340!2024-10-11,133,327-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-09-05,104,335!2024-08-18,86,317-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2024-07-14,66,345!2024-08-30,98,324-->
 

@@ -353,7 +353,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tips
 >
-> - takeaway ::: Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule. <!--SR:!2024-09-18,189,324!2024-05-31,60,324-->
+> - takeaway ::: Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule. <!--SR:!2024-09-18,189,324!2025-02-22,267,344-->
 
 #### other problems to solve
 

@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-05-31,6,230!2024-05-31,8,250-->
+- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-06-18,18,250!2024-06-29,29,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-06-07,15,290!2024-06-01,9,270-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-02,10,270!2024-06-06,14,290-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-06-05,13,290!2024-06-07,15,290-->
@@ -415,7 +415,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-06-06,14,290!2024-06-06,14,290-->
-  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-05-31,6,230!2024-06-08,16,290-->
+  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-06-14,14,230!2024-06-08,16,290-->
 
 ## page 33
 
