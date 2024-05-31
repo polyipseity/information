@@ -19,7 +19,7 @@ tags:
 
 ## outline
 
-This section {{outlines how one might do competitor analysis and present it to others}}. <!--SR:!2024-05-31,16,294-->
+This section {{outlines how one might do competitor analysis and present it to others}}. <!--SR:!2024-08-03,64,314-->
 
 ### competitor classification
 
@@ -127,7 +127,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-06-03,16,301!2024-07-15,46,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-06-01,5,261!2024-06-04,17,301-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-03,12,221!2024-06-08,17,261-->
-- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-06-05,18,301!2024-05-31,16,294-->
+- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-06-05,18,301!2024-08-02,63,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-06-08,16,261!2024-06-15,20,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-06-02,15,301!2024-06-09,17,261-->
 
@@ -185,11 +185,11 @@ number of features
 - price→:::←benefit <!--SR:!2024-06-30,37,294!2024-06-22,25,281-->
 - benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-06-01,14,301-->
-- durability→:::←service <!--SR:!2024-06-05,18,301!2024-05-31,13,281-->
+- durability→:::←service <!--SR:!2024-06-05,18,301!2024-06-09,9,261-->
 - service→:::←convenience <!--SR:!2024-06-01,6,241!2024-06-13,19,301-->
 - convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-07-22,55,314-->
-- ease of use→:::←number of features <!--SR:!2024-05-31,13,281!2024-07-04,38,274-->
-- number of features→:::←_(end)_ <!--SR:!2024-05-31,16,294!2024-06-04,17,301-->
+- ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-04,38,274-->
+- number of features→:::←_(end)_ <!--SR:!2024-08-08,69,314!2024-06-04,17,301-->
 
 <!--/pytextgen-->
 

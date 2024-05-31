@@ -153,7 +153,7 @@ return _chain.from_iterable(await _gather(
 - [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2025-06-11,595,310!2028-01-26,1368,350-->
 - [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2024-07-10,68,210!2026-11-03,942,330-->
 - [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2024-09-12,143,310!2027-05-07,1162,350-->
-- [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-10-02,152,310!2024-05-31,329,330-->
+- [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-10-02,152,310!2024-11-11,164,310-->
 - [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2026-02-06,623,250!2024-06-12,19,130-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2024-08-22,150,150!2024-06-25,290,270-->
 - [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
@@ -164,7 +164,7 @@ return _chain.from_iterable(await _gather(
 - [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2024-11-23,330,230!2024-11-27,181,250-->
 - [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2024-09-15,167,230!2024-06-27,292,270-->
 - [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-06-16,131,210!2025-07-15,581,310-->
-- [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-12-03,256,250!2024-05-31,20,130-->
+- [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-12-03,256,250!2024-06-25,25,130-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2024-09-17,161,190!2024-10-15,381,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-06-14,132,230!2024-10-24,164,150-->
 - [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2024-08-04,178,210-->

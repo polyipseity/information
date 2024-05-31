@@ -13,7 +13,7 @@ tags:
 
 ### roller support
 
-A roller support prevents {{vertical (relative to a support on the ground) translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-07-09,40,290!2024-05-31,11,270!2024-07-01,33,290-->
+A roller support prevents {{vertical (relative to a support on the ground) translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-07-09,40,290!2024-07-13,43,290!2024-07-01,33,290-->
 
 A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-06-03,14,290-->
 
@@ -25,7 +25,7 @@ A pinned support prevents {{translation in any direction}}, but not {{rotation}}
 
 A pinned support is drawn as {{a triangle or a square with a circle in the middle}}. <!--SR:!2024-07-06,38,290-->
 
-Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2024-05-31,11,270-->
+Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2024-07-01,31,270-->
 
 ### fixed support
 
@@ -33,7 +33,7 @@ A fixed support prevents {{translation and rotation in any direction}}. Its reac
 
 A fixed support is {{usually not drawn specifically and represented by being connected to a fixed wall or ground}}. <!--SR:!2024-06-03,14,290-->
 
-Examples include {{a computer monitor with a single non-rotatable support, fixed supports under a bridge}}. <!--SR:!2024-05-31,11,270-->
+Examples include {{a computer monitor with a single non-rotatable support, fixed supports under a bridge}}. <!--SR:!2024-07-10,40,290-->
 
 Note that the reaction [torque](torque.md) only makes sense when {{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}}. <!--SR:!2024-07-08,39,290-->
 

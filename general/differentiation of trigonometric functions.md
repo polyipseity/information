@@ -100,7 +100,7 @@ return await memorize_map(
 - $-\frac1{\sqrt{1-x^2} }$::$\arccos{x}$ <!--SR:!2024-12-11,291,330-->
 - $\frac1{x^2+1}$::$\arctan{x}$ <!--SR:!2025-05-29,406,310-->
 - $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$ <!--SR:!2024-11-22,277,330-->
-- $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arcsec}{x}$ <!--SR:!2024-05-31,136,310-->
+- $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arcsec}{x}$ <!--SR:!2024-08-06,67,290-->
 - $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arccsc}{x}$ <!--SR:!2024-07-10,168,310-->
 
 <!--/pytextgen-->

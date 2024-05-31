@@ -183,7 +183,7 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-06-20,42,254!2024-08-02,72,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-06-30,36,234-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
-- cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-05-31,18,157-->
+- cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-06-19,39,257-->
@@ -304,11 +304,11 @@ The key resources building block shows {{important assets required for the busin
 
 #### key activities
 
-The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-05-31,33,294!2024-06-26,46,257-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-09-06,98,294!2024-06-26,46,257-->
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-06-24,42,254!2024-05-31,27,237!2024-06-08,30,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-06-24,42,254!2024-08-03,64,237!2024-06-08,30,237-->
 
 #### cost structure
 

@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-06-19,26,376-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-05-31,1,296!2024-06-16,23,376-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-01,1,276!2024-06-16,23,376-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-06-15,22,376!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-06-05,12,356!2024-06-19,26,376-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-06-17,24,376!2024-06-21,28,376-->
