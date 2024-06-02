@@ -84,7 +84,7 @@ return chain.from_iterable(await gather(
 
 - _(begin)_→:::←[Ward's method](Ward's%20method.md) <!--SR:!2024-07-09,68,315!2024-07-09,69,315-->
 - [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-07-15,56,275!2024-06-23,52,295-->
-- centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-10-09,131,295!2024-06-01,24,255-->
+- centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-10-09,131,295!2024-08-27,87,275-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-06-12,37,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-08-29,90,275!2024-06-03,37,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-06-06,42,295!2024-06-26,39,235-->
@@ -129,7 +129,7 @@ return chain.from_iterable(await gather(
 - median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2024-06-02,36,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)::$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2024-06-24,56,315-->
 - unweighted average linkage clustering::$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2024-07-02,50,255-->
-- weighted average linkage clustering::$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2024-06-01,35,275-->
+- weighted average linkage clustering::$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2024-10-15,136,295-->
 
 <!--/pytextgen-->
 

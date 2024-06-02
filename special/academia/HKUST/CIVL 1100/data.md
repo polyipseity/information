@@ -112,7 +112,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2024-06-27,49,327!2024-12-15,205,330-->
-- height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-08-26,89,317!2024-06-01,57,310-->
+- height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-08-26,89,317!2025-01-31,244,330-->
 - image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-09-09,105,380!2024-09-10,106,380-->
 - shape ::: exponential <!--SR:!2024-06-04,60,330!2025-01-16,252,335-->
 
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-06-19,26,376-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-01,1,276!2024-06-16,23,376-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-05,4,296!2024-06-16,23,376-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-06-15,22,376!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-06-05,12,356!2024-06-19,26,376-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-06-17,24,376!2024-06-21,28,376-->
@@ -178,7 +178,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
-- [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-06-01,23,300!2024-08-16,97,375-->
+- [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-06-26,33,281!2024-06-24,52,347-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
 - length ::: 379 m <!--SR:!2024-06-07,10,261!2024-06-21,49,350-->
@@ -202,7 +202,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
 See [John Hancock Center](John%20Hancock%20Center.md).
 
-- description ::: skyscraper in Chicago, Illinois <!--SR:!2024-06-01,21,275!2024-07-23,75,367-->
+- description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2024-07-23,75,367-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-18,25,237!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-06-12,27,280!2024-08-20,88,380-->
@@ -251,7 +251,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 - construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-06-04,6,296!2024-06-24,31,376-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-06-20,27,376-->
-- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-06-01,8,336!2024-06-20,27,376-->
+- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-06-20,27,376-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-06-05,12,356!2024-06-16,23,376-->
 - importance ::: most important surviving building of classical Greece <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
 
@@ -312,7 +312,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-06-04,29,320!2024-07-28,80,365-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-06-01,8,261!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-06-21,20,261!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-08-27,94,380-->
 

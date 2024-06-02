@@ -47,7 +47,7 @@ return (
 
 %%
 
-Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2024-06-01,13,290!2024-06-03,15,300-->
+Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2024-07-21,50,310!2024-06-03,15,300-->
 
 Loads on civil engineering can be separated into {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} main categories. <!--SR:!2024-06-05,17,290-->
 
@@ -74,9 +74,9 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 ### dead load
 
-The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-06-06,18,300!2024-06-01,12,270!2024-06-30,31,270!2024-06-02,14,290-->
+The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-06-06,18,300!2024-07-01,30,270!2024-06-30,31,270!2024-06-02,14,290-->
 
-Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-06-04,16,310!2024-06-05,17,310!2024-06-01,13,290!2024-07-22,52,310-->
+Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-06-04,16,310!2024-06-05,17,310!2024-07-23,52,310!2024-07-22,52,310-->
 
 ### live load
 
@@ -119,7 +119,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-06-02,14,290!2024-06-06,18,300-->
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-07-03,34,288!2024-07-12,42,300-->
-- [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-06-28,30,288!2024-06-01,12,280-->
+- [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-06-28,30,288!2024-07-19,48,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-06-21,24,280!2024-06-09,15,260-->
 - [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-06,38,300!2024-06-11,17,270-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-06-05,17,300!2024-06-04,16,308-->
@@ -128,7 +128,7 @@ return await memorize_seq(
 
 #### hydrostatic load
 
-Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2024-06-02,14,290!2024-06-01,13,290-->
+Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2024-06-02,14,290!2024-07-25,54,310-->
 
 For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-06-03,15,290!2024-06-05,17,300!2024-06-02,14,290-->
 
@@ -136,7 +136,7 @@ For example, when there is {{water buildup in the soil}}, there is {{increased h
 
 Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}}. <!--SR:!2024-06-05,17,290-->
 
-For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-06-06,18,300!2024-06-01,13,280-->
+For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-06-06,18,300!2024-07-23,52,300-->
 
 To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-06-29,30,280!2024-07-16,47,300-->
 
@@ -162,7 +162,7 @@ Wind load causes {{lateral deflection, which may further lead to toppling of the
 
 ### load combinations
 
-{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-06-03,15,290!2024-06-02,14,290!2024-07-11,42,300!2024-06-01,13,280-->
+{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-06-03,15,290!2024-06-02,14,290!2024-07-11,42,300!2024-07-22,51,300-->
 
 ## references
 

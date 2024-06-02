@@ -283,7 +283,7 @@ if __name__ == "__main__":
 
 ## complexity
 
-Time-wise, building the FP-tree {{only requires one (or two, depending on how you define "scan") scan, and inserting one transaction into the FP-tree only grows with the number of frequent items in the transaction}}. This is good especially if {{the entire database is IO-bounded and too large to be fitted into memory}}. <!--SR:!2024-08-12,84,290!2024-06-01,34,270-->
+Time-wise, building the FP-tree {{only requires one (or two, depending on how you define "scan") scan, and inserting one transaction into the FP-tree only grows with the number of frequent items in the transaction}}. This is good especially if {{the entire database is IO-bounded and too large to be fitted into memory}}. <!--SR:!2024-08-12,84,290!2024-08-31,91,270-->
 
 Space-wise, the FP-tree size, i.e. number of nodes, is {{bounded by the number of frequent item set patterns, and is usually much less than the bound}}. The height of the FP-tree, is {{bounded by the maximum number of items of frequent item sets}}. This is good because it means {{the FP-tree can be fitted into memory even if the database is very large}}. <!--SR:!2024-06-15,38,250!2024-06-07,32,250!2024-06-23,51,290-->
 

@@ -10,7 +10,7 @@ tags:
 
 ## description
 
-Shear walls are {{vertically continuous structures}}, which are {{much stiffer than rigid frame and provides most lateral and some gravity resistance}}. Along the plane of shear walls, one may find {{multiple shear walls}}, and the shear walls are connected by {{beams or slabs}}. In a building, there may be {{multiple planes of shear walls}}, which are usually {{parallel to each other}}. It resists loads {{parallel to the plane of the shear wall}}. <!--SR:!2024-06-06,17,290!2024-06-06,17,290!2024-06-03,14,290!2024-06-02,13,270!2024-06-01,12,270!2024-06-04,15,290!2024-07-06,37,290-->
+Shear walls are {{vertically continuous structures}}, which are {{much stiffer than rigid frame and provides most lateral and some gravity resistance}}. Along the plane of shear walls, one may find {{multiple shear walls}}, and the shear walls are connected by {{beams or slabs}}. In a building, there may be {{multiple planes of shear walls}}, which are usually {{parallel to each other}}. It resists loads {{parallel to the plane of the shear wall}}. <!--SR:!2024-06-06,17,290!2024-06-06,17,290!2024-06-03,14,290!2024-06-02,13,270!2024-07-18,47,290!2024-06-04,15,290!2024-07-06,37,290-->
 
 Economically, it makes sense {{until up to about 35 stories}}. Examples include {{high-rise residential buildings}}. <!--SR:!2024-07-10,41,290!2024-06-03,14,290-->
 

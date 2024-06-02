@@ -201,7 +201,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial block is used as noise tolerant building to protect the residential building from road traffic noise
 > 4. Residential building with no balcony is built to reduce the impact of road traffic noise
 >
-> - solution: {{4}} <!--SR:!2024-06-01,6,252-->
+> - solution: {{4}} <!--SR:!2024-06-21,20,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -359,7 +359,7 @@ Example quiz questions for preparing exams.
 > 3. Drill and blast
 > 4. Immersed tube tunnel
 >
-> - solution: {{4}} <!--SR:!2024-06-01,9,272-->
+> - solution: {{4}} <!--SR:!2024-07-04,33,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -372,7 +372,7 @@ Example quiz questions for preparing exams.
 > 3. The seabed mud must always be dredged before placing the fill
 > 4. The settlement of a newly reclaimed land can take a long time
 >
-> - solution: {{1, 4}} <!--SR:!2024-06-01,8,252-->
+> - solution: {{1, 4}} <!--SR:!2024-06-28,27,272-->
 
 <!-- markdownlint MD028 -->
 

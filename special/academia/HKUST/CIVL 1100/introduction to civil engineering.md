@@ -48,7 +48,7 @@ The content is in teaching order.
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-06-09,31,320!2024-07-28,76,357-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-06-09,31,321!2024-06-01,33,332-->
+    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-06-09,31,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-07-05,42,287!2024-08-30,98,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-06-26,44,340-->
@@ -209,7 +209,7 @@ water and sewage treatment system
 - dam→:::←pipeline <!--SR:!2024-06-11,18,224!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-06-16,23,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-06-06,28,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-06-01,8,197!2024-06-22,29,261-->
+- reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-09,10,190-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
@@ -299,9 +299,9 @@ workmanship
 
 - _(begin)_→:::←budgeting <!--SR:!2024-07-08,55,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-07-29,66,320!2024-08-30,98,335-->
-- construction management→:::←economics <!--SR:!2024-07-10,42,235!2024-06-01,21,280-->
+- construction management→:::←economics <!--SR:!2024-07-10,42,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-06-04,11,280-->
-- impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-06-01,26,320-->
+- impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
@@ -391,7 +391,7 @@ transportation
 - hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-06-06,24,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
-- transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-06-01,8,341-->
+- transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-07-12,41,361-->
 
 <!--/pytextgen-->
 
@@ -491,7 +491,7 @@ testing materials
 - _(begin)_→:::←budgeting <!--SR:!2024-06-13,43,327!2024-07-05,57,355-->
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-06-15,45,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-04,9,275-->
-- designing temporary structures→:::←logistics <!--SR:!2024-06-01,28,320!2024-07-31,68,297-->
+- designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
 - logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
@@ -539,10 +539,10 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
-- business procedures→:::←economics <!--SR:!2024-06-01,6,261!2024-07-31,68,285-->
+- business procedures→:::←economics <!--SR:!2024-06-19,18,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-06-14,39,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-06-13,30,280-->
-- management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-06-01,23,300-->
+- management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-06-19,26,272-->
 
@@ -880,7 +880,7 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection network <!--SR:!2024-06-01,26,321!2024-08-11,79,317-->
+- _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2024-08-11,79,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-06-05,27,320!2024-06-10,32,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
@@ -1255,9 +1255,9 @@ and the Structural Engineering Institute (SEI).
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-06-02,32,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-09-28,123,335-->
-- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-06-01,30,307-->
+- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-08-31,91,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-08-22,87,310-->
-- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-06-01,30,317-->
+- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-10-09,130,337-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-08-29,92,337!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2024-06-16,72,330!2024-12-06,196,330-->
 

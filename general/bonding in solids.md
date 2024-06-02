@@ -94,7 +94,7 @@ return await memorize_table(
 > | {{[brittleness](brittleness.md)}} | {{typically high}} |
 > | {{[electrical conductivity](electrical%20conductivity.md)}} | {{typically low ([graphite](graphite.md): high)}} |
 > | {{[melting point](melting%20point.md)}} | {{typically high}} |
-> | {{[strength](strength%20of%20materials.md)}} | {{typically high ([graphite](graphite.md): low)}} | <!--SR:!2025-08-20,569,270!2027-04-15,1150,350!2024-06-27,188,270!2025-08-03,600,310!2024-12-04,454,310!2026-12-31,986,330!2024-08-08,336,290!2025-01-29,441,250!2024-06-16,181,333!2024-06-01,169,333-->
+> | {{[strength](strength%20of%20materials.md)}} | {{typically high ([graphite](graphite.md): low)}} | <!--SR:!2025-08-20,569,270!2027-04-15,1150,350!2024-06-27,188,270!2025-08-03,600,310!2024-12-04,454,310!2026-12-31,986,330!2024-08-08,336,290!2025-01-29,441,250!2024-06-16,181,333!2026-07-16,775,353-->
 
 <!--/pytextgen-->
 
