@@ -190,7 +190,7 @@ risk reduction
 - performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-06-03,34,274-->
 - performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-07-10,60,274-->
 - price→:::←risk reduction <!--SR:!2024-08-04,74,274!2024-08-12,82,274-->
-- risk reduction→:::←_(end)_ <!--SR:!2024-06-02,32,277!2024-07-16,55,257-->
+- risk reduction→:::←_(end)_ <!--SR:!2024-10-03,123,297!2024-07-16,55,257-->
 
 <!--/pytextgen-->
 
@@ -200,7 +200,7 @@ The channels building block shows {{the ways to reach customers and deliver valu
 
 #### customer relationships
 
-The customer relationships building block shows {{the types of relationships with customer segments}}. Proper customer relationships help with {{customer acquisition, customer retention, and upselling}}. <!--SR:!2024-09-05,102,274!2024-06-02,36,277-->
+The customer relationships building block shows {{the types of relationships with customer segments}}. Proper customer relationships help with {{customer acquisition, customer retention, and upselling}}. <!--SR:!2024-09-05,102,274!2024-09-07,97,277-->
 
 ##### customer relationship examples
 
@@ -238,7 +238,7 @@ personal assistance
 
 - _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-06-13,44,290-->
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
-- co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-06-02,35,274-->
+- co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-06-03,36,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2024-07-03,61,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-07-08,63,317!2024-07-15,70,317-->

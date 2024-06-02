@@ -74,7 +74,7 @@ The following interior structures are possible.
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-07-13,42,290!2024-06-03,14,295-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-06-13,17,255!2024-06-05,7,235-->
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-06-09,8,235!2024-06-10,10,235-->
-- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-06-02,13,275!2024-06-29,29,275-->
+- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-07-04,32,275!2024-06-29,29,275-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-06-16,20,255!2024-06-12,16,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-06-03,14,295!2024-06-15,20,275-->
 
@@ -88,7 +88,7 @@ Intuitively, if a high-rise building is {{a skier}}, then {{the building core is
 
 Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-06-25,28,275-->
 
-For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-06-06,17,290!2024-06-02,13,275!2024-06-05,16,295-->
+For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-06-06,17,290!2024-07-20,48,295!2024-06-05,16,295-->
 
 #### exterior structures
 
@@ -132,7 +132,7 @@ return await memorize_seq(
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-06-26,28,275!2024-06-04,15,295-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-06-27,28,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-06-02,13,295!2024-06-15,19,255-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-08,36,295!2024-06-15,19,255-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->
 
 <!--/pytextgen-->

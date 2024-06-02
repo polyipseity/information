@@ -68,8 +68,8 @@ There are many types of elastic moduli that can be defined. The {{<!--pytextgen 
 - _(begin)_→:::←_[Young's modulus](Young's%20modulus.md)_ ($E$) <!--SR:!2024-06-05,15,290!2024-06-07,17,290-->
 - _[Young's modulus](Young's%20modulus.md)_ ($E$)→:::←_[bulk modulus](bulk%20modulus.md)_ ($K$) <!--SR:!2024-06-03,13,290!2024-06-04,14,290-->
 - _[bulk modulus](bulk%20modulus.md)_ ($K$)→:::←_[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$) <!--SR:!2024-07-08,38,290!2024-06-05,15,290-->
-- _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→:::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$) <!--SR:!2024-06-24,25,270!2024-06-02,12,270-->
-- _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→:::←_(end)_ <!--SR:!2024-06-03,13,290!2024-06-02,12,270-->
+- _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→:::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$) <!--SR:!2024-06-24,25,270!2024-07-17,45,290-->
+- _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→:::←_(end)_ <!--SR:!2024-06-03,13,290!2024-07-20,48,290-->
 
 <!--/pytextgen-->
 
