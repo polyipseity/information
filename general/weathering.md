@@ -63,7 +63,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md) <!--SR:!2026-12-01,958,330!2024-06-02,331,330-->
 - CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md)→:::←H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md) <!--SR:!2024-12-20,468,310!2028-01-27,1369,350-->
-- H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→:::←_(end)_ <!--SR:!2024-06-01,330,330!2027-01-24,1000,330-->
+- H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→:::←_(end)_ <!--SR:!2028-07-14,1504,350!2027-01-24,1000,330-->
 
 <!--/pytextgen-->
 

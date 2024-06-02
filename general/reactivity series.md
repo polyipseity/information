@@ -148,7 +148,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2024-07-17,128,230!2024-06-15,45,210-->
 - [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-07-13,110,230!2024-06-19,50,230-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-06-29,294,270-->
-- [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-06-01,47,150!2024-07-18,127,210-->
+- [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-08-10,70,150!2024-07-18,127,210-->
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2024-08-01,108,210!2025-05-06,383,230-->
 - [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2024-06-15,280,290!2024-08-20,127,190-->
 - [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-08-06,120,250-->
@@ -213,7 +213,7 @@ return _chain.from_iterable(await _gather(
 - Li<sup>+</sup>::[lithium](lithium.md) <!--SR:!2025-04-19,333,367-->
 - Ba<sup>2+</sup>::[barium](barium.md) <!--SR:!2025-04-24,338,367-->
 - Sr<sup>2+</sup>::[strontium](strontium.md) <!--SR:!2025-03-10,303,365-->
-- Ca<sup>2+</sup>::[calcium](calcium.md) <!--SR:!2024-06-01,82,345-->
+- Ca<sup>2+</sup>::[calcium](calcium.md) <!--SR:!2025-06-24,388,365-->
 - Mg<sup>2+</sup>::[magnesium](magnesium.md) <!--SR:!2025-04-22,336,365-->
 - Be<sup>2+</sup>::[beryllium](beryllium.md) <!--SR:!2025-04-29,343,367-->
 - Al<sup>3+</sup>::[aluminium](aluminium.md) <!--SR:!2025-04-17,331,365-->

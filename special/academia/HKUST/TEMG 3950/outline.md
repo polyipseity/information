@@ -53,8 +53,8 @@ The content is in teaching order.
   - [§ how](../../../market%20segmentation.md#how)
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
-  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2024-06-01,17,315!2024-08-09,70,335-->
-  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-06-02,18,315!2024-06-01,17,315-->
+  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2024-08-15,75,335!2024-08-09,70,335-->
+  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-06-02,18,315!2024-08-14,74,335-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
     - [§ importance](../../../../general/total%20addressable%20market.md#importance)
@@ -62,8 +62,8 @@ The content is in teaching order.
     - [§ importance](../../../../general/serviceable%20available%20market.md#importance)
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
-  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-06-01,17,315!2024-08-13,74,335-->
-  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-06-01,17,315!2024-08-10,71,335-->
+  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-08-15,75,335!2024-08-13,74,335-->
+  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2024-08-10,71,335-->
 - visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2024-08-11,72,335-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/)
