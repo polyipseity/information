@@ -10,7 +10,7 @@ tags:
 
 # torque
 
-In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known as {{__moment of force__ or simply __moment__}}, is {{the [rotational](rotation.md) analogue of linear [force](force.md)}}. <!--SR:!2024-07-18,48,290!2024-06-03,15,290-->
+In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known as {{__moment of force__ or simply __moment__}}, is {{the [rotational](rotation.md) analogue of linear [force](force.md)}}. <!--SR:!2024-07-18,48,290!2024-08-01,59,310-->
 
 ## principles of moments
 
@@ -20,7 +20,7 @@ The principle of moments, also known as {{[Varignon's theorem](Varignon's%20theo
 
 ### moment arm formula
 
-A special case, often given as the definition of torque or moment in non-[physics](physics.md) fields, is as follows: {{$$\tau = (\text{moment arm})(\text{force})$$}} <!--SR:!2024-06-03,15,290-->
+A special case, often given as the definition of torque or moment in non-[physics](physics.md) fields, is as follows: {{$$\tau = (\text{moment arm})(\text{force})$$}} <!--SR:!2024-08-06,64,310-->
 
 > ![moment arm diagram](../archives/Wikimedia%20Commons/Moment%20arm.svg)
 >

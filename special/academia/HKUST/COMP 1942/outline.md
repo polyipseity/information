@@ -111,7 +111,7 @@ The content is in teaching order.
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
-  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-07-05,66,351!2024-06-02,36,307-->
+  - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-07-05,66,351!2024-11-01,151,327-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
   - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-07-05,62,331!2024-06-06,40,311-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)

@@ -40,7 +40,7 @@ The content is in teaching order.
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-06-08,16,310!2024-06-08,16,301-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-06-20,21,270!2024-07-11,40,310-->
-  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-06-08,16,310!2024-06-03,11,290-->
+  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-06-08,16,310!2024-07-17,44,310-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-06-10,18,310!2024-07-07,36,301-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
@@ -60,24 +60,24 @@ The content is in teaching order.
 - [Young's modulus](../../../../general/Young's%20modulus.md)
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
-  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-06-02,10,290!2024-06-02,10,290-->
+  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-07-10,37,310!2024-07-12,39,310-->
   - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2024-06-06,14,310!2024-06-08,16,310-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
-  - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2024-06-03,11,290!2024-06-07,15,301-->
+  - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2024-07-20,47,310!2024-06-07,15,301-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
-    - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-06-02,10,290!2024-06-05,13,290-->
+    - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-07-13,40,310!2024-06-05,13,290-->
 - [bending](../../../../general/bending.md)
   - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-06-18,20,281!2024-06-07,15,301-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-07-08,37,310!2024-06-08,16,310-->
-- simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-06-02,10,290!2024-06-08,16,310-->
+- simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-07-01,28,290!2024-06-08,16,310-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-06-09,17,310!2024-06-09,17,310-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-06-06,14,310!2024-06-10,18,310-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-06-28,27,290!2024-06-07,15,310-->
 - [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces <!--SR:!2024-06-10,18,310!2024-06-06,14,310-->
-  - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-06-03,11,290!2024-06-07,15,310-->
-- [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-06-02,10,290!2024-06-07,15,310-->
+  - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-07-21,48,310!2024-06-07,15,310-->
+- [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-07-11,38,310!2024-06-07,15,310-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
   - [§ pinned support](../../../../general/structural%20support.md#pinned%20support)
   - [§ fixed support](../../../../general/structural%20support.md#fixed%20support)
@@ -104,10 +104,10 @@ The content is in teaching order.
   - [§ dead load](../../../../general/structural%20load.md#dead%20load)
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
-  - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-06-03,11,290!2024-06-06,14,310-->
+  - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-07-06,33,290!2024-06-06,14,310-->
   - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-06-10,18,310!2024-06-08,16,301-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
-  - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2024-06-03,11,290!2024-06-10,18,301-->
+  - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2024-07-19,46,310!2024-06-10,18,301-->
 - [structural system](../../../../general/structural%20system.md)
   - [§ high-rise buildings](../../../../general/structural%20system.md#high-rise%20buildings)
   - [§ classification](../../../../general/structural%20system.md#classification)
@@ -118,7 +118,7 @@ The content is in teaching order.
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
   - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-06-05,13,290!2024-06-10,18,310-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-06-09,17,310!2024-06-04,12,290-->
-- framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-06-02,10,290!2024-06-07,15,310-->
+- framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-06-07,15,310-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-06-09,17,310!2024-07-06,35,301-->
 

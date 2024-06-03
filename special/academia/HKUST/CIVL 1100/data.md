@@ -28,13 +28,13 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-07-06,43,294!2024-08-29,97,380-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2024-07-18,68,347!2024-07-26,78,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-08-06,74,360!2024-08-16,84,380-->
-- length ::: 3911 m, longest span: 1991 m <!--SR:!2024-06-03,23,281!2024-08-05,86,372-->
+- length ::: 3911 m, longest span: 1991 m <!--SR:!2024-08-10,68,281!2024-08-05,86,372-->
 
 ## Beijing National Stadium
 
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
-- description ::: stadium in Beijing, China <!--SR:!2024-06-03,59,310!2024-06-10,66,330-->
+- description ::: stadium in Beijing, China <!--SR:!2024-12-02,182,310!2024-06-10,66,330-->
 - image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2024-08-03,71,360!2024-08-20,88,380-->
 - shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-08-11,92,372!2024-07-31,81,365-->
 
@@ -54,13 +54,13 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-07-01,47,297!2024-08-15,96,374-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-07-12,49,281!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2024-07-18,55,360-->
-- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-06-03,28,321!2024-06-14,70,330-->
+- [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-09-03,92,321!2024-06-14,70,330-->
 
 ## CCTV Headquarters
 
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
-- description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-06-03,33,312!2024-07-27,79,367-->
+- description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2024-07-27,79,367-->
 - height ::: roof: 234 m <!--SR:!2024-06-11,18,260!2024-08-29,108,377-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-07-26,63,360!2024-08-29,96,380-->
 - shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-25,93,380-->
@@ -146,7 +146,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-06-05,9,316!2024-06-19,26,376-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-06-08,15,356!2024-06-24,31,376-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-06-09,16,356!2024-06-22,29,376-->
-- length ::: 21196.18 km <!--SR:!2024-06-02,9,336!2024-06-21,28,376-->
+- length ::: 21196.18 km <!--SR:!2024-06-07,4,316!2024-06-21,28,376-->
 
 ## HSBC Main Building
 
@@ -304,7 +304,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
-- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-06-03,33,307!2024-08-06,87,370-->
+- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-10-19,138,327!2024-08-06,87,370-->
 - length ::: 271 km <!--SR:!2024-07-24,58,317!2024-08-23,102,377-->
 
 ## Two Prudential Plaza

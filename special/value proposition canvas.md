@@ -52,7 +52,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.753308+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-06-04,34,289!2024-07-12,67,329-->
-- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-06-02,32,289!2024-07-14,53,269-->
+- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-09-01,90,289!2024-07-14,53,269-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-07-06,53,269!2024-08-08,74,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-06-06,28,249!2024-07-26,65,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-07-23,76,329!2024-07-08,58,289-->
@@ -73,7 +73,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-08-05,75,289!2024-07-25,71,289!2024-06-07,39,309!2024-06-22,31,305-->
 
-Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-06-03,19,325!2024-06-02,18,325!2024-07-16,51,325!2024-07-18,53,325!2024-06-02,18,325!2024-06-03,19,325!2024-08-12,73,345-->
+Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-07-16,51,325!2024-07-18,53,325!2024-08-22,80,345!2024-08-05,63,325!2024-08-12,73,345-->
 
 The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2024-07-22,55,325!2024-07-30,63,325-->
 
@@ -81,7 +81,7 @@ Customer pains include {{undesirable things, obstacles, and risks}}. Make pains 
 
 Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-07-26,62,249!2024-06-08,40,309!2024-06-21,62,310-->
 
-Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-06-11,50,290!2024-06-08,41,309!2024-06-02,18,325!2024-06-03,19,325!2024-08-16,76,345!2024-06-27,36,304-->
+Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-06-11,50,290!2024-06-08,41,309!2024-08-21,79,345!2024-08-27,85,345!2024-08-16,76,345!2024-06-27,36,304-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -230,7 +230,7 @@ find customer patterns
 
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←create a customer profile <!--SR:!2024-06-03,36,289!2024-07-19,74,329-->
+- _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2024-07-19,74,329-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-07-09,59,289!2024-06-07,38,289-->
 - outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2024-06-26,56,309-->
 - interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2024-06-29,54,309-->

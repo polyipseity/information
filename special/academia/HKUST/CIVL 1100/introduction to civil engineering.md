@@ -24,7 +24,7 @@ The content is in teaching order.
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-07-02,50,340!2024-08-08,89,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-07-25,62,340!2024-07-11,61,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-06-12,43,330!2024-08-29,108,377-->
-    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-06-03,33,317!2024-08-02,85,365-->
+    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-06-11,40,335!2024-06-20,76,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2024-06-19,46,325!2024-06-30,57,345-->
@@ -36,7 +36,7 @@ The content is in teaching order.
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-07-18,55,297!2024-07-21,69,345-->
-- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-06-03,28,320!2024-06-10,39,332-->
+- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-06-10,39,332-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
@@ -71,7 +71,7 @@ The content is in teaching order.
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-08-08,89,377-->
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-06-03,56,285!2024-07-11,63,345-->
+- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2024-07-11,63,345-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2024-07-07,62,345-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-06-08,30,320!2024-06-21,46,332-->
@@ -303,9 +303,9 @@ workmanship
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-06-04,11,280-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
-- maintenance→:::←politics <!--SR:!2024-06-02,22,281!2024-08-12,80,312-->
+- maintenance→:::←politics <!--SR:!2024-06-15,12,261!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
-- social→:::←workmanship <!--SR:!2024-06-05,27,300!2024-06-02,27,210-->
+- social→:::←workmanship <!--SR:!2024-06-05,27,300!2024-06-16,13,190-->
 - workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
 
 <!--/pytextgen-->
@@ -495,9 +495,9 @@ testing materials
 - logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
-- quality assurance→:::←quality control <!--SR:!2024-06-02,33,337!2024-07-15,52,352-->
+- quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-12,13,295-->
-- safety engineering→:::←scheduling <!--SR:!2024-06-04,26,320!2024-06-02,27,320-->
+- safety engineering→:::←scheduling <!--SR:!2024-06-04,26,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-06-19,26,241!2024-06-22,39,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-06-19,26,280!2024-07-12,49,292-->
 - testing materials→:::←_(end)_ <!--SR:!2024-06-30,52,327!2024-08-12,80,307-->
@@ -641,12 +641,12 @@ nuclear
 - _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
 - agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
 - architectural→:::←biomedical <!--SR:!2024-06-13,42,337!2024-06-26,44,340-->
-- biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-06-03,34,337-->
+- biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-06-10,40,337!2024-06-13,42,337-->
 - civil→:::←computer <!--SR:!2024-06-05,36,334!2024-06-11,42,332-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
-- electrical→:::←industrial <!--SR:!2024-06-03,25,321!2024-06-02,19,270-->
+- electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-06-11,39,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-06-29,51,335-->
@@ -884,7 +884,7 @@ water distribution network
 - sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-06-05,27,320!2024-06-10,32,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
-- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-06-03,10,301-->
+- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-07-16,43,321-->
 
 <!--/pytextgen-->
 
@@ -1038,7 +1038,7 @@ wave
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←earthquake <!--SR:!2024-06-22,42,340!2024-06-30,52,337-->
-- earthquake→:::←fire <!--SR:!2024-06-02,34,335!2024-07-23,71,360-->
+- earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-06-09,13,297-->
 - strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-06-22,37,294-->
@@ -1076,7 +1076,7 @@ Two Prudential Plaza
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-06-08,30,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-06-03,25,300-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-06-15,12,280-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-06-06,31,320-->
 
 <!--/pytextgen-->
@@ -1156,7 +1156,7 @@ Hong Kong Code
 - Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-06-08,38,335!2024-07-18,70,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-06-11,36,337-->
-- Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2024-06-02,58,330-->
+- Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2025-02-21,263,350-->
 
 <!--/pytextgen-->
 
@@ -1198,7 +1198,7 @@ water tower
 
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2024-06-03,32,315!2024-08-12,88,380-->
+- _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-06-10,25,258-->
@@ -1252,7 +1252,7 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-06-02,32,317-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-06-04,34,307!2024-08-31,91,307-->
@@ -1342,7 +1342,7 @@ water treatment
 
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←groundwater quality control <!--SR:!2024-06-03,28,320!2024-06-07,38,337-->
+- _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-06-07,38,337-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-06-11,18,280!2024-07-03,50,315-->

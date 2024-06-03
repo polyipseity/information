@@ -21,7 +21,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## pattern
 
-- repeat (N=1) times:::(N) <a id="^repeatN"></a>^repeatN <!--SR:!2024-08-30,402,313!2024-06-03,385,348-->
+- repeat (N=1) times:::(N) <a id="^repeatN"></a>^repeatN <!--SR:!2024-08-30,402,313!2029-06-18,1841,368-->
 
 ## motion
 

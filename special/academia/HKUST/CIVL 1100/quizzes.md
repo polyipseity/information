@@ -97,7 +97,7 @@ Example quiz questions for preparing exams.
 > 3. Lime scrubber is used to neutralize acid gases (NOx, SOx, HCl)
 > 4. Selective catalytic reactor is used to convert nitrogen to nitrogen oxides
 >
-> - solution: {{3}} <!--SR:!2024-06-02,9,272-->
+> - solution: {{3}} <!--SR:!2024-06-27,24,272-->
 
 ## environmental engineering quiz 2
 
@@ -136,7 +136,7 @@ Example quiz questions for preparing exams.
 > 3. Bacteria get inactive permanently
 > 4. Bacteria may re-grow
 >
-> - solution: {{4}} <!--SR:!2024-06-03,10,272-->
+> - solution: {{4}} <!--SR:!2024-07-10,37,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -149,7 +149,7 @@ Example quiz questions for preparing exams.
 > 3. Filtration
 > 4. Chemical enhanced sedimentation
 >
-> - solution: {{1}} <!--SR:!2024-06-03,7,252-->
+> - solution: {{1}} <!--SR:!2024-06-27,24,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -279,7 +279,7 @@ Example quiz questions for preparing exams.
 > 3. A soil is described as "plastic" when  the soil moisture content is higher than the plasticity index
 > 4. Soil with moisture content above the liquid limit "feels" like toothpaste
 >
-> - solution: {{3}} <!--SR:!2024-06-02,6,252-->
+> - solution: {{3}} <!--SR:!2024-06-23,20,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -292,7 +292,7 @@ Example quiz questions for preparing exams.
 > 3. shallow foundation on tuff materials
 > 4. deep foundation on tuff materials
 >
-> - solution: {{3}} <!--SR:!2024-06-03,11,272-->
+> - solution: {{3}} <!--SR:!2024-07-14,41,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -333,7 +333,7 @@ Example quiz questions for preparing exams.
 > 3. In a soil slide, a soil mass slides along a slip surface
 > 4. In a rock fall, pieces of rock blocks detach from the rock mass and fall down the hill
 >
-> - solution: {{2}} <!--SR:!2024-06-02,9,272-->
+> - solution: {{2}} <!--SR:!2024-07-08,35,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -346,7 +346,7 @@ Example quiz questions for preparing exams.
 > 3. It is possible when the true cohesion of the sand disappears under rainfall
 > 4. It is not possible the friction angle is higher than the slope angle.
 >
-> - solution: {{2}} <!--SR:!2024-06-03,10,272-->
+> - solution: {{2}} <!--SR:!2024-07-01,28,272-->
 
 <!-- markdownlint MD028 -->
 

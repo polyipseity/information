@@ -11,13 +11,13 @@ tags:
 
 ## characteristics
 
-A truss consists of {{typically (but not necessarily) straight members connected at joints or nodes}}. Trusses are typically (but not necessarily) composed of {{triangles (triangular units) because of its stability}}. <!--SR:!2024-06-03,14,290!2024-07-06,34,290-->
+A truss consists of {{typically (but not necessarily) straight members connected at joints or nodes}}. Trusses are typically (but not necessarily) composed of {{triangles (triangular units) because of its stability}}. <!--SR:!2024-07-11,38,290!2024-07-06,34,290-->
 
 The joints are likely {{pinned support}}, so they can {{resist translation but not rotation}}. <!--SR:!2024-06-05,16,290!2024-06-05,16,290-->
 
 ## analysis
 
-To {{simplify analysis}}, {{2}} assumptions are often made: {{external forces and reaction are considered to act at joints only and the weights of truss members are negligible compared to the applied loads}}. <!--SR:!2024-06-03,14,290!2024-07-25,53,310!2024-07-15,44,290-->
+To {{simplify analysis}}, {{2}} assumptions are often made: {{external forces and reaction are considered to act at joints only and the weights of truss members are negligible compared to the applied loads}}. <!--SR:!2024-07-13,40,290!2024-07-25,53,310!2024-07-15,44,290-->
 
 Under these assumptions, each truss member {{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}}. By this, each truss member is {{either in tension (positive values) or compression (negative values)}}. <!--SR:!2024-07-24,52,310!2024-07-08,36,290-->
 
@@ -35,9 +35,9 @@ The principle is simple: {{Consider the equilibrium of each joint one by one, st
 
 Note that when a truss member is in tension, it is actually {{pulling on the two joints instead of pushing them}}, and vice versa for compression. <!--SR:!2024-06-06,17,290-->
 
-The steps are {{label all joints, members, and the support reactions}}. Then, {{compute the support reactions by considering the entire truss}}. Finally, use {{the method of joints to determine forces in all members}}. <!--SR:!2024-06-06,17,290!2024-06-04,15,290!2024-06-03,14,290-->
+The steps are {{label all joints, members, and the support reactions}}. Then, {{compute the support reactions by considering the entire truss}}. Finally, use {{the method of joints to determine forces in all members}}. <!--SR:!2024-06-06,17,290!2024-06-04,15,290!2024-07-12,39,290-->
 
-Note that after finishing with the method of joints, there is {{no need to consider the global (the entire truss) equilibrium again}}. This is because {{the global equilibrium is automatically satisfied afterwards}}, given that {{the calculations are done correctly}}. So this can also serve as a way to {{check the by-hand calculations}}. <!--SR:!2024-06-05,16,290!2024-06-03,14,290!2024-07-19,48,290!2024-07-06,37,290-->
+Note that after finishing with the method of joints, there is {{no need to consider the global (the entire truss) equilibrium again}}. This is because {{the global equilibrium is automatically satisfied afterwards}}, given that {{the calculations are done correctly}}. So this can also serve as a way to {{check the by-hand calculations}}. <!--SR:!2024-06-05,16,290!2024-07-25,52,310!2024-07-19,48,290!2024-07-06,37,290-->
 
 ## references
 
