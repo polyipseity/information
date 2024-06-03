@@ -46,7 +46,7 @@ return (
 
 %%
 
-There are {{<!--pytextgen generate section="298b"--><!-- The following content is generated at 2024-05-14T01:07:43.943498+08:00. Any edits will be overridden! -->3<!--/pytextgen--> forms of internal stresses}} caused by lateral loads ([force](force.md) on the side): <!--SR:!2024-06-03,15,290-->
+There are {{<!--pytextgen generate section="298b"--><!-- The following content is generated at 2024-05-14T01:07:43.943498+08:00. Any edits will be overridden! -->3<!--/pytextgen--> forms of internal stresses}} caused by lateral loads ([force](force.md) on the side): <!--SR:!2024-08-03,61,310-->
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-05-14T01:07:43.913119+08:00. Any edits will be overridden! -->
 

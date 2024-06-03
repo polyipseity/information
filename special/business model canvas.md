@@ -187,8 +187,8 @@ risk reduction
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-06-19,39,257-->
-- performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-06-03,34,274-->
-- performing the job well→:::←price <!--SR:!2024-06-03,36,274!2024-07-10,60,274-->
+- performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-09-03,92,274-->
+- performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-07-10,60,274-->
 - price→:::←risk reduction <!--SR:!2024-08-04,74,274!2024-08-12,82,274-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-10-03,123,297!2024-07-16,55,257-->
 
@@ -239,7 +239,7 @@ personal assistance
 - _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-06-13,44,290-->
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
 - co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-10-13,133,294-->
-- communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-06-03,36,274-->
+- communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2024-07-03,61,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-07-08,63,317!2024-07-15,70,317-->
 

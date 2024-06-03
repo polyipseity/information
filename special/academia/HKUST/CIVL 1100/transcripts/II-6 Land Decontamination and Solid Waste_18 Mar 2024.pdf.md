@@ -33,9 +33,9 @@ Former Penny's Bay Contaminated by Cheoy Lee Shipyard → Disney Theme Park
 Brownfield site development
 
 - brownfield
-  - brownfield in Hong Kong ::: agricultural or rural land in New Territories that is deserted and has been changed for container yards, depots, open storage, recycling yards, or rural industries <!--SR:!2024-06-03,9,250!2024-06-04,13,270-->
+  - brownfield in Hong Kong ::: agricultural or rural land in New Territories that is deserted and has been changed for container yards, depots, open storage, recycling yards, or rural industries <!--SR:!2024-06-25,22,250!2024-06-04,13,270-->
     - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwun Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-06-15,14,230!2024-06-23,23,270-->
-  - brownfield in the United States ::: currently unused land that was used with known or suspected not-very-serious pollution <!--SR:!2024-06-07,16,290!2024-06-02,11,270-->
+  - brownfield in the United States ::: currently unused land that was used with known or suspected not-very-serious pollution <!--SR:!2024-06-07,16,290!2024-07-18,45,290-->
 
 ## page 4
 

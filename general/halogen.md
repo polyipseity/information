@@ -24,7 +24,7 @@ tags:
 
 The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2024-10-11,398,290!2024-09-01,312,250-->
 
-The color darkens as the group is descended. Flourine is {{very pale yellow, chlorine is greenish-yellow, bromine is reddish-brown, and iodine is violet}}. <!--SR:!2024-06-03,48,187-->
+The color darkens as the group is descended. Flourine is {{very pale yellow, chlorine is greenish-yellow, bromine is reddish-brown, and iodine is violet}}. <!--SR:!2024-08-31,89,187-->
 
 ## representative reactions
 

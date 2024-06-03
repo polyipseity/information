@@ -25,10 +25,10 @@ This section {{outlines how one might do competitor analysis and present it to o
 
 Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-06-04,17,301!2024-08-02,62,321-->
 
-1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-08-06,65,321!2024-06-03,16,301-->
+1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-08-06,65,321!2024-08-11,69,321-->
 2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-06-28,32,281!2024-06-04,17,301-->
 3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-06-26,32,281!2024-08-03,62,321-->
-4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2024-07-31,60,321!2024-06-03,16,301-->
+4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2024-07-31,60,321!2024-08-11,69,321-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-08-08,68,314-->
 
@@ -77,20 +77,20 @@ why: Why are people using competitors' products?
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-06-03,13,261!2024-07-29,60,314-->
+- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-07-05,32,261!2024-07-29,60,314-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-06-16,25,274!2024-06-18,25,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-06-04,14,261!2024-07-02,30,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-06-19,20,241!2024-06-22,26,281-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-06-20,25,261!2024-06-25,31,281-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-07-17,45,261!2024-06-18,24,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-07-02,37,281!2024-06-04,12,241-->
-- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-06-03,16,301!2024-06-25,30,281-->
+- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-06-25,30,281-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - Early Google differentiates itself by {{offering some of their services for free}}. <!--SR:!2024-06-03,16,301-->
+> - Early Google differentiates itself by {{offering some of their services for free}}. <!--SR:!2024-08-09,67,321-->
 
 ### benefits
 
@@ -124,9 +124,9 @@ pricing: Find suitable prices catering to different market segment and economies
 
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-06-03,16,301!2024-07-15,46,301-->
+- _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-07-23,50,301!2024-07-15,46,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-06-21,20,281!2024-06-04,17,301-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-03,12,221!2024-06-08,17,261-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-30,27,221!2024-06-08,17,261-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-06-05,18,301!2024-08-02,63,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-06-08,16,261!2024-06-15,20,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-06-09,17,261-->
@@ -181,7 +181,7 @@ number of features
 
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←price <!--SR:!2024-06-04,17,301!2024-06-03,16,301-->
+- _(begin)_→:::←price <!--SR:!2024-06-04,17,301!2024-08-13,71,321-->
 - price→:::←benefit <!--SR:!2024-06-30,37,294!2024-06-22,25,281-->
 - benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-07-30,59,321-->

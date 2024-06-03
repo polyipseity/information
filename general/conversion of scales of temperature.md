@@ -174,7 +174,7 @@ return await conversion_table(
 <!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-03-07T00:30:25.407033+08:00. Any edits will be overridden! -->
 
 - [Celsius](Celsius.md)::from [Fahrenheit](Fahrenheit.md): x °F ≘ (x − 32) × 5/9 °C, to [Fahrenheit](Fahrenheit.md): x °C ≘ (x × 9/5 + 32) °F <!--SR:!2024-09-06,199,310-->
-- [Kelvin](Kelvin.md)::from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) × 5/9 K, to [Fahrenheit](Fahrenheit.md): x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2024-06-03,102,250-->
+- [Kelvin](Kelvin.md)::from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) × 5/9 K, to [Fahrenheit](Fahrenheit.md): x K ≘ (x × 9/5 − 459.67) °F <!--SR:!2025-02-12,254,250-->
 - [Rankine](Rankine%20scale.md)::from [Fahrenheit](Fahrenheit.md): x °F ≘ (x + 459.67) °R, to [Fahrenheit](Fahrenheit.md): x °R ≘ (x − 459.67) °F <!--SR:!2024-07-12,154,310-->
 
 <!--/pytextgen-->
@@ -220,7 +220,7 @@ return await conversion_table(
 
 - [Celsius](Celsius.md)::from [Rankine](Rankine%20scale.md): x °R ≘ (x − 491.67) × 5/9 °C, to [Rankine](Rankine%20scale.md): x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2024-07-22,119,230-->
 - [Kelvin](Kelvin.md)::from [Rankine](Rankine%20scale.md): x °R ≘ x × 5/9 K, to [Rankine](Rankine%20scale.md): x K ≘ x × 9/5 °R <!--SR:!2024-10-12,228,330-->
-- [Fahrenheit](Fahrenheit.md)::from [Rankine](Rankine%20scale.md): x °R ≘ (x − 459.67) °F, to [Rankine](Rankine%20scale.md): x °F ≘ (x + 459.67) °R <!--SR:!2024-06-03,84,250-->
+- [Fahrenheit](Fahrenheit.md)::from [Rankine](Rankine%20scale.md): x °R ≘ (x − 459.67) °F, to [Rankine](Rankine%20scale.md): x °F ≘ (x + 459.67) °R <!--SR:!2024-12-29,209,250-->
 
 <!--/pytextgen-->
 

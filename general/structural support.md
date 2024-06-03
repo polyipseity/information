@@ -15,9 +15,9 @@ tags:
 
 A roller support prevents {{vertical (relative to a support on the ground) translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-07-09,40,290!2024-07-13,43,290!2024-07-01,33,290-->
 
-A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-06-03,14,290-->
+A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-06-12,9,270-->
 
-Examples include {{roller supports under an overhanging highway, wheels of a table with wheels}}. <!--SR:!2024-06-03,14,290-->
+Examples include {{roller supports under an overhanging highway, wheels of a table with wheels}}. <!--SR:!2024-07-29,56,310-->
 
 ### pinned support
 
@@ -31,7 +31,7 @@ Examples include {{a table leg pinned by a single screw only, joints of a truss}
 
 A fixed support prevents {{translation and rotation in any direction}}. Its reaction forces are {{a single linear force in any direction and a [torque](torque.md)}}. <!--SR:!2024-06-29,31,290!2024-07-10,41,290-->
 
-A fixed support is {{usually not drawn specifically and represented by being connected to a fixed wall or ground}}. <!--SR:!2024-06-03,14,290-->
+A fixed support is {{usually not drawn specifically and represented by being connected to a fixed wall or ground}}. <!--SR:!2024-07-30,57,310-->
 
 Examples include {{a computer monitor with a single non-rotatable support, fixed supports under a bridge}}. <!--SR:!2024-07-10,40,290-->
 

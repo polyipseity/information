@@ -26,7 +26,7 @@ Demographic segmentation divides the market by {{factual and physical data}}. <!
 
 #### geographic segmentation
 
-Geographic segmentation divides the market by {{location-related variables}}. <!--SR:!2024-06-03,45,290-->
+Geographic segmentation divides the market by {{location-related variables}}. <!--SR:!2024-10-13,132,290-->
 
 #### psychographic segmentation
 
@@ -48,4 +48,4 @@ By segmenting the market, business {{can clarify the requirements of their custo
 
 It is necessary for the company to decide {{which segments to serve}}. It can be {{undifferentiated, ignoring segments; concentrated or focused, one segment; differentiated, two or more segments; or hypersegmented, thousands of or more segments}}. <!--SR:!2024-06-07,46,290!2024-08-04,67,250-->
 
-Undifferentiated marketing is {{rare because customers are demanding nowadays}}. Differentiated marketing is {{used by most companies, but it incurs a greater cost than undifferentiated marketing}}. Some companies use focused marketing, which {{usually has high rate of return but also higher risk}}. For startups, {{focused marketing is more suitable as the cost is lower than differentiated marketing}}. Hypersegmented marketing is {{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}}. <!--SR:!2024-07-19,74,270!2024-09-19,120,290!2024-06-13,56,310!2024-06-02,43,290!2024-09-02,103,270-->
+Undifferentiated marketing is {{rare because customers are demanding nowadays}}. Differentiated marketing is {{used by most companies, but it incurs a greater cost than undifferentiated marketing}}. Some companies use focused marketing, which {{usually has high rate of return but also higher risk}}. For startups, {{focused marketing is more suitable as the cost is lower than differentiated marketing}}. Hypersegmented marketing is {{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}}. <!--SR:!2024-07-19,74,270!2024-09-19,120,290!2024-06-13,56,310!2024-11-22,172,310!2024-09-02,103,270-->

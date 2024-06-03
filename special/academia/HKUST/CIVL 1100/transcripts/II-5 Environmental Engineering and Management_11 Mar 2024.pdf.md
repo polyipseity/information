@@ -28,7 +28,7 @@ Environmental Engineering and Management
 
 What is Environmental Engineering?
 
-- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-06-06,14,290!2024-06-02,10,270-->
+- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-06-06,14,290!2024-07-07,34,290-->
   - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-06-05,13,290!2024-06-06,14,290-->
 
 ## page 3
@@ -69,9 +69,9 @@ return await memorize_seq(
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air pollution <!--SR:!2024-06-06,14,290!2024-06-06,14,290-->
-- air pollution→:::←land contamination <!--SR:!2024-06-03,11,270!2024-06-06,14,290-->
-- land contamination→:::←noise pollution <!--SR:!2024-06-05,13,290!2024-06-02,10,270-->
-- noise pollution→:::←solid waste disposal <!--SR:!2024-06-03,11,270!2024-06-03,11,270-->
+- air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-06-06,14,290-->
+- land contamination→:::←noise pollution <!--SR:!2024-06-05,13,290!2024-06-27,24,270-->
+- noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-06-11,13,250-->
 - water pollution→:::←_(end)_ <!--SR:!2024-06-05,13,290!2024-06-04,12,270-->
 
@@ -110,9 +110,9 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-05-25T19:07:44.595535+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging <!--SR:!2024-06-02,10,270!2024-06-08,16,290-->
+- _(begin)_→:::←air sparging <!--SR:!2024-07-08,35,290!2024-06-08,16,290-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-08,16,290!2024-07-03,32,290-->
-- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-02,10,270!2024-06-09,17,290-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-04,9,250!2024-06-08,16,290-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-09,17,290!2024-06-04,12,270-->
@@ -177,14 +177,14 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-06-02,10,270!2024-06-06,14,290-->
+  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-07-02,29,270!2024-06-06,14,290-->
   - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-06-08,16,290!2024-06-06,14,290-->
 
 ## page 10
 
 Landfills in Hong Kong
 
-- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-06-02,10,270!2024-06-05,13,290-->
+- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-06-30,27,270!2024-06-05,13,290-->
 
 ## page 11
 
@@ -207,8 +207,8 @@ Sustainable Waste Management
 
 How to provide motivation for waste reduction, reuse and recycling?
 
-- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-06-03,11,270!2024-06-06,14,290-->
-  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-06-03,11,270!2024-06-04,12,270-->
+- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-06-06,14,290-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-07-06,33,270!2024-06-04,12,270-->
 
 ## page 14
 
@@ -216,7 +216,7 @@ MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-06-18,18,250!2024-06-29,29,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-06-07,15,290!2024-07-06,35,290-->
-  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-02,10,270!2024-06-06,14,290-->
+  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-28,25,270!2024-06-06,14,290-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-06-05,13,290!2024-06-07,15,290-->
 
 Will this waste charging scheme waste generation?
@@ -227,8 +227,8 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-06-06,14,290!2024-06-09,17,290-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
-  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-06-03,11,270!2024-06-05,13,290-->
-  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-02,10,270!2024-06-08,13,270-->
+  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-06-05,13,290-->
+  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-29,26,270!2024-06-08,13,270-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-27,26,270!2024-06-06,14,290-->
 
 ## page 16
@@ -245,9 +245,9 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-06-04,12,270!2024-06-04,12,270-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-06-05,13,290!2024-06-07,12,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-06-04,9,250!2024-06-07,15,290-->
-  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-06-03,11,270!2024-06-05,13,290-->
+  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-07-01,28,270!2024-06-05,13,290-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-06-05,13,270!2024-07-01,30,290-->
-  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-06-03,11,270!2024-06-03,11,270-->
+  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-07-13,40,290!2024-07-16,43,290-->
 
 ## page 18
 
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2024-06-08,16,290!2024-06-06,14,290-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-03,8,250!2024-06-07,15,290-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-24,21,250!2024-06-07,15,290-->
 
 ## page 23
 
@@ -293,9 +293,9 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-06-02,10,270!2024-06-06,14,290-->
+- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-07-13,40,290!2024-06-06,14,290-->
   - airplane passing ::: 120 dB(A) <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
-  - construction site ::: 110 dB(A) <!--SR:!2024-06-02,10,270!2024-06-09,17,290-->
+  - construction site ::: 110 dB(A) <!--SR:!2024-07-09,36,290!2024-06-09,17,290-->
   - concert ::: 100 dB(A) <!--SR:!2024-06-09,17,290!2024-06-08,16,290-->
   - drilling ::: 90 dB(A) <!--SR:!2024-06-07,15,290!2024-06-25,24,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-06-08,16,290!2024-06-07,15,290-->
@@ -315,7 +315,7 @@ Properties of Sound Waves
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-06-02,10,270!2024-06-09,17,290-->
+- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
 - global air pollution concerns ::: acid rain and climate change <!--SR:!2024-06-09,17,290!2024-06-06,14,290-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
@@ -345,10 +345,10 @@ Indoor Air Quality
 
 - sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-06-06,14,290!2024-06-08,16,290-->
-  - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-06-02,10,270!2024-06-05,13,290-->
-    - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-06-02,10,270!2024-06-05,13,290-->
+  - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-07-01,28,270!2024-06-05,13,290-->
+    - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-06-05,13,290-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-05,13,270!2024-06-07,15,290-->
-    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-06-05,13,270!2024-06-02,10,270-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-06-05,13,270!2024-07-12,39,290-->
 
 ## page 30
 
@@ -393,11 +393,11 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
-- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-03,6,230!2024-06-03,11,270-->
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-18,15,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-06-08,13,270!2024-06-13,14,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-02,8,250!2024-06-09,17,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-05,4,250!2024-06-03,4,230-->
-- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-02,10,270-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-07,4,230!2024-06-09,17,290-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-05,4,250!2024-06-05,2,210-->
+- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-29,26,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
 
 <!--/pytextgen-->
@@ -439,7 +439,7 @@ Relationship between PPM and mg/L
 
 - relationship between PPM and mg/L for other solutions
   - relationship between PPM and mg/L examples
-  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-06-03,11,270!2024-06-06,14,290-->
+  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-07-12,39,290!2024-06-06,14,290-->
 - specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-06-05,13,290!2024-06-09,17,290-->
 
 ## page 36
@@ -454,7 +454,7 @@ Concentration Units for Gases
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
-- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-06-09,17,290!2024-06-02,10,270-->
+- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-06-09,17,290!2024-07-08,35,290-->
   - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R = 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
 
 ## page 38
