@@ -161,6 +161,7 @@ convenience
 ease of use
 number of features
 """.strip().splitlines(),
+  pretext="most important", posttext="least important",
 )
 ```
 
@@ -179,9 +180,9 @@ number of features
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-06-04T14:02:33.625025+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←price
+- _(most important)_→:::←price
 - price→:::←benefit
 - benefit→:::←quality
 - quality→:::←durability
@@ -189,7 +190,7 @@ number of features
 - service→:::←convenience
 - convenience→:::←ease of use
 - ease of use→:::←number of features
-- number of features→:::←_(end)_
+- number of features→:::←_(least important)_
 
 <!--/pytextgen-->
 

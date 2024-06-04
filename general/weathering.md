@@ -17,7 +17,7 @@ tags:
 
 __Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}.
 
-Weathering can be divided into {{_[physical weathering](#physical%20weathering)_ and _[chemical weathering](#chemical%20weathering)_}}.
+Weathering can be divided into {{_[chemical weathering](#chemical%20weathering)_ and _[physical weathering](#physical%20weathering)_}}.
 
 ## physical weathering
 

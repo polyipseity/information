@@ -13,10 +13,12 @@ In [engineering mechanics](applied%20mechanics.md), a __zero force member__ is {
 
 ## description
 
-Zero force members are found {{at joints with no external load and three or fewer truss members meet}}. Specifically, there are {{2}} situations:
+Zero force members are found {{at joints where three or fewer truss members meet}}. Also, the joints {{either have no external forces, or the external forces act in a manner similar to the members as described below}}. Specifically, there are {{2}} situations:
 
 - 2 truss members ::: If they are non-collinear and meet in an unloaded joint, they are both zero force members.
 - 3 truss members ::: If they meet in an unloaded joint and two of them are collinear, then the non-collinear member is a zero force member.
+
+The above can be proved {{using [vectors](vector%20(mathematics%20and%20physics).md)}}.
 
 ## references
 
