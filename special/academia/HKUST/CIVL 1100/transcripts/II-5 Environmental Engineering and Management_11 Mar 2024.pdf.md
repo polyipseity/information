@@ -73,7 +73,7 @@ return await memorize_seq(
 - land contamination→:::←noise pollution <!--SR:!2024-06-05,13,290!2024-06-27,24,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-06-11,13,250-->
-- water pollution→:::←_(end)_ <!--SR:!2024-06-05,13,290!2024-06-04,12,270-->
+- water pollution→:::←_(end)_ <!--SR:!2024-06-05,13,290!2024-07-17,43,290-->
 
 <!--/pytextgen-->
 
@@ -113,9 +113,9 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-07-08,35,290!2024-06-08,16,290-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-08,16,290!2024-07-03,32,290-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-04,9,250!2024-06-08,16,290-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-25,21,250!2024-06-08,16,290-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-09,17,290!2024-06-04,12,270-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-09,17,290!2024-07-17,43,290-->
 
 <!--/pytextgen-->
 
@@ -164,7 +164,7 @@ return await memorize_seq(
 
 Today's Kai Tak Development — Cruise Terminal
 
-- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-06-09,17,290!2024-06-04,12,270-->
+- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-06-09,17,290!2024-07-18,44,290-->
 
 ## page 8
 
@@ -191,7 +191,7 @@ Landfills in Hong Kong
 Sustainable Waste Management
 
 - sustainable waste management triangle ::: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2024-07-02,31,290!2024-07-02,31,290-->
-  - sustainable waste management triangle arrows ::: top -> left, right; left -> right <!--SR:!2024-06-05,13,290!2024-06-04,12,270-->
+  - sustainable waste management triangle arrows ::: top -> left, right; left -> right <!--SR:!2024-06-05,13,290!2024-07-23,49,290-->
 
 ## page 12
 
@@ -200,15 +200,15 @@ Sustainable Waste Management
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-06-05,13,290!2024-06-05,13,290-->
-  - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-06-04,12,270!2024-06-08,16,290-->
-    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-06-04,12,270!2024-06-06,14,290-->
+  - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-07-16,42,290!2024-06-08,16,290-->
+    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-07-23,49,290!2024-06-06,14,290-->
 
 ## page 13
 
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-06-06,14,290-->
-  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-07-06,33,270!2024-06-04,12,270-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-07-06,33,270!2024-07-16,42,290-->
 
 ## page 14
 
@@ -242,9 +242,9 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-06-05,13,290!2024-06-07,15,290-->
-  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-06-04,12,270!2024-06-04,12,270-->
+  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-04,30,270-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-06-05,13,290!2024-06-07,12,270-->
-  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-06-04,9,250!2024-06-07,15,290-->
+  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-07-09,35,270!2024-06-07,15,290-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-07-01,28,270!2024-06-05,13,290-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-06-05,13,270!2024-07-01,30,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-07-13,40,290!2024-07-16,43,290-->
@@ -268,7 +268,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
-    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-04,9,250!2024-06-09,17,290-->
+    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-26,22,250!2024-06-09,17,290-->
 
 ## page 21
 
@@ -300,7 +300,7 @@ Noise Levels and Causes
   - drilling ::: 90 dB(A) <!--SR:!2024-06-07,15,290!2024-06-25,24,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-06-08,16,290!2024-06-07,15,290-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
-  - home with TV on ::: 60 dB(A) <!--SR:!2024-06-04,12,270!2024-06-06,14,290-->
+  - home with TV on ::: 60 dB(A) <!--SR:!2024-07-18,44,290!2024-06-06,14,290-->
   - library ::: 40 dB(A) <!--SR:!2024-06-07,15,290!2024-06-05,13,290-->
   - park ::: 30 dB(A) <!--SR:!2024-06-08,16,290!2024-06-05,13,290-->
 
@@ -421,7 +421,7 @@ Observed climate change in Hong Kong
 
 Concentration Units for Liquids
 
-- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-06-04,12,270!2024-06-04,12,270-->
+- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-07-07,33,270!2024-07-17,43,290-->
   - mass of substance per unit volume of mixture units for liquids ::: mol/L, mg/L <!--SR:!2024-06-05,13,290!2024-06-07,15,290-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
 
@@ -463,4 +463,4 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-06-06,14,290!2024-06-05,13,290-->
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-06-04,12,270!2024-07-04,33,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-07-09,35,270!2024-07-04,33,290-->

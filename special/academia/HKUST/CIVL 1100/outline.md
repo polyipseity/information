@@ -48,7 +48,7 @@ The content is in teaching order.
     - "strong" object examples ::: table leg <!--SR:!2024-06-10,18,310!2024-06-06,14,310-->
     - "weak" object examples ::: mattress <!--SR:!2024-06-08,16,310!2024-06-10,18,301-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-06-08,16,310!2024-06-07,15,310-->
-    - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-06-04,12,290!2024-06-09,17,310-->
+    - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-07-18,44,310!2024-06-09,17,310-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)
@@ -117,7 +117,7 @@ The content is in teaching order.
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
   - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-06-05,13,290!2024-06-10,18,310-->
-  - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-06-09,17,310!2024-06-04,12,290-->
+  - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-06-09,17,310!2024-07-22,48,310-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-06-07,15,310-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-06-09,17,310!2024-07-06,35,301-->

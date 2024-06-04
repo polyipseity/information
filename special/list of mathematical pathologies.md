@@ -24,7 +24,7 @@ tags:
 
 The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}. <!--SR:!2024-09-06,115,290-->
 
-- [continuity](../general/continuous%20function.md) and discontinuity ::: It is neither continuous nor discontinuous at every [real](../general/real%20number.md). <!--SR:!2024-06-09,66,310!2024-06-04,61,310-->
+- [continuity](../general/continuous%20function.md) and discontinuity ::: It is neither continuous nor discontinuous at every [real](../general/real%20number.md). <!--SR:!2024-06-09,66,310!2025-02-20,261,330-->
   - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2024-06-21,54,323!2024-06-08,42,323-->
 - integrability
   - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md). <!--SR:!2024-06-28,50,326!2024-07-16,68,346-->

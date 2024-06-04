@@ -162,7 +162,7 @@ Example quiz questions for preparing exams.
 > 3. High concentration of BOD increases the solubility and toxicity of metals in water body
 > 4. High concentration of BOD leads to the algae bloom
 >
-> - solution: {{2}} <!--SR:!2024-06-04,11,272-->
+> - solution: {{2}} <!--SR:!2024-07-15,41,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -266,7 +266,7 @@ Example quiz questions for preparing exams.
 > 3. Soil can stand up 90 degree, even without any lateral weight
 > 4. Soil strength does not depend on its self-weight
 >
-> - solution: {{4}} <!--SR:!2024-06-04,12,272-->
+> - solution: {{4}} <!--SR:!2024-07-06,32,272-->
 
 <!-- markdownlint MD028 -->
 

@@ -67,7 +67,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 - [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-07-28,56,310!2024-07-06,37,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-07-03,31,270!2024-06-05,17,308-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2024-07-18,45,300!2024-07-19,49,290-->
-- [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-07-16,44,290!2024-06-04,16,300-->
+- [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-07-16,44,290!2024-08-08,65,320-->
 - [other loads](#other%20loads)→:::←_(end)_ <!--SR:!2024-06-06,18,300!2024-06-06,18,300-->
 
 <!--/pytextgen-->
@@ -76,7 +76,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-06-06,18,300!2024-07-01,30,270!2024-06-30,31,270!2024-07-14,42,290-->
 
-Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-06-04,16,310!2024-06-05,17,310!2024-07-23,52,310!2024-07-22,52,310-->
+Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-08-13,70,330!2024-06-05,17,310!2024-07-23,52,310!2024-07-22,52,310-->
 
 ### live load
 
@@ -122,7 +122,7 @@ return await memorize_seq(
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-06-28,30,288!2024-07-19,48,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-06-21,24,280!2024-06-09,15,260-->
 - [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-06,38,300!2024-06-11,17,270-->
-- [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-06-05,17,300!2024-06-04,16,308-->
+- [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-06-05,17,300!2024-08-10,67,328-->
 
 <!--/pytextgen-->
 
@@ -156,7 +156,7 @@ For example, {{a beam in between two fixed support creates thermal load under he
 
 [Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-06-06,18,300!2024-07-16,46,290!2024-07-15,43,300!2024-06-06,18,300!2024-06-24,26,280-->
 
-Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-06-04,16,300!2024-06-05,17,300-->
+Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-08-06,63,320!2024-06-05,17,300-->
 
 ### other loads
 
