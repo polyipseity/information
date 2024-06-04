@@ -113,7 +113,9 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- quiz; time limit: 40 minutes; multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
+- exam for part 1: product innovation
+  - content: multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
+  - time limit: 40 minutes
 - 15-minute group presentation briefing
   - 12 minutes per team
   - questions and answers: maximum 10 minutes
@@ -139,6 +141,45 @@ The content is in teaching order.
 
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
+- thinking processes ::: deduction, evaluation, inference, interpretation
+  - deduction ::: application; arrive at conclusions based on given premises and rules
+  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something
+  - inference ::: generalize; draw rules or predictions based on observed examples
+  - interpretation ::: explain or understand meaning, implications, or significance of something
+- critical thinking pop quiz
+  - content: 10 4-choice questions
+  - effect: 0.5% of course grade
+  - full marks: 10
+  - time limit: 6 minutes
+- [consultant](../../../../general/consultant.md)
+  - consultant job prospects
+    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc
+    - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA
+    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA
+    - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA
+    - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich
+- nature of complex problems ::: modeleed by time-varying multi-variable optimization problems with constraints
+  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation
+- [Pareto principle](../../../../general/Pareto%20principle.md)
+- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md).
+- [MECE principle](../../../../general/MECE%20principle.md)
+- key concepts ::: abstraction, framework, model
+  - key concept: abstraction ::: filter for elements relevant to some specific purpose
+  - key concept: framework ::: a support structure around which something can be built
+  - key concept: model ::: an abstraction of the real world for some specific purpose
+- Aguilar's PESTLE framework ::: business environment analysis
+  - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
+- Porter's 5 forces framework ::: industry profitability analysis
+  - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
+    - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
+    - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
+- Chernev's 5C framework ::: market & business analysis
+  - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
+  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和
+  - Chernev's 5C framework competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md).
+  - Chernev's 5C framework context ::: The context aspect can use Anguilar's PESTLE framework.
+- McCarthy's 4P framework ::: market-related analysis
+  - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/)
 
 ## week 10 lecture
@@ -147,6 +188,34 @@ The content is in teaching order.
 
 ## week 11 lecture
 
+- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge
+- [assignment W9](assignment%20W9/) review
+  - general case analysis takeaways ::: Identify key questions and choose the question that is most precise and involves least work.
+  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions.
+- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur.
+- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_.
+- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated.
+- casual relationship & correlation ::: Correlation does not imply causation.
+- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships
+- [five whys](../../../../general/five%20whys.md)
+- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts
+- cause mapping notation (at least for this course)
+  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes.
+  - cause mapping arrow direction ::: cause to effect
+  - cause mapping evidences ::: below the cause, pink background
+  - cause mapping operators ::: AND, OR
+  - cause mapping solutions ::: above the cause, green background
+  - cause mapping symptom ::: red background
+- [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
+  - [§ format](../../../5-step%20persuasive%20selling.md#format)
+- more trees (for TEMG 4950) ::: issue tree and hypothesis tree
+- cause mapping extension ::: facts table, solutions table
+  - facts table ::: what, when, where, impact
+  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget
+- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (no s), analysis
+  - interview note layout ::: split the paper into 2, the left side is thinner and holds the facts and key question and the right side is the analysis
+  - interview note analysis ::: use a MECE framework suitable for the case in the interview
+  - interview note facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify
 - [assignment W11](assignment%20W11/)
 
 ## week 12 lecture
@@ -156,3 +225,11 @@ The content is in teaching order.
 ## week 13 lecture
 
 - [assignment W13](assignment%20W13/)
+
+## week 14 lecture
+
+## week 15 lecture
+
+- exam for part 2: case analysis
+  - content: 7 long questions
+  - time limit: about 120 minutes
