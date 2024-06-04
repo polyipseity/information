@@ -9,18 +9,12 @@ tags:
 
 # IUPAC numerical multiplier
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## data
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -50,8 +44,6 @@ return await memorize_map(
   }
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b9de"--><!-- The following content is generated at 2023-03-20T22:41:22.058927+08:00. Any edits will be overridden! -->
 

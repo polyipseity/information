@@ -9,20 +9,14 @@ tags:
 
 # physical property
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}}.
 
 ## examples
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -45,8 +39,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="1238ff"--><!-- The following content is generated at 2024-03-07T10:32:08.823451+08:00. Any edits will be overridden! -->
 

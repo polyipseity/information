@@ -13,14 +13,10 @@ tags:
 
 # halogen
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 The __halogens__ {{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}}. The halogens are {{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}}.
 
@@ -31,8 +27,6 @@ The color darkens as the group is descended. Flourine is {{very pale yellow, chl
 Halogens {{can form [ionic compounds](ionic%20compound.md) with [metals](metal.md) and [covalent compounds](covalent%20compound.md) with [nonmetals](nonmetal.md)}}.
 
 ### reaction with hydrogen
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -49,8 +43,6 @@ return await memorize_map(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="49d8"--><!-- The following content is generated at 2023-03-20T22:20:19.404644+08:00. Any edits will be overridden! -->
 

@@ -11,14 +11,10 @@ tags:
 
 # catalysis
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Catalysis__ is {{the process of increasing the [reaction rate](reaction%20rate.md) of a [chemical reaction](chemical%20reaction.md) by adding a [substance](chemical%20substance.md) called a __[catalyst](catalysis.md)__}}. Catalysts are {{not consumed in the reaction and remain chemically unchanged afterwards}}. If the reaction is fast and the catalyst replenishes quickly, {{only small amounts of catalyst is needed}}. {{Surface area, [temperature](temperature.md), and mixing}} affect the catalyzed [reaction rate](reaction%20rate.md).
 
@@ -29,8 +25,6 @@ Catalysts are often {{specific in action and [poisoned](catalyst%20poisoning.md)
 Catalysts can {{increase production throughput, reducing production cost and save [fuels](fuel.md)}}. In [biology](biology.md), {{[enzymes](enzyme.md) are [protein](protein.md)-based catalysts}}.
 
 ### examples
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -47,8 +41,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ad24"--><!-- The following content is generated at 2023-04-04T20:30:18.373062+08:00. Any edits will be overridden! -->
 

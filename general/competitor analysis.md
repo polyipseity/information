@@ -8,14 +8,10 @@ tags:
 
 # competitor analysis
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## outline
 
@@ -43,8 +39,6 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 
 ### considerations
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -60,8 +54,6 @@ why: Why are people using competitors' products?
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b823"--><!-- The following content is generated at 2024-05-03T13:31:34.731042+08:00. Any edits will be overridden! -->
 
@@ -94,8 +86,6 @@ why: Why are people using competitors' products?
 
 ### benefits
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -109,8 +99,6 @@ pricing: Find suitable prices catering to different market segment and economies
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="48ba"--><!-- The following content is generated at 2024-05-14T00:47:53.324260+08:00. Any edits will be overridden! -->
 
@@ -145,8 +133,6 @@ Competitor analysis can be done {{anytime as needed}}. For example, it can expos
 
 Common parameters used for comparison, {{most important first}}:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -164,8 +150,6 @@ number of features
   pretext="most important", posttext="least important",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9378"--><!-- The following content is generated at 2024-05-03T13:49:10.593096+08:00. Any edits will be overridden! -->
 

@@ -9,14 +9,10 @@ tags:
 
 # ester
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -46,8 +42,6 @@ In alkaline [hydrolysis](hydrolysis.md), esters {{are attacked by [nucleophilic]
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -57,8 +51,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="23af"--><!-- The following content is generated at 2024-03-07T10:32:08.801444+08:00. Any edits will be overridden! -->
 

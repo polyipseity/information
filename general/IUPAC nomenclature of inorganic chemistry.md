@@ -8,22 +8,16 @@ tags:
 
 # IUPAC nomenclature of inorganic chemistry
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorganic compounds](inorganic%20compound.md)}}. There is also the [IUPAC nomenclature of organic chemistry](IUPAC%20nomenclature%20of%20organic%20chemistry.md).
 
 ## system
 
 ### ionic compounds
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d9ea"--><!-- The following content is generated at 2023-03-20T16:11:54.332657+08:00. Any edits will be overridden! -->
 
@@ -66,8 +58,6 @@ return await memorize_seq(
 
 An older system exist:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_table(
@@ -83,8 +73,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="eef1"--><!-- The following content is generated at 2023-03-20T16:22:42.843631+08:00. Any edits will be overridden! -->
 

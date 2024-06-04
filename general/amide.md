@@ -9,14 +9,10 @@ tags:
 
 # amide
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -42,8 +38,6 @@ In alkaline [hydrolysis](hydrolysis.md), amides {{hydrolyze into [carboxylates](
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -53,8 +47,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="be34"--><!-- The following content is generated at 2024-03-07T10:22:01.941626+08:00. Any edits will be overridden! -->
 

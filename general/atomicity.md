@@ -8,20 +8,14 @@ tags:
 
 # atomicity
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 __Atomicity__ is {{the number of atoms in a [molecule](molecule.md)}}.
 
 ## classification
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -35,8 +29,6 @@ return await memorize_map(
   },
 )
 ```
-
-%%
 
 Molecules can be classified based on atomicity as:
 

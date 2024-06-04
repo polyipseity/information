@@ -9,14 +9,10 @@ tags:
 
 # bonding in solids
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## basic kinds
 
@@ -25,8 +21,6 @@ tags:
 A __molecular solid__, also called __simple molecular structure__, {{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}}. If the molecules are [highly organized](crystal%20structure.md), {{it is also called a __molecular crystal__}}.
 
 #### properties of molecular solid
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -44,8 +38,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9d9d"--><!-- The following content is generated at 2023-12-25T08:13:56.305002+08:00. Any edits will be overridden! -->
 
@@ -65,8 +57,6 @@ A __network covalent solid__, also called __giant covalent structure__, {{consis
 
 #### properties of network covalent solid
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen.util import NULL_LOCATION
@@ -83,8 +73,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="357d"--><!-- The following content is generated at 2023-12-25T08:00:46.096288+08:00. Any edits will be overridden! -->
 
@@ -104,8 +92,6 @@ A __ionic sold__, also called __giant ionic structure__, {{consists of [atoms](a
 
 #### properties of ionic solid
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen.util import NULL_LOCATION
@@ -122,8 +108,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5460"--><!-- The following content is generated at 2023-12-25T08:13:56.331587+08:00. Any edits will be overridden! -->
 
@@ -142,8 +126,6 @@ return await memorize_table(
 A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}.
 
 #### properties of metallic solid
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -164,8 +146,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="435d"--><!-- The following content is generated at 2023-12-25T08:18:39.407540+08:00. Any edits will be overridden! -->
 

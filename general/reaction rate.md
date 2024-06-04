@@ -11,22 +11,16 @@ tags:
 
 # reaction rate
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## definition
 
 The reaction rate is always {{positive}}.
 
 ## factors
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -40,8 +34,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 There are many factors affecting the reaction rate:
 

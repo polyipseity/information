@@ -8,20 +8,14 @@ tags:
 
 # area
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## formal definition
 
 Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -48,8 +42,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-03-18T20:03:11.156734+08:00. Any edits will be overridden! -->
 

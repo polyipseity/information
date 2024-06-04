@@ -12,14 +12,10 @@ tags:
 
 # polytropic process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 > __polytropic process__
 >
@@ -66,8 +62,6 @@ pV^{(1 - \gamma)K + \gamma} &= C
 
 ### variation of polytropic index _n_
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -94,8 +88,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="029f"--><!-- The following content is generated at 2023-12-15T10:02:45.991107+08:00. Any edits will be overridden! -->
 

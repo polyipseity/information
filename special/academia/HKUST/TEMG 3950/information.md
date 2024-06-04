@@ -12,14 +12,10 @@ tags:
 
 # HKUST TEMG 3950 information
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
-
-%%
 
 ## context
 
@@ -36,8 +32,6 @@ Prepares for TEMG 4970: T&M startup business plan.
 The product for the project of this part needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}.
 
 ### product innovation elements
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -57,8 +51,6 @@ value proposition canvas
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b91d"--><!-- The following content is generated at 2024-04-22T01:23:52.625964+08:00. Any edits will be overridden! -->
 
@@ -101,8 +93,6 @@ The case method, i.e. using case analysis for teaching, can teach {{identifying 
 
 ### case analysis elements
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -122,8 +112,6 @@ root cause analysis, 5 whys
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="eee2"--><!-- The following content is generated at 2024-06-04T22:06:05.636924+08:00. Any edits will be overridden! -->
 

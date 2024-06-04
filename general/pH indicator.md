@@ -9,8 +9,6 @@ tags:
 
 # pH indicator
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen import gen, read, util
@@ -111,8 +109,6 @@ return (
   ),
 )
 ```
-
-%%
 
 ## methyl orange
 

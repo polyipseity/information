@@ -9,22 +9,16 @@ tags:
 
 # primary standard
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}.
 
 ## chemistry
 
 A primary standard can be used {{in [titration](titration.md) and to prepare a [standard solution](standard%20solution.md)}}. It should have the following properties:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -43,8 +37,6 @@ return await memorize_seq(
   posttext="least important",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d928"--><!-- The following content is generated at 2023-03-23T16:01:43.599717+08:00. Any edits will be overridden! -->
 

@@ -9,22 +9,16 @@ tags:
 
 # intermolecular force
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Intermolecular forces__ are {{attractive or replusive [forces](force.md) between [molecules](molecule.md)}}. They are {{relatively weak}} compared to [intramolecular forces](intramolecular%20force.md).
 
 Attractive forces include {{[van der Waals forces](van%20der%20Waals%20force.md), [hydrogen bond](hydrogen%20bond.md), and [ion](ion.md)–(induced) dipole forces}}.
 
 ## relative strength
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -40,8 +34,6 @@ return await memorize_table(
   pretext="strongest", posttext="weakest",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="294a"--><!-- The following content is generated at 2023-03-26T19:44:39.015343+08:00. Any edits will be overridden! -->
 

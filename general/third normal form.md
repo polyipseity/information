@@ -9,18 +9,12 @@ tags:
 
 # third normal form
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## implementation
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -33,8 +27,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 A good way to satisfy the third normal form is by following the below three rules, which works well the [SQL](SQL.md) [`INNER JOIN`](join%20(SQL).md#inner%20join) clause:
 

@@ -6,18 +6,12 @@ tags:
 
 # experiment
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## steps
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -31,8 +25,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d9203e"--><!-- The following content is generated at 2023-03-12T14:16:16.592826+08:00. Any edits will be overridden! -->
 

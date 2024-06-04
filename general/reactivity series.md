@@ -9,20 +9,14 @@ tags:
 
 # reactivity series
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 A __reactivity series__ is {{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}}.
 
 ## data
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -94,8 +88,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="a2994d"--><!-- The following content is generated at 2024-02-17T20:43:15.082424+08:00. Any edits will be overridden! -->
 

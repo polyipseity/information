@@ -9,14 +9,10 @@ tags:
 
 # alkene
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 An __alkene__ is {{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}}.
 
@@ -50,8 +46,6 @@ Hydrohalogenation converts {{alkenes into [haloalkanes](haloalkane.md) by adding
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -66,8 +60,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d924"--><!-- The following content is generated at 2024-03-07T10:22:08.855746+08:00. Any edits will be overridden! -->
 

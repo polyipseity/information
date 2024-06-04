@@ -10,14 +10,10 @@ tags:
 
 # hierarchical clustering
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}}. The methods can be classified into two main types: {{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters repeatedly}}; and {{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then splitting the cluster into two clusters repeatedly}}.
 
@@ -30,8 +26,6 @@ To determine the distance between two observations, {{a _[metric](metric%20(math
 Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more.
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -63,8 +57,6 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="84ba"--><!-- The following content is generated at 2024-04-12T10:15:07.411820+08:00. Any edits will be overridden! -->
 

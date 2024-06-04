@@ -6,18 +6,12 @@ tags:
 
 # electrometallurgy
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## processes
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -30,8 +24,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="basdde"--><!-- The following content is generated at 2023-03-20T16:20:30.802460+08:00. Any edits will be overridden! -->
 

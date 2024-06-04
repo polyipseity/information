@@ -8,20 +8,14 @@ tags:
 
 # IUPAC nomenclature of organic chemistry
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md).
 
 ## principles
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -149,8 +143,6 @@ return (
   ),
 )
 ```
-
-%%
 
 The steps for naming an organic compound are:
 <!--pytextgen generate section="5193cd"--><!-- The following content is generated at 2022-11-05T00:24:43.599371+08:00. Any edits will be overridden! -->
@@ -296,8 +288,6 @@ See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)
 
 ## functional groups
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen import gen, read, util
@@ -363,8 +353,6 @@ return (
   ),
 )
 ```
-
-%%
 
 Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bonds must use suffixes. Always add infixes.
 
@@ -547,8 +535,6 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 ### affixes for halogen
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen import gen, read, util
@@ -580,8 +566,6 @@ return (
 )
 ```
 
-%%
-
 <!--pytextgen generate section="adc061"--><!-- The following content is generated at 2023-03-20T16:20:31.116658+08:00. Any edits will be overridden! -->
 
 > | element | prefix | suffix |
@@ -594,8 +578,6 @@ return (
 <!--/pytextgen-->
 
 ### precedence of functional groups
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -629,8 +611,6 @@ return (
 )
 ```
 
-%%
-
 <!--pytextgen generate section="19cfa2"--><!-- The following content is generated at 2023-11-27T13:04:06.855552+08:00. Any edits will be overridden! -->
 
 > 1. cation
@@ -662,8 +642,6 @@ return (
 
 ## trivial names
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_table(
@@ -679,8 +657,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f91a"--><!-- The following content is generated at 2023-04-04T23:50:24.828005+08:00. Any edits will be overridden! -->
 

@@ -9,14 +9,10 @@ tags:
 
 # HKUST ESST electrical safety outline
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
-
-%%
 
 The content is in teaching order.
 
@@ -75,8 +71,6 @@ The content is in teaching order.
 
 ### 6 kinds of prescribed products
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -91,8 +85,6 @@ unventilated thermal storage type electric water heaters
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5671"--><!-- The following content is generated at 2024-02-09T09:19:32.611770+08:00. Any edits will be overridden! -->
 
@@ -119,8 +111,6 @@ unventilated thermal storage type electric water heaters
 
 ### general safety requirement stipulations
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -135,8 +125,6 @@ warnings
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-14T17:52:38.899168+08:00. Any edits will be overridden! -->
 
@@ -163,8 +151,6 @@ warnings
 
 ### hazard causes
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -179,8 +165,6 @@ wet condition
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="3219"--><!-- The following content is generated at 2024-02-09T00:05:47.436681+08:00. Any edits will be overridden! -->
 
@@ -207,8 +191,6 @@ wet condition
 
 ### hazard control
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -226,8 +208,6 @@ protective bonding
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="a257"--><!-- The following content is generated at 2024-02-09T00:10:28.980504+08:00. Any edits will be overridden! -->
 
@@ -260,8 +240,6 @@ protective bonding
 
 ### hazardous scenarios
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -273,8 +251,6 @@ use of inappropriate measurement tools
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d929"--><!-- The following content is generated at 2024-02-09T00:10:06.190900+08:00. Any edits will be overridden! -->
 
@@ -295,8 +271,6 @@ use of inappropriate measurement tools
 
 ### relevant legislation in Hong Kong
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -309,8 +283,6 @@ Consumer Goods Safety Ordinance (Cap. 456)
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b234"--><!-- The following content is generated at 2024-02-12T16:43:42.627779+08:00. Any edits will be overridden! -->
 
@@ -333,8 +305,6 @@ Consumer Goods Safety Ordinance (Cap. 456)
 
 ### substandard plugs
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -348,8 +318,6 @@ no safety shutter
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="662a"--><!-- The following content is generated at 2024-02-09T09:14:53.814167+08:00. Any edits will be overridden! -->
 
