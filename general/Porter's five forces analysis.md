@@ -33,15 +33,15 @@ Buyers' power is high if {{there are many alternatives, and low if there are few
 
 ### bargaining power of suppliers
 
-Suppliers' power is high if {{there are fw suppliers, and low if there are many}}.
+Suppliers' power is high if {{there are few suppliers, and low if there are many}}.
 
 ### industry rivalry
 
-Industry rivalry is {{thee extent of competition among existing firms}}.
+Industry rivalry is {{the extent of competition among existing firms}}.
 
 ## usage
 
-Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, new sectors spanning multiple industries}}
+Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}.
 
 ## references
 
