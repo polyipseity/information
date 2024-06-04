@@ -9,14 +9,10 @@ tags:
 
 # ordinary differential equation
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## definitions
 
@@ -25,8 +21,6 @@ An _[explicit](implicit%20function.md) ordinary differential equation of order n
 An _[implicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}}, using the same notations as above.
 
 ### classifications
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -41,8 +35,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 Ordinary differential equations are furthered classified:
 

@@ -10,18 +10,12 @@ tags:
 
 # exothermic process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## examples
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -35,8 +29,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d924"--><!-- The following content is generated at 2023-04-01T22:38:27.897121+08:00. Any edits will be overridden! -->
 

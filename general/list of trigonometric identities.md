@@ -9,18 +9,12 @@ tags:
 
 # list of trigonometric identities
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## overview
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -36,8 +30,6 @@ return await memorize_table(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="4949"--><!-- The following content is generated at 2024-01-03T09:39:48.167446+08:00. Any edits will be overridden! -->
 
@@ -64,8 +56,6 @@ return await memorize_table(
 
 ## Pythagorean identities
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen.util import NULL_LOCATION
@@ -79,8 +69,6 @@ return await memorize_map(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="958f"--><!-- The following content is generated at 2023-12-29T17:59:38.650037+08:00. Any edits will be overridden! -->
 
@@ -109,8 +97,6 @@ return await memorize_map(
 
 ## angle sum and difference
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen.util import NULL_LOCATION
@@ -123,8 +109,6 @@ return await memorize_map(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f823"--><!-- The following content is generated at 2023-11-21T01:16:38.253997+08:00. Any edits will be overridden! -->
 
@@ -150,8 +134,6 @@ return await memorize_map(
 
 ## multiple-angle
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen.util import NULL_LOCATION
@@ -164,8 +146,6 @@ return await memorize_map(
   ),
 )
 ```
-
-%%
 
 ### double-angle
 
@@ -204,8 +184,6 @@ return await memorize_map(
 
 ## product-to-sum and sum-to-product
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather
@@ -232,8 +210,6 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
-
-%%
 
 ### product-to-sum
 

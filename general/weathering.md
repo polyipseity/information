@@ -6,14 +6,10 @@ tags:
 
 # weathering
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Weathering__ is {{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}}. It is distinct from {{[erosion](erosion.md) which involves movement}}.
 
@@ -37,8 +33,6 @@ _Dissolution_ is {{weathering in which a mineral [dissolves](dissolution.md) wit
 
 Carbonate dissolution is {{dissolution in which atmospheric [carbon dioxide](carbon%20dioxide.md) enhances weathering}}. It affects rocks {{containing [calcium carbonate](calcium%20carbonate.md) like [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}}. It causes {{formation of [sinkholes](sinkhole.md) and damages to limestone structures}}. It works in two steps:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -49,8 +43,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b99283"--><!-- The following content is generated at 2023-04-03T18:30:21.834731+08:00. Any edits will be overridden! -->
 

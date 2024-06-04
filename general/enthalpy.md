@@ -9,14 +9,10 @@ tags:
 
 # enthalpy
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 In [chemistry](chemistry.md), the enthalpy of reaction is {{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}}.
 
@@ -37,8 +33,6 @@ For [endothermic processes](endothermic%20process.md), {{heat is absorbed while 
 
 #### standard conditions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -51,8 +45,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 Enthalpy changes are measured under the following {{standard conditions}}:
 
@@ -77,8 +69,6 @@ Enthalpy changes are measured under the following {{standard conditions}}:
 
 #### chemical properties
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_map(
@@ -90,8 +80,6 @@ return await memorize_map(
   },
 )
 ```
-
-%%
 
 For [chemical properties](chemical%20property.md):
 

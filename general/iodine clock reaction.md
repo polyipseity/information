@@ -9,18 +9,12 @@ tags:
 
 # iodine clock reaction
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## hydrogen peroxide variation
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -34,8 +28,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d951"--><!-- The following content is generated at 2023-05-04T22:37:04.007351+08:00. Any edits will be overridden! -->
 

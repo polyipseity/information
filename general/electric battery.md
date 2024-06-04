@@ -13,14 +13,10 @@ tags:
 
 # electric battery
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 A __battery__ is {{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}}. When discharging, the positive terminal is {{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}}.
 
@@ -29,8 +25,6 @@ A __battery__ is {{a source of [electricity](electricity.md) composed of one or 
 ## types
 
 ### comparison
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -106,8 +100,6 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
-
-%%
 
 #### primary batteries
 

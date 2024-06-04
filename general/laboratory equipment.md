@@ -12,18 +12,12 @@ tags:
 
 # laboratory equipment
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## examples
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -94,8 +88,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="fadd2e"--><!-- The following content is generated at 2023-11-26T19:12:56.438295+08:00. Any edits will be overridden! -->
 

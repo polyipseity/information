@@ -10,14 +10,10 @@ tags:
 
 # calcium oxide
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Calcium oxide__, also known as {{quicklime}}, is {{a solid [ionic compound](ionic%20compound.md) with the [chemical formula](chemical%20formula.md) __[Ca](calcium.md)[O](oxygen.md)__}}. It looks like a {{white solid}}.
 
@@ -27,8 +23,6 @@ Calcium oxide {{reacts with [water](water.md) to give [calcium hydroxide](calciu
 > {{CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(s)}}
 
 ## uses
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -41,8 +35,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="11aa"--><!-- The following content is generated at 2023-04-05T22:23:33.112015+08:00. Any edits will be overridden! -->
 

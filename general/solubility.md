@@ -13,22 +13,16 @@ tags:
 
 # solubility
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Solubility__ is {{the ability of a [solute](solution%20(chemistry).md) to form a [solution](solution%20(chemistry).md) with a [solvent](solvent.md)}}.
 
 It is measured as {{the [concentration](concentration.md) of the solute in a saturated solution, in which no more solute can be [dissolved](solvation.md)}}.
 
 ## solubility of ionic compounds in water
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -105,8 +99,6 @@ return (
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="901862"--><!-- The following content is generated at 2024-02-01T20:43:13.427525+08:00. Any edits will be overridden! -->
 
@@ -210,8 +202,6 @@ return (
 
 ### examples
 
-%%
-
 ```Python
 # pytextgen generate data
 insoluble = '<span style="color: red;">insoluble</span>'
@@ -283,8 +273,6 @@ return await memorize_map(
   },
 )
 ```
-
-%%
 
 <!--pytextgen generate section="059f"--><!-- The following content is generated at 2023-11-04T02:46:37.245967+08:00. Any edits will be overridden! -->
 

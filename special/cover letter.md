@@ -8,18 +8,12 @@ tags:
 
 # cover letter
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## use
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -33,8 +27,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="49cc"--><!-- The following content is generated at 2023-10-08T17:13:33.408871+08:00. Any edits will be overridden! -->
 
@@ -66,8 +58,6 @@ my CV and cover letter for your consideration.; (signature)
 
 ## content
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -81,8 +71,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="a723"--><!-- The following content is generated at 2023-10-09T23:03:32.658566+08:00. Any edits will be overridden! -->
 

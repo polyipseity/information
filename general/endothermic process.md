@@ -10,18 +10,12 @@ tags:
 
 # endothermic process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## examples
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -33,8 +27,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d925"--><!-- The following content is generated at 2023-03-31T14:05:22.404181+08:00. Any edits will be overridden! -->
 

@@ -11,20 +11,14 @@ tags:
 
 # degrees of freedom (physics and chemistry)
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## thermodynamic degrees of freedom for gases
 
 ### table
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -48,8 +42,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="dee2"--><!-- The following content is generated at 2023-12-17T18:44:27.093167+08:00. Any edits will be overridden! -->
 

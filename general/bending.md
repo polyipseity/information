@@ -9,18 +9,12 @@ tags:
 
 # bending
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## quasi-static bending of beams
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -43,8 +37,6 @@ return (
   ),
 )
 ```
-
-%%
 
 There are {{<!--pytextgen generate section="298b"--><!-- The following content is generated at 2024-05-14T01:07:43.943498+08:00. Any edits will be overridden! -->3<!--/pytextgen--> forms of internal stresses}} caused by lateral loads ([force](force.md) on the side):
 

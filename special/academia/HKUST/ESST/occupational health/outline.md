@@ -9,14 +9,10 @@ tags:
 
 # HKUST ESST occupational health outline
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
-
-%%
 
 The content is in teaching order.
 
@@ -80,8 +76,6 @@ The content is in teaching order.
 
 ### Legionnaires' Disease syndromes
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -97,8 +91,6 @@ pneumonia
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="29ba"--><!-- The following content is generated at 2024-02-09T10:20:46.039466+08:00. Any edits will be overridden! -->
 
@@ -127,8 +119,6 @@ pneumonia
 
 ### hazard control hierarchy
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -142,8 +132,6 @@ personal protective equipment
   pretext="most preferable", posttext="least preferable",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-02-12T16:43:42.695370+08:00. Any edits will be overridden! -->
 
@@ -166,8 +154,6 @@ personal protective equipment
 
 ### heat stroke syndromes
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -182,8 +168,6 @@ reduced sweating
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b12d"--><!-- The following content is generated at 2024-02-09T10:20:45.970034+08:00. Any edits will be overridden! -->
 
@@ -210,8 +194,6 @@ reduced sweating
 
 ### occupational hazard factors
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -226,8 +208,6 @@ user
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="1a67"--><!-- The following content is generated at 2024-02-09T10:20:45.730827+08:00. Any edits will be overridden! -->
 
@@ -254,8 +234,6 @@ user
 
 ### occupational hazard types
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -270,8 +248,6 @@ socio-psychological
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f9a2"--><!-- The following content is generated at 2024-03-07T00:02:22.082267+08:00. Any edits will be overridden! -->
 
@@ -298,8 +274,6 @@ socio-psychological
 
 ### occupational health areas
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -314,8 +288,6 @@ workplace
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d929"--><!-- The following content is generated at 2024-02-09T10:20:45.574880+08:00. Any edits will be overridden! -->
 
@@ -342,8 +314,6 @@ workplace
 
 ### occupational medicine section
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -357,8 +327,6 @@ treatment
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b36a"--><!-- The following content is generated at 2024-02-09T10:20:45.620870+08:00. Any edits will be overridden! -->
 
@@ -383,8 +351,6 @@ treatment
 
 ### physical hazards
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -399,8 +365,6 @@ vibration
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="e372"--><!-- The following content is generated at 2024-02-09T10:20:45.768548+08:00. Any edits will be overridden! -->
 
@@ -427,8 +391,6 @@ vibration
 
 ### workplaces with temperature hazards
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -442,8 +404,6 @@ steelworks
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f272"--><!-- The following content is generated at 2024-02-09T10:20:45.886183+08:00. Any edits will be overridden! -->
 

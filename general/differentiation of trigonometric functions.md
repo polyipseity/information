@@ -10,18 +10,12 @@ tags:
 
 # differentiation of trigonometric functions
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## list of derivatives
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -43,8 +37,6 @@ return await memorize_map(
   },
 )
 ```
-
-%%
 
 <!--pytextgen generate section="49fa"--><!-- The following content is generated at 2023-12-13T23:33:14.053109+08:00. Any edits will be overridden! -->
 

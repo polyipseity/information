@@ -9,14 +9,10 @@ tags:
 
 # alcohol
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -52,8 +48,6 @@ To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{h
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -65,8 +59,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ff11"--><!-- The following content is generated at 2024-03-07T10:21:21.022126+08:00. Any edits will be overridden! -->
 

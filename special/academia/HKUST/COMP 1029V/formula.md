@@ -10,14 +10,10 @@ tags:
 
 # Excel formula
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
-
-%%
 
 A formula always {{starts with an equals sign `=`}}.
 
@@ -32,8 +28,6 @@ When copy and pasting formulas, the cell references in the formula {{are offsett
 ### arithmetic operators
 
 Below are common arithmetic and string operators. Operators have higher precedence than or same precedence as operators below it in the list:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -59,8 +53,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-31T12:32:22.690955+08:00. Any edits will be overridden! -->
 
@@ -99,8 +91,6 @@ return _chain.from_iterable(await _gather(
 
 Below are common comparison operators, all of which returns {{booleans}}. Operators have higher precedence than or same precedence as operators below it in the list:
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -126,8 +116,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-31T12:32:22.894695+08:00. Any edits will be overridden! -->
 
@@ -173,8 +161,6 @@ Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic funct
 
 Below are common logic functions, all of which {{accept booleans and return booleans}}:
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -197,8 +183,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-02-05T12:43:06.967772+08:00. Any edits will be overridden! -->
 
@@ -231,8 +215,6 @@ return _chain.from_iterable(await _gather(
 
 Below are common string functions and operators:
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -259,8 +241,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="0ff2"--><!-- The following content is generated at 2024-01-31T12:40:30.974267+08:00. Any edits will be overridden! -->
 
@@ -305,8 +285,6 @@ return _chain.from_iterable(await _gather(
 
 Below are common functions:
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -334,8 +312,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="93ba"--><!-- The following content is generated at 2024-01-31T12:52:39.241194+08:00. Any edits will be overridden! -->
 

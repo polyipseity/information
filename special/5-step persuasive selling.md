@@ -10,18 +10,12 @@ tags:
 
 The 5-step persuasive inverts {{the traditional narrative style that builds to a climax, i.e. the pyramid style that starts with the climax}}.
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## format
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -37,8 +31,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 The 5-step persuasive selling consists of the following steps:
 

@@ -9,20 +9,14 @@ tags:
 
 # Carnot cycle
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 The Carnot cycle provides {{the upper limit of [efficiency](thermal%20efficiency.md) of any [heat engine](heat%20engine.md) in converting [heat](heat.md) into [work](work%20(physics).md) by [Carnot's theorem](Carnot's%20theorem%20(thermodynamics).md)}}.
 
 ## stages
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_seq(
   posttext="ends at top left in the [PV diagram](pressure–volume%20diagram.md)",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="bb11"--><!-- The following content is generated at 2023-12-14T18:09:39.353040+08:00. Any edits will be overridden! -->
 

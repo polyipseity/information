@@ -13,14 +13,10 @@ tags:
 
 # haloalkane
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -48,8 +44,6 @@ In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -60,8 +54,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="321a"--><!-- The following content is generated at 2024-03-07T10:32:08.808445+08:00. Any edits will be overridden! -->
 

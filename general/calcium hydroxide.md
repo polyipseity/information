@@ -29,8 +29,6 @@ Calcium hydroxide can be used to test for {{[carbon dioxide](carbon%20dioxide.md
 
 ### preparation steps
 
-%%
-
 ```Python
 # pytextgen generate data
 from pytextgen import gen, read, util
@@ -55,8 +53,6 @@ return (
   ),
 )
 ```
-
-%%
 
 Calcium hydroxide can be prepared in the following way:
 <!--pytextgen generate section="12ff7a"--><!-- The following content is generated at 2023-04-09T17:42:57.250097+08:00. Any edits will be overridden! -->

@@ -9,14 +9,10 @@ tags:
 
 # aldehyde
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -48,8 +44,6 @@ Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqu
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -60,8 +54,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ff02"--><!-- The following content is generated at 2024-03-07T10:21:21.024126+08:00. Any edits will be overridden! -->
 

@@ -9,18 +9,12 @@ tags:
 
 # thermodynamic process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## overview
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -37,8 +31,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 ### processes classified by variable
 

@@ -6,18 +6,12 @@ tags:
 
 # sea salt
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## production
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -31,8 +25,6 @@ Alternatively, [crystalize](crystallization.md) the filtered seawater to obtain 
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 Sea salt can be extracted from {{[seawater](seawater.md)}}:
 

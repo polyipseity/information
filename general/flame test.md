@@ -6,20 +6,14 @@ tags:
 
 # flame test
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## procedure
 
 The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -33,8 +27,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="abcdef"--><!-- The following content is generated at 2023-04-01T22:38:27.910087+08:00. Any edits will be overridden! -->
 
@@ -57,8 +49,6 @@ return await memorize_seq(
 
 ## common elements
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_map(
@@ -75,8 +65,6 @@ return await memorize_map(
   },
 )
 ```
-
-%%
 
 <!--pytextgen generate section="4905"--><!-- The following content is generated at 2023-04-23T13:13:45.557923+08:00. Any edits will be overridden! -->
 

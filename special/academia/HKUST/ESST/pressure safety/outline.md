@@ -9,14 +9,10 @@ tags:
 
 # HKUST ESST pressure safety outline
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
-
-%%
 
 The content is in teaching order.
 
@@ -65,8 +61,6 @@ The content is in teaching order.
 
 ### air or steam receiver requirements
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -80,8 +74,6 @@ safety: withstand the maximum permissible working pressure
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="29a2"--><!-- The following content is generated at 2024-02-20T14:07:01.573880+08:00. Any edits will be overridden! -->
 
@@ -106,8 +98,6 @@ safety: withstand the maximum permissible working pressure
 
 ### auxiliary equipments
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -121,8 +111,6 @@ pipe
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5920"--><!-- The following content is generated at 2024-02-09T19:56:53.046293+08:00. Any edits will be overridden! -->
 
@@ -147,8 +135,6 @@ pipe
 
 ### boiler examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -162,8 +148,6 @@ thermal oil heater
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d929"--><!-- The following content is generated at 2024-02-09T19:56:52.638827+08:00. Any edits will be overridden! -->
 
@@ -188,8 +172,6 @@ thermal oil heater
 
 ### boiler requirements
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -203,8 +185,6 @@ safety: fusible pressure release plug or efficient low-water alarm
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="96ff"--><!-- The following content is generated at 2024-02-20T14:07:01.649622+08:00. Any edits will be overridden! -->
 
@@ -229,8 +209,6 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 ### compressed gas cylinder safety measures
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -246,8 +224,6 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9012"--><!-- The following content is generated at 2024-02-20T13:14:06.434725+08:00. Any edits will be overridden! -->
 
@@ -276,8 +252,6 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 
 ### design safety
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -292,8 +266,6 @@ protective devices that release contents do so safely
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="038b"--><!-- The following content is generated at 2024-02-19T20:56:23.901793+08:00. Any edits will be overridden! -->
 
@@ -320,8 +292,6 @@ protective devices that release contents do so safely
 
 ### hazard causes
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -337,8 +307,6 @@ overheating
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-02-09T19:56:52.734301+08:00. Any edits will be overridden! -->
 
@@ -367,8 +335,6 @@ overheating
 
 ### hazard factors
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -383,8 +349,6 @@ worker knowledge and skills
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="aa98"--><!-- The following content is generated at 2024-02-19T20:13:03.105296+08:00. Any edits will be overridden! -->
 
@@ -411,8 +375,6 @@ worker knowledge and skills
 
 ### hazard types
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -426,8 +388,6 @@ suffocation
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="837b"--><!-- The following content is generated at 2024-02-19T20:13:03.130902+08:00. Any edits will be overridden! -->
 
@@ -452,8 +412,6 @@ suffocation
 
 ### hydraulic system safety measures
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -468,8 +426,6 @@ operator: segregate and indicate work area
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="cd12"--><!-- The following content is generated at 2024-02-20T13:55:14.042175+08:00. Any edits will be overridden! -->
 
@@ -496,8 +452,6 @@ operator: segregate and indicate work area
 
 ### pressure vessel examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -510,8 +464,6 @@ spraying paint container
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="948b"--><!-- The following content is generated at 2024-02-09T19:56:52.672841+08:00. Any edits will be overridden! -->
 
@@ -534,8 +486,6 @@ spraying paint container
 
 ### pressurized fuel container requirements
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -549,8 +499,6 @@ safety: pressure release valve
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="10ab"--><!-- The following content is generated at 2024-02-19T20:13:03.173682+08:00. Any edits will be overridden! -->
 
@@ -575,8 +523,6 @@ safety: pressure release valve
 
 ### relevant legislation in Hong Kong
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -589,8 +535,6 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="78bb"--><!-- The following content is generated at 2024-02-09T19:56:53.153815+08:00. Any edits will be overridden! -->
 
@@ -613,8 +557,6 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
 ### safety measures
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -630,8 +572,6 @@ thermal protection
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="eeef"--><!-- The following content is generated at 2024-02-09T19:56:53.064301+08:00. Any edits will be overridden! -->
 

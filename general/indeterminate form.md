@@ -11,22 +11,16 @@ tags:
 
 # indeterminate form
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## evaluating indeterminate forms
 
 ### equivalent infinitesimal
 
 #### x→0
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -49,8 +43,6 @@ return await memorize_map(
   delimiter=R" $\sim$ ",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="499f"--><!-- The following content is generated at 2023-11-21T12:44:22.983521+08:00. Any edits will be overridden! -->
 
