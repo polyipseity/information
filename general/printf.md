@@ -10,18 +10,12 @@ tags:
 
 # `printf`
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## placeholder
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -50,8 +44,6 @@ return (
   ),
 )
 ```
-
-%%
 
 ### syntax
 
@@ -86,8 +78,6 @@ return (
 
 ### parameter
 
-%%
-
 ```Python
 # pytextgen generate data
 from functools import partial
@@ -101,8 +91,6 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f192"--><!-- The following content is generated at 2023-08-24T22:47:11.290253+08:00. Any edits will be overridden! -->
 
@@ -121,8 +109,6 @@ return await memorize_table(
 
 ### flags
 
-%%
-
 ```Python
 # pytextgen generate data
 from functools import partial
@@ -140,8 +126,6 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
-
-%%
 
 A combination of zero or more of the following in any order:
 
@@ -178,8 +162,6 @@ An integer or {{`*` specifying the precision, the meaning of which depends on th
 
 ### length
 
-%%
-
 ```Python
 # pytextgen generate data
 from functools import partial
@@ -200,8 +182,6 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
-
-%%
 
 A combination of zero or more of the following in any order:
 
@@ -236,8 +216,6 @@ A combination of zero or more of the following in any order:
 
 ### type
 
-%%
-
 ```Python
 # pytextgen generate data
 from functools import partial
@@ -263,8 +241,6 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="40db"--><!-- The following content is generated at 2023-09-16T08:38:52.742774+08:00. Any edits will be overridden! -->
 

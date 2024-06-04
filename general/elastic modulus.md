@@ -8,14 +8,10 @@ tags:
 
 # elastic modulus
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 An __elastic modulus__ (also known as {{__modulus of elasticity__}}) is {{a measure of an object's resistance to being deformed elastically when a [stress](stress%20(mechanics).md) is applied}}. <!--SR:!2024-07-09,39,290!2024-06-07,17,290-->
 
@@ -24,8 +20,6 @@ An __elastic modulus__ (also known as {{__modulus of elasticity__}}) is {{a meas
 An elastic modulus has the form: {{$$\delta \overset {\text{def} } = \frac {\text{stress} } {\text{strain} }$$}}. <!--SR:!2024-06-06,16,290-->
 
 ## types of elastic modulus
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -49,8 +43,6 @@ return (
   ),
 )
 ```
-
-%%
 
 There are many types of elastic moduli that can be defined. The {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} primary ones are: <!--SR:!2024-07-27,53,310-->
 

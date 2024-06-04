@@ -11,14 +11,10 @@ tags:
 
 # `fopen`
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../tools/utility.py.md
 ```
-
-%%
 
 - _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2026-07-22,804,330-->
 
@@ -42,8 +38,6 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 
 ### modes
 
-%%
-
 ```Python
 # pytextgen generate data
 from functools import partial
@@ -62,8 +56,6 @@ return await memorize_table(
   partial(map, cloze),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2023-08-25T12:57:43.306675+08:00. Any edits will be overridden! -->
 

@@ -9,22 +9,16 @@ tags:
 
 # cracking (chemistry)
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2026-08-25,843,290!2024-06-16,305,290-->
 
 It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. <!--SR:!2027-03-22,1131,350-->
 
 ## methodologies
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="923d"--><!-- The following content is generated at 2023-03-25T13:57:02.622846+08:00. Any edits will be overridden! -->
 

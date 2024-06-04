@@ -9,18 +9,12 @@ tags:
 
 # periodic trends
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## summary
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b928"--><!-- The following content is generated at 2023-04-19T12:13:02.213812+08:00. Any edits will be overridden! -->
 

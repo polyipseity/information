@@ -15,14 +15,10 @@ tags:
 
 # customer development
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## importance
 

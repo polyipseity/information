@@ -8,18 +8,12 @@ tags:
 
 # IBM prioritization grid
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## instructions
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -36,8 +30,6 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="2e33"--><!-- The following content is generated at 2024-03-12T13:50:52.826539+08:00. Any edits will be overridden! -->
 

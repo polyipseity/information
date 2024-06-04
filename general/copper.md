@@ -9,18 +9,12 @@ tags:
 
 # copper
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## uses
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -35,8 +29,6 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="23d1"--><!-- The following content is generated at 2023-03-21T15:20:35.009079+08:00. Any edits will be overridden! -->
 

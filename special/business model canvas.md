@@ -8,14 +8,10 @@ tags:
 
 # business model canvas
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## business model generation
 
@@ -28,8 +24,6 @@ The business model canvas consists of 9 [building blocks](#building%20blocks). I
 ### building blocks
 
 There are 9 building blocks to a business model canvas:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -48,8 +42,6 @@ C$: [cost structure](#cost%20structure)
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-22T20:40:48.884980+08:00. Any edits will be overridden! -->
 
@@ -90,8 +82,6 @@ Customers should be separated into different segments if {{they have different n
 
 There are different types of customer segments. Examples include:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -105,8 +95,6 @@ segmented: splitting slightly different customer segments
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="cc13"--><!-- The following content is generated at 2024-03-22T20:40:48.976504+08:00. Any edits will be overridden! -->
 
@@ -137,8 +125,6 @@ The value propositions building block shows {{products and services that create 
 
 Values can come from many things:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -158,8 +144,6 @@ risk reduction
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9ab1"--><!-- The following content is generated at 2024-03-18T19:56:56.527256+08:00. Any edits will be overridden! -->
 
@@ -206,8 +190,6 @@ The customer relationships building block shows {{the types of relationships wit
 
 There are different types of customer relationships. Examples include:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -221,8 +203,6 @@ personal assistance
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="0362"--><!-- The following content is generated at 2024-03-18T19:56:56.624998+08:00. Any edits will be overridden! -->
 
@@ -253,8 +233,6 @@ The revenue streams building block show {{how the organization generates money f
 
 There are different types of revenue streams. Examples include:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -270,8 +248,6 @@ subscription fee
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="bb35"--><!-- The following content is generated at 2024-03-18T19:56:56.654999+08:00. Any edits will be overridden! -->
 

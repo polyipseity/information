@@ -9,14 +9,10 @@ tags:
 
 # Haber process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 The __Haber process__ or __Haber–Bosch process__ is {{the main industrial process for [ammonia production](ammonia%20production.md)}}. <!--SR:!2026-08-30,913,330-->
 
@@ -36,8 +32,6 @@ The primary reaction is:
 
 [Hydrogen](hydrogen.md) is obtained {{from the [electrolysis](electrolysis.md) of [brine](brine.md) and as a [by-product](by-product.md) of [cracking](cracking%20(chemistry).md) of [petroleum](petroleum.md), but the major source is [methane](methane.md)}}. <!--SR:!2025-07-10,487,250-->
 
-%%
-
 ```Python
 # pytextgen generate data
 context = '[natural gas](natural%20gas.md) to [hydrogen](hydrogen.md)'
@@ -50,8 +44,6 @@ return await memorize_seq(
   pretext=context, posttext=context,
 )
 ```
-
-%%
 
 Starting with a [natural gas](natural%20gas.md) feedstock:
 
@@ -85,8 +77,6 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#4d94e1" title="#4D94E1">&#xFEFF;</span></span> heat exchanger
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#fffc51" title="#FFFC51">&#xFEFF;</span></span> ammonia condenser <!--SR:!2024-09-28,181,230-->
 
-%%
-
 ```Python
 # pytextgen generate data
 context = 'large scale implementation of the Haber process'
@@ -104,8 +94,6 @@ return await memorize_seq(
   pretext=context, posttext=context,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ff91"--><!-- The following content is generated at 2023-05-02T10:02:01.861492+08:00. Any edits will be overridden! -->
 

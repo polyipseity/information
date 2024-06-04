@@ -9,22 +9,16 @@ tags:
 
 # Python basics
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
-
-%%
 
 ## operators
 
 ### arithmetic operators
 
 Below are common arithmetic operators. Operators have higher precedence than or same precedence as operators below it in the list:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -52,8 +46,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-30T13:35:46.570804+08:00. Any edits will be overridden! -->
 
@@ -98,8 +90,6 @@ return _chain.from_iterable(await _gather(
 
 Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-03-02,303,330-->
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -126,8 +116,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.650809+08:00. Any edits will be overridden! -->
 
@@ -176,8 +164,6 @@ Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic 
 
 Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-07,263,330-->
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -200,8 +186,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.667324+08:00. Any edits will be overridden! -->
 

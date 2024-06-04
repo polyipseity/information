@@ -9,14 +9,10 @@ tags:
 
 # structural system
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## high-rise buildings
 
@@ -38,8 +34,6 @@ For high-rise buildings, the structural system can be broadly categorized into {
 
 #### interior structures
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -54,8 +48,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 The following interior structures are possible.
 
@@ -94,8 +86,6 @@ For example, outriggers are used in {{the [International Commerce Center](Intern
 
 The following exterior structures are possible.
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -111,8 +101,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ffe2"--><!-- The following content is generated at 2024-05-14T21:11:05.355104+08:00. Any edits will be overridden! -->
 

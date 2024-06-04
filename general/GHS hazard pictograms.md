@@ -6,18 +6,12 @@ tags:
 
 # GHS hazard pictograms
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## pictograms
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -41,8 +35,6 @@ return await memorize_table(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b9a823"--><!-- The following content is generated at 2023-03-20T16:20:30.844432+08:00. Any edits will be overridden! -->
 

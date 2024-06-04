@@ -9,14 +9,10 @@ tags:
 
 # Java basics
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
-
-%%
 
 ## basics
 
@@ -47,8 +43,6 @@ Variable names are {{case sensitive, cannot be keywords, cannot have some charac
 
 Below are common data types:
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -74,8 +68,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-02-01T11:50:25.897878+08:00. Any edits will be overridden! -->
 
@@ -157,8 +149,6 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 Below are common arithmetic operators. Operators have higher precedence than or same precedence as operators below it in the list:
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -185,8 +175,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-01-30T13:35:46.604804+08:00. Any edits will be overridden! -->
 
@@ -231,8 +219,6 @@ return _chain.from_iterable(await _gather(
 
 Below are common comparison operators, all of which returns {{a `boolean` value}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-30,283,330-->
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -258,8 +244,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.668328+08:00. Any edits will be overridden! -->
 
@@ -305,8 +289,6 @@ Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic 
 
 Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-09-23,165,310-->
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -329,8 +311,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-02-20T14:26:41.018968+08:00. Any edits will be overridden! -->
 

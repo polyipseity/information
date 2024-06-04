@@ -11,14 +11,10 @@ tags:
 
 # International Phonetic Alphabet
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../tools/utility.py.md
 ```
-
-%%
 
 > ![official IPA chart](../../archives/Wikimedia%20Commons/IPA%20chart%202020.svg)
 >
@@ -31,8 +27,6 @@ tags:
 > - phonetic symbol pattern ::: notice that the symbol of each phonetic is somewhat related to its sound, and similarly-sounding phonetics usually have similar symbols <!--SR:!2024-12-08,268,354!2000-01-01,1,250-->
 
 ## help
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -209,8 +203,6 @@ return chain.from_iterable(await gather(
   ),
 ))
 ```
-
-%%
 
 ### glossary
 

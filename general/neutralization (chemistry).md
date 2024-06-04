@@ -11,14 +11,10 @@ tags:
 
 # neutralization (chemistry)
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical reaction](chemical%20reaction.md) in which an [acid](acid.md) reacts with a [base](base%20(chemistry).md)}}. A definition based on the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md) is: <!--SR:!2025-10-08,669,298-->
 
@@ -27,8 +23,6 @@ __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical react
 > - {{AH + B → A + BH}} <!--SR:!2024-06-14,343,338-->
 
 ## applications
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -44,8 +38,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d927"--><!-- The following content is generated at 2023-06-13T11:10:50.266473+08:00. Any edits will be overridden! -->
 

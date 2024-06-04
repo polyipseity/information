@@ -10,18 +10,12 @@ tags:
 
 # calcium chloride
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## applications
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -35,8 +29,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="3455"--><!-- The following content is generated at 2023-04-19T12:02:23.528317+08:00. Any edits will be overridden! -->
 

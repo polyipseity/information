@@ -12,14 +12,10 @@ tags:
 
 # petroleum
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## composition
 
@@ -30,8 +26,6 @@ Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of 
 Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2025-12-23,583,254!2025-11-02,602,274!2024-10-06,347,294-->
 
 ### fuels
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -65,8 +59,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 [Fuels](fuel.md) by ascending [boiling point](boiling%20point.md) include:
 

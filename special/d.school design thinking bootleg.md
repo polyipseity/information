@@ -8,20 +8,14 @@ tags:
 
 # d.school design thinking bootleg
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## process modules
 
 There are 5 "modes" to design thinking. Note that the "mode" order is {{only recommended and is not must be followed. In fact, the process is nonlinear, can start anywhere, and can be parallel}}. <!--SR:!2024-06-06,45,290-->
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -36,8 +30,6 @@ return await memorize_seq(
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="2e33"--><!-- The following content is generated at 2024-03-12T21:10:03.104230+08:00. Any edits will be overridden! -->
 
@@ -82,8 +74,6 @@ Test is {{testing your idea, gather feedback, and reiterate your design}}. It is
 
 ## methods and tools
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -105,8 +95,6 @@ return await memorize_seq(
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-03-22T20:40:48.750307+08:00. Any edits will be overridden! -->
 

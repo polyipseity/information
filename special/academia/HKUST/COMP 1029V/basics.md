@@ -9,14 +9,10 @@ tags:
 
 # VBA basics
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
-
-%%
 
 ## variable
 
@@ -27,8 +23,6 @@ To assign variables, use {{the equals operator `=`, like `Variable = Value`}}. F
 ## types
 
 Below are common data types:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -54,8 +48,6 @@ return _chain.from_iterable(await _gather(
   )
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-03-07T00:04:17.315438+08:00. Any edits will be overridden! -->
 

@@ -8,18 +8,12 @@ tags:
 
 # properties of metals, metalloids, and nonmetals
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## comparison
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 Compare with [nonmetal § properties](nonmetal.md#properties).
 

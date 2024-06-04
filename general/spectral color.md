@@ -9,18 +9,12 @@ tags:
 
 # spectral color
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## data
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -56,8 +50,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}}. These values are {{approximations as the spectrum is continuous without clear boundaries}}. <!--SR:!2024-08-26,130,190!2025-06-12,587,330-->
 

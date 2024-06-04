@@ -9,18 +9,12 @@ tags:
 
 # petroleum industry
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## impact
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="4432"--><!-- The following content is generated at 2023-06-25T22:22:49.863529+08:00. Any edits will be overridden! -->
 

@@ -9,20 +9,14 @@ tags:
 
 # plastic
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 __Plastics__ are {{[synthetic](synthetic%20polymers.md) or semi-synthetic [materials](material.md) consisting of [polymers](polymer.md)}}. <!--SR:!2025-03-02,513,301-->
 
 ## types
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -57,8 +51,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="9403"--><!-- The following content is generated at 2023-12-04T08:10:23.099047+08:00. Any edits will be overridden! -->
 

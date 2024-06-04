@@ -7,21 +7,16 @@ tags:
 
 # examination keys
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
 HKDSE liberal studies
 
 ## logic
 
 ### fallacies
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -41,8 +36,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ff91"--><!-- The following content is generated at 2024-03-07T10:32:08.827449+08:00. Any edits will be overridden! -->
 
@@ -79,8 +72,6 @@ return await memorize_seq(
 
 ### question types
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_table(
@@ -97,8 +88,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="385a"--><!-- The following content is generated at 2023-04-25T22:14:31.359212+08:00. Any edits will be overridden! -->
 
@@ -126,8 +115,6 @@ return await memorize_table(
 <!--/pytextgen-->
 
 ### question words
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -158,8 +145,6 @@ return await memorize_table(
 )
 ```
 
-%%
-
 <!--pytextgen generate section="102d"--><!-- The following content is generated at 2023-12-04T08:21:59.272356+08:00. Any edits will be overridden! -->
 
 > | question word(s) | description |
@@ -179,8 +164,6 @@ return await memorize_table(
 
 ### keywords
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_table(
@@ -199,8 +182,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 Identify {{keywords in the question. When appropriate, define or explain them}}. <!--SR:!2024-06-07,64,210-->
 
@@ -237,8 +218,6 @@ Identify {{keywords in the question. When appropriate, define or explain them}}.
 
 ### statistics
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -252,8 +231,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="dd1a"--><!-- The following content is generated at 2023-04-25T22:46:19.896422+08:00. Any edits will be overridden! -->
 
@@ -290,8 +267,6 @@ In general, essays consists of {{introduction, body, and conclusion}}. They shou
 
 ### to what extent
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -305,8 +280,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="2ea8"--><!-- The following content is generated at 2023-04-26T19:16:21.070897+08:00. Any edits will be overridden! -->
 
@@ -331,8 +304,6 @@ return await memorize_seq(
 
 #### common mistakes for to what extent
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -344,8 +315,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="48fa"--><!-- The following content is generated at 2023-04-26T23:59:07.510478+08:00. Any edits will be overridden! -->
 
@@ -366,8 +335,6 @@ return await memorize_seq(
 
 ### comparison
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -380,8 +347,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="4491"--><!-- The following content is generated at 2023-04-26T19:16:21.093837+08:00. Any edits will be overridden! -->
 
@@ -404,8 +369,6 @@ return await memorize_seq(
 
 #### common mistakes for comparison
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -416,8 +379,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="3dda"--><!-- The following content is generated at 2023-04-26T19:16:21.155751+08:00. Any edits will be overridden! -->
 
@@ -436,8 +397,6 @@ return await memorize_seq(
 
 ### solution
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -451,8 +410,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5fab"--><!-- The following content is generated at 2023-11-04T02:32:58.267357+08:00. Any edits will be overridden! -->
 
@@ -477,8 +434,6 @@ return await memorize_seq(
 
 #### common mistakes for solution
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -491,8 +446,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="4401"--><!-- The following content is generated at 2023-04-26T22:09:23.283310+08:00. Any edits will be overridden! -->
 

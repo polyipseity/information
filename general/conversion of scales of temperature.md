@@ -9,8 +9,6 @@ tags:
 
 # conversion of scales of temperature
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
@@ -50,13 +48,9 @@ return {
 }
 ```
 
-%%
-
 ## Celsius scale
 
 - see: [Celsius](Celsius.md)
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -68,8 +62,6 @@ return await conversion_table(
   (t_rankine, "x °C ≘ (x + 273.15) × 9/5 °R", "x °R ≘ (x − 491.67) × 5/9 °C",),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5ffa"--><!-- The following content is generated at 2024-03-07T00:32:24.791478+08:00. Any edits will be overridden! -->
 
@@ -101,8 +93,6 @@ return await conversion_table(
 
 - see: [Kelvin](Kelvin.md)
 
-%%
-
 ```Python
 # pytextgen generate data
 return await conversion_table(
@@ -113,8 +103,6 @@ return await conversion_table(
   (t_rankine, "x K ≘ x × 9/5 °R", "x °R ≘ x × 5/9 K",),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="955a"--><!-- The following content is generated at 2024-03-07T00:32:24.829185+08:00. Any edits will be overridden! -->
 
@@ -146,8 +134,6 @@ return await conversion_table(
 
 - see: [Fahrenheit](Fahrenheit.md)
 
-%%
-
 ```Python
 # pytextgen generate data
 return await conversion_table(
@@ -158,8 +144,6 @@ return await conversion_table(
   (t_rankine, "x °F ≘ (x + 459.67) °R", "x °R ≘ (x − 459.67) °F",),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="46ab"--><!-- The following content is generated at 2024-03-07T00:32:24.850721+08:00. Any edits will be overridden! -->
 
@@ -191,8 +175,6 @@ return await conversion_table(
 
 - see: [Rankine scale](Rankine%20scale.md)
 
-%%
-
 ```Python
 # pytextgen generate data
 return await conversion_table(
@@ -203,8 +185,6 @@ return await conversion_table(
   (t_fahrenheit, "x °R ≘ (x − 459.67) °F", "x °F ≘ (x + 459.67) °R",),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b0a9"--><!-- The following content is generated at 2024-03-07T00:32:24.869938+08:00. Any edits will be overridden! -->
 

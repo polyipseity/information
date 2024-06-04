@@ -6,18 +6,12 @@ tags:
 
 # atmosphere of Earth
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## composition
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -55,8 +49,6 @@ return (
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="a34f1d"--><!-- The following content is generated at 2023-03-14T22:09:57.723829+08:00. Any edits will be overridden! -->
 

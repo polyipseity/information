@@ -19,7 +19,7 @@ The joints are likely {{pinned support}}, so they can {{resist translation but n
 
 To {{simplify analysis}}, {{2}} assumptions are often made: {{external forces and reaction are considered to act at joints only and the weights of truss members are negligible compared to the applied loads}}. <!--SR:!2024-07-13,40,290!2024-07-25,53,310!2024-07-15,44,290-->
 
-Under these assumptions, each truss member {{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}}. By this, each truss member is {{either in tension (positive values) or compression (negative values)}}. <!--SR:!2024-07-24,52,310!2024-07-08,36,290-->
+Under these assumptions, each truss member {{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}}. By this, each truss member is {{either a [zero force member](zero%20force%20member.md) (0), in tension (positive values), or in compression (negative values)}}. <!--SR:!2024-07-24,52,310!2024-07-08,36,290-->
 
 To analyze a truss, {{design the truss and determine the support sizes}}. Then calculate {{the support reactions and member forces under a specific loading condition}} to {{confirm that the supports and members are strong enough}}. In detail, solve for {{the support reactions by considering the entire truss as a free body}}. Next, {{solve for [forces in all members](#forces%20in%20members)}}. <!--SR:!2024-07-31,57,310!2024-07-30,56,310!2024-08-01,58,310!2024-06-06,17,290!2024-06-06,17,290-->
 

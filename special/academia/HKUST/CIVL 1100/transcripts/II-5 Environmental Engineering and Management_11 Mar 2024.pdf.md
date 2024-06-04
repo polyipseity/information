@@ -9,14 +9,10 @@ tags:
 
 # `II-5 Environmental Engineering and Management_11 Mar 2024.pdf`
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
-
-%%
 
 ## page 1
 
@@ -37,8 +33,6 @@ Environmental Problems and Laws
 
 ### environmental problems
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -53,8 +47,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b823"--><!-- The following content is generated at 2024-05-16T15:50:23.916263+08:00. Any edits will be overridden! -->
 
@@ -79,8 +71,6 @@ return await memorize_seq(
 
 ### environmental laws
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -95,8 +85,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="a123"--><!-- The following content is generated at 2024-05-25T19:07:44.634739+08:00. Any edits will be overridden! -->
 
@@ -137,8 +125,6 @@ Former Kai Tak Airport
 
 ### remediation technologies used
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -153,8 +139,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b02d"--><!--/pytextgen-->
 
@@ -359,8 +343,6 @@ Climate Change — Greenhouse Gas Emission (Global Air Pollution)
 
 ### greenhouse gases
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -376,8 +358,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="927b"--><!-- The following content is generated at 2024-05-16T15:50:24.170867+08:00. Any edits will be overridden! -->
 

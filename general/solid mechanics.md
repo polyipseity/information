@@ -9,20 +9,14 @@ tags:
 
 # solid mechanics
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## examples
 
 ### types of forces
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -37,8 +31,6 @@ return await memorize_seq(
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 Solid mechanics are concerned with several types of forces specific to solids. For example:
 

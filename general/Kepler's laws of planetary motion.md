@@ -15,18 +15,12 @@ tags:
 
 # Kepler's laws of planetary motion
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that: <!--SR:!2026-01-05,712,310-->
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -39,8 +33,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="23aa"--><!-- The following content is generated at 2023-05-08T00:49:20.940684+08:00. Any edits will be overridden! -->
 

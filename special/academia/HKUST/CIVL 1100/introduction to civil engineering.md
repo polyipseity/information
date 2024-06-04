@@ -8,14 +8,10 @@ tags:
 
 # introduction to civil engineering
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../tools/utility.py.md
 ```
-
-%%
 
 The content is in teaching order.
 
@@ -112,8 +108,6 @@ The content is in teaching order.
 
 ### civil engineer prospect examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -131,8 +125,6 @@ quantity surveyor
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5920"--><!-- The following content is generated at 2024-02-16T21:59:46.862014+08:00. Any edits will be overridden! -->
 
@@ -165,8 +157,6 @@ quantity surveyor
 
 ### civil engineering examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -184,8 +174,6 @@ water and sewage treatment system
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="22ba"--><!-- The following content is generated at 2024-05-01T23:30:34.967240+08:00. Any edits will be overridden! -->
 
@@ -218,8 +206,6 @@ water and sewage treatment system
 
 ### civil engineering new challenges
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -233,8 +219,6 @@ water security
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="958b"--><!-- The following content is generated at 2024-02-16T21:59:47.124114+08:00. Any edits will be overridden! -->
 
@@ -259,8 +243,6 @@ water security
 
 ### civil engineering non-technical issues
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -278,8 +260,6 @@ workmanship
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="847b"--><!-- The following content is generated at 2024-05-01T19:22:34.824717+08:00. Any edits will be overridden! -->
 
@@ -312,8 +292,6 @@ workmanship
 
 ### civil engineering slogans in Hong Kong
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -326,8 +304,6 @@ We Engineer Hong Kong’s Development
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="09a1"--><!-- The following content is generated at 2024-02-16T21:59:47.189715+08:00. Any edits will be overridden! -->
 
@@ -350,8 +326,6 @@ We Engineer Hong Kong’s Development
 
 ### civil engineering subdisciplines
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -367,8 +341,6 @@ transportation
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ba02"--><!-- The following content is generated at 2024-05-01T19:22:34.941115+08:00. Any edits will be overridden! -->
 
@@ -397,8 +369,6 @@ transportation
 
 ### complex shape examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -414,8 +384,6 @@ Water Cube
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="019e"--><!-- The following content is generated at 2024-03-10T00:25:48.755033+08:00. Any edits will be overridden! -->
 
@@ -444,8 +412,6 @@ Water Cube
 
 ### construction engineer jobs
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -466,8 +432,6 @@ testing materials
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9338"--><!-- The following content is generated at 2024-05-01T19:22:35.020877+08:00. Any edits will be overridden! -->
 
@@ -506,8 +470,6 @@ testing materials
 
 ### construction engineer skills
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -522,8 +484,6 @@ teaming up with others
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="a461"--><!-- The following content is generated at 2024-02-16T21:59:47.354759+08:00. Any edits will be overridden! -->
 
@@ -550,8 +510,6 @@ teaming up with others
 
 ### construction material examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -566,8 +524,6 @@ wood
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ee10"--><!-- The following content is generated at 2024-02-17T22:07:04.929721+08:00. Any edits will be overridden! -->
 
@@ -594,8 +550,6 @@ wood
 
 ### engineer types
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -616,8 +570,6 @@ nuclear
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-04-23T18:07:51.673368+08:00. Any edits will be overridden! -->
 
@@ -656,8 +608,6 @@ nuclear
 
 ### environmental engineering areas
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -671,8 +621,6 @@ water
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="3ab2"--><!-- The following content is generated at 2024-02-16T21:59:47.560674+08:00. Any edits will be overridden! -->
 
@@ -697,8 +645,6 @@ water
 
 ### environmental impact components
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -712,8 +658,6 @@ socioeconomic
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="3577"--><!-- The following content is generated at 2024-02-16T21:59:47.614103+08:00. Any edits will be overridden! -->
 
@@ -738,8 +682,6 @@ socioeconomic
 
 ### geo-technical engineering risks
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -752,8 +694,6 @@ soil liquefaction
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="aad2"--><!-- The following content is generated at 2024-05-01T19:22:35.123019+08:00. Any edits will be overridden! -->
 
@@ -776,8 +716,6 @@ soil liquefaction
 
 ### geo-technical engineering structure examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -790,8 +728,6 @@ tunnel
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="300f"--><!-- The following content is generated at 2024-05-01T19:22:35.187590+08:00. Any edits will be overridden! -->
 
@@ -814,8 +750,6 @@ tunnel
 
 ### hydraulic engineering structure examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -828,8 +762,6 @@ levee
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="901a"--><!-- The following content is generated at 2024-05-01T19:22:35.237499+08:00. Any edits will be overridden! -->
 
@@ -852,8 +784,6 @@ levee
 
 ### hydraulic engineering system examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -866,8 +796,6 @@ water distribution network
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="942a"--><!-- The following content is generated at 2024-05-01T19:22:35.304566+08:00. Any edits will be overridden! -->
 
@@ -890,8 +818,6 @@ water distribution network
 
 ### long-span structure examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -905,8 +831,6 @@ Tsing Ma Bridge
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="928b"--><!-- The following content is generated at 2024-02-16T21:59:47.794069+08:00. Any edits will be overridden! -->
 
@@ -931,8 +855,6 @@ Tsing Ma Bridge
 
 ### materials engineer job examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -944,8 +866,6 @@ developing strengthening techniques for damaged structures or structural members
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="3681"--><!-- The following content is generated at 2024-05-01T19:22:35.329190+08:00. Any edits will be overridden! -->
 
@@ -966,8 +886,6 @@ developing strengthening techniques for damaged structures or structural members
 
 ### materials engineering material examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -981,8 +899,6 @@ polypropylene fiber reinforced concrete
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="628b"--><!-- The following content is generated at 2024-02-16T21:59:47.848067+08:00. Any edits will be overridden! -->
 
@@ -1007,8 +923,6 @@ polypropylene fiber reinforced concrete
 
 ### natural disaster examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1022,8 +936,6 @@ wave
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="27b6"--><!-- The following content is generated at 2024-05-01T19:22:35.418983+08:00. Any edits will be overridden! -->
 
@@ -1048,8 +960,6 @@ wave
 
 ### reinforced concrete structure examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1061,8 +971,6 @@ Two Prudential Plaza
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="385a"--><!-- The following content is generated at 2024-02-16T21:59:47.914537+08:00. Any edits will be overridden! -->
 
@@ -1083,8 +991,6 @@ Two Prudential Plaza
 
 ### steel or concrete–steel composite structure examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1097,8 +1003,6 @@ Taipei 101
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="238b"--><!-- The following content is generated at 2024-02-16T21:59:47.935623+08:00. Any edits will be overridden! -->
 
@@ -1121,8 +1025,6 @@ Taipei 101
 
 ### structural code of practice examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1136,8 +1038,6 @@ Hong Kong Code
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="0102"--><!-- The following content is generated at 2024-04-23T18:07:51.831231+08:00. Any edits will be overridden! -->
 
@@ -1162,8 +1062,6 @@ Hong Kong Code
 
 ### structural engineering examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1180,8 +1078,6 @@ water tower
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="67bb"--><!-- The following content is generated at 2024-05-01T19:22:35.482222+08:00. Any edits will be overridden! -->
 
@@ -1212,8 +1108,6 @@ water tower
 
 ### structural failure example
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1231,8 +1125,6 @@ and the Structural Engineering Institute (SEI).
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="5a34"--><!-- The following content is generated at 2024-05-16T15:46:41.765927+08:00. Any edits will be overridden! -->
 
@@ -1265,8 +1157,6 @@ and the Structural Engineering Institute (SEI).
 
 ### transportation engineering structure examples
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1282,8 +1172,6 @@ water transport
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="38b7"--><!-- The following content is generated at 2024-05-01T23:30:35.197399+08:00. Any edits will be overridden! -->
 
@@ -1312,8 +1200,6 @@ water transport
 
 ### water engineering
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -1327,8 +1213,6 @@ water treatment
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="448b"--><!-- The following content is generated at 2024-02-16T21:59:48.116755+08:00. Any edits will be overridden! -->
 
