@@ -31,6 +31,8 @@ Some important metaknowledge in this 21st century are the 4Cs: {{collaboration t
 
 _Previously, case analysis was part 1._
 
+Prepares for TEMG 4970: T&M startup business plan.
+
 The product for the project of this part needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}.
 
 ### product innovation elements
@@ -92,3 +94,66 @@ value proposition canvas
 ## part 2: case analysis
 
 _Previously, product innovation was part 2._
+
+Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
+
+The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}.
+
+### case analysis elements
+
+%%
+
+```Python
+# pytextgen generate data
+return await memorize_seq(
+  __env__.cwf_sects("eee2", "a9bf"),
+  """
+4P: McCarthy's 4 Ps
+5-step persuasive selling
+5C: Chernev 5C framework
+5F: Porter's 5 forces framework
+7S: McKinsey 7S framework
+PESTLE: Aguilar's PESTLE framework
+PPTG: people, process, technology, governance framework
+blue ocean strategy
+interview note-taking in an 1-page memo
+profitability framework
+root cause analysis, 5 whys
+""".strip().splitlines(),
+)
+```
+
+%%
+
+<!--pytextgen generate section="eee2"--><!-- The following content is generated at 2024-06-04T22:06:05.636924+08:00. Any edits will be overridden! -->
+
+> 1. 4P: McCarthy's 4 Ps
+> 2. 5-step persuasive selling
+> 3. 5C: Chernev 5C framework
+> 4. 5F: Porter's 5 forces framework
+> 5. 7S: McKinsey 7S framework
+> 6. PESTLE: Aguilar's PESTLE framework
+> 7. PPTG: people, process, technology, governance framework
+> 8. blue ocean strategy
+> 9. interview note-taking in an 1-page memo
+> 10. profitability framework
+> 11. root cause analysis, 5 whys
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←4P: McCarthy's 4 Ps
+- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling
+- 5-step persuasive selling→:::←5C: Chernev 5C framework
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework
+- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework
+- 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework
+- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework
+- PPTG: people, process, technology, governance framework→:::←blue ocean strategy
+- blue ocean strategy→:::←interview note-taking in an 1-page memo
+- interview note-taking in an 1-page memo→:::←profitability framework
+- profitability framework→:::←root cause analysis, 5 whys
+- root cause analysis, 5 whys→:::←_(end)_
+
+<!--/pytextgen-->
