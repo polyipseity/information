@@ -8,7 +8,7 @@ tags:
 
 # 5-step persuasive selling
 
-The 5-step persuasive inverts {{the traditional narrative style that builds to a climax, i.e. the pyramid style that starts with the climax}}.
+The 5-step persuasive inverts {{the traditional narrative style that builds to a climax, i.e. using the pyramid style that starts with the climax}}.
 
 ```Python
 # pytextgen generate module
@@ -23,7 +23,7 @@ items = R"""
 background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts
 the big idea: use ONLY 1 (long) sentence to describe your solution
 how it works: _key solution details_ to preempt concerns, objections, and questions
-key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _politely threatening_ the target with risks
+key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_
 next step: an _easy_ task that the target cannot say no and moves the solution forward
 """.strip().splitlines()
 return await memorize_seq(

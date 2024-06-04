@@ -158,7 +158,7 @@ The content is in teaching order.
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich
-- nature of complex problems ::: modeleed by time-varying multi-variable optimization problems with constraints
+- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md).
@@ -176,8 +176,8 @@ The content is in teaching order.
 - Chernev's 5C framework ::: market & business analysis
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和
-  - Chernev's 5C framework competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md).
-  - Chernev's 5C framework context ::: The context aspect can use Anguilar's PESTLE framework.
+  - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md).
+  - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework.
 - McCarthy's 4P framework ::: market-related analysis
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/)
@@ -190,7 +190,7 @@ The content is in teaching order.
 
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge
 - [assignment W9](assignment%20W9/) review
-  - general case analysis takeaways ::: Identify key questions and choose the question that is most precise and involves least work.
+  - general case analysis takeaways ::: Identify key questions. Choose the question that is most precise and involves least work.
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions.
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur.
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_.
@@ -201,21 +201,21 @@ The content is in teaching order.
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes.
-  - cause mapping arrow direction ::: cause to effect
-  - cause mapping evidences ::: below the cause, pink background
-  - cause mapping operators ::: AND, OR
-  - cause mapping solutions ::: above the cause, green background
-  - cause mapping symptom ::: red background
+  - cause mapping § arrow direction ::: cause to effect
+  - cause mapping § evidences ::: below the cause, pink background
+  - cause mapping § operators ::: AND, OR
+  - cause mapping § solutions ::: above the cause, green background
+  - cause mapping § symptom ::: red background
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree
-- cause mapping extension ::: facts table, solutions table
+- cause mapping extensions ::: facts table, solutions table
   - facts table ::: what, when, where, impact
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget
-- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (no s), analysis
-  - interview note layout ::: split the paper into 2, the left side is thinner and holds the facts and key question and the right side is the analysis
-  - interview note analysis ::: use a MECE framework suitable for the case in the interview
-  - interview note facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify
+- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis
+  - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis
+  - interview note § analysis ::: use a MECE framework suitable for the case in the interview
+  - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify
 - [assignment W11](assignment%20W11/)
 
 ## week 12 lecture
