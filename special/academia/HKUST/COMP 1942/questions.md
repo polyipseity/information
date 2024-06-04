@@ -275,7 +275,7 @@ tags:
 <!-- markdownlint MD028 -->
 
 > Q2. Consider a table (part, supplier, customer, SP).
-
+>
 > Is it possible that we can derive the answer of query (customer) (i.e., the average selling sales for each possible combination of (customer)) from only the answer of query (part, customer) (i.e., the average selling sales for each possible combination of (part, customer))?
 >
 > 1. Yes
