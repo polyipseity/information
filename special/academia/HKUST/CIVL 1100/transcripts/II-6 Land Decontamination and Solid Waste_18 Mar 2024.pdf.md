@@ -9,14 +9,10 @@ tags:
 
 # `II-6 Land Decontamination and Solid Waste_18 Mar 2024.pdf`
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../../../../../tools/utility.py.md
 ```
-
-%%
 
 ## page 1
 

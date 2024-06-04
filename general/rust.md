@@ -9,14 +9,10 @@ tags:
 
 # rust
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Rust__ is {{a reddish-brown [iron oxide](iron%20oxide.md) consisting of [hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O) created by [corrosion](corrosion.md) of refined [iron](iron.md)}}. <!--SR:!2024-07-23,251,210-->
 
@@ -46,8 +42,6 @@ After forming iron hydroxides, {{[dehydration](dehydration%20reaction.md) occurs
 
 ## prevention
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -60,8 +54,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="39da"--><!-- The following content is generated at 2024-03-07T10:32:08.813444+08:00. Any edits will be overridden! -->
 

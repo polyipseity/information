@@ -8,18 +8,12 @@ tags:
 
 # organic synthesis
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## considerations
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -36,8 +30,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d912"--><!-- The following content is generated at 2023-04-07T09:29:00.994807+08:00. Any edits will be overridden! -->
 

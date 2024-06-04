@@ -9,18 +9,12 @@ tags:
 
 # hydrocarbon
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## types
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -35,8 +29,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d828"--><!-- The following content is generated at 2023-03-25T13:08:53.658927+08:00. Any edits will be overridden! -->
 

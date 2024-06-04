@@ -8,20 +8,14 @@ tags:
 
 # free-radical halogenation
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 __Free-radical halogenation__ is {{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}}. <!--SR:!2026-05-08,815,299-->
 
 ## general mechanism
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -34,8 +28,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d927"--><!-- The following content is generated at 2023-03-25T13:43:14.281115+08:00. Any edits will be overridden! -->
 

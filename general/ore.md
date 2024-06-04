@@ -6,14 +6,10 @@ tags:
 
 # ore
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2024-07-08,257,230-->
 
@@ -22,8 +18,6 @@ An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) contain
 See [extractive metallurgy](extractive%20metallurgy.md).
 
 ## important ores
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -40,8 +34,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="283749"--><!-- The following content is generated at 2023-03-22T00:41:25.734579+08:00. Any edits will be overridden! -->
 

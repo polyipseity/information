@@ -8,14 +8,10 @@ tags:
 
 # competitor analysis
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## outline
 
@@ -43,8 +39,6 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 
 ### considerations
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -60,8 +54,6 @@ why: Why are people using competitors' products?
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="b823"--><!-- The following content is generated at 2024-05-03T13:31:34.731042+08:00. Any edits will be overridden! -->
 
@@ -94,8 +86,6 @@ why: Why are people using competitors' products?
 
 ### benefits
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -109,8 +99,6 @@ pricing: Find suitable prices catering to different market segment and economies
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="48ba"--><!-- The following content is generated at 2024-05-14T00:47:53.324260+08:00. Any edits will be overridden! -->
 
@@ -145,8 +133,6 @@ Competitor analysis can be done {{anytime as needed}}. For example, it can expos
 
 Common parameters used for comparison, {{most important first}}: <!--SR:!2024-07-14,45,294-->
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -161,10 +147,9 @@ convenience
 ease of use
 number of features
 """.strip().splitlines(),
+  pretext="most important", posttext="least important",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9378"--><!-- The following content is generated at 2024-05-03T13:49:10.593096+08:00. Any edits will be overridden! -->
 
@@ -179,9 +164,9 @@ number of features
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-05-03T13:49:10.564767+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-06-04T14:02:33.625025+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
+- _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
 - price→:::←benefit <!--SR:!2024-06-30,37,294!2024-06-22,25,281-->
 - benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-07-30,59,321-->
@@ -189,7 +174,7 @@ number of features
 - service→:::←convenience <!--SR:!2024-06-15,14,241!2024-06-13,19,301-->
 - convenience→:::←ease of use <!--SR:!2024-06-05,12,241!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-04,38,274-->
-- number of features→:::←_(end)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
+- number of features→:::←_(least important)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
 
 <!--/pytextgen-->
 

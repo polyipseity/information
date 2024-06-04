@@ -9,22 +9,16 @@ tags:
 
 # buyer utility map
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--SR:!2024-07-02,52,310-->
 
 ## 6 stages of buyer experience cycle
 
 The {{6 stages of buyer experience}} cycle are the {{map column headers}}. <!--SR:!2024-08-15,79,279!2024-07-01,48,290-->
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -40,8 +34,6 @@ disposal
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="29ba"--><!-- The following content is generated at 2024-04-22T01:24:34.755556+08:00. Any edits will be overridden! -->
 
@@ -70,8 +62,6 @@ disposal
 
 The {{6 utility levers}} are the {{map row headers}}. <!--SR:!2024-09-14,104,299!2024-06-12,34,279-->
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -86,8 +76,6 @@ simplicity: remove complexity or hassle
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9571"--><!-- The following content is generated at 2024-04-22T01:24:34.815211+08:00. Any edits will be overridden! -->
 

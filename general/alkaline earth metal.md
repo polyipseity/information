@@ -13,14 +13,10 @@ tags:
 
 # alkaline earth metal
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}}. The alkaline earth metals are {{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2025-01-24,296,190!2024-07-28,277,230-->
 
@@ -29,8 +25,6 @@ The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20el
 Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2025-02-17,514,310-->
 
 ### reaction with water
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -47,8 +41,6 @@ return await memorize_map(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="0439"--><!-- The following content is generated at 2023-03-20T22:20:19.330004+08:00. Any edits will be overridden! -->
 

@@ -11,20 +11,14 @@ tags:
 
 # transition metal
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}}. <!--SR:!2025-04-05,381,230-->
 
 ## characteristic properties
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -39,8 +33,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="223d"--><!-- The following content is generated at 2023-04-09T14:14:06.744759+08:00. Any edits will be overridden! -->
 

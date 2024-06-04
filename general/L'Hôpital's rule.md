@@ -26,14 +26,10 @@ tags:
 
 # L'Hôpital's rule
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}}. <!--SR:!2024-09-27,228,320!2025-11-04,531,320!2025-01-22,326,340-->
 
@@ -45,8 +41,6 @@ __{{L'Hôpital's}} rule__, also known as __{{Bernoulli's}} rule__, is {{a [theor
 > 4. {{If $c$ is a finite endpoint of $I$, the limits can be also be [one-sided limits](one-sided%20limit.md) $x\to{}c^+$ or $x\to{}c^-$.}} <!--SR:!2024-11-09,223,280!2024-06-07,119,260!2024-11-05,245,320!2024-08-08,190,320-->
 
 ## other indeterminate forms
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -82,8 +76,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 The following table lists out transformation from other [indeterminate forms](indeterminate%20form.md) for applying L'Hôpital's rule.
 

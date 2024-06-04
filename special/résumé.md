@@ -9,14 +9,10 @@ tags:
 
 # résumé
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## format
 
@@ -30,8 +26,6 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 - order ::: reverse chronological <!--SR:!2026-04-19,685,330!2024-06-12,72,353-->
 
 ## content
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -47,8 +41,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="50ff"--><!-- The following content is generated at 2024-01-26T12:42:06.721939+08:00. Any edits will be overridden! -->
 

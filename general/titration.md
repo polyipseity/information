@@ -11,14 +11,10 @@ tags:
 
 # titration
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2024-10-02,376,270-->
 
@@ -34,8 +30,6 @@ If a [strong acid](acid%20strength.md) and a [strong base](base%20strength.md) a
 
 ## measurement
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_table(
@@ -48,8 +42,6 @@ return await memorize_table(
   ),
 )
 ```
-
-%%
 
 Methods to determine the end point include:
 

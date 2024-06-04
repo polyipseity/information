@@ -9,14 +9,10 @@ tags:
 
 # ketone
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -44,8 +40,6 @@ Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqu
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -55,8 +49,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="204e"--><!-- The following content is generated at 2024-03-07T10:32:08.807445+08:00. Any edits will be overridden! -->
 

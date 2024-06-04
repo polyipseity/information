@@ -8,14 +8,10 @@ tags:
 
 # air separation
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 __Air separation__ {{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}}. It is carried out in {{air separation plants}}. <!--SR:!2026-05-12,806,290!2027-03-23,1132,350-->
 
@@ -26,8 +22,6 @@ The most common method is [cryogenic distillation](#cryogenic%20distillation).
 - see: [fractional distillation](fractional%20distillation.md).
 
 Pure gases are separated by {{cooling air until it [liquefies](liquefaction.md). Then [distill](distillation.md) the components at their boiling points.}} <!--SR:!2024-09-12,233,190-->
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -43,8 +37,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="28370e"--><!-- The following content is generated at 2023-03-24T01:07:46.430558+08:00. Any edits will be overridden! -->
 

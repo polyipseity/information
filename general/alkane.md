@@ -10,14 +10,10 @@ tags:
 
 # alkane
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2025-05-12,584,310-->
 
@@ -43,8 +39,6 @@ All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](co
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -56,8 +50,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="dd12"--><!-- The following content is generated at 2024-03-07T10:21:21.092666+08:00. Any edits will be overridden! -->
 

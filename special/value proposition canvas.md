@@ -8,22 +8,16 @@ tags:
 
 # value proposition canvas
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## value proposition design
 
 ### target audience
 
 Value proposition design is for:
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -37,8 +31,6 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-03-22T20:40:48.774310+08:00. Any edits will be overridden! -->
 
@@ -87,8 +79,6 @@ There are several [common mistakes](#customer%20profile%20common%20mistakes) to 
 
 #### customer profile common mistakes
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -104,8 +94,6 @@ vagueness: vague jobs, pains, and gains
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ee21"--><!-- The following content is generated at 2024-05-03T17:30:19.568483+08:00. Any edits will be overridden! -->
 
@@ -144,8 +132,6 @@ There are several [common mistakes](#value%20map%20common%20mistakes) to be awar
 
 #### value map common mistakes
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -158,8 +144,6 @@ mix: mixing products and services with pain relievers and gain creators
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ec13"--><!-- The following content is generated at 2024-03-22T20:40:48.940505+08:00. Any edits will be overridden! -->
 
@@ -198,8 +182,6 @@ Prototyping is {{making quick study models to explore alternatives and reshape y
 
 Interviewing your customers has several steps:
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -214,8 +196,6 @@ find customer patterns
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="123f"--><!-- The following content is generated at 2024-03-13T22:31:33.758027+08:00. Any edits will be overridden! -->
 
@@ -246,8 +226,6 @@ Test is {{reducing risk and uncertainty of new ideas and then improving your val
 
 ### test steps
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -263,8 +241,6 @@ conclusion: make progress
 """.strip().splitlines(),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="9ba1"--><!-- The following content is generated at 2024-03-22T20:40:48.970504+08:00. Any edits will be overridden! -->
 

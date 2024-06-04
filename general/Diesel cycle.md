@@ -11,18 +11,12 @@ tags:
 
 # Diesel cycle
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## idealized Diesel cycle
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -38,8 +32,6 @@ return await memorize_seq(
   posttext="ends at bottom right in the [PV diagram](pressure–volume%20diagram.md)",
 )
 ```
-
-%%
 
 <!--pytextgen generate section="11aa"--><!-- The following content is generated at 2023-12-19T20:25:01.123775+08:00. Any edits will be overridden! -->
 

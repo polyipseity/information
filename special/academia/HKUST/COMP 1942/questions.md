@@ -212,7 +212,7 @@ tags:
 > | 3       | No     | No     | No  |
 > | 4       | No     | Yes    | No  |
 >
-> Do you think that thee above records are dependent on previous records?
+> Do you think that the above records are dependent on previous records?
 >
 > 1. Yes
 > 2. No
@@ -275,7 +275,7 @@ tags:
 <!-- markdownlint MD028 -->
 
 > Q2. Consider a table (part, supplier, customer, SP).
-
+>
 > Is it possible that we can derive the answer of query (customer) (i.e., the average selling sales for each possible combination of (customer)) from only the answer of query (part, customer) (i.e., the average selling sales for each possible combination of (part, customer))?
 >
 > 1. Yes

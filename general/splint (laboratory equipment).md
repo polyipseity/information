@@ -10,22 +10,16 @@ tags:
 
 # splint (laboratory equipment)
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## uses
 
 ### glowing splint test
 
 It is a test for an [oxidizing](oxidization.md) gas.
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -39,8 +33,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="28a383"--><!-- The following content is generated at 2023-03-14T22:56:07.078677+08:00. Any edits will be overridden! -->
 

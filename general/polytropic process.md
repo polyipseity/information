@@ -12,14 +12,10 @@ tags:
 
 # polytropic process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 > __polytropic process__
 >
@@ -36,7 +32,8 @@ tags:
 >
 > - where
 >   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
->   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio, so the __polytropic index__ $n = (1 - \gamma)K + \gamma$}}
+>   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio}}
+>   - {{thus the __polytropic index__ is $n = (1 - \gamma)K + \gamma$}}
 > - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2024-06-21,91,230!2024-08-16,172,310!2025-04-18,324,290!2025-07-04,414,310-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows:
@@ -65,8 +62,6 @@ pV^{(1 - \gamma)K + \gamma} &= C
 
 ### variation of polytropic index _n_
 
-%%
-
 ```Python
 # pytextgen generate data
 from asyncio import gather as _gather
@@ -93,8 +88,6 @@ return _chain.from_iterable(await _gather(
   ),
 ))
 ```
-
-%%
 
 <!--pytextgen generate section="029f"--><!-- The following content is generated at 2023-12-15T10:02:45.991107+08:00. Any edits will be overridden! -->
 

@@ -10,18 +10,12 @@ tags:
 
 # sodium carbonate
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## applications
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -34,8 +28,6 @@ return await memorize_table(
   lambda datum: map(cloze, datum),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="d234"--><!-- The following content is generated at 2023-04-07T10:18:03.937580+08:00. Any edits will be overridden! -->
 

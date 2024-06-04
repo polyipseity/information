@@ -9,18 +9,12 @@ tags:
 
 # gold
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## uses
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -33,8 +27,6 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f901"--><!-- The following content is generated at 2023-03-21T16:20:25.333865+08:00. Any edits will be overridden! -->
 

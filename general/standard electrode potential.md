@@ -10,22 +10,16 @@ tags:
 
 # standard electrode potential
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## usage
 
 Increase in standard electrode potential {{increases [oxidizing power](oxidation.md) and decreases [reducing power](reduction.md)}}, and vice versa. <!--SR:!2025-07-26,652,318-->
 
 ## data
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -150,8 +144,6 @@ return (
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="230419"--><!-- The following content is generated at 2023-04-08T14:12:19.031933+08:00. Any edits will be overridden! -->
 

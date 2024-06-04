@@ -9,14 +9,10 @@ tags:
 
 # carboxylic acid
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
 
 ## physical properties
 
@@ -56,8 +52,6 @@ Carboxylic acids {{can be reduced to primary [alcohols](alcohol.md) directly usi
 
 ### reactions
 
-%%
-
 ```Python
 # pytextgen generate data
 return await memorize_seq(
@@ -70,8 +64,6 @@ return await memorize_seq(
   ),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="f23a"--><!-- The following content is generated at 2024-03-07T10:21:38.261307+08:00. Any edits will be overridden! -->
 

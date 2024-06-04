@@ -222,7 +222,7 @@ Example quiz questions for preparing exams.
 >
 > Which of the following statements regarding global warming/carbon emission is INCORRECT?
 >
-> 1. As of , China has the highest in total carbon emission, followed by US and then India
+> 1. As of 2005, China has the highest in total carbon emission, followed by US and then India
 > 2. Some infrared radiation is absorbed and re-emitted to the earth by greenhouse gases causing global warming
 > 3. Amount of greenhouse gases is expressed in terms of equivalent amount of carbon
 > 4. Global warming is due to the presence of greenhouse gases (GHG)
@@ -339,11 +339,11 @@ Example quiz questions for preparing exams.
 
 > __question 2__
 >
-> "A sandy slope of 35 degree could collapse after an intense, prolonged rainfall event, even the soil made of the slope has a friction angle of 40 degree." — Which of the following evaluation about the statement is CORRECT.
+> "A sandy slope of 35 degree could collapse after an intense, prolonged rainfall event, even the soil made of the slope has a friction angle of 40 degree." — Which of the following evaluation about the statement is CORRECT?
 >
 > 1. It is not possible because there is suction, and hence apparent cohesion, that makes the slope stable.
 > 2. It is possible when the groundwater has submerged the entire slope.
-> 3. It is possible when the true cohesion of the sand disappears under rainfall
+> 3. It is possible when the true cohesion of the sand disappears under rainfall.
 > 4. It is not possible the friction angle is higher than the slope angle.
 >
 > - solution: {{2}} <!--SR:!2024-07-01,28,272-->

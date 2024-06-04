@@ -8,20 +8,14 @@ tags:
 
 # Ostwald process
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 The __Ostwald process__ is {{a [chemical process](chemical%20process.md) for the production of [nitric acid](nitric%20acid.md)}}. It is closely related to {{the [Haber process](Haber%20process.md), which provides the required raw material [ammonia](ammonia.md)}}. <!--SR:!2026-10-03,951,330!2026-09-28,947,330-->
 
 ## process
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -36,8 +30,6 @@ return await memorize_seq(
   pretext=context, posttext=context,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="4861"--><!-- The following content is generated at 2023-05-04T07:53:40.317690+08:00. Any edits will be overridden! -->
 

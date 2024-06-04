@@ -8,18 +8,12 @@ tags:
 
 # structural load
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
 
-%%
-
 ## loads on architectural and civil engineering structures
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -44,8 +38,6 @@ return (
   ),
 )
 ```
-
-%%
 
 Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2024-07-21,50,310!2024-08-08,66,320-->
 
@@ -86,8 +78,6 @@ Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-06-05,17
 
 ### environmental loads
 
-%%
-
 ```Python
 # pytextgen generate data
 items = R"""
@@ -102,8 +92,6 @@ return await memorize_seq(
   items,
 )
 ```
-
-%%
 
 <!--pytextgen generate section="ed23"--><!-- The following content is generated at 2024-05-14T21:09:52.132885+08:00. Any edits will be overridden! -->
 

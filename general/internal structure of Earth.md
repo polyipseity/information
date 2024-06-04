@@ -6,16 +6,10 @@ tags:
 
 # internal structure of Earth
 
-%%
-
 ```Python
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
-
-%%
-
-%%
 
 ```Python
 # pytextgen generate data
@@ -32,8 +26,6 @@ return await memorize_table(
   lambda data: map(cloze, data),
 )
 ```
-
-%%
 
 <!--pytextgen generate section="2182ff"--><!-- The following content is generated at 2023-03-20T16:20:30.892404+08:00. Any edits will be overridden! -->
 
