@@ -9,12 +9,12 @@ tags:
 
 # root cause analysis
 
-RCA can be decomposed into {{4 steps}}:
+RCA can be decomposed into {{4 steps}}: <!--SR:!2024-06-08,4,270-->
 
-1. problem ::: Identify and describe the problem clearly.
-2. trace ::: Establish a timeline from a normal situation to the problem.
-3. label ::: Distinguish between the root causes and other casual factors.
-4. graph ::: Establish a [casual graph](casual%20graph.md) from the root causes to the problem.
+1. problem ::: Identify and describe the problem clearly. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+2. trace ::: Establish a timeline from a normal situation to the problem. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+3. label ::: Distinguish between the root causes and other casual factors. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+4. graph ::: Establish a [casual graph](casual%20graph.md) from the root causes to the problem. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
 
 ## references
 

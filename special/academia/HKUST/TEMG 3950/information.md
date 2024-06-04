@@ -89,7 +89,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}.
+The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-06-08,4,281!2024-06-08,4,281!2024-06-08,4,281!2024-06-08,4,281!2024-06-08,4,281-->
 
 ### case analysis elements
 
@@ -131,17 +131,17 @@ root cause analysis, 5 whys
 
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←4P: McCarthy's 4 Ps
-- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling
-- 5-step persuasive selling→:::←5C: Chernev 5C framework
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework
-- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework
-- 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework
-- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework
-- PPTG: people, process, technology, governance framework→:::←blue ocean strategy
-- blue ocean strategy→:::←interview note-taking in an 1-page memo
-- interview note-taking in an 1-page memo→:::←profitability framework
-- profitability framework→:::←root cause analysis, 5 whys
-- root cause analysis, 5 whys→:::←_(end)_
+- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-06-07,3,261!2024-06-08,4,281-->
+- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-07,3,261!2024-06-08,4,281-->
+- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-08,4,281!2024-06-07,3,261-->
+- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-07,3,261!2024-06-07,3,261-->
+- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-08,4,281!2024-06-07,3,261-->
+- root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
 
 <!--/pytextgen-->
