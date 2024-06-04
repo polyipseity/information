@@ -31,7 +31,7 @@ Some important metaknowledge in this 21st century are the 4Cs: {{collaboration t
 
 _Previously, case analysis was part 1._
 
-The product needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}.
+The product for the project of this part needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}.
 
 ### product innovation elements
 

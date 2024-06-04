@@ -212,7 +212,7 @@ tags:
 > | 3       | No     | No     | No  |
 > | 4       | No     | Yes    | No  |
 >
-> Do you think that thee above records are dependent on previous records?
+> Do you think that the above records are dependent on previous records?
 >
 > 1. Yes
 > 2. No

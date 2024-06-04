@@ -339,11 +339,11 @@ Example quiz questions for preparing exams.
 
 > __question 2__
 >
-> "A sandy slope of 35 degree could collapse after an intense, prolonged rainfall event, even the soil made of the slope has a friction angle of 40 degree." — Which of the following evaluation about the statement is CORRECT.
+> "A sandy slope of 35 degree could collapse after an intense, prolonged rainfall event, even the soil made of the slope has a friction angle of 40 degree." — Which of the following evaluation about the statement is CORRECT?
 >
 > 1. It is not possible because there is suction, and hence apparent cohesion, that makes the slope stable.
 > 2. It is possible when the groundwater has submerged the entire slope.
-> 3. It is possible when the true cohesion of the sand disappears under rainfall
+> 3. It is possible when the true cohesion of the sand disappears under rainfall.
 > 4. It is not possible the friction angle is higher than the slope angle.
 >
 > - solution: {{2}}
