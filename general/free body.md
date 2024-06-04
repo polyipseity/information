@@ -13,9 +13,9 @@ __Free body__ is {{usually associated with a [free body diagram](free%20body%20d
 
 ## external and internal forces
 
-For a free body, external forces are those {{the free body is subjected to and exerted by a _different_ body}}. Likewise, internal forces are those {{a part of the free body is subjected to and exerted by a different part of the _same_ body}}. The latter often arises from {{deformation of the body}}. <!--SR:!2024-07-04,36,290!2024-06-05,16,290!2024-06-04,15,290-->
+For a free body, external forces are those {{the free body is subjected to and exerted by a _different_ body}}. Likewise, internal forces are those {{a part of the free body is subjected to and exerted by a different part of the _same_ body}}. The latter often arises from {{deformation of the body}}. <!--SR:!2024-07-04,36,290!2024-06-05,16,290!2024-08-02,59,310-->
 
-Depending on the selection of the free body, the same force in a system can be {{either external or internal}}. <!--SR:!2024-06-04,15,290-->
+Depending on the selection of the free body, the same force in a system can be {{either external or internal}}. <!--SR:!2024-08-01,58,310-->
 
 ## example
 

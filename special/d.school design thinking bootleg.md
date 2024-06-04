@@ -133,14 +133,14 @@ return await memorize_seq(
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-06-18,50,270-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-06-12,48,270!2024-06-27,66,310-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-06-05,8,130!2024-07-04,38,210-->
-- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-06-04,13,150!2024-06-09,39,230-->
+- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-06-11,7,130!2024-06-09,39,230-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-06-08,36,230!2024-07-13,59,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-07-23,50,190!2024-06-11,11,150-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-06-29,26,150-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-06-13,35,230!2024-06-14,39,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-06-12,13,150!2024-07-15,54,230-->
 - (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-06-08,8,150!2024-06-07,27,210-->
-- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-06-04,22,170!2024-06-25,30,190-->
+- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-07-12,38,170!2024-06-25,30,190-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-10-10,141,310!2024-08-24,93,270-->
 
 <!--/pytextgen-->

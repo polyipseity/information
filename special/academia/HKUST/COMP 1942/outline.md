@@ -127,7 +127,7 @@ The content is in teaching order.
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
-  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-06-04,35,320!2024-07-17,69,340-->
+  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-11-07,156,340!2024-07-17,69,340-->
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)

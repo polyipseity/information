@@ -100,7 +100,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 See [Colosseum](../../../../general/Colosseum.md).
 
-- base widths ::: length: 189 m, width: 156 m <!--SR:!2024-06-04,11,336!2024-06-22,29,376-->
+- base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-06-22,29,376-->
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-06,10,316!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-06-07,14,356!2024-06-22,29,376-->
 - geographic location ::: Rome <!--SR:!2024-06-16,23,376!2024-06-18,25,376-->
@@ -114,7 +114,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2024-06-27,49,327!2024-12-15,205,330-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-08-26,89,317!2025-01-31,244,330-->
 - image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-09-09,105,380!2024-09-10,106,380-->
-- shape ::: exponential <!--SR:!2024-06-04,60,330!2025-01-16,252,335-->
+- shape ::: exponential <!--SR:!2025-03-03,272,350!2025-01-16,252,335-->
 
 ## Empire State Building
 
@@ -219,11 +219,11 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-06-08,15,356!2024-06-21,28,376-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-06-07,14,356!2024-06-08,15,356-->
-- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-04,8,316!2024-06-20,27,376-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-07,14,356!2024-06-16,23,376-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-06-09,16,356-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-06-04,8,316!2024-06-08,15,356-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-06-08,15,356-->
 - width ::: 32.05 m <!--SR:!2024-06-15,18,356!2024-06-15,18,356-->
 
 ## Mont Cenis Base Tunnel
@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-06-04,6,296!2024-06-24,31,376-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-06-23,19,296!2024-06-24,31,376-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-06-20,27,376-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-06-20,27,376-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-06-05,12,356!2024-06-16,23,376-->
@@ -311,7 +311,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
-- description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-06-04,29,320!2024-07-28,80,365-->
+- description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2024-07-28,80,365-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-06-21,20,261!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-08-27,94,380-->

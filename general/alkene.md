@@ -84,7 +84,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[combustion](#combustion) <!--SR:!2026-03-24,784,330!2026-09-12,906,330-->
 - [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2024-06-19,124,310!2024-07-28,199,290-->
-- [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2024-06-04,193,270-->
+- [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-06-28,247,250!2026-06-01,727,290-->
 - [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2026-04-12,848,330!2026-01-14,639,270-->
 - [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2026-08-18,883,331-->
 - [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2025-05-16,473,271!2024-12-22,449,311-->

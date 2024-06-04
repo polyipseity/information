@@ -362,7 +362,7 @@ return _chain.from_iterable(await _gather(
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-08-05,82,210!2024-07-04,108,270-->
 - `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-07-23,110,250!2024-08-29,133,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2024-09-03,134,270-->
-- `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-06-17,88,290!2024-06-04,41,230-->
+- `SUM(numbers...)`→:::←_(end)_ <!--SR:!2024-06-17,88,290!2024-10-14,132,250-->
 
 <!--/pytextgen-->
 

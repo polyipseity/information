@@ -254,7 +254,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-08-01,64,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-06-07,14,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-04,8,130-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-16,12,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-09-02,125,250-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
@@ -276,7 +276,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="671a"--><!-- The following content is generated at 2024-02-17T20:43:15.023699+08:00. Any edits will be overridden! -->
 
-- reacts with cold [water](water.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2024-06-04,22,165-->
+- reacts with cold [water](water.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2024-07-08,34,165-->
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)::[magnesium](magnesium.md) <!--SR:!2024-10-26,175,325-->
 - reacts with [steam](steam.md) and [acids](acid.md)::[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-06-10,28,247-->
 - reacts with concentrated [mineral acids](mineral%20acid.md)::[titanium](titanium.md) <!--SR:!2024-09-11,147,325-->

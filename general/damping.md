@@ -28,7 +28,7 @@ For better physical meaning, it can be rewritten as:
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2024-08-12,176,310!2025-01-04,291,330!2024-06-04,112,290-->
+>   - [oscillator](oscillation.md) properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the _damping ratio_, $k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the _viscous damping coefficient_}} <!--SR:!2024-08-12,176,310!2025-01-04,291,330!2025-04-24,324,290-->
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 

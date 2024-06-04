@@ -70,7 +70,7 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 
 ## value to the user
 
-- questions to ask ::: Does it alleviate user pain? Does it provide user gain? Does it differentiate the product? <!--SR:!2024-06-04,43,252!2024-11-30,188,312-->
+- questions to ask ::: Does it alleviate user pain? Does it provide user gain? Does it differentiate the product? <!--SR:!2024-09-19,107,252!2024-11-30,188,312-->
 
 ## assessment
 
