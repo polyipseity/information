@@ -402,7 +402,7 @@ Observed climate change in Hong Kong
 Concentration Units for Liquids
 
 - concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-07-07,33,270!2024-07-17,43,290-->
-  - mass of substance per unit volume of mixture units for liquids ::: mol/L, mg/L <!--SR:!2024-07-09,34,290!2024-06-07,15,290-->
+  - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-07-09,34,290!2024-06-07,15,290-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
 
 ## page 34

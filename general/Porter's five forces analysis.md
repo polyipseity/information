@@ -11,9 +11,9 @@ tags:
 
 # Porter's five forces analysis
 
-> {{![a graphical representation of Porter's five forces](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}}
+> {{![visual representation of the model](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}}
 >
-> {{A graphical representation of Porter's five forces.}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+> {{visual representation of the model}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
 
 ## five forces that shape competition
 
@@ -33,15 +33,15 @@ Buyers' power is high if {{there are many alternatives, and low if there are few
 
 ### bargaining power of suppliers
 
-Suppliers' power is high if {{there are fw suppliers, and low if there are many}}. <!--SR:!2024-06-08,4,270-->
+Suppliers' power is high if {{there are few suppliers, and low if there are many}}. <!--SR:!2024-06-08,4,270-->
 
 ### industry rivalry
 
-Industry rivalry is {{thee extent of competition among existing firms}}. <!--SR:!2024-06-08,4,270-->
+Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!2024-06-08,4,270-->
 
 ## usage
 
-Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, new sectors spanning multiple industries}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
 
 ## references
 
