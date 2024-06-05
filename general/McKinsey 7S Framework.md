@@ -13,24 +13,24 @@ tags:
 
 > {{![visual representation of the model](../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}}
 >
-> {{visual representation of the model}}
+> {{visual representation of the model}} <!--SR:!2024-06-08,3,250!2024-06-09,4,270-->
 
 ## objective
 
-The framework has {{7 interdependent elements}}, of which {{3 are hard elements and 4 are soft elements}}. Hard elements {{might be easier to define than soft elements but they are equally important}}. The most important element is {{shared values}}.
+The framework has {{7 interdependent elements}}, of which {{3 are hard elements and 4 are soft elements}}. Hard elements {{might be easier to define than soft elements but they are equally important}}. The most important element is {{shared values}}. <!--SR:!2024-06-09,4,270!2024-06-09,4,270!2024-06-09,4,270!2024-06-09,4,270-->
 
-The 3 hard elements are {{_strategy_, _structure_, and _systems_}}.
+The 3 hard elements are {{_strategy_, _structure_, and _systems_}}. <!--SR:!2024-06-09,4,270-->
 
-- _strategy_ ::: actions intended to enhance competitive advantage
-- _structure_ ::: coordination and integration mechanisms, and division of activities
-- _systems_ ::: formal and informal procedures for allocation, measurement, and reward
+- _strategy_ ::: actions intended to enhance competitive advantage <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
+- _structure_ ::: coordination and integration mechanisms, and division of activities <!--SR:!2024-06-08,3,250!2024-06-09,4,270-->
+- _systems_ ::: formal and informal procedures for allocation, measurement, and reward <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
 
-The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}.
+The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!--SR:!2024-06-09,4,270-->
 
-- _shared values_ ::: core beliefs and values forming the corporate culture
-- _skills_ ::: core competencies and distinctive capabilities, such as existing skills, skill development
-- _staff_ ::: hiring and firing standards or policies, and staff characteristics
-- _style_ ::: behavior patterns of key groups, such as management style
+- _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
+- _skills_ ::: core competencies and distinctive capabilities, such as existing skills, skill development <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
+- _staff_ ::: hiring and firing standards or policies, and staff characteristics <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
+- _style_ ::: behavior patterns of key groups, such as management style <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
 
 ## references
 
