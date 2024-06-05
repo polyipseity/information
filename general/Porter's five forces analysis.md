@@ -11,9 +11,9 @@ tags:
 
 # Porter's five forces analysis
 
-> {{![a graphical representation of Porter's five forces](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}}
+> {{![visual representation of the model](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}}
 >
-> {{A graphical representation of Porter's five forces.}}
+> {{visual representation of the model}}
 
 ## five forces that shape competition
 
