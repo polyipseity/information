@@ -115,6 +115,7 @@ The content is in teaching order.
 
 - exam for part 1: product innovation
   - content: multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
+  - format: closed-book, no cheatsheet
   - time limit: 40 minutes
 - 15-minute group presentation briefing
   - 12 minutes per team
@@ -238,13 +239,30 @@ The content is in teaching order.
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Nintendo (Wii), Yellow Tail, drybar
+  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail
+  - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
+  - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
+  - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")
+  - [§ create "gap"](../../../blue%20ocean%20strategy.md#create%20"gap")
 - [assignment W13](assignment%20W13/assignment%20W13.md): Blue Ocean Analysis (PetWellClinic)
 
 ## week 14 lecture
+
+- [profitability framework](../../../profitability%20framework.md)
+  - [§ the framework](../../../profitability%20framework.md#the%20framework)
+  - [§ background](../../../profitability%20framework.md#background)
+  - [§ usage](../../../profitability%20framework.md#usage)
+  - abbreviations
+    - R&D ::: research & development
+    - S&M ::: sales & marketing
+    - G&A ::: general & administration
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$
+- interview note-taking technique using 1 sheet of A4 paper
+- exam for part 2 review
 
 ## week 15 lecture
 
 - exam for part 2: case analysis
   - content: 7 long questions
+  - format: closed-book, 1 A4-sized cheatsheet using both sides
   - time limit: about 120 minutes
