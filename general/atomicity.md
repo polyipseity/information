@@ -59,7 +59,7 @@ Molecules can be classified based on atomicity as:
 - N<sub>2</sub> ([nitrogen](nitrogen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2027-02-07,1100,350-->
 - O<sub>2</sub> ([oxygen](oxygen.md))::[diatomic](diatomic%20molecule.md) <!--SR:!2027-06-27,1209,350-->
 - O<sub>3</sub> ([ozone](ozone.md))::[triatomic](triatomic%20molecule.md) <!--SR:!2027-04-03,1141,350-->
-- P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2024-06-05,339,330-->
+- P<sub>4</sub> ([white phosphorous](white%20phosphorous.md))::polyatomic <!--SR:!2027-06-28,1118,330-->
 - S<sub>8</sub> ([sulfur](sulfur.md))::polyatomic <!--SR:!2026-10-01,920,330-->
 
 <!--/pytextgen-->

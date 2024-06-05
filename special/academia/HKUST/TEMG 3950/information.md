@@ -70,7 +70,7 @@ value proposition canvas
 <!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-08-14,84,290!2024-07-06,58,310-->
-- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-06-05,30,270!2024-06-12,37,270-->
+- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-08-25,81,270!2024-06-12,37,270-->
 - business model canvas→:::←competitor analysis <!--SR:!2024-07-29,68,270!2024-06-28,43,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-06-24,21,230!2024-08-28,91,270-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-06-14,42,290!2024-06-09,34,270-->

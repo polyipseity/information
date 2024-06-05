@@ -159,7 +159,7 @@ mix: mixing products and services with pain relievers and gain creators
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-06-20,40,269!2024-07-22,77,329-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-06-09,27,229!2024-07-08,55,269-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-06-11,12,229!2024-08-05,75,289-->
-- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-06-05,20,249!2024-07-26,65,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-06-11,13,189-->
 
 <!--/pytextgen-->
@@ -222,7 +222,7 @@ find customer patterns
 
 ## test
 
-Test is {{reducing risk and uncertainty of new ideas and then improving your value propositions}}. <!--SR:!2024-06-05,30,249-->
+Test is {{reducing risk and uncertainty of new ideas and then improving your value propositions}}. <!--SR:!2024-09-19,106,269-->
 
 ### test steps
 
