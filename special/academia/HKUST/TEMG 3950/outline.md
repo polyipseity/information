@@ -27,12 +27,12 @@ The content is in teaching order.
 - investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-08-18,76,270!2024-07-13,63,310-->
 - good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-06-08,24,230!2024-07-05,57,310-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
-- [_Blue Ocean Strategy_ § concepts](../../../../general/Blue%20Ocean%20Strategy.md#concepts)
+- [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2024-07-07,59,310-->
 - International Business Plan Competition ::: IBPC <!--SR:!2024-07-03,55,310!2024-07-16,66,310-->
 - transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-07-13,63,310!2024-07-06,58,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
-- [assignment W2](assignment%20W2/)
+- [assignment W2](assignment%20W2/assignment%20W2.md)
 
 ## week 3 lecture
 
@@ -66,7 +66,7 @@ The content is in teaching order.
   - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2024-08-10,71,335-->
 - visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2024-08-11,72,335-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
-- [assignment W4](assignment%20W4/)
+- [assignment W4](assignment%20W4/assignment%20W4.md)
 
 ## week 5 lecture
 
@@ -84,7 +84,7 @@ The content is in teaching order.
   - "how might we" statement
     - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-07-10,42,295!2024-08-12,73,335-->
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
-- [assignment W5](assignment%20W5/)
+- [assignment W5](assignment%20W5/assignment%20W5.md)
 
 ## week 6 lecture
 
@@ -109,7 +109,7 @@ The content is in teaching order.
   - [§ fit](../../../business%20model%20canvas.md#fit)
   - [§ comparison with other models](../../../business%20model%20canvas.md#comparison%20with%20other%20models)
 - reading assignment: [business model canvas](../../../business%20model%20canvas.md)
-- [assignment W6](assignment%20W6/)
+- [assignment W6](assignment%20W6/assignment%20W6.md)
 
 ## week 7 lecture
 
@@ -129,13 +129,13 @@ The content is in teaching order.
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
   - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-06-18,24,255!2024-06-29,33,295-->
-- [assignment W7](assignment%20W7/)
+- [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
 
 - 15-minute group presentation
   - questions and answers
-- [assignment W8](assignment%20W8/)
+- [assignment W8](assignment%20W8/assignment%20W8.md)
 
 ## week 9 lecture
 
@@ -150,6 +150,7 @@ The content is in teaching order.
   - content: 10 4-choice questions
   - effect: 0.5% of course grade
   - full marks: 10
+  - password: 5619
   - time limit: 6 minutes
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
@@ -158,7 +159,7 @@ The content is in teaching order.
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-06-07,3,301!2024-06-08,4,321-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-06-07,3,301!2024-06-08,4,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-- nature of complex problems ::: modeleed by time-varying multi-variable optimization problems with constraints <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
@@ -176,11 +177,11 @@ The content is in teaching order.
 - Chernev's 5C framework ::: market & business analysis <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - Chernev's 5C framework competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - Chernev's 5C framework context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
 - McCarthy's 4P framework ::: market-related analysis <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
-- [assignment W9](assignment%20W9/)
+- [assignment W9](assignment%20W9/assignment%20W9.md): MECE for Situation Analysis
 
 ## week 10 lecture
 
@@ -189,8 +190,8 @@ The content is in teaching order.
 ## week 11 lecture
 
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-- [assignment W9](assignment%20W9/) review
-  - general case analysis takeaways ::: Identify key questions and choose the question that is most precise and involves least work. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+- [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
+  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
@@ -201,30 +202,44 @@ The content is in teaching order.
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - cause mapping arrow direction ::: cause to effect <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - cause mapping evidences ::: below the cause, pink background <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - cause mapping operators ::: AND, OR <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - cause mapping solutions ::: above the cause, green background <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - cause mapping symptom ::: red background <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - cause mapping § operators ::: AND, OR <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - cause mapping § symptom ::: red background <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-- cause mapping extension ::: facts table, solutions table <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+- cause mapping extensions ::: facts table, solutions table <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
   - facts table ::: what, when, where, impact <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (no s), analysis <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - interview note layout ::: split the paper into 2, the left side is thinner and holds the facts and key question and the right side is the analysis <!--SR:!2024-06-07,3,301!2024-06-08,4,321-->
-  - interview note analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-  - interview note facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
-- [assignment W11](assignment%20W11/)
+- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-06-07,3,301!2024-06-08,4,321-->
+  - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+  - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2024-06-08,4,321!2024-06-08,4,321-->
+- [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
 
 ## week 12 lecture
 
-- [assignment W12](assignment%20W12/)
+- [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
+  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes
+- McKinsey 7Ss framework ::: organization analysis
+  - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
+    - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
+- [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
+  - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
+  - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
+- drawbridge drama ::: an analogy to an office drama
+- [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture
 
-- [assignment W13](assignment%20W13/)
+- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space...
+- [blue ocean strategy](../../../blue%20ocean%20strategy.md)
+  - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
+  - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
+  - blue ocean strategy example companies ::: CitizenM, Nintendo (Wii), Yellow Tail, drybar
+- [assignment W13](assignment%20W13/assignment%20W13.md): Blue Ocean Analysis (PetWellClinic)
 
 ## week 14 lecture
 
