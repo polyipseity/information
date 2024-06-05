@@ -285,7 +285,7 @@ workmanship
 - lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-06-15,12,261!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
-- social→:::←workmanship <!--SR:!2024-06-05,27,300!2024-06-16,13,190-->
+- social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-06-16,13,190-->
 - workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
 
 <!--/pytextgen-->
@@ -356,7 +356,7 @@ transportation
 
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-06-05,34,355-->
+- _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2024-06-16,46,325-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
@@ -402,7 +402,7 @@ Water Cube
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2024-06-27,54,347-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-06-07,35,330-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-06-15,42,332-->
-- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-06-05,28,320!2024-08-12,95,270-->
+- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-06-14,41,325-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-11,40,337!2024-08-24,81,320-->
@@ -458,7 +458,7 @@ testing materials
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
 - logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
-- procuring materials→:::←quality assurance <!--SR:!2024-06-05,20,300!2024-06-06,26,281-->
+- procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-06-06,26,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-12,13,295-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-06-19,18,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-06-14,39,340-->
-- human behaviors→:::←management principles <!--SR:!2024-06-05,27,320!2024-06-13,30,280-->
+- human behaviors→:::←management principles <!--SR:!2024-06-21,16,300!2024-06-13,30,280-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-06-19,26,272-->
@@ -541,7 +541,7 @@ wood
 - _(begin)_→:::←brick <!--SR:!2024-07-18,66,357!2024-11-04,182,312-->
 - brick→:::←concrete <!--SR:!2024-06-11,41,325!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
-- new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-06-05,27,320-->
+- new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
@@ -596,7 +596,7 @@ nuclear
 - biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-06-10,40,337!2024-06-13,42,337-->
-- civil→:::←computer <!--SR:!2024-06-05,36,334!2024-06-11,42,332-->
+- civil→:::←computer <!--SR:!2024-11-15,163,354!2024-06-11,42,332-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
@@ -810,7 +810,7 @@ water distribution network
 
 - _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2024-08-11,79,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
-- storm water management→:::←water collection network <!--SR:!2024-06-05,27,320!2024-06-10,32,320-->
+- storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-06-10,32,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-07-16,43,321-->
 
@@ -1019,7 +1019,7 @@ Taipei 101
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-06-13,35,320!2024-08-06,74,317-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-06-09,38,312-->
-- Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-06-05,30,321-->
+- Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-09-12,99,321-->
 
 <!--/pytextgen-->
 

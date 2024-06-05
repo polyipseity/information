@@ -180,7 +180,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-06-19,44,294!2024-08-03,73,277!2024-06-05,35,274-->
+The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-06-19,44,294!2024-08-03,73,277!2024-09-08,95,274-->
 
 #### customer relationships
 

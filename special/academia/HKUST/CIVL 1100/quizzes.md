@@ -305,7 +305,7 @@ Example quiz questions for preparing exams.
 > 3. 220.89 MN
 > 4. 110.4 MN
 >
-> - solution: {{4}} <!--SR:!2024-06-05,12,272-->
+> - solution: {{4}} <!--SR:!2024-07-08,33,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Example quiz questions for preparing exams.
 > 3. To eliminate the risk of liquefaction in seismic zones
 > 4. To minimize the future settlement
 >
-> - solution: {{2}} <!--SR:!2024-06-05,13,292-->
+> - solution: {{2}} <!--SR:!2024-07-27,52,312-->
 
 ## week 4 lecture quiz
 

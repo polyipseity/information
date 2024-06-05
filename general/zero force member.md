@@ -9,7 +9,7 @@ tags:
 
 # zero force member
 
-In [engineering mechanics](applied%20mechanics.md), a __zero force member__ is {{a member in a [truss](truss.md) which, given a specific [load](structural%20load.md), is neither in [tension](tension%20(physics).md) nor in [compression](compression%20(physics).md)}}. <!--SR:!2024-06-05,16,290-->
+In [engineering mechanics](applied%20mechanics.md), a __zero force member__ is {{a member in a [truss](truss.md) which, given a specific [load](structural%20load.md), is neither in [tension](tension%20(physics).md) nor in [compression](compression%20(physics).md)}}. <!--SR:!2024-08-07,63,310-->
 
 ## description
 

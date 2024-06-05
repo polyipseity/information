@@ -36,7 +36,7 @@ The content is in teaching order.
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-06-09,17,310!2024-06-08,16,310-->
   - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-06-10,18,310!2024-06-06,14,310-->
-  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-06-09,17,310!2024-06-05,13,290-->
+  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-06-09,17,310!2024-07-30,55,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-06-08,16,310!2024-06-08,16,301-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-06-20,21,270!2024-07-11,40,310-->
@@ -66,7 +66,7 @@ The content is in teaching order.
   - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
   - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2024-07-20,47,310!2024-06-07,15,301-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
-    - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-07-13,40,310!2024-06-05,13,290-->
+    - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-07-13,40,310!2024-07-27,52,310-->
 - [bending](../../../../general/bending.md)
   - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-06-18,20,281!2024-06-07,15,301-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
@@ -116,7 +116,7 @@ The content is in teaching order.
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
-  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-06-05,13,290!2024-06-10,18,310-->
+  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-07-13,38,290!2024-06-10,18,310-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-06-09,17,310!2024-07-22,48,310-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-06-07,15,310-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)

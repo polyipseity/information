@@ -30,7 +30,7 @@ Geographic segmentation divides the market by {{location-related variables}}. <!
 
 #### psychographic segmentation
 
-Psychographic segmentation divides the market by {{interests, lifestyles, motives, personality, and values}}. <!--SR:!2024-06-05,39,250-->
+Psychographic segmentation divides the market by {{interests, lifestyles, motives, personality, and values}}. <!--SR:!2024-09-10,97,250-->
 
 #### behavioral segmentation
 
@@ -38,7 +38,7 @@ Behavioral segmentation divides the market by {{individual purchase behaviors}}.
 
 #### product-specific segmentation
 
-Product-specific segmentation divides the market by {{product or service-specific factors}}. <!--SR:!2024-06-05,49,290-->
+Product-specific segmentation divides the market by {{product or service-specific factors}}. <!--SR:!2024-10-24,141,290-->
 
 ## benefits
 

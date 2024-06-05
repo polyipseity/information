@@ -62,7 +62,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## visual
 
-- exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2024-06-05,385,348!2024-06-15,396,348-->
+- exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2028-02-04,1339,348!2024-06-15,396,348-->
 - highlight characters:::v <!--SR:!2026-07-03,967,348!2026-01-12,801,328-->
 - highlight lines:::V <!--SR:!2027-05-17,1126,293!2025-10-01,654,288-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2024-07-10,136,253!2027-12-19,1304,348-->

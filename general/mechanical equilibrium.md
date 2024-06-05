@@ -18,7 +18,7 @@ For a {{2-dimensional body}}, there are {{3}} equilibrium equations available: {
 
 - [statically indeterminate](statically%20indeterminate.md)
 
-Sometimes there are {{not enough information to determine the internal forces and [reactions](reaction%20(physics).md) of a system in equilibrium}}. Such a system is {{[statically indeterminate](statically%20indeterminate.md)}}. <!--SR:!2024-06-05,15,290!2024-07-14,42,290-->
+Sometimes there are {{not enough information to determine the internal forces and [reactions](reaction%20(physics).md) of a system in equilibrium}}. Such a system is {{[statically indeterminate](statically%20indeterminate.md)}}. <!--SR:!2024-07-16,41,290!2024-07-14,42,290-->
 
 ## references
 
