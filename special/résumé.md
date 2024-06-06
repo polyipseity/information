@@ -21,7 +21,7 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 - content ::: include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address
 - fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold
 - formatting ::: consistent, minimal
-- length ::: 1 page
+- length ::: 1 single-sided page
 - line spacing ::: single
 - order ::: reverse chronological
 
