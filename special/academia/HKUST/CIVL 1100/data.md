@@ -43,7 +43,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-09-19,106,307!2024-08-29,108,377-->
-- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-06-06,13,220!2024-08-13,92,365-->
+- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-07-04,28,220!2024-08-13,92,365-->
 - image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2024-08-30,96,380-->
 - shape ::: sail of a ship <!--SR:!2024-07-23,71,357!2024-07-23,75,372-->
 
@@ -84,8 +84,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-06-06,7,336!2024-06-22,29,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-06-06,8,316!2024-06-17,24,376-->
+- completion time ::: 1994 <!--SR:!2024-07-09,33,356!2024-06-22,29,376-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-02,26,316!2024-06-17,24,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-06-22,29,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-06,10,316!2024-06-26,33,376-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-10,4,296!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-06-07,14,356!2024-06-22,29,376-->
 - geographic location ::: Rome <!--SR:!2024-06-16,23,376!2024-06-18,25,376-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-11,6,316!2024-06-21,28,376-->

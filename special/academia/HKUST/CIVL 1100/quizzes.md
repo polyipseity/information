@@ -71,7 +71,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial waste is classified as MSW
 > 4. Food waste is classified as MSW
 >
-> - solution: {{2}} <!--SR:!2024-06-06,14,292-->
+> - solution: {{2}} <!--SR:!2024-08-06,61,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -175,7 +175,7 @@ Example quiz questions for preparing exams.
 > 3. COD > BODu < BOD5
 > 4. COD > BODu > BOD5
 >
-> - solution: {{4}} <!--SR:!2024-06-06,13,272-->
+> - solution: {{4}} <!--SR:!2024-07-25,49,292-->
 
 ## environmental engineering quiz 3
 
@@ -240,7 +240,7 @@ Example quiz questions for preparing exams.
 > 3. 9.80 kg CO2/gal
 > 4. 10.80 kg CO2/gal
 >
-> - solution: {{1}} <!--SR:!2024-06-06,13,272-->
+> - solution: {{1}} <!--SR:!2024-07-10,34,272-->
 
 <!-- markdownlint MD028 -->
 

@@ -98,7 +98,7 @@ return await memorize_map(
 <!--pytextgen generate section="dd92"--><!-- The following content is generated at 2024-01-04T20:17:52.100768+08:00. Any edits will be overridden! -->
 
 - mono-::1 <!--SR:!2027-11-08,1309,350-->
-- di-::2 <!--SR:!2024-06-06,335,330-->
+- di-::2 <!--SR:!2028-08-06,1522,350-->
 - tri-::3 <!--SR:!2027-06-06,1187,350-->
 - tetra-::4 <!--SR:!2027-04-26,1153,350-->
 - penta-::5 <!--SR:!2026-10-12,925,330-->

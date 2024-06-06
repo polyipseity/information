@@ -31,11 +31,11 @@ The content is in teaching order.
 - [free body](../../../../general/free%20body.md)
   - [§ external and internal forces](../../../../general/free%20body.md#external%20and%20internal%20forces)
   - [§ example](../../../../general/free%20body.md#example)
-  - free body in structural engineering ::: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2024-06-08,16,310!2024-06-06,14,310-->
+  - free body in structural engineering ::: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2024-06-08,16,310!2024-07-16,40,310-->
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-06-09,17,310!2024-06-08,16,310-->
-  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-06-10,18,310!2024-06-06,14,310-->
+  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-06-10,18,310!2024-08-07,62,330-->
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-06-09,17,310!2024-07-30,55,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-06-08,16,310!2024-06-08,16,301-->
@@ -45,7 +45,7 @@ The content is in teaching order.
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2024-06-10,18,301!2024-06-09,17,301-->
-    - "strong" object examples ::: table leg <!--SR:!2024-06-10,18,310!2024-06-06,14,310-->
+    - "strong" object examples ::: table leg <!--SR:!2024-06-10,18,310!2024-08-07,62,330-->
     - "weak" object examples ::: mattress <!--SR:!2024-06-08,16,310!2024-06-10,18,301-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-06-08,16,310!2024-06-07,15,310-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-07-18,44,310!2024-06-09,17,310-->
@@ -61,9 +61,9 @@ The content is in teaching order.
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
   - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-07-10,37,310!2024-07-12,39,310-->
-  - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2024-06-06,14,310!2024-06-08,16,310-->
+  - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2024-08-06,61,330!2024-06-08,16,310-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
-  - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
+  - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-06-07,15,310!2024-08-09,64,330-->
   - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2024-07-20,47,310!2024-06-07,15,301-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-07-13,40,310!2024-07-27,52,310-->
@@ -73,9 +73,9 @@ The content is in teaching order.
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-07-08,37,310!2024-06-08,16,310-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-07-01,28,290!2024-06-08,16,310-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-06-09,17,310!2024-06-09,17,310-->
-  - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-06-06,14,310!2024-06-10,18,310-->
+  - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-08-09,64,330!2024-06-10,18,310-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-06-28,27,290!2024-06-07,15,310-->
-- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces <!--SR:!2024-06-10,18,310!2024-06-06,14,310-->
+- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces <!--SR:!2024-06-10,18,310!2024-08-08,63,330-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-07-21,48,310!2024-06-07,15,310-->
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-07-11,38,310!2024-06-07,15,310-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
@@ -84,7 +84,7 @@ The content is in teaching order.
 - [static equilibrium](../../../../general/mechanical%20equilibrium.md)
   - [§ equilibrium equations](../../../../general/mechanical%20equilibrium.md#equilibrium%20equations)
   - [§ statically indeterminate system](../../../../general/structural%20support.md#statically%20indeterminate%20system)
-- use "critical thinking" ::: more like whether you are good at mathematics and physics <!--SR:!2024-06-06,14,310!2024-06-09,17,310-->
+- use "critical thinking" ::: more like whether you are good at mathematics and physics <!--SR:!2024-08-06,61,330!2024-06-09,17,310-->
 - [quizzes § week 4 lecture quiz](quizzes.md#week%204%20lecture%20quiz)
 
 ## week 5 lecture
@@ -104,7 +104,7 @@ The content is in teaching order.
   - [§ dead load](../../../../general/structural%20load.md#dead%20load)
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
-  - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-07-06,33,290!2024-06-06,14,310-->
+  - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-07-06,33,290!2024-08-09,64,330-->
   - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-06-10,18,310!2024-06-08,16,301-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2024-07-19,46,310!2024-06-10,18,301-->
@@ -115,7 +115,7 @@ The content is in teaching order.
   - [§ exterior structures](../../../../general/structural%20system.md#exterior%20structures)
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
-- wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-06-07,15,310!2024-06-06,14,310-->
+- wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-06-07,15,310!2024-07-23,47,310-->
   - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-07-13,38,290!2024-06-10,18,310-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-06-09,17,310!2024-07-22,48,310-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-06-07,15,310-->

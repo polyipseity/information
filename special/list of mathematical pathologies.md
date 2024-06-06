@@ -28,7 +28,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \
   - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2024-06-21,54,323!2024-06-08,42,323-->
 - integrability
   - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md). <!--SR:!2024-06-28,50,326!2024-07-16,68,346-->
-- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md). <!--SR:!2024-12-29,218,330!2024-06-06,63,310-->
+- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md). <!--SR:!2024-12-29,218,330!2025-03-02,269,330-->
 
 ### Volterra's function
 

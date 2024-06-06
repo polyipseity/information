@@ -267,7 +267,7 @@ return _chain.from_iterable(await _gather(
 - ![safety spectacles/safety glasses/goggles](../archives/Wikimedia%20Commons/Safety%20Goggles.jpg)::[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2027-08-11,1241,350-->
 - ![spatula](../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG)::[spatula](spatula.md) <!--SR:!2028-08-01,1518,350-->
 - ![stand/retort stand/ring stand/support stand](../archives/Wikimedia%20Commons/Retort%20stand.jpg)::[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2026-06-09,887,330-->
-- ![test tube, boiling tube](../archives/Wikimedia%20Commons/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg)::[test tube](test%20tube.md), boiling tube <!--SR:!2024-06-06,335,330-->
+- ![test tube, boiling tube](../archives/Wikimedia%20Commons/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg)::[test tube](test%20tube.md), boiling tube <!--SR:!2028-08-07,1523,350-->
 - ![test tube brush](../archives/Wikimedia%20Commons/Test%20tube%20brushes.jpg)::[test tube brush](test%20tube%20brush.md) <!--SR:!2027-03-12,1117,350-->
 - ![test tube holder](../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG)::[test tube holder](test%20tube%20holder.md) <!--SR:!2026-11-18,954,330-->
 - ![test tube rack](../archives/Wikimedia%20Commons/Metal%20tube%20rack-laboratory%202.jpg)::[test tube rack](test%20tube%20rack.md) <!--SR:!2028-01-08,1353,350-->

@@ -15,7 +15,7 @@ tags:
 
 ## process modules
 
-There are 5 "modes" to design thinking. Note that the "mode" order is {{only recommended and is not must be followed. In fact, the process is nonlinear, can start anywhere, and can be parallel}}. <!--SR:!2024-06-06,45,290-->
+There are 5 "modes" to design thinking. Note that the "mode" order is {{only recommended and is not must be followed. In fact, the process is nonlinear, can start anywhere, and can be parallel}}. <!--SR:!2024-12-03,180,310-->
 
 ```Python
 # pytextgen generate data

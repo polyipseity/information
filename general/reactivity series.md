@@ -219,7 +219,7 @@ return _chain.from_iterable(await _gather(
 - Ni<sup>2+</sup>::[nickel](nickel.md) <!--SR:!2025-06-01,369,365-->
 - Sn<sup>2+</sup>::[tin](tin.md) <!--SR:!2025-04-09,328,367-->
 - Pb<sup>2+</sup>::[lead](lead.md) <!--SR:!2025-03-01,275,345-->
-- Sb<sup>3+</sup>::[antimony](antimony.md) <!--SR:!2024-06-06,85,345-->
+- Sb<sup>3+</sup>::[antimony](antimony.md) <!--SR:!2025-03-25,292,345-->
 - Bi<sup>3+</sup>::[bismuth](bismuth.md) <!--SR:!2024-06-07,86,345-->
 - Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2025-05-23,362,367-->
 - W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2025-04-30,343,365-->
@@ -330,7 +330,7 @@ return _chain.from_iterable(await _gather(
 
 More reactive [metals](metal.md) react with {{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}}. <!--SR:!2024-08-31,368,290-->
 
-Moderately reactive metals react with {{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}}. <!--SR:!2024-06-06,271,250-->
+Moderately reactive metals react with {{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}}. <!--SR:!2026-04-14,677,250-->
 
 ## references
 

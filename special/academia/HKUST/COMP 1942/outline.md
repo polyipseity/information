@@ -113,7 +113,7 @@ The content is in teaching order.
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
   - similarities and differences between classification and clustering ::: They are both data analysis. The difference is that classification has a target attribute or variable while clustering does not. <!--SR:!2024-07-05,66,351!2024-11-01,151,327-->
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
-  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-07-05,62,331!2024-06-06,40,311-->
+  - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2024-07-05,62,331!2024-11-29,176,331-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
   - entropy base ::: We use base 2. <!--SR:!2024-07-11,71,347!2024-07-22,80,347-->
 
