@@ -68,7 +68,7 @@ return chain.from_iterable(await gather(
 > | median linkage clustering | WPGMC, weighted centroid clustering | $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ | {{Median linkage clustering can better preserve small clusters that are merged into large clusters.}} |
 > | [single-linkage clustering](single-linkage%20clustering.md) | minimum linkage clustering, nearest neighbor technique | $d(A, B) = \min_{a \in A, b \in B} d(a, b)$ |  |
 > | unweighted average linkage clustering | [UPGMA](UPGMA.md), group average linkage clustering | $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ |  |
-> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2024-09-12,110,290!2024-09-09,110,295!2024-06-06,38,289-->
+> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2024-09-12,110,290!2024-09-09,110,295!2024-09-23,109,289-->
 
 <!--/pytextgen-->
 
@@ -79,7 +79,7 @@ return chain.from_iterable(await gather(
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-10-09,131,295!2024-08-27,87,275-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-06-12,37,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-08-29,90,275!2024-10-22,141,295-->
-- [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-06-06,42,295!2024-06-26,39,235-->
+- [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-10-07,123,295!2024-06-26,39,235-->
 - unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-06-14,48,295!2024-08-23,95,295-->
 - weighted average linkage clustering→:::←_(end)_ <!--SR:!2024-07-11,70,315!2024-09-11,109,295-->
 
@@ -132,7 +132,7 @@ return chain.from_iterable(await gather(
 - $d(A, B) = \max_{a \in A, b \in B} d(a, b)$::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-07-13,72,315-->
 - $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$::median linkage clustering <!--SR:!2024-08-27,99,295-->
 - $d(A, B) = \min_{a \in A, b \in B} d(a, b)$::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-07-05,65,315-->
-- $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$::unweighted average linkage clustering <!--SR:!2024-06-06,42,295-->
+- $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$::unweighted average linkage clustering <!--SR:!2024-11-26,173,315-->
 - $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$::weighted average linkage clustering <!--SR:!2024-06-20,49,295-->
 
 <!--/pytextgen-->

@@ -20,11 +20,11 @@ Buildings can be {{categorized by height}}: {{single-storey, multi-storey with h
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-07-15,44,290!2024-08-01,59,315-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-06-24,26,270!2024-07-17,46,295!2024-07-16,45,295!2024-06-06,17,290-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-06-24,26,270!2024-07-17,46,295!2024-07-16,45,295!2024-08-11,66,310-->
 
-Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-06-06,17,295!2024-07-18,43,295-->
+Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-07-24,48,295!2024-07-18,43,295-->
 
-The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-06-06,17,295!2024-06-06,17,295!2024-07-15,44,295!2024-06-28,31,275-->
+The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-07-22,46,295!2024-08-13,68,315!2024-07-15,44,295!2024-06-28,31,275-->
 
 We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-08-02,60,315!2024-08-02,59,315!2024-07-20,49,295!2024-07-17,44,295!2024-08-08,65,315-->
 
@@ -80,7 +80,7 @@ Intuitively, if a high-rise building is {{a skier}}, then {{the building core is
 
 Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-06-25,28,275-->
 
-For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-06-06,17,290!2024-07-20,48,295!2024-07-24,49,295-->
+For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-08-14,69,310!2024-07-20,48,295!2024-07-24,49,295-->
 
 #### exterior structures
 
@@ -119,9 +119,9 @@ return await memorize_seq(
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-06-12,17,255!2024-08-03,60,315-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-06-26,28,275!2024-08-01,58,315-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-06-27,28,275-->
-- [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->
+- [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-07-25,49,295!2024-06-17,11,275-->
 - [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-08,36,295!2024-06-15,19,255-->
-- [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-06-06,17,295!2024-06-06,17,295-->
+- [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
 
 <!--/pytextgen-->
 

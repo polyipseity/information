@@ -37,7 +37,7 @@ To construct a decile-wise lift chart, {{follow the same [instructions above](#c
 >
 > {{A quick example}} below, using the same data as above.
 >
-> ![decile-wise lift chart example](attachments/Pasted%20image%2020240322164126.png) <!--SR:!2024-06-06,31,250-->
+> ![decile-wise lift chart example](attachments/Pasted%20image%2020240322164126.png) <!--SR:!2024-09-28,114,270-->
 
 ## interpretation
 

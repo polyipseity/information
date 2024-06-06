@@ -82,7 +82,7 @@ The solution is as below, which matches with our physical intuition:
 >   - [spring](spring%20(device).md) properties: {{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}}
 >   - derived properties: {{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}}
 >   - [phase space](phase%20space.md): {{$x_F = \frac{F(t)}{m \omega_n^2} = \frac{F(t)}k$ is steady-state equilibrium position with the driving [force](force.md) $F(t)$ and $\varphi = -\arcsin \zeta$ is the initial [phase](phase%20(waves).md)}}
-> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-06-17,96,232!2024-12-07,218,292!2025-01-01,282,332!2024-09-28,173,272!2024-06-06,96,252!2024-09-26,192,312-->
+> - sine variant: {{all $\cos$ in the main expression are replaced by $\sin$ and $\varphi = \arccos \zeta$}} <!--SR:!2024-06-17,96,232!2024-12-07,218,292!2025-01-01,282,332!2024-09-28,173,272!2025-02-02,241,252!2024-09-26,192,312-->
 
 <!-- markdownlint MD028 -->
 

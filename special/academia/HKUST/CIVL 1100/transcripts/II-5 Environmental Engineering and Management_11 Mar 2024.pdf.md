@@ -24,8 +24,8 @@ Environmental Engineering and Management
 
 What is Environmental Engineering?
 
-- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-06-06,14,290!2024-07-07,34,290-->
-  - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-07-23,48,310!2024-06-06,14,290-->
+- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-08-01,56,310!2024-07-07,34,290-->
+  - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-07-23,48,310!2024-07-21,45,290-->
 
 ## page 3
 
@@ -60,8 +60,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air pollution <!--SR:!2024-06-06,14,290!2024-06-06,14,290-->
-- air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-06-06,14,290-->
+- _(begin)_→:::←air pollution <!--SR:!2024-07-29,53,310!2024-07-28,52,310-->
+- air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-06-27,24,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-06-11,13,250-->
@@ -115,7 +115,7 @@ Land Contamination: A serious problem in Hong Kong?
 
 Former Kai Tak Airport
 
-- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-06-07,15,290!2024-06-06,14,290-->
+- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-06-07,15,290!2024-07-29,53,310-->
 
 ## page 6
 
@@ -161,8 +161,8 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-07-02,29,270!2024-06-06,14,290-->
-  - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-06-08,16,290!2024-06-06,14,290-->
+  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-07-02,29,270!2024-08-02,57,310-->
+  - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-06-08,16,290!2024-08-05,60,310-->
 
 ## page 10
 
@@ -182,16 +182,16 @@ Sustainable Waste Management
 3Rs Concept
 
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
-  - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
+  - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-06-07,15,290-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-07-27,52,310!2024-07-26,51,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-07-16,42,290!2024-06-08,16,290-->
-    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-07-23,49,290!2024-06-06,14,290-->
+    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-07-23,49,290!2024-08-02,57,310-->
 
 ## page 13
 
 How to provide motivation for waste reduction, reuse and recycling?
 
-- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-06-06,14,290-->
+- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-07-13,37,290-->
   - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-07-06,33,270!2024-07-16,42,290-->
 
 ## page 14
@@ -200,7 +200,7 @@ MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-06-18,18,250!2024-06-29,29,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-06-07,15,290!2024-07-06,35,290-->
-  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-28,25,270!2024-06-06,14,290-->
+  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-28,25,270!2024-08-02,57,310-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-06-07,15,290-->
 
 Will this waste charging scheme waste generation?
@@ -209,17 +209,17 @@ Will this waste charging scheme waste generation?
 
 Environmental Levy Scheme (Plastic Shopping Bags)
 
-- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-06-06,14,290!2024-06-09,17,290-->
+- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-06-09,17,290-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-29,26,270!2024-06-08,13,270-->
-  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-27,26,270!2024-06-06,14,290-->
+  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-27,26,270!2024-07-16,40,290-->
 
 ## page 16
 
 Water Pollution: A serious problem in Hong Kong?
 
-- wastewater ::: drinking water after use <!--SR:!2024-06-06,14,290!2024-06-08,16,290-->
+- wastewater ::: drinking water after use <!--SR:!2024-07-28,52,310!2024-06-08,16,290-->
 
 ## page 17
 
@@ -251,7 +251,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-06-06,14,290!2024-06-07,15,290-->
+  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-07-29,53,310!2024-06-07,15,290-->
     - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-26,22,250!2024-06-09,17,290-->
 
 ## page 21
@@ -264,7 +264,7 @@ Sewage Conveyance System
 
 Clean Victoria Harbor
 
-- HATS result ::: clean Victoria Harbor <!--SR:!2024-06-08,16,290!2024-06-06,14,290-->
+- HATS result ::: clean Victoria Harbor <!--SR:!2024-06-08,16,290!2024-07-30,54,310-->
   - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-24,21,250!2024-06-07,15,290-->
 
 ## page 23
@@ -277,14 +277,14 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-07-13,40,290!2024-06-06,14,290-->
+- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-07-13,40,290!2024-08-01,56,310-->
   - airplane passing ::: 120 dB(A) <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
   - construction site ::: 110 dB(A) <!--SR:!2024-07-09,36,290!2024-06-09,17,290-->
   - concert ::: 100 dB(A) <!--SR:!2024-06-09,17,290!2024-06-08,16,290-->
   - drilling ::: 90 dB(A) <!--SR:!2024-06-07,15,290!2024-06-25,24,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-06-08,16,290!2024-06-07,15,290-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
-  - home with TV on ::: 60 dB(A) <!--SR:!2024-07-18,44,290!2024-06-06,14,290-->
+  - home with TV on ::: 60 dB(A) <!--SR:!2024-07-18,44,290!2024-07-18,42,290-->
   - library ::: 40 dB(A) <!--SR:!2024-06-07,15,290!2024-07-25,50,310-->
   - park ::: 30 dB(A) <!--SR:!2024-06-08,16,290!2024-07-25,50,310-->
 
@@ -300,7 +300,7 @@ Properties of Sound Waves
 Air Pollution: A serious problem in Hong Kong?
 
 - regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
-- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-06-09,17,290!2024-06-06,14,290-->
+- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-06-09,17,290!2024-07-29,53,310-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
@@ -321,14 +321,14 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
-  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-06-15,17,250!2024-06-06,14,290-->
+  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-06-15,17,250!2024-08-02,57,310-->
 
 ## page 29
 
 Indoor Air Quality
 
 - sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-06-07,15,290!2024-07-26,51,310-->
-- common indoor air pollutant ::: 12 parameters <!--SR:!2024-06-06,14,290!2024-06-08,16,290-->
+- common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-06-08,16,290-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-07-01,28,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-07-24,49,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-12,7,250!2024-06-07,15,290-->
@@ -394,7 +394,7 @@ Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
-  - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-06-06,14,290!2024-06-06,14,290-->
+  - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-07-31,55,310!2024-07-19,43,290-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-06-14,14,230!2024-06-08,16,290-->
 
 ## page 33
@@ -419,7 +419,7 @@ Relationship between PPM and mg/L
 
 - relationship between PPM and mg/L for other solutions
   - relationship between PPM and mg/L examples
-  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-07-12,39,290!2024-06-06,14,290-->
+  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-07-12,39,290!2024-07-29,53,310-->
 - specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-06-09,17,290-->
 
 ## page 36
@@ -428,7 +428,7 @@ Concentration Units for Gases
 
 - concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
   - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
-  - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-06-07,15,290!2024-06-06,14,290-->
+  - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-06-07,15,290!2024-07-28,52,310-->
 
 ## page 37
 
@@ -442,5 +442,5 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-06-06,14,290!2024-07-14,39,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-08-01,56,310!2024-07-14,39,290-->
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-07-09,35,270!2024-07-04,33,290-->

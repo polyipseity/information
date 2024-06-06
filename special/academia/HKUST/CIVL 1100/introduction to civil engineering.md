@@ -95,14 +95,14 @@ The content is in teaching order.
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2024-08-01,84,374-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2024-06-06,62,330-->
+- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2025-03-14,281,350-->
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2024-07-29,79,377-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-07-17,87,285!2024-06-25,81,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
-      - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-06-06,35,317!2024-12-06,196,330-->
+      - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2024-07-24,72,354-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-06-06,39,270!2024-07-11,63,354-->
+      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2024-07-11,63,354-->
 
 ## oversized data
 
@@ -196,7 +196,7 @@ water and sewage treatment system
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-06-11,18,224!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-06-16,23,260!2024-07-06,38,281-->
-- power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-06-06,28,320-->
+- power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-09,10,190-->
@@ -360,8 +360,8 @@ transportation
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2024-06-16,46,325-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
-- hydraulic→:::←material <!--SR:!2024-06-06,28,320!2024-06-17,39,340-->
-- material→:::←structural <!--SR:!2024-08-15,81,317!2024-06-06,24,260-->
+- hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-06-17,39,340-->
+- material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
 - transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-07-12,41,361-->
 
@@ -457,8 +457,8 @@ testing materials
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-27,23,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
 - logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-09-28,120,335-->
-- planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-06-06,22,277-->
-- procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-06-06,26,281-->
+- planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
+- procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-12,13,295-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
@@ -775,7 +775,7 @@ levee
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←canal <!--SR:!2024-09-12,106,340!2024-07-18,70,347-->
-- canal→:::←channel <!--SR:!2024-06-06,37,337!2024-06-21,48,352-->
+- canal→:::←channel <!--SR:!2024-11-27,174,357!2024-06-21,48,352-->
 - channel→:::←dam <!--SR:!2024-06-15,40,327!2024-06-15,64,270-->
 - dam→:::←levee <!--SR:!2024-07-02,50,340!2024-06-16,41,332-->
 - levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-06-14,21,258-->
@@ -985,7 +985,7 @@ Two Prudential Plaza
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-06-08,30,340-->
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-06-15,12,280-->
-- Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-06-06,31,320-->
+- Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-09-15,101,320-->
 
 <!--/pytextgen-->
 
@@ -1193,7 +1193,7 @@ water transport
 - highway→:::←pier <!--SR:!2024-06-14,36,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
 - pipeline→:::←railroad <!--SR:!2024-06-10,17,255!2024-08-07,75,315-->
-- railroad→:::←water transport <!--SR:!2024-06-06,28,320!2024-08-11,79,315-->
+- railroad→:::←water transport <!--SR:!2024-10-11,127,340!2024-08-11,79,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->
 
 <!--/pytextgen-->

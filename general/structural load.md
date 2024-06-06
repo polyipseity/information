@@ -55,18 +55,18 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-06-07,18,308!2024-06-06,18,300-->
+- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-06-07,18,308!2024-08-22,77,320-->
 - [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-07-28,56,310!2024-07-06,37,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-07-03,31,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2024-07-18,45,300!2024-07-19,49,290-->
 - [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-07-16,44,290!2024-08-08,65,320-->
-- [other loads](#other%20loads)→:::←_(end)_ <!--SR:!2024-06-06,18,300!2024-06-06,18,300-->
+- [other loads](#other%20loads)→:::←_(end)_ <!--SR:!2024-08-20,75,320!2024-08-02,57,300-->
 
 <!--/pytextgen-->
 
 ### dead load
 
-The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-06-06,18,300!2024-07-01,30,270!2024-06-30,31,270!2024-07-14,42,290-->
+The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-08-21,76,320!2024-07-01,30,270!2024-06-30,31,270!2024-07-14,42,290-->
 
 Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-08-13,70,330!2024-08-17,73,330!2024-07-23,52,310!2024-07-22,52,310-->
 
@@ -105,7 +105,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:09:52.106487+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-07-13,41,290!2024-06-06,18,300-->
+- _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-07-13,41,290!2024-08-22,77,320-->
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-07-03,34,288!2024-07-12,42,300-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-06-28,30,288!2024-07-19,48,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-06-21,24,280!2024-06-09,15,260-->
@@ -124,7 +124,7 @@ For example, when there is {{water buildup in the soil}}, there is {{increased h
 
 Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}}. <!--SR:!2024-07-27,52,290-->
 
-For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-06-06,18,300!2024-07-23,52,300-->
+For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-07-28,52,300!2024-07-23,52,300-->
 
 To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-06-29,30,280!2024-07-16,47,300-->
 
@@ -132,7 +132,7 @@ To protect against soil loads, {{retaining structures are built and weep holes m
 
 Seismic load are {{caused by [earthquakes](earthquake.md)}}. It can induce {{both horizontal and vertical load on structures}}. <!--SR:!2024-07-15,45,290!2024-07-09,40,300-->
 
-The consequences are {{partial or complete collapse of structural elements or entire buildings}}. <!--SR:!2024-06-06,17,290-->
+The consequences are {{partial or complete collapse of structural elements or entire buildings}}. <!--SR:!2024-08-14,69,310-->
 
 #### thermal load
 
@@ -142,7 +142,7 @@ For example, {{a beam in between two fixed support creates thermal load under he
 
 #### wind load
 
-[Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-06-06,18,300!2024-07-16,46,290!2024-07-15,43,300!2024-06-06,18,300!2024-06-24,26,280-->
+[Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-07-31,55,300!2024-07-16,46,290!2024-07-15,43,300!2024-07-30,54,300!2024-06-24,26,280-->
 
 Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-08-06,63,320!2024-07-28,53,300-->
 
