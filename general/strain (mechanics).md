@@ -9,7 +9,7 @@ tags:
 
 # strain
 
-In [mechanics](mechanics.md), __stress__ is defined as {{relative [deformation](deformation%20(physics).md)}}.
+In [mechanics](mechanics.md), __strain__ is defined as {{relative [deformation](deformation%20(physics).md)}}.
 
 ## strain measures
 

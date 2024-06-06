@@ -36,7 +36,7 @@ Technology feasibility describes {{the possibility of producing a product within
 
 Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}.
 
-The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the market, technology, and business model}} is required.
+The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the business model, market, and technology}} is required.
 
 Design thinking can be used in {{design conceptualization}}. It is the {{most important stage of product development}} because it is {{at the start of the product development and requires the least effort, so it produces the highest rate of return}}. The rate of return decreases along the stages as {{mistakes in later stages become much more costly}}.
 
