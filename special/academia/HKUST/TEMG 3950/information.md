@@ -75,7 +75,7 @@ value proposition canvas
 - competitor analysis→:::←customer discovery <!--SR:!2024-06-24,21,230!2024-08-28,91,270-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-06-14,42,290!2024-06-09,34,270-->
 - customer segmentation→:::←customer validation <!--SR:!2024-08-27,82,270!2024-07-16,55,270-->
-- customer validation→:::←design thinking <!--SR:!2024-07-23,50,230!2024-06-07,32,270-->
+- customer validation→:::←design thinking <!--SR:!2024-07-23,50,230!2024-09-03,88,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-06-12,9,190!2024-08-15,73,250-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-06-20,37,250!2024-06-11,20,230-->
 - product validation→:::←value proposition canvas <!--SR:!2024-07-01,33,190!2024-06-30,39,250-->
@@ -134,14 +134,14 @@ root cause analysis, 5 whys
 - _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-06-07,3,261!2024-06-08,4,281-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-06-16,9,261!2024-06-08,4,281-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-07,3,261!2024-06-08,4,281-->
+- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-15,8,261!2024-06-08,4,281-->
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-08,4,281!2024-06-07,3,261-->
-- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-07,3,261!2024-06-07,3,261-->
-- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-08,4,281!2024-06-07,3,261-->
+- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-08,4,281!2024-06-17,10,261-->
+- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-16,9,261!2024-06-09,2,241-->
+- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-08,4,281!2024-06-17,10,261-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
 
 <!--/pytextgen-->

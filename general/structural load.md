@@ -55,7 +55,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-06-07,18,308!2024-08-22,77,320-->
+- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-07-30,53,308!2024-08-22,77,320-->
 - [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-07-28,56,310!2024-07-06,37,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-07-03,31,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2024-07-18,45,300!2024-07-19,49,290-->
@@ -138,7 +138,7 @@ The consequences are {{partial or complete collapse of structural elements or en
 
 Thermal load refers to load {{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}}. <!--SR:!2024-07-21,51,308-->
 
-For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2024-06-07,18,308!2024-08-12,68,310!2024-08-08,66,320-->
+For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2024-07-31,54,308!2024-08-12,68,310!2024-08-08,66,320-->
 
 #### wind load
 

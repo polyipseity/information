@@ -63,7 +63,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 ### customer profile
 
-Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-08-05,75,289!2024-07-25,71,289!2024-06-07,39,309!2024-06-22,31,305-->
+Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-08-05,75,289!2024-07-25,71,289!2024-10-07,122,309!2024-06-22,31,305-->
 
 Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-07-16,51,325!2024-07-18,53,325!2024-08-22,80,345!2024-08-05,63,325!2024-08-12,73,345-->
 
@@ -211,7 +211,7 @@ find customer patterns
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2024-07-19,74,329-->
-- create a customer profile→:::←outline the interview <!--SR:!2024-07-09,59,289!2024-06-07,38,289-->
+- create a customer profile→:::←outline the interview <!--SR:!2024-07-09,59,289!2024-09-29,114,289-->
 - outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2024-06-26,56,309-->
 - interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2024-06-29,54,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2024-07-13,63,289-->
@@ -259,7 +259,7 @@ conclusion: make progress
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-08-26,89,289!2024-07-12,67,327-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-07-28,81,329!2024-06-18,48,309-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-07-02,60,309!2024-07-21,74,270-->
-- test: design tests→:::←test: prioritize tests <!--SR:!2024-06-07,40,309!2024-09-04,112,290-->
+- test: design tests→:::←test: prioritize tests <!--SR:!2024-06-29,22,289!2024-09-04,112,290-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-06-15,42,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->

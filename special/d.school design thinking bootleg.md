@@ -54,7 +54,7 @@ return await memorize_seq(
 
 ### empathize
 
-Empathy is {{the foundation of human-centered design}}. To empathize: {{observe, view users and their behaviors in their lives; engage, interact and interview users in scheduled or short intercept counters; and immerse, experience in users' shoes for some time}}. <!--SR:!2024-06-13,52,290!2024-06-07,41,250-->
+Empathy is {{the foundation of human-centered design}}. To empathize: {{observe, view users and their behaviors in their lives; engage, interact and interview users in scheduled or short intercept counters; and immerse, experience in users' shoes for some time}}. <!--SR:!2024-06-13,52,290!2024-09-19,104,250-->
 
 ### define
 
@@ -127,7 +127,7 @@ return await memorize_seq(
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-06-29,26,150-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-06-13,35,230!2024-06-14,39,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-06-12,13,150!2024-07-15,54,230-->
-- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-06-08,8,150!2024-06-07,27,210-->
+- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-06-08,8,150!2024-08-02,56,210-->
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-07-12,38,170!2024-06-25,30,190-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-10-10,141,310!2024-08-24,93,270-->
 

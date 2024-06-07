@@ -67,7 +67,7 @@ C$: [cost structure](#cost%20structure)
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-06-17,39,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-06-21,23,254-->
-- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-07,37,277!2024-08-31,98,274-->
+- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-26,19,257!2024-08-31,98,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2024-06-21,51,294-->
 
 <!--/pytextgen-->

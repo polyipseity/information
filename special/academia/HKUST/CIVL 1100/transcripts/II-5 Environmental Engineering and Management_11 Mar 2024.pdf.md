@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-06-27,24,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-06-07,15,290!2024-06-11,13,250-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-06-11,13,250-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
 <!--/pytextgen-->
@@ -102,7 +102,7 @@ return await memorize_seq(
 - air sparging→:::←bioremediation <!--SR:!2024-06-08,16,290!2024-07-03,32,290-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-25,21,250!2024-06-08,16,290-->
-- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-07,15,290!2024-07-12,37,290-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-07-20,43,290!2024-07-12,37,290-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-09,17,290!2024-07-17,43,290-->
 
 <!--/pytextgen-->
@@ -115,7 +115,7 @@ Land Contamination: A serious problem in Hong Kong?
 
 Former Kai Tak Airport
 
-- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-06-07,15,290!2024-07-29,53,310-->
+- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-07-20,43,290!2024-07-29,53,310-->
 
 ## page 6
 
@@ -182,7 +182,7 @@ Sustainable Waste Management
 3Rs Concept
 
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
-  - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-06-07,15,290-->
+  - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-08-06,60,310-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-07-27,52,310!2024-07-26,51,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-07-16,42,290!2024-06-08,16,290-->
     - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-07-23,49,290!2024-08-02,57,310-->
@@ -199,9 +199,9 @@ How to provide motivation for waste reduction, reuse and recycling?
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-06-18,18,250!2024-06-29,29,270-->
-  - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-06-07,15,290!2024-07-06,35,290-->
+  - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-07-06,35,290-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-28,25,270!2024-08-02,57,310-->
-  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-06-07,15,290-->
+  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-07-23,46,290-->
 
 Will this waste charging scheme waste generation?
 
@@ -210,7 +210,7 @@ Will this waste charging scheme waste generation?
 Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-06-09,17,290-->
-  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
+  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-15,8,270!2024-06-08,16,290-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-29,26,270!2024-06-08,13,270-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-27,26,270!2024-07-16,40,290-->
@@ -225,10 +225,10 @@ Water Pollution: A serious problem in Hong Kong?
 
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
-- Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-06-07,15,290-->
+- Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-08-07,61,310-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-04,30,270-->
-  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-07-10,35,290!2024-06-07,12,270-->
-  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-07-09,35,270!2024-06-07,15,290-->
+  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-07-10,35,290!2024-07-08,31,270-->
+  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-07-09,35,270!2024-08-04,58,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-07-01,28,270!2024-07-12,37,290-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-07-01,30,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-07-13,40,290!2024-07-16,43,290-->
@@ -237,10 +237,10 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 HATS Stage 2 Overview
 
-- Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
-  - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-06-08,16,290!2024-06-07,15,290-->
+- Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-08-04,58,310!2024-06-08,16,290-->
+  - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-06-08,16,290!2024-08-09,63,310-->
   - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-06-17,18,250!2024-07-05,34,290-->
-  - HATS Stage 2B ::: biological treatment <!--SR:!2024-06-07,15,290!2024-07-28,53,310-->
+  - HATS Stage 2B ::: biological treatment <!--SR:!2024-07-25,48,290!2024-07-28,53,310-->
 
 ## page 19
 
@@ -251,7 +251,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-07-29,53,310!2024-06-07,15,290-->
+  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-07-29,53,310!2024-08-09,63,310-->
     - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-26,22,250!2024-06-09,17,290-->
 
 ## page 21
@@ -265,27 +265,27 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2024-06-08,16,290!2024-07-30,54,310-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-24,21,250!2024-06-07,15,290-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-24,21,250!2024-08-03,57,310-->
 
 ## page 23
 
 Noise Pollution: A serious problem in Hong Kong?
 
-- sound vs. noise ::: noise is undesirable sound <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
+- sound vs. noise ::: noise is undesirable sound <!--SR:!2024-08-06,60,310!2024-08-02,56,310-->
 
 ## page 24
 
 Noise Levels and Causes
 
 - noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-07-13,40,290!2024-08-01,56,310-->
-  - airplane passing ::: 120 dB(A) <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
+  - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-07-09,36,290!2024-06-09,17,290-->
   - concert ::: 100 dB(A) <!--SR:!2024-06-09,17,290!2024-06-08,16,290-->
-  - drilling ::: 90 dB(A) <!--SR:!2024-06-07,15,290!2024-06-25,24,270-->
-  - train passing ::: 80 dB(A) <!--SR:!2024-06-08,16,290!2024-06-07,15,290-->
-  - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-06-07,15,290!2024-06-07,15,290-->
+  - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-06-25,24,270-->
+  - train passing ::: 80 dB(A) <!--SR:!2024-06-08,16,290!2024-08-05,59,310-->
+  - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-07-23,46,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2024-07-18,44,290!2024-07-18,42,290-->
-  - library ::: 40 dB(A) <!--SR:!2024-06-07,15,290!2024-07-25,50,310-->
+  - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-07-25,50,310-->
   - park ::: 30 dB(A) <!--SR:!2024-06-08,16,290!2024-07-25,50,310-->
 
 ## page 25
@@ -293,7 +293,7 @@ Noise Levels and Causes
 Properties of Sound Waves
 
 - sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-06-09,17,290!2024-06-08,16,290-->
-  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-06-07,15,290!2024-06-09,17,290-->
+  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-07-21,44,290!2024-06-09,17,290-->
 
 ## page 26
 
@@ -313,8 +313,8 @@ Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-06-25,24,270!2024-06-08,16,290-->
-  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-06-07,15,290!2024-07-27,52,310-->
-  - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-06-07,15,290!2024-07-27,52,310-->
+  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-08-03,57,310!2024-07-27,52,310-->
+  - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2024-07-27,52,310-->
 
 ## page 28
 
@@ -327,11 +327,11 @@ FORECAST of Health Risk
 
 Indoor Air Quality
 
-- sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-06-07,15,290!2024-07-26,51,310-->
+- sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2024-07-26,51,310-->
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-06-08,16,290-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-07-01,28,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-07-24,49,310-->
-    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-12,7,250!2024-06-07,15,290-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-12,7,250!2024-08-02,56,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-07-07,32,270!2024-07-12,39,290-->
 
 ## page 30
@@ -375,7 +375,7 @@ return await memorize_seq(
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-06-08,16,290!2024-06-08,16,290-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-18,15,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-06-08,13,270!2024-06-13,14,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-07,4,230!2024-06-09,17,290-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-18,11,230!2024-06-09,17,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-17,12,250!2024-06-11,6,230-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-29,26,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
@@ -392,8 +392,8 @@ Observed Global Climate Change
 
 Observed climate change in Hong Kong
 
-- climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
-  - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-06-07,15,290!2024-06-08,16,290-->
+- climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-07-22,45,290!2024-06-08,16,290-->
+  - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-08-05,59,310!2024-06-08,16,290-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-07-31,55,310!2024-07-19,43,290-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-06-14,14,230!2024-06-08,16,290-->
 
@@ -402,7 +402,7 @@ Observed climate change in Hong Kong
 Concentration Units for Liquids
 
 - concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-07-07,33,270!2024-07-17,43,290-->
-  - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-07-09,34,290!2024-06-07,15,290-->
+  - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-07-09,34,290!2024-08-05,59,310-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
 
 ## page 34
@@ -428,7 +428,7 @@ Concentration Units for Gases
 
 - concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
   - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-06-08,16,290!2024-06-09,17,290-->
-  - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-06-07,15,290!2024-07-28,52,310-->
+  - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-08-08,62,310!2024-07-28,52,310-->
 
 ## page 37
 

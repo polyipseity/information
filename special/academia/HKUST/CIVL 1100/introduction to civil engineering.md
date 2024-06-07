@@ -72,13 +72,13 @@ The content is in teaching order.
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-06-08,30,320!2024-06-21,46,332-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-06-07,29,321!2024-06-27,55,356-->
+- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2024-06-27,55,356-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2024-07-29,81,370-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-06-28,44,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2024-07-18,68,350-->
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-06-07,27,230!2024-06-24,49,332-->
+    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-08-12,66,230!2024-06-24,49,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-07-27,64,314!2024-07-17,67,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-08-20,85,312!2024-12-04,219,319-->
@@ -91,7 +91,7 @@ The content is in teaching order.
   - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2024-06-21,77,330-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-08-09,90,375-->
-    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-06-07,29,320!2024-10-17,135,332-->
+    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2024-08-01,84,374-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
@@ -400,7 +400,7 @@ Water Cube
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2024-06-27,54,347-->
-- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-06-07,35,330-->
+- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-06-15,42,332-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
@@ -673,7 +673,7 @@ socioeconomic
 
 - _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2024-07-27,79,374-->
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2024-07-14,69,357-->
-- chemical→:::←cultural <!--SR:!2024-06-09,16,280!2024-06-07,37,337-->
+- chemical→:::←cultural <!--SR:!2024-06-09,16,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-06-26,32,277-->
@@ -846,7 +846,7 @@ Tsing Ma Bridge
 
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2024-07-10,65,357-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-06-19,26,287-->
-- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-07,29,320-->
+- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-23,16,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-06-23,43,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-06-21,46,335!2024-08-31,93,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
@@ -953,7 +953,7 @@ wave
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-06-09,13,297-->
-- strong wind→:::←wave <!--SR:!2024-06-07,58,270!2024-06-22,37,294-->
+- strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-06-22,37,294-->
 - wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-07-22,67,315-->
 
 <!--/pytextgen-->
@@ -1226,7 +1226,7 @@ water treatment
 
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-06-07,38,337-->
+- _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-06-11,18,280!2024-07-03,50,315-->
