@@ -20,6 +20,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
+- time: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database
   - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B.
   - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph.
@@ -31,6 +32,7 @@ The content is in teaching order.
 
 ## week 2 lecture 1
 
+- time: 2024-02-05T09:00:00+08:00/2024-02-05T10:30:00+08:00
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
   - support definition ::: We use "the number of transactions containing $X$" definition here.
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
@@ -39,11 +41,13 @@ The content is in teaching order.
 
 ## week 2 lecture 2
 
+- time: 2024-02-07T09:00:00+08:00/2024-02-07T10:30:00+08:00
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
 
 ## week 3 lecture
 
+- time: 2024-02-14T09:00:00+08:00/2024-02-14T10:30:00+08:00
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
 - [Apriori algorithm § the algorithm](../../../../general/Apriori%20algorithm.md#the%20algorithm)
 - [Apriori algorithm § limitations](../../../../general/Apriori%20algorithm.md#limitations)
@@ -51,6 +55,7 @@ The content is in teaching order.
 
 ## week 4 lecture 1
 
+- time: 2024-02-19T09:00:00+08:00/2024-02-19T10:30:00+08:00
 - [FP-growth algorithm § FP-tree](../../../../general/FP-growth%20algorithm.md#FP-tree)
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
   - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut.
@@ -58,11 +63,13 @@ The content is in teaching order.
 
 ## week 4 tutorial
 
+- time: 2024-02-19T18:00:00+08:00/2024-02-19T19:00:00+08:00
 - topic: helping students who encountered problems of using XLMiner in our CSE lab and using XLMiner outside CSE Lab
 - [Analytics Solver usage § installation](../../../Analytic%20Solver%20usage.md#installation)
 
 ## week 4 lecture 2
 
+- time: 2024-02-21T09:00:00+08:00/2024-02-21T10:30:00+08:00
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
 - [FP-growth algorithm § complexity](../../../../general/FP-growth%20algorithm.md#complexity)
@@ -70,6 +77,7 @@ The content is in teaching order.
 
 ## week 5 lecture 1
 
+- time: 2024-02-26T09:00:00+08:00/2024-02-26T10:30:00+08:00
 - [_k_-means clustering § standard algorithm (naive _k_-means)](../../../../general/k-means%20clustering.md#standard%20algorithm%20(naive%20_k_-means))
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
@@ -78,13 +86,17 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
+- time: 2024-02-26T18:00:00+08:00/2024-02-26T19:00:00+08:00
 - topic: using XLMiner for association rule mining
 - [association rule learning § useful concepts](../../../../general/association%20rule%20learning.md#useful%20concepts)
 - [association rule learning § algorithms](../../../../general/association%20rule%20learning.md#algorithms)
 - [Analytics Solver usage § usage](../../../Analytic%20Solver%20usage.md#usage)
+- [Analytics Solver usage § input formats](../../../Analytic%20Solver%20usage.md#input%20formats)
+- [Analytics Solver usage § common parameters](../../../Analytic%20Solver%20usage.md#common%20parameters)
 
 ## week 5 lecture 2
 
+- time: 2024-02-28T09:00:00+08:00/2024-02-28T10:30:00+08:00
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
@@ -94,6 +106,7 @@ The content is in teaching order.
 
 ## week 6 lecture 1
 
+- time: 2024-03-04T09:00:00+08:00/2024-03-04T10:30:00+08:00
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
@@ -103,11 +116,15 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
+- time: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
+- Jaccard's coefficient for binary data ::: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes)
+- matching coefficient for binary data ::: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md)
 
 ## week 6 lecture 2
 
+- time: 2024-03-06T09:00:00+08:00/2024-03-06T10:30:00+08:00
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
@@ -119,7 +136,9 @@ The content is in teaching order.
 
 ## week 7 lecture 1
 
+- time: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
 - [entropy](../../../../general/entropy%20(information%20theory).md)
+- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow.
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
   - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART.
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
@@ -134,6 +153,7 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
+- time: 2024-03-11T18:00:00+08:00/2024-03-11T19:00:00+08:00
 - topic: using XLMiner for _k_-means and hierarchical clustering
 - [_k_-means clustering § standard algorithm (naive _k_-means)](../../../../general/k-means%20clustering.md#standard%20algorithm%20(naive%20_k_-means))
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
@@ -144,6 +164,7 @@ The content is in teaching order.
 
 ## week 7 lecture 2
 
+- time: 2024-03-13T09:00:00+08:00/2024-03-13T10:30:00+08:00
 - [confusion matrix](../../../../general/confusion%20matrix.md)
   - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class.
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
@@ -156,12 +177,23 @@ The content is in teaching order.
 
 ## week 8 lecture 1
 
+- time: 2024-03-18T09:00:00+08:00/2024-03-18T10:30:00+08:00
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
-- exam format voting
+- midterm exam format voting
   - bonus question (+10%, max 100%): no
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 70 minutes
   - types: 80% long questions, 20% multiple choice questions
 - [naive Bayes classifier § probabilistic model](../../../../general/naive%20Bayes%20classifier.md#probabilistic%20model)
-- [Bayes' theorem § statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
+- [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
+  - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
+  - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
+
+<!--
+- final exam format voting
+  - bonus question (+10%, max 100%): no
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 150 minutes
+  - types: 100% short or long questions, 0% multiple choice questions
+-->
