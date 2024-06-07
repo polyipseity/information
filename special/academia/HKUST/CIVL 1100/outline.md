@@ -22,12 +22,18 @@ The content is in teaching order.
 
 ## week 2 lecture
 
+- time: 2024-02-05T16:00:00+08:00/2024-02-05T18:00:00+08:00
 - 3 covered fields ::: civil and structural engineering, environmental engineering, geo-technical engineering
 - [introduction to civil engineering](introduction%20to%20civil%20engineering.md)
 - [data](data.md)
 
+## week 3 lecture
+
+- public holiday
+
 ## week 4 lecture
 
+- time: 2024-02-19T16:00:00+08:00/2024-02-19T18:00:00+08:00
 - [free body](../../../../general/free%20body.md)
   - [§ external and internal forces](../../../../general/free%20body.md#external%20and%20internal%20forces)
   - [§ example](../../../../general/free%20body.md#example)
@@ -89,6 +95,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
+- time: 2024-02-26T16:00:00+08:00/2024-02-26T18:00:00+08:00
 - [truss](../../../../general/truss.md)
   - [§ characteristics](../../../../general/truss.md#characteristics)
   - [§ analysis](../../../../general/truss.md#analysis)
@@ -124,18 +131,25 @@ The content is in teaching order.
 
 ## week 6 lecture
 
+- time: 2024-03-04T16:00:00+08:00/2024-03-04T18:00:00+08:00
 - [`I-4.1 History of civil engineering and Infrastructure.pdf`](transcripts/I-4.1%20History%20of%20civil%20engineering%20and%20Infrastructure.pdf.md)
 -
 
 ## week 7 lecture
 
+- time: 2024-03-11T16:00:00+08:00/2024-03-11T18:00:00+08:00
 - [`II-5 Environmental Engineering and Management_11 Mar 2024.pdf`](transcripts/II-5%20Environmental%20Engineering%20and%20Management_11%20Mar%202024.pdf.md)
 
 ## week 8 lecture
 
+- time: 2024-03-18T16:00:00+08:00/2024-03-18T18:00:00+08:00
 - [`II-6 Land Decontamination and Solid Waste_18 Mar 2024.pdf`](transcripts/II-6%20Land%20Decontamination%20and%20Solid%20Waste_18%20Mar%202024.pdf.md)
 
 ## week 9 lecture
+
+## week 10 lecture
+
+- public holiday
 
 ## week 11 lecture
 
