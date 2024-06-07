@@ -45,7 +45,7 @@ Example quiz questions for preparing exams.
 > 3. Urban residential
 > 4. Public parks
 >
-> - solution: {{1}} <!--SR:!2024-06-07,14,292-->
+> - solution: {{1}} <!--SR:!2024-08-01,55,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ Example quiz questions for preparing exams.
 > 3. When the distance away from a point source reduces by half, the sound level increases by 6 dB
 > 4. When the sound pressure increases 100 times, the sound level increases by 10 dB
 >
-> - solution: {{3}} <!--SR:!2024-06-07,14,292-->
+> - solution: {{3}} <!--SR:!2024-07-15,38,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -214,7 +214,7 @@ Example quiz questions for preparing exams.
 > 3. Nitrogen oxides
 > 4. Solvents
 >
-> - solution: {{3}} <!--SR:!2024-06-07,15,292-->
+> - solution: {{3}} <!--SR:!2024-07-23,46,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -253,7 +253,7 @@ Example quiz questions for preparing exams.
 > 3. Buildings
 > 4. Transportation
 >
-> - solution: {{3}} <!--SR:!2024-06-07,14,292-->
+> - solution: {{3}} <!--SR:!2024-07-15,38,292-->
 
 ## geotechnical engineering quiz 1
 

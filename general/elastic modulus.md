@@ -13,7 +13,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __elastic modulus__ (also known as {{__modulus of elasticity__}}) is {{a measure of an object's resistance to being deformed elastically when a [stress](stress%20(mechanics).md) is applied}}. <!--SR:!2024-07-09,39,290!2024-06-07,17,290-->
+An __elastic modulus__ (also known as {{__modulus of elasticity__}}) is {{a measure of an object's resistance to being deformed elastically when a [stress](stress%20(mechanics).md) is applied}}. <!--SR:!2024-07-09,39,290!2024-08-19,73,310-->
 
 ## definition
 
@@ -57,7 +57,7 @@ There are many types of elastic moduli that can be defined. The {{<!--pytextgen 
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-13T21:24:01.873248+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_[Young's modulus](Young's%20modulus.md)_ ($E$) <!--SR:!2024-07-18,43,290!2024-06-07,17,290-->
+- _(begin)_→:::←_[Young's modulus](Young's%20modulus.md)_ ($E$) <!--SR:!2024-07-18,43,290!2024-08-12,66,310-->
 - _[Young's modulus](Young's%20modulus.md)_ ($E$)→:::←_[bulk modulus](bulk%20modulus.md)_ ($K$) <!--SR:!2024-07-23,50,310!2024-07-29,55,310-->
 - _[bulk modulus](bulk%20modulus.md)_ ($K$)→:::←_[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$) <!--SR:!2024-07-08,38,290!2024-07-23,48,290-->
 - _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→:::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$) <!--SR:!2024-06-24,25,270!2024-07-17,45,290-->

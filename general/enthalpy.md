@@ -46,7 +46,7 @@ return await memorize_seq(
 )
 ```
 
-Enthalpy changes are measured under the following {{standard conditions}}: <!--SR:!2024-06-07,336,330-->
+Enthalpy changes are measured under the following {{standard conditions}}: <!--SR:!2028-08-12,1527,350-->
 
 <!--pytextgen generate section="d92a"--><!-- The following content is generated at 2023-04-01T23:56:04.117433+08:00. Any edits will be overridden! -->
 

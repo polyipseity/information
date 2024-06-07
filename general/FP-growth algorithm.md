@@ -38,7 +38,7 @@ The reason why we add the the empty set before returning the frequent item sets 
 
 #### growth shortcut
 
-While the above algorithm is now complete as described, there is {{a special case in which we can shortcut the growth step}}. If, after constructing the FP-tree, the FP-tree {{is a chain, i.e. every node has at most one child, which includes the tree with only the root node}}, then the frequent item sets are {{all possible subsets of the set of items in the entire chain, including the empty set and the whole set itself}}. The number of subsets should be {{$2^H$, where $H$ is the height of the chain}}.  (Note that the height of a chain with the root node only is {{0, not 1}}.) Their corresponding item set counts are {{the minimums of the counts of the items in the item set, i.e. item count of the deepest node. For the empty set, it is the number of transactions in the provided database $D$}}. If the _slightly modified_ algorithm is used, {{always remove the empty set}}. <!--SR:!2024-11-05,152,310!2024-06-15,44,290!2024-06-07,38,290!2024-10-27,146,290!2024-09-02,105,290!2024-06-21,50,290!2024-07-12,67,328-->
+While the above algorithm is now complete as described, there is {{a special case in which we can shortcut the growth step}}. If, after constructing the FP-tree, the FP-tree {{is a chain, i.e. every node has at most one child, which includes the tree with only the root node}}, then the frequent item sets are {{all possible subsets of the set of items in the entire chain, including the empty set and the whole set itself}}. The number of subsets should be {{$2^H$, where $H$ is the height of the chain}}.  (Note that the height of a chain with the root node only is {{0, not 1}}.) Their corresponding item set counts are {{the minimums of the counts of the items in the item set, i.e. item count of the deepest node. For the empty set, it is the number of transactions in the provided database $D$}}. If the _slightly modified_ algorithm is used, {{always remove the empty set}}. <!--SR:!2024-11-05,152,310!2024-06-15,44,290!2024-09-23,108,290!2024-10-27,146,290!2024-09-02,105,290!2024-06-21,50,290!2024-07-12,67,328-->
 
 One can prove that the shortcut above {{produces the same result as without using the shortcut}}. <!--SR:!2024-07-01,61,310-->
 
@@ -285,7 +285,7 @@ if __name__ == "__main__":
 
 Time-wise, building the FP-tree {{only requires one (or two, depending on how you define "scan") scan, and inserting one transaction into the FP-tree only grows with the number of frequent items in the transaction}}. This is good especially if {{the entire database is IO-bounded and too large to be fitted into memory}}. <!--SR:!2024-08-12,84,290!2024-08-31,91,270-->
 
-Space-wise, the FP-tree size, i.e. number of nodes, is {{bounded by the number of frequent item set patterns, and is usually much less than the bound}}. The height of the FP-tree, is {{bounded by the maximum number of items of frequent item sets}}. This is good because it means {{the FP-tree can be fitted into memory even if the database is very large}}. <!--SR:!2024-06-15,38,250!2024-06-07,32,250!2024-06-23,51,290-->
+Space-wise, the FP-tree size, i.e. number of nodes, is {{bounded by the number of frequent item set patterns, and is usually much less than the bound}}. The height of the FP-tree, is {{bounded by the maximum number of items of frequent item sets}}. This is good because it means {{the FP-tree can be fitted into memory even if the database is very large}}. <!--SR:!2024-06-15,38,250!2024-08-24,78,250!2024-06-23,51,290-->
 
 ## references
 

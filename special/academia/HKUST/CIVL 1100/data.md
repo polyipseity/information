@@ -102,7 +102,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-06-22,29,376-->
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-10,4,296!2024-06-26,33,376-->
-- description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-06-07,14,356!2024-06-22,29,376-->
+- description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-06-22,29,376-->
 - geographic location ::: Rome <!--SR:!2024-06-16,23,376!2024-06-18,25,376-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-11,6,316!2024-06-21,28,376-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-06-25,32,376!2024-06-22,29,376-->
@@ -120,7 +120,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
-- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-06-23,30,376!2024-06-07,14,356-->
+- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-06-23,30,376!2024-08-16,70,376-->
 
 ## Golden Gate Bridge
 
@@ -137,7 +137,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-06-15,22,376!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-06-19,26,376-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-06-17,24,376!2024-06-21,28,376-->
-- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-06-24,31,376!2024-06-07,14,356-->
+- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-06-24,31,376!2024-08-16,70,376-->
 
 ## Great Wall of China
 
@@ -146,7 +146,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-06-19,26,376-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-06-08,15,356!2024-06-24,31,376-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-06-09,16,356!2024-06-22,29,376-->
-- length ::: 21196.18 km <!--SR:!2024-06-07,4,316!2024-06-21,28,376-->
+- length ::: 21196.18 km <!--SR:!2024-06-19,12,316!2024-06-21,28,376-->
 
 ## HSBC Main Building
 
@@ -181,7 +181,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-06-26,33,281!2024-06-24,52,347-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
-- length ::: 379 m <!--SR:!2024-06-07,10,261!2024-06-21,49,350-->
+- length ::: 379 m <!--SR:!2024-07-02,25,261!2024-06-21,49,350-->
 
 ## International Commerce Centre
 
@@ -218,10 +218,10 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-06-08,15,356!2024-06-21,28,376-->
-- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-06-07,14,356!2024-06-08,15,356-->
+- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-06-08,15,356-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-07,14,356!2024-06-16,23,376-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-12,5,336!2024-06-16,23,376-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-06-09,16,356-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-06-08,15,356-->
 - width ::: 32.05 m <!--SR:!2024-06-15,18,356!2024-06-15,18,356-->
@@ -278,7 +278,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-07,14,221!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-12,5,201!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-06-10,28,320!2024-08-23,90,380-->
 
@@ -322,4 +322,4 @@ See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-08-12,93,374-->
 - image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-09-12,108,380-->
-- shape ::: cube covered with bubbles <!--SR:!2024-06-28,55,350!2024-06-07,63,330-->
+- shape ::: cube covered with bubbles <!--SR:!2024-06-28,55,350!2024-12-31,207,330-->

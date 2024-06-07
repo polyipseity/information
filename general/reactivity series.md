@@ -215,12 +215,12 @@ return _chain.from_iterable(await _gather(
 - Cr<sup>3+</sup>::[chromium](chromium.md) <!--SR:!2025-07-02,395,367-->
 - Fe<sup>2+</sup>::[iron](iron.md) <!--SR:!2025-05-15,355,365-->
 - Cd<sup>2+</sup>::[cadmium](cadmium.md) <!--SR:!2025-05-14,354,365-->
-- Co<sup>2+</sup>::[cobalt](cobalt.md) <!--SR:!2024-06-07,86,345-->
+- Co<sup>2+</sup>::[cobalt](cobalt.md) <!--SR:!2025-07-18,406,365-->
 - Ni<sup>2+</sup>::[nickel](nickel.md) <!--SR:!2025-06-01,369,365-->
 - Sn<sup>2+</sup>::[tin](tin.md) <!--SR:!2025-04-09,328,367-->
 - Pb<sup>2+</sup>::[lead](lead.md) <!--SR:!2025-03-01,275,345-->
 - Sb<sup>3+</sup>::[antimony](antimony.md) <!--SR:!2025-03-25,292,345-->
-- Bi<sup>3+</sup>::[bismuth](bismuth.md) <!--SR:!2024-06-07,86,345-->
+- Bi<sup>3+</sup>::[bismuth](bismuth.md) <!--SR:!2025-07-19,407,365-->
 - Cu<sup>2+</sup>::[copper](copper.md) <!--SR:!2025-05-23,362,367-->
 - W<sup>3+</sup>::[tungsten](tungsten.md) <!--SR:!2025-04-30,343,365-->
 - Hg<sup>2+</sup>::[mercury](mercury%20(element).md) <!--SR:!2025-07-06,398,365-->
@@ -244,7 +244,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)::reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
 - [magnesium](magnesium.md)::reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2024-06-17,19,130-->
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-08-01,64,150-->
-- [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-06-07,14,130-->
+- [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-06-24,17,130-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
 - [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-16,12,130-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-06-30,295,270-->
