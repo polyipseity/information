@@ -18,7 +18,7 @@ A __chemical substance__ is {{a matter with characteristic properties and consta
 
 Compare with [mixture § properties](mixture.md#properties).
 
-- composition ::: fixed, definite, constant <!--SR:!2024-09-06,381,290!2024-06-08,69,338-->
+- composition ::: fixed, definite, constant <!--SR:!2024-09-06,381,290!2025-04-23,319,358-->
 - formation ::: [chemical reaction](chemical%20reaction.md) occurs <!--SR:!2027-10-06,1287,350!2025-04-18,315,358-->
 - properties ::: different from its constituents <!--SR:!2024-09-19,370,290!2024-06-21,81,338-->
 - separation ::: separable by chemical methods but not physical methods <!--SR:!2026-01-01,769,330!2024-06-22,82,338-->

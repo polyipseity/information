@@ -13,35 +13,35 @@ tags:
 
 > {{![visual representation of the model](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}}
 >
-> {{visual representation of the model}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+> {{visual representation of the model}} <!--SR:!2024-06-22,14,290!2024-06-22,14,290-->
 
 ## five forces that shape competition
 
-The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-06-25,17,290!2024-06-21,13,290-->
 
 ### threat of new entrants
 
-{{Barriers to entry}} restrict the threat of new entrants. Th barriers can be {{business nature or government regulations}}. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+{{Barriers to entry}} restrict the threat of new entrants. Th barriers can be {{business nature or government regulations}}. <!--SR:!2024-06-21,13,290!2024-06-24,16,290-->
 
 ### threat of substitutes
 
-A substitute product {{uses a different technology to solve the same economic need}}. <!--SR:!2024-06-08,4,270-->
+A substitute product {{uses a different technology to solve the same economic need}}. <!--SR:!2024-06-25,17,290-->
 
 ### bargaining power of buyers
 
-Buyers' power is high if {{there are many alternatives, and low if there are few}}. Unbranded or commoditized products or services have {{no loyalty from buyers}}. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+Buyers' power is high if {{there are many alternatives, and low if there are few}}. Unbranded or commoditized products or services have {{no loyalty from buyers}}. <!--SR:!2024-06-25,17,290!2024-06-24,16,290-->
 
 ### bargaining power of suppliers
 
-Suppliers' power is high if {{there are few suppliers, and low if there are many}}. <!--SR:!2024-06-08,4,270-->
+Suppliers' power is high if {{there are few suppliers, and low if there are many}}. <!--SR:!2024-06-23,15,290-->
 
 ### industry rivalry
 
-Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!2024-06-08,4,270-->
+Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!2024-06-23,15,290-->
 
 ## usage
 
-Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-06-24,16,290!2024-06-19,11,270-->
 
 ## references
 

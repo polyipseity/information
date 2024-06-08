@@ -13,7 +13,7 @@ tags:
 
 ### standard algorithm (naive _k_-means)
 
-Assuming that we have $k$ clusters, {{make $k$ initial means}}. Repeat the following two steps: <!--SR:!2024-06-08,40,293-->
+Assuming that we have $k$ clusters, {{make $k$ initial means}}. Repeat the following two steps: <!--SR:!2024-11-17,162,313-->
 
 1. __assignment step__ ::: Assign each observation to the nearest mean, using the (squared) [Euclidean distance](Euclidean%20distance.md). If there are two or more means of the same distance, arbitrarily choose one of them. <!--SR:!2024-06-10,41,293!2024-07-03,62,313-->
 2. __update step__ ::: Recalculate means (or [centroids](centroid.md)) using the assigned observations. <!--SR:!2024-06-15,49,290!2024-08-13,89,290-->
@@ -35,7 +35,7 @@ A naive way to initialize the means is {{randomly choose $k$ observations}}. A l
   - sequential _k_-means ::: The weight $\alpha = \frac 1 {n + 1}$, where $n$ is the number of observations that has modified the closest mean $m_*$, not including the current one. <!--SR:!2024-06-20,43,250!2024-06-29,47,250-->
     - sequential _k_-means interpretation ::: The resulting mean is the same as the mean of all incoming observations calculated at once, i.e. $m_n = \frac 1 n \sum_{k = 1}^n x_k$. This is simply the [cumulative average](moving%20average.md#cumulative%20average) of the incoming observations. <!--SR:!2024-09-11,108,290!2024-09-28,113,293-->
   - forgetful sequential _k_-means ::: The weight $\alpha \in [0, 1]$ is a constant. It is useful for clusters that drift over time. <!--SR:!2024-09-29,121,293!2024-06-28,58,313-->
-    - forgetful sequential _k_-means interpretation ::: When $\alpha = 0$, the mean never moves. When $\alpha = 1$, the mean is always the new observation. Otherwise, observations have exponentially less weighting on the mean over time, though never zero. This way, they are "forgotten", but never quite completely. The closed form is $m_n = (1 - a)^n m_0 + a \sum_{k = 1}^n (1 - a)^{n - k} x_k$. This is simply the [exponential moving average](moving%20average.md#exponential%20moving%20average). <!--SR:!2024-07-10,56,253!2024-06-08,33,253-->
+    - forgetful sequential _k_-means interpretation ::: When $\alpha = 0$, the mean never moves. When $\alpha = 1$, the mean is always the new observation. Otherwise, observations have exponentially less weighting on the mean over time, though never zero. This way, they are "forgotten", but never quite completely. The closed form is $m_n = (1 - a)^n m_0 + a \sum_{k = 1}^n (1 - a)^{n - k} x_k$. This is simply the [exponential moving average](moving%20average.md#exponential%20moving%20average). <!--SR:!2024-07-10,56,253!2024-08-29,82,253-->
 
 ## discussion
 

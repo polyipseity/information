@@ -70,7 +70,7 @@ The content is in teaching order.
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2024-07-11,63,345-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2024-07-07,62,345-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-06-08,30,320!2024-06-21,46,332-->
+  - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2024-06-21,46,332-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2024-06-27,55,356-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
@@ -983,7 +983,7 @@ Two Prudential Plaza
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
-- Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-06-08,30,340-->
+- Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-09-17,101,340-->
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-06-15,12,280-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-09-15,101,320-->
 
@@ -1054,7 +1054,7 @@ Hong Kong Code
 - _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2024-07-27,79,374-->
 - American Code→:::←Australian Standard <!--SR:!2024-06-17,42,335!2024-08-14,95,375-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
-- Chinese Code→:::←Eurocode <!--SR:!2024-06-08,38,335!2024-07-18,70,357-->
+- Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2024-07-18,70,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-06-11,36,337-->
 - Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2025-02-21,263,350-->
 
@@ -1142,7 +1142,7 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-06-08,30,320!2024-06-21,77,330-->
+- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-09-11,95,320!2024-06-21,77,330-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
