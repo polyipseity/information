@@ -86,24 +86,24 @@ return await memorize_seq(
 )
 ```
 
-<!--pytextgen generate section="a123"--><!-- The following content is generated at 2024-05-25T19:07:44.634739+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a123"--><!-- The following content is generated at 2024-06-09T06:29:24.040662+08:00. Any edits will be overridden! -->
 
-> 1. air sparging
-> 2. bioremediation
-> 3. catalytic oxidation
-> 4. ex-situ biopile
-> 5. ex-situ solidification or stabilization
+> 1. (Cap. 311) Air Pollution Control Ordinance
+> 2. (Cap. 354) Waste Disposal Ordinance
+> 3. (Cap. 358) Water Pollution Control Ordinance
+> 4. (Cap. 400) Noise Pollution Control Ordinance
+> 5. (Cap. 499) Environmental Impact Ordinance
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-05-25T19:07:44.595535+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging
-- air sparging→:::←bioremediation
-- bioremediation→:::←catalytic oxidation
-- catalytic oxidation→:::←ex-situ biopile
-- ex-situ biopile→:::←ex-situ solidification or stabilization
-- ex-situ solidification or stabilization→:::←_(end)_
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance
+- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_
 
 <!--/pytextgen-->
 
@@ -135,14 +135,31 @@ ex-situ biopile
 ex-situ solidification or stabilization
 """.strip().splitlines()
 return await memorize_seq(
-  __env__.cwf_sects("a123", "a92d"),
+  __env__.cwf_sects("b02d", "ee23"),
   items,
 )
 ```
 
-<!--pytextgen generate section="b02d"--><!--/pytextgen-->
+<!--pytextgen generate section="b02d"--><!-- The following content is generated at 2024-06-09T06:29:24.101715+08:00. Any edits will be overridden! -->
 
-<!--pytextgen generate section="ee23"--><!--/pytextgen-->
+> 1. air sparging
+> 2. bioremediation
+> 3. catalytic oxidation
+> 4. ex-situ biopile
+> 5. ex-situ solidification or stabilization
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←air sparging
+- air sparging→:::←bioremediation
+- bioremediation→:::←catalytic oxidation
+- catalytic oxidation→:::←ex-situ biopile
+- ex-situ biopile→:::←ex-situ solidification or stabilization
+- ex-situ solidification or stabilization→:::←_(end)_
+
+<!--/pytextgen-->
 
 ## page 7
 

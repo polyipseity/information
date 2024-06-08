@@ -172,10 +172,10 @@ The content is in teaching order.
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md).
 - [MECE principle](../../../../general/MECE%20principle.md)
-- key concepts ::: abstraction, framework, model
-  - key concept: abstraction ::: filter for elements relevant to some specific purpose
-  - key concept: framework ::: a support structure around which something can be built
-  - key concept: model ::: an abstraction of the real world for some specific purpose
+- modeling key concepts ::: abstraction, framework, model
+  - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose
+  - modeling key concept: framework ::: a support structure around which something can be built
+  - modeling key concept: model ::: an abstraction of the real world for some specific purpose
 - Aguilar's PESTLE framework ::: business environment analysis
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis
