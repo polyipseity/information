@@ -16,7 +16,7 @@ Compare with [chemical substance § properties](chemical%20substance.md#properti
 
 - composition ::: variable <!--SR:!2024-06-28,293,270!2024-12-13,211,333-->
 - formation ::: no [chemical reactions](chemical%20reaction.md), no to little energy change ([enthalpy of mixing](enthalpy%20of%20mixing.md)) <!--SR:!2025-02-28,329,270!2024-06-17,77,333-->
-- properties ::: each constituent keeps its properties <!--SR:!2025-08-29,644,310!2024-06-08,68,333-->
+- properties ::: each constituent keeps its properties <!--SR:!2025-08-29,644,310!2025-04-15,311,353-->
 - separation ::: separable by physical and chemical methods <!--SR:!2027-02-14,1014,330!2024-06-13,73,333-->
 - [boiling point](boiling%20point.md) and [melting point](melting%20point.md) ::: wide <!--SR:!2026-09-13,907,330!2025-02-25,274,353-->
 

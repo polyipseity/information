@@ -13,15 +13,15 @@ tags:
 
 ## McCarthy's 4 Ps
 
-The original marketing mix, or 4Ps, are {{_product_, _price_, _place_, and _promotion_}}. <!--SR:!2024-06-08,4,270-->
+The original marketing mix, or 4Ps, are {{_product_, _price_, _place_, and _promotion_}}. <!--SR:!2024-06-21,13,290-->
 
-__Product__ refers to {{the offered products or services}}. For example, it includes {{brand, functionality, packaging, services, etc.}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+__Product__ refers to {{the offered products or services}}. For example, it includes {{brand, functionality, packaging, services, etc.}} <!--SR:!2024-06-24,16,290!2024-06-21,13,290-->
 
-__Price__ refers to {{the monetary and psychological costs}}. For example, it includes {{bundling, credit terms, discounts, list pricing, etc.}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+__Price__ refers to {{the monetary and psychological costs}}. For example, it includes {{bundling, credit terms, discounts, list pricing, etc.}} <!--SR:!2024-06-23,15,290!2024-06-25,17,290-->
 
-__Place__ refers to {{the physical locations of sale or distribution channels}}. For example, it includes {{channel, distribution, inventory, logistics, etc.}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+__Place__ refers to {{the physical locations of sale or distribution channels}}. For example, it includes {{channel, distribution, inventory, logistics, etc.}} <!--SR:!2024-06-22,14,290!2024-06-18,10,270-->
 
-__Promotion__ refers to {{the marketing communications used to reach customers}}. For example, it includes {{advertising, publicity, sales force, sales promotion, etc.}} <!--SR:!2024-06-08,4,270!2024-06-08,4,270-->
+__Promotion__ refers to {{the marketing communications used to reach customers}}. For example, it includes {{advertising, publicity, sales force, sales promotion, etc.}} <!--SR:!2024-06-23,15,290!2024-06-24,16,290-->
 
 ## references
 

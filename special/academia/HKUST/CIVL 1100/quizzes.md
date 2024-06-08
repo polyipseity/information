@@ -318,7 +318,7 @@ Example quiz questions for preparing exams.
 > 3. The soil underneath is too soft
 > 4. The wind loading is too high
 >
-> - solution: {{3}} <!--SR:!2024-06-08,16,292-->
+> - solution: {{3}} <!--SR:!2024-08-08,61,312-->
 
 <!-- markdownlint MD028 -->
 

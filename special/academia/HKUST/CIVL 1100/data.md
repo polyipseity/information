@@ -144,7 +144,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-06-19,26,376-->
-- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-06-08,15,356!2024-06-24,31,376-->
+- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-06-24,31,376-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-06-09,16,356!2024-06-22,29,376-->
 - length ::: 21196.18 km <!--SR:!2024-06-19,12,316!2024-06-21,28,376-->
 
@@ -217,13 +217,13 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
-- designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-06-08,15,356!2024-06-21,28,376-->
-- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-06-08,15,356-->
+- designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-06-21,28,376-->
+- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-12,5,336!2024-06-16,23,376-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-06-09,16,356-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-06-08,15,356-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
 - width ::: 32.05 m <!--SR:!2024-06-15,18,356!2024-06-15,18,356-->
 
 ## Mont Cenis Base Tunnel
@@ -286,7 +286,7 @@ See [Taipei 101](Taipei%20101.md).
 
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
-- [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-06-08,30,321!2024-08-03,84,377-->
+- [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2024-08-03,84,377-->
 - height ::: 20.1 m <!--SR:!2024-06-29,36,281!2024-08-30,98,380-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-07-03,49,340!2024-08-24,92,380-->
 - length ::: 520 m <!--SR:!2024-07-02,39,280!2024-12-06,196,330-->

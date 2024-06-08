@@ -43,7 +43,7 @@ The formal definitions for the above one-sided limits can be obtained by {{takin
 
 The _two-sided limit_ exists at a point if {{the two one-sided limits exist and equal each other}}. By convention, the _limit_, without any adjectives, exists at a point {{for endpoints of the [function domains](domain%20of%20a%20function.md), if one of the one-sided limit exist, and for other points, if the two-sided limit exists}}. A less common definition is the _limit_ exists {{if the two-sided limit exists regardless if the point is an endpoint}}. The former definition is {{more aligned with even further generalized definitions of the limit as it only considers points within the [function domains](domain%20of%20a%20function.md)}}. We will use this definition in the article. <!--SR:!2024-08-16,108,304!2024-12-09,209,344!2024-06-10,70,344!2024-10-06,151,324-->
 
-If the limit does not exist, then {{the [oscillation](oscillation%20(mathematics).md#oscillation%20of%20a%20function%20at%20a%20point) of $f$ at $p$ is nonzero}}. <!--SR:!2024-06-08,68,344-->
+If the limit does not exist, then {{the [oscillation](oscillation%20(mathematics).md#oscillation%20of%20a%20function%20at%20a%20point) of $f$ at $p$ is nonzero}}. <!--SR:!2025-04-25,321,364-->
 
 > [!example] examples
 >

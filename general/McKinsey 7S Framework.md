@@ -13,7 +13,7 @@ tags:
 
 > {{![visual representation of the model](../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}}
 >
-> {{visual representation of the model}} <!--SR:!2024-06-08,3,250!2024-06-09,4,270-->
+> {{visual representation of the model}} <!--SR:!2024-06-15,7,250!2024-06-09,4,270-->
 
 ## objective
 
@@ -22,7 +22,7 @@ The framework has {{7 interdependent elements}}, of which {{3 are hard elements 
 The 3 hard elements are {{_strategy_, _structure_, and _systems_}}. <!--SR:!2024-06-09,4,270-->
 
 - _strategy_ ::: actions intended to enhance competitive advantage <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
-- _structure_ ::: coordination and integration mechanisms, and division of activities <!--SR:!2024-06-08,3,250!2024-06-09,4,270-->
+- _structure_ ::: coordination and integration mechanisms, and division of activities <!--SR:!2024-06-15,7,250!2024-06-09,4,270-->
 - _systems_ ::: formal and informal procedures for allocation, measurement, and reward <!--SR:!2024-06-09,4,270!2024-06-09,4,270-->
 
 The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!--SR:!2024-06-09,4,270-->

@@ -156,7 +156,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8104"--><!-- The following content is generated at 2024-03-08T13:15:49.071658+08:00. Any edits will be overridden! -->
 
-- [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-06-08,51,303-->
+- [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-11-09,154,303-->
 - [silver oxide](silver%20oxide%20battery.md)::1.5 V, 1.6 V <!--SR:!2024-12-28,213,323-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2024-09-07,122,303-->
 
@@ -255,7 +255,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="46ff"--><!-- The following content is generated at 2024-03-06T23:36:40.541906+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times <!--SR:!2024-06-08,54,263-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::expensive, high discharge rate, high energy density, low [internal resistance](internal%20resistance.md), rechargeable up to 180–2000 times <!--SR:!2024-10-27,141,263-->
 - [lead–acid](lead–acid%20battery.md)::cheap [electricity](electricity.md), expensive, heavy, high [current](electric%20current.md), high discharge rate, [lead](lead.md) [toxicity](toxicity.md), rechargeable <350 times <!--SR:!2024-09-18,118,283-->
 - [lithium-ion](lithium-ion%20battery.md)::aging, very expensive, high discharge rate, high energy density, lightweight, protection circuitry needed for safety, rechargeable up to 400–1200 times, susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md) <!--SR:!2024-06-19,69,303-->
 

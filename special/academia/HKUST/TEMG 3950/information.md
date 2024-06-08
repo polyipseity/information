@@ -19,7 +19,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-06-08,33,270!2024-06-28,48,290!2024-07-04,56,310-->
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-10-15,129,290!2024-06-28,48,290!2024-07-04,56,310-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-07-06,45,250-->
 
@@ -89,7 +89,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-06-08,4,281!2024-06-08,4,281!2024-06-08,4,281!2024-06-08,4,281!2024-06-08,4,281-->
+The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-06-25,17,301!2024-06-23,15,301!2024-06-22,14,301!2024-06-26,18,301!2024-06-25,17,301-->
 
 ### case analysis elements
 
@@ -131,17 +131,17 @@ root cause analysis, 5 whys
 
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-06-16,9,261!2024-06-08,4,281-->
-- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-15,8,261!2024-06-08,4,281-->
-- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
-- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-08,4,281!2024-06-17,10,261-->
+- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-06-24,16,301!2024-06-26,18,301-->
+- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-17,9,281!2024-06-25,17,301-->
+- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-06-24,16,301!2024-06-22,14,301-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-06-16,9,261!2024-06-24,16,301-->
+- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-06-23,15,301!2024-06-23,15,301-->
+- 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-06-17,9,281!2024-06-23,15,301-->
+- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-15,8,261!2024-06-22,14,301-->
+- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-24,16,301!2024-06-22,14,301-->
+- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-18,10,281!2024-06-17,10,261-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-16,9,261!2024-06-09,2,241-->
-- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-08,4,281!2024-06-17,10,261-->
-- root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-08,4,281!2024-06-08,4,281-->
+- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-18,10,281!2024-06-17,10,261-->
+- root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-25,17,301!2024-06-24,16,301-->
 
 <!--/pytextgen-->

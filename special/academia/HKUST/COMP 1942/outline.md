@@ -89,7 +89,7 @@ The content is in teaching order.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
-  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-08-13,83,291!2024-06-08,44,327-->
+  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-08-13,83,291!2024-12-22,197,347-->
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 
 ## week 6 lecture 1

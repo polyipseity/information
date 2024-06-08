@@ -91,7 +91,7 @@ return chain.from_iterable(await gather(
 
 - [Ward's method](Ward's%20method.md)::MISSQ, minimum increase of sum of squares <!--SR:!2024-06-15,35,255-->
 - centroid linkage clustering::UPGMC, unweighted centroid clustering <!--SR:!2024-06-25,54,295-->
-- [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering <!--SR:!2024-06-08,42,295-->
+- [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering <!--SR:!2024-11-26,171,315-->
 - median linkage clustering::WPGMC, weighted centroid clustering <!--SR:!2024-06-24,44,255-->
 - [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique <!--SR:!2024-06-26,57,315-->
 - unweighted average linkage clustering::[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2024-09-23,118,295-->
