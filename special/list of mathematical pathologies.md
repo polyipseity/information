@@ -24,7 +24,7 @@ tags:
 
 The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}.
 
-- [continuity](../general/continuous%20function.md) and discontinuity ::: It is neither continuous nor discontinuous at every [real](../general/real%20number.md).
+- [continuity](../general/continuous%20function.md) and discontinuity ::: It is discontinuous at every [real](../general/real%20number.md).
   - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md).
 - integrability
   - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md).
@@ -46,9 +46,9 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 {{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}} called the __empty function__.
 
-- [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md).
+- [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). It is neither continuous nor discontinuous at every [real](../general/real%20number.md).
   - global continuity or discontinuity ::: It is a [continuous function](../general/continuous%20function.md).
-- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md).
+- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md).
 
 ## topologies
 

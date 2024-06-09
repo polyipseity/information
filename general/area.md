@@ -24,7 +24,7 @@ from itertools import chain as _chain
 headers = "name", "description"
 table = (
   (R"[congruence](congruence%20(geometry).md)", R"If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$.",),
-  (R"positivity", R"For all set $S$ in $M$, $a(S) \ge 0$.",),
+  (R"nonnegativity", R"For all set $S$ in $M$, $a(S) \ge 0$.",),
   (R"rectangle", R"Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$.",),
   (R"squeezing", R"Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $U$ are in $M$ by the other axioms. If there exists an __unique__ number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$.",),
   (R"subtraction", R"If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$.",),
@@ -43,12 +43,12 @@ return _chain.from_iterable(await _gather(
 ))
 ```
 
-<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-03-18T20:03:11.156734+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="2f02"--><!-- The following content is generated at 2024-06-09T08:10:14.963380+08:00. Any edits will be overridden! -->
 
 > | name | description |
 > |-|-|
 > | [congruence](congruence%20(geometry).md) | If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. |
-> | positivity | For all set $S$ in $M$, $a(S) \ge 0$. |
+> | nonnegativity | For all set $S$ in $M$, $a(S) \ge 0$. |
 > | rectangle | Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$. |
 > | squeezing | Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $U$ are in $M$ by the other axioms. If there exists an __unique__ number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$. |
 > | subtraction | If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$. |
@@ -56,11 +56,11 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-02-01T16:56:31.292229+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-06-09T08:10:14.981729+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[congruence](congruence%20(geometry).md)
-- [congruence](congruence%20(geometry).md)→:::←positivity
-- positivity→:::←rectangle
+- [congruence](congruence%20(geometry).md)→:::←nonnegativity
+- nonnegativity→:::←rectangle
 - rectangle→:::←squeezing
 - squeezing→:::←subtraction
 - subtraction→:::←union and intersection
@@ -68,10 +68,10 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-03-18T20:03:11.117016+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-06-09T08:10:15.008056+08:00. Any edits will be overridden! -->
 
 - [congruence](congruence%20(geometry).md)::If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$.
-- positivity::For all set $S$ in $M$, $a(S) \ge 0$.
+- nonnegativity::For all set $S$ in $M$, $a(S) \ge 0$.
 - rectangle::Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$.
 - squeezing::Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $U$ are in $M$ by the other axioms. If there exists an __unique__ number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$.
 - subtraction::If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$.
