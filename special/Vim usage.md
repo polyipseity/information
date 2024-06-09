@@ -57,7 +57,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## replace
 
 - exit replace mode:::([replace](#replace))\<Esc\> <!--SR:!2028-04-02,1472,353!2024-06-24,404,348-->
-- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2024-06-09,326,273!2026-05-03,822,313-->
+- replace with (char):::\[[repeat N](#^repeatN)\]r(char) <!--SR:!2027-11-02,1241,293!2026-05-03,822,313-->
 - enter replace mode:::\[[repeat N](#^repeatN)\]R <!--SR:!2025-08-26,696,313!2025-12-16,741,313-->
 
 ## visual

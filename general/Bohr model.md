@@ -37,7 +37,7 @@ Substitute the equation into {{the equation from the [second postulate](#^f5a73f
 We can get the radius in terms of $n$:
 {{$$r_n=\frac{\hbar^2 n^2}{Zk_\mathrm{e}\mathrm{e}^2m_\mathrm{e} }$$}}
 and energy in terms of $n$:
-{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-06-09,20,130!2025-07-17,461,254-->
+{{$$E_n=-\frac12m_\mathrm{e}v^2=-\frac{Zk_\mathrm{e}\mathrm{e}^2}{2r_n}=-\frac{Z^2 k_\mathrm{e}^2 \mathrm{e}^4 m_\mathrm{e} }{2 \hbar^2 n^2} \approx \frac{-13.6 Z^2} {n^2} ~ \mathrm{eV}$$}} <!--SR:!2025-09-23,747,314!2025-12-17,809,314!2025-09-08,537,254!2025-01-14,557,314!2024-07-30,420,294!2025-07-08,517,254!2025-05-11,555,274!2024-07-04,25,130!2025-07-17,461,254-->
 
 From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the [ground state](ground%20state.md) ($n=1$) {{has about 13.6 eV less energy than a motionless electron infinitely far away}}, which is also {{the atom's [ionization energy](ionization%20energy.md)}}. <!--SR:!2025-10-24,669,279!2024-11-23,484,299-->
 
@@ -76,7 +76,7 @@ The Bohr model fails to explain:
 > | {{brightness}} | {{relative brightness of spectral lines}} |
 > | {{multiple [electrons](electron.md)}} | {{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}} |
 > | {{naturalness}} | {{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}} |
-> | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2024-11-20,198,333!2024-12-31,225,333!2024-06-09,70,341!2024-11-25,182,321!2024-12-07,207,341!2025-01-12,234,341-->
+> | {{structures}} | {{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2024-11-20,198,333!2024-12-31,225,333!2025-05-03,328,361!2024-11-25,182,321!2024-12-07,207,341!2025-01-12,234,341-->
 
 <!--/pytextgen-->
 

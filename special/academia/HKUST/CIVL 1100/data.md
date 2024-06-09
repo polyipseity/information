@@ -75,7 +75,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
-- description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-06-09,37,335!2024-08-27,106,377-->
+- description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2024-08-27,106,377-->
 - height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-06-29,36,281!2024-08-25,104,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-07-23,60,360!2024-08-18,86,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-07-06,51,341!2024-08-19,87,381-->
@@ -145,7 +145,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-06-19,26,376-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-06-24,31,376-->
-- geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-06-09,16,356!2024-06-22,29,376-->
+- geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-08-05,57,356!2024-06-22,29,376-->
 - length ::: 21196.18 km <!--SR:!2024-06-19,12,316!2024-06-21,28,376-->
 
 ## HSBC Main Building
@@ -196,7 +196,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
-- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-06-23,30,376!2024-06-09,16,356-->
+- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-06-23,30,376!2024-08-30,82,376-->
 
 ## John Hancock Center
 
@@ -222,7 +222,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-12,5,336!2024-06-16,23,376-->
-- image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-06-09,16,356-->
+- image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-08-28,80,376-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
 - width ::: 32.05 m <!--SR:!2024-06-15,18,356!2024-06-15,18,356-->
 
@@ -277,7 +277,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 
 See [Taipei 101](Taipei%20101.md).
 
-- description ::: skyscraper in Taipei, Taiwan <!--SR:!2024-06-09,65,330!2024-09-04,103,380-->
+- description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-12,5,201!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-06-10,28,320!2024-08-23,90,380-->

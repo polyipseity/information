@@ -41,10 +41,10 @@ The content is in teaching order.
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2024-07-03,55,352!2024-07-20,72,347-->
     - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-06-24,69,270!2024-07-27,75,354-->
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-06-09,31,320!2024-07-28,76,357-->
+  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2024-07-28,76,357-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-06-09,31,321!2024-10-26,147,352-->
+    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-07-05,42,287!2024-08-30,98,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-06-26,44,340-->
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-09,10,190-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-28,19,190-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
 <!--/pytextgen-->
@@ -317,7 +317,7 @@ We Engineer Hong Kong’s Development
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2024-08-10,78,314!2024-12-19,209,330-->
-- 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-10-07,130,324!2024-06-09,38,307-->
+- 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-10-07,130,324!2024-10-02,115,307-->
 - We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-08-06,73,312!2024-06-11,18,297-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-06-10,41,330-->
 - We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-08-24,92,380-->
@@ -673,7 +673,7 @@ socioeconomic
 
 - _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2024-07-27,79,374-->
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2024-07-14,69,357-->
-- chemical→:::←cultural <!--SR:!2024-06-09,16,280!2024-11-27,173,357-->
+- chemical→:::←cultural <!--SR:!2024-07-22,43,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-06-26,32,277-->
@@ -952,7 +952,7 @@ wave
 - _(begin)_→:::←earthquake <!--SR:!2024-06-22,42,340!2024-06-30,52,337-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
-- flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-06-09,13,297-->
+- flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-07-17,38,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-06-22,37,294-->
 - wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-07-22,67,315-->
 
@@ -1018,7 +1018,7 @@ Taipei 101
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-06-10,13,297!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-06-13,35,320!2024-08-06,74,317-->
-- John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-06-09,38,312-->
+- John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-10-07,120,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-09-12,99,321-->
 
 <!--/pytextgen-->

@@ -33,7 +33,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
 > - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-07-03,38,301!2024-08-07,66,321-->
-> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-06-09,17,261!2024-08-18,74,321-->
+> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-08-11,63,281!2024-08-18,74,321-->
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2024-08-16,73,321!2024-08-23,79,321-->
 > - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-08-17,73,321!2024-08-05,64,321-->
 
@@ -117,7 +117,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-30,27,221!2024-07-20,42,261-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-07-27,52,301!2024-08-02,63,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-07-18,40,261!2024-06-15,20,261-->
-- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-06-09,17,261-->
+- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-08-13,65,281-->
 
 <!--/pytextgen-->
 
@@ -170,7 +170,7 @@ number of features
 - price→:::←benefit <!--SR:!2024-06-30,37,294!2024-06-22,25,281-->
 - benefit→:::←quality <!--SR:!2024-06-11,24,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-07-30,59,321-->
-- durability→:::←service <!--SR:!2024-07-25,50,301!2024-06-09,9,261-->
+- durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-01,22,261-->
 - service→:::←convenience <!--SR:!2024-06-15,14,241!2024-06-13,19,301-->
 - convenience→:::←ease of use <!--SR:!2024-07-15,40,261!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-04,38,274-->
