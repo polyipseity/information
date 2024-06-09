@@ -112,7 +112,7 @@ vagueness: vague jobs, pains, and gains
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-06-10,26,229!2024-07-07,64,329-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-06-28,45,249!2024-07-22,61,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-06-18,27,189!2024-06-15,7,169-->
-- mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-06-09,39,289!2024-07-16,38,269-->
+- mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-06-13,22,285!2024-06-24,31,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-06-17,25,189!2024-08-01,64,249-->
@@ -157,7 +157,7 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-06-20,40,269!2024-07-22,77,329-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-06-09,27,229!2024-07-08,55,269-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-07-08,55,269-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-06-11,12,229!2024-08-05,75,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-06-11,13,189-->
@@ -176,7 +176,7 @@ Design is {{designing business models from your value proposition}}. <!--SR:!202
 
 ### prototyping
 
-Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-06-09,32,249-->
+Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-08-27,79,249-->
 
 ### interview your customers
 

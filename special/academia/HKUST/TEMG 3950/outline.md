@@ -222,23 +222,23 @@ The content is in teaching order.
 ## week 12 lecture
 
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
-  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-06-09,4,337!2024-06-09,4,337-->
-- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-06-09,4,337!2024-06-09,4,337-->
+  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-06-28,19,357!2024-06-30,21,357-->
+- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
   - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
   - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
-- drawbridge drama ::: an analogy to an office drama <!--SR:!2024-06-09,4,337!2024-06-09,4,337-->
+- drawbridge drama ::: an analogy to an office drama <!--SR:!2024-06-27,18,357!2024-06-30,21,357-->
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture
 
-- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-06-09,4,337!2024-06-09,4,337-->
+- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-06-26,17,357!2024-06-29,20,357-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Nintendo (Wii), Yellow Tail, drybar <!--SR:!2024-06-09,4,337!2024-06-09,4,337-->
+  - blue ocean strategy example companies ::: CitizenM, Nintendo (Wii), Yellow Tail, drybar <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
 - [assignment W13](assignment%20W13/assignment%20W13.md): Blue Ocean Analysis (PetWellClinic)
 
 ## week 14 lecture

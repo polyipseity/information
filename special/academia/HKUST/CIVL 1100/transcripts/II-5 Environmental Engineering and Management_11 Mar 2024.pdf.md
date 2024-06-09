@@ -100,10 +100,10 @@ return await memorize_seq(
 
 - _(begin)_→:::←air sparging <!--SR:!2024-07-08,35,290!2024-08-09,62,310-->
 - air sparging→:::←bioremediation <!--SR:!2024-08-09,62,310!2024-07-03,32,290-->
-- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-27,24,270!2024-07-26,47,290-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-25,21,250!2024-08-08,61,310-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-07-20,43,290!2024-07-12,37,290-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-09,17,290!2024-07-17,43,290-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-08-17,69,310!2024-07-17,43,290-->
 
 <!--/pytextgen-->
 
@@ -148,7 +148,7 @@ return await memorize_seq(
 
 Today's Kai Tak Development — Cruise Terminal
 
-- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-06-09,17,290!2024-07-18,44,290-->
+- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-08-20,72,310!2024-07-18,44,290-->
 
 ## page 8
 
@@ -181,7 +181,7 @@ Sustainable Waste Management
 
 3Rs Concept
 
-- 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
+- 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2024-08-15,67,310-->
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-08-06,60,310-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-07-27,52,310!2024-07-26,51,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-07-16,42,290!2024-08-07,60,310-->
@@ -209,7 +209,7 @@ Will this waste charging scheme waste generation?
 
 Environmental Levy Scheme (Plastic Shopping Bags)
 
-- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-06-09,17,290-->
+- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-08-13,65,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-15,8,270!2024-08-08,61,310-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-29,26,270!2024-07-30,52,290-->
@@ -252,7 +252,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-07-29,53,310!2024-08-09,63,310-->
-    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-26,22,250!2024-06-09,17,290-->
+    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (in bedrock) below sea level <!--SR:!2024-06-26,22,250!2024-08-16,68,310-->
 
 ## page 21
 
@@ -279,8 +279,8 @@ Noise Levels and Causes
 
 - noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-07-13,40,290!2024-08-01,56,310-->
   - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
-  - construction site ::: 110 dB(A) <!--SR:!2024-07-09,36,290!2024-06-09,17,290-->
-  - concert ::: 100 dB(A) <!--SR:!2024-06-09,17,290!2024-08-15,68,310-->
+  - construction site ::: 110 dB(A) <!--SR:!2024-07-09,36,290!2024-08-19,71,310-->
+  - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
   - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-06-25,24,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2024-08-05,59,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-07-23,46,290-->
@@ -292,26 +292,26 @@ Noise Levels and Causes
 
 Properties of Sound Waves
 
-- sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-06-09,17,290!2024-08-14,67,310-->
-  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-07-21,44,290!2024-06-09,17,290-->
+- sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-08-15,67,310!2024-08-14,67,310-->
+  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-07-21,44,290!2024-08-13,65,310-->
 
 ## page 26
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-06-27,24,270!2024-06-09,17,290-->
-- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-06-09,17,290!2024-07-29,53,310-->
+- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-06-27,24,270!2024-08-14,66,310-->
+- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-08-13,65,310!2024-07-29,53,310-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
   - air pollution regulations are outdated (16 years old)
-  - 3 major reasons causing air pollution in Hong Kong ::: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2024-07-25,47,290!2024-06-09,17,290-->
+  - 3 major reasons causing air pollution in Hong Kong ::: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2024-07-25,47,290!2024-08-21,73,310-->
 
 ## page 27
 
 Air Quality Health Index
 
-- Air Quality Health Index ::: AQHI <!--SR:!2024-08-08,61,310!2024-06-09,17,290-->
+- Air Quality Health Index ::: AQHI <!--SR:!2024-08-08,61,310!2024-08-16,68,310-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-06-25,24,270!2024-08-10,63,310-->
   - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-08-03,57,310!2024-07-27,52,310-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2024-07-27,52,310-->
@@ -375,10 +375,10 @@ return await memorize_seq(
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-08-09,62,310!2024-08-10,63,310-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-18,15,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-06-13,14,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-18,11,230!2024-06-09,17,290-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-18,11,230!2024-07-26,47,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-17,12,250!2024-06-11,6,230-->
-- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-06-09,17,290!2024-06-29,26,270-->
-- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-06-09,17,290-->
+- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-06-29,26,270-->
+- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 
 <!--/pytextgen-->
 
@@ -386,7 +386,7 @@ return await memorize_seq(
 
 Observed Global Climate Change
 
-- climate change consequences in the Northern Hemisphere ::: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2024-07-24,49,310!2024-06-09,17,290-->
+- climate change consequences in the Northern Hemisphere ::: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2024-07-24,49,310!2024-08-16,68,310-->
 
 ## page 32
 
@@ -403,15 +403,15 @@ Concentration Units for Liquids
 
 - concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-07-07,33,270!2024-07-17,43,290-->
   - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-07-09,34,290!2024-08-05,59,310-->
-  - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
+  - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-08-15,67,310!2024-08-19,71,310-->
 
 ## page 34
 
 Relationship between PPM and mg/L
 
 - relationship between ppm and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm, 1 µg/L ≈ 1 ppb <!--SR:!2024-07-16,41,290!2024-08-15,68,310-->
-  - relationship between ppm and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-06-09,17,290!2024-07-24,49,310-->
-  - density of water ::: about 1 kg/L <!--SR:!2024-06-09,17,290!2024-07-28,53,310-->
+  - relationship between ppm and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2024-07-24,49,310-->
+  - density of water ::: about 1 kg/L <!--SR:!2024-08-14,66,310!2024-07-28,53,310-->
 
 ## page 35
 
@@ -420,21 +420,21 @@ Relationship between PPM and mg/L
 - relationship between PPM and mg/L for other solutions
   - relationship between PPM and mg/L examples
   - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-07-12,39,290!2024-07-29,53,310-->
-- specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-06-09,17,290-->
+- specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-08-13,65,310-->
 
 ## page 36
 
 Concentration Units for Gases
 
-- concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-06-09,17,290!2024-06-09,17,290-->
-  - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-06-09,17,290-->
+- concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-07-24,45,290!2024-08-15,67,310-->
+  - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-07-30,51,290-->
   - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-08-08,62,310!2024-07-28,52,310-->
 
 ## page 37
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
-- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-06-09,17,290!2024-07-08,35,290-->
+- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-08-21,73,310!2024-07-08,35,290-->
   - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R = 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-07-27,49,290!2024-08-13,66,310-->
 
 ## page 38

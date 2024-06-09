@@ -41,7 +41,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="66da"--><!-- The following content is generated at 2024-01-04T20:17:51.612095+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[intermolecular forces](intermolecular%20force.md) <!--SR:!2028-05-08,1453,350!2024-06-09,338,330-->
+- _(begin)_→:::←[intermolecular forces](intermolecular%20force.md) <!--SR:!2028-05-08,1453,350!2028-08-24,1537,350-->
 - [intermolecular forces](intermolecular%20force.md)→:::←_(end)_ <!--SR:!2024-10-21,160,310!2028-04-30,1446,350-->
 
 <!--/pytextgen-->
