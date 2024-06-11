@@ -95,7 +95,7 @@ return chain.from_iterable(await gather(
 - median linkage clustering::WPGMC, weighted centroid clustering <!--SR:!2024-06-24,44,255-->
 - [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique <!--SR:!2024-06-26,57,315-->
 - unweighted average linkage clustering::[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2024-09-23,118,295-->
-- weighted average linkage clustering::McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2024-06-11,36,255-->
+- weighted average linkage clustering::McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2024-09-12,93,255-->
 
 <!--/pytextgen-->
 
@@ -147,7 +147,7 @@ One way to implement this is, after creating a cluster for each observation, {{c
 
 ## divisive clustering
 
-Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}}. <!--SR:!2024-06-11,43,289!2024-07-18,76,329-->
+Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}}. <!--SR:!2024-11-30,172,309!2024-07-18,76,329-->
 
 The basic principle of divisive clustering was {{published as the DIANA (DIvisive ANAlysis clustering) algorithm}}.[<sup>[1]</sup>](#^ref-Kaufman-2009) <!--SR:!2024-06-15,48,295-->
 
@@ -157,9 +157,9 @@ Alternatively, repeat the above steps until {{the number of clusters equals the 
 
 ### monothetic clustering
 
-The above algorithm is {{polythetic clustering because it considers all variables of each observation}}. Consider an observation with $n$ numerical variables, define the _<!-- LaTeX separator -->$n$-dimensional location_ of an observation {{as the values of the $n$ numerical variables. Then note that the distance function applied to two observations considers all variables at once}}. An another type of divisive clustering is {{monothetic clustering, where only one variable is considered when splitting}}. <!--SR:!2024-09-01,103,295!2024-06-10,44,295!2024-08-21,83,270-->
+The above algorithm is {{polythetic clustering because it considers all variables of each observation}}. Consider an observation with $n$ numerical variables, define the _<!-- LaTeX separator -->$n$-dimensional location_ of an observation {{as the values of the $n$ numerical variables. Then note that the distance function applied to two observations considers all variables at once}}. An another type of divisive clustering is {{monothetic clustering, where only one variable is considered when splitting}}. <!--SR:!2024-09-01,103,295!2024-12-06,179,315!2024-08-21,83,270-->
 
-Monothetic clustering is usually used {{when the data consists of binary or boolean variables, though some variants also support non-binary variables}}. <!--SR:!2024-06-11,44,290-->
+Monothetic clustering is usually used {{when the data consists of binary or boolean variables, though some variants also support non-binary variables}}. <!--SR:!2024-12-09,181,310-->
 
 ### chi-squared monothetic clustering
 

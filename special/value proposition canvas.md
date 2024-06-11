@@ -51,7 +51,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 <!--/pytextgen-->
 
-Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-06-10,33,230!2024-09-14,111,307-->
+Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-08-24,75,230!2024-09-14,111,307-->
 
 Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2024-09-26,127,290-->
 
@@ -73,7 +73,7 @@ Customer pains include {{undesirable things, obstacles, and risks}}. Make pains 
 
 Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-07-26,62,249!2024-11-30,175,329!2024-06-21,62,310-->
 
-Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-06-11,50,290!2024-12-02,177,329!2024-08-21,79,345!2024-08-27,85,345!2024-08-16,76,345!2024-06-27,36,304-->
+Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-11-02,144,290!2024-12-02,177,329!2024-08-21,79,345!2024-08-27,85,345!2024-08-16,76,345!2024-06-27,36,304-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -109,7 +109,7 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-05-03T17:30:19.548044+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-06-10,26,229!2024-07-07,64,329-->
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2024-07-07,64,329-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-06-28,45,249!2024-07-22,61,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-06-18,27,189!2024-06-15,7,169-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
@@ -122,9 +122,9 @@ vagueness: vague jobs, pains, and gains
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-06-14,37,269!2024-08-06,82,270!2024-06-10,43,309-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-06-14,37,269!2024-08-06,82,270!2024-10-26,138,309-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-06-20,47,309!2024-08-15,98,290!2024-06-11,53,310-->
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-06-20,47,309!2024-08-15,98,290!2024-11-20,162,310-->
 
 Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-07-17,72,329!2024-07-03,61,329!2024-11-09,154,309!2024-07-01,54,309-->
 
@@ -158,9 +158,9 @@ mix: mixing products and services with pain relievers and gain creators
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-06-20,40,269!2024-07-22,77,329-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-07-08,55,269-->
-- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-06-11,12,229!2024-08-05,75,289-->
+- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-07-08,27,229!2024-08-05,75,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-06-10,40,289!2024-06-11,13,189-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-07-09,28,189-->
 
 <!--/pytextgen-->
 
@@ -263,7 +263,7 @@ conclusion: make progress
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-06-12,54,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-06-15,42,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->
-- conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-06-11,41,270-->
+- conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-10-01,112,270-->
 
 <!--/pytextgen-->
 

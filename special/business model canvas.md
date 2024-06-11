@@ -108,7 +108,7 @@ segmented: splitting slightly different customer segments
 
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-06-10,32,257!2024-07-14,69,317-->
+- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-08-30,81,257!2024-07-14,69,317-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-06-18,36,237!2024-06-17,39,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-06-24,30,254-->
@@ -119,7 +119,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-06-10,32,254!2024-06-21,41,254-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-09-30,112,274!2024-06-21,41,254-->
 
 ##### value sources
 

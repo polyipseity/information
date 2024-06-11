@@ -16,7 +16,7 @@ TAM shows {{the potential of your company to you and investors}}. Ideally, when 
 
 ## difference between TAM, SAM, and SOM
 
-Total addressable market (TAM), or {{total available market}}, is {{the annual revenue if 100% share of a selected market is achieved in a selected geographic location, such as not considering competition and travel distance}}. <!--SR:!2024-07-10,48,292!2024-06-10,22,272-->
+Total addressable market (TAM), or {{total available market}}, is {{the annual revenue if 100% share of a selected market is achieved in a selected geographic location, such as not considering competition and travel distance}}. <!--SR:!2024-07-10,48,292!2024-09-01,83,292-->
 
 [Serviceable available market](serviceable%20available%20market.md) (SAM) is {{the portion of TAM one can reach via our customer channels, such as considering travel distance but not competition}}. <!--SR:!2024-07-08,45,290-->
 

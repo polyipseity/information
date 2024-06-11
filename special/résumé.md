@@ -69,7 +69,7 @@ return await memorize_seq(
 
 Two recommended formats:
 
-1. I–you ::: what I want from you; what I can do for you; requirements, if any <!--SR:!2024-06-11,166,310!2024-06-15,75,353-->
+1. I–you ::: what I want from you; what I can do for you; requirements, if any <!--SR:!2025-11-06,513,310!2024-06-15,75,353-->
 2. A.S.K. ::: attitude; skills; knowledge; requirements, if any <!--SR:!2024-11-07,299,330!2024-06-19,79,353-->
 
 ### experience

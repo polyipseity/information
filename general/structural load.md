@@ -72,7 +72,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-07-21,48,290!2024-07-04,37,300!2024-07-18,48,290!2024-07-01,33,290!2024-06-10,17,270!2024-07-03,36,300-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-07-21,48,290!2024-07-04,37,300!2024-07-18,48,290!2024-07-01,33,290!2024-07-25,45,270!2024-07-03,36,300-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-07-30,55,310-->
 
@@ -109,7 +109,7 @@ return await memorize_seq(
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-07-03,34,288!2024-07-12,42,300-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-06-28,30,288!2024-07-19,48,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-06-21,24,280!2024-07-17,38,260-->
-- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-06,38,300!2024-06-11,17,270-->
+- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-06,38,300!2024-07-26,45,270-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-08-19,75,320!2024-08-10,67,328-->
 
 <!--/pytextgen-->
