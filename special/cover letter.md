@@ -41,7 +41,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←create positive first impression <!--SR:!2024-06-12,128,310!2024-10-27,290,330-->
 - create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-11-12,257,290!2024-09-30,269,330-->
-- emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-06-11,77,250!2024-07-16,112,270-->
+- emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-12-19,191,250!2024-07-16,112,270-->
 - include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-10-07,195,270!2024-07-20,89,250-->
 - mention your referees→:::←_(end)_ <!--SR:!2025-03-03,309,310!2025-04-09,322,270-->
 
@@ -85,7 +85,7 @@ return await memorize_seq(
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:57.940249+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-10-16,212,250!2024-11-12,304,330-->
-- your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2024-06-11,166,310!2024-11-10,244,290-->
+- your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2025-11-07,514,310!2024-11-10,244,290-->
 - why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2025-03-05,273,230!2024-10-07,185,270-->
 - why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2024-09-20,197,250!2024-10-06,223,270-->
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2024-06-15,170,310!2024-07-29,68,210-->

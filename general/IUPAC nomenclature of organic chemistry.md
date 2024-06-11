@@ -166,7 +166,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2026-02-20,924,345-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
-- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-06-10,27,130-->
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-07-14,34,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2024-06-27,118,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2025-02-08,275,190!2024-08-06,334,207-->
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2024-06-30,24,130-->
@@ -255,7 +255,7 @@ The steps for naming an organic compound are:
 
 - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e' <!--SR:!2026-06-12,774,224!2024-11-08,626,267-->
 - bond suffix is followed by prefix for type count:::keep '-e' <!--SR:!2027-07-16,1187,250!2024-11-14,234,201-->
-- prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2025-08-29,636,230!2024-06-11,211,210-->
+- prefix for carbon count is followed by prefix for type count:::add '-a' <!--SR:!2025-08-29,636,230!2025-08-27,442,210-->
 
 <!--/pytextgen-->
 

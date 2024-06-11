@@ -34,7 +34,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
-- description ::: stadium in Beijing, China <!--SR:!2024-12-02,182,310!2024-06-10,66,330-->
+- description ::: stadium in Beijing, China <!--SR:!2024-12-02,182,310!2025-04-05,299,350-->
 - image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2024-08-03,71,360!2024-08-20,88,380-->
 - shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-08-11,92,372!2024-07-31,81,365-->
 
@@ -61,7 +61,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2024-07-27,79,367-->
-- height ::: roof: 234 m <!--SR:!2024-06-11,18,260!2024-08-29,108,377-->
+- height ::: roof: 234 m <!--SR:!2024-06-18,7,240!2024-08-29,108,377-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-07-26,63,360!2024-08-29,96,380-->
 - shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-25,93,380-->
 
@@ -101,10 +101,10 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-06-22,29,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-10,4,296!2024-06-26,33,376-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-23,13,296!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-06-22,29,376-->
 - geographic location ::: Rome <!--SR:!2024-06-16,23,376!2024-06-18,25,376-->
-- height ::: 48 m (4 storeys) <!--SR:!2024-06-11,6,316!2024-06-21,28,376-->
+- height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-06-21,28,376-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-06-25,32,376!2024-06-22,29,376-->
 
 ## Eiffel Tower
@@ -280,7 +280,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-12,5,201!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-06-10,28,320!2024-08-23,90,380-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 
 ## Thames Barrier
 

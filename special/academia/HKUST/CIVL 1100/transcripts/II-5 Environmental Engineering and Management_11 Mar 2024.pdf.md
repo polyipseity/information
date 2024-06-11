@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-06-27,24,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-06-11,13,250-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-06-20,9,230-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
 <!--/pytextgen-->
@@ -376,7 +376,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-18,15,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-06-13,14,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-18,11,230!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-17,12,250!2024-06-11,6,230-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-17,12,250!2024-06-14,3,210-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-06-29,26,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 

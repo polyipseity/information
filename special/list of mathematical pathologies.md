@@ -48,7 +48,7 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::: It is continuous and not discontinuous in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-27,216,330!2025-01-10,228,330-->
   - global continuity or discontinuity ::: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2024-06-17,51,323!2024-12-20,195,343-->
-- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-23,213,330!2024-06-11,68,310-->
+- [limit of a function](../general/limit%20of%20a%20function.md) ::: It has limit and it has no limit at every point in its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2024-12-23,213,330!2025-03-29,291,330-->
 
 ## topologies
 

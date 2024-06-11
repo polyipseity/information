@@ -58,7 +58,7 @@ Example quiz questions for preparing exams.
 > 3. C3S (tricalcium silicates)
 > 4. C3A (tricalcium aluminate)
 >
-> - solution: {{2}} <!--SR:!2024-06-10,17,292-->
+> - solution: {{2}} <!--SR:!2024-08-17,68,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -110,7 +110,7 @@ Example quiz questions for preparing exams.
 > 3. Groundwater
 > 4. Desalination from sea water
 >
-> - solution: {{3}} <!--SR:!2024-06-10,17,292-->
+> - solution: {{3}} <!--SR:!2024-08-15,66,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -123,7 +123,7 @@ Example quiz questions for preparing exams.
 > 3. To enhance coagulation and flocculation
 > 4. To remove odor
 >
-> - solution: {{3}} <!--SR:!2024-06-10,17,292-->
+> - solution: {{3}} <!--SR:!2024-08-01,52,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -398,4 +398,4 @@ Example quiz questions for preparing exams.
 > 3. The horizontal reaction force at Y is 40 kN in magnitude.
 > 4. The vertical reaction force at Y is 30 kN in magnitude
 >
-> - solution: {{2}} <!--SR:!2024-06-10,17,290-->
+> - solution: {{2}} <!--SR:!2024-07-27,47,290-->

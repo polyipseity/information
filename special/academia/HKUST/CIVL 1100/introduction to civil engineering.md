@@ -22,7 +22,7 @@ The content is in teaching order.
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-06-12,43,330!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-06-11,40,335!2024-06-20,76,330-->
+    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2024-06-20,76,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2024-06-19,46,325!2024-06-30,57,345-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
@@ -32,12 +32,12 @@ The content is in teaching order.
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-07-18,55,297!2024-07-21,69,345-->
-- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-06-10,39,332-->
+- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-12-06,179,352-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-06-10,32,300!2024-06-24,51,352-->
+  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-09-13,95,300!2024-06-24,51,352-->
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2024-07-03,55,352!2024-07-20,72,347-->
     - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-06-24,69,270!2024-07-27,75,354-->
     - [structural failure example](#structural%20failure%20example)
@@ -86,7 +86,7 @@ The content is in teaching order.
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-09-29,122,337!2024-07-19,67,347-->
-  - materials engineer jobs ::: highly varied <!--SR:!2024-06-11,67,330!2024-08-13,94,372-->
+  - materials engineer jobs ::: highly varied <!--SR:!2025-01-19,222,330!2024-08-13,94,372-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2024-06-21,77,330-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
-- dam→:::←pipeline <!--SR:!2024-06-11,18,224!2024-06-14,36,321-->
+- dam→:::←pipeline <!--SR:!2024-06-19,8,204!2024-06-14,36,321-->
 - pipeline→:::←power plant <!--SR:!2024-06-16,23,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
@@ -235,7 +235,7 @@ water security
 - _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2024-07-11,66,350-->
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2024-06-19,44,330-->
 - extreme weather→:::←food security <!--SR:!2024-06-15,45,330!2024-07-13,68,347-->
-- food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-06-10,32,320-->
+- food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-06-26,53,354-->
 - water security→:::←_(end)_ <!--SR:!2024-06-14,70,330!2024-06-14,32,337-->
 
@@ -318,8 +318,8 @@ We Engineer Hong Kong’s Development
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2024-08-10,78,314!2024-12-19,209,330-->
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-10-07,130,324!2024-10-02,115,307-->
-- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-08-06,73,312!2024-06-11,18,297-->
-- 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-06-10,41,330-->
+- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-08-06,73,312!2024-08-06,56,297-->
+- 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2024-07-22,74,357!2024-10-22,134,330-->
 - We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-08-24,92,380-->
 
 <!--/pytextgen-->
@@ -405,7 +405,7 @@ Water Cube
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-06-14,41,325-->
-- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-11,40,337!2024-08-24,81,320-->
+- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-29,18,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2024-06-15,44,337-->
 
 <!--/pytextgen-->
@@ -456,7 +456,7 @@ testing materials
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-06-15,45,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-27,23,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
-- logistics→:::←planning <!--SR:!2024-06-10,14,294!2024-09-28,120,335-->
+- logistics→:::←planning <!--SR:!2024-07-19,39,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
@@ -539,7 +539,7 @@ wood
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brick <!--SR:!2024-07-18,66,357!2024-11-04,182,312-->
-- brick→:::←concrete <!--SR:!2024-06-11,41,325!2024-08-27,106,377-->
+- brick→:::←concrete <!--SR:!2024-06-30,19,305!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
@@ -595,12 +595,12 @@ nuclear
 - architectural→:::←biomedical <!--SR:!2024-06-13,42,337!2024-06-26,44,340-->
 - biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
-- chemical→:::←civil <!--SR:!2024-06-10,40,337!2024-06-13,42,337-->
-- civil→:::←computer <!--SR:!2024-11-15,163,354!2024-06-11,42,332-->
+- chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-06-13,42,337-->
+- civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
-- manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-06-11,39,337-->
+- manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-06-29,51,335-->
 - nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2024-06-27,83,345-->
 
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-06-10,17,252-->
+- shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-06-19,9,232-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
 
 <!--/pytextgen-->
@@ -810,7 +810,7 @@ water distribution network
 
 - _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2024-08-11,79,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
-- storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-06-10,32,320-->
+- storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-09-19,101,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-07-16,43,321-->
 
@@ -915,7 +915,7 @@ polypropylene fiber reinforced concrete
 - _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2024-06-28,84,345-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-06-22,51,330-->
-- engineered cement composite→:::←fly ash concrete <!--SR:!2024-06-12,42,337!2024-06-11,33,320-->
+- engineered cement composite→:::←fly ash concrete <!--SR:!2024-06-12,42,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-06-20,27,280!2024-09-04,103,335-->
 - polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-06-15,37,320-->
 
@@ -1015,7 +1015,7 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building <!--SR:!2024-06-10,13,297!2025-04-01,312,330-->
+- _(begin)_→:::←HSBC Main Building <!--SR:!2024-06-18,8,277!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-06-13,35,320!2024-08-06,74,317-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-10-07,120,312-->
@@ -1055,7 +1055,7 @@ Hong Kong Code
 - American Code→:::←Australian Standard <!--SR:!2024-06-17,42,335!2024-08-14,95,375-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2024-07-18,70,357-->
-- Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-06-11,36,337-->
+- Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-11-26,168,357-->
 - Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2025-02-21,263,350-->
 
 <!--/pytextgen-->
@@ -1097,7 +1097,7 @@ water tower
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
-- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-06-10,25,258-->
+- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-06-22,12,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-06-18,38,320-->
@@ -1192,7 +1192,7 @@ water transport
 - bicycle path→:::←highway <!--SR:!2024-07-05,55,360!2024-07-16,64,360-->
 - highway→:::←pier <!--SR:!2024-06-14,36,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
-- pipeline→:::←railroad <!--SR:!2024-06-10,17,255!2024-08-07,75,315-->
+- pipeline→:::←railroad <!--SR:!2024-07-24,44,255!2024-08-07,75,315-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2024-08-11,79,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->
 
@@ -1229,8 +1229,8 @@ water treatment
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
-- wastewater treatment→:::←water quality monitoring <!--SR:!2024-06-11,18,280!2024-07-03,50,315-->
+- wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-07-03,50,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-06-17,46,324!2024-09-20,117,334-->
-- water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-06-10,17,246-->
+- water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-07-21,41,246-->
 
 <!--/pytextgen-->

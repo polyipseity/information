@@ -10,7 +10,7 @@ tags:
 
 # corrosive substance
 
-A __corrosive substance__ is {{a [substance](chemical%20substance.md) that damages other substances in contact by a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2024-06-11,293,250-->
+A __corrosive substance__ is {{a [substance](chemical%20substance.md) that damages other substances in contact by a [chemical reaction](chemical%20reaction.md)}}. <!--SR:!2026-06-13,732,250-->
 
 ## protection
 

@@ -469,7 +469,7 @@ return chain.from_iterable(await gather(
 - hydroxide ion::colorless <!--SR:!2024-06-20,403,307-->
 - nitrate ion::colorless <!--SR:!2027-09-23,1392,299-->
 - nitrite ion::_(n/a)_ <!--SR:!2024-07-26,245,256-->
-- hydrogencarbonate ion::colorless <!--SR:!2024-06-11,600,310-->
+- hydrogencarbonate ion::colorless <!--SR:!2031-06-28,2573,330-->
 - hydrogensulfite ion::colorless <!--SR:!2026-11-15,1203,270-->
 - hydrogensulfate ion::colorless <!--SR:!2027-11-01,1341,270-->
 - permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-09-19,216,230-->

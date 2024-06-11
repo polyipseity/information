@@ -145,7 +145,7 @@ The content is in teaching order.
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-06-26,18,341!2024-06-27,19,341-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-06-16,9,301!2024-06-28,20,341-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-06-27,19,341!2024-06-27,19,341-->
-  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-06-10,2,301!2024-06-27,19,341-->
+  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-06-15,5,301!2024-06-27,19,341-->
 - critical thinking pop quiz
   - content: 10 4-choice questions
   - effect: 0.5% of course grade
@@ -167,7 +167,7 @@ The content is in teaching order.
 - key concepts ::: abstraction, framework, model <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
   - key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
   - key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
-  - key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-06-10,2,301-->
+  - key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-06-18,8,321-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
@@ -193,17 +193,17 @@ The content is in teaching order.
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
-- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-06-10,2,301!2024-06-27,19,341-->
+- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-06-15,5,301!2024-06-27,19,341-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-06-25,17,341!2024-06-26,18,341-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-06-25,17,341!2024-06-20,12,321-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-06-23,15,321!2024-06-24,16,341-->
 - [five whys](../../../../general/five%20whys.md)
-- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-06-10,2,301!2024-06-21,13,321-->
+- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-06-16,6,301!2024-06-21,13,321-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-06-10,2,301!2024-06-28,20,341-->
+  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-06-16,6,301!2024-06-28,20,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
-  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-06-10,2,301!2024-06-28,20,341-->
+  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-06-17,7,301!2024-06-28,20,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-06-28,20,341!2024-06-24,16,341-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
   - cause mapping § symptom ::: red background <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->

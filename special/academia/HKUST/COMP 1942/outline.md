@@ -53,7 +53,7 @@ The content is in teaching order.
 
 - [FP-growth algorithm § FP-tree](../../../../general/FP-growth%20algorithm.md#FP-tree)
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
-  - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-06-10,43,311!2024-06-11,47,327-->
+  - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-12-09,182,331!2025-01-10,213,347-->
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
 
 ## week 4 tutorial
@@ -74,7 +74,7 @@ The content is in teaching order.
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
-  - _k_-means clustering variations ::: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-12-19,195,351!2024-06-10,46,331-->
+  - _k_-means clustering variations ::: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means. <!--SR:!2024-12-19,195,351!2025-01-05,209,351-->
 
 ## week 5 tutorial
 
@@ -145,7 +145,7 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-06-11,42,320!2024-07-12,64,340-->
+  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-10-29,140,320!2024-07-12,64,340-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)

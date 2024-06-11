@@ -35,18 +35,18 @@ The content is in teaching order.
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-08-18,70,330!2024-08-15,68,330-->
-  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-06-10,18,310!2024-08-07,62,330-->
+  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-08-06,57,310!2024-08-07,62,330-->
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2024-07-30,55,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-06-20,21,270!2024-07-11,40,310-->
   - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-06-14,6,290!2024-07-17,44,310-->
-- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-06-10,18,310!2024-07-07,36,301-->
+- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-08-08,59,310!2024-07-07,36,301-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
-  - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2024-06-10,18,301!2024-08-18,70,321-->
-    - "strong" object examples ::: table leg <!--SR:!2024-06-10,18,310!2024-08-07,62,330-->
-    - "weak" object examples ::: mattress <!--SR:!2024-08-15,68,330!2024-06-10,18,301-->
+  - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2024-08-02,53,301!2024-08-18,70,321-->
+    - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2024-08-07,62,330-->
+    - "weak" object examples ::: mattress <!--SR:!2024-08-15,68,330!2024-08-22,73,321-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-06-14,6,290!2024-07-28,51,310-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-07-18,44,310!2024-08-21,73,330-->
   - [stress](../../../../general/stress%20(mechanics).md)
@@ -73,9 +73,9 @@ The content is in teaching order.
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-07-08,37,310!2024-08-18,71,330-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-07-01,28,290!2024-08-14,67,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-08-17,69,330!2024-08-20,72,330-->
-  - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-08-09,64,330!2024-06-10,18,310-->
+  - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-08-09,64,330!2024-08-25,76,330-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-06-28,27,290!2024-07-25,48,310-->
-- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces <!--SR:!2024-06-10,18,310!2024-08-08,63,330-->
+- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces <!--SR:!2024-08-27,78,330!2024-08-08,63,330-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-07-21,48,310!2024-08-12,66,330-->
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-07-11,38,310!2024-08-12,66,330-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
@@ -93,7 +93,7 @@ The content is in teaching order.
   - [§ characteristics](../../../../general/truss.md#characteristics)
   - [§ analysis](../../../../general/truss.md#analysis)
   - [§ forces in members](../../../../general/truss.md#forces%20in%20members)
-    - methods for calculating forces in members ::: only the method of joints is discussed <!--SR:!2024-06-10,18,301!2024-08-20,72,330-->
+    - methods for calculating forces in members ::: only the method of joints is discussed <!--SR:!2024-07-30,50,301!2024-08-20,72,330-->
   - [§ method of joints](../../../../general/truss.md#method%20of%20joints)
 - [zero force member](../../../../general/zero%20force%20member.md)
   - [§ description](../../../../general/zero%20force%20member.md#description)
@@ -105,9 +105,9 @@ The content is in teaching order.
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
   - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-07-06,33,290!2024-08-09,64,330-->
-  - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-06-10,18,310!2024-08-14,67,321-->
+  - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-08-25,76,330!2024-08-14,67,321-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
-  - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2024-07-19,46,310!2024-06-10,18,301-->
+  - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2024-07-19,46,310!2024-08-24,75,321-->
 - [structural system](../../../../general/structural%20system.md)
   - [§ high-rise buildings](../../../../general/structural%20system.md#high-rise%20buildings)
   - [§ classification](../../../../general/structural%20system.md#classification)
@@ -116,7 +116,7 @@ The content is in teaching order.
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-07-24,47,310!2024-07-23,47,310-->
-  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-07-13,38,290!2024-06-10,18,310-->
+  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-07-13,38,290!2024-08-30,81,330-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-08-23,75,330!2024-07-22,48,310-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-08-12,66,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)

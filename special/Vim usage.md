@@ -25,7 +25,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## motion
 
-- left:::\[[repeat N](#^repeatN)\]h <!--SR:!2024-06-10,392,348!2025-04-06,588,308-->
+- left:::\[[repeat N](#^repeatN)\]h <!--SR:!2029-07-28,1874,368!2025-04-06,588,308-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2028-11-22,1658,353!2025-12-17,775,328-->
 - up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2024-09-07,440,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2027-07-12,1243,348!2026-08-08,904,328-->
@@ -42,7 +42,7 @@ See also [Vim help files](https://vimhelp.org/).
 - quit current buffer::::q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2025-07-20,625,313-->
 - quit current buffer, discard changes::::q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2025-09-14,709,313-->
 - write \[range=%\] to \[file=(current)\]::::\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2029-05-13,1812,368-->
-- write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2024-06-11,393,348-->
+- write to \[file=(current)\] and quit::::wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2028-03-09,1367,348-->
 
 ## insert
 
