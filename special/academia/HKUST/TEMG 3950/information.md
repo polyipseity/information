@@ -70,13 +70,13 @@ value proposition canvas
 <!--pytextgen generate section="ee12"--><!-- The following content is generated at 2024-04-22T01:23:52.609013+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-08-14,84,290!2024-07-06,58,310-->
-- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-08-25,81,270!2024-06-12,37,270-->
+- blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-08-25,81,270!2024-06-30,18,250-->
 - business model canvas→:::←competitor analysis <!--SR:!2024-07-29,68,270!2024-06-28,43,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-06-24,21,230!2024-08-28,91,270-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-06-14,42,290!2024-10-16,129,290-->
 - customer segmentation→:::←customer validation <!--SR:!2024-08-27,82,270!2024-07-16,55,270-->
 - customer validation→:::←design thinking <!--SR:!2024-07-23,50,230!2024-09-03,88,270-->
-- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-06-12,9,190!2024-08-15,73,250-->
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-06-28,16,190!2024-08-15,73,250-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-06-20,37,250!2024-07-25,44,230-->
 - product validation→:::←value proposition canvas <!--SR:!2024-07-01,33,190!2024-06-30,39,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2024-07-05,57,310!2024-07-21,60,270-->
@@ -140,7 +140,7 @@ root cause analysis, 5 whys
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-15,8,261!2024-06-22,14,301-->
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-24,16,301!2024-06-22,14,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-18,10,281!2024-06-17,10,261-->
-- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-16,9,261!2024-06-12,2,221-->
+- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-16,9,261!2024-06-16,4,221-->
 - profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-18,10,281!2024-06-17,10,261-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-25,17,301!2024-06-24,16,301-->
 

@@ -77,7 +77,7 @@ return chain.from_iterable(await gather(
 - _(begin)_→:::←[Ward's method](Ward's%20method.md) <!--SR:!2024-07-09,68,315!2024-07-09,69,315-->
 - [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-07-15,56,275!2024-06-23,52,295-->
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-10-09,131,295!2024-08-27,87,275-->
-- [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-06-12,37,255-->
+- [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-09-13,93,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-08-29,90,275!2024-10-22,141,295-->
 - [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-10-07,123,295!2024-06-26,39,235-->
 - unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-06-14,48,295!2024-08-23,95,295-->
@@ -104,7 +104,7 @@ return chain.from_iterable(await gather(
 - MISSQ, minimum increase of sum of squares::[Ward's method](Ward's%20method.md) <!--SR:!2024-06-23,55,315-->
 - UPGMC, unweighted centroid clustering::centroid linkage clustering <!--SR:!2024-06-16,49,295-->
 - maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-07-01,62,315-->
-- WPGMC, weighted centroid clustering::median linkage clustering <!--SR:!2024-06-12,32,255-->
+- WPGMC, weighted centroid clustering::median linkage clustering <!--SR:!2024-09-01,81,255-->
 - minimum linkage clustering, nearest neighbor technique::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-06-29,61,315-->
 - [UPGMA](UPGMA.md), group average linkage clustering::unweighted average linkage clustering <!--SR:!2024-07-03,56,275-->
 - McQuitty's Method, [WPGMA](WPGMA.md)::weighted average linkage clustering <!--SR:!2024-08-19,91,295-->

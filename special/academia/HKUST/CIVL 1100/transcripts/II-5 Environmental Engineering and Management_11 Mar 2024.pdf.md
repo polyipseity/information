@@ -331,7 +331,7 @@ Indoor Air Quality
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-08-10,63,310-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-07-01,28,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-07-24,49,310-->
-    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-12,7,250!2024-08-02,56,310-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-30,18,250!2024-08-02,56,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-07-07,32,270!2024-07-12,39,290-->
 
 ## page 30

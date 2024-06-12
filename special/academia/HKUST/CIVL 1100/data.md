@@ -205,7 +205,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2024-07-23,75,367-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-18,25,237!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
-- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-06-12,27,280!2024-08-20,88,380-->
+- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2024-08-20,88,380-->
 
 ## MOSE
 
@@ -221,7 +221,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-12,5,336!2024-06-16,23,376-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-28,16,336!2024-06-16,23,376-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-08-28,80,376-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
 - width ::: 32.05 m <!--SR:!2024-06-15,18,356!2024-06-15,18,356-->
@@ -271,14 +271,14 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2024-08-10,78,360!2024-08-23,91,380-->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-08-12,80,310!2024-07-12,67,344-->
 - image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2024-08-21,89,380!2024-07-23,60,360-->
-- length ::: 8206 m, longest span: 1088 m <!--SR:!2024-06-12,19,257!2024-07-05,60,355-->
+- length ::: 8206 m, longest span: 1088 m <!--SR:!2024-07-30,48,257!2024-07-05,60,355-->
 
 ## Taipei 101
 
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-12,5,201!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-22,10,201!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 

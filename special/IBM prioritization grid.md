@@ -66,7 +66,7 @@ Focus the discussion around "big bets", though do not completely ignore the othe
 
 ## assessment
 
-- assessment example ::: ![assessment example](attachments/Pasted%20image%2020240312134839.png) <!--SR:!2024-12-20,192,312!2024-06-12,62,312-->
+- assessment example ::: ![assessment example](attachments/Pasted%20image%2020240312134839.png) <!--SR:!2024-12-20,192,312!2025-03-06,267,332-->
 
 ## reference
 
