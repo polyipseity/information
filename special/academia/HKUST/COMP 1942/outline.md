@@ -60,10 +60,13 @@ The content is in teaching order.
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
   - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut.
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
+- project phase 1
+  - deadline: 2024-02-21T09:00:00+08:00
 
 ## week 4 tutorial
 
 - time: 2024-02-19T18:00:00+08:00/2024-02-19T19:00:00+08:00
+- optional
 - topic: helping students who encountered problems of using XLMiner in our CSE lab and using XLMiner outside CSE Lab
 - [Analytics Solver usage § installation](../../../Analytic%20Solver%20usage.md#installation)
 
@@ -92,7 +95,6 @@ The content is in teaching order.
 - [association rule learning § algorithms](../../../../general/association%20rule%20learning.md#algorithms)
 - [Analytics Solver usage § usage](../../../Analytic%20Solver%20usage.md#usage)
 - [Analytics Solver usage § input formats](../../../Analytic%20Solver%20usage.md#input%20formats)
-- [Analytics Solver usage § common parameters](../../../Analytic%20Solver%20usage.md#common%20parameters)
 
 ## week 5 lecture 2
 
@@ -181,19 +183,259 @@ The content is in teaching order.
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 - midterm exam format voting
   - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 70 minutes
+  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
   - types: 80% long questions, 20% multiple choice questions
+- [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
+  - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
+  - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
+- [naive Bayes classifier](../../../../general/naive%20Bayes%20classifier.md)
+  - [§ probabilistic model](../../../../general/naive%20Bayes%20classifier.md#probabilistic%20model)
+  - [§ constructing a classifier from the probability model](../../../../general/naive%20Bayes%20classifier.md#constructing%20a%20classifier%20from%20the%20probability%20model)
+- [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
+- homework 1
+  - deadline: 2024-03-20T09:00:00+08:00
+
+## week 8 tutorial
+
+- time: 2024-03-18T18:00:00+08:00/2024-03-18T19:00:00+08:00
+- topic: fundamental matrix operations
+- [matrix](../../../../general/matrix%20(mathematics).md)
+  - [§ addition, scalar multiplication, subtraction and transposition](../../../../general/matrix%20(mathematics).md#addition,%20scalar%20multiplication,%20subtraction%20and%20transposition)
+  - [§ matrix multiplication](../../../../general/matrix%20(mathematics).md#matrix%20multiplication)
+  - [§ linear equations](../../../../general/matrix%20(mathematics).md#linear%20equations)
+- [determinant](../../../../general/determinant.md)
+  - [§ two by two matrices](../../../../general/determinant.md#two%20by%20two%20matrices)
+  - [§ 3 × 3 matrices](../../../../general/determinant.md#3%20×%203%20matrices)
+
+## week 8 lecture 2
+
+- time: 2024-03-20T09:00:00+08:00/2024-03-20T10:30:00+08:00
+- [matrix](../../../../general/matrix%20(mathematics).md)
+  - [§ addition, scalar multiplication, subtraction and transposition](../../../../general/matrix%20(mathematics).md#addition,%20scalar%20multiplication,%20subtraction%20and%20transposition)
+  - [§ matrix multiplication](../../../../general/matrix%20(mathematics).md#matrix%20multiplication)
+  - [§ linear equations](../../../../general/matrix%20(mathematics).md#linear%20equations)
+- [determinant](../../../../general/determinant.md)
+  - [§ two by two matrices](../../../../general/determinant.md#two%20by%20two%20matrices)
+  - [§ 3 × 3 matrices](../../../../general/determinant.md#3%20×%203%20matrices)
 - [naive Bayes classifier § probabilistic model](../../../../general/naive%20Bayes%20classifier.md#probabilistic%20model)
+- [_k_-nearest neighbors algorithm § algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md#algorithm)
+- project phase 2
+  - content
+    - data: original data, steps to transform data, transformed data
+    - models: 5 models
+      - model: data used, model parameters, model type
+  - deadline: 2024-04-17T09:00:00+08:00
+- project phase 3
+  - content
+    - project phase 2: copy and paste
+    - results
+      - results for each model in layman's language
+        - at least 2 raw outputs
+        - (for decision tree models) give and draw the tree
+        - observations
+        - 2 records from the test dataset to illustrate the prediction process
+        - conclusion
+      - summary of 5 model results
+        - choose the best model, or choose multiple models based on the situation
+        - conclusion
+  - deadline: 2024-04-29T09:00:00+08:00
+
+## week 9 lecture 1
+
+- time: 2024-03-25T09:00:00+08:00/2024-03-25T10:30:00+08:00
+- midterm exam
+  - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 70 minutes
+  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
+  - types: 80% long questions, 20% multiple choice questions
+
+## week 9 tutorial
+
+- time: 2024-03-25T18:00:00+08:00/2024-03-25T19:00:00+08:00
+- topic: reducing the number of categories; using XLMiner for classification (decision tree)
+- [Analytics Solver usage § category reduction](../../../Analytic%20Solver%20usage.md#category%20reduction)
+- [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md)
+  - [§ decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
+  - [§ partitioning](../../../Analytic%20Solver%20usage.md#partitioning)
+  - [§ common parameters](../../../Analytic%20Solver%20usage.md#common%20parameters)
+  - [§ rescaling](../../../Analytic%20Solver%20usage.md#rescaling)
+
+## week 9 lecture 2
+
+- time: 2024-03-27T09:00:00+08:00/2024-03-27T10:30:00+08:00
+- optional
+- midterm exam checking
+  - average: 70.14/100
+  - max: 100/100
+  - min: 16.5/100
+  - standard deviation: 16.57/100
+
+## week 10 lecture 1
+
+- midterm break
+- public holiday
+
+## week 10 tutorial
+
+- midterm break
+- public holiday
+
+## week 10 lecture 2
+
+- midterm break
+
+## week 11 lecture 1
+
+- time: 2024-04-08T09:00:00+08:00/2024-04-08T10:30:00+08:00
+- final exam format voting
+  - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 150 minutes
+  - time: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
+  - types: 100% short or long questions, 0% multiple choice questions
+- [neural network](../../../../general/neural%20network%20(machine%20learning).md)
+  - [§ artificial neurons](../../../../general/neural%20network%20(machine%20learning).md#artificial%20neurons)
+- [artificial neuron](../../../../general/artificial%20neuron.md)
+  - [§ basic structure](../../../../general/artificial%20neuron.md#basic%20structure)
+  - [§ types of activation functions](../../../../general/artificial%20neuron.md#types%20of%20activation%20function)
+  - [§ step function](../../../../general/artificial%20neuron.md#step%20function)
+    - step function threshold ::: _θ_ = 0
+  - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
+  - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
+    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$
+- [perceptron](../../../../general/perceptron.md)
+  - [§ steps](../../../../general/perceptron.md#steps)
+    - perceptron stopping conditions ::: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold.
+    - perceptron error trends ::: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing.
+  - [§ convergence of one perceptron on a linearly separable dataset](../../../../general/perceptron.md#convergence%20of%20one%20perceptron%20on%20a%20linearly%20separable%20dataset)
+- [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
+
+## week 11 tutorial
+
+- time: 2024-04-08T18:00:00+08:00/2024-04-08T19:00:00+08:00
+- topic: using XLMiner for classification (naive Bayes classifier, nearest neighbor classifier)
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): naive Bayes classifier, nearest neighbor classifier
+
+## week 11 lecture 2
+
+- time: 2024-04-10T09:00:00+08:00/2024-04-10T10:30:00+08:00
+- [recurrent neural network](../../../../general/recurrent%20neural%20network.md)
+  - basic RNN ::: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks)
+  - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
+  - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
+- [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
+  - convolutional neural network application ::: image similarity search
+- [support vector machine](../../../../general/support%20vector%20machine.md)
+  - [§ linear SVM](../../../../general/support%20vector%20machine.md#linear%20SVM)
+  - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
+
+## week 12 lecture 1
+
+- time: 2024-04-15T09:00:00+08:00/2024-04-15T10:30:00+08:00
+- [support vector machine](../../../../general/support%20vector%20machine.md)
+  - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
+  - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
+- accuracy ::: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification)
+- [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
+- F-measure ::: [F-score § definition](../../../../general/F-score.md#definition)
+- [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
+- [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
+- [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
+  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use.
+
+## week 12 lab
+
+- time: 2024-04-15T18:00:00+08:00/2024-04-15T19:00:00+08:00
+- topic: using XLMiner for classification (neural network)
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
+
+## week 12 lecture 2
+
+- time: 2024-04-17T09:00:00+08:00/2024-04-17T10:30:00+08:00
+- [principal component analysis](../../../../general/principal%20component%20analysis.md)
+  - [§ overview](../../../../general/principal%20component%20analysis.md#overview)
+  - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
+  - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
+    - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$.
+    - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$.
+    - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized.
+      - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
+        - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$.
+    - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data.
+    - § computing PCA using the covariance method > cumulative variance ::: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step.
+    - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$.
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
+- [data warehouse](../../../../general/data%20warehouse.md)
+  - data warehouse application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations as data warehouses can speed up queries on a database
+
+## week 13 lecture 1
+
+- time: 2024-04-22T09:00:00+08:00/2024-04-22T10:30:00+08:00
+- [principal component analysis § computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
+- project phase 3: see above
+- [fact table § examples](../../../../general/fact%20table.md) ::: see the transactional fact table example
+- data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md)
+  - [§ operations](../../../../general/OLAP%20cube.md#operations) ::: drill down, rollup
+
+## week 13 tutorial
+
+- time: 2024-04-22T18:00:00+08:00/2024-04-22T19:00:00+08:00
+- optional
+- topic: questions about XLMiner
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md)
+
+## week 13 lecture 2
+
+- time: 2024-04-24T09:00:00+08:00/2024-04-24T10:30:00+08:00
+- [online analytical processing § aggregations](../../../../general/online%20analytical%20processing.md#aggregations)
+- [materialized view](../../../../general/materialized%20view.md)
+  - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
+  - [§ terminology](../../../../general/materialized%20view.md#terminology)
+  - [§ greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
+
+## week 14 lecture
+
+- time: 2024-04-29T09:00:00+08:00/2024-04-29T10:30:00+08:00
+- TODO
+
+## week 14 tutorial
+
+- time: 2024-04-29T18:00:00+08:00/2024-04-29T19:00:00+08:00
+- topic: using XLMiner for PCA
+- [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
+
+## week 15 lecture 1
+
+- time: 2024-05-06T09:00:00+08:00/2024-05-06T10:30:00+08:00
+- TODO
+- homework 2
+  - deadline: 2024-05-08T09:00:00+08:00
+
+## week 15 tutorial
+
+- time: 2024-05-06T18:00:00+08:00/2024-05-06T19:00:00+08:00
+- topic: how to do in-class exercise 5 (Bayesian classifier)
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
+- TODO
 
-<!--
-- final exam format voting
-  - bonus question (+10%, max 100%): no
-  - difficulty: 80% straight forward, 20% not straight forward but easy
-  - duration: 150 minutes
-  - types: 100% short or long questions, 0% multiple choice questions
--->
+## week 15 lecture 2
+
+- time: 2024-05-08T09:00:00+08:00/2024-05-08T10:30:00+08:00
+- optional
+- guest lecture
+  - speaker: Prof. Dan Xu
+  - topics
+    - open world visual learning
+    - cross-model language—image contrastive pretraining (CLIP)
+    - CLIP model for recognition, detection, and segmentation via similarity and distillation
