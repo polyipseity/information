@@ -67,7 +67,7 @@ The following interior structures are possible.
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-06-13,17,255!2024-06-21,16,235-->
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-06-28,19,235!2024-07-03,23,235-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-07-04,32,275!2024-06-29,29,275-->
-- [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-06-16,20,255!2024-06-12,16,255-->
+- [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-06-16,20,255!2024-07-22,40,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-06-15,20,275-->
 
 <!--/pytextgen-->
@@ -116,7 +116,7 @@ return await memorize_seq(
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-07-18,45,295!2024-08-13,69,315-->
-- [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-06-12,17,255!2024-08-03,60,315-->
+- [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-06-20,8,235!2024-08-03,60,315-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-06-26,28,275!2024-08-01,58,315-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-06-27,28,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-07-25,49,295!2024-06-17,11,275-->

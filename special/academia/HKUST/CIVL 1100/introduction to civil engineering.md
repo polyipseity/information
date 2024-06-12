@@ -19,7 +19,7 @@ The content is in teaching order.
   - engineer, according to Wikipedia
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-07-02,50,340!2024-08-08,89,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-07-25,62,340!2024-07-11,61,360-->
-    - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-06-12,43,330!2024-08-29,108,377-->
+    - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2024-06-20,76,330-->
@@ -460,7 +460,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
-- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-12,13,295-->
+- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-21,9,275-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-06-19,26,241!2024-06-22,39,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-06-19,26,280!2024-07-12,49,292-->
@@ -915,7 +915,7 @@ polypropylene fiber reinforced concrete
 - _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2024-06-28,84,345-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-06-22,51,330-->
-- engineered cement composite→:::←fly ash concrete <!--SR:!2024-06-12,42,337!2024-09-26,107,320-->
+- engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-06-20,27,280!2024-09-04,103,335-->
 - polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-06-15,37,320-->
 

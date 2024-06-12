@@ -15,7 +15,7 @@ tags:
 - close window:::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2026-01-06,697,270!2024-06-18,347,270-->
 - restore window size:::Alt+Space, R <!--SR:!2024-07-31,370,270!2024-12-17,350,210-->
 - move window:::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-16,363,270!2025-12-19,819,330-->
-- resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2024-06-12,91,170!2025-06-22,631,290-->
+- resize window:::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2024-07-27,45,150!2025-06-22,631,290-->
 - move window to bottom:::Alt+Esc <!--SR:!2024-12-23,406,230!2024-07-12,145,250-->
 - minimize window:::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2025-02-20,257,190!2025-02-24,534,270-->
 - maximize window:::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-01-27,422,230!2025-07-22,593,270-->
@@ -26,7 +26,7 @@ tags:
 - show all windows and workspaces:::⊞Win+Tab↹ <!--SR:!2024-06-14,46,210!2025-07-27,666,290-->
 - move window to the left/right side:::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2025-02-13,335,210-->
 - move window between monitors:::⊞Win+⇧Shift+←/→ <!--SR:!2024-07-01,241,230!2026-11-10,895,270-->
-- quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2024-11-26,260,170!2024-06-12,329,270-->
+- quit application of window:::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2024-11-26,260,170!2026-11-16,887,270-->
 - close dialog:::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
 - toggle program on taskbar:::⊞Win+(taskbar #) <!--SR:!2025-04-08,564,270!2026-08-17,894,270-->
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2024-12-30,409,230!2025-02-28,504,270-->

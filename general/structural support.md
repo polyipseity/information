@@ -15,7 +15,7 @@ tags:
 
 A roller support prevents {{vertical (relative to a support on the ground) translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-07-09,40,290!2024-07-13,43,290!2024-07-01,33,290-->
 
-A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-06-12,9,270-->
+A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-07-15,33,290-->
 
 Examples include {{roller supports under an overhanging highway, wheels of a table with wheels}}. <!--SR:!2024-07-29,56,310-->
 
