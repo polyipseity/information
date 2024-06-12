@@ -33,6 +33,10 @@ With the assumption, the joint probability model can {{be simplified}}: {{$$\beg
 
 To conclude, {{with the above assumptions}}, {{the conditional probability of class $C_k$ given features $\mathbf{x}$}} is: {{$$p(C_k \mid \mathbf{x}) = \frac 1 Z p(C_k) \prod_{i = 1}^n p(x_i \mid C_k)$$}}, where {{$Z = p(\mathbf{x}) = \sum_k p(C_k) p(\mathbf{x} \mid C_k)$ is a scaling factor dependent on $\mathbf{x}$ only}}.
 
+The {{prior for a given class, i.e. $p(C_k)$}}, can be obtained from {{the training dataset (empirical distribution)}}, or {{assumed equiprobable, i.e. $p(C_k) = \frac 1 K$}}. For empirical distribution: {{$$p(C_k) = \frac {\text{number of samples of class }C_k} {\text{number of samples} }$$}}.
+
+The {{conditional probabilities of a feature having a specific value given a class, i.e. $p(x_i = v \mid C_k)$}} required for calculations above can also be obtained from {{the training dataset}}. For discrete values: {{$$p(x_i = v \mid C_k) = \frac {\text{number of samples of class }C_k\text{ and feature }x_i = v} {\text{number of samples of class }C_k}$$}}, and for continuous values, {{[Gaussian naive Bayes](#Gaussian%20naive%20Bayes)}} is used.
+
 ## references
 
 This text incorporates [content](https://en.wikipedia.org/wiki/naive_Bayes_classifier) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
