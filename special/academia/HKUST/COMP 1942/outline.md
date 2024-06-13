@@ -400,10 +400,32 @@ The content is in teaching order.
   - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
   - [§ terminology](../../../../general/materialized%20view.md#terminology)
   - [§ greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
+- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered.
+- [HITS algorithm](../../../../general/HITS%20algorithm.md)
+  - [§ steps](../../../../general/HITS%20algorithm.md#steps)
+    - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values.
+  - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
+  - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
+  - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
+  - [§ normalization](../../../../general/HITS%20algorithm.md#normalization)
+    - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1.
+- [PageRank](../../../../general/PageRank.md)
+  - [§ algorithm](../../../../general/PageRank.md#algorithm)
+    - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages.
+  - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
+  - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
+    - PageRank damping factor variation ::: We use the algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$.
 
 ## week 14 lecture
 
 - time: 2024-04-29T09:00:00+08:00/2024-04-29T10:30:00+08:00
+- [PageRank § simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
+- [materialized view § greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
+- [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
+  - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
+  - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
+- [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
+- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md)
 - TODO
 
 ## week 14 tutorial
