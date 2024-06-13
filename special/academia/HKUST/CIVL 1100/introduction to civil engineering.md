@@ -452,7 +452,7 @@ testing materials
 
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2024-06-13,43,327!2024-07-05,57,355-->
+- _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2024-07-05,57,355-->
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-06-15,45,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-27,23,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-06-19,18,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-06-14,39,340-->
-- human behaviors→:::←management principles <!--SR:!2024-06-21,16,300!2024-06-13,30,280-->
+- human behaviors→:::←management principles <!--SR:!2024-06-21,16,300!2024-06-27,14,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-06-19,26,272-->
@@ -592,10 +592,10 @@ nuclear
 
 - _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
 - agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
-- architectural→:::←biomedical <!--SR:!2024-06-13,42,337!2024-06-26,44,340-->
+- architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-06-26,44,340-->
 - biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
-- chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-06-13,42,337-->
+- chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
@@ -740,7 +740,7 @@ tunnel
 
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←embankment <!--SR:!2024-06-13,35,320!2024-08-11,87,380-->
+- _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-06-19,9,232-->
@@ -1017,7 +1017,7 @@ Taipei 101
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-06-18,8,277!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
-- International Commerce Centre→:::←John Hancock Center <!--SR:!2024-06-13,35,320!2024-08-06,74,317-->
+- International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-08-06,74,317-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-10-07,120,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-09-12,99,321-->
 

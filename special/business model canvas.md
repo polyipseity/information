@@ -169,7 +169,7 @@ risk reduction
 - convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-06-22,42,257-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
-- design→:::←newness <!--SR:!2024-06-13,35,257!2024-06-30,52,274-->
+- design→:::←newness <!--SR:!2024-09-10,89,257!2024-06-30,52,274-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-06-19,39,257-->
 - performance→:::←performing the job well <!--SR:!2024-06-16,43,297!2024-09-03,92,274-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-07-10,60,274-->
@@ -216,7 +216,7 @@ personal assistance
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-06-13,44,290-->
+- _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-12-08,178,310-->
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
 - co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->

@@ -84,7 +84,7 @@ Example quiz questions for preparing exams.
 > 3. Food waste has higher energy content because of its rich organic content
 > 4. Food waste is the most preferable energy source for incineration because it is environmental friendly
 >
-> - solution: {{2}} <!--SR:!2024-06-13,14,252-->
+> - solution: {{2}} <!--SR:!2024-08-04,52,272-->
 
 <!-- markdownlint MD028 -->
 
