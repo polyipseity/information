@@ -449,7 +449,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
   - NOT clicked, more reliable than absolute, 80% are correct
 - log clickthrough, and many other things, how to model?
 - eye tracking, fixation: 200-300 msec, saccades: 40-50 msec, pupil dilation
-  - results: golden triangle at top left; organoic: 100%@1 -> 20%@10, ads: 50%@1->10%@8
+  - results: golden triangle at top left; organic: 100%@1 -> 20%@10, ads: 50%@1->10%@8
   - main content at top left
   - fixation correlated with clicks, first link > second link even fixation similar
 - clickthrough analysis: record rank and pages that are clicked; better for relative feedback
