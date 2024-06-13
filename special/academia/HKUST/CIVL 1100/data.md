@@ -155,7 +155,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2024-07-01,56,354!2024-06-22,78,330-->
 - height ::: roof: 178.8 m <!--SR:!2024-07-12,47,281!2024-06-16,72,330-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2024-07-26,63,360!2024-09-03,100,380-->
-- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-06-13,31,301!2024-08-15,83,381-->
+- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2024-08-15,83,381-->
 
 ## Hong Kong Convention and Exhibition Centre
 
@@ -231,7 +231,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
 - access tunnel lengths ::: up to 4 km <!--SR:!2024-08-20,99,377!2024-06-28,56,345-->
-- length ::: 57.5 km <!--SR:!2024-06-13,33,337!2024-08-06,87,374-->
+- length ::: 57.5 km <!--SR:!2024-09-27,106,337!2024-08-06,87,374-->
 
 ## Netherlands North Sea Protection Works
 
@@ -296,7 +296,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 - bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-07-16,53,297!2024-08-10,91,370-->
-- description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-06-13,69,330!2024-08-17,96,372-->
+- description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2025-01-26,227,330!2024-08-17,96,372-->
 - image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-08-30,97,380!2024-08-11,79,360-->
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-07-09,46,280!2024-08-29,97,380-->
 

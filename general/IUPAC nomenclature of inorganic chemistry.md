@@ -13,7 +13,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorganic compounds](inorganic%20compound.md)}}. There is also the [IUPAC nomenclature of organic chemistry](IUPAC%20nomenclature%20of%20organic%20chemistry.md). <!--SR:!2024-06-13,342,337-->
+The __IUPAC nomenclature of inorganic chemistry__ is {{a method of naming [inorganic compounds](inorganic%20compound.md)}}. There is also the [IUPAC nomenclature of organic chemistry](IUPAC%20nomenclature%20of%20organic%20chemistry.md). <!--SR:!2028-10-16,1586,357-->
 
 ## system
 

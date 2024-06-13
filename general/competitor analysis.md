@@ -171,7 +171,7 @@ number of features
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-15,22,261!2024-07-30,59,321-->
 - durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-01,22,261-->
-- service→:::←convenience <!--SR:!2024-06-15,14,241!2024-06-13,19,301-->
+- service→:::←convenience <!--SR:!2024-06-15,14,241!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-07-15,40,261!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-04,38,274-->
 - number of features→:::←_(least important)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
