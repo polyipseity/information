@@ -426,7 +426,16 @@ The content is in teaching order.
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
 - Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md)
-- TODO
+  - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
+- [conditional dependence](../../../../general/conditional%20dependence.md)
+- [conditional independence](../../../../general/conditional%20independence.md)
+  - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
+  - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
+- [conditional probability table](../../../../general/conditional%20probability%20table.md)
+  - conditional probability table format ::: The row headers are the inputs. The column headers are the outputs.
+- [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
+  - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
+  - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
 
 ## week 14 tutorial
 
@@ -437,7 +446,36 @@ The content is in teaching order.
 ## week 15 lecture 1
 
 - time: 2024-05-06T09:00:00+08:00/2024-05-06T10:30:00+08:00
-- TODO
+- [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
+  - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
+  - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
+- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md)
+  - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
+  - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (i.e. not part of the identified parents and children, or the parents of nodes with known values).
+  - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results.
+  - Bayesian belief network inference answering ::: Also calculate the inverse of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and declare that the higher conditional probability is the most likely outcome.
+- [conditional dependence](../../../../general/conditional%20dependence.md)
+- [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
+- [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
+  - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
+  - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
+- common core requirement ::: mathematical models, quantitative data, quantitative methods
+- other topics
+  - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose.
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distance between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function).
+  - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers.
+  - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph?
+  - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet?
+  - social networks ::: How are people connected?
+  - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy.
+  - graph data ::: How to analyze graphs?
+  - decision making
+  - data streams ::: How to data mine over real-time and possibly unbounded data streams?
+  - chatbot
+  - picture description
+  - generative AI
+    - [???](https://youtu.be/F0cAPC7rOkw), [???](https://youtu.be/B8O77NEDTnQ)
+- next lecture: guest lecture by Prof. Dan Xu
 - homework 2
   - deadline: 2024-05-08T09:00:00+08:00
 
@@ -449,7 +487,15 @@ The content is in teaching order.
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
-- TODO
+- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md)
+  - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
+- [conditional dependence](../../../../general/conditional%20dependence.md)
+- [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
+- [conditional probability table](../../../../general/conditional%20probability%20table.md)
+  - conditional probability table format ::: The row headers are the inputs. The column headers are the outputs.
+- [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
+  - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
+  - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
 
 ## week 15 lecture 2
 
