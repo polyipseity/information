@@ -148,7 +148,7 @@ return _chain.from_iterable(await _gather(
 - [cobalt](cobalt.md)→:::←[nickel](nickel.md) <!--SR:!2024-10-03,332,250!2024-08-24,75,210-->
 - [nickel](nickel.md)→:::←[tin](tin.md) <!--SR:!2024-11-01,352,250!2024-07-04,92,190-->
 - [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2025-07-07,539,250-->
-- [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-06-14,81,210!2024-06-15,267,250-->
+- [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-11-30,169,210!2024-06-15,267,250-->
 - [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2024-12-31,415,270!2025-11-08,643,290-->
 - [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-06-18,46,230!2025-01-25,397,250-->
 - [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-02-02,436,270-->
@@ -293,7 +293,7 @@ return _chain.from_iterable(await _gather(
 - [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-18,130,250-->
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-07-17,133,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
-- [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-06-14,32,130-->
+- [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-07-27,43,130-->
 - [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-07-06,41,150-->
 - [zinc](zinc.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-16,379,290-->
 - [chromium](chromium.md)::[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->

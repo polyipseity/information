@@ -20,7 +20,7 @@ __Neutralization__ is {{an [exothermic](exothermic%20process.md) [chemical react
 
 > neutralization in the [Brønsted–Lowry acid–base theory](Brønsted–Lowry%20acid–base%20theory.md)
 >
-> - {{AH + B → A + BH}} <!--SR:!2024-06-14,343,338-->
+> - {{AH + B → A + BH}} <!--SR:!2027-08-16,1158,338-->
 
 ## applications
 

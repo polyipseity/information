@@ -122,7 +122,7 @@ vagueness: vague jobs, pains, and gains
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-06-14,37,269!2024-08-06,82,270!2024-10-26,138,309-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-09-21,99,269!2024-08-06,82,270!2024-10-26,138,309-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-06-20,47,309!2024-08-15,98,290!2024-11-20,162,310-->
 

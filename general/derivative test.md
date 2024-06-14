@@ -125,7 +125,7 @@ The _one-sided higher-order derivative test_ is {{stronger than the two-sided hi
 
 > [!example] examples
 >
-> - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local maximum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [concave](convex%20function.md). <!--SR:!2024-06-14,137,294-->
+> - $f(x):=-x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local maximum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [concave](convex%20function.md). <!--SR:!2025-07-21,402,294-->
 > - $f(x):=x^{2n}\text{ for }n\in\mathbb{N}^+,c=0$ :: [Strict local minimum](maximum%20and%20minimum.md) and weakly (strictly when $n = 1$) [convex](convex%20function.md). <!--SR:!2024-08-10,64,270-->
 > - $f(x):=x^\frac{2n}3,n\in\mathbb{N}^+,c=0$ :: Inconclusive because no $d\in\mathbb{N}^+$ such that $f^{(d)}(0)$ exists and $f^{(d)}(0)\ne0$. Actual is [strict local minimum](maximum%20and%20minimum.md). <!--SR:!2024-07-19,152,274-->
 > - $f(x):=x\lvert{x}\rvert,c=0$ :: Inconclusive by the two-sided test and [stationary rising inflection point](maximum%20and%20minimum.md) and not local [extremum](maximum%20and%20minimumm.md) by the one-sided test. <!--SR:!2024-10-05,200,279-->
