@@ -34,23 +34,23 @@ return await memorize_seq(
 
 The 5-step persuasive selling consists of the following steps:
 
-<!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-06-04T22:06:05.722347+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-06-09T06:30:40.100250+08:00. Any edits will be overridden! -->
 
 > 1. background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts
 > 2. the big idea: use ONLY 1 (long) sentence to describe your solution
 > 3. how it works: _key solution details_ to preempt concerns, objections, and questions
-> 4. key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _politely threatening_ the target with risks
+> 4. key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_
 > 5. next step: an _easy_ task that the target cannot say no and moves the solution forward
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-06-04T22:06:05.627887+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-06-09T06:27:26.828416+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts <!--SR:!2024-06-21,13,290!2024-06-25,17,290-->
 - background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts→:::←the big idea: use ONLY 1 (long) sentence to describe your solution <!--SR:!2024-06-24,16,290!2024-06-25,17,290-->
 - the big idea: use ONLY 1 (long) sentence to describe your solution→:::←how it works: _key solution details_ to preempt concerns, objections, and questions <!--SR:!2024-06-23,15,290!2024-06-23,15,290-->
-- how it works: _key solution details_ to preempt concerns, objections, and questions→:::←key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _politely threatening_ the target with risks <!--SR:!2024-06-25,17,290!2024-06-20,12,270-->
-- key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _politely threatening_ the target with risks→:::←next step: an _easy_ task that the target cannot say no and moves the solution forward <!--SR:!2024-06-24,16,290!2024-06-22,14,290-->
+- how it works: _key solution details_ to preempt concerns, objections, and questions→:::←key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_ <!--SR:!2024-06-25,17,290!2024-06-20,12,270-->
+- key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_→:::←next step: an _easy_ task that the target cannot say no and moves the solution forward <!--SR:!2024-06-24,16,290!2024-06-22,14,290-->
 - next step: an _easy_ task that the target cannot say no and moves the solution forward→:::←_(end)_ <!--SR:!2024-06-22,14,290!2024-06-21,13,290-->
 
 <!--/pytextgen-->
