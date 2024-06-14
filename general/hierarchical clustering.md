@@ -80,7 +80,7 @@ return chain.from_iterable(await gather(
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-09-13,93,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-08-29,90,275!2024-10-22,141,295-->
 - [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-10-07,123,295!2024-06-26,39,235-->
-- unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-06-14,48,295!2024-08-23,95,295-->
+- unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-07-07,23,275!2024-08-23,95,295-->
 - weighted average linkage clustering→:::←_(end)_ <!--SR:!2024-07-11,70,315!2024-09-11,109,295-->
 
 <!--/pytextgen-->
@@ -143,7 +143,7 @@ Note that [distance](distance.md) described below is {{the measure of _dissimila
 
 To perform agglomerative clustering, initially {{create a cluster for each observation, containing the observation itself}}. Then {{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}}. Keep track of the {{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}}. Repeat this until {{you have only one cluster left}}. Then your dendrogram is the result, and {{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}}. <!--SR:!2024-09-27,121,295!2024-07-31,71,275!2024-08-03,73,275!2024-07-22,65,275!2024-06-29,49,250-->
 
-One way to implement this is, after creating a cluster for each observation, {{construct a [distance matrix](distance%20matrix.md) of all clusters, where the number in the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}}. Use the matrix to {{identify the pair of clusters with the least distance}}. After merging the pair of clusters, {{the distance matrix should decrease in dimension by one in both axes. Update the distances to the new merged cluster from other untouched clusters}}. Repeat this until {{you have only one cluster left}}. An optimization is that since distance is symmetric, we can use {{a lower [triangular matrix](triangular%20matrix.md) to store the distances}}. <!--SR:!2024-10-29,138,275!2024-12-13,183,315!2024-10-17,137,295!2024-06-14,47,295!2024-08-13,87,295-->
+One way to implement this is, after creating a cluster for each observation, {{construct a [distance matrix](distance%20matrix.md) of all clusters, where the number in the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}}. Use the matrix to {{identify the pair of clusters with the least distance}}. After merging the pair of clusters, {{the distance matrix should decrease in dimension by one in both axes. Update the distances to the new merged cluster from other untouched clusters}}. Repeat this until {{you have only one cluster left}}. An optimization is that since distance is symmetric, we can use {{a lower [triangular matrix](triangular%20matrix.md) to store the distances}}. <!--SR:!2024-10-29,138,275!2024-12-13,183,315!2024-10-17,137,295!2024-10-30,138,295!2024-08-13,87,295-->
 
 ## divisive clustering
 

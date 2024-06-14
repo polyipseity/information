@@ -48,7 +48,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}} <!--SR:!2024-06-14,16,290-->
+> - solution: {{1}} <!--SR:!2024-08-17,64,310-->
 
 ## 2024-02-19
 
@@ -106,7 +106,7 @@ tags:
 > 2. Point 2
 > 3. Point 3
 >
-> - solution: {{3}} <!--SR:!2024-06-14,16,290-->
+> - solution: {{3}} <!--SR:!2024-08-14,61,310-->
 
 ## 2024-03-06
 
@@ -166,7 +166,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}} <!--SR:!2024-06-14,16,290-->
+> - solution: {{1}} <!--SR:!2024-08-16,63,310-->
 
 ## 2024-03-20
 
@@ -185,7 +185,7 @@ tags:
 
 > Q1.  What is the name of the instructor of this course?
 >
-> - solution: {{(open answer, e.g. "Raymond Wong")}} <!--SR:!2024-06-14,16,290-->
+> - solution: {{(open answer, e.g. "Raymond Wong")}} <!--SR:!2024-08-13,60,310-->
 
 ## 2024-04-10
 
@@ -313,4 +313,4 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}} <!--SR:!2024-06-14,16,290-->
+> - solution: {{1}} <!--SR:!2024-08-15,62,310-->

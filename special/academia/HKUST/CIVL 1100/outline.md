@@ -40,14 +40,14 @@ The content is in teaching order.
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-06-20,21,270!2024-07-11,40,310-->
-  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-06-14,6,290!2024-07-17,44,310-->
+  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-07-07,23,310!2024-07-17,44,310-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-08-08,59,310!2024-07-07,36,301-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2024-08-02,53,301!2024-08-18,70,321-->
     - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2024-08-07,62,330-->
     - "weak" object examples ::: mattress <!--SR:!2024-08-15,68,330!2024-08-22,73,321-->
-  - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-06-14,6,290!2024-07-28,51,310-->
+  - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-07-06,22,310!2024-07-28,51,310-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-07-18,44,310!2024-08-21,73,330-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)

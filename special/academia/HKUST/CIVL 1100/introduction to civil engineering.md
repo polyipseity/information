@@ -150,7 +150,7 @@ quantity surveyor
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-08-24,92,305-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-06-14,21,280-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-08-11,58,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-07-29,66,360-->
 
 <!--/pytextgen-->
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
-- dam→:::←pipeline <!--SR:!2024-06-19,8,204!2024-06-14,36,321-->
+- dam→:::←pipeline <!--SR:!2024-06-19,8,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-06-16,23,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
@@ -237,7 +237,7 @@ water security
 - extreme weather→:::←food security <!--SR:!2024-06-15,45,330!2024-07-13,68,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-06-26,53,354-->
-- water security→:::←_(end)_ <!--SR:!2024-06-14,70,330!2024-06-14,32,337-->
+- water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2024-09-29,107,337-->
 
 <!--/pytextgen-->
 
@@ -404,7 +404,7 @@ Water Cube
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-06-15,42,332-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
-- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-06-14,41,325-->
+- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-07-05,21,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-29,18,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2024-06-15,44,337-->
 
@@ -500,7 +500,7 @@ teaming up with others
 
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-06-19,18,261!2024-07-31,68,285-->
-- economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-06-14,39,340-->
+- economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-21,16,300!2024-06-27,14,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
@@ -597,7 +597,7 @@ nuclear
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
-- computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-06-14,43,335-->
+- computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-07-05,21,315-->
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
@@ -778,7 +778,7 @@ levee
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-06-21,48,352-->
 - channel→:::←dam <!--SR:!2024-06-15,40,327!2024-06-15,64,270-->
 - dam→:::←levee <!--SR:!2024-07-02,50,340!2024-06-16,41,332-->
-- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-06-14,21,258-->
+- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-06,53,258-->
 
 <!--/pytextgen-->
 
@@ -1099,7 +1099,7 @@ water tower
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-06-22,12,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
-- storage facility→:::←tunnel <!--SR:!2024-06-14,36,340!2024-09-01,89,320-->
+- storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-06-18,38,320-->
 - unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-06-29,51,330-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-06-27,34,301-->
@@ -1190,7 +1190,7 @@ water transport
 - _(begin)_→:::←airport <!--SR:!2024-07-26,62,290!2024-08-03,84,375-->
 - airport→:::←bicycle path <!--SR:!2024-07-15,67,355!2024-09-03,102,337-->
 - bicycle path→:::←highway <!--SR:!2024-07-05,55,360!2024-07-16,64,360-->
-- highway→:::←pier <!--SR:!2024-06-14,36,320!2024-08-10,72,300-->
+- highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
 - pipeline→:::←railroad <!--SR:!2024-07-24,44,255!2024-08-07,75,315-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2024-08-11,79,315-->
