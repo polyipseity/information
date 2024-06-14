@@ -20,6 +20,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
+- time: 2024-02-06T18:00:00+08:00/2024-02-06T20:00:00+08:00
 - [information § context](information.md#context)
 - [information § part 1: product innovation](information.md#part%201%20product%20innovation)
 - [information § product innovation elements](information.md#production%20innovation%20elements)
@@ -40,6 +41,7 @@ The content is in teaching order.
 
 ## week 4 lecture
 
+- time: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-06-26,28,315-->
@@ -70,6 +72,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
+- time: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
 - How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-06-29,25,255!2024-07-07,40,295-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
@@ -88,6 +91,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
+- time: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
 - product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-07-03,37,295!2024-07-12,44,315-->
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-07-02,39,295!2024-07-15,47,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
@@ -113,8 +117,10 @@ The content is in teaching order.
 
 ## week 7 lecture
 
+- time: 2024-03-12T18:00:00+08:00/2024-03-12T20:30:00+08:00
 - exam for part 1: product innovation
   - content: multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
+  - format: closed-book, no cheatsheet
   - time limit: 40 minutes
 - 15-minute group presentation briefing
   - 12 minutes per team
@@ -133,12 +139,14 @@ The content is in teaching order.
 
 ## week 8 lecture
 
+- time: 2024-03-19T18:00:00+08:00/2024-03-19T20:30:00+08:00
 - 15-minute group presentation
   - questions and answers
 - [assignment W8](assignment%20W8/assignment%20W8.md)
 
 ## week 9 lecture
 
+- time: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-06-25,17,341!2024-06-24,16,341-->
@@ -164,10 +172,10 @@ The content is in teaching order.
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
 - [MECE principle](../../../../general/MECE%20principle.md)
-- key concepts ::: abstraction, framework, model <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
-  - key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
-  - key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
-  - key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-06-18,8,321-->
+- modeling key concepts ::: abstraction, framework, model <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
+  - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
+  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
+  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-06-18,8,321-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
@@ -189,6 +197,7 @@ The content is in teaching order.
 
 ## week 11 lecture
 
+- time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
@@ -221,6 +230,7 @@ The content is in teaching order.
 
 ## week 12 lecture
 
+- time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
   - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-06-28,19,357!2024-06-30,21,357-->
 - McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
@@ -234,17 +244,37 @@ The content is in teaching order.
 
 ## week 13 lecture
 
+- time: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
 - To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-06-26,17,357!2024-06-29,20,357-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Nintendo (Wii), Yellow Tail, drybar <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
+  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
+  - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
+  - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
+  - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")
+  - [§ create "gap"](../../../blue%20ocean%20strategy.md#create%20"gap")
 - [assignment W13](assignment%20W13/assignment%20W13.md): Blue Ocean Analysis (PetWellClinic)
 
 ## week 14 lecture
 
+- time: 2024-04-30T18:00:00+08:00/2024-04-30T20:00:00+08:00
+- [profitability framework](../../../profitability%20framework.md)
+  - [§ the framework](../../../profitability%20framework.md#the%20framework)
+  - [§ background](../../../profitability%20framework.md#background)
+  - [§ usage](../../../profitability%20framework.md#usage)
+  - abbreviations
+    - R&D ::: research & development
+    - S&M ::: sales & marketing
+    - G&A ::: general & administration
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$
+- interview note-taking technique using 1 sheet of A4 paper
+- exam for part 2 review
+
 ## week 15 lecture
 
+- time: 2024-05-07T18:00:00+08:00/2024-05-07T20:00:00+08:00
 - exam for part 2: case analysis
   - content: 7 long questions
+  - format: closed-book, 1 A4-sized cheatsheet using both sides
   - time limit: about 120 minutes
