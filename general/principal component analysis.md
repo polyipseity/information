@@ -93,7 +93,7 @@ return chain(
 <!--/pytextgen-->
 
 1. __<!--pytextgen generate section="23aa"--><!-- The following content is generated at 2024-06-11T22:43:08.251405+08:00. Any edits will be overridden! -->organize the data set<!--/pytextgen-->__
-    - Suppose you have a set of {{_n_ observations of _p_ variables}}, and you want to {{reduce the data set to only _l_ < _p_ variables}}.
+    - Suppose you have a set of {{_n_ observations of _p_ variables}}, and you want to {{reduce the data set to only $l \le p$ variables}}.
     - Make the matrix __X__ by {{writing the _n_ observations $\mathbf{x}_1, \mathbf{x}_2, \ldots, \mathbf{x}_n$ each as a row vector with _p_ elements}}, and then {{combine the row vectors vertically to make a _n_ × _p_ matrix}}.
 2. __<!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-06-11T22:43:08.494067+08:00. Any edits will be overridden! -->calculate the empirical mean<!--/pytextgen-->__
     - Find {{the mean vector __u__ of the _n_ observations}}: {{$$\mathbf{u} = \frac 1 n \sum_{i = 1}^n \mathbf{x}_i$$}}. That is, each column of matrix __X__ is {{summed up and divided by _n_ to make a 1 × _p_ row vector}}.
@@ -114,7 +114,7 @@ return chain(
 7. __<!--pytextgen generate section="dd01"--><!-- The following content is generated at 2024-06-11T22:43:08.410586+08:00. Any edits will be overridden! -->compute the cumulative variance for each eigenvector<!--/pytextgen-->__
     - The eigenvalues {{represent the distribution of the data's variance among each of the eigenvector}}. The cumulative variance _g_ for the _j_-th eigenvector is {{simply the sum of the eigenvalues from the 1st to the _j_-th eigenvector}}: {{$$g_j = \sum_{i = 1}^j \mathbf{D}_{ii} \quad \forall j \in \set{1, \ldots, p}$$}}
 8. __<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-06-11T22:43:08.476983+08:00. Any edits will be overridden! -->select a subset of the eigenvectors as basis vectors<!--/pytextgen-->__
-    - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of dimensions after PCA _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
+    - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
     - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}.

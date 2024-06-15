@@ -17,7 +17,7 @@ In a database, there are usually {{many possible views to materialize}}. But it 
 
 ### terminology
 
-Let $\top$ be {{the top view, i.e. the unaggregated view containing all transactions}}. Let $\bot$ be {{the bottom view, i.e. the view containing no data}}. Each view $v$ is {{associated with a real number called the cost $v_c$, with $\top_c$ being the total number of all transactions and $\bot_c = 1$}}. The view cost $v_c$ can be considered as {{the cost of answering an query using said view $v$}}.
+Let $\top$ be {{the top view, i.e. the unaggregated view containing all transactions}}. Let $\bot$ be {{the bottom view, i.e. the view containing no data}}. Each view $v$ is {{associated with a real number called the cost $v_c$, with $\top_c$ being the total number of transactions and $\bot_c = 1$}}. The view cost $v_c$ can be considered as {{the cost of answering an query using said view $v$}}.
 
 A view $v$ is the parent of another $v'$ if {{every query that we care about that are answerable by $v'$ is also answerable by $v$}}. For example, a table containing parts, suppliers, and costs {{can answer queries answerable by a table containing parts and costs only or a table containing suppliers and cost only}}. Note that the above parent—child relation is dependant on the queries that we care about. So the example above might only works for some queries. $\top$ is {{the common ancestor of all views excluding itself}}, and $\bot$ is {{the common children of all views excluding itself}}. The relations for a set of views can be {{visualized as a graph, along with the view costs}}.
 
@@ -46,14 +46,14 @@ The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top}
 The pseudocode is as follows:
 
 1. initialization ::: Initialize $S$ to consist of the top view $\top$ only.
-2. looping condition ::: The looping condition depends on the constraint. For example, loop while the number of materialized has not exceeded the limit. Another example is, loop while there exists an view not in $S$ such that materializing the view does not make the total cost of materialized views exceed the limit. Go to step 5 if the loop stops.
+2. looping condition ::: The looping condition depends on the constraint. For example, loop while the number of materialized views has not exceeded the limit. Another example is, loop while there exists an view not in $S$ such that materializing the view does not make the total cost of materialized views exceed the limit. Go to step 5 if the loop stops.
 3. selection with heuristic ::: Select an view not in $S$ such that the constraint is respected while maximizing a specific heuristic function. The heuristic function also depends on the constraint. For example, the heuristic function can be the benefit $B(v, S)$ of materializing the view if the number of materialized views is limited. Another example is, the benefit per view cost $B(v, S) / c_v$ of materializing the view if the total cost of materialized views is constrained.
 4. update ::: Add the view to $S$. Go to step 2.
 5. results ::: $S$ is the resulting view selection.
 
 To run the above algorithm manually, we can use {{a benefit table with the column headers being the _n_-th choice and row headers being the possible views to materialize}}. Fill in the benefit table from {{left to right, with advancing one column representing choosing one more view}}. When a view is selected, there is {{no need to further calculate its benefit in subsequent columns}}. Calculate the benefit {{with reference to the graph of relations between a set of views earlier}}. On completing an column, {{the view with the most benefit is selected}}.
 
-In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is most costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}.
+In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}.
 
 > [!examples] benefit table example
 >
