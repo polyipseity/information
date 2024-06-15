@@ -21,7 +21,7 @@ The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj}
 
 The [activation function](activation%20function.md) of a neurons is chosen {{to have properties enhancing or simplifying the network}}. Crucially, {{any [multilayer perceptron](multilayer%20perceptron.md) using a _linear_ activation function has a equivalent single-layer network, which can be proved mathematically; thus, a non-linear function is needed to leverage the full power of a multilayer network}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
 
-Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs to the neuron, including the bias}}. For _m + 1_ inputs as described above: {{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k \sum_{j = 1}^m w_{kj} x_j$$}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270!2024-06-17,3,250-->
+Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs to the neuron, including the bias}}. For _m + 1_ inputs as described above: {{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k + \sum_{j = 1}^m w_{kj} x_j$$}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270!2024-06-17,3,250-->
 
 ### step function
 

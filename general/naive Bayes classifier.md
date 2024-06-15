@@ -35,7 +35,7 @@ To conclude, {{with the above assumptions}}, {{the conditional probability of cl
 
 The {{prior for a given class, i.e. $p(C_k)$}}, can be obtained from {{the training dataset (empirical distribution)}}, or {{assumed equiprobable, i.e. $p(C_k) = \frac 1 K$}}. For empirical distribution: {{$$p(C_k) = \frac {\text{number of samples of class }C_k} {\text{number of samples} }$$}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270-->
 
-The {{conditional probabilities of a feature having a specific value given a class, i.e. $p(x_i = v \mid C_k)$}} required for calculations above can also be obtained from {{the training dataset}}. For discrete values: {{$$p(x_i = v \mid C_k) = \frac {\text{number of samples of class }C_k\text{ and feature }x_i = v} {\text{number of samples of class }C_k}$$}}, and for continuous values, {{[Gaussian naive Bayes](#Gaussian%20naive%20Bayes)}} is used. <!--SR:!2024-06-17,3,250!2024-06-18,4,270!2024-06-17,3,250!2024-06-18,4,270-->
+The {{conditional probabilities of a feature having a specific value given a class, i.e. $p(x_i = v \mid C_k)$}} required for calculations above can also be obtained from {{the training dataset}}. For discrete values: {{$$p(x_i = v \mid C_k) = \frac {\text{number of samples of class }C_k\text{ and feature }x_i = v} {\text{number of samples of class }C_k}$$}}, and for continuous values, {{[Gaussian naive Bayes](#Gaussian%20naive%20Bayes)}} is usually used. <!--SR:!2024-06-17,3,250!2024-06-18,4,270!2024-06-17,3,250!2024-06-18,4,270-->
 
 ## references
 
