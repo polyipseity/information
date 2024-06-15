@@ -115,7 +115,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-01-04T20:17:51.686624+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2026-12-24,979,330!2024-06-15,344,330-->
+- _(begin)_→:::←[alkaline](alkaline%20battery.md) <!--SR:!2026-12-24,979,330!2028-09-26,1564,350-->
 - [alkaline](alkaline%20battery.md)→:::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2026-02-03,795,330!2026-04-11,843,330-->
 - [silver oxide](silver%20oxide%20battery.md)→:::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2025-12-17,754,330!2025-08-05,597,310-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→:::←_(end)_ <!--SR:!2028-01-02,1354,350!2026-02-25,806,330-->

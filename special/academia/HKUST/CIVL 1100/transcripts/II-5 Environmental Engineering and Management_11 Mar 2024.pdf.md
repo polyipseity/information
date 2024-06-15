@@ -101,7 +101,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-15,1,275!2024-06-17,3,295-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-18,3,275!2024-06-17,3,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
 
@@ -227,7 +227,7 @@ Will this waste charging scheme waste generation?
 Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-08-13,65,310-->
-  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-06-15,8,270!2024-08-08,61,310-->
+  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-07-14,29,290!2024-08-08,61,310-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-29,26,270!2024-07-30,52,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-27,26,270!2024-07-16,40,290-->
@@ -338,7 +338,7 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2024-08-07,60,310!2024-08-13,66,310-->
-  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-06-15,17,250!2024-08-02,57,310-->
+  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-07-27,42,250!2024-08-02,57,310-->
 
 ## page 29
 

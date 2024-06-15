@@ -234,7 +234,7 @@ water security
 
 - _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2024-07-11,66,350-->
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2024-06-19,44,330-->
-- extreme weather→:::←food security <!--SR:!2024-06-15,45,330!2024-07-13,68,347-->
+- extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2024-07-13,68,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-06-26,53,354-->
 - water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2024-09-29,107,337-->
@@ -283,7 +283,7 @@ workmanship
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-01,27,280-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
-- maintenance→:::←politics <!--SR:!2024-06-15,12,261!2024-08-12,80,312-->
+- maintenance→:::←politics <!--SR:!2024-07-17,32,261!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
 - social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-06-16,13,190-->
 - workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
@@ -401,12 +401,12 @@ Water Cube
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2024-06-27,54,347-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-11-12,158,350-->
-- Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-06-15,42,332-->
+- Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-07-05,21,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-29,18,317!2024-08-24,81,320-->
-- Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2024-06-15,44,337-->
+- Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
 
 <!--/pytextgen-->
 
@@ -453,7 +453,7 @@ testing materials
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2024-07-05,57,355-->
-- budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-06-15,45,327-->
+- budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-11-08,146,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-27,23,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
 - logistics→:::←planning <!--SR:!2024-07-19,39,294!2024-09-28,120,335-->
@@ -776,7 +776,7 @@ levee
 
 - _(begin)_→:::←canal <!--SR:!2024-09-12,106,340!2024-07-18,70,347-->
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-06-21,48,352-->
-- channel→:::←dam <!--SR:!2024-06-15,40,327!2024-06-15,64,270-->
+- channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
 - dam→:::←levee <!--SR:!2024-07-02,50,340!2024-06-16,41,332-->
 - levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-06,53,258-->
 
@@ -812,7 +812,7 @@ water distribution network
 - sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-09-19,101,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
-- water distribution network→:::←_(end)_ <!--SR:!2024-06-15,43,347!2024-07-16,43,321-->
+- water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-07-16,43,321-->
 
 <!--/pytextgen-->
 
@@ -917,7 +917,7 @@ polypropylene fiber reinforced concrete
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-06-22,51,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-06-20,27,280!2024-09-04,103,335-->
-- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-06-15,37,320-->
+- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-10-10,117,320-->
 
 <!--/pytextgen-->
 
@@ -984,7 +984,7 @@ Two Prudential Plaza
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-09-17,101,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-06-15,12,280-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-07-20,35,280-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-09-15,101,320-->
 
 <!--/pytextgen-->
@@ -1101,7 +1101,7 @@ water tower
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-06-18,38,320-->
-- unusual structure→:::←water tower <!--SR:!2024-06-15,45,330!2024-06-29,51,330-->
+- unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-06-29,51,330-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-06-27,34,301-->
 
 <!--/pytextgen-->

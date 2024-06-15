@@ -153,7 +153,7 @@ The content is in teaching order.
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-06-26,18,341!2024-06-27,19,341-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-06-16,9,301!2024-06-28,20,341-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-06-27,19,341!2024-06-27,19,341-->
-  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-06-15,5,301!2024-06-27,19,341-->
+  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-07-01,16,301!2024-06-27,19,341-->
 - critical thinking pop quiz
   - content: 10 4-choice questions
   - effect: 0.5% of course grade
@@ -202,7 +202,7 @@ The content is in teaching order.
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
-- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-06-15,5,301!2024-06-27,19,341-->
+- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-07-04,19,321!2024-06-27,19,341-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-06-25,17,341!2024-06-26,18,341-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-06-25,17,341!2024-06-20,12,321-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->

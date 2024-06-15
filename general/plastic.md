@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←[high-density polyethylene](high-density%20polyethylene.md) (HDPE) <!--SR:!2028-09-05,1550,354!2024-08-11,390,341-->
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)→:::←[low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2028-08-25,1541,354!2024-08-10,389,341-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→:::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2025-07-16,497,254!2027-06-25,1115,334-->
-- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-06-15,47,249!2024-08-31,185,249-->
+- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-10-12,119,249!2024-08-31,185,249-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2024-07-26,137,194!2025-07-02,440,274-->
 - [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2026-04-12,706,274!2024-10-01,233,274-->
 - [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2027-03-25,1048,334!2024-07-16,260,281-->
@@ -109,7 +109,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="e928"--><!-- The following content is generated at 2024-01-04T20:17:52.406405+08:00. Any edits will be overridden! -->
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)::higher [melting point](melting%20point.md) than LDPE, low [density](density.md), [rigid](stiffness.md) <!--SR:!2024-10-18,174,194-->
-- [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2024-06-15,222,214-->
+- [low-density polyethylene](low-density%20polyethylene.md) (LDPE)::flexible, low [density](density.md), [thermoplastic](thermoplastic.md) <!--SR:!2025-10-02,474,214-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)::high chemical resistance, high [water](water.md) resistance, low [density](density.md), smooth, [strong](strength%20of%20materials.md), [tough](toughness.md) <!--SR:!2024-06-24,62,150-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2026-02-03,611,241-->
 - [polypropylene](polypropylene.md) (PP)::high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2024-06-19,17,130-->
