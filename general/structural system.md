@@ -68,7 +68,7 @@ The following interior structures are possible.
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-06-28,19,235!2024-07-03,23,235-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-07-04,32,275!2024-06-29,29,275-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-06-16,20,255!2024-07-22,40,255-->
-- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-06-15,20,275-->
+- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-06-25,10,255-->
 
 <!--/pytextgen-->
 
@@ -120,7 +120,7 @@ return await memorize_seq(
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-06-26,28,275!2024-08-01,58,315-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-06-18,21,255!2024-06-27,28,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-07-25,49,295!2024-06-17,11,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-08,36,295!2024-06-15,19,255-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-08,36,295!2024-06-26,11,235-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
 
 <!--/pytextgen-->

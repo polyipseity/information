@@ -89,7 +89,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="e892"--><!-- The following content is generated at 2024-04-12T02:13:02.070775+08:00. Any edits will be overridden! -->
 
-- [Ward's method](Ward's%20method.md)::MISSQ, minimum increase of sum of squares <!--SR:!2024-06-15,35,255-->
+- [Ward's method](Ward's%20method.md)::MISSQ, minimum increase of sum of squares <!--SR:!2024-09-11,88,255-->
 - centroid linkage clustering::UPGMC, unweighted centroid clustering <!--SR:!2024-06-25,54,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering <!--SR:!2024-11-26,171,315-->
 - median linkage clustering::WPGMC, weighted centroid clustering <!--SR:!2024-06-24,44,255-->
@@ -149,7 +149,7 @@ One way to implement this is, after creating a cluster for each observation, {{c
 
 Note that [distance](distance.md) described below is {{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}}, so the method is applicable to {{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}}. <!--SR:!2024-11-30,172,309!2024-07-18,76,329-->
 
-The basic principle of divisive clustering was {{published as the DIANA (DIvisive ANAlysis clustering) algorithm}}.[<sup>[1]</sup>](#^ref-Kaufman-2009) <!--SR:!2024-06-15,48,295-->
+The basic principle of divisive clustering was {{published as the DIANA (DIvisive ANAlysis clustering) algorithm}}.[<sup>[1]</sup>](#^ref-Kaufman-2009) <!--SR:!2024-12-28,196,315-->
 
 Initially, {{create a cluster that contain all observations}}. Find the cluster {{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}}. Then, in said cluster, {{find the observation that has the highest distance from the belonging cluster excluding the observation itself}}. Next, {{move the observation from said cluster to a new _splinter cluster_}}. Now, keep {{moving observations one by one from the old cluster to the new cluster}}. To choose the observation to be moved, {{calculate the _dissimilarity difference_ for each observation in the old cluster}}. The _dissimilarity difference_ of an observation in the old cluster is {{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}}. Move the observation {{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}}. If all _dissimilarity differences_ are negative, {{stop moving the observations}}. If there is only one item left, {{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}}. Repeat the above steps {{until you reach the desirable number of clusters}}. <!--SR:!2024-06-28,60,315!2024-06-20,43,255!2024-06-20,40,255!2024-09-28,122,295!2024-06-28,48,255!2024-06-29,49,255!2024-06-22,42,255!2024-09-01,93,275!2024-09-13,110,295!2024-06-24,44,255!2024-08-17,82,275-->
 

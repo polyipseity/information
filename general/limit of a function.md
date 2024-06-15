@@ -33,7 +33,7 @@ Note that the above definition is still too restrictive because {{the limits are
 > [!example] examples
 >
 > - empty function $\varnothing \to X$ :: It has no limit at every [real](real%20number.md). However, it has limit and it has no limit at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2025-02-25,269,344-->
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It has no limit at every [real](real%20number.md), including $0$. <!--SR:!2024-06-15,75,344-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It has no limit at every [real](real%20number.md), including $0$. <!--SR:!2025-06-04,354,364-->
 
 ### one-sided limits and existence
 

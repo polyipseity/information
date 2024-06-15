@@ -111,7 +111,7 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2024-07-07,64,329-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-06-28,45,249!2024-07-22,61,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-06-18,27,189!2024-06-15,7,169-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-06-18,27,189!2024-06-26,11,169-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-06-25,12,265!2024-06-24,31,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
@@ -261,7 +261,7 @@ conclusion: make progress
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-07-02,60,309!2024-07-21,74,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-29,22,289!2024-09-04,112,290-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-11-25,166,310-->
-- test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-06-15,42,309-->
+- test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-10-22,129,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-10-01,112,270-->
 
