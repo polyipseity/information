@@ -98,12 +98,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance
-- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-15,1,275!2024-06-17,3,295-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
+- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
 
 <!--/pytextgen-->
 
@@ -152,12 +152,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging
-- air sparging→:::←bioremediation
-- bioremediation→:::←catalytic oxidation
-- catalytic oxidation→:::←ex-situ biopile
-- ex-situ biopile→:::←ex-situ solidification or stabilization
-- ex-situ solidification or stabilization→:::←_(end)_
+- _(begin)_→:::←air sparging <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
+- air sparging→:::←bioremediation <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-17,3,295-->
 
 <!--/pytextgen-->
 
