@@ -492,7 +492,7 @@ The content is in teaching order.
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
-- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md)
+- [Bayesian belief network](../../../../general/Bayesian%20network.md)
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
