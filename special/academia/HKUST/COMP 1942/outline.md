@@ -374,7 +374,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2024-06-17,3,317!2024-06-17,3,317-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
-  - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations
+  - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-06-19,5,348!2024-06-20,6,348-->
   - data warehouse > advantage ::: data warehouses can speed up queries on a database <!--SR:!2024-06-17,3,317!2024-06-18,4,337-->
 
 ## week 13 lecture 1
@@ -406,7 +406,7 @@ The content is in teaching order.
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2024-06-18,4,337!2024-06-18,4,337-->
-    - HITS algorithm termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed.
+    - HITS algorithm termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-06-18,4,348!2024-06-20,6,348-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
@@ -414,9 +414,9 @@ The content is in teaching order.
     - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2024-06-17,3,317!2024-06-18,4,337-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
-    - PageRank self-links ::: Self-links are considered.
+    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-06-19,5,348!2024-06-19,5,348-->
     - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2024-06-18,4,337!2024-06-18,4,337-->
-    - PageRank termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed.
+    - PageRank termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-06-18,4,348!2024-06-18,4,348-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
     - PageRank damping factor variatih`n ::: We use the algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2024-06-18,4,337!2024-06-18,4,337-->
@@ -430,7 +430,7 @@ The content is in teaching order.
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
-- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2024-06-17,3,329!2024-06-17,3,329-->
+- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2024-06-20,6,348!2024-06-18,4,348-->
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence](../../../../general/conditional%20independence.md)
