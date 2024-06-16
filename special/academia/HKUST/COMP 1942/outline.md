@@ -142,7 +142,7 @@ The content is in teaching order.
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-06-17,3,317!2024-06-17,3,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
-  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-07-17,76,351!2024-06-16,50,327-->
+  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-07-17,76,351!2025-01-27,225,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
 - [information gain § general definition](../../../../general/information%20gain%20(decision%20tree).md#general%20definition)
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)

@@ -27,7 +27,7 @@ The content is in teaching order.
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-07-01,38,300!2024-07-18,64,360-->
-  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2024-06-16,72,330!2024-07-31,81,377-->
+  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-06-25,52,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
@@ -195,7 +195,7 @@ water and sewage treatment system
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-06-19,8,204!2024-10-09,117,321-->
-- pipeline→:::←power plant <!--SR:!2024-06-16,23,260!2024-07-06,38,281-->
+- pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
@@ -285,7 +285,7 @@ workmanship
 - lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-07-17,32,261!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
-- social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-06-16,13,190-->
+- social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-07-14,28,190-->
 - workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
 
 <!--/pytextgen-->
@@ -358,7 +358,7 @@ transportation
 
 - _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
-- environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2024-06-16,46,325-->
+- environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-06-17,39,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
@@ -637,7 +637,7 @@ water
 - _(begin)_→:::←air <!--SR:!2024-07-09,54,341!2024-08-25,93,381-->
 - air→:::←environmental impact assessment (EIA) <!--SR:!2024-06-23,41,298!2024-09-09,108,338-->
 - environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2024-08-28,96,380-->
-- noise→:::←waste <!--SR:!2024-07-14,62,360!2024-06-16,41,335-->
+- noise→:::←waste <!--SR:!2024-07-14,62,360!2024-12-23,190,355-->
 - waste→:::←water <!--SR:!2024-07-02,57,357!2024-07-22,70,360-->
 - water→:::←_(end)_ <!--SR:!2024-08-20,88,380!2024-08-22,90,380-->
 
@@ -741,7 +741,7 @@ tunnel
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
-- embankment→:::←pile foundation <!--SR:!2024-06-16,36,320!2024-07-15,61,360-->
+- embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-06-19,9,232-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
@@ -777,7 +777,7 @@ levee
 - _(begin)_→:::←canal <!--SR:!2024-09-12,106,340!2024-07-18,70,347-->
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-06-21,48,352-->
 - channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
-- dam→:::←levee <!--SR:!2024-07-02,50,340!2024-06-16,41,332-->
+- dam→:::←levee <!--SR:!2024-07-02,50,340!2024-11-04,141,332-->
 - levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-06,53,258-->
 
 <!--/pytextgen-->
@@ -1146,12 +1146,12 @@ and the Structural Engineering Institute (SEI).
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
-- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-06-16,45,337!2024-09-28,123,335-->
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2024-08-31,91,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-08-22,87,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-10-09,130,337-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-08-29,92,337!2024-12-11,201,330-->
-- and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2024-06-16,72,330!2024-12-06,196,330-->
+- and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
 
 <!--/pytextgen-->
 

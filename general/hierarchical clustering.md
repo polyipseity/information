@@ -23,7 +23,7 @@ The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The resul
 
 To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2024-07-08,67,315!2024-11-06,155,315!2024-09-11,110,295-->
 
-Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-06-16,46,295!2024-10-03,126,295!2024-07-15,74,315-->
+Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-10-29,135,295!2024-10-03,126,295!2024-07-15,74,315-->
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
 
@@ -102,7 +102,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="259f"--><!-- The following content is generated at 2024-04-12T02:13:02.092326+08:00. Any edits will be overridden! -->
 
 - MISSQ, minimum increase of sum of squares::[Ward's method](Ward's%20method.md) <!--SR:!2024-06-23,55,315-->
-- UPGMC, unweighted centroid clustering::centroid linkage clustering <!--SR:!2024-06-16,49,295-->
+- UPGMC, unweighted centroid clustering::centroid linkage clustering <!--SR:!2025-01-02,200,315-->
 - maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-07-01,62,315-->
 - WPGMC, weighted centroid clustering::median linkage clustering <!--SR:!2024-09-01,81,255-->
 - minimum linkage clustering, nearest neighbor technique::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-06-29,61,315-->
@@ -153,7 +153,7 @@ The basic principle of divisive clustering was {{published as the DIANA (DIvisiv
 
 Initially, {{create a cluster that contain all observations}}. Find the cluster {{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}}. Then, in said cluster, {{find the observation that has the highest distance from the belonging cluster excluding the observation itself}}. Next, {{move the observation from said cluster to a new _splinter cluster_}}. Now, keep {{moving observations one by one from the old cluster to the new cluster}}. To choose the observation to be moved, {{calculate the _dissimilarity difference_ for each observation in the old cluster}}. The _dissimilarity difference_ of an observation in the old cluster is {{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}}. Move the observation {{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}}. If all _dissimilarity differences_ are negative, {{stop moving the observations}}. If there is only one item left, {{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}}. Repeat the above steps {{until you reach the desirable number of clusters}}. <!--SR:!2024-06-28,60,315!2024-06-20,43,255!2024-06-20,40,255!2024-09-28,122,295!2024-06-28,48,255!2024-06-29,49,255!2024-06-22,42,255!2024-09-01,93,275!2024-09-13,110,295!2024-06-24,44,255!2024-08-17,82,275-->
 
-Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-07-01,49,255!2024-07-21,64,275!2024-06-16,39,255!2024-08-23,86,294-->
+Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-07-01,49,255!2024-07-21,64,275!2024-11-01,138,275!2024-08-23,86,294-->
 
 ### monothetic clustering
 
