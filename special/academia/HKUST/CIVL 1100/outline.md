@@ -81,7 +81,7 @@ The content is in teaching order.
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed.
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings
-- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces
+- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
