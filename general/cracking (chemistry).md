@@ -14,7 +14,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2026-08-25,843,290!2024-06-16,305,290-->
+__Cracking__ is {{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}}. {{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}} are produced. <!--SR:!2026-08-25,843,290!2026-11-17,884,290-->
 
 It is used to produce {{extra [petrol](gasoline.md) and [alkenes](alkene.md)}}. <!--SR:!2027-03-22,1131,350-->
 

@@ -151,7 +151,7 @@ The content is in teaching order.
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-06-25,17,341!2024-06-24,16,341-->
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-06-26,18,341!2024-06-27,19,341-->
-  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-06-16,9,301!2024-06-28,20,341-->
+  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-07-15,29,301!2024-06-28,20,341-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-06-27,19,341!2024-06-27,19,341-->
   - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-07-01,16,301!2024-06-27,19,341-->
 - critical thinking pop quiz
@@ -208,9 +208,9 @@ The content is in teaching order.
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-06-23,15,321!2024-06-24,16,341-->
 - [five whys](../../../../general/five%20whys.md)
-- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-06-16,6,301!2024-06-21,13,321-->
+- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-06-21,13,321-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-06-16,6,301!2024-06-28,20,341-->
+  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-07-11,25,321!2024-06-28,20,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-06-17,7,301!2024-06-28,20,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-06-28,20,341!2024-06-24,16,341-->

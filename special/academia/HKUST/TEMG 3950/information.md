@@ -134,13 +134,13 @@ root cause analysis, 5 whys
 - _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-06-24,16,301!2024-06-26,18,301-->
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-17,9,281!2024-06-25,17,301-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-06-24,16,301!2024-06-22,14,301-->
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-06-16,9,261!2024-06-24,16,301-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-07-18,32,281!2024-06-24,16,301-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-06-23,15,301!2024-06-23,15,301-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-06-17,9,281!2024-06-23,15,301-->
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-06-19,4,241!2024-06-22,14,301-->
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-24,16,301!2024-06-22,14,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-06-18,10,281!2024-06-17,10,261-->
-- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-06-16,9,261!2024-06-16,4,221-->
+- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-07-11,25,261!2024-06-24,8,221-->
 - profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-06-18,10,281!2024-06-17,10,261-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-25,17,301!2024-06-24,16,301-->
 
