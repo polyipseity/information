@@ -41,7 +41,7 @@ A naive way to initialize the means is {{randomly choose $k$ observations}}. A l
 
 While _k_-means is {{simple to implement and efficient}}, there are several drawbacks to it. The number of clusters _k_ {{is a [hyperparameter](hyperparameter%20(machine%20learning).md) that is crucial for optimal results. Yet, [determining the number of clusters in a data set](determining%20the%20number%20of%20clusters%20in%20a%20data%20set) is difficult and often ambiguous}}. (Squared) [Euclidean distance](Euclidean%20distance.md) is {{(almost) always used as a [metric](metric%20(mathematics).md) and [variance](variance.md) is used as a measure of cluster scatter, which is are limited for many clustering models}}. Lastly, convergence may {{produce counterintuitive results, like a mean in between two somewhat close but still separate clusters, or a cluster being split into two by two means}}. <!--SR:!2024-10-30,151,310!2024-08-26,88,273!2024-06-27,52,270!2024-08-31,85,270-->
 
-Its cluster model is also very limited. It assumes the clusters are {{spherical and separable so that the mean converges to the cluster center. The clusters are also of similar size so that the observations are assigned the correct mean}}. <!--SR:!2024-06-17,41,250-->
+Its cluster model is also very limited. It assumes the clusters are {{spherical and separable so that the mean converges to the cluster center. The clusters are also of similar size so that the observations are assigned the correct mean}}. <!--SR:!2024-09-27,102,250-->
 
 ## references
 

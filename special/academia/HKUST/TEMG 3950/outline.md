@@ -96,7 +96,7 @@ The content is in teaching order.
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-07-02,39,295!2024-07-15,47,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
-    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-06-17,26,295!2024-08-02,64,335-->
+    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-09-03,78,295!2024-08-02,64,335-->
   - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
   - [§ fit](../../../value%20proposition%20canvas.md#fit)
 - [business model canvas](../../../business%20model%20canvas.md)
@@ -212,7 +212,7 @@ The content is in teaching order.
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-07-11,25,321!2024-06-28,20,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
-  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-06-17,7,301!2024-06-28,20,341-->
+  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-07-16,29,321!2024-06-28,20,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-06-28,20,341!2024-06-24,16,341-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
   - cause mapping § symptom ::: red background <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
@@ -267,7 +267,7 @@ The content is in teaching order.
     - R&D ::: research & development <!--SR:!2024-06-19,5,350!2024-06-20,6,350-->
     - S&M ::: sales & marketing <!--SR:!2024-06-20,6,350!2024-06-19,5,350-->
     - G&A ::: general & administration <!--SR:!2024-06-19,5,350!2024-06-19,5,350-->
-    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-06-17,3,330!2024-06-19,5,350-->
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-07-03,16,350!2024-06-19,5,350-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 
