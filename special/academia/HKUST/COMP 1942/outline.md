@@ -437,7 +437,7 @@ The content is in teaching order.
   - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
   - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
 - [conditional probability table](../../../../general/conditional%20probability%20table.md)
-  - conditional probability table format ::: The row headers are the inputs. The column headers are the outputs.
+  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables.
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
@@ -467,7 +467,7 @@ The content is in teaching order.
 - common core requirement ::: mathematical models, quantitative data, quantitative methods
 - other topics
   - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose.
-  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distance between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function).
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function).
   - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers.
   - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph?
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet?
